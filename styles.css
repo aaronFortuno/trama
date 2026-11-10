@@ -285,14 +285,14 @@ button { color: inherit; cursor: pointer; }
 .umbrella-brand:hover { text-decoration: underline; }
 .umbrella-brand svg { width: 19px; height: 19px; stroke-width: 5; }
 
-body, .site-header, .site-footer, .catalog-filters, .reading-card, .search-box, .filters-body select, .footer-link, .studio-settings, .studio-paper-stage, .studio-key, .studio-controls :is(select, input[type="text"]), .site-dialog {
+body, .site-header, .site-footer, .catalog-filters, .reading-card, .search-box, .filters-body select, .footer-link, .studio-settings, .studio-paper-stage, .studio-key, .studio-controls :is(select, input[type="text"], input[type="number"]), .site-dialog {
   transition: background-color var(--motion), color var(--motion), border-color var(--motion), box-shadow var(--motion);
 }
 
 [data-disclosing] { overflow: hidden; }
 
 @media (min-width: 791px) {
-  .site-bar, #catalog-view { width: calc(100% - 2 * clamp(16px, 1.35vw, 24px)); }
+  .site-bar, #catalog-view, #studio { width: calc(100% - 2 * clamp(16px, 1.35vw, 24px)); }
   #catalog-view, .catalog-section { height: 100%; }
   .catalog-section, .catalog-results { display: grid; grid-template-rows: auto minmax(0, 1fr); min-height: 0; }
   .catalog-layout { align-items: stretch; min-height: 0; }

@@ -13,6 +13,29 @@ const recoveryStatus = document.querySelector('#recovery-status');
 const readingIds = new Set(readings.map(({ id }) => id));
 let currentReadingId;
 
+const themeKey = 'trama.theme';
+const themeToggle = document.querySelector('#theme-toggle');
+const themeColor = document.querySelector('meta[name="theme-color"]');
+
+function savedTheme() {
+  try { return localStorage.getItem(themeKey) === 'dark' ? 'dark' : 'light'; }
+  catch { return 'light'; }
+}
+
+function applyTheme(theme) {
+  const root = document.documentElement;
+  root.dataset.theme = theme;
+  themeToggle.setAttribute('aria-label', theme === 'dark' ? 'Activa el tema clar' : 'Activa el tema fosc');
+  themeColor.content = getComputedStyle(root).getPropertyValue('--paper').trim();
+}
+
+applyTheme(savedTheme());
+themeToggle.addEventListener('click', () => {
+  const theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+  applyTheme(theme);
+  try { localStorage.setItem(themeKey, theme); } catch { /* The current page can still use either theme. */ }
+});
+
 const catalog = mountCatalog({ root: catalogView, readings, onSelect: openReading });
 const studio = mountStudio({
   root: studioView,
@@ -168,21 +191,5 @@ copyLightning.addEventListener('click', async () => {
   }
 });
 
-const systemTheme = matchMedia('(prefers-color-scheme: dark)');
-const themeToggle = document.querySelector('#theme-toggle');
-let preferredTheme;
-
-function applyTheme() {
-  const isDark = preferredTheme ? preferredTheme === 'dark' : systemTheme.matches;
-  document.documentElement.dataset.theme = isDark ? 'dark' : 'light';
-  themeToggle.setAttribute('aria-label', isDark ? 'Activa el tema clar' : 'Activa el tema fosc');
-}
-
-themeToggle.addEventListener('click', () => {
-  preferredTheme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
-  applyTheme();
-});
-systemTheme.addEventListener('change', applyTheme);
-applyTheme();
 window.addEventListener('hashchange', route);
 route();

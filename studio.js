@@ -1,5 +1,5 @@
 import { labelFor, wordCount } from './catalog.js';
-import { defaultQuestionLines, defaultSettings, imageDefaults, makeCode, marginLimits, maxAnswerLines, questionLines, readCode } from './worksheet-code.js';
+import { defaultQuestionLines, defaultSettings, imageDefaults, makeCode, makeLinkCode, marginLimits, maxAnswerLines, questionLines, readCode } from './worksheet-code.js';
 import { renderWorksheet } from './worksheet.js';
 import { animateRefresh, mountDisclosures, setDisclosure } from './motion.js';
 import { mountPreviewZoom } from './preview-zoom.js';
@@ -32,10 +32,10 @@ const template = `
     </div>
   </header>
   <div class="studio-layout">
-    <aside class="studio-settings" aria-labelledby="studio-settings-title">
+    <aside class="studio-settings studio-format" aria-labelledby="studio-settings-title">
       <div class="studio-panel-heading">
-        <h2 id="studio-settings-title">Ajustos de la fitxa</h2>
-        <button class="studio-text-button" type="button" data-action="reset">Restableix</button>
+        <h2 id="studio-settings-title">Format del full</h2>
+        <button class="studio-text-button" type="button" data-action="reset" aria-label="Restableix tots els ajustos de la fitxa">Restableix</button>
       </div>
       <form class="studio-form scroll-pane">
         <div class="studio-template-tools">
@@ -66,28 +66,6 @@ const template = `
           </div>
         </details>
         <details>
-          <summary>Preguntes i respostes <span class="studio-detail-count" id="studio-question-count"></span></summary>
-          <div class="studio-controls">
-            <fieldset class="studio-answer-styles"><legend>Pauta de resposta</legend>
-              ${Object.entries(answerStyleOptions).map(([style, label]) => `<label class="studio-check"><input type="radio" name="answerStyle" value="${style}"> ${label}</label>`).join('')}
-            </fieldset>
-            <label>Espai per defecte
-              <select name="answerLines"><option value="-1">Segons la pregunta</option><option value="0">Cap espai</option>${Array.from({ length: maxAnswerLines }, (_, i) => `<option value="${i + 1}">${i + 1} ${i === 0 ? 'línia' : 'línies'}</option>`).join('')}</select>
-            </label>
-            ${range('questionGap', 'Espai entre preguntes', 0, 14, 1, 'mm')}
-            ${range('answerGap', 'Alçada de cada línia', 5, 13, 1, 'mm')}
-            <div id="studio-answer-weight">${range('answerWeight', 'Gruix de la pauta', .1, .5, .05, 'mm')}</div>
-            <fieldset><legend>Preguntes que apareixeran</legend><div id="studio-questions"></div></fieldset>
-          </div>
-        </details>
-        <details>
-          <summary>Il·lustracions <span class="studio-detail-count" id="studio-image-count"></span></summary>
-          <div class="studio-controls">
-            <label class="studio-check"><input type="checkbox" name="showImages"> Inclou il·lustracions</label>
-            <div id="studio-images"></div>
-          </div>
-        </details>
-        <details>
           <summary>Encapçalament</summary>
           <div class="studio-controls">
             ${check('headerName', 'Camp de nom')}
@@ -109,11 +87,41 @@ const template = `
             ${check('showPage', 'Número de pàgina')}
           </div>
         </details>
+      </form>
+    </aside>
+    <aside class="studio-settings studio-content" aria-labelledby="studio-content-title">
+      <div class="studio-panel-heading"><h2 id="studio-content-title">Contingut</h2></div>
+      <form class="studio-form scroll-pane">
+        <details open>
+          <summary>Preguntes <span class="studio-detail-count" id="studio-question-count"></span></summary>
+          <div class="studio-controls" id="studio-questions"></div>
+        </details>
+        <details>
+          <summary>Espai de resposta</summary>
+          <div class="studio-controls">
+            <fieldset class="studio-answer-styles"><legend>Pauta de resposta</legend>
+              ${Object.entries(answerStyleOptions).map(([style, label]) => `<label class="studio-check"><input type="radio" name="answerStyle" value="${style}"> ${label}</label>`).join('')}
+            </fieldset>
+            <label>Espai per defecte
+              <select name="answerLines"><option value="-1">Segons la pregunta</option><option value="0">Cap espai</option>${Array.from({ length: maxAnswerLines }, (_, i) => `<option value="${i + 1}">${i + 1} ${i === 0 ? 'línia' : 'línies'}</option>`).join('')}</select>
+            </label>
+            ${range('questionGap', 'Espai entre preguntes', 0, 14, 1, 'mm')}
+            ${range('answerGap', 'Alçada de cada línia', 5, 13, 1, 'mm')}
+            <div id="studio-answer-weight">${range('answerWeight', 'Gruix de la pauta', .1, .5, .05, 'mm')}</div>
+          </div>
+        </details>
+        <details>
+          <summary>Il·lustracions <span class="studio-detail-count" id="studio-image-count"></span></summary>
+          <div class="studio-controls">
+            ${check('showImages', 'Inclou il·lustracions')}
+            <div id="studio-images"></div>
+          </div>
+        </details>
         <details class="studio-share">
           <summary>Codi de la fitxa</summary>
           <div class="studio-controls">
-            <p>El codi indica la lectura, la llengua i els ajustos que has canviat.</p>
-            <textarea id="studio-code" aria-label="Codi de la fitxa" rows="2" readonly spellcheck="false"></textarea>
+            <p>El codi recupera la lectura i la tria de preguntes. L’enllaç també recupera el format de la fitxa.</p>
+            <input id="studio-code" type="text" aria-label="Codi de la fitxa" readonly spellcheck="false">
             <div class="studio-copy-buttons">
               <button class="button" type="button" data-action="code">Copia el codi</button>
               <button class="button" type="button" data-action="link">Copia l’enllaç</button>
@@ -170,30 +178,39 @@ function imageControls(image, index) {
 export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
   root.innerHTML = template;
   const find = selector => root.querySelector(selector);
-  const form = find('form');
+  const forms = [...root.querySelectorAll('.studio-form')];
+  const contentForm = find('.studio-content .studio-form');
   const pages = find('#studio-pages');
   const stage = find('.studio-paper-stage');
   const preview = mountPreviewZoom(stage, pages, find('.studio-zoom'));
-  mountDisclosures(form, { exclusive: true });
+  forms.forEach(form => mountDisclosures(form, { exclusive: true }));
   mountDisclosures(find('.studio-preview'));
   const main = root.closest('main');
-  const settingsHeading = find('.studio-settings > .studio-panel-heading');
-  const fixedParts = [find('.studio-template-tools'), ...form.querySelectorAll('summary')];
-  const splitView = matchMedia('(min-width: 791px) and (min-height: 480px)');
+  const panels = forms.map(form => ({
+    form,
+    heading: form.previousElementSibling,
+    fixedParts: [...form.querySelectorAll('.studio-template-tools, summary')],
+    borders: form.querySelectorAll('summary').length,
+  }));
+  const splitView = matchMedia('(min-width: 960px) and (min-height: 480px)');
   let sidebarFrame = 0;
   const resizeSidebar = new ResizeObserver(() => {
     if (sidebarFrame) return;
     sidebarFrame = requestAnimationFrame(() => {
       sidebarFrame = 0;
-      const fixedHeight = fixedParts.reduce((sum, part) => sum + part.offsetHeight, fixedParts.length - 1);
-      const available = splitView.matches ? form.clientHeight : main.clientHeight - settingsHeading.offsetHeight;
-      form.style.setProperty('--studio-panel-height', `${Math.max(64, available - fixedHeight)}px`);
+      for (const { form, heading, fixedParts, borders } of panels) {
+        const fixedHeight = fixedParts.reduce((sum, part) => sum + part.offsetHeight, borders);
+        const available = splitView.matches ? form.clientHeight : main.clientHeight - heading.offsetHeight;
+        form.style.setProperty('--studio-panel-height', `${Math.max(64, available - fixedHeight)}px`);
+      }
     });
   });
-  resizeSidebar.observe(form);
   resizeSidebar.observe(main);
-  resizeSidebar.observe(settingsHeading);
-  for (const part of fixedParts) resizeSidebar.observe(part);
+  for (const { form, heading, fixedParts } of panels) {
+    resizeSidebar.observe(form);
+    resizeSidebar.observe(heading);
+    fixedParts.forEach(part => resizeSidebar.observe(part));
+  }
   const codeInput = find('#studio-code');
   const status = find('#studio-status');
   const variant = find('#studio-variant');
@@ -229,7 +246,8 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
     variant.replaceChildren(...variants.map(entry => new Option(labelFor('language', entry.language), entry.id)));
     variant.value = reading.id;
     variant.parentElement.hidden = variants.length < 2;
-    find('#studio-questions').replaceChildren(...reading.questions.map(question => {
+    find('#studio-questions').replaceChildren(...reading.questions.map((question, index) => {
+      const row = create('div', 'studio-question-setting');
       const label = create('label', 'studio-question-option studio-check');
       const input = create('input');
       input.type = 'checkbox';
@@ -237,12 +255,22 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
       const copy = create('span');
       const prompt = create('span', null, question.prompt);
       prompt.lang = reading.language;
-      copy.append(create('small', null, labelFor('question', question.type)), prompt);
+      copy.append(create('small', null, `${index + 1} · ${labelFor('question', question.type)}`), prompt);
       label.append(input, copy);
-      return label;
+      const space = create('label', 'studio-question-space');
+      const amount = create('input');
+      amount.type = 'number';
+      amount.min = 0;
+      amount.max = maxAnswerLines;
+      amount.step = 1;
+      amount.dataset.questionLines = question.id;
+      amount.setAttribute('aria-label', `Espai de resposta de la pregunta ${index + 1}`);
+      space.append(create('span', null, 'Línies de resposta'), amount);
+      row.append(label, space);
+      return row;
     }));
     find('#studio-images').replaceChildren(...reading.images.map(imageControls));
-    form.elements.showImages.disabled = !reading.images.length;
+    contentForm.elements.showImages.disabled = !reading.images.length;
     status.hidden = true;
     templateStatus.textContent = '';
     hiddenQuestion = undefined;
@@ -250,7 +278,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
   }
 
   function syncControls(animated = true) {
-    for (const input of form.querySelectorAll('[name]')) {
+    for (const input of root.querySelectorAll('.studio-form [name]')) {
       const value = input.name === 'leading' ? Math.round(settings.leading * 50) / 100 : settings[input.name];
       if (input.type === 'checkbox') input.checked = settings[input.name];
       else if (input.type === 'radio') input.checked = input.value === value;
@@ -268,8 +296,17 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
     find('#studio-question-count').textContent = `${included.length}/${reading.questions.length}`;
     const visible = settings.showImages ? reading.images.filter(image => settings.images[image.id]?.visible !== false).length : 0;
     find('#studio-image-count').textContent = `${visible}/${reading.images.length}`;
-    for (const input of form.querySelectorAll('[data-question]')) input.checked = !settings.excluded.includes(input.dataset.question);
-    for (const card of form.querySelectorAll('[data-image]')) {
+    const questionRows = find('#studio-questions').children;
+    reading.questions.forEach((question, index) => {
+      const row = questionRows[index];
+      const included = !settings.excluded.includes(question.id);
+      row.querySelector('[data-question]').checked = included;
+      const amount = row.querySelector('[data-question-lines]');
+      const value = String(questionLines(question, settings));
+      if (amount.value !== value) amount.value = value;
+      amount.disabled = !included;
+    });
+    for (const card of contentForm.querySelectorAll('[data-image]')) {
       const config = settings.images[card.dataset.image] || imageDefaults;
       setDisclosure(card.querySelector('.studio-image-options'), config.visible, { animated });
       card.querySelector('[data-image-width]').value = `${config.width}%`;
@@ -318,7 +355,10 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
     syncControls(false);
     onOpen(reading);
     refresh();
-    form.scrollTop = 0;
+    for (const form of forms) {
+      form.scrollTop = 0;
+      form.querySelectorAll('.details-panel').forEach(panel => { panel.scrollTop = 0; });
+    }
     preview.reset();
   }
 
@@ -333,6 +373,10 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
         hiddenQuestion = undefined;
         questionFeedback.hidden = true;
       }
+    } else if (input.dataset.questionLines) {
+      const question = reading.questions.find(entry => entry.id === input.dataset.questionLines);
+      if (!question || input.value === '' || !input.validity.valid) return;
+      setQuestionSpace(question, input.valueAsNumber);
     } else if (input.dataset.imageKey) {
       const id = input.closest('[data-image]').dataset.image;
       settings.images[id] = { ...imageDefaults, ...settings.images[id], [input.dataset.imageKey]: value };
@@ -345,6 +389,11 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
     templateStatus.textContent = '';
     syncControls();
     if (!frame) frame = requestAnimationFrame(refresh);
+  }
+
+  function setQuestionSpace(question, count) {
+    if (count === defaultQuestionLines(question, settings)) delete settings.questionLines[question.id];
+    else settings.questionLines[question.id] = count;
   }
 
   function editQuestion(action, button) {
@@ -373,8 +422,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
       animateRefresh(questionFeedback);
     } else {
       const count = Math.min(maxAnswerLines, Math.max(0, questionLines(question, settings) + (action === 'question-more' ? 1 : -1)));
-      if (count === defaultQuestionLines(question, settings)) delete settings.questionLines[question.id];
-      else settings.questionLines[question.id] = count;
+      setQuestionSpace(question, count);
     }
     templateStatus.textContent = '';
     syncControls();
@@ -406,8 +454,17 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
     status.hidden = false;
   }
 
-  form.addEventListener('submit', event => event.preventDefault());
-  form.addEventListener('input', update);
+  for (const form of forms) {
+    form.addEventListener('submit', event => event.preventDefault());
+    form.addEventListener('input', update);
+  }
+  contentForm.addEventListener('change', event => {
+    const input = event.target;
+    if (input.dataset.questionLines && (input.value === '' || !input.validity.valid)) {
+      const question = reading.questions.find(entry => entry.id === input.dataset.questionLines);
+      if (question) input.value = questionLines(question, settings);
+    }
+  });
   variant.addEventListener('change', () => onVariant?.(variant.value));
   root.addEventListener('click', async event => {
     const button = event.target.closest('[data-action]');
@@ -431,7 +488,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
     if (action === 'code' || action === 'link') {
       if (frame) refresh();
       const url = new URL(location.href);
-      url.hash = `fitxa=${encodeURIComponent(code)}`;
+      url.hash = `fitxa=${encodeURIComponent(makeLinkCode(reading, settings))}`;
       await copy(action === 'code' ? code : url.href, action === 'code' ? 'Codi copiat.' : 'Enllaç copiat.');
     }
     if (action === 'print') {

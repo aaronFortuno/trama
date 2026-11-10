@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.4 · 10 de novembre de 2026
+
+Visor més ample, amb el format a l’esquerra i el contingut a la dreta. Codis curts de lectura i preguntes, i preferència de tema desada al navegador.
+
 ## 1.3.1 · 10 de novembre de 2026
 
 El catàleg aprofita l’amplada de la finestra i passa de quatre a tres, dues o una columna segons la pantalla.

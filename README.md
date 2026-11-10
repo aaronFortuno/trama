@@ -24,8 +24,8 @@ Les entrades es troben a `data/readings.js`. Els filtres es deriven de les dades
 
 ## Codis i privadesa
 
-Un codi com `L001-ES` identifica la lectura i l’idioma. `L001-ES COS=14 INT=1.25 MARGES=14/16/10/20` hi afegeix el cos de lletra, l’interlineat i els marges en ordre superior, dret, inferior i esquerre. L’1× correspon al doble del cos de lletra. El codi inclou també els canvis de pauta, les preguntes amagades i el text personalitzat de l’encapçalament.
+Un codi com `L001-ES` identifica la lectura i l’idioma. `L001-ES-X1.3` recupera la mateixa lectura amb les preguntes 1 i 3 omeses. L’enllaç compartit també recupera el format i els ajustos individuals, inclòs el text personalitzat de l’encapçalament.
 
-Escriu o enganxa el codi al catàleg, o obre un enllaç compartit amb `#fitxa=`. Es poden recuperar igualment els codis `TR1` anteriors. Conserva els codis i els identificadors de les lectures, preguntes i imatges quan ampliïs el catàleg.
+Escriu o enganxa el codi al catàleg, o obre un enllaç compartit amb `#fitxa=`. Es poden recuperar igualment els codis anteriors. Conserva els codis i els identificadors de les lectures, preguntes i imatges quan ampliïs el catàleg.
 
-Trama funciona al navegador. Els recursos se serveixen des del mateix web. El projecte no incorpora comptes, cookies ni analítica. Les plantilles es desen al navegador on les crees.
+Trama funciona al navegador. Els recursos se serveixen des del mateix web. El projecte no incorpora comptes, cookies ni analítica. Les plantilles i la preferència de tema es desen al navegador.

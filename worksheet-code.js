@@ -97,7 +97,12 @@ const scalarCodes = [
 ];
 
 export function makeCode(reading, settings) {
-  const tokens = [baseCode(reading)];
+  const excluded = reading.questions.filter(question => settings.excluded.includes(question.id)).map(questionCode);
+  return excluded.length ? `${baseCode(reading)}-X${excluded.join('.')}` : baseCode(reading);
+}
+
+export function makeLinkCode(reading, settings) {
+  const tokens = [makeCode(reading, settings)];
   const changed = key => settings[key] !== fields[key][0];
   for (const [label, key, encode = String] of scalarCodes) {
     if (changed(key)) tokens.push(`${label}=${encode(settings[key])}`);
@@ -109,8 +114,6 @@ export function makeCode(reading, settings) {
       tokens.push(`${name}=${enabled.join(',') || 'NO'}`);
     }
   }
-  const excluded = reading.questions.filter(question => settings.excluded.includes(question.id)).map(questionCode);
-  if (excluded.length) tokens.push(`AMAGA=${excluded.join(',')}`);
   const lines = reading.questions.filter(question => Object.hasOwn(settings.questionLines, question.id))
     .map(question => `${questionCode(question)}:${settings.questionLines[question.id]}`);
   if (lines.length) tokens.push(`RES=${lines.join(',')}`);
@@ -145,10 +148,19 @@ function readReadable(code, readings) {
   const pieces = code.match(/(?:[^\s"]+|"(?:[^"\\]|\\.)*")+/gu);
   if (!pieces?.length || code.replace(/(?:[^\s"]+|"(?:[^"\\]|\\.)*")+/gu, '').trim()) return null;
   const [reference, ...tokens] = pieces;
-  const reading = readings.find(entry => baseCode(entry) === reference.toUpperCase());
+  const identifier = reference.toUpperCase();
+  const reading = readings.find(entry => baseCode(entry) === identifier)
+    ?? readings.filter(entry => identifier.startsWith(`${baseCode(entry)}-X`))
+      .sort((a, b) => b.language.length - a.language.length)[0];
   if (!reading) return null;
   const settings = defaultSettings();
   const questionIds = new Map(reading.questions.map(question => [upper(questionCode(question)), question.id]));
+  const suffix = identifier.slice(baseCode(reading).length);
+  if (suffix) {
+    const excluded = suffix.slice(2).split('.').map(value => questionIds.get(value));
+    if (excluded.some(id => !id)) return null;
+    settings.excluded = [...new Set(excluded)];
+  }
   const scalars = new Map(scalarCodes.map(([label, key, , decode = numeric]) => [label, [key, decode]]));
   const used = new Set();
   for (const token of tokens) {
