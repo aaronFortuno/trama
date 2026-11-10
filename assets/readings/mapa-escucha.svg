@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="280" viewBox="0 0 480 280">
+  <title>La clase toma notas en la plaza</title>
+  <rect width="480" height="280" rx="14" fill="#e4eee7"/>
+  <path d="M0 154q86-15 173-7 146 19 307-17v136q0 14-14 14H14Q0 280 0 266Z" fill="#f4e5cb"/>
+  <path d="M0 190q157-30 294-23 93 6 186-28v32q-101 35-177 31-145-8-303 26Z" fill="#cfd9ce"/>
+  <path d="M4 206q158-30 292-23 92 5 180-28" fill="none" stroke="#f9f6ea" stroke-dasharray="13 10" stroke-width="2.5"/>
+  <path d="M15 137V86h31V65h40v64m234 10V74h40v54m11 2V92h20V71h42v51m14 5V84h26v44" fill="#c1d3c5"/>
+  <path d="M57 79h12m-12 12h12m270-5h11m-11 13h11m55-14h13m-13 13h13" fill="none" stroke="#edf2e6" stroke-width="4" stroke-linecap="round"/>
+  <path d="M151 158V67m0 45-21-19m21 4 22-15" fill="none" stroke="#798968" stroke-width="6" stroke-linecap="round"/>
+  <path d="M105 81q-6-19 19-29 2-24 25-24 19 0 25 17 24-4 28 14 7 29-20 34-13 12-31 0-34 13-46-12Z" fill="#9fb193"/>
+  <g fill="none" stroke="#475f5d" stroke-width="2.5" stroke-linecap="round">
+    <path d="M211 53q6-8 12 0 6-8 12 0m12 20q5-6 10 0 5-6 10 0"/>
+    <path d="M191 74q7-4 11-1m-9-9q8-5 15-2" stroke="#6b9285"/>
+  </g>
+  <g stroke="#31444b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M335 134q2-10 12-11h77q15 0 20 13l5 17v12H335Z" fill="#ba705b"/>
+    <path d="M343 132h18v16h-18Zm26 0h18v16h-18Zm26 0h23q11 0 16 16h-39Z" fill="#e3ede3"/>
+    <circle cx="354" cy="165" r="7" fill="#31444b"/>
+    <circle cx="431" cy="165" r="7" fill="#31444b"/>
+    <path d="M449 145l12-4m-12 11 19-1" fill="none" stroke="#6b9285"/>
+    <path d="M36 175q24-14 56 0l-3 12q-26 9-50 0Z" fill="#698f89"/>
+    <ellipse cx="64" cy="175" rx="28" ry="7" fill="#9fc5bc"/>
+    <path d="M63 174v-19h4v19" fill="#698f89"/>
+    <path d="M65 154q-10-11-17 5m17-5q9-11 17 5m-17-6v-9" fill="none" stroke="#557d85"/>
+  </g>
+  <ellipse cx="247" cy="250" rx="123" ry="13" fill="#e4d2b4"/>
+  <g stroke="#31444b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M143 201h197v14H143Zm5-35h188v15H148Z" fill="#b98355"/>
+    <path d="M151 215v28m182-28v28" fill="none" stroke-width="5"/>
+    <path d="M169 200q6-24 22-26 13 0 23 16l-4 20h-40Z" fill="#bf7057"/>
+    <path d="M225 200q7-25 23-24 15 1 22 16l1 19h-46Z" fill="#e3af60"/>
+    <path d="M281 201q4-25 22-27 14 1 21 13l-1 24h-45Z" fill="#689891"/>
+    <path d="M178 213l5 28m20-28-1 27m32-27 4 27m22-27 3 29m25-29 3 27m21-27 4 28" fill="none" stroke-width="6"/>
+    <path d="M178 242h11m9-1h11m25 0h11m13 1h12m17-1h10m15 1h12" fill="none" stroke-width="4.5"/>
+    <circle cx="192" cy="160" r="12" fill="#d9a781"/>
+    <path d="M181 161q-7-15 8-17 14-3 16 11l-10-4-6 7Z" fill="#613f34"/>
+    <circle cx="247" cy="162" r="12" fill="#ae7958"/>
+    <path d="M235 164q-8-13 3-18 14-5 21 5 2 3 1 7-9-3-13-8-5 8-12 14Z" fill="#333b37"/>
+    <circle cx="302" cy="158" r="12" fill="#e0b28d"/>
+    <path d="M291 161q-7-15 8-19 14-4 17 11-7 3-14-4-3 6-11 12Z" fill="#534332"/>
+    <path d="M185 196l19 1 6 10h-25Zm52-2 23 1 5 10h-26Z" fill="#fffaed"/>
+    <path d="M309 180l7-9-7-9" fill="none" stroke="#c89571" stroke-width="5"/>
+  </g>
+</svg>

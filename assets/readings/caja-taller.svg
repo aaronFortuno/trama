@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="280" viewBox="0 0 480 280">
+  <title>Un dibujo nuevo en el taller</title>
+  <rect width="480" height="280" rx="14" fill="#f1e1c6"/>
+  <path d="M0 74h480M0 159h480M0 239h480m-458-116h90m279-104h69m-315 229h74m170-14h76" fill="none" stroke="#e4cfad" stroke-width="2"/>
+  <path d="M27 64 145 40l37 167-118 26Zm156-8 165-17 21 205-168 19Z" fill="#cdb694" opacity=".6"/>
+  <g stroke="#35494a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 53 137 28l38 173-119 25Z" fill="#fff6e2"/>
+    <path d="M20 53 137 28l35 161-119 25Z" fill="#6d8c7c"/>
+    <path d="M26 53 62 214m-20-145 82-17 25 114-82 18Z" fill="none" stroke="#b0bea3"/>
+    <path d="M53 219l121-25" fill="none" stroke="#c6bda4" stroke-width="1.8"/>
+    <path d="M175 48 338 32l20 204-168 18Z" fill="#fff8e9"/>
+    <g transform="rotate(-5 263 144)">
+      <path d="M230 130l-4-23 14 8 6 12 14-2 10-20 5 23-4 10 10 13-21 19-23-12-15-15Z" fill="none"/>
+      <path d="M227 107l13 8-7 12m10 14h2m23-3h1m-17 18 6 4 5-6" fill="none"/>
+      <path d="M258 169q14 13 32 7 16-7 14-21-4-18-23-17" fill="none" stroke="#967762" stroke-dasharray="3 5"/>
+    </g>
+    <g transform="translate(315 163) rotate(39)">
+      <path d="M0 0h8v72H0Z" fill="#c9795d"/>
+      <path d="M0 72h8l-4 13Z" fill="#efd4a5"/>
+      <path d="m2 80 2 5 2-5Z" fill="#35494a"/>
+    </g>
+    <path d="M90 199l80-26 15 43-81 26q-2-6-6-6l-3-8q6-4 2-10-2-4-7-4Z" fill="#e5b477"/>
+    <path d="m110 209 43-14m-40 21 27-9m18-18 10 29" fill="none" stroke="#a77552" stroke-width="1.8"/>
+    <g transform="translate(364 141) rotate(15)">
+      <rect width="61" height="101" rx="8" fill="#3f5559"/>
+      <rect x="6" y="12" width="49" height="72" rx="3" fill="#dce9df"/>
+      <path d="M23 6h15m-15 86h15" fill="none" stroke="#9eafaa"/>
+      <circle cx="30" cy="47" r="12" fill="#70998a" stroke="none"/>
+      <path d="M26 41q-4 3 0 8 5 5 8 2l2-2-3-2-2 2-4-4 1-2Z" fill="#fff8e9" stroke="none"/>
+    </g>
+    <path d="M403 58h27v42h-27Z" fill="#b9755f"/>
+    <path d="M404 67h25m-25 6h25m-25 6h25m-25 6h25m-25 6h25" fill="none" stroke="#e5a08b" stroke-width="1.8"/>
+    <ellipse cx="416" cy="58" rx="16" ry="5" fill="#d29d64"/>
+    <ellipse cx="416" cy="100" rx="16" ry="5" fill="#d29d64"/>
+    <path d="M404 91q-37 15-13 24 13 5 37-4 18-6 29 4" fill="none" stroke="#ac735f" stroke-width="1.8"/>
+  </g>
+</svg>

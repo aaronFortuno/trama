@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="280" viewBox="0 0 480 280">
+  <title>Plano del recorrido sonoro</title>
+  <rect width="480" height="280" rx="14" fill="#e1ece4"/>
+  <path d="M0 219h480v47q0 14-14 14H14Q0 280 0 266Z" fill="#d3e2d7"/>
+  <path d="M45 54 397 24l35 193-353 34Z" fill="#9eb3a8" opacity=".45"/>
+  <g transform="rotate(-5 240 140)" stroke="#31454a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="57" y="37" width="366" height="204" rx="4" fill="#fdf8e9"/>
+    <path d="M70 50h263v178H70Z" fill="#eef0df" stroke="#d2d9c9"/>
+    <path d="M97 52q-10 31 22 55t17 56q-13 25 8 63" fill="none" stroke="#9cc9c3" stroke-width="17"/>
+    <path d="M76 93h238M80 177h239M178 51v174M267 50v174" fill="none" stroke="#fdf8e9" stroke-width="12"/>
+    <path d="M190 57h30v23h-30Zm39 0h25v23h-25Zm-39 46h27v22h-27Zm36 0h29v22h-29Zm-36 32h65v26h-65Zm88-78h39v23h-39Zm0 49h40v40h-40Zm1 80h39v29h-39Zm-90 3h26v28h-26Zm37 0h28v28h-28Z" fill="#cad7c5" stroke="none"/>
+    <path d="M91 105h21v34H91Zm66-46h11v22h-11Zm0 134h12v23h-12Zm-69 0h27v24H88Z" fill="#d7d4ba" stroke="none"/>
+    <path d="M286 177h-20V93h-87v85h-47" fill="none" stroke="#a95344" stroke-width="4" stroke-dasharray="1 7"/>
+    <g fill="#f4d181">
+      <circle cx="287" cy="177" r="8"/>
+      <circle cx="266" cy="93" r="8"/>
+      <circle cx="179" cy="94" r="8"/>
+      <circle cx="132" cy="178" r="8"/>
+    </g>
+    <path d="M347 58h61m-60 12h36" fill="none" stroke="#69847c" stroke-width="3"/>
+    <path d="M353 90q-7 9-7 13a7 7 0 0 0 14 0q0-4-7-13Z" fill="#9cc9c3"/>
+    <path d="M346 126q7-6 11 1l4 1-5 2q-2 7-10 5l-5 2 3-5-3-3Z" fill="#e6b268"/>
+    <circle cx="353" cy="156" r="7" fill="#eab683"/>
+    <circle cx="353" cy="156" r="2.3" fill="#fcf6e9"/>
+    <path d="M370 103h32m-32 30h23m-23 26h29m-50 26h58m-58 14h58m-58 14h47" fill="none" stroke="#a9b8a7"/>
+  </g>
+  <g transform="translate(412 186) rotate(39)" stroke="#31454a" stroke-width="1.8" stroke-linejoin="round">
+    <path d="M0 0h10v81H0Z" fill="#c5755e"/>
+    <path d="M0 81h10l-5 16Z" fill="#efd8a9"/>
+    <path d="m3 91 2 6 2-6Z" fill="#31454a"/>
+    <path d="M0 0h10v9H0Z" fill="#dc9c83"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="280" viewBox="0 0 480 280">
+  <title>Prueba con el puente de acordeón</title>
+  <rect width="480" height="280" rx="14" fill="#f4e9d3"/>
+  <path d="M24 216 115 155H458l-82 78H24Z" fill="#e5e7d9"/>
+  <path d="M91 209h298m-274-17h295m-271-17h291m-235-17-82 66m136-66-81 66m133-66-81 66m136-66-83 66m134-66-82 66" fill="none" stroke="#c4d0be" stroke-width="1.5"/>
+  <ellipse cx="141" cy="203" rx="49" ry="10" fill="#ccd4c2"/>
+  <ellipse cx="349" cy="203" rx="49" ry="10" fill="#ccd4c2"/>
+  <g stroke="#2e4246" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M108 123h58l12 69q0 12-41 12t-42-12Z" fill="#80a9a0"/>
+    <path d="M316 123h58l12 69q0 12-41 12t-42-12Z" fill="#80a9a0"/>
+    <path d="M114 139l-7 48m215-48-7 48" fill="none" stroke="#d4e6db" stroke-width="4"/>
+    <path d="M83 139 94 115h267l-11 24Zm22-4 11-24h267l-11 24Zm22-4 11-24h267l-11 24Z" fill="#fbf7e9"/>
+    <path d="M94 115l11 20h267l-11-20Zm22-4 11 20h267l-11-20Z" fill="#ddd7c4"/>
+    <path d="M213 111l16-15h54l-16 15Z" fill="#d49a5c"/>
+    <path d="M213 111h54l16-15v5l-16 15h-54Z" fill="#bc7d47"/>
+    <path d="M233 99V80h28v19c0 8-28 8-28 0Z" fill="#ce8841"/>
+    <path d="M233 87c0 8 28 8 28 0m-28 7c0 8 28 8 28 0" fill="none" stroke="#995b36" stroke-width="1.7"/>
+    <ellipse cx="247" cy="80" rx="14" ry="6" fill="#f2c369"/>
+    <path d="M243 80h8" fill="none" stroke="#a66539" stroke-width="1.7"/>
+    <path d="M189 200h103m-98-5-5 5 5 5m93-10 5 5-5 5" fill="none" stroke="#607b71" stroke-width="2"/>
+  </g>
+</svg>

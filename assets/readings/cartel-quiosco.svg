@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="280" viewBox="0 0 480 280">
+  <title>Intercambio de libros en la plaza</title>
+  <rect width="480" height="280" rx="14" fill="#edf1e7"/>
+  <path d="M0 175Q100 132 190 163T480 152V266Q480 280 466 280H14Q0 280 0 266Z" fill="#f3e4c9"/>
+  <circle cx="412" cy="49" r="25" fill="#f5cb75"/>
+  <path d="M25 177V74m0 57 22-22m-22 2L8 93M454 176V98" fill="none" stroke="#74866d" stroke-width="6" stroke-linecap="round"/>
+  <path d="M0 119Q14 136 33 123q30 0 29-25-1-13-15-18 5-25-17-29Q12 46 4 70l-4 2Zm422 9q-3-19 13-25-3-23 14-29 20-8 29 11l2 3v37q-15 19-32 5-16 14-26-2Z" fill="#a9b99a"/>
+  <path d="M8 197h54m-13 16h60m254-15h68m-93 17h22m-203 29h74m107 9h56m-355 8h42" fill="none" stroke="#dfcda9" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="216" cy="200" rx="126" ry="13" fill="#e4d3b6"/>
+  <g stroke="#283b46" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M127 72h153v117H127Z" fill="#64928a"/>
+    <path d="M143 85h120v104H143Z" fill="#32645f"/>
+    <path d="M111 75l25-35h131l29 35Z" fill="#b96b53"/>
+    <path d="M146 75l12-35m22 35 4-35m30 35-3-35m34 35-12-35m43 35-17-35" fill="none" stroke="#e9a480"/>
+    <path d="M112 75h183v9H112Zm10 105h163v13H122Z" fill="#47776e"/>
+    <path d="M163 93l77-3 3 74-77 3Z" fill="#fffaf0"/>
+    <path d="M177 130q5 5 14 4l-3-18 14 7q2-10 10-12l-1-6 8 5 8 1 3 8-10 2q2 15-14 17l-12 1q-13 1-17-9Z" fill="#df9d53"/>
+    <path d="M184 147h39m-33 7h25" fill="none" stroke="#263946" stroke-width="2"/>
+    <circle cx="220" cy="114" r="1.6" fill="#283b46" stroke="none"/>
+    <path d="M116 226v-30m37 32v-29" fill="none" stroke-width="5"/>
+    <path d="M108 172q10-12 25-12t23 12l3 29h-52Z" fill="#c36d56"/>
+    <path d="M149 174l19 10 14-12" fill="none" stroke="#b47e5a" stroke-width="7"/>
+    <circle cx="132" cy="146" r="14" fill="#bd8962"/>
+    <path d="M119 151q-6-10 0-20 10-9 21-3 9 5 6 13-7-1-16-7-2 9-11 17Z" fill="#303b37"/>
+    <path d="M103 226h16m31 2h13" fill="none" stroke-width="5"/>
+    <path d="M287 218v17m31-18 2 17" fill="none" stroke-width="5"/>
+    <path d="M283 174q8-12 22-10 13 1 18 12l1 41h-43Z" fill="#e4aa60"/>
+    <path d="M287 179l-18 20-14-8" fill="none" stroke="#d6a47b" stroke-width="7"/>
+    <circle cx="303" cy="148" r="14" fill="#e2ae83"/>
+    <path d="M289 150q-8-15 6-22 13-6 22 4 5 5 2 11-6-1-13-9-6 8-17 9Z" fill="#614335"/>
+    <path d="M280 235h11m28-1h10" fill="none" stroke-width="5"/>
+    <path d="M176 183h78v46h-78Z" fill="#e5a155"/>
+    <path d="M181 182v-18h13v18m3 0v-13h15v13m5 0 4-21 14 3-4 18m5 0 4-17 10 3-4 14" fill="#87a498"/>
+    <path d="M174 186h82m-77 19h72m5 13 16-20" fill="none"/>
+    <circle cx="187" cy="233" r="8" fill="#385152"/>
+    <circle cx="243" cy="233" r="8" fill="#385152"/>
+    <path d="M365 217q30-17 70 0l-4 16q-31 11-62 0Z" fill="#72938d"/>
+    <ellipse cx="400" cy="217" rx="35" ry="10" fill="#9fc5bc"/>
+    <path d="M398 216v-24h7v24" fill="#72938d"/>
+    <path d="M401 192q-13-17-24 6m25-6q12-16 23 4m-24-4v-13" fill="none" stroke="#587f89"/>
+  </g>
+</svg>

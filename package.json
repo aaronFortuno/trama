@@ -1,0 +1,8 @@
+{
+  "name": "trama",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node tools/serve.cjs"
+  }
+}
