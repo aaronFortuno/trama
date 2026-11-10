@@ -16,7 +16,7 @@ GitHub Pages serveix l’arrel de `main`. El fitxer `.nojekyll` permet servir di
 
 Les entrades es troben a `data/readings.js`. Els filtres es deriven de les dades i el catàleg mostra les fitxes per tandes. Si creix, es poden separar les col·leccions en mòduls per curs o llengua i reunir-les al mateix export.
 
-- Assigna un `id` únic i estable a cada versió. Comparteix el `workId` entre les traduccions d’una mateixa lectura perquè aparegui el selector d’idioma.
+- Assigna un `id` únic i estable a cada versió. Comparteix el `workId` i el `code` (per exemple, `L001`) entre les traduccions d’una mateixa lectura.
 - Fes servir `language` amb una etiqueta BCP 47 i `level` amb un identificador de curs. `catalog.js` recull els noms habituals dels filtres. `worksheet.js` conté els rètols impresos en català, castellà i anglès. Les llengües sense rètols propis fan servir els anglesos.
 - Introdueix el text a `paragraphs`, un element per paràgraf. L’extensió es calcula pel recompte de paraules.
 - Desa les imatges a `assets/readings/` i indica el camí relatiu, les dimensions originals i el text alternatiu. `afterParagraph` indica quants paràgrafs s’han de mostrar abans de la imatge. El valor `0` la posa abans del primer.
@@ -24,6 +24,8 @@ Les entrades es troben a `data/readings.js`. Els filtres es deriven de les dades
 
 ## Codis i privadesa
 
-Els codis `TR1` contenen l’identificador de la lectura i els canvis respecte dels ajustos per defecte. Es poden recuperar des del botó del catàleg o obrir amb un enllaç que els porta al fragment `#fitxa=`. El codi inclou qualsevol text personalitzat de l’encapçalament. Conserva els identificadors de les lectures, preguntes i imatges perquè les fitxes guardades es puguin continuar recuperant.
+Un codi com `L001-ES` identifica la lectura i l’idioma. `L001-ES COS=14 INT=1.25 MARGES=14/16/10/20` hi afegeix el cos de lletra, l’interlineat i els marges en ordre superior, dret, inferior i esquerre. L’1× correspon al doble del cos de lletra. El codi inclou també els canvis de pauta, les preguntes amagades i el text personalitzat de l’encapçalament.
+
+Escriu o enganxa el codi al catàleg, o obre un enllaç compartit amb `#fitxa=`. Es poden recuperar igualment els codis `TR1` anteriors. Conserva els codis i els identificadors de les lectures, preguntes i imatges quan ampliïs el catàleg.
 
 Trama funciona al navegador. Els recursos se serveixen des del mateix web. El projecte no incorpora comptes, cookies ni analítica. Les plantilles es desen al navegador on les crees.

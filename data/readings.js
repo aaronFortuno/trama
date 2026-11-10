@@ -1,6 +1,7 @@
 export const readings = [
   {
     id: 'el-cartel-de-la-plaza-es',
+    code: 'L001',
     workId: 'el-cartel-de-la-plaza',
     language: 'es',
     level: '5-primary',
@@ -36,6 +37,7 @@ export const readings = [
   },
   {
     id: 'un-puente-de-papel-es',
+    code: 'L002',
     workId: 'un-puente-de-papel',
     language: 'es',
     level: '5-primary',
@@ -79,6 +81,7 @@ export const readings = [
   },
   {
     id: 'un-mapa-para-escuchar-es',
+    code: 'L003',
     workId: 'un-mapa-para-escuchar',
     language: 'es',
     level: '5-primary',
@@ -122,6 +125,7 @@ export const readings = [
   },
   {
     id: 'la-caja-de-los-martes-es',
+    code: 'L004',
     workId: 'la-caja-de-los-martes',
     language: 'es',
     level: '5-primary',

@@ -50,10 +50,10 @@ const fonts = { serif: 'Georgia', sans: 'Arial', mono: 'Courier New' };
 const formatNumber = new Intl.NumberFormat('ca');
 
 function describe(entry) {
-  const { text, margins, answers, header, images } = entry.format;
+  const { text, margins, answers, header, footer, images } = entry.format;
   return [
-    text && `${fonts[text.font]} · ${text.fontSize} pt · ${formatNumber.format(text.leading)}×`,
-    margins && 'Marges', answers && 'Espai de resposta', header && 'Encapçalament i peu', images && 'Il·lustracions',
+    text && `${fonts[text.font]} · ${text.fontSize} pt · ${formatNumber.format(text.leading / 2)}×`,
+    margins && 'Marges', answers && 'Espai de resposta', header && 'Encapçalament', footer && 'Peu', images && 'Il·lustracions',
   ].filter(Boolean).join(' / ');
 }
 

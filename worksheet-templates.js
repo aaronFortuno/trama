@@ -1,11 +1,12 @@
-import { defaultSettings, validSetting } from './worksheet-code.js';
+import { defaultSettings, legacyHeader, validSetting } from './worksheet-code.js';
 
 export const templateKey = 'trama.template.v1:';
 export const templateGroups = [
   { id: 'text', label: 'Text i tipografia', keys: ['font', 'fontSize', 'leading', 'paragraphGap'], selected: true },
   { id: 'margins', label: 'Marges del full', keys: ['marginTop', 'marginRight', 'marginBottom', 'marginLeft'], selected: true },
-  { id: 'answers', label: 'Espai de resposta', keys: ['questionGap', 'answerLines', 'answerGap'], selected: true },
-  { id: 'header', label: 'Encapçalament i peu', keys: ['header', 'headerTitle', 'headerDetail', 'showCode'] },
+  { id: 'answers', label: 'Espai de resposta', keys: ['questionGap', 'answerLines', 'answerGap', 'answerStyle', 'answerWeight'], selected: true },
+  { id: 'header', label: 'Encapçalament', keys: ['headerName', 'headerDate', 'headerGroup', 'headerLabel', 'headerCustom', 'headerTitle', 'headerDetail'] },
+  { id: 'footer', label: 'Peu de pàgina', keys: ['showCode', 'showOrigin', 'showPage'] },
   { id: 'images', label: 'Visibilitat d’il·lustracions', keys: ['showImages'] },
 ];
 
@@ -15,10 +16,15 @@ function readTemplate(id, raw) {
   try {
     const data = JSON.parse(raw);
     if (typeof data?.name !== 'string' || !data.name.trim() || data.name.length > 60 || !data.format) return null;
+    const stored = data.format;
+    if (['standard', 'custom', 'none'].includes(stored.header?.header)) {
+      stored.footer ??= { showCode: stored.header.showCode };
+      stored.header = { ...legacyHeader(stored.header.header), ...stored.header };
+    }
     const defaults = defaultSettings();
     const format = {};
     for (const group of templateGroups) {
-      const saved = data.format[group.id];
+      const saved = stored[group.id];
       if (!saved || typeof saved !== 'object' || Array.isArray(saved)) continue;
       const entries = group.keys.map(key => [key, Object.hasOwn(saved, key) ? saved[key] : defaults[key]]);
       if (entries.every(([key, value]) => validSetting(key, value))) format[group.id] = Object.fromEntries(entries);

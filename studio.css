@@ -20,6 +20,9 @@
   text-wrap: balance;
 }
 
+.studio-title-line, .worksheet-title { display: flex; flex-wrap: wrap; align-items: baseline; gap: 3px 10px; }
+.studio-reading-code, .worksheet-reading-code { color: var(--muted); font: 600 .73rem/1.25 ui-monospace, monospace; letter-spacing: .035em; white-space: nowrap; }
+
 .studio-back, .studio-text-button {
   padding: 5px 0;
   border: 0;
@@ -69,6 +72,7 @@
 .studio-settings > .studio-panel-heading { padding-inline: 16px; }
 .studio-panel-heading h2 { margin: 0; color: var(--green); font: 400 1.35rem/1.2 var(--serif); }
 .studio-preview-heading { flex-wrap: wrap; padding-bottom: 6px; }
+.studio-question-feedback { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; padding: 1px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--muted); font-size: .78rem; }
 .studio-preview-label, .studio-zoom { display: flex; flex-wrap: wrap; align-items: center; gap: 5px 10px; }
 .studio-page-count { margin: 0; color: var(--muted); font: 600 .78rem/1.4 var(--sans); white-space: nowrap; }
 .studio-zoom { flex-wrap: nowrap; gap: 4px; }
@@ -80,21 +84,24 @@
 .studio-form > details { border-top: 1px solid var(--line); }
 
 .studio-form summary, .studio-key summary {
-  padding: 13px 16px;
+  padding: 9px 16px;
   color: var(--ink);
   font: 600 .9rem/1.4 var(--sans);
   cursor: pointer;
 }
 
 .studio-form summary::marker, .studio-key summary::marker { color: var(--accent); }
+.studio-form summary { padding-block: 7px; font-size: .85rem; }
 .details-panel { display: flow-root; }
+.studio-form > details > .details-panel { max-height: var(--studio-panel-height, none); overflow: auto; overscroll-behavior: contain; scrollbar-gutter: stable; }
+.studio-form > details > .details-panel[data-disclosing] { overflow: hidden; }
 .studio-detail-count { float: right; color: var(--muted); font-size: .75rem; }
 .studio-controls { display: grid; gap: 11px; min-width: 0; }
 .studio-form .details-panel > .studio-controls { padding: 0 16px 15px; }
 .studio-controls p { margin: 0; color: var(--muted); font-size: .82rem; line-height: 1.45; }
 .studio-controls label { display: grid; gap: 4px; font-size: .81rem; }
 
-.studio-controls select, .studio-controls input[type="text"], .studio-copy-fallback, .studio-variants select {
+.studio-controls select, .studio-controls input[type="text"], .studio-controls textarea, .studio-copy-fallback, .studio-variants select {
   width: 100%;
   min-width: 0;
   padding: 7px 9px;
@@ -109,19 +116,20 @@
 .studio-range > span { display: flex; gap: 6px; justify-content: space-between; }
 .studio-range output { color: var(--muted); font-variant-numeric: tabular-nums; }
 .studio-controls input[type="range"] { width: 100%; margin: 0; accent-color: var(--accent); cursor: pointer; }
-.studio-controls input[type="checkbox"] { width: 1.05rem; height: 1.05rem; margin: 1px 0 0; accent-color: var(--green); cursor: pointer; }
+.studio-controls :is(input[type="checkbox"], input[type="radio"]) { width: 1.05rem; height: 1.05rem; margin: 1px 0 0; accent-color: var(--green); cursor: pointer; }
 .studio-controls .studio-check { display: flex; align-items: start; gap: 8px; cursor: pointer; }
 .studio-check > input { flex: none; }
 .studio-check:has(:disabled) { color: var(--muted); }
 
 .studio-controls fieldset { min-width: 0; margin: 0; padding: 9px; border: 1px solid var(--line); border-radius: 6px; }
+.studio-answer-styles { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
 .studio-controls legend { padding-inline: 4px; color: var(--muted); font-size: .76rem; }
 #studio-questions, #studio-images { display: grid; gap: 9px; }
 .studio-question-option small { display: block; color: var(--muted); }
 .studio-image { display: grid; gap: 10px; }
 .studio-image-title { display: flex; align-items: center; gap: 7px; font-size: .72rem; line-height: 1.3; }
 .studio-image-title img { flex: none; object-fit: cover; border-radius: 3px; }
-#studio-code { font: .77rem/1.5 ui-monospace, monospace; }
+#studio-code { font: .77rem/1.5 ui-monospace, monospace; resize: vertical; overflow-wrap: anywhere; }
 .studio-copy-buttons { display: flex; flex-wrap: wrap; gap: 6px; }
 .studio-copy-buttons .button { min-height: 34px; padding: 5px 8px; font-size: .78rem; }
 .studio-copy-fallback { display: block; margin-top: 4px; }
@@ -153,14 +161,15 @@
   --sheet-font: Georgia, 'Times New Roman', serif;
   box-sizing: border-box;
   display: grid;
-  grid-template-rows: minmax(0, 1fr) var(--sheet-footer-height, 16mm);
+  grid-template-rows: minmax(0, 1fr) var(--sheet-footer-height, 0px);
   width: 210mm;
   height: 296.8mm;
   padding: 14mm 16mm 10mm;
   color-scheme: light;
   background: #fff;
   color: #202924;
-  font: var(--sheet-font-size)/var(--sheet-leading) var(--sheet-font);
+  font: var(--sheet-font-size)/1.5 var(--sheet-font);
+  line-height: min(var(--sheet-leading), 2.2);
   text-align: left;
   overflow-wrap: anywhere;
 }
@@ -181,29 +190,59 @@
 .worksheet-header { margin-bottom: 7mm; font: 10pt/1.25 Arial, sans-serif; }
 .worksheet-custom-title { display: block; margin-bottom: 1mm; font-size: 13pt; }
 .worksheet-custom-detail { margin: 0 0 2mm; }
-.worksheet-fields { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 6mm; }
-.worksheet-field { display: flex; align-items: baseline; gap: 2mm; white-space: nowrap; }
+.worksheet-fields { display: flex; gap: 6mm; }
+.worksheet-field { display: flex; flex: 1; align-items: baseline; gap: 2mm; white-space: nowrap; }
+.worksheet-field-name { flex: 2; }
 .worksheet-field-line { flex: 1; border-bottom: 0.25mm solid #5f6b63; }
 .worksheet-kind { margin: 0 0 1mm; color: #334e44; font: 700 8pt/1.3 Arial, sans-serif; letter-spacing: .12em; text-transform: uppercase; }
 .worksheet-title { margin: 0; color: #203f34; font: 700 calc(var(--sheet-font-size) * 1.75)/1.12 var(--sheet-font); }
+.worksheet-reading-code { color: #4d6158; font-size: 8pt; }
 .worksheet-passage { display: flow-root; padding-bottom: var(--sheet-paragraph-gap); }
-.worksheet-paragraph { margin: 0; }
+.worksheet-paragraph { margin: 0; line-height: var(--sheet-leading); }
 .worksheet-figure { margin: 0 0 2mm; }
 .worksheet-figure[data-position="center"] { margin-inline: auto; }
 .worksheet-figure[data-position="right"] { margin-left: auto; }
 .worksheet-figure[data-position="left"][data-wrap="true"] { float: left; margin-right: 4mm; }
 .worksheet-figure[data-position="right"][data-wrap="true"] { float: right; margin-left: 4mm; }
 .worksheet-figure img { display: block; width: 100%; height: auto; }
-.worksheet-question-block { padding-bottom: var(--sheet-question-gap); }
+.worksheet-question-block { position: relative; padding-bottom: var(--sheet-question-gap); }
 .worksheet-question-heading { margin: 0 0 2mm; color: #203f34; font: 700 1.14em/1.2 var(--sheet-font); }
 .worksheet-question { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 2mm; }
+.worksheet-prompt-wrap { position: relative; }
 .worksheet-prompt { margin: 0; }
-.worksheet-answer-line { height: var(--sheet-answer-gap); border-bottom: 0.2mm solid #8a938c; }
-.worksheet-footer { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-auto-rows: min-content; align-content: start; gap: 2mm; padding-top: 2mm; color: #4d6158; font: 8pt/1.25 Arial, sans-serif; }
-.worksheet-page-number { grid-column: 2; grid-row: 1; }
-.worksheet-code { grid-column: 1; grid-row: 1; }
-.worksheet-code span { margin-right: 2mm; }
-.worksheet-code code { color: #26382f; font: 6.3pt/1.1 'Courier New', monospace; overflow-wrap: anywhere; }
+.worksheet-answer-line { height: var(--sheet-answer-gap); }
+.worksheet-page[data-answer-style="lines"] .worksheet-answer-line { border-bottom: var(--sheet-answer-weight) solid #a0aaa3; }
+.worksheet-page[data-answer-style="dots"] .worksheet-answer-line {
+  --dot-radius: calc(var(--sheet-answer-weight) * .9);
+  background-image: radial-gradient(circle, #909c94 var(--dot-radius), transparent calc(var(--dot-radius) + .04mm));
+  background-size: var(--sheet-answer-gap) var(--sheet-answer-gap);
+}
+.worksheet-page[data-answer-style="grid"] .worksheet-answer-line {
+  border-bottom: var(--sheet-answer-weight) solid #a0aaa3;
+  background-image: repeating-linear-gradient(to right, #a0aaa3 0 var(--sheet-answer-weight), transparent var(--sheet-answer-weight) var(--sheet-answer-gap));
+}
+.worksheet-question-tools {
+  position: absolute; z-index: 1; right: 0; top: 100%;
+  display: flex; align-items: center; gap: 3px; padding: 3px;
+  border: 1px solid #cbd6cc; border-radius: 6px; background: #fffefa; color: #234d43;
+  box-shadow: 0 3px 10px #20382d26; font: 650 12px/1 var(--sans);
+  transform: scale(calc(1 / var(--preview-scale, 1))); transform-origin: top right;
+  opacity: 0; pointer-events: none; transition: opacity var(--motion);
+}
+.worksheet-question-block:hover .worksheet-question-tools, .worksheet-question-tools:focus-within { z-index: 2; opacity: 1; pointer-events: auto; }
+.worksheet-question-actions { display: flex; align-items: center; gap: 2px; }
+.worksheet-question-tool { display: grid; width: 26px; height: 25px; place-items: center; padding: 0; border: 0; border-radius: 4px; background: transparent; color: inherit; font: 650 17px/1 var(--sans); }
+.worksheet-question-tool:hover { background: #e9ede3; }
+.worksheet-question-tool:disabled { opacity: .4; }
+.worksheet-question-tool[data-action="question-tools"] { display: none; }
+.worksheet-question-tool[data-action="question-hide"] { color: #a04430; }
+.worksheet-question-units { min-width: 15px; text-align: center; font-variant-numeric: tabular-nums; }
+.worksheet-footer { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-auto-rows: min-content; align-content: start; gap: 1mm 2mm; min-height: 0; padding-top: 2mm; color: #4d6158; font: 8pt/1.25 Arial, sans-serif; }
+.worksheet-footer:empty { padding: 0; }
+.worksheet-page-number { grid-column: 2; }
+.worksheet-origin { grid-column: 1; justify-self: start; color: #38584b; text-decoration: none; }
+.worksheet-code { grid-column: 1 / -1; }
+.worksheet-code code { color: #26382f; font: 7pt/1.15 'Courier New', monospace; overflow-wrap: anywhere; white-space: pre-wrap; }
 .worksheet-print-outlet { display: none; }
 .studio-key { margin-top: 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
 .studio-key ol { margin: 0 16px 16px; padding-left: 24px; font-size: .91rem; }
@@ -231,6 +270,13 @@
   .studio-actions .ui-icon { width: 16px; height: 16px; }
 }
 
+@media (hover: none) {
+  .worksheet-question-tools { opacity: 1; pointer-events: auto; }
+  .worksheet-question-tool { width: 30px; height: 28px; }
+  .worksheet-question-tool[data-action="question-tools"] { display: grid; }
+  .worksheet-question-tool[aria-expanded="false"] + .worksheet-question-actions { display: none; }
+}
+
 @page { size: A4 portrait; margin: 0; }
 
 @media print {
@@ -239,4 +285,5 @@
   body[data-trama-print] > .worksheet-print-outlet { display: block; }
   .worksheet-print-outlet .worksheet-page { break-inside: avoid; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
   .worksheet-print-outlet .worksheet-page:not(:last-child) { break-after: page; }
+  .worksheet-question-tools { display: none !important; }
 }

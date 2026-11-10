@@ -1,5 +1,5 @@
 import { labelFor, wordCount } from './catalog.js';
-import { defaultSettings, imageDefaults, makeCode, marginLimits, readCode } from './worksheet-code.js';
+import { defaultQuestionLines, defaultSettings, imageDefaults, makeCode, marginLimits, maxAnswerLines, questionLines, readCode } from './worksheet-code.js';
 import { renderWorksheet } from './worksheet.js';
 import { animateRefresh, mountDisclosures, setDisclosure } from './motion.js';
 import { mountPreviewZoom } from './preview-zoom.js';
@@ -8,19 +8,22 @@ import { mountTemplateLibrary, templateLibraryMarkup } from './template-library.
 
 const arrow = '<svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5m7-7-7 7 7 7"/></svg>';
 const printer = '<svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6m0 8h3V9H3v8h3m0-4h12v8H6z"/></svg>';
+const numberFormat = new Intl.NumberFormat('ca', { maximumFractionDigits: 2 });
 
 const range = (key, label, min, max, step, unit) => `
   <label class="studio-range">
     <span>${label}<output data-value="${key}"></output></span>
     <input type="range" name="${key}" min="${min}" max="${max}" step="${step}" data-unit="${unit}">
   </label>`;
+const check = (key, label) => `<label class="studio-check"><input type="checkbox" name="${key}"> ${label}</label>`;
+const answerStyleOptions = { blank: 'En blanc', lines: 'Línies', dots: 'Punts', grid: 'Quadrícula' };
 
 const template = `
   <header class="studio-heading">
     <div>
       <button class="studio-back" type="button" data-action="catalog">${arrow} Torna al catàleg</button>
       <p class="studio-kicker" id="studio-meta"></p>
-      <h1 id="studio-title" tabindex="-1"></h1>
+      <div class="studio-title-line"><h1 id="studio-title" tabindex="-1"></h1><span id="studio-reading-code" class="studio-reading-code"></span></div>
       <label class="studio-variants" hidden>Altres versions <select id="studio-variant"></select></label>
     </div>
     <div class="studio-actions">
@@ -49,7 +52,7 @@ const template = `
               <select name="font"><option value="serif">Georgia · amb serifa</option><option value="sans">Arial · sense serifa</option><option value="mono">Courier New · monoespaiada</option></select>
             </label>
             ${range('fontSize', 'Cos de lletra', 10, 20, 1, 'pt')}
-            ${range('leading', 'Interlineat', 1.1, 2.2, 0.1, '×')}
+            ${range('leading', 'Interlineat', .5, 3, .05, '×')}
             ${range('paragraphGap', 'Espai entre paràgrafs', 0, 12, 1, 'mm')}
           </div>
         </details>
@@ -65,11 +68,15 @@ const template = `
         <details>
           <summary>Preguntes i respostes <span class="studio-detail-count" id="studio-question-count"></span></summary>
           <div class="studio-controls">
-            <label>Línies per respondre
-              <select name="answerLines"><option value="-1">Segons la pregunta</option><option value="0">Cap línia</option>${Array.from({ length: 8 }, (_, i) => `<option value="${i + 1}">${i + 1} ${i === 0 ? 'línia' : 'línies'}</option>`).join('')}</select>
+            <fieldset class="studio-answer-styles"><legend>Pauta de resposta</legend>
+              ${Object.entries(answerStyleOptions).map(([style, label]) => `<label class="studio-check"><input type="radio" name="answerStyle" value="${style}"> ${label}</label>`).join('')}
+            </fieldset>
+            <label>Espai per defecte
+              <select name="answerLines"><option value="-1">Segons la pregunta</option><option value="0">Cap espai</option>${Array.from({ length: maxAnswerLines }, (_, i) => `<option value="${i + 1}">${i + 1} ${i === 0 ? 'línia' : 'línies'}</option>`).join('')}</select>
             </label>
             ${range('questionGap', 'Espai entre preguntes', 0, 14, 1, 'mm')}
-            ${range('answerGap', 'Separació de les línies', 5, 13, 1, 'mm')}
+            ${range('answerGap', 'Alçada de cada línia', 5, 13, 1, 'mm')}
+            <div id="studio-answer-weight">${range('answerWeight', 'Gruix de la pauta', .1, .5, .05, 'mm')}</div>
             <fieldset><legend>Preguntes que apareixeran</legend><div id="studio-questions"></div></fieldset>
           </div>
         </details>
@@ -83,32 +90,41 @@ const template = `
         <details>
           <summary>Encapçalament</summary>
           <div class="studio-controls">
-            <label>Model d’encapçalament
-              <select name="header"><option value="standard">Nom, data i curs</option><option value="custom">Personalitzat</option><option value="none">Sense encapçalament</option></select>
-            </label>
+            ${check('headerName', 'Camp de nom')}
+            ${check('headerDate', 'Camp de data')}
+            ${check('headerGroup', 'Camp de curs')}
+            ${check('headerLabel', 'Etiqueta de comprensió lectora')}
+            ${check('headerCustom', 'Text personalitzat')}
             <div class="studio-controls studio-custom" hidden>
               <label>Títol de l’encapçalament<input type="text" name="headerTitle" maxlength="80" placeholder="Nom de l’escola o de l’activitat"></label>
               <label>Segona línia<input type="text" name="headerDetail" maxlength="100" placeholder="Grup, unitat o instruccions breus"></label>
             </div>
           </div>
         </details>
-        <details class="studio-share" open>
+        <details>
+          <summary>Peu de pàgina</summary>
+          <div class="studio-controls">
+            ${check('showOrigin', 'Origen de la fitxa · trama.ortogra.fi')}
+            ${check('showCode', 'Codi de recuperació')}
+            ${check('showPage', 'Número de pàgina')}
+          </div>
+        </details>
+        <details class="studio-share">
           <summary>Codi de la fitxa</summary>
           <div class="studio-controls">
-            <p>Guarda el codi o copia l’enllaç per recuperar la lectura amb aquests ajustos.</p>
-            <input id="studio-code" aria-label="Codi de la fitxa" type="text" readonly spellcheck="false">
+            <p>El codi indica la lectura, la llengua i els ajustos que has canviat.</p>
+            <textarea id="studio-code" aria-label="Codi de la fitxa" rows="2" readonly spellcheck="false"></textarea>
             <div class="studio-copy-buttons">
               <button class="button" type="button" data-action="code">Copia el codi</button>
               <button class="button" type="button" data-action="link">Copia l’enllaç</button>
             </div>
             <p class="studio-status" id="studio-status" role="status" hidden></p>
-            <label class="studio-check"><input type="checkbox" name="showCode"> Imprimeix el codi al peu</label>
           </div>
         </details>
       </form>
     </aside>
     <section class="studio-preview" aria-labelledby="studio-preview-title">
-      <div class="studio-panel-heading studio-preview-heading">
+      <div class="studio-preview-header"><div class="studio-panel-heading studio-preview-heading">
         <div class="studio-preview-label"><h2 id="studio-preview-title" tabindex="-1">Previsualització</h2><p class="studio-page-count" id="studio-page-count" aria-live="polite"></p></div>
         <div class="studio-zoom" role="group" aria-label="Zoom de la previsualització">
           <span class="studio-zoom-hint">Ctrl + roda</span>
@@ -117,7 +133,7 @@ const template = `
           <button class="button" type="button" data-zoom="in" aria-label="Amplia el zoom" title="Amplia el zoom"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-7-7v14"/></svg></button>
           <button class="button" type="button" data-zoom="fit" aria-label="Ajusta a l’amplada" title="Ajusta a l’amplada"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5m0 6v5h-5m-6 0H4v-5"/></svg></button>
         </div>
-      </div>
+      </div><div class="studio-question-feedback" hidden><span role="status">Pregunta amagada.</span><button class="studio-text-button" type="button" data-action="question-undo">Desfés</button></div></div>
       <div class="studio-paper-stage scroll-pane" tabindex="0" role="region" aria-label="Pàgines de la fitxa">
         <div id="studio-pages"></div>
         <details class="studio-key" id="studio-key"><summary>Solucionari</summary><ol id="studio-answers"></ol></details>
@@ -158,7 +174,26 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
   const pages = find('#studio-pages');
   const stage = find('.studio-paper-stage');
   const preview = mountPreviewZoom(stage, pages, find('.studio-zoom'));
-  mountDisclosures(root);
+  mountDisclosures(form, { exclusive: true });
+  mountDisclosures(find('.studio-preview'));
+  const main = root.closest('main');
+  const settingsHeading = find('.studio-settings > .studio-panel-heading');
+  const fixedParts = [find('.studio-template-tools'), ...form.querySelectorAll('summary')];
+  const splitView = matchMedia('(min-width: 791px) and (min-height: 480px)');
+  let sidebarFrame = 0;
+  const resizeSidebar = new ResizeObserver(() => {
+    if (sidebarFrame) return;
+    sidebarFrame = requestAnimationFrame(() => {
+      sidebarFrame = 0;
+      const fixedHeight = fixedParts.reduce((sum, part) => sum + part.offsetHeight, fixedParts.length - 1);
+      const available = splitView.matches ? form.clientHeight : main.clientHeight - settingsHeading.offsetHeight;
+      form.style.setProperty('--studio-panel-height', `${Math.max(64, available - fixedHeight)}px`);
+    });
+  });
+  resizeSidebar.observe(form);
+  resizeSidebar.observe(main);
+  resizeSidebar.observe(settingsHeading);
+  for (const part of fixedParts) resizeSidebar.observe(part);
   const codeInput = find('#studio-code');
   const status = find('#studio-status');
   const variant = find('#studio-variant');
@@ -169,6 +204,8 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
   let settings;
   let code;
   let frame = 0;
+  let hiddenQuestion;
+  const questionFeedback = find('.studio-question-feedback');
   const templateStatus = find('.studio-template-status');
   const templates = mountTemplateLibrary({
     dialog: find('#template-dialog'),
@@ -186,6 +223,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
   function populateReading() {
     find('#studio-title').textContent = reading.title;
     find('#studio-title').lang = reading.language;
+    find('#studio-reading-code').textContent = reading.code;
     find('#studio-meta').textContent = `${labelFor('language', reading.language)} · ${labelFor('level', reading.level)} · ${wordCount(reading)} paraules`;
     const variants = readings.filter(entry => entry.workId && entry.workId === reading.workId);
     variant.replaceChildren(...variants.map(entry => new Option(labelFor('language', entry.language), entry.id)));
@@ -207,18 +245,24 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
     form.elements.showImages.disabled = !reading.images.length;
     status.hidden = true;
     templateStatus.textContent = '';
+    hiddenQuestion = undefined;
+    questionFeedback.hidden = true;
   }
 
   function syncControls(animated = true) {
     for (const input of form.querySelectorAll('[name]')) {
+      const value = input.name === 'leading' ? Math.round(settings.leading * 50) / 100 : settings[input.name];
       if (input.type === 'checkbox') input.checked = settings[input.name];
-      else if (input.value !== String(settings[input.name])) input.value = settings[input.name];
+      else if (input.type === 'radio') input.checked = input.value === value;
+      else if (input.value !== String(value)) input.value = value;
       if (input.type === 'range') {
-        const formatted = new Intl.NumberFormat('ca').format(settings[input.name]);
-        find(`[data-value="${input.name}"]`).value = `${formatted} ${input.dataset.unit}`;
+        const formatted = `${numberFormat.format(value)} ${input.dataset.unit}`;
+        find(`[data-value="${input.name}"]`).value = formatted;
+        input.setAttribute('aria-valuetext', formatted);
       }
     }
-    setDisclosure(find('.studio-custom'), settings.header === 'custom', { animated });
+    setDisclosure(find('.studio-custom'), settings.headerCustom, { animated });
+    setDisclosure(find('#studio-answer-weight'), settings.answerStyle !== 'blank', { animated });
     setDisclosure(find('#studio-images'), settings.showImages, { animated });
     const included = reading.questions.filter(question => !settings.excluded.includes(question.id));
     find('#studio-question-count').textContent = `${included.length}/${reading.questions.length}`;
@@ -285,11 +329,15 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
     if (input.dataset.question) {
       const id = input.dataset.question;
       settings.excluded = input.checked ? settings.excluded.filter(entry => entry !== id) : [...settings.excluded, id];
+      if (input.checked && id === hiddenQuestion) {
+        hiddenQuestion = undefined;
+        questionFeedback.hidden = true;
+      }
     } else if (input.dataset.imageKey) {
       const id = input.closest('[data-image]').dataset.image;
       settings.images[id] = { ...imageDefaults, ...settings.images[id], [input.dataset.imageKey]: value };
     } else if (Object.hasOwn(settings, input.name)) {
-      settings[input.name] = value;
+      settings[input.name] = input.name === 'leading' ? Math.round(value * 20) / 10 : value;
     } else {
       return;
     }
@@ -297,6 +345,49 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
     templateStatus.textContent = '';
     syncControls();
     if (!frame) frame = requestAnimationFrame(refresh);
+  }
+
+  function editQuestion(action, button) {
+    if (action === 'question-undo') {
+      if (!hiddenQuestion) return;
+      settings.excluded = settings.excluded.filter(id => id !== hiddenQuestion);
+      hiddenQuestion = undefined;
+      questionFeedback.hidden = true;
+      syncControls();
+      refresh();
+      find('#studio-preview-title').focus({ preventScroll: true });
+      return;
+    }
+    const block = button.closest('[data-question-id]');
+    const question = reading.questions.find(entry => entry.id === block?.dataset.questionId);
+    if (!question) return;
+    if (action === 'question-tools') {
+      button.setAttribute('aria-expanded', String(button.getAttribute('aria-expanded') !== 'true'));
+      return;
+    }
+    const top = block.getBoundingClientRect().top;
+    if (action === 'question-hide') {
+      settings.excluded = [...settings.excluded, question.id];
+      hiddenQuestion = question.id;
+      questionFeedback.hidden = false;
+      animateRefresh(questionFeedback);
+    } else {
+      const count = Math.min(maxAnswerLines, Math.max(0, questionLines(question, settings) + (action === 'question-more' ? 1 : -1)));
+      if (count === defaultQuestionLines(question, settings)) delete settings.questionLines[question.id];
+      else settings.questionLines[question.id] = count;
+    }
+    templateStatus.textContent = '';
+    syncControls();
+    refresh();
+    if (action === 'question-hide') {
+      questionFeedback.querySelector('button').focus({ preventScroll: true });
+      return;
+    }
+    const current = pages.querySelector(`[data-question-id="${CSS.escape(question.id)}"]`);
+    stage.scrollTop += current.getBoundingClientRect().top - top;
+    current.querySelector('[data-action="question-tools"]').setAttribute('aria-expanded', 'true');
+    const focus = current.querySelector(`[data-action="${action}"]:not(:disabled)`) || current.querySelector('.worksheet-question-actions button:not(:disabled)');
+    focus?.focus({ preventScroll: true });
   }
 
   async function copy(value, message) {
@@ -319,7 +410,9 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
   form.addEventListener('input', update);
   variant.addEventListener('change', () => onVariant?.(variant.value));
   root.addEventListener('click', async event => {
-    const action = event.target.closest('[data-action]')?.dataset.action;
+    const button = event.target.closest('[data-action]');
+    const action = button?.dataset.action;
+    if (action?.startsWith('question-')) editQuestion(action, button);
     if (action === 'catalog') onCatalog();
     if (action === 'templates' || action === 'save-template') templates.open(action === 'save-template');
     if (action === 'preview') {
@@ -330,13 +423,15 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
       settings = defaultSettings();
       status.hidden = true;
       templateStatus.textContent = '';
+      hiddenQuestion = undefined;
+      questionFeedback.hidden = true;
       syncControls();
       refresh();
     }
     if (action === 'code' || action === 'link') {
       if (frame) refresh();
       const url = new URL(location.href);
-      url.hash = `fitxa=${code}`;
+      url.hash = `fitxa=${encodeURIComponent(code)}`;
       await copy(action === 'code' ? code : url.href, action === 'code' ? 'Codi copiat.' : 'Enllaç copiat.');
     }
     if (action === 'print') {
@@ -349,7 +444,11 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
   window.addEventListener('beforeprint', () => {
     if (root.hidden || !reading) return;
     if (frame) refresh();
-    printOutlet.replaceChildren(...Array.from(pages.querySelectorAll('.worksheet-page'), page => page.cloneNode(true)));
+    printOutlet.replaceChildren(...Array.from(pages.querySelectorAll('.worksheet-page'), page => {
+      const printed = page.cloneNode(true);
+      printed.querySelectorAll('.worksheet-question-tools').forEach(tools => tools.remove());
+      return printed;
+    }));
     document.body.dataset.tramaPrint = '';
   });
   window.addEventListener('afterprint', () => {

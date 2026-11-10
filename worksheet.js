@@ -1,9 +1,9 @@
-import { imageDefaults } from './worksheet-code.js';
+import { imageDefaults, maxAnswerLines, questionLines } from './worksheet-code.js';
 
 const languageCopy = {
-  ca: ['Nom', 'Data', 'Curs', 'Comprensió lectora', 'Preguntes', 'Codi de la fitxa', 'Pàgina'],
-  es: ['Nombre', 'Fecha', 'Curso', 'Comprensión lectora', 'Preguntas', 'Código de la ficha', 'Página'],
-  en: ['Name', 'Date', 'Class', 'Reading comprehension', 'Questions', 'Worksheet code', 'Page'],
+  ca: ['Nom', 'Data', 'Curs', 'Comprensió lectora', 'Preguntes', 'Pàgina'],
+  es: ['Nombre', 'Fecha', 'Curso', 'Comprensión lectora', 'Preguntas', 'Página'],
+  en: ['Name', 'Date', 'Class', 'Reading comprehension', 'Questions', 'Page'],
 };
 
 function element(tag, className, text) {
@@ -15,22 +15,28 @@ function element(tag, className, text) {
 
 function makeHeader(reading, settings, [name, date, group, label]) {
   const header = element('header', 'worksheet-heading');
-  if (settings.header !== 'none') {
+  const fields = [settings.headerName && name, settings.headerDate && date, settings.headerGroup && group].filter(Boolean);
+  const hasCustom = settings.headerCustom && (settings.headerTitle || settings.headerDetail);
+  if (fields.length || hasCustom) {
     const top = element('div', 'worksheet-header');
-    if (settings.header === 'custom') {
+    if (hasCustom) {
       if (settings.headerTitle) top.append(element('strong', 'worksheet-custom-title', settings.headerTitle));
       if (settings.headerDetail) top.append(element('p', 'worksheet-custom-detail', settings.headerDetail));
     }
-    const fields = element('div', 'worksheet-fields');
-    for (const field of [name, date, group]) {
+    const row = element('div', 'worksheet-fields');
+    for (const field of fields) {
       const item = element('span', 'worksheet-field');
+      if (field === name) item.classList.add('worksheet-field-name');
       item.append(element('span', null, field), element('span', 'worksheet-field-line'));
-      fields.append(item);
+      row.append(item);
     }
-    top.append(fields);
+    if (fields.length) top.append(row);
     header.append(top);
   }
-  header.append(element('p', 'worksheet-kind', label), element('h2', 'worksheet-title', reading.title));
+  if (settings.headerLabel) header.append(element('p', 'worksheet-kind', label));
+  const title = element('h2', 'worksheet-title');
+  title.append(element('span', null, reading.title), element('small', 'worksheet-reading-code', reading.code));
+  header.append(title);
   return header;
 }
 
@@ -53,14 +59,41 @@ function makePassage(text, images) {
   return section;
 }
 
+function questionTools(number, count) {
+  const tools = element('div', 'worksheet-question-tools');
+  tools.lang = 'ca';
+  const button = (action, symbol, label) => {
+    const control = element('button', 'worksheet-question-tool', symbol);
+    control.type = 'button';
+    control.dataset.action = action;
+    control.setAttribute('aria-label', label);
+    control.title = label;
+    return control;
+  };
+  const toggle = button('question-tools', '⋯', `Opcions de la pregunta ${number}`);
+  toggle.setAttribute('aria-expanded', 'false');
+  const actions = element('div', 'worksheet-question-actions');
+  const less = button('question-less', '−', `Redueix l’espai de resposta de la pregunta ${number}`);
+  const more = button('question-more', '+', `Amplia l’espai de resposta de la pregunta ${number}`);
+  const hide = button('question-hide', '×', `Amaga la pregunta ${number}`);
+  less.disabled = count === 0;
+  more.disabled = count >= maxAnswerLines;
+  actions.append(less, element('span', 'worksheet-question-units', String(count)), more, hide);
+  tools.append(toggle, actions);
+  return tools;
+}
+
 function makeQuestion(question, index, settings, heading) {
   const block = element('div', 'worksheet-question-block');
+  block.dataset.questionId = question.id;
   if (heading) block.append(element('h3', 'worksheet-question-heading', heading));
   const item = element('div', 'worksheet-question');
   const number = element('strong', 'worksheet-number', `${index + 1}.`);
   const main = element('div', 'worksheet-question-body');
-  main.append(element('p', 'worksheet-prompt', question.prompt));
-  const count = settings.answerLines === -1 ? question.lines : settings.answerLines;
+  const count = questionLines(question, settings);
+  const prompt = element('div', 'worksheet-prompt-wrap');
+  prompt.append(element('p', 'worksheet-prompt', question.prompt), questionTools(index + 1, count));
+  main.append(prompt);
   for (let index = 0; index < count; index++) {
     const line = element('div', 'worksheet-answer-line');
     line.setAttribute('aria-hidden', 'true');
@@ -78,13 +111,18 @@ export function renderWorksheet(container, reading, settings, code) {
   let footerHeight;
   container.replaceChildren();
 
-  function fillFooter(footer, label, withCode) {
-    footer.append(element('span', 'worksheet-page-number', label));
-    if (withCode) {
+  function fillFooter(footer, label) {
+    if (settings.showCode) {
       const line = element('div', 'worksheet-code');
-      line.append(element('span', null, words[5]), element('code', null, code));
+      line.append(element('code', null, code));
       footer.append(line);
     }
+    if (settings.showOrigin) {
+      const origin = element('a', 'worksheet-origin', 'trama.ortogra.fi');
+      origin.href = 'https://trama.ortogra.fi/';
+      footer.append(origin);
+    }
+    if (settings.showPage) footer.append(element('span', 'worksheet-page-number', label));
   }
 
   function startPage() {
@@ -92,20 +130,22 @@ export function renderWorksheet(container, reading, settings, code) {
     const paper = element('article', 'worksheet-page');
     paper.lang = reading.language;
     paper.dataset.font = settings.font;
+    paper.dataset.answerStyle = settings.answerStyle;
     paper.style.padding = `${settings.marginTop}mm ${settings.marginRight}mm ${settings.marginBottom}mm ${settings.marginLeft}mm`;
     paper.style.setProperty('--sheet-font-size', `${settings.fontSize}pt`);
     paper.style.setProperty('--sheet-leading', settings.leading);
     paper.style.setProperty('--sheet-paragraph-gap', `${settings.paragraphGap}mm`);
     paper.style.setProperty('--sheet-question-gap', `${settings.questionGap}mm`);
     paper.style.setProperty('--sheet-answer-gap', `${settings.answerGap}mm`);
+    paper.style.setProperty('--sheet-answer-weight', `${settings.answerWeight}mm`);
     content = element('div', 'worksheet-content');
     const footer = element('footer', 'worksheet-footer');
     paper.append(content, footer);
     slot.append(paper);
     container.append(slot);
-    if (settings.showCode && pages.length === 0) {
-      fillFooter(footer, `${words[6]} 999 / 999`, true);
-      if (footer.scrollHeight > footer.clientHeight) footerHeight = footer.scrollHeight + 1;
+    if (pages.length === 0 && (settings.showCode || settings.showOrigin || settings.showPage)) {
+      fillFooter(footer, `${words[5]} 999 / 999`);
+      footerHeight = footer.scrollHeight + 1;
       footer.replaceChildren();
     }
     if (footerHeight) paper.style.setProperty('--sheet-footer-height', `${footerHeight}px`);
@@ -179,7 +219,7 @@ export function renderWorksheet(container, reading, settings, code) {
   questions.forEach((question, index) => placeBlock(makeQuestion(question, index, settings, index === 0 ? words[4] : '')));
 
   pages.forEach((footer, index) => {
-    fillFooter(footer, `${words[6]} ${index + 1} / ${pages.length}`, settings.showCode && index === pages.length - 1);
+    fillFooter(footer, `${words[5]} ${index + 1} / ${pages.length}`);
   });
   return pages.length;
 }

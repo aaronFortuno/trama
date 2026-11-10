@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.3 · 10 de novembre de 2026
+
+Codis llegibles a totes les pàgines, encapçalament i peu configurables i controls d’espai de resposta directament a la previsualització. L’interlineat parteix d’1× i la pauta pot ser en blanc, ratllada, puntejada o quadriculada.
+
 ## 1.2 · 10 de novembre de 2026
 
 Catàleg de quatre columnes en pantalles amples i menús més compactes. Nous marges de la fitxa i plantilles de format editables desades al navegador.

@@ -1,105 +1,242 @@
-const prefix = 'TR1';
 const stableId = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
-
 export const imageDefaults = Object.freeze({ visible: true, width: 36, position: 'right', wrap: true });
 export const marginLimits = Object.freeze({ min: 8, max: 32 });
+export const maxAnswerLines = 8;
+export const answerStyles = Object.freeze({ blank: 'BLANC', lines: 'LINIES', dots: 'PUNTS', grid: 'QUADRICULA' });
 
-const numberIn = (min, max, step = 1) => value => Number.isFinite(value)
-  && value >= min && value <= max && Math.abs(value / step - Math.round(value / step)) < 0.00001;
+const numberIn = (min, max, step = 1) => value => Number.isFinite(value) && value >= min && value <= max
+  && Math.abs(value / step - Math.round(value / step)) < .00001;
 const oneOf = (...options) => value => options.includes(value);
 const boolean = value => typeof value === 'boolean';
 const singleLine = max => value => typeof value === 'string' && value.length <= max && !/[\r\n\u0000-\u001f]/.test(value);
 const margin = numberIn(marginLimits.min, marginLimits.max);
+const lineCount = numberIn(0, maxAnswerLines);
+const imageWidth = numberIn(20, 75);
+const fonts = { serif: 'GEORGIA', sans: 'ARIAL', mono: 'COURIER' };
+const positions = { left: 'ESQUERRA', center: 'CENTRE', right: 'DRETA' };
 
 const fields = {
-  font: ['f', 'serif', oneOf('serif', 'sans', 'mono')],
-  fontSize: ['s', 12, numberIn(10, 20)],
-  leading: ['l', 1.5, numberIn(1.1, 2.2, 0.1)],
-  paragraphGap: ['p', 3, numberIn(0, 12)],
-  marginTop: ['mt', 14, margin],
-  marginRight: ['mr', 16, margin],
-  marginBottom: ['mb', 10, margin],
-  marginLeft: ['ml', 16, margin],
-  questionGap: ['q', 4, numberIn(0, 14)],
-  answerLines: ['a', -1, numberIn(-1, 8)],
-  answerGap: ['g', 7, numberIn(5, 13)],
-  header: ['h', 'standard', oneOf('standard', 'custom', 'none')],
-  headerTitle: ['t', '', singleLine(80)],
-  headerDetail: ['d', '', singleLine(100)],
-  showImages: ['i', true, boolean],
-  showCode: ['c', true, boolean],
+  font: ['serif', oneOf(...Object.keys(fonts))],
+  fontSize: [12, numberIn(10, 20)],
+  leading: [2, numberIn(1, 6, .1)],
+  paragraphGap: [3, numberIn(0, 12)],
+  marginTop: [14, margin],
+  marginRight: [16, margin],
+  marginBottom: [10, margin],
+  marginLeft: [16, margin],
+  questionGap: [4, numberIn(0, 14)],
+  answerLines: [-1, numberIn(-1, maxAnswerLines)],
+  answerGap: [7, numberIn(5, 13)],
+  answerStyle: ['lines', oneOf(...Object.keys(answerStyles))],
+  answerWeight: [.2, numberIn(.1, .5, .05)],
+  headerName: [true, boolean],
+  headerDate: [true, boolean],
+  headerGroup: [true, boolean],
+  headerLabel: [true, boolean],
+  headerCustom: [false, boolean],
+  headerTitle: ['', singleLine(80)],
+  headerDetail: ['', singleLine(100)],
+  showImages: [true, boolean],
+  showCode: [true, boolean],
+  showOrigin: [true, boolean],
+  showPage: [true, boolean],
+};
+
+const marginKeys = ['marginTop', 'marginRight', 'marginBottom', 'marginLeft'];
+const headerFlags = { headerName: 'NOM', headerDate: 'DATA', headerGroup: 'CURS', headerLabel: 'ETIQUETA', headerCustom: 'TEXT' };
+const footerFlags = { showCode: 'CODI', showOrigin: 'ORIGEN', showPage: 'PAGINA' };
+const legacyKeys = {
+  f: 'font', s: 'fontSize', l: 'leading', p: 'paragraphGap', mt: 'marginTop', mr: 'marginRight',
+  mb: 'marginBottom', ml: 'marginLeft', q: 'questionGap', a: 'answerLines', g: 'answerGap',
+  t: 'headerTitle', d: 'headerDetail', i: 'showImages', c: 'showCode',
 };
 
 export function validSetting(key, value) {
-  return Object.hasOwn(fields, key) && fields[key][2](value);
+  return Object.hasOwn(fields, key) && fields[key][1](value);
 }
 
 export function defaultSettings() {
-  const settings = Object.fromEntries(Object.entries(fields).map(([key, [, fallback]]) => [key, fallback]));
-  return { ...settings, excluded: [], images: Object.create(null) };
+  const settings = Object.fromEntries(Object.entries(fields).map(([key, [fallback]]) => [key, fallback]));
+  return { ...settings, excluded: [], questionLines: Object.create(null), images: Object.create(null) };
 }
 
-function pack(value) {
-  const bytes = new TextEncoder().encode(JSON.stringify(value));
-  return btoa(Array.from(bytes, byte => String.fromCharCode(byte)).join(''))
-    .replaceAll('+', '-').replaceAll('/', '_').replace(/=+$/, '');
+export function legacyHeader(mode) {
+  const studentFields = mode !== 'none';
+  return { headerName: studentFields, headerDate: studentFields, headerGroup: studentFields, headerLabel: true, headerCustom: mode === 'custom' };
 }
 
-function unpack(value) {
-  const bytes = Uint8Array.from(atob(value.replaceAll('-', '+').replaceAll('_', '/')), char => char.charCodeAt(0));
-  return JSON.parse(new TextDecoder('utf-8', { fatal: true }).decode(bytes));
+export function defaultQuestionLines(question, settings) {
+  return settings.answerLines === -1 ? question.lines : settings.answerLines;
 }
+
+export function questionLines(question, settings) {
+  return settings.questionLines[question.id] ?? defaultQuestionLines(question, settings);
+}
+
+const upper = value => value.normalize('NFD').replace(/\p{M}/gu, '').toUpperCase();
+const numeric = value => /^-?\d+(?:[.,]\d+)?$/.test(value) ? Number(value.replace(',', '.')) : NaN;
+const quotedText = value => JSON.parse(value.replace(/\r\n?|\n/g, ' '));
+const enumValue = (values, value) => Object.keys(values).find(key => values[key] === upper(value));
+const questionCode = question => question.id.match(/-q(\d+)$/)?.[1] ?? question.id;
+const baseCode = reading => `${reading.code}-${reading.language.toUpperCase()}`;
+const oneZero = value => value === 'SI' ? true : value === 'NO' ? false : undefined;
+
+const scalarCodes = [
+  ['TIP', 'font', value => fonts[value], value => enumValue(fonts, value)],
+  ['COS', 'fontSize'],
+  ['INT', 'leading', value => Math.round(value * 50) / 100, value => numeric(value.replace(/[x×]$/i, '')) * 2],
+  ['PAR', 'paragraphGap'],
+  ['SEP', 'questionGap'],
+  ['LIN', 'answerLines', value => value < 0 ? 'AUTO' : value, value => upper(value) === 'AUTO' ? -1 : numeric(value)],
+  ['PAUTA', 'answerStyle', value => answerStyles[value], value => enumValue(answerStyles, value)],
+  ['PAS', 'answerGap'],
+  ['GRUIX', 'answerWeight'],
+  ['TITOL', 'headerTitle', JSON.stringify, quotedText],
+  ['DETALL', 'headerDetail', JSON.stringify, quotedText],
+  ['IMG', 'showImages', value => value ? 'SI' : 'NO', value => oneZero(upper(value))],
+];
 
 export function makeCode(reading, settings) {
-  const payload = {};
-  for (const [key, [short, fallback]] of Object.entries(fields)) {
-    if (settings[key] !== fallback) payload[short] = settings[key];
+  const tokens = [baseCode(reading)];
+  const changed = key => settings[key] !== fields[key][0];
+  for (const [label, key, encode = String] of scalarCodes) {
+    if (changed(key)) tokens.push(`${label}=${encode(settings[key])}`);
   }
-  if (settings.excluded.length) payload.x = reading.questions.map(question => question.id).filter(id => settings.excluded.includes(id));
-  const images = reading.images.flatMap(({ id }) => {
+  if (marginKeys.some(changed)) tokens.push(`MARGES=${marginKeys.map(key => settings[key]).join('/')}`);
+  for (const [name, flags] of [['CAP', headerFlags], ['PEU', footerFlags]]) {
+    if (Object.keys(flags).some(changed)) {
+      const enabled = Object.keys(flags).filter(key => settings[key]).map(key => flags[key]);
+      tokens.push(`${name}=${enabled.join(',') || 'NO'}`);
+    }
+  }
+  const excluded = reading.questions.filter(question => settings.excluded.includes(question.id)).map(questionCode);
+  if (excluded.length) tokens.push(`AMAGA=${excluded.join(',')}`);
+  const lines = reading.questions.filter(question => Object.hasOwn(settings.questionLines, question.id))
+    .map(question => `${questionCode(question)}:${settings.questionLines[question.id]}`);
+  if (lines.length) tokens.push(`RES=${lines.join(',')}`);
+  for (const { id } of reading.images) {
     const image = settings.images[id];
-    if (!image || Object.keys(imageDefaults).every(key => image[key] === imageDefaults[key])) return [];
-    return [[id, image.visible, image.width, image.position, image.wrap]];
-  });
-  if (images.length) payload.m = images;
-  const code = `${prefix}.${reading.id}`;
-  return Object.keys(payload).length ? `${code}.${pack(payload)}` : code;
+    if (image && Object.keys(imageDefaults).some(key => image[key] !== imageDefaults[key])) {
+      tokens.push(`I-${id.toUpperCase()}=${image.visible ? '' : 'NO/'}${positions[image.position]}/${image.width}/${image.wrap ? 'TEXT' : 'BLOC'}`);
+    }
+  }
+  return tokens.join(' ');
+}
+
+function applyFlags(settings, flags, raw) {
+  const values = raw === 'NO' ? [] : raw.split(',');
+  if (values.some(value => !Object.values(flags).includes(value))) return false;
+  for (const [key, label] of Object.entries(flags)) settings[key] = values.includes(label);
+  return true;
+}
+
+function parseImage(raw) {
+  const parts = raw.split('/');
+  const visible = parts[0] !== 'NO';
+  if (!visible) parts.shift();
+  const [placement, size, flow] = parts;
+  const position = placement && enumValue(positions, placement);
+  const width = numeric(size ?? '');
+  if (parts.length !== 3 || !position || !imageWidth(width) || !['TEXT', 'BLOC'].includes(flow)) return null;
+  return { visible, width, position, wrap: flow === 'TEXT' };
+}
+
+function readReadable(code, readings) {
+  const pieces = code.match(/(?:[^\s"]+|"(?:[^"\\]|\\.)*")+/gu);
+  if (!pieces?.length || code.replace(/(?:[^\s"]+|"(?:[^"\\]|\\.)*")+/gu, '').trim()) return null;
+  const [reference, ...tokens] = pieces;
+  const reading = readings.find(entry => baseCode(entry) === reference.toUpperCase());
+  if (!reading) return null;
+  const settings = defaultSettings();
+  const questionIds = new Map(reading.questions.map(question => [upper(questionCode(question)), question.id]));
+  const scalars = new Map(scalarCodes.map(([label, key, , decode = numeric]) => [label, [key, decode]]));
+  const used = new Set();
+  for (const token of tokens) {
+    const match = /^([A-Z][A-Z0-9-]*)=(.+)$/isu.exec(token);
+    if (!match) return null;
+    const label = upper(match[1]);
+    const raw = match[2];
+    if (used.has(label)) return null;
+    used.add(label);
+    if (scalars.has(label)) {
+      const [key, decode] = scalars.get(label);
+      const value = decode(raw);
+      if (!validSetting(key, value)) return null;
+      settings[key] = value;
+    } else if (label === 'MARGES') {
+      const margins = raw.split('/').map(numeric);
+      if (margins.length !== 4 || !margins.every(margin)) return null;
+      marginKeys.forEach((key, index) => { settings[key] = margins[index]; });
+    } else if (label === 'CAP' || label === 'PEU') {
+      if (!applyFlags(settings, label === 'CAP' ? headerFlags : footerFlags, upper(raw))) return null;
+    } else if (label === 'AMAGA' || label === 'RES') {
+      for (const entry of upper(raw).split(',')) {
+        const [reference, value, extra] = entry.split(':');
+        const id = questionIds.get(reference);
+        if (!id || extra !== undefined) return null;
+        if (label === 'AMAGA') {
+          if (value !== undefined) return null;
+          if (!settings.excluded.includes(id)) settings.excluded.push(id);
+        } else {
+          const count = numeric(value ?? '');
+          if (!lineCount(count)) return null;
+          settings.questionLines[id] = count;
+        }
+      }
+    } else if (label.startsWith('I-')) {
+      const id = reading.images.find(image => image.id.toUpperCase() === label.slice(2))?.id;
+      const image = parseImage(upper(raw));
+      if (!id || !image) return null;
+      settings.images[id] = image;
+    } else return null;
+  }
+  return { reading, settings };
+}
+
+function readLegacy(code, readings) {
+  const [version, id = '', encoded, ...extra] = code.split('.');
+  if (version !== 'TR1' || !stableId.test(id) || extra.length) return null;
+  const reading = readings.find(entry => entry.id === id);
+  if (!reading) return null;
+  const settings = defaultSettings();
+  settings.leading = 1.5;
+  if (encoded === undefined) return { reading, settings };
+  if (!/^[a-zA-Z0-9_-]+$/.test(encoded)) return null;
+  const bytes = Uint8Array.from(atob(encoded.replaceAll('-', '+').replaceAll('_', '/')), char => char.charCodeAt(0));
+  const payload = JSON.parse(new TextDecoder('utf-8', { fatal: true }).decode(bytes));
+  if (!payload || typeof payload !== 'object' || Array.isArray(payload)) return null;
+  for (const [short, key] of Object.entries(legacyKeys)) {
+    if (!Object.hasOwn(payload, short)) continue;
+    if (!validSetting(key, payload[short])) return null;
+    settings[key] = payload[short];
+  }
+  if (Object.hasOwn(payload, 'h')) {
+    if (!['standard', 'custom', 'none'].includes(payload.h)) return null;
+    Object.assign(settings, legacyHeader(payload.h));
+  }
+  if (Object.hasOwn(payload, 'x')) {
+    if (!Array.isArray(payload.x) || !payload.x.every(id => typeof id === 'string' && stableId.test(id))) return null;
+    settings.excluded = reading.questions.map(question => question.id).filter(id => payload.x.includes(id));
+  }
+  if (Object.hasOwn(payload, 'm')) {
+    if (!Array.isArray(payload.m)) return null;
+    for (const entry of payload.m) {
+      if (!Array.isArray(entry) || entry.length !== 5) return null;
+      const [id, visible, width, position, wrap] = entry;
+      if (typeof id !== 'string' || !stableId.test(id) || !boolean(visible) || !imageWidth(width)
+        || !Object.hasOwn(positions, position) || !boolean(wrap)) return null;
+      if (reading.images.some(image => image.id === id)) settings.images[id] = { visible, width, position, wrap };
+    }
+  }
+  return { reading, settings };
 }
 
 export function readCode(code, readings) {
   if (typeof code !== 'string' || code.length > 4096) return null;
-  const [version, id = '', encoded, ...extra] = code.trim().split('.');
-  if (version !== prefix || !stableId.test(id) || extra.length) return null;
-  const reading = readings.find(entry => entry.id === id);
-  if (!reading) return null;
-  const settings = defaultSettings();
-  if (encoded === undefined) return { reading, settings };
-  if (!/^[a-zA-Z0-9_-]+$/.test(encoded)) return null;
-
+  const value = code.trim();
   try {
-    const payload = unpack(encoded);
-    if (payload === null || typeof payload !== 'object' || Array.isArray(payload)) return null;
-    for (const [key, [short, , valid]] of Object.entries(fields)) {
-      if (!Object.hasOwn(payload, short)) continue;
-      if (!valid(payload[short])) return null;
-      settings[key] = payload[short];
-    }
-    if (Object.hasOwn(payload, 'x')) {
-      if (!Array.isArray(payload.x) || !payload.x.every(id => typeof id === 'string' && stableId.test(id))) return null;
-      settings.excluded = reading.questions.map(question => question.id).filter(id => payload.x.includes(id));
-    }
-    if (Object.hasOwn(payload, 'm')) {
-      if (!Array.isArray(payload.m)) return null;
-      for (const image of payload.m) {
-        if (!Array.isArray(image) || image.length !== 5) return null;
-        const [id, visible, width, position, wrap] = image;
-        if (typeof id !== 'string' || !stableId.test(id) || !boolean(visible) || !numberIn(20, 75)(width)
-          || !oneOf('left', 'center', 'right')(position) || !boolean(wrap)) return null;
-        if (reading.images.some(image => image.id === id)) settings.images[id] = { visible, width, position, wrap };
-      }
-    }
+    return value.startsWith('TR1.') ? readLegacy(value, readings) : readReadable(value, readings);
   } catch {
     return null;
   }
-  return { reading, settings };
 }

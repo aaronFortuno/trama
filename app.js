@@ -71,7 +71,8 @@ function goToCatalog() {
 
 function recoverCodeFrom(value) {
   const trimmed = value.trim();
-  const hashIndex = trimmed.indexOf('#');
+  if (!trimmed.startsWith('#fitxa=') && !/^https?:\/\//i.test(trimmed)) return trimmed;
+  const hashIndex = trimmed.indexOf('#fitxa=');
   if (hashIndex < 0) return trimmed;
   return new URLSearchParams(trimmed.slice(hashIndex + 1)).get('fitxa') ?? '';
 }
@@ -111,6 +112,12 @@ function route() {
 
 document.querySelector('#open-recovery').addEventListener('click', () => openRecovery());
 recoveryInput.addEventListener('input', clearRecoveryError);
+recoveryInput.addEventListener('keydown', event => {
+  if (event.key === 'Enter' && !event.shiftKey && !event.isComposing) {
+    event.preventDefault();
+    recoveryInput.form.requestSubmit();
+  }
+});
 document.querySelector('#recovery-form').addEventListener('submit', (event) => {
   event.preventDefault();
   const code = recoverCodeFrom(recoveryInput.value);

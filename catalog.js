@@ -53,7 +53,7 @@ export function indexCatalog(readings) {
       theme: reading.themes, question: reading.questions.map(({ type }) => type), genre: [reading.genre],
     };
     const terms = Object.entries(facets).flatMap(([facet, values]) => values.map((value) => labelFor(facet, value)));
-    const searchText = normalize([reading.title, reading.summary, ...terms].join(' '));
+    const searchText = normalize([reading.code, reading.title, reading.summary, ...terms].join(' '));
     return { reading, count, facets, searchText };
   });
 }

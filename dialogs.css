@@ -22,8 +22,8 @@
 .recovery-form { display: grid; justify-items: start; gap: 10px; padding: 20px; }
 #recovery-help { margin: 0 0 4px; color: var(--muted); font-size: .9rem; }
 .recovery-form label { font-size: .85rem; font-weight: 650; }
-.recovery-form input { width: 100%; min-height: 42px; padding: 7px 10px; border: 1px solid var(--line); border-radius: 5px; background: var(--paper); color: var(--ink); }
-.recovery-form input[aria-invalid="true"] { border-color: var(--accent); }
+.recovery-form textarea { width: 100%; min-height: 42px; padding: 7px 10px; border: 1px solid var(--line); border-radius: 5px; background: var(--paper); color: var(--ink); resize: vertical; }
+.recovery-form textarea[aria-invalid="true"] { border-color: var(--accent); }
 #recovery-status { min-height: 1.2em; margin: 0; color: var(--accent); font-size: .83rem; }
 
 .about-dialog, .release-dialog { padding: 24px; }

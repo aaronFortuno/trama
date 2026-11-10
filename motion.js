@@ -42,7 +42,9 @@ export function setDisclosure(panel, open, { animated = true, settle } = {}) {
   } else finish();
 }
 
-export function mountDisclosures(root) {
+export function mountDisclosures(root, { exclusive = false } = {}) {
+  const items = [];
+  let requested;
   for (const details of root.querySelectorAll('details')) {
     const summary = details.querySelector(':scope > summary');
     const panel = document.createElement('div');
@@ -53,12 +55,25 @@ export function mountDisclosures(root) {
     let open = details.open;
     panel.hidden = !open;
     details.append(panel);
+    summary.setAttribute('aria-expanded', String(open));
+    const item = {
+      details,
+      set(expanded, settled) {
+        open = expanded;
+        details.open = true;
+        summary.setAttribute('aria-expanded', String(open));
+        setDisclosure(panel, open, { settle: () => { details.open = open; settled?.(); } });
+      },
+    };
+    items.push(item);
+    if (open) requested = item;
     summary.addEventListener('click', event => {
       event.preventDefault();
-      open = !open;
-      details.open = true;
-      summary.setAttribute('aria-expanded', String(open));
-      setDisclosure(panel, open, { settle: () => { details.open = open; } });
+      if (!exclusive) { item.set(!open); return; }
+      requested = requested === item ? null : item;
+      const visible = items.find(candidate => candidate.details.open);
+      if (visible && visible !== requested) visible.set(false, () => requested?.set(true));
+      else requested?.set(true);
     });
   }
 }
