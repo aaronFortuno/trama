@@ -1,6 +1,8 @@
 import { labelFor, wordCount } from './catalog.js';
 import { defaultSettings, imageDefaults, makeCode, readCode } from './worksheet-code.js';
 import { renderWorksheet } from './worksheet.js';
+import { animateRefresh, mountDisclosures, setDisclosure } from './motion.js';
+import { mountPreviewZoom } from './preview-zoom.js';
 
 const arrow = '<svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5m7-7-7 7 7 7"/></svg>';
 const printer = '<svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6m0 8h3V9H3v8h3m0-4h12v8H6z"/></svg>';
@@ -30,7 +32,7 @@ const template = `
         <h2 id="studio-settings-title">Ajustos de la fitxa</h2>
         <button class="studio-text-button" type="button" data-action="reset">Restableix</button>
       </div>
-      <form class="studio-form">
+      <form class="studio-form scroll-pane">
         <details open>
           <summary>Text i tipografia</summary>
           <div class="studio-controls">
@@ -88,12 +90,20 @@ const template = `
       </form>
     </aside>
     <section class="studio-preview" aria-labelledby="studio-preview-title">
-      <div class="studio-panel-heading">
-        <h2 id="studio-preview-title" tabindex="-1">Previsualització</h2>
-        <p class="studio-page-count" id="studio-page-count" aria-live="polite"></p>
+      <div class="studio-panel-heading studio-preview-heading">
+        <div class="studio-preview-label"><h2 id="studio-preview-title" tabindex="-1">Previsualització</h2><p class="studio-page-count" id="studio-page-count" aria-live="polite"></p></div>
+        <div class="studio-zoom" role="group" aria-label="Zoom de la previsualització">
+          <span class="studio-zoom-hint">Ctrl + roda</span>
+          <button class="button" type="button" data-zoom="out" aria-label="Redueix el zoom" title="Redueix el zoom"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg></button>
+          <output aria-label="Nivell de zoom">100 %</output>
+          <button class="button" type="button" data-zoom="in" aria-label="Amplia el zoom" title="Amplia el zoom"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-7-7v14"/></svg></button>
+          <button class="button" type="button" data-zoom="fit" aria-label="Ajusta a l’amplada" title="Ajusta a l’amplada"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5m0 6v5h-5m-6 0H4v-5"/></svg></button>
+        </div>
       </div>
-      <div class="studio-paper-stage"><div id="studio-pages"></div></div>
-      <details class="studio-key" id="studio-key"><summary>Solucionari</summary><ol id="studio-answers"></ol></details>
+      <div class="studio-paper-stage scroll-pane" tabindex="0" role="region" aria-label="Pàgines de la fitxa">
+        <div id="studio-pages"></div>
+        <details class="studio-key" id="studio-key"><summary>Solucionari</summary><ol id="studio-answers"></ol></details>
+      </div>
     </section>
   </div>`;
 
@@ -128,6 +138,8 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
   const form = find('form');
   const pages = find('#studio-pages');
   const stage = find('.studio-paper-stage');
+  const preview = mountPreviewZoom(stage, pages, find('.studio-zoom'));
+  mountDisclosures(root);
   const codeInput = find('#studio-code');
   const status = find('#studio-status');
   const variant = find('#studio-variant');
@@ -138,13 +150,6 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
   let settings;
   let code;
   let frame = 0;
-
-  function sizePreview() {
-    const scale = Math.min(1, pages.clientWidth / (210 * 96 / 25.4));
-    if (scale > 0) pages.style.setProperty('--preview-scale', String(scale));
-  }
-
-  new ResizeObserver(sizePreview).observe(stage);
 
   function populateReading() {
     find('#studio-title').textContent = reading.title;
@@ -171,7 +176,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
     status.hidden = true;
   }
 
-  function syncControls() {
+  function syncControls(animated = true) {
     for (const input of form.querySelectorAll('[name]')) {
       if (input.type === 'checkbox') input.checked = settings[input.name];
       else if (input.value !== String(settings[input.name])) input.value = settings[input.name];
@@ -180,8 +185,8 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
         find(`[data-value="${input.name}"]`).value = `${formatted} ${input.dataset.unit}`;
       }
     }
-    find('.studio-custom').hidden = settings.header !== 'custom';
-    find('#studio-images').hidden = !settings.showImages;
+    setDisclosure(find('.studio-custom'), settings.header === 'custom', { animated });
+    setDisclosure(find('#studio-images'), settings.showImages, { animated });
     const included = reading.questions.filter(question => !settings.excluded.includes(question.id));
     find('#studio-question-count').textContent = `${included.length}/${reading.questions.length}`;
     const visible = settings.showImages ? reading.images.filter(image => settings.images[image.id]?.visible !== false).length : 0;
@@ -189,7 +194,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
     for (const input of form.querySelectorAll('[data-question]')) input.checked = !settings.excluded.includes(input.dataset.question);
     for (const card of form.querySelectorAll('[data-image]')) {
       const config = settings.images[card.dataset.image] || imageDefaults;
-      card.querySelector('.studio-image-options').hidden = !config.visible;
+      setDisclosure(card.querySelector('.studio-image-options'), config.visible, { animated });
       card.querySelector('[data-image-width]').value = `${config.width}%`;
       for (const input of card.querySelectorAll('[data-image-key]')) {
         const key = input.dataset.imageKey;
@@ -202,35 +207,41 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
       }
     }
     const withAnswers = included.map((question, index) => ({ question, index })).filter(({ question }) => question.answer);
-    find('#studio-key').hidden = !withAnswers.length;
     find('#studio-answers').replaceChildren(...withAnswers.map(({ question, index }) => {
       const item = create('li', null, question.answer);
       item.value = index + 1;
       item.lang = reading.language;
       return item;
     }));
+    setDisclosure(find('#studio-key'), Boolean(withAnswers.length), { animated });
   }
 
   function refresh() {
+    const animated = Boolean(frame);
     cancelAnimationFrame(frame);
     frame = 0;
     if (!reading || root.hidden) return;
     code = makeCode(reading, settings);
     codeInput.value = code;
+    const { scrollLeft, scrollTop } = stage;
     const count = renderWorksheet(pages, reading, settings, code);
     const label = `A4 · ${count} ${count === 1 ? 'pàgina' : 'pàgines'}`;
     const countNode = find('#studio-page-count');
     if (countNode.textContent !== label) countNode.textContent = label;
-    sizePreview();
+    preview.size();
+    stage.scrollTo(scrollLeft, scrollTop);
+    if (animated) animateRefresh(pages);
   }
 
   function select(entry, config) {
     reading = entry;
     settings = config;
     populateReading();
-    syncControls();
+    syncControls(false);
     onOpen(reading);
     refresh();
+    form.scrollTop = 0;
+    preview.reset();
   }
 
   function update(event) {
@@ -276,8 +287,8 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
     const action = event.target.closest('[data-action]')?.dataset.action;
     if (action === 'catalog') onCatalog();
     if (action === 'preview') {
-      find('#studio-preview-title').focus();
-      find('#studio-preview-title').scrollIntoView({ block: 'start' });
+      find('#studio-preview-title').focus({ preventScroll: true });
+      find('.studio-preview').scrollIntoView({ block: 'start' });
     }
     if (action === 'reset') {
       settings = defaultSettings();

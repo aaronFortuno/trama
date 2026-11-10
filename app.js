@@ -1,7 +1,9 @@
 import { mountCatalog } from './catalog.js';
 import { readings } from './data/readings.js';
 import { mountStudio } from './studio.js';
+import { animateRefresh, closeDialog, mountDialogs, openDialog } from './motion.js';
 
+const main = document.querySelector('#contingut');
 const catalogView = document.querySelector('#catalog-view');
 const studioView = document.querySelector('#studio');
 const recovery = document.querySelector('#recovery-dialog');
@@ -18,6 +20,7 @@ const studio = mountStudio({
   onCatalog: goToCatalog,
   onVariant: openReading,
 });
+mountDialogs();
 
 function openReading(readingId) {
   const hash = `lectura=${encodeURIComponent(readingId)}`;
@@ -26,17 +29,19 @@ function openReading(readingId) {
 }
 
 function showStudio(reading) {
+  const wasInCatalog = studioView.hidden;
   currentReadingId = reading.id;
   catalogView.hidden = true;
   studioView.hidden = false;
   document.body.classList.add('is-studio');
   if (!recovery.open) focusStudio();
+  if (wasInCatalog) animateRefresh(studioView);
 }
 
 function focusStudio() {
   const heading = studioView.querySelector('#studio-title') ?? studioView;
   heading.focus({ preventScroll: true });
-  window.scrollTo(0, 0);
+  main.scrollTop = 0;
 }
 
 function showCatalog() {
@@ -44,7 +49,10 @@ function showCatalog() {
   catalogView.hidden = false;
   studioView.hidden = true;
   document.body.classList.remove('is-studio');
-  if (wasInStudio) catalog.focus(currentReadingId);
+  if (wasInStudio) {
+    catalog.focus(currentReadingId);
+    animateRefresh(catalogView);
+  }
 }
 
 function setRoute(hash) {
@@ -78,7 +86,7 @@ function clearRecoveryError() {
 function openRecovery(value = '') {
   clearRecoveryError();
   recoveryInput.value = value;
-  if (!recovery.open) recovery.showModal();
+  if (!recovery.open) openDialog(recovery);
   recoveryInput.focus();
 }
 
@@ -99,7 +107,6 @@ function route() {
 }
 
 document.querySelector('#open-recovery').addEventListener('click', () => openRecovery());
-document.querySelector('#close-recovery').addEventListener('click', () => recovery.close());
 recoveryInput.addEventListener('input', clearRecoveryError);
 document.querySelector('#recovery-form').addEventListener('submit', (event) => {
   event.preventDefault();
@@ -110,19 +117,45 @@ document.querySelector('#recovery-form').addEventListener('submit', (event) => {
     return;
   }
   setRoute(`fitxa=${encodeURIComponent(code)}`);
-  recovery.close();
-  focusStudio();
+  closeDialog(recovery, focusStudio);
 });
 
 document.querySelector('#home-link').addEventListener('click', (event) => {
   if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
   event.preventDefault();
   goToCatalog();
-  window.scrollTo(0, 0);
+  main.scrollTop = 0;
+  catalogView.querySelector('.catalog-results-scroll').scrollTop = 0;
 });
 document.querySelector('.skip-link').addEventListener('click', (event) => {
   event.preventDefault();
-  document.querySelector('#contingut').focus();
+  main.focus();
+});
+
+const copyLightning = document.querySelector('#copy-lightning');
+const lightningAddress = document.querySelector('#lightning-address');
+const lightningStatus = document.querySelector('#lightning-copy-status');
+let lightningTimer;
+
+copyLightning.addEventListener('click', async () => {
+  clearTimeout(lightningTimer);
+  try {
+    await navigator.clipboard.writeText(lightningAddress.textContent.trim());
+    copyLightning.classList.add('is-copied');
+    lightningStatus.textContent = 'Adreça Lightning copiada.';
+    lightningTimer = setTimeout(() => {
+      copyLightning.classList.remove('is-copied');
+      lightningStatus.textContent = '';
+    }, 3500);
+  } catch {
+    copyLightning.classList.remove('is-copied');
+    const range = document.createRange();
+    range.selectNodeContents(lightningAddress);
+    const selection = window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+    lightningStatus.textContent = 'Adreça seleccionada. Copia-la amb Ctrl+C o ⌘C.';
+  }
 });
 
 const systemTheme = matchMedia('(prefers-color-scheme: dark)');

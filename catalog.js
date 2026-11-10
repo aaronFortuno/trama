@@ -1,3 +1,5 @@
+import { animateRefresh, setDisclosure } from './motion.js';
+
 export const labels = {
   language: { es: 'Castellà', ca: 'Català' },
   level: {
@@ -83,9 +85,13 @@ export function mountCatalog({ root, readings, onSelect }) {
   const reset = root.querySelector('#filters-reset');
   const more = root.querySelector('#show-more');
   const toggle = root.querySelector('#filters-toggle');
+  const filters = root.querySelector('#filters-body');
+  const results = root.querySelector('.catalog-results-scroll');
+  const compact = matchMedia('(max-width: 790px)');
   const indicator = root.querySelector('#filter-indicator');
   const template = document.querySelector('#reading-card');
   let limit = pageSize;
+  let visibleIds;
 
   for (const field of fields) {
     const facet = field.dataset.facet;
@@ -129,28 +135,38 @@ export function mountCatalog({ root, readings, onSelect }) {
     return card;
   }
 
-  function render({ append = false } = {}) {
+  function render({ append = false, animated = false } = {}) {
     const facets = Object.fromEntries(fields.map((field) => [field.dataset.facet, field.value]));
     const activeCount = Object.values(facets).filter(Boolean).length;
     const matches = filterCatalog(catalog, { search: search.value, ...facets });
     const total = matches.length;
     const showing = Math.min(limit, total);
-    const before = append ? grid.childElementCount : 0;
-    const cards = matches.slice(before, showing).map(cardFor);
-    if (append) grid.append(...cards);
-    else grid.replaceChildren(...cards);
+    const visible = matches.slice(0, showing);
+    const ids = visible.map(({ reading }) => reading.id).join(' ');
+    if (ids !== visibleIds) {
+      const cards = visible.slice(append ? grid.childElementCount : 0).map(cardFor);
+      if (append) {
+        grid.append(...cards);
+        for (const card of cards) animateRefresh(card);
+        cards[0]?.querySelector('button').focus();
+      } else {
+        grid.replaceChildren(...cards);
+        results.scrollTop = 0;
+        if (animated) animateRefresh(total ? grid : emptyState);
+      }
+      visibleIds = ids;
+    }
     resultCount.textContent = total === 1 ? '1 lectura' : `${words.format(total)} lectures`;
     if (showing < total) resultCount.textContent += ` · Se’n mostren ${words.format(showing)}`;
     emptyState.hidden = total !== 0;
     more.hidden = showing === total;
     indicator.textContent = activeCount ? ` (${activeCount})` : '';
     reset.hidden = !activeCount && !search.value.trim();
-    if (append) cards[0]?.querySelector('button').focus();
   }
 
   function refresh() {
     limit = pageSize;
-    render();
+    render({ animated: true });
   }
 
   function clear() {
@@ -165,8 +181,15 @@ export function mountCatalog({ root, readings, onSelect }) {
   reset.addEventListener('click', clear);
   root.querySelector('#empty-reset').addEventListener('click', clear);
   toggle.addEventListener('click', () => {
-    toggle.setAttribute('aria-expanded', String(toggle.getAttribute('aria-expanded') === 'false'));
+    const expanded = toggle.getAttribute('aria-expanded') === 'false';
+    toggle.setAttribute('aria-expanded', String(expanded));
+    setDisclosure(filters, expanded);
   });
+  function resizeFilters() {
+    setDisclosure(filters, !compact.matches || toggle.getAttribute('aria-expanded') === 'true', { animated: false });
+  }
+  compact.addEventListener('change', resizeFilters);
+  resizeFilters();
   more.addEventListener('click', () => {
     limit += pageSize;
     render({ append: true });

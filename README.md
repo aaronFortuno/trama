@@ -2,6 +2,8 @@
 
 Catàleg de comprensions lectores imprimibles d’ortogra.fi. La primera col·lecció inclou quatre fitxes en castellà per a 5è de primària. La interfície és en català i les fitxes s’imprimeixen amb els rètols en l’idioma de la lectura quan hi ha una traducció disponible.
 
+A la previsualització, mantén premut Ctrl i gira la roda del ratolí per fer zoom, o fes servir els botons del visor. El zoom de pantalla conserva les mides de la fitxa impresa.
+
 ## En local i a GitHub Pages
 
 Des d’aquesta carpeta, executa `node tools/serve.cjs` i obre `http://127.0.0.1:4191/`. El web fa servir HTML, CSS i mòduls JavaScript, amb il·lustracions locals.
