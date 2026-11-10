@@ -1,8 +1,10 @@
 import { labelFor, wordCount } from './catalog.js';
-import { defaultSettings, imageDefaults, makeCode, readCode } from './worksheet-code.js';
+import { defaultSettings, imageDefaults, makeCode, marginLimits, readCode } from './worksheet-code.js';
 import { renderWorksheet } from './worksheet.js';
 import { animateRefresh, mountDisclosures, setDisclosure } from './motion.js';
 import { mountPreviewZoom } from './preview-zoom.js';
+import { syncSelects } from './select-menu.js';
+import { mountTemplateLibrary, templateLibraryMarkup } from './template-library.js';
 
 const arrow = '<svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5m7-7-7 7 7 7"/></svg>';
 const printer = '<svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6m0 8h3V9H3v8h3m0-4h12v8H6z"/></svg>';
@@ -33,6 +35,13 @@ const template = `
         <button class="studio-text-button" type="button" data-action="reset">Restableix</button>
       </div>
       <form class="studio-form scroll-pane">
+        <div class="studio-template-tools">
+          <div class="studio-template-actions">
+            <button class="button" type="button" data-action="templates" aria-haspopup="dialog" aria-controls="template-dialog">Plantilles <span class="studio-template-count" aria-hidden="true"></span></button>
+            <button class="studio-text-button" type="button" data-action="save-template" aria-haspopup="dialog" aria-controls="template-dialog">Desa el format</button>
+          </div>
+          <p class="studio-template-status" role="status"></p>
+        </div>
         <details open>
           <summary>Text i tipografia</summary>
           <div class="studio-controls">
@@ -42,6 +51,15 @@ const template = `
             ${range('fontSize', 'Cos de lletra', 10, 20, 1, 'pt')}
             ${range('leading', 'Interlineat', 1.1, 2.2, 0.1, '×')}
             ${range('paragraphGap', 'Espai entre paràgrafs', 0, 12, 1, 'mm')}
+          </div>
+        </details>
+        <details>
+          <summary>Marges del full</summary>
+          <div class="studio-controls">
+            ${range('marginTop', 'Superior', marginLimits.min, marginLimits.max, 1, 'mm')}
+            ${range('marginRight', 'Dret', marginLimits.min, marginLimits.max, 1, 'mm')}
+            ${range('marginBottom', 'Inferior', marginLimits.min, marginLimits.max, 1, 'mm')}
+            ${range('marginLeft', 'Esquerre', marginLimits.min, marginLimits.max, 1, 'mm')}
           </div>
         </details>
         <details>
@@ -105,7 +123,8 @@ const template = `
         <details class="studio-key" id="studio-key"><summary>Solucionari</summary><ol id="studio-answers"></ol></details>
       </div>
     </section>
-  </div>`;
+  </div>
+  ${templateLibraryMarkup}`;
 
 function create(tag, className, text) {
   const element = document.createElement(tag);
@@ -150,6 +169,19 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
   let settings;
   let code;
   let frame = 0;
+  const templateStatus = find('.studio-template-status');
+  const templates = mountTemplateLibrary({
+    dialog: find('#template-dialog'),
+    count: find('.studio-template-count'),
+    getSettings: () => settings,
+    onApply(format, name) {
+      Object.assign(settings, format);
+      syncControls();
+      refresh();
+      templateStatus.textContent = `Plantilla «${name}» aplicada.`;
+      animateRefresh(pages);
+    },
+  });
 
   function populateReading() {
     find('#studio-title').textContent = reading.title;
@@ -174,6 +206,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
     find('#studio-images').replaceChildren(...reading.images.map(imageControls));
     form.elements.showImages.disabled = !reading.images.length;
     status.hidden = true;
+    templateStatus.textContent = '';
   }
 
   function syncControls(animated = true) {
@@ -214,6 +247,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
       return item;
     }));
     setDisclosure(find('#studio-key'), Boolean(withAnswers.length), { animated });
+    syncSelects(root);
   }
 
   function refresh() {
@@ -260,6 +294,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
       return;
     }
     status.hidden = true;
+    templateStatus.textContent = '';
     syncControls();
     if (!frame) frame = requestAnimationFrame(refresh);
   }
@@ -286,6 +321,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
   root.addEventListener('click', async event => {
     const action = event.target.closest('[data-action]')?.dataset.action;
     if (action === 'catalog') onCatalog();
+    if (action === 'templates' || action === 'save-template') templates.open(action === 'save-template');
     if (action === 'preview') {
       find('#studio-preview-title').focus({ preventScroll: true });
       find('.studio-preview').scrollIntoView({ block: 'start' });
@@ -293,6 +329,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
     if (action === 'reset') {
       settings = defaultSettings();
       status.hidden = true;
+      templateStatus.textContent = '';
       syncControls();
       refresh();
     }

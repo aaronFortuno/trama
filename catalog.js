@@ -1,4 +1,5 @@
 import { animateRefresh, setDisclosure } from './motion.js';
+import { syncSelects } from './select-menu.js';
 
 export const labels = {
   language: { es: 'Castellà', ca: 'Català' },
@@ -9,7 +10,7 @@ export const labels = {
     '1-baccalaureate': '1r de batxillerat', '2-baccalaureate': '2n de batxillerat',
   },
   difficulty: { initial: 'Inicial', intermediate: 'Intermèdia', advanced: 'Avançada' },
-  length: { short: 'Curta (fins a 180 paraules)', medium: 'Mitjana (181–280)', long: 'Llarga (més de 280)' },
+  length: { short: 'Curta (<181)', medium: 'Mitjana (181–280)', long: 'Llarga (>280)' },
   theme: { nature: 'Natura', community: 'Comunitat', adventure: 'Aventures', science: 'Ciència', arts: 'Art i cultura', everyday: 'Vida quotidiana' },
   question: { literal: 'Literal', inference: 'Inferència', opinion: 'Opinió', vocabulary: 'Vocabulari', structure: 'Estructura del text' },
   genre: { narrative: 'Narració', informative: 'Divulgació', instructional: 'Text instructiu', interview: 'Entrevista', letter: 'Carta' },
@@ -172,6 +173,7 @@ export function mountCatalog({ root, readings, onSelect }) {
   function clear() {
     search.value = '';
     for (const field of fields) field.value = '';
+    syncSelects(root);
     refresh();
     search.focus();
   }
@@ -190,6 +192,7 @@ export function mountCatalog({ root, readings, onSelect }) {
   }
   compact.addEventListener('change', resizeFilters);
   resizeFilters();
+  syncSelects(root);
   more.addEventListener('click', () => {
     limit += pageSize;
     render({ append: true });

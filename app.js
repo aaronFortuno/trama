@@ -2,6 +2,7 @@ import { mountCatalog } from './catalog.js';
 import { readings } from './data/readings.js';
 import { mountStudio } from './studio.js';
 import { animateRefresh, closeDialog, mountDialogs, openDialog } from './motion.js';
+import { mountSelectMenus } from './select-menu.js';
 
 const main = document.querySelector('#contingut');
 const catalogView = document.querySelector('#catalog-view');
@@ -21,6 +22,7 @@ const studio = mountStudio({
   onVariant: openReading,
 });
 mountDialogs();
+mountSelectMenus();
 
 function openReading(readingId) {
   const hash = `lectura=${encodeURIComponent(readingId)}`;
@@ -46,6 +48,7 @@ function focusStudio() {
 
 function showCatalog() {
   const wasInStudio = !studioView.hidden;
+  studioView.querySelector('dialog[open]')?.close();
   catalogView.hidden = false;
   studioView.hidden = true;
   document.body.classList.remove('is-studio');

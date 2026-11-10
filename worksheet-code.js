@@ -2,18 +2,24 @@ const prefix = 'TR1';
 const stableId = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
 export const imageDefaults = Object.freeze({ visible: true, width: 36, position: 'right', wrap: true });
+export const marginLimits = Object.freeze({ min: 8, max: 32 });
 
 const numberIn = (min, max, step = 1) => value => Number.isFinite(value)
   && value >= min && value <= max && Math.abs(value / step - Math.round(value / step)) < 0.00001;
 const oneOf = (...options) => value => options.includes(value);
 const boolean = value => typeof value === 'boolean';
 const singleLine = max => value => typeof value === 'string' && value.length <= max && !/[\r\n\u0000-\u001f]/.test(value);
+const margin = numberIn(marginLimits.min, marginLimits.max);
 
 const fields = {
   font: ['f', 'serif', oneOf('serif', 'sans', 'mono')],
   fontSize: ['s', 12, numberIn(10, 20)],
   leading: ['l', 1.5, numberIn(1.1, 2.2, 0.1)],
   paragraphGap: ['p', 3, numberIn(0, 12)],
+  marginTop: ['mt', 14, margin],
+  marginRight: ['mr', 16, margin],
+  marginBottom: ['mb', 10, margin],
+  marginLeft: ['ml', 16, margin],
   questionGap: ['q', 4, numberIn(0, 14)],
   answerLines: ['a', -1, numberIn(-1, 8)],
   answerGap: ['g', 7, numberIn(5, 13)],
@@ -23,6 +29,10 @@ const fields = {
   showImages: ['i', true, boolean],
   showCode: ['c', true, boolean],
 };
+
+export function validSetting(key, value) {
+  return Object.hasOwn(fields, key) && fields[key][2](value);
+}
 
 export function defaultSettings() {
   const settings = Object.fromEntries(Object.entries(fields).map(([key, [, fallback]]) => [key, fallback]));

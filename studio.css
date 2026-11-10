@@ -153,7 +153,7 @@
   --sheet-font: Georgia, 'Times New Roman', serif;
   box-sizing: border-box;
   display: grid;
-  grid-template-rows: minmax(0, 1fr) 16mm;
+  grid-template-rows: minmax(0, 1fr) var(--sheet-footer-height, 16mm);
   width: 210mm;
   height: 296.8mm;
   padding: 14mm 16mm 10mm;

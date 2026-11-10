@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="studio.css">
   <link rel="stylesheet" href="dialogs.css">
+  <link rel="stylesheet" href="select-menu.css">
+  <link rel="stylesheet" href="template-library.css">
   <script type="module" src="app.js"></script>
 </head>
 <body>
@@ -62,7 +64,7 @@
               <label for="filter-language">Llengua<select id="filter-language" data-facet="language"><option value="">Totes</option></select></label>
               <label for="filter-level">Nivell<select id="filter-level" data-facet="level"><option value="">Tots</option></select></label>
               <label for="filter-difficulty">Dificultat<select id="filter-difficulty" data-facet="difficulty"><option value="">Totes</option></select></label>
-              <label for="filter-length">Extensió<select id="filter-length" data-facet="length"><option value="">Totes</option></select></label>
+              <label for="filter-length">Extensió (paraules)<select id="filter-length" data-facet="length"><option value="">Totes</option></select></label>
               <label for="filter-theme">Temàtica<select id="filter-theme" data-facet="theme"><option value="">Totes</option></select></label>
               <label for="filter-question">Tipus de pregunta<select id="filter-question" data-facet="question"><option value="">Tots</option></select></label>
               <label for="filter-genre">Tipus de text<select id="filter-genre" data-facet="genre"><option value="">Tots</option></select></label>
@@ -104,7 +106,7 @@
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
         </button>
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.1 · Obre l’historial de canvis">v1.1</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.2 · Obre l’historial de canvis">v1.2</button>
       </div>
     </div>
   </footer>
@@ -168,6 +170,10 @@
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’historial"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
+      <article class="release">
+        <header><h3>v1.2</h3><time datetime="2026-11-10">10 de novembre de 2026</time></header>
+        <p>Catàleg de quatre columnes en pantalles amples i menús més compactes. Nous marges de la fitxa i plantilles de format editables desades al navegador.</p>
+      </article>
       <article class="release">
         <header><h3>v1.1</h3><time datetime="2026-11-10">10 de novembre de 2026</time></header>
         <p>Catàleg més directe, amb capçalera i peu fixos. Ajustos i previsualització amb desplaçament propi, zoom del full i un nou espai per al projecte i l’historial.</p>

@@ -4,6 +4,8 @@ Catàleg de comprensions lectores imprimibles d’ortogra.fi. La primera col·le
 
 A la previsualització, mantén premut Ctrl i gira la roda del ratolí per fer zoom, o fes servir els botons del visor. El zoom de pantalla conserva les mides de la fitxa impresa.
 
+Des de **Plantilles** als ajustos de la fitxa pots crear formats a partir dels ajustos actuals i aplicar-los a qualsevol lectura. Cada plantilla pot incloure text i tipografia, marges, espai de resposta, encapçalament i peu o visibilitat de les il·lustracions. Aplica una plantilla, ajusta la fitxa i marca l’opció d’actualitzar els valors per incorporar-hi els canvis.
+
 ## En local i a GitHub Pages
 
 Des d’aquesta carpeta, executa `node tools/serve.cjs` i obre `http://127.0.0.1:4191/`. El web fa servir HTML, CSS i mòduls JavaScript, amb il·lustracions locals.
@@ -24,4 +26,4 @@ Les entrades es troben a `data/readings.js`. Els filtres es deriven de les dades
 
 Els codis `TR1` contenen l’identificador de la lectura i els canvis respecte dels ajustos per defecte. Es poden recuperar des del botó del catàleg o obrir amb un enllaç que els porta al fragment `#fitxa=`. El codi inclou qualsevol text personalitzat de l’encapçalament. Conserva els identificadors de les lectures, preguntes i imatges perquè les fitxes guardades es puguin continuar recuperant.
 
-Trama funciona al navegador. Els recursos se serveixen des del mateix web. El projecte no incorpora comptes, cookies, analítica ni emmagatzematge d’ajustos al navegador.
+Trama funciona al navegador. Els recursos se serveixen des del mateix web. El projecte no incorpora comptes, cookies ni analítica. Les plantilles es desen al navegador on les crees.

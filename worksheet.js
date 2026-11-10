@@ -75,13 +75,24 @@ export function renderWorksheet(container, reading, settings, code) {
   const words = languageCopy[reading.language] || languageCopy[reading.language.split('-')[0]] || languageCopy.en;
   const pages = [];
   let content;
+  let footerHeight;
   container.replaceChildren();
+
+  function fillFooter(footer, label, withCode) {
+    footer.append(element('span', 'worksheet-page-number', label));
+    if (withCode) {
+      const line = element('div', 'worksheet-code');
+      line.append(element('span', null, words[5]), element('code', null, code));
+      footer.append(line);
+    }
+  }
 
   function startPage() {
     const slot = element('div', 'worksheet-slot');
     const paper = element('article', 'worksheet-page');
     paper.lang = reading.language;
     paper.dataset.font = settings.font;
+    paper.style.padding = `${settings.marginTop}mm ${settings.marginRight}mm ${settings.marginBottom}mm ${settings.marginLeft}mm`;
     paper.style.setProperty('--sheet-font-size', `${settings.fontSize}pt`);
     paper.style.setProperty('--sheet-leading', settings.leading);
     paper.style.setProperty('--sheet-paragraph-gap', `${settings.paragraphGap}mm`);
@@ -92,6 +103,12 @@ export function renderWorksheet(container, reading, settings, code) {
     paper.append(content, footer);
     slot.append(paper);
     container.append(slot);
+    if (settings.showCode && pages.length === 0) {
+      fillFooter(footer, `${words[6]} 999 / 999`, true);
+      if (footer.scrollHeight > footer.clientHeight) footerHeight = footer.scrollHeight + 1;
+      footer.replaceChildren();
+    }
+    if (footerHeight) paper.style.setProperty('--sheet-footer-height', `${footerHeight}px`);
     pages.push(footer);
   }
 
@@ -162,13 +179,7 @@ export function renderWorksheet(container, reading, settings, code) {
   questions.forEach((question, index) => placeBlock(makeQuestion(question, index, settings, index === 0 ? words[4] : '')));
 
   pages.forEach((footer, index) => {
-    const pageNumber = element('span', 'worksheet-page-number', `${words[6]} ${index + 1} / ${pages.length}`);
-    footer.append(pageNumber);
-    if (settings.showCode && index === pages.length - 1) {
-      const line = element('div', 'worksheet-code');
-      line.append(element('span', null, words[5]), element('code', null, code));
-      footer.append(line);
-    }
+    fillFooter(footer, `${words[6]} ${index + 1} / ${pages.length}`, settings.showCode && index === pages.length - 1);
   });
   return pages.length;
 }

@@ -2,7 +2,7 @@ const disclosures = new WeakMap();
 const refreshes = new WeakMap();
 const dialogs = new WeakMap();
 
-function animate(element, frames) {
+export function animate(element, frames) {
   const style = getComputedStyle(document.documentElement);
   const duration = Number.parseFloat(style.getPropertyValue('--motion'));
   if (!duration || !element.animate) return null;
