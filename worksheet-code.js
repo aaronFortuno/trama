@@ -22,10 +22,10 @@ const fields = {
   fontSize: [12, numberIn(10, 20)],
   leading: [2, numberIn(1, 6, .1)],
   paragraphGap: [3, numberIn(0, 12)],
-  marginTop: [14, margin],
-  marginRight: [16, margin],
-  marginBottom: [10, margin],
-  marginLeft: [16, margin],
+  marginTop: [16, margin],
+  marginRight: [20, margin],
+  marginBottom: [16, margin],
+  marginLeft: [20, margin],
   questionGap: [2, numberIn(0, 14)],
   answerLines: [-1, numberIn(-1, maxAnswerLines)],
   answerGap: [10, numberIn(5, 13)],
@@ -45,6 +45,8 @@ const fields = {
 };
 
 const marginKeys = ['marginTop', 'marginRight', 'marginBottom', 'marginLeft'];
+// Shared links created before the margin change omit these values.
+const sharedMarginDefaults = { marginTop: 14, marginRight: 16, marginBottom: 10, marginLeft: 16 };
 const headerFlags = { headerName: 'NOM', headerDate: 'DATA', headerGroup: 'CURS', headerLabel: 'ETIQUETA', headerCustom: 'TEXT' };
 const footerFlags = { showCode: 'CODI', showOrigin: 'ORIGEN', showPage: 'PAGINA' };
 const legacyKeys = {
@@ -113,7 +115,9 @@ export function makeLinkCode(reading, settings) {
   for (const [label, key, encode = String] of scalarCodes) {
     if (changed(key)) tokens.push(`${label}=${encode(settings[key])}`);
   }
-  if (marginKeys.some(changed)) tokens.push(`MARGES=${marginKeys.map(key => settings[key]).join('/')}`);
+  if (marginKeys.some(key => settings[key] !== sharedMarginDefaults[key])) {
+    tokens.push(`MARGES=${marginKeys.map(key => settings[key]).join('/')}`);
+  }
   for (const [name, flags] of [['CAP', headerFlags], ['PEU', footerFlags]]) {
     if (Object.keys(flags).some(changed)) {
       const enabled = Object.keys(flags).filter(key => settings[key]).map(key => flags[key]);
@@ -159,7 +163,7 @@ function readReadable(code, readings) {
     ?? readings.filter(entry => identifier.startsWith(`${baseCode(entry)}-X`))
       .sort((a, b) => b.language.length - a.language.length)[0];
   if (!reading) return null;
-  const settings = defaultSettings();
+  const settings = Object.assign(defaultSettings(), sharedMarginDefaults);
   const versionToken = tokens[0]?.toUpperCase();
   const legacyFormat = tokens.length > 0 && versionToken !== `V=${formatVersion}`;
   if (versionToken === `V=${formatVersion}`) tokens.shift();
@@ -221,7 +225,7 @@ function readLegacy(code, readings) {
   const reading = readings.find(entry => entry.id === id);
   if (!reading) return null;
   const settings = defaultSettings();
-  Object.assign(settings, legacyAnswerDefaults);
+  Object.assign(settings, sharedMarginDefaults, legacyAnswerDefaults);
   settings.leading = 1.5;
   if (encoded === undefined) return { reading, settings: migrateAnswerFormat(settings, settings.paragraphGap) };
   if (!/^[a-zA-Z0-9_-]+$/.test(encoded)) return null;

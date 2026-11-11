@@ -175,7 +175,7 @@
   grid-template-rows: minmax(0, 1fr) var(--sheet-footer-height, 0px);
   width: 210mm;
   height: 296.8mm;
-  padding: 14mm 16mm 10mm;
+  padding: 16mm 20mm;
   color-scheme: light;
   background: #fff;
   color: #202924;
