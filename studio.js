@@ -9,7 +9,7 @@ import { icon } from './icons.js';
 import { bindTranslations, language, t } from './i18n.js';
 import { mountActionMenu } from './action-menu.js';
 import { downloadReading } from './reading-files.js';
-import { encodeImage } from './local-images.js';
+import { encodeImage, logoSource, tramaLogo } from './local-images.js';
 
 const range = (key, label, min, max, step, unit) => `
   <label class="studio-range">
@@ -18,11 +18,12 @@ const range = (key, label, min, max, step, unit) => `
   </label>`;
 const check = (key, label) => `<label class="studio-check"><input type="checkbox" name="${key}"> ${label}</label>`;
 const logoControls = (key, label) => `
-  <div class="studio-logo-control" data-logo-control="${key}">
+  <div class="studio-logo-control" role="group" aria-label="${label}" data-logo-control="${key}">
     <div class="studio-logo-preview" hidden><img alt=""></div>
     <input type="file" data-logo-file="${key}" accept="image/png,image/jpeg,image/webp" hidden>
     <div class="studio-logo-actions">
-      <button type="button" class="button" data-logo-choose aria-label="${label}">Carrega un logotip</button>
+      <button type="button" class="button" data-logo-choose>Carrega un logotip</button>
+      <button type="button" class="studio-text-button" data-logo-default hidden>Fes servir Trama</button>
       <button type="button" class="studio-text-button" data-logo-clear hidden>Treu-lo</button>
     </div>
     <p data-logo-status role="status" hidden></p>
@@ -108,7 +109,7 @@ const template = `
               <label>Títol de l’encapçalament<input type="text" name="headerTitle" maxlength="80" placeholder="Nom de l’escola o de l’activitat"></label>
               <label>Segona línia<input type="text" name="headerDetail" maxlength="100" placeholder="Grup, unitat o instruccions breus"></label>
             </div>
-            ${logoControls('headerLogo', 'Carrega un logotip a l’encapçalament')}
+            ${logoControls('headerLogo', 'Logotip de l’encapçalament')}
           </div>
         </details>
         <details>
@@ -116,7 +117,7 @@ const template = `
           <div class="studio-controls">
             ${check('showOrigin', 'Origen de la fitxa · trama.ortogra.fi')}
             ${check('showPage', 'Número de pàgina')}
-            ${logoControls('footerLogo', 'Carrega un logotip al peu de pàgina')}
+            ${logoControls('footerLogo', 'Logotip del peu de pàgina')}
           </div>
         </details>
       </form>
@@ -336,10 +337,14 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
     setDisclosure(find('#studio-images'), settings.showImages, { animated });
     for (const control of root.querySelectorAll('[data-logo-control]')) {
       const source = settings[control.dataset.logoControl];
+      const url = logoSource(source);
       const image = control.querySelector('img');
-      if (source && image.getAttribute('src') !== source) image.src = source;
+      if (source && image.getAttribute('src') !== url) image.src = url;
       if (!source) image.removeAttribute('src');
+      image.alt = source === tramaLogo ? 'trama.' : '';
       control.querySelector('.studio-logo-preview').hidden = !source;
+      control.querySelector('[data-logo-choose]').textContent = t(source ? 'Canvia el logotip' : 'Carrega un logotip');
+      control.querySelector('[data-logo-default]').hidden = source === tramaLogo;
       control.querySelector('[data-logo-clear]').hidden = !source;
     }
     const included = reading.questions.filter(question => !settings.excluded.includes(question.id));
@@ -552,6 +557,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
     const key = control.dataset.logoControl;
     const input = control.querySelector('[data-logo-file]');
     const choose = control.querySelector('[data-logo-choose]');
+    const restore = control.querySelector('[data-logo-default]');
     const message = control.querySelector('[data-logo-status]');
     const remove = control.querySelector('[data-logo-clear]');
     function updateLogo(source) {
@@ -562,6 +568,10 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
       refresh();
     }
     choose.addEventListener('click', () => input.click());
+    restore.addEventListener('click', () => {
+      updateLogo(tramaLogo);
+      choose.focus({ preventScroll: true });
+    });
     remove.addEventListener('click', () => {
       updateLogo('');
       choose.focus({ preventScroll: true });
@@ -573,7 +583,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
       const config = settings;
       const previous = settings[key];
       message.hidden = true;
-      choose.disabled = remove.disabled = true;
+      choose.disabled = remove.disabled = restore.disabled = true;
       let url;
       try {
         if (!/^image\/(png|jpeg|webp)$/.test(file.type) || file.size > 5 * 1024 * 1024) throw new Error();
@@ -588,7 +598,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
         }
       } finally {
         if (url) URL.revokeObjectURL(url);
-        choose.disabled = remove.disabled = false;
+        choose.disabled = remove.disabled = restore.disabled = false;
       }
     });
   }

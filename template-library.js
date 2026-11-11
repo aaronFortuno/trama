@@ -2,6 +2,7 @@ import { animateRefresh, closeDialog, openDialog, setDisclosure } from './motion
 import { defaultTemplate, listTemplates, moveTemplate, removeTemplate, saveTemplate, templateGroups, templateKey, templateOrderKey, templateSettings } from './worksheet-templates.js';
 import { icon } from './icons.js';
 import { language, t } from './i18n.js';
+import { tramaLogo } from './local-images.js';
 
 export const templateLibraryMarkup = `
   <dialog class="site-dialog template-dialog" id="template-dialog" aria-labelledby="template-library-title">
@@ -160,8 +161,8 @@ export function mountTemplateLibrary({ dialog, picker, getSettings, getThumbnail
     name.value = entry?.name || '';
     const current = getSettings();
     for (const [index, field] of checkboxes.entries()) {
-      const hasLogo = (field.value === 'header' && current.headerLogo) || (field.value === 'footer' && current.footerLogo);
-      field.checked = entry ? Object.hasOwn(entry.format, field.value) : Boolean(templateGroups[index].selected || hasLogo);
+      const changedLogo = (field.value === 'header' && current.headerLogo !== tramaLogo) || (field.value === 'footer' && current.footerLogo);
+      field.checked = entry ? Object.hasOwn(entry.format, field.value) : Boolean(templateGroups[index].selected || changedLogo);
     }
     find('#template-editor-title').textContent = t(entry ? 'Edita la plantilla' : 'Nova plantilla');
     find('#template-recapture').hidden = !entry;

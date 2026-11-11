@@ -8,7 +8,7 @@ El commutador **Solucionari** mostra la resposta orientativa sota cada pregunta 
 
 Des de **Plantilles** pots aplicar la plantilla Clàssica (Georgia, 12 pt, interlineat 1×) o una plantilla desada. Les miniatures mostren la cantonada superior del full amb els ajustos de cada plantilla. A **Gestiona les plantilles** pots crear, editar i reordenar les teves plantilles. Cada plantilla pot incloure text i tipografia, marges, espai de resposta, encapçalament i peu o visibilitat de les il·lustracions. Aplica una plantilla, ajusta la fitxa i marca l’opció d’actualitzar els valors per incorporar-hi els canvis.
 
-**Text i tipografia** inclou un ajust per a l’espai abans de les preguntes, amb 8 mm per defecte quan el text i les preguntes comparteixen pàgina. Pots carregar logotips en PNG, JPEG o WebP a **Encapçalament** i **Peu de pàgina**. Si deses una plantilla amb aquests blocs, també hi deses els logotips.
+**Text i tipografia** inclou un ajust per a l’espai abans de les preguntes, amb 8 mm per defecte quan el text i les preguntes comparteixen pàgina. L’encapçalament inclou el logotip de Trama per defecte. A **Encapçalament** i **Peu de pàgina** pots triar la marca de Trama, treure-la o carregar un logotip en PNG, JPEG o WebP. L’alçada màxima és de 8 mm a l’encapçalament i 6 mm al peu. Si deses una plantilla amb aquests blocs, també hi deses els logotips.
 
 ## Importar i exportar lectures
 

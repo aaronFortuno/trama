@@ -209,7 +209,7 @@
 .worksheet-header { margin-bottom: 7mm; font: 10pt/1.25 Arial, sans-serif; }
 .worksheet-header:has(.worksheet-logo) { display: flex; align-items: center; gap: 4mm; }
 .worksheet-header-details { flex: 1; min-width: 0; }
-.worksheet-logo { display: block; width: 30mm; height: 15mm; flex: none; object-fit: contain; object-position: left center; }
+.worksheet-logo { display: block; width: 30mm; height: 8mm; flex: none; object-fit: contain; object-position: left center; }
 .worksheet-custom-title { display: block; margin-bottom: 1mm; font-size: 13pt; }
 .worksheet-custom-detail { margin: 0 0 2mm; }
 .worksheet-fields { display: flex; gap: 6mm; }
@@ -270,7 +270,7 @@
 .worksheet-footer:empty { padding: 0; }
 .worksheet-page-number { grid-column: 2; }
 .worksheet-footer-brand { grid-column: 1; display: flex; flex-wrap: wrap; align-items: center; gap: 1mm 2mm; }
-.worksheet-footer .worksheet-logo { width: 24mm; height: 9mm; }
+.worksheet-footer .worksheet-logo { width: 24mm; height: 6mm; }
 .worksheet-origin { color: #38584b; text-decoration: none; }
 .worksheet-print-outlet { display: none; }
 .worksheet-export-layout { position: fixed; top: 0; left: -10000px; width: 210mm; visibility: hidden; pointer-events: none; }

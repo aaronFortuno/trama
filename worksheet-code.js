@@ -1,4 +1,4 @@
-import { rasterImagePattern } from './local-images.js';
+import { rasterImagePattern, tramaLogo } from './local-images.js';
 
 const stableId = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 export const imageDefaults = Object.freeze({ visible: true, width: 36, position: 'right', wrap: true });
@@ -13,7 +13,7 @@ const numberIn = (min, max, step = 1) => value => Number.isFinite(value) && valu
 const oneOf = (...options) => value => options.includes(value);
 const boolean = value => typeof value === 'boolean';
 const singleLine = max => value => typeof value === 'string' && value.length <= max && !/[\r\n\u0000-\u001f]/.test(value);
-const logo = value => typeof value === 'string' && (value === '' || value.length <= 320000 && rasterImagePattern.test(value));
+const logo = value => typeof value === 'string' && (value === '' || value === tramaLogo || value.length <= 320000 && rasterImagePattern.test(value));
 const margin = numberIn(marginLimits.min, marginLimits.max);
 const lineCount = numberIn(0, maxAnswerLines);
 const imageWidth = numberIn(20, 75);
@@ -42,7 +42,7 @@ const fields = {
   headerCustom: [false, boolean],
   headerTitle: ['', singleLine(80)],
   headerDetail: ['', singleLine(100)],
-  headerLogo: ['', logo],
+  headerLogo: [tramaLogo, logo],
   showImages: [true, boolean],
   showCode: [true, boolean],
   showOrigin: [true, boolean],
@@ -51,8 +51,7 @@ const fields = {
 };
 
 const marginKeys = ['marginTop', 'marginRight', 'marginBottom', 'marginLeft'];
-// Shared links created before the margin change omit these values.
-const sharedMarginDefaults = { marginTop: 14, marginRight: 16, marginBottom: 10, marginLeft: 16 };
+const sharedLayoutDefaults = { marginTop: 14, marginRight: 16, marginBottom: 10, marginLeft: 16, headerLogo: '' };
 const headerFlags = { headerName: 'NOM', headerDate: 'DATA', headerGroup: 'CURS', headerLabel: 'ETIQUETA', headerCustom: 'TEXT' };
 const footerFlags = { showCode: 'CODI', showOrigin: 'ORIGEN', showPage: 'PAGINA' };
 const legacyKeys = {
@@ -121,7 +120,7 @@ export function makeLinkCode(reading, settings) {
   for (const [label, key, encode = String] of scalarCodes) {
     if (changed(key)) tokens.push(`${label}=${encode(settings[key])}`);
   }
-  if (marginKeys.some(key => settings[key] !== sharedMarginDefaults[key])) {
+  if (marginKeys.some(key => settings[key] !== sharedLayoutDefaults[key])) {
     tokens.push(`MARGES=${marginKeys.map(key => settings[key]).join('/')}`);
   }
   for (const [name, flags] of [['CAP', headerFlags], ['PEU', footerFlags]]) {
@@ -169,7 +168,7 @@ function readReadable(code, readings) {
     ?? readings.filter(entry => identifier.startsWith(`${baseCode(entry)}-X`))
       .sort((a, b) => b.language.length - a.language.length)[0];
   if (!reading) return null;
-  const settings = Object.assign(defaultSettings(), sharedMarginDefaults);
+  const settings = Object.assign(defaultSettings(), sharedLayoutDefaults);
   const versionToken = tokens[0]?.toUpperCase();
   const legacyFormat = tokens.length > 0 && versionToken !== `V=${formatVersion}`;
   if (versionToken === `V=${formatVersion}`) tokens.shift();
@@ -231,7 +230,7 @@ function readLegacy(code, readings) {
   const reading = readings.find(entry => entry.id === id);
   if (!reading) return null;
   const settings = defaultSettings();
-  Object.assign(settings, sharedMarginDefaults, legacyAnswerDefaults);
+  Object.assign(settings, sharedLayoutDefaults, legacyAnswerDefaults);
   settings.leading = 1.5;
   if (encoded === undefined) return { reading, settings: migrateAnswerFormat(settings, settings.paragraphGap) };
   if (!/^[a-zA-Z0-9_-]+$/.test(encoded)) return null;

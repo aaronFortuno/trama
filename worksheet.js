@@ -1,5 +1,6 @@
 import { imageDefaults, maxAnswerLines, questionLines } from './worksheet-code.js';
 import { language, t } from './i18n.js';
+import { logoSource, tramaLogo } from './local-images.js';
 
 const languageCopy = {
   ca: ['Nom', 'Data', 'Curs', 'Comprensió lectora', 'Preguntes', 'Pàgina', 'Solucionari', 'Resposta orientativa', 'Sense resposta orientativa.'],
@@ -17,8 +18,8 @@ function element(tag, className, text) {
 
 function makeLogo(source) {
   const logo = element('img', 'worksheet-logo');
-  logo.src = source;
-  logo.alt = '';
+  logo.src = logoSource(source);
+  logo.alt = source === tramaLogo ? 'trama.' : '';
   return logo;
 }
 

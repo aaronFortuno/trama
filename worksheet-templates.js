@@ -15,6 +15,7 @@ export const templateGroups = [
 const alphabetical = new Intl.Collator('ca', { sensitivity: 'base', numeric: true });
 const capture = (group, settings) => Object.fromEntries(group.keys.map(key => [key, settings[key]]));
 const defaults = defaultSettings();
+const savedDefaults = { ...defaults, headerLogo: '' };
 export const defaultTemplate = {
   id: 'standard', name: 'Clàssica', builtin: true,
   format: Object.fromEntries(templateGroups.map(group => [group.id, capture(group, defaults)])),
@@ -33,7 +34,7 @@ function readTemplate(id, raw) {
     for (const group of templateGroups) {
       const saved = stored[group.id];
       if (!saved || typeof saved !== 'object' || Array.isArray(saved)) continue;
-      const entries = group.keys.map(key => [key, Object.hasOwn(saved, key) ? saved[key] : defaults[key]]);
+      const entries = group.keys.map(key => [key, Object.hasOwn(saved, key) ? saved[key] : savedDefaults[key]]);
       if (entries.every(([key, value]) => validSetting(key, value))) format[group.id] = Object.fromEntries(entries);
     }
     if (!data.version && format.answers) {

@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.7.1 · 11 de novembre de 2026
+
+«Llegir és lligar caps.» és el lema de la capçalera. La fitxa inclou per defecte la icona i el nom de Trama. Es pot canviar, treure o recuperar la marca, amb logotips de fins a 8 mm d’alçada a l’encapçalament i 6 mm al peu.
+
 ## 1.7 · 11 de novembre de 2026
 
 Importació i exportació de lectures en JSON. Les lectures importades es desen al navegador. Es pot afegir un logotip a l’encapçalament i al peu del full i desar-lo amb una plantilla. L’espai entre la lectura i les preguntes té un ajust propi.

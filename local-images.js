@@ -1,4 +1,6 @@
 export const rasterImagePattern = /^data:image\/(?:png|jpeg|webp);base64,[A-Za-z0-9+/]+={0,2}$/;
+export const tramaLogo = 'trama';
+export const logoSource = value => value === tramaLogo ? 'assets/brand/trama-wordmark.svg' : value;
 
 export async function imageFrom(source) {
   const image = new Image();
