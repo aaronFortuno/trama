@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.12 · 11 de novembre de 2026
+
+Quatre lectures il·lustrades de 5è en castellà sobre Eratòstenes, les teranyines, el foc a la prehistòria i una inscripció en bronze. El catàleg arriba a vint fitxes.
+
 ## 1.11 · 11 de novembre de 2026
 
 Quatre lectures il·lustrades de 5è en castellà sobre la brúixola, els cargols, la pluja àcida i la suor, amb sis preguntes i solucionari per fitxa.
