@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.10 · 11 de novembre de 2026
+
+Quatre lectures il·lustrades de 5è en castellà sobre les petjades fòssils, els músculs, el so a l’espai i la lira d’Hermes. Cadascuna inclou sis preguntes, solucionari i espai de resposta adaptat als enunciats.
+
 ## 1.9.1 · 11 de novembre de 2026
 
 Un diàleg al catàleg permet importar i exportar lectures en JSON i descarregar una plantilla. El recompte de lectures acompanya el títol del catàleg.

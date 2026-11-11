@@ -101,7 +101,7 @@ Text instructiu|Texto instructivo
 Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
-v1.9.1 · Obre l’historial de canvis|v1.9.1 · Abrir el historial de cambios
+v1.10 · Obre l’historial de canvis|v1.10 · Abrir el historial de cambios
 V4V · Sobre el projecte|V4V · Sobre el proyecto
 Un petit espai per aprendre|Un pequeño espacio para aprender
 Tanca la informació del projecte|Cerrar la información del proyecto
@@ -125,6 +125,7 @@ Fotografia i QR reutilitzats de|Fotografía y QR reutilizados de
 Historial de versions|Historial de versiones
 Changelog complet ↗|Historial completo ↗
 Tanca l’historial|Cerrar el historial
+Quatre lectures il·lustrades de 5è en castellà sobre les petjades fòssils, els músculs, el so a l’espai i la lira d’Hermes.|Cuatro lecturas ilustradas de 5.º en español sobre las huellas fósiles, los músculos, el sonido en el espacio y la lira de Hermes.
 Importació i exportació de lectures en un diàleg amb una plantilla JSON. El recompte acompanya el títol del catàleg.|Importación y exportación de lecturas en un diálogo con una plantilla JSON. El recuento acompaña al título del catálogo.
 Quatre lectures noves de 5è en castellà i revisió de les quatre primeres fitxes i els seus solucionaris.|Cuatro lecturas nuevas de 5.º en español y revisión de las cuatro primeras fichas y sus solucionarios.
 Set tipografies agrupades per família, amb Massallera per a les fitxes en lletra lligada.|Siete tipografías agrupadas por familia, con Massallera para las fichas en letra ligada.
