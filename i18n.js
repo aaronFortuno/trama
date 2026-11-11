@@ -32,7 +32,7 @@ export function bindTranslations(root) {
       const source = original.trim();
       if (known(source)) updates.push(() => { node.data = original.replace(source, t(source)); });
     } else {
-      for (const attr of ['aria-label', 'alt', 'placeholder', 'title', 'content']) {
+      for (const attr of ['aria-label', 'alt', 'placeholder', 'title', 'content', 'label']) {
         const source = node.getAttribute(attr);
         if (source && known(source)) updates.push(() => node.setAttribute(attr, t(source)));
       }

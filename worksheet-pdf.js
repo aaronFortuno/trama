@@ -1,3 +1,5 @@
+import { embeddedFontStyles } from './worksheet-fonts.js';
+
 const widthMm = 210;
 const heightMm = 297;
 const px = 96 / 25.4;
@@ -11,7 +13,7 @@ async function fetchLocal(url) {
   return response;
 }
 
-async function imageData(url) {
+async function fileData(url) {
   const blob = await (await fetchLocal(url)).blob();
   return new Promise((resolve, reject) => {
     const reader = new FileReader();
@@ -34,7 +36,7 @@ async function rasterize(page, css, images) {
   await Promise.all(Array.from(page.querySelectorAll('img'), async image => {
     const url = image.src;
     if (url.startsWith('data:')) return;
-    if (!images.has(url)) images.set(url, imageData(url));
+    if (!images.has(url)) images.set(url, fileData(url));
     image.src = await images.get(url);
   }));
   markup.append(style, page);
@@ -59,16 +61,17 @@ async function rasterize(page, css, images) {
 }
 
 export async function downloadPdf(pages, { title, filename }) {
-  const [, stylesheet] = await Promise.all([
+  const [, stylesheet, fonts] = await Promise.all([
     import('./assets/vendor/pdf-lib.min.js'),
     fetchLocal(new URL('studio.css', import.meta.url)).then(response => response.text()),
+    embeddedFontStyles(pages.map(page => page.dataset.font), fileData),
   ]);
   const pdf = await globalThis.PDFLib.PDFDocument.create();
   pdf.setTitle(title);
   pdf.setCreator('Trama');
   const images = new Map();
   for (const sheet of pages) {
-    const image = await pdf.embedPng(await rasterize(sheet, stylesheet, images));
+    const image = await pdf.embedPng(await rasterize(sheet, fonts + '\n' + stylesheet, images));
     const page = pdf.addPage([widthMm * pt, heightMm * pt]);
     page.drawImage(image, { x: 0, y: 0, width: widthMm * pt, height: heightMm * pt });
   }

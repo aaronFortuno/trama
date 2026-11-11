@@ -44,6 +44,8 @@
 .select-option:hover, .select-option[data-active] { background: var(--hover); }
 .select-option[aria-selected="true"] { background: color-mix(in srgb, var(--accent) 13%, var(--surface)); color: var(--accent); font-weight: 650; }
 .select-option .ui-icon { width: 14px; height: 14px; }
+.select-group-heading { padding: 5px 8px 3px; color: var(--muted); font-size: .69rem; font-weight: 650; }
+.select-menu [role="group"] + [role="group"] { margin-top: 4px; border-top: 1px solid var(--line); }
 
 .action-menu {
   min-width: 150px;

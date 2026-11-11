@@ -3,6 +3,7 @@ import { defaultTemplate, listTemplates, moveTemplate, removeTemplate, saveTempl
 import { icon } from './icons.js';
 import { language, t } from './i18n.js';
 import { tramaLogo } from './local-images.js';
+import { worksheetFonts } from './worksheet-fonts.js';
 
 export const templateLibraryMarkup = `
   <dialog class="site-dialog template-dialog" id="template-dialog" aria-labelledby="template-library-title">
@@ -49,12 +50,11 @@ export const templateLibraryMarkup = `
   </dialog>`;
 
 const fold = value => value.toLocaleLowerCase(language()).normalize('NFD').replace(/\p{M}/gu, '');
-const fonts = { serif: 'Georgia', sans: 'Arial', mono: 'Courier New' };
 const templateName = entry => entry.builtin ? t(entry.name) : entry.name;
 
 function describe(entry) {
   const { text, margins, answers, header, footer, images } = entry.format;
-  const font = text && `${fonts[text.font]} · ${text.fontSize} pt · ${new Intl.NumberFormat(language()).format(text.leading / 2)}×`;
+  const font = text && `${worksheetFonts[text.font].name} · ${text.fontSize} pt · ${new Intl.NumberFormat(language()).format(text.leading / 2)}×`;
   if (entry.builtin) return font;
   return [
     font,

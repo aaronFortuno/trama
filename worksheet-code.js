@@ -1,4 +1,5 @@
 import { rasterImagePattern, tramaLogo } from './local-images.js';
+import { worksheetFonts } from './worksheet-fonts.js';
 
 const stableId = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 export const imageDefaults = Object.freeze({ visible: true, width: 36, position: 'right', wrap: true });
@@ -17,7 +18,7 @@ const logo = value => typeof value === 'string' && (value === '' || value === tr
 const margin = numberIn(marginLimits.min, marginLimits.max);
 const lineCount = numberIn(0, maxAnswerLines);
 const imageWidth = numberIn(20, 75);
-const fonts = { serif: 'GEORGIA', sans: 'ARIAL', mono: 'COURIER' };
+const fonts = Object.fromEntries(Object.entries(worksheetFonts).map(([id, font]) => [id, font.code ?? font.name.toUpperCase()]));
 const positions = { left: 'ESQUERRA', center: 'CENTRE', right: 'DRETA' };
 
 const fields = {

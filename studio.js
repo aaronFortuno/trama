@@ -10,6 +10,7 @@ import { bindTranslations, language, t } from './i18n.js';
 import { mountActionMenu } from './action-menu.js';
 import { downloadReading } from './reading-files.js';
 import { encodeImage, logoSource, tramaLogo } from './local-images.js';
+import { fontGroups, loadWorksheetFont, worksheetFonts } from './worksheet-fonts.js';
 
 const range = (key, label, min, max, step, unit) => `
   <label class="studio-range">
@@ -29,6 +30,11 @@ const logoControls = (key, label) => `
     <p data-logo-status role="status" hidden></p>
   </div>`;
 const answerStyleOptions = { blank: 'En blanc', lines: 'Línies', dots: 'Punts', grid: 'Quadrícula' };
+const fontOptions = Object.entries(fontGroups).map(([group, label]) => `
+  <optgroup label="${label}">
+    ${Object.entries(worksheetFonts).filter(([, font]) => font.group === group)
+      .map(([id, font]) => `<option value="${id}">${font.name}</option>`).join('')}
+  </optgroup>`).join('');
 
 const template = `
   <div class="studio-layout scroll-pane">
@@ -80,7 +86,7 @@ const template = `
           <summary>Text i tipografia</summary>
           <div class="studio-controls">
             <label>Tipografia
-              <select name="font"><option value="serif">Georgia · amb serifa</option><option value="sans">Arial · sense serifa</option><option value="mono">Courier New · monoespaiada</option></select>
+              <select name="font">${fontOptions}<option value="mono" hidden>${worksheetFonts.mono.name}</option></select>
             </label>
             ${range('fontSize', 'Cos de lletra', 10, 20, 1, 'pt')}
             ${range('leading', 'Interlineat', .5, 3, .05, '×')}
@@ -246,6 +252,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
     fixedParts.forEach(part => resizeSidebar.observe(part));
   }
   const variant = find('#studio-variant');
+  const legacyFontOption = find('select[name="font"] option[value="mono"]');
   const solution = find('#studio-solution');
   const exportStatus = find('#studio-export-status');
   const printTrigger = find('#studio-print-trigger');
@@ -259,6 +266,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
 
   let reading;
   let settings;
+  let requestedFont;
   let pendingPrint;
   let frame = 0;
   let hiddenQuestion;
@@ -375,6 +383,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
         }
       }
     }
+    legacyFontOption.hidden = settings.font !== 'mono';
     syncSelects(root);
     templates.syncPicker();
   }
@@ -384,6 +393,15 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
     cancelAnimationFrame(frame);
     frame = 0;
     if (!reading || root.hidden) return;
+    const font = settings.font;
+    if (font !== requestedFont) {
+      requestedFont = font;
+      loadWorksheetFont(font)?.then(() => {
+        if (settings.font === font) refresh();
+      }).catch(() => {
+        if (requestedFont === font) requestedFont = undefined;
+      });
+    }
     const { scrollLeft, scrollTop } = stage;
     renderWorksheet(pages, reading, settings, { answerKey: solution.checked });
     preview.size();
@@ -489,12 +507,12 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
     focus?.focus({ preventScroll: true });
   }
 
-  function makeExportPages(answerKey = false) {
+  function makeExportPages(answerKey = false, config = settings) {
     const layout = create('div', 'worksheet-export-layout');
     layout.setAttribute('aria-hidden', 'true');
     document.body.append(layout);
     try {
-      renderWorksheet(layout, reading, settings, { answerKey, interactive: false });
+      renderWorksheet(layout, reading, config, { answerKey, interactive: false });
       return [...layout.querySelectorAll('.worksheet-page')];
     } finally {
       layout.remove();
@@ -505,10 +523,17 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
     if (printButton.disabled || root.hidden) return;
     const current = reading;
     const answerKey = action.endsWith('-key');
+    const config = {
+      ...settings, excluded: [...settings.excluded],
+      questionLines: { __proto__: null, ...settings.questionLines },
+      images: { __proto__: null, ...settings.images },
+    };
     printButton.disabled = printTrigger.disabled = true;
     exportStatus.hidden = true;
     try {
-      const exportPages = makeExportPages(answerKey);
+      await loadWorksheetFont(config.font);
+      if (reading !== current || root.hidden) return;
+      const exportPages = makeExportPages(answerKey, config);
       if (action.startsWith('pdf')) {
         const { downloadPdf } = await import('./worksheet-pdf.js');
         const filename = `${current.code}-${current.language.toUpperCase()}${answerKey ? '-' + t('solucionari') : ''}.pdf`;

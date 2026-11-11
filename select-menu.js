@@ -90,7 +90,10 @@ function enhance(select) {
 
   function open() {
     if (select.disabled) return false;
-    options = [...select.options].filter(option => !option.hidden && !option.disabled).map(option => {
+    const contents = document.createDocumentFragment();
+    const groups = new Map();
+    options = [...select.options].filter(option => !option.hidden && !option.disabled
+      && !option.parentElement.matches('optgroup[hidden], optgroup[disabled]')).map(option => {
       const node = document.createElement('div');
       node.className = 'select-option';
       node.id = `${id}-option-${option.index}`;
@@ -98,6 +101,20 @@ function enhance(select) {
       node.setAttribute('aria-selected', String(option.selected));
       node.textContent = option.label;
       if (option.selected) node.insertAdjacentHTML('beforeend', check);
+      const group = option.closest('optgroup');
+      if (group && !groups.has(group)) {
+        const section = document.createElement('div');
+        section.setAttribute('role', 'group');
+        section.setAttribute('aria-label', group.label);
+        const heading = document.createElement('div');
+        heading.className = 'select-group-heading';
+        heading.setAttribute('aria-hidden', 'true');
+        heading.textContent = group.label;
+        section.append(heading);
+        groups.set(group, section);
+        contents.append(section);
+      }
+      (groups.get(group) ?? contents).append(node);
       return { option, node };
     });
     if (!options.length) return false;
@@ -106,7 +123,7 @@ function enhance(select) {
     animation?.cancel();
     menu.classList.remove('is-closing');
     menu.inert = false;
-    menu.replaceChildren(...options.map(({ node }) => node));
+    menu.replaceChildren(contents);
     if (!menu.matches(':popover-open')) menu.showPopover();
     trigger.setAttribute('aria-expanded', 'true');
     placeMenu(trigger, menu);

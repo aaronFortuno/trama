@@ -61,3 +61,5 @@ Trama funciona al navegador. Els recursos se serveixen des del mateix web. El pr
 ## Llicència i crèdits
 
 El codi de Trama es distribueix sota la [llicència MIT](LICENSE). Algunes icones de la interfície són de [Lucide](https://lucide.dev/) i es distribueixen amb els seus [avisos de llicència](assets/icons/LICENSE). La descàrrega de PDF fa servir [pdf-lib](https://pdf-lib.js.org/), amb la seva [llicència MIT](assets/vendor/pdf-lib.LICENSE.md). La fotografia de l’autor i el QR del V4V provenen de [Plec](https://github.com/aaronFortuno/plec-dictats).
+
+Les tipografies incloses al web tenen els seus [crèdits i llicències](assets/fonts/README.md).

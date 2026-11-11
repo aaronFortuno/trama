@@ -1,6 +1,7 @@
 import { imageDefaults, maxAnswerLines, questionLines } from './worksheet-code.js';
 import { language, t } from './i18n.js';
 import { logoSource, tramaLogo } from './local-images.js';
+import { loadWorksheetFont, worksheetFonts } from './worksheet-fonts.js';
 
 const languageCopy = {
   ca: ['Nom', 'Data', 'Curs', 'Comprensió lectora', 'Preguntes', 'Pàgina', 'Solucionari', 'Resposta orientativa', 'Sense resposta orientativa.'],
@@ -137,8 +138,11 @@ function makeQuestion(question, index, settings, heading, words, { answerKey, in
 
 function makePaper(reading, settings, tag) {
   const paper = element(tag, 'worksheet-page');
+  const font = worksheetFonts[settings.font];
   paper.lang = reading.language;
   paper.dataset.font = settings.font;
+  paper.style.setProperty('--sheet-font', font.stack);
+  if (font.group === 'sans') paper.style.setProperty('--sheet-solution-font', worksheetFonts.serif.stack);
   paper.style.padding = `${settings.marginTop}mm ${settings.marginRight}mm ${settings.marginBottom}mm ${settings.marginLeft}mm`;
   paper.style.setProperty('--sheet-font-size', `${settings.fontSize}pt`);
   paper.style.setProperty('--sheet-leading', settings.leading);
@@ -148,6 +152,7 @@ function makePaper(reading, settings, tag) {
 }
 
 export function worksheetThumbnail(reading, settings) {
+  loadWorksheetFont(settings.font)?.catch(() => {});
   const corner = element('div', 'worksheet-thumbnail');
   corner.setAttribute('aria-hidden', 'true');
   const paper = makePaper(reading, settings, 'div');

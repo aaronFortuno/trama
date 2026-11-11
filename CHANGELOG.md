@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.8 · 11 de novembre de 2026
+
+Set tipografies agrupades per família. Georgia, Lora i Merriweather amb serifa, Arial, Andika i Lexend sense serifa, i Massallera com a lletra lligada escolar.
+
 ## 1.7.2 · 11 de novembre de 2026
 
 Les respostes orientatives del solucionari es distingeixen pel gris i una tipografia diferent de la dels enunciats.

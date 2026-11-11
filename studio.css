@@ -202,11 +202,6 @@
   box-shadow: 0 2px 12px #213a3429;
 }
 
-.worksheet-page[data-font="sans"] {
-  --sheet-font: Arial, sans-serif;
-  --sheet-solution-font: Georgia, 'Times New Roman', serif;
-}
-.worksheet-page[data-font="mono"] { --sheet-font: 'Courier New', monospace; }
 .worksheet-content { display: flex; flex-direction: column; }
 .worksheet-content > * { flex: none; }
 .worksheet-heading { padding-bottom: 5mm; }
