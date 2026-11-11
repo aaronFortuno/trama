@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.11 · 11 de novembre de 2026
+
+Quatre lectures il·lustrades de 5è en castellà sobre la brúixola, els cargols, la pluja àcida i la suor, amb sis preguntes i solucionari per fitxa.
+
 ## 1.10 · 11 de novembre de 2026
 
 Quatre lectures il·lustrades de 5è en castellà sobre les petjades fòssils, els músculs, el so a l’espai i la lira d’Hermes. Cadascuna inclou sis preguntes, solucionari i espai de resposta adaptat als enunciats.

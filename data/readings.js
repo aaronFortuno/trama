@@ -1,5 +1,6 @@
 import { readings5Es } from './readings-5-es.js';
 import { moreReadings5Es } from './readings-5-es-2.js';
+import { readings5EsThirdSeries } from './readings-5-es-3.js';
 
 export const readings = [
   {
@@ -173,4 +174,5 @@ export const readings = [
   },
   ...readings5Es,
   ...moreReadings5Es,
+  ...readings5EsThirdSeries,
 ];

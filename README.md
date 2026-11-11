@@ -1,6 +1,6 @@
 # Trama
 
-Catàleg de comprensions lectores imprimibles d’ortogra.fi. La primera col·lecció inclou dotze fitxes en castellà per a 5è de primària. La interfície es pot fer servir en català i castellà. Les fitxes mostren els rètols en l’idioma de la lectura quan hi ha una traducció disponible.
+Catàleg de comprensions lectores imprimibles d’ortogra.fi. La primera col·lecció inclou setze fitxes en castellà per a 5è de primària. La interfície es pot fer servir en català i castellà. Les fitxes mostren els rètols en l’idioma de la lectura quan hi ha una traducció disponible.
 
 A la previsualització, mantén premut Ctrl i gira la roda del ratolí per fer zoom, o fes servir els botons del visor. El zoom de pantalla conserva les mides de la fitxa impresa.
 
@@ -44,7 +44,7 @@ GitHub Pages serveix l’arrel de `main`. El fitxer `.nojekyll` permet servir di
 
 ## Ampliar el catàleg
 
-El catàleg s’exporta des de `data/readings.js` com una llista d’objectes JavaScript. La sèrie L005–L008 és a `data/readings-5-es.js` i la L009–L012, a `data/readings-5-es-2.js`. Els filtres es deriven de les dades i el catàleg mostra les fitxes per tandes.
+El catàleg s’exporta des de `data/readings.js` com una llista d’objectes JavaScript. Les sèries L005–L008, L009–L012 i L013–L016 es troben a `data/readings-5-es.js`, `data/readings-5-es-2.js` i `data/readings-5-es-3.js`. Els filtres es deriven de les dades i el catàleg mostra les fitxes per tandes.
 
 - Assigna un `id` únic i estable a cada versió. Comparteix el `workId` i el `code` (per exemple, `L001`) entre les traduccions d’una mateixa lectura.
 - Fes servir `language` amb una etiqueta BCP 47 i `level` amb un identificador de curs. `catalog.js` recull els noms habituals dels filtres. `worksheet.js` conté els rètols impresos en català, castellà i anglès. Les llengües sense rètols propis fan servir els anglesos.
@@ -55,6 +55,8 @@ El catàleg s’exporta des de `data/readings.js` com una llista d’objectes Ja
 Fonts de verificació de la sèrie L005–L008. [Aqüeducte de Segòvia, portal oficial de turisme](https://www.spain.info/es/lugares-interes/acueducto-segovia/) · [Balena geperuda, NOAA Fisheries](https://www.fisheries.noaa.gov/species/humpback-whale)
 
 Fonts de la sèrie L009–L012. [Petjades fòssils, National Park Service](https://www.nps.gov/dena/learn/nature/making-dino-prints.htm) · [Músculs del braç, OpenStax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems) · [Comunicació dels vestits espacials, NASA](https://www.nasa.gov/centers-and-facilities/johnson/spacewalk-spacesuit-basics/) · [Himne homèric a Hermes, Project Gutenberg](https://www.gutenberg.org/files/16338/16338-h/16338-h.htm)
+
+Fonts de la sèrie L013–L016. [Brúixola a la Xina, Columbia University](https://afe.easia.columbia.edu/songdynasty-module/tech-compass.html) · [Brúixola amb suro, NOAA](https://oceanservice.noaa.gov/education/dyw-make-compass.html) · [Cargol de jardí, University of Florida](https://ask.ifas.ufl.edu/publication/IN396) · [Efectes de la pluja àcida, EPA](https://www.epa.gov/acidrain/effects-acid-rain) · [Pluja àcida i roca calcària, USGS](https://pubs.usgs.gov/circ/1995/1108/report.pdf) · [Pell i regulació de la temperatura, OpenStax](https://openstax.org/books/clinical-nursing-skills/pages/21-1-structure-and-functions-of-the-skin) · [Evaporació de la suor, National Academies](https://www.nationalacademies.org/read/10925/chapter/6)
 
 ## Cerca i privadesa
 
