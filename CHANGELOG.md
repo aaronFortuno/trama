@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.12.1 · 11 de novembre de 2026
+
+El catàleg es barreja en carregar la pàgina i manté el mateix ordre mentre es navega.
+
 ## 1.12 · 11 de novembre de 2026
 
 Quatre lectures il·lustrades de 5è en castellà sobre Eratòstenes, les teranyines, el foc a la prehistòria i una inscripció en bronze. El catàleg arriba a vint fitxes.

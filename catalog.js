@@ -78,6 +78,11 @@ function sortFacet(facet, a, b, compare) {
 
 export function mountCatalog({ root, readings, onSelect }) {
   let catalog = indexCatalog(readings);
+  for (let index = catalog.length - 1; index > 0; index -= 1) {
+    const other = Math.floor(Math.random() * (index + 1));
+    [catalog[index], catalog[other]] = [catalog[other], catalog[index]];
+  }
+
   const search = root.querySelector('#search');
   const fields = [...root.querySelectorAll('[data-facet]')];
   const grid = root.querySelector('#reading-grid');
@@ -212,7 +217,11 @@ export function mountCatalog({ root, readings, onSelect }) {
 
   return {
     replaceReadings(items) {
-      catalog = indexCatalog(items);
+      const positions = new Map(catalog.map(({ reading }, index) => [reading.id, index]));
+      const newPosition = catalog.length;
+      catalog = indexCatalog(items).sort((a, b) => (
+        (positions.get(a.reading.id) ?? newPosition) - (positions.get(b.reading.id) ?? newPosition)
+      ));
       updateOptions();
       refresh();
     },
