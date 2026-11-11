@@ -1,3 +1,5 @@
+import { readings5Es } from './readings-5-es.js';
+
 export const readings = [
   {
     id: 'el-cartel-de-la-plaza-es',
@@ -29,8 +31,8 @@ export const readings = [
     ],
     questions: [
       { id: 'cartel-q1', type: 'literal', prompt: '¿Qué había que hacer para llevarse un cuento?', answer: 'Dejar un libro en el intercambio.', lines: 1 },
-      { id: 'cartel-q2', type: 'inference', prompt: '¿Por qué los niños pudieron pasar de largo la primera vez, aunque les interesaran los cómics?', answer: 'Desde la fuente apenas se leía el texto. Podían ver el dragón, pero no entender en qué consistía el intercambio.', lines: 3 },
-      { id: 'cartel-q3', type: 'vocabulary', prompt: '¿Qué quiere decir «pálido» al describir el color amarillo del cartel?', answer: 'Que era un amarillo claro, con poca intensidad.', lines: 2 },
+      { id: 'cartel-q2', type: 'inference', prompt: '¿Por qué pudieron pasar de largo los niños la primera vez? Usa una pista del texto para explicar tu respuesta.', answer: 'Quizá no entendieron que podían cambiar libros. Desde la fuente se veía el dragón, pero las letras amarillas apenas se leían.', lines: 3 },
+      { id: 'cartel-q3', type: 'vocabulary', prompt: '¿Qué quiere decir «pálido» al describir el color amarillo del cartel?', answer: 'Que era un amarillo claro, con poca intensidad.', lines: 1 },
       { id: 'cartel-q4', type: 'literal', prompt: '¿Desde dónde comprobó Nora si se leía el cartel? ¿Qué cambió para que se pudiera leer?', answer: 'Lo comprobó desde la fuente. Añadió una frase escrita con rotulador negro bajo el dragón.', lines: 2 },
       { id: 'cartel-q5', type: 'opinion', prompt: '¿Conservarías el dragón en el cartel? Explica tu decisión.', answer: 'Respuesta abierta. Por ejemplo, sí, porque llama la atención y puede convivir con una frase fácil de leer.', lines: 3 },
     ],
@@ -48,8 +50,8 @@ export const readings = [
     summary: 'Un experimento con dos hojas, dos vasos y unas monedas para investigar cómo cambia la resistencia del papel al plegarlo.',
     paragraphs: [
       '¿Cuántas monedas aguanta una hoja de papel antes de doblarse? Para averiguarlo, vas a comparar un puente plano y otro plegado. Prepara dos hojas iguales, una hoja usada, dos vasos del mismo tamaño, un cuadradito de cartón, varias monedas iguales, una regla y un lápiz.',
-      '1. Pon la hoja usada en la mesa y coloca encima los dos vasos boca abajo. Deja doce centímetros entre ellos. Marca con lápiz la posición de los vasos en esa hoja para poder volver a colocarlos en su sitio si se mueven.',
-      '2. Apoya una hoja sobre los vasos, de modo que los dos extremos descansen en ellos. Pon el cartón en el centro del puente. Añade monedas sobre el cartón, una cada vez. Anota cuántas aguantó la hoja justo antes de hundirse. Si no sostuvo ni el cartón, apunta cero.',
+      '1. Pon la hoja usada en la mesa y coloca encima los dos vasos boca abajo. Deja doce centímetros entre los bordes más próximos. Marca con lápiz la posición de los vasos en esa hoja para poder volver a colocarlos en su sitio si se mueven.',
+      '2. Apoya una hoja sobre los vasos, de modo que los dos extremos descansen en ellos. Pon el cartón en el centro del puente. Añade monedas sobre el cartón, una cada vez. Anota cuántas sostuvo el puente sin hundirse. No cuentes la moneda que lo haga caer. Si no sostuvo ni el cartón, apunta cero.',
       '3. Dobla la otra hoja como un acordeón, con los pliegues paralelos a sus bordes largos. Colócala sobre los vasos de manera que cada pliegue vaya de un vaso al otro. Repite la prueba con el mismo cartón y las mismas monedas. Comprueba antes que los vasos siguen en las marcas.',
       '4. Compara los dos resultados. Si agotas las monedas y un puente sigue en pie, anota que soportó al menos esa cantidad. Los pliegues suelen hacer que el papel resista mejor, pero el número de monedas depende también del papel y de cómo hayas hecho los dobleces.',
     ],
@@ -76,7 +78,7 @@ export const readings = [
       { id: 'puente-q2', type: 'inference', prompt: '¿Por qué conviene mantener la misma distancia entre los vasos en las dos pruebas?', answer: 'Cambiar la distancia podría afectar a cuántas monedas aguanta el puente. Al mantenerla, se puede comparar el efecto de los pliegues.', lines: 3 },
       { id: 'puente-q3', type: 'vocabulary', prompt: 'Si el puente aguanta «al menos» seis monedas, ¿qué sabes con seguridad? ¿Qué te queda por averiguar?', answer: 'Sabes que soportó seis. Queda por averiguar si habría resistido más.', lines: 3 },
       { id: 'puente-q4', type: 'structure', prompt: '¿En qué paso se usa por primera vez el cartón? ¿Por qué los materiales se presentan antes de los pasos numerados?', answer: 'Se usa en el paso 2. La lista permite preparar lo necesario antes de empezar.', lines: 3 },
-      { id: 'puente-q5', type: 'inference', prompt: 'Lucía pone las monedas sin el cartón en la segunda prueba. ¿Por qué convendría repetirla antes de comparar los resultados?', answer: 'Quitar el cartón cambia cómo se reparte el peso. Para saber si la diferencia se debe a los pliegues, conviene usar el cartón en las dos pruebas.', lines: 3 },
+      { id: 'puente-q5', type: 'inference', prompt: 'Lucía pone las monedas sin el cartón en la segunda prueba. ¿Por qué convendría repetirla antes de comparar los resultados?', answer: 'Quitar el cartón cambia cómo se reparte el peso. Para saber si la diferencia se debe a los pliegues, conviene usar el cartón en las dos pruebas.', lines: 4 },
     ],
   },
   {
@@ -119,7 +121,7 @@ export const readings = [
       { id: 'mapa-q1', type: 'literal', prompt: '¿Qué dos datos intentaban anotar los equipos junto a cada sonido?', answer: 'La hora y la procedencia del sonido, si la reconocían.', lines: 2 },
       { id: 'mapa-q2', type: 'inference', prompt: 'Si un visitante recorre el mercado por la mañana y no oye el silbido, ¿por qué su observación puede ser compatible con el mapa?', answer: 'El silbido se registró a media tarde. En un mismo lugar puede haber sonidos diferentes según la hora.', lines: 3 },
       { id: 'mapa-q3', type: 'literal', prompt: '¿Qué puede anotar un visitante en el margen que dejaron en blanco?', answer: 'Un sonido nuevo y el momento en que lo oyó.', lines: 2 },
-      { id: 'mapa-q4', type: 'structure', prompt: '¿Qué idea explica el texto con el ejemplo de los dos grupos que visitan el mercado?', answer: 'Explica que los sonidos de un mismo lugar varían durante el día y que el mapa puede mostrar esas diferencias.', lines: 3 },
+      { id: 'mapa-q4', type: 'structure', prompt: '¿Para qué incluye el texto el ejemplo de los dos grupos que visitan el mercado a horas distintas?', answer: 'Sirve para mostrar que los sonidos de un mismo lugar pueden cambiar durante el día y que el mapa puede representar esas diferencias.', lines: 3 },
       { id: 'mapa-q5', type: 'opinion', prompt: '¿Qué lugar de tu entorno incluirías en un mapa sonoro? Indica a qué hora irías y explica qué te interesa escuchar allí.', answer: 'Respuesta abierta. Debe indicar un lugar, una hora aproximada y un motivo relacionado con los sonidos del lugar.', lines: 4 },
     ],
   },
@@ -162,10 +164,11 @@ export const readings = [
     questions: [
       { id: 'caja-q1', type: 'literal', prompt: '¿Qué dos cosas había dentro del sobre?', answer: 'Un billete de autobús caducado y una nota de Inés.', lines: 2 },
       { id: 'caja-q2', type: 'inference', prompt: '¿Qué dos pistas relacionan a Marta con el dibujo del libro antes de que ella lo reconozca?', answer: 'Las iniciales M. R. coinciden con su nombre y apellido. El dibujo del cartel firmado por ella tiene la oreja doblada hacia el mismo lado.', lines: 3 },
-      { id: 'caja-q3', type: 'vocabulary', prompt: '¿Qué significa que el billete estaba «caducado»? ¿Qué detalle del relato permite pensar que llevaba tiempo dentro del sobre?', answer: 'Había pasado el plazo para usarlo. El libro provenía de un club de lectura antiguo y el sobre seguía cerrado.', lines: 3 },
+      { id: 'caja-q3', type: 'vocabulary', prompt: '¿Qué significa que el billete estaba «caducado»? ¿Para qué podría haber servido cuando Inés lo dejó en el sobre?', answer: 'Había pasado el plazo para usarlo. Cuando Inés dejó la nota, el billete podía servir para viajar a un lugar donde dibujar zorros de verdad.', lines: 3 },
       { id: 'caja-q4', type: 'structure', prompt: 'La oreja doblada aparece al principio y al final de la historia. ¿Para qué sirve ese detalle en cada momento?', answer: 'Al principio es una pista para identificar a la dibujante. Al final enlaza el dibujo nuevo con el antiguo y sugiere que Marta ya hace la oreja doblada a propósito.', lines: 4 },
-      { id: 'caja-q5', type: 'inference', prompt: '¿Para qué crees que Marta llama a Inés? Apoya tu respuesta con un detalle del sobre y otro del último párrafo.', answer: 'Es razonable pensar que quiere retomar el plan de ir a dibujar zorros. La nota propone dibujarlos de verdad y ahora Inés vive cerca de un bosque. También puede querer contarle que encontró el sobre.', lines: 4 },
+      { id: 'caja-q5', type: 'inference', prompt: '¿Para qué crees que Marta llama a Inés? Apoya tu respuesta con un detalle del sobre y otro del último párrafo.', answer: 'Es razonable pensar que quiere retomar el plan de ir a dibujar zorros. La nota propone dibujarlos de verdad y ahora Inés vive cerca de un bosque. También puede querer contarle que encontró el sobre.', lines: 5 },
       { id: 'caja-q6', type: 'opinion', prompt: '¿Te parece acertado que Dani y Leire dejen el sobre cerrado? Explica qué ventaja o dificultad tuvo esa decisión.', answer: 'Respuesta abierta. Por ejemplo, respetaron que el mensaje estaba destinado a otra persona y pudieron averiguar quién era gracias al dibujo, aunque les llevó más tiempo.', lines: 4 },
     ],
   },
+  ...readings5Es,
 ];

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="280" viewBox="0 0 480 280">
+  <title>Arcos sobre la plaza</title>
+  <rect width="480" height="280" rx="14" fill="#e8eee5"/>
+  <circle cx="403" cy="54" r="25" fill="#f4c976"/>
+  <path d="M0 173q103-54 200 3 156-43 280-24v114q0 14-14 14H14q-14 0-14-14Z" fill="#e9d8b8"/>
+  <path d="M0 219q160-31 480 4v43q0 14-14 14H14q-14 0-14-14Z" fill="#f3e6cf"/>
+  <g stroke="#46534c" stroke-width="2" stroke-linejoin="round">
+    <path d="M19 205v-45l34-23 36 23v45m303 0v-54l33-22 36 22v54" fill="#fcf2d9"/>
+    <path d="M13 161l40-27 42 27m291-8 39-27 42 27" fill="none" stroke="#ae6754" stroke-width="6"/>
+    <path d="M35 170h12v14H35zm31 0h12v14H66zm345-6h12v14h-12zm29 0h12v14h-12z" fill="#92aca1"/>
+    <path fill-rule="evenodd" d="M77 141h320v88H77ZM96 229v-53a27 27 0 0 1 54 0v53Zm72 0v-53a27 27 0 0 1 54 0v53Zm72 0v-53a27 27 0 0 1 54 0v53Zm72 0v-53a27 27 0 0 1 54 0v53Z" fill="#cfb48d"/>
+    <path fill-rule="evenodd" d="M77 61h320v81H77Zm20 70v-18a26 26 0 0 1 52 0v18Zm72 0v-18a26 26 0 0 1 52 0v18Zm72 0v-18a26 26 0 0 1 52 0v18Zm72 0v-18a26 26 0 0 1 52 0v18Z" fill="#e3cba5"/>
+    <path d="M75 57h324v13H75z" fill="#ead8b8"/>
+  </g>
+  <path d="M80 79h315m-309 72h305m-304 26h8m56 0h16m56 0h16m56 0h16m56 0h26m-302 27h7m57 0h13m57 0h15m57 0h14m57 0h25" stroke="#9e8467" stroke-width="1.5"/>
+  <path d="M22 246h47m-13 16h74m227-9h84m-193 10h55" fill="none" stroke="#d7c19f" stroke-width="2" stroke-linecap="round"/>
+  <g stroke="#33483e" stroke-width="3" stroke-linecap="round">
+    <circle cx="204" cy="219" r="6" fill="#bc8663" stroke="none"/>
+    <path d="M200 227h8l5 17h-18Z" fill="#71968b"/>
+    <path d="m200 245-2 10m9-10 2 10" fill="none"/>
+  </g>
+</svg>

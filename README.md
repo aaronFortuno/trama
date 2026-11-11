@@ -1,6 +1,6 @@
 # Trama
 
-Catàleg de comprensions lectores imprimibles d’ortogra.fi. La primera col·lecció inclou quatre fitxes en castellà per a 5è de primària. La interfície es pot fer servir en català i castellà. Les fitxes mostren els rètols en l’idioma de la lectura quan hi ha una traducció disponible.
+Catàleg de comprensions lectores imprimibles d’ortogra.fi. La primera col·lecció inclou vuit fitxes en castellà per a 5è de primària. La interfície es pot fer servir en català i castellà. Les fitxes mostren els rètols en l’idioma de la lectura quan hi ha una traducció disponible.
 
 A la previsualització, mantén premut Ctrl i gira la roda del ratolí per fer zoom, o fes servir els botons del visor. El zoom de pantalla conserva les mides de la fitxa impresa.
 
@@ -44,13 +44,15 @@ GitHub Pages serveix l’arrel de `main`. El fitxer `.nojekyll` permet servir di
 
 ## Ampliar el catàleg
 
-Les entrades es troben a `data/readings.js`. Els filtres es deriven de les dades i el catàleg mostra les fitxes per tandes. Si creix, es poden separar les col·leccions en mòduls per curs o llengua i reunir-les al mateix export.
+El catàleg s’exporta des de `data/readings.js` com una llista d’objectes JavaScript. La sèrie L005–L008 és a `data/readings-5-es.js`. Els filtres es deriven de les dades i el catàleg mostra les fitxes per tandes.
 
 - Assigna un `id` únic i estable a cada versió. Comparteix el `workId` i el `code` (per exemple, `L001`) entre les traduccions d’una mateixa lectura.
 - Fes servir `language` amb una etiqueta BCP 47 i `level` amb un identificador de curs. `catalog.js` recull els noms habituals dels filtres. `worksheet.js` conté els rètols impresos en català, castellà i anglès. Les llengües sense rètols propis fan servir els anglesos.
 - Introdueix el text a `paragraphs`, un element per paràgraf. L’extensió es calcula pel recompte de paraules.
 - Desa les imatges a `assets/readings/` i indica el camí relatiu, les dimensions originals i el text alternatiu. `afterParagraph` indica quants paràgrafs s’han de mostrar abans de la imatge. El valor `0` la posa abans del primer.
-- Dona a cada pregunta un identificador estable, el tipus, l’enunciat, el nombre de línies suggerides i, opcionalment, una resposta orientativa.
+- Dona a cada pregunta un identificador estable, el tipus, l’enunciat i, opcionalment, una resposta orientativa. `lines` és el nombre de línies de resposta suggerides, de 0 a 8, tant al catàleg com al JSON d’intercanvi. Fes servir 1 línia per a una dada breu, 2 o 3 per a una explicació curta i 4 o 5 per a una resposta amb diversos punts o un resum. El visor aplica aquesta xifra amb **Segons la pregunta** i permet canviar-la per a cada pregunta.
+
+Fonts de verificació de la sèrie L005–L008. [Aqüeducte de Segòvia, portal oficial de turisme](https://www.spain.info/es/lugares-interes/acueducto-segovia/) · [Balena geperuda, NOAA Fisheries](https://www.fisheries.noaa.gov/species/humpback-whale)
 
 ## Cerca i privadesa
 

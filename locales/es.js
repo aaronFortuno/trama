@@ -66,19 +66,22 @@ Natura|Naturaleza
 Comunitat|Comunidad
 Aventures|Aventuras
 Ciència|Ciencia
+Història|Historia
+Matemàtiques|Matemáticas
 Art i cultura|Arte y cultura
 Vida quotidiana|Vida cotidiana
 Inferència|Inferencia
 Opinió|Opinión
 Vocabulari|Vocabulario
 Estructura del text|Estructura del texto
+Resum|Resumen
 Narració|Narración
 Divulgació|Divulgación
 Text instructiu|Texto instructivo
 Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
-v1.8 · Obre l’historial de canvis|v1.8 · Abrir el historial de cambios
+v1.9 · Obre l’historial de canvis|v1.9 · Abrir el historial de cambios
 V4V · Sobre el projecte|V4V · Sobre el proyecto
 Un petit espai per aprendre|Un pequeño espacio para aprender
 Tanca la informació del projecte|Cerrar la información del proyecto
@@ -102,6 +105,7 @@ Fotografia i QR reutilitzats de|Fotografía y QR reutilizados de
 Historial de versions|Historial de versiones
 Changelog complet ↗|Historial completo ↗
 Tanca l’historial|Cerrar el historial
+Quatre lectures noves de 5è en castellà i revisió de les quatre primeres fitxes i els seus solucionaris.|Cuatro lecturas nuevas de 5.º en español y revisión de las cuatro primeras fichas y sus solucionarios.
 Set tipografies agrupades per família, amb Massallera per a les fitxes en lletra lligada.|Siete tipografías agrupadas por familia, con Massallera para las fichas en letra ligada.
 Les respostes orientatives del solucionari es distingeixen pel gris i una tipografia diferent de la dels enunciats.|Las respuestas orientativas del solucionario se distinguen por el color gris y una tipografía diferente a la de los enunciados.
 Nou lema i logotip de Trama per defecte a l’encapçalament, amb una alçada màxima més baixa per als logotips.|Nuevo lema y logotipo de Trama predeterminado en la cabecera, con una altura máxima menor para los logotipos.

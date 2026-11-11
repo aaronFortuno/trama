@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="280" viewBox="0 0 480 280">
+  <title>Fotos y cuaderno de observación</title>
+  <defs>
+    <path id="aleta" d="M90 89q-9-12-11-24-25-2-57-27 20 5 42 0 15-5 23 5 13-13 31-8 17 3 34-5-17 26-48 34 2 12 9 24Z"/>
+  </defs>
+  <rect width="480" height="280" rx="14" fill="#e0ece5"/>
+  <path d="M0 190q193 18 480-8v84q0 14-14 14H14q-14 0-14-14Z" fill="#c8d9cb"/>
+  <g transform="translate(269 57) rotate(12 80 80)">
+    <rect x="2" y="5" width="153" height="161" rx="4" fill="#a9b6a7"/>
+    <rect width="153" height="161" rx="4" fill="#fcf6e8" stroke="#768678" stroke-width="2"/>
+    <path d="M13 30h123m-123 24h123m-123 22h123m-123 24h123m-123 22h123m-123 22h123" stroke="#c0cfc3" stroke-width="2"/>
+    <path d="M23 21h48m-48 24h74m-74 22h92m-92 24h45m-45 22h81" stroke="#729187" stroke-width="3" stroke-linecap="round"/>
+    <path d="M9 10v143" stroke="#bd7862" stroke-width="2"/>
+  </g>
+  <g transform="translate(45 54) rotate(-11 92 72)">
+    <rect x="3" y="5" width="176" height="134" rx="4" fill="#a7b5a8"/>
+    <rect width="176" height="134" rx="4" fill="#fff7e9"/>
+    <rect x="9" y="9" width="158" height="102" rx="3" fill="#a7c7c0"/>
+    <use href="#aleta" fill="#476474"/>
+    <path d="M27 43q14 9 35 13 7 2 15 6-7-13-21-15Zm74 15q17-12 41-21-11 16-41 21Z" fill="#dce8dc"/>
+    <path d="M26 95q30-10 57-1t59-4" fill="none" stroke="#e0eee5" stroke-width="2"/>
+  </g>
+  <g transform="translate(129 118) rotate(9 92 72)">
+    <rect x="3" y="5" width="176" height="134" rx="4" fill="#a7b5a8"/>
+    <rect width="176" height="134" rx="4" fill="#fff7e9"/>
+    <rect x="9" y="9" width="158" height="102" rx="3" fill="#7399a3"/>
+    <use href="#aleta" fill="#36515f"/>
+    <path d="M29 43q13 9 34 12 7 3 15 7-6-13-21-15Zm72 15q17-12 41-21-11 16-41 21Z" fill="#c5d8d4"/>
+    <path d="M24 96q27-10 56-2t64-3" fill="none" stroke="#accbc5" stroke-width="2"/>
+  </g>
+  <path d="m383 225 59-55 7 7-59 55-10 3Z" fill="#c78062" stroke="#5d6457" stroke-width="2" stroke-linejoin="round"/>
+</svg>

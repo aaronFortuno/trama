@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.9 · 11 de novembre de 2026
+
+Quatre lectures il·lustrades noves de 5è en castellà. Revisió dels enunciats, les respostes orientatives i l’espai de resposta de les quatre fitxes inicials. Nous filtres d’Història, Matemàtiques i Resum.
+
 ## 1.8 · 11 de novembre de 2026
 
 Set tipografies agrupades per família. Georgia, Lora i Merriweather amb serifa, Arial, Andika i Lexend sense serifa, i Massallera com a lletra lligada escolar.

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="280" viewBox="0 0 480 280">
+  <title>El recorrido del canal</title>
+  <rect width="480" height="280" rx="14" fill="#e9f0e7"/>
+  <path d="M0 103Q91 79 152 126q50 110 138 108 56 0 110-78 32-29 80-19v129q0 14-14 14H14q-14 0-14-14Z" fill="#d8c5a3"/>
+  <path d="M0 115Q91 91 152 138q50 110 138 108 56 0 110-78 32-29 80-19" fill="none" stroke="#b8a686" stroke-width="3"/>
+  <path d="M31 66q28-18 66 3 14 9 37 12l-1 14-99-8Z" fill="#94bfbc"/>
+  <g stroke="#775e48" stroke-width="2" stroke-linejoin="round">
+    <path fill-rule="evenodd" d="m154 102 248 35v42l-34 24-58 41-65-5-42-24-49-73Zm26 66v-13a20 20 0 0 1 40 0v72Zm53 65v-66a23 23 0 0 1 46 0v76Zm59 11v-67a21 21 0 0 1 42 0v49Zm55-28v-29a16 16 0 0 1 32 0v7Z" fill="#e6cba2"/>
+    <path d="M113 82l291 42 35 5v13l-35-5-293-41Z" fill="#e9ddbf"/>
+  </g>
+  <path d="m110 85 325 46" fill="none" stroke="#497f85" stroke-width="6" stroke-linecap="round"/>
+  <path d="m198 76 57 8m-9-9 9 9-11 6m49-1 59 8m-9-9 9 9-11 6" fill="none" stroke="#497f85" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g stroke="#536359" stroke-width="2" stroke-linejoin="round">
+    <path d="M401 142v-32l20-18 21 18v32m1 2v-27l15-13 15 13v27" fill="#f9efdb"/>
+    <path d="m398 113 23-22 25 22m-6 6 18-17 18 17" fill="none" stroke="#b9755c" stroke-width="5"/>
+    <path d="M416 123h10v19h-10z" fill="#83a69b"/>
+  </g>
+  <path d="M25 168q49-19 103-6m-78 45q46-14 93-5m219 53 46-32m17-23 33-16" fill="none" stroke="#b9a88d" stroke-width="2" stroke-linecap="round"/>
+</svg>

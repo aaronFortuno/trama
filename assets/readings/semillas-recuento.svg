@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="280" viewBox="0 0 480 280">
+  <title>Bolsitas de semillas y marcas para contar</title>
+  <rect width="480" height="280" rx="14" fill="#e9eee2"/>
+  <path d="M0 188h480v78q0 14-14 14H14q-14 0-14-14Z" fill="#e2cfab"/>
+  <path d="M14 204h118m219 6h114M24 252h122m94 8h170" fill="none" stroke="#cbb88f" stroke-width="2" stroke-linecap="round"/>
+  <g transform="translate(228 29) rotate(8 101 96)">
+    <rect x="4" y="6" width="195" height="180" rx="5" fill="#c3cdb8"/>
+    <rect width="195" height="180" rx="5" fill="#fff8e8" stroke="#899784" stroke-width="2"/>
+    <path d="M12 43h170m-170 51h170m-170 50h170M102 42v128" fill="none" stroke="#bccbbb" stroke-width="2"/>
+    <path d="M24 24h54m36 0h45" stroke="#83a297" stroke-width="4" stroke-linecap="round"/>
+    <path d="M26 56v26m13-26v26m13-26v26m13-26v26M20 77l53-16m45-5v26m13-26v26m-105 25v26m13-26v26m13-26v26m66-26v26m13-26v26m13-26v26m13-26v26m-45-5 53-16" fill="none" stroke="#3f6257" stroke-width="3.4" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(61 43) rotate(-12 45 70)" stroke="#856b50" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M6 2h85l4 132q0 8-7 8H7q-7 0-7-8Z" fill="#e5bb82"/>
+    <path d="M5 12h86m-87 10h87M4 128h88" fill="none" stroke="#c29766"/>
+    <rect x="13" y="44" width="69" height="58" rx="4" fill="#fff0ce" stroke="none"/>
+    <path d="M35 69q-7-12 4-14 12-2 13 10 0 8-8 9-6 0-9-5Zm17 13q-4-10 6-12 10-2 12 8 0 7-7 10-8 2-11-6Z" fill="#a96850" stroke="none"/>
+  </g>
+  <g transform="translate(143 101) rotate(11 44 64)" stroke="#766b52" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M5 2h77l4 119q0 7-7 7H7q-7 0-7-7Z" fill="#adc29c"/>
+    <path d="M5 12h77m-79 8h79M4 116h80" fill="none" stroke="#92aa83"/>
+    <rect x="10" y="41" width="65" height="49" rx="4" fill="#fff3d9" stroke="none"/>
+    <g fill="#86744f" stroke="none"><ellipse cx="34" cy="61" rx="8" ry="5"/><ellipse cx="50" cy="72" rx="8" ry="5"/><ellipse cx="57" cy="57" rx="7" ry="4"/></g>
+  </g>
+  <path d="m289 239 116-17 5 10-116 18-12-3Z" fill="#bf785e" stroke="#765f54" stroke-width="2" stroke-linejoin="round"/>
+</svg>

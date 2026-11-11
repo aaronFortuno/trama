@@ -12,8 +12,8 @@ export const labels = {
   },
   difficulty: { initial: 'Inicial', intermediate: 'Intermèdia', advanced: 'Avançada' },
   length: { short: 'Curta (<181)', medium: 'Mitjana (181–280)', long: 'Llarga (>280)' },
-  theme: { nature: 'Natura', community: 'Comunitat', adventure: 'Aventures', science: 'Ciència', arts: 'Art i cultura', everyday: 'Vida quotidiana' },
-  question: { literal: 'Literal', inference: 'Inferència', opinion: 'Opinió', vocabulary: 'Vocabulari', structure: 'Estructura del text' },
+  theme: { nature: 'Natura', community: 'Comunitat', adventure: 'Aventures', science: 'Ciència', arts: 'Art i cultura', everyday: 'Vida quotidiana', history: 'Història', math: 'Matemàtiques' },
+  question: { literal: 'Literal', inference: 'Inferència', opinion: 'Opinió', vocabulary: 'Vocabulari', structure: 'Estructura del text', summary: 'Resum' },
   genre: { narrative: 'Narració', informative: 'Divulgació', instructional: 'Text instructiu', interview: 'Entrevista', letter: 'Carta' },
 };
 

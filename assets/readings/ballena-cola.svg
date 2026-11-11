@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="280" viewBox="0 0 480 280">
+  <title>Una ballena antes de sumergirse</title>
+  <rect width="480" height="280" rx="14" fill="#e6efed"/>
+  <circle cx="412" cy="49" r="23" fill="#f5ce83"/>
+  <path d="M0 135 48 99l43 16 34-25 59 45Z" fill="#aebeb0"/>
+  <path d="M0 135q113 7 234-2t246 4v129q0 14-14 14H14q-14 0-14-14Z" fill="#8ebdbb"/>
+  <path d="M0 204q68-32 139-14 113 18 202-11 62-10 139 2v85q0 14-14 14H14q-14 0-14-14Z" fill="#74a7a8"/>
+  <path d="M29 158q40-6 75 2m213-12q54-8 122 2M24 224q41-5 76 4m262 9q44-9 80-3" fill="none" stroke="#d2e5de" stroke-width="3" stroke-linecap="round"/>
+  <path d="M246 205q-18-22-23-53-17-8-34-10-55-3-102-44 45 9 81-3 40-16 71 14 26-26 68-20 42 9 88-11-35 48-91 61-24 5-43 12 0 24 21 53Z" fill="#476575" stroke="#2d4952" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M103 107q37 28 88 32 15 1 29 10-5-21-23-25-49-8-94-17Zm165 35q22-11 48-12 41-10 66-38-46 24-91 28-15 2-23 22Z" fill="#c9d9d3"/>
+  <path d="M189 210q39-19 87-10 38 6 74-4m-194 24q41 8 63-1m53 2q37 10 63-3" fill="none" stroke="#e0eee6" stroke-width="4" stroke-linecap="round"/>
+  <path d="M203 179l-11-13m124 19 14-14m-177 25-10-8m205 2 12-8" fill="none" stroke="#e1f0e8" stroke-width="3" stroke-linecap="round"/>
+</svg>

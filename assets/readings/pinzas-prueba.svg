@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="280" viewBox="0 0 480 280">
+  <title>El ventilador y dos recortes para comparar</title>
+  <rect width="480" height="280" rx="14" fill="#e5eee6"/>
+  <path d="M0 207h480v59q0 14-14 14H14q-14 0-14-14Z" fill="#e6d2ae"/>
+  <path d="M11 227h105m256 13h93m-282 16h98" fill="none" stroke="#cbb992" stroke-width="2" stroke-linecap="round"/>
+  <g stroke="#395752" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M87 151h13v45h-13Z" fill="#718d84"/>
+    <path d="M59 198q0-6 7-7h53q10 0 12 8v7H59Z" fill="#83a598"/>
+    <circle cx="94" cy="107" r="52" fill="#dce7d8"/>
+    <circle cx="94" cy="107" r="44" fill="#c5d8cc"/>
+    <path d="M94 104q-24-15-12-36 7-8 16-1 11 11 1 38m-3 6q26-7 39 12 5 10-7 15-19 4-33-22m-6-6q-8 26-32 23-11-3-10-13 5-17 40-17" fill="#6a9b90"/>
+    <circle cx="94" cy="107" r="8" fill="#f1cc82"/>
+  </g>
+  <g fill="none" stroke="#80a9a4" stroke-width="3" stroke-linecap="round">
+    <path d="M159 91q30-6 66 0m-63 17q33-5 71 0m-77 16q30 0 65 4"/>
+  </g>
+  <path d="M244 174V64m198 111V64m-198 9q105 13 198 0" fill="none" stroke="#6f7462" stroke-width="4" stroke-linecap="round"/>
+  <path d="m265 81 61 5-6 72-63-8Zm90 4 61-6 9 73-62 7Z" fill="#fdf6e6" stroke="#a1ac9d" stroke-width="2"/>
+  <path d="M287 73h10v24h-10zm93-1h10v24h-10z" fill="#d2a06a" stroke="#92734e" stroke-width="2"/>
+  <path d="M381 92h8v5h-8z" fill="#507c71"/>
+  <path d="m239 204 50-10 34 14 58-7-2 44-55 9-36-15-50 10Z" fill="#fff5df" stroke="#988d76" stroke-width="2" stroke-linejoin="round"/>
+  <path d="m323 209 1 45m-74-39 39-7 25 10m-64 7 39-7 25 10m18-10 37-6m-36 18 36-6" fill="none" stroke="#a6b6a3" stroke-width="2" stroke-linecap="round"/>
+</svg>

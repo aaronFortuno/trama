@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="280" viewBox="0 0 480 280">
+  <title>Dibujos colgados de una cuerda</title>
+  <rect width="480" height="280" rx="14" fill="#e9efe5"/>
+  <circle cx="417" cy="53" r="25" fill="#f5cb75"/>
+  <path d="M0 218q113-31 241-10t239-13v71q0 14-14 14H14q-14 0-14-14Z" fill="#efdfc0"/>
+  <path d="M31 224V47m417 175V53" stroke="#8a765a" stroke-width="9" stroke-linecap="round"/>
+  <path d="M31 70q203 39 417 3" fill="none" stroke="#536858" stroke-width="4"/>
+  <g transform="translate(88 87) rotate(4 72 55)">
+    <path d="M4 5h138v113H4Z" fill="#c2ceb9"/>
+    <rect width="138" height="113" rx="2" fill="#fff7e5" stroke="#a8b4a4" stroke-width="2"/>
+    <circle cx="96" cy="30" r="12" fill="#edb968"/>
+    <path d="m12 97 38-40 25 27 25-22 27 35Z" fill="#9db695"/>
+    <path d="m13 98 38-16 28 6 24-9 23 19Z" fill="#6f9a8d"/>
+  </g>
+  <g transform="translate(266 85) rotate(-7 62 57)">
+    <path d="M3 5h123v113H3Z" fill="#c2ceb9"/>
+    <rect width="123" height="113" rx="2" fill="#fdf6e9" stroke="#a8b4a4" stroke-width="2"/>
+    <path d="M64 83V57m0 16 17-14m-17 7L45 52" fill="none" stroke="#8a7458" stroke-width="4" stroke-linecap="round"/>
+    <path d="M40 60q-20-6-11-24 5-9 14-8 5-20 22-17 15 1 19 16 19 1 17 18-3 18-25 15-15 10-36 0Z" fill="#86a891"/>
+    <path d="M22 88h80" stroke="#bc9f73" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g fill="#db9e62" stroke="#906842" stroke-width="2">
+    <rect x="130" y="72" width="10" height="28" rx="2" transform="rotate(9 135 86)"/>
+    <rect x="291" y="73" width="10" height="29" rx="2" transform="rotate(-8 296 87)"/>
+  </g>
+  <path d="m164 231 38-11 27 15-37 14Z" fill="#a9b8a1" stroke="#758c7e" stroke-width="2"/>
+  <path d="m174 240 35-10 27 13-36 13Z" fill="#c77f68" stroke="#9b6654" stroke-width="2"/>
+  <path d="m242 244 45-13 4 10-45 12Z" fill="#d7a16c" stroke="#986e4c" stroke-width="2" stroke-linejoin="round"/>
+</svg>
