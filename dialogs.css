@@ -51,6 +51,7 @@
 .project-resources:first-child { padding-right: 24px; border-right: 1px solid var(--line); }
 .project-resources h3 { margin: 0 0 9px; font-size: .82rem; }
 .project-resources p { margin: 0 0 7px; }
+.project-links { display: grid; gap: 5px; margin: 0; padding-left: 1.1rem; }
 .author-portrait { float: left; width: 128px; height: 128px; margin: 0 16px 8px 0; border: 1px solid var(--line); border-radius: 6px; object-fit: cover; }
 
 .release-heading { display: flex; flex: 1; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 6px 16px; }

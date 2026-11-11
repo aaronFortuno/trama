@@ -1,5 +1,6 @@
 import { animateRefresh, closeDialog, openDialog, setDisclosure } from './motion.js';
-import { listTemplates, removeTemplate, saveTemplate, templateGroups, templateKey, templateSettings } from './worksheet-templates.js';
+import { defaultTemplate, listTemplates, moveTemplate, removeTemplate, saveTemplate, templateGroups, templateKey, templateOrderKey, templateSettings } from './worksheet-templates.js';
+import { icon } from './icons.js';
 
 export const templateLibraryMarkup = `
   <dialog class="site-dialog template-dialog" id="template-dialog" aria-labelledby="template-library-title">
@@ -51,27 +52,50 @@ const formatNumber = new Intl.NumberFormat('ca');
 
 function describe(entry) {
   const { text, margins, answers, header, footer, images } = entry.format;
+  const font = text && `${fonts[text.font]} · ${text.fontSize} pt · ${formatNumber.format(text.leading / 2)}×`;
+  if (entry.builtin) return font;
   return [
-    text && `${fonts[text.font]} · ${text.fontSize} pt · ${formatNumber.format(text.leading / 2)}×`,
+    font,
     margins && 'Marges', answers && 'Espai de resposta', header && 'Encapçalament', footer && 'Peu', images && 'Il·lustracions',
   ].filter(Boolean).join(' / ');
 }
 
-function makeRow(entry) {
+function makeRow(entry, index, last, filtered) {
   const row = document.createElement('li');
   row.dataset.template = entry.id;
-  row.innerHTML = `<div class="template-row-copy"><strong></strong><p></p></div><div class="template-row-actions"><button class="button" type="button" data-template-edit>Edita</button><button class="button" type="button" data-template-apply>Aplica</button></div>`;
+  row.innerHTML = `<div class="template-row-copy"><strong></strong><p></p></div><div class="template-row-actions">
+    ${entry.builtin || filtered ? '' : `<button class="button template-move" type="button" data-template-move="-1" ${index <= 1 ? 'disabled' : ''}>${icon('arrow-up')}</button><button class="button template-move" type="button" data-template-move="1" ${index === last ? 'disabled' : ''}>${icon('arrow-down')}</button>`}
+    ${entry.builtin ? '' : '<button class="button" type="button" data-template-edit>Edita</button>'}
+    <button class="button" type="button" data-template-apply>Aplica</button></div>`;
   row.querySelector('strong').textContent = entry.name;
-  row.querySelector('p').textContent = describe(entry);
-  row.querySelector('[data-template-edit]').setAttribute('aria-label', `Edita ${entry.name}`);
+  row.querySelector('p').textContent = entry.builtin ? `Plantilla per defecte · ${describe(entry)}` : describe(entry);
+  row.querySelector('[data-template-edit]')?.setAttribute('aria-label', `Edita ${entry.name}`);
   row.querySelector('[data-template-apply]').setAttribute('aria-label', `Aplica ${entry.name}`);
+  for (const [offset, label] of [[-1, 'Puja'], [1, 'Baixa']]) {
+    const button = row.querySelector(`[data-template-move="${offset}"]`);
+    if (!button) continue;
+    button.title = `${label} ${entry.name}`;
+    button.setAttribute('aria-label', button.title);
+  }
   return row;
 }
 
-export function mountTemplateLibrary({ dialog, count, getSettings, onApply }) {
+function makeChoice(entry) {
+  const row = document.createElement('li');
+  row.dataset.template = entry.id;
+  row.className = 'studio-template-choice';
+  row.innerHTML = '<div class="studio-template-corner"></div><button type="button" aria-pressed="false"><strong></strong><small></small></button>';
+  row.querySelector('strong').textContent = entry.name;
+  row.querySelector('small').textContent = describe(entry);
+  return row;
+}
+
+export function mountTemplateLibrary({ dialog, picker, getSettings, getThumbnail, onApply }) {
   const find = selector => dialog.querySelector(selector);
   const search = find('#template-search');
   const list = find('#template-list');
+  const choices = picker.querySelector('ul');
+  const summary = picker.querySelector('summary');
   const empty = find('#template-empty');
   const form = find('form');
   const panel = find('.template-editor-panel');
@@ -80,28 +104,45 @@ export function mountTemplateLibrary({ dialog, count, getSettings, onApply }) {
   const message = find('#template-message');
   const name = form.elements.namedItem('name');
   const checkboxes = [...form.querySelectorAll('[name="group"]')];
-  let entries = [];
+  let entries = [defaultTemplate];
   let editing = null;
   let editorOrigin;
+  let appliedId = defaultTemplate.id;
 
   function render() {
     const query = fold(search.value.trim());
     const shown = entries.filter(entry => fold(entry.name).includes(query));
-    list.replaceChildren(...shown.map(makeRow));
+    list.replaceChildren(...shown.map((entry, index) => makeRow(entry, index, shown.length - 1, Boolean(query))));
     empty.hidden = shown.length > 0;
-    empty.textContent = entries.length ? 'No hi ha cap plantilla que coincideixi amb la cerca.' : 'Encara no tens cap plantilla. Crea’n una amb els ajustos actuals de la fitxa.';
+    empty.textContent = 'No hi ha cap plantilla que coincideixi amb la cerca.';
+  }
+
+  function syncPicker() {
+    const settings = getSettings();
+    if (!settings) return;
+    for (const [index, row] of [...choices.children].entries()) {
+      const entry = entries[index];
+      const format = templateSettings(entry);
+      const active = entry.id === appliedId && Object.entries(format).every(([key, value]) => settings[key] === value);
+      row.querySelector('button').setAttribute('aria-pressed', String(active));
+      row.querySelector('.studio-template-corner').replaceChildren(getThumbnail(format));
+    }
+  }
+
+  function apply(entry) {
+    appliedId = entry.id;
+    onApply(templateSettings(entry), entry.name);
   }
 
   function reload() {
     try {
-      entries = listTemplates(window.localStorage);
-      count.textContent = entries.length ? String(entries.length) : '';
-      render();
-      return true;
+      entries = [defaultTemplate, ...listTemplates(window.localStorage)];
     } catch {
       message.textContent = 'Aquest navegador no ha permès accedir a les plantilles desades.';
-      return false;
     }
+    choices.replaceChildren(...entries.map(makeChoice));
+    if (summary.getAttribute('aria-expanded') === 'true') syncPicker();
+    render();
   }
 
   function startEdit(entry, origin) {
@@ -150,10 +191,28 @@ export function mountTemplateLibrary({ dialog, count, getSettings, onApply }) {
     const entry = entries.find(template => template.id === id);
     if (!entry) return;
     if (action.hasAttribute('data-template-edit')) startEdit(entry, action);
+    else if (action.dataset.templateMove) {
+      try {
+        moveTemplate(window.localStorage, id, Number(action.dataset.templateMove));
+        reload();
+        const row = list.querySelector(`[data-template="${CSS.escape(id)}"]`);
+        (row?.querySelector(`[data-template-move="${action.dataset.templateMove}"]:enabled`) ?? row?.querySelector('[data-template-edit]'))?.focus();
+        message.textContent = `S’ha mogut «${entry.name}».`;
+        animateRefresh(list);
+      } catch {
+        message.textContent = 'No s’ha pogut desar l’ordre de les plantilles.';
+      }
+    }
     else {
-      onApply(templateSettings(entry), entry.name);
+      apply(entry);
       closeDialog(dialog);
     }
+  });
+  summary.addEventListener('click', syncPicker);
+  choices.addEventListener('click', event => {
+    const button = event.target.closest('button');
+    const entry = entries.find(template => template.id === button?.closest('[data-template]')?.dataset.template);
+    if (entry) apply(entry);
   });
   search.addEventListener('input', () => { render(); animateRefresh(empty.hidden ? list : empty); });
   find('#template-new').addEventListener('click', event => startEdit(null, event.currentTarget));
@@ -182,20 +241,23 @@ export function mountTemplateLibrary({ dialog, count, getSettings, onApply }) {
     animateRefresh(empty.hidden ? list : empty);
   });
   window.addEventListener('storage', event => {
-    if (event.key === null || event.key.startsWith(templateKey)) reload();
+    if (event.key === null || event.key === templateOrderKey || event.key.startsWith(templateKey)) reload();
   });
   reload();
 
   return {
-    open(create) {
+    syncPicker() {
+      if (summary.getAttribute('aria-expanded') === 'true') syncPicker();
+    },
+    resetSelection() { appliedId = defaultTemplate.id; },
+    open() {
       message.textContent = '';
       search.value = '';
       reload();
       finishEdit({ animated: false, focus: false });
       openDialog(dialog);
       dialog.querySelector('.dialog-scroll').scrollTop = 0;
-      if (create) startEdit(null, find('#template-new'));
-      else find('#template-library-title').focus({ preventScroll: true });
+      find('#template-library-title').focus({ preventScroll: true });
     },
   };
 }

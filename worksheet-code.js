@@ -3,6 +3,8 @@ export const imageDefaults = Object.freeze({ visible: true, width: 36, position:
 export const marginLimits = Object.freeze({ min: 8, max: 32 });
 export const maxAnswerLines = 8;
 export const answerStyles = Object.freeze({ blank: 'BLANC', lines: 'LINIES', dots: 'PUNTS', grid: 'QUADRICULA' });
+export const formatVersion = 2;
+const legacyAnswerDefaults = { questionGap: 4, answerGap: 7, answerWeight: .2 };
 
 const numberIn = (min, max, step = 1) => value => Number.isFinite(value) && value >= min && value <= max
   && Math.abs(value / step - Math.round(value / step)) < .00001;
@@ -24,11 +26,11 @@ const fields = {
   marginRight: [16, margin],
   marginBottom: [10, margin],
   marginLeft: [16, margin],
-  questionGap: [4, numberIn(0, 14)],
+  questionGap: [2, numberIn(0, 14)],
   answerLines: [-1, numberIn(-1, maxAnswerLines)],
-  answerGap: [7, numberIn(5, 13)],
+  answerGap: [10, numberIn(5, 13)],
   answerStyle: ['lines', oneOf(...Object.keys(answerStyles))],
-  answerWeight: [.2, numberIn(.1, .5, .05)],
+  answerWeight: [.15, numberIn(.1, .5, .05)],
   headerName: [true, boolean],
   headerDate: [true, boolean],
   headerGroup: [true, boolean],
@@ -58,6 +60,10 @@ export function validSetting(key, value) {
 export function defaultSettings() {
   const settings = Object.fromEntries(Object.entries(fields).map(([key, [fallback]]) => [key, fallback]));
   return { ...settings, excluded: [], questionLines: Object.create(null), images: Object.create(null) };
+}
+
+export function migrateAnswerFormat(answers, paragraphGap) {
+  return { ...answers, questionGap: Math.max(0, answers.questionGap - paragraphGap) };
 }
 
 export function legacyHeader(mode) {
@@ -102,7 +108,7 @@ export function makeCode(reading, settings) {
 }
 
 export function makeLinkCode(reading, settings) {
-  const tokens = [makeCode(reading, settings)];
+  const tokens = [makeCode(reading, settings), `V=${formatVersion}`];
   const changed = key => settings[key] !== fields[key][0];
   for (const [label, key, encode = String] of scalarCodes) {
     if (changed(key)) tokens.push(`${label}=${encode(settings[key])}`);
@@ -154,6 +160,10 @@ function readReadable(code, readings) {
       .sort((a, b) => b.language.length - a.language.length)[0];
   if (!reading) return null;
   const settings = defaultSettings();
+  const versionToken = tokens[0]?.toUpperCase();
+  const legacyFormat = tokens.length > 0 && versionToken !== `V=${formatVersion}`;
+  if (versionToken === `V=${formatVersion}`) tokens.shift();
+  if (legacyFormat) Object.assign(settings, legacyAnswerDefaults);
   const questionIds = new Map(reading.questions.map(question => [upper(questionCode(question)), question.id]));
   const suffix = identifier.slice(baseCode(reading).length);
   if (suffix) {
@@ -202,7 +212,7 @@ function readReadable(code, readings) {
       settings.images[id] = image;
     } else return null;
   }
-  return { reading, settings };
+  return { reading, settings: legacyFormat ? migrateAnswerFormat(settings, settings.paragraphGap) : settings };
 }
 
 function readLegacy(code, readings) {
@@ -211,8 +221,9 @@ function readLegacy(code, readings) {
   const reading = readings.find(entry => entry.id === id);
   if (!reading) return null;
   const settings = defaultSettings();
+  Object.assign(settings, legacyAnswerDefaults);
   settings.leading = 1.5;
-  if (encoded === undefined) return { reading, settings };
+  if (encoded === undefined) return { reading, settings: migrateAnswerFormat(settings, settings.paragraphGap) };
   if (!/^[a-zA-Z0-9_-]+$/.test(encoded)) return null;
   const bytes = Uint8Array.from(atob(encoded.replaceAll('-', '+').replaceAll('_', '/')), char => char.charCodeAt(0));
   const payload = JSON.parse(new TextDecoder('utf-8', { fatal: true }).decode(bytes));
@@ -240,7 +251,7 @@ function readLegacy(code, readings) {
       if (reading.images.some(image => image.id === id)) settings.images[id] = { visible, width, position, wrap };
     }
   }
-  return { reading, settings };
+  return { reading, settings: migrateAnswerFormat(settings, settings.paragraphGap) };
 }
 
 export function readCode(code, readings) {

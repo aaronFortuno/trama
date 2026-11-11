@@ -101,11 +101,11 @@
         </a>
       </p>
       <div class="footer-actions">
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.5 · Obre l’historial de canvis">v1.5</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
         </button>
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.4 · Obre l’historial de canvis">v1.4</button>
       </div>
     </div>
   </footer>
@@ -152,9 +152,13 @@
           <a href="https://aaronfortuno.github.io/portfolio/" target="_blank" rel="noopener noreferrer">Explora el meu portfoli ↗</a>
         </section>
         <section class="project-resources">
-          <h3>Codi font</h3>
-          <p>Pots consultar el codi del web i proposar-hi millores al repositori.</p>
-          <a href="https://github.com/aaronFortuno/trama" target="_blank" rel="noopener noreferrer">GitHub · Trama ↗</a>
+          <h3>Codi, llicència i crèdits</h3>
+          <ul class="project-links">
+            <li><a href="https://github.com/aaronFortuno/trama" target="_blank" rel="noopener noreferrer">Repositori de Trama ↗</a></li>
+            <li><a href="https://github.com/aaronFortuno/trama/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">Llicència MIT del codi ↗</a></li>
+            <li>Icones de <a href="https://lucide.dev/" target="_blank" rel="noopener noreferrer">Lucide ↗</a></li>
+            <li>Fotografia i QR reutilitzats de <a href="https://plec.ortogra.fi/" target="_blank" rel="noopener noreferrer">Plec ↗</a></li>
+          </ul>
         </section>
       </div>
     </div>
@@ -169,6 +173,10 @@
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’historial"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
+      <article class="release">
+        <header><h3>v1.5</h3><time datetime="2026-11-11">11 de novembre de 2026</time></header>
+        <p>Visor amb capçalera compacta, zoom flotant i impressió a mà. Plantilles amb miniatures i ordre personalitzable. Nous valors per a la pauta de resposta i crèdits al V4V.</p>
+      </article>
       <article class="release">
         <header><h3>v1.4</h3><time datetime="2026-11-10">10 de novembre de 2026</time></header>
         <p>Visor més ample, amb el format a l’esquerra i el contingut a la dreta. Codis curts de lectura i preguntes, i preferència de tema desada al navegador.</p>

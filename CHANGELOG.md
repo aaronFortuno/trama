@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.5 · 11 de novembre de 2026
+
+Visor amb capçalera compacta, zoom flotant i impressió a mà. El lateral de format inclou la plantilla Clàssica i miniatures de la primera pàgina. Les plantilles desades es poden reordenar. La pauta de resposta té línies de 10 mm i traç de 0,15 mm per defecte. L’espai entre preguntes suma 2 mm a la separació entre paràgrafs, i aquest extra es pot ajustar. El V4V inclou els crèdits i la llicència MIT del codi.
+
 ## 1.4 · 10 de novembre de 2026
 
 Visor més ample, amb el format a l’esquerra i el contingut a la dreta. Codis curts de lectura i preguntes, i preferència de tema desada al navegador.

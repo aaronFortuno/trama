@@ -5,6 +5,7 @@ const languageCopy = {
   es: ['Nombre', 'Fecha', 'Curso', 'Comprensión lectora', 'Preguntas', 'Página'],
   en: ['Name', 'Date', 'Class', 'Reading comprehension', 'Questions', 'Page'],
 };
+const wordsFor = language => languageCopy[language] || languageCopy[language.split('-')[0]] || languageCopy.en;
 
 function element(tag, className, text) {
   const node = document.createElement(tag);
@@ -104,8 +105,30 @@ function makeQuestion(question, index, settings, heading) {
   return block;
 }
 
+function makePaper(reading, settings, tag) {
+  const paper = element(tag, 'worksheet-page');
+  paper.lang = reading.language;
+  paper.dataset.font = settings.font;
+  paper.style.padding = `${settings.marginTop}mm ${settings.marginRight}mm ${settings.marginBottom}mm ${settings.marginLeft}mm`;
+  paper.style.setProperty('--sheet-font-size', `${settings.fontSize}pt`);
+  paper.style.setProperty('--sheet-leading', settings.leading);
+  paper.style.setProperty('--sheet-paragraph-gap', `${settings.paragraphGap}mm`);
+  return paper;
+}
+
+export function worksheetThumbnail(reading, settings) {
+  const corner = element('div', 'worksheet-thumbnail');
+  corner.setAttribute('aria-hidden', 'true');
+  const paper = makePaper(reading, settings, 'div');
+  const content = element('div', 'worksheet-content');
+  content.append(makeHeader(reading, settings, wordsFor(reading.language)), makePassage(reading.paragraphs[0], []));
+  paper.append(content);
+  corner.append(paper);
+  return corner;
+}
+
 export function renderWorksheet(container, reading, settings, code) {
-  const words = languageCopy[reading.language] || languageCopy[reading.language.split('-')[0]] || languageCopy.en;
+  const words = wordsFor(reading.language);
   const pages = [];
   let content;
   let footerHeight;
@@ -127,15 +150,9 @@ export function renderWorksheet(container, reading, settings, code) {
 
   function startPage() {
     const slot = element('div', 'worksheet-slot');
-    const paper = element('article', 'worksheet-page');
-    paper.lang = reading.language;
-    paper.dataset.font = settings.font;
+    const paper = makePaper(reading, settings, 'article');
     paper.dataset.answerStyle = settings.answerStyle;
-    paper.style.padding = `${settings.marginTop}mm ${settings.marginRight}mm ${settings.marginBottom}mm ${settings.marginLeft}mm`;
-    paper.style.setProperty('--sheet-font-size', `${settings.fontSize}pt`);
-    paper.style.setProperty('--sheet-leading', settings.leading);
-    paper.style.setProperty('--sheet-paragraph-gap', `${settings.paragraphGap}mm`);
-    paper.style.setProperty('--sheet-question-gap', `${settings.questionGap}mm`);
+    paper.style.setProperty('--sheet-question-gap', `${settings.paragraphGap + settings.questionGap}mm`);
     paper.style.setProperty('--sheet-answer-gap', `${settings.answerGap}mm`);
     paper.style.setProperty('--sheet-answer-weight', `${settings.answerWeight}mm`);
     content = element('div', 'worksheet-content');

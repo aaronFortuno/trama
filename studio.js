@@ -1,13 +1,12 @@
 import { labelFor, wordCount } from './catalog.js';
 import { defaultQuestionLines, defaultSettings, imageDefaults, makeCode, makeLinkCode, marginLimits, maxAnswerLines, questionLines, readCode } from './worksheet-code.js';
-import { renderWorksheet } from './worksheet.js';
+import { renderWorksheet, worksheetThumbnail } from './worksheet.js';
 import { animateRefresh, mountDisclosures, setDisclosure } from './motion.js';
 import { mountPreviewZoom } from './preview-zoom.js';
 import { syncSelects } from './select-menu.js';
 import { mountTemplateLibrary, templateLibraryMarkup } from './template-library.js';
+import { icon } from './icons.js';
 
-const arrow = '<svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5m7-7-7 7 7 7"/></svg>';
-const printer = '<svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6m0 8h3V9H3v8h3m0-4h12v8H6z"/></svg>';
 const numberFormat = new Intl.NumberFormat('ca', { maximumFractionDigits: 2 });
 
 const range = (key, label, min, max, step, unit) => `
@@ -19,32 +18,46 @@ const check = (key, label) => `<label class="studio-check"><input type="checkbox
 const answerStyleOptions = { blank: 'En blanc', lines: 'Línies', dots: 'Punts', grid: 'Quadrícula' };
 
 const template = `
-  <header class="studio-heading">
-    <div>
-      <button class="studio-back" type="button" data-action="catalog">${arrow} Torna al catàleg</button>
-      <p class="studio-kicker" id="studio-meta"></p>
-      <div class="studio-title-line"><h1 id="studio-title" tabindex="-1"></h1><span id="studio-reading-code" class="studio-reading-code"></span></div>
-      <label class="studio-variants" hidden>Altres versions <select id="studio-variant"></select></label>
-    </div>
-    <div class="studio-actions">
-      <button class="button studio-jump" type="button" data-action="preview">Ves a la previsualització</button>
-      <button class="button primary" type="button" data-action="print">${printer} Imprimeix / PDF</button>
-    </div>
-  </header>
-  <div class="studio-layout">
+  <div class="studio-layout scroll-pane">
+    <section class="studio-preview" aria-labelledby="studio-title">
+      <header class="studio-preview-header">
+        <div class="studio-heading">
+          <button class="button studio-back" type="button" data-action="catalog" aria-label="Torna al catàleg" title="Torna al catàleg">${icon('arrow-left')}</button>
+          <div class="studio-title-line">
+            <div class="studio-title-copy"><h1 id="studio-title" tabindex="-1"></h1><span id="studio-reading-code" class="studio-reading-code"></span></div>
+            <p class="studio-kicker" id="studio-meta"></p>
+            <label class="studio-variants" hidden>Altres versions <select id="studio-variant"></select></label>
+          </div>
+        </div>
+        <div class="studio-question-feedback" hidden><span role="status">Pregunta amagada.</span><button class="studio-text-button" type="button" data-action="question-undo">Desfés</button></div>
+      </header>
+      <div class="studio-preview-window">
+        <div class="studio-paper-stage scroll-pane" tabindex="0" role="region" aria-label="Pàgines de la fitxa">
+          <div id="studio-pages"></div>
+          <details class="studio-key" id="studio-key"><summary>Solucionari</summary><ol id="studio-answers"></ol></details>
+        </div>
+        <div class="studio-zoom" role="group" aria-label="Zoom de la previsualització">
+          <button class="button" type="button" data-zoom="out" aria-label="Redueix el zoom" title="Redueix el zoom">${icon('minus')}</button>
+          <button class="button" type="button" data-zoom="in" aria-label="Amplia el zoom" title="Amplia el zoom">${icon('plus')}</button>
+          <button class="button" type="button" data-zoom="fit" aria-label="Ajusta a l’amplada" title="Ajusta a l’amplada">${icon('maximize')}</button>
+          <output class="visually-hidden" aria-label="Nivell de zoom">100 %</output>
+        </div>
+      </div>
+    </section>
     <aside class="studio-settings studio-format" aria-labelledby="studio-settings-title">
       <div class="studio-panel-heading">
         <h2 id="studio-settings-title">Format del full</h2>
         <button class="studio-text-button" type="button" data-action="reset" aria-label="Restableix tots els ajustos de la fitxa">Restableix</button>
       </div>
       <form class="studio-form scroll-pane">
-        <div class="studio-template-tools">
-          <div class="studio-template-actions">
-            <button class="button" type="button" data-action="templates" aria-haspopup="dialog" aria-controls="template-dialog">Plantilles <span class="studio-template-count" aria-hidden="true"></span></button>
-            <button class="studio-text-button" type="button" data-action="save-template" aria-haspopup="dialog" aria-controls="template-dialog">Desa el format</button>
+        <details class="studio-template-picker">
+          <summary>Plantilles</summary>
+          <div class="studio-controls">
+            <ul class="studio-template-list" aria-label="Tria una plantilla"></ul>
+            <button class="button" type="button" data-action="templates" aria-haspopup="dialog" aria-controls="template-dialog">Gestiona les plantilles</button>
+            <p class="studio-template-status" role="status"></p>
           </div>
-          <p class="studio-template-status" role="status"></p>
-        </div>
+        </details>
         <details open>
           <summary>Text i tipografia</summary>
           <div class="studio-controls">
@@ -106,6 +119,7 @@ const template = `
               <select name="answerLines"><option value="-1">Segons la pregunta</option><option value="0">Cap espai</option>${Array.from({ length: maxAnswerLines }, (_, i) => `<option value="${i + 1}">${i + 1} ${i === 0 ? 'línia' : 'línies'}</option>`).join('')}</select>
             </label>
             ${range('questionGap', 'Espai entre preguntes', 0, 14, 1, 'mm')}
+            <p>L’espai indicat se suma a la separació entre paràgrafs.</p>
             ${range('answerGap', 'Alçada de cada línia', 5, 13, 1, 'mm')}
             <div id="studio-answer-weight">${range('answerWeight', 'Gruix de la pauta', .1, .5, .05, 'mm')}</div>
           </div>
@@ -130,23 +144,8 @@ const template = `
           </div>
         </details>
       </form>
+      <div class="studio-print"><button class="button primary" type="button" data-action="print">${icon('printer')} Imprimeix / PDF</button></div>
     </aside>
-    <section class="studio-preview" aria-labelledby="studio-preview-title">
-      <div class="studio-preview-header"><div class="studio-panel-heading studio-preview-heading">
-        <div class="studio-preview-label"><h2 id="studio-preview-title" tabindex="-1">Previsualització</h2><p class="studio-page-count" id="studio-page-count" aria-live="polite"></p></div>
-        <div class="studio-zoom" role="group" aria-label="Zoom de la previsualització">
-          <span class="studio-zoom-hint">Ctrl + roda</span>
-          <button class="button" type="button" data-zoom="out" aria-label="Redueix el zoom" title="Redueix el zoom"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg></button>
-          <output aria-label="Nivell de zoom">100 %</output>
-          <button class="button" type="button" data-zoom="in" aria-label="Amplia el zoom" title="Amplia el zoom"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-7-7v14"/></svg></button>
-          <button class="button" type="button" data-zoom="fit" aria-label="Ajusta a l’amplada" title="Ajusta a l’amplada"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5m0 6v5h-5m-6 0H4v-5"/></svg></button>
-        </div>
-      </div><div class="studio-question-feedback" hidden><span role="status">Pregunta amagada.</span><button class="studio-text-button" type="button" data-action="question-undo">Desfés</button></div></div>
-      <div class="studio-paper-stage scroll-pane" tabindex="0" role="region" aria-label="Pàgines de la fitxa">
-        <div id="studio-pages"></div>
-        <details class="studio-key" id="studio-key"><summary>Solucionari</summary><ol id="studio-answers"></ol></details>
-      </div>
-    </section>
   </div>
   ${templateLibraryMarkup}`;
 
@@ -186,13 +185,23 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
   forms.forEach(form => mountDisclosures(form, { exclusive: true }));
   mountDisclosures(find('.studio-preview'));
   const main = root.closest('main');
+  const layout = find('.studio-layout');
+  const printBar = find('.studio-print');
+  const content = find('.studio-content');
+  const splitView = matchMedia('(min-width: 960px) and (min-height: 480px)');
+  function placePrint() {
+    const button = document.activeElement;
+    (splitView.matches ? content : root).append(printBar);
+    if (printBar.contains(button)) button.focus({ preventScroll: true });
+  }
+  placePrint();
+  splitView.addEventListener('change', placePrint);
   const panels = forms.map(form => ({
     form,
     heading: form.previousElementSibling,
-    fixedParts: [...form.querySelectorAll('.studio-template-tools, summary')],
+    fixedParts: [...form.querySelectorAll('summary')],
     borders: form.querySelectorAll('summary').length,
   }));
-  const splitView = matchMedia('(min-width: 960px) and (min-height: 480px)');
   let sidebarFrame = 0;
   const resizeSidebar = new ResizeObserver(() => {
     if (sidebarFrame) return;
@@ -200,12 +209,13 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
       sidebarFrame = 0;
       for (const { form, heading, fixedParts, borders } of panels) {
         const fixedHeight = fixedParts.reduce((sum, part) => sum + part.offsetHeight, borders);
-        const available = splitView.matches ? form.clientHeight : main.clientHeight - heading.offsetHeight;
+        const available = splitView.matches ? form.clientHeight : layout.clientHeight - heading.offsetHeight;
         form.style.setProperty('--studio-panel-height', `${Math.max(64, available - fixedHeight)}px`);
       }
     });
   });
   resizeSidebar.observe(main);
+  resizeSidebar.observe(layout);
   for (const { form, heading, fixedParts } of panels) {
     resizeSidebar.observe(form);
     resizeSidebar.observe(heading);
@@ -226,8 +236,9 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
   const templateStatus = find('.studio-template-status');
   const templates = mountTemplateLibrary({
     dialog: find('#template-dialog'),
-    count: find('.studio-template-count'),
+    picker: find('.studio-template-picker'),
     getSettings: () => settings,
+    getThumbnail: format => worksheetThumbnail(reading, { ...settings, ...format }),
     onApply(format, name) {
       Object.assign(settings, format);
       syncControls();
@@ -241,7 +252,8 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
     find('#studio-title').textContent = reading.title;
     find('#studio-title').lang = reading.language;
     find('#studio-reading-code').textContent = reading.code;
-    find('#studio-meta').textContent = `${labelFor('language', reading.language)} · ${labelFor('level', reading.level)} · ${wordCount(reading)} paraules`;
+    const level = labelFor('level', reading.level).replace(/ de primària$/, '');
+    find('#studio-meta').textContent = `${labelFor('language', reading.language)} · ${level} · ${wordCount(reading)} paraules`;
     const variants = readings.filter(entry => entry.workId && entry.workId === reading.workId);
     variant.replaceChildren(...variants.map(entry => new Option(labelFor('language', entry.language), entry.id)));
     variant.value = reading.id;
@@ -329,6 +341,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
     }));
     setDisclosure(find('#studio-key'), Boolean(withAnswers.length), { animated });
     syncSelects(root);
+    templates.syncPicker();
   }
 
   function refresh() {
@@ -339,10 +352,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
     code = makeCode(reading, settings);
     codeInput.value = code;
     const { scrollLeft, scrollTop } = stage;
-    const count = renderWorksheet(pages, reading, settings, code);
-    const label = `A4 · ${count} ${count === 1 ? 'pàgina' : 'pàgines'}`;
-    const countNode = find('#studio-page-count');
-    if (countNode.textContent !== label) countNode.textContent = label;
+    renderWorksheet(pages, reading, settings, code);
     preview.size();
     stage.scrollTo(scrollLeft, scrollTop);
     if (animated) animateRefresh(pages);
@@ -351,9 +361,11 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
   function select(entry, config) {
     reading = entry;
     settings = config;
+    templates.resetSelection();
     populateReading();
     syncControls(false);
     onOpen(reading);
+    layout.scrollTo(0, 0);
     refresh();
     for (const form of forms) {
       form.scrollTop = 0;
@@ -404,7 +416,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
       questionFeedback.hidden = true;
       syncControls();
       refresh();
-      find('#studio-preview-title').focus({ preventScroll: true });
+      find('#studio-title').focus({ preventScroll: true });
       return;
     }
     const block = button.closest('[data-question-id]');
@@ -471,13 +483,10 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
     const action = button?.dataset.action;
     if (action?.startsWith('question-')) editQuestion(action, button);
     if (action === 'catalog') onCatalog();
-    if (action === 'templates' || action === 'save-template') templates.open(action === 'save-template');
-    if (action === 'preview') {
-      find('#studio-preview-title').focus({ preventScroll: true });
-      find('.studio-preview').scrollIntoView({ block: 'start' });
-    }
+    if (action === 'templates') templates.open();
     if (action === 'reset') {
       settings = defaultSettings();
+      templates.resetSelection();
       status.hidden = true;
       templateStatus.textContent = '';
       hiddenQuestion = undefined;

@@ -4,7 +4,7 @@ Catàleg de comprensions lectores imprimibles d’ortogra.fi. La primera col·le
 
 A la previsualització, mantén premut Ctrl i gira la roda del ratolí per fer zoom, o fes servir els botons del visor. El zoom de pantalla conserva les mides de la fitxa impresa.
 
-Des de **Plantilles** als ajustos de la fitxa pots crear formats a partir dels ajustos actuals i aplicar-los a qualsevol lectura. Cada plantilla pot incloure text i tipografia, marges, espai de resposta, encapçalament i peu o visibilitat de les il·lustracions. Aplica una plantilla, ajusta la fitxa i marca l’opció d’actualitzar els valors per incorporar-hi els canvis.
+Des de **Plantilles** pots aplicar la plantilla Clàssica (Georgia, 12 pt, interlineat 1×) o una plantilla desada. Les miniatures mostren la cantonada superior del full amb els ajustos de cada plantilla. A **Gestiona les plantilles** pots crear, editar i reordenar les teves plantilles. Cada plantilla pot incloure text i tipografia, marges, espai de resposta, encapçalament i peu o visibilitat de les il·lustracions. Aplica una plantilla, ajusta la fitxa i marca l’opció d’actualitzar els valors per incorporar-hi els canvis.
 
 ## En local i a GitHub Pages
 
@@ -29,3 +29,7 @@ Un codi com `L001-ES` identifica la lectura i l’idioma. `L001-ES-X1.3` recuper
 Escriu o enganxa el codi al catàleg, o obre un enllaç compartit amb `#fitxa=`. Es poden recuperar igualment els codis anteriors. Conserva els codis i els identificadors de les lectures, preguntes i imatges quan ampliïs el catàleg.
 
 Trama funciona al navegador. Els recursos se serveixen des del mateix web. El projecte no incorpora comptes, cookies ni analítica. Les plantilles i la preferència de tema es desen al navegador.
+
+## Llicència i crèdits
+
+El codi de Trama es distribueix sota la [llicència MIT](LICENSE). Algunes icones de la interfície són de [Lucide](https://lucide.dev/) i es distribueixen amb els seus [avisos de llicència](assets/icons/LICENSE). La fotografia de l’autor i el QR del V4V provenen de [Plec](https://github.com/aaronFortuno/plec-dictats).
