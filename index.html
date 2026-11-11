@@ -46,12 +46,17 @@
       <section class="catalog-section" aria-labelledby="readings-title">
         <div class="catalog-heading">
           <h1 id="readings-title" tabindex="-1">Catàleg de lectures</h1>
-          <label class="search-box" for="search">
-            <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6"/><path d="m15 15 4.5 4.5"/></svg>
-            <span class="visually-hidden">Cerca al catàleg</span>
-            <input type="search" id="search" placeholder="Cerca per títol, codi o tema" autocomplete="off">
-          </label>
+          <div class="catalog-heading-actions">
+            <label class="search-box" for="search">
+              <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6"/><path d="m15 15 4.5 4.5"/></svg>
+              <span class="visually-hidden">Cerca al catàleg</span>
+              <input type="search" id="search" placeholder="Cerca per títol, codi o tema" autocomplete="off">
+            </label>
+            <button class="button" type="button" id="import-reading">Importa una lectura</button>
+            <input type="file" id="reading-file" accept=".json,application/json" hidden>
+          </div>
         </div>
+        <p id="reading-import-status" class="catalog-import-status" role="status" hidden></p>
         <div class="catalog-layout">
           <aside class="catalog-filters scroll-pane" aria-label="Filtres del catàleg">
             <div class="filters-heading">
@@ -105,7 +110,7 @@
         </a>
       </p>
       <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.6 · Obre l’historial de canvis">v1.6</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.7 · Obre l’historial de canvis">v1.7</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
@@ -163,6 +168,10 @@
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
       <article class="release">
+        <header><h3>v1.7</h3><time datetime="2026-11-11">11 de novembre de 2026</time></header>
+        <p>Lectures importables i exportables en JSON, logotips al full i espai independent abans de les preguntes.</p>
+      </article>
+      <article class="release">
         <header><h3>v1.6</h3><time datetime="2026-11-11">11 de novembre de 2026</time></header>
         <p>Interfície en català i castellà. Cerca pel codi de lectura, solucionari al full i menú d’impressió i descàrrega de PDF.</p>
       </article>
@@ -204,7 +213,7 @@
         <div class="card-kicker"><span class="card-genre"></span><span class="card-level"></span></div>
         <h3 class="card-title"></h3>
         <p class="card-summary"></p>
-        <div class="card-meta"><span class="card-code"></span><span class="card-difficulty"></span><span class="card-words"></span><span class="card-questions"></span></div>
+        <div class="card-meta"><span class="card-code"></span><span class="card-personal" hidden>Importada</span><span class="card-difficulty"></span><span class="card-words"></span><span class="card-questions"></span></div>
         <button class="card-open" type="button">
           <span>Prepara la fitxa</span>
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg>

@@ -15,15 +15,24 @@ function element(tag, className, text) {
   return node;
 }
 
+function makeLogo(source) {
+  const logo = element('img', 'worksheet-logo');
+  logo.src = source;
+  logo.alt = '';
+  return logo;
+}
+
 function makeHeader(reading, settings, [name, date, group, label, , , keyLabel], answerKey = false) {
   const header = element('header', 'worksheet-heading');
   const fields = [settings.headerName && name, settings.headerDate && date, settings.headerGroup && group].filter(Boolean);
   const hasCustom = settings.headerCustom && (settings.headerTitle || settings.headerDetail);
-  if (fields.length || hasCustom) {
+  if (fields.length || hasCustom || settings.headerLogo) {
     const top = element('div', 'worksheet-header');
+    if (settings.headerLogo) top.append(makeLogo(settings.headerLogo));
+    const details = element('div', 'worksheet-header-details');
     if (hasCustom) {
-      if (settings.headerTitle) top.append(element('strong', 'worksheet-custom-title', settings.headerTitle));
-      if (settings.headerDetail) top.append(element('p', 'worksheet-custom-detail', settings.headerDetail));
+      if (settings.headerTitle) details.append(element('strong', 'worksheet-custom-title', settings.headerTitle));
+      if (settings.headerDetail) details.append(element('p', 'worksheet-custom-detail', settings.headerDetail));
     }
     const row = element('div', 'worksheet-fields');
     for (const field of fields) {
@@ -32,7 +41,8 @@ function makeHeader(reading, settings, [name, date, group, label, , , keyLabel],
       item.append(element('span', null, field), element('span', 'worksheet-field-line'));
       row.append(item);
     }
-    if (fields.length) top.append(row);
+    if (fields.length) details.append(row);
+    if (details.childElementCount) top.append(details);
     header.append(top);
   }
   if (settings.headerLabel) header.append(element('p', 'worksheet-kind', label));
@@ -88,10 +98,20 @@ function questionTools(number, count, answerKey) {
   return tools;
 }
 
+function makeSolution(text, label) {
+  const solution = element('div', 'worksheet-solution');
+  if (label) solution.append(element('strong', null, label));
+  solution.append(element('p', null, text));
+  return solution;
+}
+
 function makeQuestion(question, index, settings, heading, words, { answerKey, interactive }) {
   const block = element('div', 'worksheet-question-block');
   block.dataset.questionId = question.id;
-  if (heading) block.append(element('h3', 'worksheet-question-heading', heading));
+  if (heading) {
+    block.classList.add('worksheet-questions-start');
+    block.append(element('h3', 'worksheet-question-heading', heading));
+  }
   const item = element('div', 'worksheet-question');
   const number = element('strong', 'worksheet-number', `${index + 1}.`);
   const main = element('div', 'worksheet-question-body');
@@ -101,10 +121,7 @@ function makeQuestion(question, index, settings, heading, words, { answerKey, in
   if (interactive) prompt.append(questionTools(index + 1, count, answerKey));
   main.append(prompt);
   if (answerKey) {
-    const solution = element('div', 'worksheet-solution');
-    if (question.answer) solution.append(element('strong', null, words[7]));
-    solution.append(element('p', null, question.answer || words[8]));
-    main.append(solution);
+    main.append(makeSolution(question.answer || words[8], question.answer && words[7]));
   } else {
     for (let index = 0; index < count; index++) {
       const line = element('div', 'worksheet-answer-line');
@@ -125,6 +142,7 @@ function makePaper(reading, settings, tag) {
   paper.style.setProperty('--sheet-font-size', `${settings.fontSize}pt`);
   paper.style.setProperty('--sheet-leading', settings.leading);
   paper.style.setProperty('--sheet-paragraph-gap', `${settings.paragraphGap}mm`);
+  paper.style.setProperty('--sheet-section-gap', `${settings.sectionGap}mm`);
   return paper;
 }
 
@@ -147,10 +165,15 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
   container.replaceChildren();
 
   function fillFooter(footer, label) {
-    if (settings.showOrigin) {
-      const origin = element('a', 'worksheet-origin', 'trama.ortogra.fi');
-      origin.href = 'https://trama.ortogra.fi/';
-      footer.append(origin);
+    if (settings.showOrigin || settings.footerLogo) {
+      const brand = element('div', 'worksheet-footer-brand');
+      if (settings.footerLogo) brand.append(makeLogo(settings.footerLogo));
+      if (settings.showOrigin) {
+        const origin = element('a', 'worksheet-origin', 'trama.ortogra.fi');
+        origin.href = 'https://trama.ortogra.fi/';
+        brand.append(origin);
+      }
+      footer.append(brand);
     }
     if (settings.showPage || answerKey) {
       const note = [answerKey && words[6], settings.showPage && label].filter(Boolean).join(' · ');
@@ -170,7 +193,7 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
     paper.append(content, footer);
     slot.append(paper);
     container.append(slot);
-    if (pages.length === 0 && (settings.showOrigin || settings.showPage || answerKey)) {
+    if (pages.length === 0 && (settings.showOrigin || settings.showPage || settings.footerLogo || answerKey)) {
       fillFooter(footer, `${words[5]} 999 / 999`);
       footerHeight = footer.scrollHeight + 1;
       footer.replaceChildren();
@@ -202,16 +225,19 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
     for (const image of images) placeBlock(makePassage('', [image]));
     if (!text || fitBlock(makePassage(text, []))) return;
 
-    // Very long paragraphs can fill more than one page at large print sizes.
-    const words = text.match(/\S+\s*/gu) || [text];
+    placeTextChunks(text, part => makePassage(part, []));
+  }
+
+  function placeTextChunks(text, makeBlock) {
+    const words = text.match(/\S{1,24}\s*|\s+/gu) || [text];
     let start = 0;
     while (start < words.length) {
       let lower = start + 1;
       let upper = words.length;
-      let end = start + 1;
+      let end = start;
       while (lower <= upper) {
         const middle = Math.floor((lower + upper) / 2);
-        const candidate = makePassage(words.slice(start, middle).join(''), []);
+        const candidate = makeBlock(words.slice(start, middle).join(''), start === 0);
         if (tryBlock(candidate)) {
           candidate.remove();
           end = middle;
@@ -220,9 +246,58 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
           upper = middle - 1;
         }
       }
-      content.append(makePassage(words.slice(start, end).join(''), []));
+      if (end === start && content.childElementCount) {
+        startPage();
+        continue;
+      }
+      end = Math.max(start + 1, end);
+      content.append(makeBlock(words.slice(start, end).join(''), start === 0));
       start = end;
       if (start < words.length) startPage();
+    }
+  }
+
+  function placeQuestion(question, index) {
+    const block = makeQuestion(question, index, settings, index === 0 ? words[4] : '', words, { answerKey, interactive });
+    if (fitBlock(block)) return;
+
+    // Split questions that are taller than a page without changing the chosen font or answer spacing.
+    const item = block.querySelector('.worksheet-question');
+    const body = item.querySelector('.worksheet-question-body');
+    const [prompt, ...response] = [...body.children];
+    response.forEach(node => node.remove());
+    block.style.paddingBottom = '0';
+
+    function continuation(nodes) {
+      const fragment = element('div', 'worksheet-question-continuation');
+      const row = item.cloneNode(false);
+      const number = item.firstElementChild.cloneNode(true);
+      number.setAttribute('aria-hidden', 'true');
+      const wrapper = body.cloneNode(false);
+      wrapper.append(...nodes);
+      row.append(number, wrapper);
+      fragment.append(row);
+      return fragment;
+    }
+
+    if (!tryBlock(block)) {
+      placeTextChunks(question.prompt, (text, first) => {
+        if (!first) return continuation([element('p', 'worksheet-prompt', text)]);
+        prompt.querySelector('.worksheet-prompt').textContent = text;
+        return block;
+      });
+    }
+    if (answerKey) {
+      placeTextChunks(question.answer || words[8], (text, first) =>
+        continuation([makeSolution(text, first && question.answer && words[7])]));
+      return;
+    }
+    let remaining = response;
+    while (remaining.length) {
+      let count = remaining.length;
+      while (count && !tryBlock(continuation(remaining.slice(0, count)))) count--;
+      remaining = remaining.slice(count);
+      if (remaining.length) startPage();
     }
   }
 
@@ -243,7 +318,7 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
   const closing = anchors.get(reading.paragraphs.length);
   if (closing) placePassage('', closing);
   const questions = reading.questions.filter(question => !settings.excluded.includes(question.id));
-  questions.forEach((question, index) => placeBlock(makeQuestion(question, index, settings, index === 0 ? words[4] : '', words, { answerKey, interactive })));
+  questions.forEach(placeQuestion);
 
   pages.forEach((footer, index) => {
     fillFooter(footer, `${words[5]} ${index + 1} / ${pages.length}`);

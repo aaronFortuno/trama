@@ -1,5 +1,5 @@
 import { labelFor, wordCount } from './catalog.js';
-import { defaultQuestionLines, defaultSettings, imageDefaults, marginLimits, maxAnswerLines, questionLines, readCode } from './worksheet-code.js';
+import { defaultQuestionLines, defaultSettings, imageDefaults, marginLimits, maxAnswerLines, questionLines, readCode, validSetting } from './worksheet-code.js';
 import { renderWorksheet, worksheetThumbnail } from './worksheet.js';
 import { animateRefresh, mountDisclosures, setDisclosure } from './motion.js';
 import { mountPreviewZoom } from './preview-zoom.js';
@@ -8,6 +8,8 @@ import { mountTemplateLibrary, templateLibraryMarkup } from './template-library.
 import { icon } from './icons.js';
 import { bindTranslations, language, t } from './i18n.js';
 import { mountActionMenu } from './action-menu.js';
+import { downloadReading } from './reading-files.js';
+import { encodeImage } from './local-images.js';
 
 const range = (key, label, min, max, step, unit) => `
   <label class="studio-range">
@@ -15,6 +17,16 @@ const range = (key, label, min, max, step, unit) => `
     <input type="range" name="${key}" min="${min}" max="${max}" step="${step}" data-unit="${unit}">
   </label>`;
 const check = (key, label) => `<label class="studio-check"><input type="checkbox" name="${key}"> ${label}</label>`;
+const logoControls = (key, label) => `
+  <div class="studio-logo-control" data-logo-control="${key}">
+    <div class="studio-logo-preview" hidden><img alt=""></div>
+    <input type="file" data-logo-file="${key}" accept="image/png,image/jpeg,image/webp" hidden>
+    <div class="studio-logo-actions">
+      <button type="button" class="button" data-logo-choose aria-label="${label}">Carrega un logotip</button>
+      <button type="button" class="studio-text-button" data-logo-clear hidden>Treu-lo</button>
+    </div>
+    <p data-logo-status role="status" hidden></p>
+  </div>`;
 const answerStyleOptions = { blank: 'En blanc', lines: 'Línies', dots: 'Punts', grid: 'Quadrícula' };
 
 const template = `
@@ -28,7 +40,13 @@ const template = `
             <p class="studio-kicker" id="studio-meta"></p>
             <label class="studio-variants" hidden>Altres versions <select id="studio-variant"></select></label>
           </div>
+          <button class="button studio-reading-trigger" type="button" id="studio-reading-trigger" aria-label="Opcions de la lectura" title="Opcions de la lectura" aria-haspopup="menu" aria-expanded="false" aria-controls="studio-reading-menu" popovertarget="studio-reading-menu">${icon('ellipsis')}</button>
+          <div class="select-menu action-menu" id="studio-reading-menu" role="menu" aria-labelledby="studio-reading-trigger" popover>
+            <button type="button" role="menuitem" tabindex="-1" data-option="json">Descarrega la lectura (JSON)</button>
+            <button type="button" role="menuitem" tabindex="-1" data-option="remove" hidden>Suprimeix la lectura importada</button>
+          </div>
         </div>
+        <p class="studio-file-status" id="studio-file-status" role="status" hidden></p>
         <div class="studio-question-feedback" hidden><span role="status">Pregunta amagada.</span><button class="studio-text-button" type="button" data-action="question-undo">Desfés</button></div>
       </header>
       <div class="studio-preview-window">
@@ -66,6 +84,7 @@ const template = `
             ${range('fontSize', 'Cos de lletra', 10, 20, 1, 'pt')}
             ${range('leading', 'Interlineat', .5, 3, .05, '×')}
             ${range('paragraphGap', 'Espai entre paràgrafs', 0, 12, 1, 'mm')}
+            ${range('sectionGap', 'Espai abans de les preguntes', 0, 20, 1, 'mm')}
           </div>
         </details>
         <details>
@@ -89,6 +108,7 @@ const template = `
               <label>Títol de l’encapçalament<input type="text" name="headerTitle" maxlength="80" placeholder="Nom de l’escola o de l’activitat"></label>
               <label>Segona línia<input type="text" name="headerDetail" maxlength="100" placeholder="Grup, unitat o instruccions breus"></label>
             </div>
+            ${logoControls('headerLogo', 'Carrega un logotip a l’encapçalament')}
           </div>
         </details>
         <details>
@@ -96,6 +116,7 @@ const template = `
           <div class="studio-controls">
             ${check('showOrigin', 'Origen de la fitxa · trama.ortogra.fi')}
             ${check('showPage', 'Número de pàgina')}
+            ${logoControls('footerLogo', 'Carrega un logotip al peu de pàgina')}
           </div>
         </details>
       </form>
@@ -176,7 +197,7 @@ function imageControls(image, index) {
   return card;
 }
 
-export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
+export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRemove }) {
   root.innerHTML = template;
   const translateMarkup = bindTranslations(root);
   const find = selector => root.querySelector(selector);
@@ -229,6 +250,9 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
   const printTrigger = find('#studio-print-trigger');
   const printButton = find('[data-action="print"]');
   const printMenu = mountActionMenu(printTrigger, find('#studio-print-menu'), exportWorksheet);
+  const fileTrigger = find('#studio-reading-trigger');
+  const fileStatus = find('#studio-file-status');
+  const fileMenu = mountActionMenu(fileTrigger, find('#studio-reading-menu'), manageReading);
   const printOutlet = create('div', 'worksheet-print-outlet');
   document.body.append(printOutlet);
 
@@ -254,6 +278,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
   });
 
   function populateReading() {
+    find('#studio-reading-menu [data-option="remove"]').hidden = !reading.personal;
     find('#studio-title').textContent = reading.title;
     find('#studio-title').lang = reading.language;
     find('#studio-reading-code').textContent = reading.code;
@@ -309,6 +334,14 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
     setDisclosure(find('.studio-custom'), settings.headerCustom, { animated });
     setDisclosure(find('#studio-answer-weight'), settings.answerStyle !== 'blank', { animated });
     setDisclosure(find('#studio-images'), settings.showImages, { animated });
+    for (const control of root.querySelectorAll('[data-logo-control]')) {
+      const source = settings[control.dataset.logoControl];
+      const image = control.querySelector('img');
+      if (source && image.getAttribute('src') !== source) image.src = source;
+      if (!source) image.removeAttribute('src');
+      control.querySelector('.studio-logo-preview').hidden = !source;
+      control.querySelector('[data-logo-clear]').hidden = !source;
+    }
     const included = reading.questions.filter(question => !settings.excluded.includes(question.id));
     find('#studio-question-count').textContent = `${included.length}/${reading.questions.length}`;
     const visible = settings.showImages ? reading.images.filter(image => settings.images[image.id]?.visible !== false).length : 0;
@@ -356,6 +389,8 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
   function select(entry, config) {
     reading = entry;
     settings = config;
+    fileStatus.hidden = true;
+    for (const message of root.querySelectorAll('[data-logo-status]')) message.hidden = true;
     solution.checked = false;
     exportStatus.hidden = true;
     templateStatus.textContent = '';
@@ -492,6 +527,72 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
     }
   }
 
+  async function manageReading(action) {
+    const current = reading;
+    if (!current || fileTrigger.disabled) return;
+    fileStatus.hidden = true;
+    try {
+      if (action === 'remove') {
+        if (current.personal && confirm(t('Vols suprimir aquesta lectura del navegador?'))) onRemove(current);
+        return;
+      }
+      fileTrigger.disabled = true;
+      await downloadReading(current);
+    } catch {
+      if (reading === current && !root.hidden) {
+        fileStatus.textContent = t(action === 'remove' ? 'No s’ha pogut suprimir la lectura.' : 'No s’ha pogut descarregar la lectura.');
+        fileStatus.hidden = false;
+      }
+    } finally {
+      fileTrigger.disabled = false;
+    }
+  }
+
+  for (const control of root.querySelectorAll('[data-logo-control]')) {
+    const key = control.dataset.logoControl;
+    const input = control.querySelector('[data-logo-file]');
+    const choose = control.querySelector('[data-logo-choose]');
+    const message = control.querySelector('[data-logo-status]');
+    const remove = control.querySelector('[data-logo-clear]');
+    function updateLogo(source) {
+      settings[key] = source;
+      message.hidden = true;
+      templateStatus.textContent = '';
+      syncControls();
+      refresh();
+    }
+    choose.addEventListener('click', () => input.click());
+    remove.addEventListener('click', () => {
+      updateLogo('');
+      choose.focus({ preventScroll: true });
+    });
+    input.addEventListener('change', async () => {
+      const file = input.files[0];
+      input.value = '';
+      if (!file || !settings) return;
+      const config = settings;
+      const previous = settings[key];
+      message.hidden = true;
+      choose.disabled = remove.disabled = true;
+      let url;
+      try {
+        if (!/^image\/(png|jpeg|webp)$/.test(file.type) || file.size > 5 * 1024 * 1024) throw new Error();
+        url = URL.createObjectURL(file);
+        const source = await encodeImage(url, 480);
+        if (!validSetting(key, source)) throw new Error();
+        if (settings === config && settings[key] === previous) updateLogo(source);
+      } catch {
+        if (settings === config) {
+          message.textContent = t('Tria un logotip PNG, JPEG o WebP de fins a 5 MB.');
+          message.hidden = false;
+        }
+      } finally {
+        if (url) URL.revokeObjectURL(url);
+        choose.disabled = remove.disabled = false;
+      }
+    });
+  }
+
   for (const form of forms) {
     form.addEventListener('submit', event => event.preventDefault());
     form.addEventListener('input', update);
@@ -517,6 +618,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
     if (action === 'templates') templates.open();
     if (action === 'reset') {
       settings = defaultSettings();
+      for (const message of root.querySelectorAll('[data-logo-status]')) message.hidden = true;
       templates.resetSelection();
       solution.checked = false;
       exportStatus.hidden = true;
@@ -540,11 +642,13 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant }) {
   });
 
   return {
-    dismissMenu() { printMenu.close(); },
+    dismissMenu() { printMenu.close(); fileMenu.close(); },
     translate() {
       translateMarkup();
       templateStatus.textContent = '';
       exportStatus.hidden = true;
+      fileStatus.hidden = true;
+      for (const message of root.querySelectorAll('[data-logo-status]')) message.hidden = true;
       templates.translate();
       if (!reading) return;
       populateReading();

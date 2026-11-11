@@ -38,6 +38,9 @@
 .studio-text-button:hover { text-decoration: underline; }
 .studio-back { width: 32px; min-height: 32px; padding: 0; flex: none; }
 .studio-back svg { width: 17px; height: 17px; }
+.studio-reading-trigger { width: 32px; min-height: 32px; flex: none; margin-inline-start: auto; padding: 0; }
+.studio-reading-trigger .ui-icon { width: 17px; height: 17px; }
+.studio-file-status { margin: 0 0 6px; color: var(--accent); font-size: .78rem; }
 
 .studio-kicker {
   margin: 0;
@@ -128,6 +131,11 @@
 .studio-controls input[type="range"] { width: 100%; margin: 0; accent-color: var(--accent); cursor: pointer; }
 .studio-controls :is(input[type="checkbox"], input[type="radio"]) { width: 1.05rem; height: 1.05rem; margin: 1px 0 0; accent-color: var(--green); cursor: pointer; }
 .studio-controls .studio-check { display: flex; align-items: start; gap: 8px; cursor: pointer; }
+.studio-logo-control { display: grid; gap: 6px; padding-top: 8px; border-top: 1px solid var(--line); }
+.studio-logo-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 5px 8px; }
+.studio-logo-actions .button { min-height: 34px; padding: 5px 8px; font-size: .77rem; }
+.studio-logo-preview { display: grid; width: fit-content; padding: 4px 6px; border: 1px solid var(--line); border-radius: 5px; background: #fff; }
+.studio-logo-preview img { display: block; max-width: 84px; max-height: 40px; }
 .studio-check > input { flex: none; }
 .studio-check:has(:disabled) { color: var(--muted); }
 
@@ -199,6 +207,9 @@
 .worksheet-content > * { flex: none; }
 .worksheet-heading { padding-bottom: 5mm; }
 .worksheet-header { margin-bottom: 7mm; font: 10pt/1.25 Arial, sans-serif; }
+.worksheet-header:has(.worksheet-logo) { display: flex; align-items: center; gap: 4mm; }
+.worksheet-header-details { flex: 1; min-width: 0; }
+.worksheet-logo { display: block; width: 30mm; height: 15mm; flex: none; object-fit: contain; object-position: left center; }
 .worksheet-custom-title { display: block; margin-bottom: 1mm; font-size: 13pt; }
 .worksheet-custom-detail { margin: 0 0 2mm; }
 .worksheet-fields { display: flex; gap: 6mm; }
@@ -210,16 +221,19 @@
 .worksheet-title { margin: 0; color: #203f34; font: 700 calc(var(--sheet-font-size) * 1.75)/1.12 var(--sheet-font); }
 .worksheet-reading-code { color: #4d6158; font-size: 8pt; }
 .worksheet-passage { display: flow-root; padding-bottom: var(--sheet-paragraph-gap); }
+.worksheet-passage:has(+ .worksheet-questions-start) { padding-bottom: 0; }
+.worksheet-passage + .worksheet-questions-start { padding-top: var(--sheet-section-gap); }
 .worksheet-paragraph { margin: 0; line-height: var(--sheet-leading); }
 .worksheet-figure { margin: 0 0 2mm; }
 .worksheet-figure[data-position="center"] { margin-inline: auto; }
 .worksheet-figure[data-position="right"] { margin-left: auto; }
 .worksheet-figure[data-position="left"][data-wrap="true"] { float: left; margin-right: 4mm; }
 .worksheet-figure[data-position="right"][data-wrap="true"] { float: right; margin-left: 4mm; }
-.worksheet-figure img { display: block; width: 100%; height: auto; }
+.worksheet-figure img { display: block; width: 100%; height: auto; max-height: 130mm; object-fit: contain; }
 .worksheet-question-block { position: relative; padding-bottom: var(--sheet-question-gap); }
 .worksheet-question-heading { margin: 0 0 2mm; color: #203f34; font: 700 1.14em/1.2 var(--sheet-font); }
 .worksheet-question { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 2mm; }
+.worksheet-question-continuation .worksheet-number { visibility: hidden; }
 .worksheet-prompt-wrap { position: relative; }
 .worksheet-prompt { margin: 0; }
 .worksheet-solution { margin-top: 1.5mm; padding: 0 0 0 2.5mm; border-inline-start: .35mm solid #ad614c; color: #593328; }
@@ -255,7 +269,9 @@
 .worksheet-footer { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-auto-rows: min-content; align-content: start; gap: 1mm 2mm; min-height: 0; padding-top: 2mm; color: #4d6158; font: 8pt/1.25 Arial, sans-serif; }
 .worksheet-footer:empty { padding: 0; }
 .worksheet-page-number { grid-column: 2; }
-.worksheet-origin { grid-column: 1; justify-self: start; color: #38584b; text-decoration: none; }
+.worksheet-footer-brand { grid-column: 1; display: flex; flex-wrap: wrap; align-items: center; gap: 1mm 2mm; }
+.worksheet-footer .worksheet-logo { width: 24mm; height: 9mm; }
+.worksheet-origin { color: #38584b; text-decoration: none; }
 .worksheet-print-outlet { display: none; }
 .worksheet-export-layout { position: fixed; top: 0; left: -10000px; width: 210mm; visibility: hidden; pointer-events: none; }
 

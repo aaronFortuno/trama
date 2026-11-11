@@ -3,7 +3,7 @@ import { placeMenu } from './select-menu.js';
 export function mountActionMenu(trigger, menu, onAction) {
   const isOpen = () => menu.matches(':popover-open');
   const items = [...menu.querySelectorAll('button')];
-  const available = () => items.filter(item => !item.disabled);
+  const available = () => items.filter(item => !item.disabled && !item.hidden);
 
   function close(restoreFocus = false) {
     if (!isOpen()) return;

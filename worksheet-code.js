@@ -1,3 +1,5 @@
+import { rasterImagePattern } from './local-images.js';
+
 const stableId = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 export const imageDefaults = Object.freeze({ visible: true, width: 36, position: 'right', wrap: true });
 export const marginLimits = Object.freeze({ min: 8, max: 32 });
@@ -11,6 +13,7 @@ const numberIn = (min, max, step = 1) => value => Number.isFinite(value) && valu
 const oneOf = (...options) => value => options.includes(value);
 const boolean = value => typeof value === 'boolean';
 const singleLine = max => value => typeof value === 'string' && value.length <= max && !/[\r\n\u0000-\u001f]/.test(value);
+const logo = value => typeof value === 'string' && (value === '' || value.length <= 320000 && rasterImagePattern.test(value));
 const margin = numberIn(marginLimits.min, marginLimits.max);
 const lineCount = numberIn(0, maxAnswerLines);
 const imageWidth = numberIn(20, 75);
@@ -22,6 +25,7 @@ const fields = {
   fontSize: [12, numberIn(10, 20)],
   leading: [2, numberIn(1, 6, .1)],
   paragraphGap: [3, numberIn(0, 12)],
+  sectionGap: [8, numberIn(0, 20)],
   marginTop: [16, margin],
   marginRight: [20, margin],
   marginBottom: [16, margin],
@@ -38,10 +42,12 @@ const fields = {
   headerCustom: [false, boolean],
   headerTitle: ['', singleLine(80)],
   headerDetail: ['', singleLine(100)],
+  headerLogo: ['', logo],
   showImages: [true, boolean],
   showCode: [true, boolean],
   showOrigin: [true, boolean],
   showPage: [true, boolean],
+  footerLogo: ['', logo],
 };
 
 const marginKeys = ['marginTop', 'marginRight', 'marginBottom', 'marginLeft'];

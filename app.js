@@ -1,15 +1,19 @@
 import { mountCatalog } from './catalog.js';
-import { readings } from './data/readings.js';
+import { readings as publicReadings } from './data/readings.js';
 import { mountStudio } from './studio.js';
 import { animateRefresh, mountDialogs } from './motion.js';
 import { mountSelectMenus } from './select-menu.js';
 import { bindTranslations, language, setLanguage, t } from './i18n.js';
 import { mountActionMenu } from './action-menu.js';
+import { importReading, listPersonalReadings, readingStorageKey, saveReading } from './reading-files.js';
 
 const main = document.querySelector('#contingut');
 const catalogView = document.querySelector('#catalog-view');
 const studioView = document.querySelector('#studio');
-const readingIds = new Set(readings.map(({ id }) => id));
+function personalReadings() {
+  try { return listPersonalReadings(localStorage); } catch { return []; }
+}
+const readings = [...publicReadings, ...personalReadings()];
 const translateStatic = bindTranslations(document.documentElement);
 const translateCard = bindTranslations(document.querySelector('#reading-card').content);
 document.documentElement.lang = language();
@@ -45,6 +49,7 @@ const studio = mountStudio({
   onOpen: showStudio,
   onCatalog: goToCatalog,
   onVariant: openReading,
+  onRemove: removeReading,
 });
 mountDialogs();
 mountSelectMenus();
@@ -66,6 +71,7 @@ mountActionMenu(document.querySelector('#language-button'), languageMenu, value 
   catalog.translate();
   studio.translate();
   lightningStatus.textContent = '';
+  importStatus.hidden = true;
 });
 
 function openReading(readingId) {
@@ -114,6 +120,46 @@ function goToCatalog() {
   showCatalog();
 }
 
+function refreshReadings() {
+  readings.splice(publicReadings.length, readings.length, ...personalReadings());
+  catalog.replaceReadings(readings);
+}
+
+function removeReading(reading) {
+  localStorage.removeItem(readingStorageKey + reading.id);
+  refreshReadings();
+  catalog.reveal('');
+  goToCatalog();
+}
+
+const importButton = document.querySelector('#import-reading');
+const readingFile = document.querySelector('#reading-file');
+const importStatus = document.querySelector('#reading-import-status');
+importButton.addEventListener('click', () => readingFile.click());
+readingFile.addEventListener('change', async () => {
+  const file = readingFile.files[0];
+  readingFile.value = '';
+  if (!file || importButton.disabled) return;
+  importButton.disabled = true;
+  importStatus.hidden = true;
+  try {
+    const reading = await importReading(file);
+    saveReading(localStorage, reading, publicReadings);
+    refreshReadings();
+    catalog.reveal(reading.code);
+    openReading(reading.id);
+  } catch (failure) {
+    importStatus.textContent = failure instanceof DOMException
+      ? t('El navegador no ha pogut desar la lectura.') : failure.message;
+    importStatus.hidden = false;
+  } finally {
+    importButton.disabled = false;
+  }
+});
+window.addEventListener('storage', event => {
+  if (event.key === null || event.key.startsWith(readingStorageKey)) refreshReadings();
+});
+
 function route() {
   const params = new URLSearchParams(location.hash.slice(1));
   if (params.has('fitxa')) {
@@ -121,8 +167,7 @@ function route() {
     return;
   }
   const readingId = params.get('lectura');
-  if (readingIds.has(readingId)) studio.open(readingId);
-  else showCatalog();
+  if (!studio.open(readingId)) showCatalog();
 }
 
 document.querySelector('#home-link').addEventListener('click', (event) => {

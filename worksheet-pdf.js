@@ -33,6 +33,7 @@ async function rasterize(page, css, images) {
   style.textContent = `*, *::before, *::after { box-sizing: border-box; }\n${css}`;
   await Promise.all(Array.from(page.querySelectorAll('img'), async image => {
     const url = image.src;
+    if (url.startsWith('data:')) return;
     if (!images.has(url)) images.set(url, imageData(url));
     image.src = await images.get(url);
   }));

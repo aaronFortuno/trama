@@ -153,6 +153,8 @@ button { color: inherit; cursor: pointer; }
 
 .catalog-section { padding-block: clamp(15px, 2.5vw, 28px) 15px; }
 .catalog-heading { display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-bottom: 16px; }
+.catalog-heading-actions { display: flex; flex-wrap: wrap; justify-content: end; align-items: center; gap: 8px; }
+.catalog-import-status { margin: 0 0 10px; color: var(--accent); font-size: .82rem; }
 .catalog-heading h1, .catalog-empty h3 {
   margin: 0;
   font: 400 clamp(1.85rem, 3vw, 2.5rem)/1.12 var(--serif);
@@ -297,6 +299,7 @@ body, .site-header, .site-footer, .catalog-filters, .reading-card, .search-box, 
   .site-bar, #catalog-view, #studio { width: calc(100% - 2 * clamp(16px, 1.35vw, 24px)); }
   #catalog-view, .catalog-section { height: 100%; }
   .catalog-section, .catalog-results { display: grid; grid-template-rows: auto minmax(0, 1fr); min-height: 0; }
+  .catalog-section:has(.catalog-import-status:not([hidden])) { grid-template-rows: auto auto minmax(0, 1fr); }
   .catalog-layout { align-items: stretch; min-height: 0; }
   .catalog-filters { align-self: start; max-height: 100%; padding-block: 12px; overflow: auto; overscroll-behavior: contain; }
   .filters-body { gap: 7px; margin-top: 8px; }
@@ -338,6 +341,7 @@ body, .site-header, .site-footer, .catalog-filters, .reading-card, .search-box, 
   .theme-toggle { width: 34px; }
   .theme-toggle .ui-icon { width: 17px; height: 17px; }
   .catalog-heading { display: grid; justify-content: stretch; gap: 10px; margin-bottom: 11px; }
+  .catalog-heading-actions { justify-content: start; }
   .search-box { width: 100%; }
   .filters-body { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 9px; }
   .reading-grid { grid-template-columns: minmax(0, 1fr); }

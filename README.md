@@ -8,6 +8,34 @@ El commutador **Solucionari** mostra la resposta orientativa sota cada pregunta 
 
 Des de **Plantilles** pots aplicar la plantilla Clàssica (Georgia, 12 pt, interlineat 1×) o una plantilla desada. Les miniatures mostren la cantonada superior del full amb els ajustos de cada plantilla. A **Gestiona les plantilles** pots crear, editar i reordenar les teves plantilles. Cada plantilla pot incloure text i tipografia, marges, espai de resposta, encapçalament i peu o visibilitat de les il·lustracions. Aplica una plantilla, ajusta la fitxa i marca l’opció d’actualitzar els valors per incorporar-hi els canvis.
 
+**Text i tipografia** inclou un ajust per a l’espai abans de les preguntes, amb 8 mm per defecte quan el text i les preguntes comparteixen pàgina. Pots carregar logotips en PNG, JPEG o WebP a **Encapçalament** i **Peu de pàgina**. Si deses una plantilla amb aquests blocs, també hi deses els logotips.
+
+## Importar i exportar lectures
+
+Fes servir **Importa una lectura** al catàleg per obrir un fitxer `.json`. Al menú de tres punts del visor pots descarregar qualsevol lectura com a JSON o suprimir una lectura que hagis importat. El JSON conté la lectura, les preguntes amb les respostes orientatives i les il·lustracions. El format de la fitxa i els logotips es gestionen amb les plantilles.
+
+Els camps obligatoris són `title`, `language` i `paragraphs`. Les preguntes són opcionals i cadascuna necessita un `prompt`.
+
+```json
+{
+  "title": "El riu després de la pluja",
+  "language": "ca",
+  "paragraphs": [
+    "L’endemà de la pluja, l’Aina va trobar branques al camí del riu."
+  ],
+  "questions": [
+    {
+      "type": "literal",
+      "prompt": "Què va trobar l’Aina?",
+      "answer": "Va trobar branques al camí.",
+      "lines": 2
+    }
+  ]
+}
+```
+
+Pots afegir `level`, `difficulty`, `genre`, `themes`, `summary`, `code` i `images`. Si cal, Trama assigna un codi com `P001`. Les imatges dels fitxers JSON descarregats estan incorporades al fitxer com a dades PNG, JPEG o WebP. El límit d’importació és de 2 MB per fitxer, subjecte a l’espai disponible al navegador.
+
 ## En local i a GitHub Pages
 
 Des d’aquesta carpeta, executa `node tools/serve.cjs` i obre `http://127.0.0.1:4191/`. El web fa servir HTML, CSS i mòduls JavaScript, amb il·lustracions locals.
@@ -28,7 +56,7 @@ Les entrades es troben a `data/readings.js`. Els filtres es deriven de les dades
 
 Escriu un codi de lectura com `L001` al cercador del catàleg i, si cal, acota la cerca amb el filtre de llengua. Els enllaços de fitxa compartits en versions anteriors continuen obrint la lectura amb els seus ajustos. Conserva els codis i els identificadors de les lectures, preguntes i imatges quan ampliïs el catàleg.
 
-Trama funciona al navegador. Els recursos se serveixen des del mateix web. El projecte no incorpora comptes, cookies ni analítica. Les plantilles i les preferències de tema i idioma es desen al navegador.
+Trama funciona al navegador. Els recursos se serveixen des del mateix web. El projecte no incorpora comptes, cookies ni analítica. Les lectures importades, les plantilles i les preferències de tema i idioma es desen al navegador.
 
 ## Llicència i crèdits
 

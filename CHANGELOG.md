@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.7 · 11 de novembre de 2026
+
+Importació i exportació de lectures en JSON. Les lectures importades es desen al navegador. Es pot afegir un logotip a l’encapçalament i al peu del full i desar-lo amb una plantilla. L’espai entre la lectura i les preguntes té un ajust propi.
+
 ## 1.6 · 11 de novembre de 2026
 
 Interfície en català i castellà amb preferència desada al navegador. La cerca per codi identifica la lectura al catàleg. El solucionari apareix dins la fitxa, amb una resposta orientativa a cada pregunta inclosa. El menú d’impressió permet imprimir o descarregar la fitxa d’alumnat i el solucionari per separat.

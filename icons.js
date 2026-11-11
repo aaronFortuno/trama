@@ -4,6 +4,7 @@ const icons = {
   'arrow-down': '<path d="M12 5v14"/><path d="m19 12-7 7-7-7"/>',
   'arrow-up': '<path d="m5 12 7-7 7 7"/><path d="M12 19V5"/>',
   'chevron-down': '<path d="m6 9 6 6 6-6"/>',
+  'ellipsis': '<circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/>',
   maximize: '<path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>',
   minus: '<path d="M5 12h14"/>',
   plus: '<path d="M5 12h14"/><path d="M12 5v14"/>',

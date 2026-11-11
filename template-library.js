@@ -158,8 +158,10 @@ export function mountTemplateLibrary({ dialog, picker, getSettings, getThumbnail
     editorOrigin = origin;
     form.reset();
     name.value = entry?.name || '';
+    const current = getSettings();
     for (const [index, field] of checkboxes.entries()) {
-      field.checked = entry ? Object.hasOwn(entry.format, field.value) : Boolean(templateGroups[index].selected);
+      const hasLogo = (field.value === 'header' && current.headerLogo) || (field.value === 'footer' && current.footerLogo);
+      field.checked = entry ? Object.hasOwn(entry.format, field.value) : Boolean(templateGroups[index].selected || hasLogo);
     }
     find('#template-editor-title').textContent = t(entry ? 'Edita la plantilla' : 'Nova plantilla');
     find('#template-recapture').hidden = !entry;

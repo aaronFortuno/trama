@@ -22,6 +22,7 @@ const rankedFacets = ['level', 'difficulty', 'length'];
 const pageSize = 12;
 
 export function labelFor(facet, value, locale = language()) {
+  if (value === 'unspecified') return t('Sense especificar', {}, locale);
   if (Object.hasOwn(labels[facet] ?? {}, value)) return t(labels[facet][value], {}, locale);
   let label = value.replaceAll('-', ' ');
   if (facet === 'language') {
@@ -76,7 +77,7 @@ function sortFacet(facet, a, b, compare) {
 }
 
 export function mountCatalog({ root, readings, onSelect }) {
-  const catalog = indexCatalog(readings);
+  let catalog = indexCatalog(readings);
   const search = root.querySelector('#search');
   const fields = [...root.querySelectorAll('[data-facet]')];
   const grid = root.querySelector('#reading-grid');
@@ -101,7 +102,7 @@ export function mountCatalog({ root, readings, onSelect }) {
       const options = [...new Set(catalog.flatMap(item => item.facets[facet]))];
       options.sort((a, b) => sortFacet(facet, a, b, compare));
       field.replaceChildren(field.options[0], ...options.map(value => new Option(labelFor(facet, value), value)));
-      field.value = selected;
+      field.value = options.includes(selected) ? selected : '';
     }
     syncSelects(root);
   }
@@ -132,6 +133,7 @@ export function mountCatalog({ root, readings, onSelect }) {
     difficulty.textContent = labelFor('difficulty', reading.difficulty);
     difficulty.dataset.difficulty = reading.difficulty;
     card.querySelector('.card-code').textContent = reading.code;
+    card.querySelector('.card-personal').hidden = !reading.personal;
     card.querySelector('.card-words').textContent = t(count === 1 ? '{count} paraula' : '{count} paraules', { count: words.format(count) });
     const countQuestions = reading.questions.length;
     card.querySelector('.card-questions').textContent = t(countQuestions === 1 ? '{count} pregunta' : '{count} preguntes', { count: words.format(countQuestions) });
@@ -207,6 +209,17 @@ export function mountCatalog({ root, readings, onSelect }) {
   render();
 
   return {
+    replaceReadings(items) {
+      catalog = indexCatalog(items);
+      updateOptions();
+      refresh();
+    },
+    reveal(code) {
+      search.value = code;
+      for (const field of fields) field.value = '';
+      syncSelects(root);
+      refresh();
+    },
     translate() {
       reset.setAttribute('aria-label', t('Neteja la cerca i els filtres'));
       updateOptions();

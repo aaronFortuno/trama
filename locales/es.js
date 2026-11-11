@@ -12,6 +12,12 @@ Cerca al catàleg|Buscar en el catálogo
 Cerca per títol, codi o tema|Buscar por título, código o tema
 Filtres del catàleg|Filtros del catálogo
 Filtres|Filtros
+Importa una lectura|Importar una lectura
+Sense especificar|Sin especificar
+Revisa el camp «{field}» del fitxer JSON.|Revisa el campo «{field}» del archivo JSON.
+El fitxer JSON ha de pesar com a màxim 2 MB.|El archivo JSON debe pesar 2 MB como máximo.
+El fitxer no conté un JSON vàlid.|El archivo no contiene un JSON válido.
+El navegador no ha pogut desar la lectura.|El navegador no ha podido guardar la lectura.
 Neteja|Limpiar
 Neteja la cerca i els filtres|Limpiar la búsqueda y los filtros
 Llengua|Idioma de la lectura
@@ -72,7 +78,7 @@ Text instructiu|Texto instructivo
 Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
-v1.6 · Obre l’historial de canvis|v1.6 · Abrir el historial de cambios
+v1.7 · Obre l’historial de canvis|v1.7 · Abrir el historial de cambios
 V4V · Sobre el projecte|V4V · Sobre el proyecto
 Un petit espai per aprendre|Un pequeño espacio para aprender
 Tanca la informació del projecte|Cerrar la información del proyecto
@@ -95,6 +101,7 @@ Fotografia i QR reutilitzats de|Fotografía y QR reutilizados de
 Historial de versions|Historial de versiones
 Changelog complet ↗|Historial completo ↗
 Tanca l’historial|Cerrar el historial
+Lectures importables i exportables en JSON, logotips al full i espai independent abans de les preguntes.|Lecturas importables y exportables en JSON, logotipos en la ficha y espacio independiente antes de las preguntas.
 Interfície en català i castellà. Cerca pel codi de lectura, solucionari al full i menú d’impressió i descàrrega de PDF.|Interfaz en catalán y español. Búsqueda por código de lectura, solucionario en la ficha y menú de impresión y descarga de PDF.
 Visor amb capçalera compacta, zoom flotant i impressió a mà. Plantilles amb miniatures i ordre personalitzable. Nous valors per a la pauta de resposta i crèdits al V4V.|Visor con cabecera compacta, zoom flotante e impresión a mano. Plantillas con miniaturas y orden personalizable. Nuevos valores para la pauta de respuesta y créditos en V4V.
 Visor més ample, amb el format a l’esquerra i el contingut a la dreta. Codis curts de lectura i preguntes, i preferència de tema desada al navegador.|Visor más ancho, con el formato a la izquierda y el contenido a la derecha. Códigos breves de lectura y preguntas, y preferencia de tema guardada en el navegador.
@@ -104,6 +111,12 @@ Catàleg de quatre columnes en pantalles amples i menús més compactes. Nous ma
 Catàleg més directe, amb capçalera i peu fixos. Ajustos i previsualització amb desplaçament propi, zoom del full i un nou espai per al projecte i l’historial.|Catálogo más directo, con cabecera y pie fijos. Ajustes y vista previa con desplazamiento propio, zoom de la ficha y un nuevo espacio para el proyecto y el historial.
 Primera versió amb quatre lectures il·lustrades en castellà per a 5è de primària i un editor de fitxes imprimibles amb codi de recuperació.|Primera versión con cuatro lecturas ilustradas en español para 5.º de primaria y un editor de fichas imprimibles con código de recuperación.
 Torna al catàleg|Volver al catálogo
+Opcions de la lectura|Opciones de la lectura
+Descarrega la lectura (JSON)|Descargar la lectura (JSON)
+Suprimeix la lectura importada|Eliminar la lectura importada
+Vols suprimir aquesta lectura del navegador?|¿Quieres eliminar esta lectura del navegador?
+No s’ha pogut suprimir la lectura.|No se ha podido eliminar la lectura.
+No s’ha pogut descarregar la lectura.|No se ha podido descargar la lectura.
 Altres versions|Otras versiones
 Pregunta amagada.|Pregunta oculta.
 Desfés|Deshacer
@@ -127,6 +140,7 @@ Courier New · monoespaiada|Courier New · monoespaciada
 Cos de lletra|Tamaño de letra
 Interlineat|Interlineado
 Espai entre paràgrafs|Espacio entre párrafos
+Espai abans de les preguntes|Espacio antes de las preguntas
 Marges del full|Márgenes de la ficha
 Marges|Márgenes
 Dret|Derecho
@@ -137,6 +151,11 @@ Camp de data|Campo de fecha
 Camp de curs|Campo de curso
 Etiqueta de comprensió lectora|Etiqueta de comprensión lectora
 Text personalitzat|Texto personalizado
+Carrega un logotip|Cargar un logotipo
+Carrega un logotip a l’encapçalament|Cargar un logotipo en la cabecera
+Carrega un logotip al peu de pàgina|Cargar un logotipo en el pie de página
+Treu-lo|Quitar
+Tria un logotip PNG, JPEG o WebP de fins a 5 MB.|Elige un logotipo PNG, JPEG o WebP de hasta 5 MB.
 Títol de l’encapçalament|Título de la cabecera
 Nom de l’escola o de l’activitat|Nombre del centro o de la actividad
 Segona línia|Segunda línea
