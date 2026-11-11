@@ -1,4 +1,4 @@
-import { t } from './i18n.js';
+import { language, t } from './i18n.js';
 import { encodeImage, imageFrom, rasterImagePattern } from './local-images.js';
 import { maxAnswerLines } from './worksheet-code.js';
 
@@ -124,6 +124,34 @@ export function saveReading(storage, reading, publicReadings) {
   storage.setItem(readingStorageKey + reading.id, JSON.stringify(reading));
 }
 
+export function readingExample() {
+  const example = {
+    title: t('El riu després de la pluja'),
+    language: language(),
+    paragraphs: [t('L’endemà de la pluja, l’Aina va trobar branques al camí del riu.')],
+    questions: [{
+      type: 'literal',
+      prompt: t('Què va trobar l’Aina?'),
+      answer: t('Va trobar branques al camí.'),
+      lines: 2,
+    }],
+  };
+  return JSON.stringify(example, null, 2) + '\n';
+}
+
+function downloadJson(blob, filename) {
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = filename;
+  link.click();
+  setTimeout(() => URL.revokeObjectURL(url), 10000);
+}
+
+export function downloadReadingExample() {
+  downloadJson(new Blob([readingExample()], { type: 'application/json' }), `trama-${language()}.json`);
+}
+
 export async function downloadReading(reading) {
   const { id, workId, personal, ...data } = reading;
   const images = await Promise.all(data.images.map(async image => ({
@@ -133,10 +161,5 @@ export async function downloadReading(reading) {
   const portable = { version: 1, ...data, images };
   let blob = new Blob([JSON.stringify(portable, null, 2) + '\n'], { type: 'application/json' });
   if (blob.size > maxFileSize) blob = new Blob([JSON.stringify(portable)], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  const link = document.createElement('a');
-  link.href = url;
-  link.download = `${reading.code}-${reading.language.toUpperCase()}.json`;
-  link.click();
-  setTimeout(() => URL.revokeObjectURL(url), 10000);
+  downloadJson(blob, `${reading.code}-${reading.language.toUpperCase()}.json`);
 }

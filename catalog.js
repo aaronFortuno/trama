@@ -167,9 +167,11 @@ export function mountCatalog({ root, readings, onSelect }) {
       visibleIds = ids;
     }
     resultCount.textContent = total === 1 ? '1 lectura' : t('{count} lectures', { count: words.format(total) });
-    if (showing < total) resultCount.textContent += ` · ${t('Se’n mostren {count}', { count: words.format(showing) })}`;
     emptyState.hidden = total !== 0;
     more.hidden = showing === total;
+    more.textContent = t('Mostra més lectures ({showing} de {total})', {
+      showing: words.format(showing), total: words.format(total),
+    });
     indicator.textContent = activeCount ? ` (${activeCount})` : '';
     reset.hidden = !activeCount && !search.value.trim();
   }

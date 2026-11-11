@@ -1,11 +1,11 @@
-import { mountCatalog } from './catalog.js';
+import { labelFor, mountCatalog } from './catalog.js';
 import { readings as publicReadings } from './data/readings.js';
 import { mountStudio } from './studio.js';
-import { animateRefresh, mountDialogs } from './motion.js';
-import { mountSelectMenus } from './select-menu.js';
+import { animateRefresh, closeDialog, mountDialogs, mountDisclosures } from './motion.js';
+import { mountSelectMenus, syncSelects } from './select-menu.js';
 import { bindTranslations, language, setLanguage, t } from './i18n.js';
 import { mountActionMenu } from './action-menu.js';
-import { importReading, listPersonalReadings, readingStorageKey, saveReading } from './reading-files.js';
+import { downloadReading, downloadReadingExample, importReading, listPersonalReadings, readingExample, readingStorageKey, saveReading } from './reading-files.js';
 
 const main = document.querySelector('#contingut');
 const catalogView = document.querySelector('#catalog-view');
@@ -71,7 +71,7 @@ mountActionMenu(document.querySelector('#language-button'), languageMenu, value 
   catalog.translate();
   studio.translate();
   lightningStatus.textContent = '';
-  importStatus.hidden = true;
+  updateReadingFiles();
 });
 
 function openReading(readingId) {
@@ -123,6 +123,7 @@ function goToCatalog() {
 function refreshReadings() {
   readings.splice(publicReadings.length, readings.length, ...personalReadings());
   catalog.replaceReadings(readings);
+  updateReadingFiles();
 }
 
 function removeReading(reading) {
@@ -132,9 +133,30 @@ function removeReading(reading) {
   goToCatalog();
 }
 
-const importButton = document.querySelector('#import-reading');
-const readingFile = document.querySelector('#reading-file');
-const importStatus = document.querySelector('#reading-import-status');
+const filesDialog = document.querySelector('#reading-files-dialog');
+const importButton = filesDialog.querySelector('#import-reading');
+const readingFile = filesDialog.querySelector('#reading-file');
+const importStatus = filesDialog.querySelector('#reading-import-status');
+const exportSelect = filesDialog.querySelector('#reading-export-select');
+const exportButton = filesDialog.querySelector('#reading-export-download');
+const exportStatus = filesDialog.querySelector('#reading-export-status');
+mountDisclosures(filesDialog);
+
+function updateReadingFiles() {
+  const selected = exportSelect.value;
+  exportSelect.replaceChildren(...readings.map(reading =>
+    new Option(`${reading.code} · ${reading.title} (${labelFor('language', reading.language)})`, reading.id)));
+  if (readings.some(reading => reading.id === selected)) exportSelect.value = selected;
+  filesDialog.querySelector('#reading-example').textContent = readingExample().trimEnd();
+  syncSelects(filesDialog);
+}
+updateReadingFiles();
+
+document.querySelector('#reading-files-open').addEventListener('click', () => {
+  importStatus.hidden = true;
+  exportStatus.hidden = true;
+});
+filesDialog.querySelector('#reading-example-download').addEventListener('click', downloadReadingExample);
 importButton.addEventListener('click', () => readingFile.click());
 readingFile.addEventListener('change', async () => {
   const file = readingFile.files[0];
@@ -146,14 +168,31 @@ readingFile.addEventListener('change', async () => {
     const reading = await importReading(file);
     saveReading(localStorage, reading, publicReadings);
     refreshReadings();
-    catalog.reveal(reading.code);
-    openReading(reading.id);
+    closeDialog(filesDialog, () => {
+      catalog.reveal(reading.code);
+      openReading(reading.id);
+    });
   } catch (failure) {
     importStatus.textContent = failure instanceof DOMException
       ? t('El navegador no ha pogut desar la lectura.') : failure.message;
     importStatus.hidden = false;
   } finally {
     importButton.disabled = false;
+  }
+});
+exportSelect.addEventListener('change', () => { exportStatus.hidden = true; });
+exportButton.addEventListener('click', async () => {
+  const reading = readings.find(item => item.id === exportSelect.value);
+  if (!reading) return;
+  exportStatus.hidden = true;
+  exportButton.disabled = true;
+  try {
+    await downloadReading(reading);
+  } catch {
+    exportStatus.textContent = t('No s’ha pogut descarregar la lectura.');
+    exportStatus.hidden = false;
+  } finally {
+    exportButton.disabled = false;
   }
 });
 window.addEventListener('storage', event => {

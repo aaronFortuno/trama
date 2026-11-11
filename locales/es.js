@@ -13,6 +13,27 @@ Cerca per títol, codi o tema|Buscar por título, código o tema
 Filtres del catàleg|Filtros del catálogo
 Filtres|Filtros
 Importa una lectura|Importar una lectura
+Importa o exporta|Importar o exportar
+Importa o exporta lectures|Importar o exportar lecturas
+Tanca|Cerrar
+El fitxer JSON ha d’incloure aquests tres camps.|El archivo JSON debe incluir estos tres campos.
+El títol de la lectura.|El título de la lectura.
+El codi d’idioma, com ara|El código de idioma, por ejemplo
+Una llista amb el text de cada paràgraf.|Una lista con el texto de cada párrafo.
+Pots afegir preguntes, respostes i línies de resposta, tal com mostra l’exemple.|Puedes añadir preguntas, respuestas y líneas de respuesta, como muestra el ejemplo.
+Tria un fitxer JSON|Elegir un archivo JSON
+Descarrega la plantilla|Descargar la plantilla
+Mostra un exemple de JSON|Mostrar un ejemplo de JSON
+El camp lines reserva entre 0 i 8 línies de resposta per pregunta.|El campo lines reserva entre 0 y 8 líneas de respuesta por pregunta.
+Fins a 2 MB per fitxer. Les lectures importades es desen en aquest navegador.|Hasta 2 MB por archivo. Las lecturas importadas se guardan en este navegador.
+Exporta una lectura|Exportar una lectura
+Descarrega el text, les preguntes, les respostes i les il·lustracions en un JSON que pots editar i tornar a importar.|Descarga el texto, las preguntas, las respuestas y las ilustraciones en un JSON que puedes editar y volver a importar.
+Lectura per exportar|Lectura para exportar
+Descarrega el JSON|Descargar el JSON
+El riu després de la pluja|El río después de la lluvia
+L’endemà de la pluja, l’Aina va trobar branques al camí del riu.|Al día siguiente de la lluvia, Aina encontró ramas en el camino del río.
+Què va trobar l’Aina?|¿Qué encontró Aina?
+Va trobar branques al camí.|Encontró ramas en el camino.
 Sense especificar|Sin especificar
 Revisa el camp «{field}» del fitxer JSON.|Revisa el campo «{field}» del archivo JSON.
 El fitxer JSON ha de pesar com a màxim 2 MB.|El archivo JSON debe pesar 2 MB como máximo.
@@ -33,12 +54,11 @@ Lectures del catàleg|Lecturas del catálogo
 No hem trobat cap lectura|No se ha encontrado ninguna lectura
 Prova una altra cerca o canvia els filtres.|Prueba otra búsqueda o cambia los filtros.
 Mostra tot el catàleg|Mostrar todo el catálogo
-Mostra més lectures|Mostrar más lecturas
+Mostra més lectures ({showing} de {total})|Mostrar más lecturas ({showing} de {total})
 Activa JavaScript per cercar lectures i preparar les fitxes.|Activa JavaScript para buscar lecturas y preparar las fichas.
 Estudi d’impressió|Estudio de impresión
 Prepara la fitxa|Preparar la ficha
 {count} lectures|{count} lecturas
-Se’n mostren {count}|Se muestran {count}
 {count} paraula|{count} palabra
 {count} paraules|{count} palabras
 {count} pregunta|{count} pregunta
@@ -81,7 +101,7 @@ Text instructiu|Texto instructivo
 Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
-v1.9 · Obre l’historial de canvis|v1.9 · Abrir el historial de cambios
+v1.9.1 · Obre l’historial de canvis|v1.9.1 · Abrir el historial de cambios
 V4V · Sobre el projecte|V4V · Sobre el proyecto
 Un petit espai per aprendre|Un pequeño espacio para aprender
 Tanca la informació del projecte|Cerrar la información del proyecto
@@ -105,6 +125,7 @@ Fotografia i QR reutilitzats de|Fotografía y QR reutilizados de
 Historial de versions|Historial de versiones
 Changelog complet ↗|Historial completo ↗
 Tanca l’historial|Cerrar el historial
+Importació i exportació de lectures en un diàleg amb una plantilla JSON. El recompte acompanya el títol del catàleg.|Importación y exportación de lecturas en un diálogo con una plantilla JSON. El recuento acompaña al título del catálogo.
 Quatre lectures noves de 5è en castellà i revisió de les quatre primeres fitxes i els seus solucionaris.|Cuatro lecturas nuevas de 5.º en español y revisión de las cuatro primeras fichas y sus solucionarios.
 Set tipografies agrupades per família, amb Massallera per a les fitxes en lletra lligada.|Siete tipografías agrupadas por familia, con Massallera para las fichas en letra ligada.
 Les respostes orientatives del solucionari es distingeixen pel gris i una tipografia diferent de la dels enunciats.|Las respuestas orientativas del solucionario se distinguen por el color gris y una tipografía diferente a la de los enunciados.

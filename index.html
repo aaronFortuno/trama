@@ -45,18 +45,19 @@
     <div class="shell" id="catalog-view">
       <section class="catalog-section" aria-labelledby="readings-title">
         <div class="catalog-heading">
-          <h1 id="readings-title" tabindex="-1">Catàleg de lectures</h1>
+          <div class="catalog-heading-title">
+            <h1 id="readings-title" tabindex="-1">Catàleg de lectures</h1>
+            <p id="result-count" role="status" aria-live="polite"></p>
+          </div>
           <div class="catalog-heading-actions">
             <label class="search-box" for="search">
               <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6"/><path d="m15 15 4.5 4.5"/></svg>
               <span class="visually-hidden">Cerca al catàleg</span>
               <input type="search" id="search" placeholder="Cerca per títol, codi o tema" autocomplete="off">
             </label>
-            <button class="button" type="button" id="import-reading">Importa una lectura</button>
-            <input type="file" id="reading-file" accept=".json,application/json" hidden>
+            <button class="button" type="button" id="reading-files-open" data-open-dialog="reading-files-dialog" aria-haspopup="dialog" aria-controls="reading-files-dialog">Importa o exporta</button>
           </div>
         </div>
-        <p id="reading-import-status" class="catalog-import-status" role="status" hidden></p>
         <div class="catalog-layout">
           <aside class="catalog-filters scroll-pane" aria-label="Filtres del catàleg">
             <div class="filters-heading">
@@ -80,7 +81,6 @@
           </aside>
 
           <div class="catalog-results">
-            <div class="results-heading"><p id="result-count" role="status" aria-live="polite"></p></div>
             <div class="catalog-results-scroll scroll-pane" tabindex="0" aria-label="Lectures del catàleg">
               <div class="reading-grid" id="reading-grid"></div>
               <div class="catalog-empty" id="catalog-empty" hidden>
@@ -110,7 +110,7 @@
         </a>
       </p>
       <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.9 · Obre l’historial de canvis">v1.9</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.9.1 · Obre l’historial de canvis">v1.9.1</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
@@ -118,6 +118,47 @@
       </div>
     </div>
   </footer>
+
+  <dialog class="site-dialog reading-files-dialog" id="reading-files-dialog" aria-labelledby="reading-files-title">
+    <div class="dialog-heading">
+      <h2 id="reading-files-title" tabindex="-1" data-dialog-focus>Importa o exporta lectures</h2>
+      <button class="button close-button" type="button" data-close-dialog aria-label="Tanca"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+    </div>
+    <div class="dialog-scroll reading-files-grid">
+      <section aria-labelledby="reading-import-title">
+        <h3 id="reading-import-title">Importa una lectura</h3>
+        <p>El fitxer JSON ha d’incloure aquests tres camps.</p>
+        <dl class="reading-json-fields">
+          <div><dt><code>title</code></dt><dd>El títol de la lectura.</dd></div>
+          <div><dt><code>language</code></dt><dd>El codi d’idioma, com ara <code>ca</code> o <code>es</code>.</dd></div>
+          <div><dt><code>paragraphs</code></dt><dd>Una llista amb el text de cada paràgraf.</dd></div>
+        </dl>
+        <p>Pots afegir preguntes, respostes i línies de resposta, tal com mostra l’exemple.</p>
+        <div class="reading-files-actions">
+          <button class="button primary" type="button" id="import-reading">Tria un fitxer JSON</button>
+          <button class="button" type="button" id="reading-example-download">Descarrega la plantilla</button>
+        </div>
+        <input type="file" id="reading-file" accept=".json,application/json" hidden>
+        <p id="reading-import-status" class="reading-files-error" role="status" hidden></p>
+        <details class="reading-json-example">
+          <summary>Mostra un exemple de JSON</summary>
+          <pre><code id="reading-example"></code></pre>
+          <p>El camp lines reserva entre 0 i 8 línies de resposta per pregunta.</p>
+        </details>
+        <p>Fins a 2 MB per fitxer. Les lectures importades es desen en aquest navegador.</p>
+      </section>
+      <section aria-labelledby="reading-export-title">
+        <h3 id="reading-export-title">Exporta una lectura</h3>
+        <p>Descarrega el text, les preguntes, les respostes i les il·lustracions en un JSON que pots editar i tornar a importar.</p>
+        <label for="reading-export-select">Lectura per exportar</label>
+        <select id="reading-export-select"></select>
+        <div class="reading-files-actions">
+          <button class="button primary" type="button" id="reading-export-download">Descarrega el JSON</button>
+        </div>
+        <p id="reading-export-status" class="reading-files-error" role="status" hidden></p>
+      </section>
+    </div>
+  </dialog>
 
   <dialog class="site-dialog about-dialog" id="about-dialog" aria-labelledby="about-title">
     <div class="dialog-heading">
@@ -168,6 +209,10 @@
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’historial"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
+      <article class="release">
+        <header><h3>v1.9.1</h3><time datetime="2026-11-11">11 de novembre de 2026</time></header>
+        <p>Importació i exportació de lectures en un diàleg amb una plantilla JSON. El recompte acompanya el títol del catàleg.</p>
+      </article>
       <article class="release">
         <header><h3>v1.9</h3><time datetime="2026-11-11">11 de novembre de 2026</time></header>
         <p>Quatre lectures noves de 5è en castellà i revisió de les quatre primeres fitxes i els seus solucionaris.</p>

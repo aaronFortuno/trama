@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.9.1 · 11 de novembre de 2026
+
+Un diàleg al catàleg permet importar i exportar lectures en JSON i descarregar una plantilla. El recompte de lectures acompanya el títol del catàleg.
+
 ## 1.9 · 11 de novembre de 2026
 
 Quatre lectures il·lustrades noves de 5è en castellà. Revisió dels enunciats, les respostes orientatives i l’espai de resposta de les quatre fitxes inicials. Nous filtres d’Història, Matemàtiques i Resum.

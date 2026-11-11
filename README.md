@@ -12,7 +12,7 @@ Des de **Plantilles** pots aplicar la plantilla Clàssica (Georgia, 12 pt, inter
 
 ## Importar i exportar lectures
 
-Fes servir **Importa una lectura** al catàleg per obrir un fitxer `.json`. Al menú de tres punts del visor pots descarregar qualsevol lectura com a JSON o suprimir una lectura que hagis importat. El JSON conté la lectura, les preguntes amb les respostes orientatives i les il·lustracions. El format de la fitxa i els logotips es gestionen amb les plantilles.
+Obre **Importa o exporta** al catàleg per consultar l’exemple, descarregar una plantilla, importar un fitxer `.json` o exportar una lectura. Al menú de tres punts del visor també pots descarregar la lectura oberta o suprimir-la si l’has importada. El JSON conté la lectura, les preguntes amb les respostes orientatives i les il·lustracions. El format de la fitxa i els logotips es gestionen amb les plantilles.
 
 Els camps obligatoris són `title`, `language` i `paragraphs`. Les preguntes són opcionals i cadascuna necessita un `prompt`.
 
