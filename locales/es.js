@@ -78,7 +78,7 @@ Text instructiu|Texto instructivo
 Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
-v1.7.1 · Obre l’historial de canvis|v1.7.1 · Abrir el historial de cambios
+v1.7.2 · Obre l’historial de canvis|v1.7.2 · Abrir el historial de cambios
 V4V · Sobre el projecte|V4V · Sobre el proyecto
 Un petit espai per aprendre|Un pequeño espacio para aprender
 Tanca la informació del projecte|Cerrar la información del proyecto
@@ -101,6 +101,7 @@ Fotografia i QR reutilitzats de|Fotografía y QR reutilizados de
 Historial de versions|Historial de versiones
 Changelog complet ↗|Historial completo ↗
 Tanca l’historial|Cerrar el historial
+Les respostes orientatives del solucionari es distingeixen pel gris i una tipografia diferent de la dels enunciats.|Las respuestas orientativas del solucionario se distinguen por el color gris y una tipografía diferente a la de los enunciados.
 Nou lema i logotip de Trama per defecte a l’encapçalament, amb una alçada màxima més baixa per als logotips.|Nuevo lema y logotipo de Trama predeterminado en la cabecera, con una altura máxima menor para los logotipos.
 Lectures importables i exportables en JSON, logotips al full i espai independent abans de les preguntes.|Lecturas importables y exportables en JSON, logotipos en la ficha y espacio independiente antes de las preguntas.
 Interfície en català i castellà. Cerca pel codi de lectura, solucionari al full i menú d’impressió i descàrrega de PDF.|Interfaz en catalán y español. Búsqueda por código de lectura, solucionario en la ficha y menú de impresión y descarga de PDF.

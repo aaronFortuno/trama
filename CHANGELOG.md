@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.7.2 · 11 de novembre de 2026
+
+Les respostes orientatives del solucionari es distingeixen pel gris i una tipografia diferent de la dels enunciats.
+
 ## 1.7.1 · 11 de novembre de 2026
 
 «Llegir és lligar caps.» és el lema de la capçalera. La fitxa inclou per defecte la icona i el nom de Trama. Es pot canviar, treure o recuperar la marca, amb logotips de fins a 8 mm d’alçada a l’encapçalament i 6 mm al peu.

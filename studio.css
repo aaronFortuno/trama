@@ -178,6 +178,7 @@
 
 .worksheet-page {
   --sheet-font: Georgia, 'Times New Roman', serif;
+  --sheet-solution-font: Arial, sans-serif;
   box-sizing: border-box;
   display: grid;
   grid-template-rows: minmax(0, 1fr) var(--sheet-footer-height, 0px);
@@ -201,7 +202,10 @@
   box-shadow: 0 2px 12px #213a3429;
 }
 
-.worksheet-page[data-font="sans"] { --sheet-font: Arial, sans-serif; }
+.worksheet-page[data-font="sans"] {
+  --sheet-font: Arial, sans-serif;
+  --sheet-solution-font: Georgia, 'Times New Roman', serif;
+}
 .worksheet-page[data-font="mono"] { --sheet-font: 'Courier New', monospace; }
 .worksheet-content { display: flex; flex-direction: column; }
 .worksheet-content > * { flex: none; }
@@ -238,7 +242,7 @@
 .worksheet-prompt { margin: 0; }
 .worksheet-solution { margin-top: 1.5mm; padding: 0 0 0 2.5mm; border-inline-start: .35mm solid #ad614c; color: #593328; }
 .worksheet-solution strong { display: block; margin-bottom: .5mm; font: 700 8pt/1.3 Arial, sans-serif; }
-.worksheet-solution p { margin: 0; line-height: min(var(--sheet-leading), 1.65); }
+.worksheet-solution p { margin: 0; color: #5c645e; font-family: var(--sheet-solution-font); line-height: min(var(--sheet-leading), 1.65); }
 .worksheet-answer-line { height: var(--sheet-answer-gap); }
 .worksheet-page[data-answer-style="lines"] .worksheet-answer-line { border-bottom: var(--sheet-answer-weight) solid #a0aaa3; }
 .worksheet-page[data-answer-style="dots"] .worksheet-answer-line {
