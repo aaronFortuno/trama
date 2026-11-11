@@ -1,5 +1,6 @@
 import { animateRefresh, setDisclosure } from './motion.js';
 import { syncSelects } from './select-menu.js';
+import { language, languages, t } from './i18n.js';
 
 export const labels = {
   language: { es: 'Castellà', ca: 'Català' },
@@ -16,19 +17,17 @@ export const labels = {
   genre: { narrative: 'Narració', informative: 'Divulgació', instructional: 'Text instructiu', interview: 'Entrevista', letter: 'Carta' },
 };
 
-const languageNames = new Intl.DisplayNames('ca', { type: 'language' });
-const sortLabels = new Intl.Collator('ca', { numeric: true });
-const words = new Intl.NumberFormat('ca');
+const languageNames = new Map(languages.map(code => [code, new Intl.DisplayNames(code, { type: 'language' })]));
 const rankedFacets = ['level', 'difficulty', 'length'];
 const pageSize = 12;
 
-export function labelFor(facet, value) {
-  if (Object.hasOwn(labels[facet] ?? {}, value)) return labels[facet][value];
+export function labelFor(facet, value, locale = language()) {
+  if (Object.hasOwn(labels[facet] ?? {}, value)) return t(labels[facet][value], {}, locale);
   let label = value.replaceAll('-', ' ');
   if (facet === 'language') {
-    try { label = languageNames.of(value); } catch { /* Retain the supplied label if it is not a language tag. */ }
+    try { label = languageNames.get(locale).of(value); } catch { /* Retain the supplied label if it is not a language tag. */ }
   }
-  return label.charAt(0).toLocaleUpperCase('ca') + label.slice(1);
+  return label.charAt(0).toLocaleUpperCase(locale) + label.slice(1);
 }
 
 export function wordCount(reading) {
@@ -52,7 +51,7 @@ export function indexCatalog(readings) {
       language: [reading.language], level: [reading.level], difficulty: [reading.difficulty], length: [lengthBucket(count)],
       theme: reading.themes, question: reading.questions.map(({ type }) => type), genre: [reading.genre],
     };
-    const terms = Object.entries(facets).flatMap(([facet, values]) => values.map((value) => labelFor(facet, value)));
+    const terms = languages.flatMap(locale => Object.entries(facets).flatMap(([facet, values]) => values.map(value => labelFor(facet, value, locale))));
     const searchText = normalize([reading.code, reading.title, reading.summary, ...terms].join(' '));
     return { reading, count, facets, searchText };
   });
@@ -66,14 +65,14 @@ export function filterCatalog(catalog, { search = '', ...facets } = {}) {
   ));
 }
 
-function sortFacet(facet, a, b) {
+function sortFacet(facet, a, b, compare) {
   if (rankedFacets.includes(facet)) {
     const order = Object.keys(labels[facet]);
     const rankA = Object.hasOwn(labels[facet], a) ? order.indexOf(a) : order.length;
     const rankB = Object.hasOwn(labels[facet], b) ? order.indexOf(b) : order.length;
     if (rankA !== rankB) return rankA - rankB;
   }
-  return sortLabels.compare(labelFor(facet, a), labelFor(facet, b));
+  return compare(labelFor(facet, a), labelFor(facet, b));
 }
 
 export function mountCatalog({ root, readings, onSelect }) {
@@ -94,15 +93,21 @@ export function mountCatalog({ root, readings, onSelect }) {
   let limit = pageSize;
   let visibleIds;
 
-  for (const field of fields) {
-    const facet = field.dataset.facet;
-    const options = [...new Set(catalog.flatMap((item) => item.facets[facet]))];
-    options.sort((a, b) => sortFacet(facet, a, b));
-    for (const value of options) field.add(new Option(labelFor(facet, value), value));
-    field.addEventListener('change', refresh);
+  function updateOptions() {
+    const { compare } = new Intl.Collator(language(), { numeric: true });
+    for (const field of fields) {
+      const facet = field.dataset.facet;
+      const selected = field.value;
+      const options = [...new Set(catalog.flatMap(item => item.facets[facet]))];
+      options.sort((a, b) => sortFacet(facet, a, b, compare));
+      field.replaceChildren(field.options[0], ...options.map(value => new Option(labelFor(facet, value), value)));
+      field.value = selected;
+    }
+    syncSelects(root);
   }
+  for (const field of fields) field.addEventListener('change', refresh);
 
-  function cardFor({ reading, count }) {
+  function cardFor({ reading, count }, words) {
     const card = template.content.firstElementChild.cloneNode(true);
     const art = card.querySelector('.card-art');
     const image = art.querySelector('img');
@@ -126,9 +131,10 @@ export function mountCatalog({ root, readings, onSelect }) {
     summary.lang = reading.language;
     difficulty.textContent = labelFor('difficulty', reading.difficulty);
     difficulty.dataset.difficulty = reading.difficulty;
-    card.querySelector('.card-words').textContent = `${words.format(count)} ${count === 1 ? 'paraula' : 'paraules'}`;
+    card.querySelector('.card-code').textContent = reading.code;
+    card.querySelector('.card-words').textContent = t(count === 1 ? '{count} paraula' : '{count} paraules', { count: words.format(count) });
     const countQuestions = reading.questions.length;
-    card.querySelector('.card-questions').textContent = `${countQuestions} ${countQuestions === 1 ? 'pregunta' : 'preguntes'}`;
+    card.querySelector('.card-questions').textContent = t(countQuestions === 1 ? '{count} pregunta' : '{count} preguntes', { count: words.format(countQuestions) });
     open.dataset.id = reading.id;
     open.firstElementChild.id = `reading-open-${reading.id}`;
     open.setAttribute('aria-labelledby', `${open.firstElementChild.id} ${title.id}`);
@@ -136,7 +142,8 @@ export function mountCatalog({ root, readings, onSelect }) {
     return card;
   }
 
-  function render({ append = false, animated = false } = {}) {
+  function render({ append = false, animated = false, translated = false } = {}) {
+    const words = new Intl.NumberFormat(language());
     const facets = Object.fromEntries(fields.map((field) => [field.dataset.facet, field.value]));
     const activeCount = Object.values(facets).filter(Boolean).length;
     const matches = filterCatalog(catalog, { search: search.value, ...facets });
@@ -144,21 +151,21 @@ export function mountCatalog({ root, readings, onSelect }) {
     const showing = Math.min(limit, total);
     const visible = matches.slice(0, showing);
     const ids = visible.map(({ reading }) => reading.id).join(' ');
-    if (ids !== visibleIds) {
-      const cards = visible.slice(append ? grid.childElementCount : 0).map(cardFor);
+    if (translated || ids !== visibleIds) {
+      const cards = visible.slice(append ? grid.childElementCount : 0).map(item => cardFor(item, words));
       if (append) {
         grid.append(...cards);
         for (const card of cards) animateRefresh(card);
         cards[0]?.querySelector('button').focus();
       } else {
         grid.replaceChildren(...cards);
-        results.scrollTop = 0;
+        if (!translated) results.scrollTop = 0;
         if (animated) animateRefresh(total ? grid : emptyState);
       }
       visibleIds = ids;
     }
-    resultCount.textContent = total === 1 ? '1 lectura' : `${words.format(total)} lectures`;
-    if (showing < total) resultCount.textContent += ` · Se’n mostren ${words.format(showing)}`;
+    resultCount.textContent = total === 1 ? '1 lectura' : t('{count} lectures', { count: words.format(total) });
+    if (showing < total) resultCount.textContent += ` · ${t('Se’n mostren {count}', { count: words.format(showing) })}`;
     emptyState.hidden = total !== 0;
     more.hidden = showing === total;
     indicator.textContent = activeCount ? ` (${activeCount})` : '';
@@ -178,7 +185,7 @@ export function mountCatalog({ root, readings, onSelect }) {
     search.focus();
   }
 
-  reset.setAttribute('aria-label', 'Neteja la cerca i els filtres');
+  reset.setAttribute('aria-label', t('Neteja la cerca i els filtres'));
   search.addEventListener('input', refresh);
   reset.addEventListener('click', clear);
   root.querySelector('#empty-reset').addEventListener('click', clear);
@@ -192,7 +199,7 @@ export function mountCatalog({ root, readings, onSelect }) {
   }
   compact.addEventListener('change', resizeFilters);
   resizeFilters();
-  syncSelects(root);
+  updateOptions();
   more.addEventListener('click', () => {
     limit += pageSize;
     render({ append: true });
@@ -200,6 +207,11 @@ export function mountCatalog({ root, readings, onSelect }) {
   render();
 
   return {
+    translate() {
+      reset.setAttribute('aria-label', t('Neteja la cerca i els filtres'));
+      updateOptions();
+      render({ translated: true });
+    },
     focus(readingId) {
       const button = [...grid.querySelectorAll('button[data-id]')].find(({ dataset }) => dataset.id === readingId);
       (button ?? root.querySelector('#readings-title')).focus();

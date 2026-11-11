@@ -45,4 +45,20 @@
 .select-option[aria-selected="true"] { background: color-mix(in srgb, var(--accent) 13%, var(--surface)); color: var(--accent); font-weight: 650; }
 .select-option .ui-icon { width: 14px; height: 14px; }
 
+.action-menu {
+  min-width: 150px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--motion), display var(--motion) allow-discrete, overlay var(--motion) allow-discrete;
+}
+.action-menu:popover-open { opacity: 1; pointer-events: auto; }
+@starting-style { .action-menu:popover-open { opacity: 0; } }
+.action-menu button { display: flex; width: 100%; min-height: 34px; align-items: center; justify-content: space-between; gap: 12px; padding: 6px 9px; border: 0; border-radius: 5px; background: transparent; color: var(--ink); font: inherit; text-align: start; }
+.action-menu button:is(:hover, :focus-visible) { background: var(--hover); outline-offset: -2px; }
+.action-menu button[aria-checked="true"] { background: var(--hover); color: var(--green); font-weight: 650; }
+.action-menu button[aria-checked="false"] .menu-check { visibility: hidden; }
+.action-menu .ui-icon { width: 15px; height: 15px; }
+.menu-trigger .ui-icon:last-child { transition: transform var(--motion); }
+.menu-trigger[aria-expanded="true"] .ui-icon:last-child { transform: rotate(180deg); }
+
 @media (pointer: coarse) { .select-option { min-height: 36px; } }

@@ -1,6 +1,7 @@
 import { animateRefresh, closeDialog, openDialog, setDisclosure } from './motion.js';
 import { defaultTemplate, listTemplates, moveTemplate, removeTemplate, saveTemplate, templateGroups, templateKey, templateOrderKey, templateSettings } from './worksheet-templates.js';
 import { icon } from './icons.js';
+import { language, t } from './i18n.js';
 
 export const templateLibraryMarkup = `
   <dialog class="site-dialog template-dialog" id="template-dialog" aria-labelledby="template-library-title">
@@ -46,18 +47,18 @@ export const templateLibraryMarkup = `
     </div>
   </dialog>`;
 
-const fold = value => value.toLocaleLowerCase('ca').normalize('NFD').replace(/\p{M}/gu, '');
+const fold = value => value.toLocaleLowerCase(language()).normalize('NFD').replace(/\p{M}/gu, '');
 const fonts = { serif: 'Georgia', sans: 'Arial', mono: 'Courier New' };
-const formatNumber = new Intl.NumberFormat('ca');
+const templateName = entry => entry.builtin ? t(entry.name) : entry.name;
 
 function describe(entry) {
   const { text, margins, answers, header, footer, images } = entry.format;
-  const font = text && `${fonts[text.font]} · ${text.fontSize} pt · ${formatNumber.format(text.leading / 2)}×`;
+  const font = text && `${fonts[text.font]} · ${text.fontSize} pt · ${new Intl.NumberFormat(language()).format(text.leading / 2)}×`;
   if (entry.builtin) return font;
   return [
     font,
     margins && 'Marges', answers && 'Espai de resposta', header && 'Encapçalament', footer && 'Peu', images && 'Il·lustracions',
-  ].filter(Boolean).join(' / ');
+  ].filter(Boolean).map(label => t(label)).join(' / ');
 }
 
 function makeRow(entry, index, last, filtered) {
@@ -67,14 +68,21 @@ function makeRow(entry, index, last, filtered) {
     ${entry.builtin || filtered ? '' : `<button class="button template-move" type="button" data-template-move="-1" ${index <= 1 ? 'disabled' : ''}>${icon('arrow-up')}</button><button class="button template-move" type="button" data-template-move="1" ${index === last ? 'disabled' : ''}>${icon('arrow-down')}</button>`}
     ${entry.builtin ? '' : '<button class="button" type="button" data-template-edit>Edita</button>'}
     <button class="button" type="button" data-template-apply>Aplica</button></div>`;
-  row.querySelector('strong').textContent = entry.name;
-  row.querySelector('p').textContent = entry.builtin ? `Plantilla per defecte · ${describe(entry)}` : describe(entry);
-  row.querySelector('[data-template-edit]')?.setAttribute('aria-label', `Edita ${entry.name}`);
-  row.querySelector('[data-template-apply]').setAttribute('aria-label', `Aplica ${entry.name}`);
-  for (const [offset, label] of [[-1, 'Puja'], [1, 'Baixa']]) {
+  const name = templateName(entry);
+  row.querySelector('strong').textContent = name;
+  row.querySelector('p').textContent = entry.builtin ? `${t('Plantilla per defecte')} · ${describe(entry)}` : describe(entry);
+  const edit = row.querySelector('[data-template-edit]');
+  if (edit) {
+    edit.textContent = t('Edita');
+    edit.setAttribute('aria-label', t('Edita {name}', { name }));
+  }
+  const apply = row.querySelector('[data-template-apply]');
+  apply.textContent = t('Aplica');
+  apply.setAttribute('aria-label', t('Aplica {name}', { name }));
+  for (const [offset, label] of [[-1, 'Puja {name}'], [1, 'Baixa {name}']]) {
     const button = row.querySelector(`[data-template-move="${offset}"]`);
     if (!button) continue;
-    button.title = `${label} ${entry.name}`;
+    button.title = t(label, { name });
     button.setAttribute('aria-label', button.title);
   }
   return row;
@@ -85,7 +93,7 @@ function makeChoice(entry) {
   row.dataset.template = entry.id;
   row.className = 'studio-template-choice';
   row.innerHTML = '<div class="studio-template-corner"></div><button type="button" aria-pressed="false"><strong></strong><small></small></button>';
-  row.querySelector('strong').textContent = entry.name;
+  row.querySelector('strong').textContent = templateName(entry);
   row.querySelector('small').textContent = describe(entry);
   return row;
 }
@@ -111,10 +119,10 @@ export function mountTemplateLibrary({ dialog, picker, getSettings, getThumbnail
 
   function render() {
     const query = fold(search.value.trim());
-    const shown = entries.filter(entry => fold(entry.name).includes(query));
+    const shown = entries.filter(entry => fold(templateName(entry)).includes(query));
     list.replaceChildren(...shown.map((entry, index) => makeRow(entry, index, shown.length - 1, Boolean(query))));
     empty.hidden = shown.length > 0;
-    empty.textContent = 'No hi ha cap plantilla que coincideixi amb la cerca.';
+    empty.textContent = t('No hi ha cap plantilla que coincideixi amb la cerca.');
   }
 
   function syncPicker() {
@@ -131,14 +139,14 @@ export function mountTemplateLibrary({ dialog, picker, getSettings, getThumbnail
 
   function apply(entry) {
     appliedId = entry.id;
-    onApply(templateSettings(entry), entry.name);
+    onApply(templateSettings(entry), templateName(entry));
   }
 
   function reload() {
     try {
       entries = [defaultTemplate, ...listTemplates(window.localStorage)];
     } catch {
-      message.textContent = 'Aquest navegador no ha permès accedir a les plantilles desades.';
+      message.textContent = t('Aquest navegador no ha permès accedir a les plantilles desades.');
     }
     choices.replaceChildren(...entries.map(makeChoice));
     if (summary.getAttribute('aria-expanded') === 'true') syncPicker();
@@ -153,7 +161,7 @@ export function mountTemplateLibrary({ dialog, picker, getSettings, getThumbnail
     for (const [index, field] of checkboxes.entries()) {
       field.checked = entry ? Object.hasOwn(entry.format, field.value) : Boolean(templateGroups[index].selected);
     }
-    find('#template-editor-title').textContent = entry ? 'Edita la plantilla' : 'Nova plantilla';
+    find('#template-editor-title').textContent = t(entry ? 'Edita la plantilla' : 'Nova plantilla');
     find('#template-recapture').hidden = !entry;
     find('#template-delete').hidden = !entry;
     confirmation.hidden = true;
@@ -176,11 +184,11 @@ export function mountTemplateLibrary({ dialog, picker, getSettings, getThumbnail
         settings: getSettings(), previous: editing, recapture: form.elements.recapture.checked,
       });
     } catch (failure) {
-      error.textContent = failure instanceof DOMException ? 'El navegador no ha pogut desar la plantilla.' : failure.message;
+      error.textContent = failure instanceof DOMException ? t('El navegador no ha pogut desar la plantilla.') : failure.message;
       return;
     }
     reload();
-    message.textContent = `Plantilla «${name.value.trim()}» desada.`;
+    message.textContent = t('Plantilla «{name}» desada.', { name: name.value.trim() });
     finishEdit();
     animateRefresh(list);
   }
@@ -197,10 +205,10 @@ export function mountTemplateLibrary({ dialog, picker, getSettings, getThumbnail
         reload();
         const row = list.querySelector(`[data-template="${CSS.escape(id)}"]`);
         (row?.querySelector(`[data-template-move="${action.dataset.templateMove}"]:enabled`) ?? row?.querySelector('[data-template-edit]'))?.focus();
-        message.textContent = `S’ha mogut «${entry.name}».`;
+        message.textContent = t('S’ha mogut «{name}».', { name: entry.name });
         animateRefresh(list);
       } catch {
-        message.textContent = 'No s’ha pogut desar l’ordre de les plantilles.';
+        message.textContent = t('No s’ha pogut desar l’ordre de les plantilles.');
       }
     }
     else {
@@ -232,11 +240,11 @@ export function mountTemplateLibrary({ dialog, picker, getSettings, getThumbnail
     try {
       removeTemplate(window.localStorage, editing);
     } catch (failure) {
-      error.textContent = failure instanceof DOMException ? 'El navegador no ha pogut suprimir la plantilla.' : failure.message;
+      error.textContent = failure instanceof DOMException ? t('El navegador no ha pogut suprimir la plantilla.') : failure.message;
       return;
     }
     reload();
-    message.textContent = `Plantilla «${name}» suprimida.`;
+    message.textContent = t('Plantilla «{name}» suprimida.', { name });
     finishEdit();
     animateRefresh(empty.hidden ? list : empty);
   });
@@ -246,6 +254,7 @@ export function mountTemplateLibrary({ dialog, picker, getSettings, getThumbnail
   reload();
 
   return {
+    translate() { reload(); },
     syncPicker() {
       if (summary.getAttribute('aria-expanded') === 'true') syncPicker();
     },

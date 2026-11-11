@@ -1,0 +1,235 @@
+export const es = Object.fromEntries(`
+Catàleg de comprensions lectores amb preguntes i fitxes imprimibles que pots adaptar al teu grup.|Catálogo de comprensiones lectoras con preguntas y fichas imprimibles que puedes adaptar a tu grupo.
+Trama · Comprensió lectora|Trama · Comprensión lectora
+Ves al contingut|Ir al contenido
+Trama, catàleg de lectures|Trama, catálogo de lecturas
+Lectures a punt. Fitxes a mida.|Lecturas listas. Fichas a medida.
+Idioma de la interfície|Idioma de la interfaz
+Activa el tema fosc|Activar el tema oscuro
+Activa el tema clar|Activar el tema claro
+Catàleg de lectures|Catálogo de lecturas
+Cerca al catàleg|Buscar en el catálogo
+Cerca per títol, codi o tema|Buscar por título, código o tema
+Filtres del catàleg|Filtros del catálogo
+Filtres|Filtros
+Neteja|Limpiar
+Neteja la cerca i els filtres|Limpiar la búsqueda y los filtros
+Llengua|Idioma de la lectura
+Nivell|Nivel
+Dificultat|Dificultad
+Extensió (paraules)|Extensión (palabras)
+Temàtica|Temática
+Tipus de pregunta|Tipo de pregunta
+Tipus de text|Tipo de texto
+Totes|Todas
+Tots|Todos
+Lectures del catàleg|Lecturas del catálogo
+No hem trobat cap lectura|No se ha encontrado ninguna lectura
+Prova una altra cerca o canvia els filtres.|Prueba otra búsqueda o cambia los filtros.
+Mostra tot el catàleg|Mostrar todo el catálogo
+Mostra més lectures|Mostrar más lecturas
+Activa JavaScript per cercar lectures i preparar les fitxes.|Activa JavaScript para buscar lecturas y preparar las fichas.
+Estudi d’impressió|Estudio de impresión
+Prepara la fitxa|Preparar la ficha
+{count} lectures|{count} lecturas
+Se’n mostren {count}|Se muestran {count}
+{count} paraula|{count} palabra
+{count} paraules|{count} palabras
+{count} pregunta|{count} pregunta
+{count} preguntes|{count} preguntas
+Castellà|Español
+Català|Catalán
+1r de primària|1.º de primaria
+2n de primària|2.º de primaria
+3r de primària|3.º de primaria
+4t de primària|4.º de primaria
+5è de primària|5.º de primaria
+6è de primària|6.º de primaria
+1r d’ESO|1.º de ESO
+2n d’ESO|2.º de ESO
+3r d’ESO|3.º de ESO
+4t d’ESO|4.º de ESO
+1r de batxillerat|1.º de bachillerato
+2n de batxillerat|2.º de bachillerato
+Intermèdia|Intermedia
+Avançada|Avanzada
+Curta (<181)|Corta (<181)
+Mitjana (181–280)|Media (181–280)
+Llarga (>280)|Larga (>280)
+Natura|Naturaleza
+Comunitat|Comunidad
+Aventures|Aventuras
+Ciència|Ciencia
+Art i cultura|Arte y cultura
+Vida quotidiana|Vida cotidiana
+Inferència|Inferencia
+Opinió|Opinión
+Vocabulari|Vocabulario
+Estructura del text|Estructura del texto
+Narració|Narración
+Divulgació|Divulgación
+Text instructiu|Texto instructivo
+Entrevista|Entrevista
+Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
+Un projecte d’|Un proyecto de
+v1.6 · Obre l’historial de canvis|v1.6 · Abrir el historial de cambios
+V4V · Sobre el projecte|V4V · Sobre el proyecto
+Un petit espai per aprendre|Un pequeño espacio para aprender
+Tanca la informació del projecte|Cerrar la información del proyecto
+Obre la cartera Lightning|Abrir la cartera Lightning
+Codi QR per fer una aportació voluntària amb Lightning|Código QR para hacer una aportación voluntaria con Lightning
+Trama neix d’una necessitat senzilla: trobar una lectura i preparar una fitxa adequada per al grup. Tria una lectura del catàleg, escull les preguntes i adapta la fitxa abans d’imprimir-la.|Trama nace de una necesidad sencilla: encontrar una lectura y preparar una ficha adecuada para el grupo. Elige una lectura del catálogo, selecciona las preguntas y adapta la ficha antes de imprimirla.
+El projecte és gratuït i segueix la filosofia Value for Value: si et resulta útil i vols donar-hi suport, pots fer un microdonatiu voluntari per Lightning. Recomanar-lo també ajuda.|El proyecto es gratuito y sigue la filosofía Value for Value. Si te resulta útil y quieres apoyarlo, puedes hacer una pequeña donación voluntaria por Lightning. Recomendarlo también ayuda.
+Copia l’adreça Lightning|Copiar la dirección Lightning
+Adreça Lightning copiada.|Dirección Lightning copiada.
+Adreça seleccionada. Copia-la amb Ctrl+C o ⌘C.|Dirección seleccionada. Cópiala con Ctrl+C o ⌘C.
+Sobre l’autor · Aarón Fortuño|Sobre el autor · Aarón Fortuño
+Soc docent i creo aplicacions educatives i altres projectes de codi obert. Si tens curiositat, els trobaràs al meu portfoli.|Soy docente y creo aplicaciones educativas y otros proyectos de código abierto. Si tienes curiosidad, los encontrarás en mi portafolio.
+Explora el meu portfoli ↗|Explorar mi portafolio ↗
+Codi, llicència i crèdits|Código, licencia y créditos
+Repositori de Trama ↗|Repositorio de Trama ↗
+Llicència MIT del codi ↗|Licencia MIT del código ↗
+Icones de|Iconos de
+PDF amb|PDF con
+Fotografia i QR reutilitzats de|Fotografía y QR reutilizados de
+Historial de versions|Historial de versiones
+Changelog complet ↗|Historial completo ↗
+Tanca l’historial|Cerrar el historial
+Interfície en català i castellà. Cerca pel codi de lectura, solucionari al full i menú d’impressió i descàrrega de PDF.|Interfaz en catalán y español. Búsqueda por código de lectura, solucionario en la ficha y menú de impresión y descarga de PDF.
+Visor amb capçalera compacta, zoom flotant i impressió a mà. Plantilles amb miniatures i ordre personalitzable. Nous valors per a la pauta de resposta i crèdits al V4V.|Visor con cabecera compacta, zoom flotante e impresión a mano. Plantillas con miniaturas y orden personalizable. Nuevos valores para la pauta de respuesta y créditos en V4V.
+Visor més ample, amb el format a l’esquerra i el contingut a la dreta. Codis curts de lectura i preguntes, i preferència de tema desada al navegador.|Visor más ancho, con el formato a la izquierda y el contenido a la derecha. Códigos breves de lectura y preguntas, y preferencia de tema guardada en el navegador.
+El catàleg aprofita l’amplada de la finestra i passa de quatre a tres, dues o una columna segons la pantalla.|El catálogo aprovecha el ancho de la ventana y pasa de cuatro a tres, dos o una columna según la pantalla.
+Codis llegibles a totes les pàgines, encapçalament i peu configurables i controls d’espai de resposta directament a la previsualització.|Códigos legibles en todas las páginas, cabecera y pie configurables y controles de espacio de respuesta directamente en la vista previa.
+Catàleg de quatre columnes en pantalles amples i menús més compactes. Nous marges de la fitxa i plantilles de format editables desades al navegador.|Catálogo de cuatro columnas en pantallas anchas y menús más compactos. Nuevos márgenes de la ficha y plantillas de formato editables guardadas en el navegador.
+Catàleg més directe, amb capçalera i peu fixos. Ajustos i previsualització amb desplaçament propi, zoom del full i un nou espai per al projecte i l’historial.|Catálogo más directo, con cabecera y pie fijos. Ajustes y vista previa con desplazamiento propio, zoom de la ficha y un nuevo espacio para el proyecto y el historial.
+Primera versió amb quatre lectures il·lustrades en castellà per a 5è de primària i un editor de fitxes imprimibles amb codi de recuperació.|Primera versión con cuatro lecturas ilustradas en español para 5.º de primaria y un editor de fichas imprimibles con código de recuperación.
+Torna al catàleg|Volver al catálogo
+Altres versions|Otras versiones
+Pregunta amagada.|Pregunta oculta.
+Desfés|Deshacer
+Pàgines de la fitxa|Páginas de la ficha
+Zoom de la previsualització|Zoom de la vista previa
+Redueix el zoom|Reducir el zoom
+Amplia el zoom|Ampliar el zoom
+Ajusta a l’amplada|Ajustar al ancho
+Nivell de zoom|Nivel de zoom
+Format del full|Formato de la ficha
+Restableix tots els ajustos de la fitxa|Restablecer todos los ajustes de la ficha
+Restableix|Restablecer
+Plantilles|Plantillas
+Tria una plantilla|Elegir una plantilla
+Gestiona les plantilles|Gestionar las plantillas
+Text i tipografia|Texto y tipografía
+Tipografia|Tipografía
+Georgia · amb serifa|Georgia · con serifa
+Arial · sense serifa|Arial · sin serifa
+Courier New · monoespaiada|Courier New · monoespaciada
+Cos de lletra|Tamaño de letra
+Interlineat|Interlineado
+Espai entre paràgrafs|Espacio entre párrafos
+Marges del full|Márgenes de la ficha
+Marges|Márgenes
+Dret|Derecho
+Esquerre|Izquierdo
+Encapçalament|Cabecera
+Camp de nom|Campo de nombre
+Camp de data|Campo de fecha
+Camp de curs|Campo de curso
+Etiqueta de comprensió lectora|Etiqueta de comprensión lectora
+Text personalitzat|Texto personalizado
+Títol de l’encapçalament|Título de la cabecera
+Nom de l’escola o de l’activitat|Nombre del centro o de la actividad
+Segona línia|Segunda línea
+Grup, unitat o instruccions breus|Grupo, unidad o instrucciones breves
+Peu de pàgina|Pie de página
+Peu|Pie
+Origen de la fitxa · trama.ortogra.fi|Origen de la ficha · trama.ortogra.fi
+Número de pàgina|Número de página
+Contingut|Contenido
+Mostra el solucionari|Mostrar el solucionario
+Solucionari|Solucionario
+solucionari|solucionario
+Preguntes|Preguntas
+Espai de resposta|Espacio de respuesta
+Pauta de resposta|Pauta de respuesta
+En blanc|En blanco
+Línies|Líneas
+Punts|Puntos
+Quadrícula|Cuadrícula
+Espai per defecte|Espacio predeterminado
+Segons la pregunta|Según la pregunta
+Cap espai|Sin espacio
+1 línia|1 línea
+2 línies|2 líneas
+3 línies|3 líneas
+4 línies|4 líneas
+5 línies|5 líneas
+6 línies|6 líneas
+7 línies|7 líneas
+8 línies|8 líneas
+Espai entre preguntes|Espacio entre preguntas
+L’espai indicat se suma a la separació entre paràgrafs.|El espacio indicado se suma a la separación entre párrafos.
+Alçada de cada línia|Altura de cada línea
+Gruix de la pauta|Grosor de la pauta
+Il·lustracions|Ilustraciones
+Inclou il·lustracions|Incluir ilustraciones
+Imatge {number}|Imagen {number}
+Mostra-la|Mostrarla
+Amplada|Ancho
+Posició|Posición
+Esquerra|Izquierda
+Centre|Centro
+Dreta|Derecha
+Text al voltant|Texto alrededor
+Imprimeix|Imprimir
+Opcions d’impressió i PDF|Opciones de impresión y PDF
+Descarrega el PDF|Descargar el PDF
+Imprimeix el solucionari|Imprimir el solucionario
+Descarrega el solucionari en PDF|Descargar el solucionario en PDF
+No s’ha pogut preparar el document. Torna-ho a provar.|No se ha podido preparar el documento. Inténtalo de nuevo.
+Espai de resposta de la pregunta {number}|Espacio de respuesta de la pregunta {number}
+Línies de resposta|Líneas de respuesta
+Opcions de la pregunta {number}|Opciones de la pregunta {number}
+Redueix l’espai de resposta de la pregunta {number}|Reducir el espacio de respuesta de la pregunta {number}
+Amplia l’espai de resposta de la pregunta {number}|Ampliar el espacio de respuesta de la pregunta {number}
+Amaga la pregunta {number}|Ocultar la pregunta {number}
+Plantilles de format|Plantillas de formato
+Tanca les plantilles|Cerrar las plantillas
+Desa un format al navegador i aplica’l a qualsevol lectura.|Guarda un formato en el navegador y aplícalo a cualquier lectura.
+Plantilles desades|Plantillas guardadas
+Cerca plantilles|Buscar plantillas
+Nova plantilla|Nueva plantilla
+Nom de la plantilla|Nombre de la plantilla
+Blocs de format|Bloques de formato
+Visibilitat d’il·lustracions|Visibilidad de las ilustraciones
+Actualitza els valors amb els ajustos actuals de la fitxa|Actualizar los valores con los ajustes actuales de la ficha
+Desa la plantilla|Guardar la plantilla
+Cancel·la|Cancelar
+Suprimeix|Eliminar
+Vols suprimir aquesta plantilla del navegador?|¿Quieres eliminar esta plantilla del navegador?
+Sí, suprimeix-la|Sí, eliminar
+Conserva-la|Conservar
+Clàssica|Clásica
+Plantilla per defecte|Plantilla predeterminada
+Edita|Editar
+Aplica|Aplicar
+Edita {name}|Editar {name}
+Aplica {name}|Aplicar {name}
+Puja {name}|Subir {name}
+Baixa {name}|Bajar {name}
+No hi ha cap plantilla que coincideixi amb la cerca.|Ninguna plantilla coincide con la búsqueda.
+Aquest navegador no ha permès accedir a les plantilles desades.|Este navegador no ha permitido acceder a las plantillas guardadas.
+Edita la plantilla|Editar la plantilla
+El navegador no ha pogut desar la plantilla.|El navegador no ha podido guardar la plantilla.
+Plantilla «{name}» aplicada.|Plantilla «{name}» aplicada.
+Plantilla «{name}» desada.|Plantilla «{name}» guardada.
+S’ha mogut «{name}».|Se ha movido «{name}».
+No s’ha pogut desar l’ordre de les plantilles.|No se ha podido guardar el orden de las plantillas.
+El navegador no ha pogut suprimir la plantilla.|El navegador no ha podido eliminar la plantilla.
+Plantilla «{name}» suprimida.|Plantilla «{name}» eliminada.
+Aquesta plantilla ha canviat en una altra pestanya. Torna-la a obrir abans de desar.|Esta plantilla ha cambiado en otra pestaña. Vuelve a abrirla antes de guardar.
+Escriu un nom de fins a 60 caràcters.|Escribe un nombre de hasta 60 caracteres.
+Ja tens una plantilla amb aquest nom.|Ya tienes una plantilla con ese nombre.
+Revisa els ajustos de «{group}» abans de desar.|Revisa los ajustes de «{group}» antes de guardar.
+Tria almenys un bloc de format.|Elige al menos un bloque de formato.
+`.trim().split('\n').map(line => line.split('|')));

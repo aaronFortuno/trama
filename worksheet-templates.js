@@ -1,4 +1,5 @@
 import { defaultSettings, formatVersion, legacyHeader, migrateAnswerFormat, validSetting } from './worksheet-code.js';
+import { t } from './i18n.js';
 
 export const templateKey = 'trama.template.v1:';
 export const templateOrderKey = 'trama.templates.order.v1';
@@ -7,7 +8,7 @@ export const templateGroups = [
   { id: 'margins', label: 'Marges del full', keys: ['marginTop', 'marginRight', 'marginBottom', 'marginLeft'], selected: true },
   { id: 'answers', label: 'Espai de resposta', keys: ['questionGap', 'answerLines', 'answerGap', 'answerStyle', 'answerWeight'], selected: true },
   { id: 'header', label: 'Encapçalament', keys: ['headerName', 'headerDate', 'headerGroup', 'headerLabel', 'headerCustom', 'headerTitle', 'headerDetail'] },
-  { id: 'footer', label: 'Peu de pàgina', keys: ['showCode', 'showOrigin', 'showPage'] },
+  { id: 'footer', label: 'Peu de pàgina', keys: ['showOrigin', 'showPage'] },
   { id: 'images', label: 'Visibilitat d’il·lustracions', keys: ['showImages'] },
 ];
 
@@ -61,24 +62,24 @@ export function listTemplates(storage) {
 
 function checkedKey(storage, previous) {
   const key = templateKey + previous.id;
-  if (storage.getItem(key) !== previous.raw) throw new Error('Aquesta plantilla ha canviat en una altra pestanya. Torna-la a obrir abans de desar.');
+  if (storage.getItem(key) !== previous.raw) throw new Error(t('Aquesta plantilla ha canviat en una altra pestanya. Torna-la a obrir abans de desar.'));
   return key;
 }
 
 export function saveTemplate(storage, { name, groups, settings, previous, recapture }) {
-  if (!name || name.length > 60) throw new Error('Escriu un nom de fins a 60 caràcters.');
+  if (!name || name.length > 60) throw new Error(t('Escriu un nom de fins a 60 caràcters.'));
   const others = listTemplates(storage).filter(entry => entry.id !== previous?.id);
-  if (others.some(entry => alphabetical.compare(entry.name, name) === 0)) throw new Error('Ja tens una plantilla amb aquest nom.');
+  if (others.some(entry => alphabetical.compare(entry.name, name) === 0)) throw new Error(t('Ja tens una plantilla amb aquest nom.'));
   const format = {};
   for (const group of templateGroups) {
     if (!groups.includes(group.id)) continue;
     const saved = previous?.format[group.id];
     format[group.id] = saved && !recapture ? saved : capture(group, settings);
     if (!Object.entries(format[group.id]).every(([key, value]) => validSetting(key, value))) {
-      throw new Error(`Revisa els ajustos de «${group.label}» abans de desar.`);
+      throw new Error(t('Revisa els ajustos de «{group}» abans de desar.', { group: t(group.label) }));
     }
   }
-  if (!Object.keys(format).length) throw new Error('Tria almenys un bloc de format.');
+  if (!Object.keys(format).length) throw new Error(t('Tria almenys un bloc de format.'));
   const key = previous ? checkedKey(storage, previous) : templateKey + crypto.randomUUID();
   storage.setItem(key, JSON.stringify({ version: formatVersion, name, format }));
 }

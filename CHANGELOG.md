@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.6 · 11 de novembre de 2026
+
+Interfície en català i castellà amb preferència desada al navegador. La cerca per codi identifica la lectura al catàleg. El solucionari apareix dins la fitxa, amb una resposta orientativa a cada pregunta inclosa. El menú d’impressió permet imprimir o descarregar la fitxa d’alumnat i el solucionari per separat.
+
 ## 1.5 · 11 de novembre de 2026
 
 Visor amb capçalera compacta, zoom flotant i impressió a mà. El lateral de format inclou la plantilla Clàssica i miniatures de la primera pàgina. Les plantilles desades es poden reordenar. La pauta de resposta té línies de 10 mm i traç de 0,15 mm per defecte. L’espai entre preguntes suma 2 mm a la separació entre paràgrafs, i aquest extra es pot ajustar. El V4V inclou els crèdits i la llicència MIT del codi.

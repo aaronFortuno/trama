@@ -1,8 +1,10 @@
 # Trama
 
-Catàleg de comprensions lectores imprimibles d’ortogra.fi. La primera col·lecció inclou quatre fitxes en castellà per a 5è de primària. La interfície és en català i les fitxes s’imprimeixen amb els rètols en l’idioma de la lectura quan hi ha una traducció disponible.
+Catàleg de comprensions lectores imprimibles d’ortogra.fi. La primera col·lecció inclou quatre fitxes en castellà per a 5è de primària. La interfície es pot fer servir en català i castellà. Les fitxes mostren els rètols en l’idioma de la lectura quan hi ha una traducció disponible.
 
 A la previsualització, mantén premut Ctrl i gira la roda del ratolí per fer zoom, o fes servir els botons del visor. El zoom de pantalla conserva les mides de la fitxa impresa.
+
+El commutador **Solucionari** mostra la resposta orientativa sota cada pregunta inclosa. **Imprimeix** obre la fitxa d’alumnat. La fletxa del costat ofereix la descàrrega directa en PDF i la impressió o descàrrega del solucionari. La descàrrega directa desa cada pàgina com una imatge d’alta resolució dins del PDF. Des del diàleg d’impressió del navegador es pot desar un PDF amb text seleccionable.
 
 Des de **Plantilles** pots aplicar la plantilla Clàssica (Georgia, 12 pt, interlineat 1×) o una plantilla desada. Les miniatures mostren la cantonada superior del full amb els ajustos de cada plantilla. A **Gestiona les plantilles** pots crear, editar i reordenar les teves plantilles. Cada plantilla pot incloure text i tipografia, marges, espai de resposta, encapçalament i peu o visibilitat de les il·lustracions. Aplica una plantilla, ajusta la fitxa i marca l’opció d’actualitzar els valors per incorporar-hi els canvis.
 
@@ -22,14 +24,12 @@ Les entrades es troben a `data/readings.js`. Els filtres es deriven de les dades
 - Desa les imatges a `assets/readings/` i indica el camí relatiu, les dimensions originals i el text alternatiu. `afterParagraph` indica quants paràgrafs s’han de mostrar abans de la imatge. El valor `0` la posa abans del primer.
 - Dona a cada pregunta un identificador estable, el tipus, l’enunciat, el nombre de línies suggerides i, opcionalment, una resposta orientativa.
 
-## Codis i privadesa
+## Cerca i privadesa
 
-Un codi com `L001-ES` identifica la lectura i l’idioma. `L001-ES-X1.3` recupera la mateixa lectura amb les preguntes 1 i 3 omeses. L’enllaç compartit també recupera el format i els ajustos individuals, inclòs el text personalitzat de l’encapçalament.
+Escriu un codi de lectura com `L001` al cercador del catàleg i, si cal, acota la cerca amb el filtre de llengua. Els enllaços de fitxa compartits en versions anteriors continuen obrint la lectura amb els seus ajustos. Conserva els codis i els identificadors de les lectures, preguntes i imatges quan ampliïs el catàleg.
 
-Escriu o enganxa el codi al catàleg, o obre un enllaç compartit amb `#fitxa=`. Es poden recuperar igualment els codis anteriors. Conserva els codis i els identificadors de les lectures, preguntes i imatges quan ampliïs el catàleg.
-
-Trama funciona al navegador. Els recursos se serveixen des del mateix web. El projecte no incorpora comptes, cookies ni analítica. Les plantilles i la preferència de tema es desen al navegador.
+Trama funciona al navegador. Els recursos se serveixen des del mateix web. El projecte no incorpora comptes, cookies ni analítica. Les plantilles i les preferències de tema i idioma es desen al navegador.
 
 ## Llicència i crèdits
 
-El codi de Trama es distribueix sota la [llicència MIT](LICENSE). Algunes icones de la interfície són de [Lucide](https://lucide.dev/) i es distribueixen amb els seus [avisos de llicència](assets/icons/LICENSE). La fotografia de l’autor i el QR del V4V provenen de [Plec](https://github.com/aaronFortuno/plec-dictats).
+El codi de Trama es distribueix sota la [llicència MIT](LICENSE). Algunes icones de la interfície són de [Lucide](https://lucide.dev/) i es distribueixen amb els seus [avisos de llicència](assets/icons/LICENSE). La descàrrega de PDF fa servir [pdf-lib](https://pdf-lib.js.org/), amb la seva [llicència MIT](assets/vendor/pdf-lib.LICENSE.md). La fotografia de l’autor i el QR del V4V provenen de [Plec](https://github.com/aaronFortuno/plec-dictats).

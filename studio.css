@@ -46,9 +46,13 @@
 }
 
 .studio-variants { display: inline-flex; align-items: center; gap: 6px; font-size: .74rem; }
-.studio-print { display: grid; padding: 8px 10px; border-top: 1px solid var(--line); background: var(--surface); }
+.studio-print { display: grid; gap: 6px; padding: 8px 10px; border-top: 1px solid var(--line); background: var(--surface); }
+.studio-print-buttons { display: grid; grid-template-columns: minmax(0, 1fr) auto; }
 .studio-print .button { min-height: 38px; }
 .studio-print .ui-icon { width: 17px; height: 17px; }
+.studio-print-buttons .button:first-child { border-radius: 7px 0 0 7px; }
+.studio-print-buttons .menu-trigger { padding-inline: 10px; border-radius: 0 7px 7px 0; border-inline-start-color: var(--paper); }
+#studio-export-status { max-width: 32ch; margin: 0; color: var(--accent); font-size: .75rem; }
 
 .studio-layout {
   display: grid;
@@ -76,6 +80,12 @@
 .studio-settings > .studio-panel-heading { gap: 6px; padding-inline: 12px; }
 .studio-panel-heading h2 { margin: 0; color: var(--green); font: 400 1.35rem/1.2 var(--serif); }
 .studio-settings .studio-panel-heading h2 { font-size: 1.18rem; }
+.studio-content > .studio-panel-heading { flex-wrap: wrap; gap: 2px 6px; padding-block: 5px; }
+.studio-solution-toggle { display: flex; min-height: 28px; align-items: center; gap: 6px; color: var(--muted); font-size: .73rem; white-space: nowrap; cursor: pointer; }
+.studio-solution-toggle input { position: relative; appearance: none; width: 28px; height: 16px; flex: none; margin: 0; border: 1px solid var(--muted); border-radius: 20px; background: var(--surface); color: var(--muted); cursor: pointer; transition: background-color var(--motion), border-color var(--motion); }
+.studio-solution-toggle input::after { position: absolute; inset: 2px auto 2px 2px; width: 10px; border-radius: 50%; background: currentColor; content: ''; transition: transform var(--motion); }
+.studio-solution-toggle input:checked { border-color: var(--green); background: var(--green); color: var(--on-green); }
+.studio-solution-toggle input:checked::after { transform: translateX(12px); }
 .studio-question-feedback { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; padding: 1px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--muted); font-size: .78rem; }
 .studio-preview-window { position: relative; display: grid; grid-template-rows: minmax(0, 1fr); min-height: 0; }
 .studio-zoom { position: absolute; z-index: 3; inset: auto 15px 11px auto; display: flex; gap: 4px; padding: 4px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface); box-shadow: 0 2px 8px #213a3429; }
@@ -83,14 +93,14 @@
 .studio-zoom .ui-icon { width: 17px; height: 17px; }
 .studio-form > details { border-top: 1px solid var(--line); }
 
-.studio-form summary, .studio-key summary {
+.studio-form summary {
   padding: 9px 16px;
   color: var(--ink);
   font: 600 .9rem/1.4 var(--sans);
   cursor: pointer;
 }
 
-.studio-form summary::marker, .studio-key summary::marker { color: var(--accent); }
+.studio-form summary::marker { color: var(--accent); }
 .studio-form summary { padding-block: 7px; font-size: .85rem; }
 .details-panel { display: flow-root; }
 .studio-form > details > .details-panel { max-height: var(--studio-panel-height, none); overflow: auto; overscroll-behavior: contain; scrollbar-gutter: stable; }
@@ -101,7 +111,7 @@
 .studio-controls p { margin: 0; color: var(--muted); font-size: .82rem; line-height: 1.45; }
 .studio-controls label { display: grid; gap: 4px; font-size: .81rem; }
 
-.studio-controls select, .studio-controls :is(input[type="text"], input[type="number"]), .studio-copy-fallback, .studio-variants select {
+.studio-controls select, .studio-controls :is(input[type="text"], input[type="number"]), .studio-variants select {
   width: 100%;
   min-width: 0;
   padding: 7px 9px;
@@ -134,10 +144,6 @@
 .studio-image { display: grid; gap: 10px; }
 .studio-image-title { display: flex; align-items: center; gap: 7px; font-size: .72rem; line-height: 1.3; }
 .studio-image-title img { flex: none; object-fit: cover; border-radius: 3px; }
-#studio-code { font: .77rem/1.5 ui-monospace, monospace; }
-.studio-copy-buttons { display: flex; flex-wrap: wrap; gap: 6px; }
-.studio-copy-buttons .button { min-height: 34px; padding: 5px 8px; font-size: .78rem; }
-.studio-copy-fallback { display: block; margin-top: 4px; }
 
 .studio-paper-stage {
   min-height: 0;
@@ -200,6 +206,7 @@
 .worksheet-field-name { flex: 2; }
 .worksheet-field-line { flex: 1; border-bottom: 0.25mm solid #5f6b63; }
 .worksheet-kind { margin: 0 0 1mm; color: #334e44; font: 700 8pt/1.3 Arial, sans-serif; letter-spacing: .12em; text-transform: uppercase; }
+.worksheet-solution-kind { color: #913b28; }
 .worksheet-title { margin: 0; color: #203f34; font: 700 calc(var(--sheet-font-size) * 1.75)/1.12 var(--sheet-font); }
 .worksheet-reading-code { color: #4d6158; font-size: 8pt; }
 .worksheet-passage { display: flow-root; padding-bottom: var(--sheet-paragraph-gap); }
@@ -215,6 +222,9 @@
 .worksheet-question { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 2mm; }
 .worksheet-prompt-wrap { position: relative; }
 .worksheet-prompt { margin: 0; }
+.worksheet-solution { margin-top: 1.5mm; padding: 0 0 0 2.5mm; border-inline-start: .35mm solid #ad614c; color: #593328; }
+.worksheet-solution strong { display: block; margin-bottom: .5mm; font: 700 8pt/1.3 Arial, sans-serif; }
+.worksheet-solution p { margin: 0; line-height: min(var(--sheet-leading), 1.65); }
 .worksheet-answer-line { height: var(--sheet-answer-gap); }
 .worksheet-page[data-answer-style="lines"] .worksheet-answer-line { border-bottom: var(--sheet-answer-weight) solid #a0aaa3; }
 .worksheet-page[data-answer-style="dots"] .worksheet-answer-line {
@@ -246,12 +256,8 @@
 .worksheet-footer:empty { padding: 0; }
 .worksheet-page-number { grid-column: 2; }
 .worksheet-origin { grid-column: 1; justify-self: start; color: #38584b; text-decoration: none; }
-.worksheet-code { grid-column: 1 / -1; }
-.worksheet-code code { color: #26382f; font: 7pt/1.15 'Courier New', monospace; overflow-wrap: anywhere; white-space: pre-wrap; }
 .worksheet-print-outlet { display: none; }
-.studio-key { margin-top: 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
-.studio-key ol { margin: 0 16px 16px; padding-left: 24px; font-size: .91rem; }
-.studio-key li + li { margin-top: 6px; }
+.worksheet-export-layout { position: fixed; top: 0; left: -10000px; width: 210mm; visibility: hidden; pointer-events: none; }
 
 @media (min-width: 960px) and (min-height: 480px) {
   .studio-settings { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; border-top: 0; border-radius: 0 0 10px 10px; overflow: hidden; }

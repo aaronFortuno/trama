@@ -7,23 +7,24 @@ let nextId = 0;
 const chevrons = '<svg class="ui-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="m7 8 3-3 3 3m-6 4 3 3 3-3"/></svg>';
 const check = '<svg class="ui-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="m4 10 4 4 8-8"/></svg>';
 
-function placeMenu(trigger, menu) {
+export function placeMenu(trigger, menu, align = 'start') {
   const anchor = trigger.getBoundingClientRect();
   const edge = 8;
   const gap = 4;
-  menu.style.minWidth = `${anchor.width}px`;
+  if (align === 'start') menu.style.minWidth = `${anchor.width}px`;
   const below = innerHeight - edge - anchor.bottom - gap;
   const above = anchor.top - gap - edge;
   const opensDown = menu.scrollHeight <= below || below >= above;
   menu.style.maxHeight = `${Math.max(0, Math.min(310, opensDown ? below : above))}px`;
   const { width, height } = menu.getBoundingClientRect();
-  menu.style.left = `${Math.max(edge, Math.min(anchor.left, innerWidth - width - edge))}px`;
+  const left = align === 'end' ? anchor.right - width : anchor.left;
+  menu.style.left = `${Math.max(edge, Math.min(left, innerWidth - width - edge))}px`;
   menu.style.top = `${opensDown ? anchor.bottom + gap : Math.max(edge, anchor.top - height - gap)}px`;
 }
 
 function enhance(select) {
   const label = select.labels[0];
-  const name = select.getAttribute('aria-label') || [...(label?.childNodes || [])]
+  const accessibleName = () => select.getAttribute('aria-label') || [...(label?.childNodes || [])]
     .filter(node => node.nodeType === Node.TEXT_NODE).map(node => node.textContent.trim()).filter(Boolean).join(' ');
   const trigger = document.createElement('div');
   const menu = document.createElement('div');
@@ -39,7 +40,6 @@ function enhance(select) {
   menu.className = 'select-menu';
   menu.id = id;
   menu.setAttribute('role', 'listbox');
-  menu.setAttribute('aria-label', name);
   menu.setAttribute('popover', 'manual');
   menu.inert = true;
   select.after(trigger, menu);
@@ -53,8 +53,10 @@ function enhance(select) {
   const expanded = () => trigger.getAttribute('aria-expanded') === 'true';
 
   function sync() {
+    const name = accessibleName();
     value.textContent = select.selectedOptions[0]?.label || '';
     trigger.setAttribute('aria-label', `${name}, ${value.textContent}`);
+    menu.setAttribute('aria-label', name);
     trigger.setAttribute('aria-disabled', String(select.disabled));
     trigger.tabIndex = select.disabled ? -1 : 0;
   }
@@ -164,9 +166,9 @@ function enhance(select) {
     } else if (key.length === 1 && !event.altKey) {
       if (!expanded() && !open()) return;
       event.preventDefault();
-      typed = (performance.now() - lastKey < 650 ? typed : '') + key.toLocaleLowerCase('ca');
+      typed = (performance.now() - lastKey < 650 ? typed : '') + key.toLocaleLowerCase();
       lastKey = performance.now();
-      highlight(options.findIndex(({ option }) => option.label.toLocaleLowerCase('ca').startsWith(typed)));
+      highlight(options.findIndex(({ option }) => option.label.toLocaleLowerCase().startsWith(typed)));
     }
   });
   select.addEventListener('input', sync);

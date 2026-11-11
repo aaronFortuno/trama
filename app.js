@@ -1,16 +1,18 @@
 import { mountCatalog } from './catalog.js';
 import { readings } from './data/readings.js';
 import { mountStudio } from './studio.js';
-import { animateRefresh, closeDialog, mountDialogs, openDialog } from './motion.js';
+import { animateRefresh, mountDialogs } from './motion.js';
 import { mountSelectMenus } from './select-menu.js';
+import { bindTranslations, language, setLanguage, t } from './i18n.js';
+import { mountActionMenu } from './action-menu.js';
 
 const main = document.querySelector('#contingut');
 const catalogView = document.querySelector('#catalog-view');
 const studioView = document.querySelector('#studio');
-const recovery = document.querySelector('#recovery-dialog');
-const recoveryInput = document.querySelector('#recovery-input');
-const recoveryStatus = document.querySelector('#recovery-status');
 const readingIds = new Set(readings.map(({ id }) => id));
+const translateStatic = bindTranslations(document.documentElement);
+const translateCard = bindTranslations(document.querySelector('#reading-card').content);
+document.documentElement.lang = language();
 let currentReadingId;
 
 const themeKey = 'trama.theme';
@@ -25,7 +27,7 @@ function savedTheme() {
 function applyTheme(theme) {
   const root = document.documentElement;
   root.dataset.theme = theme;
-  themeToggle.setAttribute('aria-label', theme === 'dark' ? 'Activa el tema clar' : 'Activa el tema fosc');
+  themeToggle.setAttribute('aria-label', t(theme === 'dark' ? 'Activa el tema clar' : 'Activa el tema fosc'));
   themeColor.content = getComputedStyle(root).getPropertyValue('--paper').trim();
 }
 
@@ -47,6 +49,25 @@ const studio = mountStudio({
 mountDialogs();
 mountSelectMenus();
 
+const languageMenu = document.querySelector('#language-menu');
+function markLanguage() {
+  for (const item of languageMenu.querySelectorAll('[data-option]')) {
+    item.setAttribute('aria-checked', String(item.dataset.option === language()));
+  }
+}
+markLanguage();
+mountActionMenu(document.querySelector('#language-button'), languageMenu, value => {
+  if (value === language()) return;
+  setLanguage(value);
+  translateStatic();
+  translateCard();
+  markLanguage();
+  applyTheme(document.documentElement.dataset.theme);
+  catalog.translate();
+  studio.translate();
+  lightningStatus.textContent = '';
+});
+
 function openReading(readingId) {
   const hash = `lectura=${encodeURIComponent(readingId)}`;
   if (location.hash.slice(1) === hash) studio.open(readingId);
@@ -59,7 +80,7 @@ function showStudio(reading) {
   catalogView.hidden = true;
   studioView.hidden = false;
   document.body.classList.add('is-studio');
-  if (!recovery.open) focusStudio();
+  focusStudio();
   if (wasInCatalog) animateRefresh(studioView);
 }
 
@@ -71,6 +92,7 @@ function focusStudio() {
 
 function showCatalog() {
   const wasInStudio = !studioView.hidden;
+  studio.dismissMenu();
   studioView.querySelector('dialog[open]')?.close();
   catalogView.hidden = false;
   studioView.hidden = true;
@@ -92,66 +114,16 @@ function goToCatalog() {
   showCatalog();
 }
 
-function recoverCodeFrom(value) {
-  const trimmed = value.trim();
-  if (!trimmed.startsWith('#fitxa=') && !/^https?:\/\//i.test(trimmed)) return trimmed;
-  const hashIndex = trimmed.indexOf('#fitxa=');
-  if (hashIndex < 0) return trimmed;
-  return new URLSearchParams(trimmed.slice(hashIndex + 1)).get('fitxa') ?? '';
-}
-
-function reportRecoveryError() {
-  recoveryInput.setAttribute('aria-invalid', 'true');
-  recoveryStatus.textContent = 'El codi és incorrecte o correspon a una lectura que no és al catàleg.';
-}
-
-function clearRecoveryError() {
-  recoveryInput.removeAttribute('aria-invalid');
-  recoveryStatus.textContent = '';
-}
-
-function openRecovery(value = '') {
-  clearRecoveryError();
-  recoveryInput.value = value;
-  if (!recovery.open) openDialog(recovery);
-  recoveryInput.focus();
-}
-
 function route() {
   const params = new URLSearchParams(location.hash.slice(1));
   if (params.has('fitxa')) {
-    const code = params.get('fitxa');
-    if (!studio.restore(code)) {
-      showCatalog();
-      openRecovery(code);
-      reportRecoveryError();
-    }
+    if (!studio.restore(params.get('fitxa'))) showCatalog();
     return;
   }
   const readingId = params.get('lectura');
   if (readingIds.has(readingId)) studio.open(readingId);
   else showCatalog();
 }
-
-document.querySelector('#open-recovery').addEventListener('click', () => openRecovery());
-recoveryInput.addEventListener('input', clearRecoveryError);
-recoveryInput.addEventListener('keydown', event => {
-  if (event.key === 'Enter' && !event.shiftKey && !event.isComposing) {
-    event.preventDefault();
-    recoveryInput.form.requestSubmit();
-  }
-});
-document.querySelector('#recovery-form').addEventListener('submit', (event) => {
-  event.preventDefault();
-  const code = recoverCodeFrom(recoveryInput.value);
-  if (!code || !studio.restore(code)) {
-    reportRecoveryError();
-    recoveryInput.focus();
-    return;
-  }
-  setRoute(`fitxa=${encodeURIComponent(code)}`);
-  closeDialog(recovery, focusStudio);
-});
 
 document.querySelector('#home-link').addEventListener('click', (event) => {
   if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
@@ -175,7 +147,7 @@ copyLightning.addEventListener('click', async () => {
   try {
     await navigator.clipboard.writeText(lightningAddress.textContent.trim());
     copyLightning.classList.add('is-copied');
-    lightningStatus.textContent = 'Adreça Lightning copiada.';
+    lightningStatus.textContent = t('Adreça Lightning copiada.');
     lightningTimer = setTimeout(() => {
       copyLightning.classList.remove('is-copied');
       lightningStatus.textContent = '';
@@ -187,7 +159,7 @@ copyLightning.addEventListener('click', async () => {
     const selection = window.getSelection();
     selection.removeAllRanges();
     selection.addRange(range);
-    lightningStatus.textContent = 'Adreça seleccionada. Copia-la amb Ctrl+C o ⌘C.';
+    lightningStatus.textContent = t('Adreça seleccionada. Copia-la amb Ctrl+C o ⌘C.');
   }
 });
 
