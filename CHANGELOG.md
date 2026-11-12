@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.12.2 · 12 de novembre de 2026
+
+L’Umami propi d’ortogra.fi compta les visites i les obertures de fitxes des del catàleg sense recollir-ne el contingut.
+
 ## 1.12.1 · 11 de novembre de 2026
 
 El catàleg es barreja en carregar la pàgina i manté el mateix ordre mentre es navega.

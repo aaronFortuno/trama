@@ -62,6 +62,8 @@ Fonts de la sèrie L017–L020. [Relat de Cleomedes sobre Eratòstenes](https://
 
 ## Cerca i privadesa
 
+Al domini públic, la instància pròpia d’Umami d’ortogra.fi compta visites i obertures de lectura des del catàleg (`obre_lectura`). No s’envien títols, codis, continguts de lectura, respostes ni el fragment dels enllaços compartits. El seguiment respecta Do Not Track i Global Privacy Control i no s’activa en local.
+
 Escriu un codi de lectura com `L001` al cercador del catàleg i, si cal, acota la cerca amb el filtre de llengua. Els enllaços de fitxa compartits en versions anteriors continuen obrint la lectura amb els seus ajustos. Conserva els codis i els identificadors de les lectures, preguntes i imatges quan ampliïs el catàleg.
 
 Trama funciona al navegador. Els recursos se serveixen des del mateix web. El projecte no incorpora comptes, cookies ni analítica. Les lectures importades, les plantilles i les preferències de tema i idioma es desen al navegador.

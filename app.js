@@ -5,6 +5,7 @@ import { animateRefresh, closeDialog, mountDialogs, mountDisclosures } from './m
 import { mountSelectMenus, syncSelects } from './select-menu.js';
 import { bindTranslations, language, setLanguage, t } from './i18n.js';
 import { mountActionMenu } from './action-menu.js';
+import { startAnalytics, trackReadingOpened } from './analytics.js';
 import { downloadReading, downloadReadingExample, importReading, listPersonalReadings, readingExample, readingStorageKey, saveReading } from './reading-files.js';
 
 const main = document.querySelector('#contingut');
@@ -42,7 +43,11 @@ themeToggle.addEventListener('click', () => {
   try { localStorage.setItem(themeKey, theme); } catch { /* The current page can still use either theme. */ }
 });
 
-const catalog = mountCatalog({ root: catalogView, readings, onSelect: openReading });
+startAnalytics();
+const catalog = mountCatalog({ root: catalogView, readings, onSelect: readingId => {
+  openReading(readingId);
+  trackReadingOpened();
+} });
 const studio = mountStudio({
   root: studioView,
   readings,

@@ -101,7 +101,9 @@ Text instructiu|Texto instructivo
 Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
-v1.12.1 · Obre l’historial de canvis|v1.12.1 · Abrir el historial de cambios
+v1.12.2 · Obre l’historial de canvis|v1.12.2 · Abrir el historial de cambios
+12 de novembre de 2026|12 de noviembre de 2026
+L’Umami propi d’ortogra.fi compta les visites i les obertures de fitxes des del catàleg.|La instancia propia de Umami de ortogra.fi cuenta las visitas y las aperturas de fichas desde el catálogo.
 V4V · Sobre el projecte|V4V · Sobre el proyecto
 Un petit espai per aprendre|Un pequeño espacio para aprender
 Tanca la informació del projecte|Cerrar la información del proyecto
