@@ -1118,4 +1118,75 @@ export const readings4Es = [
       }
     ]
   },
+  {
+    "id": "una-respuesta-para-el-canal-es",
+    "code": "L037",
+    "workId": "una-respuesta-para-el-canal",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "nature",
+      "community"
+    ],
+    "genre": "letter",
+    "title": "Una respuesta para el canal",
+    "summary": "Un grupo escribe al ayuntamiento para proponer un cambio y comparte lo que ha podido observar durante sus paseos.",
+    "paragraphs": [
+      "Al equipo que cuida el paseo del canal:",
+      "Somos la clase de cuarto de la escuela del Puente. Dos veces hemos ido a dibujar el canal. En las dos visitas encontramos envoltorios en el suelo cerca de las mesas donde merienda la gente. La papelera más próxima está al principio del paseo, al otro lado del puente.",
+      "No sabemos quién dejó los envoltorios. El segundo día hacía viento y vimos cómo un papel rodaba por el camino hasta quedarse enganchado en una rama. Por eso creemos que conviene colocar una papelera con tapa junto a las mesas. Así sería más fácil usarla y habría menos posibilidades de que el viento se llevara el papel.",
+      "Antes de decidir el sitio, nos gustaría volver con alguien de vuestro equipo. Hay un tramo donde pasan sillas de ruedas y carritos. Podemos buscar un lugar cerca de las mesas que deje ese paso libre. También podemos preparar un dibujo que recuerde a los visitantes dónde tirar los envoltorios.",
+      "Si probáis la idea, podríamos contar los envoltorios justo antes de que coloquéis la papelera y volver a contarlos al cabo de un mes. En cada visita apuntaríamos en una tabla la fecha y cuántos encontramos cerca de las mesas. Así podríamos comprobar si hay menos.",
+      "Gracias por leer nuestra propuesta.",
+      "La clase de cuarto"
+    ],
+    "images": [
+      {
+        "id": "una-respuesta-para-el-canal",
+        "src": "assets/readings/l037-una-respuesta-para-el-canal.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "El viento arrastra un envoltorio por el paseo del canal hacia una rama. Al fondo, dos niños dibujan.",
+        "afterParagraph": 3
+      }
+    ],
+    "questions": [
+      {
+        "id": "una-respuesta-para-el-canal-q1",
+        "type": "literal",
+        "prompt": "¿Dónde está la papelera más próxima a las mesas?",
+        "answer": "Al principio del paseo, al otro lado del puente.",
+        "lines": 2
+      },
+      {
+        "id": "una-respuesta-para-el-canal-q2",
+        "type": "inference",
+        "prompt": "¿Qué hecho observado apoya la idea de que la papelera tenga tapa?",
+        "answer": "Vieron cómo el viento arrastraba un papel por el camino hasta una rama. Una tapa ayudaría a que los papeles no salieran de la papelera.",
+        "lines": 3
+      },
+      {
+        "id": "una-respuesta-para-el-canal-q3",
+        "type": "structure",
+        "prompt": "¿Qué proponen comprobar en el párrafo que comienza «Si probáis la idea»?",
+        "answer": "Proponen volver dentro de un mes para contar los envoltorios del suelo y ver si hay menos.",
+        "lines": 2
+      },
+      {
+        "id": "una-respuesta-para-el-canal-q4",
+        "type": "inference",
+        "prompt": "¿Por qué buscan un lugar para la papelera que quede cerca de las mesas y deje espacio a su alrededor?",
+        "answer": "Quieren que resulte fácil usarla y que no estorbe a las sillas de ruedas ni a los carritos en el paseo.",
+        "lines": 3
+      },
+      {
+        "id": "una-respuesta-para-el-canal-q5",
+        "type": "opinion",
+        "prompt": "Si durante un mes no pudieran poner la papelera, ¿qué otra idea probarías para que hubiera menos envoltorios en el suelo? Explica cómo ayudaría.",
+        "answer": "Respuesta abierta. Por ejemplo, colocar un cartel que indique dónde está la papelera y pida llevar allí los envoltorios.",
+        "lines": 4
+      }
+    ]
+  },
 ];
