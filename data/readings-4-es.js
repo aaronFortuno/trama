@@ -693,4 +693,73 @@ export const readings4Es = [
       }
     ]
   },
+  {
+    "id": "un-mosaico-que-se-repite-es",
+    "code": "L031",
+    "workId": "un-mosaico-que-se-repite",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "arts",
+      "math"
+    ],
+    "genre": "instructional",
+    "title": "Un mosaico que se repite",
+    "summary": "Una cuadrícula y dos lápices bastan para crear un mosaico y comprobar si el dibujo sigue una regla.",
+    "paragraphs": [
+      "En algunos suelos, un dibujo pequeño se repite hasta cubrir toda la habitación. Puedes probar a hacer algo parecido en papel. Prepara una hoja cuadriculada, una regla y dos lápices de colores. Con la regla, dibuja un rectángulo que mida ocho cuadrados de ancho y seis de alto.",
+      "1. En la esquina superior izquierda, marca un bloque de dos cuadrados de ancho y dos de alto. Colorea de naranja el cuadrado de arriba a la izquierda y el de abajo a la derecha. Pinta de azul los otros dos. Ese será el bloque que vas a repetir.",
+      "2. Copia el bloque justo a su derecha, sin dejar ningún espacio ni girar el dibujo. Sigue copiándolo hasta llegar al borde. Cuando acabes esa fila de bloques, empieza otra debajo. Repite hasta llenar el rectángulo.",
+      "3. Para revisar el mosaico, fíjate en los cuadrados naranjas. Dentro de cada bloque deben tocarse por una esquina, pero nunca por un lado. Comprueba también que todos los bloques empiezan con un cuadrado naranja arriba a la izquierda.",
+      "Si algún bloque quedó girado, compara sus colores con los del primero. Corrige solo lo que haga falta. Puedes ampliar el mosaico añadiendo dos filas de cuadrados por debajo."
+    ],
+    "images": [
+      {
+        "id": "un-mosaico-que-se-repite",
+        "src": "assets/readings/l031-un-mosaico-que-se-repite.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Una mano colorea una casilla de una hoja cuadriculada. A su lado hay una regla y dos lápices de colores.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "un-mosaico-que-se-repite-q1",
+        "type": "literal",
+        "prompt": "¿Qué medidas tiene el rectángulo en el que se hace el mosaico?",
+        "answer": "Ocho cuadrados de ancho y seis de alto.",
+        "lines": 2
+      },
+      {
+        "id": "un-mosaico-que-se-repite-q2",
+        "type": "vocabulary",
+        "prompt": "¿Qué llama «bloque» el texto?",
+        "answer": "El grupo de cuatro cuadrados que mide dos cuadrados de ancho y dos de alto.",
+        "lines": 2
+      },
+      {
+        "id": "un-mosaico-que-se-repite-q3",
+        "type": "structure",
+        "prompt": "¿En qué paso se dan indicaciones para revisar que el mosaico esté bien hecho?",
+        "answer": "En el paso 3.",
+        "lines": 1
+      },
+      {
+        "id": "un-mosaico-que-se-repite-q4",
+        "type": "inference",
+        "prompt": "El rectángulo mide ocho cuadrados de ancho y cada bloque mide dos. ¿Cuántos bloques completos caben de izquierda a derecha? Explica cómo lo has calculado.",
+        "answer": "Cuatro bloques. Se puede dividir ocho entre dos o contar de dos en dos hasta ocho.",
+        "lines": 3
+      },
+      {
+        "id": "un-mosaico-que-se-repite-q5",
+        "type": "summary",
+        "prompt": "Explica en dos frases qué se prepara primero y cómo se llena el rectángulo.",
+        "answer": "Primero se colorea un bloque de cuatro cuadrados siguiendo un modelo. Después se copia ese mismo bloque sin girarlo hasta llenar el rectángulo.",
+        "lines": 3
+      }
+    ]
+  },
 ];
