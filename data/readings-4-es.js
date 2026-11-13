@@ -135,4 +135,75 @@ export const readings4Es = [
       }
     ]
   },
+  {
+    "id": "hojas-que-quedan-es",
+    "code": "L023",
+    "workId": "hojas-que-quedan",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "initial",
+    "themes": [
+      "community",
+      "everyday"
+    ],
+    "genre": "letter",
+    "title": "Las hojas que quedan",
+    "summary": "Leo escribe a su tía para pedirle ayuda con una idea para aprovechar papel usado por una sola cara.",
+    "paragraphs": [
+      "Querida tía Inés:",
+      "En clase nos sobraron muchos folios de la exposición del barrio. Casi todos tienen un dibujo por delante y la parte de atrás en blanco. Al ver la pila, me acordé de los cuadernos pequeños que haces con papel que todavía se puede usar. ¿Podrías venir a enseñarnos a preparar uno?",
+      "He preguntado a la maestra. Podemos hacerlo el jueves después del recreo. En ese rato tenemos el aula para nosotros y no tendremos que recoger hasta la hora de comer. Ya hay tijeras en clase. Tú dijiste que usabas pinzas para sujetar el montón de hojas mientras trabajabas. ¿Podrías traer dos o tres?",
+      "Mi amiga Olga ha propuesto hacer el primer cuaderno para la clase. Así podremos apuntar ideas para la próxima exposición. Si nos quedan folios, podemos preparar otros cuadernos para el rincón de dibujo.",
+      "Dime si el jueves te viene bien. Si trabajas esa mañana, podemos pedirle a la maestra que nos reserve el martes. Yo puedo enseñarte los dibujos de la exposición antes de que empecemos.",
+      "Un abrazo,",
+      "Leo"
+    ],
+    "images": [
+      {
+        "id": "hojas-que-quedan",
+        "src": "assets/readings/l023-hojas-que-quedan.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Dos manos dan la vuelta a un folio para mostrar su cara en blanco. Debajo hay hojas con dibujos de una casa y un árbol.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "hojas-que-quedan-q1",
+        "type": "literal",
+        "prompt": "¿Qué le pide Leo a su tía que enseñe a la clase?",
+        "answer": "A hacer un cuaderno pequeño con papel aprovechado.",
+        "lines": 2
+      },
+      {
+        "id": "hojas-que-quedan-q2",
+        "type": "literal",
+        "prompt": "¿Qué material hay ya en clase y qué material le pide Leo a su tía?",
+        "answer": "Ya hay tijeras. Le pide que traiga dos o tres pinzas.",
+        "lines": 2
+      },
+      {
+        "id": "hojas-que-quedan-q3",
+        "type": "inference",
+        "prompt": "¿Por qué sirven para los cuadernos unos folios que ya tienen dibujos?",
+        "answer": "Porque aún tienen una cara en blanco en la que se puede escribir o dibujar.",
+        "lines": 2
+      },
+      {
+        "id": "hojas-que-quedan-q4",
+        "type": "structure",
+        "prompt": "Copia el saludo de la carta e indica quién firma al final.",
+        "answer": "El saludo es «Querida tía Inés:» y firma Leo.",
+        "lines": 2
+      },
+      {
+        "id": "hojas-que-quedan-q5",
+        "type": "opinion",
+        "prompt": "¿Para qué usarías un cuaderno hecho con esos folios? Explica qué anotarías o dibujarías.",
+        "answer": "Respuesta abierta. Por ejemplo, para llevar un diario de lo que observo en el camino a la escuela.",
+        "lines": 3
+      }
+    ]
+  },
 ];
