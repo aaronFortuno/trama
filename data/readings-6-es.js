@@ -762,4 +762,80 @@ export const readings6Es = [
       }
     ]
   },
+  {
+    "id": "el-cuaderno-de-las-mareas-es",
+    "code": "L071",
+    "workId": "el-cuaderno-de-las-mareas",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "nature",
+      "science"
+    ],
+    "genre": "narrative",
+    "title": "El cuaderno de las mareas",
+    "summary": "Dos dibujos del mismo lugar enseñan a distinguir entre lo que cambia en la costa y lo que cambia en una observación.",
+    "paragraphs": [
+      "Al llegar al paseo, Olivia abrió el cuaderno de su abuelo. En una página había una roca con forma de pan. A su lado aparecía un pequeño charco. En la página siguiente, la misma roca sobresalía del agua como una isla. Las fechas eran iguales, pero debajo de un dibujo ponía «10:20» y debajo del otro, «13:40». Olivia creyó que uno de los dibujos estaba en una página equivocada.",
+      "Su abuelo señaló una raya horizontal en la roca del dibujo. Por encima de la raya, el lápiz había dejado el papel casi blanco. Por debajo, había hecho trazos más oscuros. Le propuso encontrar una señal parecida en la roca de verdad. Desde el paseo, Olivia vio una zona oscura y húmeda que terminaba bastante por encima del borde del agua.",
+      "En el centro de visitantes, consultaron la tabla de mareas del puerto. Indicaba que aquel día el nivel del mar iba a subir durante parte de la mañana. La tabla daba las horas del puerto y el abuelo le explicó que allí las olas podían cubrir la roca un momento y dejarla visible al retirarse. Decidieron mirar desde el paseo y hacer varios dibujos a lo largo de la mañana.",
+      "En el primero, Olivia trazó el borde del agua justo cuando llegó una ola. En el segundo, lo dibujó cuando se retiraba. Los dos tenían casi la misma hora. Entonces decidió marcar dos líneas en cada dibujo nuevo: el lugar hasta donde llegaba una ola y la orilla que se veía cuando el agua retrocedía.",
+      "Al final, Olivia añadió la fecha, la hora y el lugar desde donde miraba. Dejó una página vacía para comparar sus dibujos con los de una visita posterior. Había entendido por qué su abuelo había dibujado dos veces la misma roca."
+    ],
+    "images": [
+      {
+        "id": "el-cuaderno-de-las-mareas",
+        "src": "assets/readings/l071-el-cuaderno-de-las-mareas.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Olivia abre un cuaderno con dibujos de una roca junto al mar.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-cuaderno-de-las-mareas-q1",
+        "type": "literal",
+        "prompt": "¿A qué horas se habían hecho los dibujos del abuelo?",
+        "answer": "A las 10:20 y a las 13:40.",
+        "lines": 1
+      },
+      {
+        "id": "el-cuaderno-de-las-mareas-q2",
+        "type": "inference",
+        "prompt": "¿Qué dos explicaciones ofrece el relato para que cambie el borde del agua en un dibujo?",
+        "answer": "El nivel del mar cambia durante la marea. Además, una ola puede cubrir parte de la roca durante unos instantes.",
+        "lines": 3
+      },
+      {
+        "id": "el-cuaderno-de-las-mareas-q3",
+        "type": "vocabulary",
+        "prompt": "En el segundo párrafo, ¿qué son los «trazos» y qué señalan en el dibujo?",
+        "answer": "Son marcas de lápiz. Las más oscuras distinguen la parte inferior de la roca.",
+        "lines": 2
+      },
+      {
+        "id": "el-cuaderno-de-las-mareas-q4",
+        "type": "structure",
+        "prompt": "¿Por qué el texto presenta los dos dibujos antiguos antes de explicar qué ocurre con el agua?",
+        "answer": "Los dibujos plantean una duda que el lector puede compartir con Olivia. Las observaciones siguientes permiten resolverla.",
+        "lines": 3
+      },
+      {
+        "id": "el-cuaderno-de-las-mareas-q5",
+        "type": "inference",
+        "prompt": "¿Qué información debería conservar Olivia si quiere comparar una visita futura con la de ese día? Explica la utilidad de dos datos.",
+        "answer": "Fecha y hora para consultar la marea correspondiente, y el lugar desde donde miró para dibujar desde una posición comparable.",
+        "lines": 4
+      },
+      {
+        "id": "el-cuaderno-de-las-mareas-q6",
+        "type": "summary",
+        "prompt": "Explica qué aprendió Olivia al hacer dos dibujos con casi la misma hora.",
+        "answer": "Aprendió que la posición del agua también depende del momento de la ola. Por eso empezó a distinguir su alcance y la orilla al retirarse.",
+        "lines": 4
+      }
+    ]
+  },
 ];
