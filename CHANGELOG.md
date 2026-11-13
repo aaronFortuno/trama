@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.15 · 13 de novembre de 2026
+
+El text de la lectura es pot justificar i pot portar guionets a final de línia en català i castellà. Els dos ajustos es poden desar en una plantilla.
+
 ## 1.14 · 13 de novembre de 2026
 
 L’extensió es classifica per curs i el catàleg afegeix dues files de lectures en arribar al final dels resultats visibles.

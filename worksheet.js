@@ -2,6 +2,7 @@ import { imageDefaults, maxAnswerLines, questionLines } from './worksheet-code.j
 import { language, t } from './i18n.js';
 import { logoSource, tramaLogo } from './local-images.js';
 import { loadWorksheetFont, worksheetFonts } from './worksheet-fonts.js';
+import { supportsHyphenation, withHyphenation } from './worksheet-hyphenation.js';
 
 const languageCopy = {
   ca: ['Nom', 'Data', 'Curs', 'Comprensió lectora', 'Preguntes', 'Pàgina', 'Solucionari', 'Resposta orientativa', 'Sense resposta orientativa.', 'Textos de Trama'],
@@ -56,7 +57,7 @@ function makeHeader(reading, settings, [name, date, group, label, , , keyLabel],
   return header;
 }
 
-function makePassage(text, images) {
+function makePassage(text, images, formatText) {
   const section = element('div', 'worksheet-passage');
   for (const { image, config } of images) {
     const figure = element('figure', 'worksheet-figure');
@@ -71,7 +72,7 @@ function makePassage(text, images) {
     figure.append(img);
     section.append(figure);
   }
-  if (text) section.append(element('p', 'worksheet-paragraph', text));
+  if (text) section.append(element('p', 'worksheet-paragraph', formatText(text)));
   return section;
 }
 
@@ -142,6 +143,8 @@ function makePaper(reading, settings, tag) {
   const font = worksheetFonts[settings.font];
   paper.lang = reading.language;
   paper.dataset.font = settings.font;
+  paper.dataset.textAlignment = settings.textAlignment;
+  paper.dataset.hyphenation = settings.hyphenate && supportsHyphenation(reading.language);
   paper.style.setProperty('--sheet-font', font.stack);
   if (font.group === 'sans') paper.style.setProperty('--sheet-solution-font', worksheetFonts.serif.stack);
   paper.style.padding = `${settings.marginTop}mm ${settings.marginRight}mm ${settings.marginBottom}mm ${settings.marginLeft}mm`;
@@ -152,13 +155,18 @@ function makePaper(reading, settings, tag) {
   return paper;
 }
 
+function passageText(reading, settings) {
+  return settings.hyphenate ? text => withHyphenation(text, reading.language) : text => text;
+}
+
 export function worksheetThumbnail(reading, settings) {
   loadWorksheetFont(settings.font)?.catch(() => {});
   const corner = element('div', 'worksheet-thumbnail');
   corner.setAttribute('aria-hidden', 'true');
   const paper = makePaper(reading, settings, 'div');
   const content = element('div', 'worksheet-content');
-  content.append(makeHeader(reading, settings, wordsFor(reading.language)), makePassage(reading.paragraphs[0], []));
+  content.append(makeHeader(reading, settings, wordsFor(reading.language)),
+    makePassage(reading.paragraphs[0], [], passageText(reading, settings)));
   paper.append(content);
   corner.append(paper);
   return corner;
@@ -166,6 +174,7 @@ export function worksheetThumbnail(reading, settings) {
 
 export function renderWorksheet(container, reading, settings, { answerKey = false, interactive = true } = {}) {
   const words = wordsFor(reading.language);
+  const formatText = passageText(reading, settings);
   const showLicense = settings.showLicense && !reading.personal;
   const pages = [];
   let content;
@@ -236,15 +245,15 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
   }
 
   function placePassage(text, images) {
-    if (fitBlock(makePassage(text, images))) return;
-    for (const image of images) placeBlock(makePassage('', [image]));
-    if (!text || fitBlock(makePassage(text, []))) return;
+    if (fitBlock(makePassage(text, images, formatText))) return;
+    for (const image of images) placeBlock(makePassage('', [image], formatText));
+    if (!text || fitBlock(makePassage(text, [], formatText))) return;
 
-    placeTextChunks(text, part => makePassage(part, []));
+    placeTextChunks(text, part => makePassage(part, [], formatText), /\S{1,80}\s*|\s+/gu);
   }
 
-  function placeTextChunks(text, makeBlock) {
-    const words = text.match(/\S{1,24}\s*|\s+/gu) || [text];
+  function placeTextChunks(text, makeBlock, chunks = /\S{1,24}\s*|\s+/gu) {
+    const words = text.match(chunks) || [text];
     let start = 0;
     while (start < words.length) {
       let lower = start + 1;

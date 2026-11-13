@@ -131,6 +131,7 @@
 .studio-controls input[type="range"] { width: 100%; margin: 0; accent-color: var(--accent); cursor: pointer; }
 .studio-controls :is(input[type="checkbox"], input[type="radio"]) { width: 1.05rem; height: 1.05rem; margin: 1px 0 0; accent-color: var(--green); cursor: pointer; }
 .studio-controls .studio-check { display: flex; align-items: start; gap: 8px; cursor: pointer; }
+.studio-hyphenation-note { margin: 0; color: var(--muted); font-size: .73rem; }
 .studio-logo-control { display: grid; gap: 6px; padding-top: 8px; border-top: 1px solid var(--line); }
 .studio-logo-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 5px 8px; }
 .studio-logo-actions .button { min-height: 34px; padding: 5px 8px; font-size: .77rem; }
@@ -223,6 +224,9 @@
 .worksheet-passage:has(+ .worksheet-questions-start) { padding-bottom: 0; }
 .worksheet-passage + .worksheet-questions-start { padding-top: var(--sheet-section-gap); }
 .worksheet-paragraph { margin: 0; line-height: var(--sheet-leading); white-space: pre-line; }
+.worksheet-page[data-text-alignment="justify"] .worksheet-paragraph { text-align: justify; text-align-last: start; }
+.worksheet-page[data-hyphenation="false"] .worksheet-paragraph { hyphens: none; }
+.worksheet-page[data-hyphenation="true"] .worksheet-paragraph { hyphens: manual; }
 .worksheet-figure { margin: 0 0 2mm; }
 .worksheet-figure[data-position="center"] { margin-inline: auto; }
 .worksheet-figure[data-position="right"] { margin-left: auto; }

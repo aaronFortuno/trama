@@ -20,11 +20,14 @@ const lineCount = numberIn(0, maxAnswerLines);
 const imageWidth = numberIn(20, 75);
 const fonts = Object.fromEntries(Object.entries(worksheetFonts).map(([id, font]) => [id, font.code ?? font.name.toUpperCase()]));
 const positions = { left: 'ESQUERRA', center: 'CENTRE', right: 'DRETA' };
+const textAlignments = { left: 'ESQUERRA', justify: 'JUSTIFICAT' };
 
 const fields = {
   font: ['serif', oneOf(...Object.keys(fonts))],
   fontSize: [12, numberIn(10, 20)],
   leading: [2, numberIn(1, 6, .1)],
+  textAlignment: ['left', oneOf(...Object.keys(textAlignments))],
+  hyphenate: [false, boolean],
   paragraphGap: [3, numberIn(0, 12)],
   sectionGap: [8, numberIn(0, 20)],
   marginTop: [16, margin],
@@ -101,6 +104,8 @@ const scalarCodes = [
   ['TIP', 'font', value => fonts[value], value => enumValue(fonts, value)],
   ['COS', 'fontSize'],
   ['INT', 'leading', value => Math.round(value * 50) / 100, value => numeric(value.replace(/[x×]$/i, '')) * 2],
+  ['ALIN', 'textAlignment', value => textAlignments[value], value => enumValue(textAlignments, value)],
+  ['GUIO', 'hyphenate', value => value ? 'SI' : 'NO', value => oneZero(upper(value))],
   ['PAR', 'paragraphGap'],
   ['SEP', 'questionGap'],
   ['LIN', 'answerLines', value => value < 0 ? 'AUTO' : value, value => upper(value) === 'AUTO' ? -1 : numeric(value)],

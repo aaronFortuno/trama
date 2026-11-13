@@ -1,6 +1,7 @@
 import { labelFor, wordCount } from './catalog.js';
 import { defaultQuestionLines, defaultSettings, imageDefaults, marginLimits, maxAnswerLines, questionLines, readCode, validSetting } from './worksheet-code.js';
 import { renderWorksheet, worksheetThumbnail } from './worksheet.js';
+import { supportsHyphenation } from './worksheet-hyphenation.js';
 import { animateRefresh, mountDisclosures, setDisclosure } from './motion.js';
 import { mountPreviewZoom } from './preview-zoom.js';
 import { syncSelects } from './select-menu.js';
@@ -90,6 +91,11 @@ const template = `
             </label>
             ${range('fontSize', 'Cos de lletra', 10, 20, 1, 'pt')}
             ${range('leading', 'Interlineat', .5, 3, .05, '×')}
+            <label>Alineació del text
+              <select name="textAlignment"><option value="left">Esquerra</option><option value="justify">Justificat</option></select>
+            </label>
+            ${check('hyphenate', 'Guionets a final de línia')}
+            <p class="studio-hyphenation-note" hidden>Disponible per a lectures en català i castellà.</p>
             ${range('paragraphGap', 'Espai entre paràgrafs', 0, 12, 1, 'mm')}
             ${range('sectionGap', 'Espai abans de les preguntes', 0, 20, 1, 'mm')}
           </div>
@@ -291,6 +297,9 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
   function populateReading() {
     find('#studio-reading-menu [data-option="remove"]').hidden = !reading.personal;
     licenseControl.hidden = Boolean(reading.personal);
+    const hyphenationAvailable = supportsHyphenation(reading.language);
+    find('[name="hyphenate"]').disabled = !hyphenationAvailable;
+    find('.studio-hyphenation-note').hidden = hyphenationAvailable;
     find('#studio-title').textContent = reading.title;
     find('#studio-title').lang = reading.language;
     find('#studio-reading-code').textContent = reading.code;
@@ -334,7 +343,9 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
     const numberFormat = new Intl.NumberFormat(language(), { maximumFractionDigits: 2 });
     for (const input of root.querySelectorAll('.studio-form [name]')) {
       const value = input.name === 'leading' ? Math.round(settings.leading * 50) / 100 : settings[input.name];
-      if (input.type === 'checkbox') input.checked = settings[input.name];
+      if (input.type === 'checkbox') {
+        input.checked = settings[input.name] && (input.name !== 'hyphenate' || !input.disabled);
+      }
       else if (input.type === 'radio') input.checked = input.value === value;
       else if (input.value !== String(value)) input.value = value;
       if (input.type === 'range') {

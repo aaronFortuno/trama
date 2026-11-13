@@ -4,7 +4,7 @@ import { t } from './i18n.js';
 export const templateKey = 'trama.template.v1:';
 export const templateOrderKey = 'trama.templates.order.v1';
 export const templateGroups = [
-  { id: 'text', label: 'Text i tipografia', keys: ['font', 'fontSize', 'leading', 'paragraphGap', 'sectionGap'], selected: true },
+  { id: 'text', label: 'Text i tipografia', keys: ['font', 'fontSize', 'leading', 'textAlignment', 'hyphenate', 'paragraphGap', 'sectionGap'], selected: true },
   { id: 'margins', label: 'Marges del full', keys: ['marginTop', 'marginRight', 'marginBottom', 'marginLeft'], selected: true },
   { id: 'answers', label: 'Espai de resposta', keys: ['questionGap', 'answerLines', 'answerGap', 'answerStyle', 'answerWeight'], selected: true },
   { id: 'header', label: 'Encapçalament', keys: ['headerName', 'headerDate', 'headerGroup', 'headerLabel', 'headerCustom', 'headerTitle', 'headerDetail', 'headerLogo'] },

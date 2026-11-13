@@ -102,7 +102,7 @@ Text instructiu|Texto instructivo
 Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
-v1.14 · Obre l’historial de canvis|v1.14 · Abrir el historial de cambios
+v1.15 · Obre l’historial de canvis|v1.15 · Abrir el historial de cambios
 12 de novembre de 2026|12 de noviembre de 2026
 L’Umami propi d’ortogra.fi compta les visites i les obertures de fitxes des del catàleg.|La instancia propia de Umami de ortogra.fi cuenta las visitas y las aperturas de fichas desde el catálogo.
 V4V · Sobre el projecte|V4V · Sobre el proyecto
@@ -124,6 +124,7 @@ Llicència MIT del codi ↗|Licencia MIT del código ↗
 Llicència CC BY 4.0 dels textos ↗|Licencia CC BY 4.0 de los textos ↗
 Icones de|Iconos de
 PDF amb|PDF con
+Partició de mots amb|División de palabras con
 Crèdits de les tipografies ↗|Créditos de las tipografías ↗
 Fotografia i QR reutilitzats de|Fotografía y QR reutilizados de
 Historial de versions|Historial de versiones
@@ -174,6 +175,11 @@ Plantilles|Plantillas
 Tria una plantilla|Elegir una plantilla
 Gestiona les plantilles|Gestionar las plantillas
 Text i tipografia|Texto y tipografía
+Alineació del text|Alineación del texto
+Justificat|Justificado
+Guionets a final de línia|Guiones al final de línea
+Disponible per a lectures en català i castellà.|Disponible para lecturas en catalán y castellano.
+El text de la lectura es pot justificar i pot portar guionets a final de línia en català i castellà. Els dos ajustos es poden desar en una plantilla.|El texto de la lectura se puede justificar y puede llevar guiones al final de línea en catalán y castellano. Los dos ajustes se pueden guardar en una plantilla.
 Tipografia|Tipografía
 Amb serifa|Con serifa
 Sense serifa|Sin serifa
