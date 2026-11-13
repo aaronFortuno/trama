@@ -914,4 +914,80 @@ export const readings6Es = [
       }
     ]
   },
+  {
+    "id": "la-ultima-foto-del-album-es",
+    "code": "L073",
+    "workId": "la-ultima-foto-del-album",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "history",
+      "community"
+    ],
+    "genre": "narrative",
+    "title": "La última foto del álbum",
+    "summary": "Dos anotaciones distintas en una fotografía llevan a investigar quién la tomó y cómo quedó guardada.",
+    "paragraphs": [
+      "Para el aniversario de la escuela, Nora ayudaba a preparar un álbum con fotos antiguas. En la última página encontró una imagen del patio. Frente a un árbol recién plantado aparecían la directora, un conserje y varias familias. Detrás de la foto se leía un nombre escrito con letra grande: «S. Vidal». En la caja de cartón donde estaba guardada alguien había escrito «Copia de la foto que hizo Ana».",
+      "Nora pensó que Ana y S. Vidal podían ser la misma persona. La maestra le mostró una lista de quienes habían participado en la fiesta. Allí figuraba Sergio Vidal, el conserje. También aparecía Ana, una alumna que había ayudado a repartir materiales. La lista no aclaraba cuál de los dos había usado la cámara.",
+      "El antiguo conserje volvió al centro para la celebración. Al mirar la foto dijo que se reconocía junto al árbol. Creía haberla hecho él porque recordaba dejar su cámara sobre el muro, apuntada al grupo. Nora le preguntó quién había apretado el botón. Sergio dudó. En la foto tenía ambas manos en una pala. Recordó entonces que Ana le había pedido la cámara para probar el temporizador.",
+      "Revisaron la caja otra vez. Entre dos sobres encontraron un papel de Ana: «Sergio, te dejo una copia de la que hice con tu cámara. Salimos un poco pequeños, pero el árbol se ve entero». Sergio recordó haber escrito su apellido en varias fotos para reconocer cuáles podía llevarse al marchar. Su anotación identificaba la copia que guardaba, no a quien tomó la imagen.",
+      "Nora preparó la cartela con los dos nombres y sus papeles. Al lado puso una reproducción del papel de Ana. Sergio añadió al álbum un recuerdo suyo sobre la plantación y pidió que figurara como un recuerdo, separado del pie de foto."
+    ],
+    "images": [
+      {
+        "id": "la-ultima-foto-del-album",
+        "src": "assets/readings/l073-la-ultima-foto-del-album.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Nora mira una fotografía antigua de la escuela en la última página de un álbum.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "la-ultima-foto-del-album-q1",
+        "type": "literal",
+        "prompt": "¿Qué dos anotaciones encontró Nora al principio?",
+        "answer": "«S. Vidal» detrás de la foto y «Copia de la foto que hizo Ana» en la caja.",
+        "lines": 2
+      },
+      {
+        "id": "la-ultima-foto-del-album-q2",
+        "type": "inference",
+        "prompt": "¿Por qué ver a Sergio con las dos manos en la pala no demuestra por sí solo quién hizo la foto?",
+        "answer": "La cámara tenía temporizador. Sergio podría aparecer en la foto aunque hubiera preparado el disparo. El papel de Ana aporta otra prueba sobre quién la hizo.",
+        "lines": 4
+      },
+      {
+        "id": "la-ultima-foto-del-album-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué es una «cartela» al final del relato?",
+        "answer": "Un texto breve junto a la fotografía que informa sobre ella.",
+        "lines": 2
+      },
+      {
+        "id": "la-ultima-foto-del-album-q4",
+        "type": "structure",
+        "prompt": "¿Qué efecto tiene encontrar el papel de Ana después de escuchar el primer recuerdo de Sergio?",
+        "answer": "Permite revisar una explicación que parecía posible y separar la propiedad de la cámara y de la copia de la autoría de la foto.",
+        "lines": 3
+      },
+      {
+        "id": "la-ultima-foto-del-album-q5",
+        "type": "inference",
+        "prompt": "¿Por qué es razonable incluir a Sergio en la cartela sin atribuirle la fotografía?",
+        "answer": "La cámara era suya y conservaba una copia. También aparece en la imagen, pero la nota atribuye la toma a Ana.",
+        "lines": 4
+      },
+      {
+        "id": "la-ultima-foto-del-album-q6",
+        "type": "opinion",
+        "prompt": "¿Qué pondrías tú en la cartela y qué dejarías para el recuerdo de Sergio? Justifica la separación.",
+        "answer": "Respuesta abierta. La cartela podría atribuir la foto a Ana e indicar que Sergio cedió la cámara. Su recuerdo del árbol aporta una experiencia personal aparte.",
+        "lines": 4
+      }
+    ]
+  },
 ];
