@@ -480,4 +480,74 @@ export const readings4Es = [
       }
     ]
   },
+  {
+    "id": "las-sillas-del-cine-es",
+    "code": "L028",
+    "workId": "las-sillas-del-cine",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "arts",
+      "community"
+    ],
+    "genre": "letter",
+    "title": "Las sillas del cine",
+    "summary": "Una carta propone un pequeño cambio para que todo el público pueda ver la pantalla en el cine del patio.",
+    "paragraphs": [
+      "Hola, equipo del cine del barrio:",
+      "Me llamo Berta y el viernes pasado fui con mi primo a la película del patio. Llegamos pronto y elegimos dos sillas en la segunda fila. Desde allí veíamos bien la pantalla. Poco después se sentó un hombre alto en la primera fila y mi primo dejó de ver una esquina. Cambiamos a la tercera fila, donde quedaban dos sillas libres juntas.",
+      "Al pasar entre las filas me fijé en algo. Todas tenían las sillas exactamente detrás de las de la fila anterior. Si colocáis las sillas de la segunda fila un poco más a un lado, quienes se sienten allí podrán mirar por el hueco entre dos cabezas. Las sillas de la tercera fila podrían volver a la posición de las de la primera.",
+      "El sábado que viene puedo ayudar a preparar el patio. Antes de mover las sillas, me gustaría que mirásemos juntos dónde debe quedar el paso libre para entrar y salir. También podríamos probar desde una silla baja si se ve bien la parte de abajo de la pantalla.",
+      "Gracias por montar el cine cada mes.",
+      "Berta"
+    ],
+    "images": [
+      {
+        "id": "las-sillas-del-cine",
+        "src": "assets/readings/l028-las-sillas-del-cine.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Berta y su primo están sentados en el cine del patio. Un espectador alto les tapa parte de la pantalla.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "las-sillas-del-cine-q1",
+        "type": "literal",
+        "prompt": "¿Por qué cambiaron de sitio Berta y su primo?",
+        "answer": "Un hombre alto se sentó delante y su primo dejó de ver una esquina de la pantalla.",
+        "lines": 2
+      },
+      {
+        "id": "las-sillas-del-cine-q2",
+        "type": "inference",
+        "prompt": "¿Qué ventaja tendrían las sillas colocadas como propone Berta?",
+        "answer": "Las personas de la segunda fila podrían mirar entre las cabezas de quienes se sientan delante.",
+        "lines": 2
+      },
+      {
+        "id": "las-sillas-del-cine-q3",
+        "type": "structure",
+        "prompt": "¿En qué párrafo explica Berta cómo quiere mover las sillas?",
+        "answer": "En el párrafo que empieza «Al pasar entre las filas me fijé en algo».",
+        "lines": 2
+      },
+      {
+        "id": "las-sillas-del-cine-q4",
+        "type": "inference",
+        "prompt": "¿Por qué es importante hacer la prueba desde una silla baja en lugar de hacerla de pie?",
+        "answer": "Porque una persona sentada mira desde más abajo. Así pueden comprobar si alguien que queda a esa altura también ve la parte de abajo de la pantalla.",
+        "lines": 2
+      },
+      {
+        "id": "las-sillas-del-cine-q5",
+        "type": "opinion",
+        "prompt": "¿En qué fila preferirías sentarte para ver la película? Justifica tu elección con una condición del patio o de las sillas.",
+        "answer": "Respuesta abierta. Por ejemplo, en la segunda fila si las sillas se han desplazado, porque vería la pantalla de cerca y por el hueco entre dos personas.",
+        "lines": 3
+      }
+    ]
+  },
 ];
