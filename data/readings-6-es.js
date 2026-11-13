@@ -151,4 +151,82 @@ export const readings6Es = [
       }
     ]
   },
+  {
+    "id": "una-carta-para-el-banco-azul-es",
+    "code": "L063",
+    "workId": "una-carta-para-el-banco-azul",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "initial",
+    "themes": [
+      "community",
+      "everyday"
+    ],
+    "genre": "letter",
+    "title": "Una carta para el banco azul",
+    "summary": "Una lectora de la plaza propone un cambio para que el banco pueda acoger a más personas.",
+    "paragraphs": [
+      "Al equipo que cuida la plaza del Reloj:",
+      "Cada jueves espero a mi hermano junto al quiosco de música. El banco azul está cerca y se ve bien la puerta desde allí. Hace un mes cambiaron dos tablas rotas y dejaron el banco como antes. Les escribo porque, si vuelven a trabajar en esa zona, me gustaría que probaran una distribución un poco distinta.",
+      "En septiembre conocí a Isabel, que llega a la plaza con una silla de ruedas. Su nieto se sienta en el banco y ella se coloca a su lado, sobre el camino. Cuando pasa un grupo grande, se aparta. Después vuelve a ponerse junto a él. Una tarde nos preguntó por qué la jardinera dejaba tanto hueco detrás y tan poco al lado del asiento.",
+      "Dibujé dos propuestas. En la primera, el banco y la jardinera cambian de sitio. Parecía fácil hasta que probé a sentarme allí: al mediodía se pierde la sombra del tilo y desde el banco ya no se ve la puerta del quiosco. En la segunda, el banco se queda donde está y la jardinera se mueve hacia atrás. Habría que comprobar que queda paso para regar y sitio junto al asiento para acercarse sin ocupar el camino.",
+      "No sé si se puede mover la jardinera sin estropear las plantas. ¿Podríamos probar primero la segunda distribución con una caja vacía, unas marcas de tiza y un par de sillas? Isabel se ha ofrecido a participar. También podemos preguntar a quienes pasan por allí durante el mercado del sábado, cuando el camino se llena más que los jueves.",
+      "Les adjunto el dibujo y he señalado dónde da la sombra a la hora en que suelo llegar. Si hacen la prueba por la mañana, avísenme y puedo ir un sábado. Mi hermano también quiere participar. Dice que por una vez él será quien me espere.",
+      "Gracias por leerme. Ada."
+    ],
+    "images": [
+      {
+        "id": "una-carta-para-el-banco-azul",
+        "src": "assets/readings/l063-una-carta-para-el-banco-azul.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Isabel, en silla de ruedas, está junto a un banco azul en el paseo de la plaza.",
+        "afterParagraph": 3
+      }
+    ],
+    "questions": [
+      {
+        "id": "una-carta-para-el-banco-azul-q1",
+        "type": "literal",
+        "prompt": "¿Qué propuesta deja el banco donde está? ¿Qué objeto cambia de sitio?",
+        "answer": "La segunda propuesta. Se mueve la jardinera hacia atrás.",
+        "lines": 2
+      },
+      {
+        "id": "una-carta-para-el-banco-azul-q2",
+        "type": "inference",
+        "prompt": "¿Qué indica que Ada pasó de dibujar una idea a comprobar si funcionaría?",
+        "answer": "Se sentó en la posición del primer dibujo y comprobó que perdía sombra y la vista de la puerta.",
+        "lines": 3
+      },
+      {
+        "id": "una-carta-para-el-banco-azul-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «distribución» en esta carta?",
+        "answer": "La manera de colocar el banco, la jardinera y el espacio libre de la plaza.",
+        "lines": 2
+      },
+      {
+        "id": "una-carta-para-el-banco-azul-q4",
+        "type": "structure",
+        "prompt": "¿Qué aporta el párrafo sobre Isabel antes de que Ada presente sus propuestas?",
+        "answer": "Explica quién necesita el espacio junto al banco y cómo la colocación actual la obliga a apartarse cuando pasa gente.",
+        "lines": 3
+      },
+      {
+        "id": "una-carta-para-el-banco-azul-q5",
+        "type": "inference",
+        "prompt": "¿Por qué una prueba hecha solo el jueves puede dar menos información que otra el sábado?",
+        "answer": "El mercado llena más el camino. El sábado pueden comprobar si hay espacio cuando pasan más personas.",
+        "lines": 3
+      },
+      {
+        "id": "una-carta-para-el-banco-azul-q6",
+        "type": "opinion",
+        "prompt": "¿A quién más invitarías a la prueba y qué le pedirías que observara? Justifica la elección.",
+        "answer": "Respuesta abierta. Por ejemplo, invitar a quien riega para comprobar si la nueva posición permite acceder a las plantas.",
+        "lines": 4
+      }
+    ]
+  },
 ];
