@@ -370,7 +370,7 @@ export const readings4Es = [
         "src": "assets/readings/l026-un-espacio-en-la-pared.webp",
         "width": 960,
         "height": 640,
-        "alt": "Ada e Iker dibujan en un papel grande. En el boceto se ven una ballena y un cohete.",
+        "alt": "Ada sostiene un lápiz sobre un boceto con una ballena y un cohete. Iker mira el dibujo con una mano en la barbilla y su lápiz en el suelo.",
         "afterParagraph": 2
       }
     ],
