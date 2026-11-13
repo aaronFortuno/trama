@@ -1340,4 +1340,79 @@ export const readings4Es = [
       }
     ]
   },
+  {
+    "id": "una-luz-en-la-grada-es",
+    "code": "L040",
+    "workId": "una-luz-en-la-grada",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "arts",
+      "community"
+    ],
+    "genre": "narrative",
+    "title": "Una luz en la grada",
+    "summary": "Al fallar una luz durante un ensayo de música, la clase busca otra manera de dar la señal para empezar a la vez.",
+    "paragraphs": [
+      "El jueves, la clase de cuarto ensayaba una canción en el salón de actos. Habían puesto las voces detrás de una fila de tambores. Desde el fondo, Mara no podía ver la mano de la maestra, que marcaba el momento de empezar. Se guiaba por la luz que se encendía encima de la primera fila.",
+      "Al volver del descanso, pulsaron el interruptor y la luz no se encendió. La maestra les pidió que ensayaran de todos modos. Los tambores empezaron juntos, pero las voces empezaron a cantar en tres momentos distintos. Mara oyó su propia voz sola durante un instante y dejó de cantar.",
+      "Óscar propuso dar una palmada como señal. La probaron una vez. Desde atrás, la palmada se confundía con el primer golpe de tambor. Entonces Mara se fijó en que Noelia, la conserje, miraba el ensayo desde la grada. Desde su asiento, todos podían verla por encima de los tambores.",
+      "Noelia aceptó levantar un pañuelo blanco. La maestra dio su señal y, al mismo tiempo, Noelia alzó el pañuelo. Esta vez las voces entraron juntas. Al recoger, Óscar quiso saber qué harían si la luz volvía al día siguiente. Mara miró hacia la grada. Habían encontrado un modo de seguir el ensayo y podían ensayar las dos señales antes del concierto."
+    ],
+    "images": [
+      {
+        "id": "una-luz-en-la-grada",
+        "src": "assets/readings/l040-una-luz-en-la-grada.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "La clase ensaya una canción. Delante de las voces hay tres tambores, y la maestra levanta la mano.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "una-luz-en-la-grada-q1",
+        "type": "literal",
+        "prompt": "¿Qué señal usaba Mara antes de que fallara la luz?",
+        "answer": "Una luz que se encendía encima de la primera fila.",
+        "lines": 2
+      },
+      {
+        "id": "una-luz-en-la-grada-q2",
+        "type": "inference",
+        "prompt": "¿Por qué la palmada no resolvió el problema de las voces del fondo?",
+        "answer": "Desde allí se confundía con el primer golpe de tambor y no distinguían bien cuándo empezar.",
+        "lines": 3
+      },
+      {
+        "id": "una-luz-en-la-grada-q3",
+        "type": "vocabulary",
+        "prompt": "En «la palmada se confundía con el primer golpe de tambor», ¿qué significa «se confundía»?",
+        "answer": "Que desde el fondo la palmada y el golpe del tambor sonaban tan parecidos o tan juntos que costaba distinguirlos.",
+        "lines": 2
+      },
+      {
+        "id": "una-luz-en-la-grada-q4",
+        "type": "inference",
+        "prompt": "¿Por qué podía verse el pañuelo de Noelia desde el fondo aunque Mara no viera la mano de la maestra?",
+        "answer": "Noelia estaba en la grada y se la veía por encima de la fila de tambores.",
+        "lines": 3
+      },
+      {
+        "id": "una-luz-en-la-grada-q5",
+        "type": "structure",
+        "prompt": "Ordena las señales según aparecen en el relato: el pañuelo, la luz, la palmada.",
+        "answer": "La luz, la palmada y, por último, el pañuelo.",
+        "lines": 2
+      },
+      {
+        "id": "una-luz-en-la-grada-q6",
+        "type": "opinion",
+        "prompt": "Para el concierto, ¿qué señal elegirías: la luz o el pañuelo? Justifica tu respuesta pensando en las voces del fondo.",
+        "answer": "Respuesta abierta. Puede elegir cualquiera de las dos si explica, a partir del relato, que se ve desde el fondo. Puede añadir que ensayaría la otra señal por si la primera falla.",
+        "lines": 4
+      }
+    ]
+  },
 ];
