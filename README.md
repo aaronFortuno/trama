@@ -44,7 +44,7 @@ GitHub Pages serveix l’arrel de `main`. El fitxer `.nojekyll` permet servir di
 
 ## Ampliar el catàleg
 
-El catàleg s’exporta des de `data/readings.js` com una llista d’objectes JavaScript. Les sèries de 5è es troben als mòduls `data/readings-5-es.js`, `data/readings-5-es-2.js`, `data/readings-5-es-3.js` i `data/readings-5-es-4.js`. Les lectures de 4t es troben a `data/readings-4-es.js`. Els filtres es deriven de les dades i el catàleg mostra les fitxes per tandes.
+El catàleg s’exporta des de `data/readings.js` com una llista d’objectes JavaScript. Les sèries de 5è es troben a `data/readings-5-es.js` i els mòduls numerats del 2 al 5. Les lectures de 4t es troben a `data/readings-4-es.js`. Els filtres es deriven de les dades i el catàleg mostra les fitxes per tandes.
 
 - Assigna un `id` únic i estable a cada versió. Comparteix el `workId` i el `code` (per exemple, `L001`) entre les traduccions d’una mateixa lectura.
 - Fes servir `language` amb una etiqueta BCP 47 i `level` amb un identificador de curs. `catalog.js` recull els noms habituals dels filtres. `worksheet.js` conté els rètols impresos en català, castellà i anglès. Les llengües sense rètols propis fan servir els anglesos.
