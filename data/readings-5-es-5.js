@@ -457,4 +457,79 @@ export const readings5EsFifthSeries = [
       }
     ]
   },
+  {
+    "id": "el-paso-que-se-abrio-bajo-la-verja-es",
+    "code": "L047",
+    "workId": "el-paso-que-se-abrio-bajo-la-verja",
+    "language": "es",
+    "level": "5-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "nature",
+      "community"
+    ],
+    "genre": "informative",
+    "title": "El paso que se abrió bajo la verja",
+    "summary": "Un grupo de vecinos estudia cómo dejar un paso para los erizos y averiguar si los animales lo utilizan.",
+    "paragraphs": [
+      "Un jardín puede tener tierra húmeda, arbustos y rincones tranquilos. Para un erizo, sin embargo, una verja pegada al suelo puede convertirlo en un lugar difícil de alcanzar. El animal suele salir a buscar alimento al anochecer. Si no encuentra un hueco, tiene que rodear la verja o seguir por otro sitio.",
+      "En el huerto de la calle Abedul, un grupo de vecinos decidió crear un pequeño paso en la parte baja de la verja. Antes de hacerlo, comprobó que el hueco uniría dos zonas con vegetación. Hacia el otro lado había un aparcamiento con tráfico. Abrir un paso allí podía llevar al animal hacia un lugar con menos refugio y con vehículos en movimiento.",
+      "La primera semana nadie vio un erizo. Algunos vecinos pensaron que el paso no servía. Otros recordaron que todos habían ido a mirar por la mañana. Para saber si ocurría algo durante la noche sin quedarse junto a la abertura, alisaron una franja de tierra fina en el lado interior. Cada mañana hacían una foto antes de regar.",
+      "Una de las fotos mostró varias marcas que cruzaban la franja. El grupo anotó la fecha y dejó el terreno liso otra vez. Las marcas indicaban que algo había pasado por allí, pero aún no permitían saber qué animal había sido. Decidieron comparar varias noches y pedir ayuda a una asociación de naturalistas antes de dar el paso por comprobado."
+    ],
+    "images": [
+      {
+        "id": "el-paso-que-se-abrio-bajo-la-verja",
+        "src": "assets/readings/l047-el-paso-que-se-abrio-bajo-la-verja.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Un erizo se acerca a una abertura baja de la verja. A ambos lados hay plantas.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-paso-que-se-abrio-bajo-la-verja-q1",
+        "type": "literal",
+        "prompt": "¿En qué parte de la verja hicieron la abertura?",
+        "answer": "En la parte baja de la verja.",
+        "lines": 1
+      },
+      {
+        "id": "el-paso-que-se-abrio-bajo-la-verja-q2",
+        "type": "inference",
+        "prompt": "¿Por qué descartaron abrir un paso hacia el aparcamiento?",
+        "answer": "Allí habría menos refugio y los animales podrían encontrarse con vehículos en movimiento.",
+        "lines": 2
+      },
+      {
+        "id": "el-paso-que-se-abrio-bajo-la-verja-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «franja» cuando se habla de la tierra fina?",
+        "answer": "Una tira o zona estrecha de tierra.",
+        "lines": 2
+      },
+      {
+        "id": "el-paso-que-se-abrio-bajo-la-verja-q4",
+        "type": "structure",
+        "prompt": "¿Cómo cambió la manera de observar el paso después de la primera semana?",
+        "answer": "Pasaron de ir a mirar si veían un erizo a alisar la tierra y fotografiar las marcas cada mañana.",
+        "lines": 2
+      },
+      {
+        "id": "el-paso-que-se-abrio-bajo-la-verja-q5",
+        "type": "inference",
+        "prompt": "¿Qué pueden asegurar al ver las marcas y qué falta todavía comprobar?",
+        "answer": "Pueden decir que algo cruzó la franja. Falta comprobar si las marcas eran de un erizo.",
+        "lines": 2
+      },
+      {
+        "id": "el-paso-que-se-abrio-bajo-la-verja-q6",
+        "type": "summary",
+        "prompt": "Resume qué problema intentan resolver los vecinos y qué hacen para comprobar si su idea funciona.",
+        "answer": "Quieren que los animales puedan atravesar la verja. Abren un paso entre zonas con vegetación y observan las marcas en una franja de tierra para averiguar quién lo usa.",
+        "lines": 3
+      }
+    ]
+  },
 ];
