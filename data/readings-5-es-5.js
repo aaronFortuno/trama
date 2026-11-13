@@ -915,4 +915,79 @@ export const readings5EsFifthSeries = [
       }
     ]
   },
+  {
+    "id": "el-dia-que-cambiaron-las-senales-es",
+    "code": "L053",
+    "workId": "el-dia-que-cambiaron-las-senales",
+    "language": "es",
+    "level": "5-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "community",
+      "adventure"
+    ],
+    "genre": "narrative",
+    "title": "El día que cambiaron las señales",
+    "summary": "Dos amigos buscan un puesto del mercadillo el día en que las flechas habituales señalan un camino cerrado.",
+    "paragraphs": [
+      "El domingo, Diego y Amira fueron al mercadillo a buscar una caja de botones. El puesto de Ana solía estar al final del pasillo central. Nada más entrar, Diego vio la flecha pintada en el suelo que apuntaba hacia allí. Dio unos pasos y se detuvo: una fila de vallas cerraba el pasillo por unas obras.",
+      "En una de las vallas habían colgado una cartulina que decía «Puestos del fondo» y mostraba una flecha hacia la izquierda. Diego se puso a seguirla. Amira, en cambio, se quedó mirando un plano nuevo pegado a la entrada. El plano mostraba que algunos puestos se habían movido al patio de la escuela. No todos estaban al otro lado de las obras.",
+      "Amira encontró el número del puesto de Ana en el recibo de la semana anterior. En el plano nuevo, ese número aparecía dentro de un cuadrado amarillo, igual que otros seis. En una esquina, una nota explicaba que los cuadrados amarillos correspondían a los puestos del patio. La entrada al patio estaba a la derecha, por la puerta azul.",
+      "Después de comprar los botones, volvieron por la puerta azul y vieron a un hombre que intentaba cruzar el pasillo cerrado. Diego le enseñó el plano. Mientras el hombre buscaba el número que le interesaba, Amira se fijó en que alguien había pegado la cartulina demasiado lejos del plano. Fue a hablar con la encargada y le propuso reunir las dos indicaciones."
+    ],
+    "images": [
+      {
+        "id": "el-dia-que-cambiaron-las-senales",
+        "src": "assets/readings/l053-el-dia-que-cambiaron-las-senales.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Diego y Amira se detienen junto a unas vallas y un plano en la entrada del mercadillo.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-dia-que-cambiaron-las-senales-q1",
+        "type": "literal",
+        "prompt": "¿Qué buscaban Diego y Amira en el mercadillo?",
+        "answer": "Una caja de botones en el puesto de Ana.",
+        "lines": 1
+      },
+      {
+        "id": "el-dia-que-cambiaron-las-senales-q2",
+        "type": "inference",
+        "prompt": "¿Por qué la flecha pintada en el suelo ya no les servía?",
+        "answer": "Seguía señalando el pasillo habitual, pero ese pasillo estaba cerrado por las obras.",
+        "lines": 2
+      },
+      {
+        "id": "el-dia-que-cambiaron-las-senales-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa que los cuadrados amarillos «correspondían» a los puestos del patio?",
+        "answer": "Que los cuadrados amarillos representaban o indicaban esos puestos en el plano.",
+        "lines": 2
+      },
+      {
+        "id": "el-dia-que-cambiaron-las-senales-q4",
+        "type": "structure",
+        "prompt": "Explica en orden cómo usa Amira el recibo, el plano y la nota para encontrar la puerta correcta.",
+        "answer": "Saca del recibo el número del puesto, lo localiza en un cuadrado amarillo del plano y lee que ese color corresponde al patio, al que se entra por la puerta azul.",
+        "lines": 3
+      },
+      {
+        "id": "el-dia-que-cambiaron-las-senales-q5",
+        "type": "inference",
+        "prompt": "¿Por qué juntar la cartulina y el plano podía ayudar al hombre?",
+        "answer": "Le permitiría ver a la vez el desvío para los puestos del fondo y la información sobre los puestos trasladados al patio.",
+        "lines": 2
+      },
+      {
+        "id": "el-dia-que-cambiaron-las-senales-q6",
+        "type": "opinion",
+        "prompt": "Si pudieras añadir una frase a la cartulina, ¿qué escribirías para ayudar a quien entra?",
+        "answer": "Respuesta abierta. Por ejemplo: «Antes de elegir un camino, busca el número de tu puesto en el plano».",
+        "lines": 3
+      }
+    ]
+  },
 ];
