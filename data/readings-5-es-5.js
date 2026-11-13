@@ -608,4 +608,79 @@ export const readings5EsFifthSeries = [
       }
     ]
   },
+  {
+    "id": "un-juego-de-pistas-en-el-espejo-es",
+    "code": "L049",
+    "workId": "un-juego-de-pistas-en-el-espejo",
+    "language": "es",
+    "level": "5-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "science",
+      "adventure"
+    ],
+    "genre": "instructional",
+    "title": "Un juego de pistas en el espejo",
+    "summary": "Una manera de preparar una pista secreta, comprobar si se puede leer en el espejo y evitar que se confunda con otro mensaje.",
+    "paragraphs": [
+      "Para preparar una pista que se lea en el espejo, reúne una hoja de papel fino, un rotulador que se vea al trasluz, cinta adhesiva y un espejo de mano. Elige un mensaje corto que indique un lugar concreto. Por ejemplo, «Bajo la caja verde» es más preciso que «Busca en la mesa» si hay varias cosas sobre ella.",
+      "Escribe el mensaje con letras grandes. Luego vuelve la hoja como si pasaras la página de un libro. Levántala ante una ventana y repasa en el reverso las letras que se ven a través del papel. Conserva la hoja al derecho, con la parte superior arriba. Si la giras de arriba abajo, el mensaje quedará al revés y tendrás que volver a colocarlo.",
+      "Para comprobar el resultado, cubre la cara donde escribiste el mensaje normal. Coloca la cara que has repasado frente al espejo y mírala en el reflejo. Si no la puedes leer, asegúrate de que las letras miran hacia el espejo y de que has volteado la hoja por un lado. Si alguna letra se ve borrosa, repásala sobre una mesa.",
+      "Cuando el reflejo permita leer el mensaje con claridad, fija la pista con cinta de manera que solo se vea el reverso. Deja el espejo cerca y pide a otra persona que intente leerla y encontrar el lugar. Si mira el reflejo pero termina en otro sitio, revisa la frase: quizá el papel esté bien preparado y lo que falla sea la indicación."
+    ],
+    "images": [
+      {
+        "id": "un-juego-de-pistas-en-el-espejo",
+        "src": "assets/readings/l049-un-juego-de-pistas-en-el-espejo.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Una mano sostiene una hoja fina junto a una ventana. Sobre la mesa hay un espejo de mano y un rotulador.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "un-juego-de-pistas-en-el-espejo-q1",
+        "type": "literal",
+        "prompt": "¿Qué permite ver las letras a través de la hoja al repasar el mensaje?",
+        "answer": "El papel fino y el rotulador que se ve al trasluz, al levantar la hoja ante la ventana.",
+        "lines": 2
+      },
+      {
+        "id": "un-juego-de-pistas-en-el-espejo-q2",
+        "type": "vocabulary",
+        "prompt": "¿A qué cara de la hoja se llama «reverso» en las instrucciones?",
+        "answer": "A la cara opuesta a aquella en la que se escribió el mensaje normal.",
+        "lines": 2
+      },
+      {
+        "id": "un-juego-de-pistas-en-el-espejo-q3",
+        "type": "structure",
+        "prompt": "Ordena estos pasos: fijar la pista, copiar las letras al reverso y comprobar el reflejo.",
+        "answer": "Copiar al reverso, comprobar el reflejo y fijar la pista.",
+        "lines": 2
+      },
+      {
+        "id": "un-juego-de-pistas-en-el-espejo-q4",
+        "type": "inference",
+        "prompt": "¿Por qué cubres la cara en la que escribiste el mensaje normal antes de comprobarlo?",
+        "answer": "Para asegurarte de que estás leyendo el resultado en el espejo y no el mensaje que ya podías leer directamente.",
+        "lines": 2
+      },
+      {
+        "id": "un-juego-de-pistas-en-el-espejo-q5",
+        "type": "inference",
+        "prompt": "Una persona leyó todas las palabras pero acabó frente a una mesa distinta. ¿Qué cambiarías primero?",
+        "answer": "Cambiaría la indicación para que identifique un lugar concreto, por ejemplo con el color de una caja o la posición de la mesa.",
+        "lines": 3
+      },
+      {
+        "id": "un-juego-de-pistas-en-el-espejo-q6",
+        "type": "opinion",
+        "prompt": "Escribe una pista breve para un objeto de tu aula y explica por qué sería difícil confundirlo.",
+        "answer": "Respuesta abierta. La pista debe incluir una referencia que distinga el objeto de otros parecidos.",
+        "lines": 3
+      }
+    ]
+  },
 ];
