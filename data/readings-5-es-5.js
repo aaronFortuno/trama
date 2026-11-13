@@ -1294,4 +1294,79 @@ export const readings5EsFifthSeries = [
       }
     ]
   },
+  {
+    "id": "tres-apoyos-para-un-tallo-es",
+    "code": "L058",
+    "workId": "tres-apoyos-para-un-tallo",
+    "language": "es",
+    "level": "5-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "science",
+      "nature"
+    ],
+    "genre": "instructional",
+    "title": "Tres apoyos para un tallo",
+    "summary": "Una prueba con modelos de papel permite comparar apoyos para un tallo antes de colocarlos cerca de una planta real.",
+    "paragraphs": [
+      "En el huerto de la escuela, algunas plantas tienen tallos que se inclinan cuando hace viento. Antes de colocarles apoyos, puedes comparar tres ideas sin tocar las plantas. Necesitarás tres tiras iguales de papel grueso, plastilina, dos palitos, un hilo, una tarjeta y una regla. Las tiras harán de tallos de prueba.",
+      "Clava cada tira en una base de plastilina, con diez centímetros de papel a la vista. Deja la primera como está. En la segunda, fija un palito en la base y ata la tira al palito, con el nudo a media altura. En la tercera, clava otro palito a la misma distancia del tallo. Dobla un pedazo de tarjeta en forma de U, sujétalo al palito y deja que el tallo se apoye dentro sin atarlo.",
+      "Coloca la regla junto al primer tallo. Empuja suavemente su punta hacia la derecha con un dedo, hasta que se desplace dos centímetros. Suelta y observa si vuelve a su sitio, se sale de la base o queda doblado. Repite la prueba con los otros dos tallos. Si un apoyo impide llegar a los dos centímetros, no fuerces el papel. Anota cuánto pudo moverse antes de tocarlo.",
+      "Por último, empuja los tres tallos hacia el lado contrario. La pieza en forma de U tiene un lado abierto, así que puede responder de manera diferente. Anota los resultados en una tabla con una fila por modelo. Antes de elegir un apoyo para una planta, piensa también en si dejaría sitio para que el tallo engordara."
+    ],
+    "images": [
+      {
+        "id": "tres-apoyos-para-un-tallo",
+        "src": "assets/readings/l058-tres-apoyos-para-un-tallo.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Sobre la mesa hay tiras de papel, plastilina, un palito, hilo y una regla para preparar la prueba.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "tres-apoyos-para-un-tallo-q1",
+        "type": "literal",
+        "prompt": "¿Qué material se usa para representar los tallos?",
+        "answer": "Tres tiras iguales de papel grueso.",
+        "lines": 1
+      },
+      {
+        "id": "tres-apoyos-para-un-tallo-q2",
+        "type": "structure",
+        "prompt": "¿Qué preparas después de montar las bases y antes de probar cuánto se mueven los tallos?",
+        "answer": "Pones el apoyo de hilo en el segundo modelo y el de tarjeta en U en el tercero. El primero queda sin apoyo.",
+        "lines": 2
+      },
+      {
+        "id": "tres-apoyos-para-un-tallo-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué quiere decir «no fuerces el papel»?",
+        "answer": "Que dejes de empujarlo al notar que el apoyo bloquea el movimiento, sin intentar doblarlo o romperlo.",
+        "lines": 2
+      },
+      {
+        "id": "tres-apoyos-para-un-tallo-q4",
+        "type": "inference",
+        "prompt": "¿Por qué interesa que en los tres modelos queden diez centímetros de papel a la vista?",
+        "answer": "Así las tiras tienen la misma longitud expuesta y se puede comparar el efecto de los apoyos.",
+        "lines": 2
+      },
+      {
+        "id": "tres-apoyos-para-un-tallo-q5",
+        "type": "inference",
+        "prompt": "Un tallo sale por un lado de la U cuando lo empujas. ¿En qué dirección conviene volver a probarlo y qué podrías descubrir?",
+        "answer": "Hacia el lado contrario. Así se puede comprobar si el tallo se apoya contra la parte cerrada de la U.",
+        "lines": 3
+      },
+      {
+        "id": "tres-apoyos-para-un-tallo-q6",
+        "type": "opinion",
+        "prompt": "Antes de usar uno de estos apoyos con una planta, ¿qué revisarías además de cuánto se mueve? Justifica la respuesta.",
+        "answer": "Respuesta abierta. Por ejemplo, revisaría que el hilo no apriete el tallo cuando engorde o que la tarjeta resista si se moja.",
+        "lines": 3
+      }
+    ]
+  },
 ];
