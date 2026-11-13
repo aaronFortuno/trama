@@ -1295,4 +1295,81 @@ export const readings6Es = [
       }
     ]
   },
+  {
+    "id": "el-huerto-de-las-preguntas-es",
+    "code": "L078",
+    "workId": "el-huerto-de-las-preguntas",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "nature",
+      "science"
+    ],
+    "genre": "interview",
+    "title": "El huerto de las preguntas",
+    "summary": "Una hortelana explica cómo leer el aspecto de las plantas sin confundir una pista con una explicación.",
+    "paragraphs": [
+      "Entrevista ficticia para la revista de la escuela. Dos alumnos de sexto visitan a Lola, que cuida un huerto comunitario. Al entrar ven varios carteles con fechas y palabras cortas: «sombra», «viento» y «regar».",
+      "—¿Por qué hay tantos carteles? —Algunos nos recuerdan qué hicimos y otros indican qué queremos observar. El año pasado plantamos dos filas de lechugas el mismo día. Las de una fila crecieron menos. Pensamos que faltaba agua y regamos más, pero luego descubrimos que esa fila quedaba a la sombra del cobertizo durante buena parte de la tarde.",
+      "—Entonces, ¿ya sabíais que la causa era la sombra? —Era una posibilidad. Al comparar las filas, también vimos que en una habíamos dejado menos espacio entre plantas. Apuntamos las dos diferencias. Si hubiéramos cambiado a la vez la distancia y la sombra, habría sido difícil entender por qué una nueva fila crecía más.",
+      "—¿Qué hicisteis en la siguiente siembra? —Preparamos dos grupos con la misma separación. De cada grupo, unas plantas quedaron cerca del cobertizo y otras en una zona más abierta. Usamos plantas de la misma variedad y anotamos cuándo regamos. Todavía queremos observarlas unas semanas. La última vez sopló mucho viento y eso también puede cambiar cómo se seca la tierra.",
+      "—¿Y qué haríais si las plantas de la parte abierta siguieran creciendo más? —Diríamos en qué condiciones ocurrió. Miraríamos si vuelve a pasar en otra siembra. También me gustaría comparar dos zonas que reciban luz parecida pero tengan distinta protección contra el viento. Así podríamos explorar una pregunta más concreta.",
+      "—¿Qué cartel pondrías para la visita de mañana? —Uno que dijera «Esto aún lo estamos probando». Debajo dejaría espacio para que alguien dibuje lo que ve y escriba qué le gustaría observar en la próxima visita."
+    ],
+    "images": [
+      {
+        "id": "el-huerto-de-las-preguntas",
+        "src": "assets/readings/l078-el-huerto-de-las-preguntas.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Lola conversa con dos alumnos junto a las hileras del huerto comunitario.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-huerto-de-las-preguntas-q1",
+        "type": "literal",
+        "prompt": "¿Qué dos diferencias descubrió el grupo al comparar las filas del año anterior?",
+        "answer": "Una fila pasaba más tiempo a la sombra y en una de ellas las plantas estaban más juntas.",
+        "lines": 2
+      },
+      {
+        "id": "el-huerto-de-las-preguntas-q2",
+        "type": "inference",
+        "prompt": "¿Por qué el riego extra no bastó para entender el crecimiento desigual?",
+        "answer": "Se había supuesto que faltaba agua. Las filas diferían también en la sombra y la distancia entre plantas, y no habían aislado esas condiciones.",
+        "lines": 4
+      },
+      {
+        "id": "el-huerto-de-las-preguntas-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «variedad» cuando Lola habla de usar plantas de la misma variedad?",
+        "answer": "Una clase o tipo concreto de lechuga.",
+        "lines": 2
+      },
+      {
+        "id": "el-huerto-de-las-preguntas-q4",
+        "type": "structure",
+        "prompt": "¿Cómo cambia la conversación al pasar de «¿ya sabíais que la causa era la sombra?» a «¿qué hicisteis en la siguiente siembra?»?",
+        "answer": "Pasa de una posible explicación a la manera de ponerla a prueba de forma más controlada.",
+        "lines": 3
+      },
+      {
+        "id": "el-huerto-de-las-preguntas-q5",
+        "type": "inference",
+        "prompt": "¿Qué mantendría Lola parecido para estudiar el viento y qué haría diferente entre las zonas?",
+        "answer": "Elegiría zonas con luz parecida y distinta protección contra el viento.",
+        "lines": 3
+      },
+      {
+        "id": "el-huerto-de-las-preguntas-q6",
+        "type": "opinion",
+        "prompt": "Escribe una observación y una pregunta que dejarías en el cartel si vieras que el suelo de una zona está más seco.",
+        "answer": "Respuesta abierta. Por ejemplo, «La tierra junto al cobertizo está más seca hoy» y «¿Se regaron las dos zonas al mismo tiempo?»",
+        "lines": 4
+      }
+    ]
+  },
 ];
