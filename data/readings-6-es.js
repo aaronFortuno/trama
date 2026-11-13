@@ -941,7 +941,7 @@ export const readings6Es = [
         "src": "assets/readings/l073-la-ultima-foto-del-album.webp",
         "width": 960,
         "height": 640,
-        "alt": "Nora mira una fotografía antigua de la escuela en la última página de un álbum.",
+        "alt": "Nora levanta una página de un álbum. Hay dos fotografías antiguas orientadas hacia ella: un grupo junto a un árbol joven y la entrada de la escuela.",
         "afterParagraph": 1
       }
     ],
