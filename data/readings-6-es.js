@@ -306,4 +306,80 @@ export const readings6Es = [
       }
     ]
   },
+  {
+    "id": "el-puente-de-los-siete-minutos-es",
+    "code": "L065",
+    "workId": "el-puente-de-los-siete-minutos",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "math",
+      "community"
+    ],
+    "genre": "narrative",
+    "title": "El puente de los siete minutos",
+    "summary": "Dos estudiantes comparan trayectos hacia la biblioteca y descubren cómo cambia el camino más rápido el día de mercado.",
+    "paragraphs": [
+      "Cuando se abrió la biblioteca del parque, Mateo anunció que ya tardaba siete minutos menos en llegar desde el instituto. Había cruzado el puente nuevo en bicicleta. Vera llegaba a pie y prefería rodear el parque por la avenida. Un día en que coincidieron en la puerta, decidieron preparar una tabla para el tablón del instituto.",
+      "Al principio, Mateo apuntó los minutos de sus viajes y Vera escribió los suyos en otra columna. El camino del puente parecía mejor por una diferencia enorme. Entonces Vera se fijó en los encabezados. La tabla comparaba a una persona que iba en bicicleta con otra que iba a pie. Le propuso probar los dos caminos a pie y añadir una columna para la hora de salida.",
+      "El miércoles caminaron juntos por la avenida a las cuatro de la tarde. Tardaron dieciséis minutos. El jueves, a la misma hora, tardaron doce por el puente. El sábado, cuando se instaló el mercado, repitieron la prueba. Por la avenida volvieron a tardar dieciséis. Por el puente tardaron diecinueve porque tuvieron que esperar a que pasara una fila de gente con carros.",
+      "En el primer borrador escribieron que el puente era más rápido. Vera dibujó un círculo alrededor de los diecinueve minutos y pidió que incluyeran las dos filas, incluso si el resultado dejaba el cartel menos sencillo. Mateo añadió otra nota: quienes cruzaran en bicicleta debían bajar del sillín en la zona compartida con peatones.",
+      "El lunes colocaron el cartel con una tabla corta y una frase: «El camino que conviene depende de cuándo y cómo vas». Alguien añadió debajo, con lápiz, una pregunta sobre el recorrido de vuelta. Los dos dejaron sitio en la tabla para apuntar más viajes."
+    ],
+    "images": [
+      {
+        "id": "el-puente-de-los-siete-minutos",
+        "src": "assets/readings/l065-el-puente-de-los-siete-minutos.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Mateo y Vera comparan sus notas cerca de un puente peatonal del parque.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-puente-de-los-siete-minutos-q1",
+        "type": "literal",
+        "prompt": "¿Cuánto tardaron a pie por la avenida el miércoles y el sábado?",
+        "answer": "Dieciséis minutos cada día.",
+        "lines": 1
+      },
+      {
+        "id": "el-puente-de-los-siete-minutos-q2",
+        "type": "inference",
+        "prompt": "¿Por qué las primeras columnas no permitían comparar bien los dos caminos?",
+        "answer": "Cada persona iba de una manera diferente. El tiempo podía depender tanto del camino como de ir a pie o en bicicleta.",
+        "lines": 4
+      },
+      {
+        "id": "el-puente-de-los-siete-minutos-q3",
+        "type": "inference",
+        "prompt": "¿Qué dato del sábado resulta importante al elegir camino para un día de mercado? Explica tu respuesta.",
+        "answer": "Por el puente tardaron diecinueve minutos frente a los dieciséis de la avenida. En esa ocasión el mercado invirtió cuál era más rápido.",
+        "lines": 4
+      },
+      {
+        "id": "el-puente-de-los-siete-minutos-q4",
+        "type": "structure",
+        "prompt": "¿Qué función tiene la pregunta a lápiz al final del relato?",
+        "answer": "Abre una nueva comprobación y muestra que la tabla puede ampliarse con recorridos que todavía no midieron.",
+        "lines": 3
+      },
+      {
+        "id": "el-puente-de-los-siete-minutos-q5",
+        "type": "vocabulary",
+        "prompt": "¿Qué son los «encabezados» que mira Vera?",
+        "answer": "Los rótulos que indican qué información recoge cada columna.",
+        "lines": 2
+      },
+      {
+        "id": "el-puente-de-los-siete-minutos-q6",
+        "type": "opinion",
+        "prompt": "¿Pondrías los resultados en un plano o en una tabla? Indica qué debería poder averiguar quien mire tu versión.",
+        "answer": "Respuesta abierta. Por ejemplo, una tabla facilitaría comparar por hora, modo de desplazamiento y camino.",
+        "lines": 4
+      }
+    ]
+  },
 ];
