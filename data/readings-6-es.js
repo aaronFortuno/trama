@@ -382,4 +382,80 @@ export const readings6Es = [
       }
     ]
   },
+  {
+    "id": "la-historia-de-una-etiqueta-es",
+    "code": "L066",
+    "workId": "la-historia-de-una-etiqueta",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "everyday",
+      "science"
+    ],
+    "genre": "informative",
+    "title": "La historia de una etiqueta",
+    "summary": "Una camiseta del teatro escolar ayuda a distinguir entre la composición, el cuidado y el origen de una prenda.",
+    "paragraphs": [
+      "En el aula de teatro, todas las camisetas parecían iguales. Eran grises y tenían el mismo tamaño. Después del primer ensayo, Julia se llevó dos para lavarlas. Al ponerlas del revés vio que las etiquetas eran distintas. Una decía «100 % algodón». La otra indicaba «60 % algodón, 40 % poliéster». Dejó las dos en la mesa y llamó a Bruno, que había preparado el vestuario.",
+      "Bruno pensó que podrían lavarlas juntas porque ambas eran del mismo color. Julia le enseñó otra parte de la etiqueta. Una prenda permitía lavado a cuarenta grados, pero la otra marcaba treinta. Además, en una etiqueta aparecía un dibujo tachado que no entendían. En vez de adivinarlo por la forma, compararon el símbolo con la guía que acompañaba las cajas del vestuario.",
+      "Al día siguiente, Bruno hizo una ficha para cada tipo de camiseta. En un recuadro escribió los materiales y los porcentajes. En otro reunió las indicaciones de cuidado. Julia propuso un tercero con lo que todavía querían saber. Por ejemplo, en una camiseta figuraba el lugar de confección, pero la etiqueta no decía de dónde procedía el algodón. Tampoco sabían en qué taller se había teñido la tela.",
+      "En la siguiente función necesitarían ocho prendas más. Algunas familias ofrecieron camisetas que ya no usaban. En lugar de pedir que todas tuvieran la misma composición, el grupo decidió comprobar primero las tallas, el estado de las costuras y las instrucciones de cuidado. Después probarían si se podían usar juntas en la escena.",
+      "Cuando llegaron las primeras prendas, ninguna era exactamente del mismo gris. Desde la última fila del aula, con las luces del ensayo, las diferencias casi no se veían. Julia añadió a las fichas un dato que no estaba en las etiquetas: cuáles resultaban cómodas para moverse."
+    ],
+    "images": [
+      {
+        "id": "la-historia-de-una-etiqueta",
+        "src": "assets/readings/l066-la-historia-de-una-etiqueta.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Dos camisetas grises del revés muestran sus etiquetas interiores.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "la-historia-de-una-etiqueta-q1",
+        "type": "literal",
+        "prompt": "¿Qué dos materiales aparecen en las etiquetas de las camisetas grises?",
+        "answer": "El algodón y el poliéster.",
+        "lines": 1
+      },
+      {
+        "id": "la-historia-de-una-etiqueta-q2",
+        "type": "inference",
+        "prompt": "¿Por qué tener el mismo color no bastaba para decidir cómo lavar las camisetas juntas?",
+        "answer": "Las indicaciones de temperatura eran diferentes. También había un símbolo de cuidado que necesitaban interpretar.",
+        "lines": 3
+      },
+      {
+        "id": "la-historia-de-una-etiqueta-q3",
+        "type": "structure",
+        "prompt": "¿Qué distingue el tercer recuadro de la ficha de los dos primeros?",
+        "answer": "El tercero reúne preguntas pendientes. Los primeros recogen información que sí pueden leer en la etiqueta.",
+        "lines": 3
+      },
+      {
+        "id": "la-historia-de-una-etiqueta-q4",
+        "type": "vocabulary",
+        "prompt": "En el texto, ¿a qué se refiere el «lugar de confección» de una camiseta?",
+        "answer": "Al lugar donde se elaboró o cosió la prenda. No indica necesariamente el origen de la fibra.",
+        "lines": 2
+      },
+      {
+        "id": "la-historia-de-una-etiqueta-q5",
+        "type": "inference",
+        "prompt": "¿Qué dos comprobaciones del grupo aportaron información que las etiquetas no daban?",
+        "answer": "Desde la última fila observaron cómo se veían las camisetas en escena y, al probárselas, pudieron valorar si eran cómodas para moverse.",
+        "lines": 4
+      },
+      {
+        "id": "la-historia-de-una-etiqueta-q6",
+        "type": "summary",
+        "prompt": "Resume la diferencia entre lo que saben por la etiqueta y lo que tienen que averiguar de otra manera.",
+        "answer": "La etiqueta indica composición, cuidados y a veces dónde se confeccionó la prenda. Para averiguar el origen de las fibras o si sirve para actuar, necesitan buscar más datos o probarla.",
+        "lines": 4
+      }
+    ]
+  },
 ];
