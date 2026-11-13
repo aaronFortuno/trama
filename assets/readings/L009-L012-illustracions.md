@@ -4,6 +4,12 @@ Il·lustracions generades amb ImageGen en mode integrat i optimitzades per al ca
 
 ## L009 · huellas-en-roca.webp
 
+La versió publicada incorpora una revisió de les quatre petjades perquè alternin els peus i mostrin el pas d’un animal bípede.
+
+```text
+Maintain the exact sandstone, notebook, pencil, vegetation and warmly textured gouache style of this image. REDRAW ONLY the four three-toed fossil impressions in a believable, fairly narrow bipedal trackway on the clear middle of the slab. Composition coordinates are from upper left, percentages of image width and height: impression 1 center (22%,71%); impression 2 center (46%,62%); impression 3 center (61%,37%); impression 4 center (83%,27%). Exactly four, placed in this order, increasing x and decreasing y, small but clear sideways alternating offset. The elongated middle toe of EVERY print points from lower left to upper right (about 2 o'clock). To SHOW the mirrored left and right feet, use these distinct three-toe shapes: for prints 1 and 3, give the upper, more vertical toe (about 12 o'clock) a visibly longer reach than the rightward toe (about 3 o'clock); for prints 2 and 4, give the rightward toe a visibly longer reach and the upper toe a distinctly shorter reach. In all cases middle toe is longest. Asymmetric three toe silhouettes, mirror mates about the travel axis, NOT four repeated stamps. All remain natural subtle dark depressions with rough sandstone texture, no arrows, text or grid, gradually smaller into distance.
+```
+
 ```text
 Use case: scientific-educational. Close, gently elevated oblique view of a sandstone fossil trackway with three or four clear successive three-toed impressions in a single direction, a few naturally layered rock textures and the suggestion of a field notebook partly visible at one corner. The tracks are the focus. No living dinosaur, bones, misleading modern animal tracks, or inferred species. Asset type: landscape illustration for a printable fifth-grade reading worksheet and web card. Full-bleed wide composition around 3:2, centered important details safe for a wider crop. Restrained editorial picture-book style: clean softly textured gouache shapes, dark muted outlines, warm cream, terracotta and muted teal or sage. Strong value contrast, clear even when printed small in grayscale. No text, lettering, numbers, border, watermark or labels.
 ```

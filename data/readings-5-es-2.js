@@ -18,7 +18,7 @@ export const moreReadings5Es = [
       'Antes de marcharse, Vega dibujó las dos filas en su cuaderno. Puso una flecha para señalar la dirección y dejó un signo de interrogación donde había imaginado a los dos animales juntos.',
     ],
     images: [
-      { id: 'rastro', src: 'assets/readings/huellas-en-roca.webp', width: 960, height: 640, alt: 'Una fila de huellas de tres dedos impresas en una superficie de roca.', afterParagraph: 1 },
+      { id: 'rastro', src: 'assets/readings/huellas-en-roca.webp', width: 960, height: 640, alt: 'Cuatro huellas de tres dedos alternan el pie izquierdo y el derecho sobre la roca.', afterParagraph: 1 },
     ],
     questions: [
       { id: 'huellas-q1', type: 'literal', prompt: '¿En qué material quedaron impresas las pisadas al principio?', answer: 'En barro húmedo.', lines: 1 },
