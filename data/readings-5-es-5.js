@@ -1215,4 +1215,83 @@ export const readings5EsFifthSeries = [
       }
     ]
   },
+  {
+    "id": "la-feria-por-dentro-es",
+    "code": "L057",
+    "workId": "la-feria-por-dentro",
+    "language": "es",
+    "level": "5-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "science",
+      "community"
+    ],
+    "genre": "interview",
+    "title": "La feria por dentro",
+    "summary": "Antes de la apertura, una técnica explica qué puede comprobar a simple vista y por qué deja cerrada una atracción mientras revisa un aviso.",
+    "paragraphs": [
+      "Las luces de la feria se encienden a las seis, pero Lucía llega mucho antes. Trabaja con el equipo que revisa las atracciones antes de abrir. Mientras el tiovivo permanece cerrado, un estudiante de la radio escolar le pregunta qué busca cuando se agacha junto a la plataforma.",
+      "—Hoy estabas mirando el suelo. ¿Qué te preocupaba?",
+      "—Anoche llovió. En este recinto, una parte del suelo es de tierra y otra de cemento. Revisamos los puntos de apoyo del tiovivo, sobre todo los de la zona de tierra. Si alguno se hunde un poco, la plataforma puede inclinarse. La técnica encargada de la instalación eléctrica revisa si se ha acumulado agua donde van los cables antes de que se ponga en marcha el tiovivo.",
+      "—¿Cómo sabes si se ha inclinado?",
+      "—Uso un nivel. Es una herramienta con una pequeña burbuja. Sobre una superficie horizontal, la burbuja queda entre las dos marcas. Lo apoyo en los lugares que indica la ficha de esta atracción. También anoto dónde hago cada medida. Si volvemos a comprobarla después, tendremos que medir en los mismos puntos.",
+      "—Si la burbuja queda en el centro, ¿puedes abrir?",
+      "—Todavía no. Eso indica que la plataforma está horizontal en el punto donde acabo de medir. Faltan las otras comprobaciones de la ficha. Hoy una compañera ha encontrado barro alrededor de un apoyo. Hasta que revisemos ese aviso entre las dos, el tiovivo seguirá cerrado.",
+      "Al final de la entrevista, el estudiante baja el micrófono. Desde el otro lado de la valla le preguntan si falta mucho para abrir. Mira a Lucía, que está señalando en el plano el apoyo que hay que revisar, y contesta que todavía no puede dar una hora."
+    ],
+    "images": [
+      {
+        "id": "la-feria-por-dentro",
+        "src": "assets/readings/l057-la-feria-por-dentro.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Lucía revisa la base del tiovivo. A su lado, una estudiante sostiene una grabadora.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "la-feria-por-dentro-q1",
+        "type": "literal",
+        "prompt": "¿Qué dos problemas relacionados con el suelo debe descartar el equipo después de la lluvia?",
+        "answer": "Que se hayan hundido los puntos de apoyo y que se haya acumulado agua cerca de los cables, algo que revisa la técnica de la instalación eléctrica.",
+        "lines": 2
+      },
+      {
+        "id": "la-feria-por-dentro-q2",
+        "type": "vocabulary",
+        "prompt": "¿Qué quiere decir «horizontal» al hablar de la plataforma?",
+        "answer": "Que no está inclinada hacia un lado en el punto en el que se coloca el nivel.",
+        "lines": 2
+      },
+      {
+        "id": "la-feria-por-dentro-q3",
+        "type": "inference",
+        "prompt": "¿Por qué Lucía anota los lugares donde pone el nivel?",
+        "answer": "Para poder repetir las mediciones en los mismos puntos y comparar si hay cambios.",
+        "lines": 3
+      },
+      {
+        "id": "la-feria-por-dentro-q4",
+        "type": "structure",
+        "prompt": "¿Qué pregunta del estudiante lleva a Lucía a explicar que una sola prueba no basta?",
+        "answer": "«Si la burbuja queda en el centro, ¿puedes abrir?»",
+        "lines": 2
+      },
+      {
+        "id": "la-feria-por-dentro-q5",
+        "type": "inference",
+        "prompt": "¿Por qué el estudiante no da una hora de apertura al final? Usa detalles de la última respuesta.",
+        "answer": "La compañera ha visto barro alrededor de un apoyo y todavía deben revisarlo juntas. La hora depende de terminar esa comprobación.",
+        "lines": 3
+      },
+      {
+        "id": "la-feria-por-dentro-q6",
+        "type": "summary",
+        "prompt": "Explica con tus palabras qué demuestra una burbuja centrada y qué no permite decidir aún.",
+        "answer": "Una burbuja centrada indica que la superficie está horizontal en el punto donde está el nivel. La atracción sigue cerrada hasta revisar también el aviso y completar las demás comprobaciones.",
+        "lines": 4
+      }
+    ]
+  },
 ];
