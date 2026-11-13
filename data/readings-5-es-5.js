@@ -866,7 +866,7 @@ export const readings5EsFifthSeries = [
         "src": "assets/readings/l052-una-manana-detras-de-la-pantalla.webp",
         "width": 960,
         "height": 640,
-        "alt": "Adriana y la encargada de la proyección están en la cabina del cine. Por la ventanilla se ve la sala.",
+        "alt": "Adriana toma notas mientras habla con Eva. Entre ellas, el proyector está orientado hacia la pantalla que se ve por la ventanilla.",
         "afterParagraph": 1
       }
     ],
