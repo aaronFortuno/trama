@@ -532,4 +532,80 @@ export const readings5EsFifthSeries = [
       }
     ]
   },
+  {
+    "id": "el-sobre-de-las-dos-entradas-es",
+    "code": "L048",
+    "workId": "el-sobre-de-las-dos-entradas",
+    "language": "es",
+    "level": "5-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "math",
+      "arts",
+      "everyday"
+    ],
+    "genre": "narrative",
+    "title": "El sobre de las dos entradas",
+    "summary": "Una entrada sin fecha legible y dos horarios casi idénticos obligan a Noa y Daniel a buscar otras pistas.",
+    "paragraphs": [
+      "La tía de Noa le regaló dos entradas para un espectáculo de sombras. En el sobre había también un folleto con las funciones de todo el mes. Como en la puerta del teatro llovía, Noa y Daniel se refugiaron bajo la marquesina y sacaron las entradas. Una gota había deshecho la tinta justo donde se leía el día.",
+      "En una esquina se distinguía la hora: las cinco. Daniel abrió el folleto. Para esa semana había dos funciones a las cinco, una el viernes y otra el sábado. El viernes actuaban en la sala grande y el sábado, en la sala del jardín. En las entradas no aparecía el nombre de la sala, solo «fila B, asientos 8 y 9».",
+      "Daniel se acercó a la puerta grande. Un cartel mostraba un dibujo con las primeras filas: la A tenía seis asientos, la B tenía siete y las demás eran algo más largas. Noa levantó el folleto y buscó el dibujo de la otra sala. Allí, todas las filas tenían diez asientos. A pesar de la mancha, ya tenían una pista que distinguía las dos funciones.",
+      "Por si acaso, fueron a la ventanilla. La encargada confirmó que sus entradas eran para el sábado y les avisó de que la puerta del jardín se cerraba cinco minutos antes de empezar. En el camino de vuelta, Daniel anotó una hora en el sobre. Esta vez escribió «16:50» y guardó el sobre en el bolsillo interior del abrigo."
+    ],
+    "images": [
+      {
+        "id": "el-sobre-de-las-dos-entradas",
+        "src": "assets/readings/l048-el-sobre-de-las-dos-entradas.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Noa y Daniel se refugian de la lluvia a la entrada del teatro. Sostienen un sobre y dos entradas.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-sobre-de-las-dos-entradas-q1",
+        "type": "literal",
+        "prompt": "¿Qué parte de la entrada se estropeó con la gota?",
+        "answer": "La parte que indicaba el día de la función.",
+        "lines": 1
+      },
+      {
+        "id": "el-sobre-de-las-dos-entradas-q2",
+        "type": "inference",
+        "prompt": "¿Por qué saber que la función empezaba a las cinco no bastó para elegir?",
+        "answer": "Porque el viernes y el sábado había funciones a las cinco.",
+        "lines": 2
+      },
+      {
+        "id": "el-sobre-de-las-dos-entradas-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué es una «marquesina» según lo que hacen los personajes?",
+        "answer": "Una cubierta en la que se refugian de la lluvia antes de entrar.",
+        "lines": 2
+      },
+      {
+        "id": "el-sobre-de-las-dos-entradas-q4",
+        "type": "inference",
+        "prompt": "¿Cómo permite el número de los asientos averiguar en qué sala se celebra la función?",
+        "answer": "La fila B de la sala grande solo tiene siete asientos. Los asientos 8 y 9 existen en la fila B de la sala del jardín.",
+        "lines": 3
+      },
+      {
+        "id": "el-sobre-de-las-dos-entradas-q5",
+        "type": "inference",
+        "prompt": "Si llegan a la puerta del jardín a las 16:56, ¿podrán entrar? Explica con las horas del texto.",
+        "answer": "No. La función empieza a las 17:00 y cierran la puerta cinco minutos antes, a las 16:55.",
+        "lines": 2
+      },
+      {
+        "id": "el-sobre-de-las-dos-entradas-q6",
+        "type": "summary",
+        "prompt": "Cuenta brevemente cómo pasaron de tener dos posibilidades a estar seguros de cuál era su función.",
+        "answer": "Primero vieron que coincidía la hora. Después, compararon el número de asientos de las salas y descartaron la sala grande. Por último, la encargada confirmó el día.",
+        "lines": 3
+      }
+    ]
+  },
 ];
