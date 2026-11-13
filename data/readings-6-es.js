@@ -686,4 +686,80 @@ export const readings6Es = [
       }
     ]
   },
+  {
+    "id": "la-noticia-que-cambio-de-titulo-es",
+    "code": "L070",
+    "workId": "la-noticia-que-cambio-de-titulo",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "community",
+      "arts"
+    ],
+    "genre": "informative",
+    "title": "La noticia que cambió de título",
+    "summary": "La redacción de un periódico escolar corrige un titular al revisar qué midieron y durante cuánto tiempo.",
+    "paragraphs": [
+      "El siguiente caso es ficticio y transcurre en la redacción de un periódico escolar. El lunes, en su primer borrador, Clara escribió: «El patio nuevo duplica los juegos durante el recreo». En el centro habían pintado un tablero en el suelo y colocado una cesta con materiales. En el cuaderno de un equipo de sexto aparecían doce marcas en una página y veinticuatro en la siguiente.",
+      "Antes de publicar, Omar preguntó qué representaba cada marca. Los observadores explicaron que anotaban una marca cada vez que comenzaba una partida en la zona del tablero. Si las mismas cuatro personas acababan una partida y empezaban otra, se registraban dos marcas. Los juegos de pelota y las conversaciones de otros rincones no se habían contado.",
+      "También había una diferencia entre los dos días. Antes de pintar, habían observado veinte minutos de un recreo acortado por un simulacro. Ese día jugaron en el mismo rincón con un tablero de cartón. Después, observaron los cuarenta minutos del recreo completo. Clara añadió los tiempos a la tabla y se dio cuenta de que ambos recuentos daban seis partidas por cada diez minutos. Aun así, la observación era demasiado breve para describir todos los recreos.",
+      "En el periódico aparecieron dos datos: el mismo ritmo en los tramos observados y el testimonio de una alumna que había jugado por primera vez allí después de que pintaran el tablero. Su experiencia mostraba algo que no recogía la cuenta de partidas. Clara cambió el titular por «Un tablero nuevo y una pregunta abierta sobre cómo jugamos».",
+      "En la edición siguiente querían incluir la voz de quienes preferían usar ese rincón para descansar. Dejaron una pregunta en el tablón: «¿En qué momento y para qué utilizas ese espacio?». Los comentarios se recogerían en una hoja distinta de la tabla de partidas."
+    ],
+    "images": [
+      {
+        "id": "la-noticia-que-cambio-de-titulo",
+        "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Clara y Omar conversan en el patio junto a un dibujo de un tablero de juego.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "la-noticia-que-cambio-de-titulo-q1",
+        "type": "literal",
+        "prompt": "¿Qué acción exacta representaba cada marca del cuaderno?",
+        "answer": "El comienzo de una partida en la zona del tablero.",
+        "lines": 2
+      },
+      {
+        "id": "la-noticia-que-cambio-de-titulo-q2",
+        "type": "inference",
+        "prompt": "¿Por qué veinticuatro marcas después de pintar no demuestran que se duplicara el ritmo de juego?",
+        "answer": "El segundo día observaron el doble de tiempo. En ambos casos contaron seis partidas por cada diez minutos.",
+        "lines": 4
+      },
+      {
+        "id": "la-noticia-que-cambio-de-titulo-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «testimonio» en el cuarto párrafo?",
+        "answer": "El relato de la experiencia de la alumna que jugó allí por primera vez.",
+        "lines": 2
+      },
+      {
+        "id": "la-noticia-que-cambio-de-titulo-q4",
+        "type": "structure",
+        "prompt": "¿Cómo ayuda el primer titular a entender la revisión que hace Clara a lo largo del texto?",
+        "answer": "Presenta una afirmación amplia. Al revisar qué medían y cuánto tiempo observaron, se entiende por qué la sustituyó por un titular más preciso.",
+        "lines": 4
+      },
+      {
+        "id": "la-noticia-que-cambio-de-titulo-q5",
+        "type": "inference",
+        "prompt": "¿Qué pregunta sobre el patio puede contestar mejor la alumna que la tabla? ¿Cuál puede contestar mejor la tabla?",
+        "answer": "La alumna cuenta cómo cambió su experiencia. La tabla permite comparar el número de partidas en los tiempos observados.",
+        "lines": 4
+      },
+      {
+        "id": "la-noticia-que-cambio-de-titulo-q6",
+        "type": "summary",
+        "prompt": "Redacta un titular de hasta doce palabras y una frase que explique un límite del recuento.",
+        "answer": "Ejemplo: «Mismo ritmo de partidas en dos observaciones del tablero». Límite: solo se midió esa zona y en dos recreos.",
+        "lines": 4
+      }
+    ]
+  },
 ];
