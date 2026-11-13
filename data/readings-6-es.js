@@ -990,4 +990,80 @@ export const readings6Es = [
       }
     ]
   },
+  {
+    "id": "como-montar-un-museo-de-una-mesa-es",
+    "code": "L074",
+    "workId": "como-montar-un-museo-de-una-mesa",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "initial",
+    "themes": [
+      "history",
+      "arts"
+    ],
+    "genre": "instructional",
+    "title": "Cómo montar un museo de una mesa",
+    "summary": "Una guía para exponer objetos prestados con cartelas que distingan lo que se sabe de lo que se supone.",
+    "paragraphs": [
+      "Una mesa basta para mostrar algunos objetos de uso cotidiano, siempre que cada pieza ayude a responder la misma pregunta. Antes de pedir nada prestado, elegid una cuestión concreta. Por ejemplo, «¿cómo se escribían los avisos antes de las pantallas?». Así sabréis qué buscar y por qué cada objeto merece un lugar.",
+      "1. Pedid prestadas pocas piezas y acordad cuándo devolverlas. Pueden servir un sello, una libreta de recibos o una fotografía de una máquina. Si alguien trae un objeto frágil, mostrad una foto o un dibujo en su lugar. Anotad quién prestó cada cosa en una hoja del grupo.",
+      "2. Preguntad a la persona que la trajo cómo se usaba. Observad también la pieza. En una libreta de un comercio se encontraron varias hojas numeradas y restos de papel entre ellas. Quien la guardaba recordaba que algunas hojas se arrancaban, pero no sabía qué había entre una y otra. En la cartela, escribid aparte lo que se observa y lo que alguien recuerda. Si falta un dato, añadid una pregunta.",
+      "3. Colocad primero los objetos que se entienden con menos explicación. En el ejemplo de los avisos, podéis poner la libreta junto a un recibo suelto y alinear sus bordes para que se vean las semejanzas. En lugar de tapar una pieza con la cartela, poned el texto delante y comprobad que se puede leer desde el otro lado de la mesa.",
+      "4. Invitad a una persona que no haya preparado la exposición. Pedidle que os diga qué pregunta cree que responde el conjunto y qué pieza le ayudó a entenderla. Si confunde una suposición con un hecho, revisad la cartela correspondiente. Al cerrar, devolved las piezas siguiendo la lista y guardad las preguntas sin resolver para una próxima exposición."
+    ],
+    "images": [
+      {
+        "id": "como-montar-un-museo-de-una-mesa",
+        "src": "assets/readings/l074-como-montar-un-museo-de-una-mesa.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Una mesa reúne una libreta antigua, un sello y una foto para una pequeña exposición.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "como-montar-un-museo-de-una-mesa-q1",
+        "type": "literal",
+        "prompt": "¿Qué dos alternativas propone la guía cuando alguien lleva un objeto frágil?",
+        "answer": "Mostrar una foto o un dibujo del objeto.",
+        "lines": 1
+      },
+      {
+        "id": "como-montar-un-museo-de-una-mesa-q2",
+        "type": "inference",
+        "prompt": "¿Por qué conviene pedir prestadas pocas piezas después de decidir la pregunta de la exposición?",
+        "answer": "La pregunta ayuda a elegir piezas que sirven para responderla. Con pocas piezas, se puede mostrar y explicar cada una con claridad en una mesa.",
+        "lines": 4
+      },
+      {
+        "id": "como-montar-un-museo-de-una-mesa-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué diferencia hay entre un «hecho» y una «suposición» en las cartelas?",
+        "answer": "Un hecho se apoya en un dato comprobado. Una suposición es una explicación posible que aún necesita pruebas.",
+        "lines": 3
+      },
+      {
+        "id": "como-montar-un-museo-de-una-mesa-q4",
+        "type": "structure",
+        "prompt": "¿Qué tarea inicial permite hacer bien la última tarea de la guía?",
+        "answer": "Anotar quién prestó cada objeto y acordar la devolución permite devolver todas las piezas al terminar.",
+        "lines": 3
+      },
+      {
+        "id": "como-montar-un-museo-de-una-mesa-q5",
+        "type": "inference",
+        "prompt": "¿Por qué tiene sentido poner un recibo suelto junto a la libreta y alinear los bordes?",
+        "answer": "La comparación visible puede mostrar si tienen un formato parecido y ayudar a entender cómo se usaba la libreta.",
+        "lines": 3
+      },
+      {
+        "id": "como-montar-un-museo-de-una-mesa-q6",
+        "type": "opinion",
+        "prompt": "Si expusieras una cuchara de madera de uso desconocido, escribe una observación y una pregunta para su cartela.",
+        "answer": "Respuesta abierta. Por ejemplo, «El mango tiene una mancha oscura» y «¿Para qué preparación se usaba esta cuchara?»",
+        "lines": 4
+      }
+    ]
+  },
 ];
