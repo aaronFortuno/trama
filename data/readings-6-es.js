@@ -458,4 +458,80 @@ export const readings6Es = [
       }
     ]
   },
+  {
+    "id": "una-brujula-para-el-ensayo-es",
+    "code": "L067",
+    "workId": "una-brujula-para-el-ensayo",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "initial",
+    "themes": [
+      "arts",
+      "everyday"
+    ],
+    "genre": "instructional",
+    "title": "Una brújula para el ensayo",
+    "summary": "Una guía para dar indicaciones de escena sin que el público y el reparto confundan los lados.",
+    "paragraphs": [
+      "Cuando varias personas ensayan en un escenario, una indicación como «entra por la derecha» puede causar un cruce inesperado. Quien mira desde las butacas ve el lado contrario a quien está en el escenario de cara al público. Antes del primer ensayo, prepara con el grupo unas marcas y acordad cómo nombrarlas.",
+      "1. Dibuja un rectángulo en una hoja para representar el escenario. En un borde escribe «público». Coloca un muñeco dentro del rectángulo, mirando hacia ese borde. Marca con dos flechas la derecha y la izquierda del muñeco. Si giras el plano sin mover las flechas, las marcas siguen correspondiendo a quien actúa.",
+      "2. Escoge dos referencias que puedan verse desde distintos lugares. En el ensayo del grupo de Celia había una ventana a un lado y una estantería al otro. Las indicaciones «lado de la ventana» y «lado de la estantería» resultaron fáciles de seguir en ese salón. Si vais a actuar en otro sitio, usad referencias que podáis llevar, como dos cintas de distinto color.",
+      "3. Pega las marcas en el suelo con una cinta que pueda retirarse. Ensaya un desplazamiento con una persona en el escenario y otra en las butacas. Quien observa da la instrucción sin señalar con la mano. Si la otra persona se mueve hacia un sitio diferente del previsto, repetid la prueba cambiando únicamente la manera de nombrar el lado.",
+      "4. Cuando una instrucción funcione, escríbela en el guion justo antes del movimiento. Añade la referencia también al plano. Al final, intercambiad los papeles: quien daba las instrucciones pasa al escenario y quien se movía se sienta frente a él. Dejad que una tercera persona pruebe con el guion, sin haber visto el ensayo."
+    ],
+    "images": [
+      {
+        "id": "una-brujula-para-el-ensayo",
+        "src": "assets/readings/l067-una-brujula-para-el-ensayo.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Sobre una hoja hay un rectángulo que representa un escenario, con una figura pequeña encima.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "una-brujula-para-el-ensayo-q1",
+        "type": "literal",
+        "prompt": "¿Qué borde del rectángulo se marca antes de colocar el muñeco?",
+        "answer": "El borde que representa el lado del público.",
+        "lines": 1
+      },
+      {
+        "id": "una-brujula-para-el-ensayo-q2",
+        "type": "inference",
+        "prompt": "¿Por qué el texto pide que quien observa dé la instrucción sin señalar?",
+        "answer": "Así se comprueba si las palabras por sí solas son suficientes. El gesto podría orientar a la otra persona y ocultar una instrucción poco clara.",
+        "lines": 4
+      },
+      {
+        "id": "una-brujula-para-el-ensayo-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué quiere decir «referencia» cuando la guía habla de una ventana, una estantería o una cinta?",
+        "answer": "Un objeto o una marca que sirve para localizar un lado del espacio.",
+        "lines": 2
+      },
+      {
+        "id": "una-brujula-para-el-ensayo-q4",
+        "type": "structure",
+        "prompt": "¿Por qué se anotan los desplazamientos en el guion después de probarlos?",
+        "answer": "Primero se comprueba que la indicación se entiende. Después se registra en el lugar exacto en que hará falta durante la obra.",
+        "lines": 3
+      },
+      {
+        "id": "una-brujula-para-el-ensayo-q5",
+        "type": "inference",
+        "prompt": "¿Qué ventaja tiene pedir la última prueba a alguien que no vio el ensayo?",
+        "answer": "Puede descubrir instrucciones que solo se entienden si ya sabes de memoria lo que ocurrió antes.",
+        "lines": 3
+      },
+      {
+        "id": "una-brujula-para-el-ensayo-q6",
+        "type": "opinion",
+        "prompt": "Si el salón tiene puertas casi idénticas a cada lado, ¿qué marcas colocarías? Explica por qué serían fáciles de distinguir desde las butacas.",
+        "answer": "Respuesta abierta. Por ejemplo, dos cintas muy distintas con palabras o símbolos grandes, visibles a distancia.",
+        "lines": 4
+      }
+    ]
+  },
 ];
