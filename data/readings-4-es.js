@@ -625,4 +625,72 @@ export const readings4Es = [
       }
     ]
   },
+  {
+    "id": "una-funda-para-la-semilla-es",
+    "code": "L030",
+    "workId": "una-funda-para-la-semilla",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "nature",
+      "science"
+    ],
+    "genre": "informative",
+    "title": "Una funda para la semilla",
+    "summary": "Abrir una vaina seca permite observar cómo guarda sus semillas una planta del huerto.",
+    "paragraphs": [
+      "En el huerto de la escuela, la maestra dejó sin recoger algunas judías verdes. Los alumnos pensaron que se le habían olvidado. Dos semanas más tarde, les pidió que se acercaran a la planta. Las vainas que habían quedado ya no eran verdes ni blandas: tenían un color pardo y crujían al tocarlas.",
+      "La vaina es el fruto de la planta de la judía. Las semillas crecen en su interior. Mientras es joven, la vaina suele estar tierna. Al secarse, se vuelve dura y, en algunas plantas, puede abrirse por sí sola. Por eso la maestra recogió las vainas secas sobre una bandeja antes de que se perdieran las semillas.",
+      "Los niños abrieron una vaina y observaron seis semillas. Cada una estaba sujeta por un punto pequeño. Las dejaron en un plato durante unos días para asegurarse de que estaban secas. Luego las guardaron en un sobre con el nombre de la planta y el mes en que las habían recogido.",
+      "En primavera, la clase sembrará algunas de esas judías. Si germinan, de cada semilla saldrá una nueva planta. El sobre servirá para saber qué están sembrando, aunque hayan pasado varios meses desde la recogida."
+    ],
+    "images": [
+      {
+        "id": "una-funda-para-la-semilla",
+        "src": "assets/readings/l030-una-funda-para-la-semilla.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Una vaina seca de judía, abierta sobre una bandeja, deja ver seis semillas.",
+        "afterParagraph": 3
+      }
+    ],
+    "questions": [
+      {
+        "id": "una-funda-para-la-semilla-q1",
+        "type": "literal",
+        "prompt": "¿Qué dos cambios vieron los alumnos en las vainas que se habían quedado en la planta?",
+        "answer": "Pasaron de verdes a pardas y se volvieron duras o crujientes, en vez de blandas.",
+        "lines": 2
+      },
+      {
+        "id": "una-funda-para-la-semilla-q2",
+        "type": "vocabulary",
+        "prompt": "¿Qué quiere decir que una semilla «germina»?",
+        "answer": "Que empieza a crecer y de ella sale una planta nueva.",
+        "lines": 2
+      },
+      {
+        "id": "una-funda-para-la-semilla-q3",
+        "type": "inference",
+        "prompt": "¿Por qué puso la maestra una bandeja debajo al recoger las vainas secas?",
+        "answer": "Porque algunas podían abrirse y la bandeja impediría que las semillas cayeran al suelo y se perdieran.",
+        "lines": 3
+      },
+      {
+        "id": "una-funda-para-la-semilla-q4",
+        "type": "literal",
+        "prompt": "¿Qué dos datos escribieron en el sobre?",
+        "answer": "El nombre de la planta y el mes de la recogida.",
+        "lines": 2
+      },
+      {
+        "id": "una-funda-para-la-semilla-q5",
+        "type": "structure",
+        "prompt": "Ordena las acciones: guardar las semillas, abrir la vaina y dejar secar las semillas en un plato.",
+        "answer": "Abrir la vaina, dejar secar las semillas en un plato y guardarlas en el sobre.",
+        "lines": 2
+      }
+    ]
+  },
 ];
