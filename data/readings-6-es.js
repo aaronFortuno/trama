@@ -229,4 +229,81 @@ export const readings6Es = [
       }
     ]
   },
+  {
+    "id": "la-caja-de-los-sonidos-prestados-es",
+    "code": "L064",
+    "workId": "la-caja-de-los-sonidos-prestados",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "arts",
+      "history"
+    ],
+    "genre": "interview",
+    "title": "La caja de los sonidos prestados",
+    "summary": "Una técnica explica cómo grabaron sonidos cotidianos y por qué decidieron documentar cada toma.",
+    "paragraphs": [
+      "Entrevista ficticia para una revista escolar. El centro cultural del barrio ha preparado una exposición para su taller de radio. En lugar de reunir herramientas, muestra sus sonidos. Entrevistamos a Nuria, la técnica que ayudó a preparar el proyecto con un grupo de sexto.",
+      "—¿Qué fue lo primero que grabasteis? —Una persiana que se levanta en el taller de Lidia. Colocamos el micrófono cerca del motor. La grabación salió clara, pero en el aula casi nadie reconoció el sonido. Los alumnos que pasaban por la calle recordaban sobre todo el golpe de la barra al final y el eco entre las casas.",
+      "—¿Volvisteis al taller? —Sí. Esta vez hicimos dos tomas seguidas, una junto al motor y otra desde la acera. Lidia repitió el mismo movimiento. Desde fuera se oían también unas ruedas y un saludo. Dejamos ese fondo porque formaba parte de lo que la gente escuchaba al pasar.",
+      "—¿Cómo evitasteis que quien escucha confunda esas ruedas con la persiana? —Cada grabación va acompañada por una ficha. Anotamos la hora, la posición del micrófono y lo que ocurrió en ese momento. Cuando había dudas, pedíamos a dos alumnos que escucharan la toma por separado. Si oían cosas distintas, volvíamos a la ficha o a la persona que había hecho el sonido.",
+      "—¿Se puede oír todo lo que grabasteis? —De la calle usamos los saludos de personas que aceptaron que apareciera su voz. También hicimos una toma de un portón sin avisar a quienes hablaban al lado. La borramos. Luego pedimos permiso para volver con la grabadora y colocamos el micrófono de modo que recogiera el portón.",
+      "—¿Qué os falta? —Queremos grabar la campana de un patio cuando está vacío y cuando salen los niños. Antes de encender el equipo, decidiremos qué necesitamos recoger y desde dónde podemos hacerlo."
+    ],
+    "images": [
+      {
+        "id": "la-caja-de-los-sonidos-prestados",
+        "src": "assets/readings/l064-la-caja-de-los-sonidos-prestados.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Una técnica sostiene un micrófono cerca de la persiana de un taller.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "la-caja-de-los-sonidos-prestados-q1",
+        "type": "literal",
+        "prompt": "¿Desde qué dos lugares grabaron la persiana en la segunda visita?",
+        "answer": "Junto al motor y desde la acera.",
+        "lines": 1
+      },
+      {
+        "id": "la-caja-de-los-sonidos-prestados-q2",
+        "type": "inference",
+        "prompt": "¿Por qué una toma clara podía resultar difícil de reconocer para el alumnado?",
+        "answer": "Se oía bien el motor, pero la toma no incluía los rasgos que recordaban al pasar por la calle: el golpe de la barra y el eco.",
+        "lines": 4
+      },
+      {
+        "id": "la-caja-de-los-sonidos-prestados-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué quiere decir «toma» en esta entrevista?",
+        "answer": "Cada grabación hecha desde una posición y en un momento concretos.",
+        "lines": 2
+      },
+      {
+        "id": "la-caja-de-los-sonidos-prestados-q4",
+        "type": "structure",
+        "prompt": "¿Qué cuestión nueva introduce la pregunta «¿Se puede oír todo lo que grabasteis?»?",
+        "answer": "Introduce la decisión sobre qué pueden compartir y la necesidad de pedir permiso para usar voces.",
+        "lines": 3
+      },
+      {
+        "id": "la-caja-de-los-sonidos-prestados-q5",
+        "type": "inference",
+        "prompt": "¿Cómo podría una ficha ayudar a resolver un desacuerdo sobre un sonido? Describe un caso posible a partir del texto.",
+        "answer": "Si alguien cree que un ruido viene de la persiana, la ficha puede indicar que pasó un vehículo con ruedas durante la toma.",
+        "lines": 4
+      },
+      {
+        "id": "la-caja-de-los-sonidos-prestados-q6",
+        "type": "summary",
+        "prompt": "Explica para qué conservaron grabaciones distintas del mismo objeto y qué datos permiten compararlas.",
+        "answer": "Dos posiciones muestran sonidos diferentes de la misma acción. La ficha permite comparar hora, lugar del micrófono y otros sucesos de la grabación.",
+        "lines": 4
+      }
+    ]
+  },
 ];
