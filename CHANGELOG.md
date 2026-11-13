@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.13 · 13 de novembre de 2026
+
+El catàleg incorpora lectures de 4t de primària en castellà. La primera és L021, «El abrigo del perchero», amb una il·lustració en blanc i negre i solucionari.
+
 ## 1.12.3 · 13 de novembre de 2026
 
 La lectura L001, «El cartel de la plaza», incorpora una pregunta nova i una quarta pregunta d’inferència.

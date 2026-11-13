@@ -2,6 +2,7 @@ import { readings5Es } from './readings-5-es.js';
 import { moreReadings5Es } from './readings-5-es-2.js';
 import { readings5EsThirdSeries } from './readings-5-es-3.js';
 import { readings5EsFourthSeries } from './readings-5-es-4.js';
+import { readings4Es } from './readings-4-es.js';
 
 export const readings = [
   {
@@ -178,4 +179,5 @@ export const readings = [
   ...moreReadings5Es,
   ...readings5EsThirdSeries,
   ...readings5EsFourthSeries,
+  ...readings4Es,
 ];
