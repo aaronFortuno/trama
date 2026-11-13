@@ -550,4 +550,79 @@ export const readings4Es = [
       }
     ]
   },
+  {
+    "id": "un-alto-en-el-camino-es",
+    "code": "L029",
+    "workId": "un-alto-en-el-camino",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "adventure",
+      "nature"
+    ],
+    "genre": "narrative",
+    "title": "Un alto en el camino",
+    "summary": "En una excursión, un camino encharcado pone a prueba un plano dibujado a mano.",
+    "paragraphs": [
+      "El abuelo de Lidia había dibujado un plano para llegar a la fuente del Haya. Tenía tres señales: una cerca de madera, un puente y una roca con forma de silla. Desde la roca, el camino bajaba hasta la fuente. Lidia guardó el plano en el bolsillo delantero de la mochila.",
+      "Después del puente, Lidia y su padre vieron que el sendero estaba cubierto de barro. A un lado salía un camino más seco, marcado con una raya amarilla en una piedra. Lidia quiso seguirlo. Su padre le pidió que se detuviera y mirase el plano antes de decidir.",
+      "En el papel no aparecía la raya amarilla. Pero, junto al puente, el abuelo había escrito: «Si hay mucho barro, vuelve hasta la cerca y toma la subida». Lidia recordó que habían pasado junto a una abertura en la cerca sin prestarle atención. Volvieron sobre sus pasos y encontraron un camino que subía.",
+      "Desde arriba vieron la roca con forma de silla, justo después del tramo embarrado. Pudieron seguir hasta la fuente sin mancharse los zapatos. A la vuelta, Lidia añadió una flecha al plano junto a la abertura de la cerca. Era el lugar donde más falta le habría hecho verla."
+    ],
+    "images": [
+      {
+        "id": "un-alto-en-el-camino",
+        "src": "assets/readings/l029-un-alto-en-el-camino.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Lidia y su padre miran un plano junto a un puente de madera. El sendero que tienen delante está lleno de charcos.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "un-alto-en-el-camino-q1",
+        "type": "literal",
+        "prompt": "¿Qué tres señales había dibujado el abuelo en el plano?",
+        "answer": "Una cerca de madera, un puente y una roca con forma de silla.",
+        "lines": 2
+      },
+      {
+        "id": "un-alto-en-el-camino-q2",
+        "type": "inference",
+        "prompt": "¿Qué dato del plano les ayudó a elegir un camino para evitar el barro?",
+        "answer": "La nota decía que, si había mucho barro, debían volver hasta la cerca y tomar la subida.",
+        "lines": 3
+      },
+      {
+        "id": "un-alto-en-el-camino-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué hicieron al volver «sobre sus pasos»?",
+        "answer": "Regresaron por el mismo camino por el que habían venido.",
+        "lines": 2
+      },
+      {
+        "id": "un-alto-en-el-camino-q4",
+        "type": "structure",
+        "prompt": "¿Qué ocurrió primero: vieron la roca o volvieron hasta la cerca?",
+        "answer": "Primero volvieron hasta la cerca. Después, al subir, vieron la roca.",
+        "lines": 2
+      },
+      {
+        "id": "un-alto-en-el-camino-q5",
+        "type": "inference",
+        "prompt": "¿Por qué Lidia añadió la flecha justo junto a la abertura de la cerca?",
+        "answer": "Era el punto donde empezaba el desvío, y en la ida habían pasado de largo sin fijarse.",
+        "lines": 3
+      },
+      {
+        "id": "un-alto-en-el-camino-q6",
+        "type": "opinion",
+        "prompt": "¿Qué añadirías al plano para que otra persona sepa dónde acaba el tramo de barro?",
+        "answer": "Respuesta abierta. Puede dibujar una señal de barro desde el puente hasta la roca o poner junto a la roca una nota que diga «Aquí acaba el tramo de barro».",
+        "lines": 3
+      }
+    ]
+  },
 ];
