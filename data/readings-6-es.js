@@ -1219,4 +1219,80 @@ export const readings6Es = [
       }
     ]
   },
+  {
+    "id": "quien-usa-la-pista-es",
+    "code": "L077",
+    "workId": "quien-usa-la-pista",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "math",
+      "community"
+    ],
+    "genre": "informative",
+    "title": "¿Quién usa la pista?",
+    "summary": "Dos recuentos del mismo espacio llevan a una asamblea a preguntar qué personas y qué momentos faltan en sus datos.",
+    "paragraphs": [
+      "En una asamblea de sexto surgió una pregunta: ¿quién usa la pista durante el recreo? Un grupo quería seguir reservando la mitad para juegos de pelota. Otro pedía abrir un espacio para saltar a la cuerda. Como no se pusieron de acuerdo, dos equipos observaron la pista y llevaron sus datos a la siguiente reunión.",
+      "El primer equipo hizo un recuento cuando empezó el recreo. Anotó veinticuatro jugadores en la pista y seis personas junto a la valla. El segundo equipo llegó diez minutos después. En ese momento había doce personas jugando. Anotó también que dos niñas esperaban con una cuerda y que otras tres salieron hacia el patio pequeño sin entrar en la pista.",
+      "En la reunión, alguien sumó veinticuatro y doce y dijo que ese día habían jugado treinta y seis personas. El primer equipo señaló que no había seguido a cada participante. Algunas personas podían aparecer en ambos recuentos. A su vez, los datos no aclaraban por qué estaban junto a la valla las seis del primer momento: podían estar esperando, mirando o hablando.",
+      "Decidieron preparar una observación distinta. Durante varios recreos anotarían, cada cinco minutos, qué zonas se usaban y para qué. Una parte del equipo preguntaría en la salida si alguien había querido jugar y no había encontrado espacio. Para que las respuestas no dependieran de una sola clase, preguntarían a grupos de edades distintas.",
+      "Antes de recibir los nuevos datos, la asamblea propuso probar una semana con dos zonas: una para jugar con pelota y otra para juegos elegidos cada día. Al terminar compararían si se había usado cada zona y escucharían a quienes habían dejado de acercarse. Querían decidir la distribución con información de quienes jugaban y de quienes esperaban."
+    ],
+    "images": [
+      {
+        "id": "quien-usa-la-pista",
+        "src": "assets/readings/l077-quien-usa-la-pista.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "En el recreo, un grupo juega en la pista mientras dos alumnos observan desde la valla.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "quien-usa-la-pista-q1",
+        "type": "literal",
+        "prompt": "¿Qué anotó el segundo equipo sobre las niñas que llevaban una cuerda?",
+        "answer": "Que dos niñas esperaban con una cuerda.",
+        "lines": 1
+      },
+      {
+        "id": "quien-usa-la-pista-q2",
+        "type": "inference",
+        "prompt": "¿Por qué la suma de veinticuatro y doce no permite afirmar que jugaron treinta y seis personas distintas?",
+        "answer": "Los recuentos se hicieron en momentos diferentes y algunas personas pueden estar incluidas en ambos.",
+        "lines": 3
+      },
+      {
+        "id": "quien-usa-la-pista-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «distribución» en el último párrafo?",
+        "answer": "La manera de repartir el espacio entre distintos usos o juegos.",
+        "lines": 2
+      },
+      {
+        "id": "quien-usa-la-pista-q4",
+        "type": "structure",
+        "prompt": "¿Para qué se presenta lo que alguien dijo en la reunión antes de explicar la nueva observación?",
+        "answer": "Muestra un error de interpretación y hace visible qué información falta. Eso explica el nuevo método.",
+        "lines": 3
+      },
+      {
+        "id": "quien-usa-la-pista-q5",
+        "type": "inference",
+        "prompt": "¿Qué información aporta preguntar a la salida que no aporta mirar la pista cada cinco minutos?",
+        "answer": "Permite saber si alguien quería jugar y no encontró espacio, incluso si nunca llegó a entrar o se fue a otro patio.",
+        "lines": 4
+      },
+      {
+        "id": "quien-usa-la-pista-q6",
+        "type": "summary",
+        "prompt": "Resume qué medirían durante la semana de prueba y cómo usarían esos datos.",
+        "answer": "Mirarían cuándo y para qué se usa cada zona y recogerían la experiencia de quienes esperan o dejan de acercarse. Usarían esa información para decidir cómo repartir la pista.",
+        "lines": 4
+      }
+    ]
+  },
 ];
