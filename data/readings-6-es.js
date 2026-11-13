@@ -838,4 +838,80 @@ export const readings6Es = [
       }
     ]
   },
+  {
+    "id": "un-camino-en-la-oscuridad-es",
+    "code": "L072",
+    "workId": "un-camino-en-la-oscuridad",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "nature",
+      "science"
+    ],
+    "genre": "informative",
+    "title": "Un camino en la oscuridad",
+    "summary": "Un grupo prueba dos maneras de iluminar un sendero y descubre que sus conclusiones dependen del lugar desde el que observa.",
+    "paragraphs": [
+      "En la zona de huertos había un camino corto entre el aparcamiento y la caseta de herramientas. En invierno, algunas personas regresaban cuando ya había anochecido. El grupo que cuidaba el terreno quería iluminar los tres escalones del acceso. Desde el huerto vecino pidieron que la luz no diera de frente a las ventanas.",
+      "Para probar la dirección de la luz, colocaron la misma lámpara en dos soportes a la misma altura. El primer soporte la dejaba apuntar hacia delante. En el segundo, una pequeña pantalla dirigía la luz hacia los escalones. Hicieron las pruebas la misma noche y dejaron unos minutos entre una y otra para anotar sus impresiones.",
+      "Marcelo caminó desde el aparcamiento. Con la primera posición veía el farol enseguida, pero le costaba distinguir dónde empezaba el primer escalón. Elena observaba desde la caseta. Desde allí podía ver bien los peldaños en ambas pruebas. A ella le había parecido que daba igual cómo estuviera colocado el farol, hasta que intercambió su lugar con Marcelo y vio la luz de frente.",
+      "Desde una de las ventanas, la vecina miró también hacia el camino. Con la segunda posición distinguía un reflejo pequeño en el suelo. Durante la primera prueba veía el centro brillante de la lámpara. El grupo preparó un plano de las tres posiciones desde las que habían observado y anotó qué partes podían ver en cada una.",
+      "El ensayo duró una noche seca. Todavía no habían probado el acceso con niebla ni cuando el suelo mojado refleja la luz. Antes de decidir, querían comprobar si la segunda posición seguía dejando ver bien los bordes de los escalones. En la próxima prueba señalarían esos bordes de la misma manera en las dos versiones, para poder comparar la luz."
+    ],
+    "images": [
+      {
+        "id": "un-camino-en-la-oscuridad",
+        "src": "assets/readings/l072-un-camino-en-la-oscuridad.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Un farol ilumina los escalones de un camino entre los huertos, cerca de una caseta.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "un-camino-en-la-oscuridad-q1",
+        "type": "literal",
+        "prompt": "¿Qué objetivo tenía el grupo que cuidaba los huertos? ¿Qué pidió el huerto vecino?",
+        "answer": "Quería iluminar los tres escalones. El huerto vecino pidió que la luz no diera de frente a las ventanas.",
+        "lines": 2
+      },
+      {
+        "id": "un-camino-en-la-oscuridad-q2",
+        "type": "inference",
+        "prompt": "¿Por qué Elena cambió de parecer cuando intercambió su lugar con Marcelo?",
+        "answer": "Desde la caseta distinguía los peldaños con las dos posiciones. Desde el aparcamiento, la luz de frente dificultaba ver el primer escalón.",
+        "lines": 4
+      },
+      {
+        "id": "un-camino-en-la-oscuridad-q3",
+        "type": "vocabulary",
+        "prompt": "¿A qué se refiere «pantalla» en este texto?",
+        "answer": "A una pieza que cambia hacia dónde sale la luz de la lámpara, en este caso hacia los escalones.",
+        "lines": 2
+      },
+      {
+        "id": "un-camino-en-la-oscuridad-q4",
+        "type": "structure",
+        "prompt": "¿Para qué sirve el último párrafo después de presentar lo que vio la vecina?",
+        "answer": "Explica los límites de la prueba de una sola noche seca y plantea qué falta comprobar antes de decidir.",
+        "lines": 3
+      },
+      {
+        "id": "un-camino-en-la-oscuridad-q5",
+        "type": "inference",
+        "prompt": "¿Por qué mantendrán igual la señalización de los bordes durante las dos pruebas futuras?",
+        "answer": "Si cambia la marca además de la lámpara, no podrán saber cuál de los cambios les permitió ver mejor.",
+        "lines": 4
+      },
+      {
+        "id": "un-camino-en-la-oscuridad-q6",
+        "type": "summary",
+        "prompt": "Resume el resultado provisional y la comprobación que aún necesita el grupo.",
+        "answer": "La segunda posición deja menos luz directa hacia la ventana y permite ver mejor desde el aparcamiento. Deben probar si los bordes se ven en otras condiciones.",
+        "lines": 4
+      }
+    ]
+  },
 ];
