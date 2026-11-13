@@ -1372,4 +1372,82 @@ export const readings6Es = [
       }
     ]
   },
+  {
+    "id": "bicicletas-bajo-la-lluvia-es",
+    "code": "L079",
+    "workId": "bicicletas-bajo-la-lluvia",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "community",
+      "everyday"
+    ],
+    "genre": "letter",
+    "title": "Bicicletas bajo la lluvia",
+    "summary": "Dos estudiantes proponen aprovechar un refugio existente y justifican por qué todavía necesitan hacer una prueba bajo la lluvia.",
+    "paragraphs": [
+      "Al consejo de la escuela:",
+      "Queremos proponer una mejora para el aparcamiento de bicicletas. El viernes esperamos bajo el refugio que hay detrás del gimnasio. La cubierta tiene una inclinación hacia el patio. Debajo caben seis bicicletas, pero después de llover encontramos mojados tres sillines. Al principio pensamos que la cubierta tenía agujeros.",
+      "El lunes observamos el refugio desde un lugar seco mientras llovía. Vimos que caía una línea de agua desde el borde de la cubierta. El agua golpeaba el suelo y salpicaba las bicicletas más cercanas al borde. Además, por uno de los lados entraban gotas cuando soplaba el viento. Las bicicletas del fondo seguían secas. Dibujamos el refugio y marcamos dónde estaban colocadas las ruedas.",
+      "En el dibujo adjunto proponemos mover el soporte un poco hacia dentro. Con ese cambio quedarían protegidos los sillines en el lugar donde vimos salpicaduras. Nos preocupa, sin embargo, que quede menos espacio para girar una bicicleta y sacarla cuando el soporte esté lleno. Para comprobarlo podríamos marcar con tiza la posición nueva y probar primero con bicicletas de tamaños distintos.",
+      "También hemos pensado en recoger el agua del borde con un canal que la lleve hasta la zona de plantas. No sabemos si la cubierta permite sujetar un canal sin hacerle agujeros. Si se puede probar con una pieza provisional, proponemos observar si se desborda cuando llueve fuerte y si el agua se queda acumulada en el paso.",
+      "Les pedimos que nos dejen hacer la prueba de la tiza con el conserje. Después podemos anotar dónde se mojan las bicicletas y cuánto espacio queda para moverlas. Nos gustaría que el refugio sirviera también a quienes traen una bicicleta grande o necesitan más sitio para maniobrar.",
+      "Gracias por su tiempo. Irene y Valerio."
+    ],
+    "images": [
+      {
+        "id": "bicicletas-bajo-la-lluvia",
+        "src": "assets/readings/l079-bicicletas-bajo-la-lluvia.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "El agua cae del borde de la cubierta y salpica las bicicletas más cercanas.",
+        "afterParagraph": 3
+      }
+    ],
+    "questions": [
+      {
+        "id": "bicicletas-bajo-la-lluvia-q1",
+        "type": "literal",
+        "prompt": "¿Hacia qué lado está inclinada la cubierta y cuántos sillines encontraron mojados?",
+        "answer": "Hacia el patio. Encontraron tres sillines mojados.",
+        "lines": 2
+      },
+      {
+        "id": "bicicletas-bajo-la-lluvia-q2",
+        "type": "inference",
+        "prompt": "¿Qué vieron el lunes que ofrece otra explicación distinta de los agujeros en la cubierta?",
+        "answer": "El agua caía por el borde y salpicaba desde el suelo. También entraban gotas por un lado cuando soplaba el viento.",
+        "lines": 4
+      },
+      {
+        "id": "bicicletas-bajo-la-lluvia-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «maniobrar» cuando hablan de las bicicletas?",
+        "answer": "Mover, girar o sacar una bicicleta del espacio donde está aparcada.",
+        "lines": 2
+      },
+      {
+        "id": "bicicletas-bajo-la-lluvia-q4",
+        "type": "structure",
+        "prompt": "¿Qué dos apartados de la carta proponen soluciones distintas y a qué problema responde cada uno?",
+        "answer": "Mover el soporte intenta alejar las bicicletas de las salpicaduras. El canal recogería el agua de la cubierta y la llevaría hacia las plantas.",
+        "lines": 4
+      },
+      {
+        "id": "bicicletas-bajo-la-lluvia-q5",
+        "type": "inference",
+        "prompt": "¿Por qué tiene sentido usar bicicletas de tamaños distintos antes de mover el soporte?",
+        "answer": "Algunas necesitan más espacio para girar. La prueba comprueba si el cambio protege del agua sin dificultar sacar bicicletas grandes.",
+        "lines": 4
+      },
+      {
+        "id": "bicicletas-bajo-la-lluvia-q6",
+        "type": "opinion",
+        "prompt": "¿Qué dato pedirías que anotaran durante una lluvia fuerte antes de decidir si instalan el canal? Justifica tu elección.",
+        "answer": "Respuesta abierta. Por ejemplo, si el agua se acumula en la zona de paso, porque entonces el canal resolvería un problema y crearía otro.",
+        "lines": 4
+      }
+    ]
+  },
 ];
