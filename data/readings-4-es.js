@@ -831,4 +831,72 @@ export const readings4Es = [
       }
     ]
   },
+  {
+    "id": "la-ultima-parada-es",
+    "code": "L033",
+    "workId": "la-ultima-parada",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "community",
+      "everyday"
+    ],
+    "genre": "narrative",
+    "title": "La última parada",
+    "summary": "Un cambio de recorrido obliga a dos hermanos a combinar lo que dice un aviso con lo que ya saben del barrio.",
+    "paragraphs": [
+      "Joel y Sara tomaban el autobús los viernes para ir a natación. Aquella tarde, el conductor señaló un aviso pegado a la entrada: «Por obras, el autobús termina en la plaza Mayor». Su parada habitual estaba dos calles más allá de la plaza, enfrente de la piscina.",
+      "Al llegar a la última parada, Sara vio las vallas de la obra. La calle por la que iban normalmente estaba cortada. Joel sacó el plano pequeño que guardaba en la mochila. Podían dar la vuelta por la calle del Molino, pero desde donde estaban no se veía por dónde empezaba.",
+      "Junto a la parada, una mujer paseaba a su perro. Joel le preguntó cómo llegar a la calle del Molino. La mujer señaló un paso estrecho detrás de una papelería. Sara miró el plano y reconoció el nombre de la papelería, que estaba junto al comienzo de la calle.",
+      "El paso era corto. En la esquina encontraron la calle del Molino y rodearon las vallas. Llegaron a la piscina cinco minutos más tarde de lo normal. En el vestuario, Sara dibujó una línea pequeña en el plano. «Por si el viernes que viene las obras siguen aquí», dijo."
+    ],
+    "images": [
+      {
+        "id": "la-ultima-parada",
+        "src": "assets/readings/l033-la-ultima-parada.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Joel y Sara consultan un plano junto al autobús. Unas vallas de obra cierran una calle de la plaza.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "la-ultima-parada-q1",
+        "type": "literal",
+        "prompt": "¿Por qué terminaba antes el recorrido del autobús?",
+        "answer": "Porque había obras.",
+        "lines": 1
+      },
+      {
+        "id": "la-ultima-parada-q2",
+        "type": "inference",
+        "prompt": "¿Por qué no bastaba con caminar las dos calles que quedaban desde la plaza?",
+        "answer": "La calle por la que iban normalmente estaba cortada por las vallas de la obra.",
+        "lines": 2
+      },
+      {
+        "id": "la-ultima-parada-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué quiere decir que la calle estaba «cortada»?",
+        "answer": "Que no se podía pasar por ella.",
+        "lines": 2
+      },
+      {
+        "id": "la-ultima-parada-q4",
+        "type": "inference",
+        "prompt": "¿Qué información encontraron en el plano y qué información les dio la mujer para llegar a la calle del Molino?",
+        "answer": "El plano mostraba que podían ir por la calle del Molino y que empezaba junto a la papelería. La mujer les explicó que podían llegar a la calle desde la parada usando el paso de detrás de la papelería.",
+        "lines": 3
+      },
+      {
+        "id": "la-ultima-parada-q5",
+        "type": "opinion",
+        "prompt": "Si tuvieses que avisar a un compañero que viene después en el mismo autobús, ¿qué dos datos le enviarías primero? Explica tu elección.",
+        "answer": "Respuesta abierta. Por ejemplo, que baje en la plaza Mayor y busque el paso detrás de la papelería, porque el autobús acaba allí y la calle habitual está cortada.",
+        "lines": 4
+      }
+    ]
+  },
 ];
