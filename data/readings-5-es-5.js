@@ -761,4 +761,79 @@ export const readings5EsFifthSeries = [
       }
     ]
   },
+  {
+    "id": "las-letras-de-la-corteza-es",
+    "code": "L051",
+    "workId": "las-letras-de-la-corteza",
+    "language": "es",
+    "level": "5-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "nature",
+      "history"
+    ],
+    "genre": "informative",
+    "title": "Las letras de la corteza",
+    "summary": "Una marca antigua en un tronco enseña a distinguir lo que sabemos por observación de lo que necesitamos comprobar con otros documentos.",
+    "paragraphs": [
+      "En el paseo junto a la estación hay tres plátanos grandes. En el tronco del que queda más cerca del paso de peatones se ven dos trazos que recuerdan a una M. Cuando los alumnos de quinto salieron a buscar señales antiguas del barrio, Celia dijo que alguien debía de haber escrito su inicial. Su compañero Álex pensó que podía ser una grieta.",
+      "Para mirar sin dañar la corteza, se situaron al otro lado del sendero y esperaron a que llegara el sol de la tarde. Con la luz de lado, uno de los bordes de la marca se veía más alto que el otro. Fotografiarla desde el mismo lugar a dos horas distintas les permitió comparar. A mediodía la parte hundida apenas se distinguía.",
+      "La profesora les mostró una foto del archivo municipal tomada hacía diecisiete años. En ella aparecía el mismo árbol, reconocible por una rama gruesa que salía hacia la estación. La M se veía cerca de un letrero de madera. En la foto actual el letrero ya no estaba. Ninguna de las dos imágenes mostraba quién había hecho la marca ni con qué herramienta.",
+      "En su cuaderno, el grupo puso la foto antigua y la actual una junto a otra. Escribió que la marca existía al menos desde la fecha de la foto del archivo. Debajo dejó una pregunta para el personal de la estación: «¿Alguien recuerda si la marca estaba relacionada con el letrero?»."
+    ],
+    "images": [
+      {
+        "id": "las-letras-de-la-corteza",
+        "src": "assets/readings/l051-las-letras-de-la-corteza.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Dos alumnos observan la corteza de un plátano a la luz de la tarde, sin tocarla.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "las-letras-de-la-corteza-q1",
+        "type": "literal",
+        "prompt": "¿Dónde está el árbol que observan los alumnos?",
+        "answer": "En el paseo junto a la estación, cerca del paso de peatones.",
+        "lines": 1
+      },
+      {
+        "id": "las-letras-de-la-corteza-q2",
+        "type": "inference",
+        "prompt": "¿Qué detalle de la foto antigua les ayuda a identificar que se trata del mismo árbol?",
+        "answer": "La rama gruesa que sale en dirección a la estación.",
+        "lines": 2
+      },
+      {
+        "id": "las-letras-de-la-corteza-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa que a mediodía la parte hundida «apenas se distinguía»?",
+        "answer": "Que era difícil verla o diferenciarla del resto de la corteza.",
+        "lines": 2
+      },
+      {
+        "id": "las-letras-de-la-corteza-q4",
+        "type": "structure",
+        "prompt": "¿Qué información aportan las fotos del mismo día y cuál aporta la foto del archivo?",
+        "answer": "Las fotos del día permiten comparar cómo se ve el relieve con distinta luz. La del archivo demuestra que la marca ya existía hace diecisiete años.",
+        "lines": 2
+      },
+      {
+        "id": "las-letras-de-la-corteza-q5",
+        "type": "inference",
+        "prompt": "¿Podrían afirmar que quien puso el letrero dibujó también la M? Razona tu respuesta.",
+        "answer": "No. Las fotos muestran que estaban cerca, pero no identifican a la persona que hizo la marca ni la relacionan con el letrero.",
+        "lines": 2
+      },
+      {
+        "id": "las-letras-de-la-corteza-q6",
+        "type": "opinion",
+        "prompt": "¿Qué pregunta concreta harías al personal de la estación para intentar averiguar algo más? Explica por qué.",
+        "answer": "Respuesta abierta. Por ejemplo, preguntaría qué decía el letrero, porque esa información podría dar una pista sobre la marca cercana.",
+        "lines": 3
+      }
+    ]
+  },
 ];
