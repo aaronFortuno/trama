@@ -67,4 +67,72 @@ export const readings4Es = [
       }
     ]
   },
+  {
+    "id": "un-bano-en-el-charco-es",
+    "code": "L022",
+    "workId": "un-bano-en-el-charco",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "initial",
+    "themes": [
+      "nature",
+      "science"
+    ],
+    "genre": "informative",
+    "title": "Un baño en el charco",
+    "summary": "La clase observa cómo un gorrión aprovecha un charco para bañarse y qué hace después con sus plumas.",
+    "paragraphs": [
+      "El martes, después de llover, quedó un charco poco profundo junto a la verja. Desde la ventana de clase, Marina vio a un gorrión acercarse a saltos. Pensó que iba a beber. El pájaro se metió en el agua, se agachó y movió las alas tan deprisa que saltaron gotas a los dos lados.",
+      "El gorrión salió del charco y se posó en la verja. Allí se sacudió y pasó el pico entre las plumas del pecho. Volvió al agua una vez más y repitió los mismos movimientos. Mientras tanto, otro gorrión se acercó a la orilla, mojó el pico y se marchó sin meterse en el charco.",
+      "Muchas aves aprovechan el agua para limpiar sus plumas. Al mojarse y sacudirse, pueden quitar parte del polvo que se les pega. Después usan el pico para colocar las plumas en su sitio. Marina anotó en su cuaderno qué había hecho cada uno de los dos pájaros.",
+      "Al día siguiente no quedaba agua junto a la verja. La clase guardó sus notas para comparar lo que vieran cuando volviera a formarse un charco."
+    ],
+    "images": [
+      {
+        "id": "un-bano-en-el-charco",
+        "src": "assets/readings/l022-un-bano-en-el-charco.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Un gorrión agita las alas y salpica agua en un charco junto a la verja del patio.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "un-bano-en-el-charco-q1",
+        "type": "literal",
+        "prompt": "¿Desde dónde observó Marina al primer gorrión?",
+        "answer": "Desde la ventana de clase.",
+        "lines": 1
+      },
+      {
+        "id": "un-bano-en-el-charco-q2",
+        "type": "literal",
+        "prompt": "¿Qué hizo el primer gorrión con el pico después de posarse en la verja?",
+        "answer": "Pasó el pico entre las plumas del pecho.",
+        "lines": 1
+      },
+      {
+        "id": "un-bano-en-el-charco-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa que el charco era «poco profundo»?",
+        "answer": "Que había poca distancia entre la superficie del agua y el fondo.",
+        "lines": 2
+      },
+      {
+        "id": "un-bano-en-el-charco-q4",
+        "type": "inference",
+        "prompt": "¿Qué hizo el primer gorrión que permite pensar que se bañaba y no solo bebía?",
+        "answer": "Se metió en el agua y agitó las alas hasta salpicar. Después se sacudió y se arregló las plumas.",
+        "lines": 3
+      },
+      {
+        "id": "un-bano-en-el-charco-q5",
+        "type": "structure",
+        "prompt": "¿En qué parte se explica para qué se bañan muchas aves: en el primer párrafo o en el tercero?",
+        "answer": "En el tercer párrafo.",
+        "lines": 1
+      }
+    ]
+  },
 ];
