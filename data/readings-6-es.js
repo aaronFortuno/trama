@@ -1142,4 +1142,81 @@ export const readings6Es = [
       }
     ]
   },
+  {
+    "id": "una-semana-sin-tocar-la-radio-es",
+    "code": "L076",
+    "workId": "una-semana-sin-tocar-la-radio",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "history",
+      "everyday"
+    ],
+    "genre": "letter",
+    "title": "Una semana sin tocar la radio",
+    "summary": "Una chica escribe a su tía para contarle por qué llevó una radio familiar al taller y qué parte de ella quería conservar.",
+    "paragraphs": [
+      "Querida tía Eva:",
+      "El sábado devolvimos la radio del abuelo a la estantería. Antes estuvo una semana entera sobre la mesa, con un papel que decía «No tocar». Lo puse yo. Pensaba que alguien podía encenderla y estropearla aún más. Hoy he quitado el papel y quiero explicarte qué hicimos.",
+      "Cuando la llevamos al taller del barrio, Miriam nos pidió que describiéramos el fallo. Le dije que la radio no sonaba. Mi padre añadió que, al girar la rueda, a veces aparecía un ruido breve. Miriam escribió ambas observaciones. Luego nos pidió permiso para abrir la tapa. Encontró una nota doblada en el interior: el abuelo había apuntado tres nombres de emisoras y, junto a uno de ellos, «domingo, después de comer».",
+      "Nos ofreció cambiar la rueda porque los números del dial se leían mal. En su caja había otra con números claros. Al mirarla de cerca, vi que la nuestra tenía una raya hecha con lápiz rojo cerca de una emisora. La nota mencionaba el nombre de esa emisora, aunque no decía para qué servía la raya. Le pregunté si podía reparar la radio y dejar la rueda original.",
+      "Ayer la probamos en casa. Se oye un programa de noticias y, al mover la rueda un poco, también encontramos música. No sabemos si la raya señala la frecuencia exacta que escuchaba el abuelo. Hemos fotografiado la nota y copiado las palabras en la libreta azul. Debajo escribí la fecha y lo que sabemos de la reparación.",
+      "Si recuerdas qué programa ponía los domingos, me gustaría anotarlo con tu nombre. También podemos escuchar juntas el próximo domingo y apuntar qué emite ahora la radio cerca de aquella marca. Un abrazo, Alma."
+    ],
+    "images": [
+      {
+        "id": "una-semana-sin-tocar-la-radio",
+        "src": "assets/readings/l076-una-semana-sin-tocar-la-radio.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Una radio antigua con ruedas de sintonía descansa sobre una mesa de madera.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "una-semana-sin-tocar-la-radio-q1",
+        "type": "literal",
+        "prompt": "¿Qué escribió el abuelo junto a uno de los nombres de emisoras?",
+        "answer": "«Domingo, después de comer».",
+        "lines": 1
+      },
+      {
+        "id": "una-semana-sin-tocar-la-radio-q2",
+        "type": "inference",
+        "prompt": "¿Por qué conviene que Miriam anote tanto lo que contó Alma como lo que observó su padre?",
+        "answer": "Alma describe el problema general y el padre aporta un detalle sobre cuándo se oye un ruido, que ayuda a precisar el fallo.",
+        "lines": 3
+      },
+      {
+        "id": "una-semana-sin-tocar-la-radio-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué es el «dial» de la radio según las pistas del texto?",
+        "answer": "La escala con números que ayuda a localizar una emisora al girar la rueda.",
+        "lines": 2
+      },
+      {
+        "id": "una-semana-sin-tocar-la-radio-q4",
+        "type": "structure",
+        "prompt": "¿Qué diferencia hay entre lo que pide Alma al final y lo que cuenta al principio?",
+        "answer": "Primero explica por qué protegió la radio y qué le ocurrió. Al final invita a la tía a aportar un recuerdo y a escuchar con ella.",
+        "lines": 3
+      },
+      {
+        "id": "una-semana-sin-tocar-la-radio-q5",
+        "type": "inference",
+        "prompt": "¿Qué relaciona la raya roja con la nota y qué no permite asegurar esa relación?",
+        "answer": "La raya está cerca de una emisora que figura en la nota. Eso no prueba qué programa escuchaba el abuelo ni para qué hizo la marca.",
+        "lines": 4
+      },
+      {
+        "id": "una-semana-sin-tocar-la-radio-q6",
+        "type": "opinion",
+        "prompt": "¿Guardarías la nota dentro de la radio o en un lugar accesible junto a ella? Justifica qué ganarías con esa decisión.",
+        "answer": "Respuesta abierta. Por ejemplo, guardar la nota aparte para protegerla y consultarla sin tener que abrir la radio.",
+        "lines": 4
+      }
+    ]
+  },
 ];
