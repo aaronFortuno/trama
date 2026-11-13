@@ -227,4 +227,84 @@ export const readings5EsFifthSeries = [
       }
     ]
   },
+  {
+    "id": "preguntas-a-una-afinadora-es",
+    "code": "L044",
+    "workId": "preguntas-a-una-afinadora",
+    "language": "es",
+    "level": "5-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "arts",
+      "everyday"
+    ],
+    "genre": "interview",
+    "title": "Preguntas a una afinadora",
+    "summary": "La revista de la escuela pregunta a una afinadora cómo reconoce y corrige una nota que suena de forma extraña.",
+    "paragraphs": [
+      "En el salón de actos de la escuela hay un piano que se toca en los conciertos de fin de trimestre. Esta vez, algunos alumnos notaron que una tecla sonaba rara. La revista escolar acompañó a Marta Vidal, la afinadora, mientras trabajaba.",
+      "—¿Qué hace una afinadora cuando llega?",
+      "—Empiezo preguntando qué han notado y en qué momento. Hoy me han dicho que la nota sonaba extraña incluso al tocarla sola. Luego escucho el piano antes de abrirlo. Si solo probara esa tecla, podría pasar por alto lo que ocurre en las de al lado.",
+      "—¿Abres el piano para cambiar las teclas?",
+      "—En este caso, no. Dentro hay cuerdas. Al tocar una tecla, un pequeño martillo golpea las cuerdas que le corresponden. Yo uso una llave para girar, con mucho cuidado, las clavijas que regulan su tensión. Un movimiento minúsculo puede cambiar el sonido.",
+      "—¿Y cómo sabes cuándo parar?",
+      "—Escucho cómo se combina esa nota con otras y la compruebo varias veces. Si estoy afinando una nota que tiene varias cuerdas, puedo silenciar algunas de ellas con cuñas para escuchar las demás por separado. Al final retiro las cuñas y compruebo el conjunto.",
+      "—¿Siempre trabajas sola?",
+      "—Necesito silencio para escuchar los detalles. Pero al acabar me gusta pedir a alguien que toque un fragmento que conozca bien. Hoy una alumna tocó el comienzo de la canción del concierto. Se detuvo, repitió el pasaje y dijo: «Ahora ya puedo pensar en cuándo entrar, porque esa nota ha dejado de distraerme»."
+    ],
+    "images": [
+      {
+        "id": "preguntas-a-una-afinadora",
+        "src": "assets/readings/l044-preguntas-a-una-afinadora.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Marta toca una tecla del piano y escucha con atención mientras una alumna toma notas.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "preguntas-a-una-afinadora-q1",
+        "type": "literal",
+        "prompt": "¿Quién acompaña a Marta durante la visita al salón de actos?",
+        "answer": "La revista escolar.",
+        "lines": 1
+      },
+      {
+        "id": "preguntas-a-una-afinadora-q2",
+        "type": "literal",
+        "prompt": "¿Qué mueve Marta con la llave y qué consigue al hacerlo?",
+        "answer": "Gira las clavijas para regular la tensión de las cuerdas y cambiar el sonido.",
+        "lines": 2
+      },
+      {
+        "id": "preguntas-a-una-afinadora-q3",
+        "type": "inference",
+        "prompt": "¿Por qué no empieza corrigiendo directamente la tecla señalada por los alumnos?",
+        "answer": "Primero quiere escuchar el piano completo para detectar si las teclas cercanas también presentan algún problema.",
+        "lines": 2
+      },
+      {
+        "id": "preguntas-a-una-afinadora-q4",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «pasar por alto» en la primera respuesta?",
+        "answer": "No advertir algo que también debería examinar o tener en cuenta.",
+        "lines": 2
+      },
+      {
+        "id": "preguntas-a-una-afinadora-q5",
+        "type": "structure",
+        "prompt": "¿Cómo se distingue quién pregunta y quién responde en la entrevista?",
+        "answer": "Las preguntas de la revista llevan signos de interrogación. Después de cada pregunta, Marta desarrolla su respuesta. Todas las intervenciones empiezan con una raya.",
+        "lines": 2
+      },
+      {
+        "id": "preguntas-a-una-afinadora-q6",
+        "type": "opinion",
+        "prompt": "Si pudieras añadir una pregunta a la entrevista, ¿cuál harías y para qué?",
+        "answer": "Respuesta abierta. Por ejemplo, preguntar qué cosas hacen que se desafine un piano para saber cómo cuidarlo.",
+        "lines": 3
+      }
+    ]
+  },
 ];
