@@ -149,4 +149,82 @@ export const readings5EsFifthSeries = [
       }
     ]
   },
+  {
+    "id": "una-carta-para-la-ultima-parada-es",
+    "code": "L043",
+    "workId": "una-carta-para-la-ultima-parada",
+    "language": "es",
+    "level": "5-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "community",
+      "everyday"
+    ],
+    "genre": "letter",
+    "title": "Una carta para la última parada",
+    "summary": "Dos estudiantes escriben al servicio de autobuses después de comprobar que el horario de una parada cuesta de leer.",
+    "paragraphs": [
+      "Estimado equipo de transportes:",
+      "Somos Malena y Hugo, de quinto de primaria. Desde septiembre volvemos juntos a casa en la línea 4. Les escribimos por el horario que está colocado en la última parada del barrio, frente al polideportivo. Cuando hay sol, el plástico que lo cubre refleja tanta luz que cuesta leerlo. Por la tarde, además, casi toda la sombra cae detrás del poste.",
+      "El miércoles pasado fuimos a mirar a qué hora pasaba el último autobús. Malena leyó que salía a las siete y veinte. Hugo pensó que salía a las siete y cincuenta. Cuando conseguimos leer la letra pequeña, entendimos que las siete y veinte eran la hora de salida de la estación. Nuestro autobús llegaba a la parada doce minutos más tarde.",
+      "Nos gustaría proponerles dos cambios. El primero sería que el horario indicase con letra grande las horas de paso por esa parada. El segundo sería poner una cubierta mate, de las que no reflejan tanto, o colocar el papel en la cara del poste que recibe menos sol. No sabemos cuál de esas dos soluciones sería más fácil.",
+      "Si necesitan comprobarlo, podemos enseñarles desde qué lado se ve peor. Los miércoles estamos allí entre las cinco y las cinco y media. Mientras tanto, hemos apuntado la hora en la agenda. De todas formas, la parada también la usan personas que no conocen la línea y quizá no puedan consultar el horario en el móvil.",
+      "Muchas gracias por leer nuestra propuesta.",
+      "Malena Ríos y Hugo Vidal"
+    ],
+    "images": [
+      {
+        "id": "una-carta-para-la-ultima-parada",
+        "src": "assets/readings/l043-una-carta-para-la-ultima-parada.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Malena y Hugo se acercan al horario de la parada de autobús, frente al polideportivo.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "una-carta-para-la-ultima-parada-q1",
+        "type": "literal",
+        "prompt": "¿A quién se dirige la carta y qué línea usan los dos estudiantes?",
+        "answer": "Al equipo de transportes. Usan la línea 4.",
+        "lines": 2
+      },
+      {
+        "id": "una-carta-para-la-ultima-parada-q2",
+        "type": "inference",
+        "prompt": "Si el último autobús sale de la estación a las 19:20, ¿a qué hora llega a la parada del polideportivo?",
+        "answer": "A las 19:32, doce minutos después.",
+        "lines": 2
+      },
+      {
+        "id": "una-carta-para-la-ultima-parada-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué quiere decir «mate» en esta carta?",
+        "answer": "Que la superficie brilla poco y refleja menos la luz.",
+        "lines": 2
+      },
+      {
+        "id": "una-carta-para-la-ultima-parada-q4",
+        "type": "structure",
+        "prompt": "¿Qué hacen los autores justo después de contar lo que pasó el miércoles?",
+        "answer": "Proponen dos cambios para mejorar el horario y cómo se lee.",
+        "lines": 2
+      },
+      {
+        "id": "una-carta-para-la-ultima-parada-q5",
+        "type": "inference",
+        "prompt": "¿Por qué anotarlo en sus agendas resuelve solo una parte del problema?",
+        "answer": "Les sirve a ellos, pero otras personas que usan la parada pueden seguir sin poder leer el horario.",
+        "lines": 2
+      },
+      {
+        "id": "una-carta-para-la-ultima-parada-q6",
+        "type": "opinion",
+        "prompt": "¿Cuál de los cambios relacionados con el reflejo probarías primero? Razona tu elección.",
+        "answer": "Respuesta abierta. Por ejemplo, probar la cara con menos sol permitiría comprobar si mejora la lectura antes de cambiar la cubierta.",
+        "lines": 3
+      }
+    ]
+  },
 ];
