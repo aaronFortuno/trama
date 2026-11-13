@@ -836,4 +836,83 @@ export const readings5EsFifthSeries = [
       }
     ]
   },
+  {
+    "id": "una-manana-detras-de-la-pantalla-es",
+    "code": "L052",
+    "workId": "una-manana-detras-de-la-pantalla",
+    "language": "es",
+    "level": "5-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "arts",
+      "community"
+    ],
+    "genre": "interview",
+    "title": "Una mañana detrás de la pantalla",
+    "summary": "Una proyeccionista cuenta cómo prepara una sesión y por qué una prueba con la sala vacía puede pasar por alto algunos detalles.",
+    "paragraphs": [
+      "En el cine del barrio han organizado una sesión para las escuelas. Antes de que empiece, Adriana, de la revista de quinto, sube a la cabina de proyección. Por una ventana pequeña se ve la pantalla y, al fondo, las butacas vacías. Eva, la proyeccionista, ha preparado una prueba.",
+      "—¿La película empieza cuando pulsas un botón?",
+      "—Ese es el último paso. Hoy he revisado el archivo de la película, la pista de sonido y los subtítulos. Después he proyectado un fragmento con una conversación y otro que tenía música. Quería comprobar dos cosas distintas: si se entendían las voces y si la música sonaba demasiado alta.",
+      "—Desde aquí parece que se lee todo. ¿Para qué bajaste a la sala?",
+      "—Me senté en la última fila. Allí vi que uno de los subtítulos llegaba casi al borde de la pantalla. Después probé desde un asiento del pasillo: una luz de la pared se reflejaba en ese lado. Movimos un poco la imagen y ajustamos la luz antes de que entrase el público.",
+      "—¿Qué harás cuando se llene la sala?",
+      "—Durante los primeros minutos escucharé desde la entrada. Con gente, el ruido que se oye en la sala puede cambiar. Además, hoy vendrá un grupo que necesita llegar hasta la primera fila por el pasillo lateral. Dejaré ese paso libre y no me quedaré delante de nadie.",
+      "Al salir, Adriana apuntó dónde había mirado Eva en cada prueba: desde la cabina, desde dos butacas y desde la entrada."
+    ],
+    "images": [
+      {
+        "id": "una-manana-detras-de-la-pantalla",
+        "src": "assets/readings/l052-una-manana-detras-de-la-pantalla.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Adriana y la encargada de la proyección están en la cabina del cine. Por la ventanilla se ve la sala.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "una-manana-detras-de-la-pantalla-q1",
+        "type": "literal",
+        "prompt": "¿Qué partes de la película revisó Eva antes de proyectar los fragmentos?",
+        "answer": "El archivo de la película, la pista de sonido y los subtítulos.",
+        "lines": 1
+      },
+      {
+        "id": "una-manana-detras-de-la-pantalla-q2",
+        "type": "inference",
+        "prompt": "¿Por qué eligió un fragmento con conversación y otro con música?",
+        "answer": "Quería probar si se entendían las voces y si la música quedaba a un volumen adecuado.",
+        "lines": 2
+      },
+      {
+        "id": "una-manana-detras-de-la-pantalla-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «proyectar un fragmento» en la entrevista?",
+        "answer": "Mostrar en la pantalla una parte de la película.",
+        "lines": 2
+      },
+      {
+        "id": "una-manana-detras-de-la-pantalla-q4",
+        "type": "literal",
+        "prompt": "¿Qué dos problemas visuales descubre al cambiar de asiento?",
+        "answer": "Desde la última fila nota que el subtítulo está casi en el borde. Desde el pasillo ve el reflejo de una luz.",
+        "lines": 2
+      },
+      {
+        "id": "una-manana-detras-de-la-pantalla-q5",
+        "type": "inference",
+        "prompt": "¿Qué problema evita Eva al no quedarse en el pasillo lateral?",
+        "answer": "Deja espacio para que el grupo pueda avanzar hasta la primera fila.",
+        "lines": 2
+      },
+      {
+        "id": "una-manana-detras-de-la-pantalla-q6",
+        "type": "summary",
+        "prompt": "Resume por qué Eva prueba la sesión desde varios lugares.",
+        "answer": "Lo que se ve y se oye cambia según el lugar. Eva revisa los subtítulos y los reflejos desde distintas butacas y vuelve a escuchar cuando entra el público.",
+        "lines": 3
+      }
+    ]
+  },
 ];
