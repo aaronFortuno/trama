@@ -762,4 +762,73 @@ export const readings4Es = [
       }
     ]
   },
+  {
+    "id": "el-patio-de-antes-es",
+    "code": "L032",
+    "workId": "el-patio-de-antes",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "history",
+      "community"
+    ],
+    "genre": "interview",
+    "title": "El patio de antes",
+    "summary": "Una antigua alumna recuerda cómo era el patio de la escuela y explica qué sigue en el mismo sitio.",
+    "paragraphs": [
+      "Nico prepara una exposición sobre la escuela de hace cincuenta años. Ha encontrado una fotografía del patio, pero no reconoce el lugar. Le enseña la foto a Elena, que estudió allí cuando tenía su edad.",
+      "—¿Es de verdad nuestro patio?\n—Sí. Esa puerta estrecha sigue al lado del gimnasio. En la foto se ve baja porque está tomada desde las escaleras. Mira también el tronco que asoma por la izquierda: es el mismo plátano que ahora da sombra a los bancos.",
+      "—¿Qué hacíais en el recreo?\n—Una amiga y yo llevábamos chapas. Dibujábamos un camino en la tierra y empujábamos cada chapa con un dedo. Si una se salía, volvía al punto de partida de ese turno. Algunas personas jugaban cerca de la puerta, donde había menos baches.",
+      "—Ahora hay una pista pintada. ¿Recuerdas cuándo la pusieron?\n—Cuando yo iba a la escuela aún no estaba. La vi por primera vez al volver para una fiesta. No sé en qué año la pintaron. Tal vez podáis buscar una foto de aquella fiesta en el archivo.",
+      "—¿Qué pondrías en el cartel de la exposición?\n—Una foto antigua y otra hecha hoy desde las mismas escaleras. Así será más fácil mirar qué cambió y qué sigue igual."
+    ],
+    "images": [
+      {
+        "id": "el-patio-de-antes",
+        "src": "assets/readings/l032-el-patio-de-antes.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Nico y Elena miran una fotografía antigua del patio de la escuela. Al fondo se ven un árbol y la puerta del gimnasio.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-patio-de-antes-q1",
+        "type": "literal",
+        "prompt": "¿Qué objeto empujaban Elena y su amiga con un dedo durante el recreo?",
+        "answer": "Una chapa.",
+        "lines": 1
+      },
+      {
+        "id": "el-patio-de-antes-q2",
+        "type": "inference",
+        "prompt": "¿Qué dos pistas de la foto permiten reconocer que es el mismo patio?",
+        "answer": "La puerta estrecha junto al gimnasio y el tronco del mismo plátano que ahora da sombra a los bancos.",
+        "lines": 3
+      },
+      {
+        "id": "el-patio-de-antes-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué es un «bache» en el suelo del patio?",
+        "answer": "Un hoyo o una zona hundida que hace que el suelo sea irregular.",
+        "lines": 2
+      },
+      {
+        "id": "el-patio-de-antes-q4",
+        "type": "structure",
+        "prompt": "¿En qué pregunta le pide Nico a Elena un dato que ella no recuerda?",
+        "answer": "En «¿Recuerdas cuándo la pusieron?», cuando hablan de la pista pintada.",
+        "lines": 2
+      },
+      {
+        "id": "el-patio-de-antes-q5",
+        "type": "summary",
+        "prompt": "Resume en dos frases qué ha cambiado en el patio y qué sigue allí.",
+        "answer": "Antes jugaban sobre tierra y ahora hay una pista pintada. La puerta estrecha y el plátano siguen en el mismo sitio.",
+        "lines": 3
+      }
+    ]
+  },
 ];
