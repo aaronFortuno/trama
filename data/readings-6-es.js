@@ -534,4 +534,80 @@ export const readings6Es = [
       }
     ]
   },
+  {
+    "id": "las-ventanas-del-autobus-es",
+    "code": "L068",
+    "workId": "las-ventanas-del-autobus",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "math",
+      "community"
+    ],
+    "genre": "informative",
+    "title": "Las ventanas del autobús",
+    "summary": "Un recuento de viajes muestra la diferencia entre subir a un autobús y encontrar un asiento libre.",
+    "paragraphs": [
+      "Al final de las clases, algunas personas del barrio decían que el autobús escolar iba siempre lleno. Otras recordaban haber encontrado asientos vacíos durante el mismo trayecto. Dos estudiantes, Inés y Samuel, pidieron permiso para observar un recorrido durante tres tardes. Se sentaron en lados distintos y acordaron reunir sus notas al bajar.",
+      "Inés anotó cuántas personas subían y bajaban en cada parada. El martes apuntó que ocho pasajeros entraron antes de la avenida del Olmo y que allí bajaron cinco. Samuel, en cambio, registró cuántas personas seguían de pie después de cada parada. Junto a la avenida del Olmo escribió «una persona de pie, dos asientos libres».",
+      "Cuando compararon sus hojas, Inés pensó que Samuel se había equivocado: ¿por qué alguien iba a viajar de pie si podía sentarse? Él le explicó que un pasajero se había quedado junto a la puerta para bajar enseguida. Además, otro asiento parecía libre desde el pasillo, pero estaba ocupado por una mochila. A la tarde siguiente acordaron distinguir los asientos libres de los que tenían objetos encima.",
+      "Las tres tardes no fueron iguales. El miércoles llovió y subió más gente en la primera parada. El jueves, antes de salir, uno de los viajeros desplegó un andador en el espacio amplio. Ese día el conductor pidió que se dejaran libres el acceso y la zona marcada. Los estudiantes anotaron lo que vieron y la hora, sin escribir nombres ni sacar fotos.",
+      "Su informe incluyó las dos hojas y un pequeño plano del autobús. En la reunión del barrio, propusieron observar más días y preguntar también a personas que esperaban en la parada. Si alguien decide no subir cuando ve el vehículo lleno, su viaje no aparece en el recuento que se hace desde dentro."
+    ],
+    "images": [
+      {
+        "id": "las-ventanas-del-autobus",
+        "src": "assets/readings/l068-las-ventanas-del-autobus.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Inés y Samuel toman notas en un autobús. Algunas personas van sentadas y otras de pie.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "las-ventanas-del-autobus-q1",
+        "type": "literal",
+        "prompt": "¿Qué apuntaba Inés y qué registraba Samuel?",
+        "answer": "Inés contaba cuántas personas subían y bajaban. Samuel registraba cuántas viajaban de pie después de cada parada.",
+        "lines": 3
+      },
+      {
+        "id": "las-ventanas-del-autobus-q2",
+        "type": "inference",
+        "prompt": "¿Qué dos detalles del martes muestran por qué contar a quienes van de pie y mirar si quedan asientos puede dar una idea incompleta?",
+        "answer": "Una persona se quedó de pie para bajar enseguida y un asiento parecía libre pero estaba ocupado por una mochila.",
+        "lines": 4
+      },
+      {
+        "id": "las-ventanas-del-autobus-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «trayecto» en el primer párrafo?",
+        "answer": "El recorrido que hace el autobús.",
+        "lines": 1
+      },
+      {
+        "id": "las-ventanas-del-autobus-q4",
+        "type": "structure",
+        "prompt": "¿Para qué se mencionan la lluvia del miércoles y el andador del jueves antes de presentar el informe?",
+        "answer": "Son ejemplos de cómo varían las condiciones de un día a otro. Ayudan a entender por qué el informe conserva el contexto de cada recuento.",
+        "lines": 4
+      },
+      {
+        "id": "las-ventanas-del-autobus-q5",
+        "type": "inference",
+        "prompt": "¿Qué clase de caso quedaría fuera si solo se hiciera el recuento desde el autobús?",
+        "answer": "El de alguien que se queda en la parada y no sube al ver el autobús lleno.",
+        "lines": 3
+      },
+      {
+        "id": "las-ventanas-del-autobus-q6",
+        "type": "summary",
+        "prompt": "Explica qué aportan las dos hojas juntas y qué información añadirá observar las paradas.",
+        "answer": "Permiten relacionar entradas, salidas y personas de pie durante el trayecto. Desde las paradas se puede saber si hubo personas que no llegaron a subir.",
+        "lines": 4
+      }
+    ]
+  },
 ];
