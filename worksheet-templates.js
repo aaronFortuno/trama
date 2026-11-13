@@ -8,7 +8,7 @@ export const templateGroups = [
   { id: 'margins', label: 'Marges del full', keys: ['marginTop', 'marginRight', 'marginBottom', 'marginLeft'], selected: true },
   { id: 'answers', label: 'Espai de resposta', keys: ['questionGap', 'answerLines', 'answerGap', 'answerStyle', 'answerWeight'], selected: true },
   { id: 'header', label: 'Encapçalament', keys: ['headerName', 'headerDate', 'headerGroup', 'headerLabel', 'headerCustom', 'headerTitle', 'headerDetail', 'headerLogo'] },
-  { id: 'footer', label: 'Peu de pàgina', keys: ['showOrigin', 'showPage', 'footerLogo'] },
+  { id: 'footer', label: 'Peu de pàgina', keys: ['showOrigin', 'showLicense', 'showPage', 'footerLogo'] },
   { id: 'images', label: 'Visibilitat d’il·lustracions', keys: ['showImages'] },
 ];
 

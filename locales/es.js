@@ -101,7 +101,7 @@ Text instructiu|Texto instructivo
 Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
-v1.13 · Obre l’historial de canvis|v1.13 · Abrir el historial de cambios
+v1.13.1 · Obre l’historial de canvis|v1.13.1 · Abrir el historial de cambios
 12 de novembre de 2026|12 de noviembre de 2026
 L’Umami propi d’ortogra.fi compta les visites i les obertures de fitxes des del catàleg.|La instancia propia de Umami de ortogra.fi cuenta las visitas y las aperturas de fichas desde el catálogo.
 V4V · Sobre el projecte|V4V · Sobre el proyecto
@@ -120,6 +120,7 @@ Explora el meu portfoli ↗|Explorar mi portafolio ↗
 Codi, llicència i crèdits|Código, licencia y créditos
 Repositori de Trama ↗|Repositorio de Trama ↗
 Llicència MIT del codi ↗|Licencia MIT del código ↗
+Llicència CC BY 4.0 dels textos ↗|Licencia CC BY 4.0 de los textos ↗
 Icones de|Iconos de
 PDF amb|PDF con
 Crèdits de les tipografies ↗|Créditos de las tipografías ↗
@@ -127,6 +128,7 @@ Fotografia i QR reutilitzats de|Fotografía y QR reutilizados de
 Historial de versions|Historial de versiones
 Changelog complet ↗|Historial completo ↗
 Tanca l’historial|Cerrar el historial
+Els textos, les preguntes i les respostes de Trama es publiquen amb llicència CC BY 4.0, que apareix al peu de les fitxes. El camp de curs de l’encapçalament queda desactivat per defecte. També s’ha corregit la posició de l’espiral del quadern a la il·lustració de la L010.|Los textos, las preguntas y las respuestas de Trama se publican con licencia CC BY 4.0, que aparece en el pie de las fichas. El campo de curso de la cabecera queda desactivado por defecto. También se ha corregido la posición de la espiral del cuaderno en la ilustración de la L010.
 El catàleg arriba a 80 lectures amb 60 fitxes noves en castellà, 20 per a cadascun dels cursos de 4t a 6è de primària. Totes les noves tenen una il·lustració, solucionari i espai de resposta adaptat a cada pregunta.|El catálogo llega a 80 lecturas con 60 fichas nuevas en español, 20 para cada curso de 4.º a 6.º de primaria. Todas las nuevas tienen una ilustración, solucionario y espacio de respuesta adaptado a cada pregunta.
 La lectura L001, «El cartel de la plaza», incorpora una pregunta nova i una quarta pregunta d’inferència.|La lectura L001, «El cartel de la plaza», añade una pregunta y convierte la cuarta en una pregunta de inferencia.
 El catàleg es barreja en carregar la pàgina i manté el mateix ordre mentre es navega.|El catálogo se mezcla al cargar la página y mantiene el mismo orden durante la navegación.
@@ -202,6 +204,7 @@ Grup, unitat o instruccions breus|Grupo, unidad o instrucciones breves
 Peu de pàgina|Pie de página
 Peu|Pie
 Origen de la fitxa · trama.ortogra.fi|Origen de la ficha · trama.ortogra.fi
+Llicència dels textos · CC BY 4.0|Licencia de los textos · CC BY 4.0
 Número de pàgina|Número de página
 Contingut|Contenido
 Mostra el solucionari|Mostrar el solucionario

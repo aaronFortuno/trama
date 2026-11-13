@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.13.1 · 13 de novembre de 2026
+
+Els textos, les preguntes i les respostes de Trama es publiquen amb llicència CC BY 4.0, que apareix al peu de les fitxes. El camp de curs de l’encapçalament queda desactivat per defecte. També s’ha corregit la posició de l’espiral del quadern a la il·lustració de la L010.
+
 ## 1.13 · 13 de novembre de 2026
 
 El catàleg arriba a 80 lectures amb 60 fitxes noves en castellà, 20 per a cadascun dels cursos de 4t a 6è de primària. Totes les noves tenen una il·lustració, solucionari i espai de resposta adaptat a cada pregunta.

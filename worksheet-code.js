@@ -6,7 +6,7 @@ export const imageDefaults = Object.freeze({ visible: true, width: 36, position:
 export const marginLimits = Object.freeze({ min: 8, max: 32 });
 export const maxAnswerLines = 8;
 export const answerStyles = Object.freeze({ blank: 'BLANC', lines: 'LINIES', dots: 'PUNTS', grid: 'QUADRICULA' });
-export const formatVersion = 2;
+export const formatVersion = 3;
 const legacyAnswerDefaults = { questionGap: 4, answerGap: 7, answerWeight: .2 };
 
 const numberIn = (min, max, step = 1) => value => Number.isFinite(value) && value >= min && value <= max
@@ -38,7 +38,7 @@ const fields = {
   answerWeight: [.15, numberIn(.1, .5, .05)],
   headerName: [true, boolean],
   headerDate: [true, boolean],
-  headerGroup: [true, boolean],
+  headerGroup: [false, boolean],
   headerLabel: [true, boolean],
   headerCustom: [false, boolean],
   headerTitle: ['', singleLine(80)],
@@ -47,6 +47,7 @@ const fields = {
   showImages: [true, boolean],
   showCode: [true, boolean],
   showOrigin: [true, boolean],
+  showLicense: [true, boolean],
   showPage: [true, boolean],
   footerLogo: ['', logo],
 };
@@ -54,7 +55,8 @@ const fields = {
 const marginKeys = ['marginTop', 'marginRight', 'marginBottom', 'marginLeft'];
 const sharedLayoutDefaults = { marginTop: 14, marginRight: 16, marginBottom: 10, marginLeft: 16, headerLogo: '' };
 const headerFlags = { headerName: 'NOM', headerDate: 'DATA', headerGroup: 'CURS', headerLabel: 'ETIQUETA', headerCustom: 'TEXT' };
-const footerFlags = { showCode: 'CODI', showOrigin: 'ORIGEN', showPage: 'PAGINA' };
+const legacyFooterFlags = { showCode: 'CODI', showOrigin: 'ORIGEN', showPage: 'PAGINA' };
+const footerFlags = { ...legacyFooterFlags, showLicense: 'LLICENCIA' };
 const legacyKeys = {
   f: 'font', s: 'fontSize', l: 'leading', p: 'paragraphGap', mt: 'marginTop', mr: 'marginRight',
   mb: 'marginBottom', ml: 'marginLeft', q: 'questionGap', a: 'answerLines', g: 'answerGap',
@@ -171,8 +173,11 @@ function readReadable(code, readings) {
   if (!reading) return null;
   const settings = Object.assign(defaultSettings(), sharedLayoutDefaults);
   const versionToken = tokens[0]?.toUpperCase();
-  const legacyFormat = tokens.length > 0 && versionToken !== `V=${formatVersion}`;
-  if (versionToken === `V=${formatVersion}`) tokens.shift();
+  const currentFormat = versionToken === `V=${formatVersion}`;
+  const versionTwo = versionToken === 'V=2';
+  const legacyFormat = tokens.length > 0 && !currentFormat && !versionTwo;
+  if (!currentFormat && tokens.length) settings.headerGroup = true;
+  if (currentFormat || versionTwo) tokens.shift();
   if (legacyFormat) Object.assign(settings, legacyAnswerDefaults);
   const questionIds = new Map(reading.questions.map(question => [upper(questionCode(question)), question.id]));
   const suffix = identifier.slice(baseCode(reading).length);
@@ -200,7 +205,8 @@ function readReadable(code, readings) {
       if (margins.length !== 4 || !margins.every(margin)) return null;
       marginKeys.forEach((key, index) => { settings[key] = margins[index]; });
     } else if (label === 'CAP' || label === 'PEU') {
-      if (!applyFlags(settings, label === 'CAP' ? headerFlags : footerFlags, upper(raw))) return null;
+      const flags = label === 'CAP' ? headerFlags : currentFormat ? footerFlags : legacyFooterFlags;
+      if (!applyFlags(settings, flags, upper(raw))) return null;
     } else if (label === 'AMAGA' || label === 'RES') {
       for (const entry of upper(raw).split(',')) {
         const [reference, value, extra] = entry.split(':');
@@ -232,6 +238,7 @@ function readLegacy(code, readings) {
   if (!reading) return null;
   const settings = defaultSettings();
   Object.assign(settings, sharedLayoutDefaults, legacyAnswerDefaults);
+  settings.headerGroup = true;
   settings.leading = 1.5;
   if (encoded === undefined) return { reading, settings: migrateAnswerFormat(settings, settings.paragraphGap) };
   if (!/^[a-zA-Z0-9_-]+$/.test(encoded)) return null;

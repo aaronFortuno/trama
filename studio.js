@@ -122,6 +122,7 @@ const template = `
           <summary>Peu de pàgina</summary>
           <div class="studio-controls">
             ${check('showOrigin', 'Origen de la fitxa · trama.ortogra.fi')}
+            ${check('showLicense', 'Llicència dels textos · CC BY 4.0')}
             ${check('showPage', 'Número de pàgina')}
             ${logoControls('footerLogo', 'Logotip del peu de pàgina')}
           </div>
@@ -209,6 +210,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
   const translateMarkup = bindTranslations(root);
   const find = selector => root.querySelector(selector);
   const forms = [...root.querySelectorAll('.studio-form')];
+  const licenseControl = find('[name="showLicense"]').closest('label');
   const contentForm = find('.studio-content .studio-form');
   const pages = find('#studio-pages');
   const stage = find('.studio-paper-stage');
@@ -288,6 +290,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
 
   function populateReading() {
     find('#studio-reading-menu [data-option="remove"]').hidden = !reading.personal;
+    licenseControl.hidden = Boolean(reading.personal);
     find('#studio-title').textContent = reading.title;
     find('#studio-title').lang = reading.language;
     find('#studio-reading-code').textContent = reading.code;

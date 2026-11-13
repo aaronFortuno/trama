@@ -4,11 +4,12 @@ import { logoSource, tramaLogo } from './local-images.js';
 import { loadWorksheetFont, worksheetFonts } from './worksheet-fonts.js';
 
 const languageCopy = {
-  ca: ['Nom', 'Data', 'Curs', 'Comprensió lectora', 'Preguntes', 'Pàgina', 'Solucionari', 'Resposta orientativa', 'Sense resposta orientativa.'],
-  es: ['Nombre', 'Fecha', 'Curso', 'Comprensión lectora', 'Preguntas', 'Página', 'Solucionario', 'Respuesta orientativa', 'Sin respuesta orientativa.'],
-  en: ['Name', 'Date', 'Class', 'Reading comprehension', 'Questions', 'Page', 'Answer key', 'Suggested answer', 'No suggested answer.'],
+  ca: ['Nom', 'Data', 'Curs', 'Comprensió lectora', 'Preguntes', 'Pàgina', 'Solucionari', 'Resposta orientativa', 'Sense resposta orientativa.', 'Textos de Trama'],
+  es: ['Nombre', 'Fecha', 'Curso', 'Comprensión lectora', 'Preguntas', 'Página', 'Solucionario', 'Respuesta orientativa', 'Sin respuesta orientativa.', 'Textos de Trama'],
+  en: ['Name', 'Date', 'Class', 'Reading comprehension', 'Questions', 'Page', 'Answer key', 'Suggested answer', 'No suggested answer.', 'Texts by Trama'],
 };
 const wordsFor = language => languageCopy[language] || languageCopy[language.split('-')[0]] || languageCopy.en;
+const textLicense = 'creativecommons.org/licenses/by/4.0';
 
 function element(tag, className, text) {
   const node = document.createElement(tag);
@@ -165,19 +166,27 @@ export function worksheetThumbnail(reading, settings) {
 
 export function renderWorksheet(container, reading, settings, { answerKey = false, interactive = true } = {}) {
   const words = wordsFor(reading.language);
+  const showLicense = settings.showLicense && !reading.personal;
   const pages = [];
   let content;
   let footerHeight;
   container.replaceChildren();
 
   function fillFooter(footer, label) {
-    if (settings.showOrigin || settings.footerLogo) {
+    if (settings.showOrigin || showLicense || settings.footerLogo) {
       const brand = element('div', 'worksheet-footer-brand');
       if (settings.footerLogo) brand.append(makeLogo(settings.footerLogo));
       if (settings.showOrigin) {
         const origin = element('a', 'worksheet-origin', 'trama.ortogra.fi');
         origin.href = 'https://trama.ortogra.fi/';
         brand.append(origin);
+      }
+      if (showLicense) {
+        const credit = element('span', 'worksheet-license', `${words[9]} · `);
+        const license = element('a', 'worksheet-origin', `CC BY 4.0 (${textLicense})`);
+        license.href = `https://${textLicense}/`;
+        credit.append(license);
+        brand.append(credit);
       }
       footer.append(brand);
     }
@@ -199,7 +208,7 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
     paper.append(content, footer);
     slot.append(paper);
     container.append(slot);
-    if (pages.length === 0 && (settings.showOrigin || settings.showPage || settings.footerLogo || answerKey)) {
+    if (pages.length === 0 && (settings.showOrigin || showLicense || settings.showPage || settings.footerLogo || answerKey)) {
       fillFooter(footer, `${words[5]} 999 / 999`);
       footerHeight = footer.scrollHeight + 1;
       footer.replaceChildren();

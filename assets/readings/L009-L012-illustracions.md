@@ -16,6 +16,12 @@ Use case: scientific-educational. Close, gently elevated oblique view of a sands
 
 ## L010 · musculos-codo.webp
 
+La versió publicada posa l’espiral a la vora exterior del quadern i deixa la vora sense enquadernar a la mà de l’alumna.
+
+```text
+Precise object-only retouch of this original illustration. Preserve every visible pixel of the girl's original hand, including all four curled fingers, their original silhouettes, knuckles, fingernails, position, handedness and shadows. Preserve the forearm, wrist, elbow, body, pose and whole room as in the reference. Do not redraw, mirror, flip, reposition or reinterpret her hand or arm. Work exclusively on the exposed surface of the notebook, using its existing four corners and orange cover. Remove the black coil loops from the exposed left edge above and below her hand, replacing those loops with the original book's orange edge and a slim cream paper stack. Put the same type of black coil loops along the far right long slanted edge of the orange notebook, furthest from the girl. Her original fingers remain exactly where they are on the near edge of the cover, overlaid in front. The hand is a locked foreground layer. Change only the book's binding position, with original painting texture, light, proportions and 3:2 framing.
+```
+
 ```text
 Use case: scientific-educational. In a simple classroom, one ten-year-old in profile gently lifts a small notebook from a desk by bending an elbow, clearly showing the forearm and elbow in a natural pose. Show a plain short-sleeved shirt, an uncluttered desk and warm window light. One coherent scene with anatomically plausible hands and arms. No diagram, cutaway, arrows, repeated arms or overlays. Asset type: landscape illustration for a printable fifth-grade reading worksheet and web card. Full-bleed wide composition around 3:2, centered important details safe for a wider crop. Restrained editorial picture-book style: clean softly textured gouache shapes, dark muted outlines, warm cream, terracotta and muted teal or sage. Strong value contrast, clear even when printed small in grayscale. No text, lettering, numbers, border, watermark or labels.
 ```

@@ -70,6 +70,8 @@ Trama funciona al navegador. Els recursos se serveixen des del mateix web. El pr
 
 ## Llicència i crèdits
 
+Els textos, les preguntes i les respostes orientatives originals del catàleg es publiquen sota [Creative Commons Reconeixement 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Atribueix el material a [Trama](https://trama.ortogra.fi/) i indica els canvis si l’adaptes. L’avís del peu de les fitxes correspon a aquests textos. Les il·lustracions, els recursos de tercers i les lectures que importis queden fora d’aquest avís.
+
 El codi de Trama es distribueix sota la [llicència MIT](LICENSE). Algunes icones de la interfície són de [Lucide](https://lucide.dev/) i es distribueixen amb els seus [avisos de llicència](assets/icons/LICENSE). La descàrrega de PDF fa servir [pdf-lib](https://pdf-lib.js.org/), amb la seva [llicència MIT](assets/vendor/pdf-lib.LICENSE.md). La fotografia de l’autor i el QR del V4V provenen de [Plec](https://github.com/aaronFortuno/plec-dictats).
 
 Les tipografies incloses al web tenen els seus [crèdits i llicències](assets/fonts/README.md).

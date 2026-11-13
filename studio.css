@@ -270,6 +270,7 @@
 .worksheet-page-number { grid-column: 2; }
 .worksheet-footer-brand { grid-column: 1; display: flex; flex-wrap: wrap; align-items: center; gap: 1mm 2mm; }
 .worksheet-footer .worksheet-logo { width: 24mm; height: 6mm; }
+.worksheet-license { overflow-wrap: anywhere; }
 .worksheet-origin { color: #38584b; text-decoration: none; }
 .worksheet-print-outlet { display: none; }
 .worksheet-export-layout { position: fixed; top: 0; left: -10000px; width: 210mm; visibility: hidden; pointer-events: none; }
