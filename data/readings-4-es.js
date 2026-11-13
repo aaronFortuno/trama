@@ -164,7 +164,7 @@ export const readings4Es = [
         "src": "assets/readings/l023-hojas-que-quedan.webp",
         "width": 960,
         "height": 640,
-        "alt": "Dos manos dan la vuelta a un folio para mostrar su cara en blanco. Debajo hay hojas con dibujos de una casa y un árbol.",
+        "alt": "Un alumno sostiene un folio por las esquinas inferiores y muestra su cara en blanco. A su lado, sobre la mesa, hay otro folio con el dibujo de una casa y un árbol.",
         "afterParagraph": 2
       }
     ],
