@@ -1369,4 +1369,79 @@ export const readings5EsFifthSeries = [
       }
     ]
   },
+  {
+    "id": "el-sonido-del-anden-vacio-es",
+    "code": "L059",
+    "workId": "el-sonido-del-anden-vacio",
+    "language": "es",
+    "level": "5-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "science",
+      "everyday"
+    ],
+    "genre": "informative",
+    "title": "El sonido del andén vacío",
+    "summary": "Una palmada se oye de manera distinta en el acceso cubierto y en la plaza. Dos pruebas ayudan a explicar lo que cambia.",
+    "paragraphs": [
+      "Al bajar al paso que lleva al andén, Samuel dio una palmada. Desde la escalera oyó un sonido breve que parecía contestarle. Ya en la plaza, dio otra palmada de fuerza parecida. Allí oyó el golpe de sus manos, pero no distinguió una respuesta. Después de contar lo que había oído, preguntó si en el paso había alguien escondido.",
+      "El sonido se propaga por el aire. Cuando llega a una superficie dura, como una pared de piedra o un suelo de baldosas, una parte puede reflejarse y volver. Si tarda lo suficiente, el oído distingue la palmada y, un poco después, su eco. En un espacio pequeño, las reflexiones pueden llegar tan juntas que el oído percibe un sonido que se prolonga en vez de una repetición separada.",
+      "Para comparar sin volver al paso, la clase probó en dos rincones del edificio. En uno de ellos había una pared lisa y el suelo era de baldosas. El otro era de tamaño parecido, pero tenía una cortina gruesa y una alfombra. Desde una distancia semejante a la pared, Samuel dio una palmada. Sus compañeros notaron que en el segundo lugar el sonido parecía apagarse antes.",
+      "Una cortina y una alfombra pueden absorber parte del sonido que les llega. Eso significa que devuelven menos sonido que algunas superficies duras. La comparación explica por qué amueblar una sala puede cambiar lo que se oye dentro. Para saber qué superficies devolvían el sonido en el paso de la estación, el grupo tendría que examinar aquel lugar."
+    ],
+    "images": [
+      {
+        "id": "el-sonido-del-anden-vacio",
+        "src": "assets/readings/l059-el-sonido-del-anden-vacio.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Samuel da una palmada en un paso peatonal de paredes duras, junto a las escaleras.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-sonido-del-anden-vacio-q1",
+        "type": "literal",
+        "prompt": "¿En qué lugar oyó Samuel algo que parecía contestarle y en cuál no?",
+        "answer": "En el paso que llevaba al andén oyó una respuesta. En la plaza no distinguió ninguna.",
+        "lines": 2
+      },
+      {
+        "id": "el-sonido-del-anden-vacio-q2",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa que la cortina puede «absorber» parte del sonido?",
+        "answer": "Que parte del sonido que llega a la cortina no vuelve a la sala. Por eso la cortina puede devolver menos sonido que una pared dura.",
+        "lines": 2
+      },
+      {
+        "id": "el-sonido-del-anden-vacio-q3",
+        "type": "structure",
+        "prompt": "¿Qué añade el experimento de clase al relato de las palmadas de Samuel?",
+        "answer": "Compara lugares de tamaño parecido y con materiales diferentes para examinar cómo cambia el sonido que se oye después de una palmada.",
+        "lines": 3
+      },
+      {
+        "id": "el-sonido-del-anden-vacio-q4",
+        "type": "inference",
+        "prompt": "Si la reflexión llega casi al mismo tiempo que la palmada, ¿por qué no se oye un eco separado?",
+        "answer": "Porque los sonidos llegan tan juntos que el oído no distingue dos golpes. Puede percibir un solo sonido que se alarga.",
+        "lines": 3
+      },
+      {
+        "id": "el-sonido-del-anden-vacio-q5",
+        "type": "inference",
+        "prompt": "¿Por qué el grupo no puede decir exactamente qué pared produjo el eco del paso?",
+        "answer": "Su prueba comparó otros dos lugares. Para saber qué superficies reflejaban el sonido en el paso tendría que estudiar ese espacio.",
+        "lines": 3
+      },
+      {
+        "id": "el-sonido-del-anden-vacio-q6",
+        "type": "summary",
+        "prompt": "Resume cómo pueden cambiar lo que oyes la distancia a una pared y el material que la cubre.",
+        "answer": "La distancia influye en cuánto tarda el sonido en volver y en si se oye como una repetición. El material influye en cuánto se refleja: una cortina devuelve menos sonido que una superficie dura.",
+        "lines": 4
+      }
+    ]
+  },
 ];
