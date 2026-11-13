@@ -561,7 +561,7 @@ export const readings6Es = [
         "src": "assets/readings/l068-las-ventanas-del-autobus.webp",
         "width": 960,
         "height": 640,
-        "alt": "Inés y Samuel toman notas a ambos lados del pasillo del autobús. Al fondo, una pasajera de pie se sujeta a una barra.",
+        "alt": "Inés y Samuel toman notas en el autobús. Junto a la puerta, una pasajera se sujeta a un asidero fijado al marco.",
         "afterParagraph": 1
       }
     ],
