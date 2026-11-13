@@ -967,4 +967,80 @@ export const readings4Es = [
       }
     ]
   },
+  {
+    "id": "como-hacer-hablar-a-una-puerta-es",
+    "code": "L035",
+    "workId": "como-hacer-hablar-a-una-puerta",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "arts",
+      "science"
+    ],
+    "genre": "instructional",
+    "title": "Cómo hacer hablar a una puerta",
+    "summary": "Un taller de teatro de sombras enseña a combinar sonidos para representar una puerta sin utilizar una puerta real.",
+    "paragraphs": [
+      "En un teatro de sombras, el público ve figuras detrás de una sábana iluminada. El sonido puede ayudar a imaginar lo que no aparece dibujado. En esta prueba, vas a representar una puerta que se abre despacio y se cierra de golpe. Prepara una regla de plástico, una mesa firme, un libro grueso y un paño.",
+      "1. Apoya casi toda la regla sobre la mesa y deja que sobresalga un extremo. Sujeta la parte de dentro con una mano. Con la otra, presiona suavemente la punta que queda en el aire y suéltala. Escucha el zumbido. Si quieres cambiar el sonido, prueba a dejar un trozo más corto fuera de la mesa.",
+      "2. Para el golpe de la puerta, deja caer el libro desde muy cerca de la mesa. Busca un sonido claro sin que el golpe sea demasiado fuerte. Apoya un paño doblado debajo del libro si necesitas suavizarlo.",
+      "3. Pídele a alguien que escuche sin mirar. Haz sonar primero la regla y, después de una pausa, deja caer el libro. Pregunta qué ha imaginado. Si los dos sonidos parecen un solo ruido, alarga la pausa y repite la prueba.",
+      "4. Ensaya los sonidos con las figuras. Empieza el zumbido cuando se mueva la puerta de cartón y reserva el golpe para el momento en que se cierre."
+    ],
+    "images": [
+      {
+        "id": "como-hacer-hablar-a-una-puerta",
+        "src": "assets/readings/l035-como-hacer-hablar-a-una-puerta.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "En un teatro de sombras, una niña escucha junto a una mesa con una regla, un libro y un paño doblado.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "como-hacer-hablar-a-una-puerta-q1",
+        "type": "literal",
+        "prompt": "¿Qué objeto haces vibrar para representar la puerta que se abre?",
+        "answer": "La regla de plástico.",
+        "lines": 1
+      },
+      {
+        "id": "como-hacer-hablar-a-una-puerta-q2",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa que un extremo de la regla «sobresalga»?",
+        "answer": "Que una parte quede fuera del borde de la mesa.",
+        "lines": 2
+      },
+      {
+        "id": "como-hacer-hablar-a-una-puerta-q3",
+        "type": "inference",
+        "prompt": "Si el golpe del libro es demasiado fuerte, ¿qué cambio propone el texto y cómo ayuda?",
+        "answer": "Propone poner un paño doblado debajo del libro. El paño amortigua o suaviza el golpe.",
+        "lines": 2
+      },
+      {
+        "id": "como-hacer-hablar-a-una-puerta-q4",
+        "type": "structure",
+        "prompt": "¿Qué pruebas primero con una persona que escucha y qué añades en el último paso?",
+        "answer": "Primero pruebas solo los sonidos. En el último paso los haces coincidir con el movimiento de las figuras.",
+        "lines": 3
+      },
+      {
+        "id": "como-hacer-hablar-a-una-puerta-q5",
+        "type": "inference",
+        "prompt": "¿Por qué la persona del paso 3 debe escuchar sin mirar?",
+        "answer": "Así se puede comprobar si los sonidos sugieren una puerta sin que vea que se hacen con una regla y un libro.",
+        "lines": 3
+      },
+      {
+        "id": "como-hacer-hablar-a-una-puerta-q6",
+        "type": "opinion",
+        "prompt": "¿Qué otro sonido añadirías a una escena con esa puerta? Explica en qué momento se oiría y cómo lo harías.",
+        "answer": "Respuesta abierta. Por ejemplo, unas pisadas antes de abrir la puerta, dando golpecitos con los dedos sobre la mesa.",
+        "lines": 4
+      }
+    ]
+  },
 ];
