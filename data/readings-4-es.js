@@ -899,4 +899,72 @@ export const readings4Es = [
       }
     ]
   },
+  {
+    "id": "un-refugio-bajo-la-piedra-es",
+    "code": "L034",
+    "workId": "un-refugio-bajo-la-piedra",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "nature",
+      "science"
+    ],
+    "genre": "informative",
+    "title": "Un refugio bajo la piedra",
+    "summary": "La observación de unas cochinillas ayuda a entender por qué una piedra puede ser un buen refugio.",
+    "paragraphs": [
+      "En el jardín de la escuela, las cochinillas se reunían debajo de una piedra plana. Cuando el profesor la levantó con cuidado, varios animales se movieron hacia el borde oscuro. Uno se quedó quieto. Al tocarlo suavemente con una brizna de hierba, el profesor vio cómo se hacía una bola y escondía las patas.",
+      "Aunque parecen insectos, las cochinillas de la humedad son crustáceos. Tienen más patas que los insectos. Muchas especies viven en tierra y buscan lugares húmedos donde no se sequen con facilidad. Algunas, como la que vio la clase, pueden enrollarse para proteger las partes más blandas del cuerpo.",
+      "En ese jardín había otras piedras más pequeñas sobre suelo seco. La clase miró debajo de dos de ellas y no encontró cochinillas. Anotaron la observación, pero el profesor les recordó que habían revisado muy pocos lugares. Podían volver otro día y comparar zonas húmedas y secas en varias partes del jardín.",
+      "Al terminar, el grupo dejó la piedra plana en el mismo sitio. La colocaron despacio para no aplastar ningún animal. Una parte del suelo volvió a quedar a oscuras y resguardada. Los alumnos dibujaron la escena en lugar de llevarse una cochinilla al aula."
+    ],
+    "images": [
+      {
+        "id": "un-refugio-bajo-la-piedra",
+        "src": "assets/readings/l034-un-refugio-bajo-la-piedra.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Tres cochinillas de la humedad, de cuerpo ovalado y segmentado, se mueven cerca de una piedra levantada.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "un-refugio-bajo-la-piedra-q1",
+        "type": "literal",
+        "prompt": "¿Qué hizo la cochinilla que se había quedado quieta cuando el profesor la rozó con una brizna de hierba?",
+        "answer": "Se hizo una bola y escondió las patas.",
+        "lines": 2
+      },
+      {
+        "id": "un-refugio-bajo-la-piedra-q2",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa que el suelo quedó «resguardado» al volver a poner la piedra?",
+        "answer": "Que quedó cubierto y protegido, por ejemplo, de la luz directa.",
+        "lines": 2
+      },
+      {
+        "id": "un-refugio-bajo-la-piedra-q3",
+        "type": "inference",
+        "prompt": "¿Por qué devolvieron la piedra a su sitio después de mirar?",
+        "answer": "Para que los animales conservaran su refugio oscuro y protegido.",
+        "lines": 2
+      },
+      {
+        "id": "un-refugio-bajo-la-piedra-q4",
+        "type": "structure",
+        "prompt": "¿Qué dos comportamientos explica el segundo párrafo?",
+        "answer": "Buscar lugares húmedos y, en algunas especies, enrollarse para proteger las partes blandas.",
+        "lines": 2
+      },
+      {
+        "id": "un-refugio-bajo-la-piedra-q5",
+        "type": "inference",
+        "prompt": "Si quieren averiguar si las cochinillas prefieren las zonas húmedas, ¿por qué conviene mirar más de dos piedras sobre suelo seco?",
+        "answer": "Con tan pocos lugares podrían no encontrar ninguna por casualidad. Observar más sitios húmedos y secos permite comparar mejor.",
+        "lines": 3
+      }
+    ]
+  },
 ];
