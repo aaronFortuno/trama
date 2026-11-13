@@ -1066,4 +1066,80 @@ export const readings6Es = [
       }
     ]
   },
+  {
+    "id": "el-correo-que-llego-dos-veces-es",
+    "code": "L075",
+    "workId": "el-correo-que-llego-dos-veces",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "everyday",
+      "community"
+    ],
+    "genre": "narrative",
+    "title": "El correo que llegó dos veces",
+    "summary": "Dos versiones de un aviso obligan a distinguir entre la fecha escrita, la fecha de envío y el momento de llegada.",
+    "paragraphs": [
+      "El martes, Darío encontró en el buzón del centro juvenil una carta que convocaba a los vecinos en el patio para el viernes. La firmaba la encargada del centro y llevaba una fecha del lunes. Darío la guardó junto a una nota con el número de sillas necesarias. La reunión serviría para elegir el uso de una sala recién pintada.",
+      "El jueves apareció otro sobre. Dentro había un aviso para la misma reunión, a la misma hora. Sin embargo, esta vez indicaba la sala grande de la biblioteca. Estaba fechado el viernes de la semana anterior. Darío pensó que el aviso de la biblioteca era el más reciente porque había llegado el último. Su amiga Paula, que había leído ambas fechas, defendió que lo correcto era ir al patio.",
+      "Cuando pudieron llamar al centro, la encargada ya se había marchado. En el sobre del primer aviso había una marca que indicaba que se había enviado el lunes. En el otro, la dirección estaba corregida a mano. La marca de envío era del viernes anterior. Paula propuso mirar el tablón, donde a veces se publicaban aclaraciones cuando cambiaban los planes.",
+      "En el tablón había una nota del miércoles. Decía: «El acceso al patio está en obras. El encuentro se hará en la sala grande de la biblioteca, como se anunció en el primer aviso». Darío entendió que la primera propuesta había sido la biblioteca, aunque su sobre hubiera tardado más. El patio fue un cambio posterior y la nota del miércoles recuperaba el plan inicial.",
+      "Antes de colocar el recordatorio en la puerta del centro, Paula escribió arriba la fecha de la actualización y añadió el lugar con letras grandes. Darío dejó debajo los dos avisos con una flecha y una frase corta: «Esta es la información confirmada el miércoles»."
+    ],
+    "images": [
+      {
+        "id": "el-correo-que-llego-dos-veces",
+        "src": "assets/readings/l075-el-correo-que-llego-dos-veces.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Darío compara dos sobres y dos avisos sobre una mesa del centro juvenil.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-correo-que-llego-dos-veces-q1",
+        "type": "literal",
+        "prompt": "¿Dónde convocaba la reunión el aviso fechado el lunes? ¿Y el del viernes anterior?",
+        "answer": "El del lunes convocaba en el patio. El del viernes anterior convocaba en la sala grande de la biblioteca.",
+        "lines": 2
+      },
+      {
+        "id": "el-correo-que-llego-dos-veces-q2",
+        "type": "inference",
+        "prompt": "Explica por qué el aviso que llegó el jueves no era el último que se había enviado.",
+        "answer": "Llevaba una marca de envío del viernes anterior. Su llegada fue posterior al aviso enviado el lunes.",
+        "lines": 3
+      },
+      {
+        "id": "el-correo-que-llego-dos-veces-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «aclaraciones» en el tercer párrafo?",
+        "answer": "Notas que resuelven dudas sobre la información publicada, por ejemplo dónde se hará la reunión.",
+        "lines": 2
+      },
+      {
+        "id": "el-correo-que-llego-dos-veces-q4",
+        "type": "structure",
+        "prompt": "Ordena por fecha los tres avisos y señala qué cambio introduce cada uno.",
+        "answer": "El viernes anterior se anuncia la biblioteca. El lunes se cambia al patio. El miércoles, por las obras, se confirma la vuelta a la biblioteca.",
+        "lines": 4
+      },
+      {
+        "id": "el-correo-que-llego-dos-veces-q5",
+        "type": "inference",
+        "prompt": "¿Por qué acertó Darío con el lugar, pero se equivocó al explicar qué aviso era el más reciente?",
+        "answer": "El lugar final era la biblioteca. Lo confirmó una nota posterior a ambas cartas, no la llegada tardía del aviso que ya lo indicaba.",
+        "lines": 4
+      },
+      {
+        "id": "el-correo-que-llego-dos-veces-q6",
+        "type": "opinion",
+        "prompt": "¿Qué información mínima incluirías en un aviso que sustituye a otro? Explica cómo ayudaría a evitar la confusión.",
+        "answer": "Respuesta abierta. Podría incluir la fecha de actualización, el lugar y la hora, y decir expresamente qué aviso sustituye.",
+        "lines": 4
+      }
+    ]
+  },
 ];
