@@ -1140,4 +1140,79 @@ export const readings5EsFifthSeries = [
       }
     ]
   },
+  {
+    "id": "la-historia-que-cabia-en-una-baldosa-es",
+    "code": "L056",
+    "workId": "la-historia-que-cabia-en-una-baldosa",
+    "language": "es",
+    "level": "5-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "history",
+      "arts"
+    ],
+    "genre": "narrative",
+    "title": "La historia que cabía en una baldosa",
+    "summary": "Clara cree que unas baldosas antiguas servían de adorno. Un plano de la casa le permite proponer para qué se usaban.",
+    "paragraphs": [
+      "En la casa donde vivía su bisabuela, Clara encontró una baldosa suelta guardada en un cajón. Era cuadrada, de color crema, y tenía una pequeña flor en relieve cerca de una esquina. Su abuelo le dio un papel y una cera. Clara colocó el papel encima de la baldosa y pasó la cera tumbada. La forma de la flor apareció en azul.",
+      "En una fotografía familiar vio otras flores iguales en el suelo del corredor. No formaban una fila a lo largo de la pared: estaban separadas y algunas miraban hacia lados distintos. Clara pensó que quizá alguien había repartido las baldosas que le sobraron de una obra. Si era un adorno, le extrañaba que no siguiera un dibujo regular.",
+      "El abuelo sacó un plano que habían hecho cuando arreglaron el edificio. El corredor daba a cuatro puertas, pero solo dos eran entradas a viviendas. Las otras llevaban a un armario y a un cuarto de contadores. En la foto antigua, las flores estaban precisamente ante las dos entradas. Además, junto a cada puerta, el tallo de la flor apuntaba hacia el lado por donde se abría.",
+      "Clara propuso que las baldosas servían de señal para reconocer las entradas. El abuelo creía que las habían colocado para decorar los espacios más visibles. Como las dos explicaciones encajaban con parte de lo que habían visto, Clara escribió ambas en su cuaderno. Dibujó una tercera columna: «Qué habría que averiguar». Su primera pregunta fue si en otras casas del mismo constructor aparecían las flores delante de las puertas."
+    ],
+    "images": [
+      {
+        "id": "la-historia-que-cabia-en-una-baldosa",
+        "src": "assets/readings/l056-la-historia-que-cabia-en-una-baldosa.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Clara sostiene una baldosa cuadrada con una flor en relieve cerca de una esquina.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "la-historia-que-cabia-en-una-baldosa-q1",
+        "type": "literal",
+        "prompt": "¿Qué figura tenía la baldosa que encontró Clara?",
+        "answer": "Una flor pequeña, en relieve, cerca de una esquina.",
+        "lines": 1
+      },
+      {
+        "id": "la-historia-que-cabia-en-una-baldosa-q2",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa que la flor estaba «en relieve»?",
+        "answer": "Que sobresalía de la superficie de la baldosa y se podía notar al tocarla.",
+        "lines": 2
+      },
+      {
+        "id": "la-historia-que-cabia-en-una-baldosa-q3",
+        "type": "structure",
+        "prompt": "¿Qué información podía sacar Clara del plano que no le daba la fotografía familiar?",
+        "answer": "Podía saber qué había detrás de cada puerta y distinguir las viviendas del armario y del cuarto de contadores.",
+        "lines": 2
+      },
+      {
+        "id": "la-historia-que-cabia-en-una-baldosa-q4",
+        "type": "inference",
+        "prompt": "Menciona dos detalles que apoyan la explicación de Clara sobre el uso de las baldosas.",
+        "answer": "Las flores están delante de las dos viviendas y no ante las otras puertas. El tallo de cada flor apunta hacia el lado de apertura de su puerta.",
+        "lines": 3
+      },
+      {
+        "id": "la-historia-que-cabia-en-una-baldosa-q5",
+        "type": "inference",
+        "prompt": "Si encontrara flores repartidas por otros corredores, sin relación con ninguna puerta, ¿a cuál de las dos explicaciones daría más fuerza? ¿Por qué?",
+        "answer": "A la explicación decorativa. Si aparecen lejos de las entradas, no siempre servirían para señalarlas.",
+        "lines": 3
+      },
+      {
+        "id": "la-historia-que-cabia-en-una-baldosa-q6",
+        "type": "summary",
+        "prompt": "Resume qué descubre Clara y por qué deja dos explicaciones escritas.",
+        "answer": "Descubre que las flores coinciden con las entradas a viviendas y que sus tallos indican el lado de apertura. Eso podría señalar las entradas, pero también pueden ser adornos en lugares visibles. Le faltan pruebas para elegir entre las dos ideas.",
+        "lines": 4
+      }
+    ]
+  },
 ];
