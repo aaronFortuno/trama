@@ -222,7 +222,7 @@
 .worksheet-passage { display: flow-root; padding-bottom: var(--sheet-paragraph-gap); }
 .worksheet-passage:has(+ .worksheet-questions-start) { padding-bottom: 0; }
 .worksheet-passage + .worksheet-questions-start { padding-top: var(--sheet-section-gap); }
-.worksheet-paragraph { margin: 0; line-height: var(--sheet-leading); }
+.worksheet-paragraph { margin: 0; line-height: var(--sheet-leading); white-space: pre-line; }
 .worksheet-figure { margin: 0 0 2mm; }
 .worksheet-figure[data-position="center"] { margin-inline: auto; }
 .worksheet-figure[data-position="right"] { margin-left: auto; }

@@ -275,4 +275,73 @@ export const readings4Es = [
       }
     ]
   },
+  {
+    "id": "un-turno-en-el-mercado-es",
+    "code": "L025",
+    "workId": "un-turno-en-el-mercado",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "initial",
+    "themes": [
+      "community",
+      "everyday"
+    ],
+    "genre": "interview",
+    "title": "Un turno en el mercado",
+    "summary": "Una vendedora cuenta cómo prepara su puesto y qué hace cuando cambian los planes de reparto.",
+    "paragraphs": [
+      "Para la radio escolar, Bruno visitó el mercado antes de que llegaran los primeros compradores. Allí habló con Salma, que vende fruta en un puesto junto a la entrada.",
+      "—¿Qué haces nada más llegar?\n—Miro la lista de cajas que voy a recibir y dejo libre el pasillo. Mientras llega la fruta, pongo los carteles y preparo las bolsas. A veces un camión tarda más y empiezo con las cajas que ya tengo.",
+      "—¿Dónde colocas cada fruta?\n—Las piezas que se aplastan con facilidad van en bandejas poco profundas. Las manzanas pueden ir en cajas más hondas. Los precios los coloco delante, donde se puedan leer sin tocar nada.",
+      "—¿Qué haces si alguien te pide fruta para comer ese mismo día?\n—Le enseño las piezas más maduras. Esta mañana he apartado unos melocotones que ya están blandos. Los pondré juntos para que sea fácil encontrarlos.",
+      "—¿Qué es lo primero que harás mañana?\n—Preguntaré si llegan las ciruelas. Si no las traen, quitaré su cartel antes de abrir. No quiero que alguien se pare a buscarlas y dé tres vueltas a la mesa."
+    ],
+    "images": [
+      {
+        "id": "un-turno-en-el-mercado",
+        "src": "assets/readings/l025-un-turno-en-el-mercado.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Bruno sostiene una grabadora mientras Salma coloca manzanas en su puesto del mercado.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "un-turno-en-el-mercado-q1",
+        "type": "literal",
+        "prompt": "¿Quién entrevista a Salma y para qué medio lo hace?",
+        "answer": "Bruno, para la radio escolar.",
+        "lines": 2
+      },
+      {
+        "id": "un-turno-en-el-mercado-q2",
+        "type": "literal",
+        "prompt": "¿Qué fruta ha apartado Salma para vender a quien quiera comerla ese día?",
+        "answer": "Unos melocotones que ya están blandos.",
+        "lines": 1
+      },
+      {
+        "id": "un-turno-en-el-mercado-q3",
+        "type": "inference",
+        "prompt": "Si llegan fresas que se aplastan fácilmente, ¿qué clase de bandeja escogería Salma?",
+        "answer": "Una bandeja poco profunda, como hace con la fruta que se aplasta con facilidad.",
+        "lines": 2
+      },
+      {
+        "id": "un-turno-en-el-mercado-q4",
+        "type": "structure",
+        "prompt": "¿Dónde se presenta a Salma: antes de las preguntas o en la última respuesta?",
+        "answer": "Antes de las preguntas, en el primer párrafo.",
+        "lines": 1
+      },
+      {
+        "id": "un-turno-en-el-mercado-q5",
+        "type": "opinion",
+        "prompt": "¿Qué otra pregunta le harías a Salma sobre su trabajo? Escribe la pregunta y explica por qué la harías.",
+        "answer": "Respuesta abierta. Por ejemplo, preguntarle a qué hora prepara el puesto para saber cuánto trabajo hace antes de abrir.",
+        "lines": 3
+      }
+    ]
+  },
 ];
