@@ -683,4 +683,82 @@ export const readings5EsFifthSeries = [
       }
     ]
   },
+  {
+    "id": "cartas-desde-el-banco-del-patio-es",
+    "code": "L050",
+    "workId": "cartas-desde-el-banco-del-patio",
+    "language": "es",
+    "level": "5-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "community",
+      "everyday"
+    ],
+    "genre": "letter",
+    "title": "Cartas desde el banco del patio",
+    "summary": "Vera escribe a su prima para explicarle por qué ahora pasa parte del recreo en el banco del porche.",
+    "paragraphs": [
+      "Querida Lidia:",
+      "Te prometí que te contaría cómo era el patio de la escuela nueva. En el centro hay dos pistas y casi todo el mundo va allí cuando toca el timbre. El primer día me acerqué a la portería. Me gusta jugar, pero todavía no entendía cómo hacían los equipos y, cuando pregunté, ya habían empezado.",
+      "Me senté en un banco bajo el porche. Allí estaba Joel, que llevaba un cuaderno lleno de pequeños laberintos. Me dejó probar uno y me pidió que le dibujara otro. Al día siguiente encontramos el banco ocupado. Nos quedamos a un lado, con los cuadernos cerrados. La conserje, al vernos, sacó dos taburetes que guardaba para las fiestas.",
+      "Ahora hay una caja de cartón en el porche. Dentro hemos dejado papel y algunos lápices. En la tapa pone «Puedes tomar uno, y puedes dejar uno». El martes alguien dejó un laberinto sin salida. Lo pegamos en la tapa y, al cabo de un rato, apareció junto a él otra hoja con un puente dibujado por encima de una pared.",
+      "Esta semana también he empezado a jugar en la pista. Joel vino conmigo y alguien nos explicó cuándo se formaban los equipos. Si vienes el viernes a la salida, te enseñaré el banco y el puente. Me gustaría saber qué habrías hecho tú con el laberinto. Ya sabes que yo estuve a punto de borrar una pared.",
+      "Un abrazo,",
+      "Vera"
+    ],
+    "images": [
+      {
+        "id": "cartas-desde-el-banco-del-patio",
+        "src": "assets/readings/l050-cartas-desde-el-banco-del-patio.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Dos alumnos se sientan bajo el porche del patio con un cuaderno abierto entre ellos.",
+        "afterParagraph": 3
+      }
+    ],
+    "questions": [
+      {
+        "id": "cartas-desde-el-banco-del-patio-q1",
+        "type": "literal",
+        "prompt": "¿Qué guardaba la conserje para las fiestas y sacó cuando el banco estaba ocupado?",
+        "answer": "Dos taburetes.",
+        "lines": 1
+      },
+      {
+        "id": "cartas-desde-el-banco-del-patio-q2",
+        "type": "inference",
+        "prompt": "¿Por qué Vera no jugó en la pista el primer día, aunque le gustaba jugar?",
+        "answer": "No sabía cómo se formaban los equipos y cuando preguntó el partido ya había empezado.",
+        "lines": 2
+      },
+      {
+        "id": "cartas-desde-el-banco-del-patio-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué es el «porche» según los detalles que aparecen en la carta?",
+        "answer": "Un espacio cubierto del patio donde están el banco y, más tarde, la caja.",
+        "lines": 2
+      },
+      {
+        "id": "cartas-desde-el-banco-del-patio-q4",
+        "type": "structure",
+        "prompt": "¿Qué sucede primero: que Joel y Vera juegan en la pista o que dejan papel en la caja? ¿Cómo lo sabes?",
+        "answer": "Dejan papel en la caja primero. Vera lo cuenta antes y añade al final que esa semana también ha empezado a jugar.",
+        "lines": 2
+      },
+      {
+        "id": "cartas-desde-el-banco-del-patio-q5",
+        "type": "inference",
+        "prompt": "¿Qué idea aporta el dibujo del puente al laberinto sin salida?",
+        "answer": "Permite pasar por encima de una pared sin borrarla y crea una forma de salir.",
+        "lines": 2
+      },
+      {
+        "id": "cartas-desde-el-banco-del-patio-q6",
+        "type": "opinion",
+        "prompt": "¿Qué otra actividad podría ponerse en la caja para que alguien se animara a participar? Explica cómo funcionaría.",
+        "answer": "Respuesta abierta. Por ejemplo, dejar un dibujo a medias que otra persona pueda completar con los lápices de la caja.",
+        "lines": 3
+      }
+    ]
+  },
 ];
