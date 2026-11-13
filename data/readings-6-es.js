@@ -1450,4 +1450,80 @@ export const readings6Es = [
       }
     ]
   },
+  {
+    "id": "el-mapa-que-no-terminaba-en-la-puerta-es",
+    "code": "L080",
+    "workId": "el-mapa-que-no-terminaba-en-la-puerta",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "community",
+      "everyday"
+    ],
+    "genre": "narrative",
+    "title": "El mapa que no terminaba en la puerta",
+    "summary": "La inauguración de una muestra revela que un plano puede señalar un destino y aun así dejar parte del recorrido sin explicar.",
+    "paragraphs": [
+      "El equipo de la exposición de sexto había dibujado un plano para las familias. Desde la entrada del centro, una línea verde llevaba hasta el aula de música. Marcaba el vestíbulo, una puerta acristalada y los escalones del pasillo. Mara repasó el plano y pegó una copia en la puerta principal. Le sorprendió que, durante la prueba, Joan tardara más que el resto en llegar.",
+      "Joan usaba muletas y había elegido el recorrido por la rampa del patio. Desde allí encontró una puerta con el mismo número que figuraba en el plano. La abrió y llegó al escenario, que estaba detrás de las cortinas. La exposición empezaba al otro lado de la sala. Para llegar a la mesa de bienvenida tuvo que pasar entre los atriles y pedir que movieran una silla.",
+      "Mara volvió al vestíbulo con él. En el plano, el aula de música era un rectángulo. No se veía desde qué puerta se entraba al espacio donde se recibiría a la gente. Entre ambos marcaron la rampa y cambiaron el destino de la línea verde: en vez de terminar en la puerta, debía llegar a la mesa. Junto a los escalones dejaron otra ruta para quienes quisieran usarla.",
+      "Durante una segunda prueba, una vecina leyó «sigue la línea verde» en el aviso, pero en la copia en blanco y negro no distinguía bien las dos rutas. Mara añadió líneas de distinto dibujo y cambió la frase por «sigue las marcas con círculos para llegar por la rampa». También escribieron dónde preguntar si una puerta estaba cerrada.",
+      "El día de la apertura, la mesa se movió para dejar paso a un grupo que iba a tocar. Mara corrigió la señal de entrada y acompañó a un visitante hasta el nuevo punto. Después comprobó que los planos del patio y del vestíbulo coincidían."
+    ],
+    "images": [
+      {
+        "id": "el-mapa-que-no-terminaba-en-la-puerta",
+        "src": "assets/readings/l080-el-mapa-que-no-terminaba-en-la-puerta.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Joan y Mara consultan un plano junto a una rampa que llega a una puerta de la escuela.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-mapa-que-no-terminaba-en-la-puerta-q1",
+        "type": "literal",
+        "prompt": "¿Por dónde llegó Joan al aula durante la primera prueba y qué encontró al entrar?",
+        "answer": "Llegó por la rampa del patio y una puerta que daba al escenario, detrás de las cortinas.",
+        "lines": 2
+      },
+      {
+        "id": "el-mapa-que-no-terminaba-en-la-puerta-q2",
+        "type": "inference",
+        "prompt": "¿Por qué el plano inicial podía llevar correctamente al aula y aun así no orientar a Joan hasta la exposición?",
+        "answer": "El plano terminaba en la puerta y no distinguía las entradas ni mostraba la posición de la mesa de bienvenida dentro de la sala.",
+        "lines": 4
+      },
+      {
+        "id": "el-mapa-que-no-terminaba-en-la-puerta-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué son los «atriles»? ¿Qué parte del texto te ayuda a entender dónde estaban?",
+        "answer": "Son soportes para leer partituras u hojas. Estaban en el escenario del aula de música, entre la puerta y la zona de bienvenida.",
+        "lines": 2
+      },
+      {
+        "id": "el-mapa-que-no-terminaba-en-la-puerta-q4",
+        "type": "structure",
+        "prompt": "¿Qué problema diferente aporta la prueba con la vecina después de cambiar el destino de las rutas?",
+        "answer": "La impresión en blanco y negro hace difícil distinguir los colores. Por eso añaden marcas de formas distintas.",
+        "lines": 3
+      },
+      {
+        "id": "el-mapa-que-no-terminaba-en-la-puerta-q5",
+        "type": "inference",
+        "prompt": "¿Por qué, al mover la mesa, Mara revisa tanto el plano del patio como el del vestíbulo?",
+        "answer": "Las rutas empiezan en lugares distintos y deben conducir al mismo punto actualizado. Una copia antigua podía orientar al sitio equivocado.",
+        "lines": 4
+      },
+      {
+        "id": "el-mapa-que-no-terminaba-en-la-puerta-q6",
+        "type": "summary",
+        "prompt": "Resume dos cambios que convierten el primer plano en una guía más clara para visitantes distintos.",
+        "answer": "Las rutas llegan hasta la mesa, incluyendo el acceso por la rampa, y se distinguen por sus marcas aunque la copia no tenga color.",
+        "lines": 4
+      }
+    ]
+  },
 ];

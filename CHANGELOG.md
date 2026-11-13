@@ -2,7 +2,7 @@
 
 ## 1.13 · 13 de novembre de 2026
 
-El catàleg incorpora lectures de 4t de primària en castellà. La primera és L021, «El abrigo del perchero», amb una il·lustració en blanc i negre i solucionari.
+El catàleg arriba a 80 lectures amb 60 fitxes noves en castellà, 20 per a cadascun dels cursos de 4t a 6è de primària. Totes les noves tenen una il·lustració, solucionari i espai de resposta adaptat a cada pregunta.
 
 ## 1.12.3 · 13 de novembre de 2026
 

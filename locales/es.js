@@ -127,7 +127,7 @@ Fotografia i QR reutilitzats de|Fotografía y QR reutilizados de
 Historial de versions|Historial de versiones
 Changelog complet ↗|Historial completo ↗
 Tanca l’historial|Cerrar el historial
-El catàleg incorpora lectures de 4t de primària en castellà. La primera és L021, «El abrigo del perchero», amb una il·lustració en blanc i negre i solucionari.|El catálogo incorpora lecturas de 4.º de primaria en español. La primera es L021, «El abrigo del perchero», con una ilustración en blanco y negro y solucionario.
+El catàleg arriba a 80 lectures amb 60 fitxes noves en castellà, 20 per a cadascun dels cursos de 4t a 6è de primària. Totes les noves tenen una il·lustració, solucionari i espai de resposta adaptat a cada pregunta.|El catálogo llega a 80 lecturas con 60 fichas nuevas en español, 20 para cada curso de 4.º a 6.º de primaria. Todas las nuevas tienen una ilustración, solucionario y espacio de respuesta adaptado a cada pregunta.
 La lectura L001, «El cartel de la plaza», incorpora una pregunta nova i una quarta pregunta d’inferència.|La lectura L001, «El cartel de la plaza», añade una pregunta y convierte la cuarta en una pregunta de inferencia.
 El catàleg es barreja en carregar la pàgina i manté el mateix ordre mentre es navega.|El catálogo se mezcla al cargar la página y mantiene el mismo orden durante la navegación.
 Quatre lectures de 5è en castellà amb il·lustracions en blanc i negre d’estil linogravat. El catàleg arriba a vint fitxes.|Cuatro lecturas de 5.º en español con ilustraciones en blanco y negro de estilo linograbado. El catálogo alcanza las veinte fichas.
