@@ -344,4 +344,72 @@ export const readings4Es = [
       }
     ]
   },
+  {
+    "id": "un-espacio-en-la-pared-es",
+    "code": "L026",
+    "workId": "un-espacio-en-la-pared",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "initial",
+    "themes": [
+      "arts",
+      "community"
+    ],
+    "genre": "narrative",
+    "title": "Un espacio en la pared",
+    "summary": "Dos compañeros tienen ideas distintas para un mural y encuentran una forma de conservarlas.",
+    "paragraphs": [
+      "En la escuela iban a pintar un mural para alegrar la pared del patio. Ada llevó un dibujo de una ballena. A Iker le gustaba más su boceto de un cohete. La maestra les recordó que solo tenían una pared y les pidió que hicieran una prueba en un papel grande.",
+      "Ada dibujó su ballena en la mitad de abajo. Iker puso el cohete en la mitad de arriba. Desde cerca, parecía que habían pegado dos dibujos separados. Cuando se alejaron, vieron que la línea del agua era tan recta que parecía cortar el papel por la mitad.",
+      "Iker levantó una esquina del dibujo. «Si el cohete deja una estela curva, podemos alargarla hasta aquí», dijo señalando el agua. Ada trazó la curva con un lápiz. Luego dibujó una ola que seguía el camino de la estela. Ya no había una línea que dividiera el papel en dos.",
+      "Al día siguiente enseñaron el boceto a la clase. En la pared habría una ballena y un cohete. Antes de pintarlos, todo el grupo tuvo que decidir por dónde pasaría la curva."
+    ],
+    "images": [
+      {
+        "id": "un-espacio-en-la-pared",
+        "src": "assets/readings/l026-un-espacio-en-la-pared.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Ada e Iker dibujan en un papel grande. En el boceto se ven una ballena y un cohete.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "un-espacio-en-la-pared-q1",
+        "type": "literal",
+        "prompt": "¿Qué quería dibujar Ada? ¿Y qué quería dibujar Iker?",
+        "answer": "Ada quería dibujar una ballena e Iker, un cohete.",
+        "lines": 2
+      },
+      {
+        "id": "un-espacio-en-la-pared-q2",
+        "type": "inference",
+        "prompt": "¿Por qué decidieron cambiar la línea que separaba el agua del cielo?",
+        "answer": "Porque hacía que el boceto pareciera dividido en dos dibujos separados.",
+        "lines": 2
+      },
+      {
+        "id": "un-espacio-en-la-pared-q3",
+        "type": "vocabulary",
+        "prompt": "Por lo que hace Iker en el dibujo, ¿qué es la «estela» del cohete?",
+        "answer": "El rastro o línea que el cohete deja detrás al pasar.",
+        "lines": 2
+      },
+      {
+        "id": "un-espacio-en-la-pared-q4",
+        "type": "structure",
+        "prompt": "¿En qué parte del relato enseñan el boceto a la clase?",
+        "answer": "En el último párrafo, después de unir las dos partes con la curva.",
+        "lines": 2
+      },
+      {
+        "id": "un-espacio-en-la-pared-q5",
+        "type": "opinion",
+        "prompt": "¿Qué otro elemento podría unir el dibujo del mar con el del cielo? Explica dónde lo colocarías.",
+        "answer": "Respuesta abierta. Por ejemplo, una bandada que salga del agua y vuele hacia el cielo siguiendo una curva.",
+        "lines": 3
+      }
+    ]
+  },
 ];
