@@ -1189,4 +1189,79 @@ export const readings4Es = [
       }
     ]
   },
+  {
+    "id": "por-que-el-hielo-flota-es",
+    "code": "L038",
+    "workId": "por-que-el-hielo-flota",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "science",
+      "everyday"
+    ],
+    "genre": "informative",
+    "title": "¿Por qué el hielo flota?",
+    "summary": "Una prueba en el aula permite relacionar lo que ocurre al congelar agua con lo que se ve cuando un cubito flota.",
+    "paragraphs": [
+      "En el comedor, Darío puso un cubito de hielo en su vaso. Una parte pequeña quedó fuera del agua. Al tocarlo con una cuchara para hundirlo, el cubito volvió a subir en cuanto apartó la cuchara. Al día siguiente, la clase preparó una prueba para entender lo que había visto.",
+      "Llenaron dos recipientes de plástico con la misma cantidad de agua. En ambos dejaron espacio por encima y marcaron el nivel con un rotulador. Dejaron uno en el aula y pusieron el otro en el congelador. A la mañana siguiente, el hielo estaba más alto que la marca. El agua del aula seguía casi a la misma altura.",
+      "Al congelarse, las partículas del agua se ordenan de una manera que deja más espacio entre ellas. Por eso la misma cantidad de agua ocupa más sitio cuando se convierte en hielo. Si comparas dos porciones del mismo tamaño, una de agua líquida y otra de hielo, la de hielo pesa menos. Eso permite que el hielo flote en el agua.",
+      "En un estanque tranquilo, el agua que se enfría cerca del aire puede formar una capa de hielo en la superficie. Debajo de esa capa puede seguir habiendo agua líquida. Tanto en el vaso de Darío como en el estanque, el hielo queda en la parte de arriba."
+    ],
+    "images": [
+      {
+        "id": "por-que-el-hielo-flota",
+        "src": "assets/readings/l038-por-que-el-hielo-flota.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Un cubito flota en un vaso de agua y solo sobresale una punta. Junto al vaso hay una cucharilla.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "por-que-el-hielo-flota-q1",
+        "type": "literal",
+        "prompt": "¿Qué pasó con el cubito cuando Darío apartó la cuchara?",
+        "answer": "Volvió a subir y flotó.",
+        "lines": 1
+      },
+      {
+        "id": "por-que-el-hielo-flota-q2",
+        "type": "inference",
+        "prompt": "¿Por qué usaron la misma cantidad de agua en los dos recipientes y marcaron el nivel al principio?",
+        "answer": "Para poder comparar los dos casos desde el mismo nivel y ver si el que se congeló ocupaba más espacio.",
+        "lines": 3
+      },
+      {
+        "id": "por-que-el-hielo-flota-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «superficie» en el último párrafo?",
+        "answer": "La parte de arriba del agua, que está en contacto con el aire antes de helarse.",
+        "lines": 2
+      },
+      {
+        "id": "por-que-el-hielo-flota-q4",
+        "type": "structure",
+        "prompt": "¿Qué párrafo explica la causa de que el hielo flote y cuál muestra un ejemplo en la naturaleza?",
+        "answer": "El tercer párrafo explica la causa. El cuarto da el ejemplo del estanque.",
+        "lines": 2
+      },
+      {
+        "id": "por-que-el-hielo-flota-q5",
+        "type": "inference",
+        "prompt": "Si hubieran llenado el recipiente del congelador hasta el borde, ¿qué podría pasar al formarse el hielo? Explica por qué.",
+        "answer": "El hielo podría sobresalir o deformar el recipiente, porque el agua ocupa más espacio al congelarse.",
+        "lines": 3
+      },
+      {
+        "id": "por-que-el-hielo-flota-q6",
+        "type": "literal",
+        "prompt": "Según el texto, si dos porciones del mismo tamaño son una de hielo y otra de agua líquida, ¿cuál pesa menos?",
+        "answer": "La de hielo.",
+        "lines": 1
+      }
+    ]
+  },
 ];
