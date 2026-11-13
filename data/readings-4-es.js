@@ -1043,4 +1043,79 @@ export const readings4Es = [
       }
     ]
   },
+  {
+    "id": "el-punto-que-faltaba-es",
+    "code": "L036",
+    "workId": "el-punto-que-faltaba",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "arts",
+      "community"
+    ],
+    "genre": "narrative",
+    "title": "El punto que faltaba",
+    "summary": "Un error en las invitaciones de una exposición lleva a tres compañeros a pensar qué información necesita quien llega de visita.",
+    "paragraphs": [
+      "Para inaugurar la exposición de fotos de la escuela, Alma, Víctor y Noa hicieron unas invitaciones. En la portada pusieron la fecha, la hora y un dibujo del edificio. Dentro pegaron una de las fotos de la exposición. Las repartieron el miércoles a la salida de clase.",
+      "El jueves, el abuelo de Noa llamó por teléfono. Sabía llegar a la escuela, pero quería saber por qué puerta debía entrar. Noa leyó su copia de la invitación. En ningún lugar ponía que la exposición se hacía en la sala de música, cerca de la entrada pequeña.",
+      "Víctor propuso imprimir todas las invitaciones otra vez. Alma recordó que ya habían repartido casi la mitad y que no sabían quién tenía cada una. Noa dibujó un plano sencillo con un punto verde junto a la entrada pequeña. Lo pusieron en las invitaciones que aún quedaban.",
+      "Para quienes ya tenían la primera versión, prepararon otro plan. Colgaron un cartel en la puerta principal, con una flecha que indicaba cómo llegar desde allí. El viernes, el abuelo de Noa apareció con un vecino que se había parado frente a la puerta principal. Los dos llegaron juntos a la sala de música. Al salir, Noa guardó una de las primeras invitaciones junto al plano para revisarlos antes de la próxima exposición."
+    ],
+    "images": [
+      {
+        "id": "el-punto-que-faltaba",
+        "src": "assets/readings/l036-el-punto-que-faltaba.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Una mano sostiene una invitación ilustrada con el dibujo de la escuela. Sobre la mesa hay más invitaciones y fotos antiguas.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-punto-que-faltaba-q1",
+        "type": "literal",
+        "prompt": "¿Qué tres cosas aparecían en la portada de la primera invitación?",
+        "answer": "La fecha, la hora y un dibujo del edificio.",
+        "lines": 2
+      },
+      {
+        "id": "el-punto-que-faltaba-q2",
+        "type": "inference",
+        "prompt": "¿Por qué imprimir todas las invitaciones de nuevo no resolvía el problema para todas las familias?",
+        "answer": "Casi la mitad ya se habían repartido y el grupo no sabía quién tenía esas copias, así que no podía cambiárselas fácilmente.",
+        "lines": 3
+      },
+      {
+        "id": "el-punto-que-faltaba-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué quiere decir «inaugurar» la exposición en este relato?",
+        "answer": "Abrirla por primera vez para que la visite el público.",
+        "lines": 2
+      },
+      {
+        "id": "el-punto-que-faltaba-q4",
+        "type": "structure",
+        "prompt": "¿Qué solución encontraron para cada grupo: quienes aún no tenían invitación y quienes ya la tenían?",
+        "answer": "Pusieron el plano con el punto verde en las invitaciones pendientes y colgaron una flecha en la puerta principal para orientar a quienes ya tenían la primera versión.",
+        "lines": 4
+      },
+      {
+        "id": "el-punto-que-faltaba-q5",
+        "type": "inference",
+        "prompt": "¿Qué quería recordar Noa al guardar la primera invitación junto al plano?",
+        "answer": "Que debía revisar si las próximas invitaciones explicaban dónde era la exposición y por dónde se entraba.",
+        "lines": 3
+      },
+      {
+        "id": "el-punto-que-faltaba-q6",
+        "type": "opinion",
+        "prompt": "Si pudieras cambiar un solo elemento de la portada original, ¿cuál cambiarías y qué pondrías? Justifica tu respuesta.",
+        "answer": "Respuesta abierta. Por ejemplo, sustituir el dibujo del edificio por un plano con la entrada pequeña y la sala de música para facilitar la llegada.",
+        "lines": 4
+      }
+    ]
+  },
 ];
