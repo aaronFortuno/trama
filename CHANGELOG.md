@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.14 · 13 de novembre de 2026
+
+L’extensió es classifica per curs i el catàleg afegeix dues files de lectures en arribar al final dels resultats visibles.
+
 ## 1.13.1 · 13 de novembre de 2026
 
 Els textos, les preguntes i les respostes de Trama es publiquen amb llicència CC BY 4.0, que apareix al peu de les fitxes. El camp de curs de l’encapçalament queda desactivat per defecte. També s’ha corregit la posició de l’espiral del quadern a la il·lustració de la L010.

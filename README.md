@@ -48,7 +48,8 @@ El catàleg s’exporta des de `data/readings.js` com una llista d’objectes Ja
 
 - Assigna un `id` únic i estable a cada versió. Comparteix el `workId` i el `code` (per exemple, `L001`) entre les traduccions d’una mateixa lectura.
 - Fes servir `language` amb una etiqueta BCP 47 i `level` amb un identificador de curs. `catalog.js` recull els noms habituals dels filtres. `worksheet.js` conté els rètols impresos en català, castellà i anglès. Les llengües sense rètols propis fan servir els anglesos.
-- Introdueix el text a `paragraphs`, un element per paràgraf. L’extensió es calcula pel recompte de paraules.
+- Introdueix el text a `paragraphs`, un element per paràgraf. L’extensió es calcula pel recompte de paraules amb els llindars de cada curs definits a `catalog.js`. Quan incorporis un curs nou, afegeix-hi els seus llindars. Fins aleshores, l’extensió d’aquell curs apareix com a «Sense especificar».
+- Assigna `difficulty` dins del curs, tenint en compte el vocabulari, l’estructura del text i el raonament que demanen les preguntes.
 - Desa les imatges a `assets/readings/` i indica el camí relatiu, les dimensions originals i el text alternatiu. `afterParagraph` indica quants paràgrafs s’han de mostrar abans de la imatge. El valor `0` la posa abans del primer.
 - Dona a cada pregunta un identificador estable, el tipus, l’enunciat i, opcionalment, una resposta orientativa. `lines` és el nombre de línies de resposta suggerides, de 0 a 8, tant al catàleg com al JSON d’intercanvi. Fes servir 1 línia per a una dada breu, 2 o 3 per a una explicació curta i 4 o 5 per a una resposta amb diversos punts o un resum. El visor aplica aquesta xifra amb **Segons la pregunta** i permet canviar-la per a cada pregunta.
 

@@ -11,7 +11,7 @@ export const labels = {
     '1-baccalaureate': '1r de batxillerat', '2-baccalaureate': '2n de batxillerat',
   },
   difficulty: { initial: 'Inicial', intermediate: 'Intermèdia', advanced: 'Avançada' },
-  length: { short: 'Curta (<181)', medium: 'Mitjana (181–280)', long: 'Llarga (>280)' },
+  length: { short: 'Curta', medium: 'Mitjana', long: 'Llarga' },
   theme: { nature: 'Natura', community: 'Comunitat', adventure: 'Aventures', science: 'Ciència', arts: 'Art i cultura', everyday: 'Vida quotidiana', history: 'Història', math: 'Matemàtiques' },
   question: { literal: 'Literal', inference: 'Inferència', opinion: 'Opinió', vocabulary: 'Vocabulari', structure: 'Estructura del text', summary: 'Resum' },
   genre: { narrative: 'Narració', informative: 'Divulgació', instructional: 'Text instructiu', interview: 'Entrevista', letter: 'Carta' },
@@ -19,7 +19,15 @@ export const labels = {
 
 const languageNames = new Map(languages.map(code => [code, new Intl.DisplayNames(code, { type: 'language' })]));
 const rankedFacets = ['level', 'difficulty', 'length'];
-const pageSize = 12;
+const firstBatchSize = 12;
+const rowsPerBatch = 2;
+
+// Editorial word ranges for the levels covered by the catalogue.
+const lengthLimits = new Map([
+  ['4-primary', { shortMax: 185, mediumMax: 210 }],
+  ['5-primary', { shortMax: 240, mediumMax: 265 }],
+  ['6-primary', { shortMax: 290, mediumMax: 300 }],
+]);
 
 export function labelFor(facet, value, locale = language()) {
   if (value === 'unspecified') return t('Sense especificar', {}, locale);
@@ -35,10 +43,26 @@ export function wordCount(reading) {
   return reading.paragraphs.join(' ').match(/[\p{L}\p{N}]+(?:[’'-][\p{L}\p{N}]+)*/gu)?.length ?? 0;
 }
 
-function lengthBucket(count) {
-  if (count <= 180) return 'short';
-  if (count <= 280) return 'medium';
+function lengthBucket(count, level) {
+  const limits = lengthLimits.get(level);
+  if (!limits) return 'unspecified';
+  if (count <= limits.shortMax) return 'short';
+  if (count <= limits.mediumMax) return 'medium';
   return 'long';
+}
+
+function lengthLabel(value, level, numberFormat) {
+  const label = labelFor('length', value);
+  const limits = lengthLimits.get(level);
+  if (!limits || value === 'unspecified') return label;
+  const { shortMax, mediumMax } = limits;
+  const format = count => numberFormat.format(count);
+  const ranges = {
+    short: `≤${format(shortMax)}`,
+    medium: `${format(shortMax + 1)}–${format(mediumMax)}`,
+    long: `>${format(mediumMax)}`,
+  };
+  return `${label} (${ranges[value]})`;
 }
 
 function normalize(value) {
@@ -49,7 +73,7 @@ export function indexCatalog(readings) {
   return readings.map((reading) => {
     const count = wordCount(reading);
     const facets = {
-      language: [reading.language], level: [reading.level], difficulty: [reading.difficulty], length: [lengthBucket(count)],
+      language: [reading.language], level: [reading.level], difficulty: [reading.difficulty], length: [lengthBucket(count, reading.level)],
       theme: reading.themes, question: reading.questions.map(({ type }) => type), genre: [reading.genre],
     };
     const terms = languages.flatMap(locale => Object.entries(facets).flatMap(([facet, values]) => values.map(value => labelFor(facet, value, locale))));
@@ -85,6 +109,7 @@ export function mountCatalog({ root, readings, onSelect }) {
 
   const search = root.querySelector('#search');
   const fields = [...root.querySelectorAll('[data-facet]')];
+  const levelField = root.querySelector('#filter-level');
   const grid = root.querySelector('#reading-grid');
   const resultCount = root.querySelector('#result-count');
   const emptyState = root.querySelector('#catalog-empty');
@@ -96,21 +121,31 @@ export function mountCatalog({ root, readings, onSelect }) {
   const compact = matchMedia('(max-width: 790px)');
   const indicator = root.querySelector('#filter-indicator');
   const template = document.querySelector('#reading-card');
-  let limit = pageSize;
+  let limit = firstBatchSize;
   let visibleIds;
+  const observer = typeof IntersectionObserver === 'function' ? new IntersectionObserver(entries => {
+    if (entries.some(entry => entry.isIntersecting) && document.activeElement !== more) loadMore();
+  }) : null;
 
   function updateOptions() {
     const { compare } = new Intl.Collator(language(), { numeric: true });
+    const numbers = new Intl.NumberFormat(language());
+    const levelMatches = catalog.filter(item => item.reading.level === levelField.value);
+    const level = levelMatches.length ? levelField.value : '';
+    const levelReadings = level ? levelMatches : catalog;
     for (const field of fields) {
       const facet = field.dataset.facet;
       const selected = field.value;
-      const options = [...new Set(catalog.flatMap(item => item.facets[facet]))];
+      const source = facet === 'length' || facet === 'difficulty' ? levelReadings : catalog;
+      const options = [...new Set(source.flatMap(item => item.facets[facet]))];
       options.sort((a, b) => sortFacet(facet, a, b, compare));
-      field.replaceChildren(field.options[0], ...options.map(value => new Option(labelFor(facet, value), value)));
+      const optionLabel = value => facet === 'length' ? lengthLabel(value, level, numbers) : labelFor(facet, value);
+      field.replaceChildren(field.options[0], ...options.map(value => new Option(optionLabel(value), value)));
       field.value = options.includes(selected) ? selected : '';
     }
     syncSelects(root);
   }
+  levelField.addEventListener('change', updateOptions);
   for (const field of fields) field.addEventListener('change', refresh);
 
   function cardFor({ reading, count }, words) {
@@ -163,10 +198,12 @@ export function mountCatalog({ root, readings, onSelect }) {
       if (append) {
         grid.append(...cards);
         for (const card of cards) animateRefresh(card);
-        cards[0]?.querySelector('button').focus();
       } else {
         grid.replaceChildren(...cards);
-        if (!translated) results.scrollTop = 0;
+        if (!translated) {
+          const scrollPane = compact.matches ? root.closest('main') : results;
+          scrollPane.scrollTop = 0;
+        }
         if (animated) animateRefresh(total ? grid : emptyState);
       }
       visibleIds = ids;
@@ -177,19 +214,31 @@ export function mountCatalog({ root, readings, onSelect }) {
     more.textContent = t('Mostra més lectures ({showing} de {total})', {
       showing: words.format(showing), total: words.format(total),
     });
+    observer?.unobserve(more);
+    observer?.takeRecords();
+    if (!more.hidden) observer?.observe(more);
     indicator.textContent = activeCount ? ` (${activeCount})` : '';
     reset.hidden = !activeCount && !search.value.trim();
   }
 
   function refresh() {
-    limit = pageSize;
+    limit = firstBatchSize;
     render({ animated: true });
+  }
+
+  function loadMore(focusFirst = false) {
+    if (more.hidden || root.hidden) return;
+    const firstNewCard = grid.childElementCount;
+    const columns = getComputedStyle(grid).gridTemplateColumns.split(' ').length;
+    limit = firstNewCard + columns * rowsPerBatch;
+    render({ append: true });
+    if (focusFirst) grid.children[firstNewCard]?.querySelector('button').focus();
   }
 
   function clear() {
     search.value = '';
     for (const field of fields) field.value = '';
-    syncSelects(root);
+    updateOptions();
     refresh();
     search.focus();
   }
@@ -209,10 +258,7 @@ export function mountCatalog({ root, readings, onSelect }) {
   compact.addEventListener('change', resizeFilters);
   resizeFilters();
   updateOptions();
-  more.addEventListener('click', () => {
-    limit += pageSize;
-    render({ append: true });
-  });
+  more.addEventListener('click', () => loadMore(true));
   render();
 
   return {
@@ -228,7 +274,7 @@ export function mountCatalog({ root, readings, onSelect }) {
     reveal(code) {
       search.value = code;
       for (const field of fields) field.value = '';
-      syncSelects(root);
+      updateOptions();
       refresh();
     },
     translate() {
