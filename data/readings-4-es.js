@@ -789,7 +789,7 @@ export const readings4Es = [
         "src": "assets/readings/l032-el-patio-de-antes.webp",
         "width": 960,
         "height": 640,
-        "alt": "Nico y Elena miran una fotografía antigua del patio de la escuela. Al fondo se ven un árbol y la puerta del gimnasio.",
+        "alt": "Nico y Elena miran una foto antigua. Se ve el reverso amarillento, con una anotación borrosa. Al fondo están el árbol y la puerta del gimnasio.",
         "afterParagraph": 1
       }
     ],
