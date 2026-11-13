@@ -206,4 +206,73 @@ export const readings4Es = [
       }
     ]
   },
+  {
+    "id": "dos-marcas-en-el-vaso-es",
+    "code": "L024",
+    "workId": "dos-marcas-en-el-vaso",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "initial",
+    "themes": [
+      "science",
+      "everyday"
+    ],
+    "genre": "instructional",
+    "title": "Dos marcas en el vaso",
+    "summary": "Dos vasos iguales permiten comparar cuánto baja el nivel del agua cuando uno de ellos queda tapado.",
+    "paragraphs": [
+      "Para esta prueba necesitas dos vasos transparentes iguales, agua, un plato pequeño, una regla y un rotulador que escriba sobre el vaso. Busca un lugar donde puedas dejar los vasos dos o tres días. Deben estar juntos y lejos de un radiador para recibir un calor parecido.",
+      "1. Llena los vasos hasta la mitad. Ponlos uno al lado del otro y añade un poco de agua al que tenga el nivel más bajo. Cuando los dos niveles coincidan, marca la altura del agua por fuera de cada vaso.",
+      "2. Tapa uno de los vasos con el plato y deja el otro destapado. Anota la fecha y no cambies los vasos de sitio. Procura que nadie beba de ellos ni los use para regar.",
+      "3. Dos o tres días después, observa los vasos sin moverlos. En cada vaso, marca la nueva altura del agua con una raya más corta. Mide la distancia entre las marcas con una regla.",
+      "4. Escribe en qué vaso bajó más el nivel. Si no ves diferencia, déjalos en las mismas condiciones un par de días más y vuelve a mirar."
+    ],
+    "images": [
+      {
+        "id": "dos-marcas-en-el-vaso",
+        "src": "assets/readings/l024-dos-marcas-en-el-vaso.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Dos vasos con agua al mismo nivel y una marca a la altura del agua. Uno de los vasos está tapado con un plato.",
+        "afterParagraph": 3
+      }
+    ],
+    "questions": [
+      {
+        "id": "dos-marcas-en-el-vaso-q1",
+        "type": "literal",
+        "prompt": "¿Con qué tapas uno de los vasos?",
+        "answer": "Con un plato pequeño.",
+        "lines": 1
+      },
+      {
+        "id": "dos-marcas-en-el-vaso-q2",
+        "type": "structure",
+        "prompt": "¿Cuándo marcas por primera vez la altura del agua: antes o después de igualar los niveles?",
+        "answer": "Después de igualar los niveles.",
+        "lines": 1
+      },
+      {
+        "id": "dos-marcas-en-el-vaso-q3",
+        "type": "inference",
+        "prompt": "¿Por qué conviene dejar los dos vasos juntos y lejos del radiador?",
+        "answer": "Para que reciban un calor parecido y se pueda comparar el efecto de poner o quitar la tapa.",
+        "lines": 3
+      },
+      {
+        "id": "dos-marcas-en-el-vaso-q4",
+        "type": "vocabulary",
+        "prompt": "¿A qué se refiere «nivel del agua» en esta prueba?",
+        "answer": "A la altura hasta la que llega el agua en el vaso.",
+        "lines": 2
+      },
+      {
+        "id": "dos-marcas-en-el-vaso-q5",
+        "type": "inference",
+        "prompt": "¿Cómo sabrás en cuál de los vasos ha bajado más el nivel?",
+        "answer": "El nivel habrá bajado más en el vaso donde haya más distancia entre la primera marca y la segunda.",
+        "lines": 2
+      }
+    ]
+  },
 ];
