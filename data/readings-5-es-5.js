@@ -990,4 +990,79 @@ export const readings5EsFifthSeries = [
       }
     ]
   },
+  {
+    "id": "cuanto-mide-el-rio-en-el-plano-es",
+    "code": "L054",
+    "workId": "cuanto-mide-el-rio-en-el-plano",
+    "language": "es",
+    "level": "5-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "math",
+      "nature"
+    ],
+    "genre": "instructional",
+    "title": "¿Cuánto mide el río en el plano?",
+    "summary": "Una guía para estimar el ancho de un río en un plano con cuadrícula y comparar dos tramos sin acercarse a la orilla.",
+    "paragraphs": [
+      "En el plano del parque fluvial, el río está dibujado en azul. Hay una cuadrícula encima y, al pie de la hoja, aparece una nota: «Cada lado de un cuadrado representa cinco metros». Con esa información puedes estimar la anchura del río en dos lugares: cerca de la pasarela y junto al molino.",
+      "Para empezar, busca la pasarela. Pon una tira de papel sobre el plano y marca con lápiz los dos puntos donde la pasarela toca las orillas. Asegúrate de marcar el borde del agua, aunque la pasarela continúe un poco por encima de la tierra. Luego coloca la tira junto a una fila de cuadrados. Cuenta cuántos lados completos caben entre tus marcas y fíjate si sobra más o menos medio cuadrado.",
+      "Si la distancia equivale a cuatro lados de cuadrado y aproximadamente medio lado más, tendrás cuatro grupos de cinco metros y otros dos metros y medio. Anota «unos veintidós metros y medio». Escribe «unos» porque las líneas de la orilla no son finas y al marcar se puede desplazar un poco el lápiz.",
+      "Repite la medida junto al molino. Como allí no hay pasarela, dibuja sobre una lámina transparente un segmento que cruce de lado a lado formando aproximadamente un ángulo recto con la dirección del río. Haz la medida de la misma forma con la tira. Para comparar los resultados, anota tanto los metros estimados como el lugar exacto donde hiciste cada medida."
+    ],
+    "images": [
+      {
+        "id": "cuanto-mide-el-rio-en-el-plano",
+        "src": "assets/readings/l054-cuanto-mide-el-rio-en-el-plano.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Junto a una tira de papel y un lápiz hay un dibujo cuadriculado de un río con una pasarela.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "cuanto-mide-el-rio-en-el-plano-q1",
+        "type": "literal",
+        "prompt": "¿Cuántos metros representa un lado de un cuadrado del plano?",
+        "answer": "Cinco metros.",
+        "lines": 1
+      },
+      {
+        "id": "cuanto-mide-el-rio-en-el-plano-q2",
+        "type": "inference",
+        "prompt": "¿Por qué se marca el borde del agua en vez de los extremos completos de la pasarela?",
+        "answer": "Se quiere medir solo el ancho del agua. La pasarela puede continuar sobre la tierra después de llegar a la orilla.",
+        "lines": 2
+      },
+      {
+        "id": "cuanto-mide-el-rio-en-el-plano-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué quiere decir «estimar» en este texto?",
+        "answer": "Calcular un valor aproximado.",
+        "lines": 2
+      },
+      {
+        "id": "cuanto-mide-el-rio-en-el-plano-q4",
+        "type": "structure",
+        "prompt": "¿Qué haces con la tira justo después de señalar en ella las dos orillas?",
+        "answer": "La colocas junto a una fila de cuadrados y cuentas la distancia entre las marcas.",
+        "lines": 2
+      },
+      {
+        "id": "cuanto-mide-el-rio-en-el-plano-q5",
+        "type": "inference",
+        "prompt": "Si junto al molino la distancia equivale a seis lados de cuadrado, ¿cuánto mide allí aproximadamente el río?",
+        "answer": "Unos treinta metros, porque cada lado de cuadrado representa cinco metros y la medida equivale a seis lados.",
+        "lines": 2
+      },
+      {
+        "id": "cuanto-mide-el-rio-en-el-plano-q6",
+        "type": "summary",
+        "prompt": "Explica por qué conviene anotar el lugar de cada medida además del número de metros.",
+        "answer": "El río puede ser más ancho o estrecho según el lugar. Al apuntar dónde se midió se pueden comparar los tramos o repetir la medición.",
+        "lines": 3
+      }
+    ]
+  },
 ];
