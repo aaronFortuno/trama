@@ -610,4 +610,80 @@ export const readings6Es = [
       }
     ]
   },
+  {
+    "id": "el-puesto-sin-precios-es",
+    "code": "L069",
+    "workId": "el-puesto-sin-precios",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "initial",
+    "themes": [
+      "community",
+      "nature"
+    ],
+    "genre": "narrative",
+    "title": "El puesto sin precios",
+    "summary": "Un intercambio de semillas lleva a una niña a distinguir entre repartir lo mismo y dejar que participe todo el mundo.",
+    "paragraphs": [
+      "Aina llegó a la feria con seis sobres de semillas de girasol. Había escrito el nombre de la planta y el mes en que su vecina le había recomendado sembrarlas. En el puesto de intercambio, una pizarra indicaba la regla del año anterior: «Trae un sobre, llévate un sobre». Aina esperaba volver a casa con algo que pudiera plantar en su balcón.",
+      "La primera persona en llegar llevaba un bote de cristal lleno de semillas. Dijo que quería cambiarlo por un solo sobre porque estaba de paso. Detrás de ella, un niño llevaba una etiqueta dibujada a mano y ninguna semilla. Había leído el cartel de la feria, pero no tenía plantas en casa. La encargada le explicó la regla y le pidió que esperara.",
+      "Cuando hubo un momento tranquilo, Aina preguntó por qué el puesto exigía un sobre para participar. La encargada recordó que el primer año algunas personas se habían llevado tantos que apenas quedaban para quienes llegaban al final. También contó que, aquella vez, parte de las semillas se habían marchado sin su nombre porque nadie había pensado en preparar etiquetas.",
+      "Aina miró su pila y luego el bote. Propuso abrir dos cajas. En la primera pondrían los sobres que cada cual quisiera intercambiar. En la segunda dejarían semillas para iniciar un cultivo, una por visitante mientras hubiera. El niño de la etiqueta se ofreció a preparar más carteles con el nombre de la planta y el mes orientativo de siembra.",
+      "Al cerrar, quedaban cuatro sobres en la caja de intercambio y ninguno en la otra. Aina regresó con un sobre de albahaca y una hoja de instrucciones escrita entre todos. En la pizarra dejó una pregunta para el año siguiente: «¿Apartamos algunos sobres para quienes llegan en el último turno?»."
+    ],
+    "images": [
+      {
+        "id": "el-puesto-sin-precios",
+        "src": "assets/readings/l069-el-puesto-sin-precios.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Aina se acerca al puesto de intercambio con varios sobres de semillas.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-puesto-sin-precios-q1",
+        "type": "literal",
+        "prompt": "¿Qué dos datos había escrito Aina en sus sobres de girasol?",
+        "answer": "El nombre de la planta y el mes recomendado para sembrarla.",
+        "lines": 2
+      },
+      {
+        "id": "el-puesto-sin-precios-q2",
+        "type": "inference",
+        "prompt": "¿Qué intentaba resolver la regla de intercambiar un sobre por otro? ¿Qué problema le creó al niño?",
+        "answer": "Limitaba cuántos sobres se podía llevar cada persona y ayudaba a reservar semillas. Quien no tenía semillas no podía participar.",
+        "lines": 4
+      },
+      {
+        "id": "el-puesto-sin-precios-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «de paso» cuando habla la persona que lleva el bote?",
+        "answer": "Que solo estaba allí de manera breve o camino de otro lugar.",
+        "lines": 2
+      },
+      {
+        "id": "el-puesto-sin-precios-q4",
+        "type": "structure",
+        "prompt": "¿Cómo se relaciona la pregunta de la última línea con lo que contó la encargada?",
+        "answer": "Recupera el problema de quienes llegan tarde y sugiere reservar sobres, porque la caja para empezar a cultivar se agotó.",
+        "lines": 3
+      },
+      {
+        "id": "el-puesto-sin-precios-q5",
+        "type": "inference",
+        "prompt": "¿En qué contribuyó al puesto el niño que no llevaba semillas?",
+        "answer": "Se ofreció a hacer etiquetas con información útil, lo que ayudaba a que las semillas no se repartieran sin identificar.",
+        "lines": 3
+      },
+      {
+        "id": "el-puesto-sin-precios-q6",
+        "type": "opinion",
+        "prompt": "¿Reservarías sobres para el último turno? Explica cómo lo harías y qué necesidad tendrías en cuenta.",
+        "answer": "Respuesta abierta. Por ejemplo, apartar una parte para el último turno y devolver los que sobren si no llega nadie, para equilibrar el acceso y aprovechar las semillas.",
+        "lines": 4
+      }
+    ]
+  },
 ];
