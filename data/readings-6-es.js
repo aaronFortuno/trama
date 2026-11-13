@@ -75,4 +75,80 @@ export const readings6Es = [
       }
     ]
   },
+  {
+    "id": "un-patio-que-bebe-es",
+    "code": "L062",
+    "workId": "un-patio-que-bebe",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "science",
+      "nature"
+    ],
+    "genre": "informative",
+    "title": "Un patio que bebe",
+    "summary": "Una clase compara dos superficies y descubre qué pueden explicar sus mediciones sobre los charcos del patio.",
+    "paragraphs": [
+      "Después de un chaparrón, la pista del colegio solía quedar cubierta de charcos. En cambio, junto a los árboles apenas se veía agua. Cuando alguien propuso levantar parte del suelo, la clase de sexto preparó una pequeña prueba para entender qué ocurría antes de decidir dónde actuar.",
+      "Construyeron dos bandejas del mismo tamaño. Una tenía una superficie lisa de plástico. La otra contenía una capa de tierra, con agujeros en el fondo y un recipiente debajo. Inclinaron ambas del mismo modo y pusieron un vaso al final de cada una para recoger el agua que saliera por la superficie. Vertieron 300 mililitros en cada bandeja durante el mismo tiempo.",
+      "En la bandeja lisa, el vaso recogió 270 mililitros al cabo de un minuto. En la de tierra, solo llegaron 90 mililitros al vaso. Sara pensó que los 210 mililitros restantes seguían dentro de la tierra. Entonces observó el recipiente inferior: ya contenía 80 mililitros. Parte del agua había atravesado la capa, y todavía quedaba humedad dentro de la bandeja.",
+      "Al repetir la prueba, el vaso de la tierra recogió más agua que antes. El equipo anotó que había vuelto a usar la misma tierra sin esperar a que se secara. También descubrió que un grumo cubría uno de los agujeros del fondo. No sabían cuál de esas diferencias tenía más importancia, así que prepararon nuevas pruebas y cambiaron una sola condición cada vez.",
+      "Al presentar el trabajo, el grupo evitó anunciar cuánta agua absorbería el patio entero. No habían medido la profundidad del terreno ni la pendiente cerca de los árboles. Propusieron empezar por una franja pequeña junto a la pista, observarla durante varias lluvias y comparar lo que pasara allí con otro rincón donde mantuvieran el suelo original."
+    ],
+    "images": [
+      {
+        "id": "un-patio-que-bebe",
+        "src": "assets/readings/l062-un-patio-que-bebe.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Dos bandejas inclinadas, una lisa y otra con tierra, están preparadas sobre una mesa del aula.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "un-patio-que-bebe-q1",
+        "type": "literal",
+        "prompt": "¿Dónde colocaron los recipientes para medir por dónde salía el agua?",
+        "answer": "Un vaso al final de cada bandeja recogía el agua de la superficie. Había otro recipiente debajo de la bandeja de tierra para el agua que la atravesaba.",
+        "lines": 3
+      },
+      {
+        "id": "un-patio-que-bebe-q2",
+        "type": "inference",
+        "prompt": "¿Qué medición muestra que Sara se había precipitado al hablar de los 210 mililitros?",
+        "answer": "Había 80 mililitros en el recipiente inferior. Una parte había atravesado la tierra y no seguía dentro.",
+        "lines": 3
+      },
+      {
+        "id": "un-patio-que-bebe-q3",
+        "type": "vocabulary",
+        "prompt": "¿A qué se refiere «franja» en el último párrafo?",
+        "answer": "A una zona estrecha del patio, junto a la pista, donde harían la primera prueba.",
+        "lines": 2
+      },
+      {
+        "id": "un-patio-que-bebe-q4",
+        "type": "structure",
+        "prompt": "¿Qué función cumple la repetición de la prueba en el cuarto párrafo?",
+        "answer": "Muestra que el resultado cambia y que hay más de una posible explicación. Da sentido a variar una sola condición cada vez.",
+        "lines": 3
+      },
+      {
+        "id": "un-patio-que-bebe-q5",
+        "type": "inference",
+        "prompt": "Si quisieran estudiar únicamente el efecto de la humedad inicial, ¿qué deberían variar y qué tendrían que mantener igual?",
+        "answer": "Comparar tierra seca y tierra húmeda manteniendo iguales la bandeja, los agujeros, la pendiente, la cantidad de agua y el tiempo de vertido.",
+        "lines": 4
+      },
+      {
+        "id": "un-patio-que-bebe-q6",
+        "type": "summary",
+        "prompt": "Resume qué sugirió el experimento y por qué el grupo propuso hacer otra prueba en el patio.",
+        "answer": "En el montaje salió menos agua por la superficie con tierra. El patio tiene condiciones propias, por lo que propusieron ensayar allí antes de hacer cambios mayores.",
+        "lines": 4
+      }
+    ]
+  },
 ];
