@@ -1264,4 +1264,80 @@ export const readings4Es = [
       }
     ]
   },
+  {
+    "id": "el-taller-de-los-paraguas-es",
+    "code": "L039",
+    "workId": "el-taller-de-los-paraguas",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "community",
+      "everyday"
+    ],
+    "genre": "interview",
+    "title": "El taller de los paraguas",
+    "summary": "Una reparadora explica cómo distingue una avería pequeña de un problema que puede volver a estropear el paraguas.",
+    "paragraphs": [
+      "En una feria de reparación, la clase de cuarto encontró una mesa llena de paraguas abiertos. Irene, que arregla objetos del barrio, dejó que Hugo le hiciera unas preguntas mientras examinaba un paraguas amarillo.",
+      "—¿Qué es lo primero que miras cuando un paraguas no cierra?\n—Lo abro solo un poco y observo las varillas. Si una está doblada, comparo su forma con la de las demás. A veces basta con enderezarla. Si está partida, busco una pieza del mismo tamaño.",
+      "—Este paraguas tiene la tela suelta. ¿Por dónde empezarás?\n—Primero miraré si la varilla que la sostiene se mueve bien. Si cosemos la tela antes y la varilla sigue torcida, al abrirlo podría tirar otra vez del hilo y romper la costura.",
+      "—¿De dónde salen las piezas que usas?\n—De otros paraguas que no hemos podido reparar. Los desmontamos y guardamos las piezas que todavía sirven. Este cajón está lleno de varillas. Están separadas por longitud para encontrar antes la que encaja.",
+      "—¿Cuándo sabes que puedes devolver un paraguas?\n—Cuando lo he abierto y cerrado varias veces. Después miro la tela a contraluz. Si veo un agujero, lo marco con una pinza y lo tapo. Solo entonces lo dejo en la mesa de entrega."
+    ],
+    "images": [
+      {
+        "id": "el-taller-de-los-paraguas",
+        "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Irene examina las varillas de un paraguas en una mesa de reparación. Hugo la observa con un cuaderno en la mano.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-taller-de-los-paraguas-q1",
+        "type": "literal",
+        "prompt": "¿De dónde consigue Irene algunas piezas de repuesto?",
+        "answer": "De paraguas que no han podido reparar, pero que conservan piezas aprovechables.",
+        "lines": 2
+      },
+      {
+        "id": "el-taller-de-los-paraguas-q2",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa mirar la tela «a contraluz»?",
+        "answer": "Poner la tela entre quien mira y una fuente de luz, para ver mejor si la luz pasa por un agujero.",
+        "lines": 2
+      },
+      {
+        "id": "el-taller-de-los-paraguas-q3",
+        "type": "inference",
+        "prompt": "¿Por qué examina primero la varilla del paraguas amarillo y luego cose la tela?",
+        "answer": "Una varilla torcida podría tirar del hilo y romper de nuevo la costura al abrir el paraguas.",
+        "lines": 3
+      },
+      {
+        "id": "el-taller-de-los-paraguas-q4",
+        "type": "structure",
+        "prompt": "¿Qué pregunta de Hugo da pie a que Irene explique cómo ordena las varillas?",
+        "answer": "«¿De dónde salen las piezas que usas?»",
+        "lines": 2
+      },
+      {
+        "id": "el-taller-de-los-paraguas-q5",
+        "type": "inference",
+        "prompt": "¿Cómo le ayuda a Irene separar las varillas por longitud cuando una se ha partido?",
+        "answer": "Puede localizar antes una varilla del mismo tamaño que la rota.",
+        "lines": 2
+      },
+      {
+        "id": "el-taller-de-los-paraguas-q6",
+        "type": "opinion",
+        "prompt": "¿Qué objeto cotidiano llevarías a esta feria para que lo revisaran? Di qué parte comprobarías antes de decidir cómo arreglarlo.",
+        "answer": "Respuesta abierta. Por ejemplo, una mochila cuya cremallera falla. Miraría si hay tela enganchada o si falta algún diente.",
+        "lines": 4
+      }
+    ]
+  },
 ];
