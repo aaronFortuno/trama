@@ -412,4 +412,72 @@ export const readings4Es = [
       }
     ]
   },
+  {
+    "id": "el-reloj-del-pan-es",
+    "code": "L027",
+    "workId": "el-reloj-del-pan",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "everyday",
+      "science"
+    ],
+    "genre": "informative",
+    "title": "El reloj del pan",
+    "summary": "La visita a una panadería permite seguir los cambios de una masa antes de que entre en el horno.",
+    "paragraphs": [
+      "Cuando la clase de cuarto visitó la panadería, la bandeja de bollos estaba vacía. Faltaba poco para abrir, pero la panadera, Pilar, ya había preparado la masa. Puso un trozo en un cuenco transparente y pegó una tira de cinta justo a la altura de la masa.",
+      "La masa llevaba harina, agua, sal y levadura. Según explicó Pilar, la levadura produce un gas mientras aprovecha los azúcares que encuentra en la masa. Parte de ese gas queda atrapada en pequeñas burbujas. Gracias a ellas, la masa ocupa más espacio. Al cabo de un rato, su borde había subido por encima de la cinta.",
+      "Después, Pilar sacó otra masa que había dejado reposar antes de la visita. La cortó en trozos, dio forma a los bollos y los puso en una bandeja. Los bollos volvieron a reposar antes de entrar en el horno. Allí la masa terminó de crecer y la superficie se doró.",
+      "Al final de la visita, los niños vieron los primeros bollos en el escaparate. Uno preguntó si eran del cuenco que habían marcado. Pilar señaló el cuenco, que todavía estaba sobre la mesa. A esa masa aún le quedaba tiempo antes de convertirse en pan."
+    ],
+    "images": [
+      {
+        "id": "el-reloj-del-pan",
+        "src": "assets/readings/l027-el-reloj-del-pan.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Pilar muestra a la clase un cuenco transparente con masa de pan y una tira de cinta en un lado.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-reloj-del-pan-q1",
+        "type": "literal",
+        "prompt": "¿Qué cuatro ingredientes llevaba la masa del cuenco?",
+        "answer": "Harina, agua, sal y levadura.",
+        "lines": 2
+      },
+      {
+        "id": "el-reloj-del-pan-q2",
+        "type": "inference",
+        "prompt": "¿Qué permite comprobar la cinta pegada en el cuenco?",
+        "answer": "Permite comparar la altura inicial con la altura de la masa después del reposo y ver si ha subido.",
+        "lines": 3
+      },
+      {
+        "id": "el-reloj-del-pan-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa dejar «reposar» la masa antes de hornearla?",
+        "answer": "Dejarla quieta durante un tiempo antes de seguir preparándola o meterla en el horno.",
+        "lines": 2
+      },
+      {
+        "id": "el-reloj-del-pan-q4",
+        "type": "structure",
+        "prompt": "Ordena estas acciones: se doran los bollos, Pilar corta la masa en trozos, los bollos reposan en la bandeja.",
+        "answer": "Pilar corta la masa en trozos, los bollos reposan en la bandeja y por último se doran.",
+        "lines": 2
+      },
+      {
+        "id": "el-reloj-del-pan-q5",
+        "type": "inference",
+        "prompt": "¿Por qué el niño no podía ver en el escaparate los bollos hechos con la masa del cuenco?",
+        "answer": "Porque esa masa seguía en el cuenco y todavía no habían hecho ni horneado bollos con ella.",
+        "lines": 2
+      }
+    ]
+  },
 ];
