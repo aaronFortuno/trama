@@ -307,4 +307,79 @@ export const readings5EsFifthSeries = [
       }
     ]
   },
+  {
+    "id": "un-mapa-para-llegar-sin-preguntar-es",
+    "code": "L045",
+    "workId": "un-mapa-para-llegar-sin-preguntar",
+    "language": "es",
+    "level": "5-primary",
+    "difficulty": "initial",
+    "themes": [
+      "community",
+      "math"
+    ],
+    "genre": "instructional",
+    "title": "Un mapa para llegar sin preguntar",
+    "summary": "Una guía para dibujar un plano que ayude a una persona nueva a encontrar un lugar dentro de la escuela.",
+    "paragraphs": [
+      "Un plano de la escuela puede ayudar a alguien a encontrar la biblioteca sin conocer el edificio. Para dibujarlo, necesitarás una hoja, un lápiz y una regla. Empieza por escoger una entrada y un destino que estén en la misma planta. Así podrás ensayar el plano sin tener que representar escaleras.",
+      "Primero, recorre el camino y anota los lugares donde la persona tendrá que decidir si gira o sigue recto. Busca un detalle fácil de reconocer cerca de cada punto: una fuente, una puerta con un número o una ventana grande. Evita usar objetos que suelen cambiar de sitio, como una papelera con ruedas.",
+      "Después, dibuja los pasillos desde arriba. No hace falta copiar todas las aulas. Marca la entrada con un círculo, el destino con una estrella y los detalles que hayas elegido con símbolos sencillos. En una esquina de la hoja, escribe qué significa cada símbolo. Esa lista se llama leyenda. Añade flechas para que se vea en qué sentido se recorre el camino.",
+      "Por último, entrega el plano a alguien que no haya ayudado a prepararlo. Deja que lo pruebe sin darle indicaciones. Síguelo unos pasos por detrás y observa si se para, gira donde no debe o vuelve sobre sus pasos. Pídele que te explique qué parte le hizo dudar. Corrige el dibujo y comprueba con otra persona si el cambio resulta suficiente."
+    ],
+    "images": [
+      {
+        "id": "un-mapa-para-llegar-sin-preguntar",
+        "src": "assets/readings/l045-un-mapa-para-llegar-sin-preguntar.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Sobre la mesa hay una hoja con un plano a medio dibujar, un lápiz y una regla.",
+        "afterParagraph": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "un-mapa-para-llegar-sin-preguntar-q1",
+        "type": "literal",
+        "prompt": "¿Qué materiales se necesitan para empezar?",
+        "answer": "Una hoja, un lápiz y una regla.",
+        "lines": 1
+      },
+      {
+        "id": "un-mapa-para-llegar-sin-preguntar-q2",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «leyenda» en este texto?",
+        "answer": "La lista que explica el significado de los símbolos del plano.",
+        "lines": 2
+      },
+      {
+        "id": "un-mapa-para-llegar-sin-preguntar-q3",
+        "type": "inference",
+        "prompt": "¿Por qué conviene señalar una puerta numerada en lugar de una papelera con ruedas?",
+        "answer": "La puerta permanece en el mismo lugar. La papelera se puede mover y dejar de servir como referencia.",
+        "lines": 2
+      },
+      {
+        "id": "un-mapa-para-llegar-sin-preguntar-q4",
+        "type": "structure",
+        "prompt": "¿Qué se hace entre recorrer el camino y pedir a alguien que lo pruebe?",
+        "answer": "Se dibujan los pasillos, se marcan la entrada, el destino y los puntos de referencia, y se añaden la leyenda y las flechas.",
+        "lines": 2
+      },
+      {
+        "id": "un-mapa-para-llegar-sin-preguntar-q5",
+        "type": "inference",
+        "prompt": "¿Por qué el texto pide que no des indicaciones a la persona que prueba el plano?",
+        "answer": "Para comprobar si el plano se entiende por sí solo y descubrir dónde hace falta corregirlo.",
+        "lines": 2
+      },
+      {
+        "id": "un-mapa-para-llegar-sin-preguntar-q6",
+        "type": "opinion",
+        "prompt": "En tu escuela, ¿qué lugar señalarías para que alguien sepa dónde girar? Explica tu elección.",
+        "answer": "Respuesta abierta. Una referencia apropiada es fija, fácil de distinguir y se encuentra cerca del giro.",
+        "lines": 3
+      }
+    ]
+  },
 ];
