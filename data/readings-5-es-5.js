@@ -382,4 +382,79 @@ export const readings5EsFifthSeries = [
       }
     ]
   },
+  {
+    "id": "el-jardin-de-los-turnos-es",
+    "code": "L046",
+    "workId": "el-jardin-de-los-turnos",
+    "language": "es",
+    "level": "5-primary",
+    "difficulty": "initial",
+    "themes": [
+      "community",
+      "nature"
+    ],
+    "genre": "narrative",
+    "title": "El jardín de los turnos",
+    "summary": "Un reparto de tareas deja al jardín de la escuela sin agua en el momento más caluroso de la semana.",
+    "paragraphs": [
+      "El grupo de quinto cuidaba el jardín que había junto a la entrada. En la primera reunión escribieron una tabla para regar después de clase. Jana y Leo se apuntaron el lunes. Omar y Rebeca eligieron el martes. Como el miércoles había excursión, dejaron su casilla en blanco. Los otros dos turnos quedaron cubiertos.",
+      "El jueves, al llegar, Rebeca encontró la tierra seca. Algunas hojas estaban inclinadas hacia abajo. Llamó a Omar y fueron juntos a mirar la tabla. Omar señaló el martes: él y Rebeca habían regado. Jana, que los escuchó, dijo que tampoco había faltado a su turno. Se quedaron un rato discutiendo quién podía haberse olvidado.",
+      "Leo salió a buscar la regadera y vio a su lado la tarjeta de la excursión que él había dejado al llegar. La llevó a la mesa y la puso encima de la casilla vacía. El miércoles había hecho mucho calor. Aunque todos habían cumplido su turno, el jardín había pasado un día entero sin que nadie comprobara cómo estaba.",
+      "En la siguiente reunión, Jana escribió «Excursión» en la casilla del próximo miércoles. Después, en vez de dejarla vacía, añadió dos nombres y una hora: la de antes de salir. Omar propuso que cada turno dejara también una nota breve sobre cómo había encontrado la tierra. Al jueves siguiente, Rebeca vio escrita una frase junto a su nombre: «Todavía está húmeda. Mira antes de regar»."
+    ],
+    "images": [
+      {
+        "id": "el-jardin-de-los-turnos",
+        "src": "assets/readings/l046-el-jardin-de-los-turnos.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Dos compañeros observan la tierra seca y las hojas caídas del jardín de la escuela. Al lado hay una regadera.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-jardin-de-los-turnos-q1",
+        "type": "literal",
+        "prompt": "¿Por qué quedó vacía la primera casilla del miércoles?",
+        "answer": "Porque la clase iba de excursión.",
+        "lines": 1
+      },
+      {
+        "id": "el-jardin-de-los-turnos-q2",
+        "type": "inference",
+        "prompt": "¿Cómo se explica que la tierra estuviera seca si nadie había faltado a su turno?",
+        "answer": "No había turno el miércoles, hizo mucho calor y nadie revisó el jardín ese día.",
+        "lines": 2
+      },
+      {
+        "id": "el-jardin-de-los-turnos-q3",
+        "type": "structure",
+        "prompt": "¿Qué descubre Leo después de la discusión y antes de la siguiente reunión?",
+        "answer": "Ve la tarjeta de la excursión en la regadera y la relaciona con la casilla que dejaron en blanco.",
+        "lines": 2
+      },
+      {
+        "id": "el-jardin-de-los-turnos-q4",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa que un turno quedó «cubierto»?",
+        "answer": "Que se había asignado a alguien la tarea de ese turno.",
+        "lines": 2
+      },
+      {
+        "id": "el-jardin-de-los-turnos-q5",
+        "type": "inference",
+        "prompt": "¿Para qué sirve la última nota que lee Rebeca?",
+        "answer": "Le ayuda a decidir si necesita regar, teniendo en cuenta cómo estaba la tierra antes de su turno.",
+        "lines": 2
+      },
+      {
+        "id": "el-jardin-de-los-turnos-q6",
+        "type": "opinion",
+        "prompt": "Además de anotar si la tierra está húmeda, ¿qué aviso dejarías a quien riega después de ti? Explica cómo le ayudaría.",
+        "answer": "Respuesta abierta. Por ejemplo, avisaría si una parte del jardín está más seca para que pueda revisar allí primero.",
+        "lines": 3
+      }
+    ]
+  },
 ];
