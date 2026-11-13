@@ -1444,4 +1444,82 @@ export const readings5EsFifthSeries = [
       }
     ]
   },
+  {
+    "id": "una-propuesta-para-el-tablon-es",
+    "code": "L060",
+    "workId": "una-propuesta-para-el-tablon",
+    "language": "es",
+    "level": "5-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "community",
+      "everyday"
+    ],
+    "genre": "letter",
+    "title": "Una propuesta para el tablón",
+    "summary": "El grupo de quinto propone ordenar los avisos según su fecha y reservar un espacio para la información que sirve todo el trimestre.",
+    "paragraphs": [
+      "Estimada comisión de biblioteca:",
+      "En el tablón de la entrada se anuncian las actividades y se colocan algunos avisos sobre el préstamo. Desde hace unas semanas cuesta encontrar las novedades. El lunes pasado, dos personas preguntaron cuándo empezaba el club de lectura. El aviso estaba allí, pero casi no se veía detrás del cartel de una actividad que ya había terminado.",
+      "El martes contamos los papeles para entender mejor el problema. Había doce. Cuatro anunciaban actividades de las dos semanas siguientes, cinco eran de actividades pasadas y tres explicaban asuntos que seguirán vigentes todo el trimestre. Uno de esos tres, el horario de préstamo, estaba en la esquina de abajo, donde quedaba tapado cuando alguien dejaba la puerta abierta.",
+      "Proponemos dividir el tablón en dos espacios. Arriba quedarían el horario y las normas de préstamo. Debajo irían las actividades próximas, ordenadas por fecha. Cada viernes, dos personas de quinto retirarían los avisos de actividades que ya hayan pasado. En vez de tirarlos, los guardarían en una carpeta durante un mes, por si alguien necesitara consultar la información.",
+      "Para saber si el cambio funciona, al cabo de dos semanas podríamos pedir a tres personas que no conozcan la biblioteca que busquen la hora del club y el horario de préstamo. Anotaríamos cuánto tardan y en qué parte del tablón miran primero. Si encuentran las actividades pero les cuesta ver el horario, cambiaríamos el tamaño o la posición de ese aviso.",
+      "Gracias por estudiar nuestra propuesta. Podemos enseñarles un dibujo con la distribución el viernes a la salida.",
+      "El grupo de quinto"
+    ],
+    "images": [
+      {
+        "id": "una-propuesta-para-el-tablon",
+        "src": "assets/readings/l060-una-propuesta-para-el-tablon.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Dos alumnos observan los avisos que se superponen en el tablón de la biblioteca.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "una-propuesta-para-el-tablon-q1",
+        "type": "literal",
+        "prompt": "¿Cuántos avisos había en total y cuántos anunciaban actividades pasadas?",
+        "answer": "Había doce avisos en total. Cinco eran de actividades que ya habían pasado.",
+        "lines": 2
+      },
+      {
+        "id": "una-propuesta-para-el-tablon-q2",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa que tres avisos «seguirán vigentes» todo el trimestre?",
+        "answer": "Que la información que contienen seguirá siendo válida o estará en uso durante ese tiempo.",
+        "lines": 2
+      },
+      {
+        "id": "una-propuesta-para-el-tablon-q3",
+        "type": "structure",
+        "prompt": "¿Qué información presenta el grupo antes de explicar su propuesta?",
+        "answer": "Describe qué cuesta encontrar en el tablón y da datos de lo que observó al contar y clasificar los avisos.",
+        "lines": 2
+      },
+      {
+        "id": "una-propuesta-para-el-tablon-q4",
+        "type": "inference",
+        "prompt": "¿Por qué proponen reservar un espacio separado para el horario y las normas?",
+        "answer": "Porque esos avisos se necesitan durante todo el trimestre y no deben quedar ocultos entre actividades que cambian cada semana.",
+        "lines": 3
+      },
+      {
+        "id": "una-propuesta-para-el-tablon-q5",
+        "type": "inference",
+        "prompt": "Imagina que encuentran rápido el horario, pero tardan en hallar la hora del club. ¿En qué espacio probarías un cambio? Explica por qué.",
+        "answer": "En el de actividades próximas, donde está el aviso del club. El espacio con el horario ya se encuentra rápido.",
+        "lines": 3
+      },
+      {
+        "id": "una-propuesta-para-el-tablon-q6",
+        "type": "opinion",
+        "prompt": "Propón otra manera de comprobar si el tablón ha mejorado. Indica qué observarías y cómo decidirías si funciona.",
+        "answer": "Respuesta abierta. Por ejemplo, pediría a varias personas que encuentren dos avisos antes y después del cambio, y compararía cuántas los localizan correctamente.",
+        "lines": 4
+      }
+    ]
+  },
 ];
