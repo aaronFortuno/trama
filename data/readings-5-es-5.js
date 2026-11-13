@@ -1065,4 +1065,79 @@ export const readings5EsFifthSeries = [
       }
     ]
   },
+  {
+    "id": "la-botella-de-los-mensajes-es",
+    "code": "L055",
+    "workId": "la-botella-de-los-mensajes",
+    "language": "es",
+    "level": "5-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "community",
+      "arts"
+    ],
+    "genre": "narrative",
+    "title": "La botella de los mensajes",
+    "summary": "Una botella que guarda preguntas viaja de una clase a otra. El grupo de Mina tiene que resolver qué hacer con una nota sin firma.",
+    "paragraphs": [
+      "La botella de los mensajes vivía sobre una mesa de la biblioteca. No había llegado flotando por el mar. Era una botella de plástico transparente que cada viernes visitaba una clase distinta. Dentro se ponían preguntas para otro grupo. Fuera, atada con una cuerda, llevaba una etiqueta con el aula a la que debía ir.",
+      "El grupo de Mina recibió una nota enrollada. Decía: «¿Qué lugar de la escuela cambiarías y cómo?». La clase escribió que en el rincón de lectura faltaba una lámpara. Mina quiso guardar la respuesta dentro, pero entonces se dio cuenta de que la pregunta no tenía firma. Si seguían la etiqueta, la botella saldría hacia tercero y quizá la persona que había preguntado nunca leería la respuesta.",
+      "En la mesa, la bibliotecaria tenía una hoja donde anotaba quién dejaba la botella y en qué día. El miércoles habían pasado dos clases por la biblioteca. La hoja indicaba quién la había traído, pero no decía quién había metido cada pregunta. Mina pensó en ir a preguntar por todas las aulas. Su compañero Eder propuso algo más sencillo.",
+      "Colgaron una copia de la pregunta y de la respuesta en el tablón de la biblioteca. Debajo añadieron una línea: «Si es tuya, puedes venir a contarnos por qué la escribiste». El viernes llegó una niña de segundo. Ella no había hecho la pregunta, pero traía el dibujo de una lámpara con una pantalla hecha de papel plegado. Eder buscó una chincheta para colgarlo junto a la respuesta."
+    ],
+    "images": [
+      {
+        "id": "la-botella-de-los-mensajes",
+        "src": "assets/readings/l055-la-botella-de-los-mensajes.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Una botella transparente con un papel enrollado está sobre la mesa de la biblioteca.",
+        "afterParagraph": 2
+      }
+    ],
+    "questions": [
+      {
+        "id": "la-botella-de-los-mensajes-q1",
+        "type": "literal",
+        "prompt": "¿Qué información llevaba la botella en la etiqueta?",
+        "answer": "El aula a la que debía ir.",
+        "lines": 1
+      },
+      {
+        "id": "la-botella-de-los-mensajes-q2",
+        "type": "inference",
+        "prompt": "¿Por qué seguir la etiqueta podía dejar a quien preguntó sin respuesta?",
+        "answer": "La etiqueta señalaba la siguiente clase, pero no sabían en qué clase estaba quien había escrito la nota.",
+        "lines": 2
+      },
+      {
+        "id": "la-botella-de-los-mensajes-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa que la nota estaba «enrollada»?",
+        "answer": "Que la habían doblado sobre sí misma formando un rollo.",
+        "lines": 2
+      },
+      {
+        "id": "la-botella-de-los-mensajes-q4",
+        "type": "structure",
+        "prompt": "¿Qué descubren después de leer la hoja de registro y antes de poner la respuesta en el tablón?",
+        "answer": "Que la hoja indica quién transporta la botella, pero no quién escribió cada pregunta.",
+        "lines": 2
+      },
+      {
+        "id": "la-botella-de-los-mensajes-q5",
+        "type": "inference",
+        "prompt": "¿Qué pudo animar a la niña de segundo a traer un dibujo aunque no fuese autora de la nota?",
+        "answer": "La pregunta y la respuesta estaban a la vista de todos. Al leerlas pudo imaginar su propia solución y quiso compartirla.",
+        "lines": 2
+      },
+      {
+        "id": "la-botella-de-los-mensajes-q6",
+        "type": "opinion",
+        "prompt": "¿Qué escribirías en la próxima nota para que el grupo que la recibe pueda responderte? Explica la decisión.",
+        "answer": "Respuesta abierta. Por ejemplo, incluiría el nombre de la clase o propondría dejar la respuesta en el tablón para que sepa dónde encontrarla.",
+        "lines": 3
+      }
+    ]
+  },
 ];
