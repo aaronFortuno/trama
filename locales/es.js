@@ -101,7 +101,7 @@ Text instructiu|Texto instructivo
 Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
-v1.12.2 · Obre l’historial de canvis|v1.12.2 · Abrir el historial de cambios
+v1.12.3 · Obre l’historial de canvis|v1.12.3 · Abrir el historial de cambios
 12 de novembre de 2026|12 de noviembre de 2026
 L’Umami propi d’ortogra.fi compta les visites i les obertures de fitxes des del catàleg.|La instancia propia de Umami de ortogra.fi cuenta las visitas y las aperturas de fichas desde el catálogo.
 V4V · Sobre el projecte|V4V · Sobre el proyecto
@@ -127,6 +127,7 @@ Fotografia i QR reutilitzats de|Fotografía y QR reutilizados de
 Historial de versions|Historial de versiones
 Changelog complet ↗|Historial completo ↗
 Tanca l’historial|Cerrar el historial
+La lectura L001, «El cartel de la plaza», incorpora una pregunta nova i una quarta pregunta d’inferència.|La lectura L001, «El cartel de la plaza», añade una pregunta y convierte la cuarta en una pregunta de inferencia.
 El catàleg es barreja en carregar la pàgina i manté el mateix ordre mentre es navega.|El catálogo se mezcla al cargar la página y mantiene el mismo orden durante la navegación.
 Quatre lectures de 5è en castellà amb il·lustracions en blanc i negre d’estil linogravat. El catàleg arriba a vint fitxes.|Cuatro lecturas de 5.º en español con ilustraciones en blanco y negro de estilo linograbado. El catálogo alcanza las veinte fichas.
 Quatre lectures il·lustrades de 5è en castellà sobre la brúixola, els cargols, la pluja àcida i la suor.|Cuatro lecturas ilustradas de 5.º en español sobre la brújula, los caracoles, la lluvia ácida y el sudor.

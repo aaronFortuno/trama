@@ -36,8 +36,9 @@ export const readings = [
       { id: 'cartel-q1', type: 'literal', prompt: '¿Qué había que hacer para llevarse un cuento?', answer: 'Dejar un libro en el intercambio.', lines: 1 },
       { id: 'cartel-q2', type: 'inference', prompt: '¿Por qué pudieron pasar de largo los niños la primera vez? Usa una pista del texto para explicar tu respuesta.', answer: 'Quizá no entendieron que podían cambiar libros. Desde la fuente se veía el dragón, pero las letras amarillas apenas se leían.', lines: 3 },
       { id: 'cartel-q3', type: 'vocabulary', prompt: '¿Qué quiere decir «pálido» al describir el color amarillo del cartel?', answer: 'Que era un amarillo claro, con poca intensidad.', lines: 1 },
-      { id: 'cartel-q4', type: 'literal', prompt: '¿Desde dónde comprobó Nora si se leía el cartel? ¿Qué cambió para que se pudiera leer?', answer: 'Lo comprobó desde la fuente. Añadió una frase escrita con rotulador negro bajo el dragón.', lines: 2 },
+      { id: 'cartel-q4', type: 'inference', prompt: 'Nora miró el cartel desde la fuente antes y después de cambiarlo. ¿Por qué era importante volver al mismo sitio? ¿Qué pudo comprobar?', answer: 'Desde la fuente miraba el cartel a la misma distancia que antes. Así pudo comprobar que, con la frase escrita en negro, el mensaje se leía desde allí sin tener que acercarse.', lines: 4 },
       { id: 'cartel-q5', type: 'opinion', prompt: '¿Conservarías el dragón en el cartel? Explica tu decisión.', answer: 'Respuesta abierta. Por ejemplo, sí, porque llama la atención y puede convivir con una frase fácil de leer.', lines: 3 },
+      { id: 'cartel-q6', type: 'structure', prompt: 'Al principio, ¿qué pensó Saúl al ver que la gente seguía de largo? Al final busca un rotulador oscuro. ¿Qué nos dice ese gesto sobre lo que ha aprendido?', answer: 'Al principio pensó que a nadie le apetecía leer. Al buscar un rotulador oscuro para el cartel del horario, demuestra que ha entendido que escribir con un color que destaque ayuda a que la gente lea el mensaje desde lejos.', lines: 3 },
     ],
   },
   {

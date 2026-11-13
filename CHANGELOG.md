@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.12.3 · 13 de novembre de 2026
+
+La lectura L001, «El cartel de la plaza», incorpora una pregunta nova i una quarta pregunta d’inferència.
+
 ## 1.12.2 · 12 de novembre de 2026
 
 L’Umami propi d’ortogra.fi compta les visites i les obertures de fitxes des del catàleg sense recollir-ne el contingut.
