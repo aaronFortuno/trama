@@ -2,7 +2,7 @@
 
 ## 1.16 · 14 de novembre de 2026
 
-El lema de la capçalera varia en carregar el web. Els filtres actius es poden treure des del recompte i els desplegables indiquen quantes lectures hi ha per opció.
+El lema de la capçalera varia en carregar el web. Pots treure cada filtre actiu amb la × del seu desplegable o de l’etiqueta al costat del recompte. Els desplegables indiquen quantes lectures hi ha per opció.
 
 Es revisen els nivells de 5è i 6è, i s’afegeixen 31 preguntes amb solucionari a vint lectures.
 

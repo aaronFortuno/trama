@@ -122,6 +122,7 @@ export function mountCatalog({ root, readings, onSelect }) {
   const compact = matchMedia('(max-width: 790px)');
   const indicator = root.querySelector('#filter-indicator');
   const template = document.querySelector('#reading-card');
+  const clearButtons = new Map();
   let limit = firstBatchSize;
   let visibleIds;
   const observer = typeof IntersectionObserver === 'function' ? new IntersectionObserver(entries => {
@@ -172,8 +173,13 @@ export function mountCatalog({ root, readings, onSelect }) {
   function updateActiveFilters(facets) {
     const buttons = [];
     for (const [facet, value] of Object.entries(facets)) {
+      const clear = clearButtons.get(facet);
+      clear.hidden = !value;
       if (!value) continue;
       const label = labelFor(facet, value);
+      const removeLabel = t('Treu el filtre «{label}»', { label });
+      clear.setAttribute('aria-label', removeLabel);
+      clear.title = removeLabel;
       const button = document.createElement('button');
       const cross = document.createElement('span');
       cross.textContent = '×';
@@ -181,7 +187,7 @@ export function mountCatalog({ root, readings, onSelect }) {
       button.type = 'button';
       button.className = 'filter-chip';
       button.dataset.removeFacet = facet;
-      button.setAttribute('aria-label', t('Treu el filtre «{label}»', { label }));
+      button.setAttribute('aria-label', removeLabel);
       button.append(label, cross);
       buttons.push(button);
     }
@@ -200,7 +206,22 @@ export function mountCatalog({ root, readings, onSelect }) {
     next.focus({ preventScroll: true });
   });
 
-  for (const field of fields) field.addEventListener('change', refresh);
+  for (const field of fields) {
+    const row = field.closest('.filter-field');
+    const clear = document.createElement('button');
+    clear.type = 'button';
+    clear.className = 'filter-clear';
+    clear.textContent = '×';
+    clear.hidden = true;
+    clear.addEventListener('click', () => {
+      field.value = '';
+      refresh();
+      (row.querySelector('.select-trigger') ?? field).focus({ preventScroll: true });
+    });
+    field.addEventListener('change', refresh);
+    clearButtons.set(field.dataset.facet, clear);
+    row.append(clear);
+  }
 
   function cardFor({ reading, count }, words) {
     const card = template.content.firstElementChild.cloneNode(true);

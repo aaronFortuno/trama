@@ -118,7 +118,7 @@ Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
 v1.16 · Obre l’historial de canvis|v1.16 · Abrir el historial de cambios
-El lema de la capçalera varia en carregar el web. Els filtres actius es poden treure des del recompte i els desplegables indiquen quantes lectures hi ha per opció.|El lema de la cabecera varía al cargar la web. Los filtros activos se pueden quitar desde el recuento y los desplegables indican cuántas lecturas hay por opción.
+El lema de la capçalera varia en carregar el web. Pots treure cada filtre actiu amb la × del seu desplegable o de l’etiqueta al costat del recompte. Els desplegables indiquen quantes lectures hi ha per opció.|El lema de la cabecera varía al cargar la web. Puedes quitar cada filtro activo con la × de su desplegable o de la etiqueta junto al recuento. Los desplegables indican cuántas lecturas hay por opción.
 12 de novembre de 2026|12 de noviembre de 2026
 L’Umami propi d’ortogra.fi compta les visites i les obertures de fitxes des del catàleg.|La instancia propia de Umami de ortogra.fi cuenta las visitas y las aperturas de fichas desde el catálogo.
 V4V · Sobre el projecte|V4V · Sobre el proyecto
