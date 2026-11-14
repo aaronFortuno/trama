@@ -6,6 +6,8 @@ El lema de la capçalera varia en carregar el web. Els filtres actius es poden t
 
 Es revisen els nivells de 5è i 6è, i s’afegeixen 31 preguntes amb solucionari a vint lectures.
 
+S’incorporen quatre lectures il·lustrades de 6è en castellà: una d’inicial i tres d’avançades.
+
 ## 1.15 · 13 de novembre de 2026
 
 El text de la lectura es pot justificar i pot portar guionets a final de línia en català i castellà. Els dos ajustos es poden desar en una plantilla.
