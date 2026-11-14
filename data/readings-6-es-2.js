@@ -1,0 +1,40 @@
+export const moreReadings6Es = [
+  {
+    id: 'la-mesa-de-las-devoluciones-es',
+    code: 'L081',
+    workId: 'la-mesa-de-las-devoluciones',
+    language: 'es',
+    level: '6-primary',
+    difficulty: 'initial',
+    themes: ['community', 'everyday'],
+    genre: 'narrative',
+    title: 'La mesa de las devoluciones',
+    summary: 'Elira ayuda a ordenar las devoluciones de una biblioteca y se fija en qué ven las personas al entrar.',
+    paragraphs: [
+      'El primer sábado de cada mes, Elira ayudaba en la biblioteca del barrio. Su tarea era recoger los libros devueltos y llevarlos en un carro hasta las estanterías. Desde hacía poco también se prestaban juegos de mesa. Para devolverlos, la bibliotecaria había colocado otra bandeja junto a la de los libros.',
+      'Al mediodía, Elira encontró una caja de fichas al fondo del carro, entre dos novelas. Menos mal que oyó el ruido cuando una rueda tropezó con el borde de la alfombra. Abrió la caja y contó las piezas antes de llevársela a Teresa, la bibliotecaria.',
+      'Las dos bandejas eran iguales, pero Teresa había pegado el dibujo de un libro en una y el de un dado en la otra. Elira se sentó frente a la mesa. Desde esa altura solo veía los bordes de las bandejas: los dibujos estaban pegados en el fondo y los tapaba lo que la gente iba dejando.',
+      'Teresa sugirió poner un cartel grande en la pared. Elira señaló a un hombre que acababa de entrar. Llevaba tres libros apilados y miraba la mesa para encontrar un sitio donde dejarlos. Ni siquiera levantó la vista. En lugar de usar la pared, las dos pegaron los dibujos en el borde de cada bandeja, de cara a la entrada.',
+      'Poco antes del cierre entró una niña con un juego. Buscó el dado, dejó la caja en su bandeja y salió corriendo para alcanzar a su hermano. Elira estaba colocando los últimos libros en el carro. Esta vez solo oyó el ruido de las ruedas.',
+    ],
+    images: [
+      {
+        id: 'la-mesa-de-las-devoluciones',
+        src: 'assets/readings/l081-la-mesa-de-las-devoluciones.webp',
+        width: 960,
+        height: 640,
+        alt: 'Elira señala una bandeja de devoluciones mientras Teresa la escucha al otro lado de la mesa de la biblioteca.',
+        afterParagraph: 3,
+      },
+    ],
+    questions: [
+      { id: 'la-mesa-de-las-devoluciones-q1', type: 'literal', prompt: '¿Qué tenía que hacer Elira con los libros que devolvía la gente?', answer: 'Recogerlos y llevarlos en un carro hasta las estanterías.', lines: 1 },
+      { id: 'la-mesa-de-las-devoluciones-q2', type: 'inference', prompt: '¿Qué ruido alertó a Elira y qué lo producía?', answer: 'Oyó las fichas moverse dentro de una caja de juego que había acabado en el carro.', lines: 2 },
+      { id: 'la-mesa-de-las-devoluciones-q3', type: 'vocabulary', prompt: '¿Qué significa aquí que el hombre llevaba los libros «apilados»?', answer: 'Que los llevaba uno encima de otro.', lines: 1 },
+      { id: 'la-mesa-de-las-devoluciones-q4', type: 'inference', prompt: '¿Por qué sentarse frente a la mesa le sirvió a Elira para detectar el problema de los dibujos?', answer: 'Al mirar desde más abajo, comprobó que lo que se dejaba en las bandejas tapaba los dibujos del fondo.', lines: 3 },
+      { id: 'la-mesa-de-las-devoluciones-q5', type: 'structure', prompt: '¿Qué hace el hombre que entra en la biblioteca? ¿Por qué nos lo cuenta el texto justo después de la idea de poner un cartel en la pared?', answer: 'Mira la mesa para dejar los libros y no levanta la vista. Así se entiende por qué algunas personas tampoco habrían mirado el cartel de la pared.', lines: 3 },
+      { id: 'la-mesa-de-las-devoluciones-q6', type: 'inference', prompt: '¿Qué detalle del final indica que el cambio le ha servido a la niña?', answer: 'Encuentra el dibujo del dado y deja el juego en la bandeja correspondiente sin pedir ayuda.', lines: 2 },
+      { id: 'la-mesa-de-las-devoluciones-q7', type: 'opinion', prompt: '¿Añadirías las palabras «Libros» y «Juegos» debajo de los dibujos? Explica qué podría aportar tu elección a quienes entran.', answer: 'Respuesta abierta. Por ejemplo, sí, porque las palabras pueden aclarar el significado de los dibujos. También se puede mantener solo los dibujos si se argumenta que permiten reconocer la bandeja rápidamente, incluso sin saber leer.', lines: 3 },
+    ],
+  },
+];
