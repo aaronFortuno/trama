@@ -5,12 +5,11 @@ import { loadWorksheetFont, worksheetFonts } from './worksheet-fonts.js';
 import { supportsHyphenation, withHyphenation } from './worksheet-hyphenation.js';
 
 const languageCopy = {
-  ca: ['Nom', 'Data', 'Curs', 'Comprensió lectora', 'Preguntes', 'Pàgina', 'Solucionari', 'Resposta orientativa', 'Sense resposta orientativa.', 'Textos de Trama'],
-  es: ['Nombre', 'Fecha', 'Curso', 'Comprensión lectora', 'Preguntas', 'Página', 'Solucionario', 'Respuesta orientativa', 'Sin respuesta orientativa.', 'Textos de Trama'],
-  en: ['Name', 'Date', 'Class', 'Reading comprehension', 'Questions', 'Page', 'Answer key', 'Suggested answer', 'No suggested answer.', 'Texts by Trama'],
+  ca: ['Nom', 'Data', 'Curs', 'Comprensió lectora', 'Preguntes', 'Pàgina', 'Solucionari', 'Resposta orientativa', 'Sense resposta orientativa.'],
+  es: ['Nombre', 'Fecha', 'Curso', 'Comprensión lectora', 'Preguntas', 'Página', 'Solucionario', 'Respuesta orientativa', 'Sin respuesta orientativa.'],
+  en: ['Name', 'Date', 'Class', 'Reading comprehension', 'Questions', 'Page', 'Answer key', 'Suggested answer', 'No suggested answer.'],
 };
 const wordsFor = language => languageCopy[language] || languageCopy[language.split('-')[0]] || languageCopy.en;
-const textLicense = 'creativecommons.org/licenses/by/4.0';
 
 function element(tag, className, text) {
   const node = document.createElement(tag);
@@ -182,7 +181,7 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
   container.replaceChildren();
 
   function fillFooter(footer, label) {
-    if (settings.showOrigin || showLicense || settings.footerLogo) {
+    if (settings.showOrigin || settings.footerLogo) {
       const brand = element('div', 'worksheet-footer-brand');
       if (settings.footerLogo) brand.append(makeLogo(settings.footerLogo));
       if (settings.showOrigin) {
@@ -190,14 +189,14 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
         origin.href = 'https://trama.ortogra.fi/';
         brand.append(origin);
       }
-      if (showLicense) {
-        const credit = element('span', 'worksheet-license', `${words[9]} · `);
-        const license = element('a', 'worksheet-origin', `CC BY 4.0 (${textLicense})`);
-        license.href = `https://${textLicense}/`;
-        credit.append(license);
-        brand.append(credit);
-      }
       footer.append(brand);
+    }
+    if (showLicense) {
+      const credit = element('span', 'worksheet-license', 'Text: ');
+      const license = element('a', null, 'CC BY 4.0');
+      license.href = 'https://creativecommons.org/licenses/by/4.0/';
+      credit.append(license);
+      footer.append(credit);
     }
     if (settings.showPage || answerKey) {
       const note = [answerKey && words[6], settings.showPage && label].filter(Boolean).join(' · ');
