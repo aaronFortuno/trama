@@ -233,7 +233,7 @@ export const readings5EsFifthSeries = [
     "workId": "preguntas-a-una-afinadora",
     "language": "es",
     "level": "5-primary",
-    "difficulty": "intermediate",
+    "difficulty": "initial",
     "themes": [
       "arts",
       "everyday"
@@ -758,6 +758,20 @@ export const readings5EsFifthSeries = [
         "prompt": "¿Qué otra actividad podría ponerse en la caja para que alguien se animara a participar? Explica cómo funcionaría.",
         "answer": "Respuesta abierta. Por ejemplo, dejar un dibujo a medias que otra persona pueda completar con los lápices de la caja.",
         "lines": 3
+      },
+      {
+        "id": "cartas-desde-el-banco-del-patio-q7",
+        "type": "inference",
+        "prompt": "¿Qué resolvieron los taburetes y qué oportunidad distinta abrió la caja de papel y lápices?",
+        "answer": "Los taburetes dieron asiento a Vera y Joel cuando el banco estaba ocupado. La caja permitió que otras personas dejaran y continuaran dibujos.",
+        "lines": 3
+      },
+      {
+        "id": "cartas-desde-el-banco-del-patio-q8",
+        "type": "summary",
+        "prompt": "Cuenta cómo cambió lo que hacía Vera en el patio desde el primer día. Incluye algo del porche y algo de la pista.",
+        "answer": "El primer día no pudo incorporarse al juego y en el porche empezó a compartir laberintos con Joel. Más adelante volvió a la pista con él y aprendió cuándo podía apuntarse a un equipo.",
+        "lines": 3
       }
     ]
   },
@@ -921,7 +935,7 @@ export const readings5EsFifthSeries = [
     "workId": "el-dia-que-cambiaron-las-senales",
     "language": "es",
     "level": "5-primary",
-    "difficulty": "intermediate",
+    "difficulty": "initial",
     "themes": [
       "community",
       "adventure"
@@ -1212,6 +1226,20 @@ export const readings5EsFifthSeries = [
         "prompt": "Resume qué descubre Clara y por qué deja dos explicaciones escritas.",
         "answer": "Descubre que las flores coinciden con las entradas a viviendas y que sus tallos indican el lado de apertura. Eso podría señalar las entradas, pero también pueden ser adornos en lugares visibles. Le faltan pruebas para elegir entre las dos ideas.",
         "lines": 4
+      },
+      {
+        "id": "la-historia-que-cabia-en-una-baldosa-q7",
+        "type": "inference",
+        "prompt": "Si otra foto mostrara flores delante de todas las puertas, pero el tallo solo señalara el lado de apertura en las viviendas, ¿qué parte de la explicación de Clara aún tendría apoyo?",
+        "answer": "Habría menos motivos para pensar que la presencia de una flor distingue las viviendas. Aún sería posible que la dirección del tallo indicara cómo se abren esas entradas.",
+        "lines": 3
+      },
+      {
+        "id": "la-historia-que-cabia-en-una-baldosa-q8",
+        "type": "structure",
+        "prompt": "¿Qué cambia en la investigación cuando Clara añade la columna «Qué habría que averiguar»? Pon un ejemplo de algo que podría anotar ahí.",
+        "answer": "Pasa de reunir explicaciones a pensar cómo contrastarlas. Podría buscar si otras viviendas del mismo constructor usan la flor del mismo modo.",
+        "lines": 3
       }
     ]
   },
@@ -1291,6 +1319,20 @@ export const readings5EsFifthSeries = [
         "prompt": "Explica con tus palabras qué demuestra una burbuja centrada y qué no permite decidir aún.",
         "answer": "Una burbuja centrada indica que la superficie está horizontal en el punto donde está el nivel. La atracción sigue cerrada hasta revisar también el aviso y completar las demás comprobaciones.",
         "lines": 4
+      },
+      {
+        "id": "la-feria-por-dentro-q7",
+        "type": "inference",
+        "prompt": "La técnica eléctrica no encuentra agua junto a los cables. ¿Por qué no basta ese resultado para dar por resuelto el aviso sobre el barro?",
+        "answer": "Son comprobaciones distintas: una mira el agua en la instalación eléctrica y la otra examina el apoyo del tiovivo, que puede haberse hundido.",
+        "lines": 3
+      },
+      {
+        "id": "la-feria-por-dentro-q8",
+        "type": "inference",
+        "prompt": "Un oyente afirma que ya se ha hundido un apoyo. ¿Qué observación dio pie a esa idea y por qué todavía sería pronto para afirmarlo?",
+        "answer": "Una compañera vio barro alrededor del apoyo. El barro es un motivo para comprobarlo, pero aún no han dicho que el apoyo se haya hundido.",
+        "lines": 3
       }
     ]
   },
@@ -1441,6 +1483,20 @@ export const readings5EsFifthSeries = [
         "prompt": "Resume cómo pueden cambiar lo que oyes la distancia a una pared y el material que la cubre.",
         "answer": "La distancia influye en cuánto tarda el sonido en volver y en si se oye como una repetición. El material influye en cuánto se refleja: una cortina devuelve menos sonido que una superficie dura.",
         "lines": 4
+      },
+      {
+        "id": "el-sonido-del-anden-vacio-q7",
+        "type": "inference",
+        "prompt": "Si la clase quisiera comprobar solo el efecto de la cortina, ¿qué cambiaría de su prueba? Indica también una cosa que mantendría igual.",
+        "answer": "Haría la prueba en el mismo rincón, primero con cortina y después sin ella. Mantendría, por ejemplo, la misma alfombra y la misma distancia a la pared.",
+        "lines": 3
+      },
+      {
+        "id": "el-sonido-del-anden-vacio-q8",
+        "type": "inference",
+        "prompt": "En otro pasillo, la palmada suena más larga pero no se oye una segunda palmada. ¿Por qué eso no demuestra que las paredes no reflejen el sonido?",
+        "answer": "Las paredes pueden devolver el sonido tan deprisa que las reflexiones se mezclen con la palmada y la alarguen sin formar un eco separado.",
+        "lines": 3
       }
     ]
   },
@@ -1450,7 +1506,7 @@ export const readings5EsFifthSeries = [
     "workId": "una-propuesta-para-el-tablon",
     "language": "es",
     "level": "5-primary",
-    "difficulty": "advanced",
+    "difficulty": "intermediate",
     "themes": [
       "community",
       "everyday"

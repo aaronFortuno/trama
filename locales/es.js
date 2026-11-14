@@ -57,6 +57,7 @@ Nivell|Nivel
 Dificultat|Dificultad
 Extensió (paraules)|Extensión (palabras)
 Filtres actius|Filtros activos
+Es revisen els nivells de 5è i 6è, i s’afegeixen 31 preguntes amb solucionari a vint lectures.|Se revisan los niveles de 5.º y 6.º y se añaden 31 preguntas con solucionario a veinte lecturas.
 Treu el filtre «{label}»|Quitar el filtro «{label}»
 L’extensió i la dificultat es valoren dins de cada curs.|La extensión y la dificultad se valoran dentro de cada curso.
 Temàtica|Temática

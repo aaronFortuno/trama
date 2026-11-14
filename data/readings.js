@@ -86,6 +86,8 @@ export const readings = [
       { id: 'puente-q3', type: 'vocabulary', prompt: 'Si el puente aguanta «al menos» seis monedas, ¿qué sabes con seguridad? ¿Qué te queda por averiguar?', answer: 'Sabes que soportó seis. Queda por averiguar si habría resistido más.', lines: 3 },
       { id: 'puente-q4', type: 'structure', prompt: '¿En qué paso se usa por primera vez el cartón? ¿Por qué los materiales se presentan antes de los pasos numerados?', answer: 'Se usa en el paso 2. La lista permite preparar lo necesario antes de empezar.', lines: 3 },
       { id: 'puente-q5', type: 'inference', prompt: 'Lucía pone las monedas sin el cartón en la segunda prueba. ¿Por qué convendría repetirla antes de comparar los resultados?', answer: 'Quitar el cartón cambia cómo se reparte el peso. Para saber si la diferencia se debe a los pliegues, conviene usar el cartón en las dos pruebas.', lines: 4 },
+      { id: 'puente-q6', type: 'literal', prompt: '¿Qué medida de la separación entre los vasos dan las instrucciones?', answer: 'Doce centímetros entre los bordes más próximos.', lines: 1 },
+      { id: 'puente-q7', type: 'inference', prompt: 'Los dos puentes aguantan todas las monedas disponibles. ¿Podrías decir que resisten exactamente lo mismo? ¿Qué harías para averiguarlo?', answer: 'No. Solo sabes que los dos aguantaron al menos esa cantidad. Conseguiría más monedas iguales y repetiría las pruebas hasta encontrar el límite de cada puente.', lines: 3 },
     ],
   },
   {
@@ -130,6 +132,8 @@ export const readings = [
       { id: 'mapa-q3', type: 'literal', prompt: '¿Qué puede anotar un visitante en el margen que dejaron en blanco?', answer: 'Un sonido nuevo y el momento en que lo oyó.', lines: 2 },
       { id: 'mapa-q4', type: 'structure', prompt: '¿Para qué incluye el texto el ejemplo de los dos grupos que visitan el mercado a horas distintas?', answer: 'Sirve para mostrar que los sonidos de un mismo lugar pueden cambiar durante el día y que el mapa puede representar esas diferencias.', lines: 3 },
       { id: 'mapa-q5', type: 'opinion', prompt: '¿Qué lugar de tu entorno incluirías en un mapa sonoro? Indica a qué hora irías y explica qué te interesa escuchar allí.', answer: 'Respuesta abierta. Debe indicar un lugar, una hora aproximada y un motivo relacionado con los sonidos del lugar.', lines: 4 },
+      { id: 'mapa-q6', type: 'inference', prompt: 'Un equipo anotó «origen desconocido». ¿Qué habría cambiado en el mapa si hubiera dibujado una máquina como origen del golpeteo?', answer: 'El mapa habría presentado una máquina como origen aunque el equipo solo había identificado el sonido.', lines: 2 },
+      { id: 'mapa-q7', type: 'summary', prompt: 'En dos frases, explica cómo puede usar el mapa una familia durante el paseo y cómo puede completarlo después.', answer: 'Puede seguir el recorrido y comparar lo que oye con los símbolos y las horas del plano. Si descubre un sonido, puede anotar cuál fue y cuándo lo oyó.', lines: 3 },
     ],
   },
   {
@@ -175,6 +179,8 @@ export const readings = [
       { id: 'caja-q4', type: 'structure', prompt: 'La oreja doblada aparece al principio y al final de la historia. ¿Para qué sirve ese detalle en cada momento?', answer: 'Al principio es una pista para identificar a la dibujante. Al final enlaza el dibujo nuevo con el antiguo y sugiere que Marta ya hace la oreja doblada a propósito.', lines: 4 },
       { id: 'caja-q5', type: 'inference', prompt: '¿Para qué crees que Marta llama a Inés? Apoya tu respuesta con un detalle del sobre y otro del último párrafo.', answer: 'Es razonable pensar que quiere retomar el plan de ir a dibujar zorros. La nota propone dibujarlos de verdad y ahora Inés vive cerca de un bosque. También puede querer contarle que encontró el sobre.', lines: 5 },
       { id: 'caja-q6', type: 'opinion', prompt: '¿Te parece acertado que Dani y Leire dejen el sobre cerrado? Explica qué ventaja o dificultad tuvo esa decisión.', answer: 'Respuesta abierta. Por ejemplo, respetaron que el mensaje estaba destinado a otra persona y pudieron averiguar quién era gracias al dibujo, aunque les llevó más tiempo.', lines: 4 },
+      { id: 'caja-q7', type: 'inference', prompt: '¿Por qué encontrar el libro en la caja de objetos olvidados no bastaba para saber de quién era? Usa lo que cuenta la bibliotecaria.', answer: 'El libro procedía de una donación del club y había acabado en la caja al ordenar un armario. Estar en la caja no significaba que alguien lo hubiera perdido.', lines: 3 },
+      { id: 'caja-q8', type: 'structure', prompt: '¿Por qué cambia lo que pensamos del sobre al pasar de leer la frase de fuera a leer la nota de dentro?', answer: 'La frase de fuera convierte el sobre en una pista para identificar a su destinataria. La nota de dentro revela que Inés lo dejó como invitación para ir juntas a dibujar zorros.', lines: 3 },
     ],
   },
   ...readings5Es,

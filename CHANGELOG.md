@@ -4,6 +4,8 @@
 
 El lema de la capçalera varia en carregar el web. Els filtres actius es poden treure des del recompte i els desplegables indiquen quantes lectures hi ha per opció.
 
+Es revisen els nivells de 5è i 6è, i s’afegeixen 31 preguntes amb solucionari a vint lectures.
+
 ## 1.15 · 13 de novembre de 2026
 
 El text de la lectura es pot justificar i pot portar guionets a final de línia en català i castellà. Els dos ajustos es poden desar en una plantilla.

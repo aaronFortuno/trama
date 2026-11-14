@@ -5,7 +5,7 @@ export const readings6Es = [
     "workId": "la-llave-del-reloj",
     "language": "es",
     "level": "6-primary",
-    "difficulty": "initial",
+    "difficulty": "intermediate",
     "themes": [
       "history",
       "community"
@@ -72,6 +72,13 @@ export const readings6Es = [
         "prompt": "¿Colocarías un aviso junto a cada reloj o solo junto al del vestíbulo? Justifica la decisión con un detalle del relato.",
         "answer": "Respuesta abierta. Por ejemplo, junto al del vestíbulo basta si indica claramente dónde consultar la hora actual, porque allí se produjo la confusión.",
         "lines": 4
+      },
+      {
+        "id": "la-llave-del-reloj-q7",
+        "type": "inference",
+        "prompt": "Imagina que solo se conservan la nota y el horario. ¿Qué letrero breve podrías escribir sin dar por confirmado el motivo de la diferencia de siete minutos?",
+        "answer": "Por ejemplo: «El reloj se paró al salir el último tren. Según el horario, debía salir a las 16:10». Sin el libro de salidas, el retraso seguiría sin comprobarse.",
+        "lines": 3
       }
     ]
   },
@@ -148,6 +155,13 @@ export const readings6Es = [
         "prompt": "Resume qué sugirió el experimento y por qué el grupo propuso hacer otra prueba en el patio.",
         "answer": "En el montaje salió menos agua por la superficie con tierra. El patio tiene condiciones propias, por lo que propusieron ensayar allí antes de hacer cambios mayores.",
         "lines": 4
+      },
+      {
+        "id": "un-patio-que-bebe-q7",
+        "type": "inference",
+        "prompt": "¿Qué permitiría averiguar comparar la franja nueva con el rincón que conserva el suelo original durante la misma lluvia?",
+        "answer": "Permitiría observar si, con la misma lluvia, se forman menos charcos en la franja nueva. Sin el rincón de comparación no sabrían si la diferencia se debe al cambio de suelo o a que ese día llovió de otra manera.",
+        "lines": 3
       }
     ]
   },
@@ -303,6 +317,13 @@ export const readings6Es = [
         "prompt": "Explica para qué conservaron grabaciones distintas del mismo objeto y qué datos permiten compararlas.",
         "answer": "Dos posiciones muestran sonidos diferentes de la misma acción. La ficha permite comparar hora, lugar del micrófono y otros sucesos de la grabación.",
         "lines": 4
+      },
+      {
+        "id": "la-caja-de-los-sonidos-prestados-q7",
+        "type": "inference",
+        "prompt": "La toma de la acera se reconoce mejor, pero la del motor permite oír un detalle que desde fuera se pierde. ¿Cuál usarías para explicar cómo cambia lo que se oye según el lugar? Justifica tu elección.",
+        "answer": "Usaría las dos. Una conserva el detalle del motor y la otra muestra lo que se oye desde la calle, incluido el fondo. Juntas permiten comparar las dos posiciones.",
+        "lines": 3
       }
     ]
   },
@@ -311,7 +332,7 @@ export const readings6Es = [
     "code": "L065",
     "workId": "el-puente-de-los-siete-minutos",
     "language": "es",
-    "level": "6-primary",
+    "level": "5-primary",
     "difficulty": "intermediate",
     "themes": [
       "math",
@@ -387,7 +408,7 @@ export const readings6Es = [
     "code": "L066",
     "workId": "la-historia-de-una-etiqueta",
     "language": "es",
-    "level": "6-primary",
+    "level": "5-primary",
     "difficulty": "intermediate",
     "themes": [
       "everyday",
@@ -463,8 +484,8 @@ export const readings6Es = [
     "code": "L067",
     "workId": "una-brujula-para-el-ensayo",
     "language": "es",
-    "level": "6-primary",
-    "difficulty": "initial",
+    "level": "5-primary",
+    "difficulty": "intermediate",
     "themes": [
       "arts",
       "everyday"
@@ -539,8 +560,8 @@ export const readings6Es = [
     "code": "L068",
     "workId": "las-ventanas-del-autobus",
     "language": "es",
-    "level": "6-primary",
-    "difficulty": "advanced",
+    "level": "5-primary",
+    "difficulty": "intermediate",
     "themes": [
       "math",
       "community"
@@ -615,8 +636,8 @@ export const readings6Es = [
     "code": "L069",
     "workId": "el-puesto-sin-precios",
     "language": "es",
-    "level": "6-primary",
-    "difficulty": "initial",
+    "level": "5-primary",
+    "difficulty": "intermediate",
     "themes": [
       "community",
       "nature"
@@ -692,7 +713,7 @@ export const readings6Es = [
     "workId": "la-noticia-que-cambio-de-titulo",
     "language": "es",
     "level": "6-primary",
-    "difficulty": "advanced",
+    "difficulty": "intermediate",
     "themes": [
       "community",
       "arts"
@@ -759,6 +780,13 @@ export const readings6Es = [
         "prompt": "Redacta un titular de hasta doce palabras y una frase que explique un límite del recuento.",
         "answer": "Ejemplo: «Mismo ritmo de partidas en dos observaciones del tablero». Límite: solo se midió esa zona y en dos recreos.",
         "lines": 4
+      },
+      {
+        "id": "la-noticia-que-cambio-de-titulo-q7",
+        "type": "inference",
+        "prompt": "Si mañana vuelven a observar cuarenta minutos y cuentan veinticuatro partidas, ¿podrán decir cuántas personas distintas jugaron? ¿Qué tendrían que anotar de otra manera?",
+        "answer": "No. Una misma persona puede participar en varias partidas. Tendrían que registrar participantes distintos sin volver a contar a quienes repiten.",
+        "lines": 3
       }
     ]
   },
@@ -835,6 +863,13 @@ export const readings6Es = [
         "prompt": "Explica qué aprendió Olivia al hacer dos dibujos con casi la misma hora.",
         "answer": "Aprendió que la posición del agua también depende del momento de la ola. Por eso empezó a distinguir su alcance y la orilla al retirarse.",
         "lines": 4
+      },
+      {
+        "id": "el-cuaderno-de-las-mareas-q7",
+        "type": "inference",
+        "prompt": "Si dos dibujos hechos con horas de diferencia muestran la misma orilla cuando retrocede la ola, ¿por qué no bastan para decir que no hubo marea?",
+        "answer": "Dos dibujos solo muestran instantes concretos. Harían falta más observaciones desde el mismo lugar para saber cómo cambió el nivel durante ese tiempo.",
+        "lines": 3
       }
     ]
   },
@@ -843,8 +878,8 @@ export const readings6Es = [
     "code": "L072",
     "workId": "un-camino-en-la-oscuridad",
     "language": "es",
-    "level": "6-primary",
-    "difficulty": "advanced",
+    "level": "5-primary",
+    "difficulty": "intermediate",
     "themes": [
       "nature",
       "science"
@@ -987,6 +1022,13 @@ export const readings6Es = [
         "prompt": "¿Qué pondrías tú en la cartela y qué dejarías para el recuerdo de Sergio? Justifica la separación.",
         "answer": "Respuesta abierta. La cartela podría atribuir la foto a Ana e indicar que Sergio cedió la cámara. Su recuerdo del árbol aporta una experiencia personal aparte.",
         "lines": 4
+      },
+      {
+        "id": "la-ultima-foto-del-album-q7",
+        "type": "inference",
+        "prompt": "Si solo quedaran la foto y la lista de asistentes, ¿qué podría afirmar Nora sobre Sergio? ¿Qué dejaría sin atribuir?",
+        "answer": "Podría identificar a Sergio como el conserje si lo reconoce y comprobar que estaba entre los asistentes. No podría afirmar quién tomó la fotografía con esas dos fuentes.",
+        "lines": 3
       }
     ]
   },
@@ -1072,7 +1114,7 @@ export const readings6Es = [
     "workId": "el-correo-que-llego-dos-veces",
     "language": "es",
     "level": "6-primary",
-    "difficulty": "advanced",
+    "difficulty": "intermediate",
     "themes": [
       "everyday",
       "community"
@@ -1139,6 +1181,13 @@ export const readings6Es = [
         "prompt": "¿Qué información mínima incluirías en un aviso que sustituye a otro? Explica cómo ayudaría a evitar la confusión.",
         "answer": "Respuesta abierta. Podría incluir la fecha de actualización, el lugar y la hora, y decir expresamente qué aviso sustituye.",
         "lines": 4
+      },
+      {
+        "id": "el-correo-que-llego-dos-veces-q7",
+        "type": "inference",
+        "prompt": "Paula había acertado en cuál de los dos sobres era más reciente. ¿Por qué tuvo que cambiar de conclusión aunque hubiera leído bien las fechas?",
+        "answer": "El aviso del tablón del miércoles era posterior a ambos sobres. Informaba de las obras en el patio y confirmaba que la reunión volvía a la biblioteca.",
+        "lines": 3
       }
     ]
   },
@@ -1147,7 +1196,7 @@ export const readings6Es = [
     "code": "L076",
     "workId": "una-semana-sin-tocar-la-radio",
     "language": "es",
-    "level": "6-primary",
+    "level": "5-primary",
     "difficulty": "intermediate",
     "themes": [
       "history",
@@ -1224,8 +1273,8 @@ export const readings6Es = [
     "code": "L077",
     "workId": "quien-usa-la-pista",
     "language": "es",
-    "level": "6-primary",
-    "difficulty": "advanced",
+    "level": "5-primary",
+    "difficulty": "intermediate",
     "themes": [
       "math",
       "community"
@@ -1369,6 +1418,13 @@ export const readings6Es = [
         "prompt": "Escribe una observación y una pregunta que dejarías en el cartel si vieras que el suelo de una zona está más seco.",
         "answer": "Respuesta abierta. Por ejemplo, «La tierra junto al cobertizo está más seca hoy» y «¿Se regaron las dos zonas al mismo tiempo?»",
         "lines": 4
+      },
+      {
+        "id": "el-huerto-de-las-preguntas-q7",
+        "type": "inference",
+        "prompt": "Si las lechugas de la zona más abierta crecieran más también en una segunda siembra, ¿por qué Lola seguiría anotando cuándo regó y cómo sopló el viento?",
+        "answer": "El resultado repetido le daría más confianza, pero el riego y el viento pueden cambiar la humedad de la tierra. Anotarlos ayuda a comparar las condiciones y a evitar atribuir el resultado solo a la luz.",
+        "lines": 3
       }
     ]
   },
@@ -1447,6 +1503,13 @@ export const readings6Es = [
         "prompt": "¿Qué dato pedirías que anotaran durante una lluvia fuerte antes de decidir si instalan el canal? Justifica tu elección.",
         "answer": "Respuesta abierta. Por ejemplo, si el agua se acumula en la zona de paso, porque entonces el canal resolvería un problema y crearía otro.",
         "lines": 4
+      },
+      {
+        "id": "bicicletas-bajo-la-lluvia-q7",
+        "type": "inference",
+        "prompt": "Si la prueba con tiza mantiene los sillines secos, pero una bicicleta grande ya no puede salir cuando el soporte está lleno, ¿qué concluirías sobre moverlo ahí?",
+        "answer": "El lugar protege mejor algunos sillines, pero dificulta sacar bicicletas grandes. Habría que ajustar la posición o el espacio disponible antes de adoptar el cambio.",
+        "lines": 3
       }
     ]
   },
@@ -1455,8 +1518,8 @@ export const readings6Es = [
     "code": "L080",
     "workId": "el-mapa-que-no-terminaba-en-la-puerta",
     "language": "es",
-    "level": "6-primary",
-    "difficulty": "advanced",
+    "level": "5-primary",
+    "difficulty": "intermediate",
     "themes": [
       "community",
       "everyday"
