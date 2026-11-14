@@ -54,7 +54,8 @@ function enhance(select) {
 
   function sync() {
     const name = accessibleName();
-    value.textContent = select.selectedOptions[0]?.label || '';
+    const selected = select.selectedOptions[0];
+    value.textContent = selected?.dataset.label ?? selected?.label ?? '';
     trigger.setAttribute('aria-label', `${name}, ${value.textContent}`);
     menu.setAttribute('aria-label', name);
     trigger.setAttribute('aria-disabled', String(select.disabled));
@@ -92,14 +93,21 @@ function enhance(select) {
     if (select.disabled) return false;
     const contents = document.createDocumentFragment();
     const groups = new Map();
-    options = [...select.options].filter(option => !option.hidden && !option.disabled
+    options = [...select.options].filter(option => !option.hidden
       && !option.parentElement.matches('optgroup[hidden], optgroup[disabled]')).map(option => {
       const node = document.createElement('div');
       node.className = 'select-option';
       node.id = `${id}-option-${option.index}`;
       node.setAttribute('role', 'option');
       node.setAttribute('aria-selected', String(option.selected));
-      node.textContent = option.label;
+      if (option.disabled) node.setAttribute('aria-disabled', 'true');
+      node.textContent = option.dataset.label ?? option.label;
+      if (option.dataset.count !== undefined) {
+        const count = document.createElement('span');
+        count.className = 'select-option-count';
+        count.textContent = option.dataset.count;
+        node.append(count);
+      }
       if (option.selected) node.insertAdjacentHTML('beforeend', check);
       const group = option.closest('optgroup');
       if (group && !groups.has(group)) {
@@ -137,6 +145,7 @@ function enhance(select) {
 
   function choose(next) {
     const option = options[next]?.option;
+    if (option?.disabled) return;
     close();
     if (!option || option.selected) return;
     select.selectedIndex = option.index;
@@ -185,7 +194,7 @@ function enhance(select) {
       event.preventDefault();
       typed = (performance.now() - lastKey < 650 ? typed : '') + key.toLocaleLowerCase();
       lastKey = performance.now();
-      highlight(options.findIndex(({ option }) => option.label.toLocaleLowerCase().startsWith(typed)));
+      highlight(options.findIndex(({ option }) => (option.dataset.label ?? option.label).toLocaleLowerCase().startsWith(typed)));
     }
   });
   select.addEventListener('input', sync);

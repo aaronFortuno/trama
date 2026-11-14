@@ -4,6 +4,17 @@ Trama · Comprensió lectora|Trama · Comprensión lectora
 Ves al contingut|Ir al contenido
 Trama, catàleg de lectures|Trama, catálogo de lecturas
 Llegir és lligar caps.|Leer es atar cabos.
+Llegir és seguir el fil.|Leer es seguir el hilo.
+Llegir és fer-se amic d’una pregunta.|Leer es hacerse amigo de una pregunta.
+Llegir és trobar pistes.|Leer es encontrar pistas.
+Llegir és canviar d’idea a mig paràgraf.|Leer es cambiar de idea a mitad de un párrafo.
+Llegir és dir «una pàgina més».|Leer es decir «una página más».
+Llegir és posar veu al silenci.|Leer es poner voz al silencio.
+Llegir és fer lloc a altres mirades.|Leer es dar cabida a otras miradas.
+Llegir és tornar a un lloc que no existeix.|Leer es volver a un lugar que no existe.
+Llegir és veure què s’amaga entre línies.|Leer es descubrir qué se esconde entre líneas.
+Llegir és fer parlar els detalls.|Leer es hacer que los detalles hablen.
+Llegir és deixar-se sorprendre.|Leer es dejarse sorprender.
 Idioma de la interfície|Idioma de la interfaz
 Activa el tema fosc|Activar el tema oscuro
 Activa el tema clar|Activar el tema claro
@@ -45,6 +56,8 @@ Llengua|Idioma de la lectura
 Nivell|Nivel
 Dificultat|Dificultad
 Extensió (paraules)|Extensión (palabras)
+Filtres actius|Filtros activos
+Treu el filtre «{label}»|Quitar el filtro «{label}»
 L’extensió i la dificultat es valoren dins de cada curs.|La extensión y la dificultad se valoran dentro de cada curso.
 Temàtica|Temática
 Tipus de pregunta|Tipo de pregunta
@@ -102,7 +115,8 @@ Text instructiu|Texto instructivo
 Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
-v1.15 · Obre l’historial de canvis|v1.15 · Abrir el historial de cambios
+v1.16 · Obre l’historial de canvis|v1.16 · Abrir el historial de cambios
+El lema de la capçalera varia en carregar el web. Els filtres actius es poden treure des del recompte i els desplegables indiquen quantes lectures hi ha per opció.|El lema de la cabecera varía al cargar la web. Los filtros activos se pueden quitar desde el recuento y los desplegables indican cuántas lecturas hay por opción.
 12 de novembre de 2026|12 de noviembre de 2026
 L’Umami propi d’ortogra.fi compta les visites i les obertures de fitxes des del catàleg.|La instancia propia de Umami de ortogra.fi cuenta las visitas y las aperturas de fichas desde el catálogo.
 V4V · Sobre el projecte|V4V · Sobre el proyecto

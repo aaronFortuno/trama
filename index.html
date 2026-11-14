@@ -48,6 +48,7 @@
           <div class="catalog-heading-title">
             <h1 id="readings-title" tabindex="-1">Catàleg de lectures</h1>
             <p id="result-count" role="status" aria-live="polite"></p>
+            <div id="active-filters" class="active-filters" role="group" aria-label="Filtres actius" hidden></div>
           </div>
           <div class="catalog-heading-actions">
             <label class="search-box" for="search">
@@ -111,7 +112,7 @@
         </a>
       </p>
       <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.15 · Obre l’historial de canvis">v1.15</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.16 · Obre l’historial de canvis">v1.16</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
@@ -212,6 +213,10 @@
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’historial"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
+      <article class="release">
+        <header><h3>v1.16</h3><time datetime="2026-11-14">14 de novembre de 2026</time></header>
+        <p>El lema de la capçalera varia en carregar el web. Els filtres actius es poden treure des del recompte i els desplegables indiquen quantes lectures hi ha per opció.</p>
+      </article>
       <article class="release">
         <header><h3>v1.15</h3><time datetime="2026-11-13">13 de novembre de 2026</time></header>
         <p>El text de la lectura es pot justificar i pot portar guionets a final de línia en català i castellà. Els dos ajustos es poden desar en una plantilla.</p>

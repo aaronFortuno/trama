@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.16 · 14 de novembre de 2026
+
+El lema de la capçalera varia en carregar el web. Els filtres actius es poden treure des del recompte i els desplegables indiquen quantes lectures hi ha per opció.
+
 ## 1.15 · 13 de novembre de 2026
 
 El text de la lectura es pot justificar i pot portar guionets a final de línia en català i castellà. Els dos ajustos es poden desar en una plantilla.

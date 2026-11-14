@@ -43,6 +43,8 @@
 .select-option { display: flex; min-height: 30px; align-items: center; justify-content: space-between; gap: 12px; padding: 5px 8px; border-radius: 4px; cursor: pointer; }
 .select-option:hover, .select-option[data-active] { background: var(--hover); }
 .select-option[aria-selected="true"] { background: color-mix(in srgb, var(--accent) 13%, var(--surface)); color: var(--accent); font-weight: 650; }
+.select-option[aria-disabled="true"] { color: var(--muted); cursor: default; }
+.select-option-count { margin-inline-start: auto; color: var(--muted); font-size: .75rem; font-variant-numeric: tabular-nums; }
 .select-option .ui-icon { width: 14px; height: 14px; }
 .select-group-heading { padding: 5px 8px 3px; color: var(--muted); font-size: .69rem; font-weight: 650; }
 .select-menu [role="group"] + [role="group"] { margin-top: 4px; border-top: 1px solid var(--line); }

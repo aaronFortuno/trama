@@ -20,6 +20,24 @@ const translateCard = bindTranslations(document.querySelector('#reading-card').c
 document.documentElement.lang = language();
 let currentReadingId;
 
+const mottos = [
+  'Llegir és lligar caps.',
+  'Llegir és seguir el fil.',
+  'Llegir és fer-se amic d’una pregunta.',
+  'Llegir és trobar pistes.',
+  'Llegir és canviar d’idea a mig paràgraf.',
+  'Llegir és dir «una pàgina més».',
+  'Llegir és posar veu al silenci.',
+  'Llegir és fer lloc a altres mirades.',
+  'Llegir és tornar a un lloc que no existeix.',
+  'Llegir és veure què s’amaga entre línies.',
+  'Llegir és fer parlar els detalls.',
+  'Llegir és deixar-se sorprendre.',
+];
+const motto = mottos[Math.floor(Math.random() * mottos.length)];
+const headerMotto = document.querySelector('.site-label');
+headerMotto.textContent = t(motto);
+
 const themeKey = 'trama.theme';
 const themeToggle = document.querySelector('#theme-toggle');
 const themeColor = document.querySelector('meta[name="theme-color"]');
@@ -71,6 +89,7 @@ mountActionMenu(document.querySelector('#language-button'), languageMenu, value 
   setLanguage(value);
   translateStatic();
   translateCard();
+  headerMotto.textContent = t(motto);
   markLanguage();
   applyTheme(document.documentElement.dataset.theme);
   catalog.translate();

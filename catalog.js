@@ -26,7 +26,7 @@ const rowsPerBatch = 2;
 const lengthLimits = new Map([
   ['4-primary', { shortMax: 185, mediumMax: 210 }],
   ['5-primary', { shortMax: 240, mediumMax: 265 }],
-  ['6-primary', { shortMax: 290, mediumMax: 300 }],
+  ['6-primary', { shortMax: 285, mediumMax: 359 }],
 ]);
 
 export function labelFor(facet, value, locale = language()) {
@@ -60,7 +60,7 @@ function lengthLabel(value, level, numberFormat) {
   const ranges = {
     short: `≤${format(shortMax)}`,
     medium: `${format(shortMax + 1)}–${format(mediumMax)}`,
-    long: `>${format(mediumMax)}`,
+    long: `≥${format(mediumMax + 1)}`,
   };
   return `${label} (${ranges[value]})`;
 }
@@ -112,6 +112,7 @@ export function mountCatalog({ root, readings, onSelect }) {
   const levelField = root.querySelector('#filter-level');
   const grid = root.querySelector('#reading-grid');
   const resultCount = root.querySelector('#result-count');
+  const activeFilters = root.querySelector('#active-filters');
   const emptyState = root.querySelector('#catalog-empty');
   const reset = root.querySelector('#filters-reset');
   const more = root.querySelector('#show-more');
@@ -127,25 +128,78 @@ export function mountCatalog({ root, readings, onSelect }) {
     if (entries.some(entry => entry.isIntersecting) && document.activeElement !== more) loadMore();
   }) : null;
 
-  function updateOptions() {
+  function updateOptions(facets, numbers) {
     const { compare } = new Intl.Collator(language(), { numeric: true });
-    const numbers = new Intl.NumberFormat(language());
-    const levelMatches = catalog.filter(item => item.reading.level === levelField.value);
-    const level = levelMatches.length ? levelField.value : '';
-    const levelReadings = level ? levelMatches : catalog;
+    const level = levelField.value;
     for (const field of fields) {
       const facet = field.dataset.facet;
-      const selected = field.value;
-      const source = facet === 'length' || facet === 'difficulty' ? levelReadings : catalog;
-      const options = [...new Set(source.flatMap(item => item.facets[facet]))];
-      options.sort((a, b) => sortFacet(facet, a, b, compare));
+      const { [facet]: selected, ...others } = facets;
+      const candidates = filterCatalog(catalog, { search: search.value, ...others });
+      const counts = new Map();
+      for (const item of candidates) {
+        for (const value of new Set(item.facets[facet])) counts.set(value, (counts.get(value) ?? 0) + 1);
+      }
+      const values = new Set(catalog.flatMap(item => item.facets[facet]));
+      if (facet === 'length' && lengthLimits.has(level)) values.delete('unspecified');
+      if (facet === 'length' && (!level || lengthLimits.has(level))) {
+        for (const value of Object.keys(labels.length)) values.add(value);
+      }
+      if (facet === 'difficulty') for (const value of Object.keys(labels.difficulty)) values.add(value);
+      if (selected) values.add(selected);
       const optionLabel = value => facet === 'length' ? lengthLabel(value, level, numbers) : labelFor(facet, value);
-      field.replaceChildren(field.options[0], ...options.map(value => new Option(optionLabel(value), value)));
-      field.value = options.includes(selected) ? selected : '';
+      const all = field.options[0];
+      decorateOption(all, all.textContent, candidates.length, numbers);
+      const options = [...values].sort((a, b) => sortFacet(facet, a, b, compare)).map(value => {
+        const count = counts.get(value) ?? 0;
+        const option = new Option('', value);
+        decorateOption(option, optionLabel(value), count, numbers);
+        option.disabled = !count && value !== selected;
+        return option;
+      });
+      field.replaceChildren(all, ...options);
+      field.value = selected;
     }
+    updateActiveFilters(facets);
     syncSelects(root);
   }
-  levelField.addEventListener('change', updateOptions);
+
+  function decorateOption(option, label, count, numbers) {
+    option.dataset.label = label;
+    option.dataset.count = numbers.format(count);
+    option.label = `${label} (${option.dataset.count})`;
+  }
+
+  function updateActiveFilters(facets) {
+    const buttons = [];
+    for (const [facet, value] of Object.entries(facets)) {
+      if (!value) continue;
+      const label = labelFor(facet, value);
+      const button = document.createElement('button');
+      const cross = document.createElement('span');
+      cross.textContent = '×';
+      cross.setAttribute('aria-hidden', 'true');
+      button.type = 'button';
+      button.className = 'filter-chip';
+      button.dataset.removeFacet = facet;
+      button.setAttribute('aria-label', t('Treu el filtre «{label}»', { label }));
+      button.append(label, cross);
+      buttons.push(button);
+    }
+    activeFilters.replaceChildren(...buttons);
+    activeFilters.hidden = !buttons.length;
+  }
+
+  activeFilters.addEventListener('click', event => {
+    const button = event.target.closest('[data-remove-facet]');
+    if (!button) return;
+    const chips = [...activeFilters.children];
+    const index = chips.indexOf(button);
+    fields.find(field => field.dataset.facet === button.dataset.removeFacet).value = '';
+    refresh();
+    const next = activeFilters.children[index] ?? activeFilters.lastElementChild ?? search;
+    next.focus({ preventScroll: true });
+  });
+
   for (const field of fields) field.addEventListener('change', refresh);
 
   function cardFor({ reading, count }, words) {
@@ -190,6 +244,7 @@ export function mountCatalog({ root, readings, onSelect }) {
     const activeCount = Object.values(facets).filter(Boolean).length;
     const matches = filterCatalog(catalog, { search: search.value, ...facets });
     const total = matches.length;
+    if (!append) updateOptions(facets, words);
     const showing = Math.min(limit, total);
     const visible = matches.slice(0, showing);
     const ids = visible.map(({ reading }) => reading.id).join(' ');
@@ -208,7 +263,8 @@ export function mountCatalog({ root, readings, onSelect }) {
       }
       visibleIds = ids;
     }
-    resultCount.textContent = total === 1 ? '1 lectura' : t('{count} lectures', { count: words.format(total) });
+    const countLabel = total === 1 ? '1 lectura' : t('{count} lectures', { count: words.format(total) });
+    if (resultCount.textContent !== countLabel) resultCount.textContent = countLabel;
     emptyState.hidden = total !== 0;
     more.hidden = showing === total;
     more.textContent = t('Mostra més lectures ({showing} de {total})', {
@@ -238,7 +294,6 @@ export function mountCatalog({ root, readings, onSelect }) {
   function clear() {
     search.value = '';
     for (const field of fields) field.value = '';
-    updateOptions();
     refresh();
     search.focus();
   }
@@ -257,7 +312,6 @@ export function mountCatalog({ root, readings, onSelect }) {
   }
   compact.addEventListener('change', resizeFilters);
   resizeFilters();
-  updateOptions();
   more.addEventListener('click', () => loadMore(true));
   render();
 
@@ -268,18 +322,15 @@ export function mountCatalog({ root, readings, onSelect }) {
       catalog = indexCatalog(items).sort((a, b) => (
         (positions.get(a.reading.id) ?? newPosition) - (positions.get(b.reading.id) ?? newPosition)
       ));
-      updateOptions();
       refresh();
     },
     reveal(code) {
       search.value = code;
       for (const field of fields) field.value = '';
-      updateOptions();
       refresh();
     },
     translate() {
       reset.setAttribute('aria-label', t('Neteja la cerca i els filtres'));
-      updateOptions();
       render({ translated: true });
     },
     focus(readingId) {
