@@ -1,7 +1,8 @@
-import { reportReasons, sendReadingReport } from './analytics.js';
+import { reportAvailability, reportReasons, sendReadingReport } from './analytics.js';
 import { icon } from './icons.js';
 import { t } from './i18n.js';
 import { openDialog } from './motion.js';
+import { mountReportHelp, reportSubmitHelpMarkup, reportWarningMarkup } from './report-help.js';
 import { syncSelects } from './select-menu.js';
 
 const parts = { text: 'Text de la lectura', image: 'Imatge', question: 'Pregunta', solution: 'Solucionari' };
@@ -16,6 +17,7 @@ export const readingReportMarkup = `
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca">${icon('x')}</button>
     </header>
     <form class="dialog-scroll report-form">
+      ${reportWarningMarkup}
       <fieldset class="report-fields" aria-label="Detalls de l’avís">
         <label>Part afectada <select name="part" required></select></label>
         <label hidden>Element <select name="element"></select></label>
@@ -28,7 +30,10 @@ export const readingReportMarkup = `
       <p class="report-status" role="status"></p>
       <div class="report-actions">
         <button class="button" type="button" data-close-dialog>Cancel·la</button>
-        <button class="button primary" type="submit" disabled>Envia l’avís</button>
+        <div class="report-submit-wrap">
+          <button class="button primary" type="submit" disabled>Envia l’avís</button>
+          ${reportSubmitHelpMarkup}
+        </div>
       </div>
     </form>
   </dialog>`;
@@ -45,7 +50,17 @@ export function mountReadingReport(dialog) {
   const status = form.querySelector('.report-status');
   const submit = form.querySelector('[type="submit"]');
   const cancel = form.querySelector('.report-actions [data-close-dialog]');
+  const help = mountReportHelp(dialog);
   let active;
+  let deliveryFailed = false;
+
+  function updateAvailability() {
+    help.update(reportAvailability() || (deliveryFailed ? 'receiver' : ''));
+  }
+
+  for (const event of ['trama-analytics-change', 'focus', 'storage']) {
+    window.addEventListener(event, () => { if (dialog.open) updateAvailability(); });
+  }
 
   function targetsFor(part) {
     const { reading, questions } = active;
@@ -96,6 +111,12 @@ export function mountReadingReport(dialog) {
   form.addEventListener('submit', async event => {
     event.preventDefault();
     if (!active || submit.disabled) return;
+    const blocked = reportAvailability();
+    if (blocked) {
+      if (blocked !== 'loading') status.textContent = t('No s’ha pogut enviar l’avís.');
+      updateAvailability();
+      return;
+    }
     const current = active;
     const data = Object.fromEntries(new FormData(form));
     fields.disabled = true;
@@ -103,14 +124,16 @@ export function mountReadingReport(dialog) {
     updateSubmit();
     status.textContent = t('Enviant l’avís…');
     const sent = await sendReadingReport(current.reading, data);
+    deliveryFailed = !sent;
     if (active !== current || !dialog.open || dialog.classList.contains('is-closing')) return;
+    updateAvailability();
     if (sent) {
       status.textContent = t('Avís enviat. Gràcies!');
       cancel.textContent = t('Tanca');
     } else {
       fields.disabled = false;
       syncSelects(dialog);
-      status.textContent = t('No s’ha pogut enviar l’avís. El navegador pot estar bloquejant Umami o el servei pot no estar disponible.');
+      status.textContent = t('No s’ha pogut enviar l’avís.');
       updateSubmit();
     }
   });
@@ -118,6 +141,8 @@ export function mountReadingReport(dialog) {
   return {
     open(reading, questions, { part, element }) {
       active = { reading, questions };
+      help.reset();
+      updateAvailability();
       fields.disabled = false;
       status.textContent = '';
       cancel.textContent = t('Cancel·la');

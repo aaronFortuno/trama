@@ -38,10 +38,9 @@
 .studio-text-button:hover { text-decoration: underline; }
 .studio-back { width: 32px; min-height: 32px; padding: 0; flex: none; }
 .studio-back svg { width: 17px; height: 17px; }
-.studio-report-trigger { width: 30px; min-height: 30px; flex: none; align-self: center; padding: 0; }
-.studio-report-trigger .ui-icon { width: 16px; height: 16px; }
-.studio-reading-trigger { width: 32px; min-height: 32px; flex: none; margin-inline-start: auto; padding: 0; }
-.studio-reading-trigger .ui-icon { width: 17px; height: 17px; }
+.studio-heading-actions { display: flex; flex: none; gap: 6px; margin-inline-start: auto; }
+.studio-heading-actions .button { width: 34px; min-height: 34px; padding: 0; }
+.studio-heading-actions .ui-icon { width: 17px; height: 17px; }
 .studio-file-status { margin: 0 0 6px; color: var(--accent); font-size: .78rem; }
 
 .studio-kicker {

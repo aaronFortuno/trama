@@ -7,6 +7,7 @@ const collectURL = new URL('/api/send', scriptURL);
 const websiteId = 'b84afe8e-e26b-4e71-8150-3b167d4f89a3';
 const publicCodes = new Set(readings.map(reading => reading.code));
 const page = { website: websiteId, hostname: host, title: 'Trama', url: '/' };
+let trackerLoading = false;
 
 export const reportReasons = {
   text: { wording: 'Errada de llengua', fact: 'Dada incorrecta', coherence: 'Incoherència' },
@@ -15,10 +16,26 @@ export const reportReasons = {
   solution: { incorrect: 'Resposta incorrecta', incomplete: 'Resposta incompleta', mismatch: 'No correspon a la pregunta' },
 };
 
-function analyticsAllowed() {
-  return location.protocol === 'https:' && location.hostname === host &&
-    navigator.globalPrivacyControl !== true &&
-    ![navigator.doNotTrack, window.doNotTrack, navigator.msDoNotTrack].some(value => ['1', 'yes', 1].includes(value));
+function analyticsRestriction() {
+  if (location.protocol !== 'https:' || location.hostname !== host) return 'local';
+  if (navigator.globalPrivacyControl === true) return 'gpc';
+  if ([navigator.doNotTrack, window.doNotTrack, navigator.msDoNotTrack].some(value => ['1', 'yes', 1].includes(value))) return 'dnt';
+  try { if (localStorage.getItem('umami.disabled')) return 'disabled'; } catch { /* Storage can be unavailable. */ }
+  return '';
+}
+
+const trackerReady = () => typeof window.umami?.track === 'function';
+const notifyAnalytics = () => window.dispatchEvent(new Event('trama-analytics-change'));
+
+export function reportAvailability() {
+  return analyticsRestriction() || (trackerReady() ? '' : trackerLoading ? 'loading' : 'script');
+}
+
+export function allowAnalytics() {
+  if (analyticsRestriction() !== 'disabled') return;
+  try { localStorage.removeItem('umami.disabled'); } catch { return; }
+  startAnalytics();
+  notifyAnalytics();
 }
 
 function knownFilter(facet, value) {
@@ -26,7 +43,7 @@ function knownFilter(facet, value) {
 }
 
 function beforeSend(type, payload) {
-  if (!analyticsAllowed() || type !== 'event' || !payload) return false;
+  if (analyticsRestriction() || type !== 'event' || !payload) return false;
   const { name, data } = payload;
   if (name === undefined) return page;
   if (name === 'obre_lectura') {
@@ -45,7 +62,7 @@ function beforeSend(type, payload) {
 }
 
 export function startAnalytics() {
-  if (!analyticsAllowed() || document.getElementById('trama-analytics')) return;
+  if (analyticsRestriction() || trackerLoading || trackerReady()) return;
   const script = document.createElement('script');
   script.id = 'trama-analytics';
   script.src = scriptURL;
@@ -57,11 +74,24 @@ export function startAnalytics() {
   script.dataset.doNotTrack = 'true';
   script.dataset.beforeSend = 'tramaBeforeSend';
   window.tramaBeforeSend = beforeSend;
+  trackerLoading = true;
+  const timeout = setTimeout(finish, 6000);
+  function finish() {
+    clearTimeout(timeout);
+    script.removeEventListener('load', finish);
+    script.removeEventListener('error', finish);
+    trackerLoading = false;
+    if (!trackerReady()) script.remove();
+    notifyAnalytics();
+  }
+  script.addEventListener('load', finish);
+  script.addEventListener('error', finish);
   document.head.append(script);
+  notifyAnalytics();
 }
 
 function track(name, data) {
-  if (!analyticsAllowed()) return;
+  if (analyticsRestriction()) return;
   try { window.umami?.track?.(name, data)?.catch?.(() => {}); } catch { /* Analytics is optional. */ }
 }
 
@@ -74,7 +104,7 @@ export function trackFilterApplied(filtre, valor, nivell) {
 }
 
 export async function sendReadingReport(reading, { part, element, motiu }) {
-  if (!analyticsAllowed() || typeof window.umami?.track !== 'function' || reading.personal) return false;
+  if (reportAvailability() || reading.personal) return false;
   const entry = readings.find(item => item.id === reading.id);
   if (!entry || !Object.hasOwn(reportReasons, part) || !Object.hasOwn(reportReasons[part], motiu)) return false;
 
@@ -92,7 +122,6 @@ export async function sendReadingReport(reading, { part, element, motiu }) {
   // The tracker does not return a delivery status. This explicit action checks
   // the collector's acknowledgement so the dialog can report a blocked send.
   try {
-    if (localStorage.getItem('umami.disabled')) return false;
     const headers = { 'Content-Type': 'application/json', 'x-umami-website-id': websiteId, 'x-umami-hostname': host };
     const cache = window.umami.getSession?.()?.cache;
     if (cache) headers['x-umami-cache'] = cache;

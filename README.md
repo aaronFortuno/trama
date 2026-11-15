@@ -67,7 +67,7 @@ Al domini públic, la instància pròpia d’Umami d’ortogra.fi compta visuali
 
 Quan es tria una opció de filtre del catàleg, Umami rep l’esdeveniment `aplica_filtre`, amb els camps `filtre` i `valor` si l’opció forma part dels valors predefinits de Trama. En el cas de l’extensió, el camp `nivell` indica el curs si n’hi ha un de seleccionat. Les cerques, els títols, els continguts, les respostes i el fragment dels enllaços compartits queden fora del seguiment. El seguiment respecta Do Not Track i Global Privacy Control i no s’activa en local.
 
-Les banderes de les lectures públiques obren un formulari d’avís. Quan es prem «Envia l’avís», Trama envia `notifica_error` a Umami amb `codi`, `llengua`, `part`, `motiu` i, si escau, `element`. L’element és l’identificador de la imatge o de la pregunta, o la posició del paràgraf dins de la lectura. El formulari es pot completar encara que l’enviament estigui bloquejat. Trama mostra el resultat de l’enviament al mateix formulari.
+Les banderes de les lectures públiques obren un formulari d’avís. Quan es prem «Envia l’avís», Trama envia `notifica_error` a Umami amb `codi`, `llengua`, `part`, `motiu` i, si escau, `element`. L’element és l’identificador de la imatge o de la pregunta, o la posició del paràgraf dins de la lectura. El formulari es pot completar encara que l’enviament estigui bloquejat. El formulari mostra el motiu quan detecta un bloqueig i ofereix l’ajuda «Com permetre els avisos».
 
 Escriu un codi de lectura com `L001` al cercador del catàleg i, si cal, acota la cerca amb el filtre de llengua. Els enllaços de fitxa compartits en versions anteriors continuen obrint la lectura amb els seus ajustos. Conserva els codis i els identificadors de les lectures, preguntes i imatges quan ampliïs el catàleg.
 

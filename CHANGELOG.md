@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.16.4 · 15 de novembre de 2026
+
+El formulari d’avisos indica quan Umami no està disponible i ofereix ajuda per tornar a permetre l’enviament. La bandera passa a la dreta de la capçalera de la fitxa i l’exportació JSON queda al catàleg.
+
 ## 1.16.3 · 15 de novembre de 2026
 
 La bandera del títol, de les preguntes i del solucionari permet notificar errors de les lectures públiques. El formulari indica si Umami ha rebut l’avís o si no s’ha pogut enviar.

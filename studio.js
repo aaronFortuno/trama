@@ -9,7 +9,6 @@ import { mountTemplateLibrary, templateLibraryMarkup } from './template-library.
 import { icon } from './icons.js';
 import { bindTranslations, language, t } from './i18n.js';
 import { mountActionMenu } from './action-menu.js';
-import { downloadReading } from './reading-files.js';
 import { mountReadingReport, readingReportMarkup } from './reading-report.js';
 import { encodeImage, logoSource, tramaLogo } from './local-images.js';
 import { fontGroups, loadWorksheetFont, worksheetFonts } from './worksheet-fonts.js';
@@ -45,18 +44,16 @@ const template = `
         <div class="studio-heading">
           <button class="button studio-back" type="button" data-action="catalog" aria-label="Torna al catàleg" title="Torna al catàleg">${icon('arrow-left')}</button>
           <div class="studio-title-line">
-            <div class="studio-title-copy">
-              <h1 id="studio-title" tabindex="-1"></h1>
-              <span id="studio-reading-code" class="studio-reading-code"></span>
-              <button class="button studio-report-trigger" type="button" data-report-part="" aria-label="Notifica un error" title="Notifica un error" aria-haspopup="dialog" aria-controls="reading-report-dialog">${icon('flag')}</button>
-            </div>
+            <div class="studio-title-copy"><h1 id="studio-title" tabindex="-1"></h1><span id="studio-reading-code" class="studio-reading-code"></span></div>
             <p class="studio-kicker" id="studio-meta"></p>
             <label class="studio-variants" hidden>Altres versions <select id="studio-variant"></select></label>
           </div>
-          <button class="button studio-reading-trigger" type="button" id="studio-reading-trigger" aria-label="Opcions de la lectura" title="Opcions de la lectura" aria-haspopup="menu" aria-expanded="false" aria-controls="studio-reading-menu" popovertarget="studio-reading-menu">${icon('ellipsis')}</button>
-          <div class="select-menu action-menu" id="studio-reading-menu" role="menu" aria-labelledby="studio-reading-trigger" popover>
-            <button type="button" role="menuitem" tabindex="-1" data-option="json">Descarrega la lectura (JSON)</button>
-            <button type="button" role="menuitem" tabindex="-1" data-option="remove" hidden>Suprimeix la lectura importada</button>
+          <div class="studio-heading-actions">
+            <button class="button studio-report-trigger" type="button" data-report-part="" aria-label="Notifica un error" title="Notifica un error" aria-haspopup="dialog" aria-controls="reading-report-dialog">${icon('flag')}</button>
+            <button class="button studio-reading-trigger" type="button" id="studio-reading-trigger" aria-label="Opcions de la lectura" title="Opcions de la lectura" aria-haspopup="menu" aria-expanded="false" aria-controls="studio-reading-menu" popovertarget="studio-reading-menu" hidden>${icon('ellipsis')}</button>
+            <div class="select-menu action-menu" id="studio-reading-menu" role="menu" aria-labelledby="studio-reading-trigger" popover>
+              <button type="button" role="menuitem" tabindex="-1" data-option="remove">Suprimeix la lectura importada</button>
+            </div>
           </div>
         </div>
         <p class="studio-file-status" id="studio-file-status" role="status" hidden></p>
@@ -303,7 +300,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
   });
 
   function populateReading() {
-    find('#studio-reading-menu [data-option="remove"]').hidden = !reading.personal;
+    fileTrigger.hidden = !reading.personal;
     licenseControl.hidden = Boolean(reading.personal);
     reportTrigger.hidden = Boolean(reading.personal);
     const hyphenationAvailable = supportsHyphenation(reading.language);
@@ -581,24 +578,17 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
     }
   }
 
-  async function manageReading(action) {
+  function manageReading(action) {
     const current = reading;
-    if (!current || fileTrigger.disabled) return;
+    if (action !== 'remove' || !current?.personal) return;
     fileStatus.hidden = true;
     try {
-      if (action === 'remove') {
-        if (current.personal && confirm(t('Vols suprimir aquesta lectura del navegador?'))) onRemove(current);
-        return;
-      }
-      fileTrigger.disabled = true;
-      await downloadReading(current);
+      if (confirm(t('Vols suprimir aquesta lectura del navegador?'))) onRemove(current);
     } catch {
       if (reading === current && !root.hidden) {
-        fileStatus.textContent = t(action === 'remove' ? 'No s’ha pogut suprimir la lectura.' : 'No s’ha pogut descarregar la lectura.');
+        fileStatus.textContent = t('No s’ha pogut suprimir la lectura.');
         fileStatus.hidden = false;
       }
-    } finally {
-      fileTrigger.disabled = false;
     }
   }
 

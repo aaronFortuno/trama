@@ -93,6 +93,34 @@
 .report-form .report-status:empty { margin: 0; }
 .report-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px; margin-top: 12px; }
 .report-actions .button { min-height: 36px; padding: 5px 10px; font-size: .82rem; }
+.report-warning, .report-delivery-guide {
+  margin-bottom: 12px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 6px;
+}
+.report-warning {
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
+  background: color-mix(in srgb, var(--accent) 9%, var(--surface));
+}
+.report-warning p { margin: 0; color: var(--accent); font-weight: 650; line-height: 1.45; }
+.report-warning[data-loading="true"] p { color: var(--muted); font-weight: 400; }
+.report-help-link { padding: 3px 0 0; text-align: start; text-decoration: underline; font-size: .79rem; }
+.report-delivery-guide { background: var(--paper); }
+.report-delivery-guide h3 { margin: 0; color: var(--green); font-size: .88rem; }
+.report-delivery-guide p { margin: 4px 0 7px; line-height: 1.5; overflow-wrap: anywhere; }
+.report-guide-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; }
+.report-guide-actions .button { min-height: 30px; padding: 4px 8px; font-size: .78rem; }
+.report-submit-wrap { position: relative; }
+.report-submit-help {
+  position: absolute; z-index: 1; inset-inline-end: 0; bottom: 100%;
+  width: min(250px, 67vw); padding: 7px 9px;
+  border: 1px solid var(--line); border-radius: 6px; background: var(--surface);
+  box-shadow: 0 5px 16px #101a1726; opacity: 0; visibility: hidden;
+  transition: opacity var(--motion), visibility var(--motion);
+}
+.report-submit-help p { margin: 0; line-height: 1.4; }
+.report-submit-wrap:has(:focus-visible) .report-submit-help { opacity: 1; visibility: visible; }
+@media (hover: hover) {
+  .report-submit-wrap:hover .report-submit-help { opacity: 1; visibility: visible; }
+}
 
 @media (max-width: 640px) {
   .about-dialog, .release-dialog, .reading-files-dialog { padding: 18px; }

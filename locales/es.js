@@ -117,7 +117,8 @@ Text instructiu|Texto instructivo
 Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
-v1.16.3 · Obre l’historial de canvis|v1.16.3 · Abrir el historial de cambios
+v1.16.4 · Obre l’historial de canvis|v1.16.4 · Abrir el historial de cambios
+El formulari d’avisos indica quan Umami no està disponible i ofereix ajuda per tornar a permetre l’enviament. La bandera passa a la dreta de la capçalera de la fitxa i l’exportació JSON queda al catàleg.|El formulario de avisos indica cuándo Umami no está disponible y ofrece ayuda para volver a permitir el envío. La bandera pasa a la derecha de la cabecera de la ficha y la exportación JSON queda en el catálogo.
 La bandera del títol, de les preguntes i del solucionari permet notificar errors de les lectures públiques. El formulari indica si Umami ha rebut l’avís o si no s’ha pogut enviar.|La bandera del título, de las preguntas y del solucionario permite notificar errores de las lecturas públicas. El formulario indica si Umami ha recibido el aviso o si no se ha podido enviar.
 Umami compta les obertures per codi de lectura pública i registra els filtres aplicats al catàleg. Per al filtre d’extensió, també registra el curs si se n’ha triat un.|Umami cuenta las aperturas por código de lectura pública y registra los filtros aplicados en el catálogo. Para el filtro de extensión, también registra el curso si se ha seleccionado uno.
 Cada filtre actiu es pot treure amb la × al costat del seu desplegable.|Cada filtro activo se puede quitar con la × junto a su desplegable.
@@ -174,7 +175,6 @@ Catàleg més directe, amb capçalera i peu fixos. Ajustos i previsualització a
 Primera versió amb quatre lectures il·lustrades en castellà per a 5è de primària i un editor de fitxes imprimibles amb codi de recuperació.|Primera versión con cuatro lecturas ilustradas en español para 5.º de primaria y un editor de fichas imprimibles con código de recuperación.
 Torna al catàleg|Volver al catálogo
 Opcions de la lectura|Opciones de la lectura
-Descarrega la lectura (JSON)|Descargar la lectura (JSON)
 Suprimeix la lectura importada|Eliminar la lectura importada
 Vols suprimir aquesta lectura del navegador?|¿Quieres eliminar esta lectura del navegador?
 No s’ha pogut suprimir la lectura.|No se ha podido eliminar la lectura.
@@ -267,7 +267,32 @@ L’avís inclou el codi de la lectura, la llengua, la part afectada i el motiu.
 Envia l’avís|Enviar el aviso
 Enviant l’avís…|Enviando el aviso…
 Avís enviat. Gràcies!|Aviso enviado. ¡Gracias!
-No s’ha pogut enviar l’avís. El navegador pot estar bloquejant Umami o el servei pot no estar disponible.|No se ha podido enviar el aviso. El navegador puede estar bloqueando Umami o el servicio puede no estar disponible.
+No s’ha pogut enviar l’avís.|No se ha podido enviar el aviso.
+Els avisos només es poden enviar des del web públic.|Los avisos solo se pueden enviar desde la web pública.
+Global Privacy Control (GPC) està actiu. Trama respecta aquest senyal i els avisos queden desactivats.|Global Privacy Control (GPC) está activo. Trama respeta esta señal y los avisos quedan desactivados.
+Do Not Track està actiu. Trama respecta aquest senyal i els avisos queden desactivats.|Do Not Track está activo. Trama respeta esta señal y los avisos quedan desactivados.
+Umami està desactivat per a Trama en aquest navegador. Els avisos queden desactivats.|Umami está desactivado para Trama en este navegador. Los avisos quedan desactivados.
+S’està comprovant la connexió amb Umami…|Comprobando la conexión con Umami…
+Umami no s’ha pogut carregar. Els avisos queden desactivats.|No se ha podido cargar Umami. Los avisos quedan desactivados.
+Umami no ha confirmat la recepció de l’avís.|Umami no ha confirmado la recepción del aviso.
+Com permetre els avisos|Cómo permitir los avisos
+Ajuda del navegador ↗|Ayuda del navegador ↗
+Obre Trama ↗|Abrir Trama ↗
+Torna a comprovar|Volver a comprobar
+Permet Umami a Trama|Permitir Umami en Trama
+Obre la lectura a trama.ortogra.fi per enviar l’avís.|Abre la lectura en trama.ortogra.fi para enviar el aviso.
+Si vols tornar a activar Umami per a Trama en aquest navegador, prem «Permet Umami a Trama».|Si quieres volver a activar Umami para Trama en este navegador, pulsa «Permitir Umami en Trama».
+Si vols canviar aquest senyal, busca Global Privacy Control als ajustos de privadesa del navegador.|Si quieres cambiar esta señal, busca Global Privacy Control en los ajustes de privacidad del navegador.
+Aquest canvi pot afectar altres webs. Recarrega Trama després del canvi.|Este cambio puede afectar a otras webs. Recarga Trama después del cambio.
+A Brave per a iOS, obre Configuració → Brave Shields i privadesa → Global Privacy Control.|En Brave para iOS, abre Configuración → Brave Shields y privacidad → Global Privacy Control.
+A Brave, obre brave://flags/#brave-global-privacy-control-enabled a la barra d’adreces, tria «Disabled» i reinicia el navegador.|En Brave, abre brave://flags/#brave-global-privacy-control-enabled en la barra de direcciones, elige «Disabled» y reinicia el navegador.
+Si vols canviar aquest senyal, busca Do Not Track als ajustos de privadesa del navegador. Aquest canvi pot afectar altres webs. Recarrega Trama després del canvi.|Si quieres cambiar esta señal, busca Do Not Track en los ajustes de privacidad del navegador. Este cambio puede afectar a otras webs. Recarga Trama después del cambio.
+A Brave, obre la icona del lleó a la barra d’adreces. Als controls avançats, desactiva el bloqueig de rastrejadors i anuncis només per a trama.ortogra.fi.|En Brave, abre el icono del león en la barra de direcciones. En los controles avanzados, desactiva el bloqueo de rastreadores y anuncios solo para trama.ortogra.fi.
+A Firefox, obre l’escut al costat de l’adreça i permet una excepció a la protecció contra el seguiment només per a Trama.|En Firefox, abre el escudo junto a la dirección y permite una excepción a la protección contra el rastreo solo para Trama.
+A Edge, obre els ajustos de prevenció del seguiment i afegeix trama.ortogra.fi a les excepcions.|En Edge, abre los ajustes de prevención del rastreo y añade trama.ortogra.fi a las excepciones.
+Si fas servir una extensió de bloqueig, obre’n el menú i permet Umami només a trama.ortogra.fi.|Si usas una extensión de bloqueo, abre su menú y permite Umami solo en trama.ortogra.fi.
+Després, prem «Torna a comprovar». Si el navegador et demana que recarreguis la pàgina, torna a obrir el formulari.|Después, pulsa «Volver a comprobar». Si el navegador te pide que recargues la página, vuelve a abrir el formulario.
+Revisa la connexió i torna a prémer «Envia l’avís».|Revisa la conexión y vuelve a pulsar «Enviar el aviso».
 solucionari|solucionario
 Preguntes|Preguntas
 Espai de resposta|Espacio de respuesta
