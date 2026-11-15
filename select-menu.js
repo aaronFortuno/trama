@@ -55,11 +55,12 @@ function enhance(select) {
   function sync() {
     const name = accessibleName();
     const selected = select.selectedOptions[0];
+    const disabled = select.matches(':disabled');
     value.textContent = selected?.dataset.label ?? selected?.label ?? '';
     trigger.setAttribute('aria-label', `${name}, ${value.textContent}`);
     menu.setAttribute('aria-label', name);
-    trigger.setAttribute('aria-disabled', String(select.disabled));
-    trigger.tabIndex = select.disabled ? -1 : 0;
+    trigger.setAttribute('aria-disabled', String(disabled));
+    trigger.tabIndex = disabled ? -1 : 0;
   }
 
   function highlight(next) {
@@ -90,7 +91,7 @@ function enhance(select) {
   }
 
   function open() {
-    if (select.disabled) return false;
+    if (select.matches(':disabled')) return false;
     const contents = document.createDocumentFragment();
     const groups = new Map();
     options = [...select.options].filter(option => !option.hidden

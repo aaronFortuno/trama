@@ -1,5 +1,6 @@
 import { imageDefaults, maxAnswerLines, questionLines } from './worksheet-code.js';
 import { language, t } from './i18n.js';
+import { icon } from './icons.js';
 import { logoSource, tramaLogo } from './local-images.js';
 import { loadWorksheetFont, worksheetFonts } from './worksheet-fonts.js';
 import { supportsHyphenation, withHyphenation } from './worksheet-hyphenation.js';
@@ -75,7 +76,21 @@ function makePassage(text, images, formatText) {
   return section;
 }
 
-function questionTools(number, count, answerKey) {
+function reportButton(part, id, label) {
+  const button = element('button', 'worksheet-question-tool worksheet-report');
+  button.type = 'button';
+  button.lang = language();
+  button.dataset.reportPart = part;
+  button.dataset.reportElement = id;
+  button.setAttribute('aria-haspopup', 'dialog');
+  button.setAttribute('aria-controls', 'reading-report-dialog');
+  button.setAttribute('aria-label', label);
+  button.title = label;
+  button.innerHTML = icon('flag');
+  return button;
+}
+
+function questionTools(number, count, answerKey, reportId) {
   const tools = element('div', 'worksheet-question-tools');
   tools.lang = language();
   const button = (action, symbol, label) => {
@@ -96,19 +111,24 @@ function questionTools(number, count, answerKey) {
     more.disabled = count >= maxAnswerLines;
     actions.append(less, element('span', 'worksheet-question-units', String(count)), more);
   }
+  if (reportId) actions.append(reportButton('question', reportId, t('Notifica un error a la pregunta {number}', { number })));
   actions.append(button('question-hide', '×', t('Amaga la pregunta {number}', { number })));
   tools.append(toggle, actions);
   return tools;
 }
 
-function makeSolution(text, label) {
+function makeSolution(text, label, reportId, number) {
   const solution = element('div', 'worksheet-solution');
-  if (label) solution.append(element('strong', null, label));
+  if (label) {
+    const heading = element('strong', reportId ? 'worksheet-solution-label' : null, label);
+    if (reportId) heading.append(reportButton('solution', reportId, t('Notifica un error a la resposta de la pregunta {number}', { number })));
+    solution.append(heading);
+  }
   solution.append(element('p', null, text));
   return solution;
 }
 
-function makeQuestion(question, index, settings, heading, words, { answerKey, interactive }) {
+function makeQuestion(question, index, settings, heading, words, { answerKey, interactive, canReport }) {
   const block = element('div', 'worksheet-question-block');
   block.dataset.questionId = question.id;
   if (heading) {
@@ -121,10 +141,10 @@ function makeQuestion(question, index, settings, heading, words, { answerKey, in
   const count = questionLines(question, settings);
   const prompt = element('div', 'worksheet-prompt-wrap');
   prompt.append(element('p', 'worksheet-prompt', question.prompt));
-  if (interactive) prompt.append(questionTools(index + 1, count, answerKey));
+  if (interactive) prompt.append(questionTools(index + 1, count, answerKey, canReport && question.id));
   main.append(prompt);
   if (answerKey) {
-    main.append(makeSolution(question.answer || words[8], question.answer && words[7]));
+    main.append(makeSolution(question.answer || words[8], question.answer && words[7], canReport && question.id, index + 1));
   } else {
     for (let index = 0; index < count; index++) {
       const line = element('div', 'worksheet-answer-line');
@@ -175,6 +195,7 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
   const words = wordsFor(reading.language);
   const formatText = passageText(reading, settings);
   const showLicense = settings.showLicense && !reading.personal;
+  const canReport = interactive && !reading.personal;
   const pages = [];
   let content;
   let footerHeight;
@@ -281,7 +302,7 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
   }
 
   function placeQuestion(question, index) {
-    const block = makeQuestion(question, index, settings, index === 0 ? words[4] : '', words, { answerKey, interactive });
+    const block = makeQuestion(question, index, settings, index === 0 ? words[4] : '', words, { answerKey, interactive, canReport });
     if (fitBlock(block)) return;
 
     // Split questions that are taller than a page without changing the chosen font or answer spacing.
@@ -312,7 +333,7 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
     }
     if (answerKey) {
       placeTextChunks(question.answer || words[8], (text, first) =>
-        continuation([makeSolution(text, first && question.answer && words[7])]));
+        continuation([makeSolution(text, first && question.answer && words[7], canReport && question.id, index + 1)]));
       return;
     }
     let remaining = response;

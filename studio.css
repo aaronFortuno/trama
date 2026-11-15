@@ -38,6 +38,8 @@
 .studio-text-button:hover { text-decoration: underline; }
 .studio-back { width: 32px; min-height: 32px; padding: 0; flex: none; }
 .studio-back svg { width: 17px; height: 17px; }
+.studio-report-trigger { width: 30px; min-height: 30px; flex: none; align-self: center; padding: 0; }
+.studio-report-trigger .ui-icon { width: 16px; height: 16px; }
 .studio-reading-trigger { width: 32px; min-height: 32px; flex: none; margin-inline-start: auto; padding: 0; }
 .studio-reading-trigger .ui-icon { width: 17px; height: 17px; }
 .studio-file-status { margin: 0 0 6px; color: var(--accent); font-size: .78rem; }
@@ -268,6 +270,14 @@
 .worksheet-question-tool:disabled { opacity: .4; }
 .worksheet-question-tool[data-action="question-tools"] { display: none; }
 .worksheet-question-tool[data-action="question-hide"] { color: #a04430; }
+.worksheet-report .ui-icon { width: 15px; height: 15px; }
+.worksheet-solution .worksheet-solution-label { position: relative; width: max-content; max-width: 100%; }
+.worksheet-solution-label .worksheet-report {
+  position: absolute; z-index: 1; inset-block-start: 50%; inset-inline-start: calc(100% + 4px);
+  transform: translateY(-50%) scale(calc(1 / var(--preview-scale, 1))); transform-origin: left center;
+  color: #234d43; border: 1px solid #cbd6cc; background: #fffefa;
+}
+.worksheet-solution-label .worksheet-report:hover { background: #e9ede3; }
 .worksheet-question-units { min-width: 15px; text-align: center; font-variant-numeric: tabular-nums; }
 .worksheet-footer { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); grid-auto-rows: min-content; align-content: start; align-items: center; column-gap: 2mm; min-height: 0; padding-top: 2mm; color: #4d6158; font: 8pt/1.25 Arial, sans-serif; }
 .worksheet-footer:empty { padding: 0; }
@@ -316,5 +326,5 @@
   body[data-trama-print] > .worksheet-print-outlet { display: block; }
   .worksheet-print-outlet .worksheet-page { break-inside: avoid; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
   .worksheet-print-outlet .worksheet-page:not(:last-child) { break-after: page; }
-  .worksheet-question-tools { display: none !important; }
+  .worksheet-question-tools, .worksheet-report { display: none !important; }
 }

@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.16.3 · 15 de novembre de 2026
+
+La bandera del títol, de les preguntes i del solucionari permet notificar errors de les lectures públiques. El formulari indica si Umami ha rebut l’avís o si no s’ha pogut enviar.
+
 ## 1.16.2 · 15 de novembre de 2026
 
 Umami compta les obertures per codi de lectura pública i registra els filtres aplicats al catàleg. Per al filtre d’extensió, també registra el curs si se n’ha triat un.

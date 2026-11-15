@@ -10,6 +10,7 @@ import { icon } from './icons.js';
 import { bindTranslations, language, t } from './i18n.js';
 import { mountActionMenu } from './action-menu.js';
 import { downloadReading } from './reading-files.js';
+import { mountReadingReport, readingReportMarkup } from './reading-report.js';
 import { encodeImage, logoSource, tramaLogo } from './local-images.js';
 import { fontGroups, loadWorksheetFont, worksheetFonts } from './worksheet-fonts.js';
 
@@ -44,7 +45,11 @@ const template = `
         <div class="studio-heading">
           <button class="button studio-back" type="button" data-action="catalog" aria-label="Torna al catàleg" title="Torna al catàleg">${icon('arrow-left')}</button>
           <div class="studio-title-line">
-            <div class="studio-title-copy"><h1 id="studio-title" tabindex="-1"></h1><span id="studio-reading-code" class="studio-reading-code"></span></div>
+            <div class="studio-title-copy">
+              <h1 id="studio-title" tabindex="-1"></h1>
+              <span id="studio-reading-code" class="studio-reading-code"></span>
+              <button class="button studio-report-trigger" type="button" data-report-part="" aria-label="Notifica un error" title="Notifica un error" aria-haspopup="dialog" aria-controls="reading-report-dialog">${icon('flag')}</button>
+            </div>
             <p class="studio-kicker" id="studio-meta"></p>
             <label class="studio-variants" hidden>Altres versions <select id="studio-variant"></select></label>
           </div>
@@ -182,7 +187,8 @@ const template = `
       </div>
     </aside>
   </div>
-  ${templateLibraryMarkup}`;
+  ${templateLibraryMarkup}
+  ${readingReportMarkup}`;
 
 function create(tag, className, text) {
   const element = document.createElement(tag);
@@ -267,6 +273,8 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
   const printButton = find('[data-action="print"]');
   const printMenu = mountActionMenu(printTrigger, find('#studio-print-menu'), exportWorksheet);
   const fileTrigger = find('#studio-reading-trigger');
+  const reportTrigger = find('.studio-report-trigger');
+  const report = mountReadingReport(find('#reading-report-dialog'));
   const fileStatus = find('#studio-file-status');
   const fileMenu = mountActionMenu(fileTrigger, find('#studio-reading-menu'), manageReading);
   const printOutlet = create('div', 'worksheet-print-outlet');
@@ -297,6 +305,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
   function populateReading() {
     find('#studio-reading-menu [data-option="remove"]').hidden = !reading.personal;
     licenseControl.hidden = Boolean(reading.personal);
+    reportTrigger.hidden = Boolean(reading.personal);
     const hyphenationAvailable = supportsHyphenation(reading.language);
     find('[name="hyphenate"]').disabled = !hyphenationAvailable;
     find('.studio-hyphenation-note').hidden = hyphenationAvailable;
@@ -424,6 +433,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
   }
 
   function select(entry, config) {
+    report.close();
     reading = entry;
     settings = config;
     fileStatus.hidden = true;
@@ -660,6 +670,12 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
     animateRefresh(pages);
   });
   root.addEventListener('click', event => {
+    const reportButton = event.target.closest('[data-report-part]');
+    if (reportButton && reading && !reading.personal) {
+      const questions = reading.questions.filter(question => !settings.excluded.includes(question.id));
+      report.open(reading, questions, { part: reportButton.dataset.reportPart, element: reportButton.dataset.reportElement });
+      return;
+    }
     const button = event.target.closest('[data-action]');
     const action = button?.dataset.action;
     if (action?.startsWith('question-')) editQuestion(action, button);

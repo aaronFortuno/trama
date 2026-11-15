@@ -117,7 +117,8 @@ Text instructiu|Texto instructivo
 Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
-v1.16.2 · Obre l’historial de canvis|v1.16.2 · Abrir el historial de cambios
+v1.16.3 · Obre l’historial de canvis|v1.16.3 · Abrir el historial de cambios
+La bandera del títol, de les preguntes i del solucionari permet notificar errors de les lectures públiques. El formulari indica si Umami ha rebut l’avís o si no s’ha pogut enviar.|La bandera del título, de las preguntas y del solucionario permite notificar errores de las lecturas públicas. El formulario indica si Umami ha recibido el aviso o si no se ha podido enviar.
 Umami compta les obertures per codi de lectura pública i registra els filtres aplicats al catàleg. Per al filtre d’extensió, també registra el curs si se n’ha triat un.|Umami cuenta las aperturas por código de lectura pública y registra los filtros aplicados en el catálogo. Para el filtro de extensión, también registra el curso si se ha seleccionado uno.
 Cada filtre actiu es pot treure amb la × al costat del seu desplegable.|Cada filtro activo se puede quitar con la × junto a su desplegable.
 La llicència apareix al peu de les fitxes com a «Text: CC BY 4.0» i queda centrada encara que s’amagui l’origen de la fitxa.|La licencia aparece al pie de las fichas como «Text: CC BY 4.0» y queda centrada aunque se oculte el origen de la ficha.
@@ -236,6 +237,37 @@ Número de pàgina|Número de página
 Contingut|Contenido
 Mostra el solucionari|Mostrar el solucionario
 Solucionari|Solucionario
+Notifica un error|Notificar un error
+Notifica un error a la pregunta {number}|Notificar un error en la pregunta {number}
+Notifica un error a la resposta de la pregunta {number}|Notificar un error en la respuesta a la pregunta {number}
+Detalls de l’avís|Detalles del aviso
+Part afectada|Parte afectada
+Element|Elemento
+Motiu|Motivo
+Text de la lectura|Texto de la lectura
+Imatge|Imagen
+Pregunta|Pregunta
+Tria una part|Elige una parte
+Tria un element|Elige un elemento
+Tot el text|Todo el texto
+Paràgraf {number}|Párrafo {number}
+Pregunta {number}|Pregunta {number}
+Errada de llengua|Error de redacción
+Dada incorrecta|Dato incorrecto
+Incoherència|Incoherencia
+Conté un error|Contiene un error
+No encaixa amb el text|No encaja con el texto
+És inadequada|Es inadecuada
+Està mal formulada|Está mal formulada
+No es pot respondre a partir del text|No se puede responder a partir del texto
+Resposta incorrecta|Respuesta incorrecta
+Resposta incompleta|Respuesta incompleta
+No correspon a la pregunta|No corresponde a la pregunta
+L’avís inclou el codi de la lectura, la llengua, la part afectada i el motiu.|El aviso incluye el código de la lectura, el idioma, la parte afectada y el motivo.
+Envia l’avís|Enviar el aviso
+Enviant l’avís…|Enviando el aviso…
+Avís enviat. Gràcies!|Aviso enviado. ¡Gracias!
+No s’ha pogut enviar l’avís. El navegador pot estar bloquejant Umami o el servei pot no estar disponible.|No se ha podido enviar el aviso. El navegador puede estar bloqueando Umami o el servicio puede no estar disponible.
 solucionari|solucionario
 Preguntes|Preguntas
 Espai de resposta|Espacio de respuesta
