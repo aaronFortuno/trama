@@ -5,7 +5,7 @@ import { animateRefresh, closeDialog, mountDialogs, mountDisclosures } from './m
 import { mountSelectMenus, syncSelects } from './select-menu.js';
 import { bindTranslations, language, setLanguage, t } from './i18n.js';
 import { mountActionMenu } from './action-menu.js';
-import { startAnalytics, trackReadingOpened } from './analytics.js';
+import { startAnalytics, trackFilterApplied, trackReadingOpened } from './analytics.js';
 import { downloadReading, downloadReadingExample, importReading, listPersonalReadings, readingExample, readingStorageKey, saveReading } from './reading-files.js';
 
 const main = document.querySelector('#contingut');
@@ -62,10 +62,15 @@ themeToggle.addEventListener('click', () => {
 });
 
 startAnalytics();
-const catalog = mountCatalog({ root: catalogView, readings, onSelect: readingId => {
-  openReading(readingId);
-  trackReadingOpened();
-} });
+const catalog = mountCatalog({
+  root: catalogView,
+  readings,
+  onSelect(reading) {
+    openReading(reading.id);
+    trackReadingOpened(reading);
+  },
+  onFilterApplied: trackFilterApplied,
+});
 const studio = mountStudio({
   root: studioView,
   readings,

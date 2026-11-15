@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.16.2 · 15 de novembre de 2026
+
+Umami compta les obertures per codi de lectura pública i registra els filtres aplicats al catàleg. Per al filtre d’extensió, també registra el curs si se n’ha triat un.
+
 ## 1.16.1 · 14 de novembre de 2026
 
 Cada filtre actiu es pot treure amb la × al costat del seu desplegable.

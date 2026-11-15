@@ -63,11 +63,13 @@ Fonts de la sèrie L017–L020. [Relat de Cleomedes sobre Eratòstenes](https://
 
 ## Cerca i privadesa
 
-Al domini públic, la instància pròpia d’Umami d’ortogra.fi compta visites i obertures de lectura des del catàleg (`obre_lectura`). No s’envien títols, codis, continguts de lectura, respostes ni el fragment dels enllaços compartits. El seguiment respecta Do Not Track i Global Privacy Control i no s’activa en local.
+Al domini públic, la instància pròpia d’Umami d’ortogra.fi compta visualitzacions de la pàgina i obertures de lectura des del catàleg (`obre_lectura`). Només les obertures de lectures públiques inclouen el camp `codi` (per exemple, `L001`). Una lectura importada només suma una obertura genèrica.
+
+Quan es tria una opció de filtre del catàleg, Umami rep l’esdeveniment `aplica_filtre`, amb els camps `filtre` i `valor` si l’opció forma part dels valors predefinits de Trama. En el cas de l’extensió, el camp `nivell` indica el curs si n’hi ha un de seleccionat. Les cerques, els títols, els continguts, les respostes i el fragment dels enllaços compartits queden fora del seguiment. El seguiment respecta Do Not Track i Global Privacy Control i no s’activa en local.
 
 Escriu un codi de lectura com `L001` al cercador del catàleg i, si cal, acota la cerca amb el filtre de llengua. Els enllaços de fitxa compartits en versions anteriors continuen obrint la lectura amb els seus ajustos. Conserva els codis i els identificadors de les lectures, preguntes i imatges quan ampliïs el catàleg.
 
-Trama funciona al navegador. Els recursos se serveixen des del mateix web. El projecte no incorpora comptes, cookies ni analítica. Les lectures importades, les plantilles i les preferències de tema i idioma es desen al navegador.
+Trama funciona al navegador. L’aplicació, les lectures i les il·lustracions se serveixen des del mateix web. Les lectures importades, les plantilles i les preferències de tema i idioma es desen al navegador.
 
 ## Llicència i crèdits
 

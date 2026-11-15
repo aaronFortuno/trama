@@ -117,7 +117,8 @@ Text instructiu|Texto instructivo
 Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
-v1.16.1 · Obre l’historial de canvis|v1.16.1 · Abrir el historial de cambios
+v1.16.2 · Obre l’historial de canvis|v1.16.2 · Abrir el historial de cambios
+Umami compta les obertures per codi de lectura pública i registra els filtres aplicats al catàleg. Per al filtre d’extensió, també registra el curs si se n’ha triat un.|Umami cuenta las aperturas por código de lectura pública y registra los filtros aplicados en el catálogo. Para el filtro de extensión, también registra el curso si se ha seleccionado uno.
 Cada filtre actiu es pot treure amb la × al costat del seu desplegable.|Cada filtro activo se puede quitar con la × junto a su desplegable.
 La llicència apareix al peu de les fitxes com a «Text: CC BY 4.0» i queda centrada encara que s’amagui l’origen de la fitxa.|La licencia aparece al pie de las fichas como «Text: CC BY 4.0» y queda centrada aunque se oculte el origen de la ficha.
 El lema de la capçalera varia en carregar el web. Els filtres actius es poden treure des del recompte i els desplegables indiquen quantes lectures hi ha per opció.|El lema de la cabecera varía al cargar la web. Los filtros activos se pueden quitar desde el recuento y los desplegables indican cuántas lecturas hay por opción.

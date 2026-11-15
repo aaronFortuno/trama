@@ -100,7 +100,7 @@ function sortFacet(facet, a, b, compare) {
   return compare(labelFor(facet, a), labelFor(facet, b));
 }
 
-export function mountCatalog({ root, readings, onSelect }) {
+export function mountCatalog({ root, readings, onSelect, onFilterApplied }) {
   let catalog = indexCatalog(readings);
   for (let index = catalog.length - 1; index > 0; index -= 1) {
     const other = Math.floor(Math.random() * (index + 1));
@@ -218,7 +218,10 @@ export function mountCatalog({ root, readings, onSelect }) {
       refresh();
       (row.querySelector('.select-trigger') ?? field).focus({ preventScroll: true });
     });
-    field.addEventListener('change', refresh);
+    field.addEventListener('change', () => {
+      refresh();
+      if (field.value) onFilterApplied?.(field.dataset.facet, field.value, levelField.value);
+    });
     clearButtons.set(field.dataset.facet, clear);
     row.append(clear);
   }
@@ -255,7 +258,7 @@ export function mountCatalog({ root, readings, onSelect }) {
     open.dataset.id = reading.id;
     open.firstElementChild.id = `reading-open-${reading.id}`;
     open.setAttribute('aria-labelledby', `${open.firstElementChild.id} ${title.id}`);
-    open.addEventListener('click', () => onSelect(reading.id));
+    open.addEventListener('click', () => onSelect(reading));
     return card;
   }
 
