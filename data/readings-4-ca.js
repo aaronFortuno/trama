@@ -1,5 +1,31 @@
 export const readings4Ca = [
   {
+    id: 'labric-del-penjador-ca',
+    code: 'L021',
+    title: 'L’abric del penjador',
+    summary: 'Dos abrics gairebé iguals porten la Vera a esbrinar de qui és el missatge que troba en una butxaca.',
+    paragraphs: [
+      'Dilluns, després de gimnàstica, la Vera va veure que només quedava un abric al penjador. Era blau i tenia una estrella cosida a la màniga, igual que el seu. Se’l va posar sense mirar-s’hi més i va sortir al pati. Allà va buscar el mocador a la butxaca. En lloc del mocador, va trobar un paper doblegat.',
+      'Al paper hi deia: «Recorda’t de deixar les claus a consergeria». La Vera no portava mai claus a l’escola. Es va treure l’abric i en va mirar l’etiqueta. Sota la talla algú hi havia escrit «M. Vega». L’estrella era com la seva, però estava cosida a l’altra màniga.',
+      'La Vera va tornar al gimnàs. El seu abric encara era damunt del banc, mig amagat sota una màrfega. Sobre la taula hi havia la llista de qui s’havia quedat a recollir les cordes. En llegir-la, la Vera hi va reconèixer un nom que coincidia amb l’etiqueta: Mario Vega.',
+      'Va trobar en Mario al costat de l’entrada. Duia les claus a la mà i acabava de preguntar pel seu abric. La Vera li va tornar l’abric que havia agafat i li va assenyalar la butxaca. Després va decidir marcar la seva etiqueta amb un retolador.',
+    ],
+    imageAlt: {
+      'el-abrigo-del-perchero': 'La Vera sosté un paper doblegat a prop de l’entrada del gimnàs. A la màniga de l’abric es veu una estrella cosida.',
+    },
+    questions: [
+      { id: 'el-abrigo-del-perchero-q1', type: 'literal', prompt: 'Què esperava trobar la Vera a la butxaca?', answer: 'El seu mocador.', lines: 1 },
+      { id: 'el-abrigo-del-perchero-q2', type: 'literal', prompt: 'On era l’abric de la Vera?', answer: 'Damunt del banc del gimnàs, mig amagat sota una màrfega.', lines: 2 },
+      { id: 'el-abrigo-del-perchero-q3', type: 'inference', prompt: 'Quines dues pistes va fer servir la Vera per esbrinar de qui era l’altre abric?', answer: 'A l’etiqueta hi deia «M. Vega» i a la llista hi figurava en Mario Vega.', lines: 2 },
+      { id: 'el-abrigo-del-perchero-q4', type: 'vocabulary', prompt: 'Què vol dir «mig amagat» en aquest relat?', answer: 'Que l’abric estava tapat en part i es veia poc.', lines: 2 },
+      { id: 'el-abrigo-del-perchero-q5', type: 'structure', prompt: 'Què passa primer: la Vera llegeix l’etiqueta o troba el seu abric?', answer: 'Primer llegeix l’etiqueta i després troba el seu abric.', lines: 1 },
+    ],
+    annotations: [
+      { paragraph: 2, text: 'consergeria', definition: 'Lloc de l’escola on s’atén l’entrada i es desen claus i altres objectes.' },
+      { paragraph: 3, text: 'mig amagat', questionId: 'el-abrigo-del-perchero-q4' },
+    ],
+  },
+  {
     id: 'el-punt-que-faltava-ca',
     code: 'L036',
     title: 'El punt que faltava',
