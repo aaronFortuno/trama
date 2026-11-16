@@ -6,6 +6,8 @@ S’incorpora «El nudo del cielo» (L089), una lectura llarga i avançada de 6�
 
 S’incorpora «Una carta dentro del barro» (L090), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.
 
+S’incorpora «El turno de las polillas» (L091), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.
+
 ## 1.18 · 16 de novembre de 2026
 
 S’incorpora «La maleta que no quería cerrar» (L085), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.
