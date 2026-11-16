@@ -13,6 +13,8 @@ import { annotationsEs } from './annotations-es.js';
 import { readings4Ca } from './readings-4-ca.js';
 import { readings5Ca } from './readings-5-ca.js';
 import { readings6Ca } from './readings-6-ca.js';
+import { readings1SecondaryEs } from './readings-1-secondary-es.js';
+import { readings1SecondaryCa } from './readings-1-secondary-ca.js';
 
 const originalReadings = [
   {
@@ -202,6 +204,7 @@ const originalReadings = [
   ...readings6EsThirdSeries,
   ...readings6EsFourthSeries,
   ...readings6EsFifthSeries,
+  ...readings1SecondaryEs,
 ].map(reading => {
   const annotations = reading.annotations ?? (reading.language === 'es' ? annotationsEs[reading.code] : undefined);
   return annotations ? { ...reading, annotations } : reading;
@@ -211,7 +214,7 @@ const originalsByCode = new Map(originalReadings.map(reading => [reading.code, r
 
 export const readings = [
   ...originalReadings,
-  ...[...readings4Ca, ...readings5Ca, ...readings6Ca].map(({ code, imageAlt, annotations = [], ...text }) => {
+  ...[...readings4Ca, ...readings5Ca, ...readings6Ca, ...readings1SecondaryCa].map(({ code, imageAlt, annotations = [], ...text }) => {
     const original = originalsByCode.get(code);
     return {
       ...original,

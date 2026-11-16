@@ -1,0 +1,43 @@
+export const readings1SecondaryEs = [
+  {
+    id: 'el-patio-a-dos-temperaturas-es',
+    workId: 'el-patio-a-dos-temperaturas',
+    code: 'L097',
+    language: 'es',
+    level: '1-secondary',
+    difficulty: 'intermediate',
+    themes: ['science', 'community', 'math'],
+    genre: 'informative',
+    title: 'El patio a dos temperaturas',
+    summary: 'Un grupo mide el calor en el patio. Para interpretar los resultados tiene que distinguir la temperatura del aire, la del suelo y lo que detecta el termómetro.',
+    paragraphs: [
+      'A mediodía, el aire del patio parecía igual de cálido en cualquier rincón. El suelo contaba otra historia. En el lugar donde se formaba la fila del comedor, el asfalto estaba a pleno sol. Unos metros más allá, bajo un plátano, el mismo pavimento llevaba un buen rato a la sombra. El consejo escolar estaba estudiando dónde instalar un toldo. Antes de dibujar nada en el plano, un grupo de primero quiso averiguar cuánto cambiaba la temperatura entre ambos lugares y qué podían afirmar con los datos que recogieran.',
+      'Empezaron por medir el aire. Usaron un termómetro protegido de la radiación solar directa, con espacio para que circulase el aire a su alrededor. Lo situaron en ambos puntos a la misma altura y esperaron a que la lectura se estabilizara. Obtuvieron 30,1 °C junto a la fila y 29,5 °C bajo el árbol. Si hubieran dejado el sensor al sol sin protección, el propio sensor podría haberse calentado. En ese caso, les habría costado saber cuánto de lo que marcaba se debía a la temperatura del aire.',
+      'Para medir el pavimento usaron otro instrumento, un termómetro de infrarrojos. Este aparato detecta parte de la radiación que llega desde la superficie a la que apunta y estima su temperatura. El grupo apuntó hacia abajo desde la misma distancia, sin proyectar su propia sombra sobre el punto medido. Comparó zonas del mismo asfalto con pocos minutos de diferencia. Cerca de la fila obtuvo 48 °C y bajo el plátano, 34 °C. Eso daba una diferencia de 14 grados en el pavimento, frente a una diferencia de 0,6 grados en el aire.',
+      'El banco de metal planteó otro problema. Al cambiar el ángulo desde el que apuntaban al asiento, la cifra variaba sin que hubiera pasado tiempo suficiente para que el banco se calentara o enfriara tanto. El metal brillante puede reflejar radiación procedente de otros lugares, de modo que parte de lo que detecta el aparato puede venir del entorno. Compararon, a la sombra, el metal desnudo con un trozo de cinta aislante negra y mate bien pegada, tras esperar a que la cinta alcanzara aproximadamente la temperatura del banco. La lectura sobre la cinta variaba menos con el ángulo.',
+      'En el borrador del informe escribieron: «A la sombra hacen catorce grados menos». Una compañera leyó la frase y preguntó si eso significaba que el aire junto al árbol estaba a dieciséis grados. El grupo se dio cuenta de que había omitido lo más importante: qué había medido. Sustituyó la frase por dos y precisó el material, los puntos y la hora aproximada. Así evitó extrapolar el resultado de aquellas dos mediciones al conjunto del patio o a cualquier momento del día.',
+      'Como recomendación, propusieron estudiar primero dónde se formaban las colas de mediodía y repetir las medidas varios días. En el plano añadieron dos contornos punteados: la sombra del árbol durante la fila y la que habían visto a primera hora. Ocupaban sitios distintos. La decisión sobre el toldo tendría que contar tanto con el recorrido de la sombra como con el de las personas.',
+    ],
+    images: [
+      { id: 'medicio-pati', src: 'assets/readings/pati-temperatures-mesura.webp', width: 960, height: 640, afterParagraph: 1, alt: 'Dos estudiantes apuntan un termómetro hacia el asfalto y toman notas junto al borde de la sombra de un árbol.' },
+      { id: 'banc-cinta', src: 'assets/readings/pati-temperatures-banc.webp', width: 960, height: 640, afterParagraph: 4, alt: 'Detalle de un banco de metal con un trozo de cinta negra mate en el asiento y un termómetro al lado.' },
+    ],
+    questions: [
+      { id: 'pati-calor-q1', type: 'literal', prompt: '¿Qué decisión del consejo escolar motivó las mediciones? Indica qué dos lugares comparó el grupo.', answer: 'Estaba estudiando dónde colocar un toldo. El grupo comparó el asfalto de la fila del comedor, al sol, con el mismo pavimento unos metros más allá, bajo un plátano.', lines: 2 },
+      { id: 'pati-calor-q2', type: 'inference', prompt: '¿Por qué el termómetro del aire necesitaba protección, pero también espacio para que circulara el aire? Explica la función de cada condición.', answer: 'La protección reducía el calentamiento del propio sensor por el sol. El espacio permitía que el aire del patio llegara al sensor y que la lectura representara ese aire.', lines: 3 },
+      { id: 'pati-calor-q3', type: 'inference', prompt: 'Calcula las diferencias entre ambos puntos para el aire y para el pavimento. ¿Qué conclusión permite la comparación y a qué situación se limita?', answer: 'El aire difería en 0,6 °C y el asfalto, en 14 °C. En esos dos puntos y a esa hora, la diferencia de temperatura del pavimento fue mucho mayor que la del aire.', lines: 4 },
+      { id: 'pati-calor-q4', type: 'inference', prompt: 'Si el equipo midiera asfalto al sol por la mañana y hierba a la sombra al mediodía, ¿qué tres factores se estarían mezclando? ¿Cómo los controló en la prueba del pavimento?', answer: 'Se mezclarían la exposición al sol, el material de la superficie y la hora. El equipo mantuvo el material y midió los puntos casi seguidos, de modo que la diferencia que quería estudiar era la exposición.', lines: 4 },
+      { id: 'pati-calor-q5', type: 'structure', prompt: '¿Qué aporta el episodio del banco que no se aprende solo con los datos del asfalto? Relaciona la variación de la cifra con la prueba de la cinta.', answer: 'Muestra que la lectura depende también de la superficie y de cómo se mide. En el metal brillante cambiaba con el ángulo, probablemente por los reflejos. Sobre la cinta mate era más estable al cambiar el ángulo.', lines: 4 },
+      { id: 'pati-calor-q6', type: 'vocabulary', prompt: '¿Qué significa «extrapolar» en este informe? Describe una afirmación concreta sobre el patio que sería una extrapolación injustificada.', answer: 'Significa aplicar un resultado a situaciones que no se han medido. Por ejemplo, afirmar que a cualquier hora todos los lugares sombreados del patio tienen un suelo catorce grados más frío.', lines: 4 },
+      { id: 'pati-calor-q7', type: 'structure', prompt: 'La pregunta de la compañera provoca una revisión del borrador. ¿Qué supuesto había hecho la compañera y por qué la frase permitía hacerlo?', answer: 'Había supuesto que «hacen catorce grados menos» se refería a la temperatura del aire. La frase omitía lo que se había medido y esa expresión se usa habitualmente para hablar del aire.', lines: 3 },
+      { id: 'pati-calor-q8', type: 'summary', prompt: 'Redacta las dos frases que podrían sustituir la del borrador. Incluye la hora aproximada, los dos puntos y la diferencia correspondiente a cada magnitud.', answer: 'A mediodía, el asfalto junto a la fila del comedor estaba a 48 °C y el mismo pavimento bajo el plátano, a 34 °C, catorce grados menos. Entre esos dos puntos, la temperatura del aire difería solo en 0,6 °C.', lines: 5 },
+      { id: 'pati-calor-q9', type: 'inference', prompt: '¿Por qué el plano final incluye dos contornos de sombra? ¿Qué error podría cometer el consejo si usara solo el de primera hora?', answer: 'La sombra del árbol cambia de lugar a lo largo del día. Si solo miraran el contorno de primera hora, podrían dar por cubierta una zona de espera que a mediodía está al sol.', lines: 3 },
+      { id: 'pati-calor-q10', type: 'opinion', prompt: 'Solo queda tiempo para una comprobación antes de presentar el informe. ¿Repetirías las mediciones otro día o dibujarías el recorrido de las personas que esperan? Elige y justifica tu prioridad e indica una duda que quedaría pendiente.', answer: 'Respuesta abierta. Por ejemplo, repetiría las mediciones para saber si la diferencia aparece en más de un día. Aún quedaría por comprobar si el lugar más fresco coincide con la zona por la que pasa la mayoría.', lines: 5 },
+    ],
+    annotations: [
+      { paragraph: 2, text: 'estabilizara', definition: 'Dejara de cambiar de forma apreciable.' },
+      { paragraph: 3, text: 'infrarrojos', definition: 'Radiación invisible para el ojo humano que, por ejemplo, emiten los objetos.' },
+      { paragraph: 5, text: 'extrapolar', questionId: 'pati-calor-q6' },
+    ],
+  },
+];
