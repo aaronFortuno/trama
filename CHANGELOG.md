@@ -8,6 +8,8 @@ S’incorpora «Un minuto en el reloj de agua» (L086), una lectura llarga i ava
 
 S’incorpora «Una voz entre los diálogos» (L087), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.
 
+S’incorpora «Dos cartas para una persiana» (L088), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.
+
 ## 1.17.2 · 16 de novembre de 2026
 
 L’interruptor de les notes de vocabulari té una fila pròpia al lateral de contingut. Si la lectura no té notes, la fila indica «Cap nota» i l’interruptor està desactivat.
