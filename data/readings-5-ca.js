@@ -801,4 +801,86 @@ export const readings5Ca = [
       { paragraph: 2, text: 'pantalla', questionId: 'un-camino-en-la-oscuridad-q3' },
     ],
   },
+  {
+    id: 'una-setmana-sense-tocar-la-radio-ca',
+    code: 'L076',
+    title: 'Una setmana sense tocar la ràdio',
+    summary: 'Una noia explica a la seva tieta per què va portar la ràdio de casa a arreglar i quina part en volia conservar.',
+    paragraphs: [
+      'Estimada tieta Eva,',
+      'Dissabte vam tornar a posar la ràdio de l’avi a la prestatgeria. Abans s’havia estat una setmana sencera sobre la taula amb un paper que deia «No toqueu la ràdio». L’hi vaig posar jo. Em pensava que algú l’engegaria i encara l’espatllaria més. Avui he tret el paper i et vull explicar què vam fer.',
+      'Quan la vam portar al taller del barri, la Míriam ens va demanar què li passava. Li vaig dir que la ràdio no sonava. El pare va afegir que, quan giràvem la rodeta, de vegades se sentia un soroll breu. La Míriam va apuntar totes dues observacions. Llavors ens va demanar permís per obrir la tapa. A dins va trobar una nota doblegada: l’avi hi havia escrit el nom de tres emissores i, al costat d’una, «diumenge, havent dinat».',
+      'Ens va proposar canviar la rodeta perquè els números del dial no es llegien bé. A la caixa en tenia una altra amb els números ben clars. Quan em vaig mirar de prop la nostra, vaig veure que tenia una ratlla de llapis vermell a prop d’una emissora. A la nota hi deia el nom d’aquella emissora, tot i que no hi explicava per a què servia la ratlla. Li vaig preguntar si podia arreglar la ràdio i deixar-hi la rodeta original.',
+      'Ahir la vam provar a casa. Se sent un programa de notícies i, si girem una mica la rodeta, també trobem música. No sabem si la ratlla assenyala la freqüència exacta que escoltava l’avi. Hem fet una foto de la nota i n’hem copiat les paraules a la llibreta blava. A sota hi he escrit la data i què sabem de la reparació.',
+      'Si recordes quin programa posava els diumenges, m’agradaria apuntar-ho amb el teu nom. Diumenge que ve també la podem escoltar juntes i anotar què s’hi emet ara a prop d’aquella marca. Una abraçada, Alma.',
+    ],
+    imageAlt: {
+      'una-semana-sin-tocar-la-radio': 'Una ràdio antiga amb rodetes per sintonitzar emissores és al damunt d’una taula de fusta.',
+    },
+    questions: [
+      { id: 'una-semana-sin-tocar-la-radio-q1', type: 'literal', prompt: 'Què va escriure l’avi al costat del nom d’una de les emissores?', answer: '«Diumenge, havent dinat».', lines: 1 },
+      { id: 'una-semana-sin-tocar-la-radio-q2', type: 'inference', prompt: 'Per què convé que la Míriam apunti tant el que li explica l’Alma com el que ha observat el pare?', answer: 'L’Alma descriu l’avaria en general i el pare aporta una pista sobre quan se sent un soroll, que ajuda a precisar què li passa a la ràdio.', lines: 3 },
+      { id: 'una-semana-sin-tocar-la-radio-q3', type: 'vocabulary', prompt: 'Què és el «dial» de la ràdio, segons les pistes del text?', answer: 'L’escala amb números que ajuda a trobar una emissora quan gires la rodeta.', lines: 2 },
+      { id: 'una-semana-sin-tocar-la-radio-q4', type: 'structure', prompt: 'Quina diferència hi ha entre el que demana l’Alma al final i el que explica al principi?', answer: 'Al principi explica per què va protegir la ràdio i què li passava. Al final convida la tieta a compartir un record i a escoltar-la juntes.', lines: 3 },
+      { id: 'una-semana-sin-tocar-la-radio-q5', type: 'inference', prompt: 'Què relaciona la ratlla vermella amb la nota? Què no es pot assegurar només amb aquesta relació?', answer: 'La ratlla és a prop d’una emissora que surt a la nota. Això no permet saber quin programa escoltava l’avi ni per què hi va fer la marca.', lines: 4 },
+      { id: 'una-semana-sin-tocar-la-radio-q6', type: 'opinion', prompt: 'Guardaries la nota dins la ràdio o en un lloc accessible al costat? Explica què hi guanyaries.', answer: 'Resposta oberta. Per exemple, la guardaria a part per protegir-la i poder-la consultar sense haver d’obrir la ràdio.', lines: 4 },
+    ],
+    annotations: [
+      { paragraph: 4, text: 'dial', questionId: 'una-semana-sin-tocar-la-radio-q3' },
+    ],
+  },
+  {
+    id: 'qui-fa-servir-la-pista-ca',
+    code: 'L077',
+    title: 'Qui fa servir la pista?',
+    summary: 'Dos recomptes del mateix espai fan que una assemblea es pregunti quines persones i quins moments falten a les dades.',
+    paragraphs: [
+      'En una assemblea de sisè va sortir una pregunta: qui fa servir la pista durant l’esbarjo? Un grup volia continuar reservant-ne la meitat per als jocs de pilota. Un altre demanava un espai per saltar a corda. Com que no es van posar d’acord, dos equips van observar la pista i van portar les dades a la reunió següent.',
+      'El primer equip va fer un recompte quan va començar l’esbarjo. Va comptar vint-i-quatre jugadors a la pista i sis persones al costat de la tanca. El segon equip va arribar deu minuts més tard. Aleshores hi havia dotze persones jugant. També va apuntar que dues nenes esperaven amb una corda i que tres més se n’havien anat cap al pati petit sense entrar a la pista.',
+      'A la reunió, algú va sumar vint-i-quatre i dotze i va dir que aquell dia havien jugat trenta-sis persones. El primer equip va advertir que no havia seguit cada participant. Algunes persones podien sortir en tots dos recomptes. Les dades tampoc aclarien per què les sis persones del principi eren al costat de la tanca: podien estar esperant, mirant o parlant.',
+      'Van decidir preparar una observació diferent. Durant uns quants esbarjos anotarien, cada cinc minuts, quines zones es feien servir i per a què. Una part de l’equip preguntaria a la sortida si algú havia volgut jugar i no havia trobat lloc. Per tenir en compte l’opinió de més d’una classe, ho preguntarien a grups d’edats diferents.',
+      'Abans de tenir les dades noves, l’assemblea va proposar provar durant una setmana dues zones: una per jugar amb pilota i una altra per als jocs que triessin cada dia. Al final compararien si s’havia fet servir cada zona i escoltarien les persones que s’hi havien deixat d’acostar. Volien decidir la distribució amb informació de qui jugava i de qui s’esperava.',
+    ],
+    imageAlt: {
+      'quien-usa-la-pista': 'Durant l’esbarjo, un grup juga a la pista mentre dos alumnes observen des de la tanca.',
+    },
+    questions: [
+      { id: 'quien-usa-la-pista-q1', type: 'literal', prompt: 'Què va apuntar el segon equip sobre les nenes que duien una corda?', answer: 'Que dues nenes s’esperaven amb una corda.', lines: 1 },
+      { id: 'quien-usa-la-pista-q2', type: 'inference', prompt: 'Per què sumar vint-i-quatre i dotze no permet afirmar que hi hagin jugat trenta-sis persones diferents?', answer: 'Els recomptes es van fer en moments diferents i algunes persones poden sortir en tots dos.', lines: 3 },
+      { id: 'quien-usa-la-pista-q3', type: 'vocabulary', prompt: 'Què vol dir «distribució» a l’últim paràgraf?', answer: 'La manera de repartir l’espai entre diferents usos o jocs.', lines: 2 },
+      { id: 'quien-usa-la-pista-q4', type: 'structure', prompt: 'Per a què serveix explicar què es va dir a la reunió abans de presentar com faran l’observació nova?', answer: 'Mostra un error d’interpretació i fa evident quina informació falta. Això explica el mètode nou.', lines: 3 },
+      { id: 'quien-usa-la-pista-q5', type: 'inference', prompt: 'Què poden saber si fan preguntes a la sortida que no sabrien només mirant la pista cada cinc minuts?', answer: 'Poden saber si algú volia jugar i no va trobar espai, encara que no arribés a entrar a la pista o marxés cap a un altre pati.', lines: 4 },
+      { id: 'quien-usa-la-pista-q6', type: 'summary', prompt: 'Resumeix què observarien durant la setmana de prova i com farien servir les dades.', answer: 'Mirarien quan es fa servir cada zona i per a què. També recollirien l’experiència de qui s’espera o deixa d’acostar-s’hi. Amb aquestes dades decidirien com repartir la pista.', lines: 4 },
+    ],
+    annotations: [
+      { paragraph: 5, text: 'distribució', questionId: 'quien-usa-la-pista-q3' },
+    ],
+  },
+  {
+    id: 'el-mapa-que-no-sacabava-a-la-porta-ca',
+    code: 'L080',
+    title: 'El mapa que no s’acabava a la porta',
+    summary: 'L’obertura d’una exposició mostra que un plànol pot assenyalar on cal anar i deixar una part del camí sense explicar.',
+    paragraphs: [
+      'L’equip de l’exposició de sisè havia dibuixat un plànol per a les famílies. Des de l’entrada del centre, una línia verda portava fins a l’aula de música. Hi marcava el vestíbul, una porta vidrada i els graons del passadís. La Mara va repassar el plànol i en va enganxar una còpia a la porta principal. Li va sorprendre que, a la prova, en Joan trigués més que els altres a arribar.',
+      'En Joan anava amb crosses i havia triat el recorregut per la rampa del pati. Allà va trobar una porta amb el mateix número que hi havia al plànol. La va obrir i va arribar a l’escenari, darrere les cortines. L’exposició començava a l’altra banda de la sala. Per arribar a la taula de benvinguda va haver de passar entre els faristols i demanar que moguessin una cadira.',
+      'La Mara va tornar amb ell al vestíbul. Al plànol, l’aula de música era un rectangle. No s’hi veia per quina porta s’entrava a l’espai on rebrien la gent. Entre tots dos van marcar la rampa i van allargar la línia verda fins a la taula, més enllà de la porta. Al costat dels graons hi van deixar un altre recorregut per a qui el volgués fer servir.',
+      'En una segona prova, una veïna va llegir «segueix la línia verda» a l’avís, però a la còpia en blanc i negre li costava distingir els dos recorreguts. La Mara hi va fer línies de formes diferents i va canviar la frase per «segueix les marques amb cercles per arribar-hi per la rampa». També hi van indicar a qui es podia demanar ajuda si una porta era tancada.',
+      'El dia de l’obertura, van moure la taula per deixar passar un grup que havia de tocar. La Mara va corregir el senyal de l’entrada i va acompanyar un visitant al lloc nou. Després va comprovar que els plànols del pati i del vestíbul coincidissin.',
+    ],
+    imageAlt: {
+      'el-mapa-que-no-terminaba-en-la-puerta': 'En Joan i la Mara consulten un plànol al costat d’una rampa que arriba a una porta de l’escola.',
+    },
+    questions: [
+      { id: 'el-mapa-que-no-terminaba-en-la-puerta-q1', type: 'literal', prompt: 'Per on va arribar en Joan a l’aula durant la primera prova i què es va trobar en entrar?', answer: 'Va arribar per la rampa del pati i una porta que donava a l’escenari, darrere les cortines.', lines: 2 },
+      { id: 'el-mapa-que-no-terminaba-en-la-puerta-q2', type: 'inference', prompt: 'Per què el plànol inicial portava correctament fins a l’aula, però no va ajudar en Joan a arribar a l’exposició?', answer: 'S’acabava a la porta. No distingia els accessos ni deia on era la taula de benvinguda dins de la sala.', lines: 4 },
+      { id: 'el-mapa-que-no-terminaba-en-la-puerta-q3', type: 'vocabulary', prompt: 'Què són els «faristols»? Quina part del text t’ajuda a entendre on eren?', answer: 'Són suports per aguantar partitures o fulls mentre es llegeixen. Eren a l’escenari de l’aula de música, entre la porta i la zona de benvinguda.', lines: 2 },
+      { id: 'el-mapa-que-no-terminaba-en-la-puerta-q4', type: 'structure', prompt: 'Quin altre problema fa evident la prova amb la veïna, després d’allargar els recorreguts?', answer: 'A la còpia en blanc i negre costa distingir els recorreguts pel color. Per això hi afegeixen marques de formes diferents.', lines: 3 },
+      { id: 'el-mapa-que-no-terminaba-en-la-puerta-q5', type: 'inference', prompt: 'Per què, quan es mou la taula, la Mara revisa tant el plànol del pati com el del vestíbul?', answer: 'Els recorreguts comencen en llocs diferents i han de dur a la mateixa taula. Una còpia antiga podria enviar algú al lloc equivocat.', lines: 4 },
+      { id: 'el-mapa-que-no-terminaba-en-la-puerta-q6', type: 'summary', prompt: 'Resumeix dos canvis que fan que el primer plànol sigui una guia més clara per a diferents visitants.', answer: 'Els recorreguts arriben fins a la taula i inclouen l’accés per la rampa. Les marques permeten distingir els recorreguts fins i tot en una còpia en blanc i negre.', lines: 4 },
+    ],
+    annotations: [
+      { paragraph: 2, text: 'faristols', questionId: 'el-mapa-que-no-terminaba-en-la-puerta-q3' },
+    ],
+  },
 ];
