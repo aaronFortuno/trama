@@ -2,7 +2,7 @@
 
 ## 1.22 · 16 de novembre de 2026
 
-El catàleg incorpora 84 versions en català i arriba a 89 lectures disponibles en totes dues llengües.
+El catàleg incorpora 91 versions en català i arriba a 96 lectures disponibles en totes dues llengües.
 
 ## 1.21 · 16 de novembre de 2026
 

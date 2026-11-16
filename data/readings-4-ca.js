@@ -299,7 +299,7 @@ export const readings4Ca = [
     questions: [
       { id: 'el-patio-de-antes-q1', type: 'literal', prompt: 'Quin objecte empenyien l’Elena i la seva amiga amb un dit a l’hora del pati?', answer: 'Un tap metàl·lic d’ampolla.', lines: 1 },
       { id: 'el-patio-de-antes-q2', type: 'inference', prompt: 'Quines dues pistes de la foto permeten reconèixer que és el mateix pati?', answer: 'La porta estreta al costat del gimnàs i el tronc del plàtan que ara fa ombra als bancs.', lines: 3 },
-      { id: 'el-patio-de-antes-q3', type: 'vocabulary', prompt: 'Què són els «sots» a terra del pati?', answer: 'Clots o zones enfonsades que fan que el terra sigui irregular.', lines: 2 },
+      { id: 'el-patio-de-antes-q3', type: 'vocabulary', prompt: 'Què són els «sots» que hi havia al pati?', answer: 'Clots o zones enfonsades que fan que el terra sigui irregular.', lines: 2 },
       { id: 'el-patio-de-antes-q4', type: 'structure', prompt: 'En quina pregunta en Nico demana a l’Elena una dada que ella no recorda?', answer: 'A «Recordes quan la hi van posar?», quan parlen de la pista pintada.', lines: 2 },
       { id: 'el-patio-de-antes-q5', type: 'summary', prompt: 'Resumeix en dues frases què ha canviat al pati i què encara hi ha.', answer: 'Abans jugaven sobre terra i ara hi ha una pista pintada. La porta estreta i el plàtan encara són al mateix lloc.', lines: 3 },
     ],
