@@ -48,6 +48,7 @@ const fields = {
   headerDetail: ['', singleLine(100)],
   headerLogo: [tramaLogo, logo],
   showImages: [true, boolean],
+  showVocabulary: [true, boolean],
   showCode: [true, boolean],
   showOrigin: [true, boolean],
   showLicense: [true, boolean],

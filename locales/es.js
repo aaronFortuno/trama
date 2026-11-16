@@ -121,7 +121,8 @@ Text instructiu|Texto instructivo
 Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
-v1.17 · Obre l’historial de canvis|v1.17 · Abrir el historial de cambios
+v1.17.1 · Obre l’historial de canvis|v1.17.1 · Abrir el historial de cambios
+El lateral de contingut permet amagar les notes de vocabulari i els seus superíndexs. Per defecte es mostren.|El panel lateral de contenido permite ocultar las notas de vocabulario y sus superíndices. Se muestran de forma predeterminada.
 Les expressions citades a les preguntes de vocabulari se subratllen al text. Algunes lectures inclouen notes de vocabulari numerades abans de les preguntes.|Las expresiones citadas en las preguntas de vocabulario se subrayan en el texto. Algunas lecturas incluyen notas de vocabulario numeradas antes de las preguntas.
 El formulari d’avisos indica quan Umami no està disponible i ofereix ajuda per tornar a permetre l’enviament. La bandera passa a la dreta de la capçalera de la fitxa i l’exportació JSON queda al catàleg.|El formulario de avisos indica cuándo Umami no está disponible y ofrece ayuda para volver a permitir el envío. La bandera pasa a la derecha de la cabecera de la ficha y la exportación JSON queda en el catálogo.
 La bandera del títol, de les preguntes i del solucionari permet notificar errors de les lectures públiques. El formulari indica si Umami ha rebut l’avís o si no s’ha pogut enviar.|La bandera del título, de las preguntas y del solucionario permite notificar errores de las lecturas públicas. El formulario indica si Umami ha recibido el aviso o si no se ha podido enviar.
@@ -242,6 +243,7 @@ Número de pàgina|Número de página
 Contingut|Contenido
 Mostra el solucionari|Mostrar el solucionario
 Solucionari|Solucionario
+Mostra les notes de vocabulari|Mostrar las notas de vocabulario
 Notifica un error|Notificar un error
 Notifica un error a la pregunta {number}|Notificar un error en la pregunta {number}
 Notifica un error a la resposta de la pregunta {number}|Notificar un error en la respuesta a la pregunta {number}

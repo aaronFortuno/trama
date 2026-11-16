@@ -231,7 +231,7 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
   const words = wordsFor(reading.language);
   const formatText = passageText(reading, settings);
   const questions = reading.questions.filter(question => !settings.excluded.includes(question.id));
-  const { ranges, notes } = prepareAnnotations(reading, questions);
+  const { ranges, notes } = prepareAnnotations(reading, questions, settings);
   const showLicense = settings.showLicense && !reading.personal;
   const canReport = interactive && !reading.personal;
   const pages = [];

@@ -14,10 +14,11 @@ export function annotationRange(paragraph, { text, occurrence }) {
   return matches[(occurrence ?? 1) - 1] ?? null;
 }
 
-export function prepareAnnotations(reading, questions) {
+export function prepareAnnotations(reading, questions, { showVocabulary = true } = {}) {
   const activeQuestions = new Set(questions.map(question => question.id));
   const ranges = new Map();
   for (const annotation of reading.annotations ?? []) {
+    if (annotation.definition && !showVocabulary) continue;
     if (annotation.questionId && !activeQuestions.has(annotation.questionId)) continue;
     const index = annotation.paragraph - 1;
     const range = annotationRange(reading.paragraphs[index], annotation);

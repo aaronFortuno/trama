@@ -96,6 +96,7 @@
 .studio-zoom .button { width: 32px; min-height: 32px; padding: 0; border-color: transparent; }
 .studio-zoom .ui-icon { width: 17px; height: 17px; }
 .studio-form > details { border-top: 1px solid var(--line); }
+.studio-vocabulary-control { padding: 8px 12px; border-top: 1px solid var(--line); }
 
 .studio-form summary {
   padding: 9px 16px;

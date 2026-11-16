@@ -143,6 +143,9 @@ const template = `
         <label class="studio-solution-toggle"><input id="studio-solution" type="checkbox" role="switch" aria-label="Mostra el solucionari"> Solucionari</label>
       </div>
       <form class="studio-form scroll-pane">
+        <div class="studio-controls studio-vocabulary-control" hidden>
+          ${check('showVocabulary', 'Mostra les notes de vocabulari')}
+        </div>
         <details open>
           <summary>Preguntes <span class="studio-detail-count" id="studio-question-count"></span></summary>
           <div class="studio-controls" id="studio-questions"></div>
@@ -240,7 +243,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
   const panels = forms.map(form => ({
     form,
     heading: form.previousElementSibling,
-    fixedParts: [...form.querySelectorAll('summary')],
+    fixedParts: [...form.querySelectorAll('summary, .studio-vocabulary-control')],
     borders: form.querySelectorAll('summary').length,
   }));
   let sidebarFrame = 0;
@@ -343,6 +346,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
     find('#studio-images').replaceChildren(...reading.images.map(imageControls));
     for (const caption of find('#studio-images').querySelectorAll('.studio-image-title span')) caption.lang = reading.language;
     contentForm.elements.showImages.disabled = !reading.images.length;
+    find('.studio-vocabulary-control').hidden = !reading.annotations?.some(annotation => annotation.definition);
   }
 
   function syncControls(animated = true) {
