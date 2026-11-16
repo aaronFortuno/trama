@@ -4,6 +4,8 @@
 
 S’incorpora «El camí subterrani de l’aigua» (L100), una lectura de divulgació de 1r d’ESO sobre els qanats de l’Iran, en català i castellà.
 
+S’incorpora «La ratlla del darrer punt» (L101), una narració bilingüe de 1r d’ESO sobre un desacord a la final d’un torneig de bàdminton.
+
 ## 1.23 · 16 de novembre de 2026
 
 S’estrena 1r d’ESO amb «El pati a dues temperatures» (L097), una lectura de divulgació en català i castellà amb dues il·lustracions, deu preguntes i solucionari.
