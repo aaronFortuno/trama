@@ -112,7 +112,7 @@
         </a>
       </p>
       <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.16.4 · Obre l’historial de canvis">v1.16.4</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.17 · Obre l’historial de canvis">v1.17</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
@@ -146,6 +146,7 @@
           <summary>Mostra un exemple de JSON</summary>
           <pre><code id="reading-example"></code></pre>
           <p>El camp lines reserva entre 0 i 8 línies de resposta per pregunta.</p>
+          <p>El camp opcional annotations permet vincular expressions a les preguntes o afegir notes de vocabulari.</p>
         </details>
         <p>Fins a 2 MB per fitxer. Les lectures importades es desen en aquest navegador.</p>
       </section>
@@ -213,6 +214,10 @@
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’historial"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
+      <article class="release">
+        <header><h3>v1.17</h3><time datetime="2026-11-16">16 de novembre de 2026</time></header>
+        <p>Les expressions citades a les preguntes de vocabulari se subratllen al text. Algunes lectures inclouen notes de vocabulari numerades abans de les preguntes.</p>
+      </article>
       <article class="release">
         <header><h3>v1.16.4</h3><time datetime="2026-11-15">15 de novembre de 2026</time></header>
         <p>El formulari d’avisos indica quan Umami no està disponible i ofereix ajuda per tornar a permetre l’enviament. La bandera passa a la dreta de la capçalera de la fitxa i l’exportació JSON queda al catàleg.</p>

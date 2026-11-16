@@ -4,11 +4,12 @@ import { icon } from './icons.js';
 import { logoSource, tramaLogo } from './local-images.js';
 import { loadWorksheetFont, worksheetFonts } from './worksheet-fonts.js';
 import { supportsHyphenation, withHyphenation } from './worksheet-hyphenation.js';
+import { prepareAnnotations } from './reading-annotations.js';
 
 const languageCopy = {
-  ca: ['Nom', 'Data', 'Curs', 'Comprensió lectora', 'Preguntes', 'Pàgina', 'Solucionari', 'Resposta orientativa', 'Sense resposta orientativa.'],
-  es: ['Nombre', 'Fecha', 'Curso', 'Comprensión lectora', 'Preguntas', 'Página', 'Solucionario', 'Respuesta orientativa', 'Sin respuesta orientativa.'],
-  en: ['Name', 'Date', 'Class', 'Reading comprehension', 'Questions', 'Page', 'Answer key', 'Suggested answer', 'No suggested answer.'],
+  ca: ['Nom', 'Data', 'Curs', 'Comprensió lectora', 'Preguntes', 'Pàgina', 'Solucionari', 'Resposta orientativa', 'Sense resposta orientativa.', 'Notes de vocabulari'],
+  es: ['Nombre', 'Fecha', 'Curso', 'Comprensión lectora', 'Preguntas', 'Página', 'Solucionario', 'Respuesta orientativa', 'Sin respuesta orientativa.', 'Notas de vocabulario'],
+  en: ['Name', 'Date', 'Class', 'Reading comprehension', 'Questions', 'Page', 'Answer key', 'Suggested answer', 'No suggested answer.', 'Vocabulary notes'],
 };
 const wordsFor = language => languageCopy[language] || languageCopy[language.split('-')[0]] || languageCopy.en;
 
@@ -57,7 +58,30 @@ function makeHeader(reading, settings, [name, date, group, label, , , keyLabel],
   return header;
 }
 
-function makePassage(text, images, formatText) {
+function makeParagraph(text, formatText, { marks = [], offset = 0 } = {}) {
+  const paragraph = element('p', 'worksheet-paragraph');
+  let cursor = 0;
+  for (const mark of marks) {
+    const start = Math.max(0, mark.start - offset);
+    const end = Math.min(text.length, mark.end - offset);
+    if (end <= start) continue;
+    paragraph.append(formatText(text.slice(cursor, start)));
+    const markedText = formatText(text.slice(start, end));
+    if (mark.questionId) {
+      paragraph.append(element('u', 'worksheet-underlined', markedText));
+    } else {
+      paragraph.append(markedText);
+      if (end + offset === mark.end) {
+        paragraph.append('\u2060', element('sup', 'worksheet-note-marker', mark.number));
+      }
+    }
+    cursor = end;
+  }
+  paragraph.append(formatText(text.slice(cursor)));
+  return paragraph;
+}
+
+function makePassage(text, images, formatText, annotations) {
   const section = element('div', 'worksheet-passage');
   for (const { image, config } of images) {
     const figure = element('figure', 'worksheet-figure');
@@ -72,8 +96,20 @@ function makePassage(text, images, formatText) {
     figure.append(img);
     section.append(figure);
   }
-  if (text) section.append(element('p', 'worksheet-paragraph', formatText(text)));
+  if (text) section.append(makeParagraph(text, formatText, annotations));
   return section;
+}
+
+function makeVocabularyNote(note, heading) {
+  const block = element('div', 'worksheet-vocabulary-note');
+  if (heading) {
+    block.classList.add('worksheet-vocabulary-start');
+    block.append(element('h3', null, heading));
+  }
+  const copy = element('p');
+  copy.append(element('strong', null, `${note.number}. ${note.text}`), ` — ${note.definition}`);
+  block.append(copy);
+  return block;
 }
 
 function reportButton(part, id, label) {
@@ -194,6 +230,8 @@ export function worksheetThumbnail(reading, settings) {
 export function renderWorksheet(container, reading, settings, { answerKey = false, interactive = true } = {}) {
   const words = wordsFor(reading.language);
   const formatText = passageText(reading, settings);
+  const questions = reading.questions.filter(question => !settings.excluded.includes(question.id));
+  const { ranges, notes } = prepareAnnotations(reading, questions);
   const showLicense = settings.showLicense && !reading.personal;
   const canReport = interactive && !reading.personal;
   const pages = [];
@@ -264,24 +302,25 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
     if (!fitBlock(block)) content.append(block);
   }
 
-  function placePassage(text, images) {
-    if (fitBlock(makePassage(text, images, formatText))) return;
+  function placePassage(text, images, marks) {
+    if (fitBlock(makePassage(text, images, formatText, { marks }))) return;
     for (const image of images) placeBlock(makePassage('', [image], formatText));
-    if (!text || fitBlock(makePassage(text, [], formatText))) return;
+    if (!text || fitBlock(makePassage(text, [], formatText, { marks }))) return;
 
-    placeTextChunks(text, part => makePassage(part, [], formatText), /\S{1,80}\s*|\s+/gu);
+    placeTextChunks(text, (part, _, offset) => makePassage(part, [], formatText, { marks, offset }), /\S{1,80}\s*|\s+/gu);
   }
 
   function placeTextChunks(text, makeBlock, chunks = /\S{1,24}\s*|\s+/gu) {
     const words = text.match(chunks) || [text];
     let start = 0;
+    let offset = 0;
     while (start < words.length) {
       let lower = start + 1;
       let upper = words.length;
       let end = start;
       while (lower <= upper) {
         const middle = Math.floor((lower + upper) / 2);
-        const candidate = makeBlock(words.slice(start, middle).join(''), start === 0);
+        const candidate = makeBlock(words.slice(start, middle).join(''), start === 0, offset);
         if (tryBlock(candidate)) {
           candidate.remove();
           end = middle;
@@ -295,7 +334,9 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
         continue;
       }
       end = Math.max(start + 1, end);
-      content.append(makeBlock(words.slice(start, end).join(''), start === 0));
+      const fragment = words.slice(start, end).join('');
+      content.append(makeBlock(fragment, start === 0, offset));
+      offset += fragment.length;
       start = end;
       if (start < words.length) startPage();
     }
@@ -358,10 +399,10 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
 
   startPage();
   placeBlock(makeHeader(reading, settings, words, answerKey));
-  reading.paragraphs.forEach((text, index) => placePassage(text, anchors.get(index) || []));
+  reading.paragraphs.forEach((text, index) => placePassage(text, anchors.get(index) || [], ranges.get(index)));
   const closing = anchors.get(reading.paragraphs.length);
   if (closing) placePassage('', closing);
-  const questions = reading.questions.filter(question => !settings.excluded.includes(question.id));
+  notes.forEach((note, index) => placeBlock(makeVocabularyNote(note, index === 0 ? words[9] : '')));
   questions.forEach(placeQuestion);
 
   pages.forEach((footer, index) => {

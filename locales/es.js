@@ -36,6 +36,7 @@ Tria un fitxer JSON|Elegir un archivo JSON
 Descarrega la plantilla|Descargar la plantilla
 Mostra un exemple de JSON|Mostrar un ejemplo de JSON
 El camp lines reserva entre 0 i 8 línies de resposta per pregunta.|El campo lines reserva entre 0 y 8 líneas de respuesta por pregunta.
+El camp opcional annotations permet vincular expressions a les preguntes o afegir notes de vocabulari.|El campo opcional annotations permite vincular expresiones a las preguntas o añadir notas de vocabulario.
 Fins a 2 MB per fitxer. Les lectures importades es desen en aquest navegador.|Hasta 2 MB por archivo. Las lecturas importadas se guardan en este navegador.
 Exporta una lectura|Exportar una lectura
 Descarrega el text, les preguntes, les respostes i les il·lustracions en un JSON que pots editar i tornar a importar.|Descarga el texto, las preguntas, las respuestas y las ilustraciones en un JSON que puedes editar y volver a importar.
@@ -43,8 +44,11 @@ Lectura per exportar|Lectura para exportar
 Descarrega el JSON|Descargar el JSON
 El riu després de la pluja|El río después de la lluvia
 L’endemà de la pluja, l’Aina va trobar branques al camí del riu.|Al día siguiente de la lluvia, Aina encontró ramas en el camino del río.
-Què va trobar l’Aina?|¿Qué encontró Aina?
-Va trobar branques al camí.|Encontró ramas en el camino.
+Què vol dir «branques» en aquest text?|¿Qué significa «ramas» en este texto?
+Parts de l’arbre que surten del tronc.|Partes del árbol que salen del tronco.
+branques|ramas
+L’endemà|Al día siguiente
+El dia següent.|El día que viene después.
 Sense especificar|Sin especificar
 Revisa el camp «{field}» del fitxer JSON.|Revisa el campo «{field}» del archivo JSON.
 El fitxer JSON ha de pesar com a màxim 2 MB.|El archivo JSON debe pesar 2 MB como máximo.
@@ -117,7 +121,8 @@ Text instructiu|Texto instructivo
 Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
-v1.16.4 · Obre l’historial de canvis|v1.16.4 · Abrir el historial de cambios
+v1.17 · Obre l’historial de canvis|v1.17 · Abrir el historial de cambios
+Les expressions citades a les preguntes de vocabulari se subratllen al text. Algunes lectures inclouen notes de vocabulari numerades abans de les preguntes.|Las expresiones citadas en las preguntas de vocabulario se subrayan en el texto. Algunas lecturas incluyen notas de vocabulario numeradas antes de las preguntas.
 El formulari d’avisos indica quan Umami no està disponible i ofereix ajuda per tornar a permetre l’enviament. La bandera passa a la dreta de la capçalera de la fitxa i l’exportació JSON queda al catàleg.|El formulario de avisos indica cuándo Umami no está disponible y ofrece ayuda para volver a permitir el envío. La bandera pasa a la derecha de la cabecera de la ficha y la exportación JSON queda en el catálogo.
 La bandera del títol, de les preguntes i del solucionari permet notificar errors de les lectures públiques. El formulari indica si Umami ha rebut l’avís o si no s’ha pogut enviar.|La bandera del título, de las preguntas y del solucionario permite notificar errores de las lecturas públicas. El formulario indica si Umami ha recibido el aviso o si no se ha podido enviar.
 Umami compta les obertures per codi de lectura pública i registra els filtres aplicats al catàleg. Per al filtre d’extensió, també registra el curs si se n’ha triat un.|Umami cuenta las aperturas por código de lectura pública y registra los filtros aplicados en el catálogo. Para el filtro de extensión, también registra el curso si se ha seleccionado uno.

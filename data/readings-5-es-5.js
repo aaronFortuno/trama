@@ -437,7 +437,7 @@ export const readings5EsFifthSeries = [
       {
         "id": "el-jardin-de-los-turnos-q4",
         "type": "vocabulary",
-        "prompt": "¿Qué significa que un turno quedó «cubierto»?",
+        "prompt": "¿Qué significa que los otros dos turnos quedaron «cubiertos»?",
         "answer": "Que se había asignado a alguien la tarea de ese turno.",
         "lines": 2
       },
@@ -902,7 +902,7 @@ export const readings5EsFifthSeries = [
       {
         "id": "una-manana-detras-de-la-pantalla-q3",
         "type": "vocabulary",
-        "prompt": "¿Qué significa «proyectar un fragmento» en la entrevista?",
+        "prompt": "¿Qué significa «proyectado» cuando Eva habla de un fragmento de la película?",
         "answer": "Mostrar en la pantalla una parte de la película.",
         "lines": 2
       },

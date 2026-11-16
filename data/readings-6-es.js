@@ -48,7 +48,7 @@ export const readings6Es = [
       {
         "id": "la-llave-del-reloj-q3",
         "type": "vocabulary",
-        "prompt": "En «el del andén iba en hora», ¿qué significa «ir en hora» y qué diferencia establece con el otro reloj?",
+        "prompt": "¿Qué significa «iba en hora» referido al reloj del andén? ¿Qué diferencia establece con el otro reloj?",
         "answer": "Indica que muestra la hora correcta del momento. El del vestíbulo permanece en una hora fija.",
         "lines": 2
       },

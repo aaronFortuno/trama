@@ -1,6 +1,7 @@
 import { language, t } from './i18n.js';
 import { encodeImage, imageFrom, rasterImagePattern } from './local-images.js';
 import { maxAnswerLines } from './worksheet-code.js';
+import { annotationRange } from './reading-annotations.js';
 
 export const readingStorageKey = 'trama.reading.v1:';
 const maxFileSize = 2 * 1024 * 1024;
@@ -33,6 +34,38 @@ function integer(value, field, max) {
   return value;
 }
 
+function normalizeAnnotations(source, paragraphs, questions) {
+  const questionIds = new Set(questions.map(question => question.id));
+  const ranges = [];
+  const annotations = array(source ?? [], 'annotations', 120).map(item => {
+    requireField(item && typeof item === 'object' && !Array.isArray(item), 'annotations');
+    const paragraph = integer(item.paragraph, 'annotations.paragraph', paragraphs.length);
+    requireField(paragraph > 0, 'annotations.paragraph');
+    const text = string(item.text, 'annotations.text', 180);
+    const annotation = { paragraph, text };
+    if (item.occurrence !== undefined) {
+      annotation.occurrence = integer(item.occurrence, 'annotations.occurrence', paragraphs[paragraph - 1].length);
+      requireField(annotation.occurrence > 0, 'annotations.occurrence');
+    }
+    requireField((item.questionId === undefined) !== (item.definition === undefined), 'annotations');
+    if (item.questionId !== undefined) {
+      requireField(questionIds.has(item.questionId), 'annotations.questionId');
+      annotation.questionId = item.questionId;
+    } else {
+      annotation.definition = string(item.definition, 'annotations.definition', 240);
+    }
+    const range = annotationRange(paragraphs[paragraph - 1], annotation);
+    requireField(range, 'annotations.text');
+    ranges.push({ paragraph, ...range });
+    return annotation;
+  });
+  ranges.sort((a, b) => a.paragraph - b.paragraph || a.start - b.start);
+  requireField(!ranges.some((range, index) => (
+    index > 0 && ranges[index - 1].paragraph === range.paragraph && ranges[index - 1].end > range.start
+  )), 'annotations.text');
+  return annotations;
+}
+
 function normalize(source) {
   requireField(source && typeof source === 'object' && !Array.isArray(source) && (source.version === undefined || source.version === 1), 'version');
   const language = string(source.language, 'language', 40);
@@ -63,6 +96,7 @@ function normalize(source) {
   for (const [field, list] of [['questions.id', questions], ['images.id', images]]) {
     requireField(new Set(list.map(item => item.id)).size === list.length, field);
   }
+  const annotations = normalizeAnnotations(source.annotations, paragraphs, questions);
   const code = string(source.code, 'code', 16, '').toUpperCase();
   requireField(!code || codePattern.test(code), 'code');
   return {
@@ -73,6 +107,7 @@ function normalize(source) {
     genre: identifier(source.genre, 'genre', 'unspecified'),
     summary: string(source.summary, 'summary', 500, '') || (paragraphs[0].length <= 160 ? paragraphs[0] : `${paragraphs[0].slice(0, 159).trimEnd()}…`),
     paragraphs, questions, images,
+    ...(annotations.length ? { annotations } : {}),
   };
 }
 
@@ -130,11 +165,16 @@ export function readingExample() {
     language: language(),
     paragraphs: [t('L’endemà de la pluja, l’Aina va trobar branques al camí del riu.')],
     questions: [{
-      type: 'literal',
-      prompt: t('Què va trobar l’Aina?'),
-      answer: t('Va trobar branques al camí.'),
-      lines: 2,
+      id: 'pregunta-q1',
+      type: 'vocabulary',
+      prompt: t('Què vol dir «branques» en aquest text?'),
+      answer: t('Parts de l’arbre que surten del tronc.'),
+      lines: 1,
     }],
+    annotations: [
+      { paragraph: 1, text: t('branques'), questionId: 'pregunta-q1' },
+      { paragraph: 1, text: t('L’endemà'), definition: t('El dia següent.') },
+    ],
   };
   return JSON.stringify(example, null, 2) + '\n';
 }

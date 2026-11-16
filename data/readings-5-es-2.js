@@ -22,7 +22,7 @@ export const moreReadings5Es = [
     ],
     questions: [
       { id: 'huellas-q1', type: 'literal', prompt: '¿En qué material quedaron impresas las pisadas al principio?', answer: 'En barro húmedo.', lines: 1 },
-      { id: 'huellas-q2', type: 'vocabulary', prompt: 'Según el texto, ¿qué distancia hay que medir para conocer una zancada?', answer: 'La distancia entre dos huellas consecutivas del mismo pie.', lines: 2 },
+      { id: 'huellas-q2', type: 'vocabulary', prompt: 'Según el texto, ¿qué distancia hay que medir para conocer una «zancada»?', answer: 'La distancia entre dos huellas consecutivas del mismo pie.', lines: 2 },
       { id: 'huellas-q3', type: 'inference', prompt: '¿Qué podían sugerir las zancadas más largas? ¿Bastaban para saber a qué velocidad iba el dinosaurio?', answer: 'Podían sugerir que el animal había acelerado. Para calcular su velocidad hacían falta más datos.', lines: 3 },
       { id: 'huellas-q4', type: 'inference', prompt: '¿Qué demostraban las dos filas de pisadas sobre la dirección de los animales? ¿Por qué no bastaban para afirmar que iban juntos?', answer: 'Mostraban que ambos iban en la misma dirección. Las pisadas no indicaban cuándo pasó cada animal, así que pudieron pasar en momentos distintos.', lines: 4 },
       { id: 'huellas-q5', type: 'structure', prompt: '¿Qué representa la flecha del dibujo final de Vega? ¿Y el signo de interrogación?', answer: 'La flecha representa la dirección del rastro. El signo de interrogación marca la duda sobre si los animales caminaban juntos.', lines: 3 },
@@ -52,7 +52,7 @@ export const moreReadings5Es = [
     ],
     questions: [
       { id: 'musculos-q1', type: 'literal', prompt: '¿Qué articulación usa Elena en los dos gestos del primer párrafo?', answer: 'El codo.', lines: 1 },
-      { id: 'musculos-q2', type: 'vocabulary', prompt: '¿Qué es un tendón y qué transmite?', answer: 'Es un tejido que une un músculo a un hueso y transmite la fuerza del músculo.', lines: 2 },
+      { id: 'musculos-q2', type: 'vocabulary', prompt: '¿Qué es un «tendón» y qué transmite?', answer: 'Es un tejido que une un músculo a un hueso y transmite la fuerza del músculo.', lines: 2 },
       { id: 'musculos-q3', type: 'literal', prompt: '¿Qué músculo ayuda a doblar el codo? ¿Qué músculo ayuda a estirarlo al empujar?', answer: 'El bíceps ayuda a doblarlo y el tríceps ayuda a estirarlo al empujar.', lines: 2 },
       { id: 'musculos-q4', type: 'inference', prompt: 'Si se rompiera el cordón que endereza las tiras, ¿qué parte del movimiento ya no podría mostrar el modelo? Explica por qué.', answer: 'No podría mostrar cómo se estira el brazo. El otro cordón tira desde el lado que dobla las tiras, así que no puede sustituir al que las endereza.', lines: 4 },
       { id: 'musculos-q5', type: 'structure', prompt: '¿Para qué sirve el último párrafo después del ejemplo del cartón? Nombra un detalle del brazo real que el modelo deja fuera.', answer: 'Aclara que el modelo representa solo una parte del movimiento. Por ejemplo, no muestra los músculos que mantienen quieto el hombro.', lines: 3 },

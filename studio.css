@@ -223,8 +223,14 @@
 .worksheet-reading-code { color: #4d6158; font-size: 8pt; }
 .worksheet-passage { display: flow-root; padding-bottom: var(--sheet-paragraph-gap); }
 .worksheet-passage:has(+ .worksheet-questions-start) { padding-bottom: 0; }
-.worksheet-passage + .worksheet-questions-start { padding-top: var(--sheet-section-gap); }
+.worksheet-passage + .worksheet-questions-start, .worksheet-vocabulary-note + .worksheet-questions-start { padding-top: var(--sheet-section-gap); }
 .worksheet-paragraph { margin: 0; line-height: var(--sheet-leading); white-space: pre-line; }
+.worksheet-underlined { text-decoration-line: underline; text-underline-offset: .15em; text-decoration-thickness: .06em; }
+.worksheet-note-marker { font: 650 .68em/0 var(--sheet-font); vertical-align: super; }
+.worksheet-vocabulary-note { padding-bottom: 1mm; font-size: .87em; line-height: 1.3; }
+.worksheet-vocabulary-start { border-top: .2mm solid #b9c6be; padding-top: 2mm; }
+.worksheet-vocabulary-note h3 { margin: 0 0 1mm; font-size: 1em; }
+.worksheet-vocabulary-note p { margin: 0; }
 .worksheet-page[data-text-alignment="justify"] .worksheet-paragraph { text-align: justify; text-align-last: start; }
 .worksheet-page[data-hyphenation="false"] .worksheet-paragraph { hyphens: none; }
 .worksheet-page[data-hyphenation="true"] .worksheet-paragraph { hyphens: manual; }

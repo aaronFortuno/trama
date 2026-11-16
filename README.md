@@ -53,6 +53,12 @@ El catàleg s’exporta des de `data/readings.js` com una llista d’objectes Ja
 - Desa les imatges a `assets/readings/` i indica el camí relatiu, les dimensions originals i el text alternatiu. `afterParagraph` indica quants paràgrafs s’han de mostrar abans de la imatge. El valor `0` la posa abans del primer.
 - Dona a cada pregunta un identificador estable, el tipus, l’enunciat i, opcionalment, una resposta orientativa. `lines` és el nombre de línies de resposta suggerides, de 0 a 8, tant al catàleg com al JSON d’intercanvi. Fes servir 1 línia per a una dada breu, 2 o 3 per a una explicació curta i 4 o 5 per a una resposta amb diversos punts o un resum. El visor aplica aquesta xifra amb **Segons la pregunta** i permet canviar-la per a cada pregunta.
 
+Les lectures i el JSON d’intercanvi accepten una llista opcional `annotations`:
+
+- `paragraph` és el número del paràgraf, començant per 1. `text` és l’expressió exacta tal com hi apareix. Si es repeteix en aquell paràgraf, indica quina aparició vols amb `occurrence`, també comptant des d’1.
+- Amb `questionId`, l’expressió se subratlla quan la pregunta corresponent és visible. Amb `definition`, hi apareix un superíndex i, al final del text, una nota numerada. Fes servir només un dels dos camps per a cada anotació. Reserva les notes per a termes que ajuden a entendre el passatge sense resoldre cap pregunta.
+- Les anotacions inicials del catàleg castellà són a `data/annotations-es.js`. Per a una lectura nova, pots incloure `annotations` directament a la fitxa, en la llengua de la lectura.
+
 Fonts de verificació de la sèrie L005–L008. [Aqüeducte de Segòvia, portal oficial de turisme](https://www.spain.info/es/lugares-interes/acueducto-segovia/) · [Balena geperuda, NOAA Fisheries](https://www.fisheries.noaa.gov/species/humpback-whale)
 
 Fonts de la sèrie L009–L012. [Petjades fòssils, National Park Service](https://www.nps.gov/dena/learn/nature/making-dino-prints.htm) · [Músculs del braç, OpenStax](https://openstax.org/books/anatomy-and-physiology-2e/pages/11-1-interactions-of-skeletal-muscles-their-fascicle-arrangement-and-their-lever-systems) · [Comunicació dels vestits espacials, NASA](https://www.nasa.gov/centers-and-facilities/johnson/spacewalk-spacesuit-basics/) · [Himne homèric a Hermes, Project Gutenberg](https://www.gutenberg.org/files/16338/16338-h/16338-h.htm)

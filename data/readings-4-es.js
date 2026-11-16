@@ -262,7 +262,7 @@ export const readings4Es = [
       {
         "id": "dos-marcas-en-el-vaso-q4",
         "type": "vocabulary",
-        "prompt": "¿A qué se refiere «nivel del agua» en esta prueba?",
+        "prompt": "¿A qué se refiere «altura del agua» en el primer paso de la prueba?",
         "answer": "A la altura hasta la que llega el agua en el vaso.",
         "lines": 2
       },
@@ -666,7 +666,7 @@ export const readings4Es = [
       {
         "id": "una-funda-para-la-semilla-q2",
         "type": "vocabulary",
-        "prompt": "¿Qué quiere decir que una semilla «germina»?",
+        "prompt": "¿Qué quiere decir «germinan» cuando se habla de las semillas?",
         "answer": "Que empieza a crecer y de ella sale una planta nueva.",
         "lines": 2
       },
@@ -811,7 +811,7 @@ export const readings4Es = [
       {
         "id": "el-patio-de-antes-q3",
         "type": "vocabulary",
-        "prompt": "¿Qué es un «bache» en el suelo del patio?",
+        "prompt": "¿Qué son los «baches» en el suelo del patio?",
         "answer": "Un hoyo o una zona hundida que hace que el suelo sea irregular.",
         "lines": 2
       },
@@ -940,7 +940,7 @@ export const readings4Es = [
       {
         "id": "un-refugio-bajo-la-piedra-q2",
         "type": "vocabulary",
-        "prompt": "¿Qué significa que el suelo quedó «resguardado» al volver a poner la piedra?",
+        "prompt": "¿Qué significa que una parte del suelo volvió a quedar «resguardada» al colocar la piedra?",
         "answer": "Que quedó cubierto y protegido, por ejemplo, de la luz directa.",
         "lines": 2
       },

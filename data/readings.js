@@ -6,6 +6,7 @@ import { readings4Es } from './readings-4-es.js';
 import { readings5EsFifthSeries } from './readings-5-es-5.js';
 import { readings6Es } from './readings-6-es.js';
 import { moreReadings6Es } from './readings-6-es-2.js';
+import { annotationsEs } from './annotations-es.js';
 
 export const readings = [
   {
@@ -192,4 +193,7 @@ export const readings = [
   ...readings5EsFifthSeries,
   ...readings6Es,
   ...moreReadings6Es,
-];
+].map(reading => {
+  const annotations = reading.annotations ?? (reading.language === 'es' ? annotationsEs[reading.code] : undefined);
+  return annotations ? { ...reading, annotations } : reading;
+});

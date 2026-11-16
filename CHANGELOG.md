@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.17 · 16 de novembre de 2026
+
+Les expressions citades a les preguntes de vocabulari se subratllen al text. Algunes lectures inclouen notes de vocabulari numerades abans de les preguntes.
+
 ## 1.16.4 · 15 de novembre de 2026
 
 El formulari d’avisos indica quan Umami no està disponible i ofereix ajuda per tornar a permetre l’enviament. La bandera passa a la dreta de la capçalera de la fitxa i l’exportació JSON queda al catàleg.

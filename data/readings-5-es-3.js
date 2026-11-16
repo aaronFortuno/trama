@@ -114,7 +114,7 @@ export const readings5EsThirdSeries = [
     ],
     questions: [
       { id: 'sudor-q1', type: 'literal', prompt: '¿Qué partes del cuerpo notó más frescas Amina al sentarse junto a la ventana?', answer: 'Los antebrazos.', lines: 1 },
-      { id: 'sudor-q2', type: 'vocabulary', prompt: 'Según el texto, ¿qué le pasa al agua cuando se evapora?', answer: 'Pasa al aire en forma de vapor.', lines: 1 },
+      { id: 'sudor-q2', type: 'vocabulary', prompt: 'Según el texto, ¿qué le pasa al agua al «evaporarse»?', answer: 'Pasa al aire en forma de vapor.', lines: 1 },
       { id: 'sudor-q3', type: 'structure', prompt: '¿Qué condición cambiaron en la prueba de los dos paños? Nombra también una que mantuvieron igual.', answer: 'Solo uno de los paños recibió la corriente del abanico. Mantuvieron igual, por ejemplo, la cantidad de agua con que los mojaron.', lines: 3 },
       { id: 'sudor-q4', type: 'inference', prompt: 'Si los dos paños hubieran empezado con cantidades distintas de agua, ¿por qué habría sido más difícil interpretar el resultado?', answer: 'El paño más seco podría haber empezado con menos agua. Sería difícil distinguir ese efecto del efecto del abanico.', lines: 3 },
       { id: 'sudor-q5', type: 'inference', prompt: '¿Por qué puede quedarse la piel mojada más tiempo en un lugar con aire muy húmedo?', answer: 'Porque cuando el aire ya contiene mucho vapor de agua, el sudor tarda más en evaporarse.', lines: 2 },
