@@ -7,3 +7,5 @@ Wide editorial still life in colored pencil and muted watercolor. Two clear glas
 ```
 
 Referència sobre el transport i el dipòsit de sediments. [U.S. Geological Survey, Sediment and Suspended Sediment](https://www.usgs.gov/water-science-school/science/sediment-and-suspended-sediment).
+
+La segona imatge, `l083-orilla-desde-el-puente.webp`, se centra en el banc de sorra i els graons al costat de l’aigua, amb verds, blaus i ocres suaus.

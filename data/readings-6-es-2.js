@@ -64,6 +64,14 @@ export const moreReadings6Es = [
         alt: 'Milo observa a Ada y Vega desde detrás del telón. Un foco ilumina una silla verde en el escenario.',
         afterParagraph: 2,
       },
+      {
+        id: 'cuaderno-entre-bastidores',
+        src: 'assets/readings/l082-cuaderno-entre-bastidores.webp',
+        width: 960,
+        height: 640,
+        alt: 'Un cuaderno abierto y una linterna junto al telón del escenario.',
+        afterParagraph: 4,
+      },
     ],
     questions: [
       { id: 'el-ensayo-de-las-dos-pausas-q1', type: 'literal', prompt: '¿A quién avisa Milo con cada una de las señales y qué debe hacer esa persona?', answer: 'El golpe avisa a Vega para que salga a escena. La linterna avisa a la encargada de las luces para que apague el foco.', lines: 2 },
@@ -102,6 +110,14 @@ export const moreReadings6Es = [
         height: 640,
         alt: 'Dos frascos de agua con sedimentos reposan sobre una mesa de madera, junto a un río con un banco de arena.',
         afterParagraph: 2,
+      },
+      {
+        id: 'orilla-desde-el-puente',
+        src: 'assets/readings/l083-orilla-desde-el-puente.webp',
+        width: 960,
+        height: 640,
+        alt: 'Un banco de arena en la curva del río, frente a una escalera que baja hasta el agua.',
+        afterParagraph: 4,
       },
     ],
     questions: [
@@ -142,6 +158,14 @@ export const moreReadings6Es = [
         height: 640,
         alt: 'Un cuaderno de recetas con anotaciones antiguas, junto a una fotografía de una panadería y un rodillo.',
         afterParagraph: 2,
+      },
+      {
+        id: 'tres-pistas-en-la-exposicion',
+        src: 'assets/readings/l084-tres-pistas-en-la-exposicion.webp',
+        width: 960,
+        height: 640,
+        alt: 'El cuaderno de recetas abierto, la fotografía de la panadería y el recuerdo de la abuela, juntos en la exposición.',
+        afterParagraph: 5,
       },
     ],
     questions: [

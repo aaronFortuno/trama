@@ -10,6 +10,8 @@ S’incorpora «Una voz entre los diálogos» (L087), una lectura llarga i avan�
 
 S’incorpora «Dos cartas para una persiana» (L088), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.
 
+Les lectures de més de 350 paraules tenen dues il·lustracions. S’afegeix una segona imatge a les fitxes L082, L083 i L084.
+
 ## 1.17.2 · 16 de novembre de 2026
 
 L’interruptor de les notes de vocabulari té una fila pròpia al lateral de contingut. Si la lectura no té notes, la fila indica «Cap nota» i l’interruptor està desactivat.

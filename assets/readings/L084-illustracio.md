@@ -5,3 +5,5 @@ Imatge `l084-una-receta-con-dos-fechas.webp`, generada amb el generador integrat
 ```text
 Wide risograph-style still life in brick red and muted blue on ivory paper. An old open recipe notebook with handwritten marks in two colors, a small vintage bakery photograph, a rolling pin and a checked tea towel on a flour-dusted table. No readable text.
 ```
+
+La segona imatge, `l084-tres-pistas-en-la-exposicion.webp`, mostra els tres documents reunits a l’exposició, amb una textura de punts i una paleta de blau, teula i crema.
