@@ -8,6 +8,8 @@ S’incorpora «La ratlla del darrer punt» (L101), una narració bilingüe de 1
 
 S’incorpora «El rellotge de les dues minuteres» (L102), una lectura bilingüe de 1r d’ESO sobre els horaris del ferrocarril i l’hora de Greenwich.
 
+S’incorpora «Un paisatge per tocar» (L103), una entrevista bilingüe de 1r d’ESO sobre el disseny i l’avaluació d’una reproducció tàctil.
+
 ## 1.23 · 16 de novembre de 2026
 
 S’estrena 1r d’ESO amb «El pati a dues temperatures» (L097), una lectura de divulgació en català i castellà amb dues il·lustracions, deu preguntes i solucionari.
