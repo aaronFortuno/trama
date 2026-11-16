@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.22 · 16 de novembre de 2026
+
+El catàleg incorpora 8 versions en català i arriba a 13 lectures disponibles en totes dues llengües.
+
 ## 1.21 · 16 de novembre de 2026
 
 Les lectures L001–L005 ja tenen versió en català. El selector d’idioma de la fitxa conserva els ajustos i el passatge visible quan es canvia de versió. Els avisos mostren el codi amb la llengua corresponent.

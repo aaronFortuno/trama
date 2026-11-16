@@ -144,4 +144,85 @@ export const readings5Ca = [
       { paragraph: 2, text: 'pendent suau', questionId: 'agua-q2' },
     ],
   },
+  {
+    id: 'la-volta-per-lombra-ca',
+    code: 'L041',
+    title: 'La volta per l’ombra',
+    summary: 'La Inés i en Bruno dibuixen dos itineraris per arribar a la biblioteca. Quan els hagin de fer servir, hauran de triar pensant en una altra persona.',
+    paragraphs: [
+      'El primer dissabte de juny, la Inés i en Bruno van sortir a dibuixar un mapa del barri. Volien marcar-hi el camí des de la plaça fins a la biblioteca. Segons el rellotge d’en Bruno, per l’avinguda trigaven sis minuts i pel carrer del Molí, nou. La Inés va traçar una línia vermella per al camí més ràpid i una de blava per a l’altre.',
+      'Dilluns, la seva àvia els va demanar que l’acompanyessin a tornar un llibre a les quatre. En Bruno va treure el mapa i va assenyalar la línia vermella. A l’avinguda, les voreres eren amples, però a aquella hora hi tocava el sol de ple. L’àvia va obrir el ventall i va preguntar si es podien aturar un moment abans de travessar.',
+      'Des de la cruïlla, la Inés va veure que gairebé tot l’altre carrer era a l’ombra. També va recordar el banc al costat de la fleca, on ella i en Bruno s’havien assegut per dibuixar l’última part del mapa. Els va proposar de canviar de camí. L’àvia va desar el ventall i va dir que els sobrava temps.',
+      'Van arribar quan faltaven deu minuts perquè tanqués la biblioteca. En tornar, en Bruno va voler esborrar la línia vermella. La Inés li va frenar el llapis i va dibuixar un arbre petit al costat de la línia blava. Hi va escriure «ombra». Després hi va afegir un rectangle per marcar el banc. El mapa encara mostrava dues maneres d’arribar-hi, però ara també ajudava a triar segons el que necessitava qui l’havia de fer servir.',
+    ],
+    imageAlt: {
+      'la-vuelta-por-la-sombra': 'La Inés i en Bruno miren la cruïlla amb la seva àvia, que porta un llibre. En una vorera hi ha ombra i a l’avinguda hi toca el sol.',
+    },
+    questions: [
+      { id: 'la-vuelta-por-la-sombra-q1', type: 'literal', prompt: 'Quant van trigar dissabte per cada camí?', answer: 'Sis minuts per l’avinguda i nou pel carrer del Molí.', lines: 2 },
+      { id: 'la-vuelta-por-la-sombra-q2', type: 'inference', prompt: 'Què va fer pensar a la Inés que l’àvia preferiria el carrer del Molí? Fes servir dos detalls.', answer: 'L’àvia va obrir el ventall i va demanar d’aturar-se un moment. Al carrer del Molí hi havia ombra i un banc.', lines: 2 },
+      { id: 'la-vuelta-por-la-sombra-q3', type: 'vocabulary', prompt: 'Què vol dir que a l’avinguda hi tocava el sol «de ple»?', answer: 'Que el sol tocava directament a la vorera, amb poca ombra o gens.', lines: 2 },
+      { id: 'la-vuelta-por-la-sombra-q4', type: 'structure', prompt: 'Ordena aquestes accions: dibuixen un rectangle, comparen els temps i canvien de camí.', answer: 'Primer comparen els temps, després canvien de camí i finalment dibuixen el rectangle.', lines: 2 },
+      { id: 'la-vuelta-por-la-sombra-q5', type: 'inference', prompt: 'Per a què pot servir deixar la línia vermella al mapa?', answer: 'Permet triar el camí més ràpid quan l’ombra o la possibilitat de descansar tenen menys importància.', lines: 2 },
+      { id: 'la-vuelta-por-la-sombra-q6', type: 'summary', prompt: 'Resumeix quina informació van afegir al mapa i què van aprendre en fer-lo servir.', answer: 'Van marcar el camí amb ombra i el banc. Van aprendre que triar un bon camí depèn del que necessiti qui hi ha de passar.', lines: 3 },
+    ],
+    annotations: [
+      { paragraph: 2, text: 'de ple', questionId: 'la-vuelta-por-la-sombra-q3' },
+    ],
+  },
+  {
+    id: 'la-gota-que-no-venia-del-got-ca',
+    code: 'L042',
+    title: 'La gota que no venia del got',
+    summary: 'Dos gots i una mica de gel serveixen per investigar d’on surten les gotes que apareixen per fora d’un recipient fred.',
+    paragraphs: [
+      'Si deixes un got amb aigua i gel sobre la taula, al cap d’una estona hi poden aparèixer gotes a la part de fora. De vegades, fins i tot es forma un bassal petit al voltant del got. El got no té cap esquerda i el nivell de l’aigua gairebé no canvia. Doncs d’on surten les gotes?',
+      'L’aire conté aigua en forma de vapor. El vapor d’aigua és invisible. Quan l’aire que toca el got fred es refreda prou, una part d’aquest vapor es converteix en aigua líquida. Al principi les gotes són molt petites. Algunes s’ajunten, es fan més grosses i acaben regalimant fins a la taula. D’aquest pas de vapor a líquid se’n diu condensació.',
+      'Per observar-ho, posa aigua en dos gots iguals. Afegeix gel a l’un i deixa l’altre a temperatura ambient. Eixuga’ls bé per fora i posa’ls sobre plats secs, l’un al costat de l’altre. Espera uns quants minuts. Si surten gotes per fora del got amb gel i l’altre continua sec, la diferència de temperatura ajuda a explicar què ha passat. Que el got del costat també tingui aigua permet comparar-los.',
+      'El mateix fenomen pot passar quan et dutxes amb aigua calenta i el mirall és fred. L’aigua que s’ha evaporat fa que hi hagi més vapor a l’aire del voltant. Quan arriba al mirall i es refreda, una part del vapor es converteix en gotetes. Són tan petites i n’hi ha tantes que et veus la cara borrosa fins que passes la mà pel mirall.',
+    ],
+    imageAlt: {
+      'la-gota-que-no-venia-del-vaso': 'A la part de fora d’un got amb aigua i gel es veuen moltes gotes petites i dues de més grosses que regalimen.',
+    },
+    questions: [
+      { id: 'la-gota-que-no-venia-del-vaso-q1', type: 'literal', prompt: 'Com s’anomena el pas de vapor a líquid?', answer: 'Condensació.', lines: 1 },
+      { id: 'la-gota-que-no-venia-del-vaso-q2', type: 'structure', prompt: 'Ordena el que passa a fora del got: les gotes regalimen, l’aire es refreda i apareix aigua líquida.', answer: 'L’aire es refreda, apareix aigua líquida i les gotes regalimen.', lines: 2 },
+      { id: 'la-gota-que-no-venia-del-vaso-q3', type: 'inference', prompt: 'Per què convé que els gots siguin iguals i estiguin l’un al costat de l’altre?', answer: 'Així tenen la mateixa forma i són del mateix material, i estan en condicions semblants. La diferència que es vol estudiar és el gel.', lines: 2 },
+      { id: 'la-gota-que-no-venia-del-vaso-q4', type: 'vocabulary', prompt: 'Què vol dir que el nivell de l’aigua «gairebé no canvia»?', answer: 'Que la seva altura canvia molt poc o gens.', lines: 2 },
+      { id: 'la-gota-que-no-venia-del-vaso-q5', type: 'literal', prompt: 'Segons el text, què fa que et vegis la cara borrosa al mirall?', answer: 'Les moltes gotetes d’aigua que s’han format sobre el mirall fred.', lines: 2 },
+      { id: 'la-gota-que-no-venia-del-vaso-q6', type: 'summary', prompt: 'Algú pensa que el got perd aigua. Explica-li d’on surten les gotes que hi ha a fora.', answer: 'Es formen a partir del vapor d’aigua que hi ha a l’aire. Quan l’aire toca el got fred, es refreda i una part del vapor es converteix en gotes líquides a fora del got.', lines: 3 },
+    ],
+    annotations: [
+      { paragraph: 1, text: 'gairebé no canvia', questionId: 'la-gota-que-no-venia-del-vaso-q4' },
+    ],
+  },
+  {
+    id: 'una-carta-per-a-lultima-parada-ca',
+    code: 'L043',
+    title: 'Una carta per a l’última parada',
+    summary: 'Dos estudiants escriuen al servei d’autobusos després de comprovar que costa llegir l’horari d’una parada.',
+    paragraphs: [
+      'Benvolgut equip de transports,',
+      'Som la Malena i l’Hugo, de cinquè de primària. Des del setembre tornem junts a casa amb la línia 4. Us escrivim per parlar de l’horari que hi ha a l’última parada del barri, davant del poliesportiu. Quan fa sol, el plàstic que el cobreix reflecteix tanta llum que costa llegir-lo. A la tarda, a més, gairebé tota l’ombra cau darrere del pal.',
+      'Dimecres passat vam anar a mirar a quina hora passava l’últim autobús. La Malena va llegir que sortia a les set i vint. L’Hugo va pensar que sortia a les set i cinquanta. Quan vam aconseguir llegir la lletra petita, vam entendre que les set i vint eren l’hora de sortida de l’estació. El nostre autobús arribava a la parada dotze minuts més tard.',
+      'Ens agradaria proposar-vos dos canvis. El primer seria que l’horari indiqués amb lletra grossa a quina hora passa l’autobús per aquesta parada. El segon seria posar-hi una coberta d’acabat mat, d’aquelles que no reflecteixen tant la llum, o col·locar el paper a la cara del pal on toca menys el sol. No sabem quina d’aquestes dues opcions seria més fàcil.',
+      'Si ho necessiteu comprovar, us podem ensenyar des de quin costat es veu pitjor. Els dimecres som allà entre les cinc i les cinc i mitja. Mentrestant, ens hem apuntat l’hora a l’agenda. De tota manera, també fan servir la parada persones que no coneixen la línia i que potser no poden consultar l’horari amb el mòbil.',
+      'Moltes gràcies per llegir la nostra proposta.',
+      'Malena Ríos i Hugo Vidal',
+    ],
+    imageAlt: {
+      'una-carta-para-la-ultima-parada': 'La Malena i l’Hugo s’acosten a l’horari de la parada d’autobús, davant del poliesportiu.',
+    },
+    questions: [
+      { id: 'una-carta-para-la-ultima-parada-q1', type: 'literal', prompt: 'A qui s’adreça la carta i quina línia fan servir els dos estudiants?', answer: 'A l’equip de transports. Fan servir la línia 4.', lines: 2 },
+      { id: 'una-carta-para-la-ultima-parada-q2', type: 'inference', prompt: 'Si l’últim autobús surt de l’estació a les 19.20 h, a quina hora arriba a la parada del poliesportiu?', answer: 'A les 19.32 h, dotze minuts més tard.', lines: 2 },
+      { id: 'una-carta-para-la-ultima-parada-q3', type: 'vocabulary', prompt: 'Què vol dir «mat» en aquesta carta?', answer: 'Que la superfície brilla poc i reflecteix menys llum.', lines: 2 },
+      { id: 'una-carta-para-la-ultima-parada-q4', type: 'structure', prompt: 'Què fan els autors just després d’explicar què va passar dimecres?', answer: 'Proposen dos canvis per millorar l’horari i fer-lo més llegible.', lines: 2 },
+      { id: 'una-carta-para-la-ultima-parada-q5', type: 'inference', prompt: 'Per què apuntar-s’ho a l’agenda només resol una part del problema?', answer: 'Els serveix a ells, però altres persones que fan servir la parada potser encara no podran llegir l’horari.', lines: 2 },
+      { id: 'una-carta-para-la-ultima-parada-q6', type: 'opinion', prompt: 'Quin dels canvis per reduir els reflexos provaries primer? Raona la resposta.', answer: 'Resposta oberta. Per exemple, posar el paper a la cara on toca menys el sol permetria veure si es llegeix millor abans de canviar la coberta.', lines: 3 },
+    ],
+    annotations: [
+      { paragraph: 4, text: 'mat', questionId: 'una-carta-para-la-ultima-parada-q3' },
+    ],
+  },
 ];

@@ -10,6 +10,7 @@ import { readings6EsThirdSeries } from './readings-6-es-3.js';
 import { readings6EsFourthSeries } from './readings-6-es-4.js';
 import { readings6EsFifthSeries } from './readings-6-es-5.js';
 import { annotationsEs } from './annotations-es.js';
+import { readings4Ca } from './readings-4-ca.js';
 import { readings5Ca } from './readings-5-ca.js';
 
 const originalReadings = [
@@ -209,7 +210,7 @@ const originalsByCode = new Map(originalReadings.map(reading => [reading.code, r
 
 export const readings = [
   ...originalReadings,
-  ...readings5Ca.map(({ code, imageAlt, annotations = [], ...text }) => {
+  ...[...readings4Ca, ...readings5Ca].map(({ code, imageAlt, annotations = [], ...text }) => {
     const original = originalsByCode.get(code);
     return {
       ...original,
