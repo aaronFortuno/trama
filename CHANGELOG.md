@@ -6,6 +6,8 @@ S’incorpora «El camí subterrani de l’aigua» (L100), una lectura de divulg
 
 S’incorpora «La ratlla del darrer punt» (L101), una narració bilingüe de 1r d’ESO sobre un desacord a la final d’un torneig de bàdminton.
 
+S’incorpora «El rellotge de les dues minuteres» (L102), una lectura bilingüe de 1r d’ESO sobre els horaris del ferrocarril i l’hora de Greenwich.
+
 ## 1.23 · 16 de novembre de 2026
 
 S’estrena 1r d’ESO amb «El pati a dues temperatures» (L097), una lectura de divulgació en català i castellà amb dues il·lustracions, deu preguntes i solucionari.
