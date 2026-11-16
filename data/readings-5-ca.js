@@ -1090,6 +1090,62 @@ export const readings5Ca = [
     ],
   },
   {
+    id: 'una-proposta-per-al-tauler-ca',
+    code: 'L060',
+    title: 'Una proposta per al tauler',
+    summary: 'El grup de cinquè proposa ordenar els avisos per data i reservar un espai per a la informació que fa servei tot el trimestre.',
+    paragraphs: [
+      'Benvolguda comissió de biblioteca,',
+      'Al tauler de l’entrada s’anuncien les activitats i s’hi pengen avisos sobre el préstec. Fa unes setmanes que costa trobar-hi les novetats. Dilluns passat, dues persones van preguntar quan començava el club de lectura. L’avís hi era, però gairebé no es veia darrere del cartell d’una activitat que ja s’havia acabat.',
+      'Dimarts vam comptar els papers per entendre millor el problema. N’hi havia dotze. Quatre anunciaven activitats de les dues setmanes següents, cinc eren d’activitats passades i tres informaven de qüestions que continuaran vigents tot el trimestre. Un d’aquests tres, l’horari de préstec, era al cantó de baix, on quedava tapat si algú deixava la porta oberta.',
+      'Proposem dividir el tauler en dos espais. A dalt hi quedarien l’horari i les normes de préstec. A sota hi anirien les pròximes activitats, ordenades per data. Cada divendres, dues persones de cinquè retirarien els avisos de les activitats que ja s’hagin fet. En comptes de llençar-los, els desarien un mes en una carpeta per si algú en necessités consultar la informació.',
+      'Per saber si el canvi funciona, al cap de dues setmanes podríem demanar a tres persones que no coneguin la biblioteca que busquin l’hora del club i l’horari de préstec. Apuntaríem quant triguen i on miren primer. Si troben les activitats però els costa veure l’horari, canviaríem la mida o la posició d’aquell avís.',
+      'Gràcies per estudiar la nostra proposta. Us podem ensenyar un dibuix de la distribució divendres a la sortida.',
+      'El grup de cinquè',
+    ],
+    imageAlt: {
+      'una-propuesta-para-el-tablon': 'Dos alumnes observen uns avisos encavalcats al tauler de la biblioteca.',
+    },
+    questions: [
+      { id: 'una-propuesta-para-el-tablon-q1', type: 'literal', prompt: 'Quants avisos hi havia en total i quants anunciaven activitats passades?', answer: 'Hi havia dotze avisos en total. Cinc eren d’activitats que ja s’havien fet.', lines: 2 },
+      { id: 'una-propuesta-para-el-tablon-q2', type: 'vocabulary', prompt: 'Què vol dir que tres avisos «continuaran vigents» tot el trimestre?', answer: 'Que la informació que contenen encara serà vàlida o es farà servir durant tot aquest temps.', lines: 2 },
+      { id: 'una-propuesta-para-el-tablon-q3', type: 'structure', prompt: 'Quina informació presenta el grup abans d’explicar la proposta?', answer: 'Explica què costa trobar al tauler i dona dades del que va observar quan va comptar i classificar els avisos.', lines: 2 },
+      { id: 'una-propuesta-para-el-tablon-q4', type: 'inference', prompt: 'Per què proposen reservar un espai separat per a l’horari i les normes?', answer: 'Perquè aquests avisos fan falta tot el trimestre i no han de quedar amagats entre activitats que canvien cada setmana.', lines: 3 },
+      { id: 'una-propuesta-para-el-tablon-q5', type: 'inference', prompt: 'Imagina que troben de seguida l’horari, però triguen a trobar l’hora del club. En quin espai provaries de fer un canvi? Explica per què.', answer: 'Al de les pròximes activitats, que és on hi ha l’avís del club. L’espai amb l’horari ja es troba de seguida.', lines: 3 },
+      { id: 'una-propuesta-para-el-tablon-q6', type: 'opinion', prompt: 'Proposa una altra manera de comprovar si el tauler ha millorat. Digues què observaries i com decidiries si funciona.', answer: 'Resposta oberta. Per exemple, demanaria a unes quantes persones que trobessin dos avisos abans i després del canvi i compararia quantes els localitzen correctament.', lines: 4 },
+    ],
+    annotations: [
+      { paragraph: 3, text: 'continuaran vigents', questionId: 'una-propuesta-para-el-tablon-q2' },
+    ],
+  },
+  {
+    id: 'el-pont-dels-set-minuts-ca',
+    code: 'L065',
+    title: 'El pont dels set minuts',
+    summary: 'Dos estudiants comparen camins per anar a la biblioteca i descobreixen com canvia el més ràpid el dia de mercat.',
+    paragraphs: [
+      'Quan va obrir la biblioteca del parc, en Mateo va anunciar que ara trigava set minuts menys a arribar-hi des de l’institut. Havia travessat el pont nou en bicicleta. La Vera hi anava a peu i preferia vorejar el parc per l’avinguda. Un dia que van coincidir a la porta, van decidir preparar una taula per al tauler de l’institut.',
+      'Al principi, en Mateo va apuntar els minuts que trigava i la Vera va escriure els seus en una altra columna. El camí del pont semblava guanyar per molta diferència. Aleshores la Vera es va fixar en els encapçalaments. La taula comparava una persona que anava en bicicleta amb una que anava a peu. Li va proposar de provar a peu tots dos camins i afegir una columna per a l’hora de sortida.',
+      'Dimecres van anar plegats a peu per l’avinguda, a les quatre de la tarda. Van trigar setze minuts. Dijous, a la mateixa hora, en van trigar dotze pel pont. Dissabte, quan van muntar el mercat, van repetir la prova. Per l’avinguda van tornar a trigar setze minuts. Pel pont en van trigar dinou perquè van haver d’esperar que passés una fila de gent amb carretons.',
+      'Al primer esborrany van escriure que pel pont s’hi arribava més de pressa. La Vera va encerclar els dinou minuts i va demanar que hi posessin totes dues files, encara que el cartell quedés menys senzill. En Mateo hi va afegir una altra nota: qui travessés el pont en bicicleta havia de baixar del selló a la zona compartida amb els vianants.',
+      'Dilluns van penjar el cartell amb una taula curta i una frase: «El camí que et convé depèn de quan i com hi vas». A sota, algú hi va afegir amb llapis una pregunta sobre el camí de tornada. Tots dos van deixar espai a la taula per apuntar-hi més trajectes.',
+    ],
+    imageAlt: {
+      'el-puente-de-los-siete-minutos': 'En Mateo i la Vera comparen les notes a prop d’un pont de vianants del parc.',
+    },
+    questions: [
+      { id: 'el-puente-de-los-siete-minutos-q1', type: 'literal', prompt: 'Quant van trigar a peu per l’avinguda dimecres i dissabte?', answer: 'Setze minuts cada dia.', lines: 1 },
+      { id: 'el-puente-de-los-siete-minutos-q2', type: 'inference', prompt: 'Per què les primeres columnes no permetien comparar bé tots dos camins?', answer: 'Cada persona hi anava d’una manera diferent. El temps podia dependre tant del camí com del fet d’anar-hi a peu o en bicicleta.', lines: 4 },
+      { id: 'el-puente-de-los-siete-minutos-q3', type: 'inference', prompt: 'Quina dada de dissabte és important per triar camí un dia de mercat? Explica la resposta.', answer: 'Pel pont van trigar dinou minuts i per l’avinguda, setze. Amb el mercat, el camí més ràpid va passar a ser l’altre.', lines: 4 },
+      { id: 'el-puente-de-los-siete-minutos-q4', type: 'structure', prompt: 'Quina funció té la pregunta escrita amb llapis al final del relat?', answer: 'Proposa una nova comprovació i mostra que es poden afegir a la taula recorreguts que encara no han mesurat.', lines: 3 },
+      { id: 'el-puente-de-los-siete-minutos-q5', type: 'vocabulary', prompt: 'Què són els «encapçalaments» que mira la Vera?', answer: 'Els rètols que indiquen quina informació recull cada columna.', lines: 2 },
+      { id: 'el-puente-de-los-siete-minutos-q6', type: 'opinion', prompt: 'Posaries els resultats en un plànol o en una taula? Indica què hauria de poder esbrinar qui es miri la teva versió.', answer: 'Resposta oberta. Per exemple, una taula facilitaria la comparació per hora, manera de desplaçar-se i camí.', lines: 4 },
+    ],
+    annotations: [
+      { paragraph: 2, text: 'encapçalaments', questionId: 'el-puente-de-los-siete-minutos-q5' },
+    ],
+  },
+  {
     id: 'la-historia-duna-etiqueta-ca',
     code: 'L066',
     title: 'La història d’una etiqueta',
