@@ -121,7 +121,8 @@ Text instructiu|Texto instructivo
 Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
-v1.23 · Obre l’historial de canvis|v1.23 · Abrir el historial de cambios
+v1.24 · Obre l’historial de canvis|v1.24 · Abrir el historial de cambios
+S’incorpora «El camí subterrani de l’aigua» (L100), una lectura de divulgació de 1r d’ESO sobre els qanats de l’Iran, en català i castellà.|Se incorpora «El camino subterráneo del agua» (L100), una lectura de divulgación de 1.º de ESO sobre los qanats de Irán, en catalán y castellano.
 S’estrena 1r d’ESO amb «El pati a dues temperatures» (L097), una lectura de divulgació en català i castellà amb dues il·lustracions, deu preguntes i solucionari.|Se estrena 1.º de ESO con «El patio a dos temperaturas» (L097), una lectura de divulgación en catalán y castellano con dos ilustraciones, diez preguntas y solucionario.
 S’incorpora «El revers de la tempesta» (L098), una narració bilingüe de 1r d’ESO sobre les pistes que amaga un decorat de teatre.|Se incorpora «El reverso de la tormenta» (L098), una narración bilingüe de 1.º de ESO sobre las pistas que esconde un decorado de teatro.
 S’incorpora «La sala dels divendres» (L099), una carta argumentativa bilingüe de 1r d’ESO amb onze preguntes sobre dades, horaris i accés a un espai compartit.|Se incorpora «La sala de los viernes» (L099), una carta argumentativa bilingüe de 1.º de ESO con once preguntas sobre datos, horarios y acceso a un espacio compartido.
