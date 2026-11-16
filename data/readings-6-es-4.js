@@ -1,0 +1,40 @@
+export const readings6EsFourthSeries = [
+  {
+    id: 'el-nudo-del-cielo-es',
+    code: 'L089',
+    workId: 'el-nudo-del-cielo',
+    language: 'es',
+    level: '6-primary',
+    difficulty: 'advanced',
+    themes: ['adventure', 'everyday'],
+    genre: 'narrative',
+    title: 'El nudo del cielo',
+    summary: 'En un concurso de cometas, Lidia y Jaime descubren que bajar sus cometas a tiempo puede dejarles fuera de la final.',
+    paragraphs: [
+      'En la fiesta de las cometas, Lidia eligió el triángulo naranja que había cosido su tía. Salió a la explanada y la hizo subir con la plaza a su espalda. Para pasar a la final, cada cometa tenía que seguir en el aire cuando sonara la campana. A su derecha, Jaime desenrollaba el hilo de una cometa azul con una cola roja. Antes de salir, había apretado con el pulgar un trozo de cinta pegado a una de las varillas. Lidia creyó que era un adorno.',
+      'Quedaba menos de un minuto. Una ráfaga empujó la azul hacia la izquierda, por encima de la naranja. Las colas no llegaron a tocarse, pero cuando Lidia recogió un poco de hilo, notó un tirón que no venía de delante. Venía del lado de Jaime. Volvió la cabeza. Él tenía el carrete quieto y la vista fija en las cometas. Cada vez que ella probaba a recoger, la azul se inclinaba. Los hilos debían de haberse cruzado.',
+      '—No tires más —dijo Jaime—. Se va a partir del todo.\nLidia apretó el carrete. Si bajaba su cometa ahora, quedaría fuera. Tuvo la tentación de decirle que recogiera él, porque la azul había invadido su lado. Entonces vio que Jaime no seguía con los ojos la cola ni la campana que tenía más cerca. Miraba cómo se doblaba una de las puntas de su cometa. Lidia se acordó del trozo de cinta. Aflojó tanto el hilo que la naranja perdió altura y empezó a cabecear.',
+      'Decidieron acercarse despacio, con la vista en las cometas. Al tener los carretes casi juntos, probaron a recoger a la vez. La azul aterrizó primero, de canto. La naranja cayó detrás, tan despacio que su cola se quedó un instante por encima de un cardo. Sonó la campana mientras seguían buscando el nudo. La varilla azul se había abierto por debajo de la cinta; el papel, en cambio, seguía entero.',
+      'En lugar de deshacer el nudo tirando, Lidia dejó ambos carretes en la hierba. Jaime se agachó y fue liberando una vuelta tras otra hasta separar los hilos. Después le enseñó el listón de repuesto que llevaba en el bolsillo lateral de la mochila. Pensaba arreglar su cometa para que no se quedara sin volar el resto de la tarde. Lidia le preguntó si podía sujetarle la punta mientras la reparaba. Desde la mesa del jurado anunciaron los nombres de los finalistas. Esta vez ninguno levantó la cabeza.',
+    ],
+    images: [
+      { id: 'cometas-en-el-aire', src: 'assets/readings/l089-cometas-en-el-aire.webp', width: 960, height: 640, alt: 'Lidia y Jaime vuelan una cometa triangular naranja y otra azul con cola roja.', afterParagraph: 1 },
+      { id: 'cometas-en-la-hierba', src: 'assets/readings/l089-cometas-en-la-hierba.webp', width: 960, height: 640, alt: 'Detalle de la varilla astillada y la cinta levantada sobre el papel intacto de la cometa azul.', afterParagraph: 4 },
+    ],
+    questions: [
+      { id: 'nudo-cielo-q1', type: 'literal', prompt: '¿Qué condición tenía que cumplir una cometa para pasar a la final?', answer: 'Tenía que seguir en el aire cuando sonara la campana.', lines: 1 },
+      { id: 'nudo-cielo-q2', type: 'inference', prompt: 'Antes de ver el nudo, ¿qué dos pistas tiene Lidia de que los hilos se han cruzado?', answer: 'Al recoger hilo, nota que el tirón viene del lado de Jaime, no de delante. Además, cada vez que recoge, se inclina la cometa azul, aunque Jaime mantiene su carrete quieto.', lines: 3 },
+      { id: 'nudo-cielo-q3', type: 'vocabulary', prompt: '¿Qué significa que la cometa naranja empezó a «cabecear»? ¿Qué hace Lidia justo antes?', answer: 'La punta se mueve de manera irregular hacia arriba y hacia abajo. Lidia acaba de aflojar el hilo y la cometa pierde altura.', lines: 2 },
+      { id: 'nudo-cielo-q4', type: 'inference', prompt: '¿Qué lleva a Lidia a aflojar el hilo aunque sabe que puede quedar fuera? Relaciona dos detalles de momentos distintos.', answer: 'Ve que Jaime mira una punta que se está doblando, y recuerda la cinta que había apretado sobre una varilla antes de volar. Entiende que tirar más puede romper la cometa de Jaime y decide ayudarle a bajarla.', lines: 4 },
+      { id: 'nudo-cielo-q5', type: 'structure', prompt: 'La campana se menciona al principio y suena cerca del final. Explica cómo cambia la importancia de la campana para Lidia entre esos dos momentos.', answer: 'Al principio, Lidia necesita esperar la campana para pasar a la final. Cuando suena, está pendiente de las cometas y del nudo, y ha aceptado quedar fuera para evitar más daños.', lines: 3 },
+      { id: 'nudo-cielo-q6', type: 'inference', prompt: 'Al final, ¿por qué ninguno levanta la cabeza al oír los nombres? Apóyate en una acción de cada personaje.', answer: 'La final ha dejado de ser su prioridad. Jaime saca un listón para reparar la cometa y seguir volando, y Lidia se ofrece a sujetársela para ayudarle.', lines: 4 },
+      { id: 'nudo-cielo-q7', type: 'summary', prompt: 'Resume el incidente en tres frases. Incluye la causa del problema, lo que hacen para resolverlo y qué deciden hacer después de la campana.', answer: 'El viento hace que se crucen los hilos de las cometas. Lidia y Jaime se acercan y recogen ambos hilos para bajarlas. Después separan los hilos y se disponen a reparar la varilla azul para seguir volando.', lines: 4 },
+      { id: 'nudo-cielo-q8', type: 'opinion', prompt: '¿Te parece que la decisión de Lidia habría sido igual de razonable si su cometa sí hubiera podido quedar en el aire por su cuenta? Argumenta tu respuesta con un detalle del relato.', answer: 'Respuesta abierta. Por ejemplo, sí: podía valorar más evitar una rotura que clasificarse, sobre todo al ver la punta doblada. También puede defenderse que habría buscado separarlas antes de renunciar, si podía hacerlo sin tirar de la azul.', lines: 4 },
+    ],
+    annotations: [
+      { paragraph: 1, text: 'varillas', definition: 'Piezas finas y rígidas que dan forma a la cometa.' },
+      { paragraph: 3, text: 'cabecear', questionId: 'nudo-cielo-q3' },
+      { paragraph: 4, text: 'de canto', definition: 'Sobre uno de sus bordes, en vez de quedar plana.' },
+    ],
+  },
+];
