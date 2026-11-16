@@ -4,6 +4,8 @@
 
 S’estrena 1r d’ESO amb «El pati a dues temperatures» (L097), una lectura de divulgació en català i castellà amb dues il·lustracions, deu preguntes i solucionari.
 
+S’incorpora «El revers de la tempesta» (L098), una narració bilingüe de 1r d’ESO sobre les pistes que amaga un decorat de teatre.
+
 ## 1.22.2 · 16 de novembre de 2026
 
 L’etiqueta sota el logotip s’imprimeix en majúscules més petites, ajustades a l’amplada de la marca.

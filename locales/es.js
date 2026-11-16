@@ -123,6 +123,7 @@ Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
 v1.23 · Obre l’historial de canvis|v1.23 · Abrir el historial de cambios
 S’estrena 1r d’ESO amb «El pati a dues temperatures» (L097), una lectura de divulgació en català i castellà amb dues il·lustracions, deu preguntes i solucionari.|Se estrena 1.º de ESO con «El patio a dos temperaturas» (L097), una lectura de divulgación en catalán y castellano con dos ilustraciones, diez preguntas y solucionario.
+S’incorpora «El revers de la tempesta» (L098), una narració bilingüe de 1r d’ESO sobre les pistes que amaga un decorat de teatre.|Se incorpora «El reverso de la tormenta» (L098), una narración bilingüe de 1.º de ESO sobre las pistas que esconde un decorado de teatro.
 L’etiqueta sota el logotip s’imprimeix en majúscules més petites, ajustades a l’amplada de la marca.|La etiqueta bajo el logotipo se imprime en mayúsculas más pequeñas, ajustadas al ancho de la marca.
 Les definicions de vocabulari comencen directament sota la línia separadora. L’etiqueta de comprensió lectora apareix sota el logotip de l’encapçalament.|Las definiciones de vocabulario empiezan justo debajo de la línea divisoria. La etiqueta de comprensión lectora aparece debajo del logotipo del encabezado.
 El catàleg incorpora 91 versions en català i arriba a 96 lectures disponibles en totes dues llengües.|El catálogo incorpora 91 versiones en catalán y alcanza 96 lecturas disponibles en ambos idiomas.
