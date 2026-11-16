@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.22.1 · 16 de novembre de 2026
+
+Les definicions de vocabulari comencen directament sota la línia separadora. L’etiqueta de comprensió lectora apareix sota el logotip de l’encapçalament.
+
 ## 1.22 · 16 de novembre de 2026
 
 El catàleg incorpora 91 versions en català i arriba a 96 lectures disponibles en totes dues llengües.

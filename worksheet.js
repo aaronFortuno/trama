@@ -7,9 +7,9 @@ import { supportsHyphenation, withHyphenation } from './worksheet-hyphenation.js
 import { prepareAnnotations } from './reading-annotations.js';
 
 const languageCopy = {
-  ca: ['Nom', 'Data', 'Curs', 'Comprensió lectora', 'Preguntes', 'Pàgina', 'Solucionari', 'Resposta orientativa', 'Sense resposta orientativa.', 'Notes de vocabulari'],
-  es: ['Nombre', 'Fecha', 'Curso', 'Comprensión lectora', 'Preguntas', 'Página', 'Solucionario', 'Respuesta orientativa', 'Sin respuesta orientativa.', 'Notas de vocabulario'],
-  en: ['Name', 'Date', 'Class', 'Reading comprehension', 'Questions', 'Page', 'Answer key', 'Suggested answer', 'No suggested answer.', 'Vocabulary notes'],
+  ca: ['Nom', 'Data', 'Curs', 'Comprensió lectora', 'Preguntes', 'Pàgina', 'Solucionari', 'Resposta orientativa', 'Sense resposta orientativa.'],
+  es: ['Nombre', 'Fecha', 'Curso', 'Comprensión lectora', 'Preguntas', 'Página', 'Solucionario', 'Respuesta orientativa', 'Sin respuesta orientativa.'],
+  en: ['Name', 'Date', 'Class', 'Reading comprehension', 'Questions', 'Page', 'Answer key', 'Suggested answer', 'No suggested answer.'],
 };
 const wordsFor = language => languageCopy[language] || languageCopy[language.split('-')[0]] || languageCopy.en;
 
@@ -29,11 +29,17 @@ function makeLogo(source) {
 
 function makeHeader(reading, settings, [name, date, group, label, , , keyLabel], answerKey = false) {
   const header = element('header', 'worksheet-heading');
+  const kind = settings.headerLabel && element('p', 'worksheet-kind', label);
   const fields = [settings.headerName && name, settings.headerDate && date, settings.headerGroup && group].filter(Boolean);
   const hasCustom = settings.headerCustom && (settings.headerTitle || settings.headerDetail);
   if (fields.length || hasCustom || settings.headerLogo) {
     const top = element('div', 'worksheet-header');
-    if (settings.headerLogo) top.append(makeLogo(settings.headerLogo));
+    if (settings.headerLogo) {
+      const brand = element('div', 'worksheet-header-brand');
+      brand.append(makeLogo(settings.headerLogo));
+      if (kind) brand.append(kind);
+      top.append(brand);
+    }
     const details = element('div', 'worksheet-header-details');
     if (hasCustom) {
       if (settings.headerTitle) details.append(element('strong', 'worksheet-custom-title', settings.headerTitle));
@@ -50,7 +56,7 @@ function makeHeader(reading, settings, [name, date, group, label, , , keyLabel],
     if (details.childElementCount) top.append(details);
     header.append(top);
   }
-  if (settings.headerLabel) header.append(element('p', 'worksheet-kind', label));
+  if (kind && !settings.headerLogo) header.append(kind);
   if (answerKey) header.append(element('p', 'worksheet-kind worksheet-solution-kind', keyLabel));
   const title = element('h2', 'worksheet-title');
   title.append(element('span', null, reading.title), element('small', 'worksheet-reading-code', reading.code));
@@ -101,16 +107,11 @@ function makePassage(text, images, formatText, annotations) {
   return section;
 }
 
-function makeVocabularyNote(note, heading) {
-  const block = element('div', 'worksheet-vocabulary-note');
-  if (heading) {
-    block.classList.add('worksheet-vocabulary-start');
-    block.append(element('h3', null, heading));
-  }
-  const copy = element('p');
-  copy.append(element('strong', null, `${note.number}. ${note.text}`), ` — ${note.definition}`);
-  block.append(copy);
-  return block;
+function makeVocabularyNote(note, first) {
+  const line = element('p', 'worksheet-vocabulary-note');
+  if (first) line.classList.add('worksheet-vocabulary-start');
+  line.append(element('strong', null, `${note.number}. ${note.text}`), ` — ${note.definition}`);
+  return line;
 }
 
 function reportButton(part, id, label) {
@@ -403,7 +404,7 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
   reading.paragraphs.forEach((text, index) => placePassage(text, anchors.get(index) || [], ranges.get(index), index));
   const closing = anchors.get(reading.paragraphs.length);
   if (closing) placePassage('', closing);
-  notes.forEach((note, index) => placeBlock(makeVocabularyNote(note, index === 0 ? words[9] : '')));
+  notes.forEach((note, index) => placeBlock(makeVocabularyNote(note, index === 0)));
   questions.forEach(placeQuestion);
 
   pages.forEach((footer, index) => {
