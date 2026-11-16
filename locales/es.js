@@ -121,7 +121,8 @@ Text instructiu|Texto instructivo
 Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
-v1.22.1 · Obre l’historial de canvis|v1.22.1 · Abrir el historial de cambios
+v1.22.2 · Obre l’historial de canvis|v1.22.2 · Abrir el historial de cambios
+L’etiqueta sota el logotip s’imprimeix en majúscules més petites, ajustades a l’amplada de la marca.|La etiqueta bajo el logotipo se imprime en mayúsculas más pequeñas, ajustadas al ancho de la marca.
 Les definicions de vocabulari comencen directament sota la línia separadora. L’etiqueta de comprensió lectora apareix sota el logotip de l’encapçalament.|Las definiciones de vocabulario empiezan justo debajo de la línea divisoria. La etiqueta de comprensión lectora aparece debajo del logotipo del encabezado.
 El catàleg incorpora 91 versions en català i arriba a 96 lectures disponibles en totes dues llengües.|El catálogo incorpora 91 versiones en catalán y alcanza 96 lecturas disponibles en ambos idiomas.
 Les lectures L001–L005 ja tenen versió en català. El selector d’idioma de la fitxa conserva els ajustos i el passatge visible quan es canvia de versió. Els avisos mostren el codi amb la llengua corresponent.|Las lecturas L001–L005 ya tienen versión en catalán. El selector de idioma de la ficha conserva los ajustes y el pasaje visible al cambiar de versión. Los avisos muestran el código con el idioma correspondiente.

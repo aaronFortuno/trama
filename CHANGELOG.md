@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.22.2 · 16 de novembre de 2026
+
+L’etiqueta sota el logotip s’imprimeix en majúscules més petites, ajustades a l’amplada de la marca.
+
 ## 1.22.1 · 16 de novembre de 2026
 
 Les definicions de vocabulari comencen directament sota la línia separadora. L’etiqueta de comprensió lectora apareix sota el logotip de l’encapçalament.
