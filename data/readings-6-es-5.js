@@ -1,0 +1,40 @@
+export const readings6EsFifthSeries = [
+  {
+    id: 'el-lado-de-la-ola-es',
+    code: 'L093',
+    workId: 'el-lado-de-la-ola',
+    language: 'es',
+    level: '6-primary',
+    difficulty: 'advanced',
+    themes: ['everyday', 'community'],
+    genre: 'narrative',
+    title: 'El lado de la ola',
+    summary: 'En un partido de fútbol sala, la portera y su defensa oyen las mismas palabras y corren hacia lados distintos.',
+    paragraphs: [
+      'El equipo de sexto jugaba en el gimnasio su primer partido de fútbol sala del curso. En una pared larga habían pintado una ola azul; junto a la de enfrente estaban las gradas de madera. Mara, la portera, tenía la ola a su derecha cuando miraba a la otra portería. Leo, que jugaba de defensa, se colocó unos pasos por delante. Antes de que empezara el partido, Mara le pidió que, si ella veía un hueco a su espalda, se moviera al lado que le indicara.',
+      'El balón salió fuera cerca de las gradas. Mientras una rival se preparaba para volver a ponerlo en juego, Leo se giró hacia Mara, a la espera de una indicación. «¡A la derecha!», gritó ella. Leo dio dos pasos hacia las gradas. La rival encontró libre el lado de la ola y pasó el balón por allí. El tiro que vino después rozó el poste. Mara pensó que Leo se había puesto nervioso y había hecho lo contrario de lo que ella le pedía.',
+      'Al acabar la primera parte, Mara repitió la jugada sin balón. Se plantó en la portería y pidió a Leo que la mirara desde donde había estado. «Ahora señala tu derecha». Leo apuntó a las gradas, tal como había hecho durante el partido. Mara alzó su propio brazo derecho: señalaba la ola. Solo entonces se dio cuenta de que había visto a Leo obedecer. El problema salía a la luz al repetir la jugada despacio.',
+      'Probaron otras dos palabras antes de volver a la pista. «Ola» señalaba un lado; «gradas», el otro. Leo las repitió primero de cara a Mara y luego mirando a la otra portería. En ambas ocasiones caminó hacia la misma pared al oír cada palabra. Quedaron en que usarlas serviría sobre todo cuando él tuviera que darse la vuelta para escucharla.',
+      'Al final del partido, el equipo contrario hizo un pase hacia el lado de la ola. Mara vio que Leo se desplazaba antes de que ella abriera la boca. Él evitó el tiro y despejó hacia las gradas. El balón acabó fuera. Mientras otro jugador iba a recogerlo, Mara le preguntó cómo había sabido adónde ir. Leo le señaló a la rival que había buscado el mismo hueco en la primera parte. Esta vez se había fijado en ella al preparar el pase. De camino al vestuario, Mara le preguntó qué otras cosas había visto desde delante de la portería.',
+    ],
+    images: [
+      { id: 'gimnasio-de-la-ola', src: 'assets/readings/l093-gimnasio-de-la-ola.webp', width: 960, height: 640, alt: 'Mara, en la portería, y Leo entrenan en el gimnasio, entre el mural de una ola y las gradas.', afterParagraph: 1 },
+      { id: 'balon-junto-a-la-ola', src: 'assets/readings/l093-balon-junto-a-la-ola.webp', width: 960, height: 640, alt: 'Un balón junto a la línea de banda y el mural azul.', afterParagraph: 4 },
+    ],
+    questions: [
+      { id: 'lado-ola-q1', type: 'literal', prompt: '¿Qué dos referencias hay en las paredes largas del gimnasio?', answer: 'En una pared hay un mural con una ola azul y junto a la de enfrente están las gradas de madera.', lines: 2 },
+      { id: 'lado-ola-q2', type: 'inference', prompt: 'En la primera jugada, ¿hacia dónde quería Mara que se moviera Leo? ¿Por qué él fue al otro lado al seguir su indicación?', answer: 'Mara quería que defendiera el lado de la ola, que queda a la derecha de ella. Leo estaba de cara a Mara, así que a su derecha quedaban las gradas.', lines: 4 },
+      { id: 'lado-ola-q3', type: 'vocabulary', prompt: '¿Qué quiere decir que el problema «salía a la luz»? ¿Qué había entendido mal Mara al principio?', answer: 'Quiere decir que se hizo visible o que pudieron darse cuenta de cuál era. Mara creía que Leo, por nervios, había ido al lado contrario; él había seguido su propia derecha.', lines: 3 },
+      { id: 'lado-ola-q4', type: 'structure', prompt: '¿Para qué sirve que el relato vuelva a mostrar casi la misma jugada al acabar la primera parte? Menciona qué se puede ver entonces que no se entendía durante el partido.', answer: 'Permite descubrir por qué Leo se movió hacia las gradas. Al levantar cada uno su brazo derecho, queda claro que, al mirarse, estaban señalando paredes opuestas.', lines: 4 },
+      { id: 'lado-ola-q5', type: 'inference', prompt: 'Al oír «ola», Leo gira media vuelta. ¿Por qué esto no cambia el lugar adonde debe ir, mientras que sí cambia el lado al que iría si oye «derecha»?', answer: 'La ola está pintada en una pared fija. La derecha depende de hacia dónde mire Leo; al darse la vuelta, su derecha apunta al lado contrario.', lines: 3 },
+      { id: 'lado-ola-q6', type: 'inference', prompt: '¿Qué hace Leo en la última jugada que muestra que también ha aprendido a leer lo que pasa en la pista? Apóyate en dos detalles.', answer: 'Empieza a moverse antes de que Mara le avise. Ha observado a la jugadora que ya había usado aquel hueco al principio y se anticipa a lo que va a hacer.', lines: 4 },
+      { id: 'lado-ola-q7', type: 'inference', prompt: 'Al principio Mara da indicaciones; al final le hace una pregunta a Leo. ¿Qué cambio en su manera de tratarlo sugiere ese detalle?', answer: 'Ya no solo lo ve como alguien que ha de seguir sus indicaciones. Reconoce que Leo observa cosas desde su posición que ella no siempre ve y quiere que se las explique.', lines: 4 },
+      { id: 'lado-ola-q8', type: 'opinion', prompt: 'Si las gradas fueran móviles y las cambiaran de lado en el descanso, ¿conservarías la señal «gradas» o buscarías otra? Propón una opción y explica qué debería cumplir.', answer: 'Respuesta abierta. Por ejemplo, la cambiaría por «ventanas» si estas están en esa pared. La señal debe indicar un lugar reconocible para ambos y mantenerse aunque cambie su posición en la pista.', lines: 4 },
+    ],
+    annotations: [
+      { paragraph: 2, text: 'rozó', definition: 'Pasó tan cerca que llegó a tocar ligeramente.' },
+      { paragraph: 3, text: 'salía a la luz', questionId: 'lado-ola-q3' },
+      { paragraph: 5, text: 'despejó', definition: 'Golpeó el balón para alejarlo de la zona donde podía llegar a su portería.' },
+    ],
+  },
+];
