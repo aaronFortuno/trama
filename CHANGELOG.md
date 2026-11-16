@@ -8,6 +8,8 @@ S’incorpora «El pez que nadó al revés» (L094), una lectura llarga i avanç
 
 S’incorpora «La playa que viajó con las olas» (L095), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.
 
+S’incorpora «El menú de las dos tortillas» (L096), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.
+
 ## 1.19.1 · 16 de novembre de 2026
 
 Les il·lustracions de les fitxes ocupen per defecte el 48% de l’amplada útil. Quan n’hi ha més d’una, s’alineen alternativament a l’esquerra i a la dreta.
