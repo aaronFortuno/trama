@@ -2,11 +2,11 @@ import { rasterImagePattern, tramaLogo } from './local-images.js';
 import { worksheetFonts } from './worksheet-fonts.js';
 
 const stableId = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
-export const imageDefaults = Object.freeze({ visible: true, width: 36, position: 'right', wrap: true });
+const legacyImageDefaults = Object.freeze({ visible: true, width: 36, position: 'right', wrap: true });
 export const marginLimits = Object.freeze({ min: 8, max: 32 });
 export const maxAnswerLines = 8;
 export const answerStyles = Object.freeze({ blank: 'BLANC', lines: 'LINIES', dots: 'PUNTS', grid: 'QUADRICULA' });
-export const formatVersion = 3;
+export const formatVersion = 4;
 const legacyAnswerDefaults = { questionGap: 4, answerGap: 7, answerWeight: .2 };
 
 const numberIn = (min, max, step = 1) => value => Number.isFinite(value) && value >= min && value <= max
@@ -76,6 +76,19 @@ export function defaultSettings() {
   return { ...settings, excluded: [], questionLines: Object.create(null), images: Object.create(null) };
 }
 
+export function defaultImageConfig(reading, index) {
+  return {
+    visible: true,
+    width: 48,
+    position: reading.images.length > 1 && index % 2 === 0 ? 'left' : 'right',
+    wrap: true,
+  };
+}
+
+function applyLegacyImageDefaults(reading, settings) {
+  for (const { id } of reading.images) settings.images[id] = { ...legacyImageDefaults };
+}
+
 export function migrateAnswerFormat(answers, paragraphGap) {
   return { ...answers, questionGap: Math.max(0, answers.questionGap - paragraphGap) };
 }
@@ -141,9 +154,10 @@ export function makeLinkCode(reading, settings) {
   const lines = reading.questions.filter(question => Object.hasOwn(settings.questionLines, question.id))
     .map(question => `${questionCode(question)}:${settings.questionLines[question.id]}`);
   if (lines.length) tokens.push(`RES=${lines.join(',')}`);
-  for (const { id } of reading.images) {
+  for (const [index, { id }] of reading.images.entries()) {
     const image = settings.images[id];
-    if (image && Object.keys(imageDefaults).some(key => image[key] !== imageDefaults[key])) {
+    const defaults = defaultImageConfig(reading, index);
+    if (image && Object.keys(defaults).some(key => image[key] !== defaults[key])) {
       tokens.push(`I-${id.toUpperCase()}=${image.visible ? '' : 'NO/'}${positions[image.position]}/${image.width}/${image.wrap ? 'TEXT' : 'BLOC'}`);
     }
   }
@@ -180,10 +194,13 @@ function readReadable(code, readings) {
   const settings = Object.assign(defaultSettings(), sharedLayoutDefaults);
   const versionToken = tokens[0]?.toUpperCase();
   const currentFormat = versionToken === `V=${formatVersion}`;
+  const versionThree = versionToken === 'V=3';
   const versionTwo = versionToken === 'V=2';
-  const legacyFormat = tokens.length > 0 && !currentFormat && !versionTwo;
-  if (!currentFormat && tokens.length) settings.headerGroup = true;
-  if (currentFormat || versionTwo) tokens.shift();
+  const licenseFormat = currentFormat || versionThree;
+  const legacyFormat = tokens.length > 0 && !licenseFormat && !versionTwo;
+  if (!currentFormat && tokens.length) applyLegacyImageDefaults(reading, settings);
+  if (!licenseFormat && tokens.length) settings.headerGroup = true;
+  if (licenseFormat || versionTwo) tokens.shift();
   if (legacyFormat) Object.assign(settings, legacyAnswerDefaults);
   const questionIds = new Map(reading.questions.map(question => [upper(questionCode(question)), question.id]));
   const suffix = identifier.slice(baseCode(reading).length);
@@ -211,7 +228,7 @@ function readReadable(code, readings) {
       if (margins.length !== 4 || !margins.every(margin)) return null;
       marginKeys.forEach((key, index) => { settings[key] = margins[index]; });
     } else if (label === 'CAP' || label === 'PEU') {
-      const flags = label === 'CAP' ? headerFlags : currentFormat ? footerFlags : legacyFooterFlags;
+      const flags = label === 'CAP' ? headerFlags : licenseFormat ? footerFlags : legacyFooterFlags;
       if (!applyFlags(settings, flags, upper(raw))) return null;
     } else if (label === 'AMAGA' || label === 'RES') {
       for (const entry of upper(raw).split(',')) {
@@ -244,6 +261,7 @@ function readLegacy(code, readings) {
   if (!reading) return null;
   const settings = defaultSettings();
   Object.assign(settings, sharedLayoutDefaults, legacyAnswerDefaults);
+  applyLegacyImageDefaults(reading, settings);
   settings.headerGroup = true;
   settings.leading = 1.5;
   if (encoded === undefined) return { reading, settings: migrateAnswerFormat(settings, settings.paragraphGap) };

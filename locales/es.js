@@ -121,7 +121,8 @@ Text instructiu|Texto instructivo
 Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
-v1.19 · Obre l’historial de canvis|v1.19 · Abrir el historial de cambios
+v1.19.1 · Obre l’historial de canvis|v1.19.1 · Abrir el historial de cambios
+Les il·lustracions de les fitxes ocupen per defecte el 48% de l’amplada útil. Quan n’hi ha més d’una, s’alineen alternativament a l’esquerra i a la dreta.|Las ilustraciones de las fichas ocupan por defecto el 48 % del ancho útil. Cuando hay más de una, se alinean alternativamente a la izquierda y a la derecha.
 S’incorpora «El nudo del cielo» (L089), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.|Se incorpora «El nudo del cielo» (L089), una lectura larga y avanzada de 6.º de primaria en castellano, con dos ilustraciones, preguntas y solucionario.
 S’incorpora «Una carta dentro del barro» (L090), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.|Se incorpora «Una carta dentro del barro» (L090), una lectura larga y avanzada de 6.º de primaria en castellano, con dos ilustraciones, preguntas y solucionario.
 S’incorpora «El turno de las polillas» (L091), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.|Se incorpora «El turno de las polillas» (L091), una lectura larga y avanzada de 6.º de primaria en castellano, con dos ilustraciones, preguntas y solucionario.

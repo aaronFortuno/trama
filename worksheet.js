@@ -1,4 +1,4 @@
-import { imageDefaults, maxAnswerLines, questionLines } from './worksheet-code.js';
+import { defaultImageConfig, maxAnswerLines, questionLines } from './worksheet-code.js';
 import { language, t } from './i18n.js';
 import { icon } from './icons.js';
 import { logoSource, tramaLogo } from './local-images.js';
@@ -388,8 +388,8 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
 
   const anchors = new Map();
   if (settings.showImages) {
-    for (const image of reading.images) {
-      const config = settings.images[image.id] || imageDefaults;
+    for (const [index, image] of reading.images.entries()) {
+      const config = settings.images[image.id] ?? defaultImageConfig(reading, index);
       if (!config.visible) continue;
       const group = anchors.get(image.afterParagraph) || [];
       group.push({ image, config });

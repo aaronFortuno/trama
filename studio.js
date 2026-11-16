@@ -1,5 +1,5 @@
 import { labelFor, wordCount } from './catalog.js';
-import { defaultQuestionLines, defaultSettings, imageDefaults, marginLimits, maxAnswerLines, questionLines, readCode, validSetting } from './worksheet-code.js';
+import { defaultImageConfig, defaultQuestionLines, defaultSettings, marginLimits, maxAnswerLines, questionLines, readCode, validSetting } from './worksheet-code.js';
 import { renderWorksheet, worksheetThumbnail } from './worksheet.js';
 import { supportsHyphenation } from './worksheet-hyphenation.js';
 import { animateRefresh, mountDisclosures, setDisclosure } from './motion.js';
@@ -402,8 +402,10 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
       if (amount.value !== value) amount.value = value;
       amount.disabled = !included || solution.checked;
     });
-    for (const card of contentForm.querySelectorAll('[data-image]')) {
-      const config = settings.images[card.dataset.image] || imageDefaults;
+    const imageRows = find('#studio-images').children;
+    reading.images.forEach(({ id }, index) => {
+      const card = imageRows[index];
+      const config = settings.images[id] ?? defaultImageConfig(reading, index);
       setDisclosure(card.querySelector('.studio-image-options'), config.visible, { animated });
       card.querySelector('[data-image-width]').value = `${config.width}%`;
       for (const input of card.querySelectorAll('[data-image-key]')) {
@@ -415,7 +417,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
           input.checked = config.wrap && !input.disabled;
         }
       }
-    }
+    });
     legacyFontOption.hidden = settings.font !== 'mono';
     syncSelects(root);
     templates.syncPicker();
@@ -483,7 +485,9 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
       setQuestionSpace(question, input.valueAsNumber);
     } else if (input.dataset.imageKey) {
       const id = input.closest('[data-image]').dataset.image;
-      settings.images[id] = { ...imageDefaults, ...settings.images[id], [input.dataset.imageKey]: value };
+      const index = reading.images.findIndex(image => image.id === id);
+      const config = settings.images[id] ?? defaultImageConfig(reading, index);
+      settings.images[id] = { ...config, [input.dataset.imageKey]: value };
     } else if (Object.hasOwn(settings, input.name)) {
       settings[input.name] = input.name === 'leading' ? Math.round(value * 20) / 10 : value;
     } else {
