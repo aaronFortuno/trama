@@ -231,6 +231,163 @@ export const readings4Ca = [
     ],
   },
   {
+    id: 'una-funda-per-a-la-llavor-ca',
+    code: 'L030',
+    title: 'Una funda per a la llavor',
+    summary: 'Obrir una beina seca permet observar com guarda les llavors una planta de l’hort.',
+    paragraphs: [
+      'A l’hort de l’escola, la mestra va deixar algunes mongetes tendres sense collir. Els alumnes van pensar que se n’havia oblidat. Dues setmanes més tard, els va demanar que s’acostessin a la planta. Les beines que hi havien quedat ja no eren verdes ni toves: tenien un color marronós i cruixien quan les tocaven.',
+      'La beina és el fruit de la mongetera. Les llavors creixen a dins seu. Quan és jove, la beina sol ser tendra. Quan s’asseca, s’endureix i, en algunes plantes, es pot obrir tota sola. Per això la mestra va recollir les beines seques damunt d’una safata abans no es perdessin les llavors.',
+      'Els nens van obrir una beina i hi van observar sis llavors. Cadascuna estava subjecta per un punt petit. Les van deixar en un plat uns quants dies per assegurar-se que eren seques. Després les van desar en un sobre amb el nom de la planta i el mes en què les havien recollit.',
+      'A la primavera, la classe sembrarà algunes d’aquelles mongetes. Si germinen, de cada llavor en sortirà una planta nova. El sobre servirà per saber què sembren encara que hagin passat uns quants mesos des que les van recollir.',
+    ],
+    imageAlt: {
+      'una-funda-para-la-semilla': 'Una beina seca de mongeta, oberta damunt d’una safata, deixa veure sis llavors.',
+    },
+    questions: [
+      { id: 'una-funda-para-la-semilla-q1', type: 'literal', prompt: 'Quins dos canvis van veure els alumnes a les beines que havien quedat a la planta?', answer: 'Van passar de verdes a marronoses i es van tornar dures o cruixents, en lloc de toves.', lines: 2 },
+      { id: 'una-funda-para-la-semilla-q2', type: 'vocabulary', prompt: 'Què vol dir «germinen» quan es parla de les llavors?', answer: 'Que les llavors comencen a créixer i en surten plantes noves.', lines: 2 },
+      { id: 'una-funda-para-la-semilla-q3', type: 'inference', prompt: 'Per què la mestra va posar una safata a sota quan recollia les beines seques?', answer: 'Perquè algunes es podien obrir i la safata impediria que les llavors caiguessin a terra i es perdessin.', lines: 3 },
+      { id: 'una-funda-para-la-semilla-q4', type: 'literal', prompt: 'Quines dues dades van escriure al sobre?', answer: 'El nom de la planta i el mes en què van recollir les llavors.', lines: 2 },
+      { id: 'una-funda-para-la-semilla-q5', type: 'structure', prompt: 'Ordena les accions: desar les llavors, obrir la beina i deixar assecar les llavors en un plat.', answer: 'Obrir la beina, deixar assecar les llavors en un plat i desar-les al sobre.', lines: 2 },
+    ],
+    annotations: [
+      { paragraph: 4, text: 'germinen', questionId: 'una-funda-para-la-semilla-q2' },
+    ],
+  },
+  {
+    id: 'un-mosaic-que-es-repeteix-ca',
+    code: 'L031',
+    title: 'Un mosaic que es repeteix',
+    summary: 'Una quadrícula i dos llapis basten per crear un mosaic i comprovar si el dibuix segueix una regla.',
+    paragraphs: [
+      'En alguns terres, un dibuix petit es repeteix fins a cobrir tota l’habitació. Pots provar de fer una cosa semblant en paper. Prepara un full quadriculat, un regle i dos llapis de colors. Amb el regle, dibuixa un rectangle de vuit quadrats d’ample i sis d’alt.',
+      '1. Al cantó de dalt a l’esquerra, marca un bloc de dos quadrats d’ample i dos d’alt. Pinta de taronja el quadrat de dalt a l’esquerra i el de baix a la dreta. Pinta de blau els altres dos. Aquest serà el bloc que repetiràs.',
+      '2. Copia el bloc just a la dreta, sense deixar cap espai ni girar el dibuix. Continua copiant-lo fins a arribar a la vora. Quan acabis aquesta fila de blocs, comença’n una altra a sota. Repeteix-ho fins que hagis omplert el rectangle.',
+      '3. Per revisar el mosaic, fixa’t en els quadrats de color taronja. Dins de cada bloc s’han de tocar punta amb punta, mai per un costat. Comprova també que a tots els blocs el quadrat de dalt a l’esquerra sigui de color taronja.',
+      'Si algun bloc ha quedat girat, compara’n els colors amb els del primer. Corregeix només allò que calgui. Pots ampliar el mosaic afegint-hi dues files de quadrats per sota.',
+    ],
+    imageAlt: {
+      'un-mosaico-que-se-repite': 'Una mà pinta una casella d’un full quadriculat. Al costat hi ha un regle i dos llapis de colors.',
+    },
+    questions: [
+      { id: 'un-mosaico-que-se-repite-q1', type: 'literal', prompt: 'Quines mides fa el rectangle on es fa el mosaic?', answer: 'Fa vuit quadrats d’ample i sis d’alt.', lines: 2 },
+      { id: 'un-mosaico-que-se-repite-q2', type: 'vocabulary', prompt: 'Què anomena «bloc» el text?', answer: 'El grup de quatre quadrats que fa dos quadrats d’ample i dos d’alt.', lines: 2 },
+      { id: 'un-mosaico-que-se-repite-q3', type: 'structure', prompt: 'En quin pas es donen indicacions per comprovar que el mosaic estigui ben fet?', answer: 'Al pas 3.', lines: 1 },
+      { id: 'un-mosaico-que-se-repite-q4', type: 'inference', prompt: 'El rectangle fa vuit quadrats d’ample i cada bloc en fa dos. Quants blocs sencers hi caben d’esquerra a dreta? Explica com ho has calculat.', answer: 'Quatre blocs. Es pot dividir vuit entre dos o comptar de dos en dos fins a vuit.', lines: 3 },
+      { id: 'un-mosaico-que-se-repite-q5', type: 'summary', prompt: 'Explica en dues frases què es prepara primer i com s’omple el rectangle.', answer: 'Primer es pinta un bloc de quatre quadrats seguint un model. Després es copia aquell mateix bloc sense girar-lo fins a omplir el rectangle.', lines: 3 },
+    ],
+    annotations: [
+      { paragraph: 2, text: 'bloc', questionId: 'un-mosaico-que-se-repite-q2', occurrence: 1 },
+    ],
+  },
+  {
+    id: 'el-pati-dabans-ca',
+    code: 'L032',
+    title: 'El pati d’abans',
+    summary: 'Una antiga alumna recorda com era el pati de l’escola i explica què continua al mateix lloc.',
+    paragraphs: [
+      'En Nico prepara una exposició sobre l’escola de fa cinquanta anys. Ha trobat una fotografia del pati, però no reconeix el lloc. Ensenya la foto a l’Elena, que hi estudiava quan tenia la seva edat.',
+      '—De debò és el nostre pati?\n—Sí. Aquella porta estreta encara és al costat del gimnàs. A la foto sembla baixa perquè es va fer des de les escales. Fixa’t també en el tronc que treu el cap per l’esquerra: és el mateix plàtan que ara fa ombra als bancs.',
+      '—Què fèieu a l’hora del pati?\n—Una amiga i jo portàvem taps metàl·lics d’ampolla. Dibuixàvem un camí a terra i empenyíem cada tap amb un dit. Si un tap sortia del camí, el tornàvem al punt de partida d’aquell torn. Hi havia qui jugava a prop de la porta, on hi havia menys sots.',
+      '—Ara hi ha una pista pintada. Recordes quan la hi van posar?\n—Quan jo anava a l’escola encara no hi era. La vaig veure per primera vegada quan vaig tornar-hi per una festa. No sé en quin any la van pintar. Potser podeu buscar una foto d’aquella festa a l’arxiu.',
+      '—Què posaries al cartell de l’exposició?\n—Una foto antiga i una altra feta avui des de les mateixes escales. Així serà més fàcil veure què ha canviat i què continua igual.',
+    ],
+    imageAlt: {
+      'el-patio-de-antes': 'En Nico i l’Elena miren una foto antiga. Se’n veu el revers groguenc, amb una anotació borrosa. Al fons hi ha l’arbre i la porta del gimnàs.',
+    },
+    questions: [
+      { id: 'el-patio-de-antes-q1', type: 'literal', prompt: 'Quin objecte empenyien l’Elena i la seva amiga amb un dit a l’hora del pati?', answer: 'Un tap metàl·lic d’ampolla.', lines: 1 },
+      { id: 'el-patio-de-antes-q2', type: 'inference', prompt: 'Quines dues pistes de la foto permeten reconèixer que és el mateix pati?', answer: 'La porta estreta al costat del gimnàs i el tronc del plàtan que ara fa ombra als bancs.', lines: 3 },
+      { id: 'el-patio-de-antes-q3', type: 'vocabulary', prompt: 'Què són els «sots» a terra del pati?', answer: 'Clots o zones enfonsades que fan que el terra sigui irregular.', lines: 2 },
+      { id: 'el-patio-de-antes-q4', type: 'structure', prompt: 'En quina pregunta en Nico demana a l’Elena una dada que ella no recorda?', answer: 'A «Recordes quan la hi van posar?», quan parlen de la pista pintada.', lines: 2 },
+      { id: 'el-patio-de-antes-q5', type: 'summary', prompt: 'Resumeix en dues frases què ha canviat al pati i què encara hi ha.', answer: 'Abans jugaven sobre terra i ara hi ha una pista pintada. La porta estreta i el plàtan encara són al mateix lloc.', lines: 3 },
+    ],
+    annotations: [
+      { paragraph: 3, text: 'sots', questionId: 'el-patio-de-antes-q3' },
+    ],
+  },
+  {
+    id: 'lultima-parada-ca',
+    code: 'L033',
+    title: 'L’última parada',
+    summary: 'Un canvi de recorregut obliga dos germans a combinar el que diu un avís amb el que ja saben del barri.',
+    paragraphs: [
+      'En Joel i la Sara agafaven l’autobús els divendres per anar a natació. Aquella tarda, el conductor va assenyalar un avís enganxat a l’entrada: «Per obres, l’autobús acaba el recorregut a la plaça Major». La seva parada habitual era dos carrers més enllà de la plaça, davant de la piscina.',
+      'Quan van arribar a l’última parada, la Sara va veure les tanques de l’obra. El carrer per on solien passar estava tallat. En Joel va treure el plànol petit que desava a la motxilla. Podien fer la volta pel carrer del Molí, però des d’on eren no es veia on començava.',
+      'Al costat de la parada, una dona passejava el gos. En Joel li va preguntar com podien arribar al carrer del Molí. La dona va assenyalar un pas estret darrere d’una papereria. La Sara va mirar el plànol i va reconèixer el nom de la papereria, que era al costat del començament del carrer.',
+      'El pas era curt. A la cantonada van trobar el carrer del Molí i van fer la volta a les tanques. Van arribar a la piscina cinc minuts més tard del que era habitual. Al vestidor, la Sara va dibuixar una ratlla petita al plànol. «Per si divendres que ve encara hi ha obres», va dir.',
+    ],
+    imageAlt: {
+      'la-ultima-parada': 'En Joel i la Sara consulten un plànol al costat de l’autobús. Unes tanques d’obra tanquen un carrer de la plaça.',
+    },
+    questions: [
+      { id: 'la-ultima-parada-q1', type: 'literal', prompt: 'Per què s’acabava abans el recorregut de l’autobús?', answer: 'Perquè hi havia obres.', lines: 1 },
+      { id: 'la-ultima-parada-q2', type: 'inference', prompt: 'Per què no n’hi havia prou amb caminar els dos carrers que quedaven des de la plaça?', answer: 'Les tanques de l’obra tallaven el carrer per on passaven habitualment.', lines: 2 },
+      { id: 'la-ultima-parada-q3', type: 'vocabulary', prompt: 'Què vol dir que el carrer estava «tallat»?', answer: 'Que no s’hi podia passar.', lines: 2 },
+      { id: 'la-ultima-parada-q4', type: 'inference', prompt: 'Què van esbrinar amb el plànol i què els va explicar la dona per arribar al carrer del Molí?', answer: 'El plànol mostrava que podien anar pel carrer del Molí i que començava al costat de la papereria. La dona els va explicar que podien arribar al carrer des de la parada pel pas que hi havia darrere de la papereria.', lines: 3 },
+      { id: 'la-ultima-parada-q5', type: 'opinion', prompt: 'Si haguessis d’avisar un company que ve més tard amb el mateix autobús, quines dues dades li enviaries primer? Explica la tria.', answer: 'Resposta oberta. Per exemple, que baixi a la plaça Major i busqui el pas darrere de la papereria, perquè l’autobús acaba allà i el carrer habitual està tallat.', lines: 4 },
+    ],
+    annotations: [
+      { paragraph: 2, text: 'tallat', questionId: 'la-ultima-parada-q3' },
+    ],
+  },
+  {
+    id: 'un-refugi-sota-la-pedra-ca',
+    code: 'L034',
+    title: 'Un refugi sota la pedra',
+    summary: 'Observar uns porquets de Sant Antoni ajuda a entendre per què una pedra pot ser un bon refugi.',
+    paragraphs: [
+      'Al jardí de l’escola, els porquets de Sant Antoni s’aplegaven sota una pedra plana. Quan el mestre la va aixecar amb cura, uns quants animals es van moure cap a la vora més fosca. Un es va quedar quiet. Quan el va tocar suaument amb un bri d’herba, el mestre va veure com es feia una bola i amagava les potes.',
+      'Tot i que semblen insectes, els porquets de Sant Antoni són crustacis. Tenen més potes que els insectes. Moltes espècies viuen a terra i busquen llocs humits on no s’assequin amb facilitat. Algunes, com la que va veure la classe, es poden cargolar per protegir les parts més toves del cos.',
+      'En aquell jardí hi havia altres pedres més petites damunt de terra seca. La classe va mirar a sota de dues i no hi va trobar cap porquet de Sant Antoni. Van anotar l’observació, però el mestre els va recordar que havien revisat molt pocs llocs. Podien tornar-hi un altre dia i comparar zones humides i seques de diverses parts del jardí.',
+      'En acabar, el grup va deixar la pedra plana al mateix lloc. La van posar a poc a poc per no aixafar cap animal. Una part del terra va tornar a quedar a les fosques i arrecerada. Els alumnes van dibuixar l’escena en comptes d’endur-se un porquet de Sant Antoni a l’aula.',
+    ],
+    imageAlt: {
+      'un-refugio-bajo-la-piedra': 'Tres porquets de Sant Antoni, de cos ovalat i segmentat, es mouen a prop d’una pedra aixecada.',
+    },
+    questions: [
+      { id: 'un-refugio-bajo-la-piedra-q1', type: 'literal', prompt: 'Què va fer el porquet de Sant Antoni que s’havia quedat quiet quan el mestre el va tocar amb un bri d’herba?', answer: 'Es va fer una bola i va amagar les potes.', lines: 2 },
+      { id: 'un-refugio-bajo-la-piedra-q2', type: 'vocabulary', prompt: 'Què vol dir que una part del terra va tornar a quedar «arrecerada» quan van posar-hi la pedra?', answer: 'Que va quedar coberta i protegida, per exemple, de la llum directa.', lines: 2 },
+      { id: 'un-refugio-bajo-la-piedra-q3', type: 'inference', prompt: 'Per què van tornar la pedra al seu lloc després de mirar?', answer: 'Perquè els animals conservessin el refugi fosc i protegit.', lines: 2 },
+      { id: 'un-refugio-bajo-la-piedra-q4', type: 'structure', prompt: 'Quins dos comportaments explica el segon paràgraf?', answer: 'Buscar llocs humits i, en algunes espècies, cargolar-se per protegir les parts més toves.', lines: 2 },
+      { id: 'un-refugio-bajo-la-piedra-q5', type: 'inference', prompt: 'Si volen esbrinar si els porquets de Sant Antoni prefereixen les zones humides, per què convé mirar a sota de més de dues pedres que siguin sobre terra seca?', answer: 'Amb tan pocs llocs podria ser casualitat que no n’haguessin trobat cap. Observar més indrets humits i secs permet fer una comparació més bona.', lines: 3 },
+    ],
+    annotations: [
+      { paragraph: 1, text: 'bri', definition: 'Trosset prim d’herba.' },
+      { paragraph: 2, text: 'crustacis', definition: 'Grup d’animals al qual pertanyen, per exemple, els crancs i les gambes.' },
+      { paragraph: 4, text: 'arrecerada', questionId: 'un-refugio-bajo-la-piedra-q2' },
+    ],
+  },
+  {
+    id: 'com-fer-parlar-una-porta-ca',
+    code: 'L035',
+    title: 'Com fer parlar una porta',
+    summary: 'Un taller de teatre d’ombres ensenya a combinar sons per representar una porta sense fer-ne servir una de debò.',
+    paragraphs: [
+      'En un teatre d’ombres, el públic veu figures darrere d’un llençol il·luminat. El so pot ajudar a imaginar allò que no surt dibuixat. En aquesta prova, representaràs una porta que s’obre a poc a poc i es tanca de cop. Prepara un regle de plàstic, una taula ferma, un llibre gruixut i un drap.',
+      '1. Recolza gairebé tot el regle damunt de la taula i deixa que en sobresurti un extrem. Subjecta la part que queda damunt de la taula amb una mà. Amb l’altra, prem suaument la punta que queda a l’aire i deixa-la anar. Escolta el brunzit. Si vols canviar el so, prova de deixar un tros més curt fora de la taula.',
+      '2. Per fer el cop de porta, deixa caure el llibre des de molt a prop de la taula. Busca un so clar i que el cop no sigui massa fort. Posa un drap plegat sota el llibre si necessites suavitzar-lo.',
+      '3. Demana a algú que escolti sense mirar. Fes sonar primer el regle i, després d’una pausa, deixa caure el llibre. Pregunta-li què s’ha imaginat. Si els dos sons semblen un sol soroll, allarga la pausa i repeteix la prova.',
+      '4. Assaja els sons amb les figures. Comença el brunzit quan es mogui la porta de cartró i reserva el cop per al moment que es tanqui.',
+    ],
+    imageAlt: {
+      'como-hacer-hablar-a-una-puerta': 'En un teatre d’ombres, una nena escolta al costat d’una taula on hi ha un regle, un llibre i un drap plegat.',
+    },
+    questions: [
+      { id: 'como-hacer-hablar-a-una-puerta-q1', type: 'literal', prompt: 'Quin objecte fas vibrar per representar la porta que s’obre?', answer: 'El regle de plàstic.', lines: 1 },
+      { id: 'como-hacer-hablar-a-una-puerta-q2', type: 'vocabulary', prompt: 'Què vol dir que un extrem del regle «sobresurti»?', answer: 'Que una part queda més enllà de la vora de la taula.', lines: 2 },
+      { id: 'como-hacer-hablar-a-una-puerta-q3', type: 'inference', prompt: 'Si el cop del llibre és massa fort, quin canvi proposa el text i com hi ajuda?', answer: 'Proposa posar un drap plegat sota el llibre. El drap esmorteeix o suavitza el cop.', lines: 2 },
+      { id: 'como-hacer-hablar-a-una-puerta-q4', type: 'structure', prompt: 'Què proves primer amb una persona que escolta i què hi afegeixes a l’últim pas?', answer: 'Primer proves només els sons. A l’últim pas els fas coincidir amb el moviment de les figures.', lines: 3 },
+      { id: 'como-hacer-hablar-a-una-puerta-q5', type: 'inference', prompt: 'Per què la persona del pas 3 ha d’escoltar sense mirar?', answer: 'Així pots comprovar si els sons fan pensar en una porta encara que no vegi que els fas amb un regle i un llibre.', lines: 3 },
+      { id: 'como-hacer-hablar-a-una-puerta-q6', type: 'opinion', prompt: 'Quin altre so afegiries a una escena amb aquella porta? Explica en quin moment se sentiria i com el faries.', answer: 'Resposta oberta. Per exemple, unes passes abans d’obrir la porta, picant suaument amb els dits damunt de la taula.', lines: 4 },
+    ],
+    annotations: [
+      { paragraph: 2, text: 'sobresurti', questionId: 'como-hacer-hablar-a-una-puerta-q2' },
+      { paragraph: 2, text: 'brunzit', definition: 'So seguit, com el que fa una abella quan vola.' },
+    ],
+  },
+  {
     id: 'el-punt-que-faltava-ca',
     code: 'L036',
     title: 'El punt que faltava',
