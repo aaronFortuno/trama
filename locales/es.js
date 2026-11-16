@@ -121,7 +121,8 @@ Text instructiu|Texto instructivo
 Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
-v1.17.2 · Obre l’historial de canvis|v1.17.2 · Abrir el historial de cambios
+v1.18 · Obre l’historial de canvis|v1.18 · Abrir el historial de cambios
+S’incorpora «La maleta que no quería cerrar» (L085), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.|Se incorpora «La maleta que no quería cerrar» (L085), una lectura larga y avanzada de 6.º de primaria en castellano, con dos ilustraciones, preguntas y solucionario.
 L’interruptor de les notes de vocabulari té una fila pròpia al lateral de contingut. Si la lectura no té notes, la fila indica «Cap nota» i l’interruptor està desactivat.|El interruptor de las notas de vocabulario tiene su propia fila en el panel de contenido. Si la lectura no tiene notas, la fila indica «Sin notas» y el interruptor está desactivado.
 El lateral de contingut permet amagar les notes de vocabulari i els seus superíndexs. Per defecte es mostren.|El panel lateral de contenido permite ocultar las notas de vocabulario y sus superíndices. Se muestran de forma predeterminada.
 Les expressions citades a les preguntes de vocabulari se subratllen al text. Algunes lectures inclouen notes de vocabulari numerades abans de les preguntes.|Las expresiones citadas en las preguntas de vocabulario se subrayan en el texto. Algunas lecturas incluyen notas de vocabulario numeradas antes de las preguntas.

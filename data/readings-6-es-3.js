@@ -1,0 +1,41 @@
+export const readings6EsThirdSeries = [
+  {
+    id: 'la-maleta-que-no-queria-cerrar-es',
+    code: 'L085',
+    workId: 'la-maleta-que-no-queria-cerrar',
+    language: 'es',
+    level: '6-primary',
+    difficulty: 'advanced',
+    themes: ['everyday', 'community'],
+    genre: 'narrative',
+    title: 'La maleta que no quería cerrar',
+    summary: 'Dos hermanos empaquetan sus recuerdos antes de mudarse y descubren que algunas cosas ocupan mucho menos espacio del que imaginaban.',
+    paragraphs: [
+      'El último domingo en el piso de la abuela, Alma tendió la maleta abierta en el pasillo. A las doce vendrían a buscar los muebles. Solo quedaba por llenar aquella maleta con las cosas que los dos hermanos quisieran llevarse. Alma metió un juguete de cuerda envuelto en un paño y un sobre de fotografías. Cuando quiso cerrar la tapa, Mateo apoyó una mano en el borde.',
+      '—Falta la puerta —dijo él. Alma miró el marco. Desde que eran pequeños, su abuela anotaba allí cuánto medían. Cada raya tenía una fecha y, al lado, una A o una M. Había también una marca torcida que no llevaba ninguna inicial. La abuela decía que era del día en que Mateo se había alzado de puntillas sin que nadie lo viera. A Alma siempre le había parecido un chiste que su hermano fingía no entender.',
+      'Alma ofreció hacer una foto. Mateo le preguntó si, al llegar a la otra casa, podrían ponerse junto a la foto para saber cuánto habían crecido. Alma iba a responder que daba igual, pero miró la imagen en el teléfono: había fotografiado la puerta de lado para que en el encuadre cupiera entera. Al lado del picaporte se veían algunas fechas, pero bastaba con separar dos dedos en la pantalla para que cambiara la distancia entre las rayas. No sabía a qué tamaño tendría que imprimir la foto.',
+      'Buscó un rollo de papel y lo apoyó en el suelo, junto al marco. Mateo sostuvo el extremo de abajo. Alma copió las rayas a la altura a la que estaban y añadió las fechas y las iniciales. Al llegar a la marca torcida, trazó una línea derecha por costumbre. Mateo le tocó el hombro. Alma borró la línea, la dibujó inclinada y, en el lugar de la inicial, dejó el papel tal como estaba.',
+      'La tira de papel enrollada cabía debajo del paño. La maleta se cerró sin esfuerzo. Cuando llegaron al piso nuevo, Mateo quiso pegar la tira a la altura de sus ojos. Alma le señaló el zócalo de la pared y entre los dos dejaron que el papel bajara hasta tocar el suelo. Entonces Mateo se puso recto, con los talones juntos. Alma alzó el lápiz para dibujar la primera raya de la casa nueva. Antes de marcarla, él le pidió que esperase. Quería apuntar, al pie de la tira, la fecha en que se habían despedido de la otra casa.',
+    ],
+    images: [
+      { id: 'maleta-en-el-pasillo', src: 'assets/readings/l085-maleta-en-el-pasillo.webp', width: 960, height: 640, alt: 'Una maleta abierta en el pasillo, junto al marco de una puerta con marcas de lápiz.', afterParagraph: 1 },
+      { id: 'recuerdos-en-la-maleta', src: 'assets/readings/l085-recuerdos-en-la-maleta.webp', width: 960, height: 640, alt: 'Detalle de la maleta con el juguete envuelto, un sobre y el rollo de papel.', afterParagraph: 4 },
+    ],
+    questions: [
+      { id: 'la-maleta-q1', type: 'literal', prompt: '¿Qué dos cosas metió Alma en la maleta antes de que hablara Mateo?', answer: 'Un juguete de cuerda envuelto en un paño y un sobre de fotografías.', lines: 2 },
+      { id: 'la-maleta-q2', type: 'inference', prompt: 'Cuando Mateo dice «Falta la puerta», ¿qué quiere llevarse de verdad? Usa una pista de lo que hace después.', answer: 'Quiere conservar las marcas a su altura real para seguir comparando cuánto crecen. Por eso pregunta si podrán ponerse junto a la foto para medirse.', lines: 3 },
+      { id: 'la-maleta-q3', type: 'vocabulary', prompt: '¿Qué significa «encuadre» cuando Alma fotografía la puerta? ¿Qué intentaba incluir?', answer: 'Es la parte de la escena que queda dentro de la foto. Alma quería que se viera la puerta entera.', lines: 2 },
+      { id: 'la-maleta-q4', type: 'inference', prompt: '¿Qué detalle de la foto hace cambiar de idea a Alma? Explica por qué una tira de papel le permite resolver ese problema.', answer: 'Al ampliar la foto, cambia la distancia entre las rayas; la imagen no fija su altura real. Al copiarlas en la tira, toman el suelo como punto de partida y mantienen las alturas.', lines: 4 },
+      { id: 'la-maleta-q5', type: 'inference', prompt: '¿Por qué crees que Mateo toca el hombro de Alma al verla dibujar la raya derecha? Apoya tu respuesta en el recuerdo de la abuela.', answer: 'Quiere que conserve la marca tal como era. Al quedar torcida y sin inicial, recuerda la anécdota de cuando se puso de puntillas.', lines: 3 },
+      { id: 'la-maleta-q6', type: 'structure', prompt: 'El suelo se menciona en la casa antigua y en la nueva. ¿Qué función desempeña en cada momento del relato?', answer: 'En la antigua sirve como punto de partida para copiar las rayas. En la nueva, volver a apoyar la tira en el suelo permite colocar las marcas a la altura que tenían.', lines: 3 },
+      { id: 'la-maleta-q7', type: 'inference', prompt: '¿Por qué crees que Mateo quiere anotar cuándo se despidieron de la otra casa? Relaciónalo con lo que anotaba su abuela en el marco.', answer: 'La abuela anotaba la fecha de cada medida para que recordaran cuándo sucedió. Mateo quiere usar la tira también para recordar la despedida, otra fecha importante para los hermanos.', lines: 4 },
+      { id: 'la-maleta-q8', type: 'summary', prompt: 'Explica en dos o tres frases cómo cambia lo que los hermanos se llevan. Incluye la primera solución que propuso Alma y la que usan al final.', answer: 'Alma propone llevarse una foto, pero así no pueden comparar sus alturas. Los hermanos copian las marcas en una tira de papel, incluida la raya torcida, y la colocan desde el suelo en la casa nueva.', lines: 4 },
+      { id: 'la-maleta-q9', type: 'opinion', prompt: 'Si tú prepararas la primera marca de la casa nueva, ¿qué escribirías además de la fecha? Justifica tu elección con un detalle de la historia.', answer: 'Respuesta abierta. Por ejemplo, conservaría las iniciales para reconocer quién se ha medido, como hacía la abuela, o añadiría una nota breve del día para recordar la mudanza.', lines: 3 },
+    ],
+    annotations: [
+      { paragraph: 3, text: 'picaporte', definition: 'Pieza que se acciona con la mano para abrir una puerta.' },
+      { paragraph: 3, text: 'encuadre', questionId: 'la-maleta-q3' },
+      { paragraph: 5, text: 'zócalo', definition: 'Tira que protege la parte de abajo de una pared, junto al suelo.' },
+    ],
+  },
+];
