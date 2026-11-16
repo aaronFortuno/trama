@@ -140,12 +140,9 @@ const template = `
     <aside class="studio-settings studio-content" aria-labelledby="studio-content-title">
       <div class="studio-panel-heading">
         <h2 id="studio-content-title">Contingut</h2>
-        <label class="studio-solution-toggle"><input id="studio-solution" type="checkbox" role="switch" aria-label="Mostra el solucionari"> Solucionari</label>
+        <label class="studio-solution-toggle"><input id="studio-solution" class="studio-switch" type="checkbox" role="switch" aria-label="Mostra el solucionari"> Solucionari</label>
       </div>
       <form class="studio-form scroll-pane">
-        <div class="studio-controls studio-vocabulary-control" hidden>
-          ${check('showVocabulary', 'Mostra les notes de vocabulari')}
-        </div>
         <details open>
           <summary>Preguntes <span class="studio-detail-count" id="studio-question-count"></span></summary>
           <div class="studio-controls" id="studio-questions"></div>
@@ -172,6 +169,13 @@ const template = `
             <div id="studio-images"></div>
           </div>
         </details>
+        <label class="studio-vocabulary-control">
+          <span class="studio-vocabulary-copy">
+            <span id="studio-vocabulary-label">Notes de vocabulari</span>
+            <small id="studio-vocabulary-empty" hidden>Cap nota</small>
+          </span>
+          <input class="studio-switch" name="showVocabulary" type="checkbox" role="switch" aria-labelledby="studio-vocabulary-label" disabled>
+        </label>
       </form>
       <div class="studio-print">
         <p id="studio-export-status" role="status" hidden></p>
@@ -224,6 +228,8 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
   const forms = [...root.querySelectorAll('.studio-form')];
   const licenseControl = find('[name="showLicense"]').closest('label');
   const contentForm = find('.studio-content .studio-form');
+  const vocabulary = contentForm.elements.showVocabulary;
+  const vocabularyEmpty = find('#studio-vocabulary-empty');
   const pages = find('#studio-pages');
   const stage = find('.studio-paper-stage');
   const preview = mountPreviewZoom(stage, pages, find('.studio-zoom'));
@@ -346,7 +352,10 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
     find('#studio-images').replaceChildren(...reading.images.map(imageControls));
     for (const caption of find('#studio-images').querySelectorAll('.studio-image-title span')) caption.lang = reading.language;
     contentForm.elements.showImages.disabled = !reading.images.length;
-    find('.studio-vocabulary-control').hidden = !reading.annotations?.some(annotation => annotation.definition);
+    vocabulary.disabled = !reading.annotations?.some(annotation => annotation.definition);
+    vocabularyEmpty.hidden = !vocabulary.disabled;
+    if (vocabulary.disabled) vocabulary.setAttribute('aria-describedby', vocabularyEmpty.id);
+    else vocabulary.removeAttribute('aria-describedby');
   }
 
   function syncControls(animated = true) {
@@ -354,7 +363,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
     for (const input of root.querySelectorAll('.studio-form [name]')) {
       const value = input.name === 'leading' ? Math.round(settings.leading * 50) / 100 : settings[input.name];
       if (input.type === 'checkbox') {
-        input.checked = settings[input.name] && (input.name !== 'hyphenate' || !input.disabled);
+        input.checked = value && (!input.disabled || !['hyphenate', 'showVocabulary'].includes(input.name));
       }
       else if (input.type === 'radio') input.checked = input.value === value;
       else if (input.value !== String(value)) input.value = value;

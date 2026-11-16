@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.17.2 · 16 de novembre de 2026
+
+L’interruptor de les notes de vocabulari té una fila pròpia al lateral de contingut. Si la lectura no té notes, la fila indica «Cap nota» i l’interruptor està desactivat.
+
 ## 1.17.1 · 16 de novembre de 2026
 
 El lateral de contingut permet amagar les notes de vocabulari i els seus superíndexs. Per defecte es mostren.
