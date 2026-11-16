@@ -1,6 +1,8 @@
 # Trama
 
-Catàleg de comprensions lectores imprimibles d’ortogra.fi. Inclou fitxes en castellà per a primària. La interfície es pot fer servir en català i castellà. Les fitxes mostren els rètols en l’idioma de la lectura quan hi ha una traducció disponible.
+Catàleg de comprensions lectores imprimibles d’ortogra.fi. Inclou fitxes de primària en castellà i català. La interfície es pot fer servir en català i castellà. Les fitxes mostren els rètols en l’idioma de la lectura quan hi ha una traducció disponible.
+
+Les versions d’una mateixa lectura comparteixen codi. El selector **Altres versions**, al costat del títol de la fitxa, permet canviar la llengua i conservar els ajustos i el punt de lectura.
 
 A la previsualització, mantén premut Ctrl i gira la roda del ratolí per fer zoom, o fes servir els botons del visor. El zoom de pantalla conserva les mides de la fitxa impresa.
 
@@ -47,6 +49,7 @@ GitHub Pages serveix l’arrel de `main`. El fitxer `.nojekyll` permet servir di
 El catàleg s’exporta des de `data/readings.js` com una llista d’objectes JavaScript. Les sèries de 5è i 6è es troben a `data/readings-5-es*.js` i `data/readings-6-es*.js`, respectivament. Les lectures de 4t es troben a `data/readings-4-es.js`. Els filtres es deriven de les dades i el catàleg mostra les fitxes per tandes.
 
 - Assigna un `id` únic i estable a cada versió. Comparteix el `workId` i el `code` (per exemple, `L001`) entre les traduccions d’una mateixa lectura.
+- A `data/readings-5-ca.js`, les versions catalanes de L001–L005 indiquen el codi de l’original i aporten el text, els exercicis, les anotacions i els textos alternatius de les imatges. Conserva l’identificador d’una pregunta si planteja la mateixa tasca en totes dues llengües.
 - Fes servir `language` amb una etiqueta BCP 47 i `level` amb un identificador de curs. `catalog.js` recull els noms habituals dels filtres. `worksheet.js` conté els rètols impresos en català, castellà i anglès. Les llengües sense rètols propis fan servir els anglesos.
 - Introdueix el text a `paragraphs`, un element per paràgraf. L’extensió es calcula pel recompte de paraules amb els llindars de cada curs definits a `catalog.js`. Quan incorporis un curs nou, afegeix-hi els seus llindars. Fins aleshores, l’extensió d’aquell curs apareix com a «Sense especificar».
 - Assigna `difficulty` dins del curs, tenint en compte el vocabulari, l’estructura del text i el raonament que demanen les preguntes.

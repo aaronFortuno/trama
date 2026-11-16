@@ -10,8 +10,9 @@ import { readings6EsThirdSeries } from './readings-6-es-3.js';
 import { readings6EsFourthSeries } from './readings-6-es-4.js';
 import { readings6EsFifthSeries } from './readings-6-es-5.js';
 import { annotationsEs } from './annotations-es.js';
+import { readings5Ca } from './readings-5-ca.js';
 
-export const readings = [
+const originalReadings = [
   {
     id: 'el-cartel-de-la-plaza-es',
     code: 'L001',
@@ -203,3 +204,19 @@ export const readings = [
   const annotations = reading.annotations ?? (reading.language === 'es' ? annotationsEs[reading.code] : undefined);
   return annotations ? { ...reading, annotations } : reading;
 });
+
+const originalsByCode = new Map(originalReadings.map(reading => [reading.code, reading]));
+
+export const readings = [
+  ...originalReadings,
+  ...readings5Ca.map(({ code, imageAlt, annotations = [], ...text }) => {
+    const original = originalsByCode.get(code);
+    return {
+      ...original,
+      ...text,
+      language: 'ca',
+      annotations,
+      images: original.images.map(image => ({ ...image, alt: imageAlt[image.id] ?? '' })),
+    };
+  }),
+];

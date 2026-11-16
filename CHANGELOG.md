@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.21 · 16 de novembre de 2026
+
+Les lectures L001–L005 ja tenen versió en català. El selector d’idioma de la fitxa conserva els ajustos i el passatge visible quan es canvia de versió. Els avisos mostren el codi amb la llengua corresponent.
+
 ## 1.20 · 16 de novembre de 2026
 
 S’incorpora «El lado de la ola» (L093), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.

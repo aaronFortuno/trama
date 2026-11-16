@@ -58,8 +58,9 @@ function makeHeader(reading, settings, [name, date, group, label, , , keyLabel],
   return header;
 }
 
-function makeParagraph(text, formatText, { marks = [], offset = 0 } = {}) {
+function makeParagraph(text, formatText, { marks = [], offset = 0, index } = {}) {
   const paragraph = element('p', 'worksheet-paragraph');
+  if (index !== undefined) paragraph.dataset.paragraph = index;
   let cursor = 0;
   for (const mark of marks) {
     const start = Math.max(0, mark.start - offset);
@@ -302,12 +303,12 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
     if (!fitBlock(block)) content.append(block);
   }
 
-  function placePassage(text, images, marks) {
-    if (fitBlock(makePassage(text, images, formatText, { marks }))) return;
+  function placePassage(text, images, marks, index) {
+    if (fitBlock(makePassage(text, images, formatText, { marks, index }))) return;
     for (const image of images) placeBlock(makePassage('', [image], formatText));
-    if (!text || fitBlock(makePassage(text, [], formatText, { marks }))) return;
+    if (!text || fitBlock(makePassage(text, [], formatText, { marks, index }))) return;
 
-    placeTextChunks(text, (part, _, offset) => makePassage(part, [], formatText, { marks, offset }), /\S{1,80}\s*|\s+/gu);
+    placeTextChunks(text, (part, _, offset) => makePassage(part, [], formatText, { marks, offset, index }), /\S{1,80}\s*|\s+/gu);
   }
 
   function placeTextChunks(text, makeBlock, chunks = /\S{1,24}\s*|\s+/gu) {
@@ -399,7 +400,7 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
 
   startPage();
   placeBlock(makeHeader(reading, settings, words, answerKey));
-  reading.paragraphs.forEach((text, index) => placePassage(text, anchors.get(index) || [], ranges.get(index)));
+  reading.paragraphs.forEach((text, index) => placePassage(text, anchors.get(index) || [], ranges.get(index), index));
   const closing = anchors.get(reading.paragraphs.length);
   if (closing) placePassage('', closing);
   notes.forEach((note, index) => placeBlock(makeVocabularyNote(note, index === 0 ? words[9] : '')));

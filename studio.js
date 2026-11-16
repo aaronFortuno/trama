@@ -321,8 +321,9 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
     const level = labelFor('level', reading.level).replace(/ de (?:primària|primaria)$/, '');
     const count = wordCount(reading);
     const words = t(count === 1 ? '{count} paraula' : '{count} paraules', { count: new Intl.NumberFormat(language()).format(count) });
-    find('#studio-meta').textContent = `${labelFor('language', reading.language)} · ${level} · ${words}`;
     const variants = readings.filter(entry => entry.workId && entry.workId === reading.workId);
+    const meta = variants.length > 1 ? [level, words] : [labelFor('language', reading.language), level, words];
+    find('#studio-meta').textContent = meta.join(' · ');
     variant.replaceChildren(...variants.map(entry => new Option(labelFor('language', entry.language), entry.id)));
     variant.value = reading.id;
     variant.parentElement.hidden = variants.length < 2;
@@ -444,23 +445,43 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
     if (animated) animateRefresh(pages);
   }
 
-  function select(entry, config) {
+  function visiblePassage() {
+    if (!stage.scrollTop) return null;
+    const viewport = stage.getBoundingClientRect();
+    for (const paragraph of pages.querySelectorAll('[data-paragraph]')) {
+      const { top, bottom } = paragraph.getBoundingClientRect();
+      if (bottom > viewport.top && top < viewport.bottom) {
+        return { index: paragraph.dataset.paragraph, offset: top - viewport.top };
+      }
+    }
+    return null;
+  }
+
+  function select(entry, config, keepLayout = false) {
+    const passage = keepLayout && visiblePassage();
     report.close();
     reading = entry;
     settings = config;
     fileStatus.hidden = true;
     for (const message of root.querySelectorAll('[data-logo-status]')) message.hidden = true;
-    solution.checked = false;
+    if (!keepLayout) solution.checked = false;
     exportStatus.hidden = true;
-    templateStatus.textContent = '';
     hiddenQuestion = undefined;
     questionFeedback.hidden = true;
-    templates.resetSelection();
+    if (!keepLayout) {
+      templateStatus.textContent = '';
+      templates.resetSelection();
+    }
     populateReading();
     syncControls(false);
-    onOpen(reading);
-    layout.scrollTo(0, 0);
+    onOpen(reading, { keepLayout });
     refresh();
+    if (keepLayout) {
+      const paragraph = passage && pages.querySelector(`[data-paragraph="${passage.index}"]`);
+      if (paragraph) stage.scrollTop += paragraph.getBoundingClientRect().top - stage.getBoundingClientRect().top - passage.offset;
+      return;
+    }
+    layout.scrollTo(0, 0);
     for (const form of forms) {
       form.scrollTop = 0;
       form.querySelectorAll('.details-panel').forEach(panel => { panel.scrollTop = 0; });
@@ -730,7 +751,8 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
     open(id) {
       const entry = readings.find(item => item.id === id);
       if (!entry) return false;
-      select(entry, defaultSettings());
+      const keepLayout = !root.hidden && reading?.id !== entry.id && reading?.workId === entry.workId && Boolean(entry.workId);
+      select(entry, keepLayout ? settings : defaultSettings(), keepLayout);
       return true;
     },
     restore(value) {

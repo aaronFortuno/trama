@@ -146,7 +146,7 @@ export function mountReadingReport(dialog) {
       fields.disabled = false;
       status.textContent = '';
       cancel.textContent = t('Cancel·la');
-      context.textContent = `${reading.code} · ${reading.title}`;
+      context.textContent = `${reading.code}-${reading.language.toUpperCase()} · ${reading.title}`;
       context.lang = reading.language;
       const available = {
         text: true, image: reading.images.length > 0, question: questions.length > 0,

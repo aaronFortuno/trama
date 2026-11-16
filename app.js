@@ -109,13 +109,13 @@ function openReading(readingId) {
   else location.hash = hash;
 }
 
-function showStudio(reading) {
+function showStudio(reading, { keepLayout }) {
   const wasInCatalog = studioView.hidden;
   currentReadingId = reading.id;
   catalogView.hidden = true;
   studioView.hidden = false;
   document.body.classList.add('is-studio');
-  focusStudio();
+  if (!keepLayout) focusStudio();
   if (wasInCatalog) animateRefresh(studioView);
 }
 
