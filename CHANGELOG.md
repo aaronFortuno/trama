@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.29 · 17 de novembre de 2026
+
+Quinze lectures avançades (L143–L157) completen el catàleg de 3r: quinze lectures per dificultat, totes en català i castellà.
+
 ## 1.28.1 · 17 de novembre de 2026
 
 Quan el visor mostra el solucionari, el botó principal imprimeix el solucionari amb el format actual. El desplegable permet imprimir la fitxa d’alumnat.

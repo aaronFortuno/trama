@@ -49,6 +49,8 @@ v1.27 · Obre l’historial de canvis|v1.27 · Abrir el historial de cambios
 v1.27.1 · Obre l’historial de canvis|v1.27.1 · Abrir el historial de cambios
 v1.28 · Obre l’historial de canvis|v1.28 · Abrir el historial de cambios
 v1.28.1 · Obre l’historial de canvis|v1.28.1 · Abrir el historial de cambios
+v1.29 · Obre l’historial de canvis|v1.29 · Abrir el historial de cambios
+Quinze lectures avançades (L143–L157) completen el catàleg de 3r: quinze lectures per dificultat, totes en català i castellà.|Quince lecturas avanzadas (L143–L157) completan el catálogo de 3.º: quince lecturas por dificultad, todas en catalán y castellano.
 Quan el visor mostra el solucionari, el botó principal imprimeix el solucionari amb el format actual. El desplegable permet imprimir la fitxa d’alumnat.|Cuando el visor muestra el solucionario, el botón principal imprime el solucionario con el formato actual. El desplegable permite imprimir la ficha del alumnado.
 S’incorporen onze lectures noves de 3r inicial (L123–L133) en català i castellà, amb il·lustració i solucionari.|Se incorporan once lecturas nuevas de 3.º de nivel inicial (L123–L133) en catalán y castellano, con ilustración y solucionario.
 Nou lectures noves (L134–L142) completen les quinze de dificultat intermèdia de 3r en totes dues llengües.|Nueve lecturas nuevas (L134–L142) completan las quince de dificultad intermedia de 3.º en ambos idiomas.
