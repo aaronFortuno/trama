@@ -59,7 +59,7 @@
 .batch-dialog .dialog-heading { margin-bottom: 9px; }
 .batch-help { flex: none; margin: 0 0 14px; color: var(--muted); font-size: .82rem; line-height: 1.5; }
 .batch-toolbar { display: flex; flex: none; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 5px 12px; padding: 0 8px 8px; font-size: .8rem; }
-.batch-toolbar label, .batch-formats label { display: inline-flex; align-items: center; gap: 6px; }
+.batch-toolbar label, .batch-options label { display: inline-flex; align-items: center; gap: 6px; }
 .batch-dialog input { flex: none; accent-color: var(--green); }
 #batch-count { color: var(--muted); }
 .batch-scroll { max-height: 48dvh; padding: 0; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
@@ -69,8 +69,9 @@
 .batch-list label:hover { background: var(--surface); }
 .batch-list code { color: var(--muted); font-size: .76rem; }
 #batch-empty { margin: 12px; }
-.batch-formats { display: flex; flex: none; flex-wrap: wrap; gap: 6px 14px; min-width: 0; margin: 14px 0; padding: 0; border: 0; font-size: .8rem; }
-.batch-formats legend { margin-bottom: 4px; font-weight: 650; }
+.batch-options { display: flex; flex: none; flex-wrap: wrap; gap: 12px 20px; margin: 14px 0; }
+.batch-options fieldset { display: flex; flex-wrap: wrap; gap: 6px 12px; min-width: 0; margin: 0; padding: 0; border: 0; font-size: .8rem; }
+.batch-options legend { margin-bottom: 4px; font-weight: 650; }
 .batch-actions { display: flex; flex: none; flex-wrap: wrap; justify-content: end; align-items: center; gap: 8px 12px; }
 #batch-status { flex: 1 1 12rem; margin: 0; color: var(--muted); font-size: .8rem; }
 #batch-status.batch-error { color: var(--accent); }

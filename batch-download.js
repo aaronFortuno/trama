@@ -18,7 +18,8 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings }
   const none = dialog.querySelector('#batch-empty');
   const all = dialog.querySelector('#batch-select-all');
   const count = dialog.querySelector('#batch-count');
-  const formats = dialog.querySelector('#batch-formats');
+  const options = dialog.querySelector('#batch-options');
+  const optionGroups = options.querySelectorAll('fieldset');
   const download = dialog.querySelector('#batch-download');
   const status = dialog.querySelector('#batch-status');
   let rows = [];
@@ -30,7 +31,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings }
     all.disabled = Boolean(job) || !rows.length;
     all.checked = rows.length > 0 && selected === rows.length;
     all.indeterminate = selected > 0 && selected < rows.length;
-    formats.disabled = Boolean(job);
+    for (const group of optionGroups) group.disabled = Boolean(job);
     download.disabled = Boolean(job) || !selected;
     for (const { input } of rows) input.disabled = Boolean(job);
     count.textContent = t('{selected} de {total} seleccionades', {
@@ -58,6 +59,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings }
       const code = document.createElement('code');
       const title = document.createElement('span');
       input.type = 'checkbox';
+      input.checked = true;
       code.textContent = codes.get(reading.code) > 1 ? `${reading.code}-${reading.language.toUpperCase()}` : reading.code;
       title.textContent = reading.title;
       title.lang = reading.language;
@@ -67,13 +69,13 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings }
     });
     list.replaceChildren(...rows.map(row => row.item));
     none.hidden = rows.length > 0;
-    formats.querySelector('[value="pdf"]').checked = true;
+    for (const input of options.querySelectorAll('input')) input.checked = input.defaultChecked;
     setStatus('');
     updateControls();
   });
   dialog.addEventListener('close', () => { if (!dialog.open) job?.abort(); });
   list.addEventListener('change', () => { setStatus(''); updateControls(); });
-  formats.addEventListener('change', () => setStatus(''));
+  options.addEventListener('change', () => setStatus(''));
   all.addEventListener('change', () => {
     for (const { input } of rows) input.checked = all.checked;
     setStatus('');
@@ -84,8 +86,10 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings }
     if (job || !readings.length) return;
     const controller = job = new AbortController();
     const { signal } = controller;
-    const zipFormat = formats.querySelector('[value="zip"]').checked;
-    const name = batchName(readings);
+    const zipFormat = options.querySelector('[value="zip"]').checked;
+    const answerKey = options.querySelector('[value="answer-key"]').checked;
+    const suffix = answerKey ? '-' + t('solucionari') : '';
+    const name = batchName(readings) + suffix;
     updateControls();
     setStatus(t('Preparant el lot…'));
     try {
@@ -95,16 +99,17 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings }
       ]);
       const session = await createPdfSession();
       const zip = zipModule?.createZip();
-      const combined = zip ? null : await session.create(t('Fitxes de Trama'));
+      const combined = zip ? null : await session.create(t(answerKey ? 'Solucionaris de Trama' : 'Fitxes de Trama'));
       for (const [index, reading] of readings.entries()) {
         signal.throwIfAborted();
         setStatus(t('Preparant la fitxa {current} de {total}…', { current: index + 1, total: readings.length }));
         const settings = getSettings(reading);
         await loadWorksheetFont(settings.font);
         signal.throwIfAborted();
-        const pdf = combined ?? await session.create(reading.title);
-        await session.append(pdf, exportWorksheetPages(reading, settings), signal);
-        if (zip) zip.add(`${reading.code}-${reading.language.toUpperCase()}.pdf`, await pdf.save());
+        const title = answerKey ? `${reading.title} · ${t('Solucionari', {}, reading.language)}` : reading.title;
+        const pdf = combined ?? await session.create(title);
+        await session.append(pdf, exportWorksheetPages(reading, settings, answerKey), signal);
+        if (zip) zip.add(`${reading.code}-${reading.language.toUpperCase()}${suffix}.pdf`, await pdf.save());
       }
       signal.throwIfAborted();
       setStatus(t('Finalitzant el fitxer…'));

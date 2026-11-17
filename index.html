@@ -112,7 +112,7 @@
         </a>
       </p>
       <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.26 · Obre l’historial de canvis">v1.26</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.26.1 · Obre l’historial de canvis">v1.26.1</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
@@ -135,11 +135,18 @@
       <p id="batch-empty" hidden>No hi ha lectures amb aquesta cerca i aquests filtres.</p>
       <ul id="batch-list" class="batch-list"></ul>
     </div>
-    <fieldset class="batch-formats" id="batch-formats">
-      <legend>Format de descàrrega</legend>
-      <label><input type="radio" name="batch-format" value="pdf" checked> Un sol PDF</label>
-      <label><input type="radio" name="batch-format" value="zip"> ZIP amb un PDF per lectura</label>
-    </fieldset>
+    <div class="batch-options" id="batch-options">
+      <fieldset>
+        <legend>Tipus de document</legend>
+        <label><input type="radio" name="batch-document" value="student" checked> Fitxes d’alumnat</label>
+        <label><input type="radio" name="batch-document" value="answer-key"> Solucionari</label>
+      </fieldset>
+      <fieldset>
+        <legend>Format de descàrrega</legend>
+        <label><input type="radio" name="batch-format" value="pdf" checked> Un sol PDF</label>
+        <label><input type="radio" name="batch-format" value="zip"> ZIP amb un PDF per lectura</label>
+      </fieldset>
+    </div>
     <div class="batch-actions">
       <p id="batch-status" role="status" hidden></p>
       <button class="button primary" id="batch-download" type="button" disabled>Descarrega el lot</button>
@@ -197,6 +204,10 @@
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’historial"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
+      <article class="release">
+        <header><h3>v1.26.1</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
+        <p>La descàrrega en bloc permet triar entre les fitxes d’alumnat i el solucionari. En obrir el diàleg, totes les lectures que coincideixen amb els filtres ja estan seleccionades.</p>
+      </article>
       <article class="release">
         <header><h3>v1.26</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>El catàleg permet seleccionar les lectures que coincideixen amb la cerca i els filtres i descarregar-les en un sol PDF o en un ZIP amb un PDF per lectura. La descàrrega en bloc substitueix l’intercanvi de lectures en JSON.</p>

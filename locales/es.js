@@ -33,6 +33,8 @@ Selecciona-les totes|Seleccionarlas todas
 Lectures per descarregar|Lecturas para descargar
 No hi ha lectures amb aquesta cerca i aquests filtres.|No hay lecturas con esta búsqueda y estos filtros.
 Format de descàrrega|Formato de descarga
+Tipus de document|Tipo de documento
+Fitxes d’alumnat|Fichas del alumnado
 Un sol PDF|Un solo PDF
 ZIP amb un PDF per lectura|ZIP con un PDF por lectura
 Descarrega el lot|Descargar el lote
@@ -41,8 +43,11 @@ Preparant la fitxa {current} de {total}…|Preparando la ficha {current} de {tot
 Finalitzant el fitxer…|Finalizando el archivo…
 Lot preparat.|Lote preparado.
 Fitxes de Trama|Fichas de Trama
+Solucionaris de Trama|Solucionarios de Trama
 No s’ha pogut descarregar el lot. Torna-ho a provar.|No se ha podido descargar el lote. Vuelve a intentarlo.
 v1.26 · Obre l’historial de canvis|v1.26 · Abrir el historial de cambios
+v1.26.1 · Obre l’historial de canvis|v1.26.1 · Abrir el historial de cambios
+La descàrrega en bloc permet triar entre les fitxes d’alumnat i el solucionari. En obrir el diàleg, totes les lectures que coincideixen amb els filtres ja estan seleccionades.|La descarga en bloque permite elegir entre las fichas del alumnado y el solucionario. Al abrir el diálogo, todas las lecturas que coinciden con los filtros ya están seleccionadas.
 El catàleg permet seleccionar les lectures que coincideixen amb la cerca i els filtres i descarregar-les en un sol PDF o en un ZIP amb un PDF per lectura. La descàrrega en bloc substitueix l’intercanvi de lectures en JSON.|El catálogo permite seleccionar las lecturas que coinciden con la búsqueda y los filtros y descargarlas en un solo PDF o en un ZIP con un PDF por lectura. La descarga en bloque sustituye al intercambio de lecturas en JSON.
 Importa o exporta lectures|Importar o exportar lecturas
 Tanca|Cerrar

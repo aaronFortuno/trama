@@ -16,7 +16,7 @@ La mida de lletra i l’interlineat inicials depenen del curs. Si canvies el for
 
 ## Descarregar fitxes en bloc
 
-Acota el catàleg amb la cerca i els filtres. Obre **Descarrega un lot**, marca les lectures que vulguis o selecciona-les totes. Per defecte es crea un sol PDF amb totes les fitxes; també pots triar un ZIP amb un PDF per lectura. S’hi aplica el format inicial del curs o el que hagis ajustat durant la sessió.
+Acota el catàleg amb la cerca i els filtres i obre **Descarrega un lot**. Totes les lectures de la llista apareixen marcades i pots desmarcar les que no et calen. Per defecte es crea un sol PDF amb les fitxes d’alumnat. També pots triar **Solucionari** i, per a tots dos tipus de document, un ZIP amb un PDF per lectura. S’hi aplica el format inicial del curs o el que hagis ajustat durant la sessió.
 
 Les lectures personals importades en versions anteriors continuen disponibles al navegador.
 

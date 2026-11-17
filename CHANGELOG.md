@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.26.1 · 17 de novembre de 2026
+
+La descàrrega en bloc permet triar entre les fitxes d’alumnat i el solucionari. En obrir el diàleg, totes les lectures que coincideixen amb els filtres ja estan seleccionades.
+
 ## 1.26 · 17 de novembre de 2026
 
 El catàleg permet seleccionar les lectures que coincideixen amb la cerca i els filtres i descarregar-les en un sol PDF o en un ZIP amb un PDF per lectura. La descàrrega en bloc substitueix l’intercanvi de lectures en JSON.
