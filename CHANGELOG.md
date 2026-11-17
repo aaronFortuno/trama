@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.33 · 17 de novembre de 2026
+
+Set lectures noves de 5è avançat (L158–L164), en català i castellà, completen les quinze de cada llengua. Totes tenen il·lustració, vuit preguntes i solucionari.
+
 ## 1.32 · 17 de novembre de 2026
 
 El catàleg permet desar col·leccions amb la tria, l’ordre i un maquetat independent per lectura. Una còpia de seguretat permet traslladar les col·leccions, els maquetats, els codis d’aula i les plantilles.
