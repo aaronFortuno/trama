@@ -71,13 +71,22 @@
 .batch-reading-description { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; min-width: 0; }
 .batch-saved { padding: 2px 6px; border-radius: 4px; background: var(--surface); color: var(--green); font-size: .71rem; overflow-wrap: anywhere; }
 #batch-empty { margin: 12px; }
-.batch-layout-tools { flex: none; margin: 9px 0 0; color: var(--muted); font-size: .76rem; }
+.batch-layout-tools { flex: none; max-height: 34dvh; overflow: auto; margin: 9px 0 0; color: var(--muted); font-size: .76rem; }
 .batch-layout-tools summary { width: fit-content; cursor: pointer; }
 .batch-layout-tools .button { min-height: 30px; margin-top: 6px; }
+.batch-layout-tools p { margin: 4px 0; }
+.batch-backup-buttons { display: flex; flex-wrap: wrap; gap: 5px; }
+.batch-backup-confirm { margin-block: 6px; padding-block: 6px; border-block: 1px solid var(--line); }
+#batch-reset-layouts { margin-top: 10px; }
+.collection-dialog { width: min(420px, calc(100% - 24px)); }
+.collection-dialog form { margin-top: 10px; }
+.collection-dialog form label { display: block; font-size: .82rem; }
+.collection-dialog input { display: block; width: 100%; margin: 5px 0 9px; padding: 8px; color: inherit; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; font: inherit; }
+.collection-dialog form .button { margin-top: 6px; }
 .batch-actions { display: flex; flex: none; flex-wrap: wrap; justify-content: end; align-items: center; gap: 8px 12px; margin-top: 14px; }
 .batch-menu-separator { border-top: 1px solid var(--line); margin-block: 4px; }
 #batch-status { flex: 1 1 12rem; margin: 0; color: var(--muted); font-size: .8rem; }
-#batch-status.batch-error { color: var(--accent); }
+.batch-error { color: var(--accent); }
 
 .report-dialog { padding: 20px; }
 .report-dialog[open] { display: flex; flex-direction: column; overflow: hidden; }

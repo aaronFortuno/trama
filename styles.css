@@ -181,6 +181,15 @@ button { color: inherit; cursor: pointer; }
 
 .catalog-layout { display: grid; grid-template-columns: clamp(148px, 16%, 176px) minmax(0, 1fr); align-items: start; gap: clamp(14px, 1.7vw, 23px); }
 .catalog-filters { padding: 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+.catalog-collections { display: grid; gap: 6px; padding-block: 3px 11px; margin-bottom: 6px; border-bottom: 1px solid var(--line); }
+.catalog-collections h2 { margin: 0; font-size: .88rem; }
+.collection-picker { display: grid; min-width: 0; font-size: .82rem; }
+.collection-picker select { width: 100%; }
+.collection-actions { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 8px; }
+.collection-actions .text-button { padding: 2px 0; color: var(--green); font-size: .76rem; }
+.collection-status { margin: 0; color: var(--accent); font-size: .78rem; }
+.collection-status:empty { display: none; }
+.catalog-collection-label { max-width: 100%; overflow-wrap: anywhere; color: var(--green); font-size: .8rem; font-weight: 650; }
 .filters-heading { display: flex; min-height: 26px; justify-content: space-between; align-items: center; gap: 7px; }
 .filters-heading h2 { margin: 0; font-size: .88rem; }
 .filters-heading .filters-toggle { display: none; }
@@ -338,6 +347,7 @@ body, .site-header, .site-footer, .catalog-filters, .reading-card, .search-box, 
 @media (max-width: 790px) {
   .catalog-layout { grid-template-columns: minmax(0, 1fr); gap: 13px; }
   .catalog-filters { padding: 0 11px; }
+  .catalog-collections { padding-block: 9px 7px; }
   .filters-heading h2 { display: none; }
   .filters-heading .filters-toggle { display: inline-flex; padding-left: 2px; border-color: transparent; background: none; }
   .filters-toggle .ui-icon { width: 17px; height: 17px; }

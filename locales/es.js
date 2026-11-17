@@ -36,6 +36,36 @@ Canvis desats en aquest navegador.|Cambios guardados en este navegador.
 No s’han pogut desar els canvis. Es mantindran mentre aquesta pàgina sigui oberta.|No se han podido guardar los cambios. Se mantendrán mientras esta página esté abierta.
 No s’han pogut restablir els ajustos d’aquesta lectura.|No se han podido restablecer los ajustes de esta lectura.
 Maquetats d’aquest navegador|Maquetaciones de este navegador
+Col·leccions|Colecciones
+Tria una col·lecció|Elige una colección
+Tot el catàleg|Todo el catálogo
+Desa la tria actual|Guarda la selección actual
+Desa com a col·lecció|Guarda como colección
+Desa una col·lecció|Guarda una colección
+Desa la col·lecció|Guarda la colección
+Nom de la col·lecció|Nombre de la colección
+Col·lecció de destí|Colección de destino
+Nova col·lecció|Nueva colección
+Afegeix les lectures|Añade las lecturas
+Aquesta col·lecció ja no és disponible.|Esta colección ya no está disponible.
+Es desarà una lectura.|Se guardará una lectura.
+Es desaran {count} lectures en l’ordre actual.|Se guardarán {count} lecturas en el orden actual.
+Ja tens una col·lecció amb aquest nom.|Ya tienes una colección con este nombre.
+Vols suprimir la col·lecció «{name}»?|¿Quieres eliminar la colección «{name}»?
+No s’ha pogut desar la col·lecció.|No se ha podido guardar la colección.
+No s’ha pogut suprimir la col·lecció.|No se ha podido eliminar la colección.
+Trasllada els maquetats, els codis d’aula, les plantilles i les col·leccions amb un sol fitxer.|Traslada las maquetaciones, los códigos de aula, las plantillas y las colecciones con un solo archivo.
+Descarrega una còpia|Descarga una copia
+Obre una còpia|Abre una copia
+Còpia de seguretat preparada.|Copia de seguridad preparada.
+No s’ha pogut crear la còpia de seguretat.|No se ha podido crear la copia de seguridad.
+El fitxer no és una còpia de seguretat compatible amb Trama.|El archivo no es una copia de seguridad compatible con Trama.
+Maquetats: {layouts} · Plantilles: {templates} · Col·leccions: {collections}|Maquetaciones: {layouts} · Plantillas: {templates} · Colecciones: {collections}
+Maquetats sense lectura disponible: {count}.|Maquetaciones sin lectura disponible: {count}.
+Els ajustos de la còpia substitueixen els que hi coincideixen. La resta es conserva.|Los ajustes de la copia sustituyen a los que coinciden con ellos. El resto se conserva.
+Recupera la còpia|Recupera la copia
+S’ha recuperat la còpia de seguretat.|Se ha recuperado la copia de seguridad.
+No s’ha pogut recuperar la còpia. Comprova que el navegador tingui espai lliure.|No se ha podido recuperar la copia. Comprueba que el navegador tenga espacio libre.
 Restableix totes les lectures|Restablece todas las lecturas
 Vols esborrar els ajustos desats de totes les lectures d’aquest navegador?|¿Quieres borrar los ajustes guardados de todas las lecturas de este navegador?
 S’han restablert els ajustos de totes les lectures.|Se han restablecido los ajustes de todas las lecturas.
@@ -65,6 +95,8 @@ v1.29 · Obre l’historial de canvis|v1.29 · Abrir el historial de cambios
 v1.29.1 · Obre l’historial de canvis|v1.29.1 · Abrir el historial de cambios
 v1.30 · Obre l’historial de canvis|v1.30 · Abrir el historial de cambios
 v1.31 · Obre l’historial de canvis|v1.31 · Abrir el historial de cambios
+v1.32 · Obre l’historial de canvis|v1.32 · Abrir el historial de cambios
+El catàleg permet desar col·leccions amb la tria, l’ordre i un maquetat independent per lectura. Una còpia de seguretat permet traslladar les col·leccions, els maquetats, els codis d’aula i les plantilles.|El catálogo permite guardar colecciones con la selección, el orden y una maquetación independiente por lectura. Una copia de seguridad permite trasladar las colecciones, las maquetaciones, los códigos de aula y las plantillas.
 Els ajustos de cada lectura es desen automàticament al navegador i es recuperen en reobrir-la o imprimir-la, sola o en lot. Es pot restablir una lectura o esborrar tots els maquetats desats.|Los ajustes de cada lectura se guardan automáticamente en el navegador y se recuperan al volver a abrirla o imprimirla, sola o por lotes. Se puede restablecer una lectura o borrar todas las maquetaciones guardadas.
 El visor permet desar el maquetat de cada lectura per imprimir-la més tard en lot. El diàleg pot mostrar només les lectures maquetades i aplica els ajustos desats tant a la fitxa com al solucionari.|El visor permite guardar la maquetación de cada lectura para imprimirla más tarde por lotes. El diálogo puede mostrar solo las lecturas maquetadas y aplica los ajustes guardados tanto a la ficha como al solucionario.
 El codi d’aula manté el text, la mida, el contrast i la visibilitat en canviar de lectura durant la sessió. La mida per defecte és de 20 pt.|El código de aula mantiene el texto, el tamaño, el contraste y la visibilidad al cambiar de lectura durante la sesión. El tamaño por defecto es de 20 pt.

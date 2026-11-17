@@ -50,7 +50,7 @@ const template = `
         <div class="studio-heading">
           <button class="button studio-back" type="button" data-action="catalog" aria-label="Torna al catàleg" title="Torna al catàleg">${icon('arrow-left')}</button>
           <div class="studio-title-line">
-            <div class="studio-title-copy"><h1 id="studio-title" tabindex="-1"></h1><span id="studio-reading-code" class="studio-reading-code"></span></div>
+            <div class="studio-title-copy"><h1 id="studio-title" tabindex="-1"></h1><span id="studio-reading-code" class="studio-reading-code"></span><span id="studio-collection-name" class="catalog-collection-label" hidden></span></div>
             <p class="studio-kicker" id="studio-meta"></p>
             <label class="studio-variants" hidden>Altres versions <select id="studio-variant"></select></label>
           </div>
@@ -319,6 +319,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
   document.body.append(printOutlet);
 
   let reading;
+  let readingCollection;
   let neighbors;
   const readingNav = [
     { direction: 'previous', label: 'Lectura anterior', button: find('[data-action="reading-previous"]') },
@@ -330,9 +331,9 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
   let sessionFormat;
   let sessionClassroomCode;
   const resetReadings = new Set();
-  function settingsForReading(entry) {
+  function settingsForReading(entry, collectionId) {
     const defaults = defaultSettings(entry.level);
-    return resetReadings.has(entry.id) ? defaults : { ...defaults, ...sessionFormat };
+    return collectionId || resetReadings.has(entry.id) ? defaults : { ...defaults, ...sessionFormat };
   }
   let requestedFont;
   let pendingPrint;
@@ -347,7 +348,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     getThumbnail: format => worksheetThumbnail(reading, { ...settings, ...format }),
     onApply(format, name) {
       Object.assign(settings, format);
-      if (Object.keys(format).some(key => formatKeys.has(key))) sessionFormat = pageFormat(settings);
+      if (!readingCollection && Object.keys(format).some(key => formatKeys.has(key))) sessionFormat = pageFormat(settings);
       persistLayout();
       syncControls();
       refresh();
@@ -372,6 +373,9 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     find('#studio-title').textContent = reading.title;
     find('#studio-title').lang = reading.language;
     find('#studio-reading-code').textContent = reading.code;
+    const collectionLabel = find('#studio-collection-name');
+    collectionLabel.hidden = !readingCollection;
+    collectionLabel.textContent = readingCollection?.name ?? '';
     const level = labelFor('level', reading.level).replace(/ de (?:primària|primaria)$/, '');
     const count = wordCount(reading);
     const words = t(count === 1 ? '{count} paraula' : '{count} paraules', { count: new Intl.NumberFormat(language()).format(count) });
@@ -414,7 +418,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
   }
 
   function syncLayoutStatus() {
-    const pending = hasPendingWorksheetLayout(reading);
+    const pending = hasPendingWorksheetLayout(reading, readingCollection?.id);
     const note = layoutError || (pending ? 'No s’han pogut desar els canvis. Es mantindran mentre aquesta pàgina sigui oberta.'
       : hasSavedLayout ? 'Canvis desats en aquest navegador.' : '');
     const message = note ? t(note) : '';
@@ -424,8 +428,8 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
   }
 
   function persistLayout() {
-    saveWorksheetLayout(reading, settings);
-    resetReadings.delete(reading.id);
+    saveWorksheetLayout(reading, settings, readingCollection?.id);
+    if (!readingCollection) resetReadings.delete(reading.id);
     hasSavedLayout = true;
     layoutError = '';
   }
@@ -609,8 +613,8 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
       const next = input.name === 'leading' ? Math.round(value * 20) / 10 : value;
       if (settings[input.name] === next || !validSetting(input.name, next)) return;
       settings[input.name] = next;
-      if (formatKeys.has(input.name)) sessionFormat = pageFormat(settings);
-      if (classroomKeys.includes(input.name)) sessionClassroomCode = classroomFormat(settings);
+      if (!readingCollection && formatKeys.has(input.name)) sessionFormat = pageFormat(settings);
+      if (!readingCollection && classroomKeys.includes(input.name)) sessionClassroomCode = classroomFormat(settings);
     } else {
       return;
     }
@@ -731,7 +735,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     const remove = control.querySelector('[data-logo-clear]');
     function updateLogo(source) {
       settings[key] = source;
-      sessionFormat = pageFormat(settings);
+      if (!readingCollection) sessionFormat = pageFormat(settings);
       persistLayout();
       message.hidden = true;
       templateStatus.textContent = '';
@@ -810,8 +814,8 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     if (action === 'catalog') onCatalog();
     if (action === 'templates') templates.open();
     if (action === 'reset') {
-      if (removeWorksheetLayout(reading)) {
-        resetReadings.add(reading.id);
+      if (removeWorksheetLayout(reading, readingCollection?.id)) {
+        if (!readingCollection) resetReadings.add(reading.id);
         resetStudioLayout();
       } else {
         layoutError = 'No s’han pogut restablir els ajustos d’aquesta lectura.';
@@ -835,6 +839,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     dismissMenu() { printMenu.close(); fileMenu.close(); },
     exportSettings: settingsForReading,
     printPages,
+    reloadTemplates() { templates.translate(); },
     resetAllLayouts() {
       if (!clearWorksheetLayouts()) return false;
       sessionFormat = sessionClassroomCode = undefined;
@@ -854,12 +859,13 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
       syncControls(false);
       refresh();
     },
-    open(id) {
+    open(id, scope) {
       const entry = readings.find(item => item.id === id);
       if (!entry) return false;
-      const keepLayout = !root.hidden && reading?.id !== entry.id && reading?.workId === entry.workId && Boolean(entry.workId);
-      const saved = readWorksheetLayout(entry);
-      const config = saved ?? (resetReadings.has(entry.id) ? defaultSettings(entry.level)
+      const keepLayout = !root.hidden && readingCollection?.id === scope?.id && reading?.id !== entry.id && reading?.workId === entry.workId && Boolean(entry.workId);
+      readingCollection = scope;
+      const saved = readWorksheetLayout(entry, scope?.id);
+      const config = saved ?? (scope || resetReadings.has(entry.id) ? defaultSettings(entry.level)
         : { ...(keepLayout ? worksheetLayout(entry, settings) : settingsForReading(entry)), ...sessionClassroomCode });
       select(entry, config, { keepLayout, saved });
       return true;
@@ -867,6 +873,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     restore(value) {
       const decoded = readCode(value, readings);
       if (!decoded) return false;
+      readingCollection = undefined;
       const saved = readWorksheetLayout(decoded.reading);
       select(decoded.reading, saved ?? { ...decoded.settings, ...sessionClassroomCode }, { saved });
       return true;

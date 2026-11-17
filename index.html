@@ -48,6 +48,7 @@
           <div class="catalog-heading-title">
             <h1 id="readings-title" tabindex="-1">Catàleg de lectures</h1>
             <p id="result-count" role="status" aria-live="polite"></p>
+            <span class="catalog-collection-label" id="catalog-collection-label" hidden></span>
             <div id="active-filters" class="active-filters" role="group" aria-label="Filtres actius" hidden></div>
           </div>
           <div class="catalog-heading-actions">
@@ -61,6 +62,15 @@
         </div>
         <div class="catalog-layout">
           <aside class="catalog-filters scroll-pane" aria-label="Filtres del catàleg">
+            <section class="catalog-collections" aria-labelledby="collections-title">
+              <h2 id="collections-title">Col·leccions</h2>
+              <label class="collection-picker"><span class="visually-hidden">Tria una col·lecció</span><select id="collection-select" aria-label="Tria una col·lecció"><option value="">Tot el catàleg</option></select></label>
+              <div class="collection-actions">
+                <button class="text-button" type="button" id="collection-save" aria-haspopup="dialog">Desa la tria actual</button>
+                <button class="text-button" type="button" id="collection-remove" hidden>Suprimeix</button>
+              </div>
+              <p class="collection-status" id="collection-status" role="status"></p>
+            </section>
             <div class="filters-heading">
               <h2>Filtres</h2>
               <button type="button" id="filters-toggle" class="button filters-toggle" aria-controls="filters-body" aria-expanded="false">
@@ -112,7 +122,7 @@
         </a>
       </p>
       <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.31 · Obre l’historial de canvis">v1.31</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.32 · Obre l’historial de canvis">v1.32</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
@@ -138,10 +148,23 @@
     </div>
     <details class="batch-layout-tools">
       <summary>Maquetats d’aquest navegador</summary>
+      <p>Trasllada els maquetats, els codis d’aula, les plantilles i les col·leccions amb un sol fitxer.</p>
+      <div class="batch-backup-buttons">
+        <button class="button" type="button" id="batch-export-backup">Descarrega una còpia</button>
+        <button class="button" type="button" id="batch-import-backup">Obre una còpia</button>
+        <input type="file" id="batch-backup-file" accept=".json,application/json" hidden>
+      </div>
+      <p id="batch-backup-status" role="status" hidden></p>
+      <div class="batch-backup-confirm" id="batch-backup-confirm" hidden>
+        <p>Els ajustos de la còpia substitueixen els que hi coincideixen. La resta es conserva.</p>
+        <button class="button primary" type="button" id="batch-restore-backup">Recupera la còpia</button>
+        <button class="button" type="button" id="batch-cancel-backup">Cancel·la</button>
+      </div>
       <button class="button" type="button" id="batch-reset-layouts">Restableix totes les lectures</button>
     </details>
     <div class="batch-actions">
       <p id="batch-status" role="status" hidden></p>
+      <button class="button" type="button" id="batch-save-collection" aria-haspopup="dialog">Desa com a col·lecció</button>
       <div class="worksheet-print-buttons">
         <button class="button primary" id="batch-print" type="button" disabled><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 9V3h12v6"/><rect x="6" y="14" width="12" height="8" rx="1"/></svg> Imprimeix</button>
         <button class="button primary menu-trigger" id="batch-print-trigger" type="button" aria-label="Opcions d’impressió i PDF" aria-haspopup="menu" aria-expanded="false" aria-controls="batch-print-menu" popovertarget="batch-print-menu" disabled><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
@@ -155,6 +178,24 @@
         <button type="button" role="menuitem" tabindex="-1" data-option="zip-key">Descarrega el solucionari en ZIP</button>
       </div>
     </div>
+  </dialog>
+
+  <dialog class="site-dialog collection-dialog" id="collection-dialog" aria-labelledby="collection-title">
+    <div class="dialog-heading">
+      <h2 id="collection-title">Desa una col·lecció</h2>
+      <button class="button close-button" type="button" data-close-dialog aria-label="Tanca"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+    </div>
+    <form id="collection-form">
+      <p id="collection-count"></p>
+      <label for="collection-target" id="collection-target-row">Col·lecció de destí<select id="collection-target"><option value="">Nova col·lecció</option></select></label>
+      <div id="collection-name-row">
+        <label for="collection-name">Nom de la col·lecció</label>
+        <input id="collection-name" type="text" maxlength="60" required>
+      </div>
+      <p class="collection-status" id="collection-error" role="alert"></p>
+      <button class="button primary" type="submit" id="collection-submit">Desa la col·lecció</button>
+      <button class="button" type="button" data-close-dialog>Cancel·la</button>
+    </form>
   </dialog>
 
   <dialog class="site-dialog about-dialog" id="about-dialog" aria-labelledby="about-title">
@@ -209,6 +250,10 @@
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
       <article class="release">
+        <header><h3>v1.32</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
+        <p>El catàleg permet desar col·leccions amb la tria, l’ordre i un maquetat independent per lectura. Una còpia de seguretat permet traslladar les col·leccions, els maquetats, els codis d’aula i les plantilles.</p>
+      </article>
+      <article>
         <header><h3>v1.31</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>Els ajustos de cada lectura es desen automàticament al navegador i es recuperen en reobrir-la o imprimir-la, sola o en lot. Es pot restablir una lectura o esborrar tots els maquetats desats.</p>
       </article>

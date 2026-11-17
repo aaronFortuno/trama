@@ -21,7 +21,7 @@ export const defaultTemplate = {
   format: Object.fromEntries(templateGroups.map(group => [group.id, capture(group, defaults)])),
 };
 
-function readTemplate(id, raw) {
+export function readTemplate(id, raw) {
   try {
     const data = JSON.parse(raw);
     if (typeof data?.name !== 'string' || !data.name.trim() || data.name.length > 60 || !data.format) return null;

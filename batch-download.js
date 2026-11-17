@@ -4,6 +4,7 @@ import { language, t } from './i18n.js';
 import { decodeWorksheetImages, exportWorksheetPages } from './worksheet.js';
 import { loadWorksheetFont } from './worksheet-fonts.js';
 import { readWorksheetLayout } from './worksheet-layouts.js';
+import { downloadBackup, prepareBackup, restoreBackup } from './settings-backup.js';
 
 function batchName(readings) {
   const common = key => readings.every(reading => reading[key] === readings[0][key]) && readings[0][key];
@@ -15,7 +16,7 @@ function batchName(readings) {
     .replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
 }
 
-export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, printPages, resetLayouts }) {
+export function mountBatchDownload({ dialog, trigger, getReadings, getAllReadings, getCollectionId, getSettings, printPages, resetLayouts, saveCollection, onRestore }) {
   const list = dialog.querySelector('#batch-list');
   const none = dialog.querySelector('#batch-empty');
   const all = dialog.querySelector('#batch-select-all');
@@ -27,8 +28,18 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, 
   const menuTrigger = dialog.querySelector('#batch-print-trigger');
   const menu = mountActionMenu(menuTrigger, dialog.querySelector('#batch-print-menu'), outputBatch);
   const status = dialog.querySelector('#batch-status');
+  const save = dialog.querySelector('#batch-save-collection');
+  const backupFile = dialog.querySelector('#batch-backup-file');
+  const download = dialog.querySelector('#batch-export-backup');
+  const upload = dialog.querySelector('#batch-import-backup');
+  const backupStatus = dialog.querySelector('#batch-backup-status');
+  const confirmation = dialog.querySelector('#batch-backup-confirm');
+  const restore = dialog.querySelector('#batch-restore-backup');
+  const cancel = dialog.querySelector('#batch-cancel-backup');
   let rows = [];
   let job;
+  let backupRequest = 0;
+  let pendingBackup;
   const visibleRows = () => onlySaved.checked ? rows.filter(row => row.layout) : rows;
 
   function updateControls() {
@@ -37,10 +48,10 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, 
     const format = new Intl.NumberFormat(language());
     all.disabled = Boolean(job) || !visible.length;
     onlySaved.disabled = Boolean(job);
-    resetAll.disabled = Boolean(job);
+    resetAll.disabled = download.disabled = upload.disabled = restore.disabled = Boolean(job);
     all.checked = visible.length > 0 && selected === visible.length;
     all.indeterminate = selected > 0 && selected < visible.length;
-    printButton.disabled = menuTrigger.disabled = Boolean(job) || !selected;
+    printButton.disabled = menuTrigger.disabled = save.disabled = Boolean(job) || !selected;
     for (const { input, item, layout } of rows) {
       input.disabled = Boolean(job);
       item.hidden = onlySaved.checked && !layout;
@@ -62,7 +73,9 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, 
 
   function populateRows() {
     const { compare } = new Intl.Collator(language(), { numeric: true });
-    const readings = getReadings().sort((a, b) => compare(a.code, b.code) || compare(a.title, b.title) || compare(a.language, b.language));
+    const readings = getReadings();
+    const collectionId = getCollectionId();
+    if (!collectionId) readings.sort((a, b) => compare(a.code, b.code) || compare(a.title, b.title) || compare(a.language, b.language));
     const codes = new Map();
     for (const { code } of readings) codes.set(code, (codes.get(code) ?? 0) + 1);
     rows = readings.map(reading => {
@@ -72,7 +85,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, 
       const code = document.createElement('code');
       const description = document.createElement('span');
       const title = document.createElement('span');
-      const layout = readWorksheetLayout(reading);
+      const layout = readWorksheetLayout(reading, collectionId);
       input.type = 'checkbox';
       input.checked = true;
       code.textContent = codes.get(reading.code) > 1 ? `${reading.code}-${reading.language.toUpperCase()}` : reading.code;
@@ -100,6 +113,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, 
     job?.abort();
     job = undefined;
     layoutTools.open = false;
+    clearBackup();
     setStatus('');
     populateRows();
   });
@@ -107,6 +121,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, 
     if (dialog.open) return;
     menu.close();
     job?.abort();
+    clearBackup();
   });
   list.addEventListener('change', () => { setStatus(''); updateControls(); });
   onlySaved.addEventListener('change', () => { setStatus(''); updateControls(); });
@@ -122,12 +137,76 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, 
     updateControls();
   });
   printButton.addEventListener('click', () => outputBatch('print'));
+  save.addEventListener('click', () => {
+    const selected = new Set(visibleRows().filter(row => row.input.checked).map(({ reading }) => reading.id));
+    saveCollection(getReadings().filter(reading => selected.has(reading.id)));
+  });
+
+  function showBackupStatus(message, error = false) {
+    backupStatus.textContent = message;
+    backupStatus.hidden = !message;
+    backupStatus.classList.toggle('batch-error', error);
+  }
+
+  function clearBackup() {
+    backupRequest++;
+    pendingBackup = undefined;
+    confirmation.hidden = true;
+    backupFile.value = '';
+    showBackupStatus('');
+  }
+
+  download.addEventListener('click', () => {
+    clearBackup();
+    try {
+      downloadBackup(getAllReadings());
+      showBackupStatus(t('Còpia de seguretat preparada.'));
+    } catch {
+      showBackupStatus(t('No s’ha pogut crear la còpia de seguretat.'), true);
+    }
+  });
+  upload.addEventListener('click', () => backupFile.click());
+  backupFile.addEventListener('change', async () => {
+    const file = backupFile.files[0];
+    clearBackup();
+    if (!file) return;
+    const request = backupRequest;
+    try {
+      const backup = await prepareBackup(file, getAllReadings());
+      if (request !== backupRequest) return;
+      pendingBackup = backup;
+      const { layouts, collectionLayouts, templates, collections, missing } = backup;
+      const counts = t('Maquetats: {layouts} · Plantilles: {templates} · Col·leccions: {collections}', {
+        layouts: layouts.length + collectionLayouts.length, templates: templates.length, collections: collections.length,
+      });
+      showBackupStatus(missing ? counts + '. ' + t('Maquetats sense lectura disponible: {count}.', { count: missing }) : counts);
+      confirmation.hidden = false;
+    } catch {
+      if (request === backupRequest) showBackupStatus(t('El fitxer no és una còpia de seguretat compatible amb Trama.'), true);
+    }
+  });
+  cancel.addEventListener('click', () => { clearBackup(); upload.focus(); });
+  restore.addEventListener('click', () => {
+    if (job || !pendingBackup) return;
+    try {
+      restoreBackup(pendingBackup);
+    } catch {
+      showBackupStatus(t('No s’ha pogut recuperar la còpia. Comprova que el navegador tingui espai lliure.'), true);
+      return;
+    }
+    clearBackup();
+    onRestore();
+    populateRows();
+    showBackupStatus(t('S’ha recuperat la còpia de seguretat.'));
+    upload.focus();
+  });
 
   async function* renderSelection(selected, answerKey, signal) {
+    const collectionId = getCollectionId();
     for (const [index, { reading, layout }] of selected.entries()) {
       signal.throwIfAborted();
       setStatus(t('Preparant la fitxa {current} de {total}…', { current: index + 1, total: selected.length }));
-      const settings = layout ?? getSettings(reading);
+      const settings = layout ?? getSettings(reading, collectionId);
       await loadWorksheetFont(settings.font);
       signal.throwIfAborted();
       yield { reading, pages: exportWorksheetPages(reading, settings, answerKey) };

@@ -1,13 +1,14 @@
 import { mountCatalog } from './catalog.js';
 import { readings as publicReadings } from './data/readings.js';
 import { mountStudio } from './studio.js';
-import { animateRefresh, mountDialogs } from './motion.js';
-import { mountSelectMenus } from './select-menu.js';
+import { animateRefresh, closeDialog, mountDialogs, openDialog } from './motion.js';
+import { mountSelectMenus, syncSelects } from './select-menu.js';
 import { bindTranslations, language, setLanguage, t } from './i18n.js';
 import { mountActionMenu } from './action-menu.js';
 import { startAnalytics, trackFilterApplied, trackReadingOpened } from './analytics.js';
 import { listPersonalReadings, readingStorageKey } from './reading-files.js';
 import { mountBatchDownload } from './batch-download.js';
+import { listCollections, saveCollectionEntries } from './collections.js';
 
 const main = document.querySelector('#contingut');
 const catalogView = document.querySelector('#catalog-view');
@@ -68,6 +69,7 @@ const catalog = mountCatalog({
   readings,
   onSelect: openCatalogReading,
   onFilterApplied: trackFilterApplied,
+  onSaveCollection: saveCollection,
 });
 const studio = mountStudio({
   root: studioView,
@@ -79,13 +81,70 @@ const studio = mountStudio({
   onNavigate: openCatalogReading,
   onRemove: removeReading,
 });
+const batchDialog = document.querySelector('#batch-dialog');
+const collectionDialog = document.querySelector('#collection-dialog');
+const collectionName = collectionDialog.querySelector('#collection-name');
+const collectionTarget = collectionDialog.querySelector('#collection-target');
+const collectionError = collectionDialog.querySelector('#collection-error');
+let collectionReadings;
+let sourceCollectionId;
+
+function updateCollectionEditor() {
+  const append = Boolean(collectionTarget.value);
+  collectionDialog.querySelector('#collection-name-row').hidden = append;
+  collectionName.disabled = append;
+  collectionDialog.querySelector('#collection-submit').textContent = t(append ? 'Afegeix les lectures' : 'Desa la col·lecció');
+}
+collectionTarget.addEventListener('change', updateCollectionEditor);
+
+function saveCollection(entries) {
+  if (!entries.length) return;
+  collectionReadings = entries;
+  sourceCollectionId = catalog.activeCollection()?.id;
+  const targets = listCollections().filter(entry => entry.id !== sourceCollectionId);
+  collectionTarget.replaceChildren(collectionTarget.options[0], ...targets.map(entry => new Option(entry.name, entry.id)));
+  collectionTarget.value = '';
+  collectionDialog.querySelector('#collection-target-row').hidden = !targets.length;
+  syncSelects(collectionDialog);
+  updateCollectionEditor();
+  collectionName.value = '';
+  collectionError.textContent = '';
+  collectionDialog.querySelector('#collection-count').textContent = entries.length === 1
+    ? t('Es desarà una lectura.') : t('Es desaran {count} lectures en l’ordre actual.', { count: entries.length });
+  openDialog(collectionDialog);
+  collectionName.focus();
+}
+
+collectionDialog.querySelector('form').addEventListener('submit', event => {
+  event.preventDefault();
+  let entry;
+  try {
+    entry = saveCollectionEntries(collectionName.value, collectionReadings, sourceCollectionId, collectionTarget.value);
+  } catch (error) {
+    collectionError.textContent = error instanceof DOMException
+      ? t('No s’ha pogut desar la col·lecció.') : error.message;
+    return;
+  }
+  catalog.loadCollections(entry.id);
+  closeDialog(collectionDialog, () => {
+    if (batchDialog.open) closeDialog(batchDialog);
+  });
+});
+
 mountBatchDownload({
   trigger: document.querySelector('#batch-open'),
-  dialog: document.querySelector('#batch-dialog'),
+  dialog: batchDialog,
   getReadings: catalog.matchingReadings,
+  getAllReadings: () => readings,
+  getCollectionId: () => catalog.activeCollection()?.id,
   getSettings: studio.exportSettings,
   printPages: studio.printPages,
   resetLayouts: studio.resetAllLayouts,
+  saveCollection,
+  onRestore: () => {
+    catalog.loadCollections();
+    studio.reloadTemplates();
+  },
 });
 mountDialogs();
 mountSelectMenus();
@@ -111,8 +170,9 @@ mountActionMenu(document.querySelector('#language-button'), languageMenu, value 
 });
 
 function openReading(readingId) {
-  const hash = `lectura=${encodeURIComponent(readingId)}`;
-  if (location.hash.slice(1) === hash) studio.open(readingId);
+  const scope = catalog.activeCollection();
+  const hash = `lectura=${encodeURIComponent(readingId)}${scope ? '&col=' + scope.id : ''}`;
+  if (location.hash.slice(1) === hash) studio.open(readingId, scope);
   else location.hash = hash;
 }
 
@@ -191,7 +251,10 @@ function route() {
     return;
   }
   const readingId = params.get('lectura');
-  if (!studio.open(readingId)) showCatalog();
+  const id = params.get('col');
+  const scope = id ? listCollections().find(entry => entry.id === id) : undefined;
+  if (readingId && (scope?.id ?? '') !== (catalog.activeCollection()?.id ?? '')) catalog.loadCollections(scope?.id ?? '');
+  if (!studio.open(readingId, scope)) showCatalog();
 }
 
 document.querySelector('#home-link').addEventListener('click', (event) => {

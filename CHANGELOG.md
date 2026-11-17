@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.32 · 17 de novembre de 2026
+
+El catàleg permet desar col·leccions amb la tria, l’ordre i un maquetat independent per lectura. Una còpia de seguretat permet traslladar les col·leccions, els maquetats, els codis d’aula i les plantilles.
+
 ## 1.31 · 17 de novembre de 2026
 
 Els ajustos de cada lectura es desen automàticament al navegador i es recuperen en reobrir-la o imprimir-la, sola o en lot. Es pot restablir una lectura o esborrar tots els maquetats desats.

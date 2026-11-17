@@ -1,6 +1,7 @@
 import { animateRefresh, setDisclosure } from './motion.js';
 import { syncSelects } from './select-menu.js';
 import { language, languages, t } from './i18n.js';
+import { collectionsKey, listCollections, removeCollection } from './collections.js';
 
 export const labels = {
   language: { es: 'Castellà', ca: 'Català' },
@@ -102,7 +103,7 @@ function sortFacet(facet, a, b, compare) {
   return compare(labelFor(facet, a), labelFor(facet, b));
 }
 
-export function mountCatalog({ root, readings, onSelect, onFilterApplied }) {
+export function mountCatalog({ root, readings, onSelect, onFilterApplied, onSaveCollection }) {
   let catalog = indexCatalog(readings);
   for (let index = catalog.length - 1; index > 0; index -= 1) {
     const other = Math.floor(Math.random() * (index + 1));
@@ -123,6 +124,13 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied }) {
   const results = root.querySelector('.catalog-results-scroll');
   const compact = matchMedia('(max-width: 790px)');
   const indicator = root.querySelector('#filter-indicator');
+  const collection = root.querySelector('#collection-select');
+  const collectionTag = root.querySelector('#catalog-collection-label');
+  const collectionSave = root.querySelector('#collection-save');
+  const collectionRemove = root.querySelector('#collection-remove');
+  const collectionStatus = root.querySelector('#collection-status');
+  let collections = listCollections();
+  let activeCollection;
   const template = document.querySelector('#reading-card');
   const clearButtons = new Map();
   let limit = firstBatchSize;
@@ -132,13 +140,13 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied }) {
     if (entries.some(entry => entry.isIntersecting) && document.activeElement !== more) loadMore();
   }) : null;
 
-  function updateOptions(facets, numbers) {
+  function updateOptions(source, facets, numbers) {
     const { compare } = new Intl.Collator(language(), { numeric: true });
     const level = levelField.value;
     for (const field of fields) {
       const facet = field.dataset.facet;
       const { [facet]: selected, ...others } = facets;
-      const candidates = filterCatalog(catalog, { search: search.value, ...others });
+      const candidates = filterCatalog(source, { search: search.value, ...others });
       const counts = new Map();
       for (const item of candidates) {
         for (const value of new Set(item.facets[facet])) counts.set(value, (counts.get(value) ?? 0) + 1);
@@ -269,9 +277,12 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied }) {
     const words = new Intl.NumberFormat(language());
     const facets = selectedFacets();
     const activeCount = Object.values(facets).filter(Boolean).length;
-    orderedMatches = filterCatalog(catalog, { search: search.value, ...facets });
+    const byId = activeCollection && new Map(catalog.map(item => [item.reading.id, item]));
+    const source = byId ? activeCollection.readingIds.map(id => byId.get(id)).filter(Boolean) : catalog;
+    orderedMatches = filterCatalog(source, { search: search.value, ...facets });
     const total = orderedMatches.length;
-    if (!append) updateOptions(facets, words);
+    if (!append) updateOptions(source, facets, words);
+    collectionSave.disabled = !total;
     const showing = Math.min(limit, total);
     const visible = orderedMatches.slice(0, showing);
     const ids = visible.map(({ reading }) => reading.id).join(' ');
@@ -329,10 +340,59 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied }) {
     search.focus();
   }
 
+  function syncCollections() {
+    const all = collection.options[0];
+    collection.replaceChildren(all, ...collections.map(entry => new Option(entry.name, entry.id)));
+    collection.value = activeCollection?.id ?? '';
+    collectionTag.textContent = activeCollection?.name ?? '';
+    collectionTag.hidden = !activeCollection;
+    collectionRemove.hidden = !activeCollection;
+    syncSelects(root);
+  }
+
+  function selectCollection(id) {
+    activeCollection = collections.find(entry => entry.id === id);
+    search.value = '';
+    for (const field of fields) field.value = '';
+    syncCollections();
+    refresh();
+  }
+
+  function loadCollections(id = activeCollection?.id) {
+    collections = listCollections();
+    if (id !== activeCollection?.id) selectCollection(id);
+    else {
+      activeCollection = collections.find(entry => entry.id === id);
+      syncCollections();
+      refresh();
+    }
+  }
+
+  collection.addEventListener('change', () => {
+    collectionStatus.textContent = '';
+    selectCollection(collection.value);
+  });
+  collectionSave.addEventListener('click', () => onSaveCollection(orderedMatches.map(({ reading }) => reading)));
+  collectionRemove.addEventListener('click', () => {
+    if (!activeCollection || !confirm(t('Vols suprimir la col·lecció «{name}»?', { name: activeCollection.name }))) return;
+    try {
+      removeCollection(activeCollection.id);
+      loadCollections('');
+      collectionStatus.textContent = '';
+      (collection.parentElement.querySelector('.select-trigger') ?? collection).focus();
+    } catch { collectionStatus.textContent = t('No s’ha pogut suprimir la col·lecció.'); }
+  });
+  window.addEventListener('storage', event => {
+    if (event.key === null || event.key === collectionsKey) loadCollections();
+  });
+
   reset.setAttribute('aria-label', t('Neteja la cerca i els filtres'));
   search.addEventListener('input', refresh);
   reset.addEventListener('click', clear);
-  root.querySelector('#empty-reset').addEventListener('click', clear);
+  root.querySelector('#empty-reset').addEventListener('click', () => {
+    if (activeCollection) selectCollection('');
+    clear();
+  });
   toggle.addEventListener('click', () => {
     const expanded = toggle.getAttribute('aria-expanded') === 'false';
     toggle.setAttribute('aria-expanded', String(expanded));
@@ -344,9 +404,12 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied }) {
   compact.addEventListener('change', resizeFilters);
   resizeFilters();
   more.addEventListener('click', () => loadMore(true));
+  syncCollections();
   render();
 
   return {
+    loadCollections,
+    activeCollection: () => activeCollection,
     matchingReadings() {
       return orderedMatches.map(({ reading }) => reading);
     },
@@ -365,6 +428,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied }) {
     },
     translate() {
       reset.setAttribute('aria-label', t('Neteja la cerca i els filtres'));
+      syncCollections();
       render({ translated: true });
     },
     focus(readingId) {
