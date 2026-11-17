@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320">
+  <rect width="480" height="320" fill="#e4d8c3"/>
+  <g fill="none" stroke="#394b44" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M0 0h125v320H0z" fill="#b5ad9e" stroke="none"/>
+    <path d="M107 0l-7 61 11 29-7 63 20 15-9 47 11 29-7 76" stroke="#84796f" stroke-width="8"/>
+    <path d="m4 44 89-4M0 133l94 10m-94 63 103 4m-64 110 1-101m25-84v68M33 41l1 91" stroke="#d1c8b9"/>
+    <path d="M127 35q89 15 136 38t217 16m-358 178q75-12 158 16t200 6" stroke="#c1b297"/>
+    <path d="m150 220 25-8 17 7-13 4zm225-84 14-8 11 7-11 6zm20 106 31-8 14 11-19 3zm-209-147 16-9 14 6-10 8z" fill="#c8b99e" stroke="none"/>
+    <path d="m227 275 31-155-9-34 25-50 9 9-12 38 11 30-32 168zm43-109 28-24 25-12 3 8-22 11-40 42z" fill="#997655"/>
+    <path d="m237 253 23-109m8-35-9-21" stroke="#d5aa75"/>
+    <g fill="#473d32" stroke="#473d32">
+    <g transform="translate(139 164) rotate(-5)">
+    <path d="m-4-1-5-9-7-1m11 11-9-3-4 5m13 1-7 7-5-2m14-8 4-9 6-2m-9 11 9-3 4 3m-11 2 7 7 6-2M6-1l9-7 6 3M6 1l9 7 6-2" fill="none" stroke-width="1.4"/>
+    <ellipse cx="-9" cy="0" rx="6" ry="4.2"/>
+    <ellipse cx="-1" cy="0" rx="4.8" ry="3.4"/>
+    <circle cx="5" cy="0" r="3.5"/>
+    </g>
+    <g transform="translate(179 150) rotate(-21)">
+    <path d="m-4-1-5-9-7-1m11 11-9-3-4 5m13 1-7 7-5-2m14-8 4-9 6-2m-9 11 9-3 4 3m-11 2 7 7 6-2M6-1l9-7 6 3M6 1l9 7 6-2" fill="none" stroke-width="1.4"/>
+    <ellipse cx="-9" cy="0" rx="6" ry="4.2"/>
+    <ellipse cx="-1" cy="0" rx="4.8" ry="3.4"/>
+    <circle cx="5" cy="0" r="3.5"/>
+    </g>
+    <g transform="translate(210 121) rotate(-49)">
+    <path d="m-4-1-5-9-7-1m11 11-9-3-4 5m13 1-7 7-5-2m14-8 4-9 6-2m-9 11 9-3 4 3m-11 2 7 7 6-2M6-1l9-7 6 3M6 1l9 7 6-2" fill="none" stroke-width="1.4"/>
+    <ellipse cx="-9" cy="0" rx="6" ry="4.2"/>
+    <ellipse cx="-1" cy="0" rx="4.8" ry="3.4"/>
+    <circle cx="5" cy="0" r="3.5"/>
+    </g>
+    <g transform="translate(237 72) rotate(-47)">
+    <path d="m-4-1-5-9-7-1m11 11-9-3-4 5m13 1-7 7-5-2m14-8 4-9 6-2m-9 11 9-3 4 3m-11 2 7 7 6-2M6-1l9-7 6 3M6 1l9 7 6-2" fill="none" stroke-width="1.4"/>
+    <ellipse cx="-9" cy="0" rx="6" ry="4.2"/>
+    <ellipse cx="-1" cy="0" rx="4.8" ry="3.4"/>
+    <circle cx="5" cy="0" r="3.5"/>
+    </g>
+    <g transform="translate(305 69) rotate(24)">
+    <path d="m-4-1-5-9-7-1m11 11-9-3-4 5m13 1-7 7-5-2m14-8 4-9 6-2m-9 11 9-3 4 3m-11 2 7 7 6-2M6-1l9-7 6 3M6 1l9 7 6-2" fill="none" stroke-width="1.4"/>
+    <ellipse cx="-9" cy="0" rx="6" ry="4.2"/>
+    <ellipse cx="-1" cy="0" rx="4.8" ry="3.4"/>
+    <circle cx="5" cy="0" r="3.5"/>
+    </g>
+    <g transform="translate(343 101) rotate(43)">
+    <path d="m-4-1-5-9-7-1m11 11-9-3-4 5m13 1-7 7-5-2m14-8 4-9 6-2m-9 11 9-3 4 3m-11 2 7 7 6-2M6-1l9-7 6 3M6 1l9 7 6-2" fill="none" stroke-width="1.4"/>
+    <ellipse cx="-9" cy="0" rx="6" ry="4.2"/>
+    <ellipse cx="-1" cy="0" rx="4.8" ry="3.4"/>
+    <circle cx="5" cy="0" r="3.5"/>
+    </g>
+    <g transform="translate(388 133) rotate(22)">
+    <path d="m-4-1-5-9-7-1m11 11-9-3-4 5m13 1-7 7-5-2m14-8 4-9 6-2m-9 11 9-3 4 3m-11 2 7 7 6-2M6-1l9-7 6 3M6 1l9 7 6-2" fill="none" stroke-width="1.4"/>
+    <ellipse cx="-9" cy="0" rx="6" ry="4.2"/>
+    <ellipse cx="-1" cy="0" rx="4.8" ry="3.4"/>
+    <circle cx="5" cy="0" r="3.5"/>
+    </g>
+    </g>
+    <path d="m395 129 9-5 9 5-2 8-8-2z" fill="#f3e4bd" stroke="none"/>
+  </g>
+</svg>
