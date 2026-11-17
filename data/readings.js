@@ -12,6 +12,7 @@ import { readings5EsFifthSeries } from './readings-5-es-5.js';
 import { readings5InitialEs } from './readings-5-initial-es.js';
 import { readings5AdvancedEs } from './readings-5-advanced-es.js';
 import { readings6Es } from './readings-6-es.js';
+import { readings6ExpansionEs } from './readings-6-expansion-es.js';
 import { moreReadings6Es } from './readings-6-es-2.js';
 import { readings6EsThirdSeries } from './readings-6-es-3.js';
 import { readings6EsFourthSeries } from './readings-6-es-4.js';
@@ -27,6 +28,7 @@ import { readings5Ca } from './readings-5-ca.js';
 import { readings5InitialCa } from './readings-5-initial-ca.js';
 import { readings5AdvancedCa } from './readings-5-advanced-ca.js';
 import { readings6Ca } from './readings-6-ca.js';
+import { readings6ExpansionCa } from './readings-6-expansion-ca.js';
 import { readings1SecondaryEs } from './readings-1-secondary-es.js';
 import { readings1SecondaryCa } from './readings-1-secondary-ca.js';
 
@@ -221,6 +223,7 @@ const originalReadings = [
   ...readings5InitialEs,
   ...readings5AdvancedEs,
   ...readings6Es,
+  ...readings6ExpansionEs,
   ...moreReadings6Es,
   ...readings6EsThirdSeries,
   ...readings6EsFourthSeries,
@@ -235,7 +238,7 @@ const originalsByCode = new Map(originalReadings.map(reading => [reading.code, r
 
 export const readings = [
   ...originalReadings,
-  ...[...readings3Ca, ...readings3InitialCa, ...readings3IntermediateCa, ...readings3AdvancedCa, ...readings4Ca, ...readings4ExpansionCa, ...readings5Ca, ...readings5InitialCa, ...readings5AdvancedCa, ...readings6Ca, ...readings1SecondaryCa].map(({ code, imageAlt, annotations = [], ...text }) => {
+  ...[...readings3Ca, ...readings3InitialCa, ...readings3IntermediateCa, ...readings3AdvancedCa, ...readings4Ca, ...readings4ExpansionCa, ...readings5Ca, ...readings5InitialCa, ...readings5AdvancedCa, ...readings6Ca, ...readings6ExpansionCa, ...readings1SecondaryCa].map(({ code, imageAlt, annotations = [], ...text }) => {
     const original = originalsByCode.get(code);
     return {
       ...original,

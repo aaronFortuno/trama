@@ -32,6 +32,8 @@ v1.35.5 · Obre l’historial de canvis|v1.35.5 · Abrir el historial de cambios
 Les lectures L177–L180 completen les quinze de 4t intermedi en català i castellà. El catàleg també distingeix la temàtica Jocs i enigmes per als textos que expliquen partides i regles.|Las lecturas L177–L180 completan las quince de 4.º intermedio en catalán y castellano. El catálogo también distingue la temática Juegos y enigmas para los textos que explican partidas y reglas.
 v1.36 · Obre l’historial de canvis|v1.36 · Abrir el historial de cambios
 Nou lectures avançades (L181–L189) completen el catàleg de 4t: quinze lectures per dificultat, totes en català i castellà. Inclouen ficció, natura, tecnologia, notícies, una ressenya i una carta, amb il·lustració, vuit preguntes i solucionari.|Nueve lecturas avanzadas (L181–L189) completan el catálogo de 4.º: quince lecturas por dificultad, todas en catalán y castellano. Incluyen ficción, naturaleza, tecnología, noticias, una reseña y una carta, con ilustración, ocho preguntas y solucionario.
+v1.36.1 · Obre l’historial de canvis|v1.36.1 · Abrir el historial de cambios
+Dotze lectures noves de 6è inicial (L190–L201), en català i castellà, amb il·lustració, vuit preguntes, solucionari i espais de resposta ajustats. El nivell inicial de 6è arriba a quinze lectures per idioma.|Doce lecturas nuevas de 6.º inicial (L190–L201), en catalán y castellano, con ilustración, ocho preguntas, solucionario y espacios de respuesta ajustados. El nivel inicial de 6.º alcanza quince lecturas por idioma.
 Catàleg de lectures|Catálogo de lecturas
 Cerca al catàleg|Buscar en el catálogo
 Cerca per títol, codi o tema|Buscar por título, código o tema

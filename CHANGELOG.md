@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.36.1 · 18 de novembre del 2026
+
+Dotze lectures noves de 6è inicial (L190–L201), en català i castellà, amb il·lustració, vuit preguntes, solucionari i espais de resposta ajustats. El nivell inicial de 6è arriba a quinze lectures per idioma.
+
 ## 1.36 · 18 de novembre del 2026
 
 Nou lectures avançades (L181–L189) completen el catàleg de 4t: quinze lectures per dificultat, totes en català i castellà. Inclouen ficció, natura, tecnologia, notícies, una ressenya i una carta, amb il·lustració, vuit preguntes i solucionari.
