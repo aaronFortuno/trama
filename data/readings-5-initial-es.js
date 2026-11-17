@@ -42,7 +42,7 @@ export const readings5InitialEs = [
     language: "es",
     level: "5-primary",
     difficulty: "initial",
-    themes: ["everyday","community"],
+    themes: ["everyday","community","sports"],
     genre: "narrative",
     title: "El pase de la portera",
     summary: "Mar descubre una forma de ayudar al equipo cuando ella está en la portería.",

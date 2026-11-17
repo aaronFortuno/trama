@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.35 · 17 de novembre de 2026
+
+Es retira el filtre de tipus de pregunta i s’unifiquen les etiquetes del catàleg. Medi ambient, esport, tecnologia i geografia tenen noms propis als filtres en català i castellà. Totes les lectures existents tenen temàtica i tipus de text verificats.
+
 ## 1.34.3 · 17 de novembre de 2026
 
 Els controls de selecció i gestió de col·leccions s’agrupen al lateral esquerre del catàleg, incloent-hi el comptador, desar i cancel·lar.

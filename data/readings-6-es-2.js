@@ -91,7 +91,7 @@ export const moreReadings6Es = [
     language: 'es',
     level: '6-primary',
     difficulty: 'advanced',
-    themes: ['nature', 'science'],
+    themes: ["nature","science","geography","environment"],
     genre: 'informative',
     title: 'Cuando el río deja una isla',
     summary: 'La aparición de un banco de arena permite investigar qué le ocurre a lo que el río arrastra.',

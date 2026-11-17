@@ -83,7 +83,7 @@ export const readings6EsFourthSeries = [
     language: 'es',
     level: '6-primary',
     difficulty: 'advanced',
-    themes: ['nature', 'science'],
+    themes: ["nature","science","environment"],
     genre: 'informative',
     title: 'El turno de las polillas',
     summary: 'Un estudio de las flores de zarzamora compara las visitas de los insectos con el polen que dejan. Las dos medidas cuentan historias distintas.',

@@ -18,6 +18,8 @@ Llegir és deixar-se sorprendre.|Leer es dejarse sorprender.
 Idioma de la interfície|Idioma de la interfaz
 Activa el tema fosc|Activar el tema oscuro
 Activa el tema clar|Activar el tema claro
+v1.35 · Obre l’historial de canvis|v1.35 · Abrir el historial de cambios
+Es retira el filtre de tipus de pregunta i s’unifiquen les etiquetes del catàleg. Medi ambient, esport, tecnologia i geografia tenen noms propis als filtres en català i castellà. Totes les lectures existents tenen temàtica i tipus de text verificats.|Se retira el filtro de tipo de pregunta y se unifican las etiquetas del catálogo. Medio ambiente, deporte, tecnología y geografía tienen nombres propios en los filtros en catalán y castellano. Todas las lecturas existentes tienen temática y tipo de texto verificados.
 Catàleg de lectures|Catálogo de lecturas
 Cerca al catàleg|Buscar en el catálogo
 Cerca per títol, codi o tema|Buscar por título, código o tema
@@ -230,6 +232,10 @@ Curta|Corta
 Mitjana|Media
 Llarga|Larga
 Natura|Naturaleza
+Medi ambient|Medio ambiente
+Esport|Deporte
+Tecnologia|Tecnología
+Geografia|Geografía
 Comunitat|Comunidad
 Aventures|Aventuras
 Ciència|Ciencia
@@ -245,6 +251,10 @@ Resum|Resumen
 Narració|Narración
 Divulgació|Divulgación
 Text instructiu|Texto instructivo
+Notícia|Noticia
+Ressenya|Reseña
+Diari|Diario
+Article d’opinió|Artículo de opinión
 Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de

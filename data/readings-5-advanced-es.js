@@ -107,10 +107,7 @@ export const readings5AdvancedEs = [
     "language": "es",
     "level": "5-primary",
     "difficulty": "advanced",
-    "themes": [
-      "science",
-      "everyday"
-    ],
+    "themes": ["science","everyday","technology"],
     "genre": "narrative",
     "title": "El turno del robot",
     "summary": "En un circuito de cartón, una flecha que parecía bien puesta hace girar al robot hacia el lugar equivocado.",
@@ -400,10 +397,7 @@ export const readings5AdvancedEs = [
     "language": "es",
     "level": "5-primary",
     "difficulty": "advanced",
-    "themes": [
-      "everyday",
-      "community"
-    ],
+    "themes": ["everyday","community","sports"],
     "genre": "narrative",
     "title": "Una jugada sin marcador",
     "summary": "En una práctica de voleibol, dos listas distintas explican cómo ha jugado el mismo equipo.",
@@ -585,10 +579,7 @@ export const readings5AdvancedEs = [
     "language": "es",
     "level": "5-primary",
     "difficulty": "advanced",
-    "themes": [
-      "science",
-      "everyday"
-    ],
+    "themes": ["science","everyday","technology"],
     "genre": "narrative",
     "title": "Los pasos que no contaba el móvil",
     "summary": "Dos compañeros comparan los pasos que cuenta un móvil con los que han dado de verdad.",

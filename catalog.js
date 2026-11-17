@@ -13,9 +13,9 @@ export const labels = {
   },
   difficulty: { initial: 'Inicial', intermediate: 'Intermèdia', advanced: 'Avançada' },
   length: { short: 'Curta', medium: 'Mitjana', long: 'Llarga' },
-  theme: { nature: 'Natura', community: 'Comunitat', adventure: 'Aventures', science: 'Ciència', arts: 'Art i cultura', everyday: 'Vida quotidiana', history: 'Història', math: 'Matemàtiques' },
+  theme: { nature: 'Natura', community: 'Comunitat', adventure: 'Aventures', science: 'Ciència', arts: 'Art i cultura', everyday: 'Vida quotidiana', history: 'Història', math: 'Matemàtiques', environment: 'Medi ambient', sports: 'Esport', technology: 'Tecnologia', geography: 'Geografia' },
   question: { literal: 'Literal', inference: 'Inferència', opinion: 'Opinió', vocabulary: 'Vocabulari', structure: 'Estructura del text', summary: 'Resum' },
-  genre: { narrative: 'Narració', informative: 'Divulgació', instructional: 'Text instructiu', interview: 'Entrevista', letter: 'Carta' },
+  genre: { narrative: 'Narració', informative: 'Divulgació', instructional: 'Text instructiu', interview: 'Entrevista', letter: 'Carta', news: 'Notícia', review: 'Ressenya', diary: 'Diari', argument: 'Article d’opinió' },
 };
 
 const languageNames = new Map(languages.map(code => [code, new Intl.DisplayNames(code, { type: 'language' })]));
@@ -87,7 +87,7 @@ export function indexCatalog(readings) {
     const count = wordCount(reading);
     const facets = {
       language: [reading.language], level: [reading.level], difficulty: [reading.difficulty], length: [lengthBucket(count, reading.level)],
-      theme: reading.themes, question: reading.questions.map(({ type }) => type), genre: [reading.genre],
+      theme: reading.themes, genre: [reading.genre],
     };
     const terms = languages.flatMap(locale => Object.entries(facets).flatMap(([facet, values]) => values.map(value => labelFor(facet, value, locale))));
     const searchText = normalize([reading.code, reading.title, reading.summary, ...terms].join(' '));

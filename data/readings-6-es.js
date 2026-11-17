@@ -89,10 +89,7 @@ export const readings6Es = [
     "language": "es",
     "level": "6-primary",
     "difficulty": "intermediate",
-    "themes": [
-      "science",
-      "nature"
-    ],
+    "themes": ["science","nature","environment"],
     "genre": "informative",
     "title": "Un patio que bebe",
     "summary": "Una clase compara dos superficies y descubre qué pueden explicar sus mediciones sobre los charcos del patio.",
