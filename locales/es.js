@@ -46,6 +46,8 @@ v1.26.2 · Obre l’historial de canvis|v1.26.2 · Abrir el historial de cambios
 v1.26.3 · Obre l’historial de canvis|v1.26.3 · Abrir el historial de cambios
 v1.26.4 · Obre l’historial de canvis|v1.26.4 · Abrir el historial de cambios
 v1.27 · Obre l’historial de canvis|v1.27 · Abrir el historial de cambios
+v1.27.1 · Obre l’historial de canvis|v1.27.1 · Abrir el historial de cambios
+El codi d’aula permet triar entre cinc mides i dos contrastos. La lletra és de pal sec i queda centrada dins l’etiqueta.|El código de aula permite elegir entre cinco tamaños y dos contrastes. La letra es de palo seco y queda centrada dentro de la etiqueta.
 S’incorporen les lectures L114–L116 de 5è de primària, de dificultat inicial, en català i castellà.|Se incorporan las lecturas L114–L116 de 5.º de primaria, de dificultad inicial, en catalán y castellano.
 S’afegeixen tres lectures més de 5è inicial (L117–L119), amb il·lustració i solucionari.|Se añaden tres lecturas más de 5.º de nivel inicial (L117–L119), con ilustración y solucionario.
 Les lectures L120–L122 completen el grup de 5è inicial, amb quinze lectures disponibles en totes dues llengües.|Las lecturas L120–L122 completan el grupo de 5.º de nivel inicial, con quince lecturas disponibles en ambos idiomas.
@@ -283,6 +285,10 @@ Esquerre|Izquierdo
 Encapçalament|Cabecera
 Codi d’aula|Código de aula
 Text del codi d’aula|Texto del código de aula
+Mida del codi d’aula|Tamaño del código de aula
+Contrast del codi d’aula|Contraste del código de aula
+Blanc sobre negre|Blanco sobre negro
+Negre sobre blanc amb vora|Negro sobre blanco con borde
 Es desa per a aquesta lectura en aquest navegador.|Se guarda para esta lectura en este navegador.
 Camp de nom|Campo de nombre
 Camp de data|Campo de fecha

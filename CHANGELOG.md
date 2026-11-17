@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.27.1 · 17 de novembre de 2026
+
+El codi d’aula permet triar entre cinc mides i dos contrastos. La lletra és de pal sec i queda centrada dins l’etiqueta.
+
 ## 1.27 · 17 de novembre de 2026
 
 S’incorporen les lectures L114–L116 de 5è de primària, de dificultat inicial, en català i castellà.

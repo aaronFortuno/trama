@@ -74,7 +74,8 @@ function makeHeader(reading, settings, [name, date, group, label, , , keyLabel],
     if (details.childElementCount) top.append(details);
     if (classroomCode) {
       const badge = element('span', 'worksheet-classroom-code', classroomCode);
-      badge.style.fontSize = `${Math.min(40, 208 / [...classroomCode].length)}pt`;
+      badge.style.fontSize = `${settings.classroomCodeSize}pt`;
+      badge.classList.toggle('is-outline', settings.classroomCodeStyle === 'outline');
       top.append(badge);
     }
     header.append(top);

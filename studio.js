@@ -1,5 +1,5 @@
 import { labelFor, wordCount } from './catalog.js';
-import { defaultImageConfig, defaultQuestionLines, defaultSettings, marginLimits, maxAnswerLines, maxClassroomCodeLength, questionLines, readCode, validSetting } from './worksheet-code.js';
+import { classroomCodeSize, defaultImageConfig, defaultQuestionLines, defaultSettings, marginLimits, maxAnswerLines, maxClassroomCodeLength, questionLines, readCode, validSetting } from './worksheet-code.js';
 import { decodeWorksheetImages, exportWorksheetPages, renderWorksheet, worksheetThumbnail } from './worksheet.js';
 import { supportsHyphenation } from './worksheet-hyphenation.js';
 import { animateRefresh, mountDisclosures, setDisclosure } from './motion.js';
@@ -17,7 +17,9 @@ import { fontGroups, loadWorksheetFont, worksheetFonts } from './worksheet-fonts
 const formatKeys = new Set(templateGroups.filter(group => group.id !== 'images').flatMap(group => group.keys));
 const pageFormat = settings => Object.fromEntries([...formatKeys].map(key => [key, settings[key]]));
 const classroomStorageKey = 'trama.classroom-code.v1:';
-const classroomDefaults = { showClassroomCode: false, classroomCode: defaultSettings().classroomCode };
+const classroomKeys = ['showClassroomCode', 'classroomCode', 'classroomCodeSize', 'classroomCodeStyle'];
+const defaults = defaultSettings();
+const classroomDefaults = Object.fromEntries(classroomKeys.map(key => [key, defaults[key]]));
 
 const range = (key, label, min, max, step, unit) => `
   <label class="studio-range">
@@ -136,6 +138,17 @@ const template = `
             ${check('showClassroomCode', 'Codi d’aula')}
             <div class="studio-controls studio-classroom-code" hidden>
               <label>Text del codi d’aula<input type="text" name="classroomCode" maxlength="${maxClassroomCodeLength}"></label>
+              <div class="studio-classroom-size">
+                <span aria-hidden="true">−</span>
+                <input type="range" name="classroomCodeSize" min="${classroomCodeSize.min}" max="${classroomCodeSize.max}" step="${classroomCodeSize.step}" data-unit="pt" aria-label="Mida del codi d’aula">
+                <span aria-hidden="true">+</span>
+              </div>
+              <label>Contrast del codi d’aula
+                <select name="classroomCodeStyle">
+                  <option value="solid">Blanc sobre negre</option>
+                  <option value="outline">Negre sobre blanc amb vora</option>
+                </select>
+              </label>
               <p class="studio-control-note">Es desa per a aquesta lectura en aquest navegador.</p>
             </div>
             ${logoControls('headerLogo', 'Logotip de l’encapçalament')}
@@ -314,14 +327,13 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     if (classroomCodes.has(entry.id)) return classroomCodes.get(entry.id);
     try {
       const saved = JSON.parse(localStorage.getItem(classroomStorageKey + entry.id));
-      if (validSetting('showClassroomCode', saved?.showClassroomCode) && validSetting('classroomCode', saved?.classroomCode)) {
-        return { showClassroomCode: saved.showClassroomCode, classroomCode: saved.classroomCode };
-      }
+      return Object.fromEntries(classroomKeys.map(key =>
+        [key, validSetting(key, saved?.[key]) ? saved[key] : classroomDefaults[key]]));
     } catch { /* The code can still be used in this session. */ }
     return classroomDefaults;
   }
   function rememberClassroomCode() {
-    const value = { showClassroomCode: settings.showClassroomCode, classroomCode: settings.classroomCode };
+    const value = Object.fromEntries(classroomKeys.map(key => [key, settings[key]]));
     classroomCodes.set(reading.id, value);
     try { localStorage.setItem(classroomStorageKey + reading.id, JSON.stringify(value)); }
     catch { /* Keep the code for this session. */ }
@@ -416,7 +428,8 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
       else if (input.value !== String(value)) input.value = value;
       if (input.type === 'range') {
         const formatted = `${numberFormat.format(value)} ${input.dataset.unit}`;
-        find(`[data-value="${input.name}"]`).value = formatted;
+        const output = find(`[data-value="${input.name}"]`);
+        if (output) output.value = formatted;
         input.setAttribute('aria-valuetext', formatted);
       }
     }
@@ -559,7 +572,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     } else if (Object.hasOwn(settings, input.name)) {
       const next = input.name === 'leading' ? Math.round(value * 20) / 10 : value;
       const changed = settings[input.name] !== next;
-      if (input.name === 'classroomCode' && !validSetting(input.name, next)) return;
+      if (Object.hasOwn(classroomDefaults, input.name) && !validSetting(input.name, next)) return;
       settings[input.name] = next;
       if (changed && formatKeys.has(input.name)) sessionFormat = pageFormat(settings);
       if (changed && Object.hasOwn(classroomDefaults, input.name)) rememberClassroomCode();
