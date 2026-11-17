@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.34 · 17 de novembre de 2026
+
+El catàleg mostra una sola llengua i recorda l’última tria. El lateral incorpora filtres desplegables i selecció de cards. Les col·leccions conserven l’ordre entre sessions i permeten afegir, retirar i reordenar lectures.
+
 ## 1.33 · 17 de novembre de 2026
 
 Set lectures noves de 5è avançat (L158–L164), en català i castellà, completen les quinze de cada llengua. Totes tenen il·lustració, vuit preguntes i solucionari.

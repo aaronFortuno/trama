@@ -42,10 +42,10 @@ export function setDisclosure(panel, open, { animated = true, settle } = {}) {
   } else finish();
 }
 
-export function mountDisclosures(root, { exclusive = false } = {}) {
+export function mountDisclosures(root, { exclusive = false, selector = 'details' } = {}) {
   const items = [];
   let requested;
-  for (const details of root.querySelectorAll('details')) {
+  for (const details of root.querySelectorAll(selector)) {
     const summary = details.querySelector(':scope > summary');
     const panel = document.createElement('div');
     panel.className = 'details-panel';

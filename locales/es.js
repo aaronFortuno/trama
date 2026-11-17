@@ -37,6 +37,34 @@ No s’han pogut desar els canvis. Es mantindran mentre aquesta pàgina sigui ob
 No s’han pogut restablir els ajustos d’aquesta lectura.|No se han podido restablecer los ajustes de esta lectura.
 Maquetats d’aquest navegador|Maquetaciones de este navegador
 Col·leccions|Colecciones
+Llengua de les lectures|Idioma de las lecturas
+Altres filtres|Otros filtros
+Neteja els filtres|Limpia los filtros
+1 lectura|1 lectura
+Selecciona lectures|Selecciona lecturas
+Surt de la selecció|Sal de la selección
+Selecciona|Selecciona
+Selecciona «{title}»|Selecciona «{title}»
+1 seleccionada|1 seleccionada
+{count} seleccionades|{count} seleccionadas
+Marca els resultats|Marca los resultados
+Desa la selecció|Guarda la selección
+Desa un conjunt de lectures amb el seu ordre, maquetat i codis d’aula.|Guarda un conjunto de lecturas con su orden, maquetación y códigos de aula.
+Ordena i edita|Ordena y edita
+Afegeix a «{name}» · {count}|Añade a «{name}» · {count}
+Afegeix a la col·lecció|Añade a la colección
+Arrossega les lectures o fes servir les fletxes per canviar-ne l’ordre. Els canvis es desen automàticament.|Arrastra las lecturas o usa las flechas para cambiar su orden. Los cambios se guardan automáticamente.
+Lectures de la col·lecció|Lecturas de la colección
+Encara no hi ha lectures. Afegeix-ne des del catàleg.|Todavía no hay lecturas. Añádelas desde el catálogo.
+Arrossega «{title}»|Arrastra «{title}»
+Puja «{title}»|Sube «{title}»
+Baixa «{title}»|Baja «{title}»
+Treu «{title}» de la col·lecció|Retira «{title}» de la colección
+Lectura no disponible|Lectura no disponible
+Lectura retirada de la col·lecció.|Lectura retirada de la colección.
+La col·lecció ha canviat. Torna-ho a provar.|La colección ha cambiado. Vuelve a intentarlo.
+No s’han pogut desar els canvis de la col·lecció.|No se han podido guardar los cambios de la colección.
+Fet|Hecho
 Tria una col·lecció|Elige una colección
 Tot el catàleg|Todo el catálogo
 Desa la tria actual|Guarda la selección actual
@@ -97,6 +125,8 @@ v1.30 · Obre l’historial de canvis|v1.30 · Abrir el historial de cambios
 v1.31 · Obre l’historial de canvis|v1.31 · Abrir el historial de cambios
 v1.32 · Obre l’historial de canvis|v1.32 · Abrir el historial de cambios
 v1.33 · Obre l’historial de canvis|v1.33 · Abrir el historial de cambios
+v1.34 · Obre l’historial de canvis|v1.34 · Abrir el historial de cambios
+El catàleg mostra una sola llengua i recorda l’última tria. El lateral incorpora filtres desplegables i selecció de cards. Les col·leccions conserven l’ordre entre sessions i permeten afegir, retirar i reordenar lectures.|El catálogo muestra un solo idioma y recuerda la última elección. El lateral incorpora filtros desplegables y selección de tarjetas. Las colecciones conservan el orden entre sesiones y permiten añadir, retirar y reordenar lecturas.
 Set lectures noves de 5è avançat (L158–L164), en català i castellà, completen les quinze de cada llengua. Totes tenen il·lustració, vuit preguntes i solucionari.|Siete lecturas nuevas de 5.º avanzado (L158–L164), en catalán y castellano, completan las quince de cada idioma. Todas tienen ilustración, ocho preguntas y solucionario.
 El catàleg permet desar col·leccions amb la tria, l’ordre i un maquetat independent per lectura. Una còpia de seguretat permet traslladar les col·leccions, els maquetats, els codis d’aula i les plantilles.|El catálogo permite guardar colecciones con la selección, el orden y una maquetación independiente por lectura. Una copia de seguridad permite trasladar las colecciones, las maquetaciones, los códigos de aula y las plantillas.
 Els ajustos de cada lectura es desen automàticament al navegador i es recuperen en reobrir-la o imprimir-la, sola o en lot. Es pot restablir una lectura o esborrar tots els maquetats desats.|Los ajustes de cada lectura se guardan automáticamente en el navegador y se recuperan al volver a abrirla o imprimirla, sola o por lotes. Se puede restablecer una lectura o borrar todas las maquetaciones guardadas.

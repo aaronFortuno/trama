@@ -83,6 +83,26 @@
 .collection-dialog form label { display: block; font-size: .82rem; }
 .collection-dialog input { display: block; width: 100%; margin: 5px 0 9px; padding: 8px; color: inherit; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; font: inherit; }
 .collection-dialog form .button { margin-top: 6px; }
+.collection-library { width: min(700px, calc(100% - 24px)); padding: 18px; }
+.collection-library[open] { display: flex; flex-direction: column; }
+.collection-library .dialog-heading { flex: none; }
+.collection-library-help { margin: 10px 0; color: var(--muted); font-size: .8rem; }
+.collection-library-scroll { min-height: 0; max-height: 54dvh; padding: 0; border-block: 1px solid var(--line); }
+#collection-library-list { list-style: none; margin: 0; padding: 0; }
+#collection-library-list li { position: relative; display: flex; align-items: center; gap: 8px; padding: 9px 0; }
+#collection-library-list li + li { border-top: 1px solid var(--line); }
+#collection-library-list li[data-drop="before"]::before, #collection-library-list li[data-drop="after"]::after { position: absolute; inset-inline: 0; height: 3px; background: var(--accent); content: ''; }
+#collection-library-list li[data-drop="before"]::before { top: 0; }
+#collection-library-list li[data-drop="after"]::after { bottom: 0; }
+.collection-library-copy { display: grid; gap: 2px; flex: 1; min-width: 0; font-size: .85rem; overflow-wrap: anywhere; }
+.collection-library-copy small { color: var(--muted); font-size: .72rem; }
+.collection-row-actions { display: flex; gap: 2px; }
+.collection-row-actions .button, .collection-drag-handle { width: 30px; min-height: 34px; }
+.collection-drag-handle { cursor: grab; color: var(--muted); }
+.collection-drag-handle:active { cursor: grabbing; }
+.collection-library-actions { display: flex; flex: none; justify-content: space-between; gap: 12px; margin-top: 12px; }
+#collection-library-empty { font-size: .82rem; color: var(--muted); }
+#collection-library-status { margin-top: 8px; }
 .batch-actions { display: flex; flex: none; flex-wrap: wrap; justify-content: end; align-items: center; gap: 8px 12px; margin-top: 14px; }
 .batch-menu-separator { border-top: 1px solid var(--line); margin-block: 4px; }
 #batch-status { flex: 1 1 12rem; margin: 0; color: var(--muted); font-size: .8rem; }

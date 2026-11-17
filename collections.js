@@ -6,7 +6,7 @@ export const validEntryId = id => typeof id === 'string' && /^[a-z0-9]+(?:-[a-z0
 
 export function validCollection(entry) {
   return entry && validEntryId(entry.id) && typeof entry.name === 'string' && entry.name.trim()
-    && entry.name.length <= 60 && Array.isArray(entry.readingIds) && entry.readingIds.length > 0
+    && entry.name.length <= 60 && Array.isArray(entry.readingIds)
     && entry.readingIds.every(validEntryId) && new Set(entry.readingIds).size === entry.readingIds.length;
 }
 
@@ -49,4 +49,29 @@ export function saveCollectionEntries(name, readings, sourceId, targetId) {
 export function removeCollection(id) {
   localStorage.setItem(collectionsKey, JSON.stringify(listCollections().filter(entry => entry.id !== id)));
   clearCollectionLayouts(id);
+}
+
+export function moveCollectionReading(id, readingId, beforeId) {
+  return editCollection(id, entry => {
+    if (!entry.readingIds.includes(readingId) || readingId === beforeId) return entry;
+    const readingIds = entry.readingIds.filter(item => item !== readingId);
+    const position = beforeId ? readingIds.indexOf(beforeId) : readingIds.length;
+    if (position < 0) throw new Error(t('La col·lecció ha canviat. Torna-ho a provar.'));
+    readingIds.splice(position, 0, readingId);
+    return { ...entry, readingIds };
+  });
+}
+
+export function removeCollectionReading(id, readingId) {
+  // Retain the layout so re-adding a reading recovers its classroom code and format.
+  return editCollection(id, entry => ({ ...entry, readingIds: entry.readingIds.filter(item => item !== readingId) }));
+}
+
+function editCollection(id, change) {
+  const collections = listCollections();
+  const current = collections.find(entry => entry.id === id);
+  if (!current) throw new Error(t('Aquesta col·lecció ja no és disponible.'));
+  const entry = change(current);
+  localStorage.setItem(collectionsKey, JSON.stringify(collections.map(item => item.id === id ? entry : item)));
+  return entry;
 }

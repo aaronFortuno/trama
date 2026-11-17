@@ -9,6 +9,7 @@ import { startAnalytics, trackFilterApplied, trackReadingOpened } from './analyt
 import { listPersonalReadings, readingStorageKey } from './reading-files.js';
 import { mountBatchDownload } from './batch-download.js';
 import { listCollections, saveCollectionEntries } from './collections.js';
+import { mountCollectionLibrary } from './collection-library.js';
 
 const main = document.querySelector('#contingut');
 const catalogView = document.querySelector('#catalog-view');
@@ -70,6 +71,7 @@ const catalog = mountCatalog({
   onSelect: openCatalogReading,
   onFilterApplied: trackFilterApplied,
   onSaveCollection: saveCollection,
+  onManageCollection: id => collectionLibrary.open(id),
 });
 const studio = mountStudio({
   root: studioView,
@@ -82,6 +84,12 @@ const studio = mountStudio({
   onRemove: removeReading,
 });
 const batchDialog = document.querySelector('#batch-dialog');
+const collectionLibrary = mountCollectionLibrary({
+  dialog: document.querySelector('#collection-library'),
+  readings,
+  onChange: id => catalog.loadCollections(id),
+  onAdd: id => catalog.startAdding(id),
+});
 const collectionDialog = document.querySelector('#collection-dialog');
 const collectionName = collectionDialog.querySelector('#collection-name');
 const collectionTarget = collectionDialog.querySelector('#collection-target');
@@ -97,13 +105,13 @@ function updateCollectionEditor() {
 }
 collectionTarget.addEventListener('change', updateCollectionEditor);
 
-function saveCollection(entries) {
+function saveCollection(entries, { targetId = '' } = {}) {
   if (!entries.length) return;
   collectionReadings = entries;
   sourceCollectionId = catalog.activeCollection()?.id;
   const targets = listCollections().filter(entry => entry.id !== sourceCollectionId);
   collectionTarget.replaceChildren(collectionTarget.options[0], ...targets.map(entry => new Option(entry.name, entry.id)));
-  collectionTarget.value = '';
+  collectionTarget.value = targetId;
   collectionDialog.querySelector('#collection-target-row').hidden = !targets.length;
   syncSelects(collectionDialog);
   updateCollectionEditor();
@@ -112,7 +120,8 @@ function saveCollection(entries) {
   collectionDialog.querySelector('#collection-count').textContent = entries.length === 1
     ? t('Es desarà una lectura.') : t('Es desaran {count} lectures en l’ordre actual.', { count: entries.length });
   openDialog(collectionDialog);
-  collectionName.focus();
+  if (targetId) collectionDialog.querySelector('#collection-submit').focus();
+  else collectionName.focus();
 }
 
 collectionDialog.querySelector('form').addEventListener('submit', event => {
@@ -126,6 +135,7 @@ collectionDialog.querySelector('form').addEventListener('submit', event => {
     return;
   }
   catalog.loadCollections(entry.id);
+  catalog.clearSelection();
   closeDialog(collectionDialog, () => {
     if (batchDialog.open) closeDialog(batchDialog);
   });
@@ -166,6 +176,7 @@ mountActionMenu(document.querySelector('#language-button'), languageMenu, value 
   applyTheme(document.documentElement.dataset.theme);
   catalog.translate();
   studio.translate();
+  collectionLibrary.translate();
   lightningStatus.textContent = '';
 });
 

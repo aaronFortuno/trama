@@ -57,42 +57,51 @@
               <span class="visually-hidden">Cerca al catàleg</span>
               <input type="search" id="search" placeholder="Cerca per títol, codi o tema" autocomplete="off">
             </label>
+            <button class="button" type="button" id="catalog-select" aria-pressed="false">Selecciona lectures</button>
             <button class="button" type="button" id="batch-open" data-open-dialog="batch-dialog" aria-haspopup="dialog" aria-controls="batch-dialog">Imprimeix un lot</button>
           </div>
         </div>
         <div class="catalog-layout">
           <aside class="catalog-filters scroll-pane" aria-label="Filtres del catàleg">
-            <section class="catalog-collections" aria-labelledby="collections-title">
-              <h2 id="collections-title">Col·leccions</h2>
+            <details class="catalog-disclosure" id="catalog-filter-panel" open>
+              <summary>Filtres<span id="filter-indicator"></span></summary>
+              <div class="filters-body">
+                <div class="filter-field"><label for="filter-language">Llengua de les lectures<select id="filter-language" data-facet="language"><option value="ca">Català</option><option value="es">Castellà</option></select></label></div>
+                <div class="filter-field"><label for="filter-level">Nivell<select id="filter-level" data-facet="level"><option value="">Tots</option></select></label></div>
+                <div class="filter-field"><label for="filter-difficulty">Dificultat<select id="filter-difficulty" data-facet="difficulty"><option value="">Totes</option></select></label></div>
+                <details class="catalog-extra-filters">
+                  <summary>Altres filtres<span id="extra-filter-indicator"></span></summary>
+                  <div class="filters-body">
+                    <div class="filter-field"><label for="filter-length">Extensió (paraules)<select id="filter-length" data-facet="length"><option value="">Totes</option></select></label></div>
+                    <div class="filter-field"><label for="filter-theme">Temàtica<select id="filter-theme" data-facet="theme"><option value="">Totes</option></select></label></div>
+                    <div class="filter-field"><label for="filter-question">Tipus de pregunta<select id="filter-question" data-facet="question"><option value="">Tots</option></select></label></div>
+                    <div class="filter-field"><label for="filter-genre">Tipus de text<select id="filter-genre" data-facet="genre"><option value="">Tots</option></select></label></div>
+                  </div>
+                </details>
+                <p class="filters-note">L’extensió i la dificultat es valoren dins de cada curs.</p>
+                <button type="button" id="filters-reset" class="text-button" hidden>Neteja els filtres</button>
+              </div>
+            </details>
+            <details class="catalog-disclosure catalog-collections" id="catalog-collection-panel">
+              <summary id="collections-title">Col·leccions</summary>
+              <p class="collection-help">Desa un conjunt de lectures amb el seu ordre, maquetat i codis d’aula.</p>
               <label class="collection-picker"><span class="visually-hidden">Tria una col·lecció</span><select id="collection-select" aria-label="Tria una col·lecció"><option value="">Tot el catàleg</option></select></label>
               <div class="collection-actions">
-                <button class="text-button" type="button" id="collection-save" aria-haspopup="dialog">Desa la tria actual</button>
+                <button class="button" type="button" id="collection-save">Selecciona lectures</button>
+                <button class="button" type="button" id="collection-manage" aria-haspopup="dialog" disabled>Ordena i edita</button>
                 <button class="text-button" type="button" id="collection-remove" hidden>Suprimeix</button>
               </div>
               <p class="collection-status" id="collection-status" role="status"></p>
-            </section>
-            <div class="filters-heading">
-              <h2>Filtres</h2>
-              <button type="button" id="filters-toggle" class="button filters-toggle" aria-controls="filters-body" aria-expanded="false">
-                <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="2"/><circle cx="15" cy="17" r="2"/></svg>
-                Filtres<span id="filter-indicator"></span>
-                <svg class="ui-icon disclosure" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
-              </button>
-              <button type="button" id="filters-reset" class="text-button" hidden>Neteja</button>
-            </div>
-            <div id="filters-body"><div class="filters-body">
-              <div class="filter-field"><label for="filter-language">Llengua<select id="filter-language" data-facet="language"><option value="">Totes</option></select></label></div>
-              <div class="filter-field"><label for="filter-level">Nivell<select id="filter-level" data-facet="level"><option value="">Tots</option></select></label></div>
-              <div class="filter-field"><label for="filter-difficulty">Dificultat<select id="filter-difficulty" data-facet="difficulty"><option value="">Totes</option></select></label></div>
-              <div class="filter-field"><label for="filter-length">Extensió (paraules)<select id="filter-length" data-facet="length"><option value="">Totes</option></select></label></div>
-              <div class="filter-field"><label for="filter-theme">Temàtica<select id="filter-theme" data-facet="theme"><option value="">Totes</option></select></label></div>
-              <div class="filter-field"><label for="filter-question">Tipus de pregunta<select id="filter-question" data-facet="question"><option value="">Tots</option></select></label></div>
-              <div class="filter-field"><label for="filter-genre">Tipus de text<select id="filter-genre" data-facet="genre"><option value="">Tots</option></select></label></div>
-              <p class="filters-note">L’extensió i la dificultat es valoren dins de cada curs.</p>
-            </div></div>
+            </details>
           </aside>
 
           <div class="catalog-results">
+            <div class="catalog-selection" id="catalog-selection" hidden>
+              <span id="selection-count" role="status"></span>
+              <button class="text-button" type="button" id="selection-all">Marca els resultats</button>
+              <button class="button primary" type="button" id="selection-save" aria-haspopup="dialog" disabled>Desa la selecció</button>
+              <button class="text-button" type="button" id="selection-cancel">Cancel·la</button>
+            </div>
             <div class="catalog-results-scroll scroll-pane" tabindex="0" aria-label="Lectures del catàleg">
               <div class="reading-grid" id="reading-grid"></div>
               <div class="catalog-empty" id="catalog-empty" hidden>
@@ -122,7 +131,7 @@
         </a>
       </p>
       <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.33 · Obre l’historial de canvis">v1.33</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.34 · Obre l’historial de canvis">v1.34</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
@@ -198,6 +207,23 @@
     </form>
   </dialog>
 
+  <dialog class="site-dialog collection-library" id="collection-library" aria-labelledby="collection-library-title">
+    <div class="dialog-heading">
+      <h2 id="collection-library-title" tabindex="-1" data-dialog-focus></h2>
+      <button class="button close-button" type="button" data-close-dialog aria-label="Tanca"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+    </div>
+    <p class="collection-library-help">Arrossega les lectures o fes servir les fletxes per canviar-ne l’ordre. Els canvis es desen automàticament.</p>
+    <div class="dialog-scroll collection-library-scroll" tabindex="0" role="region" aria-label="Lectures de la col·lecció">
+      <ol id="collection-library-list"></ol>
+      <p id="collection-library-empty" hidden>Encara no hi ha lectures. Afegeix-ne des del catàleg.</p>
+    </div>
+    <p class="collection-status" id="collection-library-status" role="status"></p>
+    <div class="collection-library-actions">
+      <button class="button" type="button" id="collection-library-add">Afegeix lectures</button>
+      <button class="button primary" type="button" data-close-dialog>Fet</button>
+    </div>
+  </dialog>
+
   <dialog class="site-dialog about-dialog" id="about-dialog" aria-labelledby="about-title">
     <div class="dialog-heading">
       <h2 id="about-title" tabindex="-1" data-dialog-focus>Un petit espai per aprendre</h2>
@@ -250,6 +276,10 @@
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
       <article class="release">
+        <header><h3>v1.34</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
+        <p>El catàleg mostra una sola llengua i recorda l’última tria. El lateral incorpora filtres desplegables i selecció de cards. Les col·leccions conserven l’ordre entre sessions i permeten afegir, retirar i reordenar lectures.</p>
+      </article>
+      <article>
         <header><h3>v1.33</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>Set lectures noves de 5è avançat (L158–L164), en català i castellà, completen les quinze de cada llengua. Totes tenen il·lustració, vuit preguntes i solucionari.</p>
       </article>
@@ -509,6 +539,7 @@
 
   <template id="reading-card">
     <article class="reading-card">
+      <label class="card-selection" hidden><input type="checkbox"><span>Selecciona</span></label>
       <div class="card-art"><img alt="" loading="lazy" decoding="async"></div>
       <div class="card-body">
         <div class="card-kicker"><span class="card-genre"></span><span class="card-level"></span></div>
