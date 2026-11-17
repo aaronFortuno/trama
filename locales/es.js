@@ -122,6 +122,8 @@ Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
 Un projecte d’|Un proyecto de
 v1.24 · Obre l’historial de canvis|v1.24 · Abrir el historial de cambios
+v1.25 · Obre l’historial de canvis|v1.25 · Abrir el historial de cambios
+Cada curs té un format inicial de lletra i interlineat. Els ajustos de format es mantenen en obrir altres lectures durant la sessió. «Restableix» recupera el format del curs sense canviar el contingut triat.|Cada curso tiene un formato inicial de letra e interlineado. Los ajustes de formato se mantienen al abrir otras lecturas durante la sesión. «Restablecer» recupera el formato del curso sin cambiar el contenido elegido.
 S’incorpora «El camí subterrani de l’aigua» (L100), una lectura de divulgació de 1r d’ESO sobre els qanats de l’Iran, en català i castellà.|Se incorpora «El camino subterráneo del agua» (L100), una lectura de divulgación de 1.º de ESO sobre los qanats de Irán, en catalán y castellano.
 S’incorpora «La ratlla del darrer punt» (L101), una narració bilingüe de 1r d’ESO sobre un desacord a la final d’un torneig de bàdminton.|Se incorpora «La línea del último punto» (L101), una narración bilingüe de 1.º de ESO sobre un desacuerdo en la final de un torneo de bádminton.
 S’incorpora «El rellotge de les dues minuteres» (L102), una lectura bilingüe de 1r d’ESO sobre els horaris del ferrocarril i l’hora de Greenwich.|Se incorpora «El reloj de los dos minuteros» (L102), una lectura bilingüe de 1.º de ESO sobre los horarios del ferrocarril y la hora de Greenwich.
@@ -221,7 +223,7 @@ Amplia el zoom|Ampliar el zoom
 Ajusta a l’amplada|Ajustar al ancho
 Nivell de zoom|Nivel de zoom
 Format del full|Formato de la ficha
-Restableix tots els ajustos de la fitxa|Restablecer todos los ajustes de la ficha
+Restableix el format per defecte del curs|Restablecer el formato por defecto del curso
 Restableix|Restablecer
 Plantilles|Plantillas
 Tria una plantilla|Elegir una plantilla

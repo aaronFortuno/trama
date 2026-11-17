@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.25 · 17 de novembre de 2026
+
+Cada curs té un format inicial de lletra i interlineat. Els ajustos de format es mantenen en obrir altres lectures durant la sessió. «Restableix» recupera el format del curs sense canviar el contingut triat.
+
 ## 1.24 · 16 de novembre de 2026
 
 S’incorpora «El camí subterrani de l’aigua» (L100), una lectura de divulgació de 1r d’ESO sobre els qanats de l’Iran, en català i castellà.

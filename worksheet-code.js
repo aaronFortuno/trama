@@ -21,6 +21,12 @@ const imageWidth = numberIn(20, 75);
 const fonts = Object.fromEntries(Object.entries(worksheetFonts).map(([id, font]) => [id, font.code ?? font.name.toUpperCase()]));
 const positions = { left: 'ESQUERRA', center: 'CENTRE', right: 'DRETA' };
 const textAlignments = { left: 'ESQUERRA', justify: 'JUSTIFICAT' };
+const courseTypography = new Map([
+  ['3-primary', { fontSize: 14, leading: 2.2 }],
+  ['4-primary', { fontSize: 13, leading: 2.1 }],
+  ['6-primary', { fontSize: 11, leading: 1.9 }],
+  ['1-secondary', { fontSize: 11, leading: 1.8 }],
+]);
 
 const fields = {
   font: ['serif', oneOf(...Object.keys(fonts))],
@@ -71,9 +77,9 @@ export function validSetting(key, value) {
   return Object.hasOwn(fields, key) && fields[key][1](value);
 }
 
-export function defaultSettings() {
+export function defaultSettings(level) {
   const settings = Object.fromEntries(Object.entries(fields).map(([key, [fallback]]) => [key, fallback]));
-  return { ...settings, excluded: [], questionLines: Object.create(null), images: Object.create(null) };
+  return { ...settings, ...courseTypography.get(level), excluded: [], questionLines: Object.create(null), images: Object.create(null) };
 }
 
 export function defaultImageConfig(reading, index) {

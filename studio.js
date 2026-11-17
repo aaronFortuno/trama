@@ -6,12 +6,16 @@ import { animateRefresh, mountDisclosures, setDisclosure } from './motion.js';
 import { mountPreviewZoom } from './preview-zoom.js';
 import { syncSelects } from './select-menu.js';
 import { mountTemplateLibrary, templateLibraryMarkup } from './template-library.js';
+import { templateGroups } from './worksheet-templates.js';
 import { icon } from './icons.js';
 import { bindTranslations, language, t } from './i18n.js';
 import { mountActionMenu } from './action-menu.js';
 import { mountReadingReport, readingReportMarkup } from './reading-report.js';
 import { encodeImage, logoSource, tramaLogo } from './local-images.js';
 import { fontGroups, loadWorksheetFont, worksheetFonts } from './worksheet-fonts.js';
+
+const formatKeys = new Set(templateGroups.filter(group => group.id !== 'images').flatMap(group => group.keys));
+const pageFormat = settings => Object.fromEntries([...formatKeys].map(key => [key, settings[key]]));
 
 const range = (key, label, min, max, step, unit) => `
   <label class="studio-range">
@@ -74,7 +78,7 @@ const template = `
     <aside class="studio-settings studio-format" aria-labelledby="studio-settings-title">
       <div class="studio-panel-heading">
         <h2 id="studio-settings-title">Format del full</h2>
-        <button class="studio-text-button" type="button" data-action="reset" aria-label="Restableix tots els ajustos de la fitxa">Restableix</button>
+        <button class="studio-text-button" type="button" data-action="reset" aria-label="Restableix el format per defecte del curs">Restableix</button>
       </div>
       <form class="studio-form scroll-pane">
         <details class="studio-template-picker">
@@ -288,6 +292,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
 
   let reading;
   let settings;
+  let sessionFormat;
   let requestedFont;
   let pendingPrint;
   let frame = 0;
@@ -301,6 +306,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
     getThumbnail: format => worksheetThumbnail(reading, { ...settings, ...format }),
     onApply(format, name) {
       Object.assign(settings, format);
+      if (Object.keys(format).some(key => formatKeys.has(key))) sessionFormat = pageFormat(settings);
       syncControls();
       refresh();
       templateStatus.textContent = t('Plantilla «{name}» aplicada.', { name });
@@ -510,7 +516,10 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
       const config = settings.images[id] ?? defaultImageConfig(reading, index);
       settings.images[id] = { ...config, [input.dataset.imageKey]: value };
     } else if (Object.hasOwn(settings, input.name)) {
-      settings[input.name] = input.name === 'leading' ? Math.round(value * 20) / 10 : value;
+      const next = input.name === 'leading' ? Math.round(value * 20) / 10 : value;
+      const changed = settings[input.name] !== next;
+      settings[input.name] = next;
+      if (changed && formatKeys.has(input.name)) sessionFormat = pageFormat(settings);
     } else {
       return;
     }
@@ -639,6 +648,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
     const remove = control.querySelector('[data-logo-clear]');
     function updateLogo(source) {
       settings[key] = source;
+      sessionFormat = pageFormat(settings);
       message.hidden = true;
       templateStatus.textContent = '';
       syncControls();
@@ -710,14 +720,12 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
     if (action === 'catalog') onCatalog();
     if (action === 'templates') templates.open();
     if (action === 'reset') {
-      settings = defaultSettings();
+      sessionFormat = undefined;
+      settings = { ...settings, ...pageFormat(defaultSettings(reading.level)) };
       for (const message of root.querySelectorAll('[data-logo-status]')) message.hidden = true;
       templates.resetSelection();
-      solution.checked = false;
       exportStatus.hidden = true;
       templateStatus.textContent = '';
-      hiddenQuestion = undefined;
-      questionFeedback.hidden = true;
       syncControls();
       refresh();
     }
@@ -752,7 +760,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
       const entry = readings.find(item => item.id === id);
       if (!entry) return false;
       const keepLayout = !root.hidden && reading?.id !== entry.id && reading?.workId === entry.workId && Boolean(entry.workId);
-      select(entry, keepLayout ? settings : defaultSettings(), keepLayout);
+      select(entry, keepLayout ? settings : { ...defaultSettings(entry.level), ...sessionFormat }, keepLayout);
       return true;
     },
     restore(value) {
