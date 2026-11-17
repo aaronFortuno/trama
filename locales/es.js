@@ -47,6 +47,8 @@ Solucionaris de Trama|Solucionarios de Trama
 No s’ha pogut descarregar el lot. Torna-ho a provar.|No se ha podido descargar el lote. Vuelve a intentarlo.
 v1.26 · Obre l’historial de canvis|v1.26 · Abrir el historial de cambios
 v1.26.1 · Obre l’historial de canvis|v1.26.1 · Abrir el historial de cambios
+v1.26.2 · Obre l’historial de canvis|v1.26.2 · Abrir el historial de cambios
+El text pot continuar al costat d’una il·lustració durant diversos paràgrafs. La fitxa incorpora botons per anar a la lectura anterior o següent segons la cerca, els filtres i l’ordre del catàleg.|El texto puede continuar junto a una ilustración durante varios párrafos. La ficha incorpora botones para ir a la lectura anterior o siguiente según la búsqueda, los filtros y el orden del catálogo.
 La descàrrega en bloc permet triar entre les fitxes d’alumnat i el solucionari. En obrir el diàleg, totes les lectures que coincideixen amb els filtres ja estan seleccionades.|La descarga en bloque permite elegir entre las fichas del alumnado y el solucionario. Al abrir el diálogo, todas las lecturas que coinciden con los filtros ya están seleccionadas.
 El catàleg permet seleccionar les lectures que coincideixen amb la cerca i els filtres i descarregar-les en un sol PDF o en un ZIP amb un PDF per lectura. La descàrrega en bloc substitueix l’intercanvi de lectures en JSON.|El catálogo permite seleccionar las lecturas que coinciden con la búsqueda y los filtros y descargarlas en un solo PDF o en un ZIP con un PDF por lectura. La descarga en bloque sustituye al intercambio de lecturas en JSON.
 Importa o exporta lectures|Importar o exportar lecturas
@@ -234,6 +236,9 @@ Catàleg de quatre columnes en pantalles amples i menús més compactes. Nous ma
 Catàleg més directe, amb capçalera i peu fixos. Ajustos i previsualització amb desplaçament propi, zoom del full i un nou espai per al projecte i l’historial.|Catálogo más directo, con cabecera y pie fijos. Ajustes y vista previa con desplazamiento propio, zoom de la ficha y un nuevo espacio para el proyecto y el historial.
 Primera versió amb quatre lectures il·lustrades en castellà per a 5è de primària i un editor de fitxes imprimibles amb codi de recuperació.|Primera versión con cuatro lecturas ilustradas en español para 5.º de primaria y un editor de fichas imprimibles con código de recuperación.
 Torna al catàleg|Volver al catálogo
+Navegació entre lectures|Navegación entre lecturas
+Lectura anterior|Lectura anterior
+Lectura següent|Lectura siguiente
 Opcions de la lectura|Opciones de la lectura
 Suprimeix la lectura importada|Eliminar la lectura importada
 Vols suprimir aquesta lectura del navegador?|¿Quieres eliminar esta lectura del navegador?

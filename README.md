@@ -4,6 +4,8 @@ Catàleg de comprensions lectores imprimibles d’ortogra.fi. Inclou fitxes de 3
 
 Les versions d’una mateixa lectura comparteixen codi. El selector **Altres versions**, al costat del títol de la fitxa, permet canviar la llengua i conservar els ajustos i el punt de lectura.
 
+Les fletxes del visor obren la lectura anterior o següent seguint la cerca, els filtres i l’ordre del catàleg.
+
 A la previsualització, mantén premut Ctrl i gira la roda del ratolí per fer zoom, o fes servir els botons del visor. El zoom de pantalla conserva les mides de la fitxa impresa.
 
 El commutador **Solucionari** mostra la resposta orientativa sota cada pregunta inclosa. **Imprimeix** obre la fitxa d’alumnat. La fletxa del costat ofereix la descàrrega directa en PDF i la impressió o descàrrega del solucionari. La descàrrega directa desa cada pàgina com una imatge d’alta resolució dins del PDF. Des del diàleg d’impressió del navegador es pot desar un PDF amb text seleccionable.

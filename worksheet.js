@@ -100,8 +100,8 @@ function makeParagraph(text, formatText, { marks = [], offset = 0, index } = {})
   return paragraph;
 }
 
-function makePassage(text, images, formatText, annotations) {
-  const section = element('div', 'worksheet-passage');
+function makePassageBlock(text, images, formatText, annotations) {
+  const section = element('div', 'worksheet-passage-block');
   for (const { image, config } of images) {
     const figure = element('figure', 'worksheet-figure');
     figure.dataset.position = config.position;
@@ -234,8 +234,9 @@ export function worksheetThumbnail(reading, settings) {
   corner.setAttribute('aria-hidden', 'true');
   const paper = makePaper(reading, settings, 'div');
   const content = element('div', 'worksheet-content');
-  content.append(makeHeader(reading, settings, wordsFor(reading.language)),
-    makePassage(reading.paragraphs[0], [], passageText(reading, settings)));
+  const passage = element('div', 'worksheet-passage');
+  passage.append(makePassageBlock(reading.paragraphs[0], [], passageText(reading, settings)));
+  content.append(makeHeader(reading, settings, wordsFor(reading.language)), passage);
   paper.append(content);
   corner.append(paper);
   return corner;
@@ -298,10 +299,30 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
     pages.push(footer);
   }
 
-  function tryBlock(block) {
-    content.append(block);
-    if (content.scrollHeight <= content.clientHeight) return true;
+  function appendBlock(block) {
+    if (!block.classList.contains('worksheet-passage-block')) {
+      content.append(block);
+      return;
+    }
+    // Paragraphs on the same page share a flow so an image can wrap with more than one of them.
+    let passage = content.lastElementChild;
+    if (!passage?.classList.contains('worksheet-passage')) {
+      passage = element('div', 'worksheet-passage');
+      content.append(passage);
+    }
+    passage.append(block);
+  }
+
+  function removeBlock(block) {
+    const parent = block.parentElement;
     block.remove();
+    if (parent !== content && !parent.firstElementChild) parent.remove();
+  }
+
+  function tryBlock(block) {
+    appendBlock(block);
+    if (content.scrollHeight <= content.clientHeight) return true;
+    removeBlock(block);
     return false;
   }
 
@@ -313,15 +334,15 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
   }
 
   function placeBlock(block) {
-    if (!fitBlock(block)) content.append(block);
+    if (!fitBlock(block)) appendBlock(block);
   }
 
   function placePassage(text, images, marks, index) {
-    if (fitBlock(makePassage(text, images, formatText, { marks, index }))) return;
-    for (const image of images) placeBlock(makePassage('', [image], formatText));
-    if (!text || fitBlock(makePassage(text, [], formatText, { marks, index }))) return;
+    if (fitBlock(makePassageBlock(text, images, formatText, { marks, index }))) return;
+    for (const image of images) placeBlock(makePassageBlock('', [image], formatText));
+    if (!text || fitBlock(makePassageBlock(text, [], formatText, { marks, index }))) return;
 
-    placeTextChunks(text, (part, _, offset) => makePassage(part, [], formatText, { marks, offset, index }), /\S{1,80}\s*|\s+/gu);
+    placeTextChunks(text, (part, _, offset) => makePassageBlock(part, [], formatText, { marks, offset, index }), /\S{1,80}\s*|\s+/gu);
   }
 
   function placeTextChunks(text, makeBlock, chunks = /\S{1,24}\s*|\s+/gu) {
@@ -336,7 +357,7 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
         const middle = Math.floor((lower + upper) / 2);
         const candidate = makeBlock(words.slice(start, middle).join(''), start === 0, offset);
         if (tryBlock(candidate)) {
-          candidate.remove();
+          removeBlock(candidate);
           end = middle;
           lower = middle + 1;
         } else {
@@ -349,7 +370,7 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
       }
       end = Math.max(start + 1, end);
       const fragment = words.slice(start, end).join('');
-      content.append(makeBlock(fragment, start === 0, offset));
+      appendBlock(makeBlock(fragment, start === 0, offset));
       offset += fragment.length;
       start = end;
       if (start < words.length) startPage();

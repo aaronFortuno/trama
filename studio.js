@@ -53,6 +53,10 @@ const template = `
             <label class="studio-variants" hidden>Altres versions <select id="studio-variant"></select></label>
           </div>
           <div class="studio-heading-actions">
+            <div class="studio-reading-nav" role="group" aria-label="Navegació entre lectures">
+              <button class="button" type="button" data-action="reading-previous" aria-label="Lectura anterior" disabled>${icon('chevron-left')}</button>
+              <button class="button" type="button" data-action="reading-next" aria-label="Lectura següent" disabled>${icon('chevron-right')}</button>
+            </div>
             <button class="button studio-report-trigger" type="button" data-report-part="" aria-label="Notifica un error" title="Notifica un error" aria-haspopup="dialog" aria-controls="reading-report-dialog">${icon('flag')}</button>
             <button class="button studio-reading-trigger" type="button" id="studio-reading-trigger" aria-label="Opcions de la lectura" title="Opcions de la lectura" aria-haspopup="menu" aria-expanded="false" aria-controls="studio-reading-menu" popovertarget="studio-reading-menu" hidden>${icon('ellipsis')}</button>
             <div class="select-menu action-menu" id="studio-reading-menu" role="menu" aria-labelledby="studio-reading-trigger" popover>
@@ -225,7 +229,7 @@ function imageControls(image, index) {
   return card;
 }
 
-export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRemove }) {
+export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getNeighbors, onNavigate, onRemove }) {
   root.innerHTML = template;
   const translateMarkup = bindTranslations(root);
   const find = selector => root.querySelector(selector);
@@ -291,6 +295,11 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
   document.body.append(printOutlet);
 
   let reading;
+  let neighbors;
+  const readingNav = [
+    { direction: 'previous', label: 'Lectura anterior', button: find('[data-action="reading-previous"]') },
+    { direction: 'next', label: 'Lectura següent', button: find('[data-action="reading-next"]') },
+  ];
   let settings;
   let sessionFormat;
   const settingsForReading = entry => ({ ...defaultSettings(entry.level), ...sessionFormat });
@@ -316,6 +325,12 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
   });
 
   function populateReading() {
+    neighbors = getNeighbors(reading);
+    for (const { direction, label, button } of readingNav) {
+      const neighbor = neighbors[direction];
+      button.disabled = !neighbor;
+      button.title = neighbor ? `${t(label)}: ${neighbor.title}` : t(label);
+    }
     fileTrigger.hidden = !reading.personal;
     licenseControl.hidden = Boolean(reading.personal);
     reportTrigger.hidden = Boolean(reading.personal);
@@ -691,6 +706,12 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
     }
   });
   variant.addEventListener('change', () => onVariant?.(variant.value));
+  for (const { direction, button } of readingNav) {
+    button.addEventListener('click', () => {
+      const neighbor = neighbors[direction];
+      if (neighbor) onNavigate(neighbor);
+    });
+  }
   solution.addEventListener('change', () => {
     syncControls();
     refresh();

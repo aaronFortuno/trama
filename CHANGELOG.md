@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.26.2 · 17 de novembre de 2026
+
+El text pot continuar al costat d’una il·lustració durant diversos paràgrafs. La fitxa incorpora botons per anar a la lectura anterior o següent segons la cerca, els filtres i l’ordre del catàleg.
+
 ## 1.26.1 · 17 de novembre de 2026
 
 La descàrrega en bloc permet triar entre les fitxes d’alumnat i el solucionari. En obrir el diàleg, totes les lectures que coincideixen amb els filtres ja estan seleccionades.

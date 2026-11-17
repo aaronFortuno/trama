@@ -66,10 +66,7 @@ startAnalytics();
 const catalog = mountCatalog({
   root: catalogView,
   readings,
-  onSelect(reading) {
-    openReading(reading.id);
-    trackReadingOpened(reading);
-  },
+  onSelect: openCatalogReading,
   onFilterApplied: trackFilterApplied,
 });
 const studio = mountStudio({
@@ -78,6 +75,8 @@ const studio = mountStudio({
   onOpen: showStudio,
   onCatalog: goToCatalog,
   onVariant: openReading,
+  getNeighbors: readingNeighbors,
+  onNavigate: openCatalogReading,
   onRemove: removeReading,
 });
 mountBatchDownload({
@@ -113,6 +112,18 @@ function openReading(readingId) {
   const hash = `lectura=${encodeURIComponent(readingId)}`;
   if (location.hash.slice(1) === hash) studio.open(readingId);
   else location.hash = hash;
+}
+
+function openCatalogReading(reading) {
+  openReading(reading.id);
+  trackReadingOpened(reading);
+}
+
+function readingNeighbors(reading) {
+  const matches = catalog.matchingReadings();
+  let index = matches.findIndex(entry => entry.id === reading.id);
+  if (index < 0 && reading.workId) index = matches.findIndex(entry => entry.workId === reading.workId);
+  return index < 0 ? {} : { previous: matches[index - 1], next: matches[index + 1] };
 }
 
 function showStudio(reading, { keepLayout }) {

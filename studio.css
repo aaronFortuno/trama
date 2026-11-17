@@ -39,6 +39,7 @@
 .studio-back { width: 32px; min-height: 32px; padding: 0; flex: none; }
 .studio-back svg { width: 17px; height: 17px; }
 .studio-heading-actions { display: flex; flex: none; gap: 6px; margin-inline-start: auto; }
+.studio-reading-nav { display: flex; gap: 3px; }
 .studio-heading-actions .button { width: 34px; min-height: 34px; padding: 0; }
 .studio-heading-actions .ui-icon { width: 17px; height: 17px; }
 .studio-file-status { margin: 0 0 6px; color: var(--accent); font-size: .78rem; }
@@ -234,6 +235,7 @@
 .worksheet-title { margin: 0; color: #203f34; font: 700 calc(var(--sheet-font-size) * 1.75)/1.12 var(--sheet-font); }
 .worksheet-reading-code { color: #4d6158; font-size: 8pt; }
 .worksheet-passage { display: flow-root; padding-bottom: var(--sheet-paragraph-gap); }
+.worksheet-passage-block + .worksheet-passage-block { padding-top: var(--sheet-paragraph-gap); }
 .worksheet-passage:has(+ .worksheet-questions-start) { padding-bottom: 0; }
 .worksheet-passage + .worksheet-questions-start, .worksheet-vocabulary-note + .worksheet-questions-start { padding-top: var(--sheet-section-gap); }
 .worksheet-paragraph { margin: 0; line-height: var(--sheet-leading); white-space: pre-line; }
@@ -245,6 +247,7 @@
 .worksheet-page[data-hyphenation="false"] .worksheet-paragraph { hyphens: none; }
 .worksheet-page[data-hyphenation="true"] .worksheet-paragraph { hyphens: manual; }
 .worksheet-figure { margin: 0 0 2mm; }
+.worksheet-figure[data-wrap="false"] { clear: both; }
 .worksheet-figure[data-position="center"] { margin-inline: auto; }
 .worksheet-figure[data-position="right"] { margin-left: auto; }
 .worksheet-figure[data-position="left"][data-wrap="true"] { float: left; margin-right: 4mm; }
