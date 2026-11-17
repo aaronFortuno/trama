@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.34.3 · 17 de novembre de 2026
+
+Els controls de selecció i gestió de col·leccions s’agrupen al lateral esquerre del catàleg, incloent-hi el comptador, desar i cancel·lar.
+
 ## 1.34.2 · 17 de novembre de 2026
 
 La impressió en lot incorpora una opció de doble cara activada per defecte. Afegeix una pàgina en blanc al final de cada fitxa o solucionari amb un nombre senar de pàgines, també als PDF i ZIP. Les fletxes del visor mantenen la vista d’alumnat o de solucionari en canviar de lectura.

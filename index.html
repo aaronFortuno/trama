@@ -57,7 +57,6 @@
               <span class="visually-hidden">Cerca al catàleg</span>
               <input type="search" id="search" placeholder="Cerca per títol, codi o tema" autocomplete="off">
             </label>
-            <button class="button" type="button" id="catalog-select" aria-pressed="false">Selecciona lectures</button>
             <button class="button" type="button" id="batch-open" data-open-dialog="batch-dialog" aria-haspopup="dialog" aria-controls="batch-dialog">Imprimeix un lot</button>
           </div>
         </div>
@@ -87,7 +86,13 @@
               <p class="collection-help">Desa un conjunt de lectures amb el seu ordre, maquetat i codis d’aula.</p>
               <label class="collection-picker"><span class="visually-hidden">Tria una col·lecció</span><select id="collection-select" aria-label="Tria una col·lecció"><option value="">Tot el catàleg</option></select></label>
               <div class="collection-actions">
-                <button class="button" type="button" id="collection-save">Selecciona lectures</button>
+                <button class="button" type="button" id="collection-save" aria-pressed="false">Selecciona lectures</button>
+                <div class="catalog-selection" id="catalog-selection" hidden>
+                  <span id="selection-count" role="status"></span>
+                  <button class="text-button" type="button" id="selection-all">Marca els resultats</button>
+                  <button class="text-button" type="button" id="selection-cancel">Cancel·la</button>
+                  <button class="button primary" type="button" id="selection-save" aria-haspopup="dialog" disabled>Desa la selecció</button>
+                </div>
                 <button class="button" type="button" id="collection-manage" aria-haspopup="dialog" disabled>Ordena i edita</button>
                 <button class="text-button" type="button" id="collection-remove" hidden>Suprimeix</button>
               </div>
@@ -96,12 +101,6 @@
           </aside>
 
           <div class="catalog-results">
-            <div class="catalog-selection" id="catalog-selection" hidden>
-              <span id="selection-count" role="status"></span>
-              <button class="text-button" type="button" id="selection-all">Marca els resultats</button>
-              <button class="button primary" type="button" id="selection-save" aria-haspopup="dialog" disabled>Desa la selecció</button>
-              <button class="text-button" type="button" id="selection-cancel">Cancel·la</button>
-            </div>
             <div class="catalog-results-scroll scroll-pane" tabindex="0" aria-label="Lectures del catàleg">
               <div class="reading-grid" id="reading-grid"></div>
               <div class="catalog-empty" id="catalog-empty" hidden>
@@ -131,7 +130,7 @@
         </a>
       </p>
       <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.34.2 · Obre l’historial de canvis">v1.34.2</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.34.3 · Obre l’historial de canvis">v1.34.3</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
@@ -277,6 +276,10 @@
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
       <article class="release">
+        <header><h3>v1.34.3</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
+        <p>Els controls de selecció i gestió de col·leccions s’agrupen al lateral esquerre del catàleg, incloent-hi el comptador, desar i cancel·lar.</p>
+      </article>
+      <article>
         <header><h3>v1.34.2</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>La impressió en lot incorpora una opció de doble cara activada per defecte. Afegeix una pàgina en blanc al final de cada fitxa o solucionari amb un nombre senar de pàgines, també als PDF i ZIP. Les fletxes del visor mantenen la vista d’alumnat o de solucionari en canviar de lectura.</p>
       </article>

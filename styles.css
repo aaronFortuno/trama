@@ -154,9 +154,7 @@ button { color: inherit; cursor: pointer; }
 .catalog-section { padding-block: clamp(15px, 2.5vw, 28px) 15px; }
 .catalog-heading { display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-bottom: 16px; }
 .catalog-heading-title { display: flex; flex-wrap: wrap; align-items: baseline; gap: 3px 12px; min-width: 0; }
-.catalog-heading-actions { display: flex; flex: 0 1 610px; align-items: center; gap: 8px; min-width: 0; }
-#catalog-select { flex: none; white-space: nowrap; }
-#catalog-select[aria-pressed="true"] { background: var(--hover); border-color: var(--green); }
+.catalog-heading-actions { display: flex; flex: 0 1 425px; align-items: center; gap: 8px; min-width: 0; }
 #batch-open { flex: none; white-space: nowrap; }
 .catalog-heading h1, .catalog-empty h3 {
   margin: 0;
@@ -193,7 +191,7 @@ button { color: inherit; cursor: pointer; }
 .collection-picker select { width: 100%; min-height: 34px; border: 1px solid var(--line); border-radius: 5px; color: inherit; background: var(--paper); }
 .collection-actions { display: grid; gap: 6px; justify-items: stretch; }
 .collection-actions .button { min-height: 34px; padding: 6px 8px; font-size: .78rem; }
-.collection-actions .text-button { padding: 2px 0; color: var(--green); font-size: .76rem; }
+.collection-actions .text-button { justify-self: start; padding: 2px 0; border: 0; background: none; color: var(--green); font-size: .76rem; text-decoration: underline; text-underline-offset: .22em; }
 .collection-status { margin: 0; color: var(--accent); font-size: .78rem; }
 .collection-status:empty { display: none; }
 .catalog-collection-label { max-width: 100%; overflow-wrap: anywhere; color: var(--green); font-size: .8rem; font-weight: 650; }
@@ -226,10 +224,11 @@ button { color: inherit; cursor: pointer; }
 }
 
 .catalog-results { min-width: 0; }
-.catalog-selection { display: flex; flex-wrap: wrap; align-items: center; gap: 7px 12px; margin-bottom: 12px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 7px; background: var(--surface); font-size: .8rem; }
-#selection-count { margin-right: auto; color: var(--green); font-weight: 650; }
+.catalog-selection { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 7px; min-width: 0; padding-block: 9px; border-block: 1px solid var(--line); font-size: .8rem; }
+#selection-count { grid-column: 1 / -1; color: var(--green); font-weight: 650; overflow-wrap: anywhere; }
+#selection-save { grid-column: 1 / -1; }
 .catalog-selection .button { min-height: 33px; font-size: .78rem; }
-.catalog-selection .text-button { padding: 3px 0; color: var(--green); font-size: .76rem; }
+.catalog-selection .text-button { justify-self: start; padding: 3px 0; color: var(--green); font-size: .76rem; }
 #result-count { margin: 0; color: var(--muted); font-size: .83rem; font-weight: 650; }
 .active-filters { display: flex; flex-wrap: wrap; align-self: center; gap: 4px; min-width: 0; }
 .filter-chip {
@@ -341,7 +340,6 @@ body, .site-header, .site-footer, .catalog-filters, .reading-card, .search-box, 
   #catalog-view, .catalog-section { height: 100%; }
   .catalog-section { display: grid; grid-template-rows: auto minmax(0, 1fr); min-height: 0; }
   .catalog-results { display: flex; flex-direction: column; min-height: 0; }
-  .catalog-selection { flex: none; }
   .catalog-layout { align-items: stretch; min-height: 0; }
   .catalog-filters { align-self: start; max-height: 100%; padding-block: 12px; overflow: auto; overscroll-behavior: contain; }
   .filters-body { gap: 7px; margin-top: 8px; }
@@ -367,17 +365,15 @@ body, .site-header, .site-footer, .catalog-filters, .reading-card, .search-box, 
   .filters-body { grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 0; padding: 4px 0 13px; }
   .filter-clear { width: 34px; }
   .catalog-heading h1 { font-size: 1.62rem; }
-  #batch-open, #catalog-select { padding-inline: 9px; font-size: .8rem; }
+  #batch-open { padding-inline: 9px; font-size: .8rem; }
 }
 
 @media (max-width: 640px) {
   .catalog-heading { display: grid; justify-content: stretch; gap: 10px; margin-bottom: 11px; }
   .catalog-heading h1 { font-size: clamp(1.48rem, 5vw, 1.85rem); }
   .catalog-heading-title, .catalog-heading-actions { column-gap: 8px; }
-  .catalog-heading-actions { flex-wrap: wrap; }
-  .catalog-heading-actions .search-box { flex: 1 1 100%; }
   .search-box { padding-inline: 8px; }
-  #batch-open, #catalog-select { flex: 1; padding-inline: 8px; font-size: .76rem; }
+  #batch-open { padding-inline: 8px; font-size: .76rem; }
 }
 
 @media (max-width: 520px) {

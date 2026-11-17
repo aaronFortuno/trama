@@ -141,11 +141,10 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onSave
   const extraIndicator = root.querySelector('#extra-filter-indicator');
   const collection = root.querySelector('#collection-select');
   const collectionTag = root.querySelector('#catalog-collection-label');
-  const collectionSave = root.querySelector('#collection-save');
   const collectionRemove = root.querySelector('#collection-remove');
   const collectionManage = root.querySelector('#collection-manage');
   const collectionStatus = root.querySelector('#collection-status');
-  const selectionToggle = root.querySelector('#catalog-select');
+  const selectionToggle = root.querySelector('#collection-save');
   const selectionBar = root.querySelector('#catalog-selection');
   const selectionCount = root.querySelector('#selection-count');
   const selectionAll = root.querySelector('#selection-all');
@@ -325,7 +324,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onSave
     orderedMatches = filterCatalog(source, { search: search.value, ...facets });
     const total = orderedMatches.length;
     if (!append) updateOptions(source, facets, words);
-    collectionSave.disabled = !source.length;
+    selectionToggle.disabled = !source.length;
     const showing = Math.min(limit, total);
     const visible = orderedMatches.slice(0, showing);
     const ids = visible.map(({ reading }) => reading.id).join(' ');
@@ -369,8 +368,8 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onSave
 
   function syncSelection() {
     selectionBar.hidden = !selecting;
+    selectionToggle.hidden = selecting;
     selectionToggle.setAttribute('aria-pressed', String(selecting));
-    selectionToggle.textContent = t(selecting ? 'Surt de la selecció' : 'Selecciona lectures');
     const count = selectedIds.size;
     const amount = new Intl.NumberFormat(language()).format(count);
     const countText = t(count === 1 ? '1 seleccionada' : '{count} seleccionades', { count: amount });
@@ -394,6 +393,8 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onSave
 
   function beginSelection() {
     selecting = true;
+    const summary = root.querySelector('#catalog-collection-panel > summary');
+    if (summary.getAttribute('aria-expanded') === 'false') summary.click();
     syncSelection();
   }
 
@@ -457,10 +458,12 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onSave
     collectionStatus.textContent = '';
     selectCollection(collection.value);
   });
-  collectionSave.addEventListener('click', beginSelection);
   collectionManage.addEventListener('click', () => { if (activeCollection) onManageCollection(activeCollection.id); });
-  selectionToggle.addEventListener('click', () => { if (selecting) clearSelection(); else beginSelection(); });
-  selectionCancel.addEventListener('click', clearSelection);
+  selectionToggle.addEventListener('click', beginSelection);
+  selectionCancel.addEventListener('click', () => {
+    clearSelection();
+    selectionToggle.focus({ preventScroll: true });
+  });
   selectionAll.addEventListener('click', () => {
     for (const { reading } of orderedMatches) selectedIds.add(reading.id);
     syncSelection();
