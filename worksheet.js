@@ -20,6 +20,18 @@ function element(tag, className, text) {
   return node;
 }
 
+export function exportWorksheetPages(reading, settings, answerKey = false) {
+  const layout = element('div', 'worksheet-export-layout');
+  layout.setAttribute('aria-hidden', 'true');
+  document.body.append(layout);
+  try {
+    renderWorksheet(layout, reading, settings, { answerKey, interactive: false });
+    return [...layout.querySelectorAll('.worksheet-page')];
+  } finally {
+    layout.remove();
+  }
+}
+
 function makeLogo(source) {
   const logo = element('img', 'worksheet-logo');
   logo.src = logoSource(source);

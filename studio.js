@@ -1,6 +1,6 @@
 import { labelFor, wordCount } from './catalog.js';
 import { defaultImageConfig, defaultQuestionLines, defaultSettings, marginLimits, maxAnswerLines, questionLines, readCode, validSetting } from './worksheet-code.js';
-import { renderWorksheet, worksheetThumbnail } from './worksheet.js';
+import { exportWorksheetPages, renderWorksheet, worksheetThumbnail } from './worksheet.js';
 import { supportsHyphenation } from './worksheet-hyphenation.js';
 import { animateRefresh, mountDisclosures, setDisclosure } from './motion.js';
 import { mountPreviewZoom } from './preview-zoom.js';
@@ -293,6 +293,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
   let reading;
   let settings;
   let sessionFormat;
+  const settingsForReading = entry => ({ ...defaultSettings(entry.level), ...sessionFormat });
   let requestedFont;
   let pendingPrint;
   let frame = 0;
@@ -575,18 +576,6 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
     focus?.focus({ preventScroll: true });
   }
 
-  function makeExportPages(answerKey = false, config = settings) {
-    const layout = create('div', 'worksheet-export-layout');
-    layout.setAttribute('aria-hidden', 'true');
-    document.body.append(layout);
-    try {
-      renderWorksheet(layout, reading, config, { answerKey, interactive: false });
-      return [...layout.querySelectorAll('.worksheet-page')];
-    } finally {
-      layout.remove();
-    }
-  }
-
   async function exportWorksheet(action) {
     if (printButton.disabled || root.hidden) return;
     const current = reading;
@@ -601,7 +590,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
     try {
       await loadWorksheetFont(config.font);
       if (reading !== current || root.hidden) return;
-      const exportPages = makeExportPages(answerKey, config);
+      const exportPages = exportWorksheetPages(current, config, answerKey);
       if (action.startsWith('pdf')) {
         const { downloadPdf } = await import('./worksheet-pdf.js');
         const filename = `${current.code}-${current.language.toUpperCase()}${answerKey ? '-' + t('solucionari') : ''}.pdf`;
@@ -734,7 +723,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
 
   window.addEventListener('beforeprint', () => {
     if (root.hidden || !reading) return;
-    printOutlet.replaceChildren(...(pendingPrint ?? makeExportPages()));
+    printOutlet.replaceChildren(...(pendingPrint ?? exportWorksheetPages(reading, settings)));
     document.body.dataset.tramaPrint = '';
   });
   window.addEventListener('afterprint', () => {
@@ -744,6 +733,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
 
   return {
     dismissMenu() { printMenu.close(); fileMenu.close(); },
+    exportSettings: settingsForReading,
     translate() {
       translateMarkup();
       templateStatus.textContent = '';
@@ -760,7 +750,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onRe
       const entry = readings.find(item => item.id === id);
       if (!entry) return false;
       const keepLayout = !root.hidden && reading?.id !== entry.id && reading?.workId === entry.workId && Boolean(entry.workId);
-      select(entry, keepLayout ? settings : { ...defaultSettings(entry.level), ...sessionFormat }, keepLayout);
+      select(entry, keepLayout ? settings : settingsForReading(entry), keepLayout);
       return true;
     },
     restore(value) {

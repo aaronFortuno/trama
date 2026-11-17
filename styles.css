@@ -155,7 +155,7 @@ button { color: inherit; cursor: pointer; }
 .catalog-heading { display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-bottom: 16px; }
 .catalog-heading-title { display: flex; flex-wrap: wrap; align-items: baseline; gap: 3px 12px; min-width: 0; }
 .catalog-heading-actions { display: flex; flex: 0 1 425px; align-items: center; gap: 8px; min-width: 0; }
-#reading-files-open { flex: none; white-space: nowrap; }
+#batch-open { flex: none; white-space: nowrap; }
 .catalog-heading h1, .catalog-empty h3 {
   margin: 0;
   font: 400 clamp(1.85rem, 3vw, 2.5rem)/1.12 var(--serif);
@@ -346,7 +346,7 @@ body, .site-header, .site-footer, .catalog-filters, .reading-card, .search-box, 
   .filters-body { grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 0; padding: 4px 0 13px; }
   .filter-clear { width: 34px; }
   .catalog-heading h1 { font-size: 1.62rem; }
-  #reading-files-open { padding-inline: 9px; font-size: .8rem; }
+  #batch-open { padding-inline: 9px; font-size: .8rem; }
 }
 
 @media (max-width: 640px) {
@@ -354,7 +354,7 @@ body, .site-header, .site-footer, .catalog-filters, .reading-card, .search-box, 
   .catalog-heading h1 { font-size: clamp(1.48rem, 5vw, 1.85rem); }
   .catalog-heading-title, .catalog-heading-actions { column-gap: 8px; }
   .search-box { padding-inline: 8px; }
-  #reading-files-open { padding-inline: 8px; font-size: .76rem; }
+  #batch-open { padding-inline: 8px; font-size: .76rem; }
 }
 
 @media (max-width: 520px) {

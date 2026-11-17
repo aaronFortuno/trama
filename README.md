@@ -1,6 +1,6 @@
 # Trama
 
-Catàleg de comprensions lectores imprimibles d’ortogra.fi. Inclou fitxes de primària en castellà i català. La interfície es pot fer servir en català i castellà. Les fitxes mostren els rètols en l’idioma de la lectura quan hi ha una traducció disponible.
+Catàleg de comprensions lectores imprimibles d’ortogra.fi. Inclou fitxes de 3r de primària a 1r d’ESO en castellà i català. La interfície es pot fer servir en català i castellà. Les fitxes mostren els rètols en l’idioma de la lectura quan hi ha una traducció disponible.
 
 Les versions d’una mateixa lectura comparteixen codi. El selector **Altres versions**, al costat del títol de la fitxa, permet canviar la llengua i conservar els ajustos i el punt de lectura.
 
@@ -12,31 +12,13 @@ Des de **Plantilles** pots aplicar la plantilla Clàssica (Georgia, 12 pt, inter
 
 **Text i tipografia** inclou un ajust per a l’espai abans de les preguntes, amb 8 mm per defecte quan el text i les preguntes comparteixen pàgina. L’encapçalament inclou el logotip de Trama per defecte. A **Encapçalament** i **Peu de pàgina** pots triar la marca de Trama, treure-la o carregar un logotip en PNG, JPEG o WebP. L’alçada màxima és de 8 mm a l’encapçalament i 6 mm al peu. Si deses una plantilla amb aquests blocs, també hi deses els logotips.
 
-## Importar i exportar lectures
+La mida de lletra i l’interlineat inicials depenen del curs. Si canvies el format o apliques una plantilla de format, els ajustos de pàgina es mantenen mentre obres altres lectures a la mateixa pestanya. **Restableix**, al costat de **Format del full**, recupera el format del curs. Les preguntes amagades i els ajustos de les il·lustracions pertanyen a la fitxa oberta.
 
-Obre **Importa o exporta** al catàleg per consultar l’exemple, descarregar una plantilla, importar un fitxer `.json` o exportar una lectura. Al menú de tres punts del visor també pots descarregar la lectura oberta o suprimir-la si l’has importada. El JSON conté la lectura, les preguntes amb les respostes orientatives i les il·lustracions. El format de la fitxa i els logotips es gestionen amb les plantilles.
+## Descarregar fitxes en bloc
 
-Els camps obligatoris són `title`, `language` i `paragraphs`. Les preguntes són opcionals i cadascuna necessita un `prompt`.
+Acota el catàleg amb la cerca i els filtres. Obre **Descarrega un lot**, marca les lectures que vulguis o selecciona-les totes. Per defecte es crea un sol PDF amb totes les fitxes; també pots triar un ZIP amb un PDF per lectura. S’hi aplica el format inicial del curs o el que hagis ajustat durant la sessió.
 
-```json
-{
-  "title": "El riu després de la pluja",
-  "language": "ca",
-  "paragraphs": [
-    "L’endemà de la pluja, l’Aina va trobar branques al camí del riu."
-  ],
-  "questions": [
-    {
-      "type": "literal",
-      "prompt": "Què va trobar l’Aina?",
-      "answer": "Va trobar branques al camí.",
-      "lines": 2
-    }
-  ]
-}
-```
-
-Pots afegir `level`, `difficulty`, `genre`, `themes`, `summary`, `code` i `images`. Si cal, Trama assigna un codi com `P001`. Les imatges dels fitxers JSON descarregats estan incorporades al fitxer com a dades PNG, JPEG o WebP. El límit d’importació és de 2 MB per fitxer, subjecte a l’espai disponible al navegador.
+Les lectures personals importades en versions anteriors continuen disponibles al navegador.
 
 ## En local i a GitHub Pages
 

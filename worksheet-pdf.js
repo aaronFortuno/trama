@@ -54,28 +54,48 @@ async function rasterize(page, css, images) {
   context.fillRect(0, 0, canvas.width, canvas.height);
   context.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
   try {
-    return canvas.toDataURL('image/png');
+    const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
+    if (!blob) throw new Error('Could not encode the page');
+    return new Uint8Array(await blob.arrayBuffer());
   } finally {
     canvas.width = canvas.height = 0;
   }
 }
 
-export async function downloadPdf(pages, { title, filename }) {
-  const [, stylesheet, fonts] = await Promise.all([
+export async function createPdfSession() {
+  const [, stylesheet] = await Promise.all([
     import('./assets/vendor/pdf-lib.min.js'),
     fetchLocal(new URL('studio.css', import.meta.url)).then(response => response.text()),
-    embeddedFontStyles(pages.map(page => page.dataset.font), fileData),
   ]);
-  const pdf = await globalThis.PDFLib.PDFDocument.create();
-  pdf.setTitle(title);
-  pdf.setCreator('Trama');
-  const images = new Map();
-  for (const sheet of pages) {
-    const image = await pdf.embedPng(await rasterize(sheet, fonts + '\n' + stylesheet, images));
-    const page = pdf.addPage([widthMm * pt, heightMm * pt]);
-    page.drawImage(image, { x: 0, y: 0, width: widthMm * pt, height: heightMm * pt });
-  }
-  const url = URL.createObjectURL(new Blob([await pdf.save()], { type: 'application/pdf' }));
+  const cssByFont = new Map();
+  return {
+    async create(title) {
+      const pdf = await globalThis.PDFLib.PDFDocument.create();
+      pdf.setTitle(title);
+      pdf.setCreator('Trama');
+      return pdf;
+    },
+    async append(pdf, pages, signal) {
+      const images = new Map();
+      for (const sheet of pages) {
+        signal?.throwIfAborted();
+        const id = sheet.dataset.font;
+        if (!cssByFont.has(id)) cssByFont.set(id, embeddedFontStyles([id], fileData));
+        const css = (await cssByFont.get(id)) + '\n' + stylesheet;
+        const bitmap = await rasterize(sheet, css, images);
+        signal?.throwIfAborted();
+        const image = await pdf.embedPng(bitmap);
+        // Compress the page now so a large batch does not retain decoded pixels.
+        await image.embed();
+        const page = pdf.addPage([widthMm * pt, heightMm * pt]);
+        page.drawImage(image, { x: 0, y: 0, width: widthMm * pt, height: heightMm * pt });
+      }
+    },
+  };
+}
+
+export function saveDownload(blob, filename) {
+  const url = URL.createObjectURL(blob);
   const link = document.createElement('a');
   link.href = url;
   link.download = filename;
@@ -83,4 +103,11 @@ export async function downloadPdf(pages, { title, filename }) {
   link.click();
   link.remove();
   setTimeout(() => URL.revokeObjectURL(url), 10000);
+}
+
+export async function downloadPdf(pages, { title, filename }) {
+  const session = await createPdfSession();
+  const pdf = await session.create(title);
+  await session.append(pdf, pages);
+  saveDownload(new Blob([await pdf.save()], { type: 'application/pdf' }), filename);
 }

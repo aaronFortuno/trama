@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.26 · 17 de novembre de 2026
+
+El catàleg permet seleccionar les lectures que coincideixen amb la cerca i els filtres i descarregar-les en un sol PDF o en un ZIP amb un PDF per lectura. La descàrrega en bloc substitueix l’intercanvi de lectures en JSON.
+
 ## 1.25 · 17 de novembre de 2026
 
 Cada curs té un format inicial de lletra i interlineat. Els ajustos de format es mantenen en obrir altres lectures durant la sessió. «Restableix» recupera el format del curs sense canviar el contingut triat.

@@ -25,6 +25,25 @@ Filtres del catàleg|Filtros del catálogo
 Filtres|Filtros
 Importa una lectura|Importar una lectura
 Importa o exporta|Importar o exportar
+Descarrega un lot|Descargar un lote
+Descarrega fitxes en bloc|Descargar fichas en bloque
+La llista segueix la cerca i els filtres del catàleg. Cada fitxa aplica el format del curs o el que hagis ajustat durant la sessió.|La lista sigue la búsqueda y los filtros del catálogo. Cada ficha aplica el formato del curso o el que hayas ajustado durante la sesión.
+Selecciona-les totes|Seleccionarlas todas
+{selected} de {total} seleccionades|{selected} de {total} seleccionadas
+Lectures per descarregar|Lecturas para descargar
+No hi ha lectures amb aquesta cerca i aquests filtres.|No hay lecturas con esta búsqueda y estos filtros.
+Format de descàrrega|Formato de descarga
+Un sol PDF|Un solo PDF
+ZIP amb un PDF per lectura|ZIP con un PDF por lectura
+Descarrega el lot|Descargar el lote
+Preparant el lot…|Preparando el lote…
+Preparant la fitxa {current} de {total}…|Preparando la ficha {current} de {total}…
+Finalitzant el fitxer…|Finalizando el archivo…
+Lot preparat.|Lote preparado.
+Fitxes de Trama|Fichas de Trama
+No s’ha pogut descarregar el lot. Torna-ho a provar.|No se ha podido descargar el lote. Vuelve a intentarlo.
+v1.26 · Obre l’historial de canvis|v1.26 · Abrir el historial de cambios
+El catàleg permet seleccionar les lectures que coincideixen amb la cerca i els filtres i descarregar-les en un sol PDF o en un ZIP amb un PDF per lectura. La descàrrega en bloc substitueix l’intercanvi de lectures en JSON.|El catálogo permite seleccionar las lecturas que coinciden con la búsqueda y los filtros y descargarlas en un solo PDF o en un ZIP con un PDF por lectura. La descarga en bloque sustituye al intercambio de lecturas en JSON.
 Importa o exporta lectures|Importar o exportar lecturas
 Tanca|Cerrar
 El fitxer JSON ha d’incloure aquests tres camps.|El archivo JSON debe incluir estos tres campos.

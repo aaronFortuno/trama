@@ -266,7 +266,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied }) {
 
   function render({ append = false, animated = false, translated = false } = {}) {
     const words = new Intl.NumberFormat(language());
-    const facets = Object.fromEntries(fields.map((field) => [field.dataset.facet, field.value]));
+    const facets = selectedFacets();
     const activeCount = Object.values(facets).filter(Boolean).length;
     const matches = filterCatalog(catalog, { search: search.value, ...facets });
     const total = matches.length;
@@ -301,6 +301,10 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied }) {
     if (!more.hidden) observer?.observe(more);
     indicator.textContent = activeCount ? ` (${activeCount})` : '';
     reset.hidden = !activeCount && !search.value.trim();
+  }
+
+  function selectedFacets() {
+    return Object.fromEntries(fields.map(field => [field.dataset.facet, field.value]));
   }
 
   function refresh() {
@@ -342,6 +346,9 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied }) {
   render();
 
   return {
+    matchingReadings() {
+      return filterCatalog(catalog, { search: search.value, ...selectedFacets() }).map(({ reading }) => reading);
+    },
     replaceReadings(items) {
       const positions = new Map(catalog.map(({ reading }, index) => [reading.id, index]));
       const newPosition = catalog.length;
