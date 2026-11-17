@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.35.3 · 17 de novembre de 2026
+
+Les lectures L171–L173 completen les quinze de 4t inicial en català i castellà, amb una entrevista, una lectura sobre preus i un conte fantàstic.
+
 ## 1.35.2 · 17 de novembre de 2026
 
 Tres lectures més de 4t inicial (L168–L170) en totes dues llengües: una partida de dames, una carta sobre els seients d’un concert i unes mongetes enfiladisses.

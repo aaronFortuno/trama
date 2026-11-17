@@ -492,5 +492,252 @@ export const readings4ExpansionEs = [
         "questionId": "el-sobre-de-las-judias-q4"
       }
     ]
+  },
+  {
+    "id": "el-bolso-de-la-narradora-es",
+    "code": "L171",
+    "workId": "el-bolso-de-la-narradora",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "initial",
+    "themes": [
+      "arts",
+      "adventure"
+    ],
+    "genre": "interview",
+    "title": "El bolso de la narradora",
+    "summary": "Una narradora explica qué lleva en el bolso y qué hace cuando el público le cambia la historia.",
+    "paragraphs": [
+      "Salma cuenta cuentos en las plazas. Antes de la sesión le preguntamos por el bolso que deja siempre junto a la silla.",
+      "—¿Qué llevas dentro?\n—Una llave, un pañuelo azul y una cuchara. La llave puede abrir el castillo. El pañuelo puede ser un río. La cuchara puede remover una sopa o hacer de remo de una barca pequeña.",
+      "—¿Y si alguien dice que el pañuelo es un cielo?\n—¡Pues quizá ese día la barca volará! Primero escucho la propuesta. Si encaja con la historia, la uso. Pero no puedo aceptar todas las ideas a la vez o nunca llegaríamos al final.",
+      "—¿Tienes todo el cuento apuntado?\n—No. Llevo unas tarjetas con cuatro dibujos para recordar los momentos importantes. Si leyera todo el rato, no vería las caras del público. A veces una cara asustada me dice que debo explicar mejor qué se esconde detrás de la puerta.",
+      "—¿Qué objeto te gusta más?\n—La llave. Nunca he sabido qué puerta abría de verdad. Por eso, en mis cuentos, todavía puede abrir muchas puertas diferentes."
+    ],
+    "images": [
+      {
+        "id": "el-bolso-de-la-narradora-art1",
+        "src": "assets/readings/l171-el-bolso-de-la-narradora.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un bolso de tela abierto con una llave antigua, un pañuelo azul y una cuchara de madera delante de una silla de cuentacuentos."
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-bolso-de-la-narradora-q1",
+        "type": "literal",
+        "prompt": "¿Qué tres objetos lleva Salma en el bolso?",
+        "answer": "Una llave, un pañuelo azul y una cuchara.",
+        "lines": 1
+      },
+      {
+        "id": "el-bolso-de-la-narradora-q2",
+        "type": "literal",
+        "prompt": "¿Qué hay en las tarjetas que utiliza?",
+        "answer": "Cuatro dibujos de los momentos importantes del cuento.",
+        "lines": 1
+      },
+      {
+        "id": "el-bolso-de-la-narradora-q3",
+        "type": "inference",
+        "prompt": "¿Por qué quiere poder mirar las caras del público?",
+        "answer": "Para ver cómo reaccionan y saber si debe explicar mejor alguna parte de la historia.",
+        "lines": 2
+      },
+      {
+        "id": "el-bolso-de-la-narradora-q4",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa que una idea «encaja» con la historia?",
+        "answer": "Que va bien con ella y permite continuar el cuento sin que pierda el sentido.",
+        "lines": 1
+      },
+      {
+        "id": "el-bolso-de-la-narradora-q5",
+        "type": "inference",
+        "prompt": "¿Por qué puede abrir muchas puertas la llave en los cuentos, aunque Salma no sepa cuál abría?",
+        "answer": "Porque puede imaginar una puerta distinta para cada cuento; no tiene que corresponder a una puerta real.",
+        "lines": 2
+      },
+      {
+        "id": "el-bolso-de-la-narradora-q6",
+        "type": "opinion",
+        "prompt": "¿Qué podría representar la cuchara en otro cuento? Propón una idea.",
+        "answer": "Respuesta abierta. Por ejemplo, una pala para encontrar un tesoro o un micrófono para entrevistar a un dragón.",
+        "lines": 2
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "encaja",
+        "questionId": "el-bolso-de-la-narradora-q4"
+      }
+    ]
+  },
+  {
+    "id": "dos-precios-en-la-etiqueta-es",
+    "code": "L172",
+    "workId": "dos-precios-en-la-etiqueta",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "initial",
+    "themes": [
+      "math",
+      "everyday"
+    ],
+    "genre": "informative",
+    "title": "Dos precios en la etiqueta",
+    "summary": "Un puesto de la feria muestra dos ofertas de lápices que no deben compararse solo por el precio mayor.",
+    "paragraphs": [
+      "En la feria, un puesto vendía lápices de colores. Había una caja de tres lápices por tres euros y otra de seis lápices por cinco euros. Todos los lápices eran del mismo modelo. En las dos cajas había colores diferentes, sin repetir ninguno.",
+      "Pau miró las etiquetas y dijo que la caja de tres era más barata. Jana le dio la razón: por esa caja tenían que pagar menos dinero. Pero le preguntó cuánto costarían seis lápices si compraban dos cajas de tres.",
+      "Dos cajas pequeñas costaban seis euros. La caja grande costaba cinco y también contenía seis lápices. Si necesitaban seis colores, la grande les permitía ahorrar un euro.",
+      "Su madre preguntó qué habían ido a buscar. Solo les faltaba el azul para terminar un dibujo. Junto a las cajas había lápices sueltos a un euro cada uno. Pau eligió uno azul. Jana dejó la caja grande en el puesto: salía mejor para comprar seis colores, pero aquel día no necesitaban seis colores."
+    ],
+    "images": [
+      {
+        "id": "dos-precios-en-la-etiqueta-art1",
+        "src": "assets/readings/l172-dos-precios-en-la-etiqueta.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Dos cajas de lápices de colores, una con tres lápices y otra con seis, sobre un puesto de feria. Hay tarjetas de precios sin cifras legibles."
+      }
+    ],
+    "questions": [
+      {
+        "id": "dos-precios-en-la-etiqueta-q1",
+        "type": "literal",
+        "prompt": "¿Cuánto costaba la caja de seis lápices?",
+        "answer": "Cinco euros.",
+        "lines": 1
+      },
+      {
+        "id": "dos-precios-en-la-etiqueta-q2",
+        "type": "literal",
+        "prompt": "¿Qué color necesitaban para terminar el dibujo?",
+        "answer": "El azul.",
+        "lines": 1
+      },
+      {
+        "id": "dos-precios-en-la-etiqueta-q3",
+        "type": "inference",
+        "prompt": "¿En qué sentido tenía razón Pau cuando decía que la caja pequeña era más barata?",
+        "answer": "En que tenían que pagar menos dinero por esa caja: tres euros en vez de cinco.",
+        "lines": 2
+      },
+      {
+        "id": "dos-precios-en-la-etiqueta-q4",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «lápices sueltos» en este puesto?",
+        "answer": "Lápices que se pueden comprar de uno en uno, sin comprar una caja.",
+        "lines": 1
+      },
+      {
+        "id": "dos-precios-en-la-etiqueta-q5",
+        "type": "inference",
+        "prompt": "Si quisieran seis lápices, ¿por qué les convendría la caja grande?",
+        "answer": "Porque costaría cinco euros en vez de los seis que cuestan dos cajas pequeñas.",
+        "lines": 2
+      },
+      {
+        "id": "dos-precios-en-la-etiqueta-q6",
+        "type": "opinion",
+        "prompt": "¿Te parece acertado que terminen comprando solo el lápiz azul? Justifícalo con el texto.",
+        "answer": "Respuesta abierta. Por ejemplo, sí, porque era el único que necesitaban y solo gastaban un euro.",
+        "lines": 2
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 4,
+        "text": "lápices sueltos",
+        "questionId": "dos-precios-en-la-etiqueta-q4"
+      }
+    ]
+  },
+  {
+    "id": "la-maleta-del-gigante-es",
+    "code": "L173",
+    "workId": "la-maleta-del-gigante",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "initial",
+    "themes": [
+      "adventure",
+      "arts"
+    ],
+    "genre": "narrative",
+    "title": "La maleta del gigante",
+    "summary": "Un gigante que quiere visitar el mar no sabe qué parte de su casa puede llevarse.",
+    "paragraphs": [
+      "El gigante Bernardo nunca había visto el mar. Un día decidió visitarlo y abrió su maleta más grande. Metió la cama, una mesa y tres sillas. Después intentó meter el árbol que crecía delante de su casa.",
+      "Un petirrojo salió de las ramas, enfadado. «¡Aquí tengo el nido!». El gigante dejó el árbol en su sitio. Pero se sentó en la hierba y suspiró. Sin el árbol, le parecía que no se llevaría nada de casa.",
+      "El petirrojo le preguntó si dormiría bajo el agua. El gigante se rio y dijo que no. Después sacó la cama de la maleta. En la posada a la que iba ya había una. También volvió a poner la mesa y las sillas en el comedor.",
+      "El pájaro dejó caer una pluma en la mano del gigante. «Esto pesa menos que un árbol», dijo. Bernardo la guardó en un bolsillo de la maleta. Cuando llegó al mar, el viento le movió el pelo como las ramas de casa. Puso la pluma junto a la ventana."
+    ],
+    "images": [
+      {
+        "id": "la-maleta-del-gigante-art1",
+        "src": "assets/readings/l173-la-maleta-del-gigante.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un gigante amable sentado en un prado ante una maleta enorme abierta. Tiene en la mano una pluma diminuta. Un petirrojo está en una rama al lado."
+      }
+    ],
+    "questions": [
+      {
+        "id": "la-maleta-del-gigante-q1",
+        "type": "literal",
+        "prompt": "¿Adónde quería ir el gigante?",
+        "answer": "Al mar.",
+        "lines": 1
+      },
+      {
+        "id": "la-maleta-del-gigante-q2",
+        "type": "literal",
+        "prompt": "¿Qué tenía el petirrojo en el árbol?",
+        "answer": "El nido.",
+        "lines": 1
+      },
+      {
+        "id": "la-maleta-del-gigante-q3",
+        "type": "inference",
+        "prompt": "¿Por qué estaba enfadado el petirrojo cuando el gigante cogió el árbol?",
+        "answer": "Porque se habría llevado el árbol donde el pájaro tenía su casa.",
+        "lines": 2
+      },
+      {
+        "id": "la-maleta-del-gigante-q4",
+        "type": "vocabulary",
+        "prompt": "¿Qué es una «posada» en este cuento?",
+        "answer": "Un lugar donde los viajeros pueden alojarse y dormir.",
+        "lines": 1
+      },
+      {
+        "id": "la-maleta-del-gigante-q5",
+        "type": "inference",
+        "prompt": "¿Por qué puede ser importante una pluma tan pequeña para un gigante?",
+        "answer": "Porque es un recuerdo del petirrojo y de su casa, aunque pese muy poco.",
+        "lines": 2
+      },
+      {
+        "id": "la-maleta-del-gigante-q6",
+        "type": "opinion",
+        "prompt": "¿Qué objeto pequeño te llevarías para recordar tu casa en un viaje? Explica por qué.",
+        "answer": "Respuesta abierta. Debe relacionar un objeto concreto con un recuerdo o una persona de casa.",
+        "lines": 2
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "posada",
+        "questionId": "la-maleta-del-gigante-q4"
+      }
+    ]
   }
 ];

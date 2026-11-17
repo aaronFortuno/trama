@@ -24,6 +24,8 @@ v1.35.1 · Obre l’historial de canvis|v1.35.1 · Abrir el historial de cambios
 Tres lectures noves de 4t inicial (L165–L167), en català i castellà, amb il·lustració, sis preguntes i solucionari. S’ha rectificat l’anatomia de la mà de la il·lustració de la L165.|Tres lecturas nuevas de 4.º inicial (L165–L167), en catalán y castellano, con ilustración, seis preguntas y solucionario. Se ha rectificado la anatomía de la mano de la ilustración de la L165.
 v1.35.2 · Obre l’historial de canvis|v1.35.2 · Abrir el historial de cambios
 Tres lectures més de 4t inicial (L168–L170) en totes dues llengües: una partida de dames, una carta sobre els seients d’un concert i unes mongetes enfiladisses.|Tres lecturas más de 4.º inicial (L168–L170) en ambos idiomas: una partida de damas, una carta sobre los asientos de un concierto y unas judías trepadoras.
+v1.35.3 · Obre l’historial de canvis|v1.35.3 · Abrir el historial de cambios
+Les lectures L171–L173 completen les quinze de 4t inicial en català i castellà, amb una entrevista, una lectura sobre preus i un conte fantàstic.|Las lecturas L171–L173 completan las quince de 4.º inicial en catalán y castellano, con una entrevista, una lectura sobre precios y un cuento fantástico.
 Catàleg de lectures|Catálogo de lecturas
 Cerca al catàleg|Buscar en el catálogo
 Cerca per títol, codi o tema|Buscar por título, código o tema

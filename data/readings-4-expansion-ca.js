@@ -395,5 +395,204 @@ export const readings4ExpansionCa = [
         "questionId": "el-sobre-de-las-judias-q4"
       }
     ]
+  },
+  {
+    "id": "el-bolso-de-la-narradora-ca",
+    "code": "L171",
+    "title": "La bossa de la narradora",
+    "summary": "Una narradora explica què porta dins de la bossa i què fa quan el públic li canvia la història.",
+    "paragraphs": [
+      "La Salma explica contes a les places. Abans de la sessió li preguntem per la bossa que deixa sempre al costat de la cadira.",
+      "—Què hi portes?\n—Una clau, un mocador blau i una cullera. La clau pot obrir el castell. El mocador pot ser un riu. La cullera tant pot remenar una sopa com fer de rem d’una barca petita.",
+      "—I si algú diu que el mocador és un cel?\n—Doncs potser aquell dia la barca volarà! Primer escolto la proposta. Si encaixa amb la història, la faig servir. Però no puc acceptar totes les idees alhora o no arribaríem mai al final.",
+      "—Tens tot el conte apuntat?\n—No. Porto unes targetes amb quatre dibuixos per recordar els moments importants. Si llegís tota l’estona, no veuria les cares del públic. De vegades una cara espantada em diu que cal explicar una mica millor què s’amaga darrere la porta.",
+      "—Quin objecte t’agrada més?\n—La clau. Mai no he sabut quina porta obria de veritat. Per això, als meus contes, encara pot obrir moltes portes diferents."
+    ],
+    "imageAlt": {
+      "el-bolso-de-la-narradora-art1": "Una bossa de roba oberta amb una clau antiga, un mocador blau i una cullera de fusta davant d’una cadira de contacontes."
+    },
+    "questions": [
+      {
+        "id": "el-bolso-de-la-narradora-q1",
+        "type": "literal",
+        "prompt": "Quins tres objectes porta la Salma a la bossa?",
+        "answer": "Una clau, un mocador blau i una cullera.",
+        "lines": 1
+      },
+      {
+        "id": "el-bolso-de-la-narradora-q2",
+        "type": "literal",
+        "prompt": "Què hi ha a les targetes que fa servir?",
+        "answer": "Quatre dibuixos dels moments importants del conte.",
+        "lines": 1
+      },
+      {
+        "id": "el-bolso-de-la-narradora-q3",
+        "type": "inference",
+        "prompt": "Per què vol poder mirar les cares del públic?",
+        "answer": "Per veure com reaccionen i saber si ha d’explicar millor alguna part de la història.",
+        "lines": 2
+      },
+      {
+        "id": "el-bolso-de-la-narradora-q4",
+        "type": "vocabulary",
+        "prompt": "Què vol dir que una idea «encaixa» amb la història?",
+        "answer": "Que hi va bé i permet continuar el conte sense que perdi el sentit.",
+        "lines": 1
+      },
+      {
+        "id": "el-bolso-de-la-narradora-q5",
+        "type": "inference",
+        "prompt": "Per què la clau pot obrir moltes portes als contes, encara que la Salma no sàpiga quina obria?",
+        "answer": "Perquè es pot imaginar una porta diferent per a cada conte; no ha de correspondre a una porta real.",
+        "lines": 2
+      },
+      {
+        "id": "el-bolso-de-la-narradora-q6",
+        "type": "opinion",
+        "prompt": "Què podria representar la cullera en un altre conte? Proposa una idea.",
+        "answer": "Resposta oberta. Per exemple, una pala per trobar un tresor o un micròfon per entrevistar un drac.",
+        "lines": 2
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "encaixa",
+        "questionId": "el-bolso-de-la-narradora-q4"
+      }
+    ]
+  },
+  {
+    "id": "dos-precios-en-la-etiqueta-ca",
+    "code": "L172",
+    "title": "Dos preus a l’etiqueta",
+    "summary": "Una parada de la fira mostra dues ofertes de llapis que no s’han de comparar només pel preu més gran.",
+    "paragraphs": [
+      "A la fira, una parada venia llapis de colors. Hi havia una capsa de tres llapis per tres euros i una altra de sis llapis per cinc euros. Tots els llapis eren del mateix model. A les dues capses hi havia colors diferents, sense repetir-ne cap.",
+      "En Pau va mirar les etiquetes i va dir que la capsa de tres era més barata. La Jana li va donar la raó: per aquella capsa havien de pagar menys diners. Però li va preguntar quant costarien sis llapis si compraven dues capses de tres.",
+      "Dues capses petites costaven sis euros. La capsa gran en costava cinc i també contenia sis llapis. Si necessitaven sis colors, la gran els permetia estalviar un euro.",
+      "La mare va preguntar què havien vingut a buscar. Només els faltava el blau per acabar un dibuix. A la vora de les capses hi havia llapis solts a un euro cadascun. En Pau en va triar un de blau. La Jana va tornar a deixar la capsa gran a la parada: sortia millor per comprar sis colors, però aquell dia no els calien sis colors."
+    ],
+    "imageAlt": {
+      "dos-precios-en-la-etiqueta-art1": "Dues capses de llapis de colors, una amb tres llapis i una altra amb sis, damunt d’una parada de fira. Hi ha targetes de preus sense xifres llegibles."
+    },
+    "questions": [
+      {
+        "id": "dos-precios-en-la-etiqueta-q1",
+        "type": "literal",
+        "prompt": "Quant costava la capsa de sis llapis?",
+        "answer": "Cinc euros.",
+        "lines": 1
+      },
+      {
+        "id": "dos-precios-en-la-etiqueta-q2",
+        "type": "literal",
+        "prompt": "Quin color necessitaven per acabar el dibuix?",
+        "answer": "El blau.",
+        "lines": 1
+      },
+      {
+        "id": "dos-precios-en-la-etiqueta-q3",
+        "type": "inference",
+        "prompt": "En quin sentit tenia raó en Pau quan deia que la capsa petita era més barata?",
+        "answer": "En què calia pagar menys diners per aquella capsa: tres euros en lloc de cinc.",
+        "lines": 2
+      },
+      {
+        "id": "dos-precios-en-la-etiqueta-q4",
+        "type": "vocabulary",
+        "prompt": "Què vol dir «llapis solts» en aquesta parada?",
+        "answer": "Llapis que es poden comprar d’un en un, sense haver de comprar una capsa.",
+        "lines": 1
+      },
+      {
+        "id": "dos-precios-en-la-etiqueta-q5",
+        "type": "inference",
+        "prompt": "Si volguessin sis llapis, per què els convindria la capsa gran?",
+        "answer": "Perquè costaria cinc euros en lloc dels sis que costen dues capses petites.",
+        "lines": 2
+      },
+      {
+        "id": "dos-precios-en-la-etiqueta-q6",
+        "type": "opinion",
+        "prompt": "Et sembla encertat que acabin comprant només el llapis blau? Justifica-ho amb el text.",
+        "answer": "Resposta oberta. Per exemple, sí, perquè era l’únic que necessitaven i només gastaven un euro.",
+        "lines": 2
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 4,
+        "text": "llapis solts",
+        "questionId": "dos-precios-en-la-etiqueta-q4"
+      }
+    ]
+  },
+  {
+    "id": "la-maleta-del-gigante-ca",
+    "code": "L173",
+    "title": "La maleta del gegant",
+    "summary": "Un gegant que vol visitar el mar no sap quina part de casa seva es pot endur.",
+    "paragraphs": [
+      "El gegant Bernat no havia vist mai el mar. Un dia va decidir visitar-lo i va obrir la seva maleta més grossa. Hi va posar el llit, una taula i tres cadires. Després va intentar ficar-hi l’arbre que creixia davant de casa.",
+      "Un pit-roig va sortir d’entre les branques, enfadat. «Aquí hi tinc el niu!» El gegant va deixar l’arbre al seu lloc. Però es va asseure a l’herba i va sospirar. Sense l’arbre, li semblava que no s’enduria res de casa.",
+      "El pit-roig li va preguntar si dormiria sota l’aigua. El gegant va riure i va dir que no. Després va treure el llit de la maleta. A la fonda on aniria ja n’hi havia un. També va tornar a posar la taula i les cadires al menjador.",
+      "L’ocell va deixar caure una ploma a la mà del gegant. «Això pesa menys que un arbre», va dir. En Bernat la va guardar en una butxaca de la maleta. Quan va arribar al mar, el vent li va moure els cabells com les branques de casa. Va posar la ploma al costat de la finestra."
+    ],
+    "imageAlt": {
+      "la-maleta-del-gigante-art1": "Un gegant amable assegut al prat davant d’una maleta oberta enorme. Té a la mà una ploma minúscula. Un pit-roig és en una branca al costat."
+    },
+    "questions": [
+      {
+        "id": "la-maleta-del-gigante-q1",
+        "type": "literal",
+        "prompt": "On volia anar el gegant?",
+        "answer": "Al mar.",
+        "lines": 1
+      },
+      {
+        "id": "la-maleta-del-gigante-q2",
+        "type": "literal",
+        "prompt": "Què tenia el pit-roig a l’arbre?",
+        "answer": "El niu.",
+        "lines": 1
+      },
+      {
+        "id": "la-maleta-del-gigante-q3",
+        "type": "inference",
+        "prompt": "Per què el pit-roig estava enfadat quan el gegant va agafar l’arbre?",
+        "answer": "Perquè s’hauria endut l’arbre on l’ocell tenia casa seva.",
+        "lines": 2
+      },
+      {
+        "id": "la-maleta-del-gigante-q4",
+        "type": "vocabulary",
+        "prompt": "Què és una «fonda» en aquest conte?",
+        "answer": "Un lloc on els viatgers poden allotjar-se i dormir.",
+        "lines": 1
+      },
+      {
+        "id": "la-maleta-del-gigante-q5",
+        "type": "inference",
+        "prompt": "Per què una ploma tan petita pot ser important per a un gegant?",
+        "answer": "Perquè és un record del pit-roig i de casa seva, encara que pesi molt poc.",
+        "lines": 2
+      },
+      {
+        "id": "la-maleta-del-gigante-q6",
+        "type": "opinion",
+        "prompt": "Quin petit objecte t’enduries per recordar casa teva en un viatge? Explica per què.",
+        "answer": "Resposta oberta. Ha de relacionar un objecte concret amb un record o una persona de casa.",
+        "lines": 2
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "fonda",
+        "questionId": "la-maleta-del-gigante-q4"
+      }
+    ]
   }
 ];
