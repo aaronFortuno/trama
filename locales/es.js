@@ -47,6 +47,8 @@ v1.26.3 · Obre l’historial de canvis|v1.26.3 · Abrir el historial de cambios
 v1.26.4 · Obre l’historial de canvis|v1.26.4 · Abrir el historial de cambios
 v1.27 · Obre l’historial de canvis|v1.27 · Abrir el historial de cambios
 v1.27.1 · Obre l’historial de canvis|v1.27.1 · Abrir el historial de cambios
+v1.28 · Obre l’historial de canvis|v1.28 · Abrir el historial de cambios
+S’incorporen onze lectures noves de 3r inicial (L123–L133) en català i castellà, amb il·lustració i solucionari.|Se incorporan once lecturas nuevas de 3.º de nivel inicial (L123–L133) en catalán y castellano, con ilustración y solucionario.
 El codi d’aula permet triar entre cinc mides i dos contrastos. La lletra és de pal sec i queda centrada dins l’etiqueta.|El código de aula permite elegir entre cinco tamaños y dos contrastes. La letra es de palo seco y queda centrada dentro de la etiqueta.
 S’incorporen les lectures L114–L116 de 5è de primària, de dificultat inicial, en català i castellà.|Se incorporan las lecturas L114–L116 de 5.º de primaria, de dificultad inicial, en catalán y castellano.
 S’afegeixen tres lectures més de 5è inicial (L117–L119), amb il·lustració i solucionari.|Se añaden tres lecturas más de 5.º de nivel inicial (L117–L119), con ilustración y solucionario.

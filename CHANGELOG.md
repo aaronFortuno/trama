@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.28 · 17 de novembre de 2026
+
+S’incorporen onze lectures noves de 3r inicial (L123–L133) en català i castellà, amb il·lustració i solucionari.
+
 ## 1.27.1 · 17 de novembre de 2026
 
 El codi d’aula permet triar entre cinc mides i dos contrastos. La lletra és de pal sec i queda centrada dins l’etiqueta.

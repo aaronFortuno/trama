@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 240 160">
+  <rect width="240" height="160" fill="#ece8d8"/>
+  <g stroke="#424c48" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M0 62q130 11 240-4v102H0Z" fill="#ddc39e" stroke="none"/>
+    <path d="M0 104h240m-240 40h240M9 80h30m166 39h24" stroke="#c9ae8b" stroke-width="1" opacity=".65"/>
+    <rect x="22" y="58" width="97" height="69" rx="10" fill="#e4ae58"/>
+    <rect x="124" y="61" width="94" height="64" rx="10" fill="#bc6b65"/>
+    <path d="m26 78 24-15 39 39-36 17Zm131-12 55 16-15 33-52-20Z" fill="#fae29b"/>
+    <path d="m149 68 61 20-20 32-51-25Z" fill="#e6a19d"/>
+    <g transform="translate(39 83)">
+    <path d="M0 0q19-15 38-2l2 9Q18 1 0 8Z" fill="#e9b87a"/>
+    <path d="M1 7q20-7 40-1l-2 6q-18-4-37 3Z" fill="#a77955"/>
+    </g>
+    <g transform="translate(66 86)">
+    <path d="M0 0q19-15 38-2l2 9Q18 1 0 8Z" fill="#e9b87a"/>
+    <path d="M1 7q20-7 40-1l-2 6q-18-4-37 3Z" fill="#a77955"/>
+    </g>
+    <g transform="translate(53 103)">
+    <path d="M0 0q19-15 38-2l2 9Q18 1 0 8Z" fill="#e9b87a"/>
+    <path d="M1 7q20-7 40-1l-2 6q-18-4-37 3Z" fill="#a77955"/>
+    </g>
+    <g transform="translate(141 84)">
+    <path d="M0 0q19-15 38-2l2 9Q18 1 0 8Z" fill="#e9b87a"/>
+    <path d="M1 7q20-7 40-1l-2 6q-18-4-37 3Z" fill="#a77955"/>
+    </g>
+    <g transform="translate(165 100)">
+    <path d="M0 0q19-15 38-2l2 9Q18 1 0 8Z" fill="#e9b87a"/>
+    <path d="M1 7q20-7 40-1l-2 6q-18-4-37 3Z" fill="#a77955"/>
+    </g>
+  </g>
+</svg>
