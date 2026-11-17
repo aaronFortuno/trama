@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.35.5 · 18 de novembre del 2026
+
+Les lectures L177–L180 completen les quinze de 4t intermedi en català i castellà. El catàleg també distingeix la temàtica Jocs i enigmes per als textos que expliquen partides i regles.
+
 ## 1.35.4 · 17 de novembre de 2026
 
 S’afegeixen tres lectures de 4t intermedi (L174–L176), amb un antic ferrocarril, un diari d’observació i una entrevista radiofònica. Totes tenen versió catalana i castellana, il·lustració i solucionari.

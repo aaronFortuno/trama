@@ -816,5 +816,297 @@ export const readings4ExpansionCa = [
         "questionId": "el-microfono-bajo-el-abrigo-q3"
       }
     ]
+  },
+  {
+    "id": "el-presupuesto-del-patinete-ca",
+    "code": "L177",
+    "title": "El pressupost del patinet",
+    "summary": "En Nil creu que la reparació costarà quatre euros fins que llegeix tota la nota del taller.",
+    "paragraphs": [
+      "La roda del davant del patinet d’en Nil feia un soroll estrany. Al taller, la mecànica la va fer girar i li va ensenyar una esquerda. Li va donar una nota perquè se l’emportés a casa. A la primera línia hi deia: «Roda nova: quatre euros». En Nil ja començava a comptar les monedes de la butxaca.",
+      "A sota hi havia una segona línia: «Muntatge i comprovació: sis euros». La mecànica li va explicar que podia vendre-li només la roda o encarregar-se també de canviar-la i comprovar que girés bé. Abans de començar, volia saber què preferien fer a casa.",
+      "En Nil va anar amb el pare al taller l’endemà. El pare va llegir les dues línies i va preguntar si el total era de deu euros. La mecànica va dir que sí. També li va preguntar quant trigaria. El patinet estaria llest a la tarda.",
+      "En recollir-lo, en Nil va mirar una altra nota. S’hi repetien les mateixes dues feines i el mateix total, però a sobre hi deia «Factura». Va guardar els dos papers a la capsa del patinet. Al pressupost havia encerclat el quatre. A la factura va encerclar el deu: ara ja sabia quina part havia deixat de llegir el primer dia."
+    ],
+    "imageAlt": {
+      "el-presupuesto-del-patinete-art1": "Un patinet de dues rodes sobre un banc de taller al costat d’una roda de recanvi i una nota amb dues columnes sense text llegible."
+    },
+    "questions": [
+      {
+        "id": "el-presupuesto-del-patinete-q1",
+        "type": "literal",
+        "prompt": "Quin problema tenia la roda del patinet?",
+        "answer": "Tenia una esquerda i feia un soroll estrany.",
+        "lines": 1
+      },
+      {
+        "id": "el-presupuesto-del-patinete-q2",
+        "type": "literal",
+        "prompt": "Quines dues feines incloïa la nota del taller?",
+        "answer": "La roda nova i el muntatge amb la comprovació.",
+        "lines": 1
+      },
+      {
+        "id": "el-presupuesto-del-patinete-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa «pressupost» en aquesta història?",
+        "answer": "Una nota que explica què es proposa fer i quant costarà abans de començar la reparació.",
+        "lines": 2
+      },
+      {
+        "id": "el-presupuesto-del-patinete-q4",
+        "type": "inference",
+        "prompt": "Per què en Nil havia pensat que només necessitava quatre euros?",
+        "answer": "Perquè havia llegit només el preu de la roda, sense sumar-hi el muntatge i la comprovació.",
+        "lines": 2
+      },
+      {
+        "id": "el-presupuesto-del-patinete-q5",
+        "type": "inference",
+        "prompt": "Per què la mecànica no havia començat la reparació el primer dia?",
+        "answer": "Perquè abans volia que la família decidís si comprava només la roda o encarregava també el canvi.",
+        "lines": 2
+      },
+      {
+        "id": "el-presupuesto-del-patinete-q6",
+        "type": "structure",
+        "prompt": "Què mostra el canvi del nombre encerclat als dos papers?",
+        "answer": "Que en Nil ha passat de mirar només una part del preu a tenir en compte el cost total.",
+        "lines": 2
+      },
+      {
+        "id": "el-presupuesto-del-patinete-q7",
+        "type": "opinion",
+        "prompt": "Quina altra dada voldries saber abans de deixar un objecte al taller? Explica per què.",
+        "answer": "Resposta oberta. Per exemple, quan el podré recollir, per saber quan el tornaré a tenir disponible.",
+        "lines": 2
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 4,
+        "text": "pressupost",
+        "questionId": "el-presupuesto-del-patinete-q3"
+      }
+    ]
+  },
+  {
+    "id": "los-dos-nombres-del-puente-ca",
+    "code": "L178",
+    "title": "Els dos noms del pont",
+    "summary": "Un mateix pont apareix amb noms diferents en un plànol, una fotografia i les converses del poble.",
+    "paragraphs": [
+      "Al plànol del poble d’en Cesc hi havia un «pont Nou». La seva veïna, en canvi, li deia «pont del Molí». En Cesc pensava que parlaven de dos llocs diferents fins que va acompanyar-la a buscar nous a l’altra banda de la riera.",
+      "La veïna li va ensenyar una casa tancada al costat del pont. Abans hi havia funcionat un molí. A una fotografia del casal s’hi veia la mateixa casa, amb una roda de fusta a la paret. El peu de foto deia «pont del Molí, abans de la riuada». El pont de la fotografia era més baix i tenia una barana diferent.",
+      "A l’arxiu van trobar la notícia de la reconstrucció. Després que una riuada malmetés el pont vell, n’havien fet un altre al mateix lloc. Al nou plànol hi van posar «pont Nou». Però moltes famílies van continuar dient-ne com abans.",
+      "En Cesc va afegir una nota al recorregut que preparava per a una visita: «Pont Nou, conegut també com a pont del Molí». La veïna li va dir que allò ajudaria els qui llegien el mapa i els qui demanaven el camí. Ell va dibuixar la casa del molí al marge. Era tancada, però encara donava una pista sobre el nom."
+    ],
+    "imageAlt": {
+      "los-dos-nombres-del-puente-art1": "Un pont petit de pedra sobre una riera, amb una roda antiga de molí vora un edifici al fons. Sobre una taula propera hi ha un plànol i una fotografia vella."
+    },
+    "questions": [
+      {
+        "id": "los-dos-nombres-del-puente-q1",
+        "type": "literal",
+        "prompt": "Com es deia el pont al plànol?",
+        "answer": "Pont Nou.",
+        "lines": 1
+      },
+      {
+        "id": "los-dos-nombres-del-puente-q2",
+        "type": "literal",
+        "prompt": "Què havia fet malbé el pont vell?",
+        "answer": "Una riuada.",
+        "lines": 1
+      },
+      {
+        "id": "los-dos-nombres-del-puente-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa «reconstrucció» en el text?",
+        "answer": "Tornar a fer una construcció que havia quedat malmesa.",
+        "lines": 1
+      },
+      {
+        "id": "los-dos-nombres-del-puente-q4",
+        "type": "inference",
+        "prompt": "Per què el nom «pont Nou» no vol dir necessàriament que el pont s’hagi construït fa molt poc?",
+        "answer": "Perquè el nom es va posar quan es va substituir el vell i es pot haver mantingut durant molts anys.",
+        "lines": 2
+      },
+      {
+        "id": "los-dos-nombres-del-puente-q5",
+        "type": "inference",
+        "prompt": "Quins dos canvis permeten distingir el pont de la fotografia de l’actual?",
+        "answer": "El de la fotografia era més baix i tenia una barana diferent.",
+        "lines": 2
+      },
+      {
+        "id": "los-dos-nombres-del-puente-q6",
+        "type": "structure",
+        "prompt": "Per què en Cesc posa els dos noms al recorregut de la visita?",
+        "answer": "Perquè el lloc es pugui identificar tant amb el nom del plànol com amb el que fan servir molts veïns.",
+        "lines": 2
+      },
+      {
+        "id": "los-dos-nombres-del-puente-q7",
+        "type": "opinion",
+        "prompt": "Si preguntessis per la història d’un carrer, quines dues fonts voldries consultar? Fes servir exemples semblants als del text.",
+        "answer": "Resposta oberta. Per exemple, parlar amb algú que hi viu i buscar una fotografia antiga o una notícia a l’arxiu.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "reconstrucció",
+        "questionId": "los-dos-nombres-del-puente-q3"
+      }
+    ]
+  },
+  {
+    "id": "una-resena-con-un-pero-ca",
+    "code": "L179",
+    "title": "Una ressenya amb un però",
+    "summary": "Una lectora recomana un conte que l’ha fet riure, tot i que hi canviaria una escena.",
+    "paragraphs": [
+      "Al club hem escrit i il·lustrat un conte que es diu El rei que va perdre la veu. A mi m’ha agradat sobretot el personatge de la cuinera. Quan el rei no pot donar ordres, tots els habitants del castell parlen alhora. Ella és l’única que li deixa un paper i un llapis al costat del plat.",
+      "El conte té escenes divertides. En una, el rei dibuixa una granota perquè vol anar a la bassa i el jardiner li porta una granota de veritat. Els dibuixos ajuden a entendre l’embolic, perquè nosaltres veiem alhora el que vol dir el rei i el que han entès els altres.",
+      "Hi posaria, però, una escena més abans del final. El rei recupera la veu de cop i tothom torna a obeir-lo. M’hauria agradat veure què passa amb el paper i el llapis. Després de tanta feina per escoltar-lo, potser ell també podria haver preguntat alguna cosa als altres.",
+      "Recomanaria aquest conte a qui li agraden els embolics i les històries curtes. No cal esperar-hi un gran misteri: el més interessant és veure com cada personatge entén els dibuixos a la seva manera. Jo el tornaria a llegir per buscar detalls a les cares dels servents."
+    ],
+    "imageAlt": {
+      "una-resena-con-un-pero-art1": "Un llibre obert amb la il·lustració d’un rei amb una corona petita i una granota al costat. Hi ha una llibreta de lectura i un llapis a prop."
+    },
+    "questions": [
+      {
+        "id": "una-resena-con-un-pero-q1",
+        "type": "literal",
+        "prompt": "Quin personatge li ha agradat més a qui escriu la ressenya?",
+        "answer": "La cuinera.",
+        "lines": 1
+      },
+      {
+        "id": "una-resena-con-un-pero-q2",
+        "type": "literal",
+        "prompt": "Què porta el jardiner quan veu el dibuix?",
+        "answer": "Una granota de veritat.",
+        "lines": 1
+      },
+      {
+        "id": "una-resena-con-un-pero-q3",
+        "type": "vocabulary",
+        "prompt": "Què vol dir «embolics» en aquesta recomanació?",
+        "answer": "Situacions confuses o malentesos que fan avançar la història.",
+        "lines": 1
+      },
+      {
+        "id": "una-resena-con-un-pero-q4",
+        "type": "inference",
+        "prompt": "Per què els lectors poden entendre el problema de la granota millor que el jardiner?",
+        "answer": "Perquè veuen tant la intenció del rei com allò que el jardiner ha interpretat.",
+        "lines": 2
+      },
+      {
+        "id": "una-resena-con-un-pero-q5",
+        "type": "structure",
+        "prompt": "La ressenya només diu coses bones del conte? Cita un detall que ho demostri.",
+        "answer": "No. També diu que hi falta una escena abans del final i explica què hi voldria veure.",
+        "lines": 2
+      },
+      {
+        "id": "una-resena-con-un-pero-q6",
+        "type": "inference",
+        "prompt": "Què voldria que aprengués el rei, a més de recuperar la veu?",
+        "answer": "Que també escoltés els altres i els fes preguntes.",
+        "lines": 2
+      },
+      {
+        "id": "una-resena-con-un-pero-q7",
+        "type": "opinion",
+        "prompt": "T’animaria a llegir el conte aquesta ressenya? Esmenta una cosa concreta que hi has llegit.",
+        "answer": "Resposta oberta. Pot triar una escena, el tipus d’humor, les il·lustracions o la crítica al final, i relacionar-ho amb els seus gustos.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 4,
+        "text": "embolics",
+        "questionId": "una-resena-con-un-pero-q3"
+      }
+    ]
+  },
+  {
+    "id": "el-equipo-que-se-quedo-a-recoger-ca",
+    "code": "L180",
+    "title": "L’equip que es va quedar a recollir",
+    "summary": "La crònica d’un torneig dedica les últimes línies a una escena que passa després de la final.",
+    "paragraphs": [
+      "Diumenge al matí, el gimnàs del barri va acollir el primer torneig de bàdminton per parelles. Hi van participar vuit equips i la final es va jugar davant de les famílies, que s’havien assegut als bancs de la pista.",
+      "La parella formada per la Sílvia i en Tomàs va guanyar la final. Les seves rivals, la Leila i la Carla, van arribar al descans amb avantatge, però després van fallar unes quantes devolucions seguides. Al final es van saludar a la xarxa i tots quatre van posar per a la fotografia.",
+      "Quan la majoria del públic marxava, la Carla va veure dues nenes petites que intentaven passar un volant per damunt de la xarxa. Encara no tenien prou força. Va preguntar al responsable si podien abaixar-la una estona. La Leila va anar a buscar dues raquetes més curtes.",
+      "Les dues finalistes es van quedar a fer passades amb les nenes. Després van recollir els volants i van ajudar a plegar els bancs. La copa se la van endur la Sílvia i en Tomàs. A la notícia del casal, però, també hi ha una fotografia de la Leila i la Carla al costat de la xarxa baixa. Al peu hi diu: «La final es va acabar a les dotze. El joc va continuar una mica més»."
+    ],
+    "imageAlt": {
+      "el-equipo-que-se-quedo-a-recoger-art1": "Una xarxa baixa de bàdminton al gimnàs. Al costat hi ha una cistella amb volants i dues raquetes. Un parell d’infants recullen el material."
+    },
+    "questions": [
+      {
+        "id": "el-equipo-que-se-quedo-a-recoger-q1",
+        "type": "literal",
+        "prompt": "Quants equips van participar al torneig?",
+        "answer": "Vuit.",
+        "lines": 1
+      },
+      {
+        "id": "el-equipo-que-se-quedo-a-recoger-q2",
+        "type": "literal",
+        "prompt": "Qui es va endur la copa?",
+        "answer": "La Sílvia i en Tomàs.",
+        "lines": 1
+      },
+      {
+        "id": "el-equipo-que-se-quedo-a-recoger-q3",
+        "type": "vocabulary",
+        "prompt": "Què és un «volant» en aquest text?",
+        "answer": "L’objecte que els jugadors es passen amb la raqueta al bàdminton.",
+        "lines": 1
+      },
+      {
+        "id": "el-equipo-que-se-quedo-a-recoger-q4",
+        "type": "inference",
+        "prompt": "Per què van abaixar la xarxa i buscar raquetes més curtes?",
+        "answer": "Per adaptar el joc a les nenes petites, que encara no podien passar el volant per la xarxa alta.",
+        "lines": 2
+      },
+      {
+        "id": "el-equipo-que-se-quedo-a-recoger-q5",
+        "type": "inference",
+        "prompt": "Quina pista indica que la Leila i la Carla van acceptar el resultat de la final?",
+        "answer": "Van saludar els guanyadors i es van fotografiar tots quatre després del partit.",
+        "lines": 2
+      },
+      {
+        "id": "el-equipo-que-se-quedo-a-recoger-q6",
+        "type": "structure",
+        "prompt": "Per què el títol de la notícia no es fixa només en qui ha guanyat?",
+        "answer": "Perquè destaca que unes jugadores es van quedar per ajudar les nenes i recollir el material.",
+        "lines": 2
+      },
+      {
+        "id": "el-equipo-que-se-quedo-a-recoger-q7",
+        "type": "opinion",
+        "prompt": "Quina fotografia triaries per a la notícia: la de la copa o la de la xarxa baixa? Explica què mostraria.",
+        "answer": "Resposta oberta. La copa mostra qui ha guanyat; la xarxa baixa mostra l’ajuda a les nenes. Ha de justificar l’elecció segons què vulgui destacar.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "volant",
+        "questionId": "el-equipo-que-se-quedo-a-recoger-q3"
+      }
+    ]
   }
 ];

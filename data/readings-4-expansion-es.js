@@ -254,8 +254,8 @@ export const readings4ExpansionEs = [
     "level": "4-primary",
     "difficulty": "initial",
     "themes": [
-      "technology",
-      "everyday"
+      "games",
+      "math"
     ],
     "genre": "instructional",
     "title": "Cómo guardar una partida",
@@ -1008,6 +1008,363 @@ export const readings4ExpansionEs = [
         "paragraph": 3,
         "text": "oyentes",
         "questionId": "el-microfono-bajo-el-abrigo-q3"
+      }
+    ]
+  },
+  {
+    "id": "el-presupuesto-del-patinete-es",
+    "code": "L177",
+    "workId": "el-presupuesto-del-patinete",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "math",
+      "everyday"
+    ],
+    "genre": "narrative",
+    "title": "El presupuesto del patinete",
+    "summary": "Nil cree que la reparación costará cuatro euros hasta que lee toda la nota del taller.",
+    "paragraphs": [
+      "La rueda delantera del patinete de Nil hacía un ruido extraño. En el taller, la mecánica la hizo girar y le enseñó una grieta. Le dio una nota para que la llevara a casa. En la primera línea ponía: «Rueda nueva: cuatro euros». Nil ya empezaba a contar las monedas del bolsillo.",
+      "Debajo había una segunda línea: «Montaje y comprobación: seis euros». La mecánica le explicó que podía venderle solo la rueda o encargarse también de cambiarla y comprobar que girara bien. Antes de empezar, quería saber qué preferían hacer en casa.",
+      "Al día siguiente, Nil fue al taller con su padre. Su padre leyó las dos líneas y preguntó si el total era de diez euros. La mecánica dijo que sí. También le preguntó cuánto tardaría. El patinete estaría listo por la tarde.",
+      "Al recogerlo, Nil miró otra nota. Se repetían las mismas dos tareas y el mismo total, pero arriba ponía «Factura». Guardó los dos papeles en la caja del patinete. En el presupuesto había rodeado el cuatro. En la factura rodeó el diez: ahora ya sabía qué parte había dejado de leer el primer día."
+    ],
+    "images": [
+      {
+        "id": "el-presupuesto-del-patinete-art1",
+        "src": "assets/readings/l177-el-presupuesto-del-patinete.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un patinete de dos ruedas sobre un banco de taller junto a una rueda de recambio y una nota con dos columnas sin texto legible."
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-presupuesto-del-patinete-q1",
+        "type": "literal",
+        "prompt": "¿Qué problema tenía la rueda del patinete?",
+        "answer": "Tenía una grieta y hacía un ruido extraño.",
+        "lines": 1
+      },
+      {
+        "id": "el-presupuesto-del-patinete-q2",
+        "type": "literal",
+        "prompt": "¿Qué dos conceptos incluía la nota del taller?",
+        "answer": "La rueda nueva y el montaje con la comprobación.",
+        "lines": 1
+      },
+      {
+        "id": "el-presupuesto-del-patinete-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «presupuesto» en esta historia?",
+        "answer": "Una nota que explica qué se propone hacer y cuánto costará antes de empezar la reparación.",
+        "lines": 2
+      },
+      {
+        "id": "el-presupuesto-del-patinete-q4",
+        "type": "inference",
+        "prompt": "¿Por qué había pensado Nil que solo necesitaba cuatro euros?",
+        "answer": "Porque había leído solo el precio de la rueda, sin sumar el montaje y la comprobación.",
+        "lines": 2
+      },
+      {
+        "id": "el-presupuesto-del-patinete-q5",
+        "type": "inference",
+        "prompt": "¿Por qué no había empezado la mecánica la reparación el primer día?",
+        "answer": "Porque antes quería que la familia decidiera si compraba solo la rueda o encargaba también el cambio.",
+        "lines": 2
+      },
+      {
+        "id": "el-presupuesto-del-patinete-q6",
+        "type": "structure",
+        "prompt": "¿Qué muestra el cambio del número rodeado en los dos papeles?",
+        "answer": "Que Nil ha pasado de mirar solo una parte del precio a tener en cuenta el coste total.",
+        "lines": 2
+      },
+      {
+        "id": "el-presupuesto-del-patinete-q7",
+        "type": "opinion",
+        "prompt": "¿Qué otro dato querrías saber antes de dejar un objeto en el taller? Explica por qué.",
+        "answer": "Respuesta abierta. Por ejemplo, cuándo podré recogerlo, para saber cuándo volveré a tenerlo disponible.",
+        "lines": 2
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 4,
+        "text": "presupuesto",
+        "questionId": "el-presupuesto-del-patinete-q3"
+      }
+    ]
+  },
+  {
+    "id": "los-dos-nombres-del-puente-es",
+    "code": "L178",
+    "workId": "los-dos-nombres-del-puente",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "history",
+      "geography",
+      "community"
+    ],
+    "genre": "informative",
+    "title": "Los dos nombres del puente",
+    "summary": "Un mismo puente aparece con nombres distintos en un plano, una fotografía y las conversaciones del pueblo.",
+    "paragraphs": [
+      "En el plano del pueblo de Cesc había un «puente Nuevo». Su vecina, en cambio, lo llamaba «puente del Molino». Cesc pensaba que hablaban de dos lugares distintos hasta que la acompañó a buscar nueces al otro lado del arroyo.",
+      "La vecina le enseñó una casa cerrada junto al puente. Antes había funcionado allí un molino. En una fotografía del centro vecinal se veía la misma casa, con una rueda de madera en la pared. El pie de foto decía «puente del Molino, antes de la riada». El puente de la fotografía era más bajo y tenía otra barandilla.",
+      "En el archivo encontraron la noticia de la reconstrucción. Después de que una riada dañara el puente viejo, habían construido otro en el mismo lugar. En el plano nuevo lo llamaron «puente Nuevo». Pero muchas familias siguieron usando el nombre de antes.",
+      "Cesc añadió una nota al recorrido que preparaba para una visita: «Puente Nuevo, conocido también como puente del Molino». Su vecina dijo que aquello ayudaría a quienes leían el mapa y a quienes preguntaban el camino. Él dibujó la casa del molino en el margen. Estaba cerrada, pero aún daba una pista sobre el nombre."
+    ],
+    "images": [
+      {
+        "id": "los-dos-nombres-del-puente-art1",
+        "src": "assets/readings/l178-los-dos-nombres-del-puente.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un pequeño puente de piedra sobre un arroyo, con una rueda antigua de molino junto a un edificio al fondo. En una mesa cercana hay un plano y una fotografía antigua."
+      }
+    ],
+    "questions": [
+      {
+        "id": "los-dos-nombres-del-puente-q1",
+        "type": "literal",
+        "prompt": "¿Cómo se llamaba el puente en el plano?",
+        "answer": "Puente Nuevo.",
+        "lines": 1
+      },
+      {
+        "id": "los-dos-nombres-del-puente-q2",
+        "type": "literal",
+        "prompt": "¿Qué había dañado el puente viejo?",
+        "answer": "Una riada.",
+        "lines": 1
+      },
+      {
+        "id": "los-dos-nombres-del-puente-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «reconstrucción» en el texto?",
+        "answer": "Volver a hacer una construcción que había quedado dañada.",
+        "lines": 1
+      },
+      {
+        "id": "los-dos-nombres-del-puente-q4",
+        "type": "inference",
+        "prompt": "¿Por qué el nombre «puente Nuevo» no significa necesariamente que se haya construido hace muy poco?",
+        "answer": "Porque se puso al sustituir el viejo y puede haberse mantenido durante muchos años.",
+        "lines": 2
+      },
+      {
+        "id": "los-dos-nombres-del-puente-q5",
+        "type": "inference",
+        "prompt": "¿Qué dos cambios permiten distinguir el puente de la fotografía del actual?",
+        "answer": "El de la fotografía era más bajo y tenía una barandilla distinta.",
+        "lines": 2
+      },
+      {
+        "id": "los-dos-nombres-del-puente-q6",
+        "type": "structure",
+        "prompt": "¿Por qué pone Cesc los dos nombres en el recorrido de la visita?",
+        "answer": "Para identificar el lugar tanto por el nombre del plano como por el que usan muchos vecinos.",
+        "lines": 2
+      },
+      {
+        "id": "los-dos-nombres-del-puente-q7",
+        "type": "opinion",
+        "prompt": "Si preguntaras por la historia de una calle, ¿qué dos fuentes querrías consultar? Usa ejemplos parecidos a los del texto.",
+        "answer": "Respuesta abierta. Por ejemplo, hablar con alguien que vive allí y buscar una fotografía antigua o una noticia en el archivo.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "reconstrucción",
+        "questionId": "los-dos-nombres-del-puente-q3"
+      }
+    ]
+  },
+  {
+    "id": "una-resena-con-un-pero-es",
+    "code": "L179",
+    "workId": "una-resena-con-un-pero",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "arts",
+      "adventure"
+    ],
+    "genre": "review",
+    "title": "Una reseña con un pero",
+    "summary": "Una lectora recomienda un cuento que le ha hecho reír, aunque cambiaría una escena.",
+    "paragraphs": [
+      "En el club hemos escrito e ilustrado un cuento titulado El rey que perdió la voz. A mí me ha gustado sobre todo la cocinera. Cuando el rey no puede dar órdenes, todos los habitantes del castillo hablan a la vez. Ella es la única que deja un papel y un lápiz junto a su plato.",
+      "El cuento tiene escenas divertidas. En una, el rey dibuja una rana porque quiere ir a la charca y el jardinero le trae una rana de verdad. Las ilustraciones ayudan a entender el lío: nosotros vemos a la vez lo que quiere decir el rey y lo que han entendido los demás.",
+      "Pondría, sin embargo, una escena más antes del final. El rey recupera la voz de golpe y todos vuelven a obedecerlo. Me habría gustado ver qué pasa con el papel y el lápiz. Después de tanto esfuerzo para escucharlo, quizá él también podría haberles preguntado algo a los demás.",
+      "Recomendaría este cuento a quienes disfrutan con los enredos y las historias cortas. No hace falta esperar un gran misterio: lo más interesante es ver cómo cada personaje entiende los dibujos a su manera. Yo lo volvería a leer para buscar detalles en las caras de los sirvientes."
+    ],
+    "images": [
+      {
+        "id": "una-resena-con-un-pero-art1",
+        "src": "assets/readings/l179-una-resena-con-un-pero.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un libro abierto con la ilustración de un rey con una corona pequeña y una rana al lado. Cerca hay un cuaderno de lectura y un lápiz."
+      }
+    ],
+    "questions": [
+      {
+        "id": "una-resena-con-un-pero-q1",
+        "type": "literal",
+        "prompt": "¿Qué personaje le ha gustado más a quien escribe la reseña?",
+        "answer": "La cocinera.",
+        "lines": 1
+      },
+      {
+        "id": "una-resena-con-un-pero-q2",
+        "type": "literal",
+        "prompt": "¿Qué trae el jardinero al ver el dibujo?",
+        "answer": "Una rana de verdad.",
+        "lines": 1
+      },
+      {
+        "id": "una-resena-con-un-pero-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «enredos» en esta recomendación?",
+        "answer": "Situaciones confusas o malentendidos que hacen avanzar la historia.",
+        "lines": 1
+      },
+      {
+        "id": "una-resena-con-un-pero-q4",
+        "type": "inference",
+        "prompt": "¿Por qué pueden entender los lectores el problema de la rana mejor que el jardinero?",
+        "answer": "Porque ven tanto la intención del rey como lo que ha interpretado el jardinero.",
+        "lines": 2
+      },
+      {
+        "id": "una-resena-con-un-pero-q5",
+        "type": "structure",
+        "prompt": "¿La reseña solo dice cosas buenas del cuento? Cita un detalle que lo demuestre.",
+        "answer": "No. También dice que falta una escena antes del final y explica qué le gustaría ver.",
+        "lines": 2
+      },
+      {
+        "id": "una-resena-con-un-pero-q6",
+        "type": "inference",
+        "prompt": "¿Qué le gustaría que aprendiera el rey, además de recuperar la voz?",
+        "answer": "Que también escuchara a los demás y les hiciera preguntas.",
+        "lines": 2
+      },
+      {
+        "id": "una-resena-con-un-pero-q7",
+        "type": "opinion",
+        "prompt": "¿Te animaría a leer el cuento esta reseña? Menciona algo concreto que hayas leído en ella.",
+        "answer": "Respuesta abierta. Puede elegir una escena, el tipo de humor, las ilustraciones o la crítica al final y relacionarlo con sus gustos.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 4,
+        "text": "enredos",
+        "questionId": "una-resena-con-un-pero-q3"
+      }
+    ]
+  },
+  {
+    "id": "el-equipo-que-se-quedo-a-recoger-es",
+    "code": "L180",
+    "workId": "el-equipo-que-se-quedo-a-recoger",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "sports",
+      "community"
+    ],
+    "genre": "news",
+    "title": "El equipo que se quedó a recoger",
+    "summary": "La crónica de un torneo dedica las últimas líneas a una escena que ocurre después de la final.",
+    "paragraphs": [
+      "El domingo por la mañana, el gimnasio del barrio acogió el primer torneo de bádminton por parejas. Participaron ocho equipos y la final se jugó ante las familias, que se habían sentado en los bancos de la pista.",
+      "La pareja formada por Silvia y Tomás ganó la final. Sus rivales, Leila y Carla, llegaron al descanso con ventaja, pero después fallaron varias devoluciones seguidas. Al terminar se saludaron junto a la red y los cuatro posaron para la fotografía.",
+      "Cuando la mayoría del público se marchaba, Carla vio a dos niñas pequeñas que intentaban pasar un volante por encima de la red. Todavía no tenían fuerza suficiente. Preguntó al responsable si podían bajarla un rato. Leila fue a buscar dos raquetas más cortas.",
+      "Las dos finalistas se quedaron haciendo pases con las niñas. Después recogieron los volantes y ayudaron a plegar los bancos. La copa se la llevaron Silvia y Tomás. En la noticia del centro vecinal, sin embargo, también hay una fotografía de Leila y Carla junto a la red baja. Debajo pone: «La final terminó a las doce. El juego continuó un poco más»."
+    ],
+    "images": [
+      {
+        "id": "el-equipo-que-se-quedo-a-recoger-art1",
+        "src": "assets/readings/l180-el-equipo-que-se-quedo-a-recoger.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Una red baja de bádminton en el gimnasio. Al lado hay una cesta con volantes y dos raquetas. Dos niños recogen el material."
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-equipo-que-se-quedo-a-recoger-q1",
+        "type": "literal",
+        "prompt": "¿Cuántos equipos participaron en el torneo?",
+        "answer": "Ocho.",
+        "lines": 1
+      },
+      {
+        "id": "el-equipo-que-se-quedo-a-recoger-q2",
+        "type": "literal",
+        "prompt": "¿Quiénes se llevaron la copa?",
+        "answer": "Silvia y Tomás.",
+        "lines": 1
+      },
+      {
+        "id": "el-equipo-que-se-quedo-a-recoger-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué es un «volante» en este texto?",
+        "answer": "El objeto que los jugadores se pasan con la raqueta en el bádminton.",
+        "lines": 1
+      },
+      {
+        "id": "el-equipo-que-se-quedo-a-recoger-q4",
+        "type": "inference",
+        "prompt": "¿Por qué bajaron la red y buscaron raquetas más cortas?",
+        "answer": "Para adaptar el juego a las niñas pequeñas, que aún no podían pasar el volante por la red alta.",
+        "lines": 2
+      },
+      {
+        "id": "el-equipo-que-se-quedo-a-recoger-q5",
+        "type": "inference",
+        "prompt": "¿Qué pista indica que Leila y Carla aceptaron el resultado de la final?",
+        "answer": "Saludaron a los ganadores y se fotografiaron juntos al terminar el partido.",
+        "lines": 2
+      },
+      {
+        "id": "el-equipo-que-se-quedo-a-recoger-q6",
+        "type": "structure",
+        "prompt": "¿Por qué no se fija el título de la noticia solo en quién ha ganado?",
+        "answer": "Porque destaca que unas jugadoras se quedaron para ayudar a las niñas y recoger el material.",
+        "lines": 2
+      },
+      {
+        "id": "el-equipo-que-se-quedo-a-recoger-q7",
+        "type": "opinion",
+        "prompt": "¿Qué fotografía elegirías para la noticia: la de la copa o la de la red baja? Explica qué mostraría.",
+        "answer": "Respuesta abierta. La copa muestra quién ha ganado; la red baja muestra la ayuda a las niñas. Debe justificar la elección según lo que quiera destacar.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "volante",
+        "questionId": "el-equipo-que-se-quedo-a-recoger-q3"
       }
     ]
   }
