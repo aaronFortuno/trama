@@ -44,6 +44,8 @@ v1.26 · Obre l’historial de canvis|v1.26 · Abrir el historial de cambios
 v1.26.1 · Obre l’historial de canvis|v1.26.1 · Abrir el historial de cambios
 v1.26.2 · Obre l’historial de canvis|v1.26.2 · Abrir el historial de cambios
 v1.26.3 · Obre l’historial de canvis|v1.26.3 · Abrir el historial de cambios
+v1.26.4 · Obre l’historial de canvis|v1.26.4 · Abrir el historial de cambios
+L’encapçalament pot mostrar un codi d’aula personalitzat. Es desa per lectura al navegador i surt tant a la fitxa d’alumnat com al solucionari, també en imprimir o descarregar un lot.|La cabecera puede mostrar un código de aula personalizado. Se guarda por lectura en el navegador y aparece tanto en la ficha del alumnado como en el solucionario, también al imprimir o descargar un lote.
 La finestra de lots obre la impressió de les fitxes d’alumnat amb el botó principal. El desplegable permet imprimir el solucionari i descarregar tots dos tipus de document en PDF o ZIP. Les fletxes del visor segueixen l’ordre de la graella filtrada.|La ventana de lotes abre la impresión de las fichas del alumnado con el botón principal. El menú permite imprimir el solucionario y descargar ambos tipos de documento en PDF o ZIP. Las flechas del visor siguen el orden de la cuadrícula filtrada.
 El text pot continuar al costat d’una il·lustració durant diversos paràgrafs. La fitxa incorpora botons per anar a la lectura anterior o següent segons la cerca, els filtres i l’ordre del catàleg.|El texto puede continuar junto a una ilustración durante varios párrafos. La ficha incorpora botones para ir a la lectura anterior o siguiente según la búsqueda, los filtros y el orden del catálogo.
 La descàrrega en bloc permet triar entre les fitxes d’alumnat i el solucionari. En obrir el diàleg, totes les lectures que coincideixen amb els filtres ja estan seleccionades.|La descarga en bloque permite elegir entre las fichas del alumnado y el solucionario. Al abrir el diálogo, todas las lecturas que coinciden con los filtros ya están seleccionadas.
@@ -275,6 +277,9 @@ Marges|Márgenes
 Dret|Derecho
 Esquerre|Izquierdo
 Encapçalament|Cabecera
+Codi d’aula|Código de aula
+Text del codi d’aula|Texto del código de aula
+Es desa per a aquesta lectura en aquest navegador.|Se guarda para esta lectura en este navegador.
 Camp de nom|Campo de nombre
 Camp de data|Campo de fecha
 Camp de curs|Campo de curso

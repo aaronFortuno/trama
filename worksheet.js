@@ -49,7 +49,8 @@ function makeHeader(reading, settings, [name, date, group, label, , , keyLabel],
   const kind = settings.headerLabel && element('p', 'worksheet-kind', label);
   const fields = [settings.headerName && name, settings.headerDate && date, settings.headerGroup && group].filter(Boolean);
   const hasCustom = settings.headerCustom && (settings.headerTitle || settings.headerDetail);
-  if (fields.length || hasCustom || settings.headerLogo) {
+  const classroomCode = settings.showClassroomCode && settings.classroomCode.trim();
+  if (fields.length || hasCustom || settings.headerLogo || classroomCode) {
     const top = element('div', 'worksheet-header');
     if (settings.headerLogo) {
       const brand = element('div', 'worksheet-header-brand');
@@ -71,6 +72,11 @@ function makeHeader(reading, settings, [name, date, group, label, , , keyLabel],
     }
     if (fields.length) details.append(row);
     if (details.childElementCount) top.append(details);
+    if (classroomCode) {
+      const badge = element('span', 'worksheet-classroom-code', classroomCode);
+      badge.style.fontSize = `${Math.min(40, 208 / [...classroomCode].length)}pt`;
+      top.append(badge);
+    }
     header.append(top);
   }
   if (kind && !settings.headerLogo) header.append(kind);

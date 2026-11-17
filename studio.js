@@ -1,5 +1,5 @@
 import { labelFor, wordCount } from './catalog.js';
-import { defaultImageConfig, defaultQuestionLines, defaultSettings, marginLimits, maxAnswerLines, questionLines, readCode, validSetting } from './worksheet-code.js';
+import { defaultImageConfig, defaultQuestionLines, defaultSettings, marginLimits, maxAnswerLines, maxClassroomCodeLength, questionLines, readCode, validSetting } from './worksheet-code.js';
 import { decodeWorksheetImages, exportWorksheetPages, renderWorksheet, worksheetThumbnail } from './worksheet.js';
 import { supportsHyphenation } from './worksheet-hyphenation.js';
 import { animateRefresh, mountDisclosures, setDisclosure } from './motion.js';
@@ -16,6 +16,8 @@ import { fontGroups, loadWorksheetFont, worksheetFonts } from './worksheet-fonts
 
 const formatKeys = new Set(templateGroups.filter(group => group.id !== 'images').flatMap(group => group.keys));
 const pageFormat = settings => Object.fromEntries([...formatKeys].map(key => [key, settings[key]]));
+const classroomStorageKey = 'trama.classroom-code.v1:';
+const classroomDefaults = { showClassroomCode: false, classroomCode: defaultSettings().classroomCode };
 
 const range = (key, label, min, max, step, unit) => `
   <label class="studio-range">
@@ -130,6 +132,11 @@ const template = `
             <div class="studio-controls studio-custom" hidden>
               <label>Títol de l’encapçalament<input type="text" name="headerTitle" maxlength="80" placeholder="Nom de l’escola o de l’activitat"></label>
               <label>Segona línia<input type="text" name="headerDetail" maxlength="100" placeholder="Grup, unitat o instruccions breus"></label>
+            </div>
+            ${check('showClassroomCode', 'Codi d’aula')}
+            <div class="studio-controls studio-classroom-code" hidden>
+              <label>Text del codi d’aula<input type="text" name="classroomCode" maxlength="${maxClassroomCodeLength}"></label>
+              <p class="studio-control-note">Es desa per a aquesta lectura en aquest navegador.</p>
             </div>
             ${logoControls('headerLogo', 'Logotip de l’encapçalament')}
           </div>
@@ -302,7 +309,24 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
   ];
   let settings;
   let sessionFormat;
-  const settingsForReading = entry => ({ ...defaultSettings(entry.level), ...sessionFormat });
+  const classroomCodes = new Map();
+  function classroomSettings(entry) {
+    if (classroomCodes.has(entry.id)) return classroomCodes.get(entry.id);
+    try {
+      const saved = JSON.parse(localStorage.getItem(classroomStorageKey + entry.id));
+      if (validSetting('showClassroomCode', saved?.showClassroomCode) && validSetting('classroomCode', saved?.classroomCode)) {
+        return { showClassroomCode: saved.showClassroomCode, classroomCode: saved.classroomCode };
+      }
+    } catch { /* The code can still be used in this session. */ }
+    return classroomDefaults;
+  }
+  function rememberClassroomCode() {
+    const value = { showClassroomCode: settings.showClassroomCode, classroomCode: settings.classroomCode };
+    classroomCodes.set(reading.id, value);
+    try { localStorage.setItem(classroomStorageKey + reading.id, JSON.stringify(value)); }
+    catch { /* Keep the code for this session. */ }
+  }
+  const settingsForReading = entry => ({ ...defaultSettings(entry.level), ...sessionFormat, ...classroomSettings(entry) });
   let requestedFont;
   let pendingPrint;
   let frame = 0;
@@ -397,6 +421,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
       }
     }
     setDisclosure(find('.studio-custom'), settings.headerCustom, { animated });
+    setDisclosure(find('.studio-classroom-code'), settings.showClassroomCode, { animated });
     setDisclosure(find('#studio-answer-weight'), settings.answerStyle !== 'blank', { animated });
     setDisclosure(find('#studio-images'), settings.showImages, { animated });
     for (const control of root.querySelectorAll('[data-logo-control]')) {
@@ -534,8 +559,10 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     } else if (Object.hasOwn(settings, input.name)) {
       const next = input.name === 'leading' ? Math.round(value * 20) / 10 : value;
       const changed = settings[input.name] !== next;
+      if (input.name === 'classroomCode' && !validSetting(input.name, next)) return;
       settings[input.name] = next;
       if (changed && formatKeys.has(input.name)) sessionFormat = pageFormat(settings);
+      if (changed && Object.hasOwn(classroomDefaults, input.name)) rememberClassroomCode();
     } else {
       return;
     }
@@ -773,13 +800,13 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
       const entry = readings.find(item => item.id === id);
       if (!entry) return false;
       const keepLayout = !root.hidden && reading?.id !== entry.id && reading?.workId === entry.workId && Boolean(entry.workId);
-      select(entry, keepLayout ? settings : settingsForReading(entry), keepLayout);
+      select(entry, keepLayout ? { ...settings, ...classroomSettings(entry) } : settingsForReading(entry), keepLayout);
       return true;
     },
     restore(value) {
       const decoded = readCode(value, readings);
       if (!decoded) return false;
-      select(decoded.reading, decoded.settings);
+      select(decoded.reading, { ...decoded.settings, ...classroomSettings(decoded.reading) });
       return true;
     },
   };

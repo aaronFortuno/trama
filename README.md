@@ -16,6 +16,8 @@ Des de **Plantilles** pots aplicar la plantilla Clàssica (Georgia, 12 pt, inter
 
 La mida de lletra i l’interlineat inicials depenen del curs. Si canvies el format o apliques una plantilla de format, els ajustos de pàgina es mantenen mentre obres altres lectures a la mateixa pestanya. **Restableix**, al costat de **Format del full**, recupera el format del curs. Les preguntes amagades i els ajustos de les il·lustracions pertanyen a la fitxa oberta.
 
+Activa **Codi d’aula** a **Encapçalament** per afegir una etiqueta a la dreta de la primera pàgina. El text es desa per a cada versió de la lectura en aquest navegador i surt a la fitxa i al solucionari, també als lots.
+
 ## Imprimir fitxes en bloc
 
 Acota el catàleg amb la cerca i els filtres i obre **Imprimeix un lot**. Totes les lectures de la llista apareixen marcades i pots desmarcar les que no et calen. **Imprimeix** obre les fitxes d’alumnat al diàleg d’impressió del navegador. La fletxa del costat permet imprimir el solucionari i descarregar les fitxes o els solucionaris en un PDF conjunt o en un ZIP amb un PDF per lectura. S’hi aplica el format inicial del curs o el que hagis ajustat durant la sessió.

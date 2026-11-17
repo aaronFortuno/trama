@@ -217,7 +217,8 @@
 .worksheet-content > * { flex: none; }
 .worksheet-heading { padding-bottom: 5mm; }
 .worksheet-header { margin-bottom: 7mm; font: 10pt/1.25 Arial, sans-serif; }
-.worksheet-header:has(.worksheet-header-brand) { display: flex; align-items: center; gap: 4mm; }
+.worksheet-header:has(.worksheet-header-brand, .worksheet-classroom-code) { display: flex; align-items: center; gap: 4mm; }
+.worksheet-classroom-code { margin-inline-start: auto; flex: none; max-width: 54mm; padding: 1mm 2mm; background: #101010; color: white; font: 700 40pt/1 "Courier New", monospace; text-align: center; }
 .worksheet-header:has(.worksheet-header-brand .worksheet-kind) { margin-bottom: 5mm; }
 .worksheet-header-brand { flex: none; width: 30mm; }
 .worksheet-header-details { flex: 1; min-width: 0; }

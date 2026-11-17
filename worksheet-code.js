@@ -5,6 +5,7 @@ const stableId = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const legacyImageDefaults = Object.freeze({ visible: true, width: 36, position: 'right', wrap: true });
 export const marginLimits = Object.freeze({ min: 8, max: 32 });
 export const maxAnswerLines = 8;
+export const maxClassroomCodeLength = 16;
 export const answerStyles = Object.freeze({ blank: 'BLANC', lines: 'LINIES', dots: 'PUNTS', grid: 'QUADRICULA' });
 export const formatVersion = 4;
 const legacyAnswerDefaults = { questionGap: 4, answerGap: 7, answerWeight: .2 };
@@ -53,6 +54,8 @@ const fields = {
   headerTitle: ['', singleLine(80)],
   headerDetail: ['', singleLine(100)],
   headerLogo: [tramaLogo, logo],
+  showClassroomCode: [false, boolean],
+  classroomCode: ['codi', singleLine(maxClassroomCodeLength)],
   showImages: [true, boolean],
   showVocabulary: [true, boolean],
   showCode: [true, boolean],

@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.26.4 · 17 de novembre de 2026
+
+L’encapçalament pot mostrar un codi d’aula personalitzat. Es desa per lectura al navegador i surt tant a la fitxa d’alumnat com al solucionari, també en imprimir o descarregar un lot.
+
 ## 1.26.3 · 17 de novembre de 2026
 
 La finestra de lots obre la impressió de les fitxes d’alumnat amb el botó principal. El desplegable permet imprimir el solucionari i descarregar tots dos tipus de document en PDF o ZIP. Les fletxes del visor segueixen l’ordre de la graella filtrada.
