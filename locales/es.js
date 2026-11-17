@@ -126,6 +126,8 @@ v1.31 · Obre l’historial de canvis|v1.31 · Abrir el historial de cambios
 v1.32 · Obre l’historial de canvis|v1.32 · Abrir el historial de cambios
 v1.33 · Obre l’historial de canvis|v1.33 · Abrir el historial de cambios
 v1.34 · Obre l’historial de canvis|v1.34 · Abrir el historial de cambios
+v1.34.1 · Obre l’historial de canvis|v1.34.1 · Abrir el historial de cambios
+El lateral de contingut mostra només les preguntes eliminades del preview, amb un botó per recuperar-les. La secció queda buida quan totes les preguntes són visibles.|El lateral de contenido muestra solo las preguntas eliminadas de la vista previa, con un botón para recuperarlas. La sección queda vacía cuando todas las preguntas son visibles.
 El catàleg mostra una sola llengua i recorda l’última tria. El lateral incorpora filtres desplegables i selecció de cards. Les col·leccions conserven l’ordre entre sessions i permeten afegir, retirar i reordenar lectures.|El catálogo muestra un solo idioma y recuerda la última elección. El lateral incorpora filtros desplegables y selección de tarjetas. Las colecciones conservan el orden entre sesiones y permiten añadir, retirar y reordenar lecturas.
 Set lectures noves de 5è avançat (L158–L164), en català i castellà, completen les quinze de cada llengua. Totes tenen il·lustració, vuit preguntes i solucionari.|Siete lecturas nuevas de 5.º avanzado (L158–L164), en catalán y castellano, completan las quince de cada idioma. Todas tienen ilustración, ocho preguntas y solucionario.
 El catàleg permet desar col·leccions amb la tria, l’ordre i un maquetat independent per lectura. Una còpia de seguretat permet traslladar les col·leccions, els maquetats, els codis d’aula i les plantilles.|El catálogo permite guardar colecciones con la selección, el orden y una maquetación independiente por lectura. Una copia de seguridad permite trasladar las colecciones, las maquetaciones, los códigos de aula y las plantillas.
@@ -463,6 +465,9 @@ Després, prem «Torna a comprovar». Si el navegador et demana que recarreguis 
 Revisa la connexió i torna a prémer «Envia l’avís».|Revisa la conexión y vuelve a pulsar «Enviar el aviso».
 solucionari|solucionario
 Preguntes|Preguntas
+Preguntes eliminades|Preguntas eliminadas
+Recupera|Recuperar
+Recupera la pregunta {number}|Recuperar la pregunta {number}
 Espai de resposta|Espacio de respuesta
 Pauta de resposta|Pauta de respuesta
 En blanc|En blanco

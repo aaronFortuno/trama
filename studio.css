@@ -157,12 +157,12 @@
 .studio-answer-styles { display: grid; grid-template-columns: repeat(auto-fit, minmax(85px, 1fr)); gap: 7px; }
 .studio-controls legend { padding-inline: 4px; color: var(--muted); font-size: .76rem; }
 #studio-questions, #studio-images { display: grid; gap: 9px; }
-.studio-question-option small { display: block; color: var(--muted); }
-.studio-question-setting { display: grid; gap: 5px; }
+#studio-questions:empty { padding: 0; }
+.studio-question-copy { font-size: .8rem; line-height: 1.45; }
+.studio-question-copy small { display: block; margin-bottom: 3px; color: var(--muted); font-size: .72rem; }
+.studio-question-setting { display: grid; gap: 7px; }
 .studio-question-setting + .studio-question-setting { padding-top: 8px; border-top: 1px solid var(--line); }
-.studio-controls .studio-question-space { display: flex; align-items: center; justify-content: space-between; gap: 6px; padding-left: 1.55rem; color: var(--muted); font-size: .73rem; }
-.studio-question-space input[type="number"] { width: 3.3rem; min-width: 0; flex: none; padding: 3px 5px; font-variant-numeric: tabular-nums; }
-.studio-question-space input:disabled { opacity: .5; }
+.studio-question-restore { justify-self: start; min-height: 30px; padding: 4px 8px; font-size: .75rem; }
 .studio-image { display: grid; gap: 10px; }
 .studio-image-title { display: flex; align-items: center; gap: 7px; font-size: .72rem; line-height: 1.3; }
 .studio-image-title img { flex: none; object-fit: cover; border-radius: 3px; }

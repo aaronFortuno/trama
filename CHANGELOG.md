@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.34.1 · 17 de novembre de 2026
+
+El lateral de contingut mostra només les preguntes eliminades del preview, amb un botó per recuperar-les. La secció queda buida quan totes les preguntes són visibles.
+
 ## 1.34 · 17 de novembre de 2026
 
 El catàleg mostra una sola llengua i recorda l’última tria. El lateral incorpora filtres desplegables i selecció de cards. Les col·leccions conserven l’ordre entre sessions i permeten afegir, retirar i reordenar lectures.

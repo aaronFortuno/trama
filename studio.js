@@ -170,7 +170,7 @@ const template = `
       </div>
       <form class="studio-form scroll-pane">
         <details open>
-          <summary>Preguntes <span class="studio-detail-count" id="studio-question-count"></span></summary>
+          <summary>Preguntes eliminades <span class="studio-detail-count" id="studio-question-count" hidden></span></summary>
           <div class="studio-controls" id="studio-questions"></div>
         </details>
         <details>
@@ -385,29 +385,6 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     variant.replaceChildren(...variants.map(entry => new Option(labelFor('language', entry.language), entry.id)));
     variant.value = reading.id;
     variant.parentElement.hidden = variants.length < 2;
-    find('#studio-questions').replaceChildren(...reading.questions.map((question, index) => {
-      const row = create('div', 'studio-question-setting');
-      const label = create('label', 'studio-question-option studio-check');
-      const input = create('input');
-      input.type = 'checkbox';
-      input.dataset.question = question.id;
-      const copy = create('span');
-      const prompt = create('span', null, question.prompt);
-      prompt.lang = reading.language;
-      copy.append(create('small', null, `${index + 1} · ${labelFor('question', question.type)}`), prompt);
-      label.append(input, copy);
-      const space = create('label', 'studio-question-space');
-      const amount = create('input');
-      amount.type = 'number';
-      amount.min = 0;
-      amount.max = maxAnswerLines;
-      amount.step = 1;
-      amount.dataset.questionLines = question.id;
-      amount.setAttribute('aria-label', t('Espai de resposta de la pregunta {number}', { number: index + 1 }));
-      space.append(create('span', null, t('Línies de resposta')), amount);
-      row.append(label, space);
-      return row;
-    }));
     find('#studio-images').replaceChildren(...reading.images.map(imageControls));
     for (const caption of find('#studio-images').querySelectorAll('.studio-image-title span')) caption.lang = reading.language;
     contentForm.elements.showImages.disabled = !reading.images.length;
@@ -484,20 +461,26 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
       control.querySelector('[data-logo-default]').hidden = source === tramaLogo;
       control.querySelector('[data-logo-clear]').hidden = !source;
     }
-    const included = reading.questions.filter(question => !settings.excluded.includes(question.id));
-    find('#studio-question-count').textContent = `${included.length}/${reading.questions.length}`;
+    const removed = reading.questions.flatMap((question, index) => settings.excluded.includes(question.id) ? [{ question, number: index + 1 }] : []);
+    const questionCount = find('#studio-question-count');
+    questionCount.textContent = numberFormat.format(removed.length);
+    questionCount.hidden = !removed.length;
+    find('#studio-questions').replaceChildren(...removed.map(({ question, number }) => {
+      const row = create('div', 'studio-question-setting');
+      const copy = create('div', 'studio-question-copy');
+      const prompt = create('span', null, question.prompt);
+      prompt.lang = reading.language;
+      copy.append(create('small', null, `${number} · ${labelFor('question', question.type)}`), prompt);
+      const restore = create('button', 'button studio-question-restore', t('Recupera'));
+      restore.type = 'button';
+      restore.dataset.action = 'question-restore';
+      restore.dataset.questionId = question.id;
+      restore.setAttribute('aria-label', t('Recupera la pregunta {number}', { number }));
+      row.append(copy, restore);
+      return row;
+    }));
     const visible = settings.showImages ? reading.images.filter(image => settings.images[image.id]?.visible !== false).length : 0;
     find('#studio-image-count').textContent = `${visible}/${reading.images.length}`;
-    const questionRows = find('#studio-questions').children;
-    reading.questions.forEach((question, index) => {
-      const row = questionRows[index];
-      const included = !settings.excluded.includes(question.id);
-      row.querySelector('[data-question]').checked = included;
-      const amount = row.querySelector('[data-question-lines]');
-      const value = String(questionLines(question, settings));
-      if (amount.value !== value) amount.value = value;
-      amount.disabled = !included || solution.checked;
-    });
     const imageRows = find('#studio-images').children;
     reading.images.forEach(({ id }, index) => {
       const card = imageRows[index];
@@ -590,20 +573,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     const input = event.target;
     if (input.readOnly) return;
     const value = input.type === 'checkbox' ? input.checked : input.type === 'range' || input.name === 'answerLines' ? Number(input.value) : input.value;
-    if (input.dataset.question) {
-      const id = input.dataset.question;
-      if (input.checked === !settings.excluded.includes(id)) return;
-      settings.excluded = input.checked ? settings.excluded.filter(entry => entry !== id) : [...settings.excluded, id];
-      if (input.checked && id === hiddenQuestion) {
-        hiddenQuestion = undefined;
-        questionFeedback.hidden = true;
-      }
-    } else if (input.dataset.questionLines) {
-      const question = reading.questions.find(entry => entry.id === input.dataset.questionLines);
-      if (!question || input.value === '' || !input.validity.valid) return;
-      if (questionLines(question, settings) === input.valueAsNumber) return;
-      setQuestionSpace(question, input.valueAsNumber);
-    } else if (input.dataset.imageKey) {
+    if (input.dataset.imageKey) {
       const id = input.closest('[data-image]').dataset.image;
       const index = reading.images.findIndex(image => image.id === id);
       const config = settings.images[id] ?? defaultImageConfig(reading, index);
@@ -630,15 +600,26 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
   }
 
   function editQuestion(action, button) {
-    if (action === 'question-undo') {
-      if (!hiddenQuestion) return;
-      settings.excluded = settings.excluded.filter(id => id !== hiddenQuestion);
-      hiddenQuestion = undefined;
-      questionFeedback.hidden = true;
+    if (action === 'question-undo' || action === 'question-restore') {
+      const id = action === 'question-undo' ? hiddenQuestion : button.dataset.questionId;
+      if (!settings.excluded.includes(id)) return;
+      const questionList = find('#studio-questions');
+      const rowIndex = [...questionList.children].indexOf(button.closest('.studio-question-setting'));
+      settings.excluded = settings.excluded.filter(entry => entry !== id);
+      if (id === hiddenQuestion) {
+        hiddenQuestion = undefined;
+        questionFeedback.hidden = true;
+      }
       persistLayout();
       syncControls();
       refresh();
-      find('#studio-title').focus({ preventScroll: true });
+      if (action === 'question-undo') find('#studio-title').focus({ preventScroll: true });
+      else {
+        const row = questionList.children[Math.min(rowIndex, questionList.children.length - 1)];
+        const focus = row?.querySelector('button') ?? questionList.closest('details').querySelector('summary');
+        focus.focus({ preventScroll: true });
+        if (questionList.children.length) animateRefresh(questionList);
+      }
       return;
     }
     const block = button.closest('[data-question-id]');
@@ -663,6 +644,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     syncControls();
     refresh();
     if (action === 'question-hide') {
+      animateRefresh(find('#studio-questions'));
       questionFeedback.querySelector('button').focus({ preventScroll: true });
       return;
     }
@@ -782,13 +764,6 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     form.addEventListener('submit', event => event.preventDefault());
     form.addEventListener('input', update);
   }
-  contentForm.addEventListener('change', event => {
-    const input = event.target;
-    if (input.dataset.questionLines && (input.value === '' || !input.validity.valid)) {
-      const question = reading.questions.find(entry => entry.id === input.dataset.questionLines);
-      if (question) input.value = questionLines(question, settings);
-    }
-  });
   variant.addEventListener('change', () => onVariant?.(variant.value));
   for (const { direction, button } of readingNav) {
     button.addEventListener('click', () => {
