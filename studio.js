@@ -1,6 +1,6 @@
 import { labelFor, wordCount } from './catalog.js';
 import { defaultImageConfig, defaultQuestionLines, defaultSettings, marginLimits, maxAnswerLines, questionLines, readCode, validSetting } from './worksheet-code.js';
-import { exportWorksheetPages, renderWorksheet, worksheetThumbnail } from './worksheet.js';
+import { decodeWorksheetImages, exportWorksheetPages, renderWorksheet, worksheetThumbnail } from './worksheet.js';
 import { supportsHyphenation } from './worksheet-hyphenation.js';
 import { animateRefresh, mountDisclosures, setDisclosure } from './motion.js';
 import { mountPreviewZoom } from './preview-zoom.js';
@@ -187,7 +187,7 @@ const template = `
       </form>
       <div class="studio-print">
         <p id="studio-export-status" role="status" hidden></p>
-        <div class="studio-print-buttons">
+        <div class="worksheet-print-buttons">
           <button class="button primary" type="button" data-action="print">${icon('printer')} Imprimeix</button>
           <button class="button primary menu-trigger" id="studio-print-trigger" type="button" aria-label="Opcions d’impressió i PDF" aria-haspopup="menu" aria-expanded="false" aria-controls="studio-print-menu" popovertarget="studio-print-menu">${icon('chevron-down')}</button>
         </div>
@@ -591,6 +591,11 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     focus?.focus({ preventScroll: true });
   }
 
+  function printPages(pages) {
+    pendingPrint = pages;
+    try { window.print(); } finally { pendingPrint = undefined; }
+  }
+
   async function exportWorksheet(action) {
     if (printButton.disabled || root.hidden) return;
     const current = reading;
@@ -611,12 +616,8 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
         const filename = `${current.code}-${current.language.toUpperCase()}${answerKey ? '-' + t('solucionari') : ''}.pdf`;
         await downloadPdf(exportPages, { title: current.title, filename });
       } else {
-        const images = exportPages.flatMap(page => [...page.querySelectorAll('img')]);
-        await Promise.all(images.map(image => image.decode().catch(() => {})));
-        if (reading === current && !root.hidden) {
-          pendingPrint = exportPages;
-          try { window.print(); } finally { pendingPrint = undefined; }
-        }
+        await decodeWorksheetImages(exportPages);
+        if (reading === current && !root.hidden) printPages(exportPages);
       }
     } catch {
       pendingPrint = undefined;
@@ -743,7 +744,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
   });
 
   window.addEventListener('beforeprint', () => {
-    if (root.hidden || !reading) return;
+    if (!pendingPrint && (root.hidden || !reading)) return;
     printOutlet.replaceChildren(...(pendingPrint ?? exportWorksheetPages(reading, settings)));
     document.body.dataset.tramaPrint = '';
   });
@@ -755,6 +756,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
   return {
     dismissMenu() { printMenu.close(); fileMenu.close(); },
     exportSettings: settingsForReading,
+    printPages,
     translate() {
       translateMarkup();
       templateStatus.textContent = '';

@@ -52,11 +52,11 @@
 
 .studio-variants { display: inline-flex; align-items: center; gap: 6px; font-size: .74rem; }
 .studio-print { display: grid; gap: 6px; padding: 8px 10px; border-top: 1px solid var(--line); background: var(--surface); }
-.studio-print-buttons { display: grid; grid-template-columns: minmax(0, 1fr) auto; }
-.studio-print .button { min-height: 38px; }
-.studio-print .ui-icon { width: 17px; height: 17px; }
-.studio-print-buttons .button:first-child { border-radius: 7px 0 0 7px; }
-.studio-print-buttons .menu-trigger { padding-inline: 10px; border-radius: 0 7px 7px 0; border-inline-start-color: var(--paper); }
+.worksheet-print-buttons { display: grid; grid-template-columns: minmax(0, 1fr) auto; }
+.worksheet-print-buttons .button { min-height: 38px; }
+.worksheet-print-buttons .ui-icon { width: 17px; height: 17px; }
+.worksheet-print-buttons .button:first-child { border-radius: 7px 0 0 7px; }
+.worksheet-print-buttons .menu-trigger { padding-inline: 10px; border-radius: 0 7px 7px 0; border-inline-start-color: var(--paper); }
 #studio-export-status { max-width: 32ch; margin: 0; color: var(--accent); font-size: .75rem; }
 
 .studio-layout {

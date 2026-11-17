@@ -1,6 +1,7 @@
+import { mountActionMenu } from './action-menu.js';
 import { labelFor } from './catalog.js';
 import { language, t } from './i18n.js';
-import { exportWorksheetPages } from './worksheet.js';
+import { decodeWorksheetImages, exportWorksheetPages } from './worksheet.js';
 import { loadWorksheetFont } from './worksheet-fonts.js';
 
 function batchName(readings) {
@@ -13,14 +14,14 @@ function batchName(readings) {
     .replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
 }
 
-export function mountBatchDownload({ dialog, trigger, getReadings, getSettings }) {
+export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, printPages }) {
   const list = dialog.querySelector('#batch-list');
   const none = dialog.querySelector('#batch-empty');
   const all = dialog.querySelector('#batch-select-all');
   const count = dialog.querySelector('#batch-count');
-  const options = dialog.querySelector('#batch-options');
-  const optionGroups = options.querySelectorAll('fieldset');
-  const download = dialog.querySelector('#batch-download');
+  const printButton = dialog.querySelector('#batch-print');
+  const menuTrigger = dialog.querySelector('#batch-print-trigger');
+  const menu = mountActionMenu(menuTrigger, dialog.querySelector('#batch-print-menu'), outputBatch);
   const status = dialog.querySelector('#batch-status');
   let rows = [];
   let job;
@@ -31,8 +32,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings }
     all.disabled = Boolean(job) || !rows.length;
     all.checked = rows.length > 0 && selected === rows.length;
     all.indeterminate = selected > 0 && selected < rows.length;
-    for (const group of optionGroups) group.disabled = Boolean(job);
-    download.disabled = Boolean(job) || !selected;
+    printButton.disabled = menuTrigger.disabled = Boolean(job) || !selected;
     for (const { input } of rows) input.disabled = Boolean(job);
     count.textContent = t('{selected} de {total} seleccionades', {
       selected: format.format(selected), total: format.format(rows.length),
@@ -69,62 +69,81 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings }
     });
     list.replaceChildren(...rows.map(row => row.item));
     none.hidden = rows.length > 0;
-    for (const input of options.querySelectorAll('input')) input.checked = input.defaultChecked;
     setStatus('');
     updateControls();
   });
-  dialog.addEventListener('close', () => { if (!dialog.open) job?.abort(); });
+  dialog.addEventListener('close', () => {
+    if (dialog.open) return;
+    menu.close();
+    job?.abort();
+  });
   list.addEventListener('change', () => { setStatus(''); updateControls(); });
-  options.addEventListener('change', () => setStatus(''));
   all.addEventListener('change', () => {
     for (const { input } of rows) input.checked = all.checked;
     setStatus('');
     updateControls();
   });
-  download.addEventListener('click', async () => {
+  printButton.addEventListener('click', () => outputBatch('print'));
+
+  async function* renderSelection(readings, answerKey, signal) {
+    for (const [index, reading] of readings.entries()) {
+      signal.throwIfAborted();
+      setStatus(t('Preparant la fitxa {current} de {total}…', { current: index + 1, total: readings.length }));
+      const settings = getSettings(reading);
+      await loadWorksheetFont(settings.font);
+      signal.throwIfAborted();
+      yield { reading, pages: exportWorksheetPages(reading, settings, answerKey) };
+    }
+  }
+
+  async function outputBatch(action) {
     const readings = rows.filter(({ input }) => input.checked).map(({ reading }) => reading);
     if (job || !readings.length) return;
     const controller = job = new AbortController();
     const { signal } = controller;
-    const zipFormat = options.querySelector('[value="zip"]').checked;
-    const answerKey = options.querySelector('[value="answer-key"]').checked;
-    const suffix = answerKey ? '-' + t('solucionari') : '';
-    const name = batchName(readings) + suffix;
+    const answerKey = action.endsWith('-key');
+    const canFinish = () => !signal.aborted && dialog.open && !dialog.classList.contains('is-closing');
     updateControls();
     setStatus(t('Preparant el lot…'));
     try {
-      const [{ createPdfSession, saveDownload }, zipModule] = await Promise.all([
-        import('./worksheet-pdf.js'),
-        zipFormat ? import('./worksheet-zip.js') : null,
-      ]);
-      const session = await createPdfSession();
-      const zip = zipModule?.createZip();
-      const combined = zip ? null : await session.create(t(answerKey ? 'Solucionaris de Trama' : 'Fitxes de Trama'));
-      for (const [index, reading] of readings.entries()) {
-        signal.throwIfAborted();
-        setStatus(t('Preparant la fitxa {current} de {total}…', { current: index + 1, total: readings.length }));
-        const settings = getSettings(reading);
-        await loadWorksheetFont(settings.font);
-        signal.throwIfAborted();
-        const title = answerKey ? `${reading.title} · ${t('Solucionari', {}, reading.language)}` : reading.title;
-        const pdf = combined ?? await session.create(title);
-        await session.append(pdf, exportWorksheetPages(reading, settings, answerKey), signal);
-        if (zip) zip.add(`${reading.code}-${reading.language.toUpperCase()}${suffix}.pdf`, await pdf.save());
+      const selection = renderSelection(readings, answerKey, signal);
+      if (action.startsWith('print')) {
+        const sheets = [];
+        for await (const { pages } of selection) sheets.push(...pages);
+        await decodeWorksheetImages(sheets);
+        if (!canFinish()) return;
+        printPages(sheets);
+      } else {
+        const zipFormat = action.startsWith('zip');
+        const suffix = answerKey ? '-' + t('solucionari') : '';
+        const name = batchName(readings) + suffix;
+        const [{ createPdfSession, saveDownload }, zipModule] = await Promise.all([
+          import('./worksheet-pdf.js'),
+          zipFormat ? import('./worksheet-zip.js') : null,
+        ]);
+        const session = await createPdfSession();
+        const zip = zipModule?.createZip();
+        const combined = zip ? null : await session.create(t(answerKey ? 'Solucionaris de Trama' : 'Fitxes de Trama'));
+        for await (const { reading, pages } of selection) {
+          const title = answerKey ? `${reading.title} · ${t('Solucionari', {}, reading.language)}` : reading.title;
+          const pdf = combined ?? await session.create(title);
+          await session.append(pdf, pages, signal);
+          if (zip) zip.add(`${reading.code}-${reading.language.toUpperCase()}${suffix}.pdf`, await pdf.save());
+        }
+        if (!canFinish()) return;
+        setStatus(t('Finalitzant el fitxer…'));
+        const blob = zip?.blob() ?? new Blob([await combined.save()], { type: 'application/pdf' });
+        if (!canFinish()) return;
+        saveDownload(blob, `${name}.${zipFormat ? 'zip' : 'pdf'}`);
       }
-      signal.throwIfAborted();
-      setStatus(t('Finalitzant el fitxer…'));
-      const blob = zip?.blob() ?? new Blob([await combined.save()], { type: 'application/pdf' });
-      signal.throwIfAborted();
-      if (!dialog.open || dialog.classList.contains('is-closing')) return;
-      saveDownload(blob, `${name}.${zipFormat ? 'zip' : 'pdf'}`);
       setStatus(t('Lot preparat.'));
     } catch {
-      if (!signal.aborted) setStatus(t('No s’ha pogut descarregar el lot. Torna-ho a provar.'), true);
+      if (canFinish()) setStatus(t('No s’ha pogut preparar el document. Torna-ho a provar.'), true);
     } finally {
       if (job === controller) {
         job = undefined;
         updateControls();
       }
     }
-  });
+  }
 }

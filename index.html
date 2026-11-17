@@ -56,7 +56,7 @@
               <span class="visually-hidden">Cerca al catàleg</span>
               <input type="search" id="search" placeholder="Cerca per títol, codi o tema" autocomplete="off">
             </label>
-            <button class="button" type="button" id="batch-open" data-open-dialog="batch-dialog" aria-haspopup="dialog" aria-controls="batch-dialog">Descarrega un lot</button>
+            <button class="button" type="button" id="batch-open" data-open-dialog="batch-dialog" aria-haspopup="dialog" aria-controls="batch-dialog">Imprimeix un lot</button>
           </div>
         </div>
         <div class="catalog-layout">
@@ -112,7 +112,7 @@
         </a>
       </p>
       <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.26.2 · Obre l’historial de canvis">v1.26.2</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.26.3 · Obre l’historial de canvis">v1.26.3</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
@@ -123,7 +123,7 @@
 
   <dialog class="site-dialog batch-dialog" id="batch-dialog" aria-labelledby="batch-title">
     <div class="dialog-heading">
-      <h2 id="batch-title" tabindex="-1" data-dialog-focus>Descarrega fitxes en bloc</h2>
+      <h2 id="batch-title" tabindex="-1" data-dialog-focus>Imprimeix fitxes en bloc</h2>
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
     <p class="batch-help">La llista segueix la cerca i els filtres del catàleg. Cada fitxa aplica el format del curs o el que hagis ajustat durant la sessió.</p>
@@ -131,25 +131,24 @@
       <label><input type="checkbox" id="batch-select-all"> Selecciona-les totes</label>
       <span id="batch-count" role="status"></span>
     </div>
-    <div class="dialog-scroll batch-scroll" tabindex="0" role="region" aria-label="Lectures per descarregar">
+    <div class="dialog-scroll batch-scroll" tabindex="0" role="region" aria-label="Lectures del lot">
       <p id="batch-empty" hidden>No hi ha lectures amb aquesta cerca i aquests filtres.</p>
       <ul id="batch-list" class="batch-list"></ul>
     </div>
-    <div class="batch-options" id="batch-options">
-      <fieldset>
-        <legend>Tipus de document</legend>
-        <label><input type="radio" name="batch-document" value="student" checked> Fitxes d’alumnat</label>
-        <label><input type="radio" name="batch-document" value="answer-key"> Solucionari</label>
-      </fieldset>
-      <fieldset>
-        <legend>Format de descàrrega</legend>
-        <label><input type="radio" name="batch-format" value="pdf" checked> Un sol PDF</label>
-        <label><input type="radio" name="batch-format" value="zip"> ZIP amb un PDF per lectura</label>
-      </fieldset>
-    </div>
     <div class="batch-actions">
       <p id="batch-status" role="status" hidden></p>
-      <button class="button primary" id="batch-download" type="button" disabled>Descarrega el lot</button>
+      <div class="worksheet-print-buttons">
+        <button class="button primary" id="batch-print" type="button" disabled><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 9V3h12v6"/><rect x="6" y="14" width="12" height="8" rx="1"/></svg> Imprimeix</button>
+        <button class="button primary menu-trigger" id="batch-print-trigger" type="button" aria-label="Opcions d’impressió i PDF" aria-haspopup="menu" aria-expanded="false" aria-controls="batch-print-menu" popovertarget="batch-print-menu" disabled><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+      </div>
+      <div class="select-menu action-menu" id="batch-print-menu" role="menu" aria-labelledby="batch-print-trigger" popover>
+        <button type="button" role="menuitem" tabindex="-1" data-option="pdf">Descarrega el PDF</button>
+        <button type="button" role="menuitem" tabindex="-1" data-option="zip">Descarrega les fitxes en ZIP</button>
+        <div class="batch-menu-separator" role="separator"></div>
+        <button type="button" role="menuitem" tabindex="-1" data-option="print-key">Imprimeix el solucionari</button>
+        <button type="button" role="menuitem" tabindex="-1" data-option="pdf-key">Descarrega el solucionari en PDF</button>
+        <button type="button" role="menuitem" tabindex="-1" data-option="zip-key">Descarrega el solucionari en ZIP</button>
+      </div>
     </div>
   </dialog>
 
@@ -204,6 +203,10 @@
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’historial"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
+      <article class="release">
+        <header><h3>v1.26.3</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
+        <p>La finestra de lots obre la impressió de les fitxes d’alumnat amb el botó principal. El desplegable permet imprimir el solucionari i descarregar tots dos tipus de document en PDF o ZIP. Les fletxes del visor segueixen l’ordre de la graella filtrada.</p>
+      </article>
       <article class="release">
         <header><h3>v1.26.2</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>El text pot continuar al costat d’una il·lustració durant diversos paràgrafs. La fitxa incorpora botons per anar a la lectura anterior o següent segons la cerca, els filtres i l’ordre del catàleg.</p>

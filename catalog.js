@@ -126,6 +126,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied }) {
   const template = document.querySelector('#reading-card');
   const clearButtons = new Map();
   let limit = firstBatchSize;
+  let orderedMatches = [];
   let visibleIds;
   const observer = typeof IntersectionObserver === 'function' ? new IntersectionObserver(entries => {
     if (entries.some(entry => entry.isIntersecting) && document.activeElement !== more) loadMore();
@@ -268,11 +269,11 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied }) {
     const words = new Intl.NumberFormat(language());
     const facets = selectedFacets();
     const activeCount = Object.values(facets).filter(Boolean).length;
-    const matches = filterCatalog(catalog, { search: search.value, ...facets });
-    const total = matches.length;
+    orderedMatches = filterCatalog(catalog, { search: search.value, ...facets });
+    const total = orderedMatches.length;
     if (!append) updateOptions(facets, words);
     const showing = Math.min(limit, total);
-    const visible = matches.slice(0, showing);
+    const visible = orderedMatches.slice(0, showing);
     const ids = visible.map(({ reading }) => reading.id).join(' ');
     if (translated || ids !== visibleIds) {
       const cards = visible.slice(append ? grid.childElementCount : 0).map(item => cardFor(item, words));
@@ -347,7 +348,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied }) {
 
   return {
     matchingReadings() {
-      return filterCatalog(catalog, { search: search.value, ...selectedFacets() }).map(({ reading }) => reading);
+      return orderedMatches.map(({ reading }) => reading);
     },
     replaceReadings(items) {
       const positions = new Map(catalog.map(({ reading }, index) => [reading.id, index]));

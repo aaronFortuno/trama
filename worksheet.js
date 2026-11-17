@@ -32,6 +32,11 @@ export function exportWorksheetPages(reading, settings, answerKey = false) {
   }
 }
 
+export function decodeWorksheetImages(pages) {
+  const images = pages.flatMap(page => [...page.querySelectorAll('img')]);
+  return Promise.all(images.map(image => image.decode().catch(() => {})));
+}
+
 function makeLogo(source) {
   const logo = element('img', 'worksheet-logo');
   logo.src = logoSource(source);

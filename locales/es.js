@@ -25,29 +25,26 @@ Filtres del catàleg|Filtros del catálogo
 Filtres|Filtros
 Importa una lectura|Importar una lectura
 Importa o exporta|Importar o exportar
-Descarrega un lot|Descargar un lote
-Descarrega fitxes en bloc|Descargar fichas en bloque
+Imprimeix un lot|Imprimir un lote
+Imprimeix fitxes en bloc|Imprimir fichas en bloque
 La llista segueix la cerca i els filtres del catàleg. Cada fitxa aplica el format del curs o el que hagis ajustat durant la sessió.|La lista sigue la búsqueda y los filtros del catálogo. Cada ficha aplica el formato del curso o el que hayas ajustado durante la sesión.
 Selecciona-les totes|Seleccionarlas todas
 {selected} de {total} seleccionades|{selected} de {total} seleccionadas
-Lectures per descarregar|Lecturas para descargar
+Lectures del lot|Lecturas del lote
 No hi ha lectures amb aquesta cerca i aquests filtres.|No hay lecturas con esta búsqueda y estos filtros.
-Format de descàrrega|Formato de descarga
-Tipus de document|Tipo de documento
-Fitxes d’alumnat|Fichas del alumnado
-Un sol PDF|Un solo PDF
-ZIP amb un PDF per lectura|ZIP con un PDF por lectura
-Descarrega el lot|Descargar el lote
+Descarrega les fitxes en ZIP|Descargar las fichas en ZIP
+Descarrega el solucionari en ZIP|Descargar el solucionario en ZIP
 Preparant el lot…|Preparando el lote…
 Preparant la fitxa {current} de {total}…|Preparando la ficha {current} de {total}…
 Finalitzant el fitxer…|Finalizando el archivo…
 Lot preparat.|Lote preparado.
 Fitxes de Trama|Fichas de Trama
 Solucionaris de Trama|Solucionarios de Trama
-No s’ha pogut descarregar el lot. Torna-ho a provar.|No se ha podido descargar el lote. Vuelve a intentarlo.
 v1.26 · Obre l’historial de canvis|v1.26 · Abrir el historial de cambios
 v1.26.1 · Obre l’historial de canvis|v1.26.1 · Abrir el historial de cambios
 v1.26.2 · Obre l’historial de canvis|v1.26.2 · Abrir el historial de cambios
+v1.26.3 · Obre l’historial de canvis|v1.26.3 · Abrir el historial de cambios
+La finestra de lots obre la impressió de les fitxes d’alumnat amb el botó principal. El desplegable permet imprimir el solucionari i descarregar tots dos tipus de document en PDF o ZIP. Les fletxes del visor segueixen l’ordre de la graella filtrada.|La ventana de lotes abre la impresión de las fichas del alumnado con el botón principal. El menú permite imprimir el solucionario y descargar ambos tipos de documento en PDF o ZIP. Las flechas del visor siguen el orden de la cuadrícula filtrada.
 El text pot continuar al costat d’una il·lustració durant diversos paràgrafs. La fitxa incorpora botons per anar a la lectura anterior o següent segons la cerca, els filtres i l’ordre del catàleg.|El texto puede continuar junto a una ilustración durante varios párrafos. La ficha incorpora botones para ir a la lectura anterior o siguiente según la búsqueda, los filtros y el orden del catálogo.
 La descàrrega en bloc permet triar entre les fitxes d’alumnat i el solucionari. En obrir el diàleg, totes les lectures que coincideixen amb els filtres ja estan seleccionades.|La descarga en bloque permite elegir entre las fichas del alumnado y el solucionario. Al abrir el diálogo, todas las lecturas que coinciden con los filtros ya están seleccionadas.
 El catàleg permet seleccionar les lectures que coincideixen amb la cerca i els filtres i descarregar-les en un sol PDF o en un ZIP amb un PDF per lectura. La descàrrega en bloc substitueix l’intercanvi de lectures en JSON.|El catálogo permite seleccionar las lecturas que coinciden con la búsqueda y los filtros y descargarlas en un solo PDF o en un ZIP con un PDF por lectura. La descarga en bloque sustituye al intercambio de lecturas en JSON.

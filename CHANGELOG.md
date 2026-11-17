@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.26.3 · 17 de novembre de 2026
+
+La finestra de lots obre la impressió de les fitxes d’alumnat amb el botó principal. El desplegable permet imprimir el solucionari i descarregar tots dos tipus de document en PDF o ZIP. Les fletxes del visor segueixen l’ordre de la graella filtrada.
+
 ## 1.26.2 · 17 de novembre de 2026
 
 El text pot continuar al costat d’una il·lustració durant diversos paràgrafs. La fitxa incorpora botons per anar a la lectura anterior o següent segons la cerca, els filtres i l’ordre del catàleg.

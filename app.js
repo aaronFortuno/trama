@@ -84,6 +84,7 @@ mountBatchDownload({
   dialog: document.querySelector('#batch-dialog'),
   getReadings: catalog.matchingReadings,
   getSettings: studio.exportSettings,
+  printPages: studio.printPages,
 });
 mountDialogs();
 mountSelectMenus();
