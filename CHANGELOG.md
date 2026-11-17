@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.27 · 17 de novembre de 2026
+
+S’incorporen les lectures L114–L116 de 5è de primària, de dificultat inicial, en català i castellà.
+
 ## 1.26.4 · 17 de novembre de 2026
 
 L’encapçalament pot mostrar un codi d’aula personalitzat. Es desa per lectura al navegador i surt tant a la fitxa d’alumnat com al solucionari, també en imprimir o descarregar un lot.
