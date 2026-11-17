@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.35.2 · 17 de novembre de 2026
+
+Tres lectures més de 4t inicial (L168–L170) en totes dues llengües: una partida de dames, una carta sobre els seients d’un concert i unes mongetes enfiladisses.
+
 ## 1.35.1 · 17 de novembre de 2026
 
 Tres lectures noves de 4t inicial (L165–L167), en català i castellà, amb il·lustració, sis preguntes i solucionari. S’ha rectificat l’anatomia de la mà de la il·lustració de la L165.

@@ -245,5 +245,252 @@ export const readings4ExpansionEs = [
         "questionId": "un-barco-en-el-canalillo-q4"
       }
     ]
+  },
+  {
+    "id": "como-guardar-una-partida-es",
+    "code": "L168",
+    "workId": "como-guardar-una-partida",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "initial",
+    "themes": [
+      "technology",
+      "everyday"
+    ],
+    "genre": "instructional",
+    "title": "Cómo guardar una partida",
+    "summary": "Unas instrucciones permiten continuar una partida de tablero cuando llega la hora de recoger.",
+    "paragraphs": [
+      "Llega la hora de comer y la partida de damas aún no ha terminado. Hay que despejar la mesa, pero no quieres perder las posiciones. Puedes guardar la partida en un cuaderno. No basta con apuntar cuántas fichas le quedan a cada persona.",
+      "Dibuja un tablero de ocho casillas de lado. Marca una esquina con una estrella. Añade también la estrella en un papel pequeño y ponlo junto a la misma esquina del tablero de verdad. Esa marca te ayudará a saber hacia dónde girar el dibujo.",
+      "Copia cada ficha en la casilla que le corresponde. Usa círculos vacíos para un jugador y círculos rellenos para el otro. Si alguna ficha ya es una dama, dibújale una corona. Al final escribe a quién le tocaba mover.",
+      "Comprueba el dibujo con la otra persona antes de recoger. Por la tarde, colocad primero el tablero con la marca en el mismo lugar. Después repartid las fichas siguiendo el dibujo. Si olvidáis apuntar el turno, las fichas estarán bien colocadas, ¡pero quizá discutáis antes de empezar!"
+    ],
+    "images": [
+      {
+        "id": "como-guardar-una-partida-art1",
+        "src": "assets/readings/l168-como-guardar-una-partida.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un tablero de damas a medio jugar junto a un cuaderno con un dibujo del mismo tablero y una flecha de orientación."
+      }
+    ],
+    "questions": [
+      {
+        "id": "como-guardar-una-partida-q1",
+        "type": "literal",
+        "prompt": "¿Cuántas casillas debe tener cada lado del dibujo?",
+        "answer": "Ocho.",
+        "lines": 1
+      },
+      {
+        "id": "como-guardar-una-partida-q2",
+        "type": "literal",
+        "prompt": "¿Cómo se indica que una ficha ya es una dama?",
+        "answer": "Dibujándole una corona.",
+        "lines": 1
+      },
+      {
+        "id": "como-guardar-una-partida-q3",
+        "type": "inference",
+        "prompt": "¿Por qué hace falta una estrella en el dibujo y otra junto al tablero?",
+        "answer": "Para orientar el dibujo y colocar las fichas en el mismo sitio al continuar la partida.",
+        "lines": 2
+      },
+      {
+        "id": "como-guardar-una-partida-q4",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «despejar la mesa» en estas instrucciones?",
+        "answer": "Quitar el tablero y las fichas para poder usarla para otra cosa.",
+        "lines": 1
+      },
+      {
+        "id": "como-guardar-una-partida-q5",
+        "type": "inference",
+        "prompt": "¿Qué información faltaría si solo apuntaras el número de fichas de cada persona?",
+        "answer": "Dónde estaba cada ficha, cuáles eran damas y a quién le tocaba mover.",
+        "lines": 2
+      },
+      {
+        "id": "como-guardar-una-partida-q6",
+        "type": "opinion",
+        "prompt": "¿Quién crees que debería comprobar el dibujo antes de recoger? ¿Por qué?",
+        "answer": "Los dos jugadores, porque así pueden detectar errores y recordar que estaban de acuerdo.",
+        "lines": 2
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 1,
+        "text": "despejar la mesa",
+        "questionId": "como-guardar-una-partida-q4"
+      }
+    ]
+  },
+  {
+    "id": "las-mochilas-de-la-ultima-fila-es",
+    "code": "L169",
+    "workId": "las-mochilas-de-la-ultima-fila",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "initial",
+    "themes": [
+      "community",
+      "everyday"
+    ],
+    "genre": "letter",
+    "title": "Las mochilas de la última fila",
+    "summary": "Una carta explica por qué una fila de sillas llena de mochilas no es una fila ocupada.",
+    "paragraphs": [
+      "Estimada comisión de la fiesta:",
+      "Soy Nora y el sábado vine al concierto de la sala pequeña con mi tía. Cuando entramos, parecía que no quedaba ningún asiento. En la última fila había cinco mochilas sobre cinco sillas. Nosotras nos quedamos de pie junto a la puerta porque no queríamos quitarle el sitio a nadie.",
+      "A mitad del concierto, una chica se levantó de la primera fila. Vino a buscar una botella en su mochila y nos preguntó por qué no nos sentábamos. Nos explicó que las mochilas eran de su grupo y que nadie había reservado aquellas sillas. Nosotras habíamos entendido algo diferente.",
+      "Os propongo poner unos ganchos en la pared del fondo y dejar allí las bolsas. Así se verá enseguida qué asientos están libres. También podríais dejar una nota a la entrada para que todos lo sepan. A mi tía le gustó mucho la música, pero acabó cansada. Si volvemos al próximo concierto, me gustaría que pudiera escucharlo sentada desde el principio.",
+      "Gracias por leerme. Nora."
+    ],
+    "images": [
+      {
+        "id": "las-mochilas-de-la-ultima-fila-art1",
+        "src": "assets/readings/l169-las-mochilas-de-la-ultima-fila.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Una sala pequeña con sillas plegables orientadas hacia el escenario. Unas mochilas ocupan parte de la última fila."
+      }
+    ],
+    "questions": [
+      {
+        "id": "las-mochilas-de-la-ultima-fila-q1",
+        "type": "literal",
+        "prompt": "¿Con quién fue Nora al concierto?",
+        "answer": "Con su tía.",
+        "lines": 1
+      },
+      {
+        "id": "las-mochilas-de-la-ultima-fila-q2",
+        "type": "literal",
+        "prompt": "¿Qué fue a buscar la chica en la mochila?",
+        "answer": "Una botella.",
+        "lines": 1
+      },
+      {
+        "id": "las-mochilas-de-la-ultima-fila-q3",
+        "type": "inference",
+        "prompt": "¿Por qué no se sentaron Nora y su tía en la última fila?",
+        "answer": "Porque interpretaron que las mochilas reservaban las sillas para otras personas.",
+        "lines": 2
+      },
+      {
+        "id": "las-mochilas-de-la-ultima-fila-q4",
+        "type": "vocabulary",
+        "prompt": "¿Qué quiere decir «reservado» cuando se habla de un asiento?",
+        "answer": "Guardado para que lo ocupe una persona concreta.",
+        "lines": 1
+      },
+      {
+        "id": "las-mochilas-de-la-ultima-fila-q5",
+        "type": "inference",
+        "prompt": "¿Cómo ayudaría poner las mochilas en los ganchos?",
+        "answer": "Dejaría las sillas vacías y se vería qué asientos se pueden ocupar.",
+        "lines": 2
+      },
+      {
+        "id": "las-mochilas-de-la-ultima-fila-q6",
+        "type": "opinion",
+        "prompt": "¿Crees que Nora escribe solo para contar un problema? ¿Qué más hace?",
+        "answer": "No. También propone una solución concreta: poner ganchos y una nota en la entrada.",
+        "lines": 2
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "reservado",
+        "questionId": "las-mochilas-de-la-ultima-fila-q4"
+      }
+    ]
+  },
+  {
+    "id": "el-sobre-de-las-judias-es",
+    "code": "L170",
+    "workId": "el-sobre-de-las-judias",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "initial",
+    "themes": [
+      "nature",
+      "everyday"
+    ],
+    "genre": "narrative",
+    "title": "El sobre de las judías",
+    "summary": "Leo recibe unas semillas con una nota que le hace cambiar de sitio su pequeño huerto.",
+    "paragraphs": [
+      "La abuela le envió a Leo un sobre con seis judías secas. Detrás había escrito: «Para sembrar. Las mías trepan». Leo pensó que su abuela hablaba de las judías, pero le costaba imaginar cómo podían trepar aquellas semillas tan lisas.",
+      "Llenó una maceta de tierra y puso dos judías dentro. La dejó en una estantería del balcón, junto a los coches de juguete. Durante varios días solo vio tierra húmeda. Después salieron dos tallos con hojas.",
+      "Cuando las plantas crecieron, un tallo empezó a enrollarse alrededor de la rueda de un coche. Leo tiró del coche y la planta se movió con él. Entonces volvió a leer el sobre.",
+      "Trasladó la maceta al suelo y puso dos cañas que llegaban hasta la barandilla. Unos días después, los tallos habían empezado a trepar por ellas. Leo hizo una fotografía y se la envió a su abuela. Debajo escribió: «¡Ya lo entiendo: no eran las semillas, eran las plantas!»."
+    ],
+    "images": [
+      {
+        "id": "el-sobre-de-las-judias-art1",
+        "src": "assets/readings/l170-el-sobre-de-las-judias.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Una maceta con una planta de judías, una caña de apoyo y un sobre abierto con judías secas en un balcón."
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-sobre-de-las-judias-q1",
+        "type": "literal",
+        "prompt": "¿Cuántas judías había en el sobre? ¿Cuántas sembró?",
+        "answer": "En el sobre había seis y sembró dos.",
+        "lines": 1
+      },
+      {
+        "id": "el-sobre-de-las-judias-q2",
+        "type": "literal",
+        "prompt": "¿Dónde dejó la maceta al principio?",
+        "answer": "En una estantería del balcón, junto a los coches de juguete.",
+        "lines": 1
+      },
+      {
+        "id": "el-sobre-de-las-judias-q3",
+        "type": "inference",
+        "prompt": "¿Qué hizo que el coche se moviera junto con la planta?",
+        "answer": "El tallo se había enrollado alrededor de una rueda y los había unido.",
+        "lines": 2
+      },
+      {
+        "id": "el-sobre-de-las-judias-q4",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «trepan» cuando se habla de las plantas?",
+        "answer": "Que van creciendo hacia arriba sujetándose a un soporte.",
+        "lines": 1
+      },
+      {
+        "id": "el-sobre-de-las-judias-q5",
+        "type": "inference",
+        "prompt": "¿Por qué pone Leo unas cañas en vez de dejar los coches?",
+        "answer": "Para que las plantas tengan un soporte para crecer que no sea un juguete que él quiera mover.",
+        "lines": 2
+      },
+      {
+        "id": "el-sobre-de-las-judias-q6",
+        "type": "opinion",
+        "prompt": "¿Qué añadirías a la nota de la abuela para que fuera más clara para Leo?",
+        "answer": "Respuesta abierta. Por ejemplo: «Cuando crezcan las plantas, pon unas cañas para que se sujeten».",
+        "lines": 2
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 1,
+        "text": "trepan",
+        "questionId": "el-sobre-de-las-judias-q4"
+      }
+    ]
   }
 ];

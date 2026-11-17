@@ -22,6 +22,8 @@ v1.35 · Obre l’historial de canvis|v1.35 · Abrir el historial de cambios
 Es retira el filtre de tipus de pregunta i s’unifiquen les etiquetes del catàleg. Medi ambient, esport, tecnologia i geografia tenen noms propis als filtres en català i castellà. Totes les lectures existents tenen temàtica i tipus de text verificats.|Se retira el filtro de tipo de pregunta y se unifican las etiquetas del catálogo. Medio ambiente, deporte, tecnología y geografía tienen nombres propios en los filtros en catalán y castellano. Todas las lecturas existentes tienen temática y tipo de texto verificados.
 v1.35.1 · Obre l’historial de canvis|v1.35.1 · Abrir el historial de cambios
 Tres lectures noves de 4t inicial (L165–L167), en català i castellà, amb il·lustració, sis preguntes i solucionari. S’ha rectificat l’anatomia de la mà de la il·lustració de la L165.|Tres lecturas nuevas de 4.º inicial (L165–L167), en catalán y castellano, con ilustración, seis preguntas y solucionario. Se ha rectificado la anatomía de la mano de la ilustración de la L165.
+v1.35.2 · Obre l’historial de canvis|v1.35.2 · Abrir el historial de cambios
+Tres lectures més de 4t inicial (L168–L170) en totes dues llengües: una partida de dames, una carta sobre els seients d’un concert i unes mongetes enfiladisses.|Tres lecturas más de 4.º inicial (L168–L170) en ambos idiomas: una partida de damas, una carta sobre los asientos de un concierto y unas judías trepadoras.
 Catàleg de lectures|Catálogo de lecturas
 Cerca al catàleg|Buscar en el catálogo
 Cerca per títol, codi o tema|Buscar por título, código o tema

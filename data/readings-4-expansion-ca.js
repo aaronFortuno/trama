@@ -196,5 +196,204 @@ export const readings4ExpansionCa = [
         "questionId": "un-barco-en-el-canalillo-q4"
       }
     ]
+  },
+  {
+    "id": "como-guardar-una-partida-ca",
+    "code": "L168",
+    "title": "Com guardar una partida",
+    "summary": "Unes instruccions permeten reprendre una partida de tauler quan arriba l’hora de recollir.",
+    "paragraphs": [
+      "Arriba l’hora de dinar i la partida de dames encara no s’ha acabat. Cal alliberar la taula, però no vols perdre les posicions. Pots guardar la partida en una llibreta. No n’hi ha prou d’apuntar quantes peces queden a cadascú.",
+      "Dibuixa un tauler de vuit caselles de costat. Marca’n una cantonada amb una estrella. Afegeix també l’estrella en un paper petit i posa’l al costat de la mateixa cantonada del tauler de veritat. Aquesta marca t’ajudarà a saber cap on has de girar el dibuix.",
+      "Copia cada peça a la casella que li correspon. Fes servir cercles buits per a un jugador i cercles plens per a l’altre. Si alguna peça ja és una dama, dibuixa-li una corona. Al final escriu a qui li tocava moure.",
+      "Comprova el dibuix amb l’altra persona abans de recollir. A la tarda, col·loqueu primer el tauler amb la marca al mateix lloc. Després repartiu les peces seguint el dibuix. Si us descuideu d’apuntar el torn, les peces estaran ben posades, però potser discutireu abans de començar!"
+    ],
+    "imageAlt": {
+      "como-guardar-una-partida-art1": "Un tauler de dames a mig jugar al costat d’una llibreta amb un dibuix del mateix tauler i una fletxa d’orientació."
+    },
+    "questions": [
+      {
+        "id": "como-guardar-una-partida-q1",
+        "type": "literal",
+        "prompt": "Quantes caselles ha de tenir cada costat del dibuix?",
+        "answer": "Vuit.",
+        "lines": 1
+      },
+      {
+        "id": "como-guardar-una-partida-q2",
+        "type": "literal",
+        "prompt": "Com s’indica que una peça ja és una dama?",
+        "answer": "Dibuixant-hi una corona.",
+        "lines": 1
+      },
+      {
+        "id": "como-guardar-una-partida-q3",
+        "type": "inference",
+        "prompt": "Per què cal una estrella al dibuix i una altra al costat del tauler?",
+        "answer": "Per poder orientar el dibuix i col·locar les peces al mateix lloc quan es reprengui la partida.",
+        "lines": 2
+      },
+      {
+        "id": "como-guardar-una-partida-q4",
+        "type": "vocabulary",
+        "prompt": "Què significa «alliberar la taula» en aquestes instruccions?",
+        "answer": "Treure’n el tauler i les peces per poder-la fer servir per a una altra cosa.",
+        "lines": 1
+      },
+      {
+        "id": "como-guardar-una-partida-q5",
+        "type": "inference",
+        "prompt": "Quina informació faltaria si només apuntessis el nombre de peces de cadascú?",
+        "answer": "On era cada peça, quines eren dames i a qui li tocava moure.",
+        "lines": 2
+      },
+      {
+        "id": "como-guardar-una-partida-q6",
+        "type": "opinion",
+        "prompt": "Qui creus que hauria de comprovar el dibuix abans de recollir? Per què?",
+        "answer": "Tots dos jugadors, perquè així poden detectar errors i recordar que hi estaven d’acord.",
+        "lines": 2
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 1,
+        "text": "alliberar la taula",
+        "questionId": "como-guardar-una-partida-q4"
+      }
+    ]
+  },
+  {
+    "id": "las-mochilas-de-la-ultima-fila-ca",
+    "code": "L169",
+    "title": "Les motxilles de l’última fila",
+    "summary": "Una carta explica per què una fila de cadires plena de motxilles no és una fila ocupada.",
+    "paragraphs": [
+      "Benvolguda comissió de la festa,",
+      "Soc la Nora i dissabte vaig venir al concert de la sala petita amb la meva tieta. Quan vam entrar, semblava que no quedés cap seient. A l’última fila hi havia cinc motxilles damunt de cinc cadires. Nosaltres ens vam quedar dretes al costat de la porta perquè no volíem prendre el lloc de ningú.",
+      "A la meitat del concert, una noia es va aixecar de la primera fila. Va venir a buscar una ampolla a la seva motxilla i ens va preguntar per què no sèiem. Ens va explicar que les motxilles eren del seu grup i que ningú no havia reservat aquelles cadires. Nosaltres havíem entès una cosa diferent.",
+      "Us proposo posar uns ganxos a la paret del fons i deixar-hi les bosses. Així es veurà de seguida quins seients estan lliures. També podríeu deixar una nota a l’entrada perquè tothom ho sàpiga. A la tieta li va agradar molt la música, però va acabar cansada. Si tornem al proper concert, voldria que pogués escoltar-lo asseguda des del principi.",
+      "Gràcies per llegir-me. Nora."
+    ],
+    "imageAlt": {
+      "las-mochilas-de-la-ultima-fila-art1": "Una petita sala amb cadires plegables orientades cap a l’escenari. Unes motxilles ocupen part de l’última fila."
+    },
+    "questions": [
+      {
+        "id": "las-mochilas-de-la-ultima-fila-q1",
+        "type": "literal",
+        "prompt": "Amb qui va anar al concert la Nora?",
+        "answer": "Amb la seva tieta.",
+        "lines": 1
+      },
+      {
+        "id": "las-mochilas-de-la-ultima-fila-q2",
+        "type": "literal",
+        "prompt": "Què va anar a buscar la noia a la motxilla?",
+        "answer": "Una ampolla.",
+        "lines": 1
+      },
+      {
+        "id": "las-mochilas-de-la-ultima-fila-q3",
+        "type": "inference",
+        "prompt": "Per què la Nora i la tieta no van seure a l’última fila?",
+        "answer": "Perquè van interpretar que les motxilles reservaven les cadires per a altres persones.",
+        "lines": 2
+      },
+      {
+        "id": "las-mochilas-de-la-ultima-fila-q4",
+        "type": "vocabulary",
+        "prompt": "Què vol dir «reservat» quan es parla d’un seient?",
+        "answer": "Guardat perquè l’ocupi una persona concreta.",
+        "lines": 1
+      },
+      {
+        "id": "las-mochilas-de-la-ultima-fila-q5",
+        "type": "inference",
+        "prompt": "Com ajudaria posar les motxilles als ganxos?",
+        "answer": "Deixaria les cadires buides i es veuria quins seients es poden ocupar.",
+        "lines": 2
+      },
+      {
+        "id": "las-mochilas-de-la-ultima-fila-q6",
+        "type": "opinion",
+        "prompt": "Creus que la Nora escriu només per explicar un problema? Què més hi fa?",
+        "answer": "No. També proposa una solució concreta: posar ganxos i una nota a l’entrada.",
+        "lines": 2
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "reservat",
+        "questionId": "las-mochilas-de-la-ultima-fila-q4"
+      }
+    ]
+  },
+  {
+    "id": "el-sobre-de-las-judias-ca",
+    "code": "L170",
+    "title": "El sobre de les mongetes",
+    "summary": "En Leo rep unes llavors amb una nota que el fa canviar de lloc el seu petit hort.",
+    "paragraphs": [
+      "L’àvia va enviar a en Leo un sobre amb sis mongetes seques. Al darrere hi havia escrit: «Per sembrar. Les meves s’enfilen». En Leo va pensar que l’àvia parlava de les mongetes, però li va costar imaginar com podien enfilar-se aquelles llavors tan llises.",
+      "Va omplir un test de terra i hi va posar dues mongetes. El va deixar damunt d’una prestatgeria del balcó, al costat dels cotxes de joguina. Durant uns quants dies només hi va veure terra humida. Després van sortir dues tiges amb fulles.",
+      "Quan les plantes es van fer més altes, una tija va començar a cargolar-se al voltant d’una roda d’un cotxe. En Leo va estirar el cotxe i la planta es va moure amb ell. Aleshores va tornar a llegir el sobre.",
+      "Va traslladar el test a terra i va posar-hi dues canyes que arribaven a la barana. Uns dies després, les tiges s’hi havien començat a enfilar. En Leo va fer una fotografia i la va enviar a l’àvia. Al peu hi va escriure: «Ja ho entenc: no eren les llavors, eren les plantes!»."
+    ],
+    "imageAlt": {
+      "el-sobre-de-las-judias-art1": "Un test amb una planta de mongetes, una canya de suport i un sobre obert amb mongetes seques en un balcó."
+    },
+    "questions": [
+      {
+        "id": "el-sobre-de-las-judias-q1",
+        "type": "literal",
+        "prompt": "Quantes mongetes hi havia al sobre? Quantes en va sembrar?",
+        "answer": "Al sobre n’hi havia sis i en va sembrar dues.",
+        "lines": 1
+      },
+      {
+        "id": "el-sobre-de-las-judias-q2",
+        "type": "literal",
+        "prompt": "On va deixar el test al principi?",
+        "answer": "En una prestatgeria del balcó, al costat dels cotxes de joguina.",
+        "lines": 1
+      },
+      {
+        "id": "el-sobre-de-las-judias-q3",
+        "type": "inference",
+        "prompt": "Què va fer que el cotxe es mogués juntament amb la planta?",
+        "answer": "La tija s’havia cargolat al voltant d’una roda i els havia unit.",
+        "lines": 2
+      },
+      {
+        "id": "el-sobre-de-las-judias-q4",
+        "type": "vocabulary",
+        "prompt": "Què vol dir «s’enfilen» quan es parla de les plantes?",
+        "answer": "Que van creixent cap amunt agafades a un suport.",
+        "lines": 1
+      },
+      {
+        "id": "el-sobre-de-las-judias-q5",
+        "type": "inference",
+        "prompt": "Per què en Leo hi posa canyes en lloc de deixar-hi els cotxes?",
+        "answer": "Perquè les plantes tinguin un suport per créixer que no sigui una joguina que ell vol moure.",
+        "lines": 2
+      },
+      {
+        "id": "el-sobre-de-las-judias-q6",
+        "type": "opinion",
+        "prompt": "Què afegiries a la nota de l’àvia perquè fos més clara per a en Leo?",
+        "answer": "Resposta oberta. Per exemple: «Quan creixin les plantes, posa-hi unes canyes perquè s’hi agafin».",
+        "lines": 2
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 1,
+        "text": "s’enfilen",
+        "questionId": "el-sobre-de-las-judias-q4"
+      }
+    ]
   }
 ];
