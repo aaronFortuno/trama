@@ -739,5 +739,276 @@ export const readings4ExpansionEs = [
         "questionId": "la-maleta-del-gigante-q4"
       }
     ]
+  },
+  {
+    "id": "el-tren-que-no-salia-del-mapa-es",
+    "code": "L174",
+    "workId": "el-tren-que-no-salia-del-mapa",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "geography",
+      "adventure",
+      "history"
+    ],
+    "genre": "narrative",
+    "title": "El tren que no salía del mapa",
+    "summary": "Un mapa antiguo hace pensar a Mei que se puede llegar al merendero en tren.",
+    "paragraphs": [
+      "Mei encontró un mapa dentro de una guía que su abuelo guardaba en un cajón. Una línea negra salía del pueblo y pasaba junto al merendero al que irían el domingo. «¡Podemos ir en tren!», dijo. Su abuelo dio la vuelta al mapa y le enseñó la fecha: hacía muchos años que aquella guía estaba en casa.",
+      "En la oficina de información les dieron un mapa nuevo. Mei buscó la misma línea. Seguía recorriendo el valle, pero ahora era discontinua y tenía un dibujo de una bicicleta al lado. En la leyenda ponía «camino del ferrocarril». La mujer del mostrador les explicó que habían retirado las vías y que se podía recorrer el trazado a pie o en bicicleta.",
+      "El domingo salieron andando desde la antigua estación. El primer kilómetro pasaba entre dos paredes de roca. Después, el camino cruzaba un puente que su abuelo reconoció en la guía. Mei se paró a escuchar. Se oían pájaros, pasos y una rueda que chirriaba.",
+      "En el merendero dibujó el puente en el margen del mapa nuevo. Debajo escribió: «El tren ya no pasa. El camino todavía nos lleva». Guardó los dos mapas doblados juntos, sin tirar el viejo."
+    ],
+    "images": [
+      {
+        "id": "el-tren-que-no-salia-del-mapa-art1",
+        "src": "assets/readings/l174-el-tren-que-no-salia-del-mapa.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un mapa antiguo con una línea de tren y un mapa actual con el mismo trazado convertido en camino, sobre un banco de madera."
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-tren-que-no-salia-del-mapa-q1",
+        "type": "literal",
+        "prompt": "¿Dónde había encontrado Mei el primer mapa?",
+        "answer": "Dentro de una guía que su abuelo guardaba en un cajón.",
+        "lines": 1
+      },
+      {
+        "id": "el-tren-que-no-salia-del-mapa-q2",
+        "type": "literal",
+        "prompt": "¿Qué había sustituido las vías del tren?",
+        "answer": "Un camino que se podía recorrer a pie o en bicicleta.",
+        "lines": 1
+      },
+      {
+        "id": "el-tren-que-no-salia-del-mapa-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué es la «leyenda» de un mapa en este texto?",
+        "answer": "La parte que explica qué significan los signos y las líneas del mapa.",
+        "lines": 2
+      },
+      {
+        "id": "el-tren-que-no-salia-del-mapa-q4",
+        "type": "inference",
+        "prompt": "¿Qué pista hace sospechar al abuelo que la información del mapa puede haber cambiado?",
+        "answer": "La fecha del mapa, porque la guía era antigua.",
+        "lines": 2
+      },
+      {
+        "id": "el-tren-que-no-salia-del-mapa-q5",
+        "type": "inference",
+        "prompt": "¿Qué dos cosas muestran que los dos mapas representan el mismo recorrido?",
+        "answer": "La línea recorre el mismo valle y el puente del camino nuevo aparece en la guía antigua.",
+        "lines": 2
+      },
+      {
+        "id": "el-tren-que-no-salia-del-mapa-q6",
+        "type": "inference",
+        "prompt": "¿Por qué puede ser útil que Mei conserve también el mapa viejo?",
+        "answer": "Para comparar cómo se utilizaba antes aquel camino y conocer su historia.",
+        "lines": 2
+      },
+      {
+        "id": "el-tren-que-no-salia-del-mapa-q7",
+        "type": "summary",
+        "prompt": "Explica en dos frases qué descubre Mei y cómo llegan el domingo.",
+        "answer": "Descubre que la línea del mapa era de un tren que ya no circula. El domingo siguen andando el antiguo trazado hasta el merendero.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 2,
+        "text": "leyenda",
+        "questionId": "el-tren-que-no-salia-del-mapa-q3"
+      }
+    ]
+  },
+  {
+    "id": "una-noche-sin-estrellas-es",
+    "code": "L175",
+    "workId": "una-noche-sin-estrellas",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "science",
+      "adventure"
+    ],
+    "genre": "diary",
+    "title": "Una noche sin estrellas",
+    "summary": "Una tarde nublada parece estropear la primera visita de Dani al observatorio.",
+    "paragraphs": [
+      "Sábado, 12 de octubre.",
+      "Había puesto un cuaderno y una linterna en la mochila para dibujar lo que viera por el telescopio. Cuando hemos llegado al observatorio, una franja gris tapaba toda la sierra. Le he preguntado a mi padre si las nubes se irían pronto. Ha mirado el cielo y me ha dicho que no lo sabía.",
+      "Joana, la guía, nos ha dejado subir hasta la cúpula. La abertura del techo estaba cerrada. Ha dicho que aquel telescopio no nos permitiría ver las estrellas a través de las nubes. Yo ya empezaba a guardar el cuaderno, pero ella nos ha hecho mirar el aparato por fuera. Nos ha enseñado cómo se orientaba y por qué la cúpula también tenía que girar.",
+      "Después hemos entrado en una sala con fotografías de la misma zona del cielo hechas en noches distintas. En la primera no había visto nada especial. Joana nos ha dado una lupa. Había una manchita que cambiaba de sitio de una fotografía a otra. Los demás puntos seguían igual.",
+      "Al final he dibujado las tres fotografías en el cuaderno, con una flecha entre las manchas. No he dibujado ninguna estrella vista por el telescopio. A la vuelta he dejado la linterna en la mochila: nos han dicho que podremos volver otra noche."
+    ],
+    "images": [
+      {
+        "id": "una-noche-sin-estrellas-art1",
+        "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "La cúpula de un pequeño observatorio al anochecer bajo un cielo nublado. Una linterna ilumina un cuaderno sobre un banco."
+      }
+    ],
+    "questions": [
+      {
+        "id": "una-noche-sin-estrellas-q1",
+        "type": "literal",
+        "prompt": "¿Qué dos cosas había preparado Dani para la visita?",
+        "answer": "Un cuaderno y una linterna.",
+        "lines": 1
+      },
+      {
+        "id": "una-noche-sin-estrellas-q2",
+        "type": "literal",
+        "prompt": "¿Qué les da la guía para mirar mejor las fotografías?",
+        "answer": "Una lupa.",
+        "lines": 1
+      },
+      {
+        "id": "una-noche-sin-estrellas-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué es la «cúpula» del observatorio?",
+        "answer": "La cubierta redondeada que protege el telescopio.",
+        "lines": 1
+      },
+      {
+        "id": "una-noche-sin-estrellas-q4",
+        "type": "inference",
+        "prompt": "¿Por qué empieza Dani a guardar el cuaderno cuando la guía habla de las nubes?",
+        "answer": "Porque piensa que no podrá ver ni dibujar nada de lo que había previsto.",
+        "lines": 2
+      },
+      {
+        "id": "una-noche-sin-estrellas-q5",
+        "type": "inference",
+        "prompt": "¿Qué diferencia les ayuda a descubrir algo en las fotografías?",
+        "answer": "Una mancha cambia de sitio mientras los demás puntos se mantienen igual.",
+        "lines": 2
+      },
+      {
+        "id": "una-noche-sin-estrellas-q6",
+        "type": "structure",
+        "prompt": "¿Qué detalle del final indica que Dani mantiene las ganas de volver?",
+        "answer": "Deja la linterna en la mochila para la próxima visita.",
+        "lines": 2
+      },
+      {
+        "id": "una-noche-sin-estrellas-q7",
+        "type": "opinion",
+        "prompt": "¿Dirías que la visita ha sido inútil? Da dos detalles del diario para justificarlo.",
+        "answer": "Respuesta abierta. Por ejemplo, no: ha aprendido cómo se orienta el telescopio y ha comparado fotografías para encontrar una mancha que se mueve.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "cúpula",
+        "questionId": "una-noche-sin-estrellas-q3",
+        "occurrence": 1
+      }
+    ]
+  },
+  {
+    "id": "el-microfono-bajo-el-abrigo-es",
+    "code": "L176",
+    "workId": "el-microfono-bajo-el-abrigo",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "technology",
+      "community"
+    ],
+    "genre": "interview",
+    "title": "El micrófono bajo el abrigo",
+    "summary": "Una reportera explica por qué grabar lo que ocurre en la calle también significa escuchar antes de hablar.",
+    "paragraphs": [
+      "Elia hace reportajes para la radio del barrio. Hoy prepara una entrevista en el mercado y nos deja acompañarla.",
+      "—¿Por qué lleva una funda el micrófono?\n—Porque estamos en la calle y hace viento. La funda ayuda a reducir el ruido del aire. Pero no puede borrar todos los sonidos. Si me pongo junto al camión que descarga cajas, costará oír a la persona entrevistada.",
+      "—Entonces, ¿por qué no hacéis la entrevista en un despacho?\n—Porque queremos que los oyentes también reconozcan el mercado. Buscamos un rincón donde se oigan las voces y la actividad, pero donde podamos hablar sin gritar. Antes de empezar, grabamos unos segundos y los escuchamos con auriculares.",
+      "—Una vez la voz se oyó muy baja. ¿Qué había pasado?\n—La persona había guardado el micrófono pequeño bajo el abrigo. La ropa lo rozaba y tapaba parte de la voz. Lo notamos en la prueba y lo cambiamos de sitio. Si no hubiéramos escuchado aquel trozo, habríamos terminado la entrevista sin saberlo.",
+      "—¿Qué haces cuando alguien se equivoca en una respuesta?\n—Le pregunto si la quiere repetir. Después lo escuchamos juntos. El reportaje tiene que ser claro, pero también tiene que decir lo que esa persona quería explicar."
+    ],
+    "images": [
+      {
+        "id": "el-microfono-bajo-el-abrigo-art1",
+        "src": "assets/readings/l176-el-microfono-bajo-el-abrigo.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un micrófono con una cubierta de espuma sobre un banco de un puesto de radio móvil, junto a unos auriculares y una grabadora."
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-microfono-bajo-el-abrigo-q1",
+        "type": "literal",
+        "prompt": "¿Dónde hará Elia la entrevista?",
+        "answer": "En el mercado del barrio.",
+        "lines": 1
+      },
+      {
+        "id": "el-microfono-bajo-el-abrigo-q2",
+        "type": "literal",
+        "prompt": "¿Qué rozaba el micrófono en la prueba que salió mal?",
+        "answer": "La ropa del abrigo de la persona entrevistada.",
+        "lines": 1
+      },
+      {
+        "id": "el-microfono-bajo-el-abrigo-q3",
+        "type": "vocabulary",
+        "prompt": "¿Quiénes son los «oyentes» de esta radio?",
+        "answer": "Las personas que escuchan los reportajes por la radio.",
+        "lines": 1
+      },
+      {
+        "id": "el-microfono-bajo-el-abrigo-q4",
+        "type": "inference",
+        "prompt": "¿Por qué una funda no resuelve el problema de grabar junto al camión?",
+        "answer": "Porque ayuda con el ruido del viento, pero el camión hace otro ruido que puede tapar la voz.",
+        "lines": 2
+      },
+      {
+        "id": "el-microfono-bajo-el-abrigo-q5",
+        "type": "inference",
+        "prompt": "¿Por qué no quieren eliminar todos los sonidos del mercado?",
+        "answer": "Porque los sonidos ayudan a los oyentes a reconocer dónde se hace la entrevista e imaginar el ambiente.",
+        "lines": 2
+      },
+      {
+        "id": "el-microfono-bajo-el-abrigo-q6",
+        "type": "structure",
+        "prompt": "¿Para qué sirve el ejemplo del micrófono bajo el abrigo dentro de la entrevista?",
+        "answer": "Muestra un problema concreto que detectaron gracias a escuchar una prueba antes de empezar.",
+        "lines": 2
+      },
+      {
+        "id": "el-microfono-bajo-el-abrigo-q7",
+        "type": "opinion",
+        "prompt": "¿Qué le dirías a alguien que quiere empezar a grabar enseguida, sin hacer la prueba? Usa un ejemplo del texto.",
+        "answer": "Respuesta abierta. Por ejemplo, que merece la pena probarlo porque la voz podría quedar tapada por la ropa, como pasó con el abrigo.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "oyentes",
+        "questionId": "el-microfono-bajo-el-abrigo-q3"
+      }
+    ]
   }
 ];

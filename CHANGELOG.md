@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.35.4 · 17 de novembre de 2026
+
+S’afegeixen tres lectures de 4t intermedi (L174–L176), amb un antic ferrocarril, un diari d’observació i una entrevista radiofònica. Totes tenen versió catalana i castellana, il·lustració i solucionari.
+
 ## 1.35.3 · 17 de novembre de 2026
 
 Les lectures L171–L173 completen les quinze de 4t inicial en català i castellà, amb una entrevista, una lectura sobre preus i un conte fantàstic.

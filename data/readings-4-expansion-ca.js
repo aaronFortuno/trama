@@ -594,5 +594,227 @@ export const readings4ExpansionCa = [
         "questionId": "la-maleta-del-gigante-q4"
       }
     ]
+  },
+  {
+    "id": "el-tren-que-no-salia-del-mapa-ca",
+    "code": "L174",
+    "title": "El tren que no sortia del mapa",
+    "summary": "Un mapa antic fa pensar a la Mei que es pot arribar al berenador amb tren.",
+    "paragraphs": [
+      "La Mei va trobar un mapa dins d’una guia que l’avi guardava al calaix. Una línia negra sortia del poble i passava al costat del berenador on anirien diumenge. «Podem anar-hi amb tren!», va dir. L’avi va girar el mapa i li va ensenyar la data: feia molts anys que aquella guia era a casa.",
+      "A l’oficina d’informació els van donar un mapa nou. La Mei va buscar-hi la mateixa línia. Encara seguia la vall, però ara era discontínua i tenia un dibuix d’una bicicleta al costat. A la llegenda hi deia «camí del ferrocarril». La dona del taulell els va explicar que havien retirat les vies i que es podia recórrer el traçat a peu o amb bicicleta.",
+      "Diumenge van sortir caminant des de l’estació antiga. El primer quilòmetre passava entre dues parets de roca. Després, el camí travessava un pont que l’avi va reconèixer de la guia. La Mei es va aturar a escoltar. Se sentien ocells, passes i una roda que grinyolava.",
+      "Al berenador va dibuixar el pont al marge del mapa nou. A sota va escriure: «El tren ja no hi passa. El camí encara ens hi porta». Va guardar els dos mapes plegats junts, sense llençar el vell."
+    ],
+    "imageAlt": {
+      "el-tren-que-no-salia-del-mapa-art1": "Un mapa antic amb una línia de tren i un mapa actual amb el mateix traçat convertit en camí, sobre un banc de fusta."
+    },
+    "questions": [
+      {
+        "id": "el-tren-que-no-salia-del-mapa-q1",
+        "type": "literal",
+        "prompt": "On havia trobat la Mei el primer mapa?",
+        "answer": "Dins d’una guia que l’avi guardava en un calaix.",
+        "lines": 1
+      },
+      {
+        "id": "el-tren-que-no-salia-del-mapa-q2",
+        "type": "literal",
+        "prompt": "Què havia substituït les vies del tren?",
+        "answer": "Un camí que es podia recórrer a peu o amb bicicleta.",
+        "lines": 1
+      },
+      {
+        "id": "el-tren-que-no-salia-del-mapa-q3",
+        "type": "vocabulary",
+        "prompt": "Què és la «llegenda» d’un mapa en aquest text?",
+        "answer": "La part que explica què volen dir els signes i les línies del mapa.",
+        "lines": 2
+      },
+      {
+        "id": "el-tren-que-no-salia-del-mapa-q4",
+        "type": "inference",
+        "prompt": "Quina pista fa sospitar a l’avi que la informació del mapa pot haver canviat?",
+        "answer": "La data del mapa, perquè la guia era antiga.",
+        "lines": 2
+      },
+      {
+        "id": "el-tren-que-no-salia-del-mapa-q5",
+        "type": "inference",
+        "prompt": "Quines dues coses mostren que els dos mapes representen el mateix recorregut?",
+        "answer": "La línia segueix la mateixa vall i el pont del camí nou apareix a la guia antiga.",
+        "lines": 2
+      },
+      {
+        "id": "el-tren-que-no-salia-del-mapa-q6",
+        "type": "inference",
+        "prompt": "Per què pot ser útil que la Mei conservi també el mapa vell?",
+        "answer": "Per comparar com s’utilitzava abans aquell camí i entendre’n la història.",
+        "lines": 2
+      },
+      {
+        "id": "el-tren-que-no-salia-del-mapa-q7",
+        "type": "summary",
+        "prompt": "Explica en dues frases què descobreix la Mei i com hi arriben diumenge.",
+        "answer": "Descobreix que la línia del mapa era d’un tren que ja no circula. Diumenge segueixen caminant l’antic traçat fins al berenador.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 2,
+        "text": "llegenda",
+        "questionId": "el-tren-que-no-salia-del-mapa-q3"
+      }
+    ]
+  },
+  {
+    "id": "una-noche-sin-estrellas-ca",
+    "code": "L175",
+    "title": "Una nit sense estrelles",
+    "summary": "Un vespre ennuvolat sembla espatllar la primera visita d’en Dani a l’observatori.",
+    "paragraphs": [
+      "Dissabte, 12 d’octubre.",
+      "Havia posat una llibreta i una llanterna a la motxilla per dibuixar el que veiés al telescopi. Quan hem arribat a l’observatori, una franja grisa tapava tota la serra. He preguntat al pare si els núvols marxarien aviat. Ell ha mirat el cel i m’ha dit que no ho sabia.",
+      "La Joana, la guia, ens ha deixat pujar fins a la cúpula. L’escletxa del sostre era tancada. Ha dit que aquell telescopi no ens permetria veure les estrelles a través dels núvols. Jo ja començava a guardar la llibreta, però ella ens ha fet mirar l’aparell per fora. Ens ha ensenyat com s’orientava i per què la cúpula també havia de girar.",
+      "Després hem entrat en una sala on hi havia fotografies del mateix tros de cel fetes en nits diferents. A la primera no havia vist res d’especial. La Joana ens ha donat una lupa. Hi havia una taca petita que canviava de lloc d’una fotografia a l’altra. La resta dels punts es mantenien igual.",
+      "Al final he dibuixat les tres fotografies a la llibreta, amb una fletxa entre les taques. No he dibuixat cap estrella vista al telescopi. A la tornada he deixat la llanterna a la motxilla: ens han dit que podrem tornar una altra nit."
+    ],
+    "imageAlt": {
+      "una-noche-sin-estrellas-art1": "La cúpula d’un petit observatori al capvespre sota un cel de núvols. Una llanterna il·lumina un quadern damunt d’un banc."
+    },
+    "questions": [
+      {
+        "id": "una-noche-sin-estrellas-q1",
+        "type": "literal",
+        "prompt": "Quines dues coses havia preparat en Dani per a la visita?",
+        "answer": "Una llibreta i una llanterna.",
+        "lines": 1
+      },
+      {
+        "id": "una-noche-sin-estrellas-q2",
+        "type": "literal",
+        "prompt": "Què els dona la guia per mirar millor les fotografies?",
+        "answer": "Una lupa.",
+        "lines": 1
+      },
+      {
+        "id": "una-noche-sin-estrellas-q3",
+        "type": "vocabulary",
+        "prompt": "Què és la «cúpula» de l’observatori?",
+        "answer": "La coberta arrodonida que protegeix el telescopi.",
+        "lines": 1
+      },
+      {
+        "id": "una-noche-sin-estrellas-q4",
+        "type": "inference",
+        "prompt": "Per què en Dani comença a guardar la llibreta quan la guia parla dels núvols?",
+        "answer": "Perquè pensa que no podrà veure ni dibuixar res del que havia previst.",
+        "lines": 2
+      },
+      {
+        "id": "una-noche-sin-estrellas-q5",
+        "type": "inference",
+        "prompt": "Quina diferència els ajuda a descobrir alguna cosa a les fotografies?",
+        "answer": "Una taca canvia de lloc mentre els altres punts es mantenen igual.",
+        "lines": 2
+      },
+      {
+        "id": "una-noche-sin-estrellas-q6",
+        "type": "structure",
+        "prompt": "Quin detall del final indica que en Dani conserva les ganes de tornar-hi?",
+        "answer": "Deixa la llanterna a la motxilla per a la propera visita.",
+        "lines": 2
+      },
+      {
+        "id": "una-noche-sin-estrellas-q7",
+        "type": "opinion",
+        "prompt": "Diries que la visita ha estat inútil? Dona dos detalls del diari per justificar-ho.",
+        "answer": "Resposta oberta. Per exemple, no: ha après com s’orienta el telescopi i ha comparat fotografies per trobar una taca que es mou.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "cúpula",
+        "questionId": "una-noche-sin-estrellas-q3",
+        "occurrence": 1
+      }
+    ]
+  },
+  {
+    "id": "el-microfono-bajo-el-abrigo-ca",
+    "code": "L176",
+    "title": "El micròfon sota l’abric",
+    "summary": "Una reportera explica per què enregistrar el que passa al carrer també vol dir escoltar abans de parlar.",
+    "paragraphs": [
+      "L’Èlia fa reportatges per a la ràdio del barri. Avui prepara una entrevista al mercat i ens deixa acompanyar-la.",
+      "—Per què porta una funda el micròfon?\n—Perquè som al carrer i fa vent. La funda ajuda a reduir el soroll de l’aire. Però no pot esborrar tots els sons. Si em poso al costat del camió que descarrega caixes, costarà sentir la persona entrevistada.",
+      "—Llavors per què no feu l’entrevista en un despatx?\n—Perquè volem que els oients també reconeguin el mercat. Busquem un racó on se sentin les veus i l’activitat, però on puguem parlar sense cridar. Abans de començar, enregistrem uns segons i els escoltem amb auriculars.",
+      "—Una vegada la veu es va sentir molt fluixa. Què havia passat?\n—La persona havia guardat el micròfon petit sota l’abric. La roba el fregava i tapava part de la veu. Ens en vam adonar a la prova i vam canviar-lo de lloc. Si no haguéssim escoltat aquell tros, hauríem acabat l’entrevista sense saber-ho.",
+      "—Què fas quan algú s’equivoca en una resposta?\n—Li pregunto si la vol repetir. Després ho escoltem plegats. El reportatge ha de ser clar, però també ha de dir el que aquella persona volia explicar."
+    ],
+    "imageAlt": {
+      "el-microfono-bajo-el-abrigo-art1": "Un micròfon amb una coberta d’escuma sobre un banc d’una parada de ràdio mòbil, al costat d’uns auriculars i una gravadora."
+    },
+    "questions": [
+      {
+        "id": "el-microfono-bajo-el-abrigo-q1",
+        "type": "literal",
+        "prompt": "On farà l’entrevista l’Èlia?",
+        "answer": "Al mercat del barri.",
+        "lines": 1
+      },
+      {
+        "id": "el-microfono-bajo-el-abrigo-q2",
+        "type": "literal",
+        "prompt": "Què fregava el micròfon en la prova que va sortir malament?",
+        "answer": "La roba de l’abric de la persona entrevistada.",
+        "lines": 1
+      },
+      {
+        "id": "el-microfono-bajo-el-abrigo-q3",
+        "type": "vocabulary",
+        "prompt": "Qui són els «oients» d’aquesta ràdio?",
+        "answer": "Les persones que escolten els reportatges per la ràdio.",
+        "lines": 1
+      },
+      {
+        "id": "el-microfono-bajo-el-abrigo-q4",
+        "type": "inference",
+        "prompt": "Per què una funda no resol el problema d’enregistrar al costat del camió?",
+        "answer": "Perquè ajuda amb el soroll del vent, però el camió fa un altre soroll que pot tapar la veu.",
+        "lines": 2
+      },
+      {
+        "id": "el-microfono-bajo-el-abrigo-q5",
+        "type": "inference",
+        "prompt": "Per què no volen eliminar tots els sons del mercat?",
+        "answer": "Perquè els sons ajuden els oients a reconèixer on es fa l’entrevista i imaginar-ne l’ambient.",
+        "lines": 2
+      },
+      {
+        "id": "el-microfono-bajo-el-abrigo-q6",
+        "type": "structure",
+        "prompt": "Per a què serveix l’exemple del micròfon sota l’abric dins de l’entrevista?",
+        "answer": "Mostra un problema concret que van detectar gràcies a escoltar una prova abans de començar.",
+        "lines": 2
+      },
+      {
+        "id": "el-microfono-bajo-el-abrigo-q7",
+        "type": "opinion",
+        "prompt": "Què li diries a algú que vol començar a gravar de seguida, sense fer la prova? Fes servir un exemple del text.",
+        "answer": "Resposta oberta. Per exemple, que val la pena provar-ho perquè la veu podria quedar tapada per la roba, com va passar amb l’abric.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "oients",
+        "questionId": "el-microfono-bajo-el-abrigo-q3"
+      }
+    ]
   }
 ];
