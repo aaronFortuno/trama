@@ -4,6 +4,8 @@
 
 S’incorporen les lectures L114–L116 de 5è de primària, de dificultat inicial, en català i castellà.
 
+S’afegeixen tres lectures més de 5è inicial (L117–L119), amb il·lustració i solucionari.
+
 ## 1.26.4 · 17 de novembre de 2026
 
 L’encapçalament pot mostrar un codi d’aula personalitzat. Es desa per lectura al navegador i surt tant a la fitxa d’alumnat com al solucionari, també en imprimir o descarregar un lot.
