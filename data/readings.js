@@ -5,6 +5,7 @@ import { readings5EsFourthSeries } from './readings-5-es-4.js';
 import { readings4Es } from './readings-4-es.js';
 import { readings3Es } from './readings-3-es.js';
 import { readings3InitialEs } from './readings-3-initial-es.js';
+import { readings3IntermediateEs } from './readings-3-intermediate-es.js';
 import { readings5EsFifthSeries } from './readings-5-es-5.js';
 import { readings5InitialEs } from './readings-5-initial-es.js';
 import { readings6Es } from './readings-6-es.js';
@@ -16,6 +17,7 @@ import { annotationsEs } from './annotations-es.js';
 import { readings4Ca } from './readings-4-ca.js';
 import { readings3Ca } from './readings-3-ca.js';
 import { readings3InitialCa } from './readings-3-initial-ca.js';
+import { readings3IntermediateCa } from './readings-3-intermediate-ca.js';
 import { readings5Ca } from './readings-5-ca.js';
 import { readings5InitialCa } from './readings-5-initial-ca.js';
 import { readings6Ca } from './readings-6-ca.js';
@@ -206,6 +208,7 @@ const originalReadings = [
   ...readings4Es,
   ...readings3Es,
   ...readings3InitialEs,
+  ...readings3IntermediateEs,
   ...readings5EsFifthSeries,
   ...readings5InitialEs,
   ...readings6Es,
@@ -223,7 +226,7 @@ const originalsByCode = new Map(originalReadings.map(reading => [reading.code, r
 
 export const readings = [
   ...originalReadings,
-  ...[...readings3Ca, ...readings3InitialCa, ...readings4Ca, ...readings5Ca, ...readings5InitialCa, ...readings6Ca, ...readings1SecondaryCa].map(({ code, imageAlt, annotations = [], ...text }) => {
+  ...[...readings3Ca, ...readings3InitialCa, ...readings3IntermediateCa, ...readings4Ca, ...readings5Ca, ...readings5InitialCa, ...readings6Ca, ...readings1SecondaryCa].map(({ code, imageAlt, annotations = [], ...text }) => {
     const original = originalsByCode.get(code);
     return {
       ...original,
