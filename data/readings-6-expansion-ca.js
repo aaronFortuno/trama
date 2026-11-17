@@ -978,5 +978,560 @@ export const readings6ExpansionCa = [
         "questionId": "la-tienda-que-cambiaba-de-forma-q3"
       }
     ]
+  },
+  {
+    "id": "el-mapa-de-las-islas-de-luz-ca",
+    "code": "L202",
+    "title": "El mapa de les illes de llum",
+    "summary": "Un grup compara l’enllumenat del barri i aprèn que un mapa nocturn necessita més que punts brillants.",
+    "paragraphs": [
+      "Quan la classe va dibuixar el primer mapa nocturn del barri, semblava un arxipèlag. Cada punt groc representava un lloc on havien vist un fanal. Els carrers més il·luminats formaven illes, separades per jardins i patis foscos. La Jana va proposar comptar tots els punts i concloure que el carrer amb més fanals era el que produïa més contaminació lumínica. El professor va demanar que reservessin la conclusió per al final.",
+      "El grup va comparar dos models d’enllumenat. Un tenia una pantalla opaca a sobre i enviava la llum cap al terra. L’altre també deixava escapar llum cap amunt i als costats. Una part de la llum artificial que arriba al cel es dispersa a l’atmosfera i contribueix a aclarir-lo. Per això no n’hi havia prou de saber quants fanals hi havia: també importava cap on il·luminaven.",
+      "Van preparar una fitxa per a cada observació. Hi anotaven el lloc, l’hora, si el fanal estava encès i si tenia pantalla. No volien calcular amb els ulls quanta energia consumia ni donar una mesura exacta de la brillantor del cel. Aquella sortida servia per descriure l’enllumenat que podien veure i decidir quines dades els faltaven.",
+      "Una plaça els va crear un problema. El primer equip l’havia visitada a dos quarts de nou, mentre els focus de la pista estaven encesos. El segon hi havia passat a les deu, després que els apaguessin. A més, una nit havia estat serena i l’altra, ennuvolada. Si ajuntaven totes les notes sense explicar aquestes diferències, semblaria que havien observat la mateixa situació.",
+      "Al mapa final, els punts grocs van continuar apareixent, però ja no tots volien dir el mateix. Un petit signe distingia els fanals amb pantalla; una nota indicava l’hora de la visita. La plaça tenia dues observacions separades. A sota hi van escriure: «Aquest mapa mostra com hem trobat els llums, no una classificació definitiva dels carrers».",
+      "La Jana no va esborrar la seva primera proposta del quadern. Hi va afegir una pregunta: «Què hem de comparar perquè la comparació sigui justa?». El mapa havia guanyat signes i també havia perdut una certesa."
+    ],
+    "imageAlt": {
+      "el-mapa-de-las-islas-de-luz-art1": "Un fanal amb pantalla dirigeix la llum cap al terra, al costat d’un enllumenat sense protecció que també il·lumina cap amunt.",
+      "el-mapa-de-las-islas-de-luz-art2": "Un mapa de punts d’observació, un rellotge i un quadern amb dibuixos de núvols sobre una taula de treball."
+    },
+    "questions": [
+      {
+        "id": "el-mapa-de-las-islas-de-luz-q1",
+        "type": "literal",
+        "prompt": "Què representaven els punts grocs del primer mapa?",
+        "answer": "Llocs on havien vist un fanal.",
+        "lines": 1
+      },
+      {
+        "id": "el-mapa-de-las-islas-de-luz-q2",
+        "type": "literal",
+        "prompt": "Quines quatre dades anotaven a cada fitxa?",
+        "answer": "El lloc, l’hora, si el fanal estava encès i si tenia pantalla.",
+        "lines": 2
+      },
+      {
+        "id": "el-mapa-de-las-islas-de-luz-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa «reservessin la conclusió» en aquest context?",
+        "answer": "Que esperessin a tenir més informació abans de donar-la per bona.",
+        "lines": 1
+      },
+      {
+        "id": "el-mapa-de-las-islas-de-luz-q4",
+        "type": "inference",
+        "prompt": "Per què dos carrers amb el mateix nombre de fanals podrien il·luminar el cel de manera diferent?",
+        "answer": "Perquè els fanals poden dirigir la llum de manera diferent: alguns tenen pantalla i altres deixen escapar llum cap amunt.",
+        "lines": 2
+      },
+      {
+        "id": "el-mapa-de-las-islas-de-luz-q5",
+        "type": "inference",
+        "prompt": "Per què no agrupen les dues visites a la plaça com una única observació?",
+        "answer": "Perquè es van fer amb els focus i el cel en condicions diferents i a hores diferents.",
+        "lines": 2
+      },
+      {
+        "id": "el-mapa-de-las-islas-de-luz-q6",
+        "type": "inference",
+        "prompt": "Poden deduir el consum elèctric d’un fanal només a partir de les fitxes? Justifica-ho.",
+        "answer": "No. Les fitxes descriuen l’enllumenat visible, però no inclouen una mesura del consum; el text ho distingeix expressament.",
+        "lines": 2
+      },
+      {
+        "id": "el-mapa-de-las-islas-de-luz-q7",
+        "type": "structure",
+        "prompt": "Quina funció té l’advertiment escrit sota el mapa?",
+        "answer": "Delimitar què informa el mapa i evitar que es llegeixi com una classificació definitiva.",
+        "lines": 2
+      },
+      {
+        "id": "el-mapa-de-las-islas-de-luz-q8",
+        "type": "summary",
+        "prompt": "Explica què canvia entre la primera proposta de la Jana i la pregunta final.",
+        "answer": "Passa de voler classificar els carrers comptant fanals a preguntar-se quines dades i condicions cal comparar per arribar a una conclusió justificada.",
+        "lines": 3
+      },
+      {
+        "id": "el-mapa-de-las-islas-de-luz-q9",
+        "type": "opinion",
+        "prompt": "Si repetissis les visites a la plaça, quina condició intentaries mantenir igual? Explica què ajudaria a comparar.",
+        "answer": "Resposta oberta. Pot triar l’hora, l’estat dels focus o les condicions del cel i explicar que així reduiria diferències alienes al que vol estudiar.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 1,
+        "text": "reservessin la conclusió",
+        "questionId": "el-mapa-de-las-islas-de-luz-q3"
+      },
+      {
+        "paragraph": 1,
+        "text": "arxipèlag",
+        "definition": "Conjunt d’illes properes entre si."
+      }
+    ]
+  },
+  {
+    "id": "la-cancion-que-perdio-una-estrofa-ca",
+    "code": "L203",
+    "title": "La cançó que va perdre una estrofa",
+    "summary": "Dues versions d’una cançó fan dubtar un grup sobre què vol dir conservar una tradició.",
+    "paragraphs": [
+      "L’Aina va trobar la lletra dins d’un quadern de tapes verdes. Era una cançó que l’àvia cantava quan plegava els llençols, però al quadern hi havia una estrofa que ella no havia sentit mai. Parlava d’una barca que tornava buida al port. La resta de la lletra li era familiar, encara que algunes paraules fossin diferents. Va posar un paper al mig del quadern per no perdre la pàgina.",
+      "Al centre del barri preparaven una petita mostra de cançons recordades pels veïns. L’Aina hi va portar el quadern i una gravadora. L’àvia va cantar tres estrofes; quan li van ensenyar la de la barca, va arronsar les espatlles. «A casa meva no la cantàvem. Potser no me la van ensenyar». No va dir que fos falsa ni que el quadern estigués equivocat.",
+      "L’endemà, en Ferran, un veí que havia viscut en un poble de la costa, va reconèixer l’estrofa. Ell la situava al principi, abans de la tornada. També canviava el nom de la protagonista. La professora de música va preguntar si algú sabia quan s’havia escrit el quadern o qui n’havia copiat la lletra. Ningú no ho sabia. A la primera pàgina només hi havia un nom, sense data.",
+      "Durant l’assaig, l’Aina va proposar ajuntar totes les estrofes i dir que havien recuperat la cançó completa. En Ferran va respondre que potser així farien una versió que ningú no havia cantat mai exactament d’aquella manera. L’àvia hi estava d’acord: preferia que se sentissin les diferències abans que amagar-les sota una única lletra.",
+      "Al final van preparar dues interpretacions breus. Abans de cadascuna explicarien qui els havia transmès aquella versió. El quadern quedaria exposat amb una nota: «Còpia sense data coneguda». No sabien si era més antic que els records dels veïns, i no volien que el públic ho donés per fet només perquè el paper era groguenc.",
+      "La nit de la mostra, l’Aina va tornar a escoltar l’estrofa de la barca. Ja no li semblava una peça que faltava a la cançó de l’àvia. Era una peça que obria una altra història de la mateixa cançó."
+    ],
+    "imageAlt": {
+      "la-cancion-que-perdio-una-estrofa-art1": "Un quadern obert i una gravadora al costat d’una persona gran que recorda una cançó.",
+      "la-cancion-que-perdio-una-estrofa-art2": "Tres persones assagen una cançó amb els fulls de les lletres en una sala senzilla."
+    },
+    "questions": [
+      {
+        "id": "la-cancion-que-perdio-una-estrofa-q1",
+        "type": "literal",
+        "prompt": "De què parla l’estrofa que l’Aina no coneixia?",
+        "answer": "D’una barca que torna buida al port.",
+        "lines": 1
+      },
+      {
+        "id": "la-cancion-que-perdio-una-estrofa-q2",
+        "type": "literal",
+        "prompt": "Quines dues diferències aporta la versió d’en Ferran?",
+        "answer": "Posa l’estrofa de la barca al principi, abans de la tornada, i canvia el nom de la protagonista.",
+        "lines": 2
+      },
+      {
+        "id": "la-cancion-que-perdio-una-estrofa-q3",
+        "type": "vocabulary",
+        "prompt": "Què vol dir que el públic «ho donés per fet»?",
+        "answer": "Que ho considerés cert sense comprovar-ho.",
+        "lines": 1
+      },
+      {
+        "id": "la-cancion-que-perdio-una-estrofa-q4",
+        "type": "inference",
+        "prompt": "Per què la resposta de l’àvia no permet dir que l’estrofa sigui inventada?",
+        "answer": "Perquè només diu que a casa seva no la cantaven; desconèixer-la no demostra que no existís en altres versions.",
+        "lines": 2
+      },
+      {
+        "id": "la-cancion-que-perdio-una-estrofa-q5",
+        "type": "inference",
+        "prompt": "Quin problema tindria presentar la suma de totes les estrofes com «la cançó completa»?",
+        "answer": "Faria passar una combinació nova per una versió única recuperada, sense saber si mai s’havia cantat així.",
+        "lines": 2
+      },
+      {
+        "id": "la-cancion-que-perdio-una-estrofa-q6",
+        "type": "inference",
+        "prompt": "Per què el color del paper no resol quina versió és més antiga?",
+        "answer": "Perquè no dona una data de còpia ni permet comparar-la amb l’origen dels records dels veïns.",
+        "lines": 2
+      },
+      {
+        "id": "la-cancion-que-perdio-una-estrofa-q7",
+        "type": "structure",
+        "prompt": "Què aporta anunciar qui ha transmès cada versió abans de cantar-la?",
+        "answer": "Permet conèixer-ne la procedència i entendre que les interpretacions corresponen a records diferents.",
+        "lines": 2
+      },
+      {
+        "id": "la-cancion-que-perdio-una-estrofa-q8",
+        "type": "summary",
+        "prompt": "Explica el canvi de l’Aina entre voler recuperar «la cançó completa» i el final.",
+        "answer": "Al principi vol unir les peces en una sola lletra. Al final entén que la nova estrofa pot pertànyer a una altra trajectòria de la cançó i que val la pena conservar les diferències.",
+        "lines": 3
+      },
+      {
+        "id": "la-cancion-que-perdio-una-estrofa-q9",
+        "type": "opinion",
+        "prompt": "Quina pregunta faries als veïns per saber més sobre la procedència de les cançons? Explica què n’esperaries descobrir.",
+        "answer": "Resposta oberta. Per exemple, de qui la van aprendre i en quin lloc, per relacionar les versions amb persones i contextos.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 5,
+        "text": "ho donés per fet",
+        "questionId": "la-cancion-que-perdio-una-estrofa-q3"
+      },
+      {
+        "paragraph": 3,
+        "text": "tornada",
+        "definition": "Part d’una cançó que es repeteix entre estrofes."
+      }
+    ]
+  },
+  {
+    "id": "una-entrada-con-dos-horarios-ca",
+    "code": "L204",
+    "title": "Una entrada amb dos horaris",
+    "summary": "Un museu ofereix una franja de visita més tranquil·la i explica què canvia i què es manté.",
+    "paragraphs": [
+      "Al Museu dels Oficis, els dissabtes hi ha dos moments d’obertura: de deu a onze i de les onze fins a les sis de la tarda. L’entrada és la mateixa, però la primera hora té unes condicions diferents. El museu l’anomena «visita tranquil·la». Quan ho va llegir, en Bilal va pensar que seria una visita sense ningú més. La seva germana va proposar mirar les condicions abans de comprar les entrades.",
+      "Durant aquella primera hora, es limita el nombre de visitants, s’abaixa el volum dels enregistraments i s’apaga una projecció que acostuma a canviar de llum. Les obres no es retiren ni s’hi afegeix una explicació més fàcil. Es pot seguir el mateix recorregut, encara que una part dels recursos audiovisuals no estigui disponible. A recepció expliquen quins recursos canvien abans que el públic entri a les sales.",
+      "La responsable del museu diu que hi ha persones a qui els costa visitar un espai amb molts estímuls alhora. Una franja més calmada pot ser útil per a alguns visitants, però no assegura que tothom hi estigui còmode. Per això, el museu també publica fotografies de les sales i una descripció de les condicions. No cal justificar per què es tria aquell horari.",
+      "La visita tranquil·la no és una activitat guiada. Qui vulgui un guia ha de consultar una altra reserva. Tampoc no és una promesa de silenci absolut: poden arribar altres persones i l’edifici continua tenint els sorolls habituals d’un espai compartit. El que es modifica és una part de l’ambient que el museu pot controlar.",
+      "En Bilal volia veure sobretot la projecció d’una fusteria. La germana preferia començar amb menys gent, perquè li agradava dibuixar les eines exposades. Van preguntar si podien quedar-se després de les onze. La resposta va ser que sí: no calia sortir i tornar a comprar una entrada quan comencés l’horari general.",
+      "Finalment van entrar a dos quarts d’onze. Van dibuixar a la sala d’eines i després van tornar al principi per veure la projecció encesa. Havien triat una manera de fer la visita, no una exposició diferent. El doble horari no decidia què els havia d’interessar; els ajudava a organitzar com ho volien veure."
+    ],
+    "imageAlt": {
+      "una-entrada-con-dos-horarios-art1": "Una sala de museu amb visitants i una projecció encesa al costat de les obres.",
+      "una-entrada-con-dos-horarios-art2": "Una sala de museu tranquil·la, amb pocs visitants i una pantalla apagada."
+    },
+    "questions": [
+      {
+        "id": "una-entrada-con-dos-horarios-q1",
+        "type": "literal",
+        "prompt": "Quines tres condicions es modifiquen durant la visita tranquil·la?",
+        "answer": "El nombre de visitants, el volum dels enregistraments i el funcionament d’una projecció amb canvis de llum.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrada-con-dos-horarios-q2",
+        "type": "literal",
+        "prompt": "A quina hora entren en Bilal i la seva germana?",
+        "answer": "A dos quarts d’onze.",
+        "lines": 1
+      },
+      {
+        "id": "una-entrada-con-dos-horarios-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa «estímuls» quan es descriu l’ambient del museu?",
+        "answer": "Elements que es perceben, com els sons, les llums o el moviment de persones.",
+        "lines": 1
+      },
+      {
+        "id": "una-entrada-con-dos-horarios-q4",
+        "type": "inference",
+        "prompt": "Per què el museu descriu les condicions en lloc d’assegurar que tothom hi estarà còmode?",
+        "answer": "Perquè els visitants poden tenir necessitats diferents i les condicions més calmades no garanteixen la mateixa experiència a tothom.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrada-con-dos-horarios-q5",
+        "type": "inference",
+        "prompt": "Quina idea inicial d’en Bilal era incorrecta? Quina informació ho demostra?",
+        "answer": "Que no hi hauria ningú més. El text diu que es limita el nombre de persones i que poden arribar altres visitants.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrada-con-dos-horarios-q6",
+        "type": "inference",
+        "prompt": "Per què els dos germans poden combinar els seus interessos amb una sola entrada?",
+        "answer": "Perquè poden començar a l’hora tranquil·la i quedar-se després de les onze, quan s’encén la projecció.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrada-con-dos-horarios-q7",
+        "type": "structure",
+        "prompt": "Quina funció té aclarir que la visita no és guiada ni promet silenci absolut?",
+        "answer": "Evitar que el nom del servei generi expectatives que el museu no ofereix.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrada-con-dos-horarios-q8",
+        "type": "summary",
+        "prompt": "Explica per què el text diu que trien una manera de visitar i no una exposició diferent.",
+        "answer": "Les obres i el recorregut es mantenen. El que canvia és part de l’ambient i el moment en què utilitzen alguns recursos.",
+        "lines": 3
+      },
+      {
+        "id": "una-entrada-con-dos-horarios-q9",
+        "type": "opinion",
+        "prompt": "Quina informació del text destacaries en un anunci breu perquè el nom «visita tranquil·la» no es malinterpretés? Justifica-ho.",
+        "answer": "Resposta oberta: límit de públic, canvis audiovisuals, absència de guia o possibilitat de quedar-se després. Cal explicar quin malentès evitaria.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "estímuls",
+        "questionId": "una-entrada-con-dos-horarios-q3"
+      }
+    ]
+  },
+  {
+    "id": "el-campeonato-de-las-piezas-prestadas-ca",
+    "code": "L205",
+    "title": "El campionat de les peces prestades",
+    "summary": "Un torneig escolar d’escacs resol un problema de material fent visibles els acords abans de començar.",
+    "paragraphs": [
+      "El torneig d’escacs de l’escola de la Riera va començar dissabte amb una peça que no pertanyia a cap dels jocs del centre. Era un alfil blanc, una mica més baix i més groc que els altres. L’havia portat una família després que els organitzadors descobrissin que en faltava un. El torneig era una trobada interna de l’escola, sense classificació oficial.",
+      "La manca es va detectar mentre preparaven les taules. Algú va proposar substituir l’alfil per una goma d’esborrar, però dues jugadores van dir que preferien una peça que es pogués reconèixer fàcilment. També van considerar deixar una taula sense utilitzar. Això obligava a refer els torns i allargava la trobada, prevista perquè tothom pogués jugar tres partides.",
+      "La família de l’Adrià vivia a cinc minuts i tenia un joc de mida semblant. Va portar l’alfil dins d’una capsa petita. Abans de col·locar-lo, els organitzadors el van ensenyar a tots els participants. Van explicar a quina taula es faria servir i van deixar clar que tenia el mateix paper que l’alfil que faltava. No es convertia en una peça especial pel fet de ser diferent.",
+      "Les persones que havien de jugar en aquella taula van provar de distingir-lo de les altres peces. Com que l’única diferència era l’aspecte i totes hi van estar d’acord, van mantenir els torns previstos. L’acord es va prendre abans de començar, amb la possibilitat de reorganitzar les taules si algú hi veia un problema. No van improvisar una substitució a mig joc.",
+      "Durant la tarda, una voluntària va apuntar els resultats i també els materials que s’havien de retornar. En acabar, van separar l’alfil prestat abans de guardar les peces als calaixos. La família el va recuperar i el centre va anotar que li faltava una peça: resoldre el torneig no havia reparat automàticament el joc incomplet.",
+      "La notícia de la jornada no va ser només qui havia guanyat més partides. Els organitzadors van destacar una decisió petita que havia evitat confusions: una diferència visible no cal amagar-la, però sí explicar-la a qui l’haurà d’interpretar."
+    ],
+    "imageAlt": {
+      "el-campeonato-de-las-piezas-prestadas-art1": "Un tauler d’escacs al costat d’una capsa de peces que té un compartiment buit.",
+      "el-campeonato-de-las-piezas-prestadas-art2": "Dos alfils blancs de fustes i formes una mica diferents, un dels quals s’ha deixat en préstec."
+    },
+    "questions": [
+      {
+        "id": "el-campeonato-de-las-piezas-prestadas-q1",
+        "type": "literal",
+        "prompt": "Què distingia l’alfil prestat dels altres?",
+        "answer": "Era una mica més baix i més groc.",
+        "lines": 1
+      },
+      {
+        "id": "el-campeonato-de-las-piezas-prestadas-q2",
+        "type": "literal",
+        "prompt": "Quines dues alternatives van considerar abans de trobar l’alfil?",
+        "answer": "Substituir-lo per una goma d’esborrar o deixar una taula sense utilitzar.",
+        "lines": 2
+      },
+      {
+        "id": "el-campeonato-de-las-piezas-prestadas-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa «refer els torns» en aquest torneig?",
+        "answer": "Reorganitzar l’ordre o els moments en què jugarien els participants.",
+        "lines": 1
+      },
+      {
+        "id": "el-campeonato-de-las-piezas-prestadas-q4",
+        "type": "inference",
+        "prompt": "Per què una goma d’esborrar podia generar més confusió que l’alfil prestat?",
+        "answer": "Perquè no tenia l’aspecte d’un alfil i les jugadores haurien de recordar què representava.",
+        "lines": 2
+      },
+      {
+        "id": "el-campeonato-de-las-piezas-prestadas-q5",
+        "type": "inference",
+        "prompt": "Per què van ensenyar la peça abans de començar i no quan aparegués un dubte durant la partida?",
+        "answer": "Perquè tothom conegués la substitució i pogués valorar-la o proposar canvis abans que afectés el joc.",
+        "lines": 2
+      },
+      {
+        "id": "el-campeonato-de-las-piezas-prestadas-q6",
+        "type": "inference",
+        "prompt": "El préstec resol el problema del centre per als tornejos futurs? Justifica-ho.",
+        "answer": "No. Retornen l’alfil i el seu joc continua incomplet; per això ho anoten.",
+        "lines": 2
+      },
+      {
+        "id": "el-campeonato-de-las-piezas-prestadas-q7",
+        "type": "structure",
+        "prompt": "Per què és rellevant indicar que era una trobada interna sense classificació oficial?",
+        "answer": "Delimita el context de l’acord i evita presentar aquella solució local com una norma per a qualsevol torneig.",
+        "lines": 2
+      },
+      {
+        "id": "el-campeonato-de-las-piezas-prestadas-q8",
+        "type": "summary",
+        "prompt": "Resumeix les tres coses que van fer perquè la substitució fos clara i acceptada.",
+        "answer": "Van mostrar i explicar la peça, van comprovar que els jugadors la distingien i van acordar-ne l’ús abans de començar, amb alternatives si calia.",
+        "lines": 3
+      },
+      {
+        "id": "el-campeonato-de-las-piezas-prestadas-q9",
+        "type": "opinion",
+        "prompt": "Quina altra incidència de material anotaries al final d’una trobada escolar? Explica per a què serviria.",
+        "answer": "Resposta oberta. Pot anotar una capsa trencada o un rellotge que falla per preparar millor la trobada següent.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 2,
+        "text": "refer els torns",
+        "questionId": "el-campeonato-de-las-piezas-prestadas-q3"
+      }
+    ]
+  },
+  {
+    "id": "las-dos-velocidades-de-un-glaciar-ca",
+    "code": "L206",
+    "title": "Les dues velocitats d’una glacera",
+    "summary": "El gel pot baixar per una vall mentre l’extrem d’una glacera retrocedeix: són dos canvis diferents.",
+    "paragraphs": [
+      "En una exposició de muntanya hi havia dues fotografies de la mateixa vall, fetes amb anys de diferència. A la primera, el gel arribava prop d’un grup de roques fosques. A la segona, les roques quedaven molt més lluny de l’extrem de la glacera. El peu de foto deia que havia retrocedit. En Martí va imaginar tota aquella massa blanca lliscant muntanya amunt, com una cinta que gira al revés.",
+      "Una glacera, però, no és un bloc immòbil que algú desplaci sencer. Es forma quan la neu s’acumula i es transforma en gel al llarg del temps. El pes de la massa de gel contribueix a fer-la fluir pendent avall. Aquest moviment pot continuar encara que les fotografies mostrin un retrocés de l’extrem. Les dues observacions parlen de coses diferents.",
+      "Per entendre-ho, convé distingir el moviment del gel de la posició del límit on s’acaba. El gel que arriba a les zones baixes pot fondre’s. Si la pèrdua supera l’aportació de gel que hi arriba, el límit es desplaça cap a la part alta de la vall. Això no vol dir que el gel hagi començat a pujar: vol dir que, més avall, en desapareix més del que s’hi reposa.",
+      "La monitora va comparar-ho amb una fila de persones que entra en una sala per una porta i en surt per una altra. La fila pot anar avançant mentre el nombre de persones dins la sala disminueix, si en surten més de les que hi entren. Va advertir que l’exemple només ajudava a separar dos canvis; una glacera no funciona exactament com una cua de persones.",
+      "Després van tornar a les fotografies. Servien per comparar la posició de l’extrem respecte de les roques, però no per seguir una mateixa porció de gel durant el trajecte. Per estudiar aquell moviment, caldria obtenir altres observacions al llarg del temps, no només mirar on acaba la massa blanca.",
+      "En Martí va corregir el seu dibuix. Va esborrar la fletxa que feia pujar tot el gel i en va posar dues: una per al moviment pendent avall i una altra per al canvi de posició de l’extrem. Ara entenia per què «avançar» i «retrocedir» podien aparèixer en la mateixa explicació sense contradir-se."
+    ],
+    "imageAlt": {
+      "las-dos-velocidades-de-un-glaciar-art1": "Una glacera baixa entre muntanyes i acaba en una vall rocosa.",
+      "las-dos-velocidades-de-un-glaciar-art2": "Dues fotografies d’una vall permeten comparar fins on arribava el gel en moments diferents."
+    },
+    "questions": [
+      {
+        "id": "las-dos-velocidades-de-un-glaciar-q1",
+        "type": "literal",
+        "prompt": "Quin element del paisatge serveix de referència per comparar les fotografies?",
+        "answer": "Un grup de roques fosques de la vall.",
+        "lines": 1
+      },
+      {
+        "id": "las-dos-velocidades-de-un-glaciar-q2",
+        "type": "literal",
+        "prompt": "Com s’explica la formació del gel d’una glacera?",
+        "answer": "La neu s’hi acumula i es transforma en gel al llarg del temps.",
+        "lines": 2
+      },
+      {
+        "id": "las-dos-velocidades-de-un-glaciar-q3",
+        "type": "vocabulary",
+        "prompt": "Què vol dir «s’hi reposa» quan es compara el gel que desapareix i el que arriba?",
+        "answer": "Que s’hi aporta gel que substitueix el que s’ha perdut.",
+        "lines": 1
+      },
+      {
+        "id": "las-dos-velocidades-de-un-glaciar-q4",
+        "type": "inference",
+        "prompt": "Explica com pot retrocedir l’extrem mentre el gel continua baixant.",
+        "answer": "Si a la part baixa es perd més gel del que hi arriba, el límit queda cada vegada més amunt, encara que el gel continuï fluint pendent avall.",
+        "lines": 3
+      },
+      {
+        "id": "las-dos-velocidades-de-un-glaciar-q5",
+        "type": "inference",
+        "prompt": "Quina confusió cometia en Martí en la seva primera interpretació?",
+        "answer": "Confondre el retrocés de la posició de l’extrem amb un moviment de tota la massa de gel cap amunt.",
+        "lines": 2
+      },
+      {
+        "id": "las-dos-velocidades-de-un-glaciar-q6",
+        "type": "structure",
+        "prompt": "Què ajuda a entendre l’exemple de la sala i quin límit té?",
+        "answer": "Que el moviment d’allò que entra pot coexistir amb una disminució del que hi queda. Només és una comparació parcial, no una descripció completa d’una glacera.",
+        "lines": 2
+      },
+      {
+        "id": "las-dos-velocidades-de-un-glaciar-q7",
+        "type": "inference",
+        "prompt": "Per què les dues fotografies no permeten seguir una mateixa porció de gel?",
+        "answer": "Perquè mostren on és el límit en dos moments, però no identifiquen ni segueixen el trajecte d’una porció concreta.",
+        "lines": 2
+      },
+      {
+        "id": "las-dos-velocidades-de-un-glaciar-q8",
+        "type": "summary",
+        "prompt": "Escriu una frase per acompanyar les dues fletxes del dibuix final.",
+        "answer": "El gel flueix pendent avall, mentre que l’extrem pot retrocedir si es perd més gel del que hi arriba.",
+        "lines": 2
+      },
+      {
+        "id": "las-dos-velocidades-de-un-glaciar-q9",
+        "type": "opinion",
+        "prompt": "Què canviaries en un peu de foto que només digués «el gel va enrere»? Explica per què.",
+        "answer": "Resposta oberta. Caldria precisar que retrocedeix la posició de l’extrem per evitar suggerir que tot el gel puja pendent amunt.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "s’hi reposa",
+        "questionId": "las-dos-velocidades-de-un-glaciar-q3"
+      }
+    ]
+  },
+  {
+    "id": "una-entrevista-que-empezo-al-final-ca",
+    "code": "L207",
+    "title": "Una entrevista que va començar pel final",
+    "summary": "Una restauradora explica per què reparar un mosaic no significa dissimular tot el que li ha passat.",
+    "paragraphs": [
+      "La primera pregunta que havíem preparat per a la Nora Vidal era «com comences a restaurar un mosaic?». Però, quan vam entrar al taller, ella ens va ensenyar una peça acabada. A la part central hi havia una zona llisa, sense dibuix. Vam decidir començar pel final: volíem saber per què una restauradora deixava una part tan visible sense completar.",
+      "—No sembla que encara hi falti alguna cosa?\n—Hi falta part del mosaic antic, i no ho volem amagar. En aquest cas, coneixíem el dibuix de les vores, però no sabíem què hi havia al tros perdut. El rebliment sosté el conjunt i evita deixar aquell buit obert. L’hem fet neutre perquè no sembli una imatge antiga que, en realitat, hauríem inventat nosaltres.",
+      "—I si haguéssiu endevinat bé el dibuix?\n—Una possibilitat no és el mateix que una prova. Abans de decidir, vam revisar les fotografies, els fragments conservats i les notes d’on havia aparegut la peça. Vam poder situar alguns fragments amb seguretat. En altres punts hi havia diverses formes possibles de continuar el patró. Hem guardat els esbossos, però no els hem convertit tots en mosaic.",
+      "—Així, es veu què heu fet vosaltres?\n—Si t’hi acostes, sí. A la distància habitual, pots entendre el conjunt; de prop, distingiràs el material afegit. També hem fet un informe amb fotografies d’abans i després. La persona que estudiï la peça més endavant necessitarà saber quines parts vam trobar i quines hi vam incorporar al taller.",
+      "—Què us ha costat més: col·locar peces o decidir què no col·locàveu?\n—Totes dues coses demanen temps. La feina manual necessita precisió, però algunes decisions s’han d’aturar fins que tenim informació suficient. No totes les peces ni tots els casos es resolen igual. El que veieu aquí explica una decisió concreta sobre aquest mosaic.",
+      "Quan vam sortir, vam conservar l’ordre nou de l’entrevista. Començar per la zona sense dibuix ens havia ajudat a entendre la resta de la feina. A la llibreta, al costat de la pregunta inicial, vam escriure: «Una superfície acabada també pot mostrar allò que no sabem»."
+    ],
+    "imageAlt": {
+      "una-entrevista-que-empezo-al-final-art1": "Una taula de restauració amb un mosaic geomètric blau, marfil i terracota que té una zona central incompleta.",
+      "una-entrevista-que-empezo-al-final-art2": "Un mosaic restaurat conserva una zona de rebliment neutre que es distingeix del dibuix antic."
+    },
+    "questions": [
+      {
+        "id": "una-entrevista-que-empezo-al-final-q1",
+        "type": "literal",
+        "prompt": "Què crida l’atenció dels entrevistadors en entrar?",
+        "answer": "Una zona llisa sense dibuix al centre d’un mosaic acabat.",
+        "lines": 1
+      },
+      {
+        "id": "una-entrevista-que-empezo-al-final-q2",
+        "type": "literal",
+        "prompt": "Quines tres fonts d’informació revisa l’equip abans de decidir?",
+        "answer": "Fotografies, fragments conservats i notes sobre on havia aparegut la peça.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrevista-que-empezo-al-final-q3",
+        "type": "vocabulary",
+        "prompt": "Què vol dir que han fet el rebliment «neutre»?",
+        "answer": "Que no hi han afegit un dibuix que pugui confondre’s amb l’original i han procurat que no domini el conjunt.",
+        "lines": 1
+      },
+      {
+        "id": "una-entrevista-que-empezo-al-final-q4",
+        "type": "inference",
+        "prompt": "Per què no converteixen tots els esbossos en mosaic?",
+        "answer": "Perquè alguns representen possibilitats sense proves suficients i podrien fer passar una invenció per una part antiga.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrevista-que-empezo-al-final-q5",
+        "type": "inference",
+        "prompt": "Quina utilitat té l’informe per a una persona que estudiï la peça en el futur?",
+        "answer": "Li permet distingir què es va trobar i què es va afegir, i conèixer l’estat anterior a la restauració.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrevista-que-empezo-al-final-q6",
+        "type": "structure",
+        "prompt": "Per què els entrevistadors decideixen canviar l’ordre de les preguntes?",
+        "answer": "Perquè una observació real del mosaic acabat els planteja un dubte que ajuda a entendre el procés.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrevista-que-empezo-al-final-q7",
+        "type": "inference",
+        "prompt": "Podem convertir la decisió sobre aquest mosaic en una norma que la Nora apliqui sempre? Justifica-ho.",
+        "answer": "No. Ella precisa que no tots els casos es resolen igual i que explica una decisió concreta.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrevista-que-empezo-al-final-q8",
+        "type": "summary",
+        "prompt": "Explica la frase final sobre una superfície acabada que mostra allò que no sabem.",
+        "answer": "El mosaic està restaurat, però la zona neutra fa visible que no coneixen el dibuix perdut. Acabar la feina no significa haver resolt totes les incerteses.",
+        "lines": 3
+      },
+      {
+        "id": "una-entrevista-que-empezo-al-final-q9",
+        "type": "opinion",
+        "prompt": "Quina pregunta nova faries després d’aquesta entrevista? Explica amb quina informació del text es relaciona.",
+        "answer": "Resposta oberta vinculada al text, com preguntar com documenten les decisions o com identifiquen un fragment abans de col·locar-lo.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 2,
+        "text": "neutre",
+        "questionId": "una-entrevista-que-empezo-al-final-q3"
+      },
+      {
+        "paragraph": 3,
+        "text": "esbossos",
+        "definition": "Dibuixos provisionals per estudiar com podria ser una forma o composició."
+      }
+    ]
   }
 ];

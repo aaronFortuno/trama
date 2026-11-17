@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.37 · 18 de novembre del 2026
+
+Sis lectures noves de 6è intermedi (L202–L207), en català i castellà, amb dues il·lustracions, nou preguntes, solucionari i notes de vocabulari quan escau. 6è completa quinze lectures de cada dificultat en tots dos idiomes.
+
 ## 1.36.1 · 18 de novembre del 2026
 
 Dotze lectures noves de 6è inicial (L190–L201), en català i castellà, amb il·lustració, vuit preguntes, solucionari i espais de resposta ajustats. El nivell inicial de 6è arriba a quinze lectures per idioma.

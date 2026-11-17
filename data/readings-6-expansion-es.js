@@ -1178,5 +1178,702 @@ export const readings6ExpansionEs = [
         "questionId": "la-tienda-que-cambiaba-de-forma-q3"
       }
     ]
+  },
+  {
+    "id": "el-mapa-de-las-islas-de-luz-es",
+    "code": "L202",
+    "workId": "el-mapa-de-las-islas-de-luz",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "science",
+      "environment",
+      "technology"
+    ],
+    "genre": "informative",
+    "title": "El mapa de las islas de luz",
+    "summary": "Un grupo compara el alumbrado del barrio y aprende que un mapa nocturno necesita algo más que puntos brillantes.",
+    "paragraphs": [
+      "Cuando la clase dibujó el primer mapa nocturno del barrio, parecía un archipiélago. Cada punto amarillo representaba un lugar donde habían visto una farola. Las calles más iluminadas formaban islas, separadas por jardines y patios oscuros. Jana propuso contar los puntos y concluir que la calle con más farolas producía más contaminación lumínica. El profesor pidió que reservaran la conclusión para el final.",
+      "El grupo comparó dos modelos de alumbrado. Uno tenía una pantalla opaca encima y enviaba la luz hacia el suelo. El otro también dejaba escapar luz hacia arriba y a los lados. Parte de la luz artificial que llega al cielo se dispersa en la atmósfera y contribuye a aclararlo. Por eso no bastaba con saber cuántas farolas había: también importaba hacia dónde iluminaban.",
+      "Prepararon una ficha para cada observación. Anotaban el lugar, la hora, si la farola estaba encendida y si tenía pantalla. No querían calcular a ojo cuánta energía consumía ni dar una medida exacta del brillo del cielo. La salida servía para describir el alumbrado que podían ver y decidir qué datos les faltaban.",
+      "Una plaza les planteó un problema. El primer equipo la había visitado a las ocho y media, con los focos de la pista encendidos. El segundo había pasado a las diez, después de que los apagaran. Además, una noche había estado despejada y la otra, nublada. Si juntaban las notas sin explicar esas diferencias, parecería que habían observado la misma situación.",
+      "En el mapa final siguieron apareciendo los puntos amarillos, pero ya no todos significaban lo mismo. Un pequeño signo distinguía las farolas con pantalla; una nota indicaba la hora de la visita. La plaza tenía dos observaciones separadas. Debajo escribieron: «Este mapa muestra cómo hemos encontrado las luces, no una clasificación definitiva de las calles».",
+      "Jana no borró del cuaderno su primera propuesta. Añadió una pregunta: «¿Qué debemos comparar para que la comparación sea justa?». El mapa había ganado signos y también había perdido una certeza."
+    ],
+    "images": [
+      {
+        "id": "el-mapa-de-las-islas-de-luz-art1",
+        "src": "assets/readings/l202-el-mapa-de-las-islas-de-luz-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Una farola con pantalla dirige la luz al suelo, junto a un alumbrado sin protección que también ilumina hacia arriba."
+      },
+      {
+        "id": "el-mapa-de-las-islas-de-luz-art2",
+        "src": "assets/readings/l202-el-mapa-de-las-islas-de-luz-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Un mapa de puntos de observación, un reloj y un cuaderno con dibujos de nubes sobre una mesa de trabajo."
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-mapa-de-las-islas-de-luz-q1",
+        "type": "literal",
+        "prompt": "¿Qué representaban los puntos amarillos del primer mapa?",
+        "answer": "Lugares donde habían visto una farola.",
+        "lines": 1
+      },
+      {
+        "id": "el-mapa-de-las-islas-de-luz-q2",
+        "type": "literal",
+        "prompt": "¿Qué cuatro datos anotaban en cada ficha?",
+        "answer": "El lugar, la hora, si la farola estaba encendida y si tenía pantalla.",
+        "lines": 2
+      },
+      {
+        "id": "el-mapa-de-las-islas-de-luz-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «reservaran la conclusión» en este contexto?",
+        "answer": "Que esperaran a tener más información antes de darla por buena.",
+        "lines": 1
+      },
+      {
+        "id": "el-mapa-de-las-islas-de-luz-q4",
+        "type": "inference",
+        "prompt": "¿Por qué dos calles con igual número de farolas podrían iluminar el cielo de forma diferente?",
+        "answer": "Porque las farolas pueden dirigir la luz de distinta manera: algunas tienen pantalla y otras dejan escapar luz hacia arriba.",
+        "lines": 2
+      },
+      {
+        "id": "el-mapa-de-las-islas-de-luz-q5",
+        "type": "inference",
+        "prompt": "¿Por qué no agrupan las dos visitas a la plaza como una sola observación?",
+        "answer": "Porque se hicieron con los focos y el cielo en condiciones diferentes y a distintas horas.",
+        "lines": 2
+      },
+      {
+        "id": "el-mapa-de-las-islas-de-luz-q6",
+        "type": "inference",
+        "prompt": "¿Pueden deducir el consumo eléctrico de una farola solo con las fichas? Justifícalo.",
+        "answer": "No. Las fichas describen el alumbrado visible, pero no incluyen una medida del consumo; el texto lo distingue expresamente.",
+        "lines": 2
+      },
+      {
+        "id": "el-mapa-de-las-islas-de-luz-q7",
+        "type": "structure",
+        "prompt": "¿Qué función tiene la advertencia escrita debajo del mapa?",
+        "answer": "Delimitar de qué informa el mapa y evitar que se lea como una clasificación definitiva.",
+        "lines": 2
+      },
+      {
+        "id": "el-mapa-de-las-islas-de-luz-q8",
+        "type": "summary",
+        "prompt": "Explica qué cambia entre la primera propuesta de Jana y su pregunta final.",
+        "answer": "Pasa de querer clasificar las calles contando farolas a preguntarse qué datos y condiciones hay que comparar para llegar a una conclusión justificada.",
+        "lines": 3
+      },
+      {
+        "id": "el-mapa-de-las-islas-de-luz-q9",
+        "type": "opinion",
+        "prompt": "Si repitieras las visitas a la plaza, ¿qué condición intentarías mantener igual? Explica qué ayudaría a comparar.",
+        "answer": "Respuesta abierta. Puede elegir la hora, el estado de los focos o las condiciones del cielo y explicar que así reduciría diferencias ajenas a lo que quiere estudiar.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 1,
+        "text": "reservaran la conclusión",
+        "questionId": "el-mapa-de-las-islas-de-luz-q3"
+      },
+      {
+        "paragraph": 1,
+        "text": "archipiélago",
+        "definition": "Conjunto de islas próximas entre sí."
+      }
+    ]
+  },
+  {
+    "id": "la-cancion-que-perdio-una-estrofa-es",
+    "code": "L203",
+    "workId": "la-cancion-que-perdio-una-estrofa",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "arts",
+      "history"
+    ],
+    "genre": "narrative",
+    "title": "La canción que perdió una estrofa",
+    "summary": "Dos versiones de una canción hacen dudar a un grupo sobre qué significa conservar una tradición.",
+    "paragraphs": [
+      "Aina encontró la letra dentro de un cuaderno de tapas verdes. Era una canción que su abuela cantaba al doblar las sábanas, pero en el cuaderno había una estrofa que nunca había oído. Hablaba de una barca que volvía vacía al puerto. El resto de la letra le resultaba familiar, aunque algunas palabras fueran distintas. Puso un papel entre las hojas para no perder la página.",
+      "En el centro del barrio preparaban una muestra de canciones recordadas por los vecinos. Aina llevó el cuaderno y una grabadora. Su abuela cantó tres estrofas; cuando le enseñaron la de la barca, se encogió de hombros. «En mi casa no la cantábamos. Quizá no me la enseñaron». No dijo que fuera falsa ni que el cuaderno estuviera equivocado.",
+      "Al día siguiente, Ferran, un vecino que había vivido en un pueblo costero, reconoció la estrofa. Él la situaba al principio, antes del estribillo. También cambiaba el nombre de la protagonista. La profesora de música preguntó si alguien sabía cuándo se había escrito el cuaderno o quién había copiado la letra. Nadie lo sabía. En la primera página solo había un nombre, sin fecha.",
+      "Durante el ensayo, Aina propuso juntar todas las estrofas y decir que habían recuperado la canción completa. Ferran respondió que quizá así harían una versión que nadie había cantado nunca exactamente de esa manera. La abuela estaba de acuerdo: prefería que se oyeran las diferencias antes que ocultarlas bajo una única letra.",
+      "Finalmente prepararon dos interpretaciones breves. Antes de cada una explicarían quién les había transmitido aquella versión. El cuaderno quedaría expuesto con una nota: «Copia sin fecha conocida». No sabían si era más antiguo que los recuerdos de los vecinos y no querían que el público lo diera por hecho solo porque el papel estuviera amarillento.",
+      "La noche de la muestra, Aina volvió a escuchar la estrofa de la barca. Ya no le parecía una pieza que faltaba en la canción de su abuela. Era una pieza que abría otra historia de la misma canción."
+    ],
+    "images": [
+      {
+        "id": "la-cancion-que-perdio-una-estrofa-art1",
+        "src": "assets/readings/l203-la-cancion-que-perdio-una-estrofa-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un cuaderno abierto y una grabadora junto a una persona mayor que recuerda una canción."
+      },
+      {
+        "id": "la-cancion-que-perdio-una-estrofa-art2",
+        "src": "assets/readings/l203-la-cancion-que-perdio-una-estrofa-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Tres personas ensayan una canción con las hojas de las letras en una sala sencilla."
+      }
+    ],
+    "questions": [
+      {
+        "id": "la-cancion-que-perdio-una-estrofa-q1",
+        "type": "literal",
+        "prompt": "¿De qué habla la estrofa que Aina no conocía?",
+        "answer": "De una barca que vuelve vacía al puerto.",
+        "lines": 1
+      },
+      {
+        "id": "la-cancion-que-perdio-una-estrofa-q2",
+        "type": "literal",
+        "prompt": "¿Qué dos diferencias aporta la versión de Ferran?",
+        "answer": "Coloca la estrofa de la barca al principio, antes del estribillo, y cambia el nombre de la protagonista.",
+        "lines": 2
+      },
+      {
+        "id": "la-cancion-que-perdio-una-estrofa-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa que el público «lo diera por hecho»?",
+        "answer": "Que lo considerara cierto sin comprobarlo.",
+        "lines": 1
+      },
+      {
+        "id": "la-cancion-que-perdio-una-estrofa-q4",
+        "type": "inference",
+        "prompt": "¿Por qué la respuesta de la abuela no permite decir que la estrofa sea inventada?",
+        "answer": "Porque solo dice que en su casa no la cantaban; desconocerla no demuestra que no existiera en otras versiones.",
+        "lines": 2
+      },
+      {
+        "id": "la-cancion-que-perdio-una-estrofa-q5",
+        "type": "inference",
+        "prompt": "¿Qué problema tendría presentar la suma de las estrofas como «la canción completa»?",
+        "answer": "Haría pasar una combinación nueva por una versión única recuperada, sin saber si alguna vez se había cantado así.",
+        "lines": 2
+      },
+      {
+        "id": "la-cancion-que-perdio-una-estrofa-q6",
+        "type": "inference",
+        "prompt": "¿Por qué el color del papel no resuelve qué versión es más antigua?",
+        "answer": "Porque no da una fecha de copia ni permite compararla con el origen de los recuerdos de los vecinos.",
+        "lines": 2
+      },
+      {
+        "id": "la-cancion-que-perdio-una-estrofa-q7",
+        "type": "structure",
+        "prompt": "¿Qué aporta anunciar quién ha transmitido cada versión antes de cantarla?",
+        "answer": "Permite conocer su procedencia y entender que las interpretaciones corresponden a recuerdos distintos.",
+        "lines": 2
+      },
+      {
+        "id": "la-cancion-que-perdio-una-estrofa-q8",
+        "type": "summary",
+        "prompt": "Explica el cambio de Aina entre querer recuperar «la canción completa» y el final.",
+        "answer": "Al principio quiere unir las piezas en una sola letra. Al final entiende que la nueva estrofa puede pertenecer a otra trayectoria de la canción y que conviene conservar las diferencias.",
+        "lines": 3
+      },
+      {
+        "id": "la-cancion-que-perdio-una-estrofa-q9",
+        "type": "opinion",
+        "prompt": "¿Qué preguntarías a los vecinos para saber más sobre la procedencia de las canciones? Explica qué esperarías descubrir.",
+        "answer": "Respuesta abierta. Por ejemplo, de quién la aprendieron y en qué lugar, para relacionar las versiones con personas y contextos.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 5,
+        "text": "lo diera por hecho",
+        "questionId": "la-cancion-que-perdio-una-estrofa-q3"
+      },
+      {
+        "paragraph": 3,
+        "text": "estribillo",
+        "definition": "Parte de una canción que se repite entre estrofas."
+      }
+    ]
+  },
+  {
+    "id": "una-entrada-con-dos-horarios-es",
+    "code": "L204",
+    "workId": "una-entrada-con-dos-horarios",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "community",
+      "arts"
+    ],
+    "genre": "informative",
+    "title": "Una entrada con dos horarios",
+    "summary": "Un museo ofrece una franja de visita más tranquila y explica qué cambia y qué se mantiene.",
+    "paragraphs": [
+      "En el Museo de los Oficios, los sábados hay dos momentos de apertura: de diez a once y de las once hasta las seis de la tarde. La entrada es la misma, pero la primera hora tiene condiciones distintas. El museo la llama «visita tranquila». Al leerlo, Bilal pensó que sería una visita sin nadie más. Su hermana propuso consultar las condiciones antes de comprar las entradas.",
+      "Durante esa primera hora se limita el número de visitantes, se baja el volumen de las grabaciones y se apaga una proyección que suele cambiar de luz. No se retiran obras ni se añade una explicación más fácil. Se puede seguir el mismo recorrido, aunque parte de los recursos audiovisuales no estén disponibles. En recepción explican qué recursos cambian antes de entrar en las salas.",
+      "La responsable del museo dice que a algunas personas les cuesta visitar un espacio con muchos estímulos a la vez. Una franja más calmada puede ayudar a ciertos visitantes, pero no garantiza que todos estén cómodos. Por eso también publican fotografías de las salas y una descripción de las condiciones. No hace falta justificar por qué se elige ese horario.",
+      "La visita tranquila no es una actividad guiada. Quien quiera un guía debe consultar otra reserva. Tampoco promete silencio absoluto: pueden llegar otras personas y el edificio conserva los ruidos habituales de un espacio compartido. Lo que se modifica es parte del ambiente que el museo puede controlar.",
+      "Bilal quería ver sobre todo la proyección de una carpintería. Su hermana prefería empezar con menos gente para dibujar las herramientas expuestas. Preguntaron si podían quedarse después de las once. Les dijeron que sí: no debían salir y comprar otra entrada al comenzar el horario general.",
+      "Finalmente entraron a las diez y media. Dibujaron en la sala de herramientas y después regresaron al principio para ver la proyección encendida. Habían elegido una manera de hacer la visita, no una exposición diferente. El doble horario no decidía qué debía interesarles; les ayudaba a organizar cómo querían verlo."
+    ],
+    "images": [
+      {
+        "id": "una-entrada-con-dos-horarios-art1",
+        "src": "assets/readings/l204-una-entrada-con-dos-horarios-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Una sala de museo con visitantes y una proyección encendida junto a las obras."
+      },
+      {
+        "id": "una-entrada-con-dos-horarios-art2",
+        "src": "assets/readings/l204-una-entrada-con-dos-horarios-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Una sala de museo tranquila, con pocos visitantes y una pantalla apagada."
+      }
+    ],
+    "questions": [
+      {
+        "id": "una-entrada-con-dos-horarios-q1",
+        "type": "literal",
+        "prompt": "¿Qué tres condiciones se modifican durante la visita tranquila?",
+        "answer": "El número de visitantes, el volumen de las grabaciones y el funcionamiento de una proyección con cambios de luz.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrada-con-dos-horarios-q2",
+        "type": "literal",
+        "prompt": "¿A qué hora entran Bilal y su hermana?",
+        "answer": "A las diez y media.",
+        "lines": 1
+      },
+      {
+        "id": "una-entrada-con-dos-horarios-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «estímulos» al describir el ambiente del museo?",
+        "answer": "Elementos que se perciben, como sonidos, luces o movimiento de personas.",
+        "lines": 1
+      },
+      {
+        "id": "una-entrada-con-dos-horarios-q4",
+        "type": "inference",
+        "prompt": "¿Por qué el museo describe las condiciones en lugar de asegurar que todos estarán cómodos?",
+        "answer": "Porque los visitantes pueden tener necesidades distintas y las condiciones más calmadas no garantizan la misma experiencia a todos.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrada-con-dos-horarios-q5",
+        "type": "inference",
+        "prompt": "¿Qué idea inicial de Bilal era incorrecta? ¿Qué información lo demuestra?",
+        "answer": "Que no habría nadie más. Se limita el número de personas y pueden llegar otros visitantes.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrada-con-dos-horarios-q6",
+        "type": "inference",
+        "prompt": "¿Por qué pueden combinar sus intereses con una sola entrada?",
+        "answer": "Porque pueden empezar en la hora tranquila y quedarse después de las once, cuando se enciende la proyección.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrada-con-dos-horarios-q7",
+        "type": "structure",
+        "prompt": "¿Qué función tiene aclarar que la visita no es guiada ni promete silencio absoluto?",
+        "answer": "Evitar que el nombre del servicio genere expectativas que el museo no ofrece.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrada-con-dos-horarios-q8",
+        "type": "summary",
+        "prompt": "Explica por qué el texto dice que eligen una manera de visitar y no una exposición distinta.",
+        "answer": "Las obras y el recorrido se mantienen. Cambia parte del ambiente y el momento en que utilizan algunos recursos.",
+        "lines": 3
+      },
+      {
+        "id": "una-entrada-con-dos-horarios-q9",
+        "type": "opinion",
+        "prompt": "¿Qué información destacarías en un anuncio breve para evitar malentendidos con «visita tranquila»? Justifícalo.",
+        "answer": "Respuesta abierta: límite de público, cambios audiovisuales, ausencia de guía o posibilidad de quedarse después. Debe explicar qué malentendido evitaría.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "estímulos",
+        "questionId": "una-entrada-con-dos-horarios-q3"
+      }
+    ]
+  },
+  {
+    "id": "el-campeonato-de-las-piezas-prestadas-es",
+    "code": "L205",
+    "workId": "el-campeonato-de-las-piezas-prestadas",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "games",
+      "community",
+      "sports"
+    ],
+    "genre": "news",
+    "title": "El campeonato de las piezas prestadas",
+    "summary": "Un torneo escolar de ajedrez resuelve un problema de material haciendo visibles los acuerdos antes de empezar.",
+    "paragraphs": [
+      "El torneo de ajedrez de la escuela de la Ribera comenzó el sábado con una pieza que no pertenecía a ninguno de los juegos del centro. Era un alfil blanco, algo más bajo y más amarillo que los demás. Lo había llevado una familia después de que los organizadores descubrieran que faltaba uno. Era un encuentro interno de la escuela, sin clasificación oficial.",
+      "La falta se detectó al preparar las mesas. Alguien propuso sustituir el alfil por una goma de borrar, pero dos jugadoras preferían una pieza fácil de reconocer. También consideraron dejar una mesa sin utilizar. Eso obligaba a rehacer los turnos y alargaba el encuentro, previsto para que todos pudieran jugar tres partidas.",
+      "La familia de Adrià vivía a cinco minutos y tenía un juego de tamaño parecido. Llevó el alfil en una caja pequeña. Antes de colocarlo, los organizadores lo enseñaron a todos los participantes. Explicaron en qué mesa se utilizaría y aclararon que tenía el mismo papel que el alfil que faltaba. No se convertía en una pieza especial por ser diferente.",
+      "Las personas que debían jugar en aquella mesa probaron a distinguirlo de las otras piezas. Como la única diferencia era el aspecto y todas estaban de acuerdo, mantuvieron los turnos previstos. El acuerdo se tomó antes de empezar, con la posibilidad de reorganizar las mesas si alguien veía un problema. No improvisaron una sustitución a mitad del juego.",
+      "Durante la tarde, una voluntaria apuntó los resultados y los materiales que debían devolverse. Al terminar, separaron el alfil prestado antes de guardar las piezas en los cajones. La familia lo recuperó y el centro anotó que le faltaba una pieza: resolver el torneo no había reparado automáticamente el juego incompleto.",
+      "La noticia de la jornada no fue solo quién había ganado más partidas. Los organizadores destacaron una pequeña decisión que había evitado confusiones: no hace falta ocultar una diferencia visible, pero sí explicarla a quien deberá interpretarla."
+    ],
+    "images": [
+      {
+        "id": "el-campeonato-de-las-piezas-prestadas-art1",
+        "src": "assets/readings/l205-el-campeonato-de-las-piezas-prestadas-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un tablero de ajedrez junto a una caja de piezas con un compartimento vacío."
+      },
+      {
+        "id": "el-campeonato-de-las-piezas-prestadas-art2",
+        "src": "assets/readings/l205-el-campeonato-de-las-piezas-prestadas-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Dos alfiles blancos de maderas y formas algo distintas, uno de los cuales se ha prestado."
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-campeonato-de-las-piezas-prestadas-q1",
+        "type": "literal",
+        "prompt": "¿Qué distinguía al alfil prestado de los demás?",
+        "answer": "Era algo más bajo y más amarillo.",
+        "lines": 1
+      },
+      {
+        "id": "el-campeonato-de-las-piezas-prestadas-q2",
+        "type": "literal",
+        "prompt": "¿Qué dos alternativas consideraron antes de encontrar el alfil?",
+        "answer": "Sustituirlo por una goma de borrar o dejar una mesa sin utilizar.",
+        "lines": 2
+      },
+      {
+        "id": "el-campeonato-de-las-piezas-prestadas-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «rehacer los turnos» en este torneo?",
+        "answer": "Reorganizar el orden o los momentos en que jugarían los participantes.",
+        "lines": 1
+      },
+      {
+        "id": "el-campeonato-de-las-piezas-prestadas-q4",
+        "type": "inference",
+        "prompt": "¿Por qué una goma podía generar más confusión que el alfil prestado?",
+        "answer": "Porque no tenía aspecto de alfil y las jugadoras tendrían que recordar qué representaba.",
+        "lines": 2
+      },
+      {
+        "id": "el-campeonato-de-las-piezas-prestadas-q5",
+        "type": "inference",
+        "prompt": "¿Por qué enseñaron la pieza antes de empezar y no cuando surgiera una duda en la partida?",
+        "answer": "Para que todos conocieran la sustitución y pudieran valorarla o proponer cambios antes de que afectara al juego.",
+        "lines": 2
+      },
+      {
+        "id": "el-campeonato-de-las-piezas-prestadas-q6",
+        "type": "inference",
+        "prompt": "¿El préstamo resuelve el problema del centro para futuros torneos? Justifícalo.",
+        "answer": "No. Devuelven el alfil y su juego sigue incompleto; por eso lo anotan.",
+        "lines": 2
+      },
+      {
+        "id": "el-campeonato-de-las-piezas-prestadas-q7",
+        "type": "structure",
+        "prompt": "¿Por qué importa indicar que era un encuentro interno sin clasificación oficial?",
+        "answer": "Delimita el contexto del acuerdo y evita presentar esa solución local como una norma para cualquier torneo.",
+        "lines": 2
+      },
+      {
+        "id": "el-campeonato-de-las-piezas-prestadas-q8",
+        "type": "summary",
+        "prompt": "Resume tres cosas que hicieron para que la sustitución fuera clara y aceptada.",
+        "answer": "Mostraron y explicaron la pieza, comprobaron que los jugadores la distinguían y acordaron su uso antes de empezar, con alternativas si era necesario.",
+        "lines": 3
+      },
+      {
+        "id": "el-campeonato-de-las-piezas-prestadas-q9",
+        "type": "opinion",
+        "prompt": "¿Qué otra incidencia de material anotarías al final de un encuentro escolar? Explica para qué serviría.",
+        "answer": "Respuesta abierta. Puede anotar una caja rota o un reloj que falla para preparar mejor el siguiente encuentro.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 2,
+        "text": "rehacer los turnos",
+        "questionId": "el-campeonato-de-las-piezas-prestadas-q3"
+      }
+    ]
+  },
+  {
+    "id": "las-dos-velocidades-de-un-glaciar-es",
+    "code": "L206",
+    "workId": "las-dos-velocidades-de-un-glaciar",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "science",
+      "geography",
+      "environment"
+    ],
+    "genre": "informative",
+    "title": "Las dos velocidades de un glaciar",
+    "summary": "El hielo puede bajar por un valle mientras el extremo de un glaciar retrocede: son dos cambios diferentes.",
+    "paragraphs": [
+      "En una exposición de montaña había dos fotografías del mismo valle, tomadas con años de diferencia. En la primera, el hielo llegaba cerca de unas rocas oscuras. En la segunda, las rocas quedaban mucho más lejos del extremo del glaciar. El pie de foto decía que había retrocedido. Martí imaginó toda aquella masa blanca deslizándose montaña arriba, como una cinta que gira al revés.",
+      "Un glaciar, sin embargo, no es un bloque inmóvil que alguien desplace entero. Se forma cuando la nieve se acumula y se transforma en hielo con el tiempo. El peso de la masa de hielo contribuye a que fluya pendiente abajo. Ese movimiento puede continuar aunque las fotografías muestren un retroceso del extremo. Las dos observaciones hablan de cosas distintas.",
+      "Para entenderlo, conviene distinguir el movimiento del hielo de la posición del límite donde termina. El hielo que llega a las zonas bajas puede fundirse. Si la pérdida supera el aporte de hielo que llega, el límite se desplaza hacia la parte alta del valle. No significa que el hielo haya empezado a subir: significa que, más abajo, desaparece más del que se repone.",
+      "La monitora lo comparó con una fila de personas que entra en una sala por una puerta y sale por otra. La fila puede avanzar mientras disminuye el número de personas dentro, si salen más de las que entran. Advirtió que el ejemplo solo ayudaba a separar dos cambios; un glaciar no funciona exactamente como una cola de personas.",
+      "Después volvieron a las fotografías. Servían para comparar la posición del extremo respecto de las rocas, pero no para seguir una misma porción de hielo durante el trayecto. Para estudiar ese movimiento harían falta otras observaciones a lo largo del tiempo, no solo mirar dónde acaba la masa blanca.",
+      "Martí corrigió su dibujo. Borró la flecha que hacía subir todo el hielo y puso dos: una para el movimiento pendiente abajo y otra para el cambio de posición del extremo. Entendía por qué «avanzar» y «retroceder» podían aparecer en la misma explicación sin contradecirse."
+    ],
+    "images": [
+      {
+        "id": "las-dos-velocidades-de-un-glaciar-art1",
+        "src": "assets/readings/l206-las-dos-velocidades-de-un-glaciar-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un glaciar desciende entre montañas y termina en un valle rocoso."
+      },
+      {
+        "id": "las-dos-velocidades-de-un-glaciar-art2",
+        "src": "assets/readings/l206-las-dos-velocidades-de-un-glaciar-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Dos fotografías de un valle permiten comparar hasta dónde llegaba el hielo en momentos distintos."
+      }
+    ],
+    "questions": [
+      {
+        "id": "las-dos-velocidades-de-un-glaciar-q1",
+        "type": "literal",
+        "prompt": "¿Qué elemento del paisaje sirve de referencia para comparar las fotos?",
+        "answer": "Un grupo de rocas oscuras del valle.",
+        "lines": 1
+      },
+      {
+        "id": "las-dos-velocidades-de-un-glaciar-q2",
+        "type": "literal",
+        "prompt": "¿Cómo se explica la formación del hielo de un glaciar?",
+        "answer": "La nieve se acumula y se transforma en hielo con el tiempo.",
+        "lines": 2
+      },
+      {
+        "id": "las-dos-velocidades-de-un-glaciar-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «se repone» al comparar el hielo que desaparece y el que llega?",
+        "answer": "Que se aporta hielo que sustituye al que se ha perdido.",
+        "lines": 1
+      },
+      {
+        "id": "las-dos-velocidades-de-un-glaciar-q4",
+        "type": "inference",
+        "prompt": "Explica cómo puede retroceder el extremo mientras el hielo sigue bajando.",
+        "answer": "Si en la parte baja se pierde más hielo del que llega, el límite queda cada vez más arriba, aunque el hielo continúe fluyendo pendiente abajo.",
+        "lines": 3
+      },
+      {
+        "id": "las-dos-velocidades-de-un-glaciar-q5",
+        "type": "inference",
+        "prompt": "¿Qué confusión cometía Martí en su primera interpretación?",
+        "answer": "Confundir el retroceso de la posición del extremo con un movimiento de toda la masa de hielo hacia arriba.",
+        "lines": 2
+      },
+      {
+        "id": "las-dos-velocidades-de-un-glaciar-q6",
+        "type": "structure",
+        "prompt": "¿Qué ayuda a entender el ejemplo de la sala y qué límite tiene?",
+        "answer": "Que el movimiento de lo que entra puede coexistir con una disminución de lo que queda. Es una comparación parcial, no una descripción completa de un glaciar.",
+        "lines": 2
+      },
+      {
+        "id": "las-dos-velocidades-de-un-glaciar-q7",
+        "type": "inference",
+        "prompt": "¿Por qué las dos fotos no permiten seguir una misma porción de hielo?",
+        "answer": "Porque muestran dónde está el límite en dos momentos, pero no identifican ni siguen el trayecto de una porción concreta.",
+        "lines": 2
+      },
+      {
+        "id": "las-dos-velocidades-de-un-glaciar-q8",
+        "type": "summary",
+        "prompt": "Escribe una frase para acompañar las dos flechas del dibujo final.",
+        "answer": "El hielo fluye pendiente abajo, mientras que el extremo puede retroceder si se pierde más hielo del que llega.",
+        "lines": 2
+      },
+      {
+        "id": "las-dos-velocidades-de-un-glaciar-q9",
+        "type": "opinion",
+        "prompt": "¿Qué cambiarías en un pie de foto que solo dijera «el hielo va hacia atrás»? Explica por qué.",
+        "answer": "Respuesta abierta. Habría que precisar que retrocede la posición del extremo para no sugerir que todo el hielo sube pendiente arriba.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "se repone",
+        "questionId": "las-dos-velocidades-de-un-glaciar-q3"
+      }
+    ]
+  },
+  {
+    "id": "una-entrevista-que-empezo-al-final-es",
+    "code": "L207",
+    "workId": "una-entrevista-que-empezo-al-final",
+    "language": "es",
+    "level": "6-primary",
+    "difficulty": "intermediate",
+    "themes": [
+      "arts",
+      "history",
+      "technology"
+    ],
+    "genre": "interview",
+    "title": "Una entrevista que empezó por el final",
+    "summary": "Una restauradora explica por qué reparar un mosaico no significa disimular todo lo que le ha pasado.",
+    "paragraphs": [
+      "La primera pregunta que habíamos preparado para Nora Vidal era «¿cómo empiezas a restaurar un mosaico?». Pero, al entrar en el taller, nos enseñó una pieza terminada. En la parte central había una zona lisa, sin dibujo. Decidimos empezar por el final: queríamos saber por qué una restauradora dejaba una parte tan visible sin completar.",
+      "—¿No parece que todavía falte algo?\n—Falta parte del mosaico antiguo y no queremos ocultarlo. En este caso conocíamos el dibujo de los bordes, pero no sabíamos qué había en el trozo perdido. El relleno sostiene el conjunto y evita dejar abierto ese hueco. Lo hemos hecho neutro para que no parezca una imagen antigua que en realidad habríamos inventado nosotros.",
+      "—¿Y si hubierais adivinado bien el dibujo?\n—Una posibilidad no es lo mismo que una prueba. Antes de decidir, revisamos fotografías, fragmentos conservados y notas de dónde había aparecido la pieza. Pudimos situar algunos fragmentos con seguridad. En otros puntos había varias formas posibles de continuar el patrón. Hemos guardado los bocetos, pero no los hemos convertido todos en mosaico.",
+      "—¿Entonces se ve qué habéis hecho vosotros?\n—Si te acercas, sí. A la distancia habitual puedes entender el conjunto; de cerca distinguirás el material añadido. También hemos preparado un informe con fotos de antes y después. Quien estudie la pieza más adelante necesitará saber qué partes encontramos y cuáles incorporamos en el taller.",
+      "—¿Qué ha costado más: colocar piezas o decidir cuáles no colocabais?\n—Ambas cosas requieren tiempo. El trabajo manual necesita precisión, pero algunas decisiones deben esperar hasta que tengamos información suficiente. No todas las piezas ni todos los casos se resuelven igual. Lo que veis aquí explica una decisión concreta sobre este mosaico.",
+      "Al salir conservamos el nuevo orden de la entrevista. Empezar por la zona sin dibujo nos había ayudado a entender el resto del trabajo. En el cuaderno, junto a la pregunta inicial, escribimos: «Una superficie terminada también puede mostrar lo que no sabemos»."
+    ],
+    "images": [
+      {
+        "id": "una-entrevista-que-empezo-al-final-art1",
+        "src": "assets/readings/l207-una-entrevista-que-empezo-al-final-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Una mesa de restauración con un mosaico geométrico azul, marfil y terracota con una zona central incompleta."
+      },
+      {
+        "id": "una-entrevista-que-empezo-al-final-art2",
+        "src": "assets/readings/l207-una-entrevista-que-empezo-al-final-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Un mosaico restaurado conserva una zona de relleno neutro que se distingue del dibujo antiguo."
+      }
+    ],
+    "questions": [
+      {
+        "id": "una-entrevista-que-empezo-al-final-q1",
+        "type": "literal",
+        "prompt": "¿Qué llama la atención de los entrevistadores al entrar?",
+        "answer": "Una zona lisa sin dibujo en el centro de un mosaico terminado.",
+        "lines": 1
+      },
+      {
+        "id": "una-entrevista-que-empezo-al-final-q2",
+        "type": "literal",
+        "prompt": "¿Qué tres fuentes de información revisa el equipo antes de decidir?",
+        "answer": "Fotografías, fragmentos conservados y notas sobre dónde había aparecido la pieza.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrevista-que-empezo-al-final-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa que han hecho el relleno «neutro»?",
+        "answer": "Que no han añadido un dibujo que pueda confundirse con el original y han procurado que no domine el conjunto.",
+        "lines": 1
+      },
+      {
+        "id": "una-entrevista-que-empezo-al-final-q4",
+        "type": "inference",
+        "prompt": "¿Por qué no convierten todos los bocetos en mosaico?",
+        "answer": "Porque algunos representan posibilidades sin pruebas suficientes y podrían hacer pasar una invención por una parte antigua.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrevista-que-empezo-al-final-q5",
+        "type": "inference",
+        "prompt": "¿Qué utilidad tiene el informe para quien estudie la pieza en el futuro?",
+        "answer": "Permite distinguir qué se encontró y qué se añadió, y conocer el estado anterior a la restauración.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrevista-que-empezo-al-final-q6",
+        "type": "structure",
+        "prompt": "¿Por qué los entrevistadores cambian el orden de las preguntas?",
+        "answer": "Porque una observación real del mosaico terminado les plantea una duda que ayuda a entender el proceso.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrevista-que-empezo-al-final-q7",
+        "type": "inference",
+        "prompt": "¿Podemos convertir la decisión sobre este mosaico en una norma que Nora aplique siempre? Justifícalo.",
+        "answer": "No. Precisa que no todos los casos se resuelven igual y que explica una decisión concreta.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrevista-que-empezo-al-final-q8",
+        "type": "summary",
+        "prompt": "Explica la frase final sobre una superficie terminada que muestra lo que no sabemos.",
+        "answer": "El mosaico está restaurado, pero la zona neutra muestra que desconocen el dibujo perdido. Terminar el trabajo no significa haber resuelto todas las dudas.",
+        "lines": 3
+      },
+      {
+        "id": "una-entrevista-que-empezo-al-final-q9",
+        "type": "opinion",
+        "prompt": "¿Qué nueva pregunta harías después de esta entrevista? Explica con qué información del texto se relaciona.",
+        "answer": "Respuesta abierta vinculada al texto, como preguntar cómo documentan las decisiones o cómo identifican un fragmento antes de colocarlo.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 2,
+        "text": "neutro",
+        "questionId": "una-entrevista-que-empezo-al-final-q3"
+      },
+      {
+        "paragraph": 3,
+        "text": "bocetos",
+        "definition": "Dibujos provisionales para estudiar cómo podría ser una forma o composición."
+      }
+    ]
   }
 ];
