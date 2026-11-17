@@ -1108,5 +1108,740 @@ export const readings4ExpansionCa = [
         "questionId": "el-equipo-que-se-quedo-a-recoger-q3"
       }
     ]
+  },
+  {
+    "id": "la-tienda-de-los-ecos-ca",
+    "code": "L181",
+    "title": "La botiga dels ecos",
+    "summary": "La Yara busca un regal que soni com el mar, però el pot que porta a casa guarda alguna cosa més.",
+    "paragraphs": [
+      "A la botiga dels ecos hi havia pots que semblaven buits, però sonaven quan algú els destapava. En un se sentia una tempesta. En un altre, el grinyol d’una porta. La Yara en va obrir un de molt petit i va sentir una rialla tan fonda que el pot li va tremolar entre els dits.",
+      "Volia portar el so del mar al seu germà, que encara no l’havia vist. La botiguera va buscar a la prestatgeria blava, però no hi quedava cap pot d’onades. Li va oferir un pot buit. «Destapa’l allà on vulguis guardar un so. Després torna’l a tapar. Quan l’obris, en sentiràs l’eco.»",
+      "La Yara va anar a la platja. Va deixar el pot obert damunt d’una roca i es va asseure a esperar una onada grossa. Quan va arribar, l’aigua li va mullar els peus. Va començar a riure i va saltar fins a una altra roca abans de recordar-se del pot. El va tapar corrents i se’l va posar a la bossa.",
+      "A casa, el germà va destapar el regal. Primer va sentir un cop d’aigua. Després, una rialla que ja coneixia. «El mar riu com tu?», va preguntar. La Yara va mirar els mitjons estesos al balcó. Li va explicar què havia passat i li va proposar que hi anessin plegats. El germà va acostar el pot a l’orella un altre cop. Aquesta vegada va començar a riure abans que sonés l’eco."
+    ],
+    "imageAlt": {
+      "la-tienda-de-los-ecos-art1": "Una petita botiga de fantasia amb pots de vidre a les prestatgeries. D’un pot obert en surt una onada translúcida amb la forma d’un so."
+    },
+    "questions": [
+      {
+        "id": "la-tienda-de-los-ecos-q1",
+        "type": "literal",
+        "prompt": "Quin so volia regalar la Yara al germà?",
+        "answer": "El so del mar.",
+        "lines": 1
+      },
+      {
+        "id": "la-tienda-de-los-ecos-q2",
+        "type": "literal",
+        "prompt": "Què havia de fer amb el pot per guardar-hi un so?",
+        "answer": "Destapar-lo al lloc on volia guardar el so i tornar-lo a tapar després.",
+        "lines": 2
+      },
+      {
+        "id": "la-tienda-de-los-ecos-q3",
+        "type": "inference",
+        "prompt": "Per què el pot que li dona la botiguera no pot sonar com el mar de seguida?",
+        "answer": "Perquè és buit. La Yara ha d’anar al mar per omplir-lo del so que vol guardar.",
+        "lines": 2
+      },
+      {
+        "id": "la-tienda-de-los-ecos-q4",
+        "type": "vocabulary",
+        "prompt": "Què significa «fonda» quan es parla de la rialla del primer pot?",
+        "answer": "Que és una rialla de so greu i intens. No es refereix a la profunditat del pot.",
+        "lines": 2
+      },
+      {
+        "id": "la-tienda-de-los-ecos-q5",
+        "type": "inference",
+        "prompt": "Com sabem que el pot ha guardat més sons dels que la Yara volia?",
+        "answer": "Quan el germà l’obre, se sent tant l’onada com la rialla de la Yara.",
+        "lines": 2
+      },
+      {
+        "id": "la-tienda-de-los-ecos-q6",
+        "type": "structure",
+        "prompt": "Per què el text ensenya els mitjons estesos just quan el germà fa la pregunta?",
+        "answer": "Recorden que l’onada havia mullat la Yara i ajuden a entendre d’on surt la rialla del pot.",
+        "lines": 2
+      },
+      {
+        "id": "la-tienda-de-los-ecos-q7",
+        "type": "inference",
+        "prompt": "Per què el germà riu abans de sentir l’eco l’última vegada?",
+        "answer": "Perquè ja coneix la història i s’imagina la germana amb els peus mullats o recorda la rialla que sentirà.",
+        "lines": 2
+      },
+      {
+        "id": "la-tienda-de-los-ecos-q8",
+        "type": "opinion",
+        "prompt": "Diries que el regal ha sortit malament? Argumenta-ho amb dos detalls de la història.",
+        "answer": "Resposta oberta. Per exemple, no: hi ha el mar que volia regalar i una experiència de la germana que els fa riure tots dos.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 1,
+        "text": "fonda",
+        "questionId": "la-tienda-de-los-ecos-q4"
+      }
+    ]
+  },
+  {
+    "id": "la-piedra-que-pesaba-poco-ca",
+    "code": "L182",
+    "title": "La pedra que pesava poc",
+    "summary": "Dues pedres semblants de mida donen una sorpresa al taller del museu.",
+    "paragraphs": [
+      "Al taller del museu hi havia dues pedres dins d’una safata. Eren de mida semblant, però quan en Marc les va agafar va notar que una pesava molt menys. La més lleugera era clara i tenia foradets per tota la superfície. L’altra era fosca i compacta. En Marc va dir que la clara devia ser una pedra falsa feta per a l’exposició.",
+      "La guia els va explicar que era pedra tosca, una roca volcànica. Es forma quan un material fos del volcà, ple de bombolles de gas, es refreda i queda sòlid. Les cavitats de les bombolles donen a la roca un aspecte d’esponja. Una part del seu volum és espai buit. Per això un tros pot ser molt lleuger en comparació amb una roca compacta de la mateixa mida.",
+      "La guia va deixar la pedra clara en un recipient amb aigua. Aquell tros flotava. Després hi va posar la pedra fosca, que es va enfonsar. En Marc va voler escriure que totes les roques volcàniques flotaven. La guia va assenyalar la pedra fosca: també procedia d’un volcà.",
+      "Al full del taller, en Marc va dibuixar els dos fragments. A la pedra clara hi va afegir els foradets. La primera frase de la seva explicació ja no deia que fos falsa. Deia: «No puc saber si una pedra és de veritat només mirant la mida i notant-ne el pes». A sota va deixar espai per anotar-ne també l’aspecte."
+    ],
+    "imageAlt": {
+      "la-piedra-que-pesaba-poco-art1": "Un tros de pedra tosca de color crema amb molts forats flota dins d’un recipient transparent d’aigua. Una pedra fosca compacta és al costat."
+    },
+    "questions": [
+      {
+        "id": "la-piedra-que-pesaba-poco-q1",
+        "type": "literal",
+        "prompt": "En què s’assemblaven les dues pedres abans que en Marc les agafés?",
+        "answer": "Tenien una mida semblant.",
+        "lines": 1
+      },
+      {
+        "id": "la-piedra-que-pesaba-poco-q2",
+        "type": "literal",
+        "prompt": "Què va fer el tros de pedra clara quan la guia el va posar a l’aigua?",
+        "answer": "Va flotar.",
+        "lines": 1
+      },
+      {
+        "id": "la-piedra-que-pesaba-poco-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa «compacta» quan es descriu la pedra fosca?",
+        "answer": "Que la roca és atapeïda i no presenta els espais buits visibles de la pedra tosca.",
+        "lines": 2
+      },
+      {
+        "id": "la-piedra-que-pesaba-poco-q4",
+        "type": "inference",
+        "prompt": "Per què els foradets ajuden a explicar que la pedra clara pesi menys?",
+        "answer": "Perquè una part del volum són cavitats i hi ha menys material que en una pedra compacta de la mateixa mida.",
+        "lines": 2
+      },
+      {
+        "id": "la-piedra-que-pesaba-poco-q5",
+        "type": "inference",
+        "prompt": "Quina dada del text contradiu la idea que totes les roques volcàniques floten?",
+        "answer": "La pedra fosca també procedia d’un volcà i es va enfonsar.",
+        "lines": 2
+      },
+      {
+        "id": "la-piedra-que-pesaba-poco-q6",
+        "type": "structure",
+        "prompt": "Com canvia l’explicació d’en Marc entre el primer i l’últim paràgraf?",
+        "answer": "Primer creu que la pedra lleugera és falsa. Al final accepta que pot ser real i que cal mirar més característiques.",
+        "lines": 2
+      },
+      {
+        "id": "la-piedra-que-pesaba-poco-q7",
+        "type": "summary",
+        "prompt": "Explica en dues frases com es forma la pedra tosca i què la fa diferent d’una roca compacta.",
+        "answer": "El material del volcà amb bombolles de gas es refreda i queda sòlid. Els buits deixats per les bombolles fan que pugui pesar molt poc per a la mida que té.",
+        "lines": 3
+      },
+      {
+        "id": "la-piedra-que-pesaba-poco-q8",
+        "type": "opinion",
+        "prompt": "Una companya diu que una sola prova ja serveix per conèixer totes les pedres. Què li respondries amb un exemple del text?",
+        "answer": "Resposta oberta. Per exemple, que no: dues pedres volcàniques de mida semblant es comporten de manera diferent a l’aigua.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 1,
+        "text": "compacta",
+        "questionId": "la-piedra-que-pesaba-poco-q3"
+      }
+    ]
+  },
+  {
+    "id": "una-foto-para-recordar-el-tamano-ca",
+    "code": "L183",
+    "title": "Una foto per recordar la mida",
+    "summary": "Una pedra trobada en una passejada ajuda a preparar una fotografia que expliqui també la mida de l’objecte.",
+    "paragraphs": [
+      "Has trobat una pedra amb unes ratlles que et criden l’atenció. Vols fotografiar-la abans de tornar-la al lloc on era. Si omples tota la imatge amb la pedra, es veuran bé les ratlles, però qui miri la foto no sabrà si era petita com una ungla o grossa com un puny.",
+      "Per preparar una fotografia amb una referència de mida, deixa la pedra sobre un full de color llis. Posa-hi un regle pla al costat, tan a prop com puguis sense tapar la pedra. El regle i la pedra han de quedar a la mateixa superfície. Si aguantes el regle molt més a prop de la càmera, a la imatge semblarà massa gran al costat de la pedra.",
+      "Col·loca la càmera mirant cap avall i procura que les marques del regle es vegin clares. Abans de disparar, comprova que la teva ombra no tapi les ratlles. Pots moure el full a un lloc amb llum més uniforme perquè les ratlles es vegin bé, sense zones molt fosques ni reflexos que les amaguin.",
+      "Fes dues fotografies: una del conjunt amb el regle i una de més a prop per veure els detalls. Guarda-les juntes amb una nota del lloc i el dia de la troballa. La primera t’ajudarà a recordar la mida. La segona et permetrà mirar les ratlles sense perdre-les entre tants altres elements."
+    ],
+    "imageAlt": {
+      "una-foto-para-recordar-el-tamano-art1": "Una petita pedra ratllada en un full gris amb un regle pla al costat, sota una càmera subjectada en un petit trípode."
+    },
+    "questions": [
+      {
+        "id": "una-foto-para-recordar-el-tamano-q1",
+        "type": "literal",
+        "prompt": "Què ha de quedar al costat de la pedra a la primera fotografia?",
+        "answer": "Un regle pla.",
+        "lines": 1
+      },
+      {
+        "id": "una-foto-para-recordar-el-tamano-q2",
+        "type": "literal",
+        "prompt": "Quines dues dades s’han d’apuntar amb les fotografies?",
+        "answer": "El lloc i el dia de la troballa.",
+        "lines": 1
+      },
+      {
+        "id": "una-foto-para-recordar-el-tamano-q3",
+        "type": "vocabulary",
+        "prompt": "Què vol dir «referència de mida» en aquestes instruccions?",
+        "answer": "Un element que permet comparar i estimar quant mesura l’objecte fotografiat.",
+        "lines": 1
+      },
+      {
+        "id": "una-foto-para-recordar-el-tamano-q4",
+        "type": "inference",
+        "prompt": "Per què una fotografia de molt a prop pot fer dubtar sobre la mida real de la pedra?",
+        "answer": "Perquè no hi ha cap objecte conegut amb què comparar-la i una pedra petita pot omplir tota la foto.",
+        "lines": 2
+      },
+      {
+        "id": "una-foto-para-recordar-el-tamano-q5",
+        "type": "inference",
+        "prompt": "Quin problema hi ha si el regle és molt més a prop de la càmera que la pedra?",
+        "answer": "El regle sembla massa gran al costat de la pedra i la comparació de mides deixa de ser adequada.",
+        "lines": 2
+      },
+      {
+        "id": "una-foto-para-recordar-el-tamano-q6",
+        "type": "structure",
+        "prompt": "Per què el text recomana guardar dues fotografies en lloc de triar-ne només una?",
+        "answer": "Perquè cadascuna aporta una informació diferent: una mostra la mida i l’altra els detalls.",
+        "lines": 2
+      },
+      {
+        "id": "una-foto-para-recordar-el-tamano-q7",
+        "type": "inference",
+        "prompt": "Per què convé mirar l’ombra abans de fotografiar les ratlles?",
+        "answer": "Perquè una ombra pot tapar-les o fer-les difícils de veure, just quan són el detall que volem recordar.",
+        "lines": 2
+      },
+      {
+        "id": "una-foto-para-recordar-el-tamano-q8",
+        "type": "opinion",
+        "prompt": "Una persona només guarda la foto dels detalls. Quina informació li pot faltar després? Dona dos exemples del text.",
+        "answer": "Li pot faltar la mida de la pedra i, si tampoc ha guardat la nota, el lloc o el dia de la troballa.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 2,
+        "text": "referència de mida",
+        "questionId": "una-foto-para-recordar-el-tamano-q3"
+      }
+    ]
+  },
+  {
+    "id": "una-carta-para-el-ropero-ca",
+    "code": "L184",
+    "title": "Una carta per al rober",
+    "summary": "Una voluntària escriu als participants d’un intercanvi de roba després de preparar les primeres caixes.",
+    "paragraphs": [
+      "Benvolgudes famílies,",
+      "Dissabte obrirem el rober d’intercanvi al casal. Ahir vam començar a classificar les peces que ja heu portat. Hi havia moltes jaquetes petites i pocs pantalons grans. Per això hem afegit les talles que ens falten al cartell de l’entrada. Abans de preparar una bossa nova, podeu mirar-lo: potser teniu justament una peça que algú està buscant.",
+      "Hem trobat també roba amb un botó desprès o una costura oberta. Són peces que es podrien tornar a portar amb una reparació senzilla, però no les podem posar directament a les taules com si ja estiguessin a punt. Les hem deixat en una capsa separada. Dimecres, dues persones que saben cosir ens ajudaran a revisar-les. Si voleu aprendre a posar un botó, hi podeu venir.",
+      "Us demanem que porteu la roba neta i que mireu les butxaques abans de donar-la. Ahir hi vam trobar una pedra pintada i una fotografia de carnet. Les guardarem a la recepció perquè els seus propietaris les puguin recuperar sense haver d’obrir totes les caixes.",
+      "El rober no funcionarà millor només perquè hi hagi més bosses. Necessitem peces que es puguin fer servir, talles variades i una mica de temps per ordenar-ho tot. Dissabte hi haurà persones per ajudar-vos a trobar les talles. Si deixem cada peça al seu lloc després de mirar-la, els qui arribin més tard també la podran trobar.",
+      "Gràcies per ajudar-nos. Lorena, equip del rober."
+    ],
+    "imageAlt": {
+      "una-carta-para-el-ropero-art1": "Una taula d’intercanvi de roba amb tres piles de peces plegades i una capsa petita de botons, fil i agulles protegides en un coixinet."
+    },
+    "questions": [
+      {
+        "id": "una-carta-para-el-ropero-q1",
+        "type": "literal",
+        "prompt": "Quan obrirà el rober? Quin dia es revisaran les peces per reparar?",
+        "answer": "Obrirà dissabte. Les peces es revisaran dimecres.",
+        "lines": 1
+      },
+      {
+        "id": "una-carta-para-el-ropero-q2",
+        "type": "literal",
+        "prompt": "Quins dos objectes han trobat a les butxaques?",
+        "answer": "Una pedra pintada i una fotografia de carnet.",
+        "lines": 1
+      },
+      {
+        "id": "una-carta-para-el-ropero-q3",
+        "type": "vocabulary",
+        "prompt": "Què vol dir «classificar» les peces?",
+        "answer": "Separar-les i ordenar-les segons característiques com el tipus, la talla o l’estat.",
+        "lines": 1
+      },
+      {
+        "id": "una-carta-para-el-ropero-q4",
+        "type": "inference",
+        "prompt": "Per què convé mirar el cartell abans de preparar una altra bossa?",
+        "answer": "Per saber quines talles falten i portar peces que responguin a les necessitats del rober.",
+        "lines": 2
+      },
+      {
+        "id": "una-carta-para-el-ropero-q5",
+        "type": "inference",
+        "prompt": "Per què no han posat a les taules les peces amb el botó desprès?",
+        "answer": "Perquè encara necessiten una reparació abans de poder-se oferir com a roba a punt per fer servir.",
+        "lines": 2
+      },
+      {
+        "id": "una-carta-para-el-ropero-q6",
+        "type": "structure",
+        "prompt": "Quin exemple posa la carta per demanar que revisem les butxaques? Com ajuda a entendre la petició?",
+        "answer": "Explica que van trobar dos objectes dins de la roba. L’exemple mostra que algú pot donar sense voler una cosa que volia conservar.",
+        "lines": 3
+      },
+      {
+        "id": "una-carta-para-el-ropero-q7",
+        "type": "inference",
+        "prompt": "Com pot ajudar algú que no té roba per donar? Dona dues possibilitats del text.",
+        "answer": "Pot ajudar a ordenar les peces o, si en sap, a revisar i reparar roba. També pot aprendre a posar botons.",
+        "lines": 2
+      },
+      {
+        "id": "una-carta-para-el-ropero-q8",
+        "type": "opinion",
+        "prompt": "Quina de les peticions de la carta et sembla més important perquè l’intercanvi funcioni? Justifica-la amb una conseqüència.",
+        "answer": "Resposta oberta. Per exemple, ordenar les talles perquè qui arriba després pugui trobar el que busca.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 2,
+        "text": "classificar",
+        "questionId": "una-carta-para-el-ropero-q3"
+      }
+    ]
+  },
+  {
+    "id": "la-cartografa-de-los-olores-ca",
+    "code": "L185",
+    "title": "La cartògrafa de les olors",
+    "summary": "Una cartògrafa prepara un mapa del barri que no es pot completar sense aturar-se a respirar.",
+    "paragraphs": [
+      "La Bruna és cartògrafa. Avui porta un plànol del barri, però els seus llapis no dibuixaran només carrers. Ens convida a fer un mapa de les olors.",
+      "—Per on comencem?\n—Per un lloc que puguem trobar tots. Som davant de la biblioteca. Hi dibuixem una estrella i apuntem l’hora. Després caminem a poc a poc. Quan notem una olor, ens aturem i marquem el lloc on érem.",
+      "—Dibuixarem un pa davant del forn?\n—Si avui hi sentim olor de pa, sí. Ahir a la tarda era tancat i no hi notava res. En canvi, al costat de la floristeria, la pluja havia mullat uns testos i feia olor de terra humida.",
+      "—Tots hi notarem les mateixes olors?\n—Potser no. Algú hi reconeixerà el romaní perquè en té a casa. Un altre només dirà que fa olor de planta. En comptes d’esborrar una resposta, podem escriure les dues descripcions amb els noms de qui les ha proposat.",
+      "—Aquest mapa durarà sempre?\n—El paper pot durar. El que representa és més efímer. El vent, l’hora o una porta tancada poden canviar el que sentim al mateix carrer. Per això no hi posarem només els símbols: també hi afegirem quan hem passat per cada lloc.",
+      "—I si un altre grup fa el recorregut demà?\n—Que s’emporti una còpia i un altre color. Si hi troba diferències, no cal decidir de seguida quin grup s’ha equivocat. Primer ens haurem de preguntar què havia canviat."
+    ],
+    "imageAlt": {
+      "la-cartografa-de-los-olores-art1": "Un quadern amb un plànol senzill del barri i petits símbols de pa, flors i pluja, al costat d’uns llapis i una branca de romaní."
+    },
+    "questions": [
+      {
+        "id": "la-cartografa-de-los-olores-q1",
+        "type": "literal",
+        "prompt": "Quin lloc fan servir de punt de partida?",
+        "answer": "La biblioteca.",
+        "lines": 1
+      },
+      {
+        "id": "la-cartografa-de-los-olores-q2",
+        "type": "literal",
+        "prompt": "Quina olor notava la Bruna al costat de la floristeria després de ploure?",
+        "answer": "Olor de terra humida.",
+        "lines": 1
+      },
+      {
+        "id": "la-cartografa-de-los-olores-q3",
+        "type": "vocabulary",
+        "prompt": "Què vol dir que el que representa el mapa és «efímer»?",
+        "answer": "Que pot canviar o durar poc, encara que el paper es conservi.",
+        "lines": 2
+      },
+      {
+        "id": "la-cartografa-de-los-olores-q4",
+        "type": "inference",
+        "prompt": "Per què no dibuixen el pa davant del forn sense comprovar primer l’olor?",
+        "answer": "Perquè el mapa ha de representar el que han percebut aquell dia, i un forn tancat pot no fer olor de pa.",
+        "lines": 2
+      },
+      {
+        "id": "la-cartografa-de-los-olores-q5",
+        "type": "inference",
+        "prompt": "Per què una persona pot reconèixer el romaní i una altra descriure només olor de planta?",
+        "answer": "Perquè les olors que coneixen depenen també de les seves experiències, com tenir romaní a casa.",
+        "lines": 2
+      },
+      {
+        "id": "la-cartografa-de-los-olores-q6",
+        "type": "structure",
+        "prompt": "Què aporta escriure l’hora al costat dels símbols?",
+        "answer": "Permet saber quan es van notar les olors i comparar després si l’hora pot explicar diferències.",
+        "lines": 2
+      },
+      {
+        "id": "la-cartografa-de-los-olores-q7",
+        "type": "inference",
+        "prompt": "Dos grups fan mapes diferents del mateix carrer. Segons la Bruna, per què això no prova que un grup s’hagi equivocat?",
+        "answer": "Perquè poden haver passat a hores diferents, amb un altre vent, després de ploure o amb les portes dels locals obertes o tancades.",
+        "lines": 3
+      },
+      {
+        "id": "la-cartografa-de-los-olores-q8",
+        "type": "opinion",
+        "prompt": "Quina altra dada afegiries al mapa perquè un grup el pogués comparar amb el seu? Explica per què.",
+        "answer": "Resposta oberta. Per exemple, si plovia o feia vent, per interpretar per què una olor s’havia sentit més o menys.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 5,
+        "text": "efímer",
+        "questionId": "la-cartografa-de-los-olores-q3"
+      },
+      {
+        "paragraph": 1,
+        "text": "cartògrafa",
+        "definition": "Persona que elabora mapes."
+      }
+    ]
+  },
+  {
+    "id": "un-tablero-para-ganar-juntos-ca",
+    "code": "L186",
+    "title": "Un tauler per guanyar plegats",
+    "summary": "Un joc inventat al casal canvia la manera de decidir qui ha guanyat.",
+    "paragraphs": [
+      "Al casal hem provat un joc cooperatiu inventat pel grup de cinquè. Es diu Els quatre ponts. Hi poden jugar quatre persones, però no hi ha un guanyador per color. Tots els peons han d’arribar a l’altra banda del riu abans que s’acabi la pila de cartes.",
+      "Cada torn comença girant una carta. Algunes donen fusta per construir un pont. Altres fan pujar l’aigua i obliguen a aturar els peons que encara són al mig d’una passera. La fusta es pot guardar en una capsa comuna. Qualsevol jugador en pot gastar quan li toca, encara que la carta l’hagi aconseguida una altra persona.",
+      "A la primera partida, jo només mirava el meu peó. Vaig arribar a l’altra riba aviat, però la pila es va acabar quan la meva companya encara era al mig del riu. Segons les regles, havíem perdut tots. A la segona vam decidir parlar abans de gastar la fusta. La meva última peça va servir per acabar el pont d’una altra jugadora.",
+      "El joc m’ha agradat perquè podem discutir els plans sense haver d’amagar les cartes. Hi canviaria una cosa: les cartes d’aigua tenen dibuixos massa semblants i de vegades les confonem. Els creadors han dit que hi afegiran un símbol més gran.",
+      "El recomanaria a qui té paciència per escoltar idees diferents. Si només vols arribar primer, pots acabar a l’altra riba mirant com perd el teu equip."
+    ],
+    "imageAlt": {
+      "un-tablero-para-ganar-juntos-art1": "Un tauler de joc artesanal amb un riu blau, petits ponts de fusta i peons de colors. Unes cartes il·lustrades són en un costat."
+    },
+    "questions": [
+      {
+        "id": "un-tablero-para-ganar-juntos-q1",
+        "type": "literal",
+        "prompt": "Qui ha inventat el joc?",
+        "answer": "El grup de cinquè del casal.",
+        "lines": 1
+      },
+      {
+        "id": "un-tablero-para-ganar-juntos-q2",
+        "type": "literal",
+        "prompt": "Què ha de passar perquè els jugadors guanyin?",
+        "answer": "Tots els peons han d’arribar a l’altra riba abans que s’acabin les cartes.",
+        "lines": 2
+      },
+      {
+        "id": "un-tablero-para-ganar-juntos-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa «cooperatiu» quan es parla d’aquest joc?",
+        "answer": "Que les persones juguen per assolir un objectiu compartit i guanyen o perden com a equip.",
+        "lines": 1
+      },
+      {
+        "id": "un-tablero-para-ganar-juntos-q4",
+        "type": "inference",
+        "prompt": "Per què qui escriu la ressenya havia perdut la primera partida, tot i haver arribat a l’altra banda?",
+        "answer": "Perquè encara hi havia una companya al riu quan es van acabar les cartes, i la victòria havia de ser de tot el grup.",
+        "lines": 2
+      },
+      {
+        "id": "un-tablero-para-ganar-juntos-q5",
+        "type": "inference",
+        "prompt": "Quina regla permet fer servir la fusta per ajudar una altra persona?",
+        "answer": "Que la fusta es pot guardar en una capsa comuna i qualsevol jugador en pot gastar al seu torn.",
+        "lines": 2
+      },
+      {
+        "id": "un-tablero-para-ganar-juntos-q6",
+        "type": "structure",
+        "prompt": "Quin problema del joc assenyala la ressenya i quina millora hi anuncien?",
+        "answer": "Es confonen les cartes d’aigua perquè s’assemblen massa. Hi afegiran un símbol més gran.",
+        "lines": 2
+      },
+      {
+        "id": "un-tablero-para-ganar-juntos-q7",
+        "type": "inference",
+        "prompt": "Com canvia la manera de jugar entre la primera partida i la segona?",
+        "answer": "A la primera cadascú pot mirar només el seu peó. A la segona parlen i reparteixen la fusta per ajudar qui ho necessita.",
+        "lines": 2
+      },
+      {
+        "id": "un-tablero-para-ganar-juntos-q8",
+        "type": "opinion",
+        "prompt": "T’agradaria jugar-hi? Relaciona la teva resposta amb dues característiques concretes del joc.",
+        "answer": "Resposta oberta. Pot valorar el fet de decidir en grup, compartir recursos, no amagar cartes o perdre tots plegats.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 1,
+        "text": "cooperatiu",
+        "questionId": "un-tablero-para-ganar-juntos-q3"
+      }
+    ]
+  },
+  {
+    "id": "el-dibujo-que-viajo-en-autobus-ca",
+    "code": "L187",
+    "title": "El dibuix que va viatjar en autobús",
+    "summary": "Una exposició escolar surt del passadís i acompanya els trajectes del barri durant una setmana.",
+    "paragraphs": [
+      "Durant aquesta setmana, un autobús de la línia del barri porta una exposició de dibuixos de quart. Les còpies s’han col·locat en uns plafons de la part del darrere, on els passatgers les poden mirar sense tapar les finestres. Els originals continuen a l’escola.",
+      "La proposta va començar quan la conductora d’una de les rutes va visitar l’exposició del passadís. Hi va reconèixer el mercat, la font i el pont que veia cada dia des del volant. Va preguntar a l’escola si podrien preparar una versió més petita per a l’autobús. Abans de muntar-la, els alumnes van provar els dibuixos des de la distància que tindrien els passatgers.",
+      "L’Oriol havia dibuixat la seva àvia al balcó. Al primer esborrany, les mans i els testos eren tan petits que no es distingien des del seient del davant. Va ampliar la figura i va deixar menys detalls a la paret. La seva àvia no acostuma a anar a l’escola, però fa servir aquella línia dos dies per setmana.",
+      "Dimarts va pujar a l’autobús sense saber que hi trobaria l’exposició. En veure el dibuix, va dir a la passatgera del costat: «Aquest balcó és el meu». L’Oriol ho va saber a la tarda. No li van explicar si a l’àvia li havia agradat el color del cel. Li van dir que havia anat tota l’estona dreta davant del plafó, fins que la conductora li va recordar que ja arribaven a la seva parada."
+    ],
+    "imageAlt": {
+      "el-dibujo-que-viajo-en-autobus-art1": "Un autobús urbà aturat al costat d’una parada. Per una finestra del lateral es veuen petits dibuixos exposats. Una àvia i un infant els miren des de fora."
+    },
+    "questions": [
+      {
+        "id": "el-dibujo-que-viajo-en-autobus-q1",
+        "type": "literal",
+        "prompt": "On són els dibuixos originals durant l’exposició de l’autobús?",
+        "answer": "A l’escola.",
+        "lines": 1
+      },
+      {
+        "id": "el-dibujo-que-viajo-en-autobus-q2",
+        "type": "literal",
+        "prompt": "Qui va proposar fer una versió de l’exposició per a l’autobús?",
+        "answer": "La conductora d’una de les rutes.",
+        "lines": 1
+      },
+      {
+        "id": "el-dibujo-que-viajo-en-autobus-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa «esborrany» quan es parla del dibuix de l’Oriol?",
+        "answer": "Una primera versió del dibuix que encara es pot canviar abans de donar-lo per acabat.",
+        "lines": 1
+      },
+      {
+        "id": "el-dibujo-que-viajo-en-autobus-q4",
+        "type": "inference",
+        "prompt": "Per què van mirar els dibuixos des d’una distància semblant a la dels passatgers?",
+        "answer": "Per comprovar si s’entendrien i es veurien els detalls des dels seients.",
+        "lines": 2
+      },
+      {
+        "id": "el-dibujo-que-viajo-en-autobus-q5",
+        "type": "inference",
+        "prompt": "Per què aquesta exposició dona a l’àvia una oportunitat que potser no tenia a l’escola?",
+        "answer": "Perquè fa servir l’autobús sovint, però no acostuma a visitar l’escola.",
+        "lines": 2
+      },
+      {
+        "id": "el-dibujo-que-viajo-en-autobus-q6",
+        "type": "inference",
+        "prompt": "Quin comportament fa pensar que el dibuix va interessar a l’àvia?",
+        "answer": "Es va quedar mirant-lo tot el trajecte i gairebé no va adonar-se que arribava a la seva parada.",
+        "lines": 2
+      },
+      {
+        "id": "el-dibujo-que-viajo-en-autobus-q7",
+        "type": "structure",
+        "prompt": "Per què la notícia inclou l’anècdota de l’àvia després d’explicar com es va muntar l’exposició?",
+        "answer": "Per mostrar amb un cas concret com els dibuixos han arribat a persones fora de l’escola.",
+        "lines": 2
+      },
+      {
+        "id": "el-dibujo-que-viajo-en-autobus-q8",
+        "type": "opinion",
+        "prompt": "Què tindries en compte per triar un dibuix per a un espai públic com aquest? Esmenta dues idees del text.",
+        "answer": "Resposta oberta. Per exemple, que es vegi bé des d’una certa distància i que representi llocs o persones que el públic pugui reconèixer.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "esborrany",
+        "questionId": "el-dibujo-que-viajo-en-autobus-q3"
+      }
+    ]
+  },
+  {
+    "id": "un-bosque-de-raices-en-el-agua-ca",
+    "code": "L188",
+    "title": "Un bosc d’arrels a l’aigua",
+    "summary": "Als manglars, una part del bosc s’amaga sota l’aigua i serveix de refugi a molts animals.",
+    "paragraphs": [
+      "En algunes costes càlides, els arbres no s’acaben just abans de la platja. Formen boscos en terrenys que s’inunden amb les marees. Són els manglars, formats per arbres que anomenem mangles. En algunes espècies, les arrels baixen del tronc com unes potes llargues que s’endinsen al fang.",
+      "Aquest lloc seria difícil per a molts arbres de terra endins. L’aigua pot portar força sal i al sòl inundat hi ha poc oxigen. Els mangles tenen adaptacions que els permeten viure en aquestes condicions. Alguns impedeixen que entri gaire sal per les arrels; altres en poden expulsar una part per les fulles. No totes les espècies ho fan de la mateixa manera.",
+      "Entre les arrels hi troben refugi peixos petits, crancs i molts altres animals. Les arrels compliquen el pas de depredadors més grossos. També hi viuen organismes enganxats a la fusta submergida. Si només mirem les capçades des d’una barca, ens perdrem una bona part de la vida del bosc.",
+      "Les arrels ajuden a retenir fang i sediments i a frenar part del moviment de l’aigua prop de la costa. Per això, quan es transforma un manglar, no es perden només uns quants arbres. També canvien els llocs on molts animals s’amaguen i s’alimenten. Un paisatge que pot semblar un embull de fusta és, en realitat, un conjunt d’espais connectats: sota les fulles, entre les arrels i dins de l’aigua."
+    ],
+    "imageAlt": {
+      "un-bosque-de-raices-en-el-agua-art1": "Una escena de manglar amb arrels arquejades que entren en aigua poc fonda. Entre les arrels es veuen peixos petits i un cranc."
+    },
+    "questions": [
+      {
+        "id": "un-bosque-de-raices-en-el-agua-q1",
+        "type": "literal",
+        "prompt": "A quin tipus de costa es troben els manglars del text?",
+        "answer": "En costes càlides amb terrenys que s’inunden amb les marees.",
+        "lines": 1
+      },
+      {
+        "id": "un-bosque-de-raices-en-el-agua-q2",
+        "type": "literal",
+        "prompt": "Quins dos problemes del lloc serien difícils per a molts altres arbres?",
+        "answer": "La sal de l’aigua i el poc oxigen del sòl inundat.",
+        "lines": 2
+      },
+      {
+        "id": "un-bosque-de-raices-en-el-agua-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa «refugi» quan es parla dels animals petits?",
+        "answer": "Un lloc on es poden amagar o protegir-se.",
+        "lines": 1
+      },
+      {
+        "id": "un-bosque-de-raices-en-el-agua-q4",
+        "type": "inference",
+        "prompt": "Per què les arrels poden protegir els peixos petits de depredadors més grossos?",
+        "answer": "Perquè dificulten el pas dels animals grans i ofereixen espais on els petits es poden amagar.",
+        "lines": 2
+      },
+      {
+        "id": "un-bosque-de-raices-en-el-agua-q5",
+        "type": "inference",
+        "prompt": "Per què mirar només les capçades no dona una imatge completa del manglar?",
+        "answer": "Perquè molts animals i organismes viuen entre les arrels i sota l’aigua, on no els veurem així.",
+        "lines": 2
+      },
+      {
+        "id": "un-bosque-de-raices-en-el-agua-q6",
+        "type": "structure",
+        "prompt": "Quina part del text explica com sobreviuen els arbres i quina descriu els animals?",
+        "answer": "El segon paràgraf explica les adaptacions dels arbres. El tercer descriu animals i organismes que viuen entre les arrels.",
+        "lines": 2
+      },
+      {
+        "id": "un-bosque-de-raices-en-el-agua-q7",
+        "type": "inference",
+        "prompt": "Per què eliminar els arbres també pot afectar els animals que viuen a l’aigua?",
+        "answer": "Perquè desapareixen les arrels que els serveixen de refugi i canvien els llocs on s’alimenten i s’amaguen.",
+        "lines": 3
+      },
+      {
+        "id": "un-bosque-de-raices-en-el-agua-q8",
+        "type": "opinion",
+        "prompt": "Si haguessis de dibuixar el manglar perquè s’entengués el text, quines dues zones hi mostraries? Justifica-ho.",
+        "answer": "Resposta oberta. Per exemple, la part amb troncs i capçades i la part submergida amb arrels i animals, per mostrar que el bosc ocupa tots dos espais.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "refugi",
+        "questionId": "un-bosque-de-raices-en-el-agua-q3"
+      },
+      {
+        "paragraph": 1,
+        "text": "mangles",
+        "definition": "Arbres adaptats a viure en costes càlides inundades per aigua salada o barrejada amb aigua dolça."
+      }
+    ]
+  },
+  {
+    "id": "el-camino-del-mensajero-ca",
+    "code": "L189",
+    "title": "El camí del missatger",
+    "summary": "En Neri porta una carta al molí i ha de triar entre el camí dibuixat al mapa i el que realment pot recórrer.",
+    "paragraphs": [
+      "En Neri va sortir de la plaça amb una carta dins d’una bossa de cuir. L’havia de portar al molí abans del migdia. L’home que l’hi havia donada li va deixar un plànol: el camí més curt baixava fins a la riera i passava per un pontet de fusta. L’altre pujava cap als camps i feia una volta per darrere del bosc.",
+      "A la cruïlla, en Neri va triar el camí de la riera. Ja sentia l’aigua quan va veure una barrera travessada davant del pont. Un tauló era a terra i al costat hi havia eines. Una dona que venia dels camps li va dir que el reparaven des de la tempesta. En Neri va mirar el plànol. El pont hi apareixia sencer, sense cap senyal que indiqués les obres.",
+      "Va tornar a la cruïlla i va agafar l’altre camí. Costava més de caminar, però no li barrava el pas res. Des de dalt va veure el molí i el pont desmuntat. Va afegir una creu petita al plànol, amb la data del dia, i va continuar entre els camps.",
+      "Va arribar quan la mestressa del molí acabava de parar taula. Ella va llegir la carta i va riure: anunciava que els músics arribarien a mitja tarda, més tard del que havien previst. Va convidar en Neri a dinar. Abans de seure, ell va deixar el plànol damunt del banc i va repassar el camí de tornada amb el dit."
+    ],
+    "imageAlt": {
+      "el-camino-del-mensajero-art1": "Un jove missatger amb una bossa de cuir és en una cruïlla d’un camí rural. Més avall hi ha un pontet de fusta tancat amb una barrera i, al fons, un molí."
+    },
+    "questions": [
+      {
+        "id": "el-camino-del-mensajero-q1",
+        "type": "literal",
+        "prompt": "On havia de portar la carta en Neri?",
+        "answer": "Al molí.",
+        "lines": 1
+      },
+      {
+        "id": "el-camino-del-mensajero-q2",
+        "type": "literal",
+        "prompt": "Quins dos indicis veu al pont abans de parlar amb la dona?",
+        "answer": "Una barrera que impedeix el pas i un tauló amb eines a terra. N’hi ha prou amb dos d’aquests detalls.",
+        "lines": 2
+      },
+      {
+        "id": "el-camino-del-mensajero-q3",
+        "type": "vocabulary",
+        "prompt": "Què vol dir «li barrava el pas» en el tercer paràgraf?",
+        "answer": "Que alguna cosa li impedia avançar pel camí.",
+        "lines": 1
+      },
+      {
+        "id": "el-camino-del-mensajero-q4",
+        "type": "inference",
+        "prompt": "Per què en Neri tria primer el camí de la riera?",
+        "answer": "Perquè el plànol l’indica com el més curt i vol arribar abans del migdia.",
+        "lines": 2
+      },
+      {
+        "id": "el-camino-del-mensajero-q5",
+        "type": "inference",
+        "prompt": "Per què ha de canviar de camí si el plànol continua mostrant un pont sencer?",
+        "answer": "Perquè el pont real és en obres i el plànol no recull aquell canvi recent.",
+        "lines": 2
+      },
+      {
+        "id": "el-camino-del-mensajero-q6",
+        "type": "structure",
+        "prompt": "Quin efecte produeix que només sapiguem el contingut de la carta al final?",
+        "answer": "Descobrim que en Neri s’afanyava per portar una notícia sobre un retard. La urgència del viatge contrasta amb el missatge que anuncia més temps.",
+        "lines": 2
+      },
+      {
+        "id": "el-camino-del-mensajero-q7",
+        "type": "inference",
+        "prompt": "Per què afegeix també la data quan marca el pont al plànol?",
+        "answer": "Per deixar clar quan l’ha trobat tancat, perquè les obres poden acabar i la informació pot tornar a canviar.",
+        "lines": 2
+      },
+      {
+        "id": "el-camino-del-mensajero-q8",
+        "type": "opinion",
+        "prompt": "Si haguessis de prestar aquest plànol a una altra persona, què li explicaries? Fes servir dos detalls de la lectura.",
+        "answer": "Resposta oberta. Per exemple, que el pont és en obres des de la tempesta i que pot arribar al molí pel camí dels camps, tot i ser més llarg.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "li barrava el pas",
+        "questionId": "el-camino-del-mensajero-q3"
+      }
+    ]
   }
 ];

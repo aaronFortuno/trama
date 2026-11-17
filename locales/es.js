@@ -30,6 +30,8 @@ v1.35.4 · Obre l’historial de canvis|v1.35.4 · Abrir el historial de cambios
 S’afegeixen tres lectures de 4t intermedi (L174–L176), amb un antic ferrocarril, un diari d’observació i una entrevista radiofònica. Totes tenen versió catalana i castellana, il·lustració i solucionari.|Se añaden tres lecturas de 4.º intermedio (L174–L176), con un antiguo ferrocarril, un diario de observación y una entrevista radiofónica. Todas tienen versión catalana y castellana, ilustración y solucionario.
 v1.35.5 · Obre l’historial de canvis|v1.35.5 · Abrir el historial de cambios
 Les lectures L177–L180 completen les quinze de 4t intermedi en català i castellà. El catàleg també distingeix la temàtica Jocs i enigmes per als textos que expliquen partides i regles.|Las lecturas L177–L180 completan las quince de 4.º intermedio en catalán y castellano. El catálogo también distingue la temática Juegos y enigmas para los textos que explican partidas y reglas.
+v1.36 · Obre l’historial de canvis|v1.36 · Abrir el historial de cambios
+Nou lectures avançades (L181–L189) completen el catàleg de 4t: quinze lectures per dificultat, totes en català i castellà. Inclouen ficció, natura, tecnologia, notícies, una ressenya i una carta, amb il·lustració, vuit preguntes i solucionari.|Nueve lecturas avanzadas (L181–L189) completan el catálogo de 4.º: quince lecturas por dificultad, todas en catalán y castellano. Incluyen ficción, naturaleza, tecnología, noticias, una reseña y una carta, con ilustración, ocho preguntas y solucionario.
 Catàleg de lectures|Catálogo de lecturas
 Cerca al catàleg|Buscar en el catálogo
 Cerca per títol, codi o tema|Buscar por título, código o tema

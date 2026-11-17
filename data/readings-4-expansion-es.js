@@ -1367,5 +1367,887 @@ export const readings4ExpansionEs = [
         "questionId": "el-equipo-que-se-quedo-a-recoger-q3"
       }
     ]
+  },
+  {
+    "id": "la-tienda-de-los-ecos-es",
+    "code": "L181",
+    "workId": "la-tienda-de-los-ecos",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "adventure",
+      "arts"
+    ],
+    "genre": "narrative",
+    "title": "La tienda de los ecos",
+    "summary": "Yara busca un regalo que suene como el mar, pero el tarro que lleva a casa guarda algo más.",
+    "paragraphs": [
+      "En la tienda de los ecos había tarros que parecían vacíos, pero sonaban cuando alguien los destapaba. En uno se oía una tormenta. En otro, el chirrido de una puerta. Yara abrió uno muy pequeño y oyó una carcajada tan profunda que el tarro le tembló entre los dedos.",
+      "Quería llevarle el sonido del mar a su hermano, que aún no lo había visto. La tendera buscó en el estante azul, pero no quedaba ningún tarro de olas. Le ofreció uno vacío. «Destápalo donde quieras guardar un sonido. Después vuelve a taparlo. Cuando lo abras, oirás su eco».",
+      "Yara fue a la playa. Dejó el tarro abierto sobre una roca y se sentó a esperar una ola grande. Cuando llegó, el agua le mojó los pies. Empezó a reírse y saltó hasta otra roca antes de acordarse del tarro. Lo tapó corriendo y lo metió en la bolsa.",
+      "En casa, su hermano destapó el regalo. Primero oyó un golpe de agua. Después, una risa que ya conocía. «¿El mar se ríe como tú?», preguntó. Yara miró los calcetines tendidos en el balcón. Le contó lo que había pasado y le propuso ir juntos. Su hermano se acercó otra vez el tarro al oído. Esta vez empezó a reírse antes de que sonara el eco."
+    ],
+    "images": [
+      {
+        "id": "la-tienda-de-los-ecos-art1",
+        "src": "assets/readings/l181-la-tienda-de-los-ecos.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Una pequeña tienda de fantasía con tarros de vidrio en los estantes. De un tarro abierto sale una onda translúcida con la forma de un sonido."
+      }
+    ],
+    "questions": [
+      {
+        "id": "la-tienda-de-los-ecos-q1",
+        "type": "literal",
+        "prompt": "¿Qué sonido quería regalar Yara a su hermano?",
+        "answer": "El sonido del mar.",
+        "lines": 1
+      },
+      {
+        "id": "la-tienda-de-los-ecos-q2",
+        "type": "literal",
+        "prompt": "¿Qué debía hacer con el tarro para guardar un sonido?",
+        "answer": "Destaparlo en el lugar donde quería guardar el sonido y volver a taparlo después.",
+        "lines": 2
+      },
+      {
+        "id": "la-tienda-de-los-ecos-q3",
+        "type": "inference",
+        "prompt": "¿Por qué no puede sonar como el mar enseguida el tarro que le da la tendera?",
+        "answer": "Porque está vacío. Yara debe ir al mar para llenarlo del sonido que quiere guardar.",
+        "lines": 2
+      },
+      {
+        "id": "la-tienda-de-los-ecos-q4",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «profunda» cuando se habla de la carcajada del primer tarro?",
+        "answer": "Que es una risa de sonido grave e intenso. No se refiere a la profundidad del tarro.",
+        "lines": 2
+      },
+      {
+        "id": "la-tienda-de-los-ecos-q5",
+        "type": "inference",
+        "prompt": "¿Cómo sabemos que el tarro ha guardado más sonidos de los que Yara quería?",
+        "answer": "Cuando su hermano lo abre, se oye tanto la ola como la risa de Yara.",
+        "lines": 2
+      },
+      {
+        "id": "la-tienda-de-los-ecos-q6",
+        "type": "structure",
+        "prompt": "¿Por qué muestra el texto los calcetines tendidos justo cuando el hermano hace la pregunta?",
+        "answer": "Recuerdan que la ola había mojado a Yara y ayudan a entender de dónde sale la risa del tarro.",
+        "lines": 2
+      },
+      {
+        "id": "la-tienda-de-los-ecos-q7",
+        "type": "inference",
+        "prompt": "¿Por qué se ríe el hermano antes de oír el eco la última vez?",
+        "answer": "Porque ya conoce la historia y se imagina a su hermana con los pies mojados o recuerda la risa que oirá.",
+        "lines": 2
+      },
+      {
+        "id": "la-tienda-de-los-ecos-q8",
+        "type": "opinion",
+        "prompt": "¿Dirías que el regalo ha salido mal? Arguméntalo con dos detalles de la historia.",
+        "answer": "Respuesta abierta. Por ejemplo, no: contiene el mar que quería regalar y una experiencia de su hermana que hace reír a los dos.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 1,
+        "text": "profunda",
+        "questionId": "la-tienda-de-los-ecos-q4"
+      }
+    ]
+  },
+  {
+    "id": "la-piedra-que-pesaba-poco-es",
+    "code": "L182",
+    "workId": "la-piedra-que-pesaba-poco",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "science",
+      "geography"
+    ],
+    "genre": "informative",
+    "title": "La piedra que pesaba poco",
+    "summary": "Dos piedras de tamaño parecido dan una sorpresa en el taller del museo.",
+    "paragraphs": [
+      "En el taller del museo había dos piedras en una bandeja. Tenían un tamaño parecido, pero al cogerlas Marc notó que una pesaba mucho menos. La más ligera era clara y tenía agujeritos por toda la superficie. La otra era oscura y compacta. Marc dijo que la clara debía de ser una piedra falsa hecha para la exposición.",
+      "La guía explicó que era piedra pómez, una roca volcánica. Se forma cuando un material fundido del volcán, lleno de burbujas de gas, se enfría y se vuelve sólido. Los huecos de las burbujas dan a la roca un aspecto de esponja. Parte de su volumen es espacio vacío. Por eso un fragmento puede ser muy ligero comparado con una roca compacta del mismo tamaño.",
+      "La guía dejó la piedra clara en un recipiente con agua. Aquel fragmento flotaba. Después puso la piedra oscura, que se hundió. Marc quiso escribir que todas las rocas volcánicas flotaban. La guía señaló la piedra oscura: también procedía de un volcán.",
+      "En la hoja del taller, Marc dibujó los dos fragmentos. En la piedra clara añadió los agujeritos. La primera frase de su explicación ya no decía que fuera falsa. Decía: «No puedo saber si una piedra es de verdad solo mirando su tamaño y notando su peso». Debajo dejó sitio para anotar también su aspecto."
+    ],
+    "images": [
+      {
+        "id": "la-piedra-que-pesaba-poco-art1",
+        "src": "assets/readings/l182-la-piedra-que-pesaba-poco.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un trozo de piedra pómez de color crema con muchos agujeros flota dentro de un recipiente transparente con agua. Al lado hay una piedra oscura compacta."
+      }
+    ],
+    "questions": [
+      {
+        "id": "la-piedra-que-pesaba-poco-q1",
+        "type": "literal",
+        "prompt": "¿En qué se parecían las dos piedras antes de que Marc las cogiera?",
+        "answer": "Tenían un tamaño parecido.",
+        "lines": 1
+      },
+      {
+        "id": "la-piedra-que-pesaba-poco-q2",
+        "type": "literal",
+        "prompt": "¿Qué hizo el fragmento de piedra clara cuando la guía lo puso en el agua?",
+        "answer": "Flotó.",
+        "lines": 1
+      },
+      {
+        "id": "la-piedra-que-pesaba-poco-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «compacta» al describir la piedra oscura?",
+        "answer": "Que la roca está apretada y no presenta los huecos visibles de la piedra pómez.",
+        "lines": 2
+      },
+      {
+        "id": "la-piedra-que-pesaba-poco-q4",
+        "type": "inference",
+        "prompt": "¿Por qué los agujeritos ayudan a explicar que la piedra clara pese menos?",
+        "answer": "Porque parte del volumen son huecos y hay menos material que en una piedra compacta del mismo tamaño.",
+        "lines": 2
+      },
+      {
+        "id": "la-piedra-que-pesaba-poco-q5",
+        "type": "inference",
+        "prompt": "¿Qué dato del texto contradice la idea de que todas las rocas volcánicas flotan?",
+        "answer": "La piedra oscura también procedía de un volcán y se hundió.",
+        "lines": 2
+      },
+      {
+        "id": "la-piedra-que-pesaba-poco-q6",
+        "type": "structure",
+        "prompt": "¿Cómo cambia la explicación de Marc entre el primer párrafo y el último?",
+        "answer": "Primero cree que la piedra ligera es falsa. Al final acepta que puede ser real y que debe mirar más características.",
+        "lines": 2
+      },
+      {
+        "id": "la-piedra-que-pesaba-poco-q7",
+        "type": "summary",
+        "prompt": "Explica en dos frases cómo se forma la piedra pómez y qué la distingue de una roca compacta.",
+        "answer": "El material del volcán con burbujas de gas se enfría y se vuelve sólido. Los huecos de las burbujas hacen que pueda pesar muy poco para su tamaño.",
+        "lines": 3
+      },
+      {
+        "id": "la-piedra-que-pesaba-poco-q8",
+        "type": "opinion",
+        "prompt": "Una compañera dice que una sola prueba sirve para conocer todas las piedras. ¿Qué le responderías con un ejemplo del texto?",
+        "answer": "Respuesta abierta. Por ejemplo, no: dos piedras volcánicas de tamaño parecido se comportan de manera distinta en el agua.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 1,
+        "text": "compacta",
+        "questionId": "la-piedra-que-pesaba-poco-q3"
+      }
+    ]
+  },
+  {
+    "id": "una-foto-para-recordar-el-tamano-es",
+    "code": "L183",
+    "workId": "una-foto-para-recordar-el-tamano",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "technology",
+      "history"
+    ],
+    "genre": "instructional",
+    "title": "Una foto para recordar el tamaño",
+    "summary": "Una piedra encontrada en un paseo ayuda a preparar una fotografía que explique también el tamaño del objeto.",
+    "paragraphs": [
+      "Has encontrado una piedra con unas rayas que te llaman la atención. Quieres fotografiarla antes de devolverla al lugar donde estaba. Si llenas toda la imagen con la piedra, se verán bien las rayas, pero quien mire la foto no sabrá si era pequeña como una uña o grande como un puño.",
+      "Para preparar una fotografía con una referencia de tamaño, deja la piedra sobre una hoja de color liso. Pon una regla plana al lado, tan cerca como puedas sin tapar la piedra. La regla y la piedra deben quedar en la misma superficie. Si sujetas la regla mucho más cerca de la cámara, en la imagen parecerá demasiado grande junto a la piedra.",
+      "Coloca la cámara mirando hacia abajo y procura que las marcas de la regla se vean claras. Antes de disparar, comprueba que tu sombra no tape las rayas. Puedes mover la hoja a un lugar con una luz más uniforme para que las rayas se vean bien, sin zonas muy oscuras ni reflejos que las escondan.",
+      "Haz dos fotografías: una del conjunto con la regla y otra más cercana para ver los detalles. Guárdalas juntas con una nota del lugar y el día del hallazgo. La primera te ayudará a recordar el tamaño. La segunda permitirá mirar las rayas sin perderlas entre tantos otros elementos."
+    ],
+    "images": [
+      {
+        "id": "una-foto-para-recordar-el-tamano-art1",
+        "src": "assets/readings/l183-una-foto-para-recordar-el-tamano.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Una piedra rayada sobre una hoja gris con una regla plana al lado, bajo una cámara sujeta en un pequeño trípode."
+      }
+    ],
+    "questions": [
+      {
+        "id": "una-foto-para-recordar-el-tamano-q1",
+        "type": "literal",
+        "prompt": "¿Qué debe quedar junto a la piedra en la primera fotografía?",
+        "answer": "Una regla plana.",
+        "lines": 1
+      },
+      {
+        "id": "una-foto-para-recordar-el-tamano-q2",
+        "type": "literal",
+        "prompt": "¿Qué dos datos se deben apuntar con las fotografías?",
+        "answer": "El lugar y el día del hallazgo.",
+        "lines": 1
+      },
+      {
+        "id": "una-foto-para-recordar-el-tamano-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «referencia de tamaño» en estas instrucciones?",
+        "answer": "Un elemento que permite comparar y estimar cuánto mide el objeto fotografiado.",
+        "lines": 1
+      },
+      {
+        "id": "una-foto-para-recordar-el-tamano-q4",
+        "type": "inference",
+        "prompt": "¿Por qué una foto muy cercana puede hacer dudar del tamaño real de la piedra?",
+        "answer": "Porque no hay ningún objeto conocido con el que compararla y una piedra pequeña puede llenar toda la foto.",
+        "lines": 2
+      },
+      {
+        "id": "una-foto-para-recordar-el-tamano-q5",
+        "type": "inference",
+        "prompt": "¿Qué problema hay si la regla está mucho más cerca de la cámara que la piedra?",
+        "answer": "La regla parece demasiado grande junto a la piedra y la comparación de tamaños deja de ser adecuada.",
+        "lines": 2
+      },
+      {
+        "id": "una-foto-para-recordar-el-tamano-q6",
+        "type": "structure",
+        "prompt": "¿Por qué recomienda el texto guardar dos fotos en lugar de elegir solo una?",
+        "answer": "Porque cada una aporta una información distinta: una muestra el tamaño y otra los detalles.",
+        "lines": 2
+      },
+      {
+        "id": "una-foto-para-recordar-el-tamano-q7",
+        "type": "inference",
+        "prompt": "¿Por qué conviene mirar la sombra antes de fotografiar las rayas?",
+        "answer": "Porque una sombra puede taparlas o hacerlas difíciles de ver, justo cuando son el detalle que queremos recordar.",
+        "lines": 2
+      },
+      {
+        "id": "una-foto-para-recordar-el-tamano-q8",
+        "type": "opinion",
+        "prompt": "Una persona solo guarda la foto de los detalles. ¿Qué información puede faltarle después? Da dos ejemplos del texto.",
+        "answer": "Puede faltarle el tamaño de la piedra y, si tampoco ha guardado la nota, el lugar o el día del hallazgo.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 2,
+        "text": "referencia de tamaño",
+        "questionId": "una-foto-para-recordar-el-tamano-q3"
+      }
+    ]
+  },
+  {
+    "id": "una-carta-para-el-ropero-es",
+    "code": "L184",
+    "workId": "una-carta-para-el-ropero",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "community",
+      "environment",
+      "everyday"
+    ],
+    "genre": "letter",
+    "title": "Una carta para el ropero",
+    "summary": "Una voluntaria escribe a los participantes de un intercambio de ropa después de preparar las primeras cajas.",
+    "paragraphs": [
+      "Estimadas familias:",
+      "El sábado abriremos el ropero de intercambio en el centro vecinal. Ayer empezamos a clasificar las prendas que ya habéis traído. Había muchas chaquetas pequeñas y pocos pantalones grandes. Por eso hemos añadido las tallas que nos faltan al cartel de la entrada. Antes de preparar otra bolsa, podéis mirarlo: quizá tengáis justo una prenda que alguien está buscando.",
+      "También encontramos ropa con un botón desprendido o una costura abierta. Son prendas que podrían volver a usarse con un arreglo sencillo, pero no podemos ponerlas directamente en las mesas como si ya estuvieran listas. Las dejamos en una caja separada. El miércoles, dos personas que saben coser nos ayudarán a revisarlas. Si queréis aprender a poner un botón, podéis venir.",
+      "Os pedimos que traigáis la ropa limpia y miréis los bolsillos antes de donarla. Ayer encontramos una piedra pintada y una fotografía de carnet. Las guardaremos en recepción para que sus dueños puedan recuperarlas sin abrir todas las cajas.",
+      "El ropero no funcionará mejor solo porque haya más bolsas. Necesitamos prendas que se puedan usar, tallas variadas y algo de tiempo para ordenarlo todo. El sábado habrá personas para ayudaros a encontrar las tallas. Si dejamos cada prenda en su sitio después de mirarla, quienes lleguen más tarde también podrán encontrarla.",
+      "Gracias por ayudarnos. Lorena, equipo del ropero."
+    ],
+    "images": [
+      {
+        "id": "una-carta-para-el-ropero-art1",
+        "src": "assets/readings/l184-una-carta-para-el-ropero.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Una mesa de intercambio de ropa con tres montones de prendas dobladas y una caja pequeña con botones, hilo y agujas guardadas en un alfiletero."
+      }
+    ],
+    "questions": [
+      {
+        "id": "una-carta-para-el-ropero-q1",
+        "type": "literal",
+        "prompt": "¿Cuándo abrirá el ropero? ¿Qué día revisarán las prendas para arreglar?",
+        "answer": "Abrirá el sábado. Revisarán las prendas el miércoles.",
+        "lines": 1
+      },
+      {
+        "id": "una-carta-para-el-ropero-q2",
+        "type": "literal",
+        "prompt": "¿Qué dos objetos han encontrado en los bolsillos?",
+        "answer": "Una piedra pintada y una fotografía de carnet.",
+        "lines": 1
+      },
+      {
+        "id": "una-carta-para-el-ropero-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «clasificar» las prendas?",
+        "answer": "Separarlas y ordenarlas según características como el tipo, la talla o el estado.",
+        "lines": 1
+      },
+      {
+        "id": "una-carta-para-el-ropero-q4",
+        "type": "inference",
+        "prompt": "¿Por qué conviene mirar el cartel antes de preparar otra bolsa?",
+        "answer": "Para saber qué tallas faltan y llevar prendas que respondan a las necesidades del ropero.",
+        "lines": 2
+      },
+      {
+        "id": "una-carta-para-el-ropero-q5",
+        "type": "inference",
+        "prompt": "¿Por qué no han puesto en las mesas las prendas con el botón desprendido?",
+        "answer": "Porque aún necesitan un arreglo antes de ofrecerse como ropa lista para usar.",
+        "lines": 2
+      },
+      {
+        "id": "una-carta-para-el-ropero-q6",
+        "type": "structure",
+        "prompt": "¿Qué explica la carta al pedir que revisemos los bolsillos? ¿Cómo ayuda el ejemplo a entender la petición?",
+        "answer": "Explica que encontraron dos objetos dentro de la ropa. El ejemplo muestra que alguien puede donar sin querer algo que quería conservar.",
+        "lines": 3
+      },
+      {
+        "id": "una-carta-para-el-ropero-q7",
+        "type": "inference",
+        "prompt": "¿Cómo puede ayudar alguien que no tiene ropa para donar? Da dos posibilidades del texto.",
+        "answer": "Puede ayudar a ordenar las prendas o, si sabe, a revisar y arreglar ropa. También puede aprender a poner botones.",
+        "lines": 2
+      },
+      {
+        "id": "una-carta-para-el-ropero-q8",
+        "type": "opinion",
+        "prompt": "¿Qué petición de la carta te parece más importante para que el intercambio funcione? Justifícala con una consecuencia.",
+        "answer": "Respuesta abierta. Por ejemplo, ordenar las tallas para que quien llegue después pueda encontrar lo que busca.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 2,
+        "text": "clasificar",
+        "questionId": "una-carta-para-el-ropero-q3"
+      }
+    ]
+  },
+  {
+    "id": "la-cartografa-de-los-olores-es",
+    "code": "L185",
+    "workId": "la-cartografa-de-los-olores",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "geography",
+      "arts",
+      "everyday"
+    ],
+    "genre": "interview",
+    "title": "La cartógrafa de los olores",
+    "summary": "Una cartógrafa prepara un mapa del barrio que no se puede completar sin detenerse a respirar.",
+    "paragraphs": [
+      "Bruna es cartógrafa. Hoy lleva un plano del barrio, pero sus lápices no dibujarán solo calles. Nos invita a hacer un mapa de los olores.",
+      "—¿Por dónde empezamos?\n—Por un lugar que todos podamos encontrar. Estamos ante la biblioteca. Dibujamos una estrella y apuntamos la hora. Después caminamos despacio. Cuando notamos un olor, nos detenemos y marcamos dónde estábamos.",
+      "—¿Dibujaremos un pan delante del horno?\n—Si hoy huele a pan, sí. Ayer por la tarde estaba cerrado y no notaba nada. En cambio, junto a la floristería, la lluvia había mojado unas macetas y olía a tierra húmeda.",
+      "—¿Todos notaremos los mismos olores?\n—Quizá no. Alguien reconocerá el romero porque lo tiene en casa. Otro solo dirá que huele a planta. En vez de borrar una respuesta, podemos escribir las dos descripciones con los nombres de quienes las han propuesto.",
+      "—¿Este mapa durará siempre?\n—El papel puede durar. Lo que representa es más efímero. El viento, la hora o una puerta cerrada pueden cambiar lo que percibimos en la misma calle. Por eso no pondremos solo los símbolos: también añadiremos cuándo hemos pasado por cada lugar.",
+      "—¿Y si otro grupo hace el recorrido mañana?\n—Que lleve una copia y otro color. Si encuentra diferencias, no hace falta decidir enseguida qué grupo se ha equivocado. Primero tendremos que preguntarnos qué había cambiado."
+    ],
+    "images": [
+      {
+        "id": "la-cartografa-de-los-olores-art1",
+        "src": "assets/readings/l185-la-cartografa-de-los-olores.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un cuaderno con un plano sencillo del barrio y pequeños símbolos de pan, flores y lluvia, junto a unos lápices y una ramita de romero."
+      }
+    ],
+    "questions": [
+      {
+        "id": "la-cartografa-de-los-olores-q1",
+        "type": "literal",
+        "prompt": "¿Qué lugar utilizan como punto de partida?",
+        "answer": "La biblioteca.",
+        "lines": 1
+      },
+      {
+        "id": "la-cartografa-de-los-olores-q2",
+        "type": "literal",
+        "prompt": "¿Qué olor notaba Bruna junto a la floristería después de llover?",
+        "answer": "Olor a tierra húmeda.",
+        "lines": 1
+      },
+      {
+        "id": "la-cartografa-de-los-olores-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa que lo que representa el mapa es «efímero»?",
+        "answer": "Que puede cambiar o durar poco, aunque el papel se conserve.",
+        "lines": 2
+      },
+      {
+        "id": "la-cartografa-de-los-olores-q4",
+        "type": "inference",
+        "prompt": "¿Por qué no dibujan el pan ante el horno sin comprobar primero el olor?",
+        "answer": "Porque el mapa debe representar lo que han percibido ese día y un horno cerrado puede no oler a pan.",
+        "lines": 2
+      },
+      {
+        "id": "la-cartografa-de-los-olores-q5",
+        "type": "inference",
+        "prompt": "¿Por qué una persona puede reconocer el romero y otra describir solo olor a planta?",
+        "answer": "Porque los olores que conocen dependen también de sus experiencias, como tener romero en casa.",
+        "lines": 2
+      },
+      {
+        "id": "la-cartografa-de-los-olores-q6",
+        "type": "structure",
+        "prompt": "¿Qué aporta escribir la hora junto a los símbolos?",
+        "answer": "Permite saber cuándo se notaron los olores y comparar después si la hora puede explicar diferencias.",
+        "lines": 2
+      },
+      {
+        "id": "la-cartografa-de-los-olores-q7",
+        "type": "inference",
+        "prompt": "Dos grupos hacen mapas distintos de la misma calle. Según Bruna, ¿por qué eso no demuestra que uno se haya equivocado?",
+        "answer": "Porque pueden haber pasado a horas distintas, con otro viento, después de llover o con las puertas de los locales abiertas o cerradas.",
+        "lines": 3
+      },
+      {
+        "id": "la-cartografa-de-los-olores-q8",
+        "type": "opinion",
+        "prompt": "¿Qué otro dato añadirías al mapa para que un grupo pudiera compararlo con el suyo? Explica por qué.",
+        "answer": "Respuesta abierta. Por ejemplo, si llovía o hacía viento, para interpretar por qué un olor se había notado más o menos.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 5,
+        "text": "efímero",
+        "questionId": "la-cartografa-de-los-olores-q3"
+      },
+      {
+        "paragraph": 1,
+        "text": "cartógrafa",
+        "definition": "Persona que elabora mapas."
+      }
+    ]
+  },
+  {
+    "id": "un-tablero-para-ganar-juntos-es",
+    "code": "L186",
+    "workId": "un-tablero-para-ganar-juntos",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "games",
+      "community"
+    ],
+    "genre": "review",
+    "title": "Un tablero para ganar juntos",
+    "summary": "Un juego inventado en el centro vecinal cambia la manera de decidir quién ha ganado.",
+    "paragraphs": [
+      "En el centro vecinal hemos probado un juego cooperativo inventado por el grupo de quinto. Se llama Los cuatro puentes. Pueden jugar cuatro personas, pero no hay un ganador por color. Todos los peones deben llegar a la otra orilla del río antes de que se termine el montón de cartas.",
+      "Cada turno empieza dando la vuelta a una carta. Algunas dan madera para construir un puente. Otras hacen subir el agua y obligan a detener los peones que aún están en medio de una pasarela. La madera puede guardarse en una caja común. Cualquier jugador puede gastarla en su turno, aunque otra persona haya conseguido la carta.",
+      "En la primera partida, yo solo miraba mi peón. Llegué pronto a la otra orilla, pero se terminaron las cartas cuando mi compañera aún estaba en medio del río. Según las reglas, habíamos perdido todos. En la segunda decidimos hablar antes de gastar la madera. Mi última pieza sirvió para terminar el puente de otra jugadora.",
+      "Me ha gustado el juego porque podemos discutir los planes sin esconder las cartas. Cambiaría una cosa: las cartas de agua tienen dibujos demasiado parecidos y a veces las confundimos. Los creadores han dicho que añadirán un símbolo más grande.",
+      "Lo recomendaría a quien tiene paciencia para escuchar ideas distintas. Si solo quieres llegar primero, puedes acabar en la otra orilla viendo cómo pierde tu equipo."
+    ],
+    "images": [
+      {
+        "id": "un-tablero-para-ganar-juntos-art1",
+        "src": "assets/readings/l186-un-tablero-para-ganar-juntos.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un tablero de juego artesanal con un río azul, pequeños puentes de madera y peones de colores. A un lado hay cartas ilustradas."
+      }
+    ],
+    "questions": [
+      {
+        "id": "un-tablero-para-ganar-juntos-q1",
+        "type": "literal",
+        "prompt": "¿Quién ha inventado el juego?",
+        "answer": "El grupo de quinto del centro vecinal.",
+        "lines": 1
+      },
+      {
+        "id": "un-tablero-para-ganar-juntos-q2",
+        "type": "literal",
+        "prompt": "¿Qué debe ocurrir para que los jugadores ganen?",
+        "answer": "Todos los peones deben llegar a la otra orilla antes de que se terminen las cartas.",
+        "lines": 2
+      },
+      {
+        "id": "un-tablero-para-ganar-juntos-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «cooperativo» al hablar de este juego?",
+        "answer": "Que las personas juegan para lograr un objetivo compartido y ganan o pierden como equipo.",
+        "lines": 1
+      },
+      {
+        "id": "un-tablero-para-ganar-juntos-q4",
+        "type": "inference",
+        "prompt": "¿Por qué había perdido la primera partida quien escribe la reseña, aunque había cruzado?",
+        "answer": "Porque aún quedaba una compañera en el río al terminarse las cartas y la victoria tenía que ser de todo el grupo.",
+        "lines": 2
+      },
+      {
+        "id": "un-tablero-para-ganar-juntos-q5",
+        "type": "inference",
+        "prompt": "¿Qué regla permite utilizar la madera para ayudar a otra persona?",
+        "answer": "Que la madera se puede guardar en una caja común y cualquier jugador puede gastarla en su turno.",
+        "lines": 2
+      },
+      {
+        "id": "un-tablero-para-ganar-juntos-q6",
+        "type": "structure",
+        "prompt": "¿Qué problema del juego señala la reseña y qué mejora anuncian?",
+        "answer": "Se confunden las cartas de agua porque se parecen demasiado. Añadirán un símbolo más grande.",
+        "lines": 2
+      },
+      {
+        "id": "un-tablero-para-ganar-juntos-q7",
+        "type": "inference",
+        "prompt": "¿Cómo cambia la forma de jugar entre la primera partida y la segunda?",
+        "answer": "En la primera puede fijarse cada uno solo en su peón. En la segunda hablan y reparten la madera para ayudar a quien la necesita.",
+        "lines": 2
+      },
+      {
+        "id": "un-tablero-para-ganar-juntos-q8",
+        "type": "opinion",
+        "prompt": "¿Te gustaría jugar? Relaciona tu respuesta con dos características concretas del juego.",
+        "answer": "Respuesta abierta. Puede valorar decidir en grupo, compartir recursos, no esconder cartas o perder todos juntos.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 1,
+        "text": "cooperativo",
+        "questionId": "un-tablero-para-ganar-juntos-q3"
+      }
+    ]
+  },
+  {
+    "id": "el-dibujo-que-viajo-en-autobus-es",
+    "code": "L187",
+    "workId": "el-dibujo-que-viajo-en-autobus",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "arts",
+      "community"
+    ],
+    "genre": "news",
+    "title": "El dibujo que viajó en autobús",
+    "summary": "Una exposición escolar sale del pasillo y acompaña los trayectos del barrio durante una semana.",
+    "paragraphs": [
+      "Durante esta semana, un autobús de la línea del barrio lleva una exposición de dibujos de cuarto. Las copias se han colocado en unos paneles de la parte trasera, donde los pasajeros pueden mirarlas sin tapar las ventanas. Los originales siguen en la escuela.",
+      "La propuesta empezó cuando la conductora de una de las rutas visitó la exposición del pasillo. Reconoció el mercado, la fuente y el puente que veía cada día desde el volante. Preguntó si la escuela podía preparar una versión más pequeña para el autobús. Antes de montarla, los alumnos probaron los dibujos desde la distancia a la que estarían los pasajeros.",
+      "Oriol había dibujado a su abuela en el balcón. En el primer boceto, las manos y las macetas eran tan pequeñas que no se distinguían desde el asiento de delante. Amplió la figura y dejó menos detalles en la pared. Su abuela no suele ir a la escuela, pero utiliza aquella línea dos días por semana.",
+      "El martes subió al autobús sin saber que encontraría la exposición. Al ver el dibujo, le dijo a la pasajera de al lado: «Ese balcón es el mío». Oriol lo supo por la tarde. No le contaron si a su abuela le había gustado el color del cielo. Le dijeron que había pasado todo el viaje de pie ante el panel, hasta que la conductora le recordó que ya llegaban a su parada."
+    ],
+    "images": [
+      {
+        "id": "el-dibujo-que-viajo-en-autobus-art1",
+        "src": "assets/readings/l187-el-dibujo-que-viajo-en-autobus.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un autobús urbano detenido junto a una parada. Por una ventana lateral se ven pequeños dibujos expuestos. Una abuela y un niño los miran desde fuera."
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-dibujo-que-viajo-en-autobus-q1",
+        "type": "literal",
+        "prompt": "¿Dónde están los dibujos originales durante la exposición del autobús?",
+        "answer": "En la escuela.",
+        "lines": 1
+      },
+      {
+        "id": "el-dibujo-que-viajo-en-autobus-q2",
+        "type": "literal",
+        "prompt": "¿Quién propuso hacer una versión de la exposición para el autobús?",
+        "answer": "La conductora de una de las rutas.",
+        "lines": 1
+      },
+      {
+        "id": "el-dibujo-que-viajo-en-autobus-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «boceto» al hablar del dibujo de Oriol?",
+        "answer": "Una primera versión del dibujo que aún puede cambiarse antes de darlo por terminado.",
+        "lines": 1
+      },
+      {
+        "id": "el-dibujo-que-viajo-en-autobus-q4",
+        "type": "inference",
+        "prompt": "¿Por qué miraron los dibujos desde una distancia parecida a la de los pasajeros?",
+        "answer": "Para comprobar si se entenderían y se verían los detalles desde los asientos.",
+        "lines": 2
+      },
+      {
+        "id": "el-dibujo-que-viajo-en-autobus-q5",
+        "type": "inference",
+        "prompt": "¿Por qué esta exposición da a la abuela una oportunidad que quizá no tenía en la escuela?",
+        "answer": "Porque utiliza el autobús a menudo, pero no suele visitar la escuela.",
+        "lines": 2
+      },
+      {
+        "id": "el-dibujo-que-viajo-en-autobus-q6",
+        "type": "inference",
+        "prompt": "¿Qué comportamiento hace pensar que el dibujo le interesó a la abuela?",
+        "answer": "Se quedó mirándolo todo el trayecto y casi no se dio cuenta de que llegaba a su parada.",
+        "lines": 2
+      },
+      {
+        "id": "el-dibujo-que-viajo-en-autobus-q7",
+        "type": "structure",
+        "prompt": "¿Por qué incluye la noticia la anécdota de la abuela después de explicar cómo se montó la exposición?",
+        "answer": "Para mostrar con un caso concreto cómo los dibujos han llegado a personas fuera de la escuela.",
+        "lines": 2
+      },
+      {
+        "id": "el-dibujo-que-viajo-en-autobus-q8",
+        "type": "opinion",
+        "prompt": "¿Qué tendrías en cuenta para elegir un dibujo para un espacio público así? Menciona dos ideas del texto.",
+        "answer": "Respuesta abierta. Por ejemplo, que se vea bien desde cierta distancia y que represente lugares o personas que el público pueda reconocer.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "boceto",
+        "questionId": "el-dibujo-que-viajo-en-autobus-q3"
+      }
+    ]
+  },
+  {
+    "id": "un-bosque-de-raices-en-el-agua-es",
+    "code": "L188",
+    "workId": "un-bosque-de-raices-en-el-agua",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "nature",
+      "geography",
+      "environment"
+    ],
+    "genre": "informative",
+    "title": "Un bosque de raíces en el agua",
+    "summary": "En los manglares, una parte del bosque se esconde bajo el agua y sirve de refugio a muchos animales.",
+    "paragraphs": [
+      "En algunas costas cálidas, los árboles no terminan justo antes de la playa. Forman bosques en terrenos que se inundan con las mareas. Son los manglares, formados por árboles llamados mangles. En algunas especies, las raíces bajan del tronco como unas patas largas que se hunden en el barro.",
+      "Ese lugar sería difícil para muchos árboles de tierra adentro. El agua puede tener bastante sal y en el suelo inundado hay poco oxígeno. Los mangles tienen adaptaciones que les permiten vivir en esas condiciones. Algunos impiden que entre mucha sal por las raíces; otros pueden expulsar una parte por las hojas. No todas las especies lo hacen de la misma manera.",
+      "Entre las raíces encuentran refugio peces pequeños, cangrejos y muchos otros animales. Las raíces complican el paso de depredadores más grandes. También viven allí organismos adheridos a la madera sumergida. Si solo miramos las copas desde una barca, nos perderemos buena parte de la vida del bosque.",
+      "Las raíces ayudan a retener barro y sedimentos y a frenar parte del movimiento del agua junto a la costa. Por eso, cuando se transforma un manglar, no se pierden solo unos árboles. También cambian los lugares donde muchos animales se esconden y alimentan. Un paisaje que puede parecer una maraña de madera es, en realidad, un conjunto de espacios conectados: bajo las hojas, entre las raíces y dentro del agua."
+    ],
+    "images": [
+      {
+        "id": "un-bosque-de-raices-en-el-agua-art1",
+        "src": "assets/readings/l188-un-bosque-de-raices-en-el-agua.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Una escena de manglar con raíces arqueadas que entran en agua poco profunda. Entre las raíces se ven peces pequeños y un cangrejo."
+      }
+    ],
+    "questions": [
+      {
+        "id": "un-bosque-de-raices-en-el-agua-q1",
+        "type": "literal",
+        "prompt": "¿En qué tipo de costa se encuentran los manglares del texto?",
+        "answer": "En costas cálidas con terrenos que se inundan con las mareas.",
+        "lines": 1
+      },
+      {
+        "id": "un-bosque-de-raices-en-el-agua-q2",
+        "type": "literal",
+        "prompt": "¿Qué dos problemas del lugar serían difíciles para muchos otros árboles?",
+        "answer": "La sal del agua y el poco oxígeno del suelo inundado.",
+        "lines": 2
+      },
+      {
+        "id": "un-bosque-de-raices-en-el-agua-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «refugio» al hablar de los animales pequeños?",
+        "answer": "Un lugar donde pueden esconderse o protegerse.",
+        "lines": 1
+      },
+      {
+        "id": "un-bosque-de-raices-en-el-agua-q4",
+        "type": "inference",
+        "prompt": "¿Por qué pueden proteger las raíces a los peces pequeños de depredadores más grandes?",
+        "answer": "Porque dificultan el paso de los animales grandes y ofrecen espacios donde los pequeños pueden esconderse.",
+        "lines": 2
+      },
+      {
+        "id": "un-bosque-de-raices-en-el-agua-q5",
+        "type": "inference",
+        "prompt": "¿Por qué mirar solo las copas no da una imagen completa del manglar?",
+        "answer": "Porque muchos animales y organismos viven entre las raíces y bajo el agua, donde no los veremos así.",
+        "lines": 2
+      },
+      {
+        "id": "un-bosque-de-raices-en-el-agua-q6",
+        "type": "structure",
+        "prompt": "¿Qué parte del texto explica cómo sobreviven los árboles y cuál describe a los animales?",
+        "answer": "El segundo párrafo explica las adaptaciones de los árboles. El tercero describe animales y organismos que viven entre las raíces.",
+        "lines": 2
+      },
+      {
+        "id": "un-bosque-de-raices-en-el-agua-q7",
+        "type": "inference",
+        "prompt": "¿Por qué eliminar los árboles también puede afectar a los animales que viven en el agua?",
+        "answer": "Porque desaparecen las raíces que les sirven de refugio y cambian los lugares donde se alimentan y esconden.",
+        "lines": 3
+      },
+      {
+        "id": "un-bosque-de-raices-en-el-agua-q8",
+        "type": "opinion",
+        "prompt": "Si tuvieras que dibujar el manglar para que se entendiera el texto, ¿qué dos zonas mostrarías? Justifícalo.",
+        "answer": "Respuesta abierta. Por ejemplo, la parte con troncos y copas y la parte sumergida con raíces y animales, para mostrar que el bosque ocupa ambos espacios.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "refugio",
+        "questionId": "un-bosque-de-raices-en-el-agua-q3"
+      },
+      {
+        "paragraph": 1,
+        "text": "mangles",
+        "definition": "Árboles adaptados a vivir en costas cálidas inundadas por agua salada o mezclada con agua dulce."
+      }
+    ]
+  },
+  {
+    "id": "el-camino-del-mensajero-es",
+    "code": "L189",
+    "workId": "el-camino-del-mensajero",
+    "language": "es",
+    "level": "4-primary",
+    "difficulty": "advanced",
+    "themes": [
+      "adventure",
+      "geography"
+    ],
+    "genre": "narrative",
+    "title": "El camino del mensajero",
+    "summary": "Neri lleva una carta al molino y debe elegir entre el camino dibujado en el mapa y el que realmente puede recorrer.",
+    "paragraphs": [
+      "Neri salió de la plaza con una carta dentro de una bolsa de cuero. Debía llevarla al molino antes del mediodía. El hombre que se la había dado le prestó un plano: el camino más corto bajaba hasta el arroyo y pasaba por un puente de madera. El otro subía hacia los campos y rodeaba el bosque por detrás.",
+      "En el cruce, Neri eligió el camino del arroyo. Ya oía el agua cuando vio una barrera atravesada ante el puente. Había una tabla en el suelo y herramientas al lado. Una mujer que venía de los campos le dijo que lo reparaban desde la tormenta. Neri miró el plano. El puente aparecía entero, sin ninguna señal que indicara las obras.",
+      "Volvió al cruce y tomó el otro camino. Costaba más andar, pero nada le cerraba el paso. Desde arriba vio el molino y el puente desmontado. Añadió una cruz pequeña al plano, con la fecha de aquel día, y siguió entre los campos.",
+      "Llegó cuando la dueña del molino acababa de poner la mesa. Ella leyó la carta y se rio: anunciaba que los músicos llegarían a media tarde, más tarde de lo previsto. Invitó a Neri a comer. Antes de sentarse, él dejó el plano sobre el banco y repasó el camino de vuelta con el dedo."
+    ],
+    "images": [
+      {
+        "id": "el-camino-del-mensajero-art1",
+        "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un joven mensajero con una bolsa de cuero está en un cruce de un camino rural. Más abajo hay un puente de madera cerrado con una barrera y, al fondo, un molino."
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-camino-del-mensajero-q1",
+        "type": "literal",
+        "prompt": "¿Adónde debía llevar Neri la carta?",
+        "answer": "Al molino.",
+        "lines": 1
+      },
+      {
+        "id": "el-camino-del-mensajero-q2",
+        "type": "literal",
+        "prompt": "¿Qué dos indicios ve en el puente antes de hablar con la mujer?",
+        "answer": "Una barrera que impide el paso y una tabla con herramientas en el suelo. Bastan dos de esos detalles.",
+        "lines": 2
+      },
+      {
+        "id": "el-camino-del-mensajero-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «le cerraba el paso» en el tercer párrafo?",
+        "answer": "Que algo le impedía avanzar por el camino.",
+        "lines": 1
+      },
+      {
+        "id": "el-camino-del-mensajero-q4",
+        "type": "inference",
+        "prompt": "¿Por qué elige Neri primero el camino del arroyo?",
+        "answer": "Porque el plano lo indica como el más corto y quiere llegar antes del mediodía.",
+        "lines": 2
+      },
+      {
+        "id": "el-camino-del-mensajero-q5",
+        "type": "inference",
+        "prompt": "¿Por qué tiene que cambiar de camino si el plano sigue mostrando un puente entero?",
+        "answer": "Porque el puente real está en obras y el plano no recoge ese cambio reciente.",
+        "lines": 2
+      },
+      {
+        "id": "el-camino-del-mensajero-q6",
+        "type": "structure",
+        "prompt": "¿Qué efecto produce que solo sepamos el contenido de la carta al final?",
+        "answer": "Descubrimos que Neri se apresuraba para llevar una noticia sobre un retraso. La urgencia del viaje contrasta con el mensaje que anuncia más tiempo.",
+        "lines": 2
+      },
+      {
+        "id": "el-camino-del-mensajero-q7",
+        "type": "inference",
+        "prompt": "¿Por qué añade también la fecha al marcar el puente en el plano?",
+        "answer": "Para dejar claro cuándo lo ha encontrado cerrado, porque las obras pueden terminar y la información puede volver a cambiar.",
+        "lines": 2
+      },
+      {
+        "id": "el-camino-del-mensajero-q8",
+        "type": "opinion",
+        "prompt": "Si tuvieras que prestar este plano a otra persona, ¿qué le explicarías? Usa dos detalles de la lectura.",
+        "answer": "Respuesta abierta. Por ejemplo, que el puente está en obras desde la tormenta y que puede llegar al molino por el camino de los campos, aunque sea más largo.",
+        "lines": 3
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "le cerraba el paso",
+        "questionId": "el-camino-del-mensajero-q3"
+      }
+    ]
   }
 ];

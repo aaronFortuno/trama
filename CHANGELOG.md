@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.36 · 18 de novembre del 2026
+
+Nou lectures avançades (L181–L189) completen el catàleg de 4t: quinze lectures per dificultat, totes en català i castellà. Inclouen ficció, natura, tecnologia, notícies, una ressenya i una carta, amb il·lustració, vuit preguntes i solucionari.
+
 ## 1.35.5 · 18 de novembre del 2026
 
 Les lectures L177–L180 completen les quinze de 4t intermedi en català i castellà. El catàleg també distingeix la temàtica Jocs i enigmes per als textos que expliquen partides i regles.
