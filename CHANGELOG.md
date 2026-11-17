@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.28.1 · 17 de novembre de 2026
+
+Quan el visor mostra el solucionari, el botó principal imprimeix el solucionari amb el format actual. El desplegable permet imprimir la fitxa d’alumnat.
+
 ## 1.28 · 17 de novembre de 2026
 
 S’incorporen onze lectures noves de 3r inicial (L123–L133) en català i castellà, amb il·lustració i solucionari.

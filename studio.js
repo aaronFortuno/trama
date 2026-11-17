@@ -208,12 +208,13 @@ const template = `
       <div class="studio-print">
         <p id="studio-export-status" role="status" hidden></p>
         <div class="worksheet-print-buttons">
-          <button class="button primary" type="button" data-action="print">${icon('printer')} Imprimeix</button>
+          <button class="button primary" type="button" data-action="print">${icon('printer')} <span>Imprimeix</span></button>
           <button class="button primary menu-trigger" id="studio-print-trigger" type="button" aria-label="Opcions d’impressió i PDF" aria-haspopup="menu" aria-expanded="false" aria-controls="studio-print-menu" popovertarget="studio-print-menu">${icon('chevron-down')}</button>
         </div>
         <div class="select-menu action-menu" id="studio-print-menu" role="menu" aria-labelledby="studio-print-trigger" popover>
           <button type="button" role="menuitem" tabindex="-1" data-option="pdf">Descarrega el PDF</button>
           <button type="button" role="menuitem" tabindex="-1" data-option="print-key">Imprimeix el solucionari</button>
+          <button type="button" role="menuitem" tabindex="-1" data-option="print-sheet" hidden>Imprimeix la fitxa</button>
           <button type="button" role="menuitem" tabindex="-1" data-option="pdf-key">Descarrega el solucionari en PDF</button>
         </div>
       </div>
@@ -305,6 +306,9 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
   const exportStatus = find('#studio-export-status');
   const printTrigger = find('#studio-print-trigger');
   const printButton = find('[data-action="print"]');
+  const printLabel = printButton.querySelector('span');
+  const printKeyOption = find('#studio-print-menu [data-option="print-key"]');
+  const printSheetOption = find('#studio-print-menu [data-option="print-sheet"]');
   const printMenu = mountActionMenu(printTrigger, find('#studio-print-menu'), exportWorksheet);
   const fileTrigger = find('#studio-reading-trigger');
   const reportTrigger = find('.studio-report-trigger');
@@ -418,6 +422,9 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
   }
 
   function syncControls(animated = true) {
+    printLabel.textContent = t(solution.checked ? 'Imprimeix el solucionari' : 'Imprimeix');
+    printKeyOption.hidden = solution.checked;
+    printSheetOption.hidden = !solution.checked;
     const numberFormat = new Intl.NumberFormat(language(), { maximumFractionDigits: 2 });
     for (const input of root.querySelectorAll('.studio-form [name]')) {
       const value = input.name === 'leading' ? Math.round(settings.leading * 50) / 100 : settings[input.name];
@@ -639,7 +646,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
   async function exportWorksheet(action) {
     if (printButton.disabled || root.hidden) return;
     const current = reading;
-    const answerKey = action.endsWith('-key');
+    const answerKey = action === 'print' ? solution.checked : action.endsWith('-key');
     const config = {
       ...settings, excluded: [...settings.excluded],
       questionLines: { __proto__: null, ...settings.questionLines },
@@ -785,7 +792,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
 
   window.addEventListener('beforeprint', () => {
     if (!pendingPrint && (root.hidden || !reading)) return;
-    printOutlet.replaceChildren(...(pendingPrint ?? exportWorksheetPages(reading, settings)));
+    printOutlet.replaceChildren(...(pendingPrint ?? exportWorksheetPages(reading, settings, solution.checked)));
     document.body.dataset.tramaPrint = '';
   });
   window.addEventListener('afterprint', () => {

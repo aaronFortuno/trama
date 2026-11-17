@@ -48,6 +48,8 @@ v1.26.4 · Obre l’historial de canvis|v1.26.4 · Abrir el historial de cambios
 v1.27 · Obre l’historial de canvis|v1.27 · Abrir el historial de cambios
 v1.27.1 · Obre l’historial de canvis|v1.27.1 · Abrir el historial de cambios
 v1.28 · Obre l’historial de canvis|v1.28 · Abrir el historial de cambios
+v1.28.1 · Obre l’historial de canvis|v1.28.1 · Abrir el historial de cambios
+Quan el visor mostra el solucionari, el botó principal imprimeix el solucionari amb el format actual. El desplegable permet imprimir la fitxa d’alumnat.|Cuando el visor muestra el solucionario, el botón principal imprime el solucionario con el formato actual. El desplegable permite imprimir la ficha del alumnado.
 S’incorporen onze lectures noves de 3r inicial (L123–L133) en català i castellà, amb il·lustració i solucionari.|Se incorporan once lecturas nuevas de 3.º de nivel inicial (L123–L133) en catalán y castellano, con ilustración y solucionario.
 Nou lectures noves (L134–L142) completen les quinze de dificultat intermèdia de 3r en totes dues llengües.|Nueve lecturas nuevas (L134–L142) completan las quince de dificultad intermedia de 3.º en ambos idiomas.
 El codi d’aula permet triar entre cinc mides i dos contrastos. La lletra és de pal sec i queda centrada dins l’etiqueta.|El código de aula permite elegir entre cinco tamaños y dos contrastes. La letra es de palo seco y queda centrada dentro de la etiqueta.
@@ -412,6 +414,7 @@ Imprimeix|Imprimir
 Opcions d’impressió i PDF|Opciones de impresión y PDF
 Descarrega el PDF|Descargar el PDF
 Imprimeix el solucionari|Imprimir el solucionario
+Imprimeix la fitxa|Imprimir la ficha del alumnado
 Descarrega el solucionari en PDF|Descargar el solucionario en PDF
 No s’ha pogut preparar el document. Torna-ho a provar.|No se ha podido preparar el documento. Inténtalo de nuevo.
 Espai de resposta de la pregunta {number}|Espacio de respuesta de la pregunta {number}
