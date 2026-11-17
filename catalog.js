@@ -24,6 +24,7 @@ const rowsPerBatch = 2;
 
 // Editorial word ranges for the levels covered by the catalogue.
 const lengthLimits = new Map([
+  ['3-primary', { shortMax: 125, mediumMax: 145 }],
   ['4-primary', { shortMax: 185, mediumMax: 210 }],
   ['5-primary', { shortMax: 240, mediumMax: 265 }],
   ['6-primary', { shortMax: 285, mediumMax: 359 }],
