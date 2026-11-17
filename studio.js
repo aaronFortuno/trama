@@ -535,7 +535,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     return null;
   }
 
-  function select(entry, config, { keepLayout = false, saved = null } = {}) {
+  function select(entry, config, { keepLayout = false, keepSolution = false, saved = null } = {}) {
     const passage = keepLayout && visiblePassage();
     report.close();
     reading = entry;
@@ -544,7 +544,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     layoutError = '';
     fileStatus.hidden = true;
     for (const message of root.querySelectorAll('[data-logo-status]')) message.hidden = true;
-    if (!keepLayout) solution.checked = false;
+    if (!keepLayout && !keepSolution) solution.checked = false;
     exportStatus.hidden = true;
     hiddenQuestion = undefined;
     questionFeedback.hidden = true;
@@ -842,7 +842,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
       const saved = readWorksheetLayout(entry, scope?.id);
       const config = saved ?? (scope || resetReadings.has(entry.id) ? defaultSettings(entry.level)
         : { ...(keepLayout ? worksheetLayout(entry, settings) : settingsForReading(entry)), ...sessionClassroomCode });
-      select(entry, config, { keepLayout, saved });
+      select(entry, config, { keepLayout, keepSolution: !root.hidden, saved });
       return true;
     },
     restore(value) {

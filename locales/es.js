@@ -99,6 +99,7 @@ Vols esborrar els ajustos desats de totes les lectures d’aquest navegador?|¿Q
 S’han restablert els ajustos de totes les lectures.|Se han restablecido los ajustes de todas las lecturas.
 No s’han pogut restablir els ajustos de totes les lectures.|No se han podido restablecer los ajustes de todas las lecturas.
 Selecciona-les totes|Seleccionarlas todas
+Prepara per imprimir a doble cara|Prepara para imprimir a doble cara
 {selected} de {total} seleccionades|{selected} de {total} seleccionadas
 Lectures del lot|Lecturas del lote
 No hi ha lectures amb aquesta cerca i aquests filtres.|No hay lecturas con esta búsqueda y estos filtros.
@@ -127,6 +128,8 @@ v1.32 · Obre l’historial de canvis|v1.32 · Abrir el historial de cambios
 v1.33 · Obre l’historial de canvis|v1.33 · Abrir el historial de cambios
 v1.34 · Obre l’historial de canvis|v1.34 · Abrir el historial de cambios
 v1.34.1 · Obre l’historial de canvis|v1.34.1 · Abrir el historial de cambios
+v1.34.2 · Obre l’historial de canvis|v1.34.2 · Abrir el historial de cambios
+La impressió en lot incorpora una opció de doble cara activada per defecte. Afegeix una pàgina en blanc al final de cada fitxa o solucionari amb un nombre senar de pàgines, també als PDF i ZIP. Les fletxes del visor mantenen la vista d’alumnat o de solucionari en canviar de lectura.|La impresión por lotes incorpora una opción de doble cara activada por defecto. Añade una página en blanco al final de cada ficha o solucionario con un número impar de páginas, también en los PDF y ZIP. Las flechas del visor mantienen la vista de alumnado o de solucionario al cambiar de lectura.
 El lateral de contingut mostra només les preguntes eliminades del preview, amb un botó per recuperar-les. La secció queda buida quan totes les preguntes són visibles.|El lateral de contenido muestra solo las preguntas eliminadas de la vista previa, con un botón para recuperarlas. La sección queda vacía cuando todas las preguntas son visibles.
 El catàleg mostra una sola llengua i recorda l’última tria. El lateral incorpora filtres desplegables i selecció de cards. Les col·leccions conserven l’ordre entre sessions i permeten afegir, retirar i reordenar lectures.|El catálogo muestra un solo idioma y recuerda la última elección. El lateral incorpora filtros desplegables y selección de tarjetas. Las colecciones conservan el orden entre sesiones y permiten añadir, retirar y reordenar lecturas.
 Set lectures noves de 5è avançat (L158–L164), en català i castellà, completen les quinze de cada llengua. Totes tenen il·lustració, vuit preguntes i solucionari.|Siete lecturas nuevas de 5.º avanzado (L158–L164), en catalán y castellano, completan las quince de cada idioma. Todas tienen ilustración, ocho preguntas y solucionario.

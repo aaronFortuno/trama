@@ -79,6 +79,10 @@ export async function createPdfSession() {
       const images = new Map();
       for (const sheet of pages) {
         signal?.throwIfAborted();
+        if (sheet.classList.contains('worksheet-blank-page')) {
+          pdf.addPage([widthMm * pt, heightMm * pt]);
+          continue;
+        }
         const id = sheet.dataset.font;
         if (!cssByFont.has(id)) cssByFont.set(id, embeddedFontStyles([id], fileData));
         const css = (await cssByFont.get(id)) + '\n' + stylesheet;

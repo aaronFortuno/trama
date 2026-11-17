@@ -21,6 +21,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getAllReading
   const none = dialog.querySelector('#batch-empty');
   const all = dialog.querySelector('#batch-select-all');
   const onlySaved = dialog.querySelector('#batch-only-saved');
+  const duplex = dialog.querySelector('#batch-duplex');
   const resetAll = dialog.querySelector('#batch-reset-layouts');
   const layoutTools = dialog.querySelector('.batch-layout-tools');
   const count = dialog.querySelector('#batch-count');
@@ -47,7 +48,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getAllReading
     const selected = visible.filter(({ input }) => input.checked).length;
     const format = new Intl.NumberFormat(language());
     all.disabled = Boolean(job) || !visible.length;
-    onlySaved.disabled = Boolean(job);
+    onlySaved.disabled = duplex.disabled = Boolean(job);
     resetAll.disabled = download.disabled = upload.disabled = restore.disabled = Boolean(job);
     all.checked = visible.length > 0 && selected === visible.length;
     all.indeterminate = selected > 0 && selected < visible.length;
@@ -201,7 +202,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getAllReading
     upload.focus();
   });
 
-  async function* renderSelection(selected, answerKey, signal) {
+  async function* renderSelection(selected, answerKey, doubleSided, signal) {
     const collectionId = getCollectionId();
     for (const [index, { reading, layout }] of selected.entries()) {
       signal.throwIfAborted();
@@ -209,7 +210,14 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getAllReading
       const settings = layout ?? getSettings(reading, collectionId);
       await loadWorksheetFont(settings.font);
       signal.throwIfAborted();
-      yield { reading, pages: exportWorksheetPages(reading, settings, answerKey) };
+      const pages = exportWorksheetPages(reading, settings, answerKey);
+      if (doubleSided && pages.length % 2 === 1) {
+        const blank = document.createElement('article');
+        blank.className = 'worksheet-page worksheet-blank-page';
+        blank.setAttribute('aria-hidden', 'true');
+        pages.push(blank);
+      }
+      yield { reading, pages };
     }
   }
 
@@ -219,11 +227,12 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getAllReading
     const controller = job = new AbortController();
     const { signal } = controller;
     const answerKey = action.endsWith('-key');
+    const doubleSided = duplex.checked;
     const canFinish = () => !signal.aborted && dialog.open && !dialog.classList.contains('is-closing');
     updateControls();
     setStatus(t('Preparant el lot…'));
     try {
-      const selection = renderSelection(selected, answerKey, signal);
+      const selection = renderSelection(selected, answerKey, doubleSided, signal);
       if (action.startsWith('print')) {
         const sheets = [];
         for await (const { pages } of selection) sheets.push(...pages);

@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.34.2 · 17 de novembre de 2026
+
+La impressió en lot incorpora una opció de doble cara activada per defecte. Afegeix una pàgina en blanc al final de cada fitxa o solucionari amb un nombre senar de pàgines, també als PDF i ZIP. Les fletxes del visor mantenen la vista d’alumnat o de solucionari en canviar de lectura.
+
 ## 1.34.1 · 17 de novembre de 2026
 
 El lateral de contingut mostra només les preguntes eliminades del preview, amb un botó per recuperar-les. La secció queda buida quan totes les preguntes són visibles.
