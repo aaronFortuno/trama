@@ -50,6 +50,8 @@ v1.27.1 · Obre l’historial de canvis|v1.27.1 · Abrir el historial de cambios
 v1.28 · Obre l’historial de canvis|v1.28 · Abrir el historial de cambios
 v1.28.1 · Obre l’historial de canvis|v1.28.1 · Abrir el historial de cambios
 v1.29 · Obre l’historial de canvis|v1.29 · Abrir el historial de cambios
+v1.29.1 · Obre l’historial de canvis|v1.29.1 · Abrir el historial de cambios
+El codi d’aula manté el text, la mida, el contrast i la visibilitat en canviar de lectura durant la sessió. La mida per defecte és de 20 pt.|El código de aula mantiene el texto, el tamaño, el contraste y la visibilidad al cambiar de lectura durante la sesión. El tamaño por defecto es de 20 pt.
 Quinze lectures avançades (L143–L157) completen el catàleg de 3r: quinze lectures per dificultat, totes en català i castellà.|Quince lecturas avanzadas (L143–L157) completan el catálogo de 3.º: quince lecturas por dificultad, todas en catalán y castellano.
 Quan el visor mostra el solucionari, el botó principal imprimeix el solucionari amb el format actual. El desplegable permet imprimir la fitxa d’alumnat.|Cuando el visor muestra el solucionario, el botón principal imprime el solucionario con el formato actual. El desplegable permite imprimir la ficha del alumnado.
 S’incorporen onze lectures noves de 3r inicial (L123–L133) en català i castellà, amb il·lustració i solucionari.|Se incorporan once lecturas nuevas de 3.º de nivel inicial (L123–L133) en catalán y castellano, con ilustración y solucionario.
@@ -296,7 +298,7 @@ Mida del codi d’aula|Tamaño del código de aula
 Contrast del codi d’aula|Contraste del código de aula
 Blanc sobre negre|Blanco sobre negro
 Negre sobre blanc amb vora|Negro sobre blanco con borde
-Es desa per a aquesta lectura en aquest navegador.|Se guarda para esta lectura en este navegador.
+Els ajustos es mantenen mentre navegues. Els canvis es desen a la lectura actual.|Los ajustes se mantienen mientras navegas. Los cambios se guardan en la lectura actual.
 Camp de nom|Campo de nombre
 Camp de data|Campo de fecha
 Camp de curs|Campo de curso

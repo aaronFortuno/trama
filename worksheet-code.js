@@ -57,7 +57,7 @@ const fields = {
   headerLogo: [tramaLogo, logo],
   showClassroomCode: [false, boolean],
   classroomCode: ['codi', singleLine(maxClassroomCodeLength)],
-  classroomCodeSize: [25, numberIn(classroomCodeSize.min, classroomCodeSize.max, classroomCodeSize.step)],
+  classroomCodeSize: [20, numberIn(classroomCodeSize.min, classroomCodeSize.max, classroomCodeSize.step)],
   classroomCodeStyle: ['solid', oneOf('solid', 'outline')],
   showImages: [true, boolean],
   showVocabulary: [true, boolean],

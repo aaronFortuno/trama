@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.29.1 · 17 de novembre de 2026
+
+El codi d’aula manté el text, la mida, el contrast i la visibilitat en canviar de lectura durant la sessió. La mida per defecte és de 20 pt.
+
 ## 1.29 · 17 de novembre de 2026
 
 Quinze lectures avançades (L143–L157) completen el catàleg de 3r: quinze lectures per dificultat, totes en català i castellà.

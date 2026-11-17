@@ -219,7 +219,7 @@
 .worksheet-heading { padding-bottom: 5mm; }
 .worksheet-header { margin-bottom: 7mm; font: 10pt/1.25 Arial, sans-serif; }
 .worksheet-header:has(.worksheet-header-brand, .worksheet-classroom-code) { display: flex; align-items: center; gap: 4mm; }
-.worksheet-classroom-code { display: grid; place-items: center; margin-inline-start: auto; flex: none; max-width: 54mm; padding: 1.5mm 2.5mm; border: .35mm solid #101010; background: #101010; color: #fff; font: 400 25pt/1.15 Arial, sans-serif; text-align: center; overflow-wrap: anywhere; }
+.worksheet-classroom-code { display: grid; place-items: center; margin-inline-start: auto; flex: none; max-width: 54mm; padding: 1.5mm 2.5mm; border: .35mm solid #101010; background: #101010; color: #fff; font: 400 20pt/1.15 Arial, sans-serif; text-align: center; overflow-wrap: anywhere; }
 .worksheet-classroom-code.is-outline { background: #fff; color: #101010; }
 .worksheet-header:has(.worksheet-header-brand .worksheet-kind) { margin-bottom: 5mm; }
 .worksheet-header-brand { flex: none; width: 30mm; }

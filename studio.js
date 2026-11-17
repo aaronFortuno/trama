@@ -149,7 +149,7 @@ const template = `
                   <option value="outline">Negre sobre blanc amb vora</option>
                 </select>
               </label>
-              <p class="studio-control-note">Es desa per a aquesta lectura en aquest navegador.</p>
+              <p class="studio-control-note">Els ajustos es mantenen mentre navegues. Els canvis es desen a la lectura actual.</p>
             </div>
             ${logoControls('headerLogo', 'Logotip de l’encapçalament')}
           </div>
@@ -326,6 +326,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
   ];
   let settings;
   let sessionFormat;
+  let sessionClassroomCode;
   const classroomCodes = new Map();
   function classroomSettings(entry) {
     if (classroomCodes.has(entry.id)) return classroomCodes.get(entry.id);
@@ -336,13 +337,19 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     } catch { /* The code can still be used in this session. */ }
     return classroomDefaults;
   }
-  function rememberClassroomCode() {
-    const value = Object.fromEntries(classroomKeys.map(key => [key, settings[key]]));
+  function rememberClassroomCode(key) {
+    sessionClassroomCode = Object.fromEntries(classroomKeys.map(key => [key, settings[key]]));
+    // Carry the preview forward without replacing another reading's saved label when only its style changes.
+    const value = key === 'classroomCode'
+      ? sessionClassroomCode
+      : { ...classroomSettings(reading), [key]: settings[key] };
     classroomCodes.set(reading.id, value);
     try { localStorage.setItem(classroomStorageKey + reading.id, JSON.stringify(value)); }
     catch { /* Keep the code for this session. */ }
   }
-  const settingsForReading = entry => ({ ...defaultSettings(entry.level), ...sessionFormat, ...classroomSettings(entry) });
+  const classroomForPreview = entry => sessionClassroomCode ?? classroomSettings(entry);
+  const settingsForReading = (entry, classroom = classroomSettings(entry)) =>
+    ({ ...defaultSettings(entry.level), ...sessionFormat, ...classroom });
   let requestedFont;
   let pendingPrint;
   let frame = 0;
@@ -582,7 +589,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
       if (Object.hasOwn(classroomDefaults, input.name) && !validSetting(input.name, next)) return;
       settings[input.name] = next;
       if (changed && formatKeys.has(input.name)) sessionFormat = pageFormat(settings);
-      if (changed && Object.hasOwn(classroomDefaults, input.name)) rememberClassroomCode();
+      if (changed && Object.hasOwn(classroomDefaults, input.name)) rememberClassroomCode(input.name);
     } else {
       return;
     }
@@ -820,13 +827,14 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
       const entry = readings.find(item => item.id === id);
       if (!entry) return false;
       const keepLayout = !root.hidden && reading?.id !== entry.id && reading?.workId === entry.workId && Boolean(entry.workId);
-      select(entry, keepLayout ? { ...settings, ...classroomSettings(entry) } : settingsForReading(entry), keepLayout);
+      const classroom = classroomForPreview(entry);
+      select(entry, keepLayout ? { ...settings, ...classroom } : settingsForReading(entry, classroom), keepLayout);
       return true;
     },
     restore(value) {
       const decoded = readCode(value, readings);
       if (!decoded) return false;
-      select(decoded.reading, { ...decoded.settings, ...classroomSettings(decoded.reading) });
+      select(decoded.reading, { ...decoded.settings, ...classroomForPreview(decoded.reading) });
       return true;
     },
   };
