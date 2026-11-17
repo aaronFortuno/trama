@@ -52,10 +52,8 @@
 
 .studio-variants { display: inline-flex; align-items: center; gap: 6px; font-size: .74rem; }
 .studio-print { display: grid; gap: 6px; padding: 8px 10px; border-top: 1px solid var(--line); background: var(--surface); }
-.studio-saved-layout { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
-.studio-saved-layout .button { flex: 1; min-height: 30px; padding: 4px 8px; font-size: .8rem; }
-.studio-saved-layout .button[aria-disabled="true"] { color: var(--green); background: var(--surface); border-color: var(--line); cursor: default; }
 #studio-layout-feedback { margin: 0; color: var(--muted); font-size: .75rem; }
+#studio-layout-feedback.is-error { color: var(--accent); }
 .worksheet-print-buttons { display: grid; grid-template-columns: minmax(0, 1fr) auto; }
 .worksheet-print-buttons .button { min-height: 38px; }
 .worksheet-print-buttons .ui-icon { width: 17px; height: 17px; }

@@ -15,11 +15,13 @@ function batchName(readings) {
     .replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
 }
 
-export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, printPages }) {
+export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, printPages, resetLayouts }) {
   const list = dialog.querySelector('#batch-list');
   const none = dialog.querySelector('#batch-empty');
   const all = dialog.querySelector('#batch-select-all');
   const onlySaved = dialog.querySelector('#batch-only-saved');
+  const resetAll = dialog.querySelector('#batch-reset-layouts');
+  const layoutTools = dialog.querySelector('.batch-layout-tools');
   const count = dialog.querySelector('#batch-count');
   const printButton = dialog.querySelector('#batch-print');
   const menuTrigger = dialog.querySelector('#batch-print-trigger');
@@ -35,6 +37,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, 
     const format = new Intl.NumberFormat(language());
     all.disabled = Boolean(job) || !visible.length;
     onlySaved.disabled = Boolean(job);
+    resetAll.disabled = Boolean(job);
     all.checked = visible.length > 0 && selected === visible.length;
     all.indeterminate = selected > 0 && selected < visible.length;
     printButton.disabled = menuTrigger.disabled = Boolean(job) || !selected;
@@ -57,9 +60,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, 
     status.hidden = !message;
   }
 
-  trigger.addEventListener('click', () => {
-    job?.abort();
-    job = undefined;
+  function populateRows() {
     const { compare } = new Intl.Collator(language(), { numeric: true });
     const readings = getReadings().sort((a, b) => compare(a.code, b.code) || compare(a.title, b.title) || compare(a.language, b.language));
     const codes = new Map();
@@ -92,8 +93,15 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, 
       return { reading, input, item, layout };
     });
     list.replaceChildren(...rows.map(row => row.item));
-    setStatus('');
     updateControls();
+  }
+
+  trigger.addEventListener('click', () => {
+    job?.abort();
+    job = undefined;
+    layoutTools.open = false;
+    setStatus('');
+    populateRows();
   });
   dialog.addEventListener('close', () => {
     if (dialog.open) return;
@@ -102,6 +110,12 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, 
   });
   list.addEventListener('change', () => { setStatus(''); updateControls(); });
   onlySaved.addEventListener('change', () => { setStatus(''); updateControls(); });
+  resetAll.addEventListener('click', () => {
+    if (job || !confirm(t('Vols esborrar els ajustos desats de totes les lectures d’aquest navegador?'))) return;
+    const reset = resetLayouts();
+    populateRows();
+    setStatus(reset ? t('S’han restablert els ajustos de totes les lectures.') : t('No s’han pogut restablir els ajustos de totes les lectures.'), !reset);
+  });
   all.addEventListener('change', () => {
     for (const { input } of visibleRows()) input.checked = all.checked;
     setStatus('');

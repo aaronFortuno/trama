@@ -71,6 +71,9 @@
 .batch-reading-description { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; min-width: 0; }
 .batch-saved { padding: 2px 6px; border-radius: 4px; background: var(--surface); color: var(--green); font-size: .71rem; overflow-wrap: anywhere; }
 #batch-empty { margin: 12px; }
+.batch-layout-tools { flex: none; margin: 9px 0 0; color: var(--muted); font-size: .76rem; }
+.batch-layout-tools summary { width: fit-content; cursor: pointer; }
+.batch-layout-tools .button { min-height: 30px; margin-top: 6px; }
 .batch-actions { display: flex; flex: none; flex-wrap: wrap; justify-content: end; align-items: center; gap: 8px 12px; margin-top: 14px; }
 .batch-menu-separator { border-top: 1px solid var(--line); margin-block: 4px; }
 #batch-status { flex: 1 1 12rem; margin: 0; color: var(--muted); font-size: .8rem; }

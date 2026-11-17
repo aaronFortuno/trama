@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.31 · 17 de novembre de 2026
+
+Els ajustos de cada lectura es desen automàticament al navegador i es recuperen en reobrir-la o imprimir-la, sola o en lot. Es pot restablir una lectura o esborrar tots els maquetats desats.
+
 ## 1.30 · 17 de novembre de 2026
 
 El visor permet desar el maquetat de cada lectura per imprimir-la més tard en lot. El diàleg pot mostrar només les lectures maquetades i aplica els ajustos desats tant a la fitxa com al solucionari.

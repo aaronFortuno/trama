@@ -27,19 +27,19 @@ Importa una lectura|Importar una lectura
 Importa o exporta|Importar o exportar
 Imprimeix un lot|Imprimir un lote
 Imprimeix fitxes en bloc|Imprimir fichas en bloque
-La llista segueix la cerca i els filtres del catàleg. Les lectures maquetades fan servir els ajustos desats, també al solucionari.|La lista sigue la búsqueda y los filtros del catálogo. Las lecturas maquetadas usan los ajustes guardados, también en el solucionario.
+La llista segueix la cerca i els filtres del catàleg. Les fitxes i els solucionaris fan servir els ajustos desats automàticament en editar cada lectura.|La lista sigue la búsqueda y los filtros del catálogo. Las fichas y los solucionarios usan los ajustes guardados automáticamente al editar cada lectura.
 Només lectures maquetades|Solo lecturas maquetadas
 No hi ha cap maquetat desat per a les lectures d’aquesta llista.|No hay ninguna maquetación guardada para las lecturas de esta lista.
 Maquetada|Maquetada
 Maquetada · {code}|Maquetada · {code}
-Desa per al lot|Guarda para el lote
-Desat per al lot|Guardado para el lote
-Actualitza el maquetat|Actualiza la maquetación
-Treu|Quitar
-Treu el maquetat desat|Quita la maquetación guardada
-El lot farà servir el maquetat desat fins que l’actualitzis.|El lote usará la maquetación guardada hasta que la actualices.
-No s’ha pogut desar el maquetat en aquest navegador.|No se ha podido guardar la maquetación en este navegador.
-No s’ha pogut treure el maquetat desat.|No se ha podido quitar la maquetación guardada.
+Canvis desats en aquest navegador.|Cambios guardados en este navegador.
+No s’han pogut desar els canvis. Es mantindran mentre aquesta pàgina sigui oberta.|No se han podido guardar los cambios. Se mantendrán mientras esta página esté abierta.
+No s’han pogut restablir els ajustos d’aquesta lectura.|No se han podido restablecer los ajustes de esta lectura.
+Maquetats d’aquest navegador|Maquetaciones de este navegador
+Restableix totes les lectures|Restablece todas las lecturas
+Vols esborrar els ajustos desats de totes les lectures d’aquest navegador?|¿Quieres borrar los ajustes guardados de todas las lecturas de este navegador?
+S’han restablert els ajustos de totes les lectures.|Se han restablecido los ajustes de todas las lecturas.
+No s’han pogut restablir els ajustos de totes les lectures.|No se han podido restablecer los ajustes de todas las lecturas.
 Selecciona-les totes|Seleccionarlas todas
 {selected} de {total} seleccionades|{selected} de {total} seleccionadas
 Lectures del lot|Lecturas del lote
@@ -64,6 +64,8 @@ v1.28.1 · Obre l’historial de canvis|v1.28.1 · Abrir el historial de cambios
 v1.29 · Obre l’historial de canvis|v1.29 · Abrir el historial de cambios
 v1.29.1 · Obre l’historial de canvis|v1.29.1 · Abrir el historial de cambios
 v1.30 · Obre l’historial de canvis|v1.30 · Abrir el historial de cambios
+v1.31 · Obre l’historial de canvis|v1.31 · Abrir el historial de cambios
+Els ajustos de cada lectura es desen automàticament al navegador i es recuperen en reobrir-la o imprimir-la, sola o en lot. Es pot restablir una lectura o esborrar tots els maquetats desats.|Los ajustes de cada lectura se guardan automáticamente en el navegador y se recuperan al volver a abrirla o imprimirla, sola o por lotes. Se puede restablecer una lectura o borrar todas las maquetaciones guardadas.
 El visor permet desar el maquetat de cada lectura per imprimir-la més tard en lot. El diàleg pot mostrar només les lectures maquetades i aplica els ajustos desats tant a la fitxa com al solucionari.|El visor permite guardar la maquetación de cada lectura para imprimirla más tarde por lotes. El diálogo puede mostrar solo las lecturas maquetadas y aplica los ajustes guardados tanto a la ficha como al solucionario.
 El codi d’aula manté el text, la mida, el contrast i la visibilitat en canviar de lectura durant la sessió. La mida per defecte és de 20 pt.|El código de aula mantiene el texto, el tamaño, el contraste y la visibilidad al cambiar de lectura durante la sesión. El tamaño por defecto es de 20 pt.
 Quinze lectures avançades (L143–L157) completen el catàleg de 3r: quinze lectures per dificultat, totes en català i castellà.|Quince lecturas avanzadas (L143–L157) completan el catálogo de 3.º: quince lecturas por dificultad, todas en catalán y castellano.
@@ -282,7 +284,7 @@ Amplia el zoom|Ampliar el zoom
 Ajusta a l’amplada|Ajustar al ancho
 Nivell de zoom|Nivel de zoom
 Format del full|Formato de la ficha
-Restableix el format per defecte del curs|Restablecer el formato por defecto del curso
+Restableix aquesta lectura|Restablece esta lectura
 Restableix|Restablecer
 Plantilles|Plantillas
 Tria una plantilla|Elegir una plantilla
@@ -312,7 +314,7 @@ Mida del codi d’aula|Tamaño del código de aula
 Contrast del codi d’aula|Contraste del código de aula
 Blanc sobre negre|Blanco sobre negro
 Negre sobre blanc amb vora|Negro sobre blanco con borde
-Els ajustos es mantenen mentre navegues. Els canvis es desen a la lectura actual.|Los ajustes se mantienen mientras navegas. Los cambios se guardan en la lectura actual.
+El codi es desa automàticament amb els altres ajustos d’aquesta lectura.|El código se guarda automáticamente con los demás ajustes de esta lectura.
 Camp de nom|Campo de nombre
 Camp de data|Campo de fecha
 Camp de curs|Campo de curso

@@ -85,6 +85,7 @@ mountBatchDownload({
   getReadings: catalog.matchingReadings,
   getSettings: studio.exportSettings,
   printPages: studio.printPages,
+  resetLayouts: studio.resetAllLayouts,
 });
 mountDialogs();
 mountSelectMenus();

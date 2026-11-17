@@ -1,6 +1,6 @@
 import { labelFor, wordCount } from './catalog.js';
 import { classroomCodeSize, defaultImageConfig, defaultQuestionLines, defaultSettings, marginLimits, maxAnswerLines, maxClassroomCodeLength, questionLines, readCode, validSetting, worksheetLayout } from './worksheet-code.js';
-import { readWorksheetLayout, removeWorksheetLayout, saveWorksheetLayout } from './worksheet-layouts.js';
+import { classroomKeys, clearWorksheetLayouts, hasPendingWorksheetLayout, readWorksheetLayout, removeWorksheetLayout, saveWorksheetLayout } from './worksheet-layouts.js';
 import { decodeWorksheetImages, exportWorksheetPages, renderWorksheet, worksheetThumbnail } from './worksheet.js';
 import { supportsHyphenation } from './worksheet-hyphenation.js';
 import { animateRefresh, mountDisclosures, setDisclosure } from './motion.js';
@@ -17,10 +17,7 @@ import { fontGroups, loadWorksheetFont, worksheetFonts } from './worksheet-fonts
 
 const formatKeys = new Set(templateGroups.filter(group => group.id !== 'images').flatMap(group => group.keys));
 const pageFormat = settings => Object.fromEntries([...formatKeys].map(key => [key, settings[key]]));
-const classroomStorageKey = 'trama.classroom-code.v1:';
-const classroomKeys = ['showClassroomCode', 'classroomCode', 'classroomCodeSize', 'classroomCodeStyle'];
-const defaults = defaultSettings();
-const classroomDefaults = Object.fromEntries(classroomKeys.map(key => [key, defaults[key]]));
+const classroomFormat = settings => Object.fromEntries(classroomKeys.map(key => [key, settings[key]]));
 
 const range = (key, label, min, max, step, unit) => `
   <label class="studio-range">
@@ -87,7 +84,7 @@ const template = `
     <aside class="studio-settings studio-format" aria-labelledby="studio-settings-title">
       <div class="studio-panel-heading">
         <h2 id="studio-settings-title">Format del full</h2>
-        <button class="studio-text-button" type="button" data-action="reset" aria-label="Restableix el format per defecte del curs">Restableix</button>
+        <button class="studio-text-button" type="button" data-action="reset" aria-label="Restableix aquesta lectura" title="Restableix aquesta lectura">Restableix</button>
       </div>
       <form class="studio-form scroll-pane">
         <details class="studio-template-picker">
@@ -150,7 +147,7 @@ const template = `
                   <option value="outline">Negre sobre blanc amb vora</option>
                 </select>
               </label>
-              <p class="studio-control-note">Els ajustos es mantenen mentre navegues. Els canvis es desen a la lectura actual.</p>
+              <p class="studio-control-note">El codi es desa automàticament amb els altres ajustos d’aquesta lectura.</p>
             </div>
             ${logoControls('headerLogo', 'Logotip de l’encapçalament')}
           </div>
@@ -207,10 +204,6 @@ const template = `
         </label>
       </form>
       <div class="studio-print">
-        <div class="studio-saved-layout">
-          <button class="button" type="button" data-action="save-layout">Desa per al lot</button>
-          <button class="studio-text-button" type="button" data-action="remove-layout" aria-label="Treu el maquetat desat" hidden>Treu</button>
-        </div>
         <p id="studio-layout-feedback" role="status" hidden></p>
         <p id="studio-export-status" role="status" hidden></p>
         <div class="worksheet-print-buttons">
@@ -312,8 +305,6 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
   const exportStatus = find('#studio-export-status');
   const printTrigger = find('#studio-print-trigger');
   const printButton = find('[data-action="print"]');
-  const saveLayoutButton = find('[data-action="save-layout"]');
-  const removeLayoutButton = find('[data-action="remove-layout"]');
   const layoutFeedback = find('#studio-layout-feedback');
   const printLabel = printButton.querySelector('span');
   const printKeyOption = find('#studio-print-menu [data-option="print-key"]');
@@ -334,33 +325,15 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     { direction: 'next', label: 'Lectura següent', button: find('[data-action="reading-next"]') },
   ];
   let settings;
-  let savedLayout;
+  let hasSavedLayout = false;
   let layoutError = '';
   let sessionFormat;
   let sessionClassroomCode;
-  const classroomCodes = new Map();
-  function classroomSettings(entry) {
-    if (classroomCodes.has(entry.id)) return classroomCodes.get(entry.id);
-    try {
-      const saved = JSON.parse(localStorage.getItem(classroomStorageKey + entry.id));
-      return Object.fromEntries(classroomKeys.map(key =>
-        [key, validSetting(key, saved?.[key]) ? saved[key] : classroomDefaults[key]]));
-    } catch { /* The code can still be used in this session. */ }
-    return classroomDefaults;
+  const resetReadings = new Set();
+  function settingsForReading(entry) {
+    const defaults = defaultSettings(entry.level);
+    return resetReadings.has(entry.id) ? defaults : { ...defaults, ...sessionFormat };
   }
-  function rememberClassroomCode(key) {
-    sessionClassroomCode = Object.fromEntries(classroomKeys.map(key => [key, settings[key]]));
-    // Carry the preview forward without replacing another reading's saved label when only its style changes.
-    const value = key === 'classroomCode'
-      ? sessionClassroomCode
-      : { ...classroomSettings(reading), [key]: settings[key] };
-    classroomCodes.set(reading.id, value);
-    try { localStorage.setItem(classroomStorageKey + reading.id, JSON.stringify(value)); }
-    catch { /* Keep the code for this session. */ }
-  }
-  const classroomForPreview = entry => sessionClassroomCode ?? classroomSettings(entry);
-  const settingsForReading = (entry, classroom = classroomSettings(entry)) =>
-    ({ ...defaultSettings(entry.level), ...sessionFormat, ...classroom });
   let requestedFont;
   let pendingPrint;
   let frame = 0;
@@ -375,6 +348,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     onApply(format, name) {
       Object.assign(settings, format);
       if (Object.keys(format).some(key => formatKeys.has(key))) sessionFormat = pageFormat(settings);
+      persistLayout();
       syncControls();
       refresh();
       templateStatus.textContent = t('Plantilla «{name}» aplicada.', { name });
@@ -439,35 +413,39 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     else vocabulary.removeAttribute('aria-describedby');
   }
 
-  function syncSavedLayout() {
-    const upToDate = savedLayout && JSON.stringify(worksheetLayout(reading, settings)) === JSON.stringify(savedLayout);
-    saveLayoutButton.textContent = t(upToDate ? 'Desat per al lot' : savedLayout ? 'Actualitza el maquetat' : 'Desa per al lot');
-    saveLayoutButton.setAttribute('aria-disabled', String(Boolean(upToDate)));
-    removeLayoutButton.hidden = !savedLayout;
-    const note = layoutError || (savedLayout && !upToDate ? 'El lot farà servir el maquetat desat fins que l’actualitzis.' : '');
-    layoutFeedback.textContent = note ? t(note) : '';
+  function syncLayoutStatus() {
+    const pending = hasPendingWorksheetLayout(reading);
+    const note = layoutError || (pending ? 'No s’han pogut desar els canvis. Es mantindran mentre aquesta pàgina sigui oberta.'
+      : hasSavedLayout ? 'Canvis desats en aquest navegador.' : '');
+    const message = note ? t(note) : '';
+    if (layoutFeedback.textContent !== message) layoutFeedback.textContent = message;
     layoutFeedback.hidden = !note;
+    layoutFeedback.classList.toggle('is-error', Boolean(layoutError || pending));
   }
 
-  function updateSavedLayout(action) {
-    if (action === 'save-layout' && saveLayoutButton.getAttribute('aria-disabled') === 'true') return;
-    try {
-      if (action === 'save-layout') {
-        savedLayout = saveWorksheetLayout(reading, settings);
-      } else {
-        removeWorksheetLayout(reading);
-        savedLayout = null;
-        saveLayoutButton.focus({ preventScroll: true });
-      }
-      layoutError = '';
-    } catch {
-      layoutError = action === 'save-layout' ? 'No s’ha pogut desar el maquetat en aquest navegador.' : 'No s’ha pogut treure el maquetat desat.';
-    }
-    syncSavedLayout();
+  function persistLayout() {
+    saveWorksheetLayout(reading, settings);
+    resetReadings.delete(reading.id);
+    hasSavedLayout = true;
+    layoutError = '';
+  }
+
+  function resetStudioLayout() {
+    settings = defaultSettings(reading.level);
+    hasSavedLayout = false;
+    layoutError = '';
+    hiddenQuestion = undefined;
+    questionFeedback.hidden = true;
+    for (const message of root.querySelectorAll('[data-logo-status]')) message.hidden = true;
+    templates.resetSelection();
+    templateStatus.textContent = '';
+    exportStatus.hidden = true;
+    syncControls();
+    refresh();
   }
 
   function syncControls(animated = true) {
-    syncSavedLayout();
+    syncLayoutStatus();
     printLabel.textContent = t(solution.checked ? 'Imprimeix el solucionari' : 'Imprimeix');
     printKeyOption.hidden = solution.checked;
     printSheetOption.hidden = !solution.checked;
@@ -575,7 +553,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     report.close();
     reading = entry;
     settings = config;
-    savedLayout = saved;
+    hasSavedLayout = Boolean(saved);
     layoutError = '';
     fileStatus.hidden = true;
     for (const message of root.querySelectorAll('[data-logo-status]')) message.hidden = true;
@@ -610,6 +588,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     const value = input.type === 'checkbox' ? input.checked : input.type === 'range' || input.name === 'answerLines' ? Number(input.value) : input.value;
     if (input.dataset.question) {
       const id = input.dataset.question;
+      if (input.checked === !settings.excluded.includes(id)) return;
       settings.excluded = input.checked ? settings.excluded.filter(entry => entry !== id) : [...settings.excluded, id];
       if (input.checked && id === hiddenQuestion) {
         hiddenQuestion = undefined;
@@ -618,22 +597,24 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     } else if (input.dataset.questionLines) {
       const question = reading.questions.find(entry => entry.id === input.dataset.questionLines);
       if (!question || input.value === '' || !input.validity.valid) return;
+      if (questionLines(question, settings) === input.valueAsNumber) return;
       setQuestionSpace(question, input.valueAsNumber);
     } else if (input.dataset.imageKey) {
       const id = input.closest('[data-image]').dataset.image;
       const index = reading.images.findIndex(image => image.id === id);
       const config = settings.images[id] ?? defaultImageConfig(reading, index);
+      if (config[input.dataset.imageKey] === value) return;
       settings.images[id] = { ...config, [input.dataset.imageKey]: value };
     } else if (Object.hasOwn(settings, input.name)) {
       const next = input.name === 'leading' ? Math.round(value * 20) / 10 : value;
-      const changed = settings[input.name] !== next;
-      if (Object.hasOwn(classroomDefaults, input.name) && !validSetting(input.name, next)) return;
+      if (settings[input.name] === next || !validSetting(input.name, next)) return;
       settings[input.name] = next;
-      if (changed && formatKeys.has(input.name)) sessionFormat = pageFormat(settings);
-      if (changed && Object.hasOwn(classroomDefaults, input.name)) rememberClassroomCode(input.name);
+      if (formatKeys.has(input.name)) sessionFormat = pageFormat(settings);
+      if (classroomKeys.includes(input.name)) sessionClassroomCode = classroomFormat(settings);
     } else {
       return;
     }
+    persistLayout();
     templateStatus.textContent = '';
     syncControls();
     if (!frame) frame = requestAnimationFrame(refresh);
@@ -650,6 +631,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
       settings.excluded = settings.excluded.filter(id => id !== hiddenQuestion);
       hiddenQuestion = undefined;
       questionFeedback.hidden = true;
+      persistLayout();
       syncControls();
       refresh();
       find('#studio-title').focus({ preventScroll: true });
@@ -672,6 +654,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
       const count = Math.min(maxAnswerLines, Math.max(0, questionLines(question, settings) + (action === 'question-more' ? 1 : -1)));
       setQuestionSpace(question, count);
     }
+    persistLayout();
     templateStatus.textContent = '';
     syncControls();
     refresh();
@@ -749,6 +732,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     function updateLogo(source) {
       settings[key] = source;
       sessionFormat = pageFormat(settings);
+      persistLayout();
       message.hidden = true;
       templateStatus.textContent = '';
       syncControls();
@@ -825,16 +809,14 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     if (action?.startsWith('question-')) editQuestion(action, button);
     if (action === 'catalog') onCatalog();
     if (action === 'templates') templates.open();
-    if (action === 'save-layout' || action === 'remove-layout') updateSavedLayout(action);
     if (action === 'reset') {
-      sessionFormat = undefined;
-      settings = { ...settings, ...pageFormat(defaultSettings(reading.level)) };
-      for (const message of root.querySelectorAll('[data-logo-status]')) message.hidden = true;
-      templates.resetSelection();
-      exportStatus.hidden = true;
-      templateStatus.textContent = '';
-      syncControls();
-      refresh();
+      if (removeWorksheetLayout(reading)) {
+        resetReadings.add(reading.id);
+        resetStudioLayout();
+      } else {
+        layoutError = 'No s’han pogut restablir els ajustos d’aquesta lectura.';
+        syncLayoutStatus();
+      }
     }
     if (action === 'print') exportWorksheet(action);
   });
@@ -853,6 +835,13 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     dismissMenu() { printMenu.close(); fileMenu.close(); },
     exportSettings: settingsForReading,
     printPages,
+    resetAllLayouts() {
+      if (!clearWorksheetLayouts()) return false;
+      sessionFormat = sessionClassroomCode = undefined;
+      resetReadings.clear();
+      if (reading) resetStudioLayout();
+      return true;
+    },
     translate() {
       translateMarkup();
       templateStatus.textContent = '';
@@ -870,17 +859,16 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
       if (!entry) return false;
       const keepLayout = !root.hidden && reading?.id !== entry.id && reading?.workId === entry.workId && Boolean(entry.workId);
       const saved = readWorksheetLayout(entry);
-      const classroom = saved ? {} : classroomForPreview(entry);
-      const config = saved ? worksheetLayout(entry, saved)
-        : keepLayout ? { ...settings, ...classroom } : settingsForReading(entry, classroom);
+      const config = saved ?? (resetReadings.has(entry.id) ? defaultSettings(entry.level)
+        : { ...(keepLayout ? worksheetLayout(entry, settings) : settingsForReading(entry)), ...sessionClassroomCode });
       select(entry, config, { keepLayout, saved });
       return true;
     },
     restore(value) {
       const decoded = readCode(value, readings);
       if (!decoded) return false;
-      select(decoded.reading, { ...decoded.settings, ...classroomForPreview(decoded.reading) },
-        { saved: readWorksheetLayout(decoded.reading) });
+      const saved = readWorksheetLayout(decoded.reading);
+      select(decoded.reading, saved ?? { ...decoded.settings, ...sessionClassroomCode }, { saved });
       return true;
     },
   };
