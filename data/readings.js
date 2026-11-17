@@ -3,6 +3,7 @@ import { moreReadings5Es } from './readings-5-es-2.js';
 import { readings5EsThirdSeries } from './readings-5-es-3.js';
 import { readings5EsFourthSeries } from './readings-5-es-4.js';
 import { readings4Es } from './readings-4-es.js';
+import { readings4ExpansionEs } from './readings-4-expansion-es.js';
 import { readings3Es } from './readings-3-es.js';
 import { readings3InitialEs } from './readings-3-initial-es.js';
 import { readings3IntermediateEs } from './readings-3-intermediate-es.js';
@@ -17,6 +18,7 @@ import { readings6EsFourthSeries } from './readings-6-es-4.js';
 import { readings6EsFifthSeries } from './readings-6-es-5.js';
 import { annotationsEs } from './annotations-es.js';
 import { readings4Ca } from './readings-4-ca.js';
+import { readings4ExpansionCa } from './readings-4-expansion-ca.js';
 import { readings3Ca } from './readings-3-ca.js';
 import { readings3InitialCa } from './readings-3-initial-ca.js';
 import { readings3IntermediateCa } from './readings-3-intermediate-ca.js';
@@ -210,6 +212,7 @@ const originalReadings = [
   ...readings5EsThirdSeries,
   ...readings5EsFourthSeries,
   ...readings4Es,
+  ...readings4ExpansionEs,
   ...readings3Es,
   ...readings3InitialEs,
   ...readings3IntermediateEs,
@@ -232,7 +235,7 @@ const originalsByCode = new Map(originalReadings.map(reading => [reading.code, r
 
 export const readings = [
   ...originalReadings,
-  ...[...readings3Ca, ...readings3InitialCa, ...readings3IntermediateCa, ...readings3AdvancedCa, ...readings4Ca, ...readings5Ca, ...readings5InitialCa, ...readings5AdvancedCa, ...readings6Ca, ...readings1SecondaryCa].map(({ code, imageAlt, annotations = [], ...text }) => {
+  ...[...readings3Ca, ...readings3InitialCa, ...readings3IntermediateCa, ...readings3AdvancedCa, ...readings4Ca, ...readings4ExpansionCa, ...readings5Ca, ...readings5InitialCa, ...readings5AdvancedCa, ...readings6Ca, ...readings1SecondaryCa].map(({ code, imageAlt, annotations = [], ...text }) => {
     const original = originalsByCode.get(code);
     return {
       ...original,

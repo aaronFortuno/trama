@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.35.1 · 17 de novembre de 2026
+
+Tres lectures noves de 4t inicial (L165–L167), en català i castellà, amb il·lustració, sis preguntes i solucionari. S’ha rectificat l’anatomia de la mà de la il·lustració de la L165.
+
 ## 1.35 · 17 de novembre de 2026
 
 Es retira el filtre de tipus de pregunta i s’unifiquen les etiquetes del catàleg. Medi ambient, esport, tecnologia i geografia tenen noms propis als filtres en català i castellà. Totes les lectures existents tenen temàtica i tipus de text verificats.
