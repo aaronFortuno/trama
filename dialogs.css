@@ -64,10 +64,12 @@
 #batch-count { color: var(--muted); }
 .batch-scroll { max-height: 48dvh; padding: 0; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
 .batch-list { margin: 0; padding: 0; list-style: none; }
-.batch-list li + li { border-top: 1px solid var(--line); }
+.batch-list li:not([hidden]) ~ li:not([hidden]) { border-top: 1px solid var(--line); }
 .batch-list label { display: grid; grid-template-columns: auto minmax(5.2em, auto) 1fr; gap: 8px; align-items: baseline; padding: 8px; font-size: .82rem; cursor: pointer; }
 .batch-list label:hover { background: var(--surface); }
 .batch-list code { color: var(--muted); font-size: .76rem; }
+.batch-reading-description { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; min-width: 0; }
+.batch-saved { padding: 2px 6px; border-radius: 4px; background: var(--surface); color: var(--green); font-size: .71rem; overflow-wrap: anywhere; }
 #batch-empty { margin: 12px; }
 .batch-actions { display: flex; flex: none; flex-wrap: wrap; justify-content: end; align-items: center; gap: 8px 12px; margin-top: 14px; }
 .batch-menu-separator { border-top: 1px solid var(--line); margin-block: 4px; }

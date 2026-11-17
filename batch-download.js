@@ -3,6 +3,7 @@ import { labelFor } from './catalog.js';
 import { language, t } from './i18n.js';
 import { decodeWorksheetImages, exportWorksheetPages } from './worksheet.js';
 import { loadWorksheetFont } from './worksheet-fonts.js';
+import { readWorksheetLayout } from './worksheet-layouts.js';
 
 function batchName(readings) {
   const common = key => readings.every(reading => reading[key] === readings[0][key]) && readings[0][key];
@@ -18,6 +19,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, 
   const list = dialog.querySelector('#batch-list');
   const none = dialog.querySelector('#batch-empty');
   const all = dialog.querySelector('#batch-select-all');
+  const onlySaved = dialog.querySelector('#batch-only-saved');
   const count = dialog.querySelector('#batch-count');
   const printButton = dialog.querySelector('#batch-print');
   const menuTrigger = dialog.querySelector('#batch-print-trigger');
@@ -25,17 +27,27 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, 
   const status = dialog.querySelector('#batch-status');
   let rows = [];
   let job;
+  const visibleRows = () => onlySaved.checked ? rows.filter(row => row.layout) : rows;
 
   function updateControls() {
-    const selected = rows.filter(({ input }) => input.checked).length;
+    const visible = visibleRows();
+    const selected = visible.filter(({ input }) => input.checked).length;
     const format = new Intl.NumberFormat(language());
-    all.disabled = Boolean(job) || !rows.length;
-    all.checked = rows.length > 0 && selected === rows.length;
-    all.indeterminate = selected > 0 && selected < rows.length;
+    all.disabled = Boolean(job) || !visible.length;
+    onlySaved.disabled = Boolean(job);
+    all.checked = visible.length > 0 && selected === visible.length;
+    all.indeterminate = selected > 0 && selected < visible.length;
     printButton.disabled = menuTrigger.disabled = Boolean(job) || !selected;
-    for (const { input } of rows) input.disabled = Boolean(job);
+    for (const { input, item, layout } of rows) {
+      input.disabled = Boolean(job);
+      item.hidden = onlySaved.checked && !layout;
+    }
+    none.hidden = visible.length > 0;
+    none.textContent = t(onlySaved.checked && rows.length
+      ? 'No hi ha cap maquetat desat per a les lectures d’aquesta llista.'
+      : 'No hi ha lectures amb aquesta cerca i aquests filtres.');
     count.textContent = t('{selected} de {total} seleccionades', {
-      selected: format.format(selected), total: format.format(rows.length),
+      selected: format.format(selected), total: format.format(visible.length),
     });
   }
 
@@ -57,18 +69,29 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, 
       const label = document.createElement('label');
       const input = document.createElement('input');
       const code = document.createElement('code');
+      const description = document.createElement('span');
       const title = document.createElement('span');
+      const layout = readWorksheetLayout(reading);
       input.type = 'checkbox';
       input.checked = true;
       code.textContent = codes.get(reading.code) > 1 ? `${reading.code}-${reading.language.toUpperCase()}` : reading.code;
       title.textContent = reading.title;
       title.lang = reading.language;
-      label.append(input, code, title);
+      description.className = 'batch-reading-description';
+      description.append(title);
+      label.append(input, code, description);
+      if (layout) {
+        const badge = document.createElement('span');
+        badge.className = 'batch-saved';
+        badge.textContent = layout.showClassroomCode && layout.classroomCode.trim()
+          ? t('Maquetada · {code}', { code: layout.classroomCode.trim() })
+          : t('Maquetada');
+        description.append(badge);
+      }
       item.append(label);
-      return { reading, input, item };
+      return { reading, input, item, layout };
     });
     list.replaceChildren(...rows.map(row => row.item));
-    none.hidden = rows.length > 0;
     setStatus('');
     updateControls();
   });
@@ -78,18 +101,19 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, 
     job?.abort();
   });
   list.addEventListener('change', () => { setStatus(''); updateControls(); });
+  onlySaved.addEventListener('change', () => { setStatus(''); updateControls(); });
   all.addEventListener('change', () => {
-    for (const { input } of rows) input.checked = all.checked;
+    for (const { input } of visibleRows()) input.checked = all.checked;
     setStatus('');
     updateControls();
   });
   printButton.addEventListener('click', () => outputBatch('print'));
 
-  async function* renderSelection(readings, answerKey, signal) {
-    for (const [index, reading] of readings.entries()) {
+  async function* renderSelection(selected, answerKey, signal) {
+    for (const [index, { reading, layout }] of selected.entries()) {
       signal.throwIfAborted();
-      setStatus(t('Preparant la fitxa {current} de {total}…', { current: index + 1, total: readings.length }));
-      const settings = getSettings(reading);
+      setStatus(t('Preparant la fitxa {current} de {total}…', { current: index + 1, total: selected.length }));
+      const settings = layout ?? getSettings(reading);
       await loadWorksheetFont(settings.font);
       signal.throwIfAborted();
       yield { reading, pages: exportWorksheetPages(reading, settings, answerKey) };
@@ -97,8 +121,8 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, 
   }
 
   async function outputBatch(action) {
-    const readings = rows.filter(({ input }) => input.checked).map(({ reading }) => reading);
-    if (job || !readings.length) return;
+    const selected = visibleRows().filter(({ input }) => input.checked);
+    if (job || !selected.length) return;
     const controller = job = new AbortController();
     const { signal } = controller;
     const answerKey = action.endsWith('-key');
@@ -106,7 +130,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, 
     updateControls();
     setStatus(t('Preparant el lot…'));
     try {
-      const selection = renderSelection(readings, answerKey, signal);
+      const selection = renderSelection(selected, answerKey, signal);
       if (action.startsWith('print')) {
         const sheets = [];
         for await (const { pages } of selection) sheets.push(...pages);
@@ -116,7 +140,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getSettings, 
       } else {
         const zipFormat = action.startsWith('zip');
         const suffix = answerKey ? '-' + t('solucionari') : '';
-        const name = batchName(readings) + suffix;
+        const name = batchName(selected.map(({ reading }) => reading)) + suffix;
         const [{ createPdfSession, saveDownload }, zipModule] = await Promise.all([
           import('./worksheet-pdf.js'),
           zipFormat ? import('./worksheet-zip.js') : null,

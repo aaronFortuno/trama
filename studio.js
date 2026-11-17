@@ -1,5 +1,6 @@
 import { labelFor, wordCount } from './catalog.js';
-import { classroomCodeSize, defaultImageConfig, defaultQuestionLines, defaultSettings, marginLimits, maxAnswerLines, maxClassroomCodeLength, questionLines, readCode, validSetting } from './worksheet-code.js';
+import { classroomCodeSize, defaultImageConfig, defaultQuestionLines, defaultSettings, marginLimits, maxAnswerLines, maxClassroomCodeLength, questionLines, readCode, validSetting, worksheetLayout } from './worksheet-code.js';
+import { readWorksheetLayout, removeWorksheetLayout, saveWorksheetLayout } from './worksheet-layouts.js';
 import { decodeWorksheetImages, exportWorksheetPages, renderWorksheet, worksheetThumbnail } from './worksheet.js';
 import { supportsHyphenation } from './worksheet-hyphenation.js';
 import { animateRefresh, mountDisclosures, setDisclosure } from './motion.js';
@@ -206,6 +207,11 @@ const template = `
         </label>
       </form>
       <div class="studio-print">
+        <div class="studio-saved-layout">
+          <button class="button" type="button" data-action="save-layout">Desa per al lot</button>
+          <button class="studio-text-button" type="button" data-action="remove-layout" aria-label="Treu el maquetat desat" hidden>Treu</button>
+        </div>
+        <p id="studio-layout-feedback" role="status" hidden></p>
         <p id="studio-export-status" role="status" hidden></p>
         <div class="worksheet-print-buttons">
           <button class="button primary" type="button" data-action="print">${icon('printer')} <span>Imprimeix</span></button>
@@ -306,6 +312,9 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
   const exportStatus = find('#studio-export-status');
   const printTrigger = find('#studio-print-trigger');
   const printButton = find('[data-action="print"]');
+  const saveLayoutButton = find('[data-action="save-layout"]');
+  const removeLayoutButton = find('[data-action="remove-layout"]');
+  const layoutFeedback = find('#studio-layout-feedback');
   const printLabel = printButton.querySelector('span');
   const printKeyOption = find('#studio-print-menu [data-option="print-key"]');
   const printSheetOption = find('#studio-print-menu [data-option="print-sheet"]');
@@ -325,6 +334,8 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     { direction: 'next', label: 'Lectura següent', button: find('[data-action="reading-next"]') },
   ];
   let settings;
+  let savedLayout;
+  let layoutError = '';
   let sessionFormat;
   let sessionClassroomCode;
   const classroomCodes = new Map();
@@ -428,7 +439,35 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     else vocabulary.removeAttribute('aria-describedby');
   }
 
+  function syncSavedLayout() {
+    const upToDate = savedLayout && JSON.stringify(worksheetLayout(reading, settings)) === JSON.stringify(savedLayout);
+    saveLayoutButton.textContent = t(upToDate ? 'Desat per al lot' : savedLayout ? 'Actualitza el maquetat' : 'Desa per al lot');
+    saveLayoutButton.setAttribute('aria-disabled', String(Boolean(upToDate)));
+    removeLayoutButton.hidden = !savedLayout;
+    const note = layoutError || (savedLayout && !upToDate ? 'El lot farà servir el maquetat desat fins que l’actualitzis.' : '');
+    layoutFeedback.textContent = note ? t(note) : '';
+    layoutFeedback.hidden = !note;
+  }
+
+  function updateSavedLayout(action) {
+    if (action === 'save-layout' && saveLayoutButton.getAttribute('aria-disabled') === 'true') return;
+    try {
+      if (action === 'save-layout') {
+        savedLayout = saveWorksheetLayout(reading, settings);
+      } else {
+        removeWorksheetLayout(reading);
+        savedLayout = null;
+        saveLayoutButton.focus({ preventScroll: true });
+      }
+      layoutError = '';
+    } catch {
+      layoutError = action === 'save-layout' ? 'No s’ha pogut desar el maquetat en aquest navegador.' : 'No s’ha pogut treure el maquetat desat.';
+    }
+    syncSavedLayout();
+  }
+
   function syncControls(animated = true) {
+    syncSavedLayout();
     printLabel.textContent = t(solution.checked ? 'Imprimeix el solucionari' : 'Imprimeix');
     printKeyOption.hidden = solution.checked;
     printSheetOption.hidden = !solution.checked;
@@ -531,11 +570,13 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     return null;
   }
 
-  function select(entry, config, keepLayout = false) {
+  function select(entry, config, { keepLayout = false, saved = null } = {}) {
     const passage = keepLayout && visiblePassage();
     report.close();
     reading = entry;
     settings = config;
+    savedLayout = saved;
+    layoutError = '';
     fileStatus.hidden = true;
     for (const message of root.querySelectorAll('[data-logo-status]')) message.hidden = true;
     if (!keepLayout) solution.checked = false;
@@ -784,6 +825,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     if (action?.startsWith('question-')) editQuestion(action, button);
     if (action === 'catalog') onCatalog();
     if (action === 'templates') templates.open();
+    if (action === 'save-layout' || action === 'remove-layout') updateSavedLayout(action);
     if (action === 'reset') {
       sessionFormat = undefined;
       settings = { ...settings, ...pageFormat(defaultSettings(reading.level)) };
@@ -827,14 +869,18 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
       const entry = readings.find(item => item.id === id);
       if (!entry) return false;
       const keepLayout = !root.hidden && reading?.id !== entry.id && reading?.workId === entry.workId && Boolean(entry.workId);
-      const classroom = classroomForPreview(entry);
-      select(entry, keepLayout ? { ...settings, ...classroom } : settingsForReading(entry, classroom), keepLayout);
+      const saved = readWorksheetLayout(entry);
+      const classroom = saved ? {} : classroomForPreview(entry);
+      const config = saved ? worksheetLayout(entry, saved)
+        : keepLayout ? { ...settings, ...classroom } : settingsForReading(entry, classroom);
+      select(entry, config, { keepLayout, saved });
       return true;
     },
     restore(value) {
       const decoded = readCode(value, readings);
       if (!decoded) return false;
-      select(decoded.reading, { ...decoded.settings, ...classroomForPreview(decoded.reading) });
+      select(decoded.reading, { ...decoded.settings, ...classroomForPreview(decoded.reading) },
+        { saved: readWorksheetLayout(decoded.reading) });
       return true;
     },
   };

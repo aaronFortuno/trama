@@ -27,7 +27,19 @@ Importa una lectura|Importar una lectura
 Importa o exporta|Importar o exportar
 Imprimeix un lot|Imprimir un lote
 Imprimeix fitxes en bloc|Imprimir fichas en bloque
-La llista segueix la cerca i els filtres del catàleg. Cada fitxa aplica el format del curs o el que hagis ajustat durant la sessió.|La lista sigue la búsqueda y los filtros del catálogo. Cada ficha aplica el formato del curso o el que hayas ajustado durante la sesión.
+La llista segueix la cerca i els filtres del catàleg. Les lectures maquetades fan servir els ajustos desats, també al solucionari.|La lista sigue la búsqueda y los filtros del catálogo. Las lecturas maquetadas usan los ajustes guardados, también en el solucionario.
+Només lectures maquetades|Solo lecturas maquetadas
+No hi ha cap maquetat desat per a les lectures d’aquesta llista.|No hay ninguna maquetación guardada para las lecturas de esta lista.
+Maquetada|Maquetada
+Maquetada · {code}|Maquetada · {code}
+Desa per al lot|Guarda para el lote
+Desat per al lot|Guardado para el lote
+Actualitza el maquetat|Actualiza la maquetación
+Treu|Quitar
+Treu el maquetat desat|Quita la maquetación guardada
+El lot farà servir el maquetat desat fins que l’actualitzis.|El lote usará la maquetación guardada hasta que la actualices.
+No s’ha pogut desar el maquetat en aquest navegador.|No se ha podido guardar la maquetación en este navegador.
+No s’ha pogut treure el maquetat desat.|No se ha podido quitar la maquetación guardada.
 Selecciona-les totes|Seleccionarlas todas
 {selected} de {total} seleccionades|{selected} de {total} seleccionadas
 Lectures del lot|Lecturas del lote
@@ -51,6 +63,8 @@ v1.28 · Obre l’historial de canvis|v1.28 · Abrir el historial de cambios
 v1.28.1 · Obre l’historial de canvis|v1.28.1 · Abrir el historial de cambios
 v1.29 · Obre l’historial de canvis|v1.29 · Abrir el historial de cambios
 v1.29.1 · Obre l’historial de canvis|v1.29.1 · Abrir el historial de cambios
+v1.30 · Obre l’historial de canvis|v1.30 · Abrir el historial de cambios
+El visor permet desar el maquetat de cada lectura per imprimir-la més tard en lot. El diàleg pot mostrar només les lectures maquetades i aplica els ajustos desats tant a la fitxa com al solucionari.|El visor permite guardar la maquetación de cada lectura para imprimirla más tarde por lotes. El diálogo puede mostrar solo las lecturas maquetadas y aplica los ajustes guardados tanto a la ficha como al solucionario.
 El codi d’aula manté el text, la mida, el contrast i la visibilitat en canviar de lectura durant la sessió. La mida per defecte és de 20 pt.|El código de aula mantiene el texto, el tamaño, el contraste y la visibilidad al cambiar de lectura durante la sesión. El tamaño por defecto es de 20 pt.
 Quinze lectures avançades (L143–L157) completen el catàleg de 3r: quinze lectures per dificultat, totes en català i castellà.|Quince lecturas avanzadas (L143–L157) completan el catálogo de 3.º: quince lecturas por dificultad, todas en catalán y castellano.
 Quan el visor mostra el solucionari, el botó principal imprimeix el solucionari amb el format actual. El desplegable permet imprimir la fitxa d’alumnat.|Cuando el visor muestra el solucionario, el botón principal imprime el solucionario con el formato actual. El desplegable permite imprimir la ficha del alumnado.

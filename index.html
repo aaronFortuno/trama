@@ -112,7 +112,7 @@
         </a>
       </p>
       <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.29.1 · Obre l’historial de canvis">v1.29.1</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.30 · Obre l’historial de canvis">v1.30</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
@@ -126,9 +126,10 @@
       <h2 id="batch-title" tabindex="-1" data-dialog-focus>Imprimeix fitxes en bloc</h2>
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
-    <p class="batch-help">La llista segueix la cerca i els filtres del catàleg. Cada fitxa aplica el format del curs o el que hagis ajustat durant la sessió.</p>
+    <p class="batch-help">La llista segueix la cerca i els filtres del catàleg. Les lectures maquetades fan servir els ajustos desats, també al solucionari.</p>
     <div class="batch-toolbar">
       <label><input type="checkbox" id="batch-select-all"> Selecciona-les totes</label>
+      <label><input type="checkbox" id="batch-only-saved"> Només lectures maquetades</label>
       <span id="batch-count" role="status"></span>
     </div>
     <div class="dialog-scroll batch-scroll" tabindex="0" role="region" aria-label="Lectures del lot">
@@ -203,6 +204,10 @@
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’historial"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
+      <article class="release">
+        <header><h3>v1.30</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
+        <p>El visor permet desar el maquetat de cada lectura per imprimir-la més tard en lot. El diàleg pot mostrar només les lectures maquetades i aplica els ajustos desats tant a la fitxa com al solucionari.</p>
+      </article>
       <article class="release">
         <header><h3>v1.29.1</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>El codi d’aula manté el text, la mida, el contrast i la visibilitat en canviar de lectura durant la sessió. La mida per defecte és de 20 pt.</p>

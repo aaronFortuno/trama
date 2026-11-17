@@ -118,6 +118,31 @@ export function questionLines(question, settings) {
   return settings.questionLines[question.id] ?? defaultQuestionLines(question, settings);
 }
 
+export function worksheetLayout(reading, config) {
+  const layout = defaultSettings(reading.level);
+  for (const key of Object.keys(fields)) {
+    if (validSetting(key, config[key])) layout[key] = config[key];
+  }
+  const excluded = new Set(Array.isArray(config.excluded) ? config.excluded : []);
+  for (const { id } of reading.questions) {
+    if (excluded.has(id)) layout.excluded.push(id);
+    const count = config.questionLines?.[id];
+    if (lineCount(count)) layout.questionLines[id] = count;
+  }
+  for (const [index, { id }] of reading.images.entries()) {
+    const image = config.images?.[id];
+    if (!image) continue;
+    const defaults = defaultImageConfig(reading, index);
+    layout.images[id] = {
+      visible: boolean(image?.visible) ? image.visible : defaults.visible,
+      width: imageWidth(image?.width) ? image.width : defaults.width,
+      position: Object.hasOwn(positions, image?.position) ? image.position : defaults.position,
+      wrap: boolean(image?.wrap) ? image.wrap : defaults.wrap,
+    };
+  }
+  return layout;
+}
+
 const upper = value => value.normalize('NFD').replace(/\p{M}/gu, '').toUpperCase();
 const numeric = value => /^-?\d+(?:[.,]\d+)?$/.test(value) ? Number(value.replace(',', '.')) : NaN;
 const quotedText = value => JSON.parse(value.replace(/\r\n?|\n/g, ' '));

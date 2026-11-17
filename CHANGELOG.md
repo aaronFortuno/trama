@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.30 · 17 de novembre de 2026
+
+El visor permet desar el maquetat de cada lectura per imprimir-la més tard en lot. El diàleg pot mostrar només les lectures maquetades i aplica els ajustos desats tant a la fitxa com al solucionari.
+
 ## 1.29.1 · 17 de novembre de 2026
 
 El codi d’aula manté el text, la mida, el contrast i la visibilitat en canviar de lectura durant la sessió. La mida per defecte és de 20 pt.
