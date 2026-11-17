@@ -6,6 +6,8 @@ Cada curs té un format inicial de lletra i interlineat. Els ajustos de format e
 
 S’estrena el catàleg de 3r de primària amb cinc lectures curtes il·lustrades en català i castellà (L104–L108). El filtre d’extensió aplica llindars propis per al curs.
 
+Cinc lectures més de 3r de primària (L109–L113), amb il·lustracions, solucionari i espai de resposta ajustat a cada pregunta.
+
 ## 1.24 · 16 de novembre de 2026
 
 S’incorpora «El camí subterrani de l’aigua» (L100), una lectura de divulgació de 1r d’ESO sobre els qanats de l’Iran, en català i castellà.

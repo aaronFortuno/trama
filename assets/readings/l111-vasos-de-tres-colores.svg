@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320">
+  <rect width="480" height="320" fill="#f3ecdf"/>
+  <g fill="none" stroke="#394f46" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M0 222q158-26 480 8v90H0Z" fill="#dfc9af" stroke="none"/>
+    <ellipse cx="239" cy="259" rx="182" ry="26" fill="#cfb79e" stroke="none"/>
+    <defs>
+    <g id="cup">
+    <path d="M0 0h74l-10 104q-1 9-10 9H20q-9 0-10-9Z" fill="#e4eee7"/>
+    <path d="m7 65 60 1-4 39q-1 5-8 5H20q-7 0-8-6Z" fill="#d4746b" stroke="none"/>
+    <path d="m6 47 13-3 13 3 20-4 16 4-2 25q-15 7-32 1t-26 1Z" fill="#fff8e8" stroke="none"/>
+    <path d="m11 23 17-7 13 7-2 15-17 6-9-7Z" fill="#ebc774"/>
+    <path d="m38 28 17-9 13 7-3 14-18 8-8-8Z" fill="#f1d88a"/>
+    <path d="m22 84 12-3 6 11-11 9zM46 83l10 2-1 14-10-5z" fill="#be504e" stroke="none"/>
+    <ellipse cx="37" cy="0" rx="37" ry="9" fill="#f2fbf3" fill-opacity=".8"/>
+    <path d="M4 7l7 63m54-62-6 73" stroke="#f7fff1"/>
+    </g>
+    </defs>
+    <use href="#cup" x="87" y="124"/>
+    <use href="#cup" x="181" y="91"/>
+    <use href="#cup" x="299" y="111"/>
+    <use href="#cup" x="224" y="148"/>
+    <path d="M380 237q-9-17 4-20 6-3 12 4 9-4 12 2 3 11-19 28-4 1-9-14z" fill="#d4746b"/>
+    <path d="m391 221-6-7m6 7 7-8" stroke="#608a62" stroke-width="4"/>
+    <path d="M63 272q12 0 17 4t8 2l40-17q5-1 7 4 1 4-4 5l-43 13q-6 1-9 6-11 9-24 4-11-7-5-13 3-5 13-8z" fill="#a6b6a9"/>
+  </g>
+</svg>
