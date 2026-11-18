@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.44.4 · 18 de novembre del 2026
+
+Compactem l’indicador de col·lecció: el nom passa a ser el títol, amb la icona de capes i una creu per treure el filtre. En passar-hi per sobre o donar-hi focus, una ajuda explica com tornar al catàleg. Retirem la franja que ocupava una fila sencera i afegim transicions de 220 ms, mantenint la posició de la graella i el sidebar.
+
 ## 1.44.3 · 18 de novembre del 2026
 
 Fem visible l’abast del catàleg quan s’obre una col·lecció: el títol diu «Col·lecció» i una franja destacada mostra el nom, explica que només se’n veuen les lectures i ofereix «Surt de la col·lecció». La sortida recupera el catàleg de la llengua triada i queda recordada en recarregar, conservant les col·leccions i els maquetats.

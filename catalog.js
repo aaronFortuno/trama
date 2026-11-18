@@ -133,6 +133,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
   const grid = root.querySelector('#reading-grid');
   const resultCount = root.querySelector('#result-count');
   const heading = root.querySelector('#readings-title');
+  const titleLine = root.querySelector('#catalog-title-line');
   const activeFilters = root.querySelector('#active-filters');
   const emptyState = root.querySelector('#catalog-empty');
   const reset = root.querySelector('#filters-reset');
@@ -169,6 +170,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
   let searchTimer;
   let lastTrackedSearch = '';
   let gestures;
+  let headingState;
   const observer = typeof IntersectionObserver === 'function' ? new IntersectionObserver(entries => {
     if (entries.some(entry => entry.isIntersecting) && document.activeElement !== more) loadMore();
   }) : null;
@@ -445,9 +447,15 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     const all = collection.options[0];
     collection.replaceChildren(all, ...collections.map(entry => new Option(entry.name, entry.id)));
     collection.value = activeCollection?.id ?? '';
-    heading.textContent = t(activeCollection ? 'Col·lecció' : 'Catàleg de lectures');
+    const label = activeCollection?.name ?? t('Catàleg de lectures');
+    const nextHeadingState = `${activeCollection?.id ?? ''}:${label}`;
+    const changed = headingState !== undefined && headingState !== nextHeadingState;
+    heading.textContent = label;
     collectionTag.textContent = activeCollection?.name ?? '';
-    collectionContext.hidden = !activeCollection;
+    collectionContext.classList.toggle('is-collection', Boolean(activeCollection));
+    collectionExit.disabled = !activeCollection;
+    if (changed) animateRefresh(titleLine);
+    headingState = nextHeadingState;
     collectionRemove.hidden = !activeCollection;
     collectionAdd.hidden = !activeCollection;
     collectionHelp.textContent = t(activeCollection

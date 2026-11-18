@@ -48,12 +48,14 @@
       <section class="catalog-section" aria-labelledby="readings-title">
         <div class="catalog-heading">
           <div class="catalog-heading-title">
-            <h1 id="readings-title" tabindex="-1">Catàleg de lectures</h1>
-            <p id="result-count" role="status" aria-live="polite"></p>
-            <div class="catalog-collection-context" id="catalog-collection-context" role="group" aria-label="Col·lecció activa" hidden>
-              <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 10 6-10 6L2 9l10-6Zm-10 9 10 6 10-6M2 15l10 6 10-6"/></svg>
-              <div class="catalog-collection-copy"><strong id="catalog-collection-label"></strong><span>Només es mostren les lectures d’aquesta col·lecció.</span></div>
-              <button class="button collection-exit" id="collection-exit" type="button"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 19-7-7 7-7M5 12h14"/></svg>Surt de la col·lecció</button>
+            <div class="catalog-title-line" id="catalog-title-line">
+              <div class="catalog-title-scope" id="catalog-collection-context">
+                <svg class="ui-icon catalog-title-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 10 6-10 6L2 9l10-6Zm-10 9 10 6 10-6M2 15l10 6 10-6"/></svg>
+                <h1 id="readings-title" tabindex="-1">Catàleg de lectures</h1>
+                <button class="collection-exit" id="collection-exit" type="button" aria-label="Treu el filtre de col·lecció i torna al catàleg" aria-describedby="collection-filter-help" disabled><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m18 6-12 12M6 6l12 12"/></svg></button>
+                <span class="collection-filter-help" id="collection-filter-help" role="tooltip"><strong id="catalog-collection-label"></strong><span>Filtre de col·lecció actiu. Prem la creu per tornar al catàleg complet.</span></span>
+              </div>
+              <p id="result-count" role="status" aria-live="polite"></p>
             </div>
             <div id="active-filters" class="active-filters" role="group" aria-label="Filtres actius" hidden></div>
           </div>
@@ -153,7 +155,7 @@
         </a>
       </p>
       <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.44.3 · Obre l’historial de canvis">v1.44.3</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.44.4 · Obre l’historial de canvis">v1.44.4</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
@@ -249,7 +251,7 @@
         <section>
           <h3>Col·leccions per reutilitzar</h3>
           <p>Activa «Selecciona lectures», marca les targetes i desa la selecció amb un nom. També pots mantenir premuda una targeta o fer clic dret per afegir-la directament a una col·lecció existent o nova.</p>
-          <p>Arrossega les targetes per ordenar-les. Cada lectura pot tenir un maquetat i un codi d’aula diferents a cada col·lecció. L’ordre es conserva per navegar amb les fletxes i per imprimir en lot. «Surt de la col·lecció», al costat del nom, recupera tot el catàleg.</p>
+          <p>Arrossega les targetes per ordenar-les. Cada lectura pot tenir un maquetat i un codi d’aula diferents a cada col·lecció. L’ordre es conserva per navegar amb les fletxes i per imprimir en lot. Prem la creu al costat del nom de la col·lecció per tornar al catàleg.</p>
         </section>
         <section>
           <h3>Solucionaris amb pistes</h3>
@@ -320,6 +322,10 @@
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’historial"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
+      <article class="release">
+        <header><h3>v1.44.4</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
+        <p>Compactem l’indicador de col·lecció: el nom passa a ser el títol, amb la icona de capes i una creu per treure el filtre. En passar-hi per sobre o donar-hi focus, una ajuda explica com tornar al catàleg. Retirem la franja que ocupava una fila sencera i afegim transicions de 220 ms, mantenint la posició de la graella i el sidebar.</p>
+      </article>
       <article class="release">
         <header><h3>v1.44.3</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Fem visible l’abast del catàleg quan s’obre una col·lecció: el títol diu «Col·lecció» i una franja destacada mostra el nom, explica que només se’n veuen les lectures i ofereix «Surt de la col·lecció». La sortida recupera el catàleg de la llengua triada i queda recordada en recarregar, conservant les col·leccions i els maquetats.</p>
