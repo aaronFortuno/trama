@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.39 · 18 de novembre del 2026
+
+Dues lectures noves de 1r d’ESO intermedi (L235–L236), en català i castellà, completen quinze lectures d’aquesta dificultat. Una ressenya crítica i una carta familiar amb dues il·lustracions, onze preguntes i solucionari cadascuna.
+
 ## 1.38.2 · 18 de novembre del 2026
 
 Sis lectures més de 1r d’ESO intermedi (L229–L234), en català i castellà: energia, arqueologia, conques d’aigua, una final ajornada, memòria documental i rutes. Dues il·lustracions, onze preguntes i solucionari per lectura.

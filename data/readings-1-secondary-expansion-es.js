@@ -3392,5 +3392,262 @@ export const readings1SecondaryExpansionEs = [
         "questionId": "una-ruta-que-no-era-la-mas-corta-q3"
       }
     ]
+  },
+  {
+    "id": "lo-que-no-cabe-en-una-resena-es",
+    "code": "L235",
+    "workId": "lo-que-no-cabe-en-una-resena",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "intermediate",
+    "themes": [
+      "arts",
+      "environment"
+    ],
+    "genre": "review",
+    "title": "Lo que no cabe en una reseña",
+    "summary": "Una reseña de un cuaderno de plantas debe elegir qué cuenta y aclarar hasta dónde llega su valoración.",
+    "paragraphs": [
+      "El boletín del club nos ha pedido reseñar «Las plantas del camino», un cuaderno de divulgación creado por el taller local de dibujo y naturaleza. Tiene doce capítulos breves, fotos y láminas hechas a mano. He leído enteros los seis primeros y consultado los demás para preparar una salida. Lo explico porque no quiero valorar todo el libro como si hubiera leído cada parte con el mismo detalle.",
+      "Lo mejor del cuaderno, hasta donde he leído, es que enseña a observar antes de dar un nombre. Un capítulo propone comparar dos hojas; otro, dibujar cómo se unen al tallo. Las fotos sitúan la planta en su entorno y los dibujos aíslan detalles. No hacen exactamente el mismo trabajo. Mirando solo fotografías, yo solía fijarme sobre todo en el color de las flores. Las dos representaciones juntas me obligaron a prestar atención a rasgos que antes apenas miraba.",
+      "No promete identificar cualquier planta del mundo. Trabaja con ejemplos de caminos visitados por sus creadores durante un año. La selección se explica al principio, pero el título de cubierta es más general. Quien busque una guía exhaustiva puede esperar algo que el contenido no pretende ofrecer. Yo destacaría el origen del proyecto en la primera página, no solo en la introducción.",
+      "He encontrado una dificultad concreta: dos fotos pequeñas apenas permiten ver el detalle comentado. La lámina contigua ayuda, pero no siempre resulta fácil relacionarlas. En cambio, las actividades dejan espacio para dudas y no obligan a rellenar un nombre antes de observar bastante. Esa elección me parece coherente con el propósito. En mi salida anoté una pregunta que quedó pendiente y pude seguir trabajando sin fingir que ya sabía la respuesta.",
+      "En la primera reseña dediqué casi todas las líneas a un capítulo que me había encantado. Una compañera preguntó qué contaba del resto. Vi que mi selección podía hacer creer que todo el libro tenía ese formato. No necesitaba resumir doce capítulos, pero sí mostrar cierta variedad y distinguir un ejemplo particular de una característica compartida.",
+      "Lo recomendaría a un grupo que quiera empezar un diario de observación combinando lectura y paseo. No como única herramienta para resolver cualquier duda de identificación. Esa limitación no lo hace malo: sitúa para qué me resulta útil. Una recomendación válida para cualquiera y en cualquier situación puede acabar informando muy poco. El lector necesita relacionar mis criterios con lo que él busca, no solo encontrar una valoración entusiasta. Por eso prefiero una recomendación situada a una frase que prometa servir para cualquier actividad imaginable.",
+      "Mi reseña omite fotos, ejercicios y páginas quizá centrales para otros lectores. No puedo evitar elegir. Sí puedo explicar desde dónde elijo, aportar ejemplos y reconocer qué no he revisado a fondo. Cuando termine los capítulos pendientes, ampliaré la valoración. Debería ser una continuación de la lectura, no una excusa para fingir que la primera ya lo contenía todo."
+    ],
+    "images": [
+      {
+        "id": "lo-que-no-cabe-en-una-resena-art1",
+        "src": "assets/readings/l235-lo-que-no-cabe-en-una-resena-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un libro de divulgación abierto con una ilustración botánica y tres tarjetas de notas de lectura."
+      },
+      {
+        "id": "lo-que-no-cabe-en-una-resena-art2",
+        "src": "assets/readings/l235-lo-que-no-cabe-en-una-resena-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Borradores de una reseña con correcciones junto a un libro verde cerrado y una lámpara."
+      }
+    ],
+    "questions": [
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q1",
+        "type": "literal",
+        "prompt": "¿Qué parte del cuaderno ha leído entera quien lo reseña?",
+        "answer": "Los seis primeros capítulos de los doce que tiene.",
+        "lines": 2
+      },
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q2",
+        "type": "literal",
+        "prompt": "¿Qué dificultad encuentra en dos fotografías?",
+        "answer": "Son tan pequeñas que cuesta ver el detalle comentado y relacionarlas con la lámina.",
+        "lines": 2
+      },
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «guía exhaustiva» aquí?",
+        "answer": "Una guía que pretenda cubrir todos o casi todos los casos de su ámbito, no solo ejemplos seleccionados.",
+        "lines": 2
+      },
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q4",
+        "type": "inference",
+        "prompt": "¿Por qué declara el alcance de la lectura antes de valorar?",
+        "answer": "Para que se sepa en qué se basa y no se entienda como una revisión igual de detallada de todos los capítulos.",
+        "lines": 3
+      },
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q5",
+        "type": "inference",
+        "prompt": "¿Qué aportan juntos fotos y dibujos?",
+        "answer": "Las fotos sitúan plantas en el entorno y los dibujos destacan detalles, ampliando la observación.",
+        "lines": 3
+      },
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q6",
+        "type": "inference",
+        "prompt": "¿Por qué el título general puede crear una expectativa inadecuada?",
+        "answer": "Porque puede sugerir una guía más completa cuando se centra en ejemplos visitados durante un año.",
+        "lines": 3
+      },
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q7",
+        "type": "structure",
+        "prompt": "¿Qué aporta explicar la corrección de la primera reseña?",
+        "answer": "Muestra cómo elegir un solo ejemplo puede distorsionar el conjunto y cómo intenta corregirlo.",
+        "lines": 3
+      },
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q8",
+        "type": "inference",
+        "prompt": "¿Por qué una limitación de uso no equivale a condenar el libro?",
+        "answer": "Porque un recurso puede servir a un objetivo concreto sin responder a todas las necesidades.",
+        "lines": 3
+      },
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q9",
+        "type": "inference",
+        "prompt": "¿Qué criterio positivo relaciona actividades y propósito?",
+        "answer": "Que permiten anotar dudas y seguir observando sin exigir un nombre prematuro.",
+        "lines": 3
+      },
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q10",
+        "type": "summary",
+        "prompt": "Resume tres condiciones que hacen más informativa una reseña.",
+        "answer": "Explicar desde qué lectura se valora, aportar ejemplos proporcionados al conjunto y reconocer límites o usos concretos.",
+        "lines": 3
+      },
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q11",
+        "type": "opinion",
+        "prompt": "¿Qué información te serviría para decidir si el cuaderno encaja en una actividad? Define la actividad y justifica dos criterios.",
+        "answer": "Respuesta abierta con actividad concreta y dos criterios, como observación guiada, tamaño de detalles, alcance de la selección o espacio para dudas.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "guía exhaustiva",
+        "questionId": "lo-que-no-cabe-en-una-resena-q3"
+      }
+    ]
+  },
+  {
+    "id": "una-carta-escrita-desde-dos-orillas-es",
+    "code": "L236",
+    "workId": "una-carta-escrita-desde-dos-orillas",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "intermediate",
+    "themes": [
+      "community",
+      "history",
+      "everyday"
+    ],
+    "genre": "letter",
+    "title": "Una carta escrita desde dos orillas",
+    "summary": "Una hija responde años después a una carta de su padre y descubre que algunas palabras han cambiado de lugar.",
+    "paragraphs": [
+      "Papá, he encontrado la carta en la caja de fotos sin álbum. La escribiste al llegar a la ciudad del otro lado del mar, cuando seguíamos en el pueblo. Yo tenía tres años. Empezabas diciendo «aquí todo es nuevo». Ahora vivo contigo en esta ciudad y me ha costado leer aquel aquí como un lugar extraño. Para mí es el camino conocido de cada mañana.",
+      "Explicabas que aprendiste el número del autobús antes que el nombre de la calle donde dormías. Eso te ayudaba a volver, pero no te hacía sentir en casa. De pequeña creía que saber llegar a una puerta bastaba para no estar perdido. Ahora entiendo que hablabas de otra orientación, aunque no sé si sabría explicarlo como tú. Las mismas calles podían ser fáciles de recorrer y difíciles de sentir como propias.",
+      "He leído tres veces: «Cuando digo nosotros, a veces no sé quién cabe». ¿Hablabas de tus compañeros de piso, de la familia lejana o de la gente del trabajo? No lo aclaras. Quizá la pregunta ya estaba dentro de la frase. Yo digo nosotros sin pensar al hablar de mi equipo, pero desaparece al cambiar de conversación. Una palabra tan pequeña puede reunir a personas distintas sin cambiar ninguna letra.",
+      "Debajo dibujaste una ventana y un trozo de río. La abuela escribió detrás que el río del pueblo también había crecido tras la lluvia. No respondía a tu pregunta sobre los papeles del viaje, pero me gusta encontrarla. Mientras describías el lugar de llegada, ella devolvía una imagen del lugar que habías dejado. La carta empezaba a tener dos orillas antes de que alguien la llamara así.",
+      "Hoy podría preguntarte en la cocina, porque cenaremos juntos. Aun así, escribo. No para fingir que sigues lejos, sino porque al leerte despacio surgen preguntas que entre platos y deberes no siempre formulo. Tú tampoco eres solo la persona de aquella carta. No quiero convertir una página antigua en la explicación definitiva de quién eres. La conversación de hoy puede añadir cosas que entonces aún no habían ocurrido.",
+      "Junto a la llave guardada en el sobre hay una mancha redonda. No sé si es de un vaso ni dónde se hizo. Casi te invento sentado en una estación, escribiendo antes de subir al tren. Era una imagen bonita, pero la carta no lo dice. Prefiero dejar espacio para que cuentes algo que no encaje en la película que he empezado a imaginar.",
+      "Mañana querría mirar contigo el dibujo de la ventana. Quizá el edificio exista. Quizá no haga falta encontrarlo para entender aquella mirada. Devolveré la carta a la caja con esta respuesta. No será el mismo sobre ni la misma espera. Una respuesta escrita hoy también puede conservar las preguntas de alguien que llegó a leer la carta muchos años después. Pero, si alguien las lee un día, querría que viera cómo una conversación familiar cambia de orilla sin dejar de ser la misma conversación."
+    ],
+    "images": [
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-art1",
+        "src": "assets/readings/l236-una-carta-escrita-desde-dos-orillas-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Una carta y una fotografía familiar en una mesa junto a una ventana que da a un río."
+      },
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-art2",
+        "src": "assets/readings/l236-una-carta-escrita-desde-dos-orillas-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Una carta doblada y una llave ante un espejo de mesa que refleja una ventana."
+      }
+    ],
+    "questions": [
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q1",
+        "type": "literal",
+        "prompt": "¿Cuándo escribió el padre la carta encontrada?",
+        "answer": "Al llegar a una ciudad al otro lado del mar, cuando su hija de tres años seguía en el pueblo.",
+        "lines": 2
+      },
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q2",
+        "type": "literal",
+        "prompt": "¿Qué escribió la abuela detrás?",
+        "answer": "Que el río del pueblo también había crecido tras la lluvia.",
+        "lines": 2
+      },
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «la película que he empezado a imaginar»?",
+        "answer": "La historia o escena imaginada a partir de pocos indicios que aún no sabe si es real.",
+        "lines": 2
+      },
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q4",
+        "type": "inference",
+        "prompt": "¿Por qué le cuesta interpretar el «aquí» inicial como un lugar nuevo?",
+        "answer": "Porque ahora vive allí y lo conoce como parte de su vida cotidiana.",
+        "lines": 3
+      },
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q5",
+        "type": "inference",
+        "prompt": "¿Qué diferencia sugiere entre saber volver a una puerta y sentirse en casa?",
+        "answer": "La primera es orientación práctica; la segunda implica familiaridad, pertenencia o vínculos que no se resuelven con conocer el trayecto.",
+        "lines": 3
+      },
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q6",
+        "type": "inference",
+        "prompt": "¿Por qué pregunta quién cabe en «nosotros» en vez de fijar una respuesta?",
+        "answer": "Porque el referente puede variar según el contexto y el padre no lo concreta; quiere comprender esa incertidumbre.",
+        "lines": 3
+      },
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q7",
+        "type": "inference",
+        "prompt": "¿Qué significan las dos orillas más allá de los ríos mencionados?",
+        "answer": "Representan lugares, momentos y miradas distintos que la carta conecta entre familiares.",
+        "lines": 3
+      },
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q8",
+        "type": "structure",
+        "prompt": "¿Qué aporta decir que cenarán juntos?",
+        "answer": "Aclara que escribir no responde a una separación actual, sino a leer y preguntar con más pausa.",
+        "lines": 3
+      },
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q9",
+        "type": "inference",
+        "prompt": "¿Por qué rechaza convertir la mancha en una escena de estación?",
+        "answer": "Porque sería una hipótesis atractiva sin apoyo y podría ocupar el lugar de la explicación real del padre.",
+        "lines": 3
+      },
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q10",
+        "type": "summary",
+        "prompt": "Resume cómo quiere relacionar el pasado de la carta con el padre actual.",
+        "answer": "Quiere entender aquel momento sin reducir al padre a una página y abrir una conversación donde añada o corrija recuerdos.",
+        "lines": 3
+      },
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q11",
+        "type": "opinion",
+        "prompt": "¿Qué pregunta de la hija abre más posibilidades de conversación? Elige una y explica qué evita suponer.",
+        "answer": "Respuesta abierta vinculada al texto: sentido de nosotros, ventana o contexto de escritura, identificando una suposición abierta.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 6,
+        "text": "la película que he empezado a imaginar",
+        "questionId": "una-carta-escrita-desde-dos-orillas-q3"
+      }
+    ]
   }
 ];

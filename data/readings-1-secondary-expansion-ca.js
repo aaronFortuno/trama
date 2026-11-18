@@ -2756,5 +2756,215 @@ export const readings1SecondaryExpansionCa = [
         "questionId": "una-ruta-que-no-era-la-mas-corta-q3"
       }
     ]
+  },
+  {
+    "id": "lo-que-no-cabe-en-una-resena-ca",
+    "code": "L235",
+    "title": "El que no cap en una ressenya",
+    "summary": "Una ressenya d’un quadern de plantes ha de triar què explica i deixar clar fins on arriba la seva valoració.",
+    "paragraphs": [
+      "El butlletí del club ens ha demanat una ressenya de «Les plantes del camí», un quadern de divulgació creat pel taller local de dibuix i natura. Té dotze capítols breus, fotografies i làmines fetes a mà. Jo n’he llegit sencers els sis primers i he consultat els altres per preparar una sortida. Començo explicant-ho perquè no vull presentar una valoració de tot el llibre quan la meva lectura encara no té el mateix detall a cada part.",
+      "El millor del quadern, fins on he llegit, és que ensenya a observar abans de donar un nom. En un capítol proposa comparar la forma de dues fulles; en un altre, dibuixar com s’uneixen a la tija. Les fotografies situen la planta en un entorn, mentre que els dibuixos aïllen un detall. No fan exactament la mateixa feina. Quan només mirava les fotos, jo tendia a fixar-me sobretot en el color de les flors.",
+      "El llibre no promet identificar qualsevol planta del món. Treballa amb exemples de camins que el grup creador ha visitat durant un any. Al començament hi consta aquesta selecció, però a la coberta el títol és més general. Un lector que busqui una guia exhaustiva pot esperar una cosa que el contingut no pretén oferir. Per això jo destacaria l’origen del projecte a la primera pàgina, no només a la introducció.",
+      "També he trobat una dificultat concreta: en dues fotografies petites costa veure el detall que es comenta al text. La làmina del costat ajuda, però no sempre és fàcil relacionar-les. En canvi, les activitats deixen espai per anotar dubtes i no obliguen a completar una fitxa amb un nom abans d’haver observat prou. Aquesta tria em sembla coherent amb el propòsit del quadern.",
+      "A la primera versió de la ressenya vaig dedicar gairebé totes les línies a un capítol que m’havia agradat molt. Una companya em va preguntar què explicava de la resta. Vaig veure que la selecció podia fer semblar que tot el llibre tenia aquell mateix format. No calia resumir dotze capítols, però sí donar alguna pista de la varietat i distingir un exemple particular d’una característica compartida.",
+      "Ara recomanaria el quadern a un grup que vulgui començar un diari d’observació i pugui combinar lectura i passejada. No el triaria com a única eina per resoldre qualsevol dubte d’identificació. Aquesta limitació no el fa dolent: ajuda a situar per a què em sembla útil. Una recomanació que serveixi per a qualsevol persona i qualsevol situació pot acabar sense informar gaire ningú.",
+      "Aquesta ressenya deixa fora fotografies, exercicis i pàgines que altres lectors potser considerarien centrals. No puc evitar triar. El que sí que puc fer és explicar des d’on trio, aportar exemples i reconèixer què no he revisat amb prou profunditat. Quan acabi els capítols que falten, podré ampliar la valoració. Hauria de ser una continuació de la lectura, no una excusa per fingir que la primera ja ho contenia tot."
+    ],
+    "imageAlt": {
+      "lo-que-no-cabe-en-una-resena-art1": "Un llibre de divulgació obert amb una il·lustració botànica i tres targetes de notes de lectura.",
+      "lo-que-no-cabe-en-una-resena-art2": "Esborranys d’una ressenya amb correccions al costat d’un llibre verd tancat i un llum."
+    },
+    "questions": [
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q1",
+        "type": "literal",
+        "prompt": "Quina part del quadern ha llegit sencera qui fa la ressenya?",
+        "answer": "Els sis primers capítols dels dotze que té.",
+        "lines": 2
+      },
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q2",
+        "type": "literal",
+        "prompt": "Quina dificultat concreta troba en dues fotografies?",
+        "answer": "Són tan petites que costa veure-hi el detall comentat i relacionar-les amb la làmina.",
+        "lines": 2
+      },
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q3",
+        "type": "vocabulary",
+        "prompt": "Què vol dir «guia exhaustiva» en aquest context?",
+        "answer": "Una guia que pretengui cobrir tots o gairebé tots els casos del seu àmbit, no només els exemples seleccionats.",
+        "lines": 2
+      },
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q4",
+        "type": "inference",
+        "prompt": "Per què declara l’abast de la lectura abans de valorar el llibre?",
+        "answer": "Perquè el lector pugui saber en què es basa la valoració i no l’entengui com una revisió igualment detallada de tots els capítols.",
+        "lines": 3
+      },
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q5",
+        "type": "inference",
+        "prompt": "Què aporten conjuntament fotografies i dibuixos segons la ressenya?",
+        "answer": "Les fotos situen les plantes en l’entorn i els dibuixos destaquen detalls, ampliant el tipus d’observació.",
+        "lines": 3
+      },
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q6",
+        "type": "inference",
+        "prompt": "Per què el títol general pot crear una expectativa inadequada?",
+        "answer": "Perquè pot fer pensar en una guia més completa quan el projecte se centra en exemples visitats durant un any.",
+        "lines": 3
+      },
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q7",
+        "type": "structure",
+        "prompt": "Què aporta explicar la correcció de la primera ressenya?",
+        "answer": "Mostra com seleccionar un sol exemple pot distorsionar la imatge del conjunt i com intenta corregir aquest efecte.",
+        "lines": 3
+      },
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q8",
+        "type": "inference",
+        "prompt": "Per què una limitació d’ús no equival a una condemna del llibre?",
+        "answer": "Perquè un recurs pot ser útil per a un objectiu concret sense respondre a totes les necessitats.",
+        "lines": 3
+      },
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q9",
+        "type": "inference",
+        "prompt": "Quin criteri positiu relaciona les activitats amb el propòsit d’observar abans d’identificar?",
+        "answer": "Que permeten anotar dubtes i continuar observant sense exigir un nom prematur.",
+        "lines": 3
+      },
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q10",
+        "type": "summary",
+        "prompt": "Resumeix tres condicions que fan més informativa una ressenya segons el text.",
+        "answer": "Explicar des de quina lectura es valora, aportar exemples proporcionats al conjunt i reconèixer límits o usos concrets.",
+        "lines": 3
+      },
+      {
+        "id": "lo-que-no-cabe-en-una-resena-q11",
+        "type": "opinion",
+        "prompt": "Quina informació d’aquesta ressenya et seria més útil per decidir si el quadern encaixa en una activitat? Defineix l’activitat i justifica dos criteris.",
+        "answer": "Resposta oberta amb una activitat concreta i dos criteris relacionats, com observació guiada, mida dels detalls, abast de la selecció o espai per a dubtes.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "guia exhaustiva",
+        "questionId": "lo-que-no-cabe-en-una-resena-q3"
+      }
+    ]
+  },
+  {
+    "id": "una-carta-escrita-desde-dos-orillas-ca",
+    "code": "L236",
+    "title": "Una carta escrita des de dues ribes",
+    "summary": "Una filla respon anys després una carta del pare i descobreix que algunes paraules han canviat de lloc.",
+    "paragraphs": [
+      "Pare, he trobat la carta dins de la capsa on guardem les fotografies sense àlbum. La vas escriure quan acabaves d’arribar a la ciutat de l’altra banda del mar i nosaltres encara érem al poble. Jo tenia tres anys. A la primera línia deies «aquí tot és nou». Ara visc amb tu en aquesta ciutat i m’ha costat llegir aquell aquí com un lloc estrany. Per a mi és el camí conegut de cada matí.",
+      "A la carta explicaves que havies après el número de l’autobús abans que el nom del carrer on dormies. Deies que això t’ajudava a tornar, però que encara no et feia sentir a casa. Quan era petita em semblava que saber arribar a una porta era suficient per no estar perdut. Ara entenc que parlaves també d’una altra mena d’orientació, encara que no sé si jo ho sabria explicar com ho vas fer tu.",
+      "Hi ha una frase que he llegit tres vegades: «Quan dic nosaltres, a vegades no sé qui hi cap». Et referies als companys del pis, a la família que havia quedat lluny o a la gent que coneixies a la feina? No ho aclareixes. Potser la pregunta ja era dins de la frase. Jo faig servir aquest nosaltres sense pensar quan parlo del meu equip, però desapareix de seguida si canvio de conversa.",
+      "A sota hi havies dibuixat una finestra i un tros de riu. L’àvia va escriure al revers que el riu del poble també havia crescut després de la pluja. No era una resposta al que preguntaves sobre els papers del viatge, però m’agrada trobar-la. Mentre tu descrivies el lloc on arribaves, ella et tornava una imatge del lloc que havies deixat. La carta començava a tenir dues ribes abans que ningú no li posés aquest nom.",
+      "Avui podria preguntar-te tot això a la cuina, perquè soparem junts. Tot i així, t’escric. No per fer veure que encara ets lluny, sinó perquè en llegir-te lentament apareixen preguntes que entre plats i deures no sempre arribo a formular. Tu tampoc no ets només la persona d’aquella carta. No vull convertir una pàgina antiga en la manera definitiva d’explicar qui ets.",
+      "Al costat de la clau que guardaves al sobre hi ha una taca rodona. No sé si és d’un got ni on es va fer. He estat a punt d’inventar-te assegut en una estació, escrivint abans d’entrar al tren. La imatge era bonica, però la carta no ho diu. Prefereixo deixar-te espai perquè m’expliquis alguna cosa que no encaixi amb la pel·lícula que jo he començat a fer-me.",
+      "Demà voldria que miréssim plegats el dibuix de la finestra. Potser encara existeix l’edifici. Potser no caldrà trobar-lo per entendre aquella mirada. Tornaré la carta a la capsa amb aquesta resposta al costat. No serà el mateix sobre ni la mateixa espera. Però, si algun dia una altra persona les llegeix, m’agradaria que pogués veure que una conversa familiar també canvia de riba sense deixar de ser la mateixa conversa."
+    ],
+    "imageAlt": {
+      "una-carta-escrita-desde-dos-orillas-art1": "Una carta i una fotografia familiar sobre una taula al costat d’una finestra que dona a un riu.",
+      "una-carta-escrita-desde-dos-orillas-art2": "Una carta plegada i una clau davant d’un mirall de taula que reflecteix una finestra."
+    },
+    "questions": [
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q1",
+        "type": "literal",
+        "prompt": "Quan va escriure el pare la carta trobada?",
+        "answer": "Quan acabava d’arribar a una ciutat a l’altra banda del mar i la filla, de tres anys, encara era al poble.",
+        "lines": 2
+      },
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q2",
+        "type": "literal",
+        "prompt": "Quina aportació va escriure l’àvia al revers?",
+        "answer": "Que el riu del poble també havia crescut després de la pluja.",
+        "lines": 2
+      },
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q3",
+        "type": "vocabulary",
+        "prompt": "Què vol dir la filla amb «la pel·lícula que jo he començat a fer-me»?",
+        "answer": "La història o escena que s’ha imaginat a partir de pocs indicis i que encara no sap si és real.",
+        "lines": 2
+      },
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q4",
+        "type": "inference",
+        "prompt": "Per què li costa interpretar l’«aquí» del principi com un lloc nou?",
+        "answer": "Perquè ara ella viu en aquell lloc i el coneix com a part de la seva quotidianitat.",
+        "lines": 3
+      },
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q5",
+        "type": "inference",
+        "prompt": "Quina diferència suggereix entre saber tornar a una porta i sentir-se a casa?",
+        "answer": "La primera és orientació pràctica; la segona implica familiaritat, pertinença o vincles que no es resolen només coneixent el trajecte.",
+        "lines": 3
+      },
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q6",
+        "type": "inference",
+        "prompt": "Per què pregunta qui cap dins de «nosaltres» en lloc de fixar una resposta?",
+        "answer": "Perquè el referent pot variar segons el context i la carta del pare no el concreta; vol comprendre aquella incertesa.",
+        "lines": 3
+      },
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q7",
+        "type": "inference",
+        "prompt": "Quin sentit tenen les dues ribes més enllà dels dos rius dibuixats o esmentats?",
+        "answer": "Representen llocs, moments i mirades diferents que la carta connecta entre membres de la família.",
+        "lines": 3
+      },
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q8",
+        "type": "structure",
+        "prompt": "Què aporta explicar que pare i filla soparan junts?",
+        "answer": "Aclareix que la resposta escrita no és per una separació actual, sinó una manera de llegir i preguntar amb més pausa.",
+        "lines": 3
+      },
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q9",
+        "type": "inference",
+        "prompt": "Per què la filla rebutja convertir la taca en una escena d’estació?",
+        "answer": "Perquè seria una hipòtesi atractiva sense suport al text i podria ocupar el lloc de l’explicació real del pare.",
+        "lines": 3
+      },
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q10",
+        "type": "summary",
+        "prompt": "Resumeix com vol relacionar la filla el passat de la carta amb el pare actual.",
+        "answer": "Vol entendre aquell moment sense reduir tota la identitat del pare a una pàgina, i obrir una conversa on ell pugui afegir o corregir records.",
+        "lines": 3
+      },
+      {
+        "id": "una-carta-escrita-desde-dos-orillas-q11",
+        "type": "opinion",
+        "prompt": "Quina pregunta de la filla et sembla que obre més possibilitats de conversa? Tria’n una i explica què evita donar per suposat.",
+        "answer": "Resposta oberta vinculada al text: el sentit de nosaltres, la finestra o el context de l’escriptura, identificant una suposició que queda oberta.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 6,
+        "text": "la pel·lícula que jo he començat a fer-me",
+        "questionId": "una-carta-escrita-desde-dos-orillas-q3"
+      }
+    ]
   }
 ];
