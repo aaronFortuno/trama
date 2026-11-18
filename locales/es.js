@@ -68,6 +68,8 @@ v1.41.6 · Obre l’historial de canvis|v1.41.6 · Abrir el historial de cambios
 Les pistes del solucionari arriben a la L180 en català i castellà. Revisem també les preguntes que demanen relacionar una observació, una mesura o una decisió amb la seva explicació.|Las pistas del solucionario llegan a la L180 en catalán y castellano. Revisamos también las preguntas que piden relacionar una observación, una medida o una decisión con su explicación.
 v1.41.7 · Obre l’historial de canvis|v1.41.7 · Abrir el historial de cambios
 Ampliem les pistes revisades del solucionari fins a la L204 en tots dos idiomes, mantenint la numeració i els colors quan s’exclouen preguntes.|Ampliamos las pistas revisadas del solucionario hasta la L204 en ambos idiomas, manteniendo la numeración y los colores al excluir preguntas.
+v1.41.8 · Obre l’historial de canvis|v1.41.8 · Abrir el historial de cambios
+Les pistes del solucionari ja cobreixen les L001–L224 en català i castellà. Afegim els fragments de suport de les lectures més complexes i les referències a dades que cal comparar.|Las pistas del solucionario ya cubren las L001–L224 en catalán y castellano. Añadimos los fragmentos de apoyo de las lecturas más complejas y las referencias a datos que hay que comparar.
 Catàleg de lectures|Catálogo de lecturas
 Cerca al catàleg|Buscar en el catálogo
 Cerca per títol, codi o tema|Buscar por título, código o tema

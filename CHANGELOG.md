@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.41.8 · 18 de novembre del 2026
+
+Les pistes del solucionari ja cobreixen les L001–L224 en català i castellà. Afegim els fragments de suport de les lectures més complexes i les referències a dades que cal comparar.
+
 ## 1.41.7 · 18 de novembre del 2026
 
 Ampliem les pistes revisades del solucionari fins a la L204 en tots dos idiomes, mantenint la numeració i els colors quan s’exclouen preguntes.
