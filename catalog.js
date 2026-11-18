@@ -113,7 +113,7 @@ function sortFacet(facet, a, b, compare) {
   return compare(labelFor(facet, a), labelFor(facet, b));
 }
 
-export function mountCatalog({ root, readings, onSelect, onFilterApplied, onSaveCollection, onManageCollection }) {
+export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActivity, onSaveCollection, onManageCollection }) {
   let catalog = indexCatalog(readings);
   for (let index = catalog.length - 1; index > 0; index -= 1) {
     const other = Math.floor(Math.random() * (index + 1));
@@ -160,6 +160,8 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onSave
   let limit = firstBatchSize;
   let orderedMatches = [];
   let visibleIds;
+  let searchTimer;
+  let lastTrackedSearch = '';
   const observer = typeof IntersectionObserver === 'function' ? new IntersectionObserver(entries => {
     if (entries.some(entry => entry.isIntersecting) && document.activeElement !== more) loadMore();
   }) : null;
@@ -237,6 +239,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onSave
     const chips = [...activeFilters.children];
     const index = chips.indexOf(button);
     fields.find(field => field.dataset.facet === button.dataset.removeFacet).value = '';
+    onActivity?.('neteja_filtres', { filtre: button.dataset.removeFacet });
     refresh();
     const next = activeFilters.children[index] ?? activeFilters.lastElementChild ?? search;
     next.focus({ preventScroll: true });
@@ -251,12 +254,14 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onSave
     clear.hidden = true;
     clear.addEventListener('click', () => {
       field.value = '';
+      onActivity?.('neteja_filtres', { filtre: field.dataset.facet });
       refresh();
       (row.querySelector('.select-trigger') ?? field).focus({ preventScroll: true });
     });
     field.addEventListener('change', () => {
       refresh();
       if (field.value) onFilterApplied?.(field.dataset.facet, field.value, levelField.value);
+      else onActivity?.('neteja_filtres', { filtre: field.dataset.facet });
     });
     clearButtons.set(field.dataset.facet, clear);
     row.append(clear);
@@ -417,6 +422,9 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onSave
   }
 
   function clear() {
+    clearTimeout(searchTimer);
+    lastTrackedSearch = '';
+    if (search.value.trim() || optionalFields.some(field => field.value)) onActivity?.('neteja_filtres', { filtre: 'tots' });
     search.value = '';
     for (const field of optionalFields) field.value = '';
     refresh();
@@ -435,6 +443,8 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onSave
   }
 
   function selectCollection(id) {
+    clearTimeout(searchTimer);
+    lastTrackedSearch = '';
     clearSelection();
     activeCollection = collections.find(entry => entry.id === id);
     savePreference(activeCollectionKey, activeCollection?.id ?? '');
@@ -457,9 +467,13 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onSave
   collection.addEventListener('change', () => {
     collectionStatus.textContent = '';
     selectCollection(collection.value);
+    if (activeCollection) onActivity?.('colleccio', { accio: 'obre', quantitat: activeCollection.readingIds.length });
   });
   collectionManage.addEventListener('click', () => { if (activeCollection) onManageCollection(activeCollection.id); });
-  selectionToggle.addEventListener('click', beginSelection);
+  selectionToggle.addEventListener('click', () => {
+    beginSelection();
+    onActivity?.('colleccio', { accio: 'selecciona' });
+  });
   selectionCancel.addEventListener('click', () => {
     clearSelection();
     selectionToggle.focus({ preventScroll: true });
@@ -476,6 +490,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onSave
     if (!activeCollection || !confirm(t('Vols suprimir la col·lecció «{name}»?', { name: activeCollection.name }))) return;
     try {
       removeCollection(activeCollection.id);
+      onActivity?.('colleccio', { accio: 'elimina' });
       loadCollections('');
       collectionStatus.textContent = '';
       (collection.parentElement.querySelector('.select-trigger') ?? collection).focus();
@@ -486,7 +501,17 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onSave
   });
 
   reset.setAttribute('aria-label', t('Neteja la cerca i els filtres'));
-  search.addEventListener('input', refresh);
+  search.addEventListener('input', () => {
+    refresh();
+    clearTimeout(searchTimer);
+    if (!search.value.trim()) lastTrackedSearch = '';
+    searchTimer = setTimeout(() => {
+      const query = search.value.trim();
+      if (root.hidden || query.length < 2 || query === lastTrackedSearch) return;
+      lastTrackedSearch = query;
+      onActivity?.('cerca_cataleg', { tipus: /^L\d+$/i.test(query) ? 'codi' : 'text', resultats: orderedMatches.length });
+    }, 800);
+  });
   reset.addEventListener('click', clear);
   root.querySelector('#empty-reset').addEventListener('click', () => {
     if (activeCollection) selectCollection('');

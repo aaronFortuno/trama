@@ -5,7 +5,7 @@ import { animateRefresh, closeDialog, mountDialogs, openDialog } from './motion.
 import { mountSelectMenus, syncSelects } from './select-menu.js';
 import { bindTranslations, language, setLanguage, t } from './i18n.js';
 import { mountActionMenu } from './action-menu.js';
-import { startAnalytics, trackFilterApplied, trackReadingOpened } from './analytics.js';
+import { countBucket, startAnalytics, trackFeature, trackFilterApplied, trackReadingOpened } from './analytics.js';
 import { listPersonalReadings, readingStorageKey } from './reading-files.js';
 import { mountBatchDownload } from './batch-download.js';
 import { listCollections, saveCollectionEntries } from './collections.js';
@@ -22,6 +22,7 @@ const translateStatic = bindTranslations(document.documentElement);
 const translateCard = bindTranslations(document.querySelector('#reading-card').content);
 document.documentElement.lang = language();
 let currentReadingId;
+let openingSource = 'enllac';
 
 const mottos = [
   'Llegir és lligar caps.',
@@ -70,6 +71,8 @@ const catalog = mountCatalog({
   readings,
   onSelect: openCatalogReading,
   onFilterApplied: trackFilterApplied,
+  onActivity: (name, data) => trackFeature(name, Object.fromEntries(Object.entries(data)
+    .map(([key, value]) => [key, ['quantitat', 'resultats'].includes(key) ? countBucket(value) : value]))),
   onSaveCollection: saveCollection,
   onManageCollection: id => collectionLibrary.open(id),
 });
@@ -78,9 +81,9 @@ const studio = mountStudio({
   readings,
   onOpen: showStudio,
   onCatalog: goToCatalog,
-  onVariant: openReading,
+  onVariant: id => { openingSource = 'idioma'; openReading(id); },
   getNeighbors: readingNeighbors,
-  onNavigate: openCatalogReading,
+  onNavigate: (reading, direction) => openCatalogReading(reading, direction === 'next' ? 'seguent' : 'anterior'),
   onRemove: removeReading,
 });
 const batchDialog = document.querySelector('#batch-dialog');
@@ -135,6 +138,7 @@ collectionDialog.querySelector('form').addEventListener('submit', event => {
     return;
   }
   catalog.loadCollections(entry.id);
+  trackFeature('colleccio', { accio: collectionTarget.value ? 'afegeix' : 'crea', quantitat: countBucket(collectionReadings.length) });
   catalog.clearSelection();
   closeDialog(collectionDialog, () => {
     if (batchDialog.open) closeDialog(batchDialog);
@@ -169,6 +173,7 @@ markLanguage();
 mountActionMenu(document.querySelector('#language-button'), languageMenu, value => {
   if (value === language()) return;
   setLanguage(value);
+  trackFeature('canvia_idioma', { llengua: value });
   translateStatic();
   translateCard();
   headerMotto.textContent = t(motto);
@@ -187,9 +192,9 @@ function openReading(readingId) {
   else location.hash = hash;
 }
 
-function openCatalogReading(reading) {
+function openCatalogReading(reading, origin = 'cataleg') {
+  openingSource = origin;
   openReading(reading.id);
-  trackReadingOpened(reading);
 }
 
 function readingNeighbors(reading) {
@@ -199,12 +204,14 @@ function readingNeighbors(reading) {
   return index < 0 ? {} : { previous: matches[index - 1], next: matches[index + 1] };
 }
 
-function showStudio(reading, { keepLayout }) {
+function showStudio(reading, { keepLayout, saved, collection }) {
   const wasInCatalog = studioView.hidden;
   currentReadingId = reading.id;
   catalogView.hidden = true;
   studioView.hidden = false;
   document.body.classList.add('is-studio');
+  trackReadingOpened(reading, { origen: openingSource, colleccio: collection, maquetat: Boolean(saved) });
+  openingSource = 'enllac';
   if (!keepLayout) focusStudio();
   if (wasInCatalog) animateRefresh(studioView);
 }

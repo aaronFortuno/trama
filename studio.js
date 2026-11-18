@@ -15,10 +15,13 @@ import { mountReadingReport, readingReportMarkup } from './reading-report.js';
 import { encodeImage, logoSource, tramaLogo } from './local-images.js';
 import { fontGroups, loadWorksheetFont, worksheetFonts } from './worksheet-fonts.js';
 import { prepareAnswerEvidence } from './answer-evidence.js';
+import { trackFeature, trackReadingFeature } from './analytics.js';
 
 const formatKeys = new Set(templateGroups.filter(group => group.id !== 'images').flatMap(group => group.keys));
 const pageFormat = settings => Object.fromEntries([...formatKeys].map(key => [key, settings[key]]));
 const classroomFormat = settings => Object.fromEntries(classroomKeys.map(key => [key, settings[key]]));
+const analyticsBlocks = { text: 'text', margins: 'marges', answers: 'resposta', header: 'encapcalament', footer: 'peu', images: 'imatges' };
+const controlBlocks = new Map(templateGroups.flatMap(group => group.keys.map(key => [key, analyticsBlocks[group.id]])));
 
 const range = (key, label, min, max, step, unit) => `
   <label class="studio-range">
@@ -340,6 +343,13 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
   let sessionFormat;
   let sessionClassroomCode;
   const resetReadings = new Set();
+  const usedFeatures = new Set();
+  function trackEdit(bloc, accio = 'ajusta', estat) {
+    const key = `${bloc}:${accio}:${estat ?? ''}`;
+    if (!bloc || usedFeatures.has(key)) return;
+    usedFeatures.add(key);
+    trackFeature('personalitza_fitxa', { bloc, accio, ...(typeof estat === 'boolean' ? { estat } : {}) });
+  }
   function settingsForReading(entry, collectionId) {
     const defaults = defaultSettings(entry.level);
     return collectionId || resetReadings.has(entry.id) ? defaults : { ...defaults, ...sessionFormat };
@@ -551,6 +561,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     const passage = keepLayout && visiblePassage();
     report.close();
     reading = entry;
+    usedFeatures.clear();
     settings = config;
     hasSavedLayout = Boolean(saved);
     layoutError = '';
@@ -566,7 +577,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     }
     populateReading();
     syncControls(false);
-    onOpen(reading, { keepLayout });
+    onOpen(reading, { keepLayout, saved, collection: Boolean(readingCollection) });
     refresh();
     if (keepLayout) {
       const paragraph = passage && pages.querySelector(`[data-paragraph="${passage.index}"]`);
@@ -600,6 +611,9 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     } else {
       return;
     }
+    const bloc = input.dataset.imageKey ? 'imatges' : classroomKeys.includes(input.name) ? 'codi_aula'
+      : input.name === 'showVocabulary' ? 'vocabulari' : input.name === 'showEvidence' ? 'pistes' : controlBlocks.get(input.name);
+    trackEdit(bloc, 'ajusta', ['showImages', 'showVocabulary', 'showEvidence', 'showClassroomCode'].includes(input.name) ? value : undefined);
     persistLayout();
     templateStatus.textContent = '';
     syncControls();
@@ -618,6 +632,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
       const questionList = find('#studio-questions');
       const rowIndex = [...questionList.children].indexOf(button.closest('.studio-question-setting'));
       settings.excluded = settings.excluded.filter(entry => entry !== id);
+      trackEdit('preguntes', 'recupera');
       if (id === hiddenQuestion) {
         hiddenQuestion = undefined;
         questionFeedback.hidden = true;
@@ -643,11 +658,13 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     }
     const top = block.getBoundingClientRect().top;
     if (action === 'question-hide') {
+      trackEdit('preguntes', 'amaga');
       settings.excluded = [...settings.excluded, question.id];
       hiddenQuestion = question.id;
       questionFeedback.hidden = false;
       animateRefresh(questionFeedback);
     } else {
+      trackEdit('resposta', 'linies');
       const count = Math.min(maxAnswerLines, Math.max(0, questionLines(question, settings) + (action === 'question-more' ? 1 : -1)));
       setQuestionSpace(question, count);
     }
@@ -676,6 +693,8 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     if (printButton.disabled || root.hidden) return;
     const current = reading;
     const answerKey = action === 'print' ? solution.checked : action.endsWith('-key');
+    const documentData = { abast: 'individual', format: action.startsWith('pdf') ? 'pdf' : 'impressio',
+      contingut: answerKey ? 'solucionari' : 'alumnat', quantitat: '1', colleccio: Boolean(readingCollection), maquetats: hasSavedLayout };
     const config = {
       ...settings, excluded: [...settings.excluded],
       questionLines: { __proto__: null, ...settings.questionLines },
@@ -691,9 +710,13 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
         const { downloadPdf } = await import('./worksheet-pdf.js');
         const filename = `${current.code}-${current.language.toUpperCase()}${answerKey ? '-' + t('solucionari') : ''}.pdf`;
         await downloadPdf(exportPages, { title: current.title, filename });
+        trackReadingFeature('genera_document', current, documentData);
       } else {
         await decodeWorksheetImages(exportPages);
-        if (reading === current && !root.hidden) printPages(exportPages);
+        if (reading === current && !root.hidden) {
+          trackReadingFeature('genera_document', current, documentData);
+          printPages(exportPages);
+        }
       }
     } catch {
       pendingPrint = undefined;
@@ -728,6 +751,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     const message = control.querySelector('[data-logo-status]');
     const remove = control.querySelector('[data-logo-clear]');
     function updateLogo(source) {
+      trackEdit(key === 'headerLogo' ? 'encapcalament' : 'peu');
       settings[key] = source;
       if (!readingCollection) sessionFormat = pageFormat(settings);
       persistLayout();
@@ -780,10 +804,11 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
   for (const { direction, button } of readingNav) {
     button.addEventListener('click', () => {
       const neighbor = neighbors[direction];
-      if (neighbor) onNavigate(neighbor);
+      if (neighbor) onNavigate(neighbor, direction);
     });
   }
   solution.addEventListener('change', () => {
+    trackReadingFeature('canvia_vista', reading, { vista: solution.checked ? 'solucionari' : 'alumnat' });
     syncControls();
     refresh();
     animateRefresh(pages);
@@ -794,6 +819,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
       const target = [...pages.querySelectorAll('mark[data-evidence-questions]')]
         .find(mark => mark.dataset.evidenceQuestions.split(' ').includes(reference.dataset.evidenceQuestion));
       if (target) {
+        trackEdit('pistes', 'consulta');
         target.focus({ preventScroll: true });
         target.scrollIntoView({ block: 'center', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
       }
@@ -812,6 +838,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     if (action === 'templates') templates.open();
     if (action === 'reset') {
       if (removeWorksheetLayout(reading, readingCollection?.id)) {
+        trackFeature('restableix_maquetat', { abast: 'fitxa' });
         if (!readingCollection) resetReadings.add(reading.id);
         resetStudioLayout();
       } else {
@@ -824,6 +851,8 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
 
   window.addEventListener('beforeprint', () => {
     if (!pendingPrint && (root.hidden || !reading)) return;
+    if (!pendingPrint) trackReadingFeature('genera_document', reading, { abast: 'individual', format: 'impressio',
+      contingut: solution.checked ? 'solucionari' : 'alumnat', quantitat: '1', colleccio: Boolean(readingCollection), maquetats: hasSavedLayout });
     printOutlet.replaceChildren(...(pendingPrint ?? exportWorksheetPages(reading, settings, solution.checked)));
     document.body.dataset.tramaPrint = '';
   });

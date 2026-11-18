@@ -3,6 +3,7 @@ import { labelFor } from './catalog.js';
 import { icon } from './icons.js';
 import { t } from './i18n.js';
 import { animateRefresh, closeDialog, openDialog } from './motion.js';
+import { trackFeature } from './analytics.js';
 
 export function mountCollectionLibrary({ dialog, readings, onChange, onAdd }) {
   const list = dialog.querySelector('#collection-library-list');
@@ -67,6 +68,7 @@ export function mountCollectionLibrary({ dialog, readings, onChange, onAdd }) {
   function commit(change, focusId, action, message = '') {
     try {
       const entry = change();
+      trackFeature('colleccio', { accio: action === 'remove' ? 'retira' : 'reordena' });
       onChange(entry.id);
       status.textContent = message;
       render(focusId, action);

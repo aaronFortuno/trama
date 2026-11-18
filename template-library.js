@@ -4,6 +4,7 @@ import { icon } from './icons.js';
 import { language, t } from './i18n.js';
 import { tramaLogo } from './local-images.js';
 import { worksheetFonts } from './worksheet-fonts.js';
+import { trackFeature } from './analytics.js';
 
 export const templateLibraryMarkup = `
   <dialog class="site-dialog template-dialog" id="template-dialog" aria-labelledby="template-library-title">
@@ -141,6 +142,7 @@ export function mountTemplateLibrary({ dialog, picker, getSettings, getThumbnail
   function apply(entry) {
     appliedId = entry.id;
     onApply(templateSettings(entry), templateName(entry));
+    trackFeature('plantilla', { accio: 'aplica', tipus: entry.builtin ? 'predefinida' : 'personal' });
   }
 
   function reload() {
@@ -190,6 +192,7 @@ export function mountTemplateLibrary({ dialog, picker, getSettings, getThumbnail
       error.textContent = failure instanceof DOMException ? t('El navegador no ha pogut desar la plantilla.') : failure.message;
       return;
     }
+    trackFeature('plantilla', { accio: editing ? 'actualitza' : 'crea', tipus: 'personal' });
     reload();
     message.textContent = t('Plantilla «{name}» desada.', { name: name.value.trim() });
     finishEdit();
@@ -205,6 +208,7 @@ export function mountTemplateLibrary({ dialog, picker, getSettings, getThumbnail
     else if (action.dataset.templateMove) {
       try {
         moveTemplate(window.localStorage, id, Number(action.dataset.templateMove));
+        trackFeature('plantilla', { accio: 'reordena', tipus: 'personal' });
         reload();
         const row = list.querySelector(`[data-template="${CSS.escape(id)}"]`);
         (row?.querySelector(`[data-template-move="${action.dataset.templateMove}"]:enabled`) ?? row?.querySelector('[data-template-edit]'))?.focus();
@@ -242,6 +246,7 @@ export function mountTemplateLibrary({ dialog, picker, getSettings, getThumbnail
     const { name } = editing;
     try {
       removeTemplate(window.localStorage, editing);
+      trackFeature('plantilla', { accio: 'elimina', tipus: 'personal' });
     } catch (failure) {
       error.textContent = failure instanceof DOMException ? t('El navegador no ha pogut suprimir la plantilla.') : failure.message;
       return;

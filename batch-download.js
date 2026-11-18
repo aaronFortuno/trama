@@ -5,6 +5,7 @@ import { decodeWorksheetImages, exportWorksheetPages } from './worksheet.js';
 import { loadWorksheetFont } from './worksheet-fonts.js';
 import { readWorksheetLayout } from './worksheet-layouts.js';
 import { downloadBackup, prepareBackup, restoreBackup } from './settings-backup.js';
+import { countBucket, trackFeature } from './analytics.js';
 
 function batchName(readings) {
   const common = key => readings.every(reading => reading[key] === readings[0][key]) && readings[0][key];
@@ -129,6 +130,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getAllReading
   resetAll.addEventListener('click', () => {
     if (job || !confirm(t('Vols esborrar els ajustos desats de totes les lectures d’aquest navegador?'))) return;
     const reset = resetLayouts();
+    if (reset) trackFeature('restableix_maquetat', { abast: 'tots' });
     populateRows();
     setStatus(reset ? t('S’han restablert els ajustos de totes les lectures.') : t('No s’han pogut restablir els ajustos de totes les lectures.'), !reset);
   });
@@ -161,6 +163,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getAllReading
     clearBackup();
     try {
       downloadBackup(getAllReadings());
+      trackFeature('copia_configuracio', { accio: 'exporta' });
       showBackupStatus(t('Còpia de seguretat preparada.'));
     } catch {
       showBackupStatus(t('No s’ha pogut crear la còpia de seguretat.'), true);
@@ -191,6 +194,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getAllReading
     if (job || !pendingBackup) return;
     try {
       restoreBackup(pendingBackup);
+      trackFeature('copia_configuracio', { accio: 'importa' });
     } catch {
       showBackupStatus(t('No s’ha pogut recuperar la còpia. Comprova que el navegador tingui espai lliure.'), true);
       return;
@@ -228,6 +232,9 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getAllReading
     const { signal } = controller;
     const answerKey = action.endsWith('-key');
     const doubleSided = duplex.checked;
+    const documentData = { abast: 'lot', format: action.startsWith('print') ? 'impressio' : action.startsWith('zip') ? 'zip' : 'pdf',
+      contingut: answerKey ? 'solucionari' : 'alumnat', quantitat: countBucket(selected.length), doble_cara: doubleSided,
+      colleccio: Boolean(getCollectionId()), maquetats: selected.some(row => row.layout) };
     const canFinish = () => !signal.aborted && dialog.open && !dialog.classList.contains('is-closing');
     updateControls();
     setStatus(t('Preparant el lot…'));
@@ -238,6 +245,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getAllReading
         for await (const { pages } of selection) sheets.push(...pages);
         await decodeWorksheetImages(sheets);
         if (!canFinish()) return;
+        trackFeature('genera_document', documentData);
         printPages(sheets);
       } else {
         const zipFormat = action.startsWith('zip');
@@ -261,6 +269,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getAllReading
         const blob = zip?.blob() ?? new Blob([await combined.save()], { type: 'application/pdf' });
         if (!canFinish()) return;
         saveDownload(blob, `${name}.${zipFormat ? 'zip' : 'pdf'}`);
+        trackFeature('genera_document', documentData);
       }
       setStatus(t('Lot preparat.'));
     } catch {

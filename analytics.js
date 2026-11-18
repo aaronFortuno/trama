@@ -6,8 +6,67 @@ const scriptURL = 'https://maquestria.tail72bc84.ts.net:8443/script.js';
 const collectURL = new URL('/api/send', scriptURL);
 const websiteId = 'b84afe8e-e26b-4e71-8150-3b167d4f89a3';
 const publicCodes = new Set(readings.map(reading => reading.code));
+const publicVersions = new Map(readings.map(reading => [reading.code + ':' + reading.language, reading]));
+const publicIds = new Map(readings.map(reading => [reading.id, reading]));
 const page = { website: websiteId, hostname: host, title: 'Trama', url: '/' };
 let trackerLoading = false;
+const pendingEvents = [];
+
+// Only fixed vocabulary and coarse counts may leave the browser. Never pass
+// settings, DOM text, filenames, collection/template IDs or user-written text.
+const counts = ['0', '1', '2-5', '6-15', '16-50', '51+'];
+const eventRules = {
+  obre_lectura: { reading: true, fields: { origen: ['cataleg', 'anterior', 'seguent', 'idioma', 'enllac'], colleccio: 'boolean', maquetat: 'boolean' } },
+  genera_document: { reading: true, required: ['abast', 'format', 'contingut', 'quantitat'], fields: {
+    abast: ['individual', 'lot'], format: ['impressio', 'pdf', 'zip'], contingut: ['alumnat', 'solucionari'], quantitat: counts,
+    doble_cara: 'boolean', colleccio: 'boolean', maquetats: 'boolean',
+  } },
+  canvia_vista: { reading: true, required: ['vista'], fields: { vista: ['alumnat', 'solucionari'] } },
+  personalitza_fitxa: { required: ['bloc', 'accio'], fields: {
+    bloc: ['text', 'marges', 'resposta', 'encapcalament', 'peu', 'imatges', 'codi_aula', 'vocabulari', 'pistes', 'preguntes'],
+    accio: ['ajusta', 'amaga', 'recupera', 'linies', 'consulta'], estat: 'boolean',
+  } },
+  plantilla: { required: ['accio'], fields: { accio: ['aplica', 'crea', 'actualitza', 'elimina', 'reordena'], tipus: ['predefinida', 'personal'] } },
+  colleccio: { required: ['accio'], fields: { accio: ['selecciona', 'crea', 'afegeix', 'obre', 'reordena', 'retira', 'elimina'], quantitat: counts } },
+  copia_configuracio: { required: ['accio'], fields: { accio: ['exporta', 'importa'] } },
+  restableix_maquetat: { required: ['abast'], fields: { abast: ['fitxa', 'tots'] } },
+  cerca_cataleg: { required: ['tipus', 'resultats'], fields: { tipus: ['codi', 'text'], resultats: counts } },
+  neteja_filtres: { required: ['filtre'], fields: { filtre: ['tots', 'level', 'difficulty', 'theme', 'genre', 'length'] } },
+  canvia_idioma: { required: ['llengua'], fields: { llengua: ['ca', 'es'] } },
+};
+
+export function countBucket(value) {
+  if (!Number.isInteger(value) || value < 0) return undefined;
+  return value === 0 ? '0' : value === 1 ? '1' : value <= 5 ? '2-5' : value <= 15 ? '6-15' : value <= 50 ? '16-50' : '51+';
+}
+
+function readingData(reading) {
+  const entry = !reading?.personal && publicIds.get(reading?.id);
+  return entry ? { codi: entry.code, llengua: entry.language } : {};
+}
+
+export function sanitizeAnalyticsEvent(name, data = {}) {
+  if (!data || typeof data !== 'object' || Array.isArray(data)) data = {};
+  if (name === 'aplica_filtre') {
+    if (!knownFilter(data.filtre, data.valor)) return false;
+    const selection = { filtre: data.filtre, valor: data.valor };
+    if (data.filtre === 'length' && knownFilter('level', data.nivell)) selection.nivell = data.nivell;
+    return { name, data: selection };
+  }
+  const rule = Object.hasOwn(eventRules, name) && eventRules[name];
+  if (!rule) return false;
+  const clean = {};
+  for (const [key, allowed] of Object.entries(rule.fields)) {
+    if (allowed === 'boolean' ? typeof data[key] === 'boolean' : allowed.includes(data[key])) clean[key] = data[key];
+  }
+  if (rule.required?.some(key => !Object.hasOwn(clean, key))) return false;
+  if (rule.reading) {
+    const entry = publicVersions.get(data.codi + ':' + data.llengua);
+    if (entry) Object.assign(clean, { codi: entry.code, llengua: entry.language, nivell: entry.level, dificultat: entry.difficulty });
+    else if (name === 'obre_lectura' && data.llengua === undefined && publicCodes.has(data.codi)) clean.codi = data.codi;
+  }
+  return Object.keys(clean).length ? { name, data: clean } : { name };
+}
 
 export const reportReasons = {
   text: { wording: 'Errada de llengua', fact: 'Dada incorrecta', coherence: 'Incoherència' },
@@ -46,19 +105,8 @@ function beforeSend(type, payload) {
   if (analyticsRestriction() || type !== 'event' || !payload) return false;
   const { name, data } = payload;
   if (name === undefined) return page;
-  if (name === 'obre_lectura') {
-    if (publicCodes.has(data?.codi)) return { ...page, name, data: { codi: data.codi } };
-    return { ...page, name };
-  }
-  // Imported readings may add arbitrary options to the catalogue. Send only
-  // values that are part of Trama's own filter vocabulary.
-  if (name === 'aplica_filtre' && knownFilter(data?.filtre, data?.valor)) {
-    const { filtre, valor, nivell } = data;
-    const selection = { filtre, valor };
-    if (filtre === 'length' && knownFilter('level', nivell)) selection.nivell = nivell;
-    return { ...page, name, data: selection };
-  }
-  return false;
+  const event = sanitizeAnalyticsEvent(name, data);
+  return event ? { ...page, ...event } : false;
 }
 
 export function startAnalytics() {
@@ -82,6 +130,8 @@ export function startAnalytics() {
     script.removeEventListener('error', finish);
     trackerLoading = false;
     if (!trackerReady()) script.remove();
+    const events = pendingEvents.splice(0);
+    if (trackerReady()) for (const event of events) track(event.name, event.data);
     notifyAnalytics();
   }
   script.addEventListener('load', finish);
@@ -92,15 +142,27 @@ export function startAnalytics() {
 
 function track(name, data) {
   if (analyticsRestriction()) return;
-  try { window.umami?.track?.(name, data)?.catch?.(() => {}); } catch { /* Analytics is optional. */ }
+  const event = sanitizeAnalyticsEvent(name, data);
+  if (!event) return;
+  if (!trackerReady()) {
+    if (trackerLoading && pendingEvents.length < 40) pendingEvents.push(event);
+    return;
+  }
+  try { window.umami.track(event.name, event.data)?.catch?.(() => {}); } catch { /* Analytics is optional. */ }
 }
 
-export function trackReadingOpened(reading) {
-  track('obre_lectura', reading.personal ? undefined : { codi: reading.code });
+export function trackReadingOpened(reading, context = {}) {
+  track('obre_lectura', { ...context, ...readingData(reading) });
 }
 
 export function trackFilterApplied(filtre, valor, nivell) {
   track('aplica_filtre', { filtre, valor, nivell });
+}
+
+export function trackFeature(name, data) { track(name, data); }
+
+export function trackReadingFeature(name, reading, data = {}) {
+  track(name, { ...data, ...readingData(reading) });
 }
 
 export async function sendReadingReport(reading, { part, element, motiu }) {
