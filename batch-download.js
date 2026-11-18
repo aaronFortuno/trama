@@ -6,6 +6,8 @@ import { loadWorksheetFont } from './worksheet-fonts.js';
 import { readWorksheetLayout } from './worksheet-layouts.js';
 import { downloadBackup, prepareBackup, restoreBackup } from './settings-backup.js';
 import { countBucket, trackFeature } from './analytics.js';
+import { mountDisclosures } from './motion.js';
+import { placeMenu } from './select-menu.js';
 
 function batchName(readings) {
   const common = key => readings.every(reading => reading[key] === readings[0][key]) && readings[0][key];
@@ -23,6 +25,8 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getAllReading
   const all = dialog.querySelector('#batch-select-all');
   const onlySaved = dialog.querySelector('#batch-only-saved');
   const duplex = dialog.querySelector('#batch-duplex');
+  const duplexHelp = dialog.querySelector('#batch-duplex-help');
+  const duplexInfo = dialog.querySelector('#batch-duplex-info');
   const resetAll = dialog.querySelector('#batch-reset-layouts');
   const layoutTools = dialog.querySelector('.batch-layout-tools');
   const count = dialog.querySelector('#batch-count');
@@ -43,6 +47,39 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getAllReading
   let backupRequest = 0;
   let pendingBackup;
   const visibleRows = () => onlySaved.checked ? rows.filter(row => row.layout) : rows;
+  let helpPinned = false;
+  const helpOpen = () => duplexInfo.matches(':popover-open');
+  function showDuplexHelp() {
+    if (!helpOpen()) duplexInfo.showPopover({ source: duplexHelp });
+    placeMenu(duplexHelp, duplexInfo, 'end');
+  }
+  function closeDuplexHelp() {
+    if (helpOpen()) duplexInfo.hidePopover();
+    helpPinned = false;
+  }
+  duplexHelp.addEventListener('pointerenter', event => { if (event.pointerType === 'mouse') showDuplexHelp(); });
+  duplexHelp.addEventListener('pointerleave', () => { if (!helpPinned && !duplexHelp.matches(':focus-visible')) closeDuplexHelp(); });
+  duplexHelp.addEventListener('focus', showDuplexHelp);
+  duplexHelp.addEventListener('blur', closeDuplexHelp);
+  duplexHelp.addEventListener('click', event => {
+    event.preventDefault();
+    helpPinned = !helpPinned;
+    if (helpPinned) showDuplexHelp();
+    else closeDuplexHelp();
+  });
+  duplexHelp.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && helpOpen()) {
+      event.preventDefault();
+      event.stopPropagation();
+      closeDuplexHelp();
+    }
+  });
+  duplexInfo.addEventListener('beforetoggle', event => {
+    duplexHelp.setAttribute('aria-expanded', String(event.newState === 'open'));
+    if (event.newState === 'closed') helpPinned = false;
+  });
+  window.addEventListener('resize', () => { if (helpOpen()) placeMenu(duplexHelp, duplexInfo, 'end'); });
+  mountDisclosures(dialog, { selector: '.batch-layout-tools, .batch-reset-tools' });
 
   function updateControls() {
     const visible = visibleRows();
@@ -114,7 +151,10 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getAllReading
   trigger.addEventListener('click', () => {
     job?.abort();
     job = undefined;
-    layoutTools.open = false;
+    closeDuplexHelp();
+    for (const summary of layoutTools.querySelectorAll('summary')) {
+      if (summary.getAttribute('aria-expanded') === 'true') summary.click();
+    }
     clearBackup();
     setStatus('');
     populateRows();
@@ -122,6 +162,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getAllReading
   dialog.addEventListener('close', () => {
     if (dialog.open) return;
     menu.close();
+    closeDuplexHelp();
     job?.abort();
     clearBackup();
   });

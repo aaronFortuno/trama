@@ -155,7 +155,7 @@
         </a>
       </p>
       <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.44.4 · Obre l’historial de canvis">v1.44.4</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.44.5 · Obre l’historial de canvis">v1.44.5</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
@@ -175,17 +175,25 @@
       <label><input type="checkbox" id="batch-only-saved"> Només lectures maquetades</label>
       <span id="batch-count" role="status"></span>
     </div>
-    <label class="batch-duplex-option"><input type="checkbox" id="batch-duplex" checked> Prepara per imprimir a doble cara</label>
+    <div class="batch-duplex-row">
+      <label class="batch-duplex-option"><input type="checkbox" id="batch-duplex" aria-describedby="batch-duplex-info" checked> Cada lectura en un full nou (doble cara)</label>
+      <button class="batch-info-button" id="batch-duplex-help" type="button" aria-label="Com funciona la preparació a doble cara" aria-expanded="false" aria-controls="batch-duplex-info" popovertarget="batch-duplex-info"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3m.08 4h.01"/></svg></button>
+    </div>
+    <div class="select-menu batch-info-popover" id="batch-duplex-info" role="tooltip" popover>
+      <p>Si una fitxa o solucionari té un nombre senar de pàgines, s’hi afegeix una pàgina en blanc. Per exemple, una fitxa de 3 pàgines es prepara amb 4.</p>
+      <p>Així la lectura següent comença en un full nou en imprimir a doble cara. També s’aplica als PDF i ZIP; activa igualment la doble cara als ajustos de la impressora.</p>
+    </div>
     <div class="dialog-scroll batch-scroll" tabindex="0" role="region" aria-label="Lectures del lot">
       <p id="batch-empty" hidden>No hi ha lectures amb aquesta cerca i aquests filtres.</p>
       <ul id="batch-list" class="batch-list"></ul>
     </div>
     <details class="batch-layout-tools">
-      <summary>Maquetats d’aquest navegador</summary>
-      <p>Trasllada els maquetats, els codis d’aula, les plantilles i les col·leccions amb un sol fitxer.</p>
+      <summary>Còpia de seguretat i recuperació</summary>
+      <p>Els maquetats i els codis d’aula es desen automàticament en aquest navegador i s’apliquen en imprimir. No cal tornar-los a configurar cada vegada.</p>
+      <p>La còpia inclou aquests ajustos, les plantilles i les col·leccions. Descarrega-la per guardar-la o continuar en un altre ordinador; per recuperar-la, tria el fitxer i confirma la recuperació.</p>
       <div class="batch-backup-buttons">
         <button class="button" type="button" id="batch-export-backup">Descarrega una còpia</button>
-        <button class="button" type="button" id="batch-import-backup">Obre una còpia</button>
+        <button class="button" type="button" id="batch-import-backup">Recupera una còpia</button>
         <input type="file" id="batch-backup-file" accept=".json,application/json" hidden>
       </div>
       <p id="batch-backup-status" role="status" hidden></p>
@@ -194,7 +202,11 @@
         <button class="button primary" type="button" id="batch-restore-backup">Recupera la còpia</button>
         <button class="button" type="button" id="batch-cancel-backup">Cancel·la</button>
       </div>
-      <button class="button" type="button" id="batch-reset-layouts">Restableix totes les lectures</button>
+      <details class="batch-reset-tools">
+        <summary>Restableix els maquetats</summary>
+        <p>Recupera el format inicial i treu els codis d’aula de totes les lectures, també dins de les col·leccions. Les col·leccions i les plantilles es conserven.</p>
+        <button class="button" type="button" id="batch-reset-layouts">Restableix tots els maquetats</button>
+      </details>
     </details>
     <div class="batch-actions">
       <p id="batch-status" role="status" hidden></p>
@@ -263,7 +275,7 @@
         </section>
         <section>
           <h3>Desa la feina feta</h3>
-          <p>Els teus maquetats, codis d’aula, plantilles i col·leccions es desen automàticament en aquest navegador, sense crear cap compte. Dins d’«Imprimeix un lot», obre «Maquetats d’aquest navegador» per descarregar una còpia de seguretat o recuperar-la en un altre ordinador.</p>
+          <p>Els teus maquetats, codis d’aula, plantilles i col·leccions es desen automàticament en aquest navegador, sense crear cap compte. Dins d’«Imprimeix un lot», obre «Còpia de seguretat i recuperació» per descarregar una còpia o recuperar-la en un altre ordinador.</p>
         </section>
       </div>
       <p class="help-feedback">Hi has trobat una errada? La bandera del visor permet avisar d’un problema amb el text, una imatge, una pregunta o el solucionari.</p>
@@ -322,6 +334,10 @@
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’historial"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
+      <article class="release">
+        <header><h3>v1.44.5</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
+        <p>Alineem l’etiqueta de col·lecció amb el lateral del catàleg. A la impressió en lot, «Cada lectura en un full nou (doble cara)» incorpora un interrogant amb una explicació de les pàgines en blanc, accessible amb ratolí, teclat i toc. Replantegem «Maquetats d’aquest navegador» com a «Còpia de seguretat i recuperació», amb textos que expliquen què es desa i com traslladar-ho, i separem el restabliment dels maquetats en un apartat propi. Els desplegables tenen transicions de 220 ms.</p>
+      </article>
       <article class="release">
         <header><h3>v1.44.4</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Compactem l’indicador de col·lecció: el nom passa a ser el títol, amb la icona de capes i una creu per treure el filtre. En passar-hi per sobre o donar-hi focus, una ajuda explica com tornar al catàleg. Retirem la franja que ocupava una fila sencera i afegim transicions de 220 ms, mantenint la posició de la graella i el sidebar.</p>

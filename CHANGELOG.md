@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.44.5 · 18 de novembre del 2026
+
+Alineem l’etiqueta de col·lecció amb el lateral del catàleg. A la impressió en lot, «Cada lectura en un full nou (doble cara)» incorpora un interrogant amb una explicació de les pàgines en blanc, accessible amb ratolí, teclat i toc. Replantegem «Maquetats d’aquest navegador» com a «Còpia de seguretat i recuperació», amb textos que expliquen què es desa i com traslladar-ho, i separem el restabliment dels maquetats en un apartat propi. Els desplegables tenen transicions de 220 ms.
+
 ## 1.44.4 · 18 de novembre del 2026
 
 Compactem l’indicador de col·lecció: el nom passa a ser el títol, amb la icona de capes i una creu per treure el filtre. En passar-hi per sobre o donar-hi focus, una ajuda explica com tornar al catàleg. Retirem la franja que ocupava una fila sencera i afegim transicions de 220 ms, mantenint la posició de la graella i el sidebar.

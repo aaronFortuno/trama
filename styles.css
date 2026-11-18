@@ -194,8 +194,8 @@ button { color: inherit; cursor: pointer; }
 .collection-status { margin: 0; color: var(--accent); font-size: .78rem; }
 .collection-status:empty { display: none; }
 .catalog-collection-label { max-width: 100%; overflow-wrap: anywhere; color: var(--green); font-size: .8rem; font-weight: 650; }
-.catalog-title-scope { position: relative; display: inline-flex; flex: 0 1 auto; align-items: center; min-width: 0; max-width: 100%; margin: -5px -8px; padding: 4px 7px; border: 1px solid transparent; border-radius: 7px; transition: background-color var(--motion), border-color var(--motion), color var(--motion); }
-.catalog-title-scope.is-collection { background: var(--hover); border-color: var(--line); color: var(--green); }
+.catalog-title-scope { position: relative; display: inline-flex; flex: 0 1 auto; align-items: center; min-width: 0; max-width: 100%; margin: -5px -8px; padding: 4px 7px; border: 1px solid transparent; border-radius: 7px; transition: margin var(--motion), background-color var(--motion), border-color var(--motion), color var(--motion); }
+.catalog-title-scope.is-collection { margin-inline: 0; background: var(--hover); border-color: var(--line); color: var(--green); }
 .catalog-title-scope h1 { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .catalog-title-icon { flex: none; width: 0; height: 26px; opacity: 0; transition: width var(--motion), margin var(--motion), opacity var(--motion); }
 .is-collection .catalog-title-icon { width: 26px; margin-right: 9px; opacity: 1; }

@@ -178,7 +178,7 @@ const stub = `window.umami = { track(name, data) { const payload = {name, data};
     assert.equal(batch.doble_cara, true);
     assert.equal(batch.colleccio, true);
     assert.equal((await events('genera_document')).length, 3, 'No duplicate beforeprint event');
-    await page.locator('.batch-layout-tools summary').click();
+    await page.locator('.batch-layout-tools > summary').click();
     const backupDownload = page.waitForEvent('download');
     await page.locator('#batch-export-backup').click();
     const backup = await backupDownload;

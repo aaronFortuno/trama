@@ -34,6 +34,10 @@ Les col·leccions es reordenen arrossegant les targetes directament a la graella
 
 Acota el catàleg amb la cerca i els filtres i obre **Imprimeix un lot**. Totes les lectures de la llista apareixen marcades i pots desmarcar les que no et calen. **Imprimeix** obre les fitxes d’alumnat al diàleg d’impressió del navegador. La fletxa del costat permet imprimir el solucionari i descarregar les fitxes o els solucionaris en un PDF conjunt o en un ZIP amb un PDF per lectura. S’hi aplica el format inicial del curs o el que hagis ajustat durant la sessió.
 
+**Cada lectura en un full nou (doble cara)** afegeix una pàgina en blanc després de cada fitxa o solucionari amb un nombre senar de pàgines, també als PDF i ZIP. L’interrogant explica la funció en passar-hi el ratolí, donar-li focus o tocar-lo. La impressora s’ha de configurar també per imprimir a doble cara.
+
+**Còpia de seguretat i recuperació** explica el desament automàtic i permet descarregar o recuperar els maquetats, els codis d’aula, les plantilles i les col·leccions. **Restableix els maquetats** agrupa a part el retorn al format inicial, també per a les lectures de col·leccions; es mantenen les col·leccions i les plantilles.
+
 Les lectures personals importades en versions anteriors continuen disponibles al navegador.
 
 ## En local i a GitHub Pages
