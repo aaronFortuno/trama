@@ -64,6 +64,8 @@ v1.41.4 · Obre l’historial de canvis|v1.41.4 · Abrir el historial de cambios
 Estenguem les pistes de resposta fins a la L128 en tots dos idiomes: també s’hi incorporen els textos de 3r, amb referències breus i adaptades a cada pregunta.|Extendemos las pistas de respuesta hasta la L128 en ambos idiomas: también se incorporan los textos de 3.º, con referencias breves y adaptadas a cada pregunta.
 v1.41.5 · Obre l’historial de canvis|v1.41.5 · Abrir el historial de cambios
 Completem la revisió de pistes fins a la L150 en català i castellà, amb marques per localitzar informació literal, vocabulari i indicis d’inferència.|Completamos la revisión de pistas hasta la L150 en catalán y castellano, con marcas para localizar información literal, vocabulario e indicios de inferencia.
+v1.41.6 · Obre l’historial de canvis|v1.41.6 · Abrir el historial de cambios
+Les pistes del solucionari arriben a la L180 en català i castellà. Revisem també les preguntes que demanen relacionar una observació, una mesura o una decisió amb la seva explicació.|Las pistas del solucionario llegan a la L180 en catalán y castellano. Revisamos también las preguntas que piden relacionar una observación, una medida o una decisión con su explicación.
 Catàleg de lectures|Catálogo de lecturas
 Cerca al catàleg|Buscar en el catálogo
 Cerca per títol, codi o tema|Buscar por título, código o tema

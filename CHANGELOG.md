@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.41.6 · 18 de novembre del 2026
+
+Les pistes del solucionari arriben a la L180 en català i castellà. Revisem també les preguntes que demanen relacionar una observació, una mesura o una decisió amb la seva explicació.
+
 ## 1.41.5 · 18 de novembre del 2026
 
 Completem la revisió de pistes fins a la L150 en català i castellà, amb marques per localitzar informació literal, vocabulari i indicis d’inferència.
