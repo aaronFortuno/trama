@@ -3315,5 +3315,687 @@ export const readings1SecondaryExpansionCa = [
         "definition": "Obra que reté o eleva l’aigua d’un curs fluvial."
       }
     ]
+  },
+  {
+    "id": "el-silencio-de-la-traduccion-ca",
+    "code": "L240",
+    "title": "El silenci de la traducció",
+    "summary": "Una traductora explica què pot passar quan una frase es torna més clara, però perd un dubte que l’obra volia conservar.",
+    "paragraphs": [
+      "La Lídia Serra tradueix narracions i teatre. Per parlar amb nosaltres ha portat una pàgina de feina, amb versions ratllades i un marge ple de preguntes. El fragment pertany a una història que està preparant per al seu taller: dues persones esperen algú en una cuina. Sobre la taula hi ha tres tasses. La primera pregunta de l’entrevista sembla senzilla: si coneix les dues llengües, per què no tria directament les paraules equivalents? La Lídia assenyala una línia que ha deixat gairebé buida.",
+      "—Què hi havia en aquesta línia?\n—Una pausa. Un personatge pregunta si l’altre vindrà i ningú no respon de seguida. A la primera versió vaig afegir una explicació perquè l’escena em semblava massa seca. Després vaig veure que havia convertit el dubte en una informació. El lector ja no havia d’interpretar el silenci: jo li deia què volia dir. La frase era més clara, però feia una feina diferent.",
+      "—No és bo ajudar el lector a entendre?\n—Sí, si l’ajuda permet accedir al text. Però no tot el que queda obert és un obstacle accidental. Aquí el silenci prepara la frase següent: «Ningú no va tocar la tercera tassa». No sabem encara qui falta ni per què. Si jo afegeixo «la tassa de la mare», resolc una pregunta que l’autora del nostre exercici havia decidit mantenir oberta. No seria una simple millora de claredat.",
+      "—I quan una expressió no es pot traduir paraula per paraula?\n—Busquem què fa en aquella conversa. Imaginem algú que diu que necessita consultar una decisió amb el coixí. No està demanant consell a un objecte: vol esperar i pensar-hi amb més calma. En una altra llengua potser una imatge diferent fa aquesta mateixa funció. Però també cal mirar si el coixí reapareix després com a objecte de la història. Una solució localment elegant pot fer perdre una relació amb una altra pàgina.",
+      "—Com decideixes quins detalls expliques en una nota?\n—En aquest taller hem fet una prova amb una paraula d’un costum familiar que els personatges no expliquen. Una nota breu pot evitar que el lector es perdi. Si n’escric una pàgina, potser aturo una escena que havia de ser ràpida. També puc fer veure que tots els membres d’una cultura fan el mateix, quan el text només parla d’una família. La nota ha d’ajudar sense ampliar una dada particular fins a convertir-la en una regla universal.",
+      "—Aleshores hi ha una única versió correcta?\n—Hi ha versions que podem defensar millor que altres amb el text. No tot s’hi val. Però dues solucions poden conservar aspectes diferents i tenir pèrdues diferents. M’interessa poder explicar una decisió i revisar-la quan llegeixo el fragment següent. La coherència no es comprova només dins de cada frase, com si la resta del llibre no existís. Per això guardo algunes alternatives al marge: el que encara no sé d’una escena pot ajudar-me a triar quan arribi més endavant.",
+      "Abans de marxar llegim la versió amb explicació i la versió amb pausa. La segona no ens dona menys coses a pensar: ens obliga a relacionar la pregunta, el silenci i la tassa. La Lídia no ens demana que preferim sempre la versió més obscura. Ens demana que distingim entre una dificultat que impedeix llegir i una incertesa que forma part del que estem llegint."
+    ],
+    "imageAlt": {
+      "el-silencio-de-la-traduccion-art1": "Una taula de traducció amb manuscrits, diccionaris i notes al marge.",
+      "el-silencio-de-la-traduccion-art2": "Una traductora de cabells molt curts i grisos llegeix un manuscrit al seu escriptori."
+    },
+    "questions": [
+      {
+        "id": "el-silencio-de-la-traduccion-q1",
+        "type": "literal",
+        "prompt": "Quants personatges són a la cuina i quantes tasses hi ha?",
+        "answer": "Dos personatges i tres tasses.",
+        "lines": 2
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q2",
+        "type": "literal",
+        "prompt": "Quina informació afegida alteraria el dubte de l’exercici?",
+        "answer": "Identificar la tercera tassa com «la tassa de la mare».",
+        "lines": 2
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa «localment elegant» en parlar d’una solució de traducció?",
+        "answer": "Que funciona bé en una frase concreta, encara que pugui no encaixar amb altres relacions de l’obra.",
+        "lines": 2
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q4",
+        "type": "inference",
+        "prompt": "Per què omplir la pausa no és necessàriament una simple ajuda?",
+        "answer": "Perquè pot substituir una incertesa intencionada per una explicació que canvia el que el lector ha d’interpretar.",
+        "lines": 3
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q5",
+        "type": "inference",
+        "prompt": "Com treballen juntes la pregunta, la pausa i la tercera tassa?",
+        "answer": "Suggerixen una persona absent i una espera sense identificar-ne encara la causa, de manera que el lector ha de relacionar les pistes.",
+        "lines": 4
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q6",
+        "type": "inference",
+        "prompt": "Per què no basta entendre el sentit figurat del coixí per decidir com traduir-lo?",
+        "answer": "Perquè també pot ser un objecte que reaparegui i tingui relacions narratives que una altra imatge faria perdre.",
+        "lines": 3
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q7",
+        "type": "inference",
+        "prompt": "Quins dos problemes d’una nota explicativa esmenta la Lídia, a més de si la informació és comprensible?",
+        "answer": "Pot frenar el ritme de l’escena i generalitzar a tota una cultura una dada d’una família.",
+        "lines": 3
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q8",
+        "type": "structure",
+        "prompt": "Quina funció té acabar escoltant les dues versions del fragment?",
+        "answer": "Permet experimentar la diferència entre rebre una explicació i interpretar relacions que continuen obertes.",
+        "lines": 3
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q9",
+        "type": "inference",
+        "prompt": "Per què admetre dues traduccions defensables no significa que tot s’hi valgui?",
+        "answer": "Perquè cal justificar les decisions amb el text i valorar coherència, funcions i pèrdues, no triar arbitràriament.",
+        "lines": 3
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q10",
+        "type": "inference",
+        "prompt": "Quina diferència estableix entre una dificultat accidental i una incertesa narrativa?",
+        "answer": "La primera pot impedir accedir al text; la segona pot formar part de les pistes i interpretacions que l’obra proposa.",
+        "lines": 3
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q11",
+        "type": "summary",
+        "prompt": "Resumeix tres aspectes que la traductora revisa més enllà de trobar paraules equivalents.",
+        "answer": "La funció i el ritme de l’escena, les relacions amb altres fragments i l’abast o efecte de les explicacions afegides.",
+        "lines": 4
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q12",
+        "type": "opinion",
+        "prompt": "En l’exemple de la tassa, conservaries la pausa o afegiries una explicació? Justifica-ho amb dues pistes i reconeix un efecte de la teva decisió.",
+        "answer": "Resposta oberta que valori l’absència i el dubte amb les pistes disponibles, sense inventar com a certa la identitat de qui falta.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 4,
+        "text": "localment elegant",
+        "questionId": "el-silencio-de-la-traduccion-q3"
+      }
+    ]
+  },
+  {
+    "id": "la-ciudad-y-el-mapa-de-los-promedios-ca",
+    "code": "L241",
+    "title": "La ciutat i el mapa de les mitjanes",
+    "summary": "Una mateixa temperatura mitjana pot correspondre a situacions molt diferents segons com es reparteixin les dades entre barris.",
+    "paragraphs": [
+      "En l’exercici de geografia, dues ciutats imaginàries tenien la mateixa temperatura mitjana a una hora concreta: trenta-quatre graus. El primer resum deia que la situació era equivalent. Però les quatre observacions de la ciutat A eren trenta, trenta-dos, trenta-quatre i quaranta graus. A la ciutat B, els quatre punts marcaven trenta-quatre. La suma i la divisió donaven la mateixa mitjana. La distribució, en canvi, explicava experiències diferents. El grup havia de decidir quina informació publicaria al mapa del taller i com evitaria una lectura massa uniforme del territori.",
+      "Per obtenir la mitjana havien sumat quatre temperatures i dividit el resultat entre quatre. Era una operació útil per resumir, però no conservava totes les diferències. A la ciutat A, cap lloc no tenia necessàriament les condicions del resum com a descripció de tots els altres. Un dels punts arribava a quaranta i un altre quedava deu graus per sota. Dir només trenta-quatre amagava aquest contrast, encara que no contingués cap error aritmètic.",
+      "L’exemple suposava mesures de temperatura de l’aire obtingudes de manera comparable i al mateix moment. Si haguessin barrejat una mesura del paviment al migdia amb una d’aire al vespre, el problema començaria abans de calcular. Aquesta condició no era un detall decoratiu. Un gràfic precís pot donar una aparença de rigor a dades que no es poden comparar directament. Per això el grup va escriure també com s’havien definit les observacions imaginàries.",
+      "Una alumna va proposar posar el mateix color a totes les zones perquè compartien la mitjana de ciutat. Un company va assenyalar el punt de quaranta graus: aquella zona s’esvaïa al resum. El color uniforme no era només una simplificació visual. Podia fer creure que cada barri tenia el valor mitjà, quan la xifra s’havia calculat ajuntant llocs diferents. Van mantenir un resum general i van afegir els quatre valors sobre el mapa.",
+      "Després van preguntar a qui representava cada punt. A l’exercici, tots els sensors tenien el mateix pes en la mitjana, però això no volia dir que a cada zona hi visqués el mateix nombre de persones. La temperatura mitjana dels quatre punts no era automàticament una mesura de l’experiència mitjana dels habitants. Per estudiar aquesta segona pregunta els caldria informació de població, usos i temps de permanència, no només canviar el títol del gràfic.",
+      "Tampoc no volien afirmar que el valor més alt fos l’únic que importava. Una decisió sobre espais d’estada podia necessitar ombra, bancs, horaris d’ús i recorreguts. La temperatura era una dada rellevant, no una ordre que triava tota sola què construir i on. El mapa havia d’ajudar a plantejar prioritats i preguntes, no dissimular-les darrere d’un nombre que semblés decidir per tothom.",
+      "Algú va suggerir retirar la mitjana per evitar malentesos. El grup va preferir conservar-la amb context: era útil per a una visió general si no substituïa els detalls necessaris. A sota, una nota explicava que es tractava de quatre punts d’un exemple i no de tots els carrers. Mostrar més dades tampoc no autoritzava a representar allò que no s’havia mesurat.",
+      "Al final, les dues ciutats continuaven empatades en la mitjana, però ja no semblaven intercanviables. Un bon resum no ha de contenir-ho tot. Ha de permetre entendre què ajunta, què deixa fora i quan cal tornar a les dades abans de fer una afirmació més gran que el càlcul."
+    ],
+    "imageAlt": {
+      "la-ciudad-y-el-mapa-de-los-promedios-art1": "Una illa de carrer amb arbres i ombra contrasta amb una plaça pavimentada i més exposada al sol.",
+      "la-ciudad-y-el-mapa-de-los-promedios-art2": "Un jove compara un mapa de barris de colors diferents amb un full de resum sobre una taula."
+    },
+    "questions": [
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q1",
+        "type": "literal",
+        "prompt": "Quins quatre valors té la ciutat A?",
+        "answer": "30, 32, 34 i 40 graus.",
+        "lines": 2
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q2",
+        "type": "literal",
+        "prompt": "Quina mitjana comparteixen les ciutats A i B?",
+        "answer": "34 graus.",
+        "lines": 2
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa que la zona «s’esvaïa al resum»?",
+        "answer": "Que la seva situació particular deixava de veure’s quan només es mostrava el valor mitjà.",
+        "lines": 2
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q4",
+        "type": "inference",
+        "prompt": "Com poden dues distribucions diferents tenir la mateixa mitjana?",
+        "answer": "Perquè la mitjana depèn de la suma i del nombre de valors, no conserva com es reparteixen individualment.",
+        "lines": 3
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q5",
+        "type": "inference",
+        "prompt": "Quina informació rellevant d’A es perd amb un únic color uniforme?",
+        "answer": "El contrast entre punts, inclosos els 40 graus i els 30, i la ubicació de cada valor.",
+        "lines": 3
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q6",
+        "type": "inference",
+        "prompt": "Per què no seria suficient que totes les dades portessin la mateixa unitat?",
+        "answer": "Perquè també han de mesurar una magnitud comparable amb condicions i moments coherents; aire i paviment a hores diferents no són equivalents.",
+        "lines": 3
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q7",
+        "type": "inference",
+        "prompt": "Per què la mitjana de sensors no és automàticament la de l’experiència dels habitants?",
+        "answer": "Perquè cada punt pesa igual al càlcul, però les persones, usos i temps en cada zona poden repartir-se de manera diferent.",
+        "lines": 4
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q8",
+        "type": "structure",
+        "prompt": "Quina funció té aclarir que les ciutats i les condicions són imaginàries?",
+        "answer": "Delimita l’exemple que il·lustra el raonament i evita presentar quatre valors didàctics com un estudi real complet.",
+        "lines": 3
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q9",
+        "type": "inference",
+        "prompt": "Per què el màxim no decideix tot sol on posar un espai d’estada?",
+        "answer": "Perquè la decisió també depèn d’usos, ombra, descans i recorreguts; un indicador no conté totes les prioritats.",
+        "lines": 3
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q10",
+        "type": "inference",
+        "prompt": "Per què conservar la mitjana amb context pot ser millor que eliminar-la?",
+        "answer": "Perquè continua sent un resum útil si s’acompanya dels detalls i límits necessaris per interpretar-lo.",
+        "lines": 3
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q11",
+        "type": "summary",
+        "prompt": "Resumeix tres preguntes que cal fer a un resum numèric abans d’utilitzar-lo per decidir.",
+        "answer": "Què mesura i amb quines condicions, què ajunta i què amaga, a qui representa i quines altres dades o prioritats falten. Cal tres idees clares.",
+        "lines": 4
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q12",
+        "type": "opinion",
+        "prompt": "Escriu una nota per al mapa que eviti confondre mitjana urbana i temperatura de cada barri. Inclou un límit de les dades.",
+        "answer": "Resposta oberta que distingeixi resum i valors puntuals i indiqui que són quatre observacions de l’exemple en un moment concret.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 4,
+        "text": "s’esvaïa al resum",
+        "questionId": "la-ciudad-y-el-mapa-de-los-promedios-q3"
+      }
+    ]
+  },
+  {
+    "id": "inventario-de-una-habitacion-vacia-ca",
+    "code": "L242",
+    "title": "Inventari d’una habitació buida",
+    "summary": "Qui entra per últim en una habitació familiar vol comprovar que no hi queda res, però els rastres no encaixen del tot amb els records.",
+    "paragraphs": [
+      "La mare m’havia dit que comprovés l’habitació abans de tornar les claus. Vaig obrir la porta amb una força innecessària, com si encara hagués de vèncer la pila de sabates que sempre quedava al darrere. La porta va arribar fins a la paret i el cop va sonar massa net. Sense les coses, els sorolls semblaven haver crescut. Només hi quedava una cadira que no era nostra i un calaix que els de la mudança havien deixat sobre el terra.",
+      "A la paret hi havia un rectangle més clar. Em vaig dir que era la marca del mapa que l’avi penjava al costat de la finestra. Hi tenia assenyalats els llocs on havia treballat. Vaig allargar la mà fins a l’altura on començava el mar i vaig notar un petit forat al guix. Aleshores vaig recordar que el mapa era més ample. Aquell rectangle podia ser d’un quadre. La certesa havia durat menys que el moviment del braç.",
+      "Vaig seure a la cadira. Des d’allà es veia la finestra de la veïna, amb la mateixa cortina que jo recordava de petit. Em va semblar reconèixer també un gerro, però no estava segur que hagués mirat mai cap a aquella finestra des d’aquell punt. Potser la cortina era nova i jo havia decidit que era antiga perquè necessitava trobar alguna cosa que no s’hagués mogut. Vaig apartar els ulls abans de convertir el dubte en una escena sencera.",
+      "Dins del calaix hi havia una clau i un fil blau. La clau no obria la porta de l’habitació: era més petita i tenia dues dents desiguals. Vaig imaginar una capsa de l’avi, la del rellotge o la dels sobres. Cap record no acabava d’encaixar. El fil, en canvi, em va portar de seguida al jersei que em va fer la mare. El vaig acostar a la llum i vaig veure que era d’un blau diferent. El record continuava sent meu; la prova no era tan clara.",
+      "La mare em va trucar des del replà. Li vaig preguntar pel rectangle. Va dir que hi havia hagut un calendari, però després va dubtar: potser el calendari era a l’altra habitació. No ho vam resoldre. Li vaig ensenyar la clau i va decidir guardar-la amb les altres, sense posar-hi cap etiqueta. «Ja mirarem si sabem d’on és». No va semblar-li un fracàs deixar aquella pregunta per més endavant.",
+      "Jo volia fer una fotografia abans de marxar. Vaig enfocar la paret i la finestra, però la imatge no contenia el cop de la porta ni la manera com m’havia assegut buscant una distància coneguda. Vaig baixar el telèfon. Després el vaig tornar a aixecar i vaig fer la foto igualment. No havia de guardar tota l’habitació per poder guardar-ne una vista.",
+      "Al replà, la mare va preguntar si era buida. Vaig pensar en la cadira, el calaix i el rectangle. Vaig respondre que no hi quedava res nostre per carregar. Era una frase una mica més llarga i ella no me la va corregir. Em va donar la bossa amb les claus petites perquè la portés jo.",
+      "Quan vam tancar, no vaig tenir la sensació que l’habitació desapareixia. Tampoc no vaig sentir que la poguéssim conservar sencera. Vaig guardar el fil blau dins de la llibreta, sense escriure que era del jersei. A la pàgina del costat hi vaig apuntar una cosa menys segura i més difícil de perdre: «Això m’ha fet recordar»."
+    ],
+    "imageAlt": {
+      "inventario-de-una-habitacion-vacia-art1": "Una habitació gairebé buida té una marca rectangular més clara a la paret, una cadira i llum de tarda.",
+      "inventario-de-una-habitacion-vacia-art2": "Una clau antiga, un fil blau i un calaix de fusta obert sobre un escriptori buit."
+    },
+    "questions": [
+      {
+        "id": "inventario-de-una-habitacion-vacia-q1",
+        "type": "literal",
+        "prompt": "Quins dos objectes petits troba dins del calaix?",
+        "answer": "Una clau i un fil blau.",
+        "lines": 2
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q2",
+        "type": "literal",
+        "prompt": "Què decideix la mare respecte de la clau desconeguda?",
+        "answer": "Guardar-la amb les altres, sense etiqueta, i mirar més endavant si en saben l’origen.",
+        "lines": 2
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q3",
+        "type": "vocabulary",
+        "prompt": "Què suggereix que el cop soni «massa net» a l’inici?",
+        "answer": "Que l’habitació buida deixa sentir el soroll sense els obstacles o l’ambient de coses que hi havia abans; també accentua l’estranyesa.",
+        "lines": 2
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q4",
+        "type": "inference",
+        "prompt": "Per què obre la porta amb més força de la necessària?",
+        "answer": "El cos repeteix l’hàbit de quan les sabates n’obstruïen el pas, encara que ja no hi siguin.",
+        "lines": 3
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q5",
+        "type": "inference",
+        "prompt": "Quina funció té recordar que el mapa era més ample que la marca?",
+        "answer": "Desestabilitza una identificació segura i mostra que el desig de reconèixer no garanteix que el rastre correspongui al record.",
+        "lines": 3
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q6",
+        "type": "inference",
+        "prompt": "Per què la diferència de color no anul·la el record del jersei però sí la seguretat sobre l’origen del fil?",
+        "answer": "El fil pot provocar un record real sense ser materialment un tros d’aquell jersei; associació i procedència són coses diferents.",
+        "lines": 4
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q7",
+        "type": "inference",
+        "prompt": "Què mostra el dubte de la mare sobre el calendari?",
+        "answer": "Que tampoc no té una memòria exacta de cada ubicació i que poden acceptar una pregunta oberta.",
+        "lines": 3
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q8",
+        "type": "structure",
+        "prompt": "Quin sentit té baixar el telèfon i després fer la foto igualment?",
+        "answer": "Primer reconeix que la foto no ho conserva tot; després accepta que pot guardar una vista parcial sense exigir-li totalitat.",
+        "lines": 3
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q9",
+        "type": "inference",
+        "prompt": "Per què respon «no hi queda res nostre per carregar» en lloc de «és buida»?",
+        "answer": "Perquè distingeix les pertinences que han de traslladar dels rastres i significats que continuen al lloc.",
+        "lines": 3
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q10",
+        "type": "inference",
+        "prompt": "Quin canvi expressa la nota final respecte d’escriure «això és del jersei»?",
+        "answer": "Passa d’afirmar una procedència incerta a descriure l’efecte de record que sí que ha experimentat.",
+        "lines": 3
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q11",
+        "type": "summary",
+        "prompt": "Explica com conviuen pèrdua i continuïtat al final, amb dues pistes del relat.",
+        "answer": "La casa es tanca i no es conserva sencera, però queden una foto, objectes i records acceptats com a parcials. Cal relacionar dos detalls concrets.",
+        "lines": 4
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q12",
+        "type": "opinion",
+        "prompt": "Interpreta el títol «habitació buida»: és exacte, incomplet o deliberadament ambigu? Defensa una lectura amb dos detalls.",
+        "answer": "Resposta oberta amb suport en mobiliari residual, absència de pertinences i presència de rastres o records, reconeixent el sentit literal i el figurat.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 1,
+        "text": "massa net",
+        "questionId": "inventario-de-una-habitacion-vacia-q3"
+      },
+      {
+        "paragraph": 5,
+        "text": "replà",
+        "definition": "Espai pla d’una escala situat davant d’una porta o entre trams d’esglaons."
+      }
+    ]
+  },
+  {
+    "id": "un-aplauso-fuera-de-tiempo-ca",
+    "code": "L243",
+    "title": "Un aplaudiment fora de temps",
+    "summary": "Una pausa en un concert fa dubtar qui escolta per primera vegada i obre una conversa sobre com aprenem els codis d’un lloc.",
+    "paragraphs": [
+      "Diumenge al matí. Ahir vaig aplaudir quan la sala encara no volia aplaudir. Ho escric així perquè al principi em semblava que m’havia equivocat d’una manera molt més greu: havia interromput la música. Ara no estic segur que aquella primera frase expliqui del tot què va passar. Entre les mans que vaig fer picar i el silenci que va venir després hi caben unes quantes coses que no havia entès mentre seia a la butaca.",
+      "Era el primer concert d’aquell tipus al qual anava amb la tieta. A l’escenari hi havia tres músics i al programa, una obra dividida en tres parts. Jo havia llegit els noms, però no sabia com es relacionaven amb el temps que sentiríem. A la primera pausa llarga, un músic va abaixar una mica l’instrument. Vaig pensar que allò s’havia acabat i vaig començar a aplaudir. Dues persones més em van seguir i de seguida ens vam aturar.",
+      "Ningú no es va girar de cop ni ens va dir res. Un dels músics va aixecar la mirada, va esperar i el grup va continuar. Tot i així, jo vaig passar bona part de la segona part pendent de les meves mans. Les tenia immòbils damunt dels genolls. La música seguia, però escoltava també la possibilitat de tornar a fer alguna cosa que revelés que no coneixia el lloc.",
+      "Al final de l’obra, els instruments van baixar i els músics es van girar cap al públic. La tieta va començar a aplaudir i jo vaig esperar un segon abans de seguir-la. Després em va preguntar què m’havia semblat un passatge molt suau. No el recordava gaire. Havia estat tan ocupat vigilant-me que m’havia perdut una part d’allò que havia anat a escoltar.",
+      "Al vestíbul, una de les intèrprets parlava amb alumnes del taller. Li vaig preguntar com podia saber quan una pausa era el final. Va explicar algunes pistes d’aquella interpretació: les parts del programa, la posició dels músics i el gest de tancament. No eren un rellotge que funcionés igual en qualsevol concert. En aquella obra volien conservar la continuïtat entre parts, però les formes de participar poden variar segons la música i el context.",
+      "Vaig demanar si seria millor no aplaudir fins que ho fes tothom. La intèrpret va dir que observar els altres ajuda a orientar-se, però que no volia que passés el concert sencer fent de vigilant de les mans. Podia consultar el programa, preguntar abans o acostumar-se a escoltar els gestos del final. Aprendre un codi havia de facilitar l’experiència, no ocupar tot l’espai que deixava la música.",
+      "De tornada, la tieta va reconèixer que també havia buscat pistes els primers concerts. Jo havia suposat que les persones adultes coneixien aquestes coses sense haver-les après. Em va sorprendre més aquella confessió que qualsevol indicació del programa. El que em semblava una frontera entre els qui hi pertanyien i els qui no era, almenys en part, una experiència acumulada que es podia compartir.",
+      "Avui he guardat el programa i he encerclat les tres parts. No hi he escrit «aquí em vaig equivocar». He anotat «aquí vaig deixar d’escoltar». Em sembla una dada més útil per a la propera vegada. Voldria reconèixer millor els finals, però també arribar-hi havent sentit el que passa abans. Potser l’aplaudiment més fora de temps va ser el que vaig continuar imaginant quan la música ja tornava a sonar."
+    ],
+    "imageAlt": {
+      "un-aplauso-fuera-de-tiempo-art1": "Un trio de músics manté la posició a l’escenari durant una pausa davant del públic assegut.",
+      "un-aplauso-fuera-de-tiempo-art2": "Una cadira i un faristol amb la partitura tancada després del concert, amb un programa al seient."
+    },
+    "questions": [
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q1",
+        "type": "literal",
+        "prompt": "Quina informació del programa havia llegit sense saber-ne encara la funció?",
+        "answer": "Que l’obra es dividia en tres parts i els seus noms.",
+        "lines": 2
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q2",
+        "type": "literal",
+        "prompt": "Quines tres pistes de final esmenta la intèrpret?",
+        "answer": "Parts del programa, posició dels músics i gest de tancament.",
+        "lines": 2
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa «fent de vigilant de les mans» en aquest diari?",
+        "answer": "Estar tan pendent de no aplaudir abans d’hora que l’atenció es concentra en controlar-se en lloc d’escoltar.",
+        "lines": 2
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q4",
+        "type": "inference",
+        "prompt": "Per què el primer aplaudiment és una interpretació de pistes i no una acció sense cap motiu?",
+        "answer": "Perquè hi havia una pausa llarga i un músic havia abaixat l’instrument, senyals que qui narra va llegir com un final.",
+        "lines": 3
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q5",
+        "type": "inference",
+        "prompt": "Quina diferència hi ha entre la reacció real del públic i el que qui narra continua imaginant?",
+        "answer": "No hi ha una reprimenda visible, però qui narra segueix sentint-se observat i tem revelar que és nou.",
+        "lines": 3
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q6",
+        "type": "inference",
+        "prompt": "Per què no recorda bé el passatge suau que comenta la tieta?",
+        "answer": "Perquè l’atenció s’havia desplaçat de la música a evitar un altre error social.",
+        "lines": 3
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q7",
+        "type": "inference",
+        "prompt": "Per què la intèrpret no dona una norma universal per a tots els concerts?",
+        "answer": "Perquè les convencions de participació i les pistes depenen de l’obra i del context.",
+        "lines": 3
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q8",
+        "type": "structure",
+        "prompt": "Què aporta la confessió de la tieta sobre els seus primers concerts?",
+        "answer": "Trenca la idea que els altres saben els codis de manera natural i mostra que es poden aprendre i compartir.",
+        "lines": 3
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q9",
+        "type": "inference",
+        "prompt": "Quin límit veu la intèrpret a esperar sempre que aplaudeixin els altres?",
+        "answer": "Pot orientar, però si es converteix en vigilància constant pot impedir gaudir i escoltar amb atenció.",
+        "lines": 3
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q10",
+        "type": "inference",
+        "prompt": "Quin sentit adquireix l’última frase sobre l’aplaudiment imaginat?",
+        "answer": "El record i la por de l’error van continuar interferint quan la música ja seguia; aquesta preocupació va durar més que l’aturada real.",
+        "lines": 4
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q11",
+        "type": "summary",
+        "prompt": "Explica el canvi de propòsit entre «no equivocar-me» i la nota final del programa.",
+        "answer": "Passa de controlar-se per no revelar desconeixement a voler aprendre pistes que li permetin escoltar millor tota l’experiència.",
+        "lines": 4
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q12",
+        "type": "opinion",
+        "prompt": "Com presentaries un codi d’un espai nou a algú que hi va per primera vegada? Proposa una ajuda i explica com evitaria convertir-se en una barrera.",
+        "answer": "Resposta oberta que faciliti orientació sense pressuposar coneixement ni generar una vigilància que substitueixi l’activitat principal.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 6,
+        "text": "fent de vigilant de les mans",
+        "questionId": "un-aplauso-fuera-de-tiempo-q3"
+      }
+    ]
+  },
+  {
+    "id": "el-precio-de-una-comodidad-ca",
+    "code": "L244",
+    "title": "El preu d’una comoditat",
+    "summary": "Una prova d’un assistent domèstic fictici valora tant les tasques que simplifica com les decisions que deixa menys visibles.",
+    "paragraphs": [
+      "Durant una setmana hem provat un prototip d’assistent domèstic fet al taller de tecnologia. No és un producte que es pugui comprar: el grup creador ens l’ha deixat per valorar-ne les decisions de disseny. Permet activar recordatoris, posar un temporitzador i reproduir una selecció de música. La primera impressió és agradable. Una frase curta pot substituir buscar un botó. Però la comoditat no es reparteix igual entre totes les accions, i aquí comença la part més interessant de la prova.",
+      "El dispositiu arriba amb alguns recordatoris activats per defecte. El grup els considera útils per mostrar-ne el funcionament. Desactivar-los és possible, però cal obrir la pantalla d’opcions i passar per diversos apartats. Activar una nova rutina, en canvi, es pot fer amb un únic pas. Aquesta asimetria no impedeix canviar la configuració; fa que unes decisions siguin més fàcils de prendre que d’altres. Un valor predeterminat també orienta l’ús, encara que ningú no obligui a mantenir-lo.",
+      "En la prova, el temporitzador va ser la funció més utilitzada. La meva germana el feia servir mentre dibuixava i jo quan treballava en una maqueta. Quan sonava, un botó visible permetia aturar-lo. No necessitàvem recordar una frase exacta. Aquell control físic semblava un detall antic al costat de la veu, però va fer el sistema més clar quan dues persones parlaven alhora a l’habitació.",
+      "Amb la música va aparèixer una dificultat diferent. El prototip ordenava les propostes segons les darreres tries. Com que jo l’havia utilitzat primer, les meves preferències ocupaven sovint la part superior. La germana podia buscar altres peces, però va pensar que aquell era sobretot el meu aparell. El grup creador havia imaginat un usuari habitual, no havia treballat prou què passava quan el mateix objecte es compartia.",
+      "El quadern de prova inclou aquestes situacions i també els límits del que podem concloure. Una setmana a casa de dues persones no representa totes les llars. Tampoc no hem comprovat cada funció en totes les condicions possibles. Valorem allò que hem utilitzat i indiquem quan una observació és una preferència nostra. No convertiríem «jo trobo fàcil aquesta ordre» en «qualsevol persona ho pot fer sense ajuda».",
+      "La nostra proposta no és afegir una pantalla per a cada dubte. Demanem que les opcions importants siguin visibles, que activar i desactivar una rutina tinguin una dificultat semblant i que es pugui entendre per què s’ofereix una música abans que una altra. També conservaríem el botó físic del temporitzador. Si una funció estalvia passos però amaga la manera de desfer-los, la sensació inicial de rapidesa pot convertir-se en dependència d’una ajuda externa.",
+      "El grup creador ens va dir que mostrar tots els controls a la primera pantalla faria el disseny més carregat. És una objecció que cal prendre seriosament. La claredat no consisteix a amuntegar opcions sense ordre. Poden destacar accions habituals i deixar-ne d’altres en un segon nivell, sempre que trobar-les no exigeixi endevinar el vocabulari amb què les han classificades. Cal provar aquesta organització, no donar-la per resolta amb un dibuix net.",
+      "Recomanaríem continuar el prototip, però amb proves més diverses. El preu del títol no són diners. És l’atenció, el control o l’esforç que pot costar una comoditat quan només es mira la facilitat del primer gest. Un disseny útil hauria d’ajudar-nos a començar una acció i també a entendre-la, canviar-la o deixar-la de fer."
+    ],
+    "imageAlt": {
+      "el-precio-de-una-comodidad-art1": "Un assistent de sobretaula amb un botó de silenci al costat d’una ràdio i un full de recordatoris.",
+      "el-precio-de-una-comodidad-art2": "Un usuari revisa opcions d’un dispositiu en una pantalla, amb un quadern i targetes de configuració."
+    },
+    "questions": [
+      {
+        "id": "el-precio-de-una-comodidad-q1",
+        "type": "literal",
+        "prompt": "Quines tres funcions té el prototip que es prova?",
+        "answer": "Recordatoris, temporitzador i reproducció d’una selecció musical.",
+        "lines": 2
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q2",
+        "type": "literal",
+        "prompt": "Quant dura la prova i qui l’utilitza a casa?",
+        "answer": "Una setmana; qui escriu la ressenya i la seva germana.",
+        "lines": 2
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa «predeterminat» en parlar d’un valor del sistema?",
+        "answer": "Que ja ve establert abans que l’usuari el triï expressament, encara que després es pugui canviar.",
+        "lines": 2
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q4",
+        "type": "inference",
+        "prompt": "Per què activar amb un pas i desactivar amb diversos pot orientar les decisions?",
+        "answer": "Perquè les opcions tenen costos d’esforç diferents i és més fàcil seguir o mantenir unes que unes altres.",
+        "lines": 3
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q5",
+        "type": "inference",
+        "prompt": "Què aporta el botó físic que no resol sempre l’ordre de veu?",
+        "answer": "Un control visible que no exigeix recordar una frase i funciona de manera clara quan diverses persones parlen.",
+        "lines": 3
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q6",
+        "type": "inference",
+        "prompt": "Per què la germana veu l’aparell com si fos sobretot del germà, tot i poder triar altra música?",
+        "answer": "Perquè les tries inicials d’ell ordenen les propostes i fan les seves preferències més visibles i fàcils d’escollir.",
+        "lines": 3
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q7",
+        "type": "inference",
+        "prompt": "Quina diferència hi ha entre afirmar que una opció existeix i valorar si és accessible en l’ús?",
+        "answer": "Que existir no assegura trobar-la, entendre-la o activar-la amb un esforç raonable.",
+        "lines": 3
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q8",
+        "type": "structure",
+        "prompt": "Quina funció té incloure l’objecció dels creadors sobre una pantalla massa carregada?",
+        "answer": "Reconeix un conflicte real de disseny i evita que la proposta sembli resolta només afegint controls.",
+        "lines": 3
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q9",
+        "type": "inference",
+        "prompt": "Per què la prova no permet dir que qualsevol persona utilitzaria fàcilment el sistema?",
+        "answer": "Perquè és breu i només recull dues persones i determinades funcions i condicions.",
+        "lines": 3
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q10",
+        "type": "inference",
+        "prompt": "Quin sentit figurat té el «preu» del títol i com es relaciona amb desfer una acció?",
+        "answer": "És l’esforç, atenció o control que es pot perdre si començar és fàcil però canviar o aturar és menys visible o difícil.",
+        "lines": 4
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q11",
+        "type": "summary",
+        "prompt": "Resumeix tres criteris de la ressenya per valorar la comoditat més enllà del primer ús.",
+        "answer": "Visibilitat i comprensió dels controls, facilitat de revertir decisions, ús compartit i diversitat de proves. Cal esmentar tres criteris amb sentit.",
+        "lines": 4
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q12",
+        "type": "opinion",
+        "prompt": "Quina prova nova proposaries al taller? Explica qui hi participaria, què observaries i una conclusió que encara no podries generalitzar.",
+        "answer": "Resposta oberta amb participants i observació adequats a una limitació detectada, i reconeixement d’un límit del resultat.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 2,
+        "text": "predeterminat",
+        "questionId": "el-precio-de-una-comodidad-q3"
+      }
+    ]
+  },
+  {
+    "id": "una-noticia-escrita-dos-veces-ca",
+    "code": "L245",
+    "title": "Una notícia escrita dues vegades",
+    "summary": "La reobertura d’una passera obliga una redacció escolar a corregir un titular sense amagar què ha canviat.",
+    "paragraphs": [
+      "La primera versió de la notícia va sortir al butlletí escolar dijous al vespre: «La passera del parc reobrirà dilluns». El text es basava en una conversa amb una persona de l’equip de manteniment, que havia dit que esperaven acabar els treballs abans del cap de setmana. La redacció havia convertit aquella previsió en una data segura. No hi havia cap comunicat amb el dia d’obertura. La diferència va passar desapercebuda fins que divendres van arribar dues informacions noves i una pregunta d’una lectora.",
+      "La primera informació era un avís que mantenia tancat l’accés mentre es revisava una peça. La segona, una fotografia feta aquell matí, amb tanques a les dues entrades. La lectora preguntava si podria travessar dilluns per arribar al centre. La imatge no demostrava que el pas continuaria tancat tres dies després, però feia visible que l’obra encara no havia acabat. L’avís tampoc no confirmava una nova data. La pregunta de la lectora exigia revisar què podien afirmar, no triar simplement la pista més recent.",
+      "En tornar a escoltar la gravació, van recuperar les paraules exactes: «Si tot va com està previst, ens agradaria deixar-ho enllestit abans del cap de setmana; l’obertura s’anunciarà quan acabin la revisió». A la llibreta, el primer resum havia conservat només el fragment sobre el cap de setmana. La paraula «dilluns» l’havia afegida la redacció, suposant que acabar els treballs implicava obrir al públic després del cap de setmana. Eren dos passos que ningú no els havia confirmat.",
+      "La segona versió del titular deia: «L’obertura de la passera continua pendent de confirmació». El cos explicava l’estat anunciat divendres i separava aquest fet de la previsió inicial. No afirmava que hi hagués un gran retard ni que alguna persona hagués faltat a una promesa. Per calcular un retard caldria saber respecte de quin compromís confirmat es comparava, i el primer dia segur havia estat una conclusió del butlletí, no de la font.",
+      "Van deixar una nota de correcció amb la data i el motiu del canvi. Una companya va preguntar si això faria perdre confiança en la notícia. La directora del butlletí va respondre que mantenir una certesa injustificada no la faria més fiable. Tampoc no volia presentar la correcció com una medalla: havien d’explicar l’error i millorar el procés perquè les condicions d’una previsió no tornessin a desaparèixer del resum.",
+      "La resposta a la lectora va distingir què sabien i què no. No podien assegurar que passaria dilluns per la passera. Li van indicar on es publicaria la confirmació i van afegir al text un itinerari alternatiu que havien comprovat. Aquella ajuda pràctica no convertia l’alternativa en el camí preferible per a qualsevol persona, ni substituïa la informació pendent sobre l’obertura.",
+      "Dilluns, el pas encara era tancat. La redacció va actualitzar-ne l’estat sense esborrar la nota anterior. Aquell fet no canviava retroactivament la previsió en una promesa. A l’arxiu quedarien les dues versions amb les dates corresponents, perquè qui les trobés després pogués reconstruir com havia evolucionat la informació.",
+      "La notícia no havia estat només reescrita perquè el món canviés. També havia calgut revisar una lectura massa segura del que ja s’havia dit. Entre copiar una frase i informar-ne hi ha decisions: què es resumeix, quines condicions es conserven i quines inferències es presenten com a fets. Aquesta vegada, les van deixar una mica més a la vista."
+    ],
+    "imageAlt": {
+      "una-noticia-escrita-dos-veces-art1": "Dos joves revisen esborranys d’una notícia amb correccions, una gravadora i fotografies sobre una taula.",
+      "una-noticia-escrita-dos-veces-art2": "Un jove compara una notícia a l’ordinador amb una fotografia d’una passera tancada i un quadern de notes."
+    },
+    "questions": [
+      {
+        "id": "una-noticia-escrita-dos-veces-q1",
+        "type": "literal",
+        "prompt": "Quina data d’obertura afirmava el primer titular?",
+        "answer": "Dilluns.",
+        "lines": 2
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q2",
+        "type": "literal",
+        "prompt": "Quines dues informacions noves arriben divendres?",
+        "answer": "Un avís que manté l’accés tancat durant una revisió i una foto d’aquell matí amb tanques.",
+        "lines": 2
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa «retroactivament» quan es parla de previsió i promesa?",
+        "answer": "Aplicar al que es va dir abans un sentit o una certesa a partir d’un fet conegut després.",
+        "lines": 2
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q4",
+        "type": "inference",
+        "prompt": "Quins dos salts de raonament van produir la data segura del primer titular?",
+        "answer": "Convertir una previsió condicionada de final d’obres en certesa i suposar que acabar comportava una obertura al públic en el moment deduït.",
+        "lines": 4
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q5",
+        "type": "inference",
+        "prompt": "Per què la fotografia de divendres no prova tota sola que dilluns no s’obriria?",
+        "answer": "Perquè registra el tancament en un moment anterior, no l’estat futur del pas.",
+        "lines": 3
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q6",
+        "type": "inference",
+        "prompt": "Quina part important havia desaparegut del resum de la gravació?",
+        "answer": "La condició «si tot va com està previst» i que l’obertura s’anunciaria després de la revisió.",
+        "lines": 3
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q7",
+        "type": "inference",
+        "prompt": "Per què el segon text no acusa manteniment d’incomplir una promesa?",
+        "answer": "Perquè no hi havia una data confirmada per la font: la certesa provenia de la redacció.",
+        "lines": 3
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q8",
+        "type": "structure",
+        "prompt": "Quina funció té conservar una nota de correcció amb data i motiu?",
+        "answer": "Fa visible què ha canviat i per què, i permet reconstruir la informació en lloc d’amagar l’error.",
+        "lines": 3
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q9",
+        "type": "inference",
+        "prompt": "Per què confirmar el tancament dilluns no transforma la previsió original en una promesa?",
+        "answer": "Perquè el fet posterior no canvia les condicions i el sentit del que la font havia dit abans.",
+        "lines": 3
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q10",
+        "type": "inference",
+        "prompt": "Quin límit posen a la utilitat de l’itinerari alternatiu?",
+        "answer": "És una alternativa comprovada, però no s’assegura que sigui la preferible per a tothom ni resol la data d’obertura.",
+        "lines": 3
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q11",
+        "type": "summary",
+        "prompt": "Explica les dues raons per les quals cal reescriure la notícia: una relacionada amb novetats i una amb el treball inicial.",
+        "answer": "Arriben dades noves sobre l’estat del pas, però també detecten que el primer text havia eliminat condicions i presentat inferències com a fets.",
+        "lines": 4
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q12",
+        "type": "opinion",
+        "prompt": "Escriu una nota de correcció breu per al primer titular. Inclou què es corregeix i què continua pendent, sense atribuir culpa no demostrada.",
+        "answer": "Resposta oberta: s’havia anunciat dilluns sense confirmació; l’obertura continua pendent de l’anunci posterior a la revisió. Cal fer visible l’error de redacció.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 7,
+        "text": "retroactivament",
+        "questionId": "una-noticia-escrita-dos-veces-q3"
+      }
+    ]
   }
 ];

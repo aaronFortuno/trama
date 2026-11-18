@@ -4069,5 +4069,829 @@ export const readings1SecondaryExpansionEs = [
         "definition": "Obra que retiene o eleva el agua de un curso fluvial."
       }
     ]
+  },
+  {
+    "id": "el-silencio-de-la-traduccion-es",
+    "code": "L240",
+    "workId": "el-silencio-de-la-traduccion",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "advanced",
+    "themes": [
+      "arts",
+      "community"
+    ],
+    "genre": "interview",
+    "title": "El silencio de la traducción",
+    "summary": "Una traductora explica qué ocurre cuando una frase se vuelve más clara, pero pierde una duda que la obra quería conservar.",
+    "paragraphs": [
+      "Lídia Serra traduce narraciones y teatro. Trae una página de trabajo con versiones tachadas y preguntas al margen. El fragmento pertenece a una historia preparada para su taller: dos personas esperan a alguien en una cocina, ante tres tazas. La primera pregunta parece sencilla: si conoce ambas lenguas, ¿por qué no elige directamente las palabras equivalentes? Señala una línea casi vacía. Nos pide leer la escena antes de decidir si en aquel espacio falta información o está ocurriendo algo.",
+      "—¿Qué había en esa línea?\n—Una pausa. Un personaje pregunta si el otro vendrá y nadie responde enseguida. En la primera versión añadí una explicación porque la escena parecía seca. Después advertí que había convertido la duda en información. El lector ya no interpretaba el silencio: yo decía qué significaba. La frase era más clara, pero hacía un trabajo distinto.",
+      "—¿No es bueno ayudar a comprender?\n—Sí, si la ayuda permite acceder al texto. Pero no todo lo abierto es un obstáculo accidental. El silencio prepara la frase «Nadie tocó la tercera taza». Aún ignoramos quién falta y por qué. Si añado «la taza de la madre», resuelvo una pregunta que la autora de nuestro ejercicio quiso mantener abierta. No es una simple mejora de claridad.",
+      "—¿Y si una expresión no se traduce palabra por palabra?\n—Buscamos qué hace en la conversación. Imaginemos a alguien que necesita consultar una decisión con la almohada. No pide consejo a un objeto: quiere esperar y pensar con calma. En otra lengua quizá otra imagen cumpla esa función. Pero debemos mirar si la almohada reaparece como objeto. Una solución elegante en una frase puede perder una relación con otra página. Traducir la función no autoriza a olvidar las conexiones que la imagen construye en la obra.",
+      "—¿Cómo decides qué explicar en una nota?\n—Probamos con una palabra de una costumbre familiar que los personajes no explican. Una nota breve puede evitar que el lector se pierda. Una página entera quizá detenga una escena rápida. También puedo hacer creer que todos los miembros de una cultura actúan igual cuando el texto solo habla de una familia. La nota debe ayudar sin convertir un dato particular en una regla universal. Su extensión y su alcance también son decisiones de lectura. En el margen conservo opciones descartadas y anoto por qué. Si más adelante aparece un detalle nuevo, puedo volver a la pregunta original sin fingir que la primera elección era inevitable o que cualquier alternativa habría producido exactamente el mismo efecto.",
+      "—¿Entonces existe una única versión correcta?\n—Hay versiones mejor defendidas que otras con el texto. No todo vale. Pero dos soluciones pueden conservar aspectos distintos y tener pérdidas distintas. Quiero poder explicar una decisión y revisarla al leer el fragmento siguiente. La coherencia no se comprueba solo dentro de cada frase, como si el resto del libro no existiera. Una elección que parecía suficiente puede necesitar ajustes cuando descubrimos para qué servía un detalle más adelante.",
+      "Antes de irnos leemos la versión explicada y la de la pausa. La segunda no ofrece menos cosas que pensar: obliga a relacionar pregunta, silencio y taza. Lídia no pide preferir siempre la versión más oscura. Pide distinguir entre una dificultad que impide leer y una incertidumbre que forma parte de lo que leemos."
+    ],
+    "images": [
+      {
+        "id": "el-silencio-de-la-traduccion-art1",
+        "src": "assets/readings/l240-el-silencio-de-la-traduccion-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Una mesa de traducción con manuscritos, diccionarios y notas al margen."
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-art2",
+        "src": "assets/readings/l240-el-silencio-de-la-traduccion-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Una traductora de pelo muy corto y gris lee un manuscrito en su escritorio."
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-silencio-de-la-traduccion-q1",
+        "type": "literal",
+        "prompt": "¿Cuántos personajes están en la cocina y cuántas tazas hay?",
+        "answer": "Dos personajes y tres tazas.",
+        "lines": 2
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q2",
+        "type": "literal",
+        "prompt": "¿Qué información añadida alteraría la duda del ejercicio?",
+        "answer": "Identificar la tercera taza como «la taza de la madre».",
+        "lines": 2
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «elegante en una frase» en la explicación?",
+        "answer": "Que funciona bien en ese punto, aunque pueda no encajar con otras relaciones de la obra.",
+        "lines": 2
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q4",
+        "type": "inference",
+        "prompt": "¿Por qué llenar la pausa no es necesariamente una simple ayuda?",
+        "answer": "Porque puede sustituir una incertidumbre intencionada por una explicación que cambia lo que el lector interpreta.",
+        "lines": 3
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q5",
+        "type": "inference",
+        "prompt": "¿Cómo funcionan juntas pregunta, pausa y tercera taza?",
+        "answer": "Sugieren una persona ausente y una espera sin identificar aún la causa, obligando a relacionar las pistas.",
+        "lines": 4
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q6",
+        "type": "inference",
+        "prompt": "¿Por qué no basta entender el sentido figurado de la almohada?",
+        "answer": "Porque puede reaparecer como objeto y construir relaciones narrativas que otra imagen haría perder.",
+        "lines": 3
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q7",
+        "type": "inference",
+        "prompt": "¿Qué dos problemas de una nota menciona además de la comprensión?",
+        "answer": "Puede frenar el ritmo y generalizar a toda una cultura un dato familiar.",
+        "lines": 3
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q8",
+        "type": "structure",
+        "prompt": "¿Para qué termina comparando ambas versiones del fragmento?",
+        "answer": "Para experimentar la diferencia entre recibir una explicación e interpretar relaciones abiertas.",
+        "lines": 3
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q9",
+        "type": "inference",
+        "prompt": "¿Por qué admitir dos traducciones defendibles no significa que todo valga?",
+        "answer": "Porque hay que justificar decisiones con el texto y valorar coherencia, funciones y pérdidas, no elegir arbitrariamente.",
+        "lines": 3
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q10",
+        "type": "inference",
+        "prompt": "¿Qué distingue una dificultad accidental de una incertidumbre narrativa?",
+        "answer": "La primera puede impedir acceder al texto; la segunda puede formar parte de sus pistas e interpretaciones.",
+        "lines": 3
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q11",
+        "type": "summary",
+        "prompt": "Resume tres aspectos que revisa más allá de buscar palabras equivalentes.",
+        "answer": "Función y ritmo de la escena, relaciones con otros fragmentos y alcance o efecto de las explicaciones añadidas.",
+        "lines": 4
+      },
+      {
+        "id": "el-silencio-de-la-traduccion-q12",
+        "type": "opinion",
+        "prompt": "En el ejemplo de la taza, ¿conservarías la pausa o añadirías una explicación? Justifica con dos pistas y reconoce un efecto.",
+        "answer": "Respuesta abierta que valore ausencia y duda con las pistas, sin inventar como cierta la identidad de quien falta.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 4,
+        "text": "elegante en una frase",
+        "questionId": "el-silencio-de-la-traduccion-q3"
+      }
+    ]
+  },
+  {
+    "id": "la-ciudad-y-el-mapa-de-los-promedios-es",
+    "code": "L241",
+    "workId": "la-ciudad-y-el-mapa-de-los-promedios",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "advanced",
+    "themes": [
+      "math",
+      "geography",
+      "community"
+    ],
+    "genre": "argument",
+    "title": "La ciudad y el mapa de los promedios",
+    "summary": "Una misma temperatura media puede corresponder a situaciones distintas según cómo se repartan los datos entre barrios.",
+    "paragraphs": [
+      "En un ejercicio, dos ciudades imaginarias tenían la misma temperatura media a una hora: treinta y cuatro grados. El primer resumen decía que la situación era equivalente. Pero las cuatro observaciones de A eran treinta, treinta y dos, treinta y cuatro y cuarenta grados. En B, los cuatro puntos marcaban treinta y cuatro. La suma y división daban la misma media; la distribución describía experiencias distintas. Debían decidir qué publicar en el mapa.",
+      "Para obtener la media sumaron cuatro temperaturas y dividieron entre cuatro. Era útil para resumir, pero no conservaba todas las diferencias. En A, el resumen no describía necesariamente cada lugar. Un punto llegaba a cuarenta y otro quedaba diez grados por debajo. Decir solo treinta y cuatro ocultaba el contraste sin cometer un error aritmético. Un cálculo puede ser correcto y la frase construida a partir de él, demasiado amplia.",
+      "El ejemplo suponía medidas de temperatura del aire comparables y simultáneas. Mezclar pavimento al mediodía y aire al anochecer crearía un problema anterior al cálculo. La condición no era decorativa. Un gráfico preciso puede dar apariencia de rigor a datos que no son directamente comparables. Por eso indicaron cómo se habían definido las observaciones imaginarias. No bastaba con que todos los números llevasen el símbolo de grados para tratarlos como registros equivalentes.",
+      "Una alumna propuso colorear todas las zonas igual porque compartían la media urbana. Otro señaló los cuarenta grados: esa zona se desvanecía en el resumen. El color uniforme podía sugerir que cada barrio tenía el valor medio, calculado en realidad juntando sitios distintos. Conservaron el resumen general y añadieron los cuatro valores en el mapa. La imagen podía seguir siendo sencilla sin hacer desaparecer una diferencia relevante.",
+      "Preguntaron a quién representaba cada punto. Todos los sensores pesaban igual en la media del ejercicio, pero eso no significaba que en cada zona viviera igual número de personas. La media de cuatro puntos no medía automáticamente la experiencia media de los habitantes. Para esa pregunta necesitaban población, usos y tiempo de permanencia; no bastaba con cambiar el título. Las unidades observadas y las personas sobre las que se quería hablar no eran intercambiables sin explicación.",
+      "Tampoco pretendían que el máximo fuera lo único importante. Decidir espacios de estancia podía requerir sombra, bancos, horarios y recorridos. La temperatura era relevante, no una orden que eligiera por sí sola qué construir. El mapa debía ayudar a plantear prioridades, no esconderlas tras una cifra que pareciera decidir por todos.",
+      "Alguien sugirió eliminar la media. Prefirieron conservarla con contexto: servía para una visión general si no sustituía los detalles necesarios. Una nota aclaraba que eran cuatro puntos de un ejemplo, no todas las calles. Mostrar más datos tampoco autorizaba a representar lo que no se había medido. Habían ampliado el resumen, pero seguían necesitando explicar sus límites. Una lectora podría comparar la zona más alta con la más baja sin perder la cifra general. Otra podría preguntar por un barrio sin sensor. El mapa ayudaría si distinguía lo observado de ese nuevo interrogante, no si rellenaba cualquier vacío con el promedio.",
+      "Ambas ciudades seguían empatadas en la media, pero ya no parecían intercambiables. Un buen resumen no contiene todo. Permite entender qué reúne, qué deja fuera y cuándo hay que volver a los datos antes de afirmar algo mayor que el cálculo."
+    ],
+    "images": [
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-art1",
+        "src": "assets/readings/l241-la-ciudad-y-el-mapa-de-los-promedios-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Una manzana con árboles y sombra contrasta con una plaza pavimentada más expuesta al sol."
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-art2",
+        "src": "assets/readings/l241-la-ciudad-y-el-mapa-de-los-promedios-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Un joven compara un mapa de barrios de colores distintos con una hoja de resumen en una mesa."
+      }
+    ],
+    "questions": [
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q1",
+        "type": "literal",
+        "prompt": "¿Qué cuatro valores tiene la ciudad A?",
+        "answer": "30, 32, 34 y 40 grados.",
+        "lines": 2
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q2",
+        "type": "literal",
+        "prompt": "¿Qué media comparten A y B?",
+        "answer": "34 grados.",
+        "lines": 2
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa que la zona «se desvanecía en el resumen»?",
+        "answer": "Que su situación particular dejaba de verse al mostrar solo la media.",
+        "lines": 2
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q4",
+        "type": "inference",
+        "prompt": "¿Cómo pueden distribuciones distintas tener igual media?",
+        "answer": "Porque depende de suma y número de valores; no conserva cómo se reparten individualmente.",
+        "lines": 3
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q5",
+        "type": "inference",
+        "prompt": "¿Qué información de A se pierde con un color uniforme?",
+        "answer": "El contraste entre puntos, incluidos 40 y 30 grados, y dónde está cada valor.",
+        "lines": 3
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q6",
+        "type": "inference",
+        "prompt": "¿Por qué no bastaría con que todos los datos llevaran la misma unidad?",
+        "answer": "Porque deben medir algo comparable en condiciones y momentos coherentes; aire y pavimento a horas distintas no equivalen.",
+        "lines": 3
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q7",
+        "type": "inference",
+        "prompt": "¿Por qué la media de sensores no es automáticamente la experiencia media de habitantes?",
+        "answer": "Porque cada punto pesa igual, pero personas, usos y tiempos pueden repartirse de forma distinta entre zonas.",
+        "lines": 4
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q8",
+        "type": "structure",
+        "prompt": "¿Para qué aclara que ciudades y condiciones son imaginarias?",
+        "answer": "Para delimitar el ejemplo y no presentar cuatro valores didácticos como un estudio real completo.",
+        "lines": 3
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q9",
+        "type": "inference",
+        "prompt": "¿Por qué el máximo no decide por sí solo dónde poner un espacio de estancia?",
+        "answer": "Porque también importan usos, sombra, descanso y recorridos; un indicador no contiene todas las prioridades.",
+        "lines": 3
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q10",
+        "type": "inference",
+        "prompt": "¿Por qué conservar la media con contexto puede ser mejor que eliminarla?",
+        "answer": "Porque sigue siendo útil con los detalles y límites necesarios para interpretarla.",
+        "lines": 3
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q11",
+        "type": "summary",
+        "prompt": "Resume tres preguntas a un resumen numérico antes de decidir con él.",
+        "answer": "Qué mide y en qué condiciones, qué reúne y oculta, a quién representa y qué otros datos o prioridades faltan. Debe dar tres ideas claras.",
+        "lines": 4
+      },
+      {
+        "id": "la-ciudad-y-el-mapa-de-los-promedios-q12",
+        "type": "opinion",
+        "prompt": "Escribe una nota que evite confundir media urbana y temperatura de cada barrio. Incluye un límite.",
+        "answer": "Respuesta abierta que distinga resumen y valores puntuales e indique cuatro observaciones del ejemplo en un momento concreto.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 4,
+        "text": "se desvanecía en el resumen",
+        "questionId": "la-ciudad-y-el-mapa-de-los-promedios-q3"
+      }
+    ]
+  },
+  {
+    "id": "inventario-de-una-habitacion-vacia-es",
+    "code": "L242",
+    "workId": "inventario-de-una-habitacion-vacia",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "advanced",
+    "themes": [
+      "arts",
+      "everyday",
+      "history"
+    ],
+    "genre": "narrative",
+    "title": "Inventario de una habitación vacía",
+    "summary": "Quien entra por última vez en una habitación familiar quiere comprobar que no queda nada, pero los rastros no encajan del todo con los recuerdos.",
+    "paragraphs": [
+      "Mi madre pidió revisar la habitación antes de devolver las llaves. Abrí la puerta con fuerza innecesaria, como si aún tuviera que vencer las zapatillas amontonadas detrás. Llegó hasta la pared y el golpe sonó demasiado limpio. Sin las cosas, los ruidos parecían haber crecido. Quedaban una silla ajena y un cajón que la mudanza había dejado en el suelo.",
+      "En la pared había un rectángulo más claro. Me dije que era la marca del mapa del abuelo, con sus lugares de trabajo señalados. Extendí la mano hacia donde empezaba el mar y noté un agujero en el yeso. Recordé entonces que el mapa era más ancho. Podía ser la huella de un cuadro. La certeza duró menos que el movimiento del brazo.",
+      "Me senté. Se veía la ventana vecina con la misma cortina de mi infancia. Creí reconocer un jarrón, pero no sabía si había mirado alguna vez desde aquel punto. Quizá la cortina era nueva y yo la había elegido antigua porque necesitaba encontrar algo inmóvil. Aparté los ojos antes de convertir la duda en una escena completa. No quería que la habitación se llenara de detalles inventados solo porque habían desaparecido los muebles.",
+      "En el cajón encontré una llave y un hilo azul. La llave no abría aquella puerta: era menor y tenía dos dientes desiguales. Imaginé una caja del abuelo, la del reloj o la de sobres. Ningún recuerdo encajaba. El hilo me llevó al jersey que hizo mi madre. Al acercarlo a la luz vi otro tono de azul. El recuerdo seguía siendo mío; la prueba no era tan clara.",
+      "Mi madre llamó desde el rellano. Pregunté por el rectángulo. Dijo que había un calendario y luego dudó: quizá estaba en otra habitación. No lo resolvimos. Le mostré la llave y decidió guardarla sin etiqueta con las demás. «Ya miraremos de dónde es». No pareció un fracaso dejar la pregunta pendiente. Yo había querido salir con un nombre para cada resto, como si eso hiciera más fácil cerrar la puerta.",
+      "Quise hacer una foto. Enfoqué pared y ventana, pero la imagen no contenía el golpe de la puerta ni mi forma de sentarme buscando una distancia conocida. Bajé el teléfono. Lo levanté otra vez y fotografié igualmente. No tenía que guardar toda la habitación para conservar una vista. Una imagen incompleta podía servir sin fingir que sustituyera lo que habíamos vivido entre aquellas paredes. Dejé entrar en el encuadre parte del marco de la puerta. No era la vista más bonita, pero reconocía desde dónde estaba mirando. La habitación quedaba al otro lado y yo todavía no había cruzado del todo.",
+      "En el rellano, mi madre preguntó si estaba vacía. Pensé en silla, cajón y rectángulo. Respondí que no quedaba nada nuestro para cargar. Era una frase más larga y no la corrigió. Me dio la bolsa de las llaves pequeñas. Dentro sonaron unas contra otras, sin decir a qué puerta pertenecía cada una.",
+      "Al cerrar no sentí que la habitación desapareciera, ni que pudiéramos conservarla entera. Guardé el hilo en el cuaderno sin escribir que fuera del jersey. En la página contigua anoté algo menos seguro y más difícil de perder: «Esto me ha hecho recordar». La frase no devolvía el origen al hilo, pero dejaba sitio a lo que había ocurrido al encontrarlo."
+    ],
+    "images": [
+      {
+        "id": "inventario-de-una-habitacion-vacia-art1",
+        "src": "assets/readings/l242-inventario-de-una-habitacion-vacia-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Una habitación casi vacía tiene una marca rectangular clara en la pared, una silla y luz de tarde."
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-art2",
+        "src": "assets/readings/l242-inventario-de-una-habitacion-vacia-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Una llave antigua, un hilo azul y un cajón de madera abierto sobre un escritorio vacío."
+      }
+    ],
+    "questions": [
+      {
+        "id": "inventario-de-una-habitacion-vacia-q1",
+        "type": "literal",
+        "prompt": "¿Qué dos objetos pequeños encuentra en el cajón?",
+        "answer": "Una llave y un hilo azul.",
+        "lines": 2
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q2",
+        "type": "literal",
+        "prompt": "¿Qué decide la madre sobre la llave desconocida?",
+        "answer": "Guardarla con las demás sin etiqueta e intentar identificarla después.",
+        "lines": 2
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué sugiere que el golpe suene «demasiado limpio»?",
+        "answer": "Que el cuarto vacío deja oír el ruido sin los obstáculos o el ambiente de antes; acentúa la extrañeza.",
+        "lines": 2
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q4",
+        "type": "inference",
+        "prompt": "¿Por qué abre con más fuerza de la necesaria?",
+        "answer": "El cuerpo repite el hábito de cuando las zapatillas obstaculizaban la puerta, aunque ya no estén.",
+        "lines": 3
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q5",
+        "type": "inference",
+        "prompt": "¿Qué función tiene recordar que el mapa era más ancho?",
+        "answer": "Desestabiliza una identificación segura y muestra que querer reconocer no garantiza que la huella corresponda al recuerdo.",
+        "lines": 3
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q6",
+        "type": "inference",
+        "prompt": "¿Por qué el color distinto no anula el recuerdo del jersey pero sí la certeza del origen del hilo?",
+        "answer": "El hilo puede provocar un recuerdo real sin ser un trozo del jersey; asociación y procedencia son distintas.",
+        "lines": 4
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q7",
+        "type": "inference",
+        "prompt": "¿Qué muestra la duda de la madre sobre el calendario?",
+        "answer": "Que tampoco recuerda exactamente cada ubicación y pueden aceptar una pregunta abierta.",
+        "lines": 3
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q8",
+        "type": "structure",
+        "prompt": "¿Qué significa bajar el teléfono y luego hacer la foto igualmente?",
+        "answer": "Reconoce que la foto no lo guarda todo y después acepta conservar una vista parcial sin exigirle totalidad.",
+        "lines": 3
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q9",
+        "type": "inference",
+        "prompt": "¿Por qué responde «no queda nada nuestro para cargar» en vez de «está vacía»?",
+        "answer": "Porque distingue pertenencias trasladables de huellas y significados que permanecen.",
+        "lines": 3
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q10",
+        "type": "inference",
+        "prompt": "¿Qué cambia al escribir la nota final en vez de «esto es del jersey»?",
+        "answer": "Pasa de afirmar un origen incierto a describir el recuerdo que sí ha experimentado.",
+        "lines": 3
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q11",
+        "type": "summary",
+        "prompt": "Explica cómo conviven pérdida y continuidad al final con dos pistas.",
+        "answer": "La casa se cierra y no se conserva entera, pero quedan foto, objetos y recuerdos parciales. Debe relacionar dos detalles concretos.",
+        "lines": 4
+      },
+      {
+        "id": "inventario-de-una-habitacion-vacia-q12",
+        "type": "opinion",
+        "prompt": "Interpreta «habitación vacía»: ¿exacto, incompleto o deliberadamente ambiguo? Defiende con dos detalles.",
+        "answer": "Respuesta abierta con muebles restantes, ausencia de pertenencias y huellas o recuerdos, distinguiendo sentido literal y figurado.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 1,
+        "text": "demasiado limpio",
+        "questionId": "inventario-de-una-habitacion-vacia-q3"
+      },
+      {
+        "paragraph": 5,
+        "text": "rellano",
+        "definition": "Espacio llano de una escalera ante una puerta o entre tramos de escalones."
+      }
+    ]
+  },
+  {
+    "id": "un-aplauso-fuera-de-tiempo-es",
+    "code": "L243",
+    "workId": "un-aplauso-fuera-de-tiempo",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "advanced",
+    "themes": [
+      "arts",
+      "community"
+    ],
+    "genre": "diary",
+    "title": "Un aplauso fuera de tiempo",
+    "summary": "Una pausa en un concierto hace dudar a quien escucha por primera vez y abre una conversación sobre cómo aprendemos los códigos de un lugar.",
+    "paragraphs": [
+      "Domingo por la mañana. Ayer aplaudí cuando la sala aún no quería aplaudir. Lo escribo así porque al principio creía haber cometido algo peor: interrumpir la música. Ahora no sé si esa primera frase explica todo. Entre las palmas y el silencio posterior caben varias cosas que no entendí sentado en la butaca.",
+      "Era mi primer concierto de aquel tipo con mi tía. Había tres músicos y una obra dividida en tres partes según el programa. Leí los nombres sin saber cómo se relacionaban con lo que escucharíamos. En una pausa larga, un músico bajó un poco el instrumento. Pensé que había terminado y aplaudí. Dos personas me siguieron y enseguida paramos. No habíamos hablado entre nosotros: parecía que los tres buscábamos una señal y la habíamos interpretado de forma parecida.",
+      "Nadie se volvió bruscamente ni dijo nada. Un músico levantó la mirada, esperó y continuaron. Aun así, pasé buena parte del segundo tramo pendiente de mis manos, inmóviles sobre las rodillas. La música seguía, pero yo escuchaba también la posibilidad de volver a revelar que no conocía aquel lugar. No sabía si alguien recordaba mis palmas; mi atención actuaba como si toda la sala siguiera pendiente de ellas.",
+      "Al final bajaron los instrumentos y se giraron hacia el público. Mi tía aplaudió y esperé un segundo antes de seguirla. Luego preguntó por un pasaje suave. Apenas lo recordaba: vigilarme había ocupado parte de lo que fui a escuchar. Me daba vergüenza admitir que la preocupación por una pausa había durado mucho más que la pausa misma.",
+      "En el vestíbulo, una intérprete hablaba con alumnos. Le pregunté cómo distinguir pausa y final. Explicó pistas de aquella interpretación: las partes del programa, la posición y el gesto de cierre. No eran un reloj válido para cualquier concierto. La intérprete no había vivido mi preocupación desde la butaca y yo no sabía qué había supuesto ella sobre el público. Hablar nos permitió comparar esas perspectivas sin fingir que todos habíamos interpretado las señales del mismo modo. En esa obra buscaban continuidad entre partes, pero las formas de participar podían variar con la música y el contexto.",
+      "Pregunté si sería mejor no aplaudir hasta que todos lo hicieran. Observar ayuda, dijo, pero no quería que pasara el concierto vigilando las manos. Podía consultar el programa, preguntar antes o acostumbrarme a reconocer gestos finales. Aprender un código debía facilitar la experiencia, no ocupar todo el espacio de la música. No me ofrecía una contraseña para dejar de ser nuevo, sino recursos que podía ir aprendiendo.",
+      "Al volver, mi tía admitió haber buscado pistas en sus primeros conciertos. Yo suponía que los adultos lo sabían sin aprender. Me sorprendió más que cualquier indicación del programa. Aquella frontera entre quienes pertenecían al lugar y quienes no era, en parte, una experiencia acumulada que podía compartirse. No tenía que adivinarla solo ni tratar cada duda como una prueba de que no debía estar allí.",
+      "Hoy guardé el programa y rodeé las tres partes. No escribí «aquí me equivoqué», sino «aquí dejé de escuchar». Me sirve más para la próxima vez. Quiero reconocer los finales y llegar a ellos habiendo oído lo anterior. Quizá el aplauso más fuera de tiempo fue el que seguí imaginando cuando la música ya sonaba otra vez."
+    ],
+    "images": [
+      {
+        "id": "un-aplauso-fuera-de-tiempo-art1",
+        "src": "assets/readings/l243-un-aplauso-fuera-de-tiempo-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un trío mantiene su posición en el escenario durante una pausa ante el público sentado."
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-art2",
+        "src": "assets/readings/l243-un-aplauso-fuera-de-tiempo-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Una silla y un atril con la partitura cerrada tras el concierto, con un programa en el asiento."
+      }
+    ],
+    "questions": [
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q1",
+        "type": "literal",
+        "prompt": "¿Qué información del programa leyó sin comprender aún su función?",
+        "answer": "Que la obra tenía tres partes y sus nombres.",
+        "lines": 2
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q2",
+        "type": "literal",
+        "prompt": "¿Qué tres pistas finales menciona la intérprete?",
+        "answer": "Partes del programa, posición de músicos y gesto de cierre.",
+        "lines": 2
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «vigilando las manos» en este diario?",
+        "answer": "Concentrarse tanto en no aplaudir antes de tiempo que la atención se dedica a controlarse en vez de escuchar.",
+        "lines": 2
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q4",
+        "type": "inference",
+        "prompt": "¿Por qué el aplauso interpreta pistas y no carece de motivo?",
+        "answer": "Porque había una pausa larga y un músico había bajado el instrumento, señales interpretadas como final.",
+        "lines": 3
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q5",
+        "type": "inference",
+        "prompt": "¿Qué diferencia hay entre la reacción real y lo que sigue imaginando?",
+        "answer": "No hay reprimenda visible, pero sigue sintiéndose observado y teme mostrar que es nuevo.",
+        "lines": 3
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q6",
+        "type": "inference",
+        "prompt": "¿Por qué no recuerda bien el pasaje suave?",
+        "answer": "Porque la atención se desplazó de la música a evitar otro error social.",
+        "lines": 3
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q7",
+        "type": "inference",
+        "prompt": "¿Por qué la intérprete no da una norma universal?",
+        "answer": "Porque las convenciones de participación y las pistas dependen de la obra y del contexto.",
+        "lines": 3
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q8",
+        "type": "structure",
+        "prompt": "¿Qué aporta la confesión de la tía?",
+        "answer": "Rompe la idea de que los demás conocen los códigos naturalmente y muestra que se aprenden y comparten.",
+        "lines": 3
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q9",
+        "type": "inference",
+        "prompt": "¿Qué límite ve a esperar siempre el aplauso ajeno?",
+        "answer": "Puede orientar, pero una vigilancia constante puede impedir disfrutar y escuchar con atención.",
+        "lines": 3
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q10",
+        "type": "inference",
+        "prompt": "¿Qué sentido adquiere la última frase sobre el aplauso imaginado?",
+        "answer": "El recuerdo y miedo al error siguieron interfiriendo cuando la música continuaba; la preocupación duró más que la pausa real.",
+        "lines": 4
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q11",
+        "type": "summary",
+        "prompt": "Explica el cambio entre «no equivocarme» y la nota final.",
+        "answer": "Pasa de controlarse para ocultar desconocimiento a aprender pistas que permitan escuchar mejor toda la experiencia.",
+        "lines": 4
+      },
+      {
+        "id": "un-aplauso-fuera-de-tiempo-q12",
+        "type": "opinion",
+        "prompt": "¿Cómo presentarías un código de un lugar nuevo a quien llega por primera vez? Propón una ayuda y explica cómo evitaría ser barrera.",
+        "answer": "Respuesta abierta que oriente sin presuponer conocimiento ni generar vigilancia que sustituya la actividad principal.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 6,
+        "text": "vigilando las manos",
+        "questionId": "un-aplauso-fuera-de-tiempo-q3"
+      }
+    ]
+  },
+  {
+    "id": "el-precio-de-una-comodidad-es",
+    "code": "L244",
+    "workId": "el-precio-de-una-comodidad",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "advanced",
+    "themes": [
+      "technology",
+      "everyday",
+      "community"
+    ],
+    "genre": "review",
+    "title": "El precio de una comodidad",
+    "summary": "Una prueba de un asistente doméstico ficticio valora las tareas que simplifica y las decisiones que vuelve menos visibles.",
+    "paragraphs": [
+      "Durante una semana probamos un prototipo de asistente doméstico del taller de tecnología. No se vende: sus creadores lo prestaron para valorar decisiones de diseño. Activa recordatorios, pone un temporizador y reproduce una selección musical. La impresión inicial agrada: una frase sustituye buscar un botón. Pero la comodidad no se reparte igual entre todas las acciones, y ahí empieza lo interesante de la prueba.",
+      "Llega con recordatorios activados por defecto para mostrar cómo funciona. Desactivarlos exige abrir opciones y recorrer varios apartados. Activar una rutina nueva requiere un paso. Esa asimetría no impide cambiarla: hace unas decisiones más fáciles que otras. Un valor predeterminado orienta el uso aunque nadie obligue a conservarlo. No basta con decir que una opción existe; también importa cuánto cuesta encontrarla y entender su efecto.",
+      "El temporizador fue lo más utilizado. Mi hermana lo ponía al dibujar y yo al trabajar en una maqueta. Un botón visible lo detenía sin recordar una frase exacta. Parecía un detalle antiguo junto al control por voz, pero aclaraba el sistema cuando hablábamos dos personas a la vez. La prueba mostró que añadir otra forma de control podía simplificar una situación, aunque aumentara el número de elementos visibles.",
+      "La música planteó otro problema. El prototipo ordenaba propuestas según las últimas elecciones. Como yo lo usé primero, mis preferencias aparecían arriba. Mi hermana podía buscar otras piezas, pero pensó que era sobre todo mi aparato. Los creadores habían imaginado un usuario habitual sin trabajar bastante el uso compartido. La lista no prohibía otras músicas; hacía que unas estuvieran disponibles con menos esfuerzo y parecieran más propias del dispositivo.",
+      "El cuaderno recoge situaciones y límites. Una semana con dos personas no representa todos los hogares. No comprobamos cada función en cualquier condición. Valoramos lo utilizado y señalamos preferencias personales. No convertiríamos «esta orden me parece fácil» en «cualquiera lo hace sin ayuda». Un juicio sobre la experiencia propia puede ser útil sin presentarse como una propiedad universal del diseño.",
+      "No proponemos añadir una pantalla para cada duda. Pedimos opciones importantes visibles, dificultad semejante para activar y desactivar, y saber por qué una música aparece antes. Conservaríamos el botón físico. Si una función ahorra pasos ocultando cómo deshacerlos, la rapidez inicial puede convertirse en necesidad de ayuda. La revisión debería considerar el recorrido entero, no solo el momento más favorable de la demostración.",
+      "Los creadores objetan que mostrar todos los controles cargaría la pantalla. Hay que tomárselo en serio: claridad no es amontonar opciones. Pueden destacar acciones habituales y dejar otras detrás, siempre que encontrarlas no exija adivinar su vocabulario. La organización debe probarse, no darse por resuelta en un dibujo limpio. Propusimos una prueba nueva: pedir a personas distintas que activaran una rutina y luego intentaran detenerla sin recibir indicaciones. Anotaríamos dónde buscaban, qué palabras esperaban encontrar y cuándo pedían ayuda. No bastaría con cronometrar a quienes ya conocían el prototipo. El problema no desaparece eligiendo entre una pantalla vacía y una llena: hay que diseñar cómo se pasa de una a otra.",
+      "Recomendamos continuar con pruebas más diversas. El precio del título no es dinero: es atención, control o esfuerzo que puede costar una comodidad si solo miramos el primer gesto. Un diseño útil ayuda a empezar y también a comprender, cambiar o dejar de hacer una acción."
+    ],
+    "images": [
+      {
+        "id": "el-precio-de-una-comodidad-art1",
+        "src": "assets/readings/l244-el-precio-de-una-comodidad-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un asistente de sobremesa con botón de silencio junto a una radio y una hoja de recordatorios."
+      },
+      {
+        "id": "el-precio-de-una-comodidad-art2",
+        "src": "assets/readings/l244-el-precio-de-una-comodidad-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Un usuario revisa opciones de un dispositivo en una pantalla, con un cuaderno y tarjetas de configuración."
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-precio-de-una-comodidad-q1",
+        "type": "literal",
+        "prompt": "¿Qué tres funciones tiene el prototipo?",
+        "answer": "Recordatorios, temporizador y reproducción de una selección musical.",
+        "lines": 2
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q2",
+        "type": "literal",
+        "prompt": "¿Cuánto dura la prueba y quién lo usa en casa?",
+        "answer": "Una semana; quien escribe la reseña y su hermana.",
+        "lines": 2
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «predeterminado» al hablar de un valor?",
+        "answer": "Que viene establecido antes de elegirlo expresamente, aunque pueda cambiarse después.",
+        "lines": 2
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q4",
+        "type": "inference",
+        "prompt": "¿Por qué activar en un paso y desactivar en varios orienta decisiones?",
+        "answer": "Porque las opciones tienen esfuerzos distintos y resulta más fácil seguir o mantener unas que otras.",
+        "lines": 3
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q5",
+        "type": "inference",
+        "prompt": "¿Qué aporta el botón físico que no siempre resuelve la voz?",
+        "answer": "Un control visible sin recordar frases y claro cuando hablan varias personas.",
+        "lines": 3
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q6",
+        "type": "inference",
+        "prompt": "¿Por qué la hermana siente el aparato como ajeno aunque pueda elegir música?",
+        "answer": "Porque las primeras elecciones de él ordenan las propuestas y vuelven sus preferencias más visibles y fáciles.",
+        "lines": 3
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q7",
+        "type": "inference",
+        "prompt": "¿Qué distingue que una opción exista de que sea accesible en el uso?",
+        "answer": "Existir no asegura encontrarla, comprenderla o activarla con esfuerzo razonable.",
+        "lines": 3
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q8",
+        "type": "structure",
+        "prompt": "¿Qué función tiene la objeción sobre una pantalla cargada?",
+        "answer": "Reconoce un conflicto real y evita presentar la propuesta como resuelta solo añadiendo controles.",
+        "lines": 3
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q9",
+        "type": "inference",
+        "prompt": "¿Por qué no permite afirmar que cualquiera usaría fácilmente el sistema?",
+        "answer": "Porque es breve y recoge dos personas y determinadas funciones y condiciones.",
+        "lines": 3
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q10",
+        "type": "inference",
+        "prompt": "¿Qué sentido figurado tiene el «precio» y cómo se relaciona con deshacer una acción?",
+        "answer": "Es esfuerzo, atención o control perdido si empezar es fácil pero cambiar o detener está oculto o es difícil.",
+        "lines": 4
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q11",
+        "type": "summary",
+        "prompt": "Resume tres criterios para valorar comodidad más allá del primer uso.",
+        "answer": "Visibilidad y comprensión de controles, facilidad de revertir decisiones, uso compartido y diversidad de pruebas. Debe citar tres criterios pertinentes.",
+        "lines": 4
+      },
+      {
+        "id": "el-precio-de-una-comodidad-q12",
+        "type": "opinion",
+        "prompt": "¿Qué prueba nueva propondrías? Explica participantes, observación y una conclusión que aún no podrías generalizar.",
+        "answer": "Respuesta abierta con participantes y observación vinculados a una limitación, reconociendo el alcance del resultado.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 2,
+        "text": "predeterminado",
+        "questionId": "el-precio-de-una-comodidad-q3"
+      }
+    ]
+  },
+  {
+    "id": "una-noticia-escrita-dos-veces-es",
+    "code": "L245",
+    "workId": "una-noticia-escrita-dos-veces",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "advanced",
+    "themes": [
+      "community",
+      "technology",
+      "geography"
+    ],
+    "genre": "news",
+    "title": "Una noticia escrita dos veces",
+    "summary": "La reapertura de una pasarela obliga a una redacción escolar a corregir un titular sin ocultar qué ha cambiado.",
+    "paragraphs": [
+      "La primera versión apareció el jueves: «La pasarela del parque reabrirá el lunes». Se basaba en una conversación con mantenimiento: esperaban acabar las obras antes del fin de semana. La redacción convirtió esa previsión en fecha segura. No existía comunicado de apertura. La diferencia pasó inadvertida hasta recibir dos novedades y la pregunta de una lectora.",
+      "Una novedad era un aviso que mantenía cerrado el acceso mientras revisaban una pieza. La otra, una foto del viernes con vallas en las entradas. La lectora preguntaba si cruzaría el lunes para ir al centro. La imagen no demostraba que seguiría cerrado tres días después, pero mostraba una obra sin terminar. El aviso tampoco confirmaba otra fecha. Había que revisar qué podían afirmar, no elegir sin más la pista más reciente.",
+      "Al escuchar de nuevo recuperaron la frase: «Si todo va según lo previsto, nos gustaría terminar antes del fin de semana; la apertura se anunciará tras la revisión». El resumen había guardado solo el fin de semana. El lunes lo añadió la redacción, suponiendo que acabar las obras significaba abrir al público después. Nadie confirmó esos pasos. En el cuaderno nuevo separaron palabras de la fuente y deducciones de la redacción. Las dos columnas no prohibían interpretar, pero obligaban a reconocer de dónde salía cada afirmación antes de convertirla en titular. Una previsión condicionada y una inferencia propia habían quedado juntas como si fueran una única declaración segura.",
+      "El segundo titular fue «La apertura de la pasarela sigue pendiente de confirmación». Explicaba el estado anunciado el viernes, separado de la previsión. No afirmaba un gran retraso ni una promesa incumplida. Para hablar de retraso debían saber qué compromiso confirmado comparaban: el primer día seguro era una conclusión del boletín, no de la fuente. Eso no significaba que nunca pudieran investigar demoras, sino que aquella acusación no se sostenía con los documentos disponibles.",
+      "Incluyeron nota de corrección, fecha y motivo. Una compañera temió perder confianza. La directora respondió que mantener una certeza injustificada no haría más fiable la noticia. Tampoco quería presentar la corrección como medalla: debían explicar el error y mejorar el proceso para conservar las condiciones de las previsiones. La responsabilidad de revisar no desaparecía porque otra información nueva hubiera llegado después.",
+      "Contestaron a la lectora distinguiendo lo sabido y lo pendiente. No podían asegurar el cruce el lunes. Indicaron dónde se publicaría la confirmación y añadieron un itinerario alternativo comprobado. Esa ayuda no hacía la alternativa preferible para cualquiera ni sustituía la fecha pendiente. La utilidad práctica de la respuesta no debía convertirse en otra afirmación universal que tampoco hubieran contrastado.",
+      "El lunes seguía cerrado. Actualizaron el estado sin borrar la nota. El hecho no convertía retroactivamente la previsión en promesa. Conservarían ambas versiones fechadas para reconstruir la evolución de la información. Una persona que encontrara el primer texto fuera de contexto podría consultar qué se había corregido y cuándo, en lugar de tener que adivinar por qué dos titulares del mismo boletín parecían incompatibles.",
+      "No reescribieron solo porque cambiara el mundo. Revisaron una lectura demasiado segura de lo ya dicho. Informar implica decidir qué resumir, qué condiciones conservar y qué inferencias presentar como hechos. Esta vez dejaron las decisiones más visibles. La segunda noticia no sabía mágicamente todo lo que ocurriría después: explicaba mejor el alcance de lo que podían sostener en aquel momento."
+    ],
+    "images": [
+      {
+        "id": "una-noticia-escrita-dos-veces-art1",
+        "src": "assets/readings/l245-una-noticia-escrita-dos-veces-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Dos jóvenes revisan borradores de una noticia con correcciones, una grabadora y fotos sobre una mesa."
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-art2",
+        "src": "assets/readings/l245-una-noticia-escrita-dos-veces-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Un joven compara una noticia en el ordenador con una foto de una pasarela cerrada y un cuaderno de notas."
+      }
+    ],
+    "questions": [
+      {
+        "id": "una-noticia-escrita-dos-veces-q1",
+        "type": "literal",
+        "prompt": "¿Qué fecha de apertura afirmaba el primer titular?",
+        "answer": "El lunes.",
+        "lines": 2
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q2",
+        "type": "literal",
+        "prompt": "¿Qué dos novedades llegan el viernes?",
+        "answer": "Un aviso de cierre durante una revisión y una foto de esa mañana con vallas.",
+        "lines": 2
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «retroactivamente» al hablar de previsión y promesa?",
+        "answer": "Aplicar a lo dicho antes un sentido o certeza a partir de un hecho conocido después.",
+        "lines": 2
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q4",
+        "type": "inference",
+        "prompt": "¿Qué dos saltos produjeron la fecha segura inicial?",
+        "answer": "Convertir una previsión condicionada de fin de obras en certeza y suponer que acabar implicaba apertura en el momento deducido.",
+        "lines": 4
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q5",
+        "type": "inference",
+        "prompt": "¿Por qué la foto del viernes no prueba por sí sola el cierre del lunes?",
+        "answer": "Porque registra un momento anterior, no el estado futuro del paso.",
+        "lines": 3
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q6",
+        "type": "inference",
+        "prompt": "¿Qué parte importante había desaparecido del resumen?",
+        "answer": "La condición «si todo va según lo previsto» y que se anunciaría la apertura tras revisar.",
+        "lines": 3
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q7",
+        "type": "inference",
+        "prompt": "¿Por qué el segundo texto no acusa de incumplir una promesa?",
+        "answer": "Porque la fuente no confirmó una fecha: la certeza procedía de la redacción.",
+        "lines": 3
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q8",
+        "type": "structure",
+        "prompt": "¿Para qué conservar una nota de corrección fechada y explicada?",
+        "answer": "Para mostrar qué cambió y por qué y reconstruir la información sin ocultar el error.",
+        "lines": 3
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q9",
+        "type": "inference",
+        "prompt": "¿Por qué confirmar el cierre el lunes no transforma la previsión en promesa?",
+        "answer": "Porque el hecho posterior no cambia las condiciones ni el sentido de lo dicho antes.",
+        "lines": 3
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q10",
+        "type": "inference",
+        "prompt": "¿Qué límite ponen a la utilidad del itinerario alternativo?",
+        "answer": "Es una alternativa comprobada, no necesariamente preferible para todos, y no resuelve la fecha de apertura.",
+        "lines": 3
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q11",
+        "type": "summary",
+        "prompt": "Explica dos razones para reescribir: una sobre novedades y otra sobre el trabajo inicial.",
+        "answer": "Llegan datos nuevos del estado del paso y detectan que el primer texto eliminó condiciones y presentó inferencias como hechos.",
+        "lines": 4
+      },
+      {
+        "id": "una-noticia-escrita-dos-veces-q12",
+        "type": "opinion",
+        "prompt": "Escribe una nota de corrección breve. Incluye qué se corrige y qué sigue pendiente, sin atribuir culpa no demostrada.",
+        "answer": "Respuesta abierta: se anunció lunes sin confirmar; apertura pendiente del anuncio tras revisar. Debe hacer visible el error de redacción.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 7,
+        "text": "retroactivamente",
+        "questionId": "una-noticia-escrita-dos-veces-q3"
+      }
+    ]
   }
 ];

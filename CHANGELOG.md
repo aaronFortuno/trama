@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.40 · 18 de novembre del 2026
+
+Sis lectures noves de 1r d’ESO avançat (L240–L245), en català i castellà, completen quinze lectures per dificultat també a 1r d’ESO. L’ampliació acaba amb 81 lectures bilingües noves i 125 il·lustracions: 4t, 6è i 1r d’ESO disposen de quinze lectures inicials, quinze intermèdies i quinze avançades en cada idioma.
+
 ## 1.39.1 · 18 de novembre del 2026
 
 Tres lectures noves de 1r d’ESO avançat (L237–L239), en català i castellà: disseny experimental, cronologia d’una fotografia i memòries d’un riu. Dues il·lustracions i dotze preguntes exigents amb solucionari per lectura.
