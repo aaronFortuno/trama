@@ -5,6 +5,7 @@ import { logoSource, tramaLogo } from './local-images.js';
 import { loadWorksheetFont, worksheetFonts } from './worksheet-fonts.js';
 import { supportsHyphenation, withHyphenation } from './worksheet-hyphenation.js';
 import { prepareAnnotations } from './reading-annotations.js';
+import { evidenceBackground, passageSegments, prepareAnswerEvidence } from './answer-evidence.js';
 
 const languageCopy = {
   ca: ['Nom', 'Data', 'Curs', 'Comprensió lectora', 'Preguntes', 'Pàgina', 'Solucionari', 'Resposta orientativa', 'Sense resposta orientativa.'],
@@ -12,6 +13,8 @@ const languageCopy = {
   en: ['Name', 'Date', 'Class', 'Reading comprehension', 'Questions', 'Page', 'Answer key', 'Suggested answer', 'No suggested answer.'],
 };
 const wordsFor = language => languageCopy[language] || languageCopy[language.split('-')[0]] || languageCopy.en;
+const evidenceCopy = { ca: ['Veure al text', 'Pregunta'], es: ['Ver en el texto', 'Pregunta'], en: ['See in the text', 'Question'] };
+const evidenceWords = language => evidenceCopy[language] || evidenceCopy[language.split('-')[0]] || evidenceCopy.en;
 
 function element(tag, className, text) {
   const node = document.createElement(tag);
@@ -88,27 +91,35 @@ function makeHeader(reading, settings, [name, date, group, label, , , keyLabel],
   return header;
 }
 
-function makeParagraph(text, formatText, { marks = [], offset = 0, index } = {}) {
+function makeParagraph(text, formatText, { marks = [], evidence = [], offset = 0, index, language = 'en' } = {}) {
   const paragraph = element('p', 'worksheet-paragraph');
   if (index !== undefined) paragraph.dataset.paragraph = index;
-  let cursor = 0;
-  for (const mark of marks) {
-    const start = Math.max(0, mark.start - offset);
-    const end = Math.min(text.length, mark.end - offset);
-    if (end <= start) continue;
-    paragraph.append(formatText(text.slice(cursor, start)));
-    const markedText = formatText(text.slice(start, end));
-    if (mark.questionId) {
-      paragraph.append(element('u', 'worksheet-underlined', markedText));
-    } else {
-      paragraph.append(markedText);
-      if (end + offset === mark.end) {
-        paragraph.append('\u2060', element('sup', 'worksheet-note-marker', mark.number));
-      }
+  for (const segment of passageSegments(text, { marks, evidence, offset })) {
+    let content = document.createTextNode(formatText(segment.text));
+    if (segment.underlined) {
+      const underline = element('u', 'worksheet-underlined');
+      underline.append(content);
+      content = underline;
     }
-    cursor = end;
+    if (segment.evidence.length) {
+      const highlight = element('mark', 'worksheet-evidence');
+      highlight.style.setProperty('--evidence-background', evidenceBackground(segment.evidence));
+      highlight.dataset.evidenceQuestions = [...new Set(segment.evidence.map(item => item.questionId))].join(' ');
+      highlight.tabIndex = -1;
+      highlight.append(content);
+      content = highlight;
+    }
+    paragraph.append(content);
+    for (const note of segment.notes) paragraph.append('\u2060', element('sup', 'worksheet-note-marker', note.number));
+    for (const reference of segment.labels) {
+      const marker = element('sup', 'worksheet-evidence-number', String(reference.number));
+      marker.dataset.evidenceNumberFor = reference.questionId;
+      marker.style.setProperty('--evidence-color', reference.color);
+      marker.title = `${evidenceWords(language)[1]} ${reference.number}`;
+      marker.setAttribute('aria-label', marker.title);
+      paragraph.append('\u2060', marker);
+    }
   }
-  paragraph.append(formatText(text.slice(cursor)));
   return paragraph;
 }
 
@@ -179,10 +190,20 @@ function questionTools(number, count, answerKey, reportId) {
   return tools;
 }
 
-function makeSolution(text, label, reportId, number) {
+function makeSolution(text, label, reportId, number, { evidence, interactive, language } = {}) {
   const solution = element('div', 'worksheet-solution');
   if (label) {
     const heading = element('strong', reportId ? 'worksheet-solution-label' : null, label);
+    if (evidence) {
+      const reference = element(interactive ? 'button' : 'span', 'worksheet-evidence-reference', evidenceWords(language)[0]);
+      reference.style.setProperty('--evidence-color', evidence.color);
+      if (interactive) {
+        reference.type = 'button';
+        reference.dataset.evidenceQuestion = evidence.questionId;
+        reference.setAttribute('aria-label', `${evidenceWords(language)[0]} · ${evidenceWords(language)[1]} ${number}`);
+      }
+      heading.append(' ', reference);
+    }
     if (reportId) heading.append(reportButton('solution', reportId, t('Notifica un error a la resposta de la pregunta {number}', { number })));
     solution.append(heading);
   }
@@ -190,7 +211,7 @@ function makeSolution(text, label, reportId, number) {
   return solution;
 }
 
-function makeQuestion(question, index, settings, heading, words, { answerKey, interactive, canReport }) {
+function makeQuestion(question, index, settings, heading, words, { answerKey, interactive, canReport, evidence, language }) {
   const block = element('div', 'worksheet-question-block');
   block.dataset.questionId = question.id;
   if (heading) {
@@ -206,7 +227,7 @@ function makeQuestion(question, index, settings, heading, words, { answerKey, in
   if (interactive) prompt.append(questionTools(index + 1, count, answerKey, canReport && question.id));
   main.append(prompt);
   if (answerKey) {
-    main.append(makeSolution(question.answer || words[8], question.answer && words[7], canReport && question.id, index + 1));
+    main.append(makeSolution(question.answer || words[8], question.answer && words[7], canReport && question.id, index + 1, { evidence, interactive, language }));
   } else {
     for (let index = 0; index < count; index++) {
       const line = element('div', 'worksheet-answer-line');
@@ -259,6 +280,7 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
   const formatText = passageText(reading, settings);
   const questions = reading.questions.filter(question => !settings.excluded.includes(question.id));
   const { ranges, notes } = prepareAnnotations(reading, questions, settings);
+  const evidence = answerKey && settings.showEvidence !== false ? prepareAnswerEvidence(reading, questions) : { ranges: new Map(), byQuestion: new Map() };
   const showLicense = settings.showLicense && !reading.personal;
   const canReport = interactive && !reading.personal;
   const pages = [];
@@ -293,6 +315,7 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
   function startPage() {
     const slot = element('div', 'worksheet-slot');
     const paper = makePaper(reading, settings, 'article');
+    paper.dataset.answerKey = String(answerKey);
     paper.dataset.answerStyle = settings.answerStyle;
     paper.style.setProperty('--sheet-question-gap', `${settings.paragraphGap + settings.questionGap}mm`);
     paper.style.setProperty('--sheet-answer-gap', `${settings.answerGap}mm`);
@@ -349,12 +372,12 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
     if (!fitBlock(block)) appendBlock(block);
   }
 
-  function placePassage(text, images, marks, index) {
-    if (fitBlock(makePassageBlock(text, images, formatText, { marks, index }))) return;
+  function placePassage(text, images, annotations = {}, index) {
+    if (fitBlock(makePassageBlock(text, images, formatText, { ...annotations, index }))) return;
     for (const image of images) placeBlock(makePassageBlock('', [image], formatText));
-    if (!text || fitBlock(makePassageBlock(text, [], formatText, { marks, index }))) return;
+    if (!text || fitBlock(makePassageBlock(text, [], formatText, { ...annotations, index }))) return;
 
-    placeTextChunks(text, (part, _, offset) => makePassageBlock(part, [], formatText, { marks, offset, index }), /\S{1,80}\s*|\s+/gu);
+    placeTextChunks(text, (part, _, offset) => makePassageBlock(part, [], formatText, { ...annotations, offset, index }), /\S{1,80}\s*|\s+/gu);
   }
 
   function placeTextChunks(text, makeBlock, chunks = /\S{1,24}\s*|\s+/gu) {
@@ -390,7 +413,8 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
   }
 
   function placeQuestion(question, index) {
-    const block = makeQuestion(question, index, settings, index === 0 ? words[4] : '', words, { answerKey, interactive, canReport });
+    const reference = evidence.byQuestion.get(question.id);
+    const block = makeQuestion(question, index, settings, index === 0 ? words[4] : '', words, { answerKey, interactive, canReport, evidence: reference, language: reading.language });
     if (fitBlock(block)) return;
 
     // Split questions that are taller than a page without changing the chosen font or answer spacing.
@@ -421,7 +445,7 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
     }
     if (answerKey) {
       placeTextChunks(question.answer || words[8], (text, first) =>
-        continuation([makeSolution(text, first && question.answer && words[7], canReport && question.id, index + 1)]));
+        continuation([makeSolution(text, first && question.answer && words[7], canReport && question.id, index + 1, { evidence: reference, interactive, language: reading.language })]));
       return;
     }
     let remaining = response;
@@ -446,7 +470,7 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
 
   startPage();
   placeBlock(makeHeader(reading, settings, words, answerKey));
-  reading.paragraphs.forEach((text, index) => placePassage(text, anchors.get(index) || [], ranges.get(index), index));
+  reading.paragraphs.forEach((text, index) => placePassage(text, anchors.get(index) || [], { marks: ranges.get(index), evidence: evidence.ranges.get(index), language: reading.language }, index));
   const closing = anchors.get(reading.paragraphs.length);
   if (closing) placePassage('', closing);
   notes.forEach((note, index) => placeBlock(makeVocabularyNote(note, index === 0)));

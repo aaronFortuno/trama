@@ -14,6 +14,7 @@ import { mountActionMenu } from './action-menu.js';
 import { mountReadingReport, readingReportMarkup } from './reading-report.js';
 import { encodeImage, logoSource, tramaLogo } from './local-images.js';
 import { fontGroups, loadWorksheetFont, worksheetFonts } from './worksheet-fonts.js';
+import { prepareAnswerEvidence } from './answer-evidence.js';
 
 const formatKeys = new Set(templateGroups.filter(group => group.id !== 'images').flatMap(group => group.keys));
 const pageFormat = settings => Object.fromEntries([...formatKeys].map(key => [key, settings[key]]));
@@ -172,6 +173,14 @@ const template = `
         <details open>
           <summary>Preguntes eliminades <span class="studio-detail-count" id="studio-question-count" hidden></span></summary>
           <div class="studio-controls" id="studio-questions"></div>
+        </details>
+        <details class="studio-evidence-controls">
+          <summary>Pistes al text</summary>
+          <div class="studio-controls">
+            ${check('showEvidence', 'Ressalta els fragments al solucionari')}
+            <p>El color i el número relacionen cada fragment amb la seva pregunta. Les marques només surten al solucionari.</p>
+            <p class="studio-control-note" id="studio-evidence-empty" hidden>Aquesta lectura no té fragments vinculats.</p>
+          </div>
         </details>
         <details>
           <summary>Espai de resposta</summary>
@@ -392,6 +401,9 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     vocabularyEmpty.hidden = !vocabulary.disabled;
     if (vocabulary.disabled) vocabulary.setAttribute('aria-describedby', vocabularyEmpty.id);
     else vocabulary.removeAttribute('aria-describedby');
+    const hasEvidence = prepareAnswerEvidence(reading, reading.questions).byQuestion.size > 0;
+    contentForm.elements.showEvidence.disabled = !hasEvidence;
+    find('#studio-evidence-empty').hidden = hasEvidence;
   }
 
   function syncLayoutStatus() {
@@ -434,7 +446,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     for (const input of root.querySelectorAll('.studio-form [name]')) {
       const value = input.name === 'leading' ? Math.round(settings.leading * 50) / 100 : settings[input.name];
       if (input.type === 'checkbox') {
-        input.checked = value && (!input.disabled || !['hyphenate', 'showVocabulary'].includes(input.name));
+        input.checked = value && (!input.disabled || !['hyphenate', 'showVocabulary', 'showEvidence'].includes(input.name));
       }
       else if (input.type === 'radio') input.checked = input.value === value;
       else if (input.value !== String(value)) input.value = value;
@@ -777,6 +789,16 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     animateRefresh(pages);
   });
   root.addEventListener('click', event => {
+    const reference = event.target.closest('[data-evidence-question]');
+    if (reference) {
+      const target = [...pages.querySelectorAll('mark[data-evidence-questions]')]
+        .find(mark => mark.dataset.evidenceQuestions.split(' ').includes(reference.dataset.evidenceQuestion));
+      if (target) {
+        target.focus({ preventScroll: true });
+        target.scrollIntoView({ block: 'center', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+      }
+      return;
+    }
     const reportButton = event.target.closest('[data-report-part]');
     if (reportButton && reading && !reading.personal) {
       const questions = reading.questions.filter(question => !settings.excluded.includes(question.id));

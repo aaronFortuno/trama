@@ -18,6 +18,8 @@ La mida de lletra i l’interlineat inicials depenen del curs. Si canvies el for
 
 Activa **Codi d’aula** a **Encapçalament** per afegir una etiqueta a la dreta de la primera pàgina. El text es desa per a cada versió de la lectura en aquest navegador i surt a la fitxa i al solucionari, també als lots.
 
+Al solucionari, **Pistes al text** ressalta els fragments que sustenten les respostes i els identifica amb el número de la pregunta. **Veure al text**, amb el mateix color, porta al fragment en la previsualització. Els números permeten seguir les referències també en blanc i negre. Pots desactivar les marques des del sidebar de contingut; la tria es desa amb el maquetat i s’aplica també als lots. Les preguntes d’opinió o de síntesi global poden no tenir un fragment localitzat.
+
 ## Imprimir fitxes en bloc
 
 Acota el catàleg amb la cerca i els filtres i obre **Imprimeix un lot**. Totes les lectures de la llista apareixen marcades i pots desmarcar les que no et calen. **Imprimeix** obre les fitxes d’alumnat al diàleg d’impressió del navegador. La fletxa del costat permet imprimir el solucionari i descarregar les fitxes o els solucionaris en un PDF conjunt o en un ZIP amb un PDF per lectura. S’hi aplica el format inicial del curs o el que hagis ajustat durant la sessió.
@@ -42,6 +44,10 @@ El catàleg s’exporta des de `data/readings.js` com una llista d’objectes Ja
 - Desa les imatges a `assets/readings/` i indica el camí relatiu, les dimensions originals i el text alternatiu. `afterParagraph` indica quants paràgrafs s’han de mostrar abans de la imatge. El valor `0` la posa abans del primer.
 - A les lectures de més de 350 paraules, acompanya dos moments diferents del text amb il·lustracions del mateix estil.
 - Dona a cada pregunta un identificador estable, el tipus, l’enunciat i, opcionalment, una resposta orientativa. `lines` és el nombre de línies de resposta suggerides, de 0 a 8, tant al catàleg com al JSON d’intercanvi. Fes servir 1 línia per a una dada breu, 2 o 3 per a una explicació curta i 4 o 5 per a una resposta amb diversos punts o un resum. El visor aplica aquesta xifra amb **Segons la pregunta** i permet canviar-la per a cada pregunta.
+
+Cada pregunta pot incloure `evidence`, una llista de fragments exactes que en justifiquen la resposta. Per exemple: `evidence: [{ paragraph: 2, text: 'dotze centímetres' }]`. El número de paràgraf comença en 1; `occurrence`, també des d’1, resol les expressions repetides dins d’un mateix paràgraf. Selecciona les paraules necessàries per justificar la resposta i afegeix diversos fragments quan calgui relacionar pistes. No atribueixis una resposta personal o una síntesi global a una frase arbitrària. Les versions traduïdes han de dur fragments en la seva pròpia llengua. Aquest camp es conserva en importar i exportar JSON.
+
+La selecció retrospectiva del catàleg és a `data/evidence-selection.json`: cada fila correspon a una pregunta; `2.3` selecciona la tercera frase del segon paràgraf, `2.3-4` dues frases consecutives, `2~fragment exacte` una expressió i `;` separa fragments. Una fila buida deixa la pregunta sense marca. `node tools/build-answer-evidence.mjs build` genera els fragments exactes de `data/answer-evidence.js`. Revisa tots dos idiomes i torna a generar i comprovar les referències si canvies el text o les preguntes. `node tools/check-answer-evidence.mjs` comprova els fragments i la composició de marques; `node tools/check-evidence-browser.cjs` comprova el visor i el PDF en local.
 
 Les lectures i el JSON d’intercanvi accepten una llista opcional `annotations`:
 

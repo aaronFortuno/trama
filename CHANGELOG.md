@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.41 · 18 de novembre del 2026
+
+El solucionari incorpora fragments ressaltats amb el número i el color de cada pregunta, i una drecera «Veure al text». Es poden desactivar a Pistes al text i la tria es conserva amb el maquetat, també per als lots. Primeres referències revisades a L001–L005 en català i castellà; la selecció s’ampliarà a la resta del catàleg.
+
 ## 1.40 · 18 de novembre del 2026
 
 Sis lectures noves de 1r d’ESO avançat (L240–L245), en català i castellà, completen quinze lectures per dificultat també a 1r d’ESO. L’ampliació acaba amb 81 lectures bilingües noves i 125 il·lustracions: 4t, 6è i 1r d’ESO disposen de quinze lectures inicials, quinze intermèdies i quinze avançades en cada idioma.

@@ -61,6 +61,7 @@ const fields = {
   classroomCodeStyle: ['solid', oneOf('solid', 'outline')],
   showImages: [true, boolean],
   showVocabulary: [true, boolean],
+  showEvidence: [true, boolean],
   showCode: [true, boolean],
   showOrigin: [true, boolean],
   showLicense: [true, boolean],
@@ -166,6 +167,7 @@ const scalarCodes = [
   ['TITOL', 'headerTitle', JSON.stringify, quotedText],
   ['DETALL', 'headerDetail', JSON.stringify, quotedText],
   ['IMG', 'showImages', value => value ? 'SI' : 'NO', value => oneZero(upper(value))],
+  ['PISTES', 'showEvidence', value => value ? 'SI' : 'NO', value => oneZero(upper(value))],
 ];
 
 export function makeCode(reading, settings) {

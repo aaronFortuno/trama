@@ -1,4 +1,5 @@
 import { readings5Es } from './readings-5-es.js';
+import { answerEvidence } from './answer-evidence.js';
 import { moreReadings5Es } from './readings-5-es-2.js';
 import { readings5EsThirdSeries } from './readings-5-es-3.js';
 import { readings5EsFourthSeries } from './readings-5-es-4.js';
@@ -251,4 +252,9 @@ export const readings = [
       images: original.images.map(image => ({ ...image, alt: imageAlt[image.id] ?? '' })),
     };
   }),
-];
+].map(reading => {
+  const evidence = answerEvidence[reading.id];
+  return evidence ? { ...reading, questions: reading.questions.map(question => (
+    evidence[question.id] ? { ...question, evidence: evidence[question.id] } : question
+  )) } : reading;
+});

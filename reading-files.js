@@ -76,12 +76,25 @@ function normalize(source) {
     .map(text => string(text, 'paragraphs', 6000));
   const questions = array(source.questions ?? [], 'questions', 60).map((question, index) => {
     requireField(question && typeof question === 'object' && !Array.isArray(question), 'questions');
+    const evidence = array(question.evidence ?? [], 'questions.evidence', 20).map(item => {
+      requireField(item && typeof item === 'object' && !Array.isArray(item), 'questions.evidence');
+      const paragraph = integer(item.paragraph, 'questions.evidence.paragraph', paragraphs.length);
+      requireField(paragraph > 0, 'questions.evidence.paragraph');
+      const reference = { paragraph, text: string(item.text, 'questions.evidence.text', 1200) };
+      if (item.occurrence !== undefined) {
+        reference.occurrence = integer(item.occurrence, 'questions.evidence.occurrence', paragraphs[paragraph - 1].length);
+        requireField(reference.occurrence > 0, 'questions.evidence.occurrence');
+      }
+      requireField(annotationRange(paragraphs[paragraph - 1], reference), 'questions.evidence.text');
+      return reference;
+    });
     return {
       id: identifier(question.id, 'questions.id', `pregunta-q${index + 1}`),
       type: identifier(question.type, 'questions.type', 'unspecified'),
       prompt: string(question.prompt, 'questions.prompt', 400),
       answer: string(question.answer, 'questions.answer', 600, ''),
       lines: integer(question.lines ?? 2, 'questions.lines', maxAnswerLines),
+      ...(evidence.length ? { evidence } : {}),
     };
   });
   const images = array(source.images ?? [], 'images', 12).map((image, index) => {
@@ -170,6 +183,7 @@ export function readingExample() {
       prompt: t('Què vol dir «branques» en aquest text?'),
       answer: t('Parts de l’arbre que surten del tronc.'),
       lines: 1,
+      evidence: [{ paragraph: 1, text: t('branques') }],
     }],
     annotations: [
       { paragraph: 1, text: t('branques'), questionId: 'pregunta-q1' },

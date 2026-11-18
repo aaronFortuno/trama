@@ -1,0 +1,22 @@
+{
+  "L001": {
+    "es": ["1~quien dejara un libro podía llevarse otro", "3~no pudo leer las palabras;3~amarillo pálido sobre un papel blanco", "3~amarillo pálido", "3.2;4.2-3", "", "2.4;5.2"],
+    "ca": ["1~qui deixés un llibre se’n podia endur un altre", "3~no podia llegir les paraules;3~groc pàl·lid sobre paper blanc", "3~groc pàl·lid", "3.2;4.2-3", "", "2.4;5.2"]
+  },
+  "L002": {
+    "es": ["3~Si no sostuvo ni el cartón, apunta cero.", "2.3;4.5", "5.3", "1.3;3.3", "4.4", "2~doce centímetros entre los bordes más próximos", "5.3"],
+    "ca": ["3~Si el pont s’ha enfonsat només de posar-hi el cartró, apunta zero.", "2.3;4.5", "5.3", "1.3;3.3", "4.4", "2~dotze centímetres entre les vores que queden més a prop l’una de l’altra", "5.3"]
+  },
+  "L003": {
+    "es": ["2.3", "3.2-3;3.5", "4.3", "3.4-5", "", "2.5", "4~trazaron un recorrido corto;4~anotar un sonido nuevo y el momento en que lo había oído"],
+    "ca": ["2.3", "3.2-3;3.5", "4.3", "3.4-5", "", "2.5", "4~van traçar un recorregut curt;4~apuntar un so nou i l’hora en què l’havia sentit"]
+  },
+  "L004": {
+    "es": ["4~un billete de autobús ya caducado y una nota de su amiga Inés", "2~las iniciales M. R.;3.4-5", "4.5", "2~una oreja doblada;5.6", "4~Por si un día vamos a dibujar zorros de verdad;5.3-4", "", "3.2", "1~Para quien dibujó un zorro en la última página;4~Por si un día vamos a dibujar zorros de verdad"],
+    "ca": ["4~un bitllet d’autobús caducat i una nota de la seva amiga Inés", "2~les inicials M. R.;3.4-5", "2.3-4", "2~una orella doblegada;5.6", "4~Per si un dia anem a dibuixar guineus de debò;5.3-4", "", "3.2", "1~Per a qui va dibuixar una guineu a l’última pàgina;4~Per si un dia anem a dibuixar guineus de debò"]
+  },
+  "L005": {
+    "es": ["1~Segovia", "2.1-2", "4~fuentes y edificios como los baños", "2.4;3.2", "4.1;4.3-4", "1.3;2.3;3.2"],
+    "ca": ["1~Segòvia", "2.1-2", "4~fonts i edificis com els banys", "2.4;3.2", "4.1;4.3-4", "1.3;2.3;3.2"]
+  }
+}

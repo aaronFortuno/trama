@@ -1,4 +1,8 @@
 export const es = Object.fromEntries(`
+Pistes al text|Pistas en el texto
+Ressalta els fragments al solucionari|Resalta los fragmentos en el solucionario
+El color i el número relacionen cada fragment amb la seva pregunta. Les marques només surten al solucionari.|El color y el número relacionan cada fragmento con su pregunta. Las marcas solo aparecen en el solucionario.
+Aquesta lectura no té fragments vinculats.|Esta lectura no tiene fragmentos vinculados.
 Catàleg de comprensions lectores amb preguntes i fitxes imprimibles que pots adaptar al teu grup.|Catálogo de comprensiones lectoras con preguntas y fichas imprimibles que puedes adaptar a tu grupo.
 Trama · Comprensió lectora|Trama · Comprensión lectora
 Ves al contingut|Ir al contenido
@@ -48,6 +52,8 @@ v1.39.1 · Obre l’historial de canvis|v1.39.1 · Abrir el historial de cambios
 Tres lectures noves de 1r d’ESO avançat (L237–L239), en català i castellà: disseny experimental, cronologia d’una fotografia i memòries d’un riu. Dues il·lustracions i dotze preguntes exigents amb solucionari per lectura.|Tres lecturas nuevas de 1.º de ESO avanzado (L237–L239), en catalán y castellano: diseño experimental, cronología de una fotografía y memorias de un río. Dos ilustraciones y doce preguntas exigentes con solucionario por lectura.
 v1.40 · Obre l’historial de canvis|v1.40 · Abrir el historial de cambios
 Sis lectures noves de 1r d’ESO avançat (L240–L245), en català i castellà, completen quinze lectures per dificultat també a 1r d’ESO. L’ampliació acaba amb 81 lectures bilingües noves i 125 il·lustracions: 4t, 6è i 1r d’ESO disposen de quinze lectures inicials, quinze intermèdies i quinze avançades en cada idioma.|Seis lecturas nuevas de 1.º de ESO avanzado (L240–L245), en catalán y castellano, completan quince lecturas por dificultad también en 1.º de ESO. La ampliación termina con 81 lecturas bilingües nuevas y 125 ilustraciones: 4.º, 6.º y 1.º de ESO cuentan con quince lecturas iniciales, quince intermedias y quince avanzadas en cada idioma.
+v1.41 · Obre l’historial de canvis|v1.41 · Abrir el historial de cambios
+El solucionari incorpora fragments ressaltats amb el número i el color de cada pregunta, i una drecera «Veure al text». Es poden desactivar a Pistes al text i la tria es conserva amb el maquetat, també per als lots. Primeres referències revisades a L001–L005 en català i castellà; la selecció s’ampliarà a la resta del catàleg.|El solucionario incorpora fragmentos resaltados con el número y el color de cada pregunta, y un acceso «Ver en el texto». Se pueden desactivar en Pistas en el texto y la elección se conserva con la maquetación, también para los lotes. Primeras referencias revisadas en L001–L005 en catalán y castellano; la selección se ampliará al resto del catálogo.
 Catàleg de lectures|Catálogo de lecturas
 Cerca al catàleg|Buscar en el catálogo
 Cerca per títol, codi o tema|Buscar por título, código o tema
