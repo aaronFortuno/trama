@@ -2,6 +2,8 @@
 
 Catàleg de comprensions lectores imprimibles d’ortogra.fi. Inclou fitxes de 3r de primària a 1r d’ESO en castellà i català. La interfície es pot fer servir en català i castellà. Les fitxes mostren els rètols en l’idioma de la lectura quan hi ha una traducció disponible.
 
+El botó d’interrogant de la capçalera obre una guia de cerca, maquetació, col·leccions, solucionaris, impressió i còpies de seguretat. Està disponible des del catàleg i el visor, en l’idioma de la interfície.
+
 Les versions d’una mateixa lectura comparteixen codi. El selector **Altres versions**, al costat del títol de la fitxa, permet canviar la llengua i conservar els ajustos i el punt de lectura.
 
 Les fletxes del visor obren la lectura anterior o següent seguint la cerca, els filtres i l’ordre del catàleg.

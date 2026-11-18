@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.44.2 · 18 de novembre del 2026
+
+Afegim un botó d’ajuda amb interrogant al header. La guia presenta Trama i explica la cerca, la maquetació, les col·leccions, les pistes del solucionari, la impressió en lot i les còpies de seguretat, en català i castellà. Simplifiquem el selector d’idioma traient-ne la fletxa.
+
 ## 1.44.1 · 18 de novembre del 2026
 
 «Afegeix a una col·lecció» desplega les col·leccions existents dins del menú de la targeta i hi afegeix la lectura directament. «Nova col·lecció» permet escriure el nom i crear-la al mateix menú, sense obrir el diàleg de desar ni canviar la vista del catàleg. Marquem les col·leccions que ja contenen la lectura i conservem el seu maquetat en copiar-la.

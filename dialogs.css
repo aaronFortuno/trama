@@ -18,16 +18,23 @@
 .dialog-heading h2 { margin: 0; color: var(--green); font: 400 1.6rem/1.2 var(--serif); }
 .close-button { width: 32px; min-height: 32px; flex: none; padding: 0; border-color: transparent; background: transparent; }
 .close-button .ui-icon { width: 18px; height: 18px; }
-.about-dialog, .release-dialog, .batch-dialog { padding: 24px; }
+.about-dialog, .release-dialog, .batch-dialog, .help-dialog { padding: 24px; }
 .about-dialog { width: min(780px, calc(100% - 32px)); }
+.help-dialog { width: min(780px, calc(100% - 32px)); }
 .release-dialog { width: min(650px, calc(100% - 32px)); }
 .batch-dialog { width: min(620px, calc(100% - 32px)); }
-:is(.about-dialog, .release-dialog, .batch-dialog)[open] { display: flex; flex-direction: column; overflow: hidden; }
-:is(.about-dialog, .release-dialog, .batch-dialog) .dialog-heading { flex: none; margin-bottom: 18px; }
+:is(.about-dialog, .release-dialog, .batch-dialog, .help-dialog)[open] { display: flex; flex-direction: column; overflow: hidden; }
+:is(.about-dialog, .release-dialog, .batch-dialog, .help-dialog) .dialog-heading { flex: none; margin-bottom: 18px; }
 .dialog-scroll { min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-gutter: stable; padding: 2px 8px 2px 2px; }
 .dialog-scroll:focus-visible { outline-offset: -2px; }
 .dialog-scroll :is(p, a) { font-size: .8rem; line-height: 1.7; }
 .dialog-scroll p { color: var(--muted); }
+.help-dialog .help-intro { margin: 0 0 18px; color: var(--ink); }
+.help-topics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 22px; }
+.help-topics section { min-width: 0; padding-top: 12px; border-top: 1px solid var(--line); }
+.help-topics h3 { margin: 0 0 6px; color: var(--green); font: 650 .91rem/1.35 var(--sans); }
+.help-topics p { margin: 0 0 7px; }
+.help-dialog .help-feedback { margin: 16px 0 0; padding-top: 12px; border-top: 1px solid var(--line); }
 .about-intro, .author-note { display: flow-root; }
 .about-intro-copy > p { margin: 0 0 12px; }
 .lightning-qr { display: block; float: right; width: 128px; height: 128px; margin: 0 0 8px 24px; overflow: hidden; border: 1px solid var(--line); border-radius: 6px; background: white; }
@@ -137,7 +144,8 @@
 }
 
 @media (max-width: 640px) {
-  .about-dialog, .release-dialog, .batch-dialog { padding: 18px; }
+  .about-dialog, .release-dialog, .batch-dialog, .help-dialog { padding: 18px; }
+  .help-topics { grid-template-columns: minmax(0, 1fr); gap: 12px; }
   .about-grid { grid-template-columns: minmax(0, 1fr); gap: 12px; }
   .project-resources:first-child { padding: 0; border: 0; }
   .project-resources + .project-resources { padding-top: 14px; border-top: 1px solid var(--line); }

@@ -26,14 +26,16 @@
         <p class="site-label">Llegir és lligar caps.</p>
       </div>
       <div class="header-actions">
-        <button type="button" class="button language-button menu-trigger" id="language-button" aria-label="Idioma de la interfície" aria-haspopup="menu" aria-expanded="false" aria-controls="language-menu" popovertarget="language-menu">
+        <button type="button" class="button language-button" id="language-button" aria-label="Idioma de la interfície" aria-haspopup="menu" aria-expanded="false" aria-controls="language-menu" popovertarget="language-menu">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 8 6 6m-8 0 6-6 2-3M2 5h12M7 2h1m14 20-5-10-5 10m2-4h6"/></svg>
-          <svg class="ui-icon menu-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
         </button>
         <div class="select-menu action-menu" id="language-menu" role="menu" aria-labelledby="language-button" popover>
           <button type="button" role="menuitemradio" aria-checked="true" tabindex="-1" data-option="ca" lang="ca">Català <svg class="ui-icon menu-check" viewBox="0 0 24 24" aria-hidden="true"><path d="m20 6-11 11-5-5"/></svg></button>
           <button type="button" role="menuitemradio" aria-checked="false" tabindex="-1" data-option="es" lang="es">Español <svg class="ui-icon menu-check" viewBox="0 0 24 24" aria-hidden="true"><path d="m20 6-11 11-5-5"/></svg></button>
         </div>
+        <button type="button" class="button help-button" id="help-open" data-open-dialog="help-dialog" aria-label="Ajuda de Trama" title="Ajuda de Trama" aria-haspopup="dialog" aria-controls="help-dialog">
+          <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3m.08 4h.01"/></svg>
+        </button>
         <button type="button" class="button theme-toggle" id="theme-toggle" aria-label="Activa el tema fosc">
           <svg class="ui-icon moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 13a9 9 0 0 1-9.8-9.8 9 9 0 1 0 9.8 9.8Z"/></svg>
           <svg class="ui-icon sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19m0-14-1.4 1.4M6.4 17.6 5 19"/></svg>
@@ -147,7 +149,7 @@
         </a>
       </p>
       <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.44.1 · Obre l’historial de canvis">v1.44.1</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.44.2 · Obre l’historial de canvis">v1.44.2</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
@@ -224,6 +226,44 @@
     </form>
   </dialog>
 
+  <dialog class="site-dialog help-dialog" id="help-dialog" aria-labelledby="help-title">
+    <div class="dialog-heading">
+      <h2 id="help-title" tabindex="-1" data-dialog-focus>Com funciona Trama</h2>
+      <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’ajuda"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+    </div>
+    <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="help-title">
+      <p class="help-intro">Trama és un projecte gratuït i obert per treballar la comprensió lectora. Hi trobaràs lectures graduades de 3r de primària a 1r d’ESO, en català i castellà, amb il·lustracions, preguntes i solucionaris per imprimir i treballar amb autonomia.</p>
+      <div class="help-topics">
+        <section>
+          <h3>Troba la lectura</h3>
+          <p>Filtra per llengua, curs i dificultat. A «Altres filtres» tens extensió, temàtica i tipus de text. També pots cercar un títol o un codi com «L001». L’idioma de la interfície i el de les lectures es trien per separat.</p>
+        </section>
+        <section>
+          <h3>Fes la fitxa a mida</h3>
+          <p>A l’esquerra del visor ajustes tipografia, interlineat, marges, capçalera i peu. A la dreta, imatges i contingut. Al mateix full pots amagar preguntes i ajustar-ne les línies de resposta. Les plantilles permeten aplicar un format habitual a altres lectures.</p>
+        </section>
+        <section>
+          <h3>Col·leccions per reutilitzar</h3>
+          <p>Activa «Selecciona lectures», marca les targetes i desa la selecció amb un nom. També pots mantenir premuda una targeta o fer clic dret per afegir-la directament a una col·lecció existent o nova.</p>
+          <p>Arrossega les targetes per ordenar-les. Cada lectura pot tenir un maquetat i un codi d’aula diferents a cada col·lecció. L’ordre es conserva per navegar amb les fletxes i per imprimir en lot.</p>
+        </section>
+        <section>
+          <h3>Solucionaris amb pistes</h3>
+          <p>Activa «Solucionari» per veure respostes orientatives. Les pistes ressalten fragments del text amb el color i el número de la pregunta. «Veure al text» et porta al fragment vinculat. Pots amagar aquestes marques des de «Pistes al text»; la tria també s’aplica en imprimir.</p>
+        </section>
+        <section>
+          <h3>Imprimeix una fitxa o un lot</h3>
+          <p>El botó «Imprimeix» de la lectura segueix la vista activa: alumnat o solucionari. El desplegable ofereix més opcions i PDF. Al catàleg, «Imprimeix un lot» prepara les lectures seleccionades, amb els seus maquetats desats, per imprimir o descarregar en PDF o ZIP, també amb solucionari i preparació per a doble cara.</p>
+        </section>
+        <section>
+          <h3>Desa la feina feta</h3>
+          <p>Els teus maquetats, codis d’aula, plantilles i col·leccions es desen automàticament en aquest navegador, sense crear cap compte. Dins d’«Imprimeix un lot», obre «Maquetats d’aquest navegador» per descarregar una còpia de seguretat o recuperar-la en un altre ordinador.</p>
+        </section>
+      </div>
+      <p class="help-feedback">Hi has trobat una errada? La bandera del visor permet avisar d’un problema amb el text, una imatge, una pregunta o el solucionari.</p>
+    </div>
+  </dialog>
+
   <dialog class="site-dialog about-dialog" id="about-dialog" aria-labelledby="about-title">
     <div class="dialog-heading">
       <h2 id="about-title" tabindex="-1" data-dialog-focus>Un petit espai per aprendre</h2>
@@ -276,6 +316,10 @@
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’historial"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
+      <article class="release">
+        <header><h3>v1.44.2</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
+        <p>Afegim un botó d’ajuda amb interrogant al header. La guia presenta Trama i explica la cerca, la maquetació, les col·leccions, les pistes del solucionari, la impressió en lot i les còpies de seguretat, en català i castellà. Simplifiquem el selector d’idioma traient-ne la fletxa.</p>
+      </article>
       <article class="release">
         <header><h3>v1.44.1</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>«Afegeix a una col·lecció» desplega les col·leccions existents dins del menú de la targeta i hi afegeix la lectura directament. «Nova col·lecció» permet escriure el nom i crear-la al mateix menú, sense obrir el diàleg de desar ni canviar la vista del catàleg. Marquem les col·leccions que ja contenen la lectura i conservem el seu maquetat en copiar-la.</p>

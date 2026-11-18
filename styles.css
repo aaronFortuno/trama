@@ -145,9 +145,7 @@ button { color: inherit; cursor: pointer; }
 .mark-accent { stroke: var(--accent); }
 .brand-dot { color: var(--accent); }
 .site-label { margin: 0; padding-left: 20px; border-left: 1px solid var(--line); color: var(--muted); font-size: .85rem; line-height: 1.3; }
-.theme-toggle { width: 40px; padding: 0; background: transparent; }
-.language-button { gap: 3px; padding-inline: 9px; }
-.language-button .menu-chevron { width: 13px; height: 13px; }
+.theme-toggle, .language-button, .help-button { width: 40px; padding: 0; background: transparent; }
 .theme-toggle .sun, [data-theme="dark"] .theme-toggle .moon { display: none; }
 [data-theme="dark"] .theme-toggle .sun { display: block; }
 
@@ -407,9 +405,8 @@ body, .site-header, .site-footer, .catalog-filters, .reading-card, .search-box, 
   .site-brand { font-size: 1.67rem; }
   .trama-mark { width: 27px; height: 27px; }
   .header-actions { gap: 5px; }
-  .language-button { padding-inline: 7px; }
-  .theme-toggle { width: 34px; }
-  .theme-toggle .ui-icon { width: 17px; height: 17px; }
+  .theme-toggle, .language-button, .help-button { width: 34px; }
+  .header-actions .ui-icon { width: 17px; height: 17px; }
   .filters-body { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 9px; }
   .filter-chip { min-height: 31px; }
   .reading-grid { grid-template-columns: minmax(0, 1fr); }
