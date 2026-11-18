@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.43.1 · 18 de novembre del 2026
+
+En mode selecció de col·leccions, tota la targeta serveix per seleccionar o deseleccionar la lectura, també amb el teclat. Substituïm els checkboxes per una marca de selecció i una vora destacada. En acabar o cancel·lar la selecció, les targetes tornen a obrir les lectures amb normalitat.
+
 ## 1.43 · 18 de novembre del 2026
 
 Ampliem el seguiment d’ús d’Umami per entendre millor les impressions, els lots, els solucionaris, la maquetació, les plantilles, les col·leccions i les còpies de seguretat. Les obertures de lectures inclouen llengua, curs i dificultat, també des d’enllaços directes. Les cerques només indiquen tipus i tram de resultats. No s’envien textos personals, codis d’aula ni noms de col·leccions; agrupem recomptes i evitem comptar cada moviment dels sliders. Documentem tots els esdeveniments i mantenim el respecte a les preferències de privadesa i als bloquejos.

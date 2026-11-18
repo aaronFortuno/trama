@@ -254,8 +254,9 @@ button { color: inherit; cursor: pointer; }
 
 .reading-card:hover { border-color: var(--muted); box-shadow: 0 5px 12px #20382d12; }
 .reading-card.is-selected { border-color: var(--green); box-shadow: inset 0 0 0 1px var(--green); }
-.card-selection { position: absolute; z-index: 1; top: 8px; left: 8px; display: inline-flex; align-items: center; gap: 5px; padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--green); font-size: .74rem; box-shadow: 0 1px 4px #101a1720; cursor: pointer; }
-.card-selection input { width: 17px; height: 17px; margin: 0; accent-color: var(--green); }
+.card-selection { position: absolute; z-index: 1; top: 8px; left: 8px; display: inline-flex; align-items: center; gap: 5px; padding: 5px 8px; border: 1px solid var(--green); border-radius: 6px; background: var(--surface); color: var(--green); font-size: .74rem; box-shadow: 0 1px 4px #101a1720; pointer-events: none; }
+.card-selection .ui-icon { width: 15px; height: 15px; }
+.reading-grid.is-selecting .card-open .ui-icon { display: none; }
 .reading-card:focus-within { outline: 2px solid var(--accent); outline-offset: 3px; }
 .card-art { height: clamp(108px, 12vw, 146px); overflow: hidden; border-bottom: 1px solid var(--line); background: repeating-linear-gradient(130deg, transparent 0 7px, var(--line) 8px 9px) var(--art); }
 .card-art img { display: block; width: 100%; height: 100%; object-fit: cover; }

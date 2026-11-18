@@ -281,18 +281,6 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     const summary = card.querySelector('.card-summary');
     const difficulty = card.querySelector('.card-difficulty');
     const open = card.querySelector('.card-open');
-    const selection = card.querySelector('.card-selection');
-    const checkbox = selection.querySelector('input');
-    checkbox.value = reading.id;
-    checkbox.setAttribute('aria-label', t('Selecciona «{title}»', { title: reading.title }));
-    checkbox.checked = selectedIds.has(reading.id);
-    selection.hidden = !selecting;
-    card.classList.toggle('is-selected', checkbox.checked);
-    checkbox.addEventListener('change', () => {
-      if (checkbox.checked) selectedIds.add(reading.id);
-      else selectedIds.delete(reading.id);
-      syncSelection();
-    });
     const imagePath = reading.images[0]?.src;
     if (imagePath) {
       image.src = imagePath;
@@ -317,7 +305,12 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     open.dataset.id = reading.id;
     open.firstElementChild.id = `reading-open-${reading.id}`;
     open.setAttribute('aria-labelledby', `${open.firstElementChild.id} ${title.id}`);
-    open.addEventListener('click', () => onSelect(reading));
+    open.addEventListener('click', () => {
+      if (!selecting) { onSelect(reading); return; }
+      if (selectedIds.has(reading.id)) selectedIds.delete(reading.id);
+      else selectedIds.add(reading.id);
+      syncSelection();
+    });
     return card;
   }
 
@@ -372,6 +365,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
   }
 
   function syncSelection() {
+    grid.classList.toggle('is-selecting', selecting);
     selectionBar.hidden = !selecting;
     selectionToggle.hidden = selecting;
     selectionToggle.setAttribute('aria-pressed', String(selecting));
@@ -382,10 +376,14 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     selectionSave.textContent = t(addingTo ? 'Afegeix a la col·lecció' : 'Desa la selecció');
     selectionSave.disabled = !count;
     selectionAll.disabled = !orderedMatches.some(({ reading }) => !selectedIds.has(reading.id));
-    for (const checkbox of grid.querySelectorAll('.card-selection input')) {
-      checkbox.closest('label').hidden = !selecting;
-      checkbox.checked = selectedIds.has(checkbox.value);
-      checkbox.closest('.reading-card').classList.toggle('is-selected', checkbox.checked);
+    for (const button of grid.querySelectorAll('.card-open')) {
+      const card = button.closest('.reading-card');
+      const selected = selecting && selectedIds.has(button.dataset.id);
+      card.classList.toggle('is-selected', selected);
+      card.querySelector('.card-selection').hidden = !selected;
+      button.firstElementChild.textContent = t(selecting ? 'Selecciona' : 'Prepara la fitxa');
+      if (selecting) button.setAttribute('aria-pressed', String(selected));
+      else button.removeAttribute('aria-pressed');
     }
   }
 
