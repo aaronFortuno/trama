@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.38.2 · 18 de novembre del 2026
+
+Sis lectures més de 1r d’ESO intermedi (L229–L234), en català i castellà: energia, arqueologia, conques d’aigua, una final ajornada, memòria documental i rutes. Dues il·lustracions, onze preguntes i solucionari per lectura.
+
 ## 1.38.1 · 18 de novembre del 2026
 
 Sis lectures noves de 1r d’ESO intermedi (L223–L228), en català i castellà: enquestes, memòria, música, mapes, serveis digitals i ratpenats. Dues il·lustracions i onze preguntes amb solucionari per lectura.

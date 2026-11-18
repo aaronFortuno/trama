@@ -2126,5 +2126,635 @@ export const readings1SecondaryExpansionCa = [
         "definition": "Obtenció d’informació sobre l’entorn a partir dels ecos dels sons emesos per l’animal."
       }
     ]
+  },
+  {
+    "id": "por-que-una-cifra-puede-cambiar-de-unidad-ca",
+    "code": "L229",
+    "title": "Per què una xifra pot canviar d’unitat",
+    "summary": "Comparar un bullidor i un llum obliga a distingir la potència d’un aparell de l’energia que utilitza durant un temps.",
+    "paragraphs": [
+      "En un exercici, el grup havia de comparar dos aparells imaginaris: un bullidor de dos mil watts i un llum de deu watts. La primera resposta va ser immediata. El bullidor tenia una xifra dues-centes vegades més gran i, per tant, havia d’utilitzar sempre dues-centes vegades més energia. La professora no va corregir la divisió. Va afegir una pregunta que encara no apareixia al full: «Durant quant temps els fem funcionar?».",
+      "Els watts expressen potència, és a dir, el ritme amb què es transfereix o s’utilitza energia. Per descriure una quantitat d’energia al llarg d’un interval podem fer servir watt hora, que s’escriu Wh. Si una potència d’un watt es manté durant una hora, correspon a un watt hora. Afegir la lletra h no és decorar la mateixa dada: incorpora una durada i canvia la magnitud que estem descrivint.",
+      "Van construir un cas simplificat en què cada aparell mantenia exactament la potència indicada. El bullidor funcionava durant tres minuts; el llum, durant deu hores. Tres minuts són la vintena part d’una hora. Dos mil watts multiplicats per aquesta fracció donen cent watt hora. Deu watts durant deu hores també donen cent watt hora. En aquell exemple, una potència molt més alta no havia produït una energia total més gran perquè s’havia mantingut molt menys temps.",
+      "Per comprovar les unitats, van expressar el mateix resultat en quilowatt hora. Un quilowatt equival a mil watts; per tant, cent watt hora equivalen a una dècima de quilowatt hora, que s’escriu 0,1 kWh. La quantitat d’energia no havia canviat. Només havien triat una unitat més gran i, en conseqüència, una xifra més petita. Aquest canvi sí que era una conversió d’unitats de la mateixa magnitud.",
+      "La professora va separar dues operacions que al principi havien barrejat. Passar de Wh a kWh és canviar l’escala amb què expressem energia. Passar de W a Wh exigeix conèixer un temps i calcular una altra magnitud. No podem substituir una etiqueta per l’altra mantenint la xifra sense explicar què ha passat. Un nombre tot sol no diu quin dels dos casos tenim davant. Cal llegir també la unitat i les condicions amb què s’ha obtingut el resultat.",
+      "Després van revisar el límit de l’exemple. Un aparell real pot canviar de potència mentre funciona o deixar d’escalfar durant una estona. Una indicació de potència no explica, tota sola, el consum d’un dia sencer. El càlcul del taller servia per entendre la relació en unes condicions definides, no per assegurar que qualsevol ús real del bullidor duraria tres minuts o gastaria exactament la mateixa energia.",
+      "Al final van conservar la primera divisió al full: dos mil entre deu continuava sent dos-cents. El que van canviar va ser la frase que l’acompanyava. La relació de potències era correcta; la conclusió sobre l’energia necessitava una durada. Havien après a corregir una afirmació sense haver de declarar falsa tota la seva part numèrica."
+    ],
+    "imageAlt": {
+      "por-que-una-cifra-puede-cambiar-de-unidad-art1": "Un bullidor elèctric apagat al costat d’un petit mesurador endollable i un quadern, sobre un taulell sec.",
+      "por-que-una-cifra-puede-cambiar-de-unidad-art2": "Un llum d’escriptori desendollat, un temporitzador i un quadern obert sobre una taula."
+    },
+    "questions": [
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q1",
+        "type": "literal",
+        "prompt": "Quina potència té cadascun dels dos aparells imaginaris?",
+        "answer": "El bullidor, 2.000 W; el llum, 10 W.",
+        "lines": 2
+      },
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q2",
+        "type": "literal",
+        "prompt": "Durant quant temps funciona cadascun al cas simplificat?",
+        "answer": "El bullidor, tres minuts; el llum, deu hores.",
+        "lines": 2
+      },
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q3",
+        "type": "vocabulary",
+        "prompt": "Què vol dir «magnitud» en aquesta explicació?",
+        "answer": "Una propietat o quantitat mesurable, com la potència o l’energia, que cal distingir per interpretar els nombres.",
+        "lines": 2
+      },
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q4",
+        "type": "inference",
+        "prompt": "Per què la primera divisió és correcta però la conclusió no és suficient?",
+        "answer": "Perquè compara potències correctament, però l’energia també depèn del temps durant el qual s’utilitza cada potència.",
+        "lines": 3
+      },
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q5",
+        "type": "inference",
+        "prompt": "Explica com es poden obtenir 100 Wh amb cadascun dels aparells de l’exemple.",
+        "answer": "2.000 W durant 1/20 d’hora donen 100 Wh; 10 W durant 10 hores també donen 100 Wh.",
+        "lines": 3
+      },
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q6",
+        "type": "inference",
+        "prompt": "Per què escriure 0,1 kWh no significa que s’hagi reduït l’energia respecte de 100 Wh?",
+        "answer": "Perquè són dues unitats diferents per a una mateixa quantitat: el quilowatt hora és mil vegades més gran que el watt hora.",
+        "lines": 3
+      },
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q7",
+        "type": "structure",
+        "prompt": "Quina funció té separar les dues operacions del cinquè paràgraf?",
+        "answer": "Evita confondre una conversió d’unitats d’energia amb un càlcul que passa de potència a energia incorporant el temps.",
+        "lines": 3
+      },
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q8",
+        "type": "inference",
+        "prompt": "Per què no es pot aplicar sense més el resultat del taller a un dia d’ús real?",
+        "answer": "Perquè les durades i la potència poden variar i el cas només suposa uns valors constants i definits.",
+        "lines": 3
+      },
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q9",
+        "type": "inference",
+        "prompt": "Si el llum funcionés cinc hores en lloc de deu, mantenint 10 W, quina energia utilitzaria? Explica què ha canviat.",
+        "answer": "50 Wh: la potència és igual, però la durada és la meitat i també ho és l’energia total.",
+        "lines": 3
+      },
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q10",
+        "type": "summary",
+        "prompt": "Resumeix què cal saber abans de comparar l’energia utilitzada per dos aparells a partir de la seva potència.",
+        "answer": "Quant temps funciona cada aparell i si la potència es manté o canvia; la potència indicada tota sola no dona l’energia total.",
+        "lines": 3
+      },
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q11",
+        "type": "opinion",
+        "prompt": "Com respondries a «té una xifra més gran, així que gasta més»? Escriu una resposta amb una pregunta aclaridora i un exemple del text.",
+        "answer": "Resposta oberta que pregunti per la magnitud, la unitat i/o el temps, i utilitzi el cas dels dos aparells per matisar l’afirmació.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 2,
+        "text": "magnitud",
+        "questionId": "por-que-una-cifra-puede-cambiar-de-unidad-q3"
+      }
+    ]
+  },
+  {
+    "id": "una-entrevista-con-preguntas-tachadas-ca",
+    "code": "L230",
+    "title": "Una entrevista amb preguntes ratllades",
+    "summary": "Un guió ple de palaus i tresors canvia quan una arqueòloga explica què li permet saber un bol reparat.",
+    "paragraphs": [
+      "Havíem escrit les preguntes abans de visitar el taller. Volíem saber qui havia estat el propietari més ric de l’edifici excavat, quin era el tresor principal i si hi havien trobat objectes de reis. La Júlia Serra, arqueòloga de l’equip, va mirar el guió i ens va ensenyar un bol esquerdat. No tenia pedres precioses ni una forma extraordinària. Al costat hi havia una fitxa més llarga que la peça. Vam començar a ratllar preguntes i a afegir-ne de noves.",
+      "—Per què heu guardat un bol tan corrent?\n—Precisament perquè ens interessa la vida quotidiana. En aquest cas, els fragments es van trobar en un espai que estudiem com a possible zona de treball domèstic. La forma, les marques i el lloc d’aparició aporten pistes. No necessitem que una peça sigui espectacular perquè ajudi a formular una pregunta. Un objecte únic i valuós no explica automàticament com vivia la major part de la gent.",
+      "—Podeu saber qui el feia servir?\n—No podem donar un nom. Hem trobat marques d’una reparació antiga, però això no ens diu si la va fer la mateixa persona que l’utilitzava ni quin sentiment tenia envers el bol. Podem descriure el que s’ha conservat i comparar-ho amb altres peces. Per explicar una identitat concreta necessitaríem informació que ara no tenim.",
+      "—Aleshores, per què importa que el reparessin?\n—Perquè mostra que van prolongar l’ús d’aquell recipient en lloc de descartar-lo de seguida. Podria relacionar-se amb el valor pràctic, la disponibilitat d’altres recipients o altres motius. No n’hem de triar un només perquè ens agradi la història que produeix. La reparació és una dada; el motiu exacte continua sent una qüestió oberta dins de l’estudi.",
+      "—Què es perdria si només conservéssiu les peces més boniques?\n—Podríem acabar amb una col·lecció que mostrés sobretot excepcions. També ens calen registres de fragments petits i objectes habituals. Això no vol dir que cada tros respongui totes les preguntes. Vol dir que la tria del que documentem condiciona què podrem preguntar després. Per això registrem les peces amb el context on apareixen, no com si haguessin arribat soles a la taula.",
+      "—La nostra primera pregunta donava per fet que aquí hi vivia algú molt ric. Com l’hauríem de canviar?\n—Podeu preguntar quins indicis tenim sobre l’ús de l’edifici i quines interpretacions s’estan estudiant. Així la resposta no haurà d’encaixar forçosament dins d’una idea decidida abans d’escoltar-la. Una entrevista també pot servir per revisar el marc de les preguntes, no només per omplir espais de resposta.",
+      "Vam sortir amb menys noms propis dels que esperàvem i més coses per explicar. Al guió hi havia tantes ratlles que costava llegir el primer titular. La peça més corrent havia obligat el grup a fer una conversa menys previsible. No el vam passar a net esborrant-les totes. En guardaríem una còpia: ens ajudaria a recordar en quin moment havíem començat a preguntar per allò que realment teníem davant."
+    ],
+    "imageAlt": {
+      "una-entrevista-con-preguntas-tachadas-art1": "Un jove entrevista una arqueòloga en una taula de treball amb una gravadora i safates de fragments de ceràmica.",
+      "una-entrevista-con-preguntas-tachadas-art2": "Un bol de fang reparat i fragments separats, amb fitxes i papers en una taula d’estudi."
+    },
+    "questions": [
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q1",
+        "type": "literal",
+        "prompt": "Quina peça mostra la Júlia al grup?",
+        "answer": "Un bol de ceràmica esquerdat amb marques d’una reparació antiga.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q2",
+        "type": "literal",
+        "prompt": "Quines tres classes de pistes esmenta sobre la peça i el seu context?",
+        "answer": "La forma, les marques i el lloc on va aparèixer.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q3",
+        "type": "vocabulary",
+        "prompt": "Què vol dir «revisar el marc de les preguntes» en aquesta entrevista?",
+        "answer": "Canviar les idees o suposicions des de les quals s’està preguntant, no només la redacció de les frases.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q4",
+        "type": "inference",
+        "prompt": "Per què la primera pregunta sobre el propietari més ric limita la resposta abans de començar?",
+        "answer": "Perquè pressuposa que hi havia un propietari ric i orienta la conversa cap a una interpretació encara no demostrada.",
+        "lines": 3
+      },
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q5",
+        "type": "inference",
+        "prompt": "Què permet afirmar la reparació i què no permet saber amb certesa?",
+        "answer": "Que van prolongar l’ús del recipient; no dona el nom de qui ho va fer ni el motiu exacte o el seu sentiment.",
+        "lines": 3
+      },
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q6",
+        "type": "inference",
+        "prompt": "Per què conservar només peces excepcionals podria distorsionar la imatge de la vida quotidiana?",
+        "answer": "Perquè deixaria fora molts objectes habituals i faria semblar representatiu allò que potser era poc freqüent.",
+        "lines": 3
+      },
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q7",
+        "type": "inference",
+        "prompt": "Què aporta conèixer on s’ha trobat el bol, a més de mirar-lo?",
+        "answer": "Permet relacionar-lo amb un espai i altres indicis per estudiar-ne l’ús, sense tractar-lo com un objecte aïllat.",
+        "lines": 3
+      },
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q8",
+        "type": "structure",
+        "prompt": "Quina funció tenen les preguntes ratllades dins del final del relat?",
+        "answer": "Mostren com ha canviat el punt de partida dels entrevistadors i documenten el procés d’aprendre a preguntar.",
+        "lines": 3
+      },
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q9",
+        "type": "inference",
+        "prompt": "Per què sortir amb menys noms propis no fa necessàriament pitjor l’entrevista?",
+        "answer": "Perquè han obtingut explicacions més justificades sobre dades, límits i context, encara que no puguin identificar persones concretes.",
+        "lines": 3
+      },
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q10",
+        "type": "summary",
+        "prompt": "Resumeix el canvi entre el guió inicial i el que acaba orientant la conversa.",
+        "answer": "Passen de buscar tresors i propietaris rics ja suposats a preguntar què permeten saber els indicis d’un objecte i què continua obert.",
+        "lines": 3
+      },
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q11",
+        "type": "opinion",
+        "prompt": "Reformula una pregunta que pressuposi la resposta, sobre qualsevol tema proper. Explica què permetria descobrir la versió nova.",
+        "answer": "Resposta oberta amb una suposició identificable i una pregunta que la deixi oberta a dades o experiències diferents.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 6,
+        "text": "revisar el marc de les preguntes",
+        "questionId": "una-entrevista-con-preguntas-tachadas-q3"
+      }
+    ]
+  },
+  {
+    "id": "el-agua-que-dibuja-fronteras-ca",
+    "code": "L231",
+    "title": "L’aigua que dibuixa fronteres",
+    "summary": "Una carena separa dues valls, mentre l’aigua connecta llocs que al mapa administratiu apareixen separats.",
+    "paragraphs": [
+      "Des de la carena, els dos pobles semblaven molt pròxims. El campanar d’un quedava a l’esquerra i els terrats de l’altre, a la dreta. Al mapa de carreteres només els separava una línia de terme. Però quan el grup va seguir amb la mirada els petits torrents dels vessants, va descobrir una altra separació: l’aigua de pluja no baixava tota cap al mateix lloc. Dos punts veïns podien començar viatges diferents, encara que a terra només els separessin unes passes.",
+      "Una conca de drenatge és el territori des del qual l’aigua superficial acaba dirigint-se cap a una sortida compartida, com un riu o un llac. Les parts altes que separen conques formen una divisòria d’aigües. No és una paret construïda ni cal que hi hagi una ratlla visible a terra. El relleu orienta el recorregut de l’aigua. A un costat d’una carena, els torrents poden alimentar una vall; a l’altre, una de diferent.",
+      "Al taller de geografia havien preparat una maqueta. Els fils blaus representaven cursos d’aigua, no canonades que transportessin aigua a les cases. Un fil petit s’unia a un de més gran i aquest continuava fins a la sortida del model. El grup havia de marcar quines zones hi aportaven aigua. Si es fixava només en la distància entre cases, perdia de vista els pendents que connectaven aquells punts.",
+      "La professora va preguntar si una frontera municipal i una divisòria havien de coincidir. De vegades poden seguir una mateixa carena, però representen coses diferents. Un municipi també pot ocupar parts de més d’una conca, i un mateix riu pot passar per diversos municipis. Per explicar què podia arribar a un tram del riu, necessitaven mirar aigües amunt, encara que travessessin línies administratives al mapa.",
+      "Van estudiar un cas imaginari: una pluja intensa havia arrossegat terra d’un terreny sense vegetació fins a un torrent. Més avall, el torrent s’unia al riu al costat d’un segon poble. La terra no havia aparegut necessàriament a prop d’on ara es veia l’aigua tèrbola. El recorregut connectava lloc d’origen i lloc d’observació. Per investigar-ho, caldria seguir possibles aportacions i contrastar-les, no assenyalar només la població més propera.",
+      "El model també tenia límits. No representava l’aigua subterrània ni tots els canvis que poden introduir les obres humanes. Els fils no permetien calcular quant tardaria a arribar una pluja concreta. Servien per entendre relacions generals de connexió i separació, no per substituir un estudi detallat del territori. Posar-hi més detalls no el convertia automàticament en una còpia exacta del món.",
+      "Al final van penjar dos mapes junts: un amb municipis i un altre amb conques. Cap dels dos anul·lava l’altre. Cadascun ajudava a fer preguntes diferents i, en alguns problemes, calia llegir-los alhora. Des de la carena, els dos pobles continuaven semblant pròxims. Ara el grup sabia que estar a prop, compartir un municipi i compartir el camí de l’aigua eren tres relacions que no sempre coincidien."
+    ],
+    "imageAlt": {
+      "el-agua-que-dibuja-fronteras-art1": "Una carena de muntanya separa dues valls amb cursos d’aigua que baixen per vessants diferents.",
+      "el-agua-que-dibuja-fronteras-art2": "Una maqueta de relleu mostra valls i carenes amb fils blaus que representen els cursos d’aigua."
+    },
+    "questions": [
+      {
+        "id": "el-agua-que-dibuja-fronteras-q1",
+        "type": "literal",
+        "prompt": "Què representa una divisòria d’aigües?",
+        "answer": "Les parts altes del relleu que separen conques de drenatge.",
+        "lines": 2
+      },
+      {
+        "id": "el-agua-que-dibuja-fronteras-q2",
+        "type": "literal",
+        "prompt": "Quins dos aspectes de l’aigua no representava la maqueta segons el text?",
+        "answer": "L’aigua subterrània i el temps concret que trigaria a arribar una pluja; tampoc no incloïa totes les obres humanes.",
+        "lines": 2
+      },
+      {
+        "id": "el-agua-que-dibuja-fronteras-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa mirar «aigües amunt» en investigar un tram de riu?",
+        "answer": "Mirar cap als llocs d’on ve l’aigua, seguint el riu o les aportacions en direcció al seu origen.",
+        "lines": 2
+      },
+      {
+        "id": "el-agua-que-dibuja-fronteras-q4",
+        "type": "inference",
+        "prompt": "Per què dos punts molt pròxims poden pertànyer a conques diferents?",
+        "answer": "Perquè poden estar a costats diferents d’una divisòria i l’aigua hi baixa cap a sortides diferents.",
+        "lines": 3
+      },
+      {
+        "id": "el-agua-que-dibuja-fronteras-q5",
+        "type": "inference",
+        "prompt": "Per què mirar només les fronteres municipals no resol l’origen de l’aigua tèrbola?",
+        "answer": "Perquè el riu connecta territoris i municipis, i els materials poden haver arribat des de més amunt.",
+        "lines": 3
+      },
+      {
+        "id": "el-agua-que-dibuja-fronteras-q6",
+        "type": "inference",
+        "prompt": "Quina confusió evita aclarir que els fils blaus no són canonades?",
+        "answer": "Evita confondre el drenatge superficial del relleu amb una xarxa de distribució d’aigua a les cases.",
+        "lines": 3
+      },
+      {
+        "id": "el-agua-que-dibuja-fronteras-q7",
+        "type": "structure",
+        "prompt": "Què aporta el cas imaginari de la terra arrossegada a l’explicació de les conques?",
+        "answer": "Mostra per què les connexions aigües amunt són útils per plantejar una investigació concreta.",
+        "lines": 3
+      },
+      {
+        "id": "el-agua-que-dibuja-fronteras-q8",
+        "type": "inference",
+        "prompt": "Per què veure materials al costat d’un poble no prova que s’hi hagin originat?",
+        "answer": "Perquè l’aigua els pot haver transportat des d’un altre terreny connectat pel torrent o el riu.",
+        "lines": 3
+      },
+      {
+        "id": "el-agua-que-dibuja-fronteras-q9",
+        "type": "inference",
+        "prompt": "Què no podríem respondre amb la maqueta encara que seguíssim perfectament els fils?",
+        "answer": "Una durada exacta del desplaçament d’una pluja o el comportament subterrani, perquè el model no els representa.",
+        "lines": 3
+      },
+      {
+        "id": "el-agua-que-dibuja-fronteras-q10",
+        "type": "summary",
+        "prompt": "Explica per què els dos mapes finals es complementen en lloc de competir per ser «el correcte».",
+        "answer": "Un representa organització municipal i l’altre connexions de drenatge; segons la pregunta, cal informació d’un o de tots dos.",
+        "lines": 3
+      },
+      {
+        "id": "el-agua-que-dibuja-fronteras-q11",
+        "type": "opinion",
+        "prompt": "Planteja una pregunta per a un mapa municipal i una per a un mapa de conques. Explica què fa adequat cada mapa.",
+        "answer": "Resposta oberta que distingeixi, per exemple, ubicació d’un equipament municipal i procedència possible de materials transportats per un torrent.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 4,
+        "text": "aigües amunt",
+        "questionId": "el-agua-que-dibuja-fronteras-q3"
+      }
+    ]
+  },
+  {
+    "id": "cronica-de-una-final-aplazada-ca",
+    "code": "L232",
+    "title": "Crònica d’una final ajornada",
+    "summary": "Una final no arriba a començar, però la crònica reconstrueix les decisions i diferencia el pronòstic del que va passar.",
+    "paragraphs": [
+      "La final del torneig de tennis del centre es va ajornar dissabte sense que es jugués cap punt. Els dos equips havien arribat a les deu i van marxar gairebé una hora i mitja després, quan la pluja ja havia cobert la pista. La nova data es comunicarà dilluns, després de consultar la disponibilitat dels participants. La jornada no va tenir resultat esportiu, però sí una seqüència de decisions que el butlletí ha volgut reconstruir.",
+      "El dia abans, l’organització havia consultat un pronòstic que anunciava possibilitat de pluja durant el matí, sense concretar el moment exacte al recinte. No va suspendre la trobada anticipadament. Va avisar les famílies que comprovaria les condicions en arribar i que qualsevol canvi es comunicaria al porxo del pavelló. Aquell missatge no prometia que es podria jugar; explicava on es prendria i s’anunciaria la decisió. Els avisos diferenciaven expressament la trobada inicial de l’inici del partit.",
+      "A les deu, la pista encara era seca. Els jugadors van deixar les bosses i van començar a moure’s fora de la zona de joc mentre els responsables revisaven l’espai. A les deu i vint van caure les primeres gotes. L’organització va aturar la preparació i va demanar que tothom esperés a cobert. La fotografia que circulava al grup de missatges, amb una pista eixuta, s’havia fet abans d’aquell canvi.",
+      "A dos quarts d’onze, l’hora prevista del primer servei, encara no s’havia donat inici al partit. Una família va proposar esperar perquè en una part del cel es veia claror. Un dels jugadors preferia saber aviat si podria marxar amb el seu germà. Les dues peticions responien a necessitats reals, però no permetien deduir per si soles com estaria la pista al cap d’uns minuts.",
+      "Després d’una nova revisió, l’organització va decidir ajornar. Va explicar que, amb les condicions observades i el marge disponible aquell matí, no continuaria la trobada. No es va limitar a escriure «el temps ens ha deixat sense final». Va indicar quan s’havia revisat la pista i què passaria amb la convocatòria. També va aclarir que les inscripcions es mantindrien per a la nova data, encara pendent.",
+      "A un quart de dotze plovia amb més força. Això no convertia automàticament totes les decisions anteriors en les úniques possibles: el moment de decidir tenia informació i límits que no eren els mateixos que els de mirar-ho després. La crònica recull la pluja posterior, però no la fa servir com si els responsables ja l’haguessin vist quan havien consultat el pronòstic divendres.",
+      "Alguns participants van dir que havien perdut el matí; altres van aprofitar l’espera per preparar les parelles d’un altre torneig. El butlletí inclou aquests testimonis com a valoracions, no com a versions incompatibles de la quantitat de pluja. El partit continua pendent. Per saber què va passar dissabte, cal conservar també les hores, els avisos i les preguntes que encara no tenien resposta quan les raquetes eren al banc."
+    ],
+    "imageAlt": {
+      "cronica-de-una-final-aplazada-art1": "Una pista esportiva exterior buida sota núvols foscos, amb les bosses a cobert al costat d’un banc.",
+      "cronica-de-una-final-aplazada-art2": "Tres joves amb roba esportiva esperen sota un porxo i miren la pluja a fora."
+    },
+    "questions": [
+      {
+        "id": "cronica-de-una-final-aplazada-q1",
+        "type": "literal",
+        "prompt": "A quina hora es va fer la fotografia de la pista seca respecte de les primeres gotes?",
+        "answer": "Es va fer abans que comencés a ploure a les deu i vint.",
+        "lines": 2
+      },
+      {
+        "id": "cronica-de-una-final-aplazada-q2",
+        "type": "literal",
+        "prompt": "Què se sap de la nova convocatòria al final de la notícia?",
+        "answer": "Que la data es comunicarà dilluns després de consultar disponibilitats i que es mantindran les inscripcions.",
+        "lines": 2
+      },
+      {
+        "id": "cronica-de-una-final-aplazada-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa que la final es va «ajornar»?",
+        "answer": "Que es va deixar per a una altra data, encara que en aquell moment no estigués concretada.",
+        "lines": 2
+      },
+      {
+        "id": "cronica-de-una-final-aplazada-q4",
+        "type": "inference",
+        "prompt": "Per què rebre la foto després de començar a ploure podia crear un malentès?",
+        "answer": "Perquè mostrava un estat anterior de la pista i es podia interpretar erròniament com una imatge actual.",
+        "lines": 3
+      },
+      {
+        "id": "cronica-de-una-final-aplazada-q5",
+        "type": "inference",
+        "prompt": "Quina diferència hi ha entre el pronòstic del divendres i la pluja observada dissabte?",
+        "answer": "El pronòstic anuncia una possibilitat futura; l’observació descriu què passa en un lloc i moment concrets.",
+        "lines": 3
+      },
+      {
+        "id": "cronica-de-una-final-aplazada-q6",
+        "type": "inference",
+        "prompt": "Per què la claror al cel i la necessitat de marxar no resolien com estaria la pista?",
+        "answer": "Perquè són una pista parcial i una necessitat personal, respectivament, no una comprovació de les condicions futures del joc.",
+        "lines": 3
+      },
+      {
+        "id": "cronica-de-una-final-aplazada-q7",
+        "type": "structure",
+        "prompt": "Què aporta ordenar la notícia amb hores concretes?",
+        "answer": "Permet reconstruir els canvis i saber quina informació existia quan es prenia cada decisió.",
+        "lines": 3
+      },
+      {
+        "id": "cronica-de-una-final-aplazada-q8",
+        "type": "inference",
+        "prompt": "Per què la pluja de més tard no s’ha d’explicar com una dada coneguda des del principi?",
+        "answer": "Perquè això atribuiria als responsables una certesa que encara no tenien quan van decidir.",
+        "lines": 3
+      },
+      {
+        "id": "cronica-de-una-final-aplazada-q9",
+        "type": "inference",
+        "prompt": "Les valoracions «hem perdut el matí» i «hem aprofitat l’espera» es contradiuen sobre els fets meteorològics? Explica-ho.",
+        "answer": "No. Expressen com diferents persones valoren el mateix temps d’espera, no mesures diferents de la pluja.",
+        "lines": 3
+      },
+      {
+        "id": "cronica-de-una-final-aplazada-q10",
+        "type": "summary",
+        "prompt": "Resumeix què diferencia aquesta crònica d’un missatge que només digui «final suspesa per pluja».",
+        "answer": "Inclou la seqüència temporal, els avisos, el que se sabia a cada moment, els testimonis i la continuïtat prevista de la convocatòria.",
+        "lines": 3
+      },
+      {
+        "id": "cronica-de-una-final-aplazada-q11",
+        "type": "opinion",
+        "prompt": "Quines dues informacions prioritzaries en un avís breu a les famílies després de l’ajornament? Justifica-les sense inventar la data nova.",
+        "answer": "Resposta oberta que prioritzi, per exemple, que no es juga i quan es comunicarà la nova data, o la continuïtat de les inscripcions, amb motius pràctics.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 1,
+        "text": "ajornar",
+        "questionId": "cronica-de-una-final-aplazada-q3"
+      }
+    ]
+  },
+  {
+    "id": "el-archivo-de-los-nombres-borrados-ca",
+    "code": "L233",
+    "title": "L’arxiu dels noms esborrats",
+    "summary": "Una llista amb noms ratllats desperta una sospita, però els documents d’un grup de teatre no expliquen tots la mateixa cosa.",
+    "paragraphs": [
+      "La Núria va trobar la llista dins d’una carpeta del grup de teatre del seu besavi. Catorze noms escrits a mà, tres de ratllats i cap explicació al marge. A la paret del centre hi havia una fotografia de la mateixa companyia amb només set noms al peu. La Núria va acostar els dos papers i va dir al seu amic Quim que algú havia esborrat una part de la història. La frase ja sonava com un títol abans que haguessin començat a investigar.",
+      "La responsable de l’arxiu els va deixar una taula i els va demanar que apuntessin la procedència de cada document. La llista no portava data, però era dins d’una carpeta amb papers de diverses temporades. La fotografia sí que tenia un any al revers. En Quim va proposar donar a la llista aquell mateix any. La responsable va preguntar si compartir carpeta era suficient per compartir data. Van deixar un interrogant al costat del primer full.",
+      "El segon document era un programa d’obra. Set noms coincidien amb els de la fotografia i apareixien sota el títol «repartiment». A sota hi havia una línia curta: «Vestuari: Roser i equip». El nom de Roser també sortia a la llista llarga, però no estava ratllat. La Núria es va adonar que havia tractat el peu de foto com si fos un cens de totes les persones que havien fet possible l’espectacle.",
+      "En una carta, un actor explicava que aquell any no podria continuar perquè havia canviat de torn a la fàbrica. El seu nom era un dels tres ratllats. La carta no resolia els altres dos casos. Tampoc no deia qui havia passat la ratlla ni si la llista s’havia preparat abans o després de la seva renúncia. Era una pista més concreta que una suposició, però no una clau capaç d’obrir tota la carpeta.",
+      "La Núria va sentir una mica de decepció. La història d’una exclusió amagada semblava escapar-se-li. Després va tornar a llegir «Roser i equip». Qui era aquell equip? Al programa no hi havia més noms. En una fotografia d’assaig es veien dues persones cosint al fons, però no les podien identificar. L’arxiu no justificava l’acusació inicial i, alhora, mostrava un buit real sobre treballs que havien quedat poc documentats.",
+      "Van preparar un plafó amb preguntes, no amb una denúncia resolta. La llista llarga s’hi mostrava com un document sense data confirmada. Al costat de la carta indicaven quin cas ajudava a explicar. Sota la fotografia d’assaig demanaven si algú podia reconèixer les persones del fons. Van evitar reproduir els dos noms ratllats com si sabessin per què havien deixat la companyia.",
+      "El títol final va ser «Qui hi surt i qui hi falta». La Núria encara volia recuperar noms, però ja no tots els silencis li semblaven la mateixa història. Alguns documents havien registrat només un tipus de feina; altres havien perdut el seu context. La carpeta no era una veu que parlés tota sola. Per escoltar-la, també havien hagut de revisar les preguntes amb què l’havien oberta."
+    ],
+    "imageAlt": {
+      "el-archivo-de-los-nombres-borrados-art1": "Dos joves examinen amb una lupa un registre antic de noms i línies ratllades en una taula d’arxiu.",
+      "el-archivo-de-los-nombres-borrados-art2": "Un investigador compara documents separats i un quadern sota el llum d’una taula d’arxiu."
+    },
+    "questions": [
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q1",
+        "type": "literal",
+        "prompt": "Quants noms tenia la llista i quants estaven ratllats?",
+        "answer": "Catorze noms, tres de ratllats.",
+        "lines": 2
+      },
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q2",
+        "type": "literal",
+        "prompt": "Què explicava la carta d’un dels actors?",
+        "answer": "Que no podia continuar perquè havia canviat de torn a la fàbrica.",
+        "lines": 2
+      },
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q3",
+        "type": "vocabulary",
+        "prompt": "Què vol dir que la carta no era «una clau capaç d’obrir tota la carpeta»?",
+        "answer": "Que ajudava a entendre un cas, però no resolia totes les incògnites dels altres documents.",
+        "lines": 2
+      },
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q4",
+        "type": "inference",
+        "prompt": "Per què no poden donar a la llista la data de la fotografia?",
+        "answer": "Perquè la carpeta conté papers de diverses temporades i no s’ha demostrat que llista i foto siguin del mateix moment.",
+        "lines": 3
+      },
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q5",
+        "type": "inference",
+        "prompt": "Quina confusió corregeix trobar la paraula «repartiment» al programa?",
+        "answer": "Que els set noms fossin totes les persones participants; podien ser només els intèrprets d’aquella obra.",
+        "lines": 3
+      },
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q6",
+        "type": "inference",
+        "prompt": "Per què la carta no resol el significat de les tres ratlles?",
+        "answer": "Perquè només parla de la renúncia d’un actor i no identifica qui va ratllar la llista ni què va passar amb els altres.",
+        "lines": 3
+      },
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q7",
+        "type": "inference",
+        "prompt": "Quin buit real continua existint encara que no es demostri l’acusació inicial?",
+        "answer": "Falten noms i informació sobre persones que feien vestuari o altres feines poc documentades.",
+        "lines": 3
+      },
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q8",
+        "type": "structure",
+        "prompt": "Què mostra el canvi del primer títol imaginat al títol final?",
+        "answer": "El pas d’afirmar una exclusió intencionada a investigar qui apareix, qui falta i què permeten saber els documents.",
+        "lines": 3
+      },
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q9",
+        "type": "inference",
+        "prompt": "Per què és pertinent demanar al públic que identifiqui les persones de la fotografia?",
+        "answer": "Perquè pot aportar informació nova per a una absència concreta sense donar per resolta la identitat.",
+        "lines": 3
+      },
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q10",
+        "type": "summary",
+        "prompt": "Resumeix dues causes diferents que poden explicar absències als documents del relat.",
+        "answer": "Un document pot registrar només un tipus de participació, com el repartiment; un altre pot haver perdut la data o el context. Una renúncia explica també un cas particular.",
+        "lines": 3
+      },
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q11",
+        "type": "opinion",
+        "prompt": "Escriu un peu breu per a la llista llarga que diferenciï allò que sabem i allò que falta saber. Justifica una decisió de redacció.",
+        "answer": "Resposta oberta amb nombre de noms i ratlles com a dades, data o motius com a incògnites, evitant atribuir intencions no demostrades.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 4,
+        "text": "una clau capaç d’obrir tota la carpeta",
+        "questionId": "el-archivo-de-los-nombres-borrados-q3"
+      }
+    ]
+  },
+  {
+    "id": "una-ruta-que-no-era-la-mas-corta-ca",
+    "code": "L234",
+    "title": "Una ruta que no era la més curta",
+    "summary": "Triar un recorregut implica decidir què volem minimitzar i quines condicions no estem disposats a acceptar.",
+    "paragraphs": [
+      "El mapa del taller mostrava dues rutes entre l’escola i el centre cultural. La vermella feia sis-cents metres; la verda, nou-cents. En un primer recompte, la vermella guanyava amb claredat: tres-cents metres menys. Però el grup havia de preparar una sortida amb una persona que utilitzava cadira de rodes. El traçat vermell incloïa una escala llarga i el verd seguia carrers sense graons. La xifra més petita no resolia la pregunta que tenien entre mans.",
+      "El problema no era simplement afegir un inconvenient a una llista d’avantatges. Per a aquella sortida, passar per una escala no era una opció acceptable. La condició havia de comprovar-se abans de comparar quina ruta era preferible. Un recorregut molt curt que no es podia completar no s’havia de presentar com una alternativa gairebé tan bona. Primer calia trobar itineraris possibles; després, comparar-los amb els criteris escollits.",
+      "Van afegir un tercer camí, de mil metres, també sense graons. Passava per un parc amb ombra, però tenia una porta que només era oberta en un horari determinat. La sortida estava prevista a les deu i la tornada a la una. El grup va buscar l’horari del parc i va confirmar que la porta seria oberta en tots dos moments. Si haguessin mirat només l’anada, haurien deixat la meitat del problema sense revisar.",
+      "Ara podien discutir entre la ruta verda i la del parc. La verda era més curta; la del parc oferia més ombra i alguns bancs. No coneixien prou bé les preferències de tothom per convertir-les en un únic resultat indiscutible. Van acordar fer l’anada per la verda i valorar la tornada després de comprovar com havia anat el desplaçament. La persona que utilitzava la cadira va participar en aquesta conversa, no només en una casella del full.",
+      "Al taller van representar els punts importants com cercles i els trams com línies amb informació. La distància era una dada, però també hi figuraven escales i horaris. Van adonar-se que qualsevol eina de rutes necessita saber què vol dir «millor» en aquell cas. Una recomanació pot canviar quan canvia l’objectiu o quan incorporem una condició que abans no havíem descrit.",
+      "La maqueta del recorregut no substituïa una revisió del carrer. Un tram podia estar en obres o tenir una vorera ocupada. Per això van comprovar els itineraris abans de la sortida i van anotar la data. El mapa era una ajuda per decidir, no una promesa que l’espai no canviaria mai. També van acordar un lloc on retrobar-se si calia aturar el grup.",
+      "Al títol del full final no hi van posar «la ruta més curta». Hi deia «rutes per a la nostra sortida». A sota s’explicaven els criteris. La ruta vermella continuava sent la més curta en metres, però ja no era la resposta guanyadora a qualsevol pregunta. Havien descobert que calcular bé una distància i formular bé el problema són dues feines diferents, i que totes dues importen per arribar junts a un lloc."
+    ],
+    "imageAlt": {
+      "una-ruta-que-no-era-la-mas-corta-art1": "Una cruïlla del barri ofereix una escala dreta i un camí més llarg amb pendent suau.",
+      "una-ruta-que-no-era-la-mas-corta-art2": "Un mapa de rutes sobre una taula mostra dos itineraris de longitud diferent entre dos punts."
+    },
+    "questions": [
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q1",
+        "type": "literal",
+        "prompt": "Quant mesuren les rutes vermella i verda?",
+        "answer": "Sis-cents i nou-cents metres, respectivament.",
+        "lines": 2
+      },
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q2",
+        "type": "literal",
+        "prompt": "Quina condició addicional han de comprovar per a la ruta del parc?",
+        "answer": "Que la porta sigui oberta a l’anada i a la tornada.",
+        "lines": 2
+      },
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa «criteris» en comparar les rutes?",
+        "answer": "Aspectes que s’utilitzen per valorar-les, com distància, ombra, descans o condicions del pas.",
+        "lines": 2
+      },
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q4",
+        "type": "inference",
+        "prompt": "Per què no s’ha de tractar l’escala com un petit inconvenient compensable amb menys metres?",
+        "answer": "Perquè impedeix completar la ruta prevista amb la persona que utilitza cadira de rodes; és una condició d’ús, no només una preferència.",
+        "lines": 3
+      },
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q5",
+        "type": "inference",
+        "prompt": "Per què la ruta de mil metres pot ser preferible a la de nou-cents per a alguns usuaris?",
+        "answer": "Perquè pot oferir més ombra i bancs, criteris que poden importar més que cent metres de diferència.",
+        "lines": 3
+      },
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q6",
+        "type": "inference",
+        "prompt": "Per què comprovar només que la porta serà oberta a les deu és insuficient?",
+        "answer": "Perquè la tornada és a la una i el mateix itinerari també ha de ser possible llavors.",
+        "lines": 3
+      },
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q7",
+        "type": "inference",
+        "prompt": "Què aporta que participi en la decisió la persona que utilitza la cadira?",
+        "answer": "Permet conèixer les seves experiències i preferències en lloc de reduir-les a una suposició feta pels altres.",
+        "lines": 3
+      },
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q8",
+        "type": "structure",
+        "prompt": "Quina funció té el tercer camí dins del raonament?",
+        "answer": "Mostra que, entre rutes possibles, encara hi ha criteris i condicions diferents per comparar, no una única resposta automàtica.",
+        "lines": 3
+      },
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q9",
+        "type": "inference",
+        "prompt": "Per què cal indicar quan s’ha revisat el mapa?",
+        "answer": "Perquè les condicions del carrer poden canviar i la data informa de quan es van comprovar.",
+        "lines": 3
+      },
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q10",
+        "type": "summary",
+        "prompt": "Explica la diferència entre trobar la distància mínima i trobar una ruta adequada per al grup.",
+        "answer": "La distància mínima compara metres; una ruta adequada ha de ser utilitzable i respondre als criteris i condicions del grup.",
+        "lines": 3
+      },
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q11",
+        "type": "opinion",
+        "prompt": "Proposa una situació en què canviï el criteri principal per triar un recorregut. Explica una condició imprescindible i una preferència.",
+        "answer": "Resposta oberta que distingeixi què fa possible la ruta i què la fa més desitjable entre les alternatives possibles.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 2,
+        "text": "criteris",
+        "questionId": "una-ruta-que-no-era-la-mas-corta-q3"
+      }
+    ]
   }
 ];

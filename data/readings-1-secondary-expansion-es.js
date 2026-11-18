@@ -2619,5 +2619,778 @@ export const readings1SecondaryExpansionEs = [
         "definition": "Obtención de información del entorno mediante los ecos de los sonidos emitidos por el animal."
       }
     ]
+  },
+  {
+    "id": "por-que-una-cifra-puede-cambiar-de-unidad-es",
+    "code": "L229",
+    "workId": "por-que-una-cifra-puede-cambiar-de-unidad",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "intermediate",
+    "themes": [
+      "science",
+      "math",
+      "technology"
+    ],
+    "genre": "informative",
+    "title": "Por qué una cifra puede cambiar de unidad",
+    "summary": "Comparar un hervidor y una lámpara obliga a distinguir la potencia de un aparato de la energía que usa durante un tiempo.",
+    "paragraphs": [
+      "En un ejercicio, el grupo debía comparar dos aparatos imaginarios: un hervidor de dos mil vatios y una lámpara de diez. La respuesta fue inmediata. El hervidor tenía una cifra doscientas veces mayor y, por tanto, siempre debía utilizar doscientas veces más energía. La profesora no corrigió la división. Añadió una pregunta ausente de la hoja: «¿Durante cuánto tiempo los hacemos funcionar?».",
+      "Los vatios expresan potencia: el ritmo al que se transfiere o utiliza energía. Para describir una cantidad de energía a lo largo de un intervalo podemos usar vatios hora, escritos Wh. Si una potencia de un vatio se mantiene una hora, corresponde a un vatio hora. Añadir la h no adorna el mismo dato: incorpora una duración y cambia la magnitud descrita. Potencia y energía están relacionadas, pero no contestan exactamente a la misma pregunta.",
+      "Construyeron un caso simplificado donde cada aparato mantenía la potencia indicada. El hervidor funcionaba tres minutos; la lámpara, diez horas. Tres minutos son la vigésima parte de una hora. Dos mil vatios multiplicados por esa fracción dan cien vatios hora. Diez vatios durante diez horas también dan cien vatios hora. Una potencia mucho mayor no había producido una energía total mayor porque se mantuvo mucho menos tiempo. La comparación dependía de las condiciones completas del ejemplo, no solo del número más llamativo.",
+      "Comprobaron las unidades expresando el resultado en kilovatios hora. Un kilovatio equivale a mil vatios; por tanto, cien vatios hora equivalen a una décima de kilovatio hora: 0,1 kWh. La cantidad de energía no cambiaba. Habían elegido una unidad mayor y, por ello, una cifra menor. Eso sí era una conversión de unidades de la misma magnitud.",
+      "La profesora separó dos operaciones mezcladas al principio. Pasar de Wh a kWh cambia la escala con que expresamos energía. Pasar de W a Wh exige conocer un tiempo y calcular otra magnitud. No podemos sustituir una etiqueta por otra manteniendo la cifra sin explicar qué ha sucedido. Un número aislado no dice cuál de los dos casos tenemos delante. La unidad forma parte del dato: quitarla para comparar solo cifras puede crear diferencias inexistentes o esconder diferencias reales. El grupo empezó a rodearla en cada línea del cálculo antes de decidir si podía comparar los resultados.",
+      "Después revisaron el límite del ejemplo. Un aparato real puede cambiar de potencia o dejar de calentar durante un rato. Una indicación de potencia no explica por sí sola el consumo de un día. El cálculo servía para entender una relación bajo condiciones definidas, no para asegurar que cualquier uso real del hervidor duraría tres minutos o gastaría exactamente esa energía.",
+      "Conservaron la primera división: dos mil entre diez seguía siendo doscientos. Cambiaron la frase que la acompañaba. La relación de potencias era correcta; la conclusión sobre energía necesitaba una duración. Habían aprendido a corregir una afirmación sin declarar falsa toda su parte numérica."
+    ],
+    "images": [
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-art1",
+        "src": "assets/readings/l229-por-que-una-cifra-puede-cambiar-de-unidad-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un hervidor eléctrico apagado junto a un pequeño medidor enchufable y un cuaderno sobre una encimera seca."
+      },
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-art2",
+        "src": "assets/readings/l229-por-que-una-cifra-puede-cambiar-de-unidad-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Una lámpara de escritorio desenchufada, un temporizador y un cuaderno abierto sobre una mesa."
+      }
+    ],
+    "questions": [
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q1",
+        "type": "literal",
+        "prompt": "¿Qué potencia tiene cada aparato imaginario?",
+        "answer": "El hervidor, 2.000 W; la lámpara, 10 W.",
+        "lines": 2
+      },
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q2",
+        "type": "literal",
+        "prompt": "¿Durante cuánto tiempo funciona cada uno en el caso simplificado?",
+        "answer": "El hervidor, tres minutos; la lámpara, diez horas.",
+        "lines": 2
+      },
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «magnitud» en esta explicación?",
+        "answer": "Una propiedad o cantidad medible, como la potencia o la energía, que debe distinguirse para interpretar los números.",
+        "lines": 2
+      },
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q4",
+        "type": "inference",
+        "prompt": "¿Por qué la división inicial es correcta pero la conclusión resulta insuficiente?",
+        "answer": "Porque compara potencias correctamente, pero la energía también depende del tiempo durante el cual se utiliza cada potencia.",
+        "lines": 3
+      },
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q5",
+        "type": "inference",
+        "prompt": "Explica cómo se obtienen 100 Wh con cada aparato del ejemplo.",
+        "answer": "2.000 W durante 1/20 de hora dan 100 Wh; 10 W durante 10 horas también dan 100 Wh.",
+        "lines": 3
+      },
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q6",
+        "type": "inference",
+        "prompt": "¿Por qué escribir 0,1 kWh no reduce la energía respecto a 100 Wh?",
+        "answer": "Porque son unidades diferentes para la misma cantidad: el kilovatio hora es mil veces mayor que el vatio hora.",
+        "lines": 3
+      },
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q7",
+        "type": "structure",
+        "prompt": "¿Para qué separa las dos operaciones del quinto párrafo?",
+        "answer": "Para no confundir una conversión de unidades de energía con un cálculo que pasa de potencia a energía incorporando el tiempo.",
+        "lines": 3
+      },
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q8",
+        "type": "inference",
+        "prompt": "¿Por qué no puede aplicarse sin más el resultado del taller a un día real?",
+        "answer": "Porque las duraciones y la potencia pueden variar y el caso supone valores constantes y definidos.",
+        "lines": 3
+      },
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q9",
+        "type": "inference",
+        "prompt": "Si la lámpara funcionara cinco horas en vez de diez a 10 W, ¿qué energía usaría? Explica qué cambia.",
+        "answer": "50 Wh: la potencia es igual, pero la duración es la mitad y también lo es la energía total.",
+        "lines": 3
+      },
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q10",
+        "type": "summary",
+        "prompt": "Resume qué hay que saber para comparar la energía usada por dos aparatos a partir de su potencia.",
+        "answer": "Cuánto tiempo funciona cada uno y si la potencia se mantiene o cambia; la potencia indicada por sí sola no da la energía total.",
+        "lines": 3
+      },
+      {
+        "id": "por-que-una-cifra-puede-cambiar-de-unidad-q11",
+        "type": "opinion",
+        "prompt": "¿Cómo responderías a «tiene una cifra mayor, así que gasta más»? Incluye una pregunta aclaratoria y un ejemplo.",
+        "answer": "Respuesta abierta que pregunte por magnitud, unidad y/o tiempo, y use el caso de los aparatos para matizar la afirmación.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 2,
+        "text": "magnitud",
+        "questionId": "por-que-una-cifra-puede-cambiar-de-unidad-q3"
+      }
+    ]
+  },
+  {
+    "id": "una-entrevista-con-preguntas-tachadas-es",
+    "code": "L230",
+    "workId": "una-entrevista-con-preguntas-tachadas",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "intermediate",
+    "themes": [
+      "history",
+      "arts",
+      "science"
+    ],
+    "genre": "interview",
+    "title": "Una entrevista con preguntas tachadas",
+    "summary": "Un guion lleno de palacios y tesoros cambia cuando una arqueóloga explica qué permite saber un cuenco reparado.",
+    "paragraphs": [
+      "Habíamos escrito las preguntas antes de visitar el taller. Queríamos saber quién había sido el dueño más rico del edificio excavado, cuál era el tesoro principal y si habían encontrado objetos de reyes. Júlia Serra, arqueóloga del equipo, miró el guion y nos enseñó un cuenco agrietado. No tenía piedras preciosas ni una forma extraordinaria. Su ficha era más larga que la pieza. Empezamos a tachar preguntas y añadir otras.",
+      "—¿Por qué habéis guardado un cuenco tan corriente?\n—Porque nos interesa la vida cotidiana. Los fragmentos aparecieron en un espacio que estudiamos como posible zona de trabajo doméstico. La forma, las marcas y el lugar aportan pistas. No necesitamos una pieza espectacular para formular preguntas. Un objeto único y valioso no explica automáticamente cómo vivía la mayoría. Puede ser interesante por unas razones sin representar todo lo que nos gustaría conocer.",
+      "—¿Podéis saber quién lo utilizaba?\n—No podemos dar un nombre. Hay marcas de una reparación antigua, pero no indican si la hizo la misma persona que lo usaba ni qué sentía por el cuenco. Podemos describir lo conservado y compararlo con otras piezas. Para explicar una identidad concreta necesitaríamos información que ahora no tenemos.",
+      "—¿Por qué importa entonces que lo repararan?\n—Porque muestra que prolongaron el uso del recipiente en vez de desecharlo enseguida. Podría relacionarse con su valor práctico, la disponibilidad de otros o motivos diferentes. No debemos elegir uno porque nos guste la historia que produce. La reparación es un dato; el motivo exacto sigue siendo una cuestión abierta dentro del estudio. Tener una explicación posible no nos autoriza a presentarla como la única que ocurrió.",
+      "—¿Qué se perdería conservando solo las piezas más bonitas?\n—Podríamos acabar con una colección que mostrara sobre todo excepciones. Necesitamos registros de fragmentos pequeños y objetos habituales. No significa que cada trozo responda todas las preguntas. Significa que elegir qué documentamos condiciona qué podremos preguntar después. Por eso registramos las piezas con su contexto, no como si hubieran llegado solas a la mesa.",
+      "—Nuestra primera pregunta suponía que aquí vivía alguien muy rico. ¿Cómo podríamos cambiarla?\n—Podéis preguntar qué indicios tenemos del uso del edificio y qué interpretaciones se estudian. La respuesta no tendría que encajar a la fuerza en una idea decidida antes de escucharla. Una entrevista también puede revisar el marco de las preguntas, no solo rellenar espacios de respuesta.",
+      "Salimos con menos nombres propios de los esperados y más cosas que explicar. Había tantas tachaduras que costaba leer el primer titular. No pasaríamos el guion a limpio borrándolas todas. Guardaríamos una copia para recordar cuándo empezamos a preguntar por lo que teníamos delante. Las preguntas descartadas también mostraban algo de nuestro trabajo: las imágenes de tesoros que habíamos llevado al taller antes de mirar el cuenco. La pieza más corriente había obligado al grupo a mantener una conversación menos previsible y a reconocer cuánto condicionaba el guion nuestra primera mirada."
+    ],
+    "images": [
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-art1",
+        "src": "assets/readings/l230-una-entrevista-con-preguntas-tachadas-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un joven entrevista a una arqueóloga en una mesa de trabajo con una grabadora y bandejas de fragmentos cerámicos."
+      },
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-art2",
+        "src": "assets/readings/l230-una-entrevista-con-preguntas-tachadas-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Un cuenco de barro reparado y fragmentos separados, con fichas y papeles en una mesa de estudio."
+      }
+    ],
+    "questions": [
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q1",
+        "type": "literal",
+        "prompt": "¿Qué pieza muestra Júlia al grupo?",
+        "answer": "Un cuenco de cerámica agrietado con marcas de una reparación antigua.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q2",
+        "type": "literal",
+        "prompt": "¿Qué tres clases de pistas menciona sobre la pieza y su contexto?",
+        "answer": "La forma, las marcas y el lugar donde apareció.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «revisar el marco de las preguntas» en esta entrevista?",
+        "answer": "Cambiar las ideas o suposiciones desde las que se pregunta, no solo la redacción de las frases.",
+        "lines": 2
+      },
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q4",
+        "type": "inference",
+        "prompt": "¿Por qué preguntar por el dueño más rico limita la respuesta antes de empezar?",
+        "answer": "Porque presupone que había un dueño rico y orienta la conversación hacia una interpretación aún no demostrada.",
+        "lines": 3
+      },
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q5",
+        "type": "inference",
+        "prompt": "¿Qué permite afirmar la reparación y qué no permite saber con certeza?",
+        "answer": "Que prolongaron el uso del recipiente; no da el nombre de quien lo hizo ni el motivo exacto o su sentimiento.",
+        "lines": 3
+      },
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q6",
+        "type": "inference",
+        "prompt": "¿Por qué conservar solo piezas excepcionales podría distorsionar la vida cotidiana?",
+        "answer": "Porque excluiría objetos habituales y haría parecer representativo lo que quizá era poco frecuente.",
+        "lines": 3
+      },
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q7",
+        "type": "inference",
+        "prompt": "¿Qué aporta conocer dónde apareció el cuenco, además de mirarlo?",
+        "answer": "Relacionarlo con un espacio y otros indicios para estudiar su uso sin tratarlo como un objeto aislado.",
+        "lines": 3
+      },
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q8",
+        "type": "structure",
+        "prompt": "¿Qué función tienen las preguntas tachadas al final?",
+        "answer": "Muestran cómo cambia el punto de partida de los entrevistadores y documentan el proceso de aprender a preguntar.",
+        "lines": 3
+      },
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q9",
+        "type": "inference",
+        "prompt": "¿Por qué salir con menos nombres propios no empeora necesariamente la entrevista?",
+        "answer": "Porque obtienen explicaciones más justificadas sobre datos, límites y contexto aunque no identifiquen personas concretas.",
+        "lines": 3
+      },
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q10",
+        "type": "summary",
+        "prompt": "Resume el cambio entre el guion inicial y el que orienta la conversación final.",
+        "answer": "Pasan de buscar tesoros y dueños ricos supuestos a preguntar qué permiten saber los indicios de un objeto y qué sigue abierto.",
+        "lines": 3
+      },
+      {
+        "id": "una-entrevista-con-preguntas-tachadas-q11",
+        "type": "opinion",
+        "prompt": "Reformula una pregunta que presuponga la respuesta sobre un tema cercano. Explica qué permitiría descubrir la versión nueva.",
+        "answer": "Respuesta abierta con una suposición identificable y una pregunta que la abra a datos o experiencias diferentes.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 6,
+        "text": "revisar el marco de las preguntas",
+        "questionId": "una-entrevista-con-preguntas-tachadas-q3"
+      }
+    ]
+  },
+  {
+    "id": "el-agua-que-dibuja-fronteras-es",
+    "code": "L231",
+    "workId": "el-agua-que-dibuja-fronteras",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "intermediate",
+    "themes": [
+      "geography",
+      "science",
+      "environment"
+    ],
+    "genre": "informative",
+    "title": "El agua que dibuja fronteras",
+    "summary": "Una cresta separa dos valles mientras el agua conecta lugares separados en el mapa administrativo.",
+    "paragraphs": [
+      "Desde la cresta, los dos pueblos parecían muy cercanos. El campanario de uno quedaba a la izquierda y los tejados del otro, a la derecha. En el mapa de carreteras solo los separaba un límite municipal. Pero al seguir con la mirada los torrentes de las laderas, el grupo descubrió otra separación: el agua de lluvia no bajaba toda al mismo lugar. Dos puntos vecinos podían iniciar viajes distintos, aunque solo los separaran unos pasos. Esa diferencia no se entendía bien contando kilómetros en línea recta: había que mirar también la forma del terreno.",
+      "Una cuenca de drenaje es el territorio desde el que el agua superficial acaba dirigiéndose a una salida compartida, como un río o un lago. Las zonas altas que separan cuencas forman una divisoria de aguas. No es una pared construida ni tiene que verse una raya en el suelo. El relieve orienta el recorrido del agua. A un lado de una cresta, los torrentes pueden alimentar un valle; al otro, uno diferente.",
+      "En el taller habían preparado una maqueta. Los hilos azules representaban cursos de agua, no tuberías para abastecer casas. Un hilo pequeño se unía a otro mayor y este continuaba hasta la salida del modelo. Debían marcar qué zonas aportaban agua. Mirar solo la distancia entre casas hacía perder de vista las pendientes que conectaban aquellos puntos. En una superficie plana, dibujar líneas resultaba sencillo; el volumen de la maqueta obligaba a preguntar hacia dónde descendían.",
+      "La profesora preguntó si una frontera municipal y una divisoria debían coincidir. A veces siguen la misma cresta, pero representan cosas distintas. Un municipio puede ocupar partes de varias cuencas y un río pasar por varios municipios. Para explicar qué podía llegar a un tramo del río debían mirar aguas arriba, aunque atravesaran límites administrativos en el mapa.",
+      "Estudiaron un caso imaginario: una lluvia intensa arrastraba tierra de un terreno sin vegetación hasta un torrente. Más abajo, este se unía al río junto a otro pueblo. La tierra no tenía que proceder del lugar donde ahora se veía el agua turbia. El recorrido conectaba origen y observación. Para investigarlo habría que seguir posibles aportaciones y contrastarlas, no señalar solo la población más cercana.",
+      "El modelo tenía límites. No representaba aguas subterráneas ni todos los cambios de las obras humanas. Los hilos no permitían calcular cuánto tardaría en llegar una lluvia concreta. Servían para entender conexiones y separaciones generales, no para sustituir un estudio detallado. Añadir detalles no lo convertía automáticamente en una copia exacta del mundo. Los alumnos debían indicar esos límites al explicar su trabajo a otra clase.",
+      "Colgaron juntos un mapa de municipios y otro de cuencas. Ninguno anulaba al otro: ayudaban a plantear preguntas distintas y, en algunos problemas, había que leerlos a la vez. Los pueblos seguían pareciendo cercanos. Ahora sabían que estar cerca, compartir municipio y compartir el camino del agua eran relaciones que no siempre coincidían."
+    ],
+    "images": [
+      {
+        "id": "el-agua-que-dibuja-fronteras-art1",
+        "src": "assets/readings/l231-el-agua-que-dibuja-fronteras-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Una cresta de montaña separa dos valles con cursos de agua que bajan por vertientes distintas."
+      },
+      {
+        "id": "el-agua-que-dibuja-fronteras-art2",
+        "src": "assets/readings/l231-el-agua-que-dibuja-fronteras-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Una maqueta de relieve muestra valles y crestas con hilos azules que representan cursos de agua."
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-agua-que-dibuja-fronteras-q1",
+        "type": "literal",
+        "prompt": "¿Qué representa una divisoria de aguas?",
+        "answer": "Las zonas altas del relieve que separan cuencas de drenaje.",
+        "lines": 2
+      },
+      {
+        "id": "el-agua-que-dibuja-fronteras-q2",
+        "type": "literal",
+        "prompt": "¿Qué dos aspectos del agua no representaba la maqueta según el texto?",
+        "answer": "El agua subterránea y el tiempo concreto de llegada de una lluvia; tampoco incluía todas las obras humanas.",
+        "lines": 2
+      },
+      {
+        "id": "el-agua-que-dibuja-fronteras-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa mirar «aguas arriba» al investigar un tramo de río?",
+        "answer": "Mirar hacia los lugares de donde viene el agua, siguiendo el río o sus aportaciones hacia el origen.",
+        "lines": 2
+      },
+      {
+        "id": "el-agua-que-dibuja-fronteras-q4",
+        "type": "inference",
+        "prompt": "¿Por qué dos puntos cercanos pueden pertenecer a cuencas distintas?",
+        "answer": "Porque pueden estar a lados diferentes de una divisoria y el agua baja hacia salidas distintas.",
+        "lines": 3
+      },
+      {
+        "id": "el-agua-que-dibuja-fronteras-q5",
+        "type": "inference",
+        "prompt": "¿Por qué mirar solo los límites municipales no resuelve el origen del agua turbia?",
+        "answer": "Porque el río conecta territorios y municipios y los materiales pueden llegar desde más arriba.",
+        "lines": 3
+      },
+      {
+        "id": "el-agua-que-dibuja-fronteras-q6",
+        "type": "inference",
+        "prompt": "¿Qué confusión evita aclarar que los hilos no son tuberías?",
+        "answer": "Evita confundir el drenaje superficial del relieve con una red de distribución de agua a las casas.",
+        "lines": 3
+      },
+      {
+        "id": "el-agua-que-dibuja-fronteras-q7",
+        "type": "structure",
+        "prompt": "¿Qué aporta el caso imaginario de la tierra arrastrada?",
+        "answer": "Muestra por qué las conexiones aguas arriba ayudan a plantear una investigación concreta.",
+        "lines": 3
+      },
+      {
+        "id": "el-agua-que-dibuja-fronteras-q8",
+        "type": "inference",
+        "prompt": "¿Por qué ver materiales junto a un pueblo no prueba que se originaran allí?",
+        "answer": "Porque el agua puede transportarlos desde otro terreno conectado por el torrente o el río.",
+        "lines": 3
+      },
+      {
+        "id": "el-agua-que-dibuja-fronteras-q9",
+        "type": "inference",
+        "prompt": "¿Qué no podríamos responder con la maqueta aunque siguiéramos bien los hilos?",
+        "answer": "La duración exacta del desplazamiento de una lluvia o el comportamiento subterráneo, porque no los representa.",
+        "lines": 3
+      },
+      {
+        "id": "el-agua-que-dibuja-fronteras-q10",
+        "type": "summary",
+        "prompt": "Explica por qué los mapas finales se complementan en vez de competir por ser «el correcto».",
+        "answer": "Uno representa organización municipal y otro conexiones de drenaje; según la pregunta hace falta uno o ambos.",
+        "lines": 3
+      },
+      {
+        "id": "el-agua-que-dibuja-fronteras-q11",
+        "type": "opinion",
+        "prompt": "Plantea una pregunta para un mapa municipal y otra para uno de cuencas. Explica qué hace adecuado cada mapa.",
+        "answer": "Respuesta abierta que distinga, por ejemplo, ubicación de un equipamiento municipal y posible procedencia de materiales de un torrente.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 4,
+        "text": "aguas arriba",
+        "questionId": "el-agua-que-dibuja-fronteras-q3"
+      }
+    ]
+  },
+  {
+    "id": "cronica-de-una-final-aplazada-es",
+    "code": "L232",
+    "workId": "cronica-de-una-final-aplazada",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "intermediate",
+    "themes": [
+      "sports",
+      "community"
+    ],
+    "genre": "news",
+    "title": "Crónica de una final aplazada",
+    "summary": "Una final no llega a empezar, pero la crónica reconstruye las decisiones y distingue el pronóstico de lo ocurrido.",
+    "paragraphs": [
+      "La final del torneo de tenis del centro se aplazó el sábado sin jugarse ningún punto. Los equipos llegaron a las diez y se marcharon casi hora y media después, cuando la lluvia cubría la pista. La nueva fecha se comunicará el lunes, tras consultar la disponibilidad de los participantes. No hubo resultado deportivo, pero sí una secuencia de decisiones que el boletín ha querido reconstruir.",
+      "El día anterior, la organización consultó un pronóstico que anunciaba posibilidad de lluvia durante la mañana, sin precisar el momento exacto en el recinto. No suspendió anticipadamente. Avisó a las familias de que comprobaría las condiciones al llegar y comunicaría cualquier cambio bajo el porche del pabellón. El mensaje no prometía que se jugaría: explicaba dónde se tomaría y anunciaría la decisión.",
+      "A las diez, la pista seguía seca. Los jugadores dejaron las bolsas y empezaron a moverse fuera de la zona de juego mientras revisaban el espacio. A las diez y veinte cayeron las primeras gotas. La organización detuvo la preparación y pidió esperar a cubierto. La fotografía que circulaba por el grupo de mensajes, con la pista seca, se había hecho antes de ese cambio. Recibirla después no actualizaba automáticamente el estado del terreno que mostraba.",
+      "A las diez y media, hora del primer saque, el partido no había empezado. Una familia propuso esperar porque se veía claridad en parte del cielo. Un jugador prefería saber pronto si podía marcharse con su hermano. Ambas peticiones respondían a necesidades reales, pero no permitían deducir por sí solas cómo estaría la pista minutos después.",
+      "Tras otra revisión, la organización decidió aplazar. Explicó que, dadas las condiciones observadas y el margen de aquella mañana, no continuaría. No se limitó a escribir «el tiempo nos ha dejado sin final». Indicó cuándo se había revisado la pista y qué pasaría con la convocatoria. Aclaró que las inscripciones se mantendrían para la fecha nueva, todavía pendiente. Era posible informar de esa continuidad aunque no se hubiera cerrado aún el calendario.",
+      "A las once y cuarto llovía con más fuerza. Eso no convertía automáticamente las decisiones anteriores en las únicas posibles: decidir entonces implicaba información y límites distintos de los de mirar después. La crónica recoge esa lluvia, pero no la usa como si los responsables ya la hubieran visto al consultar el pronóstico del viernes. Separar esos momentos permite entender qué sabían en cada instante. La redacción comparó las horas de los mensajes con las notas de la organización antes de ordenar el relato, sin convertir cada recuerdo en un horario exacto.",
+      "Unos participantes dijeron haber perdido la mañana; otros aprovecharon la espera para preparar parejas de otro torneo. El boletín recoge testimonios como valoraciones, no como versiones incompatibles de cuánta lluvia cayó. El partido sigue pendiente. Para entender el sábado hay que conservar también las horas, los avisos y las preguntas sin respuesta cuando las raquetas aún estaban en el banco."
+    ],
+    "images": [
+      {
+        "id": "cronica-de-una-final-aplazada-art1",
+        "src": "assets/readings/l232-cronica-de-una-final-aplazada-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Una pista deportiva exterior vacía bajo nubes oscuras, con las bolsas a cubierto junto a un banco."
+      },
+      {
+        "id": "cronica-de-una-final-aplazada-art2",
+        "src": "assets/readings/l232-cronica-de-una-final-aplazada-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Tres jóvenes con ropa deportiva esperan bajo un porche y miran la lluvia fuera."
+      }
+    ],
+    "questions": [
+      {
+        "id": "cronica-de-una-final-aplazada-q1",
+        "type": "literal",
+        "prompt": "¿Cuándo se hizo la foto de la pista seca respecto a las primeras gotas?",
+        "answer": "Antes de que empezara a llover a las diez y veinte.",
+        "lines": 2
+      },
+      {
+        "id": "cronica-de-una-final-aplazada-q2",
+        "type": "literal",
+        "prompt": "¿Qué se sabe de la nueva convocatoria al final de la noticia?",
+        "answer": "Que la fecha se comunicará el lunes tras consultar disponibilidades y se mantendrán las inscripciones.",
+        "lines": 2
+      },
+      {
+        "id": "cronica-de-una-final-aplazada-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa que la final «se aplazó»?",
+        "answer": "Que se dejó para otra fecha, aunque entonces no estuviera concretada.",
+        "lines": 2
+      },
+      {
+        "id": "cronica-de-una-final-aplazada-q4",
+        "type": "inference",
+        "prompt": "¿Por qué recibir la foto después de empezar a llover podía confundir?",
+        "answer": "Porque mostraba un estado anterior de la pista y podía interpretarse como una imagen actual.",
+        "lines": 3
+      },
+      {
+        "id": "cronica-de-una-final-aplazada-q5",
+        "type": "inference",
+        "prompt": "¿Qué diferencia hay entre el pronóstico del viernes y la lluvia observada?",
+        "answer": "El pronóstico anuncia una posibilidad futura; la observación describe qué ocurre en un lugar y momento concretos.",
+        "lines": 3
+      },
+      {
+        "id": "cronica-de-una-final-aplazada-q6",
+        "type": "inference",
+        "prompt": "¿Por qué la claridad y la necesidad de marcharse no resolvían cómo estaría la pista?",
+        "answer": "Porque son una pista parcial y una necesidad personal, no una comprobación de las condiciones futuras del juego.",
+        "lines": 3
+      },
+      {
+        "id": "cronica-de-una-final-aplazada-q7",
+        "type": "structure",
+        "prompt": "¿Qué aporta ordenar la noticia con horas concretas?",
+        "answer": "Permite reconstruir los cambios y saber qué información existía al tomar cada decisión.",
+        "lines": 3
+      },
+      {
+        "id": "cronica-de-una-final-aplazada-q8",
+        "type": "inference",
+        "prompt": "¿Por qué la lluvia posterior no debe explicarse como un dato conocido desde el principio?",
+        "answer": "Porque atribuiría a los responsables una certeza que aún no tenían al decidir.",
+        "lines": 3
+      },
+      {
+        "id": "cronica-de-una-final-aplazada-q9",
+        "type": "inference",
+        "prompt": "¿«Hemos perdido la mañana» y «hemos aprovechado la espera» se contradicen sobre la meteorología? Explícalo.",
+        "answer": "No. Expresan cómo distintas personas valoran la misma espera, no medidas diferentes de lluvia.",
+        "lines": 3
+      },
+      {
+        "id": "cronica-de-una-final-aplazada-q10",
+        "type": "summary",
+        "prompt": "Resume qué diferencia esta crónica de «final suspendida por lluvia».",
+        "answer": "Incluye la secuencia temporal, avisos, lo que se sabía en cada momento, testimonios y continuidad prevista de la convocatoria.",
+        "lines": 3
+      },
+      {
+        "id": "cronica-de-una-final-aplazada-q11",
+        "type": "opinion",
+        "prompt": "¿Qué dos datos priorizarías en un aviso a las familias tras el aplazamiento? Justifícalos sin inventar la fecha.",
+        "answer": "Respuesta abierta que priorice que no se juega y cuándo se comunicará la fecha, o continuidad de inscripciones, con razones prácticas.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 1,
+        "text": "se aplazó",
+        "questionId": "cronica-de-una-final-aplazada-q3"
+      }
+    ]
+  },
+  {
+    "id": "el-archivo-de-los-nombres-borrados-es",
+    "code": "L233",
+    "workId": "el-archivo-de-los-nombres-borrados",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "intermediate",
+    "themes": [
+      "history",
+      "community",
+      "arts"
+    ],
+    "genre": "narrative",
+    "title": "El archivo de los nombres borrados",
+    "summary": "Una lista con nombres tachados despierta una sospecha, pero los documentos de un grupo de teatro no cuentan todos lo mismo.",
+    "paragraphs": [
+      "Núria encontró la lista en una carpeta del grupo teatral de su bisabuelo. Catorce nombres manuscritos, tres tachados y ninguna explicación. En el centro había una foto de la misma compañía con solo siete nombres al pie. Acercó los papeles y dijo a Quim que alguien había borrado parte de la historia. La frase ya parecía un título antes de empezar a investigar.",
+      "La responsable del archivo les dejó una mesa y pidió anotar la procedencia de cada documento. La lista no tenía fecha, pero estaba entre papeles de varias temporadas. La foto sí llevaba un año detrás. Quim propuso atribuir a la lista ese año. La responsable preguntó si compartir carpeta bastaba para compartir fecha. Dejaron un interrogante junto a la hoja. Anotaron también quién había reunido la carpeta y qué información se conocía de su llegada al archivo. Esperaban que esos datos ayudaran a relacionar los papeles sin decidir de antemano que todos pertenecían al mismo episodio. La cercanía material de los documentos no establecía por sí sola su relación exacta.",
+      "El segundo documento era un programa. Siete nombres coincidían con la foto y figuraban bajo «reparto». Debajo decía: «Vestuario: Roser y equipo». Roser también estaba en la lista larga, sin tachar. Núria comprendió que había tratado el pie de foto como un censo de todos los que hicieron posible el espectáculo. La fotografía y la lista podían registrar grupos distintos sin que uno hubiera sido borrado del otro.",
+      "En una carta, un actor explicaba que no podía continuar por un cambio de turno en la fábrica. Era uno de los tres nombres tachados. La carta no resolvía los otros casos ni decía quién trazó la raya o si la lista se preparó antes o después de su renuncia. Era una pista más concreta que una suposición, pero no una llave para toda la carpeta.",
+      "Núria sintió decepción: la historia de una exclusión escondida parecía escapársele. Volvió a leer «Roser y equipo». ¿Quién era aquel equipo? El programa no daba más nombres. En una foto de ensayo se veía a dos personas cosiendo al fondo, sin identificar. El archivo no justificaba la acusación inicial y, a la vez, mostraba un vacío real sobre trabajos poco documentados. Podían reconocer esa ausencia sin inventar una intención común detrás de todos los silencios.",
+      "Prepararon un panel con preguntas, no con una denuncia resuelta. Presentaron la lista como documento sin fecha confirmada. Junto a la carta señalaron qué caso ayudaba a explicar. Bajo la foto del ensayo preguntaron si alguien reconocía a las personas del fondo. Evitaron mostrar los otros nombres tachados como si supieran por qué habían dejado la compañía.",
+      "El título fue «Quién aparece y quién falta». Núria aún quería recuperar nombres, pero no todos los silencios le parecían la misma historia. Unos documentos registraban un tipo de trabajo; otros habían perdido su contexto. La carpeta no hablaba sola. Para escucharla debían revisar también las preguntas con las que la habían abierto."
+    ],
+    "images": [
+      {
+        "id": "el-archivo-de-los-nombres-borrados-art1",
+        "src": "assets/readings/l233-el-archivo-de-los-nombres-borrados-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Dos jóvenes examinan con lupa un registro antiguo de nombres y líneas tachadas en una mesa de archivo."
+      },
+      {
+        "id": "el-archivo-de-los-nombres-borrados-art2",
+        "src": "assets/readings/l233-el-archivo-de-los-nombres-borrados-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Un investigador compara documentos separados y un cuaderno bajo una lámpara de archivo."
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q1",
+        "type": "literal",
+        "prompt": "¿Cuántos nombres tenía la lista y cuántos estaban tachados?",
+        "answer": "Catorce nombres, tres tachados.",
+        "lines": 2
+      },
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q2",
+        "type": "literal",
+        "prompt": "¿Qué explicaba la carta de uno de los actores?",
+        "answer": "Que no podía continuar porque había cambiado de turno en la fábrica.",
+        "lines": 2
+      },
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa que no era «una llave para toda la carpeta»?",
+        "answer": "Que ayudaba a entender un caso, pero no resolvía todas las incógnitas de los demás documentos.",
+        "lines": 2
+      },
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q4",
+        "type": "inference",
+        "prompt": "¿Por qué no pueden atribuir a la lista la fecha de la foto?",
+        "answer": "Porque la carpeta contiene papeles de varias temporadas y no está demostrado que lista y foto sean del mismo momento.",
+        "lines": 3
+      },
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q5",
+        "type": "inference",
+        "prompt": "¿Qué confusión corrige encontrar «reparto» en el programa?",
+        "answer": "Que los siete nombres fueran todos los participantes; podían ser solo los intérpretes de aquella obra.",
+        "lines": 3
+      },
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q6",
+        "type": "inference",
+        "prompt": "¿Por qué la carta no resuelve el significado de las tres rayas?",
+        "answer": "Porque solo habla de la renuncia de un actor y no identifica quién tachó la lista ni qué ocurrió con los otros.",
+        "lines": 3
+      },
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q7",
+        "type": "inference",
+        "prompt": "¿Qué vacío real sigue existiendo aunque no se demuestre la acusación inicial?",
+        "answer": "Faltan nombres e información de personas que hacían vestuario u otros trabajos poco documentados.",
+        "lines": 3
+      },
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q8",
+        "type": "structure",
+        "prompt": "¿Qué muestra el cambio del primer título imaginado al final?",
+        "answer": "El paso de afirmar una exclusión intencionada a investigar quién aparece, quién falta y qué permiten saber los documentos.",
+        "lines": 3
+      },
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q9",
+        "type": "inference",
+        "prompt": "¿Por qué tiene sentido pedir al público que identifique a las personas de la foto?",
+        "answer": "Porque puede aportar información nueva para una ausencia concreta sin dar por resuelta la identidad.",
+        "lines": 3
+      },
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q10",
+        "type": "summary",
+        "prompt": "Resume dos causas distintas de ausencias documentales del relato.",
+        "answer": "Un documento puede registrar solo un tipo de participación, como el reparto; otro puede haber perdido fecha o contexto. Una renuncia explica además un caso particular.",
+        "lines": 3
+      },
+      {
+        "id": "el-archivo-de-los-nombres-borrados-q11",
+        "type": "opinion",
+        "prompt": "Escribe un pie breve para la lista larga que distinga lo sabido de lo pendiente. Justifica una decisión de redacción.",
+        "answer": "Respuesta abierta con nombres y tachaduras como datos, fecha o motivos como incógnitas, sin atribuir intenciones no probadas.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 4,
+        "text": "una llave para toda la carpeta",
+        "questionId": "el-archivo-de-los-nombres-borrados-q3"
+      }
+    ]
+  },
+  {
+    "id": "una-ruta-que-no-era-la-mas-corta-es",
+    "code": "L234",
+    "workId": "una-ruta-que-no-era-la-mas-corta",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "intermediate",
+    "themes": [
+      "technology",
+      "geography",
+      "math"
+    ],
+    "genre": "informative",
+    "title": "Una ruta que no era la más corta",
+    "summary": "Elegir un recorrido implica decidir qué queremos minimizar y qué condiciones no estamos dispuestos a aceptar.",
+    "paragraphs": [
+      "El mapa mostraba dos rutas entre la escuela y el centro cultural. La roja medía seiscientos metros; la verde, novecientos. En el primer recuento ganaba claramente la roja: trescientos metros menos. Pero debían preparar una salida con una persona que utilizaba silla de ruedas. El trazado rojo incluía una escalera larga; el verde seguía calles sin escalones. La cifra menor no resolvía la pregunta del grupo.",
+      "No se trataba solo de añadir un inconveniente a una lista de ventajas. Para aquella salida, una escalera no era una opción aceptable. La condición debía comprobarse antes de comparar preferencias. Un recorrido muy corto que no podía completarse no era una alternativa casi tan buena. Primero había que encontrar itinerarios posibles; después, compararlos con los criterios elegidos.",
+      "Añadieron un tercer camino de mil metros, también sin escalones. Pasaba por un parque con sombra, pero tenía una puerta abierta solo en cierto horario. La ida estaba prevista a las diez y la vuelta a la una. Consultaron el horario y confirmaron que estaría abierta en ambos momentos. Mirar únicamente la ida habría dejado medio problema sin revisar. Tampoco querían dibujar una puerta abierta como si esa condición fuera permanente durante todo el día.",
+      "Podían discutir entre la ruta verde y la del parque. La verde era más corta; la otra ofrecía sombra y bancos. No conocían todas las preferencias como para convertirlas en un resultado indiscutible. Acordaron ir por la verde y valorar la vuelta después de comprobar el desplazamiento. La persona que usaba la silla participó en la conversación, no solo en una casilla del papel. Podía aportar experiencias que las distancias y los símbolos no recogían por sí solos.",
+      "Representaron los puntos importantes con círculos y los tramos con líneas informadas. Figuraban distancias, escaleras y horarios. Advirtieron que cualquier herramienta de rutas necesita saber qué significa «mejor» en cada caso. Una recomendación cambia al cambiar el objetivo o al incorporar una condición antes ausente. El dibujo no elegía esas prioridades por ellos: debían decidirlas y explicarlas. Anotar los criterios permitía que otra persona entendiera por qué una línea más larga podía aparecer destacada, sin atribuir la elección a un error de cálculo.",
+      "El modelo no sustituía revisar la calle. Un tramo podía estar en obras o tener una acera ocupada. Por eso comprobaron los itinerarios y anotaron la fecha antes de la salida. El mapa ayudaba a decidir, no prometía que el espacio nunca cambiaría. También acordaron dónde reunirse si necesitaban detener al grupo.",
+      "En la hoja final no escribieron «la ruta más corta», sino «rutas para nuestra salida», con los criterios debajo. La roja seguía siendo la menor en metros, pero ya no ganaba cualquier comparación. Habían aprendido que calcular bien una distancia y formular bien el problema son trabajos distintos. Ambos importaban para llegar juntos, sin convertir las necesidades de una persona en un detalle que se mirara al final."
+    ],
+    "images": [
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-art1",
+        "src": "assets/readings/l234-una-ruta-que-no-era-la-mas-corta-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un cruce del barrio ofrece una escalera empinada y un camino más largo con pendiente suave."
+      },
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-art2",
+        "src": "assets/readings/l234-una-ruta-que-no-era-la-mas-corta-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Un mapa de rutas sobre una mesa muestra dos itinerarios de distinta longitud entre dos puntos."
+      }
+    ],
+    "questions": [
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q1",
+        "type": "literal",
+        "prompt": "¿Cuánto miden las rutas roja y verde?",
+        "answer": "Seiscientos y novecientos metros, respectivamente.",
+        "lines": 2
+      },
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q2",
+        "type": "literal",
+        "prompt": "¿Qué condición adicional deben comprobar para la ruta del parque?",
+        "answer": "Que la puerta esté abierta a la ida y a la vuelta.",
+        "lines": 2
+      },
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «criterios» al comparar rutas?",
+        "answer": "Aspectos usados para valorarlas, como distancia, sombra, descanso o condiciones de paso.",
+        "lines": 2
+      },
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q4",
+        "type": "inference",
+        "prompt": "¿Por qué no tratar la escalera como un pequeño inconveniente compensable con menos metros?",
+        "answer": "Porque impide completar la ruta prevista con la persona en silla de ruedas; es una condición de uso, no solo una preferencia.",
+        "lines": 3
+      },
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q5",
+        "type": "inference",
+        "prompt": "¿Por qué la ruta de mil metros puede preferirse a la de novecientos?",
+        "answer": "Porque ofrece sombra y bancos, criterios que pueden importar más que cien metros de diferencia.",
+        "lines": 3
+      },
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q6",
+        "type": "inference",
+        "prompt": "¿Por qué no basta con comprobar que la puerta abre a las diez?",
+        "answer": "Porque la vuelta es a la una y el itinerario también debe ser posible entonces.",
+        "lines": 3
+      },
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q7",
+        "type": "inference",
+        "prompt": "¿Qué aporta que participe la persona que usa la silla?",
+        "answer": "Permite conocer sus experiencias y preferencias en vez de reducirlas a una suposición de los demás.",
+        "lines": 3
+      },
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q8",
+        "type": "structure",
+        "prompt": "¿Qué función tiene el tercer camino en el razonamiento?",
+        "answer": "Muestra que entre rutas posibles aún hay criterios y condiciones diferentes que comparar, no una respuesta automática.",
+        "lines": 3
+      },
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q9",
+        "type": "inference",
+        "prompt": "¿Por qué hay que indicar cuándo se revisó el mapa?",
+        "answer": "Porque las condiciones pueden cambiar y la fecha informa de cuándo se comprobaron.",
+        "lines": 3
+      },
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q10",
+        "type": "summary",
+        "prompt": "Explica la diferencia entre hallar la distancia mínima y una ruta adecuada para el grupo.",
+        "answer": "La distancia mínima compara metros; una ruta adecuada debe poder usarse y responder a criterios y condiciones del grupo.",
+        "lines": 3
+      },
+      {
+        "id": "una-ruta-que-no-era-la-mas-corta-q11",
+        "type": "opinion",
+        "prompt": "Propón una situación donde cambie el criterio principal de una ruta. Explica una condición imprescindible y una preferencia.",
+        "answer": "Respuesta abierta que distinga qué hace posible la ruta y qué la hace más deseable entre alternativas posibles.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 2,
+        "text": "criterios",
+        "questionId": "una-ruta-que-no-era-la-mas-corta-q3"
+      }
+    ]
   }
 ];

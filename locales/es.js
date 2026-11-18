@@ -40,6 +40,8 @@ v1.38 · Obre l’historial de canvis|v1.38 · Abrir el historial de cambios
 Quinze lectures noves de 1r d’ESO inicial (L208–L222), en català i castellà, amb dues il·lustracions, deu preguntes, solucionari i espais ajustats. La tanda combina narracions, notícies, entrevistes, diaris, ressenyes, instruccions, cartes i argumentació.|Quince lecturas nuevas de 1.º de ESO inicial (L208–L222), en catalán y castellano, con dos ilustraciones, diez preguntas, solucionario y espacios ajustados. La tanda combina narraciones, noticias, entrevistas, diarios, reseñas, instrucciones, cartas y argumentación.
 v1.38.1 · Obre l’historial de canvis|v1.38.1 · Abrir el historial de cambios
 Sis lectures noves de 1r d’ESO intermedi (L223–L228), en català i castellà: enquestes, memòria, música, mapes, serveis digitals i ratpenats. Dues il·lustracions i onze preguntes amb solucionari per lectura.|Seis lecturas nuevas de 1.º de ESO intermedio (L223–L228), en catalán y castellano: encuestas, memoria, música, mapas, servicios digitales y murciélagos. Dos ilustraciones y once preguntas con solucionario por lectura.
+v1.38.2 · Obre l’historial de canvis|v1.38.2 · Abrir el historial de cambios
+Sis lectures més de 1r d’ESO intermedi (L229–L234), en català i castellà: energia, arqueologia, conques d’aigua, una final ajornada, memòria documental i rutes. Dues il·lustracions, onze preguntes i solucionari per lectura.|Seis lecturas más de 1.º de ESO intermedio (L229–L234), en catalán y castellano: energía, arqueología, cuencas, una final aplazada, memoria documental y rutas. Dos ilustraciones, once preguntas y solucionario por lectura.
 Catàleg de lectures|Catálogo de lecturas
 Cerca al catàleg|Buscar en el catálogo
 Cerca per títol, codi o tema|Buscar por título, código o tema
