@@ -1,7 +1,8 @@
 import { animateRefresh, mountDisclosures } from './motion.js';
 import { syncSelects } from './select-menu.js';
 import { language, languages, t } from './i18n.js';
-import { collectionsKey, listCollections, removeCollection } from './collections.js';
+import { collectionsKey, listCollections, moveCollectionReading, removeCollection, removeCollectionReading } from './collections.js';
+import { mountCatalogGestures } from './catalog-gestures.js';
 
 export const labels = {
   language: { es: 'Castellà', ca: 'Català' },
@@ -113,7 +114,7 @@ function sortFacet(facet, a, b, compare) {
   return compare(labelFor(facet, a), labelFor(facet, b));
 }
 
-export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActivity, onSaveCollection, onManageCollection }) {
+export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActivity, onSaveCollection }) {
   let catalog = indexCatalog(readings);
   for (let index = catalog.length - 1; index > 0; index -= 1) {
     const other = Math.floor(Math.random() * (index + 1));
@@ -142,8 +143,10 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
   const collection = root.querySelector('#collection-select');
   const collectionTag = root.querySelector('#catalog-collection-label');
   const collectionRemove = root.querySelector('#collection-remove');
-  const collectionManage = root.querySelector('#collection-manage');
+  const collectionAdd = root.querySelector('#collection-add');
+  const collectionHelp = root.querySelector('.collection-help');
   const collectionStatus = root.querySelector('#collection-status');
+  const cardStatus = root.querySelector('#catalog-card-status');
   const selectionToggle = root.querySelector('#collection-save');
   const selectionBar = root.querySelector('#catalog-selection');
   const selectionCount = root.querySelector('#selection-count');
@@ -162,6 +165,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
   let visibleIds;
   let searchTimer;
   let lastTrackedSearch = '';
+  let gestures;
   const observer = typeof IntersectionObserver === 'function' ? new IntersectionObserver(entries => {
     if (entries.some(entry => entry.isIntersecting) && document.activeElement !== more) loadMore();
   }) : null;
@@ -275,6 +279,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
 
   function cardFor({ reading, count }, words) {
     const card = template.content.firstElementChild.cloneNode(true);
+    card.dataset.id = reading.id;
     const art = card.querySelector('.card-art');
     const image = art.querySelector('img');
     const title = card.querySelector('.card-title');
@@ -314,7 +319,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     return card;
   }
 
-  function render({ append = false, animated = false, translated = false } = {}) {
+  function render({ append = false, animated = false, translated = false, keepScroll = false } = {}) {
     const words = new Intl.NumberFormat(language());
     const facets = selectedFacets();
     const activeCount = optionalFields.filter(field => field.value).length;
@@ -333,7 +338,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
         for (const card of cards) animateRefresh(card);
       } else {
         grid.replaceChildren(...cards);
-        if (!translated) {
+        if (!translated && !keepScroll) {
           const scrollPane = compact.matches ? root.closest('main') : results;
           scrollPane.scrollTop = 0;
         }
@@ -384,7 +389,10 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
       button.firstElementChild.textContent = t(selecting ? 'Selecciona' : 'Prepara la fitxa');
       if (selecting) button.setAttribute('aria-pressed', String(selected));
       else button.removeAttribute('aria-pressed');
+      button.setAttribute('aria-describedby', selecting ? 'catalog-selection-help' : 'catalog-card-help');
     }
+    if (selecting) gestures?.close();
+    gestures?.sync();
   }
 
   function clearSelection() {
@@ -406,6 +414,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
   }
 
   function refresh() {
+    gestures?.close();
     limit = firstBatchSize;
     render({ animated: true });
   }
@@ -436,7 +445,10 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     collectionTag.textContent = activeCollection?.name ?? '';
     collectionTag.hidden = !activeCollection;
     collectionRemove.hidden = !activeCollection;
-    collectionManage.disabled = !activeCollection;
+    collectionAdd.hidden = !activeCollection;
+    collectionHelp.textContent = t(activeCollection
+      ? 'Arrossega les targetes per ordenar-les. Mantén-ne una premuda per veure les opcions.'
+      : 'Desa un conjunt de lectures amb el seu ordre, maquetat i codis d’aula. Mantén premuda una targeta per afegir-la.');
     syncSelects(root);
   }
 
@@ -467,7 +479,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     selectCollection(collection.value);
     if (activeCollection) onActivity?.('colleccio', { accio: 'obre', quantitat: activeCollection.readingIds.length });
   });
-  collectionManage.addEventListener('click', () => { if (activeCollection) onManageCollection(activeCollection.id); });
+  collectionAdd.addEventListener('click', () => { if (activeCollection) startAdding(activeCollection.id); });
   selectionToggle.addEventListener('click', () => {
     beginSelection();
     onActivity?.('colleccio', { accio: 'selecciona' });
@@ -519,18 +531,84 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
   mountDisclosures(sidebar, { exclusive: true, selector: ':scope > details' });
   mountDisclosures(root.querySelector('.catalog-extra-filters').parentElement);
   more.addEventListener('click', () => loadMore(true));
+  function startAdding(id) {
+    selectCollection('');
+    addingTo = collections.find(entry => entry.id === id);
+    beginSelection();
+    onActivity?.('colleccio', { accio: 'selecciona' });
+    search.focus();
+  }
+
+  function commitCollection(change, focusId, action, message) {
+    try {
+      const previous = activeCollection.readingIds.join(' ');
+      const entry = change();
+      collections = listCollections();
+      activeCollection = entry;
+      syncCollections();
+      visibleIds = undefined;
+      render({ keepScroll: true, animated: action === 'retira' });
+      if (previous !== entry.readingIds.join(' ')) onActivity?.('colleccio', { accio: action });
+      const position = orderedMatches.findIndex(({ reading }) => reading.id === focusId) + 1;
+      cardStatus.textContent = message ?? t('Lectura moguda a la posició {position}.', { position });
+      collectionStatus.textContent = '';
+      const focus = [...grid.querySelectorAll('.card-open')].find(button => button.dataset.id === focusId);
+      (focus ?? collectionAdd).focus({ preventScroll: true });
+    } catch (error) {
+      const message = error instanceof DOMException ? t('No s’han pogut desar els canvis de la col·lecció.') : error.message;
+      cardStatus.textContent = collectionStatus.textContent = message;
+      visibleIds = undefined;
+      render({ keepScroll: true });
+      const summary = root.querySelector('#catalog-collection-panel > summary');
+      if (summary.getAttribute('aria-expanded') === 'false') summary.click();
+    }
+  }
+
+  function afterReading(id, movingId) {
+    const position = activeCollection.readingIds.indexOf(id);
+    return activeCollection.readingIds.slice(position + 1).find(entry => entry !== movingId);
+  }
+
+  function moveReading(id, beforeId) {
+    if (!activeCollection || selecting || !activeCollection.readingIds.includes(id)) return;
+    // A drop at the end of the visible grid stays before any unloaded/filtered
+    // tail of the collection rather than silently jumping to its absolute end.
+    if (!beforeId) {
+      const previous = [...grid.children].findLast(card => card.dataset.id !== id);
+      beforeId = afterReading(previous?.dataset.id, id);
+    }
+    commitCollection(() => moveCollectionReading(activeCollection.id, id, beforeId), id, 'reordena');
+  }
+
+  gestures = mountCatalogGestures({
+    root, grid, scroller: results,
+    getState: () => ({ selecting, collectionId: activeCollection?.id }),
+    onMove: moveReading,
+    onStep(id, direction) {
+      const index = orderedMatches.findIndex(({ reading }) => reading.id === id);
+      const neighbor = orderedMatches[index + direction]?.reading;
+      if (!neighbor) return;
+      const beforeId = direction < 0 ? neighbor.id : afterReading(neighbor.id, id);
+      commitCollection(() => moveCollectionReading(activeCollection.id, id, beforeId), id, 'reordena');
+    },
+    onAdd(id) {
+      const reading = catalog.find(item => item.reading.id === id)?.reading;
+      if (reading) onSaveCollection([reading]);
+    },
+    onRemove(id) {
+      if (!activeCollection) return;
+      const index = orderedMatches.findIndex(item => item.reading.id === id);
+      const next = (orderedMatches[index + 1] ?? orderedMatches[index - 1])?.reading.id;
+      commitCollection(() => removeCollectionReading(activeCollection.id, id), next, 'retira', t('Lectura retirada de la col·lecció.'));
+    },
+  });
   syncCollections();
   render();
 
   return {
     loadCollections,
     clearSelection,
-    startAdding(id) {
-      selectCollection('');
-      addingTo = collections.find(entry => entry.id === id);
-      beginSelection();
-      search.focus();
-    },
+    startAdding,
     activeCollection: () => activeCollection,
     matchingReadings() {
       return orderedMatches.map(({ reading }) => reading);

@@ -9,7 +9,6 @@ import { countBucket, startAnalytics, trackFeature, trackFilterApplied, trackRea
 import { listPersonalReadings, readingStorageKey } from './reading-files.js';
 import { mountBatchDownload } from './batch-download.js';
 import { listCollections, saveCollectionEntries } from './collections.js';
-import { mountCollectionLibrary } from './collection-library.js';
 
 const main = document.querySelector('#contingut');
 const catalogView = document.querySelector('#catalog-view');
@@ -74,7 +73,6 @@ const catalog = mountCatalog({
   onActivity: (name, data) => trackFeature(name, Object.fromEntries(Object.entries(data)
     .map(([key, value]) => [key, ['quantitat', 'resultats'].includes(key) ? countBucket(value) : value]))),
   onSaveCollection: saveCollection,
-  onManageCollection: id => collectionLibrary.open(id),
 });
 const studio = mountStudio({
   root: studioView,
@@ -87,12 +85,6 @@ const studio = mountStudio({
   onRemove: removeReading,
 });
 const batchDialog = document.querySelector('#batch-dialog');
-const collectionLibrary = mountCollectionLibrary({
-  dialog: document.querySelector('#collection-library'),
-  readings,
-  onChange: id => catalog.loadCollections(id),
-  onAdd: id => catalog.startAdding(id),
-});
 const collectionDialog = document.querySelector('#collection-dialog');
 const collectionName = collectionDialog.querySelector('#collection-name');
 const collectionTarget = collectionDialog.querySelector('#collection-target');
@@ -181,7 +173,6 @@ mountActionMenu(document.querySelector('#language-button'), languageMenu, value 
   applyTheme(document.documentElement.dataset.theme);
   catalog.translate();
   studio.translate();
-  collectionLibrary.translate();
   lightningStatus.textContent = '';
 });
 

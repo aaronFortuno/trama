@@ -153,10 +153,20 @@ const stub = `window.umami = { track(name, data) { const payload = {name, data};
     await waitEvent('colleccio', 2);
     assert((await events('colleccio')).some(e => e.data.accio === 'crea' && e.data.quantitat === '2-5'));
     assert.equal(await page.locator('#reading-grid [aria-pressed]').count(), 0, 'Saving must restore normal card navigation');
-    await page.locator('#collection-manage').click();
-    await page.locator('#collection-library-list [data-action="down"]').first().click();
+    const beforeDrag = await page.locator('#reading-grid .card-open').evaluateAll(buttons => buttons.map(button => button.dataset.id));
+    const source = await cards.nth(0).boundingBox();
+    const target = await cards.nth(1).boundingBox();
+    await page.mouse.move(source.x + source.width / 2, source.y + 70);
+    await page.mouse.down();
+    await page.mouse.move(source.x + source.width / 2 + 12, source.y + 70);
+    await page.waitForFunction(() => document.body.classList.contains('is-catalog-dragging'));
+    await page.mouse.move(target.x + target.width * .8, target.y + 70, { steps: 12 });
+    await page.waitForTimeout(180);
+    await page.mouse.up();
+    await page.waitForFunction(before => document.querySelector('#reading-grid .card-open').dataset.id !== before, beforeDrag[0]);
+    assert.deepEqual(await page.locator('#reading-grid .card-open').evaluateAll(buttons => buttons.map(button => button.dataset.id)), beforeDrag.toReversed());
     assert((await events('colleccio')).some(e => e.data.accio === 'reordena'));
-    await page.locator('#collection-library [data-close-dialog]').first().click();
+    assert.equal(await page.locator('#catalog-view').isVisible(), true);
 
     // A combined job sends one event, never one event per worksheet or page.
     await page.locator('#batch-open').click();

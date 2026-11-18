@@ -20,6 +20,10 @@ Activa **Codi d’aula** a **Encapçalament** per afegir una etiqueta a la dreta
 
 Al solucionari, **Pistes al text** ressalta els fragments que sustenten les respostes i els identifica amb el número de la pregunta. **Veure al text**, amb el mateix color, porta al fragment en la previsualització. Els números permeten seguir les referències també en blanc i negre. Pots desactivar les marques des del sidebar de contingut; la tria es desa amb el maquetat i s’aplica també als lots. Les preguntes d’opinió o de síntesi global poden no tenir un fragment localitzat.
 
+## Col·leccions
+
+Les col·leccions es reordenen arrossegant les targetes directament a la graella; l’ordre queda desat i s’aplica a la navegació entre lectures i als lots. Un clic obre la lectura, o la marca/desmarca si has activat la selecció. Una pulsació llarga, clic dret o Majúscules + F10 obre les opcions de la targeta: afegir-la a una col·lecció existent o nova, o retirar-la de l’actual. Retirar-la conserva el maquetat per si la tornes a afegir. Amb el focus a una targeta d’una col·lecció, Alt + fletxes permet reordenar amb el teclat. A **Afegeix lectures**, al sidebar, pots incorporar-hi una selecció més gran.
+
 ## Imprimir fitxes en bloc
 
 Acota el catàleg amb la cerca i els filtres i obre **Imprimeix un lot**. Totes les lectures de la llista apareixen marcades i pots desmarcar les que no et calen. **Imprimeix** obre les fitxes d’alumnat al diàleg d’impressió del navegador. La fletxa del costat permet imprimir el solucionari i descarregar les fitxes o els solucionaris en un PDF conjunt o en un ZIP amb un PDF per lectura. S’hi aplica el format inicial del curs o el que hagis ajustat durant la sessió.
@@ -82,6 +86,8 @@ Trama funciona al navegador. L’aplicació, les lectures i les il·lustracions 
 Els textos, les preguntes i les respostes orientatives originals del catàleg es publiquen sota [Creative Commons Reconeixement 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Atribueix el material a [Trama](https://trama.ortogra.fi/) i indica els canvis si l’adaptes. L’avís del peu de les fitxes correspon a aquests textos. Les il·lustracions, els recursos de tercers i les lectures que importis queden fora d’aquest avís.
 
 El codi de Trama es distribueix sota la [llicència MIT](LICENSE). Algunes icones de la interfície són de [Lucide](https://lucide.dev/) i es distribueixen amb els seus [avisos de llicència](assets/icons/LICENSE). La descàrrega de PDF fa servir [pdf-lib](https://pdf-lib.js.org/), amb la seva [llicència MIT](assets/vendor/pdf-lib.LICENSE.md). La fotografia de l’autor i el QR del V4V provenen de [Plec](https://github.com/aaronFortuno/plec-dictats).
+
+La reordenació de targetes fa servir [SortableJS 1.15.7](assets/vendor/sortable/README.md), amb [llicència MIT](assets/vendor/sortable/LICENSE), servit localment.
 
 Les tipografies incloses al web tenen els seus [crèdits i llicències](assets/fonts/README.md).
 

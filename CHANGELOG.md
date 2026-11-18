@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.44 · 18 de novembre del 2026
+
+Les col·leccions es reordenen arrossegant les targetes directament a la graella, amb l’ordre desat per a la navegació i els lots. El clic obre la fitxa o alterna la selecció; una pulsació llarga o clic dret obre les opcions per afegir-la a una col·lecció existent o nova, o retirar-la de l’actual conservant-ne el maquetat. Substituïm el gestor d’ordenació emergent pels gestos a les targetes i el botó «Afegeix lectures». Incloem reordenació amb Alt + fletxes, opcions amb Majúscules + F10 i suport tàctil amb desplaçament normal de la pàgina.
+
 ## 1.43.1 · 18 de novembre del 2026
 
 En mode selecció de col·leccions, tota la targeta serveix per seleccionar o deseleccionar la lectura, també amb el teclat. Substituïm els checkboxes per una marca de selecció i una vora destacada. En acabar o cancel·lar la selecció, les targetes tornen a obrir les lectures amb normalitat.

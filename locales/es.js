@@ -1,4 +1,15 @@
 export const es = Object.fromEntries(`
+v1.44 · Obre l’historial de canvis|v1.44 · Abrir el historial de cambios
+Les col·leccions es reordenen arrossegant les targetes directament a la graella, amb l’ordre desat per a la navegació i els lots. El clic obre la fitxa o alterna la selecció; una pulsació llarga o clic dret obre les opcions per afegir-la a una col·lecció existent o nova, o retirar-la de l’actual conservant-ne el maquetat. Substituïm el gestor d’ordenació emergent pels gestos a les targetes i el botó «Afegeix lectures». Incloem reordenació amb Alt + fletxes, opcions amb Majúscules + F10 i suport tàctil amb desplaçament normal de la pàgina.|Las colecciones se reordenan arrastrando las tarjetas directamente en la cuadrícula, con el orden guardado para la navegación y los lotes. El clic abre la ficha o alterna la selección; una pulsación larga o clic derecho abre las opciones para añadirla a una colección existente o nueva, o retirarla de la actual conservando su maquetación. Sustituimos el gestor de ordenación emergente por los gestos en las tarjetas y el botón «Añade lecturas». Incluimos reordenación con Alt + flechas, opciones con Mayús + F10 y soporte táctil con desplazamiento normal de la página.
+Arrossega les targetes per ordenar-les. Mantén-ne una premuda per veure les opcions.|Arrastra las tarjetas para ordenarlas. Mantén pulsada una para ver las opciones.
+Desa un conjunt de lectures amb el seu ordre, maquetat i codis d’aula. Mantén premuda una targeta per afegir-la.|Guarda un conjunto de lecturas con su orden, maquetación y códigos de aula. Mantén pulsada una tarjeta para añadirla.
+Mantén premuda una targeta o prem Majúscules + F10 per veure’n les opcions. Dins d’una col·lecció, arrossega per ordenar o prem Alt + fletxes.|Mantén pulsada una tarjeta o pulsa Mayús + F10 para ver sus opciones. Dentro de una colección, arrastra para ordenar o pulsa Alt + flechas.
+Fes clic o prem Espai per seleccionar o deseleccionar la lectura.|Haz clic o pulsa Espacio para seleccionar o deseleccionar la lectura.
+Afegeix a una col·lecció…|Añade a una colección…
+Afegeix a una altra col·lecció…|Añade a otra colección…
+Treu de la col·lecció|Retira de la colección
+Lectura moguda a la posició {position}.|Lectura movida a la posición {position}.
+Reordenació de targetes amb|Reordenación de tarjetas con
 v1.43.1 · Obre l’historial de canvis|v1.43.1 · Abrir el historial de cambios
 En mode selecció de col·leccions, tota la targeta serveix per seleccionar o deseleccionar la lectura, també amb el teclat. Substituïm els checkboxes per una marca de selecció i una vora destacada. En acabar o cancel·lar la selecció, les targetes tornen a obrir les lectures amb normalitat.|En el modo de selección de colecciones, toda la tarjeta sirve para seleccionar o deseleccionar la lectura, también con el teclado. Sustituimos las casillas por una marca de selección y un borde destacado. Al terminar o cancelar la selección, las tarjetas vuelven a abrir las lecturas con normalidad.
 v1.43 · Obre l’historial de canvis|v1.43 · Abrir el historial de cambios
