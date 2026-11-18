@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.41.2 · 18 de novembre del 2026
+
+Ampliem les pistes del solucionari fins a la L076, amb fragments revisats en català i castellà i indicis combinats per a les preguntes d’inferència.
+
 ## 1.41.1 · 18 de novembre del 2026
 
 Les pistes del solucionari s’amplien fins a L050, en català i castellà. Els fragments exactes s’han revisat amb les respostes de cada idioma; les marques poden compartir un passatge i mantenen la numeració quan s’amaguen preguntes.
