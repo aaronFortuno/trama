@@ -36,6 +36,8 @@ v1.36.1 · Obre l’historial de canvis|v1.36.1 · Abrir el historial de cambios
 Dotze lectures noves de 6è inicial (L190–L201), en català i castellà, amb il·lustració, vuit preguntes, solucionari i espais de resposta ajustats. El nivell inicial de 6è arriba a quinze lectures per idioma.|Doce lecturas nuevas de 6.º inicial (L190–L201), en catalán y castellano, con ilustración, ocho preguntas, solucionario y espacios de respuesta ajustados. El nivel inicial de 6.º alcanza quince lecturas por idioma.
 v1.37 · Obre l’historial de canvis|v1.37 · Abrir el historial de cambios
 Sis lectures noves de 6è intermedi (L202–L207), en català i castellà, amb dues il·lustracions, nou preguntes, solucionari i notes de vocabulari quan escau. 6è completa quinze lectures de cada dificultat en tots dos idiomes.|Seis lecturas nuevas de 6.º intermedio (L202–L207), en catalán y castellano, con dos ilustraciones, nueve preguntas, solucionario y notas de vocabulario cuando procede. 6.º completa quince lecturas de cada dificultad en ambos idiomas.
+v1.38 · Obre l’historial de canvis|v1.38 · Abrir el historial de cambios
+Quinze lectures noves de 1r d’ESO inicial (L208–L222), en català i castellà, amb dues il·lustracions, deu preguntes, solucionari i espais ajustats. La tanda combina narracions, notícies, entrevistes, diaris, ressenyes, instruccions, cartes i argumentació.|Quince lecturas nuevas de 1.º de ESO inicial (L208–L222), en catalán y castellano, con dos ilustraciones, diez preguntas, solucionario y espacios ajustados. La tanda combina narraciones, noticias, entrevistas, diarios, reseñas, instrucciones, cartas y argumentación.
 Catàleg de lectures|Catálogo de lecturas
 Cerca al catàleg|Buscar en el catálogo
 Cerca per títol, codi o tema|Buscar por título, código o tema
