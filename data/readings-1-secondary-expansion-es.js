@@ -1837,5 +1837,787 @@ export const readings1SecondaryExpansionEs = [
         "definition": "Muestra alargada extraída del terreno o del fondo que conserva una sucesión de capas."
       }
     ]
+  },
+  {
+    "id": "una-muestra-que-no-cabia-en-el-titular-es",
+    "code": "L223",
+    "workId": "una-muestra-que-no-cabia-en-el-titular",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "intermediate",
+    "themes": [
+      "community",
+      "math",
+      "technology"
+    ],
+    "genre": "informative",
+    "title": "Una muestra que no cabía en el titular",
+    "summary": "Un porcentaje correcto se convierte en una afirmación exagerada cuando desaparece quién ha respondido la encuesta.",
+    "paragraphs": [
+      "La redacción del boletín del centro cívico tenía un titular casi terminado: «El setenta por ciento del barrio quiere abrir más tarde». La cifra procedía de una encuesta sobre el horario de la sala de estudio. Parecía clara, fácil de recordar y contundente para la portada. Antes de publicarla, Laia pidió ver la pregunta y la lista de personas a quienes se había enviado. Quería saber qué había debajo del porcentaje.",
+      "El cuestionario se había dirigido a las ochenta personas inscritas en la sala. Respondieron sesenta. Cuarenta y dos preferían empezar una hora más tarde y terminar también más tarde; dieciocho querían mantener el horario. La división era correcta: cuarenta y dos de sesenta representaban el setenta por ciento de las respuestas. El problema empezaba cuando la frase convertía «las respuestas recibidas» en «el barrio».",
+      "Las personas inscritas no eran todas las que vivían en la zona. Tampoco incluían necesariamente a quien había dejado de usar la sala porque el horario no le convenía. La consulta podía describir preferencias de un grupo concreto, pero no había preguntado a una selección preparada para representar al vecindario entero. Además, veinte personas invitadas no contestaron. No podían repartirlas entre las opciones como si conocieran su opinión.",
+      "Marc propuso añadir veinte respuestas a favor del horario actual, por prudencia. Laia señaló que eso también sería inventar datos. No responder podía tener causas distintas: no haber visto el mensaje, no tener una preferencia clara o no querer participar. Si esas personas tenían hábitos distintos de quienes contestaron, el resultado podía quedar sesgado. Pero no sabían en qué dirección ni con qué intensidad.",
+      "Revisaron también la pregunta. Ofrecía dos opciones completas de horario; no preguntaba simplemente si gustaba salir más tarde. Para alguien, terminar más tarde podía ser una ventaja y empezar más tarde, un inconveniente. El resultado no permitía separar ambos motivos. Para conocerlos haría falta otra pregunta. No podían deducirlos mirando únicamente qué casilla había marcado cada persona. Aquella diferencia importaba al explicar qué cambio apoyaban realmente las respuestas.",
+      "Finalmente escribieron: «Cuarenta y dos de las sesenta personas que responden prefieren el nuevo horario». Debajo explicaban que habían invitado a las ochenta inscritas y que no era una consulta a todo el barrio. El titular era más largo y menos rotundo. A cambio, mostraba el grupo de referencia que la primera versión había hecho desaparecer.",
+      "El centro decidió probar el horario un mes y recoger incidencias. La encuesta no era inútil: aportaba un dato para decidir. Pero también debían considerar la disponibilidad del personal y a quienes aún no utilizaban la sala. Una preferencia mayoritaria entre las respuestas no resumía por sí sola todas las necesidades.",
+      "Laia guardó ambas versiones del titular para la siguiente reunión. Quería mostrar que revisar una noticia no siempre consiste en corregir una suma. A veces hay que devolver a una cifra las palabras que explican a quién se refiere y qué se ha preguntado exactamente."
+    ],
+    "images": [
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-art1",
+        "src": "assets/readings/l223-una-muestra-que-no-cabia-en-el-titular-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Una mesa de redacción con hojas de encuesta, lápices y una caja sencilla para recoger respuestas."
+      },
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-art2",
+        "src": "assets/readings/l223-una-muestra-que-no-cabia-en-el-titular-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Dos grupos de tarjetas de encuesta, algunas rellenadas y otras en blanco, junto a un cuaderno."
+      }
+    ],
+    "questions": [
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q1",
+        "type": "literal",
+        "prompt": "¿A cuántas personas se envió la encuesta y cuántas contestaron?",
+        "answer": "Se envió a ochenta personas inscritas y contestaron sesenta.",
+        "lines": 2
+      },
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q2",
+        "type": "literal",
+        "prompt": "¿Qué cambio completo incluía la opción preferida por cuarenta y dos personas?",
+        "answer": "Empezar una hora más tarde y terminar también más tarde.",
+        "lines": 2
+      },
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa que el resultado podía quedar «sesgado»?",
+        "answer": "Que podía mostrar una visión desviada de las preferencias del grupo si quienes no responden son distintos de quienes lo hacen.",
+        "lines": 2
+      },
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q4",
+        "type": "inference",
+        "prompt": "¿Por qué el porcentaje es correcto pero el primer titular no está justificado?",
+        "answer": "Porque el setenta por ciento se calcula sobre las sesenta respuestas, no sobre todas las personas del barrio.",
+        "lines": 3
+      },
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q5",
+        "type": "inference",
+        "prompt": "¿Por qué añadir las veinte personas que no responden a la opción actual no sería una corrección prudente?",
+        "answer": "Porque les atribuiría una preferencia desconocida e inventaría respuestas, aunque se presentara como prudencia.",
+        "lines": 3
+      },
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q6",
+        "type": "inference",
+        "prompt": "¿Qué grupo relevante puede haber quedado fuera incluso de las ochenta invitaciones?",
+        "answer": "Personas no inscritas, incluidas las que dejaron de ir porque el horario no les convenía.",
+        "lines": 3
+      },
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q7",
+        "type": "inference",
+        "prompt": "¿Podemos afirmar que las cuarenta y dos personas quieren sobre todo empezar más tarde? Justifícalo.",
+        "answer": "No. Eligieron una opción con dos cambios y no se preguntaron los motivos de cada una.",
+        "lines": 3
+      },
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q8",
+        "type": "structure",
+        "prompt": "¿Qué aporta explicar el número de invitaciones debajo del titular final?",
+        "answer": "Hace visible la participación y el contexto de las respuestas, y permite ver que hay veinte opiniones desconocidas.",
+        "lines": 3
+      },
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q9",
+        "type": "inference",
+        "prompt": "¿Por qué detectar estas limitaciones no obliga a desechar la encuesta?",
+        "answer": "Porque sigue describiendo las respuestas recibidas y puede contribuir a decidir si no se le atribuye más alcance del que tiene.",
+        "lines": 3
+      },
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q10",
+        "type": "summary",
+        "prompt": "Resume dos comprobaciones necesarias antes de convertir un porcentaje en titular.",
+        "answer": "Hay que saber sobre qué grupo se calcula y qué preguntaba exactamente la encuesta; también valorar quién no responde o queda fuera de la consulta.",
+        "lines": 3
+      },
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q11",
+        "type": "opinion",
+        "prompt": "Propón una pregunta complementaria para decidir mejor el horario. Explica qué limitación ayudaría a resolver.",
+        "answer": "Respuesta abierta: preguntar motivos de la preferencia u obstáculos de personas no usuarias, relacionándola con una limitación concreta.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 4,
+        "text": "sesgado",
+        "questionId": "una-muestra-que-no-cabia-en-el-titular-q3"
+      }
+    ]
+  },
+  {
+    "id": "el-inventario-de-las-cosas-invisibles-es",
+    "code": "L224",
+    "workId": "el-inventario-de-las-cosas-invisibles",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "intermediate",
+    "themes": [
+      "arts",
+      "history",
+      "everyday"
+    ],
+    "genre": "narrative",
+    "title": "El inventario de las cosas invisibles",
+    "summary": "El último día de un edificio escolar, un inventario aparentemente completo empieza a llenarse de cosas que nadie puede cargar.",
+    "paragraphs": [
+      "El señor Vidal me dio el cuaderno cuando ya habían cargado la última mesa. «Revisa si nos dejamos algo», dijo. En la cubierta ponía INVENTARIO con una letra tan recta que parecía trazada con regla. Había ayudado a contar sillas toda la mañana y sabía de memoria las columnas: objeto, cantidad, destino. Las aulas del edificio viejo quedaban vacías. El lunes empezaríamos en el centro nuevo, con ventanas que no se atascaban.",
+      "En la primera clase encontré un lápiz bajo el radiador. Lo apunté con alivio: un objeto, una unidad, la caja de material perdido. Después entré en el aula donde habíamos ensayado la fiesta de final de curso. Sin mesas parecía más pequeña. Silbé la melodía y la sala me la devolvió con un eco corto. Miré el cuaderno. No sabía en qué caja debía ir aquel sonido.",
+      "En el pasillo, una ventana proyectaba una franja de luz en el lugar de siempre. En invierno poníamos allí los pies para calentarnos mientras esperábamos que abrieran. Escribí «rectángulo de sol» y, en cantidad, «uno, cuando no llueve». La frase quedaba a contrapelo entre un proyector y cuatro papeleras. Iba a borrarla, pero la goma había salido en una de las cajas y me pareció motivo suficiente para seguir.",
+      "Añadí el ruido de las llaves del señor Vidal, la esquina donde hacíamos las paces y el olor a pintura de septiembre. Algunas cosas no eran exactamente invisibles: las llaves se veían y la esquina también. Pero no quería anotar solo metal y pared. Dejé vacía la columna de destino. Poner «edificio nuevo» me parecía prometer más de lo que podía cargar. No tenía una furgoneta para transportar lo que había ocurrido en aquella esquina. Tampoco podía asegurar que recordaría siempre el sonido de cada puerta. Había anotado aquello para reconocerlo, no porque creyera que el cuaderno pudiera guardarlo todo intacto.",
+      "En el vestíbulo, el señor Vidal esperaba en el umbral con una silla plegable al lado. Pasó las páginas sin hablar. Yo esperaba que me hiciera empezar de nuevo. Se detuvo en la esquina de las paces y preguntó si recordaba con quién me había enfadado la última vez. Dije que sí, aunque apenas recordaba por qué. Asintió como si fuera un dato útil.",
+      "Después tomó el lápiz encontrado y añadió: «La manera en que este suelo avisa de que alguien llega». Escuchamos. Arriba no había nadie, pero reconocía el crujido que precedía a una profesora. El cuaderno seguía abierto entre nosotros. El señor Vidal cerró la tapa con cuidado y dijo que lo llevara el lunes.",
+      "Ante la puerta nueva busqué sin pensar la antigua franja de sol. No estaba. Oí las llaves a mi espalda y, por un instante, el pasillo desconocido tuvo una entrada familiar. No completé todos los destinos. Añadí una columna pequeña: «Cuándo vuelve a aparecer». De momento solo había una marca."
+    ],
+    "images": [
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-art1",
+        "src": "assets/readings/l224-el-inventario-de-las-cosas-invisibles-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un pasillo antiguo casi vacío, con marcas en el suelo y un cuaderno en el alféizar."
+      },
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-art2",
+        "src": "assets/readings/l224-el-inventario-de-las-cosas-invisibles-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Una sala casi vacía al anochecer, con una silla y una ventana entreabierta."
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q1",
+        "type": "literal",
+        "prompt": "¿Qué tres columnas tenía el inventario al principio?",
+        "answer": "Objeto, cantidad y destino.",
+        "lines": 2
+      },
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q2",
+        "type": "literal",
+        "prompt": "¿Qué objeto real encuentra quien narra y quién lo utiliza después?",
+        "answer": "Un lápiz bajo el radiador; después lo usa el señor Vidal para añadir una línea.",
+        "lines": 2
+      },
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué sugiere que la frase «quedaba a contrapelo» entre otros objetos?",
+        "answer": "Que no encajaba con el tipo de información habitual de la lista y rompía el orden esperado.",
+        "lines": 2
+      },
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q4",
+        "type": "inference",
+        "prompt": "¿Por qué encontrar un lápiz produce alivio antes de la duda sobre el eco?",
+        "answer": "Porque el lápiz encaja fácilmente en las columnas conocidas; el eco plantea cómo conservar una experiencia que no puede cargarse igual.",
+        "lines": 3
+      },
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q5",
+        "type": "inference",
+        "prompt": "¿Por qué el título habla de cosas invisibles si las llaves y la esquina se ven?",
+        "answer": "Porque el inventario recoge recuerdos y significados asociados a objetos y lugares, no solo su forma material.",
+        "lines": 3
+      },
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q6",
+        "type": "inference",
+        "prompt": "¿Qué muestra la pregunta del señor Vidal sobre la esquina de las paces?",
+        "answer": "Que entiende y acepta el sentido personal de la nueva lista y se interesa por el recuerdo en lugar de rechazarlo.",
+        "lines": 3
+      },
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q7",
+        "type": "inference",
+        "prompt": "¿Por qué importa que el señor Vidal añada una línea con el mismo lápiz encontrado?",
+        "answer": "Une el inventario material inicial con la lista de recuerdos y muestra que él también participa en el cambio.",
+        "lines": 3
+      },
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q8",
+        "type": "structure",
+        "prompt": "¿Qué efecto tiene el regreso del ruido de las llaves al final?",
+        "answer": "Conecta los edificios con algo familiar y da una primera respuesta sobre qué puede trasladarse.",
+        "lines": 3
+      },
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q9",
+        "type": "inference",
+        "prompt": "¿Por qué no se completan todos los destinos al llegar al centro nuevo?",
+        "answer": "Porque no todos los recuerdos o sensaciones reaparecen automáticamente en otro lugar; el final solo confirma un reconocimiento concreto.",
+        "lines": 3
+      },
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q10",
+        "type": "summary",
+        "prompt": "Explica cómo cambia la función del cuaderno entre el inicio y el final.",
+        "answer": "Empieza sirviendo para transportar objetos y acaba ayudando a reconocer experiencias y vínculos que pueden continuar o cambiar tras la mudanza.",
+        "lines": 3
+      },
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q11",
+        "type": "opinion",
+        "prompt": "¿El final te parece sobre todo una pérdida o un comienzo? Defiende una lectura con dos detalles y reconoce un elemento de la otra.",
+        "answer": "Respuesta abierta con dos apoyos y un matiz: la franja de sol ausente, el ruido familiar, los destinos vacíos o la nueva columna.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "quedaba a contrapelo",
+        "questionId": "el-inventario-de-las-cosas-invisibles-q3"
+      },
+      {
+        "paragraph": 5,
+        "text": "umbral",
+        "definition": "Parte inferior o zona de paso de una puerta; aquí sitúa al señor Vidal en la entrada."
+      }
+    ]
+  },
+  {
+    "id": "la-partitura-que-dejaba-sitio-al-azar-es",
+    "code": "L225",
+    "workId": "la-partitura-que-dejaba-sitio-al-azar",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "intermediate",
+    "themes": [
+      "arts",
+      "math"
+    ],
+    "genre": "informative",
+    "title": "La partitura que dejaba sitio al azar",
+    "summary": "Un taller musical combina decisiones previstas y resultados de un dado para explorar qué significa componer.",
+    "paragraphs": [
+      "Cuando la profesora anunció que compondrían una pieza con un dado, algunos pensaron que no tendrían que decidir nada. El dado lo haría todo. Sobre la mesa había un tambor pequeño, bloques de madera y un instrumento para sacudir. Aún no habían producido un sonido y ya discutían si el resultado podía llamarse composición. La profesora escribió al margen: «¿Qué decisiones tomaremos antes de lanzar?». Aquel margen se llenó pronto.",
+      "Acordaron seis rondas de diez segundos. Una persona marcaría los cambios con un gesto visible para que nadie tuviera que mirar continuamente el reloj. En cada ronda lanzarían el dado antes de empezar: uno o dos indicarían sonidos cortos; tres o cuatro, sonidos largos; cinco o seis, silencio. El resultado valdría para los tres intérpretes. No decidiría qué instrumento tocaba cada uno ni la intensidad del sonido.",
+      "Esas decisiones las tomaron hablando. Querían que todos vieran el gesto de cambio y que se distinguiera el timbre de los instrumentos. Durante los silencios también habría que mantener la atención: no escuchar golpes no significaba que el tiempo de la pieza se hubiera detenido. También acordaron no llenar automáticamente de ruido todo el intervalo: en cada ronda sonora, cada intérprete podía dejar espacios. Las instrucciones no describían cada movimiento, pero tampoco permitían hacer cualquier cosa en cualquier momento. Había decisiones compartidas y otras que quedaban en manos de cada músico.",
+      "En el primer ensayo salieron dos silencios seguidos. Biel se rio y golpeó el tambor antes del siguiente gesto. Después dijo que improvisaba. Revisaron el acuerdo: habían dejado libertad dentro de las rondas sonoras, pero el silencio compartido era una condición de la pieza. Podían cambiarla antes de otra interpretación. Saltársela sin acordarlo no era la misma clase de decisión. El grupo no estaba discutiendo si el golpe sonaba bonito, sino si pertenecía a las reglas elegidas.",
+      "La segunda vez, las rondas tuvieron otro orden. Alguien propuso repetir los resultados que más gustaban. La profesora preguntó qué cambiaría. Podían conservar la secuencia e interpretarla como una versión fijada, pero ya no dejarían ese orden al dado cada vez. Ninguna opción estaba prohibida en el taller: debían explicar cuál elegían y no confundir dos procedimientos.",
+      "Prepararon una partitura gráfica con las reglas generales, los instrumentos y los seis espacios de tiempo. Guardaron aparte una fotografía de los resultados del primer ensayo. La hoja de reglas permitía generar versiones nuevas; la foto documentaba una versión que ya había sucedido. Parecían dos registros de la misma música, pero no cumplían exactamente la misma función.",
+      "En la muestra final, el público no sabía qué saldría en el dado. Los intérpretes tampoco conocían el orden completo, pero sabían seguir el gesto y las reglas preparadas. El azar no había sustituido todo el trabajo de componer: ocupaba un lugar que el grupo había decidido dejarle. La primera pregunta del papel seguía siendo más útil que la respuesta rápida del primer día."
+    ],
+    "images": [
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-art1",
+        "src": "assets/readings/l225-la-partitura-que-dejaba-sitio-al-azar-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Una partitura gráfica con líneas y puntos, un dado de madera y pequeños instrumentos de percusión sobre una mesa."
+      },
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-art2",
+        "src": "assets/readings/l225-la-partitura-que-dejaba-sitio-al-azar-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Tres adolescentes ensayan con un pequeño tambor, bloques de madera y un instrumento de sacudir."
+      }
+    ],
+    "questions": [
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q1",
+        "type": "literal",
+        "prompt": "¿Cuántas rondas tiene la pieza y cuánto dura cada una?",
+        "answer": "Seis rondas de diez segundos cada una.",
+        "lines": 2
+      },
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q2",
+        "type": "literal",
+        "prompt": "¿Qué resultados del dado indican silencio?",
+        "answer": "Cinco o seis.",
+        "lines": 2
+      },
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «una versión fijada» en este contexto?",
+        "answer": "Una interpretación con la secuencia ya decidida y conservada, en vez de volver a determinarla con el dado.",
+        "lines": 2
+      },
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q4",
+        "type": "inference",
+        "prompt": "Menciona tres decisiones que el dado no toma.",
+        "answer": "Por ejemplo, instrumentos, duración y número de rondas, intensidad o forma de marcar los cambios.",
+        "lines": 3
+      },
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q5",
+        "type": "inference",
+        "prompt": "¿Por qué el golpe de Biel no ejemplifica la libertad acordada?",
+        "answer": "Porque la libertad de dejar espacios se aplicaba dentro de las rondas sonoras; el silencio era una condición compartida que no había cambiado.",
+        "lines": 3
+      },
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q6",
+        "type": "inference",
+        "prompt": "Si salieran seis rondas de silencio, ¿cambiaría la duración prevista? Explícalo sin discutir si te gustaría.",
+        "answer": "No. Las seis rondas de diez segundos seguirían sumando sesenta segundos; el dado cambia el tipo de acción, no la duración.",
+        "lines": 3
+      },
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q7",
+        "type": "inference",
+        "prompt": "¿Qué cambiaría si repitieran siempre los resultados preferidos?",
+        "answer": "El orden dejaría de decidirse al azar en cada interpretación y sería una secuencia conocida.",
+        "lines": 3
+      },
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q8",
+        "type": "structure",
+        "prompt": "¿Por qué distinguen la partitura de reglas de la foto de resultados?",
+        "answer": "Porque una indica cómo producir posibles versiones y la otra registra una versión concreta ya realizada.",
+        "lines": 3
+      },
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q9",
+        "type": "inference",
+        "prompt": "¿Por qué necesitan ensayar si no saben el orden final?",
+        "answer": "Para coordinar gestos, cambios y formas de tocar dentro de las reglas, aunque no conozcan la secuencia.",
+        "lines": 3
+      },
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q10",
+        "type": "summary",
+        "prompt": "Explica por qué es incorrecto decir que «el dado lo hace todo».",
+        "answer": "El grupo decide el marco, los instrumentos, la duración y las libertades; solo deja al dado una parte concreta de la composición.",
+        "lines": 3
+      },
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q11",
+        "type": "opinion",
+        "prompt": "¿Qué regla cambiarías para crear otra pieza? Explica qué dejarías al azar y qué seguiría decidido por el grupo.",
+        "answer": "Respuesta abierta que distinga ambas fuentes de decisión y sea coherente con una pieza que puedan seguir los músicos.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 5,
+        "text": "una versión fijada",
+        "questionId": "la-partitura-que-dejaba-sitio-al-azar-q3"
+      }
+    ]
+  },
+  {
+    "id": "el-mapa-que-mostraba-ausencias-es",
+    "code": "L226",
+    "workId": "el-mapa-que-mostraba-ausencias",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "intermediate",
+    "themes": [
+      "geography",
+      "community"
+    ],
+    "genre": "narrative",
+    "title": "El mapa que mostraba ausencias",
+    "summary": "Al dibujar los caminos del barrio, una clase descubre que las líneas ausentes pueden tener explicaciones muy distintas.",
+    "paragraphs": [
+      "Mara reconoció su calle en el mapa, pero tardó en encontrar su casa. Llegaba siempre cruzando una plazoleta y un paso estrecho entre edificios. En el plano, ese paso no existía. Siguiendo las líneas impresas debía rodear toda la manzana. Marcó el lugar con una cruz y escribió: «Falta un camino». Estaba convencida de haber encontrado un error fácil de corregir.",
+      "Al día siguiente, la clase aportó otras ausencias. Biel añadía una escalera; Noa, un atajo junto a la biblioteca. Pol había señalado el patio que cruzaba al visitar a sus primos. En la pizarra, los lápices de colores dibujaban otro barrio superpuesto al primero. El profesor preguntó si todos aquellos recorridos eran del mismo tipo. No preguntaba quién conocía más calles, sino qué información aportaba cada línea. Un plano que todos completaban de memoria podía mezclar experiencias muy diferentes sin advertirlo. Por eso guardaron los colores de cada aportación antes de fundirlas en un único dibujo.",
+      "Consultaron el título y la leyenda del plano original. Era un esquema de circulación de vehículos para situar calles y accesos. Las escaleras no aparecían porque no servían para su propósito. Eso no significaba que no existieran. Mara revisó la nota: había confundido una ausencia en aquel mapa con una ausencia en el barrio, sin preguntar para qué se había dibujado.",
+      "Decidieron preparar un plano para caminar. Antes de unir todos los puntos, separaron lo sabido de lo pendiente de comprobar. El paso de Mara estaba abierto habitualmente. El patio de Pol solo podía cruzarse cuando visitaba a su familia y le abrían. Dibujarlos igual habría hecho parecer disponibles dos itinerarios con condiciones distintas. No bastaba con que alguien los hubiera recorrido una vez. Una experiencia personal no describía por sí sola las posibilidades de cualquier visitante.",
+      "También compararon los nombres. Para Noa, «camino de la biblioteca» era el atajo detrás del edificio. Para otro compañero, era la acera que llegaba a la puerta principal. Marcaron inicio y final para saber si hablaban del mismo trazado. Algunas discrepancias no venían del terreno, sino de usar nombres parecidos para lugares distintos.",
+      "Al mostrar el borrador, una vecina que usaba andador preguntó por los escalones. El mapa distinguía calles anchas y estrechas, pero no ese detalle. Añadieron la información comprobada y dejaron pendientes algunos tramos. Una línea continua y limpia parecía más bonita, pero no querían rellenar los huecos solo para que el dibujo pareciera terminado. Prefirieron indicar qué quedaba por observar en una futura salida y quién había descrito cada tramo.",
+      "Mara guardó la versión inicial junto a la nueva. El primer mapa no era inútil: seguía sirviendo para su propósito. El segundo tampoco era «todo el barrio», sino una representación más adecuada para otras preguntas. Al margen cambió su comentario: «¿Qué camino falta, para quién y en qué mapa?». La cruz seguía en el mismo lugar, pero ya no señalaba una respuesta tan sencilla."
+    ],
+    "images": [
+      {
+        "id": "el-mapa-que-mostraba-ausencias-art1",
+        "src": "assets/readings/l226-el-mapa-que-mostraba-ausencias-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un sendero de tierra entre edificios se encuentra con un paso pavimentado del barrio."
+      },
+      {
+        "id": "el-mapa-que-mostraba-ausencias-art2",
+        "src": "assets/readings/l226-el-mapa-que-mostraba-ausencias-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Un joven compara dos mapas de calles y caminos sobre una mesa con lápices y una regla."
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q1",
+        "type": "literal",
+        "prompt": "¿Para qué se había preparado el mapa original?",
+        "answer": "Para representar la circulación de vehículos y situar calles y accesos.",
+        "lines": 2
+      },
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q2",
+        "type": "literal",
+        "prompt": "¿Qué información echó en falta la vecina que usaba andador?",
+        "answer": "La presencia de escalones en los recorridos.",
+        "lines": 2
+      },
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «discrepancias» al hablar de los nombres de caminos?",
+        "answer": "Diferencias o desacuerdos entre lo que identificaban los participantes con un mismo nombre.",
+        "lines": 2
+      },
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q4",
+        "type": "inference",
+        "prompt": "¿Por qué la ausencia de escaleras no era necesariamente un error del mapa original?",
+        "answer": "Porque un mapa para vehículos no pretendía mostrar todos los pasos peatonales.",
+        "lines": 3
+      },
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q5",
+        "type": "inference",
+        "prompt": "¿Qué malentendido produciría dibujar igual el paso de Mara y el patio de Pol?",
+        "answer": "Que ambos están disponibles para cualquiera por igual, cuando el patio depende de una visita y de que lo abran.",
+        "lines": 3
+      },
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q6",
+        "type": "inference",
+        "prompt": "¿Por qué marcar los extremos ayuda a resolver una discusión sobre nombres?",
+        "answer": "Porque permite comprobar si se refieren al mismo recorrido antes de discutir sus características.",
+        "lines": 3
+      },
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q7",
+        "type": "inference",
+        "prompt": "¿Qué muestra la pregunta sobre escalones respecto a la selección de información de un mapa?",
+        "answer": "Que un detalle ignorado por unos usuarios puede ser imprescindible para otros.",
+        "lines": 3
+      },
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q8",
+        "type": "structure",
+        "prompt": "¿Qué función tiene comparar los comentarios inicial y final de Mara?",
+        "answer": "Muestra el paso de una certeza simple sobre un error a una pregunta que considera propósito, usuarios y comprobaciones.",
+        "lines": 3
+      },
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q9",
+        "type": "inference",
+        "prompt": "¿Por qué dejar tramos pendientes puede informar mejor que completar todas las líneas?",
+        "answer": "Porque señala dónde falta información comprobada en vez de aparentar certeza sobre un recorrido desconocido.",
+        "lines": 3
+      },
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q10",
+        "type": "summary",
+        "prompt": "Explica por qué el segundo mapa sirve mejor al nuevo objetivo sin ser una copia completa del barrio.",
+        "answer": "Selecciona pasos y condiciones relevantes para caminar, pero sigue representando solo parte de la realidad según unas necesidades.",
+        "lines": 3
+      },
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q11",
+        "type": "opinion",
+        "prompt": "¿Qué detalle añadirías a un mapa para otro grupo de usuarios? Define el grupo y justifica la elección con la idea del texto.",
+        "answer": "Respuesta abierta que relacione una necesidad concreta con la información elegida, sin presentar un mapa como igualmente útil para todos.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 5,
+        "text": "discrepancias",
+        "questionId": "el-mapa-que-mostraba-ausencias-q3"
+      }
+    ]
+  },
+  {
+    "id": "una-solucion-mas-lenta-es",
+    "code": "L227",
+    "workId": "una-solucion-mas-lenta",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "intermediate",
+    "themes": [
+      "technology",
+      "community"
+    ],
+    "genre": "argument",
+    "title": "Una solución más lenta",
+    "summary": "Un servicio que tarda menos de media no es necesariamente más fácil de utilizar para todas las personas.",
+    "paragraphs": [
+      "Cuando el centro del barrio estrenó el terminal de reservas, el anuncio destacaba una promesa: menos colas. Ya no sería necesario explicar una petición en el mostrador si podía elegirse en pantalla. En la prueba, las operaciones completadas en el terminal duraron menos que las realizadas con ayuda del personal. Algunos propusieron retirar buena parte de la atención presencial. La cifra parecía darles la razón, pero el registro dejaba fuera una parte de la experiencia.",
+      "El tiempo se contaba desde el inicio hasta la confirmación de cada reserva acabada. No incluía a quienes empezaban y abandonaban el proceso. Tampoco sumaba minutos buscando una reserva anterior o intentando entender un mensaje. Para quien conocía el sistema y llevaba una petición sencilla, el terminal era rápido. Ese dato no explicaba igual de bien qué sucedía con el resto.",
+      "Una usuaria había llegado para cambiar la hora de un acto con tres salas combinadas. Otro quería saber si dos actividades podían compartir material. No eran necesariamente personas poco hábiles con la tecnología: sus demandas no encajaban en las opciones previstas. También había quien no podía leer cómodamente la pantalla o necesitaba una explicación en otra lengua. Una misma dificultad visible podía tener causas diferentes.",
+      "Defender una alternativa con personas no significa que cualquier conversación sea mejor que un sistema automático. Una cola larga y una información confusa también excluyen. El terminal permitía muchas reservas habituales sin esperar al mostrador. Retirarlo habría eliminado una ventaja real. La cuestión era evitar que una mejora para algunos se convirtiera en la única puerta de entrada para todos. El objetivo de la discusión no era premiar una herramienta por ser nueva ni descartarla por ser una máquina.",
+      "El centro mantuvo ambas vías y cambió la prueba. Además de la duración de las operaciones terminadas, anotó cuántas se interrumpían, qué preguntas requerían ayuda y si las personas salían sabiendo qué habían reservado. También puso un aviso claro para encontrar el mostrador. No quería que pedir ayuda pareciera un error del usuario ni una opción escondida tras varias pantallas.",
+      "La propuesta podía parecer más lenta en una hoja que solo comparara el tiempo de reservas confirmadas. Necesitaba personal y espacio, y el centro tendría que valorar cómo mantenerlos. Pero también contaba intentos que antes desaparecían del balance. Si un servicio ahorra minutos a quien termina y deja sin respuesta a quien no llega al final, el resumen numérico es incompleto. No basta con mejorar el promedio de un grupo si ignoramos qué le ha ocurrido a otro.",
+      "La tecnología puede hacer un trabajo valioso sin resolverlo todo. Para decidir si un cambio mejora un servicio, conviene preguntar qué consideramos un resultado y quién entra en el recuento. Quizá la mejor solución no sea la más rápida en cada caso. Debería permitir, al menos, que la rapidez de unos no se obtenga haciendo invisibles las dificultades de los demás."
+    ],
+    "images": [
+      {
+        "id": "una-solucion-mas-lenta-art1",
+        "src": "assets/readings/l227-una-solucion-mas-lenta-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Una sala de atención con un terminal automático, un mostrador con personal y personas esperando."
+      },
+      {
+        "id": "una-solucion-mas-lenta-art2",
+        "src": "assets/readings/l227-una-solucion-mas-lenta-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Un tique de turno, unas gafas y un bolígrafo junto a una pantalla táctil en un mostrador."
+      }
+    ],
+    "questions": [
+      {
+        "id": "una-solucion-mas-lenta-q1",
+        "type": "literal",
+        "prompt": "¿Qué operaciones incluía el primer recuento del tiempo?",
+        "answer": "Las reservas acabadas, desde el inicio hasta la confirmación.",
+        "lines": 2
+      },
+      {
+        "id": "una-solucion-mas-lenta-q2",
+        "type": "literal",
+        "prompt": "¿Qué dos vías mantiene el centro después de revisar la prueba?",
+        "answer": "El terminal automático y la atención con personal en el mostrador.",
+        "lines": 2
+      },
+      {
+        "id": "una-solucion-mas-lenta-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «la única puerta de entrada» en este argumento?",
+        "answer": "La única forma de acceder al servicio, no una puerta física del edificio.",
+        "lines": 2
+      },
+      {
+        "id": "una-solucion-mas-lenta-q4",
+        "type": "inference",
+        "prompt": "¿Por qué el primer tiempo medio podía ofrecer una visión demasiado positiva del terminal?",
+        "answer": "Porque solo contaba los intentos completados y excluía abandonos y dificultades que impedían llegar a confirmar.",
+        "lines": 3
+      },
+      {
+        "id": "una-solucion-mas-lenta-q5",
+        "type": "inference",
+        "prompt": "¿Qué explicación simplista rechazan los ejemplos de las salas y el material?",
+        "answer": "Que todas las dificultades se deban a poca habilidad tecnológica; algunas peticiones no encajan en las opciones del sistema.",
+        "lines": 3
+      },
+      {
+        "id": "una-solucion-mas-lenta-q6",
+        "type": "structure",
+        "prompt": "¿Qué función tiene reconocer las ventajas del terminal en un texto que defiende la atención personal?",
+        "answer": "Matiza el argumento y muestra que se propone combinar vías, no negar cualquier mejora automática.",
+        "lines": 3
+      },
+      {
+        "id": "una-solucion-mas-lenta-q7",
+        "type": "inference",
+        "prompt": "¿Por qué preguntar si la persona sabe qué ha reservado añade información al número de confirmaciones?",
+        "answer": "Porque terminar el proceso no asegura que la reserva corresponda a su necesidad ni que la haya entendido.",
+        "lines": 3
+      },
+      {
+        "id": "una-solucion-mas-lenta-q8",
+        "type": "inference",
+        "prompt": "¿Por qué el texto admite que la solución combinada tiene costes?",
+        "answer": "Porque requiere personal y espacio que hay que mantener; reconocerlo evita presentarla como una ventaja sin dificultades.",
+        "lines": 3
+      },
+      {
+        "id": "una-solucion-mas-lenta-q9",
+        "type": "inference",
+        "prompt": "¿Qué relación hay entre el título y el criterio de evaluación?",
+        "answer": "Puede parecer más lenta si solo se miden reservas acabadas, pero más útil si se consideran acceso, ayuda e intentos interrumpidos.",
+        "lines": 3
+      },
+      {
+        "id": "una-solucion-mas-lenta-q10",
+        "type": "summary",
+        "prompt": "Formula la tesis con una condición que deba revisarse antes de eliminar una vía de servicio.",
+        "answer": "La rapidez de un sistema no justifica hacerlo único sin comprobar a quién deja fuera y si resuelve necesidades diversas.",
+        "lines": 3
+      },
+      {
+        "id": "una-solucion-mas-lenta-q11",
+        "type": "opinion",
+        "prompt": "Propón un indicador adicional para comparar las vías. Explica qué mostraría y algo que aún no permitiría saber.",
+        "answer": "Respuesta abierta que relacione el dato con la experiencia del servicio y reconozca un límite del indicador.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 4,
+        "text": "la única puerta de entrada",
+        "questionId": "una-solucion-mas-lenta-q3"
+      }
+    ]
+  },
+  {
+    "id": "la-noche-de-los-murcielagos-es",
+    "code": "L228",
+    "workId": "la-noche-de-los-murcielagos",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "intermediate",
+    "themes": [
+      "science",
+      "environment",
+      "adventure"
+    ],
+    "genre": "diary",
+    "title": "La noche de los murciélagos",
+    "summary": "Una salida al anochecer cambia cuando un detector permite escuchar una actividad que los oídos solos no distinguían.",
+    "paragraphs": [
+      "Viernes, después de la salida. Había imaginado la noche de los murciélagos como una espera silenciosa hasta ver una sombra. En la mochila llevaba un cuaderno y un lápiz que apenas se veía cuando empezó a bajar la luz. Elna prometió que no nos quedaríamos sin nada que anotar. Guiaba al grupo, pero al principio solo pidió que miráramos el agua y escucháramos.",
+      "En el estanque se oían ranas, un coche lejano y el roce de las hojas. Un insecto cruzó frente a mi cara. Escribí «todavía ningún murciélago». Después una silueta pequeña atravesó el cielo entre dos árboles y desapareció antes de que pudiera señalarla. Un compañero dijo haber visto tres. No sabíamos si hablábamos del mismo vuelo o de animales distintos, porque nadie había seguido las siluetas todo el tiempo.",
+      "Elna encendió un detector. Aparecieron unos chasquidos rápidos que antes no oíamos. Explicó que muchos murciélagos emiten sonidos de ecolocalización a frecuencias demasiado altas para que los escuchemos directamente. Al recibir los ecos pueden obtener información del entorno. El detector transformaba parte de esas señales en sonidos audibles para nosotros; no hacía que los animales empezaran a llamar porque lo hubiéramos encendido. La diferencia estaba en nuestra forma de recibir información.",
+      "Miré hacia donde me parecía que venían los chasquidos. No veía nada. Era extraño tener una pista clara de actividad sin poder unirla a un punto del cielo. Elna dijo que escuchar un detector también requería aprendizaje. El sonido podía ayudar a estudiar los murciélagos, pero una primera escucha de diez minutos no nos permitía identificarlos a todos. Había más información en aquellos sonidos de la que nosotros sabíamos interpretar.",
+      "Mi lista empezó a mezclar sombras y sonidos. Anoté seis series de chasquidos y casi escribí «seis murciélagos». Elna preguntó si un mismo animal podía pasar varias veces cerca. Taché el número en la columna de individuos y lo dejé en la de registros. No había perdido seis observaciones: había cambiado lo que podía afirmar a partir de ellas.",
+      "Nos quedamos en el camino sin perseguir siluetas ni buscarlas entre los árboles. Me gustaba mirar el aparato, pero advertí que, si no levantaba la cabeza, perdía otra parte de la salida. Alterné momentos de observar el agua y momentos de escuchar. Ambos tipos de pistas no siempre llegaban juntos. En el cuaderno dejé una separación entre lo que había visto y lo que había oído. A veces un compañero veía una sombra cuando mi atención estaba concentrada en los chasquidos.",
+      "Al volver, Elna apagó el detector. Los chasquidos desaparecieron, pero no dijimos que la actividad hubiera terminado. Corregí mi primera anotación: «Todavía no habíamos detectado ninguno». Era menos espectacular que descubrir un animal nuevo y más exacto para explicar qué había cambiado: no solo el paisaje, sino las herramientas con que lo escuchábamos. El cuaderno seguía teniendo huecos, pero ahora sabía por qué no debía rellenarlos con certezas rápidas."
+    ],
+    "images": [
+      {
+        "id": "la-noche-de-los-murcielagos-art1",
+        "src": "assets/readings/l228-la-noche-de-los-murcielagos-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un murciélago con las alas desplegadas vuela al anochecer sobre un estanque rodeado de vegetación."
+      },
+      {
+        "id": "la-noche-de-los-murcielagos-art2",
+        "src": "assets/readings/l228-la-noche-de-los-murcielagos-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Dos jóvenes observan el estanque desde el camino con un pequeño detector de murciélagos en la mano."
+      }
+    ],
+    "questions": [
+      {
+        "id": "la-noche-de-los-murcielagos-q1",
+        "type": "literal",
+        "prompt": "¿Qué sonidos oye el grupo antes de encender el detector?",
+        "answer": "Ranas, un coche lejano y el roce de las hojas.",
+        "lines": 2
+      },
+      {
+        "id": "la-noche-de-los-murcielagos-q2",
+        "type": "literal",
+        "prompt": "¿Qué corrige quien narra tras anotar seis series de chasquidos?",
+        "answer": "Deja de contarlas como seis individuos y las conserva como seis registros.",
+        "lines": 2
+      },
+      {
+        "id": "la-noche-de-los-murcielagos-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «audibles» al describir el resultado del detector?",
+        "answer": "Que podemos oírlos, a diferencia de las señales originales demasiado agudas para nosotros.",
+        "lines": 2
+      },
+      {
+        "id": "la-noche-de-los-murcielagos-q4",
+        "type": "inference",
+        "prompt": "¿Por qué oír chasquidos al encenderlo no prueba que los murciélagos empezaran a emitir entonces?",
+        "answer": "Porque el detector cambia lo que las personas pueden oír, no provoca necesariamente el inicio de la actividad.",
+        "lines": 3
+      },
+      {
+        "id": "la-noche-de-los-murcielagos-q5",
+        "type": "inference",
+        "prompt": "¿Por qué seis registros no aseguran seis animales distintos?",
+        "answer": "Porque un mismo animal podría pasar o detectarse varias veces.",
+        "lines": 3
+      },
+      {
+        "id": "la-noche-de-los-murcielagos-q6",
+        "type": "inference",
+        "prompt": "¿Qué muestra oír actividad sin ver una silueta en ese momento?",
+        "answer": "Que herramientas y sentidos aportan pistas distintas y que no detectar visualmente un animal no demuestra que no esté.",
+        "lines": 3
+      },
+      {
+        "id": "la-noche-de-los-murcielagos-q7",
+        "type": "structure",
+        "prompt": "¿Para qué recupera la primera anotación al final del diario?",
+        "answer": "Para mostrar cómo cambia la interpretación de una ausencia de observaciones tras usar y entender el detector.",
+        "lines": 3
+      },
+      {
+        "id": "la-noche-de-los-murcielagos-q8",
+        "type": "inference",
+        "prompt": "¿Por qué mirar continuamente el aparato podía empobrecer la salida?",
+        "answer": "Porque hacía perder otras pistas visuales del paisaje y de los vuelos alrededor.",
+        "lines": 3
+      },
+      {
+        "id": "la-noche-de-los-murcielagos-q9",
+        "type": "inference",
+        "prompt": "¿Pueden identificar con seguridad todos los murciélagos tras la salida? Da una razón.",
+        "answer": "No. Elna explica que interpretar sonidos exige aprendizaje y diez minutos de primera escucha no bastan.",
+        "lines": 3
+      },
+      {
+        "id": "la-noche-de-los-murcielagos-q10",
+        "type": "summary",
+        "prompt": "Explica la diferencia entre «no había murciélagos» y «todavía no habíamos detectado ninguno».",
+        "answer": "La primera afirma una ausencia en el lugar; la segunda describe el límite de las observaciones disponibles.",
+        "lines": 3
+      },
+      {
+        "id": "la-noche-de-los-murcielagos-q11",
+        "type": "opinion",
+        "prompt": "¿Qué dos columnas pondrías en un cuaderno para otra salida? Explica cómo evitarían una confusión semejante.",
+        "answer": "Respuesta abierta que separe registro e individuo, observación e interpretación, o herramienta y dato, con una utilidad concreta.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "audibles",
+        "questionId": "la-noche-de-los-murcielagos-q3"
+      },
+      {
+        "paragraph": 3,
+        "text": "ecolocalización",
+        "definition": "Obtención de información del entorno mediante los ecos de los sonidos emitidos por el animal."
+      }
+    ]
   }
 ];

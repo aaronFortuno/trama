@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.38.1 · 18 de novembre del 2026
+
+Sis lectures noves de 1r d’ESO intermedi (L223–L228), en català i castellà: enquestes, memòria, música, mapes, serveis digitals i ratpenats. Dues il·lustracions i onze preguntes amb solucionari per lectura.
+
 ## 1.38 · 18 de novembre del 2026
 
 Quinze lectures noves de 1r d’ESO inicial (L208–L222), en català i castellà, amb dues il·lustracions, deu preguntes, solucionari i espais ajustats. La tanda combina narracions, notícies, entrevistes, diaris, ressenyes, instruccions, cartes i argumentació.

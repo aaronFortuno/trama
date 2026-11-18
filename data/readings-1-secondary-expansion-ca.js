@@ -1485,5 +1485,646 @@ export const readings1SecondaryExpansionCa = [
         "definition": "Mostra allargada extreta del terreny o del fons que conserva una successió de capes."
       }
     ]
+  },
+  {
+    "id": "una-muestra-que-no-cabia-en-el-titular-ca",
+    "code": "L223",
+    "title": "Una mostra que no cabia al titular",
+    "summary": "Un percentatge correcte es converteix en una afirmació exagerada quan desapareix qui ha respost l’enquesta.",
+    "paragraphs": [
+      "La redacció del butlletí del centre cívic tenia un titular gairebé acabat: «El setanta per cent del barri vol obrir més tard». La xifra venia d’una enquesta sobre l’horari de la sala d’estudi. Semblava clara, fàcil de recordar i prou contundent per ocupar la portada. Abans de publicar-la, però, la Laia va demanar veure la pregunta i la llista de persones a qui s’havia enviat. Volia saber què hi havia sota aquell percentatge.",
+      "El qüestionari s’havia adreçat a les vuitanta persones inscrites a la sala. N’havien respost seixanta. Quaranta-dues preferien començar una hora més tard i acabar també més tard; divuit volien mantenir l’horari. La divisió era correcta: quaranta-dues de seixanta representaven el setanta per cent de les respostes. El problema començava quan la frase convertia «les respostes rebudes» en «el barri».",
+      "Les persones inscrites no eren totes les persones que vivien a la zona. Tampoc no incloïen necessàriament qui havia deixat d’utilitzar la sala perquè l’horari no li anava bé. Aquella consulta podia descriure les preferències d’un grup concret, però no havia preguntat a una selecció preparada per representar tot el veïnat. A més, vint persones convidades no havien contestat. No podien repartir-les entre les dues opcions com si en coneguessin l’opinió.",
+      "En Marc va proposar afegir vint respostes a favor de l’horari actual, per ser prudents. La Laia va dir que això també seria inventar dades. No respondre podia tenir causes diferents: no haver vist el missatge, no tenir una preferència clara o no voler participar. Si aquestes persones tenien hàbits diferents dels qui havien contestat, el resultat podia quedar esbiaixat. Però no sabien en quina direcció ni amb quina intensitat.",
+      "Van revisar també la pregunta. Oferia dues opcions completes d’horari, no preguntava simplement si agradava sortir més tard. Per a algú, acabar més tard podia ser un avantatge i començar més tard, un inconvenient. El resultat no permetia separar aquests dos motius. Per saber-los, caldria una altra pregunta. No podien deduir-los observant només quina casella havia marcat cadascú.",
+      "Al final van escriure: «Quaranta-dues de les seixanta persones que responen prefereixen el nou horari». A sota explicaven que s’havia convidat les vuitanta inscrites i que no es tractava d’una consulta a tot el barri. El titular era més llarg i menys rotund. A canvi, deixava veure el grup de referència que la primera versió havia fet desaparèixer.",
+      "El centre va decidir provar el nou horari durant un mes i recollir incidències. L’enquesta no havia estat inútil: aportava una dada per decidir. Però la decisió també havia de considerar la disponibilitat del personal i les persones que encara no utilitzaven la sala. Una preferència majoritària entre les respostes no era, tota sola, el resum de totes les necessitats.",
+      "La Laia va guardar les dues versions del titular per a la reunió següent. Volia mostrar que revisar una notícia no sempre consisteix a corregir una suma. De vegades cal tornar a posar al costat d’una xifra les paraules que expliquen a qui es refereix."
+    ],
+    "imageAlt": {
+      "una-muestra-que-no-cabia-en-el-titular-art1": "Una taula de redacció amb fulls d’enquesta, llapis i una capsa senzilla per recollir respostes.",
+      "una-muestra-que-no-cabia-en-el-titular-art2": "Dos grups de targetes d’enquesta, algunes omplertes i d’altres en blanc, al costat d’un quadern."
+    },
+    "questions": [
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q1",
+        "type": "literal",
+        "prompt": "A quantes persones es va enviar l’enquesta i quantes van contestar?",
+        "answer": "Es va enviar a vuitanta persones inscrites i en van contestar seixanta.",
+        "lines": 2
+      },
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q2",
+        "type": "literal",
+        "prompt": "Quin canvi complet d’horari incloïa l’opció preferida per quaranta-dues persones?",
+        "answer": "Començar una hora més tard i acabar també més tard.",
+        "lines": 2
+      },
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa que el resultat podia quedar «esbiaixat»?",
+        "answer": "Que podia mostrar una visió desviada de les preferències del grup si els qui no responen són diferents dels qui ho fan.",
+        "lines": 2
+      },
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q4",
+        "type": "inference",
+        "prompt": "Per què el percentatge és correcte però el primer titular no està justificat?",
+        "answer": "Perquè el setanta per cent es calcula sobre les seixanta respostes, no sobre totes les persones del barri.",
+        "lines": 3
+      },
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q5",
+        "type": "inference",
+        "prompt": "Per què afegir les vint persones que no responen a l’opció d’horari actual no seria una correcció prudent?",
+        "answer": "Perquè els atribuiria una preferència desconeguda i inventaria respostes, encara que es presentés com a prudència.",
+        "lines": 3
+      },
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q6",
+        "type": "inference",
+        "prompt": "Quin grup rellevant pot haver quedat fora fins i tot de les vuitanta invitacions?",
+        "answer": "Persones que no estan inscrites, incloses les que han deixat d’anar-hi perquè l’horari no els convenia.",
+        "lines": 3
+      },
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q7",
+        "type": "inference",
+        "prompt": "Podem afirmar que totes les quaranta-dues persones volen sobretot començar més tard? Justifica-ho.",
+        "answer": "No. Han triat una opció amb dos canvis i no s’han preguntat els motius de cadascú.",
+        "lines": 3
+      },
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q8",
+        "type": "structure",
+        "prompt": "Què aporta explicar el nombre d’invitacions sota el titular final?",
+        "answer": "Fa visible la participació i el context de les respostes, i permet veure que hi ha vint opinions desconegudes.",
+        "lines": 3
+      },
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q9",
+        "type": "inference",
+        "prompt": "Per què detectar aquestes limitacions no obliga a llençar l’enquesta?",
+        "answer": "Perquè continua descrivint les respostes rebudes i pot contribuir a una decisió si no se li atribueix més abast del que té.",
+        "lines": 3
+      },
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q10",
+        "type": "summary",
+        "prompt": "Resumeix dues comprovacions necessàries abans de convertir un percentatge en titular.",
+        "answer": "Cal saber sobre quin grup es calcula i què preguntava exactament l’enquesta; també valorar qui ha quedat sense respondre o fora de la consulta.",
+        "lines": 3
+      },
+      {
+        "id": "una-muestra-que-no-cabia-en-el-titular-q11",
+        "type": "opinion",
+        "prompt": "Proposa una pregunta complementària per millorar la decisió sobre l’horari. Explica quina limitació del text ajudaria a resoldre.",
+        "answer": "Resposta oberta: preguntar motius de la preferència o obstacles de persones no usuàries, relacionant la pregunta amb una limitació concreta.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 4,
+        "text": "esbiaixat",
+        "questionId": "una-muestra-que-no-cabia-en-el-titular-q3"
+      }
+    ]
+  },
+  {
+    "id": "el-inventario-de-las-cosas-invisibles-ca",
+    "code": "L224",
+    "title": "L’inventari de les coses invisibles",
+    "summary": "L’últim dia d’un edifici escolar, un inventari que semblava complet comença a omplir-se de coses que ningú no pot carregar.",
+    "paragraphs": [
+      "El senyor Vidal em va donar el quadern quan ja havien carregat l’última taula. «Repassa si ens deixem res», va dir. A la coberta hi havia escrit INVENTARI amb una lletra tan recta que semblava feta amb regle. Jo havia ajudat a comptar cadires tot el matí i em sabia de memòria les columnes: objecte, quantitat, destinació. Les aules del vell edifici quedaven buides. Dilluns començaríem al centre nou, amb finestres que no s’encallaven.",
+      "A la primera classe vaig trobar un llapis sota el radiador. El vaig apuntar amb alleujament: un objecte, una unitat, la capsa de material perdut. Després vaig entrar a l’aula on havíem assajat la festa de final de curs. Sense taules, semblava més petita. Vaig provar de xiular la melodia i la sala me la va tornar amb un eco curt. Vaig mirar el quadern. No sabia en quina capsa havia d’anar aquell so.",
+      "Al passadís, una finestra projectava una franja de llum al mateix lloc de sempre. A l’hivern hi posàvem els peus per escalfar-nos mentre esperàvem que obrissin. Vaig escriure «rectangle de sol» i, a quantitat, «un, quan no plou». La frase quedava a contrapèl entre un projector i quatre papereres. Vaig estar a punt d’esborrar-la, però la goma havia marxat dins d’una de les capses i em va semblar una raó suficient per continuar.",
+      "Vaig afegir el soroll de les claus del senyor Vidal, la cantonada on fèiem les paus i l’olor de pintura que tornava cada setembre. Algunes coses no eren exactament invisibles: les claus es veien i la cantonada també. Però no volia anotar només metall i paret. Vaig deixar buida la columna de destinació. Em semblava que posar-hi «edifici nou» seria prometre més del que jo podia carregar.",
+      "Quan vaig tornar al vestíbul, el senyor Vidal estava dret al brancal, amb una cadira plegable al costat. Va passar les pàgines sense dir res. Jo esperava que em fes començar de nou. Es va aturar a la cantonada de les paus i em va preguntar si encara recordava amb qui m’hi havia enfadat l’última vegada. Vaig dir que sí, però que ja no recordava gaire bé per què. Ell va assentir com si aquella fos una dada útil.",
+      "Després va agafar el llapis que jo havia trobat i va afegir una línia: «La manera com aquest terra avisa que algú arriba». Vam escoltar. Al pis de sobre no hi havia ningú, però jo podia reconèixer el cruixit que feia abans d’aparèixer una professora. El quadern continuava obert entre nosaltres. El senyor Vidal va tancar la tapa amb cura i em va dir que el portés dilluns.",
+      "A la porta nova vaig buscar sense pensar la vella franja de sol. No hi era. Vaig sentir les claus darrere meu i, per un instant, el passadís desconegut va tenir una entrada familiar. A l’inventari no vaig completar totes les destinacions. Només vaig afegir una columna petita: «Quan torna a aparèixer». De moment, hi havia una única marca."
+    ],
+    "imageAlt": {
+      "el-inventario-de-las-cosas-invisibles-art1": "Un passadís antic gairebé buit, amb marques al terra i un quadern a l’ampit de la finestra.",
+      "el-inventario-de-las-cosas-invisibles-art2": "Una sala gairebé buida al capvespre, amb una cadira i una finestra entreoberta."
+    },
+    "questions": [
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q1",
+        "type": "literal",
+        "prompt": "Quines tres columnes tenia l’inventari al començament?",
+        "answer": "Objecte, quantitat i destinació.",
+        "lines": 2
+      },
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q2",
+        "type": "literal",
+        "prompt": "Quin objecte real troba qui narra i qui l’utilitza després?",
+        "answer": "Un llapis sota el radiador; després el fa servir el senyor Vidal per afegir una línia.",
+        "lines": 2
+      },
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q3",
+        "type": "vocabulary",
+        "prompt": "Què suggereix que la frase «quedava a contrapèl» entre altres objectes?",
+        "answer": "Que no encaixava amb el tipus d’informació habitual de la llista i trencava l’ordre esperat.",
+        "lines": 2
+      },
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q4",
+        "type": "inference",
+        "prompt": "Per què trobar un llapis produeix alleujament abans que aparegui el dubte sobre l’eco?",
+        "answer": "Perquè el llapis encaixa fàcilment en les columnes conegudes; l’eco planteja com conservar una experiència que no es pot carregar igual.",
+        "lines": 3
+      },
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q5",
+        "type": "inference",
+        "prompt": "Per què el títol parla de coses invisibles si les claus i la cantonada es poden veure?",
+        "answer": "Perquè l’inventari acaba recollint els records i significats associats als objectes i llocs, no només la seva forma material.",
+        "lines": 3
+      },
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q6",
+        "type": "inference",
+        "prompt": "Què mostra la pregunta del senyor Vidal sobre la cantonada de les paus?",
+        "answer": "Que entén i accepta el sentit personal de la nova llista i s’interessa pel record en lloc de rebutjar-lo.",
+        "lines": 3
+      },
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q7",
+        "type": "inference",
+        "prompt": "Per què és important que el senyor Vidal afegeixi una línia amb el mateix llapis trobat?",
+        "answer": "Uneix l’inventari material inicial amb la llista de records i mostra que ell també participa en el canvi.",
+        "lines": 3
+      },
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q8",
+        "type": "structure",
+        "prompt": "Quin efecte té el retorn del soroll de les claus al final?",
+        "answer": "Connecta els dos edificis amb un element familiar i dona una primera resposta a la pregunta sobre què es pot traslladar.",
+        "lines": 3
+      },
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q9",
+        "type": "inference",
+        "prompt": "Per què no es completen totes les destinacions, tot i haver arribat al centre nou?",
+        "answer": "Perquè no tots els records o sensacions reapareixen automàticament en un altre lloc; el final només confirma un reconeixement concret.",
+        "lines": 3
+      },
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q10",
+        "type": "summary",
+        "prompt": "Explica com canvia la funció del quadern entre l’inici i el final.",
+        "answer": "Comença servint per transportar objectes i acaba ajudant a reconèixer experiències i vincles que poden continuar o transformar-se després del trasllat.",
+        "lines": 3
+      },
+      {
+        "id": "el-inventario-de-las-cosas-invisibles-q11",
+        "type": "opinion",
+        "prompt": "El final et sembla sobretot una pèrdua o un començament? Defensa una lectura amb dos detalls, tot reconeixent un element de l’altra.",
+        "answer": "Resposta oberta amb dos detalls de suport i un matís: la franja de sol que falta, el soroll familiar, les destinacions buides o la columna nova.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "quedava a contrapèl",
+        "questionId": "el-inventario-de-las-cosas-invisibles-q3"
+      },
+      {
+        "paragraph": 5,
+        "text": "brancal",
+        "definition": "Part lateral d’una porta; aquí situa el senyor Vidal al pas d’entrada."
+      }
+    ]
+  },
+  {
+    "id": "la-partitura-que-dejaba-sitio-al-azar-ca",
+    "code": "L225",
+    "title": "La partitura que deixava lloc a l’atzar",
+    "summary": "Un taller musical combina decisions previstes i resultats d’un dau per explorar què significa compondre.",
+    "paragraphs": [
+      "Quan la professora va dir que compondrien una peça amb un dau, alguns alumnes van pensar que no caldria decidir res. El dau ho faria tot. Sobre la taula hi havia un tambor petit, blocs de fusta i un instrument per sacsejar. Encara no havien fet cap so i ja discutien si el resultat es podria anomenar composició. La professora va escriure una pregunta al marge del full: «Quines decisions prendrem abans de llançar?». Aquell marge es va omplir aviat.",
+      "Van acordar una durada de sis rondes de deu segons. Una persona marcaria els canvis amb un gest visible perquè ningú no hagués de mirar contínuament el rellotge. A cada ronda es llançaria el dau abans de començar: un o dos indicarien sons curts; tres o quatre, sons llargs; cinc o sis, silenci. El resultat valdria per als tres intèrprets. No decidiria quin instrument tocava cadascú ni quina intensitat tindria el so.",
+      "Aquestes últimes decisions les van prendre parlant. Volien que tothom veiés el gest de canvi i que es pogués distingir el timbre dels instruments. També van acordar que no s’ompliria automàticament de soroll tot l’interval: dins de cada ronda sonora, cada intèrpret podia deixar espais. Les instruccions no descrivien cada moviment, però tampoc no permetien fer qualsevol cosa en qualsevol moment.",
+      "Al primer assaig van sortir dos silencis seguits. En Biel va començar a riure i va colpejar el tambor abans del gest següent. Després va dir que estava improvisant. El grup va revisar l’acord: havien deixat llibertat dins de les rondes sonores, però el silenci compartit era una condició de la peça. Podien canviar-la, si volien, abans d’una altra interpretació. Saltar-se-la sense acordar-ho no era la mateixa mena de decisió.",
+      "La segona vegada, les rondes van tenir un ordre diferent. Algú va proposar repetir els resultats que més els agradaven. La professora va demanar què canviaria si ho feien. Podrien conservar la seqüència i interpretar-la com una versió fixada, però ja no estarien deixant aquell ordre al dau en cada ocasió. Cap opció era prohibida al taller; calia explicar quina havien escollit i no confondre dos procediments.",
+      "Van preparar una partitura gràfica amb les regles generals, els instruments i els sis espais de temps. Una fotografia dels resultats del primer assaig es va guardar a banda. El full de regles permetia generar noves versions; la fotografia documentava una versió que ja havia passat. Semblaven dos registres de la mateixa música, però no complien exactament la mateixa funció.",
+      "A la mostra final, el públic no va saber què sortiria al dau. Els intèrprets tampoc no coneixien l’ordre complet, però sabien escoltar el gest i les regles que havien preparat. L’atzar no havia substituït tota la feina de compondre: havia ocupat un lloc que el grup havia decidit deixar-li. La primera pregunta del full continuava sent més útil que la resposta ràpida del primer dia."
+    ],
+    "imageAlt": {
+      "la-partitura-que-dejaba-sitio-al-azar-art1": "Una partitura gràfica amb línies i punts, un dau de fusta i petits instruments de percussió sobre una taula.",
+      "la-partitura-que-dejaba-sitio-al-azar-art2": "Tres adolescents assagen amb un petit tambor, blocs de fusta i un instrument de sacsejar."
+    },
+    "questions": [
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q1",
+        "type": "literal",
+        "prompt": "Quantes rondes té la peça i quant dura cadascuna?",
+        "answer": "Sis rondes de deu segons cadascuna.",
+        "lines": 2
+      },
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q2",
+        "type": "literal",
+        "prompt": "Quins resultats del dau indiquen silenci?",
+        "answer": "Cinc o sis.",
+        "lines": 2
+      },
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q3",
+        "type": "vocabulary",
+        "prompt": "Què vol dir «una versió fixada» en aquest context?",
+        "answer": "Una interpretació amb la seqüència ja decidida i conservada, en lloc de tornar-la a determinar amb el dau.",
+        "lines": 2
+      },
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q4",
+        "type": "inference",
+        "prompt": "Esmenta tres decisions que el dau no pren.",
+        "answer": "Per exemple, instruments, durada de rondes, quantitat de rondes, intensitat o manera de marcar els canvis.",
+        "lines": 3
+      },
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q5",
+        "type": "inference",
+        "prompt": "Per què el cop d’en Biel no és un exemple de la llibertat que havien acordat?",
+        "answer": "Perquè la llibertat de deixar espais s’aplicava dins de les rondes sonores; el silenci era una condició compartida que no havia canviat.",
+        "lines": 3
+      },
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q6",
+        "type": "inference",
+        "prompt": "Si sortissin sis rondes de silenci, canviaria la durada prevista? Explica-ho sense discutir si t’agradaria.",
+        "answer": "No. Les sis rondes de deu segons continuarien sumant seixanta segons; el dau canvia el tipus d’acció, no la durada.",
+        "lines": 3
+      },
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q7",
+        "type": "inference",
+        "prompt": "Què canviaria si repetissin sempre els resultats preferits?",
+        "answer": "L’ordre deixaria de decidir-se a l’atzar en cada interpretació i es convertiria en una seqüència coneguda.",
+        "lines": 3
+      },
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q8",
+        "type": "structure",
+        "prompt": "Per què distingeixen la partitura de regles de la fotografia de resultats?",
+        "answer": "Perquè una indica com produir possibles versions i l’altra registra una versió concreta ja feta.",
+        "lines": 3
+      },
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q9",
+        "type": "inference",
+        "prompt": "Per què els intèrprets necessiten assajar si no saben l’ordre que sortirà al final?",
+        "answer": "Per coordinar gestos, canvis i maneres de tocar dins de les regles, encara que la seqüència no sigui coneguda.",
+        "lines": 3
+      },
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q10",
+        "type": "summary",
+        "prompt": "Explica per què és incorrecte dir que «el dau ho fa tot» en aquesta peça.",
+        "answer": "El grup decideix el marc, els instruments, la durada i les llibertats; només deixa al dau una part concreta de la composició.",
+        "lines": 3
+      },
+      {
+        "id": "la-partitura-que-dejaba-sitio-al-azar-q11",
+        "type": "opinion",
+        "prompt": "Quina regla canviaries per crear una altra peça? Explica què deixaries a l’atzar i què continuaria decidit pel grup.",
+        "answer": "Resposta oberta que distingeixi les dues fonts de decisió i sigui coherent amb una peça que els músics puguin seguir.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 5,
+        "text": "una versió fixada",
+        "questionId": "la-partitura-que-dejaba-sitio-al-azar-q3"
+      }
+    ]
+  },
+  {
+    "id": "el-mapa-que-mostraba-ausencias-ca",
+    "code": "L226",
+    "title": "El mapa que mostrava absències",
+    "summary": "En dibuixar els camins del barri, una classe descobreix que les línies que falten poden tenir explicacions molt diferents.",
+    "paragraphs": [
+      "La Mara va reconèixer el seu carrer al mapa, però va trigar a trobar casa seva. Hi arribava sempre travessant una placeta i un pas estret entre dos edificis. Al plànol, aquell pas no existia. Si seguia només les línies impreses, havia de voltar tota l’illa. Va marcar el lloc amb una creu i va escriure al marge: «Falta un camí». Estava convençuda que havia trobat una errada fàcil de corregir.",
+      "L’endemà, la classe va portar altres absències. En Biel hi afegia una escala; la Noa, una drecera al costat de la biblioteca. En Pol havia assenyalat el pati que travessava quan visitava els seus cosins. Sobre la pissarra, els llapis de colors començaven a dibuixar un segon barri, superposat al primer. El professor va preguntar si tots aquells recorreguts eren del mateix tipus.",
+      "Van consultar el títol i la llegenda del plànol original. Era un esquema de circulació de vehicles, preparat per situar carrers i accessos. Les escales no hi apareixien perquè no servien per al seu propòsit. Això no volia dir que no existissin. La Mara va revisar la seva nota: havia confós una absència en aquell mapa amb una absència al barri, sense preguntar per a què s’havia dibuixat.",
+      "El grup va decidir preparar un plànol per a desplaçaments a peu. Abans d’unir tots els punts, va separar el que sabia del que havia de comprovar. El pas de la Mara estava obert de manera habitual. El pati d’en Pol només es podia travessar quan visitava la família i li obrien. Dibuixar-los igual hauria fet semblar disponibles dos itineraris amb condicions diferents. No n’hi havia prou que una persona els hagués recorregut una vegada.",
+      "També van comparar els noms. Per a la Noa, «camí de la biblioteca» era la drecera darrere de l’edifici. Per a un altre company, era la vorera que arribava a la porta principal. Van marcar els punts d’inici i final per saber si discutien sobre un mateix traçat. Algunes discrepàncies no venien del terreny, sinó de fer servir un nom semblant per a llocs diferents.",
+      "Quan van mostrar el primer esborrany, una veïna que es desplaçava amb caminador va preguntar pels graons. El mapa distingia carrers amples i estrets, però no aquell detall. Van afegir-hi la informació que havien comprovat i van deixar pendents alguns trams. Una línia contínua i neta semblava més bonica, però no volien completar els buits només perquè el dibuix quedés acabat.",
+      "La Mara va guardar la versió inicial al costat de la nova. El primer mapa no s’havia tornat inútil: continuava servint per al propòsit amb què s’havia fet. El segon tampoc no era «tot el barri», sinó una representació més adequada per a unes preguntes diferents. Al marge, la Mara va canviar el seu comentari: «Quin camí falta, per a qui i en quin mapa?». La creu era al mateix lloc, però ja no assenyalava una resposta tan senzilla."
+    ],
+    "imageAlt": {
+      "el-mapa-que-mostraba-ausencias-art1": "Un camí de terra entre edificis es troba amb un pas pavimentat del barri.",
+      "el-mapa-que-mostraba-ausencias-art2": "Un jove compara dos mapes de carrers i camins sobre una taula amb llapis i un regle."
+    },
+    "questions": [
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q1",
+        "type": "literal",
+        "prompt": "Per a què s’havia preparat el mapa original?",
+        "answer": "Per representar la circulació de vehicles i situar carrers i accessos.",
+        "lines": 2
+      },
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q2",
+        "type": "literal",
+        "prompt": "Quina informació va trobar a faltar la veïna que feia servir caminador?",
+        "answer": "La presència de graons en els recorreguts.",
+        "lines": 2
+      },
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q3",
+        "type": "vocabulary",
+        "prompt": "Què vol dir «discrepàncies» en parlar dels noms dels camins?",
+        "answer": "Diferències o desacords entre el que identificaven els participants amb un mateix nom.",
+        "lines": 2
+      },
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q4",
+        "type": "inference",
+        "prompt": "Per què l’absència de les escales no era necessàriament una errada del mapa original?",
+        "answer": "Perquè un mapa per a vehicles no pretenia mostrar tots els passos de vianants.",
+        "lines": 3
+      },
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q5",
+        "type": "inference",
+        "prompt": "Quin malentès provocaria dibuixar el pas de la Mara i el pati d’en Pol de la mateixa manera?",
+        "answer": "Que tots dos són igualment disponibles per a qualsevol persona, quan el pati depèn d’una visita i que l’obrin.",
+        "lines": 3
+      },
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q6",
+        "type": "inference",
+        "prompt": "Per què marcar els extrems dels camins ajuda a resoldre una discussió sobre els noms?",
+        "answer": "Perquè permet comprovar si es refereixen al mateix recorregut abans de discutir-ne les característiques.",
+        "lines": 3
+      },
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q7",
+        "type": "inference",
+        "prompt": "Què mostra la pregunta sobre graons respecte de la tria d’informació d’un mapa?",
+        "answer": "Que un detall ignorat per uns usuaris pot ser imprescindible per a uns altres.",
+        "lines": 3
+      },
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q8",
+        "type": "structure",
+        "prompt": "Quina funció té comparar els dos comentaris de la Mara, el del principi i el del final?",
+        "answer": "Fa visible el pas d’una certesa simple sobre una errada a una pregunta que considera propòsit, usuaris i comprovacions.",
+        "lines": 3
+      },
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q9",
+        "type": "inference",
+        "prompt": "Per què deixar trams pendents pot ser més informatiu que completar totes les línies?",
+        "answer": "Perquè assenyala on falta informació comprovada en lloc de donar aparença de certesa a un recorregut desconegut.",
+        "lines": 3
+      },
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q10",
+        "type": "summary",
+        "prompt": "Explica per què el segon mapa és més útil per al nou objectiu sense ser una còpia completa del barri.",
+        "answer": "Selecciona passos i condicions rellevants per caminar, però continua representant només part de la realitat segons unes necessitats.",
+        "lines": 3
+      },
+      {
+        "id": "el-mapa-que-mostraba-ausencias-q11",
+        "type": "opinion",
+        "prompt": "Quin detall afegiries a un mapa pensat per a un altre grup d’usuaris? Defineix el grup i justifica la tria amb la idea del text.",
+        "answer": "Resposta oberta que relacioni una necessitat concreta amb la informació escollida, sense presentar un mapa com a útil per a tothom igualment.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 5,
+        "text": "discrepàncies",
+        "questionId": "el-mapa-que-mostraba-ausencias-q3"
+      }
+    ]
+  },
+  {
+    "id": "una-solucion-mas-lenta-ca",
+    "code": "L227",
+    "title": "Una solució més lenta",
+    "summary": "Un servei que tarda menys de mitjana no és necessàriament més fàcil d’utilitzar per a totes les persones.",
+    "paragraphs": [
+      "Quan el centre de barri va estrenar el terminal de reserves, l’anunci destacava una promesa: menys cues. Per reservar una sala, ja no caldria explicar la petició al taulell si tot es podia triar a la pantalla. Durant la prova, les operacions completades al terminal van durar menys que les fetes amb ajuda del personal. Alguns van proposar retirar la major part de l’atenció presencial. La xifra semblava donar-los la raó, però el registre deixava fora una part de l’experiència.",
+      "El temps s’havia comptat des de l’inici fins a la confirmació de cada reserva acabada. No incloïa les persones que havien començat i abandonat el procés. Tampoc no sumava els minuts passats buscant on era la reserva anterior o intentant entendre un missatge de la pantalla. Per a qui coneixia el sistema i portava una petició senzilla, el terminal era ràpid. Aquella dada no explicava igualment bé què passava amb la resta.",
+      "Una usuària havia arribat per canviar l’hora d’un acte amb tres sales combinades. Un altre volia saber si dues activitats podien compartir material. No eren necessàriament persones poc hàbils amb la tecnologia: les seves demandes no encaixaven del tot en les opcions previstes. També hi havia qui no podia llegir còmodament la pantalla o necessitava una explicació en una altra llengua. Una mateixa dificultat visible podia tenir causes diferents.",
+      "Defensar una alternativa amb persones no vol dir que qualsevol conversa sigui millor que un sistema automàtic. Una cua llarga i una informació confusa també exclouen. El terminal permetia fer moltes reserves habituals sense esperar que quedés lliure el taulell. Retirar-lo hauria fet perdre un avantatge real. La qüestió era evitar que una millora per a alguns es convertís en l’única porta d’entrada per a tothom.",
+      "El centre va mantenir les dues vies i va canviar la prova. A més de la durada de les operacions acabades, va anotar quantes s’interrompien, quines preguntes requerien ajuda i si les persones sortien sabent què havien reservat. També va situar un avís clar per trobar el taulell. No volia que demanar ajuda semblés un error de l’usuari ni una opció amagada darrere de diverses pantalles.",
+      "La nova proposta podia semblar més lenta en un full que només comparés el temps de les reserves confirmades. Necessitava personal i espai, i el centre hauria de valorar com mantenir-los. Però també comptava intents que abans desapareixien del balanç. Si un servei estalvia uns minuts a qui acaba i deixa sense resposta qui no arriba al final, el resum numèric és incomplet.",
+      "La tecnologia pot fer una feina valuosa sense resoldre totes les situacions. Per decidir si un canvi millora un servei, convé preguntar què considerem un resultat i quines persones entren en el recompte. Potser la millor solució no serà la més ràpida en cada cas. Hauria de permetre, almenys, que la rapidesa d’uns no s’obtingui fent invisibles les dificultats dels altres."
+    ],
+    "imageAlt": {
+      "una-solucion-mas-lenta-art1": "Una sala d’atenció amb un terminal automàtic, un taulell amb personal i persones esperant.",
+      "una-solucion-mas-lenta-art2": "Un tiquet de torn, unes ulleres i un bolígraf al costat d’una pantalla tàctil en un taulell."
+    },
+    "questions": [
+      {
+        "id": "una-solucion-mas-lenta-q1",
+        "type": "literal",
+        "prompt": "Quines operacions incloïa el primer recompte del temps?",
+        "answer": "Les reserves acabades, des de l’inici fins a la confirmació.",
+        "lines": 2
+      },
+      {
+        "id": "una-solucion-mas-lenta-q2",
+        "type": "literal",
+        "prompt": "Quines dues vies manté el centre després de revisar la prova?",
+        "answer": "El terminal automàtic i l’atenció amb personal al taulell.",
+        "lines": 2
+      },
+      {
+        "id": "una-solucion-mas-lenta-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa «l’única porta d’entrada» en aquest argument?",
+        "answer": "L’única manera d’accedir al servei, no una porta física de l’edifici.",
+        "lines": 2
+      },
+      {
+        "id": "una-solucion-mas-lenta-q4",
+        "type": "inference",
+        "prompt": "Per què el primer temps mitjà podia afavorir una visió massa positiva del terminal?",
+        "answer": "Perquè només comptava els intents completats i excloïa abandonaments i dificultats que impedien arribar a confirmar.",
+        "lines": 3
+      },
+      {
+        "id": "una-solucion-mas-lenta-q5",
+        "type": "inference",
+        "prompt": "Quina explicació simplista rebutgen els exemples de les tres sales i del material compartit?",
+        "answer": "Que totes les dificultats són degudes a poca habilitat tecnològica; algunes peticions no encaixen en les opcions del sistema.",
+        "lines": 3
+      },
+      {
+        "id": "una-solucion-mas-lenta-q6",
+        "type": "structure",
+        "prompt": "Quina funció té reconèixer els avantatges del terminal en un text que defensa mantenir l’atenció personal?",
+        "answer": "Matisa l’argument i mostra que es proposa combinar vies, no negar qualsevol millora automàtica.",
+        "lines": 3
+      },
+      {
+        "id": "una-solucion-mas-lenta-q7",
+        "type": "inference",
+        "prompt": "Per què preguntar si la persona sap què ha reservat afegeix informació al simple nombre de confirmacions?",
+        "answer": "Perquè acabar el procés no assegura que la reserva correspongui al que necessitava ni que l’hagi entès.",
+        "lines": 3
+      },
+      {
+        "id": "una-solucion-mas-lenta-q8",
+        "type": "inference",
+        "prompt": "Per què el text admet que la solució combinada té costos?",
+        "answer": "Perquè requereix personal i espai que cal mantenir; reconèixer-ho evita presentar-la com un avantatge sense cap dificultat.",
+        "lines": 3
+      },
+      {
+        "id": "una-solucion-mas-lenta-q9",
+        "type": "inference",
+        "prompt": "Quina relació hi ha entre el títol i el criteri amb què s’avalua el servei?",
+        "answer": "Pot semblar més lenta si només es mesuren reserves acabades, però més útil si es consideren també accés, ajuda i intents interromputs.",
+        "lines": 3
+      },
+      {
+        "id": "una-solucion-mas-lenta-q10",
+        "type": "summary",
+        "prompt": "Formula la tesi del text amb una condició que s’hagi de revisar abans d’eliminar una via de servei.",
+        "answer": "La rapidesa d’un sistema no justifica fer-lo únic sense comprovar a qui deixa fora i si resol les necessitats diverses dels usuaris.",
+        "lines": 3
+      },
+      {
+        "id": "una-solucion-mas-lenta-q11",
+        "type": "opinion",
+        "prompt": "Proposa un indicador addicional per comparar les dues vies. Explica què mostraria i una cosa que encara no permetria saber.",
+        "answer": "Resposta oberta que vinculi la dada amb l’experiència de servei i reconegui un límit de l’indicador.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 4,
+        "text": "l’única porta d’entrada",
+        "questionId": "una-solucion-mas-lenta-q3"
+      }
+    ]
+  },
+  {
+    "id": "la-noche-de-los-murcielagos-ca",
+    "code": "L228",
+    "title": "La nit dels ratpenats",
+    "summary": "Una sortida al capvespre canvia quan un detector permet escoltar una activitat que les orelles soles no distingien.",
+    "paragraphs": [
+      "Divendres, després de la sortida. Havia imaginat la nit dels ratpenats com una espera silenciosa fins que aparegués una ombra. A la motxilla hi portava un quadern i un llapis que gairebé no es veia quan la llum va començar a baixar. L’Elna havia promès que no ens quedaríem sense res per anotar. Era la persona que guiava el grup, però al principi només ens va demanar que miréssim l’aigua i escoltéssim.",
+      "A l’estany se sentien granotes, un cotxe llunyà i el fregadís de les fulles. Un insecte em va passar davant de la cara. Vaig escriure «encara cap ratpenat». Després una silueta petita va travessar el cel entre dos arbres i va desaparèixer abans que jo pogués assenyalar-la. Un company va dir que n’havia vist tres. No sabíem si parlàvem del mateix vol o d’animals diferents, perquè ningú no havia seguit les siluetes tota l’estona.",
+      "L’Elna va encendre un detector. De seguida van aparèixer uns espetecs ràpids que no havíem sentit abans. Va explicar que molts ratpenats emeten sons d’ecolocalització a freqüències massa altes perquè els sentim directament. En rebre els ecos, poden obtenir informació de l’entorn. El detector transformava una part d’aquells senyals en sons audibles per a nosaltres; no feia que els animals comencessin a cridar perquè l’haguéssim encès.",
+      "Vaig mirar el lloc d’on em semblava que venien els espetecs. No hi veia res. La sensació era estranya: tenir una pista clara d’activitat i no poder-la unir a un punt concret del cel. L’Elna va dir que escoltar un detector també demanava aprendre. El so podia ajudar a estudiar els ratpenats, però una primera audició de deu minuts no ens convertia en persones capaces d’identificar-los tots.",
+      "La meva llista va començar a barrejar ombres i sons. Vaig apuntar sis sèries d’espetecs i vaig estar a punt d’escriure «sis ratpenats». L’Elna em va preguntar si un mateix animal podia passar més d’una vegada prop nostre. Vaig ratllar el nombre a la columna d’individus i el vaig deixar a la de registres. No havia perdut sis observacions: havia canviat el que podia afirmar a partir d’aquelles observacions.",
+      "Ens vam quedar al camí, sense perseguir les siluetes ni entrar a buscar-les als arbres. M’agradava mirar el detector, però em vaig adonar que, si no aixecava el cap, em perdia una altra part de la sortida. Vaig alternar estones de mirar l’aigua amb estones d’escoltar. Els dos tipus de pistes no sempre arribaven junts. Al quadern vaig deixar una separació entre el que havia vist i el que havia sentit.",
+      "A la tornada, l’Elna va apagar l’aparell. Els espetecs van desaparèixer, però no vam dir que l’activitat s’hagués aturat. Vaig pensar en la primera anotació del quadern i hi vaig posar una correcció: «Encara no n’havíem detectat cap». Era una frase menys espectacular que el descobriment d’un animal nou. També era una manera més exacta d’explicar què havia canviat aquella nit: no només el paisatge, sinó les eines amb què l’estàvem escoltant."
+    ],
+    "imageAlt": {
+      "la-noche-de-los-murcielagos-art1": "Un ratpenat amb les ales desplegades vola al capvespre sobre un estany envoltat de vegetació.",
+      "la-noche-de-los-murcielagos-art2": "Dos joves observen l’estany des del camí amb un petit detector de ratpenats a la mà."
+    },
+    "questions": [
+      {
+        "id": "la-noche-de-los-murcielagos-q1",
+        "type": "literal",
+        "prompt": "Quins sons sent el grup abans d’encendre el detector?",
+        "answer": "Granotes, un cotxe llunyà i el fregadís de les fulles.",
+        "lines": 2
+      },
+      {
+        "id": "la-noche-de-los-murcielagos-q2",
+        "type": "literal",
+        "prompt": "Què corregeix qui narra quan havia anotat sis sèries d’espetecs?",
+        "answer": "Deixa de comptar-les com sis individus i les conserva com sis registres.",
+        "lines": 2
+      },
+      {
+        "id": "la-noche-de-los-murcielagos-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa «audibles» en descriure el resultat del detector?",
+        "answer": "Que els podem sentir amb les orelles, a diferència dels senyals originals massa aguts per a nosaltres.",
+        "lines": 2
+      },
+      {
+        "id": "la-noche-de-los-murcielagos-q4",
+        "type": "inference",
+        "prompt": "Per què sentir els espetecs després d’encendre l’aparell no prova que els ratpenats hagin començat a emetre llavors?",
+        "answer": "Perquè el detector canvia el que les persones poden escoltar, no provoca necessàriament l’inici de l’activitat.",
+        "lines": 3
+      },
+      {
+        "id": "la-noche-de-los-murcielagos-q5",
+        "type": "inference",
+        "prompt": "Per què sis registres no asseguren sis animals diferents?",
+        "answer": "Perquè un mateix animal podria passar o ser detectat diverses vegades.",
+        "lines": 3
+      },
+      {
+        "id": "la-noche-de-los-murcielagos-q6",
+        "type": "inference",
+        "prompt": "Què mostra el fet de sentir activitat sense veure cap silueta en aquell moment?",
+        "answer": "Que les eines i els sentits aporten pistes diferents i que no detectar visualment un animal no demostra que no hi sigui.",
+        "lines": 3
+      },
+      {
+        "id": "la-noche-de-los-murcielagos-q7",
+        "type": "structure",
+        "prompt": "Quina funció té recuperar la primera anotació al final del diari?",
+        "answer": "Mostra com ha canviat la manera d’interpretar una absència d’observacions després d’utilitzar i entendre el detector.",
+        "lines": 3
+      },
+      {
+        "id": "la-noche-de-los-murcielagos-q8",
+        "type": "inference",
+        "prompt": "Per què mirar contínuament l’aparell també podia empobrir la sortida?",
+        "answer": "Perquè feia perdre altres pistes visuals del paisatge i dels vols que es produïen al voltant.",
+        "lines": 3
+      },
+      {
+        "id": "la-noche-de-los-murcielagos-q9",
+        "type": "inference",
+        "prompt": "Poden identificar amb seguretat tots els ratpenats després d’aquesta sortida? Dona una raó del text.",
+        "answer": "No. L’Elna explica que interpretar els sons exigeix aprenentatge i deu minuts d’una primera escolta no són suficients.",
+        "lines": 3
+      },
+      {
+        "id": "la-noche-de-los-murcielagos-q10",
+        "type": "summary",
+        "prompt": "Explica la diferència entre «no hi havia ratpenats» i «encara no n’havíem detectat cap».",
+        "answer": "La primera afirma una absència al lloc; la segona descriu el límit de les observacions que tenien fins llavors.",
+        "lines": 3
+      },
+      {
+        "id": "la-noche-de-los-murcielagos-q11",
+        "type": "opinion",
+        "prompt": "Quines dues columnes posaries en un quadern per a una altra sortida d’observació? Explica com evitarien una confusió semblant.",
+        "answer": "Resposta oberta que separi, per exemple, registre i individu, observació i interpretació, o eina i dada, amb una utilitat concreta.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 3,
+        "text": "audibles",
+        "questionId": "la-noche-de-los-murcielagos-q3"
+      },
+      {
+        "paragraph": 3,
+        "text": "ecolocalització",
+        "definition": "Obtenció d’informació sobre l’entorn a partir dels ecos dels sons emesos per l’animal."
+      }
+    ]
   }
 ];
