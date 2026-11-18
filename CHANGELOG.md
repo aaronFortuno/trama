@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.41.1 · 18 de novembre del 2026
+
+Les pistes del solucionari s’amplien fins a L050, en català i castellà. Els fragments exactes s’han revisat amb les respostes de cada idioma; les marques poden compartir un passatge i mantenen la numeració quan s’amaguen preguntes.
+
 ## 1.41 · 18 de novembre del 2026
 
 El solucionari incorpora fragments ressaltats amb el número i el color de cada pregunta, i una drecera «Veure al text». Es poden desactivar a Pistes al text i la tria es conserva amb el maquetat, també per als lots. Primeres referències revisades a L001–L005 en català i castellà; la selecció s’ampliarà a la resta del catàleg.

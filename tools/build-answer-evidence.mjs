@@ -4,25 +4,44 @@ import { readings } from '../data/readings.js';
 import { annotationRange } from '../reading-annotations.js';
 
 export function sentences(paragraph, language) {
+  return sentenceRanges(paragraph, language).map(item => item.text);
+}
+
+function sentenceRanges(paragraph, language) {
   return [...new Intl.Segmenter(language, { granularity: 'sentence' }).segment(paragraph)]
-    .map(item => item.segment.trim()).filter(Boolean);
+    .map(item => ({ text: item.segment.trim(), start: item.index + item.segment.length - item.segment.trimStart().length,
+      end: item.index + item.segment.trimEnd().length })).filter(item => item.text);
 }
 
 const [command, start = 1, end = start] = process.argv.slice(2);
-if (command === 'dump') {
+if (command === 'dump' || command === 'dump-es') {
   for (let code = +start; code <= +end; code++) {
     const pair = readings.filter(reading => +reading.code.slice(1) === code);
     console.log('\n'+pair[0]?.code);
     for (const reading of pair) {
+      if (command === 'dump-es' && reading.language === 'ca') {
+        const es = pair.find(item => item.language === 'es');
+        reading.paragraphs.forEach((p, i) => {
+          const parts = sentences(p, 'ca');
+          if (parts.length !== sentences(es.paragraphs[i] ?? '', 'es').length) console.log('CA alignment '+parts.map((s, j) => `${i+1}.${j+1} ${s}`).join('\n'));
+        });
+        reading.questions.forEach((q, i) => { if (q.id !== es.questions[i]?.id || q.type !== es.questions[i]?.type) console.log(`CA Q${i+1} ${q.prompt} => ${q.answer}`); });
+        continue;
+      }
       console.log(reading.language+' '+reading.title);
       reading.paragraphs.forEach((p, i) => console.log(sentences(p, reading.language).map((s, j) => `${i+1}.${j+1} ${s}`).join('\n')));
       reading.questions.forEach((q, i) => console.log(`Q${i+1} ${q.type}: ${q.prompt} => ${q.answer}`));
     }
   }
+} else if (command === 'proof-ca') {
+  for (const reading of readings.filter(item => item.language === 'ca' && +item.code.slice(1) >= +start && +item.code.slice(1) <= +end)) {
+    console.log('\n'+reading.code+' '+reading.title);
+    reading.questions.forEach((q, i) => { if (q.evidence?.length) console.log(`Q${i+1} ${q.answer} <= ${q.evidence.map(ref => ref.text).join(' / ')}`); });
+  }
 } else if (command === 'build') {
   const selections = JSON.parse(await readFile(new URL('../data/evidence-selection.json', import.meta.url), 'utf8'));
   const output = {};
-  for (const [code, languages] of Object.entries(selections)) for (const [language, rows] of Object.entries(languages)) {
+  for (const [code, selection] of Object.entries(selections)) for (const [language, rows] of Object.entries(Array.isArray(selection) ? { es: selection, ca: selection } : selection)) {
     const reading = readings.find(item => item.code === code && item.language === language);
     assert(reading, code+' '+language);
     assert.equal(rows.length, reading.questions.length, code+' '+language+' questions');
@@ -35,13 +54,19 @@ if (command === 'dump') {
         assert(match, code+' Q'+(index+1)+' invalid selection '+token);
         const paragraph = reading.paragraphs[+p-1];
         assert(paragraph, code+' paragraph '+p);
-        const parts = sentences(paragraph, language);
+        const parts = sentenceRanges(paragraph, language);
         assert(phrase || parts[+first-1] && parts[+(last??first)-1], code+' '+language+' '+token);
-        const text = phrase ?? parts.slice(+first-1, +(last??first)).join(' ');
-        // Reuse the actual whitespace between consecutive sentences.
-        const needle = phrase ? text : paragraph.slice(paragraph.indexOf(parts[+first-1]), paragraph.indexOf(parts[+(last??first)-1]) + parts[+(last??first)-1].length);
+        const start = phrase ? paragraph.indexOf(phrase) : parts[+first-1].start;
+        // Reuse actual whitespace and offsets, including repeated sentences.
+        const needle = phrase ?? paragraph.slice(start, parts[+(last??first)-1].end);
         const reference = { paragraph: +p, text: needle };
-        if (!annotationRange(paragraph, reference)) reference.occurrence = 1;
+        if (!annotationRange(paragraph, reference)) {
+          for (let occurrence = 1; occurrence <= paragraph.length; occurrence++) {
+            const range = annotationRange(paragraph, { ...reference, occurrence });
+            if (!range) break;
+            if (range.start === start) { reference.occurrence = occurrence; break; }
+          }
+        }
         assert(annotationRange(paragraph, reference), code+' '+language+' '+question.id+' '+token);
         assert(reference.text.length <= 1200, code+' excerpt too long');
         return reference;
