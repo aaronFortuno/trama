@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.41.3 · 18 de novembre del 2026
+
+Les marques de suport al solucionari ja cobreixen les L001–L100 en català i castellà, incloent-hi les lectures llargues i les pistes que cal relacionar entre paràgrafs.
+
 ## 1.41.2 · 18 de novembre del 2026
 
 Ampliem les pistes del solucionari fins a la L076, amb fragments revisats en català i castellà i indicis combinats per a les preguntes d’inferència.
