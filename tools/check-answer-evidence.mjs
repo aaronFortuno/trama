@@ -39,6 +39,7 @@ for (const reading of readings) {
   assert.equal(worksheetLayout(reading, settings).showEvidence, false);
   assert.equal(readCode(makeLinkCode(reading, settings), readings).settings.showEvidence, false);
   const linked = prepareAnswerEvidence(reading, reading.questions);
+  assert(linked.byQuestion.size > 0, `${reading.code}-${reading.language}: catalogue reading needs reviewed evidence`);
   if (linked.byQuestion.size) count++;
   for (const question of reading.questions) for (const reference of question.evidence ?? []) {
     assert(annotationRange(reading.paragraphs[reference.paragraph - 1], reference), `${reading.code}-${reading.language}: ${question.id}`);
@@ -46,4 +47,5 @@ for (const reading of readings) {
     references++;
   }
 }
+assert.equal(count, readings.length, 'all catalogue language versions have reviewed evidence');
 console.log(`Evidence rendering and settings checked; ${count}/${readings.length} readings have ${references} exact references.`);

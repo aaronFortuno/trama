@@ -22144,6 +22144,3346 @@ export const answerEvidence = {
       }
     ]
   },
+  "la-partitura-que-dejaba-sitio-al-azar-es": {
+    "la-partitura-que-dejaba-sitio-al-azar-q1": [
+      {
+        "paragraph": 2,
+        "text": "Acordaron seis rondas de diez segundos."
+      }
+    ],
+    "la-partitura-que-dejaba-sitio-al-azar-q2": [
+      {
+        "paragraph": 2,
+        "text": "En cada ronda lanzarían el dado antes de empezar: uno o dos indicarían sonidos cortos; tres o cuatro, sonidos largos; cinco o seis, silencio."
+      }
+    ],
+    "la-partitura-que-dejaba-sitio-al-azar-q3": [
+      {
+        "paragraph": 5,
+        "text": "Podían conservar la secuencia e interpretarla como una versión fijada, pero ya no dejarían ese orden al dado cada vez."
+      }
+    ],
+    "la-partitura-que-dejaba-sitio-al-azar-q4": [
+      {
+        "paragraph": 2,
+        "text": "Acordaron seis rondas de diez segundos. Una persona marcaría los cambios con un gesto visible para que nadie tuviera que mirar continuamente el reloj."
+      },
+      {
+        "paragraph": 2,
+        "text": "No decidiría qué instrumento tocaba cada uno ni la intensidad del sonido."
+      }
+    ],
+    "la-partitura-que-dejaba-sitio-al-azar-q5": [
+      {
+        "paragraph": 4,
+        "text": "Biel se rio y golpeó el tambor antes del siguiente gesto. Después dijo que improvisaba. Revisaron el acuerdo: habían dejado libertad dentro de las rondas sonoras, pero el silencio compartido era una condición de la pieza. Podían cambiarla antes de otra interpretación. Saltársela sin acordarlo no era la misma clase de decisión."
+      }
+    ],
+    "la-partitura-que-dejaba-sitio-al-azar-q6": [
+      {
+        "paragraph": 2,
+        "text": "Acordaron seis rondas de diez segundos."
+      },
+      {
+        "paragraph": 2,
+        "text": "En cada ronda lanzarían el dado antes de empezar: uno o dos indicarían sonidos cortos; tres o cuatro, sonidos largos; cinco o seis, silencio."
+      }
+    ],
+    "la-partitura-que-dejaba-sitio-al-azar-q7": [
+      {
+        "paragraph": 5,
+        "text": "Podían conservar la secuencia e interpretarla como una versión fijada, pero ya no dejarían ese orden al dado cada vez."
+      }
+    ],
+    "la-partitura-que-dejaba-sitio-al-azar-q8": [
+      {
+        "paragraph": 6,
+        "text": "Prepararon una partitura gráfica con las reglas generales, los instrumentos y los seis espacios de tiempo. Guardaron aparte una fotografía de los resultados del primer ensayo. La hoja de reglas permitía generar versiones nuevas; la foto documentaba una versión que ya había sucedido."
+      }
+    ],
+    "la-partitura-que-dejaba-sitio-al-azar-q9": [
+      {
+        "paragraph": 3,
+        "text": "Querían que todos vieran el gesto de cambio y que se distinguiera el timbre de los instrumentos."
+      },
+      {
+        "paragraph": 7,
+        "text": "Los intérpretes tampoco conocían el orden completo, pero sabían seguir el gesto y las reglas preparadas."
+      }
+    ],
+    "la-partitura-que-dejaba-sitio-al-azar-q10": [
+      {
+        "paragraph": 2,
+        "text": "Acordaron seis rondas de diez segundos. Una persona marcaría los cambios con un gesto visible para que nadie tuviera que mirar continuamente el reloj. En cada ronda lanzarían el dado antes de empezar: uno o dos indicarían sonidos cortos; tres o cuatro, sonidos largos; cinco o seis, silencio. El resultado valdría para los tres intérpretes. No decidiría qué instrumento tocaba cada uno ni la intensidad del sonido."
+      },
+      {
+        "paragraph": 7,
+        "text": "El azar no había sustituido todo el trabajo de componer: ocupaba un lugar que el grupo había decidido dejarle."
+      }
+    ]
+  },
+  "la-partitura-que-dejaba-sitio-al-azar-ca": {
+    "la-partitura-que-dejaba-sitio-al-azar-q1": [
+      {
+        "paragraph": 2,
+        "text": "Van acordar una durada de sis rondes de deu segons."
+      }
+    ],
+    "la-partitura-que-dejaba-sitio-al-azar-q2": [
+      {
+        "paragraph": 2,
+        "text": "A cada ronda es llançaria el dau abans de començar: un o dos indicarien sons curts; tres o quatre, sons llargs; cinc o sis, silenci."
+      }
+    ],
+    "la-partitura-que-dejaba-sitio-al-azar-q3": [
+      {
+        "paragraph": 5,
+        "text": "Podrien conservar la seqüència i interpretar-la com una versió fixada, però ja no estarien deixant aquell ordre al dau en cada ocasió."
+      }
+    ],
+    "la-partitura-que-dejaba-sitio-al-azar-q4": [
+      {
+        "paragraph": 2,
+        "text": "Van acordar una durada de sis rondes de deu segons. Una persona marcaria els canvis amb un gest visible perquè ningú no hagués de mirar contínuament el rellotge."
+      },
+      {
+        "paragraph": 2,
+        "text": "No decidiria quin instrument tocava cadascú ni quina intensitat tindria el so."
+      }
+    ],
+    "la-partitura-que-dejaba-sitio-al-azar-q5": [
+      {
+        "paragraph": 4,
+        "text": "En Biel va començar a riure i va colpejar el tambor abans del gest següent. Després va dir que estava improvisant. El grup va revisar l’acord: havien deixat llibertat dins de les rondes sonores, però el silenci compartit era una condició de la peça. Podien canviar-la, si volien, abans d’una altra interpretació. Saltar-se-la sense acordar-ho no era la mateixa mena de decisió."
+      }
+    ],
+    "la-partitura-que-dejaba-sitio-al-azar-q6": [
+      {
+        "paragraph": 2,
+        "text": "Van acordar una durada de sis rondes de deu segons."
+      },
+      {
+        "paragraph": 2,
+        "text": "A cada ronda es llançaria el dau abans de començar: un o dos indicarien sons curts; tres o quatre, sons llargs; cinc o sis, silenci."
+      }
+    ],
+    "la-partitura-que-dejaba-sitio-al-azar-q7": [
+      {
+        "paragraph": 5,
+        "text": "Podrien conservar la seqüència i interpretar-la com una versió fixada, però ja no estarien deixant aquell ordre al dau en cada ocasió."
+      }
+    ],
+    "la-partitura-que-dejaba-sitio-al-azar-q8": [
+      {
+        "paragraph": 6,
+        "text": "Van preparar una partitura gràfica amb les regles generals, els instruments i els sis espais de temps. Una fotografia dels resultats del primer assaig es va guardar a banda. El full de regles permetia generar noves versions; la fotografia documentava una versió que ja havia passat."
+      }
+    ],
+    "la-partitura-que-dejaba-sitio-al-azar-q9": [
+      {
+        "paragraph": 3,
+        "text": "Volien que tothom veiés el gest de canvi i que es pogués distingir el timbre dels instruments."
+      },
+      {
+        "paragraph": 7,
+        "text": "Els intèrprets tampoc no coneixien l’ordre complet, però sabien escoltar el gest i les regles que havien preparat."
+      }
+    ],
+    "la-partitura-que-dejaba-sitio-al-azar-q10": [
+      {
+        "paragraph": 2,
+        "text": "Van acordar una durada de sis rondes de deu segons. Una persona marcaria els canvis amb un gest visible perquè ningú no hagués de mirar contínuament el rellotge. A cada ronda es llançaria el dau abans de començar: un o dos indicarien sons curts; tres o quatre, sons llargs; cinc o sis, silenci. El resultat valdria per als tres intèrprets. No decidiria quin instrument tocava cadascú ni quina intensitat tindria el so."
+      },
+      {
+        "paragraph": 7,
+        "text": "L’atzar no havia substituït tota la feina de compondre: havia ocupat un lloc que el grup havia decidit deixar-li."
+      }
+    ]
+  },
+  "el-mapa-que-mostraba-ausencias-es": {
+    "el-mapa-que-mostraba-ausencias-q1": [
+      {
+        "paragraph": 3,
+        "text": "Era un esquema de circulación de vehículos para situar calles y accesos."
+      }
+    ],
+    "el-mapa-que-mostraba-ausencias-q2": [
+      {
+        "paragraph": 6,
+        "text": "Al mostrar el borrador, una vecina que usaba andador preguntó por los escalones. El mapa distinguía calles anchas y estrechas, pero no ese detalle."
+      }
+    ],
+    "el-mapa-que-mostraba-ausencias-q3": [
+      {
+        "paragraph": 5,
+        "text": "Para Noa, «camino de la biblioteca» era el atajo detrás del edificio. Para otro compañero, era la acera que llegaba a la puerta principal. Marcaron inicio y final para saber si hablaban del mismo trazado. Algunas discrepancias no venían del terreno, sino de usar nombres parecidos para lugares distintos."
+      }
+    ],
+    "el-mapa-que-mostraba-ausencias-q4": [
+      {
+        "paragraph": 3,
+        "text": "Era un esquema de circulación de vehículos para situar calles y accesos. Las escaleras no aparecían porque no servían para su propósito. Eso no significaba que no existieran."
+      }
+    ],
+    "el-mapa-que-mostraba-ausencias-q5": [
+      {
+        "paragraph": 4,
+        "text": "El paso de Mara estaba abierto habitualmente. El patio de Pol solo podía cruzarse cuando visitaba a su familia y le abrían. Dibujarlos igual habría hecho parecer disponibles dos itinerarios con condiciones distintas."
+      }
+    ],
+    "el-mapa-que-mostraba-ausencias-q6": [
+      {
+        "paragraph": 5,
+        "text": "Para Noa, «camino de la biblioteca» era el atajo detrás del edificio. Para otro compañero, era la acera que llegaba a la puerta principal. Marcaron inicio y final para saber si hablaban del mismo trazado. Algunas discrepancias no venían del terreno, sino de usar nombres parecidos para lugares distintos."
+      }
+    ],
+    "el-mapa-que-mostraba-ausencias-q7": [
+      {
+        "paragraph": 6,
+        "text": "Al mostrar el borrador, una vecina que usaba andador preguntó por los escalones. El mapa distinguía calles anchas y estrechas, pero no ese detalle. Añadieron la información comprobada y dejaron pendientes algunos tramos."
+      }
+    ],
+    "el-mapa-que-mostraba-ausencias-q8": [
+      {
+        "paragraph": 1,
+        "text": "Marcó el lugar con una cruz y escribió: «Falta un camino». Estaba convencida de haber encontrado un error fácil de corregir."
+      },
+      {
+        "paragraph": 7,
+        "text": "Al margen cambió su comentario: «¿Qué camino falta, para quién y en qué mapa?». La cruz seguía en el mismo lugar, pero ya no señalaba una respuesta tan sencilla."
+      }
+    ],
+    "el-mapa-que-mostraba-ausencias-q9": [
+      {
+        "paragraph": 6,
+        "text": "Añadieron la información comprobada y dejaron pendientes algunos tramos. Una línea continua y limpia parecía más bonita, pero no querían rellenar los huecos solo para que el dibujo pareciera terminado."
+      }
+    ],
+    "el-mapa-que-mostraba-ausencias-q10": [
+      {
+        "paragraph": 4,
+        "text": "Decidieron preparar un plano para caminar."
+      },
+      {
+        "paragraph": 7,
+        "text": "El primer mapa no era inútil: seguía sirviendo para su propósito. El segundo tampoco era «todo el barrio», sino una representación más adecuada para otras preguntas."
+      }
+    ]
+  },
+  "el-mapa-que-mostraba-ausencias-ca": {
+    "el-mapa-que-mostraba-ausencias-q1": [
+      {
+        "paragraph": 3,
+        "text": "Era un esquema de circulació de vehicles, preparat per situar carrers i accessos."
+      }
+    ],
+    "el-mapa-que-mostraba-ausencias-q2": [
+      {
+        "paragraph": 6,
+        "text": "Quan van mostrar el primer esborrany, una veïna que es desplaçava amb caminador va preguntar pels graons. El mapa distingia carrers amples i estrets, però no aquell detall."
+      }
+    ],
+    "el-mapa-que-mostraba-ausencias-q3": [
+      {
+        "paragraph": 5,
+        "text": "Per a la Noa, «camí de la biblioteca» era la drecera darrere de l’edifici. Per a un altre company, era la vorera que arribava a la porta principal. Van marcar els punts d’inici i final per saber si discutien sobre un mateix traçat. Algunes discrepàncies no venien del terreny, sinó de fer servir un nom semblant per a llocs diferents."
+      }
+    ],
+    "el-mapa-que-mostraba-ausencias-q4": [
+      {
+        "paragraph": 3,
+        "text": "Era un esquema de circulació de vehicles, preparat per situar carrers i accessos. Les escales no hi apareixien perquè no servien per al seu propòsit. Això no volia dir que no existissin."
+      }
+    ],
+    "el-mapa-que-mostraba-ausencias-q5": [
+      {
+        "paragraph": 4,
+        "text": "El pas de la Mara estava obert de manera habitual. El pati d’en Pol només es podia travessar quan visitava la família i li obrien. Dibuixar-los igual hauria fet semblar disponibles dos itineraris amb condicions diferents."
+      }
+    ],
+    "el-mapa-que-mostraba-ausencias-q6": [
+      {
+        "paragraph": 5,
+        "text": "Per a la Noa, «camí de la biblioteca» era la drecera darrere de l’edifici. Per a un altre company, era la vorera que arribava a la porta principal. Van marcar els punts d’inici i final per saber si discutien sobre un mateix traçat. Algunes discrepàncies no venien del terreny, sinó de fer servir un nom semblant per a llocs diferents."
+      }
+    ],
+    "el-mapa-que-mostraba-ausencias-q7": [
+      {
+        "paragraph": 6,
+        "text": "Quan van mostrar el primer esborrany, una veïna que es desplaçava amb caminador va preguntar pels graons. El mapa distingia carrers amples i estrets, però no aquell detall. Van afegir-hi la informació que havien comprovat i van deixar pendents alguns trams."
+      }
+    ],
+    "el-mapa-que-mostraba-ausencias-q8": [
+      {
+        "paragraph": 1,
+        "text": "Va marcar el lloc amb una creu i va escriure al marge: «Falta un camí». Estava convençuda que havia trobat una errada fàcil de corregir."
+      },
+      {
+        "paragraph": 7,
+        "text": "Al marge, la Mara va canviar el seu comentari: «Quin camí falta, per a qui i en quin mapa?». La creu era al mateix lloc, però ja no assenyalava una resposta tan senzilla."
+      }
+    ],
+    "el-mapa-que-mostraba-ausencias-q9": [
+      {
+        "paragraph": 6,
+        "text": "Van afegir-hi la informació que havien comprovat i van deixar pendents alguns trams. Una línia contínua i neta semblava més bonica, però no volien completar els buits només perquè el dibuix quedés acabat."
+      }
+    ],
+    "el-mapa-que-mostraba-ausencias-q10": [
+      {
+        "paragraph": 4,
+        "text": "El grup va decidir preparar un plànol per a desplaçaments a peu."
+      },
+      {
+        "paragraph": 7,
+        "text": "El primer mapa no s’havia tornat inútil: continuava servint per al propòsit amb què s’havia fet. El segon tampoc no era «tot el barri», sinó una representació més adequada per a unes preguntes diferents."
+      }
+    ]
+  },
+  "una-solucion-mas-lenta-es": {
+    "una-solucion-mas-lenta-q1": [
+      {
+        "paragraph": 2,
+        "text": "El tiempo se contaba desde el inicio hasta la confirmación de cada reserva acabada."
+      }
+    ],
+    "una-solucion-mas-lenta-q2": [
+      {
+        "paragraph": 5,
+        "text": "El centro mantuvo ambas vías y cambió la prueba."
+      },
+      {
+        "paragraph": 5,
+        "text": "También puso un aviso claro para encontrar el mostrador."
+      }
+    ],
+    "una-solucion-mas-lenta-q3": [
+      {
+        "paragraph": 4,
+        "text": "El terminal permitía muchas reservas habituales sin esperar al mostrador. Retirarlo habría eliminado una ventaja real. La cuestión era evitar que una mejora para algunos se convirtiera en la única puerta de entrada para todos."
+      }
+    ],
+    "una-solucion-mas-lenta-q4": [
+      {
+        "paragraph": 2,
+        "text": "El tiempo se contaba desde el inicio hasta la confirmación de cada reserva acabada. No incluía a quienes empezaban y abandonaban el proceso. Tampoco sumaba minutos buscando una reserva anterior o intentando entender un mensaje. Para quien conocía el sistema y llevaba una petición sencilla, el terminal era rápido. Ese dato no explicaba igual de bien qué sucedía con el resto."
+      }
+    ],
+    "una-solucion-mas-lenta-q5": [
+      {
+        "paragraph": 3,
+        "text": "Una usuaria había llegado para cambiar la hora de un acto con tres salas combinadas. Otro quería saber si dos actividades podían compartir material. No eran necesariamente personas poco hábiles con la tecnología: sus demandas no encajaban en las opciones previstas."
+      }
+    ],
+    "una-solucion-mas-lenta-q6": [
+      {
+        "paragraph": 4,
+        "text": "Defender una alternativa con personas no significa que cualquier conversación sea mejor que un sistema automático. Una cola larga y una información confusa también excluyen. El terminal permitía muchas reservas habituales sin esperar al mostrador. Retirarlo habría eliminado una ventaja real. La cuestión era evitar que una mejora para algunos se convirtiera en la única puerta de entrada para todos."
+      }
+    ],
+    "una-solucion-mas-lenta-q7": [
+      {
+        "paragraph": 5,
+        "text": "Además de la duración de las operaciones terminadas, anotó cuántas se interrumpían, qué preguntas requerían ayuda y si las personas salían sabiendo qué habían reservado."
+      }
+    ],
+    "una-solucion-mas-lenta-q8": [
+      {
+        "paragraph": 6,
+        "text": "Necesitaba personal y espacio, y el centro tendría que valorar cómo mantenerlos."
+      }
+    ],
+    "una-solucion-mas-lenta-q9": [
+      {
+        "paragraph": 5,
+        "text": "Además de la duración de las operaciones terminadas, anotó cuántas se interrumpían, qué preguntas requerían ayuda y si las personas salían sabiendo qué habían reservado."
+      },
+      {
+        "paragraph": 6,
+        "text": "La propuesta podía parecer más lenta en una hoja que solo comparara el tiempo de reservas confirmadas. Necesitaba personal y espacio, y el centro tendría que valorar cómo mantenerlos. Pero también contaba intentos que antes desaparecían del balance. Si un servicio ahorra minutos a quien termina y deja sin respuesta a quien no llega al final, el resumen numérico es incompleto."
+      }
+    ],
+    "una-solucion-mas-lenta-q10": [
+      {
+        "paragraph": 4,
+        "text": "La cuestión era evitar que una mejora para algunos se convirtiera en la única puerta de entrada para todos."
+      },
+      {
+        "paragraph": 7,
+        "text": "Para decidir si un cambio mejora un servicio, conviene preguntar qué consideramos un resultado y quién entra en el recuento. Quizá la mejor solución no sea la más rápida en cada caso. Debería permitir, al menos, que la rapidez de unos no se obtenga haciendo invisibles las dificultades de los demás."
+      }
+    ]
+  },
+  "una-solucion-mas-lenta-ca": {
+    "una-solucion-mas-lenta-q1": [
+      {
+        "paragraph": 2,
+        "text": "El temps s’havia comptat des de l’inici fins a la confirmació de cada reserva acabada."
+      }
+    ],
+    "una-solucion-mas-lenta-q2": [
+      {
+        "paragraph": 5,
+        "text": "El centre va mantenir les dues vies i va canviar la prova."
+      },
+      {
+        "paragraph": 5,
+        "text": "També va situar un avís clar per trobar el taulell."
+      }
+    ],
+    "una-solucion-mas-lenta-q3": [
+      {
+        "paragraph": 4,
+        "text": "El terminal permetia fer moltes reserves habituals sense esperar que quedés lliure el taulell. Retirar-lo hauria fet perdre un avantatge real. La qüestió era evitar que una millora per a alguns es convertís en l’única porta d’entrada per a tothom."
+      }
+    ],
+    "una-solucion-mas-lenta-q4": [
+      {
+        "paragraph": 2,
+        "text": "El temps s’havia comptat des de l’inici fins a la confirmació de cada reserva acabada. No incloïa les persones que havien començat i abandonat el procés. Tampoc no sumava els minuts passats buscant on era la reserva anterior o intentant entendre un missatge de la pantalla. Per a qui coneixia el sistema i portava una petició senzilla, el terminal era ràpid. Aquella dada no explicava igualment bé què passava amb la resta."
+      }
+    ],
+    "una-solucion-mas-lenta-q5": [
+      {
+        "paragraph": 3,
+        "text": "Una usuària havia arribat per canviar l’hora d’un acte amb tres sales combinades. Un altre volia saber si dues activitats podien compartir material. No eren necessàriament persones poc hàbils amb la tecnologia: les seves demandes no encaixaven del tot en les opcions previstes."
+      }
+    ],
+    "una-solucion-mas-lenta-q6": [
+      {
+        "paragraph": 4,
+        "text": "Defensar una alternativa amb persones no vol dir que qualsevol conversa sigui millor que un sistema automàtic. Una cua llarga i una informació confusa també exclouen. El terminal permetia fer moltes reserves habituals sense esperar que quedés lliure el taulell. Retirar-lo hauria fet perdre un avantatge real. La qüestió era evitar que una millora per a alguns es convertís en l’única porta d’entrada per a tothom."
+      }
+    ],
+    "una-solucion-mas-lenta-q7": [
+      {
+        "paragraph": 5,
+        "text": "A més de la durada de les operacions acabades, va anotar quantes s’interrompien, quines preguntes requerien ajuda i si les persones sortien sabent què havien reservat."
+      }
+    ],
+    "una-solucion-mas-lenta-q8": [
+      {
+        "paragraph": 6,
+        "text": "Necessitava personal i espai, i el centre hauria de valorar com mantenir-los."
+      }
+    ],
+    "una-solucion-mas-lenta-q9": [
+      {
+        "paragraph": 5,
+        "text": "A més de la durada de les operacions acabades, va anotar quantes s’interrompien, quines preguntes requerien ajuda i si les persones sortien sabent què havien reservat."
+      },
+      {
+        "paragraph": 6,
+        "text": "La nova proposta podia semblar més lenta en un full que només comparés el temps de les reserves confirmades. Necessitava personal i espai, i el centre hauria de valorar com mantenir-los. Però també comptava intents que abans desapareixien del balanç. Si un servei estalvia uns minuts a qui acaba i deixa sense resposta qui no arriba al final, el resum numèric és incomplet."
+      }
+    ],
+    "una-solucion-mas-lenta-q10": [
+      {
+        "paragraph": 4,
+        "text": "La qüestió era evitar que una millora per a alguns es convertís en l’única porta d’entrada per a tothom."
+      },
+      {
+        "paragraph": 7,
+        "text": "Per decidir si un canvi millora un servei, convé preguntar què considerem un resultat i quines persones entren en el recompte. Potser la millor solució no serà la més ràpida en cada cas. Hauria de permetre, almenys, que la rapidesa d’uns no s’obtingui fent invisibles les dificultats dels altres."
+      }
+    ]
+  },
+  "la-noche-de-los-murcielagos-es": {
+    "la-noche-de-los-murcielagos-q1": [
+      {
+        "paragraph": 2,
+        "text": "En el estanque se oían ranas, un coche lejano y el roce de las hojas."
+      }
+    ],
+    "la-noche-de-los-murcielagos-q2": [
+      {
+        "paragraph": 5,
+        "text": "Anoté seis series de chasquidos y casi escribí «seis murciélagos». Elna preguntó si un mismo animal podía pasar varias veces cerca. Taché el número en la columna de individuos y lo dejé en la de registros."
+      }
+    ],
+    "la-noche-de-los-murcielagos-q3": [
+      {
+        "paragraph": 3,
+        "text": "Explicó que muchos murciélagos emiten sonidos de ecolocalización a frecuencias demasiado altas para que los escuchemos directamente."
+      },
+      {
+        "paragraph": 3,
+        "text": "El detector transformaba parte de esas señales en sonidos audibles para nosotros; no hacía que los animales empezaran a llamar porque lo hubiéramos encendido."
+      }
+    ],
+    "la-noche-de-los-murcielagos-q4": [
+      {
+        "paragraph": 3,
+        "text": "El detector transformaba parte de esas señales en sonidos audibles para nosotros; no hacía que los animales empezaran a llamar porque lo hubiéramos encendido."
+      }
+    ],
+    "la-noche-de-los-murcielagos-q5": [
+      {
+        "paragraph": 5,
+        "text": "Anoté seis series de chasquidos y casi escribí «seis murciélagos». Elna preguntó si un mismo animal podía pasar varias veces cerca. Taché el número en la columna de individuos y lo dejé en la de registros. No había perdido seis observaciones: había cambiado lo que podía afirmar a partir de ellas."
+      }
+    ],
+    "la-noche-de-los-murcielagos-q6": [
+      {
+        "paragraph": 4,
+        "text": "Miré hacia donde me parecía que venían los chasquidos. No veía nada. Era extraño tener una pista clara de actividad sin poder unirla a un punto del cielo."
+      },
+      {
+        "paragraph": 6,
+        "text": "Ambos tipos de pistas no siempre llegaban juntos."
+      }
+    ],
+    "la-noche-de-los-murcielagos-q7": [
+      {
+        "paragraph": 2,
+        "text": "Escribí «todavía ningún murciélago»."
+      },
+      {
+        "paragraph": 7,
+        "text": "Los chasquidos desaparecieron, pero no dijimos que la actividad hubiera terminado. Corregí mi primera anotación: «Todavía no habíamos detectado ninguno». Era menos espectacular que descubrir un animal nuevo y más exacto para explicar qué había cambiado: no solo el paisaje, sino las herramientas con que lo escuchábamos."
+      }
+    ],
+    "la-noche-de-los-murcielagos-q8": [
+      {
+        "paragraph": 6,
+        "text": "Me gustaba mirar el aparato, pero advertí que, si no levantaba la cabeza, perdía otra parte de la salida. Alterné momentos de observar el agua y momentos de escuchar. Ambos tipos de pistas no siempre llegaban juntos. En el cuaderno dejé una separación entre lo que había visto y lo que había oído."
+      }
+    ],
+    "la-noche-de-los-murcielagos-q9": [
+      {
+        "paragraph": 4,
+        "text": "Elna dijo que escuchar un detector también requería aprendizaje. El sonido podía ayudar a estudiar los murciélagos, pero una primera escucha de diez minutos no nos permitía identificarlos a todos."
+      }
+    ],
+    "la-noche-de-los-murcielagos-q10": [
+      {
+        "paragraph": 7,
+        "text": "Los chasquidos desaparecieron, pero no dijimos que la actividad hubiera terminado. Corregí mi primera anotación: «Todavía no habíamos detectado ninguno». Era menos espectacular que descubrir un animal nuevo y más exacto para explicar qué había cambiado: no solo el paisaje, sino las herramientas con que lo escuchábamos."
+      }
+    ]
+  },
+  "la-noche-de-los-murcielagos-ca": {
+    "la-noche-de-los-murcielagos-q1": [
+      {
+        "paragraph": 2,
+        "text": "A l’estany se sentien granotes, un cotxe llunyà i el fregadís de les fulles."
+      }
+    ],
+    "la-noche-de-los-murcielagos-q2": [
+      {
+        "paragraph": 5,
+        "text": "Vaig apuntar sis sèries d’espetecs i vaig estar a punt d’escriure «sis ratpenats». L’Elna em va preguntar si un mateix animal podia passar més d’una vegada prop nostre. Vaig ratllar el nombre a la columna d’individus i el vaig deixar a la de registres."
+      }
+    ],
+    "la-noche-de-los-murcielagos-q3": [
+      {
+        "paragraph": 3,
+        "text": "Va explicar que molts ratpenats emeten sons d’ecolocalització a freqüències massa altes perquè els sentim directament."
+      },
+      {
+        "paragraph": 3,
+        "text": "El detector transformava una part d’aquells senyals en sons audibles per a nosaltres; no feia que els animals comencessin a cridar perquè l’haguéssim encès."
+      }
+    ],
+    "la-noche-de-los-murcielagos-q4": [
+      {
+        "paragraph": 3,
+        "text": "El detector transformava una part d’aquells senyals en sons audibles per a nosaltres; no feia que els animals comencessin a cridar perquè l’haguéssim encès."
+      }
+    ],
+    "la-noche-de-los-murcielagos-q5": [
+      {
+        "paragraph": 5,
+        "text": "Vaig apuntar sis sèries d’espetecs i vaig estar a punt d’escriure «sis ratpenats». L’Elna em va preguntar si un mateix animal podia passar més d’una vegada prop nostre. Vaig ratllar el nombre a la columna d’individus i el vaig deixar a la de registres. No havia perdut sis observacions: havia canviat el que podia afirmar a partir d’aquelles observacions."
+      }
+    ],
+    "la-noche-de-los-murcielagos-q6": [
+      {
+        "paragraph": 4,
+        "text": "Vaig mirar el lloc d’on em semblava que venien els espetecs. No hi veia res. La sensació era estranya: tenir una pista clara d’activitat i no poder-la unir a un punt concret del cel."
+      },
+      {
+        "paragraph": 6,
+        "text": "Els dos tipus de pistes no sempre arribaven junts."
+      }
+    ],
+    "la-noche-de-los-murcielagos-q7": [
+      {
+        "paragraph": 2,
+        "text": "Vaig escriure «encara cap ratpenat»."
+      },
+      {
+        "paragraph": 7,
+        "text": "Els espetecs van desaparèixer, però no vam dir que l’activitat s’hagués aturat. Vaig pensar en la primera anotació del quadern i hi vaig posar una correcció: «Encara no n’havíem detectat cap». Era una frase menys espectacular que el descobriment d’un animal nou."
+      }
+    ],
+    "la-noche-de-los-murcielagos-q8": [
+      {
+        "paragraph": 6,
+        "text": "M’agradava mirar el detector, però em vaig adonar que, si no aixecava el cap, em perdia una altra part de la sortida. Vaig alternar estones de mirar l’aigua amb estones d’escoltar. Els dos tipus de pistes no sempre arribaven junts. Al quadern vaig deixar una separació entre el que havia vist i el que havia sentit."
+      }
+    ],
+    "la-noche-de-los-murcielagos-q9": [
+      {
+        "paragraph": 4,
+        "text": "L’Elna va dir que escoltar un detector també demanava aprendre. El so podia ajudar a estudiar els ratpenats, però una primera audició de deu minuts no ens convertia en persones capaces d’identificar-los tots."
+      }
+    ],
+    "la-noche-de-los-murcielagos-q10": [
+      {
+        "paragraph": 7,
+        "text": "Els espetecs van desaparèixer, però no vam dir que l’activitat s’hagués aturat. Vaig pensar en la primera anotació del quadern i hi vaig posar una correcció: «Encara no n’havíem detectat cap». Era una frase menys espectacular que el descobriment d’un animal nou."
+      }
+    ]
+  },
+  "por-que-una-cifra-puede-cambiar-de-unidad-es": {
+    "por-que-una-cifra-puede-cambiar-de-unidad-q1": [
+      {
+        "paragraph": 1,
+        "text": "En un ejercicio, el grupo debía comparar dos aparatos imaginarios: un hervidor de dos mil vatios y una lámpara de diez."
+      }
+    ],
+    "por-que-una-cifra-puede-cambiar-de-unidad-q2": [
+      {
+        "paragraph": 3,
+        "text": "El hervidor funcionaba tres minutos; la lámpara, diez horas."
+      }
+    ],
+    "por-que-una-cifra-puede-cambiar-de-unidad-q3": [
+      {
+        "paragraph": 2,
+        "text": "Los vatios expresan potencia: el ritmo al que se transfiere o utiliza energía. Para describir una cantidad de energía a lo largo de un intervalo podemos usar vatios hora, escritos Wh. Si una potencia de un vatio se mantiene una hora, corresponde a un vatio hora. Añadir la h no adorna el mismo dato: incorpora una duración y cambia la magnitud descrita."
+      }
+    ],
+    "por-que-una-cifra-puede-cambiar-de-unidad-q4": [
+      {
+        "paragraph": 7,
+        "text": "Conservaron la primera división: dos mil entre diez seguía siendo doscientos. Cambiaron la frase que la acompañaba. La relación de potencias era correcta; la conclusión sobre energía necesitaba una duración."
+      }
+    ],
+    "por-que-una-cifra-puede-cambiar-de-unidad-q5": [
+      {
+        "paragraph": 3,
+        "text": "Tres minutos son la vigésima parte de una hora. Dos mil vatios multiplicados por esa fracción dan cien vatios hora. Diez vatios durante diez horas también dan cien vatios hora."
+      }
+    ],
+    "por-que-una-cifra-puede-cambiar-de-unidad-q6": [
+      {
+        "paragraph": 4,
+        "text": "Un kilovatio equivale a mil vatios; por tanto, cien vatios hora equivalen a una décima de kilovatio hora: 0,1 kWh. La cantidad de energía no cambiaba. Habían elegido una unidad mayor y, por ello, una cifra menor."
+      }
+    ],
+    "por-que-una-cifra-puede-cambiar-de-unidad-q7": [
+      {
+        "paragraph": 5,
+        "text": "Pasar de Wh a kWh cambia la escala con que expresamos energía. Pasar de W a Wh exige conocer un tiempo y calcular otra magnitud."
+      }
+    ],
+    "por-que-una-cifra-puede-cambiar-de-unidad-q8": [
+      {
+        "paragraph": 3,
+        "text": "Construyeron un caso simplificado donde cada aparato mantenía la potencia indicada."
+      },
+      {
+        "paragraph": 6,
+        "text": "Un aparato real puede cambiar de potencia o dejar de calentar durante un rato. Una indicación de potencia no explica por sí sola el consumo de un día. El cálculo servía para entender una relación bajo condiciones definidas, no para asegurar que cualquier uso real del hervidor duraría tres minutos o gastaría exactamente esa energía."
+      }
+    ],
+    "por-que-una-cifra-puede-cambiar-de-unidad-q9": [
+      {
+        "paragraph": 3,
+        "text": "Diez vatios durante diez horas también dan cien vatios hora."
+      }
+    ],
+    "por-que-una-cifra-puede-cambiar-de-unidad-q10": [
+      {
+        "paragraph": 5,
+        "text": "Pasar de W a Wh exige conocer un tiempo y calcular otra magnitud."
+      },
+      {
+        "paragraph": 6,
+        "text": "Un aparato real puede cambiar de potencia o dejar de calentar durante un rato. Una indicación de potencia no explica por sí sola el consumo de un día."
+      }
+    ]
+  },
+  "por-que-una-cifra-puede-cambiar-de-unidad-ca": {
+    "por-que-una-cifra-puede-cambiar-de-unidad-q1": [
+      {
+        "paragraph": 1,
+        "text": "En un exercici, el grup havia de comparar dos aparells imaginaris: un bullidor de dos mil watts i un llum de deu watts."
+      }
+    ],
+    "por-que-una-cifra-puede-cambiar-de-unidad-q2": [
+      {
+        "paragraph": 3,
+        "text": "El bullidor funcionava durant tres minuts; el llum, durant deu hores."
+      }
+    ],
+    "por-que-una-cifra-puede-cambiar-de-unidad-q3": [
+      {
+        "paragraph": 2,
+        "text": "Els watts expressen potència, és a dir, el ritme amb què es transfereix o s’utilitza energia. Per descriure una quantitat d’energia al llarg d’un interval podem fer servir watt hora, que s’escriu Wh. Si una potència d’un watt es manté durant una hora, correspon a un watt hora. Afegir la lletra h no és decorar la mateixa dada: incorpora una durada i canvia la magnitud que estem descrivint."
+      }
+    ],
+    "por-que-una-cifra-puede-cambiar-de-unidad-q4": [
+      {
+        "paragraph": 7,
+        "text": "Al final van conservar la primera divisió al full: dos mil entre deu continuava sent dos-cents. El que van canviar va ser la frase que l’acompanyava. La relació de potències era correcta; la conclusió sobre l’energia necessitava una durada."
+      }
+    ],
+    "por-que-una-cifra-puede-cambiar-de-unidad-q5": [
+      {
+        "paragraph": 3,
+        "text": "Tres minuts són la vintena part d’una hora. Dos mil watts multiplicats per aquesta fracció donen cent watt hora. Deu watts durant deu hores també donen cent watt hora."
+      }
+    ],
+    "por-que-una-cifra-puede-cambiar-de-unidad-q6": [
+      {
+        "paragraph": 4,
+        "text": "Un quilowatt equival a mil watts; per tant, cent watt hora equivalen a una dècima de quilowatt hora, que s’escriu 0,1 kWh. La quantitat d’energia no havia canviat. Només havien triat una unitat més gran i, en conseqüència, una xifra més petita."
+      }
+    ],
+    "por-que-una-cifra-puede-cambiar-de-unidad-q7": [
+      {
+        "paragraph": 5,
+        "text": "Passar de Wh a kWh és canviar l’escala amb què expressem energia. Passar de W a Wh exigeix conèixer un temps i calcular una altra magnitud."
+      }
+    ],
+    "por-que-una-cifra-puede-cambiar-de-unidad-q8": [
+      {
+        "paragraph": 3,
+        "text": "Van construir un cas simplificat en què cada aparell mantenia exactament la potència indicada."
+      },
+      {
+        "paragraph": 6,
+        "text": "Un aparell real pot canviar de potència mentre funciona o deixar d’escalfar durant una estona. Una indicació de potència no explica, tota sola, el consum d’un dia sencer. El càlcul del taller servia per entendre la relació en unes condicions definides, no per assegurar que qualsevol ús real del bullidor duraria tres minuts o gastaria exactament la mateixa energia."
+      }
+    ],
+    "por-que-una-cifra-puede-cambiar-de-unidad-q9": [
+      {
+        "paragraph": 3,
+        "text": "Deu watts durant deu hores també donen cent watt hora."
+      }
+    ],
+    "por-que-una-cifra-puede-cambiar-de-unidad-q10": [
+      {
+        "paragraph": 5,
+        "text": "Passar de W a Wh exigeix conèixer un temps i calcular una altra magnitud."
+      },
+      {
+        "paragraph": 6,
+        "text": "Un aparell real pot canviar de potència mentre funciona o deixar d’escalfar durant una estona. Una indicació de potència no explica, tota sola, el consum d’un dia sencer."
+      }
+    ]
+  },
+  "una-entrevista-con-preguntas-tachadas-es": {
+    "una-entrevista-con-preguntas-tachadas-q1": [
+      {
+        "paragraph": 1,
+        "text": "Júlia Serra, arqueóloga del equipo, miró el guion y nos enseñó un cuenco agrietado."
+      },
+      {
+        "paragraph": 3,
+        "text": "Hay marcas de una reparación antigua, pero no indican si la hizo la misma persona que lo usaba ni qué sentía por el cuenco."
+      }
+    ],
+    "una-entrevista-con-preguntas-tachadas-q2": [
+      {
+        "paragraph": 2,
+        "text": "La forma, las marcas y el lugar aportan pistas."
+      }
+    ],
+    "una-entrevista-con-preguntas-tachadas-q3": [
+      {
+        "paragraph": 6,
+        "text": "—Nuestra primera pregunta suponía que aquí vivía alguien muy rico. ¿Cómo podríamos cambiarla?\n—Podéis preguntar qué indicios tenemos del uso del edificio y qué interpretaciones se estudian. La respuesta no tendría que encajar a la fuerza en una idea decidida antes de escucharla. Una entrevista también puede revisar el marco de las preguntas, no solo rellenar espacios de respuesta."
+      }
+    ],
+    "una-entrevista-con-preguntas-tachadas-q4": [
+      {
+        "paragraph": 1,
+        "text": "Queríamos saber quién había sido el dueño más rico del edificio excavado, cuál era el tesoro principal y si habían encontrado objetos de reyes."
+      },
+      {
+        "paragraph": 6,
+        "text": "—Nuestra primera pregunta suponía que aquí vivía alguien muy rico. ¿Cómo podríamos cambiarla?\n—Podéis preguntar qué indicios tenemos del uso del edificio y qué interpretaciones se estudian. La respuesta no tendría que encajar a la fuerza en una idea decidida antes de escucharla."
+      }
+    ],
+    "una-entrevista-con-preguntas-tachadas-q5": [
+      {
+        "paragraph": 3,
+        "text": "Hay marcas de una reparación antigua, pero no indican si la hizo la misma persona que lo usaba ni qué sentía por el cuenco."
+      },
+      {
+        "paragraph": 4,
+        "text": "—Porque muestra que prolongaron el uso del recipiente en vez de desecharlo enseguida. Podría relacionarse con su valor práctico, la disponibilidad de otros o motivos diferentes. No debemos elegir uno porque nos guste la historia que produce. La reparación es un dato; el motivo exacto sigue siendo una cuestión abierta dentro del estudio."
+      }
+    ],
+    "una-entrevista-con-preguntas-tachadas-q6": [
+      {
+        "paragraph": 2,
+        "text": "Un objeto único y valioso no explica automáticamente cómo vivía la mayoría."
+      },
+      {
+        "paragraph": 5,
+        "text": "—Podríamos acabar con una colección que mostrara sobre todo excepciones. Necesitamos registros de fragmentos pequeños y objetos habituales. No significa que cada trozo responda todas las preguntas. Significa que elegir qué documentamos condiciona qué podremos preguntar después."
+      }
+    ],
+    "una-entrevista-con-preguntas-tachadas-q7": [
+      {
+        "paragraph": 2,
+        "text": "Los fragmentos aparecieron en un espacio que estudiamos como posible zona de trabajo doméstico. La forma, las marcas y el lugar aportan pistas."
+      },
+      {
+        "paragraph": 5,
+        "text": "Por eso registramos las piezas con su contexto, no como si hubieran llegado solas a la mesa."
+      }
+    ],
+    "una-entrevista-con-preguntas-tachadas-q8": [
+      {
+        "paragraph": 7,
+        "text": "No pasaríamos el guion a limpio borrándolas todas. Guardaríamos una copia para recordar cuándo empezamos a preguntar por lo que teníamos delante. Las preguntas descartadas también mostraban algo de nuestro trabajo: las imágenes de tesoros que habíamos llevado al taller antes de mirar el cuenco."
+      }
+    ],
+    "una-entrevista-con-preguntas-tachadas-q9": [
+      {
+        "paragraph": 3,
+        "text": "—No podemos dar un nombre. Hay marcas de una reparación antigua, pero no indican si la hizo la misma persona que lo usaba ni qué sentía por el cuenco. Podemos describir lo conservado y compararlo con otras piezas. Para explicar una identidad concreta necesitaríamos información que ahora no tenemos."
+      },
+      {
+        "paragraph": 7,
+        "text": "Salimos con menos nombres propios de los esperados y más cosas que explicar. Había tantas tachaduras que costaba leer el primer titular."
+      }
+    ],
+    "una-entrevista-con-preguntas-tachadas-q10": [
+      {
+        "paragraph": 1,
+        "text": "Queríamos saber quién había sido el dueño más rico del edificio excavado, cuál era el tesoro principal y si habían encontrado objetos de reyes."
+      },
+      {
+        "paragraph": 6,
+        "text": "—Podéis preguntar qué indicios tenemos del uso del edificio y qué interpretaciones se estudian. La respuesta no tendría que encajar a la fuerza en una idea decidida antes de escucharla. Una entrevista también puede revisar el marco de las preguntas, no solo rellenar espacios de respuesta."
+      }
+    ]
+  },
+  "una-entrevista-con-preguntas-tachadas-ca": {
+    "una-entrevista-con-preguntas-tachadas-q1": [
+      {
+        "paragraph": 1,
+        "text": "La Júlia Serra, arqueòloga de l’equip, va mirar el guió i ens va ensenyar un bol esquerdat."
+      },
+      {
+        "paragraph": 3,
+        "text": "Hem trobat marques d’una reparació antiga, però això no ens diu si la va fer la mateixa persona que l’utilitzava ni quin sentiment tenia envers el bol."
+      }
+    ],
+    "una-entrevista-con-preguntas-tachadas-q2": [
+      {
+        "paragraph": 2,
+        "text": "La forma, les marques i el lloc d’aparició aporten pistes."
+      }
+    ],
+    "una-entrevista-con-preguntas-tachadas-q3": [
+      {
+        "paragraph": 6,
+        "text": "—La nostra primera pregunta donava per fet que aquí hi vivia algú molt ric. Com l’hauríem de canviar?\n—Podeu preguntar quins indicis tenim sobre l’ús de l’edifici i quines interpretacions s’estan estudiant. Així la resposta no haurà d’encaixar forçosament dins d’una idea decidida abans d’escoltar-la. Una entrevista també pot servir per revisar el marc de les preguntes, no només per omplir espais de resposta."
+      }
+    ],
+    "una-entrevista-con-preguntas-tachadas-q4": [
+      {
+        "paragraph": 1,
+        "text": "Volíem saber qui havia estat el propietari més ric de l’edifici excavat, quin era el tresor principal i si hi havien trobat objectes de reis."
+      },
+      {
+        "paragraph": 6,
+        "text": "—La nostra primera pregunta donava per fet que aquí hi vivia algú molt ric. Com l’hauríem de canviar?\n—Podeu preguntar quins indicis tenim sobre l’ús de l’edifici i quines interpretacions s’estan estudiant. Així la resposta no haurà d’encaixar forçosament dins d’una idea decidida abans d’escoltar-la."
+      }
+    ],
+    "una-entrevista-con-preguntas-tachadas-q5": [
+      {
+        "paragraph": 3,
+        "text": "Hem trobat marques d’una reparació antiga, però això no ens diu si la va fer la mateixa persona que l’utilitzava ni quin sentiment tenia envers el bol."
+      },
+      {
+        "paragraph": 4,
+        "text": "—Perquè mostra que van prolongar l’ús d’aquell recipient en lloc de descartar-lo de seguida. Podria relacionar-se amb el valor pràctic, la disponibilitat d’altres recipients o altres motius. No n’hem de triar un només perquè ens agradi la història que produeix. La reparació és una dada; el motiu exacte continua sent una qüestió oberta dins de l’estudi."
+      }
+    ],
+    "una-entrevista-con-preguntas-tachadas-q6": [
+      {
+        "paragraph": 2,
+        "text": "Un objecte únic i valuós no explica automàticament com vivia la major part de la gent."
+      },
+      {
+        "paragraph": 5,
+        "text": "—Podríem acabar amb una col·lecció que mostrés sobretot excepcions. També ens calen registres de fragments petits i objectes habituals. Això no vol dir que cada tros respongui totes les preguntes. Vol dir que la tria del que documentem condiciona què podrem preguntar després."
+      }
+    ],
+    "una-entrevista-con-preguntas-tachadas-q7": [
+      {
+        "paragraph": 2,
+        "text": "En aquest cas, els fragments es van trobar en un espai que estudiem com a possible zona de treball domèstic. La forma, les marques i el lloc d’aparició aporten pistes."
+      },
+      {
+        "paragraph": 5,
+        "text": "Per això registrem les peces amb el context on apareixen, no com si haguessin arribat soles a la taula."
+      }
+    ],
+    "una-entrevista-con-preguntas-tachadas-q8": [
+      {
+        "paragraph": 7,
+        "text": "No el vam passar a net esborrant-les totes. En guardaríem una còpia: ens ajudaria a recordar en quin moment havíem començat a preguntar per allò que realment teníem davant."
+      }
+    ],
+    "una-entrevista-con-preguntas-tachadas-q9": [
+      {
+        "paragraph": 3,
+        "text": "—No podem donar un nom. Hem trobat marques d’una reparació antiga, però això no ens diu si la va fer la mateixa persona que l’utilitzava ni quin sentiment tenia envers el bol. Podem descriure el que s’ha conservat i comparar-ho amb altres peces. Per explicar una identitat concreta necessitaríem informació que ara no tenim."
+      },
+      {
+        "paragraph": 7,
+        "text": "Vam sortir amb menys noms propis dels que esperàvem i més coses per explicar. Al guió hi havia tantes ratlles que costava llegir el primer titular."
+      }
+    ],
+    "una-entrevista-con-preguntas-tachadas-q10": [
+      {
+        "paragraph": 1,
+        "text": "Volíem saber qui havia estat el propietari més ric de l’edifici excavat, quin era el tresor principal i si hi havien trobat objectes de reis."
+      },
+      {
+        "paragraph": 6,
+        "text": "—Podeu preguntar quins indicis tenim sobre l’ús de l’edifici i quines interpretacions s’estan estudiant. Així la resposta no haurà d’encaixar forçosament dins d’una idea decidida abans d’escoltar-la. Una entrevista també pot servir per revisar el marc de les preguntes, no només per omplir espais de resposta."
+      }
+    ]
+  },
+  "el-agua-que-dibuja-fronteras-es": {
+    "el-agua-que-dibuja-fronteras-q1": [
+      {
+        "paragraph": 2,
+        "text": "Una cuenca de drenaje es el territorio desde el que el agua superficial acaba dirigiéndose a una salida compartida, como un río o un lago. Las zonas altas que separan cuencas forman una divisoria de aguas."
+      }
+    ],
+    "el-agua-que-dibuja-fronteras-q2": [
+      {
+        "paragraph": 6,
+        "text": "No representaba aguas subterráneas ni todos los cambios de las obras humanas. Los hilos no permitían calcular cuánto tardaría en llegar una lluvia concreta."
+      }
+    ],
+    "el-agua-que-dibuja-fronteras-q3": [
+      {
+        "paragraph": 4,
+        "text": "Para explicar qué podía llegar a un tramo del río debían mirar aguas arriba, aunque atravesaran límites administrativos en el mapa."
+      },
+      {
+        "paragraph": 5,
+        "text": "Estudiaron un caso imaginario: una lluvia intensa arrastraba tierra de un terreno sin vegetación hasta un torrente. Más abajo, este se unía al río junto a otro pueblo."
+      }
+    ],
+    "el-agua-que-dibuja-fronteras-q4": [
+      {
+        "paragraph": 2,
+        "text": "Las zonas altas que separan cuencas forman una divisoria de aguas. No es una pared construida ni tiene que verse una raya en el suelo. El relieve orienta el recorrido del agua. A un lado de una cresta, los torrentes pueden alimentar un valle; al otro, uno diferente."
+      }
+    ],
+    "el-agua-que-dibuja-fronteras-q5": [
+      {
+        "paragraph": 4,
+        "text": "Un municipio puede ocupar partes de varias cuencas y un río pasar por varios municipios. Para explicar qué podía llegar a un tramo del río debían mirar aguas arriba, aunque atravesaran límites administrativos en el mapa."
+      },
+      {
+        "paragraph": 5,
+        "text": "Estudiaron un caso imaginario: una lluvia intensa arrastraba tierra de un terreno sin vegetación hasta un torrente. Más abajo, este se unía al río junto a otro pueblo. La tierra no tenía que proceder del lugar donde ahora se veía el agua turbia."
+      }
+    ],
+    "el-agua-que-dibuja-fronteras-q6": [
+      {
+        "paragraph": 3,
+        "text": "Los hilos azules representaban cursos de agua, no tuberías para abastecer casas."
+      }
+    ],
+    "el-agua-que-dibuja-fronteras-q7": [
+      {
+        "paragraph": 5,
+        "text": "Estudiaron un caso imaginario: una lluvia intensa arrastraba tierra de un terreno sin vegetación hasta un torrente. Más abajo, este se unía al río junto a otro pueblo. La tierra no tenía que proceder del lugar donde ahora se veía el agua turbia. El recorrido conectaba origen y observación. Para investigarlo habría que seguir posibles aportaciones y contrastarlas, no señalar solo la población más cercana."
+      }
+    ],
+    "el-agua-que-dibuja-fronteras-q8": [
+      {
+        "paragraph": 5,
+        "text": "Estudiaron un caso imaginario: una lluvia intensa arrastraba tierra de un terreno sin vegetación hasta un torrente. Más abajo, este se unía al río junto a otro pueblo. La tierra no tenía que proceder del lugar donde ahora se veía el agua turbia."
+      }
+    ],
+    "el-agua-que-dibuja-fronteras-q9": [
+      {
+        "paragraph": 6,
+        "text": "No representaba aguas subterráneas ni todos los cambios de las obras humanas. Los hilos no permitían calcular cuánto tardaría en llegar una lluvia concreta. Servían para entender conexiones y separaciones generales, no para sustituir un estudio detallado."
+      }
+    ],
+    "el-agua-que-dibuja-fronteras-q10": [
+      {
+        "paragraph": 7,
+        "text": "Colgaron juntos un mapa de municipios y otro de cuencas. Ninguno anulaba al otro: ayudaban a plantear preguntas distintas y, en algunos problemas, había que leerlos a la vez."
+      },
+      {
+        "paragraph": 4,
+        "text": "A veces siguen la misma cresta, pero representan cosas distintas. Un municipio puede ocupar partes de varias cuencas y un río pasar por varios municipios."
+      }
+    ]
+  },
+  "el-agua-que-dibuja-fronteras-ca": {
+    "el-agua-que-dibuja-fronteras-q1": [
+      {
+        "paragraph": 2,
+        "text": "Una conca de drenatge és el territori des del qual l’aigua superficial acaba dirigint-se cap a una sortida compartida, com un riu o un llac. Les parts altes que separen conques formen una divisòria d’aigües."
+      }
+    ],
+    "el-agua-que-dibuja-fronteras-q2": [
+      {
+        "paragraph": 6,
+        "text": "No representava l’aigua subterrània ni tots els canvis que poden introduir les obres humanes. Els fils no permetien calcular quant tardaria a arribar una pluja concreta."
+      }
+    ],
+    "el-agua-que-dibuja-fronteras-q3": [
+      {
+        "paragraph": 4,
+        "text": "Per explicar què podia arribar a un tram del riu, necessitaven mirar aigües amunt, encara que travessessin línies administratives al mapa."
+      },
+      {
+        "paragraph": 5,
+        "text": "Van estudiar un cas imaginari: una pluja intensa havia arrossegat terra d’un terreny sense vegetació fins a un torrent. Més avall, el torrent s’unia al riu al costat d’un segon poble."
+      }
+    ],
+    "el-agua-que-dibuja-fronteras-q4": [
+      {
+        "paragraph": 2,
+        "text": "Les parts altes que separen conques formen una divisòria d’aigües. No és una paret construïda ni cal que hi hagi una ratlla visible a terra. El relleu orienta el recorregut de l’aigua. A un costat d’una carena, els torrents poden alimentar una vall; a l’altre, una de diferent."
+      }
+    ],
+    "el-agua-que-dibuja-fronteras-q5": [
+      {
+        "paragraph": 4,
+        "text": "Un municipi també pot ocupar parts de més d’una conca, i un mateix riu pot passar per diversos municipis. Per explicar què podia arribar a un tram del riu, necessitaven mirar aigües amunt, encara que travessessin línies administratives al mapa."
+      },
+      {
+        "paragraph": 5,
+        "text": "Van estudiar un cas imaginari: una pluja intensa havia arrossegat terra d’un terreny sense vegetació fins a un torrent. Més avall, el torrent s’unia al riu al costat d’un segon poble. La terra no havia aparegut necessàriament a prop d’on ara es veia l’aigua tèrbola."
+      }
+    ],
+    "el-agua-que-dibuja-fronteras-q6": [
+      {
+        "paragraph": 3,
+        "text": "Els fils blaus representaven cursos d’aigua, no canonades que transportessin aigua a les cases."
+      }
+    ],
+    "el-agua-que-dibuja-fronteras-q7": [
+      {
+        "paragraph": 5,
+        "text": "Van estudiar un cas imaginari: una pluja intensa havia arrossegat terra d’un terreny sense vegetació fins a un torrent. Més avall, el torrent s’unia al riu al costat d’un segon poble. La terra no havia aparegut necessàriament a prop d’on ara es veia l’aigua tèrbola. El recorregut connectava lloc d’origen i lloc d’observació. Per investigar-ho, caldria seguir possibles aportacions i contrastar-les, no assenyalar només la població més propera."
+      }
+    ],
+    "el-agua-que-dibuja-fronteras-q8": [
+      {
+        "paragraph": 5,
+        "text": "Van estudiar un cas imaginari: una pluja intensa havia arrossegat terra d’un terreny sense vegetació fins a un torrent. Més avall, el torrent s’unia al riu al costat d’un segon poble. La terra no havia aparegut necessàriament a prop d’on ara es veia l’aigua tèrbola."
+      }
+    ],
+    "el-agua-que-dibuja-fronteras-q9": [
+      {
+        "paragraph": 6,
+        "text": "No representava l’aigua subterrània ni tots els canvis que poden introduir les obres humanes. Els fils no permetien calcular quant tardaria a arribar una pluja concreta. Servien per entendre relacions generals de connexió i separació, no per substituir un estudi detallat del territori."
+      }
+    ],
+    "el-agua-que-dibuja-fronteras-q10": [
+      {
+        "paragraph": 7,
+        "text": "Al final van penjar dos mapes junts: un amb municipis i un altre amb conques. Cap dels dos anul·lava l’altre. Cadascun ajudava a fer preguntes diferents i, en alguns problemes, calia llegir-los alhora."
+      },
+      {
+        "paragraph": 4,
+        "text": "De vegades poden seguir una mateixa carena, però representen coses diferents. Un municipi també pot ocupar parts de més d’una conca, i un mateix riu pot passar per diversos municipis."
+      }
+    ]
+  },
+  "cronica-de-una-final-aplazada-es": {
+    "cronica-de-una-final-aplazada-q1": [
+      {
+        "paragraph": 3,
+        "text": "A las diez y veinte cayeron las primeras gotas."
+      },
+      {
+        "paragraph": 3,
+        "text": "La fotografía que circulaba por el grupo de mensajes, con la pista seca, se había hecho antes de ese cambio."
+      }
+    ],
+    "cronica-de-una-final-aplazada-q2": [
+      {
+        "paragraph": 1,
+        "text": "La nueva fecha se comunicará el lunes, tras consultar la disponibilidad de los participantes."
+      },
+      {
+        "paragraph": 5,
+        "text": "Aclaró que las inscripciones se mantendrían para la fecha nueva, todavía pendiente."
+      }
+    ],
+    "cronica-de-una-final-aplazada-q3": [
+      {
+        "paragraph": 1,
+        "text": "La final del torneo de tenis del centro se aplazó el sábado sin jugarse ningún punto."
+      },
+      {
+        "paragraph": 1,
+        "text": "La nueva fecha se comunicará el lunes, tras consultar la disponibilidad de los participantes."
+      }
+    ],
+    "cronica-de-una-final-aplazada-q4": [
+      {
+        "paragraph": 3,
+        "text": "A las diez y veinte cayeron las primeras gotas."
+      },
+      {
+        "paragraph": 3,
+        "text": "La fotografía que circulaba por el grupo de mensajes, con la pista seca, se había hecho antes de ese cambio."
+      }
+    ],
+    "cronica-de-una-final-aplazada-q5": [
+      {
+        "paragraph": 2,
+        "text": "El día anterior, la organización consultó un pronóstico que anunciaba posibilidad de lluvia durante la mañana, sin precisar el momento exacto en el recinto."
+      },
+      {
+        "paragraph": 3,
+        "text": "A las diez y veinte cayeron las primeras gotas."
+      }
+    ],
+    "cronica-de-una-final-aplazada-q6": [
+      {
+        "paragraph": 4,
+        "text": "Una familia propuso esperar porque se veía claridad en parte del cielo. Un jugador prefería saber pronto si podía marcharse con su hermano. Ambas peticiones respondían a necesidades reales, pero no permitían deducir por sí solas cómo estaría la pista minutos después."
+      }
+    ],
+    "cronica-de-una-final-aplazada-q7": [
+      {
+        "paragraph": 3,
+        "text": "A las diez, la pista seguía seca."
+      },
+      {
+        "paragraph": 3,
+        "text": "A las diez y veinte cayeron las primeras gotas."
+      },
+      {
+        "paragraph": 4,
+        "text": "A las diez y media, hora del primer saque, el partido no había empezado."
+      },
+      {
+        "paragraph": 6,
+        "text": "Eso no convertía automáticamente las decisiones anteriores en las únicas posibles: decidir entonces implicaba información y límites distintos de los de mirar después. La crónica recoge esa lluvia, pero no la usa como si los responsables ya la hubieran visto al consultar el pronóstico del viernes."
+      }
+    ],
+    "cronica-de-una-final-aplazada-q8": [
+      {
+        "paragraph": 6,
+        "text": "Eso no convertía automáticamente las decisiones anteriores en las únicas posibles: decidir entonces implicaba información y límites distintos de los de mirar después. La crónica recoge esa lluvia, pero no la usa como si los responsables ya la hubieran visto al consultar el pronóstico del viernes."
+      }
+    ],
+    "cronica-de-una-final-aplazada-q9": [
+      {
+        "paragraph": 7,
+        "text": "Unos participantes dijeron haber perdido la mañana; otros aprovecharon la espera para preparar parejas de otro torneo. El boletín recoge testimonios como valoraciones, no como versiones incompatibles de cuánta lluvia cayó."
+      }
+    ],
+    "cronica-de-una-final-aplazada-q10": [
+      {
+        "paragraph": 2,
+        "text": "Avisó a las familias de que comprobaría las condiciones al llegar y comunicaría cualquier cambio bajo el porche del pabellón. El mensaje no prometía que se jugaría: explicaba dónde se tomaría y anunciaría la decisión."
+      },
+      {
+        "paragraph": 5,
+        "text": "Indicó cuándo se había revisado la pista y qué pasaría con la convocatoria. Aclaró que las inscripciones se mantendrían para la fecha nueva, todavía pendiente."
+      },
+      {
+        "paragraph": 7,
+        "text": "Unos participantes dijeron haber perdido la mañana; otros aprovecharon la espera para preparar parejas de otro torneo. El boletín recoge testimonios como valoraciones, no como versiones incompatibles de cuánta lluvia cayó."
+      }
+    ]
+  },
+  "cronica-de-una-final-aplazada-ca": {
+    "cronica-de-una-final-aplazada-q1": [
+      {
+        "paragraph": 3,
+        "text": "A les deu i vint van caure les primeres gotes."
+      },
+      {
+        "paragraph": 3,
+        "text": "La fotografia que circulava al grup de missatges, amb una pista eixuta, s’havia fet abans d’aquell canvi."
+      }
+    ],
+    "cronica-de-una-final-aplazada-q2": [
+      {
+        "paragraph": 1,
+        "text": "La nova data es comunicarà dilluns, després de consultar la disponibilitat dels participants."
+      },
+      {
+        "paragraph": 5,
+        "text": "També va aclarir que les inscripcions es mantindrien per a la nova data, encara pendent."
+      }
+    ],
+    "cronica-de-una-final-aplazada-q3": [
+      {
+        "paragraph": 1,
+        "text": "La final del torneig de tennis del centre es va ajornar dissabte sense que es jugués cap punt."
+      },
+      {
+        "paragraph": 1,
+        "text": "La nova data es comunicarà dilluns, després de consultar la disponibilitat dels participants."
+      }
+    ],
+    "cronica-de-una-final-aplazada-q4": [
+      {
+        "paragraph": 3,
+        "text": "A les deu i vint van caure les primeres gotes."
+      },
+      {
+        "paragraph": 3,
+        "text": "La fotografia que circulava al grup de missatges, amb una pista eixuta, s’havia fet abans d’aquell canvi."
+      }
+    ],
+    "cronica-de-una-final-aplazada-q5": [
+      {
+        "paragraph": 2,
+        "text": "El dia abans, l’organització havia consultat un pronòstic que anunciava possibilitat de pluja durant el matí, sense concretar el moment exacte al recinte."
+      },
+      {
+        "paragraph": 3,
+        "text": "A les deu i vint van caure les primeres gotes."
+      }
+    ],
+    "cronica-de-una-final-aplazada-q6": [
+      {
+        "paragraph": 4,
+        "text": "Una família va proposar esperar perquè en una part del cel es veia claror. Un dels jugadors preferia saber aviat si podria marxar amb el seu germà. Les dues peticions responien a necessitats reals, però no permetien deduir per si soles com estaria la pista al cap d’uns minuts."
+      }
+    ],
+    "cronica-de-una-final-aplazada-q7": [
+      {
+        "paragraph": 3,
+        "text": "A les deu, la pista encara era seca."
+      },
+      {
+        "paragraph": 3,
+        "text": "A les deu i vint van caure les primeres gotes."
+      },
+      {
+        "paragraph": 4,
+        "text": "A dos quarts d’onze, l’hora prevista del primer servei, encara no s’havia donat inici al partit."
+      },
+      {
+        "paragraph": 6,
+        "text": "Això no convertia automàticament totes les decisions anteriors en les úniques possibles: el moment de decidir tenia informació i límits que no eren els mateixos que els de mirar-ho després. La crònica recull la pluja posterior, però no la fa servir com si els responsables ja l’haguessin vist quan havien consultat el pronòstic divendres."
+      }
+    ],
+    "cronica-de-una-final-aplazada-q8": [
+      {
+        "paragraph": 6,
+        "text": "Això no convertia automàticament totes les decisions anteriors en les úniques possibles: el moment de decidir tenia informació i límits que no eren els mateixos que els de mirar-ho després. La crònica recull la pluja posterior, però no la fa servir com si els responsables ja l’haguessin vist quan havien consultat el pronòstic divendres."
+      }
+    ],
+    "cronica-de-una-final-aplazada-q9": [
+      {
+        "paragraph": 7,
+        "text": "Alguns participants van dir que havien perdut el matí; altres van aprofitar l’espera per preparar les parelles d’un altre torneig. El butlletí inclou aquests testimonis com a valoracions, no com a versions incompatibles de la quantitat de pluja."
+      }
+    ],
+    "cronica-de-una-final-aplazada-q10": [
+      {
+        "paragraph": 2,
+        "text": "Va avisar les famílies que comprovaria les condicions en arribar i que qualsevol canvi es comunicaria al porxo del pavelló. Aquell missatge no prometia que es podria jugar; explicava on es prendria i s’anunciaria la decisió."
+      },
+      {
+        "paragraph": 5,
+        "text": "Va indicar quan s’havia revisat la pista i què passaria amb la convocatòria. També va aclarir que les inscripcions es mantindrien per a la nova data, encara pendent."
+      },
+      {
+        "paragraph": 7,
+        "text": "Alguns participants van dir que havien perdut el matí; altres van aprofitar l’espera per preparar les parelles d’un altre torneig. El butlletí inclou aquests testimonis com a valoracions, no com a versions incompatibles de la quantitat de pluja."
+      }
+    ]
+  },
+  "el-archivo-de-los-nombres-borrados-es": {
+    "el-archivo-de-los-nombres-borrados-q1": [
+      {
+        "paragraph": 1,
+        "text": "Catorce nombres manuscritos, tres tachados y ninguna explicación."
+      }
+    ],
+    "el-archivo-de-los-nombres-borrados-q2": [
+      {
+        "paragraph": 4,
+        "text": "En una carta, un actor explicaba que no podía continuar por un cambio de turno en la fábrica."
+      }
+    ],
+    "el-archivo-de-los-nombres-borrados-q3": [
+      {
+        "paragraph": 4,
+        "text": "La carta no resolvía los otros casos ni decía quién trazó la raya o si la lista se preparó antes o después de su renuncia. Era una pista más concreta que una suposición, pero no una llave para toda la carpeta."
+      }
+    ],
+    "el-archivo-de-los-nombres-borrados-q4": [
+      {
+        "paragraph": 2,
+        "text": "La lista no tenía fecha, pero estaba entre papeles de varias temporadas. La foto sí llevaba un año detrás. Quim propuso atribuir a la lista ese año. La responsable preguntó si compartir carpeta bastaba para compartir fecha."
+      }
+    ],
+    "el-archivo-de-los-nombres-borrados-q5": [
+      {
+        "paragraph": 3,
+        "text": "Siete nombres coincidían con la foto y figuraban bajo «reparto». Debajo decía: «Vestuario: Roser y equipo». Roser también estaba en la lista larga, sin tachar. Núria comprendió que había tratado el pie de foto como un censo de todos los que hicieron posible el espectáculo. La fotografía y la lista podían registrar grupos distintos sin que uno hubiera sido borrado del otro."
+      }
+    ],
+    "el-archivo-de-los-nombres-borrados-q6": [
+      {
+        "paragraph": 4,
+        "text": "En una carta, un actor explicaba que no podía continuar por un cambio de turno en la fábrica. Era uno de los tres nombres tachados. La carta no resolvía los otros casos ni decía quién trazó la raya o si la lista se preparó antes o después de su renuncia. Era una pista más concreta que una suposición, pero no una llave para toda la carpeta."
+      }
+    ],
+    "el-archivo-de-los-nombres-borrados-q7": [
+      {
+        "paragraph": 5,
+        "text": "Volvió a leer «Roser y equipo». ¿Quién era aquel equipo? El programa no daba más nombres. En una foto de ensayo se veía a dos personas cosiendo al fondo, sin identificar. El archivo no justificaba la acusación inicial y, a la vez, mostraba un vacío real sobre trabajos poco documentados."
+      }
+    ],
+    "el-archivo-de-los-nombres-borrados-q8": [
+      {
+        "paragraph": 1,
+        "text": "Acercó los papeles y dijo a Quim que alguien había borrado parte de la historia. La frase ya parecía un título antes de empezar a investigar."
+      },
+      {
+        "paragraph": 7,
+        "text": "El título fue «Quién aparece y quién falta». Núria aún quería recuperar nombres, pero no todos los silencios le parecían la misma historia. Unos documentos registraban un tipo de trabajo; otros habían perdido su contexto. La carpeta no hablaba sola. Para escucharla debían revisar también las preguntas con las que la habían abierto."
+      }
+    ],
+    "el-archivo-de-los-nombres-borrados-q9": [
+      {
+        "paragraph": 5,
+        "text": "En una foto de ensayo se veía a dos personas cosiendo al fondo, sin identificar."
+      },
+      {
+        "paragraph": 6,
+        "text": "Bajo la foto del ensayo preguntaron si alguien reconocía a las personas del fondo."
+      }
+    ],
+    "el-archivo-de-los-nombres-borrados-q10": [
+      {
+        "paragraph": 3,
+        "text": "Siete nombres coincidían con la foto y figuraban bajo «reparto». Debajo decía: «Vestuario: Roser y equipo». Roser también estaba en la lista larga, sin tachar. Núria comprendió que había tratado el pie de foto como un censo de todos los que hicieron posible el espectáculo."
+      },
+      {
+        "paragraph": 2,
+        "text": "La lista no tenía fecha, pero estaba entre papeles de varias temporadas."
+      }
+    ]
+  },
+  "el-archivo-de-los-nombres-borrados-ca": {
+    "el-archivo-de-los-nombres-borrados-q1": [
+      {
+        "paragraph": 1,
+        "text": "Catorze noms escrits a mà, tres de ratllats i cap explicació al marge."
+      }
+    ],
+    "el-archivo-de-los-nombres-borrados-q2": [
+      {
+        "paragraph": 4,
+        "text": "En una carta, un actor explicava que aquell any no podria continuar perquè havia canviat de torn a la fàbrica."
+      }
+    ],
+    "el-archivo-de-los-nombres-borrados-q3": [
+      {
+        "paragraph": 4,
+        "text": "La carta no resolia els altres dos casos. Tampoc no deia qui havia passat la ratlla ni si la llista s’havia preparat abans o després de la seva renúncia. Era una pista més concreta que una suposició, però no una clau capaç d’obrir tota la carpeta."
+      }
+    ],
+    "el-archivo-de-los-nombres-borrados-q4": [
+      {
+        "paragraph": 2,
+        "text": "La llista no portava data, però era dins d’una carpeta amb papers de diverses temporades. La fotografia sí que tenia un any al revers. En Quim va proposar donar a la llista aquell mateix any. La responsable va preguntar si compartir carpeta era suficient per compartir data."
+      }
+    ],
+    "el-archivo-de-los-nombres-borrados-q5": [
+      {
+        "paragraph": 3,
+        "text": "Set noms coincidien amb els de la fotografia i apareixien sota el títol «repartiment». A sota hi havia una línia curta: «Vestuari: Roser i equip». El nom de Roser també sortia a la llista llarga, però no estava ratllat. La Núria es va adonar que havia tractat el peu de foto com si fos un cens de totes les persones que havien fet possible l’espectacle."
+      }
+    ],
+    "el-archivo-de-los-nombres-borrados-q6": [
+      {
+        "paragraph": 4,
+        "text": "En una carta, un actor explicava que aquell any no podria continuar perquè havia canviat de torn a la fàbrica. El seu nom era un dels tres ratllats. La carta no resolia els altres dos casos. Tampoc no deia qui havia passat la ratlla ni si la llista s’havia preparat abans o després de la seva renúncia. Era una pista més concreta que una suposició, però no una clau capaç d’obrir tota la carpeta."
+      }
+    ],
+    "el-archivo-de-los-nombres-borrados-q7": [
+      {
+        "paragraph": 5,
+        "text": "La història d’una exclusió amagada semblava escapar-se-li. Després va tornar a llegir «Roser i equip». Qui era aquell equip? Al programa no hi havia més noms. En una fotografia d’assaig es veien dues persones cosint al fons, però no les podien identificar."
+      }
+    ],
+    "el-archivo-de-los-nombres-borrados-q8": [
+      {
+        "paragraph": 1,
+        "text": "La Núria va acostar els dos papers i va dir al seu amic Quim que algú havia esborrat una part de la història. La frase ja sonava com un títol abans que haguessin començat a investigar."
+      },
+      {
+        "paragraph": 7,
+        "text": "El títol final va ser «Qui hi surt i qui hi falta». La Núria encara volia recuperar noms, però ja no tots els silencis li semblaven la mateixa història. Alguns documents havien registrat només un tipus de feina; altres havien perdut el seu context. La carpeta no era una veu que parlés tota sola. Per escoltar-la, també havien hagut de revisar les preguntes amb què l’havien oberta."
+      }
+    ],
+    "el-archivo-de-los-nombres-borrados-q9": [
+      {
+        "paragraph": 5,
+        "text": "En una fotografia d’assaig es veien dues persones cosint al fons, però no les podien identificar."
+      },
+      {
+        "paragraph": 6,
+        "text": "Sota la fotografia d’assaig demanaven si algú podia reconèixer les persones del fons."
+      }
+    ],
+    "el-archivo-de-los-nombres-borrados-q10": [
+      {
+        "paragraph": 3,
+        "text": "Set noms coincidien amb els de la fotografia i apareixien sota el títol «repartiment». A sota hi havia una línia curta: «Vestuari: Roser i equip». El nom de Roser també sortia a la llista llarga, però no estava ratllat. La Núria es va adonar que havia tractat el peu de foto com si fos un cens de totes les persones que havien fet possible l’espectacle."
+      },
+      {
+        "paragraph": 2,
+        "text": "La llista no portava data, però era dins d’una carpeta amb papers de diverses temporades."
+      }
+    ]
+  },
+  "una-ruta-que-no-era-la-mas-corta-es": {
+    "una-ruta-que-no-era-la-mas-corta-q1": [
+      {
+        "paragraph": 1,
+        "text": "La roja medía seiscientos metros; la verde, novecientos."
+      }
+    ],
+    "una-ruta-que-no-era-la-mas-corta-q2": [
+      {
+        "paragraph": 3,
+        "text": "Pasaba por un parque con sombra, pero tenía una puerta abierta solo en cierto horario. La ida estaba prevista a las diez y la vuelta a la una. Consultaron el horario y confirmaron que estaría abierta en ambos momentos."
+      }
+    ],
+    "una-ruta-que-no-era-la-mas-corta-q3": [
+      {
+        "paragraph": 4,
+        "text": "La verde era más corta; la otra ofrecía sombra y bancos."
+      },
+      {
+        "paragraph": 5,
+        "text": "Figuraban distancias, escaleras y horarios. Advirtieron que cualquier herramienta de rutas necesita saber qué significa «mejor» en cada caso. Una recomendación cambia al cambiar el objetivo o al incorporar una condición antes ausente."
+      }
+    ],
+    "una-ruta-que-no-era-la-mas-corta-q4": [
+      {
+        "paragraph": 1,
+        "text": "Pero debían preparar una salida con una persona que utilizaba silla de ruedas. El trazado rojo incluía una escalera larga; el verde seguía calles sin escalones."
+      },
+      {
+        "paragraph": 2,
+        "text": "No se trataba solo de añadir un inconveniente a una lista de ventajas. Para aquella salida, una escalera no era una opción aceptable. La condición debía comprobarse antes de comparar preferencias. Un recorrido muy corto que no podía completarse no era una alternativa casi tan buena. Primero había que encontrar itinerarios posibles; después, compararlos con los criterios elegidos."
+      }
+    ],
+    "una-ruta-que-no-era-la-mas-corta-q5": [
+      {
+        "paragraph": 3,
+        "text": "Añadieron un tercer camino de mil metros, también sin escalones. Pasaba por un parque con sombra, pero tenía una puerta abierta solo en cierto horario."
+      },
+      {
+        "paragraph": 4,
+        "text": "La verde era más corta; la otra ofrecía sombra y bancos."
+      }
+    ],
+    "una-ruta-que-no-era-la-mas-corta-q6": [
+      {
+        "paragraph": 3,
+        "text": "La ida estaba prevista a las diez y la vuelta a la una. Consultaron el horario y confirmaron que estaría abierta en ambos momentos. Mirar únicamente la ida habría dejado medio problema sin revisar."
+      }
+    ],
+    "una-ruta-que-no-era-la-mas-corta-q7": [
+      {
+        "paragraph": 4,
+        "text": "La persona que usaba la silla participó en la conversación, no solo en una casilla del papel."
+      }
+    ],
+    "una-ruta-que-no-era-la-mas-corta-q8": [
+      {
+        "paragraph": 3,
+        "text": "Añadieron un tercer camino de mil metros, también sin escalones. Pasaba por un parque con sombra, pero tenía una puerta abierta solo en cierto horario. La ida estaba prevista a las diez y la vuelta a la una. Consultaron el horario y confirmaron que estaría abierta en ambos momentos."
+      },
+      {
+        "paragraph": 4,
+        "text": "Podían discutir entre la ruta verde y la del parque. La verde era más corta; la otra ofrecía sombra y bancos. No conocían todas las preferencias como para convertirlas en un resultado indiscutible."
+      }
+    ],
+    "una-ruta-que-no-era-la-mas-corta-q9": [
+      {
+        "paragraph": 6,
+        "text": "El modelo no sustituía revisar la calle. Un tramo podía estar en obras o tener una acera ocupada. Por eso comprobaron los itinerarios y anotaron la fecha antes de la salida. El mapa ayudaba a decidir, no prometía que el espacio nunca cambiaría."
+      }
+    ],
+    "una-ruta-que-no-era-la-mas-corta-q10": [
+      {
+        "paragraph": 2,
+        "text": "Un recorrido muy corto que no podía completarse no era una alternativa casi tan buena. Primero había que encontrar itinerarios posibles; después, compararlos con los criterios elegidos."
+      },
+      {
+        "paragraph": 5,
+        "text": "Advirtieron que cualquier herramienta de rutas necesita saber qué significa «mejor» en cada caso. Una recomendación cambia al cambiar el objetivo o al incorporar una condición antes ausente."
+      }
+    ]
+  },
+  "una-ruta-que-no-era-la-mas-corta-ca": {
+    "una-ruta-que-no-era-la-mas-corta-q1": [
+      {
+        "paragraph": 1,
+        "text": "La vermella feia sis-cents metres; la verda, nou-cents."
+      }
+    ],
+    "una-ruta-que-no-era-la-mas-corta-q2": [
+      {
+        "paragraph": 3,
+        "text": "Passava per un parc amb ombra, però tenia una porta que només era oberta en un horari determinat. La sortida estava prevista a les deu i la tornada a la una. El grup va buscar l’horari del parc i va confirmar que la porta seria oberta en tots dos moments."
+      }
+    ],
+    "una-ruta-que-no-era-la-mas-corta-q3": [
+      {
+        "paragraph": 4,
+        "text": "La verda era més curta; la del parc oferia més ombra i alguns bancs."
+      },
+      {
+        "paragraph": 5,
+        "text": "La distància era una dada, però també hi figuraven escales i horaris. Van adonar-se que qualsevol eina de rutes necessita saber què vol dir «millor» en aquell cas. Una recomanació pot canviar quan canvia l’objectiu o quan incorporem una condició que abans no havíem descrit."
+      }
+    ],
+    "una-ruta-que-no-era-la-mas-corta-q4": [
+      {
+        "paragraph": 1,
+        "text": "Però el grup havia de preparar una sortida amb una persona que utilitzava cadira de rodes. El traçat vermell incloïa una escala llarga i el verd seguia carrers sense graons."
+      },
+      {
+        "paragraph": 2,
+        "text": "El problema no era simplement afegir un inconvenient a una llista d’avantatges. Per a aquella sortida, passar per una escala no era una opció acceptable. La condició havia de comprovar-se abans de comparar quina ruta era preferible. Un recorregut molt curt que no es podia completar no s’havia de presentar com una alternativa gairebé tan bona. Primer calia trobar itineraris possibles; després, comparar-los amb els criteris escollits."
+      }
+    ],
+    "una-ruta-que-no-era-la-mas-corta-q5": [
+      {
+        "paragraph": 3,
+        "text": "Van afegir un tercer camí, de mil metres, també sense graons. Passava per un parc amb ombra, però tenia una porta que només era oberta en un horari determinat."
+      },
+      {
+        "paragraph": 4,
+        "text": "La verda era més curta; la del parc oferia més ombra i alguns bancs."
+      }
+    ],
+    "una-ruta-que-no-era-la-mas-corta-q6": [
+      {
+        "paragraph": 3,
+        "text": "La sortida estava prevista a les deu i la tornada a la una. El grup va buscar l’horari del parc i va confirmar que la porta seria oberta en tots dos moments. Si haguessin mirat només l’anada, haurien deixat la meitat del problema sense revisar."
+      }
+    ],
+    "una-ruta-que-no-era-la-mas-corta-q7": [
+      {
+        "paragraph": 4,
+        "text": "La persona que utilitzava la cadira va participar en aquesta conversa, no només en una casella del full."
+      }
+    ],
+    "una-ruta-que-no-era-la-mas-corta-q8": [
+      {
+        "paragraph": 3,
+        "text": "Van afegir un tercer camí, de mil metres, també sense graons. Passava per un parc amb ombra, però tenia una porta que només era oberta en un horari determinat. La sortida estava prevista a les deu i la tornada a la una. El grup va buscar l’horari del parc i va confirmar que la porta seria oberta en tots dos moments."
+      },
+      {
+        "paragraph": 4,
+        "text": "Ara podien discutir entre la ruta verda i la del parc. La verda era més curta; la del parc oferia més ombra i alguns bancs. No coneixien prou bé les preferències de tothom per convertir-les en un únic resultat indiscutible."
+      }
+    ],
+    "una-ruta-que-no-era-la-mas-corta-q9": [
+      {
+        "paragraph": 6,
+        "text": "La maqueta del recorregut no substituïa una revisió del carrer. Un tram podia estar en obres o tenir una vorera ocupada. Per això van comprovar els itineraris abans de la sortida i van anotar la data. El mapa era una ajuda per decidir, no una promesa que l’espai no canviaria mai."
+      }
+    ],
+    "una-ruta-que-no-era-la-mas-corta-q10": [
+      {
+        "paragraph": 2,
+        "text": "Un recorregut molt curt que no es podia completar no s’havia de presentar com una alternativa gairebé tan bona. Primer calia trobar itineraris possibles; després, comparar-los amb els criteris escollits."
+      },
+      {
+        "paragraph": 5,
+        "text": "Van adonar-se que qualsevol eina de rutes necessita saber què vol dir «millor» en aquell cas. Una recomanació pot canviar quan canvia l’objectiu o quan incorporem una condició que abans no havíem descrit."
+      }
+    ]
+  },
+  "lo-que-no-cabe-en-una-resena-es": {
+    "lo-que-no-cabe-en-una-resena-q1": [
+      {
+        "paragraph": 1,
+        "text": "Tiene doce capítulos breves, fotos y láminas hechas a mano. He leído enteros los seis primeros y consultado los demás para preparar una salida."
+      }
+    ],
+    "lo-que-no-cabe-en-una-resena-q2": [
+      {
+        "paragraph": 4,
+        "text": "He encontrado una dificultad concreta: dos fotos pequeñas apenas permiten ver el detalle comentado. La lámina contigua ayuda, pero no siempre resulta fácil relacionarlas."
+      }
+    ],
+    "lo-que-no-cabe-en-una-resena-q3": [
+      {
+        "paragraph": 3,
+        "text": "No promete identificar cualquier planta del mundo. Trabaja con ejemplos de caminos visitados por sus creadores durante un año. La selección se explica al principio, pero el título de cubierta es más general. Quien busque una guía exhaustiva puede esperar algo que el contenido no pretende ofrecer."
+      }
+    ],
+    "lo-que-no-cabe-en-una-resena-q4": [
+      {
+        "paragraph": 1,
+        "text": "He leído enteros los seis primeros y consultado los demás para preparar una salida. Lo explico porque no quiero valorar todo el libro como si hubiera leído cada parte con el mismo detalle."
+      }
+    ],
+    "lo-que-no-cabe-en-una-resena-q5": [
+      {
+        "paragraph": 2,
+        "text": "Las fotos sitúan la planta en su entorno y los dibujos aíslan detalles. No hacen exactamente el mismo trabajo."
+      }
+    ],
+    "lo-que-no-cabe-en-una-resena-q6": [
+      {
+        "paragraph": 3,
+        "text": "Trabaja con ejemplos de caminos visitados por sus creadores durante un año. La selección se explica al principio, pero el título de cubierta es más general. Quien busque una guía exhaustiva puede esperar algo que el contenido no pretende ofrecer."
+      }
+    ],
+    "lo-que-no-cabe-en-una-resena-q7": [
+      {
+        "paragraph": 5,
+        "text": "En la primera reseña dediqué casi todas las líneas a un capítulo que me había encantado. Una compañera preguntó qué contaba del resto. Vi que mi selección podía hacer creer que todo el libro tenía ese formato. No necesitaba resumir doce capítulos, pero sí mostrar cierta variedad y distinguir un ejemplo particular de una característica compartida."
+      }
+    ],
+    "lo-que-no-cabe-en-una-resena-q8": [
+      {
+        "paragraph": 6,
+        "text": "Lo recomendaría a un grupo que quiera empezar un diario de observación combinando lectura y paseo. No como única herramienta para resolver cualquier duda de identificación. Esa limitación no lo hace malo: sitúa para qué me resulta útil."
+      }
+    ],
+    "lo-que-no-cabe-en-una-resena-q9": [
+      {
+        "paragraph": 4,
+        "text": "En cambio, las actividades dejan espacio para dudas y no obligan a rellenar un nombre antes de observar bastante. Esa elección me parece coherente con el propósito."
+      }
+    ],
+    "lo-que-no-cabe-en-una-resena-q10": [
+      {
+        "paragraph": 7,
+        "text": "Sí puedo explicar desde dónde elijo, aportar ejemplos y reconocer qué no he revisado a fondo."
+      },
+      {
+        "paragraph": 5,
+        "text": "No necesitaba resumir doce capítulos, pero sí mostrar cierta variedad y distinguir un ejemplo particular de una característica compartida."
+      },
+      {
+        "paragraph": 6,
+        "text": "Lo recomendaría a un grupo que quiera empezar un diario de observación combinando lectura y paseo. No como única herramienta para resolver cualquier duda de identificación. Esa limitación no lo hace malo: sitúa para qué me resulta útil."
+      }
+    ]
+  },
+  "lo-que-no-cabe-en-una-resena-ca": {
+    "lo-que-no-cabe-en-una-resena-q1": [
+      {
+        "paragraph": 1,
+        "text": "Té dotze capítols breus, fotografies i làmines fetes a mà. Jo n’he llegit sencers els sis primers i he consultat els altres per preparar una sortida."
+      }
+    ],
+    "lo-que-no-cabe-en-una-resena-q2": [
+      {
+        "paragraph": 4,
+        "text": "També he trobat una dificultat concreta: en dues fotografies petites costa veure el detall que es comenta al text. La làmina del costat ajuda, però no sempre és fàcil relacionar-les."
+      }
+    ],
+    "lo-que-no-cabe-en-una-resena-q3": [
+      {
+        "paragraph": 3,
+        "text": "El llibre no promet identificar qualsevol planta del món. Treballa amb exemples de camins que el grup creador ha visitat durant un any. Al començament hi consta aquesta selecció, però a la coberta el títol és més general. Un lector que busqui una guia exhaustiva pot esperar una cosa que el contingut no pretén oferir."
+      }
+    ],
+    "lo-que-no-cabe-en-una-resena-q4": [
+      {
+        "paragraph": 1,
+        "text": "Jo n’he llegit sencers els sis primers i he consultat els altres per preparar una sortida. Començo explicant-ho perquè no vull presentar una valoració de tot el llibre quan la meva lectura encara no té el mateix detall a cada part."
+      }
+    ],
+    "lo-que-no-cabe-en-una-resena-q5": [
+      {
+        "paragraph": 2,
+        "text": "Les fotografies situen la planta en un entorn, mentre que els dibuixos aïllen un detall. No fan exactament la mateixa feina."
+      }
+    ],
+    "lo-que-no-cabe-en-una-resena-q6": [
+      {
+        "paragraph": 3,
+        "text": "Treballa amb exemples de camins que el grup creador ha visitat durant un any. Al començament hi consta aquesta selecció, però a la coberta el títol és més general. Un lector que busqui una guia exhaustiva pot esperar una cosa que el contingut no pretén oferir."
+      }
+    ],
+    "lo-que-no-cabe-en-una-resena-q7": [
+      {
+        "paragraph": 5,
+        "text": "A la primera versió de la ressenya vaig dedicar gairebé totes les línies a un capítol que m’havia agradat molt. Una companya em va preguntar què explicava de la resta. Vaig veure que la selecció podia fer semblar que tot el llibre tenia aquell mateix format. No calia resumir dotze capítols, però sí donar alguna pista de la varietat i distingir un exemple particular d’una característica compartida."
+      }
+    ],
+    "lo-que-no-cabe-en-una-resena-q8": [
+      {
+        "paragraph": 6,
+        "text": "Ara recomanaria el quadern a un grup que vulgui començar un diari d’observació i pugui combinar lectura i passejada. No el triaria com a única eina per resoldre qualsevol dubte d’identificació. Aquesta limitació no el fa dolent: ajuda a situar per a què em sembla útil."
+      }
+    ],
+    "lo-que-no-cabe-en-una-resena-q9": [
+      {
+        "paragraph": 4,
+        "text": "En canvi, les activitats deixen espai per anotar dubtes i no obliguen a completar una fitxa amb un nom abans d’haver observat prou. Aquesta tria em sembla coherent amb el propòsit del quadern."
+      }
+    ],
+    "lo-que-no-cabe-en-una-resena-q10": [
+      {
+        "paragraph": 7,
+        "text": "El que sí que puc fer és explicar des d’on trio, aportar exemples i reconèixer què no he revisat amb prou profunditat."
+      },
+      {
+        "paragraph": 5,
+        "text": "No calia resumir dotze capítols, però sí donar alguna pista de la varietat i distingir un exemple particular d’una característica compartida."
+      },
+      {
+        "paragraph": 6,
+        "text": "Ara recomanaria el quadern a un grup que vulgui començar un diari d’observació i pugui combinar lectura i passejada. No el triaria com a única eina per resoldre qualsevol dubte d’identificació. Aquesta limitació no el fa dolent: ajuda a situar per a què em sembla útil."
+      }
+    ]
+  },
+  "una-carta-escrita-desde-dos-orillas-es": {
+    "una-carta-escrita-desde-dos-orillas-q1": [
+      {
+        "paragraph": 1,
+        "text": "La escribiste al llegar a la ciudad del otro lado del mar, cuando seguíamos en el pueblo. Yo tenía tres años."
+      }
+    ],
+    "una-carta-escrita-desde-dos-orillas-q2": [
+      {
+        "paragraph": 4,
+        "text": "La abuela escribió detrás que el río del pueblo también había crecido tras la lluvia."
+      }
+    ],
+    "una-carta-escrita-desde-dos-orillas-q3": [
+      {
+        "paragraph": 6,
+        "text": "No sé si es de un vaso ni dónde se hizo. Casi te invento sentado en una estación, escribiendo antes de subir al tren. Era una imagen bonita, pero la carta no lo dice. Prefiero dejar espacio para que cuentes algo que no encaje en la película que he empezado a imaginar."
+      }
+    ],
+    "una-carta-escrita-desde-dos-orillas-q4": [
+      {
+        "paragraph": 1,
+        "text": "Empezabas diciendo «aquí todo es nuevo». Ahora vivo contigo en esta ciudad y me ha costado leer aquel aquí como un lugar extraño. Para mí es el camino conocido de cada mañana."
+      }
+    ],
+    "una-carta-escrita-desde-dos-orillas-q5": [
+      {
+        "paragraph": 2,
+        "text": "Explicabas que aprendiste el número del autobús antes que el nombre de la calle donde dormías. Eso te ayudaba a volver, pero no te hacía sentir en casa. De pequeña creía que saber llegar a una puerta bastaba para no estar perdido. Ahora entiendo que hablabas de otra orientación, aunque no sé si sabría explicarlo como tú."
+      }
+    ],
+    "una-carta-escrita-desde-dos-orillas-q6": [
+      {
+        "paragraph": 3,
+        "text": "He leído tres veces: «Cuando digo nosotros, a veces no sé quién cabe». ¿Hablabas de tus compañeros de piso, de la familia lejana o de la gente del trabajo? No lo aclaras. Quizá la pregunta ya estaba dentro de la frase. Yo digo nosotros sin pensar al hablar de mi equipo, pero desaparece al cambiar de conversación."
+      }
+    ],
+    "una-carta-escrita-desde-dos-orillas-q7": [
+      {
+        "paragraph": 4,
+        "text": "Debajo dibujaste una ventana y un trozo de río. La abuela escribió detrás que el río del pueblo también había crecido tras la lluvia. No respondía a tu pregunta sobre los papeles del viaje, pero me gusta encontrarla. Mientras describías el lugar de llegada, ella devolvía una imagen del lugar que habías dejado. La carta empezaba a tener dos orillas antes de que alguien la llamara así."
+      }
+    ],
+    "una-carta-escrita-desde-dos-orillas-q8": [
+      {
+        "paragraph": 5,
+        "text": "Hoy podría preguntarte en la cocina, porque cenaremos juntos. Aun así, escribo. No para fingir que sigues lejos, sino porque al leerte despacio surgen preguntas que entre platos y deberes no siempre formulo."
+      }
+    ],
+    "una-carta-escrita-desde-dos-orillas-q9": [
+      {
+        "paragraph": 6,
+        "text": "No sé si es de un vaso ni dónde se hizo. Casi te invento sentado en una estación, escribiendo antes de subir al tren. Era una imagen bonita, pero la carta no lo dice. Prefiero dejar espacio para que cuentes algo que no encaje en la película que he empezado a imaginar."
+      }
+    ],
+    "una-carta-escrita-desde-dos-orillas-q10": [
+      {
+        "paragraph": 5,
+        "text": "No para fingir que sigues lejos, sino porque al leerte despacio surgen preguntas que entre platos y deberes no siempre formulo. Tú tampoco eres solo la persona de aquella carta. No quiero convertir una página antigua en la explicación definitiva de quién eres."
+      },
+      {
+        "paragraph": 6,
+        "text": "Prefiero dejar espacio para que cuentes algo que no encaje en la película que he empezado a imaginar."
+      }
+    ]
+  },
+  "una-carta-escrita-desde-dos-orillas-ca": {
+    "una-carta-escrita-desde-dos-orillas-q1": [
+      {
+        "paragraph": 1,
+        "text": "La vas escriure quan acabaves d’arribar a la ciutat de l’altra banda del mar i nosaltres encara érem al poble. Jo tenia tres anys."
+      }
+    ],
+    "una-carta-escrita-desde-dos-orillas-q2": [
+      {
+        "paragraph": 4,
+        "text": "L’àvia va escriure al revers que el riu del poble també havia crescut després de la pluja."
+      }
+    ],
+    "una-carta-escrita-desde-dos-orillas-q3": [
+      {
+        "paragraph": 6,
+        "text": "No sé si és d’un got ni on es va fer. He estat a punt d’inventar-te assegut en una estació, escrivint abans d’entrar al tren. La imatge era bonica, però la carta no ho diu. Prefereixo deixar-te espai perquè m’expliquis alguna cosa que no encaixi amb la pel·lícula que jo he començat a fer-me."
+      }
+    ],
+    "una-carta-escrita-desde-dos-orillas-q4": [
+      {
+        "paragraph": 1,
+        "text": "A la primera línia deies «aquí tot és nou». Ara visc amb tu en aquesta ciutat i m’ha costat llegir aquell aquí com un lloc estrany. Per a mi és el camí conegut de cada matí."
+      }
+    ],
+    "una-carta-escrita-desde-dos-orillas-q5": [
+      {
+        "paragraph": 2,
+        "text": "A la carta explicaves que havies après el número de l’autobús abans que el nom del carrer on dormies. Deies que això t’ajudava a tornar, però que encara no et feia sentir a casa. Quan era petita em semblava que saber arribar a una porta era suficient per no estar perdut. Ara entenc que parlaves també d’una altra mena d’orientació, encara que no sé si jo ho sabria explicar com ho vas fer tu."
+      }
+    ],
+    "una-carta-escrita-desde-dos-orillas-q6": [
+      {
+        "paragraph": 3,
+        "text": "Hi ha una frase que he llegit tres vegades: «Quan dic nosaltres, a vegades no sé qui hi cap». Et referies als companys del pis, a la família que havia quedat lluny o a la gent que coneixies a la feina? No ho aclareixes. Potser la pregunta ja era dins de la frase. Jo faig servir aquest nosaltres sense pensar quan parlo del meu equip, però desapareix de seguida si canvio de conversa."
+      }
+    ],
+    "una-carta-escrita-desde-dos-orillas-q7": [
+      {
+        "paragraph": 4,
+        "text": "A sota hi havies dibuixat una finestra i un tros de riu. L’àvia va escriure al revers que el riu del poble també havia crescut després de la pluja. No era una resposta al que preguntaves sobre els papers del viatge, però m’agrada trobar-la. Mentre tu descrivies el lloc on arribaves, ella et tornava una imatge del lloc que havies deixat. La carta començava a tenir dues ribes abans que ningú no li posés aquest nom."
+      }
+    ],
+    "una-carta-escrita-desde-dos-orillas-q8": [
+      {
+        "paragraph": 5,
+        "text": "Avui podria preguntar-te tot això a la cuina, perquè soparem junts. Tot i així, t’escric. No per fer veure que encara ets lluny, sinó perquè en llegir-te lentament apareixen preguntes que entre plats i deures no sempre arribo a formular."
+      }
+    ],
+    "una-carta-escrita-desde-dos-orillas-q9": [
+      {
+        "paragraph": 6,
+        "text": "No sé si és d’un got ni on es va fer. He estat a punt d’inventar-te assegut en una estació, escrivint abans d’entrar al tren. La imatge era bonica, però la carta no ho diu. Prefereixo deixar-te espai perquè m’expliquis alguna cosa que no encaixi amb la pel·lícula que jo he començat a fer-me."
+      }
+    ],
+    "una-carta-escrita-desde-dos-orillas-q10": [
+      {
+        "paragraph": 5,
+        "text": "No per fer veure que encara ets lluny, sinó perquè en llegir-te lentament apareixen preguntes que entre plats i deures no sempre arribo a formular. Tu tampoc no ets només la persona d’aquella carta. No vull convertir una pàgina antiga en la manera definitiva d’explicar qui ets."
+      },
+      {
+        "paragraph": 6,
+        "text": "Prefereixo deixar-te espai perquè m’expliquis alguna cosa que no encaixi amb la pel·lícula que jo he començat a fer-me."
+      }
+    ]
+  },
+  "el-experimento-que-ya-conocia-el-resultado-es": {
+    "el-experimento-que-ya-conocia-el-resultado-q1": [
+      {
+        "paragraph": 1,
+        "text": "Tenían doce macetas: seis con semillas remojadas y seis sin remojar."
+      }
+    ],
+    "el-experimento-que-ya-conocia-el-resultado-q2": [
+      {
+        "paragraph": 3,
+        "text": "Al séptimo habían brotado cinco macetas de semillas remojadas y cuatro sin remojar."
+      }
+    ],
+    "el-experimento-que-ya-conocia-el-resultado-q3": [
+      {
+        "paragraph": 4,
+        "text": "No habían medido alturas diariamente ni definido ese indicador al principio."
+      },
+      {
+        "paragraph": 4,
+        "text": "Podían comparar el primer día de detección y el número de macetas brotadas aquella semana. No podían convertir la foto elegida en una medida sistemática de otro resultado."
+      }
+    ],
+    "el-experimento-que-ya-conocia-el-resultado-q4": [
+      {
+        "paragraph": 1,
+        "text": "Antes de que apareciera un brote, Mauro había escrito un titular: «Un truco sencillo hace germinar antes las semillas»."
+      },
+      {
+        "paragraph": 1,
+        "text": "En el cuaderno figuraba una pregunta más prudente: «¿En qué macetas veremos primero los brotes?»."
+      }
+    ],
+    "el-experimento-que-ya-conocia-el-resultado-q5": [
+      {
+        "paragraph": 1,
+        "text": "En el cuaderno figuraba una pregunta más prudente: «¿En qué macetas veremos primero los brotes?»."
+      },
+      {
+        "paragraph": 3,
+        "text": "Mauro eligió para la noticia la foto del brote más alto, del grupo A. Le parecía la mejor prueba porque la diferencia se veía enseguida. Sara preguntó si la foto respondía a la pregunta del cuaderno o a otra sobre la altura."
+      },
+      {
+        "paragraph": 4,
+        "text": "No habían medido alturas diariamente ni definido ese indicador al principio."
+      }
+    ],
+    "el-experimento-que-ya-conocia-el-resultado-q6": [
+      {
+        "paragraph": 3,
+        "text": "El tercer día vieron los primeros brotes en ambos grupos."
+      },
+      {
+        "paragraph": 4,
+        "text": "Tampoco sabían la hora exacta de aparición: solo qué veían cada mañana. Podían comparar el primer día de detección y el número de macetas brotadas aquella semana."
+      }
+    ],
+    "el-experimento-que-ya-conocia-el-resultado-q7": [
+      {
+        "paragraph": 5,
+        "text": "Para que quedaran bonitas en la ventana, pusieron las rojas delante y las azules detrás. Una nota del segundo día indicaba que una cortina había quedado bajada sobre la fila posterior."
+      }
+    ],
+    "el-experimento-que-ya-conocia-el-resultado-q8": [
+      {
+        "paragraph": 5,
+        "text": "Mauro dijo que serían detalles sin importancia. Sara preguntó si habría dicho lo mismo en caso de que las azules hubieran obtenido el resultado que esperaba de las rojas."
+      }
+    ],
+    "el-experimento-que-ya-conocia-el-resultado-q9": [
+      {
+        "paragraph": 6,
+        "text": "No concluyeron que remojar fuera inútil ni que la cortina explicara toda la diferencia. Reconocieron condiciones insuficientemente controladas y que doce macetas en una semana no resolvían cualquier caso. Cinco frente a cuatro seguía siendo una observación de su ensayo. Perdía fuerza la seguridad con que pretendían atribuirla a una única causa."
+      }
+    ],
+    "el-experimento-que-ya-conocia-el-resultado-q10": [
+      {
+        "paragraph": 3,
+        "text": "Mauro eligió para la noticia la foto del brote más alto, del grupo A. Le parecía la mejor prueba porque la diferencia se veía enseguida. Sara preguntó si la foto respondía a la pregunta del cuaderno o a otra sobre la altura."
+      },
+      {
+        "paragraph": 7,
+        "text": "Conservarían todos los registros, también los contrarios a su idea. Mauro admitió haber mirado más la planta alta que la tabla completa. Nadie le pidió falsificar nada: había ido seleccionando lo que confirmaba el relato que ya imaginaba."
+      }
+    ],
+    "el-experimento-que-ya-conocia-el-resultado-q11": [
+      {
+        "paragraph": 7,
+        "text": "Para repetirlo, definirían primero qué comparar, cómo distribuir las macetas y cuándo observar. Conservarían todos los registros, también los contrarios a su idea."
+      }
+    ]
+  },
+  "el-experimento-que-ya-conocia-el-resultado-ca": {
+    "el-experimento-que-ya-conocia-el-resultado-q1": [
+      {
+        "paragraph": 1,
+        "text": "Tenien dotze testos, sis amb llavors remullades i sis sense remullar."
+      }
+    ],
+    "el-experimento-que-ya-conocia-el-resultado-q2": [
+      {
+        "paragraph": 3,
+        "text": "Al setè, havien brotat cinc testos amb llavors remullades i quatre amb llavors sense remullar."
+      }
+    ],
+    "el-experimento-que-ya-conocia-el-resultado-q3": [
+      {
+        "paragraph": 4,
+        "text": "No havien mesurat alçades cada dia ni havien definit aquest indicador al començament."
+      },
+      {
+        "paragraph": 4,
+        "text": "Podien comparar el primer dia de detecció i el nombre de testos brotats en aquella setmana. No podien convertir la fotografia escollida en una mesura sistemàtica d’un resultat diferent."
+      }
+    ],
+    "el-experimento-que-ya-conocia-el-resultado-q4": [
+      {
+        "paragraph": 1,
+        "text": "Abans que sortís cap brot, en Mauro ja havia escrit un titular: «Un truc senzill fa germinar abans les llavors»."
+      },
+      {
+        "paragraph": 1,
+        "text": "Al quadern havien apuntat una pregunta més prudent que el titular: «En quins testos veurem primer els brots?»."
+      }
+    ],
+    "el-experimento-que-ya-conocia-el-resultado-q5": [
+      {
+        "paragraph": 1,
+        "text": "Al quadern havien apuntat una pregunta més prudent que el titular: «En quins testos veurem primer els brots?»."
+      },
+      {
+        "paragraph": 3,
+        "text": "En Mauro va triar per a la notícia una fotografia del brot més alt, que era del grup A. Li semblava la millor prova perquè la diferència es veia de seguida. La Sara va preguntar si la fotografia responia la pregunta del quadern o una altra sobre l’alçada de les plantes."
+      },
+      {
+        "paragraph": 4,
+        "text": "No havien mesurat alçades cada dia ni havien definit aquest indicador al començament."
+      }
+    ],
+    "el-experimento-que-ya-conocia-el-resultado-q6": [
+      {
+        "paragraph": 3,
+        "text": "El tercer matí van veure els primers brots en tots dos grups."
+      },
+      {
+        "paragraph": 4,
+        "text": "Tampoc no sabien a quina hora exacta havia aparegut cada brot: només què veien al matí. Podien comparar el primer dia de detecció i el nombre de testos brotats en aquella setmana."
+      }
+    ],
+    "el-experimento-que-ya-conocia-el-resultado-q7": [
+      {
+        "paragraph": 5,
+        "text": "Perquè quedessin més bonics a la finestra, havien posat tots els vermells davant i tots els blaus darrere. En una nota del segon dia constava que una cortina havia quedat baixada sobre la fila posterior."
+      }
+    ],
+    "el-experimento-que-ya-conocia-el-resultado-q8": [
+      {
+        "paragraph": 5,
+        "text": "En Mauro va dir que devien ser detalls sense importància. La Sara va preguntar si també ho hauria dit si els blaus haguessin obtingut el resultat que esperava dels vermells."
+      }
+    ],
+    "el-experimento-que-ya-conocia-el-resultado-q9": [
+      {
+        "paragraph": 6,
+        "text": "No van concloure que remullar fos inútil ni que la cortina expliqués tota la diferència. Van reconèixer que la disposició afegia condicions que no havien controlat prou i que dotze testos en una setmana no resolien qualsevol cas. El recompte de cinc i quatre continuava sent una observació del seu assaig. El que perdia força era la seguretat amb què volien atribuir-lo a una única causa."
+      }
+    ],
+    "el-experimento-que-ya-conocia-el-resultado-q10": [
+      {
+        "paragraph": 3,
+        "text": "En Mauro va triar per a la notícia una fotografia del brot més alt, que era del grup A. Li semblava la millor prova perquè la diferència es veia de seguida. La Sara va preguntar si la fotografia responia la pregunta del quadern o una altra sobre l’alçada de les plantes."
+      },
+      {
+        "paragraph": 7,
+        "text": "També conservarien tots els registres, inclosos els que no afavorissin la primera idea. En Mauro va admetre que havia mirat més estona la planta alta que la taula sencera. Ningú no li havia demanat que falsifiqués res; només havia anat triant allò que confirmava el relat que ja tenia al cap."
+      }
+    ],
+    "el-experimento-que-ya-conocia-el-resultado-q11": [
+      {
+        "paragraph": 7,
+        "text": "Per repetir la prova, primer definirien què compararien, com distribuirien els testos i quan observarien els brots. També conservarien tots els registres, inclosos els que no afavorissin la primera idea."
+      }
+    ]
+  },
+  "la-fotografia-que-llego-antes-de-la-tormenta-es": {
+    "la-fotografia-que-llego-antes-de-la-tormenta-q1": [
+      {
+        "paragraph": 1,
+        "text": "A las cinco y cuarenta y cinco, la redacción escolar recibió una foto de la plaza con nubes oscuras y pavimento seco."
+      },
+      {
+        "paragraph": 1,
+        "text": "Pero la información del archivo indicaba una hora aparentemente imposible: las seis y cuarenta."
+      }
+    ],
+    "la-fotografia-que-llego-antes-de-la-tormenta-q2": [
+      {
+        "paragraph": 4,
+        "text": "En la imagen, el reloj de la torre marcaba las cinco y cuarenta. Sílvia conservaba también una nota escrita poco después que situaba la observación hacia esa hora."
+      }
+    ],
+    "la-fotografia-que-llego-antes-de-la-tormenta-q3": [
+      {
+        "paragraph": 7,
+        "text": "Situaron la captura aproximadamente antes del envío y anotaron el desajuste. Preferían una franja razonada a un minuto falsamente preciso."
+      }
+    ],
+    "la-fotografia-que-llego-antes-de-la-tormenta-q4": [
+      {
+        "paragraph": 2,
+        "text": "Una fotografía digital puede incluir metadatos: información asociada al archivo, como datos de la cámara o una hora de captura. Esa hora depende del reloj del aparato y de su configuración. No es un testigo independiente que garantice la hora real del lugar. Además, fotografiar, editar y enviar pueden ocurrir en momentos distintos. Hay que saber qué campo leemos antes de construir una secuencia."
+      }
+    ],
+    "la-fotografia-que-llego-antes-de-la-tormenta-q5": [
+      {
+        "paragraph": 3,
+        "text": "El aparato marcaba una hora más que el del centro al compararlos simultáneamente. Era una explicación posible, pero no cambiaron automáticamente todas las horas de las fotos de la tarjeta. No sabían si la configuración había sido siempre igual."
+      }
+    ],
+    "la-fotografia-que-llego-antes-de-la-tormenta-q6": [
+      {
+        "paragraph": 4,
+        "text": "En la imagen, el reloj de la torre marcaba las cinco y cuarenta. Sílvia conservaba también una nota escrita poco después que situaba la observación hacia esa hora. Las pistas encajaban con una captura anterior al envío. No eran infalibles, pero resultaban más coherentes entre sí que tratar las seis y cuarenta como una hora exacta confirmada."
+      }
+    ],
+    "la-fotografia-que-llego-antes-de-la-tormenta-q7": [
+      {
+        "paragraph": 5,
+        "text": "A las seis, alguien avisaba de que llovía en el patio del centro; otra fotografía mostraba charcos en la plaza un rato después. No convirtieron el aviso del patio en la hora exacta de inicio de lluvia en cada calle. Los lugares también importaban."
+      }
+    ],
+    "la-fotografia-que-llego-antes-de-la-tormenta-q8": [
+      {
+        "paragraph": 7,
+        "text": "Prepararon una cronología con fuentes en cada entrada. La recepción procedía del mensaje; la hora de la torre, de la imagen; la del aparato, de los metadatos."
+      }
+    ],
+    "la-fotografia-que-llego-antes-de-la-tormenta-q9": [
+      {
+        "paragraph": 6,
+        "text": "Marc quería escribir que los metadatos eran inútiles porque el reloj estaba mal ajustado. Recordaron que esa información había permitido detectar la discrepancia y preguntar su causa. El problema no era conservarla, sino atribuirle una autoridad que no tenía."
+      }
+    ],
+    "la-fotografia-que-llego-antes-de-la-tormenta-q10": [
+      {
+        "paragraph": 6,
+        "text": "Tampoco podían corregir la hora de una copia y presentarla como si la cámara la hubiera registrado así desde el principio."
+      }
+    ],
+    "la-fotografia-que-llego-antes-de-la-tormenta-q11": [
+      {
+        "paragraph": 3,
+        "text": "El aparato marcaba una hora más que el del centro al compararlos simultáneamente. Era una explicación posible, pero no cambiaron automáticamente todas las horas de las fotos de la tarjeta. No sabían si la configuración había sido siempre igual."
+      },
+      {
+        "paragraph": 4,
+        "text": "En la imagen, el reloj de la torre marcaba las cinco y cuarenta. Sílvia conservaba también una nota escrita poco después que situaba la observación hacia esa hora. Las pistas encajaban con una captura anterior al envío."
+      },
+      {
+        "paragraph": 7,
+        "text": "Prepararon una cronología con fuentes en cada entrada. La recepción procedía del mensaje; la hora de la torre, de la imagen; la del aparato, de los metadatos. Situaron la captura aproximadamente antes del envío y anotaron el desajuste. Preferían una franja razonada a un minuto falsamente preciso."
+      }
+    ]
+  },
+  "la-fotografia-que-llego-antes-de-la-tormenta-ca": {
+    "la-fotografia-que-llego-antes-de-la-tormenta-q1": [
+      {
+        "paragraph": 1,
+        "text": "A les cinc i quaranta-cinc, la redacció escolar va rebre una fotografia de la plaça amb núvols foscos i el paviment sec."
+      },
+      {
+        "paragraph": 1,
+        "text": "Però, en obrir la informació del fitxer, van trobar una hora que semblava impossible: les sis i quaranta."
+      }
+    ],
+    "la-fotografia-que-llego-antes-de-la-tormenta-q2": [
+      {
+        "paragraph": 4,
+        "text": "A la fotografia de la plaça es veia el rellotge de la torre: marcava les cinc i quaranta. La Sílvia també conservava una nota del quadern, feta poc després, que situava l’observació cap a aquella hora."
+      }
+    ],
+    "la-fotografia-que-llego-antes-de-la-tormenta-q3": [
+      {
+        "paragraph": 7,
+        "text": "La captura quedava situada aproximadament abans de l’enviament, amb una nota sobre el desajust. Preferien una franja raonada a un minut falsament precís."
+      }
+    ],
+    "la-fotografia-que-llego-antes-de-la-tormenta-q4": [
+      {
+        "paragraph": 2,
+        "text": "Una fotografia digital pot incloure metadades: dades associades al fitxer, com informació de la càmera o una hora de captura. Aquella hora depèn del rellotge que utilitza l’aparell i de com s’hagi configurat. No és un testimoni independent que garanteixi l’hora real del lloc. A més, el moment de fer la foto, el d’editar-la i el d’enviar-la poden ser diferents. Cal saber quin camp s’està llegint abans de construir una seqüència."
+      }
+    ],
+    "la-fotografia-que-llego-antes-de-la-tormenta-q5": [
+      {
+        "paragraph": 3,
+        "text": "El dispositiu marcava una hora més que el del centre quan els van comparar al mateix moment. Això oferia una explicació possible per a la diferència, però el grup no va canviar automàticament totes les hores de totes les fotografies de la targeta. No sabia si la configuració havia estat sempre la mateixa."
+      }
+    ],
+    "la-fotografia-que-llego-antes-de-la-tormenta-q6": [
+      {
+        "paragraph": 4,
+        "text": "A la fotografia de la plaça es veia el rellotge de la torre: marcava les cinc i quaranta. La Sílvia també conservava una nota del quadern, feta poc després, que situava l’observació cap a aquella hora. Les dues pistes encaixaven amb una captura anterior a l’enviament. No eren una màquina infal·lible per tornar al passat, però resultaven més coherents entre si que llegir les sis i quaranta com una hora exacta i confirmada."
+      }
+    ],
+    "la-fotografia-que-llego-antes-de-la-tormenta-q7": [
+      {
+        "paragraph": 5,
+        "text": "A les sis hi havia un avís que començava a ploure al pati del centre; una altra fotografia mostrava bassals a la plaça una estona després. No van convertir l’avís del pati en l’hora exacta d’inici de la pluja a cada carrer. Distingir llocs també importava."
+      }
+    ],
+    "la-fotografia-que-llego-antes-de-la-tormenta-q8": [
+      {
+        "paragraph": 7,
+        "text": "Van preparar una cronologia amb fonts al costat de cada entrada. L’hora de recepció provenia del missatge; la de la torre, de la imatge; la del dispositiu, de les metadades."
+      }
+    ],
+    "la-fotografia-que-llego-antes-de-la-tormenta-q9": [
+      {
+        "paragraph": 6,
+        "text": "En Marc volia escriure que les metadades eren inútils perquè el rellotge estava mal ajustat. La resta va recordar que precisament aquella informació havia permès detectar una discrepància i preguntar-ne la causa. El problema no era conservar el camp, sinó donar-li una autoritat que no tenia."
+      }
+    ],
+    "la-fotografia-que-llego-antes-de-la-tormenta-q10": [
+      {
+        "paragraph": 6,
+        "text": "Tampoc no podien corregir l’hora en una còpia i presentar-la després com si l’hagués enregistrada així la càmera des del començament."
+      }
+    ],
+    "la-fotografia-que-llego-antes-de-la-tormenta-q11": [
+      {
+        "paragraph": 3,
+        "text": "El dispositiu marcava una hora més que el del centre quan els van comparar al mateix moment. Això oferia una explicació possible per a la diferència, però el grup no va canviar automàticament totes les hores de totes les fotografies de la targeta. No sabia si la configuració havia estat sempre la mateixa."
+      },
+      {
+        "paragraph": 4,
+        "text": "A la fotografia de la plaça es veia el rellotge de la torre: marcava les cinc i quaranta. La Sílvia també conservava una nota del quadern, feta poc després, que situava l’observació cap a aquella hora. Les dues pistes encaixaven amb una captura anterior a l’enviament."
+      },
+      {
+        "paragraph": 7,
+        "text": "Van preparar una cronologia amb fonts al costat de cada entrada. L’hora de recepció provenia del missatge; la de la torre, de la imatge; la del dispositiu, de les metadades. La captura quedava situada aproximadament abans de l’enviament, amb una nota sobre el desajust. Preferien una franja raonada a un minut falsament precís."
+      }
+    ]
+  },
+  "un-rio-con-mas-de-una-memoria-es": {
+    "un-rio-con-mas-de-una-memoria-q1": [
+      {
+        "paragraph": 1,
+        "text": "La foto mostraba un río más ancho que el actual. Había una lengua de arena en medio y una pasarela de madera desaparecida."
+      }
+    ],
+    "un-rio-con-mas-de-una-memoria-q2": [
+      {
+        "paragraph": 7,
+        "text": "Para la exposición hicieron tres franjas: paisaje fotografiado, recuerdos de uso y observaciones del terreno."
+      }
+    ],
+    "un-rio-con-mas-de-una-memoria-q3": [
+      {
+        "paragraph": 6,
+        "text": "A su vez, recordar por dónde se caminaba no permitía calcular el caudal de aquel día."
+      }
+    ],
+    "un-rio-con-mas-de-una-memoria-q4": [
+      {
+        "paragraph": 1,
+        "text": "Respondió con una etapa vital: «Cuando aún iba a la escuela vieja». Era una pista, no una fecha exacta."
+      }
+    ],
+    "un-rio-con-mas-de-una-memoria-q5": [
+      {
+        "paragraph": 3,
+        "text": "Una obra así puede modificar el paso del agua y los sedimentos. Cuando el agua pierde velocidad en una zona retenida, parte de los materiales transportados puede depositarse. Los cambios también pueden afectar tramos posteriores. Conocer el mecanismo general no permitía atribuir automáticamente cada diferencia de la imagen a esa única obra."
+      },
+      {
+        "paragraph": 4,
+        "text": "La investigadora propuso revisar crecidas, aportaciones de torrentes, cambios en las orillas y actuaciones de mantenimiento. Quería saber qué datos se conservaban y de qué momentos. La forma de un río resulta de procesos combinados a lo largo del tiempo. Una explicación de causa única podía resultar atractiva para un panel e insuficiente para entender el tramo."
+      }
+    ],
+    "un-rio-con-mas-de-una-memoria-q6": [
+      {
+        "paragraph": 5,
+        "text": "Tomàs recordaba una crecida fuerte; alguien señaló la capa mayor como si hubiera encontrado su huella. La investigadora propuso anotarlo como pregunta. Había que comprobar fechas e indicios antes de identificar el episodio."
+      }
+    ],
+    "un-rio-con-mas-de-una-memoria-q7": [
+      {
+        "paragraph": 6,
+        "text": "Explicaba por dónde pasaban, qué llamaban «la playa» y cómo usaban la pasarela. Una muestra de arena no contenía esa información del mismo modo."
+      }
+    ],
+    "un-rio-con-mas-de-una-memoria-q8": [
+      {
+        "paragraph": 6,
+        "text": "Explicaba por dónde pasaban, qué llamaban «la playa» y cómo usaban la pasarela. Una muestra de arena no contenía esa información del mismo modo. A su vez, recordar por dónde se caminaba no permitía calcular el caudal de aquel día. Las fuentes se complementaban mejor sin exigirles respuestas para las que no habían sido creadas."
+      }
+    ],
+    "un-rio-con-mas-de-una-memoria-q9": [
+      {
+        "paragraph": 2,
+        "text": "Ninguna fuente mostraba todo lo sucedido entre los dos momentos. Una foto de un día tampoco describía necesariamente el estado habitual del río durante ese año."
+      }
+    ],
+    "un-rio-con-mas-de-una-memoria-q10": [
+      {
+        "paragraph": 7,
+        "text": "Mantuvieron abierta la pregunta sobre la arena desaparecida y explicaron qué datos faltaban. No querían cerrar la investigación solo porque la inauguración ya tuviera hora."
+      }
+    ],
+    "un-rio-con-mas-de-una-memoria-q11": [
+      {
+        "paragraph": 8,
+        "text": "El título decía que el río tenía más de una memoria. No significaba que cualquier relato fuera igualmente correcto ni que el agua recordara como una persona. Mostraba rastros distintos del pasado que debían relacionarse sin fundirlos en una certeza única."
+      }
+    ]
+  },
+  "un-rio-con-mas-de-una-memoria-ca": {
+    "un-rio-con-mas-de-una-memoria-q1": [
+      {
+        "paragraph": 1,
+        "text": "La fotografia mostrava un riu més ample que el que el grup tenia davant. Hi havia una llengua de sorra al mig i una passera de fusta que ja no existia."
+      }
+    ],
+    "un-rio-con-mas-de-una-memoria-q2": [
+      {
+        "paragraph": 7,
+        "text": "Per a l’exposició van fer tres franges al plafó: paisatge fotografiat, records d’ús i observacions del terreny."
+      }
+    ],
+    "un-rio-con-mas-de-una-memoria-q3": [
+      {
+        "paragraph": 6,
+        "text": "Alhora, el record d’un lloc on es podia caminar no permetia calcular per si sol el cabal d’aquell dia."
+      }
+    ],
+    "un-rio-con-mas-de-una-memoria-q4": [
+      {
+        "paragraph": 1,
+        "text": "Ell va respondre amb una etapa de la seva vida, no amb un any: «Quan encara anava a l’escola vella». Era una pista, però no una data exacta."
+      }
+    ],
+    "un-rio-con-mas-de-una-memoria-q5": [
+      {
+        "paragraph": 3,
+        "text": "Una obra d’aquest tipus pot modificar el pas de l’aigua i dels sediments. Quan l’aigua perd velocitat en una zona retinguda, part dels materials que transporta es poden dipositar. Els canvis poden afectar també trams de més avall. Però conèixer aquest mecanisme general no permetia atribuir automàticament cada diferència de la fotografia a aquella única obra."
+      },
+      {
+        "paragraph": 4,
+        "text": "La investigadora va proposar revisar altres factors: crescudes, aportacions de torrents, canvis a les ribes i actuacions de manteniment. Volia saber quines dades es conservaven i de quins moments. La forma d’un riu resulta de processos que es combinen al llarg del temps. Una explicació amb una sola causa podia ser atractiva per a un plafó, però insuficient per entendre el tram que estaven observant."
+      }
+    ],
+    "un-rio-con-mas-de-una-memoria-q6": [
+      {
+        "paragraph": 5,
+        "text": "En Tomàs recordava una crescuda molt forta; algú va assenyalar la capa més gruixuda com si n’hagués trobat el rastre. La investigadora va dir que podien anotar aquella relació com una pregunta. Calia comprovar dates i altres indicis abans de considerar identificat l’episodi."
+      }
+    ],
+    "un-rio-con-mas-de-una-memoria-q7": [
+      {
+        "paragraph": 6,
+        "text": "Explicava per on passaven, què anomenaven «la platja» i com utilitzaven la passera. Eren informacions que una mostra de sorra no contenia de la mateixa manera."
+      }
+    ],
+    "un-rio-con-mas-de-una-memoria-q8": [
+      {
+        "paragraph": 6,
+        "text": "Explicava per on passaven, què anomenaven «la platja» i com utilitzaven la passera. Eren informacions que una mostra de sorra no contenia de la mateixa manera. Alhora, el record d’un lloc on es podia caminar no permetia calcular per si sol el cabal d’aquell dia. Les fonts es complementaven millor quan no se’ls exigia respondre preguntes per a les quals no havien estat creades."
+      }
+    ],
+    "un-rio-con-mas-de-una-memoria-q9": [
+      {
+        "paragraph": 2,
+        "text": "Cap font mostrava tot el que havia passat entre els dos moments. Una fotografia d’un dia tampoc no descrivia necessàriament l’estat habitual del riu durant aquell any."
+      }
+    ],
+    "un-rio-con-mas-de-una-memoria-q10": [
+      {
+        "paragraph": 7,
+        "text": "Van deixar visible una pregunta sobre la sorra desapareguda i van explicar quines dades faltaven per avançar. No volien tancar la investigació només perquè l’acte d’inauguració ja tingués hora."
+      }
+    ],
+    "un-rio-con-mas-de-una-memoria-q11": [
+      {
+        "paragraph": 8,
+        "text": "El títol deia que el riu tenia més d’una memòria. No significava que qualsevol relat fos igualment correcte ni que l’aigua recordés com una persona. Volia mostrar que el passat deixava rastres diferents i que calia relacionar-los sense fondre’ls en una certesa única."
+      }
+    ]
+  },
+  "el-silencio-de-la-traduccion-es": {
+    "el-silencio-de-la-traduccion-q1": [
+      {
+        "paragraph": 1,
+        "text": "El fragmento pertenece a una historia preparada para su taller: dos personas esperan a alguien en una cocina, ante tres tazas."
+      }
+    ],
+    "el-silencio-de-la-traduccion-q2": [
+      {
+        "paragraph": 3,
+        "text": "Si añado «la taza de la madre», resuelvo una pregunta que la autora de nuestro ejercicio quiso mantener abierta."
+      }
+    ],
+    "el-silencio-de-la-traduccion-q3": [
+      {
+        "paragraph": 4,
+        "text": "En otra lengua quizá otra imagen cumpla esa función. Pero debemos mirar si la almohada reaparece como objeto. Una solución elegante en una frase puede perder una relación con otra página."
+      }
+    ],
+    "el-silencio-de-la-traduccion-q4": [
+      {
+        "paragraph": 2,
+        "text": "En la primera versión añadí una explicación porque la escena parecía seca. Después advertí que había convertido la duda en información. El lector ya no interpretaba el silencio: yo decía qué significaba. La frase era más clara, pero hacía un trabajo distinto."
+      }
+    ],
+    "el-silencio-de-la-traduccion-q5": [
+      {
+        "paragraph": 2,
+        "text": "Un personaje pregunta si el otro vendrá y nadie responde enseguida."
+      },
+      {
+        "paragraph": 3,
+        "text": "El silencio prepara la frase «Nadie tocó la tercera taza». Aún ignoramos quién falta y por qué. Si añado «la taza de la madre», resuelvo una pregunta que la autora de nuestro ejercicio quiso mantener abierta."
+      }
+    ],
+    "el-silencio-de-la-traduccion-q6": [
+      {
+        "paragraph": 4,
+        "text": "Imaginemos a alguien que necesita consultar una decisión con la almohada. No pide consejo a un objeto: quiere esperar y pensar con calma. En otra lengua quizá otra imagen cumpla esa función. Pero debemos mirar si la almohada reaparece como objeto. Una solución elegante en una frase puede perder una relación con otra página."
+      }
+    ],
+    "el-silencio-de-la-traduccion-q7": [
+      {
+        "paragraph": 5,
+        "text": "Una página entera quizá detenga una escena rápida. También puedo hacer creer que todos los miembros de una cultura actúan igual cuando el texto solo habla de una familia. La nota debe ayudar sin convertir un dato particular en una regla universal."
+      }
+    ],
+    "el-silencio-de-la-traduccion-q8": [
+      {
+        "paragraph": 7,
+        "text": "Antes de irnos leemos la versión explicada y la de la pausa. La segunda no ofrece menos cosas que pensar: obliga a relacionar pregunta, silencio y taza. Lídia no pide preferir siempre la versión más oscura. Pide distinguir entre una dificultad que impide leer y una incertidumbre que forma parte de lo que leemos."
+      }
+    ],
+    "el-silencio-de-la-traduccion-q9": [
+      {
+        "paragraph": 6,
+        "text": "—Hay versiones mejor defendidas que otras con el texto. No todo vale. Pero dos soluciones pueden conservar aspectos distintos y tener pérdidas distintas. Quiero poder explicar una decisión y revisarla al leer el fragmento siguiente."
+      }
+    ],
+    "el-silencio-de-la-traduccion-q10": [
+      {
+        "paragraph": 7,
+        "text": "Lídia no pide preferir siempre la versión más oscura. Pide distinguir entre una dificultad que impide leer y una incertidumbre que forma parte de lo que leemos."
+      },
+      {
+        "paragraph": 3,
+        "text": "—Sí, si la ayuda permite acceder al texto. Pero no todo lo abierto es un obstáculo accidental."
+      }
+    ],
+    "el-silencio-de-la-traduccion-q11": [
+      {
+        "paragraph": 2,
+        "text": "En la primera versión añadí una explicación porque la escena parecía seca. Después advertí que había convertido la duda en información. El lector ya no interpretaba el silencio: yo decía qué significaba."
+      },
+      {
+        "paragraph": 4,
+        "text": "Pero debemos mirar si la almohada reaparece como objeto. Una solución elegante en una frase puede perder una relación con otra página."
+      },
+      {
+        "paragraph": 5,
+        "text": "Una página entera quizá detenga una escena rápida. También puedo hacer creer que todos los miembros de una cultura actúan igual cuando el texto solo habla de una familia. La nota debe ayudar sin convertir un dato particular en una regla universal."
+      }
+    ]
+  },
+  "el-silencio-de-la-traduccion-ca": {
+    "el-silencio-de-la-traduccion-q1": [
+      {
+        "paragraph": 1,
+        "text": "El fragment pertany a una història que està preparant per al seu taller: dues persones esperen algú en una cuina. Sobre la taula hi ha tres tasses."
+      }
+    ],
+    "el-silencio-de-la-traduccion-q2": [
+      {
+        "paragraph": 3,
+        "text": "Si jo afegeixo «la tassa de la mare», resolc una pregunta que l’autora del nostre exercici havia decidit mantenir oberta."
+      }
+    ],
+    "el-silencio-de-la-traduccion-q3": [
+      {
+        "paragraph": 4,
+        "text": "En una altra llengua potser una imatge diferent fa aquesta mateixa funció. Però també cal mirar si el coixí reapareix després com a objecte de la història. Una solució localment elegant pot fer perdre una relació amb una altra pàgina."
+      }
+    ],
+    "el-silencio-de-la-traduccion-q4": [
+      {
+        "paragraph": 2,
+        "text": "A la primera versió vaig afegir una explicació perquè l’escena em semblava massa seca. Després vaig veure que havia convertit el dubte en una informació. El lector ja no havia d’interpretar el silenci: jo li deia què volia dir. La frase era més clara, però feia una feina diferent."
+      }
+    ],
+    "el-silencio-de-la-traduccion-q5": [
+      {
+        "paragraph": 2,
+        "text": "Un personatge pregunta si l’altre vindrà i ningú no respon de seguida."
+      },
+      {
+        "paragraph": 3,
+        "text": "Aquí el silenci prepara la frase següent: «Ningú no va tocar la tercera tassa». No sabem encara qui falta ni per què. Si jo afegeixo «la tassa de la mare», resolc una pregunta que l’autora del nostre exercici havia decidit mantenir oberta."
+      }
+    ],
+    "el-silencio-de-la-traduccion-q6": [
+      {
+        "paragraph": 4,
+        "text": "Imaginem algú que diu que necessita consultar una decisió amb el coixí. No està demanant consell a un objecte: vol esperar i pensar-hi amb més calma. En una altra llengua potser una imatge diferent fa aquesta mateixa funció. Però també cal mirar si el coixí reapareix després com a objecte de la història. Una solució localment elegant pot fer perdre una relació amb una altra pàgina."
+      }
+    ],
+    "el-silencio-de-la-traduccion-q7": [
+      {
+        "paragraph": 5,
+        "text": "Si n’escric una pàgina, potser aturo una escena que havia de ser ràpida. També puc fer veure que tots els membres d’una cultura fan el mateix, quan el text només parla d’una família. La nota ha d’ajudar sense ampliar una dada particular fins a convertir-la en una regla universal."
+      }
+    ],
+    "el-silencio-de-la-traduccion-q8": [
+      {
+        "paragraph": 7,
+        "text": "Abans de marxar llegim la versió amb explicació i la versió amb pausa. La segona no ens dona menys coses a pensar: ens obliga a relacionar la pregunta, el silenci i la tassa. La Lídia no ens demana que preferim sempre la versió més obscura. Ens demana que distingim entre una dificultat que impedeix llegir i una incertesa que forma part del que estem llegint."
+      }
+    ],
+    "el-silencio-de-la-traduccion-q9": [
+      {
+        "paragraph": 6,
+        "text": "—Hi ha versions que podem defensar millor que altres amb el text. No tot s’hi val. Però dues solucions poden conservar aspectes diferents i tenir pèrdues diferents. M’interessa poder explicar una decisió i revisar-la quan llegeixo el fragment següent."
+      }
+    ],
+    "el-silencio-de-la-traduccion-q10": [
+      {
+        "paragraph": 7,
+        "text": "La Lídia no ens demana que preferim sempre la versió més obscura. Ens demana que distingim entre una dificultat que impedeix llegir i una incertesa que forma part del que estem llegint."
+      },
+      {
+        "paragraph": 3,
+        "text": "—Sí, si l’ajuda permet accedir al text. Però no tot el que queda obert és un obstacle accidental."
+      }
+    ],
+    "el-silencio-de-la-traduccion-q11": [
+      {
+        "paragraph": 2,
+        "text": "A la primera versió vaig afegir una explicació perquè l’escena em semblava massa seca. Després vaig veure que havia convertit el dubte en una informació. El lector ja no havia d’interpretar el silenci: jo li deia què volia dir."
+      },
+      {
+        "paragraph": 4,
+        "text": "Però també cal mirar si el coixí reapareix després com a objecte de la història. Una solució localment elegant pot fer perdre una relació amb una altra pàgina."
+      },
+      {
+        "paragraph": 5,
+        "text": "Si n’escric una pàgina, potser aturo una escena que havia de ser ràpida. També puc fer veure que tots els membres d’una cultura fan el mateix, quan el text només parla d’una família. La nota ha d’ajudar sense ampliar una dada particular fins a convertir-la en una regla universal."
+      }
+    ]
+  },
+  "la-ciudad-y-el-mapa-de-los-promedios-es": {
+    "la-ciudad-y-el-mapa-de-los-promedios-q1": [
+      {
+        "paragraph": 1,
+        "text": "Pero las cuatro observaciones de A eran treinta, treinta y dos, treinta y cuatro y cuarenta grados."
+      }
+    ],
+    "la-ciudad-y-el-mapa-de-los-promedios-q2": [
+      {
+        "paragraph": 1,
+        "text": "En un ejercicio, dos ciudades imaginarias tenían la misma temperatura media a una hora: treinta y cuatro grados."
+      },
+      {
+        "paragraph": 1,
+        "text": "En B, los cuatro puntos marcaban treinta y cuatro."
+      }
+    ],
+    "la-ciudad-y-el-mapa-de-los-promedios-q3": [
+      {
+        "paragraph": 4,
+        "text": "Otro señaló los cuarenta grados: esa zona se desvanecía en el resumen. El color uniforme podía sugerir que cada barrio tenía el valor medio, calculado en realidad juntando sitios distintos."
+      }
+    ],
+    "la-ciudad-y-el-mapa-de-los-promedios-q4": [
+      {
+        "paragraph": 1,
+        "text": "Pero las cuatro observaciones de A eran treinta, treinta y dos, treinta y cuatro y cuarenta grados. En B, los cuatro puntos marcaban treinta y cuatro."
+      },
+      {
+        "paragraph": 2,
+        "text": "Para obtener la media sumaron cuatro temperaturas y dividieron entre cuatro. Era útil para resumir, pero no conservaba todas las diferencias."
+      }
+    ],
+    "la-ciudad-y-el-mapa-de-los-promedios-q5": [
+      {
+        "paragraph": 2,
+        "text": "Un punto llegaba a cuarenta y otro quedaba diez grados por debajo. Decir solo treinta y cuatro ocultaba el contraste sin cometer un error aritmético."
+      },
+      {
+        "paragraph": 4,
+        "text": "El color uniforme podía sugerir que cada barrio tenía el valor medio, calculado en realidad juntando sitios distintos."
+      }
+    ],
+    "la-ciudad-y-el-mapa-de-los-promedios-q6": [
+      {
+        "paragraph": 3,
+        "text": "El ejemplo suponía medidas de temperatura del aire comparables y simultáneas. Mezclar pavimento al mediodía y aire al anochecer crearía un problema anterior al cálculo. La condición no era decorativa. Un gráfico preciso puede dar apariencia de rigor a datos que no son directamente comparables."
+      }
+    ],
+    "la-ciudad-y-el-mapa-de-los-promedios-q7": [
+      {
+        "paragraph": 5,
+        "text": "Todos los sensores pesaban igual en la media del ejercicio, pero eso no significaba que en cada zona viviera igual número de personas. La media de cuatro puntos no medía automáticamente la experiencia media de los habitantes. Para esa pregunta necesitaban población, usos y tiempo de permanencia; no bastaba con cambiar el título."
+      }
+    ],
+    "la-ciudad-y-el-mapa-de-los-promedios-q8": [
+      {
+        "paragraph": 1,
+        "text": "En un ejercicio, dos ciudades imaginarias tenían la misma temperatura media a una hora: treinta y cuatro grados."
+      },
+      {
+        "paragraph": 7,
+        "text": "Una nota aclaraba que eran cuatro puntos de un ejemplo, no todas las calles. Mostrar más datos tampoco autorizaba a representar lo que no se había medido."
+      }
+    ],
+    "la-ciudad-y-el-mapa-de-los-promedios-q9": [
+      {
+        "paragraph": 6,
+        "text": "Tampoco pretendían que el máximo fuera lo único importante. Decidir espacios de estancia podía requerir sombra, bancos, horarios y recorridos. La temperatura era relevante, no una orden que eligiera por sí sola qué construir. El mapa debía ayudar a plantear prioridades, no esconderlas tras una cifra que pareciera decidir por todos."
+      }
+    ],
+    "la-ciudad-y-el-mapa-de-los-promedios-q10": [
+      {
+        "paragraph": 7,
+        "text": "Alguien sugirió eliminar la media. Prefirieron conservarla con contexto: servía para una visión general si no sustituía los detalles necesarios. Una nota aclaraba que eran cuatro puntos de un ejemplo, no todas las calles. Mostrar más datos tampoco autorizaba a representar lo que no se había medido."
+      }
+    ],
+    "la-ciudad-y-el-mapa-de-los-promedios-q11": [
+      {
+        "paragraph": 3,
+        "text": "El ejemplo suponía medidas de temperatura del aire comparables y simultáneas. Mezclar pavimento al mediodía y aire al anochecer crearía un problema anterior al cálculo."
+      },
+      {
+        "paragraph": 5,
+        "text": "Todos los sensores pesaban igual en la media del ejercicio, pero eso no significaba que en cada zona viviera igual número de personas. La media de cuatro puntos no medía automáticamente la experiencia media de los habitantes. Para esa pregunta necesitaban población, usos y tiempo de permanencia; no bastaba con cambiar el título."
+      },
+      {
+        "paragraph": 6,
+        "text": "Decidir espacios de estancia podía requerir sombra, bancos, horarios y recorridos. La temperatura era relevante, no una orden que eligiera por sí sola qué construir. El mapa debía ayudar a plantear prioridades, no esconderlas tras una cifra que pareciera decidir por todos."
+      }
+    ]
+  },
+  "la-ciudad-y-el-mapa-de-los-promedios-ca": {
+    "la-ciudad-y-el-mapa-de-los-promedios-q1": [
+      {
+        "paragraph": 1,
+        "text": "Però les quatre observacions de la ciutat A eren trenta, trenta-dos, trenta-quatre i quaranta graus."
+      }
+    ],
+    "la-ciudad-y-el-mapa-de-los-promedios-q2": [
+      {
+        "paragraph": 1,
+        "text": "En l’exercici de geografia, dues ciutats imaginàries tenien la mateixa temperatura mitjana a una hora concreta: trenta-quatre graus."
+      },
+      {
+        "paragraph": 1,
+        "text": "A la ciutat B, els quatre punts marcaven trenta-quatre."
+      }
+    ],
+    "la-ciudad-y-el-mapa-de-los-promedios-q3": [
+      {
+        "paragraph": 4,
+        "text": "Un company va assenyalar el punt de quaranta graus: aquella zona s’esvaïa al resum. El color uniforme no era només una simplificació visual. Podia fer creure que cada barri tenia el valor mitjà, quan la xifra s’havia calculat ajuntant llocs diferents."
+      }
+    ],
+    "la-ciudad-y-el-mapa-de-los-promedios-q4": [
+      {
+        "paragraph": 1,
+        "text": "Però les quatre observacions de la ciutat A eren trenta, trenta-dos, trenta-quatre i quaranta graus. A la ciutat B, els quatre punts marcaven trenta-quatre."
+      },
+      {
+        "paragraph": 2,
+        "text": "Per obtenir la mitjana havien sumat quatre temperatures i dividit el resultat entre quatre. Era una operació útil per resumir, però no conservava totes les diferències."
+      }
+    ],
+    "la-ciudad-y-el-mapa-de-los-promedios-q5": [
+      {
+        "paragraph": 2,
+        "text": "Un dels punts arribava a quaranta i un altre quedava deu graus per sota. Dir només trenta-quatre amagava aquest contrast, encara que no contingués cap error aritmètic."
+      },
+      {
+        "paragraph": 4,
+        "text": "Podia fer creure que cada barri tenia el valor mitjà, quan la xifra s’havia calculat ajuntant llocs diferents."
+      }
+    ],
+    "la-ciudad-y-el-mapa-de-los-promedios-q6": [
+      {
+        "paragraph": 3,
+        "text": "L’exemple suposava mesures de temperatura de l’aire obtingudes de manera comparable i al mateix moment. Si haguessin barrejat una mesura del paviment al migdia amb una d’aire al vespre, el problema començaria abans de calcular. Aquesta condició no era un detall decoratiu. Un gràfic precís pot donar una aparença de rigor a dades que no es poden comparar directament."
+      }
+    ],
+    "la-ciudad-y-el-mapa-de-los-promedios-q7": [
+      {
+        "paragraph": 5,
+        "text": "A l’exercici, tots els sensors tenien el mateix pes en la mitjana, però això no volia dir que a cada zona hi visqués el mateix nombre de persones. La temperatura mitjana dels quatre punts no era automàticament una mesura de l’experiència mitjana dels habitants. Per estudiar aquesta segona pregunta els caldria informació de població, usos i temps de permanència, no només canviar el títol del gràfic."
+      }
+    ],
+    "la-ciudad-y-el-mapa-de-los-promedios-q8": [
+      {
+        "paragraph": 1,
+        "text": "En l’exercici de geografia, dues ciutats imaginàries tenien la mateixa temperatura mitjana a una hora concreta: trenta-quatre graus."
+      },
+      {
+        "paragraph": 7,
+        "text": "A sota, una nota explicava que es tractava de quatre punts d’un exemple i no de tots els carrers. Mostrar més dades tampoc no autoritzava a representar allò que no s’havia mesurat."
+      }
+    ],
+    "la-ciudad-y-el-mapa-de-los-promedios-q9": [
+      {
+        "paragraph": 6,
+        "text": "Tampoc no volien afirmar que el valor més alt fos l’únic que importava. Una decisió sobre espais d’estada podia necessitar ombra, bancs, horaris d’ús i recorreguts. La temperatura era una dada rellevant, no una ordre que triava tota sola què construir i on. El mapa havia d’ajudar a plantejar prioritats i preguntes, no dissimular-les darrere d’un nombre que semblés decidir per tothom."
+      }
+    ],
+    "la-ciudad-y-el-mapa-de-los-promedios-q10": [
+      {
+        "paragraph": 7,
+        "text": "Algú va suggerir retirar la mitjana per evitar malentesos. El grup va preferir conservar-la amb context: era útil per a una visió general si no substituïa els detalls necessaris. A sota, una nota explicava que es tractava de quatre punts d’un exemple i no de tots els carrers. Mostrar més dades tampoc no autoritzava a representar allò que no s’havia mesurat."
+      }
+    ],
+    "la-ciudad-y-el-mapa-de-los-promedios-q11": [
+      {
+        "paragraph": 3,
+        "text": "L’exemple suposava mesures de temperatura de l’aire obtingudes de manera comparable i al mateix moment. Si haguessin barrejat una mesura del paviment al migdia amb una d’aire al vespre, el problema començaria abans de calcular."
+      },
+      {
+        "paragraph": 5,
+        "text": "A l’exercici, tots els sensors tenien el mateix pes en la mitjana, però això no volia dir que a cada zona hi visqués el mateix nombre de persones. La temperatura mitjana dels quatre punts no era automàticament una mesura de l’experiència mitjana dels habitants. Per estudiar aquesta segona pregunta els caldria informació de població, usos i temps de permanència, no només canviar el títol del gràfic."
+      },
+      {
+        "paragraph": 6,
+        "text": "Una decisió sobre espais d’estada podia necessitar ombra, bancs, horaris d’ús i recorreguts. La temperatura era una dada rellevant, no una ordre que triava tota sola què construir i on. El mapa havia d’ajudar a plantejar prioritats i preguntes, no dissimular-les darrere d’un nombre que semblés decidir per tothom."
+      }
+    ]
+  },
+  "inventario-de-una-habitacion-vacia-es": {
+    "inventario-de-una-habitacion-vacia-q1": [
+      {
+        "paragraph": 4,
+        "text": "En el cajón encontré una llave y un hilo azul."
+      }
+    ],
+    "inventario-de-una-habitacion-vacia-q2": [
+      {
+        "paragraph": 5,
+        "text": "Le mostré la llave y decidió guardarla sin etiqueta con las demás. «Ya miraremos de dónde es»."
+      }
+    ],
+    "inventario-de-una-habitacion-vacia-q3": [
+      {
+        "paragraph": 1,
+        "text": "Abrí la puerta con fuerza innecesaria, como si aún tuviera que vencer las zapatillas amontonadas detrás. Llegó hasta la pared y el golpe sonó demasiado limpio. Sin las cosas, los ruidos parecían haber crecido."
+      }
+    ],
+    "inventario-de-una-habitacion-vacia-q4": [
+      {
+        "paragraph": 1,
+        "text": "Abrí la puerta con fuerza innecesaria, como si aún tuviera que vencer las zapatillas amontonadas detrás. Llegó hasta la pared y el golpe sonó demasiado limpio."
+      }
+    ],
+    "inventario-de-una-habitacion-vacia-q5": [
+      {
+        "paragraph": 2,
+        "text": "Recordé entonces que el mapa era más ancho. Podía ser la huella de un cuadro. La certeza duró menos que el movimiento del brazo."
+      }
+    ],
+    "inventario-de-una-habitacion-vacia-q6": [
+      {
+        "paragraph": 4,
+        "text": "El hilo me llevó al jersey que hizo mi madre. Al acercarlo a la luz vi otro tono de azul. El recuerdo seguía siendo mío; la prueba no era tan clara."
+      }
+    ],
+    "inventario-de-una-habitacion-vacia-q7": [
+      {
+        "paragraph": 5,
+        "text": "Dijo que había un calendario y luego dudó: quizá estaba en otra habitación. No lo resolvimos."
+      },
+      {
+        "paragraph": 5,
+        "text": "No pareció un fracaso dejar la pregunta pendiente."
+      }
+    ],
+    "inventario-de-una-habitacion-vacia-q8": [
+      {
+        "paragraph": 6,
+        "text": "Enfoqué pared y ventana, pero la imagen no contenía el golpe de la puerta ni mi forma de sentarme buscando una distancia conocida. Bajé el teléfono. Lo levanté otra vez y fotografié igualmente. No tenía que guardar toda la habitación para conservar una vista. Una imagen incompleta podía servir sin fingir que sustituyera lo que habíamos vivido entre aquellas paredes."
+      }
+    ],
+    "inventario-de-una-habitacion-vacia-q9": [
+      {
+        "paragraph": 7,
+        "text": "Pensé en silla, cajón y rectángulo. Respondí que no quedaba nada nuestro para cargar. Era una frase más larga y no la corrigió."
+      }
+    ],
+    "inventario-de-una-habitacion-vacia-q10": [
+      {
+        "paragraph": 8,
+        "text": "Guardé el hilo en el cuaderno sin escribir que fuera del jersey. En la página contigua anoté algo menos seguro y más difícil de perder: «Esto me ha hecho recordar». La frase no devolvía el origen al hilo, pero dejaba sitio a lo que había ocurrido al encontrarlo."
+      }
+    ],
+    "inventario-de-una-habitacion-vacia-q11": [
+      {
+        "paragraph": 6,
+        "text": "Lo levanté otra vez y fotografié igualmente."
+      },
+      {
+        "paragraph": 8,
+        "text": "Al cerrar no sentí que la habitación desapareciera, ni que pudiéramos conservarla entera. Guardé el hilo en el cuaderno sin escribir que fuera del jersey. En la página contigua anoté algo menos seguro y más difícil de perder: «Esto me ha hecho recordar». La frase no devolvía el origen al hilo, pero dejaba sitio a lo que había ocurrido al encontrarlo."
+      }
+    ]
+  },
+  "inventario-de-una-habitacion-vacia-ca": {
+    "inventario-de-una-habitacion-vacia-q1": [
+      {
+        "paragraph": 4,
+        "text": "Dins del calaix hi havia una clau i un fil blau."
+      }
+    ],
+    "inventario-de-una-habitacion-vacia-q2": [
+      {
+        "paragraph": 5,
+        "text": "Li vaig ensenyar la clau i va decidir guardar-la amb les altres, sense posar-hi cap etiqueta. «Ja mirarem si sabem d’on és»."
+      }
+    ],
+    "inventario-de-una-habitacion-vacia-q3": [
+      {
+        "paragraph": 1,
+        "text": "Vaig obrir la porta amb una força innecessària, com si encara hagués de vèncer la pila de sabates que sempre quedava al darrere. La porta va arribar fins a la paret i el cop va sonar massa net. Sense les coses, els sorolls semblaven haver crescut."
+      }
+    ],
+    "inventario-de-una-habitacion-vacia-q4": [
+      {
+        "paragraph": 1,
+        "text": "Vaig obrir la porta amb una força innecessària, com si encara hagués de vèncer la pila de sabates que sempre quedava al darrere. La porta va arribar fins a la paret i el cop va sonar massa net."
+      }
+    ],
+    "inventario-de-una-habitacion-vacia-q5": [
+      {
+        "paragraph": 2,
+        "text": "Aleshores vaig recordar que el mapa era més ample. Aquell rectangle podia ser d’un quadre. La certesa havia durat menys que el moviment del braç."
+      }
+    ],
+    "inventario-de-una-habitacion-vacia-q6": [
+      {
+        "paragraph": 4,
+        "text": "El fil, en canvi, em va portar de seguida al jersei que em va fer la mare. El vaig acostar a la llum i vaig veure que era d’un blau diferent. El record continuava sent meu; la prova no era tan clara."
+      }
+    ],
+    "inventario-de-una-habitacion-vacia-q7": [
+      {
+        "paragraph": 5,
+        "text": "Va dir que hi havia hagut un calendari, però després va dubtar: potser el calendari era a l’altra habitació. No ho vam resoldre."
+      },
+      {
+        "paragraph": 5,
+        "text": "No va semblar-li un fracàs deixar aquella pregunta per més endavant."
+      }
+    ],
+    "inventario-de-una-habitacion-vacia-q8": [
+      {
+        "paragraph": 6,
+        "text": "Vaig enfocar la paret i la finestra, però la imatge no contenia el cop de la porta ni la manera com m’havia assegut buscant una distància coneguda. Vaig baixar el telèfon. Després el vaig tornar a aixecar i vaig fer la foto igualment. No havia de guardar tota l’habitació per poder guardar-ne una vista."
+      }
+    ],
+    "inventario-de-una-habitacion-vacia-q9": [
+      {
+        "paragraph": 7,
+        "text": "Vaig pensar en la cadira, el calaix i el rectangle. Vaig respondre que no hi quedava res nostre per carregar. Era una frase una mica més llarga i ella no me la va corregir."
+      }
+    ],
+    "inventario-de-una-habitacion-vacia-q10": [
+      {
+        "paragraph": 8,
+        "text": "Tampoc no vaig sentir que la poguéssim conservar sencera. Vaig guardar el fil blau dins de la llibreta, sense escriure que era del jersei. A la pàgina del costat hi vaig apuntar una cosa menys segura i més difícil de perdre: «Això m’ha fet recordar»."
+      }
+    ],
+    "inventario-de-una-habitacion-vacia-q11": [
+      {
+        "paragraph": 6,
+        "text": "Després el vaig tornar a aixecar i vaig fer la foto igualment."
+      },
+      {
+        "paragraph": 8,
+        "text": "Quan vam tancar, no vaig tenir la sensació que l’habitació desapareixia. Tampoc no vaig sentir que la poguéssim conservar sencera. Vaig guardar el fil blau dins de la llibreta, sense escriure que era del jersei. A la pàgina del costat hi vaig apuntar una cosa menys segura i més difícil de perdre: «Això m’ha fet recordar»."
+      }
+    ]
+  },
+  "un-aplauso-fuera-de-tiempo-es": {
+    "un-aplauso-fuera-de-tiempo-q1": [
+      {
+        "paragraph": 2,
+        "text": "Había tres músicos y una obra dividida en tres partes según el programa. Leí los nombres sin saber cómo se relacionaban con lo que escucharíamos."
+      }
+    ],
+    "un-aplauso-fuera-de-tiempo-q2": [
+      {
+        "paragraph": 5,
+        "text": "Explicó pistas de aquella interpretación: las partes del programa, la posición y el gesto de cierre."
+      }
+    ],
+    "un-aplauso-fuera-de-tiempo-q3": [
+      {
+        "paragraph": 3,
+        "text": "Aun así, pasé buena parte del segundo tramo pendiente de mis manos, inmóviles sobre las rodillas. La música seguía, pero yo escuchaba también la posibilidad de volver a revelar que no conocía aquel lugar."
+      },
+      {
+        "paragraph": 6,
+        "text": "Observar ayuda, dijo, pero no quería que pasara el concierto vigilando las manos. Podía consultar el programa, preguntar antes o acostumbrarme a reconocer gestos finales. Aprender un código debía facilitar la experiencia, no ocupar todo el espacio de la música."
+      }
+    ],
+    "un-aplauso-fuera-de-tiempo-q4": [
+      {
+        "paragraph": 2,
+        "text": "En una pausa larga, un músico bajó un poco el instrumento. Pensé que había terminado y aplaudí."
+      }
+    ],
+    "un-aplauso-fuera-de-tiempo-q5": [
+      {
+        "paragraph": 3,
+        "text": "Nadie se volvió bruscamente ni dijo nada. Un músico levantó la mirada, esperó y continuaron. Aun así, pasé buena parte del segundo tramo pendiente de mis manos, inmóviles sobre las rodillas. La música seguía, pero yo escuchaba también la posibilidad de volver a revelar que no conocía aquel lugar. No sabía si alguien recordaba mis palmas; mi atención actuaba como si toda la sala siguiera pendiente de ellas."
+      }
+    ],
+    "un-aplauso-fuera-de-tiempo-q6": [
+      {
+        "paragraph": 4,
+        "text": "Luego preguntó por un pasaje suave. Apenas lo recordaba: vigilarme había ocupado parte de lo que fui a escuchar."
+      }
+    ],
+    "un-aplauso-fuera-de-tiempo-q7": [
+      {
+        "paragraph": 5,
+        "text": "No eran un reloj válido para cualquier concierto."
+      },
+      {
+        "paragraph": 5,
+        "text": "En esa obra buscaban continuidad entre partes, pero las formas de participar podían variar con la música y el contexto."
+      }
+    ],
+    "un-aplauso-fuera-de-tiempo-q8": [
+      {
+        "paragraph": 7,
+        "text": "Al volver, mi tía admitió haber buscado pistas en sus primeros conciertos. Yo suponía que los adultos lo sabían sin aprender. Me sorprendió más que cualquier indicación del programa. Aquella frontera entre quienes pertenecían al lugar y quienes no era, en parte, una experiencia acumulada que podía compartirse."
+      }
+    ],
+    "un-aplauso-fuera-de-tiempo-q9": [
+      {
+        "paragraph": 6,
+        "text": "Pregunté si sería mejor no aplaudir hasta que todos lo hicieran. Observar ayuda, dijo, pero no quería que pasara el concierto vigilando las manos. Podía consultar el programa, preguntar antes o acostumbrarme a reconocer gestos finales. Aprender un código debía facilitar la experiencia, no ocupar todo el espacio de la música."
+      }
+    ],
+    "un-aplauso-fuera-de-tiempo-q10": [
+      {
+        "paragraph": 4,
+        "text": "Apenas lo recordaba: vigilarme había ocupado parte de lo que fui a escuchar. Me daba vergüenza admitir que la preocupación por una pausa había durado mucho más que la pausa misma."
+      },
+      {
+        "paragraph": 8,
+        "text": "Quizá el aplauso más fuera de tiempo fue el que seguí imaginando cuando la música ya sonaba otra vez."
+      }
+    ],
+    "un-aplauso-fuera-de-tiempo-q11": [
+      {
+        "paragraph": 6,
+        "text": "Aprender un código debía facilitar la experiencia, no ocupar todo el espacio de la música."
+      },
+      {
+        "paragraph": 8,
+        "text": "No escribí «aquí me equivoqué», sino «aquí dejé de escuchar». Me sirve más para la próxima vez. Quiero reconocer los finales y llegar a ellos habiendo oído lo anterior."
+      }
+    ]
+  },
+  "un-aplauso-fuera-de-tiempo-ca": {
+    "un-aplauso-fuera-de-tiempo-q1": [
+      {
+        "paragraph": 2,
+        "text": "A l’escenari hi havia tres músics i al programa, una obra dividida en tres parts. Jo havia llegit els noms, però no sabia com es relacionaven amb el temps que sentiríem."
+      }
+    ],
+    "un-aplauso-fuera-de-tiempo-q2": [
+      {
+        "paragraph": 5,
+        "text": "Va explicar algunes pistes d’aquella interpretació: les parts del programa, la posició dels músics i el gest de tancament."
+      }
+    ],
+    "un-aplauso-fuera-de-tiempo-q3": [
+      {
+        "paragraph": 3,
+        "text": "Tot i així, jo vaig passar bona part de la segona part pendent de les meves mans. Les tenia immòbils damunt dels genolls."
+      },
+      {
+        "paragraph": 6,
+        "text": "La intèrpret va dir que observar els altres ajuda a orientar-se, però que no volia que passés el concert sencer fent de vigilant de les mans. Podia consultar el programa, preguntar abans o acostumar-se a escoltar els gestos del final. Aprendre un codi havia de facilitar l’experiència, no ocupar tot l’espai que deixava la música."
+      }
+    ],
+    "un-aplauso-fuera-de-tiempo-q4": [
+      {
+        "paragraph": 2,
+        "text": "A la primera pausa llarga, un músic va abaixar una mica l’instrument. Vaig pensar que allò s’havia acabat i vaig començar a aplaudir."
+      }
+    ],
+    "un-aplauso-fuera-de-tiempo-q5": [
+      {
+        "paragraph": 3,
+        "text": "Ningú no es va girar de cop ni ens va dir res. Un dels músics va aixecar la mirada, va esperar i el grup va continuar. Tot i així, jo vaig passar bona part de la segona part pendent de les meves mans. Les tenia immòbils damunt dels genolls. La música seguia, però escoltava també la possibilitat de tornar a fer alguna cosa que revelés que no coneixia el lloc."
+      }
+    ],
+    "un-aplauso-fuera-de-tiempo-q6": [
+      {
+        "paragraph": 4,
+        "text": "Després em va preguntar què m’havia semblat un passatge molt suau. No el recordava gaire. Havia estat tan ocupat vigilant-me que m’havia perdut una part d’allò que havia anat a escoltar."
+      }
+    ],
+    "un-aplauso-fuera-de-tiempo-q7": [
+      {
+        "paragraph": 5,
+        "text": "No eren un rellotge que funcionés igual en qualsevol concert. En aquella obra volien conservar la continuïtat entre parts, però les formes de participar poden variar segons la música i el context."
+      }
+    ],
+    "un-aplauso-fuera-de-tiempo-q8": [
+      {
+        "paragraph": 7,
+        "text": "De tornada, la tieta va reconèixer que també havia buscat pistes els primers concerts. Jo havia suposat que les persones adultes coneixien aquestes coses sense haver-les après. Em va sorprendre més aquella confessió que qualsevol indicació del programa. El que em semblava una frontera entre els qui hi pertanyien i els qui no era, almenys en part, una experiència acumulada que es podia compartir."
+      }
+    ],
+    "un-aplauso-fuera-de-tiempo-q9": [
+      {
+        "paragraph": 6,
+        "text": "Vaig demanar si seria millor no aplaudir fins que ho fes tothom. La intèrpret va dir que observar els altres ajuda a orientar-se, però que no volia que passés el concert sencer fent de vigilant de les mans. Podia consultar el programa, preguntar abans o acostumar-se a escoltar els gestos del final. Aprendre un codi havia de facilitar l’experiència, no ocupar tot l’espai que deixava la música."
+      }
+    ],
+    "un-aplauso-fuera-de-tiempo-q10": [
+      {
+        "paragraph": 4,
+        "text": "No el recordava gaire. Havia estat tan ocupat vigilant-me que m’havia perdut una part d’allò que havia anat a escoltar."
+      },
+      {
+        "paragraph": 8,
+        "text": "Potser l’aplaudiment més fora de temps va ser el que vaig continuar imaginant quan la música ja tornava a sonar."
+      }
+    ],
+    "un-aplauso-fuera-de-tiempo-q11": [
+      {
+        "paragraph": 6,
+        "text": "Aprendre un codi havia de facilitar l’experiència, no ocupar tot l’espai que deixava la música."
+      },
+      {
+        "paragraph": 8,
+        "text": "No hi he escrit «aquí em vaig equivocar». He anotat «aquí vaig deixar d’escoltar». Em sembla una dada més útil per a la propera vegada. Voldria reconèixer millor els finals, però també arribar-hi havent sentit el que passa abans."
+      }
+    ]
+  },
+  "el-precio-de-una-comodidad-es": {
+    "el-precio-de-una-comodidad-q1": [
+      {
+        "paragraph": 1,
+        "text": "Activa recordatorios, pone un temporizador y reproduce una selección musical."
+      }
+    ],
+    "el-precio-de-una-comodidad-q2": [
+      {
+        "paragraph": 5,
+        "text": "Una semana con dos personas no representa todos los hogares."
+      }
+    ],
+    "el-precio-de-una-comodidad-q3": [
+      {
+        "paragraph": 2,
+        "text": "Llega con recordatorios activados por defecto para mostrar cómo funciona."
+      },
+      {
+        "paragraph": 2,
+        "text": "Un valor predeterminado orienta el uso aunque nadie obligue a conservarlo."
+      }
+    ],
+    "el-precio-de-una-comodidad-q4": [
+      {
+        "paragraph": 2,
+        "text": "Desactivarlos exige abrir opciones y recorrer varios apartados. Activar una rutina nueva requiere un paso. Esa asimetría no impide cambiarla: hace unas decisiones más fáciles que otras. Un valor predeterminado orienta el uso aunque nadie obligue a conservarlo."
+      }
+    ],
+    "el-precio-de-una-comodidad-q5": [
+      {
+        "paragraph": 3,
+        "text": "Un botón visible lo detenía sin recordar una frase exacta. Parecía un detalle antiguo junto al control por voz, pero aclaraba el sistema cuando hablábamos dos personas a la vez. La prueba mostró que añadir otra forma de control podía simplificar una situación, aunque aumentara el número de elementos visibles."
+      }
+    ],
+    "el-precio-de-una-comodidad-q6": [
+      {
+        "paragraph": 4,
+        "text": "El prototipo ordenaba propuestas según las últimas elecciones. Como yo lo usé primero, mis preferencias aparecían arriba. Mi hermana podía buscar otras piezas, pero pensó que era sobre todo mi aparato. Los creadores habían imaginado un usuario habitual sin trabajar bastante el uso compartido."
+      }
+    ],
+    "el-precio-de-una-comodidad-q7": [
+      {
+        "paragraph": 2,
+        "text": "No basta con decir que una opción existe; también importa cuánto cuesta encontrarla y entender su efecto."
+      }
+    ],
+    "el-precio-de-una-comodidad-q8": [
+      {
+        "paragraph": 7,
+        "text": "Los creadores objetan que mostrar todos los controles cargaría la pantalla. Hay que tomárselo en serio: claridad no es amontonar opciones. Pueden destacar acciones habituales y dejar otras detrás, siempre que encontrarlas no exija adivinar su vocabulario. La organización debe probarse, no darse por resuelta en un dibujo limpio."
+      }
+    ],
+    "el-precio-de-una-comodidad-q9": [
+      {
+        "paragraph": 5,
+        "text": "Una semana con dos personas no representa todos los hogares. No comprobamos cada función en cualquier condición. Valoramos lo utilizado y señalamos preferencias personales. No convertiríamos «esta orden me parece fácil» en «cualquiera lo hace sin ayuda»."
+      }
+    ],
+    "el-precio-de-una-comodidad-q10": [
+      {
+        "paragraph": 6,
+        "text": "Si una función ahorra pasos ocultando cómo deshacerlos, la rapidez inicial puede convertirse en necesidad de ayuda."
+      },
+      {
+        "paragraph": 8,
+        "text": "El precio del título no es dinero: es atención, control o esfuerzo que puede costar una comodidad si solo miramos el primer gesto."
+      }
+    ],
+    "el-precio-de-una-comodidad-q11": [
+      {
+        "paragraph": 6,
+        "text": "Pedimos opciones importantes visibles, dificultad semejante para activar y desactivar, y saber por qué una música aparece antes. Conservaríamos el botón físico. Si una función ahorra pasos ocultando cómo deshacerlos, la rapidez inicial puede convertirse en necesidad de ayuda."
+      },
+      {
+        "paragraph": 5,
+        "text": "Una semana con dos personas no representa todos los hogares. No comprobamos cada función en cualquier condición."
+      }
+    ]
+  },
+  "el-precio-de-una-comodidad-ca": {
+    "el-precio-de-una-comodidad-q1": [
+      {
+        "paragraph": 1,
+        "text": "Permet activar recordatoris, posar un temporitzador i reproduir una selecció de música."
+      }
+    ],
+    "el-precio-de-una-comodidad-q2": [
+      {
+        "paragraph": 5,
+        "text": "Una setmana a casa de dues persones no representa totes les llars."
+      },
+      {
+        "paragraph": 3,
+        "text": "La meva germana el feia servir mentre dibuixava i jo quan treballava en una maqueta."
+      }
+    ],
+    "el-precio-de-una-comodidad-q3": [
+      {
+        "paragraph": 2,
+        "text": "El dispositiu arriba amb alguns recordatoris activats per defecte."
+      },
+      {
+        "paragraph": 2,
+        "text": "Un valor predeterminat també orienta l’ús, encara que ningú no obligui a mantenir-lo."
+      }
+    ],
+    "el-precio-de-una-comodidad-q4": [
+      {
+        "paragraph": 2,
+        "text": "El grup els considera útils per mostrar-ne el funcionament. Desactivar-los és possible, però cal obrir la pantalla d’opcions i passar per diversos apartats. Activar una nova rutina, en canvi, es pot fer amb un únic pas. Aquesta asimetria no impedeix canviar la configuració; fa que unes decisions siguin més fàcils de prendre que d’altres."
+      }
+    ],
+    "el-precio-de-una-comodidad-q5": [
+      {
+        "paragraph": 3,
+        "text": "Quan sonava, un botó visible permetia aturar-lo. No necessitàvem recordar una frase exacta. Aquell control físic semblava un detall antic al costat de la veu, però va fer el sistema més clar quan dues persones parlaven alhora a l’habitació."
+      }
+    ],
+    "el-precio-de-una-comodidad-q6": [
+      {
+        "paragraph": 4,
+        "text": "El prototip ordenava les propostes segons les darreres tries. Com que jo l’havia utilitzat primer, les meves preferències ocupaven sovint la part superior. La germana podia buscar altres peces, però va pensar que aquell era sobretot el meu aparell. El grup creador havia imaginat un usuari habitual, no havia treballat prou què passava quan el mateix objecte es compartia."
+      }
+    ],
+    "el-precio-de-una-comodidad-q7": [
+      {
+        "paragraph": 2,
+        "text": "Desactivar-los és possible, però cal obrir la pantalla d’opcions i passar per diversos apartats. Activar una nova rutina, en canvi, es pot fer amb un únic pas."
+      },
+      {
+        "paragraph": 7,
+        "text": "Poden destacar accions habituals i deixar-ne d’altres en un segon nivell, sempre que trobar-les no exigeixi endevinar el vocabulari amb què les han classificades."
+      }
+    ],
+    "el-precio-de-una-comodidad-q8": [
+      {
+        "paragraph": 7,
+        "text": "El grup creador ens va dir que mostrar tots els controls a la primera pantalla faria el disseny més carregat. És una objecció que cal prendre seriosament. La claredat no consisteix a amuntegar opcions sense ordre. Poden destacar accions habituals i deixar-ne d’altres en un segon nivell, sempre que trobar-les no exigeixi endevinar el vocabulari amb què les han classificades. Cal provar aquesta organització, no donar-la per resolta amb un dibuix net."
+      }
+    ],
+    "el-precio-de-una-comodidad-q9": [
+      {
+        "paragraph": 5,
+        "text": "Una setmana a casa de dues persones no representa totes les llars. Tampoc no hem comprovat cada funció en totes les condicions possibles. Valorem allò que hem utilitzat i indiquem quan una observació és una preferència nostra. No convertiríem «jo trobo fàcil aquesta ordre» en «qualsevol persona ho pot fer sense ajuda»."
+      }
+    ],
+    "el-precio-de-una-comodidad-q10": [
+      {
+        "paragraph": 6,
+        "text": "Si una funció estalvia passos però amaga la manera de desfer-los, la sensació inicial de rapidesa pot convertir-se en dependència d’una ajuda externa."
+      },
+      {
+        "paragraph": 8,
+        "text": "El preu del títol no són diners. És l’atenció, el control o l’esforç que pot costar una comoditat quan només es mira la facilitat del primer gest."
+      }
+    ],
+    "el-precio-de-una-comodidad-q11": [
+      {
+        "paragraph": 6,
+        "text": "Demanem que les opcions importants siguin visibles, que activar i desactivar una rutina tinguin una dificultat semblant i que es pugui entendre per què s’ofereix una música abans que una altra. També conservaríem el botó físic del temporitzador. Si una funció estalvia passos però amaga la manera de desfer-los, la sensació inicial de rapidesa pot convertir-se en dependència d’una ajuda externa."
+      },
+      {
+        "paragraph": 5,
+        "text": "Una setmana a casa de dues persones no representa totes les llars. Tampoc no hem comprovat cada funció en totes les condicions possibles."
+      }
+    ]
+  },
+  "una-noticia-escrita-dos-veces-es": {
+    "una-noticia-escrita-dos-veces-q1": [
+      {
+        "paragraph": 1,
+        "text": "La primera versión apareció el jueves: «La pasarela del parque reabrirá el lunes»."
+      }
+    ],
+    "una-noticia-escrita-dos-veces-q2": [
+      {
+        "paragraph": 2,
+        "text": "Una novedad era un aviso que mantenía cerrado el acceso mientras revisaban una pieza. La otra, una foto del viernes con vallas en las entradas."
+      }
+    ],
+    "una-noticia-escrita-dos-veces-q3": [
+      {
+        "paragraph": 7,
+        "text": "El lunes seguía cerrado. Actualizaron el estado sin borrar la nota. El hecho no convertía retroactivamente la previsión en promesa."
+      }
+    ],
+    "una-noticia-escrita-dos-veces-q4": [
+      {
+        "paragraph": 3,
+        "text": "Al escuchar de nuevo recuperaron la frase: «Si todo va según lo previsto, nos gustaría terminar antes del fin de semana; la apertura se anunciará tras la revisión». El resumen había guardado solo el fin de semana. El lunes lo añadió la redacción, suponiendo que acabar las obras significaba abrir al público después. Nadie confirmó esos pasos."
+      }
+    ],
+    "una-noticia-escrita-dos-veces-q5": [
+      {
+        "paragraph": 2,
+        "text": "La otra, una foto del viernes con vallas en las entradas."
+      },
+      {
+        "paragraph": 2,
+        "text": "La imagen no demostraba que seguiría cerrado tres días después, pero mostraba una obra sin terminar."
+      }
+    ],
+    "una-noticia-escrita-dos-veces-q6": [
+      {
+        "paragraph": 3,
+        "text": "Al escuchar de nuevo recuperaron la frase: «Si todo va según lo previsto, nos gustaría terminar antes del fin de semana; la apertura se anunciará tras la revisión». El resumen había guardado solo el fin de semana. El lunes lo añadió la redacción, suponiendo que acabar las obras significaba abrir al público después."
+      }
+    ],
+    "una-noticia-escrita-dos-veces-q7": [
+      {
+        "paragraph": 4,
+        "text": "No afirmaba un gran retraso ni una promesa incumplida. Para hablar de retraso debían saber qué compromiso confirmado comparaban: el primer día seguro era una conclusión del boletín, no de la fuente."
+      }
+    ],
+    "una-noticia-escrita-dos-veces-q8": [
+      {
+        "paragraph": 5,
+        "text": "Incluyeron nota de corrección, fecha y motivo."
+      },
+      {
+        "paragraph": 7,
+        "text": "Conservarían ambas versiones fechadas para reconstruir la evolución de la información."
+      }
+    ],
+    "una-noticia-escrita-dos-veces-q9": [
+      {
+        "paragraph": 3,
+        "text": "Al escuchar de nuevo recuperaron la frase: «Si todo va según lo previsto, nos gustaría terminar antes del fin de semana; la apertura se anunciará tras la revisión»."
+      },
+      {
+        "paragraph": 7,
+        "text": "El lunes seguía cerrado. Actualizaron el estado sin borrar la nota. El hecho no convertía retroactivamente la previsión en promesa."
+      }
+    ],
+    "una-noticia-escrita-dos-veces-q10": [
+      {
+        "paragraph": 6,
+        "text": "Indicaron dónde se publicaría la confirmación y añadieron un itinerario alternativo comprobado. Esa ayuda no hacía la alternativa preferible para cualquiera ni sustituía la fecha pendiente."
+      }
+    ],
+    "una-noticia-escrita-dos-veces-q11": [
+      {
+        "paragraph": 2,
+        "text": "Una novedad era un aviso que mantenía cerrado el acceso mientras revisaban una pieza. La otra, una foto del viernes con vallas en las entradas. La lectora preguntaba si cruzaría el lunes para ir al centro. La imagen no demostraba que seguiría cerrado tres días después, pero mostraba una obra sin terminar. El aviso tampoco confirmaba otra fecha."
+      },
+      {
+        "paragraph": 8,
+        "text": "No reescribieron solo porque cambiara el mundo. Revisaron una lectura demasiado segura de lo ya dicho. Informar implica decidir qué resumir, qué condiciones conservar y qué inferencias presentar como hechos."
+      }
+    ]
+  },
+  "una-noticia-escrita-dos-veces-ca": {
+    "una-noticia-escrita-dos-veces-q1": [
+      {
+        "paragraph": 1,
+        "text": "La primera versió de la notícia va sortir al butlletí escolar dijous al vespre: «La passera del parc reobrirà dilluns»."
+      }
+    ],
+    "una-noticia-escrita-dos-veces-q2": [
+      {
+        "paragraph": 2,
+        "text": "La primera informació era un avís que mantenia tancat l’accés mentre es revisava una peça. La segona, una fotografia feta aquell matí, amb tanques a les dues entrades."
+      }
+    ],
+    "una-noticia-escrita-dos-veces-q3": [
+      {
+        "paragraph": 7,
+        "text": "Dilluns, el pas encara era tancat. La redacció va actualitzar-ne l’estat sense esborrar la nota anterior. Aquell fet no canviava retroactivament la previsió en una promesa."
+      }
+    ],
+    "una-noticia-escrita-dos-veces-q4": [
+      {
+        "paragraph": 3,
+        "text": "En tornar a escoltar la gravació, van recuperar les paraules exactes: «Si tot va com està previst, ens agradaria deixar-ho enllestit abans del cap de setmana; l’obertura s’anunciarà quan acabin la revisió». A la llibreta, el primer resum havia conservat només el fragment sobre el cap de setmana. La paraula «dilluns» l’havia afegida la redacció, suposant que acabar els treballs implicava obrir al públic després del cap de setmana. Eren dos passos que ningú no els havia confirmat."
+      }
+    ],
+    "una-noticia-escrita-dos-veces-q5": [
+      {
+        "paragraph": 2,
+        "text": "La segona, una fotografia feta aquell matí, amb tanques a les dues entrades."
+      },
+      {
+        "paragraph": 2,
+        "text": "La imatge no demostrava que el pas continuaria tancat tres dies després, però feia visible que l’obra encara no havia acabat."
+      }
+    ],
+    "una-noticia-escrita-dos-veces-q6": [
+      {
+        "paragraph": 3,
+        "text": "En tornar a escoltar la gravació, van recuperar les paraules exactes: «Si tot va com està previst, ens agradaria deixar-ho enllestit abans del cap de setmana; l’obertura s’anunciarà quan acabin la revisió». A la llibreta, el primer resum havia conservat només el fragment sobre el cap de setmana. La paraula «dilluns» l’havia afegida la redacció, suposant que acabar els treballs implicava obrir al públic després del cap de setmana."
+      }
+    ],
+    "una-noticia-escrita-dos-veces-q7": [
+      {
+        "paragraph": 4,
+        "text": "No afirmava que hi hagués un gran retard ni que alguna persona hagués faltat a una promesa. Per calcular un retard caldria saber respecte de quin compromís confirmat es comparava, i el primer dia segur havia estat una conclusió del butlletí, no de la font."
+      }
+    ],
+    "una-noticia-escrita-dos-veces-q8": [
+      {
+        "paragraph": 5,
+        "text": "Van deixar una nota de correcció amb la data i el motiu del canvi."
+      },
+      {
+        "paragraph": 7,
+        "text": "A l’arxiu quedarien les dues versions amb les dates corresponents, perquè qui les trobés després pogués reconstruir com havia evolucionat la informació."
+      }
+    ],
+    "una-noticia-escrita-dos-veces-q9": [
+      {
+        "paragraph": 3,
+        "text": "En tornar a escoltar la gravació, van recuperar les paraules exactes: «Si tot va com està previst, ens agradaria deixar-ho enllestit abans del cap de setmana; l’obertura s’anunciarà quan acabin la revisió»."
+      },
+      {
+        "paragraph": 7,
+        "text": "Dilluns, el pas encara era tancat. La redacció va actualitzar-ne l’estat sense esborrar la nota anterior. Aquell fet no canviava retroactivament la previsió en una promesa."
+      }
+    ],
+    "una-noticia-escrita-dos-veces-q10": [
+      {
+        "paragraph": 6,
+        "text": "Li van indicar on es publicaria la confirmació i van afegir al text un itinerari alternatiu que havien comprovat. Aquella ajuda pràctica no convertia l’alternativa en el camí preferible per a qualsevol persona, ni substituïa la informació pendent sobre l’obertura."
+      }
+    ],
+    "una-noticia-escrita-dos-veces-q11": [
+      {
+        "paragraph": 2,
+        "text": "La primera informació era un avís que mantenia tancat l’accés mentre es revisava una peça. La segona, una fotografia feta aquell matí, amb tanques a les dues entrades. La lectora preguntava si podria travessar dilluns per arribar al centre. La imatge no demostrava que el pas continuaria tancat tres dies després, però feia visible que l’obra encara no havia acabat. L’avís tampoc no confirmava una nova data."
+      },
+      {
+        "paragraph": 8,
+        "text": "La notícia no havia estat només reescrita perquè el món canviés. També havia calgut revisar una lectura massa segura del que ja s’havia dit. Entre copiar una frase i informar-ne hi ha decisions: què es resumeix, quines condicions es conserven i quines inferències es presenten com a fets."
+      }
+    ]
+  },
   "el-agua-que-llegaba-a-la-ciudad-es": {
     "agua-q1": [
       {

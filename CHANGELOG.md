@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.42 · 18 de novembre del 2026
+
+Completem les pistes del solucionari per a les 245 lectures del catàleg, en català i castellà. Els fragments ressaltats i numerats es relacionen amb «Veure al text», amb colors compartits entre el text i la resposta. Es poden amagar des de «Pistes al text» i la tria es conserva amb el maquetat, també per imprimir o preparar lots. Revisem totes les referències i comprovem la paginació de tot el catàleg.
+
 ## 1.41.8 · 18 de novembre del 2026
 
 Les pistes del solucionari ja cobreixen les L001–L224 en català i castellà. Afegim els fragments de suport de les lectures més complexes i les referències a dades que cal comparar.

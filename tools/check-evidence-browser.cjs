@@ -3,6 +3,8 @@ const { fork } = require('node:child_process');
 const { chromium } = require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const { PDFDocument } = require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/pdf-lib');
 const base = 'http://127.0.0.1:4198/';
+const allCatalogue = process.argv.includes('--all');
+const screenshot = process.argv.slice(2).find(arg => !arg.startsWith('--'));
 (async () => {
   const server = fork('tools/serve.cjs', { env: { ...process.env, PORT: '4198' }, stdio: ['ignore', 'pipe', 'inherit', 'ipc'] });
   let browser;
@@ -18,7 +20,7 @@ const base = 'http://127.0.0.1:4198/';
     assert.equal(await page.locator('#studio-pages mark').count(), 0);
     await page.locator('#studio-solution').check();
     await page.locator('#studio-pages mark').first().waitFor();
-    if (process.argv[2]) await page.locator('#studio-pages .worksheet-page').first().screenshot({ path: process.argv[2] });
+    if (screenshot) await page.locator('#studio-pages .worksheet-page').first().screenshot({ path: screenshot });
     const reference = page.locator('#studio-pages .worksheet-evidence-reference').first();
     assert.equal(await reference.textContent(), 'Ver en el texto');
     await reference.click();
@@ -40,11 +42,11 @@ const base = 'http://127.0.0.1:4198/';
     await page.locator('.studio-evidence-controls summary').click();
     await page.locator('[name="showEvidence"]').check();
     await page.locator('#studio-pages mark').first().waitFor();
-    const checks = await page.evaluate(async () => {
+    const checks = await page.evaluate(async (allCatalogue) => {
       const { readings } = await import('./data/readings.js');
       const { defaultSettings } = await import('./worksheet-code.js');
       const { renderWorksheet, exportWorksheetPages, decodeWorksheetImages } = await import('./worksheet.js');
-      const variants = readings.filter(r => +r.code.slice(1) <= 5);
+      const variants = allCatalogue ? readings : readings.filter(r => +r.code.slice(1) <= 5);
       const host = document.createElement('div');
       host.className = 'worksheet-export-layout';
       document.body.append(host);
@@ -72,9 +74,11 @@ const base = 'http://127.0.0.1:4198/';
         checked++;
       };
       for (const reading of variants) {
-        inspect(reading, defaultSettings(reading.level), false);
         inspect(reading, defaultSettings(reading.level), true);
-        inspect(reading, { ...defaultSettings(reading.level), showEvidence: false }, true);
+        if (!allCatalogue || +reading.code.slice(1) <= 5 || +reading.code.slice(1) % 25 === 0) {
+          inspect(reading, defaultSettings(reading.level), false);
+          inspect(reading, { ...defaultSettings(reading.level), showEvidence: false }, true);
+        }
       }
       const text = 'Una clau antiga obre la porta. '.repeat(45).trim();
       const fixture = { id: 'fixture', code: 'T001', title: 'Prova', language: 'ca', level: '1-secondary', images: [], paragraphs: [text], annotations: [{ paragraph: 1, text: 'antiga', occurrence: 1, questionId: 'first' }, { paragraph: 1, text: 'porta', occurrence: 1, definition: 'Entrada.' }], questions: [{ id: 'first', prompt: 'Què obre?', answer: 'La clau.', lines: 1, evidence: [{ paragraph: 1, text: text.slice(0, 1199).trim(), occurrence: 1 }] }, { id: 'second', prompt: 'Quina clau?', answer: 'L’antiga.', lines: 1, evidence: [{ paragraph: 1, text: 'clau antiga obre', occurrence: 1 }] }] };
@@ -87,7 +91,7 @@ const base = 'http://127.0.0.1:4198/';
       await decodeWorksheetImages(pdfPages);
       host.remove();
       return { checked, pdfPages: pdfPages.length };
-    });
+    }, allCatalogue);
     const download = page.waitForEvent('download');
     await page.locator('#studio-print-trigger').click();
     await page.locator('#studio-print-menu [data-option="pdf-key"]').click();
