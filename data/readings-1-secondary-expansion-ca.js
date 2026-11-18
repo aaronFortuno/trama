@@ -2966,5 +2966,354 @@ export const readings1SecondaryExpansionCa = [
         "questionId": "una-carta-escrita-desde-dos-orillas-q3"
       }
     ]
+  },
+  {
+    "id": "el-experimento-que-ya-conocia-el-resultado-ca",
+    "code": "L237",
+    "title": "L’experiment que ja coneixia el resultat",
+    "summary": "Un grup prepara una conclusió sobre unes llavors abans de revisar què ha mesurat i quines dades ha deixat fora.",
+    "paragraphs": [
+      "Abans que sortís cap brot, en Mauro ja havia escrit un titular: «Un truc senzill fa germinar abans les llavors». El grup havia llegit que remullar-les abans de sembrar podia influir en el procés i volia comprovar-ho amb les mongetes del taller. Tenien dotze testos, sis amb llavors remullades i sis sense remullar. Al quadern havien apuntat una pregunta més prudent que el titular: «En quins testos veurem primer els brots?». La diferència entre les dues frases encara no els preocupava.",
+      "Van fer servir terra del mateix sac i testos de la mateixa mida. Les llavors venien d’un mateix paquet, però això no garantia que totes es comportessin igual. Cada matí, a l’entrada de classe, anotaven si havia aparegut un brot. Els testos del grup A duien una etiqueta vermella; els del B, una de blava. Tothom sabia què significaven els colors. Les notes es recollien en una taula on també hi havia lloc per escriure incidències.",
+      "El tercer matí van veure els primers brots en tots dos grups. Al setè, havien brotat cinc testos amb llavors remullades i quatre amb llavors sense remullar. En Mauro va triar per a la notícia una fotografia del brot més alt, que era del grup A. Li semblava la millor prova perquè la diferència es veia de seguida. La Sara va preguntar si la fotografia responia la pregunta del quadern o una altra sobre l’alçada de les plantes.",
+      "Aquella pregunta els va obligar a tornar als registres. No havien mesurat alçades cada dia ni havien definit aquest indicador al començament. Tampoc no sabien a quina hora exacta havia aparegut cada brot: només què veien al matí. Podien comparar el primer dia de detecció i el nombre de testos brotats en aquella setmana. No podien convertir la fotografia escollida en una mesura sistemàtica d’un resultat diferent.",
+      "Després van revisar la ubicació. Perquè quedessin més bonics a la finestra, havien posat tots els vermells davant i tots els blaus darrere. En una nota del segon dia constava que una cortina havia quedat baixada sobre la fila posterior. En Mauro va dir que devien ser detalls sense importància. La Sara va preguntar si també ho hauria dit si els blaus haguessin obtingut el resultat que esperava dels vermells.",
+      "No van concloure que remullar fos inútil ni que la cortina expliqués tota la diferència. Van reconèixer que la disposició afegia condicions que no havien controlat prou i que dotze testos en una setmana no resolien qualsevol cas. El recompte de cinc i quatre continuava sent una observació del seu assaig. El que perdia força era la seguretat amb què volien atribuir-lo a una única causa.",
+      "Per repetir la prova, primer definirien què compararien, com distribuirien els testos i quan observarien els brots. També conservarien tots els registres, inclosos els que no afavorissin la primera idea. En Mauro va admetre que havia mirat més estona la planta alta que la taula sencera. Ningú no li havia demanat que falsifiqués res; només havia anat triant allò que confirmava el relat que ja tenia al cap.",
+      "El titular final va quedar en forma de pregunta. La notícia mostrava la fotografia, però també el recompte i els límits del muntatge. No era una renúncia a experimentar. Era el primer moment en què l’experiment deixava de treballar per a un resultat que ja coneixia abans de començar."
+    ],
+    "imageAlt": {
+      "el-experimento-que-ya-conocia-el-resultado-art1": "Dos joves comparen petits testos de plàntules amb etiquetes al costat d’una finestra de l’aula.",
+      "el-experimento-que-ya-conocia-el-resultado-art2": "Un quadern amb files d’observació i correccions al costat de dos testos semblants."
+    },
+    "questions": [
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q1",
+        "type": "literal",
+        "prompt": "Quina diferència inicial separava els dos grups de llavors?",
+        "answer": "Sis testos tenien llavors remullades abans de sembrar i sis, llavors sense remullar.",
+        "lines": 2
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q2",
+        "type": "literal",
+        "prompt": "Quin recompte tenen al setè dia?",
+        "answer": "Cinc testos brotats al grup de llavors remullades i quatre al de no remullades.",
+        "lines": 2
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q3",
+        "type": "vocabulary",
+        "prompt": "Què vol dir «una mesura sistemàtica» en oposició a la foto escollida?",
+        "answer": "Una recollida de dades feta amb un criteri i un procediment definits per comparar casos, no només un exemple vistós.",
+        "lines": 2
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q4",
+        "type": "inference",
+        "prompt": "Quina diferència hi ha entre la pregunta del quadern i el primer titular?",
+        "answer": "La pregunta deixa obert què observaran; el titular ja afirma un efecte i el presenta com una conclusió abans de tenir dades.",
+        "lines": 3
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q5",
+        "type": "inference",
+        "prompt": "Per què la foto de la planta més alta no respon directament a l’objectiu inicial?",
+        "answer": "Perquè volien comparar quan veien els primers brots, no l’alçada seleccionada al final, que no havien mesurat sistemàticament.",
+        "lines": 3
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q6",
+        "type": "inference",
+        "prompt": "Què permet afirmar observar els dos primers brots el mateix matí i què no permet precisar?",
+        "answer": "Que els van detectar el mateix dia; no l’hora exacta de germinació ni quin havia aparegut primer durant l’interval.",
+        "lines": 3
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q7",
+        "type": "inference",
+        "prompt": "Per què la distribució dels colors i la cortina compliquen atribuir el resultat al remull?",
+        "answer": "Perquè separen els grups també per ubicació i condicions d’exposició, de manera que no només canvia el tractament que volien comparar.",
+        "lines": 4
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q8",
+        "type": "structure",
+        "prompt": "Quina funció té preguntar si en Mauro restaria importància als detalls si els resultats fossin inversos?",
+        "answer": "Fa visible que pot jutjar les dades segons si afavoreixen la seva expectativa, en lloc d’aplicar el mateix criteri.",
+        "lines": 3
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q9",
+        "type": "inference",
+        "prompt": "Per què detectar límits no autoritza a concloure que remullar és inútil?",
+        "answer": "Perquè un assaig limitat i amb condicions confoses tampoc no demostra l’absència de qualsevol efecte.",
+        "lines": 3
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q10",
+        "type": "inference",
+        "prompt": "Què diferencia seleccionar només la planta favorable de conservar també la taula completa?",
+        "answer": "La primera tria pot ocultar variació o dades que no encaixen; la taula permet veure el conjunt observat i revisar la interpretació.",
+        "lines": 3
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q11",
+        "type": "summary",
+        "prompt": "Resumeix tres canvis que proposen per fer una nova prova més interpretable.",
+        "answer": "Definir l’indicador abans, distribuir els testos evitant diferències de condicions, fixar observacions i conservar tots els registres. Cal esmentar tres idees pertinents.",
+        "lines": 4
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q12",
+        "type": "opinion",
+        "prompt": "Escriu un titular final que sigui atractiu i respecti el que han observat. Explica quina afirmació del primer titular has evitat.",
+        "answer": "Resposta oberta que presenti la pregunta o el recompte amb límits, sense assegurar un efecte general ni canviar l’indicador sense avisar.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 4,
+        "text": "una mesura sistemàtica",
+        "questionId": "el-experimento-que-ya-conocia-el-resultado-q3"
+      }
+    ]
+  },
+  {
+    "id": "la-fotografia-que-llego-antes-de-la-tormenta-ca",
+    "code": "L238",
+    "title": "La fotografia que va arribar abans de la tempesta",
+    "summary": "Tres hores associades a una fotografia semblen incompatibles fins que el grup es pregunta quin rellotge i quin moment descriu cadascuna.",
+    "paragraphs": [
+      "A les cinc i quaranta-cinc, la redacció escolar va rebre una fotografia de la plaça amb núvols foscos i el paviment sec. La pluja no va començar fins més tard. Però, en obrir la informació del fitxer, van trobar una hora que semblava impossible: les sis i quaranta. Si aquella era l’hora de la fotografia, com havia arribat gairebé una hora abans? Algú va proposar que el fitxer s’havia manipulat. Abans de publicar-ho, van separar els diferents moments que estaven comparant.",
+      "Una fotografia digital pot incloure metadades: dades associades al fitxer, com informació de la càmera o una hora de captura. Aquella hora depèn del rellotge que utilitza l’aparell i de com s’hagi configurat. No és un testimoni independent que garanteixi l’hora real del lloc. A més, el moment de fer la foto, el d’editar-la i el d’enviar-la poden ser diferents. Cal saber quin camp s’està llegint abans de construir una seqüència.",
+      "La Sílvia, que havia fet la imatge, va portar la càmera. Feia mesos que no n’havia revisat el rellotge. El dispositiu marcava una hora més que el del centre quan els van comparar al mateix moment. Això oferia una explicació possible per a la diferència, però el grup no va canviar automàticament totes les hores de totes les fotografies de la targeta. No sabia si la configuració havia estat sempre la mateixa.",
+      "A la fotografia de la plaça es veia el rellotge de la torre: marcava les cinc i quaranta. La Sílvia també conservava una nota del quadern, feta poc després, que situava l’observació cap a aquella hora. Les dues pistes encaixaven amb una captura anterior a l’enviament. No eren una màquina infal·lible per tornar al passat, però resultaven més coherents entre si que llegir les sis i quaranta com una hora exacta i confirmada.",
+      "El grup va consultar els missatges de la tarda. A les sis hi havia un avís que començava a ploure al pati del centre; una altra fotografia mostrava bassals a la plaça una estona després. No van convertir l’avís del pati en l’hora exacta d’inici de la pluja a cada carrer. Distingir llocs també importava. La primera imatge podia mostrar terra sec abans de la pluja sense demostrar res sobre l’estat de la plaça durant tota la tarda.",
+      "En Marc volia escriure que les metadades eren inútils perquè el rellotge estava mal ajustat. La resta va recordar que precisament aquella informació havia permès detectar una discrepància i preguntar-ne la causa. El problema no era conservar el camp, sinó donar-li una autoritat que no tenia. Tampoc no podien corregir l’hora en una còpia i presentar-la després com si l’hagués enregistrada així la càmera des del començament.",
+      "Van preparar una cronologia amb fonts al costat de cada entrada. L’hora de recepció provenia del missatge; la de la torre, de la imatge; la del dispositiu, de les metadades. La captura quedava situada aproximadament abans de l’enviament, amb una nota sobre el desajust. Preferien una franja raonada a un minut falsament precís.",
+      "La notícia final no anunciava una fotografia impossible. Explicava com s’havia resolt una aparent contradicció. Mirar una data també exigeix preguntar qui l’ha posada, a què es refereix i amb quines altres pistes es pot comparar. Un rellotge dibuixat al cel no seria més fiable perquè sortís dins d’un fitxer ple de nombres."
+    ],
+    "imageAlt": {
+      "la-fotografia-que-llego-antes-de-la-tormenta-art1": "Dos joves examinen una fotografia de núvols sobre una taula amb una càmera i un rellotge al fons.",
+      "la-fotografia-que-llego-antes-de-la-tormenta-art2": "Un grup observa núvols de tempesta sobre una plaça amb un rellotge de torre i una càmera amb trípode."
+    },
+    "questions": [
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q1",
+        "type": "literal",
+        "prompt": "Quina hora de recepció i quina hora del fitxer semblaven incompatibles?",
+        "answer": "Recepció a les 17.45 i hora del fitxer a les 18.40.",
+        "lines": 2
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q2",
+        "type": "literal",
+        "prompt": "Quines dues pistes situaven la captura prop de les cinc i quaranta?",
+        "answer": "El rellotge de la torre visible a la foto i una nota del quadern de la Sílvia feta poc després.",
+        "lines": 2
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa «una franja raonada» en parlar de l’hora de captura?",
+        "answer": "Un interval aproximat sostingut per pistes, en lloc d’un minut exacte que no es pot confirmar.",
+        "lines": 2
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q4",
+        "type": "inference",
+        "prompt": "Per què les metadades no garanteixen per si soles l’hora real?",
+        "answer": "Perquè la dada pot dependre d’un rellotge mal configurat i cal identificar a quin moment es refereix el camp.",
+        "lines": 3
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q5",
+        "type": "inference",
+        "prompt": "Per què comparar els rellotges avui no permet corregir totes les fotos antigues amb seguretat?",
+        "answer": "Perquè no saben si el desajust o la configuració han estat constants durant tot el període.",
+        "lines": 3
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q6",
+        "type": "inference",
+        "prompt": "Què aporta que la torre i el quadern coincideixin aproximadament?",
+        "answer": "Dues pistes de procedència diferent que donen més coherència a situar la captura abans de l’enviament.",
+        "lines": 3
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q7",
+        "type": "inference",
+        "prompt": "Per què l’avís de pluja al pati no fixa l’inici exacte de pluja a la plaça?",
+        "answer": "Perquè descriu un altre lloc i no es pot assumir que la pluja comencés simultàniament a tot arreu.",
+        "lines": 3
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q8",
+        "type": "structure",
+        "prompt": "Quina funció té posar la font al costat de cada entrada de la cronologia?",
+        "answer": "Permet distingir què sosté cada hora i revisar les relacions entre registres de naturalesa diferent.",
+        "lines": 3
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q9",
+        "type": "inference",
+        "prompt": "Per què seria excessiu concloure que les metadades són inútils?",
+        "answer": "Perquè han ajudat a detectar el desajust; són una pista útil si s’interpreten amb context, encara que no siguin una garantia absoluta.",
+        "lines": 3
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q10",
+        "type": "inference",
+        "prompt": "Què caldria explicar si es corregeix l’hora d’una còpia?",
+        "answer": "Quina dada s’ha canviat i per què, per no fer passar una correcció posterior per un registre original de la càmera.",
+        "lines": 3
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q11",
+        "type": "summary",
+        "prompt": "Resumeix com resolen l’aparent contradicció sense afirmar que coneixen cada minut amb certesa.",
+        "answer": "Distingeixen recepció i captura, detecten un possible desajust del rellotge i contrasten torre i notes; situen una hora aproximada i conserven fonts i límits.",
+        "lines": 4
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q12",
+        "type": "opinion",
+        "prompt": "Quin detall de la cronologia destacaries per evitar una notícia sobre una «foto del futur»? Justifica’l i indica què no demostra.",
+        "answer": "Resposta oberta que triï una pista concreta, expliqui el seu valor i reconegui un límit, com la configuració actual o la coincidència aproximada amb la torre.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 7,
+        "text": "una franja raonada",
+        "questionId": "la-fotografia-que-llego-antes-de-la-tormenta-q3"
+      },
+      {
+        "paragraph": 2,
+        "text": "metadades",
+        "definition": "Dades que descriuen un fitxer o les seves característiques i circumstàncies."
+      }
+    ]
+  },
+  {
+    "id": "un-rio-con-mas-de-una-memoria-ca",
+    "code": "L239",
+    "title": "Un riu amb més d’una memòria",
+    "summary": "Fotografies, records i sediments expliquen canvis d’un riu, però no registren tots els mateixos processos ni els mateixos temps.",
+    "paragraphs": [
+      "La fotografia mostrava un riu més ample que el que el grup tenia davant. Hi havia una llengua de sorra al mig i una passera de fusta que ja no existia. Al revers, una data de feia seixanta anys. En Tomàs, que havia viscut sempre al poble, recordava haver jugat en aquella sorra. Una alumna va preguntar quan havia desaparegut. Ell va respondre amb una etapa de la seva vida, no amb un any: «Quan encara anava a l’escola vella». Era una pista, però no una data exacta.",
+      "El projecte volia explicar com havia canviat aquell tram. A la sortida hi participaven veïns i una investigadora que estudiava sediments. Van començar comparant la foto amb el paisatge actual. La imatge conservava una vista concreta i els records aportaven usos i experiències. Cap font mostrava tot el que havia passat entre els dos moments. Una fotografia d’un dia tampoc no descrivia necessàriament l’estat habitual del riu durant aquell any.",
+      "Aigües amunt hi havia una petita resclosa construïda després de la data de la foto. Una obra d’aquest tipus pot modificar el pas de l’aigua i dels sediments. Quan l’aigua perd velocitat en una zona retinguda, part dels materials que transporta es poden dipositar. Els canvis poden afectar també trams de més avall. Però conèixer aquest mecanisme general no permetia atribuir automàticament cada diferència de la fotografia a aquella única obra.",
+      "La investigadora va proposar revisar altres factors: crescudes, aportacions de torrents, canvis a les ribes i actuacions de manteniment. Volia saber quines dades es conservaven i de quins moments. La forma d’un riu resulta de processos que es combinen al llarg del temps. Una explicació amb una sola causa podia ser atractiva per a un plafó, però insuficient per entendre el tram que estaven observant.",
+      "En un punt de la riba es distingien capes de sediment. Van descriure’n colors, gruixos i materials visibles sense donar immediatament una història a cadascuna. En Tomàs recordava una crescuda molt forta; algú va assenyalar la capa més gruixuda com si n’hagués trobat el rastre. La investigadora va dir que podien anotar aquella relació com una pregunta. Calia comprovar dates i altres indicis abans de considerar identificat l’episodi.",
+      "El testimoni d’en Tomàs no perdia valor perquè fos aproximat. Explicava per on passaven, què anomenaven «la platja» i com utilitzaven la passera. Eren informacions que una mostra de sorra no contenia de la mateixa manera. Alhora, el record d’un lloc on es podia caminar no permetia calcular per si sol el cabal d’aquell dia. Les fonts es complementaven millor quan no se’ls exigia respondre preguntes per a les quals no havien estat creades.",
+      "Per a l’exposició van fer tres franges al plafó: paisatge fotografiat, records d’ús i observacions del terreny. Les dates segures s’hi distingien de les aproximades. Van deixar visible una pregunta sobre la sorra desapareguda i van explicar quines dades faltaven per avançar. No volien tancar la investigació només perquè l’acte d’inauguració ja tingués hora.",
+      "El títol deia que el riu tenia més d’una memòria. No significava que qualsevol relat fos igualment correcte ni que l’aigua recordés com una persona. Volia mostrar que el passat deixava rastres diferents i que calia relacionar-los sense fondre’ls en una certesa única. La fotografia antiga va quedar al centre, amb espai al voltant per continuar fent preguntes."
+    ],
+    "imageAlt": {
+      "un-rio-con-mas-de-una-memoria-art1": "Un grup observa un riu amb una resclosa baixa, aigua més calmada a dalt i corrent visible a baix.",
+      "un-rio-con-mas-de-una-memoria-art2": "Un tall de sediment a la riba del riu, amb un quadern i una fotografia antiga sobre una superfície seca."
+    },
+    "questions": [
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q1",
+        "type": "literal",
+        "prompt": "Quins dos elements de la fotografia antiga ja no troben igual al riu actual?",
+        "answer": "La llengua de sorra i la passera de fusta.",
+        "lines": 2
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q2",
+        "type": "literal",
+        "prompt": "Quines tres franges organitzen el plafó final?",
+        "answer": "Paisatge fotografiat, records d’ús i observacions del terreny.",
+        "lines": 2
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q3",
+        "type": "vocabulary",
+        "prompt": "Què significa «cabal» en la pregunta sobre el riu?",
+        "answer": "La quantitat d’aigua que passa per un punt del riu durant un temps determinat.",
+        "lines": 2
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q4",
+        "type": "inference",
+        "prompt": "Per què «quan anava a l’escola vella» és una pista útil però no una data precisa?",
+        "answer": "Permet situar el record en una etapa, però no identifica un any concret ni el moment exacte del canvi.",
+        "lines": 3
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q5",
+        "type": "inference",
+        "prompt": "Per què conèixer l’efecte possible de la resclosa no demostra que expliqui tota la desaparició de sorra?",
+        "answer": "Perquè el mecanisme general pot contribuir-hi, però cal estudiar dates i altres processos que també afecten la forma del tram.",
+        "lines": 4
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q6",
+        "type": "inference",
+        "prompt": "Quina comprovació falta abans d’identificar la capa gruixuda amb la crescuda recordada?",
+        "answer": "Relacionar-ne les dates i altres indicis que confirmin que la capa correspon a aquell episodi.",
+        "lines": 3
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q7",
+        "type": "inference",
+        "prompt": "Què pot explicar en Tomàs que no explica de la mateixa manera una mostra de sediment?",
+        "answer": "Els usos del lloc, els noms i les experiències de passar o jugar a la zona.",
+        "lines": 3
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q8",
+        "type": "structure",
+        "prompt": "Per què el text no substitueix el testimoni aproximat per una descripció només científica?",
+        "answer": "Perquè les fonts aporten coneixements diferents i el projecte vol relacionar canvis físics i experiències d’ús sense confondre’ls.",
+        "lines": 3
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q9",
+        "type": "inference",
+        "prompt": "Per què una fotografia amb data no descriu necessàriament tot l’any?",
+        "answer": "Perquè conserva un moment i unes condicions concretes que poden no ser les habituals de tot el període.",
+        "lines": 3
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q10",
+        "type": "inference",
+        "prompt": "Què implica deixar una pregunta oberta en una exposició ja inaugurada?",
+        "answer": "Reconèixer que la presentació pública no resol automàticament els buits de la investigació i permet explicar què falta.",
+        "lines": 3
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q11",
+        "type": "summary",
+        "prompt": "Explica la metàfora del títol i un límit que el text li posa.",
+        "answer": "El passat deixa rastres en imatges, records i terreny; no implica que el riu recordi literalment ni que totes les interpretacions valguin igual.",
+        "lines": 4
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q12",
+        "type": "opinion",
+        "prompt": "Proposa una nova font per investigar el canvi del riu. Explica què podria aportar i una pregunta que no podria respondre tota sola.",
+        "answer": "Resposta oberta amb una font pertinent, com més fotos datades, registres d’obres o altres testimonis, i una distinció clara d’abast i límit.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 6,
+        "text": "cabal",
+        "questionId": "un-rio-con-mas-de-una-memoria-q3"
+      },
+      {
+        "paragraph": 3,
+        "text": "resclosa",
+        "definition": "Obra que reté o eleva l’aigua d’un curs fluvial."
+      }
+    ]
   }
 ];

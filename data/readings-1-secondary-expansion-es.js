@@ -3649,5 +3649,425 @@ export const readings1SecondaryExpansionEs = [
         "questionId": "una-carta-escrita-desde-dos-orillas-q3"
       }
     ]
+  },
+  {
+    "id": "el-experimento-que-ya-conocia-el-resultado-es",
+    "code": "L237",
+    "workId": "el-experimento-que-ya-conocia-el-resultado",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "advanced",
+    "themes": [
+      "science",
+      "technology"
+    ],
+    "genre": "narrative",
+    "title": "El experimento que ya conocía el resultado",
+    "summary": "Un grupo prepara una conclusión sobre unas semillas antes de revisar qué ha medido y qué datos ha dejado fuera.",
+    "paragraphs": [
+      "Antes de que apareciera un brote, Mauro había escrito un titular: «Un truco sencillo hace germinar antes las semillas». Habían leído que remojarlas antes de sembrar podía influir y querían comprobarlo con las judías del taller. Tenían doce macetas: seis con semillas remojadas y seis sin remojar. En el cuaderno figuraba una pregunta más prudente: «¿En qué macetas veremos primero los brotes?». La diferencia entre las frases aún no les preocupaba.",
+      "Usaron tierra del mismo saco y macetas del mismo tamaño. Las semillas procedían del mismo paquete, aunque eso no garantizaba idéntico comportamiento. Cada mañana, al entrar, anotaban si había aparecido un brote. Las del grupo A llevaban etiqueta roja; las del B, azul. Todos conocían el significado de los colores. La tabla reservaba espacio para incidencias, no solo para el resultado que esperaban encontrar.",
+      "El tercer día vieron los primeros brotes en ambos grupos. Al séptimo habían brotado cinco macetas de semillas remojadas y cuatro sin remojar. Mauro eligió para la noticia la foto del brote más alto, del grupo A. Le parecía la mejor prueba porque la diferencia se veía enseguida. Sara preguntó si la foto respondía a la pregunta del cuaderno o a otra sobre la altura.",
+      "Volvieron a los registros. No habían medido alturas diariamente ni definido ese indicador al principio. Tampoco sabían la hora exacta de aparición: solo qué veían cada mañana. Podían comparar el primer día de detección y el número de macetas brotadas aquella semana. No podían convertir la foto elegida en una medida sistemática de otro resultado. Una imagen llamativa no recogía todas las observaciones ni reemplazaba lo que no habían medido.",
+      "Revisaron la ubicación. Para que quedaran bonitas en la ventana, pusieron las rojas delante y las azules detrás. Una nota del segundo día indicaba que una cortina había quedado bajada sobre la fila posterior. Mauro dijo que serían detalles sin importancia. Sara preguntó si habría dicho lo mismo en caso de que las azules hubieran obtenido el resultado que esperaba de las rojas.",
+      "No concluyeron que remojar fuera inútil ni que la cortina explicara toda la diferencia. Reconocieron condiciones insuficientemente controladas y que doce macetas en una semana no resolvían cualquier caso. Cinco frente a cuatro seguía siendo una observación de su ensayo. Perdía fuerza la seguridad con que pretendían atribuirla a una única causa.",
+      "Para repetirlo, definirían primero qué comparar, cómo distribuir las macetas y cuándo observar. Conservarían todos los registros, también los contrarios a su idea. Mauro admitió haber mirado más la planta alta que la tabla completa. Nadie le pidió falsificar nada: había ido seleccionando lo que confirmaba el relato que ya imaginaba. Reconocer esa selección les permitía revisar el trabajo sin fingir que todas las observaciones habían dejado de existir. Sara propuso que otra persona revisara los datos con etiquetas que no revelaran el tratamiento. Eso no arreglaría la cortina del primer ensayo, pero ayudaría a preguntar qué parte de su lectura dependía de saber de antemano a qué grupo pertenecía cada maceta. También acordaron escribir los criterios antes de conocer los resultados nuevos, no después de elegir una foto.",
+      "El titular final fue una pregunta. La noticia incluía foto, recuento y límites del montaje. No renunciaban a experimentar. Era el primer momento en que el experimento dejaba de trabajar para un resultado que ya conocía antes de empezar."
+    ],
+    "images": [
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-art1",
+        "src": "assets/readings/l237-el-experimento-que-ya-conocia-el-resultado-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Dos jóvenes comparan macetas pequeñas de plántulas con etiquetas junto a una ventana del aula."
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-art2",
+        "src": "assets/readings/l237-el-experimento-que-ya-conocia-el-resultado-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Un cuaderno con filas de observación y correcciones junto a dos macetas parecidas."
+      }
+    ],
+    "questions": [
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q1",
+        "type": "literal",
+        "prompt": "¿Qué diferencia inicial separaba los grupos?",
+        "answer": "Seis macetas tenían semillas remojadas antes de sembrar y seis, sin remojar.",
+        "lines": 2
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q2",
+        "type": "literal",
+        "prompt": "¿Qué recuento tienen al séptimo día?",
+        "answer": "Cinco macetas brotadas con semillas remojadas y cuatro con semillas sin remojar.",
+        "lines": 2
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «una medida sistemática» frente a la foto elegida?",
+        "answer": "Una recogida de datos con criterio y procedimiento definidos para comparar casos, no solo un ejemplo vistoso.",
+        "lines": 2
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q4",
+        "type": "inference",
+        "prompt": "¿Qué diferencia hay entre la pregunta y el primer titular?",
+        "answer": "La pregunta deja abierto qué observarán; el titular afirma un efecto como conclusión antes de tener datos.",
+        "lines": 3
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q5",
+        "type": "inference",
+        "prompt": "¿Por qué la foto de la planta más alta no responde al objetivo inicial?",
+        "answer": "Porque querían comparar cuándo veían los primeros brotes, no una altura final seleccionada que no habían medido sistemáticamente.",
+        "lines": 3
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q6",
+        "type": "inference",
+        "prompt": "¿Qué permite afirmar detectar los primeros brotes la misma mañana y qué no precisa?",
+        "answer": "Que los detectaron el mismo día; no la hora exacta ni cuál apareció primero durante el intervalo.",
+        "lines": 3
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q7",
+        "type": "inference",
+        "prompt": "¿Por qué la distribución y la cortina complican atribuir el resultado al remojo?",
+        "answer": "Porque separan los grupos también por ubicación y exposición; no cambia solo el tratamiento que querían comparar.",
+        "lines": 4
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q8",
+        "type": "structure",
+        "prompt": "¿Para qué preguntan si Mauro quitaría importancia a los detalles con resultados inversos?",
+        "answer": "Para mostrar que puede juzgar datos según favorezcan su expectativa en vez de aplicar el mismo criterio.",
+        "lines": 3
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q9",
+        "type": "inference",
+        "prompt": "¿Por qué detectar límites no autoriza a decir que remojar es inútil?",
+        "answer": "Porque un ensayo limitado y con condiciones confundidas tampoco demuestra la ausencia de cualquier efecto.",
+        "lines": 3
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q10",
+        "type": "inference",
+        "prompt": "¿Qué diferencia hay entre elegir solo la planta favorable y conservar la tabla completa?",
+        "answer": "La primera elección puede ocultar variación o datos contrarios; la tabla permite ver el conjunto y revisar la interpretación.",
+        "lines": 3
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q11",
+        "type": "summary",
+        "prompt": "Resume tres cambios para hacer más interpretable una nueva prueba.",
+        "answer": "Definir antes el indicador, distribuir macetas evitando condiciones distintas, fijar observaciones y conservar todos los registros. Debe citar tres ideas pertinentes.",
+        "lines": 4
+      },
+      {
+        "id": "el-experimento-que-ya-conocia-el-resultado-q12",
+        "type": "opinion",
+        "prompt": "Escribe un titular atractivo que respete lo observado. Explica qué afirmación inicial evitas.",
+        "answer": "Respuesta abierta que presente pregunta o recuento con límites, sin asegurar un efecto general ni cambiar de indicador sin avisar.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 4,
+        "text": "una medida sistemática",
+        "questionId": "el-experimento-que-ya-conocia-el-resultado-q3"
+      }
+    ]
+  },
+  {
+    "id": "la-fotografia-que-llego-antes-de-la-tormenta-es",
+    "code": "L238",
+    "workId": "la-fotografia-que-llego-antes-de-la-tormenta",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "advanced",
+    "themes": [
+      "technology",
+      "science",
+      "community"
+    ],
+    "genre": "informative",
+    "title": "La fotografía que llegó antes de la tormenta",
+    "summary": "Tres horas asociadas a una fotografía parecen incompatibles hasta preguntar qué reloj y qué momento describe cada una.",
+    "paragraphs": [
+      "A las cinco y cuarenta y cinco, la redacción escolar recibió una foto de la plaza con nubes oscuras y pavimento seco. La lluvia empezó después. Pero la información del archivo indicaba una hora aparentemente imposible: las seis y cuarenta. Si era la hora de la foto, ¿cómo había llegado casi una hora antes? Alguien propuso que se había manipulado. Antes de publicarlo separaron los momentos que comparaban.",
+      "Una fotografía digital puede incluir metadatos: información asociada al archivo, como datos de la cámara o una hora de captura. Esa hora depende del reloj del aparato y de su configuración. No es un testigo independiente que garantice la hora real del lugar. Además, fotografiar, editar y enviar pueden ocurrir en momentos distintos. Hay que saber qué campo leemos antes de construir una secuencia.",
+      "Sílvia llevó la cámara. Hacía meses que no revisaba el reloj. El aparato marcaba una hora más que el del centro al compararlos simultáneamente. Era una explicación posible, pero no cambiaron automáticamente todas las horas de las fotos de la tarjeta. No sabían si la configuración había sido siempre igual. Un desajuste comprobado hoy aportaba una pista, no una historia completa de cada cambio realizado en el dispositivo.",
+      "En la imagen, el reloj de la torre marcaba las cinco y cuarenta. Sílvia conservaba también una nota escrita poco después que situaba la observación hacia esa hora. Las pistas encajaban con una captura anterior al envío. No eran infalibles, pero resultaban más coherentes entre sí que tratar las seis y cuarenta como una hora exacta confirmada. El grupo conservó las observaciones originales para que otros pudieran seguir la comparación.",
+      "Consultaron los mensajes. A las seis, alguien avisaba de que llovía en el patio del centro; otra fotografía mostraba charcos en la plaza un rato después. No convirtieron el aviso del patio en la hora exacta de inicio de lluvia en cada calle. Los lugares también importaban. La primera imagen podía mostrar suelo seco antes de llover sin demostrar el estado de la plaza durante toda la tarde.",
+      "Marc quería escribir que los metadatos eran inútiles porque el reloj estaba mal ajustado. Recordaron que esa información había permitido detectar la discrepancia y preguntar su causa. El problema no era conservarla, sino atribuirle una autoridad que no tenía. Tampoco podían corregir la hora de una copia y presentarla como si la cámara la hubiera registrado así desde el principio. Una corrección puede ser útil si se documenta; ocultarla impediría reconstruir el razonamiento.",
+      "Prepararon una cronología con fuentes en cada entrada. La recepción procedía del mensaje; la hora de la torre, de la imagen; la del aparato, de los metadatos. Situaron la captura aproximadamente antes del envío y anotaron el desajuste. Preferían una franja razonada a un minuto falsamente preciso. En otra columna anotaron qué datos eran copias de una misma fuente, para no contar dos veces la misma pista solo porque apareciera reenviada en mensajes distintos. La cantidad de pantallas no equivalía a la cantidad de observaciones independientes.",
+      "La noticia no anunciaba una foto imposible. Explicaba cómo resolvieron una contradicción aparente. Leer una fecha exige preguntar quién la puso, a qué se refiere y con qué pistas se compara. Un dato rodeado de números no deja de necesitar contexto por aparecer dentro de un archivo digital. La pregunta inicial había sido útil porque la mantuvieron abierta el tiempo suficiente para investigar."
+    ],
+    "images": [
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-art1",
+        "src": "assets/readings/l238-la-fotografia-que-llego-antes-de-la-tormenta-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Dos jóvenes examinan una foto de nubes en una mesa con una cámara y un reloj al fondo."
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-art2",
+        "src": "assets/readings/l238-la-fotografia-que-llego-antes-de-la-tormenta-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Un grupo observa nubes de tormenta sobre una plaza con un reloj de torre y una cámara con trípode."
+      }
+    ],
+    "questions": [
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q1",
+        "type": "literal",
+        "prompt": "¿Qué horas de recepción y del archivo parecían incompatibles?",
+        "answer": "Recepción a las 17.45 y hora del archivo a las 18.40.",
+        "lines": 2
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q2",
+        "type": "literal",
+        "prompt": "¿Qué dos pistas situaban la captura hacia las cinco y cuarenta?",
+        "answer": "El reloj visible de la torre y una nota del cuaderno de Sílvia escrita poco después.",
+        "lines": 2
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «una franja razonada» al hablar de la captura?",
+        "answer": "Un intervalo aproximado apoyado en pistas, en lugar de un minuto exacto no confirmado.",
+        "lines": 2
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q4",
+        "type": "inference",
+        "prompt": "¿Por qué los metadatos no garantizan por sí solos la hora real?",
+        "answer": "Porque el dato puede depender de un reloj mal configurado y hay que identificar a qué momento se refiere el campo.",
+        "lines": 3
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q5",
+        "type": "inference",
+        "prompt": "¿Por qué comparar los relojes hoy no permite corregir todas las fotos antiguas con seguridad?",
+        "answer": "Porque no saben si el desfase o la configuración fueron constantes todo el periodo.",
+        "lines": 3
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q6",
+        "type": "inference",
+        "prompt": "¿Qué aporta que torre y cuaderno coincidan aproximadamente?",
+        "answer": "Dos pistas de procedencia distinta que dan más coherencia a situar la captura antes del envío.",
+        "lines": 3
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q7",
+        "type": "inference",
+        "prompt": "¿Por qué el aviso del patio no fija el inicio exacto de lluvia en la plaza?",
+        "answer": "Porque describe otro lugar y no puede suponerse un inicio simultáneo en todas partes.",
+        "lines": 3
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q8",
+        "type": "structure",
+        "prompt": "¿Para qué ponen la fuente junto a cada entrada de la cronología?",
+        "answer": "Para distinguir qué sostiene cada hora y revisar relaciones entre registros de distinta naturaleza.",
+        "lines": 3
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q9",
+        "type": "inference",
+        "prompt": "¿Por qué sería excesivo concluir que los metadatos son inútiles?",
+        "answer": "Porque ayudaron a detectar el desfase; son una pista útil con contexto, aunque no una garantía absoluta.",
+        "lines": 3
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q10",
+        "type": "inference",
+        "prompt": "¿Qué habría que explicar al corregir la hora de una copia?",
+        "answer": "Qué dato cambió y por qué, para no presentar una corrección posterior como registro original de la cámara.",
+        "lines": 3
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q11",
+        "type": "summary",
+        "prompt": "Resume cómo resuelven la contradicción sin afirmar que conocen cada minuto con certeza.",
+        "answer": "Distinguen recepción y captura, detectan un posible desfase y contrastan torre y notas; sitúan una hora aproximada y conservan fuentes y límites.",
+        "lines": 4
+      },
+      {
+        "id": "la-fotografia-que-llego-antes-de-la-tormenta-q12",
+        "type": "opinion",
+        "prompt": "¿Qué detalle destacarías para evitar una noticia sobre una «foto del futuro»? Justifícalo e indica qué no demuestra.",
+        "answer": "Respuesta abierta que elija una pista, explique su valor y reconozca un límite, como configuración actual o coincidencia aproximada con la torre.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 7,
+        "text": "una franja razonada",
+        "questionId": "la-fotografia-que-llego-antes-de-la-tormenta-q3"
+      },
+      {
+        "paragraph": 2,
+        "text": "metadatos",
+        "definition": "Datos que describen un archivo o sus características y circunstancias."
+      }
+    ]
+  },
+  {
+    "id": "un-rio-con-mas-de-una-memoria-es",
+    "code": "L239",
+    "workId": "un-rio-con-mas-de-una-memoria",
+    "language": "es",
+    "level": "1-secondary",
+    "difficulty": "advanced",
+    "themes": [
+      "environment",
+      "history",
+      "geography"
+    ],
+    "genre": "informative",
+    "title": "Un río con más de una memoria",
+    "summary": "Fotografías, recuerdos y sedimentos explican cambios de un río, pero no registran los mismos procesos ni los mismos tiempos.",
+    "paragraphs": [
+      "La foto mostraba un río más ancho que el actual. Había una lengua de arena en medio y una pasarela de madera desaparecida. Detrás figuraba una fecha de hacía sesenta años. Tomàs, vecino de toda la vida, recordaba jugar allí. Una alumna preguntó cuándo desapareció la arena. Respondió con una etapa vital: «Cuando aún iba a la escuela vieja». Era una pista, no una fecha exacta.",
+      "El proyecto quería explicar los cambios del tramo. Participaban vecinos y una investigadora de sedimentos. Compararon foto y paisaje. La imagen conservaba una vista concreta; los recuerdos aportaban usos y experiencias. Ninguna fuente mostraba todo lo sucedido entre los dos momentos. Una foto de un día tampoco describía necesariamente el estado habitual del río durante ese año. La estación, la lluvia reciente y el punto de vista podían cambiar lo que parecía comparable.",
+      "Aguas arriba había un pequeño azud construido después de la foto. Una obra así puede modificar el paso del agua y los sedimentos. Cuando el agua pierde velocidad en una zona retenida, parte de los materiales transportados puede depositarse. Los cambios también pueden afectar tramos posteriores. Conocer el mecanismo general no permitía atribuir automáticamente cada diferencia de la imagen a esa única obra.",
+      "La investigadora propuso revisar crecidas, aportaciones de torrentes, cambios en las orillas y actuaciones de mantenimiento. Quería saber qué datos se conservaban y de qué momentos. La forma de un río resulta de procesos combinados a lo largo del tiempo. Una explicación de causa única podía resultar atractiva para un panel e insuficiente para entender el tramo. Una obra importante no hacía desaparecer la necesidad de estudiar el resto de la historia.",
+      "En la orilla se distinguían capas de sedimento. Describieron colores, grosores y materiales visibles sin atribuir de inmediato una historia a cada una. Tomàs recordaba una crecida fuerte; alguien señaló la capa mayor como si hubiera encontrado su huella. La investigadora propuso anotarlo como pregunta. Había que comprobar fechas e indicios antes de identificar el episodio.",
+      "El testimonio no perdía valor por ser aproximado. Explicaba por dónde pasaban, qué llamaban «la playa» y cómo usaban la pasarela. Una muestra de arena no contenía esa información del mismo modo. A su vez, recordar por dónde se caminaba no permitía calcular el caudal de aquel día. Las fuentes se complementaban mejor sin exigirles respuestas para las que no habían sido creadas. No se trataba de elegir entre una persona y una muestra como si solo una pudiera aportar conocimiento.",
+      "Para la exposición hicieron tres franjas: paisaje fotografiado, recuerdos de uso y observaciones del terreno. Distinguieron fechas seguras y aproximadas. Mantuvieron abierta la pregunta sobre la arena desaparecida y explicaron qué datos faltaban. No querían cerrar la investigación solo porque la inauguración ya tuviera hora. Una vecina ofreció revisar los cuadernos de obras de su familia. Podían ayudar a situar una actuación, aunque todavía habría que comprobar si correspondía al tramo estudiado. El grupo anotó la propuesta como trabajo pendiente, sin convertirla en una explicación ya confirmada.",
+      "El título decía que el río tenía más de una memoria. No significaba que cualquier relato fuera igualmente correcto ni que el agua recordara como una persona. Mostraba rastros distintos del pasado que debían relacionarse sin fundirlos en una certeza única. La foto quedó en el centro, con espacio alrededor para seguir preguntando."
+    ],
+    "images": [
+      {
+        "id": "un-rio-con-mas-de-una-memoria-art1",
+        "src": "assets/readings/l239-un-rio-con-mas-de-una-memoria-1.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 2,
+        "alt": "Un grupo observa un río con un pequeño azud, agua más calmada arriba y corriente visible abajo."
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-art2",
+        "src": "assets/readings/l239-un-rio-con-mas-de-una-memoria-2.webp",
+        "width": 1100,
+        "height": 733,
+        "afterParagraph": 4,
+        "alt": "Un corte de sedimento en la orilla del río, con un cuaderno y una fotografía antigua sobre una superficie seca."
+      }
+    ],
+    "questions": [
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q1",
+        "type": "literal",
+        "prompt": "¿Qué dos elementos de la foto antigua ya no encuentran igual?",
+        "answer": "La lengua de arena y la pasarela de madera.",
+        "lines": 2
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q2",
+        "type": "literal",
+        "prompt": "¿Qué tres franjas organizan el panel final?",
+        "answer": "Paisaje fotografiado, recuerdos de uso y observaciones del terreno.",
+        "lines": 2
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q3",
+        "type": "vocabulary",
+        "prompt": "¿Qué significa «caudal» en la pregunta sobre el río?",
+        "answer": "La cantidad de agua que pasa por un punto del río durante un tiempo determinado.",
+        "lines": 2
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q4",
+        "type": "inference",
+        "prompt": "¿Por qué «cuando iba a la escuela vieja» es útil pero no preciso?",
+        "answer": "Sitúa el recuerdo en una etapa, pero no identifica un año concreto ni el momento exacto del cambio.",
+        "lines": 3
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q5",
+        "type": "inference",
+        "prompt": "¿Por qué conocer el posible efecto del azud no demuestra que explique toda la desaparición de arena?",
+        "answer": "Porque el mecanismo general puede contribuir, pero hay que estudiar fechas y otros procesos que afectan al tramo.",
+        "lines": 4
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q6",
+        "type": "inference",
+        "prompt": "¿Qué falta antes de identificar la capa gruesa con la crecida recordada?",
+        "answer": "Relacionar fechas y otros indicios que confirmen que corresponde a ese episodio.",
+        "lines": 3
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q7",
+        "type": "inference",
+        "prompt": "¿Qué puede explicar Tomàs que no cuenta igual una muestra de sedimento?",
+        "answer": "Los usos del lugar, los nombres y las experiencias de pasar o jugar allí.",
+        "lines": 3
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q8",
+        "type": "structure",
+        "prompt": "¿Por qué no sustituye el testimonio por una descripción solo científica?",
+        "answer": "Porque las fuentes aportan conocimientos distintos y se quieren relacionar cambios físicos y experiencias sin confundirlos.",
+        "lines": 3
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q9",
+        "type": "inference",
+        "prompt": "¿Por qué una foto fechada no describe necesariamente todo el año?",
+        "answer": "Porque conserva un momento y condiciones concretas que pueden no ser habituales en todo el periodo.",
+        "lines": 3
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q10",
+        "type": "inference",
+        "prompt": "¿Qué implica dejar una pregunta abierta en una exposición inaugurada?",
+        "answer": "Reconocer que presentar el trabajo no resuelve los vacíos de investigación y permite explicar qué falta.",
+        "lines": 3
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q11",
+        "type": "summary",
+        "prompt": "Explica la metáfora del título y un límite que impone el texto.",
+        "answer": "El pasado deja rastros en imágenes, recuerdos y terreno; no implica que el río recuerde literalmente ni que todas las interpretaciones valgan igual.",
+        "lines": 4
+      },
+      {
+        "id": "un-rio-con-mas-de-una-memoria-q12",
+        "type": "opinion",
+        "prompt": "Propón otra fuente para investigar el cambio del río. Explica qué aportaría y qué no respondería por sí sola.",
+        "answer": "Respuesta abierta con fuente pertinente, como más fotos fechadas, registros de obras o testimonios, distinguiendo alcance y límite.",
+        "lines": 4
+      }
+    ],
+    "annotations": [
+      {
+        "paragraph": 6,
+        "text": "caudal",
+        "questionId": "un-rio-con-mas-de-una-memoria-q3"
+      },
+      {
+        "paragraph": 3,
+        "text": "azud",
+        "definition": "Obra que retiene o eleva el agua de un curso fluvial."
+      }
+    ]
   }
 ];

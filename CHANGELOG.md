@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.39.1 · 18 de novembre del 2026
+
+Tres lectures noves de 1r d’ESO avançat (L237–L239), en català i castellà: disseny experimental, cronologia d’una fotografia i memòries d’un riu. Dues il·lustracions i dotze preguntes exigents amb solucionari per lectura.
+
 ## 1.39 · 18 de novembre del 2026
 
 Dues lectures noves de 1r d’ESO intermedi (L235–L236), en català i castellà, completen quinze lectures d’aquesta dificultat. Una ressenya crítica i una carta familiar amb dues il·lustracions, onze preguntes i solucionari cadascuna.

@@ -44,6 +44,8 @@ v1.38.2 · Obre l’historial de canvis|v1.38.2 · Abrir el historial de cambios
 Sis lectures més de 1r d’ESO intermedi (L229–L234), en català i castellà: energia, arqueologia, conques d’aigua, una final ajornada, memòria documental i rutes. Dues il·lustracions, onze preguntes i solucionari per lectura.|Seis lecturas más de 1.º de ESO intermedio (L229–L234), en catalán y castellano: energía, arqueología, cuencas, una final aplazada, memoria documental y rutas. Dos ilustraciones, once preguntas y solucionario por lectura.
 v1.39 · Obre l’historial de canvis|v1.39 · Abrir el historial de cambios
 Dues lectures noves de 1r d’ESO intermedi (L235–L236), en català i castellà, completen quinze lectures d’aquesta dificultat. Una ressenya crítica i una carta familiar amb dues il·lustracions, onze preguntes i solucionari cadascuna.|Dos lecturas nuevas de 1.º de ESO intermedio (L235–L236), en catalán y castellano, completan quince lecturas de esta dificultad. Una reseña crítica y una carta familiar con dos ilustraciones, once preguntas y solucionario cada una.
+v1.39.1 · Obre l’historial de canvis|v1.39.1 · Abrir el historial de cambios
+Tres lectures noves de 1r d’ESO avançat (L237–L239), en català i castellà: disseny experimental, cronologia d’una fotografia i memòries d’un riu. Dues il·lustracions i dotze preguntes exigents amb solucionari per lectura.|Tres lecturas nuevas de 1.º de ESO avanzado (L237–L239), en catalán y castellano: diseño experimental, cronología de una fotografía y memorias de un río. Dos ilustraciones y doce preguntas exigentes con solucionario por lectura.
 Catàleg de lectures|Catálogo de lecturas
 Cerca al catàleg|Buscar en el catálogo
 Cerca per títol, codi o tema|Buscar por título, código o tema
