@@ -132,6 +132,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
   const levelField = root.querySelector('#filter-level');
   const grid = root.querySelector('#reading-grid');
   const resultCount = root.querySelector('#result-count');
+  const heading = root.querySelector('#readings-title');
   const activeFilters = root.querySelector('#active-filters');
   const emptyState = root.querySelector('#catalog-empty');
   const reset = root.querySelector('#filters-reset');
@@ -142,6 +143,8 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
   const extraIndicator = root.querySelector('#extra-filter-indicator');
   const collection = root.querySelector('#collection-select');
   const collectionTag = root.querySelector('#catalog-collection-label');
+  const collectionContext = root.querySelector('#catalog-collection-context');
+  const collectionExit = root.querySelector('#collection-exit');
   const collectionRemove = root.querySelector('#collection-remove');
   const collectionAdd = root.querySelector('#collection-add');
   const collectionHelp = root.querySelector('.collection-help');
@@ -442,8 +445,9 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     const all = collection.options[0];
     collection.replaceChildren(all, ...collections.map(entry => new Option(entry.name, entry.id)));
     collection.value = activeCollection?.id ?? '';
+    heading.textContent = t(activeCollection ? 'Col·lecció' : 'Catàleg de lectures');
     collectionTag.textContent = activeCollection?.name ?? '';
-    collectionTag.hidden = !activeCollection;
+    collectionContext.hidden = !activeCollection;
     collectionRemove.hidden = !activeCollection;
     collectionAdd.hidden = !activeCollection;
     collectionHelp.textContent = t(activeCollection
@@ -478,6 +482,12 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     collectionStatus.textContent = '';
     selectCollection(collection.value);
     if (activeCollection) onActivity?.('colleccio', { accio: 'obre', quantitat: activeCollection.readingIds.length });
+  });
+  collectionExit.addEventListener('click', () => {
+    collectionStatus.textContent = '';
+    selectCollection('');
+    cardStatus.textContent = t('Has tornat al catàleg de lectures.');
+    heading.focus({ preventScroll: true });
   });
   collectionAdd.addEventListener('click', () => { if (activeCollection) startAdding(activeCollection.id); });
   selectionToggle.addEventListener('click', () => {

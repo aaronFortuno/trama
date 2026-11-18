@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.44.3 · 18 de novembre del 2026
+
+Fem visible l’abast del catàleg quan s’obre una col·lecció: el títol diu «Col·lecció» i una franja destacada mostra el nom, explica que només se’n veuen les lectures i ofereix «Surt de la col·lecció». La sortida recupera el catàleg de la llengua triada i queda recordada en recarregar, conservant les col·leccions i els maquetats.
+
 ## 1.44.2 · 18 de novembre del 2026
 
 Afegim un botó d’ajuda amb interrogant al header. La guia presenta Trama i explica la cerca, la maquetació, les col·leccions, les pistes del solucionari, la impressió en lot i les còpies de seguretat, en català i castellà. Simplifiquem el selector d’idioma traient-ne la fletxa.

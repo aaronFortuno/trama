@@ -50,7 +50,11 @@
           <div class="catalog-heading-title">
             <h1 id="readings-title" tabindex="-1">Catàleg de lectures</h1>
             <p id="result-count" role="status" aria-live="polite"></p>
-            <span class="catalog-collection-label" id="catalog-collection-label" hidden></span>
+            <div class="catalog-collection-context" id="catalog-collection-context" role="group" aria-label="Col·lecció activa" hidden>
+              <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 10 6-10 6L2 9l10-6Zm-10 9 10 6 10-6M2 15l10 6 10-6"/></svg>
+              <div class="catalog-collection-copy"><strong id="catalog-collection-label"></strong><span>Només es mostren les lectures d’aquesta col·lecció.</span></div>
+              <button class="button collection-exit" id="collection-exit" type="button"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 19-7-7 7-7M5 12h14"/></svg>Surt de la col·lecció</button>
+            </div>
             <div id="active-filters" class="active-filters" role="group" aria-label="Filtres actius" hidden></div>
           </div>
           <div class="catalog-heading-actions">
@@ -149,7 +153,7 @@
         </a>
       </p>
       <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.44.2 · Obre l’historial de canvis">v1.44.2</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.44.3 · Obre l’historial de canvis">v1.44.3</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
@@ -245,7 +249,7 @@
         <section>
           <h3>Col·leccions per reutilitzar</h3>
           <p>Activa «Selecciona lectures», marca les targetes i desa la selecció amb un nom. També pots mantenir premuda una targeta o fer clic dret per afegir-la directament a una col·lecció existent o nova.</p>
-          <p>Arrossega les targetes per ordenar-les. Cada lectura pot tenir un maquetat i un codi d’aula diferents a cada col·lecció. L’ordre es conserva per navegar amb les fletxes i per imprimir en lot.</p>
+          <p>Arrossega les targetes per ordenar-les. Cada lectura pot tenir un maquetat i un codi d’aula diferents a cada col·lecció. L’ordre es conserva per navegar amb les fletxes i per imprimir en lot. «Surt de la col·lecció», al costat del nom, recupera tot el catàleg.</p>
         </section>
         <section>
           <h3>Solucionaris amb pistes</h3>
@@ -316,6 +320,10 @@
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’historial"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
+      <article class="release">
+        <header><h3>v1.44.3</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
+        <p>Fem visible l’abast del catàleg quan s’obre una col·lecció: el títol diu «Col·lecció» i una franja destacada mostra el nom, explica que només se’n veuen les lectures i ofereix «Surt de la col·lecció». La sortida recupera el catàleg de la llengua triada i queda recordada en recarregar, conservant les col·leccions i els maquetats.</p>
+      </article>
       <article class="release">
         <header><h3>v1.44.2</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Afegim un botó d’ajuda amb interrogant al header. La guia presenta Trama i explica la cerca, la maquetació, les col·leccions, les pistes del solucionari, la impressió en lot i les còpies de seguretat, en català i castellà. Simplifiquem el selector d’idioma traient-ne la fletxa.</p>

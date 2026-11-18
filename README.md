@@ -24,6 +24,8 @@ Al solucionari, **Pistes al text** ressalta els fragments que sustenten les resp
 
 ## Col·leccions
 
+Quan n’obres una, el títol del catàleg diu **Col·lecció** i una franja mostra el nom i el botó **Surt de la col·lecció**. El botó recupera tot el catàleg de la llengua triada, neteja la cerca i els filtres addicionals i recorda la sortida en recarregar. La col·lecció i els seus maquetats es conserven.
+
 Les col·leccions es reordenen arrossegant les targetes directament a la graella; l’ordre queda desat i s’aplica a la navegació entre lectures i als lots. Un clic obre la lectura, o la marca/desmarca si has activat la selecció. Una pulsació llarga, clic dret o Majúscules + F10 obre les opcions de la targeta: afegir-la a una col·lecció existent o nova, o retirar-la de l’actual. Retirar-la conserva el maquetat per si la tornes a afegir. Amb el focus a una targeta d’una col·lecció, Alt + fletxes permet reordenar amb el teclat. A **Afegeix lectures**, al sidebar, pots incorporar-hi una selecció més gran.
 
 **Afegeix a una col·lecció** desplega els destins al mateix menú. Tria’n un per afegir-hi la lectura immediatament o **Nova col·lecció** per escriure’n el nom i crear-la allà mateix. Una marca indica que la lectura ja hi és. Es conserva la vista actual del catàleg i el maquetat es copia des de la col·lecció d’origen, si n’hi ha; un maquetat ja existent al destí es manté.
