@@ -9500,6 +9500,2514 @@ export const answerEvidence = {
       }
     ]
   },
+  "la-linea-del-ultimo-punto-es": {
+    "ratlla-punt-q1": [
+      {
+        "paragraph": 1,
+        "text": "Antes del torneo habíamos acordado tres reglas para los partidos sin árbitro: jugábamos hasta once, la línea azul se consideraba dentro y, si no nos poníamos de acuerdo sobre una jugada, se repetía el punto."
+      }
+    ],
+    "ratlla-punt-q2": [
+      {
+        "paragraph": 2,
+        "text": "Desde mi lado de la red, yo habría jurado que había visto blanco encima del azul. Lo que no recordaba era si el blanco era la punta del volante en el suelo o el borde de las plumas un instante antes."
+      }
+    ],
+    "ratlla-punt-q3": [
+      {
+        "paragraph": 3,
+        "text": "Justo al final, el encuadre subía para seguir su cara. El último trozo de suelo quedaba fuera. Pedí que lo pusieran otra vez. En la segunda repetición pude oír perfectamente mi «¡dentro!»."
+      }
+    ],
+    "ratlla-punt-q4": [
+      {
+        "paragraph": 4,
+        "text": "Cuando volvimos a la pista, Dani había escrito un once en mi columna. Me dijo que me había oído desde la mesa y que, al ver que me acercaba a la red, había dado el punto por hecho."
+      }
+    ],
+    "ratlla-punt-q5": [
+      {
+        "paragraph": 5,
+        "text": "En la semifinal había sido yo quien había pedido repetir un punto. Desde el banco oí a una jugadora decir «fuera» y a la otra responder que el volante había rozado la línea. Dani ya tenía el lápiz en la mano. Yo le había dicho que esperara, que si no se aclaraba tenían que volver a jugarlo. Me había resultado fácil recordarle la regla cuando el marcador no llevaba mi nombre."
+      },
+      {
+        "paragraph": 4,
+        "text": "Cuando volvimos a la pista, Dani había escrito un once en mi columna."
+      }
+    ],
+    "ratlla-punt-q6": [
+      {
+        "paragraph": 1,
+        "text": "Antes del torneo habíamos acordado tres reglas para los partidos sin árbitro: jugábamos hasta once, la línea azul se consideraba dentro y, si no nos poníamos de acuerdo sobre una jugada, se repetía el punto."
+      },
+      {
+        "paragraph": 6,
+        "text": "Le pregunté a Samira si seguía pensando que había caído fuera. Me dijo que sí. Yo todavía no sabía qué parte del volante había visto, así que pedí que volviéramos al diez iguales. Dani borró el once y saqué de nuevo."
+      }
+    ],
+    "ratlla-punt-q7": [
+      {
+        "paragraph": 3,
+        "text": "En la segunda repetición pude oír perfectamente mi «¡dentro!». Durante un segundo me alegré, como si en el vídeo hubiera encontrado una prueba que no había visto la primera vez."
+      },
+      {
+        "paragraph": 4,
+        "text": "No me gustó pensar que fue mi voz lo que había pesado más. Aun así, me quedé mirando el once un poco más de lo necesario."
+      }
+    ],
+    "ratlla-punt-q8": [
+      {
+        "paragraph": 4,
+        "text": "El número estaba escrito con tanta presión que se marcaba en la hoja de debajo."
+      },
+      {
+        "paragraph": 6,
+        "text": "Bastante después, al recoger la mesa, pasé el dedo por donde Dani había borrado. El papel aún tenía un pequeño surco en el lugar del once, pero no se leía ningún número."
+      }
+    ],
+    "ratlla-punt-q9": [
+      {
+        "paragraph": 2,
+        "text": "Dije «¡dentro!» antes de que el volante se quedara quiet. Samira, que se había apartado para no tocarlo, dijo «fuera»."
+      },
+      {
+        "paragraph": 3,
+        "text": "Justo al final, el encuadre subía para seguir su cara. El último trozo de suelo quedaba fuera."
+      },
+      {
+        "paragraph": 6,
+        "text": "Yo todavía no sabía qué parte del volante había visto, así que pedí que volviéramos al diez iguales. Dani borró el once y saqué de nuevo."
+      }
+    ]
+  },
+  "la-ratlla-del-darrer-punt-ca": {
+    "ratlla-punt-q1": [
+      {
+        "paragraph": 1,
+        "text": "Abans del torneig havíem acordat tres regles per als partits sense àrbitre: jugàvem fins a onze, la ratlla blava comptava com a dins i, si no ens posàvem d’acord sobre una jugada, es repetia el punt."
+      }
+    ],
+    "ratlla-punt-q2": [
+      {
+        "paragraph": 2,
+        "text": "Des del meu costat de la xarxa, hauria jurat que havia vist blanc damunt del blau. El que no recordava era si el blanc era la punta del volant a terra o la vora de les plomes un instant abans."
+      }
+    ],
+    "ratlla-punt-q3": [
+      {
+        "paragraph": 3,
+        "text": "Just al final, l’enquadrament pujava per seguir-li la cara. L’últim tros de terra en quedava fora. Vaig demanar que el tornessin a posar. A la segona repetició vaig sentir perfectament el meu «dins!»."
+      }
+    ],
+    "ratlla-punt-q4": [
+      {
+        "paragraph": 4,
+        "text": "Quan vam tornar a la pista, en Dani havia escrit un onze a la meva columna. Em va dir que m’havia sentit des de la taula i que, quan m’havia vist acostar-me a la xarxa, havia donat el punt per fet."
+      }
+    ],
+    "ratlla-punt-q5": [
+      {
+        "paragraph": 5,
+        "text": "A la semifinal havia estat jo qui havia demanat de repetir un punt. Des del banc vaig sentir que una jugadora deia «fora» i que l’altra li responia que el volant havia fregat la ratlla. En Dani ja tenia el llapis a la mà. Li havia dit que s’esperés, que si no s’aclaria l’havien de tornar a jugar. M’havia estat fàcil recordar-li la regla quan el marcador no duia el meu nom."
+      },
+      {
+        "paragraph": 4,
+        "text": "Quan vam tornar a la pista, en Dani havia escrit un onze a la meva columna."
+      }
+    ],
+    "ratlla-punt-q6": [
+      {
+        "paragraph": 1,
+        "text": "Abans del torneig havíem acordat tres regles per als partits sense àrbitre: jugàvem fins a onze, la ratlla blava comptava com a dins i, si no ens posàvem d’acord sobre una jugada, es repetia el punt."
+      },
+      {
+        "paragraph": 6,
+        "text": "Vaig preguntar a la Samira si encara pensava que havia caigut fora. Em va dir que sí. Jo encara no sabia quina part del volant havia vist, de manera que vaig demanar de tornar al deu iguals. En Dani va esborrar l’onze i vaig tornar a fer el servei."
+      }
+    ],
+    "ratlla-punt-q7": [
+      {
+        "paragraph": 3,
+        "text": "A la segona repetició vaig sentir perfectament el meu «dins!». Per un segon em vaig alegrar, com si en el vídeo hagués trobat una prova que no havia vist el primer cop."
+      },
+      {
+        "paragraph": 4,
+        "text": "No em va agradar pensar que la meva veu podia haver pesat més que la de la Samira. Tot i això, em vaig quedar mirant l’onze una mica més del compte."
+      }
+    ],
+    "ratlla-punt-q8": [
+      {
+        "paragraph": 4,
+        "text": "El número era escrit amb tanta pressió que es marcava al full de sota."
+      },
+      {
+        "paragraph": 6,
+        "text": "Molt després, quan recollia la taula, vaig passar el dit per on en Dani havia esborrat. Al lloc de l’onze encara hi havia un petit solc al paper, però no s’hi llegia cap número."
+      }
+    ],
+    "ratlla-punt-q9": [
+      {
+        "paragraph": 2,
+        "text": "Vaig dir «dins!» abans que el volant quedés quiet. La Samira, que s’havia apartat per no tocar-lo, va dir «fora»."
+      },
+      {
+        "paragraph": 3,
+        "text": "Just al final, l’enquadrament pujava per seguir-li la cara. L’últim tros de terra en quedava fora."
+      },
+      {
+        "paragraph": 6,
+        "text": "Jo encara no sabia quina part del volant havia vist, de manera que vaig demanar de tornar al deu iguals. En Dani va esborrar l’onze i vaig tornar a fer el servei."
+      }
+    ]
+  },
+  "el-reloj-de-los-dos-minuteros-es": {
+    "minuteres-q1": [
+      {
+        "paragraph": 1,
+        "text": "Tiene una aguja corta y dos largas. Podría parecer que la tercera marca los segundos, pero las dos agujas largas indican minutos. Una se añadió para mostrar la hora de Greenwich junto a la hora local de Bristol. La diferencia es de unos diez minutos."
+      }
+    ],
+    "minuteres-q2": [
+      {
+        "paragraph": 2,
+        "text": "Antes de que existiera una hora común, las ciudades podían tomar como referencia el mediodía de su propio lugar, es decir, el momento en que el Sol alcanza su punto más alto en el cielo. Como Bristol está al oeste de Greenwich, ese momento llega allí un poco más tarde. Para entender la diferencia entre las dos escalas, podemos redondearla a diez minutos: cuando en Greenwich son las doce, la hora local de Bristol todavía es aproximadamente las once y cincuenta. La diferencia tiene que ver con la posición de las ciudades. No es un fallo que se corrija reparando uno de los relojes."
+      }
+    ],
+    "minuteres-q3": [
+      {
+        "paragraph": 2,
+        "text": "Para entender la diferencia entre las dos escalas, podemos redondearla a diez minutos: cuando en Greenwich son las doce, la hora local de Bristol todavía es aproximadamente las once y cincuenta."
+      },
+      {
+        "paragraph": 3,
+        "text": "Si una estación anunciaba una salida a las doce según Greenwich y un viajero llegaba cuando su reloj de Bristol marcaba las doce menos cinco, no le quedarían cinco minutos: el tren habría salido cinco minutos antes."
+      }
+    ],
+    "minuteres-q4": [
+      {
+        "paragraph": 2,
+        "text": "Para entender la diferencia entre las dos escalas, podemos redondearla a diez minutos: cuando en Greenwich son las doce, la hora local de Bristol todavía es aproximadamente las once y cincuenta."
+      }
+    ],
+    "minuteres-q5": [
+      {
+        "paragraph": 2,
+        "text": "Antes de que existiera una hora común, las ciudades podían tomar como referencia el mediodía de su propio lugar, es decir, el momento en que el Sol alcanza su punto más alto en el cielo. Como Bristol está al oeste de Greenwich, ese momento llega allí un poco más tarde."
+      },
+      {
+        "paragraph": 3,
+        "text": "Si una estación anunciaba una salida a las doce según Greenwich y un viajero llegaba cuando su reloj de Bristol marcaba las doce menos cinco, no le quedarían cinco minutos: el tren habría salido cinco minutos antes. El horario y el reloj del viajero podían ser correctos según sus referencias y, aun así, producir un malentendido."
+      }
+    ],
+    "minuteres-q6": [
+      {
+        "paragraph": 4,
+        "text": "Quedaba otra dificultad: un reloj adelantado por error seguiría adelantado aunque todos dijeran que usaban esa misma hora. A partir de 1852, un sistema del Observatorio de Greenwich permitió enviar señales horarias por telégrafo. Con esas señales, lugares alejados podían comprobar su reloj y ajustarlo. El acuerdo decía qué hora utilizar; la señal permitía comprobar si la aguja estaba donde debía."
+      }
+    ],
+    "minuteres-q7": [
+      {
+        "paragraph": 3,
+        "text": "El mismo tren pasaba en unas horas por estaciones que podían regirse por horas locales distintas."
+      }
+    ],
+    "minuteres-q8": [
+      {
+        "paragraph": 4,
+        "text": "En la década de 1840, muchas compañías ferroviarias británicas adoptaron la hora de Greenwich."
+      },
+      {
+        "paragraph": 5,
+        "text": "Más adelante, en 1880, la hora de Greenwich se convirtió en la referencia legal en Gran Bretaña. Esa fecha no señala el primer tren que usó una hora compartida. Muestra que una práctica que ya servía para coordinar viajes acabó extendiéndose a otros ámbitos."
+      }
+    ],
+    "minuteres-q9": [
+      {
+        "paragraph": 5,
+        "text": "La costumbre ferroviaria y la vida fuera de la estación no cambiaron necesariamente a la vez. En Bristol, añadir un minutero permitió seguir mostrando la hora local mientras se daba a conocer la de Greenwich."
+      },
+      {
+        "paragraph": 6,
+        "text": "Para alguien que necesitaba consultar tanto un horario ferroviario como una cita concertada en hora local, podían ser una ayuda."
+      }
+    ],
+    "minuteres-q10": [
+      {
+        "paragraph": 1,
+        "text": "Tiene una aguja corta y dos largas. Podría parecer que la tercera marca los segundos, pero las dos agujas largas indican minutos."
+      },
+      {
+        "paragraph": 6,
+        "text": "El reloj de Bristol deja a la vista una pregunta que ya casi nadie se hace cuando compra un billete: ¿según qué reloj?"
+      }
+    ],
+    "minuteres-q11": [
+      {
+        "paragraph": 3,
+        "text": "El mismo tren pasaba en unas horas por estaciones que podían regirse por horas locales distintas."
+      },
+      {
+        "paragraph": 4,
+        "text": "En la década de 1840, muchas compañías ferroviarias británicas adoptaron la hora de Greenwich. Así pudieron elaborar horarios con una referencia compartida."
+      },
+      {
+        "paragraph": 4,
+        "text": "A partir de 1852, un sistema del Observatorio de Greenwich permitió enviar señales horarias por telégrafo. Con esas señales, lugares alejados podían comprobar su reloj y ajustarlo."
+      }
+    ]
+  },
+  "el-rellotge-de-les-dues-minuteres-ca": {
+    "minuteres-q1": [
+      {
+        "paragraph": 1,
+        "text": "Té una agulla curta i dues de llargues. Podria semblar que la tercera marca els segons, però totes dues agulles llargues indiquen minuts. Una es va afegir per mostrar l’hora de Greenwich al costat de l’hora local de Bristol. La diferència és d’uns deu minuts."
+      }
+    ],
+    "minuteres-q2": [
+      {
+        "paragraph": 2,
+        "text": "Abans que hi hagués una hora comuna, les ciutats podien prendre com a referència el migdia del seu lloc, és a dir, el moment en què el Sol arriba al punt més alt del cel. Com que Bristol és a l’oest de Greenwich, aquest moment hi arriba una mica més tard. Per entendre la diferència entre les dues escales, la podem arrodonir a deu minuts: quan a Greenwich són les dotze, l’hora local de Bristol és aproximadament les onze i cinquanta. La diferència té a veure amb la posició de les ciutats. No és una avaria que es corregeixi reparant un dels rellotges."
+      }
+    ],
+    "minuteres-q3": [
+      {
+        "paragraph": 2,
+        "text": "Per entendre la diferència entre les dues escales, la podem arrodonir a deu minuts: quan a Greenwich són les dotze, l’hora local de Bristol és aproximadament les onze i cinquanta."
+      },
+      {
+        "paragraph": 3,
+        "text": "Si una estació anunciava una sortida a les dotze segons Greenwich i un viatger arribava quan el seu rellotge de Bristol marcava les dotze menys cinc, no li quedarien cinc minuts: el tren hauria sortit cinc minuts abans."
+      }
+    ],
+    "minuteres-q4": [
+      {
+        "paragraph": 2,
+        "text": "Per entendre la diferència entre les dues escales, la podem arrodonir a deu minuts: quan a Greenwich són les dotze, l’hora local de Bristol és aproximadament les onze i cinquanta."
+      }
+    ],
+    "minuteres-q5": [
+      {
+        "paragraph": 2,
+        "text": "Abans que hi hagués una hora comuna, les ciutats podien prendre com a referència el migdia del seu lloc, és a dir, el moment en què el Sol arriba al punt més alt del cel. Com que Bristol és a l’oest de Greenwich, aquest moment hi arriba una mica més tard."
+      },
+      {
+        "paragraph": 3,
+        "text": "Si una estació anunciava una sortida a les dotze segons Greenwich i un viatger arribava quan el seu rellotge de Bristol marcava les dotze menys cinc, no li quedarien cinc minuts: el tren hauria sortit cinc minuts abans. L’horari i el rellotge del viatger podien ser correctes segons les referències respectives i, tot i així, causar un malentès."
+      }
+    ],
+    "minuteres-q6": [
+      {
+        "paragraph": 4,
+        "text": "Quedava una altra dificultat: un rellotge avançat per error continuaria avançat encara que tothom digués que feia servir la mateixa hora. A partir del 1852, un sistema de l’Observatori de Greenwich va permetre enviar senyals horaris per telègraf. Amb aquests senyals, llocs allunyats podien comprovar l’hora que marcava el seu rellotge i ajustar-lo. L’acord deia quina hora calia fer servir. El senyal permetia comprovar si l’agulla era on tocava."
+      }
+    ],
+    "minuteres-q7": [
+      {
+        "paragraph": 3,
+        "text": "En poques hores el mateix tren passava per estacions que es podien regir per hores locals diferents."
+      }
+    ],
+    "minuteres-q8": [
+      {
+        "paragraph": 4,
+        "text": "A la dècada de 1840, moltes companyies ferroviàries britàniques van adoptar l’hora de Greenwich."
+      },
+      {
+        "paragraph": 5,
+        "text": "Més endavant, el 1880, l’hora de Greenwich va esdevenir la referència legal a la Gran Bretanya. Aquella data no assenyala el primer tren que va fer servir una hora compartida. Mostra que una pràctica que ja servia per coordinar viatges es va estendre a altres àmbits."
+      }
+    ],
+    "minuteres-q9": [
+      {
+        "paragraph": 5,
+        "text": "El costum del ferrocarril i la vida fora de l’estació no van canviar necessàriament alhora. A Bristol, afegir una minutera va permetre continuar mostrant l’hora local mentre es donava a conèixer la de Greenwich."
+      },
+      {
+        "paragraph": 6,
+        "text": "Per a algú que necessitava consultar tant l’horari dels trens com una cita concertada en hora local, podien ser una ajuda."
+      }
+    ],
+    "minuteres-q10": [
+      {
+        "paragraph": 1,
+        "text": "Té una agulla curta i dues de llargues. Podria semblar que la tercera marca els segons, però totes dues agulles llargues indiquen minuts."
+      },
+      {
+        "paragraph": 6,
+        "text": "El rellotge de Bristol deixa a la vista una pregunta que ja gairebé ningú es fa quan compra un bitllet: segons quin rellotge?"
+      }
+    ],
+    "minuteres-q11": [
+      {
+        "paragraph": 3,
+        "text": "En poques hores el mateix tren passava per estacions que es podien regir per hores locals diferents."
+      },
+      {
+        "paragraph": 4,
+        "text": "A la dècada de 1840, moltes companyies ferroviàries britàniques van adoptar l’hora de Greenwich. Així podien elaborar horaris amb una referència compartida."
+      },
+      {
+        "paragraph": 4,
+        "text": "A partir del 1852, un sistema de l’Observatori de Greenwich va permetre enviar senyals horaris per telègraf. Amb aquests senyals, llocs allunyats podien comprovar l’hora que marcava el seu rellotge i ajustar-lo."
+      }
+    ]
+  },
+  "un-paisaje-para-tocar-es": {
+    "paisatge-tactil-q1": [
+      {
+        "paragraph": 1,
+        "text": "El cuadro La curva del río cuelga en la pared del museo. A su lado se puede tocar una versión en relieve."
+      },
+      {
+        "paragraph": 1,
+        "text": "Queríamos que se pudiera recorrer el dibujo con las manos y localizar, por ejemplo, cómo se separan el camino y el río."
+      }
+    ],
+    "paisatge-tactil-q2": [
+      {
+        "paragraph": 2,
+        "text": "Cambiamos el color del cordón para cada elemento, como si el color del cuadro pudiera resolverlo todo."
+      },
+      {
+        "paragraph": 2,
+        "text": "Al tocarlo había demasiadas líneas juntas. Una persona siguió el borde del río y, al acercarse al camino, pasó al otro cordón sin darse cuenta. Para sus dedos, las dos líneas se parecían más de lo que nos parecían al mirarlas."
+      }
+    ],
+    "paisatge-tactil-q3": [
+      {
+        "paragraph": 3,
+        "text": "—Retiramos varias líneas pequeñas e hicimos el río como un surco ancho y liso. El camino quedó en alto y con una textura rugosa."
+      }
+    ],
+    "paisatge-tactil-q4": [
+      {
+        "paragraph": 3,
+        "text": "Añadimos también un triángulo pequeño en el borde de abajo que indica por dónde conviene empezar. Antes, varias personas recorrían la lámina desde el extremo contrario al que usábamos en la explicación, de modo que «hacia la derecha» no les servía de mucho."
+      }
+    ],
+    "paisatge-tactil-q5": [
+      {
+        "paragraph": 4,
+        "text": "—Depende de lo que queramos conservar. En la lámina no están todas las pinceladas del monte. Si el objetivo es entender cómo el río gira y se aleja del camino, esas pinceladas pueden dificultar la lectura. En cambio, quitar la curva grande para que todo cupiera en una esquina cambiaría la relación entre los dos elementos."
+      }
+    ],
+    "paisatge-tactil-q6": [
+      {
+        "paragraph": 3,
+        "text": "—Retiramos varias líneas pequeñas e hicimos el río como un surco ancho y liso."
+      },
+      {
+        "paragraph": 4,
+        "text": "—Depende de lo que queramos conservar. En la lámina no están todas las pinceladas del monte. Si el objetivo es entender cómo el río gira y se aleja del camino, esas pinceladas pueden dificultar la lectura. En cambio, quitar la curva grande para que todo cupiera en una esquina cambiaría la relación entre los dos elementos."
+      }
+    ],
+    "paisatge-tactil-q7": [
+      {
+        "paragraph": 5,
+        "text": "Eso nos anima, pero volvieron las mismas personas y ya conocían la tarea. Además, cambiamos varias cosas a la vez."
+      }
+    ],
+    "paisatge-tactil-q8": [
+      {
+        "paragraph": 3,
+        "text": "Añadimos también un triángulo pequeño en el borde de abajo que indica por dónde conviene empezar. Antes, varias personas recorrían la lámina desde el extremo contrario al que usábamos en la explicación, de modo que «hacia la derecha» no les servía de mucho."
+      },
+      {
+        "paragraph": 5,
+        "text": "En la próxima prueba invitaremos a gente que no haya visto las láminas y observaremos dónde vacila, además de apuntar si encuentra la curva."
+      }
+    ],
+    "paisatge-tactil-q9": [
+      {
+        "paragraph": 4,
+        "text": "La descripción sonora puede explicar los colores y las pinceladas que el relieve no reproduce."
+      }
+    ],
+    "paisatge-tactil-q10": [
+      {
+        "paragraph": 2,
+        "text": "Al tocarlo había demasiadas líneas juntas. Una persona siguió el borde del río y, al acercarse al camino, pasó al otro cordón sin darse cuenta. Para sus dedos, las dos líneas se parecían más de lo que nos parecían al mirarlas."
+      },
+      {
+        "paragraph": 3,
+        "text": "—Retiramos varias líneas pequeñas e hicimos el río como un surco ancho y liso. El camino quedó en alto y con una textura rugosa."
+      },
+      {
+        "paragraph": 3,
+        "text": "Añadimos también un triángulo pequeño en el borde de abajo que indica por dónde conviene empezar."
+      },
+      {
+        "paragraph": 5,
+        "text": "En la próxima prueba invitaremos a gente que no haya visto las láminas y observaremos dónde vacila, además de apuntar si encuentra la curva."
+      }
+    ]
+  },
+  "un-paisatge-per-tocar-ca": {
+    "paisatge-tactil-q1": [
+      {
+        "paragraph": 1,
+        "text": "El quadre El revolt del riu penja a la paret del museu. Al costat se’n pot tocar una versió en relleu."
+      },
+      {
+        "paragraph": 1,
+        "text": "Volíem que es pogués resseguir el dibuix amb les mans i localitzar, per exemple, com se separen el camí i el riu."
+      }
+    ],
+    "paisatge-tactil-q2": [
+      {
+        "paragraph": 2,
+        "text": "Vam canviar de color per a cada element, com si el color del quadre ho pogués resoldre tot."
+      },
+      {
+        "paragraph": 2,
+        "text": "Al tacte hi havia massa línies juntes. Una persona va seguir la vora del riu i, quan es va acostar al camí, va passar a l’altre cordó sense adonar-se’n. Per als seus dits, les dues línies s’assemblaven més del que ens havia semblat mirant-les."
+      }
+    ],
+    "paisatge-tactil-q3": [
+      {
+        "paragraph": 3,
+        "text": "—Vam treure diverses línies petites i vam fer el riu com un solc ample i llis. El camí va quedar més alt i amb una textura rugosa."
+      }
+    ],
+    "paisatge-tactil-q4": [
+      {
+        "paragraph": 3,
+        "text": "També vam afegir un triangle petit a la vora de baix que indica per on convé començar. Abans, diverses persones recorrien la làmina des de l’extrem contrari al que fèiem servir a l’explicació, i «cap a la dreta» no els servia de gaire."
+      }
+    ],
+    "paisatge-tactil-q5": [
+      {
+        "paragraph": 4,
+        "text": "—Depèn del que vulguem conservar. A la làmina no hi ha totes les pinzellades del turó. Si l’objectiu és entendre com el riu gira i s’allunya del camí, aquestes pinzellades poden fer més difícil la lectura. En canvi, treure el gran revolt perquè tot cabés en una cantonada canviaria la relació entre els dos elements."
+      }
+    ],
+    "paisatge-tactil-q6": [
+      {
+        "paragraph": 3,
+        "text": "—Vam treure diverses línies petites i vam fer el riu com un solc ample i llis."
+      },
+      {
+        "paragraph": 4,
+        "text": "—Depèn del que vulguem conservar. A la làmina no hi ha totes les pinzellades del turó. Si l’objectiu és entendre com el riu gira i s’allunya del camí, aquestes pinzellades poden fer més difícil la lectura. En canvi, treure el gran revolt perquè tot cabés en una cantonada canviaria la relació entre els dos elements."
+      }
+    ],
+    "paisatge-tactil-q7": [
+      {
+        "paragraph": 5,
+        "text": "Això ens anima, però van tornar les mateixes persones i ja coneixien la tasca. A més, vam canviar diverses coses alhora."
+      }
+    ],
+    "paisatge-tactil-q8": [
+      {
+        "paragraph": 3,
+        "text": "També vam afegir un triangle petit a la vora de baix que indica per on convé començar. Abans, diverses persones recorrien la làmina des de l’extrem contrari al que fèiem servir a l’explicació, i «cap a la dreta» no els servia de gaire."
+      },
+      {
+        "paragraph": 5,
+        "text": "A la pròxima prova convidarem gent que no hagi vist les làmines i observarem on dubten, a més d’anotar si troben el revolt."
+      }
+    ],
+    "paisatge-tactil-q9": [
+      {
+        "paragraph": 4,
+        "text": "La descripció sonora pot explicar els colors i les pinzellades que el relleu no reprodueix."
+      }
+    ],
+    "paisatge-tactil-q10": [
+      {
+        "paragraph": 2,
+        "text": "Al tacte hi havia massa línies juntes. Una persona va seguir la vora del riu i, quan es va acostar al camí, va passar a l’altre cordó sense adonar-se’n. Per als seus dits, les dues línies s’assemblaven més del que ens havia semblat mirant-les."
+      },
+      {
+        "paragraph": 3,
+        "text": "—Vam treure diverses línies petites i vam fer el riu com un solc ample i llis. El camí va quedar més alt i amb una textura rugosa."
+      },
+      {
+        "paragraph": 3,
+        "text": "També vam afegir un triangle petit a la vora de baix que indica per on convé començar."
+      },
+      {
+        "paragraph": 5,
+        "text": "A la pròxima prova convidarem gent que no hagi vist les làmines i observarem on dubten, a més d’anotar si troben el revolt."
+      }
+    ]
+  },
+  "el-banco-mojado-es": {
+    "el-banco-mojado-q1": [
+      {
+        "paragraph": 1,
+        "text": "Llevaban un libro de cómics para leer juntos."
+      }
+    ],
+    "el-banco-mojado-q2": [
+      {
+        "paragraph": 1,
+        "text": "Siempre se sentaban en el banco verde, al lado del arenero."
+      }
+    ],
+    "el-banco-mojado-q3": [
+      {
+        "paragraph": 2,
+        "text": "Julia cerró el libro."
+      }
+    ],
+    "el-banco-mojado-q4": [
+      {
+        "paragraph": 3,
+        "text": "Julia pasó la mano por encima. La piedra estaba seca."
+      }
+    ],
+    "el-banco-mojado-q5": [
+      {
+        "paragraph": 2,
+        "text": "Aquel día el banco estaba mojado."
+      },
+      {
+        "paragraph": 3,
+        "text": "El techo de la entrada le hacía de paraguas."
+      }
+    ]
+  },
+  "el-banco-mojado-ca": {
+    "el-banco-mojado-q1": [
+      {
+        "paragraph": 1,
+        "text": "Portaven un llibre de còmics per llegir junts."
+      }
+    ],
+    "el-banco-mojado-q2": [
+      {
+        "paragraph": 1,
+        "text": "Sempre seien al banc verd, al costat del sorral."
+      }
+    ],
+    "el-banco-mojado-q3": [
+      {
+        "paragraph": 2,
+        "text": "La Júlia va tancar el llibre."
+      }
+    ],
+    "el-banco-mojado-q4": [
+      {
+        "paragraph": 3,
+        "text": "La Júlia hi va passar la mà. La pedra era seca."
+      }
+    ],
+    "el-banco-mojado-q5": [
+      {
+        "paragraph": 2,
+        "text": "Aquell dia el banc era moll."
+      },
+      {
+        "paragraph": 3,
+        "text": "El sostre de l’entrada li feia de paraigua."
+      }
+    ]
+  },
+  "el-rastro-de-plata-es": {
+    "el-rastro-de-plata-q1": [
+      {
+        "paragraph": 1,
+        "text": "Al lado de la maceta de menta había una raya brillante."
+      }
+    ],
+    "el-rastro-de-plata-q2": [
+      {
+        "paragraph": 2,
+        "text": "Debajo de una hoja había un caracol pequeño."
+      }
+    ],
+    "el-rastro-de-plata-q3": [
+      {
+        "paragraph": 3,
+        "text": "El caracol pasó de la hoja al borde de la maceta."
+      }
+    ],
+    "el-rastro-de-plata-q4": [
+      {
+        "paragraph": 4,
+        "text": "El caracol dejaba un rastro por donde pasaba."
+      }
+    ],
+    "el-rastro-de-plata-q5": [
+      {
+        "paragraph": 4,
+        "text": "Pol volvió a mirar la raya. Ahora era un poco más larga. El caracol dejaba un rastro por donde pasaba."
+      }
+    ]
+  },
+  "el-rastro-de-plata-ca": {
+    "el-rastro-de-plata-q1": [
+      {
+        "paragraph": 1,
+        "text": "Al costat del test de menta hi havia una ratlla brillant."
+      }
+    ],
+    "el-rastro-de-plata-q2": [
+      {
+        "paragraph": 2,
+        "text": "Sota una fulla hi havia un cargol petit."
+      }
+    ],
+    "el-rastro-de-plata-q3": [
+      {
+        "paragraph": 3,
+        "text": "El cargol va passar de la fulla a la vora del test."
+      }
+    ],
+    "el-rastro-de-plata-q4": [
+      {
+        "paragraph": 4,
+        "text": "El cargol deixava un rastre allà per on passava."
+      }
+    ],
+    "el-rastro-de-plata-q5": [
+      {
+        "paragraph": 4,
+        "text": "En Pol va mirar un altre cop la ratlla. Ara era una mica més llarga. El cargol deixava un rastre allà per on passava."
+      }
+    ]
+  },
+  "el-guante-de-rayas-es": {
+    "el-guante-de-rayas-q1": [
+      {
+        "paragraph": 1,
+        "text": "Debajo del banco de la parada había un guante de rayas verdes."
+      }
+    ],
+    "el-guante-de-rayas-q2": [
+      {
+        "paragraph": 2,
+        "text": "Jan guardó el guante en un bolsillo seco de la mochila."
+      }
+    ],
+    "el-guante-de-rayas-q3": [
+      {
+        "paragraph": 1,
+        "text": "Todavía estaba seco, pero ya empezaba a lloviznar."
+      }
+    ],
+    "el-guante-de-rayas-q4": [
+      {
+        "paragraph": 3,
+        "text": "Llevaba puesto un solo guante. Tenía las mismas rayas verdes."
+      }
+    ],
+    "el-guante-de-rayas-q5": [
+      {
+        "paragraph": 2,
+        "text": "Jan guardó el guante en un bolsillo seco de la mochila."
+      },
+      {
+        "paragraph": 4,
+        "text": "La niña se lo probó."
+      }
+    ]
+  },
+  "el-guante-de-rayas-ca": {
+    "el-guante-de-rayas-q1": [
+      {
+        "paragraph": 1,
+        "text": "Sota el banc de la parada hi havia un guant de ratlles verdes."
+      }
+    ],
+    "el-guante-de-rayas-q2": [
+      {
+        "paragraph": 2,
+        "text": "En Jan va guardar el guant en una butxaca seca de la motxilla."
+      }
+    ],
+    "el-guante-de-rayas-q3": [
+      {
+        "paragraph": 1,
+        "text": "Encara era sec, però ja començava a plovisquejar."
+      }
+    ],
+    "el-guante-de-rayas-q4": [
+      {
+        "paragraph": 3,
+        "text": "Duia un sol guant posat. Tenia les mateixes ratlles verdes."
+      }
+    ],
+    "el-guante-de-rayas-q5": [
+      {
+        "paragraph": 2,
+        "text": "En Jan va guardar el guant en una butxaca seca de la motxilla."
+      },
+      {
+        "paragraph": 4,
+        "text": "La nena se’l va emprovar."
+      }
+    ]
+  },
+  "una-guirnalda-de-papel-es": {
+    "una-guirnalda-de-papel-q1": [
+      {
+        "paragraph": 2,
+        "text": "Corta seis tiras de papel."
+      }
+    ],
+    "una-guirnalda-de-papel-q2": [
+      {
+        "paragraph": 3,
+        "text": "Junta las puntas y pégalas con un trozo de cinta."
+      }
+    ],
+    "una-guirnalda-de-papel-q3": [
+      {
+        "paragraph": 4,
+        "text": "Pasa la segunda tira por dentro del primer aro. Después pega las puntas de la segunda tira."
+      }
+    ],
+    "una-guirnalda-de-papel-q4": [
+      {
+        "paragraph": 4,
+        "text": "Pasa la segunda tira por dentro del primer aro. Después pega las puntas de la segunda tira. Los dos aros quedarán unidos."
+      }
+    ],
+    "una-guirnalda-de-papel-q5": [
+      {
+        "paragraph": 1,
+        "text": "Una guirnalda es una tira larga para decorar."
+      }
+    ]
+  },
+  "una-guirnalda-de-papel-ca": {
+    "una-guirnalda-de-papel-q1": [
+      {
+        "paragraph": 2,
+        "text": "Talla sis tires de paper."
+      }
+    ],
+    "una-guirnalda-de-papel-q2": [
+      {
+        "paragraph": 3,
+        "text": "Ajunta’n les puntes i enganxa-les amb un tros de cinta."
+      }
+    ],
+    "una-guirnalda-de-papel-q3": [
+      {
+        "paragraph": 4,
+        "text": "Passa la segona tira per dins de la primera anella. Després enganxa les puntes de la segona tira."
+      }
+    ],
+    "una-guirnalda-de-papel-q4": [
+      {
+        "paragraph": 4,
+        "text": "Passa la segona tira per dins de la primera anella. Després enganxa les puntes de la segona tira. Les dues anelles quedaran lligades."
+      }
+    ],
+    "una-guirnalda-de-papel-q5": [
+      {
+        "paragraph": 1,
+        "text": "Una garlanda és una tira llarga per decorar."
+      }
+    ]
+  },
+  "la-caja-de-los-dibujos-es": {
+    "la-caja-de-los-dibujos-q1": [
+      {
+        "paragraph": 1,
+        "text": "A media mañana, Roc buscó allí el dibujo de su gato naranja."
+      }
+    ],
+    "la-caja-de-los-dibujos-q2": [
+      {
+        "paragraph": 3,
+        "text": "Roc reconoció su gato por la cola. La había pintado de verde."
+      }
+    ],
+    "la-caja-de-los-dibujos-q3": [
+      {
+        "paragraph": 2,
+        "text": "Había unos cuantos sin nombre. El gato naranja estaba en ese grupo."
+      }
+    ],
+    "la-caja-de-los-dibujos-q4": [
+      {
+        "paragraph": 3,
+        "text": "Lina propuso un cambio: a partir de aquel día, todos pondrían el nombre detrás, en la misma esquina."
+      }
+    ],
+    "la-caja-de-los-dibujos-q5": [
+      {
+        "paragraph": 3,
+        "text": "Lina propuso un cambio: a partir de aquel día, todos pondrían el nombre detrás, en la misma esquina."
+      },
+      {
+        "paragraph": 4,
+        "text": "Por la tarde, Roc ayudó a una niña a buscar su dibujo. Ahora sabía exactamente dónde mirar."
+      }
+    ]
+  },
+  "la-caja-de-los-dibujos-ca": {
+    "la-caja-de-los-dibujos-q1": [
+      {
+        "paragraph": 1,
+        "text": "A mig matí, en Roc hi va buscar el seu gat de color taronja."
+      }
+    ],
+    "la-caja-de-los-dibujos-q2": [
+      {
+        "paragraph": 3,
+        "text": "En Roc va reconèixer el seu gat per la cua. L’havia pintada verda."
+      }
+    ],
+    "la-caja-de-los-dibujos-q3": [
+      {
+        "paragraph": 2,
+        "text": "N’hi havia uns quants sense nom. El gat taronja era en aquest grup."
+      }
+    ],
+    "la-caja-de-los-dibujos-q4": [
+      {
+        "paragraph": 3,
+        "text": "La Lina va proposar un canvi: a partir d’aquell dia, tothom posaria el nom al darrere, a la mateixa cantonada."
+      }
+    ],
+    "la-caja-de-los-dibujos-q5": [
+      {
+        "paragraph": 3,
+        "text": "La Lina va proposar un canvi: a partir d’aquell dia, tothom posaria el nom al darrere, a la mateixa cantonada."
+      },
+      {
+        "paragraph": 4,
+        "text": "A la tarda, en Roc va ajudar una nena a buscar el seu dibuix. Ara sabia exactament on mirar."
+      }
+    ]
+  },
+  "a-la-sombra-del-puente-es": {
+    "a-la-sombra-del-puente-q1": [
+      {
+        "paragraph": 1,
+        "text": "Berta y su primo Nil paseaban junto al río con su abuela."
+      }
+    ],
+    "a-la-sombra-del-puente-q2": [
+      {
+        "paragraph": 1,
+        "text": "Una iba hacia la fuente. La otra iba hacia el mirador."
+      }
+    ],
+    "a-la-sombra-del-puente-q3": [
+      {
+        "paragraph": 2,
+        "text": "Berta le enseñó su cantimplora. En el fondo solo quedaba un trago de agua."
+      }
+    ],
+    "a-la-sombra-del-puente-q4": [
+      {
+        "paragraph": 3,
+        "text": "El camino pasaba por debajo de un puente. Allí hacía fresco y se oían los pasos de la gente de arriba. Se detuvieron un momento a la sombra."
+      }
+    ],
+    "a-la-sombra-del-puente-q5": [
+      {
+        "paragraph": 4,
+        "text": "Llenaron las cantimploras y volvieron a la señal."
+      }
+    ],
+    "a-la-sombra-del-puente-q6": [
+      {
+        "paragraph": 2,
+        "text": "En el fondo solo quedaba un trago de agua."
+      }
+    ]
+  },
+  "a-la-sombra-del-puente-ca": {
+    "a-la-sombra-del-puente-q1": [
+      {
+        "paragraph": 1,
+        "text": "La Berta i el seu cosí Nil passejaven al costat del riu amb l’àvia."
+      }
+    ],
+    "a-la-sombra-del-puente-q2": [
+      {
+        "paragraph": 1,
+        "text": "Una anava cap a la font. L’altra anava cap al mirador."
+      }
+    ],
+    "a-la-sombra-del-puente-q3": [
+      {
+        "paragraph": 2,
+        "text": "La Berta li va ensenyar la seva cantimplora. Al fons només hi quedava un glop d’aigua."
+      }
+    ],
+    "a-la-sombra-del-puente-q4": [
+      {
+        "paragraph": 3,
+        "text": "El camí passava per sota d’un pont. Allà feia fresca i se sentien les passes de la gent de dalt. Van aturar-se un moment a l’ombra."
+      }
+    ],
+    "a-la-sombra-del-puente-q5": [
+      {
+        "paragraph": 4,
+        "text": "Van omplir les cantimplores i van tornar al senyal."
+      }
+    ],
+    "a-la-sombra-del-puente-q6": [
+      {
+        "paragraph": 2,
+        "text": "Al fons només hi quedava un glop d’aigua."
+      }
+    ]
+  },
+  "una-rueda-floja-es": {
+    "una-rueda-floja-q1": [
+      {
+        "paragraph": 1,
+        "text": "Deja encima un inflador y una caja de herramientas."
+      }
+    ],
+    "una-rueda-floja-q2": [
+      {
+        "paragraph": 2,
+        "text": "La bici de esta mañana tenía la rueda de delante muy floja. Le faltaba aire."
+      }
+    ],
+    "una-rueda-floja-q3": [
+      {
+        "paragraph": 3,
+        "text": "He hinchado la rueda y hemos esperado unos minutos. No se ha vuelto a deshinchar."
+      }
+    ],
+    "una-rueda-floja-q4": [
+      {
+        "paragraph": 4,
+        "text": "A lo mejor hay un agujero pequeño."
+      }
+    ],
+    "una-rueda-floja-q5": [
+      {
+        "paragraph": 1,
+        "text": "Biel ha ido allí para hacerle unas preguntas."
+      }
+    ],
+    "una-rueda-floja-q6": [
+      {
+        "paragraph": 5,
+        "text": "Un niño ha aprendido a usar el inflador y luego ha ayudado a su hermana."
+      }
+    ]
+  },
+  "una-rueda-floja-ca": {
+    "una-rueda-floja-q1": [
+      {
+        "paragraph": 1,
+        "text": "Hi deixa una manxa i una capsa d’eines."
+      }
+    ],
+    "una-rueda-floja-q2": [
+      {
+        "paragraph": 2,
+        "text": "La bici del matí tenia la roda de davant molt fluixa. Li faltava aire."
+      }
+    ],
+    "una-rueda-floja-q3": [
+      {
+        "paragraph": 3,
+        "text": "He inflat la roda i hem esperat uns minuts. No s’ha tornat a desinflar."
+      }
+    ],
+    "una-rueda-floja-q4": [
+      {
+        "paragraph": 4,
+        "text": "Potser hi ha un forat petit."
+      }
+    ],
+    "una-rueda-floja-q5": [
+      {
+        "paragraph": 1,
+        "text": "En Biel hi ha anat per fer-li unes preguntes."
+      }
+    ],
+    "una-rueda-floja-q6": [
+      {
+        "paragraph": 5,
+        "text": "Un nen ha après a fer servir la manxa i després ha ajudat la seva germana."
+      }
+    ]
+  },
+  "vasos-de-tres-colores-es": {
+    "vasos-de-tres-colores-q1": [
+      {
+        "paragraph": 1,
+        "text": "Con un yogur, un plátano y un puñado de fresas puedes hacer cuatro vasitos para merendar."
+      }
+    ],
+    "vasos-de-tres-colores-q2": [
+      {
+        "paragraph": 2,
+        "text": "Lava las fresas y pela el plátano."
+      }
+    ],
+    "vasos-de-tres-colores-q3": [
+      {
+        "paragraph": 5,
+        "text": "Pon los trozos de plátano encima del yogur."
+      }
+    ],
+    "vasos-de-tres-colores-q4": [
+      {
+        "paragraph": 1,
+        "text": "Usa vasos transparentes y una cuchara. Así podrás ver las capas desde fuera."
+      }
+    ],
+    "vasos-de-tres-colores-q5": [
+      {
+        "paragraph": 6,
+        "text": "Si aún no es hora de merendar, guarda los vasos en la nevera."
+      }
+    ]
+  },
+  "vasos-de-tres-colores-ca": {
+    "vasos-de-tres-colores-q1": [
+      {
+        "paragraph": 1,
+        "text": "Amb un iogurt, un plàtan i un grapat de maduixes pots fer quatre gotets per berenar."
+      }
+    ],
+    "vasos-de-tres-colores-q2": [
+      {
+        "paragraph": 2,
+        "text": "Renta les maduixes i pela el plàtan."
+      }
+    ],
+    "vasos-de-tres-colores-q3": [
+      {
+        "paragraph": 5,
+        "text": "Posa els trossos de plàtan a sobre del iogurt."
+      }
+    ],
+    "vasos-de-tres-colores-q4": [
+      {
+        "paragraph": 1,
+        "text": "Fes servir gots transparents i una cullera. Així podràs veure les capes des de fora."
+      }
+    ],
+    "vasos-de-tres-colores-q5": [
+      {
+        "paragraph": 6,
+        "text": "Si encara no és hora de berenar, guarda els gots a la nevera."
+      }
+    ]
+  },
+  "el-juego-de-las-fichas-es": {
+    "el-juego-de-las-fichas-q1": [
+      {
+        "paragraph": 1,
+        "text": "Pinta dos cuadrados de azul, dos de verde, dos de rojo y dos de amarillo."
+      }
+    ],
+    "el-juego-de-las-fichas-q2": [
+      {
+        "paragraph": 2,
+        "text": "Poned todas las fichas sobre la mesa, con la cara blanca hacia arriba."
+      }
+    ],
+    "el-juego-de-las-fichas-q3": [
+      {
+        "paragraph": 3,
+        "text": "Si son del mismo color, se las queda."
+      }
+    ],
+    "el-juego-de-las-fichas-q4": [
+      {
+        "paragraph": 3,
+        "text": "Después siempre le toca jugar a la otra persona."
+      }
+    ],
+    "el-juego-de-las-fichas-q5": [
+      {
+        "paragraph": 4,
+        "text": "Cuando no quede ninguna ficha en la mesa, cada uno cuenta las parejas que ha hecho. Gana quien tiene más."
+      }
+    ],
+    "el-juego-de-las-fichas-q6": [
+      {
+        "paragraph": 3,
+        "text": "Si son de colores distintos, las deja boca abajo otra vez en el mismo sitio."
+      },
+      {
+        "paragraph": 5,
+        "text": "Un consejo: fíjate bien en el sitio de las fichas que gira la otra persona. Quizá te sirvan cuando te toque jugar."
+      }
+    ]
+  },
+  "el-juego-de-las-fichas-ca": {
+    "el-juego-de-las-fichas-q1": [
+      {
+        "paragraph": 1,
+        "text": "Pinta dos quadrats de blau, dos de verd, dos de vermell i dos de groc."
+      }
+    ],
+    "el-juego-de-las-fichas-q2": [
+      {
+        "paragraph": 2,
+        "text": "Poseu totes les fitxes sobre la taula, amb la cara blanca cap amunt."
+      }
+    ],
+    "el-juego-de-las-fichas-q3": [
+      {
+        "paragraph": 3,
+        "text": "Si són del mateix color, se les queda."
+      }
+    ],
+    "el-juego-de-las-fichas-q4": [
+      {
+        "paragraph": 3,
+        "text": "Després sempre és el torn de l’altra persona."
+      }
+    ],
+    "el-juego-de-las-fichas-q5": [
+      {
+        "paragraph": 4,
+        "text": "Quan no hi hagi cap fitxa a la taula, cadascú compta les parelles que ha fet. Guanya qui en té més."
+      }
+    ],
+    "el-juego-de-las-fichas-q6": [
+      {
+        "paragraph": 3,
+        "text": "Si són de colors diferents, les torna a deixar de cara avall al mateix lloc."
+      },
+      {
+        "paragraph": 5,
+        "text": "Un consell: mira bé on eren les fitxes que gira l’altra persona. Potser et serviran quan et toqui jugar."
+      }
+    ]
+  },
+  "una-carta-llena-de-azul-es": {
+    "una-carta-llena-de-azul-q1": [
+      {
+        "paragraph": 1,
+        "text": "Somos la clase de los Pinos."
+      }
+    ],
+    "una-carta-llena-de-azul-q2": [
+      {
+        "paragraph": 1,
+        "text": "La montaña, en cambio, se ve desde las ventanas de clase."
+      }
+    ],
+    "una-carta-llena-de-azul-q3": [
+      {
+        "paragraph": 2,
+        "text": "Hemos colgado el dibujo cerca de la puerta."
+      }
+    ],
+    "una-carta-llena-de-azul-q4": [
+      {
+        "paragraph": 3,
+        "text": "¿Qué os parece dibujar peces para pegar entre las olas?"
+      }
+    ],
+    "una-carta-llena-de-azul-q5": [
+      {
+        "paragraph": 3,
+        "text": "Dejad un borde blanco para que podamos recortarlos bien."
+      }
+    ],
+    "una-carta-llena-de-azul-q6": [
+      {
+        "paragraph": 4,
+        "text": "Cuando acabemos el mural, os enviaremos una foto. También os mandaremos un dibujo de nuestra montaña."
+      }
+    ]
+  },
+  "una-carta-llena-de-azul-ca": {
+    "una-carta-llena-de-azul-q1": [
+      {
+        "paragraph": 1,
+        "text": "Som la classe dels Pins."
+      }
+    ],
+    "una-carta-llena-de-azul-q2": [
+      {
+        "paragraph": 1,
+        "text": "La muntanya, en canvi, es veu des de les finestres de la classe."
+      }
+    ],
+    "una-carta-llena-de-azul-q3": [
+      {
+        "paragraph": 2,
+        "text": "Hem penjat el dibuix prop de la porta."
+      }
+    ],
+    "una-carta-llena-de-azul-q4": [
+      {
+        "paragraph": 3,
+        "text": "Què us semblaria dibuixar peixos per enganxar entre les onades?"
+      }
+    ],
+    "una-carta-llena-de-azul-q5": [
+      {
+        "paragraph": 3,
+        "text": "Deixeu una vora blanca perquè els puguem retallar bé."
+      }
+    ],
+    "una-carta-llena-de-azul-q6": [
+      {
+        "paragraph": 4,
+        "text": "Quan acabem el mural, us n’enviarem una foto. També us farem arribar un dibuix de la nostra muntanya."
+      }
+    ]
+  },
+  "la-sombra-del-titere-es": {
+    "la-sombra-del-titere-q1": [
+      {
+        "paragraph": 1,
+        "text": "También necesitas una hoja blanca algo rígida para hacer de pantalla."
+      }
+    ],
+    "la-sombra-del-titere-q2": [
+      {
+        "paragraph": 4,
+        "text": "Pon el pájaro entre la linterna y la hoja."
+      }
+    ],
+    "la-sombra-del-titere-q3": [
+      {
+        "paragraph": 2,
+        "text": "Dibuja un pájaro de perfil en la cartulina y recórtalo."
+      }
+    ],
+    "la-sombra-del-titere-q4": [
+      {
+        "paragraph": 2,
+        "text": "Pon derecha la hoja blanca y apóyala contra la caja. Así podrás mover el pájaro sin tener que sujetar la pantalla."
+      }
+    ],
+    "la-sombra-del-titere-q5": [
+      {
+        "paragraph": 4,
+        "text": "No muevas la linterna ni la hoja durante la prueba."
+      }
+    ],
+    "la-sombra-del-titere-q6": [
+      {
+        "paragraph": 4,
+        "text": "Empieza muy cerca de la pantalla."
+      },
+      {
+        "paragraph": 5,
+        "text": "Para representar un pájaro que vuela hacia ti, empieza con una sombra pequeña. Acerca el títere a la linterna muy poco a poco."
+      }
+    ],
+    "la-sombra-del-titere-q7": [
+      {
+        "paragraph": 5,
+        "text": "Acerca el títere a la linterna muy poco a poco. Si quieres que el pájaro parezca alejarse, haz el camino de vuelta."
+      }
+    ]
+  },
+  "la-sombra-del-titere-ca": {
+    "la-sombra-del-titere-q1": [
+      {
+        "paragraph": 1,
+        "text": "També et cal un full blanc una mica rígid per fer de pantalla."
+      }
+    ],
+    "la-sombra-del-titere-q2": [
+      {
+        "paragraph": 4,
+        "text": "Posa l’ocell entre la llanterna i el full."
+      }
+    ],
+    "la-sombra-del-titere-q3": [
+      {
+        "paragraph": 2,
+        "text": "Dibuixa un ocell de perfil a la cartolina i retalla’l."
+      }
+    ],
+    "la-sombra-del-titere-q4": [
+      {
+        "paragraph": 2,
+        "text": "Posa el full blanc dret i recolza’l contra la capsa. Així podràs moure l’ocell sense haver d’aguantar la pantalla."
+      }
+    ],
+    "la-sombra-del-titere-q5": [
+      {
+        "paragraph": 4,
+        "text": "No moguis la llanterna ni el full mentre fas la prova."
+      }
+    ],
+    "la-sombra-del-titere-q6": [
+      {
+        "paragraph": 4,
+        "text": "Comença ben a prop de la pantalla."
+      },
+      {
+        "paragraph": 5,
+        "text": "Per representar un ocell que vola cap a tu, comença amb una ombra petita. Acosta el titella a la llanterna molt a poc a poc."
+      }
+    ],
+    "la-sombra-del-titere-q7": [
+      {
+        "paragraph": 5,
+        "text": "Acosta el titella a la llanterna molt a poc a poc. Si vols que l’ocell sembli allunyar-se, fes el camí de tornada."
+      }
+    ]
+  },
+  "el-pase-de-la-portera-es": {
+    "el-pase-de-la-portera-q1": [
+      {
+        "paragraph": 1,
+        "text": "Aquel martes le tocaba hacer de portera."
+      }
+    ],
+    "el-pase-de-la-portera-q2": [
+      {
+        "paragraph": 2,
+        "text": "Un rival la recogió antes que nadie de su equipo."
+      }
+    ],
+    "el-pase-de-la-portera-q3": [
+      {
+        "paragraph": 3,
+        "text": "Mar dio un pase raso hacia allí."
+      }
+    ],
+    "el-pase-de-la-portera-q4": [
+      {
+        "paragraph": 3,
+        "text": "En el centro había tres rivales y todos miraban la pelota. En cambio, Salma esperaba sola en un lado."
+      }
+    ],
+    "el-pase-de-la-portera-q5": [
+      {
+        "paragraph": 4,
+        "text": "Cuando sonó el timbre, el partido seguía empatado."
+      }
+    ],
+    "el-pase-de-la-portera-q6": [
+      {
+        "paragraph": 4,
+        "text": "Pero apuntó su nombre para repetir el turno el viernes."
+      }
+    ]
+  },
+  "el-pase-de-la-portera-ca": {
+    "el-pase-de-la-portera-q1": [
+      {
+        "paragraph": 1,
+        "text": "Aquell dimarts li tocava fer de portera."
+      }
+    ],
+    "el-pase-de-la-portera-q2": [
+      {
+        "paragraph": 2,
+        "text": "Un rival la va recollir abans que ningú del seu equip."
+      }
+    ],
+    "el-pase-de-la-portera-q3": [
+      {
+        "paragraph": 3,
+        "text": "La Mar va fer una passada rasa cap allà."
+      }
+    ],
+    "el-pase-de-la-portera-q4": [
+      {
+        "paragraph": 3,
+        "text": "Pel mig hi havia tres rivals i tots miraven la pilota. En canvi, la Salma esperava tota sola en un costat."
+      }
+    ],
+    "el-pase-de-la-portera-q5": [
+      {
+        "paragraph": 4,
+        "text": "Quan va sonar el timbre, el partit encara estava empatat."
+      }
+    ],
+    "el-pase-de-la-portera-q6": [
+      {
+        "paragraph": 4,
+        "text": "Però va apuntar el seu nom per repetir torn el divendres."
+      }
+    ]
+  },
+  "el-papel-que-salta-es": {
+    "el-papel-que-salta-q1": [
+      {
+        "paragraph": 2,
+        "text": "Después frotó el globo con un paño de lana y volvió a acercarlo."
+      }
+    ],
+    "el-papel-que-salta-q2": [
+      {
+        "paragraph": 2,
+        "text": "Los papeles se quedaron quietos."
+      }
+    ],
+    "el-papel-que-salta-q3": [
+      {
+        "paragraph": 2,
+        "text": "Después frotó el globo con un paño de lana y volvió a acercarlo."
+      }
+    ],
+    "el-papel-que-salta-q4": [
+      {
+        "paragraph": 3,
+        "text": "A este efecto lo llamamos electricidad estática."
+      }
+    ],
+    "el-papel-que-salta-q5": [
+      {
+        "paragraph": 1,
+        "text": "Eran tan ligeros que, si alguien soplaba, se esparcían enseguida. Para la prueba, sin embargo, nadie debía soplar."
+      }
+    ],
+    "el-papel-que-salta-q6": [
+      {
+        "paragraph": 4,
+        "text": "Lo probaron con papel blanco del mismo grosor, cortado en trozos pequeños. También saltó."
+      }
+    ],
+    "el-papel-que-salta-q7": [
+      {
+        "paragraph": 3,
+        "text": "Cuando el globo queda cargado, puede atraer objetos muy ligeros, como los trocitos de papel."
+      },
+      {
+        "paragraph": 4,
+        "text": "En cambio, si los trozos eran demasiado grandes, les costaba más levantarse. En aquella prueba importaban más el tamaño y el peso de los trozos que el color."
+      }
+    ]
+  },
+  "el-papel-que-salta-ca": {
+    "el-papel-que-salta-q1": [
+      {
+        "paragraph": 2,
+        "text": "Després va fregar el globus amb un drap de llana i el va tornar a acostar."
+      }
+    ],
+    "el-papel-que-salta-q2": [
+      {
+        "paragraph": 2,
+        "text": "Els papers es van quedar quiets."
+      }
+    ],
+    "el-papel-que-salta-q3": [
+      {
+        "paragraph": 2,
+        "text": "Després va fregar el globus amb un drap de llana i el va tornar a acostar."
+      }
+    ],
+    "el-papel-que-salta-q4": [
+      {
+        "paragraph": 3,
+        "text": "D’aquest efecte en diem electricitat estàtica."
+      }
+    ],
+    "el-papel-que-salta-q5": [
+      {
+        "paragraph": 1,
+        "text": "Eren tan lleugers que, si algú hi bufava, s’escampaven de seguida. Per a la prova, però, ningú no havia de bufar."
+      }
+    ],
+    "el-papel-que-salta-q6": [
+      {
+        "paragraph": 4,
+        "text": "Van provar-ho amb paper blanc del mateix gruix, tallat en trossos petits. També va saltar."
+      }
+    ],
+    "el-papel-que-salta-q7": [
+      {
+        "paragraph": 3,
+        "text": "Quan el globus queda carregat, pot atreure objectes molt lleugers, com ara els trossets de paper."
+      },
+      {
+        "paragraph": 4,
+        "text": "Si els trossos eren massa grans, en canvi, els costava més aixecar-se. La mida i el pes dels trossos importaven més que el color en aquella prova."
+      }
+    ]
+  },
+  "el-cajon-de-las-piezas-sueltas-es": {
+    "el-cajon-de-las-piezas-sueltas-q1": [
+      {
+        "paragraph": 1,
+        "text": "En la sala de juegos del centro hay un cajón pequeño lleno de fichas, dados y cartas."
+      }
+    ],
+    "el-cajon-de-las-piezas-sueltas-q2": [
+      {
+        "paragraph": 2,
+        "text": "Tenemos uno con el tablero partido en dos. Antes de tirar la caja, guardamos el dado y las fichas porque todavía estaban en buen estado."
+      }
+    ],
+    "el-cajon-de-las-piezas-sueltas-q3": [
+      {
+        "paragraph": 3,
+        "text": "El otro día, a un juego de cartas para hacer parejas le faltaba el perro."
+      }
+    ],
+    "el-cajon-de-las-piezas-sueltas-q4": [
+      {
+        "paragraph": 3,
+        "text": "En cambio, a un juego de recorrido solo le faltaba la ficha verde. Nos valía cualquier pieza verde que se mantuviera de pie."
+      }
+    ],
+    "el-cajon-de-las-piezas-sueltas-q5": [
+      {
+        "paragraph": 4,
+        "text": "Primero revisaremos los juegos de las mesas. A lo mejor solo se ha caído de una caja abierta."
+      }
+    ],
+    "el-cajon-de-las-piezas-sueltas-q6": [
+      {
+        "paragraph": 5,
+        "text": "En vez de dejarla en el cajón, volvieron a buscar a Pepa."
+      }
+    ]
+  },
+  "el-cajon-de-las-piezas-sueltas-ca": {
+    "el-cajon-de-las-piezas-sueltas-q1": [
+      {
+        "paragraph": 1,
+        "text": "A la sala de jocs del casal hi ha un calaix petit ple de fitxes, daus i cartes."
+      }
+    ],
+    "el-cajon-de-las-piezas-sueltas-q2": [
+      {
+        "paragraph": 2,
+        "text": "En tenim un amb el tauler partit en dos. Abans de llençar la capsa, en vam guardar el dau i les fitxes perquè encara estaven en bon estat."
+      }
+    ],
+    "el-cajon-de-las-piezas-sueltas-q3": [
+      {
+        "paragraph": 3,
+        "text": "L’altre dia, a un joc de cartes per fer parelles li faltava el gos."
+      }
+    ],
+    "el-cajon-de-las-piezas-sueltas-q4": [
+      {
+        "paragraph": 3,
+        "text": "En canvi, a un joc de recorregut només ens faltava la fitxa verda. Qualsevol peça verda que s’aguantés dreta ens anava bé."
+      }
+    ],
+    "el-cajon-de-las-piezas-sueltas-q5": [
+      {
+        "paragraph": 4,
+        "text": "Primer comprovarem els jocs de les taules. Potser només ha caigut d’una capsa oberta."
+      }
+    ],
+    "el-cajon-de-las-piezas-sueltas-q6": [
+      {
+        "paragraph": 5,
+        "text": "En comptes de deixar-la al calaix, van tornar a buscar la Pepa."
+      }
+    ]
+  },
+  "el-rincon-de-bruna-es": {
+    "el-rincon-de-bruna-q1": [
+      {
+        "paragraph": 1,
+        "text": "Había preparado una pelota de tela y un cojín azul."
+      }
+    ],
+    "el-rincon-de-bruna-q2": [
+      {
+        "paragraph": 1,
+        "text": "Pero, en cuanto su tío abrió la puerta del transportín de la gata, Bruna salió disparada y se escondió debajo de una silla."
+      }
+    ],
+    "el-rincon-de-bruna-q3": [
+      {
+        "paragraph": 2,
+        "text": "La gata se acurrucó contra la pared."
+      }
+    ],
+    "el-rincon-de-bruna-q4": [
+      {
+        "paragraph": 2,
+        "text": "Antes de salir, Pau puso el cojín cerca de la silla, sin tapar la salida."
+      },
+      {
+        "paragraph": 3,
+        "text": "La gata tenía medio cuerpo fuera de su escondite."
+      }
+    ],
+    "el-rincon-de-bruna-q5": [
+      {
+        "paragraph": 3,
+        "text": "Pau se sentó en el suelo, en el otro extremo, y siguió leyendo."
+      }
+    ],
+    "el-rincon-de-bruna-q6": [
+      {
+        "paragraph": 1,
+        "text": "Pero, en cuanto su tío abrió la puerta del transportín de la gata, Bruna salió disparada y se escondió debajo de una silla."
+      },
+      {
+        "paragraph": 4,
+        "text": "Por la tarde, la gata salió sola al pasillo. Pau no fue a buscar la pelota. Dejó que Bruna se acercara al salón, olfateara una pata de la mesa y volviera al cojín."
+      }
+    ],
+    "el-rincon-de-bruna-q7": [
+      {
+        "paragraph": 3,
+        "text": "Pau se sentó en el suelo, en el otro extremo, y siguió leyendo. Al pasar la página, oyó unos pasos ligeros. Bruna se había subido al cojín."
+      },
+      {
+        "paragraph": 4,
+        "text": "Pau no fue a buscar la pelota. Dejó que Bruna se acercara al salón, olfateara una pata de la mesa y volviera al cojín. Ya tendrían tiempo de jugar otro día."
+      }
+    ]
+  },
+  "el-rincon-de-bruna-ca": {
+    "el-rincon-de-bruna-q1": [
+      {
+        "paragraph": 1,
+        "text": "Havia preparat una pilota de roba i un coixí blau."
+      }
+    ],
+    "el-rincon-de-bruna-q2": [
+      {
+        "paragraph": 1,
+        "text": "Tan bon punt l’oncle va obrir la portella del transportí de la gata, però, la Bruna va sortir disparada i es va amagar sota una cadira."
+      }
+    ],
+    "el-rincon-de-bruna-q3": [
+      {
+        "paragraph": 2,
+        "text": "La gata es va arronsar contra la paret."
+      }
+    ],
+    "el-rincon-de-bruna-q4": [
+      {
+        "paragraph": 2,
+        "text": "Abans de sortir, en Pau va posar el coixí a prop de la cadira, sense tapar-li la sortida."
+      },
+      {
+        "paragraph": 3,
+        "text": "La gata tenia mig cos fora del seu amagatall."
+      }
+    ],
+    "el-rincon-de-bruna-q5": [
+      {
+        "paragraph": 3,
+        "text": "En Pau es va asseure a terra, a l’altra punta, i va seguir llegint."
+      }
+    ],
+    "el-rincon-de-bruna-q6": [
+      {
+        "paragraph": 1,
+        "text": "Tan bon punt l’oncle va obrir la portella del transportí de la gata, però, la Bruna va sortir disparada i es va amagar sota una cadira."
+      },
+      {
+        "paragraph": 4,
+        "text": "A la tarda, la gata va sortir al passadís tota sola. En Pau no va anar a buscar la pilota. Va deixar que la Bruna s’acostés al menjador, ensumés una pota de la taula i tornés al coixí."
+      }
+    ],
+    "el-rincon-de-bruna-q7": [
+      {
+        "paragraph": 3,
+        "text": "En Pau es va asseure a terra, a l’altra punta, i va seguir llegint. Quan va passar la pàgina, va sentir unes passes lleugeres. La Bruna havia pujat al coixí."
+      },
+      {
+        "paragraph": 4,
+        "text": "En Pau no va anar a buscar la pilota. Va deixar que la Bruna s’acostés al menjador, ensumés una pota de la taula i tornés al coixí. Ja tindrien temps de jugar un altre dia."
+      }
+    ]
+  },
+  "pulseras-por-encargo-es": {
+    "pulseras-por-encargo-q1": [
+      {
+        "paragraph": 1,
+        "text": "Rita y Adil preparaban pulseras para los niños y niñas de su grupo."
+      }
+    ],
+    "pulseras-por-encargo-q2": [
+      {
+        "paragraph": 1,
+        "text": "Cada pulsera debía llevar cuatro piezas de madera: dos redondas, una cuadrada y una triangular."
+      }
+    ],
+    "pulseras-por-encargo-q3": [
+      {
+        "paragraph": 2,
+        "text": "En total tenían doce piezas. «Tres pulseras de cuatro piezas: ¡tenemos justo las que hacen falta!», dijo Adil."
+      }
+    ],
+    "pulseras-por-encargo-q4": [
+      {
+        "paragraph": 3,
+        "text": "Cuando añadió los triángulos, un montón se quedó sin pieza triangular. En cambio, en la mesa aún quedaba una pieza redonda sin usar."
+      }
+    ],
+    "pulseras-por-encargo-q5": [
+      {
+        "paragraph": 4,
+        "text": "Decidieron preguntar a Ada, que tenía una caja con piezas del año pasado. Ada encontró un triángulo amarillo y se lo dio."
+      }
+    ],
+    "pulseras-por-encargo-q6": [
+      {
+        "paragraph": 3,
+        "text": "Rita repartió las piezas en tres montones, uno para cada pulsera. En cada montón puso dos piezas redondas y una cuadrada. Cuando añadió los triángulos, un montón se quedó sin pieza triangular. En cambio, en la mesa aún quedaba una pieza redonda sin usar."
+      }
+    ],
+    "pulseras-por-encargo-q7": [
+      {
+        "paragraph": 4,
+        "text": "Adil no se olvidó de guardar la pieza redonda que sobraba. Podría servir en otra ocasión."
+      }
+    ]
+  },
+  "pulseras-por-encargo-ca": {
+    "pulseras-por-encargo-q1": [
+      {
+        "paragraph": 1,
+        "text": "La Rita i l’Adil preparaven polseres per als nens i nenes de la seva colla."
+      }
+    ],
+    "pulseras-por-encargo-q2": [
+      {
+        "paragraph": 1,
+        "text": "Cada polsera havia de tenir quatre peces de fusta: dues de rodones, una de quadrada i una de triangular."
+      }
+    ],
+    "pulseras-por-encargo-q3": [
+      {
+        "paragraph": 2,
+        "text": "En total tenien dotze peces. «Tres polseres de quatre peces: n’hi ha prou!», va dir l’Adil."
+      }
+    ],
+    "pulseras-por-encargo-q4": [
+      {
+        "paragraph": 3,
+        "text": "Quan hi va afegir els triangles, una pila es va quedar sense peça triangular. En canvi, damunt la taula encara quedava una peça rodona sense fer servir."
+      }
+    ],
+    "pulseras-por-encargo-q5": [
+      {
+        "paragraph": 4,
+        "text": "Van decidir preguntar a l’Ada, que tenia una capsa amb peces de l’any passat. L’Ada va trobar un triangle groc i els el va donar."
+      }
+    ],
+    "pulseras-por-encargo-q6": [
+      {
+        "paragraph": 3,
+        "text": "La Rita va repartir les peces en tres piles, una per polsera. A cada pila hi va posar dues peces rodones i una de quadrada. Quan hi va afegir els triangles, una pila es va quedar sense peça triangular. En canvi, damunt la taula encara quedava una peça rodona sense fer servir."
+      }
+    ],
+    "pulseras-por-encargo-q7": [
+      {
+        "paragraph": 4,
+        "text": "L’Adil no es va oblidar de desar la peça rodona que sobrava. Podria servir en una altra ocasió."
+      }
+    ]
+  },
+  "un-camino-entre-la-nieve-es": {
+    "un-camino-entre-la-nieve-q1": [
+      {
+        "paragraph": 1,
+        "text": "La mirabas desde casa y decías que parecía una tarta."
+      }
+    ],
+    "un-camino-entre-la-nieve-q2": [
+      {
+        "paragraph": 1,
+        "text": "Esta mañana, al abrir la puerta, había tanta nieve delante que no se veía el primer escalón."
+      }
+    ],
+    "un-camino-entre-la-nieve-q3": [
+      {
+        "paragraph": 2,
+        "text": "Pero entre su puerta y la nuestra aún había un trozo de acera lleno de nieve. La vecina quería ir a la panadería y ha tenido que bajar a la calzada."
+      }
+    ],
+    "un-camino-entre-la-nieve-q4": [
+      {
+        "paragraph": 3,
+        "text": "Entonces, la abuela ha seguido retirando nieve más allá de nuestra casa. La vecina también ha vuelto con la pala. En vez de dejar solo dos entradas limpias, han abierto un paso seguido por la acera."
+      }
+    ],
+    "un-camino-entre-la-nieve-q5": [
+      {
+        "paragraph": 3,
+        "text": "Yo he llevado un termo de chocolate caliente."
+      }
+    ],
+    "un-camino-entre-la-nieve-q6": [
+      {
+        "paragraph": 4,
+        "text": "La plaza aún parece una tarta, pero ahora tiene un caminito bien marcado alrededor."
+      }
+    ],
+    "un-camino-entre-la-nieve-q7": [
+      {
+        "paragraph": 1,
+        "text": "¡Hola, Martina!"
+      },
+      {
+        "paragraph": 4,
+        "text": "Luna"
+      }
+    ]
+  },
+  "un-camino-entre-la-nieve-ca": {
+    "un-camino-entre-la-nieve-q1": [
+      {
+        "paragraph": 1,
+        "text": "T’ho miraves des de casa i deies que semblava un pastís."
+      }
+    ],
+    "un-camino-entre-la-nieve-q2": [
+      {
+        "paragraph": 1,
+        "text": "Aquest matí, quan hem obert la porta, hi havia tanta neu al davant que no es veia el primer graó."
+      }
+    ],
+    "un-camino-entre-la-nieve-q3": [
+      {
+        "paragraph": 2,
+        "text": "Entre la seva porta i la nostra, però, encara hi havia un tros de vorera ple de neu. La veïna volia anar a la fleca i ha hagut de baixar a la calçada."
+      }
+    ],
+    "un-camino-entre-la-nieve-q4": [
+      {
+        "paragraph": 3,
+        "text": "Aleshores, l’àvia ha continuat traient neu més enllà de casa nostra. La veïna també hi ha tornat amb la pala. En comptes de fer dues entrades netes i prou, han obert un pas seguit per la vorera."
+      }
+    ],
+    "un-camino-entre-la-nieve-q5": [
+      {
+        "paragraph": 3,
+        "text": "Jo he portat un termo de xocolata desfeta."
+      }
+    ],
+    "un-camino-entre-la-nieve-q6": [
+      {
+        "paragraph": 4,
+        "text": "La plaça encara sembla un pastís, però ara té un caminet ben marcat al voltant."
+      }
+    ],
+    "un-camino-entre-la-nieve-q7": [
+      {
+        "paragraph": 1,
+        "text": "Hola, Martina!"
+      },
+      {
+        "paragraph": 4,
+        "text": "Lluna"
+      }
+    ]
+  },
+  "la-fila-de-las-hormigas-es": {
+    "la-fila-de-las-hormigas-q1": [
+      {
+        "paragraph": 1,
+        "text": "Salían de una grieta de la pared y cruzaban una franja de tierra hasta un banco."
+      }
+    ],
+    "la-fila-de-las-hormigas-q2": [
+      {
+        "paragraph": 1,
+        "text": "Algunas volvían hacia la grieta con unas migas claras."
+      }
+    ],
+    "la-fila-de-las-hormigas-q3": [
+      {
+        "paragraph": 2,
+        "text": "Al día siguiente había una rama en el suelo, justo en medio de la ruta del día anterior."
+      }
+    ],
+    "la-fila-de-las-hormigas-q4": [
+      {
+        "paragraph": 2,
+        "text": "Debajo de la rama no se veía ninguna hormiga. Carla pensaba que todas habían dejado de pasar por allí."
+      }
+    ],
+    "la-fila-de-las-hormigas-q5": [
+      {
+        "paragraph": 1,
+        "text": "Salían de una grieta de la pared y cruzaban una franja de tierra hasta un banco."
+      },
+      {
+        "paragraph": 3,
+        "text": "Las dos rutas empezaban y acababan en los mismos sitios."
+      }
+    ],
+    "la-fila-de-las-hormigas-q6": [
+      {
+        "paragraph": 3,
+        "text": "En azul marcaron la línea que habían visto el miércoles. En naranja dibujaron la vuelta del jueves."
+      }
+    ],
+    "la-fila-de-las-hormigas-q7": [
+      {
+        "paragraph": 4,
+        "text": "Eric anotó una pregunta para el día siguiente: «Si la rama sigue ahí, ¿darán la misma vuelta?»."
+      }
+    ]
+  },
+  "la-fila-de-las-hormigas-ca": {
+    "la-fila-de-las-hormigas-q1": [
+      {
+        "paragraph": 1,
+        "text": "Sortien d’una esquerda a la paret i travessaven una franja de terra fins a un banc."
+      }
+    ],
+    "la-fila-de-las-hormigas-q2": [
+      {
+        "paragraph": 1,
+        "text": "N’hi havia que tornaven cap a l’esquerda amb unes molles clares."
+      }
+    ],
+    "la-fila-de-las-hormigas-q3": [
+      {
+        "paragraph": 2,
+        "text": "L’endemà hi havia una branca a terra, just al mig de la ruta del dia abans."
+      }
+    ],
+    "la-fila-de-las-hormigas-q4": [
+      {
+        "paragraph": 2,
+        "text": "Sota la branca no es veia cap formiga. La Carla es pensava que totes havien deixat de passar per allà."
+      }
+    ],
+    "la-fila-de-las-hormigas-q5": [
+      {
+        "paragraph": 1,
+        "text": "Sortien d’una esquerda a la paret i travessaven una franja de terra fins a un banc."
+      },
+      {
+        "paragraph": 3,
+        "text": "Les dues rutes començaven i acabaven als mateixos llocs."
+      }
+    ],
+    "la-fila-de-las-hormigas-q6": [
+      {
+        "paragraph": 3,
+        "text": "En blau van marcar la ratlla que havien vist dimecres. En taronja hi van dibuixar la volta de dijous."
+      }
+    ],
+    "la-fila-de-las-hormigas-q7": [
+      {
+        "paragraph": 4,
+        "text": "L’Èric hi va anotar una pregunta per al dia següent: «Si la branca encara hi és, faran la mateixa volta?»"
+      }
+    ]
+  },
+  "el-ritmo-de-los-vasos-es": {
+    "el-ritmo-de-los-vasos-q1": [
+      {
+        "paragraph": 1,
+        "text": "Necesitáis una mesa y dos vasos vacíos de plástico duro."
+      }
+    ],
+    "el-ritmo-de-los-vasos-q2": [
+      {
+        "paragraph": 3,
+        "text": "La primera persona da una palmada cuando oye «uno» y «tres»."
+      }
+    ],
+    "el-ritmo-de-los-vasos-q3": [
+      {
+        "paragraph": 4,
+        "text": "Cuando oye «dos» y «cuatro», levanta un poco el vaso y golpea la mesa suavemente con la base."
+      }
+    ],
+    "el-ritmo-de-los-vasos-q4": [
+      {
+        "paragraph": 3,
+        "text": "Cuando oye «dos» y «cuatro», deja las manos quietas."
+      },
+      {
+        "paragraph": 4,
+        "text": "Cuando oye «dos» y «cuatro», levanta un poco el vaso y golpea la mesa suavemente con la base."
+      }
+    ],
+    "el-ritmo-de-los-vasos-q5": [
+      {
+        "paragraph": 2,
+        "text": "Una persona cuenta en voz alta: «Uno, dos, tres, cuatro». Entre un número y el siguiente debe pasar siempre el mismo tiempo."
+      },
+      {
+        "paragraph": 4,
+        "text": "Seguid contando en voz alta si todavía os cuesta encontrar vuestro momento."
+      }
+    ],
+    "el-ritmo-de-los-vasos-q6": [
+      {
+        "paragraph": 5,
+        "text": "Si os perdéis, volved a empezar más despacio."
+      }
+    ],
+    "el-ritmo-de-los-vasos-q7": [
+      {
+        "paragraph": 5,
+        "text": "Después cambiad de papel: quien daba las palmadas pasa a usar el vaso."
+      }
+    ]
+  },
+  "el-ritmo-de-los-vasos-ca": {
+    "el-ritmo-de-los-vasos-q1": [
+      {
+        "paragraph": 1,
+        "text": "Us calen una taula i dos gots buits de plàstic dur."
+      }
+    ],
+    "el-ritmo-de-los-vasos-q2": [
+      {
+        "paragraph": 3,
+        "text": "La primera persona pica de mans quan sent «un» i «tres»."
+      }
+    ],
+    "el-ritmo-de-los-vasos-q3": [
+      {
+        "paragraph": 4,
+        "text": "Quan sent «dos» i «quatre», aixeca una mica el got i pica suaument la taula amb la base."
+      }
+    ],
+    "el-ritmo-de-los-vasos-q4": [
+      {
+        "paragraph": 3,
+        "text": "Quan sent «dos» i «quatre», deixa les mans quietes."
+      },
+      {
+        "paragraph": 4,
+        "text": "Quan sent «dos» i «quatre», aixeca una mica el got i pica suaument la taula amb la base."
+      }
+    ],
+    "el-ritmo-de-los-vasos-q5": [
+      {
+        "paragraph": 2,
+        "text": "Una persona compta en veu alta: «Un, dos, tres, quatre». Entre un nombre i el següent ha de passar sempre el mateix temps."
+      },
+      {
+        "paragraph": 4,
+        "text": "Continueu comptant en veu alta si encara us costa trobar el vostre moment."
+      }
+    ],
+    "el-ritmo-de-los-vasos-q6": [
+      {
+        "paragraph": 5,
+        "text": "Si us perdeu, comenceu de nou més a poc a poc."
+      }
+    ],
+    "el-ritmo-de-los-vasos-q7": [
+      {
+        "paragraph": 5,
+        "text": "Després canvieu de paper: qui picava de mans passa a fer servir el got."
+      }
+    ]
+  },
+  "la-lata-de-los-lapices-es": {
+    "la-lata-de-los-lapices-q1": [
+      {
+        "paragraph": 1,
+        "text": "Cuando abría la libreta, los lápices rodaban hasta caer al suelo."
+      }
+    ],
+    "la-lata-de-los-lapices-q2": [
+      {
+        "paragraph": 1,
+        "text": "Un día encontró una lata vacía en la estantería."
+      }
+    ],
+    "la-lata-de-los-lapices-q3": [
+      {
+        "paragraph": 2,
+        "text": "Encima dibujó una estrella."
+      }
+    ],
+    "la-lata-de-los-lapices-q4": [
+      {
+        "paragraph": 2,
+        "text": "Comprobó que el borde no cortaba."
+      }
+    ],
+    "la-lata-de-los-lapices-q5": [
+      {
+        "paragraph": 3,
+        "text": "Encontró enseguida el lápiz verde: sobresalía más que los otros."
+      }
+    ]
+  },
+  "la-lata-de-los-lapices-ca": {
+    "la-lata-de-los-lapices-q1": [
+      {
+        "paragraph": 1,
+        "text": "Quan obria la llibreta, els llapis rodolaven fins a terra."
+      }
+    ],
+    "la-lata-de-los-lapices-q2": [
+      {
+        "paragraph": 1,
+        "text": "Un dia va trobar una llauna buida al prestatge."
+      }
+    ],
+    "la-lata-de-los-lapices-q3": [
+      {
+        "paragraph": 2,
+        "text": "A sobre hi va dibuixar una estrella."
+      }
+    ],
+    "la-lata-de-los-lapices-q4": [
+      {
+        "paragraph": 2,
+        "text": "Va comprovar que la vora no tallava."
+      }
+    ],
+    "la-lata-de-los-lapices-q5": [
+      {
+        "paragraph": 3,
+        "text": "Va trobar el llapis verd de seguida: sobresortia més que els altres."
+      }
+    ]
+  },
+  "sombras-en-el-patio-es": {
+    "sombras-en-el-patio-q1": [
+      {
+        "paragraph": 1,
+        "text": "Junto a la canasta había un poste vertical. El sol hacía una sombra larga en el suelo."
+      }
+    ],
+    "sombras-en-el-patio-q2": [
+      {
+        "paragraph": 1,
+        "text": "Vera marcó su punta con tiza amarilla."
+      }
+    ],
+    "sombras-en-el-patio-q3": [
+      {
+        "paragraph": 2,
+        "text": "Al mediodía volvió al patio."
+      },
+      {
+        "paragraph": 2,
+        "text": "Vera hizo una segunda marca, ahora con tiza blanca."
+      }
+    ],
+    "sombras-en-el-patio-q4": [
+      {
+        "paragraph": 1,
+        "text": "Vera marcó su punta con tiza amarilla."
+      },
+      {
+        "paragraph": 2,
+        "text": "Vera hizo una segunda marca, ahora con tiza blanca."
+      }
+    ],
+    "sombras-en-el-patio-q5": [
+      {
+        "paragraph": 2,
+        "text": "El poste estaba en el mismo sitio, pero la sombra era más corta. La punta no llegaba a la marca amarilla. Vera hizo una segunda marca, ahora con tiza blanca."
+      }
+    ]
+  },
+  "sombras-en-el-patio-ca": {
+    "sombras-en-el-patio-q1": [
+      {
+        "paragraph": 1,
+        "text": "Al costat de la cistella hi havia un pal dret. El sol feia una ombra llarga a terra."
+      }
+    ],
+    "sombras-en-el-patio-q2": [
+      {
+        "paragraph": 1,
+        "text": "La Vera en va marcar la punta amb guix groc."
+      }
+    ],
+    "sombras-en-el-patio-q3": [
+      {
+        "paragraph": 2,
+        "text": "Al migdia hi va tornar."
+      },
+      {
+        "paragraph": 2,
+        "text": "La Vera va fer una segona marca, ara amb guix blanc."
+      }
+    ],
+    "sombras-en-el-patio-q4": [
+      {
+        "paragraph": 1,
+        "text": "La Vera en va marcar la punta amb guix groc."
+      },
+      {
+        "paragraph": 2,
+        "text": "La Vera va fer una segona marca, ara amb guix blanc."
+      }
+    ],
+    "sombras-en-el-patio-q5": [
+      {
+        "paragraph": 2,
+        "text": "El pal era al mateix lloc, però l’ombra era més curta. La punta no arribava a la marca groga. La Vera va fer una segona marca, ara amb guix blanc."
+      }
+    ]
+  },
+  "una-barca-para-dos-es": {
+    "una-barca-para-dos-q1": [
+      {
+        "paragraph": 1,
+        "text": "Le puso una vela de papel."
+      }
+    ],
+    "una-barca-para-dos-q2": [
+      {
+        "paragraph": 1,
+        "text": "Marcos trajo dos botones: uno azul y uno rojo."
+      }
+    ],
+    "una-barca-para-dos-q3": [
+      {
+        "paragraph": 2,
+        "text": "Pusieron la barca en un barreño lleno de agua."
+      }
+    ],
+    "una-barca-para-dos-q4": [
+      {
+        "paragraph": 3,
+        "text": "Nora quitó los botones."
+      }
+    ],
+    "una-barca-para-dos-q5": [
+      {
+        "paragraph": 3,
+        "text": "Luego puso uno a cada lado de la vela. Ahora la barca se mantenía derecha."
+      }
+    ]
+  },
+  "una-barca-para-dos-ca": {
+    "una-barca-para-dos-q1": [
+      {
+        "paragraph": 1,
+        "text": "Hi va posar una vela de paper."
+      }
+    ],
+    "una-barca-para-dos-q2": [
+      {
+        "paragraph": 1,
+        "text": "En Marc va portar dos botons: un de blau i un de vermell."
+      }
+    ],
+    "una-barca-para-dos-q3": [
+      {
+        "paragraph": 2,
+        "text": "Van posar la barca en un gibrell ple d’aigua."
+      }
+    ],
+    "una-barca-para-dos-q4": [
+      {
+        "paragraph": 3,
+        "text": "La Nora va treure els botons."
+      }
+    ],
+    "una-barca-para-dos-q5": [
+      {
+        "paragraph": 3,
+        "text": "Després en va posar un a cada costat de la vela. Ara la barca es mantenia dreta."
+      }
+    ]
+  },
+  "el-camino-de-las-flechas-es": {
+    "el-camino-de-las-flechas-q1": [
+      {
+        "paragraph": 1,
+        "text": "La clase de Iu había colgado unas máscaras en la sala grande."
+      }
+    ],
+    "el-camino-de-las-flechas-q2": [
+      {
+        "paragraph": 2,
+        "text": "En la puerta había un cartel que explicaba los colores."
+      }
+    ],
+    "el-camino-de-las-flechas-q3": [
+      {
+        "paragraph": 3,
+        "text": "La primera visitante fue Alba. Al entrar pisó una flecha azul."
+      }
+    ],
+    "el-camino-de-las-flechas-q4": [
+      {
+        "paragraph": 2,
+        "text": "Las verdes volvían hacia la salida."
+      }
+    ],
+    "el-camino-de-las-flechas-q5": [
+      {
+        "paragraph": 3,
+        "text": "Al entrar pisó una flecha azul. La flecha se movió y quedó del revés."
+      },
+      {
+        "paragraph": 3,
+        "text": "Después pegó todas las flechas con cinta. Ahora se podía pasear sin mover ninguna flecha."
+      }
+    ]
+  },
+  "el-camino-de-las-flechas-ca": {
+    "el-camino-de-las-flechas-q1": [
+      {
+        "paragraph": 1,
+        "text": "La classe de l’Iu havia penjat unes màscares a la sala gran."
+      }
+    ],
+    "el-camino-de-las-flechas-q2": [
+      {
+        "paragraph": 2,
+        "text": "A la porta hi havia un cartell que explicava els colors."
+      }
+    ],
+    "el-camino-de-las-flechas-q3": [
+      {
+        "paragraph": 3,
+        "text": "La primera visitant va ser l’Alba. En entrar va trepitjar una fletxa blava."
+      }
+    ],
+    "el-camino-de-las-flechas-q4": [
+      {
+        "paragraph": 2,
+        "text": "Les verdes tornaven cap a la sortida."
+      }
+    ],
+    "el-camino-de-las-flechas-q5": [
+      {
+        "paragraph": 3,
+        "text": "En entrar va trepitjar una fletxa blava. La fletxa es va moure i va quedar del revés."
+      },
+      {
+        "paragraph": 3,
+        "text": "Després va enganxar totes les fletxes amb cinta. Ara es podia passejar sense moure cap fletxa."
+      }
+    ]
+  },
+  "una-pinza-para-cada-calcetin-es": {
+    "una-pinza-para-cada-calcetin-q1": [
+      {
+        "paragraph": 1,
+        "text": "Para ordenarlos solo necesitas unas cuantas pinzas de tender ropa."
+      }
+    ],
+    "una-pinza-para-cada-calcetin-q2": [
+      {
+        "paragraph": 2,
+        "text": "Primero vacía la caja sobre una mesa."
+      }
+    ],
+    "una-pinza-para-cada-calcetin-q3": [
+      {
+        "paragraph": 2,
+        "text": "Busca dos calcetines iguales y júntalos con una pinza."
+      }
+    ],
+    "una-pinza-para-cada-calcetin-q4": [
+      {
+        "paragraph": 3,
+        "text": "Cuando encuentres uno sin pareja, déjalo en la caja."
+      }
+    ],
+    "una-pinza-para-cada-calcetin-q5": [
+      {
+        "paragraph": 3,
+        "text": "Cuando encuentres uno sin pareja, déjalo en la caja. Así podrás encontrarlo si otro día aparece el otro calcetín."
+      }
+    ]
+  },
+  "una-pinza-para-cada-calcetin-ca": {
+    "una-pinza-para-cada-calcetin-q1": [
+      {
+        "paragraph": 1,
+        "text": "Per ordenar-los, només et calen unes quantes pinces d’estendre roba."
+      }
+    ],
+    "una-pinza-para-cada-calcetin-q2": [
+      {
+        "paragraph": 2,
+        "text": "Primer buida la capsa sobre una taula."
+      }
+    ],
+    "una-pinza-para-cada-calcetin-q3": [
+      {
+        "paragraph": 2,
+        "text": "Busca dos mitjons iguals i ajunta’ls amb una pinça."
+      }
+    ],
+    "una-pinza-para-cada-calcetin-q4": [
+      {
+        "paragraph": 3,
+        "text": "Quan en trobis un que no té parella, deixa’l a la capsa."
+      }
+    ],
+    "una-pinza-para-cada-calcetin-q5": [
+      {
+        "paragraph": 3,
+        "text": "Quan en trobis un que no té parella, deixa’l a la capsa. Així el podràs trobar si un altre dia apareix l’altre mitjó."
+      }
+    ]
+  },
+  "el-pan-de-la-merienda-es": {
+    "el-pan-de-la-merienda-q1": [
+      {
+        "paragraph": 1,
+        "text": "Tenían que hacer cinco bocadillos: tres de queso y dos de tomate."
+      }
+    ],
+    "el-pan-de-la-merienda-q2": [
+      {
+        "paragraph": 2,
+        "text": "La abuela sacó dos bandejas."
+      }
+    ],
+    "el-pan-de-la-merienda-q3": [
+      {
+        "paragraph": 3,
+        "text": "Jana pidió uno de tomate."
+      }
+    ],
+    "el-pan-de-la-merienda-q4": [
+      {
+        "paragraph": 2,
+        "text": "Pau dejó los bocadillos de queso en la bandeja amarilla."
+      }
+    ],
+    "el-pan-de-la-merienda-q5": [
+      {
+        "paragraph": 2,
+        "text": "Pau dejó los bocadillos de queso en la bandeja amarilla. Puso los de tomate en la roja."
+      },
+      {
+        "paragraph": 3,
+        "text": "Pau le dio uno de la bandeja roja sin tener que abrir ningún pan."
+      }
+    ]
+  },
+  "el-pan-de-la-merienda-ca": {
+    "el-pan-de-la-merienda-q1": [
+      {
+        "paragraph": 1,
+        "text": "Havien de fer cinc entrepans: tres de formatge i dos de tomàquet."
+      }
+    ],
+    "el-pan-de-la-merienda-q2": [
+      {
+        "paragraph": 2,
+        "text": "L’àvia va treure dues safates."
+      }
+    ],
+    "el-pan-de-la-merienda-q3": [
+      {
+        "paragraph": 3,
+        "text": "La Jana va demanar un entrepà de tomàquet."
+      }
+    ],
+    "el-pan-de-la-merienda-q4": [
+      {
+        "paragraph": 2,
+        "text": "En Pau va deixar els entrepans de formatge a la safata groga."
+      }
+    ],
+    "el-pan-de-la-merienda-q5": [
+      {
+        "paragraph": 2,
+        "text": "En Pau va deixar els entrepans de formatge a la safata groga. Va posar els de tomàquet a la vermella."
+      },
+      {
+        "paragraph": 3,
+        "text": "En Pau li’n va donar un de la safata vermella sense haver d’obrir cap pa."
+      }
+    ]
+  },
   "el-agua-que-llegaba-a-la-ciudad-es": {
     "agua-q1": [
       {

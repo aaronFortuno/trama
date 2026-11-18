@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.41.4 · 18 de novembre del 2026
+
+Estenguem les pistes de resposta fins a la L128 en tots dos idiomes: també s’hi incorporen els textos de 3r, amb referències breus i adaptades a cada pregunta.
+
 ## 1.41.3 · 18 de novembre del 2026
 
 Les marques de suport al solucionari ja cobreixen les L001–L100 en català i castellà, incloent-hi les lectures llargues i les pistes que cal relacionar entre paràgrafs.

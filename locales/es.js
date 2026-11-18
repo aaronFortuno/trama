@@ -60,6 +60,8 @@ v1.41.2 · Obre l’historial de canvis|v1.41.2 · Abrir el historial de cambios
 Ampliem les pistes del solucionari fins a la L076, amb fragments revisats en català i castellà i indicis combinats per a les preguntes d’inferència.|Ampliamos las pistas del solucionario hasta la L076, con fragmentos revisados en catalán y castellano e indicios combinados para las preguntas de inferencia.
 v1.41.3 · Obre l’historial de canvis|v1.41.3 · Abrir el historial de cambios
 Les marques de suport al solucionari ja cobreixen les L001–L100 en català i castellà, incloent-hi les lectures llargues i les pistes que cal relacionar entre paràgrafs.|Las marcas de apoyo del solucionario ya cubren las L001–L100 en catalán y castellano, incluidas las lecturas largas y las pistas que hay que relacionar entre párrafos.
+v1.41.4 · Obre l’historial de canvis|v1.41.4 · Abrir el historial de cambios
+Estenguem les pistes de resposta fins a la L128 en tots dos idiomes: també s’hi incorporen els textos de 3r, amb referències breus i adaptades a cada pregunta.|Extendemos las pistas de respuesta hasta la L128 en ambos idiomas: también se incorporan los textos de 3.º, con referencias breves y adaptadas a cada pregunta.
 Catàleg de lectures|Catálogo de lecturas
 Cerca al catàleg|Buscar en el catálogo
 Cerca per títol, codi o tema|Buscar por título, código o tema
