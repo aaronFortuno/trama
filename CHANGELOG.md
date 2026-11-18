@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.41.5 · 18 de novembre del 2026
+
+Completem la revisió de pistes fins a la L150 en català i castellà, amb marques per localitzar informació literal, vocabulari i indicis d’inferència.
+
 ## 1.41.4 · 18 de novembre del 2026
 
 Estenguem les pistes de resposta fins a la L128 en tots dos idiomes: també s’hi incorporen els textos de 3r, amb referències breus i adaptades a cada pregunta.
