@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.42.1 · Obre l’historial de canvis|v1.42.1 · Abrir el historial de cambios
+L’enllaç al changelog complet obre l’historial del repositori a GitHub.|El enlace al historial completo abre el historial del repositorio en GitHub.
 Pistes al text|Pistas en el texto
 Ressalta els fragments al solucionari|Resalta los fragmentos en el solucionario
 El color i el número relacionen cada fragment amb la seva pregunta. Les marques només surten al solucionari.|El color y el número relacionan cada fragmento con su pregunta. Las marcas solo aparecen en el solucionario.
