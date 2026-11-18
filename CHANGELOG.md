@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.41.7 · 18 de novembre del 2026
+
+Ampliem les pistes revisades del solucionari fins a la L204 en tots dos idiomes, mantenint la numeració i els colors quan s’exclouen preguntes.
+
 ## 1.41.6 · 18 de novembre del 2026
 
 Les pistes del solucionari arriben a la L180 en català i castellà. Revisem també les preguntes que demanen relacionar una observació, una mesura o una decisió amb la seva explicació.

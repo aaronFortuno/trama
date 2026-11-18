@@ -16764,6 +16764,2630 @@ export const answerEvidence = {
       }
     ]
   },
+  "la-tienda-de-los-ecos-es": {
+    "la-tienda-de-los-ecos-q1": [
+      {
+        "paragraph": 2,
+        "text": "Quería llevarle el sonido del mar a su hermano, que aún no lo había visto."
+      }
+    ],
+    "la-tienda-de-los-ecos-q2": [
+      {
+        "paragraph": 2,
+        "text": "«Destápalo donde quieras guardar un sonido. Después vuelve a taparlo."
+      }
+    ],
+    "la-tienda-de-los-ecos-q3": [
+      {
+        "paragraph": 2,
+        "text": "La tendera buscó en el estante azul, pero no quedaba ningún tarro de olas. Le ofreció uno vacío. «Destápalo donde quieras guardar un sonido."
+      }
+    ],
+    "la-tienda-de-los-ecos-q4": [
+      {
+        "paragraph": 1,
+        "text": "Yara abrió uno muy pequeño y oyó una carcajada tan profunda que el tarro le tembló entre los dedos."
+      }
+    ],
+    "la-tienda-de-los-ecos-q5": [
+      {
+        "paragraph": 4,
+        "text": "Primero oyó un golpe de agua. Después, una risa que ya conocía. «¿El mar se ríe como tú?», preguntó."
+      }
+    ],
+    "la-tienda-de-los-ecos-q6": [
+      {
+        "paragraph": 3,
+        "text": "Cuando llegó, el agua le mojó los pies. Empezó a reírse y saltó hasta otra roca antes de acordarse del tarro."
+      },
+      {
+        "paragraph": 4,
+        "text": "Yara miró los calcetines tendidos en el balcón."
+      }
+    ],
+    "la-tienda-de-los-ecos-q7": [
+      {
+        "paragraph": 4,
+        "text": "Le contó lo que había pasado y le propuso ir juntos. Su hermano se acercó otra vez el tarro al oído. Esta vez empezó a reírse antes de que sonara el eco."
+      }
+    ]
+  },
+  "la-tienda-de-los-ecos-ca": {
+    "la-tienda-de-los-ecos-q1": [
+      {
+        "paragraph": 2,
+        "text": "Volia portar el so del mar al seu germà, que encara no l’havia vist."
+      }
+    ],
+    "la-tienda-de-los-ecos-q2": [
+      {
+        "paragraph": 2,
+        "text": "«Destapa’l allà on vulguis guardar un so. Després torna’l a tapar."
+      }
+    ],
+    "la-tienda-de-los-ecos-q3": [
+      {
+        "paragraph": 2,
+        "text": "La botiguera va buscar a la prestatgeria blava, però no hi quedava cap pot d’onades. Li va oferir un pot buit. «Destapa’l allà on vulguis guardar un so."
+      }
+    ],
+    "la-tienda-de-los-ecos-q4": [
+      {
+        "paragraph": 1,
+        "text": "La Yara en va obrir un de molt petit i va sentir una rialla tan fonda que el pot li va tremolar entre els dits."
+      }
+    ],
+    "la-tienda-de-los-ecos-q5": [
+      {
+        "paragraph": 4,
+        "text": "Primer va sentir un cop d’aigua. Després, una rialla que ja coneixia. «El mar riu com tu?», va preguntar."
+      }
+    ],
+    "la-tienda-de-los-ecos-q6": [
+      {
+        "paragraph": 3,
+        "text": "Quan va arribar, l’aigua li va mullar els peus. Va començar a riure i va saltar fins a una altra roca abans de recordar-se del pot."
+      },
+      {
+        "paragraph": 4,
+        "text": "La Yara va mirar els mitjons estesos al balcó."
+      }
+    ],
+    "la-tienda-de-los-ecos-q7": [
+      {
+        "paragraph": 4,
+        "text": "Li va explicar què havia passat i li va proposar que hi anessin plegats. El germà va acostar el pot a l’orella un altre cop. Aquesta vegada va començar a riure abans que sonés l’eco."
+      }
+    ]
+  },
+  "la-piedra-que-pesaba-poco-es": {
+    "la-piedra-que-pesaba-poco-q1": [
+      {
+        "paragraph": 1,
+        "text": "Tenían un tamaño parecido, pero al cogerlas Marc notó que una pesaba mucho menos."
+      }
+    ],
+    "la-piedra-que-pesaba-poco-q2": [
+      {
+        "paragraph": 3,
+        "text": "La guía dejó la piedra clara en un recipiente con agua. Aquel fragmento flotaba."
+      }
+    ],
+    "la-piedra-que-pesaba-poco-q3": [
+      {
+        "paragraph": 1,
+        "text": "La más ligera era clara y tenía agujeritos por toda la superficie. La otra era oscura y compacta."
+      },
+      {
+        "paragraph": 2,
+        "text": "Los huecos de las burbujas dan a la roca un aspecto de esponja. Parte de su volumen es espacio vacío."
+      }
+    ],
+    "la-piedra-que-pesaba-poco-q4": [
+      {
+        "paragraph": 2,
+        "text": "Los huecos de las burbujas dan a la roca un aspecto de esponja. Parte de su volumen es espacio vacío. Por eso un fragmento puede ser muy ligero comparado con una roca compacta del mismo tamaño."
+      }
+    ],
+    "la-piedra-que-pesaba-poco-q5": [
+      {
+        "paragraph": 3,
+        "text": "Después puso la piedra oscura, que se hundió."
+      },
+      {
+        "paragraph": 3,
+        "text": "La guía señaló la piedra oscura: también procedía de un volcán."
+      }
+    ],
+    "la-piedra-que-pesaba-poco-q6": [
+      {
+        "paragraph": 1,
+        "text": "Marc dijo que la clara debía de ser una piedra falsa hecha para la exposición."
+      },
+      {
+        "paragraph": 4,
+        "text": "La primera frase de su explicación ya no decía que fuera falsa. Decía: «No puedo saber si una piedra es de verdad solo mirando su tamaño y notando su peso». Debajo dejó sitio para anotar también su aspecto."
+      }
+    ],
+    "la-piedra-que-pesaba-poco-q7": [
+      {
+        "paragraph": 2,
+        "text": "Se forma cuando un material fundido del volcán, lleno de burbujas de gas, se enfría y se vuelve sólido. Los huecos de las burbujas dan a la roca un aspecto de esponja. Parte de su volumen es espacio vacío. Por eso un fragmento puede ser muy ligero comparado con una roca compacta del mismo tamaño."
+      }
+    ]
+  },
+  "la-piedra-que-pesaba-poco-ca": {
+    "la-piedra-que-pesaba-poco-q1": [
+      {
+        "paragraph": 1,
+        "text": "Eren de mida semblant, però quan en Marc les va agafar va notar que una pesava molt menys."
+      }
+    ],
+    "la-piedra-que-pesaba-poco-q2": [
+      {
+        "paragraph": 3,
+        "text": "La guia va deixar la pedra clara en un recipient amb aigua. Aquell tros flotava."
+      }
+    ],
+    "la-piedra-que-pesaba-poco-q3": [
+      {
+        "paragraph": 1,
+        "text": "La més lleugera era clara i tenia foradets per tota la superfície. L’altra era fosca i compacta."
+      },
+      {
+        "paragraph": 2,
+        "text": "Les cavitats de les bombolles donen a la roca un aspecte d’esponja. Una part del seu volum és espai buit."
+      }
+    ],
+    "la-piedra-que-pesaba-poco-q4": [
+      {
+        "paragraph": 2,
+        "text": "Les cavitats de les bombolles donen a la roca un aspecte d’esponja. Una part del seu volum és espai buit. Per això un tros pot ser molt lleuger en comparació amb una roca compacta de la mateixa mida."
+      }
+    ],
+    "la-piedra-que-pesaba-poco-q5": [
+      {
+        "paragraph": 3,
+        "text": "Després hi va posar la pedra fosca, que es va enfonsar."
+      },
+      {
+        "paragraph": 3,
+        "text": "La guia va assenyalar la pedra fosca: també procedia d’un volcà."
+      }
+    ],
+    "la-piedra-que-pesaba-poco-q6": [
+      {
+        "paragraph": 1,
+        "text": "En Marc va dir que la clara devia ser una pedra falsa feta per a l’exposició."
+      },
+      {
+        "paragraph": 4,
+        "text": "La primera frase de la seva explicació ja no deia que fos falsa. Deia: «No puc saber si una pedra és de veritat només mirant la mida i notant-ne el pes». A sota va deixar espai per anotar-ne també l’aspecte."
+      }
+    ],
+    "la-piedra-que-pesaba-poco-q7": [
+      {
+        "paragraph": 2,
+        "text": "Es forma quan un material fos del volcà, ple de bombolles de gas, es refreda i queda sòlid. Les cavitats de les bombolles donen a la roca un aspecte d’esponja. Una part del seu volum és espai buit. Per això un tros pot ser molt lleuger en comparació amb una roca compacta de la mateixa mida."
+      }
+    ]
+  },
+  "una-foto-para-recordar-el-tamano-es": {
+    "una-foto-para-recordar-el-tamano-q1": [
+      {
+        "paragraph": 2,
+        "text": "Pon una regla plana al lado, tan cerca como puedas sin tapar la piedra."
+      }
+    ],
+    "una-foto-para-recordar-el-tamano-q2": [
+      {
+        "paragraph": 4,
+        "text": "Guárdalas juntas con una nota del lugar y el día del hallazgo."
+      }
+    ],
+    "una-foto-para-recordar-el-tamano-q3": [
+      {
+        "paragraph": 2,
+        "text": "Pon una regla plana al lado, tan cerca como puedas sin tapar la piedra. La regla y la piedra deben quedar en la misma superficie. Si sujetas la regla mucho más cerca de la cámara, en la imagen parecerá demasiado grande junto a la piedra."
+      },
+      {
+        "paragraph": 4,
+        "text": "La primera te ayudará a recordar el tamaño."
+      }
+    ],
+    "una-foto-para-recordar-el-tamano-q4": [
+      {
+        "paragraph": 1,
+        "text": "Si llenas toda la imagen con la piedra, se verán bien las rayas, pero quien mire la foto no sabrá si era pequeña como una uña o grande como un puño."
+      }
+    ],
+    "una-foto-para-recordar-el-tamano-q5": [
+      {
+        "paragraph": 2,
+        "text": "Si sujetas la regla mucho más cerca de la cámara, en la imagen parecerá demasiado grande junto a la piedra."
+      }
+    ],
+    "una-foto-para-recordar-el-tamano-q6": [
+      {
+        "paragraph": 4,
+        "text": "Haz dos fotografías: una del conjunto con la regla y otra más cercana para ver los detalles."
+      },
+      {
+        "paragraph": 4,
+        "text": "La primera te ayudará a recordar el tamaño. La segunda permitirá mirar las rayas sin perderlas entre tantos otros elementos."
+      }
+    ],
+    "una-foto-para-recordar-el-tamano-q7": [
+      {
+        "paragraph": 3,
+        "text": "Antes de disparar, comprueba que tu sombra no tape las rayas. Puedes mover la hoja a un lugar con una luz más uniforme para que las rayas se vean bien, sin zonas muy oscuras ni reflejos que las escondan."
+      }
+    ],
+    "una-foto-para-recordar-el-tamano-q8": [
+      {
+        "paragraph": 4,
+        "text": "Guárdalas juntas con una nota del lugar y el día del hallazgo. La primera te ayudará a recordar el tamaño."
+      }
+    ]
+  },
+  "una-foto-para-recordar-el-tamano-ca": {
+    "una-foto-para-recordar-el-tamano-q1": [
+      {
+        "paragraph": 2,
+        "text": "Posa-hi un regle pla al costat, tan a prop com puguis sense tapar la pedra."
+      }
+    ],
+    "una-foto-para-recordar-el-tamano-q2": [
+      {
+        "paragraph": 4,
+        "text": "Guarda-les juntes amb una nota del lloc i el dia de la troballa."
+      }
+    ],
+    "una-foto-para-recordar-el-tamano-q3": [
+      {
+        "paragraph": 2,
+        "text": "Posa-hi un regle pla al costat, tan a prop com puguis sense tapar la pedra. El regle i la pedra han de quedar a la mateixa superfície. Si aguantes el regle molt més a prop de la càmera, a la imatge semblarà massa gran al costat de la pedra."
+      },
+      {
+        "paragraph": 4,
+        "text": "La primera t’ajudarà a recordar la mida."
+      }
+    ],
+    "una-foto-para-recordar-el-tamano-q4": [
+      {
+        "paragraph": 1,
+        "text": "Si omples tota la imatge amb la pedra, es veuran bé les ratlles, però qui miri la foto no sabrà si era petita com una ungla o grossa com un puny."
+      }
+    ],
+    "una-foto-para-recordar-el-tamano-q5": [
+      {
+        "paragraph": 2,
+        "text": "Si aguantes el regle molt més a prop de la càmera, a la imatge semblarà massa gran al costat de la pedra."
+      }
+    ],
+    "una-foto-para-recordar-el-tamano-q6": [
+      {
+        "paragraph": 4,
+        "text": "Fes dues fotografies: una del conjunt amb el regle i una de més a prop per veure els detalls."
+      },
+      {
+        "paragraph": 4,
+        "text": "La primera t’ajudarà a recordar la mida. La segona et permetrà mirar les ratlles sense perdre-les entre tants altres elements."
+      }
+    ],
+    "una-foto-para-recordar-el-tamano-q7": [
+      {
+        "paragraph": 3,
+        "text": "Abans de disparar, comprova que la teva ombra no tapi les ratlles. Pots moure el full a un lloc amb llum més uniforme perquè les ratlles es vegin bé, sense zones molt fosques ni reflexos que les amaguin."
+      }
+    ],
+    "una-foto-para-recordar-el-tamano-q8": [
+      {
+        "paragraph": 4,
+        "text": "Guarda-les juntes amb una nota del lloc i el dia de la troballa. La primera t’ajudarà a recordar la mida."
+      }
+    ]
+  },
+  "una-carta-para-el-ropero-es": {
+    "una-carta-para-el-ropero-q1": [
+      {
+        "paragraph": 2,
+        "text": "El sábado abriremos el ropero de intercambio en el centro vecinal."
+      },
+      {
+        "paragraph": 3,
+        "text": "El miércoles, dos personas que saben coser nos ayudarán a revisarlas."
+      }
+    ],
+    "una-carta-para-el-ropero-q2": [
+      {
+        "paragraph": 4,
+        "text": "Ayer encontramos una piedra pintada y una fotografía de carnet."
+      }
+    ],
+    "una-carta-para-el-ropero-q3": [
+      {
+        "paragraph": 2,
+        "text": "Ayer empezamos a clasificar las prendas que ya habéis traído. Había muchas chaquetas pequeñas y pocos pantalones grandes. Por eso hemos añadido las tallas que nos faltan al cartel de la entrada."
+      },
+      {
+        "paragraph": 3,
+        "text": "También encontramos ropa con un botón desprendido o una costura abierta. Son prendas que podrían volver a usarse con un arreglo sencillo, pero no podemos ponerlas directamente en las mesas como si ya estuvieran listas. Las dejamos en una caja separada."
+      }
+    ],
+    "una-carta-para-el-ropero-q4": [
+      {
+        "paragraph": 2,
+        "text": "Había muchas chaquetas pequeñas y pocos pantalones grandes. Por eso hemos añadido las tallas que nos faltan al cartel de la entrada. Antes de preparar otra bolsa, podéis mirarlo: quizá tengáis justo una prenda que alguien está buscando."
+      }
+    ],
+    "una-carta-para-el-ropero-q5": [
+      {
+        "paragraph": 3,
+        "text": "También encontramos ropa con un botón desprendido o una costura abierta. Son prendas que podrían volver a usarse con un arreglo sencillo, pero no podemos ponerlas directamente en las mesas como si ya estuvieran listas. Las dejamos en una caja separada."
+      }
+    ],
+    "una-carta-para-el-ropero-q6": [
+      {
+        "paragraph": 4,
+        "text": "Os pedimos que traigáis la ropa limpia y miréis los bolsillos antes de donarla. Ayer encontramos una piedra pintada y una fotografía de carnet. Las guardaremos en recepción para que sus dueños puedan recuperarlas sin abrir todas las cajas."
+      }
+    ],
+    "una-carta-para-el-ropero-q7": [
+      {
+        "paragraph": 3,
+        "text": "El miércoles, dos personas que saben coser nos ayudarán a revisarlas. Si queréis aprender a poner un botón, podéis venir."
+      },
+      {
+        "paragraph": 5,
+        "text": "Necesitamos prendas que se puedan usar, tallas variadas y algo de tiempo para ordenarlo todo."
+      }
+    ]
+  },
+  "una-carta-para-el-ropero-ca": {
+    "una-carta-para-el-ropero-q1": [
+      {
+        "paragraph": 2,
+        "text": "Dissabte obrirem el rober d’intercanvi al casal."
+      },
+      {
+        "paragraph": 3,
+        "text": "Dimecres, dues persones que saben cosir ens ajudaran a revisar-les."
+      }
+    ],
+    "una-carta-para-el-ropero-q2": [
+      {
+        "paragraph": 4,
+        "text": "Ahir hi vam trobar una pedra pintada i una fotografia de carnet."
+      }
+    ],
+    "una-carta-para-el-ropero-q3": [
+      {
+        "paragraph": 2,
+        "text": "Ahir vam començar a classificar les peces que ja heu portat. Hi havia moltes jaquetes petites i pocs pantalons grans. Per això hem afegit les talles que ens falten al cartell de l’entrada."
+      },
+      {
+        "paragraph": 3,
+        "text": "Hem trobat també roba amb un botó desprès o una costura oberta. Són peces que es podrien tornar a portar amb una reparació senzilla, però no les podem posar directament a les taules com si ja estiguessin a punt. Les hem deixat en una capsa separada."
+      }
+    ],
+    "una-carta-para-el-ropero-q4": [
+      {
+        "paragraph": 2,
+        "text": "Hi havia moltes jaquetes petites i pocs pantalons grans. Per això hem afegit les talles que ens falten al cartell de l’entrada. Abans de preparar una bossa nova, podeu mirar-lo: potser teniu justament una peça que algú està buscant."
+      }
+    ],
+    "una-carta-para-el-ropero-q5": [
+      {
+        "paragraph": 3,
+        "text": "Hem trobat també roba amb un botó desprès o una costura oberta. Són peces que es podrien tornar a portar amb una reparació senzilla, però no les podem posar directament a les taules com si ja estiguessin a punt. Les hem deixat en una capsa separada."
+      }
+    ],
+    "una-carta-para-el-ropero-q6": [
+      {
+        "paragraph": 4,
+        "text": "Us demanem que porteu la roba neta i que mireu les butxaques abans de donar-la. Ahir hi vam trobar una pedra pintada i una fotografia de carnet. Les guardarem a la recepció perquè els seus propietaris les puguin recuperar sense haver d’obrir totes les caixes."
+      }
+    ],
+    "una-carta-para-el-ropero-q7": [
+      {
+        "paragraph": 3,
+        "text": "Dimecres, dues persones que saben cosir ens ajudaran a revisar-les. Si voleu aprendre a posar un botó, hi podeu venir."
+      },
+      {
+        "paragraph": 5,
+        "text": "Necessitem peces que es puguin fer servir, talles variades i una mica de temps per ordenar-ho tot."
+      }
+    ]
+  },
+  "la-cartografa-de-los-olores-es": {
+    "la-cartografa-de-los-olores-q1": [
+      {
+        "paragraph": 2,
+        "text": "Estamos ante la biblioteca."
+      }
+    ],
+    "la-cartografa-de-los-olores-q2": [
+      {
+        "paragraph": 3,
+        "text": "En cambio, junto a la floristería, la lluvia había mojado unas macetas y olía a tierra húmeda."
+      }
+    ],
+    "la-cartografa-de-los-olores-q3": [
+      {
+        "paragraph": 5,
+        "text": "—El papel puede durar. Lo que representa es más efímero. El viento, la hora o una puerta cerrada pueden cambiar lo que percibimos en la misma calle."
+      }
+    ],
+    "la-cartografa-de-los-olores-q4": [
+      {
+        "paragraph": 3,
+        "text": "—Si hoy huele a pan, sí. Ayer por la tarde estaba cerrado y no notaba nada."
+      }
+    ],
+    "la-cartografa-de-los-olores-q5": [
+      {
+        "paragraph": 4,
+        "text": "Alguien reconocerá el romero porque lo tiene en casa. Otro solo dirá que huele a planta."
+      }
+    ],
+    "la-cartografa-de-los-olores-q6": [
+      {
+        "paragraph": 2,
+        "text": "Dibujamos una estrella y apuntamos la hora."
+      },
+      {
+        "paragraph": 5,
+        "text": "El viento, la hora o una puerta cerrada pueden cambiar lo que percibimos en la misma calle. Por eso no pondremos solo los símbolos: también añadiremos cuándo hemos pasado por cada lugar."
+      }
+    ],
+    "la-cartografa-de-los-olores-q7": [
+      {
+        "paragraph": 5,
+        "text": "El viento, la hora o una puerta cerrada pueden cambiar lo que percibimos en la misma calle."
+      },
+      {
+        "paragraph": 6,
+        "text": "—Que lleve una copia y otro color. Si encuentra diferencias, no hace falta decidir enseguida qué grupo se ha equivocado. Primero tendremos que preguntarnos qué había cambiado."
+      }
+    ]
+  },
+  "la-cartografa-de-los-olores-ca": {
+    "la-cartografa-de-los-olores-q1": [
+      {
+        "paragraph": 2,
+        "text": "Som davant de la biblioteca."
+      }
+    ],
+    "la-cartografa-de-los-olores-q2": [
+      {
+        "paragraph": 3,
+        "text": "En canvi, al costat de la floristeria, la pluja havia mullat uns testos i feia olor de terra humida."
+      }
+    ],
+    "la-cartografa-de-los-olores-q3": [
+      {
+        "paragraph": 5,
+        "text": "—El paper pot durar. El que representa és més efímer. El vent, l’hora o una porta tancada poden canviar el que sentim al mateix carrer."
+      }
+    ],
+    "la-cartografa-de-los-olores-q4": [
+      {
+        "paragraph": 3,
+        "text": "—Si avui hi sentim olor de pa, sí. Ahir a la tarda era tancat i no hi notava res."
+      }
+    ],
+    "la-cartografa-de-los-olores-q5": [
+      {
+        "paragraph": 4,
+        "text": "Algú hi reconeixerà el romaní perquè en té a casa. Un altre només dirà que fa olor de planta."
+      }
+    ],
+    "la-cartografa-de-los-olores-q6": [
+      {
+        "paragraph": 2,
+        "text": "Hi dibuixem una estrella i apuntem l’hora."
+      },
+      {
+        "paragraph": 5,
+        "text": "El vent, l’hora o una porta tancada poden canviar el que sentim al mateix carrer. Per això no hi posarem només els símbols: també hi afegirem quan hem passat per cada lloc."
+      }
+    ],
+    "la-cartografa-de-los-olores-q7": [
+      {
+        "paragraph": 5,
+        "text": "El vent, l’hora o una porta tancada poden canviar el que sentim al mateix carrer."
+      },
+      {
+        "paragraph": 6,
+        "text": "—Que s’emporti una còpia i un altre color. Si hi troba diferències, no cal decidir de seguida quin grup s’ha equivocat. Primer ens haurem de preguntar què havia canviat."
+      }
+    ]
+  },
+  "un-tablero-para-ganar-juntos-es": {
+    "un-tablero-para-ganar-juntos-q1": [
+      {
+        "paragraph": 1,
+        "text": "En el centro vecinal hemos probado un juego cooperativo inventado por el grupo de quinto."
+      }
+    ],
+    "un-tablero-para-ganar-juntos-q2": [
+      {
+        "paragraph": 1,
+        "text": "Todos los peones deben llegar a la otra orilla del río antes de que se termine el montón de cartas."
+      }
+    ],
+    "un-tablero-para-ganar-juntos-q3": [
+      {
+        "paragraph": 1,
+        "text": "Pueden jugar cuatro personas, pero no hay un ganador por color. Todos los peones deben llegar a la otra orilla del río antes de que se termine el montón de cartas."
+      },
+      {
+        "paragraph": 3,
+        "text": "Según las reglas, habíamos perdido todos."
+      }
+    ],
+    "un-tablero-para-ganar-juntos-q4": [
+      {
+        "paragraph": 1,
+        "text": "Todos los peones deben llegar a la otra orilla del río antes de que se termine el montón de cartas."
+      },
+      {
+        "paragraph": 3,
+        "text": "Llegué pronto a la otra orilla, pero se terminaron las cartas cuando mi compañera aún estaba en medio del río. Según las reglas, habíamos perdido todos."
+      }
+    ],
+    "un-tablero-para-ganar-juntos-q5": [
+      {
+        "paragraph": 2,
+        "text": "La madera puede guardarse en una caja común. Cualquier jugador puede gastarla en su turno, aunque otra persona haya conseguido la carta."
+      }
+    ],
+    "un-tablero-para-ganar-juntos-q6": [
+      {
+        "paragraph": 4,
+        "text": "Cambiaría una cosa: las cartas de agua tienen dibujos demasiado parecidos y a veces las confundimos. Los creadores han dicho que añadirán un símbolo más grande."
+      }
+    ],
+    "un-tablero-para-ganar-juntos-q7": [
+      {
+        "paragraph": 3,
+        "text": "En la primera partida, yo solo miraba mi peón."
+      },
+      {
+        "paragraph": 3,
+        "text": "En la segunda decidimos hablar antes de gastar la madera. Mi última pieza sirvió para terminar el puente de otra jugadora."
+      }
+    ]
+  },
+  "un-tablero-para-ganar-juntos-ca": {
+    "un-tablero-para-ganar-juntos-q1": [
+      {
+        "paragraph": 1,
+        "text": "Al casal hem provat un joc cooperatiu inventat pel grup de cinquè."
+      }
+    ],
+    "un-tablero-para-ganar-juntos-q2": [
+      {
+        "paragraph": 1,
+        "text": "Tots els peons han d’arribar a l’altra banda del riu abans que s’acabi la pila de cartes."
+      }
+    ],
+    "un-tablero-para-ganar-juntos-q3": [
+      {
+        "paragraph": 1,
+        "text": "Hi poden jugar quatre persones, però no hi ha un guanyador per color. Tots els peons han d’arribar a l’altra banda del riu abans que s’acabi la pila de cartes."
+      },
+      {
+        "paragraph": 3,
+        "text": "Segons les regles, havíem perdut tots."
+      }
+    ],
+    "un-tablero-para-ganar-juntos-q4": [
+      {
+        "paragraph": 1,
+        "text": "Tots els peons han d’arribar a l’altra banda del riu abans que s’acabi la pila de cartes."
+      },
+      {
+        "paragraph": 3,
+        "text": "Vaig arribar a l’altra riba aviat, però la pila es va acabar quan la meva companya encara era al mig del riu. Segons les regles, havíem perdut tots."
+      }
+    ],
+    "un-tablero-para-ganar-juntos-q5": [
+      {
+        "paragraph": 2,
+        "text": "La fusta es pot guardar en una capsa comuna. Qualsevol jugador en pot gastar quan li toca, encara que la carta l’hagi aconseguida una altra persona."
+      }
+    ],
+    "un-tablero-para-ganar-juntos-q6": [
+      {
+        "paragraph": 4,
+        "text": "Hi canviaria una cosa: les cartes d’aigua tenen dibuixos massa semblants i de vegades les confonem. Els creadors han dit que hi afegiran un símbol més gran."
+      }
+    ],
+    "un-tablero-para-ganar-juntos-q7": [
+      {
+        "paragraph": 3,
+        "text": "A la primera partida, jo només mirava el meu peó."
+      },
+      {
+        "paragraph": 3,
+        "text": "A la segona vam decidir parlar abans de gastar la fusta. La meva última peça va servir per acabar el pont d’una altra jugadora."
+      }
+    ]
+  },
+  "el-dibujo-que-viajo-en-autobus-es": {
+    "el-dibujo-que-viajo-en-autobus-q1": [
+      {
+        "paragraph": 1,
+        "text": "Los originales siguen en la escuela."
+      }
+    ],
+    "el-dibujo-que-viajo-en-autobus-q2": [
+      {
+        "paragraph": 2,
+        "text": "La propuesta empezó cuando la conductora de una de las rutas visitó la exposición del pasillo. Reconoció el mercado, la fuente y el puente que veía cada día desde el volante. Preguntó si la escuela podía preparar una versión más pequeña para el autobús."
+      }
+    ],
+    "el-dibujo-que-viajo-en-autobus-q3": [
+      {
+        "paragraph": 3,
+        "text": "Oriol había dibujado a su abuela en el balcón. En el primer boceto, las manos y las macetas eran tan pequeñas que no se distinguían desde el asiento de delante. Amplió la figura y dejó menos detalles en la pared."
+      }
+    ],
+    "el-dibujo-que-viajo-en-autobus-q4": [
+      {
+        "paragraph": 2,
+        "text": "Antes de montarla, los alumnos probaron los dibujos desde la distancia a la que estarían los pasajeros."
+      },
+      {
+        "paragraph": 3,
+        "text": "En el primer boceto, las manos y las macetas eran tan pequeñas que no se distinguían desde el asiento de delante."
+      }
+    ],
+    "el-dibujo-que-viajo-en-autobus-q5": [
+      {
+        "paragraph": 3,
+        "text": "Su abuela no suele ir a la escuela, pero utiliza aquella línea dos días por semana."
+      }
+    ],
+    "el-dibujo-que-viajo-en-autobus-q6": [
+      {
+        "paragraph": 4,
+        "text": "Le dijeron que había pasado todo el viaje de pie ante el panel, hasta que la conductora le recordó que ya llegaban a su parada."
+      }
+    ],
+    "el-dibujo-que-viajo-en-autobus-q7": [
+      {
+        "paragraph": 3,
+        "text": "Su abuela no suele ir a la escuela, pero utiliza aquella línea dos días por semana."
+      },
+      {
+        "paragraph": 4,
+        "text": "El martes subió al autobús sin saber que encontraría la exposición. Al ver el dibujo, le dijo a la pasajera de al lado: «Ese balcón es el mío»."
+      },
+      {
+        "paragraph": 4,
+        "text": "Le dijeron que había pasado todo el viaje de pie ante el panel, hasta que la conductora le recordó que ya llegaban a su parada."
+      }
+    ]
+  },
+  "el-dibujo-que-viajo-en-autobus-ca": {
+    "el-dibujo-que-viajo-en-autobus-q1": [
+      {
+        "paragraph": 1,
+        "text": "Els originals continuen a l’escola."
+      }
+    ],
+    "el-dibujo-que-viajo-en-autobus-q2": [
+      {
+        "paragraph": 2,
+        "text": "La proposta va començar quan la conductora d’una de les rutes va visitar l’exposició del passadís. Hi va reconèixer el mercat, la font i el pont que veia cada dia des del volant. Va preguntar a l’escola si podrien preparar una versió més petita per a l’autobús."
+      }
+    ],
+    "el-dibujo-que-viajo-en-autobus-q3": [
+      {
+        "paragraph": 3,
+        "text": "L’Oriol havia dibuixat la seva àvia al balcó. Al primer esborrany, les mans i els testos eren tan petits que no es distingien des del seient del davant. Va ampliar la figura i va deixar menys detalls a la paret."
+      }
+    ],
+    "el-dibujo-que-viajo-en-autobus-q4": [
+      {
+        "paragraph": 2,
+        "text": "Abans de muntar-la, els alumnes van provar els dibuixos des de la distància que tindrien els passatgers."
+      },
+      {
+        "paragraph": 3,
+        "text": "Al primer esborrany, les mans i els testos eren tan petits que no es distingien des del seient del davant."
+      }
+    ],
+    "el-dibujo-que-viajo-en-autobus-q5": [
+      {
+        "paragraph": 3,
+        "text": "La seva àvia no acostuma a anar a l’escola, però fa servir aquella línia dos dies per setmana."
+      }
+    ],
+    "el-dibujo-que-viajo-en-autobus-q6": [
+      {
+        "paragraph": 4,
+        "text": "Li van dir que havia anat tota l’estona dreta davant del plafó, fins que la conductora li va recordar que ja arribaven a la seva parada."
+      }
+    ],
+    "el-dibujo-que-viajo-en-autobus-q7": [
+      {
+        "paragraph": 3,
+        "text": "La seva àvia no acostuma a anar a l’escola, però fa servir aquella línia dos dies per setmana."
+      },
+      {
+        "paragraph": 4,
+        "text": "Dimarts va pujar a l’autobús sense saber que hi trobaria l’exposició. En veure el dibuix, va dir a la passatgera del costat: «Aquest balcó és el meu»."
+      },
+      {
+        "paragraph": 4,
+        "text": "Li van dir que havia anat tota l’estona dreta davant del plafó, fins que la conductora li va recordar que ja arribaven a la seva parada."
+      }
+    ]
+  },
+  "un-bosque-de-raices-en-el-agua-es": {
+    "un-bosque-de-raices-en-el-agua-q1": [
+      {
+        "paragraph": 1,
+        "text": "En algunas costas cálidas, los árboles no terminan justo antes de la playa. Forman bosques en terrenos que se inundan con las mareas. Son los manglares, formados por árboles llamados mangles."
+      }
+    ],
+    "un-bosque-de-raices-en-el-agua-q2": [
+      {
+        "paragraph": 2,
+        "text": "El agua puede tener bastante sal y en el suelo inundado hay poco oxígeno."
+      }
+    ],
+    "un-bosque-de-raices-en-el-agua-q3": [
+      {
+        "paragraph": 3,
+        "text": "Entre las raíces encuentran refugio peces pequeños, cangrejos y muchos otros animales. Las raíces complican el paso de depredadores más grandes."
+      }
+    ],
+    "un-bosque-de-raices-en-el-agua-q4": [
+      {
+        "paragraph": 3,
+        "text": "Entre las raíces encuentran refugio peces pequeños, cangrejos y muchos otros animales. Las raíces complican el paso de depredadores más grandes."
+      }
+    ],
+    "un-bosque-de-raices-en-el-agua-q5": [
+      {
+        "paragraph": 3,
+        "text": "Entre las raíces encuentran refugio peces pequeños, cangrejos y muchos otros animales. Las raíces complican el paso de depredadores más grandes. También viven allí organismos adheridos a la madera sumergida. Si solo miramos las copas desde una barca, nos perderemos buena parte de la vida del bosque."
+      }
+    ],
+    "un-bosque-de-raices-en-el-agua-q6": [
+      {
+        "paragraph": 2,
+        "text": "El agua puede tener bastante sal y en el suelo inundado hay poco oxígeno. Los mangles tienen adaptaciones que les permiten vivir en esas condiciones. Algunos impiden que entre mucha sal por las raíces; otros pueden expulsar una parte por las hojas."
+      },
+      {
+        "paragraph": 3,
+        "text": "Entre las raíces encuentran refugio peces pequeños, cangrejos y muchos otros animales. Las raíces complican el paso de depredadores más grandes. También viven allí organismos adheridos a la madera sumergida."
+      }
+    ],
+    "un-bosque-de-raices-en-el-agua-q7": [
+      {
+        "paragraph": 4,
+        "text": "Por eso, cuando se transforma un manglar, no se pierden solo unos árboles. También cambian los lugares donde muchos animales se esconden y alimentan."
+      },
+      {
+        "paragraph": 3,
+        "text": "Entre las raíces encuentran refugio peces pequeños, cangrejos y muchos otros animales. Las raíces complican el paso de depredadores más grandes."
+      }
+    ]
+  },
+  "un-bosque-de-raices-en-el-agua-ca": {
+    "un-bosque-de-raices-en-el-agua-q1": [
+      {
+        "paragraph": 1,
+        "text": "En algunes costes càlides, els arbres no s’acaben just abans de la platja. Formen boscos en terrenys que s’inunden amb les marees. Són els manglars, formats per arbres que anomenem mangles."
+      }
+    ],
+    "un-bosque-de-raices-en-el-agua-q2": [
+      {
+        "paragraph": 2,
+        "text": "L’aigua pot portar força sal i al sòl inundat hi ha poc oxigen."
+      }
+    ],
+    "un-bosque-de-raices-en-el-agua-q3": [
+      {
+        "paragraph": 3,
+        "text": "Entre les arrels hi troben refugi peixos petits, crancs i molts altres animals. Les arrels compliquen el pas de depredadors més grossos."
+      }
+    ],
+    "un-bosque-de-raices-en-el-agua-q4": [
+      {
+        "paragraph": 3,
+        "text": "Entre les arrels hi troben refugi peixos petits, crancs i molts altres animals. Les arrels compliquen el pas de depredadors més grossos."
+      }
+    ],
+    "un-bosque-de-raices-en-el-agua-q5": [
+      {
+        "paragraph": 3,
+        "text": "Entre les arrels hi troben refugi peixos petits, crancs i molts altres animals. Les arrels compliquen el pas de depredadors més grossos. També hi viuen organismes enganxats a la fusta submergida. Si només mirem les capçades des d’una barca, ens perdrem una bona part de la vida del bosc."
+      }
+    ],
+    "un-bosque-de-raices-en-el-agua-q6": [
+      {
+        "paragraph": 2,
+        "text": "L’aigua pot portar força sal i al sòl inundat hi ha poc oxigen. Els mangles tenen adaptacions que els permeten viure en aquestes condicions. Alguns impedeixen que entri gaire sal per les arrels; altres en poden expulsar una part per les fulles."
+      },
+      {
+        "paragraph": 3,
+        "text": "Entre les arrels hi troben refugi peixos petits, crancs i molts altres animals. Les arrels compliquen el pas de depredadors més grossos. També hi viuen organismes enganxats a la fusta submergida."
+      }
+    ],
+    "un-bosque-de-raices-en-el-agua-q7": [
+      {
+        "paragraph": 4,
+        "text": "Per això, quan es transforma un manglar, no es perden només uns quants arbres. També canvien els llocs on molts animals s’amaguen i s’alimenten."
+      },
+      {
+        "paragraph": 3,
+        "text": "Entre les arrels hi troben refugi peixos petits, crancs i molts altres animals. Les arrels compliquen el pas de depredadors més grossos."
+      }
+    ]
+  },
+  "el-camino-del-mensajero-es": {
+    "el-camino-del-mensajero-q1": [
+      {
+        "paragraph": 1,
+        "text": "Debía llevarla al molino antes del mediodía."
+      }
+    ],
+    "el-camino-del-mensajero-q2": [
+      {
+        "paragraph": 2,
+        "text": "Ya oía el agua cuando vio una barrera atravesada ante el puente. Había una tabla en el suelo y herramientas al lado."
+      }
+    ],
+    "el-camino-del-mensajero-q3": [
+      {
+        "paragraph": 3,
+        "text": "Volvió al cruce y tomó el otro camino. Costaba más andar, pero nada le cerraba el paso."
+      }
+    ],
+    "el-camino-del-mensajero-q4": [
+      {
+        "paragraph": 1,
+        "text": "Debía llevarla al molino antes del mediodía. El hombre que se la había dado le prestó un plano: el camino más corto bajaba hasta el arroyo y pasaba por un puente de madera."
+      }
+    ],
+    "el-camino-del-mensajero-q5": [
+      {
+        "paragraph": 2,
+        "text": "Una mujer que venía de los campos le dijo que lo reparaban desde la tormenta. Neri miró el plano. El puente aparecía entero, sin ninguna señal que indicara las obras."
+      }
+    ],
+    "el-camino-del-mensajero-q6": [
+      {
+        "paragraph": 1,
+        "text": "Debía llevarla al molino antes del mediodía."
+      },
+      {
+        "paragraph": 4,
+        "text": "Ella leyó la carta y se rio: anunciaba que los músicos llegarían a media tarde, más tarde de lo previsto."
+      }
+    ],
+    "el-camino-del-mensajero-q7": [
+      {
+        "paragraph": 3,
+        "text": "Añadió una cruz pequeña al plano, con la fecha de aquel día, y siguió entre los campos."
+      },
+      {
+        "paragraph": 2,
+        "text": "Una mujer que venía de los campos le dijo que lo reparaban desde la tormenta."
+      }
+    ]
+  },
+  "el-camino-del-mensajero-ca": {
+    "el-camino-del-mensajero-q1": [
+      {
+        "paragraph": 1,
+        "text": "L’havia de portar al molí abans del migdia."
+      }
+    ],
+    "el-camino-del-mensajero-q2": [
+      {
+        "paragraph": 2,
+        "text": "Ja sentia l’aigua quan va veure una barrera travessada davant del pont. Un tauló era a terra i al costat hi havia eines."
+      }
+    ],
+    "el-camino-del-mensajero-q3": [
+      {
+        "paragraph": 3,
+        "text": "Va tornar a la cruïlla i va agafar l’altre camí. Costava més de caminar, però no li barrava el pas res."
+      }
+    ],
+    "el-camino-del-mensajero-q4": [
+      {
+        "paragraph": 1,
+        "text": "L’havia de portar al molí abans del migdia. L’home que l’hi havia donada li va deixar un plànol: el camí més curt baixava fins a la riera i passava per un pontet de fusta."
+      }
+    ],
+    "el-camino-del-mensajero-q5": [
+      {
+        "paragraph": 2,
+        "text": "Una dona que venia dels camps li va dir que el reparaven des de la tempesta. En Neri va mirar el plànol. El pont hi apareixia sencer, sense cap senyal que indiqués les obres."
+      }
+    ],
+    "el-camino-del-mensajero-q6": [
+      {
+        "paragraph": 1,
+        "text": "L’havia de portar al molí abans del migdia."
+      },
+      {
+        "paragraph": 4,
+        "text": "Ella va llegir la carta i va riure: anunciava que els músics arribarien a mitja tarda, més tard del que havien previst."
+      }
+    ],
+    "el-camino-del-mensajero-q7": [
+      {
+        "paragraph": 3,
+        "text": "Va afegir una creu petita al plànol, amb la data del dia, i va continuar entre els camps."
+      },
+      {
+        "paragraph": 2,
+        "text": "Una dona que venia dels camps li va dir que el reparaven des de la tempesta."
+      }
+    ]
+  },
+  "el-billete-que-volvio-al-cajon-es": {
+    "el-billete-que-volvio-al-cajon-q1": [
+      {
+        "paragraph": 1,
+        "text": "Pensé que me serviría para hacer un marcapáginas."
+      }
+    ],
+    "el-billete-que-volvio-al-cajon-q2": [
+      {
+        "paragraph": 3,
+        "text": "Había dos nombres escritos con letras distintas: Ferran y Manel."
+      }
+    ],
+    "el-billete-que-volvio-al-cajon-q3": [
+      {
+        "paragraph": 3,
+        "text": "Mi abuelo me explicó que había comprado aquel billete para ir a una audición. Quería entrar en una pequeña orquesta y llevaba semanas preparando las piezas con el violín."
+      }
+    ],
+    "el-billete-que-volvio-al-cajon-q4": [
+      {
+        "paragraph": 3,
+        "text": "Quería entrar en una pequeña orquesta y llevaba semanas preparando las piezas con el violín. Había bajado del autobús tan nervioso que casi se dejó el estuche."
+      }
+    ],
+    "el-billete-que-volvio-al-cajon-q5": [
+      {
+        "paragraph": 4,
+        "text": "Cuando salió la lista, el nombre de mi abuelo no estaba. El de Manel, tampoco. Miré el billete sin entender por qué había que guardar el recuerdo de un día así."
+      }
+    ],
+    "el-billete-que-volvio-al-cajon-q6": [
+      {
+        "paragraph": 6,
+        "text": "Manel era el hombre que aún venía a casa con su violín antes de cada concierto del centro vecinal. El billete no había servido para entrar en la orquesta, pero había terminado guardando el comienzo de otra historia."
+      }
+    ],
+    "el-billete-que-volvio-al-cajon-q7": [
+      {
+        "paragraph": 1,
+        "text": "Pensé que me serviría para hacer un marcapáginas."
+      },
+      {
+        "paragraph": 6,
+        "text": "Lo dejé en el cajón, dentro de un sobre limpio. Para hacer el marcapáginas elegí un trozo de cartulina blanca."
+      }
+    ]
+  },
+  "el-billete-que-volvio-al-cajon-ca": {
+    "el-billete-que-volvio-al-cajon-q1": [
+      {
+        "paragraph": 1,
+        "text": "Vaig pensar que em serviria per fer un punt de llibre."
+      }
+    ],
+    "el-billete-que-volvio-al-cajon-q2": [
+      {
+        "paragraph": 3,
+        "text": "Hi havia dos noms escrits amb lletres diferents: Ferran i Manel."
+      }
+    ],
+    "el-billete-que-volvio-al-cajon-q3": [
+      {
+        "paragraph": 3,
+        "text": "L’avi em va explicar que havia comprat aquell bitllet per anar a una audició. Volia entrar en una petita orquestra i havia passat setmanes preparant les peces amb el violí."
+      }
+    ],
+    "el-billete-que-volvio-al-cajon-q4": [
+      {
+        "paragraph": 3,
+        "text": "Volia entrar en una petita orquestra i havia passat setmanes preparant les peces amb el violí. Havia baixat de l’autobús tan nerviós que gairebé s’hi deixava l’estoig."
+      }
+    ],
+    "el-billete-que-volvio-al-cajon-q5": [
+      {
+        "paragraph": 4,
+        "text": "Quan va sortir la llista, el nom de l’avi no hi era. El d’en Manel, tampoc. Jo vaig mirar el bitllet sense entendre per què calia guardar el record d’un dia així."
+      }
+    ],
+    "el-billete-que-volvio-al-cajon-q6": [
+      {
+        "paragraph": 6,
+        "text": "En Manel era l’home que encara venia a casa amb el seu violí abans de cada concert del casal. El bitllet no havia servit per entrar a l’orquestra, però havia acabat guardant el començament d’una altra història."
+      }
+    ],
+    "el-billete-que-volvio-al-cajon-q7": [
+      {
+        "paragraph": 1,
+        "text": "Vaig pensar que em serviria per fer un punt de llibre."
+      },
+      {
+        "paragraph": 6,
+        "text": "El vaig deixar al calaix, dins d’un sobre net. Per fer el punt de llibre, vaig triar un tros de cartolina blanca."
+      }
+    ]
+  },
+  "un-comedor-para-los-vencejos-es": {
+    "un-comedor-para-los-vencejos-q1": [
+      {
+        "paragraph": 1,
+        "text": "En mayo, un grupo de sexto empezó a observar unas aves oscuras que pasaban chillando sobre el patio."
+      }
+    ],
+    "un-comedor-para-los-vencejos-q2": [
+      {
+        "paragraph": 2,
+        "text": "Pero los vencejos capturan pequeños insectos y otros animalillos mientras vuelan."
+      }
+    ],
+    "un-comedor-para-los-vencejos-q3": [
+      {
+        "paragraph": 2,
+        "text": "Los alumnos querían prepararles un comedero. Habían visto gorriones comiendo semillas en un jardín y pensaron en usar una bandeja parecida."
+      }
+    ],
+    "un-comedor-para-los-vencejos-q4": [
+      {
+        "paragraph": 2,
+        "text": "Habían visto gorriones comiendo semillas en un jardín y pensaron en usar una bandeja parecida. Pero los vencejos capturan pequeños insectos y otros animalillos mientras vuelan. Una bandeja con grano junto a la ventana no resolvía esa necesidad."
+      }
+    ],
+    "un-comedor-para-los-vencejos-q5": [
+      {
+        "paragraph": 3,
+        "text": "Las plantas pueden favorecer la presencia de insectos, y los insectos forman parte del alimento de los vencejos. El grupo empezó a dibujar flechas entre plantas, insectos y aves."
+      }
+    ],
+    "un-comedor-para-los-vencejos-q6": [
+      {
+        "paragraph": 4,
+        "text": "También separaron dos cosas que al principio habían mezclado: el lugar donde las aves comen y donde hacen el nido. Los huecos de los tejados pueden servir de refugio y de cría. El cielo por el que vuelan les permite buscar alimento. Observar que un vencejo entra en un tejado no significa que haya encontrado allí una bandeja para comer."
+      }
+    ],
+    "un-comedor-para-los-vencejos-q7": [
+      {
+        "paragraph": 3,
+        "text": "«El comedor no es solo un recipiente», dijo. «También puede ser un espacio donde encuentran alimento». Las plantas pueden favorecer la presencia de insectos, y los insectos forman parte del alimento de los vencejos."
+      },
+      {
+        "paragraph": 5,
+        "text": "El título decía «Un comedor sin mesa»."
+      }
+    ]
+  },
+  "un-comedor-para-los-vencejos-ca": {
+    "un-comedor-para-los-vencejos-q1": [
+      {
+        "paragraph": 1,
+        "text": "Al maig, un grup de sisè va començar a observar uns ocells foscos que passaven cridant per damunt del pati."
+      }
+    ],
+    "un-comedor-para-los-vencejos-q2": [
+      {
+        "paragraph": 2,
+        "text": "Però els falciots capturen petits insectes i altres animalons mentre volen."
+      }
+    ],
+    "un-comedor-para-los-vencejos-q3": [
+      {
+        "paragraph": 2,
+        "text": "Els alumnes volien preparar-los una menjadora. Havien vist pardals menjant llavors en un jardí i van pensar a fer servir una safata semblant."
+      }
+    ],
+    "un-comedor-para-los-vencejos-q4": [
+      {
+        "paragraph": 2,
+        "text": "Havien vist pardals menjant llavors en un jardí i van pensar a fer servir una safata semblant. Però els falciots capturen petits insectes i altres animalons mentre volen. Una safata amb gra al costat de la finestra no resolia aquella necessitat."
+      }
+    ],
+    "un-comedor-para-los-vencejos-q5": [
+      {
+        "paragraph": 3,
+        "text": "Les plantes poden afavorir la presència d’insectes, i els insectes formen part de l’aliment dels falciots. El grup va començar a dibuixar fletxes entre plantes, insectes i ocells."
+      }
+    ],
+    "un-comedor-para-los-vencejos-q6": [
+      {
+        "paragraph": 4,
+        "text": "També van separar dues coses que al principi havien barrejat: el lloc on els ocells mengen i el lloc on fan el niu. Els forats de les teulades poden servir de refugi i de cria. El cel per on volen els permet buscar aliment. Observar que un falciot entra en una teulada no vol dir que hi hagi trobat una safata per menjar."
+      }
+    ],
+    "un-comedor-para-los-vencejos-q7": [
+      {
+        "paragraph": 3,
+        "text": "«El menjador no és només un recipient», va dir. «També pot ser un espai on troben aliment.» Les plantes poden afavorir la presència d’insectes, i els insectes formen part de l’aliment dels falciots."
+      },
+      {
+        "paragraph": 5,
+        "text": "El títol deia «Un menjador sense taula»."
+      }
+    ]
+  },
+  "como-leer-el-horario-de-una-piscina-es": {
+    "como-leer-el-horario-de-una-piscina-q1": [
+      {
+        "paragraph": 1,
+        "text": "El primero dice que, entre semana, el baño libre es de cuatro a ocho de la tarde."
+      }
+    ],
+    "como-leer-el-horario-de-una-piscina-q2": [
+      {
+        "paragraph": 1,
+        "text": "El segundo indica que los martes y los jueves, de seis a siete, dos de las seis calles se reservan para un curso."
+      }
+    ],
+    "como-leer-el-horario-de-una-piscina-q3": [
+      {
+        "paragraph": 3,
+        "text": "Después mira si hay avisos extraordinarios. El domingo de la competición no se aplica el horario habitual de la mañana. Ese día, el baño libre empieza a las cuatro de la tarde."
+      }
+    ],
+    "como-leer-el-horario-de-una-piscina-q4": [
+      {
+        "paragraph": 1,
+        "text": "El segundo indica que los martes y los jueves, de seis a siete, dos de las seis calles se reservan para un curso."
+      },
+      {
+        "paragraph": 2,
+        "text": "Si vas un jueves a las seis y media, la piscina está abierta, pero solo cuatro calles son de baño libre."
+      }
+    ],
+    "como-leer-el-horario-de-una-piscina-q5": [
+      {
+        "paragraph": 2,
+        "text": "Si vas un miércoles, el aviso de los cursos de martes y jueves no afecta a tu visita."
+      }
+    ],
+    "como-leer-el-horario-de-una-piscina-q6": [
+      {
+        "paragraph": 3,
+        "text": "El aviso afecta a la piscina, pero no dice nada sobre la cafetería ni la sala de juegos del edificio. Para conocer sus horarios, tendrás que consultarlos aparte."
+      }
+    ],
+    "como-leer-el-horario-de-una-piscina-q7": [
+      {
+        "paragraph": 2,
+        "text": "Para consultar el horario, empieza por el día que te interesa."
+      },
+      {
+        "paragraph": 3,
+        "text": "Después mira si hay avisos extraordinarios."
+      },
+      {
+        "paragraph": 4,
+        "text": "Por último, comprueba hasta cuándo vale la información."
+      }
+    ],
+    "como-leer-el-horario-de-una-piscina-q8": [
+      {
+        "paragraph": 4,
+        "text": "Una foto de un cartel puede servir para recordar un horario, pero un aviso sobre «el próximo domingo» pierde claridad si no sabemos cuándo se hizo la foto. Apuntar la fecha ayuda a interpretarlo."
+      }
+    ]
+  },
+  "como-leer-el-horario-de-una-piscina-ca": {
+    "como-leer-el-horario-de-una-piscina-q1": [
+      {
+        "paragraph": 1,
+        "text": "El primer diu que, entre setmana, el bany lliure és de quatre a vuit de la tarda."
+      }
+    ],
+    "como-leer-el-horario-de-una-piscina-q2": [
+      {
+        "paragraph": 1,
+        "text": "El segon indica que els dimarts i els dijous, de sis a set, dos dels sis carrils es reserven per a un curs."
+      }
+    ],
+    "como-leer-el-horario-de-una-piscina-q3": [
+      {
+        "paragraph": 3,
+        "text": "Després mira si hi ha avisos extraordinaris. El diumenge de la competició no s’aplica l’horari habitual del matí. Aquell dia, el bany lliure comença a les quatre de la tarda."
+      }
+    ],
+    "como-leer-el-horario-de-una-piscina-q4": [
+      {
+        "paragraph": 1,
+        "text": "El segon indica que els dimarts i els dijous, de sis a set, dos dels sis carrils es reserven per a un curs."
+      },
+      {
+        "paragraph": 2,
+        "text": "Si hi vas un dijous a dos quarts de set, la piscina és oberta, però només quatre carrils són de bany lliure."
+      }
+    ],
+    "como-leer-el-horario-de-una-piscina-q5": [
+      {
+        "paragraph": 2,
+        "text": "Si hi vas un dimecres, l’avís dels cursos de dimarts i dijous no afecta la teva visita."
+      }
+    ],
+    "como-leer-el-horario-de-una-piscina-q6": [
+      {
+        "paragraph": 3,
+        "text": "L’avís afecta la piscina, però no diu res sobre la cafeteria ni la sala de jocs de l’edifici. Si vols saber-ne els horaris, els hauràs de consultar a part."
+      }
+    ],
+    "como-leer-el-horario-de-una-piscina-q7": [
+      {
+        "paragraph": 2,
+        "text": "Per consultar l’horari, comença pel dia que t’interessa."
+      },
+      {
+        "paragraph": 3,
+        "text": "Després mira si hi ha avisos extraordinaris."
+      },
+      {
+        "paragraph": 4,
+        "text": "Finalment, comprova fins quan és vàlida la informació."
+      }
+    ],
+    "como-leer-el-horario-de-una-piscina-q8": [
+      {
+        "paragraph": 4,
+        "text": "Una fotografia d’un cartell pot ser útil per recordar un horari, però un avís sobre «el proper diumenge» perd claredat si no sabem quan es va fer la foto. Apuntar-hi la data ajuda a interpretar-lo."
+      }
+    ]
+  },
+  "un-pie-de-foto-para-todos-es": {
+    "un-pie-de-foto-para-todos-q1": [
+      {
+        "paragraph": 3,
+        "text": "La caja era un altavoz y los alumnos lo llevaban al escenario antes del acto."
+      }
+    ],
+    "un-pie-de-foto-para-todos-q2": [
+      {
+        "paragraph": 2,
+        "text": "—Una es el pie de foto, que se verá bajo la imagen."
+      }
+    ],
+    "un-pie-de-foto-para-todos-q3": [
+      {
+        "paragraph": 2,
+        "text": "La otra es un texto alternativo que un programa puede leer en voz alta a quien no ve la fotografía."
+      }
+    ],
+    "un-pie-de-foto-para-todos-q4": [
+      {
+        "paragraph": 3,
+        "text": "La caja era un altavoz y los alumnos lo llevaban al escenario antes del acto. El pie de foto se había escrito solo mirando la imagen, sin preguntar qué ocurría. Una fotografía puede dar pistas, pero no explica por sí sola toda la situación."
+      }
+    ],
+    "un-pie-de-foto-para-todos-q5": [
+      {
+        "paragraph": 4,
+        "text": "No hago una lista de todos los colores de la sala porque no son la información importante de esa imagen."
+      },
+      {
+        "paragraph": 5,
+        "text": "También compruebo el texto que hay alrededor: la descripción debe ayudar a seguir lo que estamos explicando en esa página."
+      }
+    ],
+    "un-pie-de-foto-para-todos-q6": [
+      {
+        "paragraph": 3,
+        "text": "—El primer borrador decía «Los ganadores reciben el premio»."
+      },
+      {
+        "paragraph": 3,
+        "text": "La caja era un altavoz y los alumnos lo llevaban al escenario antes del acto. El pie de foto se había escrito solo mirando la imagen, sin preguntar qué ocurría. Una fotografía puede dar pistas, pero no explica por sí sola toda la situación."
+      },
+      {
+        "paragraph": 4,
+        "text": "—En el pie de foto dice que dos voluntarios preparan el sonido antes de la fiesta. En el texto alternativo describo a dos alumnos que sostienen un altavoz por las asas sobre un escenario vacío."
+      }
+    ],
+    "un-pie-de-foto-para-todos-q7": [
+      {
+        "paragraph": 5,
+        "text": "—Lo leo sin mirar la fotografía y le pregunto a otra persona qué ha imaginado. Si imagina un premio, todavía tenemos que revisarlo."
+      }
+    ]
+  },
+  "un-pie-de-foto-para-todos-ca": {
+    "un-pie-de-foto-para-todos-q1": [
+      {
+        "paragraph": 3,
+        "text": "La caixa era un altaveu i els alumnes el duien a l’escenari abans de l’acte."
+      }
+    ],
+    "un-pie-de-foto-para-todos-q2": [
+      {
+        "paragraph": 2,
+        "text": "—Una és el peu de foto, que es veurà sota la imatge."
+      }
+    ],
+    "un-pie-de-foto-para-todos-q3": [
+      {
+        "paragraph": 2,
+        "text": "L’altra és un text alternatiu que un programa pot llegir en veu alta a qui no veu la fotografia."
+      }
+    ],
+    "un-pie-de-foto-para-todos-q4": [
+      {
+        "paragraph": 3,
+        "text": "La caixa era un altaveu i els alumnes el duien a l’escenari abans de l’acte. El peu de foto s’havia escrit només mirant la imatge, sense preguntar què hi passava. Una fotografia pot donar pistes, però no explica per si sola tota la situació."
+      }
+    ],
+    "un-pie-de-foto-para-todos-q5": [
+      {
+        "paragraph": 4,
+        "text": "No faig una llista de tots els colors de la sala, perquè no són la informació important d’aquella imatge."
+      },
+      {
+        "paragraph": 5,
+        "text": "També comprovo el text que hi ha al voltant: la descripció ha d’ajudar a seguir el que estem explicant en aquella pàgina."
+      }
+    ],
+    "un-pie-de-foto-para-todos-q6": [
+      {
+        "paragraph": 3,
+        "text": "—El primer esborrany deia «Els guanyadors reben el premi»."
+      },
+      {
+        "paragraph": 3,
+        "text": "La caixa era un altaveu i els alumnes el duien a l’escenari abans de l’acte. El peu de foto s’havia escrit només mirant la imatge, sense preguntar què hi passava. Una fotografia pot donar pistes, però no explica per si sola tota la situació."
+      },
+      {
+        "paragraph": 4,
+        "text": "—Al peu de foto hi diu que dos voluntaris preparen el so abans de la festa. Al text alternatiu descric dos alumnes que sostenen un altaveu per les nanses damunt d’un escenari buit."
+      }
+    ],
+    "un-pie-de-foto-para-todos-q7": [
+      {
+        "paragraph": 5,
+        "text": "—El llegeixo sense mirar la fotografia i demano a algú altre què s’ha imaginat. Si s’imagina un premi, encara ens falta revisar-lo."
+      }
+    ]
+  },
+  "la-bici-que-cruzo-en-una-caja-es": {
+    "la-bici-que-cruzo-en-una-caja-q1": [
+      {
+        "paragraph": 1,
+        "text": "Cuando llegó la bicicleta de segunda mano, Aroa pensó que se habían equivocado de paquete."
+      }
+    ],
+    "la-bici-que-cruzo-en-una-caja-q2": [
+      {
+        "paragraph": 4,
+        "text": "Una pieza pequeña había quedado entre dos pliegues de cartón."
+      }
+    ],
+    "la-bici-que-cruzo-en-una-caja-q3": [
+      {
+        "paragraph": 3,
+        "text": "Para enviar un objeto voluminoso no siempre hace falta una caja con la forma que tendrá al utilizarlo. Algunas partes se pueden separar y proteger para ocupar mejor el espacio."
+      }
+    ],
+    "la-bici-que-cruzo-en-una-caja-q4": [
+      {
+        "paragraph": 1,
+        "text": "La caja era larga y estrecha. En la foto del anuncio, en cambio, la bicicleta ocupaba casi toda la entrada de una casa."
+      }
+    ],
+    "la-bici-que-cruzo-en-una-caja-q5": [
+      {
+        "paragraph": 2,
+        "text": "En la lista había un dibujo junto a cada pieza y una marca para indicar que la habían metido en el paquete."
+      },
+      {
+        "paragraph": 4,
+        "text": "Su padre comprobó la lista antes de tirar ninguna protección. Una pieza pequeña había quedado entre dos pliegues de cartón. Si hubieran retirado los embalajes sin mirarlos, podrían haber pensado que faltaba."
+      }
+    ],
+    "la-bici-que-cruzo-en-una-caja-q6": [
+      {
+        "paragraph": 3,
+        "text": "Eso no significa que el objeto pese menos. Si todas las piezas siguen dentro, desmontarlas no ha hecho desaparecer el material."
+      }
+    ],
+    "la-bici-que-cruzo-en-una-caja-q7": [
+      {
+        "paragraph": 1,
+        "text": "Cuando llegó la bicicleta de segunda mano, Aroa pensó que se habían equivocado de paquete. La caja era larga y estrecha. En la foto del anuncio, en cambio, la bicicleta ocupaba casi toda la entrada de una casa."
+      },
+      {
+        "paragraph": 5,
+        "text": "Por la tarde, Aroa vio la bicicleta de pie ante el taller. Con la rueda colocada y el manillar en su sitio, volvía a parecerse a la de la foto."
+      }
+    ]
+  },
+  "la-bici-que-cruzo-en-una-caja-ca": {
+    "la-bici-que-cruzo-en-una-caja-q1": [
+      {
+        "paragraph": 1,
+        "text": "Quan va arribar la bicicleta de segona mà, l’Aroa va pensar que s’havien equivocat de paquet."
+      }
+    ],
+    "la-bici-que-cruzo-en-una-caja-q2": [
+      {
+        "paragraph": 4,
+        "text": "Una peça petita s’havia quedat entre dos plecs de cartró."
+      }
+    ],
+    "la-bici-que-cruzo-en-una-caja-q3": [
+      {
+        "paragraph": 3,
+        "text": "Per enviar un objecte voluminós no sempre cal una caixa amb la forma que tindrà quan es faci servir. Algunes parts es poden separar i protegir perquè ocupin millor l’espai."
+      }
+    ],
+    "la-bici-que-cruzo-en-una-caja-q4": [
+      {
+        "paragraph": 1,
+        "text": "La caixa era llarga i estreta. A la fotografia de l’anunci, en canvi, la bicicleta ocupava gairebé tota l’entrada d’una casa."
+      }
+    ],
+    "la-bici-que-cruzo-en-una-caja-q5": [
+      {
+        "paragraph": 2,
+        "text": "A la llista hi havia un dibuix al costat de cada peça i una marca per indicar que l’havien posada dins del paquet."
+      },
+      {
+        "paragraph": 4,
+        "text": "El pare va comprovar la llista abans de llençar cap protecció. Una peça petita s’havia quedat entre dos plecs de cartró. Si haguessin tret els embalatges sense mirar-los, haurien pogut pensar que faltava."
+      }
+    ],
+    "la-bici-que-cruzo-en-una-caja-q6": [
+      {
+        "paragraph": 3,
+        "text": "Això no vol dir que l’objecte pesi menys. Si totes les peces continuen dins de la caixa, desmuntar-les no n’ha fet desaparèixer el material."
+      }
+    ],
+    "la-bici-que-cruzo-en-una-caja-q7": [
+      {
+        "paragraph": 1,
+        "text": "Quan va arribar la bicicleta de segona mà, l’Aroa va pensar que s’havien equivocat de paquet. La caixa era llarga i estreta. A la fotografia de l’anunci, en canvi, la bicicleta ocupava gairebé tota l’entrada d’una casa."
+      },
+      {
+        "paragraph": 5,
+        "text": "Aquella tarda, l’Aroa va veure la bicicleta dreta davant del taller. Amb la roda col·locada i el manillar al seu lloc, tornava a semblar la de la fotografia."
+      }
+    ]
+  },
+  "la-merienda-de-la-ultima-parada-es": {
+    "la-merienda-de-la-ultima-parada-q1": [
+      {
+        "paragraph": 1,
+        "text": "Faltaba la azul, donde habían guardado la fruta para la merienda."
+      }
+    ],
+    "la-merienda-de-la-ultima-parada-q2": [
+      {
+        "paragraph": 2,
+        "text": "Al rato, el conductor devolvió la llamada desde la última parada de la línea."
+      }
+    ],
+    "la-merienda-de-la-ultima-parada-q3": [
+      {
+        "paragraph": 3,
+        "text": "El recorrido del bosque no terminaba donde había empezado. Después del mirador, el grupo bajaría hasta el merendero del pueblo siguiente. El autobús también pasaba por allí. Si desandaban el camino, se alejarían del lugar donde podían volver a encontrarse con el conductor."
+      }
+    ],
+    "la-merienda-de-la-ultima-parada-q4": [
+      {
+        "paragraph": 3,
+        "text": "El recorrido del bosque no terminaba donde había empezado. Después del mirador, el grupo bajaría hasta el merendero del pueblo siguiente. El autobús también pasaba por allí. Si desandaban el camino, se alejarían del lugar donde podían volver a encontrarse con el conductor."
+      }
+    ],
+    "la-merienda-de-la-ultima-parada-q5": [
+      {
+        "paragraph": 3,
+        "text": "Le indicaron el nombre de la parada del merendero y acordaron una hora."
+      }
+    ],
+    "la-merienda-de-la-ultima-parada-q6": [
+      {
+        "paragraph": 4,
+        "text": "En el mirador, Julia seguía preocupada. Había ayudado con las bolsas y pensaba que debía haber revisado aquel espacio bajo el asiento."
+      }
+    ],
+    "la-merienda-de-la-ultima-parada-q7": [
+      {
+        "paragraph": 4,
+        "text": "Las dos siguieron con el dedo los dos recorridos hasta donde se cruzaban."
+      },
+      {
+        "paragraph": 5,
+        "text": "Al llegar al merendero, el conductor ya había dejado la bolsa en el banco con la persona que cuidaba el lugar."
+      },
+      {
+        "paragraph": 5,
+        "text": "Al día siguiente, en la crónica de la excursión, dibujó dos caminos de colores distintos que terminaban en el mismo punto."
+      }
+    ],
+    "la-merienda-de-la-ultima-parada-q8": [
+      {
+        "paragraph": 2,
+        "text": "Al rato, el conductor devolvió la llamada desde la última parada de la línea."
+      },
+      {
+        "paragraph": 3,
+        "text": "Después del mirador, el grupo bajaría hasta el merendero del pueblo siguiente. El autobús también pasaba por allí. Si desandaban el camino, se alejarían del lugar donde podían volver a encontrarse con el conductor. Le indicaron el nombre de la parada del merendero y acordaron una hora."
+      }
+    ]
+  },
+  "la-merienda-de-la-ultima-parada-ca": {
+    "la-merienda-de-la-ultima-parada-q1": [
+      {
+        "paragraph": 1,
+        "text": "La de color blau, on havien guardat la fruita per al berenar, no hi era."
+      }
+    ],
+    "la-merienda-de-la-ultima-parada-q2": [
+      {
+        "paragraph": 2,
+        "text": "Al cap d’una estona, el conductor va tornar la trucada des de l’última parada de la línia."
+      }
+    ],
+    "la-merienda-de-la-ultima-parada-q3": [
+      {
+        "paragraph": 3,
+        "text": "El recorregut pel bosc no acabava on havia començat. Després del mirador, el grup baixaria fins al berenador del poble següent. Allà també hi passava l’autobús. Si desfeien el camí, s’allunyarien del lloc on podien tornar a trobar-se amb el conductor."
+      }
+    ],
+    "la-merienda-de-la-ultima-parada-q4": [
+      {
+        "paragraph": 3,
+        "text": "El recorregut pel bosc no acabava on havia començat. Després del mirador, el grup baixaria fins al berenador del poble següent. Allà també hi passava l’autobús. Si desfeien el camí, s’allunyarien del lloc on podien tornar a trobar-se amb el conductor."
+      }
+    ],
+    "la-merienda-de-la-ultima-parada-q5": [
+      {
+        "paragraph": 3,
+        "text": "Van indicar-li el nom de la parada del berenador i van acordar una hora."
+      }
+    ],
+    "la-merienda-de-la-ultima-parada-q6": [
+      {
+        "paragraph": 4,
+        "text": "Al mirador, la Júlia encara estava preocupada. Ella havia ajudat amb les bosses i pensava que havia d’haver comprovat aquell espai sota el seient."
+      }
+    ],
+    "la-merienda-de-la-ultima-parada-q7": [
+      {
+        "paragraph": 4,
+        "text": "Entre totes dues van seguir amb el dit els dos recorreguts, fins al punt on es creuaven."
+      },
+      {
+        "paragraph": 5,
+        "text": "Quan van arribar al berenador, el conductor ja havia deixat la bossa al banc amb la persona que cuidava l’espai."
+      },
+      {
+        "paragraph": 5,
+        "text": "L’endemà, a la crònica de l’excursió, va dibuixar dos camins de colors diferents que acabaven al mateix punt."
+      }
+    ],
+    "la-merienda-de-la-ultima-parada-q8": [
+      {
+        "paragraph": 2,
+        "text": "Al cap d’una estona, el conductor va tornar la trucada des de l’última parada de la línia."
+      },
+      {
+        "paragraph": 3,
+        "text": "Després del mirador, el grup baixaria fins al berenador del poble següent. Allà també hi passava l’autobús. Si desfeien el camí, s’allunyarien del lloc on podien tornar a trobar-se amb el conductor. Van indicar-li el nom de la parada del berenador i van acordar una hora."
+      }
+    ]
+  },
+  "el-hilo-de-la-cometa-es": {
+    "el-hilo-de-la-cometa-q1": [
+      {
+        "paragraph": 1,
+        "text": "En la caja, el dibujo la mostraba muy arriba, con la cola estirada. Yo quería hacer exactamente aquella fotografía."
+      }
+    ],
+    "el-hilo-de-la-cometa-q2": [
+      {
+        "paragraph": 2,
+        "text": "Mi padre revisó las varillas y no encontró ninguna pieza fuera de sitio."
+      }
+    ],
+    "el-hilo-de-la-cometa-q3": [
+      {
+        "paragraph": 3,
+        "text": "Mi padre me pidió que notara la tensión del hilo con los dedos y no mirara solo la altura."
+      },
+      {
+        "paragraph": 4,
+        "text": "Sentí el hilo más firme entre las manos."
+      }
+    ],
+    "el-hilo-de-la-cometa-q4": [
+      {
+        "paragraph": 3,
+        "text": "Nos detuvimos a mirar una cinta atada a la valla del prado. A ratos quedaba casi colgando; después volvía a moverse. Yo había seguido tirando igual, aunque el viento no fuera igual."
+      }
+    ],
+    "el-hilo-de-la-cometa-q5": [
+      {
+        "paragraph": 2,
+        "text": "Dije que debía de estar mal montada. Mi padre revisó las varillas y no encontró ninguna pieza fuera de sitio."
+      }
+    ],
+    "el-hilo-de-la-cometa-q6": [
+      {
+        "paragraph": 1,
+        "text": "En la caja, el dibujo la mostraba muy arriba, con la cola estirada. Yo quería hacer exactamente aquella fotografía."
+      },
+      {
+        "paragraph": 5,
+        "text": "En el cuaderno dibujé una mano, un hilo y una cinta que se mueve. Mañana añadiré la cometa: hoy creo que también he aprendido a mirar lo que pasa en el suelo."
+      }
+    ],
+    "el-hilo-de-la-cometa-q7": [
+      {
+        "paragraph": 4,
+        "text": "En el segundo intento, la cometa no subió tanto como en la caja. Pero mantuve los pies quietos un rato y dejé de dar tirones. Cuando la cinta volvió a moverse, la cola se estiró y la cometa siguió volando. Sentí el hilo más firme entre las manos."
+      },
+      {
+        "paragraph": 5,
+        "text": "Me di cuenta de que durante el segundo intento ni siquiera le había pedido el móvil."
+      }
+    ]
+  },
+  "el-hilo-de-la-cometa-ca": {
+    "el-hilo-de-la-cometa-q1": [
+      {
+        "paragraph": 1,
+        "text": "A la capsa, el dibuix el mostrava molt amunt, amb la cua ben estirada. Jo volia fer exactament aquella fotografia."
+      }
+    ],
+    "el-hilo-de-la-cometa-q2": [
+      {
+        "paragraph": 2,
+        "text": "El pare ha revisat les varetes i no hi ha trobat cap peça fora de lloc."
+      }
+    ],
+    "el-hilo-de-la-cometa-q3": [
+      {
+        "paragraph": 3,
+        "text": "El pare m’ha demanat que notés la tensió del fil amb els dits i que no mirés només l’altura."
+      },
+      {
+        "paragraph": 4,
+        "text": "He sentit el fil més ferm entre les mans."
+      }
+    ],
+    "el-hilo-de-la-cometa-q4": [
+      {
+        "paragraph": 3,
+        "text": "Ens hem aturat a mirar una cinta lligada a la tanca del prat. De vegades quedava gairebé penjant; al cap d’un moment tornava a moure’s. Jo havia continuat estirant igual, encara que el vent no fos igual."
+      }
+    ],
+    "el-hilo-de-la-cometa-q5": [
+      {
+        "paragraph": 2,
+        "text": "He dit que devia estar mal muntat. El pare ha revisat les varetes i no hi ha trobat cap peça fora de lloc."
+      }
+    ],
+    "el-hilo-de-la-cometa-q6": [
+      {
+        "paragraph": 1,
+        "text": "A la capsa, el dibuix el mostrava molt amunt, amb la cua ben estirada. Jo volia fer exactament aquella fotografia."
+      },
+      {
+        "paragraph": 5,
+        "text": "A la llibreta he dibuixat una mà, un fil i una cinta que es mou. Demà hi afegiré l’estel: avui em sembla que també he après a mirar el que passa a terra."
+      }
+    ],
+    "el-hilo-de-la-cometa-q7": [
+      {
+        "paragraph": 4,
+        "text": "A la segona prova, l’estel no ha pujat tan amunt com al dibuix de la capsa. Però he mantingut els peus quiets una estona i he deixat de donar estrebades. Quan la cinta s’ha mogut una altra vegada, la cua s’ha estirat i l’estel ha continuat volant. He sentit el fil més ferm entre les mans."
+      },
+      {
+        "paragraph": 5,
+        "text": "M’he adonat que durant la segona prova ni tan sols li havia demanat el mòbil."
+      }
+    ]
+  },
+  "la-carta-que-no-pedia-permiso-es": {
+    "la-carta-que-no-pedia-permiso-q1": [
+      {
+        "paragraph": 2,
+        "text": "No tocaríamos libros antiguos ni piezas valiosas, sino nuestros cuentos más gastados, con la ayuda de alguien que sepa hacerlo."
+      }
+    ],
+    "la-carta-que-no-pedia-permiso-q2": [
+      {
+        "paragraph": 4,
+        "text": "Podríamos preparar el material a las diez y media, empezar a las once y terminar a las doce. Reservaríamos media hora más para recoger."
+      }
+    ],
+    "la-carta-que-no-pedia-permiso-q3": [
+      {
+        "paragraph": 5,
+        "text": "No sabemos si la sala aparentemente vacía ya tiene algún uso previsto."
+      }
+    ],
+    "la-carta-que-no-pedia-permiso-q4": [
+      {
+        "paragraph": 3,
+        "text": "En el primer borrador de la carta solo preguntábamos si nos dejabais hacer el taller. Después pensamos que una respuesta afirmativa aún no nos diría cómo empezar. Por eso enviamos una propuesta más concreta, que podremos cambiar según las necesidades de la biblioteca."
+      },
+      {
+        "paragraph": 4,
+        "text": "Antes de anunciar la actividad, necesitaríamos saber cuántas personas caben, qué material sería adecuado y si algún voluntario podría orientarnos."
+      }
+    ],
+    "la-carta-que-no-pedia-permiso-q5": [
+      {
+        "paragraph": 5,
+        "text": "No sabemos si la sala aparentemente vacía ya tiene algún uso previsto. Si no está disponible, podríamos hacer el taller otro día o en otra mesa."
+      }
+    ],
+    "la-carta-que-no-pedia-permiso-q6": [
+      {
+        "paragraph": 6,
+        "text": "Hemos dejado la carta sobre el mostrador, dentro de un sobre con una dirección de contacto de nuestro centro. Todavía no hemos hecho carteles ni apuntado a nadie. Querríamos que fuera el inicio de una conversación, no un anuncio que después no pudiéramos cumplir."
+      }
+    ],
+    "la-carta-que-no-pedia-permiso-q7": [
+      {
+        "paragraph": 2,
+        "text": "Pensamos que podríamos organizar allí un taller para reparar libros: pegar páginas sueltas y reforzar cubiertas. No tocaríamos libros antiguos ni piezas valiosas, sino nuestros cuentos más gastados, con la ayuda de alguien que sepa hacerlo."
+      },
+      {
+        "paragraph": 4,
+        "text": "Podríamos preparar el material a las diez y media, empezar a las once y terminar a las doce. Reservaríamos media hora más para recoger. Nosotros llevaríamos los libros y el papel para proteger las mesas. Antes de anunciar la actividad, necesitaríamos saber cuántas personas caben, qué material sería adecuado y si algún voluntario podría orientarnos."
+      }
+    ]
+  },
+  "la-carta-que-no-pedia-permiso-ca": {
+    "la-carta-que-no-pedia-permiso-q1": [
+      {
+        "paragraph": 2,
+        "text": "No tocaríem llibres antics ni peces valuoses, sinó els nostres contes més gastats, amb l’ajuda d’una persona que en sàpiga."
+      }
+    ],
+    "la-carta-que-no-pedia-permiso-q2": [
+      {
+        "paragraph": 4,
+        "text": "Podríem preparar el material a dos quarts d’onze, començar a les onze i acabar a les dotze. Reservaríem mitja hora més per recollir."
+      }
+    ],
+    "la-carta-que-no-pedia-permiso-q3": [
+      {
+        "paragraph": 5,
+        "text": "No sabem si la sala aparentment buida ja té algun ús previst."
+      }
+    ],
+    "la-carta-que-no-pedia-permiso-q4": [
+      {
+        "paragraph": 3,
+        "text": "Al primer esborrany de la carta només havíem escrit si ens deixàveu fer el taller. Després hem pensat que una resposta afirmativa encara no ens diria com començar. Per això us enviem una proposta més concreta, que podrem canviar segons les necessitats de la biblioteca."
+      },
+      {
+        "paragraph": 4,
+        "text": "Abans d’anunciar l’activitat, necessitaríem saber quantes persones hi caben, quin material seria adequat i si algun voluntari ens podria orientar."
+      }
+    ],
+    "la-carta-que-no-pedia-permiso-q5": [
+      {
+        "paragraph": 5,
+        "text": "No sabem si la sala aparentment buida ja té algun ús previst. Si no està disponible, podríem fer el taller un altre dia o en una altra taula."
+      }
+    ],
+    "la-carta-que-no-pedia-permiso-q6": [
+      {
+        "paragraph": 6,
+        "text": "Hem deixat la carta damunt del taulell, dins d’un sobre amb una adreça de contacte del nostre centre. Encara no hem fet cartells ni hem apuntat ningú. Ens agradaria que això fos l’inici d’una conversa, no un anunci que després no poguéssim complir."
+      }
+    ],
+    "la-carta-que-no-pedia-permiso-q7": [
+      {
+        "paragraph": 2,
+        "text": "Se’ns va acudir que hi podríem organitzar un taller per reparar llibres: enganxar pàgines despreses i reforçar cobertes. No tocaríem llibres antics ni peces valuoses, sinó els nostres contes més gastats, amb l’ajuda d’una persona que en sàpiga."
+      },
+      {
+        "paragraph": 4,
+        "text": "Podríem preparar el material a dos quarts d’onze, començar a les onze i acabar a les dotze. Reservaríem mitja hora més per recollir. Nosaltres portaríem els llibres i els papers per protegir les taules. Abans d’anunciar l’activitat, necessitaríem saber quantes persones hi caben, quin material seria adequat i si algun voluntari ens podria orientar."
+      }
+    ]
+  },
+  "un-libro-que-dejaba-espacio-es": {
+    "un-libro-que-dejaba-espacio-q1": [
+      {
+        "paragraph": 1,
+        "text": "No se vende en librerías: tenemos tres copias para prestar en la biblioteca."
+      }
+    ],
+    "un-libro-que-dejaba-espacio-q2": [
+      {
+        "paragraph": 4,
+        "text": "Lo que menos me ha gustado es que tres poemas utilizan la misma imagen de la lluvia. Leídos seguidos, me han parecido similares. También me habría servido una página final con los nombres de los autores de cada poema, en vez de encontrarlos todos mezclados en la cubierta."
+      }
+    ],
+    "un-libro-que-dejaba-espacio-q3": [
+      {
+        "paragraph": 3,
+        "text": "Algunos finales quedan abiertos y el silencio entre un poema y el siguiente me permite imaginar algo que no está escrito."
+      }
+    ],
+    "un-libro-que-dejaba-espacio-q4": [
+      {
+        "paragraph": 2,
+        "text": "La coordinadora me pidió que lo leyera de nuevo, pero que antes de pasar la página mirara un rato el dibujo. Esta vez noté más la espera."
+      }
+    ],
+    "un-libro-que-dejaba-espacio-q5": [
+      {
+        "paragraph": 3,
+        "text": "Más bien me ha ayudado a frenar. Algunos finales quedan abiertos y el silencio entre un poema y el siguiente me permite imaginar algo que no está escrito. Con una novela suelo pasar la hoja para saber qué ocurre; aquí a veces la paso demasiado pronto."
+      },
+      {
+        "paragraph": 5,
+        "text": "No lo recomendaría solo por ser corto: leerlo con prisas es una forma muy rápida de pasar por encima y no descubrir casi nada."
+      }
+    ],
+    "un-libro-que-dejaba-espacio-q6": [
+      {
+        "paragraph": 4,
+        "text": "Lo que menos me ha gustado es que tres poemas utilizan la misma imagen de la lluvia. Leídos seguidos, me han parecido similares. También me habría servido una página final con los nombres de los autores de cada poema, en vez de encontrarlos todos mezclados en la cubierta."
+      }
+    ],
+    "un-libro-que-dejaba-espacio-q7": [
+      {
+        "paragraph": 5,
+        "text": "Lo recomendaría a alguien que quiera probar a leer poesía sin empezar por un volumen muy largo. No lo recomendaría solo por ser corto: leerlo con prisas es una forma muy rápida de pasar por encima y no descubrir casi nada."
+      }
+    ]
+  },
+  "un-libro-que-dejaba-espacio-ca": {
+    "un-libro-que-dejaba-espacio-q1": [
+      {
+        "paragraph": 1,
+        "text": "No es ven a les llibreries: en tenim tres còpies per deixar a la biblioteca."
+      }
+    ],
+    "un-libro-que-dejaba-espacio-q2": [
+      {
+        "paragraph": 4,
+        "text": "El que menys m’ha agradat és que tres poemes fan servir la mateixa imatge de la pluja. Llegits seguits, m’han semblat semblants. També m’hauria anat bé una pàgina final amb els noms dels autors de cada poema, en lloc de trobar-los tots barrejats a la coberta."
+      }
+    ],
+    "un-libro-que-dejaba-espacio-q3": [
+      {
+        "paragraph": 3,
+        "text": "Alguns finals queden oberts i el silenci entre un poema i el següent em permet imaginar alguna cosa que no està escrita."
+      }
+    ],
+    "un-libro-que-dejaba-espacio-q4": [
+      {
+        "paragraph": 2,
+        "text": "La coordinadora em va demanar que el tornés a llegir, però que abans de passar la pàgina mirés una estona el dibuix. Aquesta vegada vaig notar més l’espera."
+      }
+    ],
+    "un-libro-que-dejaba-espacio-q5": [
+      {
+        "paragraph": 3,
+        "text": "Més aviat m’ha ajudat a frenar. Alguns finals queden oberts i el silenci entre un poema i el següent em permet imaginar alguna cosa que no està escrita. Amb una novel·la sovint giro el full per saber què passa; aquí a vegades el giro massa aviat."
+      },
+      {
+        "paragraph": 5,
+        "text": "No el recomanaria només perquè és curt: llegir-lo amb presses és una manera molt ràpida de passar-hi per sobre i no descobrir-hi gairebé res."
+      }
+    ],
+    "un-libro-que-dejaba-espacio-q6": [
+      {
+        "paragraph": 4,
+        "text": "El que menys m’ha agradat és que tres poemes fan servir la mateixa imatge de la pluja. Llegits seguits, m’han semblat semblants. També m’hauria anat bé una pàgina final amb els noms dels autors de cada poema, en lloc de trobar-los tots barrejats a la coberta."
+      }
+    ],
+    "un-libro-que-dejaba-espacio-q7": [
+      {
+        "paragraph": 5,
+        "text": "El recomanaria a algú que vulgui provar de llegir poesia sense començar per un volum gaire llarg. No el recomanaria només perquè és curt: llegir-lo amb presses és una manera molt ràpida de passar-hi per sobre i no descobrir-hi gairebé res."
+      }
+    ]
+  },
+  "el-corredor-que-marcaba-el-paso-es": {
+    "el-corredor-que-marcaba-el-paso-q1": [
+      {
+        "paragraph": 1,
+        "text": "Contaría el tiempo del último miembro en cruzar la meta."
+      }
+    ],
+    "el-corredor-que-marcaba-el-paso-q2": [
+      {
+        "paragraph": 3,
+        "text": "Cuando el primero aceleraba sin darse cuenta, ella avisaba: «Todavía queda la subida»."
+      }
+    ],
+    "el-corredor-que-marcaba-el-paso-q3": [
+      {
+        "paragraph": 3,
+        "text": "Roc eligió un ritmo que podía mantener mientras decía una frase corta sin detenerse. Arnau corría a su lado y Duna un poco detrás. Cuando el primero aceleraba sin darse cuenta, ella avisaba: «Todavía queda la subida». No buscaban el ritmo más rápido durante unos segundos, sino uno que les permitiera terminar juntos."
+      },
+      {
+        "paragraph": 4,
+        "text": "Arnau dio dos pasos más largos, pero oyó la respiración de Roc y recuperó el paso ensayado."
+      }
+    ],
+    "el-corredor-que-marcaba-el-paso-q4": [
+      {
+        "paragraph": 1,
+        "text": "Contaría el tiempo del último miembro en cruzar la meta."
+      },
+      {
+        "paragraph": 2,
+        "text": "Llegó a la curva antes que los demás y se volvió, satisfecho. Duna se había quedado a mitad del camino y Roc venía más atrás."
+      }
+    ],
+    "el-corredor-que-marcaba-el-paso-q5": [
+      {
+        "paragraph": 4,
+        "text": "Arnau dio dos pasos más largos, pero oyó la respiración de Roc y recuperó el paso ensayado."
+      }
+    ],
+    "el-corredor-que-marcaba-el-paso-q6": [
+      {
+        "paragraph": 1,
+        "text": "Cada equipo tendría tres corredores, que saldrían juntos. Contaría el tiempo del último miembro en cruzar la meta. No era una carrera de relevos y nadie podría sustituir a nadie a medio recorrido."
+      },
+      {
+        "paragraph": 5,
+        "text": "Cruzaron la meta casi juntos. Arnau llegó segundo de su equipo. Cuando le preguntaron si estaba decepcionado, señaló el reloj: esta vez no había tenido que volver atrás."
+      }
+    ],
+    "el-corredor-que-marcaba-el-paso-q7": [
+      {
+        "paragraph": 4,
+        "text": "En la subida adelantaron a aquel mismo equipo, que ahora caminaba. No supieron si había salido demasiado deprisa o si le había pasado otra cosa."
+      }
+    ]
+  },
+  "el-corredor-que-marcaba-el-paso-ca": {
+    "el-corredor-que-marcaba-el-paso-q1": [
+      {
+        "paragraph": 1,
+        "text": "El temps que comptaria seria el de l’últim membre a travessar la meta."
+      }
+    ],
+    "el-corredor-que-marcaba-el-paso-q2": [
+      {
+        "paragraph": 3,
+        "text": "Quan el primer accelerava sense adonar-se’n, ella avisava: «Encara queda la pujada»."
+      }
+    ],
+    "el-corredor-que-marcaba-el-paso-q3": [
+      {
+        "paragraph": 3,
+        "text": "En Roc va triar un ritme que podia mantenir mentre feia una frase curta sense aturar-se. L’Arnau corria al seu costat i la Duna una mica darrere. Quan el primer accelerava sense adonar-se’n, ella avisava: «Encara queda la pujada». No buscaven el ritme més ràpid durant uns segons, sinó un que els permetés acabar plegats."
+      },
+      {
+        "paragraph": 4,
+        "text": "L’Arnau va fer dos passos més llargs, però va sentir la respiració d’en Roc i va tornar al pas que havien assajat."
+      }
+    ],
+    "el-corredor-que-marcaba-el-paso-q4": [
+      {
+        "paragraph": 1,
+        "text": "El temps que comptaria seria el de l’últim membre a travessar la meta."
+      },
+      {
+        "paragraph": 2,
+        "text": "Va arribar al revolt abans que els altres i es va girar, satisfet. La Duna s’havia quedat al mig del camí i en Roc venia més enrere."
+      }
+    ],
+    "el-corredor-que-marcaba-el-paso-q5": [
+      {
+        "paragraph": 4,
+        "text": "L’Arnau va fer dos passos més llargs, però va sentir la respiració d’en Roc i va tornar al pas que havien assajat."
+      }
+    ],
+    "el-corredor-que-marcaba-el-paso-q6": [
+      {
+        "paragraph": 1,
+        "text": "Cada equip tindria tres corredors, que sortirien alhora. El temps que comptaria seria el de l’últim membre a travessar la meta. No era una cursa de relleus i ningú no podria substituir ningú a mig recorregut."
+      },
+      {
+        "paragraph": 5,
+        "text": "Van travessar la meta gairebé junts. L’Arnau va arribar segon del seu equip. Quan li van preguntar si estava decebut, va assenyalar el rellotge: aquesta vegada no havia hagut de tornar enrere."
+      }
+    ],
+    "el-corredor-que-marcaba-el-paso-q7": [
+      {
+        "paragraph": 4,
+        "text": "A la pujada van avançar aquell mateix equip, que ara caminava. No van saber si havia sortit massa de pressa o si li havia passat alguna altra cosa."
+      }
+    ]
+  },
+  "el-pozo-que-seguia-en-el-mapa-es": {
+    "el-pozo-que-seguia-en-el-mapa-q1": [
+      {
+        "paragraph": 1,
+        "text": "El símbolo es pequeño: un círculo azul con una raya encima. En el margen del mapa, la leyenda indica que representa un pozo."
+      }
+    ],
+    "el-pozo-que-seguia-en-el-mapa-q2": [
+      {
+        "paragraph": 2,
+        "text": "Encontraron el pozo, pero tenía una tapa de madera cerrada y una verja alrededor."
+      }
+    ],
+    "el-pozo-que-seguia-en-el-mapa-q3": [
+      {
+        "paragraph": 1,
+        "text": "En un mapa de hace cuarenta años, el camino del Cerro se divide en dos junto a un pozo."
+      },
+      {
+        "paragraph": 3,
+        "text": "El nombre servía para indicar el punto donde el camino se bifurca."
+      }
+    ],
+    "el-pozo-que-seguia-en-el-mapa-q4": [
+      {
+        "paragraph": 1,
+        "text": "No hay ninguna anotación que diga si se puede beber el agua ni si el lugar está abierto al público."
+      },
+      {
+        "paragraph": 2,
+        "text": "Mónica, que dibujaba el recorrido, propuso parar allí para llenar las cantimploras."
+      }
+    ],
+    "el-pozo-que-seguia-en-el-mapa-q5": [
+      {
+        "paragraph": 3,
+        "text": "El pozo había dejado de utilizarse, aunque muchas personas seguían diciendo «nos vemos en el pozo». El nombre servía para indicar el punto donde el camino se bifurca. Para los vecinos, no hacía falta ver agua para que aquel lugar siguiera siendo el pozo."
+      }
+    ],
+    "el-pozo-que-seguia-en-el-mapa-q6": [
+      {
+        "paragraph": 1,
+        "text": "En el margen del mapa, la leyenda indica que representa un pozo."
+      },
+      {
+        "paragraph": 4,
+        "text": "Conservó el dibujo como referencia, pero al lado escribió «pozo cerrado, sin acceso al agua». Para indicar dónde podrían llenar las cantimploras, añadió una fuente de la plaza que habían comprobado aquella mañana."
+      }
+    ],
+    "el-pozo-que-seguia-en-el-mapa-q7": [
+      {
+        "paragraph": 5,
+        "text": "El mapa antiguo no era inútil ni estaba necesariamente mal dibujado. Mostraba un elemento que aún existía, pero no informaba de su estado actual. El grupo lo guardó con las notas del paseo: comparado con la hoja nueva, también contaba una pequeña parte de la historia del pueblo."
+      }
+    ]
+  },
+  "el-pozo-que-seguia-en-el-mapa-ca": {
+    "el-pozo-que-seguia-en-el-mapa-q1": [
+      {
+        "paragraph": 1,
+        "text": "El símbol és petit: un cercle blau amb una ratlla a sobre. Al marge del mapa, la llegenda indica que representa un pou."
+      }
+    ],
+    "el-pozo-que-seguia-en-el-mapa-q2": [
+      {
+        "paragraph": 2,
+        "text": "Van trobar el pou, però tenia una tapa de fusta tancada i una reixa al voltant."
+      }
+    ],
+    "el-pozo-que-seguia-en-el-mapa-q3": [
+      {
+        "paragraph": 1,
+        "text": "En un mapa de fa quaranta anys, el camí del Turó es divideix en dos al costat d’un pou."
+      },
+      {
+        "paragraph": 3,
+        "text": "El nom servia per indicar el punt on el camí es bifurca."
+      }
+    ],
+    "el-pozo-que-seguia-en-el-mapa-q4": [
+      {
+        "paragraph": 1,
+        "text": "No hi ha cap anotació que digui si l’aigua es pot beure ni si el lloc està obert al públic."
+      },
+      {
+        "paragraph": 2,
+        "text": "La Mònica, que dibuixava el recorregut, va proposar fer-hi una parada per omplir les cantimplores."
+      }
+    ],
+    "el-pozo-que-seguia-en-el-mapa-q5": [
+      {
+        "paragraph": 3,
+        "text": "El pou havia deixat d’utilitzar-se, encara que moltes persones continuaven dient «ens trobem al pou». El nom servia per indicar el punt on el camí es bifurca. Per a la gent del poble, no calia veure-hi aigua perquè aquell lloc continués sent el pou."
+      }
+    ],
+    "el-pozo-que-seguia-en-el-mapa-q6": [
+      {
+        "paragraph": 1,
+        "text": "Al marge del mapa, la llegenda indica que representa un pou."
+      },
+      {
+        "paragraph": 4,
+        "text": "Va conservar el dibuix com a referència, però al costat va escriure «pou tancat, sense accés a l’aigua». Per indicar on podrien omplir les cantimplores, va afegir una font de la plaça que havien comprovat aquell mateix matí."
+      }
+    ],
+    "el-pozo-que-seguia-en-el-mapa-q7": [
+      {
+        "paragraph": 5,
+        "text": "El mapa antic no era inútil ni necessàriament estava mal dibuixat. Mostrava un element que encara existia, però no informava del seu estat actual. El grup va guardar-lo amb les notes de la passejada: comparat amb el full nou, també explicava una petita part de la història del poble."
+      }
+    ]
+  },
+  "la-tienda-que-cambiaba-de-forma-es": {
+    "la-tienda-que-cambiaba-de-forma-q1": [
+      {
+        "paragraph": 1,
+        "text": "El lunes había una muestra de cerámica; el miércoles, un taller para reparar juguetes, y el viernes habrá un intercambio de libros."
+      }
+    ],
+    "la-tienda-que-cambiaba-de-forma-q2": [
+      {
+        "paragraph": 2,
+        "text": "Las dos mesas se pueden plegar, los paneles tienen ruedas con freno y unas cajas de madera sirven tanto para transportar materiales como para exponer objetos. El lunes estaban apiladas contra la pared, con platos y tazas encima. El miércoles, las mismas cajas guardaban las herramientas del taller."
+      }
+    ],
+    "la-tienda-que-cambiaba-de-forma-q3": [
+      {
+        "paragraph": 3,
+        "text": "Una parte es material recuperado; el resto se ha comprado pensando que pueda repararse si se estropea."
+      }
+    ],
+    "la-tienda-que-cambiaba-de-forma-q4": [
+      {
+        "paragraph": 3,
+        "text": "«Queríamos comprar una mesa grande, pero vimos que nos dejaría poco espacio para las exposiciones», explica la coordinadora. Empezaron haciendo una lista de las actividades que querían organizar. Después buscaron muebles que sirvieran para varios usos."
+      }
+    ],
+    "la-tienda-que-cambiaba-de-forma-q5": [
+      {
+        "paragraph": 4,
+        "text": "Cambiar la forma del local no es tan inmediato como parece en las fotografías. Cada grupo debe retirar su material, limpiar las superficies y dejar libre el paso hasta la puerta. Entre actividades reservan una hora para preparar el espacio siguiente. Las piezas de cerámica no se quedan en las cajas cuando estas pasan a guardar herramientas."
+      }
+    ],
+    "la-tienda-que-cambiaba-de-forma-q6": [
+      {
+        "paragraph": 3,
+        "text": "«Queríamos comprar una mesa grande, pero vimos que nos dejaría poco espacio para las exposiciones», explica la coordinadora. Empezaron haciendo una lista de las actividades que querían organizar. Después buscaron muebles que sirvieran para varios usos."
+      }
+    ],
+    "la-tienda-que-cambiaba-de-forma-q7": [
+      {
+        "paragraph": 5,
+        "text": "Durante el primer mes, las asociaciones anotarán cuánto tiempo necesitan y qué problemas aparecen. Aún no saben si podrán mantener tres actividades semanales. Por eso solo han publicado el calendario de este mes: quieren comprobar qué funciona antes de dar la programación por definitiva."
+      }
+    ]
+  },
+  "la-tienda-que-cambiaba-de-forma-ca": {
+    "la-tienda-que-cambiaba-de-forma-q1": [
+      {
+        "paragraph": 1,
+        "text": "Dilluns hi havia una mostra de ceràmica; dimecres, un taller per reparar joguines, i divendres s’hi farà un intercanvi de llibres."
+      }
+    ],
+    "la-tienda-que-cambiaba-de-forma-q2": [
+      {
+        "paragraph": 2,
+        "text": "Les dues taules es poden plegar, els plafons tenen rodes amb fre i unes caixes de fusta serveixen tant per transportar materials com per exposar objectes. Dilluns estaven apilades contra la paret, amb els plats i les tasses al damunt. Dimecres, les mateixes caixes guardaven les eines del taller."
+      }
+    ],
+    "la-tienda-que-cambiaba-de-forma-q3": [
+      {
+        "paragraph": 3,
+        "text": "Una part és material recuperat; la resta s’ha comprat pensant que es pugui reparar si es fa malbé."
+      }
+    ],
+    "la-tienda-que-cambiaba-de-forma-q4": [
+      {
+        "paragraph": 3,
+        "text": "«Volíem comprar una taula gran, però vam veure que ens deixaria poc espai per a les exposicions», explica la coordinadora. Van començar fent una llista de les activitats que volien organitzar. Després van buscar mobles que servissin per a més d’un ús."
+      }
+    ],
+    "la-tienda-que-cambiaba-de-forma-q5": [
+      {
+        "paragraph": 4,
+        "text": "Canviar el local de forma no és tan immediat com sembla a les fotografies. Cada grup ha de retirar el seu material, netejar les superfícies i deixar lliure el pas fins a la porta. Entre activitats reserven una hora per preparar l’espai següent. Les peces de ceràmica no es queden a les caixes quan aquestes passen a guardar eines."
+      }
+    ],
+    "la-tienda-que-cambiaba-de-forma-q6": [
+      {
+        "paragraph": 3,
+        "text": "«Volíem comprar una taula gran, però vam veure que ens deixaria poc espai per a les exposicions», explica la coordinadora. Van començar fent una llista de les activitats que volien organitzar. Després van buscar mobles que servissin per a més d’un ús."
+      }
+    ],
+    "la-tienda-que-cambiaba-de-forma-q7": [
+      {
+        "paragraph": 5,
+        "text": "Durant el primer mes, les associacions anotaran quant temps necessiten i quins problemes apareixen. Encara no saben si podran mantenir tres activitats setmanals. Per això han publicat només el calendari d’aquest mes: volen comprovar què funciona abans de donar la programació per definitiva."
+      }
+    ]
+  },
+  "el-mapa-de-las-islas-de-luz-es": {
+    "el-mapa-de-las-islas-de-luz-q1": [
+      {
+        "paragraph": 1,
+        "text": "Cada punto amarillo representaba un lugar donde habían visto una farola."
+      }
+    ],
+    "el-mapa-de-las-islas-de-luz-q2": [
+      {
+        "paragraph": 3,
+        "text": "Anotaban el lugar, la hora, si la farola estaba encendida y si tenía pantalla."
+      }
+    ],
+    "el-mapa-de-las-islas-de-luz-q3": [
+      {
+        "paragraph": 1,
+        "text": "Jana propuso contar los puntos y concluir que la calle con más farolas producía más contaminación lumínica. El profesor pidió que reservaran la conclusión para el final."
+      }
+    ],
+    "el-mapa-de-las-islas-de-luz-q4": [
+      {
+        "paragraph": 2,
+        "text": "Uno tenía una pantalla opaca encima y enviaba la luz hacia el suelo. El otro también dejaba escapar luz hacia arriba y a los lados. Parte de la luz artificial que llega al cielo se dispersa en la atmósfera y contribuye a aclararlo. Por eso no bastaba con saber cuántas farolas había: también importaba hacia dónde iluminaban."
+      }
+    ],
+    "el-mapa-de-las-islas-de-luz-q5": [
+      {
+        "paragraph": 4,
+        "text": "El primer equipo la había visitado a las ocho y media, con los focos de la pista encendidos. El segundo había pasado a las diez, después de que los apagaran. Además, una noche había estado despejada y la otra, nublada. Si juntaban las notas sin explicar esas diferencias, parecería que habían observado la misma situación."
+      }
+    ],
+    "el-mapa-de-las-islas-de-luz-q6": [
+      {
+        "paragraph": 3,
+        "text": "Anotaban el lugar, la hora, si la farola estaba encendida y si tenía pantalla. No querían calcular a ojo cuánta energía consumía ni dar una medida exacta del brillo del cielo. La salida servía para describir el alumbrado que podían ver y decidir qué datos les faltaban."
+      }
+    ],
+    "el-mapa-de-las-islas-de-luz-q7": [
+      {
+        "paragraph": 5,
+        "text": "Debajo escribieron: «Este mapa muestra cómo hemos encontrado las luces, no una clasificación definitiva de las calles»."
+      }
+    ],
+    "el-mapa-de-las-islas-de-luz-q8": [
+      {
+        "paragraph": 1,
+        "text": "Jana propuso contar los puntos y concluir que la calle con más farolas producía más contaminación lumínica."
+      },
+      {
+        "paragraph": 2,
+        "text": "Por eso no bastaba con saber cuántas farolas había: también importaba hacia dónde iluminaban."
+      },
+      {
+        "paragraph": 6,
+        "text": "Añadió una pregunta: «¿Qué debemos comparar para que la comparación sea justa?». El mapa había ganado signos y también había perdido una certeza."
+      }
+    ]
+  },
+  "el-mapa-de-las-islas-de-luz-ca": {
+    "el-mapa-de-las-islas-de-luz-q1": [
+      {
+        "paragraph": 1,
+        "text": "Cada punt groc representava un lloc on havien vist un fanal."
+      }
+    ],
+    "el-mapa-de-las-islas-de-luz-q2": [
+      {
+        "paragraph": 3,
+        "text": "Hi anotaven el lloc, l’hora, si el fanal estava encès i si tenia pantalla."
+      }
+    ],
+    "el-mapa-de-las-islas-de-luz-q3": [
+      {
+        "paragraph": 1,
+        "text": "La Jana va proposar comptar tots els punts i concloure que el carrer amb més fanals era el que produïa més contaminació lumínica. El professor va demanar que reservessin la conclusió per al final."
+      }
+    ],
+    "el-mapa-de-las-islas-de-luz-q4": [
+      {
+        "paragraph": 2,
+        "text": "Un tenia una pantalla opaca a sobre i enviava la llum cap al terra. L’altre també deixava escapar llum cap amunt i als costats. Una part de la llum artificial que arriba al cel es dispersa a l’atmosfera i contribueix a aclarir-lo. Per això no n’hi havia prou de saber quants fanals hi havia: també importava cap on il·luminaven."
+      }
+    ],
+    "el-mapa-de-las-islas-de-luz-q5": [
+      {
+        "paragraph": 4,
+        "text": "El primer equip l’havia visitada a dos quarts de nou, mentre els focus de la pista estaven encesos. El segon hi havia passat a les deu, després que els apaguessin. A més, una nit havia estat serena i l’altra, ennuvolada. Si ajuntaven totes les notes sense explicar aquestes diferències, semblaria que havien observat la mateixa situació."
+      }
+    ],
+    "el-mapa-de-las-islas-de-luz-q6": [
+      {
+        "paragraph": 3,
+        "text": "Hi anotaven el lloc, l’hora, si el fanal estava encès i si tenia pantalla. No volien calcular amb els ulls quanta energia consumia ni donar una mesura exacta de la brillantor del cel. Aquella sortida servia per descriure l’enllumenat que podien veure i decidir quines dades els faltaven."
+      }
+    ],
+    "el-mapa-de-las-islas-de-luz-q7": [
+      {
+        "paragraph": 5,
+        "text": "A sota hi van escriure: «Aquest mapa mostra com hem trobat els llums, no una classificació definitiva dels carrers»."
+      }
+    ],
+    "el-mapa-de-las-islas-de-luz-q8": [
+      {
+        "paragraph": 1,
+        "text": "La Jana va proposar comptar tots els punts i concloure que el carrer amb més fanals era el que produïa més contaminació lumínica."
+      },
+      {
+        "paragraph": 2,
+        "text": "Per això no n’hi havia prou de saber quants fanals hi havia: també importava cap on il·luminaven."
+      },
+      {
+        "paragraph": 6,
+        "text": "Hi va afegir una pregunta: «Què hem de comparar perquè la comparació sigui justa?». El mapa havia guanyat signes i també havia perdut una certesa."
+      }
+    ]
+  },
+  "la-cancion-que-perdio-una-estrofa-es": {
+    "la-cancion-que-perdio-una-estrofa-q1": [
+      {
+        "paragraph": 1,
+        "text": "Hablaba de una barca que volvía vacía al puerto."
+      }
+    ],
+    "la-cancion-que-perdio-una-estrofa-q2": [
+      {
+        "paragraph": 3,
+        "text": "Él la situaba al principio, antes del estribillo. También cambiaba el nombre de la protagonista."
+      }
+    ],
+    "la-cancion-que-perdio-una-estrofa-q3": [
+      {
+        "paragraph": 5,
+        "text": "El cuaderno quedaría expuesto con una nota: «Copia sin fecha conocida». No sabían si era más antiguo que los recuerdos de los vecinos y no querían que el público lo diera por hecho solo porque el papel estuviera amarillento."
+      }
+    ],
+    "la-cancion-que-perdio-una-estrofa-q4": [
+      {
+        "paragraph": 2,
+        "text": "Su abuela cantó tres estrofas; cuando le enseñaron la de la barca, se encogió de hombros. «En mi casa no la cantábamos. Quizá no me la enseñaron». No dijo que fuera falsa ni que el cuaderno estuviera equivocado."
+      }
+    ],
+    "la-cancion-que-perdio-una-estrofa-q5": [
+      {
+        "paragraph": 4,
+        "text": "Durante el ensayo, Aina propuso juntar todas las estrofas y decir que habían recuperado la canción completa. Ferran respondió que quizá así harían una versión que nadie había cantado nunca exactamente de esa manera. La abuela estaba de acuerdo: prefería que se oyeran las diferencias antes que ocultarlas bajo una única letra."
+      }
+    ],
+    "la-cancion-que-perdio-una-estrofa-q6": [
+      {
+        "paragraph": 3,
+        "text": "La profesora de música preguntó si alguien sabía cuándo se había escrito el cuaderno o quién había copiado la letra. Nadie lo sabía. En la primera página solo había un nombre, sin fecha."
+      },
+      {
+        "paragraph": 5,
+        "text": "No sabían si era más antiguo que los recuerdos de los vecinos y no querían que el público lo diera por hecho solo porque el papel estuviera amarillento."
+      }
+    ],
+    "la-cancion-que-perdio-una-estrofa-q7": [
+      {
+        "paragraph": 5,
+        "text": "Finalmente prepararon dos interpretaciones breves. Antes de cada una explicarían quién les había transmitido aquella versión."
+      }
+    ],
+    "la-cancion-que-perdio-una-estrofa-q8": [
+      {
+        "paragraph": 4,
+        "text": "Durante el ensayo, Aina propuso juntar todas las estrofas y decir que habían recuperado la canción completa. Ferran respondió que quizá así harían una versión que nadie había cantado nunca exactamente de esa manera. La abuela estaba de acuerdo: prefería que se oyeran las diferencias antes que ocultarlas bajo una única letra."
+      },
+      {
+        "paragraph": 6,
+        "text": "Ya no le parecía una pieza que faltaba en la canción de su abuela. Era una pieza que abría otra historia de la misma canción."
+      }
+    ]
+  },
+  "la-cancion-que-perdio-una-estrofa-ca": {
+    "la-cancion-que-perdio-una-estrofa-q1": [
+      {
+        "paragraph": 1,
+        "text": "Parlava d’una barca que tornava buida al port."
+      }
+    ],
+    "la-cancion-que-perdio-una-estrofa-q2": [
+      {
+        "paragraph": 3,
+        "text": "Ell la situava al principi, abans de la tornada. També canviava el nom de la protagonista."
+      }
+    ],
+    "la-cancion-que-perdio-una-estrofa-q3": [
+      {
+        "paragraph": 5,
+        "text": "El quadern quedaria exposat amb una nota: «Còpia sense data coneguda». No sabien si era més antic que els records dels veïns, i no volien que el públic ho donés per fet només perquè el paper era groguenc."
+      }
+    ],
+    "la-cancion-que-perdio-una-estrofa-q4": [
+      {
+        "paragraph": 2,
+        "text": "L’àvia va cantar tres estrofes; quan li van ensenyar la de la barca, va arronsar les espatlles. «A casa meva no la cantàvem. Potser no me la van ensenyar». No va dir que fos falsa ni que el quadern estigués equivocat."
+      }
+    ],
+    "la-cancion-que-perdio-una-estrofa-q5": [
+      {
+        "paragraph": 4,
+        "text": "Durant l’assaig, l’Aina va proposar ajuntar totes les estrofes i dir que havien recuperat la cançó completa. En Ferran va respondre que potser així farien una versió que ningú no havia cantat mai exactament d’aquella manera. L’àvia hi estava d’acord: preferia que se sentissin les diferències abans que amagar-les sota una única lletra."
+      }
+    ],
+    "la-cancion-que-perdio-una-estrofa-q6": [
+      {
+        "paragraph": 3,
+        "text": "La professora de música va preguntar si algú sabia quan s’havia escrit el quadern o qui n’havia copiat la lletra. Ningú no ho sabia. A la primera pàgina només hi havia un nom, sense data."
+      },
+      {
+        "paragraph": 5,
+        "text": "No sabien si era més antic que els records dels veïns, i no volien que el públic ho donés per fet només perquè el paper era groguenc."
+      }
+    ],
+    "la-cancion-que-perdio-una-estrofa-q7": [
+      {
+        "paragraph": 5,
+        "text": "Al final van preparar dues interpretacions breus. Abans de cadascuna explicarien qui els havia transmès aquella versió."
+      }
+    ],
+    "la-cancion-que-perdio-una-estrofa-q8": [
+      {
+        "paragraph": 4,
+        "text": "Durant l’assaig, l’Aina va proposar ajuntar totes les estrofes i dir que havien recuperat la cançó completa. En Ferran va respondre que potser així farien una versió que ningú no havia cantat mai exactament d’aquella manera. L’àvia hi estava d’acord: preferia que se sentissin les diferències abans que amagar-les sota una única lletra."
+      },
+      {
+        "paragraph": 6,
+        "text": "Ja no li semblava una peça que faltava a la cançó de l’àvia. Era una peça que obria una altra història de la mateixa cançó."
+      }
+    ]
+  },
+  "una-entrada-con-dos-horarios-es": {
+    "una-entrada-con-dos-horarios-q1": [
+      {
+        "paragraph": 2,
+        "text": "Durante esa primera hora se limita el número de visitantes, se baja el volumen de las grabaciones y se apaga una proyección que suele cambiar de luz."
+      }
+    ],
+    "una-entrada-con-dos-horarios-q2": [
+      {
+        "paragraph": 6,
+        "text": "Finalmente entraron a las diez y media."
+      }
+    ],
+    "una-entrada-con-dos-horarios-q3": [
+      {
+        "paragraph": 2,
+        "text": "Durante esa primera hora se limita el número de visitantes, se baja el volumen de las grabaciones y se apaga una proyección que suele cambiar de luz."
+      },
+      {
+        "paragraph": 3,
+        "text": "La responsable del museo dice que a algunas personas les cuesta visitar un espacio con muchos estímulos a la vez."
+      }
+    ],
+    "una-entrada-con-dos-horarios-q4": [
+      {
+        "paragraph": 3,
+        "text": "La responsable del museo dice que a algunas personas les cuesta visitar un espacio con muchos estímulos a la vez. Una franja más calmada puede ayudar a ciertos visitantes, pero no garantiza que todos estén cómodos. Por eso también publican fotografías de las salas y una descripción de las condiciones."
+      }
+    ],
+    "una-entrada-con-dos-horarios-q5": [
+      {
+        "paragraph": 1,
+        "text": "Al leerlo, Bilal pensó que sería una visita sin nadie más."
+      },
+      {
+        "paragraph": 2,
+        "text": "Durante esa primera hora se limita el número de visitantes, se baja el volumen de las grabaciones y se apaga una proyección que suele cambiar de luz."
+      },
+      {
+        "paragraph": 4,
+        "text": "Tampoco promete silencio absoluto: pueden llegar otras personas y el edificio conserva los ruidos habituales de un espacio compartido."
+      }
+    ],
+    "una-entrada-con-dos-horarios-q6": [
+      {
+        "paragraph": 5,
+        "text": "Preguntaron si podían quedarse después de las once. Les dijeron que sí: no debían salir y comprar otra entrada al comenzar el horario general."
+      },
+      {
+        "paragraph": 6,
+        "text": "Dibujaron en la sala de herramientas y después regresaron al principio para ver la proyección encendida."
+      }
+    ],
+    "una-entrada-con-dos-horarios-q7": [
+      {
+        "paragraph": 4,
+        "text": "La visita tranquila no es una actividad guiada. Quien quiera un guía debe consultar otra reserva. Tampoco promete silencio absoluto: pueden llegar otras personas y el edificio conserva los ruidos habituales de un espacio compartido. Lo que se modifica es parte del ambiente que el museo puede controlar."
+      }
+    ],
+    "una-entrada-con-dos-horarios-q8": [
+      {
+        "paragraph": 2,
+        "text": "No se retiran obras ni se añade una explicación más fácil. Se puede seguir el mismo recorrido, aunque parte de los recursos audiovisuales no estén disponibles."
+      },
+      {
+        "paragraph": 6,
+        "text": "Habían elegido una manera de hacer la visita, no una exposición diferente. El doble horario no decidía qué debía interesarles; les ayudaba a organizar cómo querían verlo."
+      }
+    ]
+  },
+  "una-entrada-con-dos-horarios-ca": {
+    "una-entrada-con-dos-horarios-q1": [
+      {
+        "paragraph": 2,
+        "text": "Durant aquella primera hora, es limita el nombre de visitants, s’abaixa el volum dels enregistraments i s’apaga una projecció que acostuma a canviar de llum."
+      }
+    ],
+    "una-entrada-con-dos-horarios-q2": [
+      {
+        "paragraph": 6,
+        "text": "Finalment van entrar a dos quarts d’onze."
+      }
+    ],
+    "una-entrada-con-dos-horarios-q3": [
+      {
+        "paragraph": 2,
+        "text": "Durant aquella primera hora, es limita el nombre de visitants, s’abaixa el volum dels enregistraments i s’apaga una projecció que acostuma a canviar de llum."
+      },
+      {
+        "paragraph": 3,
+        "text": "La responsable del museu diu que hi ha persones a qui els costa visitar un espai amb molts estímuls alhora."
+      }
+    ],
+    "una-entrada-con-dos-horarios-q4": [
+      {
+        "paragraph": 3,
+        "text": "La responsable del museu diu que hi ha persones a qui els costa visitar un espai amb molts estímuls alhora. Una franja més calmada pot ser útil per a alguns visitants, però no assegura que tothom hi estigui còmode. Per això, el museu també publica fotografies de les sales i una descripció de les condicions."
+      }
+    ],
+    "una-entrada-con-dos-horarios-q5": [
+      {
+        "paragraph": 1,
+        "text": "Quan ho va llegir, en Bilal va pensar que seria una visita sense ningú més."
+      },
+      {
+        "paragraph": 2,
+        "text": "Durant aquella primera hora, es limita el nombre de visitants, s’abaixa el volum dels enregistraments i s’apaga una projecció que acostuma a canviar de llum."
+      },
+      {
+        "paragraph": 4,
+        "text": "Tampoc no és una promesa de silenci absolut: poden arribar altres persones i l’edifici continua tenint els sorolls habituals d’un espai compartit."
+      }
+    ],
+    "una-entrada-con-dos-horarios-q6": [
+      {
+        "paragraph": 5,
+        "text": "Van preguntar si podien quedar-se després de les onze. La resposta va ser que sí: no calia sortir i tornar a comprar una entrada quan comencés l’horari general."
+      },
+      {
+        "paragraph": 6,
+        "text": "Van dibuixar a la sala d’eines i després van tornar al principi per veure la projecció encesa."
+      }
+    ],
+    "una-entrada-con-dos-horarios-q7": [
+      {
+        "paragraph": 4,
+        "text": "La visita tranquil·la no és una activitat guiada. Qui vulgui un guia ha de consultar una altra reserva. Tampoc no és una promesa de silenci absolut: poden arribar altres persones i l’edifici continua tenint els sorolls habituals d’un espai compartit. El que es modifica és una part de l’ambient que el museu pot controlar."
+      }
+    ],
+    "una-entrada-con-dos-horarios-q8": [
+      {
+        "paragraph": 2,
+        "text": "Les obres no es retiren ni s’hi afegeix una explicació més fàcil. Es pot seguir el mateix recorregut, encara que una part dels recursos audiovisuals no estigui disponible."
+      },
+      {
+        "paragraph": 6,
+        "text": "Havien triat una manera de fer la visita, no una exposició diferent. El doble horari no decidia què els havia d’interessar; els ajudava a organitzar com ho volien veure."
+      }
+    ]
+  },
   "el-agua-que-llegaba-a-la-ciudad-es": {
     "agua-q1": [
       {
