@@ -24,6 +24,8 @@ Al solucionari, **Pistes al text** ressalta els fragments que sustenten les resp
 
 Les col·leccions es reordenen arrossegant les targetes directament a la graella; l’ordre queda desat i s’aplica a la navegació entre lectures i als lots. Un clic obre la lectura, o la marca/desmarca si has activat la selecció. Una pulsació llarga, clic dret o Majúscules + F10 obre les opcions de la targeta: afegir-la a una col·lecció existent o nova, o retirar-la de l’actual. Retirar-la conserva el maquetat per si la tornes a afegir. Amb el focus a una targeta d’una col·lecció, Alt + fletxes permet reordenar amb el teclat. A **Afegeix lectures**, al sidebar, pots incorporar-hi una selecció més gran.
 
+**Afegeix a una col·lecció** desplega els destins al mateix menú. Tria’n un per afegir-hi la lectura immediatament o **Nova col·lecció** per escriure’n el nom i crear-la allà mateix. Una marca indica que la lectura ja hi és. Es conserva la vista actual del catàleg i el maquetat es copia des de la col·lecció d’origen, si n’hi ha; un maquetat ja existent al destí es manté.
+
 ## Imprimir fitxes en bloc
 
 Acota el catàleg amb la cerca i els filtres i obre **Imprimeix un lot**. Totes les lectures de la llista apareixen marcades i pots desmarcar les que no et calen. **Imprimeix** obre les fitxes d’alumnat al diàleg d’impressió del navegador. La fletxa del costat permet imprimir el solucionari i descarregar les fitxes o els solucionaris en un PDF conjunt o en un ZIP amb un PDF per lectura. S’hi aplica el format inicial del curs o el que hagis ajustat durant la sessió.

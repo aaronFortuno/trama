@@ -133,10 +133,32 @@ const base = 'http://127.0.0.1:4200/';
     await button(ids[0]).click({ button: 'right' });
     assert.equal(await page.locator('[data-card-option="remove"]').isVisible(), false);
     await page.locator('[data-card-option="add"]').click();
-    await field('#collection-target', 'gestures-main');
-    await page.locator('#collection-submit').click();
+    await page.locator('[data-collection-target="gestures-main"]').click();
     assert((await order()).includes(ids[0]));
+    assert.equal(await page.locator('#collection-dialog').isVisible(), false);
+    assert.equal(await page.locator('#collection-select').inputValue(), '', 'Direct add must keep the current catalogue view');
+    assert.equal(await page.locator('[data-collection-target="gestures-main"]').isDisabled(), true);
+    assert((await page.locator('.card-collection-status').textContent()).includes('Principal'));
     assert.equal(await page.evaluate(key => localStorage.getItem(key), layoutKey), layout);
+
+    // Create inline, preserve validation errors, and copy the scoped format.
+    await field('#collection-select', 'gestures-main');
+    await button(ids[0]).click({ button: 'right' });
+    await page.locator('[data-card-option="add"]').click();
+    assert.equal(await page.locator('[data-collection-target="gestures-main"]').isDisabled(), true);
+    await page.locator('[data-card-collection-new]').click();
+    await page.locator('#card-collection-name').fill('Principal');
+    await page.locator('#card-collection-name').press('Enter');
+    assert.equal(await page.locator('#card-collection-name').getAttribute('aria-invalid'), 'true');
+    assert.equal(await page.evaluate(() => JSON.parse(localStorage.getItem('trama.collections.v1')).length), 2);
+    await page.locator('#card-collection-name').fill('Nova selecció');
+    await page.locator('#card-collection-name').press('Enter');
+    const created = await page.evaluate(() => JSON.parse(localStorage.getItem('trama.collections.v1')).find(entry => entry.name === 'Nova selecció'));
+    assert.deepEqual(created.readingIds, [ids[0]]);
+    assert.equal(await page.locator('#collection-dialog').isVisible(), false);
+    assert.equal(await page.locator('#collection-select').inputValue(), 'gestures-main');
+    assert.equal(await page.evaluate(({ id, readingId }) => localStorage.getItem(`trama.collection-layout.v1:${id}:${readingId}`), { id: created.id, readingId: ids[0] }), layout);
+    await page.mouse.click(20, 20);
 
     // Selection mode disables drag and long-press options while keeping card clicks.
     const summary = page.locator('#catalog-collection-panel > summary');
@@ -181,6 +203,12 @@ const base = 'http://127.0.0.1:4200/';
     await phone.page.waitForFunction(() => document.querySelector('#card-context-menu').matches(':popover-open'));
     await touch(client, 'touchEnd');
     assert.equal(await phone.page.locator('#catalog-view').isVisible(), true);
+    await phone.page.locator('[data-card-option="add"]').tap();
+    await phone.page.locator('[data-card-collection-new]').tap();
+    await phone.page.locator('#card-collection-name').fill('Tàctil');
+    await phone.page.locator('.card-collection-form button[type="submit"]').tap();
+    assert.equal(await phone.page.locator('#collection-dialog').isVisible(), false);
+    assert(await phone.page.evaluate(() => JSON.parse(localStorage.getItem('trama.collections.v1')).some(entry => entry.name === 'Tàctil')));
     await phone.page.keyboard.press('Escape');
     await phone.context.close();
 

@@ -265,6 +265,20 @@ body.is-catalog-dragging, body.is-catalog-dragging * { cursor: grabbing !importa
 .card-context-menu.select-menu { width: min(290px, calc(100vw - 16px)); }
 .card-context-title { margin: 3px 7px 5px; padding-bottom: 6px; border-bottom: 1px solid var(--line); color: var(--muted); font-size: .74rem; overflow-wrap: anywhere; }
 .card-context-menu [data-card-option="remove"] { color: var(--accent); }
+.card-context-menu [data-card-option="add"] .ui-icon { flex: none; transition: transform var(--motion); }
+.card-context-menu [data-card-option="add"][aria-expanded="true"] .ui-icon { transform: rotate(180deg); }
+.card-collection-options { margin: 3px 5px 5px; padding-left: 6px; border-left: 2px solid var(--line); }
+.card-collection-list { max-height: min(220px, 35dvh); overflow-y: auto; overscroll-behavior: contain; }
+.card-collection-list button span:first-child { min-width: 0; overflow-wrap: anywhere; }
+.card-collection-list button:disabled { color: var(--muted); cursor: default; }
+.card-collection-form { margin: 4px 3px; }
+.card-collection-form label { display: block; margin-bottom: 4px; font-size: .76rem; }
+.card-collection-form input { width: 100%; min-height: 34px; padding: 6px 8px; border: 1px solid var(--line); border-radius: 5px; background: var(--paper); color: var(--ink); font: inherit; }
+.card-collection-form input[aria-invalid="true"] { border-color: var(--accent); }
+.card-collection-form-actions { display: flex; gap: 4px; margin-top: 4px; }
+.card-collection-form-actions button[type="submit"] { color: var(--green); font-weight: 650; }
+.card-collection-status { margin: 5px 7px; color: var(--green); font-size: .75rem; overflow-wrap: anywhere; }
+.card-collection-status.is-error { color: var(--accent); }
 .reading-card:focus-within { outline: 2px solid var(--accent); outline-offset: 3px; }
 .card-art { height: clamp(108px, 12vw, 146px); overflow: hidden; border-bottom: 1px solid var(--line); background: repeating-linear-gradient(130deg, transparent 0 7px, var(--line) 8px 9px) var(--art); }
 .card-art img { display: block; width: 100%; height: 100%; object-fit: cover; }

@@ -107,7 +107,17 @@
               <p id="catalog-card-status" class="visually-hidden" role="status"></p>
               <div id="card-context-menu" class="select-menu action-menu card-context-menu" role="menu" aria-labelledby="card-context-title" popover="manual">
                 <p class="card-context-title" id="card-context-title"></p>
-                <button type="button" role="menuitem" data-card-option="add">Afegeix a una col·lecció…</button>
+                <button type="button" role="menuitem" data-card-option="add" aria-expanded="false" aria-controls="card-collection-options"><span>Afegeix a una col·lecció…</span><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+                <div id="card-collection-options" class="card-collection-options" role="group" aria-label="Col·leccions" hidden>
+                  <div class="card-collection-list"></div>
+                  <button type="button" role="menuitem" data-card-collection-new>Nova col·lecció</button>
+                  <form class="card-collection-form" hidden>
+                    <label for="card-collection-name">Nom de la col·lecció</label>
+                    <input id="card-collection-name" name="collectionName" type="text" maxlength="60" autocomplete="off" required>
+                    <div class="card-collection-form-actions"><button type="submit">Crea i afegeix</button><button type="button" data-card-collection-cancel>Cancel·la</button></div>
+                  </form>
+                  <p class="card-collection-status" role="status" hidden></p>
+                </div>
                 <button type="button" role="menuitem" data-card-option="remove" hidden>Treu de la col·lecció</button>
               </div>
               <div class="catalog-empty" id="catalog-empty" hidden>
@@ -137,7 +147,7 @@
         </a>
       </p>
       <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.44 · Obre l’historial de canvis">v1.44</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.44.1 · Obre l’historial de canvis">v1.44.1</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
@@ -266,6 +276,10 @@
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’historial"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
+      <article class="release">
+        <header><h3>v1.44.1</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
+        <p>«Afegeix a una col·lecció» desplega les col·leccions existents dins del menú de la targeta i hi afegeix la lectura directament. «Nova col·lecció» permet escriure el nom i crear-la al mateix menú, sense obrir el diàleg de desar ni canviar la vista del catàleg. Marquem les col·leccions que ja contenen la lectura i conservem el seu maquetat en copiar-la.</p>
+      </article>
       <article class="release">
         <header><h3>v1.44</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Les col·leccions es reordenen arrossegant les targetes directament a la graella, amb l’ordre desat per a la navegació i els lots. El clic obre la fitxa o alterna la selecció; una pulsació llarga o clic dret obre les opcions per afegir-la a una col·lecció existent o nova, o retirar-la de l’actual conservant-ne el maquetat. Substituïm el gestor d’ordenació emergent pels gestos a les targetes i el botó «Afegeix lectures». Incloem reordenació amb Alt + fletxes, opcions amb Majúscules + F10 i suport tàctil amb desplaçament normal de la pàgina.</p>

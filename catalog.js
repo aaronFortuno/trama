@@ -1,7 +1,7 @@
 import { animateRefresh, mountDisclosures } from './motion.js';
 import { syncSelects } from './select-menu.js';
 import { language, languages, t } from './i18n.js';
-import { collectionsKey, listCollections, moveCollectionReading, removeCollection, removeCollectionReading } from './collections.js';
+import { collectionsKey, listCollections, moveCollectionReading, removeCollection, removeCollectionReading, saveCollectionEntries } from './collections.js';
 import { mountCatalogGestures } from './catalog-gestures.js';
 
 export const labels = {
@@ -583,6 +583,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
   gestures = mountCatalogGestures({
     root, grid, scroller: results,
     getState: () => ({ selecting, collectionId: activeCollection?.id }),
+    getCollections: listCollections,
     onMove: moveReading,
     onStep(id, direction) {
       const index = orderedMatches.findIndex(({ reading }) => reading.id === id);
@@ -591,9 +592,20 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
       const beforeId = direction < 0 ? neighbor.id : afterReading(neighbor.id, id);
       commitCollection(() => moveCollectionReading(activeCollection.id, id, beforeId), id, 'reordena');
     },
-    onAdd(id) {
+    onAdd(id, targetId, name) {
       const reading = catalog.find(item => item.reading.id === id)?.reading;
-      if (reading) onSaveCollection([reading]);
+      try {
+        if (!reading) throw new Error(t('Lectura no disponible'));
+        const entry = saveCollectionEntries(name, [reading], activeCollection?.id, targetId);
+        collections = listCollections();
+        syncCollections();
+        onActivity?.('colleccio', { accio: targetId ? 'afegeix' : 'crea', quantitat: 1 });
+        const message = t('Lectura afegida a «{name}».', { name: entry.name });
+        cardStatus.textContent = message;
+        return { ok: true, message };
+      } catch (error) {
+        return { ok: false, message: error instanceof DOMException ? t('No s’han pogut desar els canvis de la col·lecció.') : error.message };
+      }
     },
     onRemove(id) {
       if (!activeCollection) return;

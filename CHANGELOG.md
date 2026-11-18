@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.44.1 · 18 de novembre del 2026
+
+«Afegeix a una col·lecció» desplega les col·leccions existents dins del menú de la targeta i hi afegeix la lectura directament. «Nova col·lecció» permet escriure el nom i crear-la al mateix menú, sense obrir el diàleg de desar ni canviar la vista del catàleg. Marquem les col·leccions que ja contenen la lectura i conservem el seu maquetat en copiar-la.
+
 ## 1.44 · 18 de novembre del 2026
 
 Les col·leccions es reordenen arrossegant les targetes directament a la graella, amb l’ordre desat per a la navegació i els lots. El clic obre la fitxa o alterna la selecció; una pulsació llarga o clic dret obre les opcions per afegir-la a una col·lecció existent o nova, o retirar-la de l’actual conservant-ne el maquetat. Substituïm el gestor d’ordenació emergent pels gestos a les targetes i el botó «Afegeix lectures». Incloem reordenació amb Alt + fletxes, opcions amb Majúscules + F10 i suport tàctil amb desplaçament normal de la pàgina.
