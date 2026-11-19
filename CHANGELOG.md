@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.49.3 · 20 de novembre del 2026
+
+Les L065, L077, L175 i L179 incorporen reforç i ampliació en català i castellà: trajectes i comparació de dades, usos de la pista, un diari d’observatori i una ressenya crítica. Arribem a setze famílies noves, trenta-dues obres adaptades i seixanta-quatre versions lingüístiques, conservant els originals.
+
 ## 1.49.2 · 19 de novembre del 2026
 
 Ampliem les L039, L043, L044 i L054 amb reforç i ampliació bilingües: reparació de paraigües, una carta de transport, l’ofici d’afinadora i mesures al plànol. La tanda arriba a dotze famílies noves, vint-i-quatre obres adaptades i quaranta-vuit versions lingüístiques, amb preguntes i solucionaris graduats.

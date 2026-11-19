@@ -4,6 +4,7 @@ import { readings } from '../data/readings.js';
 import { familyAdaptations } from '../data/family-adaptations.js';
 import { familyEditionPlan } from '../data/family-edition-plan.js';
 import { labels, wordCount } from '../catalog.js';
+import { annotationRange } from '../reading-annotations.js';
 
 const rank = reading => ['3-primary', '4-primary', '5-primary', '6-primary', '1-secondary'].indexOf(reading.level) * 3 + ['initial', 'intermediate', 'advanced'].indexOf(reading.difficulty);
 const sources = [...new Set(familyAdaptations.map(edition => edition.source))];
@@ -36,7 +37,7 @@ for (const source of sources) {
         assert(question.prompt && question.answer && question.lines >= 1 && question.lines <= 8);
         assert(Object.hasOwn(labels.question, question.type));
         if (question.type !== 'opinion') assert(question.evidence?.length, `${reading.code}: answer needs evidence`);
-        for (const reference of question.evidence ?? []) assert(reading.paragraphs[reference.paragraph - 1]?.includes(reference.text), `${reading.code}-${language} ${question.id}: ${reference.text}`);
+        for (const reference of question.evidence ?? []) assert(annotationRange(reading.paragraphs[reference.paragraph - 1], reference), `${reading.code}-${language} ${question.id}: ${reference.text}`);
         if (question.type === 'vocabulary') assert(reading.annotations.some(annotation => annotation.questionId === question.id), `${reading.code}-${language}: vocabulary underline`);
       }
     }

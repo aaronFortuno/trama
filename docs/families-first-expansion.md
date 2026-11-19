@@ -1,6 +1,6 @@
 # Primera ampliació de famílies
 
-Encàrrec del 19 de novembre del 2026: construir reforç i ampliació per a vint lectures existents, en català i castellà. És una proposta editorial per facilitar el treball simultani amb nivells diversos, no una classificació d’alumnes ni una garantia d’accessibilitat per a qualsevol necessitat.
+Encàrrec del 19 de novembre del 2026: construir reforç i ampliació per a vint lectures existents, en català i castellà. És una proposta editorial per facilitar el treball simultani amb nivells diversos i oferir diferents vies d’accés a un material comú.
 
 ## Tria i gradació
 
