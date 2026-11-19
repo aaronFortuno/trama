@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.49.2 · 19 de novembre del 2026
+
+Ampliem les L039, L043, L044 i L054 amb reforç i ampliació bilingües: reparació de paraigües, una carta de transport, l’ofici d’afinadora i mesures al plànol. La tanda arriba a dotze famílies noves, vint-i-quatre obres adaptades i quaranta-vuit versions lingüístiques, amb preguntes i solucionaris graduats.
+
 ## 1.49.1 · 19 de novembre del 2026
 
 Afegim reforç i ampliació per a les L005, L006, L008 i L031, en català i castellà: aqüeductes, identificació de balenes, disseny experimental i mosaics. La primera ampliació arriba a vuit famílies noves, amb setze obres adaptades i trenta-dues versions lingüístiques. Cada variant té preguntes, solucions, línies i marques de resposta pròpies.
