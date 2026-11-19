@@ -24,3 +24,13 @@ export function groupFamilyCards(matches) {
   }
   return cards;
 }
+
+export function countFacetResults(matches, facet, { groupFamilies = true } = {}) {
+  const groups = groupFamilies ? groupFamilyCards(matches) : matches.map(item => ({ familyMatches: [item] }));
+  const counts = new Map();
+  for (const group of groups) {
+    const values = new Set(group.familyMatches.flatMap(item => item.facets[facet]));
+    for (const value of values) counts.set(value, (counts.get(value) ?? 0) + 1);
+  }
+  return { total: groups.length, counts };
+}

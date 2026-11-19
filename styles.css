@@ -223,6 +223,10 @@ button { color: inherit; cursor: pointer; }
 .filter-help-tip:popover-open { opacity: 1; }
 @starting-style { .filter-help-tip:popover-open { opacity: 0; } }
 .filters-body label { display: grid; min-width: 0; gap: 4px; color: var(--muted); font-size: .75rem; font-weight: 650; }
+.filter-family-row { display: flex; align-items: center; gap: 3px; }
+.filters-body .family-only-filter { display: inline-flex; align-items: center; gap: 6px; color: var(--ink); font-weight: 500; line-height: 1.4; cursor: pointer; }
+.family-only-filter input { flex: none; margin: 0; accent-color: var(--green); }
+.filter-family-row .filter-help { flex: none; }
 .filters-note { grid-column: 1 / -1; margin: 0; color: var(--muted); font-size: .73rem; line-height: 1.35; }
 .filter-clear {
   display: grid; place-items: center; width: 28px; height: 34px; padding: 0;

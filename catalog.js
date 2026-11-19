@@ -5,7 +5,10 @@ import { collectionsKey, listCollections, moveCollectionReading, removeCollectio
 import { mountCatalogGestures } from './catalog-gestures.js';
 import { universes } from './data/universes.js';
 import { familyById } from './data/families.js';
-import { familyMembers, groupFamilyCards } from './reading-families.js';
+import { countFacetResults, familyMembers, groupFamilyCards } from './reading-families.js';
+import { defaultSettings } from './worksheet-code.js';
+import { exportWorksheetPages } from './worksheet.js';
+import { loadWorksheetFont } from './worksheet-fonts.js';
 
 export const labels = {
   language: { es: 'Castellà', ca: 'Català' },
@@ -18,7 +21,7 @@ export const labels = {
   difficulty: { initial: 'Inicial', intermediate: 'Intermèdia', advanced: 'Avançada' },
   length: { short: 'Curta', medium: 'Mitjana', long: 'Llarga' },
   universe: { 'no-universe': 'Sense univers', ...Object.fromEntries(universes.map(universe => [universe.id, universe.name.ca])) },
-  family: { 'with-variants': 'Amb variants', 'no-variants': 'Sense variants' },
+  family: { 'with-variants': 'Només lectures amb variants', 'no-variants': 'Sense variants' },
   theme: { nature: 'Natura', community: 'Comunitat', adventure: 'Aventures', science: 'Ciència', arts: 'Art i cultura', everyday: 'Vida quotidiana', history: 'Història', math: 'Matemàtiques', environment: 'Medi ambient', sports: 'Esport', technology: 'Tecnologia', geography: 'Geografia', games: 'Jocs i enigmes' },
   question: { literal: 'Literal', inference: 'Inferència', opinion: 'Opinió', vocabulary: 'Vocabulari', structure: 'Estructura del text', summary: 'Resum' },
   genre: { narrative: 'Narració', informative: 'Divulgació', instructional: 'Text instructiu', interview: 'Entrevista', letter: 'Carta', news: 'Notícia', review: 'Ressenya', diary: 'Diari', argument: 'Article d’opinió' },
@@ -125,7 +128,13 @@ function sortFacet(facet, a, b, compare) {
   return compare(labelFor(facet, a), labelFor(facet, b));
 }
 
-export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActivity, onSaveCollection }) {
+const facetValue = field => field.type === 'checkbox' && !field.checked ? '' : field.value;
+function setFacet(field, value) {
+  if (field.type === 'checkbox') field.checked = Boolean(value);
+  else field.value = value;
+}
+
+export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActivity, onSaveCollection, getSettings }) {
   let catalog = indexCatalog(readings);
   for (let index = catalog.length - 1; index > 0; index -= 1) {
     const other = Math.floor(Math.random() * (index + 1));
@@ -182,6 +191,13 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
   let lastTrackedSearch = '';
   let gestures;
   let headingState;
+  let familyPreviewGeneration = 0;
+  const familyDialog = document.querySelector('#family-dialog');
+  familyDialog.addEventListener('close', () => { familyPreviewGeneration++; });
+  function fitFamilyPreviews() {
+    for (const preview of familyDialog.querySelectorAll('.family-option-preview')) preview.style.setProperty('--family-option-scale', String(preview.clientWidth / (210 * 96 / 25.4)));
+  }
+  new ResizeObserver(fitFamilyPreviews).observe(familyDialog.querySelector('#family-options'));
   const observer = typeof IntersectionObserver === 'function' ? new IntersectionObserver(entries => {
     if (entries.some(entry => entry.isIntersecting) && document.activeElement !== more) loadMore();
   }) : null;
@@ -190,13 +206,11 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     const { compare } = new Intl.Collator(language(), { numeric: true });
     const level = levelField.value;
     for (const field of fields) {
+      if (field.type === 'checkbox') continue;
       const facet = field.dataset.facet;
       const { [facet]: selected, ...others } = facets;
       const candidates = filterCatalog(source, { search: search.value, ...others });
-      const counts = new Map();
-      for (const item of candidates) {
-        for (const value of new Set(item.facets[facet])) counts.set(value, (counts.get(value) ?? 0) + 1);
-      }
+      const { total, counts } = countFacetResults(candidates, facet, { groupFamilies: !selecting && !activeCollection });
       const values = new Set(catalog.flatMap(item => item.facets[facet]));
       if (facet === 'length' && lengthLimits.has(level)) values.delete('unspecified');
       if (facet === 'length' && (!level || lengthLimits.has(level))) {
@@ -206,7 +220,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
       if (selected) values.add(selected);
       const optionLabel = value => facet === 'length' ? lengthLabel(value, level, numbers) : labelFor(facet, value);
       const all = facet === 'language' ? [] : [field.options[0]];
-      if (all.length) decorateOption(all[0], all[0].textContent, candidates.length, numbers);
+      if (all.length) decorateOption(all[0], all[0].textContent, total, numbers);
       const options = [...values].sort((a, b) => sortFacet(facet, a, b, compare)).map(value => {
         const count = counts.get(value) ?? 0;
         const option = new Option('', value);
@@ -232,12 +246,11 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     for (const [facet, value] of Object.entries(facets)) {
       if (facet === 'language') continue;
       const clear = clearButtons.get(facet);
-      clear.hidden = !value;
+      if (clear) clear.hidden = !value;
       if (!value) continue;
       const label = labelFor(facet, value);
       const removeLabel = t('Treu el filtre «{label}»', { label });
-      clear.setAttribute('aria-label', removeLabel);
-      clear.title = removeLabel;
+      if (clear) { clear.setAttribute('aria-label', removeLabel); clear.title = removeLabel; }
       const button = document.createElement('button');
       const cross = document.createElement('span');
       cross.textContent = '×';
@@ -258,7 +271,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     if (!button) return;
     const chips = [...activeFilters.children];
     const index = chips.indexOf(button);
-    fields.find(field => field.dataset.facet === button.dataset.removeFacet).value = '';
+    setFacet(fields.find(field => field.dataset.facet === button.dataset.removeFacet), '');
     onActivity?.('neteja_filtres', { filtre: button.dataset.removeFacet });
     refresh();
     const next = activeFilters.children[index] ?? activeFilters.lastElementChild ?? search;
@@ -266,6 +279,13 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
   });
 
   for (const field of optionalFields) {
+    field.addEventListener('change', () => {
+      refresh();
+      const value = facetValue(field);
+      if (value) onFilterApplied?.(field.dataset.facet, value, levelField.value);
+      else onActivity?.('neteja_filtres', { filtre: field.dataset.facet });
+    });
+    if (field.type === 'checkbox') continue;
     const row = field.closest('.filter-field');
     const clear = document.createElement('button');
     clear.type = 'button';
@@ -278,11 +298,6 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
       refresh();
       (row.querySelector('.select-trigger') ?? field).focus({ preventScroll: true });
     });
-    field.addEventListener('change', () => {
-      refresh();
-      if (field.value) onFilterApplied?.(field.dataset.facet, field.value, levelField.value);
-      else onActivity?.('neteja_filtres', { filtre: field.dataset.facet });
-    });
     clearButtons.set(field.dataset.facet, clear);
     row.append(clear);
   }
@@ -294,6 +309,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
   });
 
   function openFamily(reading, origin = 'cataleg') {
+    const request = ++familyPreviewGeneration;
     const dialog = document.querySelector('#family-dialog');
     const members = familyMembers(catalog.map(item => item.reading), reading);
     const family = familyById.get(reading.familyId);
@@ -307,15 +323,28 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
       const title = document.createElement('strong');
       const meta = document.createElement('span');
       const detail = document.createElement('small');
+      const preview = document.createElement('span');
+      preview.className = 'family-option-preview';
+      preview.setAttribute('aria-hidden', 'true');
+      preview.inert = true;
       button.type = 'button';
       button.className = 'family-option';
       button.dataset.reading = entry.id;
       button.classList.toggle('is-match', hasOtherLevels && matches.has(entry.id));
       title.textContent = `${entry.code} · ${labelFor('level', entry.level)} · ${labelFor('difficulty', entry.difficulty)}`;
       meta.textContent = entry.summary;
+      meta.className = 'family-option-summary';
       meta.lang = entry.language;
       detail.textContent = [t('{count} paraules', { count: wordCount(entry) }), t('{count} preguntes', { count: entry.questions.length }), ...(hasOtherLevels && matches.has(entry.id) ? [t('Coincideix amb els filtres')] : [])].join(' · ');
-      button.append(title, meta, detail);
+      button.append(preview, title, meta, detail);
+      const settings = getSettings?.(entry, activeCollection?.id) ?? defaultSettings(entry.level);
+      preview.setAttribute('aria-busy', 'true');
+      Promise.resolve(loadWorksheetFont(settings.font)).then(() => {
+        if (request !== familyPreviewGeneration || !dialog.open) return;
+        preview.replaceChildren(exportWorksheetPages(entry, settings)[0]);
+        preview.setAttribute('aria-busy', 'false');
+        fitFamilyPreviews();
+      }).catch(() => { preview.setAttribute('aria-busy', 'false'); });
       button.addEventListener('click', () => closeDialog(dialog, () => onSelect(entry, origin)));
       return button;
     }));
@@ -324,7 +353,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     dialog.querySelector('#family-title').focus({ preventScroll: true });
   }
 
-  function cardFor({ reading, count }, words) {
+  function cardFor({ reading, count, familyMatches }, words) {
     const card = template.content.firstElementChild.cloneNode(true);
     card.dataset.id = reading.id;
     const art = card.querySelector('.card-art');
@@ -369,6 +398,8 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
       delete difficulty.dataset.difficulty;
       card.querySelector('.card-code').textContent = family?.code ?? reading.code;
       card.querySelector('.card-level').textContent = labelFor('language', reading.language);
+      const matchingLevels = [...new Set((familyMatches ?? []).map(item => item.reading.level))];
+      if (matchingLevels.length === 1) card.querySelector('.card-level').textContent += ' · ' + labelFor('level', matchingLevels[0]);
       const levels = [...new Set(members.map(entry => labelFor('level', entry.level).replace(/ de (?:primària|primaria)$/, '')))];
       card.querySelector('.card-words').textContent = levels.join(' · ');
       card.querySelector('.card-questions').textContent = '';
@@ -391,16 +422,16 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
   function render({ append = false, animated = false, translated = false, keepScroll = false } = {}) {
     const words = new Intl.NumberFormat(language());
     const facets = selectedFacets();
-    const activeCount = optionalFields.filter(field => field.value).length;
+    const activeCount = optionalFields.filter(field => facetValue(field)).length;
     const source = collectionSource();
     orderedMatches = filterCatalog(source, { search: search.value, ...facets });
-    const total = orderedMatches.length;
     if (!append) updateOptions(source, facets, words);
     selectionToggle.disabled = !source.length;
     const display = selecting || activeCollection ? orderedMatches : groupFamilyCards(orderedMatches);
+    const total = display.length;
     const showing = Math.min(limit, display.length);
     const visible = display.slice(0, showing);
-    const ids = `${selecting}:${activeCollection?.id ?? ''}:` + visible.map(({ reading }) => reading.id).join(' ');
+    const ids = `${selecting}:${activeCollection?.id ?? ''}:` + visible.map(({ reading, familyMatches }) => familyMatches?.map(item => item.reading.id).join('/') ?? reading.id).join(' ');
     if (translated || ids !== visibleIds) {
       const cards = visible.slice(append ? grid.childElementCount : 0).map(item => cardFor(item, words));
       if (append) {
@@ -416,18 +447,21 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
       }
       visibleIds = ids;
     }
-    const countLabel = total === 1 ? t('1 lectura') : t('{count} lectures', { count: words.format(total) });
+    const unit = selecting || activeCollection ? 'fitxa' : facets.family ? 'família' : 'proposta';
+    const singular = { fitxa: '1 fitxa', família: '1 família', proposta: '1 proposta' };
+    const plural = { fitxa: '{count} fitxes', família: '{count} famílies', proposta: '{count} propostes' };
+    const countLabel = t(total === 1 ? singular[unit] : plural[unit], { count: words.format(total) });
     if (resultCount.textContent !== countLabel) resultCount.textContent = countLabel;
     emptyState.hidden = total !== 0;
     more.hidden = showing === display.length;
-    more.textContent = t('Mostra més lectures ({showing} de {total})', {
+    more.textContent = t('Mostra més ({showing} de {total})', {
       showing: words.format(showing), total: words.format(display.length),
     });
     observer?.unobserve(more);
     observer?.takeRecords();
     if (!more.hidden) observer?.observe(more);
     indicator.textContent = activeCount ? ` (${activeCount})` : '';
-    const extraCount = fields.filter(field => field.closest('.catalog-extra-filters') && field.value).length;
+    const extraCount = fields.filter(field => field.closest('.catalog-extra-filters') && facetValue(field)).length;
     extraIndicator.textContent = extraCount ? ` (${extraCount})` : '';
     reset.hidden = !activeCount && !search.value.trim();
     syncSelection();
@@ -482,7 +516,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
   }
 
   function selectedFacets() {
-    return Object.fromEntries(fields.map(field => [field.dataset.facet, field.value]));
+    return Object.fromEntries(fields.map(field => [field.dataset.facet, facetValue(field)]));
   }
 
   function refresh() {
@@ -503,9 +537,9 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
   function clear() {
     clearTimeout(searchTimer);
     lastTrackedSearch = '';
-    if (search.value.trim() || optionalFields.some(field => field.value)) onActivity?.('neteja_filtres', { filtre: 'tots' });
+    if (search.value.trim() || optionalFields.some(field => facetValue(field))) onActivity?.('neteja_filtres', { filtre: 'tots' });
     search.value = '';
-    for (const field of optionalFields) field.value = '';
+    for (const field of optionalFields) setFacet(field, '');
     refresh();
     search.focus();
   }
@@ -538,7 +572,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     activeCollection = collections.find(entry => entry.id === id);
     savePreference(activeCollectionKey, activeCollection?.id ?? '');
     search.value = '';
-    for (const field of optionalFields) field.value = '';
+    for (const field of optionalFields) setFacet(field, '');
     syncCollections();
     refresh();
   }
@@ -604,7 +638,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
       const query = search.value.trim();
       if (root.hidden || query.length < 2 || query === lastTrackedSearch) return;
       lastTrackedSearch = query;
-      onActivity?.('cerca_cataleg', { tipus: /^L\d+[A-Z]?$/i.test(query) ? 'codi' : 'text', resultats: orderedMatches.length });
+      onActivity?.('cerca_cataleg', { tipus: /^L\d+[A-Z]?$/i.test(query) ? 'codi' : 'text', resultats: selecting || activeCollection ? orderedMatches.length : groupFamilyCards(orderedMatches).length });
     }, 800);
   });
   reset.addEventListener('click', event => { event.stopPropagation(); clear(); });
@@ -748,7 +782,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     },
     reveal(code) {
       search.value = code;
-      for (const field of optionalFields) field.value = '';
+      for (const field of optionalFields) setFacet(field, '');
       refresh();
     },
     showUniverse(id, locale) {

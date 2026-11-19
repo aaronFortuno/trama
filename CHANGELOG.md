@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.47 · 19 de novembre del 2026
+
+Cada família compta com una proposta al catàleg i als números dels filtres. Substituïm el desplegable de famílies pel checkbox «Només lectures amb variants». En obrir una família, la tria mostra miniatures reals de les primeres pàgines amb el maquetat propi de cada variant, el curs i la dificultat. Els filtres cerquen en les variants i destaquem les que hi coincideixen. La selecció, les col·leccions i la impressió continuen treballant amb fitxes concretes.
+
 ## 1.46.3 · 19 de novembre del 2026
 
 Fem més discrets els interrogants d’Univers i Famílies: més petits, sense vora i enganxats al nom del filtre.

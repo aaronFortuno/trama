@@ -82,11 +82,9 @@
                   </div>
                   <select id="filter-universe" data-facet="universe"><option value="">Tots</option></select>
                 </div>
-                <div class="filter-field has-help">
-                  <div class="filter-field-heading"><label for="filter-family">Famílies</label>
+                <div class="filter-family-row">
+                  <label class="family-only-filter" for="filter-family"><input id="filter-family" data-facet="family" type="checkbox" value="with-variants"><span>Només lectures amb variants</span></label>
                   <span class="filter-help"><button type="button" aria-label="Què és una família?" aria-describedby="family-help">?</button><span class="filter-help-tip" id="family-help" role="tooltip" popover="manual">Versions d’una mateixa lectura amb textos i preguntes de diferent exigència, per treballar una proposta compartida amb nivells diversos. Les traduccions no compten com a variants.</span></span>
-                  </div>
-                  <select id="filter-family" data-facet="family"><option value="">Totes les lectures</option></select>
                 </div>
                 <details class="catalog-extra-filters">
                   <summary>Altres filtres<span id="extra-filter-indicator"></span></summary>
@@ -166,7 +164,7 @@
         </a>
       </p>
       <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.46.3 · Obre l’historial de canvis">v1.46.3</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.47 · Obre l’historial de canvis">v1.47</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
@@ -345,6 +343,10 @@
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’historial"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
+      <article class="release">
+        <header><h3>v1.47</h3><time datetime="2026-11-19">19 de novembre del 2026</time></header>
+        <p>Cada família compta com una proposta al catàleg i als números dels filtres. Substituïm el desplegable de famílies pel checkbox «Només lectures amb variants». En obrir una família, la tria mostra miniatures reals de les primeres pàgines amb el maquetat propi de cada variant, el curs i la dificultat. Els filtres cerquen en les variants i destaquem les que hi coincideixen. La selecció, les col·leccions i la impressió continuen treballant amb fitxes concretes.</p>
+      </article>
       <article class="release">
         <header><h3>v1.46.3</h3><time datetime="2026-11-19">19 de novembre del 2026</time></header>
         <p>Fem més discrets els interrogants d’Univers i Famílies: més petits, sense vora i enganxats al nom del filtre.</p>

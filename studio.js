@@ -911,6 +911,11 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
   return {
     dismissMenu() { printMenu.close(); fileMenu.close(); },
     exportSettings: settingsForReading,
+    previewSettings(entry, collectionId) {
+      if (entry.id === reading?.id && collectionId === readingCollection?.id) return worksheetLayout(entry, settings);
+      return readWorksheetLayout(entry, collectionId) ?? (collectionId || resetReadings.has(entry.id)
+        ? defaultSettings(entry.level) : { ...settingsForReading(entry), ...sessionClassroomCode });
+    },
     printPages,
     reloadTemplates() { templates.translate(); },
     resetAllLayouts() {

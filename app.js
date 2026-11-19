@@ -73,6 +73,7 @@ const catalog = mountCatalog({
   onActivity: (name, data) => trackFeature(name, Object.fromEntries(Object.entries(data)
     .map(([key, value]) => [key, ['quantitat', 'resultats'].includes(key) ? countBucket(value) : value]))),
   onSaveCollection: saveCollection,
+  getSettings: (reading, collectionId) => studio.previewSettings(reading, collectionId),
 });
 const studio = mountStudio({
   root: studioView,

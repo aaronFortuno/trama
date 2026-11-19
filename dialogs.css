@@ -72,19 +72,27 @@
 .batch-duplex-option { display: inline-flex; align-items: center; gap: 6px; min-width: 0; font-size: .8rem; }
 .batch-info-button { display: grid; place-items: center; flex: none; width: 24px; height: 24px; padding: 0; border: 0; border-radius: 50%; background: transparent; color: var(--muted); }
 .batch-info-button:hover, .batch-info-button[aria-expanded="true"] { color: var(--green); background: var(--hover); }
-.family-dialog { width: min(690px, calc(100vw - 28px)); padding: 22px; }
+.family-dialog { width: min(1040px, calc(100vw - 28px)); padding: 22px; }
 .family-dialog[open] { display: flex; flex-direction: column; overflow: hidden; }
 .family-dialog .dialog-heading { flex: none; margin-bottom: 16px; }
 .family-dialog .dialog-heading h2 { margin: 0; }
 .family-dialog .dialog-scroll > p { margin: 0 0 13px; color: var(--muted); font-size: .85rem; line-height: 1.5; }
-.family-options { display: grid; gap: 10px; }
-.family-option { display: grid; gap: 6px; padding: 13px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); color: var(--ink); text-align: left; transition: border-color var(--motion), background-color var(--motion); }
+.family-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 225px), 1fr)); gap: 12px; }
+.family-option { display: flex; flex-direction: column; align-items: stretch; gap: 9px; min-width: 0; padding: 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); color: var(--ink); text-align: left; transition: border-color var(--motion), background-color var(--motion); }
 .family-option:is(:hover, :focus-visible) { border-color: var(--green); background: var(--hover); }
-.family-option strong { color: var(--green); font-size: .9rem; }
-.family-option span { font-size: .8rem; line-height: 1.45; }
-.family-option small { color: var(--muted); font-size: .75rem; }
+.family-option > strong { color: var(--green); font-size: .88rem; line-height: 1.4; }
+.family-option > .family-option-summary { flex: 1; font-size: .78rem; line-height: 1.45; }
+.family-option > small { color: var(--muted); font-size: .74rem; line-height: 1.4; }
+.family-option-preview { position: relative; display: block; align-self: center; width: min(100%, 210px); aspect-ratio: 210 / 296.8; overflow: hidden; border: 1px solid var(--line); background: #fff; box-shadow: 0 3px 9px #20382d16; }
+.family-option-preview > .worksheet-page { position: absolute; top: 0; left: 0; transform: scale(var(--family-option-scale, .25)); transform-origin: top left; }
 .family-option.is-match { border-left: 3px solid var(--green); }
 .family-dialog .family-selection-note { margin-top: 14px; margin-bottom: 0; font-size: .76rem; }
+@media (max-width: 550px) {
+  .family-dialog { padding: 16px; }
+  .family-option { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 6px 11px; }
+  .family-option-preview { grid-column: 1; grid-row: 1 / 4; align-self: start; width: 92px; }
+  .family-option > :not(.family-option-preview) { grid-column: 2; }
+}
 
 .family-comparison-dialog { width: calc(100vw - 24px); max-width: none; height: calc(100dvh - 24px); max-height: none; padding: 16px; }
 .family-comparison-dialog[open] { display: flex; flex-direction: column; overflow: hidden; }

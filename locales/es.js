@@ -1,4 +1,14 @@
 export const es = Object.fromEntries(`
+v1.47 · Obre l’historial de canvis|v1.47 · Abrir el historial de cambios
+Cada família compta com una proposta al catàleg i als números dels filtres. Substituïm el desplegable de famílies pel checkbox «Només lectures amb variants». En obrir una família, la tria mostra miniatures reals de les primeres pàgines amb el maquetat propi de cada variant, el curs i la dificultat. Els filtres cerquen en les variants i destaquem les que hi coincideixen. La selecció, les col·leccions i la impressió continuen treballant amb fitxes concretes.|Cada familia cuenta como una propuesta en el catálogo y en los números de los filtros. Sustituimos el desplegable de familias por la casilla «Solo lecturas con variantes». Al abrir una familia, la elección muestra miniaturas reales de las primeras páginas con la maquetación propia de cada variante, el curso y la dificultad. Los filtros buscan en las variantes y destacamos las que coinciden. La selección, las colecciones y la impresión siguen trabajando con fichas concretas.
+Només lectures amb variants|Solo lecturas con variantes
+1 proposta|1 propuesta
+{count} propostes|{count} propuestas
+1 família|1 familia
+{count} famílies|{count} familias
+1 fitxa|1 ficha
+{count} fitxes|{count} fichas
+Mostra més ({showing} de {total})|Mostrar más ({showing} de {total})
 v1.46.3 · Obre l’historial de canvis|v1.46.3 · Abrir el historial de cambios
 Fem més discrets els interrogants d’Univers i Famílies: més petits, sense vora i enganxats al nom del filtre.|Hacemos más discretos los interrogantes de Universo y Familias: más pequeños, sin borde y pegados al nombre del filtro.
 v1.46.2 · Obre l’historial de canvis|v1.46.2 · Abrir el historial de cambios

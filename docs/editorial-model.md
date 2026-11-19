@@ -43,13 +43,17 @@ Hi pot haver una lectura marc, però les germanes funcionen soles. Assignem un �
 El prototip de família implementa aquests criteris:
 
 - distingir-les a la graella amb una pila de targetes i el nombre d’obres germanes disponibles en la llengua triada;
-- oferir «Famílies: Amb variants» com a filtre principal amb ajuda, calculat a partir d’altres obres de la família en la mateixa llengua, sense comptar traduccions;
+- oferir el checkbox «Només lectures amb variants» com a filtre principal amb ajuda, calculat a partir d’altres obres de la família en la mateixa llengua, sense comptar traduccions;
 - mostrar les variants veïnes al voltant de la fitxa, amb miniatures reals, codi i curs;
 - mantenir separats el canvi d’idioma i el canvi d’exigència;
 - conservar un maquetat per cada variant i col·lecció, segons el sistema local actual;
-- mantenir el recompte, les col·leccions i la impressió per lectures concretes: una pila visual no selecciona totes les germanes.
+- comptar cada família com una proposta al catàleg, mantenint variants concretes per a la selecció, les col·leccions i la impressió.
 
-En clicar una pila s’obre una tria prèvia amb codi, curs, dificultat, resum, paraules i preguntes de cada variant, sense obrir-ne una per defecte. S’hi mostren totes les germanes disponibles en la llengua de la lectura, indicant les que coincideixen amb els filtres quan n’hi ha d’altres fora de la tria actual. Així es pot veure l’abast de la gradació sense confondre’l amb el filtre de curs.
+Una família és una entitat de descoberta: ocupa una targeta i suma una sola proposta al comptador i als números dels filtres. El catàleg combina lectures independents i famílies i utilitza «propostes» com a unitat; amb el checkbox activat, «famílies». El pilot conté 248 propostes per llengua, corresponents a 250 variants o lectures concretes. En mode selecció i dins de col·leccions, la unitat és la fitxa concreta.
+
+Els filtres s’apliquen a les variants abans d’agrupar les famílies. Una família apareix si una mateixa variant compleix tots els criteris; no es poden combinar el curs d’una germana amb la dificultat d’una altra per fabricar una coincidència. Cada família compta una vegada dins de cada opció de filtre que li correspon. Com que pot cobrir diversos cursos, els subtotals de cursos no tenen per què sumar el total de propostes. El checkbox no exigeix que dues germanes passin els filtres: només que hi hagi variants disponibles en la mateixa llengua.
+
+En clicar una pila s’obre una tria visual, amb la primera pàgina real, codi, curs, dificultat, resum, paraules i preguntes de cada variant, sense obrir-ne una per defecte. Les miniatures respecten el maquetat desat d’aquella variant, incloent-hi els codis d’aula, o el format que s’aplicaria en obrir-la si encara no en té. S’hi mostren totes les germanes disponibles en la llengua de la lectura, indicant les que coincideixen amb els filtres quan n’hi ha d’altres fora de la tria actual. Així es pot veure l’abast de la gradació sense confondre’l amb el filtre de curs.
 
 En mode «Selecciona lectures» i dins de col·leccions, les variants apareixen com a targetes independents. Cada variant té el seu maquetat i codi d’aula, també quan pertany a diverses col·leccions. El menú de pulsació llarga d’una pila obre primer la tria de variant, per no afegir-ne una arbitràriament. Els lots llisten les variants concretes que coincideixen amb els filtres. Les fletxes del visor segueixen l’ordre de les targetes; en sortir d’una pila passen a la proposta següent. Les miniatures del preview permeten canviar de germana.
 
