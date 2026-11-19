@@ -1,4 +1,22 @@
 export const es = Object.fromEntries(`
+v1.46.1 · Obre l’historial de canvis|v1.46.1 · Abrir el historial de cambios
+Afegim «Compara les variants» a la previsualització i al sidebar de famílies. El quadre ampli mostra les fitxes ordenades per gradació, amb dues columnes visibles en pantalles amples, desplaçament horitzontal i scroll independent per lectura. Permet anar directament a les preguntes, comparar solucionaris i obrir una variant, respectant els maquetats i codis d’aula de cada lectura i col·lecció sense modificar-los.|Añadimos «Compara las variantes» a la previsualización y al panel de familias. El cuadro amplio muestra las fichas ordenadas por gradación, con dos columnas visibles en pantallas amplias, desplazamiento horizontal y scroll independiente por lectura. Permite ir directamente a las preguntas, comparar solucionarios y abrir una variante, respetando las maquetaciones y códigos de aula de cada lectura y colección sin modificarlos.
+Obre fora de la col·lecció|Abrir fuera de la colección
+Compara les variants|Compara las variantes
+Tanca la comparació|Cerrar la comparación
+Seccions de les lectures|Secciones de las lecturas
+Vés al text|Ir al texto
+Vés a les preguntes|Ir a las preguntas
+Navegació entre variants|Navegación entre variantes
+Variants anteriors|Variantes anteriores
+Variants següents|Variantes siguientes
+Fitxes ordenades per gradació|Fichas ordenadas por gradación
+{first} de {total}|{first} de {total}
+{first}–{last} de {total}|{first}–{last} de {total}
+Preparant la comparació…|Preparando la comparación…
+No s’ha pogut preparar la comparació. Torna-ho a provar.|No se ha podido preparar la comparación. Vuelve a intentarlo.
+Lectura oberta|Lectura abierta
+Obre aquesta variant|Abrir esta variante
 v1.46 · Obre l’historial de canvis|v1.46 · Abrir el historial de cambios
 Univers passa als filtres principals, amb una ajuda que explica les lectures connectades. Estrenem el filtre de famílies i una pila de targetes amb tria prèvia de variant. La família de la L208 incorpora les L208A (4t) i L208B (6è), en català i castellà, conservant l’original de 1r d’ESO. Les variants es poden canviar des del visor i tenen maquetats independents; en seleccionar lectures o obrir una col·lecció es mostren per separat. Documentem els codis amb sufix, la navegació i els criteris de gradació.|Universo pasa a los filtros principales, con una ayuda que explica las lecturas conectadas. Estrenamos el filtro de familias y una pila de tarjetas con elección previa de variante. La familia de la L208 incorpora las L208A (4.º) y L208B (6.º), en catalán y castellano, conservando el original de 1.º de ESO. Las variantes se pueden cambiar desde el visor y tienen maquetaciones independientes; al seleccionar lecturas o abrir una colección se muestran por separado. Documentamos los códigos con sufijo, la navegación y los criterios de gradación.
 Famílies|Familias

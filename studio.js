@@ -19,6 +19,7 @@ import { trackFeature, trackReadingFeature } from './analytics.js';
 import { universeById } from './data/universes.js';
 import { familyById } from './data/families.js';
 import { familyMembers } from './reading-families.js';
+import { familyComparisonMarkup, mountFamilyComparison } from './family-comparison.js';
 
 const formatKeys = new Set(templateGroups.filter(group => group.id !== 'images').flatMap(group => group.keys));
 const pageFormat = settings => Object.fromEntries([...formatKeys].map(key => [key, settings[key]]));
@@ -62,6 +63,7 @@ const template = `
             <label class="studio-variants" hidden>Llengua de la lectura <select id="studio-variant"></select></label>
           </div>
           <div class="studio-heading-actions">
+            <button class="button" type="button" id="studio-compare" aria-label="Compara les variants" title="Compara les variants" aria-haspopup="dialog" aria-controls="family-comparison-dialog" hidden>${icon('columns-2')}</button>
             <div class="studio-reading-nav" role="group" aria-label="Navegació entre lectures">
               <button class="button" type="button" data-action="reading-previous" aria-label="Lectura anterior" disabled>${icon('chevron-left')}</button>
               <button class="button" type="button" data-action="reading-next" aria-label="Lectura següent" disabled>${icon('chevron-right')}</button>
@@ -243,6 +245,7 @@ const template = `
     </aside>
   </div>
   ${templateLibraryMarkup}
+  ${familyComparisonMarkup}
   ${readingReportMarkup}`;
 
 function create(tag, className, text) {
@@ -366,6 +369,18 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
     return collectionId || resetReadings.has(entry.id) ? defaults : { ...defaults, ...sessionFormat };
   }
   let requestedFont;
+  const comparison = mountFamilyComparison({
+    root, readings,
+    getSettings: entry => {
+      if (entry.id === reading?.id) return worksheetLayout(entry, settings);
+      const collectionId = readingCollection?.readingIds.includes(entry.id) ? readingCollection.id : undefined;
+      return readWorksheetLayout(entry, collectionId) ?? (collectionId || resetReadings.has(entry.id)
+        ? defaultSettings(entry.level) : { ...settingsForReading(entry), ...sessionClassroomCode });
+    },
+    isOutsideCollection: entry => readingCollection && !readingCollection.readingIds.includes(entry.id),
+    onOpen: id => onFamilyVariant?.(id),
+  });
+  find('#studio-compare').addEventListener('click', () => comparison.open(reading, solution.checked));
   let pendingPrint;
   let frame = 0;
   let hiddenQuestion;
@@ -417,10 +432,18 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
     variant.parentElement.hidden = variants.length < 2;
     const siblings = familyMembers(readings, reading);
     find('.studio-family').hidden = siblings.length < 2;
+    find('#studio-compare').hidden = siblings.length < 2;
     const family = familyById.get(reading.familyId);
     const familyIntro = document.createElement('p');
     familyIntro.textContent = family?.description[language()] ?? t('Una mateixa lectura amb diferents graus d’exigència.');
-    find('#studio-family').replaceChildren(familyIntro, ...siblings.map(entry => {
+    const compare = document.createElement('button');
+    compare.type = 'button';
+    compare.className = 'button';
+    compare.textContent = t('Compara les variants');
+    compare.setAttribute('aria-haspopup', 'dialog');
+    compare.setAttribute('aria-controls', 'family-comparison-dialog');
+    compare.addEventListener('click', () => comparison.open(reading, solution.checked));
+    find('#studio-family').replaceChildren(familyIntro, compare, ...siblings.map(entry => {
       const button = document.createElement('button');
       button.type = 'button';
       button.className = 'button studio-family-option';

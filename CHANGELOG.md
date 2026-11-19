@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.46.1 · 19 de novembre del 2026
+
+Afegim «Compara les variants» a la previsualització i al sidebar de famílies. El quadre ampli mostra les fitxes ordenades per gradació, amb dues columnes visibles en pantalles amples, desplaçament horitzontal i scroll independent per lectura. Permet anar directament a les preguntes, comparar solucionaris i obrir una variant, respectant els maquetats i codis d’aula de cada lectura i col·lecció sense modificar-los.
+
 ## 1.46 · 19 de novembre del 2026
 
 Univers passa als filtres principals, amb una ajuda que explica les lectures connectades. Estrenem el filtre de famílies i una pila de targetes amb tria prèvia de variant. La família de la L208 incorpora les L208A (4t) i L208B (6è), en català i castellà, conservant l’original de 1r d’ESO. Les variants es poden canviar des del visor i tenen maquetats independents; en seleccionar lectures o obrir una col·lecció es mostren per separat. Documentem els codis amb sufix, la navegació i els criteris de gradació.

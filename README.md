@@ -54,6 +54,8 @@ El primer univers és [La biblioteca de les coses](docs/universes/biblioteca-de-
 
 El primer prototip de família agrupa la L208 amb les L208A (4t) i L208B (6è). Cada variant conserva una identitat i un maquetat propis; el registre de `data/families.js` defineix nom, base del codi i ordre de presentació. El catàleg les agrupa en una pila amb tria prèvia, mentre que la selecció de col·leccions les mostra individualment. `node tools/check-families.mjs` i `node tools/check-families-browser.cjs` comproven les relacions, els codis amb sufix, la navegació i la maquetació.
 
+El comparador de `family-comparison.js` mostra les fitxes reals en columnes ordenades per gradació, amb desplaçament independent, accés a les preguntes i vista de solucionari. Reutilitza el motor de maquetació sense desar canvis. `node tools/check-family-comparison.cjs` verifica la composició, les dues llengües, els maquetats generals i de col·lecció, la navegació i la vista mòbil.
+
 El catàleg s’exporta des de `data/readings.js` com una llista d’objectes JavaScript. Les sèries de 5è i 6è es troben a `data/readings-5-es*.js` i `data/readings-6-es*.js`, respectivament. Les lectures de 4t es troben a `data/readings-4-es.js`. Els filtres es deriven de les dades i el catàleg mostra les fitxes per tandes.
 
 - Assigna un `id` únic i estable a cada versió. Comparteix el `workId` i el `code` (per exemple, `L001`) entre les traduccions d’una mateixa lectura.
