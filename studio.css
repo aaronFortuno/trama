@@ -106,7 +106,9 @@
 .studio-paper-stage.has-family #studio-pages { position: relative; z-index: 2; }
 .family-stage { position: absolute; inset: 0; pointer-events: none; }
 .family-stage-toolbar { position: absolute; z-index: 4; top: 146px; left: 50%; display: flex; align-items: center; gap: 8px; width: max-content; max-width: calc(100% - 24px); transform: translateX(-50%); pointer-events: auto; }
-#family-stage-position { color: var(--muted); font-size: .7rem; }
+#family-stage-position { position: absolute; top: 126px; left: 50%; width: max-content; transform: translateX(-50%); color: var(--muted); font-size: .7rem; }
+.has-family-previous.has-family-next .family-stage-toolbar[data-side="previous"] { left: 25%; }
+.has-family-previous.has-family-next .family-stage-toolbar[data-side="next"] { left: 75%; }
 .family-stage-toolbar .button { gap: 6px; min-height: 34px; padding: 6px 11px; border-color: var(--green); background: var(--surface); box-shadow: 0 3px 10px #20382d14; color: var(--green); font-size: .8rem; transition: background-color var(--motion), box-shadow var(--motion); }
 .family-stage-toolbar .button:hover { background: var(--hover); box-shadow: 0 4px 14px #20382d30; }
 .family-stage-toolbar .ui-icon { width: 17px; height: 17px; }
@@ -129,11 +131,11 @@
   .family-stage-variant[data-side="next"] { right: 12px; }
   .family-stage-paper { height: auto; aspect-ratio: 210 / 296.8; }
   .family-stage-caption { font-size: .73rem; }
-  .family-stage-toolbar { top: 132px; display: grid; justify-items: center; gap: 6px; width: var(--family-bridge-width); }
-  .family-stage[data-compare-side="previous"] .family-stage-toolbar { left: calc(20px + var(--family-thumbnail-width) + var(--family-bridge-width) / 2); }
-  .family-stage[data-compare-side="next"] .family-stage-toolbar { left: calc(100% - 20px - var(--family-thumbnail-width) - var(--family-bridge-width) / 2); }
+  .family-stage-toolbar { top: 151px; display: grid; justify-items: center; gap: 6px; width: var(--family-bridge-width); }
+  .studio-preview-window .family-stage .family-stage-toolbar[data-side="previous"] { left: calc(20px + var(--family-thumbnail-width) + var(--family-bridge-width) / 2); }
+  .studio-preview-window .family-stage .family-stage-toolbar[data-side="next"] { left: calc(100% - 20px - var(--family-thumbnail-width) - var(--family-bridge-width) / 2); }
   .family-stage-toolbar .button { flex-direction: column; gap: 4px; padding: 7px; font-size: .72rem; }
-  #family-stage-position { max-width: 70px; text-align: center; font-size: .67rem; }
+  #family-stage-position { top: 3px; left: calc(50% + (var(--family-start-space) - var(--family-end-space)) / 2); text-align: center; font-size: .67rem; }
   .has-family .studio-zoom { right: calc(15px + var(--family-end-space)); }
 }
 .studio-zoom { position: absolute; z-index: 3; inset: auto 15px 11px auto; display: flex; gap: 4px; padding: 4px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface); box-shadow: 0 2px 8px #213a3429; }

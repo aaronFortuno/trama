@@ -3,7 +3,7 @@ import { familyById } from './data/families.js';
 import { familyMembers } from './reading-families.js';
 import { language, t } from './i18n.js';
 import { icon } from './icons.js';
-import { closeDialog, openDialog } from './motion.js';
+import { animate, closeDialog, openDialog } from './motion.js';
 import { exportWorksheetPages } from './worksheet.js';
 import { loadWorksheetFont } from './worksheet-fonts.js';
 import { trackFamilyActivity } from './analytics.js';
@@ -49,6 +49,7 @@ export function mountFamilyComparison({ root, readings, getSettings, isOutsideCo
   let entries = [];
   let generation = 0;
   let lastScrolled;
+  let scrollFrame;
   const expectedScroll = new WeakMap();
 
   function setScroll(body, top) {
@@ -124,6 +125,7 @@ export function mountFamilyComparison({ root, readings, getSettings, isOutsideCo
         if (pages.length < maxPages) sheets.append(element('p', 'family-comparison-end', t('Final de la variant')));
         body.replaceChildren(sheets);
         setScroll(body, scrollTop);
+        animate(sheets, [{ opacity: .5 }, { opacity: 1 }]);
       }
       fitPages();
       if (linked.checked && anchor !== undefined) align(anchor);
@@ -139,12 +141,33 @@ export function mountFamilyComparison({ root, readings, getSettings, isOutsideCo
     const column = rail.firstElementChild;
     if (!column) return;
     const distance = column.getBoundingClientRect().width + (parseFloat(getComputedStyle(rail).columnGap) || 0);
-    rail.scrollBy({ left: direction * distance, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+    stopScroll();
+    const start = rail.scrollLeft;
+    const end = Math.max(0, Math.min(rail.scrollWidth - rail.clientWidth, start + direction * distance));
+    const duration = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--motion')) || 0;
+    if (!duration) { rail.scrollTo({ left: end, behavior: 'instant' }); return; }
+    const started = performance.now();
+    rail.style.scrollSnapType = 'none';
+    const tick = now => {
+      const progress = Math.min(1, (now - started) / duration);
+      const eased = progress * progress * (3 - 2 * progress);
+      rail.scrollTo({ left: start + (end - start) * eased, behavior: 'instant' });
+      if (progress < 1) scrollFrame = requestAnimationFrame(tick);
+      else stopScroll();
+    };
+    scrollFrame = requestAnimationFrame(tick);
+  }
+
+  function stopScroll() {
+    cancelAnimationFrame(scrollFrame);
+    rail.style.scrollSnapType = '';
   }
 
   previous.addEventListener('click', () => step(-1));
   next.addEventListener('click', () => step(1));
   rail.addEventListener('scroll', updatePosition, { passive: true });
+  rail.addEventListener('wheel', stopScroll, { passive: true });
+  rail.addEventListener('pointerdown', stopScroll);
   rail.addEventListener('keydown', event => {
     if (event.target !== rail || !['ArrowLeft', 'ArrowRight'].includes(event.key)) return;
     event.preventDefault();
@@ -174,10 +197,10 @@ export function mountFamilyComparison({ root, readings, getSettings, isOutsideCo
     if (linked.checked && source) align(source.scrollTop, source);
   });
   new ResizeObserver(fitPages).observe(rail);
-  dialog.addEventListener('close', () => { generation++; rail.replaceChildren(); entries = []; lastScrolled = undefined; });
+  dialog.addEventListener('close', () => { stopScroll(); generation++; rail.replaceChildren(); entries = []; lastScrolled = undefined; });
 
   return {
-    open(reading, answerKey = false) {
+    open(reading, answerKey = false, neighborId) {
       const members = familyMembers(readings, reading);
       if (members.length < 2) return;
       trackFamilyActivity(reading, 'compara');
@@ -221,8 +244,9 @@ export function mountFamilyComparison({ root, readings, getSettings, isOutsideCo
       const gap = parseFloat(getComputedStyle(rail).columnGap) || 0;
       const columnWidth = entries[0].column.getBoundingClientRect().width;
       const visible = Math.max(1, Math.round((rail.clientWidth + gap) / (columnWidth + gap)));
-      // Keep the open variant visible, with the preceding degree on its left.
-      rail.scrollTo({ left: Math.max(0, current - visible + 1) * (columnWidth + gap), behavior: 'instant' });
+      const neighbor = members.findIndex(member => member.id === neighborId);
+      const first = visible > 1 && neighbor >= 0 && Math.abs(neighbor - current) === 1 ? Math.min(current, neighbor) : Math.max(0, current - visible + 1);
+      rail.scrollTo({ left: first * (columnWidth + gap), behavior: 'instant' });
       lastScrolled = entries[current].body;
       updatePosition();
       dialog.querySelector('#family-comparison-title').focus({ preventScroll: true });

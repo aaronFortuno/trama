@@ -380,7 +380,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
   const familyStage = mountFamilyStage({
     root, readings, getSettings: settingsForVariant, isOutsideCollection: outsideCollection,
     onSelect: id => onFamilyVariant?.(id),
-    onCompare: () => comparison.open(reading, solution.checked),
+    onCompare: neighborId => comparison.open(reading, solution.checked, neighborId),
   });
   let pendingPrint;
   let frame = 0;

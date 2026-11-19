@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.48.2 · 19 de novembre del 2026
+
+Afegim «Compara» a cada costat amb una variant veïna: cada botó obre la parella corresponent amb la lectura actual, respectant l’ordre de gradació. Unifiquem a 220 ms el canvi de variant, el moviment dels previews veïns, l’obertura i el tancament del comparador i el desplaçament entre parelles. Respectem la preferència de moviment reduït.
+
 ## 1.48.1 · 19 de novembre del 2026
 
 Fem més grans els previews veïns de les famílies i situem «Compara» entre els fulls, sense tapar la lectura. Si només hi ha una variant veïna, desplacem el full principal per donar-li espai; amb dues, el mantenim centrat. El comparador s’obre amb la variant actual i l’anterior en gradació, o la següent si és la primera; en mòbil mostra directament la variant oberta.

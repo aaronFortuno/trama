@@ -225,7 +225,7 @@ const stub = `window.umami = { track(name, data) { const payload = {name, data};
     await page.locator('#family-options [data-reading="biblioteca-objetos-a-es"]').click();
     await page.waitForFunction(() => document.querySelector('#studio-reading-code').textContent === 'L208A');
     assert.equal((await events('obre_lectura')).at(-1).data.familia, 'biblioteca-objectes');
-    await page.locator('#studio-compare').click();
+    await page.locator('.studio-compare:visible').first().click();
     await waitEvent('familia', familyCount + 2);
     assert.equal((await events('familia')).at(-1).data.accio, 'compara');
     await page.locator('#family-comparison-dialog [data-close-dialog]').click();
