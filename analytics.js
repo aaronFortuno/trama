@@ -16,7 +16,7 @@ const pendingEvents = [];
 // settings, DOM text, filenames, collection/template IDs or user-written text.
 const counts = ['0', '1', '2-5', '6-15', '16-50', '51+'];
 const eventRules = {
-  obre_lectura: { reading: true, fields: { origen: ['cataleg', 'anterior', 'seguent', 'idioma', 'enllac'], colleccio: 'boolean', maquetat: 'boolean' } },
+  obre_lectura: { reading: true, fields: { origen: ['cataleg', 'anterior', 'seguent', 'idioma', 'familia', 'enllac'], colleccio: 'boolean', maquetat: 'boolean' } },
   genera_document: { reading: true, required: ['abast', 'format', 'contingut', 'quantitat'], fields: {
     abast: ['individual', 'lot'], format: ['impressio', 'pdf', 'zip'], contingut: ['alumnat', 'solucionari'], quantitat: counts,
     doble_cara: 'boolean', colleccio: 'boolean', maquetats: 'boolean',
@@ -31,7 +31,7 @@ const eventRules = {
   copia_configuracio: { required: ['accio'], fields: { accio: ['exporta', 'importa'] } },
   restableix_maquetat: { required: ['abast'], fields: { abast: ['fitxa', 'tots'] } },
   cerca_cataleg: { required: ['tipus', 'resultats'], fields: { tipus: ['codi', 'text'], resultats: counts } },
-  neteja_filtres: { required: ['filtre'], fields: { filtre: ['tots', 'level', 'difficulty', 'theme', 'genre', 'length', 'universe'] } },
+  neteja_filtres: { required: ['filtre'], fields: { filtre: ['tots', 'level', 'difficulty', 'theme', 'genre', 'length', 'universe', 'family'] } },
   canvia_idioma: { required: ['llengua'], fields: { llengua: ['ca', 'es'] } },
 };
 

@@ -36,6 +36,7 @@ import { readings1SecondaryCa } from './readings-1-secondary-ca.js';
 import { readings1SecondaryExpansionCa } from './readings-1-secondary-expansion-ca.js';
 import { readingsLibraryEs } from './readings-universe-library-es.js';
 import { readingsLibraryCa } from './readings-universe-library-ca.js';
+import { readingsFamilyEs, readingsFamilyCa } from './readings-family-library.js';
 
 const originalReadings = [
   {
@@ -236,6 +237,7 @@ const originalReadings = [
   ...readings1SecondaryEs,
   ...readings1SecondaryExpansionEs,
   ...readingsLibraryEs,
+  ...readingsFamilyEs,
 ].map(reading => {
   const annotations = reading.annotations ?? (reading.language === 'es' ? annotationsEs[reading.code] : undefined);
   return annotations ? { ...reading, annotations } : reading;
@@ -245,7 +247,7 @@ const originalsByCode = new Map(originalReadings.map(reading => [reading.code, r
 
 export const readings = [
   ...originalReadings,
-  ...[...readings3Ca, ...readings3InitialCa, ...readings3IntermediateCa, ...readings3AdvancedCa, ...readings4Ca, ...readings4ExpansionCa, ...readings5Ca, ...readings5InitialCa, ...readings5AdvancedCa, ...readings6Ca, ...readings6ExpansionCa, ...readings1SecondaryCa, ...readings1SecondaryExpansionCa, ...readingsLibraryCa].map(({ code, imageAlt, annotations = [], ...text }) => {
+  ...[...readings3Ca, ...readings3InitialCa, ...readings3IntermediateCa, ...readings3AdvancedCa, ...readings4Ca, ...readings4ExpansionCa, ...readings5Ca, ...readings5InitialCa, ...readings5AdvancedCa, ...readings6Ca, ...readings6ExpansionCa, ...readings1SecondaryCa, ...readings1SecondaryExpansionCa, ...readingsLibraryCa, ...readingsFamilyCa].map(({ code, imageAlt, annotations = [], ...text }) => {
     const original = originalsByCode.get(code);
     return {
       ...original,

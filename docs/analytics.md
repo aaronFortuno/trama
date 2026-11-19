@@ -7,7 +7,7 @@ Des de la versió 1.43. L’objectiu és orientar les millores del projecte: qui
 | Esdeveniment | Quan es compta | Informació prevista |
 | --- | --- | --- |
 | Visualització de pàgina | Seguiment habitual d’Umami | Domini, títol fix `Trama` i URL fixa `/`; sense cerca, fragment ni referència d’origen |
-| `obre_lectura` | En obrir una lectura, també per enllaç directe, fletxes o canvi de versió | Metadades públiques; `origen`: `cataleg`, `anterior`, `seguent`, `idioma` o `enllac`; `colleccio` i `maquetat`: booleans |
+| `obre_lectura` | En obrir una lectura, també per enllaç directe, fletxes o canvi de versió | Metadades públiques; `origen`: `cataleg`, `anterior`, `seguent`, `idioma`, `familia` o `enllac`; `colleccio` i `maquetat`: booleans |
 | `aplica_filtre` | En canviar manualment un filtre | `filtre` i `valor` del vocabulari públic; `nivell` per al filtre d’extensió si hi ha curs seleccionat |
 | `neteja_filtres` | En treure un filtre o netejar la cerca i els filtres | `filtre`: camp eliminat o `tots` |
 | `cerca_cataleg` | Després de 800 ms sense escriure, amb almenys dos caràcters | `tipus`: `codi` o `text`; `resultats`: tram del nombre de resultats. Mai la consulta |
@@ -24,6 +24,8 @@ Des de la versió 1.43. L’objectiu és orientar les millores del projecte: qui
 Les metadades públiques són `codi` (p. ex. `L001`), `llengua` (`ca`/`es`), `nivell` (p. ex. `5-primary`) i `dificultat` (`initial`/`intermediate`/`advanced`). Es deriven del catàleg, sense copiar títols ni contingut. Les lectures personals només aporten ús genèric de funcionalitats.
 
 El filtre `universe` segueix la mateixa llista permesa: només s’envien identificadors del registre públic de Trama o `no-universe`. Les etiquetes d’universos d’una lectura personal no s’envien si no són al registre públic.
+
+El filtre `family` només envia `with-variants` o `no-variants`. No s’envien noms ni identificadors de famílies personals. El canvi de grau d’exigència al visor es distingeix amb l’origen `familia`; triar una variant des de la pila del catàleg conserva l’origen `cataleg`.
 
 Els recomptes agrupats són `0`, `1`, `2-5`, `6-15`, `16-50` i `51+`. En crear o ampliar una col·lecció, `quantitat` és el tram de lectures triades per aquella operació; en obrir-la, el del total de lectures que conté.
 

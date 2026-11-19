@@ -17,6 +17,8 @@ import { fontGroups, loadWorksheetFont, worksheetFonts } from './worksheet-fonts
 import { prepareAnswerEvidence } from './answer-evidence.js';
 import { trackFeature, trackReadingFeature } from './analytics.js';
 import { universeById } from './data/universes.js';
+import { familyById } from './data/families.js';
+import { familyMembers } from './reading-families.js';
 
 const formatKeys = new Set(templateGroups.filter(group => group.id !== 'images').flatMap(group => group.keys));
 const pageFormat = settings => Object.fromEntries([...formatKeys].map(key => [key, settings[key]]));
@@ -57,7 +59,7 @@ const template = `
           <div class="studio-title-line">
             <div class="studio-title-copy"><h1 id="studio-title" tabindex="-1"></h1><span id="studio-reading-code" class="studio-reading-code"></span><span id="studio-collection-name" class="catalog-collection-label" hidden></span></div>
             <p class="studio-kicker" id="studio-meta"></p>
-            <label class="studio-variants" hidden>Altres versions <select id="studio-variant"></select></label>
+            <label class="studio-variants" hidden>Llengua de la lectura <select id="studio-variant"></select></label>
           </div>
           <div class="studio-heading-actions">
             <div class="studio-reading-nav" role="group" aria-label="Navegació entre lectures">
@@ -174,6 +176,10 @@ const template = `
         <label class="studio-solution-toggle"><input id="studio-solution" class="studio-switch" type="checkbox" role="switch" aria-label="Mostra el solucionari"> Solucionari</label>
       </div>
       <form class="studio-form scroll-pane">
+        <details class="studio-family" hidden>
+          <summary>Variants de la lectura</summary>
+          <div class="studio-controls" id="studio-family"></div>
+        </details>
         <details class="studio-universes" hidden>
           <summary>Universos</summary>
           <div class="studio-controls" id="studio-universes"></div>
@@ -266,7 +272,7 @@ function imageControls(image, index) {
   return card;
 }
 
-export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onUniverse, getNeighbors, onNavigate, onRemove }) {
+export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFamilyVariant, onUniverse, getNeighbors, onNavigate, onRemove }) {
   root.innerHTML = template;
   const translateMarkup = bindTranslations(root);
   const find = selector => root.querySelector(selector);
@@ -409,6 +415,25 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onUn
     variant.replaceChildren(...variants.map(entry => new Option(labelFor('language', entry.language), entry.id)));
     variant.value = reading.id;
     variant.parentElement.hidden = variants.length < 2;
+    const siblings = familyMembers(readings, reading);
+    find('.studio-family').hidden = siblings.length < 2;
+    const family = familyById.get(reading.familyId);
+    const familyIntro = document.createElement('p');
+    familyIntro.textContent = family?.description[language()] ?? t('Una mateixa lectura amb diferents graus d’exigència.');
+    find('#studio-family').replaceChildren(familyIntro, ...siblings.map(entry => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'button studio-family-option';
+      button.textContent = `${entry.code} · ${labelFor('level', entry.level)} · ${labelFor('difficulty', entry.difficulty)}`;
+      if (readingCollection && !readingCollection.readingIds.includes(entry.id)) {
+        button.textContent += ' · ' + t('Fora de la col·lecció');
+        button.title = t('Obre aquesta variant al catàleg, fora de la col·lecció actual.');
+      }
+      button.disabled = entry.id === reading.id;
+      if (entry.id === reading.id) button.setAttribute('aria-current', 'true');
+      button.addEventListener('click', () => onFamilyVariant?.(entry.id));
+      return button;
+    }));
     const worlds = (reading.universeIds ?? []).map(id => universeById.get(id)).filter(Boolean);
     find('.studio-universes').hidden = !worlds.length;
     find('#studio-universes').replaceChildren(...worlds.map(world => {

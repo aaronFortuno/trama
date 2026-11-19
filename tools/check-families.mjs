@@ -1,0 +1,35 @@
+import assert from 'node:assert/strict';
+import { readings } from '../data/readings.js';
+import { families, familyById } from '../data/families.js';
+import { familyMembers, groupFamilyCards } from '../reading-families.js';
+import { filterCatalog, indexCatalog } from '../catalog.js';
+import { defaultSettings, makeCode, readCode } from '../worksheet-code.js';
+import { sanitizeAnalyticsEvent } from '../analytics.js';
+
+assert.equal(families.length, familyById.size);
+assert.equal(new Set(readings.map(r => r.code + ':' + r.language)).size, readings.length, 'Codes identify one variant per language');
+for (const reading of readings) if (reading.familyId) assert(familyById.has(reading.familyId), 'Public family must be registered');
+for (const family of families) {
+  for (const locale of ['ca', 'es']) {
+    const versions = readings.filter(r => r.familyId === family.id && r.language === locale);
+    assert(versions.length > 1);
+    assert.deepEqual(familyMembers(readings, versions[0]).map(r => r.code), family.variantCodes);
+    assert.equal(new Set(versions.map(r => r.workId)).size, versions.length, 'Each degree has an independent work identity');
+    for (const reading of versions) {
+      assert(reading.code === family.code || new RegExp(`^${family.code}[A-Z]$`).test(reading.code));
+      const recovered = readCode(makeCode(reading, defaultSettings(reading.level)), readings);
+      assert.equal(recovered.reading.id, reading.id, 'Variant suffixes must survive code round-trips');
+    }
+  }
+}
+const indexed = indexCatalog(readings);
+const variants = filterCatalog(indexed, { family: 'with-variants', language: 'ca' });
+assert.equal(variants.length, 3);
+assert.equal(groupFamilyCards(variants).length, 1);
+assert.equal(filterCatalog(indexed, { family: 'with-variants', language: 'ca', level: '4-primary' }).length, 1);
+const translationsOnly = readings.filter(r => r.code === 'L208');
+assert.equal(filterCatalog(indexCatalog(translationsOnly), { family: 'with-variants' }).length, 0);
+assert.equal(groupFamilyCards(variants).flatMap(group => group.familyMatches).length, variants.length);
+assert.equal(sanitizeAnalyticsEvent('aplica_filtre', { filtre: 'family', valor: 'private-name' }), false);
+assert(sanitizeAnalyticsEvent('aplica_filtre', { filtre: 'family', valor: 'with-variants' }));
+console.log('Family degrees, language separation, grouping, codes and analytics checked.');

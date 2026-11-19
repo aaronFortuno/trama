@@ -4,6 +4,7 @@ export const readings1SecondaryExpansionEs = [
     "code": "L208",
     "workId": "la-biblioteca-de-objetos",
     "universeIds": ["biblioteca-de-les-coses"],
+    "familyId": "biblioteca-objectes",
     "language": "es",
     "level": "1-secondary",
     "difficulty": "initial",

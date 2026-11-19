@@ -15,10 +15,14 @@ const base = 'http://127.0.0.1:4197/';
     await page.route('**/*', route => route.request().url().startsWith(base) || route.request().url().startsWith('data:') ? route.continue() : route.abort());
     await page.goto(base);
     await page.locator('#reading-grid .reading-card').first().waitFor();
-    const expected = await page.evaluate(async () => { const { readings } = await import('./data/readings.js'); return readings.filter(r => r.language === 'ca' && r.universeIds?.includes('biblioteca-de-les-coses')).length; });
+    const expected = await page.evaluate(async () => {
+      const { readings } = await import('./data/readings.js'); const { groupFamilyCards } = await import('./reading-families.js');
+      const members = readings.filter(r => r.language === 'ca' && r.universeIds?.includes('biblioteca-de-les-coses'));
+      return { readings: members.length, cards: groupFamilyCards(members.map(reading => ({ reading }))).length };
+    });
     const field = (selector, value) => page.locator(selector).evaluate((node, value) => { node.value = value; node.dispatchEvent(new Event('change', { bubbles: true })); }, value);
     await field('#filter-universe', 'biblioteca-de-les-coses');
-    assert.equal(await page.locator('#reading-grid .reading-card').count(), expected);
+    assert.equal(await page.locator('#reading-grid .reading-card').count(), expected.cards);
     assert((await page.locator('#active-filters').textContent()).includes('La biblioteca de les coses'));
     await page.locator('.card-open[data-id="quince-minutos-no-bastan-ca"]').click();
     await page.locator('#studio-pages .worksheet-page').first().waitFor();
@@ -31,7 +35,7 @@ const base = 'http://127.0.0.1:4197/';
     if (await page.locator('.studio-universes > summary').getAttribute('aria-expanded') === 'false') await page.locator('.studio-universes > summary').click();
     await page.locator('.studio-universe button').click();
     assert.equal(await page.locator('#filter-language').inputValue(), 'es');
-    assert.equal(await page.locator('#reading-grid .reading-card').count(), expected);
+    assert.equal(await page.locator('#reading-grid .reading-card').count(), expected.cards);
     const rendered = await page.evaluate(async () => {
       const { readings } = await import('./data/readings.js');
       const { defaultSettings } = await import('./worksheet-code.js');
@@ -70,6 +74,6 @@ const base = 'http://127.0.0.1:4197/';
     const stream = await download.createReadStream(); const chunks = []; for await (const chunk of stream) chunks.push(chunk);
     const pdf = await PDFDocument.load(Buffer.concat(chunks)); assert(pdf.getPageCount() > 0);
     assert.deepEqual(errors, []);
-    console.log(JSON.stringify({ universeReadingsPerLanguage: expected, ...rendered, pdfPages: pdf.getPageCount(), errors }));
+    console.log(JSON.stringify({ universeReadingsPerLanguage: expected.readings, universeCards: expected.cards, ...rendered, pdfPages: pdf.getPageCount(), errors }));
   } finally { await browser?.close(); server.kill(); }
 })().catch(error => { console.error(error); process.exitCode = 1; });

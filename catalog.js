@@ -1,9 +1,11 @@
-import { animateRefresh, mountDisclosures } from './motion.js';
-import { syncSelects } from './select-menu.js';
+import { animateRefresh, closeDialog, mountDisclosures, openDialog } from './motion.js';
+import { placeMenu, syncSelects } from './select-menu.js';
 import { language, languages, t } from './i18n.js';
 import { collectionsKey, listCollections, moveCollectionReading, removeCollection, removeCollectionReading, saveCollectionEntries } from './collections.js';
 import { mountCatalogGestures } from './catalog-gestures.js';
 import { universes } from './data/universes.js';
+import { familyById } from './data/families.js';
+import { familyMembers, groupFamilyCards } from './reading-families.js';
 
 export const labels = {
   language: { es: 'Castellà', ca: 'Català' },
@@ -16,6 +18,7 @@ export const labels = {
   difficulty: { initial: 'Inicial', intermediate: 'Intermèdia', advanced: 'Avançada' },
   length: { short: 'Curta', medium: 'Mitjana', long: 'Llarga' },
   universe: { 'no-universe': 'Sense univers', ...Object.fromEntries(universes.map(universe => [universe.id, universe.name.ca])) },
+  family: { 'with-variants': 'Amb variants', 'no-variants': 'Sense variants' },
   theme: { nature: 'Natura', community: 'Comunitat', adventure: 'Aventures', science: 'Ciència', arts: 'Art i cultura', everyday: 'Vida quotidiana', history: 'Història', math: 'Matemàtiques', environment: 'Medi ambient', sports: 'Esport', technology: 'Tecnologia', geography: 'Geografia', games: 'Jocs i enigmes' },
   question: { literal: 'Literal', inference: 'Inferència', opinion: 'Opinió', vocabulary: 'Vocabulari', structure: 'Estructura del text', summary: 'Resum' },
   genre: { narrative: 'Narració', informative: 'Divulgació', instructional: 'Text instructiu', interview: 'Entrevista', letter: 'Carta', news: 'Notícia', review: 'Ressenya', diary: 'Diari', argument: 'Article d’opinió' },
@@ -86,11 +89,17 @@ function normalize(value) {
 }
 
 export function indexCatalog(readings) {
+  const families = new Map();
+  for (const reading of readings) if (reading.familyId) {
+    const key = `${reading.familyId}:${reading.language}`;
+    families.set(key, (families.get(key) ?? 0) + 1);
+  }
   return readings.map((reading) => {
     const count = wordCount(reading);
     const facets = {
       language: [reading.language], level: [reading.level], difficulty: [reading.difficulty], length: [lengthBucket(count, reading.level)],
       theme: reading.themes, genre: [reading.genre], universe: reading.universeIds?.length ? reading.universeIds : ['no-universe'],
+      family: [(families.get(`${reading.familyId}:${reading.language}`) ?? 0) > 1 ? 'with-variants' : 'no-variants'],
     };
     const terms = languages.flatMap(locale => Object.entries(facets).flatMap(([facet, values]) => values.map(value => labelFor(facet, value, locale))));
     const searchText = normalize([reading.code, reading.title, reading.summary, ...terms].join(' '));
@@ -284,6 +293,37 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     onFilterApplied?.('language', languagePreference, levelField.value);
   });
 
+  function openFamily(reading, origin = 'cataleg') {
+    const dialog = document.querySelector('#family-dialog');
+    const members = familyMembers(catalog.map(item => item.reading), reading);
+    const family = familyById.get(reading.familyId);
+    dialog.querySelector('#family-title').textContent = `${family?.code ?? reading.code} · ${family?.name[language()] ?? reading.title}`;
+    dialog.querySelector('#family-description').textContent = family?.description[language()] ?? t('Una mateixa lectura amb diferents graus d’exigència.');
+    const matches = new Set(orderedMatches.map(item => item.reading.id));
+    const hasOtherLevels = members.some(entry => !matches.has(entry.id));
+    dialog.querySelector('#family-filter-note').hidden = !hasOtherLevels;
+    dialog.querySelector('#family-options').replaceChildren(...members.map(entry => {
+      const button = document.createElement('button');
+      const title = document.createElement('strong');
+      const meta = document.createElement('span');
+      const detail = document.createElement('small');
+      button.type = 'button';
+      button.className = 'family-option';
+      button.dataset.reading = entry.id;
+      button.classList.toggle('is-match', hasOtherLevels && matches.has(entry.id));
+      title.textContent = `${entry.code} · ${labelFor('level', entry.level)} · ${labelFor('difficulty', entry.difficulty)}`;
+      meta.textContent = entry.summary;
+      meta.lang = entry.language;
+      detail.textContent = [t('{count} paraules', { count: wordCount(entry) }), t('{count} preguntes', { count: entry.questions.length }), ...(hasOtherLevels && matches.has(entry.id) ? [t('Coincideix amb els filtres')] : [])].join(' · ');
+      button.append(title, meta, detail);
+      button.addEventListener('click', () => closeDialog(dialog, () => onSelect(entry, origin)));
+      return button;
+    }));
+    openDialog(dialog);
+    dialog.querySelector('.dialog-scroll').scrollTop = 0;
+    dialog.querySelector('#family-title').focus({ preventScroll: true });
+  }
+
   function cardFor({ reading, count }, words) {
     const card = template.content.firstElementChild.cloneNode(true);
     card.dataset.id = reading.id;
@@ -317,11 +357,30 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     card.querySelector('.card-words').textContent = t(count === 1 ? '{count} paraula' : '{count} paraules', { count: words.format(count) });
     const countQuestions = reading.questions.length;
     card.querySelector('.card-questions').textContent = t(countQuestions === 1 ? '{count} pregunta' : '{count} preguntes', { count: words.format(countQuestions) });
+    const members = familyMembers(catalog.map(item => item.reading), reading);
+    const isFamily = !selecting && !activeCollection && members.length > 1;
+    if (isFamily) {
+      const family = familyById.get(reading.familyId);
+      card.classList.add('is-family');
+      card.dataset.familyId = reading.familyId;
+      title.textContent = family?.name[reading.language] ?? reading.title;
+      summary.textContent = family?.description[reading.language] ?? reading.summary;
+      difficulty.textContent = t('{count} variants', { count: members.length });
+      delete difficulty.dataset.difficulty;
+      card.querySelector('.card-code').textContent = family?.code ?? reading.code;
+      card.querySelector('.card-level').textContent = labelFor('language', reading.language);
+      const levels = [...new Set(members.map(entry => labelFor('level', entry.level).replace(/ de (?:primària|primaria)$/, '')))];
+      card.querySelector('.card-words').textContent = levels.join(' · ');
+      card.querySelector('.card-questions').textContent = '';
+      card.querySelector('.card-questions').hidden = true;
+      open.setAttribute('aria-haspopup', 'dialog');
+      open.setAttribute('aria-controls', 'family-dialog');
+    }
     open.dataset.id = reading.id;
     open.firstElementChild.id = `reading-open-${reading.id}`;
     open.setAttribute('aria-labelledby', `${open.firstElementChild.id} ${title.id}`);
     open.addEventListener('click', () => {
-      if (!selecting) { onSelect(reading); return; }
+      if (!selecting) { if (isFamily) openFamily(reading); else onSelect(reading); return; }
       if (selectedIds.has(reading.id)) selectedIds.delete(reading.id);
       else selectedIds.add(reading.id);
       syncSelection();
@@ -338,9 +397,10 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     const total = orderedMatches.length;
     if (!append) updateOptions(source, facets, words);
     selectionToggle.disabled = !source.length;
-    const showing = Math.min(limit, total);
-    const visible = orderedMatches.slice(0, showing);
-    const ids = visible.map(({ reading }) => reading.id).join(' ');
+    const display = selecting || activeCollection ? orderedMatches : groupFamilyCards(orderedMatches);
+    const showing = Math.min(limit, display.length);
+    const visible = display.slice(0, showing);
+    const ids = `${selecting}:${activeCollection?.id ?? ''}:` + visible.map(({ reading }) => reading.id).join(' ');
     if (translated || ids !== visibleIds) {
       const cards = visible.slice(append ? grid.childElementCount : 0).map(item => cardFor(item, words));
       if (append) {
@@ -359,9 +419,9 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     const countLabel = total === 1 ? t('1 lectura') : t('{count} lectures', { count: words.format(total) });
     if (resultCount.textContent !== countLabel) resultCount.textContent = countLabel;
     emptyState.hidden = total !== 0;
-    more.hidden = showing === total;
+    more.hidden = showing === display.length;
     more.textContent = t('Mostra més lectures ({showing} de {total})', {
-      showing: words.format(showing), total: words.format(total),
+      showing: words.format(showing), total: words.format(display.length),
     });
     observer?.unobserve(more);
     observer?.takeRecords();
@@ -396,7 +456,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
       const selected = selecting && selectedIds.has(button.dataset.id);
       card.classList.toggle('is-selected', selected);
       card.querySelector('.card-selection').hidden = !selected;
-      button.firstElementChild.textContent = t(selecting ? 'Selecciona' : 'Prepara la fitxa');
+      button.firstElementChild.textContent = t(selecting ? 'Selecciona' : card.classList.contains('is-family') ? 'Tria una variant' : 'Prepara la fitxa');
       if (selecting) button.setAttribute('aria-pressed', String(selected));
       else button.removeAttribute('aria-pressed');
       button.setAttribute('aria-describedby', selecting ? 'catalog-selection-help' : 'catalog-card-help');
@@ -406,17 +466,19 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
   }
 
   function clearSelection() {
+    const wasSelecting = selecting;
     selecting = false;
     addingTo = undefined;
     selectedIds.clear();
-    syncSelection();
+    if (wasSelecting) render({ keepScroll: true });
+    else syncSelection();
   }
 
   function beginSelection() {
     selecting = true;
     const summary = root.querySelector('#catalog-collection-panel > summary');
     if (summary.getAttribute('aria-expanded') === 'false') summary.click();
-    syncSelection();
+    render({ keepScroll: true });
   }
 
   function selectedFacets() {
@@ -542,7 +604,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
       const query = search.value.trim();
       if (root.hidden || query.length < 2 || query === lastTrackedSearch) return;
       lastTrackedSearch = query;
-      onActivity?.('cerca_cataleg', { tipus: /^L\d+$/i.test(query) ? 'codi' : 'text', resultats: orderedMatches.length });
+      onActivity?.('cerca_cataleg', { tipus: /^L\d+[A-Z]?$/i.test(query) ? 'codi' : 'text', resultats: orderedMatches.length });
     }, 800);
   });
   reset.addEventListener('click', clear);
@@ -551,6 +613,24 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     clear();
   });
   const sidebar = root.querySelector('.catalog-filters');
+  for (const help of sidebar.querySelectorAll('.filter-help')) {
+    const button = help.querySelector('button');
+    const tip = help.querySelector('[role="tooltip"]');
+    const hide = () => { if (tip.matches(':popover-open')) tip.hidePopover(); };
+    const show = () => {
+      for (const other of sidebar.querySelectorAll('.filter-help-tip:popover-open')) if (other !== tip) other.hidePopover();
+      if (!tip.matches(':popover-open')) tip.showPopover();
+      placeMenu(button, tip, 'end');
+    };
+    help.addEventListener('pointerenter', show);
+    help.addEventListener('pointerleave', () => { if (document.activeElement !== button) hide(); });
+    button.addEventListener('focus', show);
+    button.addEventListener('blur', hide);
+    button.addEventListener('click', show);
+    button.addEventListener('keydown', event => { if (event.key === 'Escape') { hide(); event.preventDefault(); } });
+    sidebar.addEventListener('scroll', hide);
+    window.addEventListener('resize', hide);
+  }
   mountDisclosures(sidebar, { exclusive: true, selector: ':scope > details' });
   mountDisclosures(root.querySelector('.catalog-extra-filters').parentElement);
   more.addEventListener('click', () => loadMore(true));
@@ -607,6 +687,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     root, grid, scroller: results,
     getState: () => ({ selecting, collectionId: activeCollection?.id }),
     getCollections: listCollections,
+    onFamily(id) { const entry = catalog.find(item => item.reading.id === id); if (entry) openFamily(entry.reading); },
     onMove: moveReading,
     onStep(id, direction) {
       const index = orderedMatches.findIndex(({ reading }) => reading.id === id);
@@ -648,6 +729,15 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     matchingReadings() {
       return orderedMatches.map(({ reading }) => reading);
     },
+    navigationReadings(current) {
+      if (activeCollection) return orderedMatches.map(item => item.reading);
+      return groupFamilyCards(orderedMatches).map(group => current.familyId && group.reading.familyId === current.familyId && group.reading.language === current.language ? current : group.reading);
+    },
+    chooseFamily(reading, origin) {
+      if (activeCollection || familyMembers(catalog.map(item => item.reading), reading).length < 2) return false;
+      openFamily(reading, origin);
+      return true;
+    },
     replaceReadings(items) {
       const positions = new Map(catalog.map(({ reading }, index) => [reading.id, index]));
       const newPosition = catalog.length;
@@ -679,7 +769,9 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
       render({ translated: true });
     },
     focus(readingId) {
-      const button = [...grid.querySelectorAll('button[data-id]')].find(({ dataset }) => dataset.id === readingId);
+      const family = catalog.find(item => item.reading.id === readingId)?.reading.familyId;
+      const button = [...grid.querySelectorAll('button[data-id]')].find(({ dataset }) => dataset.id === readingId)
+        ?? [...grid.querySelectorAll('[data-family-id]')].find(card => family && card.dataset.familyId === family)?.querySelector('.card-open');
       (button ?? root.querySelector('#readings-title')).focus();
     },
   };

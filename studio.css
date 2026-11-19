@@ -366,6 +366,8 @@ button.worksheet-evidence-reference:hover, button.worksheet-evidence-reference:f
 }
 
 @page { size: A4 portrait; margin: 0; }
+.studio-family-option { justify-content: start; width: 100%; white-space: normal; text-align: left; font-size: .78rem; }
+.studio-family-option[aria-current] { opacity: 1; border-color: var(--green); background: var(--hover); color: var(--green); }
 
 @media print {
   body[data-trama-print] { display: block !important; height: auto !important; margin: 0 !important; padding: 0 !important; background: #fff !important; }

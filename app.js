@@ -80,9 +80,18 @@ const studio = mountStudio({
   onOpen: showStudio,
   onCatalog: goToCatalog,
   onVariant: id => { openingSource = 'idioma'; openReading(id); },
+  onFamilyVariant: id => {
+    const collection = catalog.activeCollection();
+    if (collection && !collection.readingIds.includes(id)) catalog.loadCollections('');
+    openingSource = 'familia';
+    openReading(id);
+  },
   onUniverse: (id, locale) => { catalog.showUniverse(id, locale); goToCatalog(); },
   getNeighbors: readingNeighbors,
-  onNavigate: (reading, direction) => openCatalogReading(reading, direction === 'next' ? 'seguent' : 'anterior'),
+  onNavigate: (reading, direction) => {
+    const origin = direction === 'next' ? 'seguent' : 'anterior';
+    if (!catalog.chooseFamily(reading, origin)) openCatalogReading(reading, origin);
+  },
   onRemove: removeReading,
 });
 const batchDialog = document.querySelector('#batch-dialog');
@@ -190,7 +199,7 @@ function openCatalogReading(reading, origin = 'cataleg') {
 }
 
 function readingNeighbors(reading) {
-  const matches = catalog.matchingReadings();
+  const matches = catalog.navigationReadings(reading);
   let index = matches.findIndex(entry => entry.id === reading.id);
   if (index < 0 && reading.workId) index = matches.findIndex(entry => entry.workId === reading.workId);
   return index < 0 ? {} : { previous: matches[index - 1], next: matches[index + 1] };

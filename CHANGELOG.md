@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.46 · 19 de novembre del 2026
+
+Univers passa als filtres principals, amb una ajuda que explica les lectures connectades. Estrenem el filtre de famílies i una pila de targetes amb tria prèvia de variant. La família de la L208 incorpora les L208A (4t) i L208B (6è), en català i castellà, conservant l’original de 1r d’ESO. Les variants es poden canviar des del visor i tenen maquetats independents; en seleccionar lectures o obrir una col·lecció es mostren per separat. Documentem els codis amb sufix, la navegació i els criteris de gradació.
+
 ## 1.45.2 · 19 de novembre del 2026
 
 Completem el primer univers amb la L248, «Un tamboret més a la llista?», una lectura argumentativa de 1r d’ESO inicial en català i castellà. Inclou dues il·lustracions, deu preguntes, solucionari i pistes revisades. «La biblioteca de les coses» ja agrupa quatre lectures independents; documentem la continuïtat dels personatges, les imatges i els criteris per ampliar-la.

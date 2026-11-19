@@ -39,4 +39,6 @@ Les [instruccions completes i els arxius de les il·lustracions del pilot](bibli
 
 L’ordre de la taula és d’identificació, no de lectura obligatòria. Les lectures no són germanes d’una família: narren situacions diferents del mateix lloc.
 
+La L208 disposa, a més, de dues variants de la seva mateixa explicació: L208A per a 4t intermedi i L208B per a 6è intermedi, en català i castellà. Formen la família `biblioteca-objectes` amb la L208 original i reutilitzen les seves il·lustracions. Aquesta família és una relació d’exigència dins de l’univers; no inclou les L246–L248.
+
 Les tres incorporacions tenen aproximadament 420–450 paraules, deu preguntes de tipus diversos, solucionari, fragments de suport i dues il·lustracions. La L246 és narrativa, la L247 instructiva i la L248 argumentativa. A la darrera, la Noa defensa la comprovació dels criteris i l’Adil presenta la proposta inicial: els papers d’observador i de persona que es precipita no han de quedar fixats en un sol personatge.

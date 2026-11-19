@@ -3,7 +3,7 @@ import { t } from './i18n.js';
 import { setDisclosure } from './motion.js';
 
 // Keep gestures separate from collection storage: only a completed move saves.
-export function mountCatalogGestures({ root, grid, scroller, getState, getCollections, onMove, onStep, onAdd, onRemove }) {
+export function mountCatalogGestures({ root, grid, scroller, getState, getCollections, onMove, onStep, onAdd, onRemove, onFamily }) {
   const menu = root.querySelector('#card-context-menu');
   const title = menu.querySelector('.card-context-title');
   const add = menu.querySelector('[data-card-option="add"]');
@@ -139,6 +139,7 @@ export function mountCatalogGestures({ root, grid, scroller, getState, getCollec
     if (getState().selecting) return;
     cancelPress();
     suppressClick = true;
+    if (button.closest('.is-family')) { onFamily?.(button.dataset.id); return; }
     paused = true;
     // Cancel a pending touch drag before handing the press to the menu.
     sortable?.destroy();

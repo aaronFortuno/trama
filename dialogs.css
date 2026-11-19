@@ -72,6 +72,19 @@
 .batch-duplex-option { display: inline-flex; align-items: center; gap: 6px; min-width: 0; font-size: .8rem; }
 .batch-info-button { display: grid; place-items: center; flex: none; width: 24px; height: 24px; padding: 0; border: 0; border-radius: 50%; background: transparent; color: var(--muted); }
 .batch-info-button:hover, .batch-info-button[aria-expanded="true"] { color: var(--green); background: var(--hover); }
+.family-dialog { width: min(690px, calc(100vw - 28px)); padding: 22px; }
+.family-dialog[open] { display: flex; flex-direction: column; overflow: hidden; }
+.family-dialog .dialog-heading { flex: none; margin-bottom: 16px; }
+.family-dialog .dialog-heading h2 { margin: 0; }
+.family-dialog .dialog-scroll > p { margin: 0 0 13px; color: var(--muted); font-size: .85rem; line-height: 1.5; }
+.family-options { display: grid; gap: 10px; }
+.family-option { display: grid; gap: 6px; padding: 13px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); color: var(--ink); text-align: left; transition: border-color var(--motion), background-color var(--motion); }
+.family-option:is(:hover, :focus-visible) { border-color: var(--green); background: var(--hover); }
+.family-option strong { color: var(--green); font-size: .9rem; }
+.family-option span { font-size: .8rem; line-height: 1.45; }
+.family-option small { color: var(--muted); font-size: .75rem; }
+.family-option.is-match { border-left: 3px solid var(--green); }
+.family-dialog .family-selection-note { margin-top: 14px; margin-bottom: 0; font-size: .76rem; }
 .batch-info-button .ui-icon { width: 17px; height: 17px; }
 .batch-info-popover.select-menu { width: min(320px, calc(100vw - 24px)); padding: 10px 12px; opacity: 0; font-size: .77rem; transition: opacity var(--motion), display var(--motion) allow-discrete, overlay var(--motion) allow-discrete; }
 .batch-info-popover:popover-open { opacity: 1; }

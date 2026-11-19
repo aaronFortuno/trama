@@ -1,4 +1,25 @@
 export const es = Object.fromEntries(`
+v1.46 · Obre l’historial de canvis|v1.46 · Abrir el historial de cambios
+Univers passa als filtres principals, amb una ajuda que explica les lectures connectades. Estrenem el filtre de famílies i una pila de targetes amb tria prèvia de variant. La família de la L208 incorpora les L208A (4t) i L208B (6è), en català i castellà, conservant l’original de 1r d’ESO. Les variants es poden canviar des del visor i tenen maquetats independents; en seleccionar lectures o obrir una col·lecció es mostren per separat. Documentem els codis amb sufix, la navegació i els criteris de gradació.|Universo pasa a los filtros principales, con una ayuda que explica las lecturas conectadas. Estrenamos el filtro de familias y una pila de tarjetas con elección previa de variante. La familia de la L208 incorpora las L208A (4.º) y L208B (6.º), en catalán y castellano, conservando el original de 1.º de ESO. Las variantes se pueden cambiar desde el visor y tienen maquetaciones independientes; al seleccionar lecturas o abrir una colección se muestran por separado. Documentamos los códigos con sufijo, la navegación y los criterios de gradación.
+Famílies|Familias
+Fora de la col·lecció|Fuera de la colección
+Obre aquesta variant al catàleg, fora de la col·lecció actual.|Abre esta variante en el catálogo, fuera de la colección actual.
+Amb variants|Con variantes
+Sense variants|Sin variantes
+Totes les lectures|Todas las lecturas
+Què és un univers?|¿Qué es un universo?
+Què és una família?|¿Qué es una familia?
+Lectures independents que comparteixen un lloc, uns personatges o un món. Es poden llegir en qualsevol ordre.|Lecturas independientes que comparten un lugar, unos personajes o un mundo. Se pueden leer en cualquier orden.
+Versions d’una mateixa lectura amb textos i preguntes de diferent exigència, per treballar una proposta compartida amb nivells diversos. Les traduccions no compten com a variants.|Versiones de una misma lectura con textos y preguntas de distinta exigencia, para trabajar una propuesta compartida con niveles diversos. Las traducciones no cuentan como variantes.
+Tanca les variants|Cerrar las variantes
+També es mostren les variants d’altres nivells. Les que coincideixen amb els filtres estan indicades.|También se muestran las variantes de otros niveles. Se indican las que coinciden con los filtros.
+Per afegir variants concretes a una col·lecció, activa «Selecciona lectures» al catàleg: cada variant tindrà la seva targeta.|Para añadir variantes concretas a una colección, activa «Selecciona lecturas» en el catálogo: cada variante tendrá su tarjeta.
+Una mateixa lectura amb diferents graus d’exigència.|Una misma lectura con distintos grados de exigencia.
+Coincideix amb els filtres|Coincide con los filtros
+{count} variants|{count} variantes
+Tria una variant|Elige una variante
+Variants de la lectura|Variantes de la lectura
+Llengua de la lectura|Lengua de la lectura
 v1.45.2 · Obre l’historial de canvis|v1.45.2 · Abrir el historial de cambios
 Completem el primer univers amb la L248, «Un tamboret més a la llista?», una lectura argumentativa de 1r d’ESO inicial en català i castellà. Inclou dues il·lustracions, deu preguntes, solucionari i pistes revisades. «La biblioteca de les coses» ja agrupa quatre lectures independents; documentem la continuïtat dels personatges, les imatges i els criteris per ampliar-la.|Completamos el primer universo con la L248, «¿Un taburete más en la lista?», una lectura argumentativa de 1.º de ESO inicial en catalán y castellano. Incluye dos ilustraciones, diez preguntas, solucionario y pistas revisadas. «La biblioteca de las cosas» ya agrupa cuatro lecturas independientes; documentamos la continuidad de los personajes, las imágenes y los criterios para ampliarla.
 v1.45.1 · Obre l’historial de canvis|v1.45.1 · Abrir el historial de cambios
