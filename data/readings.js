@@ -37,6 +37,9 @@ import { readings1SecondaryExpansionCa } from './readings-1-secondary-expansion-
 import { readingsLibraryEs } from './readings-universe-library-es.js';
 import { readingsLibraryCa } from './readings-universe-library-ca.js';
 import { readingsFamilyEs, readingsFamilyCa } from './readings-family-library.js';
+import { families } from './families.js';
+import { familyAdaptations } from './family-adaptations.js';
+import { buildFamilyAdaptations } from './family-adaptation-model.js';
 
 const originalReadings = [
   {
@@ -245,7 +248,7 @@ const originalReadings = [
 
 const originalsByCode = new Map(originalReadings.map(reading => [reading.code, reading]));
 
-export const readings = [
+const publicReadings = [
   ...originalReadings,
   ...[...readings3Ca, ...readings3InitialCa, ...readings3IntermediateCa, ...readings3AdvancedCa, ...readings4Ca, ...readings4ExpansionCa, ...readings5Ca, ...readings5InitialCa, ...readings5AdvancedCa, ...readings6Ca, ...readings6ExpansionCa, ...readings1SecondaryCa, ...readings1SecondaryExpansionCa, ...readingsLibraryCa, ...readingsFamilyCa].map(({ code, imageAlt, annotations = [], ...text }) => {
     const original = originalsByCode.get(code);
@@ -263,3 +266,9 @@ export const readings = [
     evidence[question.id] ? { ...question, evidence: evidence[question.id] } : question
   )) } : reading;
 });
+
+const familyIdsBySource = new Map(families.map(family => [family.code, family.id]));
+const familySources = publicReadings.map(reading => familyIdsBySource.has(reading.code)
+  ? { ...reading, familyId: familyIdsBySource.get(reading.code) } : reading);
+
+export const readings = [...familySources, ...buildFamilyAdaptations(familySources, familyAdaptations, families)];

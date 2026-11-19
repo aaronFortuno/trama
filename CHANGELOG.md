@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.49 · 19 de novembre del 2026
+
+Iniciem l’ampliació de famílies amb les L001–L004: cadascuna conserva l’original i incorpora una variant de reforç A i una d’ampliació B, en català i castellà. Són vuit obres noves, setze versions lingüístiques, amb preguntes, solucionari, línies de resposta i fragments ressaltats propis. Compartim les il·lustracions coherents amb cada història i mantenim els enllaços i maquetats existents. Documentem una primera selecció de vint lectures per continuar aquesta gradació.
+
 ## 1.48.2 · 19 de novembre del 2026
 
 Afegim «Compara» a cada costat amb una variant veïna: cada botó obre la parella corresponent amb la lectura actual, respectant l’ordre de gradació. Unifiquem a 220 ms el canvi de variant, el moviment dels previews veïns, l’obertura i el tancament del comparador i el desplaçament entre parelles. Respectem la preferència de moviment reduït.

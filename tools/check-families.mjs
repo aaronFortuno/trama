@@ -24,16 +24,17 @@ for (const family of families) {
 }
 const indexed = indexCatalog(readings);
 const variants = filterCatalog(indexed, { family: 'with-variants', language: 'ca' });
-assert.equal(variants.length, 3);
-assert.equal(groupFamilyCards(variants).length, 1);
-const genreCounts = countFacetResults(variants, 'genre');
+assert.equal(variants.length, families.reduce((total, family) => total + family.variantCodes.length, 0));
+assert.equal(groupFamilyCards(variants).length, families.length);
+const pilot = variants.filter(item => item.reading.familyId === 'biblioteca-objectes');
+const genreCounts = countFacetResults(pilot, 'genre');
 assert.equal(genreCounts.total, 1);
 assert.equal(genreCounts.counts.get('informative'), 1, 'Three variants contribute one proposal to a shared genre');
-assert.equal(countFacetResults(variants, 'genre', { groupFamilies: false }).total, 3, 'Selection and printing keep concrete worksheets');
-assert.equal(countFacetResults(variants, 'difficulty').counts.get('intermediate'), 1, 'Two matching degrees in one family count once');
-assert.equal(countFacetResults(variants, 'level').counts.size, 3, 'A family remains discoverable through any of its levels');
-assert.equal(filterCatalog(variants, { level: '4-primary', difficulty: 'initial' }).length, 0, 'All constraints must match the same variant');
-assert.equal(filterCatalog(indexed, { family: 'with-variants', language: 'ca', level: '4-primary' }).length, 1);
+assert.equal(countFacetResults(pilot, 'genre', { groupFamilies: false }).total, 3, 'Selection and printing keep concrete worksheets');
+assert.equal(countFacetResults(pilot, 'difficulty').counts.get('intermediate'), 1, 'Two matching degrees in one family count once');
+assert.equal(countFacetResults(pilot, 'level').counts.size, 3, 'A family remains discoverable through any of its levels');
+assert.equal(filterCatalog(pilot, { level: '4-primary', difficulty: 'initial' }).length, 0, 'All constraints must match the same variant');
+assert.equal(filterCatalog(pilot, { family: 'with-variants', language: 'ca', level: '4-primary' }).length, 1);
 const translationsOnly = readings.filter(r => r.code === 'L208');
 assert.equal(filterCatalog(indexCatalog(translationsOnly), { family: 'with-variants' }).length, 0);
 assert.equal(groupFamilyCards(variants).flatMap(group => group.familyMatches).length, variants.length);

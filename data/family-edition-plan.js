@@ -1,0 +1,31 @@
+// First expansion: A is support, the unsuffixed code is the existing reading,
+// B is extension. Letters identify editions; editorial order is explicit.
+export const familyEditionPlan = [
+  ['L001', 'El cartel de la plaza', 'El cartell de la plaça'],
+  ['L002', 'Un puente de papel', 'Un pont de paper'],
+  ['L003', 'Un mapa para escuchar', 'Un mapa per escoltar'],
+  ['L004', 'La caja de los martes', 'La caixa dels dimarts'],
+  ['L005', 'El agua que llegaba a la ciudad', 'L’aigua que arribava a la ciutat'],
+  ['L006', 'Dos fotos, una misma ballena', 'Dues fotos, una mateixa balena'],
+  ['L008', 'La pinza que cuidaba los dibujos', 'La pinça que cuidava els dibuixos'],
+  ['L031', 'Un mosaico que se repite', 'Un mosaic que es repeteix'],
+  ['L039', 'El taller de los paraguas', 'El taller dels paraigües'],
+  ['L043', 'Una carta para la última parada', 'Una carta per a l’última parada'],
+  ['L044', 'Preguntas a una afinadora', 'Preguntes a una afinadora'],
+  ['L054', '¿Cuánto mide el río en el plano?', 'Quant fa d’ample el riu al plànol?'],
+  ['L065', 'El puente de los siete minutos', 'El pont dels set minuts'],
+  ['L077', '¿Quién usa la pista?', 'Qui fa servir la pista?'],
+  ['L175', 'Una noche sin estrellas', 'Una nit sense estrelles'],
+  ['L179', 'Una reseña con un pero', 'Una ressenya amb un però'],
+  ['L180', 'El equipo que se quedó a recoger', 'L’equip que es va quedar a recollir'],
+  ['L202', 'El mapa de las islas de luz', 'El mapa de les illes de llum'],
+  ['L203', 'La canción que perdió una estrofa', 'La cançó que va perdre una estrofa'],
+  ['L205', 'El campeonato de las piezas prestadas', 'El campionat de les peces prestades'],
+].map(([code, es, ca]) => ({
+  id: `familia-${code.toLowerCase()}`, code, name: { es, ca },
+  description: {
+    es: 'La misma propuesta con una versión de apoyo, la lectura original y una ampliación.',
+    ca: 'La mateixa proposta amb una versió de reforç, la lectura original i una ampliació.',
+  },
+  variantCodes: [`${code}A`, code, `${code}B`],
+}));
