@@ -65,6 +65,8 @@ La L208, «La biblioteca d’objectes», inicia **La biblioteca de les coses**. 
 
 L’objectiu del pilot és validar la independència, el filtre, la continuïtat del lloc i dels personatges, els solucionaris i la maquetació. No es pressuposa que tot el catàleg actual s’hagi de vincular: la resta d’obres són possibles punts de partida i s’hi assignaran relacions només quan estiguin revisades.
 
+Amb les L246–L248 el catàleg arriba a 248 obres, 496 versions lingüístiques. El tram de 1r d’ESO inicial passa de quinze a divuit obres; el primer univers en conté quatre. Aquesta és una fotografia del pilot, no una quota que substitueixi la revisió de l’exigència.
+
 ## Revisió abans de publicar
 
 - Comprovar l’exigència amb lectures existents del mateix tram, les dues llengües i la independència respecte de qualsevol altra obra.

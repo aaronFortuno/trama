@@ -26,6 +26,8 @@ El pilot se centra visualment en els objectes i les situacions del servei. No es
 
 Cada lectura nova té una escena específica per distingir-la a les targetes i pot recuperar la il·lustració general del local com a segona imatge. Les escenes compartides no són pistes imprescindibles ni contenen respostes que faltin al text. No hi ha text llegible dins de les imatges, de manera que serveixen per a totes dues llengües.
 
+Les [instruccions completes i els arxius de les il·lustracions del pilot](biblioteca-de-les-coses-images.md) queden documentats per continuar-ne l’estil.
+
 ## Lectures del pilot
 
 | Codi | Proposta | Connexió | Autonomia |
@@ -36,3 +38,5 @@ Cada lectura nova té una escena específica per distingir-la a les targetes i p
 | L248 | Un tamboret més a la llista? | Valoració d’una donació, espai, reparació i ús | Aporta els criteris i les dades per formar una opinió |
 
 L’ordre de la taula és d’identificació, no de lectura obligatòria. Les lectures no són germanes d’una família: narren situacions diferents del mateix lloc.
+
+Les tres incorporacions tenen aproximadament 420–450 paraules, deu preguntes de tipus diversos, solucionari, fragments de suport i dues il·lustracions. La L246 és narrativa, la L247 instructiva i la L248 argumentativa. A la darrera, la Noa defensa la comprovació dels criteris i l’Adil presenta la proposta inicial: els papers d’observador i de persona que es precipita no han de quedar fixats en un sol personatge.

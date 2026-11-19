@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.45.2 · 19 de novembre del 2026
+
+Completem el primer univers amb la L248, «Un tamboret més a la llista?», una lectura argumentativa de 1r d’ESO inicial en català i castellà. Inclou dues il·lustracions, deu preguntes, solucionari i pistes revisades. «La biblioteca de les coses» ja agrupa quatre lectures independents; documentem la continuïtat dels personatges, les imatges i els criteris per ampliar-la.
+
 ## 1.45.1 · 19 de novembre del 2026
 
 Afegim la L247, «Una fitxa que no acusa», a l’univers de la biblioteca de les coses. Una lectura instructiva de 1r d’ESO inicial, en català i castellà, sobre registrar observacions sense convertir sospites en acusacions. Inclou dues il·lustracions, deu preguntes, vocabulari, solucionari i pistes revisades.

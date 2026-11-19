@@ -50,6 +50,8 @@ GitHub Pages serveix l’arrel de `main`. El fitxer `.nojekyll` permet servir di
 
 Abans de crear o relacionar lectures, consulta el [model editorial d’universos, famílies i recorreguts](docs/editorial-model.md). `universeIds` admet zero o diversos universos; `familyId`, una única família opcional. Les traduccions comparteixen obra i codi, mentre que les variants d’exigència d’una família tindran codis propis. El registre d’universos és a `data/universes.js`, i cada univers té una guia narrativa i visual a `docs/universes/`.
 
+El primer univers és [La biblioteca de les coses](docs/universes/biblioteca-de-les-coses.md), amb les L208 i L246–L248, de 1r d’ESO inicial i disponibles en català i castellà. `node tools/check-editorial.mjs` valida les relacions i els filtres; `node tools/check-universes-browser.cjs` comprova en local la navegació de l’univers, la composició de les noves fitxes i solucionaris i la generació de PDF.
+
 El catàleg s’exporta des de `data/readings.js` com una llista d’objectes JavaScript. Les sèries de 5è i 6è es troben a `data/readings-5-es*.js` i `data/readings-6-es*.js`, respectivament. Les lectures de 4t es troben a `data/readings-4-es.js`. Els filtres es deriven de les dades i el catàleg mostra les fitxes per tandes.
 
 - Assigna un `id` únic i estable a cada versió. Comparteix el `workId` i el `code` (per exemple, `L001`) entre les traduccions d’una mateixa lectura.
