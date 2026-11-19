@@ -6,6 +6,7 @@ import { icon } from './icons.js';
 import { closeDialog, openDialog } from './motion.js';
 import { exportWorksheetPages } from './worksheet.js';
 import { loadWorksheetFont } from './worksheet-fonts.js';
+import { trackFamilyActivity } from './analytics.js';
 
 export const familyComparisonMarkup = `
   <dialog class="site-dialog family-comparison-dialog" id="family-comparison-dialog" aria-labelledby="family-comparison-title" aria-describedby="family-comparison-description">
@@ -16,7 +17,7 @@ export const familyComparisonMarkup = `
         <button class="button" type="button" data-compare-jump="text">Vés al text</button>
         <button class="button" type="button" data-compare-jump="questions">Vés a les preguntes</button>
       </div>
-      <label class="family-comparison-solution" title="Manté el text i les preguntes al mateix punt aproximat en totes les variants."><input type="checkbox" role="switch" id="family-comparison-sync" checked> Scroll sincronitzat</label>
+      <label class="family-comparison-solution" title="Mou totes les variants la mateixa distància i manté alineats els salts de pàgina."><input type="checkbox" role="switch" id="family-comparison-sync" checked> Scroll sincronitzat</label>
       <label class="family-comparison-solution"><input type="checkbox" role="switch" id="family-comparison-solution"> Solucionari</label>
       <div class="family-comparison-navigation" role="group" aria-label="Navegació entre variants">
         <button class="button" type="button" data-compare-step="previous" aria-label="Variants anteriors">${icon('chevron-left')}</button>
@@ -50,31 +51,15 @@ export function mountFamilyComparison({ root, readings, getSettings, isOutsideCo
   let lastScrolled;
   const expectedScroll = new WeakMap();
 
-  function extent(body) {
-    const max = Math.max(0, body.scrollHeight - body.clientHeight);
-    const questions = body.querySelector('.worksheet-question-heading, .worksheet-question');
-    const boundary = questions ? Math.max(0, Math.min(max, body.scrollTop + questions.getBoundingClientRect().top - body.getBoundingClientRect().top - 12)) : max;
-    return { max, boundary };
-  }
-
-  function progress(body) {
-    const { max, boundary } = extent(body);
-    const questions = boundary < max && body.scrollTop >= boundary;
-    const start = questions ? boundary : 0;
-    const length = questions ? max - boundary : boundary;
-    return { questions, fraction: length > 0 ? Math.max(0, Math.min(1, (body.scrollTop - start) / length)) : 0 };
-  }
-
   function setScroll(body, top) {
     body.scrollTo({ top, behavior: 'instant' });
     expectedScroll.set(body, body.scrollTop);
   }
 
-  function align(position, source) {
+  function align(top, source) {
     for (const { body } of entries) {
       if (body === source) continue;
-      const { max, boundary } = extent(body);
-      setScroll(body, position.questions ? boundary + position.fraction * (max - boundary) : position.fraction * boundary);
+      setScroll(body, top);
     }
   }
 
@@ -92,36 +77,56 @@ export function mountFamilyComparison({ root, readings, getSettings, isOutsideCo
   }
 
   function fitPages() {
-    for (const body of rail.querySelectorAll('.family-comparison-body')) {
+    rail.dataset.linked = String(linked.checked);
+    const headings = [...rail.querySelectorAll('.family-comparison-column-heading')];
+    headings.forEach(heading => { heading.style.minHeight = ''; });
+    const headerHeight = Math.max(0, ...headings.map(heading => heading.getBoundingClientRect().height));
+    headings.forEach(heading => { heading.style.minHeight = `${headerHeight}px`; });
+    const bodies = [...rail.querySelectorAll('.family-comparison-body')];
+    const widths = bodies.map(body => {
       const style = getComputedStyle(body);
-      const width = body.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight);
-      body.style.setProperty('--preview-scale', String(Math.min(1, width / (210 * 96 / 25.4))));
+      return body.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight);
+    });
+    const scale = Math.min(1, ...widths.map(width => width / (210 * 96 / 25.4)));
+    for (const body of bodies) body.style.setProperty('--preview-scale', String(scale));
+    const maxPages = Math.max(0, ...bodies.map(body => body.querySelectorAll('.worksheet-slot').length));
+    for (const body of bodies) {
+      const sheets = body.querySelector('.family-comparison-pages');
+      const first = body.querySelector('.worksheet-slot');
+      if (!sheets || !first) continue;
+      const gap = parseFloat(getComputedStyle(sheets).rowGap) || 0;
+      sheets.style.minHeight = linked.checked ? `${maxPages * first.getBoundingClientRect().height + Math.max(0, maxPages - 1) * gap}px` : '';
     }
+    if (linked.checked && lastScrolled) align(lastScrolled.scrollTop, lastScrolled);
     updatePosition();
   }
 
   async function render() {
     const request = ++generation;
     const answerKey = solution.checked;
-    const anchor = lastScrolled && progress(lastScrolled);
+    const anchor = lastScrolled?.scrollTop;
     rail.setAttribute('aria-busy', 'true');
     status.textContent = t('Preparant la comparació…');
     status.hidden = false;
     try {
       await Promise.all([...new Set(entries.map(entry => entry.settings.font))].map(loadWorksheetFont));
       if (!dialog.open || request !== generation) return;
-      for (const { reading, settings, body } of entries) {
+      const prepared = entries.map(entry => ({ ...entry, pages: exportWorksheetPages(entry.reading, entry.settings, answerKey) }));
+      const maxPages = Math.max(...prepared.map(entry => entry.pages.length));
+      for (const { pages, body } of prepared) {
         const scrollTop = body.scrollTop;
-        const pages = exportWorksheetPages(reading, settings, answerKey);
-        body.replaceChildren(...pages.map(page => {
+        const sheets = element('div', 'family-comparison-pages');
+        sheets.append(...pages.map(page => {
           const slot = element('div', 'worksheet-slot');
           slot.append(page);
           return slot;
         }));
+        if (pages.length < maxPages) sheets.append(element('p', 'family-comparison-end', t('Final de la variant')));
+        body.replaceChildren(sheets);
         setScroll(body, scrollTop);
       }
       fitPages();
-      if (linked.checked && anchor) align(anchor);
+      if (linked.checked && anchor !== undefined) align(anchor);
       status.hidden = true;
     } catch {
       if (request === generation) status.textContent = t('No s’ha pogut preparar la comparació. Torna-ho a provar.');
@@ -146,16 +151,27 @@ export function mountFamilyComparison({ root, readings, getSettings, isOutsideCo
     step(event.key === 'ArrowLeft' ? -1 : 1);
   });
   dialog.querySelectorAll('[data-compare-jump]').forEach(button => button.addEventListener('click', () => {
-    for (const { body } of entries) {
+    const viewport = rail.getBoundingClientRect();
+    const visible = entries.filter(entry => {
+      const box = entry.column.getBoundingClientRect();
+      return box.left < viewport.right - box.width / 2 && box.right > viewport.left + box.width / 2;
+    });
+    const active = visible.find(entry => entry.body === lastScrolled) ?? visible[0] ?? entries[0];
+    if (!active) return;
+    const destination = body => {
       const target = button.dataset.compareJump === 'questions' && body.querySelector('.worksheet-question-heading, .worksheet-question');
-      const top = target ? body.scrollTop + target.getBoundingClientRect().top - body.getBoundingClientRect().top - 12 : 0;
-      setScroll(body, top);
+      return target ? body.scrollTop + target.getBoundingClientRect().top - body.getBoundingClientRect().top - 12 : 0;
+    };
+    if (linked.checked) { align(destination(active.body)); lastScrolled = active.body; return; }
+    for (const { body } of entries) {
+      setScroll(body, destination(body));
     }
   }));
   solution.addEventListener('change', render);
   linked.addEventListener('change', () => {
     const source = lastScrolled ?? entries[0]?.body;
-    if (linked.checked && source) align(progress(source), source);
+    fitPages();
+    if (linked.checked && source) align(source.scrollTop, source);
   });
   new ResizeObserver(fitPages).observe(rail);
   dialog.addEventListener('close', () => { generation++; rail.replaceChildren(); entries = []; lastScrolled = undefined; });
@@ -164,6 +180,7 @@ export function mountFamilyComparison({ root, readings, getSettings, isOutsideCo
     open(reading, answerKey = false) {
       const members = familyMembers(readings, reading);
       if (members.length < 2) return;
+      trackFamilyActivity(reading, 'compara');
       const family = familyById.get(reading.familyId);
       dialog.querySelector('#family-comparison-description').textContent = [family?.name[language()] ?? reading.title, labelFor('language', reading.language)].join(' · ');
       solution.checked = answerKey;
@@ -191,7 +208,7 @@ export function mountFamilyComparison({ root, readings, getSettings, isOutsideCo
           expectedScroll.delete(body);
           if (expected !== undefined && Math.abs(body.scrollTop - expected) < 1) return;
           lastScrolled = body;
-          if (linked.checked) align(progress(body), body);
+          if (linked.checked) align(body.scrollTop, body);
         }, { passive: true });
         if (member.id === reading.id) column.classList.add('is-current');
         column.append(header, body);

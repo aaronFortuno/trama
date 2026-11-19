@@ -1,5 +1,6 @@
 import { labels } from './catalog.js';
 import { readings } from './data/readings.js';
+import { familyById } from './data/families.js';
 
 const host = 'trama.ortogra.fi';
 const scriptURL = 'https://maquestria.tail72bc84.ts.net:8443/script.js';
@@ -15,6 +16,12 @@ const pendingEvents = [];
 // Only fixed vocabulary and coarse counts may leave the browser. Never pass
 // settings, DOM text, filenames, collection/template IDs or user-written text.
 const counts = ['0', '1', '2-5', '6-15', '16-50', '51+'];
+const catalogFields = {
+  nivell: Object.keys(labels.level), dificultat: Object.keys(labels.difficulty), llengua: Object.keys(labels.language),
+  extensio: Object.keys(labels.length), tema: Object.keys(labels.theme), tipus_text: Object.keys(labels.genre),
+  univers: Object.keys(labels.universe), variants: 'boolean', abast: ['cataleg', 'colleccio', 'seleccio'],
+  origen: ['selector', 'lectura'], resultats: counts,
+};
 const eventRules = {
   obre_lectura: { reading: true, fields: { origen: ['cataleg', 'anterior', 'seguent', 'idioma', 'familia', 'enllac'], colleccio: 'boolean', maquetat: 'boolean' } },
   genera_document: { reading: true, required: ['abast', 'format', 'contingut', 'quantitat'], fields: {
@@ -30,7 +37,11 @@ const eventRules = {
   colleccio: { required: ['accio'], fields: { accio: ['selecciona', 'crea', 'afegeix', 'obre', 'reordena', 'retira', 'elimina'], quantitat: counts } },
   copia_configuracio: { required: ['accio'], fields: { accio: ['exporta', 'importa'] } },
   restableix_maquetat: { required: ['abast'], fields: { abast: ['fitxa', 'tots'] } },
-  cerca_cataleg: { required: ['tipus', 'resultats'], fields: { tipus: ['codi', 'text'], resultats: counts } },
+  cerca_cataleg: { required: ['tipus', 'resultats'], fields: { ...catalogFields, tipus: ['codi', 'text'] } },
+  familia: { required: ['accio', 'familia', 'llengua'], fields: {
+    accio: ['obre', 'compara'], familia: [...familyById.keys()], llengua: Object.keys(labels.language),
+    origen: ['cataleg', 'anterior', 'seguent', 'visor'], quantitat: counts,
+  } },
   neteja_filtres: { required: ['filtre'], fields: { filtre: ['tots', 'level', 'difficulty', 'theme', 'genre', 'length', 'universe', 'family'] } },
   canvia_idioma: { required: ['llengua'], fields: { llengua: ['ca', 'es'] } },
 };
@@ -45,24 +56,31 @@ function readingData(reading) {
   return entry ? { codi: entry.code, llengua: entry.language } : {};
 }
 
+function allowedFields(data, fields) {
+  const clean = {};
+  for (const [key, allowed] of Object.entries(fields)) {
+    if (allowed === 'boolean' ? typeof data[key] === 'boolean' : allowed.includes(data[key])) clean[key] = data[key];
+  }
+  return clean;
+}
+
 export function sanitizeAnalyticsEvent(name, data = {}) {
   if (!data || typeof data !== 'object' || Array.isArray(data)) data = {};
   if (name === 'aplica_filtre') {
     if (!knownFilter(data.filtre, data.valor)) return false;
     const selection = { filtre: data.filtre, valor: data.valor };
-    if (data.filtre === 'length' && knownFilter('level', data.nivell)) selection.nivell = data.nivell;
-    return { name, data: selection };
+    return { name, data: { ...selection, ...allowedFields(data, catalogFields) } };
   }
   const rule = Object.hasOwn(eventRules, name) && eventRules[name];
   if (!rule) return false;
-  const clean = {};
-  for (const [key, allowed] of Object.entries(rule.fields)) {
-    if (allowed === 'boolean' ? typeof data[key] === 'boolean' : allowed.includes(data[key])) clean[key] = data[key];
-  }
+  const clean = allowedFields(data, rule.fields);
   if (rule.required?.some(key => !Object.hasOwn(clean, key))) return false;
   if (rule.reading) {
     const entry = publicVersions.get(data.codi + ':' + data.llengua);
-    if (entry) Object.assign(clean, { codi: entry.code, llengua: entry.language, nivell: entry.level, dificultat: entry.difficulty });
+    if (entry) {
+      Object.assign(clean, { codi: entry.code, llengua: entry.language, nivell: entry.level, dificultat: entry.difficulty });
+      if (familyById.has(entry.familyId)) clean.familia = entry.familyId;
+    }
     else if (name === 'obre_lectura' && data.llengua === undefined && publicCodes.has(data.codi)) clean.codi = data.codi;
   }
   return Object.keys(clean).length ? { name, data: clean } : { name };
@@ -155,8 +173,16 @@ export function trackReadingOpened(reading, context = {}) {
   track('obre_lectura', { ...context, ...readingData(reading) });
 }
 
-export function trackFilterApplied(filtre, valor, nivell) {
-  track('aplica_filtre', { filtre, valor, nivell });
+export function trackFilterApplied(filtre, valor, context = {}) {
+  const data = typeof context === 'string' ? { nivell: context } : context;
+  track('aplica_filtre', { ...data, filtre, valor, ...(Number.isInteger(data.resultats) ? { resultats: countBucket(data.resultats) } : {}) });
+}
+
+export function trackFamilyActivity(reading, accio, origen = 'visor') {
+  const entry = !reading?.personal && publicIds.get(reading?.id);
+  if (!entry || !familyById.has(entry.familyId)) return;
+  const quantity = readings.filter(item => item.familyId === entry.familyId && item.language === entry.language).length;
+  track('familia', { accio, familia: entry.familyId, llengua: entry.language, origen, quantitat: countBucket(quantity) });
 }
 
 export function trackFeature(name, data) { track(name, data); }

@@ -19,7 +19,7 @@
 .close-button { width: 32px; min-height: 32px; flex: none; padding: 0; border-color: transparent; background: transparent; }
 .close-button .ui-icon { width: 18px; height: 18px; }
 .about-dialog, .release-dialog, .batch-dialog, .help-dialog { padding: 24px; }
-.about-dialog { width: min(780px, calc(100% - 32px)); }
+.about-dialog { width: min(980px, calc(100% - 32px)); }
 .help-dialog { width: min(780px, calc(100% - 32px)); }
 .release-dialog { width: min(650px, calc(100% - 32px)); }
 .batch-dialog { width: min(620px, calc(100% - 32px)); }
@@ -47,11 +47,15 @@
 .copied-icon, .is-copied .copy-icon { display: none; }
 .is-copied .copied-icon { display: block; }
 .lightning-details .copy-status { min-height: 1.2em; margin: 3px 0 0; color: var(--green); font-size: .7rem; }
-.about-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--line); }
-.project-resources:first-child { padding-right: 24px; border-right: 1px solid var(--line); }
+.about-layout { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 24px; }
+.about-layout > section { min-width: 0; }
+.about-layout > section:nth-child(even) { padding-left: 24px; border-left: 1px solid var(--line); }
+.about-layout > section:nth-child(n+3) { padding-top: 18px; border-top: 1px solid var(--line); }
+.about-layout .lightning-qr, .about-layout .author-portrait { width: 96px; height: 96px; }
+.about-layout .lightning-qr { margin-left: 16px; }
 .project-resources h3 { margin: 0 0 9px; font-size: .82rem; }
 .project-resources p { margin: 0 0 7px; }
-.project-links { display: grid; gap: 5px; margin: 0; padding-left: 1.1rem; }
+.project-links { display: grid; gap: 5px; margin: 0; padding-left: 1.1rem; font-size: .8rem; line-height: 1.55; }
 .author-portrait { float: left; width: 128px; height: 128px; margin: 0 16px 8px 0; border: 1px solid var(--line); border-radius: 6px; object-fit: cover; }
 
 .release-heading { display: flex; flex: 1; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 6px 16px; }
@@ -119,6 +123,9 @@
 .family-comparison-column-heading p { grid-column: 1; }
 .family-comparison-body { display: grid; justify-items: center; align-content: start; gap: 14px; flex: 1; min-height: 0; padding: 12px; overflow-y: auto; overflow-x: hidden; overscroll-behavior: contain; scrollbar-gutter: stable; }
 .family-comparison-body:focus-visible { outline-offset: -3px; }
+.family-comparison-pages { display: grid; align-content: start; gap: 14px; }
+.family-comparison-end { margin: 0; padding: 12px; color: var(--muted); text-align: center; font-size: .78rem; }
+.family-comparison-rail[data-linked="false"] .family-comparison-end { display: none; }
 @media (max-width: 899px) {
   .family-comparison-rail { grid-auto-columns: 100%; }
 }
@@ -217,9 +224,9 @@
 @media (max-width: 640px) {
   .about-dialog, .release-dialog, .batch-dialog, .help-dialog { padding: 18px; }
   .help-topics { grid-template-columns: minmax(0, 1fr); gap: 12px; }
-  .about-grid { grid-template-columns: minmax(0, 1fr); gap: 12px; }
-  .project-resources:first-child { padding: 0; border: 0; }
-  .project-resources + .project-resources { padding-top: 14px; border-top: 1px solid var(--line); }
+  .about-layout { grid-template-columns: minmax(0, 1fr); gap: 14px; }
+  .about-layout > section:nth-child(even) { padding-left: 0; border-left: 0; }
+  .about-layout > section + section { padding-top: 14px; border-top: 1px solid var(--line); }
   .lightning-qr, .author-portrait { width: 96px; height: 96px; }
   .lightning-qr { margin-left: 14px; }
   .dialog-heading h2 { font-size: 1.35rem; }

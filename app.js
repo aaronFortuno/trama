@@ -5,7 +5,7 @@ import { animateRefresh, closeDialog, mountDialogs, openDialog } from './motion.
 import { mountSelectMenus, syncSelects } from './select-menu.js';
 import { bindTranslations, language, setLanguage, t } from './i18n.js';
 import { mountActionMenu } from './action-menu.js';
-import { countBucket, startAnalytics, trackFeature, trackFilterApplied, trackReadingOpened } from './analytics.js';
+import { countBucket, startAnalytics, trackFamilyActivity, trackFeature, trackFilterApplied, trackReadingOpened } from './analytics.js';
 import { listPersonalReadings, readingStorageKey } from './reading-files.js';
 import { mountBatchDownload } from './batch-download.js';
 import { listCollections, saveCollectionEntries } from './collections.js';
@@ -74,6 +74,7 @@ const catalog = mountCatalog({
     .map(([key, value]) => [key, ['quantitat', 'resultats'].includes(key) ? countBucket(value) : value]))),
   onSaveCollection: saveCollection,
   getSettings: (reading, collectionId) => studio.previewSettings(reading, collectionId),
+  onFamilyOpened: (reading, origin) => trackFamilyActivity(reading, 'obre', origin),
 });
 const studio = mountStudio({
   root: studioView,

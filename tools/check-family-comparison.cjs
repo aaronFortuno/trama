@@ -72,6 +72,15 @@ const base = 'http://127.0.0.1:4202/';
       const body = document.querySelector('.family-comparison-body');
       return body.scrollTop > 0 && body.scrollTop < body.scrollHeight - body.clientHeight - 1;
     });
+    const alignment = await dialog.locator('.family-comparison-body').evaluateAll(bodies => bodies.map(body => ({
+      scroll: body.scrollTop, width: body.querySelector('.worksheet-page').getBoundingClientRect().width,
+      height: body.querySelector('.worksheet-page').getBoundingClientRect().height,
+      pageBottom: body.querySelector('.worksheet-slot').getBoundingClientRect().bottom,
+      maxScroll: body.scrollHeight - body.clientHeight,
+    })));
+    assert(Math.max(...alignment.map(item => item.scroll)) - Math.min(...alignment.map(item => item.scroll)) < 1, JSON.stringify(alignment));
+    for (const key of ['width', 'height', 'pageBottom', 'maxScroll']) assert(Math.max(...alignment.map(item => item[key])) - Math.min(...alignment.map(item => item[key])) < 1, key + ': ' + JSON.stringify(alignment));
+    if (process.env.TRAMA_SCREENSHOTS) await page.screenshot({ path: process.env.TRAMA_SCREENSHOTS + '/trama-family-comparison-aligned.png' });
     const linkedTop = await dialog.locator('.family-comparison-body').nth(1).evaluate(node => node.scrollTop);
     await page.locator('#family-comparison-sync').uncheck();
     await dialog.locator('.family-comparison-body').first().evaluate(node => { node.scrollTop = 0; });

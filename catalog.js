@@ -134,7 +134,7 @@ function setFacet(field, value) {
   else field.value = value;
 }
 
-export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActivity, onSaveCollection, getSettings }) {
+export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActivity, onSaveCollection, getSettings, onFamilyOpened }) {
   let catalog = indexCatalog(readings);
   for (let index = catalog.length - 1; index > 0; index -= 1) {
     const other = Math.floor(Math.random() * (index + 1));
@@ -282,7 +282,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     field.addEventListener('change', () => {
       refresh();
       const value = facetValue(field);
-      if (value) onFilterApplied?.(field.dataset.facet, value, levelField.value);
+      if (value) onFilterApplied?.(field.dataset.facet, value, analyticsContext());
       else onActivity?.('neteja_filtres', { filtre: field.dataset.facet });
     });
     if (field.type === 'checkbox') continue;
@@ -305,7 +305,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     languagePreference = languageField.value;
     savePreference(catalogLanguageKey, languagePreference);
     refresh();
-    onFilterApplied?.('language', languagePreference, levelField.value);
+    onFilterApplied?.('language', languagePreference, analyticsContext());
   });
 
   function openFamily(reading, origin = 'cataleg') {
@@ -349,6 +349,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
       return button;
     }));
     openDialog(dialog);
+    onFamilyOpened?.(reading, origin);
     dialog.querySelector('.dialog-scroll').scrollTop = 0;
     dialog.querySelector('#family-title').focus({ preventScroll: true });
   }
@@ -519,6 +520,16 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     return Object.fromEntries(fields.map(field => [field.dataset.facet, facetValue(field)]));
   }
 
+  function analyticsContext(origen = 'selector') {
+    const facets = selectedFacets();
+    return {
+      nivell: facets.level, dificultat: facets.difficulty, llengua: facets.language,
+      extensio: facets.length, tema: facets.theme, tipus_text: facets.genre, univers: facets.universe,
+      variants: Boolean(facets.family), abast: selecting ? 'seleccio' : activeCollection ? 'colleccio' : 'cataleg',
+      origen, resultats: selecting || activeCollection ? orderedMatches.length : groupFamilyCards(orderedMatches).length,
+    };
+  }
+
   function refresh() {
     gestures?.close();
     limit = firstBatchSize;
@@ -638,7 +649,8 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
       const query = search.value.trim();
       if (root.hidden || query.length < 2 || query === lastTrackedSearch) return;
       lastTrackedSearch = query;
-      onActivity?.('cerca_cataleg', { tipus: /^L\d+[A-Z]?$/i.test(query) ? 'codi' : 'text', resultats: selecting || activeCollection ? orderedMatches.length : groupFamilyCards(orderedMatches).length });
+      const { origen, ...context } = analyticsContext();
+      onActivity?.('cerca_cataleg', { ...context, tipus: /^L\d+[A-Z]?$/i.test(query) ? 'codi' : 'text' });
     }, 800);
   });
   reset.addEventListener('click', event => { event.stopPropagation(); clear(); });
@@ -794,7 +806,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
       }
       root.querySelector('#filter-universe').value = id;
       refresh();
-      onFilterApplied?.('universe', id);
+      onFilterApplied?.('universe', id, analyticsContext('lectura'));
     },
     translate() {
       reset.setAttribute('aria-label', t('Neteja la cerca i els filtres'));

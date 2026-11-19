@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.48 · 19 de novembre del 2026
+
+Ampliem Umami amb context de curs, dificultat, llengua, univers, variants i resultats per a cerques i filtres; distingim les obertures i comparacions de famílies públiques. Reorganitzem el V4V amb presentació i autor a dalt, i privacitat/Umami i fonts obertes a baix. Corregim l’scroll del comparador: les pàgines comparteixen escala i desplaçament, amb salts alineats encara que les variants tinguin diferent nombre de fulls. No s’envien textos de cerca ni dades personals.
+
 ## 1.47 · 19 de novembre del 2026
 
 Cada família compta com una proposta al catàleg i als números dels filtres. Substituïm el desplegable de famílies pel checkbox «Només lectures amb variants». En obrir una família, la tria mostra miniatures reals de les primeres pàgines amb el maquetat propi de cada variant, el curs i la dificultat. Els filtres cerquen en les variants i destaquem les que hi coincideixen. La selecció, les col·leccions i la impressió continuen treballant amb fitxes concretes.

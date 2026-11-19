@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { countBucket, sanitizeAnalyticsEvent, startAnalytics, trackFeature, trackReadingOpened, trackReadingFeature, sendReadingReport } from '../analytics.js';
+import { countBucket, sanitizeAnalyticsEvent, startAnalytics, trackFamilyActivity, trackFeature, trackReadingOpened, trackReadingFeature, sendReadingReport } from '../analytics.js';
 import { readings } from '../data/readings.js';
 
 const canary = 'PRIVATE-school-code-search-collection-filename';
@@ -16,6 +16,17 @@ assert.deepEqual(sanitizeAnalyticsEvent('aplica_filtre', { ...dirty, filtre: 'le
 });
 assert.deepEqual(sanitizeAnalyticsEvent('aplica_filtre', { filtre: 'length', valor: 'long', nivell: canary }), {
   name: 'aplica_filtre', data: { filtre: 'length', valor: 'long' },
+});
+const catalogContext = { nivell: '6-primary', dificultat: 'advanced', llengua: 'es', extensio: 'long', variants: true, univers: 'biblioteca-de-les-coses', abast: 'cataleg', origen: 'selector', resultats: '0' };
+assert.deepEqual(sanitizeAnalyticsEvent('aplica_filtre', { ...dirty, ...catalogContext, filtre: 'difficulty', valor: 'advanced' }), {
+  name: 'aplica_filtre', data: { filtre: 'difficulty', valor: 'advanced', ...catalogContext },
+});
+assert.deepEqual(sanitizeAnalyticsEvent('aplica_filtre', { filtre: 'universe', valor: 'biblioteca-de-les-coses', nivell: canary, univers: canary, tema: canary, llengua: canary, abast: canary, resultats: canary }), {
+  name: 'aplica_filtre', data: { filtre: 'universe', valor: 'biblioteca-de-les-coses' },
+});
+assert.equal(sanitizeAnalyticsEvent('familia', { accio: 'obre', familia: canary, llengua: 'es' }), false);
+assert.deepEqual(sanitizeAnalyticsEvent('familia', { ...dirty, accio: 'compara', familia: 'biblioteca-objectes', llengua: 'es', origen: 'visor' }), {
+  name: 'familia', data: { accio: 'compara', familia: 'biblioteca-objectes', llengua: 'es', origen: 'visor' },
 });
 for (const [input, output] of [[0, '0'], [1, '1'], [2, '2-5'], [5, '2-5'], [6, '6-15'], [15, '6-15'], [16, '16-50'], [50, '16-50'], [51, '51+'], [490, '51+'], [-1, undefined], [NaN, undefined], ['5', undefined]]) {
   assert.equal(countBucket(input), output);
@@ -86,6 +97,15 @@ trackReadingOpened({ ...first, personal: true }, { origen: 'cataleg' });
 assert.deepEqual(sent.at(-1).data, { origen: 'cataleg' });
 trackReadingFeature('genera_document', { ...first, personal: true }, samples.genera_document);
 assert(!sent.at(-1).data.codi);
+const familyReading = readings.find(reading => reading.familyId);
+trackFamilyActivity(familyReading, 'obre', 'cataleg');
+assert.equal(sent.at(-1).name, 'familia');
+assert.equal(sent.at(-1).data.familia, familyReading.familyId);
+const familyEvents = sent.length;
+trackFamilyActivity({ ...familyReading, personal: true }, 'compara');
+assert.equal(sent.length, familyEvents, 'Personal family content must not be tracked');
+const familyOpening = sanitizeAnalyticsEvent('obre_lectura', { codi: familyReading.code, llengua: familyReading.language, familia: canary });
+assert.equal(familyOpening.data.familia, familyReading.familyId, 'Family metadata is derived from the public catalogue');
 navigator.globalPrivacyControl = true;
 const previous = sent.length;
 trackFeature('plantilla', samples.plantilla);
