@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.49.1 · 19 de novembre del 2026
+
+Afegim reforç i ampliació per a les L005, L006, L008 i L031, en català i castellà: aqüeductes, identificació de balenes, disseny experimental i mosaics. La primera ampliació arriba a vuit famílies noves, amb setze obres adaptades i trenta-dues versions lingüístiques. Cada variant té preguntes, solucions, línies i marques de resposta pròpies.
+
 ## 1.49 · 19 de novembre del 2026
 
 Iniciem l’ampliació de famílies amb les L001–L004: cadascuna conserva l’original i incorpora una variant de reforç A i una d’ampliació B, en català i castellà. Són vuit obres noves, setze versions lingüístiques, amb preguntes, solucionari, línies de resposta i fragments ressaltats propis. Compartim les il·lustracions coherents amb cada història i mantenim els enllaços i maquetats existents. Documentem una primera selecció de vint lectures per continuar aquesta gradació.
