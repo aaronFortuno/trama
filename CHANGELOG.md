@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.45.1 · 19 de novembre del 2026
+
+Afegim la L247, «Una fitxa que no acusa», a l’univers de la biblioteca de les coses. Una lectura instructiva de 1r d’ESO inicial, en català i castellà, sobre registrar observacions sense convertir sospites en acusacions. Inclou dues il·lustracions, deu preguntes, vocabulari, solucionari i pistes revisades.
+
 ## 1.45 · 19 de novembre del 2026
 
 Estrenem els universos: un filtre nou agrupa lectures independents que comparteixen un món, amb accés també des del visor. «La biblioteca de les coses» neix de la L208 i incorpora la L246, en català i castellà, amb dues il·lustracions i deu preguntes amb solucionari i pistes. Documentem les decisions d’universos, famílies, itineraris i diàlegs i preparem els camps editorials sense confondre traduccions amb variants d’exigència.
