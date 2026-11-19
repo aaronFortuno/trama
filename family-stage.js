@@ -48,8 +48,17 @@ export function mountFamilyStage({ root, readings, getSettings, isOutsideCollect
       stage.classList.toggle('has-family', enabled);
       window.classList.toggle('has-family', enabled);
       siblings.replaceChildren();
-      if (!enabled) { from = undefined; return; }
+      if (!enabled) {
+        window.classList.remove('has-family-previous', 'has-family-next');
+        from = undefined;
+        return;
+      }
       const current = members.findIndex(member => member.id === reading.id);
+      const hasPrevious = current > 0;
+      const hasNext = current < members.length - 1;
+      window.classList.toggle('has-family-previous', enabled && hasPrevious);
+      window.classList.toggle('has-family-next', enabled && hasNext);
+      scene.dataset.compareSide = hasPrevious ? 'previous' : 'next';
       scene.querySelector('#family-stage-position').textContent = t('Variant {current} de {total}', { current: current + 1, total: members.length });
       for (const [side, member] of [['previous', members[current - 1]], ['next', members[current + 1]]]) {
         if (!member) continue;

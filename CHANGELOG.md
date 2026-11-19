@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.48.1 · 19 de novembre del 2026
+
+Fem més grans els previews veïns de les famílies i situem «Compara» entre els fulls, sense tapar la lectura. Si només hi ha una variant veïna, desplacem el full principal per donar-li espai; amb dues, el mantenim centrat. El comparador s’obre amb la variant actual i l’anterior en gradació, o la següent si és la primera; en mòbil mostra directament la variant oberta.
+
 ## 1.48 · 19 de novembre del 2026
 
 Ampliem Umami amb context de curs, dificultat, llengua, univers, variants i resultats per a cerques i filtres; distingim les obertures i comparacions de famílies públiques. Reorganitzem el V4V amb presentació i autor a dalt, i privacitat/Umami i fonts obertes a baix. Corregim l’scroll del comparador: les pàgines comparteixen escala i desplaçament, amb salts alineats encara que les variants tinguin diferent nombre de fulls. No s’envien textos de cerca ni dades personals.

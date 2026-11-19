@@ -216,8 +216,15 @@ export function mountFamilyComparison({ root, readings, getSettings, isOutsideCo
       });
       rail.replaceChildren(...entries.map(entry => entry.column));
       openDialog(dialog);
-      rail.scrollLeft = 0;
       fitPages();
+      const current = members.findIndex(member => member.id === reading.id);
+      const gap = parseFloat(getComputedStyle(rail).columnGap) || 0;
+      const columnWidth = entries[0].column.getBoundingClientRect().width;
+      const visible = Math.max(1, Math.round((rail.clientWidth + gap) / (columnWidth + gap)));
+      // Keep the open variant visible, with the preceding degree on its left.
+      rail.scrollTo({ left: Math.max(0, current - visible + 1) * (columnWidth + gap), behavior: 'instant' });
+      lastScrolled = entries[current].body;
+      updatePosition();
       dialog.querySelector('#family-comparison-title').focus({ preventScroll: true });
       render();
     },
