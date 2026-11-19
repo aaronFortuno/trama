@@ -5,7 +5,7 @@ import { readings } from '../data/readings.js';
 const canary = 'PRIVATE-school-code-search-collection-filename';
 const first = readings[0];
 const dirty = { url: canary, referrer: canary, title: canary, name: canary, settings: { classroomCode: canary }, collectionId: canary };
-const metadata = { codi: first.code, llengua: first.language, nivell: first.level, dificultat: first.difficulty };
+const metadata = { codi: first.code, llengua: first.language, nivell: first.level, dificultat: first.difficulty, ...(first.familyId ? { familia: first.familyId } : {}) };
 const opened = sanitizeAnalyticsEvent('obre_lectura', { ...dirty, codi: first.code, llengua: first.language, nivell: canary, dificultat: canary });
 assert.deepEqual(opened, { name: 'obre_lectura', data: metadata });
 assert.deepEqual(sanitizeAnalyticsEvent('obre_lectura', { codi: canary, llengua: canary }), { name: 'obre_lectura' });

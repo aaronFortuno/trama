@@ -21,7 +21,7 @@ export function buildFamilyAdaptations(baseReadings, adaptations, families) {
     const annotations = questions.filter(question => question.type === 'vocabulary').flatMap(question => {
       const term = question.prompt.match(/«([^»]+)»/)?.[1];
       const paragraph = term && paragraphs.findIndex(text => text.includes(term));
-      return term && paragraph >= 0 ? [{ paragraph: paragraph + 1, text: term, questionId: question.id }] : [];
+      return term && paragraph >= 0 ? [{ paragraph: paragraph + 1, text: term, occurrence: 1, questionId: question.id }] : [];
     });
     return {
       ...base, id: `${base.workId}-${edition.suffix.toLowerCase()}-${language}`,

@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.49.4 · 20 de novembre del 2026
+
+Completem vint famílies noves amb les L180, L202, L203 i L205: notícia esportiva, enllumenat nocturn, transmissió de cançons i un torneig d’escacs. La tanda incorpora quaranta obres adaptades i vuitanta versions en català i castellà, amb reforç, ampliació, solucionaris, línies ajustades i marques al text. Amb el pilot previ hi ha vint-i-una famílies de tres graus. El catàleg arriba a 290 obres concretes i 580 versions lingüístiques; les famílies continuen comptant com una sola proposta. Afegim la taula de gradació i les comprovacions de tota la tanda, inclòs el subratllat de vocabulari que apareix més d’una vegada en un paràgraf.
+
 ## 1.49.3 · 20 de novembre del 2026
 
 Les L065, L077, L175 i L179 incorporen reforç i ampliació en català i castellà: trajectes i comparació de dades, usos de la pista, un diari d’observatori i una ressenya crítica. Arribem a setze famílies noves, trenta-dues obres adaptades i seixanta-quatre versions lingüístiques, conservant els originals.

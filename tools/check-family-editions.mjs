@@ -8,6 +8,7 @@ import { annotationRange } from '../reading-annotations.js';
 
 const rank = reading => ['3-primary', '4-primary', '5-primary', '6-primary', '1-secondary'].indexOf(reading.level) * 3 + ['initial', 'intermediate', 'advanced'].indexOf(reading.difficulty);
 const sources = [...new Set(familyAdaptations.map(edition => edition.source))];
+if (process.argv.includes('--complete')) assert.equal(sources.length, familyEditionPlan.length, 'All planned families must be complete');
 assert.equal(new Set(readings.map(reading => reading.id)).size, readings.length);
 for (const source of sources) {
   const plan = familyEditionPlan.find(family => family.code === source);
@@ -33,6 +34,7 @@ for (const source of sources) {
       }
       if (wordCount(reading) > 350) assert(reading.images.length >= 2);
       assert.equal(new Set(reading.questions.map(question => question.id)).size, reading.questions.length);
+      for (const annotation of reading.annotations) assert(annotationRange(reading.paragraphs[annotation.paragraph - 1], annotation), `${reading.code}-${language}: ambiguous vocabulary underline`);
       for (const question of reading.questions) {
         assert(question.prompt && question.answer && question.lines >= 1 && question.lines <= 8);
         assert(Object.hasOwn(labels.question, question.type));

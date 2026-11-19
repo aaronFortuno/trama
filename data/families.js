@@ -1,7 +1,9 @@
 import { familyEditionPlan } from './family-edition-plan.js';
 import { familyAdaptations } from './family-adaptations.js';
 
-const completedSources = new Set(familyAdaptations.map(edition => edition.source));
+const completedSources = new Set(familyEditionPlan.filter(family => ['A', 'B'].every(suffix =>
+  familyAdaptations.some(edition => edition.source === family.code && edition.suffix === suffix)
+)).map(family => family.code));
 
 export const families = [{
   id: 'biblioteca-objectes',
