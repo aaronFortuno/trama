@@ -9,21 +9,21 @@ import { loadWorksheetFont } from './worksheet-fonts.js';
 
 export const familyComparisonMarkup = `
   <dialog class="site-dialog family-comparison-dialog" id="family-comparison-dialog" aria-labelledby="family-comparison-title" aria-describedby="family-comparison-description">
-    <div class="dialog-heading">
-      <div><h2 id="family-comparison-title" tabindex="-1" data-dialog-focus>Compara les variants</h2><p id="family-comparison-description"></p></div>
-      <button class="button close-button" type="button" data-close-dialog aria-label="Tanca la comparació">${icon('x')}</button>
-    </div>
+    <h2 class="visually-hidden" id="family-comparison-title" tabindex="-1" data-dialog-focus>Compara les variants</h2>
+    <p class="visually-hidden" id="family-comparison-description"></p>
     <div class="family-comparison-tools">
       <div class="family-comparison-jumps" role="group" aria-label="Seccions de les lectures">
         <button class="button" type="button" data-compare-jump="text">Vés al text</button>
         <button class="button" type="button" data-compare-jump="questions">Vés a les preguntes</button>
       </div>
+      <label class="family-comparison-solution" title="Manté el text i les preguntes al mateix punt aproximat en totes les variants."><input type="checkbox" role="switch" id="family-comparison-sync" checked> Scroll sincronitzat</label>
       <label class="family-comparison-solution"><input type="checkbox" role="switch" id="family-comparison-solution"> Solucionari</label>
       <div class="family-comparison-navigation" role="group" aria-label="Navegació entre variants">
         <button class="button" type="button" data-compare-step="previous" aria-label="Variants anteriors">${icon('chevron-left')}</button>
         <output id="family-comparison-position" aria-live="polite"></output>
         <button class="button" type="button" data-compare-step="next" aria-label="Variants següents">${icon('chevron-right')}</button>
       </div>
+      <button class="button close-button" type="button" data-close-dialog aria-label="Tanca la comparació">${icon('x')}</button>
     </div>
     <p class="family-comparison-status" id="family-comparison-status" role="status" hidden></p>
     <div class="family-comparison-rail" id="family-comparison-rail" tabindex="0" role="region" aria-label="Fitxes ordenades per gradació"></div>
@@ -40,12 +40,43 @@ export function mountFamilyComparison({ root, readings, getSettings, isOutsideCo
   const dialog = root.querySelector('#family-comparison-dialog');
   const rail = dialog.querySelector('#family-comparison-rail');
   const solution = dialog.querySelector('#family-comparison-solution');
+  const linked = dialog.querySelector('#family-comparison-sync');
   const position = dialog.querySelector('#family-comparison-position');
   const status = dialog.querySelector('#family-comparison-status');
   const previous = dialog.querySelector('[data-compare-step="previous"]');
   const next = dialog.querySelector('[data-compare-step="next"]');
   let entries = [];
   let generation = 0;
+  let lastScrolled;
+  const expectedScroll = new WeakMap();
+
+  function extent(body) {
+    const max = Math.max(0, body.scrollHeight - body.clientHeight);
+    const questions = body.querySelector('.worksheet-question-heading, .worksheet-question');
+    const boundary = questions ? Math.max(0, Math.min(max, body.scrollTop + questions.getBoundingClientRect().top - body.getBoundingClientRect().top - 12)) : max;
+    return { max, boundary };
+  }
+
+  function progress(body) {
+    const { max, boundary } = extent(body);
+    const questions = boundary < max && body.scrollTop >= boundary;
+    const start = questions ? boundary : 0;
+    const length = questions ? max - boundary : boundary;
+    return { questions, fraction: length > 0 ? Math.max(0, Math.min(1, (body.scrollTop - start) / length)) : 0 };
+  }
+
+  function setScroll(body, top) {
+    body.scrollTo({ top, behavior: 'instant' });
+    expectedScroll.set(body, body.scrollTop);
+  }
+
+  function align(position, source) {
+    for (const { body } of entries) {
+      if (body === source) continue;
+      const { max, boundary } = extent(body);
+      setScroll(body, position.questions ? boundary + position.fraction * (max - boundary) : position.fraction * boundary);
+    }
+  }
 
   function updatePosition() {
     const firstColumn = rail.firstElementChild;
@@ -72,6 +103,7 @@ export function mountFamilyComparison({ root, readings, getSettings, isOutsideCo
   async function render() {
     const request = ++generation;
     const answerKey = solution.checked;
+    const anchor = lastScrolled && progress(lastScrolled);
     rail.setAttribute('aria-busy', 'true');
     status.textContent = t('Preparant la comparació…');
     status.hidden = false;
@@ -86,9 +118,10 @@ export function mountFamilyComparison({ root, readings, getSettings, isOutsideCo
           slot.append(page);
           return slot;
         }));
-        body.scrollTop = scrollTop;
+        setScroll(body, scrollTop);
       }
       fitPages();
+      if (linked.checked && anchor) align(anchor);
       status.hidden = true;
     } catch {
       if (request === generation) status.textContent = t('No s’ha pogut preparar la comparació. Torna-ho a provar.');
@@ -116,12 +149,16 @@ export function mountFamilyComparison({ root, readings, getSettings, isOutsideCo
     for (const { body } of entries) {
       const target = button.dataset.compareJump === 'questions' && body.querySelector('.worksheet-question-heading, .worksheet-question');
       const top = target ? body.scrollTop + target.getBoundingClientRect().top - body.getBoundingClientRect().top - 12 : 0;
-      body.scrollTo({ top, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+      setScroll(body, top);
     }
   }));
   solution.addEventListener('change', render);
+  linked.addEventListener('change', () => {
+    const source = lastScrolled ?? entries[0]?.body;
+    if (linked.checked && source) align(progress(source), source);
+  });
   new ResizeObserver(fitPages).observe(rail);
-  dialog.addEventListener('close', () => { generation++; rail.replaceChildren(); entries = []; });
+  dialog.addEventListener('close', () => { generation++; rail.replaceChildren(); entries = []; lastScrolled = undefined; });
 
   return {
     open(reading, answerKey = false) {
@@ -130,6 +167,8 @@ export function mountFamilyComparison({ root, readings, getSettings, isOutsideCo
       const family = familyById.get(reading.familyId);
       dialog.querySelector('#family-comparison-description').textContent = [family?.name[language()] ?? reading.title, labelFor('language', reading.language)].join(' · ');
       solution.checked = answerKey;
+      linked.checked = true;
+      lastScrolled = undefined;
       entries = members.map(member => {
         const settings = getSettings(member);
         const column = element('section', 'family-comparison-column');
@@ -147,6 +186,13 @@ export function mountFamilyComparison({ root, readings, getSettings, isOutsideCo
         body.tabIndex = 0;
         body.setAttribute('role', 'region');
         body.setAttribute('aria-label', `${member.code} · ${labelFor('level', member.level)}`);
+        body.addEventListener('scroll', () => {
+          const expected = expectedScroll.get(body);
+          expectedScroll.delete(body);
+          if (expected !== undefined && Math.abs(body.scrollTop - expected) < 1) return;
+          lastScrolled = body;
+          if (linked.checked) align(progress(body), body);
+        }, { passive: true });
         if (member.id === reading.id) column.classList.add('is-current');
         column.append(header, body);
         return { reading: member, settings, column, body };

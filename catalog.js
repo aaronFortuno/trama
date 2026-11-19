@@ -607,7 +607,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
       onActivity?.('cerca_cataleg', { tipus: /^L\d+[A-Z]?$/i.test(query) ? 'codi' : 'text', resultats: orderedMatches.length });
     }, 800);
   });
-  reset.addEventListener('click', clear);
+  reset.addEventListener('click', event => { event.stopPropagation(); clear(); });
   root.querySelector('#empty-reset').addEventListener('click', () => {
     if (activeCollection) selectCollection('');
     clear();

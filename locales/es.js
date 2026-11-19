@@ -1,4 +1,11 @@
 export const es = Object.fromEntries(`
+v1.46.2 · Obre l’historial de canvis|v1.46.2 · Abrir el historial de cambios
+Les variants passen al preview com a miniatures de les fitxes veïnes, amb canvi animat al primer pla i «Compara» visible al centre. Retirem el submenú textual del sidebar i compactem el comparador, que ara sincronitza l’scroll per defecte, amb opció de separar-lo. La neteja de cerca i filtres passa a una creu discreta al costat de «Filtres», sense ocupar una fila pròpia ni desplegar o replegar la secció.|Las variantes pasan a la previsualización como miniaturas de las fichas vecinas, con cambio animado al primer plano y «Compara» visible en el centro. Retiramos el submenú textual del panel y compactamos el comparador, que ahora sincroniza el scroll por defecto, con opción de separarlo. La limpieza de búsqueda y filtros pasa a una cruz discreta junto a «Filtros», sin ocupar una fila propia ni desplegar o plegar la sección.
+Compara|Compara
+Variant {current} de {total}|Variante {current} de {total}
+Obre {code}, {level}|Abrir {code}, {level}
+Scroll sincronitzat|Scroll sincronizado
+Manté el text i les preguntes al mateix punt aproximat en totes les variants.|Mantiene el texto y las preguntas en el mismo punto aproximado en todas las variantes.
 v1.46.1 · Obre l’historial de canvis|v1.46.1 · Abrir el historial de cambios
 Afegim «Compara les variants» a la previsualització i al sidebar de famílies. El quadre ampli mostra les fitxes ordenades per gradació, amb dues columnes visibles en pantalles amples, desplaçament horitzontal i scroll independent per lectura. Permet anar directament a les preguntes, comparar solucionaris i obrir una variant, respectant els maquetats i codis d’aula de cada lectura i col·lecció sense modificar-los.|Añadimos «Compara las variantes» a la previsualización y al panel de familias. El cuadro amplio muestra las fichas ordenadas por gradación, con dos columnas visibles en pantallas amplias, desplazamiento horizontal y scroll independiente por lectura. Permite ir directamente a las preguntas, comparar solucionarios y abrir una variante, respetando las maquetaciones y códigos de aula de cada lectura y colección sin modificarlos.
 Obre fora de la col·lecció|Abrir fuera de la colección

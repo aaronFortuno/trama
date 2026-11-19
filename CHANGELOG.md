@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.46.2 · 19 de novembre del 2026
+
+Les variants passen al preview com a miniatures de les fitxes veïnes, amb canvi animat al primer pla i «Compara» visible al centre. Retirem el submenú textual del sidebar i compactem el comparador, que ara sincronitza l’scroll per defecte, amb opció de separar-lo. La neteja de cerca i filtres passa a una creu discreta al costat de «Filtres», sense ocupar una fila pròpia ni desplegar o replegar la secció.
+
 ## 1.46.1 · 19 de novembre del 2026
 
 Afegim «Compara les variants» a la previsualització i al sidebar de famílies. El quadre ampli mostra les fitxes ordenades per gradació, amb dues columnes visibles en pantalles amples, desplaçament horitzontal i scroll independent per lectura. Permet anar directament a les preguntes, comparar solucionaris i obrir una variant, respectant els maquetats i codis d’aula de cada lectura i col·lecció sense modificar-los.

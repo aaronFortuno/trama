@@ -17,9 +17,8 @@ import { fontGroups, loadWorksheetFont, worksheetFonts } from './worksheet-fonts
 import { prepareAnswerEvidence } from './answer-evidence.js';
 import { trackFeature, trackReadingFeature } from './analytics.js';
 import { universeById } from './data/universes.js';
-import { familyById } from './data/families.js';
-import { familyMembers } from './reading-families.js';
 import { familyComparisonMarkup, mountFamilyComparison } from './family-comparison.js';
+import { familyStageMarkup, mountFamilyStage } from './family-stage.js';
 
 const formatKeys = new Set(templateGroups.filter(group => group.id !== 'images').flatMap(group => group.keys));
 const pageFormat = settings => Object.fromEntries([...formatKeys].map(key => [key, settings[key]]));
@@ -63,7 +62,6 @@ const template = `
             <label class="studio-variants" hidden>Llengua de la lectura <select id="studio-variant"></select></label>
           </div>
           <div class="studio-heading-actions">
-            <button class="button" type="button" id="studio-compare" aria-label="Compara les variants" title="Compara les variants" aria-haspopup="dialog" aria-controls="family-comparison-dialog" hidden>${icon('columns-2')}</button>
             <div class="studio-reading-nav" role="group" aria-label="Navegació entre lectures">
               <button class="button" type="button" data-action="reading-previous" aria-label="Lectura anterior" disabled>${icon('chevron-left')}</button>
               <button class="button" type="button" data-action="reading-next" aria-label="Lectura següent" disabled>${icon('chevron-right')}</button>
@@ -79,6 +77,7 @@ const template = `
         <div class="studio-question-feedback" hidden><span role="status">Pregunta amagada.</span><button class="studio-text-button" type="button" data-action="question-undo">Desfés</button></div>
       </header>
       <div class="studio-preview-window">
+        ${familyStageMarkup}
         <div class="studio-paper-stage scroll-pane" tabindex="0" role="region" aria-label="Pàgines de la fitxa">
           <div id="studio-pages"></div>
         </div>
@@ -178,10 +177,6 @@ const template = `
         <label class="studio-solution-toggle"><input id="studio-solution" class="studio-switch" type="checkbox" role="switch" aria-label="Mostra el solucionari"> Solucionari</label>
       </div>
       <form class="studio-form scroll-pane">
-        <details class="studio-family" hidden>
-          <summary>Variants de la lectura</summary>
-          <div class="studio-controls" id="studio-family"></div>
-        </details>
         <details class="studio-universes" hidden>
           <summary>Universos</summary>
           <div class="studio-controls" id="studio-universes"></div>
@@ -368,19 +363,25 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
     const defaults = defaultSettings(entry.level);
     return collectionId || resetReadings.has(entry.id) ? defaults : { ...defaults, ...sessionFormat };
   }
+  function settingsForVariant(entry) {
+    if (entry.id === reading?.id) return worksheetLayout(entry, settings);
+    const collectionId = readingCollection?.readingIds.includes(entry.id) ? readingCollection.id : undefined;
+    return readWorksheetLayout(entry, collectionId) ?? (collectionId || resetReadings.has(entry.id)
+      ? defaultSettings(entry.level) : { ...settingsForReading(entry), ...sessionClassroomCode });
+  }
+  const outsideCollection = entry => readingCollection && !readingCollection.readingIds.includes(entry.id);
   let requestedFont;
   const comparison = mountFamilyComparison({
     root, readings,
-    getSettings: entry => {
-      if (entry.id === reading?.id) return worksheetLayout(entry, settings);
-      const collectionId = readingCollection?.readingIds.includes(entry.id) ? readingCollection.id : undefined;
-      return readWorksheetLayout(entry, collectionId) ?? (collectionId || resetReadings.has(entry.id)
-        ? defaultSettings(entry.level) : { ...settingsForReading(entry), ...sessionClassroomCode });
-    },
-    isOutsideCollection: entry => readingCollection && !readingCollection.readingIds.includes(entry.id),
+    getSettings: settingsForVariant,
+    isOutsideCollection: outsideCollection,
     onOpen: id => onFamilyVariant?.(id),
   });
-  find('#studio-compare').addEventListener('click', () => comparison.open(reading, solution.checked));
+  const familyStage = mountFamilyStage({
+    root, readings, getSettings: settingsForVariant, isOutsideCollection: outsideCollection,
+    onSelect: id => onFamilyVariant?.(id),
+    onCompare: () => comparison.open(reading, solution.checked),
+  });
   let pendingPrint;
   let frame = 0;
   let hiddenQuestion;
@@ -430,33 +431,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
     variant.replaceChildren(...variants.map(entry => new Option(labelFor('language', entry.language), entry.id)));
     variant.value = reading.id;
     variant.parentElement.hidden = variants.length < 2;
-    const siblings = familyMembers(readings, reading);
-    find('.studio-family').hidden = siblings.length < 2;
-    find('#studio-compare').hidden = siblings.length < 2;
-    const family = familyById.get(reading.familyId);
-    const familyIntro = document.createElement('p');
-    familyIntro.textContent = family?.description[language()] ?? t('Una mateixa lectura amb diferents graus d’exigència.');
-    const compare = document.createElement('button');
-    compare.type = 'button';
-    compare.className = 'button';
-    compare.textContent = t('Compara les variants');
-    compare.setAttribute('aria-haspopup', 'dialog');
-    compare.setAttribute('aria-controls', 'family-comparison-dialog');
-    compare.addEventListener('click', () => comparison.open(reading, solution.checked));
-    find('#studio-family').replaceChildren(familyIntro, compare, ...siblings.map(entry => {
-      const button = document.createElement('button');
-      button.type = 'button';
-      button.className = 'button studio-family-option';
-      button.textContent = `${entry.code} · ${labelFor('level', entry.level)} · ${labelFor('difficulty', entry.difficulty)}`;
-      if (readingCollection && !readingCollection.readingIds.includes(entry.id)) {
-        button.textContent += ' · ' + t('Fora de la col·lecció');
-        button.title = t('Obre aquesta variant al catàleg, fora de la col·lecció actual.');
-      }
-      button.disabled = entry.id === reading.id;
-      if (entry.id === reading.id) button.setAttribute('aria-current', 'true');
-      button.addEventListener('click', () => onFamilyVariant?.(entry.id));
-      return button;
-    }));
+    familyStage.update(reading, solution.checked, { force: true });
     const worlds = (reading.universeIds ?? []).map(id => universeById.get(id)).filter(Boolean);
     find('.studio-universes').hidden = !worlds.length;
     find('#studio-universes').replaceChildren(...worlds.map(world => {
@@ -599,6 +574,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
     cancelAnimationFrame(frame);
     frame = 0;
     if (!reading || root.hidden) return;
+    familyStage.update(reading, solution.checked);
     const font = settings.font;
     if (font !== requestedFont) {
       requestedFont = font;
@@ -612,6 +588,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
     renderWorksheet(pages, reading, settings, { answerKey: solution.checked });
     preview.size();
     stage.scrollTo(scrollLeft, scrollTop);
+    familyStage.animateCurrent(reading);
     if (animated) animateRefresh(pages);
   }
 

@@ -107,6 +107,8 @@
 .family-comparison-column-heading h3 { margin: 0; color: var(--green); font: 650 .94rem/1.4 var(--sans); }
 .family-comparison-column-heading p { grid-column: 1 / -1; margin: 0; color: var(--muted); font-size: .76rem; }
 .family-comparison-open { min-height: 29px; padding: 4px 7px; font-size: .73rem; }
+.family-comparison-column-heading .family-comparison-open { grid-column: 2; grid-row: 1 / 3; max-width: 150px; }
+.family-comparison-column-heading p { grid-column: 1; }
 .family-comparison-body { display: grid; justify-items: center; align-content: start; gap: 14px; flex: 1; min-height: 0; padding: 12px; overflow-y: auto; overflow-x: hidden; overscroll-behavior: contain; scrollbar-gutter: stable; }
 .family-comparison-body:focus-visible { outline-offset: -3px; }
 @media (max-width: 899px) {
@@ -118,6 +120,7 @@
   .family-comparison-navigation { margin-left: 0; }
   .family-comparison-column-heading { grid-template-columns: 1fr; }
   .family-comparison-column-heading .button { justify-self: start; }
+  .family-comparison-column-heading .family-comparison-open { grid-column: 1; grid-row: auto; }
   .family-comparison-body { padding: 8px; }
 }
 .batch-info-button .ui-icon { width: 17px; height: 17px; }

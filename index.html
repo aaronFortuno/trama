@@ -71,7 +71,7 @@
         <div class="catalog-layout">
           <aside class="catalog-filters scroll-pane" aria-label="Filtres del catàleg">
             <details class="catalog-disclosure" id="catalog-filter-panel" open>
-              <summary>Filtres<span id="filter-indicator"></span></summary>
+              <summary><span>Filtres<span id="filter-indicator"></span></span><button type="button" id="filters-reset" aria-label="Neteja la cerca i els filtres" title="Neteja la cerca i els filtres" hidden><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m18 6-12 12M6 6l12 12"/></svg></button></summary>
               <div class="filters-body">
                 <div class="filter-field"><label for="filter-language">Llengua de les lectures<select id="filter-language" data-facet="language"><option value="ca">Català</option><option value="es">Castellà</option></select></label></div>
                 <div class="filter-field"><label for="filter-level">Nivell<select id="filter-level" data-facet="level"><option value="">Tots</option></select></label></div>
@@ -93,7 +93,6 @@
                   </div>
                 </details>
                 <p class="filters-note">L’extensió i la dificultat es valoren dins de cada curs.</p>
-                <button type="button" id="filters-reset" class="text-button" hidden>Neteja els filtres</button>
               </div>
             </details>
             <details class="catalog-disclosure catalog-collections" id="catalog-collection-panel">
@@ -163,7 +162,7 @@
         </a>
       </p>
       <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.46.1 · Obre l’historial de canvis">v1.46.1</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.46.2 · Obre l’historial de canvis">v1.46.2</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
@@ -342,6 +341,10 @@
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’historial"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
+      <article class="release">
+        <header><h3>v1.46.2</h3><time datetime="2026-11-19">19 de novembre del 2026</time></header>
+        <p>Les variants passen al preview com a miniatures de les fitxes veïnes, amb canvi animat al primer pla i «Compara» visible al centre. Retirem el submenú textual del sidebar i compactem el comparador, que ara sincronitza l’scroll per defecte, amb opció de separar-lo. La neteja de cerca i filtres passa a una creu discreta al costat de «Filtres», sense ocupar una fila pròpia ni desplegar o replegar la secció.</p>
+      </article>
       <article class="release">
         <header><h3>v1.46.1</h3><time datetime="2026-11-19">19 de novembre del 2026</time></header>
         <p>Afegim «Compara les variants» a la previsualització i al sidebar de famílies. El quadre ampli mostra les fitxes ordenades per gradació, amb dues columnes visibles en pantalles amples, desplaçament horitzontal i scroll independent per lectura. Permet anar directament a les preguntes, comparar solucionaris i obrir una variant, respectant els maquetats i codis d’aula de cada lectura i col·lecció sense modificar-los.</p>
