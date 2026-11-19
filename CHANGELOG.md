@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.46.3 · 19 de novembre del 2026
+
+Fem més discrets els interrogants d’Univers i Famílies: més petits, sense vora i enganxats al nom del filtre.
+
 ## 1.46.2 · 19 de novembre del 2026
 
 Les variants passen al preview com a miniatures de les fitxes veïnes, amb canvi animat al primer pla i «Compara» visible al centre. Retirem el submenú textual del sidebar i compactem el comparador, que ara sincronitza l’scroll per defecte, amb opció de separar-lo. La neteja de cerca i filtres passa a una creu discreta al costat de «Filtres», sense ocupar una fila pròpia ni desplegar o replegar la secció.

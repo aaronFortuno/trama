@@ -215,10 +215,10 @@ button { color: inherit; cursor: pointer; }
 .catalog-extra-filters > summary { color: var(--muted); font-size: .78rem; cursor: pointer; }
 .catalog-extra-filters .filters-body { margin-top: 8px; }
 .filter-field { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 4px; min-width: 0; }
-.filter-field.has-help { position: relative; }
-.filter-help { position: absolute; top: -3px; right: 0; z-index: 3; }
-.filter-help > button { display: grid; place-items: center; width: 23px; height: 23px; border: 1px solid var(--line); border-radius: 50%; background: var(--surface); color: var(--muted); font: 650 .75rem var(--sans); cursor: help; }
-.has-help > label { padding-top: 1px; }
+.filter-field-heading { grid-column: 1 / -1; display: flex; align-items: center; gap: 3px; }
+.filter-help { display: inline-flex; }
+.filter-help > button { display: grid; place-items: center; width: 15px; height: 15px; padding: 0; border: 0; border-radius: 3px; background: transparent; color: var(--muted); font: 600 .68rem var(--sans); cursor: help; }
+.filter-help > button:hover { color: var(--green); }
 .filter-help-tip { position: fixed; inset: auto; margin: 0; width: min(265px, calc(100vw - 24px)); padding: 9px 11px; overflow-y: auto; border: 1px solid var(--line); border-radius: 7px; background: var(--surface); box-shadow: 0 5px 16px #101a1726; color: var(--ink); font-size: .78rem; line-height: 1.45; opacity: 0; transition: opacity var(--motion), display var(--motion) allow-discrete, overlay var(--motion) allow-discrete; }
 .filter-help-tip:popover-open { opacity: 1; }
 @starting-style { .filter-help-tip:popover-open { opacity: 0; } }

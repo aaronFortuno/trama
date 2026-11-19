@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.46.3 · Obre l’historial de canvis|v1.46.3 · Abrir el historial de cambios
+Fem més discrets els interrogants d’Univers i Famílies: més petits, sense vora i enganxats al nom del filtre.|Hacemos más discretos los interrogantes de Universo y Familias: más pequeños, sin borde y pegados al nombre del filtro.
 v1.46.2 · Obre l’historial de canvis|v1.46.2 · Abrir el historial de cambios
 Les variants passen al preview com a miniatures de les fitxes veïnes, amb canvi animat al primer pla i «Compara» visible al centre. Retirem el submenú textual del sidebar i compactem el comparador, que ara sincronitza l’scroll per defecte, amb opció de separar-lo. La neteja de cerca i filtres passa a una creu discreta al costat de «Filtres», sense ocupar una fila pròpia ni desplegar o replegar la secció.|Las variantes pasan a la previsualización como miniaturas de las fichas vecinas, con cambio animado al primer plano y «Compara» visible en el centro. Retiramos el submenú textual del panel y compactamos el comparador, que ahora sincroniza el scroll por defecto, con opción de separarlo. La limpieza de búsqueda y filtros pasa a una cruz discreta junto a «Filtros», sin ocupar una fila propia ni desplegar o plegar la sección.
 Compara|Compara
