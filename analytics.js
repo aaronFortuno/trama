@@ -31,7 +31,7 @@ const eventRules = {
   copia_configuracio: { required: ['accio'], fields: { accio: ['exporta', 'importa'] } },
   restableix_maquetat: { required: ['abast'], fields: { abast: ['fitxa', 'tots'] } },
   cerca_cataleg: { required: ['tipus', 'resultats'], fields: { tipus: ['codi', 'text'], resultats: counts } },
-  neteja_filtres: { required: ['filtre'], fields: { filtre: ['tots', 'level', 'difficulty', 'theme', 'genre', 'length'] } },
+  neteja_filtres: { required: ['filtre'], fields: { filtre: ['tots', 'level', 'difficulty', 'theme', 'genre', 'length', 'universe'] } },
   canvia_idioma: { required: ['llengua'], fields: { llengua: ['ca', 'es'] } },
 };
 

@@ -1,4 +1,11 @@
 export const es = Object.fromEntries(`
+v1.45 · Obre l’historial de canvis|v1.45 · Abrir el historial de cambios
+Estrenem els universos: un filtre nou agrupa lectures independents que comparteixen un món, amb accés també des del visor. «La biblioteca de les coses» neix de la L208 i incorpora la L246, en català i castellà, amb dues il·lustracions i deu preguntes amb solucionari i pistes. Documentem les decisions d’universos, famílies, itineraris i diàlegs i preparem els camps editorials sense confondre traduccions amb variants d’exigència.|Estrenamos los universos: un filtro nuevo agrupa lecturas independientes que comparten un mundo, con acceso también desde el visor. «La biblioteca de las cosas» nace de la L208 e incorpora la L246, en catalán y castellano, con dos ilustraciones y diez preguntas con solucionario y pistas. Documentamos las decisiones de universos, familias, itinerarios y diálogos y preparamos los campos editoriales sin confundir traducciones con variantes de exigencia.
+Univers|Universo
+Universos|Universos
+Sense univers|Sin universo
+La biblioteca de les coses|La biblioteca de las cosas
+Veure les lectures d’aquest univers|Ver las lecturas de este universo
 v1.44.5 · Obre l’historial de canvis|v1.44.5 · Abrir el historial de cambios
 Alineem l’etiqueta de col·lecció amb el lateral del catàleg. A la impressió en lot, «Cada lectura en un full nou (doble cara)» incorpora un interrogant amb una explicació de les pàgines en blanc, accessible amb ratolí, teclat i toc. Replantegem «Maquetats d’aquest navegador» com a «Còpia de seguretat i recuperació», amb textos que expliquen què es desa i com traslladar-ho, i separem el restabliment dels maquetats en un apartat propi. Els desplegables tenen transicions de 220 ms.|Alineamos la etiqueta de colección con el lateral del catálogo. En la impresión por lotes, «Cada lectura en una hoja nueva (doble cara)» incorpora un interrogante con una explicación de las páginas en blanco, accesible con ratón, teclado y toque. Replanteamos «Maquetaciones de este navegador» como «Copia de seguridad y recuperación», con textos que explican qué se guarda y cómo trasladarlo, y separamos el restablecimiento de las maquetaciones en un apartado propio. Los desplegables tienen transiciones de 220 ms.
 Cada lectura en un full nou (doble cara)|Cada lectura en una hoja nueva (doble cara)

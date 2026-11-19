@@ -3,6 +3,7 @@ import { syncSelects } from './select-menu.js';
 import { language, languages, t } from './i18n.js';
 import { collectionsKey, listCollections, moveCollectionReading, removeCollection, removeCollectionReading, saveCollectionEntries } from './collections.js';
 import { mountCatalogGestures } from './catalog-gestures.js';
+import { universes } from './data/universes.js';
 
 export const labels = {
   language: { es: 'Castellà', ca: 'Català' },
@@ -14,6 +15,7 @@ export const labels = {
   },
   difficulty: { initial: 'Inicial', intermediate: 'Intermèdia', advanced: 'Avançada' },
   length: { short: 'Curta', medium: 'Mitjana', long: 'Llarga' },
+  universe: { 'no-universe': 'Sense univers', ...Object.fromEntries(universes.map(universe => [universe.id, universe.name.ca])) },
   theme: { nature: 'Natura', community: 'Comunitat', adventure: 'Aventures', science: 'Ciència', arts: 'Art i cultura', everyday: 'Vida quotidiana', history: 'Història', math: 'Matemàtiques', environment: 'Medi ambient', sports: 'Esport', technology: 'Tecnologia', geography: 'Geografia', games: 'Jocs i enigmes' },
   question: { literal: 'Literal', inference: 'Inferència', opinion: 'Opinió', vocabulary: 'Vocabulari', structure: 'Estructura del text', summary: 'Resum' },
   genre: { narrative: 'Narració', informative: 'Divulgació', instructional: 'Text instructiu', interview: 'Entrevista', letter: 'Carta', news: 'Notícia', review: 'Ressenya', diary: 'Diari', argument: 'Article d’opinió' },
@@ -88,7 +90,7 @@ export function indexCatalog(readings) {
     const count = wordCount(reading);
     const facets = {
       language: [reading.language], level: [reading.level], difficulty: [reading.difficulty], length: [lengthBucket(count, reading.level)],
-      theme: reading.themes, genre: [reading.genre],
+      theme: reading.themes, genre: [reading.genre], universe: reading.universeIds?.length ? reading.universeIds : ['no-universe'],
     };
     const terms = languages.flatMap(locale => Object.entries(facets).flatMap(([facet, values]) => values.map(value => labelFor(facet, value, locale))));
     const searchText = normalize([reading.code, reading.title, reading.summary, ...terms].join(' '));
@@ -309,6 +311,9 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     difficulty.dataset.difficulty = reading.difficulty;
     card.querySelector('.card-code').textContent = reading.code;
     card.querySelector('.card-personal').hidden = !reading.personal;
+    const worlds = card.querySelector('.card-universes');
+    worlds.textContent = (reading.universeIds ?? []).map(id => labelFor('universe', id)).join(' · ');
+    worlds.hidden = !worlds.textContent;
     card.querySelector('.card-words').textContent = t(count === 1 ? '{count} paraula' : '{count} paraules', { count: words.format(count) });
     const countQuestions = reading.questions.length;
     card.querySelector('.card-questions').textContent = t(countQuestions === 1 ? '{count} pregunta' : '{count} preguntes', { count: words.format(countQuestions) });
@@ -655,6 +660,17 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
       search.value = code;
       for (const field of optionalFields) field.value = '';
       refresh();
+    },
+    showUniverse(id, locale) {
+      selectCollection('');
+      if (availableLanguages.has(locale)) {
+        languagePreference = locale;
+        languageField.value = locale;
+        savePreference(catalogLanguageKey, locale);
+      }
+      root.querySelector('#filter-universe').value = id;
+      refresh();
+      onFilterApplied?.('universe', id);
     },
     translate() {
       reset.setAttribute('aria-label', t('Neteja la cerca i els filtres'));

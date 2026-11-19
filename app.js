@@ -80,6 +80,7 @@ const studio = mountStudio({
   onOpen: showStudio,
   onCatalog: goToCatalog,
   onVariant: id => { openingSource = 'idioma'; openReading(id); },
+  onUniverse: (id, locale) => { catalog.showUniverse(id, locale); goToCatalog(); },
   getNeighbors: readingNeighbors,
   onNavigate: (reading, direction) => openCatalogReading(reading, direction === 'next' ? 'seguent' : 'anterior'),
   onRemove: removeReading,

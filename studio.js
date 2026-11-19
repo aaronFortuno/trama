@@ -16,6 +16,7 @@ import { encodeImage, logoSource, tramaLogo } from './local-images.js';
 import { fontGroups, loadWorksheetFont, worksheetFonts } from './worksheet-fonts.js';
 import { prepareAnswerEvidence } from './answer-evidence.js';
 import { trackFeature, trackReadingFeature } from './analytics.js';
+import { universeById } from './data/universes.js';
 
 const formatKeys = new Set(templateGroups.filter(group => group.id !== 'images').flatMap(group => group.keys));
 const pageFormat = settings => Object.fromEntries([...formatKeys].map(key => [key, settings[key]]));
@@ -173,6 +174,10 @@ const template = `
         <label class="studio-solution-toggle"><input id="studio-solution" class="studio-switch" type="checkbox" role="switch" aria-label="Mostra el solucionari"> Solucionari</label>
       </div>
       <form class="studio-form scroll-pane">
+        <details class="studio-universes" hidden>
+          <summary>Universos</summary>
+          <div class="studio-controls" id="studio-universes"></div>
+        </details>
         <details open>
           <summary>Preguntes eliminades <span class="studio-detail-count" id="studio-question-count" hidden></span></summary>
           <div class="studio-controls" id="studio-questions"></div>
@@ -261,7 +266,7 @@ function imageControls(image, index) {
   return card;
 }
 
-export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getNeighbors, onNavigate, onRemove }) {
+export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onUniverse, getNeighbors, onNavigate, onRemove }) {
   root.innerHTML = template;
   const translateMarkup = bindTranslations(root);
   const find = selector => root.querySelector(selector);
@@ -404,6 +409,23 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, getN
     variant.replaceChildren(...variants.map(entry => new Option(labelFor('language', entry.language), entry.id)));
     variant.value = reading.id;
     variant.parentElement.hidden = variants.length < 2;
+    const worlds = (reading.universeIds ?? []).map(id => universeById.get(id)).filter(Boolean);
+    find('.studio-universes').hidden = !worlds.length;
+    find('#studio-universes').replaceChildren(...worlds.map(world => {
+      const section = document.createElement('div');
+      const title = document.createElement('strong');
+      const description = document.createElement('p');
+      const button = document.createElement('button');
+      title.textContent = world.name[language()] ?? world.name.ca;
+      description.textContent = world.description[language()] ?? world.description.ca;
+      button.type = 'button';
+      button.className = 'button';
+      button.textContent = t('Veure les lectures d’aquest univers');
+      button.addEventListener('click', () => onUniverse?.(world.id, reading.language));
+      section.className = 'studio-universe';
+      section.append(title, description, button);
+      return section;
+    }));
     find('#studio-images').replaceChildren(...reading.images.map(imageControls));
     for (const caption of find('#studio-images').querySelectorAll('.studio-image-title span')) caption.lang = reading.language;
     contentForm.elements.showImages.disabled = !reading.images.length;

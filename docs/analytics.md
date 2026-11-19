@@ -23,6 +23,8 @@ Des de la versió 1.43. L’objectiu és orientar les millores del projecte: qui
 
 Les metadades públiques són `codi` (p. ex. `L001`), `llengua` (`ca`/`es`), `nivell` (p. ex. `5-primary`) i `dificultat` (`initial`/`intermediate`/`advanced`). Es deriven del catàleg, sense copiar títols ni contingut. Les lectures personals només aporten ús genèric de funcionalitats.
 
+El filtre `universe` segueix la mateixa llista permesa: només s’envien identificadors del registre públic de Trama o `no-universe`. Les etiquetes d’universos d’una lectura personal no s’envien si no són al registre públic.
+
 Els recomptes agrupats són `0`, `1`, `2-5`, `6-15`, `16-50` i `51+`. En crear o ampliar una col·lecció, `quantitat` és el tram de lectures triades per aquella operació; en obrir-la, el del total de lectures que conté.
 
 Els blocs de personalització són `text`, `marges`, `resposta`, `encapcalament`, `peu`, `imatges`, `codi_aula`, `vocabulari`, `pistes` i `preguntes`. Les accions són `ajusta`, `amaga`, `recupera`, `linies` i `consulta` (consulta d’una pista al text des de la resposta). Es compta com a màxim una vegada cada combinació de bloc, acció i estat mentre aquella lectura està oberta. Els botons de mostrar imatges, vocabulari, pistes o codi d’aula poden indicar `estat: true/false`. No es registra quina pregunta s’ha amagat ni quantes línies s’han assignat.

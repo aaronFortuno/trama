@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.45 · 19 de novembre del 2026
+
+Estrenem els universos: un filtre nou agrupa lectures independents que comparteixen un món, amb accés també des del visor. «La biblioteca de les coses» neix de la L208 i incorpora la L246, en català i castellà, amb dues il·lustracions i deu preguntes amb solucionari i pistes. Documentem les decisions d’universos, famílies, itineraris i diàlegs i preparem els camps editorials sense confondre traduccions amb variants d’exigència.
+
 ## 1.44.5 · 18 de novembre del 2026
 
 Alineem l’etiqueta de col·lecció amb el lateral del catàleg. A la impressió en lot, «Cada lectura en un full nou (doble cara)» incorpora un interrogant amb una explicació de les pàgines en blanc, accessible amb ratolí, teclat i toc. Replantegem «Maquetats d’aquest navegador» com a «Còpia de seguretat i recuperació», amb textos que expliquen què es desa i com traslladar-ho, i separem el restabliment dels maquetats en un apartat propi. Els desplegables tenen transicions de 220 ms.

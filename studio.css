@@ -34,6 +34,10 @@
   cursor: pointer;
   text-underline-offset: 3px;
 }
+.studio-universe { display: grid; gap: 6px; }
+.studio-universe strong { color: var(--green); font-size: .8rem; }
+.studio-universe p { margin: 0; color: var(--muted); font-size: .76rem; line-height: 1.45; }
+.studio-universe .button { font-size: .75rem; }
 
 .studio-text-button:hover { text-decoration: underline; }
 .studio-back { width: 32px; min-height: 32px; padding: 0; flex: none; }

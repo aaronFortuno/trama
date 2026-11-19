@@ -308,6 +308,8 @@ body.is-catalog-dragging, body.is-catalog-dragging * { cursor: grabbing !importa
 [data-theme="dark"] .card-difficulty[data-difficulty="intermediate"] { color: #f5d6a5; background: #453a2b; }
 [data-theme="dark"] .card-difficulty[data-difficulty="advanced"] { color: #f9c3b4; background: #483028; }
 .card-questions::before { content: '·'; margin-right: 5px; }
+.card-universes { color: var(--green); font-size: .68rem; }
+.card-universes::before { content: '◇'; margin-right: 4px; }
 
 .card-open {
   display: flex;

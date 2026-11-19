@@ -79,6 +79,7 @@
                 <details class="catalog-extra-filters">
                   <summary>Altres filtres<span id="extra-filter-indicator"></span></summary>
                   <div class="filters-body">
+                    <div class="filter-field"><label for="filter-universe">Univers<select id="filter-universe" data-facet="universe"><option value="">Tots</option></select></label></div>
                     <div class="filter-field"><label for="filter-length">Extensió (paraules)<select id="filter-length" data-facet="length"><option value="">Totes</option></select></label></div>
                     <div class="filter-field"><label for="filter-theme">Temàtica<select id="filter-theme" data-facet="theme"><option value="">Totes</option></select></label></div>
                     <div class="filter-field"><label for="filter-genre">Tipus de text<select id="filter-genre" data-facet="genre"><option value="">Tots</option></select></label></div>
@@ -155,7 +156,7 @@
         </a>
       </p>
       <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.44.5 · Obre l’historial de canvis">v1.44.5</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.45 · Obre l’historial de canvis">v1.45</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
@@ -334,6 +335,10 @@
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’historial"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
+      <article class="release">
+        <header><h3>v1.45</h3><time datetime="2026-11-19">19 de novembre del 2026</time></header>
+        <p>Estrenem els universos: un filtre nou agrupa lectures independents que comparteixen un món, amb accés també des del visor. «La biblioteca de les coses» neix de la L208 i incorpora la L246, en català i castellà, amb dues il·lustracions i deu preguntes amb solucionari i pistes. Documentem les decisions d’universos, famílies, itineraris i diàlegs i preparem els camps editorials sense confondre traduccions amb variants d’exigència.</p>
+      </article>
       <article class="release">
         <header><h3>v1.44.5</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Alineem l’etiqueta de col·lecció amb el lateral del catàleg. A la impressió en lot, «Cada lectura en un full nou (doble cara)» incorpora un interrogant amb una explicació de les pàgines en blanc, accessible amb ratolí, teclat i toc. Replantegem «Maquetats d’aquest navegador» com a «Còpia de seguretat i recuperació», amb textos que expliquen què es desa i com traslladar-ho, i separem el restabliment dels maquetats en un apartat propi. Els desplegables tenen transicions de 220 ms.</p>
@@ -752,7 +757,7 @@
         <div class="card-kicker"><span class="card-genre"></span><span class="card-level"></span></div>
         <h3 class="card-title"></h3>
         <p class="card-summary"></p>
-        <div class="card-meta"><span class="card-code"></span><span class="card-personal" hidden>Importada</span><span class="card-difficulty"></span><span class="card-words"></span><span class="card-questions"></span></div>
+        <div class="card-meta"><span class="card-code"></span><span class="card-personal" hidden>Importada</span><span class="card-difficulty"></span><span class="card-words"></span><span class="card-questions"></span><span class="card-universes" hidden></span></div>
         <button class="card-open" type="button">
           <span>Prepara la fitxa</span>
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg>

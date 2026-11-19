@@ -112,6 +112,9 @@ function normalize(source) {
   const annotations = normalizeAnnotations(source.annotations, paragraphs, questions);
   const code = string(source.code, 'code', 16, '').toUpperCase();
   requireField(!code || codePattern.test(code), 'code');
+  const universeIds = array(source.universeIds ?? [], 'universeIds', 12).map(id => identifier(id, 'universeIds'));
+  requireField(new Set(universeIds).size === universeIds.length, 'universeIds');
+  const familyId = source.familyId == null ? undefined : identifier(source.familyId, 'familyId');
   return {
     code, language: tag.toLowerCase(), title: string(source.title, 'title', 160),
     level: identifier(source.level, 'level', 'unspecified'),
@@ -120,6 +123,8 @@ function normalize(source) {
     genre: identifier(source.genre, 'genre', 'unspecified'),
     summary: string(source.summary, 'summary', 500, '') || (paragraphs[0].length <= 160 ? paragraphs[0] : `${paragraphs[0].slice(0, 159).trimEnd()}…`),
     paragraphs, questions, images,
+    ...(universeIds.length ? { universeIds } : {}),
+    ...(familyId ? { familyId } : {}),
     ...(annotations.length ? { annotations } : {}),
   };
 }
