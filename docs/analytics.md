@@ -12,6 +12,7 @@ Des de la versió 1.43; context de cerca i famílies ampliat a la 1.48. L’obje
 | `neteja_filtres` | En treure un filtre o netejar la cerca i els filtres | `filtre`: camp eliminat o `tots` |
 | `cerca_cataleg` | Després de 800 ms sense escriure, amb almenys dos caràcters | `tipus`: `codi` o `text`; context de filtres i `resultats` agrupats. Mai la consulta |
 | `familia` | En obrir la tria visual o el comparador d’una família pública | `accio`: `obre` o `compara`; `familia`, `llengua`, `origen` i `quantitat` de variants agrupada |
+| `obre_lot` | En obrir el diàleg d’impressió en lot des de la capçalera | `origen`: `capcalera`; `vista`: `cataleg` o `lectura`; `quantitat`: tram de fitxes disponibles; `colleccio`: booleà, sense nom ni identificador |
 | `genera_document` | Quan s’ha preparat el document per imprimir o s’ha iniciat la descàrrega | `abast`: `individual` o `lot`; `format`: `impressio`, `pdf` o `zip`; `contingut`: `alumnat` o `solucionari`; `quantitat`: tram de lectures; `colleccio` i `maquetats`: booleans; `doble_cara`: booleà per als lots. Metadades públiques només en documents individuals |
 | `canvia_vista` | En activar o desactivar el solucionari | Metadades públiques; `vista`: `alumnat` o `solucionari` |
 | `personalitza_fitxa` | En modificar un bloc o utilitzar eines del preview | `bloc`, `accio` i, en alguns interruptors, `estat` booleà; cap valor de text o mida |
@@ -25,6 +26,8 @@ Des de la versió 1.43; context de cerca i famílies ampliat a la 1.48. L’obje
 Les metadades públiques són `codi` (p. ex. `L001`), `llengua` (`ca`/`es`), `nivell` (p. ex. `5-primary`) i `dificultat` (`initial`/`intermediate`/`advanced`). Es deriven del catàleg, sense copiar títols ni contingut. Les lectures personals només aporten ús genèric de funcionalitats.
 
 Les lectures públiques amb variants afegeixen `familia`, derivat del registre editorial i mai copiat d’un camp personal. Les obertures i comparacions de famílies personals no generen l’esdeveniment `familia`.
+
+Des de la v1.51.4, `obre_lot` permet distingir l’interès inicial en la impressió en lot de l’ús efectiu, que continua registrat amb `genera_document` i `abast: lot`. Comparar obertures, generacions i el booleà `colleccio` ajudarà a decidir si mantenir l’accés general o donar més pes a les col·leccions. Obrir el diàleg no compta com imprimir: també conté les còpies de seguretat. Preparar una impressió tampoc no confirma que l’usuari hagi acabat imprimint al diàleg del navegador.
 
 ## Context de cerques i filtres
 

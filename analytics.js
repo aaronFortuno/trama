@@ -23,6 +23,9 @@ const catalogFields = {
   origen: ['selector', 'lectura'], resultats: counts,
 };
 const eventRules = {
+  obre_lot: { required: ['origen', 'vista', 'quantitat', 'colleccio'], fields: {
+    origen: ['capcalera'], vista: ['cataleg', 'lectura'], quantitat: counts, colleccio: 'boolean',
+  } },
   obre_lectura: { reading: true, fields: { origen: ['cataleg', 'anterior', 'seguent', 'idioma', 'familia', 'enllac'], colleccio: 'boolean', maquetat: 'boolean' } },
   genera_document: { reading: true, required: ['abast', 'format', 'contingut', 'quantitat'], fields: {
     abast: ['individual', 'lot'], format: ['impressio', 'pdf', 'zip'], contingut: ['alumnat', 'solucionari'], quantitat: counts,

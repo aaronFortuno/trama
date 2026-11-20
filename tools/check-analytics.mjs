@@ -32,6 +32,7 @@ for (const [input, output] of [[0, '0'], [1, '1'], [2, '2-5'], [5, '2-5'], [6, '
   assert.equal(countBucket(input), output);
 }
 const samples = {
+  obre_lot: { origen: 'capcalera', vista: 'cataleg', quantitat: '6-15', colleccio: false },
   genera_document: { abast: 'lot', format: 'pdf', contingut: 'solucionari', quantitat: '6-15', doble_cara: true, colleccio: true, maquetats: false },
   canvia_vista: { vista: 'solucionari' },
   personalitza_fitxa: { bloc: 'codi_aula', accio: 'ajusta', estat: true },
@@ -48,6 +49,9 @@ for (const [name, data] of Object.entries(samples)) {
   assert.equal(sanitizeAnalyticsEvent(name, dirty), false);
 }
 assert.equal(sanitizeAnalyticsEvent('genera_document', { ...samples.genera_document, quantitat: 10 }), false);
+assert.equal(sanitizeAnalyticsEvent('obre_lot', { ...samples.obre_lot, quantitat: 10 }), false);
+assert.equal(sanitizeAnalyticsEvent('obre_lot', { ...samples.obre_lot, origen: canary }), false);
+assert.equal(sanitizeAnalyticsEvent('obre_lot', { ...samples.obre_lot, colleccio: canary }), false);
 assert.equal(sanitizeAnalyticsEvent('cerca_cataleg', { tipus: 'text', resultats: canary }), false);
 assert.deepEqual(sanitizeAnalyticsEvent('personalitza_fitxa', { bloc: 'text', accio: 'ajusta', estat: 'true' }), {
   name: 'personalitza_fitxa', data: { bloc: 'text', accio: 'ajusta' },

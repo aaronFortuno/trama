@@ -1,4 +1,4 @@
-import { animateRefresh, closeDialog, mountDisclosures, openDialog } from './motion.js';
+import { animateRefresh, closeDialog, mountDisclosures, openDialog, setDisclosure } from './motion.js';
 import { placeMenu, syncSelects } from './select-menu.js';
 import { language, languages, t } from './i18n.js';
 import { collectionsKey, listCollections, moveCollectionReading, removeCollection, removeCollectionReading, saveCollectionEntries } from './collections.js';
@@ -135,14 +135,14 @@ function setFacet(field, value) {
   else field.value = value;
 }
 
-export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActivity, onSaveCollection, getSettings, onFamilyOpened }) {
+export function mountCatalog({ root, readings, searchInput, resultCounter, onSelect, onFilterApplied, onActivity, onSaveCollection, getSettings, onFamilyOpened }) {
   let catalog = indexCatalog(readings);
   for (let index = catalog.length - 1; index > 0; index -= 1) {
     const other = Math.floor(Math.random() * (index + 1));
     [catalog[index], catalog[other]] = [catalog[other], catalog[index]];
   }
 
-  const search = root.querySelector('#search');
+  const search = searchInput ?? root.querySelector('#search');
   const fields = [...root.querySelectorAll('[data-facet]')];
   const languageField = root.querySelector('#filter-language');
   const optionalFields = fields.filter(field => field !== languageField);
@@ -152,7 +152,8 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
   languageField.value = languagePreference ?? language();
   const levelField = root.querySelector('#filter-level');
   const grid = root.querySelector('#reading-grid');
-  const resultCount = root.querySelector('#result-count');
+  const resultCount = resultCounter ?? root.querySelector('#result-count');
+  const catalogHeading = root.querySelector('.catalog-heading');
   const heading = root.querySelector('#readings-title');
   const titleLine = root.querySelector('#catalog-title-line');
   const activeFilters = root.querySelector('#active-filters');
@@ -454,6 +455,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     const plural = { fitxa: '{count} fitxes', família: '{count} famílies', proposta: '{count} propostes' };
     const countLabel = t(total === 1 ? singular[unit] : plural[unit], { count: words.format(total) });
     if (resultCount.textContent !== countLabel) resultCount.textContent = countLabel;
+    setDisclosure(catalogHeading, Boolean(activeCollection) || !activeFilters.hidden);
     emptyState.hidden = total !== 0;
     more.hidden = showing === display.length;
     more.textContent = t('Mostra més ({showing} de {total})', {
@@ -566,6 +568,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     heading.textContent = label;
     collectionTag.textContent = activeCollection?.name ?? '';
     collectionContext.classList.toggle('is-collection', Boolean(activeCollection));
+    titleLine.hidden = !activeCollection;
     collectionExit.disabled = !activeCollection;
     if (changed) animateRefresh(titleLine);
     headingState = nextHeadingState;
@@ -608,7 +611,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
     collectionStatus.textContent = '';
     selectCollection('');
     cardStatus.textContent = t('Has tornat al catàleg de lectures.');
-    heading.focus({ preventScroll: true });
+    search.focus({ preventScroll: true });
   });
   collectionAdd.addEventListener('click', () => { if (activeCollection) startAdding(activeCollection.id); });
   selectionToggle.addEventListener('click', () => {
@@ -819,7 +822,7 @@ export function mountCatalog({ root, readings, onSelect, onFilterApplied, onActi
       const family = catalog.find(item => item.reading.id === readingId)?.reading.familyId;
       const button = [...grid.querySelectorAll('button[data-id]')].find(({ dataset }) => dataset.id === readingId)
         ?? [...grid.querySelectorAll('[data-family-id]')].find(card => family && card.dataset.familyId === family)?.querySelector('.card-open');
-      (button ?? root.querySelector('#readings-title')).focus();
+      (button ?? search).focus();
     },
   };
 }

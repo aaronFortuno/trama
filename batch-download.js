@@ -19,7 +19,7 @@ function batchName(readings) {
     .replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
 }
 
-export function mountBatchDownload({ dialog, trigger, getReadings, getAllReadings, getCollectionId, getSettings, printPages, resetLayouts, saveCollection, onRestore }) {
+export function mountBatchDownload({ dialog, trigger, getReadings, getAllReadings, getCollectionId, getView = () => 'cataleg', getSettings, printPages, resetLayouts, saveCollection, onRestore }) {
   const list = dialog.querySelector('#batch-list');
   const none = dialog.querySelector('#batch-empty');
   const all = dialog.querySelector('#batch-select-all');
@@ -158,6 +158,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getAllReading
     clearBackup();
     setStatus('');
     populateRows();
+    trackFeature('obre_lot', { origen: 'capcalera', vista: getView(), quantitat: countBucket(rows.length), colleccio: Boolean(getCollectionId()) });
   });
   dialog.addEventListener('close', () => {
     if (dialog.open) return;

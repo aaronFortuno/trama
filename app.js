@@ -68,6 +68,8 @@ startAnalytics();
 const catalog = mountCatalog({
   root: catalogView,
   readings,
+  searchInput: document.querySelector('#search'),
+  resultCounter: document.querySelector('#result-count'),
   onSelect: openCatalogReading,
   onFilterApplied: trackFilterApplied,
   onActivity: (name, data) => trackFeature(name, Object.fromEntries(Object.entries(data)
@@ -155,6 +157,7 @@ mountBatchDownload({
   getReadings: catalog.matchingReadings,
   getAllReadings: () => readings,
   getCollectionId: () => catalog.activeCollection()?.id,
+  getView: () => studioView.hidden ? 'cataleg' : 'lectura',
   getSettings: studio.exportSettings,
   printPages: studio.printPages,
   resetLayouts: studio.resetAllLayouts,
@@ -225,7 +228,7 @@ function focusStudio() {
   main.scrollTop = 0;
 }
 
-function showCatalog() {
+function showCatalog({ focusReading = true } = {}) {
   const wasInStudio = !studioView.hidden;
   studio.dismissMenu();
   studioView.querySelector('dialog[open]')?.close();
@@ -233,7 +236,7 @@ function showCatalog() {
   studioView.hidden = true;
   document.body.classList.remove('is-studio');
   if (wasInStudio) {
-    catalog.focus(currentReadingId);
+    if (focusReading) catalog.focus(currentReadingId);
     animateRefresh(catalogView);
   }
 }
@@ -248,6 +251,12 @@ function goToCatalog() {
   setRoute('');
   showCatalog();
 }
+
+document.querySelector('#search').addEventListener('input', () => {
+  if (studioView.hidden) return;
+  setRoute('');
+  showCatalog({ focusReading: false });
+});
 
 function refreshReadings() {
   readings.splice(publicReadings.length, readings.length, ...personalReadings());

@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.51.4 · 20 de novembre del 2026
+
+Compactem el catàleg: retirem el títol gran, situem el recompte sota el lema i portem el cercador a la capçalera, al costat de l’idioma. La cerca també funciona des d’una lectura i torna al catàleg sense perdre el focus. La impressió en lot passa a una icona amb ajuda a la capçalera. Afegim l’esdeveniment obre_lot per distingir les obertures del diàleg de les generacions de documents, amb context de vista, col·lecció i quantitat agrupada. Conservem la identificació i sortida de les col·leccions i adaptem la disposició a pantalles petites.
+
 ## 1.51.3 · 20 de novembre del 2026
 
 Completem la tanda de quatre famílies de 2n–3r–4t amb L133, Un missatge a la nevera. Les noves versions de 2n tenen entre 47 i 65 paraules, paràgrafs breus i quatre preguntes literals; les ampliacions de 4t desenvolupen la mateixa proposta amb set preguntes. Les vuit obres adaptades disposen de català i castellà, solucionaris, línies ajustades, il·lustracions compartides i marques pròpies. Conservem els originals de 3r. Les setze versions noves han superat la revisió independent i queden provisionals, pendents de validació docent.

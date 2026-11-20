@@ -171,6 +171,9 @@ const stub = `window.umami = { track(name, data) { const payload = {name, data};
 
     // A combined job sends one event, never one event per worksheet or page.
     await page.locator('#batch-open').click();
+    await waitEvent('obre_lot');
+    assert.equal((await events('obre_lot')).length, 1, 'One event per dialog opening');
+    assert.deepEqual((await events('obre_lot'))[0].data, { origen: 'capcalera', vista: 'cataleg', quantitat: '2-5', colleccio: true });
     await page.locator('#batch-print').click();
     await waitEvent('genera_document', 3);
     const batch = (await events('genera_document')).at(-1).data;

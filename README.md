@@ -4,6 +4,8 @@ Catàleg de comprensions lectores imprimibles d’ortogra.fi. Inclou fitxes de 2
 
 El botó d’interrogant de la capçalera obre una guia de cerca, maquetació, col·leccions, solucionaris, impressió i còpies de seguretat. Està disponible des del catàleg i el visor, en l’idioma de la interfície.
 
+El recompte del catàleg apareix sota el lema. El cercador de la capçalera funciona també des d’una lectura i torna al catàleg sense perdre el focus. La icona d’impressora amb fulls apilats obre **Imprimeix un lot**, amb la cerca i els filtres actuals o la col·lecció oberta.
+
 Les versions d’una mateixa lectura comparteixen codi. El selector **Altres versions**, al costat del títol de la fitxa, permet canviar la llengua i conservar els ajustos i el punt de lectura.
 
 Les fletxes del visor obren la lectura anterior o següent seguint la cerca, els filtres i l’ordre del catàleg.
