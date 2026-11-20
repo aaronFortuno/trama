@@ -1,3 +1,7 @@
 # Trama
 
 Actualitza `CHANGELOG.md` amb cada canvi, encara que sigui menor. Quan publiquis una versió, sincronitza la versió i les notes a `index.html` i les traduccions a `locales/es.js`. Fes servir una versió de pedaç per als ajustos menors, com ara de 1.16 a 1.16.1.
+
+Després de preparar una lectura o de modificar-ne el text o les preguntes, aplicar el skill `revisio-coherencia-didactica`, instal·lat a `C:/Users/afortun8/.codex/skills/revisio-coherencia-didactica/SKILL.md`. La [font compartida i versionada](https://github.com/aaronFortuno/sentit/blob/main/skills/revisio-coherencia-didactica/SKILL.md) serveix de referència en altres entorns. Un agent independent de l'autor ha de comprovar plausibilitat, cronologia, causalitat, coneixement dels personatges, preguntes, solucionari i marques de resposta. Corregir els problemes i fer revalidar els elements afectats abans de presentar el material al docent. Cada variant o idioma requereix revisar les seves pròpies dades; no hereta l'aprovació de l'original.
+
+Anomenar **provisional** només una versió que hagi superat aquesta revisió; abans és un **esborrany en revisió**. Registrar el codi, la versió exacta revisada, la data i el resultat final al registre editorial de la tanda, sense necessitat de publicar les iteracions internes. Un canvi editorial posterior requereix nova revisió dels elements afectats. El docent conserva l'última paraula sobre la publicació definitiva.

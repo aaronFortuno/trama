@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## Protocol editorial · 20 de novembre del 2026
+
+Documentem la revisió adversària obligatòria amb un agent independent per a les lectures noves i les revisions: plausibilitat, lògica, preguntes i solucionaris. El skill és compartit amb Sentit. «Provisional» indica revisió independent superada i validació docent pendent. Aquest canvi documenta el procés; no altera les lectures ni la interfície.
+
 ## 1.50.2 · 20 de novembre del 2026
 
 Obrim La redacció del pati amb la Clara i l’Omar de la L070. Les L259–L263 afegeixen cinc lectures de 6è en català i castellà sobre fotografia, entrevistes, opinió, distribució i creació literària. Cada novetat inclou dues il·lustracions coherents, deu preguntes, solucionari, línies i marques de resposta. La guia de l’univers documenta continuïtat, gèneres, aparences i recursos.
