@@ -84,7 +84,7 @@
                 </div>
                 <div class="filter-family-row">
                   <label class="family-only-filter" for="filter-family"><input id="filter-family" data-facet="family" type="checkbox" value="with-variants"><span>Només lectures amb variants</span></label>
-                  <span class="filter-help"><button type="button" aria-label="Què és una família?" aria-describedby="family-help">?</button><span class="filter-help-tip" id="family-help" role="tooltip" popover="manual">Versions d’una mateixa lectura amb textos i preguntes de diferent exigència, per treballar una proposta compartida amb nivells diversos. Les traduccions no compten com a variants.</span></span>
+                  <span class="filter-help"><button type="button" aria-label="Què és una família?" aria-describedby="family-help">?</button><span class="filter-help-tip" id="family-help" role="tooltip" popover="manual">Versions d’una mateixa lectura amb textos i preguntes de diferent exigència. Són una mesura de disseny universal per a l’aprenentatge (DUA): permeten treballar amb tot el grup amb materials adaptats a necessitats i capacitats diverses. Les traduccions no compten com a variants.</span></span>
                 </div>
                 <details class="catalog-extra-filters">
                   <summary>Altres filtres<span id="extra-filter-indicator"></span></summary>
@@ -164,7 +164,7 @@
         </a>
       </p>
       <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.50.4 · Obre l’historial de canvis">v1.50.4</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.50.5 · Obre l’historial de canvis">v1.50.5</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
@@ -269,6 +269,17 @@
           <h3>Fes la fitxa a mida</h3>
           <p>A l’esquerra del visor ajustes tipografia, interlineat, marges, capçalera i peu. A la dreta, imatges i contingut. Al mateix full pots amagar preguntes i ajustar-ne les línies de resposta. Les plantilles permeten aplicar un format habitual a altres lectures.</p>
         </section>
+        <section class="help-family-topic">
+          <div class="help-topic-copy">
+            <h3>Una mateixa lectura, diferents camins</h3>
+            <p>Les famílies són una mesura de disseny universal per a l’aprenentatge (DUA). Permeten compartir una mateixa història, tema i activitat amb tot el grup, oferint textos i preguntes adaptats a les diferents necessitats i capacitats de l’alumnat.</p>
+            <p>Busca les targetes apilades o activa «Només lectures amb variants». En obrir una família pots veure i comparar les versions abans de triar-ne una. Cada variant conserva el seu maquetat: pots ajustar lletra, espais i preguntes sense canviar les altres. El docent decideix quina proposta convé en cada moment; les variants no són grups fixos d’alumnes.</p>
+          </div>
+          <figure class="help-example help-family-example">
+            <img src="assets/help/family-stack.webp" width="566" height="522" alt="Detall real d’una targeta de família amb tres variants i dues capes visibles al darrere." loading="lazy" decoding="async">
+            <figcaption>Una pila de targetes identifica una lectura amb variants.</figcaption>
+          </figure>
+        </section>
         <section>
           <h3>Col·leccions per reutilitzar</h3>
           <p>Activa «Selecciona lectures», marca les targetes i desa la selecció amb un nom. També pots mantenir premuda una targeta o fer clic dret per afegir-la directament a una col·lecció existent o nova.</p>
@@ -277,6 +288,10 @@
         <section>
           <h3>Solucionaris amb pistes</h3>
           <p>Activa «Solucionari» per veure respostes orientatives. Les pistes ressalten fragments del text amb el color i el número de la pregunta. «Veure al text» et porta al fragment vinculat. Pots amagar aquestes marques des de «Pistes al text»; la tria també s’aplica en imprimir.</p>
+          <figure class="help-example help-solution-example">
+            <img src="assets/help/answer-evidence.webp" width="1288" height="358" alt="Exemple d’una resposta orientativa amb el botó ressaltat per veure el fragment del text que la sustenta." loading="lazy" decoding="async">
+            <figcaption>El mateix color connecta la resposta amb les pistes al text.</figcaption>
+          </figure>
         </section>
         <section>
           <h3>Imprimeix una fitxa o un lot</h3>
@@ -353,6 +368,10 @@
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’historial"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
+      <article class="release">
+        <header><h3>v1.50.5</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
+        <p>Expliquem el paper de les variants com a mesura de disseny universal per a l’aprenentatge (DUA), tant al helper del filtre com a l’ajuda. Fem «Com funciona Trama» més ample i hi afegim exemples reals d’una pila de família i d’una resposta amb pistes, amb textos en català i castellà i disposició adaptada al mòbil.</p>
+      </article>
       <article class="release">
         <header><h3>v1.50.4</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
         <p>Fem més visibles les famílies al catàleg: la targeta frontal és una mica més estreta i baixa, amb més separació entre les dues capes de la pila. Conservem la mida del text i les transicions de 220 ms.</p>

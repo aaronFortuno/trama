@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.50.5 · 20 de novembre del 2026
+
+Expliquem el paper de les variants com a mesura de disseny universal per a l’aprenentatge (DUA), tant al helper del filtre com a l’ajuda. Fem «Com funciona Trama» més ample i hi afegim exemples reals d’una pila de família i d’una resposta amb pistes, amb textos en català i castellà i disposició adaptada al mòbil.
+
 ## 1.50.4 · 20 de novembre del 2026
 
 Fem més visibles les famílies al catàleg: la targeta frontal és una mica més estreta i baixa, amb més separació entre les dues capes de la pila. Conservem la mida del text i les transicions de 220 ms.
