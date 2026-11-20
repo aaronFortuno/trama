@@ -21,9 +21,11 @@ Les variants són una mesura de DUA per facilitar una proposta compartida amb di
 | L104 · El banc moll | L104A · 2n inicial | L104 · 3r inicial | L104B · 4t inicial | Provisional, revisió independent superada ES/CA |
 | L107 · Una garlanda de paper | L107A · 2n inicial | L107 · 3r inicial | L107B · 4t inicial | Provisional, revisió independent superada ES/CA |
 | L129 · L’aigua del gerro | L129A · 2n inicial | L129 · 3r inicial | L129B · 4t inicial | Provisional, revisió independent superada ES/CA |
-| L133 · Un missatge a la nevera | L133A · 2n inicial | L133 · 3r inicial | L133B · 4t inicial | Pendent |
+| L133 · Un missatge a la nevera | L133A · 2n inicial | L133 · 3r inicial | L133B · 4t inicial | Provisional, revisió independent superada ES/CA |
 
 Les quatre obres d’origen no tenen un univers assignat. Compartir una temàtica o formar una família no els n’afegeix automàticament cap.
+
+Tanda completada: quatre famílies, vuit obres adaptades i setze versions lingüístiques noves. Els quatre originals de 3r conserven els textos, preguntes i identificadors. Totes les versions noves han superat la revisió independent; la validació docent continua pendent.
 
 La situació de la L129 és fictícia, però el fenomen està contrastat amb l’activitat [Water on the Move de Science World](https://www.scienceworld.ca/resource/water-move/): un clavell blanc en aigua amb colorant permet observar el recorregut de l’aigua cap als pètals. El canvi pot requerir hores o tota la nit; la narració descriu una observació concreta, sense prometre un termini universal. A la versió de 2n es prioritzen els fets explícits; la de 4t desenvolupa el recorregut i el registre abans/després.
 

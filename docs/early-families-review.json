@@ -144,6 +144,54 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L133A",
+      "language": "es",
+      "id": "un-mensaje-en-la-nevera-a-es",
+      "sha256": "905b528b96dd20477bf0f16557d8088b1a4bb4e966ad2b8cadd2def3a3ac89fa",
+      "date": "2026-11-20",
+      "edition": "v1.51.3",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L133A",
+      "language": "ca",
+      "id": "un-mensaje-en-la-nevera-a-ca",
+      "sha256": "24c29b354fc5ae9e6e75710e4080304a5028cb3051fdb8098c7ec7e35fba9141",
+      "date": "2026-11-20",
+      "edition": "v1.51.3",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L133B",
+      "language": "es",
+      "id": "un-mensaje-en-la-nevera-b-es",
+      "sha256": "9affa111c1e6121e92f1e53b350f28c9e600f93f3b895b49d1e2c4978ba7be9f",
+      "date": "2026-11-20",
+      "edition": "v1.51.3",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L133B",
+      "language": "ca",
+      "id": "un-mensaje-en-la-nevera-b-ca",
+      "sha256": "6193a2e9b7c04bd48e4aa752283364f223be40c67f38db648629adcdebad76dd",
+      "date": "2026-11-20",
+      "edition": "v1.51.3",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

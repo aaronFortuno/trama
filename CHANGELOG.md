@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.51.3 · 20 de novembre del 2026
+
+Completem la tanda de quatre famílies de 2n–3r–4t amb L133, Un missatge a la nevera. Les noves versions de 2n tenen entre 47 i 65 paraules, paràgrafs breus i quatre preguntes literals; les ampliacions de 4t desenvolupen la mateixa proposta amb set preguntes. Les vuit obres adaptades disposen de català i castellà, solucionaris, línies ajustades, il·lustracions compartides i marques pròpies. Conservem els originals de 3r. Les setze versions noves han superat la revisió independent i queden provisionals, pendents de validació docent.
+
 ## 1.51.2 · 20 de novembre del 2026
 
 Afegim la família L129, L’aigua del gerro, amb una versió de 2n centrada en fets explícits i quatre preguntes literals i una ampliació de 4t sobre l’observació del canvi de color. Conservem l’original de 3r i la il·lustració. Les quatre versions en català i castellà han superat la revisió independent; documentem la font científica de referència i mantenim obertes les respostes raonables del solucionari.
