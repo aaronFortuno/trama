@@ -41,7 +41,7 @@ const base = 'http://127.0.0.1:4197/';
       const { defaultSettings } = await import('./worksheet-code.js');
       const { renderWorksheet } = await import('./worksheet.js');
       const { loadWorksheetFont } = await import('./worksheet-fonts.js');
-      const entries = readings.filter(r => r.universeIds?.includes('biblioteca-de-les-coses') && +r.code.slice(1) >= 246);
+      const entries = readings.filter(r => r.universeIds?.length && +r.code.slice(1) >= 246);
       const host = document.createElement('div'); host.className = 'worksheet-export-layout'; document.body.append(host);
       let scenarios = 0;
       for (const reading of entries) {
@@ -65,6 +65,15 @@ const base = 'http://127.0.0.1:4197/';
       }
       host.remove(); return { versions: entries.length, scenarios };
     });
+    const worlds = await page.evaluate(async () => {
+      const { universes } = await import('./data/universes.js'); const { readings } = await import('./data/readings.js'); const { groupFamilyCards } = await import('./reading-families.js');
+      return universes.map(universe => ({ id: universe.id, cards: groupFamilyCards(readings.filter(r => r.language === 'es' && r.universeIds?.includes(universe.id)).map(reading => ({ reading }))).length }));
+    });
+    for (const world of worlds) {
+      await field('#filter-universe', world.id);
+      assert.equal(await page.locator('#reading-grid .reading-card').count(), world.cards);
+    }
+    await field('#filter-universe', 'biblioteca-de-les-coses');
     await page.locator('.card-open[data-id="quince-minutos-no-bastan-es"]').click();
     await page.locator('#studio-pages .worksheet-page').first().waitFor();
     const downloading = page.waitForEvent('download');

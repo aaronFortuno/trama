@@ -23,7 +23,12 @@ assert(world.some(item => item.reading.code === 'L208'));
 assert(world.some(item => item.reading.code === 'L246'));
 const unassigned = filterCatalog(indexed, { universe: 'no-universe', language: 'es' });
 assert(!unassigned.some(item => item.reading.code === 'L208'));
-assert.equal(world.length + unassigned.length, readings.filter(r => r.language === 'es').length);
+const assigned = readings.filter(r => r.language === 'es' && r.universeIds?.length);
+assert.equal(assigned.length + unassigned.length, readings.filter(r => r.language === 'es').length);
+for (const universe of universes) {
+  const members = filterCatalog(indexed, { universe: universe.id, language: 'es' });
+  assert(members.some(item => item.reading.code === universe.seedCode), `${universe.id}: seed must belong to its world`);
+}
 const fixture = { title: 'Prova', language: 'ca', paragraphs: ['Una lectura independent.'], universeIds: ['primer', 'segon'], familyId: 'familia-prova' };
 const imported = await importReading(new File([JSON.stringify(fixture)], 'prova.json'));
 assert.deepEqual(imported.universeIds, ['primer', 'segon']);

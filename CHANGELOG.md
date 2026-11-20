@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.50 · 20 de novembre del 2026
+
+Obrim L’observatori del turó a partir de la L175 i hi afegim les L249–L253, en català i castellà: cinc lectures noves amb dues il·lustracions, preguntes, solucionari, línies ajustades i marques de resposta. El món té sis propostes autònomes connectades per en Dani, la Mira i la guia Joana. Documentem continuïtat narrativa, aparença dels personatges i instruccions de les imatges. Les variants de la lectura d’origen hereten l’univers sense modificar-ne el contingut.
+
 ## 1.49.4 · 20 de novembre del 2026
 
 Completem vint famílies noves amb les L180, L202, L203 i L205: notícia esportiva, enllumenat nocturn, transmissió de cançons i un torneig d’escacs. La tanda incorpora quaranta obres adaptades i vuitanta versions en català i castellà, amb reforç, ampliació, solucionaris, línies ajustades i marques al text. Amb el pilot previ hi ha vint-i-una famílies de tres graus. El catàleg arriba a 290 obres concretes i 580 versions lingüístiques; les famílies continuen comptant com una sola proposta. Afegim la taula de gradació i les comprovacions de tota la tanda, inclòs el subratllat de vocabulari que apareix més d’una vegada en un paràgraf.
