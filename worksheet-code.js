@@ -24,6 +24,7 @@ const fonts = Object.fromEntries(Object.entries(worksheetFonts).map(([id, font])
 const positions = { left: 'ESQUERRA', center: 'CENTRE', right: 'DRETA' };
 const textAlignments = { left: 'ESQUERRA', justify: 'JUSTIFICAT' };
 const courseTypography = new Map([
+  ['2-primary', { fontSize: 16, leading: 2.3 }],
   ['3-primary', { fontSize: 14, leading: 2.2 }],
   ['4-primary', { fontSize: 13, leading: 2.1 }],
   ['6-primary', { fontSize: 11, leading: 1.9 }],

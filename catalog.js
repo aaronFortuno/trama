@@ -44,6 +44,7 @@ function savePreference(key, value) {
 
 // Editorial word ranges for the levels covered by the catalogue.
 const lengthLimits = new Map([
+  ['2-primary', { shortMax: 55, mediumMax: 75 }],
   ['3-primary', { shortMax: 125, mediumMax: 145 }],
   ['4-primary', { shortMax: 185, mediumMax: 210 }],
   ['5-primary', { shortMax: 240, mediumMax: 265 }],

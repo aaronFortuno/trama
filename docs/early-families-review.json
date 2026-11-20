@@ -1,0 +1,53 @@
+{
+  "hashScheme": "SHA256 of UTF-8 JSON.stringify(reading) exported by data/readings.js",
+  "readings": [
+    {
+      "code": "L104A",
+      "language": "es",
+      "id": "el-banco-mojado-a-es",
+      "sha256": "8c9c573ab4c7ac46c1c22e34799054c67bedeb4566ae18d3a6fb5873e460dad9",
+      "date": "2026-11-20",
+      "edition": "v1.51",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L104A",
+      "language": "ca",
+      "id": "el-banco-mojado-a-ca",
+      "sha256": "6600e4e2fa1dd00a0a63e3d1619c1c435c1adc5558836036d495e835258a6ef7",
+      "date": "2026-11-20",
+      "edition": "v1.51",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L104B",
+      "language": "es",
+      "id": "el-banco-mojado-b-es",
+      "sha256": "be10c0a18dc40765a3c3bfd568c72ed8477877159de7f2057b4cfdccaf803179",
+      "date": "2026-11-20",
+      "edition": "v1.51",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L104B",
+      "language": "ca",
+      "id": "el-banco-mojado-b-ca",
+      "sha256": "57e7f534d4a9b7603cc4dca3f0d73955d2353459e2f35c9db53823137d78bfdb",
+      "date": "2026-11-20",
+      "edition": "v1.51",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    }
+  ]
+}

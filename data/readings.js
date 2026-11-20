@@ -39,6 +39,7 @@ import { readingsLibraryCa } from './readings-universe-library-ca.js';
 import { readingsFamilyEs, readingsFamilyCa } from './readings-family-library.js';
 import { families } from './families.js';
 import { familyAdaptations } from './family-adaptations.js';
+import { earlyFamilyAdaptations } from './early-family-adaptations.js';
 import { buildFamilyAdaptations } from './family-adaptation-model.js';
 import { universes } from './universes.js';
 import { newUniverseReadings } from './readings-new-universes.js';
@@ -279,4 +280,4 @@ const familySources = [...publicReadings, ...newUniverseReadings].map(reading =>
   };
 });
 
-export const readings = [...familySources, ...buildFamilyAdaptations(familySources, familyAdaptations, families)];
+export const readings = [...familySources, ...buildFamilyAdaptations(familySources, [...familyAdaptations, ...earlyFamilyAdaptations], families)];

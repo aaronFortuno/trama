@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.51 · 20 de novembre del 2026
+
+Estrenem les variants de 2n amb la família L104, El banc moll: suport molt breu amb quatre preguntes literals, original de 3r conservat i ampliació de 4t, en català i castellà. Afegim format inicial de 16 pt i interlineat més ampli per a 2n i intervals d’extensió propis. Documentem els criteris de la tanda i la revisió independent de cada nova versió, provisional i pendent de validació docent.
+
 ## 1.50.5 · 20 de novembre del 2026
 
 Expliquem el paper de les variants com a mesura de disseny universal per a l’aprenentatge (DUA), tant al helper del filtre com a l’ajuda. Fem «Com funciona Trama» més ample i hi afegim exemples reals d’una pila de família i d’una resposta amb pistes, amb textos en català i castellà i disposició adaptada al mòbil.

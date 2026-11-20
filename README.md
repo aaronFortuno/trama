@@ -1,6 +1,6 @@
 # Trama
 
-Catàleg de comprensions lectores imprimibles d’ortogra.fi. Inclou fitxes de 3r de primària a 1r d’ESO en castellà i català. La interfície es pot fer servir en català i castellà. Les fitxes mostren els rètols en l’idioma de la lectura quan hi ha una traducció disponible.
+Catàleg de comprensions lectores imprimibles d’ortogra.fi. Inclou fitxes de 2n de primària a 1r d’ESO en castellà i català. La interfície es pot fer servir en català i castellà. Les fitxes mostren els rètols en l’idioma de la lectura quan hi ha una traducció disponible.
 
 El botó d’interrogant de la capçalera obre una guia de cerca, maquetació, col·leccions, solucionaris, impressió i còpies de seguretat. Està disponible des del catàleg i el visor, en l’idioma de la interfície.
 
@@ -47,6 +47,8 @@ Des d’aquesta carpeta, executa `node tools/serve.cjs` i obre `http://127.0.0.1
 GitHub Pages serveix l’arrel de `main`. El fitxer `.nojekyll` permet servir directament els fitxers estàtics. `CNAME` associa el web a `trama.ortogra.fi`. A Nordweb, el registre `trama` és un CNAME que apunta a `aaronfortuno.github.io.`. Totes les rutes internes són relatives.
 
 ## Ampliar el catàleg
+
+La [tanda de famílies de 2n–3r–4t](docs/early-families.md) parteix de lectures de 3r i incorpora un suport molt breu amb preguntes literals per a 2n i una ampliació per a 4t. La documentació concreta els criteris i conserva el registre de revisió independent de cada llengua i grau.
 
 Abans de crear o relacionar lectures, consulta el [model editorial d’universos, famílies i recorreguts](docs/editorial-model.md). `universeIds` admet zero o diversos universos; `familyId`, una única família opcional. Les traduccions comparteixen obra i codi, mentre que les variants d’exigència d’una família tindran codis propis. El registre d’universos és a `data/universes.js`, i cada univers té una guia narrativa i visual a `docs/universes/`.
 
