@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.51.7 · 20 de novembre del 2026
+
+Afegim la família L113, Una carta plena de blau, amb suport de 2n i ampliació de 4t en català i castellà. El suport presenta una carta breu amb quatre preguntes literals; l’ampliació distingeix fets, propostes i accions futures del mural compartit. Conservem l’original de 3r i la il·lustració. Les quatre versions noves han superat la revisió independent i les comprovacions locals.
+
 ## 1.51.6 · 20 de novembre del 2026
 
 Afegim la família L111, Gots de tres colors, amb suport de 2n i ampliació de 4t en català i castellà. La recepta manté ingredients, quatre racions i l’ordre de les capes de l’original de 3r; el suport té quatre preguntes literals i l’ampliació treballa repartiment, seqüència i presentació. Les quatre versions noves han superat la revisió independent i les comprovacions locals.

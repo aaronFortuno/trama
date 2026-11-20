@@ -288,6 +288,54 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L113A",
+      "language": "es",
+      "id": "una-carta-llena-de-azul-a-es",
+      "sha256": "110c9cf4d2b60d7f1568d1444f3e95fd34cde586e284eaafca29bec397557975",
+      "date": "2026-11-20",
+      "edition": "v1.51.7",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L113A",
+      "language": "ca",
+      "id": "una-carta-llena-de-azul-a-ca",
+      "sha256": "f739f3a2560fc8891340db1f718268f292a3a82d12d58edf11f49d90c5128bab",
+      "date": "2026-11-20",
+      "edition": "v1.51.7",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L113B",
+      "language": "es",
+      "id": "una-carta-llena-de-azul-b-es",
+      "sha256": "857cc40c12e2cf695652903e98636740242c461e0a2435ce284fd43c9d302d3e",
+      "date": "2026-11-20",
+      "edition": "v1.51.7",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L113B",
+      "language": "ca",
+      "id": "una-carta-llena-de-azul-b-ca",
+      "sha256": "2dcd0c403842637619943d34f4fd85c35a100b53dadd9cb4a655059b396e265c",
+      "date": "2026-11-20",
+      "edition": "v1.51.7",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

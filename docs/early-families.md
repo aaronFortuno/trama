@@ -37,7 +37,7 @@ Mateix perfil de suport de 2n i ampliació de 4t, amb narració, recepta, carta 
 | --- | --- | --- | --- | --- |
 | L106 · El guant de ratlles | L106A · 2n inicial | L106 · 3r intermèdia | L106B · 4t inicial | Provisional, revisió independent superada ES/CA |
 | L111 · Gots de tres colors | L111A · 2n inicial | L111 · 3r inicial | L111B · 4t inicial | Provisional, revisió independent superada ES/CA |
-| L113 · Una carta plena de blau | L113A · 2n inicial | L113 · 3r intermèdia | L113B · 4t inicial | Pendent |
+| L113 · Una carta plena de blau | L113A · 2n inicial | L113 · 3r intermèdia | L113B · 4t inicial | Provisional, revisió independent superada ES/CA |
 | L138 · Una bústia a la biblioteca | L138A · 2n inicial | L138 · 3r intermèdia | L138B · 4t inicial | Pendent |
 
 La situació de la L129 és fictícia, però el fenomen està contrastat amb l’activitat [Water on the Move de Science World](https://www.scienceworld.ca/resource/water-move/): un clavell blanc en aigua amb colorant permet observar el recorregut de l’aigua cap als pètals. El canvi pot requerir hores o tota la nit; la narració descriu una observació concreta, sense prometre un termini universal. A la versió de 2n es prioritzen els fets explícits; la de 4t desenvolupa el recorregut i el registre abans/després.

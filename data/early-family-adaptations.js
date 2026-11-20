@@ -232,4 +232,43 @@ export const earlyFamilyAdaptations = [
       q('opinion', 3, 'Propón cómo podríais repartiros la preparación entre dos compañeros, contando con el adulto para cortar.', 'Proposa com us podríeu repartir la preparació entre dos companys, comptant amb l’adult per tallar.', 'Respuesta abierta con un reparto compatible con el orden de la receta; por ejemplo, preparar los vasos y repartir una capa cada uno.', 'Resposta oberta amb un repartiment compatible amb l’ordre de la recepta; per exemple, preparar els gots i repartir una capa cadascú.'),
     ],
   },
+  {
+    source: 'L113', suffix: 'A', level: '2-primary', difficulty: 'initial',
+    summary: ['La clase de los Pinos pide dibujos de peces para un mural.', 'La classe dels Pins demana dibuixos de peixos per a un mural.'],
+    paragraphs: [
+      ['¡Hola, Ardillas!', 'Hola, Esquirols!'],
+      ['Somos la clase de los Pinos. Gracias por el dibujo del mar. El dibujo está junto a la puerta.', 'Som la classe dels Pins. Gràcies pel dibuix del mar. El dibuix és al costat de la porta.'],
+      ['Queremos hacer un mural del mar. Os pedimos dibujos de peces. Nosotros haremos el cielo y las rocas.', 'Volem fer un mural del mar. Us demanem dibuixos de peixos. Nosaltres farem el cel i les roques.'],
+      ['Pegaremos los peces entre las olas. Al terminar, os enviaremos una foto del mural.', 'Enganxarem els peixos entre les onades. Quan acabem, us enviarem una foto del mural.'],
+      ['Un abrazo,\nLa clase de los Pinos', 'Una abraçada,\nLa classe dels Pins'],
+    ],
+    imageAfter: [2],
+    questions: [
+      q('literal', 1, '¿Qué clase escribe la carta?', 'Quina classe escriu la carta?', 'La clase de los Pinos.', 'La classe dels Pins.', [2, 'Somos la clase de los Pinos.', 'Som la classe dels Pins.']),
+      q('literal', 1, '¿Dónde está el dibujo del mar?', 'On és el dibuix del mar?', 'Junto a la puerta.', 'Al costat de la porta.', [2, 'junto a la puerta', 'al costat de la porta']),
+      q('literal', 1, '¿Qué dibujos piden?', 'Quins dibuixos demanen?', 'Dibujos de peces.', 'Dibuixos de peixos.', [3, 'Os pedimos dibujos de peces.', 'Us demanem dibuixos de peixos.']),
+      q('literal', 1, '¿Qué enviarán al terminar el mural?', 'Què enviaran quan acabin el mural?', 'Una foto del mural.', 'Una foto del mural.', [4, 'una foto del mural', 'una foto del mural']),
+    ],
+  },
+  {
+    source: 'L113', suffix: 'B', level: '4-primary', difficulty: 'initial',
+    summary: ['Una clase propone a otra compartir un mural y explica cómo unir las piezas.', 'Una classe proposa a una altra compartir un mural i explica com unir les peces.'],
+    paragraphs: [
+      ['¡Hola, clase de las Ardillas!\nSomos la clase de los Pinos. Hemos recibido vuestro dibujo del mar y lo hemos colgado cerca de la puerta. Gracias por enviárnoslo. Cada mañana nos detenemos a mirar un detalle que el día anterior se nos había escapado.', 'Hola, classe dels Esquirols!\nSom la classe dels Pins. Hem rebut el vostre dibuix del mar i l’hem penjat prop de la porta. Gràcies per enviar-nos-el. Cada matí ens aturem a mirar un detall que el dia abans ens havia passat per alt.'],
+      ['Nos gusta el cielo oscuro, la espuma blanca y el barco pequeño entre las olas. Desde nuestras ventanas vemos una montaña, pero no el mar. Vuestro dibujo nos ayuda a imaginar un paisaje distinto del que tenemos delante al levantar la vista de la mesa.', 'Ens agraden el cel fosc, l’escuma blanca i el vaixell petit entre les onades. Des de les finestres veiem una muntanya, però no el mar. El vostre dibuix ens ajuda a imaginar un paisatge diferent del que tenim al davant quan aixequem la vista de la taula.'],
+      ['En mayo queremos hacer un mural del mar en el pasillo. Nos gustaría prepararlo con vosotros, aunque trabajemos en escuelas diferentes. Nosotros podemos dibujar el cielo y las rocas sobre un papel grande. Os proponemos que dibujéis peces en hojas aparte, para pegarlos después entre las olas.', 'Al maig volem fer un mural del mar al passadís. Ens agradaria preparar-lo amb vosaltres, encara que treballem en escoles diferents. Nosaltres podem dibuixar el cel i les roques damunt d’un paper gran. Us proposem que dibuixeu peixos en fulls a part, per enganxar-los després entre les onades.'],
+      ['Podéis hacer peces grandes y pequeños. Dejad un borde blanco alrededor de cada uno para que podamos recortarlos bien. Enviadnos las hojas sin recortar. Cuando lleguen, los recortaremos en nuestra clase y decidiremos cómo colocarlos y qué espacio dejamos entre ellos.', 'Podeu fer peixos grans i petits. Deixeu una vora blanca al voltant de cadascun perquè els puguem retallar bé. Envieu-nos els fulls sense retallar. Quan arribin, retallarem els peixos a la nostra classe i decidirem com col·locar-los i quin espai deixem entre ells.'],
+      ['Cuando el mural esté terminado, os enviaremos una foto para que veáis dónde ha quedado cada pez. También prepararemos un dibujo de nuestra montaña, con la nieve que hoy asomaba en la cima. Así tendréis una imagen del paisaje que vemos nosotros.\nUn abrazo,\nLa clase de los Pinos', 'Quan el mural estigui acabat, us enviarem una foto perquè vegeu on ha quedat cada peix. També prepararem un dibuix de la nostra muntanya, amb la neu que avui es veia al cim. Així tindreu una imatge del paisatge que veiem nosaltres.\nUna abraçada,\nLa classe dels Pins'],
+    ],
+    imageAfter: [3],
+    questions: [
+      q('literal', 1, '¿Quién escribe la carta y a qué clase?', 'Qui escriu la carta i a quina classe?', 'La clase de los Pinos escribe a la de las Ardillas.', 'La classe dels Pins escriu a la dels Esquirols.', [1, 'clase de las Ardillas', 'classe dels Esquirols'], [1, 'Somos la clase de los Pinos.', 'Som la classe dels Pins.']),
+      q('inference', 2, '¿Por qué el dibujo del mar les permite conocer un paisaje distinto?', 'Per què el dibuix del mar els permet conèixer un paisatge diferent?', 'Porque desde su escuela ven una montaña y no el mar; el dibujo aporta un paisaje que no tienen delante.', 'Perquè des de l’escola veuen una muntanya i no el mar; el dibuix aporta un paisatge que no tenen al davant.', [2, 'vemos una montaña, pero no el mar', 'veiem una muntanya, però no el mar']),
+      q('literal', 2, '¿Qué partes proponen los Pinos para cada clase?', 'Quines parts proposen els Pins per a cada classe?', 'Los Pinos harían el cielo y las rocas; las Ardillas, los peces.', 'Els Pins farien el cel i les roques; els Esquirols, els peixos.', [3, 'Nosotros podemos dibujar el cielo y las rocas', 'Nosaltres podem dibuixar el cel i les roques'], [3, 'que dibujéis peces en hojas aparte', 'que dibuixeu peixos en fulls a part']),
+      q('inference', 2, '¿Para qué piden peces en hojas aparte y con borde blanco?', 'Per a què demanen peixos en fulls a part i amb vora blanca?', 'Para poder recortarlos y decidir después cómo colocarlos en el mural.', 'Per poder retallar-los i decidir després com col·locar-los al mural.', [4, 'para que podamos recortarlos bien', 'perquè els puguem retallar bé'], [4, 'cómo colocarlos', 'com col·locar-los']),
+      q('literal', 1, '¿Dónde quieren colocar el mural?', 'On volen col·locar el mural?', 'En el pasillo.', 'Al passadís.', [3, 'en el pasillo', 'al passadís']),
+      q('structure', 2, '¿Qué enviarán cuando terminen el mural? Distingue esa promesa de lo que ya han recibido.', 'Què enviaran quan acabin el mural? Distingeix aquella promesa del que ja han rebut.', 'Enviarán una foto del mural y también un dibujo de su montaña. Ya han recibido un dibujo del mar.', 'Enviaran una foto del mural i també un dibuix de la seva muntanya. Ja han rebut un dibuix del mar.', [1, 'Hemos recibido vuestro dibujo del mar', 'Hem rebut el vostre dibuix del mar'], [5, 'os enviaremos una foto', 'us enviarem una foto'], [5, 'un dibujo de nuestra montaña', 'un dibuix de la nostra muntanya']),
+      q('opinion', 3, '¿Qué preguntarías antes de empezar a dibujar los peces? Explica para qué serviría tu pregunta.', 'Què preguntaries abans de començar a dibuixar els peixos? Explica per a què serviria la pregunta.', 'Respuesta abierta sobre un aspecto útil de la preparación, como tamaño del papel, fecha de envío o materiales; no necesita una respuesta que ya figure en la carta.', 'Resposta oberta sobre un aspecte útil de la preparació, com mida del paper, data d’enviament o materials; no necessita una resposta que ja figuri a la carta.'),
+    ],
+  },
 ];
