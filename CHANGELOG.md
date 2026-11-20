@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.50.2 · 20 de novembre del 2026
+
+Obrim La redacció del pati amb la Clara i l’Omar de la L070. Les L259–L263 afegeixen cinc lectures de 6è en català i castellà sobre fotografia, entrevistes, opinió, distribució i creació literària. Cada novetat inclou dues il·lustracions coherents, deu preguntes, solucionari, línies i marques de resposta. La guia de l’univers documenta continuïtat, gèneres, aparences i recursos.
+
 ## 1.50.1 · 20 de novembre del 2026
 
 Obrim El taller de la plaça a partir de la L039 i hi afegim les L254–L258 en català i castellà. Sis propostes autònomes comparteixen la Irene, en Hugo i l’Asha, amb narració, instruccions, carta, entrevista i notícia. Les cinc lectures noves inclouen dues il·lustracions, preguntes, solucionari, línies ajustades i marques de resposta. Documentem escenari, personatges, identitat visual i possibles continuacions.

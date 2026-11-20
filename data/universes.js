@@ -27,6 +27,15 @@ export const universes = [
     },
     seedCode: 'L039',
   },
+  {
+    id: 'redaccio-del-pati',
+    name: { ca: 'La redacció del pati', es: 'La redacción del patio' },
+    description: {
+      ca: 'La Clara i l’Omar fan un diari escolar que escolta veus, contrasta informació i també deixa lloc a la creació. Cada número obre una història independent.',
+      es: 'Clara y Omar hacen un periódico escolar que escucha voces, contrasta información y también deja lugar a la creación. Cada número abre una historia independiente.',
+    },
+    seedCode: 'L070',
+  },
 ];
 
 export const universeById = new Map(universes.map(universe => [universe.id, universe]));
