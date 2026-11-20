@@ -9,10 +9,18 @@ export function mountPreviewZoom(stage, pages, tools) {
   const output = tools.querySelector('output');
   let zoom = 1;
 
-  function size() {
+  function size({ keepScroll = false } = {}) {
     const style = getComputedStyle(stage);
     const width = stage.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight);
+    const top = stage.getBoundingClientRect().top;
+    const anchor = keepScroll && stage.scrollTop > 0
+      ? [...pages.children].find(slot => slot.getBoundingClientRect().bottom > top) : null;
+    const before = anchor?.getBoundingClientRect();
     if (width > 0) pages.style.setProperty('--preview-scale', String(Math.min(1, width / paperWidth) * zoom));
+    if (before?.height) {
+      const after = anchor.getBoundingClientRect();
+      stage.scrollTop += after.top + (top - before.top) * after.height / before.height - top;
+    }
     const label = `${Math.round(100 * zoom)} %`;
     if (output.value !== label) output.value = label;
     smaller.disabled = zoom <= minZoom;
@@ -53,7 +61,7 @@ export function mountPreviewZoom(stage, pages, tools) {
       change(event.key === '0' ? 1 : event.key === '-' ? zoom / 1.2 : zoom * 1.2);
     }
   });
-  new ResizeObserver(size).observe(stage);
+  new ResizeObserver(() => size({ keepScroll: true })).observe(stage);
   return {
     size,
     reset() {

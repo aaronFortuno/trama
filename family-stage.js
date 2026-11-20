@@ -12,6 +12,7 @@ export const familyStageMarkup = `
   <div class="family-stage" id="family-stage" role="group" aria-label="Variants de la lectura" hidden>
     <div class="family-stage-siblings"></div>
     <span id="family-stage-position"></span>
+    <span id="family-stage-focus-help" class="visually-hidden"></span>
     ${['previous', 'next'].map(side => `<div class="family-stage-toolbar" data-side="${side}" hidden>
       <button class="button studio-compare" type="button" aria-label="Compara les variants" aria-haspopup="dialog" aria-controls="family-comparison-dialog">${icon('columns-2')} <span>Compara</span></button>
     </div>`).join('')}
@@ -23,11 +24,46 @@ export function mountFamilyStage({ root, readings, getSettings, isOutsideCollect
   const window = root.querySelector('.studio-preview-window');
   const stage = root.querySelector('.studio-paper-stage');
   const pages = root.querySelector('#studio-pages');
+  const zoomTools = root.querySelector('.studio-zoom');
   let key;
+  let activeReadingId;
   let generation = 0;
   let from;
   let enteringFrame;
   let entering;
+
+  const insideReading = target => target instanceof Node && (stage.contains(target) || zoomTools.contains(target));
+  function focusReading(expanded) {
+    expanded = Boolean(expanded && stage.classList.contains('has-family'));
+    window.classList.toggle('is-reading-focused', expanded);
+    siblings.inert = expanded;
+    scene.querySelectorAll('.family-stage-toolbar').forEach(toolbar => { toolbar.inert = expanded; });
+  }
+  window.addEventListener('click', event => {
+    if (!insideReading(event.target)) return;
+    if (!zoomTools.contains(event.target) && !event.target.closest('.worksheet-page')) return;
+    focusReading(true);
+    if (!event.target.closest('button, a, input, select, textarea, [contenteditable]')) stage.focus({ preventScroll: true });
+  });
+  window.addEventListener('focusin', event => {
+    if (insideReading(event.target) && (event.target === stage || event.target.matches(':focus-visible'))) focusReading(true);
+  });
+  window.addEventListener('focusout', event => {
+    if (event.relatedTarget && !insideReading(event.relatedTarget)) focusReading(false);
+  });
+  document.addEventListener('pointerdown', event => {
+    if (!insideReading(event.target)) focusReading(false);
+  });
+  globalThis.addEventListener('blur', () => focusReading(false));
+  stage.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && window.classList.contains('is-reading-focused')) {
+      event.preventDefault();
+      focusReading(false);
+    } else if (event.key === 'Enter' && event.target === stage && stage.classList.contains('has-family')) {
+      event.preventDefault();
+      focusReading(true);
+    }
+  });
 
   scene.querySelectorAll('.studio-compare').forEach(button => button.addEventListener('click', () => onCompare(button.dataset.reading)));
 
@@ -44,9 +80,21 @@ export function mountFamilyStage({ root, readings, getSettings, isOutsideCollect
       const request = ++generation;
       const members = familyMembers(readings, reading);
       const enabled = members.length > 1;
+      if (activeReadingId !== reading.id) focusReading(false);
+      activeReadingId = reading.id;
       scene.hidden = !enabled;
       stage.classList.toggle('has-family', enabled);
       window.classList.toggle('has-family', enabled);
+      const focusHelp = t('Fes clic al full per ampliar-lo. Clica fora o prem Esc per tornar a veure les variants.');
+      scene.querySelector('#family-stage-focus-help').textContent = focusHelp;
+      if (enabled) {
+        stage.setAttribute('aria-describedby', 'family-stage-focus-help');
+        pages.title = focusHelp;
+      } else {
+        stage.removeAttribute('aria-describedby');
+        pages.removeAttribute('title');
+        focusReading(false);
+      }
       siblings.replaceChildren();
       scene.querySelectorAll('.family-stage-toolbar').forEach(toolbar => { toolbar.hidden = true; });
       if (!enabled) {

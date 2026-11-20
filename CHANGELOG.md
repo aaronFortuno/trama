@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.51.10 · 20 de novembre del 2026
+
+A la vista de família, un clic al full actiu l’amplia a l’espai habitual del visor i aparta les variants veïnes. En clicar fora, moure el focus a un altre control o prémer Esc, torna a la composició de família. El zoom continua disponible i es conserva el punt de lectura durant el canvi de mida, amb transicions de 220 ms. També funciona amb teclat i en pantalles petites, sense modificar els maquetats ni els documents impresos.
+
 ## 1.51.9 · 20 de novembre del 2026
 
 Afegim la plantilla Cicle inicial: Massallera de 15 pt, interlineat 1,15×, 10 mm entre paràgrafs, 20 mm abans de les preguntes, marges superior/inferior de 20 mm i esquerre/dret de 25 mm. És el format inicial de 1r i 2n i també es pot aplicar des de Plantilles. Conservem els maquetats desats i els ajustos personals de la sessió; Restableix recupera el format del curs.
