@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.51.1 · 20 de novembre del 2026
+
+Afegim la família L107, Una garlanda de paper, amb suport de 2n de frases curtes i quatre preguntes literals i ampliació de 4t que desenvolupa l’ordre i les comprovacions de la construcció. Conservem l’original de 3r i les il·lustracions. Les quatre versions noves, en català i castellà, han superat la revisió independent i les comprovacions locals.
+
 ## 1.51 · 20 de novembre del 2026
 
 Estrenem les variants de 2n amb la família L104, El banc moll: suport molt breu amb quatre preguntes literals, original de 3r conservat i ampliació de 4t, en català i castellà. Afegim format inicial de 16 pt i interlineat més ampli per a 2n i intervals d’extensió propis. Documentem els criteris de la tanda i la revisió independent de cada nova versió, provisional i pendent de validació docent.

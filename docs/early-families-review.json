@@ -48,6 +48,54 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L107A",
+      "language": "es",
+      "id": "una-guirnalda-de-papel-a-es",
+      "sha256": "c015a97c8a56d23a5d6aaf061bb091a24dceefc54b2f065d161a006900d229a6",
+      "date": "2026-11-20",
+      "edition": "v1.51.1",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L107A",
+      "language": "ca",
+      "id": "una-guirnalda-de-papel-a-ca",
+      "sha256": "fe68ffe5a5eeb82b725783b850afb4ea6cd1b0d8e6f11a03ac9144ae62893454",
+      "date": "2026-11-20",
+      "edition": "v1.51.1",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L107B",
+      "language": "es",
+      "id": "una-guirnalda-de-papel-b-es",
+      "sha256": "e4a747d0e1af5144534e2e6363ca5ef48aa4d01f5d1da0725fc55994e32cc355",
+      "date": "2026-11-20",
+      "edition": "v1.51.1",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L107B",
+      "language": "ca",
+      "id": "una-guirnalda-de-papel-b-ca",
+      "sha256": "fa0fbeaec9b55aad2716806ddf91819a748502b0f55a01d8d4234a87c3225698",
+      "date": "2026-11-20",
+      "edition": "v1.51.1",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

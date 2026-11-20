@@ -39,4 +39,42 @@ export const earlyFamilyAdaptations = [
       q('opinion', 3, 'Propón otro lugar para leer después de llover. Explica qué comprobarías antes de dejar allí un libro.', 'Proposa un altre lloc per llegir després de ploure. Explica què comprovaries abans de deixar-hi un llibre.', 'Respuesta abierta que proponga un sitio plausible y compruebe que la superficie está seca y permite leer.', 'Resposta oberta que proposi un lloc plausible i comprovi que la superfície és seca i permet llegir.'),
     ],
   },
+  {
+    source: 'L107', suffix: 'A', level: '2-primary', difficulty: 'initial',
+    summary: ['Une aros de papel para hacer una cadena de colores.', 'Uneix anelles de paper per fer una cadena de colors.'],
+    paragraphs: [
+      ['Vamos a hacer una cadena de papel para decorar. Prepara seis tiras de papel y cinta adhesiva.', 'Farem una cadena de paper per decorar. Prepara sis tires de paper i cinta adhesiva.'],
+      ['1. Coge una tira. Junta las puntas. Pégalas con cinta. Ya tienes un aro.', '1. Agafa una tira. Ajunta les puntes. Enganxa-les amb cinta. Ja tens una anella.'],
+      ['2. Pasa la segunda tira por dentro del aro. Pega las puntas de la tira. Los dos aros están unidos.', '2. Passa la segona tira per dins de l’anella. Enganxa les puntes de la tira. Les dues anelles estan unides.'],
+      ['3. Haz lo mismo con las otras tiras. Pide ayuda para colgar la cadena.', '3. Fes el mateix amb les altres tires. Demana ajuda per penjar la cadena.'],
+    ],
+    imageAfter: [2],
+    questions: [
+      q('literal', 1, '¿Cuántas tiras necesitas?', 'Quantes tires et calen?', 'Seis.', 'Sis.', [1, 'Prepara seis tiras de papel', 'Prepara sis tires de paper']),
+      q('literal', 1, '¿Con qué pegas las puntas?', 'Amb què enganxes les puntes?', 'Con cinta adhesiva.', 'Amb cinta adhesiva.', [1, 'cinta adhesiva', 'cinta adhesiva']),
+      q('literal', 1, '¿Por dónde pasas la segunda tira?', 'Per on passes la segona tira?', 'Por dentro del aro.', 'Per dins de l’anella.', [3, 'por dentro del aro', 'per dins de l’anella']),
+      q('literal', 1, '¿Para qué sirve la cadena?', 'Per a què serveix la cadena?', 'Para decorar.', 'Per decorar.', [1, 'para decorar', 'per decorar']),
+    ],
+  },
+  {
+    source: 'L107', suffix: 'B', level: '4-primary', difficulty: 'initial',
+    summary: ['Construye una guirnalda de seis aros y comprueba cada unión antes de continuar.', 'Construeix una garlanda de sis anelles i comprova cada unió abans de continuar.'],
+    paragraphs: [
+      ['Una guirnalda es una cadena que sirve para decorar. Puedes hacerla con hojas usadas y darle color antes de montar los aros. Prepara papel, tijeras de punta redonda y cinta adhesiva. Trabaja sobre una mesa con espacio para extender las tiras.', 'Una garlanda és una cadena que serveix per decorar. La pots fer amb fulls usats i donar-hi color abans de muntar les anelles. Prepara paper, tisores de punta rodona i cinta adhesiva. Treballa damunt d’una taula amb espai per estendre les tires.'],
+      ['1. Corta seis tiras del mismo tamaño. Ponlas una junto a otra para compararlas. Si decides pintarlas, deja que se sequen antes de pegarlas. Así no mancharás las partes que ya estén terminadas.', '1. Talla sis tires de la mateixa mida. Posa-les l’una al costat de l’altra per comparar-les. Si decideixes pintar-les, deixa que s’assequin abans d’enganxar-les. Així no tacaràs les parts que ja estiguin acabades.'],
+      ['2. Coge la primera tira y acerca sus puntas hasta formar un aro. Haz que se monten un poco y únelas con cinta. Comprueba que la unión no se abre cuando sueltas el papel.', '2. Agafa la primera tira i acosta’n les puntes fins a formar una anella. Fes que se sobreposin una mica i uneix-les amb cinta. Comprova que la unió no s’obre quan deixes anar el paper.'],
+      ['3. Pasa la segunda tira, todavía abierta, por dentro del primer aro. Después pega sus puntas. Levanta suavemente el primer aro: el segundo debe quedar colgado de él. Si has cerrado los dos por separado, tendrás dos aros, pero aún no una cadena.', '3. Passa la segona tira, encara oberta, per dins de la primera anella. Després enganxa’n les puntes. Aixeca suaument la primera anella: la segona n’ha de quedar penjada. Si les has tancades totes dues per separat, tindràs dues anelles, però encara no una cadena.'],
+      ['4. Añade las otras tiras del mismo modo, siempre pasando la nueva por el último aro antes de cerrarla. Al terminar, cuenta los seis aros y revisa las uniones. Pide ayuda para colgar la guirnalda por sus dos extremos, sin estirarla con fuerza.', '4. Afegeix les altres tires de la mateixa manera, passant sempre la nova per l’última anella abans de tancar-la. Quan acabis, compta les sis anelles i revisa les unions. Demana ajuda per penjar la garlanda per les dues puntes, sense estirar-la amb força.'],
+    ],
+    imageAfter: [3],
+    questions: [
+      q('literal', 1, '¿Qué puedes aprovechar para hacer la guirnalda?', 'Què pots aprofitar per fer la garlanda?', 'Hojas usadas.', 'Fulls usats.', [1, 'con hojas usadas', 'amb fulls usats']),
+      q('literal', 1, '¿Cómo compruebas que las tiras tienen el mismo tamaño?', 'Com comproves que les tires tenen la mateixa mida?', 'Poniéndolas una junto a otra para compararlas.', 'Posant-les l’una al costat de l’altra per comparar-les.', [2, 'Ponlas una junto a otra para compararlas.', 'Posa-les l’una al costat de l’altra per comparar-les.']),
+      q('inference', 2, '¿Por qué debes esperar después de pintar y antes de pegar?', 'Per què t’has d’esperar després de pintar i abans d’enganxar?', 'Para que la pintura se seque y no manche otras partes terminadas.', 'Perquè la pintura s’assequi i no taqui altres parts acabades.', [2, 'deja que se sequen antes de pegarlas', 'deixa que s’assequin abans d’enganxar-les']),
+      q('literal', 1, '¿Qué usas para unir las puntas?', 'Què fas servir per unir les puntes?', 'Cinta adhesiva.', 'Cinta adhesiva.', [3, 'únelas con cinta', 'uneix-les amb cinta']),
+      q('structure', 2, 'Explica el orden de estas dos acciones: pasar la segunda tira y cerrar sus puntas.', 'Explica l’ordre d’aquestes dues accions: passar la segona tira i tancar-ne les puntes.', 'Primero se pasa la tira abierta por el primer aro; después se pegan sus puntas.', 'Primer es passa la tira oberta per la primera anella; després se n’enganxen les puntes.', [4, 'todavía abierta, por dentro del primer aro. Después pega sus puntas.', 'encara oberta, per dins de la primera anella. Després enganxa’n les puntes.']),
+      q('inference', 2, '¿Por qué dos aros cerrados por separado todavía no forman una cadena?', 'Per què dues anelles tancades per separat encara no formen una cadena?', 'Porque no están enlazados; hay que pasar una tira por el aro anterior antes de cerrarla.', 'Perquè no estan enllaçades; cal passar una tira per l’anella anterior abans de tancar-la.', [4, 'dos aros, pero aún no una cadena', 'dues anelles, però encara no una cadena']),
+      q('opinion', 3, 'Propón una combinación de colores para tu guirnalda y explica cómo los repartirías entre los seis aros.', 'Proposa una combinació de colors per a la garlanda i explica com els repartiries entre les sis anelles.', 'Respuesta abierta con una distribución coherente para seis aros; puede repetir colores o alternarlos.', 'Resposta oberta amb una distribució coherent per a sis anelles; pot repetir colors o alternar-los.'),
+    ],
+  },
 ];

@@ -19,7 +19,7 @@ Les variants són una mesura de DUA per facilitar una proposta compartida amb di
 | Família | Suport | Original conservat | Ampliació | Estat |
 | --- | --- | --- | --- | --- |
 | L104 · El banc moll | L104A · 2n inicial | L104 · 3r inicial | L104B · 4t inicial | Provisional, revisió independent superada ES/CA |
-| L107 · Una garlanda de paper | L107A · 2n inicial | L107 · 3r inicial | L107B · 4t inicial | Pendent |
+| L107 · Una garlanda de paper | L107A · 2n inicial | L107 · 3r inicial | L107B · 4t inicial | Provisional, revisió independent superada ES/CA |
 | L129 · L’aigua del gerro | L129A · 2n inicial | L129 · 3r inicial | L129B · 4t inicial | Pendent |
 | L133 · Un missatge a la nevera | L133A · 2n inicial | L133 · 3r inicial | L133B · 4t inicial | Pendent |
 
