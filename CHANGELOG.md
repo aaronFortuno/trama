@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.51.2 · 20 de novembre del 2026
+
+Afegim la família L129, L’aigua del gerro, amb una versió de 2n centrada en fets explícits i quatre preguntes literals i una ampliació de 4t sobre l’observació del canvi de color. Conservem l’original de 3r i la il·lustració. Les quatre versions en català i castellà han superat la revisió independent; documentem la font científica de referència i mantenim obertes les respostes raonables del solucionari.
+
 ## 1.51.1 · 20 de novembre del 2026
 
 Afegim la família L107, Una garlanda de paper, amb suport de 2n de frases curtes i quatre preguntes literals i ampliació de 4t que desenvolupa l’ordre i les comprovacions de la construcció. Conservem l’original de 3r i les il·lustracions. Les quatre versions noves, en català i castellà, han superat la revisió independent i les comprovacions locals.

@@ -77,4 +77,42 @@ export const earlyFamilyAdaptations = [
       q('opinion', 3, 'Propón una combinación de colores para tu guirnalda y explica cómo los repartirías entre los seis aros.', 'Proposa una combinació de colors per a la garlanda i explica com els repartiries entre les sis anelles.', 'Respuesta abierta con una distribución coherente para seis aros; puede repetir colores o alternarlos.', 'Resposta oberta amb una distribució coherent per a sis anelles; pot repetir colors o alternar-los.'),
     ],
   },
+  {
+    source: 'L129', suffix: 'A', level: '2-primary', difficulty: 'initial',
+    summary: ['Martina mira una flor blanca en un jarrón con agua azul.', 'La Martina mira una flor blanca en un gerro amb aigua blava.'],
+    paragraphs: [
+      ['Martina tiene un clavel blanco. Es una flor. Martina pone agua en un jarrón.', 'La Martina té un clavell blanc. És una flor. La Martina posa aigua en un gerro.'],
+      ['Añade colorante azul al agua. El agua queda azul. Martina mete el clavel en el jarrón.', 'Afegeix colorant blau a l’aigua. L’aigua queda blava. La Martina posa el clavell al gerro.'],
+      ['Por la tarde, la flor sigue blanca. Martina espera. No pinta la flor.', 'A la tarda, la flor encara és blanca. La Martina espera. No pinta la flor.'],
+      ['Al día siguiente, Martina ve rayas azules en la flor. El agua azul ha subido hasta la flor.', 'L’endemà, la Martina veu ratlles blaves a la flor. L’aigua blava ha pujat fins a la flor.'],
+    ],
+    imageAfter: [2],
+    questions: [
+      q('literal', 1, '¿De qué color es el clavel al principio?', 'De quin color és el clavell al principi?', 'Blanco.', 'Blanc.', [1, 'un clavel blanco', 'un clavell blanc']),
+      q('literal', 1, '¿Qué añade Martina al agua?', 'Què afegeix la Martina a l’aigua?', 'Colorante azul.', 'Colorant blau.', [2, 'Añade colorante azul al agua.', 'Afegeix colorant blau a l’aigua.']),
+      q('literal', 1, '¿Pinta Martina la flor?', 'La Martina pinta la flor?', 'No.', 'No.', [3, 'No pinta la flor.', 'No pinta la flor.']),
+      q('literal', 1, '¿Cuándo ve rayas azules?', 'Quan veu ratlles blaves?', 'Al día siguiente.', 'L’endemà.', [4, 'Al día siguiente, Martina ve rayas azules', 'L’endemà, la Martina veu ratlles blaves']),
+    ],
+  },
+  {
+    source: 'L129', suffix: 'B', level: '4-primary', difficulty: 'initial',
+    summary: ['Un clavel en agua azul permite observar el recorrido del agua y comparar la flor antes y después.', 'Un clavell en aigua blava permet observar el recorregut de l’aigua i comparar la flor abans i després.'],
+    paragraphs: [
+      ['Martina llevó un clavel blanco a clase. La maestra había explicado que una flor cortada puede seguir tomando agua por el tallo. Martina quería observar ese recorrido. Con agua transparente no podía distinguir fácilmente qué partes había alcanzado. Por eso preparó un jarrón con agua y unas gotas de colorante azul.', 'La Martina va portar un clavell blanc a classe. La mestra havia explicat que una flor tallada pot continuar agafant aigua per la tija. La Martina volia observar aquell recorregut. Amb aigua transparent no podia distingir fàcilment quines parts havia assolit. Per això va preparar un gerro amb aigua i unes gotes de colorant blau.'],
+      ['Antes de meter el tallo, dibujó la flor tal como estaba: todos los pétalos eran blancos. Después removió el agua azul y colocó el clavel en el jarrón. Solo la parte de abajo del tallo quedó dentro del agua; los pétalos estaban fuera.', 'Abans de posar-hi la tija, va dibuixar la flor tal com era: tots els pètals eren blancs. Després va remenar l’aigua blava i va col·locar el clavell al gerro. Només la part de baix de la tija va quedar dins de l’aigua; els pètals eren a fora.'],
+      ['Por la tarde volvió a mirar. El agua seguía azul, pero la flor aún parecía blanca. Lo anotó en una hoja y dejó el jarrón sobre la mesa. No había visto un cambio en los pétalos, aunque eso no significaba que el agua no se estuviera moviendo.', 'A la tarda va tornar a mirar. L’aigua continuava blava, però la flor encara semblava blanca. Ho va anotar en un full i va deixar el gerro damunt la taula. No havia vist un canvi als pètals, tot i que allò no volia dir que l’aigua no s’estigués movent.'],
+      ['A la mañana siguiente aparecieron rayas azules en los bordes de algunos pétalos. Martina no había pintado la flor ni había sumergido los pétalos. El agua con colorante había subido por el interior del tallo hasta llegar a ellos.', 'L’endemà al matí van aparèixer ratlles blaves a les vores d’alguns pètals. La Martina no havia pintat la flor ni havia submergit els pètals. L’aigua amb colorant havia pujat per l’interior de la tija fins a arribar-hi.'],
+      ['Martina hizo un segundo dibujo junto al primero. Añadió cuándo había observado cada cambio. Los dos dibujos mostraban una parte de la historia; las notas explicaban que había tenido que esperar entre uno y otro.', 'La Martina va fer un segon dibuix al costat del primer. Hi va afegir quan havia observat cada canvi. Els dos dibuixos mostraven una part de la història; les notes explicaven que havia hagut d’esperar entre l’un i l’altre.'],
+    ],
+    imageAfter: [3],
+    questions: [
+      q('inference', 2, '¿Para qué sirve el colorante en esta observación?', 'Per a què serveix el colorant en aquesta observació?', 'Para hacer visible el recorrido del agua hasta partes de la flor que antes eran blancas.', 'Per fer visible el recorregut de l’aigua fins a parts de la flor que abans eren blanques.', [1, 'Con agua transparente no podía distinguir fácilmente qué partes había alcanzado.', 'Amb aigua transparent no podia distingir fàcilment quines parts havia assolit.']),
+      q('literal', 1, '¿De qué color eran los pétalos antes de colocar el clavel en el jarrón?', 'De quin color eren els pètals abans de col·locar el clavell al gerro?', 'Blancos.', 'Blancs.', [2, 'todos los pétalos eran blancos', 'tots els pètals eren blancs']),
+      q('literal', 2, '¿Qué observó Martina por la tarde en el agua y en la flor?', 'Què va observar la Martina a la tarda a l’aigua i a la flor?', 'El agua seguía azul y la flor aún parecía blanca.', 'L’aigua continuava blava i la flor encara semblava blanca.', [3, 'El agua seguía azul, pero la flor aún parecía blanca.', 'L’aigua continuava blava, però la flor encara semblava blanca.']),
+      q('literal', 1, '¿Dónde aparecieron las rayas azules?', 'On van aparèixer les ratlles blaves?', 'En los bordes de algunos pétalos.', 'A les vores d’alguns pètals.', [4, 'en los bordes de algunos pétalos', 'a les vores d’alguns pètals']),
+      q('inference', 2, '¿Por qué el azul de los pétalos no se explica por haberlos metido en el agua?', 'Per què el blau dels pètals no s’explica per haver-los posat dins de l’aigua?', 'Porque estaban fuera del agua; el agua con colorante llegó a ellos por dentro del tallo.', 'Perquè eren fora de l’aigua; l’aigua amb colorant els va arribar per dins de la tija.', [2, 'los pétalos estaban fuera', 'els pètals eren a fora'], [4, 'por el interior del tallo', 'per l’interior de la tija']),
+      q('structure', 2, '¿Qué información añaden las notas que no se ve solo en los dos dibujos?', 'Quina informació afegeixen les notes que no es veu només en els dos dibuixos?', 'Cuándo observó cada cambio y que pasó tiempo entre el estado inicial y el final.', 'Quan va observar cada canvi i que va passar temps entre l’estat inicial i el final.', [5, 'cuándo había observado cada cambio', 'quan havia observat cada canvi']),
+      q('opinion', 3, 'Un compañero quiere mirar la flor solo al ponerla en el jarrón. ¿Qué le aconsejarías para no perderse los cambios?', 'Un company vol mirar la flor només en posar-la al gerro. Què li aconsellaries per no perdre’s els canvis?', 'Respuesta abierta que proponga volver a observarla en distintos momentos. Anotar o dibujar los cambios es un complemento posible, no obligatorio; no se exige un horario concreto.', 'Resposta oberta que proposi tornar-la a observar en moments diferents. Anotar o dibuixar els canvis és un complement possible, no obligatori; no s’exigeix un horari concret.'),
+    ],
+  },
 ];

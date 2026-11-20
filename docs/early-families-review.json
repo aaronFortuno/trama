@@ -96,6 +96,54 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L129A",
+      "language": "es",
+      "id": "el-agua-del-jarron-a-es",
+      "sha256": "1b078f7de28421749786e59daf626440d6407a4ebadaf1585d92fde5714fd5fc",
+      "date": "2026-11-20",
+      "edition": "v1.51.2",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L129A",
+      "language": "ca",
+      "id": "el-agua-del-jarron-a-ca",
+      "sha256": "7f807e50f2cd7287930e9abedec1301c2dee93154c6045279b7b246e313aeb8b",
+      "date": "2026-11-20",
+      "edition": "v1.51.2",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L129B",
+      "language": "es",
+      "id": "el-agua-del-jarron-b-es",
+      "sha256": "1dd31975817b091f70757b62626f667a556577d61e1d225e50bfaef0fe4a2c9f",
+      "date": "2026-11-20",
+      "edition": "v1.51.2",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L129B",
+      "language": "ca",
+      "id": "el-agua-del-jarron-b-ca",
+      "sha256": "6f5dd07fca1a844b96c6a7632cd456c114f016d76a5a5f565a01d5405c734053",
+      "date": "2026-11-20",
+      "edition": "v1.51.2",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }
