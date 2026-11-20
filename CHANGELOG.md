@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.50.1 · 20 de novembre del 2026
+
+Obrim El taller de la plaça a partir de la L039 i hi afegim les L254–L258 en català i castellà. Sis propostes autònomes comparteixen la Irene, en Hugo i l’Asha, amb narració, instruccions, carta, entrevista i notícia. Les cinc lectures noves inclouen dues il·lustracions, preguntes, solucionari, línies ajustades i marques de resposta. Documentem escenari, personatges, identitat visual i possibles continuacions.
+
 ## 1.50 · 20 de novembre del 2026
 
 Obrim L’observatori del turó a partir de la L175 i hi afegim les L249–L253, en català i castellà: cinc lectures noves amb dues il·lustracions, preguntes, solucionari, línies ajustades i marques de resposta. El món té sis propostes autònomes connectades per en Dani, la Mira i la guia Joana. Documentem continuïtat narrativa, aparença dels personatges i instruccions de les imatges. Les variants de la lectura d’origen hereten l’univers sense modificar-ne el contingut.

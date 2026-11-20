@@ -18,6 +18,15 @@ export const universes = [
     },
     seedCode: 'L175',
   },
+  {
+    id: 'taller-de-la-placa',
+    name: { ca: 'El taller de la plaça', es: 'El taller de la plaza' },
+    description: {
+      ca: 'La Irene, en Hugo i l’Asha reparen, pregunten i comparteixen oficis en un taller obert al barri. Cada encàrrec és una lectura independent.',
+      es: 'Irene, Hugo y Asha reparan, preguntan y comparten oficios en un taller abierto al barrio. Cada encargo es una lectura independiente.',
+    },
+    seedCode: 'L039',
+  },
 ];
 
 export const universeById = new Map(universes.map(universe => [universe.id, universe]));
