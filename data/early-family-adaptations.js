@@ -193,4 +193,43 @@ export const earlyFamilyAdaptations = [
       q('opinion', 3, 'Propón qué podrías hacer con ayuda de un adulto si encontraras un objeto y nadie lo buscara en ese momento.', 'Proposa què podries fer amb ajuda d’un adult si trobessis un objecte i ningú no el busqués en aquell moment.', 'Respuesta abierta con una acción razonable para cuidarlo y facilitar que llegue a su propietario, según el lugar.', 'Resposta oberta amb una acció raonable per cuidar-lo i facilitar que arribi al propietari, segons el lloc.'),
     ],
   },
+  {
+    source: 'L111', suffix: 'A', level: '2-primary', difficulty: 'initial',
+    summary: ['Prepara cuatro vasos con fruta y yogur para merendar.', 'Prepara quatre gots amb fruita i iogurt per berenar.'],
+    paragraphs: [
+      ['Vamos a preparar cuatro vasos para merendar. Necesitas fresas, yogur y un plátano.', 'Prepararem quatre gots per berenar. Necessites maduixes, iogurt i un plàtan.'],
+      ['Lava las fresas y pela el plátano. Un adulto corta la fruta en trozos.', 'Renta les maduixes i pela el plàtan. Un adult talla la fruita a trossos.'],
+      ['Pon fresas en el fondo de cada vaso. Añade yogur encima de las fresas. Pon plátano encima del yogur. No lo mezcles.', 'Posa maduixes al fons de cada got. Posa iogurt damunt les maduixes. Posa plàtan damunt el iogurt. No ho remenis.'],
+      ['Verás tres colores: rojo, blanco y amarillo. Guarda los vasos en la nevera hasta la merienda.', 'Veuràs tres colors: vermell, blanc i groc. Desa els gots a la nevera fins a berenar.'],
+    ],
+    imageAfter: [1],
+    questions: [
+      q('literal', 1, '¿Cuántos vasos preparas?', 'Quants gots prepares?', 'Cuatro.', 'Quatre.', [1, 'cuatro vasos', 'quatre gots']),
+      q('literal', 1, '¿Quién corta la fruta?', 'Qui talla la fruita?', 'Un adulto.', 'Un adult.', [2, 'Un adulto corta la fruta', 'Un adult talla la fruita']),
+      q('literal', 1, '¿Qué fruta pones en el fondo?', 'Quina fruita poses al fons?', 'Fresas.', 'Maduixes.', [3, 'Pon fresas en el fondo', 'Posa maduixes al fons']),
+      q('literal', 1, '¿Dónde guardas los vasos?', 'On deses els gots?', 'En la nevera.', 'A la nevera.', [4, 'en la nevera', 'a la nevera']),
+    ],
+  },
+  {
+    source: 'L111', suffix: 'B', level: '4-primary', difficulty: 'initial',
+    summary: ['Reparte la fruta entre cuatro vasos y conserva visibles las capas de la merienda.', 'Reparteix la fruita entre quatre gots i conserva visibles les capes del berenar.'],
+    paragraphs: [
+      ['Para preparar cuatro meriendas pequeñas necesitas un yogur, un plátano y un puñado de fresas. Usa cuatro vasos transparentes y una cuchara. Los vasos no servirán para beber: serán los recipientes de una receta fría que se come con cuchara.', 'Per preparar quatre berenars petits necessites un iogurt, un plàtan i un grapat de maduixes. Fes servir quatre gots transparents i una cullera. Els gots no serviran per beure: seran els recipients d’una recepta freda que es menja amb cullera.'],
+      ['1. Lava las fresas y pela el plátano. Pide a un adulto que corte la fruta en trozos pequeños. Deja las fresas y el plátano separados mientras preparas los vasos.', '1. Renta les maduixes i pela el plàtan. Demana a un adult que talli la fruita a trossos petits. Deixa les maduixes i el plàtan separats mentre prepares els gots.'],
+      ['2. Pon fresas en el fondo de los cuatro vasos. Reparte unos pocos trozos en cada uno y vuelve a empezar hasta acabarlas. Compara las cantidades antes de añadir el yogur. Así podrás corregir el reparto sin deshacer las capas que vendrán después.', '2. Posa maduixes al fons dels quatre gots. Reparteix uns quants trossos a cadascun i torna a començar fins a acabar-les. Compara les quantitats abans d’afegir-hi el iogurt. Així podràs corregir el repartiment sense desfer les capes que vindran després.'],
+      ['3. Añade una cucharada de yogur sobre las fresas de cada vaso. Déjalo caer despacio y no lo remuevas. Queremos una capa blanca sobre la fruta roja, no una mezcla del mismo color por todo el vaso.', '3. Afegeix una cullerada de iogurt damunt les maduixes de cada got. Deixa’l caure a poc a poc i no el remenis. Volem una capa blanca damunt la fruita vermella, no una barreja del mateix color per tot el got.'],
+      ['4. Reparte el plátano encima del yogur. Mira un vaso de lado: abajo verás rojo, en medio blanco y arriba amarillo. El cristal transparente permite observar las tres capas sin sacar la comida.', '4. Reparteix el plàtan damunt del iogurt. Mira un got de costat: a baix veuràs vermell, al mig blanc i a dalt groc. El vidre transparent permet observar les tres capes sense treure el menjar.'],
+      ['Guarda los vasos en la nevera hasta la merienda. Al llevarlos a la mesa, mantenlos derechos para no deshacer el dibujo de colores.', 'Desa els gots a la nevera fins a berenar. Quan els portis a la taula, mantén-los drets per no desfer el dibuix de colors.'],
+    ],
+    imageAfter: [2],
+    questions: [
+      q('literal', 2, '¿Qué tres alimentos necesitas?', 'Quins tres aliments necessites?', 'Yogur, plátano y fresas.', 'Iogurt, plàtan i maduixes.', [1, 'un yogur, un plátano y un puñado de fresas', 'un iogurt, un plàtan i un grapat de maduixes']),
+      q('literal', 1, '¿Quién corta la fruta en trozos pequeños?', 'Qui talla la fruita a trossos petits?', 'Una persona adulta.', 'Una persona adulta.', [2, 'a un adulto que corte la fruta', 'a un adult que talli la fruita']),
+      q('inference', 2, '¿Por qué comparas el reparto de fresas antes de añadir el yogur?', 'Per què compares el repartiment de maduixes abans d’afegir-hi el iogurt?', 'Para ajustar las cantidades sin tener que deshacer las capas de yogur y plátano.', 'Per ajustar les quantitats sense haver de desfer les capes de iogurt i plàtan.', [3, 'corregir el reparto sin deshacer las capas', 'corregir el repartiment sense desfer les capes']),
+      q('structure', 2, 'Escribe el orden de las tres capas, desde el fondo hasta arriba.', 'Escriu l’ordre de les tres capes, des del fons fins a dalt.', 'Fresas, yogur y plátano.', 'Maduixes, iogurt i plàtan.', [3, 'fresas en el fondo', 'maduixes al fons'], [4, 'yogur sobre las fresas', 'iogurt damunt les maduixes'], [5, 'el plátano encima del yogur', 'el plàtan damunt del iogurt']),
+      q('inference', 2, '¿Para qué se usan vasos transparentes?', 'Per a què es fan servir gots transparents?', 'Para ver las tres capas desde fuera sin sacar ni mezclar la comida.', 'Per veure les tres capes des de fora sense treure ni barrejar el menjar.', [5, 'observar las tres capas sin sacar la comida', 'observar les tres capes sense treure el menjar']),
+      q('literal', 1, '¿Dónde dejas los vasos hasta que sea hora de comerlos?', 'On deixes els gots fins que sigui l’hora de menjar-los?', 'En la nevera.', 'A la nevera.', [6, 'en la nevera hasta la merienda', 'a la nevera fins a berenar']),
+      q('opinion', 3, 'Propón cómo podríais repartiros la preparación entre dos compañeros, contando con el adulto para cortar.', 'Proposa com us podríeu repartir la preparació entre dos companys, comptant amb l’adult per tallar.', 'Respuesta abierta con un reparto compatible con el orden de la receta; por ejemplo, preparar los vasos y repartir una capa cada uno.', 'Resposta oberta amb un repartiment compatible amb l’ordre de la recepta; per exemple, preparar els gots i repartir una capa cadascú.'),
+    ],
+  },
 ];

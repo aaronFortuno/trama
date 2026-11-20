@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.51.6 · 20 de novembre del 2026
+
+Afegim la família L111, Gots de tres colors, amb suport de 2n i ampliació de 4t en català i castellà. La recepta manté ingredients, quatre racions i l’ordre de les capes de l’original de 3r; el suport té quatre preguntes literals i l’ampliació treballa repartiment, seqüència i presentació. Les quatre versions noves han superat la revisió independent i les comprovacions locals.
+
 ## 1.51.5 · 20 de novembre del 2026
 
 Comencem la segona tanda de famílies de 2n–3r–4t amb L106, El guant de ratlles. Afegim un suport breu amb quatre preguntes literals i una ampliació que desenvolupa les pistes i l’ordre dels fets, en català i castellà. Conservem l’original i la il·lustració; cada grau té respostes, línies i marques pròpies. Les quatre versions noves han superat la revisió independent i queden pendents de validació docent.

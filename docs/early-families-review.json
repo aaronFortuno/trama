@@ -240,6 +240,54 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L111A",
+      "language": "es",
+      "id": "vasos-de-tres-colores-a-es",
+      "sha256": "8229fa754cf7a383a2d573a286a91128710d4315cebad4fb7060e9fd3e369056",
+      "date": "2026-11-20",
+      "edition": "v1.51.6",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L111A",
+      "language": "ca",
+      "id": "vasos-de-tres-colores-a-ca",
+      "sha256": "fe61f5f97be5490cbc75125bdeaa6edb4da33c4e0e19d1cc58792a15a001207a",
+      "date": "2026-11-20",
+      "edition": "v1.51.6",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L111B",
+      "language": "es",
+      "id": "vasos-de-tres-colores-b-es",
+      "sha256": "e9fe59b34786bfb02bae31d40858d7f107a42c88ea64db2a6f54e0c12e1c02c3",
+      "date": "2026-11-20",
+      "edition": "v1.51.6",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L111B",
+      "language": "ca",
+      "id": "vasos-de-tres-colores-b-ca",
+      "sha256": "8c03c126a41f5eeaed4ca72789c370a54e4ab653fb0bca0ef96c5f725b1e30c9",
+      "date": "2026-11-20",
+      "edition": "v1.51.6",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

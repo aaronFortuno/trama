@@ -36,7 +36,7 @@ Mateix perfil de suport de 2n i ampliació de 4t, amb narració, recepta, carta 
 | Família | Suport | Original conservat | Ampliació | Estat |
 | --- | --- | --- | --- | --- |
 | L106 · El guant de ratlles | L106A · 2n inicial | L106 · 3r intermèdia | L106B · 4t inicial | Provisional, revisió independent superada ES/CA |
-| L111 · Gots de tres colors | L111A · 2n inicial | L111 · 3r inicial | L111B · 4t inicial | Pendent |
+| L111 · Gots de tres colors | L111A · 2n inicial | L111 · 3r inicial | L111B · 4t inicial | Provisional, revisió independent superada ES/CA |
 | L113 · Una carta plena de blau | L113A · 2n inicial | L113 · 3r intermèdia | L113B · 4t inicial | Pendent |
 | L138 · Una bústia a la biblioteca | L138A · 2n inicial | L138 · 3r intermèdia | L138B · 4t inicial | Pendent |
 
