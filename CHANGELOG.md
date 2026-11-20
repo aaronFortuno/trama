@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.51.11 · 20 de novembre del 2026
+
+A la vista ampliada d’una família, les fletxes laterals apareixen en acostar el cursor a cada vora i obren directament la variant veïna mantenint l’ampliació. Només oferim les direccions disponibles; el solucionari es conserva i cada variant recupera el seu maquetat. Les fletxes també són accessibles amb teclat i visibles en pantalles tàctils. El clic fora o als sidebars continua retornant a la vista compacta, amb transicions de 220 ms.
+
 ## 1.51.10 · 20 de novembre del 2026
 
 A la vista de família, un clic al full actiu l’amplia a l’espai habitual del visor i aparta les variants veïnes. En clicar fora, moure el focus a un altre control o prémer Esc, torna a la composició de família. El zoom continua disponible i es conserva el punt de lectura durant el canvi de mida, amb transicions de 220 ms. També funciona amb teclat i en pantalles petites, sense modificar els maquetats ni els documents impresos.

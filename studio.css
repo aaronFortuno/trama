@@ -148,6 +148,22 @@
 .is-reading-focused .family-stage-toolbar { opacity: 0; transform: translateX(-50%) translateY(-12px); pointer-events: none; }
 .is-reading-focused #family-stage-position { opacity: 0; }
 .studio-preview-window.is-reading-focused .studio-zoom { right: 15px; }
+.family-stage-edge {
+  position: absolute; z-index: 5; top: 50%; display: grid; place-items: center;
+  width: 42px; height: 52px; padding: 0; border: 1px solid var(--line); border-radius: 9px;
+  background: var(--surface); color: var(--green); box-shadow: 0 3px 12px #20382d30;
+  opacity: 0; visibility: hidden; pointer-events: none; cursor: pointer;
+  transform: translateY(-50%); transition: opacity var(--motion), transform var(--motion), visibility var(--motion), background-color var(--motion);
+}
+.family-stage-edge[data-side="previous"] { left: var(--family-edge-previous, 6px); transform: translate(-6px, -50%); }
+.family-stage-edge[data-side="next"] { right: var(--family-edge-next, 20px); transform: translate(6px, -50%); }
+.is-reading-focused .family-stage-edge { visibility: visible; pointer-events: auto; }
+.is-reading-focused .family-stage-edge:is(.is-near, :hover, :focus-visible) { opacity: 1; transform: translate(0, -50%); }
+.family-stage-edge:hover { background: var(--hover); }
+.family-stage-edge .ui-icon { width: 25px; height: 25px; }
+@media (hover: none) {
+  .is-reading-focused .family-stage-edge { opacity: .85; transform: translate(0, -50%); }
+}
 .studio-zoom { position: absolute; z-index: 3; inset: auto 15px 11px auto; display: flex; gap: 4px; padding: 4px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface); box-shadow: 0 2px 8px #213a3429; transition: right var(--motion); }
 .studio-zoom .button { width: 32px; min-height: 32px; padding: 0; border-color: transparent; }
 .studio-zoom .ui-icon { width: 17px; height: 17px; }

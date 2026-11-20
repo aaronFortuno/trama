@@ -210,7 +210,7 @@ function readingNeighbors(reading) {
   return index < 0 ? {} : { previous: matches[index - 1], next: matches[index + 1] };
 }
 
-function showStudio(reading, { keepLayout, saved, collection }) {
+function showStudio(reading, { keepLayout, saved, collection, focusPreview }) {
   const wasInCatalog = studioView.hidden;
   currentReadingId = reading.id;
   catalogView.hidden = true;
@@ -218,7 +218,7 @@ function showStudio(reading, { keepLayout, saved, collection }) {
   document.body.classList.add('is-studio');
   trackReadingOpened(reading, { origen: openingSource, colleccio: collection, maquetat: Boolean(saved) });
   openingSource = 'enllac';
-  if (!keepLayout) focusStudio();
+  if (!keepLayout && !focusPreview) focusStudio();
   if (wasInCatalog) animateRefresh(studioView);
 }
 

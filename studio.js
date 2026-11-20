@@ -624,7 +624,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
     }
     populateReading();
     syncControls(false);
-    onOpen(reading, { keepLayout, saved, collection: Boolean(readingCollection) });
+    onOpen(reading, { keepLayout, saved, collection: Boolean(readingCollection), focusPreview: familyStage.isNavigatingFocused(reading) });
     refresh();
     if (keepLayout) {
       const paragraph = passage && pages.querySelector(`[data-paragraph="${passage.index}"]`);

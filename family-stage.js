@@ -13,6 +13,7 @@ export const familyStageMarkup = `
     <div class="family-stage-siblings"></div>
     <span id="family-stage-position"></span>
     <span id="family-stage-focus-help" class="visually-hidden"></span>
+    ${['previous', 'next'].map(side => `<button class="family-stage-edge" type="button" data-side="${side}" hidden inert>${icon(side === 'previous' ? 'chevron-left' : 'chevron-right')}</button>`).join('')}
     ${['previous', 'next'].map(side => `<div class="family-stage-toolbar" data-side="${side}" hidden>
       <button class="button studio-compare" type="button" aria-label="Compara les variants" aria-haspopup="dialog" aria-controls="family-comparison-dialog">${icon('columns-2')} <span>Compara</span></button>
     </div>`).join('')}
@@ -25,6 +26,7 @@ export function mountFamilyStage({ root, readings, getSettings, isOutsideCollect
   const stage = root.querySelector('.studio-paper-stage');
   const pages = root.querySelector('#studio-pages');
   const zoomTools = root.querySelector('.studio-zoom');
+  const edgeButtons = [...scene.querySelectorAll('.family-stage-edge')];
   let key;
   let activeReadingId;
   let generation = 0;
@@ -32,12 +34,16 @@ export function mountFamilyStage({ root, readings, getSettings, isOutsideCollect
   let enteringFrame;
   let entering;
 
-  const insideReading = target => target instanceof Node && (stage.contains(target) || zoomTools.contains(target));
+  const insideReading = target => target instanceof Node && (stage.contains(target) || zoomTools.contains(target) || edgeButtons.some(button => button.contains(target)));
   function focusReading(expanded) {
     expanded = Boolean(expanded && stage.classList.contains('has-family'));
     window.classList.toggle('is-reading-focused', expanded);
     siblings.inert = expanded;
     scene.querySelectorAll('.family-stage-toolbar').forEach(toolbar => { toolbar.inert = expanded; });
+    for (const button of edgeButtons) {
+      button.inert = !expanded;
+      if (!expanded) button.classList.remove('is-near');
+    }
   }
   window.addEventListener('click', event => {
     if (!insideReading(event.target)) return;
@@ -55,7 +61,7 @@ export function mountFamilyStage({ root, readings, getSettings, isOutsideCollect
     if (!insideReading(event.target)) focusReading(false);
   });
   globalThis.addEventListener('blur', () => focusReading(false));
-  stage.addEventListener('keydown', event => {
+  window.addEventListener('keydown', event => {
     if (event.key === 'Escape' && window.classList.contains('is-reading-focused')) {
       event.preventDefault();
       focusReading(false);
@@ -65,6 +71,34 @@ export function mountFamilyStage({ root, readings, getSettings, isOutsideCollect
     }
   });
 
+  function clearEdgeHover() {
+    edgeButtons.forEach(button => button.classList.remove('is-near'));
+  }
+  function positionEdges() {
+    const viewport = window.getBoundingClientRect();
+    const paper = pages.firstElementChild?.getBoundingClientRect();
+    if (!paper?.width) return null;
+    window.style.setProperty('--family-edge-previous', `${Math.max(6, paper.left - viewport.left - 17)}px`);
+    window.style.setProperty('--family-edge-next', `${Math.max(20, viewport.right - paper.right - 12)}px`);
+    return { left: Math.max(viewport.left, paper.left), right: Math.min(viewport.right, paper.right) };
+  }
+  const edgeObserver = new ResizeObserver(positionEdges);
+  edgeObserver.observe(window);
+  edgeObserver.observe(pages);
+  window.addEventListener('pointermove', event => {
+    if (!window.classList.contains('is-reading-focused') || event.pointerType === 'touch') return;
+    const edges = positionEdges();
+    if (!edges) return;
+    const side = Math.abs(event.clientX - edges.left) <= 60 ? 'previous' : Math.abs(event.clientX - edges.right) <= 60 ? 'next' : null;
+    edgeButtons.forEach(button => button.classList.toggle('is-near', button.dataset.side === side));
+  });
+  window.addEventListener('pointerleave', clearEdgeHover);
+  edgeButtons.forEach(button => button.addEventListener('click', () => {
+    if (!button.dataset.reading || button.hidden) return;
+    from = { id: button.dataset.reading, focused: true, side: button.dataset.side };
+    onSelect(button.dataset.reading);
+  }));
+
   scene.querySelectorAll('.studio-compare').forEach(button => button.addEventListener('click', () => onCompare(button.dataset.reading)));
 
   function fit() {
@@ -73,6 +107,9 @@ export function mountFamilyStage({ root, readings, getSettings, isOutsideCollect
   new ResizeObserver(fit).observe(window);
 
   return {
+    isNavigatingFocused(reading) {
+      return from?.id === reading.id && Boolean(from.focused) && window.classList.contains('is-reading-focused');
+    },
     update(reading, answerKey, { force = false } = {}) {
       const nextKey = `${reading.id}:${language()}:${answerKey}`;
       if (key === nextKey && !force) return;
@@ -80,11 +117,12 @@ export function mountFamilyStage({ root, readings, getSettings, isOutsideCollect
       const request = ++generation;
       const members = familyMembers(readings, reading);
       const enabled = members.length > 1;
-      if (activeReadingId !== reading.id) focusReading(false);
+      if (activeReadingId !== reading.id) focusReading(from?.id === reading.id && from.focused && window.classList.contains('is-reading-focused'));
       activeReadingId = reading.id;
       scene.hidden = !enabled;
       stage.classList.toggle('has-family', enabled);
       window.classList.toggle('has-family', enabled);
+      if (from?.id === reading.id && from.focused && window.classList.contains('is-reading-focused')) stage.focus({ preventScroll: true });
       const focusHelp = t('Fes clic al full per ampliar-lo. Clica fora o prem Esc per tornar a veure les variants.');
       scene.querySelector('#family-stage-focus-help').textContent = focusHelp;
       if (enabled) {
@@ -97,6 +135,7 @@ export function mountFamilyStage({ root, readings, getSettings, isOutsideCollect
       }
       siblings.replaceChildren();
       scene.querySelectorAll('.family-stage-toolbar').forEach(toolbar => { toolbar.hidden = true; });
+      edgeButtons.forEach(button => { button.hidden = true; delete button.dataset.reading; });
       if (!enabled) {
         window.classList.remove('has-family-previous', 'has-family-next');
         from = undefined;
@@ -123,6 +162,11 @@ export function mountFamilyStage({ root, readings, getSettings, isOutsideCollect
         button.dataset.reading = member.id;
         const level = labelFor('level', member.level).replace(/ de (?:primària|primaria)$/, '');
         button.setAttribute('aria-label', t('Obre {code}, {level}', { code: member.code, level }));
+        const edge = edgeButtons.find(button => button.dataset.side === side);
+        edge.hidden = false;
+        edge.dataset.reading = member.id;
+        edge.setAttribute('aria-label', button.getAttribute('aria-label'));
+        edge.title = isOutsideCollection(member) ? `${edge.getAttribute('aria-label')}. ${t('Obre aquesta variant al catàleg, fora de la col·lecció actual.')}` : edge.getAttribute('aria-label');
         if (isOutsideCollection(member)) button.title = t('Obre aquesta variant al catàleg, fora de la col·lecció actual.');
         const paper = document.createElement('span');
         paper.className = 'family-stage-paper';
@@ -158,6 +202,16 @@ export function mountFamilyStage({ root, readings, getSettings, isOutsideCollect
       enteringFrame = requestAnimationFrame(() => {
         const slot = pages.firstElementChild;
         if (!slot || from?.id !== reading.id) return;
+        if (from.focused) {
+          const direction = from.side === 'next' ? 1 : -1;
+          from = undefined;
+          entering?.cancel();
+          entering = animate(pages, [
+            { opacity: .6, transform: `translateX(${direction * 32}px)` },
+            { opacity: 1, transform: 'none' },
+          ]);
+          return;
+        }
         const target = slot.getBoundingClientRect();
         if (!target.width || !from.rect.width) return;
         const { rect, previousRects } = from;
