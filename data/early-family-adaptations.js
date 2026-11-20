@@ -155,4 +155,42 @@ export const earlyFamilyAdaptations = [
       q('opinion', 3, 'Escribe una respuesta breve de Cesc que confirme dos cosas que hará para seguir el plan de Rita.', 'Escriu una resposta breu d’en Cesc que confirmi dues coses que farà per seguir el pla de la Rita.', 'Respuesta abierta con dos acciones compatibles con la nota: dejar la tarta tapada, preparar los platos o jugar con la abuela mientras esperan, entre otras.', 'Resposta oberta amb dues accions compatibles amb la nota: deixar el pastís tapat, preparar els plats o jugar amb l’àvia mentre esperen, entre d’altres.'),
     ],
   },
+  {
+    source: 'L106', suffix: 'A', level: '2-primary', difficulty: 'initial',
+    summary: ['Jan encuentra un guante y lo devuelve a una niña.', 'En Jan troba un guant i el torna a una nena.'],
+    paragraphs: [
+      ['Jan espera el autobús con su abuelo. Hay un guante debajo del banco. El guante tiene rayas verdes.', 'En Jan espera l’autobús amb l’avi. Hi ha un guant sota el banc. El guant té ratlles verdes.'],
+      ['Empieza a llover. Jan guarda el guante en la mochila. Allí no se moja.', 'Comença a ploure. En Jan desa el guant a la motxilla. Allà no es mulla.'],
+      ['Al día siguiente, Jan vuelve a la parada. Una niña busca su guante. Lleva otro guante con rayas verdes.', 'L’endemà, en Jan torna a la parada. Una nena busca el guant. Du un altre guant amb ratlles verdes.'],
+      ['Jan le da el guante. La niña dice: «¡Es el mío! ¡Gracias!».', 'En Jan li dona el guant. La nena diu: «És el meu! Gràcies!».'],
+    ],
+    imageAfter: [1],
+    questions: [
+      q('literal', 1, '¿Dónde encuentra Jan el guante?', 'On troba en Jan el guant?', 'Debajo del banco.', 'Sota el banc.', [1, 'debajo del banco', 'sota el banc']),
+      q('literal', 1, '¿De qué color son las rayas?', 'De quin color són les ratlles?', 'Verdes.', 'Verdes.', [1, 'rayas verdes', 'ratlles verdes']),
+      q('literal', 1, '¿Dónde guarda Jan el guante?', 'On desa en Jan el guant?', 'En la mochila.', 'A la motxilla.', [2, 'en la mochila', 'a la motxilla']),
+      q('literal', 1, '¿Quién dice que el guante es suyo?', 'Qui diu que el guant és seu?', 'La niña.', 'La nena.', [4, 'La niña dice', 'La nena diu']),
+    ],
+  },
+  {
+    source: 'L106', suffix: 'B', level: '4-primary', difficulty: 'initial',
+    summary: ['Un guante seco, una búsqueda y unas rayas ayudan a Jan a devolver un objeto perdido.', 'Un guant sec, una cerca i unes ratlles ajuden en Jan a tornar un objecte perdut.'],
+    paragraphs: [
+      ['Jan esperaba el autobús con su abuelo cuando vio un guante debajo del banco. Tenía rayas verdes y estaba seco. Lo recogió justo cuando empezaban a caer gotas. Miró a ambos lados de la parada, pero no había nadie buscando nada.', 'En Jan esperava l’autobús amb l’avi quan va veure un guant sota el banc. Tenia ratlles verdes i era sec. El va collir just quan començaven a caure gotes. Va mirar a banda i banda de la parada, però no hi havia ningú que busqués res.'],
+      ['El abuelo le recordó que al día siguiente volverían a coger el mismo autobús. Podían llevar el guante y preguntar allí. Jan lo guardó en un bolsillo seco de la mochila, separado de su botella. No quería que la persona que lo había perdido lo recuperara empapado.', 'L’avi li va recordar que l’endemà tornarien a agafar el mateix autobús. Podien portar el guant i preguntar allà. En Jan el va desar en una butxaca seca de la motxilla, separat de l’ampolla. No volia que la persona que l’havia perdut el recuperés xop.'],
+      ['A la mañana siguiente, una niña miraba entre el banco y la papelera. Llevaba un solo guante. Jan vio las rayas verdes de aquella mano y abrió su mochila. En lugar de dejar el guante en el banco, se acercó a hablar con ella.', 'L’endemà al matí, una nena mirava entre el banc i la paperera. Duia un sol guant. En Jan va veure les ratlles verdes d’aquella mà i va obrir la motxilla. En lloc de deixar el guant al banc, s’hi va acostar per parlar-hi.'],
+      ['—Encontré esto aquí ayer. ¿Puede ser tuyo?\nLa niña dejó de buscar y se probó el guante. Le quedaba bien y formaba pareja con el otro. Explicó que lo había echado en falta al llegar a casa, cuando notó una mano mucho más fría que la otra.', '—Ahir vaig trobar això aquí. Pot ser teu?\nLa nena va deixar de buscar i es va emprovar el guant. Li anava bé i feia parella amb l’altre. Va explicar que l’havia trobat a faltar en arribar a casa, quan va notar una mà molt més freda que l’altra.'],
+      ['La niña dio las gracias. Jan cerró la mochila y volvió junto a su abuelo. Esta vez los dos guantes subieron al autobús en las manos de la misma persona.', 'La nena va donar les gràcies. En Jan va tancar la motxilla i va tornar al costat de l’avi. Aquella vegada tots dos guants van pujar a l’autobús a les mans de la mateixa persona.'],
+    ],
+    imageAfter: [2],
+    questions: [
+      q('literal', 1, '¿Dónde encontró Jan el guante?', 'On va trobar en Jan el guant?', 'Debajo del banco de la parada.', 'Sota el banc de la parada.', [1, 'un guante debajo del banco', 'un guant sota el banc']),
+      q('inference', 2, '¿Por qué lo guarda en un bolsillo seco en vez de dejarlo donde estaba?', 'Per què el desa en una butxaca seca en lloc de deixar-lo on era?', 'Porque empieza a llover y quiere que su dueño lo recupere seco.', 'Perquè comença a ploure i vol que el propietari el recuperi sec.', [1, 'empezaban a caer gotas', 'començaven a caure gotes'], [2, 'lo recuperara empapado', 'el recuperés xop']),
+      q('literal', 1, '¿Qué plan propone el abuelo para el día siguiente?', 'Quin pla proposa l’avi per a l’endemà?', 'Llevar el guante a la misma parada y preguntar allí.', 'Portar el guant a la mateixa parada i preguntar allà.', [2, 'Podían llevar el guante y preguntar allí.', 'Podien portar el guant i preguntar allà.']),
+      q('inference', 2, '¿Qué dos detalles de la niña hacen pensar a Jan que puede ser suyo?', 'Quins dos detalls fan pensar a en Jan que el guant pot ser de la nena?', 'Busca por el suelo y lleva un solo guante con rayas verdes como el encontrado.', 'Busca per terra i duu un sol guant amb ratlles verdes com el trobat.', [3, 'miraba entre el banco y la papelera', 'mirava entre el banc i la paperera'], [3, 'Llevaba un solo guante. Jan vio las rayas verdes', 'Duia un sol guant. En Jan va veure les ratlles verdes']),
+      q('literal', 1, '¿Cuándo notó la niña que le faltaba?', 'Quan va notar la nena que li faltava?', 'Al llegar a casa, cuando sintió una mano más fría.', 'En arribar a casa, quan va sentir una mà més freda.', [4, 'al llegar a casa', 'en arribar a casa']),
+      q('structure', 2, 'Ordena estas acciones: la niña se prueba el guante, Jan lo guarda, Jan habla con ella.', 'Ordena aquestes accions: la nena s’emprova el guant, en Jan el desa, en Jan parla amb ella.', 'Primero lo guarda; al día siguiente habla con ella; después la niña se lo prueba.', 'Primer el desa; l’endemà parla amb ella; després la nena se l’emprova.', [2, 'Jan lo guardó', 'En Jan el va desar'], [4, 'se probó el guante', 'es va emprovar el guant']),
+      q('opinion', 3, 'Propón qué podrías hacer con ayuda de un adulto si encontraras un objeto y nadie lo buscara en ese momento.', 'Proposa què podries fer amb ajuda d’un adult si trobessis un objecte i ningú no el busqués en aquell moment.', 'Respuesta abierta con una acción razonable para cuidarlo y facilitar que llegue a su propietario, según el lugar.', 'Resposta oberta amb una acció raonable per cuidar-lo i facilitar que arribi al propietari, segons el lloc.'),
+    ],
+  },
 ];

@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.51.5 · 20 de novembre del 2026
+
+Comencem la segona tanda de famílies de 2n–3r–4t amb L106, El guant de ratlles. Afegim un suport breu amb quatre preguntes literals i una ampliació que desenvolupa les pistes i l’ordre dels fets, en català i castellà. Conservem l’original i la il·lustració; cada grau té respostes, línies i marques pròpies. Les quatre versions noves han superat la revisió independent i queden pendents de validació docent.
+
 ## 1.51.4 · 20 de novembre del 2026
 
 Compactem el catàleg: retirem el títol gran, situem el recompte sota el lema i portem el cercador a la capçalera, al costat de l’idioma. La cerca també funciona des d’una lectura i torna al catàleg sense perdre el focus. La impressió en lot passa a una icona amb ajuda a la capçalera. Afegim l’esdeveniment obre_lot per distingir les obertures del diàleg de les generacions de documents, amb context de vista, col·lecció i quantitat agrupada. Conservem la identificació i sortida de les col·leccions i adaptem la disposició a pantalles petites.

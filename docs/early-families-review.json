@@ -192,6 +192,54 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L106A",
+      "language": "es",
+      "id": "el-guante-de-rayas-a-es",
+      "sha256": "ae5d463eeca64c2414192fd5bb48582300dbe94f663bf23f0f72283514389711",
+      "date": "2026-11-20",
+      "edition": "v1.51.5",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L106A",
+      "language": "ca",
+      "id": "el-guante-de-rayas-a-ca",
+      "sha256": "d7da73a2c5ce9d33bfea73b6c82aae8c59ace1768892884bed97ac5a5535ad12",
+      "date": "2026-11-20",
+      "edition": "v1.51.5",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L106B",
+      "language": "es",
+      "id": "el-guante-de-rayas-b-es",
+      "sha256": "0a4ed5c0fa477bc8b51c127f71f87386608a71852f4ceadce04e562d0d9dbf43",
+      "date": "2026-11-20",
+      "edition": "v1.51.5",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L106B",
+      "language": "ca",
+      "id": "el-guante-de-rayas-b-ca",
+      "sha256": "0600a8c99bdfbbd86fccaf27ec50608379099d65557fa5f1409f9fa89dd22a94",
+      "date": "2026-11-20",
+      "edition": "v1.51.5",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }
