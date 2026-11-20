@@ -20,6 +20,11 @@ export const defaultTemplate = {
   id: 'standard', name: 'Clàssica', builtin: true,
   format: Object.fromEntries(templateGroups.map(group => [group.id, capture(group, defaults)])),
 };
+export const earlyPrimaryTemplate = {
+  id: 'early-primary', name: 'Cicle inicial', builtin: true,
+  format: Object.fromEntries(templateGroups.map(group => [group.id, capture(group, defaultSettings('2-primary'))])),
+};
+export const builtinTemplates = [defaultTemplate, earlyPrimaryTemplate];
 
 export function readTemplate(id, raw) {
   try {

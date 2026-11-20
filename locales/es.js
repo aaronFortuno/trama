@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.51.9 · Obre l’historial de canvis|v1.51.9 · Abrir el historial de cambios
+Afegim la plantilla Cicle inicial: Massallera de 15 pt, interlineat 1,15×, 10 mm entre paràgrafs, 20 mm abans de les preguntes, marges superior/inferior de 20 mm i esquerre/dret de 25 mm. És el format inicial de 1r i 2n i també es pot aplicar des de Plantilles. Conservem els maquetats desats i els ajustos personals de la sessió; Restableix recupera el format del curs.|Añadimos la plantilla Ciclo inicial: Massallera de 15 pt, interlineado 1,15×, 10 mm entre párrafos, 20 mm antes de las preguntas, márgenes superior/inferior de 20 mm e izquierdo/derecho de 25 mm. Es el formato inicial de 1.º y 2.º y también se puede aplicar desde Plantillas. Conservamos las maquetaciones guardadas y los ajustes personales de la sesión; Restablecer recupera el formato del curso.
 v1.51.8 · Obre l’historial de canvis|v1.51.8 · Abrir el historial de cambios
 Completem quatre famílies més de 2n–3r–4t amb L138, Una bústia a la biblioteca, després de L106, L111 i L113. Afegim vuit obres adaptades en català i castellà: suport de 2n amb quatre preguntes literals i ampliació de 4t amb set preguntes. Conservem els originals de 3r i les il·lustracions compartides; cada variant té solucionari, línies i marques pròpies. Les setze versions noves han superat la revisió independent i les comprovacions locals i queden provisionals, pendents de validació docent.|Completamos cuatro familias más de 2.º–3.º–4.º con L138, Un buzón en la biblioteca, después de L106, L111 y L113. Añadimos ocho obras adaptadas en catalán y castellano: apoyo de 2.º con cuatro preguntas literales y ampliación de 4.º con siete preguntas. Conservamos los originales de 3.º y las ilustraciones compartidas; cada variante tiene solucionario, líneas y marcas propias. Las dieciséis versiones nuevas han superado la revisión independiente y las comprobaciones locales y quedan provisionales, pendientes de validación docente.
 v1.51.7 · Obre l’historial de canvis|v1.51.7 · Abrir el historial de cambios
@@ -803,6 +805,7 @@ Vols suprimir aquesta plantilla del navegador?|¿Quieres eliminar esta plantilla
 Sí, suprimeix-la|Sí, eliminar
 Conserva-la|Conservar
 Clàssica|Clásica
+Cicle inicial|Ciclo inicial
 Plantilla per defecte|Plantilla predeterminada
 Edita|Editar
 Aplica|Aplicar

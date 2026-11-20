@@ -1,5 +1,5 @@
 import { animateRefresh, closeDialog, openDialog, setDisclosure } from './motion.js';
-import { defaultTemplate, listTemplates, moveTemplate, removeTemplate, saveTemplate, templateGroups, templateKey, templateOrderKey, templateSettings } from './worksheet-templates.js';
+import { builtinTemplates, defaultTemplate, listTemplates, moveTemplate, removeTemplate, saveTemplate, templateGroups, templateKey, templateOrderKey, templateSettings } from './worksheet-templates.js';
 import { icon } from './icons.js';
 import { language, t } from './i18n.js';
 import { tramaLogo } from './local-images.js';
@@ -67,7 +67,7 @@ function makeRow(entry, index, last, filtered) {
   const row = document.createElement('li');
   row.dataset.template = entry.id;
   row.innerHTML = `<div class="template-row-copy"><strong></strong><p></p></div><div class="template-row-actions">
-    ${entry.builtin || filtered ? '' : `<button class="button template-move" type="button" data-template-move="-1" ${index <= 1 ? 'disabled' : ''}>${icon('arrow-up')}</button><button class="button template-move" type="button" data-template-move="1" ${index === last ? 'disabled' : ''}>${icon('arrow-down')}</button>`}
+    ${entry.builtin || filtered ? '' : `<button class="button template-move" type="button" data-template-move="-1" ${index <= builtinTemplates.length ? 'disabled' : ''}>${icon('arrow-up')}</button><button class="button template-move" type="button" data-template-move="1" ${index === last ? 'disabled' : ''}>${icon('arrow-down')}</button>`}
     ${entry.builtin ? '' : '<button class="button" type="button" data-template-edit>Edita</button>'}
     <button class="button" type="button" data-template-apply>Aplica</button></div>`;
   const name = templateName(entry);
@@ -114,7 +114,7 @@ export function mountTemplateLibrary({ dialog, picker, getSettings, getThumbnail
   const message = find('#template-message');
   const name = form.elements.namedItem('name');
   const checkboxes = [...form.querySelectorAll('[name="group"]')];
-  let entries = [defaultTemplate];
+  let entries = [...builtinTemplates];
   let editing = null;
   let editorOrigin;
   let appliedId = defaultTemplate.id;
@@ -130,10 +130,13 @@ export function mountTemplateLibrary({ dialog, picker, getSettings, getThumbnail
   function syncPicker() {
     const settings = getSettings();
     if (!settings) return;
+    const matches = entry => Object.entries(templateSettings(entry)).every(([key, value]) => settings[key] === value);
+    const activeId = entries.find(entry => entry.id === appliedId && matches(entry))?.id
+      ?? entries.find(entry => entry.builtin && matches(entry))?.id;
     for (const [index, row] of [...choices.children].entries()) {
       const entry = entries[index];
       const format = templateSettings(entry);
-      const active = entry.id === appliedId && Object.entries(format).every(([key, value]) => settings[key] === value);
+      const active = entry.id === activeId;
       row.querySelector('button').setAttribute('aria-pressed', String(active));
       row.querySelector('.studio-template-corner').replaceChildren(getThumbnail(format));
     }
@@ -147,7 +150,7 @@ export function mountTemplateLibrary({ dialog, picker, getSettings, getThumbnail
 
   function reload() {
     try {
-      entries = [defaultTemplate, ...listTemplates(window.localStorage)];
+      entries = [...builtinTemplates, ...listTemplates(window.localStorage)];
     } catch {
       message.textContent = t('Aquest navegador no ha permès accedir a les plantilles desades.');
     }

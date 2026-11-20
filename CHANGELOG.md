@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.51.9 · 20 de novembre del 2026
+
+Afegim la plantilla Cicle inicial: Massallera de 15 pt, interlineat 1,15×, 10 mm entre paràgrafs, 20 mm abans de les preguntes, marges superior/inferior de 20 mm i esquerre/dret de 25 mm. És el format inicial de 1r i 2n i també es pot aplicar des de Plantilles. Conservem els maquetats desats i els ajustos personals de la sessió; Restableix recupera el format del curs.
+
 ## 1.51.8 · 20 de novembre del 2026
 
 Completem quatre famílies més de 2n–3r–4t amb L138, Una bústia a la biblioteca, després de L106, L111 i L113. Afegim vuit obres adaptades en català i castellà: suport de 2n amb quatre preguntes literals i ampliació de 4t amb set preguntes. Conservem els originals de 3r i les il·lustracions compartides; cada variant té solucionari, línies i marques pròpies. Les setze versions noves han superat la revisió independent i les comprovacions locals i queden provisionals, pendents de validació docent.

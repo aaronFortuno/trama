@@ -10,7 +10,7 @@ Tandes seqüencials, iniciades el 20 de novembre del 2026. Punt de partida: lect
 - L’original de 3r no es modifica. L’ampliació de 4t desenvolupa la mateixa situació i afegeix relacions senzilles i set preguntes o més, sense canviar l’argument central.
 - Cada llengua i grau té preguntes, respostes i cites pròpies. La il·lustració es comparteix quan continua sent fidel a tots els graus.
 
-El format inicial de 2n és de 16 pt i interlineat 1,15× (valor intern 2,3), una mica més ample que el de 3r. Es mantenen els formats personals i els maquetats locals. Els intervals d’extensió de 2n són curtes fins a 55 paraules, mitjanes de 56 a 75 i llargues a partir de 76: orientacions internes del catàleg, no llindars normatius.
+La plantilla «Cicle inicial» és el format per defecte de 1r i 2n: Massallera de 15 pt, interlineat 1,15× (valor intern 2,3), 10 mm entre paràgrafs, 20 mm abans de les preguntes i marges superior/inferior de 20 mm i esquerre/dret de 25 mm. També es pot aplicar des del selector de plantilles. Es mantenen els formats personals de la sessió i els maquetats locals; «Restableix» recupera el format inicial del curs. Els intervals d’extensió de 2n són curtes fins a 55 paraules, mitjanes de 56 a 75 i llargues a partir de 76: orientacions internes del catàleg, no llindars normatius.
 
 Les variants són una mesura de DUA per facilitar una proposta compartida amb diferents vies d’accés. El curs és una orientació del material; no assigna alumnat a grups fixos ni substitueix la decisió del docent.
 
