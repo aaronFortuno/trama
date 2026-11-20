@@ -271,4 +271,42 @@ export const earlyFamilyAdaptations = [
       q('opinion', 3, '¿Qué preguntarías antes de empezar a dibujar los peces? Explica para qué serviría tu pregunta.', 'Què preguntaries abans de començar a dibuixar els peixos? Explica per a què serviria la pregunta.', 'Respuesta abierta sobre un aspecto útil de la preparación, como tamaño del papel, fecha de envío o materiales; no necesita una respuesta que ya figure en la carta.', 'Resposta oberta sobre un aspecte útil de la preparació, com mida del paper, data d’enviament o materials; no necessita una resposta que ja figuri a la carta.'),
     ],
   },
+  {
+    source: 'L138', suffix: 'A', level: '2-primary', difficulty: 'initial',
+    summary: ['Luca pregunta a Sara para qué sirve un buzón verde.', 'En Luca pregunta a la Sara per a què serveix una bústia verda.'],
+    paragraphs: [
+      ['Sara trabaja en la biblioteca. Luca le hace preguntas. Junto a la puerta hay un buzón verde.', 'La Sara treballa a la biblioteca. En Luca li fa preguntes. Al costat de la porta hi ha una bústia verda.'],
+      ['Luca: ¿Qué ponemos en el buzón?\nSara: Notas para pedir libros.', 'Luca: Què posem a la bústia?\nSara: Notes per demanar llibres.'],
+      ['Luca: ¿Podemos meter libros?\nSara: No. El buzón es solo para notas.', 'Luca: Hi podem posar llibres?\nSara: No. La bústia és només per a notes.'],
+      ['Luca: ¿Cuándo lees las notas?\nSara: Los viernes. Después busco los libros que pedís.', 'Luca: Quan llegeixes les notes?\nSara: Els divendres. Després busco els llibres que demaneu.'],
+    ],
+    imageAfter: [1],
+    questions: [
+      q('literal', 1, '¿Quién trabaja en la biblioteca?', 'Qui treballa a la biblioteca?', 'Sara.', 'La Sara.', [1, 'Sara trabaja en la biblioteca.', 'La Sara treballa a la biblioteca.']),
+      q('literal', 1, '¿De qué color es el buzón?', 'De quin color és la bústia?', 'Verde.', 'Verda.', [1, 'un buzón verde', 'una bústia verda']),
+      q('literal', 1, '¿Qué ponemos en el buzón?', 'Què posem a la bústia?', 'Notas para pedir libros.', 'Notes per demanar llibres.', [2, 'Notas para pedir libros.', 'Notes per demanar llibres.']),
+      q('literal', 1, '¿Qué día lee Sara las notas?', 'Quin dia llegeix les notes la Sara?', 'Los viernes.', 'Els divendres.', [4, 'Los viernes.', 'Els divendres.']),
+    ],
+  },
+  {
+    source: 'L138', suffix: 'B', level: '4-primary', difficulty: 'initial',
+    summary: ['Sara explica cómo una nota puede ayudar a buscar libros y qué se hace con las peticiones.', 'La Sara explica com una nota pot ajudar a buscar llibres i què es fa amb les peticions.'],
+    paragraphs: [
+      ['Luca prepara una entrevista para su clase. Ha visto un buzón verde en la entrada de la biblioteca y quiere saber para qué sirve. Sara, que trabaja en la sala infantil, se sienta con él cerca del mostrador. Luca empieza preguntando si aquel buzón sirve para devolver libros.', 'En Luca prepara una entrevista per a la classe. Ha vist una bústia verda a l’entrada de la biblioteca i vol saber per a què serveix. La Sara, que treballa a la sala infantil, s’asseu amb ell a prop del taulell. En Luca comença preguntant si aquella bústia serveix per tornar llibres.'],
+      ['—No —responde Sara—. Es para dejar notas con libros que os gustaría encontrar aquí. Podéis escribir el título. Si no lo sabéis, basta con indicar el tema. Una nota que diga «libros de caballos» también nos ayuda a buscar.\n—Entonces no hace falta conocer ya un libro concreto.\n—Exacto.', '—No —respon la Sara—. És per deixar notes amb llibres que us agradaria trobar aquí. Hi podeu escriure el títol. Si no el sabeu, n’hi ha prou d’indicar el tema. Una nota que digui «llibres de cavalls» també ens ajuda a buscar.\n—Aleshores no cal conèixer ja un llibre concret.\n—Exacte.'],
+      ['—¿Cuándo leéis las notas?\n—Los viernes. Primero comprobamos si el libro ya está en nuestras estanterías. Si no lo tenemos, intentamos pedirlo a otra biblioteca antes de comprarlo. A veces podemos encontrar lo que pedís sin añadir un libro nuevo a la colección.', '—Quan llegiu les notes?\n—Els divendres. Primer comprovem si el llibre ja és a les nostres lleixes. Si no el tenim, provem de demanar-lo a una altra biblioteca abans de comprar-lo. De vegades podem trobar el que demaneu sense afegir un llibre nou a la col·lecció.'],
+      ['—¿Qué os han pedido últimamente?\n—Recibimos seis notas sobre animales nocturnos. No teníamos libros de ese tema y pedimos dos. Había varias peticiones parecidas: no necesitábamos un título distinto por cada nota. Cuando llegaron, los pusimos en el expositor de novedades. Los dos salieron en préstamo aquella misma mañana.', '—Què us han demanat últimament?\n—Vam rebre sis notes sobre animals nocturns. No teníem llibres d’aquell tema i en vam demanar dos. Hi havia diverses peticions semblants: no necessitàvem un títol diferent per cada nota. Quan van arribar, els vam posar al taulell de les novetats. Es van prestar tots dos aquell mateix matí.'],
+      ['Luca miró el buzón antes de guardar su libreta.\n—Voy a escribir una nota sobre caballos. No sé ningún título, pero ya sé qué puedo poner.', 'En Luca va mirar la bústia abans de desar la llibreta.\n—Escriuré una nota sobre cavalls. No sé cap títol, però ja sé què hi puc posar.'],
+    ],
+    imageAfter: [2],
+    questions: [
+      q('literal', 1, '¿Quién responde a la entrevista y dónde trabaja?', 'Qui respon a l’entrevista i on treballa?', 'Sara, que trabaja en la sala infantil de la biblioteca.', 'La Sara, que treballa a la sala infantil de la biblioteca.', [1, 'Sara, que trabaja en la sala infantil', 'La Sara, que treballa a la sala infantil']),
+      q('literal', 1, '¿Qué se puede escribir en la nota si no se conoce un título?', 'Què es pot escriure a la nota si no es coneix cap títol?', 'El tema del libro que se busca.', 'El tema del llibre que es busca.', [2, 'basta con indicar el tema', 'n’hi ha prou d’indicar el tema']),
+      q('structure', 2, '¿Qué comprueban antes de pedir un libro a otra biblioteca?', 'Què comproven abans de demanar un llibre a una altra biblioteca?', 'Si ya lo tienen en sus propias estanterías.', 'Si ja el tenen a les seves lleixes.', [3, 'Primero comprobamos si el libro ya está en nuestras estanterías.', 'Primer comprovem si el llibre ja és a les nostres lleixes.']),
+      q('literal', 1, '¿Qué día leen las notas?', 'Quin dia llegeixen les notes?', 'Los viernes.', 'Els divendres.', [3, 'Los viernes.', 'Els divendres.']),
+      q('inference', 2, '¿Por qué seis notas no significan que tuvieran que pedir seis títulos distintos?', 'Per què sis notes no volen dir que haguessin de demanar sis títols diferents?', 'Porque varias pedían el mismo tema y podían atenderlas buscando algunos libros de ese tema.', 'Perquè diverses demanaven el mateix tema i les podien atendre buscant alguns llibres d’aquell tema.', [4, 'varias peticiones parecidas', 'diverses peticions semblants'], [4, 'un título distinto por cada nota', 'un títol diferent per cada nota']),
+      q('inference', 2, '¿Qué dato muestra que alguien se interesó por los libros que llegaron?', 'Quina dada mostra que algú es va interessar pels llibres que van arribar?', 'Los dos se prestaron aquella misma mañana.', 'Es van prestar tots dos aquell mateix matí.', [4, 'Los dos salieron en préstamo aquella misma mañana.', 'Es van prestar tots dos aquell mateix matí.']),
+      q('opinion', 3, 'Escribe una nota para ese buzón pidiendo un libro que te gustaría leer.', 'Escriu una nota per a aquella bústia demanant un llibre que t’agradaria llegir.', 'Respuesta abierta con un título conocido o un tema comprensible, de acuerdo con el uso del buzón.', 'Resposta oberta amb un títol conegut o un tema comprensible, d’acord amb l’ús de la bústia.'),
+    ],
+  },
 ];

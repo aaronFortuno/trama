@@ -336,6 +336,54 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L138A",
+      "language": "es",
+      "id": "un-buzon-en-la-biblioteca-a-es",
+      "sha256": "95433fa81ae00fe0ac231b8a6a41ed11738aba5846d0f240b8bcd1a61d50a38f",
+      "date": "2026-11-20",
+      "edition": "v1.51.8",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L138A",
+      "language": "ca",
+      "id": "un-buzon-en-la-biblioteca-a-ca",
+      "sha256": "6c3c6f651a9e1985d4559c3e89b75832bbb91e4d9a33c957a84176c643b93a1f",
+      "date": "2026-11-20",
+      "edition": "v1.51.8",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L138B",
+      "language": "es",
+      "id": "un-buzon-en-la-biblioteca-b-es",
+      "sha256": "d03025e101c23af2b5e5cb48eb1af009936243a40f740afdbda5773ad519b0d5",
+      "date": "2026-11-20",
+      "edition": "v1.51.8",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L138B",
+      "language": "ca",
+      "id": "un-buzon-en-la-biblioteca-b-ca",
+      "sha256": "e9add6a7de6a1fffcd20abe37761f716ae9b50b7c8e305426852fbcd9edba1a6",
+      "date": "2026-11-20",
+      "edition": "v1.51.8",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

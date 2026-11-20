@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.51.8 · 20 de novembre del 2026
+
+Completem quatre famílies més de 2n–3r–4t amb L138, Una bústia a la biblioteca, després de L106, L111 i L113. Afegim vuit obres adaptades en català i castellà: suport de 2n amb quatre preguntes literals i ampliació de 4t amb set preguntes. Conservem els originals de 3r i les il·lustracions compartides; cada variant té solucionari, línies i marques pròpies. Les setze versions noves han superat la revisió independent i les comprovacions locals i queden provisionals, pendents de validació docent.
+
 ## 1.51.7 · 20 de novembre del 2026
 
 Afegim la família L113, Una carta plena de blau, amb suport de 2n i ampliació de 4t en català i castellà. El suport presenta una carta breu amb quatre preguntes literals; l’ampliació distingeix fets, propostes i accions futures del mural compartit. Conservem l’original de 3r i la il·lustració. Les quatre versions noves han superat la revisió independent i les comprovacions locals.
