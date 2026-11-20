@@ -2,6 +2,8 @@
 
 Decisions de disseny acordades el 19 de novembre del 2026. Aquesta guia és la referència per ampliar el catàleg; les relacions editorials no substitueixen el curs, la dificultat, la temàtica ni el tipus de text.
 
+El [registre de continuïtat dels cinc universos](universes/README.md), ampliat el 20 de novembre, concreta els mons disponibles, codis, personatges, recursos i regles d’autoria. Les quatre ampliacions parteixen de lectures existents i afegeixen cinc històries autònomes per univers en català i castellà; no són famílies ni episodis d’ordre obligatori.
+
 ## Identitats que cal mantenir separades
 
 | Concepte | Què comparteix | Cardinalitat per lectura | Identificació |

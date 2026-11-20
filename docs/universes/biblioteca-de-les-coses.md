@@ -2,6 +2,8 @@
 
 Identificador: `biblioteca-de-les-coses`. Nom castellà: **La biblioteca de las cosas**. Origen: **L208, La biblioteca d’objectes**. Tram del primer pilot: **1r d’ESO inicial**.
 
+Aquest univers forma part de l’[índex de continuïtat dels cinc universos](README.md). Conserva les quatre propostes del pilot i les variants de la família L208; l’ampliació del 20 de novembre crea altres mons, sense canviar-ne els textos ni els personatges.
+
 ## Continuïtat del món
 
 Un local d’una associació veïnal presta objectes d’ús ocasional. Hi ha prestatgeries, un taulell, un inventari, una agenda de reserves i un espai per a retorns i comprovacions. Compartir no resol automàticament la disponibilitat, el manteniment ni les necessitats simultànies: cada lectura explora un d’aquests reptes.

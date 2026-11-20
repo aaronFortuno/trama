@@ -36,6 +36,15 @@ export const universes = [
     },
     seedCode: 'L070',
   },
+  {
+    id: 'camins-de-la-ribera',
+    name: { ca: 'Els camins de la ribera', es: 'Los caminos de la ribera' },
+    description: {
+      ca: 'En Neri porta encàrrecs per una vall de camins, prats i un molí de pedra. Amb l’Elna i l’Isona comparteix petits reptes i descobertes, sense ordre de lectura obligatori.',
+      es: 'Neri lleva recados por un valle de caminos, prados y un molino de piedra. Con Elna e Isona comparte pequeños retos y descubrimientos, sin orden de lectura obligatorio.',
+    },
+    seedCode: 'L189',
+  },
 ];
 
 export const universeById = new Map(universes.map(universe => [universe.id, universe]));

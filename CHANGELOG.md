@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.50.3 · 20 de novembre del 2026
+
+Completem Els camins de la ribera amb les L264–L268, a partir de la L189: cinc històries de 5è amb en Neri, l’Elna i l’Isona, en català i castellà. Inclouen dues il·lustracions, preguntes, solucionaris, línies ajustades i marques de resposta. El catàleg ja ofereix cinc universos: els quatre nous tenen sis propostes autònomes cadascun, comptant la lectura d’origen. La tanda afegeix vint obres bilingües i vint escenes pròpies. L’índex conjunt documenta també La biblioteca de les coses, amb guies de continuïtat, personatges, estils i criteris per ampliar cada món. Les quaranta versions superen una revisió editorial independent amb registre de la versió exacta, com a provisionals pendents de validació docent.
+
 ## Protocol editorial · 20 de novembre del 2026
 
 Documentem la revisió adversària obligatòria amb un agent independent per a les lectures noves i les revisions: plausibilitat, lògica, preguntes i solucionaris. El skill és compartit amb Sentit. «Provisional» indica revisió independent superada i validació docent pendent. Aquest canvi documenta el procés; no altera les lectures ni la interfície.

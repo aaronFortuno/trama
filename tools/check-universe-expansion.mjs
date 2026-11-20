@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import { createHash } from 'node:crypto';
 import { readings } from '../data/readings.js';
 import { universes } from '../data/universes.js';
 import { newUniverseEntries, newUniverseReadings } from '../data/readings-new-universes.js';
@@ -11,6 +12,13 @@ const expansion = universes.filter(universe => universe.id !== 'biblioteca-de-le
 if (process.argv.includes('--complete')) {
   assert.equal(universes.length, 5);
   assert.equal(newUniverseEntries.length, 20);
+  const review = JSON.parse(fs.readFileSync('docs/universes/review-2026-11-20.json', 'utf8'));
+  assert.equal(review.readings.length, newUniverseReadings.length);
+  for (const reading of newUniverseReadings) {
+    const record = review.readings.find(item => item.id === reading.id);
+    assert(record && record.result === 'independent-review-passed' && record.teacherValidation === 'pending');
+    assert.equal(record.sha256, createHash('sha256').update(JSON.stringify(reading)).digest('hex'), `${reading.id}: editorial changes require independent revalidation`);
+  }
 }
 assert.equal(new Set(readings.map(reading => reading.id)).size, readings.length);
 assert.equal(new Set(readings.map(reading => reading.code + ':' + reading.language)).size, readings.length);
