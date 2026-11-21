@@ -161,7 +161,7 @@ export const moreReadings6Es = [
       },
       {
         id: 'tres-pistas-en-la-exposicion',
-        src: 'assets/readings/l084-tres-pistas-en-la-exposicion.webp',
+        src: 'assets/readings/l084-tres-pistas-en-la-exposicion-riso.webp',
         width: 960,
         height: 640,
         alt: 'El cuaderno de recetas abierto, la fotografía de la panadería y el recuerdo de la abuela, juntos en la exposición.',

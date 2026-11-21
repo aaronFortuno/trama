@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.51.12 · 21 de novembre del 2026
+
+Substituïm la segona il·lustració de la L084, Una recepta amb dues dates, arran d’un avís d’error rebut. La nova escena de l’exposició mostra el quadern, la fotografia del forn i el testimoni de l’àvia amb l’estil de risografia de la primera imatge. S’aplica al català i al castellà, conserva l’identificador i les dimensions i utilitza un nom de fitxer nou per renovar la memòria cau. Documentem el prompt i la referència visual.
+
 ## 1.51.11 · 20 de novembre del 2026
 
 A la vista ampliada d’una família, les fletxes laterals apareixen en acostar el cursor a cada vora i obren directament la variant veïna mantenint l’ampliació. Només oferim les direccions disponibles; el solucionari es conserva i cada variant recupera el seu maquetat. Les fletxes també són accessibles amb teclat i visibles en pantalles tàctils. El clic fora o als sidebars continua retornant a la vista compacta, amb transicions de 220 ms.
