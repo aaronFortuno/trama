@@ -2,9 +2,11 @@ import { familyEditionPlan } from './family-edition-plan.js';
 import { familyAdaptations } from './family-adaptations.js';
 import { earlyFamilyPlan } from './early-family-plan.js';
 import { earlyFamilyAdaptations } from './early-family-adaptations.js';
+import { familyExpansionPlan } from './family-expansion-plan.js';
+import { familyExpansionAdaptations } from './family-expansion-adaptations.js';
 
-const plans = [...familyEditionPlan, ...earlyFamilyPlan];
-const adaptations = [...familyAdaptations, ...earlyFamilyAdaptations];
+const plans = [...familyEditionPlan, ...earlyFamilyPlan, ...familyExpansionPlan];
+const adaptations = [...familyAdaptations, ...earlyFamilyAdaptations, ...familyExpansionAdaptations];
 const completedSources = new Set(plans.filter(family => ['A', 'B'].every(suffix =>
   adaptations.some(edition => edition.source === family.code && edition.suffix === suffix)
 )).map(family => family.code));

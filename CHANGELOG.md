@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.52 · 22 de novembre del 2026
+
+Comencem una ampliació de deu famílies de 3r–6è amb L108, La capsa dels dibuixos, i L127, Una pinça per a cada mitjó. Conservem els originals de 3r i afegim suport de 2n amb quatre preguntes literals i ampliació de 4t amb set preguntes, en català i castellà. Les vuit versions noves comparteixen les il·lustracions coherents i tenen solucionari, línies i marques pròpies. Han superat la revisió independent i queden provisionals, pendents de validació docent. Documentem la tria de les deu famílies i comprovem que els originals es conserven.
+
 ## 1.51.12 · 21 de novembre del 2026
 
 Substituïm la segona il·lustració de la L084, Una recepta amb dues dates, arran d’un avís d’error rebut. La nova escena de l’exposició mostra el quadern, la fotografia del forn i el testimoni de l’àvia amb l’estil de risografia de la primera imatge. S’aplica al català i al castellà, conserva l’identificador i les dimensions i utilitza un nom de fitxer nou per renovar la memòria cau. Documentem el prompt i la referència visual.

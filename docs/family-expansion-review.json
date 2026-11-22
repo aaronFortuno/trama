@@ -1,0 +1,224 @@
+{
+  "hashScheme": "SHA256 of UTF-8 JSON.stringify(reading) exported by data/readings.js; originals exclude the newly assigned familyId",
+  "date": "2026-11-22",
+  "originals": [
+    {
+      "code": "L025",
+      "language": "es",
+      "id": "un-turno-en-el-mercado-es",
+      "sha256": "42403a2566fca49c238703252a3e7df98a1c287cfd576ee01d1568f0a713dc94"
+    },
+    {
+      "code": "L028",
+      "language": "es",
+      "id": "las-sillas-del-cine-es",
+      "sha256": "94af40f9d7ce36a43291f9807b5fd5de87edc40cb426f8339eb291b1f7e14ffd"
+    },
+    {
+      "code": "L168",
+      "language": "es",
+      "id": "como-guardar-una-partida-es",
+      "sha256": "dab8e3716878a35333f45e1e9d9d43ede1b1c3b294e58517f5567ac2d03a19a0"
+    },
+    {
+      "code": "L108",
+      "language": "es",
+      "id": "la-caja-de-los-dibujos-es",
+      "sha256": "9ba14358626ff333669b247b316e518d2058fdab08f0075fde8b19e51001dddc"
+    },
+    {
+      "code": "L127",
+      "language": "es",
+      "id": "una-pinza-para-cada-calcetin-es",
+      "sha256": "db3049321d74830e8c616b7f376d07cc816da5697bd14b88ab19bf442f409cd0"
+    },
+    {
+      "code": "L048",
+      "language": "es",
+      "id": "el-sobre-de-las-dos-entradas-es",
+      "sha256": "ee5f2e32b4b615dbba6e081638fdcb2e9509a7c9cf1324ec9a2f0532013466ac"
+    },
+    {
+      "code": "L115",
+      "language": "es",
+      "id": "el-pase-de-la-portera-es",
+      "sha256": "d862957a02e1a341b589e25aa7afd7928e90abb5e060ed9c9fb2b8876678a630"
+    },
+    {
+      "code": "L117",
+      "language": "es",
+      "id": "el-cajon-de-las-piezas-sueltas-es",
+      "sha256": "50900ec426949ac2a186bebd6f798462b96f79e274ed1b9239fb58331fc57e5e"
+    },
+    {
+      "code": "L204",
+      "language": "es",
+      "id": "una-entrada-con-dos-horarios-es",
+      "sha256": "cf5ca1a2cefa6a9f23453a0b17865d6b776f92acbbe2de9fc4758a4676af0ec1"
+    },
+    {
+      "code": "L082",
+      "language": "es",
+      "id": "el-ensayo-de-las-dos-pausas-es",
+      "sha256": "5a08f59377858b21a6fb9251655ceb5d3ea8f8ff545068b9d24e73cb38b8fff3"
+    },
+    {
+      "code": "L108",
+      "language": "ca",
+      "id": "la-caja-de-los-dibujos-ca",
+      "sha256": "ee16731e6f9db300672bd82491490de7a482a132b82bdac020124f669b66aec3"
+    },
+    {
+      "code": "L127",
+      "language": "ca",
+      "id": "una-pinza-para-cada-calcetin-ca",
+      "sha256": "95fb0b37a28bdc7d57dc2297ca690d2ac734cce929a77b9e404b0d5f69445926"
+    },
+    {
+      "code": "L025",
+      "language": "ca",
+      "id": "un-torn-al-mercat-ca",
+      "sha256": "6866f0e3ecf92fabd08ae1399f5b78c21368340c70364015bfb1a5d90e11e9ee"
+    },
+    {
+      "code": "L028",
+      "language": "ca",
+      "id": "les-cadires-del-cinema-ca",
+      "sha256": "3045d83f677df6d5ceda349f2c624ef9ded17f03ae87cea52557da7f6f70bd71"
+    },
+    {
+      "code": "L168",
+      "language": "ca",
+      "id": "como-guardar-una-partida-ca",
+      "sha256": "cd2441685b314dc51223109feefc196e9804a4a49e75fdbea4619e800927caf1"
+    },
+    {
+      "code": "L048",
+      "language": "ca",
+      "id": "el-sobre-de-les-dues-entrades-ca",
+      "sha256": "bffdf4226eff7621597b6bb179623aded3a844f88cf138b64b7cdc88afc8ba25"
+    },
+    {
+      "code": "L115",
+      "language": "ca",
+      "id": "el-pase-de-la-portera-ca",
+      "sha256": "c9dc84ed62a766f6411235d9acf15583d394443aae100aef8678d1cf2fb7abcf"
+    },
+    {
+      "code": "L117",
+      "language": "ca",
+      "id": "el-cajon-de-las-piezas-sueltas-ca",
+      "sha256": "8568fd18bcfa71111e22113d9c181d324d85043bf8732eb2c75232a9db413c65"
+    },
+    {
+      "code": "L082",
+      "language": "ca",
+      "id": "lassaig-de-les-dues-pauses-ca",
+      "sha256": "aeb8ef99cd7d92daea7e90d9a9f8d70228094ceac909b5e4ce10edf731dbc1c9"
+    },
+    {
+      "code": "L204",
+      "language": "ca",
+      "id": "una-entrada-con-dos-horarios-ca",
+      "sha256": "b9a9f34b6c16f1d2fd81cbd8a0d5b39a1903244592b745b81074e4e2d5d0760f"
+    }
+  ],
+  "readings": [
+    {
+      "code": "L108A",
+      "language": "es",
+      "id": "la-caja-de-los-dibujos-a-es",
+      "sha256": "b595398a676ac2f6e2995ecf10d9d5bba315de9067deb8550f209985ef85ad18",
+      "date": "2026-11-22",
+      "edition": "v1.52",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L108A",
+      "language": "ca",
+      "id": "la-caja-de-los-dibujos-a-ca",
+      "sha256": "e4128f6e7243eec7f28c799de42a1e789282c5e8221a53fb849aac7b40ca64da",
+      "date": "2026-11-22",
+      "edition": "v1.52",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L108B",
+      "language": "es",
+      "id": "la-caja-de-los-dibujos-b-es",
+      "sha256": "b812221b4658768190401f50565e031221031858bd069f1c6f3b0afd8e3bf120",
+      "date": "2026-11-22",
+      "edition": "v1.52",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L108B",
+      "language": "ca",
+      "id": "la-caja-de-los-dibujos-b-ca",
+      "sha256": "ec47d30c25283b1c534e6975b2f49b9a7b8ecaae36afb176b22df5c6dbc1c6be",
+      "date": "2026-11-22",
+      "edition": "v1.52",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L127A",
+      "language": "es",
+      "id": "una-pinza-para-cada-calcetin-a-es",
+      "sha256": "fe9780e5f63d0e48460997f772e64779de019a963c67adcd957341f2039bb142",
+      "date": "2026-11-22",
+      "edition": "v1.52",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L127A",
+      "language": "ca",
+      "id": "una-pinza-para-cada-calcetin-a-ca",
+      "sha256": "445d8ff10a470277c9ba02da56c0a6e05f4242dc8bf15b225159d091aa6ba1c7",
+      "date": "2026-11-22",
+      "edition": "v1.52",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L127B",
+      "language": "es",
+      "id": "una-pinza-para-cada-calcetin-b-es",
+      "sha256": "619a280de2d975c624e39020e621e96a281873c2c57be5877cf45eced011a98f",
+      "date": "2026-11-22",
+      "edition": "v1.52",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L127B",
+      "language": "ca",
+      "id": "una-pinza-para-cada-calcetin-b-ca",
+      "sha256": "afb653ff28447f753766290ff239c03225ef619ff2468a7f48e88979658bbdf8",
+      "date": "2026-11-22",
+      "edition": "v1.52",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    }
+  ]
+}
