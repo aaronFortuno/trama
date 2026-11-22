@@ -14,8 +14,8 @@ Deu lectures existents de 3r–6è, cadascuna amb una nova versió simplificada 
 | L048 · El sobre de les dues entrades | 4t intermèdia | 5è intermèdia | 6è inicial | Provisional, revisió independent superada ES/CA |
 | L115 · La passada de la portera | 4t inicial | 5è inicial | 6è inicial | Provisional, revisió independent superada ES/CA |
 | L117 · El calaix de les peces soltes | 4t inicial | 5è inicial | 6è inicial | Provisional, revisió independent superada ES/CA |
-| L082 · L’assaig de les dues pauses | 5è intermèdia | 6è avançada | 1r d’ESO inicial | Pendent |
-| L204 · Una entrada amb dos horaris | 5è intermèdia | 6è intermèdia | 1r d’ESO inicial | Pendent |
+| L082 · L’assaig de les dues pauses | 5è intermèdia | 6è avançada | 1r d’ESO inicial | Provisional, revisió independent superada ES/CA |
+| L204 · Una entrada amb dos horaris | 5è intermèdia | 6è intermèdia | 1r d’ESO inicial | Provisional, revisió independent superada ES/CA |
 
 La selecció combina narració, entrevista, carta, instruccions i text informatiu, amb arts, convivència, esport, jocs i raonament sobre quantitats, horaris i informació. Cap lectura de la tanda té un univers assignat; formar una família no n’hi afegeix cap.
 
@@ -34,3 +34,9 @@ Pla: `data/family-expansion-plan.js`. Adaptacions bilingües: `data/family-expan
 `family-expansion-review.json` conserva l’empremta de les vint versions originals abans de formar les famílies i la de cada versió nova que supera la revisió independent. El registre indica codi, llengua, edició, data, resultat, revisor i validació docent pendent. Un canvi editorial posterior exigeix una nova revisió; «provisional» només s’aplica a material ja revisat, mai a un esborrany.
 
 `node tools/check-family-expansion.mjs` comprova la part publicada: originals preservats, identitats, gradació, extensió, perfil de 2n, equivalència lingüística, temes, tipus de text, recursos, cites exactes, línies i empremtes de revisió. `--complete` exigeix les deu famílies. Les comprovacions locals de navegador revisen també fitxes i solucionaris. La comprovació de producció correspon a l’usuari.
+
+## Tanda completada · v1.52.4
+
+Les deu famílies ja estan publicades: vint variants d’exigència i quaranta versions lingüístiques noves, amb els deu originals i les seves dues llengües conservats íntegrament. Les A tenen entre quatre i set preguntes; les B, entre set i onze. Les dues ampliacions de 1r d’ESO tenen entre 454 i 523 paraules segons la llengua i dues il·lustracions cadascuna.
+
+Totes les versions noves han superat la revisió independent i les comprovacions locals i són provisionals, pendents de validació docent. El catàleg d’aquesta edició suma 39 famílies, 346 obres concretes i 692 versions lingüístiques, agrupades en 268 propostes per llengua. Afegir graus d’una família amplia les vies d’accés, mantenint una sola targeta de descoberta per proposta.

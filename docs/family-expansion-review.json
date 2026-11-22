@@ -507,6 +507,102 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L082A",
+      "language": "es",
+      "id": "el-ensayo-de-las-dos-pausas-a-es",
+      "sha256": "5d09de2e6a9f933cad50aceec240bf8e4e12aabad840fbe541b304b7f895cfe8",
+      "date": "2026-11-22",
+      "edition": "v1.52.4",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L082A",
+      "language": "ca",
+      "id": "el-ensayo-de-las-dos-pausas-a-ca",
+      "sha256": "c47a15943dcd08d5d3d0428ac3e7307289c41edbc5629e0da8f33157720d7734",
+      "date": "2026-11-22",
+      "edition": "v1.52.4",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L082B",
+      "language": "es",
+      "id": "el-ensayo-de-las-dos-pausas-b-es",
+      "sha256": "2fbb3842aae2b07ea00c30902f44fbf7256b70628464c05dfc376c4de2e0b5d4",
+      "date": "2026-11-22",
+      "edition": "v1.52.4",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L082B",
+      "language": "ca",
+      "id": "el-ensayo-de-las-dos-pausas-b-ca",
+      "sha256": "a87eb9b89bf3a75aad9d6c29934e68922ef2df410e9f4d4b46ed0f866d0bf149",
+      "date": "2026-11-22",
+      "edition": "v1.52.4",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L204A",
+      "language": "es",
+      "id": "una-entrada-con-dos-horarios-a-es",
+      "sha256": "cd9331ff7c031c135ce5c9a4e2acf3136a71d64cda6f72a4d45ffc757c2ea591",
+      "date": "2026-11-22",
+      "edition": "v1.52.4",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L204A",
+      "language": "ca",
+      "id": "una-entrada-con-dos-horarios-a-ca",
+      "sha256": "71697b405d3ff1394f2c12229ea32dcc663072e4bfea0675b75556fe38d96722",
+      "date": "2026-11-22",
+      "edition": "v1.52.4",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L204B",
+      "language": "es",
+      "id": "una-entrada-con-dos-horarios-b-es",
+      "sha256": "0144473e74a4eb098755ecb986bed4c6b94b70e7ec72fe9989e9b4b94627610a",
+      "date": "2026-11-22",
+      "edition": "v1.52.4",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L204B",
+      "language": "ca",
+      "id": "una-entrada-con-dos-horarios-b-ca",
+      "sha256": "e5fbcd7a2adeb85dbf18467ebd265a6a3241c4fe88da5e14e95324493f187fd5",
+      "date": "2026-11-22",
+      "edition": "v1.52.4",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

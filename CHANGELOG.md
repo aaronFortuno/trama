@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.52.4 · 22 de novembre del 2026
+
+Completem la tanda de deu famílies amb L082, L’assaig de les dues pauses, i L204, Una entrada amb dos horaris. Afegim suport de 5è i ampliació de 1r d’ESO en català i castellà, amb onze preguntes i dues imatges en les ampliacions. La tanda suma vint variants i quaranta versions lingüístiques noves, amb solucionaris, línies i evidències pròpies. Els deu originals es conserven íntegres. Totes les versions noves han superat la revisió independent i les comprovacions locals i queden provisionals, pendents de validació docent. El catàleg arriba a 39 famílies.
+
 ## 1.52.3 · 22 de novembre del 2026
 
 Afegim les famílies L115, La passada de la portera, i L117, El calaix de les peces soltes, amb suport de 4t i ampliació de 6è en català i castellà. Les variants desenvolupen l’observació abans de passar la pilota i els criteris per reutilitzar una peça d’un joc. Conservem els originals de 5è i les il·lustracions, amb preguntes, solucionaris, línies i fragments propis. Les vuit versions noves han superat la revisió independent i les comprovacions locals; queden provisionals, pendents de validació docent.
