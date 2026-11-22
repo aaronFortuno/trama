@@ -8,8 +8,8 @@ Deu lectures existents de 3r–6è, cadascuna amb una nova versió simplificada 
 | --- | --- | --- | --- | --- |
 | L108 · La capsa dels dibuixos | 2n inicial | 3r intermèdia | 4t inicial | Provisional, revisió independent superada ES/CA |
 | L127 · Una pinça per a cada mitjó | 2n inicial | 3r inicial | 4t inicial | Provisional, revisió independent superada ES/CA |
-| L025 · Un torn al mercat | 3r intermèdia | 4t inicial | 5è inicial | Pendent |
-| L028 · Les cadires del cinema | 3r avançada | 4t intermèdia | 5è intermèdia | Pendent |
+| L025 · Un torn al mercat | 3r intermèdia | 4t inicial | 5è inicial | Provisional, revisió independent superada ES/CA |
+| L028 · Les cadires del cinema | 3r avançada | 4t intermèdia | 5è intermèdia | Provisional, revisió independent superada ES/CA |
 | L168 · Com guardar una partida | 3r intermèdia | 4t inicial | 5è inicial | Pendent |
 | L048 · El sobre de les dues entrades | 4t intermèdia | 5è intermèdia | 6è inicial | Pendent |
 | L115 · La passada de la portera | 4t inicial | 5è inicial | 6è inicial | Pendent |

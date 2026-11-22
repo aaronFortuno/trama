@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.52.1 · 22 de novembre del 2026
+
+Afegim les famílies L025, Un torn al mercat, i L028, Les cadires del cinema, amb suport de 3r i ampliació de 5è en català i castellà. Les variants treballen la preparació d’una parada i una proposta per millorar la visibilitat al cinema, amb preguntes, solucionari, línies i evidències pròpies. Conservem els originals de 4t i les il·lustracions. Les vuit versions noves han superat la revisió independent i les comprovacions locals; la validació docent continua pendent.
+
 ## 1.52 · 22 de novembre del 2026
 
 Comencem una ampliació de deu famílies de 3r–6è amb L108, La capsa dels dibuixos, i L127, Una pinça per a cada mitjó. Conservem els originals de 3r i afegim suport de 2n amb quatre preguntes literals i ampliació de 4t amb set preguntes, en català i castellà. Les vuit versions noves comparteixen les il·lustracions coherents i tenen solucionari, línies i marques pròpies. Han superat la revisió independent i queden provisionals, pendents de validació docent. Documentem la tria de les deu famílies i comprovem que els originals es conserven.

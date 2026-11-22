@@ -219,6 +219,102 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L025A",
+      "language": "es",
+      "id": "un-turno-en-el-mercado-a-es",
+      "sha256": "082e0a2199ebc6fb5d69133d5559560e5ff75b24a52dbce81c38d1316cd1126c",
+      "date": "2026-11-22",
+      "edition": "v1.52.1",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L025A",
+      "language": "ca",
+      "id": "un-turno-en-el-mercado-a-ca",
+      "sha256": "1205641b45324f624337a9b5c20438adfbc3f345695174b694b9bd2b9e259b9d",
+      "date": "2026-11-22",
+      "edition": "v1.52.1",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L025B",
+      "language": "es",
+      "id": "un-turno-en-el-mercado-b-es",
+      "sha256": "c1323f62ba441c0cc6c88886db59279e9c94ae4791853fe6cacba7e533a9cddc",
+      "date": "2026-11-22",
+      "edition": "v1.52.1",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L025B",
+      "language": "ca",
+      "id": "un-turno-en-el-mercado-b-ca",
+      "sha256": "e4df45a3ab5ff0a1ff724bf526fb647c3c262ff36e1804c2b8eaec74c8df3911",
+      "date": "2026-11-22",
+      "edition": "v1.52.1",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L028A",
+      "language": "es",
+      "id": "las-sillas-del-cine-a-es",
+      "sha256": "16a834ce5c7866f1a90b794538d075989080665d4792ad9ae91e195d8adfa8c6",
+      "date": "2026-11-22",
+      "edition": "v1.52.1",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L028A",
+      "language": "ca",
+      "id": "las-sillas-del-cine-a-ca",
+      "sha256": "c37aea409212f0ae08cd6e0044eb662582a1a535b69bba3240339e6148e6f946",
+      "date": "2026-11-22",
+      "edition": "v1.52.1",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L028B",
+      "language": "es",
+      "id": "las-sillas-del-cine-b-es",
+      "sha256": "dd3b4a0dc1724a5743a575a9c66e3c295ffc01d1a9b846bda8bb120c81fa5adf",
+      "date": "2026-11-22",
+      "edition": "v1.52.1",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L028B",
+      "language": "ca",
+      "id": "las-sillas-del-cine-b-ca",
+      "sha256": "97c4765771eca523856cfd63f06c02689517116b523b73f7d459ebb126349654",
+      "date": "2026-11-22",
+      "edition": "v1.52.1",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }
