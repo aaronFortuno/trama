@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.52.2 · 22 de novembre del 2026
+
+Afegim les famílies L168, Com guardar una partida, i L048, El sobre de les dues entrades, en català i castellà. La L168 incorpora suport de 3r i ampliació de 5è; la L048, suport de 4t i ampliació de 6è. Les variants tenen preguntes, solucionaris, línies i evidències pròpies i conserven els originals i les imatges. Permetem precisar el text alternatiu d’una imatge a cada variant i ajustem la descripció de les estrelles d’orientació. Les vuit versions noves han superat la revisió independent i queden provisionals, pendents de validació docent.
+
 ## 1.52.1 · 22 de novembre del 2026
 
 Afegim les famílies L025, Un torn al mercat, i L028, Les cadires del cinema, amb suport de 3r i ampliació de 5è en català i castellà. Les variants treballen la preparació d’una parada i una proposta per millorar la visibilitat al cinema, amb preguntes, solucionari, línies i evidències pròpies. Conservem els originals de 4t i les il·lustracions. Les vuit versions noves han superat la revisió independent i les comprovacions locals; la validació docent continua pendent.

@@ -315,6 +315,102 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L168A",
+      "language": "es",
+      "id": "como-guardar-una-partida-a-es",
+      "sha256": "9aee369ee16366fd179b7355d888bf8252ad2353fcb4b8d5acb9b0c408ee44f5",
+      "date": "2026-11-22",
+      "edition": "v1.52.2",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L168A",
+      "language": "ca",
+      "id": "como-guardar-una-partida-a-ca",
+      "sha256": "44b73a4f4b3650e13862146c5e77d316c276e06073e8f9a61de3bf7b6a41ea9d",
+      "date": "2026-11-22",
+      "edition": "v1.52.2",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L168B",
+      "language": "es",
+      "id": "como-guardar-una-partida-b-es",
+      "sha256": "c91edce989f84f6267ea07c9b20eba73274b4875ccf8ea1019342ab1359cfd49",
+      "date": "2026-11-22",
+      "edition": "v1.52.2",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L168B",
+      "language": "ca",
+      "id": "como-guardar-una-partida-b-ca",
+      "sha256": "c66c4814d38654126481943ebd320b6f0734e8eddc796b4a8bac7b88909ebb29",
+      "date": "2026-11-22",
+      "edition": "v1.52.2",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L048A",
+      "language": "es",
+      "id": "el-sobre-de-las-dos-entradas-a-es",
+      "sha256": "093fe3f8e68a061175c3b8012a7b2582675ee4d2dd83d6b6a53d8bf0e0203289",
+      "date": "2026-11-22",
+      "edition": "v1.52.2",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L048A",
+      "language": "ca",
+      "id": "el-sobre-de-las-dos-entradas-a-ca",
+      "sha256": "49d70cea47bb3bc51f37bb1e50913b8cc252fd20eb2fce882c12eb3e1da3740d",
+      "date": "2026-11-22",
+      "edition": "v1.52.2",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L048B",
+      "language": "es",
+      "id": "el-sobre-de-las-dos-entradas-b-es",
+      "sha256": "70c41ed24bce1a2a86ac8b16901cef1b2924064dc811772a228f2523f47a3183",
+      "date": "2026-11-22",
+      "edition": "v1.52.2",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L048B",
+      "language": "ca",
+      "id": "el-sobre-de-las-dos-entradas-b-ca",
+      "sha256": "5f0cbf363da4b89d9798b8e22281b3c61401dea6c1121809720fde3f2e9abb18",
+      "date": "2026-11-22",
+      "edition": "v1.52.2",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

@@ -29,7 +29,8 @@ export function buildFamilyAdaptations(baseReadings, adaptations, families) {
       familyId: registry.get(edition.source), level: edition.level, difficulty: edition.difficulty,
       summary: edition.summary[locale], paragraphs, questions, annotations,
       images: base.images.map((image, index) => ({
-        ...image, afterParagraph: edition.imageAfter?.[index] ?? Math.max(1, Math.min(paragraphs.length, Math.round((index + 1) * paragraphs.length / (base.images.length + 1)))),
+        ...image, alt: edition.imageAlt?.[image.id]?.[locale] ?? image.alt,
+        afterParagraph: edition.imageAfter?.[index] ?? Math.max(1, Math.min(paragraphs.length, Math.round((index + 1) * paragraphs.length / (base.images.length + 1)))),
       })),
     };
   }));
