@@ -411,6 +411,102 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L115A",
+      "language": "es",
+      "id": "el-pase-de-la-portera-a-es",
+      "sha256": "84bf0b1eb73426f37fb93ebb0c6bee6a47cccf6fc5c949ad75d922bed94e8fe9",
+      "date": "2026-11-22",
+      "edition": "v1.52.3",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L115A",
+      "language": "ca",
+      "id": "el-pase-de-la-portera-a-ca",
+      "sha256": "4943983293b9400f8e1fbd1e4295793b761ac88015df2eeada174ef2d9cc9f9e",
+      "date": "2026-11-22",
+      "edition": "v1.52.3",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L115B",
+      "language": "es",
+      "id": "el-pase-de-la-portera-b-es",
+      "sha256": "64a3559d71f0afb5be40edf22373bf7a95bdf028a168c96f7eb928b6cf7026a1",
+      "date": "2026-11-22",
+      "edition": "v1.52.3",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L115B",
+      "language": "ca",
+      "id": "el-pase-de-la-portera-b-ca",
+      "sha256": "55ab762393c413dff84c4c19ef208c8b00726dd64ec88d8e95386ece3fa4b49a",
+      "date": "2026-11-22",
+      "edition": "v1.52.3",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L117A",
+      "language": "es",
+      "id": "el-cajon-de-las-piezas-sueltas-a-es",
+      "sha256": "4f274c82e2d1e542c92da553c82bc5bc68dbed72128aec3d23a5ba902ce21564",
+      "date": "2026-11-22",
+      "edition": "v1.52.3",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L117A",
+      "language": "ca",
+      "id": "el-cajon-de-las-piezas-sueltas-a-ca",
+      "sha256": "ed5997c93cf95e9205a42dc6d52d33e29f0bda9619c7d1cc2581bcb2e4c0fa4f",
+      "date": "2026-11-22",
+      "edition": "v1.52.3",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L117B",
+      "language": "es",
+      "id": "el-cajon-de-las-piezas-sueltas-b-es",
+      "sha256": "167001a282e682abd3636c2bed27d8faae665097a17aefbc1e5bc3df986b521f",
+      "date": "2026-11-22",
+      "edition": "v1.52.3",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L117B",
+      "language": "ca",
+      "id": "el-cajon-de-las-piezas-sueltas-b-ca",
+      "sha256": "3061754180655b162806f6b81b0a23573f0f657c349dc3a00c72b0dee963d548",
+      "date": "2026-11-22",
+      "edition": "v1.52.3",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

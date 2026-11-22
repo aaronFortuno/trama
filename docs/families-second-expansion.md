@@ -12,8 +12,8 @@ Deu lectures existents de 3r–6è, cadascuna amb una nova versió simplificada 
 | L028 · Les cadires del cinema | 3r avançada | 4t intermèdia | 5è intermèdia | Provisional, revisió independent superada ES/CA |
 | L168 · Com guardar una partida | 3r intermèdia | 4t inicial | 5è inicial | Provisional, revisió independent superada ES/CA |
 | L048 · El sobre de les dues entrades | 4t intermèdia | 5è intermèdia | 6è inicial | Provisional, revisió independent superada ES/CA |
-| L115 · La passada de la portera | 4t inicial | 5è inicial | 6è inicial | Pendent |
-| L117 · El calaix de les peces soltes | 4t inicial | 5è inicial | 6è inicial | Pendent |
+| L115 · La passada de la portera | 4t inicial | 5è inicial | 6è inicial | Provisional, revisió independent superada ES/CA |
+| L117 · El calaix de les peces soltes | 4t inicial | 5è inicial | 6è inicial | Provisional, revisió independent superada ES/CA |
 | L082 · L’assaig de les dues pauses | 5è intermèdia | 6è avançada | 1r d’ESO inicial | Pendent |
 | L204 · Una entrada amb dos horaris | 5è intermèdia | 6è intermèdia | 1r d’ESO inicial | Pendent |
 

@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.52.3 · 22 de novembre del 2026
+
+Afegim les famílies L115, La passada de la portera, i L117, El calaix de les peces soltes, amb suport de 4t i ampliació de 6è en català i castellà. Les variants desenvolupen l’observació abans de passar la pilota i els criteris per reutilitzar una peça d’un joc. Conservem els originals de 5è i les il·lustracions, amb preguntes, solucionaris, línies i fragments propis. Les vuit versions noves han superat la revisió independent i les comprovacions locals; queden provisionals, pendents de validació docent.
+
 ## 1.52.2 · 22 de novembre del 2026
 
 Afegim les famílies L168, Com guardar una partida, i L048, El sobre de les dues entrades, en català i castellà. La L168 incorpora suport de 3r i ampliació de 5è; la L048, suport de 4t i ampliació de 6è. Les variants tenen preguntes, solucionaris, línies i evidències pròpies i conserven els originals i les imatges. Permetem precisar el text alternatiu d’una imatge a cada variant i ajustem la descripció de les estrelles d’orientació. Les vuit versions noves han superat la revisió independent i queden provisionals, pendents de validació docent.
