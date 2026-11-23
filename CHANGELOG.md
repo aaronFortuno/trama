@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.55.4 · 23 de novembre del 2026
+
+La primera desena de la cinquena tanda es completa amb L128, els entrepans del berenar, i L166, la tassa de dues nanses. Vint variants noves en català i castellà, amb suport, ampliació i originals preservats.
+
 ## 1.55.3 · 23 de novembre del 2026
 
 L’ampolla dels missatges L055 i la carta dins del fang L090 passen a tenir suport i ampliació de 4t a 1r d’ESO. Versions catalana i castellana amb preguntes graduades, solucionaris i evidències pròpies revisades.

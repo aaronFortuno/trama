@@ -627,6 +627,102 @@
       "reviewer": "root",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L128A",
+      "language": "es",
+      "id": "el-pan-de-la-merienda-a-es",
+      "sha256": "8113463d99508a33f8da3de52c4401e49a3b187243a6903a4e389a08fdec53ab",
+      "date": "2026-11-23",
+      "edition": "v1.55.4",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L128A",
+      "language": "ca",
+      "id": "el-pan-de-la-merienda-a-ca",
+      "sha256": "e19b954fbf6ba4190aa7fbdf1cac35d18adf1a36def82ed26355cc9517219aa0",
+      "date": "2026-11-23",
+      "edition": "v1.55.4",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L128B",
+      "language": "es",
+      "id": "el-pan-de-la-merienda-b-es",
+      "sha256": "e44512d1b895cf494f3d8406e1cd1ba8a2b6e7dcfa906fe00a3d19011f02efe4",
+      "date": "2026-11-23",
+      "edition": "v1.55.4",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L128B",
+      "language": "ca",
+      "id": "el-pan-de-la-merienda-b-ca",
+      "sha256": "8b330d69a7bf1efffbf7b103773ad78c88f3c5c8ae8c27ae1a0c5c59925be18c",
+      "date": "2026-11-23",
+      "edition": "v1.55.4",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L166A",
+      "language": "es",
+      "id": "la-taza-de-las-dos-asas-a-es",
+      "sha256": "ff82b9adb5ba0427922a71c71bb716f7a9c2aa647bd4b6f136d7db7ba867e530",
+      "date": "2026-11-23",
+      "edition": "v1.55.4",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L166A",
+      "language": "ca",
+      "id": "la-taza-de-las-dos-asas-a-ca",
+      "sha256": "254472b960acab6ecddbd26a23af65e333d68ea034bc5f4a33fff570707efcb8",
+      "date": "2026-11-23",
+      "edition": "v1.55.4",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L166B",
+      "language": "es",
+      "id": "la-taza-de-las-dos-asas-b-es",
+      "sha256": "b95922ea6315231b3dc0e781b8068d40ff6df4630b85dce179dcd1350a74818b",
+      "date": "2026-11-23",
+      "edition": "v1.55.4",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L166B",
+      "language": "ca",
+      "id": "la-taza-de-las-dos-asas-b-ca",
+      "sha256": "6296cf4e1b8d0a549577c1cf381d6bb39742ee2217d3e0fefda3de86cf9f80dd",
+      "date": "2026-11-23",
+      "edition": "v1.55.4",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

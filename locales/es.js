@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.55.4 · Obre l’historial de canvis|v1.55.4 · Abrir el historial de cambios
+La primera desena de la cinquena tanda es completa amb L128, els entrepans del berenar, i L166, la tassa de dues nanses. Vint variants noves en català i castellà, amb suport, ampliació i originals preservats.|La primera decena de la quinta tanda se completa con L128, los bocadillos de la merienda, y L166, la taza de dos asas. Veinte variantes nuevas en catalán y castellano, con apoyo, ampliación y originales preservados.
 v1.55.3 · Obre l’historial de canvis|v1.55.3 · Abrir el historial de cambios
 L’ampolla dels missatges L055 i la carta dins del fang L090 passen a tenir suport i ampliació de 4t a 1r d’ESO. Versions catalana i castellana amb preguntes graduades, solucionaris i evidències pròpies revisades.|La botella de los mensajes L055 y la carta dentro del barro L090 pasan a tener apoyo y ampliación de 4.º a 1.º de ESO. Versiones catalana y castellana con preguntas graduadas, solucionarios y evidencias propias revisados.
 v1.55.2 · Obre l’historial de canvis|v1.55.2 · Abrir el historial de cambios
