@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.54 · 23 de novembre del 2026
+
+Comença una nova tanda de vint famílies DUA amb L105, el rastre del cargol, i L021, l’abric del penjador. Suport per a 2n i 3r i ampliació per a 4t i 5è, en català i castellà, amb preguntes, solucionaris i evidències revisades independentment.
+
 ## 1.53.14 · 23 de novembre del 2026
 
 Completada la tanda de trenta famílies: seixanta variants noves, cadascuna en català i castellà, amb originals conservats, il·lustracions compartides, solucionaris i marques de resposta revisats independentment. L155 i L186 tanquen l’ampliació. El catàleg arriba a 69 famílies i 406 lectures amb 812 versions lingüístiques.

@@ -6,9 +6,11 @@ import { familyExpansionPlan } from './family-expansion-plan.js';
 import { familyExpansionAdaptations } from './family-expansion-adaptations.js';
 import { familyExpansionPlan as familyExpansionNov23Plan } from './family-expansion-2026-11-23-plan.js';
 import { familyExpansionAdaptations as familyExpansionNov23Adaptations } from './family-expansion-2026-11-23-adaptations.js';
+import { familyExpansionPlan as familyExpansionFourthPlan } from './family-expansion-2026-11-23b-plan.js';
+import { familyExpansionAdaptations as familyExpansionFourthAdaptations } from './family-expansion-2026-11-23b-adaptations.js';
 
-const plans = [...familyEditionPlan, ...earlyFamilyPlan, ...familyExpansionPlan, ...familyExpansionNov23Plan];
-const adaptations = [...familyAdaptations, ...earlyFamilyAdaptations, ...familyExpansionAdaptations, ...familyExpansionNov23Adaptations];
+const plans = [...familyEditionPlan, ...earlyFamilyPlan, ...familyExpansionPlan, ...familyExpansionNov23Plan, ...familyExpansionFourthPlan];
+const adaptations = [...familyAdaptations, ...earlyFamilyAdaptations, ...familyExpansionAdaptations, ...familyExpansionNov23Adaptations, ...familyExpansionFourthAdaptations];
 const completedSources = new Set(plans.filter(family => ['A', 'B'].every(suffix =>
   adaptations.some(edition => edition.source === family.code && edition.suffix === suffix)
 )).map(family => family.code));

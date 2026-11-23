@@ -1,0 +1,344 @@
+{
+  "date": "2026-11-23",
+  "scope": "Twenty additional families, forty new bilingual variants; originals preserved.",
+  "originals": [
+    {
+      "code": "L105",
+      "language": "es",
+      "id": "el-rastro-de-plata-es",
+      "sha256": "bec1497b8408f9671846c4fc0b00ec2c09ba9273e7aab0dd95bb84cd9770f128"
+    },
+    {
+      "code": "L105",
+      "language": "ca",
+      "id": "el-rastro-de-plata-ca",
+      "sha256": "dc8490984c461a1d6293592df6250c50b569b526c3621adbc0d98089926bcf95"
+    },
+    {
+      "code": "L021",
+      "language": "es",
+      "id": "el-abrigo-del-perchero-es",
+      "sha256": "3154e0037a44be8f04369be9e8a5e80eea0f6595d4183f6a4f0528200bbfac8a"
+    },
+    {
+      "code": "L021",
+      "language": "ca",
+      "id": "labric-del-penjador-ca",
+      "sha256": "af944df7f6e236697630023e863ef9a544859fd3303db06bea1148d86f2bd01d"
+    },
+    {
+      "code": "L041",
+      "language": "es",
+      "id": "la-vuelta-por-la-sombra-es",
+      "sha256": "b0a53b1ea69d3634884b2a68efda8352a2f4a931776bcc2963e38dc6eebb1521"
+    },
+    {
+      "code": "L041",
+      "language": "ca",
+      "id": "la-volta-per-lombra-ca",
+      "sha256": "f03b7602c852a01ae03d743eabb6bc74f2ac464a4a67ffe0762dc85d957e37f6"
+    },
+    {
+      "code": "L083",
+      "language": "es",
+      "id": "cuando-el-rio-deja-una-isla-es",
+      "sha256": "9b26bed6092e8e99bfd7b43f92db593f264c31ef7d6762a43c4f723daff919ad"
+    },
+    {
+      "code": "L083",
+      "language": "ca",
+      "id": "quan-el-riu-deixa-una-illa-ca",
+      "sha256": "c4d02daa76f14135c26f7a53f863abb9391bd9ed2d6d215903794f8771b018af"
+    },
+    {
+      "code": "L110",
+      "language": "es",
+      "id": "una-rueda-floja-es",
+      "sha256": "62200f1c69804dd4e1149ad53a493b8d34c7acdffc9aa8b68f21fc050706145f"
+    },
+    {
+      "code": "L110",
+      "language": "ca",
+      "id": "una-rueda-floja-ca",
+      "sha256": "dd7f88ca5cb05c2a16ccdffc4d4ebbb6883115ee172d15a28d76fdf24b6db753"
+    },
+    {
+      "code": "L032",
+      "language": "es",
+      "id": "el-patio-de-antes-es",
+      "sha256": "2bc5d54521ad7063638e5b9ab9551822683382fde81c7ccb5d9e0a96c272d2c3"
+    },
+    {
+      "code": "L032",
+      "language": "ca",
+      "id": "el-pati-dabans-ca",
+      "sha256": "39a2d5a4860b2104a1bda6d379a8343a0b92f2c1eeec5a85b3ec47a2642e93b6"
+    },
+    {
+      "code": "L045",
+      "language": "es",
+      "id": "un-mapa-para-llegar-sin-preguntar-es",
+      "sha256": "ec3db8e576f2eab04579ee8bcb60130bd38fce4cd0a3d060a16fcdb4da807c55"
+    },
+    {
+      "code": "L045",
+      "language": "ca",
+      "id": "un-mapa-per-arribar-hi-sense-preguntar-ca",
+      "sha256": "0703192c77db94ef25c948695b5ff9b191a1dcf0b41a7e87189a63582ad2c8ec"
+    },
+    {
+      "code": "L084",
+      "language": "es",
+      "id": "una-receta-con-dos-fechas-es",
+      "sha256": "551505934789b037d94884506eeb5b47d6ec524c8ee0e8ddf8e48ba15aaf3adc"
+    },
+    {
+      "code": "L084",
+      "language": "ca",
+      "id": "una-recepta-amb-dues-dates-ca",
+      "sha256": "4757dfdfca9e2e06f1328f26f4c40129efdee2ec4e07eef07e5f2b809f5675ac"
+    },
+    {
+      "code": "L112",
+      "language": "es",
+      "id": "el-juego-de-las-fichas-es",
+      "sha256": "adcc776982c30fadcf743cdb1b821295f2fac43d379ddbb37b49b0c6a559ca5d"
+    },
+    {
+      "code": "L112",
+      "language": "ca",
+      "id": "el-juego-de-las-fichas-ca",
+      "sha256": "79d9d8a1276704027919cdd698eebde6c6b96af692cc2c11e285ae4cbeae6c79"
+    },
+    {
+      "code": "L037",
+      "language": "es",
+      "id": "una-respuesta-para-el-canal-es",
+      "sha256": "081236da11f12fa2fabde81c1f22934b978c247a1b2d843f85035fb8929ea911"
+    },
+    {
+      "code": "L037",
+      "language": "ca",
+      "id": "una-resposta-per-al-canal-ca",
+      "sha256": "a4b3319c55903d64ccdb5654ca465767c80d9c74a9751014e515c3d2ab201bb5"
+    },
+    {
+      "code": "L052",
+      "language": "es",
+      "id": "una-manana-detras-de-la-pantalla-es",
+      "sha256": "54fa60051d10b520298207720a9f9dda3744db5d8296d7db1c6151cd74227669"
+    },
+    {
+      "code": "L052",
+      "language": "ca",
+      "id": "un-mati-darrere-de-la-pantalla-ca",
+      "sha256": "716bae1a5485cd04c777c8b0bec075a60e2a294ea1497bae32f35fe163e2022b"
+    },
+    {
+      "code": "L092",
+      "language": "es",
+      "id": "dos-fichas-y-una-regla-es",
+      "sha256": "2346350217617ce2cc16c333c8e5ab86f0476dfdc51df4fb8e7c2dd6c1515e7a"
+    },
+    {
+      "code": "L092",
+      "language": "ca",
+      "id": "dues-fitxes-i-una-regla-ca",
+      "sha256": "2751dadda1f4a3a3668255da5eaa3470620b910b9db17b138810d85ac4e3e507"
+    },
+    {
+      "code": "L141",
+      "language": "es",
+      "id": "el-cartel-de-la-fuente-es",
+      "sha256": "44e05d7fd97ceb8b3fafe27ab67406a5f1537854c3218a42028b7329ff5654d3"
+    },
+    {
+      "code": "L141",
+      "language": "ca",
+      "id": "el-cartel-de-la-fuente-ca",
+      "sha256": "5b3ac7dfe998f0cd261bb9417ac3049d6b54b3922541d21cb4bc257c1081189f"
+    },
+    {
+      "code": "L174",
+      "language": "es",
+      "id": "el-tren-que-no-salia-del-mapa-es",
+      "sha256": "ede519dcee8f1a31003507cee199c8b96f5c9a68e5e631f8e4d5254dfc03d15c"
+    },
+    {
+      "code": "L174",
+      "language": "ca",
+      "id": "el-tren-que-no-salia-del-mapa-ca",
+      "sha256": "725cb4b7216fb3bda2446b537ff259f7277d906bc60c11295111de75d89b55f9"
+    },
+    {
+      "code": "L060",
+      "language": "es",
+      "id": "una-propuesta-para-el-tablon-es",
+      "sha256": "e8667305cafcc6db551e43d2a9ad73fb814d1be4dd2441f4da7eac1a096bb2e7"
+    },
+    {
+      "code": "L060",
+      "language": "ca",
+      "id": "una-proposta-per-al-tauler-ca",
+      "sha256": "26c13b3255df993d0b52370e4b950789baa3a3f0392c120f5851b649fd75239f"
+    },
+    {
+      "code": "L093",
+      "language": "es",
+      "id": "el-lado-de-la-ola-es",
+      "sha256": "2cecb7bd28a01e03c93f03344aeedf32a5153fd12727f5c5c17d0a3c1feb8853"
+    },
+    {
+      "code": "L093",
+      "language": "ca",
+      "id": "el-costat-de-lonada-ca",
+      "sha256": "37266498c8b27dc0fc417f985cef02d5dca1f6a280aee7e8b248b1100f76769e"
+    },
+    {
+      "code": "L148",
+      "language": "es",
+      "id": "letras-al-reves-es",
+      "sha256": "2c8b0fc74a31a6864db868971a2711bd724dea9a545bcd0e351ce5d8fc3e9026"
+    },
+    {
+      "code": "L148",
+      "language": "ca",
+      "id": "letras-al-reves-ca",
+      "sha256": "6e2a97e7caa97a6bfe2ee68548363bed59606a824a29822f5c82e3adbfbd1b3f"
+    },
+    {
+      "code": "L187",
+      "language": "es",
+      "id": "el-dibujo-que-viajo-en-autobus-es",
+      "sha256": "f5eeacbf3ca135adbaf3f819b5c8433ef5a2d9765bfde0fd2fa94409a30f18d7"
+    },
+    {
+      "code": "L187",
+      "language": "ca",
+      "id": "el-dibujo-que-viajo-en-autobus-ca",
+      "sha256": "2a34482b6c72fe3edf9dda9b8a3dc0414f447cbdd56838a2a6539d263b5c1528"
+    },
+    {
+      "code": "L159",
+      "language": "es",
+      "id": "el-turno-del-robot-es",
+      "sha256": "f8fc7562ed0f34690423a940e9cb3a0084664569fb196df1ce3e581d1a2e9847"
+    },
+    {
+      "code": "L159",
+      "language": "ca",
+      "id": "el-turno-del-robot-ca",
+      "sha256": "ed446f5db4cb4c306d4f9ec9d00bc300669fb1314dc06645f267d5d2add6b4e4"
+    },
+    {
+      "code": "L207",
+      "language": "es",
+      "id": "una-entrevista-que-empezo-al-final-es",
+      "sha256": "186311cdc67d22683fafc03152cbd015a7420488945fc5fdd9d9dc3345262634"
+    },
+    {
+      "code": "L207",
+      "language": "ca",
+      "id": "una-entrevista-que-empezo-al-final-ca",
+      "sha256": "1eeea96849159fe668499a92c82850570303b89fd96fff710715e23751521023"
+    }
+  ],
+  "readings": [
+    {
+      "code": "L105A",
+      "language": "es",
+      "id": "el-rastro-de-plata-a-es",
+      "sha256": "3220bf295ac898ecb78f5e933c8154aa94784078842a728f5a86db76918cc98e",
+      "date": "2026-11-23",
+      "edition": "v1.54",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L105A",
+      "language": "ca",
+      "id": "el-rastro-de-plata-a-ca",
+      "sha256": "a59c670cf53c824d5387ad4a25a67f407051f7d1df6b8396cd0b3d97f71f4a4e",
+      "date": "2026-11-23",
+      "edition": "v1.54",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L105B",
+      "language": "es",
+      "id": "el-rastro-de-plata-b-es",
+      "sha256": "d75f43379e7fc85653527509b9d090ac93524e518c7f594938eb3b995c1f8c3a",
+      "date": "2026-11-23",
+      "edition": "v1.54",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L105B",
+      "language": "ca",
+      "id": "el-rastro-de-plata-b-ca",
+      "sha256": "e991d3c452d21e4760d88c4537e681377c7fa9614b4c154d7a8b53e1d9570797",
+      "date": "2026-11-23",
+      "edition": "v1.54",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L021A",
+      "language": "es",
+      "id": "el-abrigo-del-perchero-a-es",
+      "sha256": "54499e0d0a88ca7e663f8965530ec4be9779507f4b76129749659a956f5a0594",
+      "date": "2026-11-23",
+      "edition": "v1.54",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L021A",
+      "language": "ca",
+      "id": "el-abrigo-del-perchero-a-ca",
+      "sha256": "6a83999805ea38b060b020059122e9ae7aa6e82d5f2568ae345230f14f9decba",
+      "date": "2026-11-23",
+      "edition": "v1.54",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L021B",
+      "language": "es",
+      "id": "el-abrigo-del-perchero-b-es",
+      "sha256": "14f664508e23a33b37c4c98094fddc5b9fe230bf64518934381ae60200adc111",
+      "date": "2026-11-23",
+      "edition": "v1.54",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L021B",
+      "language": "ca",
+      "id": "el-abrigo-del-perchero-b-ca",
+      "sha256": "1f9a893ae231c0d35144b2ca24fe53423e567a095b17c517c7baa28938c57573",
+      "date": "2026-11-23",
+      "edition": "v1.54",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    }
+  ]
+}
