@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.53.5 · 23 de novembre del 2026
+
+Comença la segona desena amb les famílies L023 i L120: els fulls reutilitzats i el camí entre la neu. Suport i ampliació de 3r a 6è en tots dos idiomes, amb preguntes, solucionaris i fragments de resposta revisats.
+
 ## 1.53.4 · 23 de novembre del 2026
 
 Completada la primera desena de famílies de la tanda: vint variants noves en català i castellà. L085 adapta la maleta dels records per a 5è i 1r d’ESO; L126 adapta el camí de les fletxes per a 2n i 4t. Textos, solucionaris i evidències revisats independentment.

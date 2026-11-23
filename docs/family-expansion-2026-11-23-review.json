@@ -843,6 +843,102 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L023A",
+      "language": "es",
+      "id": "hojas-que-quedan-a-es",
+      "sha256": "e0a68040be7ef1247203e5b4d55a9bf2ffe20bf1bae0d9ebc205a1a5d9372621",
+      "date": "2026-11-23",
+      "edition": "v1.53.5",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L023A",
+      "language": "ca",
+      "id": "hojas-que-quedan-a-ca",
+      "sha256": "037e50de574750cf50b6c0d7a1f81385370c85c1d74101bc46dcfab1e9adb180",
+      "date": "2026-11-23",
+      "edition": "v1.53.5",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L023B",
+      "language": "es",
+      "id": "hojas-que-quedan-b-es",
+      "sha256": "9f022c932f2a679a998aeae53d3f29cac685fcac3554688631ab7cca37f0a759",
+      "date": "2026-11-23",
+      "edition": "v1.53.5",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L023B",
+      "language": "ca",
+      "id": "hojas-que-quedan-b-ca",
+      "sha256": "d6836b8743a78c48d3f1f6668679b870ec05a912a0a9f7c4b183db20557fd8d3",
+      "date": "2026-11-23",
+      "edition": "v1.53.5",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L120A",
+      "language": "es",
+      "id": "un-camino-entre-la-nieve-a-es",
+      "sha256": "32bdc9358624dcb4358e29b166f6fb8f1f88895f15b5646a773d1714d0527fef",
+      "date": "2026-11-23",
+      "edition": "v1.53.5",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L120A",
+      "language": "ca",
+      "id": "un-camino-entre-la-nieve-a-ca",
+      "sha256": "c30ffd88e36da16d71aa3fbc3806afcbbae68e3c1740f53edf7d2ae33dbda19a",
+      "date": "2026-11-23",
+      "edition": "v1.53.5",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L120B",
+      "language": "es",
+      "id": "un-camino-entre-la-nieve-b-es",
+      "sha256": "37387bc0f0962a54d9442df42efede7e086e9624d2e04ba44e99efb44f9fa086",
+      "date": "2026-11-23",
+      "edition": "v1.53.5",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L120B",
+      "language": "ca",
+      "id": "un-camino-entre-la-nieve-b-ca",
+      "sha256": "ba539ff343545702027d9d5471c395427ce4212af2c170d39466f0d735b6801e",
+      "date": "2026-11-23",
+      "edition": "v1.53.5",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

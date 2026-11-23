@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.53.5 · Obre l’historial de canvis|v1.53.5 · Abrir el historial de cambios
+Comença la segona desena amb les famílies L023 i L120: els fulls reutilitzats i el camí entre la neu. Suport i ampliació de 3r a 6è en tots dos idiomes, amb preguntes, solucionaris i fragments de resposta revisats.|Comienza la segunda decena con las familias L023 y L120: las hojas reutilizadas y el camino entre la nieve. Apoyo y ampliación de 3.º a 6.º en ambos idiomas, con preguntas, solucionarios y fragmentos de respuesta revisados.
 v1.53.4 · Obre l’historial de canvis|v1.53.4 · Abrir el historial de cambios
 Completada la primera desena de famílies de la tanda: vint variants noves en català i castellà. L085 adapta la maleta dels records per a 5è i 1r d’ESO; L126 adapta el camí de les fletxes per a 2n i 4t. Textos, solucionaris i evidències revisats independentment.|Completada la primera decena de familias de la tanda: veinte variantes nuevas en catalán y castellano. L085 adapta la maleta de los recuerdos para 5.º y 1.º de ESO; L126 adapta el camino de las flechas para 2.º y 4.º. Textos, solucionarios y evidencias revisados de forma independiente.
 v1.53.3 · Obre l’historial de canvis|v1.53.3 · Abrir el historial de cambios

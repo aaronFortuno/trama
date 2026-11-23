@@ -21,8 +21,8 @@ Les vint famílies següents:
 
 | Família | Suport A | Original conservat | Ampliació B | Estat |
 | --- | --- | --- | --- | --- |
-| L023 · Els fulls que queden | 3r | 4t | 5è | Pendent |
-| L120 · Un camí entre la neu | 4t | 5è | 6è | Pendent |
+| L023 · Els fulls que queden | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
+| L120 · Un camí entre la neu | 4t | 5è | 6è | Provisional, revisió independent superada ES/CA |
 | L139 · La corda de l’hort | 2n | 3r | 4t | Pendent |
 | L088 · Dues cartes per a una persiana | 5è | 6è | 1r d’ESO | Pendent |
 | L026 · Un espai a la paret | 3r | 4t | 5è | Pendent |
