@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.54.4 · 23 de novembre del 2026
+
+Completada la primera desena de la quarta tanda amb L112, el joc de les fitxes, i L037, la proposta per al canal. Ja són vint variants noves en català i castellà, amb originals preservats i revisió independent.
+
 ## 1.54.3 · 23 de novembre del 2026
 
 El mapa de l’escola L045 i la recepta amb dues dates L084 s’amplien amb suport i ampliació de 4t a 1r d’ESO. Versions bilingües revisades, amb preguntes graduades, solucionaris i fragments exactes de suport.

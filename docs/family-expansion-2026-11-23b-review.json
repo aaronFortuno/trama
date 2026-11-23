@@ -627,6 +627,102 @@
       "reviewer": "root",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L112A",
+      "language": "es",
+      "id": "el-juego-de-las-fichas-a-es",
+      "sha256": "23caee3f411ce0aa668bde3a1c5813883a6e5e9bdb7d314531dbd153999251e3",
+      "date": "2026-11-23",
+      "edition": "v1.54.4",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L112A",
+      "language": "ca",
+      "id": "el-juego-de-las-fichas-a-ca",
+      "sha256": "6c92e03129c75a402d4f5db77f85ac5a8900ddacb1c98862bf8ecfdb3db7f322",
+      "date": "2026-11-23",
+      "edition": "v1.54.4",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L112B",
+      "language": "es",
+      "id": "el-juego-de-las-fichas-b-es",
+      "sha256": "2b199379d179da266ff8ba3471ac0d03ee430016b93a6a94500b753630d66311",
+      "date": "2026-11-23",
+      "edition": "v1.54.4",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L112B",
+      "language": "ca",
+      "id": "el-juego-de-las-fichas-b-ca",
+      "sha256": "890efc5c5beb0aa3d2c2c728372ca9f189cf9c0d9873143acde7b7f104644737",
+      "date": "2026-11-23",
+      "edition": "v1.54.4",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L037A",
+      "language": "es",
+      "id": "una-respuesta-para-el-canal-a-es",
+      "sha256": "18946862d7df8e83bf91cc848a6168031eed3a608905b7f03c3e18f3d7aa4e1f",
+      "date": "2026-11-23",
+      "edition": "v1.54.4",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L037A",
+      "language": "ca",
+      "id": "una-respuesta-para-el-canal-a-ca",
+      "sha256": "7bc5fa4c79addbbe7f7efa076fdf566cdcb0133d53476f9ffb16aaf46ad29523",
+      "date": "2026-11-23",
+      "edition": "v1.54.4",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L037B",
+      "language": "es",
+      "id": "una-respuesta-para-el-canal-b-es",
+      "sha256": "331cb57c082cfdc8ccee9b15e8345f82ce5e1539ddcc9457802f9aeaea95b054",
+      "date": "2026-11-23",
+      "edition": "v1.54.4",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L037B",
+      "language": "ca",
+      "id": "una-respuesta-para-el-canal-b-ca",
+      "sha256": "1991751233bcd37d401ba55de32eb39686a46fef363fb8e7310d4ac2d0e53556",
+      "date": "2026-11-23",
+      "edition": "v1.54.4",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

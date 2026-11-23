@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.54.4 · Obre l’historial de canvis|v1.54.4 · Abrir el historial de cambios
+Completada la primera desena de la quarta tanda amb L112, el joc de les fitxes, i L037, la proposta per al canal. Ja són vint variants noves en català i castellà, amb originals preservats i revisió independent.|Completada la primera decena de la cuarta tanda con L112, el juego de las fichas, y L037, la propuesta para el canal. Ya son veinte variantes nuevas en catalán y castellano, con originales preservados y revisión independiente.
 v1.54.3 · Obre l’historial de canvis|v1.54.3 · Abrir el historial de cambios
 El mapa de l’escola L045 i la recepta amb dues dates L084 s’amplien amb suport i ampliació de 4t a 1r d’ESO. Versions bilingües revisades, amb preguntes graduades, solucionaris i fragments exactes de suport.|El mapa de la escuela L045 y la receta con dos fechas L084 se amplían con apoyo y ampliación de 4.º a 1.º de ESO. Versiones bilingües revisadas, con preguntas graduadas, solucionarios y fragmentos exactos de apoyo.
 v1.54.2 · Obre l’historial de canvis|v1.54.2 · Abrir el historial de cambios
