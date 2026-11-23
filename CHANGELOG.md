@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.53.8 · 23 de novembre del 2026
+
+L136 i L089 amplien el catàleg DUA: el paquet dels dos veïns Soler i el nus dels estels, amb suport i ampliació de 2n a 1r d’ESO. Cada variant té preguntes, solucionari i marques de resposta pròpies en tots dos idiomes.
+
 ## 1.53.7 · 23 de novembre del 2026
 
 Noves famílies per a L026 i L122, el mural compartit i el ritme dels gots. Les variants de 3r a 6è mantenen la situació i les il·lustracions i graduen text, preguntes i solucionaris en català i castellà.

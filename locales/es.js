@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.53.8 · Obre l’historial de canvis|v1.53.8 · Abrir el historial de cambios
+L136 i L089 amplien el catàleg DUA: el paquet dels dos veïns Soler i el nus dels estels, amb suport i ampliació de 2n a 1r d’ESO. Cada variant té preguntes, solucionari i marques de resposta pròpies en tots dos idiomes.|L136 y L089 amplían el catálogo DUA: el paquete de los dos vecinos Soler y el nudo de las cometas, con apoyo y ampliación de 2.º a 1.º de ESO. Cada variante tiene preguntas, solucionario y marcas de respuesta propias en ambos idiomas.
 v1.53.7 · Obre l’historial de canvis|v1.53.7 · Abrir el historial de cambios
 Noves famílies per a L026 i L122, el mural compartit i el ritme dels gots. Les variants de 3r a 6è mantenen la situació i les il·lustracions i graduen text, preguntes i solucionaris en català i castellà.|Nuevas familias para L026 y L122, el mural compartido y el ritmo de los vasos. Las variantes de 3.º a 6.º mantienen la situación y las ilustraciones y gradúan texto, preguntas y solucionarios en catalán y castellano.
 v1.53.6 · Obre l’historial de canvis|v1.53.6 · Abrir el historial de cambios

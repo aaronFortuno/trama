@@ -1131,6 +1131,102 @@
       "reviewer": "root",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L136A",
+      "language": "es",
+      "id": "dos-golpes-en-la-puerta-a-es",
+      "sha256": "d80338d113b862b78d10c41d1088e19aa020b64fa9bf0cca38a44d404f3e6eb7",
+      "date": "2026-11-23",
+      "edition": "v1.53.8",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L136A",
+      "language": "ca",
+      "id": "dos-golpes-en-la-puerta-a-ca",
+      "sha256": "79e7d6dfeb7c1ac761d87a264f80270dcb5b346631d00ea5e0b6e6315e889c1c",
+      "date": "2026-11-23",
+      "edition": "v1.53.8",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L136B",
+      "language": "es",
+      "id": "dos-golpes-en-la-puerta-b-es",
+      "sha256": "156f52936f5ccfa815e4540fe319c98ec316f3e9d4e4b1e9efc904213a8cd84a",
+      "date": "2026-11-23",
+      "edition": "v1.53.8",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L136B",
+      "language": "ca",
+      "id": "dos-golpes-en-la-puerta-b-ca",
+      "sha256": "f845143abb8b11c30faee6c2cc6ed36975786aec6ac69d721b1cf9c7e9a0b548",
+      "date": "2026-11-23",
+      "edition": "v1.53.8",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L089A",
+      "language": "es",
+      "id": "el-nudo-del-cielo-a-es",
+      "sha256": "d59d9fed6ffc611446cf8fbd59170c5321b940c6871b7d0c787d724abcc4cbbe",
+      "date": "2026-11-23",
+      "edition": "v1.53.8",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L089A",
+      "language": "ca",
+      "id": "el-nudo-del-cielo-a-ca",
+      "sha256": "6fc6c595c0d12e4cc36ff0a4811078ec21c03a3d2a6bcb8ba1e6a1db780dd43d",
+      "date": "2026-11-23",
+      "edition": "v1.53.8",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L089B",
+      "language": "es",
+      "id": "el-nudo-del-cielo-b-es",
+      "sha256": "5de41ca44e75444aabc587dee11ee0b1bf1db30c5bfbf36d3cad5146c8481efa",
+      "date": "2026-11-23",
+      "edition": "v1.53.8",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L089B",
+      "language": "ca",
+      "id": "el-nudo-del-cielo-b-ca",
+      "sha256": "39266dfc47e84ebfe2694d1b92166e8e7c0543e036de6a6ed7e3170063263d58",
+      "date": "2026-11-23",
+      "edition": "v1.53.8",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }
