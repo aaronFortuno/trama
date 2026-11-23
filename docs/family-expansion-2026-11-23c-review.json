@@ -915,6 +915,102 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L118A",
+      "language": "es",
+      "id": "el-rincon-de-bruna-a-es",
+      "sha256": "dfa6c17acdc89b09a6b68ce6f8fe673e0ca90cb6416d2442bd601b0686a29bb5",
+      "date": "2026-11-23",
+      "edition": "v1.55.7",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L118A",
+      "language": "ca",
+      "id": "el-rincon-de-bruna-a-ca",
+      "sha256": "95b5b0112dfdd7986512a60373fb4df5862d8d5f25cadbb6c877c52b8cc28142",
+      "date": "2026-11-23",
+      "edition": "v1.55.7",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L118B",
+      "language": "es",
+      "id": "el-rincon-de-bruna-b-es",
+      "sha256": "0c889e9da17d4fe22da571266e0fa1bd01d063e5b53d15ecac019e523743d48e",
+      "date": "2026-11-23",
+      "edition": "v1.55.7",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L118B",
+      "language": "ca",
+      "id": "el-rincon-de-bruna-b-ca",
+      "sha256": "0372b24d730aa7ed8287f6b1b8614122d0d3fb2648e95eb266e79222a0f73ed2",
+      "date": "2026-11-23",
+      "edition": "v1.55.7",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L095A",
+      "language": "es",
+      "id": "la-playa-que-viajo-con-las-olas-a-es",
+      "sha256": "9b4d36900ee1167a4baea1e2df1967703f9c304d3b45d94c74e3c951f94a1ce9",
+      "date": "2026-11-23",
+      "edition": "v1.55.7",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L095A",
+      "language": "ca",
+      "id": "la-playa-que-viajo-con-las-olas-a-ca",
+      "sha256": "8972a3ea043730705abea63987f13a17dc12b4547f96d5d7256e90ec5b7c0e82",
+      "date": "2026-11-23",
+      "edition": "v1.55.7",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L095B",
+      "language": "es",
+      "id": "la-playa-que-viajo-con-las-olas-b-es",
+      "sha256": "ea2a94a81a18871a6eae137ab18e9fe35ef9abbf256899ff9445e39805550a79",
+      "date": "2026-11-23",
+      "edition": "v1.55.7",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L095B",
+      "language": "ca",
+      "id": "la-playa-que-viajo-con-las-olas-b-ca",
+      "sha256": "6a0bf5b3aec3448e98c90df8a05c1e4cdf23c740868b23af37bd54b08c22d285",
+      "date": "2026-11-23",
+      "edition": "v1.55.7",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

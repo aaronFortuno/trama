@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.55.7 · 23 de novembre del 2026
+
+L118 i L095 incorporen suport i ampliació: el racó de la Bruna i la sorra que mouen les onades, de 4t a 1r d’ESO. Textos bilingües, solucionaris i marques d’evidència revisats independentment.
+
 ## 1.55.6 · 23 de novembre del 2026
 
 Noves famílies per a L145 i L182: la manta feta de mànigues i la pedra que pesava poc. Variants de 2n a 5è en català i castellà, amb il·lustracions compartides, preguntes i solucionaris propis revisats.
