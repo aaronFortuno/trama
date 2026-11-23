@@ -459,6 +459,102 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L114A",
+      "language": "es",
+      "id": "la-sombra-del-titere-a-es",
+      "sha256": "d63d46837da5f699d3d621993f569eb4f391f8d2e77187967aded42cdc640840",
+      "date": "2026-11-23",
+      "edition": "v1.53.1",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L114A",
+      "language": "ca",
+      "id": "la-sombra-del-titere-a-ca",
+      "sha256": "fb3a4b605353c3df291637d430dde42a66ab9ce1dc7c06a3a23997d3bc14a865",
+      "date": "2026-11-23",
+      "edition": "v1.53.1",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L114B",
+      "language": "es",
+      "id": "la-sombra-del-titere-b-es",
+      "sha256": "d4dc0e40940d33119b9f09e78ed550fb16cb5578a88f8f3c66706eb4eaa45380",
+      "date": "2026-11-23",
+      "edition": "v1.53.1",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L114B",
+      "language": "ca",
+      "id": "la-sombra-del-titere-b-ca",
+      "sha256": "2c8b5dd033f06c61ba563f33aa4ca121888d8fba9a23417518a5521d64a318c9",
+      "date": "2026-11-23",
+      "edition": "v1.53.1",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L050A",
+      "language": "es",
+      "id": "cartas-desde-el-banco-del-patio-a-es",
+      "sha256": "790d3d3ad23d18540e70cac82728e5c4532d64d9e20b51ac6416921719fbde98",
+      "date": "2026-11-23",
+      "edition": "v1.53.1",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L050A",
+      "language": "ca",
+      "id": "cartas-desde-el-banco-del-patio-a-ca",
+      "sha256": "29a02ac23c8954074e8a1f99ba25df825a24ac5cde548f577f3fc362d5fab87b",
+      "date": "2026-11-23",
+      "edition": "v1.53.1",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L050B",
+      "language": "es",
+      "id": "cartas-desde-el-banco-del-patio-b-es",
+      "sha256": "b53bf966f59e7bf9b3c5055127b823634c9602750c14b07794dc485a97dd68fa",
+      "date": "2026-11-23",
+      "edition": "v1.53.1",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L050B",
+      "language": "ca",
+      "id": "cartas-desde-el-banco-del-patio-b-ca",
+      "sha256": "518669fb579e9d9d4d5efdb2ccec6da77c0cb43d5c93463614e2ecca72464b94",
+      "date": "2026-11-23",
+      "edition": "v1.53.1",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

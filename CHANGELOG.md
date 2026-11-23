@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.53.1 · 23 de novembre del 2026
+
+Dues famílies noves: L114, el teatre d’ombres, i L050, les cartes del pati, amb suport per a 4t i ampliació per a 6è, en català i castellà. Inclouen solucionaris, línies de resposta i marques d’evidència revisades.
+
 ## 1.53 · 23 de novembre del 2026
 
 Comencem l’ampliació DUA de trenta famílies amb L130, L’entrada de cartró, i L177, El pressupost del patinet. Cadascuna incorpora suport i ampliació en català i castellà, conservant l’original i la il·lustració. Les vuit versions noves tenen preguntes, solucionari, línies i marques pròpies i han superat la revisió independent i les comprovacions locals. Documentem el pla de deu famílies inicials i vint més, amb registre de revisió i originals preservats. La validació docent continua pendent.
