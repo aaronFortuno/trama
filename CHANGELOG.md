@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.53.12 · 23 de novembre del 2026
+
+La capsa de contes L149 i el menú de les dues «tortillas» L096 passen a tenir suport i ampliació en català i castellà. Les versions de 2n a 1r d’ESO mantenen el relat i les il·lustracions, amb preguntes i solucionaris propis revisats.
+
 ## 1.53.11 · 23 de novembre del 2026
 
 Dues famílies noves, L172 i L053: els preus dels llapis i els senyals del mercat. Suport i ampliació de 3r a 6è, amb comparacions, preguntes i fragments de resposta revisats en tots dos idiomes.

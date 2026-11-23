@@ -1515,6 +1515,102 @@
       "reviewer": "root",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L149A",
+      "language": "es",
+      "id": "la-caja-que-da-la-vuelta-a-es",
+      "sha256": "838b392b68c7bbf9d1d5b31319b5021b2ea8dd4407bb91b0530b9296c069acf2",
+      "date": "2026-11-23",
+      "edition": "v1.53.12",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L149A",
+      "language": "ca",
+      "id": "la-caja-que-da-la-vuelta-a-ca",
+      "sha256": "cf4e90d378e5ee2dc92ab8d8a692b06bbf8589c6c7baf624837e83417655da9f",
+      "date": "2026-11-23",
+      "edition": "v1.53.12",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L149B",
+      "language": "es",
+      "id": "la-caja-que-da-la-vuelta-b-es",
+      "sha256": "179c679006bcaa37be14b0156ca9ce472e3ff566881f03a880ad42ec6cd8aef3",
+      "date": "2026-11-23",
+      "edition": "v1.53.12",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L149B",
+      "language": "ca",
+      "id": "la-caja-que-da-la-vuelta-b-ca",
+      "sha256": "2389d04a44809ab39c42701c5f951af5f3feb7f102ad620f4cbad350f4f15898",
+      "date": "2026-11-23",
+      "edition": "v1.53.12",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L096A",
+      "language": "es",
+      "id": "el-menu-de-las-dos-tortillas-a-es",
+      "sha256": "2ac959acfbdd951282df159e2ffe8c49cfc12571ac01c55bbdcb44b044b3ba21",
+      "date": "2026-11-23",
+      "edition": "v1.53.12",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L096A",
+      "language": "ca",
+      "id": "el-menu-de-las-dos-tortillas-a-ca",
+      "sha256": "bfd36b51667b4ef4e8dde8300178a75f7fb7063ffc6a21ae8373954334c82b47",
+      "date": "2026-11-23",
+      "edition": "v1.53.12",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L096B",
+      "language": "es",
+      "id": "el-menu-de-las-dos-tortillas-b-es",
+      "sha256": "ed5cf580cff1dfacbdf9e1068fcc03de2962c20a982a92319321fa5de58a3a6a",
+      "date": "2026-11-23",
+      "edition": "v1.53.12",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L096B",
+      "language": "ca",
+      "id": "el-menu-de-las-dos-tortillas-b-ca",
+      "sha256": "29d229214e0c04e7f49347a11cf781259728c7054bcf0a72e150ce8a893f39f5",
+      "date": "2026-11-23",
+      "edition": "v1.53.12",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

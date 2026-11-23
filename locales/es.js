@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.53.12 · Obre l’historial de canvis|v1.53.12 · Abrir el historial de cambios
+La capsa de contes L149 i el menú de les dues «tortillas» L096 passen a tenir suport i ampliació en català i castellà. Les versions de 2n a 1r d’ESO mantenen el relat i les il·lustracions, amb preguntes i solucionaris propis revisats.|La caja de cuentos L149 y el menú de las dos tortillas L096 pasan a tener apoyo y ampliación en catalán y castellano. Las versiones de 2.º a 1.º de ESO mantienen el relato y las ilustraciones, con preguntas y solucionarios propios revisados.
 v1.53.11 · Obre l’historial de canvis|v1.53.11 · Abrir el historial de cambios
 Dues famílies noves, L172 i L053: els preus dels llapis i els senyals del mercat. Suport i ampliació de 3r a 6è, amb comparacions, preguntes i fragments de resposta revisats en tots dos idiomes.|Dos familias nuevas, L172 y L053: los precios de los lápices y las señales del mercadillo. Apoyo y ampliación de 3.º a 6.º, con comparaciones, preguntas y fragmentos de respuesta revisados en ambos idiomas.
 v1.53.10 · Obre l’historial de canvis|v1.53.10 · Abrir el historial de cambios
