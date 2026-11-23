@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.55.5 · Obre l’historial de canvis|v1.55.5 · Abrir el historial de cambios
+L057 i L091 estrenen suport i ampliació: l’entrevista sobre la fira i les papallones nocturnes, de 4t a 1r d’ESO. Preguntes, solucionaris, línies i fragments de resposta revisats en totes dues llengües.|L057 y L091 estrenan apoyo y ampliación: la entrevista sobre la feria y las polillas nocturnas, de 4.º a 1.º de ESO. Preguntas, solucionarios, líneas y fragmentos de respuesta revisados en ambas lenguas.
 v1.55.4 · Obre l’historial de canvis|v1.55.4 · Abrir el historial de cambios
 La primera desena de la cinquena tanda es completa amb L128, els entrepans del berenar, i L166, la tassa de dues nanses. Vint variants noves en català i castellà, amb suport, ampliació i originals preservats.|La primera decena de la quinta tanda se completa con L128, los bocadillos de la merienda, y L166, la taza de dos asas. Veinte variantes nuevas en catalán y castellano, con apoyo, ampliación y originales preservados.
 v1.55.3 · Obre l’historial de canvis|v1.55.3 · Abrir el historial de cambios

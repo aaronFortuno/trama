@@ -723,6 +723,102 @@
       "reviewer": "root",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L057A",
+      "language": "es",
+      "id": "la-feria-por-dentro-a-es",
+      "sha256": "0d082a61d8e83c260a5ac5753b007cec16bb9600676cce2b1f9b6d474a29d98d",
+      "date": "2026-11-23",
+      "edition": "v1.55.5",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L057A",
+      "language": "ca",
+      "id": "la-feria-por-dentro-a-ca",
+      "sha256": "91eed128f332debed75ab7fa6e9fab42745f35b94bbd4a32c471e196bbb6f1be",
+      "date": "2026-11-23",
+      "edition": "v1.55.5",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L057B",
+      "language": "es",
+      "id": "la-feria-por-dentro-b-es",
+      "sha256": "aa70f78ab0ad2e32755cff39bbd46b0460f8ae73afd1000c2cb2c0200a17e37b",
+      "date": "2026-11-23",
+      "edition": "v1.55.5",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L057B",
+      "language": "ca",
+      "id": "la-feria-por-dentro-b-ca",
+      "sha256": "ff8591ea4c1ab821f6d0bbe397c8c036fe9d0e6fd691c843963620acd41d3ee1",
+      "date": "2026-11-23",
+      "edition": "v1.55.5",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L091A",
+      "language": "es",
+      "id": "el-turno-de-las-polillas-a-es",
+      "sha256": "3b79b6472ea88fcf133100953a8a88d5dcbabe882d5b645c8f20c6c3b8b97b95",
+      "date": "2026-11-23",
+      "edition": "v1.55.5",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L091A",
+      "language": "ca",
+      "id": "el-turno-de-las-polillas-a-ca",
+      "sha256": "a62689243dba3f670c695cc9a35b1571431fa25c4b97fae6dac3a3bdc99e4d03",
+      "date": "2026-11-23",
+      "edition": "v1.55.5",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L091B",
+      "language": "es",
+      "id": "el-turno-de-las-polillas-b-es",
+      "sha256": "adeff2b2fabf9fa045741bd29b1c722760831b794bb0324ff1c3a3deb48d74b0",
+      "date": "2026-11-23",
+      "edition": "v1.55.5",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L091B",
+      "language": "ca",
+      "id": "el-turno-de-las-polillas-b-ca",
+      "sha256": "29b2f69dcc46bfebce251c7cfe0ae6e4abfd38aa5e6b7573108f1840bc450f48",
+      "date": "2026-11-23",
+      "edition": "v1.55.5",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

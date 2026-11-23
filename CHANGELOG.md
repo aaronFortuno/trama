@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.55.5 · 23 de novembre del 2026
+
+L057 i L091 estrenen suport i ampliació: l’entrevista sobre la fira i les papallones nocturnes, de 4t a 1r d’ESO. Preguntes, solucionaris, línies i fragments de resposta revisats en totes dues llengües.
+
 ## 1.55.4 · 23 de novembre del 2026
 
 La primera desena de la cinquena tanda es completa amb L128, els entrepans del berenar, i L166, la tassa de dues nanses. Vint variants noves en català i castellà, amb suport, ampliació i originals preservats.

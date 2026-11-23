@@ -16,8 +16,8 @@ Encàrrec del 23 de novembre del 2026: preparar vint famílies més a partir de 
 | L090 · Una carta dins del fang | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
 | L128 · El pa del berenar | 2n | 3r | 4t | Provisional, revisió independent superada ES/CA |
 | L166 · La tassa de les dues nanses | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
-| L057 · La fira per dins | 4t | 5è | 6è | Pendent |
-| L091 · El torn de les papallones nocturnes | 5è | 6è | 1r d’ESO | Pendent |
+| L057 · La fira per dins | 4t | 5è | 6è | Provisional, revisió independent superada ES/CA |
+| L091 · El torn de les papallones nocturnes | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
 | L145 · La manta de les mànigues | 2n | 3r | 4t | Pendent |
 | L182 · La pedra que pesava poc | 3r | 4t | 5è | Pendent |
 | L118 · El racó de la Bruna | 4t | 5è | 6è | Pendent |
