@@ -3,12 +3,15 @@ import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {readings} from '../data/readings.js';
 import {families} from '../data/families.js';
-import {familyExpansionAdaptations} from '../data/family-expansion-adaptations.js';
-import {familyExpansionPlan} from '../data/family-expansion-plan.js';
 import {wordCount, labels} from '../catalog.js';
 import {annotationRange} from '../reading-annotations.js';
 
-const review = JSON.parse(fs.readFileSync('docs/family-expansion-review.json', 'utf8'));
+const batch = process.argv.find(argument => argument.startsWith('--batch='))?.slice(8) ?? '2026-11-22';
+assert(['2026-11-22', '2026-11-23'].includes(batch), 'Unknown editorial batch');
+const suffix = batch === '2026-11-22' ? '' : `-${batch}`;
+const {familyExpansionAdaptations} = await import(`../data/family-expansion${suffix}-adaptations.js`);
+const {familyExpansionPlan} = await import(`../data/family-expansion${suffix}-plan.js`);
+const review = JSON.parse(fs.readFileSync(`docs/family-expansion${suffix}-review.json`, 'utf8'));
 const hash = value => createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const years = ['2-primary', '3-primary', '4-primary', '5-primary', '6-primary', '1-secondary'];
 const sources = [...new Set(familyExpansionAdaptations.map(edition => edition.source))];

@@ -1,0 +1,464 @@
+{
+  "hashScheme": "SHA256 of UTF-8 JSON.stringify(reading) exported by data/readings.js; originals exclude the newly assigned familyId",
+  "date": "2026-11-23",
+  "originals": [
+    {
+      "code": "L130",
+      "language": "es",
+      "id": "la-entrada-de-carton-es",
+      "sha256": "8f1f6f7488e14a8fccf71688d71fad7663a6fc492b9d2f7d5b4880ef42b5f873"
+    },
+    {
+      "code": "L130",
+      "language": "ca",
+      "id": "la-entrada-de-carton-ca",
+      "sha256": "5ff0aa52c72789f598c9d07a761bc3969be064ca1ebb5d56a76271a3ff9ad41b"
+    },
+    {
+      "code": "L177",
+      "language": "es",
+      "id": "el-presupuesto-del-patinete-es",
+      "sha256": "3f6199d55b6e1503cf4ba5ab61f92381771f271c956e804248b6b121881c3059"
+    },
+    {
+      "code": "L177",
+      "language": "ca",
+      "id": "el-presupuesto-del-patinete-ca",
+      "sha256": "9b998d5829e96cb1bbfb1914f47da2411394736126776f706a6fc87ce0444970"
+    },
+    {
+      "code": "L114",
+      "language": "es",
+      "id": "la-sombra-del-titere-es",
+      "sha256": "c653f2d6c7a0e3641990864ebcd55b6ae79ec289935328f942549e25015e7e72"
+    },
+    {
+      "code": "L114",
+      "language": "ca",
+      "id": "la-sombra-del-titere-ca",
+      "sha256": "aa04524bc6f7a7fa4c2758e591145ae256e75443e513e92f50954a7285333cc7"
+    },
+    {
+      "code": "L050",
+      "language": "es",
+      "id": "cartas-desde-el-banco-del-patio-es",
+      "sha256": "7123442a57ef81367cc3309c6cb64e18a0b2fb432e12bbbcb57dcb2608a39280"
+    },
+    {
+      "code": "L050",
+      "language": "ca",
+      "id": "cartes-des-del-banc-del-pati-ca",
+      "sha256": "9b04261c22ba11ec7a565e3844fef0d684291c501e50febdca239252885ce5e6"
+    },
+    {
+      "code": "L087",
+      "language": "es",
+      "id": "una-voz-entre-los-dialogos-es",
+      "sha256": "4ef1f3e210ac8a1c5b1d80f9e915079c2c7f1c71962cf14bf0f91b2546d78c1a"
+    },
+    {
+      "code": "L087",
+      "language": "ca",
+      "id": "una-veu-entre-els-dialegs-ca",
+      "sha256": "3f7b77f71c24e44806cea82f70a0a9f748d17bb150adfb5b0041ea43e3932d91"
+    },
+    {
+      "code": "L123",
+      "language": "es",
+      "id": "la-lata-de-los-lapices-es",
+      "sha256": "1fcddef617fdd9435ab4640afbb0bea75680e7161e2f51c43b47d69c0ecdf3b6"
+    },
+    {
+      "code": "L123",
+      "language": "ca",
+      "id": "la-lata-de-los-lapices-ca",
+      "sha256": "8d35fd092147d6e5e521ecf38c1393e9bb0a4b069748aea39b44070ee9276947"
+    },
+    {
+      "code": "L171",
+      "language": "es",
+      "id": "el-bolso-de-la-narradora-es",
+      "sha256": "7fc88c8c2c9a3c1e7c9971b79d18910ecb51cf95290ac142c28b2b90e4653450"
+    },
+    {
+      "code": "L171",
+      "language": "ca",
+      "id": "el-bolso-de-la-narradora-ca",
+      "sha256": "21035136060b310b3d2d7f0a3d147404b28fa25a730c647914de97614b20fdff"
+    },
+    {
+      "code": "L119",
+      "language": "es",
+      "id": "pulseras-por-encargo-es",
+      "sha256": "90b9210e1dcc05e83127cbef9a1929e73dfbe575e5a61fb5b8261640418325ec"
+    },
+    {
+      "code": "L119",
+      "language": "ca",
+      "id": "pulseras-por-encargo-ca",
+      "sha256": "0ad551b86ca0549893ad2abeaf37c35437fc13ba60a3fdcf461968d6b22c2161"
+    },
+    {
+      "code": "L085",
+      "language": "es",
+      "id": "la-maleta-que-no-queria-cerrar-es",
+      "sha256": "7ab3f96241ffcc4c34c880ce94c83f891f20b2cc401deb87781b724adb3e7321"
+    },
+    {
+      "code": "L085",
+      "language": "ca",
+      "id": "la-maleta-que-no-es-volia-tancar-ca",
+      "sha256": "c4e812506a933d4aeef0b37173b00dcb087b6c4cb205cd6529f1594df367476f"
+    },
+    {
+      "code": "L126",
+      "language": "es",
+      "id": "el-camino-de-las-flechas-es",
+      "sha256": "d02cff24965433e32a8ea0ab5b49554e37e6d46cebc00e6281e886ca0cd59aad"
+    },
+    {
+      "code": "L126",
+      "language": "ca",
+      "id": "el-camino-de-las-flechas-ca",
+      "sha256": "8a8f3fe0ef08c91d0e1a790a88aba553bf31485eff10385676e79957921b4520"
+    },
+    {
+      "code": "L023",
+      "language": "es",
+      "id": "hojas-que-quedan-es",
+      "sha256": "3a4621cdc06ab155226ab750f8335105fc6576a14f8afc27831a00de2a7b3716"
+    },
+    {
+      "code": "L023",
+      "language": "ca",
+      "id": "els-fulls-que-queden-ca",
+      "sha256": "66db562b564a8452983d72e7b68ea6c7001f41dbfe43fa0471f7f87dcef35e36"
+    },
+    {
+      "code": "L120",
+      "language": "es",
+      "id": "un-camino-entre-la-nieve-es",
+      "sha256": "caa4dda63c31fa5690206eb2db2a8a2fb2bf820545b08edfef5eadf6a9a94f3e"
+    },
+    {
+      "code": "L120",
+      "language": "ca",
+      "id": "un-camino-entre-la-nieve-ca",
+      "sha256": "15c22d69b677889b595b6ce1965decf21faca69ce4c707b55d47967b118cf273"
+    },
+    {
+      "code": "L139",
+      "language": "es",
+      "id": "la-cuerda-del-huerto-es",
+      "sha256": "928951767ecc9f5f42c5667e00c4ea4043d19bfd170e4b14d88427b610e6d35c"
+    },
+    {
+      "code": "L139",
+      "language": "ca",
+      "id": "la-cuerda-del-huerto-ca",
+      "sha256": "41b10a219b7c6e2afa2efd600c5428129d91989ef7e9178dc2135379e954c894"
+    },
+    {
+      "code": "L088",
+      "language": "es",
+      "id": "dos-cartas-para-una-persiana-es",
+      "sha256": "91b4c4fbb26ce8218c164ada736846eff65d11b20ab65282a841a93d8f127034"
+    },
+    {
+      "code": "L088",
+      "language": "ca",
+      "id": "dues-cartes-per-a-una-persiana-ca",
+      "sha256": "7a913d0bd094e28942397c685504c4cc1bb64469bb35b54d5d21ea4734e7bdc1"
+    },
+    {
+      "code": "L026",
+      "language": "es",
+      "id": "un-espacio-en-la-pared-es",
+      "sha256": "73524126e2b60f857da2dead50418fb35c6c886de85daaa411d8e0f23f2767d7"
+    },
+    {
+      "code": "L026",
+      "language": "ca",
+      "id": "un-espai-a-la-paret-ca",
+      "sha256": "a8ed7fd19e661154518179981122bd8acb1422a8b16603c54263531078ca46ad"
+    },
+    {
+      "code": "L122",
+      "language": "es",
+      "id": "el-ritmo-de-los-vasos-es",
+      "sha256": "2720cf75297e5e44eb6e40b6b35d145b64880b4b26cfd101617886d82503d183"
+    },
+    {
+      "code": "L122",
+      "language": "ca",
+      "id": "el-ritmo-de-los-vasos-ca",
+      "sha256": "7a9fbb4f2867939b9ffe43962de071bd7186a33a9ba21980f2fd641e53fec7c9"
+    },
+    {
+      "code": "L136",
+      "language": "es",
+      "id": "dos-golpes-en-la-puerta-es",
+      "sha256": "c02338b8622d2cdf94ff661b4df102a44e092147ee88adc042d61fcc5b9f7afd"
+    },
+    {
+      "code": "L136",
+      "language": "ca",
+      "id": "dos-golpes-en-la-puerta-ca",
+      "sha256": "e339f2a0200657522a70027f585435f9cf11c31e49a71b52d75dec180339d87a"
+    },
+    {
+      "code": "L089",
+      "language": "es",
+      "id": "el-nudo-del-cielo-es",
+      "sha256": "5bef09c4dda85dc4f391450e4a3a77e49586cd365c20884b891df13640efb6dc"
+    },
+    {
+      "code": "L089",
+      "language": "ca",
+      "id": "el-nus-del-cel-ca",
+      "sha256": "7e3d9e2a2b21efacea258e82756f4c047493268ec91f49f220b00fd23c326a9c"
+    },
+    {
+      "code": "L169",
+      "language": "es",
+      "id": "las-mochilas-de-la-ultima-fila-es",
+      "sha256": "483f64e526ac4839bd34e27c6c863fc666bce693cb63cb372f65364b0cd76388"
+    },
+    {
+      "code": "L169",
+      "language": "ca",
+      "id": "las-mochilas-de-la-ultima-fila-ca",
+      "sha256": "652faee1a397db660856ab0645f7044bc438cddab05112ccd61c60a50d72f1f9"
+    },
+    {
+      "code": "L046",
+      "language": "es",
+      "id": "el-jardin-de-los-turnos-es",
+      "sha256": "8f819aca8429a05b9c9c8cbfc69d1155ad2bd1705a681fb6c711c6e89e5be401"
+    },
+    {
+      "code": "L046",
+      "language": "ca",
+      "id": "el-jardi-dels-torns-ca",
+      "sha256": "146c57814d24946e62028ba1d67808154c9be57b8ecdc89747c000ad5672d6ae"
+    },
+    {
+      "code": "L140",
+      "language": "es",
+      "id": "el-billete-del-abuelo-es",
+      "sha256": "9db2be4e04aa0cac766ff5af10247dad720cc9931da0f2991de38e12ef64eb4e"
+    },
+    {
+      "code": "L140",
+      "language": "ca",
+      "id": "el-billete-del-abuelo-ca",
+      "sha256": "e5e46e980c0c52757f73dcd0402280d328aa39e26628fbbe08281fb235a5a6b7"
+    },
+    {
+      "code": "L094",
+      "language": "es",
+      "id": "el-pez-que-nado-al-reves-es",
+      "sha256": "39141210ea30eddc568f330efab0bea9c54ee2fa5a769dd12626461800aa4efa"
+    },
+    {
+      "code": "L094",
+      "language": "ca",
+      "id": "el-peix-que-va-nedar-a-linreves-ca",
+      "sha256": "82ae9ea8256ae0af99b1bc9d3124e8c4494b7ed9d5ef38fb7f794015a9c26f6b"
+    },
+    {
+      "code": "L172",
+      "language": "es",
+      "id": "dos-precios-en-la-etiqueta-es",
+      "sha256": "8a1c571565ebdb9e3ce073e534ce7bf0719542c8606af81e7bad7bef4062db88"
+    },
+    {
+      "code": "L172",
+      "language": "ca",
+      "id": "dos-precios-en-la-etiqueta-ca",
+      "sha256": "11ffabf869008f979cdca30c32c048a5b7bc9238e9237a9760f83f9f410ce4b3"
+    },
+    {
+      "code": "L053",
+      "language": "es",
+      "id": "el-dia-que-cambiaron-las-senales-es",
+      "sha256": "1a3882fdd4a137f5d1ede19b0715b2f5f14333db1e72d05237c5bbb66f799f68"
+    },
+    {
+      "code": "L053",
+      "language": "ca",
+      "id": "el-dia-que-van-canviar-els-senyals-ca",
+      "sha256": "68e516402f24c820a68ab36aee1e76f11a6206c43d46e290bbb751ec4c3c771a"
+    },
+    {
+      "code": "L149",
+      "language": "es",
+      "id": "la-caja-que-da-la-vuelta-es",
+      "sha256": "52d88153dda3492134e5c218ed807677c776db42a7d47f8f202c86a315d46c7e"
+    },
+    {
+      "code": "L149",
+      "language": "ca",
+      "id": "la-caja-que-da-la-vuelta-ca",
+      "sha256": "732b6e84f001f6908d2dee8a79b95cd2386b5836479cf03820eafa7827c75b76"
+    },
+    {
+      "code": "L096",
+      "language": "es",
+      "id": "el-menu-de-las-dos-tortillas-es",
+      "sha256": "9bda4b8d5e76929774023bb0d16174e5b9e37f3b3ed962998c26455dc8c247d1"
+    },
+    {
+      "code": "L096",
+      "language": "ca",
+      "id": "el-menu-de-les-dues-tortillas-ca",
+      "sha256": "65162d44c71ce6f1ca78e78f9420745c6d271aa17cc837223e573a6ba9694e39"
+    },
+    {
+      "code": "L183",
+      "language": "es",
+      "id": "una-foto-para-recordar-el-tamano-es",
+      "sha256": "816215d01e33d286ea9ffeca87bb5f68868495595cab3805e60b58518c77e035"
+    },
+    {
+      "code": "L183",
+      "language": "ca",
+      "id": "una-foto-para-recordar-el-tamano-ca",
+      "sha256": "d88e3635691501129288ded13c8c48074f83851c3e136aa22f15f9cb6e5b6f77"
+    },
+    {
+      "code": "L158",
+      "language": "es",
+      "id": "un-libro-que-se-pueda-abrir-es",
+      "sha256": "98a6d6d92ae29a7457842cb558f4d8ef9a1a5059406100e3cbdaf368db9333c1"
+    },
+    {
+      "code": "L158",
+      "language": "ca",
+      "id": "un-libro-que-se-pueda-abrir-ca",
+      "sha256": "e9a9701cba450e424c07ebf7c9ccf6dc84506ffe41667b2bd196ab24700e9066"
+    },
+    {
+      "code": "L155",
+      "language": "es",
+      "id": "doce-sillas-y-dos-bancos-es",
+      "sha256": "400d1707e65784b33249597aebde1bb8045ea02b28275b437c6c1f14a0de8189"
+    },
+    {
+      "code": "L155",
+      "language": "ca",
+      "id": "doce-sillas-y-dos-bancos-ca",
+      "sha256": "e417ba6c9f8167600b6eeea82f21e508dbbcfd9dbdb8f6d59e082aaade19a46b"
+    },
+    {
+      "code": "L186",
+      "language": "es",
+      "id": "un-tablero-para-ganar-juntos-es",
+      "sha256": "043b723d50e69ff102f0af4e97f4f6820fb64bf15ba4a8f5df598d98e2e43efc"
+    },
+    {
+      "code": "L186",
+      "language": "ca",
+      "id": "un-tablero-para-ganar-juntos-ca",
+      "sha256": "1b508c2018365ac403e1abc4ee46f20a1a56b25673bd5c8fe639954fa245a0a6"
+    }
+  ],
+  "readings": [
+    {
+      "code": "L130A",
+      "language": "es",
+      "id": "la-entrada-de-carton-a-es",
+      "sha256": "edf7311c98593fe805219c84e7e0169a06c347ad2701d2358835d3b74ef54354",
+      "date": "2026-11-23",
+      "edition": "v1.53",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L130A",
+      "language": "ca",
+      "id": "la-entrada-de-carton-a-ca",
+      "sha256": "34cc69aff60584ce0b931931e92c357765ce9f22740a13e25795cfc779e2e064",
+      "date": "2026-11-23",
+      "edition": "v1.53",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L130B",
+      "language": "es",
+      "id": "la-entrada-de-carton-b-es",
+      "sha256": "03e100d21c36daa91ae136a1e7a17c8b51243417493ab1c4214a0b99cb967126",
+      "date": "2026-11-23",
+      "edition": "v1.53",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L130B",
+      "language": "ca",
+      "id": "la-entrada-de-carton-b-ca",
+      "sha256": "301306e274b3e5f1c022cad317acf1702da2cb59d046100e160f77116c880108",
+      "date": "2026-11-23",
+      "edition": "v1.53",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L177A",
+      "language": "es",
+      "id": "el-presupuesto-del-patinete-a-es",
+      "sha256": "d40fdb44c5fda32cd16c3c63343cf17e03b78af5e514c973d490cb68e366d196",
+      "date": "2026-11-23",
+      "edition": "v1.53",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L177A",
+      "language": "ca",
+      "id": "el-presupuesto-del-patinete-a-ca",
+      "sha256": "2e7198839a861410f2a3bafadef5d1213cea07c6ae8fb618241eb767a50a056d",
+      "date": "2026-11-23",
+      "edition": "v1.53",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L177B",
+      "language": "es",
+      "id": "el-presupuesto-del-patinete-b-es",
+      "sha256": "139217da312d37aa4877b51d9d204e30de4a0b9be922e59f6a7e5e44e22e9bd1",
+      "date": "2026-11-23",
+      "edition": "v1.53",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L177B",
+      "language": "ca",
+      "id": "el-presupuesto-del-patinete-b-ca",
+      "sha256": "85777ce717bea58f9cc440f6676a3eb079805330a241aee95cd52477256b2138",
+      "date": "2026-11-23",
+      "edition": "v1.53",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    }
+  ]
+}
