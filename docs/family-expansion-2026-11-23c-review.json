@@ -1107,6 +1107,102 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L162A",
+      "language": "es",
+      "id": "una-jugada-sin-marcador-a-es",
+      "sha256": "48390204bec0e54c0cffefd52f94d7f1d43deb5f52bfe1b5f1cd08674328b8f3",
+      "date": "2026-11-23",
+      "edition": "v1.55.9",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L162A",
+      "language": "ca",
+      "id": "una-jugada-sin-marcador-a-ca",
+      "sha256": "815cbf45b8b8545db82cf2f9c61d0fd67ca6da073247b7bd5875c4c893607794",
+      "date": "2026-11-23",
+      "edition": "v1.55.9",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L162B",
+      "language": "es",
+      "id": "una-jugada-sin-marcador-b-es",
+      "sha256": "09403846635fd670db7319fe1a311a95e6fac4b05a93b3e9ea8deddb77c4216e",
+      "date": "2026-11-23",
+      "edition": "v1.55.9",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L162B",
+      "language": "ca",
+      "id": "una-jugada-sin-marcador-b-ca",
+      "sha256": "c8b48ff316d804adcd8c58d38682c86689ff320a716ba40626acbe25fc482d6d",
+      "date": "2026-11-23",
+      "edition": "v1.55.9",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L206A",
+      "language": "es",
+      "id": "las-dos-velocidades-de-un-glaciar-a-es",
+      "sha256": "80bc42299001626ae92fff46484689038c6cd16040ebe9e49dbe978468e8769d",
+      "date": "2026-11-23",
+      "edition": "v1.55.9",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L206A",
+      "language": "ca",
+      "id": "las-dos-velocidades-de-un-glaciar-a-ca",
+      "sha256": "9ab547b50171021c4c02de8c8fa7c93c71f5777caaa731dc677665771764ed7c",
+      "date": "2026-11-23",
+      "edition": "v1.55.9",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L206B",
+      "language": "es",
+      "id": "las-dos-velocidades-de-un-glaciar-b-es",
+      "sha256": "5144f5518ef6d340ca88be6cdf229a2c794c206d557d6bca8b5a4f312d24f3e1",
+      "date": "2026-11-23",
+      "edition": "v1.55.9",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L206B",
+      "language": "ca",
+      "id": "las-dos-velocidades-de-un-glaciar-b-ca",
+      "sha256": "897ccb2da2b5f3c76ffd4fdb4a01eea45c2d49689bba29e43c40983af35fb116",
+      "date": "2026-11-23",
+      "edition": "v1.55.9",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

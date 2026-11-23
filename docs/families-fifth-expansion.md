@@ -2,6 +2,8 @@
 
 Encàrrec del 23 de novembre del 2026: preparar vint famílies més a partir de lectures sense variants ni univers assignat. Cada original conserva el codi i incorpora suport A i ampliació B, en català i castellà: quaranta variants i vuitanta versions lingüístiques noves. Es publiquen per parelles després de la revisió independent i les comprovacions locals. La validació docent es pot fer progressivament.
 
+Tanda completada a v1.55.9: vint famílies, quaranta variants noves i vuitanta versions lingüístiques, amb revisió independent superada. El catàleg arriba a 109 famílies, 486 lectures i 972 versions lingüístiques; la graella manté 268 propostes per idioma perquè agrupa les variants de cada família. Les noves variants són provisionals i queden pendents de la validació docent.
+
 ## Lectures i cursos orientatius
 
 | Família | Suport A | Original conservat | Ampliació B | Estat |
@@ -24,8 +26,8 @@ Encàrrec del 23 de novembre del 2026: preparar vint famílies més a partir de 
 | L095 · La platja que va viatjar amb les onades | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
 | L150 · Un got per mesurar | 2n | 3r | 4t | Provisional, revisió independent superada ES/CA |
 | L184 · Una carta per al rober | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
-| L162 · Una jugada sense marcador | 4t | 5è | 6è | Pendent |
-| L206 · Les dues velocitats d’una glacera | 5è | 6è | 1r d’ESO | Pendent |
+| L162 · Una jugada sense marcador | 4t | 5è | 6è | Provisional, revisió independent superada ES/CA |
+| L206 · Les dues velocitats d’una glacera | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
 
 La tria es reparteix entre cinc originals de cadascun dels cursos de 3r a 6è. Combina relats, entrevistes, instruccions, una carta i textos informatius sobre temes quotidians, història, ciència i natura. El curs orienta la tria del docent; les tres versions d’una família comparteixen el nucli de l’activitat.
 
@@ -44,6 +46,8 @@ Cada variant té preguntes, solucionari, línies, subratllats de vocabulari i fr
 - L091: [Anderson et al. (2023), estudi primari de pol·linització](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0281810), per distingir nombre de visites i dipòsit de pol·len per flor i hora en la planta estudiada. L’exemple numèric de la variant s’identifica com a inventat.
 - L057: [STABILA, comprovació d’un nivell](https://www.stabila.com/files/default/pdf/en/FAQ_Level-check_EN.pdf), per contrastar l’ús i l’abast de l’eina en el cas concret.
 - L182: [National Park Service, pedra tosca i altres roques volcàniques](https://www.nps.gov/subjects/volcanoes/pyroclasts.htm), per contrastar la formació de cavitats i la possibilitat de flotació, sense generalitzar l’observació dels dos fragments del relat.
+- L095: [USGS, creixement de la platja de Pohoiki](https://www.usgs.gov/observatories/hvo/news/volcano-watch-how-build-a-beach-pohoiki-growth-over-years), per contrastar la seqüència històrica, el transport i la redistribució de sorra. La lectura no pressuposa l’estat actual de la rampa.
+- L206: [NSIDC, ciència de les glaceres](https://nsidc.org/learn/parts-cryosphere/glaciers/science-glaciers) i [USGS, preguntes sobre glaceres](https://www.usgs.gov/water-science-school/science/glaciers-things-know), per distingir moviment del gel, posició del front i pèrdua o guany de massa.
 
 ## Implementació i revisió
 
@@ -52,3 +56,5 @@ El pla i l’agregador són a data/family-expansion-2026-11-23c-plan.js i data/f
 El registre docs/family-expansion-2026-11-23c-review.json conserva les empremtes de les quaranta versions originals i de les noves versions aprovades, amb codi, edició, data, revisor i resultat. Les empremtes aprovades es contrasten amb les dades públiques abans de cada publicació. Provisional significa revisió independent superada i validació docent pendent.
 
 Comprovacions: node tools/check-family-expansion.mjs --batch=2026-11-23c comprova la part incorporada; --complete exigeix les vint famílies. També es comproven fitxes i solucionaris al navegador local. La comprovació de producció la fa l’usuari. Es preserven originals, codis, col·leccions i maquetats existents.
+
+La comprovació conjunta inclou també totes les tandes anteriors, l’agrupació de famílies, la recuperació de codis, els filtres i les metadades bilingües. El registre conserva les quaranta versions originals sense canvis de contingut i les vuitanta versions noves revisades: quaranta per root i quaranta per review_early_families.

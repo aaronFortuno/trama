@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.55.9 · 23 de novembre del 2026
+
+Completada la cinquena ampliació: vint famílies més, quaranta variants noves i vuitanta versions en català i castellà, amb originals conservats i revisió independent superada. L162, la jugada sense marcador, i L206, la glacera, tanquen la tanda. El catàleg arriba a 109 famílies, 486 lectures i 972 versions lingüístiques. Les noves variants queden pendents de la validació docent progressiva.
+
 ## 1.55.8 · 23 de novembre del 2026
 
 L150 i L184 amplien el catàleg DUA: el got per mesurar i la carta per al rober. Suport i ampliació de 2n a 5è, amb preguntes, línies, solucionaris i evidències propis en català i castellà.
