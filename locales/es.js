@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.54.1 · Obre l’historial de canvis|v1.54.1 · Abrir el historial de cambios
+L041 i L083 incorporen suport i ampliació: el camí a l’ombra i el banc de sorra del riu, de 4t a 1r d’ESO. Cada variant té preguntes, solucionari, línies i marques de resposta pròpies en tots dos idiomes.|L041 y L083 incorporan apoyo y ampliación: el camino a la sombra y el banco de arena del río, de 4.º a 1.º de ESO. Cada variante tiene preguntas, solucionario, líneas y marcas de respuesta propias en ambos idiomas.
 v1.54 · Obre l’historial de canvis|v1.54 · Abrir el historial de cambios
 Comença una nova tanda de vint famílies DUA amb L105, el rastre del cargol, i L021, l’abric del penjador. Suport per a 2n i 3r i ampliació per a 4t i 5è, en català i castellà, amb preguntes, solucionaris i evidències revisades independentment.|Comienza una nueva tanda de veinte familias DUA con L105, el rastro del caracol, y L021, el abrigo del perchero. Apoyo para 2.º y 3.º y ampliación para 4.º y 5.º, en catalán y castellano, con preguntas, solucionarios y evidencias revisados de forma independiente.
 v1.53.14 · Obre l’historial de canvis|v1.53.14 · Abrir el historial de cambios

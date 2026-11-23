@@ -339,6 +339,102 @@
       "reviewer": "root",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L041A",
+      "language": "es",
+      "id": "la-vuelta-por-la-sombra-a-es",
+      "sha256": "f7128d52a04a72c2c98337cdac3c35845f7d610a4b2755489417b474e4873901",
+      "date": "2026-11-23",
+      "edition": "v1.54.1",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L041A",
+      "language": "ca",
+      "id": "la-vuelta-por-la-sombra-a-ca",
+      "sha256": "fb57971d61fa6a8c9dcec12f998b577e66da530689dd8cd6a525090e61c6762e",
+      "date": "2026-11-23",
+      "edition": "v1.54.1",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L041B",
+      "language": "es",
+      "id": "la-vuelta-por-la-sombra-b-es",
+      "sha256": "f7d842fd0762cf807245b44a7b3de1c0492734f9bab3d6b6c722dce0a76d4b57",
+      "date": "2026-11-23",
+      "edition": "v1.54.1",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L041B",
+      "language": "ca",
+      "id": "la-vuelta-por-la-sombra-b-ca",
+      "sha256": "7a0d1e32c1770815f68d6a031ea4d5806089ac255c98e64a3a9f824f149e17ea",
+      "date": "2026-11-23",
+      "edition": "v1.54.1",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L083A",
+      "language": "es",
+      "id": "cuando-el-rio-deja-una-isla-a-es",
+      "sha256": "6c3885fd11108574a39aa6c98925887c3b3c64b670e7b63a9f5f76e087dd2515",
+      "date": "2026-11-23",
+      "edition": "v1.54.1",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L083A",
+      "language": "ca",
+      "id": "cuando-el-rio-deja-una-isla-a-ca",
+      "sha256": "633670df8cac0ef381ec70ff7b114735ffba7e309cd36bc56273b8a25bf4240e",
+      "date": "2026-11-23",
+      "edition": "v1.54.1",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L083B",
+      "language": "es",
+      "id": "cuando-el-rio-deja-una-isla-b-es",
+      "sha256": "9c735cc3a9b7531eebc276b53d8eb09d07f32d03eeb71963d244524eaa5efb44",
+      "date": "2026-11-23",
+      "edition": "v1.54.1",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L083B",
+      "language": "ca",
+      "id": "cuando-el-rio-deja-una-isla-b-ca",
+      "sha256": "1683572dbc965df438d4eb042f30c0a55cf48bf02cdadae6fe9b6ca1bc2950fa",
+      "date": "2026-11-23",
+      "edition": "v1.54.1",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

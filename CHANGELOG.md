@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.54.1 · 23 de novembre del 2026
+
+L041 i L083 incorporen suport i ampliació: el camí a l’ombra i el banc de sorra del riu, de 4t a 1r d’ESO. Cada variant té preguntes, solucionari, línies i marques de resposta pròpies en tots dos idiomes.
+
 ## 1.54 · 23 de novembre del 2026
 
 Comença una nova tanda de vint famílies DUA amb L105, el rastre del cargol, i L021, l’abric del penjador. Suport per a 2n i 3r i ampliació per a 4t i 5è, en català i castellà, amb preguntes, solucionaris i evidències revisades independentment.
