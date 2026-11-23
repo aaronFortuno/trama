@@ -18,8 +18,8 @@ Encàrrec del 23 de novembre del 2026: completar vint famílies més a partir de
 | L037 · Una resposta per al canal | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
 | L052 · Un matí darrere de la pantalla | 4t | 5è | 6è | Provisional, revisió independent superada ES/CA |
 | L092 · Dues fitxes i una regla | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
-| L141 · El cartell de la font | 2n | 3r | 4t | Pendent |
-| L174 · El tren que no sortia del mapa | 3r | 4t | 5è | Pendent |
+| L141 · El cartell de la font | 2n | 3r | 4t | Provisional, revisió independent superada ES/CA |
+| L174 · El tren que no sortia del mapa | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
 | L060 · Una proposta per al tauler | 4t | 5è | 6è | Pendent |
 | L093 · El costat de l’onada | 5è | 6è | 1r d’ESO | Pendent |
 | L148 · Lletres del revés | 2n | 3r | 4t | Pendent |

@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.54.6 · 23 de novembre del 2026
+
+Noves famílies per a L141 i L174: els senyals de la font i el camí de l’antic ferrocarril. Suport i ampliació de 2n a 5è, amb il·lustracions compartides, preguntes i solucionaris revisats en català i castellà.
+
 ## 1.54.5 · 23 de novembre del 2026
 
 L052 i L092 estrenen suport i ampliació: les proves de projecció del cinema i el joc de probabilitat amb fitxes, de 4t a 1r d’ESO. Textos, preguntes, solucionaris i evidències propis revisats en totes dues llengües.

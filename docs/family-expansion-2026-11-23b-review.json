@@ -819,6 +819,102 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L141A",
+      "language": "es",
+      "id": "el-cartel-de-la-fuente-a-es",
+      "sha256": "6b0e8fe8818e6cd195614db054a8f8f1954ccb144fc2642e7bcb82c813fd0034",
+      "date": "2026-11-23",
+      "edition": "v1.54.6",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L141A",
+      "language": "ca",
+      "id": "el-cartel-de-la-fuente-a-ca",
+      "sha256": "a76e6dac48f9f66a225fbbc07a771c25989da819d70c0fd1c05661949157c434",
+      "date": "2026-11-23",
+      "edition": "v1.54.6",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L141B",
+      "language": "es",
+      "id": "el-cartel-de-la-fuente-b-es",
+      "sha256": "899962ea6d1c25292916c1d95a6e380322451f58075b7f4b1ce4838601181540",
+      "date": "2026-11-23",
+      "edition": "v1.54.6",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L141B",
+      "language": "ca",
+      "id": "el-cartel-de-la-fuente-b-ca",
+      "sha256": "71fcbdc5129c9ca9dcf88d3c2c6e304dd5fad0f2759721c9beb3499866f8aa50",
+      "date": "2026-11-23",
+      "edition": "v1.54.6",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L174A",
+      "language": "es",
+      "id": "el-tren-que-no-salia-del-mapa-a-es",
+      "sha256": "6375c32928df632653b89c3b87986dee68304533a9c65986d2cb58a25879c941",
+      "date": "2026-11-23",
+      "edition": "v1.54.6",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L174A",
+      "language": "ca",
+      "id": "el-tren-que-no-salia-del-mapa-a-ca",
+      "sha256": "cee53a5bef41ce2df6d24547d6b4260dbd6e5241ae4a295541a3b0a79420ab9e",
+      "date": "2026-11-23",
+      "edition": "v1.54.6",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L174B",
+      "language": "es",
+      "id": "el-tren-que-no-salia-del-mapa-b-es",
+      "sha256": "4cfc38d2799876586c34be4cb7e0fc12e9338922ef0853de103d8165698229ea",
+      "date": "2026-11-23",
+      "edition": "v1.54.6",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L174B",
+      "language": "ca",
+      "id": "el-tren-que-no-salia-del-mapa-b-ca",
+      "sha256": "d3410470ce37a81f7b297a84df176347fddf95349661cbd3c90687d07bd65303",
+      "date": "2026-11-23",
+      "edition": "v1.54.6",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }
