@@ -12,5 +12,6 @@ import {familyExpansion11} from './family-expansion-2026-11-23-11.js';
 import {familyExpansion12} from './family-expansion-2026-11-23-12.js';
 import {familyExpansion13} from './family-expansion-2026-11-23-13.js';
 import {familyExpansion14} from './family-expansion-2026-11-23-14.js';
+import {familyExpansion15} from './family-expansion-2026-11-23-15.js';
 
-export const familyExpansionAdaptations = [...familyExpansion01, ...familyExpansion02, ...familyExpansion03, ...familyExpansion04, ...familyExpansion05, ...familyExpansion06, ...familyExpansion07, ...familyExpansion08, ...familyExpansion09, ...familyExpansion10, ...familyExpansion11, ...familyExpansion12, ...familyExpansion13, ...familyExpansion14];
+export const familyExpansionAdaptations = [...familyExpansion01, ...familyExpansion02, ...familyExpansion03, ...familyExpansion04, ...familyExpansion05, ...familyExpansion06, ...familyExpansion07, ...familyExpansion08, ...familyExpansion09, ...familyExpansion10, ...familyExpansion11, ...familyExpansion12, ...familyExpansion13, ...familyExpansion14, ...familyExpansion15];

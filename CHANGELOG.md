@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.53.14 · 23 de novembre del 2026
+
+Completada la tanda de trenta famílies: seixanta variants noves, cadascuna en català i castellà, amb originals conservats, il·lustracions compartides, solucionaris i marques de resposta revisats independentment. L155 i L186 tanquen l’ampliació. El catàleg arriba a 69 famílies i 406 lectures amb 812 versions lingüístiques.
+
 ## 1.53.13 · 23 de novembre del 2026
 
 L183 i L158 afegeixen dues famílies: la fotografia amb una referència de mida i la llibreta antiga de l’exposició. Suport i ampliació de 3r a 6è, en català i castellà, amb evidències, preguntes i solucionaris revisats.

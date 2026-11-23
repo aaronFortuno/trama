@@ -2,6 +2,8 @@
 
 Encàrrec: donar una variant de suport A i una d’ampliació B a trenta lectures existents que no tenien família. Són seixanta variants noves, cadascuna en català i castellà: cent vint versions lingüístiques. Primer es completen deu famílies i després les vint següents. Els originals, codis i maquetats existents es conserven.
 
+Tanda completada el 23 de novembre del 2026, de v1.53 a v1.53.14. Les trenta famílies i les seves cent vint versions noves han superat la revisió independent. Queden provisionals fins a la validació docent. El catàleg conjunt arriba a 69 famílies, 406 lectures i 812 versions lingüístiques; la graella continua agrupant-les en 268 propostes per idioma. S’han conservat les seixanta versions originals d’aquesta tanda i s’han compartit les seves il·lustracions amb les variants.
+
 ## Tria i cursos orientatius
 
 | Família | Suport A | Original conservat | Ampliació B | Estat |
@@ -39,8 +41,8 @@ Les vint famílies següents:
 | L096 · El menú de les dues «tortillas» | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
 | L183 · Una foto per recordar la mida | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
 | L158 · Un llibre que s’ha de poder obrir | 4t | 5è | 6è | Provisional, revisió independent superada ES/CA |
-| L155 · Dotze cadires i dos bancs | 2n | 3r | 4t | Pendent |
-| L186 · Un tauler per guanyar plegats | 3r | 4t | 5è | Pendent |
+| L155 · Dotze cadires i dos bancs | 2n | 3r | 4t | Provisional, revisió independent superada ES/CA |
+| L186 · Un tauler per guanyar plegats | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
 
 La tria es reparteix entre vuit originals de 3r, vuit de 4t, vuit de 5è i sis de 6è. S’hi combinen narracions, cartes, instruccions, entrevistes, textos informatius i una ressenya. Cap original d’aquesta tanda té univers assignat ni una família prèvia.
 

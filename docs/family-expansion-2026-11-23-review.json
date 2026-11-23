@@ -1707,6 +1707,102 @@
       "reviewer": "root",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L155A",
+      "language": "es",
+      "id": "doce-sillas-y-dos-bancos-a-es",
+      "sha256": "0900249303d6cae2e7811cda95dff2542ed9f188b0cbd4f5fcc240c02b9d3a7a",
+      "date": "2026-11-23",
+      "edition": "v1.53.14",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L155A",
+      "language": "ca",
+      "id": "doce-sillas-y-dos-bancos-a-ca",
+      "sha256": "98e9244519daef375a7e79657fc39671e5d0f12d270d4910d30bc2c850575b88",
+      "date": "2026-11-23",
+      "edition": "v1.53.14",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L155B",
+      "language": "es",
+      "id": "doce-sillas-y-dos-bancos-b-es",
+      "sha256": "62cd00c911fdee0aa69f501baaceae918511ee723ef37b5584dd803d305ee085",
+      "date": "2026-11-23",
+      "edition": "v1.53.14",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L155B",
+      "language": "ca",
+      "id": "doce-sillas-y-dos-bancos-b-ca",
+      "sha256": "a82ac49975a40871b302ec205431b0333466076c85fa7f43a39db733368554e0",
+      "date": "2026-11-23",
+      "edition": "v1.53.14",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L186A",
+      "language": "es",
+      "id": "un-tablero-para-ganar-juntos-a-es",
+      "sha256": "52f7434908c03f92d7cb49f0db7a1fe5f0b75b2146ecc011a874f6b64a867a3e",
+      "date": "2026-11-23",
+      "edition": "v1.53.14",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L186A",
+      "language": "ca",
+      "id": "un-tablero-para-ganar-juntos-a-ca",
+      "sha256": "5c360f4be7b266292c4bbb5079bf4c56cf492677c9264f299edd743a6db2da57",
+      "date": "2026-11-23",
+      "edition": "v1.53.14",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L186B",
+      "language": "es",
+      "id": "un-tablero-para-ganar-juntos-b-es",
+      "sha256": "5fc338ebcacc86661d82813bb9ce0a968ac25aa2e9c827050afe2bc989136767",
+      "date": "2026-11-23",
+      "edition": "v1.53.14",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L186B",
+      "language": "ca",
+      "id": "un-tablero-para-ganar-juntos-b-ca",
+      "sha256": "75f99c8e03c3b243f8f4b266a70d55bcbe548e28cfedb9a11b726b53916b4cfe",
+      "date": "2026-11-23",
+      "edition": "v1.53.14",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }
