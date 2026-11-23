@@ -1035,6 +1035,102 @@
       "reviewer": "root",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L026A",
+      "language": "es",
+      "id": "un-espacio-en-la-pared-a-es",
+      "sha256": "5213b7a69f801cdc6d86cd7794389c8eab5a31f2dad503739ddf9f52992f15f6",
+      "date": "2026-11-23",
+      "edition": "v1.53.7",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L026A",
+      "language": "ca",
+      "id": "un-espacio-en-la-pared-a-ca",
+      "sha256": "efc1cb3e07625c48d82b86f76b7b4ffba50580fcb3671d53613b3b982e40cb38",
+      "date": "2026-11-23",
+      "edition": "v1.53.7",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L026B",
+      "language": "es",
+      "id": "un-espacio-en-la-pared-b-es",
+      "sha256": "72513b80be2163db27cda2d2b5f723a9a70611b58b6791e7b0a6788534b2ac8e",
+      "date": "2026-11-23",
+      "edition": "v1.53.7",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L026B",
+      "language": "ca",
+      "id": "un-espacio-en-la-pared-b-ca",
+      "sha256": "d6d173f91fd102767d2149e9ebc765b54db3a7486fc2eab753dcb6fdc7bfab29",
+      "date": "2026-11-23",
+      "edition": "v1.53.7",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L122A",
+      "language": "es",
+      "id": "el-ritmo-de-los-vasos-a-es",
+      "sha256": "d894e1a476b057e58cfd5633c9a5e20915010e0ac83b7f2a6f02e7b5e568257e",
+      "date": "2026-11-23",
+      "edition": "v1.53.7",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L122A",
+      "language": "ca",
+      "id": "el-ritmo-de-los-vasos-a-ca",
+      "sha256": "eb495c701dd7ce0f156b1a58c618c805218f14bda8f9a6b67060b958980be436",
+      "date": "2026-11-23",
+      "edition": "v1.53.7",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L122B",
+      "language": "es",
+      "id": "el-ritmo-de-los-vasos-b-es",
+      "sha256": "e806f9935caa1e116d0fa8facd35986dbb628edaba8be88fe556337b74d4079a",
+      "date": "2026-11-23",
+      "edition": "v1.53.7",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L122B",
+      "language": "ca",
+      "id": "el-ritmo-de-los-vasos-b-ca",
+      "sha256": "b8e13fb4654a67848d489b1003108cc3f01548cc3a4215d0392c989248e76629",
+      "date": "2026-11-23",
+      "edition": "v1.53.7",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

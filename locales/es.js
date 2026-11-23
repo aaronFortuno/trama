@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.53.7 · Obre l’historial de canvis|v1.53.7 · Abrir el historial de cambios
+Noves famílies per a L026 i L122, el mural compartit i el ritme dels gots. Les variants de 3r a 6è mantenen la situació i les il·lustracions i graduen text, preguntes i solucionaris en català i castellà.|Nuevas familias para L026 y L122, el mural compartido y el ritmo de los vasos. Las variantes de 3.º a 6.º mantienen la situación y las ilustraciones y gradúan texto, preguntas y solucionarios en catalán y castellano.
 v1.53.6 · Obre l’historial de canvis|v1.53.6 · Abrir el historial de cambios
 L139 i L088 estrenen suport i ampliació: la corda de l’hort i les cartes del quiosc, de 2n de primària a 1r d’ESO. Versions catalana i castellana amb preguntes, solucionaris, línies i evidències revisades.|L139 y L088 estrenan apoyo y ampliación: la cuerda del huerto y las cartas del quiosco, de 2.º de primaria a 1.º de ESO. Versiones catalana y castellana con preguntas, solucionarios, líneas y evidencias revisadas.
 v1.53.5 · Obre l’historial de canvis|v1.53.5 · Abrir el historial de cambios

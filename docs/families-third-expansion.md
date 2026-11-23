@@ -25,8 +25,8 @@ Les vint famílies següents:
 | L120 · Un camí entre la neu | 4t | 5è | 6è | Provisional, revisió independent superada ES/CA |
 | L139 · La corda de l’hort | 2n | 3r | 4t | Provisional, revisió independent superada ES/CA |
 | L088 · Dues cartes per a una persiana | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
-| L026 · Un espai a la paret | 3r | 4t | 5è | Pendent |
-| L122 · El ritme dels gots | 4t | 5è | 6è | Pendent |
+| L026 · Un espai a la paret | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
+| L122 · El ritme dels gots | 4t | 5è | 6è | Provisional, revisió independent superada ES/CA |
 | L136 · Dos trucs a la porta | 2n | 3r | 4t | Pendent |
 | L089 · El nus del cel | 5è | 6è | 1r d’ESO | Pendent |
 | L169 · Les motxilles de l’última fila | 3r | 4t | 5è | Pendent |
