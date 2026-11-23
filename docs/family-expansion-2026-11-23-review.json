@@ -747,6 +747,102 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L085A",
+      "language": "es",
+      "id": "la-maleta-que-no-queria-cerrar-a-es",
+      "sha256": "502776fa978bbf418c97dcfa374bf7d8dba9159dcfff5df4a48ab24ba014d1ff",
+      "date": "2026-11-23",
+      "edition": "v1.53.4",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L085A",
+      "language": "ca",
+      "id": "la-maleta-que-no-queria-cerrar-a-ca",
+      "sha256": "2bc116b2f29e40890d72057ecdd03f765bb354a171a42f06fd2bf314517b56ff",
+      "date": "2026-11-23",
+      "edition": "v1.53.4",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L085B",
+      "language": "es",
+      "id": "la-maleta-que-no-queria-cerrar-b-es",
+      "sha256": "045329241c1c94f5755e5afe1ef04437dc44671ec191368f7c122f19198da737",
+      "date": "2026-11-23",
+      "edition": "v1.53.4",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L085B",
+      "language": "ca",
+      "id": "la-maleta-que-no-queria-cerrar-b-ca",
+      "sha256": "b12014d7d27bb9d4ec98bf9b1d0ff95d0c741fef3aa9080f69a5854ccc8e533a",
+      "date": "2026-11-23",
+      "edition": "v1.53.4",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L126A",
+      "language": "es",
+      "id": "el-camino-de-las-flechas-a-es",
+      "sha256": "e9c772b25abf1bdcc59b904413c0d8f648280df94e60c33c3c661fa4f4dbdc59",
+      "date": "2026-11-23",
+      "edition": "v1.53.4",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L126A",
+      "language": "ca",
+      "id": "el-camino-de-las-flechas-a-ca",
+      "sha256": "d0579885303d5a78056e12ccc3881a63e88c046cf34c701ac93fcb8d2fa9cd5e",
+      "date": "2026-11-23",
+      "edition": "v1.53.4",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L126B",
+      "language": "es",
+      "id": "el-camino-de-las-flechas-b-es",
+      "sha256": "857fb173ff70607a6790123695e156835cd6cd0c0ffaa17eb6130ef05b9fef74",
+      "date": "2026-11-23",
+      "edition": "v1.53.4",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L126B",
+      "language": "ca",
+      "id": "el-camino-de-las-flechas-b-ca",
+      "sha256": "386aeeebb78d1cfe224777fc6ec585c6e6fbac9178df63bb1ddc70076ab045a9",
+      "date": "2026-11-23",
+      "edition": "v1.53.4",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

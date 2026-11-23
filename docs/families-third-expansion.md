@@ -14,8 +14,8 @@ Encàrrec: donar una variant de suport A i una d’ampliació B a trenta lecture
 | L123 · La llauna dels llapis | 2n | 3r | 4t | Provisional, revisió independent superada ES/CA |
 | L171 · La bossa de la narradora | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
 | L119 · Polseres per encàrrec | 4t | 5è | 6è | Provisional, revisió independent superada ES/CA |
-| L085 · La maleta que no es volia tancar | 5è | 6è | 1r d’ESO | Pendent |
-| L126 · El camí de les fletxes | 2n | 3r | 4t | Pendent |
+| L085 · La maleta que no es volia tancar | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
+| L126 · El camí de les fletxes | 2n | 3r | 4t | Provisional, revisió independent superada ES/CA |
 
 Les vint famílies següents:
 
@@ -57,5 +57,7 @@ Cada variant i llengua té preguntes, respostes, línies, fragments exactes de s
 El pla és a data/family-expansion-2026-11-23-plan.js. L’agregador data/family-expansion-2026-11-23-adaptations.js integra les parelles completes dels mòduls numerats de la tanda. El catàleg només registra famílies que tenen A i B. Les traduccions comparteixen codi; cada grau conserva identitat i maquetat propis, també dins de col·leccions.
 
 El registre family-expansion-2026-11-23-review.json conserva les empremtes dels seixanta originals lingüístics i de cada versió nova que supera la revisió independent. S’hi anoten edició, data, codi, llengua, resultat i revisor. Provisional vol dir revisió independent superada i validació docent pendent. Les correccions posteriors es revaliden.
+
+Autoria i separació de la revisió: els mòduls 01–05 els redacta root i els revisa review_early_families. Els mòduls 06–10 els redacta adaptations_second_ten, i els mòduls 11–15, adaptations_third_ten; en aquests dos blocs root revisa independentment els originals i cadascuna de les variants ES/CA. Les empremtes aprovades es contrasten de nou amb els objectes públics abans de publicar cada parella.
 
 Comprovacions locals: node tools/check-family-expansion.mjs --batch=2026-11-23 valida la part publicada; --complete exigeix les trenta famílies. Es comproven originals preservats, cursos, extensió, preguntes, cites, imatges, equivalència lingüística i revisió exacta. Les proves de navegador comproven també fitxes i solucionaris. La revisió de producció la fa l’usuari.

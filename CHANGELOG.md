@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.53.4 · 23 de novembre del 2026
+
+Completada la primera desena de famílies de la tanda: vint variants noves en català i castellà. L085 adapta la maleta dels records per a 5è i 1r d’ESO; L126 adapta el camí de les fletxes per a 2n i 4t. Textos, solucionaris i evidències revisats independentment.
+
 ## 1.53.3 · 23 de novembre del 2026
 
 L171 i L119 s’afegeixen a les famílies DUA: la bossa de la narradora i les polseres per encàrrec, amb suport i ampliació de 3r a 6è, en català i castellà. Preguntes, càlculs, solucionaris i fragments de resposta revisats independentment.

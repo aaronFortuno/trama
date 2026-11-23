@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.53.4 · Obre l’historial de canvis|v1.53.4 · Abrir el historial de cambios
+Completada la primera desena de famílies de la tanda: vint variants noves en català i castellà. L085 adapta la maleta dels records per a 5è i 1r d’ESO; L126 adapta el camí de les fletxes per a 2n i 4t. Textos, solucionaris i evidències revisats independentment.|Completada la primera decena de familias de la tanda: veinte variantes nuevas en catalán y castellano. L085 adapta la maleta de los recuerdos para 5.º y 1.º de ESO; L126 adapta el camino de las flechas para 2.º y 4.º. Textos, solucionarios y evidencias revisados de forma independiente.
 v1.53.3 · Obre l’historial de canvis|v1.53.3 · Abrir el historial de cambios
 L171 i L119 s’afegeixen a les famílies DUA: la bossa de la narradora i les polseres per encàrrec, amb suport i ampliació de 3r a 6è, en català i castellà. Preguntes, càlculs, solucionaris i fragments de resposta revisats independentment.|L171 y L119 se añaden a las familias DUA: el bolso de la narradora y las pulseras por encargo, con apoyo y ampliación de 3.º a 6.º, en catalán y castellano. Preguntas, cálculos, solucionarios y fragmentos de respuesta revisados de forma independiente.
 v1.53.2 · Obre l’historial de canvis|v1.53.2 · Abrir el historial de cambios
