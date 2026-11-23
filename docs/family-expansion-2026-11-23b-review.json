@@ -723,6 +723,102 @@
       "reviewer": "root",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L052A",
+      "language": "es",
+      "id": "una-manana-detras-de-la-pantalla-a-es",
+      "sha256": "79c33c762dec17fce8d286cf78daf02c5a4628ebacb101c17ec7896501593b56",
+      "date": "2026-11-23",
+      "edition": "v1.54.5",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L052A",
+      "language": "ca",
+      "id": "una-manana-detras-de-la-pantalla-a-ca",
+      "sha256": "f15f1ea3b0802030f841cba1bb3ece721da5a5ba222a3a8f1b4f688ce5fa88d8",
+      "date": "2026-11-23",
+      "edition": "v1.54.5",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L052B",
+      "language": "es",
+      "id": "una-manana-detras-de-la-pantalla-b-es",
+      "sha256": "2e52245ce316b30f2f0fadaece1c5155a5bb32f608e7c25f1d1bdd900c99a8fd",
+      "date": "2026-11-23",
+      "edition": "v1.54.5",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L052B",
+      "language": "ca",
+      "id": "una-manana-detras-de-la-pantalla-b-ca",
+      "sha256": "0f264482f527bc2e95a44ea8cff63465788f14113f4657bb02786b770d0aace4",
+      "date": "2026-11-23",
+      "edition": "v1.54.5",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L092A",
+      "language": "es",
+      "id": "dos-fichas-y-una-regla-a-es",
+      "sha256": "2f70eeadc628a7ea00ac3b84734def93c060f5d5ee37e24aee7eb551f2971c56",
+      "date": "2026-11-23",
+      "edition": "v1.54.5",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L092A",
+      "language": "ca",
+      "id": "dos-fichas-y-una-regla-a-ca",
+      "sha256": "da3103d6e91deef5c367bd70f889d0e80f64acfea20f5d27c86a7663c81756ea",
+      "date": "2026-11-23",
+      "edition": "v1.54.5",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L092B",
+      "language": "es",
+      "id": "dos-fichas-y-una-regla-b-es",
+      "sha256": "0b5dfcbe6ff56f0be40a953fdcd4d07ad07ccf9522d03ba0c99eac170ab472c1",
+      "date": "2026-11-23",
+      "edition": "v1.54.5",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L092B",
+      "language": "ca",
+      "id": "dos-fichas-y-una-regla-b-ca",
+      "sha256": "183927a4936357e7d76dca8ea56d5a7d2eaa86d27458de6faf5e4229ac9be7c9",
+      "date": "2026-11-23",
+      "edition": "v1.54.5",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

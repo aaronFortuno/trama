@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.54.5 · Obre l’historial de canvis|v1.54.5 · Abrir el historial de cambios
+L052 i L092 estrenen suport i ampliació: les proves de projecció del cinema i el joc de probabilitat amb fitxes, de 4t a 1r d’ESO. Textos, preguntes, solucionaris i evidències propis revisats en totes dues llengües.|L052 y L092 estrenan apoyo y ampliación: las pruebas de proyección del cine y el juego de probabilidad con fichas, de 4.º a 1.º de ESO. Textos, preguntas, solucionarios y evidencias propios revisados en ambas lenguas.
 v1.54.4 · Obre l’historial de canvis|v1.54.4 · Abrir el historial de cambios
 Completada la primera desena de la quarta tanda amb L112, el joc de les fitxes, i L037, la proposta per al canal. Ja són vint variants noves en català i castellà, amb originals preservats i revisió independent.|Completada la primera decena de la cuarta tanda con L112, el juego de las fichas, y L037, la propuesta para el canal. Ya son veinte variantes nuevas en catalán y castellano, con originales preservados y revisión independiente.
 v1.54.3 · Obre l’historial de canvis|v1.54.3 · Abrir el historial de cambios

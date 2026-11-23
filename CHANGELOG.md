@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.54.5 · 23 de novembre del 2026
+
+L052 i L092 estrenen suport i ampliació: les proves de projecció del cinema i el joc de probabilitat amb fitxes, de 4t a 1r d’ESO. Textos, preguntes, solucionaris i evidències propis revisats en totes dues llengües.
+
 ## 1.54.4 · 23 de novembre del 2026
 
 Completada la primera desena de la quarta tanda amb L112, el joc de les fitxes, i L037, la proposta per al canal. Ja són vint variants noves en català i castellà, amb originals preservats i revisió independent.
