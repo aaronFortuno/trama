@@ -819,6 +819,102 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L145A",
+      "language": "es",
+      "id": "la-manta-de-las-mangas-a-es",
+      "sha256": "b1bf339b6d6e58e032dc279511c36121210a86959f6c6c317a06c84e03fe9852",
+      "date": "2026-11-23",
+      "edition": "v1.55.6",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L145A",
+      "language": "ca",
+      "id": "la-manta-de-las-mangas-a-ca",
+      "sha256": "032e1ff1b44585ea42ded2e06c4266ec2c9438fb67ca3979beffbe37a2a78918",
+      "date": "2026-11-23",
+      "edition": "v1.55.6",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L145B",
+      "language": "es",
+      "id": "la-manta-de-las-mangas-b-es",
+      "sha256": "5b0a2d9f86a793cfc34d58a8c95b7add79a2743a0418a48670831f2a72578485",
+      "date": "2026-11-23",
+      "edition": "v1.55.6",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L145B",
+      "language": "ca",
+      "id": "la-manta-de-las-mangas-b-ca",
+      "sha256": "4f5ba2886b72b622b13646918c7053c5e766eed7aba0f8a989a81d11c2acbf96",
+      "date": "2026-11-23",
+      "edition": "v1.55.6",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L182A",
+      "language": "es",
+      "id": "la-piedra-que-pesaba-poco-a-es",
+      "sha256": "8278b304c402e388f8b4f0bd10969237e1d067789412233a0a83f3c8db3c98f4",
+      "date": "2026-11-23",
+      "edition": "v1.55.6",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L182A",
+      "language": "ca",
+      "id": "la-piedra-que-pesaba-poco-a-ca",
+      "sha256": "cdab85151707a0a9457cf466b59f1847b81a79f665e0e9c40ce0a2f1d9de0e22",
+      "date": "2026-11-23",
+      "edition": "v1.55.6",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L182B",
+      "language": "es",
+      "id": "la-piedra-que-pesaba-poco-b-es",
+      "sha256": "3b13c59ea618227b34980beb2cf287735d72af14f91f22cd7a2b84761a5bd548",
+      "date": "2026-11-23",
+      "edition": "v1.55.6",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L182B",
+      "language": "ca",
+      "id": "la-piedra-que-pesaba-poco-b-ca",
+      "sha256": "765d62ac41dfe5149e06b2983ef12cf93a216252aa8f1b960525d067cd9e824c",
+      "date": "2026-11-23",
+      "edition": "v1.55.6",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

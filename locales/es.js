@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.55.6 · Obre l’historial de canvis|v1.55.6 · Abrir el historial de cambios
+Noves famílies per a L145 i L182: la manta feta de mànigues i la pedra que pesava poc. Variants de 2n a 5è en català i castellà, amb il·lustracions compartides, preguntes i solucionaris propis revisats.|Nuevas familias para L145 y L182: la manta hecha de mangas y la piedra que pesaba poco. Variantes de 2.º a 5.º en catalán y castellano, con ilustraciones compartidas, preguntas y solucionarios propios revisados.
 v1.55.5 · Obre l’historial de canvis|v1.55.5 · Abrir el historial de cambios
 L057 i L091 estrenen suport i ampliació: l’entrevista sobre la fira i les papallones nocturnes, de 4t a 1r d’ESO. Preguntes, solucionaris, línies i fragments de resposta revisats en totes dues llengües.|L057 y L091 estrenan apoyo y ampliación: la entrevista sobre la feria y las polillas nocturnas, de 4.º a 1.º de ESO. Preguntas, solucionarios, líneas y fragmentos de respuesta revisados en ambas lenguas.
 v1.55.4 · Obre l’historial de canvis|v1.55.4 · Abrir el historial de cambios

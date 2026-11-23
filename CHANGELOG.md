@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.55.6 · 23 de novembre del 2026
+
+Noves famílies per a L145 i L182: la manta feta de mànigues i la pedra que pesava poc. Variants de 2n a 5è en català i castellà, amb il·lustracions compartides, preguntes i solucionaris propis revisats.
+
 ## 1.55.5 · 23 de novembre del 2026
 
 L057 i L091 estrenen suport i ampliació: l’entrevista sobre la fira i les papallones nocturnes, de 4t a 1r d’ESO. Preguntes, solucionaris, línies i fragments de resposta revisats en totes dues llengües.
