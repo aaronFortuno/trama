@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.54.2 · Obre l’historial de canvis|v1.54.2 · Abrir el historial de cambios
+Dues entrevistes passen a tenir família: L110, la roda fluixa, i L032, el pati d’abans. Noves variants de 2n a 5è en català i castellà, conservant els originals i les il·lustracions, amb preguntes i solucionaris revisats.|Dos entrevistas pasan a tener familia: L110, la rueda floja, y L032, el patio de antes. Nuevas variantes de 2.º a 5.º en catalán y castellano, conservando los originales y las ilustraciones, con preguntas y solucionarios revisados.
 v1.54.1 · Obre l’historial de canvis|v1.54.1 · Abrir el historial de cambios
 L041 i L083 incorporen suport i ampliació: el camí a l’ombra i el banc de sorra del riu, de 4t a 1r d’ESO. Cada variant té preguntes, solucionari, línies i marques de resposta pròpies en tots dos idiomes.|L041 y L083 incorporan apoyo y ampliación: el camino a la sombra y el banco de arena del río, de 4.º a 1.º de ESO. Cada variante tiene preguntas, solucionario, líneas y marcas de respuesta propias en ambos idiomas.
 v1.54 · Obre l’historial de canvis|v1.54 · Abrir el historial de cambios

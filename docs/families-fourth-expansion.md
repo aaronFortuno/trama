@@ -10,8 +10,8 @@ Encàrrec del 23 de novembre del 2026: completar vint famílies més a partir de
 | L021 · L’abric del penjador | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
 | L041 · La volta per l’ombra | 4t | 5è | 6è | Provisional, revisió independent superada ES/CA |
 | L083 · Quan el riu deixa una illa | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
-| L110 · Una roda fluixa | 2n | 3r | 4t | Pendent |
-| L032 · El pati d’abans | 3r | 4t | 5è | Pendent |
+| L110 · Una roda fluixa | 2n | 3r | 4t | Provisional, revisió independent superada ES/CA |
+| L032 · El pati d’abans | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
 | L045 · Un mapa per arribar-hi sense preguntar | 4t | 5è | 6è | Pendent |
 | L084 · Una recepta amb dues dates | 5è | 6è | 1r d’ESO | Pendent |
 | L112 · El joc de les fitxes | 2n | 3r | 4t | Pendent |

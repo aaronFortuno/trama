@@ -435,6 +435,102 @@
       "reviewer": "root",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L110A",
+      "language": "es",
+      "id": "una-rueda-floja-a-es",
+      "sha256": "59fef638b8c2407cda3f9e605b670debecda23682415f4c80f62a65224555201",
+      "date": "2026-11-23",
+      "edition": "v1.54.2",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L110A",
+      "language": "ca",
+      "id": "una-rueda-floja-a-ca",
+      "sha256": "ef536fd17b39252d9f132c3b476c468c7fc257243f8fe440a6a2e1c6e1de7ca0",
+      "date": "2026-11-23",
+      "edition": "v1.54.2",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L110B",
+      "language": "es",
+      "id": "una-rueda-floja-b-es",
+      "sha256": "124060554584b94d3fd41b0dea4f4696f8bcecda9e486e88b351a97109987124",
+      "date": "2026-11-23",
+      "edition": "v1.54.2",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L110B",
+      "language": "ca",
+      "id": "una-rueda-floja-b-ca",
+      "sha256": "97b31e2bf16ec88e66a22bcc2819214949a0fd38a50cf6ebb6adaee60e32418d",
+      "date": "2026-11-23",
+      "edition": "v1.54.2",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L032A",
+      "language": "es",
+      "id": "el-patio-de-antes-a-es",
+      "sha256": "1b91e4a84772b93afa118d6daf9c23daedc13fd2fb723c18149f63940fec6776",
+      "date": "2026-11-23",
+      "edition": "v1.54.2",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L032A",
+      "language": "ca",
+      "id": "el-patio-de-antes-a-ca",
+      "sha256": "c30b5eeb6bbad3e919fdf60d8525b1127fdb11f1870b875e51e8aa3cfa6b9f32",
+      "date": "2026-11-23",
+      "edition": "v1.54.2",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L032B",
+      "language": "es",
+      "id": "el-patio-de-antes-b-es",
+      "sha256": "65d7b5540113c2fb5d084c0c690987f3d8983cf7a843d7ba4cc9d4419fad7a14",
+      "date": "2026-11-23",
+      "edition": "v1.54.2",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L032B",
+      "language": "ca",
+      "id": "el-patio-de-antes-b-ca",
+      "sha256": "74eb40d69ff11dbba8801dd7e953b7dac4639701f2faf8cbfbebc53ba610af31",
+      "date": "2026-11-23",
+      "edition": "v1.54.2",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }
