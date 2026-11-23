@@ -915,6 +915,102 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L060A",
+      "language": "es",
+      "id": "una-propuesta-para-el-tablon-a-es",
+      "sha256": "5d2669c8d53c3bea03955e6111056e267c59c193084a54d5175f30efa8276917",
+      "date": "2026-11-23",
+      "edition": "v1.54.7",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L060A",
+      "language": "ca",
+      "id": "una-propuesta-para-el-tablon-a-ca",
+      "sha256": "6af70b1f2f3d799923fb702f7823515309cd14316adac4bc33e3a40e8dd2a274",
+      "date": "2026-11-23",
+      "edition": "v1.54.7",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L060B",
+      "language": "es",
+      "id": "una-propuesta-para-el-tablon-b-es",
+      "sha256": "607497a11b21dd62a5c91b4ceb908532b1ec6ef5e282a16ebd3946f996f7e139",
+      "date": "2026-11-23",
+      "edition": "v1.54.7",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L060B",
+      "language": "ca",
+      "id": "una-propuesta-para-el-tablon-b-ca",
+      "sha256": "0321a5e616447d18d94ebd40954b04dd4aaa8ef49b2b8a4160e3666cf31f8d56",
+      "date": "2026-11-23",
+      "edition": "v1.54.7",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L093A",
+      "language": "es",
+      "id": "el-lado-de-la-ola-a-es",
+      "sha256": "a159971ca3c3c2ba030347bb1c97bfdfd5eb030d8b4f6fabd7d749fb232eb6dd",
+      "date": "2026-11-23",
+      "edition": "v1.54.7",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L093A",
+      "language": "ca",
+      "id": "el-lado-de-la-ola-a-ca",
+      "sha256": "f579fd400452a15061ebcd896ed5d4757e1be2216b1188b6dc86d47adff3f683",
+      "date": "2026-11-23",
+      "edition": "v1.54.7",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L093B",
+      "language": "es",
+      "id": "el-lado-de-la-ola-b-es",
+      "sha256": "388b806eb9b1daa3a52b23b257dd41f075264aafd1bacd3170e7c7a666089d68",
+      "date": "2026-11-23",
+      "edition": "v1.54.7",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L093B",
+      "language": "ca",
+      "id": "el-lado-de-la-ola-b-ca",
+      "sha256": "a088496a82a9d1aa85b7d688f8a9474c3729debd83aee0c6ebdae9074a3c9513",
+      "date": "2026-11-23",
+      "edition": "v1.54.7",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

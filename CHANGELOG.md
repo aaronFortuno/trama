@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.54.7 · 23 de novembre del 2026
+
+L060 i L093 amplien el catàleg DUA: el tauler de la biblioteca i les indicacions durant el partit. Versions de suport i ampliació de 4t a 1r d’ESO, en català i castellà, amb línies, solucionaris i marques de resposta revisades.
+
 ## 1.54.6 · 23 de novembre del 2026
 
 Noves famílies per a L141 i L174: els senyals de la font i el camí de l’antic ferrocarril. Suport i ampliació de 2n a 5è, amb il·lustracions compartides, preguntes i solucionaris revisats en català i castellà.

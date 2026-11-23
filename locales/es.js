@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.54.7 · Obre l’historial de canvis|v1.54.7 · Abrir el historial de cambios
+L060 i L093 amplien el catàleg DUA: el tauler de la biblioteca i les indicacions durant el partit. Versions de suport i ampliació de 4t a 1r d’ESO, en català i castellà, amb línies, solucionaris i marques de resposta revisades.|L060 y L093 amplían el catálogo DUA: el tablón de la biblioteca y las indicaciones durante el partido. Versiones de apoyo y ampliación de 4.º a 1.º de ESO, en catalán y castellano, con líneas, solucionarios y marcas de respuesta revisados.
 v1.54.6 · Obre l’historial de canvis|v1.54.6 · Abrir el historial de cambios
 Noves famílies per a L141 i L174: els senyals de la font i el camí de l’antic ferrocarril. Suport i ampliació de 2n a 5è, amb il·lustracions compartides, preguntes i solucionaris revisats en català i castellà.|Nuevas familias para L141 y L174: las señales de la fuente y el camino del antiguo ferrocarril. Apoyo y ampliación de 2.º a 5.º, con ilustraciones compartidas, preguntas y solucionarios revisados en catalán y castellano.
 v1.54.5 · Obre l’historial de canvis|v1.54.5 · Abrir el historial de cambios
