@@ -555,6 +555,102 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L087A",
+      "language": "es",
+      "id": "una-voz-entre-los-dialogos-a-es",
+      "sha256": "76346fe6768483ff3433b3f4282f7d386994bebda6b90676dbf648adbaebc492",
+      "date": "2026-11-23",
+      "edition": "v1.53.2",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L087A",
+      "language": "ca",
+      "id": "una-voz-entre-los-dialogos-a-ca",
+      "sha256": "d763da0dbf6ecb47f2d5fd15fe65f5c9ed103934484893f27256a12012b99c69",
+      "date": "2026-11-23",
+      "edition": "v1.53.2",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L087B",
+      "language": "es",
+      "id": "una-voz-entre-los-dialogos-b-es",
+      "sha256": "9c37322d21f1d2e87324f2ded9784e30873f67b89209bbf5baf1b1acbad28de3",
+      "date": "2026-11-23",
+      "edition": "v1.53.2",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L087B",
+      "language": "ca",
+      "id": "una-voz-entre-los-dialogos-b-ca",
+      "sha256": "6fa24b7c0982d25f32bd0b0ba214f7ef2a502b531124585eb3bba2ccb18c9a72",
+      "date": "2026-11-23",
+      "edition": "v1.53.2",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L123A",
+      "language": "es",
+      "id": "la-lata-de-los-lapices-a-es",
+      "sha256": "46b37de0d1c339381122a5a54516a5713b221bab2a460c1b87ecd7e5935aed4d",
+      "date": "2026-11-23",
+      "edition": "v1.53.2",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L123A",
+      "language": "ca",
+      "id": "la-lata-de-los-lapices-a-ca",
+      "sha256": "81ff4c0b685b9361305c7ad3b437ad60837ad593c7d2e27e3f9680b0e0d0e6ab",
+      "date": "2026-11-23",
+      "edition": "v1.53.2",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L123B",
+      "language": "es",
+      "id": "la-lata-de-los-lapices-b-es",
+      "sha256": "4d21327a85361c979e1f46196a8587bbd7ac0cd1bd7b1b7105fc8e2140b0a1fa",
+      "date": "2026-11-23",
+      "edition": "v1.53.2",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L123B",
+      "language": "ca",
+      "id": "la-lata-de-los-lapices-b-ca",
+      "sha256": "e95419b2c33bfee8e70a7955d85ae9b8239c07cca72dc18598080d353fc709c6",
+      "date": "2026-11-23",
+      "edition": "v1.53.2",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

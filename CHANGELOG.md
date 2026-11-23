@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.53.2 · 23 de novembre del 2026
+
+L087 i L123 incorporen suport i ampliació en català i castellà: l’entrevista sobre audiodescripció i la llauna dels llapis. Les variants cobreixen de 2n de primària a 1r d’ESO, amb preguntes, solucionaris i evidències pròpies revisades.
+
 ## 1.53.1 · 23 de novembre del 2026
 
 Dues famílies noves: L114, el teatre d’ombres, i L050, les cartes del pati, amb suport per a 4t i ampliació per a 6è, en català i castellà. Inclouen solucionaris, línies de resposta i marques d’evidència revisades.

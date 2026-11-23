@@ -10,8 +10,8 @@ Encàrrec: donar una variant de suport A i una d’ampliació B a trenta lecture
 | L177 · El pressupost del patinet | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
 | L114 · L’ombra del titella | 4t | 5è | 6è | Provisional, revisió independent superada ES/CA |
 | L050 · Cartes des del banc del pati | 4t | 5è | 6è | Provisional, revisió independent superada ES/CA |
-| L087 · Una veu entre els diàlegs | 5è | 6è | 1r d’ESO | Pendent |
-| L123 · La llauna dels llapis | 2n | 3r | 4t | Pendent |
+| L087 · Una veu entre els diàlegs | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
+| L123 · La llauna dels llapis | 2n | 3r | 4t | Provisional, revisió independent superada ES/CA |
 | L171 · La bossa de la narradora | 3r | 4t | 5è | Pendent |
 | L119 · Polseres per encàrrec | 4t | 5è | 6è | Pendent |
 | L085 · La maleta que no es volia tancar | 5è | 6è | 1r d’ESO | Pendent |

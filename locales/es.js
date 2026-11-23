@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.53.2 · Obre l’historial de canvis|v1.53.2 · Abrir el historial de cambios
+L087 i L123 incorporen suport i ampliació en català i castellà: l’entrevista sobre audiodescripció i la llauna dels llapis. Les variants cobreixen de 2n de primària a 1r d’ESO, amb preguntes, solucionaris i evidències pròpies revisades.|L087 y L123 incorporan apoyo y ampliación en catalán y castellano: la entrevista sobre audiodescripción y la lata de los lápices. Las variantes cubren de 2.º de primaria a 1.º de ESO, con preguntas, solucionarios y evidencias propias revisadas.
 v1.53.1 · Obre l’historial de canvis|v1.53.1 · Abrir el historial de cambios
 Dues famílies noves: L114, el teatre d’ombres, i L050, les cartes del pati, amb suport per a 4t i ampliació per a 6è, en català i castellà. Inclouen solucionaris, línies de resposta i marques d’evidència revisades.|Dos familias nuevas: L114, el teatro de sombras, y L050, las cartas del patio, con apoyo para 4.º y ampliación para 6.º, en catalán y castellano. Incluyen solucionarios, líneas de respuesta y marcas de evidencia revisadas.
 v1.53 · Obre l’historial de canvis|v1.53 · Abrir el historial de cambios
