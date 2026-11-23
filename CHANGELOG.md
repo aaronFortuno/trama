@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.55.2 · 23 de novembre del 2026
+
+Dues famílies noves, L125 i L033: la barca de suro i el canvi de parada de l’autobús. Suport i ampliació de 2n a 5è, amb les il·lustracions originals compartides i textos, preguntes i solucionaris revisats en català i castellà.
+
 ## 1.55.1 · 23 de novembre del 2026
 
 L049 i L086 incorporen suport i ampliació: les pistes al mirall i el rellotge d’aigua, de 4t a 1r d’ESO. Cada variant té preguntes, solucionari i marques de resposta propis en tots dos idiomes.

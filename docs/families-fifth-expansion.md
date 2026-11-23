@@ -10,8 +10,8 @@ Encàrrec del 23 de novembre del 2026: preparar vint famílies més a partir de 
 | L027 · El rellotge del pa | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
 | L049 · Un joc de pistes al mirall | 4t | 5è | 6è | Provisional, revisió independent superada ES/CA |
 | L086 · Un minut al rellotge d’aigua | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
-| L125 · Una barca per a dos | 2n | 3r | 4t | Pendent |
-| L033 · L’última parada | 3r | 4t | 5è | Pendent |
+| L125 · Una barca per a dos | 2n | 3r | 4t | Provisional, revisió independent superada ES/CA |
+| L033 · L’última parada | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
 | L055 · L’ampolla dels missatges | 4t | 5è | 6è | Pendent |
 | L090 · Una carta dins del fang | 5è | 6è | 1r d’ESO | Pendent |
 | L128 · El pa del berenar | 2n | 3r | 4t | Pendent |

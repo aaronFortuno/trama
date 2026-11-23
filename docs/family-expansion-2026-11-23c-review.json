@@ -435,6 +435,102 @@
       "reviewer": "root",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L125A",
+      "language": "es",
+      "id": "una-barca-para-dos-a-es",
+      "sha256": "a77a05b397bb27eec3e0fc55c34a14a734355be1b7d9e29bcfcea7e9bca15dcd",
+      "date": "2026-11-23",
+      "edition": "v1.55.2",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L125A",
+      "language": "ca",
+      "id": "una-barca-para-dos-a-ca",
+      "sha256": "6e7fb2a5f8ac934b01b2fd8d6972335652861c4b89ad4dc152ef9c37b4e72193",
+      "date": "2026-11-23",
+      "edition": "v1.55.2",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L125B",
+      "language": "es",
+      "id": "una-barca-para-dos-b-es",
+      "sha256": "7297f80d6611d6edf213e5ea0ca8c652c120cb0dee65fe1ce5b0e97f77312be0",
+      "date": "2026-11-23",
+      "edition": "v1.55.2",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L125B",
+      "language": "ca",
+      "id": "una-barca-para-dos-b-ca",
+      "sha256": "c67a1122034b619a1bce3e8b1883771b68ca82e3350023edb4a8bbb369eb878a",
+      "date": "2026-11-23",
+      "edition": "v1.55.2",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L033A",
+      "language": "es",
+      "id": "la-ultima-parada-a-es",
+      "sha256": "132731e43a184384bdaf3d2cc0a502336e1ca7908ebd704cf7c6d932fd077873",
+      "date": "2026-11-23",
+      "edition": "v1.55.2",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L033A",
+      "language": "ca",
+      "id": "la-ultima-parada-a-ca",
+      "sha256": "2fa068507cd3672354c340e0995c0ff4d87519c9f51f404a15108b08ed19351a",
+      "date": "2026-11-23",
+      "edition": "v1.55.2",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L033B",
+      "language": "es",
+      "id": "la-ultima-parada-b-es",
+      "sha256": "d8102138fbb0e4e14921cd1ddefd42b7d0a9969196449ce1bbe03c06b719ea09",
+      "date": "2026-11-23",
+      "edition": "v1.55.2",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L033B",
+      "language": "ca",
+      "id": "la-ultima-parada-b-ca",
+      "sha256": "d2e398287f399db73fce097a99b48160013a1b8f7e75f2eb274afb89e179817d",
+      "date": "2026-11-23",
+      "edition": "v1.55.2",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

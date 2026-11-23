@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.55.2 · Obre l’historial de canvis|v1.55.2 · Abrir el historial de cambios
+Dues famílies noves, L125 i L033: la barca de suro i el canvi de parada de l’autobús. Suport i ampliació de 2n a 5è, amb les il·lustracions originals compartides i textos, preguntes i solucionaris revisats en català i castellà.|Dos familias nuevas, L125 y L033: la barca de corcho y el cambio de parada del autobús. Apoyo y ampliación de 2.º a 5.º, con las ilustraciones originales compartidas y textos, preguntas y solucionarios revisados en catalán y castellano.
 v1.55.1 · Obre l’historial de canvis|v1.55.1 · Abrir el historial de cambios
 L049 i L086 incorporen suport i ampliació: les pistes al mirall i el rellotge d’aigua, de 4t a 1r d’ESO. Cada variant té preguntes, solucionari i marques de resposta propis en tots dos idiomes.|L049 y L086 incorporan apoyo y ampliación: las pistas en el espejo y el reloj de agua, de 4.º a 1.º de ESO. Cada variante tiene preguntas, solucionario y marcas de respuesta propios en ambos idiomas.
 v1.55 · Obre l’historial de canvis|v1.55 · Abrir el historial de cambios
