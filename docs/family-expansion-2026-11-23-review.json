@@ -1419,6 +1419,102 @@
       "reviewer": "root",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L172A",
+      "language": "es",
+      "id": "dos-precios-en-la-etiqueta-a-es",
+      "sha256": "6b7370e8041311e4a621e513a4961d4ed28764d3a9aa1e082bacb9bcdfdca40e",
+      "date": "2026-11-23",
+      "edition": "v1.53.11",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L172A",
+      "language": "ca",
+      "id": "dos-precios-en-la-etiqueta-a-ca",
+      "sha256": "0c601a6191217bb05db0cbf8bb7852e86438901a0194542b2be78fb968970eb5",
+      "date": "2026-11-23",
+      "edition": "v1.53.11",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L172B",
+      "language": "es",
+      "id": "dos-precios-en-la-etiqueta-b-es",
+      "sha256": "af2b288ded6d7e52d348b9c663df27ec94abb0f0c2497dccbf10d2af93ceb513",
+      "date": "2026-11-23",
+      "edition": "v1.53.11",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L172B",
+      "language": "ca",
+      "id": "dos-precios-en-la-etiqueta-b-ca",
+      "sha256": "48e01b62739c30eae75924714f56d146a7454b785a212d6fdac08c0bd95c6c6d",
+      "date": "2026-11-23",
+      "edition": "v1.53.11",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L053A",
+      "language": "es",
+      "id": "el-dia-que-cambiaron-las-senales-a-es",
+      "sha256": "736981fcef24d18c58a272a2c5f4cded53c7acd59b38b3f49665443716e8d83c",
+      "date": "2026-11-23",
+      "edition": "v1.53.11",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L053A",
+      "language": "ca",
+      "id": "el-dia-que-cambiaron-las-senales-a-ca",
+      "sha256": "bb97243b95eb52ef0435bc8e2f3d57109d33c5a2e0d5b79f2553c40093b081a6",
+      "date": "2026-11-23",
+      "edition": "v1.53.11",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L053B",
+      "language": "es",
+      "id": "el-dia-que-cambiaron-las-senales-b-es",
+      "sha256": "0ee35f0915f3e2c6493e29070f54cb0ec6004fdd43e96505d402572a0fe9b321",
+      "date": "2026-11-23",
+      "edition": "v1.53.11",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L053B",
+      "language": "ca",
+      "id": "el-dia-que-cambiaron-las-senales-b-ca",
+      "sha256": "2f7c1566453b13b6947f85094b59ecfef0959dbb1687abeca32757f5779f7de3",
+      "date": "2026-11-23",
+      "edition": "v1.53.11",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

@@ -9,5 +9,6 @@ import {familyExpansion08} from './family-expansion-2026-11-23-08.js';
 import {familyExpansion09} from './family-expansion-2026-11-23-09.js';
 import {familyExpansion10} from './family-expansion-2026-11-23-10.js';
 import {familyExpansion11} from './family-expansion-2026-11-23-11.js';
+import {familyExpansion12} from './family-expansion-2026-11-23-12.js';
 
-export const familyExpansionAdaptations = [...familyExpansion01, ...familyExpansion02, ...familyExpansion03, ...familyExpansion04, ...familyExpansion05, ...familyExpansion06, ...familyExpansion07, ...familyExpansion08, ...familyExpansion09, ...familyExpansion10, ...familyExpansion11];
+export const familyExpansionAdaptations = [...familyExpansion01, ...familyExpansion02, ...familyExpansion03, ...familyExpansion04, ...familyExpansion05, ...familyExpansion06, ...familyExpansion07, ...familyExpansion08, ...familyExpansion09, ...familyExpansion10, ...familyExpansion11, ...familyExpansion12];

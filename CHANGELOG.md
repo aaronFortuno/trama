@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.53.11 · 23 de novembre del 2026
+
+Dues famílies noves, L172 i L053: els preus dels llapis i els senyals del mercat. Suport i ampliació de 3r a 6è, amb comparacions, preguntes i fragments de resposta revisats en tots dos idiomes.
+
 ## 1.53.10 · 23 de novembre del 2026
 
 L140 i L094 incorporen suport i ampliació, de 2n a 1r d’ESO: el bitllet de l’avi i el peix estampat. Versions en català i castellà, amb preguntes, línies de resposta i solucionaris revisats.

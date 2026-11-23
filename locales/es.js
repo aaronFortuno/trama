@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.53.11 · Obre l’historial de canvis|v1.53.11 · Abrir el historial de cambios
+Dues famílies noves, L172 i L053: els preus dels llapis i els senyals del mercat. Suport i ampliació de 3r a 6è, amb comparacions, preguntes i fragments de resposta revisats en tots dos idiomes.|Dos familias nuevas, L172 y L053: los precios de los lápices y las señales del mercadillo. Apoyo y ampliación de 3.º a 6.º, con comparaciones, preguntas y fragmentos de respuesta revisados en ambos idiomas.
 v1.53.10 · Obre l’historial de canvis|v1.53.10 · Abrir el historial de cambios
 L140 i L094 incorporen suport i ampliació, de 2n a 1r d’ESO: el bitllet de l’avi i el peix estampat. Versions en català i castellà, amb preguntes, línies de resposta i solucionaris revisats.|L140 y L094 incorporan apoyo y ampliación, de 2.º a 1.º de ESO: el billete del abuelo y el pez estampado. Versiones en catalán y castellano, con preguntas, líneas de respuesta y solucionarios revisados.
 v1.53.9 · Obre l’historial de canvis|v1.53.9 · Abrir el historial de cambios
