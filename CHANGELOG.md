@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.53.13 · 23 de novembre del 2026
+
+L183 i L158 afegeixen dues famílies: la fotografia amb una referència de mida i la llibreta antiga de l’exposició. Suport i ampliació de 3r a 6è, en català i castellà, amb evidències, preguntes i solucionaris revisats.
+
 ## 1.53.12 · 23 de novembre del 2026
 
 La capsa de contes L149 i el menú de les dues «tortillas» L096 passen a tenir suport i ampliació en català i castellà. Les versions de 2n a 1r d’ESO mantenen el relat i les il·lustracions, amb preguntes i solucionaris propis revisats.

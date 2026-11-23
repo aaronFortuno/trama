@@ -37,8 +37,8 @@ Les vint famílies següents:
 | L053 · El dia que van canviar els senyals | 4t | 5è | 6è | Provisional, revisió independent superada ES/CA |
 | L149 · La capsa que fa la volta | 2n | 3r | 4t | Provisional, revisió independent superada ES/CA |
 | L096 · El menú de les dues «tortillas» | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
-| L183 · Una foto per recordar la mida | 3r | 4t | 5è | Pendent |
-| L158 · Un llibre que s’ha de poder obrir | 4t | 5è | 6è | Pendent |
+| L183 · Una foto per recordar la mida | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
+| L158 · Un llibre que s’ha de poder obrir | 4t | 5è | 6è | Provisional, revisió independent superada ES/CA |
 | L155 · Dotze cadires i dos bancs | 2n | 3r | 4t | Pendent |
 | L186 · Un tauler per guanyar plegats | 3r | 4t | 5è | Pendent |
 

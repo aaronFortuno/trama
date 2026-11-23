@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.53.13 · Obre l’historial de canvis|v1.53.13 · Abrir el historial de cambios
+L183 i L158 afegeixen dues famílies: la fotografia amb una referència de mida i la llibreta antiga de l’exposició. Suport i ampliació de 3r a 6è, en català i castellà, amb evidències, preguntes i solucionaris revisats.|L183 y L158 añaden dos familias: la fotografía con una referencia de tamaño y el cuaderno antiguo de la exposición. Apoyo y ampliación de 3.º a 6.º, en catalán y castellano, con evidencias, preguntas y solucionarios revisados.
 v1.53.12 · Obre l’historial de canvis|v1.53.12 · Abrir el historial de cambios
 La capsa de contes L149 i el menú de les dues «tortillas» L096 passen a tenir suport i ampliació en català i castellà. Les versions de 2n a 1r d’ESO mantenen el relat i les il·lustracions, amb preguntes i solucionaris propis revisats.|La caja de cuentos L149 y el menú de las dos tortillas L096 pasan a tener apoyo y ampliación en catalán y castellano. Las versiones de 2.º a 1.º de ESO mantienen el relato y las ilustraciones, con preguntas y solucionarios propios revisados.
 v1.53.11 · Obre l’historial de canvis|v1.53.11 · Abrir el historial de cambios

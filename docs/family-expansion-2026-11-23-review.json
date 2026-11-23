@@ -1611,6 +1611,102 @@
       "reviewer": "root",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L183A",
+      "language": "es",
+      "id": "una-foto-para-recordar-el-tamano-a-es",
+      "sha256": "59a55b6a8610deb0739a0c87f06a1869b88c0160493fbc47ed6b8b49736eab4b",
+      "date": "2026-11-23",
+      "edition": "v1.53.13",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L183A",
+      "language": "ca",
+      "id": "una-foto-para-recordar-el-tamano-a-ca",
+      "sha256": "c250322df145a5a665e4537f61d6571705a4dd2c060280a7ea06e9a15a194caa",
+      "date": "2026-11-23",
+      "edition": "v1.53.13",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L183B",
+      "language": "es",
+      "id": "una-foto-para-recordar-el-tamano-b-es",
+      "sha256": "6732b70644c3c13b1253109e4b8b9e08bc505382668fe78ebac2a08c696bde38",
+      "date": "2026-11-23",
+      "edition": "v1.53.13",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L183B",
+      "language": "ca",
+      "id": "una-foto-para-recordar-el-tamano-b-ca",
+      "sha256": "245c785226e61c18a73026f0bbcd9e48b850efa8e1acf616d4613b5a9dc74865",
+      "date": "2026-11-23",
+      "edition": "v1.53.13",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L158A",
+      "language": "es",
+      "id": "un-libro-que-se-pueda-abrir-a-es",
+      "sha256": "1567f82bf8ae012791dda1fd2c8d3de8f6e7323e336b7b51b38cfae7ed000e88",
+      "date": "2026-11-23",
+      "edition": "v1.53.13",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L158A",
+      "language": "ca",
+      "id": "un-libro-que-se-pueda-abrir-a-ca",
+      "sha256": "72d66d4ef08f3acaa348cb72d481cab09dd33afcde414b942196afafdfa3e57a",
+      "date": "2026-11-23",
+      "edition": "v1.53.13",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L158B",
+      "language": "es",
+      "id": "un-libro-que-se-pueda-abrir-b-es",
+      "sha256": "d14c49fe681d54f842d0ca1c8c0f3b7986282b2b43d9ef9af404df6927e1583b",
+      "date": "2026-11-23",
+      "edition": "v1.53.13",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L158B",
+      "language": "ca",
+      "id": "un-libro-que-se-pueda-abrir-b-ca",
+      "sha256": "a7cbe9058d238f4f34a9644678fbe3fe2a65bd7a57f8252bbf910f011afbc48d",
+      "date": "2026-11-23",
+      "edition": "v1.53.13",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }
