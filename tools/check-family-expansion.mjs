@@ -7,7 +7,7 @@ import {wordCount, labels} from '../catalog.js';
 import {annotationRange} from '../reading-annotations.js';
 
 const batch = process.argv.find(argument => argument.startsWith('--batch='))?.slice(8) ?? '2026-11-22';
-assert(['2026-11-22', '2026-11-23', '2026-11-23b'].includes(batch), 'Unknown editorial batch');
+assert(['2026-11-22', '2026-11-23', '2026-11-23b', '2026-11-23c'].includes(batch), 'Unknown editorial batch');
 const suffix = batch === '2026-11-22' ? '' : `-${batch}`;
 const {familyExpansionAdaptations} = await import(`../data/family-expansion${suffix}-adaptations.js`);
 const {familyExpansionPlan} = await import(`../data/family-expansion${suffix}-plan.js`);

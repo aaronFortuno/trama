@@ -8,9 +8,11 @@ import { familyExpansionPlan as familyExpansionNov23Plan } from './family-expans
 import { familyExpansionAdaptations as familyExpansionNov23Adaptations } from './family-expansion-2026-11-23-adaptations.js';
 import { familyExpansionPlan as familyExpansionFourthPlan } from './family-expansion-2026-11-23b-plan.js';
 import { familyExpansionAdaptations as familyExpansionFourthAdaptations } from './family-expansion-2026-11-23b-adaptations.js';
+import { familyExpansionPlan as familyExpansionFifthPlan } from './family-expansion-2026-11-23c-plan.js';
+import { familyExpansionAdaptations as familyExpansionFifthAdaptations } from './family-expansion-2026-11-23c-adaptations.js';
 
-const plans = [...familyEditionPlan, ...earlyFamilyPlan, ...familyExpansionPlan, ...familyExpansionNov23Plan, ...familyExpansionFourthPlan];
-const adaptations = [...familyAdaptations, ...earlyFamilyAdaptations, ...familyExpansionAdaptations, ...familyExpansionNov23Adaptations, ...familyExpansionFourthAdaptations];
+const plans = [...familyEditionPlan, ...earlyFamilyPlan, ...familyExpansionPlan, ...familyExpansionNov23Plan, ...familyExpansionFourthPlan, ...familyExpansionFifthPlan];
+const adaptations = [...familyAdaptations, ...earlyFamilyAdaptations, ...familyExpansionAdaptations, ...familyExpansionNov23Adaptations, ...familyExpansionFourthAdaptations, ...familyExpansionFifthAdaptations];
 const completedSources = new Set(plans.filter(family => ['A', 'B'].every(suffix =>
   adaptations.some(edition => edition.source === family.code && edition.suffix === suffix)
 )).map(family => family.code));

@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.55 · Obre l’historial de canvis|v1.55 · Abrir el historial de cambios
+Comença la cinquena ampliació DUA amb L109, el camí a l’ombra del pont, i L027, el rellotge del pa. Suport i ampliació de 2n a 5è en català i castellà, amb originals conservats, solucionaris, línies i evidències revisades independentment.|Comienza la quinta ampliación DUA con L109, el camino a la sombra del puente, y L027, el reloj del pan. Apoyo y ampliación de 2.º a 5.º en catalán y castellano, con originales conservados, solucionarios, líneas y evidencias revisados de forma independiente.
 v1.54.9 · Obre l’historial de canvis|v1.54.9 · Abrir el historial de cambios
 Completades vint famílies més: quaranta variants noves, cadascuna en català i castellà, amb originals conservats i revisió independent. L159, el robot, i L207, l’entrevista al taller de restauració, tanquen la tanda. El catàleg arriba a 89 famílies, 446 lectures i 892 versions lingüístiques.|Completadas veinte familias más: cuarenta variantes nuevas, cada una en catalán y castellano, con originales conservados y revisión independiente. L159, el robot, y L207, la entrevista en el taller de restauración, cierran la tanda. El catálogo alcanza 89 familias, 446 lecturas y 892 versiones lingüísticas.
 v1.54.8 · Obre l’historial de canvis|v1.54.8 · Abrir el historial de cambios

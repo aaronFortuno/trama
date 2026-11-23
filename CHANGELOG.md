@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.55 · 23 de novembre del 2026
+
+Comença la cinquena ampliació DUA amb L109, el camí a l’ombra del pont, i L027, el rellotge del pa. Suport i ampliació de 2n a 5è en català i castellà, amb originals conservats, solucionaris, línies i evidències revisades independentment.
+
 ## 1.54.9 · 23 de novembre del 2026
 
 Completades vint famílies més: quaranta variants noves, cadascuna en català i castellà, amb originals conservats i revisió independent. L159, el robot, i L207, l’entrevista al taller de restauració, tanquen la tanda. El catàleg arriba a 89 famílies, 446 lectures i 892 versions lingüístiques.

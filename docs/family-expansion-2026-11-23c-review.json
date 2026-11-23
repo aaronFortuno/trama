@@ -1,0 +1,344 @@
+{
+  "date": "2026-11-23",
+  "scope": "Fifth expansion: twenty additional families, forty new bilingual variants; originals preserved.",
+  "originals": [
+    {
+      "code": "L109",
+      "language": "es",
+      "id": "a-la-sombra-del-puente-es",
+      "sha256": "e4cd64fe8af11367fe81968b5a6d40893af09ec8e460537129772aee75ec8bda"
+    },
+    {
+      "code": "L109",
+      "language": "ca",
+      "id": "a-la-sombra-del-puente-ca",
+      "sha256": "01d8e064a41297a79bd040a13749e5ccfaca21a35041f9497e0b5317ea942f59"
+    },
+    {
+      "code": "L027",
+      "language": "es",
+      "id": "el-reloj-del-pan-es",
+      "sha256": "13c2251d22f38141eb427f150997d1055dbbebac16c4e064fda430972ce76b37"
+    },
+    {
+      "code": "L027",
+      "language": "ca",
+      "id": "el-rellotge-del-pa-ca",
+      "sha256": "1970b0009ed59ae4b731c8f9b03d875f85b36f363d768cabc02e6259f763a612"
+    },
+    {
+      "code": "L049",
+      "language": "es",
+      "id": "un-juego-de-pistas-en-el-espejo-es",
+      "sha256": "536e83e21f1c31aba9b61c9d5447205ae69e1668b5e1184f80dba48ff485a7b9"
+    },
+    {
+      "code": "L049",
+      "language": "ca",
+      "id": "un-joc-de-pistes-al-mirall-ca",
+      "sha256": "ee7e4f53ec6846c5ed6c6f92de7f1dd5b8c5511efdc7947b60f207669550274a"
+    },
+    {
+      "code": "L086",
+      "language": "es",
+      "id": "un-minuto-en-el-reloj-de-agua-es",
+      "sha256": "ee4a4d385cd4106faf85370318db12618d9d136c91f1a6dd99b7973d7e9c4733"
+    },
+    {
+      "code": "L086",
+      "language": "ca",
+      "id": "un-minut-al-rellotge-daigua-ca",
+      "sha256": "c169e24047f0aab46320acfe268e0c4ca5f960c1853440efb47c9334584d97e6"
+    },
+    {
+      "code": "L125",
+      "language": "es",
+      "id": "una-barca-para-dos-es",
+      "sha256": "ef5a8ba8216829f8a7bdb003cf33b337f3040aafa575144149a6278aea4352ca"
+    },
+    {
+      "code": "L125",
+      "language": "ca",
+      "id": "una-barca-para-dos-ca",
+      "sha256": "792b4e07af130a6d0fbbfa0cd062c81e98d0c30f57672e27bd02061a713387cd"
+    },
+    {
+      "code": "L033",
+      "language": "es",
+      "id": "la-ultima-parada-es",
+      "sha256": "d1da6bc96bc0831078d176188d75c756cf8626656ee67f256578a02aae95a23b"
+    },
+    {
+      "code": "L033",
+      "language": "ca",
+      "id": "lultima-parada-ca",
+      "sha256": "aa8f91abe4a0c815a1331f6c423278255870df6c26067ec798ba00351c1ade4f"
+    },
+    {
+      "code": "L055",
+      "language": "es",
+      "id": "la-botella-de-los-mensajes-es",
+      "sha256": "f813d034b6048e7dc1fd587e584a928d08b2d0faeaf883c1125b0dd5ef203cd8"
+    },
+    {
+      "code": "L055",
+      "language": "ca",
+      "id": "lampolla-dels-missatges-ca",
+      "sha256": "759cdb3dfebfc01e71542eeff51e62af902883ce090b117dd5da1a5a5943e543"
+    },
+    {
+      "code": "L090",
+      "language": "es",
+      "id": "una-carta-dentro-del-barro-es",
+      "sha256": "1663be0d10011780c27ecc71b130145a83f3f4f440f925cebb68f391ea5d9f78"
+    },
+    {
+      "code": "L090",
+      "language": "ca",
+      "id": "una-carta-dins-del-fang-ca",
+      "sha256": "68a74970b37f1ce509cefc24f68800003ee44181cce8a61d47d669d50109df02"
+    },
+    {
+      "code": "L128",
+      "language": "es",
+      "id": "el-pan-de-la-merienda-es",
+      "sha256": "99116eb1427dcf815352ca6354618cddcdda28591289aa19fef266f8083b68ff"
+    },
+    {
+      "code": "L128",
+      "language": "ca",
+      "id": "el-pan-de-la-merienda-ca",
+      "sha256": "33dd916cdb511ceaed75ab0ba7ebca8bf009d69fc19f05798275c622370381f4"
+    },
+    {
+      "code": "L166",
+      "language": "es",
+      "id": "la-taza-de-las-dos-asas-es",
+      "sha256": "d4339bd16dca307817fe2547a463f147c7c7b67b81ff76d43ade01fe0a74d2f9"
+    },
+    {
+      "code": "L166",
+      "language": "ca",
+      "id": "la-taza-de-las-dos-asas-ca",
+      "sha256": "9de73d8dd95381cefdd58441416bf30a1121c41e62f30b592c5554bb434f217e"
+    },
+    {
+      "code": "L057",
+      "language": "es",
+      "id": "la-feria-por-dentro-es",
+      "sha256": "18bf3f4b79784eaf05cd2842ec58086899ad31f32c04c47ca12f5469ac886fb5"
+    },
+    {
+      "code": "L057",
+      "language": "ca",
+      "id": "la-fira-per-dins-ca",
+      "sha256": "634aecca7a374c9a5068779e05e81a0491826655e88280e9917db9ae4c087fed"
+    },
+    {
+      "code": "L091",
+      "language": "es",
+      "id": "el-turno-de-las-polillas-es",
+      "sha256": "2725e476e941d03bde93d47b32711ff236e6c9351ddf7e41010a5bf53274e682"
+    },
+    {
+      "code": "L091",
+      "language": "ca",
+      "id": "el-torn-de-les-papallones-nocturnes-ca",
+      "sha256": "e024e1a302e1b87ba56f00fad3335db0e8fa7d4dd1269040f02bff13f11b6bee"
+    },
+    {
+      "code": "L145",
+      "language": "es",
+      "id": "la-manta-de-las-mangas-es",
+      "sha256": "e9f95a57856d5bcc4723d6018b532daf574302150bcd17f034c9be6cad525d5d"
+    },
+    {
+      "code": "L145",
+      "language": "ca",
+      "id": "la-manta-de-las-mangas-ca",
+      "sha256": "7fa71cd1c5d7de2cf84fc56713d455f54577f6bb539528186e4e306fc7bdce2b"
+    },
+    {
+      "code": "L182",
+      "language": "es",
+      "id": "la-piedra-que-pesaba-poco-es",
+      "sha256": "ac81ef55f1a7636fc2ad02308e2d0b6f9eb2a413007caf09de9a6f9bd7224211"
+    },
+    {
+      "code": "L182",
+      "language": "ca",
+      "id": "la-piedra-que-pesaba-poco-ca",
+      "sha256": "659c71d344e7aa3ca6b4e15d4afaaab6b03207cb9792622fed78cb44461b5e12"
+    },
+    {
+      "code": "L118",
+      "language": "es",
+      "id": "el-rincon-de-bruna-es",
+      "sha256": "5b1a671b551e0ea48953a8882013dcd9ea0e6b2cb8edce80ed588eb323919d08"
+    },
+    {
+      "code": "L118",
+      "language": "ca",
+      "id": "el-rincon-de-bruna-ca",
+      "sha256": "b9314a973064cf2decab56335968bcb9e2442a599f84f9570de65a6dfcd9da69"
+    },
+    {
+      "code": "L095",
+      "language": "es",
+      "id": "la-playa-que-viajo-con-las-olas-es",
+      "sha256": "8a9fe5764ba64238ff3d12874294156fbbef625ae45d717d9f5ea78cc6cd6171"
+    },
+    {
+      "code": "L095",
+      "language": "ca",
+      "id": "la-platja-que-va-viatjar-amb-les-onades-ca",
+      "sha256": "e7ffd391a093ac734e7703e1f06b022764b4b28de49c9908a456d053b1e503e9"
+    },
+    {
+      "code": "L150",
+      "language": "es",
+      "id": "un-vaso-para-medir-es",
+      "sha256": "7128e9e1ed4d6e8e01e102eee69487c12e78e490ffe5bd5b9c1da30ad19c2f20"
+    },
+    {
+      "code": "L150",
+      "language": "ca",
+      "id": "un-vaso-para-medir-ca",
+      "sha256": "825cb2b763718d5e31f8600e10f184ab2e650249ff324d626fb810fb93693a5e"
+    },
+    {
+      "code": "L184",
+      "language": "es",
+      "id": "una-carta-para-el-ropero-es",
+      "sha256": "453e6ca3e11366914604620c5bf6623a043ae4215239c5ca45210d4cd4af4841"
+    },
+    {
+      "code": "L184",
+      "language": "ca",
+      "id": "una-carta-para-el-ropero-ca",
+      "sha256": "6ac4be250d71be4ed808bf2ef29a0737e72bd945d97a3a6419b476959cc53dcb"
+    },
+    {
+      "code": "L162",
+      "language": "es",
+      "id": "una-jugada-sin-marcador-es",
+      "sha256": "b4492bd8cef6141dc1efb8b7802d08876f4227be90511e96a1d2a76cd99973f6"
+    },
+    {
+      "code": "L162",
+      "language": "ca",
+      "id": "una-jugada-sin-marcador-ca",
+      "sha256": "3d1ced07555b4b9ba57e08a052f3b9ddbc6209cce31a05ed9362c9625dada812"
+    },
+    {
+      "code": "L206",
+      "language": "es",
+      "id": "las-dos-velocidades-de-un-glaciar-es",
+      "sha256": "1f11a5d6805de8d4f0eb157be14275cee6fac825cc09cc6a2df267d182c50da5"
+    },
+    {
+      "code": "L206",
+      "language": "ca",
+      "id": "las-dos-velocidades-de-un-glaciar-ca",
+      "sha256": "b58b6267abe9db68d38a019c22845d78595ea5df17633bd845c677cc274f9b4f"
+    }
+  ],
+  "readings": [
+    {
+      "code": "L109A",
+      "language": "es",
+      "id": "a-la-sombra-del-puente-a-es",
+      "sha256": "d67fce230763693fb35fff9a0aab701718d41e6a808de6da8023b294a7076cdb",
+      "date": "2026-11-23",
+      "edition": "v1.55",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L109A",
+      "language": "ca",
+      "id": "a-la-sombra-del-puente-a-ca",
+      "sha256": "64643741e799f47df6ca04d83292cdec12224a5c07d715e73b6625b862c86c4d",
+      "date": "2026-11-23",
+      "edition": "v1.55",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L109B",
+      "language": "es",
+      "id": "a-la-sombra-del-puente-b-es",
+      "sha256": "043c50cd6f0a8871b9875bd3b40863fff860348cea6269271f7c643fce33fe2d",
+      "date": "2026-11-23",
+      "edition": "v1.55",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L109B",
+      "language": "ca",
+      "id": "a-la-sombra-del-puente-b-ca",
+      "sha256": "a1fec359607e87ffc25d8132c6f51bfb185b7fa08af66d30b3861e921ccabd63",
+      "date": "2026-11-23",
+      "edition": "v1.55",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L027A",
+      "language": "es",
+      "id": "el-reloj-del-pan-a-es",
+      "sha256": "a90e13fe5bbed315ab122648d165f9d846a5f15e2cecb70bbee286e74a4cc498",
+      "date": "2026-11-23",
+      "edition": "v1.55",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L027A",
+      "language": "ca",
+      "id": "el-reloj-del-pan-a-ca",
+      "sha256": "f10ad7cfa3c59736c0158985702726da0fae5b1f7c3b81c26d69769500fde9c5",
+      "date": "2026-11-23",
+      "edition": "v1.55",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L027B",
+      "language": "es",
+      "id": "el-reloj-del-pan-b-es",
+      "sha256": "bdd11944071bdccaf7b3d5aaca5fea8a28a52bba13cc30f15f502864103d8800",
+      "date": "2026-11-23",
+      "edition": "v1.55",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L027B",
+      "language": "ca",
+      "id": "el-reloj-del-pan-b-ca",
+      "sha256": "163b842759fdd8801893fec9e1f470c9f84a643f904963504ce71744bf7f72a2",
+      "date": "2026-11-23",
+      "edition": "v1.55",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    }
+  ]
+}
