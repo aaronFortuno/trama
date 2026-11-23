@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.53.10 · Obre l’historial de canvis|v1.53.10 · Abrir el historial de cambios
+L140 i L094 incorporen suport i ampliació, de 2n a 1r d’ESO: el bitllet de l’avi i el peix estampat. Versions en català i castellà, amb preguntes, línies de resposta i solucionaris revisats.|L140 y L094 incorporan apoyo y ampliación, de 2.º a 1.º de ESO: el billete del abuelo y el pez estampado. Versiones en catalán y castellano, con preguntas, líneas de respuesta y solucionarios revisados.
 v1.53.9 · Obre l’historial de canvis|v1.53.9 · Abrir el historial de cambios
 Completada la segona desena de famílies amb L169 i L046: les motxilles del concert i els torns del jardí. La tanda suma quaranta variants noves en català i castellà, amb gradació, solucionaris i evidències revisats independentment.|Completada la segunda decena de familias con L169 y L046: las mochilas del concierto y los turnos del jardín. La tanda suma cuarenta variantes nuevas en catalán y castellano, con gradación, solucionarios y evidencias revisados de forma independiente.
 v1.53.8 · Obre l’historial de canvis|v1.53.8 · Abrir el historial de cambios

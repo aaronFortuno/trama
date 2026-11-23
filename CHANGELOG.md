@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.53.10 · 23 de novembre del 2026
+
+L140 i L094 incorporen suport i ampliació, de 2n a 1r d’ESO: el bitllet de l’avi i el peix estampat. Versions en català i castellà, amb preguntes, línies de resposta i solucionaris revisats.
+
 ## 1.53.9 · 23 de novembre del 2026
 
 Completada la segona desena de famílies amb L169 i L046: les motxilles del concert i els torns del jardí. La tanda suma quaranta variants noves en català i castellà, amb gradació, solucionaris i evidències revisats independentment.

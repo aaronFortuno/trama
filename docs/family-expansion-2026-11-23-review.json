@@ -1323,6 +1323,102 @@
       "reviewer": "root",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L140A",
+      "language": "es",
+      "id": "el-billete-del-abuelo-a-es",
+      "sha256": "0c1727820fbce67c0a96b84ca6e366a9854f2b48c9aa8a5ed0e6d87687654a7e",
+      "date": "2026-11-23",
+      "edition": "v1.53.10",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L140A",
+      "language": "ca",
+      "id": "el-billete-del-abuelo-a-ca",
+      "sha256": "3359077ff327935991f64eb10fd0dfeb650b636f95cc268f2902754eebef11ff",
+      "date": "2026-11-23",
+      "edition": "v1.53.10",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L140B",
+      "language": "es",
+      "id": "el-billete-del-abuelo-b-es",
+      "sha256": "a8a3570654fc5cd18eae1970e902ea682d5a56b3571be5b5248a710a1e5f5021",
+      "date": "2026-11-23",
+      "edition": "v1.53.10",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L140B",
+      "language": "ca",
+      "id": "el-billete-del-abuelo-b-ca",
+      "sha256": "8f14c7668a2bfef996662b0088200f0bfa4b8f0bb5e729c7800fcb947a3ded0e",
+      "date": "2026-11-23",
+      "edition": "v1.53.10",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L094A",
+      "language": "es",
+      "id": "el-pez-que-nado-al-reves-a-es",
+      "sha256": "e8ea65c66168b4c8b42c16940f3675c39a0c7a6332cbe51571f8da3a1f440abf",
+      "date": "2026-11-23",
+      "edition": "v1.53.10",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L094A",
+      "language": "ca",
+      "id": "el-pez-que-nado-al-reves-a-ca",
+      "sha256": "45275f177f9e943724aa8c9f0a59092a3c81bbbf0c5c74fe2da0fd340f3d2c52",
+      "date": "2026-11-23",
+      "edition": "v1.53.10",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L094B",
+      "language": "es",
+      "id": "el-pez-que-nado-al-reves-b-es",
+      "sha256": "eeb7718953431a4aeba3014cc4fb1041b522c0ae83f72c6cd67e5aed3880e8a0",
+      "date": "2026-11-23",
+      "edition": "v1.53.10",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L094B",
+      "language": "ca",
+      "id": "el-pez-que-nado-al-reves-b-ca",
+      "sha256": "baa95da865b22a679302bdb4de6603075710b795464c6bcb9f212001bad82978",
+      "date": "2026-11-23",
+      "edition": "v1.53.10",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

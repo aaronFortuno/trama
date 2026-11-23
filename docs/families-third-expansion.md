@@ -31,8 +31,8 @@ Les vint famílies següents:
 | L089 · El nus del cel | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
 | L169 · Les motxilles de l’última fila | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
 | L046 · El jardí dels torns | 4t | 5è | 6è | Provisional, revisió independent superada ES/CA |
-| L140 · El bitllet de l’avi | 2n | 3r | 4t | Pendent |
-| L094 · El peix que va nedar a l’inrevés | 5è | 6è | 1r d’ESO | Pendent |
+| L140 · El bitllet de l’avi | 2n | 3r | 4t | Provisional, revisió independent superada ES/CA |
+| L094 · El peix que va nedar a l’inrevés | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
 | L172 · Dos preus a l’etiqueta | 3r | 4t | 5è | Pendent |
 | L053 · El dia que van canviar els senyals | 4t | 5è | 6è | Pendent |
 | L149 · La capsa que fa la volta | 2n | 3r | 4t | Pendent |
