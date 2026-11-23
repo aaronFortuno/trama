@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.54.3 · 23 de novembre del 2026
+
+El mapa de l’escola L045 i la recepta amb dues dates L084 s’amplien amb suport i ampliació de 4t a 1r d’ESO. Versions bilingües revisades, amb preguntes graduades, solucionaris i fragments exactes de suport.
+
 ## 1.54.2 · 23 de novembre del 2026
 
 Dues entrevistes passen a tenir família: L110, la roda fluixa, i L032, el pati d’abans. Noves variants de 2n a 5è en català i castellà, conservant els originals i les il·lustracions, amb preguntes i solucionaris revisats.

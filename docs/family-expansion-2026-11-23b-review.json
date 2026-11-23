@@ -531,6 +531,102 @@
       "reviewer": "root",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L045A",
+      "language": "es",
+      "id": "un-mapa-para-llegar-sin-preguntar-a-es",
+      "sha256": "2881bd858926397a875b89346fe2226cbbdb6c757d10b677e2888e9251e6701d",
+      "date": "2026-11-23",
+      "edition": "v1.54.3",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L045A",
+      "language": "ca",
+      "id": "un-mapa-para-llegar-sin-preguntar-a-ca",
+      "sha256": "b736205c9517c3c77eb5552992e71970d55108545a875407f5897673d6333d33",
+      "date": "2026-11-23",
+      "edition": "v1.54.3",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L045B",
+      "language": "es",
+      "id": "un-mapa-para-llegar-sin-preguntar-b-es",
+      "sha256": "205a23f880a07cc1a5100c6914dbaa9063ac69f59ab602f3cdfd603003998a5a",
+      "date": "2026-11-23",
+      "edition": "v1.54.3",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L045B",
+      "language": "ca",
+      "id": "un-mapa-para-llegar-sin-preguntar-b-ca",
+      "sha256": "c35d2fb63b793e919198d6587e1d0d7fa121d81f4b7a7391c4094b7be4124010",
+      "date": "2026-11-23",
+      "edition": "v1.54.3",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L084A",
+      "language": "es",
+      "id": "una-receta-con-dos-fechas-a-es",
+      "sha256": "e5343bd62dd9498cba4d28eaeb83ae8c6a4381a9321d0c0b2aac22241431f592",
+      "date": "2026-11-23",
+      "edition": "v1.54.3",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L084A",
+      "language": "ca",
+      "id": "una-receta-con-dos-fechas-a-ca",
+      "sha256": "d112d593b619ebea5e5e4f08fb035df5929fb72c0ef4f4bebfe7ad6e04edbc57",
+      "date": "2026-11-23",
+      "edition": "v1.54.3",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L084B",
+      "language": "es",
+      "id": "una-receta-con-dos-fechas-b-es",
+      "sha256": "4fb2c05298e8303f4b672ceb42e7f173551360175328e29c9a7cdeed2d4a2936",
+      "date": "2026-11-23",
+      "edition": "v1.54.3",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L084B",
+      "language": "ca",
+      "id": "una-receta-con-dos-fechas-b-ca",
+      "sha256": "69acca0208701918e1d4b1e474b718d910f3be3d77927669a21820e2f89d5f16",
+      "date": "2026-11-23",
+      "edition": "v1.54.3",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

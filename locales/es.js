@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.54.3 · Obre l’historial de canvis|v1.54.3 · Abrir el historial de cambios
+El mapa de l’escola L045 i la recepta amb dues dates L084 s’amplien amb suport i ampliació de 4t a 1r d’ESO. Versions bilingües revisades, amb preguntes graduades, solucionaris i fragments exactes de suport.|El mapa de la escuela L045 y la receta con dos fechas L084 se amplían con apoyo y ampliación de 4.º a 1.º de ESO. Versiones bilingües revisadas, con preguntas graduadas, solucionarios y fragmentos exactos de apoyo.
 v1.54.2 · Obre l’historial de canvis|v1.54.2 · Abrir el historial de cambios
 Dues entrevistes passen a tenir família: L110, la roda fluixa, i L032, el pati d’abans. Noves variants de 2n a 5è en català i castellà, conservant els originals i les il·lustracions, amb preguntes i solucionaris revisats.|Dos entrevistas pasan a tener familia: L110, la rueda floja, y L032, el patio de antes. Nuevas variantes de 2.º a 5.º en catalán y castellano, conservando los originales y las ilustraciones, con preguntas y solucionarios revisados.
 v1.54.1 · Obre l’historial de canvis|v1.54.1 · Abrir el historial de cambios

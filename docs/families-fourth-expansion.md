@@ -12,8 +12,8 @@ Encàrrec del 23 de novembre del 2026: completar vint famílies més a partir de
 | L083 · Quan el riu deixa una illa | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
 | L110 · Una roda fluixa | 2n | 3r | 4t | Provisional, revisió independent superada ES/CA |
 | L032 · El pati d’abans | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
-| L045 · Un mapa per arribar-hi sense preguntar | 4t | 5è | 6è | Pendent |
-| L084 · Una recepta amb dues dates | 5è | 6è | 1r d’ESO | Pendent |
+| L045 · Un mapa per arribar-hi sense preguntar | 4t | 5è | 6è | Provisional, revisió independent superada ES/CA |
+| L084 · Una recepta amb dues dates | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
 | L112 · El joc de les fitxes | 2n | 3r | 4t | Pendent |
 | L037 · Una resposta per al canal | 3r | 4t | 5è | Pendent |
 | L052 · Un matí darrere de la pantalla | 4t | 5è | 6è | Pendent |
@@ -34,6 +34,8 @@ Hi ha cinc originals de cadascun dels cursos de 3r a 6è, amb narracions, entrev
 Les variants comparteixen situació, personatges, desenvolupament i il·lustracions coherents amb l’original. Canvien extensió, sintaxi, vocabulari, explicitació de pistes i preguntes. El suport de 2n té entre 40 i 80 paraules, paràgrafs de fins a 30 paraules i quatre preguntes literals d’una línia. Les ampliacions de 1r d’ESO tenen entorn de 500 paraules, dues imatges i 11–12 preguntes. Les versions amb una única il·lustració es mantenen fins a 350 paraules en totes dues llengües.
 
 Les preguntes, respostes, línies, subratllats de vocabulari i fragments de resposta són propis de cada variant i idioma. Les preguntes literals demanen dades explícites; les inferències relacionen o apliquen dades del text. Les preguntes obertes admeten alternatives raonables. Es revisen veus, naturalitat, plausibilitat, coneixement dels personatges, cronologia, càlculs i ancoratges exactes.
+
+Contrast conceptual de L083: [USGS, Sediment and Suspended Sediment](https://www.usgs.gov/water-science-school/science/sediment-and-suspended-sediment), sobre transport de materials, suspensió i dipòsit quan baixa la velocitat de l’aigua. Els temps dels pots corresponen a les observacions narrades d’aquella prova; no constitueixen una pauta universal de sedimentació.
 
 ## Implementació i revisió
 
