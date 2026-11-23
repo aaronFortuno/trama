@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.55.1 · 23 de novembre del 2026
+
+L049 i L086 incorporen suport i ampliació: les pistes al mirall i el rellotge d’aigua, de 4t a 1r d’ESO. Cada variant té preguntes, solucionari i marques de resposta propis en tots dos idiomes.
+
 ## 1.55 · 23 de novembre del 2026
 
 Comença la cinquena ampliació DUA amb L109, el camí a l’ombra del pont, i L027, el rellotge del pa. Suport i ampliació de 2n a 5è en català i castellà, amb originals conservats, solucionaris, línies i evidències revisades independentment.

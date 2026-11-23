@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.55.1 · Obre l’historial de canvis|v1.55.1 · Abrir el historial de cambios
+L049 i L086 incorporen suport i ampliació: les pistes al mirall i el rellotge d’aigua, de 4t a 1r d’ESO. Cada variant té preguntes, solucionari i marques de resposta propis en tots dos idiomes.|L049 y L086 incorporan apoyo y ampliación: las pistas en el espejo y el reloj de agua, de 4.º a 1.º de ESO. Cada variante tiene preguntas, solucionario y marcas de respuesta propios en ambos idiomas.
 v1.55 · Obre l’historial de canvis|v1.55 · Abrir el historial de cambios
 Comença la cinquena ampliació DUA amb L109, el camí a l’ombra del pont, i L027, el rellotge del pa. Suport i ampliació de 2n a 5è en català i castellà, amb originals conservats, solucionaris, línies i evidències revisades independentment.|Comienza la quinta ampliación DUA con L109, el camino a la sombra del puente, y L027, el reloj del pan. Apoyo y ampliación de 2.º a 5.º en catalán y castellano, con originales conservados, solucionarios, líneas y evidencias revisados de forma independiente.
 v1.54.9 · Obre l’historial de canvis|v1.54.9 · Abrir el historial de cambios

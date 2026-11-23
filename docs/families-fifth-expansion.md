@@ -8,8 +8,8 @@ Encàrrec del 23 de novembre del 2026: preparar vint famílies més a partir de 
 | --- | --- | --- | --- | --- |
 | L109 · A l’ombra del pont | 2n | 3r | 4t | Provisional, revisió independent superada ES/CA |
 | L027 · El rellotge del pa | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
-| L049 · Un joc de pistes al mirall | 4t | 5è | 6è | Pendent |
-| L086 · Un minut al rellotge d’aigua | 5è | 6è | 1r d’ESO | Pendent |
+| L049 · Un joc de pistes al mirall | 4t | 5è | 6è | Provisional, revisió independent superada ES/CA |
+| L086 · Un minut al rellotge d’aigua | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
 | L125 · Una barca per a dos | 2n | 3r | 4t | Pendent |
 | L033 · L’última parada | 3r | 4t | 5è | Pendent |
 | L055 · L’ampolla dels missatges | 4t | 5è | 6è | Pendent |
@@ -34,6 +34,14 @@ La tria es reparteix entre cinc originals de cadascun dels cursos de 3r a 6è. C
 Es mantenen personatges, situació i desenvolupament central, amb les il·lustracions originals que continuen sent coherents. La gradació canvia extensió, sintaxi, lèxic, explicitació de pistes i preguntes. El suport de 2n té entre 40 i 80 paraules, paràgrafs de fins a 30 paraules i quatre preguntes literals d’una línia. Les ampliacions d’ESO tenen entorn de 500 paraules, dues imatges i 11–12 preguntes. Les variants amb una sola imatge es mantenen fins a 350 paraules en totes dues llengües.
 
 Cada variant té preguntes, solucionari, línies, subratllats de vocabulari i fragments de resposta propis en ES/CA. Les dades o motius explícits corresponen a preguntes literals; les inferències relacionen o apliquen informació. Les respostes obertes admeten alternatives raonables. Es comproven veus, naturalitat, cronologia, coneixement dels personatges, objectes, quantitats, fets tècnics i límits de les conclusions. Les cites s’han d’ajustar a mots sencers i passar annotationRange.
+
+## Fonts de contrast
+
+- L086: [OpenStax, Bernoulli’s Equation](https://openstax.org/books/university-physics-volume-1/pages/14-6-bernoullis-equation), per contrastar la relació entre altura, pressió i sortida d’aigua. La comparació de recipients controla la mida de l’orifici i l’altura inicial de l’aigua.
+- L090: [Metropolitan Museum, dues tauletes d’una carta privada](https://www.metmuseum.org/art/collection/search/326712) i [el seu sobre amb segell](https://www.metmuseum.org/art/collection/search/328894), per contrastar el cas real i mantenir diferenciats missatge, embolcall, destinataris i marca del remitent.
+- L091: [Anderson et al. (2023), estudi primari de pol·linització](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0281810), per distingir nombre de visites i dipòsit de pol·len per flor i hora en la planta estudiada. L’exemple numèric de la variant s’identifica com a inventat.
+- L057: [STABILA, comprovació d’un nivell](https://www.stabila.com/files/default/pdf/en/FAQ_Level-check_EN.pdf), per contrastar l’ús i l’abast de l’eina en el cas concret.
+- L182: [National Park Service, pedra tosca i altres roques volcàniques](https://www.nps.gov/subjects/volcanoes/pyroclasts.htm), per contrastar la formació de cavitats i la possibilitat de flotació, sense generalitzar l’observació dels dos fragments del relat.
 
 ## Implementació i revisió
 

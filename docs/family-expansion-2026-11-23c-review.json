@@ -339,6 +339,102 @@
       "reviewer": "root",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L049A",
+      "language": "es",
+      "id": "un-juego-de-pistas-en-el-espejo-a-es",
+      "sha256": "260e8f465bcbb8b9d470cdedb7619764ad47e3ae55059b9e3517ed3dd9a755d8",
+      "date": "2026-11-23",
+      "edition": "v1.55.1",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L049A",
+      "language": "ca",
+      "id": "un-juego-de-pistas-en-el-espejo-a-ca",
+      "sha256": "391f669638b0e3d9cbee73d3ed4cf2b587763716547fb22d6d4550b2390ac5d6",
+      "date": "2026-11-23",
+      "edition": "v1.55.1",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L049B",
+      "language": "es",
+      "id": "un-juego-de-pistas-en-el-espejo-b-es",
+      "sha256": "79e1eb8b93f4831f27fe3eab9140394906b859b016bc66c84ced09897e699234",
+      "date": "2026-11-23",
+      "edition": "v1.55.1",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L049B",
+      "language": "ca",
+      "id": "un-juego-de-pistas-en-el-espejo-b-ca",
+      "sha256": "cf89c9b8b994911897ea2f7c5549e857438c5bf6ad8bf02661794df7953f399d",
+      "date": "2026-11-23",
+      "edition": "v1.55.1",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L086A",
+      "language": "es",
+      "id": "un-minuto-en-el-reloj-de-agua-a-es",
+      "sha256": "9adbfa2aac844aac6a496d6a531ab521c91e88bd8f5a019d217f03b0ef7b3b01",
+      "date": "2026-11-23",
+      "edition": "v1.55.1",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L086A",
+      "language": "ca",
+      "id": "un-minuto-en-el-reloj-de-agua-a-ca",
+      "sha256": "89813de851bd83a949e7c917073386b37cd3004eeced5286204bb8246e943454",
+      "date": "2026-11-23",
+      "edition": "v1.55.1",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L086B",
+      "language": "es",
+      "id": "un-minuto-en-el-reloj-de-agua-b-es",
+      "sha256": "dde49cfeada577f9e3bc499c53f981f0d687732185fc53dfeb530b204f4dd882",
+      "date": "2026-11-23",
+      "edition": "v1.55.1",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L086B",
+      "language": "ca",
+      "id": "un-minuto-en-el-reloj-de-agua-b-ca",
+      "sha256": "f8adec26c6d454af28b6e413da2f9768766f80727be34f2b872d5fe3839ab050",
+      "date": "2026-11-23",
+      "edition": "v1.55.1",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }
