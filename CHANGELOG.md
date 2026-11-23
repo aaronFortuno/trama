@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.53.9 · 23 de novembre del 2026
+
+Completada la segona desena de famílies amb L169 i L046: les motxilles del concert i els torns del jardí. La tanda suma quaranta variants noves en català i castellà, amb gradació, solucionaris i evidències revisats independentment.
+
 ## 1.53.8 · 23 de novembre del 2026
 
 L136 i L089 amplien el catàleg DUA: el paquet dels dos veïns Soler i el nus dels estels, amb suport i ampliació de 2n a 1r d’ESO. Cada variant té preguntes, solucionari i marques de resposta pròpies en tots dos idiomes.

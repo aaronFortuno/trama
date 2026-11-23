@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.53.9 · Obre l’historial de canvis|v1.53.9 · Abrir el historial de cambios
+Completada la segona desena de famílies amb L169 i L046: les motxilles del concert i els torns del jardí. La tanda suma quaranta variants noves en català i castellà, amb gradació, solucionaris i evidències revisats independentment.|Completada la segunda decena de familias con L169 y L046: las mochilas del concierto y los turnos del jardín. La tanda suma cuarenta variantes nuevas en catalán y castellano, con gradación, solucionarios y evidencias revisados de forma independiente.
 v1.53.8 · Obre l’historial de canvis|v1.53.8 · Abrir el historial de cambios
 L136 i L089 amplien el catàleg DUA: el paquet dels dos veïns Soler i el nus dels estels, amb suport i ampliació de 2n a 1r d’ESO. Cada variant té preguntes, solucionari i marques de resposta pròpies en tots dos idiomes.|L136 y L089 amplían el catálogo DUA: el paquete de los dos vecinos Soler y el nudo de las cometas, con apoyo y ampliación de 2.º a 1.º de ESO. Cada variante tiene preguntas, solucionario y marcas de respuesta propias en ambos idiomas.
 v1.53.7 · Obre l’historial de canvis|v1.53.7 · Abrir el historial de cambios

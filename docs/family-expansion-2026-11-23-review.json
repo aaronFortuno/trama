@@ -1227,6 +1227,102 @@
       "reviewer": "root",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L169A",
+      "language": "es",
+      "id": "las-mochilas-de-la-ultima-fila-a-es",
+      "sha256": "74be25a8785b7f652543f94b482d601d8c09b7a05a29d0f54084505778d25c3c",
+      "date": "2026-11-23",
+      "edition": "v1.53.9",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L169A",
+      "language": "ca",
+      "id": "las-mochilas-de-la-ultima-fila-a-ca",
+      "sha256": "ab404c457a6a9fdf2736e8b554c0eec839e2536fac5e68f2dd45215038e08bd8",
+      "date": "2026-11-23",
+      "edition": "v1.53.9",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L169B",
+      "language": "es",
+      "id": "las-mochilas-de-la-ultima-fila-b-es",
+      "sha256": "bca36dfe739adfd1aab5bdbfff332dce0b50b2842098654428f00185e48a3197",
+      "date": "2026-11-23",
+      "edition": "v1.53.9",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L169B",
+      "language": "ca",
+      "id": "las-mochilas-de-la-ultima-fila-b-ca",
+      "sha256": "da1266d9a7494ce47042352f0d86dda087d3c2567215e3de1e145f3103e9901d",
+      "date": "2026-11-23",
+      "edition": "v1.53.9",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L046A",
+      "language": "es",
+      "id": "el-jardin-de-los-turnos-a-es",
+      "sha256": "90102823fae7d5b898ab442c3e5ef14e336a02336a0d739d6fad68bfddfe9290",
+      "date": "2026-11-23",
+      "edition": "v1.53.9",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L046A",
+      "language": "ca",
+      "id": "el-jardin-de-los-turnos-a-ca",
+      "sha256": "7f88d350836feafaa5e8da23a82545e029589a2c2db3dafc6f24b388938004dc",
+      "date": "2026-11-23",
+      "edition": "v1.53.9",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L046B",
+      "language": "es",
+      "id": "el-jardin-de-los-turnos-b-es",
+      "sha256": "8219bd8ee6d4402dfcf06ba055c4a60ed08c967a3d69f0f50f67b4cb4d22ae8e",
+      "date": "2026-11-23",
+      "edition": "v1.53.9",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L046B",
+      "language": "ca",
+      "id": "el-jardin-de-los-turnos-b-ca",
+      "sha256": "6cc5f93c6fb91bc5c1d06f8d2f0c0a078ccdd1ecf6de976c3e4da545ecf0894b",
+      "date": "2026-11-23",
+      "edition": "v1.53.9",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }
