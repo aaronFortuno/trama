@@ -1011,6 +1011,102 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L148A",
+      "language": "es",
+      "id": "letras-al-reves-a-es",
+      "sha256": "92db9c861f9d6c117aa344819f6b6b2b8e7d2a112187ff4558cabdecacd49c3b",
+      "date": "2026-11-23",
+      "edition": "v1.54.8",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L148A",
+      "language": "ca",
+      "id": "letras-al-reves-a-ca",
+      "sha256": "c6d0d052a19b0b81e7753f129827d05a3146bd09e8c14d6cfd054d7a035ad90a",
+      "date": "2026-11-23",
+      "edition": "v1.54.8",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L148B",
+      "language": "es",
+      "id": "letras-al-reves-b-es",
+      "sha256": "14cb4bb46de67c410e00b17854fc3ff0c30f76aafd2eef09a8447110e5c7dea3",
+      "date": "2026-11-23",
+      "edition": "v1.54.8",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L148B",
+      "language": "ca",
+      "id": "letras-al-reves-b-ca",
+      "sha256": "d6e0d7e33649d78f9e458f96fb46896d73ea739cb49fa984a7724991ea91a3a3",
+      "date": "2026-11-23",
+      "edition": "v1.54.8",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L187A",
+      "language": "es",
+      "id": "el-dibujo-que-viajo-en-autobus-a-es",
+      "sha256": "047b8b5f0ea961510862d57048e0c07fb750e4f274f5080efd594b9e27d8f53e",
+      "date": "2026-11-23",
+      "edition": "v1.54.8",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L187A",
+      "language": "ca",
+      "id": "el-dibujo-que-viajo-en-autobus-a-ca",
+      "sha256": "42739efcee569c57067f6dfcee58dd3f9e7c13bda11c4e7e60fbed072248b046",
+      "date": "2026-11-23",
+      "edition": "v1.54.8",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L187B",
+      "language": "es",
+      "id": "el-dibujo-que-viajo-en-autobus-b-es",
+      "sha256": "593838d7d5d61bd6c15bd64f7f56271130cab88aa1ab567813092b535ea38298",
+      "date": "2026-11-23",
+      "edition": "v1.54.8",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L187B",
+      "language": "ca",
+      "id": "el-dibujo-que-viajo-en-autobus-b-ca",
+      "sha256": "e8602d9fdb35227f410ec86a97d8adc23623348998198bab26bce028729f8781",
+      "date": "2026-11-23",
+      "edition": "v1.54.8",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

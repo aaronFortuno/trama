@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.54.8 · Obre l’historial de canvis|v1.54.8 · Abrir el historial de cambios
+L148 i L187 incorporen suport i ampliació: les lletres estampades i els dibuixos que viatgen en autobús, de 2n a 5è. Les variants catalana i castellana conserven els originals, comparteixen il·lustracions i inclouen preguntes i solucionaris propis revisats.|L148 y L187 incorporan apoyo y ampliación: las letras estampadas y los dibujos que viajan en autobús, de 2.º a 5.º. Las variantes catalana y castellana conservan los originales, comparten ilustraciones e incluyen preguntas y solucionarios propios revisados.
 v1.54.7 · Obre l’historial de canvis|v1.54.7 · Abrir el historial de cambios
 L060 i L093 amplien el catàleg DUA: el tauler de la biblioteca i les indicacions durant el partit. Versions de suport i ampliació de 4t a 1r d’ESO, en català i castellà, amb línies, solucionaris i marques de resposta revisades.|L060 y L093 amplían el catálogo DUA: el tablón de la biblioteca y las indicaciones durante el partido. Versiones de apoyo y ampliación de 4.º a 1.º de ESO, en catalán y castellano, con líneas, solucionarios y marcas de respuesta revisados.
 v1.54.6 · Obre l’historial de canvis|v1.54.6 · Abrir el historial de cambios

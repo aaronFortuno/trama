@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.54.8 · 23 de novembre del 2026
+
+L148 i L187 incorporen suport i ampliació: les lletres estampades i els dibuixos que viatgen en autobús, de 2n a 5è. Les variants catalana i castellana conserven els originals, comparteixen il·lustracions i inclouen preguntes i solucionaris propis revisats.
+
 ## 1.54.7 · 23 de novembre del 2026
 
 L060 i L093 amplien el catàleg DUA: el tauler de la biblioteca i les indicacions durant el partit. Versions de suport i ampliació de 4t a 1r d’ESO, en català i castellà, amb línies, solucionaris i marques de resposta revisades.
