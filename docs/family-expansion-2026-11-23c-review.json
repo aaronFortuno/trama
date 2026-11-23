@@ -531,6 +531,102 @@
       "reviewer": "root",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L055A",
+      "language": "es",
+      "id": "la-botella-de-los-mensajes-a-es",
+      "sha256": "f045f096b1c55230d5619c05d9a1ddb4c6a7e78078d26ec9e8866a6457d7bb73",
+      "date": "2026-11-23",
+      "edition": "v1.55.3",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L055A",
+      "language": "ca",
+      "id": "la-botella-de-los-mensajes-a-ca",
+      "sha256": "5d2b70e4e4f61dc0685b869f180bb6ed27a7caad7577839ce72c7a5cfbca4d04",
+      "date": "2026-11-23",
+      "edition": "v1.55.3",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L055B",
+      "language": "es",
+      "id": "la-botella-de-los-mensajes-b-es",
+      "sha256": "004e1a3f3b37f6b3fe3c4fcfc6ac2581bfc3fc2a8fb67baf390068a1f5adce81",
+      "date": "2026-11-23",
+      "edition": "v1.55.3",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L055B",
+      "language": "ca",
+      "id": "la-botella-de-los-mensajes-b-ca",
+      "sha256": "c38d9a9f0a2e3b1d7e7efc6f8b366eca3e84c1f35c83f8fefaa867ae0b4276e1",
+      "date": "2026-11-23",
+      "edition": "v1.55.3",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L090A",
+      "language": "es",
+      "id": "una-carta-dentro-del-barro-a-es",
+      "sha256": "0fcb8bc99c0d68cf45399013c85c51f6080dfd4f01a2e740829a8a1c15ce9292",
+      "date": "2026-11-23",
+      "edition": "v1.55.3",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L090A",
+      "language": "ca",
+      "id": "una-carta-dentro-del-barro-a-ca",
+      "sha256": "4dfb3dd17e9f06f39183168ec24fa5dfde4f417ece9ebe37f7eee64cfb11ee75",
+      "date": "2026-11-23",
+      "edition": "v1.55.3",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L090B",
+      "language": "es",
+      "id": "una-carta-dentro-del-barro-b-es",
+      "sha256": "e7554b19713ebba4869a46438de2f02cab637316c0e1628df1f45569210468d9",
+      "date": "2026-11-23",
+      "edition": "v1.55.3",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L090B",
+      "language": "ca",
+      "id": "una-carta-dentro-del-barro-b-ca",
+      "sha256": "ea38e332d33d65fa0a75653a2228cf675d6e5c45c68f7d8b9078ca65adf63a3c",
+      "date": "2026-11-23",
+      "edition": "v1.55.3",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

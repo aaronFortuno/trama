@@ -12,8 +12,8 @@ Encàrrec del 23 de novembre del 2026: preparar vint famílies més a partir de 
 | L086 · Un minut al rellotge d’aigua | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
 | L125 · Una barca per a dos | 2n | 3r | 4t | Provisional, revisió independent superada ES/CA |
 | L033 · L’última parada | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
-| L055 · L’ampolla dels missatges | 4t | 5è | 6è | Pendent |
-| L090 · Una carta dins del fang | 5è | 6è | 1r d’ESO | Pendent |
+| L055 · L’ampolla dels missatges | 4t | 5è | 6è | Provisional, revisió independent superada ES/CA |
+| L090 · Una carta dins del fang | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
 | L128 · El pa del berenar | 2n | 3r | 4t | Pendent |
 | L166 · La tassa de les dues nanses | 3r | 4t | 5è | Pendent |
 | L057 · La fira per dins | 4t | 5è | 6è | Pendent |
@@ -38,7 +38,9 @@ Cada variant té preguntes, solucionari, línies, subratllats de vocabulari i fr
 ## Fonts de contrast
 
 - L086: [OpenStax, Bernoulli’s Equation](https://openstax.org/books/university-physics-volume-1/pages/14-6-bernoullis-equation), per contrastar la relació entre altura, pressió i sortida d’aigua. La comparació de recipients controla la mida de l’orifici i l’altura inicial de l’aigua.
+- L086: [Science Buddies, construcció i calibratge d’un rellotge d’aigua](https://www.sciencebuddies.org/science-fair-projects/project-ideas/ApMech_p047/mechanical-engineering/build-a-water-clock), com a referència experimental complementària.
 - L090: [Metropolitan Museum, dues tauletes d’una carta privada](https://www.metmuseum.org/art/collection/search/326712) i [el seu sobre amb segell](https://www.metmuseum.org/art/collection/search/328894), per contrastar el cas real i mantenir diferenciats missatge, embolcall, destinataris i marca del remitent.
+- L090: [Universitat d’Hamburg, cartes mesopotàmiques amb sobre](https://www.csmc.uni-hamburg.de/publications/mesopotamia/2017-06-30.html), per contrastar l’assecat de la tauleta, l’embolcall d’argila i l’obertura per llegir-la.
 - L091: [Anderson et al. (2023), estudi primari de pol·linització](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0281810), per distingir nombre de visites i dipòsit de pol·len per flor i hora en la planta estudiada. L’exemple numèric de la variant s’identifica com a inventat.
 - L057: [STABILA, comprovació d’un nivell](https://www.stabila.com/files/default/pdf/en/FAQ_Level-check_EN.pdf), per contrastar l’ús i l’abast de l’eina en el cas concret.
 - L182: [National Park Service, pedra tosca i altres roques volcàniques](https://www.nps.gov/subjects/volcanoes/pyroclasts.htm), per contrastar la formació de cavitats i la possibilitat de flotació, sense generalitzar l’observació dels dos fragments del relat.

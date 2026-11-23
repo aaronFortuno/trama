@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.55.3 · Obre l’historial de canvis|v1.55.3 · Abrir el historial de cambios
+L’ampolla dels missatges L055 i la carta dins del fang L090 passen a tenir suport i ampliació de 4t a 1r d’ESO. Versions catalana i castellana amb preguntes graduades, solucionaris i evidències pròpies revisades.|La botella de los mensajes L055 y la carta dentro del barro L090 pasan a tener apoyo y ampliación de 4.º a 1.º de ESO. Versiones catalana y castellana con preguntas graduadas, solucionarios y evidencias propias revisados.
 v1.55.2 · Obre l’historial de canvis|v1.55.2 · Abrir el historial de cambios
 Dues famílies noves, L125 i L033: la barca de suro i el canvi de parada de l’autobús. Suport i ampliació de 2n a 5è, amb les il·lustracions originals compartides i textos, preguntes i solucionaris revisats en català i castellà.|Dos familias nuevas, L125 y L033: la barca de corcho y el cambio de parada del autobús. Apoyo y ampliación de 2.º a 5.º, con las ilustraciones originales compartidas y textos, preguntas y solucionarios revisados en catalán y castellano.
 v1.55.1 · Obre l’historial de canvis|v1.55.1 · Abrir el historial de cambios

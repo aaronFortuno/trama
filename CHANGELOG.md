@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.55.3 · 23 de novembre del 2026
+
+L’ampolla dels missatges L055 i la carta dins del fang L090 passen a tenir suport i ampliació de 4t a 1r d’ESO. Versions catalana i castellana amb preguntes graduades, solucionaris i evidències pròpies revisades.
+
 ## 1.55.2 · 23 de novembre del 2026
 
 Dues famílies noves, L125 i L033: la barca de suro i el canvi de parada de l’autobús. Suport i ampliació de 2n a 5è, amb les il·lustracions originals compartides i textos, preguntes i solucionaris revisats en català i castellà.
