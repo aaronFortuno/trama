@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.53.3 · Obre l’historial de canvis|v1.53.3 · Abrir el historial de cambios
+L171 i L119 s’afegeixen a les famílies DUA: la bossa de la narradora i les polseres per encàrrec, amb suport i ampliació de 3r a 6è, en català i castellà. Preguntes, càlculs, solucionaris i fragments de resposta revisats independentment.|L171 y L119 se añaden a las familias DUA: el bolso de la narradora y las pulseras por encargo, con apoyo y ampliación de 3.º a 6.º, en catalán y castellano. Preguntas, cálculos, solucionarios y fragmentos de respuesta revisados de forma independiente.
 v1.53.2 · Obre l’historial de canvis|v1.53.2 · Abrir el historial de cambios
 L087 i L123 incorporen suport i ampliació en català i castellà: l’entrevista sobre audiodescripció i la llauna dels llapis. Les variants cobreixen de 2n de primària a 1r d’ESO, amb preguntes, solucionaris i evidències pròpies revisades.|L087 y L123 incorporan apoyo y ampliación en catalán y castellano: la entrevista sobre audiodescripción y la lata de los lápices. Las variantes cubren de 2.º de primaria a 1.º de ESO, con preguntas, solucionarios y evidencias propias revisadas.
 v1.53.1 · Obre l’historial de canvis|v1.53.1 · Abrir el historial de cambios

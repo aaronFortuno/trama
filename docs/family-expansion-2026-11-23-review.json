@@ -651,6 +651,102 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L171A",
+      "language": "es",
+      "id": "el-bolso-de-la-narradora-a-es",
+      "sha256": "eab2a867da2deecbe4a0a132ce42ecae86a835cbe30d38f91125f3799caf42a5",
+      "date": "2026-11-23",
+      "edition": "v1.53.3",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L171A",
+      "language": "ca",
+      "id": "el-bolso-de-la-narradora-a-ca",
+      "sha256": "499cd81ab9f150ec9122756a2510522713e44eb0f48c9b6604ff7522b5e50a80",
+      "date": "2026-11-23",
+      "edition": "v1.53.3",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L171B",
+      "language": "es",
+      "id": "el-bolso-de-la-narradora-b-es",
+      "sha256": "df6c300bf514e3e56aba780847b178088f2ca253c002eb0d35d161b3255c6f1b",
+      "date": "2026-11-23",
+      "edition": "v1.53.3",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L171B",
+      "language": "ca",
+      "id": "el-bolso-de-la-narradora-b-ca",
+      "sha256": "57f3743279ce7989258950f826b6a01d4ec3ae69ddbf7ba286c2fe49857a67e6",
+      "date": "2026-11-23",
+      "edition": "v1.53.3",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L119A",
+      "language": "es",
+      "id": "pulseras-por-encargo-a-es",
+      "sha256": "7faf7f561c623cf561ea8090a785ffb2b0a8fddb9ff03dc5fdc9eb01627a8a02",
+      "date": "2026-11-23",
+      "edition": "v1.53.3",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L119A",
+      "language": "ca",
+      "id": "pulseras-por-encargo-a-ca",
+      "sha256": "0f1359f19d0024b8427fcb9e22f6780934726ba13f38edaa004da6b31814ac2c",
+      "date": "2026-11-23",
+      "edition": "v1.53.3",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L119B",
+      "language": "es",
+      "id": "pulseras-por-encargo-b-es",
+      "sha256": "9fbe5580b6a2c38cdfe60a2cf77aa59f61836275638788b1f6708407c41541de",
+      "date": "2026-11-23",
+      "edition": "v1.53.3",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L119B",
+      "language": "ca",
+      "id": "pulseras-por-encargo-b-ca",
+      "sha256": "923325cd3d9508340bff4b2cfd16f9f90ab9e3c463bd8046476a6e67deeb17d7",
+      "date": "2026-11-23",
+      "edition": "v1.53.3",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

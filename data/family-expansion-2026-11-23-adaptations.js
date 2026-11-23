@@ -1,5 +1,6 @@
 import {familyExpansion01} from './family-expansion-2026-11-23-01.js';
 import {familyExpansion02} from './family-expansion-2026-11-23-02.js';
 import {familyExpansion03} from './family-expansion-2026-11-23-03.js';
+import {familyExpansion04} from './family-expansion-2026-11-23-04.js';
 
-export const familyExpansionAdaptations = [...familyExpansion01, ...familyExpansion02, ...familyExpansion03];
+export const familyExpansionAdaptations = [...familyExpansion01, ...familyExpansion02, ...familyExpansion03, ...familyExpansion04];
