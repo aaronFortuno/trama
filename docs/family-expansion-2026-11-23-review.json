@@ -939,6 +939,102 @@
       "reviewer": "root",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L139A",
+      "language": "es",
+      "id": "la-cuerda-del-huerto-a-es",
+      "sha256": "2e12254f1e80d9d6646fd97880b8dd4bb95edf656ecb72c47e1abdfa56d5cd91",
+      "date": "2026-11-23",
+      "edition": "v1.53.6",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L139A",
+      "language": "ca",
+      "id": "la-cuerda-del-huerto-a-ca",
+      "sha256": "1ebc3d7af61772a021596ab9e3415bab0ead30e0df0db608cb3673443cdbc349",
+      "date": "2026-11-23",
+      "edition": "v1.53.6",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L139B",
+      "language": "es",
+      "id": "la-cuerda-del-huerto-b-es",
+      "sha256": "6481db1a476607fd5c655dda068896b330a1b5b0bbd5dde536cc13a23153cc5f",
+      "date": "2026-11-23",
+      "edition": "v1.53.6",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L139B",
+      "language": "ca",
+      "id": "la-cuerda-del-huerto-b-ca",
+      "sha256": "17bba97f137bdb14cceaf90f8e9e9d0d4e20b13ca5c59efcd0ae6c945b75f579",
+      "date": "2026-11-23",
+      "edition": "v1.53.6",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L088A",
+      "language": "es",
+      "id": "dos-cartas-para-una-persiana-a-es",
+      "sha256": "9f5114769edd2a4ba8b9be4f8a0fb258993428fc8eb85846faef64a0cfe86c4f",
+      "date": "2026-11-23",
+      "edition": "v1.53.6",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L088A",
+      "language": "ca",
+      "id": "dos-cartas-para-una-persiana-a-ca",
+      "sha256": "5b165cbb53c17ede59050ef39e156ffe34ddcf6e68ebb3cd330f3c785012e64e",
+      "date": "2026-11-23",
+      "edition": "v1.53.6",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L088B",
+      "language": "es",
+      "id": "dos-cartas-para-una-persiana-b-es",
+      "sha256": "b94ffd25004786cb01676a28978b03fda11edc2035905cc57d704ee4f0cc691f",
+      "date": "2026-11-23",
+      "edition": "v1.53.6",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L088B",
+      "language": "ca",
+      "id": "dos-cartas-para-una-persiana-b-ca",
+      "sha256": "8e7541b1346a32f41b54577af3b215004be862655dc073b6c43e32136540bc18",
+      "date": "2026-11-23",
+      "edition": "v1.53.6",
+      "result": "independent-review-passed",
+      "reviewer": "root",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

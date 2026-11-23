@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.53.6 · 23 de novembre del 2026
+
+L139 i L088 estrenen suport i ampliació: la corda de l’hort i les cartes del quiosc, de 2n de primària a 1r d’ESO. Versions catalana i castellana amb preguntes, solucionaris, línies i evidències revisades.
+
 ## 1.53.5 · 23 de novembre del 2026
 
 Comença la segona desena amb les famílies L023 i L120: els fulls reutilitzats i el camí entre la neu. Suport i ampliació de 3r a 6è en tots dos idiomes, amb preguntes, solucionaris i fragments de resposta revisats.

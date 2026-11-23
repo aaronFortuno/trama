@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.53.6 · Obre l’historial de canvis|v1.53.6 · Abrir el historial de cambios
+L139 i L088 estrenen suport i ampliació: la corda de l’hort i les cartes del quiosc, de 2n de primària a 1r d’ESO. Versions catalana i castellana amb preguntes, solucionaris, línies i evidències revisades.|L139 y L088 estrenan apoyo y ampliación: la cuerda del huerto y las cartas del quiosco, de 2.º de primaria a 1.º de ESO. Versiones catalana y castellana con preguntas, solucionarios, líneas y evidencias revisadas.
 v1.53.5 · Obre l’historial de canvis|v1.53.5 · Abrir el historial de cambios
 Comença la segona desena amb les famílies L023 i L120: els fulls reutilitzats i el camí entre la neu. Suport i ampliació de 3r a 6è en tots dos idiomes, amb preguntes, solucionaris i fragments de resposta revisats.|Comienza la segunda decena con las familias L023 y L120: las hojas reutilizadas y el camino entre la nieve. Apoyo y ampliación de 3.º a 6.º en ambos idiomas, con preguntas, solucionarios y fragmentos de respuesta revisados.
 v1.53.4 · Obre l’historial de canvis|v1.53.4 · Abrir el historial de cambios
