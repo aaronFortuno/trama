@@ -1107,6 +1107,102 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L159A",
+      "language": "es",
+      "id": "el-turno-del-robot-a-es",
+      "sha256": "8ceb21bf352e0d3f12fa49e9e325556bcfebb2aec243a665afe6a7fbb9141930",
+      "date": "2026-11-23",
+      "edition": "v1.54.9",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L159A",
+      "language": "ca",
+      "id": "el-turno-del-robot-a-ca",
+      "sha256": "f1476504c3475a344636e42a02769d52fe4cb629b90ca6a1c180e32f8215eec5",
+      "date": "2026-11-23",
+      "edition": "v1.54.9",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L159B",
+      "language": "es",
+      "id": "el-turno-del-robot-b-es",
+      "sha256": "2cfabd921bbb97a6fbeb63fef5c2a8b09d81d1ebf39818a2d941fab1a544ce8a",
+      "date": "2026-11-23",
+      "edition": "v1.54.9",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L159B",
+      "language": "ca",
+      "id": "el-turno-del-robot-b-ca",
+      "sha256": "a772484d38f9afc46b22973b5f249943d2adaafc14fd32207b234a7cb27482e1",
+      "date": "2026-11-23",
+      "edition": "v1.54.9",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L207A",
+      "language": "es",
+      "id": "una-entrevista-que-empezo-al-final-a-es",
+      "sha256": "8143b944c38358750ee3d59ce64aa92589cf51a2a371bb32e25710f4417f4f14",
+      "date": "2026-11-23",
+      "edition": "v1.54.9",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L207A",
+      "language": "ca",
+      "id": "una-entrevista-que-empezo-al-final-a-ca",
+      "sha256": "bb19516217fc87d66b8453aea411ba5e2e6f9516de91d8aa2c8f1c8707054d3d",
+      "date": "2026-11-23",
+      "edition": "v1.54.9",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L207B",
+      "language": "es",
+      "id": "una-entrevista-que-empezo-al-final-b-es",
+      "sha256": "179f27282cd36a6591cbbbcd6cd35bd7d529a9dd60a08dab2f24c814fa257152",
+      "date": "2026-11-23",
+      "edition": "v1.54.9",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L207B",
+      "language": "ca",
+      "id": "una-entrevista-que-empezo-al-final-b-ca",
+      "sha256": "6d8139755891a224491d2e7b69595d4cf9379d45628c67c6e0f8429ca3ed6ffc",
+      "date": "2026-11-23",
+      "edition": "v1.54.9",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }

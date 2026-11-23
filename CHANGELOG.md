@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.54.9 · 23 de novembre del 2026
+
+Completades vint famílies més: quaranta variants noves, cadascuna en català i castellà, amb originals conservats i revisió independent. L159, el robot, i L207, l’entrevista al taller de restauració, tanquen la tanda. El catàleg arriba a 89 famílies, 446 lectures i 892 versions lingüístiques.
+
 ## 1.54.8 · 23 de novembre del 2026
 
 L148 i L187 incorporen suport i ampliació: les lletres estampades i els dibuixos que viatgen en autobús, de 2n a 5è. Les variants catalana i castellana conserven els originals, comparteixen il·lustracions i inclouen preguntes i solucionaris propis revisats.

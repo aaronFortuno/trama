@@ -2,6 +2,8 @@
 
 Encàrrec del 23 de novembre del 2026: completar vint famílies més a partir de lectures sense variants ni univers assignat. Cada original conserva el codi i incorpora suport A i ampliació B, en català i castellà: quaranta variants i vuitanta versions lingüístiques noves. Es publiquen per parelles després de la revisió independent i les comprovacions locals.
 
+Tanda completada el 23 de novembre del 2026, de v1.54 a v1.54.9. Les vint famílies i les vuitanta versions noves han superat la revisió independent i queden provisionals fins a la validació docent. S’han conservat les quaranta versions originals. El catàleg arriba a 89 famílies, 446 lectures i 892 versions lingüístiques; continua agrupant-se en 268 propostes per idioma, amb aproximadament un terç de les propostes disponibles amb variants.
+
 ## Lectures i cursos orientatius
 
 | Família | Suport A | Original conservat | Ampliació B | Estat |
@@ -24,8 +26,8 @@ Encàrrec del 23 de novembre del 2026: completar vint famílies més a partir de
 | L093 · El costat de l’onada | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
 | L148 · Lletres del revés | 2n | 3r | 4t | Provisional, revisió independent superada ES/CA |
 | L187 · El dibuix que va viatjar en autobús | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
-| L159 · El torn del robot | 4t | 5è | 6è | Pendent |
-| L207 · Una entrevista que va començar pel final | 5è | 6è | 1r d’ESO | Pendent |
+| L159 · El torn del robot | 4t | 5è | 6è | Provisional, revisió independent superada ES/CA |
+| L207 · Una entrevista que va començar pel final | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
 
 Hi ha cinc originals de cadascun dels cursos de 3r a 6è, amb narracions, entrevistes, instruccions, cartes, notícies i textos informatius. El curs orienta l’adaptació; el docent decideix la versió adequada.
 
@@ -36,6 +38,8 @@ Les variants comparteixen situació, personatges, desenvolupament i il·lustraci
 Les preguntes, respostes, línies, subratllats de vocabulari i fragments de resposta són propis de cada variant i idioma. Les preguntes literals demanen dades explícites; les inferències relacionen o apliquen dades del text. Les preguntes obertes admeten alternatives raonables. Es revisen veus, naturalitat, plausibilitat, coneixement dels personatges, cronologia, càlculs i ancoratges exactes.
 
 Contrast conceptual de L083: [USGS, Sediment and Suspended Sediment](https://www.usgs.gov/water-science-school/science/sediment-and-suspended-sediment), sobre transport de materials, suspensió i dipòsit quan baixa la velocitat de l’aigua. Els temps dels pots corresponen a les observacions narrades d’aquella prova; no constitueixen una pauta universal de sedimentació.
+
+Contrast tècnic de L207 durant la revisió independent: [ICCROM, conservació de mosaics](https://www.iccrom.org/sites/default/files/3.pdf) i [Getty/MOSAIKON, documentació fotogràfica](https://www.getty.edu/conservation/publications_resources/teaching/pdf/mosaics_conservation/mosaics_photographic_documentation_july2021.pdf). El text presenta les decisions sobre el mosaic concret de l’entrevista i diferencia fragments antics, rebliment, esbossos i informe.
 
 ## Implementació i revisió
 
