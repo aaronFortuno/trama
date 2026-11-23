@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.55.8 · Obre l’historial de canvis|v1.55.8 · Abrir el historial de cambios
+L150 i L184 amplien el catàleg DUA: el got per mesurar i la carta per al rober. Suport i ampliació de 2n a 5è, amb preguntes, línies, solucionaris i evidències propis en català i castellà.|L150 y L184 amplían el catálogo DUA: el vaso para medir y la carta para el ropero. Apoyo y ampliación de 2.º a 5.º, con preguntas, líneas, solucionarios y evidencias propios en catalán y castellano.
 v1.55.7 · Obre l’historial de canvis|v1.55.7 · Abrir el historial de cambios
 L118 i L095 incorporen suport i ampliació: el racó de la Bruna i la sorra que mouen les onades, de 4t a 1r d’ESO. Textos bilingües, solucionaris i marques d’evidència revisats independentment.|L118 y L095 incorporan apoyo y ampliación: el rincón de Bruna y la arena que mueven las olas, de 4.º a 1.º de ESO. Textos bilingües, solucionarios y marcas de evidencia revisados de forma independiente.
 v1.55.6 · Obre l’historial de canvis|v1.55.6 · Abrir el historial de cambios

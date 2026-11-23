@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.55.8 · 23 de novembre del 2026
+
+L150 i L184 amplien el catàleg DUA: el got per mesurar i la carta per al rober. Suport i ampliació de 2n a 5è, amb preguntes, línies, solucionaris i evidències propis en català i castellà.
+
 ## 1.55.7 · 23 de novembre del 2026
 
 L118 i L095 incorporen suport i ampliació: el racó de la Bruna i la sorra que mouen les onades, de 4t a 1r d’ESO. Textos bilingües, solucionaris i marques d’evidència revisats independentment.

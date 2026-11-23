@@ -22,8 +22,8 @@ Encàrrec del 23 de novembre del 2026: preparar vint famílies més a partir de 
 | L182 · La pedra que pesava poc | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
 | L118 · El racó de la Bruna | 4t | 5è | 6è | Provisional, revisió independent superada ES/CA |
 | L095 · La platja que va viatjar amb les onades | 5è | 6è | 1r d’ESO | Provisional, revisió independent superada ES/CA |
-| L150 · Un got per mesurar | 2n | 3r | 4t | Pendent |
-| L184 · Una carta per al rober | 3r | 4t | 5è | Pendent |
+| L150 · Un got per mesurar | 2n | 3r | 4t | Provisional, revisió independent superada ES/CA |
+| L184 · Una carta per al rober | 3r | 4t | 5è | Provisional, revisió independent superada ES/CA |
 | L162 · Una jugada sense marcador | 4t | 5è | 6è | Pendent |
 | L206 · Les dues velocitats d’una glacera | 5è | 6è | 1r d’ESO | Pendent |
 

@@ -1011,6 +1011,102 @@
       "reviewer": "review_early_families",
       "status": "provisional",
       "teacherValidation": "pending"
+    },
+    {
+      "code": "L150A",
+      "language": "es",
+      "id": "un-vaso-para-medir-a-es",
+      "sha256": "680a1e2c39f9b139d5af9a554979b450560f04ff7494057d665414d3e0fce313",
+      "date": "2026-11-23",
+      "edition": "v1.55.8",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L150A",
+      "language": "ca",
+      "id": "un-vaso-para-medir-a-ca",
+      "sha256": "af121a16638042d1735b25bd05c401aa4eb08bc9a3aae6e304d970de6fd06319",
+      "date": "2026-11-23",
+      "edition": "v1.55.8",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L150B",
+      "language": "es",
+      "id": "un-vaso-para-medir-b-es",
+      "sha256": "77feba1224c445161f916f012a45fb80459b8f523e36f657eaad131a3f82649f",
+      "date": "2026-11-23",
+      "edition": "v1.55.8",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L150B",
+      "language": "ca",
+      "id": "un-vaso-para-medir-b-ca",
+      "sha256": "70d6c334bb71edb79c0fe288eced72d542210f735548d5e18e0abbd94f998660",
+      "date": "2026-11-23",
+      "edition": "v1.55.8",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L184A",
+      "language": "es",
+      "id": "una-carta-para-el-ropero-a-es",
+      "sha256": "66d2e2261281d2f81dbad8a5a303dcae6425ac132fa94ab4ab1763f4fa410879",
+      "date": "2026-11-23",
+      "edition": "v1.55.8",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L184A",
+      "language": "ca",
+      "id": "una-carta-para-el-ropero-a-ca",
+      "sha256": "3f33247ac10e85d0b8685d3d20782d31da454a7a1f3e3b7b22a8abfd27ab21c9",
+      "date": "2026-11-23",
+      "edition": "v1.55.8",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L184B",
+      "language": "es",
+      "id": "una-carta-para-el-ropero-b-es",
+      "sha256": "76761dfff2ab1bc64232705433b765fbc2df01a2ae62235eb879b0a7c0224490",
+      "date": "2026-11-23",
+      "edition": "v1.55.8",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
+    },
+    {
+      "code": "L184B",
+      "language": "ca",
+      "id": "una-carta-para-el-ropero-b-ca",
+      "sha256": "5703ba1fc5adc388a02aac937d2fef34d4ec69b45f8517cd06dc9c484cd94a95",
+      "date": "2026-11-23",
+      "edition": "v1.55.8",
+      "result": "independent-review-passed",
+      "reviewer": "review_early_families",
+      "status": "provisional",
+      "teacherValidation": "pending"
     }
   ]
 }
