@@ -54,6 +54,7 @@ const fields = {
   answerGap: [10, numberIn(5, 13)],
   answerStyle: ['lines', oneOf(...Object.keys(answerStyles))],
   answerWeight: [.15, numberIn(.1, .5, .05)],
+  questionMode: ['open', oneOf('open', 'choice')],
   headerName: [true, boolean],
   headerDate: [true, boolean],
   headerGroup: [false, boolean],
@@ -93,7 +94,7 @@ export function validSetting(key, value) {
 
 export function defaultSettings(level) {
   const settings = Object.fromEntries(Object.entries(fields).map(([key, [fallback]]) => [key, fallback]));
-  return { ...settings, ...courseFormats.get(level), excluded: [], questionLines: Object.create(null), images: Object.create(null) };
+  return { ...settings, ...courseFormats.get(level), excluded: [], questionLines: Object.create(null), questionModes: Object.create(null), images: Object.create(null) };
 }
 
 export function defaultImageConfig(reading, index) {
@@ -136,6 +137,8 @@ export function worksheetLayout(reading, config) {
     if (excluded.has(id)) layout.excluded.push(id);
     const count = config.questionLines?.[id];
     if (lineCount(count)) layout.questionLines[id] = count;
+    const mode = config.questionModes?.[id];
+    if (oneOf('open', 'choice')(mode)) layout.questionModes[id] = mode;
   }
   for (const [index, { id }] of reading.images.entries()) {
     const image = config.images?.[id];
@@ -175,6 +178,7 @@ const scalarCodes = [
   ['DETALL', 'headerDetail', JSON.stringify, quotedText],
   ['IMG', 'showImages', value => value ? 'SI' : 'NO', value => oneZero(upper(value))],
   ['PISTES', 'showEvidence', value => value ? 'SI' : 'NO', value => oneZero(upper(value))],
+  ['PREG', 'questionMode', value => value === 'choice' ? 'ABCD' : 'OBERTA', value => ({ ABCD: 'choice', OBERTA: 'open' })[upper(value)]],
 ];
 
 export function makeCode(reading, settings) {
@@ -200,6 +204,9 @@ export function makeLinkCode(reading, settings) {
   const lines = reading.questions.filter(question => Object.hasOwn(settings.questionLines, question.id))
     .map(question => `${questionCode(question)}:${settings.questionLines[question.id]}`);
   if (lines.length) tokens.push(`RES=${lines.join(',')}`);
+  const modes = reading.questions.filter(question => Object.hasOwn(settings.questionModes ?? {}, question.id))
+    .map(question => `${questionCode(question)}:${settings.questionModes[question.id] === 'choice' ? 'ABCD' : 'OBERTA'}`);
+  if (modes.length) tokens.push(`TIPUSRES=${modes.join(',')}`);
   for (const [index, { id }] of reading.images.entries()) {
     const image = settings.images[id];
     const defaults = defaultImageConfig(reading, index);
@@ -276,7 +283,7 @@ function readReadable(code, readings) {
     } else if (label === 'CAP' || label === 'PEU') {
       const flags = label === 'CAP' ? headerFlags : licenseFormat ? footerFlags : legacyFooterFlags;
       if (!applyFlags(settings, flags, upper(raw))) return null;
-    } else if (label === 'AMAGA' || label === 'RES') {
+    } else if (label === 'AMAGA' || label === 'RES' || label === 'TIPUSRES') {
       for (const entry of upper(raw).split(',')) {
         const [reference, value, extra] = entry.split(':');
         const id = questionIds.get(reference);
@@ -284,6 +291,10 @@ function readReadable(code, readings) {
         if (label === 'AMAGA') {
           if (value !== undefined) return null;
           if (!settings.excluded.includes(id)) settings.excluded.push(id);
+        } else if (label === 'TIPUSRES') {
+          const mode = { ABCD: 'choice', OBERTA: 'open' }[value];
+          if (!mode) return null;
+          settings.questionModes[id] = mode;
         } else {
           const count = numeric(value ?? '');
           if (!lineCount(count)) return null;

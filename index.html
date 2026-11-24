@@ -32,7 +32,7 @@
         <label class="search-box header-search" for="search">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6"/><path d="m15 15 4.5 4.5"/></svg>
           <span class="visually-hidden">Cerca al catàleg</span>
-          <input type="search" id="search" placeholder="Cerca per títol, codi o tema" autocomplete="off" aria-controls="reading-grid">
+          <input type="search" id="search" placeholder="Cerca per títol, codi o tema" title="Rangs de codis: -5 o -L005, 10-20, L010-L020 o 20-." autocomplete="off" aria-controls="reading-grid">
         </label>
         <div class="header-tools">
         <button type="button" class="button language-button" id="language-button" aria-label="Idioma de la interfície" aria-haspopup="menu" aria-expanded="false" aria-controls="language-menu" popovertarget="language-menu">
@@ -168,7 +168,7 @@
         </a>
       </p>
       <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.55.9 · Obre l’historial de canvis">v1.55.9</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.56 · Obre l’historial de canvis">v1.56</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
@@ -268,10 +268,16 @@
         <section>
           <h3>Troba la lectura</h3>
           <p>Filtra per llengua, curs i dificultat. A «Altres filtres» tens extensió, temàtica i tipus de text. També pots cercar un títol o un codi com «L001». L’idioma de la interfície i el de les lectures es trien per separat.</p>
+          <p>Per cercar rangs de codis, escriu «-5» o «-L005» per veure de L001 a L005, «10-20» per veure de L010 a L020, o «20-» per veure de L020 en endavant. S’inclouen les variants de família del rang i es mantenen els altres filtres.</p>
         </section>
         <section>
           <h3>Fes la fitxa a mida</h3>
           <p>A l’esquerra del visor ajustes tipografia, interlineat, marges, capçalera i peu. A la dreta, imatges i contingut. Al mateix full pots amagar preguntes i ajustar-ne les línies de resposta. Les plantilles permeten aplicar un format habitual a altres lectures.</p>
+        </section>
+        <section>
+          <h3>Preguntes obertes o ABCD</h3>
+          <p>A les lectures L001–L005 pots provar quatre preguntes amb doble format per fitxa, en català i castellà. A «Format de les preguntes», al sidebar de contingut, aplica una preferència general. Al full, els botons del llapis i «ABCD» permeten canviar cada pregunta i preparar una fitxa mixta. Les opinions i les preguntes sense alternativa es mantenen obertes.</p>
+          <p>Quan tornes al format obert, es recuperen les línies de resposta que havies preparat. El solucionari ABCD indica la lletra, la resposta correcta i una explicació. La tria es desa amb el maquetat de la lectura o de la col·lecció i també s’aplica en imprimir en lot.</p>
         </section>
         <section class="help-family-topic">
           <div class="help-topic-copy">
@@ -372,6 +378,10 @@
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’historial"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
+      <article class="release">
+        <header><h3>v1.56</h3><time datetime="2026-11-24">24 de novembre del 2026</time></header>
+        <p>Prototip de resposta oberta o ABCD a L001–L005: quatre preguntes per lectura en català i castellà, amb tria general o individual, maquetats desats i solucionaris amb resposta i explicació. El cercador admet rangs com -5, -L005 i 10-20. Les alternatives s’han revisat independentment, amb distractors que exigeixen lectura acurada; les opinions es mantenen obertes.</p>
+      </article>
       <article class="release">
         <header><h3>v1.55.9</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>Completada la cinquena ampliació: vint famílies més, quaranta variants noves i vuitanta versions en català i castellà, amb originals conservats i revisió independent superada. L162, la jugada sense marcador, i L206, la glacera, tanquen la tanda. El catàleg arriba a 109 famílies, 486 lectures i 972 versions lingüístiques. Les noves variants queden pendents de la validació docent progressiva.</p>

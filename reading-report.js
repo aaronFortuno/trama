@@ -26,7 +26,7 @@ export const readingReportMarkup = `
           <div class="report-reason-options"></div>
         </fieldset>
       </fieldset>
-      <p class="report-note">L’avís inclou el codi de la lectura, la llengua, la part afectada i el motiu.</p>
+      <p class="report-note">L’avís inclou el codi de la lectura, la llengua, la part afectada, el motiu i el format de la pregunta, si escau.</p>
       <p class="report-status" role="status"></p>
       <div class="report-actions">
         <button class="button" type="button" data-close-dialog>Cancel·la</button>
@@ -70,7 +70,7 @@ export function mountReadingReport(dialog) {
       new Option(t('Imatge {number}', { number: index + 1 }), image.id));
     return questions.flatMap((question, index) => (
       part === 'solution' && !question.answer ? [] :
-        [new Option(t('Pregunta {number}', { number: index + 1 }), question.id)]
+        [new Option(t('Pregunta {number}', { number: index + 1 }) + (question.responseMode ? ` · ${t(question.responseMode === 'choice' ? 'Resposta ABCD' : 'Resposta oberta')}` : ''), question.id)]
     ));
   }
 
@@ -119,6 +119,7 @@ export function mountReadingReport(dialog) {
     }
     const current = active;
     const data = Object.fromEntries(new FormData(form));
+    if (['question', 'solution'].includes(data.part)) data.responseMode = current.questions.find(question => question.id === data.element)?.responseMode;
     fields.disabled = true;
     syncSelects(dialog);
     updateSubmit();

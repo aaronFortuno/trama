@@ -19,6 +19,8 @@ import { trackFeature, trackReadingFeature } from './analytics.js';
 import { universeById } from './data/universes.js';
 import { familyComparisonMarkup, mountFamilyComparison } from './family-comparison.js';
 import { familyStageMarkup, mountFamilyStage } from './family-stage.js';
+import { multipleChoice } from './data/question-choices.js';
+import { questionMode, responseQuestion } from './question-responses.js';
 
 const formatKeys = new Set(templateGroups.filter(group => group.id !== 'images').flatMap(group => group.keys));
 const pageFormat = settings => Object.fromEntries([...formatKeys].map(key => [key, settings[key]]));
@@ -181,7 +183,18 @@ const template = `
           <summary>Universos</summary>
           <div class="studio-controls" id="studio-universes"></div>
         </details>
-        <details open>
+        <details class="studio-question-formats" open>
+          <summary>Format de les preguntes <span class="studio-detail-count" id="studio-choice-count"></span></summary>
+          <div class="studio-controls">
+            <p>Pots combinar preguntes obertes i ABCD. Canvia el format de cada pregunta al full o aplica una preferència a totes les compatibles.</p>
+            <fieldset class="studio-response-modes"><legend>Aplica a totes les compatibles</legend>
+              <label><input type="radio" name="questionMode" value="open"> ${icon('pencil')} Resposta oberta</label>
+              <label><input type="radio" name="questionMode" value="choice"> ABCD</label>
+            </fieldset>
+            <p class="studio-control-note" id="studio-choice-status" role="status"></p>
+          </div>
+        </details>
+        <details>
           <summary>Preguntes eliminades <span class="studio-detail-count" id="studio-question-count" hidden></span></summary>
           <div class="studio-controls" id="studio-questions"></div>
         </details>
@@ -459,6 +472,9 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
     const hasEvidence = prepareAnswerEvidence(reading, reading.questions).byQuestion.size > 0;
     contentForm.elements.showEvidence.disabled = !hasEvidence;
     find('#studio-evidence-empty').hidden = hasEvidence;
+    const availableChoices = reading.questions.filter(question => multipleChoice(reading, question)).length;
+    for (const input of contentForm.querySelectorAll('[name="questionMode"]')) input.disabled = !availableChoices;
+    find('#studio-choice-count').textContent = availableChoices ? `${availableChoices} ABCD` : '';
   }
 
   function syncLayoutStatus() {
@@ -529,6 +545,15 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
       control.querySelector('[data-logo-clear]').hidden = !source;
     }
     const removed = reading.questions.flatMap((question, index) => settings.excluded.includes(question.id) ? [{ question, number: index + 1 }] : []);
+    const visibleQuestions = reading.questions.filter(question => !settings.excluded.includes(question.id));
+    const availableChoices = visibleQuestions.filter(question => multipleChoice(reading, question));
+    const selectedChoices = availableChoices.filter(question => questionMode(reading, question, settings) === 'choice').length;
+    for (const input of contentForm.querySelectorAll('[name="questionMode"]')) {
+      input.checked = availableChoices.length > 0 && (input.value === 'choice' ? selectedChoices === availableChoices.length : selectedChoices === 0);
+    }
+    find('#studio-choice-status').textContent = !reading.questions.some(question => multipleChoice(reading, question))
+      ? t('Aquesta lectura encara no té alternatives ABCD. Prototip disponible a L001–L005.')
+      : t('{count} preguntes amb alternativa ABCD. Ara: {selected} en ABCD i {open} obertes.', { count: availableChoices.length, selected: selectedChoices, open: visibleQuestions.length - selectedChoices });
     const questionCount = find('#studio-question-count');
     questionCount.textContent = numberFormat.format(removed.length);
     questionCount.hidden = !removed.length;
@@ -651,20 +676,22 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
       settings.images[id] = { ...config, [input.dataset.imageKey]: value };
     } else if (Object.hasOwn(settings, input.name)) {
       const next = input.name === 'leading' ? Math.round(value * 20) / 10 : value;
-      if (settings[input.name] === next || !validSetting(input.name, next)) return;
+      if ((settings[input.name] === next && !(input.name === 'questionMode' && Object.keys(settings.questionModes).length)) || !validSetting(input.name, next)) return;
       settings[input.name] = next;
+      if (input.name === 'questionMode') settings.questionModes = Object.create(null);
       if (!readingCollection && formatKeys.has(input.name)) sessionFormat = pageFormat(settings);
       if (!readingCollection && classroomKeys.includes(input.name)) sessionClassroomCode = classroomFormat(settings);
     } else {
       return;
     }
     const bloc = input.dataset.imageKey ? 'imatges' : classroomKeys.includes(input.name) ? 'codi_aula'
-      : input.name === 'showVocabulary' ? 'vocabulari' : input.name === 'showEvidence' ? 'pistes' : controlBlocks.get(input.name);
+      : input.name === 'questionMode' ? 'preguntes' : input.name === 'showVocabulary' ? 'vocabulari' : input.name === 'showEvidence' ? 'pistes' : controlBlocks.get(input.name);
     trackEdit(bloc, 'ajusta', ['showImages', 'showVocabulary', 'showEvidence', 'showClassroomCode'].includes(input.name) ? value : undefined);
     persistLayout();
     templateStatus.textContent = '';
     syncControls();
     if (!frame) frame = requestAnimationFrame(refresh);
+    if (input.name === 'questionMode') animateRefresh(pages);
   }
 
   function setQuestionSpace(question, count) {
@@ -710,6 +737,12 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
       hiddenQuestion = question.id;
       questionFeedback.hidden = false;
       animateRefresh(questionFeedback);
+    } else if (action === 'question-mode-open' || action === 'question-mode-choice') {
+      if (!multipleChoice(reading, question)) return;
+      const mode = action === 'question-mode-choice' ? 'choice' : 'open';
+      if (mode === settings.questionMode) delete settings.questionModes[question.id];
+      else settings.questionModes[question.id] = mode;
+      trackEdit('preguntes', 'ajusta');
     } else {
       trackEdit('resposta', 'linies');
       const count = Math.min(maxAnswerLines, Math.max(0, questionLines(question, settings) + (action === 'question-more' ? 1 : -1)));
@@ -719,6 +752,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
     templateStatus.textContent = '';
     syncControls();
     refresh();
+    if (action.startsWith('question-mode-')) animateRefresh(pages);
     if (action === 'question-hide') {
       animateRefresh(find('#studio-questions'));
       questionFeedback.querySelector('button').focus({ preventScroll: true });
@@ -745,6 +779,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
     const config = {
       ...settings, excluded: [...settings.excluded],
       questionLines: { __proto__: null, ...settings.questionLines },
+      questionModes: { __proto__: null, ...settings.questionModes },
       images: { __proto__: null, ...settings.images },
     };
     printButton.disabled = printTrigger.disabled = true;
@@ -874,7 +909,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
     }
     const reportButton = event.target.closest('[data-report-part]');
     if (reportButton && reading && !reading.personal) {
-      const questions = reading.questions.filter(question => !settings.excluded.includes(question.id));
+      const questions = reading.questions.filter(question => !settings.excluded.includes(question.id)).map(question => responseQuestion(reading, question, settings));
       report.open(reading, questions, { part: reportButton.dataset.reportPart, element: reportButton.dataset.reportElement });
       return;
     }

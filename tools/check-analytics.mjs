@@ -137,4 +137,18 @@ assert.equal(await sendReadingReport(first, { part: 'text', element: '1', motiu:
 assert.equal(await sendReadingReport(first, { part: 'text', element: canary, motiu: 'wording' }), false);
 assert.equal(await sendReadingReport({ ...first, personal: true }, { part: 'text', element: '1', motiu: 'wording' }), false);
 assert.equal(reports, 1);
+globalThis.fetch = async (url, options) => {
+  const body = JSON.parse(options.body);
+  assert.equal(body.payload.data.part, 'question');
+  assert.equal(body.payload.data.element, 'cartel-q1');
+  assert(['abcd', 'oberta'].includes(body.payload.data.format_pregunta));
+  reports++;
+  return { ok: true, json: async () => ({ cache: 'acknowledgement' }) };
+};
+const pilot = readings.find(reading => reading.code === 'L001' && reading.language === 'ca');
+assert.equal(await sendReadingReport(pilot, { part: 'question', element: 'cartel-q1', motiu: 'wording', responseMode: 'choice' }), true);
+assert.equal(await sendReadingReport(pilot, { part: 'question', element: 'cartel-q1', motiu: 'wording', responseMode: 'open' }), true);
+assert.equal(await sendReadingReport(pilot, { part: 'question', element: 'cartel-q1', motiu: 'wording', responseMode: canary }), false);
+assert.equal(await sendReadingReport(pilot, { part: 'question', element: 'cartel-q5', motiu: 'wording', responseMode: 'choice' }), false);
+assert.equal(reports, 3);
 console.log('Analytics: vocabulary, metadata, privacy restrictions, startup queue, blocked collector and reports OK (no network).');

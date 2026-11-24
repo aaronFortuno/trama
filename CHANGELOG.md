@@ -1,5 +1,14 @@
 # Historial de Trama
 
+## 1.56 · 24 de novembre del 2026
+
+Prototip de resposta oberta o ABCD a L001–L005: quatre preguntes per lectura en català i castellà, amb tria general o individual, maquetats desats i solucionaris amb resposta i explicació. El cercador admet rangs com -5, -L005 i 10-20. Les alternatives s’han revisat independentment, amb distractors que exigeixen lectura acurada; les opinions es mantenen obertes.
+
+- El llapis i ABCD del preview canvien una pregunta; «Format de les preguntes» aplica la preferència a totes les compatibles. Es poden combinar els formats en un mateix full, conservant les línies configurades quan es torna a resposta oberta.
+- La tria es desa per lectura i col·lecció, entra a les còpies de seguretat i s’aplica a impressions individuals, lots i PDF. Els avisos d’error distingeixen el format de la pregunta afectada.
+- Els rangs són inclusius, inclouen les variants de família i es combinen amb els filtres i les paraules de cerca. També s’admet «20-» per cercar de L020 en endavant. L’ajuda incorpora exemples dels dos canvis.
+- Les quaranta alternatives lingüístiques són provisionals, amb revisió independent superada i validació docent pendent. Es documenten cobertura seqüencial i criteris de gradació per ampliar el prototip.
+
 ## 1.55.9 · 23 de novembre del 2026
 
 Completada la cinquena ampliació: vint famílies més, quaranta variants noves i vuitanta versions en català i castellà, amb originals conservats i revisió independent superada. L162, la jugada sense marcador, i L206, la glacera, tanquen la tanda. El catàleg arriba a 109 famílies, 486 lectures i 972 versions lingüístiques. Les noves variants queden pendents de la validació docent progressiva.

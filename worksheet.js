@@ -6,6 +6,7 @@ import { loadWorksheetFont, worksheetFonts } from './worksheet-fonts.js';
 import { supportsHyphenation, withHyphenation } from './worksheet-hyphenation.js';
 import { prepareAnnotations } from './reading-annotations.js';
 import { evidenceBackground, passageSegments, prepareAnswerEvidence } from './answer-evidence.js';
+import { responseQuestion } from './question-responses.js';
 
 const languageCopy = {
   ca: ['Nom', 'Data', 'Curs', 'Comprensió lectora', 'Preguntes', 'Pàgina', 'Solucionari', 'Resposta orientativa', 'Sense resposta orientativa.'],
@@ -163,7 +164,7 @@ function reportButton(part, id, label) {
   return button;
 }
 
-function questionTools(number, count, answerKey, reportId) {
+function questionTools(number, count, answerKey, reportId, question) {
   const tools = element('div', 'worksheet-question-tools');
   tools.lang = language();
   const button = (action, symbol, label) => {
@@ -177,7 +178,21 @@ function questionTools(number, count, answerKey, reportId) {
   const toggle = button('question-tools', '⋯', t('Opcions de la pregunta {number}', { number }));
   toggle.setAttribute('aria-expanded', 'false');
   const actions = element('div', 'worksheet-question-actions');
-  if (!answerKey) {
+  if (question.alternative) {
+    const modes = element('div', 'worksheet-question-modes');
+    modes.setAttribute('role', 'group');
+    modes.setAttribute('aria-label', t('Format de la pregunta {number}', { number }));
+    for (const [mode, label] of [['open', 'Resposta oberta'], ['choice', 'Resposta ABCD']]) {
+      const control = button(`question-mode-${mode}`, '', t(label));
+      control.classList.add('worksheet-question-mode');
+      control.setAttribute('aria-pressed', String(question.responseMode === mode));
+      if (mode === 'open') control.innerHTML = icon('pencil');
+      else control.textContent = 'ABCD';
+      modes.append(control);
+    }
+    actions.append(modes);
+  }
+  if (!answerKey && question.responseMode !== 'choice') {
     const less = button('question-less', '−', t('Redueix l’espai de resposta de la pregunta {number}', { number }));
     const more = button('question-more', '+', t('Amplia l’espai de resposta de la pregunta {number}', { number }));
     less.disabled = count === 0;
@@ -189,6 +204,22 @@ function questionTools(number, count, answerKey, reportId) {
   tools.append(toggle, actions);
   return tools;
 }
+
+function makeChoice(option, answerKey, correct, first = true) {
+  const row = element('div', 'worksheet-choice');
+  row.dataset.option = option.id;
+  const box = element('span', 'worksheet-choice-box');
+  box.setAttribute('aria-hidden', 'true');
+  if (answerKey && option.id === correct) {
+    box.textContent = '✓';
+    row.classList.add('is-correct');
+  }
+  row.append(box, element('strong', 'worksheet-choice-letter', first ? `${option.id.toUpperCase()}.` : ''), element('span', 'worksheet-choice-text', option.text));
+  return row;
+}
+
+const solutionLabel = (question, words, locale) => question.responseMode === 'choice'
+  ? locale === 'ca' ? 'Resposta correcta' : 'Respuesta correcta' : words[7];
 
 function makeSolution(text, label, reportId, number, { evidence, interactive, language } = {}) {
   const solution = element('div', 'worksheet-solution');
@@ -214,6 +245,7 @@ function makeSolution(text, label, reportId, number, { evidence, interactive, la
 function makeQuestion(question, index, settings, heading, words, { answerKey, interactive, canReport, evidence, language }) {
   const block = element('div', 'worksheet-question-block');
   block.dataset.questionId = question.id;
+  block.dataset.responseMode = question.responseMode;
   if (heading) {
     block.classList.add('worksheet-questions-start');
     block.append(element('h3', 'worksheet-question-heading', heading));
@@ -224,11 +256,14 @@ function makeQuestion(question, index, settings, heading, words, { answerKey, in
   const count = questionLines(question, settings);
   const prompt = element('div', 'worksheet-prompt-wrap');
   prompt.append(element('p', 'worksheet-prompt', question.prompt));
-  if (interactive) prompt.append(questionTools(index + 1, count, answerKey, canReport && question.id));
+  if (interactive) prompt.append(questionTools(index + 1, count, answerKey, canReport && question.id, question));
   main.append(prompt);
+  if (question.responseMode === 'choice') {
+    main.append(...question.alternative.options.map(option => makeChoice(option, answerKey, question.alternative.correct)));
+  }
   if (answerKey) {
-    main.append(makeSolution(question.answer || words[8], question.answer && words[7], canReport && question.id, index + 1, { evidence, interactive, language }));
-  } else {
+    main.append(makeSolution(question.answer || words[8], question.answer && solutionLabel(question, words, language), canReport && question.id, index + 1, { evidence, interactive, language }));
+  } else if (question.responseMode !== 'choice') {
     for (let index = 0; index < count; index++) {
       const line = element('div', 'worksheet-answer-line');
       line.setAttribute('aria-hidden', 'true');
@@ -278,7 +313,7 @@ export function worksheetThumbnail(reading, settings) {
 export function renderWorksheet(container, reading, settings, { answerKey = false, interactive = true } = {}) {
   const words = wordsFor(reading.language);
   const formatText = passageText(reading, settings);
-  const questions = reading.questions.filter(question => !settings.excluded.includes(question.id));
+  const questions = reading.questions.filter(question => !settings.excluded.includes(question.id)).map(question => responseQuestion(reading, question, settings));
   const { ranges, notes } = prepareAnnotations(reading, questions, settings);
   const evidence = answerKey && settings.showEvidence !== false ? prepareAnswerEvidence(reading, questions) : { ranges: new Map(), byQuestion: new Map() };
   const showLicense = settings.showLicense && !reading.personal;
@@ -443,11 +478,19 @@ export function renderWorksheet(container, reading, settings, { answerKey = fals
         return block;
       });
     }
+    if (question.responseMode === 'choice') {
+      for (const option of question.alternative.options) {
+        if (!fitBlock(continuation([makeChoice(option, answerKey, question.alternative.correct)]))) {
+          placeTextChunks(option.text, (text, first) => continuation([makeChoice({ ...option, text }, answerKey, question.alternative.correct, first)]));
+        }
+      }
+    }
     if (answerKey) {
       placeTextChunks(question.answer || words[8], (text, first) =>
-        continuation([makeSolution(text, first && question.answer && words[7], canReport && question.id, index + 1, { evidence: reference, interactive, language: reading.language })]));
+        continuation([makeSolution(text, first && question.answer && solutionLabel(question, words, reading.language), canReport && question.id, index + 1, { evidence: reference, interactive, language: reading.language })]));
       return;
     }
+    if (question.responseMode === 'choice') return;
     let remaining = response;
     while (remaining.length) {
       let count = remaining.length;

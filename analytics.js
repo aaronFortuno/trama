@@ -1,6 +1,7 @@
 import { labels } from './catalog.js';
 import { readings } from './data/readings.js';
 import { familyById } from './data/families.js';
+import { multipleChoice } from './data/question-choices.js';
 
 const host = 'trama.ortogra.fi';
 const scriptURL = 'https://maquestria.tail72bc84.ts.net:8443/script.js';
@@ -194,7 +195,7 @@ export function trackReadingFeature(name, reading, data = {}) {
   track(name, { ...data, ...readingData(reading) });
 }
 
-export async function sendReadingReport(reading, { part, element, motiu }) {
+export async function sendReadingReport(reading, { part, element, motiu, responseMode }) {
   if (reportAvailability() || reading.personal) return false;
   const entry = readings.find(item => item.id === reading.id);
   if (!entry || !Object.hasOwn(reportReasons, part) || !Object.hasOwn(reportReasons[part], motiu)) return false;
@@ -209,6 +210,11 @@ export async function sendReadingReport(reading, { part, element, motiu }) {
   }
   const data = { codi: entry.code, llengua: entry.language, part, motiu };
   if (element) data.element = element;
+  if (['question', 'solution'].includes(part) && responseMode !== undefined) {
+    if (!['open', 'choice'].includes(responseMode)) return false;
+    if (responseMode === 'choice' && !multipleChoice(entry, entry.questions.find(question => question.id === element))) return false;
+    data.format_pregunta = responseMode === 'choice' ? 'abcd' : 'oberta';
+  }
 
   // The tracker does not return a delivery status. This explicit action checks
   // the collector's acknowledgement so the dialog can report a blocked send.

@@ -112,9 +112,22 @@ export function indexCatalog(readings) {
 }
 
 export function filterCatalog(catalog, { search = '', ...facets } = {}) {
-  const terms = normalize(search).trim().split(/\s+/).filter(Boolean);
+  const terms = [];
+  const ranges = [];
+  for (const term of normalize(search).trim().split(/\s+/).filter(Boolean)) {
+    const range = /^(?:l?(\d+))?[-–](?:l?(\d+))?$/i.exec(term);
+    if (range && (range[1] || range[2])) {
+      const lower = range[1] ? Number(range[1]) : 1;
+      const upper = range[2] ? Number(range[2]) : Infinity;
+      ranges.push([lower, upper]);
+    } else terms.push(term);
+  }
   return catalog.filter((item) => (
     terms.every((term) => item.searchText.includes(term))
+    && (!ranges.length || /^L\d+[A-Z]?$/i.test(item.reading.code) && ranges.every(([lower, upper]) => {
+      const number = Number(item.reading.code.match(/\d+/)[0]);
+      return number >= lower && number <= upper;
+    }))
     && Object.entries(facets).every(([facet, value]) => !value || item.facets[facet].includes(value))
   ));
 }
@@ -654,7 +667,7 @@ export function mountCatalog({ root, readings, searchInput, resultCounter, onSel
       if (root.hidden || query.length < 2 || query === lastTrackedSearch) return;
       lastTrackedSearch = query;
       const { origen, ...context } = analyticsContext();
-      onActivity?.('cerca_cataleg', { ...context, tipus: /^L\d+[A-Z]?$/i.test(query) ? 'codi' : 'text' });
+      onActivity?.('cerca_cataleg', { ...context, tipus: /^(?:L\d+[A-Z]?|(?:L?\d+)?[-–](?:L?\d+)?)$/i.test(query) ? 'codi' : 'text' });
     }, 800);
   });
   reset.addEventListener('click', event => { event.stopPropagation(); clear(); });

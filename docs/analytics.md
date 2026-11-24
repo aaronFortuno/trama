@@ -79,6 +79,8 @@ Trama no afegeix cookies ni identificadors d’analítica al seu emmagatzematge 
 
 Els avisos d’error conserven el seu enviament explícit amb comprovació de resposta del servidor; les accions d’ús són opcionals i no interfereixen si Umami falla.
 
+Des de v1.56, un avís sobre pregunta o solucionari pot indicar `format_pregunta: oberta/abcd`, perquè es pugui localitzar l’alternativa afectada. Només s’accepta ABCD si aquella pregunta pública disposa d’alternativa. El formulari mostra el format abans de confirmar l’enviament. No s’envien opcions, respostes d’alumnes ni configuracions.
+
 ## Comprovació local
 
 - `node tools/check-analytics.mjs`: vocabulari autoritzat, eliminació de camps privats, metadades públiques, restriccions de privadesa, cua inicial i avisos.

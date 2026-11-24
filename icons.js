@@ -1,5 +1,6 @@
 // Lucide icons, distributed with the notices in assets/icons/LICENSE.
 const icons = {
+  pencil: '<path d="m16 3 5 5-13 13H3v-5L16 3Z"/><path d="m14 5 5 5"/>',
   'arrow-left': '<path d="m12 19-7-7 7-7"/><path d="M19 12H5"/>',
   'arrow-down': '<path d="M12 5v14"/><path d="m19 12-7 7-7-7"/>',
   'arrow-up': '<path d="m5 12 7-7 7 7"/><path d="M12 19V5"/>',

@@ -1,5 +1,7 @@
 # Trama
 
+Per ampliar preguntes amb doble format obert/ABCD, consulta `docs/question-choices.md`. Mantén la cobertura seqüencial per codi, alternatives pròpies per idioma i variant, i distractors graduats segons curs. A partir de 4t–5è les opcions han de ser plausibles i exigir lectura acurada, amb una única resposta defensable. Registra i revalida el contingut exacte al registre editorial corresponent.
+
 Actualitza `CHANGELOG.md` amb cada canvi, encara que sigui menor. Quan publiquis una versió, sincronitza la versió i les notes a `index.html` i les traduccions a `locales/es.js`. Fes servir una versió de pedaç per als ajustos menors, com ara de 1.16 a 1.16.1.
 
 Abans d’ampliar lectures d’un univers, consulta `docs/universes/README.md` i la guia del món corresponent. Conserva la continuïtat de personatges, llocs i il·lustracions; cada lectura ha de funcionar sense ordre obligatori. Documenta a la guia els detalls nous que es fixin i conserva les instruccions de les il·lustracions.
