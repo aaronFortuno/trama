@@ -284,6 +284,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l106-el-guante-de-rayas-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l116-el-papel-que-salta.svg": {
+    "src": "assets/readings/l116-el-papel-que-salta-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

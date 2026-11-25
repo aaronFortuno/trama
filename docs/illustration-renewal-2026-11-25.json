@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 47,
+    "completedReadings": 48,
     "totalReadings": 66,
-    "completedImages": 57,
+    "completedImages": 58,
     "totalImages": 76
   },
   "readings": [
@@ -1240,9 +1240,17 @@
           "previousSrc": "assets/readings/l116-el-papel-que-salta.svg",
           "src": "assets/readings/l116-el-papel-que-salta-illustration.webp",
           "afterParagraph": 2,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 richly painted school-science illustration for Trama L116, The jumping paper. Fine gouache, watercolor and colored pencil, navy tabletop, cream schoolroom, warm yellow balloon and blue/white paper accents, tactile paper texture. Ten-year-old Lidia stands behind a dark classroom table observing a static-electricity experiment. She has a short sandy-blond haircut and an ordinary teal sweatshirt. Her RIGHT arm extends naturally forward and her right hand gently pinches the KNOT/NECK at the TOP of an inflated yellow balloon, so the balloon hangs inverted with its rounded bulb DOWNWARD just a few centimetres ABOVE the table. Her other hand rests flat well to the side on the table, exactly two arms and hands total, natural anatomy. Several TINY blue and white tissue-paper scraps cling to the lower balloon surface and one or two tiny scraps are just lifting the short distance from the table; more blue and white scraps remain on the table, no giant floating sheet. A soft WOOL cloth lies beside the experiment, used to rub the balloon. A few larger heavier paper pieces remain flat, unobtrusive. Make clear that the balloon is physically held, not magically levitating; no wind blowing, no electric lightning or mystical glow. The child's expression is curious and focused. Coherent physical contacts, hands and balloon shape. No writing, numbers, arrows, labels, split panels, captions, logos or watermark.",
+          "visualReview": "Child holds inverted balloon by knot with correctly attached right hand and rests left hand on table; tiny blue and white scraps lift or cling, larger scraps remain flat, wool cloth visible.",
+          "sha256": "f0e14e3863944ffe47eda1d0210a58c07497b89631b023519310bc113291929f"
         }
-      ]
+      ],
+      "edition": "v1.58.48"
     },
     {
       "code": "L151",
