@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 276,
-  "pendingWorks": 210,
-  "localizedAlternatives": 2272,
+  "coveredWorks": 283,
+  "pendingWorks": 203,
+  "localizedAlternatives": 2316,
   "ranges": [
     {
       "start": 1,
@@ -191,8 +191,8 @@
       "start": 131,
       "end": 135,
       "total": 7,
-      "covered": 0,
-      "status": "pending"
+      "covered": 7,
+      "status": "complete"
     },
     {
       "start": 136,
@@ -15276,15 +15276,41 @@
       "level": "3-primary",
       "difficulty": "initial",
       "title": "Un refugi per a la pluja",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-refugio-para-la-lluvia-q3",
+              "number": 3
+            },
+            {
+              "id": "un-refugio-para-la-lluvia-q4",
+              "number": 4
+            },
+            {
+              "id": "un-refugio-para-la-lluvia-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-refugio-para-la-lluvia-q3",
+              "number": 3
+            },
+            {
+              "id": "un-refugio-para-la-lluvia-q4",
+              "number": 4
+            },
+            {
+              "id": "un-refugio-para-la-lluvia-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -15295,15 +15321,41 @@
       "level": "3-primary",
       "difficulty": "initial",
       "title": "La pedra amb un punt",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-piedra-con-un-punto-q2",
+              "number": 2
+            },
+            {
+              "id": "la-piedra-con-un-punto-q3",
+              "number": 3
+            },
+            {
+              "id": "la-piedra-con-un-punto-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-piedra-con-un-punto-q2",
+              "number": 2
+            },
+            {
+              "id": "la-piedra-con-un-punto-q3",
+              "number": 3
+            },
+            {
+              "id": "la-piedra-con-un-punto-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -15314,15 +15366,41 @@
       "level": "3-primary",
       "difficulty": "initial",
       "title": "Un missatge a la nevera",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-mensaje-en-la-nevera-q1",
+              "number": 1
+            },
+            {
+              "id": "un-mensaje-en-la-nevera-q3",
+              "number": 3
+            },
+            {
+              "id": "un-mensaje-en-la-nevera-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-mensaje-en-la-nevera-q1",
+              "number": 1
+            },
+            {
+              "id": "un-mensaje-en-la-nevera-q3",
+              "number": 3
+            },
+            {
+              "id": "un-mensaje-en-la-nevera-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -15333,15 +15411,41 @@
       "level": "2-primary",
       "difficulty": "initial",
       "title": "Un missatge a la nevera",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l133a-q1",
+              "number": 1
+            },
+            {
+              "id": "l133a-q2",
+              "number": 2
+            },
+            {
+              "id": "l133a-q3",
+              "number": 3
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l133a-q1",
+              "number": 1
+            },
+            {
+              "id": "l133a-q2",
+              "number": 2
+            },
+            {
+              "id": "l133a-q3",
+              "number": 3
+            }
+          ]
         }
       }
     },
@@ -15352,15 +15456,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "Un missatge a la nevera",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l133b-q2",
+              "number": 2
+            },
+            {
+              "id": "l133b-q3",
+              "number": 3
+            },
+            {
+              "id": "l133b-q5",
+              "number": 5
+            },
+            {
+              "id": "l133b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l133b-q2",
+              "number": 2
+            },
+            {
+              "id": "l133b-q3",
+              "number": 3
+            },
+            {
+              "id": "l133b-q5",
+              "number": 5
+            },
+            {
+              "id": "l133b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -15371,15 +15509,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "L’abric de la tassa",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-abrigo-de-la-taza-q3",
+              "number": 3
+            },
+            {
+              "id": "el-abrigo-de-la-taza-q4",
+              "number": 4
+            },
+            {
+              "id": "el-abrigo-de-la-taza-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-abrigo-de-la-taza-q3",
+              "number": 3
+            },
+            {
+              "id": "el-abrigo-de-la-taza-q4",
+              "number": 4
+            },
+            {
+              "id": "el-abrigo-de-la-taza-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -15390,15 +15554,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "El plànol que gira",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-mapa-que-gira-q3",
+              "number": 3
+            },
+            {
+              "id": "el-mapa-que-gira-q4",
+              "number": 4
+            },
+            {
+              "id": "el-mapa-que-gira-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-mapa-que-gira-q3",
+              "number": 3
+            },
+            {
+              "id": "el-mapa-que-gira-q4",
+              "number": 4
+            },
+            {
+              "id": "el-mapa-que-gira-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
