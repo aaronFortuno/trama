@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 28,
+    "completedReadings": 29,
     "totalReadings": 66,
-    "completedImages": 35,
+    "completedImages": 37,
     "totalImages": 76
   },
   "readings": [
@@ -763,16 +763,31 @@
           "previousSrc": "assets/readings/caja-libro.svg",
           "src": "assets/readings/caja-libro-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Create one landscape 3:2 intimate hand-painted mystery-story still life for Trama L004, The Tuesday box. Fine pen, watercolor and colored pencil, tactile aged cream paper, forest-green cloth, rust-orange fox, warm library light. On a wooden library desk lies ONE open old hardback book with clearly GREEN cloth covers visible beneath its page edges. Its right-hand last page contains a charming small hand-drawn seated FOX, rusty orange with white chest, its bushy tail curled around its paws and ONE ear visibly folded down, a deliberate child's drawing quirk. The other ear is upright. Keep this asymmetric ear distinctive, not an injured real animal. Other page content is only faint tiny illegible book-print texture, no readable words or names. Beside the book lies ONE CLOSED cream envelope with its flap sealed, not already torn open. A simple pencil and a soft indistinct lost-property cardboard box in the background may suggest the library setting. High three-quarter overhead view, no people or hands, solid coherent two-page book with spine and paper edges, correctly flat envelope. A sense of quiet discovery, not ominous crime imagery. No text, initials, captions, speech bubbles, labels, arrows, separate panels, logos or watermark. Beautiful painted material textures, not vector art.",
+          "visualReview": "Green-cloth book has coherent open pages and a fox with one folded ear and tail around paws; envelope remains closed, matching the discovery scene.",
+          "sha256": "6b09943bbe3f214cbd8f423dffb5988fd76e1a29aa3d11b55b6039ff9c7c7507"
         },
         {
           "id": "taller",
           "previousSrc": "assets/readings/caja-taller.svg",
           "src": "assets/readings/caja-taller-illustration.webp",
           "afterParagraph": 4,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Companion landscape 3:2 hand-painted still life for Trama L004, The Tuesday box. Match the reference's fine pen, watercolor and colored pencil, warm cream paper, forest-green book cloth, honey-brown wood and rust-orange fox. NEW setting: a working bookbinding workshop table. The same worn GREEN cloth hardback book lies CLOSED near the back, solid and naturally supported. In the foreground a single clean cream drawing sheet lies flat, carrying the BEGINNING of a pencil sketch of the SAME seated fox from the reference: outline of head, one upright ear and the viewer-RIGHT ear folded down, with a partial outline of tail curling around paws. It is an unfinished fresh sketch, not a second old book. Beside it lie one pencil, a small yellowed expired bus-ticket stub with tiny indistinct stamped marks but NO readable words or numbers, and a plain modern smartphone with a dark idle screen. A few real bookbinding tools, such as a bone folder, brush and neatly wound thread, rest aside on the workshop bench. Open envelope can be absent; no loose extra half sheets or ghost layers. Coherent tabletop perspective and contact shadows. No people, hands, legible text, arrows, panels, captions, logos or watermark. Quiet hopeful mood, attractive tactile materials, no magical floating objects.",
+          "visualReview": "Same green book and same folded-ear fox recur on the bookbinding bench; fresh unfinished sketch, bus ticket, phone and tools are separate well-supported objects.",
+          "sha256": "86c4cba5d7270de2713dbee2fa7f37d48b85d64c9e2ec5f9aa1cadbd1e264ba0"
         }
-      ]
+      ],
+      "edition": "v1.58.29"
     },
     {
       "code": "L111",

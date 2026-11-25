@@ -174,6 +174,16 @@ export const illustrationRenewals = {
     "src": "assets/readings/l115-el-pase-de-la-portera-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/caja-libro.svg": {
+    "src": "assets/readings/caja-libro-illustration.webp",
+    "width": 1100,
+    "height": 733
+  },
+  "assets/readings/caja-taller.svg": {
+    "src": "assets/readings/caja-taller-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
