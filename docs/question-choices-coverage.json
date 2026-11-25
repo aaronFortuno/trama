@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 438,
-  "pendingWorks": 48,
-  "localizedAlternatives": 3616,
+  "coveredWorks": 443,
+  "pendingWorks": 43,
+  "localizedAlternatives": 3676,
   "ranges": [
     {
       "start": 1,
@@ -317,8 +317,8 @@
       "start": 221,
       "end": 225,
       "total": 5,
-      "covered": 0,
-      "status": "pending"
+      "covered": 5,
+      "status": "complete"
     },
     {
       "start": 226,
@@ -24054,15 +24054,65 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "Un àlbum que es llegeix pels marges",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-album-que-se-lee-por-los-margenes-q2",
+              "number": 2
+            },
+            {
+              "id": "un-album-que-se-lee-por-los-margenes-q4",
+              "number": 4
+            },
+            {
+              "id": "un-album-que-se-lee-por-los-margenes-q5",
+              "number": 5
+            },
+            {
+              "id": "un-album-que-se-lee-por-los-margenes-q6",
+              "number": 6
+            },
+            {
+              "id": "un-album-que-se-lee-por-los-margenes-q7",
+              "number": 7
+            },
+            {
+              "id": "un-album-que-se-lee-por-los-margenes-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-album-que-se-lee-por-los-margenes-q2",
+              "number": 2
+            },
+            {
+              "id": "un-album-que-se-lee-por-los-margenes-q4",
+              "number": 4
+            },
+            {
+              "id": "un-album-que-se-lee-por-los-margenes-q5",
+              "number": 5
+            },
+            {
+              "id": "un-album-que-se-lee-por-los-margenes-q6",
+              "number": 6
+            },
+            {
+              "id": "un-album-que-se-lee-por-los-margenes-q7",
+              "number": 7
+            },
+            {
+              "id": "un-album-que-se-lee-por-los-margenes-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -24073,15 +24123,65 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "El fang que va viatjar sense moure’s",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-barro-que-viajo-sin-moverse-q2",
+              "number": 2
+            },
+            {
+              "id": "el-barro-que-viajo-sin-moverse-q3",
+              "number": 3
+            },
+            {
+              "id": "el-barro-que-viajo-sin-moverse-q4",
+              "number": 4
+            },
+            {
+              "id": "el-barro-que-viajo-sin-moverse-q5",
+              "number": 5
+            },
+            {
+              "id": "el-barro-que-viajo-sin-moverse-q7",
+              "number": 7
+            },
+            {
+              "id": "el-barro-que-viajo-sin-moverse-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-barro-que-viajo-sin-moverse-q2",
+              "number": 2
+            },
+            {
+              "id": "el-barro-que-viajo-sin-moverse-q3",
+              "number": 3
+            },
+            {
+              "id": "el-barro-que-viajo-sin-moverse-q4",
+              "number": 4
+            },
+            {
+              "id": "el-barro-que-viajo-sin-moverse-q5",
+              "number": 5
+            },
+            {
+              "id": "el-barro-que-viajo-sin-moverse-q7",
+              "number": 7
+            },
+            {
+              "id": "el-barro-que-viajo-sin-moverse-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -24092,15 +24192,65 @@
       "level": "1-secondary",
       "difficulty": "intermediate",
       "title": "Una mostra que no cabia al titular",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-muestra-que-no-cabia-en-el-titular-q2",
+              "number": 2
+            },
+            {
+              "id": "una-muestra-que-no-cabia-en-el-titular-q3",
+              "number": 3
+            },
+            {
+              "id": "una-muestra-que-no-cabia-en-el-titular-q4",
+              "number": 4
+            },
+            {
+              "id": "una-muestra-que-no-cabia-en-el-titular-q5",
+              "number": 5
+            },
+            {
+              "id": "una-muestra-que-no-cabia-en-el-titular-q6",
+              "number": 6
+            },
+            {
+              "id": "una-muestra-que-no-cabia-en-el-titular-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-muestra-que-no-cabia-en-el-titular-q2",
+              "number": 2
+            },
+            {
+              "id": "una-muestra-que-no-cabia-en-el-titular-q3",
+              "number": 3
+            },
+            {
+              "id": "una-muestra-que-no-cabia-en-el-titular-q4",
+              "number": 4
+            },
+            {
+              "id": "una-muestra-que-no-cabia-en-el-titular-q5",
+              "number": 5
+            },
+            {
+              "id": "una-muestra-que-no-cabia-en-el-titular-q6",
+              "number": 6
+            },
+            {
+              "id": "una-muestra-que-no-cabia-en-el-titular-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -24111,15 +24261,65 @@
       "level": "1-secondary",
       "difficulty": "intermediate",
       "title": "L’inventari de les coses invisibles",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-inventario-de-las-cosas-invisibles-q2",
+              "number": 2
+            },
+            {
+              "id": "el-inventario-de-las-cosas-invisibles-q3",
+              "number": 3
+            },
+            {
+              "id": "el-inventario-de-las-cosas-invisibles-q5",
+              "number": 5
+            },
+            {
+              "id": "el-inventario-de-las-cosas-invisibles-q6",
+              "number": 6
+            },
+            {
+              "id": "el-inventario-de-las-cosas-invisibles-q8",
+              "number": 8
+            },
+            {
+              "id": "el-inventario-de-las-cosas-invisibles-q9",
+              "number": 9
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-inventario-de-las-cosas-invisibles-q2",
+              "number": 2
+            },
+            {
+              "id": "el-inventario-de-las-cosas-invisibles-q3",
+              "number": 3
+            },
+            {
+              "id": "el-inventario-de-las-cosas-invisibles-q5",
+              "number": 5
+            },
+            {
+              "id": "el-inventario-de-las-cosas-invisibles-q6",
+              "number": 6
+            },
+            {
+              "id": "el-inventario-de-las-cosas-invisibles-q8",
+              "number": 8
+            },
+            {
+              "id": "el-inventario-de-las-cosas-invisibles-q9",
+              "number": 9
+            }
+          ]
         }
       }
     },
@@ -24130,15 +24330,65 @@
       "level": "1-secondary",
       "difficulty": "intermediate",
       "title": "La partitura que deixava lloc a l’atzar",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-partitura-que-dejaba-sitio-al-azar-q2",
+              "number": 2
+            },
+            {
+              "id": "la-partitura-que-dejaba-sitio-al-azar-q4",
+              "number": 4
+            },
+            {
+              "id": "la-partitura-que-dejaba-sitio-al-azar-q5",
+              "number": 5
+            },
+            {
+              "id": "la-partitura-que-dejaba-sitio-al-azar-q6",
+              "number": 6
+            },
+            {
+              "id": "la-partitura-que-dejaba-sitio-al-azar-q8",
+              "number": 8
+            },
+            {
+              "id": "la-partitura-que-dejaba-sitio-al-azar-q9",
+              "number": 9
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-partitura-que-dejaba-sitio-al-azar-q2",
+              "number": 2
+            },
+            {
+              "id": "la-partitura-que-dejaba-sitio-al-azar-q4",
+              "number": 4
+            },
+            {
+              "id": "la-partitura-que-dejaba-sitio-al-azar-q5",
+              "number": 5
+            },
+            {
+              "id": "la-partitura-que-dejaba-sitio-al-azar-q6",
+              "number": 6
+            },
+            {
+              "id": "la-partitura-que-dejaba-sitio-al-azar-q8",
+              "number": 8
+            },
+            {
+              "id": "la-partitura-que-dejaba-sitio-al-azar-q9",
+              "number": 9
+            }
+          ]
         }
       }
     },
