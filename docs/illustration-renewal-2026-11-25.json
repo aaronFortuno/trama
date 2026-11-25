@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 27,
+    "completedReadings": 28,
     "totalReadings": 66,
-    "completedImages": 34,
+    "completedImages": 35,
     "totalImages": 76
   },
   "readings": [
@@ -740,9 +740,17 @@
           "previousSrc": "assets/readings/l115-el-pase-de-la-portera.svg",
           "src": "assets/readings/l115-el-pase-de-la-portera-illustration.webp",
           "afterParagraph": 2,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Landscape 3:2 dynamic but physically clear painted story illustration for Trama L115, The goalkeeper's pass. Colored pencil, lively gouache and fine ink, sunny schoolyard, brick red, teal and grass green, tactile paper texture, no vector appearance. A ten-year-old girl goalkeeper, Mar, stands just in front of her modest school futsal goal at the LEFT foreground. She has short straight copper-red hair and a plain purple sports bib over a T-shirt, ordinary shorts and trainers. A football is STOPPED on the ground beside her foot; she is not jumping or kicking yet. She raises her gaze toward a teammate, Salma, who waits unmarked in open space near the RIGHT sideline, with short natural black curls and a green bib. In the middle distance THREE opponents cluster near the centre of the court, leaving the lateral passing lane open. Show attentive decision-making rather than exaggerated action. All children have natural standing poses, correctly attached limbs and realistic shoes planted on the same court plane; distant opponents may be simplified. Goal is a structurally coherent rectangular frame with net behind, clear level paved court markings, no diagonal impossible goalposts. No arrows tracing the pass, text, numbers, speech bubbles, brand logos, panels or watermark. One inviting school-recess scene, no crowd or professional stadium.",
+          "visualReview": "Goalkeeper observes three central opponents and an unmarked teammate at the side, grounded stationary ball and natural standing limbs; coherent school court and goal.",
+          "sha256": "7bdd83d5ce6501b4008209bfde33477c78c01852816f6c1aaab6b8227d629b2c"
         }
-      ]
+      ],
+      "edition": "v1.58.28"
     },
     {
       "code": "L004",
