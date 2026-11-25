@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 141,
-  "pendingWorks": 345,
-  "localizedAlternatives": 1166,
+  "coveredWorks": 148,
+  "pendingWorks": 338,
+  "localizedAlternatives": 1228,
   "ranges": [
     {
       "start": 1,
@@ -114,8 +114,8 @@
       "start": 76,
       "end": 80,
       "total": 7,
-      "covered": 0,
-      "status": "pending"
+      "covered": 7,
+      "status": "complete"
     },
     {
       "start": 81,
@@ -8017,15 +8017,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Una setmana sense tocar la ràdio",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-semana-sin-tocar-la-radio-q2",
+              "number": 2
+            },
+            {
+              "id": "una-semana-sin-tocar-la-radio-q3",
+              "number": 3
+            },
+            {
+              "id": "una-semana-sin-tocar-la-radio-q4",
+              "number": 4
+            },
+            {
+              "id": "una-semana-sin-tocar-la-radio-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-semana-sin-tocar-la-radio-q2",
+              "number": 2
+            },
+            {
+              "id": "una-semana-sin-tocar-la-radio-q3",
+              "number": 3
+            },
+            {
+              "id": "una-semana-sin-tocar-la-radio-q4",
+              "number": 4
+            },
+            {
+              "id": "una-semana-sin-tocar-la-radio-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -8036,15 +8070,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Qui fa servir la pista?",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "quien-usa-la-pista-q2",
+              "number": 2
+            },
+            {
+              "id": "quien-usa-la-pista-q3",
+              "number": 3
+            },
+            {
+              "id": "quien-usa-la-pista-q4",
+              "number": 4
+            },
+            {
+              "id": "quien-usa-la-pista-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "quien-usa-la-pista-q2",
+              "number": 2
+            },
+            {
+              "id": "quien-usa-la-pista-q3",
+              "number": 3
+            },
+            {
+              "id": "quien-usa-la-pista-q4",
+              "number": 4
+            },
+            {
+              "id": "quien-usa-la-pista-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -8055,15 +8123,49 @@
       "level": "4-primary",
       "difficulty": "advanced",
       "title": "Qui fa servir la pista?",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l077a-q2",
+              "number": 2
+            },
+            {
+              "id": "l077a-q3",
+              "number": 3
+            },
+            {
+              "id": "l077a-q4",
+              "number": 4
+            },
+            {
+              "id": "l077a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l077a-q2",
+              "number": 2
+            },
+            {
+              "id": "l077a-q3",
+              "number": 3
+            },
+            {
+              "id": "l077a-q4",
+              "number": 4
+            },
+            {
+              "id": "l077a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -8074,15 +8176,57 @@
       "level": "6-primary",
       "difficulty": "intermediate",
       "title": "Qui fa servir la pista?",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l077b-q2",
+              "number": 2
+            },
+            {
+              "id": "l077b-q3",
+              "number": 3
+            },
+            {
+              "id": "l077b-q4",
+              "number": 4
+            },
+            {
+              "id": "l077b-q6",
+              "number": 6
+            },
+            {
+              "id": "l077b-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l077b-q2",
+              "number": 2
+            },
+            {
+              "id": "l077b-q3",
+              "number": 3
+            },
+            {
+              "id": "l077b-q4",
+              "number": 4
+            },
+            {
+              "id": "l077b-q6",
+              "number": 6
+            },
+            {
+              "id": "l077b-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -8093,15 +8237,57 @@
       "level": "6-primary",
       "difficulty": "intermediate",
       "title": "L’hort de les preguntes",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-huerto-de-las-preguntas-q1",
+              "number": 1
+            },
+            {
+              "id": "el-huerto-de-las-preguntas-q3",
+              "number": 3
+            },
+            {
+              "id": "el-huerto-de-las-preguntas-q4",
+              "number": 4
+            },
+            {
+              "id": "el-huerto-de-las-preguntas-q5",
+              "number": 5
+            },
+            {
+              "id": "el-huerto-de-las-preguntas-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-huerto-de-las-preguntas-q1",
+              "number": 1
+            },
+            {
+              "id": "el-huerto-de-las-preguntas-q3",
+              "number": 3
+            },
+            {
+              "id": "el-huerto-de-las-preguntas-q4",
+              "number": 4
+            },
+            {
+              "id": "el-huerto-de-las-preguntas-q5",
+              "number": 5
+            },
+            {
+              "id": "el-huerto-de-las-preguntas-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -8112,15 +8298,57 @@
       "level": "6-primary",
       "difficulty": "intermediate",
       "title": "Bicicletes sota la pluja",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "bicicletas-bajo-la-lluvia-q2",
+              "number": 2
+            },
+            {
+              "id": "bicicletas-bajo-la-lluvia-q3",
+              "number": 3
+            },
+            {
+              "id": "bicicletas-bajo-la-lluvia-q4",
+              "number": 4
+            },
+            {
+              "id": "bicicletas-bajo-la-lluvia-q5",
+              "number": 5
+            },
+            {
+              "id": "bicicletas-bajo-la-lluvia-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "bicicletas-bajo-la-lluvia-q2",
+              "number": 2
+            },
+            {
+              "id": "bicicletas-bajo-la-lluvia-q3",
+              "number": 3
+            },
+            {
+              "id": "bicicletas-bajo-la-lluvia-q4",
+              "number": 4
+            },
+            {
+              "id": "bicicletas-bajo-la-lluvia-q5",
+              "number": 5
+            },
+            {
+              "id": "bicicletas-bajo-la-lluvia-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -8131,15 +8359,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "El mapa que no s’acabava a la porta",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-mapa-que-no-terminaba-en-la-puerta-q1",
+              "number": 1
+            },
+            {
+              "id": "el-mapa-que-no-terminaba-en-la-puerta-q2",
+              "number": 2
+            },
+            {
+              "id": "el-mapa-que-no-terminaba-en-la-puerta-q4",
+              "number": 4
+            },
+            {
+              "id": "el-mapa-que-no-terminaba-en-la-puerta-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-mapa-que-no-terminaba-en-la-puerta-q1",
+              "number": 1
+            },
+            {
+              "id": "el-mapa-que-no-terminaba-en-la-puerta-q2",
+              "number": 2
+            },
+            {
+              "id": "el-mapa-que-no-terminaba-en-la-puerta-q4",
+              "number": 4
+            },
+            {
+              "id": "el-mapa-que-no-terminaba-en-la-puerta-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },

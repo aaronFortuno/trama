@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.57.15 · 25 de novembre del 2026
+
+El lot 016 incorpora alternatives ABCD a 7 fitxes del rang L076–L080, incloses les variants existents, en català i castellà. 62 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 148 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.
+
 ## 1.57.14 · 25 de novembre del 2026
 
 El lot 015 incorpora alternatives ABCD a 5 fitxes del rang L071–L075, incloses les variants existents, en català i castellà. 48 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 141 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.
