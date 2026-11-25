@@ -49,6 +49,7 @@ import { choiceBatch048 } from './question-choices/batch-048.js';
 import { choiceBatch049 } from './question-choices/batch-049.js';
 import { choiceBatch050 } from './question-choices/batch-050.js';
 import { choiceBatch051 } from './question-choices/batch-051.js';
+import { choiceBatch052 } from './question-choices/batch-052.js';
 
 // Only independently reviewed, complete batches are registered here.
 export const choiceBatches = [
@@ -103,4 +104,5 @@ export const choiceBatches = [
   { ...{"id":"049","edition":"v1.57.48","codes":["L241","L242","L243","L244","L245"],"review":"docs/question-choices/batch-049-review.json"}, readings: choiceBatch049 },
   { ...{"id":"050","edition":"v1.57.49","codes":["L246","L247","L248","L249","L250"],"review":"docs/question-choices/batch-050-review.json"}, readings: choiceBatch050 },
   { ...{"id":"051","edition":"v1.57.50","codes":["L251","L252","L253","L254","L255"],"review":"docs/question-choices/batch-051-review.json"}, readings: choiceBatch051 },
+  { ...{"id":"052","edition":"v1.57.51","codes":["L256","L257","L258","L259","L260"],"review":"docs/question-choices/batch-052-review.json"}, readings: choiceBatch052 },
 ];
