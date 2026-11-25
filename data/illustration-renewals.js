@@ -194,6 +194,16 @@ export const illustrationRenewals = {
     "src": "assets/readings/l127-una-pinza-para-cada-calcetin-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l085-maleta-en-el-pasillo.webp": {
+    "src": "assets/readings/l085-maleta-en-el-pasillo-illustration.webp",
+    "width": 1100,
+    "height": 733
+  },
+  "assets/readings/l085-recuerdos-en-la-maleta.webp": {
+    "src": "assets/readings/l085-recuerdos-en-la-maleta-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 31,
+    "completedReadings": 32,
     "totalReadings": 66,
-    "completedImages": 39,
+    "completedImages": 41,
     "totalImages": 76
   },
   "readings": [
@@ -846,16 +846,31 @@
           "previousSrc": "assets/readings/l085-maleta-en-el-pasillo.webp",
           "src": "assets/readings/l085-maleta-en-el-pasillo-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 sensitive literary painted illustration for Trama L085, The suitcase that would not close. Mature gouache and graphite with subtle watercolor washes, richly textured paper, muted olive, amber and dusty rose, quiet late-morning light. A modest almost-empty grandmother's apartment hallway on moving day. In the foreground an old brown hard-sided suitcase lies OPEN FLAT ON THE FLOOR with coherent hinged lid, fabric lining, handle and metal latches. Inside are a small wind-up toy mostly wrapped in a soft sage-green cloth and a cream envelope containing old photographs, no readable pictures required. Immediately behind, a real wooden doorway frame has a series of SMALL PENCIL HEIGHT MARKS ascending along its vertical side, including one clearly slightly slanted mark among otherwise horizontal ones. Tiny date-like marks may be indistinct, no readable numbers or initials. The marks lie at believable child heights, not at the top of the door. Bare warm floorboards, a little dust line where furniture once stood, soft sunlight from another room, affectionate memory rather than grief melodrama. Solid architectural perspective, ordinary supported objects, no fantasy elements. No people, hands, paper height strip yet, text, labels, arrows, panels, captions, logos or watermark. Attractive nuanced illustration for older primary readers, not flat vector art.",
+          "visualReview": "Open brown suitcase with sage-wrapped wind-up bird and photo envelope, adjacent height marks including a slanted one on a real doorframe; coherent moving-day hallway.",
+          "sha256": "a86d7ead0cf075142da13e466c1cd33e0c16808b11c96eaf5a028a520cc71f92"
         },
         {
           "id": "recuerdos-en-la-maleta",
           "previousSrc": "assets/readings/l085-recuerdos-en-la-maleta.webp",
           "src": "assets/readings/l085-recuerdos-en-la-maleta-illustration.webp",
           "afterParagraph": 4,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Companion landscape 3:2 close-up for Trama L085, The suitcase that would not close. Match the reference's mature gouache, graphite and watercolor textures, olive-sage cloth, warm brown worn leather and cream, emotionally quiet sunlight. NEW higher close view INTO the SAME open brown hard-sided suitcase. Inside are the SAME little painted metal WIND-UP BIRD toy with winding key, partly wrapped in the SAME soft sage-green cloth, and the SAME cream envelope of old photographs. Added beside and partly tucked UNDER the cloth is ONE tightly rolled narrow paper HEIGHT-RECORD STRIP, the saved copy of doorframe height marks. Important: it is ONE continuous thin sheet rolled around itself into a true visible SPIRAL, like rolled paper, not one hollow cylinder nested inside another. Only the NEAR end's small spiral cross-section is visible; the opposite end recedes diagonally away and is hidden beneath the cloth, so never show both circular ends simultaneously. The roll is modest, about the width of a narrow paper strip, and fits naturally inside the suitcase. A few tiny pencil marks on its outside are indistinct, no readable numbers or dates. Preserve coherent suitcase hinge, lining, rim and object contacts, no floating paper or fabric. No actual people, hands, labels, arrows, panels, text, logos or watermark. This is a warm detailed painted still life, not a diagram.",
+          "visualReview": "Same bird toy, cloth, photo envelope and suitcase details maintained; narrow height strip is a true continuous spiral with one near end visible and far end hidden beneath cloth.",
+          "sha256": "65b840753268912173e6f98250443e87c928485ff4d0e83a5917662236737ff5"
         }
-      ]
+      ],
+      "edition": "v1.58.32"
     },
     {
       "code": "L126",
