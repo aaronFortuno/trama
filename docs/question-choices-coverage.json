@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 176,
-  "pendingWorks": 310,
-  "localizedAlternatives": 1490,
+  "coveredWorks": 191,
+  "pendingWorks": 295,
+  "localizedAlternatives": 1630,
   "ranges": [
     {
       "start": 1,
@@ -135,8 +135,8 @@
       "start": 91,
       "end": 95,
       "total": 15,
-      "covered": 0,
-      "status": "pending"
+      "covered": 15,
+      "status": "complete"
     },
     {
       "start": 96,
@@ -10048,15 +10048,57 @@
       "level": "6-primary",
       "difficulty": "advanced",
       "title": "El torn de les papallones nocturnes",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "turno-polillas-q2",
+              "number": 2
+            },
+            {
+              "id": "turno-polillas-q3",
+              "number": 3
+            },
+            {
+              "id": "turno-polillas-q4",
+              "number": 4
+            },
+            {
+              "id": "turno-polillas-q6",
+              "number": 6
+            },
+            {
+              "id": "turno-polillas-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "turno-polillas-q2",
+              "number": 2
+            },
+            {
+              "id": "turno-polillas-q3",
+              "number": 3
+            },
+            {
+              "id": "turno-polillas-q4",
+              "number": 4
+            },
+            {
+              "id": "turno-polillas-q6",
+              "number": 6
+            },
+            {
+              "id": "turno-polillas-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -10067,15 +10109,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "El torn de les papallones nocturnes",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l091a-q2",
+              "number": 2
+            },
+            {
+              "id": "l091a-q4",
+              "number": 4
+            },
+            {
+              "id": "l091a-q5",
+              "number": 5
+            },
+            {
+              "id": "l091a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l091a-q2",
+              "number": 2
+            },
+            {
+              "id": "l091a-q4",
+              "number": 4
+            },
+            {
+              "id": "l091a-q5",
+              "number": 5
+            },
+            {
+              "id": "l091a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -10086,15 +10162,57 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "El torn de les papallones nocturnes",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l091b-q2",
+              "number": 2
+            },
+            {
+              "id": "l091b-q6",
+              "number": 6
+            },
+            {
+              "id": "l091b-q7",
+              "number": 7
+            },
+            {
+              "id": "l091b-q8",
+              "number": 8
+            },
+            {
+              "id": "l091b-q10",
+              "number": 10
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l091b-q2",
+              "number": 2
+            },
+            {
+              "id": "l091b-q6",
+              "number": 6
+            },
+            {
+              "id": "l091b-q7",
+              "number": 7
+            },
+            {
+              "id": "l091b-q8",
+              "number": 8
+            },
+            {
+              "id": "l091b-q10",
+              "number": 10
+            }
+          ]
         }
       }
     },
@@ -10105,15 +10223,57 @@
       "level": "6-primary",
       "difficulty": "advanced",
       "title": "Dues fitxes i una regla",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "dos-fichas-q3",
+              "number": 3
+            },
+            {
+              "id": "dos-fichas-q4",
+              "number": 4
+            },
+            {
+              "id": "dos-fichas-q5",
+              "number": 5
+            },
+            {
+              "id": "dos-fichas-q6",
+              "number": 6
+            },
+            {
+              "id": "dos-fichas-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "dos-fichas-q3",
+              "number": 3
+            },
+            {
+              "id": "dos-fichas-q4",
+              "number": 4
+            },
+            {
+              "id": "dos-fichas-q5",
+              "number": 5
+            },
+            {
+              "id": "dos-fichas-q6",
+              "number": 6
+            },
+            {
+              "id": "dos-fichas-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -10124,15 +10284,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Dues fitxes i una regla",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l092a-q3",
+              "number": 3
+            },
+            {
+              "id": "l092a-q4",
+              "number": 4
+            },
+            {
+              "id": "l092a-q5",
+              "number": 5
+            },
+            {
+              "id": "l092a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l092a-q3",
+              "number": 3
+            },
+            {
+              "id": "l092a-q4",
+              "number": 4
+            },
+            {
+              "id": "l092a-q5",
+              "number": 5
+            },
+            {
+              "id": "l092a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -10143,15 +10337,57 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "Dues fitxes i una regla",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l092b-q3",
+              "number": 3
+            },
+            {
+              "id": "l092b-q4",
+              "number": 4
+            },
+            {
+              "id": "l092b-q6",
+              "number": 6
+            },
+            {
+              "id": "l092b-q9",
+              "number": 9
+            },
+            {
+              "id": "l092b-q10",
+              "number": 10
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l092b-q3",
+              "number": 3
+            },
+            {
+              "id": "l092b-q4",
+              "number": 4
+            },
+            {
+              "id": "l092b-q6",
+              "number": 6
+            },
+            {
+              "id": "l092b-q9",
+              "number": 9
+            },
+            {
+              "id": "l092b-q10",
+              "number": 10
+            }
+          ]
         }
       }
     },
@@ -10162,15 +10398,57 @@
       "level": "6-primary",
       "difficulty": "advanced",
       "title": "El costat de l’onada",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "lado-ola-q2",
+              "number": 2
+            },
+            {
+              "id": "lado-ola-q3",
+              "number": 3
+            },
+            {
+              "id": "lado-ola-q4",
+              "number": 4
+            },
+            {
+              "id": "lado-ola-q5",
+              "number": 5
+            },
+            {
+              "id": "lado-ola-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "lado-ola-q2",
+              "number": 2
+            },
+            {
+              "id": "lado-ola-q3",
+              "number": 3
+            },
+            {
+              "id": "lado-ola-q4",
+              "number": 4
+            },
+            {
+              "id": "lado-ola-q5",
+              "number": 5
+            },
+            {
+              "id": "lado-ola-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -10181,15 +10459,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "El costat de l’onada",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l093a-q2",
+              "number": 2
+            },
+            {
+              "id": "l093a-q3",
+              "number": 3
+            },
+            {
+              "id": "l093a-q5",
+              "number": 5
+            },
+            {
+              "id": "l093a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l093a-q2",
+              "number": 2
+            },
+            {
+              "id": "l093a-q3",
+              "number": 3
+            },
+            {
+              "id": "l093a-q5",
+              "number": 5
+            },
+            {
+              "id": "l093a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -10200,15 +10512,57 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "El costat de l’onada",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l093b-q4",
+              "number": 4
+            },
+            {
+              "id": "l093b-q5",
+              "number": 5
+            },
+            {
+              "id": "l093b-q6",
+              "number": 6
+            },
+            {
+              "id": "l093b-q7",
+              "number": 7
+            },
+            {
+              "id": "l093b-q10",
+              "number": 10
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l093b-q4",
+              "number": 4
+            },
+            {
+              "id": "l093b-q5",
+              "number": 5
+            },
+            {
+              "id": "l093b-q6",
+              "number": 6
+            },
+            {
+              "id": "l093b-q7",
+              "number": 7
+            },
+            {
+              "id": "l093b-q10",
+              "number": 10
+            }
+          ]
         }
       }
     },
@@ -10219,15 +10573,57 @@
       "level": "6-primary",
       "difficulty": "advanced",
       "title": "El peix que va nedar a l’inrevés",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "pez-reves-q2",
+              "number": 2
+            },
+            {
+              "id": "pez-reves-q3",
+              "number": 3
+            },
+            {
+              "id": "pez-reves-q4",
+              "number": 4
+            },
+            {
+              "id": "pez-reves-q5",
+              "number": 5
+            },
+            {
+              "id": "pez-reves-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "pez-reves-q2",
+              "number": 2
+            },
+            {
+              "id": "pez-reves-q3",
+              "number": 3
+            },
+            {
+              "id": "pez-reves-q4",
+              "number": 4
+            },
+            {
+              "id": "pez-reves-q5",
+              "number": 5
+            },
+            {
+              "id": "pez-reves-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -10238,15 +10634,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "El peix que va nedar a l’inrevés",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l094a-q2",
+              "number": 2
+            },
+            {
+              "id": "l094a-q3",
+              "number": 3
+            },
+            {
+              "id": "l094a-q4",
+              "number": 4
+            },
+            {
+              "id": "l094a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l094a-q2",
+              "number": 2
+            },
+            {
+              "id": "l094a-q3",
+              "number": 3
+            },
+            {
+              "id": "l094a-q4",
+              "number": 4
+            },
+            {
+              "id": "l094a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -10257,15 +10687,57 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "El peix que va nedar a l’inrevés",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l094b-q2",
+              "number": 2
+            },
+            {
+              "id": "l094b-q5",
+              "number": 5
+            },
+            {
+              "id": "l094b-q7",
+              "number": 7
+            },
+            {
+              "id": "l094b-q8",
+              "number": 8
+            },
+            {
+              "id": "l094b-q9",
+              "number": 9
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l094b-q2",
+              "number": 2
+            },
+            {
+              "id": "l094b-q5",
+              "number": 5
+            },
+            {
+              "id": "l094b-q7",
+              "number": 7
+            },
+            {
+              "id": "l094b-q8",
+              "number": 8
+            },
+            {
+              "id": "l094b-q9",
+              "number": 9
+            }
+          ]
         }
       }
     },
@@ -10276,15 +10748,57 @@
       "level": "6-primary",
       "difficulty": "advanced",
       "title": "La platja que va viatjar amb les onades",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "playa-olas-q2",
+              "number": 2
+            },
+            {
+              "id": "playa-olas-q3",
+              "number": 3
+            },
+            {
+              "id": "playa-olas-q4",
+              "number": 4
+            },
+            {
+              "id": "playa-olas-q5",
+              "number": 5
+            },
+            {
+              "id": "playa-olas-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "playa-olas-q2",
+              "number": 2
+            },
+            {
+              "id": "playa-olas-q3",
+              "number": 3
+            },
+            {
+              "id": "playa-olas-q4",
+              "number": 4
+            },
+            {
+              "id": "playa-olas-q5",
+              "number": 5
+            },
+            {
+              "id": "playa-olas-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -10295,15 +10809,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "La platja que va viatjar amb les onades",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l095a-q2",
+              "number": 2
+            },
+            {
+              "id": "l095a-q4",
+              "number": 4
+            },
+            {
+              "id": "l095a-q5",
+              "number": 5
+            },
+            {
+              "id": "l095a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l095a-q2",
+              "number": 2
+            },
+            {
+              "id": "l095a-q4",
+              "number": 4
+            },
+            {
+              "id": "l095a-q5",
+              "number": 5
+            },
+            {
+              "id": "l095a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -10314,15 +10862,57 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "La platja que va viatjar amb les onades",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l095b-q4",
+              "number": 4
+            },
+            {
+              "id": "l095b-q7",
+              "number": 7
+            },
+            {
+              "id": "l095b-q8",
+              "number": 8
+            },
+            {
+              "id": "l095b-q9",
+              "number": 9
+            },
+            {
+              "id": "l095b-q10",
+              "number": 10
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l095b-q4",
+              "number": 4
+            },
+            {
+              "id": "l095b-q7",
+              "number": 7
+            },
+            {
+              "id": "l095b-q8",
+              "number": 8
+            },
+            {
+              "id": "l095b-q9",
+              "number": 9
+            },
+            {
+              "id": "l095b-q10",
+              "number": 10
+            }
+          ]
         }
       }
     },
