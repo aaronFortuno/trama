@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 62,
+    "completedReadings": 63,
     "totalReadings": 66,
-    "completedImages": 72,
+    "completedImages": 73,
     "totalImages": 76
   },
   "readings": [
@@ -1577,9 +1577,17 @@
           "previousSrc": "assets/readings/l152-un-zapato-para-el-barro.svg",
           "src": "assets/readings/l152-un-zapato-para-el-barro-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 precise hand-painted craft-science still life for Trama L152, A shoe for the mud. Rich watercolor, gouache and fine pencil, damp clay brown, warm cobbler-workbench wood, soft side light, tactile paper grain. Overhead three-quarter close view of a SHALLOW rectangular tray of damp smooth clay on a shoe-repair workshop table. In the clay are exactly TWO SHOE-SOLE IMPRESSIONS side by side, the SAME size, toe ends toward the back and heels toward the foreground. LEFT impression is from a very worn nearly smooth sole: mostly a faint plain shallow outline with no strong tread. RIGHT impression is from a deep ZIGZAG-GROOVED sole: its clear negative imprint contains narrow slightly RAISED CLAY ZIGZAG RIDGES where the rubber sole's grooves had been, with surrounding sole contact area pressed lower. Show real physical embossing and shallow side shadows, not painted black zigzags, geometric symbols or pools full of water. Both footprints have believable toe and heel proportions, no fingers, no bare human foot/toe prints. A plain shoe brush and a small rubber sole offcut lie out of focus at edge of workbench, not extra footprints. No people, hands, labels, words, numbers, arrows, diagram panels, captions, logos or watermark. Attractive accurate painted material texture, not vector clipart.",
+          "visualReview": "Two same-sized sole impressions in one clay tray: nearly smooth faint left imprint and distinctly raised clay zigzag ridges in right imprint, correct negative relief and physical shadows.",
+          "sha256": "d4cbdd6f46347490578110af411d9d24e6a4afcac39405d540cf79b8e680b298"
         }
-      ]
+      ],
+      "edition": "v1.58.63"
     },
     {
       "code": "L132",
