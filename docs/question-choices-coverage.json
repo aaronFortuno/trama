@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 305,
-  "pendingWorks": 181,
-  "localizedAlternatives": 2460,
+  "coveredWorks": 316,
+  "pendingWorks": 170,
+  "localizedAlternatives": 2532,
   "ranges": [
     {
       "start": 1,
@@ -212,8 +212,8 @@
       "start": 146,
       "end": 150,
       "total": 11,
-      "covered": 0,
-      "status": "pending"
+      "covered": 11,
+      "status": "complete"
     },
     {
       "start": 151,
@@ -16637,15 +16637,41 @@
       "level": "3-primary",
       "difficulty": "advanced",
       "title": "Rètols que no s’esborren",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "rotulos-que-no-se-borran-q2",
+              "number": 2
+            },
+            {
+              "id": "rotulos-que-no-se-borran-q4",
+              "number": 4
+            },
+            {
+              "id": "rotulos-que-no-se-borran-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "rotulos-que-no-se-borran-q2",
+              "number": 2
+            },
+            {
+              "id": "rotulos-que-no-se-borran-q4",
+              "number": 4
+            },
+            {
+              "id": "rotulos-que-no-se-borran-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -16656,15 +16682,41 @@
       "level": "3-primary",
       "difficulty": "advanced",
       "title": "Un ritme sota el terra",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-ritmo-bajo-el-suelo-q2",
+              "number": 2
+            },
+            {
+              "id": "un-ritmo-bajo-el-suelo-q4",
+              "number": 4
+            },
+            {
+              "id": "un-ritmo-bajo-el-suelo-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-ritmo-bajo-el-suelo-q2",
+              "number": 2
+            },
+            {
+              "id": "un-ritmo-bajo-el-suelo-q4",
+              "number": 4
+            },
+            {
+              "id": "un-ritmo-bajo-el-suelo-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -16675,15 +16727,41 @@
       "level": "3-primary",
       "difficulty": "advanced",
       "title": "Lletres del revés",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "letras-al-reves-q2",
+              "number": 2
+            },
+            {
+              "id": "letras-al-reves-q3",
+              "number": 3
+            },
+            {
+              "id": "letras-al-reves-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "letras-al-reves-q2",
+              "number": 2
+            },
+            {
+              "id": "letras-al-reves-q3",
+              "number": 3
+            },
+            {
+              "id": "letras-al-reves-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -16694,15 +16772,41 @@
       "level": "2-primary",
       "difficulty": "initial",
       "title": "Lletres del revés",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l148a-q1",
+              "number": 1
+            },
+            {
+              "id": "l148a-q2",
+              "number": 2
+            },
+            {
+              "id": "l148a-q3",
+              "number": 3
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l148a-q1",
+              "number": 1
+            },
+            {
+              "id": "l148a-q2",
+              "number": 2
+            },
+            {
+              "id": "l148a-q3",
+              "number": 3
+            }
+          ]
         }
       }
     },
@@ -16713,15 +16817,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "Lletres del revés",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l148b-q2",
+              "number": 2
+            },
+            {
+              "id": "l148b-q4",
+              "number": 4
+            },
+            {
+              "id": "l148b-q5",
+              "number": 5
+            },
+            {
+              "id": "l148b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l148b-q2",
+              "number": 2
+            },
+            {
+              "id": "l148b-q4",
+              "number": 4
+            },
+            {
+              "id": "l148b-q5",
+              "number": 5
+            },
+            {
+              "id": "l148b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -16732,15 +16870,41 @@
       "level": "3-primary",
       "difficulty": "advanced",
       "title": "La capsa que fa la volta",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-caja-que-da-la-vuelta-q3",
+              "number": 3
+            },
+            {
+              "id": "la-caja-que-da-la-vuelta-q4",
+              "number": 4
+            },
+            {
+              "id": "la-caja-que-da-la-vuelta-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-caja-que-da-la-vuelta-q3",
+              "number": 3
+            },
+            {
+              "id": "la-caja-que-da-la-vuelta-q4",
+              "number": 4
+            },
+            {
+              "id": "la-caja-que-da-la-vuelta-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -16751,15 +16915,41 @@
       "level": "2-primary",
       "difficulty": "initial",
       "title": "La capsa que fa la volta",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l149a-q1",
+              "number": 1
+            },
+            {
+              "id": "l149a-q2",
+              "number": 2
+            },
+            {
+              "id": "l149a-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l149a-q1",
+              "number": 1
+            },
+            {
+              "id": "l149a-q2",
+              "number": 2
+            },
+            {
+              "id": "l149a-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -16770,15 +16960,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "La capsa que fa la volta",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l149b-q2",
+              "number": 2
+            },
+            {
+              "id": "l149b-q3",
+              "number": 3
+            },
+            {
+              "id": "l149b-q4",
+              "number": 4
+            },
+            {
+              "id": "l149b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l149b-q2",
+              "number": 2
+            },
+            {
+              "id": "l149b-q3",
+              "number": 3
+            },
+            {
+              "id": "l149b-q4",
+              "number": 4
+            },
+            {
+              "id": "l149b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -16789,15 +17013,41 @@
       "level": "3-primary",
       "difficulty": "advanced",
       "title": "Un got per mesurar",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-vaso-para-medir-q3",
+              "number": 3
+            },
+            {
+              "id": "un-vaso-para-medir-q5",
+              "number": 5
+            },
+            {
+              "id": "un-vaso-para-medir-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-vaso-para-medir-q3",
+              "number": 3
+            },
+            {
+              "id": "un-vaso-para-medir-q5",
+              "number": 5
+            },
+            {
+              "id": "un-vaso-para-medir-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -16808,15 +17058,41 @@
       "level": "2-primary",
       "difficulty": "initial",
       "title": "Un got per mesurar",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l150a-q1",
+              "number": 1
+            },
+            {
+              "id": "l150a-q3",
+              "number": 3
+            },
+            {
+              "id": "l150a-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l150a-q1",
+              "number": 1
+            },
+            {
+              "id": "l150a-q3",
+              "number": 3
+            },
+            {
+              "id": "l150a-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -16827,15 +17103,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "Un got per mesurar",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l150b-q2",
+              "number": 2
+            },
+            {
+              "id": "l150b-q4",
+              "number": 4
+            },
+            {
+              "id": "l150b-q5",
+              "number": 5
+            },
+            {
+              "id": "l150b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l150b-q2",
+              "number": 2
+            },
+            {
+              "id": "l150b-q4",
+              "number": 4
+            },
+            {
+              "id": "l150b-q5",
+              "number": 5
+            },
+            {
+              "id": "l150b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
