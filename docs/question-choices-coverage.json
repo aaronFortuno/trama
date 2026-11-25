@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 428,
-  "pendingWorks": 58,
-  "localizedAlternatives": 3500,
+  "coveredWorks": 433,
+  "pendingWorks": 53,
+  "localizedAlternatives": 3560,
   "ranges": [
     {
       "start": 1,
@@ -303,8 +303,8 @@
       "start": 211,
       "end": 215,
       "total": 5,
-      "covered": 0,
-      "status": "pending"
+      "covered": 5,
+      "status": "complete"
     },
     {
       "start": 216,
@@ -23380,15 +23380,65 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "La fotografia de l’angle impossible",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-fotografia-del-angulo-imposible-q1",
+              "number": 1
+            },
+            {
+              "id": "la-fotografia-del-angulo-imposible-q2",
+              "number": 2
+            },
+            {
+              "id": "la-fotografia-del-angulo-imposible-q5",
+              "number": 5
+            },
+            {
+              "id": "la-fotografia-del-angulo-imposible-q6",
+              "number": 6
+            },
+            {
+              "id": "la-fotografia-del-angulo-imposible-q7",
+              "number": 7
+            },
+            {
+              "id": "la-fotografia-del-angulo-imposible-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-fotografia-del-angulo-imposible-q1",
+              "number": 1
+            },
+            {
+              "id": "la-fotografia-del-angulo-imposible-q2",
+              "number": 2
+            },
+            {
+              "id": "la-fotografia-del-angulo-imposible-q5",
+              "number": 5
+            },
+            {
+              "id": "la-fotografia-del-angulo-imposible-q6",
+              "number": 6
+            },
+            {
+              "id": "la-fotografia-del-angulo-imposible-q7",
+              "number": 7
+            },
+            {
+              "id": "la-fotografia-del-angulo-imposible-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -23399,15 +23449,65 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "Manual per a una càpsula del temps",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "manual-para-una-capsula-del-tiempo-q2",
+              "number": 2
+            },
+            {
+              "id": "manual-para-una-capsula-del-tiempo-q3",
+              "number": 3
+            },
+            {
+              "id": "manual-para-una-capsula-del-tiempo-q4",
+              "number": 4
+            },
+            {
+              "id": "manual-para-una-capsula-del-tiempo-q5",
+              "number": 5
+            },
+            {
+              "id": "manual-para-una-capsula-del-tiempo-q6",
+              "number": 6
+            },
+            {
+              "id": "manual-para-una-capsula-del-tiempo-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "manual-para-una-capsula-del-tiempo-q2",
+              "number": 2
+            },
+            {
+              "id": "manual-para-una-capsula-del-tiempo-q3",
+              "number": 3
+            },
+            {
+              "id": "manual-para-una-capsula-del-tiempo-q4",
+              "number": 4
+            },
+            {
+              "id": "manual-para-una-capsula-del-tiempo-q5",
+              "number": 5
+            },
+            {
+              "id": "manual-para-una-capsula-del-tiempo-q6",
+              "number": 6
+            },
+            {
+              "id": "manual-para-una-capsula-del-tiempo-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -23418,15 +23518,65 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "El dret a equivocar-se a l’assaig",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-derecho-a-equivocarse-en-el-ensayo-q2",
+              "number": 2
+            },
+            {
+              "id": "el-derecho-a-equivocarse-en-el-ensayo-q4",
+              "number": 4
+            },
+            {
+              "id": "el-derecho-a-equivocarse-en-el-ensayo-q5",
+              "number": 5
+            },
+            {
+              "id": "el-derecho-a-equivocarse-en-el-ensayo-q6",
+              "number": 6
+            },
+            {
+              "id": "el-derecho-a-equivocarse-en-el-ensayo-q7",
+              "number": 7
+            },
+            {
+              "id": "el-derecho-a-equivocarse-en-el-ensayo-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-derecho-a-equivocarse-en-el-ensayo-q2",
+              "number": 2
+            },
+            {
+              "id": "el-derecho-a-equivocarse-en-el-ensayo-q4",
+              "number": 4
+            },
+            {
+              "id": "el-derecho-a-equivocarse-en-el-ensayo-q5",
+              "number": 5
+            },
+            {
+              "id": "el-derecho-a-equivocarse-en-el-ensayo-q6",
+              "number": 6
+            },
+            {
+              "id": "el-derecho-a-equivocarse-en-el-ensayo-q7",
+              "number": 7
+            },
+            {
+              "id": "el-derecho-a-equivocarse-en-el-ensayo-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -23437,15 +23587,65 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "L’estació que es va convertir en plaça",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-estacion-que-se-convirtio-en-plaza-q1",
+              "number": 1
+            },
+            {
+              "id": "la-estacion-que-se-convirtio-en-plaza-q3",
+              "number": 3
+            },
+            {
+              "id": "la-estacion-que-se-convirtio-en-plaza-q4",
+              "number": 4
+            },
+            {
+              "id": "la-estacion-que-se-convirtio-en-plaza-q5",
+              "number": 5
+            },
+            {
+              "id": "la-estacion-que-se-convirtio-en-plaza-q7",
+              "number": 7
+            },
+            {
+              "id": "la-estacion-que-se-convirtio-en-plaza-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-estacion-que-se-convirtio-en-plaza-q1",
+              "number": 1
+            },
+            {
+              "id": "la-estacion-que-se-convirtio-en-plaza-q3",
+              "number": 3
+            },
+            {
+              "id": "la-estacion-que-se-convirtio-en-plaza-q4",
+              "number": 4
+            },
+            {
+              "id": "la-estacion-que-se-convirtio-en-plaza-q5",
+              "number": 5
+            },
+            {
+              "id": "la-estacion-que-se-convirtio-en-plaza-q7",
+              "number": 7
+            },
+            {
+              "id": "la-estacion-que-se-convirtio-en-plaza-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -23456,15 +23656,65 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "Un plat amb tres viatges",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-plato-con-tres-viajes-q2",
+              "number": 2
+            },
+            {
+              "id": "un-plato-con-tres-viajes-q3",
+              "number": 3
+            },
+            {
+              "id": "un-plato-con-tres-viajes-q4",
+              "number": 4
+            },
+            {
+              "id": "un-plato-con-tres-viajes-q6",
+              "number": 6
+            },
+            {
+              "id": "un-plato-con-tres-viajes-q7",
+              "number": 7
+            },
+            {
+              "id": "un-plato-con-tres-viajes-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-plato-con-tres-viajes-q2",
+              "number": 2
+            },
+            {
+              "id": "un-plato-con-tres-viajes-q3",
+              "number": 3
+            },
+            {
+              "id": "un-plato-con-tres-viajes-q4",
+              "number": 4
+            },
+            {
+              "id": "un-plato-con-tres-viajes-q6",
+              "number": 6
+            },
+            {
+              "id": "un-plato-con-tres-viajes-q7",
+              "number": 7
+            },
+            {
+              "id": "un-plato-con-tres-viajes-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
