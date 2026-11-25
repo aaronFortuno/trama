@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 58,
+    "completedReadings": 59,
     "totalReadings": 66,
-    "completedImages": 68,
+    "completedImages": 69,
     "totalImages": 76
   },
   "readings": [
@@ -1488,9 +1488,17 @@
           "previousSrc": "assets/readings/l135-el-mapa-que-gira.svg",
           "src": "assets/readings/l135-el-mapa-que-gira-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 beautiful hand-painted map still life for Trama L135, The turning map. Fine watercolor, ink and colored-pencil on tactile cream paper, muted terracotta roofs, sage trees and fountain blue. Overhead view of ONE clearly rectangular hand-drawn neighborhood MAP lying flat and slightly rotated diagonally on a wooden park bench seat. The map shows a small paved PLAZA with a recognizable stone FOUNTAIN exactly in its centre and streets and modest buildings around the perimeter. At the LEFT of the mapped square is a small BAKERY identifiable by its STRIPED AWNING and loaves in its window. Immediately NEXT TO that bakery is a LIBRARY identifiable by a glass-front entrance and little books in its window, no written labels. Across the top side of the mapped square is a simple SCHOOL building with multiple classroom windows and a small playground, and an ordinary shop is on the right. Keep the streets and building positions coherent, a simple plausible plan with tiny painted architectural pictograms, not a complicated fantasy town or real city map. A normal pencil rests beside the single paper sheet; no extra translucent overlays, floating corners or folds. No people, hands, compasses, compass letters, arrows, route markings, street names, words, numbers, captions, panels, logos or watermark. Attractive painted paper object rather than flat vector map tiles.",
+          "visualReview": "Single flat neighborhood map has central fountain, left striped-awning bakery with adjacent book-window library, school across top and shop at right; coherent paper and mapped geography.",
+          "sha256": "9ee6164b5ef81bd5dce82f4a557c1b7d3f5d79d18fde084a5c1e0f6c87fb73ce"
         }
-      ]
+      ],
+      "edition": "v1.58.59"
     },
     {
       "code": "L143",

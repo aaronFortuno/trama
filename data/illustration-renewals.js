@@ -339,6 +339,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l140-el-billete-del-abuelo-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l135-el-mapa-que-gira.svg": {
+    "src": "assets/readings/l135-el-mapa-que-gira-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
