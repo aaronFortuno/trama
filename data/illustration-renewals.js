@@ -204,6 +204,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l085-recuerdos-en-la-maleta-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l126-el-camino-de-las-flechas.svg": {
+    "src": "assets/readings/l126-el-camino-de-las-flechas-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

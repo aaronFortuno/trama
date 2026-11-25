@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 32,
+    "completedReadings": 33,
     "totalReadings": 66,
-    "completedImages": 41,
+    "completedImages": 42,
     "totalImages": 76
   },
   "readings": [
@@ -883,9 +883,17 @@
           "previousSrc": "assets/readings/l126-el-camino-de-las-flechas.svg",
           "src": "assets/readings/l126-el-camino-de-las-flechas-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 hand-painted primary-school illustration for Trama L126, The path of arrows. Cheerful gouache, colored-pencil and pastel texture, cream hall, cobalt blue and leaf green accents, warm window light, not vector. View from a school corridor through a wide open doorway into a spacious room where a modest exhibition of colorful handmade paper MASKS is hung on the far wall. On the smooth floor, TWO clearly separate short trails of cut-paper arrows guide the route. BLUE paper arrows in the right-hand trail all point AWAY FROM THE VIEWER, through the doorway TOWARD THE MASKS. GREEN arrows in the left-hand trail all point BACK TOWARD THE VIEWER and out through the door, the opposite direction. Keep the route simple, no intersecting arrows or random turns. Each paper arrow is secured flush to the floor by small visible pieces of transparent tape at its edges, no lifted loose sheets. Near the door a tiny sign contains only a blue arrow pointing in and a green arrow pointing out, NO written words. Coherent floor perspective, realistic doorway, distinct flat paper and shadows. No people, hands, scary masks, readable letters or numbers, explanatory diagram panels, captions, logos or watermark. One attractive believable school exhibition scene.",
+          "visualReview": "Blue floor arrows consistently point into mask exhibition and green arrows point back out; all arrows taped flush, coherent doorway, floor and mask display.",
+          "sha256": "e4b55d7701da2f8e50649fb816053ed519da595f2a153fa25dfc0fcbf22338f9"
         }
-      ]
+      ],
+      "edition": "v1.58.33"
     },
     {
       "code": "L112",
