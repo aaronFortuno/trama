@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 458,
-  "pendingWorks": 28,
-  "localizedAlternatives": 3856,
+  "coveredWorks": 463,
+  "pendingWorks": 23,
+  "localizedAlternatives": 3916,
   "ranges": [
     {
       "start": 1,
@@ -345,8 +345,8 @@
       "start": 241,
       "end": 245,
       "total": 5,
-      "covered": 0,
-      "status": "pending"
+      "covered": 5,
+      "status": "complete"
     },
     {
       "start": 246,
@@ -25434,15 +25434,65 @@
       "level": "1-secondary",
       "difficulty": "advanced",
       "title": "La ciutat i el mapa de les mitjanes",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-ciudad-y-el-mapa-de-los-promedios-q3",
+              "number": 3
+            },
+            {
+              "id": "la-ciudad-y-el-mapa-de-los-promedios-q4",
+              "number": 4
+            },
+            {
+              "id": "la-ciudad-y-el-mapa-de-los-promedios-q6",
+              "number": 6
+            },
+            {
+              "id": "la-ciudad-y-el-mapa-de-los-promedios-q7",
+              "number": 7
+            },
+            {
+              "id": "la-ciudad-y-el-mapa-de-los-promedios-q9",
+              "number": 9
+            },
+            {
+              "id": "la-ciudad-y-el-mapa-de-los-promedios-q10",
+              "number": 10
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-ciudad-y-el-mapa-de-los-promedios-q3",
+              "number": 3
+            },
+            {
+              "id": "la-ciudad-y-el-mapa-de-los-promedios-q4",
+              "number": 4
+            },
+            {
+              "id": "la-ciudad-y-el-mapa-de-los-promedios-q6",
+              "number": 6
+            },
+            {
+              "id": "la-ciudad-y-el-mapa-de-los-promedios-q7",
+              "number": 7
+            },
+            {
+              "id": "la-ciudad-y-el-mapa-de-los-promedios-q9",
+              "number": 9
+            },
+            {
+              "id": "la-ciudad-y-el-mapa-de-los-promedios-q10",
+              "number": 10
+            }
+          ]
         }
       }
     },
@@ -25453,15 +25503,65 @@
       "level": "1-secondary",
       "difficulty": "advanced",
       "title": "Inventari d’una habitació buida",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "inventario-de-una-habitacion-vacia-q4",
+              "number": 4
+            },
+            {
+              "id": "inventario-de-una-habitacion-vacia-q5",
+              "number": 5
+            },
+            {
+              "id": "inventario-de-una-habitacion-vacia-q6",
+              "number": 6
+            },
+            {
+              "id": "inventario-de-una-habitacion-vacia-q8",
+              "number": 8
+            },
+            {
+              "id": "inventario-de-una-habitacion-vacia-q9",
+              "number": 9
+            },
+            {
+              "id": "inventario-de-una-habitacion-vacia-q10",
+              "number": 10
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "inventario-de-una-habitacion-vacia-q4",
+              "number": 4
+            },
+            {
+              "id": "inventario-de-una-habitacion-vacia-q5",
+              "number": 5
+            },
+            {
+              "id": "inventario-de-una-habitacion-vacia-q6",
+              "number": 6
+            },
+            {
+              "id": "inventario-de-una-habitacion-vacia-q8",
+              "number": 8
+            },
+            {
+              "id": "inventario-de-una-habitacion-vacia-q9",
+              "number": 9
+            },
+            {
+              "id": "inventario-de-una-habitacion-vacia-q10",
+              "number": 10
+            }
+          ]
         }
       }
     },
@@ -25472,15 +25572,65 @@
       "level": "1-secondary",
       "difficulty": "advanced",
       "title": "Un aplaudiment fora de temps",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-aplauso-fuera-de-tiempo-q4",
+              "number": 4
+            },
+            {
+              "id": "un-aplauso-fuera-de-tiempo-q5",
+              "number": 5
+            },
+            {
+              "id": "un-aplauso-fuera-de-tiempo-q6",
+              "number": 6
+            },
+            {
+              "id": "un-aplauso-fuera-de-tiempo-q7",
+              "number": 7
+            },
+            {
+              "id": "un-aplauso-fuera-de-tiempo-q8",
+              "number": 8
+            },
+            {
+              "id": "un-aplauso-fuera-de-tiempo-q10",
+              "number": 10
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-aplauso-fuera-de-tiempo-q4",
+              "number": 4
+            },
+            {
+              "id": "un-aplauso-fuera-de-tiempo-q5",
+              "number": 5
+            },
+            {
+              "id": "un-aplauso-fuera-de-tiempo-q6",
+              "number": 6
+            },
+            {
+              "id": "un-aplauso-fuera-de-tiempo-q7",
+              "number": 7
+            },
+            {
+              "id": "un-aplauso-fuera-de-tiempo-q8",
+              "number": 8
+            },
+            {
+              "id": "un-aplauso-fuera-de-tiempo-q10",
+              "number": 10
+            }
+          ]
         }
       }
     },
@@ -25491,15 +25641,65 @@
       "level": "1-secondary",
       "difficulty": "advanced",
       "title": "El preu d’una comoditat",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-precio-de-una-comodidad-q3",
+              "number": 3
+            },
+            {
+              "id": "el-precio-de-una-comodidad-q4",
+              "number": 4
+            },
+            {
+              "id": "el-precio-de-una-comodidad-q5",
+              "number": 5
+            },
+            {
+              "id": "el-precio-de-una-comodidad-q6",
+              "number": 6
+            },
+            {
+              "id": "el-precio-de-una-comodidad-q8",
+              "number": 8
+            },
+            {
+              "id": "el-precio-de-una-comodidad-q10",
+              "number": 10
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-precio-de-una-comodidad-q3",
+              "number": 3
+            },
+            {
+              "id": "el-precio-de-una-comodidad-q4",
+              "number": 4
+            },
+            {
+              "id": "el-precio-de-una-comodidad-q5",
+              "number": 5
+            },
+            {
+              "id": "el-precio-de-una-comodidad-q6",
+              "number": 6
+            },
+            {
+              "id": "el-precio-de-una-comodidad-q8",
+              "number": 8
+            },
+            {
+              "id": "el-precio-de-una-comodidad-q10",
+              "number": 10
+            }
+          ]
         }
       }
     },
@@ -25510,15 +25710,65 @@
       "level": "1-secondary",
       "difficulty": "advanced",
       "title": "Una notícia escrita dues vegades",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-noticia-escrita-dos-veces-q4",
+              "number": 4
+            },
+            {
+              "id": "una-noticia-escrita-dos-veces-q5",
+              "number": 5
+            },
+            {
+              "id": "una-noticia-escrita-dos-veces-q7",
+              "number": 7
+            },
+            {
+              "id": "una-noticia-escrita-dos-veces-q8",
+              "number": 8
+            },
+            {
+              "id": "una-noticia-escrita-dos-veces-q9",
+              "number": 9
+            },
+            {
+              "id": "una-noticia-escrita-dos-veces-q10",
+              "number": 10
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-noticia-escrita-dos-veces-q4",
+              "number": 4
+            },
+            {
+              "id": "una-noticia-escrita-dos-veces-q5",
+              "number": 5
+            },
+            {
+              "id": "una-noticia-escrita-dos-veces-q7",
+              "number": 7
+            },
+            {
+              "id": "una-noticia-escrita-dos-veces-q8",
+              "number": 8
+            },
+            {
+              "id": "una-noticia-escrita-dos-veces-q9",
+              "number": 9
+            },
+            {
+              "id": "una-noticia-escrita-dos-veces-q10",
+              "number": 10
+            }
+          ]
         }
       }
     },
