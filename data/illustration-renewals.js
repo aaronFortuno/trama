@@ -294,6 +294,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l151-una-marca-en-la-roca-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l141-el-cartel-de-la-fuente.svg": {
+    "src": "assets/readings/l141-el-cartel-de-la-fuente-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

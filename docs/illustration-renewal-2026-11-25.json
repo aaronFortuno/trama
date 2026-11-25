@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 49,
+    "completedReadings": 50,
     "totalReadings": 66,
-    "completedImages": 59,
+    "completedImages": 60,
     "totalImages": 76
   },
   "readings": [
@@ -1285,9 +1285,17 @@
           "previousSrc": "assets/readings/l141-el-cartel-de-la-fuente.svg",
           "src": "assets/readings/l141-el-cartel-de-la-fuente-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 hand-painted park scene for Trama L141, The fountain sign. Fine watercolor and colored pencil with tactile paper grain, leafy summer green, muted sage kiosk, ochre footpath and soft sky. View from a small park ENTRANCE gate. Immediately inside, a simple wooden signpost has ONE arrow pointing LEFT along a path toward a distant sandbox/play area; on the arrow is only a tiny recognizable bucket-and-spade pictogram, NO lettering. In the CENTRE-RIGHT stands a modest park kiosk with a low roof, and tall densely leafy trees behind and beside it. The kiosk and trees COMPLETELY BLOCK the view of the drinking fountain that would be behind them: do NOT show a fountain, tap, water jet or water sign anywhere visible from this viewpoint. The main path branches coherently around the kiosk, so there is a real route toward the hidden area, but the only current sign points toward games. A few benches and shrubs frame the quiet park, modest natural architecture and supported objects, no maze or fantastical geometry. No people or hands necessary. One inviting believable scene, not a map or diagram. No readable text, letters, numbers, explanatory arrows beyond the actual wooden sign, captions, panels, logos or watermark. Rich painted detail, not flat vector placeholder.",
+          "visualReview": "Kiosk and tall trees obscure fountain from entrance; only current sign points left toward actual play area with bucket/spade pictogram, coherent branching paths.",
+          "sha256": "8372f6932f10c83efe12cc2ffd7082f5c37f8b44c94ef1d90d04a0c5344b5f4b"
         }
-      ]
+      ],
+      "edition": "v1.58.50"
     },
     {
       "code": "L136",
