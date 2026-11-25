@@ -54,6 +54,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/ballena-fotos-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l122-el-ritmo-de-los-vasos.svg": {
+    "src": "assets/readings/l122-el-ritmo-de-los-vasos-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

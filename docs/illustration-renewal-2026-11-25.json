@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 9,
+    "completedReadings": 10,
     "totalReadings": 66,
-    "completedImages": 11,
+    "completedImages": 12,
     "totalImages": 76
   },
   "readings": [
@@ -257,9 +257,18 @@
           "previousSrc": "assets/readings/l122-el-ritmo-de-los-vasos.svg",
           "src": "assets/readings/l122-el-ritmo-de-los-vasos-illustration.webp",
           "afterParagraph": 2,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Landscape 3:2 painted illustration for Trama L122, The rhythm of the cups. Playful tactile gouache and oil-pastel storybook art with muted turquoise, orange and pale violet, visible paper grain, clear uncluttered forms. Two primary pupils about ten sit facing each other across a small sturdy wooden classroom table. In front of EACH child is ONE empty reusable hard-plastic cup standing upright on its base; two cups in total, no glass, no drinks. One child in a red sweatshirt, with short dark straight hair, has palms meeting naturally at chest level in a simple clap. The other child, with cropped curly blond hair and a blue patterned T-shirt, keeps both hands resting flat on the table beside their own cup, waiting for their turn. We see them in a clear side three-quarter view so both faces and the tabletop are visible. Each child has exactly two correctly attached arms and anatomically natural hands, no duplicated fingers or phantom hands. Cups cast coherent shadows and are not floating. Background suggests a schoolroom with soft daylight and shelves, not a performance stage. No uniforms, floating musical notes, numbers, written rhythms, text, arrows, panels, logo or watermark.",
+          "editPrompt": "Use case: precise-anatomy-edit. Correct ONLY one anatomical error in the supplied painted classroom scene. The blond child on the RIGHT currently has three hands on the tabletop. REMOVE the stray disconnected hand that lies immediately to the LEFT of the turquoise cup (viewer-left side of that cup, approximately x57%, y71%). Replace that small hand completely with the existing natural wood grain and table color. Keep BOTH correctly attached hands of the blond child: the hand connected to the forearm immediately to the RIGHT of the turquoise cup, and the farther-right hand resting at the table's front edge. After the edit the blond child must have exactly two arms and exactly two hands, each correctly attached. Do not move or redraw either real arm, cup, face, clothing, table, other child or clapping hands. Preserve composition, gouache and crayon texture, colors, lighting and all other details exactly. This is a small local removal of a phantom third hand.",
+          "visualReview": "After a targeted edit removed a phantom third hand, both children have two correctly attached hands; one claps while the other waits, with two upright empty plastic cups.",
+          "sha256": "45acf4d12bcf888b881d3b73b5d7c34c5203e0698516cba81cf635c69577f329"
         }
-      ]
+      ],
+      "edition": "v1.58.10"
     },
     {
       "code": "L087",
