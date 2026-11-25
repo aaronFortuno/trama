@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 52,
+    "completedReadings": 53,
     "totalReadings": 66,
-    "completedImages": 62,
+    "completedImages": 63,
     "totalImages": 76
   },
   "readings": [
@@ -1354,9 +1354,17 @@
           "previousSrc": "assets/readings/cartel-quiosco.svg",
           "src": "assets/readings/cartel-quiosco-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 warm detailed hand-painted illustration for Trama L001, The poster in the square. Fine gouache, watercolor and colored-pencil textures, friendly Mediterranean neighborhood plaza, sage kiosk, terracotta buildings, soft green dragon and golden morning light. Two children aged ten, Nora with short natural dark curls and an ochre T-shirt, and Saúl with straight sandy hair and a casual blue hoodie, sit waiting on a normal bench beside a SMALL HANDCART FULL OF STORYBOOKS. A modest closed park/plaza kiosk behind them carries ONE large WHITE paper poster. The poster's upper area is dominated by a big cheerful GREEN DRAGON drawing; beneath it are a few small EXTREMELY PALE YELLOW handwriting-like lines on white, nearly unreadable from a distance. No readable words are needed, but the poor yellow-on-white contrast should be evident; do not add bold black corrective lettering yet. Across the same dry paved square, in the visible background, stands a small stone fountain, physically separate from kiosk and cart. Children have simple natural seated poses, two arms and hands each resting on laps, ordinary varied clothes, no uniforms. Real cart wheels, handle, books, bench and kiosk geometry, coherent shadows. No flying books, extra hands, lettering, arrows, explanatory panels, captions, logos or watermark. One inviting everyday book-exchange scene, not flat vector clipart.",
+          "visualReview": "Two waiting children with natural seated hands, supported book cart and kiosk poster dominated by dragon over low-contrast pale yellow marks; fountain visible across plaza.",
+          "sha256": "7d9e7023149fc606fcfaa7804bf31224b3b9399c8820ef88cfcfbc4dd12182a8"
         }
-      ]
+      ],
+      "edition": "v1.58.53"
     },
     {
       "code": "L154",
