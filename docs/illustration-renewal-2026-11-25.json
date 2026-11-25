@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 15,
+    "completedReadings": 16,
     "totalReadings": 66,
-    "completedImages": 20,
+    "completedImages": 21,
     "totalImages": 76
   },
   "readings": [
@@ -439,9 +439,17 @@
           "previousSrc": "assets/readings/l130-la-entrada-de-carton.svg",
           "src": "assets/readings/l130-la-entrada-de-carton-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One warm intimate landscape 3:2 picture-book painting for Trama L130, The cardboard ticket. Soft oil pastel and gouache, tactile paper, deep dusk blue and glowing lamp amber, cheerful handmade home theater. Main foreground focus: a normal wooden dining chair positioned beside a small switched-on floor lamp in a modest living room. On the empty chair seat rests ONE small rectangular hand-cut cardboard ticket with a clearly painted crescent MOON symbol and no writing. This is the chair reserved for a father who will arrive late. In the middle distance, three other small chairs are lined up facing a homemade cardboard puppet stage with simple colored curtains. One or two small rod-puppet heads are visible just above the stage edge, correctly supported, no loose extra hands. The stage and chairs have coherent spatial orientation, all audience seating faces the stage. The foreground chair and moon ticket must remain large and clear. No people required; suggest an inviting family performance about to happen. Real furniture anatomy and coherent floor shadows, lamp light softly localized. No readable text, lettering, numbers, posters, speech bubbles, split panels, logo or watermark. Rich painted textures, not a crude vector placeholder.",
+          "visualReview": "Cardboard moon ticket clearly rests on the reserved chair beside the lamp; three additional chairs and handmade puppet stage evoke the home performance, coherent painted lighting and materials.",
+          "sha256": "1dbc3916e35a25d1ccf1bf94f4eb5444ed5e349117bd7460fbedf7776803ad30"
         }
-      ]
+      ],
+      "edition": "v1.58.16"
     },
     {
       "code": "L008",

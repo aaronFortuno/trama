@@ -99,6 +99,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l110-una-rueda-floja-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l130-la-entrada-de-carton.svg": {
+    "src": "assets/readings/l130-la-entrada-de-carton-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
