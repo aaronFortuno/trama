@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 37,
+    "completedReadings": 38,
     "totalReadings": 66,
-    "completedImages": 46,
+    "completedImages": 47,
     "totalImages": 76
   },
   "readings": [
@@ -998,9 +998,18 @@
           "previousSrc": "assets/readings/l117-el-cajon-de-las-piezas-sueltas.svg",
           "src": "assets/readings/l117-el-cajon-de-las-piezas-sueltas-illustration.webp",
           "afterParagraph": 2,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Create a landscape 3:2 inviting hand-painted community game-room illustration for Trama L117, The drawer of loose pieces. Finely textured gouache and colored pencil, warm oak, muted vermilion, teal and yellow, cream daylight. Main subject is a small REAL wooden drawer pulled open partway from a low storage cabinet, still supported in its runners. Inside the drawer are neatly loose spare board-game parts from DIFFERENT games: a few round red and blue counters, one green standing pawn, two ordinary white six-sided dice with correctly spaced black pip patterns, and a small stack of rectangular picture-matching cards. The top few cards have simple original dog and cat drawings but no writing, familiar generic animals not copyrighted characters. A couple of larger plain wooden tokens are beside them. Every piece rests naturally inside the drawer or atop another solid piece, no floating tokens, fused dice or impossible drawer back. The tabletop above holds a closed plain board-game box, no brand or title. Soft background hints at a community playroom with a table and chairs, not a toy store. No people, hands, readable letters or numerals, explanatory labels, arrows, split panels, captions, logos or watermark. Rich tactile painted materials and coherent perspective, not flat vector clipart.",
+          "editPrompt": "Use case: precise-object-edit. Correct ONLY the black pip markings on the LARGER LEFT wooden die inside the open drawer, around x37%, y62%, without changing its cube shape, position, perspective or material. Its three visible faces must show three DIFFERENT valid standard die values: TOP face exactly FIVE pips in a quincunx (four corners and centre); viewer-LEFT vertical face exactly THREE pips along a diagonal; viewer-RIGHT vertical face exactly ONE centred pip. Remove all old extra pips on those faces before applying these clean counts, each dot lies flat on its own face. Preserve the smaller right die entirely. Preserve drawer, pawn, tokens, cards, dog/cat drawings, furniture, light, framing and painted texture exactly. Only the larger die's painted dots change; no labels, text, arrows or new objects.",
+          "visualReview": "Supported open drawer contains separate spare counters, standing pawn, animal matching cards and dice; targeted edit gives larger die valid distinct 5/3/1 visible faces.",
+          "sha256": "1f90adeb56366fb041c0e5396530aa7841f5e7d455efe6ef1dd7312a4677c4c0"
         }
-      ]
+      ],
+      "edition": "v1.58.38"
     },
     {
       "code": "L145",

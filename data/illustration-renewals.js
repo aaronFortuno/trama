@@ -229,6 +229,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l133-un-mensaje-en-la-nevera-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l117-el-cajon-de-las-piezas-sueltas.svg": {
+    "src": "assets/readings/l117-el-cajon-de-las-piezas-sueltas-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
