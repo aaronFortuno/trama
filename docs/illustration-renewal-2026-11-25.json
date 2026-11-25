@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 18,
+    "completedReadings": 19,
     "totalReadings": 66,
-    "completedImages": 25,
+    "completedImages": 26,
     "totalImages": 76
   },
   "readings": [
@@ -535,9 +535,17 @@
           "previousSrc": "assets/readings/l146-rotulos-que-no-se-borran.svg",
           "src": "assets/readings/l146-rotulos-que-no-se-borran-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Create one landscape 3:2 hand-painted school-garden illustration for Trama L146, Signs that do not wash away. Textured gouache with fine black pencil detail, fresh sage green, ochre and off-white, lively natural daylight, not vector art. Close view of an outdoor gardening workbench. Two identical small flat white plastic label rectangles lie side by side, freshly water-tested and still carrying a few water beads. Each rectangle originally had THREE short parallel BLACK marker strokes. On the left rectangle the three strokes remain crisp and dark; on the right the three strokes are now visibly pale and washed out with very faint gray smudging, not gone completely. Two ordinary different black-ink felt-tip markers lie beside their corresponding plastic samples, with simple plain unbranded barrels and caps, one forest-green barrel and one brown barrel. A small watering jug is set aside; a softly blurred school vegetable bed and some green seedlings are behind. The focus is the two equal plastic samples and the ink's different survival, not plants labeled with words. Coherent scale, damp surfaces and shadows, no people or hands. No letters, written plant names, numerals, arrows, labels, speech bubbles, split diagrams, captions, logos or watermark.",
+          "visualReview": "Two equal plastic samples have three matching black-ink strokes each, one still dark and the other washed pale; corresponding unbranded markers and damp garden workbench are coherent.",
+          "sha256": "226a0e3c5c7d31971f457fee5afdd3bc30d381eaca1bd807925b9d59885d71e2"
         }
-      ]
+      ],
+      "edition": "v1.58.19"
     },
     {
       "code": "L150",

@@ -124,6 +124,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/puente-plegado-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l146-rotulos-que-no-se-borran.svg": {
+    "src": "assets/readings/l146-rotulos-que-no-se-borran-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
