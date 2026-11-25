@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 6,
+    "completedReadings": 7,
     "totalReadings": 66,
-    "completedImages": 7,
+    "completedImages": 8,
     "totalImages": 76
   },
   "readings": [
@@ -174,9 +174,17 @@
           "previousSrc": "assets/readings/l137-gotas-que-se-juntan.svg",
           "src": "assets/readings/l137-gotas-que-se-juntan-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 close-up botanical schoolbook painting for Trama L137, Drops joining together. Delicate natural-history watercolor with fine colored-pencil detail and tactile ivory paper, fresh greens, soft neutral wood, no vector look. On the horizontal wooden seat of a schoolyard bench lie two separate items side by side: at LEFT one small sheet of ordinary uncoated pale paper with exactly three dark irregular damp absorbed-water patches, entirely flat with no spherical beads; at RIGHT a single freshly picked glossy five-lobed green ivy leaf, upper waxy surface facing up, with rounded translucent water beads sitting on it, including two neighboring droplets and one somewhat larger round bead. Keep each droplet physically seated on the leaf with tiny reflections and correct curved highlights. A glass eyedropper lies safely beside them, not leaking. Very gently blurred schoolyard foliage in the background. No children or hands, no labels, words, numbers, arrows, frames, split panels, captions, logo or watermark. The comparison should be visible through the realistically painted materials in ONE continuous tabletop scene, never through explanatory diagram lettering.",
+          "visualReview": "Three absorbed flat water patches on uncoated paper contrast clearly with two small and one larger rounded droplets on a recognizable ivy leaf; coherent bench and eyedropper.",
+          "sha256": "e24d4f1ddeeb0fdfedeb9d1cb4009a7039ac89d178d073dcadd36943b0fe542d"
         }
-      ]
+      ],
+      "edition": "v1.58.7"
     },
     {
       "code": "L108",

@@ -34,6 +34,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l114-la-sombra-del-titere-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l137-gotas-que-se-juntan.svg": {
+    "src": "assets/readings/l137-gotas-que-se-juntan-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
