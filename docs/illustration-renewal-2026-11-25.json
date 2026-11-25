@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 23,
+    "completedReadings": 24,
     "totalReadings": 66,
-    "completedImages": 30,
+    "completedImages": 31,
     "totalImages": 76
   },
   "readings": [
@@ -649,9 +649,17 @@
           "previousSrc": "assets/readings/l147-un-ritmo-bajo-el-suelo.svg",
           "src": "assets/readings/l147-un-ritmo-bajo-el-suelo-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 painted school-story illustration for Trama L147, A rhythm under the floor. Lively fine ink, watercolor and pastel texture, warm ochre school corridor with teal doors and cream floor, gentle natural light. Low three-quarter view down a real primary-school hallway. Main subject is an ordinary small four-wheeled school utility trolley with a simple metal frame, two shelves holding a few closed storage boxes and a proper push handle. Its front and rear casters are correctly attached and rest on the floor, no phantom wheels. Near an open classroom doorway, the floor has THREE conspicuous parallel shallow expansion joints running across the corridor, close to one another and clearly darker and deeper than the otherwise smooth pale floor. The trolley is positioned partway over them: its FRONT wheels have passed onto smooth floor beyond the third joint; its REAR wheels are still near the first joint. Wheelbase is long enough for this arrangement. Coherent architectural and trolley perspective. The open classroom suggests a bright uncluttered dance-practice room beyond, no written signs or dramatic mystery imagery. No people, hands, written sound effects, musical notes, arrows, text, numbers, split panels, logos or watermark. A single believable physical scene, detailed hand-painted textures rather than flat vector art.",
+          "visualReview": "Realistic four-caster trolley crosses three clearly distinct floor joints beside an open dance room; wheels, shelf supports, boxes and floor contacts are coherent.",
+          "sha256": "77867f595975b7fca255c1598eff98ebe1682b517c963dbbaf78626325abb13f"
         }
-      ]
+      ],
+      "edition": "v1.58.24"
     },
     {
       "code": "L105",
