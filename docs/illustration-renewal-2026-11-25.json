@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 42,
+    "completedReadings": 43,
     "totalReadings": 66,
-    "completedImages": 52,
+    "completedImages": 53,
     "totalImages": 76
   },
   "readings": [
@@ -1128,9 +1128,17 @@
           "previousSrc": "assets/readings/l125-una-barca-para-dos.svg",
           "src": "assets/readings/l125-una-barca-para-dos-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 lovely hand-painted science-play illustration for Trama L125, A boat for two. Delicate watercolor, gouache and colored pencil on textured cream paper, cork tan, pale turquoise water, bright blue and red accents. Close view into a wide shallow household washbasin filled with calm water. Floating level on its surface is ONE small homemade boat made from a broad flat piece of CORK, visibly lightweight and naturally buoyant. A slim wooden mast rises vertically from its centre and supports one small triangular PAPER sail with a simple pale yellow stripe. Exactly TWO ordinary large flat sewing BUTTONS are the passengers: one BLUE button rests flat on the left side of the cork deck and one RED button rests flat on the right side, equal distances from the central mast, balanced and safely above the water. Each button has a few real sewing holes. The deck is wide enough for these buttons and the mast; no impossible buttons balancing on a round rolling cork. Tiny ripples around the hull, correct waterline and reflections, coherent basin ellipse, a dry folded towel beside the basin. No people, hands, blowing faces, text, letters, numbers, arrows, split diagram panels, logos or watermark. One clear appealing physical scene, not a vector icon.",
+          "visualReview": "Cork boat floats level with blue and red buttons on opposite sides of a supported central mast; plausible waterline, reflection, paper sail and balanced deck.",
+          "sha256": "4ab6a1b0d36bd9ccf9c84371a524caa3ea55256ea78e9479ca9b1ec0d3a7bf40"
         }
-      ]
+      ],
+      "edition": "v1.58.43"
     },
     {
       "code": "L148",

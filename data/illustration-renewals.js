@@ -259,6 +259,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l156-la-pieza-que-bailaba-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l125-una-barca-para-dos.svg": {
+    "src": "assets/readings/l125-una-barca-para-dos-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
