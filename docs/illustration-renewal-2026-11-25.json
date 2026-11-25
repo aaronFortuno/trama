@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 11,
+    "completedReadings": 12,
     "totalReadings": 66,
-    "completedImages": 14,
+    "completedImages": 16,
     "totalImages": 76
   },
   "readings": [
@@ -318,16 +318,31 @@
           "previousSrc": "assets/readings/l088-quiosco-en-la-plaza.webp",
           "src": "assets/readings/l088-quiosco-en-la-plaza-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Create a landscape 3:2 hand-painted urban sketch illustration for Trama L088, Two letters for a shutter. Detailed pen, colored pencil and watercolor with visible paper grain, muted sage metal, terracotta facades, soft gold stone paving. A small old freestanding rectangular neighborhood kiosk stands in a Mediterranean public square, seen in a convincing three-quarter perspective. Its front metal roller shutter is COMPLETELY LOWERED and undecorated. A small cream paper notice is attached to the front shutter, too small and distant to read, just faint tiny gray rules. The solid side wall is plain and visible. The kiosk looks maintained but modest, not derelict, no graffiti; a real tree, bench and distant residential facades frame the quiet plaza. Morning sunlight, coherent kiosk roof, metal shutter tracks and ground shadows. No people are needed. Focus is the ordinary closed kiosk and how inconspicuous the little notice is from the square. No legible words, book mural, brand signs, magical objects, arrows, panels, logos or watermark. Attractive realistic painted architecture for sixth-grade reading, not a flat SVG or 3D render.",
+          "visualReview": "Coherent freestanding kiosk with fully closed plain roller shutter and genuinely small notice, visible blank side wall, plausible plaza and architecture.",
+          "sha256": "ce21cbc2efd38b5c112a1e9f6da2f70be31978302165842689f9b992f6e0af37"
         },
         {
           "id": "pruebas-de-cartel",
           "previousSrc": "assets/readings/l088-pruebas-de-cartel.webp",
           "src": "assets/readings/l088-pruebas-de-cartel-illustration.webp",
           "afterParagraph": 4,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Companion landscape 3:2 hand-painted still life for Trama L088, Two letters for a shutter. Match the reference's fine pen, colored-pencil and watercolor texture, cream paper, sage green and terracotta palette. NEW overhead scene on a broad wooden neighborhood workshop table: two clearly separate poster mock-ups of EXACTLY THE SAME PAPER SIZE lie side by side. Each mock-up has the same simple hand-drawn pictogram of two stylized hands passing a small closed book, but the pictogram is LARGE on the left mock-up and much SMALLER on the right. Beneath each pictogram are a few faint short horizontal layout rules suggesting opening-hour information, with no legible characters, letters or numbers. In the pictograms, each hand grows from a clear wrist entering from its own side, natural five-finger silhouette, each supporting an opposite end of ONE book; clean and simple, no extra hands or bent impossible anatomy. A pencil, a watercolor brush and a small roll of masking tape sit beside the sheets, ordinary real objects, not floating. Two distinct solid flat paper sheets, clear corners and consistent shadows, no ghost overlaps. No real people or hands in the scene, no writing, arrows, labels, diagrams, captions, logo or watermark. The image should show genuine painted design drafts, not a polished computer UI or vector infographic.",
+          "visualReview": "Equal-sized flat poster drafts compare large and small versions of the book-handover drawing; two attached stylized hands per drawing, consistent paper and table geometry.",
+          "sha256": "30a37c866be51e645b08d45dfe7fa2776882dbdca82b5b519c336c7497121d97"
         }
-      ]
+      ],
+      "edition": "v1.58.12"
     },
     {
       "code": "L086",

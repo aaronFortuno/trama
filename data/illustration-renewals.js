@@ -69,6 +69,16 @@ export const illustrationRenewals = {
     "src": "assets/readings/l087-escucha-en-la-sala-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l088-quiosco-en-la-plaza.webp": {
+    "src": "assets/readings/l088-quiosco-en-la-plaza-illustration.webp",
+    "width": 1100,
+    "height": 733
+  },
+  "assets/readings/l088-pruebas-de-cartel.webp": {
+    "src": "assets/readings/l088-pruebas-de-cartel-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
