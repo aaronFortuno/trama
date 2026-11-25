@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 41,
+    "completedReadings": 42,
     "totalReadings": 66,
-    "completedImages": 51,
+    "completedImages": 52,
     "totalImages": 76
   },
   "readings": [
@@ -1105,9 +1105,17 @@
           "previousSrc": "assets/readings/l156-la-pieza-que-bailaba.svg",
           "src": "assets/readings/l156-la-pieza-que-bailaba-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 lively painted children's-book still life for Trama L156, The wobbling piece. Tactile gouache and colored-pencil hatching, natural wood, red, yellow and sky-blue accents, warm classroom daylight. On a low sturdy play table stands a small stable tower assembled from real simple wooden construction blocks with visible grain. At its top is ONE red cylindrical wooden cap fitted securely into the block below, supporting a thin upright flagpole with a small plain BLUE triangular fabric flag; the pole and cap are straight, not leaning. Beside the tower on the tabletop lies the discarded YELLOW cap of the same general upper shape and height, tipped onto its side so its much NARROWER short lower wooden peg can be seen. The red installed piece has a wider snug fitting base; distinguish the removed yellow piece from the red successful piece, no duplicate caps at tower top. A couple of plain spare wooden blocks with simple round sockets lie nearby. Real physical joins, safe large toy parts, coherent support and perspective, no floating flag or balancing impossible blocks. No people or hands required, no handwritten note or text, labels, arrows, dashed outlines, diagram panels, logos or watermark. Appealing handmade-material detail, not plastic branded bricks or a flat vector placeholder.",
+          "visualReview": "Stable wooden tower has red fitted top and upright blue flag; discarded yellow cap shows narrow lower peg, separate socket blocks and coherent physical support.",
+          "sha256": "a111b2fc9eaf576b041af0b63d760057e0219efc537d0d4b693ed521e9e89ebf"
         }
-      ]
+      ],
+      "edition": "v1.58.42"
     },
     {
       "code": "L125",

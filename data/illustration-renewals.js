@@ -254,6 +254,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/agua-canal-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l156-la-pieza-que-bailaba.svg": {
+    "src": "assets/readings/l156-la-pieza-que-bailaba-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
