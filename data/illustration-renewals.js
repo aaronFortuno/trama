@@ -329,6 +329,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l153-un-patio-dos-noticias-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l139-la-cuerda-del-huerto.svg": {
+    "src": "assets/readings/l139-la-cuerda-del-huerto-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

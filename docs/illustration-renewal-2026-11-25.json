@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 56,
+    "completedReadings": 57,
     "totalReadings": 66,
-    "completedImages": 66,
+    "completedImages": 67,
     "totalImages": 76
   },
   "readings": [
@@ -1443,9 +1443,17 @@
           "previousSrc": "assets/readings/l139-la-cuerda-del-huerto.svg",
           "src": "assets/readings/l139-la-cuerda-del-huerto-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 warm detailed painted gardening illustration for Trama L139, The vegetable-garden string. Delicate watercolor, gouache and fine colored-pencil strokes, rich soil brown, fresh green pea seeds, natural string and sunlit wood, tactile cream paper texture. Close three-quarter overhead view of a small school vegetable bed. Exactly TWO short wooden stakes are firmly pushed into the soil at opposite ends of a straight planting row. ONE taut natural cotton STRING is tied between them a few centimetres above the soil. The string has FIVE clearly visible small ordinary knots at REGULARLY SPACED intervals. On the earth immediately BESIDE each knot is one small round planting hole, five holes in a straight row with the same spacing; the knots serve as practical markers. A few dry green pea seeds sit in a small shallow bowl beside the row, and one pea is visible at the bottom of the nearest hole, the others still open during planting. A simple hand trowel and a small watering can rest safely off to the side, not pouring water. Correct string ties, support, soil contacts and perspective, no string floating unattached or huge knots. No people or hands, labels, ruler numerals, text, arrows, diagram panels, captions, logos or watermark. Beautiful physical scene, not a flat vector gardening diagram.",
+          "visualReview": "Taut string tied to two firm stakes has five regular knots aligned with five adjacent planting holes; one pea planted, others ready, coherent tools and garden perspective.",
+          "sha256": "b3790051ea1e444d092a559f82ae043547b6f92966e7852c18e00646b41eb9f6"
         }
-      ]
+      ],
+      "edition": "v1.58.57"
     },
     {
       "code": "L140",
