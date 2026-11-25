@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 59,
+    "completedReadings": 60,
     "totalReadings": 66,
-    "completedImages": 69,
+    "completedImages": 70,
     "totalImages": 76
   },
   "readings": [
@@ -1510,9 +1510,17 @@
           "previousSrc": "assets/readings/l143-una-rampa-distinta.svg",
           "src": "assets/readings/l143-una-rampa-distinta-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 lively but physically precise hand-painted experiment illustration for Trama L143, A different ramp. Tactile gouache and fine colored-pencil, natural wooden board, muted red and blue toy cars, cream and warm honey classroom table, no vector look. A single broad smooth WOODEN PLANK forms a gentle ramp: its higher LEFT end rests securely on ONE thick CLOSED hardback book, and its lower RIGHT end makes direct contact with the tabletop. The board is not floating, thin enough to be real wood, with one small natural wood knot lower down. A single strip of WHITE MASKING TAPE runs across the width of the board near its upper end as a shared starting line. Exactly TWO small four-wheeled toy cars, one RED and one BLUE, are side by side at the SAME height on the ramp, just beginning to roll down to the right; their FRONT WHEELS align equally with the same tape line. Both cars face DOWN the slope, wheels all rest plausibly on the wood surface, no reversed car, extra wheels or hidden propulsion. Clear elevated three-quarter side view shows support book, slope, line and both cars. No people or hands, speed arrows, written rankings, numbers, labels, diagram panels, captions, logos or watermark. Attractive rich painted materials for a primary-school fair-test story.",
+          "visualReview": "Two same-direction toy cars start aligned with one tape line on supported wooden ramp; high end rests on book and low end meets table, wheel contacts and slope coherent.",
+          "sha256": "8be295c5ea329df5cf999c038c1196da97e709eb9a3fc7140b2ebc4064a0f40c"
         }
-      ]
+      ],
+      "edition": "v1.58.60"
     },
     {
       "code": "L134",

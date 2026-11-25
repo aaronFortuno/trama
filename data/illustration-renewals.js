@@ -344,6 +344,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l135-el-mapa-que-gira-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l143-una-rampa-distinta.svg": {
+    "src": "assets/readings/l143-una-rampa-distinta-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
