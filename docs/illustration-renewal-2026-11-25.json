@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 34,
+    "completedReadings": 35,
     "totalReadings": 66,
-    "completedImages": 43,
+    "completedImages": 44,
     "totalImages": 76
   },
   "readings": [
@@ -929,9 +929,17 @@
           "previousSrc": "assets/readings/l124-sombras-en-el-patio.svg",
           "src": "assets/readings/l124-sombras-en-el-patio-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. A landscape 3:2 fine hand-painted school science illustration for Trama L124, Shadows in the playground. Textured watercolor and colored pencil, clear midday sun, warm cream paving, sky blue shadows, red brick and pale green background. Main subject is ONE straight vertical wooden post securely fixed into the flat level schoolyard. It casts ONE short coherent dark blue-gray shadow beginning EXACTLY at its base and stretching diagonally toward the foreground-right. A small WHITE CHALK tick is drawn at the current shadow's TIP. Farther away from the post on the same general side of the yard is a separate YELLOW CHALK tick marking where the earlier, longer morning shadow ended; it is visibly beyond the current short shadow. No second shadow line connects to the yellow mark, no magical double sun. The post is unmoved and upright. Two small pieces of white and yellow chalk lie aside on the paving. In the distant background a modest basketball hoop and school wall suggest the yard, but their shadows should not confuse the main post experiment. Low to moderate three-quarter viewpoint with realistic perspective and shadows consistent with strong light from upper-left. No people or hands, labels, words, numerals, arrows, rays, diagram panels, captions, logos or watermark. Attractive uncluttered physical scene, not a schematic vector diagram.",
+          "visualReview": "Single short noon shadow begins at fixed vertical post base and ends at white chalk mark; separate yellow mark lies farther away, with consistent light and plausible schoolyard.",
+          "sha256": "fd4c455ca94ba4047b356d073c3b63e5b79f553f1d9ec4bf41e6d2a91b3daad3"
         }
-      ]
+      ],
+      "edition": "v1.58.35"
     },
     {
       "code": "L120",

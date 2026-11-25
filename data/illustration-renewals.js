@@ -214,6 +214,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l112-el-juego-de-las-fichas-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l124-sombras-en-el-patio.svg": {
+    "src": "assets/readings/l124-sombras-en-el-patio-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
