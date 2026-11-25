@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 404,
-  "pendingWorks": 82,
-  "localizedAlternatives": 3256,
+  "coveredWorks": 417,
+  "pendingWorks": 69,
+  "localizedAlternatives": 3386,
   "ranges": [
     {
       "start": 1,
@@ -289,8 +289,8 @@
       "start": 201,
       "end": 205,
       "total": 13,
-      "covered": 0,
-      "status": "pending"
+      "covered": 13,
+      "status": "complete"
     },
     {
       "start": 206,
@@ -21900,15 +21900,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "La botiga que canviava de forma",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-tienda-que-cambiaba-de-forma-q2",
+              "number": 2
+            },
+            {
+              "id": "la-tienda-que-cambiaba-de-forma-q3",
+              "number": 3
+            },
+            {
+              "id": "la-tienda-que-cambiaba-de-forma-q4",
+              "number": 4
+            },
+            {
+              "id": "la-tienda-que-cambiaba-de-forma-q5",
+              "number": 5
+            },
+            {
+              "id": "la-tienda-que-cambiaba-de-forma-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-tienda-que-cambiaba-de-forma-q2",
+              "number": 2
+            },
+            {
+              "id": "la-tienda-que-cambiaba-de-forma-q3",
+              "number": 3
+            },
+            {
+              "id": "la-tienda-que-cambiaba-de-forma-q4",
+              "number": 4
+            },
+            {
+              "id": "la-tienda-que-cambiaba-de-forma-q5",
+              "number": 5
+            },
+            {
+              "id": "la-tienda-que-cambiaba-de-forma-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -21919,15 +21961,57 @@
       "level": "6-primary",
       "difficulty": "intermediate",
       "title": "El mapa de les illes de llum",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-mapa-de-las-islas-de-luz-q2",
+              "number": 2
+            },
+            {
+              "id": "el-mapa-de-las-islas-de-luz-q3",
+              "number": 3
+            },
+            {
+              "id": "el-mapa-de-las-islas-de-luz-q4",
+              "number": 4
+            },
+            {
+              "id": "el-mapa-de-las-islas-de-luz-q5",
+              "number": 5
+            },
+            {
+              "id": "el-mapa-de-las-islas-de-luz-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-mapa-de-las-islas-de-luz-q2",
+              "number": 2
+            },
+            {
+              "id": "el-mapa-de-las-islas-de-luz-q3",
+              "number": 3
+            },
+            {
+              "id": "el-mapa-de-las-islas-de-luz-q4",
+              "number": 4
+            },
+            {
+              "id": "el-mapa-de-las-islas-de-luz-q5",
+              "number": 5
+            },
+            {
+              "id": "el-mapa-de-las-islas-de-luz-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -21938,15 +22022,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "El mapa de les illes de llum",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l202a-q2",
+              "number": 2
+            },
+            {
+              "id": "l202a-q3",
+              "number": 3
+            },
+            {
+              "id": "l202a-q4",
+              "number": 4
+            },
+            {
+              "id": "l202a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l202a-q2",
+              "number": 2
+            },
+            {
+              "id": "l202a-q3",
+              "number": 3
+            },
+            {
+              "id": "l202a-q4",
+              "number": 4
+            },
+            {
+              "id": "l202a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -21957,15 +22075,65 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "El mapa de les illes de llum",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l202b-q2",
+              "number": 2
+            },
+            {
+              "id": "l202b-q3",
+              "number": 3
+            },
+            {
+              "id": "l202b-q4",
+              "number": 4
+            },
+            {
+              "id": "l202b-q5",
+              "number": 5
+            },
+            {
+              "id": "l202b-q6",
+              "number": 6
+            },
+            {
+              "id": "l202b-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l202b-q2",
+              "number": 2
+            },
+            {
+              "id": "l202b-q3",
+              "number": 3
+            },
+            {
+              "id": "l202b-q4",
+              "number": 4
+            },
+            {
+              "id": "l202b-q5",
+              "number": 5
+            },
+            {
+              "id": "l202b-q6",
+              "number": 6
+            },
+            {
+              "id": "l202b-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -21976,15 +22144,57 @@
       "level": "6-primary",
       "difficulty": "intermediate",
       "title": "La cançó que va perdre una estrofa",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-cancion-que-perdio-una-estrofa-q2",
+              "number": 2
+            },
+            {
+              "id": "la-cancion-que-perdio-una-estrofa-q4",
+              "number": 4
+            },
+            {
+              "id": "la-cancion-que-perdio-una-estrofa-q5",
+              "number": 5
+            },
+            {
+              "id": "la-cancion-que-perdio-una-estrofa-q6",
+              "number": 6
+            },
+            {
+              "id": "la-cancion-que-perdio-una-estrofa-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-cancion-que-perdio-una-estrofa-q2",
+              "number": 2
+            },
+            {
+              "id": "la-cancion-que-perdio-una-estrofa-q4",
+              "number": 4
+            },
+            {
+              "id": "la-cancion-que-perdio-una-estrofa-q5",
+              "number": 5
+            },
+            {
+              "id": "la-cancion-que-perdio-una-estrofa-q6",
+              "number": 6
+            },
+            {
+              "id": "la-cancion-que-perdio-una-estrofa-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -21995,15 +22205,49 @@
       "level": "5-primary",
       "difficulty": "advanced",
       "title": "La cançó que va perdre una estrofa",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l203a-q2",
+              "number": 2
+            },
+            {
+              "id": "l203a-q3",
+              "number": 3
+            },
+            {
+              "id": "l203a-q4",
+              "number": 4
+            },
+            {
+              "id": "l203a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l203a-q2",
+              "number": 2
+            },
+            {
+              "id": "l203a-q3",
+              "number": 3
+            },
+            {
+              "id": "l203a-q4",
+              "number": 4
+            },
+            {
+              "id": "l203a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -22014,15 +22258,65 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "La cançó que va perdre una estrofa",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l203b-q2",
+              "number": 2
+            },
+            {
+              "id": "l203b-q3",
+              "number": 3
+            },
+            {
+              "id": "l203b-q4",
+              "number": 4
+            },
+            {
+              "id": "l203b-q5",
+              "number": 5
+            },
+            {
+              "id": "l203b-q7",
+              "number": 7
+            },
+            {
+              "id": "l203b-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l203b-q2",
+              "number": 2
+            },
+            {
+              "id": "l203b-q3",
+              "number": 3
+            },
+            {
+              "id": "l203b-q4",
+              "number": 4
+            },
+            {
+              "id": "l203b-q5",
+              "number": 5
+            },
+            {
+              "id": "l203b-q7",
+              "number": 7
+            },
+            {
+              "id": "l203b-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -22033,15 +22327,57 @@
       "level": "6-primary",
       "difficulty": "intermediate",
       "title": "Una entrada amb dos horaris",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-entrada-con-dos-horarios-q1",
+              "number": 1
+            },
+            {
+              "id": "una-entrada-con-dos-horarios-q3",
+              "number": 3
+            },
+            {
+              "id": "una-entrada-con-dos-horarios-q4",
+              "number": 4
+            },
+            {
+              "id": "una-entrada-con-dos-horarios-q6",
+              "number": 6
+            },
+            {
+              "id": "una-entrada-con-dos-horarios-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-entrada-con-dos-horarios-q1",
+              "number": 1
+            },
+            {
+              "id": "una-entrada-con-dos-horarios-q3",
+              "number": 3
+            },
+            {
+              "id": "una-entrada-con-dos-horarios-q4",
+              "number": 4
+            },
+            {
+              "id": "una-entrada-con-dos-horarios-q6",
+              "number": 6
+            },
+            {
+              "id": "una-entrada-con-dos-horarios-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -22052,15 +22388,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Una entrada amb dos horaris",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l204a-q2",
+              "number": 2
+            },
+            {
+              "id": "l204a-q3",
+              "number": 3
+            },
+            {
+              "id": "l204a-q4",
+              "number": 4
+            },
+            {
+              "id": "l204a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l204a-q2",
+              "number": 2
+            },
+            {
+              "id": "l204a-q3",
+              "number": 3
+            },
+            {
+              "id": "l204a-q4",
+              "number": 4
+            },
+            {
+              "id": "l204a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -22071,15 +22441,65 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "Una entrada amb dos horaris",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l204b-q2",
+              "number": 2
+            },
+            {
+              "id": "l204b-q3",
+              "number": 3
+            },
+            {
+              "id": "l204b-q4",
+              "number": 4
+            },
+            {
+              "id": "l204b-q5",
+              "number": 5
+            },
+            {
+              "id": "l204b-q7",
+              "number": 7
+            },
+            {
+              "id": "l204b-q9",
+              "number": 9
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l204b-q2",
+              "number": 2
+            },
+            {
+              "id": "l204b-q3",
+              "number": 3
+            },
+            {
+              "id": "l204b-q4",
+              "number": 4
+            },
+            {
+              "id": "l204b-q5",
+              "number": 5
+            },
+            {
+              "id": "l204b-q7",
+              "number": 7
+            },
+            {
+              "id": "l204b-q9",
+              "number": 9
+            }
+          ]
         }
       }
     },
@@ -22090,15 +22510,57 @@
       "level": "6-primary",
       "difficulty": "intermediate",
       "title": "El campionat de les peces prestades",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-campeonato-de-las-piezas-prestadas-q3",
+              "number": 3
+            },
+            {
+              "id": "el-campeonato-de-las-piezas-prestadas-q4",
+              "number": 4
+            },
+            {
+              "id": "el-campeonato-de-las-piezas-prestadas-q5",
+              "number": 5
+            },
+            {
+              "id": "el-campeonato-de-las-piezas-prestadas-q6",
+              "number": 6
+            },
+            {
+              "id": "el-campeonato-de-las-piezas-prestadas-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-campeonato-de-las-piezas-prestadas-q3",
+              "number": 3
+            },
+            {
+              "id": "el-campeonato-de-las-piezas-prestadas-q4",
+              "number": 4
+            },
+            {
+              "id": "el-campeonato-de-las-piezas-prestadas-q5",
+              "number": 5
+            },
+            {
+              "id": "el-campeonato-de-las-piezas-prestadas-q6",
+              "number": 6
+            },
+            {
+              "id": "el-campeonato-de-las-piezas-prestadas-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -22109,15 +22571,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "El campionat de les peces prestades",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l205a-q3",
+              "number": 3
+            },
+            {
+              "id": "l205a-q4",
+              "number": 4
+            },
+            {
+              "id": "l205a-q5",
+              "number": 5
+            },
+            {
+              "id": "l205a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l205a-q3",
+              "number": 3
+            },
+            {
+              "id": "l205a-q4",
+              "number": 4
+            },
+            {
+              "id": "l205a-q5",
+              "number": 5
+            },
+            {
+              "id": "l205a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -22128,15 +22624,65 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "El campionat de les peces prestades",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l205b-q3",
+              "number": 3
+            },
+            {
+              "id": "l205b-q4",
+              "number": 4
+            },
+            {
+              "id": "l205b-q5",
+              "number": 5
+            },
+            {
+              "id": "l205b-q6",
+              "number": 6
+            },
+            {
+              "id": "l205b-q8",
+              "number": 8
+            },
+            {
+              "id": "l205b-q9",
+              "number": 9
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l205b-q3",
+              "number": 3
+            },
+            {
+              "id": "l205b-q4",
+              "number": 4
+            },
+            {
+              "id": "l205b-q5",
+              "number": 5
+            },
+            {
+              "id": "l205b-q6",
+              "number": 6
+            },
+            {
+              "id": "l205b-q8",
+              "number": 8
+            },
+            {
+              "id": "l205b-q9",
+              "number": 9
+            }
+          ]
         }
       }
     },
