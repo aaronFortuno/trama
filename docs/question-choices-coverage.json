@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 56,
-  "pendingWorks": 430,
-  "localizedAlternatives": 448,
+  "coveredWorks": 67,
+  "pendingWorks": 419,
+  "localizedAlternatives": 530,
   "ranges": [
     {
       "start": 1,
@@ -51,8 +51,8 @@
       "start": 31,
       "end": 35,
       "total": 11,
-      "covered": 0,
-      "status": "pending"
+      "covered": 11,
+      "status": "complete"
     },
     {
       "start": 36,
@@ -3360,15 +3360,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "Un mosaic que es repeteix",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-mosaico-que-se-repite-q1",
+              "number": 1
+            },
+            {
+              "id": "un-mosaico-que-se-repite-q2",
+              "number": 2
+            },
+            {
+              "id": "un-mosaico-que-se-repite-q3",
+              "number": 3
+            },
+            {
+              "id": "un-mosaico-que-se-repite-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-mosaico-que-se-repite-q1",
+              "number": 1
+            },
+            {
+              "id": "un-mosaico-que-se-repite-q2",
+              "number": 2
+            },
+            {
+              "id": "un-mosaico-que-se-repite-q3",
+              "number": 3
+            },
+            {
+              "id": "un-mosaico-que-se-repite-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -3379,15 +3413,41 @@
       "level": "3-primary",
       "difficulty": "advanced",
       "title": "Un mosaic que es repeteix",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l031a-q2",
+              "number": 2
+            },
+            {
+              "id": "l031a-q4",
+              "number": 4
+            },
+            {
+              "id": "l031a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l031a-q2",
+              "number": 2
+            },
+            {
+              "id": "l031a-q4",
+              "number": 4
+            },
+            {
+              "id": "l031a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -3398,15 +3458,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Un mosaic que es repeteix",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l031b-q3",
+              "number": 3
+            },
+            {
+              "id": "l031b-q4",
+              "number": 4
+            },
+            {
+              "id": "l031b-q5",
+              "number": 5
+            },
+            {
+              "id": "l031b-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l031b-q3",
+              "number": 3
+            },
+            {
+              "id": "l031b-q4",
+              "number": 4
+            },
+            {
+              "id": "l031b-q5",
+              "number": 5
+            },
+            {
+              "id": "l031b-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -3417,15 +3511,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "El pati d’abans",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-patio-de-antes-q1",
+              "number": 1
+            },
+            {
+              "id": "el-patio-de-antes-q2",
+              "number": 2
+            },
+            {
+              "id": "el-patio-de-antes-q3",
+              "number": 3
+            },
+            {
+              "id": "el-patio-de-antes-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-patio-de-antes-q1",
+              "number": 1
+            },
+            {
+              "id": "el-patio-de-antes-q2",
+              "number": 2
+            },
+            {
+              "id": "el-patio-de-antes-q3",
+              "number": 3
+            },
+            {
+              "id": "el-patio-de-antes-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -3436,15 +3564,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "El pati d’abans",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l032a-q2",
+              "number": 2
+            },
+            {
+              "id": "l032a-q3",
+              "number": 3
+            },
+            {
+              "id": "l032a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l032a-q2",
+              "number": 2
+            },
+            {
+              "id": "l032a-q3",
+              "number": 3
+            },
+            {
+              "id": "l032a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -3455,15 +3609,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "El pati d’abans",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l032b-q3",
+              "number": 3
+            },
+            {
+              "id": "l032b-q4",
+              "number": 4
+            },
+            {
+              "id": "l032b-q6",
+              "number": 6
+            },
+            {
+              "id": "l032b-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l032b-q3",
+              "number": 3
+            },
+            {
+              "id": "l032b-q4",
+              "number": 4
+            },
+            {
+              "id": "l032b-q6",
+              "number": 6
+            },
+            {
+              "id": "l032b-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -3474,15 +3662,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "L’última parada",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-ultima-parada-q1",
+              "number": 1
+            },
+            {
+              "id": "la-ultima-parada-q2",
+              "number": 2
+            },
+            {
+              "id": "la-ultima-parada-q3",
+              "number": 3
+            },
+            {
+              "id": "la-ultima-parada-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-ultima-parada-q1",
+              "number": 1
+            },
+            {
+              "id": "la-ultima-parada-q2",
+              "number": 2
+            },
+            {
+              "id": "la-ultima-parada-q3",
+              "number": 3
+            },
+            {
+              "id": "la-ultima-parada-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -3493,15 +3715,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "L’última parada",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l033a-q2",
+              "number": 2
+            },
+            {
+              "id": "l033a-q4",
+              "number": 4
+            },
+            {
+              "id": "l033a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l033a-q2",
+              "number": 2
+            },
+            {
+              "id": "l033a-q4",
+              "number": 4
+            },
+            {
+              "id": "l033a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -3512,15 +3760,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "L’última parada",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l033b-q2",
+              "number": 2
+            },
+            {
+              "id": "l033b-q3",
+              "number": 3
+            },
+            {
+              "id": "l033b-q5",
+              "number": 5
+            },
+            {
+              "id": "l033b-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l033b-q2",
+              "number": 2
+            },
+            {
+              "id": "l033b-q3",
+              "number": 3
+            },
+            {
+              "id": "l033b-q5",
+              "number": 5
+            },
+            {
+              "id": "l033b-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -3531,15 +3813,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "Un refugi sota la pedra",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-refugio-bajo-la-piedra-q1",
+              "number": 1
+            },
+            {
+              "id": "un-refugio-bajo-la-piedra-q2",
+              "number": 2
+            },
+            {
+              "id": "un-refugio-bajo-la-piedra-q3",
+              "number": 3
+            },
+            {
+              "id": "un-refugio-bajo-la-piedra-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-refugio-bajo-la-piedra-q1",
+              "number": 1
+            },
+            {
+              "id": "un-refugio-bajo-la-piedra-q2",
+              "number": 2
+            },
+            {
+              "id": "un-refugio-bajo-la-piedra-q3",
+              "number": 3
+            },
+            {
+              "id": "un-refugio-bajo-la-piedra-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -3550,15 +3866,49 @@
       "level": "4-primary",
       "difficulty": "advanced",
       "title": "Com fer parlar una porta",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "como-hacer-hablar-a-una-puerta-q2",
+              "number": 2
+            },
+            {
+              "id": "como-hacer-hablar-a-una-puerta-q3",
+              "number": 3
+            },
+            {
+              "id": "como-hacer-hablar-a-una-puerta-q4",
+              "number": 4
+            },
+            {
+              "id": "como-hacer-hablar-a-una-puerta-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "como-hacer-hablar-a-una-puerta-q2",
+              "number": 2
+            },
+            {
+              "id": "como-hacer-hablar-a-una-puerta-q3",
+              "number": 3
+            },
+            {
+              "id": "como-hacer-hablar-a-una-puerta-q4",
+              "number": 4
+            },
+            {
+              "id": "como-hacer-hablar-a-una-puerta-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
