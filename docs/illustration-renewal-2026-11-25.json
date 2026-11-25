@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 3,
+    "completedReadings": 4,
     "totalReadings": 66,
-    "completedImages": 4,
+    "completedImages": 5,
     "totalImages": 76
   },
   "readings": [
@@ -106,9 +106,17 @@
           "previousSrc": "assets/readings/l107-una-guirnalda-de-papel.svg",
           "src": "assets/readings/l107-una-guirnalda-de-papel-illustration.webp",
           "afterParagraph": 2,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Create one finely painted landscape 3:2 educational storybook still life for Trama L107, A paper garland. Opaque gouache with visible brushwork, fine colored-pencil edges and soft paper grain, cheerful but restrained coral, sky blue, yellow and sage on a cream background. On a light wooden craft table lies a short handmade chain of six paper loops, each loop a strip whose two ends are visibly taped together with a small transparent adhesive tab. Adjacent loops are physically interlinked like real chain links, alternating their planes; no impossible merged loops, no loops merely touching. Some colored paper strips are cut nearby; a sheet with faint discarded pencil marks suggests reused paper. Round-tipped child scissors and a small tape dispenser rest safely on the table. Mild overhead three-quarter perspective makes the paper loops' construction readable. No hands or people, no written instructions, no numbers, no text, no labels, no arrows, no montage or panels. Rich tactile handmade materials, plausible shadows and paper thickness, uncluttered composition suitable for a young reader's printed worksheet. No logos or watermark.",
+          "visualReview": "Six alternating paper loops with visible taped joins, plausible interlocking chain construction and child-safe rounded scissors; handmade materials and tabletop perspective checked.",
+          "sha256": "848f798e9e9ee9ebc35388fe2c185050ca05b97538884e106695dd7352bedfd9"
         }
-      ]
+      ],
+      "edition": "v1.58.4"
     },
     {
       "code": "L109",

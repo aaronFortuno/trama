@@ -19,6 +19,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/mapa-plano-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l107-una-guirnalda-de-papel.svg": {
+    "src": "assets/readings/l107-una-guirnalda-de-papel-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
