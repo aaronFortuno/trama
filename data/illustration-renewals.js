@@ -324,6 +324,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l121-la-fila-de-las-hormigas-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l153-un-patio-dos-noticias.svg": {
+    "src": "assets/readings/l153-un-patio-dos-noticias-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

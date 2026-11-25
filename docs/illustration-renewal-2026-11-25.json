@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 55,
+    "completedReadings": 56,
     "totalReadings": 66,
-    "completedImages": 65,
+    "completedImages": 66,
     "totalImages": 76
   },
   "readings": [
@@ -1420,9 +1420,17 @@
           "previousSrc": "assets/readings/l153-un-patio-dos-noticias.svg",
           "src": "assets/readings/l153-un-patio-dos-noticias-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Create one landscape 3:2 hand-painted elevated schoolyard overview for Trama L153, One playground, two reports. Fine ink, watercolor and colored-pencil texture, warm red court, cream school walls, leafy green quiet corner, natural midday light. One coherent bird's-eye three-quarter view of TWO neighboring areas of the SAME primary-school playground. On the LEFT is a modest sports court with a normal chain-link perimeter fence, a ball on the ground near that fence and a few small children playing, natural simple poses. In the MIDDLE runs the solid external wall of the low school CANTEEN building. On the RIGHT, BEHIND that wall and outside the court, is a quieter small courtyard with a bench where one child sits reading a small open book, facing away from the sports court; the wall truly blocks their direct view of the court. The elevated viewer can see both spaces over/around the wall, but the seated reader cannot. Keep the wall, school roof corner, paths, fence, bench and children on physically coherent ground planes, no Escher overlapping spaces or impossible courtyard indoors. Reader and sports players are modestly sized, no close-up hands or book pictures needed. Make the difference in places visible through composition, not sound waves or labels. No text, arrows, captions, diagram boxes, split panels, logos or watermark. Attractive informative painted school landscape, not flat SVG or a computer map.",
+          "visualReview": "Single coherent overview shows fenced active court and quiet reading bench on opposite sides of solid canteen wall; reader cannot see court, book faces reader, perspective plausible.",
+          "sha256": "ed00aa90168c814325c416c666eabcd9f92a206170db5e5a078c1c4b682a4279"
         }
-      ]
+      ],
+      "edition": "v1.58.56"
     },
     {
       "code": "L139",
