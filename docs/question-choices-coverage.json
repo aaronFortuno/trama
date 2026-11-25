@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 316,
-  "pendingWorks": 170,
-  "localizedAlternatives": 2532,
+  "coveredWorks": 323,
+  "pendingWorks": 163,
+  "localizedAlternatives": 2576,
   "ranges": [
     {
       "start": 1,
@@ -219,8 +219,8 @@
       "start": 151,
       "end": 155,
       "total": 7,
-      "covered": 0,
-      "status": "pending"
+      "covered": 7,
+      "status": "complete"
     },
     {
       "start": 156,
@@ -17156,15 +17156,41 @@
       "level": "3-primary",
       "difficulty": "advanced",
       "title": "Una marca a la roca",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-marca-en-la-roca-q3",
+              "number": 3
+            },
+            {
+              "id": "una-marca-en-la-roca-q4",
+              "number": 4
+            },
+            {
+              "id": "una-marca-en-la-roca-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-marca-en-la-roca-q3",
+              "number": 3
+            },
+            {
+              "id": "una-marca-en-la-roca-q4",
+              "number": 4
+            },
+            {
+              "id": "una-marca-en-la-roca-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -17175,15 +17201,41 @@
       "level": "3-primary",
       "difficulty": "advanced",
       "title": "Una sabata per al fang",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-zapato-para-el-barro-q1",
+              "number": 1
+            },
+            {
+              "id": "un-zapato-para-el-barro-q3",
+              "number": 3
+            },
+            {
+              "id": "un-zapato-para-el-barro-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-zapato-para-el-barro-q1",
+              "number": 1
+            },
+            {
+              "id": "un-zapato-para-el-barro-q3",
+              "number": 3
+            },
+            {
+              "id": "un-zapato-para-el-barro-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -17194,15 +17246,41 @@
       "level": "3-primary",
       "difficulty": "advanced",
       "title": "Un pati, dues notícies",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-patio-dos-noticias-q2",
+              "number": 2
+            },
+            {
+              "id": "un-patio-dos-noticias-q4",
+              "number": 4
+            },
+            {
+              "id": "un-patio-dos-noticias-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-patio-dos-noticias-q2",
+              "number": 2
+            },
+            {
+              "id": "un-patio-dos-noticias-q4",
+              "number": 4
+            },
+            {
+              "id": "un-patio-dos-noticias-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -17213,15 +17291,41 @@
       "level": "3-primary",
       "difficulty": "advanced",
       "title": "El solc del camí",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-surco-del-camino-q3",
+              "number": 3
+            },
+            {
+              "id": "el-surco-del-camino-q5",
+              "number": 5
+            },
+            {
+              "id": "el-surco-del-camino-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-surco-del-camino-q3",
+              "number": 3
+            },
+            {
+              "id": "el-surco-del-camino-q5",
+              "number": 5
+            },
+            {
+              "id": "el-surco-del-camino-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -17232,15 +17336,41 @@
       "level": "3-primary",
       "difficulty": "advanced",
       "title": "Dotze cadires i dos bancs",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "doce-sillas-y-dos-bancos-q3",
+              "number": 3
+            },
+            {
+              "id": "doce-sillas-y-dos-bancos-q5",
+              "number": 5
+            },
+            {
+              "id": "doce-sillas-y-dos-bancos-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "doce-sillas-y-dos-bancos-q3",
+              "number": 3
+            },
+            {
+              "id": "doce-sillas-y-dos-bancos-q5",
+              "number": 5
+            },
+            {
+              "id": "doce-sillas-y-dos-bancos-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -17251,15 +17381,41 @@
       "level": "2-primary",
       "difficulty": "initial",
       "title": "Dotze cadires i dos bancs",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l155a-q1",
+              "number": 1
+            },
+            {
+              "id": "l155a-q3",
+              "number": 3
+            },
+            {
+              "id": "l155a-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l155a-q1",
+              "number": 1
+            },
+            {
+              "id": "l155a-q3",
+              "number": 3
+            },
+            {
+              "id": "l155a-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -17270,15 +17426,49 @@
       "level": "4-primary",
       "difficulty": "advanced",
       "title": "Dotze cadires i dos bancs",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l155b-q1",
+              "number": 1
+            },
+            {
+              "id": "l155b-q4",
+              "number": 4
+            },
+            {
+              "id": "l155b-q5",
+              "number": 5
+            },
+            {
+              "id": "l155b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l155b-q1",
+              "number": 1
+            },
+            {
+              "id": "l155b-q4",
+              "number": 4
+            },
+            {
+              "id": "l155b-q5",
+              "number": 5
+            },
+            {
+              "id": "l155b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
