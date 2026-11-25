@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 13,
+    "completedReadings": 14,
     "totalReadings": 66,
-    "completedImages": 18,
+    "completedImages": 19,
     "totalImages": 76
   },
   "readings": [
@@ -392,9 +392,18 @@
           "previousSrc": "assets/readings/l155-doce-sillas-y-dos-bancos.svg",
           "src": "assets/readings/l155-doce-sillas-y-dos-bancos-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 illustrated storybook scene for Trama L155, Twelve chairs and two benches. Gentle gouache and colored pencil, warm mustard, slate blue, russet and creamy wood, rich hand-painted texture, not vector. A small library room set up for a children's story reading, EMPTY of people. View obliquely from a high front corner, looking from the storyteller's area toward the seating. Closest to the storyteller are TWO low wooden benches side by side, each wide enough for three small children. Behind those benches are TWELVE individual child-sized chairs, arranged as TWO clearly separated shallow fan-shaped rows of SIX chairs each. Every chair and both benches face the SAME storyteller's position, no diagonal random orientations; rows are staggered so faces would not be blocked. In the near foreground at one side stands a simple reading lectern holding ONE open large picture book, tilted toward the audience, its tiny pictures visible obliquely with no legible words. Book stand, benches and chairs supported naturally on one flat floor, coherent perspective and realistic chair backs and legs. Shelves and soft window light in background. Show an inviting practical arrangement, not an auditorium or classroom desk rows. No people, labels, numerals, arrows, text, captions, logo or watermark.",
+          "editPrompt": "Use case: precise-object-edit. Edit ONLY the two painted pictures printed INSIDE the open storybook at the lower-left of this library illustration. The audience sits on the benches and chairs behind the book, looking toward the near foreground. Therefore both little printed storybook pictures must be upright toward that audience and upside down toward the camera. Rotate each little page illustration by 180 degrees WITHIN its existing page surface, preserving the physical book, open pages, page edges, spine, lectern and their perspective exactly. Do not move or add any furniture. Keep exactly twelve chairs in two rows of six, two benches, shelves, colors, light, watercolor/gouache texture and all other details unchanged. No lettering. This is only a local rotation of the printed bunny/tree and castle/path pictures, not a new composition.",
+          "visualReview": "Exactly twelve chairs in two rows of six and two low benches, plausible supporting legs and story area; targeted edit oriented book pictures toward seated audience.",
+          "sha256": "09ab09ef226aa1253c889e9c1f4aa421f84b7d04acbf3c9ae2157648ece50498"
         }
-      ]
+      ],
+      "edition": "v1.58.14"
     },
     {
       "code": "L110",

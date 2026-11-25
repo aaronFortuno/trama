@@ -89,6 +89,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l086-segundo-recipiente-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l155-doce-sillas-y-dos-bancos.svg": {
+    "src": "assets/readings/l155-doce-sillas-y-dos-bancos-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
