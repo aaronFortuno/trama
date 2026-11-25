@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 4,
+    "completedReadings": 5,
     "totalReadings": 66,
-    "completedImages": 5,
+    "completedImages": 6,
     "totalImages": 76
   },
   "readings": [
@@ -129,9 +129,17 @@
           "previousSrc": "assets/readings/l109-a-la-sombra-del-puente.svg",
           "src": "assets/readings/l109-a-la-sombra-del-puente-illustration.webp",
           "afterParagraph": 2,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Landscape 3:2 painted storybook illustration for Trama L109, In the shade of the bridge. Expressive colored-pencil and watercolor landscape with visible textured strokes, fresh greens, cool shadow blues and sunlit ochre. Two children aged eight, Berta and her cousin Nil, walk beside their grandmother on a real riverside footpath that passes beneath a modest single-arch stone pedestrian bridge. The path is dry and clearly separated from the flowing water by a low stone edge. The family pauses in the cool shade under the arch, while the steep hillside beyond is in warm sunlight. Berta has a dark pixie haircut, a mustard T-shirt and small red backpack; Nil has light brown straight hair, a red cap and turquoise shorts; grandmother has short silver hair and comfortable walking clothes. One small closed reusable water bottle is carried naturally at Berta's side, the others clipped to backpacks. Hands simple and anatomically plausible, ordinary relaxed poses. The bridge has consistent load-bearing stonework and a continuous walkway above, the footpath remains continuous beneath it. No people walking on water, no impossible geometry. Focus on landscape, with people modestly sized. No text, signs, numbers, arrows, speech bubbles, collage, logo or watermark.",
+          "visualReview": "Grandmother and two children on a continuous shaded dry footpath under a structurally coherent stone arch, river separate from path, natural anatomy and bottle carry.",
+          "sha256": "02161d5dfa37bf9a8cbe3c232af319ba63fbba18ab0410e6d12845c6d0131a8d"
         }
-      ]
+      ],
+      "edition": "v1.58.5"
     },
     {
       "code": "L114",

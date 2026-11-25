@@ -24,6 +24,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l107-una-guirnalda-de-papel-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l109-a-la-sombra-del-puente.svg": {
+    "src": "assets/readings/l109-a-la-sombra-del-puente-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
