@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 25,
+    "completedReadings": 26,
     "totalReadings": 66,
-    "completedImages": 32,
+    "completedImages": 33,
     "totalImages": 76
   },
   "readings": [
@@ -695,9 +695,17 @@
           "previousSrc": "assets/readings/l128-el-pan-de-la-merienda.svg",
           "src": "assets/readings/l128-el-pan-de-la-merienda-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Create one landscape 3:2 warm children's-book still life for Trama L128, The afternoon snack bread. Expressive gouache and colored-pencil strokes, tactile warm paper, golden bread, bright yellow and tomato red napkins, gentle kitchen daylight, not vector. On an ordinary home kitchen table are exactly TWO shallow serving trays side by side. The LEFT tray is lined with a large clearly YELLOW cloth napkin and holds exactly THREE small CLOSED bread-roll sandwiches. The RIGHT tray is lined with a large clearly RED cloth napkin and holds exactly TWO small CLOSED bread-roll sandwiches. Five sandwiches total. The rolls have natural crusts and horizontal cut seams, but their fillings are fully tucked inside and NOT visible; the point is that the tray colors identify the cheese versus tomato sandwiches without opening them. No exposed cheese, tomato slices or labels on the sandwiches. Slightly elevated three-quarter view with clear separation so every roll can be counted, no stacks that hide extras. A simple empty plate and water jug may sit unobtrusively in the background. Real tray rims, gravity, soft shadows and inviting painted textures. No people, hands, words, letters, numbers, arrows, panels, captions, logos or watermark.",
+          "visualReview": "Exactly three closed rolls on yellow-lined tray and two on red-lined tray; fillings remain hidden as required by the story, coherent tray and bread geometry.",
+          "sha256": "4dbc2c6d2aa99c79011520eb63dcc25686a8365ba2dfd1894e5d3907501ab64a"
         }
-      ]
+      ],
+      "edition": "v1.58.26"
     },
     {
       "code": "L157",

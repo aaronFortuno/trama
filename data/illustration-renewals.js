@@ -159,6 +159,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l105-el-rastro-de-plata-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l128-el-pan-de-la-merienda.svg": {
+    "src": "assets/readings/l128-el-pan-de-la-merienda-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
