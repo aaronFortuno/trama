@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 2,
+    "completedReadings": 3,
     "totalReadings": 66,
-    "completedImages": 2,
+    "completedImages": 4,
     "totalImages": 76
   },
   "readings": [
@@ -69,16 +69,31 @@
           "previousSrc": "assets/readings/mapa-escucha.svg",
           "src": "assets/readings/mapa-escucha-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One polished 3:2 landscape illustration for bilingual school reading Trama L003, A map for listening. Painterly ink-and-watercolor travel-journal style on ivory paper, lively but precise, teal, terracotta and muted green. Three diverse ten-year-old classmates sit on a public square bench actively listening to the neighborhood. One child with short coiled black hair in an orange T-shirt holds a small closed notebook on their lap and listens; one pale child with a blond bowl cut in a blue jacket listens toward a sparrow in an elm tree; a child with straight dark shoulder-length hair and a green sweatshirt listens toward a small stone fountain. All hands anatomically plausible, relaxed simple poses, no uniforms. Behind the square on the street, a small city bus passes, physically separated from the pedestrian square. The fountain, elm tree with birds and bus are distinct real sources of sounds. Convincing single perspective, normal bench construction, soft daylight. Capture attentive curiosity, not fantasy sound waves. One coherent scene; no musical symbols floating, no arrows, no speech bubbles, no readable text, no captions, logo or watermark. Suitable for a printed reading worksheet, clear shapes and rich restrained textures.",
+          "visualReview": "Three pupils listening on a plausible bench, closed notebook, fountain, birds and bus situated coherently; natural hand positions and ordinary clothes.",
+          "sha256": "64dca1df5857cbbe7dcdde7f979ec542d8030dab3328ad74cccfac8229347ba5"
         },
         {
           "id": "mapa-sonoro",
           "previousSrc": "assets/readings/mapa-plano.svg",
           "src": "assets/readings/mapa-plano-illustration.webp",
           "afterParagraph": 3,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Create the companion illustration for Trama L003, A map for listening. Use the reference ONLY to match its delicate ink-and-watercolor brushwork, ivory paper texture and teal, terracotta and muted green palette; do not reproduce its scene or people. New composition: an overhead still life on a schoolroom wooden table. A single flat sheet contains a charming clearly hand-drawn map of a small neighborhood, with a short continuous route through a public square, a market street, a quiet courtyard and a narrow blue canal. Use small drawn recognizable symbols for a water droplet, a sparrow, a wheel and an accordion, placed near their relevant locations. One lower corner of the paper has a tidy small legend made only of repeated matching little pictograms and pale blank rules, no written words. A generous blank margin remains for adding observations. Beside the map lie one ordinary wooden pencil and a closed small field notebook. Everything lies flat with a coherent overhead perspective, no floating layers, no impossible folded papers. No people or hands; no legible letters, numbers or pseudo-writing anywhere, no arrows except a simple route line, no captions, border, logos or watermark. Painted school travel-journal art, attractive rather than a crude vector diagram. Landscape 3:2.",
+          "visualReview": "Single flat map sheet with continuous route, fountain, market, courtyard and canal; repeated sound pictograms in a consistent legend and a blank observation margin; coherent overhead tabletop perspective.",
+          "sha256": "3168fc9c27b0f70863ad512f2f7249716318c50cfcb9d1fcb054b0dbf049a4d2"
         }
-      ]
+      ],
+      "edition": "v1.58.3"
     },
     {
       "code": "L107",

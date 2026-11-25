@@ -9,6 +9,16 @@ export const illustrationRenewals = {
     "src": "assets/readings/l118-el-rincon-de-bruna-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/mapa-escucha.svg": {
+    "src": "assets/readings/mapa-escucha-illustration.webp",
+    "width": 1100,
+    "height": 733
+  },
+  "assets/readings/mapa-plano.svg": {
+    "src": "assets/readings/mapa-plano-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
