@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 350,
-  "pendingWorks": 136,
-  "localizedAlternatives": 2800,
+  "coveredWorks": 363,
+  "pendingWorks": 123,
+  "localizedAlternatives": 2906,
   "ranges": [
     {
       "start": 1,
@@ -247,8 +247,8 @@
       "start": 171,
       "end": 175,
       "total": 13,
-      "covered": 0,
-      "status": "pending"
+      "covered": 13,
+      "status": "complete"
     },
     {
       "start": 176,
@@ -18942,15 +18942,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "La bossa de la narradora",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-bolso-de-la-narradora-q2",
+              "number": 2
+            },
+            {
+              "id": "el-bolso-de-la-narradora-q3",
+              "number": 3
+            },
+            {
+              "id": "el-bolso-de-la-narradora-q4",
+              "number": 4
+            },
+            {
+              "id": "el-bolso-de-la-narradora-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-bolso-de-la-narradora-q2",
+              "number": 2
+            },
+            {
+              "id": "el-bolso-de-la-narradora-q3",
+              "number": 3
+            },
+            {
+              "id": "el-bolso-de-la-narradora-q4",
+              "number": 4
+            },
+            {
+              "id": "el-bolso-de-la-narradora-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -18961,15 +18995,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "La bossa de la narradora",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l171a-q1",
+              "number": 1
+            },
+            {
+              "id": "l171a-q2",
+              "number": 2
+            },
+            {
+              "id": "l171a-q3",
+              "number": 3
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l171a-q1",
+              "number": 1
+            },
+            {
+              "id": "l171a-q2",
+              "number": 2
+            },
+            {
+              "id": "l171a-q3",
+              "number": 3
+            }
+          ]
         }
       }
     },
@@ -18980,15 +19040,57 @@
       "level": "5-primary",
       "difficulty": "initial",
       "title": "La bossa de la narradora",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l171b-q2",
+              "number": 2
+            },
+            {
+              "id": "l171b-q3",
+              "number": 3
+            },
+            {
+              "id": "l171b-q4",
+              "number": 4
+            },
+            {
+              "id": "l171b-q5",
+              "number": 5
+            },
+            {
+              "id": "l171b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l171b-q2",
+              "number": 2
+            },
+            {
+              "id": "l171b-q3",
+              "number": 3
+            },
+            {
+              "id": "l171b-q4",
+              "number": 4
+            },
+            {
+              "id": "l171b-q5",
+              "number": 5
+            },
+            {
+              "id": "l171b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -18999,15 +19101,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "Dos preus a l’etiqueta",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "dos-precios-en-la-etiqueta-q1",
+              "number": 1
+            },
+            {
+              "id": "dos-precios-en-la-etiqueta-q2",
+              "number": 2
+            },
+            {
+              "id": "dos-precios-en-la-etiqueta-q3",
+              "number": 3
+            },
+            {
+              "id": "dos-precios-en-la-etiqueta-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "dos-precios-en-la-etiqueta-q1",
+              "number": 1
+            },
+            {
+              "id": "dos-precios-en-la-etiqueta-q2",
+              "number": 2
+            },
+            {
+              "id": "dos-precios-en-la-etiqueta-q3",
+              "number": 3
+            },
+            {
+              "id": "dos-precios-en-la-etiqueta-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -19018,15 +19154,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "Dos preus a l’etiqueta",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l172a-q2",
+              "number": 2
+            },
+            {
+              "id": "l172a-q4",
+              "number": 4
+            },
+            {
+              "id": "l172a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l172a-q2",
+              "number": 2
+            },
+            {
+              "id": "l172a-q4",
+              "number": 4
+            },
+            {
+              "id": "l172a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -19037,15 +19199,57 @@
       "level": "5-primary",
       "difficulty": "initial",
       "title": "Dos preus a l’etiqueta",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l172b-q1",
+              "number": 1
+            },
+            {
+              "id": "l172b-q3",
+              "number": 3
+            },
+            {
+              "id": "l172b-q4",
+              "number": 4
+            },
+            {
+              "id": "l172b-q5",
+              "number": 5
+            },
+            {
+              "id": "l172b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l172b-q1",
+              "number": 1
+            },
+            {
+              "id": "l172b-q3",
+              "number": 3
+            },
+            {
+              "id": "l172b-q4",
+              "number": 4
+            },
+            {
+              "id": "l172b-q5",
+              "number": 5
+            },
+            {
+              "id": "l172b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -19056,15 +19260,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "La maleta del gegant",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-maleta-del-gigante-q1",
+              "number": 1
+            },
+            {
+              "id": "la-maleta-del-gigante-q3",
+              "number": 3
+            },
+            {
+              "id": "la-maleta-del-gigante-q4",
+              "number": 4
+            },
+            {
+              "id": "la-maleta-del-gigante-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-maleta-del-gigante-q1",
+              "number": 1
+            },
+            {
+              "id": "la-maleta-del-gigante-q3",
+              "number": 3
+            },
+            {
+              "id": "la-maleta-del-gigante-q4",
+              "number": 4
+            },
+            {
+              "id": "la-maleta-del-gigante-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -19075,15 +19313,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "El tren que no sortia del mapa",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-tren-que-no-salia-del-mapa-q2",
+              "number": 2
+            },
+            {
+              "id": "el-tren-que-no-salia-del-mapa-q3",
+              "number": 3
+            },
+            {
+              "id": "el-tren-que-no-salia-del-mapa-q4",
+              "number": 4
+            },
+            {
+              "id": "el-tren-que-no-salia-del-mapa-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-tren-que-no-salia-del-mapa-q2",
+              "number": 2
+            },
+            {
+              "id": "el-tren-que-no-salia-del-mapa-q3",
+              "number": 3
+            },
+            {
+              "id": "el-tren-que-no-salia-del-mapa-q4",
+              "number": 4
+            },
+            {
+              "id": "el-tren-que-no-salia-del-mapa-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -19094,15 +19366,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "El tren que no sortia del mapa",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l174a-q1",
+              "number": 1
+            },
+            {
+              "id": "l174a-q4",
+              "number": 4
+            },
+            {
+              "id": "l174a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l174a-q1",
+              "number": 1
+            },
+            {
+              "id": "l174a-q4",
+              "number": 4
+            },
+            {
+              "id": "l174a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -19113,15 +19411,57 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "El tren que no sortia del mapa",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l174b-q2",
+              "number": 2
+            },
+            {
+              "id": "l174b-q3",
+              "number": 3
+            },
+            {
+              "id": "l174b-q4",
+              "number": 4
+            },
+            {
+              "id": "l174b-q5",
+              "number": 5
+            },
+            {
+              "id": "l174b-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l174b-q2",
+              "number": 2
+            },
+            {
+              "id": "l174b-q3",
+              "number": 3
+            },
+            {
+              "id": "l174b-q4",
+              "number": 4
+            },
+            {
+              "id": "l174b-q5",
+              "number": 5
+            },
+            {
+              "id": "l174b-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -19132,15 +19472,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "Una nit sense estrelles",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-noche-sin-estrellas-q1",
+              "number": 1
+            },
+            {
+              "id": "una-noche-sin-estrellas-q4",
+              "number": 4
+            },
+            {
+              "id": "una-noche-sin-estrellas-q5",
+              "number": 5
+            },
+            {
+              "id": "una-noche-sin-estrellas-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-noche-sin-estrellas-q1",
+              "number": 1
+            },
+            {
+              "id": "una-noche-sin-estrellas-q4",
+              "number": 4
+            },
+            {
+              "id": "una-noche-sin-estrellas-q5",
+              "number": 5
+            },
+            {
+              "id": "una-noche-sin-estrellas-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -19151,15 +19525,49 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "Una nit sense estrelles",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l175a-q1",
+              "number": 1
+            },
+            {
+              "id": "l175a-q3",
+              "number": 3
+            },
+            {
+              "id": "l175a-q5",
+              "number": 5
+            },
+            {
+              "id": "l175a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l175a-q1",
+              "number": 1
+            },
+            {
+              "id": "l175a-q3",
+              "number": 3
+            },
+            {
+              "id": "l175a-q5",
+              "number": 5
+            },
+            {
+              "id": "l175a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -19170,15 +19578,57 @@
       "level": "5-primary",
       "difficulty": "advanced",
       "title": "Una nit sense estrelles",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l175b-q1",
+              "number": 1
+            },
+            {
+              "id": "l175b-q2",
+              "number": 2
+            },
+            {
+              "id": "l175b-q4",
+              "number": 4
+            },
+            {
+              "id": "l175b-q5",
+              "number": 5
+            },
+            {
+              "id": "l175b-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l175b-q1",
+              "number": 1
+            },
+            {
+              "id": "l175b-q2",
+              "number": 2
+            },
+            {
+              "id": "l175b-q4",
+              "number": 4
+            },
+            {
+              "id": "l175b-q5",
+              "number": 5
+            },
+            {
+              "id": "l175b-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
