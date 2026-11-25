@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.58.9 · 25 de novembre del 2026
+
+Renovades les il·lustracions de la L006 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 9 de 66 lectures de la llista.
+
 ## 1.58.8 · 25 de novembre del 2026
 
 Renovades les il·lustracions de la L108 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 8 de 66 lectures de la llista.

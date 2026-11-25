@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 8,
+    "completedReadings": 9,
     "totalReadings": 66,
-    "completedImages": 9,
+    "completedImages": 11,
     "totalImages": 76
   },
   "readings": [
@@ -220,16 +220,31 @@
           "previousSrc": "assets/readings/ballena-cola.svg",
           "src": "assets/readings/ballena-cola-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Create a beautifully painted marine natural-history illustration for Trama L006, Two photos, the same whale. Landscape 3:2, fine watercolor and graphite with believable marine anatomy, blue-green ocean, ivory highlights, overcast Atlantic light. A humpback whale is diving away from the viewer, its broad two-lobed horizontal tail flukes lifted high above the water; the underside of the tail faces us. Show the entire tail and short muscular caudal peduncle emerging from the sea, no other fins protruding. On the underside, mostly dark charcoal, there is ONE distinctive white crescent-shaped patch slightly left of center. The trailing edge has ONE small recognizable notch toward its right end AS SEEN BY THE VIEWER. Fine natural trailing-edge scallops elsewhere, realistic bilateral whale-tail shape, slender tapered tips, textured seawater falling from the flukes, modest waves and low distant island on horizon. The white crescent and right-edge notch must be clear, not decorative stars or speckles. Detailed hand-painted book art, not a photograph or icon. No boats, people, diagrams, words, borders, labels, logo or watermark.",
+          "visualReview": "Recognizable humpback flukes with a white crescent patch left of centre and a notch on the viewer-right trailing edge; ocean, peduncle and water runoff coherent.",
+          "sha256": "43a5cc310692ee82da4cd51bee511642f66713e531de2c04ead744e3fd50c454"
         },
         {
           "id": "fotos",
           "previousSrc": "assets/readings/ballena-fotos.svg",
           "src": "assets/readings/ballena-fotos-illustration.webp",
           "afterParagraph": 3,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Companion landscape 3:2 illustration for Trama L006, Two photos, the same whale. Match the supplied marine watercolor's hand-painted graphite texture and blue-gray palette, and faithfully preserve the whale's identifying marks. New composition: viewed from directly above, on a marine researcher's light wooden desk, TWO distinct rectangular photographic prints lie flat side by side. Each print shows the underside of the SAME humpback whale's tail lifted above the ocean, recognizable from the reference by a white crescent patch LEFT of center and a triangular notch near the RIGHT end of its upper trailing edge. Preserve those same identifying marks and position in BOTH prints; do not mirror either tail. The left photo is brighter in cool daylight with a low island behind; the right is darker, photographed on another day beside a far coast, tail very slightly tilted. These are two observations of one whale, not two different animals or two halves of a tail. Beside them rests a small closed blue field notebook and a simple pencil. Papers have solid corners and coherent subtle shadows, not overlapping ghost sheets. The whole image is watercolor storybook art, including the photographic prints, no literal photoreal collage. No people or hands, text, dates, numbers, labels, arrows, logo or watermark.",
+          "visualReview": "Two distinct flat photo prints show the same white crescent and right-edge notch in the same whale, with different lighting and coastline; notebook and pencil form a coherent still life.",
+          "sha256": "2338df850c9996d7f5d880b124c989e77d85f3f6e22e2e35d2d4eabcc87ccb22"
         }
-      ]
+      ],
+      "edition": "v1.58.9"
     },
     {
       "code": "L122",

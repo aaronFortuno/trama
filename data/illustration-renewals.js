@@ -44,6 +44,16 @@ export const illustrationRenewals = {
     "src": "assets/readings/l108-la-caja-de-los-dibujos-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/ballena-cola.svg": {
+    "src": "assets/readings/ballena-cola-illustration.webp",
+    "width": 1100,
+    "height": 733
+  },
+  "assets/readings/ballena-fotos.svg": {
+    "src": "assets/readings/ballena-fotos-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
