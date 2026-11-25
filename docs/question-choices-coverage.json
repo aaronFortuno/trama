@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 131,
-  "pendingWorks": 355,
-  "localizedAlternatives": 1076,
+  "coveredWorks": 136,
+  "pendingWorks": 350,
+  "localizedAlternatives": 1118,
   "ranges": [
     {
       "start": 1,
@@ -100,8 +100,8 @@
       "start": 66,
       "end": 70,
       "total": 5,
-      "covered": 0,
-      "status": "pending"
+      "covered": 5,
+      "status": "complete"
     },
     {
       "start": 71,
@@ -7447,15 +7447,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "La història d’una etiqueta",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-historia-de-una-etiqueta-q2",
+              "number": 2
+            },
+            {
+              "id": "la-historia-de-una-etiqueta-q3",
+              "number": 3
+            },
+            {
+              "id": "la-historia-de-una-etiqueta-q4",
+              "number": 4
+            },
+            {
+              "id": "la-historia-de-una-etiqueta-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-historia-de-una-etiqueta-q2",
+              "number": 2
+            },
+            {
+              "id": "la-historia-de-una-etiqueta-q3",
+              "number": 3
+            },
+            {
+              "id": "la-historia-de-una-etiqueta-q4",
+              "number": 4
+            },
+            {
+              "id": "la-historia-de-una-etiqueta-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -7466,15 +7500,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Una brúixola per a l’assaig",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-brujula-para-el-ensayo-q2",
+              "number": 2
+            },
+            {
+              "id": "una-brujula-para-el-ensayo-q3",
+              "number": 3
+            },
+            {
+              "id": "una-brujula-para-el-ensayo-q4",
+              "number": 4
+            },
+            {
+              "id": "una-brujula-para-el-ensayo-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-brujula-para-el-ensayo-q2",
+              "number": 2
+            },
+            {
+              "id": "una-brujula-para-el-ensayo-q3",
+              "number": 3
+            },
+            {
+              "id": "una-brujula-para-el-ensayo-q4",
+              "number": 4
+            },
+            {
+              "id": "una-brujula-para-el-ensayo-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -7485,15 +7553,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Les finestres de l’autobús",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "las-ventanas-del-autobus-q1",
+              "number": 1
+            },
+            {
+              "id": "las-ventanas-del-autobus-q2",
+              "number": 2
+            },
+            {
+              "id": "las-ventanas-del-autobus-q4",
+              "number": 4
+            },
+            {
+              "id": "las-ventanas-del-autobus-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "las-ventanas-del-autobus-q1",
+              "number": 1
+            },
+            {
+              "id": "las-ventanas-del-autobus-q2",
+              "number": 2
+            },
+            {
+              "id": "las-ventanas-del-autobus-q4",
+              "number": 4
+            },
+            {
+              "id": "las-ventanas-del-autobus-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -7504,15 +7606,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "La parada sense preus",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-puesto-sin-precios-q1",
+              "number": 1
+            },
+            {
+              "id": "el-puesto-sin-precios-q2",
+              "number": 2
+            },
+            {
+              "id": "el-puesto-sin-precios-q4",
+              "number": 4
+            },
+            {
+              "id": "el-puesto-sin-precios-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-puesto-sin-precios-q1",
+              "number": 1
+            },
+            {
+              "id": "el-puesto-sin-precios-q2",
+              "number": 2
+            },
+            {
+              "id": "el-puesto-sin-precios-q4",
+              "number": 4
+            },
+            {
+              "id": "el-puesto-sin-precios-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -7523,15 +7659,57 @@
       "level": "6-primary",
       "difficulty": "intermediate",
       "title": "La notícia que va canviar de titular",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-noticia-que-cambio-de-titulo-q2",
+              "number": 2
+            },
+            {
+              "id": "la-noticia-que-cambio-de-titulo-q3",
+              "number": 3
+            },
+            {
+              "id": "la-noticia-que-cambio-de-titulo-q4",
+              "number": 4
+            },
+            {
+              "id": "la-noticia-que-cambio-de-titulo-q5",
+              "number": 5
+            },
+            {
+              "id": "la-noticia-que-cambio-de-titulo-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-noticia-que-cambio-de-titulo-q2",
+              "number": 2
+            },
+            {
+              "id": "la-noticia-que-cambio-de-titulo-q3",
+              "number": 3
+            },
+            {
+              "id": "la-noticia-que-cambio-de-titulo-q4",
+              "number": 4
+            },
+            {
+              "id": "la-noticia-que-cambio-de-titulo-q5",
+              "number": 5
+            },
+            {
+              "id": "la-noticia-que-cambio-de-titulo-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
