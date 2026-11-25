@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.58.1 · Obre l’historial de canvis|v1.58.1 · Abrir el historial de cambios
+Renovades les il·lustracions de la L104 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 1 de 66 lectures de la llista.|Renovadas las ilustraciones de L104 con imágenes pintadas, compartidas entre catalán, castellano y las variantes de familia. La renovación acumula 1 de 66 lecturas de la lista.
 v1.58 · Obre l’historial de canvis|v1.58 · Abrir el historial de cambios
 Les banderes permeten avisar si una lectura és massa fàcil o massa difícil per al nivell indicat. Els avisos inclouen el curs i la dificultat del catàleg per orientar-ne la revisió.|Las banderas permiten avisar si una lectura es demasiado fácil o demasiado difícil para el nivel indicado. Los avisos incluyen el curso y la dificultad del catálogo para orientar su revisión.
 v1.57.53 · Obre l’historial de canvis|v1.57.53 · Abrir el historial de cambios

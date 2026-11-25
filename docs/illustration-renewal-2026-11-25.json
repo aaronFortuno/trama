@@ -1,0 +1,1064 @@
+{
+  "requested": "2026-11-25",
+  "purpose": "Replace the 76 provisional illustrations identified by the user in 66 existing readings; keep text, questions, images IDs, descriptions and placement.",
+  "futureWork": {
+    "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
+  },
+  "progress": {
+    "completedReadings": 1,
+    "totalReadings": 66,
+    "completedImages": 1,
+    "totalImages": 76
+  },
+  "readings": [
+    {
+      "code": "L104",
+      "title": "El banco mojado",
+      "level": "3-primary",
+      "familyId": "familia-l104",
+      "images": [
+        {
+          "id": "el-banco-mojado",
+          "previousSrc": "assets/readings/l104-el-banco-mojado.svg",
+          "src": "assets/readings/l104-el-banco-mojado-illustration.webp",
+          "afterParagraph": 1,
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Asset: one finished landscape 3:2 illustration for the bilingual Trama school reading L104, El banco mojado. Primary request: replace a crude vector placeholder with a warm, carefully painted children's-book illustration, soft watercolor and colored pencil, delicate paper texture, convincing perspective, natural anatomy and expressive but restrained faces. Scene: a primary-school playground just after rain. Julia and Omar, two children aged about eight or nine, sit comfortably on a dry low stone wall within the shelter of the school entrance overhang, reading an open comic together. Julia has a straight dark chin-length bob and a rust-red cardigan; Omar has short tightly curled hair and a muted blue sweatshirt. Ordinary varied casual clothing, no uniforms. The book rests plausibly across their laps with simple small colored pictures, without readable words. Their hands rest naturally at the outer edges of the book, only two anatomically correct hands per child. Nearby, out in the uncovered playground, a green wooden bench is visibly wet with rain droplets. A small sandpit is beside that bench and visible from the sheltered wall. The low wall is dry because it lies under the entrance roof; the wet bench does not lie under that roof. Calm pale daylight after rain, touches of moss green, ochre and brick red. Uncluttered story composition, coherent supported objects and architecture, appealing painted detail readable when printed small. No signs, readable lettering, captions, arrows, diagrams, logos or watermarks. One scene, no collage or panels. Render a landscape image with a 3:2 aspect ratio.",
+          "editPrompt": "Use case: precise-object-edit. Edit target: the supplied schoolyard watercolor illustration for Trama L104. Change only the small printed illustrations on the inside pages of the open comic. The children are reading the comic, therefore all little comic pictures must be upright from the CHILDREN'S viewpoint and upside down from the CAMERA'S viewpoint. Rotate the drawn comic pictures within both page surfaces by 180 degrees; keep the physical book, its pages, spine, angle and geometry exactly as they are. No readable text. Do not change the children's hands, fingers, arms, faces, clothing or poses. Preserve the entire composition, wet green bench, sandpit, dry sheltered low wall, school, light, watercolor and colored-pencil textures exactly. This is a tiny local correction to printed page artwork, not a new scene.",
+          "visualReview": "Wet bench outdoors and dry low wall under the entrance overhang; comic interior oriented toward its readers after a targeted edit; hands, support, perspective and scene checked.",
+          "sha256": "c7c6b2d7d167cc9526ebf8a0c949307ce0ee258aa588c207e9995d518a72591b"
+        }
+      ],
+      "edition": "v1.58.1"
+    },
+    {
+      "code": "L118",
+      "title": "El rincón de Bruna",
+      "level": "5-primary",
+      "familyId": "familia-l118",
+      "images": [
+        {
+          "id": "el-rincon-de-bruna",
+          "previousSrc": "assets/readings/l118-el-rincon-de-bruna.svg",
+          "src": "assets/readings/l118-el-rincon-de-bruna-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L003",
+      "title": "Un mapa para escuchar",
+      "level": "5-primary",
+      "familyId": "familia-l003",
+      "images": [
+        {
+          "id": "escucha-plaza",
+          "previousSrc": "assets/readings/mapa-escucha.svg",
+          "src": "assets/readings/mapa-escucha-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        },
+        {
+          "id": "mapa-sonoro",
+          "previousSrc": "assets/readings/mapa-plano.svg",
+          "src": "assets/readings/mapa-plano-illustration.webp",
+          "afterParagraph": 3,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L107",
+      "title": "Una guirnalda de papel",
+      "level": "3-primary",
+      "familyId": "familia-l107",
+      "images": [
+        {
+          "id": "una-guirnalda-de-papel",
+          "previousSrc": "assets/readings/l107-una-guirnalda-de-papel.svg",
+          "src": "assets/readings/l107-una-guirnalda-de-papel-illustration.webp",
+          "afterParagraph": 2,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L109",
+      "title": "A la sombra del puente",
+      "level": "3-primary",
+      "familyId": "familia-l109",
+      "images": [
+        {
+          "id": "a-la-sombra-del-puente",
+          "previousSrc": "assets/readings/l109-a-la-sombra-del-puente.svg",
+          "src": "assets/readings/l109-a-la-sombra-del-puente-illustration.webp",
+          "afterParagraph": 2,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L114",
+      "title": "La sombra del títere",
+      "level": "5-primary",
+      "familyId": "familia-l114",
+      "images": [
+        {
+          "id": "la-sombra-del-titere",
+          "previousSrc": "assets/readings/l114-la-sombra-del-titere.svg",
+          "src": "assets/readings/l114-la-sombra-del-titere-illustration.webp",
+          "afterParagraph": 2,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L137",
+      "title": "Gotas que se juntan",
+      "level": "3-primary",
+      "images": [
+        {
+          "id": "gotas-que-se-juntan",
+          "previousSrc": "assets/readings/l137-gotas-que-se-juntan.svg",
+          "src": "assets/readings/l137-gotas-que-se-juntan-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L108",
+      "title": "La caja de los dibujos",
+      "level": "3-primary",
+      "familyId": "familia-l108",
+      "images": [
+        {
+          "id": "la-caja-de-los-dibujos",
+          "previousSrc": "assets/readings/l108-la-caja-de-los-dibujos.svg",
+          "src": "assets/readings/l108-la-caja-de-los-dibujos-illustration.webp",
+          "afterParagraph": 2,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L006",
+      "title": "Dos fotos, una misma ballena",
+      "level": "5-primary",
+      "familyId": "familia-l006",
+      "images": [
+        {
+          "id": "cola",
+          "previousSrc": "assets/readings/ballena-cola.svg",
+          "src": "assets/readings/ballena-cola-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        },
+        {
+          "id": "fotos",
+          "previousSrc": "assets/readings/ballena-fotos.svg",
+          "src": "assets/readings/ballena-fotos-illustration.webp",
+          "afterParagraph": 3,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L122",
+      "title": "El ritmo de los vasos",
+      "level": "5-primary",
+      "familyId": "familia-l122",
+      "images": [
+        {
+          "id": "el-ritmo-de-los-vasos",
+          "previousSrc": "assets/readings/l122-el-ritmo-de-los-vasos.svg",
+          "src": "assets/readings/l122-el-ritmo-de-los-vasos-illustration.webp",
+          "afterParagraph": 2,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L087",
+      "title": "Una voz entre los diálogos",
+      "level": "6-primary",
+      "familyId": "familia-l087",
+      "images": [
+        {
+          "id": "voz-en-la-cabina",
+          "previousSrc": "assets/readings/l087-voz-en-la-cabina.webp",
+          "src": "assets/readings/l087-voz-en-la-cabina-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        },
+        {
+          "id": "escucha-en-la-sala",
+          "previousSrc": "assets/readings/l087-escucha-en-la-sala.webp",
+          "src": "assets/readings/l087-escucha-en-la-sala-illustration.webp",
+          "afterParagraph": 4,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L088",
+      "title": "Dos cartas para una persiana",
+      "level": "6-primary",
+      "familyId": "familia-l088",
+      "images": [
+        {
+          "id": "quiosco-en-la-plaza",
+          "previousSrc": "assets/readings/l088-quiosco-en-la-plaza.webp",
+          "src": "assets/readings/l088-quiosco-en-la-plaza-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        },
+        {
+          "id": "pruebas-de-cartel",
+          "previousSrc": "assets/readings/l088-pruebas-de-cartel.webp",
+          "src": "assets/readings/l088-pruebas-de-cartel-illustration.webp",
+          "afterParagraph": 4,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L086",
+      "title": "Un minuto en el reloj de agua",
+      "level": "6-primary",
+      "familyId": "familia-l086",
+      "images": [
+        {
+          "id": "reloj-en-la-mesa",
+          "previousSrc": "assets/readings/l086-reloj-en-la-mesa.webp",
+          "src": "assets/readings/l086-reloj-en-la-mesa-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        },
+        {
+          "id": "segundo-recipiente",
+          "previousSrc": "assets/readings/l086-segundo-recipiente.webp",
+          "src": "assets/readings/l086-segundo-recipiente-illustration.webp",
+          "afterParagraph": 4,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L155",
+      "title": "Doce sillas y dos bancos",
+      "level": "3-primary",
+      "familyId": "familia-l155",
+      "images": [
+        {
+          "id": "doce-sillas-y-dos-bancos",
+          "previousSrc": "assets/readings/l155-doce-sillas-y-dos-bancos.svg",
+          "src": "assets/readings/l155-doce-sillas-y-dos-bancos-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L110",
+      "title": "Una rueda floja",
+      "level": "3-primary",
+      "familyId": "familia-l110",
+      "images": [
+        {
+          "id": "una-rueda-floja",
+          "previousSrc": "assets/readings/l110-una-rueda-floja.svg",
+          "src": "assets/readings/l110-una-rueda-floja-illustration.webp",
+          "afterParagraph": 2,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L130",
+      "title": "La entrada de cartón",
+      "level": "3-primary",
+      "familyId": "familia-l130",
+      "images": [
+        {
+          "id": "la-entrada-de-carton",
+          "previousSrc": "assets/readings/l130-la-entrada-de-carton.svg",
+          "src": "assets/readings/l130-la-entrada-de-carton-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L008",
+      "title": "La pinza que cuidaba los dibujos",
+      "level": "5-primary",
+      "familyId": "familia-l008",
+      "images": [
+        {
+          "id": "pinzas",
+          "previousSrc": "assets/readings/pinzas-dibujos.svg",
+          "src": "assets/readings/pinzas-dibujos-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        },
+        {
+          "id": "prueba",
+          "previousSrc": "assets/readings/pinzas-prueba.svg",
+          "src": "assets/readings/pinzas-prueba-illustration.webp",
+          "afterParagraph": 4,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L002",
+      "title": "Un puente de papel",
+      "level": "5-primary",
+      "familyId": "familia-l002",
+      "images": [
+        {
+          "id": "puente-plano",
+          "previousSrc": "assets/readings/puente-plano.svg",
+          "src": "assets/readings/puente-plano-illustration.webp",
+          "afterParagraph": 2,
+          "status": "pending"
+        },
+        {
+          "id": "puente-plegado",
+          "previousSrc": "assets/readings/puente-plegado.svg",
+          "src": "assets/readings/puente-plegado-illustration.webp",
+          "afterParagraph": 3,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L146",
+      "title": "Letreros que no se borran",
+      "level": "3-primary",
+      "images": [
+        {
+          "id": "rotulos-que-no-se-borran",
+          "previousSrc": "assets/readings/l146-rotulos-que-no-se-borran.svg",
+          "src": "assets/readings/l146-rotulos-que-no-se-borran-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L150",
+      "title": "Un vaso para medir",
+      "level": "3-primary",
+      "familyId": "familia-l150",
+      "images": [
+        {
+          "id": "un-vaso-para-medir",
+          "previousSrc": "assets/readings/l150-un-vaso-para-medir.svg",
+          "src": "assets/readings/l150-un-vaso-para-medir-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L113",
+      "title": "Una carta llena de azul",
+      "level": "3-primary",
+      "familyId": "familia-l113",
+      "images": [
+        {
+          "id": "una-carta-llena-de-azul",
+          "previousSrc": "assets/readings/l113-una-carta-llena-de-azul.svg",
+          "src": "assets/readings/l113-una-carta-llena-de-azul-illustration.webp",
+          "afterParagraph": 2,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L119",
+      "title": "Pulseras por encargo",
+      "level": "5-primary",
+      "familyId": "familia-l119",
+      "images": [
+        {
+          "id": "pulseras-por-encargo",
+          "previousSrc": "assets/readings/l119-pulseras-por-encargo.svg",
+          "src": "assets/readings/l119-pulseras-por-encargo-illustration.webp",
+          "afterParagraph": 2,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L138",
+      "title": "Un buzón en la biblioteca",
+      "level": "3-primary",
+      "familyId": "familia-l138",
+      "images": [
+        {
+          "id": "un-buzon-en-la-biblioteca",
+          "previousSrc": "assets/readings/l138-un-buzon-en-la-biblioteca.svg",
+          "src": "assets/readings/l138-un-buzon-en-la-biblioteca-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L147",
+      "title": "Un ritmo bajo el suelo",
+      "level": "3-primary",
+      "images": [
+        {
+          "id": "un-ritmo-bajo-el-suelo",
+          "previousSrc": "assets/readings/l147-un-ritmo-bajo-el-suelo.svg",
+          "src": "assets/readings/l147-un-ritmo-bajo-el-suelo-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L105",
+      "title": "El rastro de plata",
+      "level": "3-primary",
+      "familyId": "familia-l105",
+      "images": [
+        {
+          "id": "el-rastro-de-plata",
+          "previousSrc": "assets/readings/l105-el-rastro-de-plata.svg",
+          "src": "assets/readings/l105-el-rastro-de-plata-illustration.webp",
+          "afterParagraph": 2,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L128",
+      "title": "El pan de la merienda",
+      "level": "3-primary",
+      "familyId": "familia-l128",
+      "images": [
+        {
+          "id": "el-pan-de-la-merienda",
+          "previousSrc": "assets/readings/l128-el-pan-de-la-merienda.svg",
+          "src": "assets/readings/l128-el-pan-de-la-merienda-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L157",
+      "title": "Los tres días del mercado",
+      "level": "3-primary",
+      "images": [
+        {
+          "id": "los-tres-dias-del-mercado",
+          "previousSrc": "assets/readings/l157-los-tres-dias-del-mercado.svg",
+          "src": "assets/readings/l157-los-tres-dias-del-mercado-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L115",
+      "title": "El pase de la portera",
+      "level": "5-primary",
+      "familyId": "familia-l115",
+      "images": [
+        {
+          "id": "el-pase-de-la-portera",
+          "previousSrc": "assets/readings/l115-el-pase-de-la-portera.svg",
+          "src": "assets/readings/l115-el-pase-de-la-portera-illustration.webp",
+          "afterParagraph": 2,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L004",
+      "title": "La caja de los martes",
+      "level": "5-primary",
+      "familyId": "familia-l004",
+      "images": [
+        {
+          "id": "libro-y-sobre",
+          "previousSrc": "assets/readings/caja-libro.svg",
+          "src": "assets/readings/caja-libro-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        },
+        {
+          "id": "taller",
+          "previousSrc": "assets/readings/caja-taller.svg",
+          "src": "assets/readings/caja-taller-illustration.webp",
+          "afterParagraph": 4,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L111",
+      "title": "Vasos de tres colores",
+      "level": "3-primary",
+      "familyId": "familia-l111",
+      "images": [
+        {
+          "id": "vasos-de-tres-colores",
+          "previousSrc": "assets/readings/l111-vasos-de-tres-colores.svg",
+          "src": "assets/readings/l111-vasos-de-tres-colores-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L127",
+      "title": "Una pinza para cada calcetín",
+      "level": "3-primary",
+      "familyId": "familia-l127",
+      "images": [
+        {
+          "id": "una-pinza-para-cada-calcetin",
+          "previousSrc": "assets/readings/l127-una-pinza-para-cada-calcetin.svg",
+          "src": "assets/readings/l127-una-pinza-para-cada-calcetin-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L085",
+      "title": "La maleta que no quería cerrar",
+      "level": "6-primary",
+      "familyId": "familia-l085",
+      "images": [
+        {
+          "id": "maleta-en-el-pasillo",
+          "previousSrc": "assets/readings/l085-maleta-en-el-pasillo.webp",
+          "src": "assets/readings/l085-maleta-en-el-pasillo-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        },
+        {
+          "id": "recuerdos-en-la-maleta",
+          "previousSrc": "assets/readings/l085-recuerdos-en-la-maleta.webp",
+          "src": "assets/readings/l085-recuerdos-en-la-maleta-illustration.webp",
+          "afterParagraph": 4,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L126",
+      "title": "El camino de las flechas",
+      "level": "3-primary",
+      "familyId": "familia-l126",
+      "images": [
+        {
+          "id": "el-camino-de-las-flechas",
+          "previousSrc": "assets/readings/l126-el-camino-de-las-flechas.svg",
+          "src": "assets/readings/l126-el-camino-de-las-flechas-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L112",
+      "title": "El juego de las fichas",
+      "level": "3-primary",
+      "familyId": "familia-l112",
+      "images": [
+        {
+          "id": "el-juego-de-las-fichas",
+          "previousSrc": "assets/readings/l112-el-juego-de-las-fichas.svg",
+          "src": "assets/readings/l112-el-juego-de-las-fichas-illustration.webp",
+          "afterParagraph": 2,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L124",
+      "title": "Sombras en el patio",
+      "level": "3-primary",
+      "images": [
+        {
+          "id": "sombras-en-el-patio",
+          "previousSrc": "assets/readings/l124-sombras-en-el-patio.svg",
+          "src": "assets/readings/l124-sombras-en-el-patio-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L120",
+      "title": "Un camino entre la nieve",
+      "level": "5-primary",
+      "familyId": "familia-l120",
+      "images": [
+        {
+          "id": "un-camino-entre-la-nieve",
+          "previousSrc": "assets/readings/l120-un-camino-entre-la-nieve.svg",
+          "src": "assets/readings/l120-un-camino-entre-la-nieve-illustration.webp",
+          "afterParagraph": 2,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L133",
+      "title": "Un mensaje en la nevera",
+      "level": "3-primary",
+      "familyId": "familia-l133",
+      "images": [
+        {
+          "id": "un-mensaje-en-la-nevera",
+          "previousSrc": "assets/readings/l133-un-mensaje-en-la-nevera.svg",
+          "src": "assets/readings/l133-un-mensaje-en-la-nevera-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L117",
+      "title": "El cajón de las piezas sueltas",
+      "level": "5-primary",
+      "familyId": "familia-l117",
+      "images": [
+        {
+          "id": "el-cajon-de-las-piezas-sueltas",
+          "previousSrc": "assets/readings/l117-el-cajon-de-las-piezas-sueltas.svg",
+          "src": "assets/readings/l117-el-cajon-de-las-piezas-sueltas-illustration.webp",
+          "afterParagraph": 2,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L145",
+      "title": "La manta de las mangas",
+      "level": "3-primary",
+      "familyId": "familia-l145",
+      "images": [
+        {
+          "id": "la-manta-de-las-mangas",
+          "previousSrc": "assets/readings/l145-la-manta-de-las-mangas.svg",
+          "src": "assets/readings/l145-la-manta-de-las-mangas-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L149",
+      "title": "La caja que da la vuelta",
+      "level": "3-primary",
+      "familyId": "familia-l149",
+      "images": [
+        {
+          "id": "la-caja-que-da-la-vuelta",
+          "previousSrc": "assets/readings/l149-la-caja-que-da-la-vuelta.svg",
+          "src": "assets/readings/l149-la-caja-que-da-la-vuelta-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L005",
+      "title": "El agua que llegaba a la ciudad",
+      "level": "5-primary",
+      "familyId": "familia-l005",
+      "images": [
+        {
+          "id": "arcos",
+          "previousSrc": "assets/readings/agua-acueducto.svg",
+          "src": "assets/readings/agua-acueducto-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        },
+        {
+          "id": "recorrido",
+          "previousSrc": "assets/readings/agua-canal.svg",
+          "src": "assets/readings/agua-canal-illustration.webp",
+          "afterParagraph": 3,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L156",
+      "title": "La pieza que bailaba",
+      "level": "3-primary",
+      "images": [
+        {
+          "id": "la-pieza-que-bailaba",
+          "previousSrc": "assets/readings/l156-la-pieza-que-bailaba.svg",
+          "src": "assets/readings/l156-la-pieza-que-bailaba-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L125",
+      "title": "Una barca para dos",
+      "level": "3-primary",
+      "familyId": "familia-l125",
+      "images": [
+        {
+          "id": "una-barca-para-dos",
+          "previousSrc": "assets/readings/l125-una-barca-para-dos.svg",
+          "src": "assets/readings/l125-una-barca-para-dos-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L148",
+      "title": "Letras del revés",
+      "level": "3-primary",
+      "familyId": "familia-l148",
+      "images": [
+        {
+          "id": "letras-al-reves",
+          "previousSrc": "assets/readings/l148-letras-al-reves.svg",
+          "src": "assets/readings/l148-letras-al-reves-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L144",
+      "title": "Un nido sin verlo",
+      "level": "3-primary",
+      "images": [
+        {
+          "id": "un-nido-sin-verlo",
+          "previousSrc": "assets/readings/l144-un-nido-sin-verlo.svg",
+          "src": "assets/readings/l144-un-nido-sin-verlo-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L142",
+      "title": "Las palmadas del pasillo",
+      "level": "3-primary",
+      "images": [
+        {
+          "id": "las-palmas-del-pasillo",
+          "previousSrc": "assets/readings/l142-las-palmas-del-pasillo.svg",
+          "src": "assets/readings/l142-las-palmas-del-pasillo-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L106",
+      "title": "El guante de rayas",
+      "level": "3-primary",
+      "familyId": "familia-l106",
+      "images": [
+        {
+          "id": "el-guante-de-rayas",
+          "previousSrc": "assets/readings/l106-el-guante-de-rayas.svg",
+          "src": "assets/readings/l106-el-guante-de-rayas-illustration.webp",
+          "afterParagraph": 2,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L116",
+      "title": "El papel que salta",
+      "level": "5-primary",
+      "images": [
+        {
+          "id": "el-papel-que-salta",
+          "previousSrc": "assets/readings/l116-el-papel-que-salta.svg",
+          "src": "assets/readings/l116-el-papel-que-salta-illustration.webp",
+          "afterParagraph": 2,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L151",
+      "title": "Una marca en la roca",
+      "level": "3-primary",
+      "images": [
+        {
+          "id": "una-marca-en-la-roca",
+          "previousSrc": "assets/readings/l151-una-marca-en-la-roca.svg",
+          "src": "assets/readings/l151-una-marca-en-la-roca-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L141",
+      "title": "El cartel de la fuente",
+      "level": "3-primary",
+      "familyId": "familia-l141",
+      "images": [
+        {
+          "id": "el-cartel-de-la-fuente",
+          "previousSrc": "assets/readings/l141-el-cartel-de-la-fuente.svg",
+          "src": "assets/readings/l141-el-cartel-de-la-fuente-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L136",
+      "title": "Dos golpes en la puerta",
+      "level": "3-primary",
+      "familyId": "familia-l136",
+      "images": [
+        {
+          "id": "dos-golpes-en-la-puerta",
+          "previousSrc": "assets/readings/l136-dos-golpes-en-la-puerta.svg",
+          "src": "assets/readings/l136-dos-golpes-en-la-puerta-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L129",
+      "title": "El agua del jarrón",
+      "level": "3-primary",
+      "familyId": "familia-l129",
+      "images": [
+        {
+          "id": "el-agua-del-jarron",
+          "previousSrc": "assets/readings/l129-el-agua-del-jarron.svg",
+          "src": "assets/readings/l129-el-agua-del-jarron-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L001",
+      "title": "El cartel de la plaza",
+      "level": "5-primary",
+      "familyId": "familia-l001",
+      "images": [
+        {
+          "id": "quiosco",
+          "previousSrc": "assets/readings/cartel-quiosco.svg",
+          "src": "assets/readings/cartel-quiosco-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L154",
+      "title": "El surco del camino",
+      "level": "3-primary",
+      "images": [
+        {
+          "id": "el-surco-del-camino",
+          "previousSrc": "assets/readings/l154-el-surco-del-camino.svg",
+          "src": "assets/readings/l154-el-surco-del-camino-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L121",
+      "title": "La fila de las hormigas",
+      "level": "5-primary",
+      "images": [
+        {
+          "id": "la-fila-de-las-hormigas",
+          "previousSrc": "assets/readings/l121-la-fila-de-las-hormigas.svg",
+          "src": "assets/readings/l121-la-fila-de-las-hormigas-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L153",
+      "title": "Un patio, dos noticias",
+      "level": "3-primary",
+      "images": [
+        {
+          "id": "un-patio-dos-noticias",
+          "previousSrc": "assets/readings/l153-un-patio-dos-noticias.svg",
+          "src": "assets/readings/l153-un-patio-dos-noticias-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L139",
+      "title": "La cuerda del huerto",
+      "level": "3-primary",
+      "familyId": "familia-l139",
+      "images": [
+        {
+          "id": "la-cuerda-del-huerto",
+          "previousSrc": "assets/readings/l139-la-cuerda-del-huerto.svg",
+          "src": "assets/readings/l139-la-cuerda-del-huerto-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L140",
+      "title": "El billete del abuelo",
+      "level": "3-primary",
+      "familyId": "familia-l140",
+      "images": [
+        {
+          "id": "el-billete-del-abuelo",
+          "previousSrc": "assets/readings/l140-el-billete-del-abuelo.svg",
+          "src": "assets/readings/l140-el-billete-del-abuelo-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L135",
+      "title": "El plano que gira",
+      "level": "3-primary",
+      "images": [
+        {
+          "id": "el-mapa-que-gira",
+          "previousSrc": "assets/readings/l135-el-mapa-que-gira.svg",
+          "src": "assets/readings/l135-el-mapa-que-gira-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L143",
+      "title": "Una rampa distinta",
+      "level": "3-primary",
+      "images": [
+        {
+          "id": "una-rampa-distinta",
+          "previousSrc": "assets/readings/l143-una-rampa-distinta.svg",
+          "src": "assets/readings/l143-una-rampa-distinta-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L134",
+      "title": "El abrigo de la taza",
+      "level": "3-primary",
+      "images": [
+        {
+          "id": "el-abrigo-de-la-taza",
+          "previousSrc": "assets/readings/l134-el-abrigo-de-la-taza.svg",
+          "src": "assets/readings/l134-el-abrigo-de-la-taza-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L123",
+      "title": "La lata de los lápices",
+      "level": "3-primary",
+      "familyId": "familia-l123",
+      "images": [
+        {
+          "id": "la-lata-de-los-lapices",
+          "previousSrc": "assets/readings/l123-la-lata-de-los-lapices.svg",
+          "src": "assets/readings/l123-la-lata-de-los-lapices-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L152",
+      "title": "Un zapato para el barro",
+      "level": "3-primary",
+      "images": [
+        {
+          "id": "un-zapato-para-el-barro",
+          "previousSrc": "assets/readings/l152-un-zapato-para-el-barro.svg",
+          "src": "assets/readings/l152-un-zapato-para-el-barro-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L132",
+      "title": "La piedra con un punto",
+      "level": "3-primary",
+      "images": [
+        {
+          "id": "la-piedra-con-un-punto",
+          "previousSrc": "assets/readings/l132-la-piedra-con-un-punto.svg",
+          "src": "assets/readings/l132-la-piedra-con-un-punto-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L007",
+      "title": "Cinco rayas para no perder la cuenta",
+      "level": "5-primary",
+      "images": [
+        {
+          "id": "semillas",
+          "previousSrc": "assets/readings/semillas-recuento.svg",
+          "src": "assets/readings/semillas-recuento-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "code": "L131",
+      "title": "Un refugio para la lluvia",
+      "level": "3-primary",
+      "images": [
+        {
+          "id": "un-refugio-para-la-lluvia",
+          "previousSrc": "assets/readings/l131-un-refugio-para-la-lluvia.svg",
+          "src": "assets/readings/l131-un-refugio-para-la-lluvia-illustration.webp",
+          "afterParagraph": 1,
+          "status": "pending"
+        }
+      ]
+    }
+  ]
+}

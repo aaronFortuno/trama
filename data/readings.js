@@ -47,6 +47,7 @@ import { familyExpansionAdaptations as familyExpansionFifthAdaptations } from '.
 import { buildFamilyAdaptations } from './family-adaptation-model.js';
 import { universes } from './universes.js';
 import { newUniverseReadings } from './readings-new-universes.js';
+import { applyIllustrationRenewals } from './illustration-renewals.js';
 
 const originalReadings = [
   {
@@ -284,4 +285,4 @@ const familySources = [...publicReadings, ...newUniverseReadings].map(reading =>
   };
 });
 
-export const readings = [...familySources, ...buildFamilyAdaptations(familySources, [...familyAdaptations, ...earlyFamilyAdaptations, ...familyExpansionAdaptations, ...familyExpansionNov23Adaptations, ...familyExpansionFourthAdaptations, ...familyExpansionFifthAdaptations], families)];
+export const readings = [...familySources, ...buildFamilyAdaptations(familySources, [...familyAdaptations, ...earlyFamilyAdaptations, ...familyExpansionAdaptations, ...familyExpansionNov23Adaptations, ...familyExpansionFourthAdaptations, ...familyExpansionFifthAdaptations], families)].map(applyIllustrationRenewals);
