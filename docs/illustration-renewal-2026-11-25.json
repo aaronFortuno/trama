@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 54,
+    "completedReadings": 55,
     "totalReadings": 66,
-    "completedImages": 64,
+    "completedImages": 65,
     "totalImages": 76
   },
   "readings": [
@@ -1398,9 +1398,17 @@
           "previousSrc": "assets/readings/l121-la-fila-de-las-hormigas.svg",
           "src": "assets/readings/l121-la-fila-de-las-hormigas-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 detailed painted natural-history schoolyard illustration for Trama L121, The line of ants. Fine watercolor, colored pencil and delicate ink, warm earth brown, olive leaf scraps and tiny black ants, richly textured paper. Close almost-overhead view of a short fallen TWIG resting firmly across a narrow strip of bare garden soil. A thin winding trail of small realistic ANTS approaches one side of the twig, detours clearly AROUND ITS RIGHT-HAND END and continues beyond it; NO ants go under or through the twig. Ants travel in BOTH directions along this route, some returning with tiny pale bread crumbs held in mandibles. Each close ant has a believable small head, thorax, rounded abdomen, six legs attached to thorax and two antennae, no fantasy extra legs or two heads. Keep actual ant scale modest beside the twig and small pebbles; the scene is a close-up, not giant monster ants. At the upper edge a hint of a masonry wall crack suggests one route endpoint; the other trail exits frame naturally. Coherent dry soil, twig contact shadows and tiny leaf fragments, no constructed maze or arrows. No people, human hands, written annotations, labels, numbers, diagrams, split panels, logos or watermark. Beautiful observational illustration suitable for older primary pupils, not vector clipart or a photograph.",
+          "visualReview": "Ant route visibly detours around the right twig end and connects wall crack to ground path; ants face both ways, several carry pale crumbs, no passage under branch.",
+          "sha256": "6495982ab049453b460afd4d7403a5d38db524a1d9cfb2d5004a28552ed8c7bc"
         }
-      ]
+      ],
+      "edition": "v1.58.55"
     },
     {
       "code": "L153",

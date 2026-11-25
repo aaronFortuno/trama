@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.58.55 · Obre l’historial de canvis|v1.58.55 · Abrir el historial de cambios
+Renovades les il·lustracions de la L121 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 55 de 66 lectures de la llista.|Renovadas las ilustraciones de L121 con imágenes pintadas, compartidas entre catalán, castellano y las variantes de familia. La renovación acumula 55 de 66 lecturas de la lista.
 v1.58.54 · Obre l’historial de canvis|v1.58.54 · Abrir el historial de cambios
 Renovades les il·lustracions de la L154 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 54 de 66 lectures de la llista.|Renovadas las ilustraciones de L154 con imágenes pintadas, compartidas entre catalán, castellano y las variantes de familia. La renovación acumula 54 de 66 lecturas de la lista.
 v1.58.53 · Obre l’historial de canvis|v1.58.53 · Abrir el historial de cambios

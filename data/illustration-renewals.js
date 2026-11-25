@@ -319,6 +319,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l154-el-surco-del-camino-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l121-la-fila-de-las-hormigas.svg": {
+    "src": "assets/readings/l121-la-fila-de-las-hormigas-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
