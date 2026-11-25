@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 76,
-  "pendingWorks": 410,
-  "localizedAlternatives": 598,
+  "coveredWorks": 89,
+  "pendingWorks": 397,
+  "localizedAlternatives": 710,
   "ranges": [
     {
       "start": 1,
@@ -65,8 +65,8 @@
       "start": 41,
       "end": 45,
       "total": 13,
-      "covered": 0,
-      "status": "pending"
+      "covered": 13,
+      "status": "complete"
     },
     {
       "start": 46,
@@ -4380,15 +4380,49 @@
       "level": "5-primary",
       "difficulty": "initial",
       "title": "La volta per l’ombra",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-vuelta-por-la-sombra-q1",
+              "number": 1
+            },
+            {
+              "id": "la-vuelta-por-la-sombra-q2",
+              "number": 2
+            },
+            {
+              "id": "la-vuelta-por-la-sombra-q3",
+              "number": 3
+            },
+            {
+              "id": "la-vuelta-por-la-sombra-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-vuelta-por-la-sombra-q1",
+              "number": 1
+            },
+            {
+              "id": "la-vuelta-por-la-sombra-q2",
+              "number": 2
+            },
+            {
+              "id": "la-vuelta-por-la-sombra-q3",
+              "number": 3
+            },
+            {
+              "id": "la-vuelta-por-la-sombra-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -4399,15 +4433,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "La volta per l’ombra",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l041a-q2",
+              "number": 2
+            },
+            {
+              "id": "l041a-q3",
+              "number": 3
+            },
+            {
+              "id": "l041a-q4",
+              "number": 4
+            },
+            {
+              "id": "l041a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l041a-q2",
+              "number": 2
+            },
+            {
+              "id": "l041a-q3",
+              "number": 3
+            },
+            {
+              "id": "l041a-q4",
+              "number": 4
+            },
+            {
+              "id": "l041a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -4418,15 +4486,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "La volta per l’ombra",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l041b-q1",
+              "number": 1
+            },
+            {
+              "id": "l041b-q2",
+              "number": 2
+            },
+            {
+              "id": "l041b-q5",
+              "number": 5
+            },
+            {
+              "id": "l041b-q6",
+              "number": 6
+            },
+            {
+              "id": "l041b-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l041b-q1",
+              "number": 1
+            },
+            {
+              "id": "l041b-q2",
+              "number": 2
+            },
+            {
+              "id": "l041b-q5",
+              "number": 5
+            },
+            {
+              "id": "l041b-q6",
+              "number": 6
+            },
+            {
+              "id": "l041b-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -4437,15 +4547,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "La gota que no venia del got",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-gota-que-no-venia-del-vaso-q2",
+              "number": 2
+            },
+            {
+              "id": "la-gota-que-no-venia-del-vaso-q3",
+              "number": 3
+            },
+            {
+              "id": "la-gota-que-no-venia-del-vaso-q4",
+              "number": 4
+            },
+            {
+              "id": "la-gota-que-no-venia-del-vaso-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-gota-que-no-venia-del-vaso-q2",
+              "number": 2
+            },
+            {
+              "id": "la-gota-que-no-venia-del-vaso-q3",
+              "number": 3
+            },
+            {
+              "id": "la-gota-que-no-venia-del-vaso-q4",
+              "number": 4
+            },
+            {
+              "id": "la-gota-que-no-venia-del-vaso-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -4456,15 +4600,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Una carta per a l’última parada",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-carta-para-la-ultima-parada-q2",
+              "number": 2
+            },
+            {
+              "id": "una-carta-para-la-ultima-parada-q3",
+              "number": 3
+            },
+            {
+              "id": "una-carta-para-la-ultima-parada-q4",
+              "number": 4
+            },
+            {
+              "id": "una-carta-para-la-ultima-parada-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-carta-para-la-ultima-parada-q2",
+              "number": 2
+            },
+            {
+              "id": "una-carta-para-la-ultima-parada-q3",
+              "number": 3
+            },
+            {
+              "id": "una-carta-para-la-ultima-parada-q4",
+              "number": 4
+            },
+            {
+              "id": "una-carta-para-la-ultima-parada-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -4475,15 +4653,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "Una carta per a l’última parada",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l043a-q2",
+              "number": 2
+            },
+            {
+              "id": "l043a-q3",
+              "number": 3
+            },
+            {
+              "id": "l043a-q4",
+              "number": 4
+            },
+            {
+              "id": "l043a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l043a-q2",
+              "number": 2
+            },
+            {
+              "id": "l043a-q3",
+              "number": 3
+            },
+            {
+              "id": "l043a-q4",
+              "number": 4
+            },
+            {
+              "id": "l043a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -4494,15 +4706,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "Una carta per a l’última parada",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l043b-q2",
+              "number": 2
+            },
+            {
+              "id": "l043b-q3",
+              "number": 3
+            },
+            {
+              "id": "l043b-q4",
+              "number": 4
+            },
+            {
+              "id": "l043b-q5",
+              "number": 5
+            },
+            {
+              "id": "l043b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l043b-q2",
+              "number": 2
+            },
+            {
+              "id": "l043b-q3",
+              "number": 3
+            },
+            {
+              "id": "l043b-q4",
+              "number": 4
+            },
+            {
+              "id": "l043b-q5",
+              "number": 5
+            },
+            {
+              "id": "l043b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -4513,15 +4767,49 @@
       "level": "5-primary",
       "difficulty": "initial",
       "title": "Preguntes a una afinadora",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "preguntas-a-una-afinadora-q1",
+              "number": 1
+            },
+            {
+              "id": "preguntas-a-una-afinadora-q2",
+              "number": 2
+            },
+            {
+              "id": "preguntas-a-una-afinadora-q3",
+              "number": 3
+            },
+            {
+              "id": "preguntas-a-una-afinadora-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "preguntas-a-una-afinadora-q1",
+              "number": 1
+            },
+            {
+              "id": "preguntas-a-una-afinadora-q2",
+              "number": 2
+            },
+            {
+              "id": "preguntas-a-una-afinadora-q3",
+              "number": 3
+            },
+            {
+              "id": "preguntas-a-una-afinadora-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -4532,15 +4820,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "Preguntes a una afinadora",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l044a-q2",
+              "number": 2
+            },
+            {
+              "id": "l044a-q3",
+              "number": 3
+            },
+            {
+              "id": "l044a-q4",
+              "number": 4
+            },
+            {
+              "id": "l044a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l044a-q2",
+              "number": 2
+            },
+            {
+              "id": "l044a-q3",
+              "number": 3
+            },
+            {
+              "id": "l044a-q4",
+              "number": 4
+            },
+            {
+              "id": "l044a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -4551,15 +4873,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "Preguntes a una afinadora",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l044b-q2",
+              "number": 2
+            },
+            {
+              "id": "l044b-q4",
+              "number": 4
+            },
+            {
+              "id": "l044b-q5",
+              "number": 5
+            },
+            {
+              "id": "l044b-q6",
+              "number": 6
+            },
+            {
+              "id": "l044b-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l044b-q2",
+              "number": 2
+            },
+            {
+              "id": "l044b-q4",
+              "number": 4
+            },
+            {
+              "id": "l044b-q5",
+              "number": 5
+            },
+            {
+              "id": "l044b-q6",
+              "number": 6
+            },
+            {
+              "id": "l044b-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -4570,15 +4934,49 @@
       "level": "5-primary",
       "difficulty": "initial",
       "title": "Un mapa per arribar-hi sense preguntar",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-mapa-para-llegar-sin-preguntar-q2",
+              "number": 2
+            },
+            {
+              "id": "un-mapa-para-llegar-sin-preguntar-q3",
+              "number": 3
+            },
+            {
+              "id": "un-mapa-para-llegar-sin-preguntar-q4",
+              "number": 4
+            },
+            {
+              "id": "un-mapa-para-llegar-sin-preguntar-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-mapa-para-llegar-sin-preguntar-q2",
+              "number": 2
+            },
+            {
+              "id": "un-mapa-para-llegar-sin-preguntar-q3",
+              "number": 3
+            },
+            {
+              "id": "un-mapa-para-llegar-sin-preguntar-q4",
+              "number": 4
+            },
+            {
+              "id": "un-mapa-para-llegar-sin-preguntar-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -4589,15 +4987,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "Un mapa per arribar-hi sense preguntar",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l045a-q2",
+              "number": 2
+            },
+            {
+              "id": "l045a-q3",
+              "number": 3
+            },
+            {
+              "id": "l045a-q4",
+              "number": 4
+            },
+            {
+              "id": "l045a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l045a-q2",
+              "number": 2
+            },
+            {
+              "id": "l045a-q3",
+              "number": 3
+            },
+            {
+              "id": "l045a-q4",
+              "number": 4
+            },
+            {
+              "id": "l045a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -4608,15 +5040,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "Un mapa per arribar-hi sense preguntar",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l045b-q3",
+              "number": 3
+            },
+            {
+              "id": "l045b-q4",
+              "number": 4
+            },
+            {
+              "id": "l045b-q5",
+              "number": 5
+            },
+            {
+              "id": "l045b-q6",
+              "number": 6
+            },
+            {
+              "id": "l045b-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l045b-q3",
+              "number": 3
+            },
+            {
+              "id": "l045b-q4",
+              "number": 4
+            },
+            {
+              "id": "l045b-q5",
+              "number": 5
+            },
+            {
+              "id": "l045b-q6",
+              "number": 6
+            },
+            {
+              "id": "l045b-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
