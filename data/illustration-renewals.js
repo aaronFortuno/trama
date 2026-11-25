@@ -134,6 +134,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l150-un-vaso-para-medir-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l113-una-carta-llena-de-azul.svg": {
+    "src": "assets/readings/l113-una-carta-llena-de-azul-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

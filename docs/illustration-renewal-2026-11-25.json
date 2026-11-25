@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 20,
+    "completedReadings": 21,
     "totalReadings": 66,
-    "completedImages": 27,
+    "completedImages": 28,
     "totalImages": 76
   },
   "readings": [
@@ -581,9 +581,17 @@
           "previousSrc": "assets/readings/l113-una-carta-llena-de-azul.svg",
           "src": "assets/readings/l113-una-carta-llena-de-azul-illustration.webp",
           "afterParagraph": 2,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. A landscape 3:2 charming hand-painted paper-craft scene for Trama L113, A letter full of blue. Tactile gouache, cut-paper edges and colored-pencil detail, deep indigo sea, foamy white, turquoise and coral accents, soft cream classroom light. In a primary-school corridor, a large sea mural is being assembled on a low wall: a dark cloudy sky, white sea foam, a little boat and rocks are already painted, but plenty of empty space remains among the waves for adding fish later. In the foreground on a work table lie an ordinary open cream envelope, a plain letter sheet folded naturally inside it with no legible writing, blue paper cutouts shaped like curved waves, a few colored fish shapes WITH a narrow white cutting margin around each, rounded-tip scissors and a glue stick. Every paper piece is a distinct flat object with coherent edges, not ghost-overlapping sheets. A distant side window offers a small mountain view with a trace of snow, reinforcing the inland school's setting. No sea visible through the window. No people or hands required. A single coherent inviting workshop scene, not a collage of separate vignettes. No letters, captions, numerical labels, arrows, brand marks, logos or watermark.",
+          "visualReview": "Unfinished sea mural has dark sky, foam, boat and rocks; separate wave and fish cutouts with white margins, envelope and mountain window fit the inland-class correspondence.",
+          "sha256": "e3562cc34b631661d3e0c49cd9a4768ad3861ea39da9fb0c236be75c08a04563"
         }
-      ]
+      ],
+      "edition": "v1.58.21"
     },
     {
       "code": "L119",
