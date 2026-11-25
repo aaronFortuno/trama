@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 16,
+    "completedReadings": 17,
     "totalReadings": 66,
-    "completedImages": 21,
+    "completedImages": 23,
     "totalImages": 76
   },
   "readings": [
@@ -462,16 +462,31 @@
           "previousSrc": "assets/readings/pinzas-dibujos.svg",
           "src": "assets/readings/pinzas-dibujos-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Create one landscape 3:2 painted school science-and-art illustration for Trama L008, The clip that protected the drawings. Fine colored-pencil and gouache realism, warm cream paper texture, ochre wood, muted sky blue and coral. In a school courtyard, a taut exhibition cord runs horizontally between two sturdy wooden posts. TWO separate rectangular pieces of drawing paper hang vertically from the cord, each held by ONE normal wooden spring clothespin at its upper edge. Both sheets show simple children's colored landscape drawings, upright to the camera. The clothespin on the LEFT has very small blue fabric pads tucked inside its two gripping jaws, cushioning the paper; the clothespin on the RIGHT is plain unpadded wood. Make both clothespins mechanically plausible with two wooden halves and a small central metal spring, no merged jaws. In the foreground on a small work table lie a spare wooden clothespin and a few small folded blue fabric scraps. Quiet courtyard background, coherent taut cord attachments, gravity and paper shadows. No people, hands, readable writing, explanatory arrows, magnified inset, split panels, labels, logos or watermark. A single attractive physical scene, not flat vector diagrams. Clip-pad details should be subtle but legible when viewed closely.",
+          "visualReview": "Two separate hanging drawings attached to a taut cord with normal spring clothespins; left jaw has fabric padding and right is bare, matching the first comparison.",
+          "sha256": "2e56d15d19a846e3255141ee0488a5d3b32d6e33c78906ee29e0e20a7dab9acd"
         },
         {
           "id": "prueba",
           "previousSrc": "assets/readings/pinzas-prueba.svg",
           "src": "assets/readings/pinzas-prueba-illustration.webp",
           "afterParagraph": 4,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Companion 3:2 landscape painting for Trama L008, The clip that protected the drawings. Match the reference's finely rendered colored-pencil and gouache texture, warm cream, natural wood and muted blue palette. New experiment on a classroom workbench. A small real electric desk fan stands at the LEFT, viewed mostly from its rear-side so its guard and airflow axis point unmistakably to the RIGHT toward the paper test setup, never toward the camera. The fan has a stable base and a complete safety grille. At the RIGHT a short taut cord is tied between two small sturdy upright stands fixed to the workbench; two equal small paper test scraps hang from it at matching height. Each is held by one ordinary wooden spring clip. One clip has tiny blue cloth pads inside its jaws, the other has tiny dark gray thin rubber pads; do not cover the whole clip with cloth. The scraps are slightly lifted by the fan breeze, not wildly flying. Beside them an open observation notebook lies flat on the bench with simple faint pencil lines, no readable writing; a few small rubber scraps and a pencil are set aside. Coherent support, gravity, clip mechanics and directional setup. No people, hands, visible cartoon wind arrows, labels, split panels, text, numbers, logos or watermark. One believable physical school experiment, not an infographic.",
+          "visualReview": "Fan viewed from rear-side aims toward the two clipped paper samples, cloth and rubber pads visible, stable support posts and coherent cord; matching first illustration.",
+          "sha256": "60ddc6822b50f2cee4b7069fc7981fb3e65cf148048b3b0a3ce10ed4a7dd71b2"
         }
-      ]
+      ],
+      "edition": "v1.58.17"
     },
     {
       "code": "L002",

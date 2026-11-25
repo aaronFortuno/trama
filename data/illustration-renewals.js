@@ -104,6 +104,16 @@ export const illustrationRenewals = {
     "src": "assets/readings/l130-la-entrada-de-carton-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/pinzas-dibujos.svg": {
+    "src": "assets/readings/pinzas-dibujos-illustration.webp",
+    "width": 1100,
+    "height": 733
+  },
+  "assets/readings/pinzas-prueba.svg": {
+    "src": "assets/readings/pinzas-prueba-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
