@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 394,
-  "pendingWorks": 92,
-  "localizedAlternatives": 3156,
+  "coveredWorks": 399,
+  "pendingWorks": 87,
+  "localizedAlternatives": 3206,
   "ranges": [
     {
       "start": 1,
@@ -275,8 +275,8 @@
       "start": 191,
       "end": 195,
       "total": 5,
-      "covered": 0,
-      "status": "pending"
+      "covered": 5,
+      "status": "complete"
     },
     {
       "start": 196,
@@ -21290,15 +21290,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "Un menjador per als falciots",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-comedor-para-los-vencejos-q2",
+              "number": 2
+            },
+            {
+              "id": "un-comedor-para-los-vencejos-q4",
+              "number": 4
+            },
+            {
+              "id": "un-comedor-para-los-vencejos-q5",
+              "number": 5
+            },
+            {
+              "id": "un-comedor-para-los-vencejos-q6",
+              "number": 6
+            },
+            {
+              "id": "un-comedor-para-los-vencejos-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-comedor-para-los-vencejos-q2",
+              "number": 2
+            },
+            {
+              "id": "un-comedor-para-los-vencejos-q4",
+              "number": 4
+            },
+            {
+              "id": "un-comedor-para-los-vencejos-q5",
+              "number": 5
+            },
+            {
+              "id": "un-comedor-para-los-vencejos-q6",
+              "number": 6
+            },
+            {
+              "id": "un-comedor-para-los-vencejos-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -21309,15 +21351,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "Com llegir l’horari d’una piscina",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "como-leer-el-horario-de-una-piscina-q2",
+              "number": 2
+            },
+            {
+              "id": "como-leer-el-horario-de-una-piscina-q4",
+              "number": 4
+            },
+            {
+              "id": "como-leer-el-horario-de-una-piscina-q5",
+              "number": 5
+            },
+            {
+              "id": "como-leer-el-horario-de-una-piscina-q6",
+              "number": 6
+            },
+            {
+              "id": "como-leer-el-horario-de-una-piscina-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "como-leer-el-horario-de-una-piscina-q2",
+              "number": 2
+            },
+            {
+              "id": "como-leer-el-horario-de-una-piscina-q4",
+              "number": 4
+            },
+            {
+              "id": "como-leer-el-horario-de-una-piscina-q5",
+              "number": 5
+            },
+            {
+              "id": "como-leer-el-horario-de-una-piscina-q6",
+              "number": 6
+            },
+            {
+              "id": "como-leer-el-horario-de-una-piscina-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -21328,15 +21412,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "Un peu de foto per a tothom",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-pie-de-foto-para-todos-q3",
+              "number": 3
+            },
+            {
+              "id": "un-pie-de-foto-para-todos-q4",
+              "number": 4
+            },
+            {
+              "id": "un-pie-de-foto-para-todos-q5",
+              "number": 5
+            },
+            {
+              "id": "un-pie-de-foto-para-todos-q6",
+              "number": 6
+            },
+            {
+              "id": "un-pie-de-foto-para-todos-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-pie-de-foto-para-todos-q3",
+              "number": 3
+            },
+            {
+              "id": "un-pie-de-foto-para-todos-q4",
+              "number": 4
+            },
+            {
+              "id": "un-pie-de-foto-para-todos-q5",
+              "number": 5
+            },
+            {
+              "id": "un-pie-de-foto-para-todos-q6",
+              "number": 6
+            },
+            {
+              "id": "un-pie-de-foto-para-todos-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -21347,15 +21473,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "La bici que va viatjar en una caixa",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-bici-que-cruzo-en-una-caja-q3",
+              "number": 3
+            },
+            {
+              "id": "la-bici-que-cruzo-en-una-caja-q4",
+              "number": 4
+            },
+            {
+              "id": "la-bici-que-cruzo-en-una-caja-q5",
+              "number": 5
+            },
+            {
+              "id": "la-bici-que-cruzo-en-una-caja-q6",
+              "number": 6
+            },
+            {
+              "id": "la-bici-que-cruzo-en-una-caja-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-bici-que-cruzo-en-una-caja-q3",
+              "number": 3
+            },
+            {
+              "id": "la-bici-que-cruzo-en-una-caja-q4",
+              "number": 4
+            },
+            {
+              "id": "la-bici-que-cruzo-en-una-caja-q5",
+              "number": 5
+            },
+            {
+              "id": "la-bici-que-cruzo-en-una-caja-q6",
+              "number": 6
+            },
+            {
+              "id": "la-bici-que-cruzo-en-una-caja-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -21366,15 +21534,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "El berenar de l’última parada",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-merienda-de-la-ultima-parada-q3",
+              "number": 3
+            },
+            {
+              "id": "la-merienda-de-la-ultima-parada-q4",
+              "number": 4
+            },
+            {
+              "id": "la-merienda-de-la-ultima-parada-q5",
+              "number": 5
+            },
+            {
+              "id": "la-merienda-de-la-ultima-parada-q6",
+              "number": 6
+            },
+            {
+              "id": "la-merienda-de-la-ultima-parada-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-merienda-de-la-ultima-parada-q3",
+              "number": 3
+            },
+            {
+              "id": "la-merienda-de-la-ultima-parada-q4",
+              "number": 4
+            },
+            {
+              "id": "la-merienda-de-la-ultima-parada-q5",
+              "number": 5
+            },
+            {
+              "id": "la-merienda-de-la-ultima-parada-q6",
+              "number": 6
+            },
+            {
+              "id": "la-merienda-de-la-ultima-parada-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
