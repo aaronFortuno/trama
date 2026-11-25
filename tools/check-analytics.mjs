@@ -128,7 +128,7 @@ let reports = 0;
 globalThis.fetch = async (url, options) => {
   const body = JSON.parse(options.body);
   assert.equal(body.payload.name, 'notifica_error');
-  assert.deepEqual(body.payload.data, { codi: first.code, llengua: first.language, part: 'text', motiu: 'wording', element: '1' });
+  assert.deepEqual(body.payload.data, { codi: first.code, llengua: first.language, nivell: first.level, dificultat: first.difficulty, part: 'text', motiu: 'wording', element: '1' });
   assert(!JSON.stringify(body).includes(canary));
   reports++;
   return { ok: true, json: async () => ({ cache: 'acknowledgement' }) };
@@ -151,4 +151,30 @@ assert.equal(await sendReadingReport(pilot, { part: 'question', element: 'cartel
 assert.equal(await sendReadingReport(pilot, { part: 'question', element: 'cartel-q1', motiu: 'wording', responseMode: canary }), false);
 assert.equal(await sendReadingReport(pilot, { part: 'question', element: 'cartel-q5', motiu: 'wording', responseMode: 'choice' }), false);
 assert.equal(reports, 3);
+
+const difficultyReports = [];
+globalThis.fetch = async (url, options) => {
+  const body = JSON.parse(options.body);
+  difficultyReports.push(body.payload.data);
+  return { ok: true, json: async () => ({ cache: 'acknowledgement' }) };
+};
+for (const language of ['ca', 'es']) {
+  const reading = readings.find(item => item.code === 'L001' && item.language === language);
+  for (const motiu of ['too_easy', 'too_difficult']) {
+    assert.equal(await sendReadingReport({ ...reading, level: canary, difficulty: canary }, {
+      part: 'text', element: '', motiu, nivell: canary, dificultat: canary,
+    }), true);
+    assert.deepEqual(difficultyReports.at(-1), {
+      codi: reading.code, llengua: reading.language, nivell: reading.level, dificultat: reading.difficulty,
+      part: 'text', motiu,
+    }, 'Difficulty reports use catalogue metadata rather than caller-provided values');
+    assert.equal(await sendReadingReport(reading, { part: 'question', element: reading.questions[0].id, motiu }), false);
+  }
+}
+const difficultyCount = difficultyReports.length;
+assert.equal(await sendReadingReport(first, { part: 'text', motiu: canary }), false);
+navigator.globalPrivacyControl = true;
+assert.equal(await sendReadingReport(first, { part: 'text', motiu: 'too_difficult' }), false);
+navigator.globalPrivacyControl = false;
+assert.equal(difficultyReports.length, difficultyCount);
 console.log('Analytics: vocabulary, metadata, privacy restrictions, startup queue, blocked collector and reports OK (no network).');

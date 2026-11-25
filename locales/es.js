@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.58 · Obre l’historial de canvis|v1.58 · Abrir el historial de cambios
+Les banderes permeten avisar si una lectura és massa fàcil o massa difícil per al nivell indicat. Els avisos inclouen el curs i la dificultat del catàleg per orientar-ne la revisió.|Las banderas permiten avisar si una lectura es demasiado fácil o demasiado difícil para el nivel indicado. Los avisos incluyen el curso y la dificultad del catálogo para orientar su revisión.
 v1.57.53 · Obre l’historial de canvis|v1.57.53 · Abrir el historial de cambios
 El lot 054 incorpora alternatives ABCD a 3 fitxes del rang L266–L268, incloses les variants existents, en català i castellà. 30 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 486 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.|El lote 054 incorpora alternativas ABCD a 3 fichas del rango L266–L268, incluidas las variantes existentes, en catalán y castellano. 30 alternativas lingüísticas nuevas con revisión independiente superada. La cobertura alcanza 486 de 486 fichas concretas; las opiniones y actividades de producción se mantienen abiertas.
 v1.57.52 · Obre l’historial de canvis|v1.57.52 · Abrir el historial de cambios
@@ -109,7 +111,7 @@ v1.57 · Obre l’historial de canvis|v1.57 · Abrir el historial de cambios
 Comença l’ampliació de preguntes ABCD en lots amb les deu variants A/B de L001–L005. 88 alternatives lingüístiques noves en català i castellà, amb explicacions pròpies i distractors graduats revisats independentment. El seguiment identifica totes les fitxes pendents i només dona un rang per complet quan també s’han cobert les variants.|Comienza la ampliación de preguntas ABCD por lotes con las diez variantes A/B de L001–L005. 88 alternativas lingüísticas nuevas en catalán y castellano, con explicaciones propias y distractores graduados revisados de forma independiente. El seguimiento identifica todas las fichas pendientes y solo da un rango por completo cuando también se han cubierto las variantes.
 v1.56 · Obre l’historial de canvis|v1.56 · Abrir el historial de cambios
 Prototip de resposta oberta o ABCD a L001–L005: quatre preguntes per lectura en català i castellà, amb tria general o individual, maquetats desats i solucionaris amb resposta i explicació. El cercador admet rangs com -5, -L005 i 10-20. Les alternatives s’han revisat independentment, amb distractors que exigeixen lectura acurada; les opinions es mantenen obertes.|Prototipo de respuesta abierta o ABCD en L001–L005: cuatro preguntas por lectura en catalán y castellano, con elección general o individual, maquetaciones guardadas y solucionarios con respuesta y explicación. El buscador admite rangos como -5, -L005 y 10-20. Las alternativas se han revisado de forma independiente, con distractores que exigen una lectura atenta; las opiniones se mantienen abiertas.
-L’avís inclou el codi de la lectura, la llengua, la part afectada, el motiu i el format de la pregunta, si escau.|El aviso incluye el código de la lectura, la lengua, la parte afectada, el motivo y el formato de la pregunta, cuando corresponde.
+L’avís inclou el codi de la lectura, la llengua, el curs, la dificultat, la part afectada, el motiu i el format de la pregunta, si escau.|El aviso incluye el código de la lectura, la lengua, el curso, la dificultad, la parte afectada, el motivo y el formato de la pregunta, cuando corresponde.
 Format de les preguntes|Formato de las preguntas
 Pots combinar preguntes obertes i ABCD. Canvia el format de cada pregunta al full o aplica una preferència a totes les compatibles.|Puedes combinar preguntas abiertas y ABCD. Cambia el formato de cada pregunta en la hoja o aplica una preferencia a todas las compatibles.
 Aplica a totes les compatibles|Aplicar a todas las compatibles
@@ -912,6 +914,8 @@ Pregunta {number}|Pregunta {number}
 Errada de llengua|Error de redacción
 Dada incorrecta|Dato incorrecto
 Incoherència|Incoherencia
+Text massa fàcil per al nivell indicat|Texto demasiado fácil para el nivel indicado
+Text massa difícil per al nivell indicat|Texto demasiado difícil para el nivel indicado
 Conté un error|Contiene un error
 No encaixa amb el text|No encaja con el texto
 És inadequada|Es inadecuada

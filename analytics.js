@@ -91,7 +91,11 @@ export function sanitizeAnalyticsEvent(name, data = {}) {
 }
 
 export const reportReasons = {
-  text: { wording: 'Errada de llengua', fact: 'Dada incorrecta', coherence: 'Incoherència' },
+  text: {
+    wording: 'Errada de llengua', fact: 'Dada incorrecta', coherence: 'Incoherència',
+    too_easy: 'Text massa fàcil per al nivell indicat',
+    too_difficult: 'Text massa difícil per al nivell indicat',
+  },
   image: { error: 'Conté un error', mismatch: 'No encaixa amb el text', inappropriate: 'És inadequada' },
   question: { wording: 'Està mal formulada', unsupported: 'No es pot respondre a partir del text', inappropriate: 'És inadequada' },
   solution: { incorrect: 'Resposta incorrecta', incomplete: 'Resposta incompleta', mismatch: 'No correspon a la pregunta' },
@@ -208,7 +212,7 @@ export async function sendReadingReport(reading, { part, element, motiu, respons
   } else if (!entry.questions.some(question => question.id === element && (part !== 'solution' || question.answer))) {
     return false;
   }
-  const data = { codi: entry.code, llengua: entry.language, part, motiu };
+  const data = { codi: entry.code, llengua: entry.language, nivell: entry.level, dificultat: entry.difficulty, part, motiu };
   if (element) data.element = element;
   if (['question', 'solution'].includes(part) && responseMode !== undefined) {
     if (!['open', 'choice'].includes(responseMode)) return false;

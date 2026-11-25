@@ -21,9 +21,11 @@ Des de la versió 1.43; context de cerca i famílies ampliat a la 1.48. L’obje
 | `copia_configuracio` | Després de preparar la còpia o recuperar-la correctament | `accio`: `exporta` o `importa` |
 | `restableix_maquetat` | Després de restablir correctament el format | `abast`: `fitxa` o `tots` |
 | `canvia_idioma` | En canviar l’idioma de la interfície | `llengua`: `ca` o `es`; independent de l’idioma de les lectures |
-| `notifica_error` | En confirmar explícitament l’enviament d’un avís | `codi`, `llengua`, `part`, `motiu` i, si escau, `element`, tots validats contra el catàleg i els motius previstos |
+| `notifica_error` | En confirmar explícitament l’enviament d’un avís | `codi`, `llengua`, `nivell`, `dificultat`, `part`, `motiu` i, si escau, `element` i `format_pregunta`, tots validats contra el catàleg i els motius previstos |
 
 Les metadades públiques són `codi` (p. ex. `L001`), `llengua` (`ca`/`es`), `nivell` (p. ex. `5-primary`) i `dificultat` (`initial`/`intermediate`/`advanced`). Es deriven del catàleg, sense copiar títols ni contingut. Les lectures personals només aporten ús genèric de funcionalitats.
+
+Els avisos sobre el text permeten indicar `too_easy` (massa fàcil) o `too_difficult` (massa difícil per al nivell indicat), a més dels errors de llengua, dades i coherència. El curs i la dificultat s’obtenen de la lectura pública en el moment de l’avís; l’usuari no els escriu. Aquests motius orienten una revisió posterior i no reclassifiquen automàticament la lectura.
 
 Les lectures públiques amb variants afegeixen `familia`, derivat del registre editorial i mai copiat d’un camp personal. Les obertures i comparacions de famílies personals no generen l’esdeveniment `familia`.
 

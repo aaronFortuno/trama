@@ -26,7 +26,7 @@ export const readingReportMarkup = `
           <div class="report-reason-options"></div>
         </fieldset>
       </fieldset>
-      <p class="report-note">L’avís inclou el codi de la lectura, la llengua, la part afectada, el motiu i el format de la pregunta, si escau.</p>
+      <p class="report-note">L’avís inclou el codi de la lectura, la llengua, el curs, la dificultat, la part afectada, el motiu i el format de la pregunta, si escau.</p>
       <p class="report-status" role="status"></p>
       <div class="report-actions">
         <button class="button" type="button" data-close-dialog>Cancel·la</button>
