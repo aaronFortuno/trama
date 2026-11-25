@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 35,
+    "completedReadings": 36,
     "totalReadings": 66,
-    "completedImages": 44,
+    "completedImages": 45,
     "totalImages": 76
   },
   "readings": [
@@ -952,9 +952,17 @@
           "previousSrc": "assets/readings/l120-un-camino-entre-la-nieve.svg",
           "src": "assets/readings/l120-un-camino-entre-la-nieve-illustration.webp",
           "afterParagraph": 2,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Landscape 3:2 literary children's-book painting for Trama L120, A path through the snow. Soft watercolor and colored pencil with rich white paper texture, cold lavender-blue snow shadows, warm ochre village walls and a few muted red winter accents. A quiet small village street after heavy snow. Along the houses on the RIGHT is a clearly raised SIDEWALK with one CONTINUOUS cleared pedestrian path connecting several doorsteps and continuing toward a small distant bakery, recognizable only by loaves in its window. Snow is piled at the outside edge; the roadway to the LEFT remains snowy, clearly separate from the safe walking route. Near one house an elderly grandmother with short silver hair in an olive winter coat and an adult woman neighbor in a navy coat pause after shoveling, small in the scene, simple natural standing poses; each shovel has its blade resting on the ground and a coherent handle. On a dry sheltered doorstep rest one thermos and three small mugs, modest incidental details. The main visual focus is the unbroken practical path, not a snowman or holiday decorations. Realistic footprints along cleared paving, coherent curb, architecture and perspective. No vehicles driving through people, no magical drifting objects. No readable shop lettering, words, captions, signs, arrows, split panels, logos or watermark. Warm cooperative mood without exaggerated gestures.",
+          "visualReview": "Continuous cleared raised sidewalk links doorsteps toward bakery, separated from snowy roadway; two neighbors have supported shovels and three mugs sit on the sheltered step.",
+          "sha256": "62e0fcb33c54af6c0c764e8805d822eff0e6469cf55f044c1c9b75894a01ce92"
         }
-      ]
+      ],
+      "edition": "v1.58.36"
     },
     {
       "code": "L133",

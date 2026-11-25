@@ -219,6 +219,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l124-sombras-en-el-patio-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l120-un-camino-entre-la-nieve.svg": {
+    "src": "assets/readings/l120-un-camino-entre-la-nieve-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
