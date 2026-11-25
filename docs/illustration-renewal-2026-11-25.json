@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 48,
+    "completedReadings": 49,
     "totalReadings": 66,
-    "completedImages": 58,
+    "completedImages": 59,
     "totalImages": 76
   },
   "readings": [
@@ -1262,9 +1262,17 @@
           "previousSrc": "assets/readings/l151-una-marca-en-la-roca.svg",
           "src": "assets/readings/l151-una-marca-en-la-roca-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 atmospheric hand-painted coastal illustration for Trama L151, A mark on the rock. Fine ink, watercolor and colored pencil on richly textured ivory paper, harbor blue-green, wet granite gray and warm ochre sunlight. View from above a small old stone harbor quay at LOW TIDE. A short flight of broad real STONE STEPS descends from the quay into calm seawater; several lower steps are exposed, dark and wet, with algae along their edges. Beside the foot of the steps is one LARGE SOLID ROCK anchored naturally at the shore, fully visible above the current low water. Near the rock's upper portion is a thin irregular PALE MINERAL LINE; lower down, damp seaweed and tiny attached barnacles/snails cling to it. The waterline lies much LOWER than that pale line, making the unchanged rock and changing water level understandable without arrows or diagrams. Continuous staircase geometry and realistic water reflections, no floating rock or impossible extra staircases. A few small moored boats and modest coastal buildings appear softly in the background, no foreground people or hands needed. Quiet observational daylight, no storms or crashing waves. No labels, text, numbers, dashed tide diagrams, separate panels, captions, logos or watermark. Beautiful naturalistic illustration, not flat vector shapes.",
+          "visualReview": "Fixed shore rock has pale high line, wet algae and attached molluscs below; exposed wet steps and current low waterline clearly indicate low tide with coherent harbor geometry.",
+          "sha256": "4a868e3fa48f015f4e5a7766dd9c5f85784a500e046251dc473b4bf16bbdd537"
         }
-      ]
+      ],
+      "edition": "v1.58.49"
     },
     {
       "code": "L141",

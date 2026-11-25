@@ -289,6 +289,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l116-el-papel-que-salta-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l151-una-marca-en-la-roca.svg": {
+    "src": "assets/readings/l151-una-marca-en-la-roca-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
