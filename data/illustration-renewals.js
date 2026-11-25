@@ -369,6 +369,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l132-la-piedra-con-un-punto-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/semillas-recuento.svg": {
+    "src": "assets/readings/semillas-recuento-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

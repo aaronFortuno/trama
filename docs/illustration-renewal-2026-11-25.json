@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 64,
+    "completedReadings": 65,
     "totalReadings": 66,
-    "completedImages": 74,
+    "completedImages": 75,
     "totalImages": 76
   },
   "readings": [
@@ -1621,9 +1621,17 @@
           "previousSrc": "assets/readings/semillas-recuento.svg",
           "src": "assets/readings/semillas-recuento-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story with precise counting marks. One landscape 3:2 hand-painted school-garden fair still life for Trama L007, Five marks to keep count. Fine ink, watercolor and colored pencil on textured cream paper, bean brown, lentil green, warm wooden table. Overhead view of ONE broad paper tally sheet beside two small open plain seed pouches, one with large dry beans and one with small lentils, plus a normal pencil. The sheet has TWO clear hand-drawn columns separated by a thin pencil line, headed only with tiny bean and lentil PICTOGRAMS, NO words. LEFT bean column shows exactly THREE COMPLETE FIVE-TALLY GROUPS and then TWO separate vertical strokes. RIGHT lentil column shows exactly TWO COMPLETE FIVE-TALLY GROUPS and then TWO separate vertical strokes. A complete group is precisely FOUR parallel vertical black pencil strokes crossed by ONE diagonal slash, five strokes total; NEVER five vertical strokes plus a slash. Space groups apart, stack them clearly within each column so each group is legible. Left total therefore seventeen, right total twelve, but DO NOT print numerical totals or any written instructions. Solid paper corners, seeds visibly inside pouches or a few resting beside them, coherent shadows and real material scale. No people, hands, brand labels, letters, numbers, decorative extra count marks, arrows, diagram panels, captions, logos or watermark. Attractive tactile painted object scene, not a flat vector worksheet screenshot.",
+          "visualReview": "Each complete tally group contains four vertical strokes plus one slash; left column shows 5+5+5+2=17, right shows 5+5+2=12, with clear bean/lentil references and coherent materials.",
+          "sha256": "ee47d101f6cb3b952ed3ce5123daef0ea73a8b976b3c2de62fcfa6ed96a31de6"
         }
-      ]
+      ],
+      "edition": "v1.58.65"
     },
     {
       "code": "L131",
