@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 30,
+    "completedReadings": 31,
     "totalReadings": 66,
-    "completedImages": 38,
+    "completedImages": 39,
     "totalImages": 76
   },
   "readings": [
@@ -823,9 +823,17 @@
           "previousSrc": "assets/readings/l127-una-pinza-para-cada-calcetin.svg",
           "src": "assets/readings/l127-una-pinza-para-cada-calcetin-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Landscape 3:2 charming painted picture-book still life for Trama L127, A clip for each sock. Tactile gouache, fine colored-pencil hatching and warm paper, cheerful coral, sky blue, yellow and sage. An overhead three-quarter view of an ordinary home sorting table: THREE clearly recognizable pairs of small socks have been matched. One pair is plain blue, one plain yellow, one red-and-cream striped. Each pair consists of TWO matching socks placed together and held at their cuff edges with ONE real wooden spring clothespin; exactly one clip per pair, normal clothespin mechanics. Keep both socks in each pair visible as two fabric items, not a single four-toed sock or extra fused heels. Beside them is one open shallow cardboard storage box containing ONE lone green sock without its partner, lying naturally within the box. A few spare clothespins sit in a small bowl. Soft daylight, solid tabletop and box geometry, knitted fabric detail, coherent cloth folds and shadows. No people or hands, washing machine, laundry product brands, words, letters, numbers, arrows, explanatory panels, captions, logos or watermark. One inviting practical scene that makes matching and keeping the orphan sock clear without a diagram.",
+          "visualReview": "Three visibly separate sock pairs each clipped once at cuffs, lone green sock kept in box; believable fabric shapes, matching patterns and clothespin construction.",
+          "sha256": "0efd493f47af918983d2db9e9af84ab8ec682f20b39ff133bad707ad0dca9564"
         }
-      ]
+      ],
+      "edition": "v1.58.31"
     },
     {
       "code": "L085",

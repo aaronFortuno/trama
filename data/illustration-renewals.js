@@ -189,6 +189,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l111-vasos-de-tres-colores-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l127-una-pinza-para-cada-calcetin.svg": {
+    "src": "assets/readings/l127-una-pinza-para-cada-calcetin-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
