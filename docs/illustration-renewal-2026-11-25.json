@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 60,
+    "completedReadings": 61,
     "totalReadings": 66,
-    "completedImages": 70,
+    "completedImages": 71,
     "totalImages": 76
   },
   "readings": [
@@ -1532,9 +1532,17 @@
           "previousSrc": "assets/readings/l134-el-abrigo-de-la-taza.svg",
           "src": "assets/readings/l134-el-abrigo-de-la-taza-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 cozy hand-painted science-story still life for Trama L134, A coat for the cup. Rich soft gouache, watercolor and colored pencil, cream ceramic, muted blue wool and honey wood, tactile paper grain. On a shaded outdoor garden table are exactly TWO IDENTICAL plain cream CERAMIC MUGS of the same size and shape, both containing the SAME LEVEL of ordinary white warm MILK. The LEFT mug's outside is carefully wrapped in a thick BLUE WOOL CLOTH like a cozy insulating coat, leaving its top open and its ceramic handle accessible. The RIGHT mug is bare and otherwise identical. Wool cloth has believable knitted/felted fibers, natural folds and weight, not magic fur or a third container. A small ordinary thermometer rests safely flat on a folded napkin beside the mugs, no readable temperature numbers. Both mugs stand on the SAME table in the SHADE, away from direct sunlight; a softly blurred bright garden is beyond. Very subtle warmth, no huge steaming clouds, flames, ice or visible magical heat rays. Coherent mug ellipses, milk surfaces, handles, shadows and cloth contact. No people, hands, labels, text, arrows, diagram panels, captions, logos or watermark. Attractive truthful everyday experiment scene, not vector clipart.",
+          "visualReview": "Identical cream mugs contain matching milk levels, one wrapped in wool with handle accessible and the other bare; both on the same garden table, coherent mug and textile geometry.",
+          "sha256": "1dba451b5652a6c0268288ca72069460d4785b251101ba9769ce769d4014f9e1"
         }
-      ]
+      ],
+      "edition": "v1.58.61"
     },
     {
       "code": "L123",
