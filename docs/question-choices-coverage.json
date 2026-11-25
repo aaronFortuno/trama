@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 296,
-  "pendingWorks": 190,
-  "localizedAlternatives": 2402,
+  "coveredWorks": 305,
+  "pendingWorks": 181,
+  "localizedAlternatives": 2460,
   "ranges": [
     {
       "start": 1,
@@ -205,8 +205,8 @@
       "start": 141,
       "end": 145,
       "total": 9,
-      "covered": 0,
-      "status": "pending"
+      "covered": 9,
+      "status": "complete"
     },
     {
       "start": 146,
@@ -16216,15 +16216,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "El cartell de la font",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-cartel-de-la-fuente-q2",
+              "number": 2
+            },
+            {
+              "id": "el-cartel-de-la-fuente-q3",
+              "number": 3
+            },
+            {
+              "id": "el-cartel-de-la-fuente-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-cartel-de-la-fuente-q2",
+              "number": 2
+            },
+            {
+              "id": "el-cartel-de-la-fuente-q3",
+              "number": 3
+            },
+            {
+              "id": "el-cartel-de-la-fuente-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -16235,15 +16261,41 @@
       "level": "2-primary",
       "difficulty": "initial",
       "title": "El cartell de la font",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l141a-q2",
+              "number": 2
+            },
+            {
+              "id": "l141a-q3",
+              "number": 3
+            },
+            {
+              "id": "l141a-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l141a-q2",
+              "number": 2
+            },
+            {
+              "id": "l141a-q3",
+              "number": 3
+            },
+            {
+              "id": "l141a-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -16254,15 +16306,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "El cartell de la font",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l141b-q3",
+              "number": 3
+            },
+            {
+              "id": "l141b-q4",
+              "number": 4
+            },
+            {
+              "id": "l141b-q5",
+              "number": 5
+            },
+            {
+              "id": "l141b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l141b-q3",
+              "number": 3
+            },
+            {
+              "id": "l141b-q4",
+              "number": 4
+            },
+            {
+              "id": "l141b-q5",
+              "number": 5
+            },
+            {
+              "id": "l141b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -16273,15 +16359,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "Les picades de mans del passadís",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "las-palmas-del-pasillo-q2",
+              "number": 2
+            },
+            {
+              "id": "las-palmas-del-pasillo-q4",
+              "number": 4
+            },
+            {
+              "id": "las-palmas-del-pasillo-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "las-palmas-del-pasillo-q2",
+              "number": 2
+            },
+            {
+              "id": "las-palmas-del-pasillo-q4",
+              "number": 4
+            },
+            {
+              "id": "las-palmas-del-pasillo-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -16292,15 +16404,41 @@
       "level": "3-primary",
       "difficulty": "advanced",
       "title": "Una rampa diferent",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-rampa-distinta-q3",
+              "number": 3
+            },
+            {
+              "id": "una-rampa-distinta-q4",
+              "number": 4
+            },
+            {
+              "id": "una-rampa-distinta-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-rampa-distinta-q3",
+              "number": 3
+            },
+            {
+              "id": "una-rampa-distinta-q4",
+              "number": 4
+            },
+            {
+              "id": "una-rampa-distinta-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -16311,15 +16449,41 @@
       "level": "3-primary",
       "difficulty": "advanced",
       "title": "Un niu sense veure’l",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-nido-sin-verlo-q1",
+              "number": 1
+            },
+            {
+              "id": "un-nido-sin-verlo-q4",
+              "number": 4
+            },
+            {
+              "id": "un-nido-sin-verlo-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-nido-sin-verlo-q1",
+              "number": 1
+            },
+            {
+              "id": "un-nido-sin-verlo-q4",
+              "number": 4
+            },
+            {
+              "id": "un-nido-sin-verlo-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -16330,15 +16494,41 @@
       "level": "3-primary",
       "difficulty": "advanced",
       "title": "La manta de les mànigues",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-manta-de-las-mangas-q1",
+              "number": 1
+            },
+            {
+              "id": "la-manta-de-las-mangas-q4",
+              "number": 4
+            },
+            {
+              "id": "la-manta-de-las-mangas-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-manta-de-las-mangas-q1",
+              "number": 1
+            },
+            {
+              "id": "la-manta-de-las-mangas-q4",
+              "number": 4
+            },
+            {
+              "id": "la-manta-de-las-mangas-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -16349,15 +16539,41 @@
       "level": "2-primary",
       "difficulty": "initial",
       "title": "La manta de les mànigues",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l145a-q2",
+              "number": 2
+            },
+            {
+              "id": "l145a-q3",
+              "number": 3
+            },
+            {
+              "id": "l145a-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l145a-q2",
+              "number": 2
+            },
+            {
+              "id": "l145a-q3",
+              "number": 3
+            },
+            {
+              "id": "l145a-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -16368,15 +16584,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "La manta de les mànigues",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l145b-q2",
+              "number": 2
+            },
+            {
+              "id": "l145b-q3",
+              "number": 3
+            },
+            {
+              "id": "l145b-q4",
+              "number": 4
+            },
+            {
+              "id": "l145b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l145b-q2",
+              "number": 2
+            },
+            {
+              "id": "l145b-q3",
+              "number": 3
+            },
+            {
+              "id": "l145b-q4",
+              "number": 4
+            },
+            {
+              "id": "l145b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
