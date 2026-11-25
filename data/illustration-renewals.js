@@ -154,6 +154,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l147-un-ritmo-bajo-el-suelo-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l105-el-rastro-de-plata.svg": {
+    "src": "assets/readings/l105-el-rastro-de-plata-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

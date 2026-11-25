@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 24,
+    "completedReadings": 25,
     "totalReadings": 66,
-    "completedImages": 31,
+    "completedImages": 32,
     "totalImages": 76
   },
   "readings": [
@@ -672,9 +672,17 @@
           "previousSrc": "assets/readings/l105-el-rastro-de-plata.svg",
           "src": "assets/readings/l105-el-rastro-de-plata-illustration.webp",
           "afterParagraph": 2,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Landscape 3:2 beautiful close-up natural-history illustration for Trama L105, The silver trail. Delicate botanical watercolor and fine colored pencil on textured ivory paper, fresh mint green, warm terracotta and silver-white wet reflections. On a small apartment balcony just after rain, a realistic SMALL garden snail crawls slowly at the rim of a terracotta mint pot, partly sheltered beneath a serrated mint leaf. The snail has a convincing coiled shell, soft continuous body and extended upper eye stalks with tiny dark eyes, naturally placed lower feelers, no humanlike face. A thin glistening silver mucus trail is clearly visible on one wet tile, continues UP the outside wall of the pot and reaches the snail's path near the rim. Make the trail a delicate continuous irregular sheen, not a thick painted white ribbon, hose or crack. Mint grows plausibly from soil in the pot, leaves and stems botanically recognizable; rain droplets catch soft returning light. The snail is the clear focal point, not gigantic relative to leaves. Coherent pot rim ellipse, tile planes, trail path and shadows. No people, hands, text, arrows, fantasy sparkle symbols, diagram labels, panels, logos or watermark. Gentle wonder appropriate for young primary readers, rich material textures rather than vector clipart.",
+          "visualReview": "Small snail with natural coiled shell and feelers rests beneath mint foliage; fine continuous reflective trail connects wet tile, pot wall and rim, matching the story.",
+          "sha256": "e8dad48958d4f6baca5f57e67ea47bf5fa5ea10e962c0e1844d954186e923156"
         }
-      ]
+      ],
+      "edition": "v1.58.25"
     },
     {
       "code": "L128",
