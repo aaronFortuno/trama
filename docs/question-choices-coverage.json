@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 148,
-  "pendingWorks": 338,
-  "localizedAlternatives": 1228,
+  "coveredWorks": 161,
+  "pendingWorks": 325,
+  "localizedAlternatives": 1350,
   "ranges": [
     {
       "start": 1,
@@ -121,8 +121,8 @@
       "start": 81,
       "end": 85,
       "total": 13,
-      "covered": 0,
-      "status": "pending"
+      "covered": 13,
+      "status": "complete"
     },
     {
       "start": 86,
@@ -8412,15 +8412,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "La taula de devolucions",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-mesa-de-las-devoluciones-q2",
+              "number": 2
+            },
+            {
+              "id": "la-mesa-de-las-devoluciones-q3",
+              "number": 3
+            },
+            {
+              "id": "la-mesa-de-las-devoluciones-q4",
+              "number": 4
+            },
+            {
+              "id": "la-mesa-de-las-devoluciones-q5",
+              "number": 5
+            },
+            {
+              "id": "la-mesa-de-las-devoluciones-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-mesa-de-las-devoluciones-q2",
+              "number": 2
+            },
+            {
+              "id": "la-mesa-de-las-devoluciones-q3",
+              "number": 3
+            },
+            {
+              "id": "la-mesa-de-las-devoluciones-q4",
+              "number": 4
+            },
+            {
+              "id": "la-mesa-de-las-devoluciones-q5",
+              "number": 5
+            },
+            {
+              "id": "la-mesa-de-las-devoluciones-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -8431,15 +8473,57 @@
       "level": "6-primary",
       "difficulty": "advanced",
       "title": "L’assaig de les dues pauses",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-ensayo-de-las-dos-pausas-q1",
+              "number": 1
+            },
+            {
+              "id": "el-ensayo-de-las-dos-pausas-q2",
+              "number": 2
+            },
+            {
+              "id": "el-ensayo-de-las-dos-pausas-q4",
+              "number": 4
+            },
+            {
+              "id": "el-ensayo-de-las-dos-pausas-q6",
+              "number": 6
+            },
+            {
+              "id": "el-ensayo-de-las-dos-pausas-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-ensayo-de-las-dos-pausas-q1",
+              "number": 1
+            },
+            {
+              "id": "el-ensayo-de-las-dos-pausas-q2",
+              "number": 2
+            },
+            {
+              "id": "el-ensayo-de-las-dos-pausas-q4",
+              "number": 4
+            },
+            {
+              "id": "el-ensayo-de-las-dos-pausas-q6",
+              "number": 6
+            },
+            {
+              "id": "el-ensayo-de-las-dos-pausas-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -8450,15 +8534,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "L’assaig de les dues pauses",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l082a-q1",
+              "number": 1
+            },
+            {
+              "id": "l082a-q3",
+              "number": 3
+            },
+            {
+              "id": "l082a-q4",
+              "number": 4
+            },
+            {
+              "id": "l082a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l082a-q1",
+              "number": 1
+            },
+            {
+              "id": "l082a-q3",
+              "number": 3
+            },
+            {
+              "id": "l082a-q4",
+              "number": 4
+            },
+            {
+              "id": "l082a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -8469,15 +8587,57 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "L’assaig de les dues pauses",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l082b-q3",
+              "number": 3
+            },
+            {
+              "id": "l082b-q4",
+              "number": 4
+            },
+            {
+              "id": "l082b-q6",
+              "number": 6
+            },
+            {
+              "id": "l082b-q8",
+              "number": 8
+            },
+            {
+              "id": "l082b-q10",
+              "number": 10
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l082b-q3",
+              "number": 3
+            },
+            {
+              "id": "l082b-q4",
+              "number": 4
+            },
+            {
+              "id": "l082b-q6",
+              "number": 6
+            },
+            {
+              "id": "l082b-q8",
+              "number": 8
+            },
+            {
+              "id": "l082b-q10",
+              "number": 10
+            }
+          ]
         }
       }
     },
@@ -8488,15 +8648,57 @@
       "level": "6-primary",
       "difficulty": "advanced",
       "title": "Quan el riu deixa una illa",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "cuando-el-rio-deja-una-isla-q2",
+              "number": 2
+            },
+            {
+              "id": "cuando-el-rio-deja-una-isla-q3",
+              "number": 3
+            },
+            {
+              "id": "cuando-el-rio-deja-una-isla-q4",
+              "number": 4
+            },
+            {
+              "id": "cuando-el-rio-deja-una-isla-q5",
+              "number": 5
+            },
+            {
+              "id": "cuando-el-rio-deja-una-isla-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "cuando-el-rio-deja-una-isla-q2",
+              "number": 2
+            },
+            {
+              "id": "cuando-el-rio-deja-una-isla-q3",
+              "number": 3
+            },
+            {
+              "id": "cuando-el-rio-deja-una-isla-q4",
+              "number": 4
+            },
+            {
+              "id": "cuando-el-rio-deja-una-isla-q5",
+              "number": 5
+            },
+            {
+              "id": "cuando-el-rio-deja-una-isla-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -8507,15 +8709,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Quan el riu deixa una illa",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l083a-q1",
+              "number": 1
+            },
+            {
+              "id": "l083a-q3",
+              "number": 3
+            },
+            {
+              "id": "l083a-q4",
+              "number": 4
+            },
+            {
+              "id": "l083a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l083a-q1",
+              "number": 1
+            },
+            {
+              "id": "l083a-q3",
+              "number": 3
+            },
+            {
+              "id": "l083a-q4",
+              "number": 4
+            },
+            {
+              "id": "l083a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -8526,15 +8762,57 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "Quan el riu deixa una illa",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l083b-q2",
+              "number": 2
+            },
+            {
+              "id": "l083b-q4",
+              "number": 4
+            },
+            {
+              "id": "l083b-q5",
+              "number": 5
+            },
+            {
+              "id": "l083b-q6",
+              "number": 6
+            },
+            {
+              "id": "l083b-q9",
+              "number": 9
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l083b-q2",
+              "number": 2
+            },
+            {
+              "id": "l083b-q4",
+              "number": 4
+            },
+            {
+              "id": "l083b-q5",
+              "number": 5
+            },
+            {
+              "id": "l083b-q6",
+              "number": 6
+            },
+            {
+              "id": "l083b-q9",
+              "number": 9
+            }
+          ]
         }
       }
     },
@@ -8545,15 +8823,57 @@
       "level": "6-primary",
       "difficulty": "advanced",
       "title": "Una recepta amb dues dates",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-receta-con-dos-fechas-q1",
+              "number": 1
+            },
+            {
+              "id": "una-receta-con-dos-fechas-q2",
+              "number": 2
+            },
+            {
+              "id": "una-receta-con-dos-fechas-q3",
+              "number": 3
+            },
+            {
+              "id": "una-receta-con-dos-fechas-q4",
+              "number": 4
+            },
+            {
+              "id": "una-receta-con-dos-fechas-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-receta-con-dos-fechas-q1",
+              "number": 1
+            },
+            {
+              "id": "una-receta-con-dos-fechas-q2",
+              "number": 2
+            },
+            {
+              "id": "una-receta-con-dos-fechas-q3",
+              "number": 3
+            },
+            {
+              "id": "una-receta-con-dos-fechas-q4",
+              "number": 4
+            },
+            {
+              "id": "una-receta-con-dos-fechas-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -8564,15 +8884,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Una recepta amb dues dates",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l084a-q2",
+              "number": 2
+            },
+            {
+              "id": "l084a-q4",
+              "number": 4
+            },
+            {
+              "id": "l084a-q5",
+              "number": 5
+            },
+            {
+              "id": "l084a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l084a-q2",
+              "number": 2
+            },
+            {
+              "id": "l084a-q4",
+              "number": 4
+            },
+            {
+              "id": "l084a-q5",
+              "number": 5
+            },
+            {
+              "id": "l084a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -8583,15 +8937,57 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "Una recepta amb dues dates",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l084b-q2",
+              "number": 2
+            },
+            {
+              "id": "l084b-q5",
+              "number": 5
+            },
+            {
+              "id": "l084b-q6",
+              "number": 6
+            },
+            {
+              "id": "l084b-q8",
+              "number": 8
+            },
+            {
+              "id": "l084b-q9",
+              "number": 9
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l084b-q2",
+              "number": 2
+            },
+            {
+              "id": "l084b-q5",
+              "number": 5
+            },
+            {
+              "id": "l084b-q6",
+              "number": 6
+            },
+            {
+              "id": "l084b-q8",
+              "number": 8
+            },
+            {
+              "id": "l084b-q9",
+              "number": 9
+            }
+          ]
         }
       }
     },
@@ -8602,15 +8998,57 @@
       "level": "6-primary",
       "difficulty": "advanced",
       "title": "La maleta que no es volia tancar",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-maleta-q2",
+              "number": 2
+            },
+            {
+              "id": "la-maleta-q3",
+              "number": 3
+            },
+            {
+              "id": "la-maleta-q4",
+              "number": 4
+            },
+            {
+              "id": "la-maleta-q5",
+              "number": 5
+            },
+            {
+              "id": "la-maleta-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-maleta-q2",
+              "number": 2
+            },
+            {
+              "id": "la-maleta-q3",
+              "number": 3
+            },
+            {
+              "id": "la-maleta-q4",
+              "number": 4
+            },
+            {
+              "id": "la-maleta-q5",
+              "number": 5
+            },
+            {
+              "id": "la-maleta-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -8621,15 +9059,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "La maleta que no es volia tancar",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l085a-q2",
+              "number": 2
+            },
+            {
+              "id": "l085a-q3",
+              "number": 3
+            },
+            {
+              "id": "l085a-q5",
+              "number": 5
+            },
+            {
+              "id": "l085a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l085a-q2",
+              "number": 2
+            },
+            {
+              "id": "l085a-q3",
+              "number": 3
+            },
+            {
+              "id": "l085a-q5",
+              "number": 5
+            },
+            {
+              "id": "l085a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -8640,15 +9112,57 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "La maleta que no es volia tancar",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l085b-q3",
+              "number": 3
+            },
+            {
+              "id": "l085b-q5",
+              "number": 5
+            },
+            {
+              "id": "l085b-q7",
+              "number": 7
+            },
+            {
+              "id": "l085b-q9",
+              "number": 9
+            },
+            {
+              "id": "l085b-q10",
+              "number": 10
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l085b-q3",
+              "number": 3
+            },
+            {
+              "id": "l085b-q5",
+              "number": 5
+            },
+            {
+              "id": "l085b-q7",
+              "number": 7
+            },
+            {
+              "id": "l085b-q9",
+              "number": 9
+            },
+            {
+              "id": "l085b-q10",
+              "number": 10
+            }
+          ]
         }
       }
     },
