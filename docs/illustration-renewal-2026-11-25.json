@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 45,
+    "completedReadings": 46,
     "totalReadings": 66,
-    "completedImages": 55,
+    "completedImages": 56,
     "totalImages": 76
   },
   "readings": [
@@ -1195,9 +1195,17 @@
           "previousSrc": "assets/readings/l142-las-palmas-del-pasillo.svg",
           "src": "assets/readings/l142-las-palmas-del-pasillo-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. A landscape 3:2 inviting painted sound-experiment scene for Trama L142, Claps in the corridor. Rich gouache, colored-pencil edges and warm paper grain, muted indigo, ochre and soft rust, daylight through a curtained window. Inside a modest primary-school music room, eight-year-old Silvia stands on a thick woven RUG and gives ONE simple clap with her two hands meeting naturally in front of her chest. She has a short dark straight haircut with bangs and wears a loose rust sweatshirt and casual trousers, no uniform. Exactly two arms and two anatomically plausible hands, no extra hand near the face. Heavy full-length CURTAINS are closed over the large window, clearly thick fabric in soft folds. A simple upright piano and a few empty ordinary chairs in the background suggest the music room; the room door is closed. Two or three very faint short hand-drawn curved sound strokes near the clapping hands gently suggest the brief sound, subtle painterly marks rather than an infographic or magical light. Rug, curtains and listening atmosphere are the visual focus. Coherent furniture and floor perspective, warm human expression, uncluttered. No readable music scores, words, numbers, speech bubbles, diagram panels, logo or watermark.",
+          "visualReview": "Child claps with two attached natural hands, thick closed curtains and rug dominate music room; faint sound strokes match description, supported piano and chairs coherent.",
+          "sha256": "2fa244c162554997bd16a420b6e6d5da98773a90d6745e932092c8b7120f37c1"
         }
-      ]
+      ],
+      "edition": "v1.58.46"
     },
     {
       "code": "L106",

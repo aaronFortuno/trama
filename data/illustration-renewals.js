@@ -274,6 +274,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l144-un-nido-sin-verlo-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l142-las-palmas-del-pasillo.svg": {
+    "src": "assets/readings/l142-las-palmas-del-pasillo-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
