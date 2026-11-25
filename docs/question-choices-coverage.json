@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 443,
-  "pendingWorks": 43,
-  "localizedAlternatives": 3676,
+  "coveredWorks": 448,
+  "pendingWorks": 38,
+  "localizedAlternatives": 3736,
   "ranges": [
     {
       "start": 1,
@@ -324,8 +324,8 @@
       "start": 226,
       "end": 230,
       "total": 5,
-      "covered": 0,
-      "status": "pending"
+      "covered": 5,
+      "status": "complete"
     },
     {
       "start": 231,
@@ -24399,15 +24399,65 @@
       "level": "1-secondary",
       "difficulty": "intermediate",
       "title": "El mapa que mostrava absències",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-mapa-que-mostraba-ausencias-q4",
+              "number": 4
+            },
+            {
+              "id": "el-mapa-que-mostraba-ausencias-q5",
+              "number": 5
+            },
+            {
+              "id": "el-mapa-que-mostraba-ausencias-q6",
+              "number": 6
+            },
+            {
+              "id": "el-mapa-que-mostraba-ausencias-q7",
+              "number": 7
+            },
+            {
+              "id": "el-mapa-que-mostraba-ausencias-q8",
+              "number": 8
+            },
+            {
+              "id": "el-mapa-que-mostraba-ausencias-q9",
+              "number": 9
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-mapa-que-mostraba-ausencias-q4",
+              "number": 4
+            },
+            {
+              "id": "el-mapa-que-mostraba-ausencias-q5",
+              "number": 5
+            },
+            {
+              "id": "el-mapa-que-mostraba-ausencias-q6",
+              "number": 6
+            },
+            {
+              "id": "el-mapa-que-mostraba-ausencias-q7",
+              "number": 7
+            },
+            {
+              "id": "el-mapa-que-mostraba-ausencias-q8",
+              "number": 8
+            },
+            {
+              "id": "el-mapa-que-mostraba-ausencias-q9",
+              "number": 9
+            }
+          ]
         }
       }
     },
@@ -24418,15 +24468,65 @@
       "level": "1-secondary",
       "difficulty": "intermediate",
       "title": "Una solució més lenta",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-solucion-mas-lenta-q3",
+              "number": 3
+            },
+            {
+              "id": "una-solucion-mas-lenta-q4",
+              "number": 4
+            },
+            {
+              "id": "una-solucion-mas-lenta-q5",
+              "number": 5
+            },
+            {
+              "id": "una-solucion-mas-lenta-q6",
+              "number": 6
+            },
+            {
+              "id": "una-solucion-mas-lenta-q7",
+              "number": 7
+            },
+            {
+              "id": "una-solucion-mas-lenta-q9",
+              "number": 9
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-solucion-mas-lenta-q3",
+              "number": 3
+            },
+            {
+              "id": "una-solucion-mas-lenta-q4",
+              "number": 4
+            },
+            {
+              "id": "una-solucion-mas-lenta-q5",
+              "number": 5
+            },
+            {
+              "id": "una-solucion-mas-lenta-q6",
+              "number": 6
+            },
+            {
+              "id": "una-solucion-mas-lenta-q7",
+              "number": 7
+            },
+            {
+              "id": "una-solucion-mas-lenta-q9",
+              "number": 9
+            }
+          ]
         }
       }
     },
@@ -24437,15 +24537,65 @@
       "level": "1-secondary",
       "difficulty": "intermediate",
       "title": "La nit dels ratpenats",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-noche-de-los-murcielagos-q3",
+              "number": 3
+            },
+            {
+              "id": "la-noche-de-los-murcielagos-q4",
+              "number": 4
+            },
+            {
+              "id": "la-noche-de-los-murcielagos-q5",
+              "number": 5
+            },
+            {
+              "id": "la-noche-de-los-murcielagos-q6",
+              "number": 6
+            },
+            {
+              "id": "la-noche-de-los-murcielagos-q7",
+              "number": 7
+            },
+            {
+              "id": "la-noche-de-los-murcielagos-q9",
+              "number": 9
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-noche-de-los-murcielagos-q3",
+              "number": 3
+            },
+            {
+              "id": "la-noche-de-los-murcielagos-q4",
+              "number": 4
+            },
+            {
+              "id": "la-noche-de-los-murcielagos-q5",
+              "number": 5
+            },
+            {
+              "id": "la-noche-de-los-murcielagos-q6",
+              "number": 6
+            },
+            {
+              "id": "la-noche-de-los-murcielagos-q7",
+              "number": 7
+            },
+            {
+              "id": "la-noche-de-los-murcielagos-q9",
+              "number": 9
+            }
+          ]
         }
       }
     },
@@ -24456,15 +24606,65 @@
       "level": "1-secondary",
       "difficulty": "intermediate",
       "title": "Per què una xifra pot canviar d’unitat",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "por-que-una-cifra-puede-cambiar-de-unidad-q4",
+              "number": 4
+            },
+            {
+              "id": "por-que-una-cifra-puede-cambiar-de-unidad-q5",
+              "number": 5
+            },
+            {
+              "id": "por-que-una-cifra-puede-cambiar-de-unidad-q6",
+              "number": 6
+            },
+            {
+              "id": "por-que-una-cifra-puede-cambiar-de-unidad-q7",
+              "number": 7
+            },
+            {
+              "id": "por-que-una-cifra-puede-cambiar-de-unidad-q8",
+              "number": 8
+            },
+            {
+              "id": "por-que-una-cifra-puede-cambiar-de-unidad-q9",
+              "number": 9
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "por-que-una-cifra-puede-cambiar-de-unidad-q4",
+              "number": 4
+            },
+            {
+              "id": "por-que-una-cifra-puede-cambiar-de-unidad-q5",
+              "number": 5
+            },
+            {
+              "id": "por-que-una-cifra-puede-cambiar-de-unidad-q6",
+              "number": 6
+            },
+            {
+              "id": "por-que-una-cifra-puede-cambiar-de-unidad-q7",
+              "number": 7
+            },
+            {
+              "id": "por-que-una-cifra-puede-cambiar-de-unidad-q8",
+              "number": 8
+            },
+            {
+              "id": "por-que-una-cifra-puede-cambiar-de-unidad-q9",
+              "number": 9
+            }
+          ]
         }
       }
     },
@@ -24475,15 +24675,65 @@
       "level": "1-secondary",
       "difficulty": "intermediate",
       "title": "Una entrevista amb preguntes ratllades",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-entrevista-con-preguntas-tachadas-q4",
+              "number": 4
+            },
+            {
+              "id": "una-entrevista-con-preguntas-tachadas-q5",
+              "number": 5
+            },
+            {
+              "id": "una-entrevista-con-preguntas-tachadas-q6",
+              "number": 6
+            },
+            {
+              "id": "una-entrevista-con-preguntas-tachadas-q7",
+              "number": 7
+            },
+            {
+              "id": "una-entrevista-con-preguntas-tachadas-q8",
+              "number": 8
+            },
+            {
+              "id": "una-entrevista-con-preguntas-tachadas-q9",
+              "number": 9
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-entrevista-con-preguntas-tachadas-q4",
+              "number": 4
+            },
+            {
+              "id": "una-entrevista-con-preguntas-tachadas-q5",
+              "number": 5
+            },
+            {
+              "id": "una-entrevista-con-preguntas-tachadas-q6",
+              "number": 6
+            },
+            {
+              "id": "una-entrevista-con-preguntas-tachadas-q7",
+              "number": 7
+            },
+            {
+              "id": "una-entrevista-con-preguntas-tachadas-q8",
+              "number": 8
+            },
+            {
+              "id": "una-entrevista-con-preguntas-tachadas-q9",
+              "number": 9
+            }
+          ]
         }
       }
     },
