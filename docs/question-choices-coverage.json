@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 136,
-  "pendingWorks": 350,
-  "localizedAlternatives": 1118,
+  "coveredWorks": 141,
+  "pendingWorks": 345,
+  "localizedAlternatives": 1166,
   "ranges": [
     {
       "start": 1,
@@ -107,8 +107,8 @@
       "start": 71,
       "end": 75,
       "total": 5,
-      "covered": 0,
-      "status": "pending"
+      "covered": 5,
+      "status": "complete"
     },
     {
       "start": 76,
@@ -7720,15 +7720,57 @@
       "level": "6-primary",
       "difficulty": "intermediate",
       "title": "La llibreta de les marees",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-cuaderno-de-las-mareas-q2",
+              "number": 2
+            },
+            {
+              "id": "el-cuaderno-de-las-mareas-q3",
+              "number": 3
+            },
+            {
+              "id": "el-cuaderno-de-las-mareas-q4",
+              "number": 4
+            },
+            {
+              "id": "el-cuaderno-de-las-mareas-q5",
+              "number": 5
+            },
+            {
+              "id": "el-cuaderno-de-las-mareas-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-cuaderno-de-las-mareas-q2",
+              "number": 2
+            },
+            {
+              "id": "el-cuaderno-de-las-mareas-q3",
+              "number": 3
+            },
+            {
+              "id": "el-cuaderno-de-las-mareas-q4",
+              "number": 4
+            },
+            {
+              "id": "el-cuaderno-de-las-mareas-q5",
+              "number": 5
+            },
+            {
+              "id": "el-cuaderno-de-las-mareas-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -7739,15 +7781,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Un camí a les fosques",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-camino-en-la-oscuridad-q2",
+              "number": 2
+            },
+            {
+              "id": "un-camino-en-la-oscuridad-q3",
+              "number": 3
+            },
+            {
+              "id": "un-camino-en-la-oscuridad-q4",
+              "number": 4
+            },
+            {
+              "id": "un-camino-en-la-oscuridad-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-camino-en-la-oscuridad-q2",
+              "number": 2
+            },
+            {
+              "id": "un-camino-en-la-oscuridad-q3",
+              "number": 3
+            },
+            {
+              "id": "un-camino-en-la-oscuridad-q4",
+              "number": 4
+            },
+            {
+              "id": "un-camino-en-la-oscuridad-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -7758,15 +7834,57 @@
       "level": "6-primary",
       "difficulty": "intermediate",
       "title": "L’última foto de l’àlbum",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-ultima-foto-del-album-q2",
+              "number": 2
+            },
+            {
+              "id": "la-ultima-foto-del-album-q3",
+              "number": 3
+            },
+            {
+              "id": "la-ultima-foto-del-album-q4",
+              "number": 4
+            },
+            {
+              "id": "la-ultima-foto-del-album-q5",
+              "number": 5
+            },
+            {
+              "id": "la-ultima-foto-del-album-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-ultima-foto-del-album-q2",
+              "number": 2
+            },
+            {
+              "id": "la-ultima-foto-del-album-q3",
+              "number": 3
+            },
+            {
+              "id": "la-ultima-foto-del-album-q4",
+              "number": 4
+            },
+            {
+              "id": "la-ultima-foto-del-album-q5",
+              "number": 5
+            },
+            {
+              "id": "la-ultima-foto-del-album-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -7777,15 +7895,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "Com muntar un museu en una taula",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "como-montar-un-museo-de-una-mesa-q1",
+              "number": 1
+            },
+            {
+              "id": "como-montar-un-museo-de-una-mesa-q2",
+              "number": 2
+            },
+            {
+              "id": "como-montar-un-museo-de-una-mesa-q3",
+              "number": 3
+            },
+            {
+              "id": "como-montar-un-museo-de-una-mesa-q4",
+              "number": 4
+            },
+            {
+              "id": "como-montar-un-museo-de-una-mesa-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "como-montar-un-museo-de-una-mesa-q1",
+              "number": 1
+            },
+            {
+              "id": "como-montar-un-museo-de-una-mesa-q2",
+              "number": 2
+            },
+            {
+              "id": "como-montar-un-museo-de-una-mesa-q3",
+              "number": 3
+            },
+            {
+              "id": "como-montar-un-museo-de-una-mesa-q4",
+              "number": 4
+            },
+            {
+              "id": "como-montar-un-museo-de-una-mesa-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -7796,15 +7956,57 @@
       "level": "6-primary",
       "difficulty": "intermediate",
       "title": "El correu que va arribar dues vegades",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-correo-que-llego-dos-veces-q2",
+              "number": 2
+            },
+            {
+              "id": "el-correo-que-llego-dos-veces-q3",
+              "number": 3
+            },
+            {
+              "id": "el-correo-que-llego-dos-veces-q4",
+              "number": 4
+            },
+            {
+              "id": "el-correo-que-llego-dos-veces-q5",
+              "number": 5
+            },
+            {
+              "id": "el-correo-que-llego-dos-veces-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-correo-que-llego-dos-veces-q2",
+              "number": 2
+            },
+            {
+              "id": "el-correo-que-llego-dos-veces-q3",
+              "number": 3
+            },
+            {
+              "id": "el-correo-que-llego-dos-veces-q4",
+              "number": 4
+            },
+            {
+              "id": "el-correo-que-llego-dos-veces-q5",
+              "number": 5
+            },
+            {
+              "id": "el-correo-que-llego-dos-veces-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
