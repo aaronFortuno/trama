@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 283,
-  "pendingWorks": 203,
-  "localizedAlternatives": 2316,
+  "coveredWorks": 296,
+  "pendingWorks": 190,
+  "localizedAlternatives": 2402,
   "ranges": [
     {
       "start": 1,
@@ -198,8 +198,8 @@
       "start": 136,
       "end": 140,
       "total": 13,
-      "covered": 0,
-      "status": "pending"
+      "covered": 13,
+      "status": "complete"
     },
     {
       "start": 141,
@@ -15599,15 +15599,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "Dos trucs a la porta",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "dos-golpes-en-la-puerta-q1",
+              "number": 1
+            },
+            {
+              "id": "dos-golpes-en-la-puerta-q3",
+              "number": 3
+            },
+            {
+              "id": "dos-golpes-en-la-puerta-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "dos-golpes-en-la-puerta-q1",
+              "number": 1
+            },
+            {
+              "id": "dos-golpes-en-la-puerta-q3",
+              "number": 3
+            },
+            {
+              "id": "dos-golpes-en-la-puerta-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -15618,15 +15644,41 @@
       "level": "2-primary",
       "difficulty": "initial",
       "title": "Dos trucs a la porta",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l136a-q1",
+              "number": 1
+            },
+            {
+              "id": "l136a-q2",
+              "number": 2
+            },
+            {
+              "id": "l136a-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l136a-q1",
+              "number": 1
+            },
+            {
+              "id": "l136a-q2",
+              "number": 2
+            },
+            {
+              "id": "l136a-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -15637,15 +15689,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "Dos trucs a la porta",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l136b-q2",
+              "number": 2
+            },
+            {
+              "id": "l136b-q3",
+              "number": 3
+            },
+            {
+              "id": "l136b-q4",
+              "number": 4
+            },
+            {
+              "id": "l136b-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l136b-q2",
+              "number": 2
+            },
+            {
+              "id": "l136b-q3",
+              "number": 3
+            },
+            {
+              "id": "l136b-q4",
+              "number": 4
+            },
+            {
+              "id": "l136b-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -15656,15 +15742,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "Gotes que s’ajunten",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "gotas-que-se-juntan-q2",
+              "number": 2
+            },
+            {
+              "id": "gotas-que-se-juntan-q3",
+              "number": 3
+            },
+            {
+              "id": "gotas-que-se-juntan-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "gotas-que-se-juntan-q2",
+              "number": 2
+            },
+            {
+              "id": "gotas-que-se-juntan-q3",
+              "number": 3
+            },
+            {
+              "id": "gotas-que-se-juntan-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -15675,15 +15787,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "Una bústia a la biblioteca",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-buzon-en-la-biblioteca-q2",
+              "number": 2
+            },
+            {
+              "id": "un-buzon-en-la-biblioteca-q4",
+              "number": 4
+            },
+            {
+              "id": "un-buzon-en-la-biblioteca-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-buzon-en-la-biblioteca-q2",
+              "number": 2
+            },
+            {
+              "id": "un-buzon-en-la-biblioteca-q4",
+              "number": 4
+            },
+            {
+              "id": "un-buzon-en-la-biblioteca-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -15694,15 +15832,41 @@
       "level": "2-primary",
       "difficulty": "initial",
       "title": "Una bústia a la biblioteca",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l138a-q2",
+              "number": 2
+            },
+            {
+              "id": "l138a-q3",
+              "number": 3
+            },
+            {
+              "id": "l138a-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l138a-q2",
+              "number": 2
+            },
+            {
+              "id": "l138a-q3",
+              "number": 3
+            },
+            {
+              "id": "l138a-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -15713,15 +15877,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "Una bústia a la biblioteca",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l138b-q2",
+              "number": 2
+            },
+            {
+              "id": "l138b-q3",
+              "number": 3
+            },
+            {
+              "id": "l138b-q5",
+              "number": 5
+            },
+            {
+              "id": "l138b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l138b-q2",
+              "number": 2
+            },
+            {
+              "id": "l138b-q3",
+              "number": 3
+            },
+            {
+              "id": "l138b-q5",
+              "number": 5
+            },
+            {
+              "id": "l138b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -15732,15 +15930,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "La corda de l’hort",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-cuerda-del-huerto-q1",
+              "number": 1
+            },
+            {
+              "id": "la-cuerda-del-huerto-q4",
+              "number": 4
+            },
+            {
+              "id": "la-cuerda-del-huerto-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-cuerda-del-huerto-q1",
+              "number": 1
+            },
+            {
+              "id": "la-cuerda-del-huerto-q4",
+              "number": 4
+            },
+            {
+              "id": "la-cuerda-del-huerto-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -15751,15 +15975,41 @@
       "level": "2-primary",
       "difficulty": "initial",
       "title": "La corda de l’hort",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l139a-q1",
+              "number": 1
+            },
+            {
+              "id": "l139a-q2",
+              "number": 2
+            },
+            {
+              "id": "l139a-q3",
+              "number": 3
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l139a-q1",
+              "number": 1
+            },
+            {
+              "id": "l139a-q2",
+              "number": 2
+            },
+            {
+              "id": "l139a-q3",
+              "number": 3
+            }
+          ]
         }
       }
     },
@@ -15770,15 +16020,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "La corda de l’hort",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l139b-q2",
+              "number": 2
+            },
+            {
+              "id": "l139b-q3",
+              "number": 3
+            },
+            {
+              "id": "l139b-q4",
+              "number": 4
+            },
+            {
+              "id": "l139b-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l139b-q2",
+              "number": 2
+            },
+            {
+              "id": "l139b-q3",
+              "number": 3
+            },
+            {
+              "id": "l139b-q4",
+              "number": 4
+            },
+            {
+              "id": "l139b-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -15789,15 +16073,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "El bitllet de l’avi",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-billete-del-abuelo-q1",
+              "number": 1
+            },
+            {
+              "id": "el-billete-del-abuelo-q3",
+              "number": 3
+            },
+            {
+              "id": "el-billete-del-abuelo-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-billete-del-abuelo-q1",
+              "number": 1
+            },
+            {
+              "id": "el-billete-del-abuelo-q3",
+              "number": 3
+            },
+            {
+              "id": "el-billete-del-abuelo-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -15808,15 +16118,41 @@
       "level": "2-primary",
       "difficulty": "initial",
       "title": "El bitllet de l’avi",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l140a-q1",
+              "number": 1
+            },
+            {
+              "id": "l140a-q3",
+              "number": 3
+            },
+            {
+              "id": "l140a-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l140a-q1",
+              "number": 1
+            },
+            {
+              "id": "l140a-q3",
+              "number": 3
+            },
+            {
+              "id": "l140a-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -15827,15 +16163,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "El bitllet de l’avi",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l140b-q1",
+              "number": 1
+            },
+            {
+              "id": "l140b-q2",
+              "number": 2
+            },
+            {
+              "id": "l140b-q4",
+              "number": 4
+            },
+            {
+              "id": "l140b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l140b-q1",
+              "number": 1
+            },
+            {
+              "id": "l140b-q2",
+              "number": 2
+            },
+            {
+              "id": "l140b-q4",
+              "number": 4
+            },
+            {
+              "id": "l140b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
