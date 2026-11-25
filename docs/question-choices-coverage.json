@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 417,
-  "pendingWorks": 69,
-  "localizedAlternatives": 3386,
+  "coveredWorks": 428,
+  "pendingWorks": 58,
+  "localizedAlternatives": 3500,
   "ranges": [
     {
       "start": 1,
@@ -296,8 +296,8 @@
       "start": 206,
       "end": 210,
       "total": 11,
-      "covered": 0,
-      "status": "pending"
+      "covered": 11,
+      "status": "complete"
     },
     {
       "start": 211,
@@ -22693,15 +22693,57 @@
       "level": "6-primary",
       "difficulty": "intermediate",
       "title": "Les dues velocitats d’una glacera",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "las-dos-velocidades-de-un-glaciar-q3",
+              "number": 3
+            },
+            {
+              "id": "las-dos-velocidades-de-un-glaciar-q4",
+              "number": 4
+            },
+            {
+              "id": "las-dos-velocidades-de-un-glaciar-q5",
+              "number": 5
+            },
+            {
+              "id": "las-dos-velocidades-de-un-glaciar-q6",
+              "number": 6
+            },
+            {
+              "id": "las-dos-velocidades-de-un-glaciar-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "las-dos-velocidades-de-un-glaciar-q3",
+              "number": 3
+            },
+            {
+              "id": "las-dos-velocidades-de-un-glaciar-q4",
+              "number": 4
+            },
+            {
+              "id": "las-dos-velocidades-de-un-glaciar-q5",
+              "number": 5
+            },
+            {
+              "id": "las-dos-velocidades-de-un-glaciar-q6",
+              "number": 6
+            },
+            {
+              "id": "las-dos-velocidades-de-un-glaciar-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -22712,15 +22754,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Les dues velocitats d’una glacera",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l206a-q3",
+              "number": 3
+            },
+            {
+              "id": "l206a-q4",
+              "number": 4
+            },
+            {
+              "id": "l206a-q5",
+              "number": 5
+            },
+            {
+              "id": "l206a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l206a-q3",
+              "number": 3
+            },
+            {
+              "id": "l206a-q4",
+              "number": 4
+            },
+            {
+              "id": "l206a-q5",
+              "number": 5
+            },
+            {
+              "id": "l206a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -22731,15 +22807,65 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "Les dues velocitats d’una glacera",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l206b-q3",
+              "number": 3
+            },
+            {
+              "id": "l206b-q5",
+              "number": 5
+            },
+            {
+              "id": "l206b-q6",
+              "number": 6
+            },
+            {
+              "id": "l206b-q7",
+              "number": 7
+            },
+            {
+              "id": "l206b-q8",
+              "number": 8
+            },
+            {
+              "id": "l206b-q10",
+              "number": 10
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l206b-q3",
+              "number": 3
+            },
+            {
+              "id": "l206b-q5",
+              "number": 5
+            },
+            {
+              "id": "l206b-q6",
+              "number": 6
+            },
+            {
+              "id": "l206b-q7",
+              "number": 7
+            },
+            {
+              "id": "l206b-q8",
+              "number": 8
+            },
+            {
+              "id": "l206b-q10",
+              "number": 10
+            }
+          ]
         }
       }
     },
@@ -22750,15 +22876,57 @@
       "level": "6-primary",
       "difficulty": "intermediate",
       "title": "Una entrevista que va començar pel final",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-entrevista-que-empezo-al-final-q3",
+              "number": 3
+            },
+            {
+              "id": "una-entrevista-que-empezo-al-final-q4",
+              "number": 4
+            },
+            {
+              "id": "una-entrevista-que-empezo-al-final-q5",
+              "number": 5
+            },
+            {
+              "id": "una-entrevista-que-empezo-al-final-q6",
+              "number": 6
+            },
+            {
+              "id": "una-entrevista-que-empezo-al-final-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-entrevista-que-empezo-al-final-q3",
+              "number": 3
+            },
+            {
+              "id": "una-entrevista-que-empezo-al-final-q4",
+              "number": 4
+            },
+            {
+              "id": "una-entrevista-que-empezo-al-final-q5",
+              "number": 5
+            },
+            {
+              "id": "una-entrevista-que-empezo-al-final-q6",
+              "number": 6
+            },
+            {
+              "id": "una-entrevista-que-empezo-al-final-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -22769,15 +22937,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Una entrevista que va començar pel final",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l207a-q1",
+              "number": 1
+            },
+            {
+              "id": "l207a-q2",
+              "number": 2
+            },
+            {
+              "id": "l207a-q4",
+              "number": 4
+            },
+            {
+              "id": "l207a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l207a-q1",
+              "number": 1
+            },
+            {
+              "id": "l207a-q2",
+              "number": 2
+            },
+            {
+              "id": "l207a-q4",
+              "number": 4
+            },
+            {
+              "id": "l207a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -22788,15 +22990,65 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "Una entrevista que va començar pel final",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l207b-q2",
+              "number": 2
+            },
+            {
+              "id": "l207b-q3",
+              "number": 3
+            },
+            {
+              "id": "l207b-q4",
+              "number": 4
+            },
+            {
+              "id": "l207b-q6",
+              "number": 6
+            },
+            {
+              "id": "l207b-q9",
+              "number": 9
+            },
+            {
+              "id": "l207b-q10",
+              "number": 10
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l207b-q2",
+              "number": 2
+            },
+            {
+              "id": "l207b-q3",
+              "number": 3
+            },
+            {
+              "id": "l207b-q4",
+              "number": 4
+            },
+            {
+              "id": "l207b-q6",
+              "number": 6
+            },
+            {
+              "id": "l207b-q9",
+              "number": 9
+            },
+            {
+              "id": "l207b-q10",
+              "number": 10
+            }
+          ]
         }
       }
     },
@@ -22807,15 +23059,65 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "La biblioteca d’objectes",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-biblioteca-de-objetos-q2",
+              "number": 2
+            },
+            {
+              "id": "la-biblioteca-de-objetos-q4",
+              "number": 4
+            },
+            {
+              "id": "la-biblioteca-de-objetos-q5",
+              "number": 5
+            },
+            {
+              "id": "la-biblioteca-de-objetos-q6",
+              "number": 6
+            },
+            {
+              "id": "la-biblioteca-de-objetos-q7",
+              "number": 7
+            },
+            {
+              "id": "la-biblioteca-de-objetos-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-biblioteca-de-objetos-q2",
+              "number": 2
+            },
+            {
+              "id": "la-biblioteca-de-objetos-q4",
+              "number": 4
+            },
+            {
+              "id": "la-biblioteca-de-objetos-q5",
+              "number": 5
+            },
+            {
+              "id": "la-biblioteca-de-objetos-q6",
+              "number": 6
+            },
+            {
+              "id": "la-biblioteca-de-objetos-q7",
+              "number": 7
+            },
+            {
+              "id": "la-biblioteca-de-objetos-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -22826,15 +23128,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "La biblioteca d’objectes",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "biblioteca-a-q2",
+              "number": 2
+            },
+            {
+              "id": "biblioteca-a-q3",
+              "number": 3
+            },
+            {
+              "id": "biblioteca-a-q4",
+              "number": 4
+            },
+            {
+              "id": "biblioteca-a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "biblioteca-a-q2",
+              "number": 2
+            },
+            {
+              "id": "biblioteca-a-q3",
+              "number": 3
+            },
+            {
+              "id": "biblioteca-a-q4",
+              "number": 4
+            },
+            {
+              "id": "biblioteca-a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -22845,15 +23181,57 @@
       "level": "6-primary",
       "difficulty": "intermediate",
       "title": "La biblioteca d’objectes",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "biblioteca-b-q4",
+              "number": 4
+            },
+            {
+              "id": "biblioteca-b-q5",
+              "number": 5
+            },
+            {
+              "id": "biblioteca-b-q6",
+              "number": 6
+            },
+            {
+              "id": "biblioteca-b-q7",
+              "number": 7
+            },
+            {
+              "id": "biblioteca-b-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "biblioteca-b-q4",
+              "number": 4
+            },
+            {
+              "id": "biblioteca-b-q5",
+              "number": 5
+            },
+            {
+              "id": "biblioteca-b-q6",
+              "number": 6
+            },
+            {
+              "id": "biblioteca-b-q7",
+              "number": 7
+            },
+            {
+              "id": "biblioteca-b-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -22864,15 +23242,65 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "El bosc que quedava a terra",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-bosque-que-quedaba-en-el-suelo-q3",
+              "number": 3
+            },
+            {
+              "id": "el-bosque-que-quedaba-en-el-suelo-q4",
+              "number": 4
+            },
+            {
+              "id": "el-bosque-que-quedaba-en-el-suelo-q5",
+              "number": 5
+            },
+            {
+              "id": "el-bosque-que-quedaba-en-el-suelo-q6",
+              "number": 6
+            },
+            {
+              "id": "el-bosque-que-quedaba-en-el-suelo-q7",
+              "number": 7
+            },
+            {
+              "id": "el-bosque-que-quedaba-en-el-suelo-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-bosque-que-quedaba-en-el-suelo-q3",
+              "number": 3
+            },
+            {
+              "id": "el-bosque-que-quedaba-en-el-suelo-q4",
+              "number": 4
+            },
+            {
+              "id": "el-bosque-que-quedaba-en-el-suelo-q5",
+              "number": 5
+            },
+            {
+              "id": "el-bosque-que-quedaba-en-el-suelo-q6",
+              "number": 6
+            },
+            {
+              "id": "el-bosque-que-quedaba-en-el-suelo-q7",
+              "number": 7
+            },
+            {
+              "id": "el-bosque-que-quedaba-en-el-suelo-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -22883,15 +23311,65 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "El dia que el doblatge va canviar l’escena",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-dia-en-que-el-doblaje-cambio-la-escena-q2",
+              "number": 2
+            },
+            {
+              "id": "el-dia-en-que-el-doblaje-cambio-la-escena-q3",
+              "number": 3
+            },
+            {
+              "id": "el-dia-en-que-el-doblaje-cambio-la-escena-q4",
+              "number": 4
+            },
+            {
+              "id": "el-dia-en-que-el-doblaje-cambio-la-escena-q5",
+              "number": 5
+            },
+            {
+              "id": "el-dia-en-que-el-doblaje-cambio-la-escena-q6",
+              "number": 6
+            },
+            {
+              "id": "el-dia-en-que-el-doblaje-cambio-la-escena-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-dia-en-que-el-doblaje-cambio-la-escena-q2",
+              "number": 2
+            },
+            {
+              "id": "el-dia-en-que-el-doblaje-cambio-la-escena-q3",
+              "number": 3
+            },
+            {
+              "id": "el-dia-en-que-el-doblaje-cambio-la-escena-q4",
+              "number": 4
+            },
+            {
+              "id": "el-dia-en-que-el-doblaje-cambio-la-escena-q5",
+              "number": 5
+            },
+            {
+              "id": "el-dia-en-que-el-doblaje-cambio-la-escena-q6",
+              "number": 6
+            },
+            {
+              "id": "el-dia-en-que-el-doblaje-cambio-la-escena-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
