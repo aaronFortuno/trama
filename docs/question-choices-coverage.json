@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 161,
-  "pendingWorks": 325,
-  "localizedAlternatives": 1350,
+  "coveredWorks": 176,
+  "pendingWorks": 310,
+  "localizedAlternatives": 1490,
   "ranges": [
     {
       "start": 1,
@@ -128,8 +128,8 @@
       "start": 86,
       "end": 90,
       "total": 15,
-      "covered": 0,
-      "status": "pending"
+      "covered": 15,
+      "status": "complete"
     },
     {
       "start": 91,
@@ -9173,15 +9173,57 @@
       "level": "6-primary",
       "difficulty": "advanced",
       "title": "Un minut al rellotge d’aigua",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "reloj-agua-q1",
+              "number": 1
+            },
+            {
+              "id": "reloj-agua-q3",
+              "number": 3
+            },
+            {
+              "id": "reloj-agua-q4",
+              "number": 4
+            },
+            {
+              "id": "reloj-agua-q5",
+              "number": 5
+            },
+            {
+              "id": "reloj-agua-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "reloj-agua-q1",
+              "number": 1
+            },
+            {
+              "id": "reloj-agua-q3",
+              "number": 3
+            },
+            {
+              "id": "reloj-agua-q4",
+              "number": 4
+            },
+            {
+              "id": "reloj-agua-q5",
+              "number": 5
+            },
+            {
+              "id": "reloj-agua-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -9192,15 +9234,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Un minut al rellotge d’aigua",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l086a-q3",
+              "number": 3
+            },
+            {
+              "id": "l086a-q4",
+              "number": 4
+            },
+            {
+              "id": "l086a-q5",
+              "number": 5
+            },
+            {
+              "id": "l086a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l086a-q3",
+              "number": 3
+            },
+            {
+              "id": "l086a-q4",
+              "number": 4
+            },
+            {
+              "id": "l086a-q5",
+              "number": 5
+            },
+            {
+              "id": "l086a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -9211,15 +9287,57 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "Un minut al rellotge d’aigua",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l086b-q2",
+              "number": 2
+            },
+            {
+              "id": "l086b-q6",
+              "number": 6
+            },
+            {
+              "id": "l086b-q7",
+              "number": 7
+            },
+            {
+              "id": "l086b-q8",
+              "number": 8
+            },
+            {
+              "id": "l086b-q9",
+              "number": 9
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l086b-q2",
+              "number": 2
+            },
+            {
+              "id": "l086b-q6",
+              "number": 6
+            },
+            {
+              "id": "l086b-q7",
+              "number": 7
+            },
+            {
+              "id": "l086b-q8",
+              "number": 8
+            },
+            {
+              "id": "l086b-q9",
+              "number": 9
+            }
+          ]
         }
       }
     },
@@ -9230,15 +9348,57 @@
       "level": "6-primary",
       "difficulty": "advanced",
       "title": "Una veu entre els diàlegs",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-voz-q2",
+              "number": 2
+            },
+            {
+              "id": "una-voz-q3",
+              "number": 3
+            },
+            {
+              "id": "una-voz-q4",
+              "number": 4
+            },
+            {
+              "id": "una-voz-q5",
+              "number": 5
+            },
+            {
+              "id": "una-voz-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-voz-q2",
+              "number": 2
+            },
+            {
+              "id": "una-voz-q3",
+              "number": 3
+            },
+            {
+              "id": "una-voz-q4",
+              "number": 4
+            },
+            {
+              "id": "una-voz-q5",
+              "number": 5
+            },
+            {
+              "id": "una-voz-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -9249,15 +9409,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Una veu entre els diàlegs",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l087a-q1",
+              "number": 1
+            },
+            {
+              "id": "l087a-q3",
+              "number": 3
+            },
+            {
+              "id": "l087a-q4",
+              "number": 4
+            },
+            {
+              "id": "l087a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l087a-q1",
+              "number": 1
+            },
+            {
+              "id": "l087a-q3",
+              "number": 3
+            },
+            {
+              "id": "l087a-q4",
+              "number": 4
+            },
+            {
+              "id": "l087a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -9268,15 +9462,57 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "Una veu entre els diàlegs",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l087b-q2",
+              "number": 2
+            },
+            {
+              "id": "l087b-q5",
+              "number": 5
+            },
+            {
+              "id": "l087b-q6",
+              "number": 6
+            },
+            {
+              "id": "l087b-q7",
+              "number": 7
+            },
+            {
+              "id": "l087b-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l087b-q2",
+              "number": 2
+            },
+            {
+              "id": "l087b-q5",
+              "number": 5
+            },
+            {
+              "id": "l087b-q6",
+              "number": 6
+            },
+            {
+              "id": "l087b-q7",
+              "number": 7
+            },
+            {
+              "id": "l087b-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -9287,15 +9523,57 @@
       "level": "6-primary",
       "difficulty": "advanced",
       "title": "Dues cartes per a una persiana",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "dos-cartas-q1",
+              "number": 1
+            },
+            {
+              "id": "dos-cartas-q2",
+              "number": 2
+            },
+            {
+              "id": "dos-cartas-q3",
+              "number": 3
+            },
+            {
+              "id": "dos-cartas-q4",
+              "number": 4
+            },
+            {
+              "id": "dos-cartas-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "dos-cartas-q1",
+              "number": 1
+            },
+            {
+              "id": "dos-cartas-q2",
+              "number": 2
+            },
+            {
+              "id": "dos-cartas-q3",
+              "number": 3
+            },
+            {
+              "id": "dos-cartas-q4",
+              "number": 4
+            },
+            {
+              "id": "dos-cartas-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -9306,15 +9584,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Dues cartes per a una persiana",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l088a-q2",
+              "number": 2
+            },
+            {
+              "id": "l088a-q3",
+              "number": 3
+            },
+            {
+              "id": "l088a-q5",
+              "number": 5
+            },
+            {
+              "id": "l088a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l088a-q2",
+              "number": 2
+            },
+            {
+              "id": "l088a-q3",
+              "number": 3
+            },
+            {
+              "id": "l088a-q5",
+              "number": 5
+            },
+            {
+              "id": "l088a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -9325,15 +9637,57 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "Dues cartes per a una persiana",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l088b-q3",
+              "number": 3
+            },
+            {
+              "id": "l088b-q4",
+              "number": 4
+            },
+            {
+              "id": "l088b-q5",
+              "number": 5
+            },
+            {
+              "id": "l088b-q7",
+              "number": 7
+            },
+            {
+              "id": "l088b-q9",
+              "number": 9
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l088b-q3",
+              "number": 3
+            },
+            {
+              "id": "l088b-q4",
+              "number": 4
+            },
+            {
+              "id": "l088b-q5",
+              "number": 5
+            },
+            {
+              "id": "l088b-q7",
+              "number": 7
+            },
+            {
+              "id": "l088b-q9",
+              "number": 9
+            }
+          ]
         }
       }
     },
@@ -9344,15 +9698,57 @@
       "level": "6-primary",
       "difficulty": "advanced",
       "title": "El nus del cel",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "nudo-cielo-q2",
+              "number": 2
+            },
+            {
+              "id": "nudo-cielo-q3",
+              "number": 3
+            },
+            {
+              "id": "nudo-cielo-q4",
+              "number": 4
+            },
+            {
+              "id": "nudo-cielo-q5",
+              "number": 5
+            },
+            {
+              "id": "nudo-cielo-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "nudo-cielo-q2",
+              "number": 2
+            },
+            {
+              "id": "nudo-cielo-q3",
+              "number": 3
+            },
+            {
+              "id": "nudo-cielo-q4",
+              "number": 4
+            },
+            {
+              "id": "nudo-cielo-q5",
+              "number": 5
+            },
+            {
+              "id": "nudo-cielo-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -9363,15 +9759,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "El nus del cel",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l089a-q2",
+              "number": 2
+            },
+            {
+              "id": "l089a-q3",
+              "number": 3
+            },
+            {
+              "id": "l089a-q4",
+              "number": 4
+            },
+            {
+              "id": "l089a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l089a-q2",
+              "number": 2
+            },
+            {
+              "id": "l089a-q3",
+              "number": 3
+            },
+            {
+              "id": "l089a-q4",
+              "number": 4
+            },
+            {
+              "id": "l089a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -9382,15 +9812,57 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "El nus del cel",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l089b-q2",
+              "number": 2
+            },
+            {
+              "id": "l089b-q3",
+              "number": 3
+            },
+            {
+              "id": "l089b-q5",
+              "number": 5
+            },
+            {
+              "id": "l089b-q8",
+              "number": 8
+            },
+            {
+              "id": "l089b-q9",
+              "number": 9
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l089b-q2",
+              "number": 2
+            },
+            {
+              "id": "l089b-q3",
+              "number": 3
+            },
+            {
+              "id": "l089b-q5",
+              "number": 5
+            },
+            {
+              "id": "l089b-q8",
+              "number": 8
+            },
+            {
+              "id": "l089b-q9",
+              "number": 9
+            }
+          ]
         }
       }
     },
@@ -9401,15 +9873,57 @@
       "level": "6-primary",
       "difficulty": "advanced",
       "title": "Una carta dins del fang",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "carta-barro-q1",
+              "number": 1
+            },
+            {
+              "id": "carta-barro-q2",
+              "number": 2
+            },
+            {
+              "id": "carta-barro-q3",
+              "number": 3
+            },
+            {
+              "id": "carta-barro-q4",
+              "number": 4
+            },
+            {
+              "id": "carta-barro-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "carta-barro-q1",
+              "number": 1
+            },
+            {
+              "id": "carta-barro-q2",
+              "number": 2
+            },
+            {
+              "id": "carta-barro-q3",
+              "number": 3
+            },
+            {
+              "id": "carta-barro-q4",
+              "number": 4
+            },
+            {
+              "id": "carta-barro-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -9420,15 +9934,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Una carta dins del fang",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l090a-q2",
+              "number": 2
+            },
+            {
+              "id": "l090a-q3",
+              "number": 3
+            },
+            {
+              "id": "l090a-q4",
+              "number": 4
+            },
+            {
+              "id": "l090a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l090a-q2",
+              "number": 2
+            },
+            {
+              "id": "l090a-q3",
+              "number": 3
+            },
+            {
+              "id": "l090a-q4",
+              "number": 4
+            },
+            {
+              "id": "l090a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -9439,15 +9987,57 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "Una carta dins del fang",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l090b-q3",
+              "number": 3
+            },
+            {
+              "id": "l090b-q5",
+              "number": 5
+            },
+            {
+              "id": "l090b-q6",
+              "number": 6
+            },
+            {
+              "id": "l090b-q7",
+              "number": 7
+            },
+            {
+              "id": "l090b-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l090b-q3",
+              "number": 3
+            },
+            {
+              "id": "l090b-q5",
+              "number": 5
+            },
+            {
+              "id": "l090b-q6",
+              "number": 6
+            },
+            {
+              "id": "l090b-q7",
+              "number": 7
+            },
+            {
+              "id": "l090b-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
