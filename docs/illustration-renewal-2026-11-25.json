@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 17,
+    "completedReadings": 18,
     "totalReadings": 66,
-    "completedImages": 23,
+    "completedImages": 25,
     "totalImages": 76
   },
   "readings": [
@@ -499,16 +499,31 @@
           "previousSrc": "assets/readings/puente-plano.svg",
           "src": "assets/readings/puente-plano-illustration.webp",
           "afterParagraph": 2,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 painted school-science still life for Trama L002, A paper bridge. Clear meticulous watercolor and fine pencil, muted blue, cream, warm wood, gentle tactile paper grain. On a light wooden table a used sheet of paper lies flat as an experiment mat, with a few faint pencil position marks. Exactly TWO identical ordinary drinking cups stand UPSIDE DOWN on this mat, their wide open mouths on the table and their smaller closed flat bases pointing upward, separated by a moderate gap. One single uncreased rectangular sheet of white paper spans horizontally from one cup's upper base to the other, its two ends securely resting on the cups. In the very center of the unsupported paper span sits a small square of plain brown cardboard with ONE generic round coin resting flat on it. The paper has a very slight realistic sag but remains supported. A plain wooden ruler without legible scale and a pencil lie on the tabletop aside; a few spare matching coins rest in a small group away from the bridge. Correct gravity, coherent cup ellipses and paper thickness, no extra supports under the bridge, no accordion folds in this first version. No people, hands, writing, numbers, arrows, labels, panels, logos or watermark. Attractive hand-painted book art rather than a crude vector diagram.",
+          "visualReview": "Two identical inverted cups support a single uncreased paper span, with central cardboard square and one coin; unsupported gap, cup positions and mild sag coherent.",
+          "sha256": "c297f1c7e9a3552cad901193cf298622e241da369755f67848e145b867d9b4d9"
         },
         {
           "id": "puente-plegado",
           "previousSrc": "assets/readings/puente-plegado.svg",
           "src": "assets/readings/puente-plegado-illustration.webp",
           "afterParagraph": 3,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Create the matching SECOND illustration for Trama L002, A paper bridge, using the reference as the exact tabletop, cup and watercolor-style reference. Preserve two identical upside-down cups at the same distance, used paper mat with pencil position marks, warm wood, soft blue background, pencil and spare coins. The bridge sheet is now folded into a regular shallow accordion shape with several parallel ridges. CRITICAL GEOMETRY: every single ridge and valley runs CONTINUOUSLY from the LEFT cup to the RIGHT cup, parallel to the bridge's long spanning direction. Looking from the near long edge, see the alternating raised and lowered parallel channels; do NOT put the fold lines crosswise across the unsupported gap. Both ends of the folded paper rest on the upward-facing closed bases of the cups. A small square of brown cardboard rests across the ridge tops at the middle and supports a modest flat stack of four generic matching coins. No supports beneath the gap, no thick wooden plank masquerading as paper. The paper remains thin and realistically folded, not woven or corrugated metal. Coherent contact shadows, no floating cardboard or coins. Landscape 3:2 fine watercolor-and-pencil art, no people, hands, writing, numbers, labels, arrows, insets, panels, logos or watermark.",
+          "visualReview": "Accordion ridges run continuously between the same two inverted cups, with cardboard and coins supported over the middle; matching experimental geometry and style.",
+          "sha256": "fa3e907c42e2d316d9d7c65ea0153c261552e4a4050ec2a8ed8916f0a5c8d74f"
         }
-      ]
+      ],
+      "edition": "v1.58.18"
     },
     {
       "code": "L146",

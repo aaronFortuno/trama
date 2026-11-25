@@ -114,6 +114,16 @@ export const illustrationRenewals = {
     "src": "assets/readings/pinzas-prueba-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/puente-plano.svg": {
+    "src": "assets/readings/puente-plano-illustration.webp",
+    "width": 1100,
+    "height": 733
+  },
+  "assets/readings/puente-plegado.svg": {
+    "src": "assets/readings/puente-plegado-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
