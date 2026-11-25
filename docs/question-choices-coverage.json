@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 89,
-  "pendingWorks": 397,
-  "localizedAlternatives": 710,
+  "coveredWorks": 102,
+  "pendingWorks": 384,
+  "localizedAlternatives": 822,
   "ranges": [
     {
       "start": 1,
@@ -72,8 +72,8 @@
       "start": 46,
       "end": 50,
       "total": 13,
-      "covered": 0,
-      "status": "pending"
+      "covered": 13,
+      "status": "complete"
     },
     {
       "start": 51,
@@ -5101,15 +5101,49 @@
       "level": "5-primary",
       "difficulty": "initial",
       "title": "El jardí dels torns",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-jardin-de-los-turnos-q2",
+              "number": 2
+            },
+            {
+              "id": "el-jardin-de-los-turnos-q3",
+              "number": 3
+            },
+            {
+              "id": "el-jardin-de-los-turnos-q4",
+              "number": 4
+            },
+            {
+              "id": "el-jardin-de-los-turnos-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-jardin-de-los-turnos-q2",
+              "number": 2
+            },
+            {
+              "id": "el-jardin-de-los-turnos-q3",
+              "number": 3
+            },
+            {
+              "id": "el-jardin-de-los-turnos-q4",
+              "number": 4
+            },
+            {
+              "id": "el-jardin-de-los-turnos-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -5120,15 +5154,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "El jardí dels torns",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l046a-q1",
+              "number": 1
+            },
+            {
+              "id": "l046a-q4",
+              "number": 4
+            },
+            {
+              "id": "l046a-q5",
+              "number": 5
+            },
+            {
+              "id": "l046a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l046a-q1",
+              "number": 1
+            },
+            {
+              "id": "l046a-q4",
+              "number": 4
+            },
+            {
+              "id": "l046a-q5",
+              "number": 5
+            },
+            {
+              "id": "l046a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -5139,15 +5207,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "El jardí dels torns",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l046b-q2",
+              "number": 2
+            },
+            {
+              "id": "l046b-q4",
+              "number": 4
+            },
+            {
+              "id": "l046b-q5",
+              "number": 5
+            },
+            {
+              "id": "l046b-q6",
+              "number": 6
+            },
+            {
+              "id": "l046b-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l046b-q2",
+              "number": 2
+            },
+            {
+              "id": "l046b-q4",
+              "number": 4
+            },
+            {
+              "id": "l046b-q5",
+              "number": 5
+            },
+            {
+              "id": "l046b-q6",
+              "number": 6
+            },
+            {
+              "id": "l046b-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -5158,15 +5268,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "El pas que es va obrir sota la reixa",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-paso-que-se-abrio-bajo-la-verja-q2",
+              "number": 2
+            },
+            {
+              "id": "el-paso-que-se-abrio-bajo-la-verja-q3",
+              "number": 3
+            },
+            {
+              "id": "el-paso-que-se-abrio-bajo-la-verja-q4",
+              "number": 4
+            },
+            {
+              "id": "el-paso-que-se-abrio-bajo-la-verja-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-paso-que-se-abrio-bajo-la-verja-q2",
+              "number": 2
+            },
+            {
+              "id": "el-paso-que-se-abrio-bajo-la-verja-q3",
+              "number": 3
+            },
+            {
+              "id": "el-paso-que-se-abrio-bajo-la-verja-q4",
+              "number": 4
+            },
+            {
+              "id": "el-paso-que-se-abrio-bajo-la-verja-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -5177,15 +5321,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "El sobre de les dues entrades",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-sobre-de-las-dos-entradas-q2",
+              "number": 2
+            },
+            {
+              "id": "el-sobre-de-las-dos-entradas-q3",
+              "number": 3
+            },
+            {
+              "id": "el-sobre-de-las-dos-entradas-q4",
+              "number": 4
+            },
+            {
+              "id": "el-sobre-de-las-dos-entradas-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-sobre-de-las-dos-entradas-q2",
+              "number": 2
+            },
+            {
+              "id": "el-sobre-de-las-dos-entradas-q3",
+              "number": 3
+            },
+            {
+              "id": "el-sobre-de-las-dos-entradas-q4",
+              "number": 4
+            },
+            {
+              "id": "el-sobre-de-las-dos-entradas-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -5196,15 +5374,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "El sobre de les dues entrades",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l048a-q2",
+              "number": 2
+            },
+            {
+              "id": "l048a-q3",
+              "number": 3
+            },
+            {
+              "id": "l048a-q4",
+              "number": 4
+            },
+            {
+              "id": "l048a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l048a-q2",
+              "number": 2
+            },
+            {
+              "id": "l048a-q3",
+              "number": 3
+            },
+            {
+              "id": "l048a-q4",
+              "number": 4
+            },
+            {
+              "id": "l048a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -5215,15 +5427,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "El sobre de les dues entrades",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l048b-q3",
+              "number": 3
+            },
+            {
+              "id": "l048b-q4",
+              "number": 4
+            },
+            {
+              "id": "l048b-q5",
+              "number": 5
+            },
+            {
+              "id": "l048b-q7",
+              "number": 7
+            },
+            {
+              "id": "l048b-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l048b-q3",
+              "number": 3
+            },
+            {
+              "id": "l048b-q4",
+              "number": 4
+            },
+            {
+              "id": "l048b-q5",
+              "number": 5
+            },
+            {
+              "id": "l048b-q7",
+              "number": 7
+            },
+            {
+              "id": "l048b-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -5234,15 +5488,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Un joc de pistes al mirall",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-juego-de-pistas-en-el-espejo-q2",
+              "number": 2
+            },
+            {
+              "id": "un-juego-de-pistas-en-el-espejo-q3",
+              "number": 3
+            },
+            {
+              "id": "un-juego-de-pistas-en-el-espejo-q4",
+              "number": 4
+            },
+            {
+              "id": "un-juego-de-pistas-en-el-espejo-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-juego-de-pistas-en-el-espejo-q2",
+              "number": 2
+            },
+            {
+              "id": "un-juego-de-pistas-en-el-espejo-q3",
+              "number": 3
+            },
+            {
+              "id": "un-juego-de-pistas-en-el-espejo-q4",
+              "number": 4
+            },
+            {
+              "id": "un-juego-de-pistas-en-el-espejo-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -5253,15 +5541,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "Un joc de pistes al mirall",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l049a-q2",
+              "number": 2
+            },
+            {
+              "id": "l049a-q3",
+              "number": 3
+            },
+            {
+              "id": "l049a-q4",
+              "number": 4
+            },
+            {
+              "id": "l049a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l049a-q2",
+              "number": 2
+            },
+            {
+              "id": "l049a-q3",
+              "number": 3
+            },
+            {
+              "id": "l049a-q4",
+              "number": 4
+            },
+            {
+              "id": "l049a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -5272,15 +5594,57 @@
       "level": "6-primary",
       "difficulty": "intermediate",
       "title": "Un joc de pistes al mirall",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l049b-q2",
+              "number": 2
+            },
+            {
+              "id": "l049b-q3",
+              "number": 3
+            },
+            {
+              "id": "l049b-q4",
+              "number": 4
+            },
+            {
+              "id": "l049b-q5",
+              "number": 5
+            },
+            {
+              "id": "l049b-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l049b-q2",
+              "number": 2
+            },
+            {
+              "id": "l049b-q3",
+              "number": 3
+            },
+            {
+              "id": "l049b-q4",
+              "number": 4
+            },
+            {
+              "id": "l049b-q5",
+              "number": 5
+            },
+            {
+              "id": "l049b-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -5291,15 +5655,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Cartes des del banc del pati",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "cartas-desde-el-banco-del-patio-q2",
+              "number": 2
+            },
+            {
+              "id": "cartas-desde-el-banco-del-patio-q3",
+              "number": 3
+            },
+            {
+              "id": "cartas-desde-el-banco-del-patio-q5",
+              "number": 5
+            },
+            {
+              "id": "cartas-desde-el-banco-del-patio-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "cartas-desde-el-banco-del-patio-q2",
+              "number": 2
+            },
+            {
+              "id": "cartas-desde-el-banco-del-patio-q3",
+              "number": 3
+            },
+            {
+              "id": "cartas-desde-el-banco-del-patio-q5",
+              "number": 5
+            },
+            {
+              "id": "cartas-desde-el-banco-del-patio-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -5310,15 +5708,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "Cartes des del banc del pati",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l050a-q1",
+              "number": 1
+            },
+            {
+              "id": "l050a-q2",
+              "number": 2
+            },
+            {
+              "id": "l050a-q3",
+              "number": 3
+            },
+            {
+              "id": "l050a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l050a-q1",
+              "number": 1
+            },
+            {
+              "id": "l050a-q2",
+              "number": 2
+            },
+            {
+              "id": "l050a-q3",
+              "number": 3
+            },
+            {
+              "id": "l050a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -5329,15 +5761,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "Cartes des del banc del pati",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l050b-q2",
+              "number": 2
+            },
+            {
+              "id": "l050b-q3",
+              "number": 3
+            },
+            {
+              "id": "l050b-q5",
+              "number": 5
+            },
+            {
+              "id": "l050b-q6",
+              "number": 6
+            },
+            {
+              "id": "l050b-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l050b-q2",
+              "number": 2
+            },
+            {
+              "id": "l050b-q3",
+              "number": 3
+            },
+            {
+              "id": "l050b-q5",
+              "number": 5
+            },
+            {
+              "id": "l050b-q6",
+              "number": 6
+            },
+            {
+              "id": "l050b-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
