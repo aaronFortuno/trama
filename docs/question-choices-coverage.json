@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 124,
-  "pendingWorks": 362,
-  "localizedAlternatives": 1010,
+  "coveredWorks": 131,
+  "pendingWorks": 355,
+  "localizedAlternatives": 1076,
   "ranges": [
     {
       "start": 1,
@@ -93,8 +93,8 @@
       "start": 61,
       "end": 65,
       "total": 7,
-      "covered": 0,
-      "status": "pending"
+      "covered": 7,
+      "status": "complete"
     },
     {
       "start": 66,
@@ -7036,15 +7036,57 @@
       "level": "6-primary",
       "difficulty": "intermediate",
       "title": "La clau del rellotge",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-llave-del-reloj-q1",
+              "number": 1
+            },
+            {
+              "id": "la-llave-del-reloj-q2",
+              "number": 2
+            },
+            {
+              "id": "la-llave-del-reloj-q3",
+              "number": 3
+            },
+            {
+              "id": "la-llave-del-reloj-q4",
+              "number": 4
+            },
+            {
+              "id": "la-llave-del-reloj-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-llave-del-reloj-q1",
+              "number": 1
+            },
+            {
+              "id": "la-llave-del-reloj-q2",
+              "number": 2
+            },
+            {
+              "id": "la-llave-del-reloj-q3",
+              "number": 3
+            },
+            {
+              "id": "la-llave-del-reloj-q4",
+              "number": 4
+            },
+            {
+              "id": "la-llave-del-reloj-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -7055,15 +7097,57 @@
       "level": "6-primary",
       "difficulty": "intermediate",
       "title": "Un pati que beu",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-patio-que-bebe-q2",
+              "number": 2
+            },
+            {
+              "id": "un-patio-que-bebe-q3",
+              "number": 3
+            },
+            {
+              "id": "un-patio-que-bebe-q4",
+              "number": 4
+            },
+            {
+              "id": "un-patio-que-bebe-q5",
+              "number": 5
+            },
+            {
+              "id": "un-patio-que-bebe-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-patio-que-bebe-q2",
+              "number": 2
+            },
+            {
+              "id": "un-patio-que-bebe-q3",
+              "number": 3
+            },
+            {
+              "id": "un-patio-que-bebe-q4",
+              "number": 4
+            },
+            {
+              "id": "un-patio-que-bebe-q5",
+              "number": 5
+            },
+            {
+              "id": "un-patio-que-bebe-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -7074,15 +7158,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "Una carta per al banc blau",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-carta-para-el-banco-azul-q1",
+              "number": 1
+            },
+            {
+              "id": "una-carta-para-el-banco-azul-q2",
+              "number": 2
+            },
+            {
+              "id": "una-carta-para-el-banco-azul-q3",
+              "number": 3
+            },
+            {
+              "id": "una-carta-para-el-banco-azul-q4",
+              "number": 4
+            },
+            {
+              "id": "una-carta-para-el-banco-azul-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-carta-para-el-banco-azul-q1",
+              "number": 1
+            },
+            {
+              "id": "una-carta-para-el-banco-azul-q2",
+              "number": 2
+            },
+            {
+              "id": "una-carta-para-el-banco-azul-q3",
+              "number": 3
+            },
+            {
+              "id": "una-carta-para-el-banco-azul-q4",
+              "number": 4
+            },
+            {
+              "id": "una-carta-para-el-banco-azul-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -7093,15 +7219,57 @@
       "level": "6-primary",
       "difficulty": "intermediate",
       "title": "La capsa dels sons prestats",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-caja-de-los-sonidos-prestados-q1",
+              "number": 1
+            },
+            {
+              "id": "la-caja-de-los-sonidos-prestados-q2",
+              "number": 2
+            },
+            {
+              "id": "la-caja-de-los-sonidos-prestados-q3",
+              "number": 3
+            },
+            {
+              "id": "la-caja-de-los-sonidos-prestados-q4",
+              "number": 4
+            },
+            {
+              "id": "la-caja-de-los-sonidos-prestados-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-caja-de-los-sonidos-prestados-q1",
+              "number": 1
+            },
+            {
+              "id": "la-caja-de-los-sonidos-prestados-q2",
+              "number": 2
+            },
+            {
+              "id": "la-caja-de-los-sonidos-prestados-q3",
+              "number": 3
+            },
+            {
+              "id": "la-caja-de-los-sonidos-prestados-q4",
+              "number": 4
+            },
+            {
+              "id": "la-caja-de-los-sonidos-prestados-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -7112,15 +7280,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "El pont dels set minuts",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-puente-de-los-siete-minutos-q2",
+              "number": 2
+            },
+            {
+              "id": "el-puente-de-los-siete-minutos-q3",
+              "number": 3
+            },
+            {
+              "id": "el-puente-de-los-siete-minutos-q4",
+              "number": 4
+            },
+            {
+              "id": "el-puente-de-los-siete-minutos-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-puente-de-los-siete-minutos-q2",
+              "number": 2
+            },
+            {
+              "id": "el-puente-de-los-siete-minutos-q3",
+              "number": 3
+            },
+            {
+              "id": "el-puente-de-los-siete-minutos-q4",
+              "number": 4
+            },
+            {
+              "id": "el-puente-de-los-siete-minutos-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -7131,15 +7333,49 @@
       "level": "4-primary",
       "difficulty": "advanced",
       "title": "El pont dels set minuts",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l065a-q2",
+              "number": 2
+            },
+            {
+              "id": "l065a-q3",
+              "number": 3
+            },
+            {
+              "id": "l065a-q4",
+              "number": 4
+            },
+            {
+              "id": "l065a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l065a-q2",
+              "number": 2
+            },
+            {
+              "id": "l065a-q3",
+              "number": 3
+            },
+            {
+              "id": "l065a-q4",
+              "number": 4
+            },
+            {
+              "id": "l065a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -7150,15 +7386,57 @@
       "level": "6-primary",
       "difficulty": "intermediate",
       "title": "El pont dels set minuts",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l065b-q2",
+              "number": 2
+            },
+            {
+              "id": "l065b-q3",
+              "number": 3
+            },
+            {
+              "id": "l065b-q4",
+              "number": 4
+            },
+            {
+              "id": "l065b-q6",
+              "number": 6
+            },
+            {
+              "id": "l065b-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l065b-q2",
+              "number": 2
+            },
+            {
+              "id": "l065b-q3",
+              "number": 3
+            },
+            {
+              "id": "l065b-q4",
+              "number": 4
+            },
+            {
+              "id": "l065b-q6",
+              "number": 6
+            },
+            {
+              "id": "l065b-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
