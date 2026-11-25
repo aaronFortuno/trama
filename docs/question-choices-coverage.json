@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 399,
-  "pendingWorks": 87,
-  "localizedAlternatives": 3206,
+  "coveredWorks": 404,
+  "pendingWorks": 82,
+  "localizedAlternatives": 3256,
   "ranges": [
     {
       "start": 1,
@@ -282,8 +282,8 @@
       "start": 196,
       "end": 200,
       "total": 5,
-      "covered": 0,
-      "status": "pending"
+      "covered": 5,
+      "status": "complete"
     },
     {
       "start": 201,
@@ -21595,15 +21595,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "El fil de l’estel",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-hilo-de-la-cometa-q1",
+              "number": 1
+            },
+            {
+              "id": "el-hilo-de-la-cometa-q3",
+              "number": 3
+            },
+            {
+              "id": "el-hilo-de-la-cometa-q4",
+              "number": 4
+            },
+            {
+              "id": "el-hilo-de-la-cometa-q5",
+              "number": 5
+            },
+            {
+              "id": "el-hilo-de-la-cometa-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-hilo-de-la-cometa-q1",
+              "number": 1
+            },
+            {
+              "id": "el-hilo-de-la-cometa-q3",
+              "number": 3
+            },
+            {
+              "id": "el-hilo-de-la-cometa-q4",
+              "number": 4
+            },
+            {
+              "id": "el-hilo-de-la-cometa-q5",
+              "number": 5
+            },
+            {
+              "id": "el-hilo-de-la-cometa-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -21614,15 +21656,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "La carta que no demanava permís",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-carta-que-no-pedia-permiso-q2",
+              "number": 2
+            },
+            {
+              "id": "la-carta-que-no-pedia-permiso-q3",
+              "number": 3
+            },
+            {
+              "id": "la-carta-que-no-pedia-permiso-q4",
+              "number": 4
+            },
+            {
+              "id": "la-carta-que-no-pedia-permiso-q5",
+              "number": 5
+            },
+            {
+              "id": "la-carta-que-no-pedia-permiso-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-carta-que-no-pedia-permiso-q2",
+              "number": 2
+            },
+            {
+              "id": "la-carta-que-no-pedia-permiso-q3",
+              "number": 3
+            },
+            {
+              "id": "la-carta-que-no-pedia-permiso-q4",
+              "number": 4
+            },
+            {
+              "id": "la-carta-que-no-pedia-permiso-q5",
+              "number": 5
+            },
+            {
+              "id": "la-carta-que-no-pedia-permiso-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -21633,15 +21717,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "Un llibre que deixava espai",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-libro-que-dejaba-espacio-q2",
+              "number": 2
+            },
+            {
+              "id": "un-libro-que-dejaba-espacio-q3",
+              "number": 3
+            },
+            {
+              "id": "un-libro-que-dejaba-espacio-q4",
+              "number": 4
+            },
+            {
+              "id": "un-libro-que-dejaba-espacio-q5",
+              "number": 5
+            },
+            {
+              "id": "un-libro-que-dejaba-espacio-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-libro-que-dejaba-espacio-q2",
+              "number": 2
+            },
+            {
+              "id": "un-libro-que-dejaba-espacio-q3",
+              "number": 3
+            },
+            {
+              "id": "un-libro-que-dejaba-espacio-q4",
+              "number": 4
+            },
+            {
+              "id": "un-libro-que-dejaba-espacio-q5",
+              "number": 5
+            },
+            {
+              "id": "un-libro-que-dejaba-espacio-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -21652,15 +21778,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "El corredor que marcava el pas",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-corredor-que-marcaba-el-paso-q1",
+              "number": 1
+            },
+            {
+              "id": "el-corredor-que-marcaba-el-paso-q4",
+              "number": 4
+            },
+            {
+              "id": "el-corredor-que-marcaba-el-paso-q5",
+              "number": 5
+            },
+            {
+              "id": "el-corredor-que-marcaba-el-paso-q6",
+              "number": 6
+            },
+            {
+              "id": "el-corredor-que-marcaba-el-paso-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-corredor-que-marcaba-el-paso-q1",
+              "number": 1
+            },
+            {
+              "id": "el-corredor-que-marcaba-el-paso-q4",
+              "number": 4
+            },
+            {
+              "id": "el-corredor-que-marcaba-el-paso-q5",
+              "number": 5
+            },
+            {
+              "id": "el-corredor-que-marcaba-el-paso-q6",
+              "number": 6
+            },
+            {
+              "id": "el-corredor-que-marcaba-el-paso-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -21671,15 +21839,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "El pou que continuava al mapa",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-pozo-que-seguia-en-el-mapa-q1",
+              "number": 1
+            },
+            {
+              "id": "el-pozo-que-seguia-en-el-mapa-q3",
+              "number": 3
+            },
+            {
+              "id": "el-pozo-que-seguia-en-el-mapa-q4",
+              "number": 4
+            },
+            {
+              "id": "el-pozo-que-seguia-en-el-mapa-q5",
+              "number": 5
+            },
+            {
+              "id": "el-pozo-que-seguia-en-el-mapa-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-pozo-que-seguia-en-el-mapa-q1",
+              "number": 1
+            },
+            {
+              "id": "el-pozo-que-seguia-en-el-mapa-q3",
+              "number": 3
+            },
+            {
+              "id": "el-pozo-que-seguia-en-el-mapa-q4",
+              "number": 4
+            },
+            {
+              "id": "el-pozo-que-seguia-en-el-mapa-q5",
+              "number": 5
+            },
+            {
+              "id": "el-pozo-que-seguia-en-el-mapa-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
