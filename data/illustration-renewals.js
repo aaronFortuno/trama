@@ -184,6 +184,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/caja-taller-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l111-vasos-de-tres-colores.svg": {
+    "src": "assets/readings/l111-vasos-de-tres-colores-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 29,
+    "completedReadings": 30,
     "totalReadings": 66,
-    "completedImages": 37,
+    "completedImages": 38,
     "totalImages": 76
   },
   "readings": [
@@ -800,9 +800,17 @@
           "previousSrc": "assets/readings/l111-vasos-de-tres-colores.svg",
           "src": "assets/readings/l111-vasos-de-tres-colores-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 warm hand-painted recipe illustration for Trama L111, Cups of three colors. Luminous gouache and colored pencil, creamy white, strawberry red, banana yellow and muted blue tablecloth, rich tactile paper grain, not a vector icon or food photograph. On a clean home kitchen table stand exactly FOUR small identical transparent snack glasses in a gently staggered row, separated so all four can be counted. In EACH glass there are three distinct unmixed layers: small RED STRAWBERRY pieces at the BOTTOM, a smooth WHITE YOGURT layer in the MIDDLE, and small pale YELLOW BANANA chunks on TOP. Correct clear glass rims and bases, plausible refraction, nothing floats; keep strawberry pieces below yogurt and banana above, never reversed or mixed. Nearby on the table rest one ordinary spoon, a small bowl with a few leftover washed strawberries and one half-peeled banana. No other fruits, whipped cream, colorful candies, stems poking from the glasses or decorative toppings. Soft morning kitchen window light, inviting uncluttered composition suitable for eight-year-old readers. No people, hands, knife, writing, numbers, arrows, labels, panels, captions, logos or watermark.",
+          "visualReview": "Exactly four transparent glasses each show strawberry at bottom, unmixed yogurt in middle and banana on top; fruit, glass geometry and utensils are coherent.",
+          "sha256": "8458a4f4dd0c471dabef60c4cd36ec36716e0cd06c32bf91d3ac2dad32dafc92"
         }
-      ]
+      ],
+      "edition": "v1.58.30"
     },
     {
       "code": "L127",
