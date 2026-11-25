@@ -304,6 +304,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l136-dos-golpes-en-la-puerta-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l129-el-agua-del-jarron.svg": {
+    "src": "assets/readings/l129-el-agua-del-jarron-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

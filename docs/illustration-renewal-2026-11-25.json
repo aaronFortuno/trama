@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 51,
+    "completedReadings": 52,
     "totalReadings": 66,
-    "completedImages": 61,
+    "completedImages": 62,
     "totalImages": 76
   },
   "readings": [
@@ -1331,9 +1331,17 @@
           "previousSrc": "assets/readings/l129-el-agua-del-jarron.svg",
           "src": "assets/readings/l129-el-agua-del-jarron-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 delicate botanical science-story illustration for Trama L129, The water in the vase. Fine natural-history watercolor and colored pencil on richly textured cream paper, white ruffled petals, soft cobalt-blue dye and green stem, gentle classroom window light. On a school windowsill stands one plain TRANSPARENT GLASS VASE containing clearly BLUE-TINTED WATER. A single cut WHITE CARNATION with a realistic slender green stem is placed in the vase, its stem visibly reaching down INTO the blue water. The flower is still mostly WHITE: only SOME petal edges show thin small BLUE streaks or a faint blue rim, not a completely blue blossom. It must look like a carnation, densely ruffled small serrated petals and proper green calyx, not a rose, lily or daisy. A few narrow carnation leaves grow naturally from the stem. A small closed plain bottle of blue food coloring sits beside the vase with no readable label. Vase has a coherent elliptical rim, horizontal water surface, plausible stem refraction, solid support and gentle cast shadow, no floating flower. Soft blurred classroom background, uncluttered composition making the subtle petal changes clear. No people, hands, text, numbers, arrows, labels, capillary diagrams, panels, logos or watermark. Beautiful realistic painted detail, not a vector placeholder.",
+          "visualReview": "Recognizable mostly-white carnation has subtle blue petal-edge streaks, continuous stem immersed in blue-tinted water, plausible vase transparency and coherent botanical structure.",
+          "sha256": "c5ca6f6b6d0d9000e6fc7d66a347d7ac538a5d64780230f050b2a67b188fac78"
         }
-      ]
+      ],
+      "edition": "v1.58.52"
     },
     {
       "code": "L001",
