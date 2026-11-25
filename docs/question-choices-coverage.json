@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 207,
-  "pendingWorks": 279,
-  "localizedAlternatives": 1768,
+  "coveredWorks": 222,
+  "pendingWorks": 264,
+  "localizedAlternatives": 1868,
   "ranges": [
     {
       "start": 1,
@@ -156,8 +156,8 @@
       "start": 106,
       "end": 110,
       "total": 15,
-      "covered": 0,
-      "status": "pending"
+      "covered": 15,
+      "status": "complete"
     },
     {
       "start": 111,
@@ -11811,15 +11811,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "El guant de ratlles",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-guante-de-rayas-q1",
+              "number": 1
+            },
+            {
+              "id": "el-guante-de-rayas-q3",
+              "number": 3
+            },
+            {
+              "id": "el-guante-de-rayas-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-guante-de-rayas-q1",
+              "number": 1
+            },
+            {
+              "id": "el-guante-de-rayas-q3",
+              "number": 3
+            },
+            {
+              "id": "el-guante-de-rayas-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -11830,15 +11856,41 @@
       "level": "2-primary",
       "difficulty": "initial",
       "title": "El guant de ratlles",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l106a-q1",
+              "number": 1
+            },
+            {
+              "id": "l106a-q3",
+              "number": 3
+            },
+            {
+              "id": "l106a-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l106a-q1",
+              "number": 1
+            },
+            {
+              "id": "l106a-q3",
+              "number": 3
+            },
+            {
+              "id": "l106a-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -11849,15 +11901,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "El guant de ratlles",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l106b-q3",
+              "number": 3
+            },
+            {
+              "id": "l106b-q4",
+              "number": 4
+            },
+            {
+              "id": "l106b-q5",
+              "number": 5
+            },
+            {
+              "id": "l106b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l106b-q3",
+              "number": 3
+            },
+            {
+              "id": "l106b-q4",
+              "number": 4
+            },
+            {
+              "id": "l106b-q5",
+              "number": 5
+            },
+            {
+              "id": "l106b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -11868,15 +11954,41 @@
       "level": "3-primary",
       "difficulty": "initial",
       "title": "Una garlanda de paper",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-guirnalda-de-papel-q1",
+              "number": 1
+            },
+            {
+              "id": "una-guirnalda-de-papel-q2",
+              "number": 2
+            },
+            {
+              "id": "una-guirnalda-de-papel-q3",
+              "number": 3
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-guirnalda-de-papel-q1",
+              "number": 1
+            },
+            {
+              "id": "una-guirnalda-de-papel-q2",
+              "number": 2
+            },
+            {
+              "id": "una-guirnalda-de-papel-q3",
+              "number": 3
+            }
+          ]
         }
       }
     },
@@ -11887,15 +11999,41 @@
       "level": "2-primary",
       "difficulty": "initial",
       "title": "Una garlanda de paper",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l107a-q1",
+              "number": 1
+            },
+            {
+              "id": "l107a-q2",
+              "number": 2
+            },
+            {
+              "id": "l107a-q3",
+              "number": 3
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l107a-q1",
+              "number": 1
+            },
+            {
+              "id": "l107a-q2",
+              "number": 2
+            },
+            {
+              "id": "l107a-q3",
+              "number": 3
+            }
+          ]
         }
       }
     },
@@ -11906,15 +12044,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "Una garlanda de paper",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l107b-q1",
+              "number": 1
+            },
+            {
+              "id": "l107b-q2",
+              "number": 2
+            },
+            {
+              "id": "l107b-q3",
+              "number": 3
+            },
+            {
+              "id": "l107b-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l107b-q1",
+              "number": 1
+            },
+            {
+              "id": "l107b-q2",
+              "number": 2
+            },
+            {
+              "id": "l107b-q3",
+              "number": 3
+            },
+            {
+              "id": "l107b-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -11925,15 +12097,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "La capsa dels dibuixos",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-caja-de-los-dibujos-q2",
+              "number": 2
+            },
+            {
+              "id": "la-caja-de-los-dibujos-q3",
+              "number": 3
+            },
+            {
+              "id": "la-caja-de-los-dibujos-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-caja-de-los-dibujos-q2",
+              "number": 2
+            },
+            {
+              "id": "la-caja-de-los-dibujos-q3",
+              "number": 3
+            },
+            {
+              "id": "la-caja-de-los-dibujos-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -11944,15 +12142,41 @@
       "level": "2-primary",
       "difficulty": "initial",
       "title": "La capsa dels dibuixos",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l108a-q1",
+              "number": 1
+            },
+            {
+              "id": "l108a-q2",
+              "number": 2
+            },
+            {
+              "id": "l108a-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l108a-q1",
+              "number": 1
+            },
+            {
+              "id": "l108a-q2",
+              "number": 2
+            },
+            {
+              "id": "l108a-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -11963,15 +12187,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "La capsa dels dibuixos",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l108b-q3",
+              "number": 3
+            },
+            {
+              "id": "l108b-q4",
+              "number": 4
+            },
+            {
+              "id": "l108b-q5",
+              "number": 5
+            },
+            {
+              "id": "l108b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l108b-q3",
+              "number": 3
+            },
+            {
+              "id": "l108b-q4",
+              "number": 4
+            },
+            {
+              "id": "l108b-q5",
+              "number": 5
+            },
+            {
+              "id": "l108b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -11982,15 +12240,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "A l’ombra del pont",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "a-la-sombra-del-puente-q2",
+              "number": 2
+            },
+            {
+              "id": "a-la-sombra-del-puente-q3",
+              "number": 3
+            },
+            {
+              "id": "a-la-sombra-del-puente-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "a-la-sombra-del-puente-q2",
+              "number": 2
+            },
+            {
+              "id": "a-la-sombra-del-puente-q3",
+              "number": 3
+            },
+            {
+              "id": "a-la-sombra-del-puente-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -12001,15 +12285,41 @@
       "level": "2-primary",
       "difficulty": "initial",
       "title": "A l’ombra del pont",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l109a-q2",
+              "number": 2
+            },
+            {
+              "id": "l109a-q3",
+              "number": 3
+            },
+            {
+              "id": "l109a-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l109a-q2",
+              "number": 2
+            },
+            {
+              "id": "l109a-q3",
+              "number": 3
+            },
+            {
+              "id": "l109a-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -12020,15 +12330,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "A l’ombra del pont",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l109b-q2",
+              "number": 2
+            },
+            {
+              "id": "l109b-q4",
+              "number": 4
+            },
+            {
+              "id": "l109b-q5",
+              "number": 5
+            },
+            {
+              "id": "l109b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l109b-q2",
+              "number": 2
+            },
+            {
+              "id": "l109b-q4",
+              "number": 4
+            },
+            {
+              "id": "l109b-q5",
+              "number": 5
+            },
+            {
+              "id": "l109b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -12039,15 +12383,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "Una roda fluixa",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-rueda-floja-q2",
+              "number": 2
+            },
+            {
+              "id": "una-rueda-floja-q3",
+              "number": 3
+            },
+            {
+              "id": "una-rueda-floja-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-rueda-floja-q2",
+              "number": 2
+            },
+            {
+              "id": "una-rueda-floja-q3",
+              "number": 3
+            },
+            {
+              "id": "una-rueda-floja-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -12058,15 +12428,41 @@
       "level": "2-primary",
       "difficulty": "initial",
       "title": "Una roda fluixa",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l110a-q1",
+              "number": 1
+            },
+            {
+              "id": "l110a-q2",
+              "number": 2
+            },
+            {
+              "id": "l110a-q3",
+              "number": 3
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l110a-q1",
+              "number": 1
+            },
+            {
+              "id": "l110a-q2",
+              "number": 2
+            },
+            {
+              "id": "l110a-q3",
+              "number": 3
+            }
+          ]
         }
       }
     },
@@ -12077,15 +12473,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "Una roda fluixa",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l110b-q2",
+              "number": 2
+            },
+            {
+              "id": "l110b-q3",
+              "number": 3
+            },
+            {
+              "id": "l110b-q5",
+              "number": 5
+            },
+            {
+              "id": "l110b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l110b-q2",
+              "number": 2
+            },
+            {
+              "id": "l110b-q3",
+              "number": 3
+            },
+            {
+              "id": "l110b-q5",
+              "number": 5
+            },
+            {
+              "id": "l110b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
