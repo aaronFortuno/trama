@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 7,
+    "completedReadings": 8,
     "totalReadings": 66,
-    "completedImages": 8,
+    "completedImages": 9,
     "totalImages": 76
   },
   "readings": [
@@ -197,9 +197,17 @@
           "previousSrc": "assets/readings/l108-la-caja-de-los-dibujos.svg",
           "src": "assets/readings/l108-la-caja-de-los-dibujos-illustration.webp",
           "afterParagraph": 2,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Create one 3:2 landscape children's-book illustration for Trama L108, The box of drawings. Warm painted gouache and soft crayon textures, playful but believable, vermilion, mustard and ink-blue accents, cream daylight. In a school reading room, an open shallow cardboard storage box rests on a broad table. Spread on the table are several separate children's drawings on ordinary rectangular paper: two black cats, a striped tiger and one distinctive orange cat with a GREEN tail. The orange cat with green tail is clearly a child's crayon picture on paper, NOT a real animal. Two children about eight, Roc and Lina, look over the drawings with recognition and friendly curiosity. Roc has curly reddish hair and a blue sweatshirt; Lina has straight black cropped hair and a mustard pinafore over a striped casual shirt. They stand beyond the table, one hand each resting simply on its edge, other hands at their sides; no complicated pointing or impossible wrists. Drawings lie flat, separated enough to read as individual sheets, coherent corners and shadows, box perspective correct. No legible names, writing, captions, numbering, arrows, uniforms, floating papers, panels, logos or watermark. The paper drawings face roughly toward the children, seen upside down from the camera, rather than turned toward the viewer. Keep the composition uncluttered and appropriate to primary school.",
+          "visualReview": "Separate flat animal drawings face the children, including the distinctive orange cat with green tail, two black cats and tiger; box geometry and resting hands are plausible.",
+          "sha256": "e1beb753c529ee6c7d2f9b6baf5d49cc9c77eb291c35db7f8d84064ab73c0413"
         }
-      ]
+      ],
+      "edition": "v1.58.8"
     },
     {
       "code": "L006",

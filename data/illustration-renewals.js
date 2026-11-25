@@ -39,6 +39,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l137-gotas-que-se-juntan-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l108-la-caja-de-los-dibujos.svg": {
+    "src": "assets/readings/l108-la-caja-de-los-dibujos-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
