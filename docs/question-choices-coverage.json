@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 463,
-  "pendingWorks": 23,
-  "localizedAlternatives": 3916,
+  "coveredWorks": 468,
+  "pendingWorks": 18,
+  "localizedAlternatives": 3964,
   "ranges": [
     {
       "start": 1,
@@ -352,8 +352,8 @@
       "start": 246,
       "end": 250,
       "total": 5,
-      "covered": 0,
-      "status": "pending"
+      "covered": 5,
+      "status": "complete"
     },
     {
       "start": 251,
@@ -25779,15 +25779,65 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "Quinze minuts no són prou",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "reservas-q2",
+              "number": 2
+            },
+            {
+              "id": "reservas-q3",
+              "number": 3
+            },
+            {
+              "id": "reservas-q4",
+              "number": 4
+            },
+            {
+              "id": "reservas-q5",
+              "number": 5
+            },
+            {
+              "id": "reservas-q7",
+              "number": 7
+            },
+            {
+              "id": "reservas-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "reservas-q2",
+              "number": 2
+            },
+            {
+              "id": "reservas-q3",
+              "number": 3
+            },
+            {
+              "id": "reservas-q4",
+              "number": 4
+            },
+            {
+              "id": "reservas-q5",
+              "number": 5
+            },
+            {
+              "id": "reservas-q7",
+              "number": 7
+            },
+            {
+              "id": "reservas-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -25798,15 +25848,57 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "Una fitxa que no acusa",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "ficha-q2",
+              "number": 2
+            },
+            {
+              "id": "ficha-q3",
+              "number": 3
+            },
+            {
+              "id": "ficha-q4",
+              "number": 4
+            },
+            {
+              "id": "ficha-q5",
+              "number": 5
+            },
+            {
+              "id": "ficha-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "ficha-q2",
+              "number": 2
+            },
+            {
+              "id": "ficha-q3",
+              "number": 3
+            },
+            {
+              "id": "ficha-q4",
+              "number": 4
+            },
+            {
+              "id": "ficha-q5",
+              "number": 5
+            },
+            {
+              "id": "ficha-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -25817,15 +25909,57 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "Un tamboret més a la llista?",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "taburetes-q3",
+              "number": 3
+            },
+            {
+              "id": "taburetes-q4",
+              "number": 4
+            },
+            {
+              "id": "taburetes-q5",
+              "number": 5
+            },
+            {
+              "id": "taburetes-q7",
+              "number": 7
+            },
+            {
+              "id": "taburetes-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "taburetes-q3",
+              "number": 3
+            },
+            {
+              "id": "taburetes-q4",
+              "number": 4
+            },
+            {
+              "id": "taburetes-q5",
+              "number": 5
+            },
+            {
+              "id": "taburetes-q7",
+              "number": 7
+            },
+            {
+              "id": "taburetes-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -25836,15 +25970,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "El torn de la cúpula",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l249-q2",
+              "number": 2
+            },
+            {
+              "id": "l249-q3",
+              "number": 3
+            },
+            {
+              "id": "l249-q4",
+              "number": 4
+            },
+            {
+              "id": "l249-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l249-q2",
+              "number": 2
+            },
+            {
+              "id": "l249-q3",
+              "number": 3
+            },
+            {
+              "id": "l249-q4",
+              "number": 4
+            },
+            {
+              "id": "l249-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -25855,15 +26023,49 @@
       "level": "4-primary",
       "difficulty": "advanced",
       "title": "La finestra de cartró",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l250-q3",
+              "number": 3
+            },
+            {
+              "id": "l250-q4",
+              "number": 4
+            },
+            {
+              "id": "l250-q5",
+              "number": 5
+            },
+            {
+              "id": "l250-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l250-q3",
+              "number": 3
+            },
+            {
+              "id": "l250-q4",
+              "number": 4
+            },
+            {
+              "id": "l250-q5",
+              "number": 5
+            },
+            {
+              "id": "l250-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
