@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 363,
-  "pendingWorks": 123,
-  "localizedAlternatives": 2906,
+  "coveredWorks": 374,
+  "pendingWorks": 112,
+  "localizedAlternatives": 2994,
   "ranges": [
     {
       "start": 1,
@@ -254,8 +254,8 @@
       "start": 176,
       "end": 180,
       "total": 11,
-      "covered": 0,
-      "status": "pending"
+      "covered": 11,
+      "status": "complete"
     },
     {
       "start": 181,
@@ -19639,15 +19639,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "El micròfon sota l’abric",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-microfono-bajo-el-abrigo-q2",
+              "number": 2
+            },
+            {
+              "id": "el-microfono-bajo-el-abrigo-q4",
+              "number": 4
+            },
+            {
+              "id": "el-microfono-bajo-el-abrigo-q5",
+              "number": 5
+            },
+            {
+              "id": "el-microfono-bajo-el-abrigo-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-microfono-bajo-el-abrigo-q2",
+              "number": 2
+            },
+            {
+              "id": "el-microfono-bajo-el-abrigo-q4",
+              "number": 4
+            },
+            {
+              "id": "el-microfono-bajo-el-abrigo-q5",
+              "number": 5
+            },
+            {
+              "id": "el-microfono-bajo-el-abrigo-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -19658,15 +19692,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "El pressupost del patinet",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-presupuesto-del-patinete-q2",
+              "number": 2
+            },
+            {
+              "id": "el-presupuesto-del-patinete-q3",
+              "number": 3
+            },
+            {
+              "id": "el-presupuesto-del-patinete-q5",
+              "number": 5
+            },
+            {
+              "id": "el-presupuesto-del-patinete-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-presupuesto-del-patinete-q2",
+              "number": 2
+            },
+            {
+              "id": "el-presupuesto-del-patinete-q3",
+              "number": 3
+            },
+            {
+              "id": "el-presupuesto-del-patinete-q5",
+              "number": 5
+            },
+            {
+              "id": "el-presupuesto-del-patinete-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -19677,15 +19745,41 @@
       "level": "3-primary",
       "difficulty": "advanced",
       "title": "El pressupost del patinet",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l177a-q2",
+              "number": 2
+            },
+            {
+              "id": "l177a-q4",
+              "number": 4
+            },
+            {
+              "id": "l177a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l177a-q2",
+              "number": 2
+            },
+            {
+              "id": "l177a-q4",
+              "number": 4
+            },
+            {
+              "id": "l177a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -19696,15 +19790,57 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "El pressupost del patinet",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l177b-q2",
+              "number": 2
+            },
+            {
+              "id": "l177b-q4",
+              "number": 4
+            },
+            {
+              "id": "l177b-q5",
+              "number": 5
+            },
+            {
+              "id": "l177b-q6",
+              "number": 6
+            },
+            {
+              "id": "l177b-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l177b-q2",
+              "number": 2
+            },
+            {
+              "id": "l177b-q4",
+              "number": 4
+            },
+            {
+              "id": "l177b-q5",
+              "number": 5
+            },
+            {
+              "id": "l177b-q6",
+              "number": 6
+            },
+            {
+              "id": "l177b-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -19715,15 +19851,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "Els dos noms del pont",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "los-dos-nombres-del-puente-q3",
+              "number": 3
+            },
+            {
+              "id": "los-dos-nombres-del-puente-q4",
+              "number": 4
+            },
+            {
+              "id": "los-dos-nombres-del-puente-q5",
+              "number": 5
+            },
+            {
+              "id": "los-dos-nombres-del-puente-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "los-dos-nombres-del-puente-q3",
+              "number": 3
+            },
+            {
+              "id": "los-dos-nombres-del-puente-q4",
+              "number": 4
+            },
+            {
+              "id": "los-dos-nombres-del-puente-q5",
+              "number": 5
+            },
+            {
+              "id": "los-dos-nombres-del-puente-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -19734,15 +19904,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "Una ressenya amb un però",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-resena-con-un-pero-q3",
+              "number": 3
+            },
+            {
+              "id": "una-resena-con-un-pero-q4",
+              "number": 4
+            },
+            {
+              "id": "una-resena-con-un-pero-q5",
+              "number": 5
+            },
+            {
+              "id": "una-resena-con-un-pero-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-resena-con-un-pero-q3",
+              "number": 3
+            },
+            {
+              "id": "una-resena-con-un-pero-q4",
+              "number": 4
+            },
+            {
+              "id": "una-resena-con-un-pero-q5",
+              "number": 5
+            },
+            {
+              "id": "una-resena-con-un-pero-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -19753,15 +19957,41 @@
       "level": "3-primary",
       "difficulty": "advanced",
       "title": "Una ressenya amb un però",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l179a-q2",
+              "number": 2
+            },
+            {
+              "id": "l179a-q3",
+              "number": 3
+            },
+            {
+              "id": "l179a-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l179a-q2",
+              "number": 2
+            },
+            {
+              "id": "l179a-q3",
+              "number": 3
+            },
+            {
+              "id": "l179a-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -19772,15 +20002,57 @@
       "level": "5-primary",
       "difficulty": "advanced",
       "title": "Una ressenya amb un però",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l179b-q2",
+              "number": 2
+            },
+            {
+              "id": "l179b-q4",
+              "number": 4
+            },
+            {
+              "id": "l179b-q5",
+              "number": 5
+            },
+            {
+              "id": "l179b-q6",
+              "number": 6
+            },
+            {
+              "id": "l179b-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l179b-q2",
+              "number": 2
+            },
+            {
+              "id": "l179b-q4",
+              "number": 4
+            },
+            {
+              "id": "l179b-q5",
+              "number": 5
+            },
+            {
+              "id": "l179b-q6",
+              "number": 6
+            },
+            {
+              "id": "l179b-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -19791,15 +20063,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "L’equip que es va quedar a recollir",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-equipo-que-se-quedo-a-recoger-q3",
+              "number": 3
+            },
+            {
+              "id": "el-equipo-que-se-quedo-a-recoger-q4",
+              "number": 4
+            },
+            {
+              "id": "el-equipo-que-se-quedo-a-recoger-q5",
+              "number": 5
+            },
+            {
+              "id": "el-equipo-que-se-quedo-a-recoger-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-equipo-que-se-quedo-a-recoger-q3",
+              "number": 3
+            },
+            {
+              "id": "el-equipo-que-se-quedo-a-recoger-q4",
+              "number": 4
+            },
+            {
+              "id": "el-equipo-que-se-quedo-a-recoger-q5",
+              "number": 5
+            },
+            {
+              "id": "el-equipo-que-se-quedo-a-recoger-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -19810,15 +20116,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "L’equip que es va quedar a recollir",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l180a-q2",
+              "number": 2
+            },
+            {
+              "id": "l180a-q3",
+              "number": 3
+            },
+            {
+              "id": "l180a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l180a-q2",
+              "number": 2
+            },
+            {
+              "id": "l180a-q3",
+              "number": 3
+            },
+            {
+              "id": "l180a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -19829,15 +20161,57 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "L’equip que es va quedar a recollir",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l180b-q1",
+              "number": 1
+            },
+            {
+              "id": "l180b-q2",
+              "number": 2
+            },
+            {
+              "id": "l180b-q4",
+              "number": 4
+            },
+            {
+              "id": "l180b-q6",
+              "number": 6
+            },
+            {
+              "id": "l180b-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l180b-q1",
+              "number": 1
+            },
+            {
+              "id": "l180b-q2",
+              "number": 2
+            },
+            {
+              "id": "l180b-q4",
+              "number": 4
+            },
+            {
+              "id": "l180b-q6",
+              "number": 6
+            },
+            {
+              "id": "l180b-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
