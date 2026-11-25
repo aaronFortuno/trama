@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 50,
+    "completedReadings": 51,
     "totalReadings": 66,
-    "completedImages": 60,
+    "completedImages": 61,
     "totalImages": 76
   },
   "readings": [
@@ -1308,9 +1308,17 @@
           "previousSrc": "assets/readings/l136-dos-golpes-en-la-puerta.svg",
           "src": "assets/readings/l136-dos-golpes-en-la-puerta-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 quietly humorous hand-painted children's-book still life for Trama L136, Two knocks at the door. Fine gouache, watercolor and colored pencil, textured ivory paper, warm apricot apartment landing, muted sage and dusty blue doors, natural daytime light. A SMALL CLOSED CARDBOARD PARCEL rests on a clean tiled landing between TWO ordinary apartment doors on the SAME floor, one left and one right. Both doors have a modest little brass nameplate reading exactly SOLER in simple small uppercase letters, the shared family name, no other names. On the parcel's upper-facing white shipping label are only SOLER and a small 2, no full address, barcode or fictional long gibberish. A tiny second label underneath the box remains hidden, no PAU visible yet. Parcel is clearly sealed with ordinary paper tape and solid corners, no holes or exposed cookie molds. Real doorknobs, doorbells, thresholds and coherent landing perspective; a short section of staircase railing at one side suggests the apartment building. No people or hands required. The atmosphere is everyday and kind, not a suspicious package or crime scene. No extra text, numbers except label 2, arrows, diagrams, panels, captions, brand logos or watermark. Rich tactile painted architecture, not a flat vector placeholder.",
+          "visualReview": "Sealed parcel with SOLER/2 label sits before two same-floor doors both named SOLER; hidden secondary label remains out of view, solid box and landing perspective.",
+          "sha256": "ff6b71371f3ae22e33a192f17fd7cd98ec914a87bdcce888bcb02e0ad0a3b3fc"
         }
-      ]
+      ],
+      "edition": "v1.58.51"
     },
     {
       "code": "L129",

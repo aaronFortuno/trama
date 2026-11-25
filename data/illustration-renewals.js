@@ -299,6 +299,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l141-el-cartel-de-la-fuente-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l136-dos-golpes-en-la-puerta.svg": {
+    "src": "assets/readings/l136-dos-golpes-en-la-puerta-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
