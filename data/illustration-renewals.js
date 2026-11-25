@@ -279,6 +279,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l142-las-palmas-del-pasillo-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l106-el-guante-de-rayas.svg": {
+    "src": "assets/readings/l106-el-guante-de-rayas-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

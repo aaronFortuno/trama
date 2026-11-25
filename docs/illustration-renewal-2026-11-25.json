@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 46,
+    "completedReadings": 47,
     "totalReadings": 66,
-    "completedImages": 56,
+    "completedImages": 57,
     "totalImages": 76
   },
   "readings": [
@@ -1218,9 +1218,17 @@
           "previousSrc": "assets/readings/l106-el-guante-de-rayas.svg",
           "src": "assets/readings/l106-el-guante-de-rayas-illustration.webp",
           "afterParagraph": 2,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 atmospheric painted picture-book illustration for Trama L106, The striped glove. Fine watercolor, gouache and pencil, textured ivory paper, rainy blue-gray street, pale green and cream knit accents. Low close view of an ordinary bus-stop bench beneath a transparent shelter. Under the bench on the DRY sheltered paving lies ONE small EMPTY CHILD'S KNITTED GLOVE with clear alternating GREEN and CREAM stripes and a ribbed cuff. It is unmistakably a soft fabric glove, not a severed human hand: empty cuff, knitted yarn texture, gently flattened fingers, four finger tubes and one thumb in a normal garment shape, no skin or fingernails. The glove is dry and fairly clean because it lies under the bench roof. Outside the shelter fine drizzle has just begun; wet paving and a few rain specks on the glass suggest the weather. An unobtrusive bus-stop sign in the distance contains only a simple bus pictogram, no words or numbers. Bench has coherent seat, back, legs and solid ground contact; keep the glove clearly visible and the focal point. No people, hands reaching into frame, readable timetable, letters, captions, arrows, split panels, logos or watermark. Gentle everyday lost-and-found mood, richly painted materials rather than a flat vector placeholder.",
+          "visualReview": "Empty five-finger knitted green-striped glove lies dry beneath supported bus-stop bench, rain outside shelter and bus pictogram coherent; no skin-like severed-hand appearance.",
+          "sha256": "22e7808be14684892e4efc69b0a6fcddc1c7afcbc1a07991e8277b6e98788d01"
         }
-      ]
+      ],
+      "edition": "v1.58.47"
     },
     {
       "code": "L116",
