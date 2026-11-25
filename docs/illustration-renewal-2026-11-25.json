@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 40,
+    "completedReadings": 41,
     "totalReadings": 66,
-    "completedImages": 49,
+    "completedImages": 51,
     "totalImages": 76
   },
   "readings": [
@@ -1068,16 +1068,32 @@
           "previousSrc": "assets/readings/agua-acueducto.svg",
           "src": "assets/readings/agua-acueducto-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Create one landscape 3:2 beautifully painted architectural travel-journal illustration for Trama L005, The water that reached the city. Subject: the famous ROMAN AQUEDUCT OF SEGOVIA seen from the plaza at pedestrian level. Fine ink, transparent watercolor and subtle colored-pencil grain on ivory paper; warm gray granite, ochre town houses, blue sky and soft late-afternoon light. Recognizable monumental TWO-TIER arcade of unmortared granite ashlar, large rounded Roman arches below and smaller rounded arches above, continuous narrow stone water conduit along the top, structurally sound vertically aligned piers. The arcade crosses a real dry paved urban PLAZA, not a river valley or flooded square. Historic Segovia town houses with tiled roofs and balconies lie behind; a few tiny walking pedestrians may give scale but no foreground people or hands. Capture the stone's textured blocks and repeated arches in coherent diminishing perspective, no impossible Escher joins, fantasy towers or extra random arch levels. There is NO visible torrent spilling from the structure; water historically traveled in the top channel. A calm informative view suitable for a primary-school reading, polished painterly detail rather than photorealism or flat vector shapes. No readable shop signs, text, numbers, arrows, explanatory labels, panels, logos or watermark.",
+          "editPrompt": "Use case: architectural-correction. Recompose this watercolor into a CLOSER, NEARLY STRAIGHT-ON view of a SHORT SECTION of the Segovia aqueduct, preserving the fine stone/ink/watercolor style and sunny plaza palette. Show ONLY FOUR complete lower Roman semicircular arches and FOUR complete upper Roman semicircular arches, eight arch openings total, in exactly TWO horizontal rows. Lower arches have tall masonry piers reaching the dry paved plaza; upper arches are shorter and sit directly above, aligned with the same supporting piers. The top conduit is one continuous straight line. NO long line receding far into the distance, NO new third tier anywhere, NO extra small arch inserted inside a larger arch, NO Escher merging or diagonal crossover. Crop the aqueduct naturally at both sides, no need to see its endpoints. Modest ochre town houses visible THROUGH the lower arches, a few tiny pedestrians for scale. No cathedral, fantasy towers, text, water pouring, labels, arrows, panels or watermark. Focus on a clear believable TWO-TIER ashlar-granite arcade across a city plaza, not exact number of all arches in the whole real monument. Landscape 3:2, richly textured painted architectural illustration.",
+          "visualReview": "After recomposition, exactly two coherent aligned tiers of rounded ashlar arches cross a dry city plaza, with no extra distant tiers or spilling water.",
+          "sha256": "644bc4c1924e67c4f2df59205a9ef9cdfabfb965e4744c16dab522230fc542ba"
         },
         {
           "id": "recorrido",
           "previousSrc": "assets/readings/agua-canal.svg",
           "src": "assets/readings/agua-canal-illustration.webp",
           "afterParagraph": 3,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Create the companion landscape 3:2 painted explanatory landscape for Trama L005, The water that reached the city. Match reference's delicate architectural ink and watercolor, warm granite and ochre, green hills, blue sky, ivory paper texture. This is a GENERIC ILLUSTRATIVE RECONSTRUCTION of how a Roman water route works, not a literal map of Segovia. Panoramic mostly side-on view: on the LEFT a modest high hillside spring feeds a narrow STONE WATER CHANNEL; the channel follows a nearly straight, VERY GENTLY DESCENDING line all the way toward a small town on the RIGHT, which sits slightly lower. Where the terrain drops sharply into a valley in the CENTRE, a structurally coherent single row of Roman stone arches SUPPORTS the same continuous channel high above the ground. The water conduit NEVER dips to follow the valley and NEVER climbs uphill; the arch piers grow taller where the ground is lower, keeping the channel on its gentle downward slope from left to right. Show just enough of the channel's open upper surface to see a thin ribbon of blue water. At each end it connects smoothly to the ground-supported channel, no gaps or impossible joins. Tiny buildings and a fountain near the receiving town provide scale, no houses blocking the canal. Beautiful hand-painted landscape detail, clear physical geography, no giant decorative waterfalls. No arrows, labels, text, numbers, dotted routes, cutaway panels, logos or watermark. One coherent educational landscape, not flat vector or technical blueprint.",
+          "visualReview": "Continuous channel gently descends from left spring to right settlement, supported above valley by taller central piers; no uphill water segments or disconnected conduit.",
+          "sha256": "aa6fb5fa66c6bfc9eee30212a3947253f9ac7db7c5244fa25ce3416cb9ba5970"
         }
-      ]
+      ],
+      "edition": "v1.58.41"
     },
     {
       "code": "L156",

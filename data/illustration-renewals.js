@@ -244,6 +244,16 @@ export const illustrationRenewals = {
     "src": "assets/readings/l149-la-caja-que-da-la-vuelta-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/agua-acueducto.svg": {
+    "src": "assets/readings/agua-acueducto-illustration.webp",
+    "width": 1100,
+    "height": 733
+  },
+  "assets/readings/agua-canal.svg": {
+    "src": "assets/readings/agua-canal-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
