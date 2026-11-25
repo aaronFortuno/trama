@@ -552,7 +552,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
       input.checked = availableChoices.length > 0 && (input.value === 'choice' ? selectedChoices === availableChoices.length : selectedChoices === 0);
     }
     find('#studio-choice-status').textContent = !reading.questions.some(question => multipleChoice(reading, question))
-      ? t('Aquesta lectura encara no té alternatives ABCD. Prototip disponible a L001–L005.')
+      ? t('Aquesta lectura encara no té alternatives ABCD.')
       : t('{count} preguntes amb alternativa ABCD. Ara: {selected} en ABCD i {open} obertes.', { count: availableChoices.length, selected: selectedChoices, open: visibleQuestions.length - selectedChoices });
     const questionCount = find('#studio-question-count');
     questionCount.textContent = numberFormat.format(removed.length);

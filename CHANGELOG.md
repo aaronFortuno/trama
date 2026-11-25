@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.57 · 25 de novembre del 2026
+
+Comença l’ampliació de preguntes ABCD en lots amb les deu variants A/B de L001–L005. 88 alternatives lingüístiques noves en català i castellà, amb explicacions pròpies i distractors graduats revisats independentment. El seguiment identifica totes les fitxes pendents i només dona un rang per complet quan també s’han cobert les variants.
+
 ## 1.56 · 24 de novembre del 2026
 
 Prototip de resposta oberta o ABCD a L001–L005: quatre preguntes per lectura en català i castellà, amb tria general o individual, maquetats desats i solucionaris amb resposta i explicació. El cercador admet rangs com -5, -L005 i 10-20. Les alternatives s’han revisat independentment, amb distractors que exigeixen lectura acurada; les opinions es mantenen obertes.

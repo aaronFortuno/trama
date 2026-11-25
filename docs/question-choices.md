@@ -1,5 +1,7 @@
 # Preguntes amb resposta oberta o ABCD
 
+Ampliació en lots iniciada el 25 de novembre del 2026, després de l’acceptació del format del prototip. El [seguiment de cobertura](question-choices-progress.md) mostra tots els rangs, incloses les variants de família. Només es publiquen lots complets que hagin superat una revisió independent en ES/CA. Les lectures ja existents i els seus maquetats es conserven.
+
 Prototip v1.56, 24 de novembre del 2026. Les cinc lectures base L001–L005 tenen quatre preguntes amb alternativa ABCD en català i castellà: vint alternatives i quaranta versions lingüístiques. Les lectures i preguntes obertes originals es conserven. Les variants de família A/B necessitaran alternatives pròpies; no les hereten.
 
 | Lectura | Preguntes amb alternativa ABCD | Estat ES/CA |
@@ -10,7 +12,7 @@ Prototip v1.56, 24 de novembre del 2026. Les cinc lectures base L001–L005 tene
 | L004 | 1, 2, 4, 7 | Provisional, revisió independent superada |
 | L005 | 1, 2, 3, 4 | Provisional, revisió independent superada |
 
-La validació docent queda pendent. La següent ampliació seqüencial començarà a L006, després de valorar el prototip. La cobertura es registra per codi i pregunta; tenir una lectura coberta no vol dir convertir totes les preguntes.
+La validació docent dels continguts nous queda pendent. La cobertura es registra per codi i pregunta; tenir una lectura coberta no vol dir convertir totes les preguntes. La primera tanda completa les germanes A/B de L001–L005 i continua pels rangs L006–L010, L011–L015 i successius.
 
 ## Criteris editorials
 
@@ -34,9 +36,13 @@ La tria es desa per lectura i per col·lecció, s’inclou a la còpia de segure
 
 Les alternatives són a data/question-choices.js, vinculades a codi exacte i identificador de pregunta. Cada registre conté enunciat ES/CA, opcions ES/CA i identificador estable de l’opció correcta; admet explicació i evidències pròpies. L’explicació recorre al solucionari obert quan continua sent pertinent. Aquesta capa manté intactes els textos i els registres editorials originals.
 
+Les ampliacions són a data/question-choices/batch-NNN.js. Cada objecte identifica codi i idioma, i conté les alternatives per identificador de pregunta: prompt, quatre options, correct (a–d), explanation i, quan cal, evidence pròpia. Les dues llengües es redacten i revisen independentment; els seus identificadors de pregunta poden diferir. data/question-choices-batches.js només registra lots complets i revisats, amb versió i camí del registre de revisió. Els esborranys no s’importen al web.
+
 question-responses.js resol el format triat. Els maquetats incorporen questionMode i questionModes per a les excepcions individuals. Els enllaços de maquetat poden utilitzar PREG=ABCD i TIPUSRES=1:OBERTA; els codis curts continuen identificant lectura, llengua i omissions.
 
 docs/question-choices-review.json registra les quaranta versions exactes revisades, amb empremta del text, pregunta oberta, alternativa, explicació i evidències. Autor: root. Revisor independent: review_early_families. Les empremtes s’han de contrastar abans de publicar.
+
+Cada lot nou té docs/question-choices/batch-NNN-review.json amb autor i revisor diferents, data, edició i empremta de choiceReviewSnapshot. Els autors es revisen de manera creuada; el coordinador integra, verifica les empremtes, actualitza la cobertura i publica. tools/check-choice-draft.mjs --batch=NNN comprova estructura i ancoratges abans de la revisió; no substitueix la lectura editorial. tools/build-choice-coverage.mjs --date=AAAA-MM-DD genera el seguiment de totes les fitxes concretes, amb les pendents identificades explícitament.
 
 ## Cerca per rangs
 

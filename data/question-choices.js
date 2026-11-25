@@ -1,5 +1,6 @@
 // Alternate response forms, reviewed separately from the original open questions.
 // The exact reading code is intentional: family variants need their own alternatives.
+import { choiceBatches } from './question-choices-batches.js';
 const choice = (prompt, options, correct, explanation) => ({ prompt, options, correct, ...(explanation ? { explanation } : {}) });
 export const questionChoices = {
   L001: {
@@ -77,8 +78,25 @@ export const questionChoices = {
   },
 };
 
+const localizedReadings = new Map();
+for (const batch of choiceBatches) for (const entry of batch.readings) {
+  const key = `${entry.code}:${entry.language}`;
+  if (localizedReadings.has(key) || Object.hasOwn(questionChoices, entry.code)) throw Error(`Duplicate question choices: ${key}`);
+  localizedReadings.set(key, entry);
+}
+
+export const choiceCodes = Object.freeze([...new Set([...Object.keys(questionChoices), ...choiceBatches.flatMap(batch => batch.readings.map(entry => entry.code))])]);
+
+export function localizedChoice(record, question) {
+  return { prompt: record.prompt, options: record.options.map((text, index) => ({ id: 'abcd'[index], text })),
+    correct: record.correct, explanation: record.explanation ?? question.answer,
+    ...(record.evidence ? { evidence: record.evidence } : {}) };
+}
+
 export function multipleChoice(reading, question) {
   if (reading.personal || !['es', 'ca'].includes(reading.language)) return null;
+  const localized = localizedReadings.get(`${reading.code}:${reading.language}`)?.questions[question.id];
+  if (localized) return localizedChoice(localized, question);
   const record = questionChoices[reading.code]?.[question.id];
   if (!record) return null;
   const locale = reading.language === 'es' ? 0 : 1;
@@ -86,8 +104,8 @@ export function multipleChoice(reading, question) {
     ...(record.evidence ? { evidence: record.evidence[locale] } : {}) };
 }
 
-export function choiceReviewSnapshot(reading, question) {
+export function choiceReviewSnapshot(reading, question, alternative = multipleChoice(reading, question)) {
   return { code: reading.code, language: reading.language, questionId: question.id,
     paragraphs: reading.paragraphs, openPrompt: question.prompt, openAnswer: question.answer,
-    evidence: question.evidence ?? [], ...multipleChoice(reading, question) };
+    evidence: question.evidence ?? [], ...alternative };
 }
