@@ -164,6 +164,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l128-el-pan-de-la-merienda-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l157-los-tres-dias-del-mercado.svg": {
+    "src": "assets/readings/l157-los-tres-dias-del-mercado-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

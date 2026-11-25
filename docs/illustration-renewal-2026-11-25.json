@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 26,
+    "completedReadings": 27,
     "totalReadings": 66,
-    "completedImages": 33,
+    "completedImages": 34,
     "totalImages": 76
   },
   "readings": [
@@ -717,9 +717,17 @@
           "previousSrc": "assets/readings/l157-los-tres-dias-del-mercado.svg",
           "src": "assets/readings/l157-los-tres-dias-del-mercado-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 carefully painted historical-research still life for Trama L157, The three market days. Rich ink-and-watercolor with fine pencil detail, warm sepia, muted teal and parchment cream, softly aged material textures. Overhead three-quarter view of a wooden home table. At LEFT lies ONE small old rectangular sepia photograph with worn white border and slightly yellowed corners. Its image clearly shows a simple FRUIT MARKET STALL with crates of apples and pears beside an old stone public fountain in a town square; any distant people are tiny indistinct silhouettes. At RIGHT lies a worn open handwritten family diary, physically coherent as ONE book with a central sewn spine and two flat connected pages. Its pages contain faint tiny illegible cursive lines and, on one page, a small simple pencil sketch of the fountain with THREE small cross marks beside it. No readable words, dates or numbers. A plain pencil rests alongside, nothing floats, no extra paper halves or translucent overlapping sheets. Make photograph and diary clearly different evidence objects, not two photos or a modern laptop. Window light and gentle shadows, inviting sense of discovering neighborhood history. No actual people or hands in foreground, explanatory arrows, diagram panels, captions, logos or watermark. The photograph's stall image faces the overhead viewer naturally because it lies on the table.",
+          "visualReview": "Separate old fruit-stall photograph and coherent two-page sewn diary, same fountain recognizable in both, three pencil crosses and illegible notes match the historical evidence.",
+          "sha256": "ed97008d349729978c7a7cd0197cf25af617dda4a644e262b296db4206cdc7a2"
         }
-      ]
+      ],
+      "edition": "v1.58.27"
     },
     {
       "code": "L115",
