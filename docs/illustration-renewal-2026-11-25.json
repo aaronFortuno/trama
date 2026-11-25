@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 65,
+    "completedReadings": 66,
     "totalReadings": 66,
-    "completedImages": 75,
+    "completedImages": 76,
     "totalImages": 76
   },
   "readings": [
@@ -1643,9 +1643,17 @@
           "previousSrc": "assets/readings/l131-un-refugio-para-la-lluvia.svg",
           "src": "assets/readings/l131-un-refugio-para-la-lluvia-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 warm final storybook scene for Trama L131, A shelter from the rain. Fine watercolor, gouache and colored pencil on tactile cream paper, rainy park greens, warm timber, muted blue, rust and mustard clothing. A small OPEN-FRONT WOODEN PARK SHELTER with a broad overhanging roof and a real bench inside provides ample standing space for THREE eight-year-old children and a medium brown-and-white dog. It is a human-sized park hut, NOT a tiny dog kennel. Rain has just stopped outside; droplets cling to the roof edge, wet park path reflects soft returning daylight, while floor under the roof stays dry. The dog has moved to the SIDE BESIDE THE BENCH, leaving the entrance clearly unobstructed, and now drinks naturally from one small bowl of water on the dry floor. A girl with straight dark braided hair and mustard jacket sits quietly on bench, relaxed hands on lap; two siblings, a boy in a rust sweater and a short-curly-haired girl in blue, stand comfortably inside. The boy holds a small capped reusable water bottle naturally down at his side, other hand in pocket. Keep children modestly sized, simple correct anatomy, no duplicated hands or limbs. Dog has normal four-legged body, supported paws and head bent toward the bowl, no impossible neck. Coherent shelter roof, posts, bench and floor, calm friendly mutual-help mood. No umbrellas, written signs, text, labels, arrows, diagram panels, captions, logos or watermark. Beautiful painted illustration, not flat vector art.",
+          "visualReview": "Human-sized shelter fits three children naturally, dog drinks beside bench with entrance clear, supported bowl and capped bottle, correct limbs and dry sheltered floor after rain.",
+          "sha256": "54d7d780696c4c4271f35726011e7b2e6c5a9c196655377e4ffb1091edf64574"
         }
-      ]
+      ],
+      "edition": "v1.58.66"
     }
   ]
 }

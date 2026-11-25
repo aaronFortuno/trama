@@ -374,6 +374,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/semillas-recuento-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l131-un-refugio-para-la-lluvia.svg": {
+    "src": "assets/readings/l131-un-refugio-para-la-lluvia-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
