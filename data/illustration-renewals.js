@@ -354,6 +354,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l134-el-abrigo-de-la-taza-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l123-la-lata-de-los-lapices.svg": {
+    "src": "assets/readings/l123-la-lata-de-los-lapices-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
