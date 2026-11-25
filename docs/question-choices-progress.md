@@ -1,6 +1,6 @@
 # Seguiment de les alternatives ABCD
 
-Actualitzat el 2026-11-25. **385 de 486 fitxes concretes** tenen alternatives en català i castellà; en queden 101 pendents. Hi ha 3082 alternatives lingüístiques revisades.
+Actualitzat el 2026-11-25. **394 de 486 fitxes concretes** tenen alternatives en català i castellà; en queden 92 pendents. Hi ha 3156 alternatives lingüístiques revisades.
 
 La xifra inclou lectures base i variants de família, que es treballen independentment. Cobrir una lectura vol dir donar alternativa a les preguntes adequades; les opinions i activitats de producció es mantenen obertes. Provisional significa revisió independent superada i validació docent pendent. El prototip base L001–L005 ha estat acceptat pel docent pel que fa al format.
 
@@ -47,7 +47,7 @@ Pots escriure un rang com 6-10 al cercador del web. La taula compta les fitxes c
 | L171–L175 | 13/13 | Complet ES/CA |
 | L176–L180 | 11/11 | Complet ES/CA |
 | L181–L185 | 11/11 | Complet ES/CA |
-| L186–L190 | 0/9 | Pendent |
+| L186–L190 | 9/9 | Complet ES/CA |
 | L191–L195 | 0/5 | Pendent |
 | L196–L200 | 0/5 | Pendent |
 | L201–L205 | 0/13 | Pendent |
@@ -107,5 +107,6 @@ Pots escriure un rang com 6-10 al cercador del web. La taula compta les fitxes c
 | 035 | v1.57.34 | 13 | [Registre de revisió](../docs/question-choices/batch-035-review.json) |
 | 036 | v1.57.35 | 11 | [Registre de revisió](../docs/question-choices/batch-036-review.json) |
 | 037 | v1.57.36 | 11 | [Registre de revisió](../docs/question-choices/batch-037-review.json) |
+| 038 | v1.57.37 | 9 | [Registre de revisió](../docs/question-choices/batch-038-review.json) |
 
 El detall per codi, llengua i número de pregunta és a [question-choices-coverage.json](question-choices-coverage.json). Els criteris editorials i de gradació són a [question-choices.md](question-choices.md).
