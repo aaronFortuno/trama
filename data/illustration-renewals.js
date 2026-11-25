@@ -209,6 +209,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l126-el-camino-de-las-flechas-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l112-el-juego-de-las-fichas.svg": {
+    "src": "assets/readings/l112-el-juego-de-las-fichas-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

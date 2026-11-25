@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 33,
+    "completedReadings": 34,
     "totalReadings": 66,
-    "completedImages": 42,
+    "completedImages": 43,
     "totalImages": 76
   },
   "readings": [
@@ -906,9 +906,18 @@
           "previousSrc": "assets/readings/l112-el-juego-de-las-fichas.svg",
           "src": "assets/readings/l112-el-juego-de-las-fichas-illustration.webp",
           "afterParagraph": 2,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 tactile gouache-and-colored-pencil picture-book still life for Trama L112, The tile game. Bright but calm primary-school palette, cream paper and natural light wood, visible handmade brush and crayon texture. Overhead view of a simple memory-matching game on a table. There are exactly EIGHT equally sized square pieces of cardstock, arranged in TWO straight rows of FOUR with small gaps. Six squares show their plain WHITE backs. Exactly TWO squares are turned face-up: one solid BLUE square in the first row and one solid GREEN square in the second row; these are different colors and therefore do not match. The colored square faces have no icons, writing or patterns. Each card lies flat with a thin believable paper edge and gentle contact shadow; no extra cards hiding underneath or floating. Beside the game lie four short colored pencils in blue, green, red and yellow and a small piece of leftover white card, all clearly separate from the eight game tiles. No people or hands, numerical labels, words, arrows, dotted outlines, split diagram panels, captions, logos or watermark. Warm inviting real craft scene, beautifully hand-painted, not a computer board-game UI or flat SVG.",
+          "editPrompt": "Use case: precise-object-edit. Remove ONLY the extra small white scrap/card at the bottom-right below the yellow pencil (around x88%, y78%). Replace that entire small scrap with the surrounding natural wooden tabletop texture and light. The finished scene must contain exactly the EIGHT large cards in the existing TWO rows of FOUR and the four colored pencils at right, no ninth card or other white paper. Preserve all eight main cards, their positions and colors (one blue, one green, six white), all pencil details, painted texture, lighting, framing and everything else unchanged. Small local object removal only.",
+          "visualReview": "After removing an extra scrap, exactly eight square cards remain in two rows of four, with one blue and one green face-up and six white backs; game matches instructions.",
+          "sha256": "24cb5425ac04bcb05e79c16e46631b8d74ecca44a254f6df881171e27c878a64"
         }
-      ]
+      ],
+      "edition": "v1.58.34"
     },
     {
       "code": "L124",
