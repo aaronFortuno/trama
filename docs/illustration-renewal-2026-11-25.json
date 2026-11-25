@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 39,
+    "completedReadings": 40,
     "totalReadings": 66,
-    "completedImages": 48,
+    "completedImages": 49,
     "totalImages": 76
   },
   "readings": [
@@ -1045,9 +1045,17 @@
           "previousSrc": "assets/readings/l149-la-caja-que-da-la-vuelta.svg",
           "src": "assets/readings/l149-la-caja-que-da-la-vuelta-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Landscape 3:2 hand-painted primary-library still life for Trama L149, The box that goes round. Soft gouache, fine colored pencil and warm paper texture, teal-blue cardboard, six muted bright book colors, honey wood and cream. On a classroom table rests one sturdy rectangular cardboard book box with its hinged lid propped OPEN and physically attached to the back edge. Inside are exactly SIX slim children's storybooks, clearly distinguishable and countable by their solid green, red, blue, yellow, orange and plum covers/spines. They are stored neatly side by side, no extra hidden stacks. A single cream checklist sheet is firmly glued FLAT on the INSIDE of the open lid. The sheet has SIX short handwritten-looking gray lines with small blank spaces beside them for comments, but no legible words, titles, letters or numbers. Paper follows the lid's plane, no floating checklist or impossible attachment. One plain pencil lies on the table, and distant classroom shelving is softly out of focus. Real box folds, book edges, lighting and contact shadows. No people, hands, written labels on the box or book spines, arrows, separate panels, captions, logos or watermark. Inviting practical resource-sharing scene, beautifully painted rather than flat vector art.",
+          "visualReview": "Exactly six distinct books in a physically supported box; six-row checklist glued flat to attached lid, coherent perspective and material edges, no legible language.",
+          "sha256": "44cee84f3d0f6e187ee16992abe5f2150ed52c56d9892dccf05d852a7fa4c9bf"
         }
-      ]
+      ],
+      "edition": "v1.58.40"
     },
     {
       "code": "L005",

@@ -239,6 +239,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l145-la-manta-de-las-mangas-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l149-la-caja-que-da-la-vuelta.svg": {
+    "src": "assets/readings/l149-la-caja-que-da-la-vuelta-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
