@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 53,
+    "completedReadings": 54,
     "totalReadings": 66,
-    "completedImages": 63,
+    "completedImages": 64,
     "totalImages": 76
   },
   "readings": [
@@ -1376,9 +1376,17 @@
           "previousSrc": "assets/readings/l154-el-surco-del-camino.svg",
           "src": "assets/readings/l154-el-surco-del-camino-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 precise hand-painted nature-observation scene for Trama L154, The groove in the path. Natural-history watercolor, fine colored-pencil strokes and warm paper texture, earthy ochre, fresh grass green, pale sky reflections after rain. View obliquely DOWN a gently sloping narrow DIRT PATH in an ordinary park just after a storm. A SINGLE SMALL NARROW EROSION GROOVE, only a few centimetres deep, runs continuously from the higher middle-distance along the centre of the bare path DOWN to a shallow BROWNISH PUDDLE in the foreground. Show fine muddy sediment settled in the puddle, with slightly clearer water at its outer edge, no huge flowing river or canyon. Several larger pebbles remain at the path's outer edges, not carried into the pool. Along ONE side of the path is an adjacent grass-covered strip with intact soil and no erosion groove; a little grass-root tuft at its edge may be visible naturally, no underground cutaway. Coherent downhill grade, water path and puddle contact, wet soft earth and believable small scale. A few trees and shrubs in soft background, gentle returning sunlight. No people, hands, footprints, text, labels, arrows, explanatory panels, logos or watermark. Beautiful observational painted illustration, not a schematic vector diagram.",
+          "visualReview": "Continuous small downhill erosion groove ends in muddy sediment puddle, larger stones remain at path edges and grass-covered strip stays intact; realistic scale and water path.",
+          "sha256": "cad4b4ea3a6dc52971663e31fdc7fa6ef108678725d68c46b8edcf995ec11f31"
         }
-      ]
+      ],
+      "edition": "v1.58.54"
     },
     {
       "code": "L121",

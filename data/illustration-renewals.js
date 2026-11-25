@@ -314,6 +314,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/cartel-quiosco-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l154-el-surco-del-camino.svg": {
+    "src": "assets/readings/l154-el-surco-del-camino-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
