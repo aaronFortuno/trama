@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 448,
-  "pendingWorks": 38,
-  "localizedAlternatives": 3736,
+  "coveredWorks": 453,
+  "pendingWorks": 33,
+  "localizedAlternatives": 3796,
   "ranges": [
     {
       "start": 1,
@@ -331,8 +331,8 @@
       "start": 231,
       "end": 235,
       "total": 5,
-      "covered": 0,
-      "status": "pending"
+      "covered": 5,
+      "status": "complete"
     },
     {
       "start": 236,
@@ -24744,15 +24744,65 @@
       "level": "1-secondary",
       "difficulty": "intermediate",
       "title": "L’aigua que dibuixa fronteres",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-agua-que-dibuja-fronteras-q1",
+              "number": 1
+            },
+            {
+              "id": "el-agua-que-dibuja-fronteras-q3",
+              "number": 3
+            },
+            {
+              "id": "el-agua-que-dibuja-fronteras-q4",
+              "number": 4
+            },
+            {
+              "id": "el-agua-que-dibuja-fronteras-q5",
+              "number": 5
+            },
+            {
+              "id": "el-agua-que-dibuja-fronteras-q7",
+              "number": 7
+            },
+            {
+              "id": "el-agua-que-dibuja-fronteras-q9",
+              "number": 9
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-agua-que-dibuja-fronteras-q1",
+              "number": 1
+            },
+            {
+              "id": "el-agua-que-dibuja-fronteras-q3",
+              "number": 3
+            },
+            {
+              "id": "el-agua-que-dibuja-fronteras-q4",
+              "number": 4
+            },
+            {
+              "id": "el-agua-que-dibuja-fronteras-q5",
+              "number": 5
+            },
+            {
+              "id": "el-agua-que-dibuja-fronteras-q7",
+              "number": 7
+            },
+            {
+              "id": "el-agua-que-dibuja-fronteras-q9",
+              "number": 9
+            }
+          ]
         }
       }
     },
@@ -24763,15 +24813,65 @@
       "level": "1-secondary",
       "difficulty": "intermediate",
       "title": "Crònica d’una final ajornada",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "cronica-de-una-final-aplazada-q2",
+              "number": 2
+            },
+            {
+              "id": "cronica-de-una-final-aplazada-q4",
+              "number": 4
+            },
+            {
+              "id": "cronica-de-una-final-aplazada-q5",
+              "number": 5
+            },
+            {
+              "id": "cronica-de-una-final-aplazada-q6",
+              "number": 6
+            },
+            {
+              "id": "cronica-de-una-final-aplazada-q7",
+              "number": 7
+            },
+            {
+              "id": "cronica-de-una-final-aplazada-q9",
+              "number": 9
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "cronica-de-una-final-aplazada-q2",
+              "number": 2
+            },
+            {
+              "id": "cronica-de-una-final-aplazada-q4",
+              "number": 4
+            },
+            {
+              "id": "cronica-de-una-final-aplazada-q5",
+              "number": 5
+            },
+            {
+              "id": "cronica-de-una-final-aplazada-q6",
+              "number": 6
+            },
+            {
+              "id": "cronica-de-una-final-aplazada-q7",
+              "number": 7
+            },
+            {
+              "id": "cronica-de-una-final-aplazada-q9",
+              "number": 9
+            }
+          ]
         }
       }
     },
@@ -24782,15 +24882,65 @@
       "level": "1-secondary",
       "difficulty": "intermediate",
       "title": "L’arxiu dels noms esborrats",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-archivo-de-los-nombres-borrados-q2",
+              "number": 2
+            },
+            {
+              "id": "el-archivo-de-los-nombres-borrados-q4",
+              "number": 4
+            },
+            {
+              "id": "el-archivo-de-los-nombres-borrados-q5",
+              "number": 5
+            },
+            {
+              "id": "el-archivo-de-los-nombres-borrados-q6",
+              "number": 6
+            },
+            {
+              "id": "el-archivo-de-los-nombres-borrados-q7",
+              "number": 7
+            },
+            {
+              "id": "el-archivo-de-los-nombres-borrados-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-archivo-de-los-nombres-borrados-q2",
+              "number": 2
+            },
+            {
+              "id": "el-archivo-de-los-nombres-borrados-q4",
+              "number": 4
+            },
+            {
+              "id": "el-archivo-de-los-nombres-borrados-q5",
+              "number": 5
+            },
+            {
+              "id": "el-archivo-de-los-nombres-borrados-q6",
+              "number": 6
+            },
+            {
+              "id": "el-archivo-de-los-nombres-borrados-q7",
+              "number": 7
+            },
+            {
+              "id": "el-archivo-de-los-nombres-borrados-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -24801,15 +24951,65 @@
       "level": "1-secondary",
       "difficulty": "intermediate",
       "title": "Una ruta que no era la més curta",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-ruta-que-no-era-la-mas-corta-q2",
+              "number": 2
+            },
+            {
+              "id": "una-ruta-que-no-era-la-mas-corta-q3",
+              "number": 3
+            },
+            {
+              "id": "una-ruta-que-no-era-la-mas-corta-q4",
+              "number": 4
+            },
+            {
+              "id": "una-ruta-que-no-era-la-mas-corta-q5",
+              "number": 5
+            },
+            {
+              "id": "una-ruta-que-no-era-la-mas-corta-q8",
+              "number": 8
+            },
+            {
+              "id": "una-ruta-que-no-era-la-mas-corta-q9",
+              "number": 9
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-ruta-que-no-era-la-mas-corta-q2",
+              "number": 2
+            },
+            {
+              "id": "una-ruta-que-no-era-la-mas-corta-q3",
+              "number": 3
+            },
+            {
+              "id": "una-ruta-que-no-era-la-mas-corta-q4",
+              "number": 4
+            },
+            {
+              "id": "una-ruta-que-no-era-la-mas-corta-q5",
+              "number": 5
+            },
+            {
+              "id": "una-ruta-que-no-era-la-mas-corta-q8",
+              "number": 8
+            },
+            {
+              "id": "una-ruta-que-no-era-la-mas-corta-q9",
+              "number": 9
+            }
+          ]
         }
       }
     },
@@ -24820,15 +25020,65 @@
       "level": "1-secondary",
       "difficulty": "intermediate",
       "title": "El que no cap en una ressenya",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "lo-que-no-cabe-en-una-resena-q3",
+              "number": 3
+            },
+            {
+              "id": "lo-que-no-cabe-en-una-resena-q4",
+              "number": 4
+            },
+            {
+              "id": "lo-que-no-cabe-en-una-resena-q5",
+              "number": 5
+            },
+            {
+              "id": "lo-que-no-cabe-en-una-resena-q7",
+              "number": 7
+            },
+            {
+              "id": "lo-que-no-cabe-en-una-resena-q8",
+              "number": 8
+            },
+            {
+              "id": "lo-que-no-cabe-en-una-resena-q9",
+              "number": 9
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "lo-que-no-cabe-en-una-resena-q3",
+              "number": 3
+            },
+            {
+              "id": "lo-que-no-cabe-en-una-resena-q4",
+              "number": 4
+            },
+            {
+              "id": "lo-que-no-cabe-en-una-resena-q5",
+              "number": 5
+            },
+            {
+              "id": "lo-que-no-cabe-en-una-resena-q7",
+              "number": 7
+            },
+            {
+              "id": "lo-que-no-cabe-en-una-resena-q8",
+              "number": 8
+            },
+            {
+              "id": "lo-que-no-cabe-en-una-resena-q9",
+              "number": 9
+            }
+          ]
         }
       }
     },
