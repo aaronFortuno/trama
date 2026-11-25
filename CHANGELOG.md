@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.58.37 · 25 de novembre del 2026
+
+Renovades les il·lustracions de la L133 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 37 de 66 lectures de la llista.
+
 ## 1.58.36 · 25 de novembre del 2026
 
 Renovades les il·lustracions de la L120 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 36 de 66 lectures de la llista.

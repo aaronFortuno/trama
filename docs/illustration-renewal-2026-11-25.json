@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 36,
+    "completedReadings": 37,
     "totalReadings": 66,
-    "completedImages": 45,
+    "completedImages": 46,
     "totalImages": 76
   },
   "readings": [
@@ -975,9 +975,17 @@
           "previousSrc": "assets/readings/l133-un-mensaje-en-la-nevera.svg",
           "src": "assets/readings/l133-un-mensaje-en-la-nevera-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Create one landscape 3:2 warm painted children's-book illustration for Trama L133, A message on the fridge. Gentle gouache and fine pencil on textured cream paper, muted turquoise, apricot and warm wood. In an ordinary cozy home kitchen, eight-year-old Cesc stands in a relaxed side-back view, carefully READING a small cream handwritten note attached to the CLOSED refrigerator door by one round red magnet. He has short tightly curled dark hair, medium-brown skin, a simple sky-blue T-shirt and casual shorts, no uniform. Both his hands rest naturally inside his shorts pockets, no pointing or gripping paper. The note is positioned at his eye height and contains faint tiny cursive-like marks only, no readable words or numbers; it faces the child on the fridge door. The refrigerator is a real white appliance with a coherent handle, door seals and closed hinges; nothing inside is visible yet. Soft afternoon kitchen window light, a small wooden table and clean plates in the background, inviting domestic scale. No cake or bowls on the counter that would contradict their being stored inside the fridge. No floating notes, speech bubbles, legible text, arrows, separate panels, logos or watermark. One simple believable story moment, expressive painted face profile and tactile materials, not a flat vector placeholder.",
+          "visualReview": "Child reads eye-height magnet note on closed refrigerator, natural relaxed stance with hands in pockets; no visible cake or bowls outside that contradict stored contents.",
+          "sha256": "e58a90d31f80af04b4b6624ea7f4351734f3dd41760df054f050dda49c571611"
         }
-      ]
+      ],
+      "edition": "v1.58.37"
     },
     {
       "code": "L117",
