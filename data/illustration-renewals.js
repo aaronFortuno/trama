@@ -264,6 +264,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l125-una-barca-para-dos-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l148-letras-al-reves.svg": {
+    "src": "assets/readings/l148-letras-al-reves-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

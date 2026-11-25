@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 43,
+    "completedReadings": 44,
     "totalReadings": 66,
-    "completedImages": 53,
+    "completedImages": 54,
     "totalImages": 76
   },
   "readings": [
@@ -1151,9 +1151,17 @@
           "previousSrc": "assets/readings/l148-letras-al-reves.svg",
           "src": "assets/readings/l148-letras-al-reves-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story with precise lettering. Landscape 3:2 painted printmaking-workshop still life for Trama L148, Backwards letters. Tactile gouache and colored-pencil illustration, cobalt-blue printing ink, cream paper and warm wooden table. Overhead view: TWO separate rectangular white paper PRINTS lie flat side by side. On BOTH, the inked rectangular field is rich BLUE and the four incised letter shapes are WHITE negative space. The RIGHT successful print reads exactly LINA in simple large uppercase block letters, left to right. The LEFT failed print is the EXACT HORIZONTAL MIRROR IMAGE of that entire LINA word: from left to right the shapes are A, a backwards N (И), I, and a backwards L (⅃), visually AИI⅃. Thus only the right print reads LINA normally; both letter ORDER and letter SHAPES on the left must be mirrored, not merely reordered ANIL. No other words anywhere. Above the prints lie a small square blue-inked foam printing plate, with its face partly obscured by an ordinary real short-handled printing roller resting beside it; no readable letters needed on the plate. A blunt wooden pencil lies aside. Solid separate sheets with correct edges, realistic ink texture and shadows. No people or hands, extra labels, numbers, arrows, reflection diagrams, panels, captions, logos or watermark. Beautiful hand-painted classroom craft materials, not a computer typography mock-up.",
+          "visualReview": "Two negative-space prints show correct LINA at right and exact horizontally mirrored letter order/shapes at left (A, reversed N, I, reversed L); roller, foam and papers physically coherent.",
+          "sha256": "f8d0fca297f568d66909356e18d2c8e08bf97bdfa1e1b88ee974b52e921332a6"
         }
-      ]
+      ],
+      "edition": "v1.58.44"
     },
     {
       "code": "L144",
