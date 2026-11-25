@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 57,
+    "completedReadings": 58,
     "totalReadings": 66,
-    "completedImages": 67,
+    "completedImages": 68,
     "totalImages": 76
   },
   "readings": [
@@ -1466,9 +1466,17 @@
           "previousSrc": "assets/readings/l140-el-billete-del-abuelo.svg",
           "src": "assets/readings/l140-el-billete-del-abuelo-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 finely painted old-and-new travel still life for Trama L140, Grandfather's ticket. Ink, watercolor and colored-pencil detail on textured ivory paper, warm amber cardboard, dark blue phone case and honey-brown wood, gentle daylight. Overhead three-quarter view of a home table. At LEFT lies ONE small authentic-looking old THICK CARDBOARD TRAIN TICKET, yellowed brown with worn corners, tiny faded illegible printing and exactly TWO small ROUND PUNCHED HOLES close together in one corner. The holes pass physically through the cardboard and reveal the table below, not printed black dots, no other holes. At RIGHT lies a plain modern smartphone showing a SIMPLE DIGITAL TRAIN TICKET: a white screen with a prominent square mosaic of tiny black-and-white blocks suggesting a QR ticket code, no readable personal data, names, dates, app brands or numbers. Phone has coherent perspective, one screen, normal physical bezel and supported body. A small open wooden keepsake box rests behind with a child's simple train-journey drawing tucked inside, no text. The two ticket forms remain the central clear comparison, not a collage or technological infographic. No actual people, hands, scanner rays, arrows, diagrams, captions, logos or watermark. Rich tactile painted materials, not photoreal product marketing or flat vector art.",
+          "visualReview": "Old thick cardboard ticket has exactly two genuine punched holes; separate supported phone shows square digital ticket mosaic without personal data, keepsake drawing and materials coherent.",
+          "sha256": "21e30d2e35f07d3a8523e160b111a60c0f6c3e12a2403ab7032761a88da87ba5"
         }
-      ]
+      ],
+      "edition": "v1.58.58"
     },
     {
       "code": "L135",

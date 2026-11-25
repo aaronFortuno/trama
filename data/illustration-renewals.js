@@ -334,6 +334,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l139-la-cuerda-del-huerto-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l140-el-billete-del-abuelo.svg": {
+    "src": "assets/readings/l140-el-billete-del-abuelo-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
