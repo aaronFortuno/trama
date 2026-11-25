@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 5,
+    "completedReadings": 6,
     "totalReadings": 66,
-    "completedImages": 6,
+    "completedImages": 7,
     "totalImages": 76
   },
   "readings": [
@@ -152,9 +152,17 @@
           "previousSrc": "assets/readings/l114-la-sombra-del-titere.svg",
           "src": "assets/readings/l114-la-sombra-del-titere-illustration.webp",
           "afterParagraph": 2,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 richly painted educational illustration for Trama L114, The puppet's shadow. Fine gouache, charcoal-pencil edges, deep blue-gray room with a warm cream illuminated paper screen and restrained yellow details. A simple real tabletop shadow experiment, viewed obliquely from above so the physical arrangement is unambiguous. From LEFT to RIGHT in one straight line: a small switched-on flashlight lying horizontally on the table, its lens pointing right; then a small dark cardboard bird silhouette on a thin vertical wooden stick held upright by a discreet lump of modeling clay; then an upright stiff white paper screen supported from BEHIND by a cardboard box. The light travels from the flashlight through the bird to the white paper. The bird casts ONE larger recognizable bird silhouette onto the facing surface of the screen, in physically correct alignment. Lamp, puppet, screen and support all rest plausibly on the same table. A spare piece of dark card and a short tape roll are set aside away from the light path. Soft visible illumination, no laser beams or intersecting rays. No people, hands, words, equations, arrows, split panels, logo or watermark. The shadow needs to correspond exactly to the bird shape and no other duplicate bird should float anywhere.",
+          "visualReview": "Flashlight, opaque bird and larger corresponding screen silhouette align in the correct left-to-right order; screen is supported by a box and materials rest on the table.",
+          "sha256": "96396f350fc03e7029d65352a27922254b1577f481ba1b0d21f6e0a731c7cb6a"
         }
-      ]
+      ],
+      "edition": "v1.58.6"
     },
     {
       "code": "L137",
