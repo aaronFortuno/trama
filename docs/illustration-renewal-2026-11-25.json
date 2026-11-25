@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 21,
+    "completedReadings": 22,
     "totalReadings": 66,
-    "completedImages": 28,
+    "completedImages": 29,
     "totalImages": 76
   },
   "readings": [
@@ -604,9 +604,17 @@
           "previousSrc": "assets/readings/l119-pulseras-por-encargo.svg",
           "src": "assets/readings/l119-pulseras-por-encargo-illustration.webp",
           "afterParagraph": 2,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. A landscape 3:2 hand-painted craft still life for Trama L119, Bracelets to order. Delicate gouache and colored-pencil texture, warm cream paper, muted primary colors, natural wood. Overhead view of a classroom table with a shallow tray holding THREE separate short colored bracelet cords, loosely curved, no knots or loops tangled together. Beside the tray are TWELVE large easy-to-count wooden threading beads, each with a small real central threading hole. Arrange them in three loose horizontal groups: FIRST group contains two round beads, one square bead, one triangular bead; SECOND group contains two round beads, one square bead, one triangular bead; THIRD group contains two round beads and one square bead with an obvious small empty space where its triangle would go. ONE spare round bead lies separately aside. Thus exactly SEVEN round, THREE square and TWO triangular beads in total, NOT three triangles. Keep all beads separated, clear simple geometric silhouettes, not complex polygons. A small empty wooden bead container sits near the edge of frame. No people, hands, letters, numbers, counters, dotted outlines, explanatory arrows, labels, diagram panels, logos or watermark. A convincing tactile tabletop scene with soft light, beautiful painted materials and coherent shadows, no flat vector placeholder look.",
+          "visualReview": "Exactly seven round, three square and two triangular beads; three cords and missing triangle in third group match the story, all shapes and threading holes plausible.",
+          "sha256": "3c191309155b1d35238d2472c87ed885379c662f6f20503bbb553ab189bf181e"
         }
-      ]
+      ],
+      "edition": "v1.58.22"
     },
     {
       "code": "L138",

@@ -139,6 +139,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l113-una-carta-llena-de-azul-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l119-pulseras-por-encargo.svg": {
+    "src": "assets/readings/l119-pulseras-por-encargo-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
