@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 261,
-  "pendingWorks": 225,
-  "localizedAlternatives": 2172,
+  "coveredWorks": 276,
+  "pendingWorks": 210,
+  "localizedAlternatives": 2272,
   "ranges": [
     {
       "start": 1,
@@ -184,8 +184,8 @@
       "start": 126,
       "end": 130,
       "total": 15,
-      "covered": 0,
-      "status": "pending"
+      "covered": 15,
+      "status": "complete"
     },
     {
       "start": 131,
@@ -14561,15 +14561,41 @@
       "level": "3-primary",
       "difficulty": "initial",
       "title": "El camí de les fletxes",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-camino-de-las-flechas-q2",
+              "number": 2
+            },
+            {
+              "id": "el-camino-de-las-flechas-q4",
+              "number": 4
+            },
+            {
+              "id": "el-camino-de-las-flechas-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-camino-de-las-flechas-q2",
+              "number": 2
+            },
+            {
+              "id": "el-camino-de-las-flechas-q4",
+              "number": 4
+            },
+            {
+              "id": "el-camino-de-las-flechas-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -14580,15 +14606,41 @@
       "level": "2-primary",
       "difficulty": "initial",
       "title": "El camí de les fletxes",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l126a-q1",
+              "number": 1
+            },
+            {
+              "id": "l126a-q2",
+              "number": 2
+            },
+            {
+              "id": "l126a-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l126a-q1",
+              "number": 1
+            },
+            {
+              "id": "l126a-q2",
+              "number": 2
+            },
+            {
+              "id": "l126a-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -14599,15 +14651,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "El camí de les fletxes",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l126b-q2",
+              "number": 2
+            },
+            {
+              "id": "l126b-q3",
+              "number": 3
+            },
+            {
+              "id": "l126b-q5",
+              "number": 5
+            },
+            {
+              "id": "l126b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l126b-q2",
+              "number": 2
+            },
+            {
+              "id": "l126b-q3",
+              "number": 3
+            },
+            {
+              "id": "l126b-q5",
+              "number": 5
+            },
+            {
+              "id": "l126b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -14618,15 +14704,41 @@
       "level": "3-primary",
       "difficulty": "initial",
       "title": "Una pinça per a cada mitjó",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-pinza-para-cada-calcetin-q2",
+              "number": 2
+            },
+            {
+              "id": "una-pinza-para-cada-calcetin-q3",
+              "number": 3
+            },
+            {
+              "id": "una-pinza-para-cada-calcetin-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-pinza-para-cada-calcetin-q2",
+              "number": 2
+            },
+            {
+              "id": "una-pinza-para-cada-calcetin-q3",
+              "number": 3
+            },
+            {
+              "id": "una-pinza-para-cada-calcetin-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -14637,15 +14749,41 @@
       "level": "2-primary",
       "difficulty": "initial",
       "title": "Una pinça per a cada mitjó",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l127a-q1",
+              "number": 1
+            },
+            {
+              "id": "l127a-q3",
+              "number": 3
+            },
+            {
+              "id": "l127a-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l127a-q1",
+              "number": 1
+            },
+            {
+              "id": "l127a-q3",
+              "number": 3
+            },
+            {
+              "id": "l127a-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -14656,15 +14794,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "Una pinça per a cada mitjó",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l127b-q2",
+              "number": 2
+            },
+            {
+              "id": "l127b-q4",
+              "number": 4
+            },
+            {
+              "id": "l127b-q5",
+              "number": 5
+            },
+            {
+              "id": "l127b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l127b-q2",
+              "number": 2
+            },
+            {
+              "id": "l127b-q4",
+              "number": 4
+            },
+            {
+              "id": "l127b-q5",
+              "number": 5
+            },
+            {
+              "id": "l127b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -14675,15 +14847,41 @@
       "level": "3-primary",
       "difficulty": "initial",
       "title": "El pa del berenar",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-pan-de-la-merienda-q1",
+              "number": 1
+            },
+            {
+              "id": "el-pan-de-la-merienda-q3",
+              "number": 3
+            },
+            {
+              "id": "el-pan-de-la-merienda-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-pan-de-la-merienda-q1",
+              "number": 1
+            },
+            {
+              "id": "el-pan-de-la-merienda-q3",
+              "number": 3
+            },
+            {
+              "id": "el-pan-de-la-merienda-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -14694,15 +14892,41 @@
       "level": "2-primary",
       "difficulty": "initial",
       "title": "El pa del berenar",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l128a-q1",
+              "number": 1
+            },
+            {
+              "id": "l128a-q2",
+              "number": 2
+            },
+            {
+              "id": "l128a-q3",
+              "number": 3
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l128a-q1",
+              "number": 1
+            },
+            {
+              "id": "l128a-q2",
+              "number": 2
+            },
+            {
+              "id": "l128a-q3",
+              "number": 3
+            }
+          ]
         }
       }
     },
@@ -14713,15 +14937,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "El pa del berenar",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l128b-q2",
+              "number": 2
+            },
+            {
+              "id": "l128b-q3",
+              "number": 3
+            },
+            {
+              "id": "l128b-q4",
+              "number": 4
+            },
+            {
+              "id": "l128b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l128b-q2",
+              "number": 2
+            },
+            {
+              "id": "l128b-q3",
+              "number": 3
+            },
+            {
+              "id": "l128b-q4",
+              "number": 4
+            },
+            {
+              "id": "l128b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -14732,15 +14990,41 @@
       "level": "3-primary",
       "difficulty": "initial",
       "title": "L’aigua del gerro",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-agua-del-jarron-q2",
+              "number": 2
+            },
+            {
+              "id": "el-agua-del-jarron-q4",
+              "number": 4
+            },
+            {
+              "id": "el-agua-del-jarron-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-agua-del-jarron-q2",
+              "number": 2
+            },
+            {
+              "id": "el-agua-del-jarron-q4",
+              "number": 4
+            },
+            {
+              "id": "el-agua-del-jarron-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -14751,15 +15035,41 @@
       "level": "2-primary",
       "difficulty": "initial",
       "title": "L’aigua del gerro",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l129a-q1",
+              "number": 1
+            },
+            {
+              "id": "l129a-q2",
+              "number": 2
+            },
+            {
+              "id": "l129a-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l129a-q1",
+              "number": 1
+            },
+            {
+              "id": "l129a-q2",
+              "number": 2
+            },
+            {
+              "id": "l129a-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -14770,15 +15080,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "L’aigua del gerro",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l129b-q1",
+              "number": 1
+            },
+            {
+              "id": "l129b-q3",
+              "number": 3
+            },
+            {
+              "id": "l129b-q5",
+              "number": 5
+            },
+            {
+              "id": "l129b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l129b-q1",
+              "number": 1
+            },
+            {
+              "id": "l129b-q3",
+              "number": 3
+            },
+            {
+              "id": "l129b-q5",
+              "number": 5
+            },
+            {
+              "id": "l129b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -14789,15 +15133,41 @@
       "level": "3-primary",
       "difficulty": "initial",
       "title": "L’entrada de cartró",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-entrada-de-carton-q2",
+              "number": 2
+            },
+            {
+              "id": "la-entrada-de-carton-q4",
+              "number": 4
+            },
+            {
+              "id": "la-entrada-de-carton-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-entrada-de-carton-q2",
+              "number": 2
+            },
+            {
+              "id": "la-entrada-de-carton-q4",
+              "number": 4
+            },
+            {
+              "id": "la-entrada-de-carton-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -14808,15 +15178,41 @@
       "level": "2-primary",
       "difficulty": "initial",
       "title": "L’entrada de cartró",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l130a-q2",
+              "number": 2
+            },
+            {
+              "id": "l130a-q3",
+              "number": 3
+            },
+            {
+              "id": "l130a-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l130a-q2",
+              "number": 2
+            },
+            {
+              "id": "l130a-q3",
+              "number": 3
+            },
+            {
+              "id": "l130a-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -14827,15 +15223,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "L’entrada de cartró",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l130b-q2",
+              "number": 2
+            },
+            {
+              "id": "l130b-q3",
+              "number": 3
+            },
+            {
+              "id": "l130b-q5",
+              "number": 5
+            },
+            {
+              "id": "l130b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l130b-q2",
+              "number": 2
+            },
+            {
+              "id": "l130b-q3",
+              "number": 3
+            },
+            {
+              "id": "l130b-q5",
+              "number": 5
+            },
+            {
+              "id": "l130b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
