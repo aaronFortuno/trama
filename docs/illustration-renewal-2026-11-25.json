@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 19,
+    "completedReadings": 20,
     "totalReadings": 66,
-    "completedImages": 26,
+    "completedImages": 27,
     "totalImages": 76
   },
   "readings": [
@@ -558,9 +558,17 @@
           "previousSrc": "assets/readings/l150-un-vaso-para-medir.svg",
           "src": "assets/readings/l150-un-vaso-para-medir-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 tactile hand-painted picture-book still life for Trama L150, A cup for measuring. Rich earthy gouache and crayon, warm terracotta, cream, muted blue-gray, visibly brushed paper texture. On a modest school art workbench are two ordinary reusable measuring CUPS with clearly different capacities: one tall wide cup and one short smaller cup, both standing upright, no numbers or printed scales. Beside them lie two separate pieces of plain cardboard used as mud-paint test swatches. On one cardboard piece a pale thin watery brown brush stroke has run slightly downward, showing diluted mud paint. On the other a dark earthy brown brush stroke is thick and opaque and stays in place, no drips. Two small open mixing jars contain the corresponding thin and thick brown mud mixtures. A simple wooden-handled paintbrush rests across a small washable tray, and a bowl of fine dry earth is set aside. All objects are correctly supported and physically plausible, with clear solid paper edges and shadows. The two cups and contrasting paint consistency should be instantly readable, composition uncluttered. No people, hands, writing, recipe labels, arrows, numerals, diagram panels, captions, logos or watermark. Cozy classroom daylight, attractive real materials, not a vector diagram.",
+          "visualReview": "Different-sized measuring cups and two mud-paint jars accompany contrasting watery dripping and thick opaque cardboard swatches; composition physically plausible and materially clear.",
+          "sha256": "309b3110c23180c1f7634d0770ea213c2145c5596845909c4e3b56907f44965f"
         }
-      ]
+      ],
+      "edition": "v1.58.20"
     },
     {
       "code": "L113",

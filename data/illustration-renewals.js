@@ -129,6 +129,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l146-rotulos-que-no-se-borran-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l150-un-vaso-para-medir.svg": {
+    "src": "assets/readings/l150-un-vaso-para-medir-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
