@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 237,
-  "pendingWorks": 249,
-  "localizedAlternatives": 1980,
+  "coveredWorks": 250,
+  "pendingWorks": 236,
+  "localizedAlternatives": 2092,
   "ranges": [
     {
       "start": 1,
@@ -170,8 +170,8 @@
       "start": 116,
       "end": 120,
       "total": 13,
-      "covered": 0,
-      "status": "pending"
+      "covered": 13,
+      "status": "complete"
     },
     {
       "start": 121,
@@ -13289,15 +13289,49 @@
       "level": "5-primary",
       "difficulty": "initial",
       "title": "El paper que salta",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-papel-que-salta-q3",
+              "number": 3
+            },
+            {
+              "id": "el-papel-que-salta-q5",
+              "number": 5
+            },
+            {
+              "id": "el-papel-que-salta-q6",
+              "number": 6
+            },
+            {
+              "id": "el-papel-que-salta-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-papel-que-salta-q3",
+              "number": 3
+            },
+            {
+              "id": "el-papel-que-salta-q5",
+              "number": 5
+            },
+            {
+              "id": "el-papel-que-salta-q6",
+              "number": 6
+            },
+            {
+              "id": "el-papel-que-salta-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -13308,15 +13342,49 @@
       "level": "5-primary",
       "difficulty": "initial",
       "title": "El calaix de les peces soltes",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-cajon-de-las-piezas-sueltas-q2",
+              "number": 2
+            },
+            {
+              "id": "el-cajon-de-las-piezas-sueltas-q4",
+              "number": 4
+            },
+            {
+              "id": "el-cajon-de-las-piezas-sueltas-q5",
+              "number": 5
+            },
+            {
+              "id": "el-cajon-de-las-piezas-sueltas-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-cajon-de-las-piezas-sueltas-q2",
+              "number": 2
+            },
+            {
+              "id": "el-cajon-de-las-piezas-sueltas-q4",
+              "number": 4
+            },
+            {
+              "id": "el-cajon-de-las-piezas-sueltas-q5",
+              "number": 5
+            },
+            {
+              "id": "el-cajon-de-las-piezas-sueltas-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -13327,15 +13395,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "El calaix de les peces soltes",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l117a-q2",
+              "number": 2
+            },
+            {
+              "id": "l117a-q3",
+              "number": 3
+            },
+            {
+              "id": "l117a-q4",
+              "number": 4
+            },
+            {
+              "id": "l117a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l117a-q2",
+              "number": 2
+            },
+            {
+              "id": "l117a-q3",
+              "number": 3
+            },
+            {
+              "id": "l117a-q4",
+              "number": 4
+            },
+            {
+              "id": "l117a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -13346,15 +13448,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "El calaix de les peces soltes",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l117b-q2",
+              "number": 2
+            },
+            {
+              "id": "l117b-q3",
+              "number": 3
+            },
+            {
+              "id": "l117b-q4",
+              "number": 4
+            },
+            {
+              "id": "l117b-q5",
+              "number": 5
+            },
+            {
+              "id": "l117b-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l117b-q2",
+              "number": 2
+            },
+            {
+              "id": "l117b-q3",
+              "number": 3
+            },
+            {
+              "id": "l117b-q4",
+              "number": 4
+            },
+            {
+              "id": "l117b-q5",
+              "number": 5
+            },
+            {
+              "id": "l117b-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -13365,15 +13509,49 @@
       "level": "5-primary",
       "difficulty": "initial",
       "title": "El racó de la Bruna",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-rincon-de-bruna-q3",
+              "number": 3
+            },
+            {
+              "id": "el-rincon-de-bruna-q4",
+              "number": 4
+            },
+            {
+              "id": "el-rincon-de-bruna-q6",
+              "number": 6
+            },
+            {
+              "id": "el-rincon-de-bruna-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-rincon-de-bruna-q3",
+              "number": 3
+            },
+            {
+              "id": "el-rincon-de-bruna-q4",
+              "number": 4
+            },
+            {
+              "id": "el-rincon-de-bruna-q6",
+              "number": 6
+            },
+            {
+              "id": "el-rincon-de-bruna-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -13384,15 +13562,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "El racó de la Bruna",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l118a-q3",
+              "number": 3
+            },
+            {
+              "id": "l118a-q4",
+              "number": 4
+            },
+            {
+              "id": "l118a-q5",
+              "number": 5
+            },
+            {
+              "id": "l118a-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l118a-q3",
+              "number": 3
+            },
+            {
+              "id": "l118a-q4",
+              "number": 4
+            },
+            {
+              "id": "l118a-q5",
+              "number": 5
+            },
+            {
+              "id": "l118a-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -13403,15 +13615,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "El racó de la Bruna",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l118b-q2",
+              "number": 2
+            },
+            {
+              "id": "l118b-q4",
+              "number": 4
+            },
+            {
+              "id": "l118b-q5",
+              "number": 5
+            },
+            {
+              "id": "l118b-q6",
+              "number": 6
+            },
+            {
+              "id": "l118b-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l118b-q2",
+              "number": 2
+            },
+            {
+              "id": "l118b-q4",
+              "number": 4
+            },
+            {
+              "id": "l118b-q5",
+              "number": 5
+            },
+            {
+              "id": "l118b-q6",
+              "number": 6
+            },
+            {
+              "id": "l118b-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -13422,15 +13676,49 @@
       "level": "5-primary",
       "difficulty": "initial",
       "title": "Polseres per encàrrec",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "pulseras-por-encargo-q2",
+              "number": 2
+            },
+            {
+              "id": "pulseras-por-encargo-q3",
+              "number": 3
+            },
+            {
+              "id": "pulseras-por-encargo-q4",
+              "number": 4
+            },
+            {
+              "id": "pulseras-por-encargo-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "pulseras-por-encargo-q2",
+              "number": 2
+            },
+            {
+              "id": "pulseras-por-encargo-q3",
+              "number": 3
+            },
+            {
+              "id": "pulseras-por-encargo-q4",
+              "number": 4
+            },
+            {
+              "id": "pulseras-por-encargo-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -13441,15 +13729,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "Polseres per encàrrec",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l119a-q2",
+              "number": 2
+            },
+            {
+              "id": "l119a-q3",
+              "number": 3
+            },
+            {
+              "id": "l119a-q4",
+              "number": 4
+            },
+            {
+              "id": "l119a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l119a-q2",
+              "number": 2
+            },
+            {
+              "id": "l119a-q3",
+              "number": 3
+            },
+            {
+              "id": "l119a-q4",
+              "number": 4
+            },
+            {
+              "id": "l119a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -13460,15 +13782,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "Polseres per encàrrec",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l119b-q1",
+              "number": 1
+            },
+            {
+              "id": "l119b-q4",
+              "number": 4
+            },
+            {
+              "id": "l119b-q5",
+              "number": 5
+            },
+            {
+              "id": "l119b-q7",
+              "number": 7
+            },
+            {
+              "id": "l119b-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l119b-q1",
+              "number": 1
+            },
+            {
+              "id": "l119b-q4",
+              "number": 4
+            },
+            {
+              "id": "l119b-q5",
+              "number": 5
+            },
+            {
+              "id": "l119b-q7",
+              "number": 7
+            },
+            {
+              "id": "l119b-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -13479,15 +13843,49 @@
       "level": "5-primary",
       "difficulty": "initial",
       "title": "Un camí entre la neu",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-camino-entre-la-nieve-q3",
+              "number": 3
+            },
+            {
+              "id": "un-camino-entre-la-nieve-q4",
+              "number": 4
+            },
+            {
+              "id": "un-camino-entre-la-nieve-q6",
+              "number": 6
+            },
+            {
+              "id": "un-camino-entre-la-nieve-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-camino-entre-la-nieve-q3",
+              "number": 3
+            },
+            {
+              "id": "un-camino-entre-la-nieve-q4",
+              "number": 4
+            },
+            {
+              "id": "un-camino-entre-la-nieve-q6",
+              "number": 6
+            },
+            {
+              "id": "un-camino-entre-la-nieve-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -13498,15 +13896,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "Un camí entre la neu",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l120a-q1",
+              "number": 1
+            },
+            {
+              "id": "l120a-q3",
+              "number": 3
+            },
+            {
+              "id": "l120a-q4",
+              "number": 4
+            },
+            {
+              "id": "l120a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l120a-q1",
+              "number": 1
+            },
+            {
+              "id": "l120a-q3",
+              "number": 3
+            },
+            {
+              "id": "l120a-q4",
+              "number": 4
+            },
+            {
+              "id": "l120a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -13517,15 +13949,57 @@
       "level": "6-primary",
       "difficulty": "initial",
       "title": "Un camí entre la neu",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l120b-q2",
+              "number": 2
+            },
+            {
+              "id": "l120b-q4",
+              "number": 4
+            },
+            {
+              "id": "l120b-q6",
+              "number": 6
+            },
+            {
+              "id": "l120b-q7",
+              "number": 7
+            },
+            {
+              "id": "l120b-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l120b-q2",
+              "number": 2
+            },
+            {
+              "id": "l120b-q4",
+              "number": 4
+            },
+            {
+              "id": "l120b-q6",
+              "number": 6
+            },
+            {
+              "id": "l120b-q7",
+              "number": 7
+            },
+            {
+              "id": "l120b-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
