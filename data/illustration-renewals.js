@@ -4,6 +4,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l104-el-banco-mojado-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l118-el-rincon-de-bruna.svg": {
+    "src": "assets/readings/l118-el-rincon-de-bruna-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

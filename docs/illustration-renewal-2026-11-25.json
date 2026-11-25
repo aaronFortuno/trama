@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 1,
+    "completedReadings": 2,
     "totalReadings": 66,
-    "completedImages": 1,
+    "completedImages": 2,
     "totalImages": 76
   },
   "readings": [
@@ -46,9 +46,17 @@
           "previousSrc": "assets/readings/l118-el-rincon-de-bruna.svg",
           "src": "assets/readings/l118-el-rincon-de-bruna-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Create one 3:2 landscape painted illustration for Trama L118, El rincón de Bruna. Delicate gouache and colored pencil on textured warm paper, sensitive naturalistic children's-book art, quiet blue, amber and cream palette. A newly adopted small tabby cat crouches partly beneath an ordinary wooden chair against a wall, curiously looking at a soft blue floor cushion placed nearby. Leave the cat a visibly unobstructed path out of its hiding place. At the opposite side of the room a boy aged ten, Pau, sits relaxed on the floor reading a small paperback, giving the cat plenty of space; he has cropped sandy hair, a green striped T-shirt and casual trousers. An open pet carrier rests well aside, its door open, never blocking the chair. Cozy modest home, plausible perspective and furniture, gentle daylight. The cat is the focal point and behaves timidly, no grabbing or coaxing. The boy's book is supported by two anatomically correct hands and its page content faces him, no legible letters. No uniforms, text, captions, borders, logos or watermarks. One coherent scene, not a collage. Visually clear at small printed size.",
+          "visualReview": "The cat has a clear exit from beneath the chair to the cushion; relaxed boy at a respectful distance, plausible furniture and book grip, consistent story scene.",
+          "sha256": "aea2601c773d18dfea49563475646260d20620fa0a79fad95322e205824d1e77"
         }
-      ]
+      ],
+      "edition": "v1.58.2"
     },
     {
       "code": "L003",
