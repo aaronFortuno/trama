@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 34,
-  "pendingWorks": 452,
-  "localizedAlternatives": 284,
+  "coveredWorks": 45,
+  "pendingWorks": 441,
+  "localizedAlternatives": 366,
   "ranges": [
     {
       "start": 1,
@@ -37,8 +37,8 @@
       "start": 21,
       "end": 25,
       "total": 11,
-      "covered": 0,
-      "status": "pending"
+      "covered": 11,
+      "status": "complete"
     },
     {
       "start": 26,
@@ -2242,15 +2242,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "L’abric del penjador",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-abrigo-del-perchero-q1",
+              "number": 1
+            },
+            {
+              "id": "el-abrigo-del-perchero-q2",
+              "number": 2
+            },
+            {
+              "id": "el-abrigo-del-perchero-q3",
+              "number": 3
+            },
+            {
+              "id": "el-abrigo-del-perchero-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-abrigo-del-perchero-q1",
+              "number": 1
+            },
+            {
+              "id": "el-abrigo-del-perchero-q2",
+              "number": 2
+            },
+            {
+              "id": "el-abrigo-del-perchero-q3",
+              "number": 3
+            },
+            {
+              "id": "el-abrigo-del-perchero-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -2261,15 +2295,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "L’abric del penjador",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l021a-q2",
+              "number": 2
+            },
+            {
+              "id": "l021a-q3",
+              "number": 3
+            },
+            {
+              "id": "l021a-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l021a-q2",
+              "number": 2
+            },
+            {
+              "id": "l021a-q3",
+              "number": 3
+            },
+            {
+              "id": "l021a-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -2280,15 +2340,49 @@
       "level": "5-primary",
       "difficulty": "initial",
       "title": "L’abric del penjador",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l021b-q2",
+              "number": 2
+            },
+            {
+              "id": "l021b-q4",
+              "number": 4
+            },
+            {
+              "id": "l021b-q6",
+              "number": 6
+            },
+            {
+              "id": "l021b-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l021b-q2",
+              "number": 2
+            },
+            {
+              "id": "l021b-q4",
+              "number": 4
+            },
+            {
+              "id": "l021b-q6",
+              "number": 6
+            },
+            {
+              "id": "l021b-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -2299,15 +2393,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "Un bany al bassal",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-bano-en-el-charco-q2",
+              "number": 2
+            },
+            {
+              "id": "un-bano-en-el-charco-q3",
+              "number": 3
+            },
+            {
+              "id": "un-bano-en-el-charco-q4",
+              "number": 4
+            },
+            {
+              "id": "un-bano-en-el-charco-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-bano-en-el-charco-q2",
+              "number": 2
+            },
+            {
+              "id": "un-bano-en-el-charco-q3",
+              "number": 3
+            },
+            {
+              "id": "un-bano-en-el-charco-q4",
+              "number": 4
+            },
+            {
+              "id": "un-bano-en-el-charco-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -2318,15 +2446,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "Els fulls que queden",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "hojas-que-quedan-q1",
+              "number": 1
+            },
+            {
+              "id": "hojas-que-quedan-q2",
+              "number": 2
+            },
+            {
+              "id": "hojas-que-quedan-q3",
+              "number": 3
+            },
+            {
+              "id": "hojas-que-quedan-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "hojas-que-quedan-q1",
+              "number": 1
+            },
+            {
+              "id": "hojas-que-quedan-q2",
+              "number": 2
+            },
+            {
+              "id": "hojas-que-quedan-q3",
+              "number": 3
+            },
+            {
+              "id": "hojas-que-quedan-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -2337,15 +2499,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "Els fulls que queden",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l023a-q1",
+              "number": 1
+            },
+            {
+              "id": "l023a-q2",
+              "number": 2
+            },
+            {
+              "id": "l023a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l023a-q1",
+              "number": 1
+            },
+            {
+              "id": "l023a-q2",
+              "number": 2
+            },
+            {
+              "id": "l023a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -2356,15 +2544,49 @@
       "level": "5-primary",
       "difficulty": "initial",
       "title": "Els fulls que queden",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l023b-q1",
+              "number": 1
+            },
+            {
+              "id": "l023b-q4",
+              "number": 4
+            },
+            {
+              "id": "l023b-q5",
+              "number": 5
+            },
+            {
+              "id": "l023b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l023b-q1",
+              "number": 1
+            },
+            {
+              "id": "l023b-q4",
+              "number": 4
+            },
+            {
+              "id": "l023b-q5",
+              "number": 5
+            },
+            {
+              "id": "l023b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -2375,15 +2597,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "Dues marques al got",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "dos-marcas-en-el-vaso-q2",
+              "number": 2
+            },
+            {
+              "id": "dos-marcas-en-el-vaso-q3",
+              "number": 3
+            },
+            {
+              "id": "dos-marcas-en-el-vaso-q4",
+              "number": 4
+            },
+            {
+              "id": "dos-marcas-en-el-vaso-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "dos-marcas-en-el-vaso-q2",
+              "number": 2
+            },
+            {
+              "id": "dos-marcas-en-el-vaso-q3",
+              "number": 3
+            },
+            {
+              "id": "dos-marcas-en-el-vaso-q4",
+              "number": 4
+            },
+            {
+              "id": "dos-marcas-en-el-vaso-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -2394,15 +2650,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "Un torn al mercat",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-turno-en-el-mercado-q1",
+              "number": 1
+            },
+            {
+              "id": "un-turno-en-el-mercado-q2",
+              "number": 2
+            },
+            {
+              "id": "un-turno-en-el-mercado-q3",
+              "number": 3
+            },
+            {
+              "id": "un-turno-en-el-mercado-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-turno-en-el-mercado-q1",
+              "number": 1
+            },
+            {
+              "id": "un-turno-en-el-mercado-q2",
+              "number": 2
+            },
+            {
+              "id": "un-turno-en-el-mercado-q3",
+              "number": 3
+            },
+            {
+              "id": "un-turno-en-el-mercado-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -2413,15 +2703,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "Un torn al mercat",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l025a-q2",
+              "number": 2
+            },
+            {
+              "id": "l025a-q4",
+              "number": 4
+            },
+            {
+              "id": "l025a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l025a-q2",
+              "number": 2
+            },
+            {
+              "id": "l025a-q4",
+              "number": 4
+            },
+            {
+              "id": "l025a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -2432,15 +2748,49 @@
       "level": "5-primary",
       "difficulty": "initial",
       "title": "Un torn al mercat",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l025b-q2",
+              "number": 2
+            },
+            {
+              "id": "l025b-q3",
+              "number": 3
+            },
+            {
+              "id": "l025b-q4",
+              "number": 4
+            },
+            {
+              "id": "l025b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l025b-q2",
+              "number": 2
+            },
+            {
+              "id": "l025b-q3",
+              "number": 3
+            },
+            {
+              "id": "l025b-q4",
+              "number": 4
+            },
+            {
+              "id": "l025b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
