@@ -269,6 +269,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l148-letras-al-reves-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l144-un-nido-sin-verlo.svg": {
+    "src": "assets/readings/l144-un-nido-sin-verlo-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

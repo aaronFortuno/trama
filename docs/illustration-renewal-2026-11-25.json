@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 44,
+    "completedReadings": 45,
     "totalReadings": 66,
-    "completedImages": 54,
+    "completedImages": 55,
     "totalImages": 76
   },
   "readings": [
@@ -1173,9 +1173,17 @@
           "previousSrc": "assets/readings/l144-un-nido-sin-verlo.svg",
           "src": "assets/readings/l144-un-nido-sin-verlo-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 sensitive painted nature-story illustration for Trama L144, A nest without seeing it. Fine natural-history watercolor and colored-pencil detail, textured cream paper, leafy greens, warm brown sparrow, soft spring daylight. Main subject: a realistic small sparrow with ONE short dry twig held naturally across its beak, perched on the outer low branch of a DENSE park shrub and facing inward toward a small shadowed gap among the leaves, slightly above the ground. Its two feet grasp the branch plausibly, feathers and folded wings anatomically correct. The thick foliage conceals everything inside: DO NOT show a nest, eggs, chicks, nest cutaway, or anything that confirms what is hidden. In the soft middle-distance, two children about eight sit quietly on an ordinary park bench at a respectful distance, watching, not touching or climbing the shrub. A low wall farther along the path suggests somewhere else to play. Keep children small with simple natural seated poses and hands resting on laps, varied ordinary casual clothes, no uniforms. Coherent single park perspective, plausible bench and vegetation scale. No human hands near the bird, arrows, labels, words, questions, text, diagram panels, logo or watermark. Gentle observational mood, richer than flat vector clipart.",
+          "visualReview": "Anatomically plausible sparrow carries twig toward dense shrub while children watch from bench at distance; nest, eggs and chicks stay completely hidden as required.",
+          "sha256": "8c3135e0e22872366555d90336f629378e699b7c49362b914819a87be5c41b52"
         }
-      ]
+      ],
+      "edition": "v1.58.45"
     },
     {
       "code": "L142",
