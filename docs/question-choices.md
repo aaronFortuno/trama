@@ -44,6 +44,10 @@ docs/question-choices-review.json registra les quaranta versions exactes revisad
 
 Cada lot nou té docs/question-choices/batch-NNN-review.json amb autor i revisor diferents, data, edició i empremta de choiceReviewSnapshot. Els autors es revisen de manera creuada; el coordinador integra, verifica les empremtes, actualitza la cobertura i publica. tools/check-choice-draft.mjs --batch=NNN comprova estructura i ancoratges abans de la revisió; no substitueix la lectura editorial. tools/build-choice-coverage.mjs --date=AAAA-MM-DD genera el seguiment de totes les fitxes concretes, amb les pendents identificades explícitament.
 
+Per preparar un lot revisat, tools/prepare-choice-batch.mjs --batch=NNN --date=AAAA-MM-DD contrasta totes les empremtes, comprova l’inventari, registra el lot i sincronitza cobertura, changelog, versió i castellà. --dry-run només valida el contingut revisat. Després cal executar tools/check-question-choices.mjs i tools/check-choice-batch-browser.cjs --batch=NNN abans de fer commit i push. L’edició del registre ha de ser més nova que la versió publicada. La preparació es pot repetir després d’una comprovació fallida sense duplicar el changelog.
+
+El registre conserva els codis concrets de l’inventari de cada lot. Si més endavant s’afegeix una nova variant a un rang antic, el seguiment la mostrarà pendent sense invalidar les alternatives ja revisades. Els lots d’aquesta ampliació agrupen cinc codis base consecutius i totes les seves variants existents.
+
 ## Cerca per rangs
 
 - -5 o -L005: de L001 a L005, incloses les variants de família.

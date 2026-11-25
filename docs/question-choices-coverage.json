@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 45,
-  "pendingWorks": 441,
-  "localizedAlternatives": 366,
+  "coveredWorks": 56,
+  "pendingWorks": 430,
+  "localizedAlternatives": 448,
   "ranges": [
     {
       "start": 1,
@@ -44,8 +44,8 @@
       "start": 26,
       "end": 30,
       "total": 11,
-      "covered": 0,
-      "status": "pending"
+      "covered": 11,
+      "status": "complete"
     },
     {
       "start": 31,
@@ -2801,15 +2801,49 @@
       "level": "4-primary",
       "difficulty": "initial",
       "title": "Un espai a la paret",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-espacio-en-la-pared-q1",
+              "number": 1
+            },
+            {
+              "id": "un-espacio-en-la-pared-q2",
+              "number": 2
+            },
+            {
+              "id": "un-espacio-en-la-pared-q3",
+              "number": 3
+            },
+            {
+              "id": "un-espacio-en-la-pared-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-espacio-en-la-pared-q1",
+              "number": 1
+            },
+            {
+              "id": "un-espacio-en-la-pared-q2",
+              "number": 2
+            },
+            {
+              "id": "un-espacio-en-la-pared-q3",
+              "number": 3
+            },
+            {
+              "id": "un-espacio-en-la-pared-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -2820,15 +2854,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "Un espai a la paret",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l026a-q2",
+              "number": 2
+            },
+            {
+              "id": "l026a-q3",
+              "number": 3
+            },
+            {
+              "id": "l026a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l026a-q2",
+              "number": 2
+            },
+            {
+              "id": "l026a-q3",
+              "number": 3
+            },
+            {
+              "id": "l026a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -2839,15 +2899,49 @@
       "level": "5-primary",
       "difficulty": "initial",
       "title": "Un espai a la paret",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l026b-q2",
+              "number": 2
+            },
+            {
+              "id": "l026b-q3",
+              "number": 3
+            },
+            {
+              "id": "l026b-q5",
+              "number": 5
+            },
+            {
+              "id": "l026b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l026b-q2",
+              "number": 2
+            },
+            {
+              "id": "l026b-q3",
+              "number": 3
+            },
+            {
+              "id": "l026b-q5",
+              "number": 5
+            },
+            {
+              "id": "l026b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -2858,15 +2952,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "El rellotge del pa",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-reloj-del-pan-q2",
+              "number": 2
+            },
+            {
+              "id": "el-reloj-del-pan-q3",
+              "number": 3
+            },
+            {
+              "id": "el-reloj-del-pan-q4",
+              "number": 4
+            },
+            {
+              "id": "el-reloj-del-pan-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-reloj-del-pan-q2",
+              "number": 2
+            },
+            {
+              "id": "el-reloj-del-pan-q3",
+              "number": 3
+            },
+            {
+              "id": "el-reloj-del-pan-q4",
+              "number": 4
+            },
+            {
+              "id": "el-reloj-del-pan-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -2877,15 +3005,41 @@
       "level": "3-primary",
       "difficulty": "intermediate",
       "title": "El rellotge del pa",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l027a-q2",
+              "number": 2
+            },
+            {
+              "id": "l027a-q3",
+              "number": 3
+            },
+            {
+              "id": "l027a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l027a-q2",
+              "number": 2
+            },
+            {
+              "id": "l027a-q3",
+              "number": 3
+            },
+            {
+              "id": "l027a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -2896,15 +3050,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "El rellotge del pa",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l027b-q2",
+              "number": 2
+            },
+            {
+              "id": "l027b-q3",
+              "number": 3
+            },
+            {
+              "id": "l027b-q5",
+              "number": 5
+            },
+            {
+              "id": "l027b-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l027b-q2",
+              "number": 2
+            },
+            {
+              "id": "l027b-q3",
+              "number": 3
+            },
+            {
+              "id": "l027b-q5",
+              "number": 5
+            },
+            {
+              "id": "l027b-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -2915,15 +3103,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "Les cadires del cinema",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "las-sillas-del-cine-q1",
+              "number": 1
+            },
+            {
+              "id": "las-sillas-del-cine-q2",
+              "number": 2
+            },
+            {
+              "id": "las-sillas-del-cine-q3",
+              "number": 3
+            },
+            {
+              "id": "las-sillas-del-cine-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "las-sillas-del-cine-q1",
+              "number": 1
+            },
+            {
+              "id": "las-sillas-del-cine-q2",
+              "number": 2
+            },
+            {
+              "id": "las-sillas-del-cine-q3",
+              "number": 3
+            },
+            {
+              "id": "las-sillas-del-cine-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -2934,15 +3156,41 @@
       "level": "3-primary",
       "difficulty": "advanced",
       "title": "Les cadires del cinema",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l028a-q1",
+              "number": 1
+            },
+            {
+              "id": "l028a-q3",
+              "number": 3
+            },
+            {
+              "id": "l028a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l028a-q1",
+              "number": 1
+            },
+            {
+              "id": "l028a-q3",
+              "number": 3
+            },
+            {
+              "id": "l028a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -2953,15 +3201,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Les cadires del cinema",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l028b-q3",
+              "number": 3
+            },
+            {
+              "id": "l028b-q5",
+              "number": 5
+            },
+            {
+              "id": "l028b-q6",
+              "number": 6
+            },
+            {
+              "id": "l028b-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l028b-q3",
+              "number": 3
+            },
+            {
+              "id": "l028b-q5",
+              "number": 5
+            },
+            {
+              "id": "l028b-q6",
+              "number": 6
+            },
+            {
+              "id": "l028b-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -2972,15 +3254,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "Una pausa en el camí",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-alto-en-el-camino-q2",
+              "number": 2
+            },
+            {
+              "id": "un-alto-en-el-camino-q3",
+              "number": 3
+            },
+            {
+              "id": "un-alto-en-el-camino-q4",
+              "number": 4
+            },
+            {
+              "id": "un-alto-en-el-camino-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "un-alto-en-el-camino-q2",
+              "number": 2
+            },
+            {
+              "id": "un-alto-en-el-camino-q3",
+              "number": 3
+            },
+            {
+              "id": "un-alto-en-el-camino-q4",
+              "number": 4
+            },
+            {
+              "id": "un-alto-en-el-camino-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -2991,15 +3307,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "Una funda per a la llavor",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-funda-para-la-semilla-q1",
+              "number": 1
+            },
+            {
+              "id": "una-funda-para-la-semilla-q2",
+              "number": 2
+            },
+            {
+              "id": "una-funda-para-la-semilla-q3",
+              "number": 3
+            },
+            {
+              "id": "una-funda-para-la-semilla-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "una-funda-para-la-semilla-q1",
+              "number": 1
+            },
+            {
+              "id": "una-funda-para-la-semilla-q2",
+              "number": 2
+            },
+            {
+              "id": "una-funda-para-la-semilla-q3",
+              "number": 3
+            },
+            {
+              "id": "una-funda-para-la-semilla-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },

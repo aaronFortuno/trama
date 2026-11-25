@@ -54,7 +54,7 @@ for (const reading of versions) {
 }
 const type2 = defaultSettings('2-primary'), type3 = defaultSettings('3-primary');
 assert(type2.fontSize > type3.fontSize && type2.leading >= type3.leading);
-assert(Object.entries(type2).filter(([key]) => !['excluded', 'questionLines', 'images'].includes(key)).every(([key, value]) => validSetting(key, value)));
+assert(Object.entries(type2).filter(([key]) => !['excluded', 'questionLines', 'questionModes', 'images'].includes(key)).every(([key, value]) => validSetting(key, value)));
 const indexed = indexCatalog(versions);
 assert(filterCatalog(indexed, { level: '2-primary' }).every(item => item.facets.length[0] !== 'unspecified'));
 console.log(JSON.stringify({ families: sources.length, works: sources.length * 2, languageVersions: versions.length, sources }));
