@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 10,
+    "completedReadings": 11,
     "totalReadings": 66,
-    "completedImages": 12,
+    "completedImages": 14,
     "totalImages": 76
   },
   "readings": [
@@ -281,16 +281,31 @@
           "previousSrc": "assets/readings/l087-voz-en-la-cabina.webp",
           "src": "assets/readings/l087-voz-en-la-cabina-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Create a professional painted editorial story illustration for Trama L087, A voice between the dialogues, about audio description for blind and low-vision cinema audiences. One landscape 3:2 scene, sophisticated ink, gouache and fine pencil textures, deep teal, warm rust and amber, subtle paper grain. Inés, an adult scriptwriter with a straight pale-blond bob and rust-colored casual sweater, sits inside a small sound recording booth, calmly recording narration. Side three-quarter view. She wears realistic closed headphones; in front of her is ONE studio microphone attached to a stable real stand, with a round pop filter between her mouth and the microphone. A single printed script rests on an angled reading stand facing HER; from the camera it is oblique, its tiny faint lines not readable. Both her arms end naturally in two relaxed hands on the desk, no hand gestures or paper holding. One ordinary audio cable connects the microphone equipment; avoid confusing tangles. Acoustic wall panels, window into the darkened control room, a modest recording interface with simple indicator lights but no readable labels. Warm focused light on her face and microphone. Coherent equipment perspective, no duplicate microphones, floating parts or impossible hands. No text, logos, captions, speech bubbles, frame or watermark. Mature enough for sixth-grade readers, sensitive human expression, not flat vector art.",
+          "visualReview": "Narrator with two attached resting hands, properly mounted microphone and pop filter between mouth and capsule, headphones and angled script; coherent booth equipment.",
+          "sha256": "8692d6574f312ef8d09f03ac7e1d9c5f86853446dcaab6beb5b6a376e277ea89"
         },
         {
           "id": "escucha-en-la-sala",
           "previousSrc": "assets/readings/l087-escucha-en-la-sala.webp",
           "src": "assets/readings/l087-escucha-en-la-sala-illustration.webp",
           "afterParagraph": 4,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Companion illustration for Trama L087, A voice between the dialogues. Match the supplied reference's sophisticated ink, gouache and pencil texture, deep teal, warm rust and amber palette, but create a new landscape 3:2 scene inside a modest neighborhood cinema. Rear three-quarter viewpoint from the aisle: a small test audience of four adults sits in ordinary upholstered rust-red cinema seats, all seats arranged in orderly parallel rows FACING THE SCREEN. Two listeners wear lightweight audio-description headphones. One listener's folded white mobility cane rests safely beside their seat, not across the aisle. Inés, recognizable by her straight pale-blond bob and rust sweater, sits in the group without headphones. They attend calmly to the film, not staring at the viewer. On the distant cinema screen is a subdued, gently blurred painted film still of a woman at a doorway holding a closed envelope, no written words. Correct row perspective, continuous aisle, real seat backs, all heads naturally attached and hands resting unobtrusively, no loose phantom limbs. Dim cinematic light comes from the screen in front of them, no visible projector beam pointing sideways. Inclusive ordinary group, no caricature of blindness, blindfolds or dark glasses stereotype. No text, labels, captions, logos, border or watermark.",
+          "visualReview": "Test listeners face a correctly arranged cinema screen and seat rows; two wear headphones, narrator matches cabin scene, cane and aisle plausible and unobstructed.",
+          "sha256": "068834519cc4dea279a7983bb1b614f211d1ae3cf5e2a5996e8e7e21ccde6d42"
         }
-      ]
+      ],
+      "edition": "v1.58.11"
     },
     {
       "code": "L088",

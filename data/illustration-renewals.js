@@ -59,6 +59,16 @@ export const illustrationRenewals = {
     "src": "assets/readings/l122-el-ritmo-de-los-vasos-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l087-voz-en-la-cabina.webp": {
+    "src": "assets/readings/l087-voz-en-la-cabina-illustration.webp",
+    "width": 1100,
+    "height": 733
+  },
+  "assets/readings/l087-escucha-en-la-sala.webp": {
+    "src": "assets/readings/l087-escucha-en-la-sala-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
