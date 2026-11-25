@@ -144,6 +144,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l119-pulseras-por-encargo-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l138-un-buzon-en-la-biblioteca.svg": {
+    "src": "assets/readings/l138-un-buzon-en-la-biblioteca-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

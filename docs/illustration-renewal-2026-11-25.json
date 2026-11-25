@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 22,
+    "completedReadings": 23,
     "totalReadings": 66,
-    "completedImages": 29,
+    "completedImages": 30,
     "totalImages": 76
   },
   "readings": [
@@ -627,9 +627,17 @@
           "previousSrc": "assets/readings/l138-un-buzon-en-la-biblioteca.svg",
           "src": "assets/readings/l138-un-buzon-en-la-biblioteca-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Create one landscape 3:2 painted children's-book illustration for Trama L138, A mailbox in the library. Warm gouache and colored-pencil work with visible paper grain, forest green, muted apricot and honey wood, soft daylight, inviting public-library atmosphere. Foreground: a small GREEN wooden suggestions box rests securely on a low side table near the children's library entrance. It has a narrow horizontal mail slot near the top and a small closed service door below; it is clearly a note box, not a large book-return bin. ONE small folded cream suggestion note is inserted partway into its slot, without a hand. A few small blank slips and an ordinary pencil lie in a shallow tray alongside. Behind are real bookshelves and a low new-arrivals display with two attractive illustrated books about nocturnal animals, showing an owl and a bat on their covers but NO readable titles or text. All books, shelves and box have coherent perspective and solid support. No magical flying papers, people or phantom hands. Compose a rich but uncluttered single scene, appropriate for eight-year-old readers. No labels, words, letters, numbers, speech bubbles, panels, arrows, logos or watermark.",
+          "visualReview": "Green note-sized suggestions box has narrow slot, inserted slip and service door; separate nocturnal-animal books and supported furniture fit the library setting.",
+          "sha256": "564afe494a033cc260a064f9941b281947ce8e9b90f33643d05e90cf7682731b"
         }
-      ]
+      ],
+      "edition": "v1.58.23"
     },
     {
       "code": "L147",
