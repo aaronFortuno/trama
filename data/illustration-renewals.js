@@ -94,6 +94,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l155-doce-sillas-y-dos-bancos-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l110-una-rueda-floja.svg": {
+    "src": "assets/readings/l110-una-rueda-floja-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

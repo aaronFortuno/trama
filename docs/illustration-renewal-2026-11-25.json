@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 14,
+    "completedReadings": 15,
     "totalReadings": 66,
-    "completedImages": 19,
+    "completedImages": 20,
     "totalImages": 76
   },
   "readings": [
@@ -416,9 +416,17 @@
           "previousSrc": "assets/readings/l110-una-rueda-floja.svg",
           "src": "assets/readings/l110-una-rueda-floja-illustration.webp",
           "afterParagraph": 2,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. A landscape 3:2 hand-painted colored-ink and gouache illustration for Trama L110, A soft bicycle tire. Rich finely hatched linework, tactile print texture, sunny plaza, deep indigo, warm ochre and coral accents. Close three-quarter view of the FRONT half of an ordinary child's bicycle standing securely on its kickstand beside a small outdoor repair table. The complete front wheel has a plausible circular rim, spokes, central hub, black rubber tire and valve. On the ground beside the wheel stands a REAL FLOOR BICYCLE PUMP with a sturdy two-foot base, vertical cylinder and horizontal T-shaped handle. One flexible dark hose runs continuously from the pump's lower outlet to a small connector attached to the tire valve; show this connection clearly, no floating or disconnected hoses. An open toolbox rests on the low repair table behind, containing a few recognisable wrenches and tire levers, no hazardous clutter. No person or hands. The wheel is now normally inflated, not a bent rim. Coherent bicycle fork, wheel geometry and shadows on paving. Bicycle may extend naturally out of frame beyond its front half, no impossible duplicate wheels or pedals. No legible text, brand names, arrows, diagram panels, captions, logo or watermark. Detailed but clear educational story art, not flat vector or a technical blueprint.",
+          "visualReview": "Continuous floor-pump hose correctly joins the front-wheel valve; wheel, fork, pump base, kickstand and toolbox have plausible mechanical structure and support.",
+          "sha256": "8542b4f04d6eef72bcb7092301cef3b6195ef0076c7182223a64b15e0306cd00"
         }
-      ]
+      ],
+      "edition": "v1.58.15"
     },
     {
       "code": "L130",
