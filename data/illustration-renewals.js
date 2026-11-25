@@ -79,6 +79,16 @@ export const illustrationRenewals = {
     "src": "assets/readings/l088-pruebas-de-cartel-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l086-reloj-en-la-mesa.webp": {
+    "src": "assets/readings/l086-reloj-en-la-mesa-illustration.webp",
+    "width": 1100,
+    "height": 733
+  },
+  "assets/readings/l086-segundo-recipiente.webp": {
+    "src": "assets/readings/l086-segundo-recipiente-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

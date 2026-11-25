@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 12,
+    "completedReadings": 13,
     "totalReadings": 66,
-    "completedImages": 16,
+    "completedImages": 18,
     "totalImages": 76
   },
   "readings": [
@@ -355,16 +355,31 @@
           "previousSrc": "assets/readings/l086-reloj-en-la-mesa.webp",
           "src": "assets/readings/l086-reloj-en-la-mesa-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 precise watercolor and pencil science-book illustration for Trama L086, A minute in the water clock. Light airy laboratory palette, transparent pale blue water, natural wood, fine graphite contours and rich paper grain, mature hand-painted art not vector. A transparent straight-sided cylindrical plastic vessel stands securely on a rectangular wooden support block on a school science table. Near the BASE of its RIGHT SIDE there is a tiny round drilled hole. A thin continuous stream of water emerges horizontally from THIS SIDE HOLE and curves downward under gravity into a shallow rectangular catch tray sitting lower on the tabletop to the right. NO hose, spout or pipe; the water runs directly through a hole in the vessel wall. Water surface is perfectly horizontal, with the same coherent ellipse as the rim. A narrow vertical strip of masking tape on the cylinder has a blue starting mark near the top and a few thin pencil calibration marks more closely spaced toward the bottom. A simple stopwatch and a small sheet of graph paper rest aside, away from the water. Correct transparent-container perspective, refraction and support, realistic modest stream, no spills or floating objects. No people, hands, readable writing, numbers, formulas, arrows, captions, logos or watermark.",
+          "visualReview": "Supported transparent straight-sided vessel, lateral near-base water outlet into a lower tray, horizontal water surface and calibration marks increasingly close toward bottom; geometry coherent.",
+          "sha256": "2d2a4650a5dc2ddd4e134fef02be58f644a1156b03d67dbeecdb2a5c97515e39"
         },
         {
           "id": "segundo-recipiente",
           "previousSrc": "assets/readings/l086-segundo-recipiente.webp",
           "src": "assets/readings/l086-segundo-recipiente-illustration.webp",
           "afterParagraph": 4,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. Companion landscape 3:2 painted science-book still life for Trama L086, A minute in the water clock. Match the supplied reference's delicate precise watercolor and graphite rendering, transparent pale blue glasslike plastic, light wood and ivory paper. NEW scene on the same sort of classroom science table: TWO EMPTY transparent straight-sided cylindrical plastic vessels stand side by side, their bases on the SAME tabletop plane. They have essentially the SAME HEIGHT, but the vessel on the RIGHT is visibly about one and a half times WIDER. Both have one tiny drilled side hole near the base; no tubes or spouts. There is no water flowing in this scene. The narrower cylinder has one narrow vertical masking-tape calibration strip, with a blue start mark and thin gray marks more closely spaced near the bottom; the wider cylinder is UNMARKED, because it needs a new calibration strip. A small roll of masking tape, pencil, a flat sheet of graph paper and a modest real digital stopwatch lie in the foreground. Correct nested rim and base ellipses, consistent transparency and perspective, objects solidly supported, no floating tape strips or duplicated vessel walls. Soft classroom daylight, no people or hands, no legible labels, numbers, formulas, arrows, captions, diagram panels, logos or watermark.",
+          "visualReview": "Two empty straight-sided vessels share the same height and tabletop plane but have clearly different widths; narrow one calibrated, wide one unmarked, matching the experiment.",
+          "sha256": "d6da525fe7ef903ab34f9ca443bd05f0b48db8f7cfd263fc40feac98cd676d0c"
         }
-      ]
+      ],
+      "edition": "v1.58.13"
     },
     {
       "code": "L155",
