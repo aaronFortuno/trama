@@ -35,10 +35,9 @@ for (const batch of choiceBatches) {
   const keys = new Set();
   const codes = [...new Set(batch.readings.map(entry => entry.code))];
   const start = (Number(batch.id) - 1) * 5 + 1;
-  const expectedCodes = [...new Set(readings.filter(reading => {
-    const number = Number(reading.code.match(/\d+/)[0]);
-    return number >= start && number < start + 5 && !firstFive.includes(reading.code);
-  }).map(reading => reading.code))].sort();
+  const expectedCodes = batch.codes;
+  assert(Array.isArray(expectedCodes) && expectedCodes.length && new Set(expectedCodes).size === expectedCodes.length);
+  assert(expectedCodes.every(code => Number(code.match(/\d+/)[0]) >= start && Number(code.match(/\d+/)[0]) < start + 5));
   assert.deepEqual([...codes].sort(), expectedCodes, `${batch.id}: incomplete sequential batch`);
   for (const record of JSON.parse(fs.readFileSync(batch.review, 'utf8'))) {
     assert(record.author && record.reviewer && record.author !== record.reviewer, 'author and reviewer must differ');

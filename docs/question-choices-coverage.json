@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 15,
-  "pendingWorks": 471,
-  "localizedAlternatives": 128,
+  "coveredWorks": 24,
+  "pendingWorks": 462,
+  "localizedAlternatives": 204,
   "ranges": [
     {
       "start": 1,
@@ -16,8 +16,8 @@
       "start": 6,
       "end": 10,
       "total": 9,
-      "covered": 0,
-      "status": "pending"
+      "covered": 9,
+      "status": "complete"
     },
     {
       "start": 11,
@@ -1219,15 +1219,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Dues fotos, una mateixa balena",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "ballena-q2",
+              "number": 2
+            },
+            {
+              "id": "ballena-q3",
+              "number": 3
+            },
+            {
+              "id": "ballena-q4",
+              "number": 4
+            },
+            {
+              "id": "ballena-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "ballena-q2",
+              "number": 2
+            },
+            {
+              "id": "ballena-q3",
+              "number": 3
+            },
+            {
+              "id": "ballena-q4",
+              "number": 4
+            },
+            {
+              "id": "ballena-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -1238,15 +1272,49 @@
       "level": "4-primary",
       "difficulty": "intermediate",
       "title": "Dues fotos, una mateixa balena",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l006a-q2",
+              "number": 2
+            },
+            {
+              "id": "l006a-q3",
+              "number": 3
+            },
+            {
+              "id": "l006a-q4",
+              "number": 4
+            },
+            {
+              "id": "l006a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l006a-q2",
+              "number": 2
+            },
+            {
+              "id": "l006a-q3",
+              "number": 3
+            },
+            {
+              "id": "l006a-q4",
+              "number": 4
+            },
+            {
+              "id": "l006a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -1257,15 +1325,57 @@
       "level": "6-primary",
       "difficulty": "intermediate",
       "title": "Dues fotos, una mateixa balena",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l006b-q1",
+              "number": 1
+            },
+            {
+              "id": "l006b-q3",
+              "number": 3
+            },
+            {
+              "id": "l006b-q4",
+              "number": 4
+            },
+            {
+              "id": "l006b-q6",
+              "number": 6
+            },
+            {
+              "id": "l006b-q7",
+              "number": 7
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l006b-q1",
+              "number": 1
+            },
+            {
+              "id": "l006b-q3",
+              "number": 3
+            },
+            {
+              "id": "l006b-q4",
+              "number": 4
+            },
+            {
+              "id": "l006b-q6",
+              "number": 6
+            },
+            {
+              "id": "l006b-q7",
+              "number": 7
+            }
+          ]
         }
       }
     },
@@ -1276,15 +1386,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Cinc ratlles per no perdre el compte",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "rayas-q1",
+              "number": 1
+            },
+            {
+              "id": "rayas-q2",
+              "number": 2
+            },
+            {
+              "id": "rayas-q3",
+              "number": 3
+            },
+            {
+              "id": "rayas-q4",
+              "number": 4
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "rayas-q1",
+              "number": 1
+            },
+            {
+              "id": "rayas-q2",
+              "number": 2
+            },
+            {
+              "id": "rayas-q3",
+              "number": 3
+            },
+            {
+              "id": "rayas-q4",
+              "number": 4
+            }
+          ]
         }
       }
     },
@@ -1295,15 +1439,49 @@
       "level": "5-primary",
       "difficulty": "advanced",
       "title": "La pinça que cuidava els dibuixos",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "pinzas-q2",
+              "number": 2
+            },
+            {
+              "id": "pinzas-q3",
+              "number": 3
+            },
+            {
+              "id": "pinzas-q4",
+              "number": 4
+            },
+            {
+              "id": "pinzas-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "pinzas-q2",
+              "number": 2
+            },
+            {
+              "id": "pinzas-q3",
+              "number": 3
+            },
+            {
+              "id": "pinzas-q4",
+              "number": 4
+            },
+            {
+              "id": "pinzas-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -1314,15 +1492,49 @@
       "level": "4-primary",
       "difficulty": "advanced",
       "title": "La pinça que cuidava els dibuixos",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l008a-q1",
+              "number": 1
+            },
+            {
+              "id": "l008a-q3",
+              "number": 3
+            },
+            {
+              "id": "l008a-q4",
+              "number": 4
+            },
+            {
+              "id": "l008a-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l008a-q1",
+              "number": 1
+            },
+            {
+              "id": "l008a-q3",
+              "number": 3
+            },
+            {
+              "id": "l008a-q4",
+              "number": 4
+            },
+            {
+              "id": "l008a-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -1333,15 +1545,57 @@
       "level": "6-primary",
       "difficulty": "advanced",
       "title": "La pinça que cuidava els dibuixos",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l008b-q2",
+              "number": 2
+            },
+            {
+              "id": "l008b-q3",
+              "number": 3
+            },
+            {
+              "id": "l008b-q4",
+              "number": 4
+            },
+            {
+              "id": "l008b-q5",
+              "number": 5
+            },
+            {
+              "id": "l008b-q6",
+              "number": 6
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l008b-q2",
+              "number": 2
+            },
+            {
+              "id": "l008b-q3",
+              "number": 3
+            },
+            {
+              "id": "l008b-q4",
+              "number": 4
+            },
+            {
+              "id": "l008b-q5",
+              "number": 5
+            },
+            {
+              "id": "l008b-q6",
+              "number": 6
+            }
+          ]
         }
       }
     },
@@ -1352,15 +1606,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "La pista que va quedar al fang",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "huellas-q2",
+              "number": 2
+            },
+            {
+              "id": "huellas-q3",
+              "number": 3
+            },
+            {
+              "id": "huellas-q4",
+              "number": 4
+            },
+            {
+              "id": "huellas-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "huellas-q2",
+              "number": 2
+            },
+            {
+              "id": "huellas-q3",
+              "number": 3
+            },
+            {
+              "id": "huellas-q4",
+              "number": 4
+            },
+            {
+              "id": "huellas-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
@@ -1371,15 +1659,49 @@
       "level": "5-primary",
       "difficulty": "intermediate",
       "title": "Dos músculs, un moviment",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "musculos-q2",
+              "number": 2
+            },
+            {
+              "id": "musculos-q3",
+              "number": 3
+            },
+            {
+              "id": "musculos-q4",
+              "number": 4
+            },
+            {
+              "id": "musculos-q5",
+              "number": 5
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "musculos-q2",
+              "number": 2
+            },
+            {
+              "id": "musculos-q3",
+              "number": 3
+            },
+            {
+              "id": "musculos-q4",
+              "number": 4
+            },
+            {
+              "id": "musculos-q5",
+              "number": 5
+            }
+          ]
         }
       }
     },
