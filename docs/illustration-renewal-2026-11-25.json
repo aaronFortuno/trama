@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 63,
+    "completedReadings": 64,
     "totalReadings": 66,
-    "completedImages": 73,
+    "completedImages": 74,
     "totalImages": 76
   },
   "readings": [
@@ -1599,9 +1599,17 @@
           "previousSrc": "assets/readings/l132-la-piedra-con-un-punto.svg",
           "src": "assets/readings/l132-la-piedra-con-un-punto-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 lovely hand-painted children's craft still life for Trama L132, The stone with a dot. Tactile gouache, fine colored pencil and watercolor on warm cream paper, smooth gray river stone, vivid simple red, black and green paint. Main subject is ONE flat smooth oval STONE lying on a used sheet of paper on a wooden classroom craft table. On its upper surface a child has painted a very SIMPLE STRAWBERRY SYMBOL, not a realistic fruit: one clean RED CIRCLE in the middle, exactly THREE small solid BLACK DOTS inside that circle arranged as a loose triangle, and ONE simple GREEN LEAF beside/at the circle's upper edge. Three dots total, no many strawberry seeds, extra spots, eyes, smile or anthropomorphic face. The painted design lies FLAT on the stone and follows its surface, not a real three-dimensional strawberry glued on. The stone's surrounding gray surface remains visible. A short paintbrush rests safely alongside, and small plain open paint pots of red, black and green sit off to one side. Faint old pencil marks on the protective paper are illegible. Solid paper and stone edges, coherent contact shadows and brush proportions, gentle daylight. No people, hands, words, numbers, arrows, labels, split panels, captions, logos or watermark. Beautiful real handmade-material scene, not flat vector clipart.",
+          "visualReview": "Flat painted stone carries exactly one red circle, three black dots and one green leaf, matching the simple craft instructions; paper, paint pots and brush physically coherent.",
+          "sha256": "8c6e39663507f5b742834cda117b10ee8c29466bbebace1eab318fad16e8a4a4"
         }
-      ]
+      ],
+      "edition": "v1.58.64"
     },
     {
       "code": "L007",

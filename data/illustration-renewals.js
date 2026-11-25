@@ -364,6 +364,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l152-un-zapato-para-el-barro-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l132-la-piedra-con-un-punto.svg": {
+    "src": "assets/readings/l132-la-piedra-con-un-punto-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 
