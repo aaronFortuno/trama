@@ -234,6 +234,11 @@ export const illustrationRenewals = {
     "src": "assets/readings/l117-el-cajon-de-las-piezas-sueltas-illustration.webp",
     "width": 1100,
     "height": 733
+  },
+  "assets/readings/l145-la-manta-de-las-mangas.svg": {
+    "src": "assets/readings/l145-la-manta-de-las-mangas-illustration.webp",
+    "width": 1100,
+    "height": 733
   }
 };
 

@@ -5,9 +5,9 @@
     "universes": "Discuss expansion of each current universe to 15 base readings after this renewal; no universe expansion in this task."
   },
   "progress": {
-    "completedReadings": 38,
+    "completedReadings": 39,
     "totalReadings": 66,
-    "completedImages": 47,
+    "completedImages": 48,
     "totalImages": 76
   },
   "readings": [
@@ -1022,9 +1022,17 @@
           "previousSrc": "assets/readings/l145-la-manta-de-las-mangas.svg",
           "src": "assets/readings/l145-la-manta-de-las-mangas-illustration.webp",
           "afterParagraph": 1,
-          "status": "pending"
+          "status": "complete",
+          "width": 1100,
+          "height": 733,
+          "generated": "2026-11-25",
+          "generator": "built-in image_gen",
+          "prompt": "Use case: illustration-story. One landscape 3:2 tender hand-painted textile illustration for Trama L145, The blanket of sleeves. Rich gouache, soft pastel and fine colored-pencil stitch detail, tactile cream paper, faded blue, rusty red, cream checks and one fresh green patch. A family PATCHWORK BLANKET is draped naturally across the seat and back of an ordinary wooden chair in a bright primary classroom. It is made from clearly sewn square scraps: some old blue dress fabric, some red-and-cream checked work-shirt cloth, some other gently worn plain fabric. On ONE checked square a small real old BUTTONHOLE is visible, a neat stitched slit inherited from the shirt, no actual loose button required. At one lower corner a single noticeably NEWER GREEN knitted square has been carefully stitched in as a repair, slightly brighter and less faded than the rest. Natural continuous fabric folds and weight, aligned seams and believable cloth edges, blanket supported on chair with corner hanging down, no ghost fabric layers. A small closed sewing tin sits on a low table nearby, no needles sticking out. Soft daylight, affectionate sense of family reuse, no people or hands required. No labels, written poster, letters, numbers, arrows, diagram panels, captions, logos or watermark. Beautiful material detail suitable for young readers, not flat vector squares.",
+          "visualReview": "Sewn patchwork has faded blue and checked scraps, clear inherited buttonhole and one brighter green knitted corner repair; cloth folds, stitching and chair support coherent.",
+          "sha256": "1b8e75c02727ce482a5774d44ceec526c14eb1ad77e0ad8fad5bb8e2b28642eb"
         }
-      ]
+      ],
+      "edition": "v1.58.39"
     },
     {
       "code": "L149",
