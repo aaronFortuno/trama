@@ -1,9 +1,9 @@
 {
   "date": "2026-11-25",
   "totalWorks": 486,
-  "coveredWorks": 433,
-  "pendingWorks": 53,
-  "localizedAlternatives": 3560,
+  "coveredWorks": 438,
+  "pendingWorks": 48,
+  "localizedAlternatives": 3616,
   "ranges": [
     {
       "start": 1,
@@ -310,8 +310,8 @@
       "start": 216,
       "end": 220,
       "total": 5,
-      "covered": 0,
-      "status": "pending"
+      "covered": 5,
+      "status": "complete"
     },
     {
       "start": 221,
@@ -23725,15 +23725,65 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "La restauradora d’enregistraments",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-restauradora-de-grabaciones-q2",
+              "number": 2
+            },
+            {
+              "id": "la-restauradora-de-grabaciones-q3",
+              "number": 3
+            },
+            {
+              "id": "la-restauradora-de-grabaciones-q4",
+              "number": 4
+            },
+            {
+              "id": "la-restauradora-de-grabaciones-q5",
+              "number": 5
+            },
+            {
+              "id": "la-restauradora-de-grabaciones-q6",
+              "number": 6
+            },
+            {
+              "id": "la-restauradora-de-grabaciones-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "la-restauradora-de-grabaciones-q2",
+              "number": 2
+            },
+            {
+              "id": "la-restauradora-de-grabaciones-q3",
+              "number": 3
+            },
+            {
+              "id": "la-restauradora-de-grabaciones-q4",
+              "number": 4
+            },
+            {
+              "id": "la-restauradora-de-grabaciones-q5",
+              "number": 5
+            },
+            {
+              "id": "la-restauradora-de-grabaciones-q6",
+              "number": 6
+            },
+            {
+              "id": "la-restauradora-de-grabaciones-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -23744,15 +23794,65 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "Els passos d’una demostració",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "los-pasos-de-una-demostracion-q2",
+              "number": 2
+            },
+            {
+              "id": "los-pasos-de-una-demostracion-q4",
+              "number": 4
+            },
+            {
+              "id": "los-pasos-de-una-demostracion-q5",
+              "number": 5
+            },
+            {
+              "id": "los-pasos-de-una-demostracion-q6",
+              "number": 6
+            },
+            {
+              "id": "los-pasos-de-una-demostracion-q7",
+              "number": 7
+            },
+            {
+              "id": "los-pasos-de-una-demostracion-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "los-pasos-de-una-demostracion-q2",
+              "number": 2
+            },
+            {
+              "id": "los-pasos-de-una-demostracion-q4",
+              "number": 4
+            },
+            {
+              "id": "los-pasos-de-una-demostracion-q5",
+              "number": 5
+            },
+            {
+              "id": "los-pasos-de-una-demostracion-q6",
+              "number": 6
+            },
+            {
+              "id": "los-pasos-de-una-demostracion-q7",
+              "number": 7
+            },
+            {
+              "id": "los-pasos-de-una-demostracion-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -23763,15 +23863,57 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "El temps que mesura una recepta",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-tiempo-que-mide-una-receta-q2",
+              "number": 2
+            },
+            {
+              "id": "el-tiempo-que-mide-una-receta-q3",
+              "number": 3
+            },
+            {
+              "id": "el-tiempo-que-mide-una-receta-q4",
+              "number": 4
+            },
+            {
+              "id": "el-tiempo-que-mide-una-receta-q7",
+              "number": 7
+            },
+            {
+              "id": "el-tiempo-que-mide-una-receta-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-tiempo-que-mide-una-receta-q2",
+              "number": 2
+            },
+            {
+              "id": "el-tiempo-que-mide-una-receta-q3",
+              "number": 3
+            },
+            {
+              "id": "el-tiempo-que-mide-una-receta-q4",
+              "number": 4
+            },
+            {
+              "id": "el-tiempo-que-mide-una-receta-q7",
+              "number": 7
+            },
+            {
+              "id": "el-tiempo-que-mide-una-receta-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -23782,15 +23924,65 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "El partit que es va decidir abans del servei",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-partido-que-se-decidio-antes-del-saque-q2",
+              "number": 2
+            },
+            {
+              "id": "el-partido-que-se-decidio-antes-del-saque-q4",
+              "number": 4
+            },
+            {
+              "id": "el-partido-que-se-decidio-antes-del-saque-q5",
+              "number": 5
+            },
+            {
+              "id": "el-partido-que-se-decidio-antes-del-saque-q6",
+              "number": 6
+            },
+            {
+              "id": "el-partido-que-se-decidio-antes-del-saque-q7",
+              "number": 7
+            },
+            {
+              "id": "el-partido-que-se-decidio-antes-del-saque-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "el-partido-que-se-decidio-antes-del-saque-q2",
+              "number": 2
+            },
+            {
+              "id": "el-partido-que-se-decidio-antes-del-saque-q4",
+              "number": 4
+            },
+            {
+              "id": "el-partido-que-se-decidio-antes-del-saque-q5",
+              "number": 5
+            },
+            {
+              "id": "el-partido-que-se-decidio-antes-del-saque-q6",
+              "number": 6
+            },
+            {
+              "id": "el-partido-que-se-decidio-antes-del-saque-q7",
+              "number": 7
+            },
+            {
+              "id": "el-partido-que-se-decidio-antes-del-saque-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
@@ -23801,15 +23993,57 @@
       "level": "1-secondary",
       "difficulty": "initial",
       "title": "Carta a qui escoltarà aquest enregistrament",
-      "status": "pending",
+      "status": "provisional",
       "languages": {
         "es": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "carta-a-quien-escuchara-esta-grabacion-q3",
+              "number": 3
+            },
+            {
+              "id": "carta-a-quien-escuchara-esta-grabacion-q4",
+              "number": 4
+            },
+            {
+              "id": "carta-a-quien-escuchara-esta-grabacion-q5",
+              "number": 5
+            },
+            {
+              "id": "carta-a-quien-escuchara-esta-grabacion-q6",
+              "number": 6
+            },
+            {
+              "id": "carta-a-quien-escuchara-esta-grabacion-q8",
+              "number": 8
+            }
+          ]
         },
         "ca": {
-          "status": "pending",
-          "questions": []
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "carta-a-quien-escuchara-esta-grabacion-q3",
+              "number": 3
+            },
+            {
+              "id": "carta-a-quien-escuchara-esta-grabacion-q4",
+              "number": 4
+            },
+            {
+              "id": "carta-a-quien-escuchara-esta-grabacion-q5",
+              "number": 5
+            },
+            {
+              "id": "carta-a-quien-escuchara-esta-grabacion-q6",
+              "number": 6
+            },
+            {
+              "id": "carta-a-quien-escuchara-esta-grabacion-q8",
+              "number": 8
+            }
+          ]
         }
       }
     },
