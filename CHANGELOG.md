@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.63 · 26 de novembre del 2026
+
+L307: La parada que buscava ombra. Nova família de l’univers Els camins de la ribera, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 7 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.62.9 · 26 de novembre del 2026
 
 Ampliem l’analítica de materials amb codi base, variant i univers. Cada fitxa pública preparada per imprimir o descarregar es compta una vegada, també dins dels lots, per saber quins cursos i lectures s’utilitzen més. Es manté el recompte general de documents i s’exclou tota la personalització del docent. Actualitzem la informació de privacitat i documentem els ajustos pendents d’Umami a Umbrel.

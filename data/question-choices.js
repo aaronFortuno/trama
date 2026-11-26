@@ -5,6 +5,7 @@ import { libraryChoiceReadings } from './library-expansion.js';
 import { newsroomChoiceReadings } from './newsroom-expansion.js';
 import { observatoryChoiceReadings } from './observatory-expansion.js';
 import { workshopChoiceReadings } from './workshop-expansion.js';
+import { riversideChoiceReadings } from './riverside-expansion.js';
 const choice = (prompt, options, correct, explanation) => ({ prompt, options, correct, ...(explanation ? { explanation } : {}) });
 export const questionChoices = {
   L001: {
@@ -83,13 +84,13 @@ export const questionChoices = {
 };
 
 const localizedReadings = new Map();
-for (const entry of [...choiceBatches.flatMap(batch => batch.readings), ...libraryChoiceReadings, ...newsroomChoiceReadings, ...observatoryChoiceReadings, ...workshopChoiceReadings]) {
+for (const entry of [...choiceBatches.flatMap(batch => batch.readings), ...libraryChoiceReadings, ...newsroomChoiceReadings, ...observatoryChoiceReadings, ...workshopChoiceReadings, ...riversideChoiceReadings]) {
   const key = `${entry.code}:${entry.language}`;
   if (localizedReadings.has(key) || Object.hasOwn(questionChoices, entry.code)) throw Error(`Duplicate question choices: ${key}`);
   localizedReadings.set(key, entry);
 }
 
-export const choiceCodes = Object.freeze([...new Set([...Object.keys(questionChoices), ...choiceBatches.flatMap(batch => batch.readings.map(entry => entry.code)), ...libraryChoiceReadings.map(entry => entry.code), ...newsroomChoiceReadings.map(entry => entry.code), ...observatoryChoiceReadings.map(entry => entry.code), ...workshopChoiceReadings.map(entry => entry.code)])]);
+export const choiceCodes = Object.freeze([...new Set([...Object.keys(questionChoices), ...choiceBatches.flatMap(batch => batch.readings.map(entry => entry.code)), ...libraryChoiceReadings.map(entry => entry.code), ...newsroomChoiceReadings.map(entry => entry.code), ...observatoryChoiceReadings.map(entry => entry.code), ...workshopChoiceReadings.map(entry => entry.code), ...riversideChoiceReadings.map(entry => entry.code)])]);
 
 export function localizedChoice(record, question) {
   return { prompt: record.prompt, options: record.options.map((text, index) => ({ id: 'abcd'[index], text })),
