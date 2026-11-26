@@ -9310,5 +9310,1760 @@ export const libraryPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L274",
+    "edition": "v1.59.6",
+    "family": {
+      "id": "familia-l274",
+      "code": "L274",
+      "name": {
+        "es": "El trabajo detrás del brillo",
+        "ca": "La feina darrere la lluentor"
+      },
+      "description": {
+        "ca": "Una història de La biblioteca de les coses, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de La biblioteca de las cosas, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L274A",
+        "L274",
+        "L274B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "feina-darrere-lluentor-a-es",
+        "code": "L274A",
+        "workId": "feina-darrere-lluentor-a",
+        "language": "es",
+        "familyId": "familia-l274",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "technology"
+        ],
+        "genre": "interview",
+        "title": "El trabajo detrás del brillo",
+        "summary": "Una entrevista descubre por qué un objeto brillante puede necesitar más trabajo que otro manchado.",
+        "paragraphs": [
+          "Noa y Adil colaboran en la biblioteca de las cosas, un local vecinal que presta objetos de uso ocasional. Para el boletín del barrio, Noa entrevista a Mercè, una adulta que revisa las devoluciones y realiza los arreglos que conoce. Adil fotografía los objetos sobre una mesa de madera color miel. Ese día hay un atril con manchas y una bomba de inflar muy brillante.",
+          "—¿Cuál necesita más trabajo? —pregunta Noa señalando las manchas del atril.\n—Todavía no lo sabemos. Las manchas se ven enseguida. Si el atril sujeta bien las partituras, puede seguir prestándose después de limpiarlo. Esta bomba parece nueva, pero ayer una vecina dijo que le costó muchísimo inflar un balón con ella.\nMercè deja ambos objetos separados para comprobarlos.",
+          "—¿La vecina la usó mal?\n—Su comentario me ayuda a buscar, pero primero tengo que probarla.\nMercè utiliza un balón del local. Mueve el mango varias veces y apenas entra aire. Después revisa la bomba y encuentra gastada una pequeña pieza de goma interior. Tiene que sustituirla; pasar un paño por fuera no resolvería ese problema. La bomba queda apartada del préstamo.",
+          "—¿Y el atril?\nMercè coloca unas partituras y comprueba que el soporte permanece firme. Luego limpia las manchas. El atril vuelve al estante esa tarde.\n—A este le hacía falta un buen lavado —dice, mirando el paño gris. Adil cambia el encuadre: ahora quiere fotografiar también la bomba que se ha quedado esperando, aunque salga más bonita.",
+          "Al día siguiente llega la pieza de goma de recambio. Mercè la cambia y vuelve a probar la bomba con el mismo balón. Esta vez entra aire con facilidad. Avisa a Rosa, la coordinadora, de que puede volver al estante. Noa añade el final de la historia a su entrevista antes de entregarla al boletín.",
+          "Adil elige dos fotografías para acompañar el texto. En la primera se ven los objetos al llegar; en la segunda, el balón inflado. Mercè le pide una copia de la primera: quiere recordar lo reluciente que estaba la bomba mientras necesitaba aquel arreglo."
+        ],
+        "questions": [
+          {
+            "id": "l274a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Para qué prepara Noa la entrevista?",
+            "answer": "Para el boletín del barrio.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Para el boletín del barrio, Noa entrevista a Mercè"
+              }
+            ]
+          },
+          {
+            "id": "l274a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué problema encuentra Mercè en la bomba?",
+            "answer": "Una pequeña pieza de goma interior está gastada.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "encuentra gastada una pequeña pieza de goma interior."
+              }
+            ]
+          },
+          {
+            "id": "l274a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Mercè prueba la bomba antes de responder sobre la vecina?",
+            "answer": "El comentario describe una dificultad, pero debe comprobar qué ocurre con el objeto.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Su comentario me ayuda a buscar, pero primero tengo que probarla."
+              }
+            ]
+          },
+          {
+            "id": "l274a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «recambio» en esta historia?",
+            "answer": "Una pieza que sustituye a otra gastada.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "llega la pieza de goma de recambio. Mercè la cambia"
+              }
+            ]
+          },
+          {
+            "id": "l274a-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Cuándo vuelve el atril al estante?",
+            "answer": "Esa misma tarde, después de comprobarlo y limpiarlo.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "El atril vuelve al estante esa tarde."
+              }
+            ]
+          },
+          {
+            "id": "l274a-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Por qué se añade el resultado del día siguiente?",
+            "answer": "Para cerrar el caso de la bomba mostrando que funciona después del arreglo.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Esta vez entra aire con facilidad."
+              }
+            ]
+          },
+          {
+            "id": "l274a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué necesitaba cada objeto y cómo se resolvió su caso.",
+            "answer": "Mercè comprueba dos objetos: el atril solo necesita limpieza y la bomba, aunque brilla, necesita una pieza nueva y otra prueba.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Luego limpia las manchas."
+              },
+              {
+                "paragraph": 5,
+                "text": "Mercè la cambia y vuelve a probar la bomba"
+              }
+            ]
+          },
+          {
+            "id": "l274a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué preguntarías a Mercè al final de esta entrevista? Explica qué te gustaría saber.",
+            "answer": "Pregunta personal relacionada con su trabajo y explicación de su interés."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "recambio",
+            "occurrence": 1,
+            "questionId": "l274a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l274-scene",
+            "src": "assets/readings/l274-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un atril manchado, una bomba manual y un balón sobre la mesa de revisión del local.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "feina-darrere-lluentor-a-ca",
+        "code": "L274A",
+        "workId": "feina-darrere-lluentor-a",
+        "language": "ca",
+        "familyId": "familia-l274",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "technology"
+        ],
+        "genre": "interview",
+        "title": "La feina darrere la lluentor",
+        "summary": "Una entrevista descobreix per què un objecte lluent pot necessitar més feina que un altre de tacat.",
+        "paragraphs": [
+          "La Noa i l’Adil col·laboren a la biblioteca de les coses, un local veïnal que deixa objectes d’ús ocasional. Per al butlletí del barri, la Noa entrevista la Mercè, una adulta que revisa les devolucions i fa els arranjaments que coneix. L’Adil fotografia els objectes damunt d’una taula de fusta mel. Aquell dia hi ha un faristol amb taques i una manxa molt lluent.",
+          "—Quin necessita més feina? —pregunta la Noa assenyalant les taques del faristol.\n—Encara no ho sabem. Les taques es veuen de seguida. Si el faristol aguanta bé les partitures, es pot continuar deixant després de netejar-lo. Aquesta manxa sembla nova, però ahir una veïna va dir que li havia costat moltíssim inflar-hi una pilota.\nLa Mercè deixa tots dos objectes separats per comprovar-los.",
+          "—La veïna la va fer servir malament?\n—El seu comentari m’ajuda a buscar, però primer l’he de provar.\nLa Mercè fa servir una pilota del local. Mou el mànec diverses vegades i amb prou feines hi entra aire. Després revisa la manxa i troba gastada una petita peça de goma interior. L’ha de substituir; passar-hi un drap per fora no resoldria aquell problema. La manxa queda apartada del préstec.",
+          "—I el faristol?\nLa Mercè hi posa unes partitures i comprova que el suport es manté ferm. Després neteja les taques. El faristol torna al prestatge aquella tarda.\n—A aquest li calia una bona netejada —diu, mirant el drap gris. L’Adil canvia l’enquadrament: ara vol fotografiar també la manxa que s’ha quedat esperant, encara que surti més bonica.",
+          "L’endemà arriba la peça de goma de recanvi. La Mercè la canvia i torna a provar la manxa amb la mateixa pilota. Aquest cop hi entra aire amb facilitat. Avisa la Rosa, la coordinadora, que pot tornar al prestatge. La Noa afegeix el final de la història a l’entrevista abans de lliurar-la al butlletí.",
+          "L’Adil tria dues fotografies per acompanyar el text. A la primera es veuen els objectes quan arriben; a la segona, la pilota inflada. La Mercè li demana una còpia de la primera: vol recordar com lluïa la manxa mentre necessitava aquell arranjament."
+        ],
+        "questions": [
+          {
+            "id": "l274a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Per a què prepara la Noa l’entrevista?",
+            "answer": "Per al butlletí del barri.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Per al butlletí del barri, la Noa entrevista la Mercè"
+              }
+            ]
+          },
+          {
+            "id": "l274a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quin problema troba la Mercè a la manxa?",
+            "answer": "Una petita peça de goma interior està gastada.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "troba gastada una petita peça de goma interior."
+              }
+            ]
+          },
+          {
+            "id": "l274a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la Mercè prova la manxa abans de respondre sobre la veïna?",
+            "answer": "El comentari descriu una dificultat, però ha de comprovar què passa amb l’objecte.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El seu comentari m’ajuda a buscar, però primer l’he de provar."
+              }
+            ]
+          },
+          {
+            "id": "l274a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què significa «recanvi» en aquesta història?",
+            "answer": "Una peça que en substitueix una altra de gastada.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "arriba la peça de goma de recanvi. La Mercè la canvia"
+              }
+            ]
+          },
+          {
+            "id": "l274a-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quan torna el faristol al prestatge?",
+            "answer": "Aquella mateixa tarda, després de comprovar-lo i netejar-lo.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "El faristol torna al prestatge aquella tarda."
+              }
+            ]
+          },
+          {
+            "id": "l274a-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Per què s’afegeix el resultat de l’endemà?",
+            "answer": "Per tancar el cas de la manxa mostrant que funciona després de l’arranjament.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Aquest cop hi entra aire amb facilitat."
+              }
+            ]
+          },
+          {
+            "id": "l274a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix què necessitava cada objecte i com es va resoldre el seu cas.",
+            "answer": "La Mercè comprova dos objectes: el faristol només necessita neteja i la manxa, encara que llueix, necessita una peça nova i una altra prova.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Després neteja les taques."
+              },
+              {
+                "paragraph": 5,
+                "text": "La Mercè la canvia i torna a provar la manxa"
+              }
+            ]
+          },
+          {
+            "id": "l274a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Què preguntaries a la Mercè al final d’aquesta entrevista? Explica què t’agradaria saber.",
+            "answer": "Pregunta personal relacionada amb la seva feina i explicació del seu interès."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "recanvi",
+            "occurrence": 1,
+            "questionId": "l274a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l274-scene",
+            "src": "assets/readings/l274-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un faristol tacat, una manxa manual i una pilota damunt la taula de revisió del local.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "feina-darrere-lluentor-es",
+        "code": "L274",
+        "workId": "feina-darrere-lluentor",
+        "language": "es",
+        "familyId": "familia-l274",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "technology"
+        ],
+        "genre": "interview",
+        "title": "El trabajo detrás del brillo",
+        "summary": "Noa entrevista a quien revisa los retornos y sigue un arreglo que apenas se ve desde fuera.",
+        "paragraphs": [
+          "La biblioteca de las cosas presta objetos de uso ocasional desde un local de la asociación vecinal. Además de preparar las salidas, alguien debe revisar lo que vuelve. Noa, una adolescente que colabora allí, entrevista a Mercè para el boletín del barrio. Mercè es una voluntaria adulta que comprueba los objetos y se ocupa de los arreglos que conoce. Adil prepara fotografías de la mesa, donde esperan un atril manchado y una bomba manual de inflar.",
+          "—¿El atril tiene más trabajo porque está más sucio?\n—Tiene manchas de barro, seguramente de la actuación al aire libre. Las quitaré, pero antes quiero ver si sostiene las partituras sin moverse. Esa bomba tan brillante me preocupa más: la vecina que la devolvió dijo que apenas había podido inflar un balón.\n—Entonces, ¿ya sabes qué le pasa?\n—Sé qué notó ella. Todavía tengo que mirar qué ocurre aquí.",
+          "Mercè prueba la bomba con un balón del local. El mango se mueve, pero casi no entra aire. Más tarde, al revisarla, encuentra gastada una pequeña pieza de goma interior. Rosa, la coordinadora, anota que la bomba no está disponible mientras espera el recambio. Noa sigue con la entrevista.\n—¿Se ve esa pieza en la foto?\n—No, queda dentro. Por eso mi mesa puede parecer quieta desde la puerta, aunque lleve un buen rato trabajando.",
+          "—¿Y si alguien necesita la bomba esta tarde?\n—Rosa podrá explicarle que estamos esperando una pieza. Yo prefiero poder decir qué he encontrado a decir solamente que está rota. Si veo una avería que no sé resolver, busco ayuda de alguien que conozca ese objeto.\nAdil baja la cámara. Había pensado en una foto de manchas y otra de brillo; ahora busca cómo mostrar una espera que no tiene mucho aspecto de noticia.",
+          "El atril, en cambio, sostiene las partituras y mantiene la altura cuando Mercè lo comprueba. Después de limpiarlo, vuelve al estante esa misma tarde. En el paño queda buena parte del barro que parecía anunciar una reparación importante. Noa escribe una pregunta nueva al margen.\n—¿Cuál es tu arreglo favorito?\n—Hoy me conformaré con no mancharme más la manga. Pregúntamelo cuando termine con la bomba.",
+          "Al día siguiente llega el recambio. Mercè sustituye la pieza y vuelve a probar la bomba con el mismo balón: ahora entra aire con facilidad. Solo entonces avisa a Rosa para que la incluya entre los objetos disponibles. Noa, que había dejado pendiente el final de la entrevista, puede completarlo. Adil fotografía el balón inflado al lado de la bomba, procurando no cortar su base en el encuadre.",
+          "—¿Y tu arreglo favorito? —repite Noa.\nMercè señala la manga, todavía limpia, y luego el balón.\n—Por hoy, me quedo con estos dos resultados.\nLa entrevista sale con las fotos del antes y el después. La mancha más grande ocupa menos espacio que el balón."
+        ],
+        "questions": [
+          {
+            "id": "l274-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué tareas realiza Mercè en el servicio?",
+            "answer": "Comprueba los objetos y hace los arreglos que conoce.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "comprueba los objetos y se ocupa de los arreglos que conoce."
+              }
+            ]
+          },
+          {
+            "id": "l274-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué le preocupa más la bomba que el atril al comienzo?",
+            "answer": "Tiene un aviso sobre una dificultad de funcionamiento, aunque el exterior se vea limpio.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "la vecina que la devolvió dijo que apenas había podido inflar un balón."
+              }
+            ]
+          },
+          {
+            "id": "l274-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué sucede al probar la bomba con el balón del local?",
+            "answer": "El mango se mueve, pero casi no entra aire.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El mango se mueve, pero casi no entra aire."
+              }
+            ]
+          },
+          {
+            "id": "l274-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «encuadre» en el trabajo de Adil?",
+            "answer": "La parte de la escena que incluye en una fotografía.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "procurando no cortar su base en el encuadre."
+              }
+            ]
+          },
+          {
+            "id": "l274-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué hace Mercè si encuentra una avería que no conoce?",
+            "answer": "Busca ayuda de alguien que conozca ese objeto.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "busco ayuda de alguien que conozca ese objeto."
+              }
+            ]
+          },
+          {
+            "id": "l274-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué muestra que el atril vuelva antes al estante que la bomba?",
+            "answer": "Que la suciedad visible no determina por sí sola el trabajo necesario para volver a prestarlo.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Después de limpiarlo, vuelve al estante esa misma tarde."
+              },
+              {
+                "paragraph": 6,
+                "text": "Al día siguiente llega el recambio."
+              }
+            ]
+          },
+          {
+            "id": "l274-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué efecto tiene repetir la pregunta sobre el arreglo favorito al final?",
+            "answer": "Recupera una pregunta aplazada y permite cerrar la entrevista con humor.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Pregúntamelo cuando termine con la bomba."
+              },
+              {
+                "paragraph": 7,
+                "text": "¿Y tu arreglo favorito?"
+              }
+            ]
+          },
+          {
+            "id": "l274-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué prueba permite volver a ofrecer la bomba?",
+            "answer": "La prueba después de sustituir la pieza, en la que el balón se infla con facilidad.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "vuelve a probar la bomba con el mismo balón: ahora entra aire con facilidad."
+              }
+            ]
+          },
+          {
+            "id": "l274-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "¿Qué idea organiza la entrevista y el caso que incluye?",
+            "answer": "El mantenimiento requiere observar y comprobar el funcionamiento; la apariencia no muestra todo el trabajo.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Todavía tengo que mirar qué ocurre aquí."
+              },
+              {
+                "paragraph": 3,
+                "text": "queda dentro."
+              }
+            ]
+          },
+          {
+            "id": "l274-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Propón un pie de foto para el balón y la bomba. Explica qué dato de la entrevista quieres destacar.",
+            "answer": "Producción personal compatible con el desenlace, con explicación del dato elegido."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 6,
+            "text": "encuadre",
+            "occurrence": 1,
+            "questionId": "l274-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l274-scene",
+            "src": "assets/readings/l274-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un atril manchado, una bomba manual y un balón sobre la mesa de revisión del local.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "feina-darrere-lluentor-ca",
+        "code": "L274",
+        "workId": "feina-darrere-lluentor",
+        "language": "ca",
+        "familyId": "familia-l274",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "technology"
+        ],
+        "genre": "interview",
+        "title": "La feina darrere la lluentor",
+        "summary": "La Noa entrevista qui revisa els retorns i segueix un arranjament que gairebé no es veu des de fora.",
+        "paragraphs": [
+          "La biblioteca de les coses deixa objectes d’ús ocasional des d’un local de l’associació veïnal. A més de preparar les sortides, algú ha de revisar allò que torna. La Noa, una adolescent que hi col·labora, entrevista la Mercè per al butlletí del barri. La Mercè és una voluntària adulta que comprova els objectes i s’ocupa dels arranjaments que coneix. L’Adil prepara fotografies de la taula, on esperen un faristol tacat i una manxa manual.",
+          "—El faristol té més feina perquè està més brut?\n—Té taques de fang, segurament de l’actuació a l’aire lliure. Les trauré, però abans vull veure si aguanta les partitures sense moure’s. Aquesta manxa tan lluent em preocupa més: la veïna que la va retornar va dir que amb prou feines havia pogut inflar una pilota.\n—Aleshores, ja saps què li passa?\n—Sé què va notar ella. Encara he de mirar què passa aquí.",
+          "La Mercè prova la manxa amb una pilota del local. El mànec es mou, però gairebé no hi entra aire. Més tard, en revisar-la, troba gastada una petita peça de goma interior. La Rosa, la coordinadora, anota que la manxa no està disponible mentre espera el recanvi. La Noa continua l’entrevista.\n—Es veu aquesta peça a la foto?\n—No, queda a dins. Per això la meva taula pot semblar quieta des de la porta, encara que faci una bona estona que treballo.",
+          "—I si algú necessita la manxa aquesta tarda?\n—La Rosa li podrà explicar que esperem una peça. Jo prefereixo poder dir què he trobat a dir només que està espatllada. Si veig una avaria que no sé resoldre, busco ajuda d’algú que conegui aquell objecte.\nL’Adil abaixa la càmera. Havia pensat en una foto de taques i una altra de lluentor; ara busca com mostrar una espera que no té gaire aspecte de notícia.",
+          "El faristol, en canvi, aguanta les partitures i manté l’alçada quan la Mercè el comprova. Després de netejar-lo, torna al prestatge aquella mateixa tarda. Al drap hi queda bona part del fang que semblava anunciar una reparació important. La Noa escriu una pregunta nova al marge.\n—Quin és el teu arranjament preferit?\n—Avui em conformaré a no tacar-me més la màniga. Pregunta-m’ho quan acabi amb la manxa.",
+          "L’endemà arriba el recanvi. La Mercè substitueix la peça i torna a provar la manxa amb la mateixa pilota: ara hi entra aire amb facilitat. Només aleshores avisa la Rosa perquè la inclogui entre els objectes disponibles. La Noa, que havia deixat pendent el final de l’entrevista, el pot completar. L’Adil fotografia la pilota inflada al costat de la manxa, procurant no tallar-ne la base a l’enquadrament.",
+          "—I el teu arranjament preferit? —repeteix la Noa.\nLa Mercè assenyala la màniga, encara neta, i després la pilota.\n—Per avui, em quedo amb aquests dos resultats.\nL’entrevista surt amb les fotos de l’abans i el després. La taca més grossa ocupa menys espai que la pilota."
+        ],
+        "questions": [
+          {
+            "id": "l274-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quines tasques fa la Mercè al servei?",
+            "answer": "Comprova els objectes i fa els arranjaments que coneix.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "comprova els objectes i s’ocupa dels arranjaments que coneix."
+              }
+            ]
+          },
+          {
+            "id": "l274-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la preocupa més la manxa que el faristol al començament?",
+            "answer": "Té un avís sobre una dificultat de funcionament, encara que l’exterior es vegi net.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "la veïna que la va retornar va dir que amb prou feines havia pogut inflar una pilota."
+              }
+            ]
+          },
+          {
+            "id": "l274-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què passa quan prova la manxa amb la pilota del local?",
+            "answer": "El mànec es mou, però gairebé no hi entra aire.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El mànec es mou, però gairebé no hi entra aire."
+              }
+            ]
+          },
+          {
+            "id": "l274-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què significa «enquadrament» en la feina de l’Adil?",
+            "answer": "La part de l’escena que inclou en una fotografia.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "procurant no tallar-ne la base a l’enquadrament."
+              }
+            ]
+          },
+          {
+            "id": "l274-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què fa la Mercè si troba una avaria que no coneix?",
+            "answer": "Busca ajuda d’algú que conegui aquell objecte.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "busco ajuda d’algú que conegui aquell objecte."
+              }
+            ]
+          },
+          {
+            "id": "l274-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què mostra que el faristol torni abans al prestatge que la manxa?",
+            "answer": "Que la brutícia visible no determina per si sola la feina necessària per tornar-lo a deixar.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Després de netejar-lo, torna al prestatge aquella mateixa tarda."
+              },
+              {
+                "paragraph": 6,
+                "text": "L’endemà arriba el recanvi."
+              }
+            ]
+          },
+          {
+            "id": "l274-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quin efecte té repetir la pregunta sobre l’arranjament preferit al final?",
+            "answer": "Recupera una pregunta ajornada i permet tancar l’entrevista amb humor.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Pregunta-m’ho quan acabi amb la manxa."
+              },
+              {
+                "paragraph": 7,
+                "text": "I el teu arranjament preferit?"
+              }
+            ]
+          },
+          {
+            "id": "l274-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina prova permet tornar a oferir la manxa?",
+            "answer": "La prova després de substituir la peça, en què la pilota s’infla amb facilitat.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "torna a provar la manxa amb la mateixa pilota: ara hi entra aire amb facilitat."
+              }
+            ]
+          },
+          {
+            "id": "l274-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Quina idea organitza l’entrevista i el cas que inclou?",
+            "answer": "El manteniment requereix observar i comprovar el funcionament; l’aparença no mostra tota la feina.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Encara he de mirar què passa aquí."
+              },
+              {
+                "paragraph": 3,
+                "text": "queda a dins."
+              }
+            ]
+          },
+          {
+            "id": "l274-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Proposa un peu de foto per a la pilota i la manxa. Explica quina dada de l’entrevista vols destacar.",
+            "answer": "Producció personal compatible amb el desenllaç, amb explicació de la dada triada."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 6,
+            "text": "enquadrament",
+            "occurrence": 1,
+            "questionId": "l274-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l274-scene",
+            "src": "assets/readings/l274-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un faristol tacat, una manxa manual i una pilota damunt la taula de revisió del local.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "feina-darrere-lluentor-b-es",
+        "code": "L274B",
+        "workId": "feina-darrere-lluentor-b",
+        "language": "es",
+        "familyId": "familia-l274",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "advanced",
+        "themes": [
+          "community",
+          "everyday",
+          "technology"
+        ],
+        "genre": "interview",
+        "title": "El trabajo detrás del brillo",
+        "summary": "Un reportaje cambia de enfoque al seguir las comprobaciones y la espera de una pieza interior.",
+        "paragraphs": [
+          "Para entrevistar a Mercè en la biblioteca de las cosas, Noa lleva preguntas sobre herramientas y grandes reparaciones. El servicio vecinal presta objetos de uso ocasional y la entrevistada, una voluntaria adulta, comprueba los retornos y realiza algunos arreglos. Noa y Adil colaboran allí después de clase; ahora preparan un reportaje para el boletín del barrio. Adil propone abrirlo con una fotografía de un atril cubierto de manchas. Al lado espera una bomba manual de inflar, limpia y brillante, que parece mucho menos interesante.",
+          "—¿Con cuál empezarás? —pregunta Noa.\n—Con la bomba. La vecina que la devolvió dijo que se había cansado de mover el mango sin conseguir inflar bien un balón.\n—¿Crees que alguien la había usado mal antes?\n—Su comentario cuenta lo que le ocurrió, y me sirve para probarla. Primero quiero ver si aquí sucede lo mismo.\nMercè acerca un balón del local. El mango sube y baja, pero entra muy poco aire. Adil aparta su cámara para dejarle sitio sobre la mesa.",
+          "Más tarde, Mercè encuentra gastada una pequeña pieza de goma del interior. Conoce ese modelo y puede sustituirla, pero debe esperar el recambio. Rosa, la coordinadora adulta, retira la bomba de los objetos disponibles. Noa tacha una frase que había escrito al llegar: «Una tarde dedicada a limpiar». La limpieza ocupa parte del trabajo, aunque aquella bomba requiera algo que no saldrá en una foto del exterior. La entrevista continúa mientras Mercè deja las piezas pequeñas en una bandeja.",
+          "—¿Cuánto tardas en arreglar un objeto?\n—Depende de lo que encuentre y de lo que tenga a mano. Hoy la bomba pasará más tiempo esperando esa pieza que entre mis manos. Con otros objetos necesito ayuda de alguien que los conozca mejor.\n—¿Eso también lo ponemos en el reportaje?\n—Si queréis explicar por qué algo tarda en volver al estante, os servirá. Ayer, una persona que esperaba esta bomba me preguntó si ya habíamos acabado de pasarle el paño.",
+          "Llega el turno del atril. Mercè coloca partituras, ajusta la altura y comprueba que se mantiene firme. Después limpia el barro. Aquella misma tarde vuelve al estante, junto a otros soportes. Adil mira su primera fotografía y hace otra desde la misma posición. El cambio es llamativo. Sin embargo, cuando Noa le propone titularla «El arreglo más difícil», él recuerda la bomba que sigue esperando en la bandeja. Acaban escogiendo un pie que describe solamente la limpieza del atril.",
+          "Al día siguiente llega el recambio de goma. Mercè lo coloca y prueba otra vez la bomba con el mismo balón. Esta vez se infla con facilidad. Después avisa a Rosa para que vuelva a ofrecerla. Noa recibe el aviso antes de enviar el reportaje y añade el desenlace. Si hubiera cerrado el texto la tarde anterior, habría podido contar el problema y la espera, pero todavía le habría faltado el resultado de la nueva prueba.",
+          "—¿Qué es lo que más cuesta mostrar de tu trabajo? —pregunta Noa al volver.\n—El rato en que intento entender qué ocurre. Desde la puerta solo se me ve mirando un objeto o moviendo un mango. En una foto, además, puede parecer que no ha cambiado nada.\nAdil fotografía el balón inflado junto a la bomba. Necesita el pie de foto para explicar qué relación tiene esa imagen con la del día anterior. Sin esa frase, podría ser una pelota preparada para un partido.",
+          "Al entregar las fotos, Adil descubre una mancha en su propia manga. Mercè le ofrece el paño limpio. Noa guarda la última pregunta sobre grandes reparaciones y apunta, en cambio, la risa que se oye junto a la mesa."
+        ],
+        "questions": [
+          {
+            "id": "l274b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Con qué enfoque llega Noa a la entrevista?",
+            "answer": "Con preguntas sobre herramientas y grandes reparaciones.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Noa lleva preguntas sobre herramientas y grandes reparaciones."
+              }
+            ]
+          },
+          {
+            "id": "l274b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué el comentario de la vecina es útil pero insuficiente para Mercè?",
+            "answer": "Orienta la prueba al describir una dificultad, pero aún debe comprobar el objeto y averiguar qué ocurre.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "me sirve para probarla. Primero quiero ver si aquí sucede lo mismo."
+              }
+            ]
+          },
+          {
+            "id": "l274b-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué hace que la bomba tarde en volver al estante en este caso?",
+            "answer": "La espera de una pieza de recambio.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "la bomba pasará más tiempo esperando esa pieza que entre mis manos."
+              }
+            ]
+          },
+          {
+            "id": "l274b-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «pie de foto»?",
+            "answer": "El texto breve que acompaña una fotografía y explica su contexto.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "Necesita el pie de foto para explicar qué relación tiene esa imagen con la del día anterior."
+              }
+            ]
+          },
+          {
+            "id": "l274b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Noa tacha «Una tarde dedicada a limpiar»?",
+            "answer": "Porque ha comprobado que también se investiga un problema interior y se espera un recambio.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "aquella bomba requiera algo que no saldrá en una foto del exterior."
+              }
+            ]
+          },
+          {
+            "id": "l274b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué descartan titular la foto «El arreglo más difícil»?",
+            "answer": "El cambio visible del atril no demuestra que su trabajo haya sido el más difícil.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "él recuerda la bomba que sigue esperando en la bandeja."
+              }
+            ]
+          },
+          {
+            "id": "l274b-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué aporta el episodio del día siguiente al reportaje?",
+            "answer": "El desenlace del caso, con el resultado de la prueba tras la sustitución.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "todavía le habría faltado el resultado de la nueva prueba."
+              }
+            ]
+          },
+          {
+            "id": "l274b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué se podría afirmar al final de la primera tarde, sin adelantar el desenlace?",
+            "answer": "Que habían encontrado una pieza gastada y esperaban el recambio.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "debe esperar el recambio."
+              },
+              {
+                "paragraph": 6,
+                "text": "Al día siguiente llega el recambio"
+              }
+            ]
+          },
+          {
+            "id": "l274b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué la foto final necesita contexto escrito?",
+            "answer": "El balón inflado por sí solo no explica el problema previo ni la prueba que lo relaciona con la bomba.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "Sin esa frase, podría ser una pelota preparada para un partido."
+              }
+            ]
+          },
+          {
+            "id": "l274b-q10",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume en dos frases cómo cambia el enfoque del reportaje y qué muestra al final.",
+            "answer": "Una entrevista pensada para grandes reparaciones acaba mostrando pruebas, esperas y límites de la apariencia mediante dos objetos.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "preguntas sobre herramientas y grandes reparaciones."
+              },
+              {
+                "paragraph": 7,
+                "text": "El rato en que intento entender qué ocurre."
+              }
+            ]
+          },
+          {
+            "id": "l274b-q11",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué imagen elegirías para abrir el reportaje y qué pie le pondrías? Justifica tu decisión.",
+            "answer": "Respuesta personal que relaciona la imagen y el pie con el contenido sin atribuir a la foto datos que no muestra."
+          },
+          {
+            "id": "l274b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Escribe una nueva pregunta para Mercè que permita profundizar sin pedir instrucciones de reparación. Explica su interés.",
+            "answer": "Pregunta abierta sobre experiencia, observación, organización o comunicación, con explicación pertinente."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 7,
+            "text": "pie de foto",
+            "occurrence": 1,
+            "questionId": "l274b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l274-scene",
+            "src": "assets/readings/l274-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un atril manchado, una bomba manual y un balón sobre la mesa de revisión del local.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "feina-darrere-lluentor-b-ca",
+        "code": "L274B",
+        "workId": "feina-darrere-lluentor-b",
+        "language": "ca",
+        "familyId": "familia-l274",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "advanced",
+        "themes": [
+          "community",
+          "everyday",
+          "technology"
+        ],
+        "genre": "interview",
+        "title": "La feina darrere la lluentor",
+        "summary": "Un reportatge canvia d’enfocament quan segueix les comprovacions i l’espera d’una peça interior.",
+        "paragraphs": [
+          "Per entrevistar la Mercè a la biblioteca de les coses, la Noa porta preguntes sobre eines i grans reparacions. El servei veïnal deixa objectes d’ús ocasional i l’entrevistada, una voluntària adulta, comprova els retorns i fa alguns arranjaments. La Noa i l’Adil hi col·laboren després de classe; ara preparen un reportatge per al butlletí del barri. L’Adil proposa obrir-lo amb una fotografia d’un faristol cobert de taques. Al costat espera una manxa manual, neta i lluent, que sembla molt menys interessant.",
+          "—Per quin començaràs? —pregunta la Noa.\n—Per la manxa. La veïna que la va retornar va dir que s’havia cansat de moure el mànec sense aconseguir inflar bé una pilota.\n—Creus que algú l’havia fet servir malament abans?\n—El seu comentari explica què li va passar, i em serveix per provar-la. Primer vull veure si aquí passa el mateix.\nLa Mercè acosta una pilota del local. El mànec puja i baixa, però hi entra molt poc aire. L’Adil aparta la càmera per deixar-li lloc damunt la taula.",
+          "Més tard, la Mercè troba gastada una petita peça de goma de l’interior. Coneix aquell model i la pot substituir, però ha d’esperar el recanvi. La Rosa, la coordinadora adulta, retira la manxa dels objectes disponibles. La Noa ratlla una frase que havia escrit en arribar: «Una tarda dedicada a netejar». La neteja ocupa una part de la feina, encara que aquella manxa requereixi una cosa que no sortirà en una foto de l’exterior. L’entrevista continua mentre la Mercè deixa les peces petites en una safata.",
+          "—Quant trigues a arreglar un objecte?\n—Depèn del que trobi i del que tingui a mà. Avui la manxa passarà més temps esperant aquella peça que entre les meves mans. Amb altres objectes necessito ajuda d’algú que els conegui millor.\n—Això també ho posem al reportatge?\n—Si voleu explicar per què una cosa triga a tornar al prestatge, us servirà. Ahir, una persona que esperava aquesta manxa em va preguntar si ja havíem acabat de passar-hi el drap.",
+          "Arriba el torn del faristol. La Mercè hi posa partitures, n’ajusta l’alçada i comprova que es manté ferm. Després neteja el fang. Aquella mateixa tarda torna al prestatge, al costat d’altres suports. L’Adil mira la primera fotografia i en fa una altra des de la mateixa posició. El canvi és cridaner. Tanmateix, quan la Noa li proposa titular-la «L’arranjament més difícil», ell recorda la manxa que continua esperant a la safata. Acaben triant un peu que descriu només la neteja del faristol.",
+          "L’endemà arriba el recanvi de goma. La Mercè el col·loca i torna a provar la manxa amb la mateixa pilota. Aquest cop s’infla amb facilitat. Després avisa la Rosa perquè la torni a oferir. La Noa rep l’avís abans d’enviar el reportatge i hi afegeix el desenllaç. Si hagués tancat el text la tarda anterior, hauria pogut explicar el problema i l’espera, però encara li hauria faltat el resultat de la nova prova.",
+          "—Què costa més de mostrar de la teva feina? —pregunta la Noa quan torna.\n—L’estona en què intento entendre què passa. Des de la porta només se’m veu mirant un objecte o movent un mànec. En una foto, a més, pot semblar que no ha canviat res.\nL’Adil fotografia la pilota inflada al costat de la manxa. Necessita el peu de foto per explicar quina relació té aquella imatge amb la del dia anterior. Sense aquella frase, podria ser una pilota preparada per a un partit.",
+          "En lliurar les fotos, l’Adil descobreix una taca a la seva pròpia màniga. La Mercè li ofereix el drap net. La Noa desa l’última pregunta sobre grans reparacions i apunta, en canvi, el riure que se sent al costat de la taula."
+        ],
+        "questions": [
+          {
+            "id": "l274b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Amb quin enfocament arriba la Noa a l’entrevista?",
+            "answer": "Amb preguntes sobre eines i grans reparacions.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "la Noa porta preguntes sobre eines i grans reparacions."
+              }
+            ]
+          },
+          {
+            "id": "l274b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què el comentari de la veïna és útil però insuficient per a la Mercè?",
+            "answer": "Orienta la prova perquè descriu una dificultat, però encara ha de comprovar l’objecte i esbrinar què passa.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "em serveix per provar-la. Primer vull veure si aquí passa el mateix."
+              }
+            ]
+          },
+          {
+            "id": "l274b-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què fa que la manxa trigui a tornar al prestatge en aquest cas?",
+            "answer": "L’espera d’una peça de recanvi.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "la manxa passarà més temps esperant aquella peça que entre les meves mans."
+              }
+            ]
+          },
+          {
+            "id": "l274b-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què significa «peu de foto»?",
+            "answer": "El text breu que acompanya una fotografia i n’explica el context.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "Necessita el peu de foto per explicar quina relació té aquella imatge amb la del dia anterior."
+              }
+            ]
+          },
+          {
+            "id": "l274b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la Noa ratlla «Una tarda dedicada a netejar»?",
+            "answer": "Perquè ha comprovat que també s’investiga un problema interior i s’espera un recanvi.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "aquella manxa requereixi una cosa que no sortirà en una foto de l’exterior."
+              }
+            ]
+          },
+          {
+            "id": "l274b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què descarten titular la foto «L’arranjament més difícil»?",
+            "answer": "El canvi visible del faristol no demostra que la seva feina hagi estat la més difícil.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "ell recorda la manxa que continua esperant a la safata."
+              }
+            ]
+          },
+          {
+            "id": "l274b-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Què aporta l’episodi de l’endemà al reportatge?",
+            "answer": "El desenllaç del cas, amb el resultat de la prova després de la substitució.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "encara li hauria faltat el resultat de la nova prova."
+              }
+            ]
+          },
+          {
+            "id": "l274b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què es podria afirmar al final de la primera tarda, sense avançar el desenllaç?",
+            "answer": "Que havien trobat una peça gastada i esperaven el recanvi.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "ha d’esperar el recanvi."
+              },
+              {
+                "paragraph": 6,
+                "text": "L’endemà arriba el recanvi"
+              }
+            ]
+          },
+          {
+            "id": "l274b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la foto final necessita context escrit?",
+            "answer": "La pilota inflada tota sola no explica el problema previ ni la prova que la relaciona amb la manxa.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "Sense aquella frase, podria ser una pilota preparada per a un partit."
+              }
+            ]
+          },
+          {
+            "id": "l274b-q10",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix en dues frases com canvia l’enfocament del reportatge i què mostra al final.",
+            "answer": "Una entrevista pensada per a grans reparacions acaba mostrant proves, esperes i límits de l’aparença mitjançant dos objectes.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "preguntes sobre eines i grans reparacions."
+              },
+              {
+                "paragraph": 7,
+                "text": "L’estona en què intento entendre què passa."
+              }
+            ]
+          },
+          {
+            "id": "l274b-q11",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quina imatge triaries per obrir el reportatge i quin peu hi posaries? Justifica la decisió.",
+            "answer": "Resposta personal que relaciona la imatge i el peu amb el contingut sense atribuir a la foto dades que no mostra."
+          },
+          {
+            "id": "l274b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Escriu una nova pregunta per a la Mercè que permeti aprofundir sense demanar instruccions de reparació. Explica’n l’interès.",
+            "answer": "Pregunta oberta sobre experiència, observació, organització o comunicació, amb explicació pertinent."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 7,
+            "text": "peu de foto",
+            "occurrence": 1,
+            "questionId": "l274b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l274-scene",
+            "src": "assets/readings/l274-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un faristol tacat, una manxa manual i una pilota damunt la taula de revisió del local.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 5
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L274A",
+        "language": "es",
+        "questions": {
+          "l274a-q1": {
+            "prompt": "¿Para qué prepara Noa la entrevista?",
+            "options": [
+              "Para una exposición de fotos.",
+              "Para el boletín del barrio.",
+              "Para vender la bomba brillante.",
+              "Para una presentación de los objetos prestados."
+            ],
+            "correct": "b",
+            "explanation": "Para el boletín del barrio."
+          },
+          "l274a-q2": {
+            "prompt": "¿Qué problema encuentra Mercè en la bomba?",
+            "options": [
+              "El mango está cubierto de barro.",
+              "El balón tiene una mancha exterior.",
+              "El soporte no aguanta las partituras.",
+              "Una pieza de goma interior está gastada."
+            ],
+            "correct": "d",
+            "explanation": "Una pequeña pieza de goma interior está gastada."
+          },
+          "l274a-q3": {
+            "prompt": "¿Por qué Mercè prueba la bomba antes de responder sobre la vecina?",
+            "options": [
+              "Quiere comprobar el problema antes de atribuir una causa.",
+              "Ya sabe que la vecina rompió el mango.",
+              "Espera encontrar barro dentro del balón.",
+              "Necesita una fotografía para poder usarla."
+            ],
+            "correct": "a",
+            "explanation": "El comentario describe una dificultad, pero debe comprobar qué ocurre con el objeto."
+          },
+          "l274a-q4": {
+            "prompt": "¿Qué significa «recambio» en esta historia?",
+            "options": [
+              "Un turno distinto de entrevista.",
+              "Una fotografía tomada más cerca.",
+              "Una pieza para sustituir la gastada.",
+              "Un objeto que devuelve la vecina."
+            ],
+            "correct": "c",
+            "explanation": "Una pieza que sustituye a otra gastada."
+          },
+          "l274a-q5": {
+            "prompt": "¿Cuándo vuelve el atril al estante?",
+            "options": [
+              "Al día siguiente, con la pieza nueva.",
+              "Esa tarde, tras la comprobación y limpieza.",
+              "Antes de probar si sujeta las partituras.",
+              "Cuando se imprime la entrevista del boletín."
+            ],
+            "correct": "b",
+            "explanation": "Esa misma tarde, después de comprobarlo y limpiarlo."
+          },
+          "l274a-q6": {
+            "prompt": "¿Por qué se añade el resultado del día siguiente?",
+            "options": [
+              "Para introducir una segunda avería del atril.",
+              "Para demostrar que la foto había causado la avería.",
+              "Para explicar por qué Noa deja el boletín.",
+              "Para mostrar el resultado de cambiar la pieza."
+            ],
+            "correct": "d",
+            "explanation": "Para cerrar el caso de la bomba mostrando que funciona después del arreglo."
+          },
+          "l274a-q7": {
+            "prompt": "¿Cuál es el resumen más fiel?",
+            "options": [
+              "El atril se limpia y la bomba necesita una pieza interior y una nueva prueba.",
+              "Los dos objetos vuelven al estante en cuanto Adil acaba de fotografiarlos.",
+              "Noa descubre que el brillo de la bomba garantiza que puede prestarse.",
+              "La vecina repara el atril mientras Mercè cambia el balón del local."
+            ],
+            "correct": "a",
+            "explanation": "Mercè comprueba dos objetos: el atril solo necesita limpieza y la bomba, aunque brilla, necesita una pieza nueva y otra prueba."
+          }
+        }
+      },
+      {
+        "code": "L274A",
+        "language": "ca",
+        "questions": {
+          "l274a-q1": {
+            "prompt": "Per a què prepara la Noa l’entrevista?",
+            "options": [
+              "Per a una exposició de fotos.",
+              "Per al butlletí del barri.",
+              "Per vendre la manxa lluent.",
+              "Per a una presentació dels objectes prestats."
+            ],
+            "correct": "b",
+            "explanation": "Per al butlletí del barri."
+          },
+          "l274a-q2": {
+            "prompt": "Quin problema troba la Mercè a la manxa?",
+            "options": [
+              "El mànec està cobert de fang.",
+              "La pilota té una taca exterior.",
+              "El suport no aguanta les partitures.",
+              "Una peça de goma interior està gastada."
+            ],
+            "correct": "d",
+            "explanation": "Una petita peça de goma interior està gastada."
+          },
+          "l274a-q3": {
+            "prompt": "Per què la Mercè prova la manxa abans de respondre sobre la veïna?",
+            "options": [
+              "Vol comprovar el problema abans d’atribuir una causa.",
+              "Ja sap que la veïna va trencar el mànec.",
+              "Espera trobar fang dins de la pilota.",
+              "Necessita una fotografia per poder fer-la servir."
+            ],
+            "correct": "a",
+            "explanation": "El comentari descriu una dificultat, però ha de comprovar què passa amb l’objecte."
+          },
+          "l274a-q4": {
+            "prompt": "Què significa «recanvi» en aquesta història?",
+            "options": [
+              "Un torn diferent d’entrevista.",
+              "Una fotografia feta més a prop.",
+              "Una peça per substituir la gastada.",
+              "Un objecte que retorna la veïna."
+            ],
+            "correct": "c",
+            "explanation": "Una peça que en substitueix una altra de gastada."
+          },
+          "l274a-q5": {
+            "prompt": "Quan torna el faristol al prestatge?",
+            "options": [
+              "L’endemà, amb la peça nova.",
+              "Aquella tarda, després de comprovar-lo i netejar-lo.",
+              "Abans de provar si aguanta les partitures.",
+              "Quan s’imprimeix l’entrevista del butlletí."
+            ],
+            "correct": "b",
+            "explanation": "Aquella mateixa tarda, després de comprovar-lo i netejar-lo."
+          },
+          "l274a-q6": {
+            "prompt": "Per què s’afegeix el resultat de l’endemà?",
+            "options": [
+              "Per introduir una segona avaria del faristol.",
+              "Per demostrar que la foto havia causat l’avaria.",
+              "Per explicar per què la Noa deixa el butlletí.",
+              "Per mostrar el resultat de canviar la peça."
+            ],
+            "correct": "d",
+            "explanation": "Per tancar el cas de la manxa mostrant que funciona després de l’arranjament."
+          },
+          "l274a-q7": {
+            "prompt": "Quin és el resum més fidel?",
+            "options": [
+              "El faristol es neteja i la manxa necessita una peça interior i una nova prova.",
+              "Tots dos objectes tornen al prestatge tan aviat com l’Adil els acaba de fotografiar.",
+              "La Noa descobreix que la lluentor de la manxa garanteix que es pot deixar.",
+              "La veïna repara el faristol mentre la Mercè canvia la pilota del local."
+            ],
+            "correct": "a",
+            "explanation": "La Mercè comprova dos objectes: el faristol només necessita neteja i la manxa, encara que llueix, necessita una peça nova i una altra prova."
+          }
+        }
+      },
+      {
+        "code": "L274",
+        "language": "es",
+        "questions": {
+          "l274-q1": {
+            "prompt": "¿Qué tareas realiza Mercè en el servicio?",
+            "options": [
+              "Prepara las partituras de todas las actuaciones.",
+              "Escribe las entrevistas del boletín del barrio.",
+              "Fotografía las salidas de cada objeto prestado.",
+              "Revisa objetos y hace arreglos que conoce."
+            ],
+            "correct": "d",
+            "explanation": "Comprueba los objetos y hace los arreglos que conoce."
+          },
+          "l274-q2": {
+            "prompt": "¿Por qué le preocupa más la bomba que el atril al comienzo?",
+            "options": [
+              "Ya ha comprobado que el atril aguanta bien.",
+              "El aviso de la vecina apunta a una dificultad para inflar.",
+              "La limpieza de la bomba requiere más tiempo.",
+              "El recambio de la bomba ya ha llegado al local."
+            ],
+            "correct": "b",
+            "explanation": "Tiene un aviso sobre una dificultad de funcionamiento, aunque el exterior se vea limpio."
+          },
+          "l274-q3": {
+            "prompt": "¿Qué sucede al probar la bomba con el balón del local?",
+            "options": [
+              "El mango se mueve y entra muy poco aire.",
+              "El mango queda atascado y no se puede mover.",
+              "La bomba funciona tras limpiar las manchas.",
+              "El balón se infla, pero pierde enseguida el aire."
+            ],
+            "correct": "a",
+            "explanation": "El mango se mueve, pero casi no entra aire."
+          },
+          "l274-q4": {
+            "prompt": "¿Qué significa «encuadre» en el trabajo de Adil?",
+            "options": [
+              "La distancia entre la cámara y el objeto.",
+              "El ángulo con el que la luz llega al objeto.",
+              "La selección de lo que aparece en la foto.",
+              "La noticia que ocupa la primera página."
+            ],
+            "correct": "c",
+            "explanation": "La parte de la escena que incluye en una fotografía."
+          },
+          "l274-q5": {
+            "prompt": "¿Qué hace Mercè si encuentra una avería que no conoce?",
+            "options": [
+              "Deja que la persona que lo pide lo pruebe.",
+              "Lo limpia para devolverlo al estante enseguida.",
+              "Pide a Noa que decida según su apariencia.",
+              "Consulta a alguien con conocimiento del objeto."
+            ],
+            "correct": "d",
+            "explanation": "Busca ayuda de alguien que conozca ese objeto."
+          },
+          "l274-q6": {
+            "prompt": "¿Qué muestra que el atril vuelva antes al estante que la bomba?",
+            "options": [
+              "Los objetos brillantes se prestan siempre antes.",
+              "La apariencia no permite calcular sola el trabajo pendiente.",
+              "La fotografía puede sustituir las pruebas de funcionamiento.",
+              "Los objetos manchados requieren siempre recambios pequeños."
+            ],
+            "correct": "b",
+            "explanation": "Que la suciedad visible no determina por sí sola el trabajo necesario para volver a prestarlo."
+          },
+          "l274-q7": {
+            "prompt": "¿Qué efecto tiene repetir la pregunta sobre el arreglo favorito al final?",
+            "options": [
+              "Recupera una pregunta aplazada y cierra con una broma.",
+              "Demuestra que Noa ha olvidado la respuesta anterior.",
+              "Introduce la descripción de otra avería sin resolver.",
+              "Cambia a Mercè por una nueva persona entrevistada."
+            ],
+            "correct": "a",
+            "explanation": "Recupera una pregunta aplazada y permite cerrar la entrevista con humor."
+          },
+          "l274-q8": {
+            "prompt": "¿Qué prueba permite volver a ofrecer la bomba?",
+            "options": [
+              "La primera fotografía de su exterior brillante.",
+              "La llegada de la pieza antes de colocarla.",
+              "El resultado al probarla tras el cambio.",
+              "El comentario inicial de la vecina del barrio."
+            ],
+            "correct": "c",
+            "explanation": "La prueba después de sustituir la pieza, en la que el balón se infla con facilidad."
+          },
+          "l274-q9": {
+            "prompt": "¿Qué idea organiza la entrevista y el caso que incluye?",
+            "options": [
+              "La fotografía de las manchas permite descubrir cualquier avería.",
+              "Todos los objetos necesitan la misma limpieza antes de volver.",
+              "La dificultad de un arreglo depende del tamaño de las manchas.",
+              "Las comprobaciones descubren trabajo que el exterior no revela."
+            ],
+            "correct": "d",
+            "explanation": "El mantenimiento requiere observar y comprobar el funcionamiento; la apariencia no muestra todo el trabajo."
+          }
+        }
+      },
+      {
+        "code": "L274",
+        "language": "ca",
+        "questions": {
+          "l274-q1": {
+            "prompt": "Quines tasques fa la Mercè al servei?",
+            "options": [
+              "Prepara les partitures de totes les actuacions.",
+              "Escriu les entrevistes del butlletí del barri.",
+              "Fotografia les sortides de cada objecte prestat.",
+              "Revisa objectes i fa arranjaments que coneix."
+            ],
+            "correct": "d",
+            "explanation": "Comprova els objectes i fa els arranjaments que coneix."
+          },
+          "l274-q2": {
+            "prompt": "Per què la preocupa més la manxa que el faristol al començament?",
+            "options": [
+              "Ja ha comprovat que el faristol aguanta bé.",
+              "L’avís de la veïna apunta a una dificultat per inflar.",
+              "La neteja de la manxa requereix més temps.",
+              "El recanvi de la manxa ja ha arribat al local."
+            ],
+            "correct": "b",
+            "explanation": "Té un avís sobre una dificultat de funcionament, encara que l’exterior es vegi net."
+          },
+          "l274-q3": {
+            "prompt": "Què passa quan prova la manxa amb la pilota del local?",
+            "options": [
+              "El mànec es mou i hi entra molt poc aire.",
+              "El mànec queda encallat i no es pot moure.",
+              "La manxa funciona després de netejar les taques.",
+              "La pilota s’infla, però perd de seguida l’aire."
+            ],
+            "correct": "a",
+            "explanation": "El mànec es mou, però gairebé no hi entra aire."
+          },
+          "l274-q4": {
+            "prompt": "Què significa «enquadrament» en la feina de l’Adil?",
+            "options": [
+              "La distància entre la càmera i l’objecte.",
+              "L’angle amb què la llum arriba a l’objecte.",
+              "La selecció del que apareix a la foto.",
+              "La notícia que ocupa la primera pàgina."
+            ],
+            "correct": "c",
+            "explanation": "La part de l’escena que inclou en una fotografia."
+          },
+          "l274-q5": {
+            "prompt": "Què fa la Mercè si troba una avaria que no coneix?",
+            "options": [
+              "Deixa que la persona que el demana el provi.",
+              "El neteja per tornar-lo al prestatge de seguida.",
+              "Demana a la Noa que decideixi segons l’aparença.",
+              "Consulta algú amb coneixement de l’objecte."
+            ],
+            "correct": "d",
+            "explanation": "Busca ajuda d’algú que conegui aquell objecte."
+          },
+          "l274-q6": {
+            "prompt": "Què mostra que el faristol torni abans al prestatge que la manxa?",
+            "options": [
+              "Els objectes lluents es deixen sempre abans.",
+              "L’aparença no permet calcular tota sola la feina pendent.",
+              "La fotografia pot substituir les proves de funcionament.",
+              "Els objectes tacats sempre necessiten recanvis petits."
+            ],
+            "correct": "b",
+            "explanation": "Que la brutícia visible no determina per si sola la feina necessària per tornar-lo a deixar."
+          },
+          "l274-q7": {
+            "prompt": "Quin efecte té repetir la pregunta sobre l’arranjament preferit al final?",
+            "options": [
+              "Recupera una pregunta ajornada i tanca amb una broma.",
+              "Demostra que la Noa ha oblidat la resposta anterior.",
+              "Introdueix la descripció d’una altra avaria sense resoldre.",
+              "Canvia la Mercè per una nova persona entrevistada."
+            ],
+            "correct": "a",
+            "explanation": "Recupera una pregunta ajornada i permet tancar l’entrevista amb humor."
+          },
+          "l274-q8": {
+            "prompt": "Quina prova permet tornar a oferir la manxa?",
+            "options": [
+              "La primera fotografia de l’exterior lluent.",
+              "L’arribada de la peça abans de col·locar-la.",
+              "El resultat en provar-la després del canvi.",
+              "El comentari inicial de la veïna del barri."
+            ],
+            "correct": "c",
+            "explanation": "La prova després de substituir la peça, en què la pilota s’infla amb facilitat."
+          },
+          "l274-q9": {
+            "prompt": "Quina idea organitza l’entrevista i el cas que inclou?",
+            "options": [
+              "La fotografia de les taques permet descobrir qualsevol avaria.",
+              "Tots els objectes necessiten la mateixa neteja abans de tornar.",
+              "La dificultat d’un arranjament depèn de la mida de les taques.",
+              "Les comprovacions descobreixen feina que l’exterior no revela."
+            ],
+            "correct": "d",
+            "explanation": "El manteniment requereix observar i comprovar el funcionament; l’aparença no mostra tota la feina."
+          }
+        }
+      },
+      {
+        "code": "L274B",
+        "language": "es",
+        "questions": {
+          "l274b-q1": {
+            "prompt": "¿Con qué enfoque llega Noa a la entrevista?",
+            "options": [
+              "Con un listado de préstamos pendientes.",
+              "Con preguntas sobre el boletín vecinal.",
+              "Con preguntas sobre grandes reparaciones.",
+              "Con instrucciones para arreglar el balón."
+            ],
+            "correct": "c",
+            "explanation": "Con preguntas sobre herramientas y grandes reparaciones."
+          },
+          "l274b-q2": {
+            "prompt": "¿Por qué el comentario de la vecina es útil pero insuficiente para Mercè?",
+            "options": [
+              "Describe un resultado que aún debe investigar.",
+              "Identifica quién gastó la pieza interior.",
+              "Prueba que el balón del local está roto.",
+              "Demuestra que la bomba solo necesita limpieza."
+            ],
+            "correct": "a",
+            "explanation": "Orienta la prueba al describir una dificultad, pero aún debe comprobar el objeto y averiguar qué ocurre."
+          },
+          "l274b-q3": {
+            "prompt": "¿Qué hace que la bomba tarde en volver al estante en este caso?",
+            "options": [
+              "La espera de las fotos de Adil.",
+              "El tiempo que tarda en secarse el barro.",
+              "La ausencia de alguien que conozca el modelo.",
+              "La espera de una pieza de recambio."
+            ],
+            "correct": "d",
+            "explanation": "La espera de una pieza de recambio."
+          },
+          "l274b-q4": {
+            "prompt": "¿Qué significa «pie de foto»?",
+            "options": [
+              "El soporte que mantiene recta la cámara.",
+              "El texto breve que explica una fotografía.",
+              "La parte inferior que se corta al encuadrar.",
+              "La lista de personas que han hecho fotos."
+            ],
+            "correct": "b",
+            "explanation": "El texto breve que acompaña una fotografía y explica su contexto."
+          },
+          "l274b-q5": {
+            "prompt": "¿Por qué Noa tacha «Una tarde dedicada a limpiar»?",
+            "options": [
+              "La frase exagera la cantidad de barro del atril.",
+              "La frase anticipa un resultado que ya es falso.",
+              "La frase deja fuera una parte del trabajo observado.",
+              "La frase atribuye la entrevista a otra persona."
+            ],
+            "correct": "c",
+            "explanation": "Porque ha comprobado que también se investiga un problema interior y se espera un recambio."
+          },
+          "l274b-q6": {
+            "prompt": "¿Por qué descartan titular la foto «El arreglo más difícil»?",
+            "options": [
+              "La diferencia visual no demuestra mayor dificultad.",
+              "El atril todavía no ha sido probado con partituras.",
+              "La bomba ya funciona y el atril sigue desmontado.",
+              "La foto muestra la bomba en lugar del atril."
+            ],
+            "correct": "a",
+            "explanation": "El cambio visible del atril no demuestra que su trabajo haya sido el más difícil."
+          },
+          "l274b-q7": {
+            "prompt": "¿Qué aporta el episodio del día siguiente al reportaje?",
+            "options": [
+              "Un ejemplo distinto sin relación con la entrevista.",
+              "Una explicación de la causa de las manchas del atril.",
+              "Una lista de pasos para que el lector copie el arreglo.",
+              "El cierre del caso que había quedado pendiente."
+            ],
+            "correct": "d",
+            "explanation": "El desenlace del caso, con el resultado de la prueba tras la sustitución."
+          },
+          "l274b-q8": {
+            "prompt": "¿Qué se podría afirmar al final de la primera tarde, sin adelantar el desenlace?",
+            "options": [
+              "Que la bomba volvía a inflar con facilidad.",
+              "Que esperaban sustituir una pieza gastada.",
+              "Que el recambio nuevo también había fallado.",
+              "Que ya se había enviado el reportaje completo."
+            ],
+            "correct": "b",
+            "explanation": "Que habían encontrado una pieza gastada y esperaban el recambio."
+          },
+          "l274b-q9": {
+            "prompt": "¿Por qué la foto final necesita contexto escrito?",
+            "options": [
+              "Porque ninguna fotografía permite reconocer un balón.",
+              "Porque el texto sustituye una prueba que no se ha hecho.",
+              "Porque la imagen no cuenta sola la historia del arreglo.",
+              "Porque el balón es distinto del que usaron el primer día."
+            ],
+            "correct": "c",
+            "explanation": "El balón inflado por sí solo no explica el problema previo ni la prueba que lo relaciona con la bomba."
+          },
+          "l274b-q10": {
+            "prompt": "¿Qué resumen expresa mejor la evolución del reportaje?",
+            "options": [
+              "La observación cambia el enfoque hacia el trabajo que cuesta ver.",
+              "El reportaje confirma que las averías se reconocen por las manchas.",
+              "La entrevista se convierte en instrucciones para reparar cualquier bomba.",
+              "Las fotos demuestran que esperar un recambio evita hacer comprobaciones."
+            ],
+            "correct": "a",
+            "explanation": "Una entrevista pensada para grandes reparaciones acaba mostrando pruebas, esperas y límites de la apariencia mediante dos objetos."
+          }
+        }
+      },
+      {
+        "code": "L274B",
+        "language": "ca",
+        "questions": {
+          "l274b-q1": {
+            "prompt": "Amb quin enfocament arriba la Noa a l’entrevista?",
+            "options": [
+              "Amb una llista de préstecs pendents.",
+              "Amb preguntes sobre el butlletí veïnal.",
+              "Amb preguntes sobre grans reparacions.",
+              "Amb instruccions per arreglar la pilota."
+            ],
+            "correct": "c",
+            "explanation": "Amb preguntes sobre eines i grans reparacions."
+          },
+          "l274b-q2": {
+            "prompt": "Per què el comentari de la veïna és útil però insuficient per a la Mercè?",
+            "options": [
+              "Descriu un resultat que encara ha d’investigar.",
+              "Identifica qui va gastar la peça interior.",
+              "Prova que la pilota del local està trencada.",
+              "Demostra que la manxa només necessita neteja."
+            ],
+            "correct": "a",
+            "explanation": "Orienta la prova perquè descriu una dificultat, però encara ha de comprovar l’objecte i esbrinar què passa."
+          },
+          "l274b-q3": {
+            "prompt": "Què fa que la manxa trigui a tornar al prestatge en aquest cas?",
+            "options": [
+              "L’espera de les fotos de l’Adil.",
+              "El temps que triga a assecar-se el fang.",
+              "L’absència d’algú que conegui el model.",
+              "L’espera d’una peça de recanvi."
+            ],
+            "correct": "d",
+            "explanation": "L’espera d’una peça de recanvi."
+          },
+          "l274b-q4": {
+            "prompt": "Què significa «peu de foto»?",
+            "options": [
+              "El suport que manté dreta la càmera.",
+              "El text breu que explica una fotografia.",
+              "La part inferior que es talla en enquadrar.",
+              "La llista de persones que han fet fotos."
+            ],
+            "correct": "b",
+            "explanation": "El text breu que acompanya una fotografia i n’explica el context."
+          },
+          "l274b-q5": {
+            "prompt": "Per què la Noa ratlla «Una tarda dedicada a netejar»?",
+            "options": [
+              "La frase exagera la quantitat de fang del faristol.",
+              "La frase anticipa un resultat que ja és fals.",
+              "La frase deixa fora una part de la feina observada.",
+              "La frase atribueix l’entrevista a una altra persona."
+            ],
+            "correct": "c",
+            "explanation": "Perquè ha comprovat que també s’investiga un problema interior i s’espera un recanvi."
+          },
+          "l274b-q6": {
+            "prompt": "Per què descarten titular la foto «L’arranjament més difícil»?",
+            "options": [
+              "La diferència visual no demostra més dificultat.",
+              "El faristol encara no ha estat provat amb partitures.",
+              "La manxa ja funciona i el faristol continua desmuntat.",
+              "La foto mostra la manxa en lloc del faristol."
+            ],
+            "correct": "a",
+            "explanation": "El canvi visible del faristol no demostra que la seva feina hagi estat la més difícil."
+          },
+          "l274b-q7": {
+            "prompt": "Què aporta l’episodi de l’endemà al reportatge?",
+            "options": [
+              "Un exemple diferent sense relació amb l’entrevista.",
+              "Una explicació de la causa de les taques del faristol.",
+              "Una llista de passos perquè el lector copiï l’arranjament.",
+              "El tancament del cas que havia quedat pendent."
+            ],
+            "correct": "d",
+            "explanation": "El desenllaç del cas, amb el resultat de la prova després de la substitució."
+          },
+          "l274b-q8": {
+            "prompt": "Què es podria afirmar al final de la primera tarda, sense avançar el desenllaç?",
+            "options": [
+              "Que la manxa tornava a inflar amb facilitat.",
+              "Que esperaven substituir una peça gastada.",
+              "Que el recanvi nou també havia fallat.",
+              "Que ja s’havia enviat el reportatge complet."
+            ],
+            "correct": "b",
+            "explanation": "Que havien trobat una peça gastada i esperaven el recanvi."
+          },
+          "l274b-q9": {
+            "prompt": "Per què la foto final necessita context escrit?",
+            "options": [
+              "Perquè cap fotografia permet reconèixer una pilota.",
+              "Perquè el text substitueix una prova que no s’ha fet.",
+              "Perquè la imatge no explica tota sola la història de l’arranjament.",
+              "Perquè la pilota és diferent de la que van usar el primer dia."
+            ],
+            "correct": "c",
+            "explanation": "La pilota inflada tota sola no explica el problema previ ni la prova que la relaciona amb la manxa."
+          },
+          "l274b-q10": {
+            "prompt": "Quin resum expressa millor l’evolució del reportatge?",
+            "options": [
+              "L’observació canvia l’enfocament cap a la feina que costa veure.",
+              "El reportatge confirma que les avaries es reconeixen per les taques.",
+              "L’entrevista es converteix en instruccions per reparar qualsevol manxa.",
+              "Les fotos demostren que esperar un recanvi evita fer comprovacions."
+            ],
+            "correct": "a",
+            "explanation": "Una entrevista pensada per a grans reparacions acaba mostrant proves, esperes i límits de l’aparença mitjançant dos objectes."
+          }
+        }
+      }
+    ]
   }
 ];
