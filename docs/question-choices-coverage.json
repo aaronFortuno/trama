@@ -1,9 +1,9 @@
 {
   "date": "2026-11-26",
-  "totalWorks": 621,
-  "coveredWorks": 621,
+  "totalWorks": 624,
+  "coveredWorks": 624,
   "pendingWorks": 0,
-  "localizedAlternatives": 6422,
+  "localizedAlternatives": 6476,
   "ranges": [
     {
       "start": 1,
@@ -441,9 +441,9 @@
     },
     {
       "start": 311,
-      "end": 313,
-      "total": 9,
-      "covered": 9,
+      "end": 314,
+      "total": 12,
+      "covered": 12,
       "status": "complete"
     }
   ],
@@ -39171,6 +39171,285 @@
             },
             {
               "id": "l313b-q11",
+              "number": 11
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L314",
+      "baseCode": "L314",
+      "variant": false,
+      "level": "5-primary",
+      "difficulty": "intermediate",
+      "title": "La funció que va començar pel final",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l314-q1",
+              "number": 1
+            },
+            {
+              "id": "l314-q2",
+              "number": 2
+            },
+            {
+              "id": "l314-q3",
+              "number": 3
+            },
+            {
+              "id": "l314-q4",
+              "number": 4
+            },
+            {
+              "id": "l314-q5",
+              "number": 5
+            },
+            {
+              "id": "l314-q6",
+              "number": 6
+            },
+            {
+              "id": "l314-q7",
+              "number": 7
+            },
+            {
+              "id": "l314-q8",
+              "number": 8
+            },
+            {
+              "id": "l314-q9",
+              "number": 9
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l314-q1",
+              "number": 1
+            },
+            {
+              "id": "l314-q2",
+              "number": 2
+            },
+            {
+              "id": "l314-q3",
+              "number": 3
+            },
+            {
+              "id": "l314-q4",
+              "number": 4
+            },
+            {
+              "id": "l314-q5",
+              "number": 5
+            },
+            {
+              "id": "l314-q6",
+              "number": 6
+            },
+            {
+              "id": "l314-q7",
+              "number": 7
+            },
+            {
+              "id": "l314-q8",
+              "number": 8
+            },
+            {
+              "id": "l314-q9",
+              "number": 9
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L314A",
+      "baseCode": "L314",
+      "variant": true,
+      "level": "4-primary",
+      "difficulty": "intermediate",
+      "title": "La funció que va començar pel final",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l314a-q1",
+              "number": 1
+            },
+            {
+              "id": "l314a-q2",
+              "number": 2
+            },
+            {
+              "id": "l314a-q3",
+              "number": 3
+            },
+            {
+              "id": "l314a-q4",
+              "number": 4
+            },
+            {
+              "id": "l314a-q5",
+              "number": 5
+            },
+            {
+              "id": "l314a-q6",
+              "number": 6
+            },
+            {
+              "id": "l314a-q7",
+              "number": 7
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l314a-q1",
+              "number": 1
+            },
+            {
+              "id": "l314a-q2",
+              "number": 2
+            },
+            {
+              "id": "l314a-q3",
+              "number": 3
+            },
+            {
+              "id": "l314a-q4",
+              "number": 4
+            },
+            {
+              "id": "l314a-q5",
+              "number": 5
+            },
+            {
+              "id": "l314a-q6",
+              "number": 6
+            },
+            {
+              "id": "l314a-q7",
+              "number": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L314B",
+      "baseCode": "L314",
+      "variant": true,
+      "level": "6-primary",
+      "difficulty": "intermediate",
+      "title": "La funció que va començar pel final",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l314b-q1",
+              "number": 1
+            },
+            {
+              "id": "l314b-q2",
+              "number": 2
+            },
+            {
+              "id": "l314b-q3",
+              "number": 3
+            },
+            {
+              "id": "l314b-q4",
+              "number": 4
+            },
+            {
+              "id": "l314b-q5",
+              "number": 5
+            },
+            {
+              "id": "l314b-q6",
+              "number": 6
+            },
+            {
+              "id": "l314b-q7",
+              "number": 7
+            },
+            {
+              "id": "l314b-q8",
+              "number": 8
+            },
+            {
+              "id": "l314b-q9",
+              "number": 9
+            },
+            {
+              "id": "l314b-q10",
+              "number": 10
+            },
+            {
+              "id": "l314b-q11",
+              "number": 11
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l314b-q1",
+              "number": 1
+            },
+            {
+              "id": "l314b-q2",
+              "number": 2
+            },
+            {
+              "id": "l314b-q3",
+              "number": 3
+            },
+            {
+              "id": "l314b-q4",
+              "number": 4
+            },
+            {
+              "id": "l314b-q5",
+              "number": 5
+            },
+            {
+              "id": "l314b-q6",
+              "number": 6
+            },
+            {
+              "id": "l314b-q7",
+              "number": 7
+            },
+            {
+              "id": "l314b-q8",
+              "number": 8
+            },
+            {
+              "id": "l314b-q9",
+              "number": 9
+            },
+            {
+              "id": "l314b-q10",
+              "number": 10
+            },
+            {
+              "id": "l314b-q11",
               "number": 11
             }
           ]

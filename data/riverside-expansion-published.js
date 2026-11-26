@@ -12964,5 +12964,1828 @@ export const riversidePublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L314",
+    "edition": "v1.63.7",
+    "family": {
+      "id": "familia-l314",
+      "code": "L314",
+      "name": {
+        "es": "La función que empezó por el final",
+        "ca": "La funció que va començar pel final"
+      },
+      "description": {
+        "ca": "Una història dels Camins de la ribera, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de Los caminos de la ribera, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L314A",
+        "L314",
+        "L314B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "la-funcion-que-empezo-por-el-final-a-es",
+        "code": "L314A",
+        "workId": "la-funcion-que-empezo-por-el-final-a",
+        "language": "es",
+        "familyId": "familia-l314",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "news",
+        "title": "La función que empezó por el final",
+        "summary": "Una función en la plaza muestra primero un delantal mojado y después explica qué ha ocurrido.",
+        "paragraphs": [
+          "Ayer hubo una función en la plaza de la ribera. Neri e Isona, dos amigos del valle, se sentaron junto a Elna, la dueña del molino. La actriz Joana salió con un delantal húmedo. Representaba a una panadera y dijo: «El pan llegó seco; yo, no tanto». Isona se rio. Neri miró la cesta de panes que había sobre la mesa.",
+          "Joana dejó aquel delantal en un banco y se puso otro igual, pero seco. Entonces anunció: «Aquella mañana…». El relato volvió a un momento anterior. La panadera esperaba que un vecino le trajera los panes para la comida de la plaza.",
+          "El otro actor entró con la cesta. Al dejarla en la mesa, empujó una jarra. Joana levantó la parte delantera del delantal entre la jarra y los panes. La jarra estaba vacía: los actores representaban que contenía agua. Neri soltó una carcajada al reconocer cómo se había mojado la panadera del cuento.",
+          "La función había mostrado primero el desenlace y después su causa. Al terminar, Joana volvió a coger el delantal húmedo del banco. Isona repitió en voz baja la primera frase y Neri le señaló la cesta. Los vecinos aplaudieron mientras los actores recogían la mesa."
+        ],
+        "questions": [
+          {
+            "id": "l314a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Dónde se representó la función?",
+            "answer": "En la plaza de la ribera.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "hubo una función en la plaza de la ribera"
+              }
+            ]
+          },
+          {
+            "id": "l314a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué personaje representaba Joana?",
+            "answer": "Una panadera.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Representaba a una panadera"
+              }
+            ]
+          },
+          {
+            "id": "l314a-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué cambio hizo Joana antes de decir «Aquella mañana…»?",
+            "answer": "Dejó el delantal húmedo en un banco y se puso otro igual, pero seco.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "dejó aquel delantal en un banco y se puso otro igual, pero seco"
+              }
+            ]
+          },
+          {
+            "id": "l314a-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué hizo la panadera del cuento cuando la jarra se movió?",
+            "answer": "Levantó el delantal entre la jarra y los panes.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "levantó la parte delantera del delantal entre la jarra y los panes"
+              }
+            ]
+          },
+          {
+            "id": "l314a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué la primera frase dice que el pan llegó seco?",
+            "answer": "Porque el delantal había protegido los panes del agua en el cuento.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "El pan llegó seco; yo, no tanto"
+              },
+              {
+                "paragraph": 3,
+                "text": "entre la jarra y los panes"
+              }
+            ]
+          },
+          {
+            "id": "l314a-q6",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «desenlace» en la lectura?",
+            "answer": "El resultado final de la historia.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "había mostrado primero el desenlace y después su causa"
+              }
+            ]
+          },
+          {
+            "id": "l314a-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué ocurrió primero en el cuento, aunque se mostró después en la función?",
+            "answer": "El vecino empujó la jarra y la panadera protegió los panes con el delantal.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El relato volvió a un momento anterior."
+              },
+              {
+                "paragraph": 3,
+                "text": "Al dejarla en la mesa, empujó una jarra."
+              }
+            ]
+          },
+          {
+            "id": "l314a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Te gustaría conocer el final de un cuento antes de saber qué ha pasado? Explica por qué.",
+            "answer": "Respuesta personal justificada: puede preferir descubrir la causa, conservar la sorpresa del final u otra razón comprensible."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "desenlace",
+            "occurrence": 1,
+            "questionId": "l314a-q6"
+          }
+        ],
+        "images": [
+          {
+            "id": "l314-scene",
+            "src": "assets/readings/l314-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una actriz muestra un delantal húmedo en una función de la plaza; Neri, Isona y Elna la miran desde los bancos.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-funcion-que-empezo-por-el-final-a-ca",
+        "code": "L314A",
+        "workId": "la-funcion-que-empezo-por-el-final-a",
+        "language": "ca",
+        "familyId": "familia-l314",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "news",
+        "title": "La funció que va començar pel final",
+        "summary": "Una funció a la plaça mostra primer un davantal mullat i després explica què ha passat.",
+        "paragraphs": [
+          "Ahir hi va haver una funció a la plaça de la ribera. En Neri i l’Isona, dos amics de la vall, es van asseure al costat de l’Elna, la propietària del molí. L’actriu Joana va sortir amb un davantal humit. Representava una fornera i va dir: «El pa ha arribat sec; jo, no gaire». L’Isona va riure. En Neri es va mirar el cistell de pans que hi havia sobre la taula.",
+          "La Joana va deixar aquell davantal en un banc i se’n va posar un altre d’igual, però sec. Aleshores va anunciar: «Aquell matí…». El relat va tornar a un moment anterior. La fornera esperava que un veí li portés els pans per al dinar de la plaça.",
+          "L’altre actor va entrar amb el cistell. Quan el va deixar a la taula, va empènyer una gerra. La Joana va aixecar la part del davant del davantal entre la gerra i els pans. La gerra era buida: els actors representaven que contenia aigua. En Neri va deixar anar una riallada en reconèixer com s’havia mullat la fornera del conte.",
+          "La funció havia mostrat primer el desenllaç i després la causa. En acabar, la Joana va tornar a agafar el davantal humit del banc. L’Isona va repetir en veu baixa la primera frase i en Neri li va assenyalar el cistell. Els veïns van aplaudir mentre els actors recollien la taula."
+        ],
+        "questions": [
+          {
+            "id": "l314a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "On es va representar la funció?",
+            "answer": "A la plaça de la ribera.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "hi va haver una funció a la plaça de la ribera"
+              }
+            ]
+          },
+          {
+            "id": "l314a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quin personatge representava la Joana?",
+            "answer": "Una fornera.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Representava una fornera"
+              }
+            ]
+          },
+          {
+            "id": "l314a-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quin canvi va fer la Joana abans de dir «Aquell matí…»?",
+            "answer": "Va deixar el davantal humit en un banc i se’n va posar un altre d’igual, però sec.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "va deixar aquell davantal en un banc i se’n va posar un altre d’igual, però sec"
+              }
+            ]
+          },
+          {
+            "id": "l314a-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què va fer la fornera del conte quan la gerra es va moure?",
+            "answer": "Va aixecar el davantal entre la gerra i els pans.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "va aixecar la part del davant del davantal entre la gerra i els pans"
+              }
+            ]
+          },
+          {
+            "id": "l314a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la primera frase diu que el pa ha arribat sec?",
+            "answer": "Perquè el davantal havia protegit els pans de l’aigua al conte.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "El pa ha arribat sec; jo, no gaire"
+              },
+              {
+                "paragraph": 3,
+                "text": "entre la gerra i els pans"
+              }
+            ]
+          },
+          {
+            "id": "l314a-q6",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «desenllaç» a la lectura?",
+            "answer": "El resultat final de la història.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "havia mostrat primer el desenllaç i després la causa"
+              }
+            ]
+          },
+          {
+            "id": "l314a-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Què va passar primer al conte, tot i que es va mostrar després a la funció?",
+            "answer": "El veí va empènyer la gerra i la fornera va protegir els pans amb el davantal.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El relat va tornar a un moment anterior."
+              },
+              {
+                "paragraph": 3,
+                "text": "Quan el va deixar a la taula, va empènyer una gerra."
+              }
+            ]
+          },
+          {
+            "id": "l314a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "T’agradaria conèixer el final d’un conte abans de saber què ha passat? Explica per què.",
+            "answer": "Resposta personal justificada: pot preferir descobrir la causa, conservar la sorpresa del final o una altra raó entenedora."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "desenllaç",
+            "occurrence": 1,
+            "questionId": "l314a-q6"
+          }
+        ],
+        "images": [
+          {
+            "id": "l314-scene",
+            "src": "assets/readings/l314-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una actriu mostra un davantal humit en una funció a la plaça; en Neri, l’Isona i l’Elna se la miren des dels bancs.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-funcion-que-empezo-por-el-final-es",
+        "code": "L314",
+        "workId": "la-funcion-que-empezo-por-el-final",
+        "language": "es",
+        "familyId": "familia-l314",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "news",
+        "title": "La función que empezó por el final",
+        "summary": "Una noticia cuenta cómo una función cambió el orden de un cuento y provocó risas en distintos momentos.",
+        "paragraphs": [
+          "Una panadera con el delantal húmedo abrió ayer la función de la plaza de la ribera. Era Joana, una actriz que había llegado con su compañía por el camino de los campos. Entre el público estaban Neri e Isona, dos amigos del valle, y Elna, la dueña del molino. Sobre una mesa había una cesta de panes y una jarra de barro.",
+          "«El pan llegó seco; yo, no tanto», anunció la panadera. Isona se rio al oírla. Neri se fijó en la cesta y esperó que alguien explicara lo del delantal. Joana lo dejó sobre un banco y se puso otro igual, pero seco. «Aquella mañana…», dijo entonces. La representación retrocedió hasta el momento en que la panadera esperaba los panes para una comida vecinal.",
+          "Un segundo actor entró con la cesta. Representaba al vecino que llevaba los panes. Al apoyarla en la mesa, empujó una jarra. La panadera levantó la parte delantera de su delantal entre la jarra y los panes. Los actores simularon que se derramaba agua, aunque la jarra estaba vacía. La cesta quedó al otro lado de aquella tela levantada. Neri soltó una carcajada.",
+          "Joana volvió a coger el delantal húmedo del banco y repitió la primera frase. Esta vez Neri se rio antes de que terminara. La función había presentado el desenlace y después había mostrado su causa. Isona miró de nuevo la cesta: al principio había atendido más a la manera de hablar de la actriz que a los objetos.",
+          "Al acabar, los vecinos aplaudieron. Elna ayudó a retirar el banco, mientras los actores recogían la mesa. Neri e Isona siguieron diciendo la frase por turnos, cambiando la voz con la que la panadera contaba su llegada a la comida."
+        ],
+        "questions": [
+          {
+            "id": "l314-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Quién era Joana fuera del cuento representado?",
+            "answer": "Una actriz de la compañía que llegó a la plaza.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Era Joana, una actriz que había llegado con su compañía"
+              }
+            ]
+          },
+          {
+            "id": "l314-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué objetos había sobre la mesa al abrirse la función?",
+            "answer": "Una cesta de panes y una jarra de barro.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Sobre una mesa había una cesta de panes y una jarra de barro."
+              }
+            ]
+          },
+          {
+            "id": "l314-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿En qué se fijaron Isona y Neri al oír la primera frase?",
+            "answer": "Isona atendió más a cómo hablaba la actriz; Neri se fijó en la cesta y esperaba una explicación del delantal.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Neri se fijó en la cesta y esperó que alguien explicara lo del delantal."
+              },
+              {
+                "paragraph": 4,
+                "text": "había atendido más a la manera de hablar de la actriz que a los objetos"
+              }
+            ]
+          },
+          {
+            "id": "l314-q4",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué cambio de tiempo anuncia «Aquella mañana…»?",
+            "answer": "Que la representación vuelve a hechos anteriores al resultado que ya ha mostrado.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La representación retrocedió hasta el momento en que la panadera esperaba los panes"
+              }
+            ]
+          },
+          {
+            "id": "l314-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué provocó el movimiento de la jarra dentro del cuento?",
+            "answer": "El vecino la empujó al apoyar la cesta en la mesa.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Al apoyarla en la mesa, empujó una jarra."
+              }
+            ]
+          },
+          {
+            "id": "l314-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué relación explica que en el cuento se moje el delantal y se conserven secos los panes?",
+            "answer": "La panadera interpone la tela delante de los panes para detener el agua representada.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "levantó la parte delantera de su delantal entre la jarra y los panes"
+              }
+            ]
+          },
+          {
+            "id": "l314-q7",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «desenlace» en la noticia?",
+            "answer": "El resultado final de los hechos del cuento.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "había presentado el desenlace y después había mostrado su causa"
+              }
+            ]
+          },
+          {
+            "id": "l314-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Neri se ríe antes de que Joana termine la frase la segunda vez?",
+            "answer": "Porque ya ha visto la causa del delantal mojado y reconoce el sentido de la frase.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Neri soltó una carcajada."
+              },
+              {
+                "paragraph": 4,
+                "text": "Esta vez Neri se rio antes de que terminara."
+              }
+            ]
+          },
+          {
+            "id": "l314-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume el cuento en el orden en que suceden sus hechos, no en el orden de la función.",
+            "answer": "La panadera espera los panes. El vecino llega y empuja una jarra al dejar la cesta. Ella protege los panes con el delantal y después cuenta que el pan llegó seco y ella se mojó.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "la panadera esperaba los panes"
+              },
+              {
+                "paragraph": 3,
+                "text": "Al apoyarla en la mesa, empujó una jarra."
+              },
+              {
+                "paragraph": 4,
+                "text": "repitió la primera frase"
+              }
+            ]
+          },
+          {
+            "id": "l314-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué orden elegirías para representar este cuento? Explica qué efecto buscarías en el público.",
+            "answer": "Respuesta personal argumentada: puede elegir el orden cronológico o empezar por el resultado, justificando sorpresa, curiosidad, claridad u otro efecto."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "desenlace",
+            "occurrence": 1,
+            "questionId": "l314-q7"
+          }
+        ],
+        "images": [
+          {
+            "id": "l314-scene",
+            "src": "assets/readings/l314-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una actriz muestra un delantal húmedo en una función de la plaza; Neri, Isona y Elna la miran desde los bancos.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-funcion-que-empezo-por-el-final-ca",
+        "code": "L314",
+        "workId": "la-funcion-que-empezo-por-el-final",
+        "language": "ca",
+        "familyId": "familia-l314",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "news",
+        "title": "La funció que va començar pel final",
+        "summary": "Una notícia explica com una funció va canviar l’ordre d’un conte i va provocar rialles en moments diferents.",
+        "paragraphs": [
+          "Una fornera amb el davantal humit va obrir ahir la funció de la plaça de la ribera. Era la Joana, una actriu que havia arribat amb la seva companyia pel camí dels camps. Entre el públic hi havia en Neri i l’Isona, dos amics de la vall, i l’Elna, la propietària del molí. Sobre una taula hi havia un cistell de pans i una gerra de terrissa.",
+          "«El pa ha arribat sec; jo, no gaire», va anunciar la fornera. L’Isona va riure quan la va sentir. En Neri es va fixar en el cistell i va esperar que algú expliqués allò del davantal. La Joana el va deixar sobre un banc i se’n va posar un altre d’igual, però sec. «Aquell matí…», va dir aleshores. La representació va recular fins al moment en què la fornera esperava els pans per a un dinar veïnal.",
+          "Un segon actor va entrar amb el cistell. Representava el veí que portava els pans. Quan el va recolzar a la taula, va empènyer una gerra. La fornera va aixecar la part del davant del davantal entre la gerra i els pans. Els actors van simular que es vessava aigua, tot i que la gerra era buida. El cistell va quedar a l’altra banda d’aquella roba aixecada. En Neri va deixar anar una riallada.",
+          "La Joana va tornar a agafar el davantal humit del banc i va repetir la primera frase. Aquest cop en Neri va riure abans que acabés. La funció havia presentat el desenllaç i després n’havia mostrat la causa. L’Isona es va tornar a mirar el cistell: al principi s’havia fixat més en la manera de parlar de l’actriu que en els objectes.",
+          "En acabar, els veïns van aplaudir. L’Elna va ajudar a retirar el banc, mentre els actors recollien la taula. En Neri i l’Isona van continuar dient la frase per torns, canviant la veu amb què la fornera explicava l’arribada al dinar."
+        ],
+        "questions": [
+          {
+            "id": "l314-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Qui era la Joana fora del conte representat?",
+            "answer": "Una actriu de la companyia que va arribar a la plaça.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Era la Joana, una actriu que havia arribat amb la seva companyia"
+              }
+            ]
+          },
+          {
+            "id": "l314-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quins objectes hi havia sobre la taula en començar la funció?",
+            "answer": "Un cistell de pans i una gerra de terrissa.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Sobre una taula hi havia un cistell de pans i una gerra de terrissa."
+              }
+            ]
+          },
+          {
+            "id": "l314-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "En què es van fixar l’Isona i en Neri quan van sentir la primera frase?",
+            "answer": "L’Isona es va fixar més en com parlava l’actriu; en Neri es va fixar en el cistell i esperava una explicació del davantal.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "En Neri es va fixar en el cistell i va esperar que algú expliqués allò del davantal."
+              },
+              {
+                "paragraph": 4,
+                "text": "s’havia fixat més en la manera de parlar de l’actriu que en els objectes"
+              }
+            ]
+          },
+          {
+            "id": "l314-q4",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quin canvi de temps anuncia «Aquell matí…»?",
+            "answer": "Que la representació torna a fets anteriors al resultat que ja ha mostrat.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La representació va recular fins al moment en què la fornera esperava els pans"
+              }
+            ]
+          },
+          {
+            "id": "l314-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què va provocar el moviment de la gerra dins del conte?",
+            "answer": "El veí la va empènyer quan va recolzar el cistell a la taula.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Quan el va recolzar a la taula, va empènyer una gerra."
+              }
+            ]
+          },
+          {
+            "id": "l314-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina relació explica que al conte es mulli el davantal i es conservin secs els pans?",
+            "answer": "La fornera interposa la roba davant dels pans per aturar l’aigua representada.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "va aixecar la part del davant del davantal entre la gerra i els pans"
+              }
+            ]
+          },
+          {
+            "id": "l314-q7",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «desenllaç» a la notícia?",
+            "answer": "El resultat final dels fets del conte.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "havia presentat el desenllaç i després n’havia mostrat la causa"
+              }
+            ]
+          },
+          {
+            "id": "l314-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què en Neri riu abans que la Joana acabi la frase la segona vegada?",
+            "answer": "Perquè ja ha vist la causa del davantal mullat i reconeix el sentit de la frase.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "En Neri va deixar anar una riallada."
+              },
+              {
+                "paragraph": 4,
+                "text": "Aquest cop en Neri va riure abans que acabés."
+              }
+            ]
+          },
+          {
+            "id": "l314-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix el conte en l’ordre en què passen els fets, no en l’ordre de la funció.",
+            "answer": "La fornera espera els pans. El veí arriba i empeny una gerra quan deixa el cistell. Ella protegeix els pans amb el davantal i després explica que el pa ha arribat sec i ella s’ha mullat.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "la fornera esperava els pans"
+              },
+              {
+                "paragraph": 3,
+                "text": "Quan el va recolzar a la taula, va empènyer una gerra."
+              },
+              {
+                "paragraph": 4,
+                "text": "va repetir la primera frase"
+              }
+            ]
+          },
+          {
+            "id": "l314-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quin ordre triaries per representar aquest conte? Explica quin efecte buscaries en el públic.",
+            "answer": "Resposta personal argumentada: pot triar l’ordre cronològic o començar pel resultat, justificant sorpresa, curiositat, claredat o un altre efecte."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "desenllaç",
+            "occurrence": 1,
+            "questionId": "l314-q7"
+          }
+        ],
+        "images": [
+          {
+            "id": "l314-scene",
+            "src": "assets/readings/l314-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una actriu mostra un davantal humit en una funció a la plaça; en Neri, l’Isona i l’Elna se la miren des dels bancs.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-funcion-que-empezo-por-el-final-b-es",
+        "code": "L314B",
+        "workId": "la-funcion-que-empezo-por-el-final-b",
+        "language": "es",
+        "familyId": "familia-l314",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "news",
+        "title": "La función que empezó por el final",
+        "summary": "La noticia de una función permite reconstruir el cuento y distinguir lo que saben los personajes y el público.",
+        "paragraphs": [
+          "La función de ayer en la plaza de la ribera se abrió con una panadera que mostraba su delantal húmedo. La interpretaba Joana, una actriz llegada con su compañía por el camino de los campos. Sobre la mesa había una cesta de panes y una jarra de barro. Neri e Isona, dos amigos del valle, miraban desde un banco junto a Elna, la dueña del molino. La panadera anunció: «El pan llegó seco; yo, no tanto».",
+          "Isona se rio de la voz resignada con que Joana pronunció la frase. Neri miró la cesta y esperó una explicación sobre el delantal. Joana dejó la prenda húmeda en un banco y se puso otra igual, pero seca. Dijo «Aquella mañana…» y comenzó una escena anterior en el tiempo: la panadera esperaba los panes para una comida de vecinos. Algunos espectadores se inclinaron hacia delante cuando apareció el actor que representaba a quien debía entregarlos.",
+          "El vecino entró con la cesta. Al apoyarla sobre la mesa, empujó una jarra que estaba demasiado cerca. La panadera levantó la parte delantera del delantal y la interpuso entre la jarra y los panes. Los actores simularon que se derramaba agua, aunque el recipiente estaba vacío. La cesta quedó al otro lado de la tela levantada. Neri soltó una carcajada; Isona miró cómo Joana mantenía el gesto un instante antes de dejar caer el delantal.",
+          "La actriz volvió al banco, recuperó el delantal húmedo y repitió la frase inicial. Neri empezó a reír antes de que la terminara. El desenlace ya había aparecido al abrirse la función; ahora el público había visto la causa. La panadera del cuento conocía el incidente cuando pronunció la primera frase, mientras que los espectadores todavía buscaban qué había pasado. Isona se fijó otra vez en los objetos: al principio había atendido más al tono de la actriz.",
+          "Los aplausos llenaron la plaza. Elna ayudó a retirar el banco y los actores recogieron la mesa. Neri quería contarle la función a un vecino que no había podido venir. Empezó por la cesta y la jarra, se detuvo y probó con la frase del delantal. Isona hizo la voz de Joana. El vecino levantó las cejas y miró hacia los actores, que ya se marchaban con sus cosas."
+        ],
+        "questions": [
+          {
+            "id": "l314b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué mostraba Joana al comienzo y qué anunció su personaje?",
+            "answer": "Mostraba el delantal húmedo y la panadera anunció que el pan había llegado seco, pero ella se había mojado.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "mostraba su delantal húmedo"
+              },
+              {
+                "paragraph": 1,
+                "text": "El pan llegó seco; yo, no tanto"
+              }
+            ]
+          },
+          {
+            "id": "l314b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿En qué se diferencian las primeras reacciones de Isona y Neri?",
+            "answer": "Isona se ríe de la voz resignada; Neri se fija en la cesta y espera saber qué ha pasado con el delantal.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Isona se rio de la voz resignada"
+              },
+              {
+                "paragraph": 2,
+                "text": "Neri miró la cesta y esperó una explicación sobre el delantal."
+              }
+            ]
+          },
+          {
+            "id": "l314b-q3",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Por qué el cambio a un delantal seco ayuda a representar el salto temporal?",
+            "answer": "Porque muestra a la misma panadera antes del incidente que mojará la prenda.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "se puso otra igual, pero seca. Dijo «Aquella mañana…» y comenzó una escena anterior en el tiempo"
+              }
+            ]
+          },
+          {
+            "id": "l314b-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cómo se inicia el incidente de la jarra dentro de la historia representada?",
+            "answer": "El vecino empuja la jarra al apoyar la cesta sobre la mesa.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Al apoyarla sobre la mesa, empujó una jarra que estaba demasiado cerca."
+              }
+            ]
+          },
+          {
+            "id": "l314b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué explica que los panes estén secos cuando la panadera cuenta el resultado?",
+            "answer": "Que ha interpuesto el delantal entre la jarra y los panes, protegiéndolos del agua en el cuento.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "la interpuso entre la jarra y los panes"
+              }
+            ]
+          },
+          {
+            "id": "l314b-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué indica que el agua del cuento se representó sin verter agua real de la jarra?",
+            "answer": "Que los actores simularon el derrame y el recipiente estaba vacío.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Los actores simularon que se derramaba agua, aunque el recipiente estaba vacío."
+              }
+            ]
+          },
+          {
+            "id": "l314b-q7",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «desenlace» en esta noticia?",
+            "answer": "La situación final a la que llegan los hechos del cuento, que aquí se enseña al principio.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "El desenlace ya había aparecido al abrirse la función; ahora el público había visto la causa."
+              }
+            ]
+          },
+          {
+            "id": "l314b-q8",
+            "type": "literal",
+            "lines": 3,
+            "prompt": "¿Qué diferencia de información hay al principio entre la panadera del cuento y el público?",
+            "answer": "La panadera ya conoce el incidente del que habla; el público ve su resultado y todavía necesita descubrir la causa.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La panadera del cuento conocía el incidente cuando pronunció la primera frase, mientras que los espectadores todavía buscaban qué había pasado."
+              }
+            ]
+          },
+          {
+            "id": "l314b-q9",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Por qué la repetición de la frase no aporta al público exactamente la misma información que al principio?",
+            "answer": "Porque las palabras se repiten después de que el público haya visto la escena que explica el delantal húmedo.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "repitió la frase inicial"
+              },
+              {
+                "paragraph": 4,
+                "text": "ahora el público había visto la causa"
+              }
+            ]
+          },
+          {
+            "id": "l314b-q10",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué sugiere el cambio que hace Neri al empezar a contar la función al vecino?",
+            "answer": "Que prueba el mismo recurso de la función: despertar curiosidad contando antes la frase que expresa el resultado.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Empezó por la cesta y la jarra, se detuvo y probó con la frase del delantal."
+              },
+              {
+                "paragraph": 5,
+                "text": "El vecino levantó las cejas"
+              }
+            ]
+          },
+          {
+            "id": "l314b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué cambia de orden en esta función y qué se mantiene igual en el cuento.",
+            "answer": "La función muestra primero la panadera húmeda y después el incidente anterior. La relación causal se conserva: el vecino mueve la jarra y ella protege los panes con el delantal, que se moja.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "comenzó una escena anterior en el tiempo"
+              },
+              {
+                "paragraph": 3,
+                "text": "la interpuso entre la jarra y los panes"
+              },
+              {
+                "paragraph": 4,
+                "text": "El desenlace ya había aparecido al abrirse la función"
+              }
+            ]
+          },
+          {
+            "id": "l314b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿Crees que el comienzo elegido funciona para esta escena? Valóralo citando alguna reacción del público.",
+            "answer": "Valoración personal con apoyo: puede mencionar las risas de Isona, la espera de Neri, su risa anticipada o la curiosidad del vecino. Se aceptan lecturas favorables o críticas bien justificadas."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "desenlace",
+            "occurrence": 1,
+            "questionId": "l314b-q7"
+          }
+        ],
+        "images": [
+          {
+            "id": "l314-scene",
+            "src": "assets/readings/l314-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una actriz muestra un delantal húmedo en una función de la plaza; Neri, Isona y Elna la miran desde los bancos.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-funcion-que-empezo-por-el-final-b-ca",
+        "code": "L314B",
+        "workId": "la-funcion-que-empezo-por-el-final-b",
+        "language": "ca",
+        "familyId": "familia-l314",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "news",
+        "title": "La funció que va començar pel final",
+        "summary": "La notícia d’una funció permet reconstruir el conte i distingir allò que saben els personatges i el públic.",
+        "paragraphs": [
+          "La funció d’ahir a la plaça de la ribera es va obrir amb una fornera que mostrava el davantal humit. La interpretava la Joana, una actriu arribada amb la seva companyia pel camí dels camps. Sobre la taula hi havia un cistell de pans i una gerra de terrissa. En Neri i l’Isona, dos amics de la vall, miraven des d’un banc al costat de l’Elna, la propietària del molí. La fornera va anunciar: «El pa ha arribat sec; jo, no gaire».",
+          "L’Isona va riure de la veu resignada amb què la Joana va pronunciar la frase. En Neri es va mirar el cistell i va esperar una explicació sobre el davantal. La Joana va deixar la peça humida en un banc i se’n va posar una altra d’igual, però seca. Va dir «Aquell matí…» i va començar una escena anterior en el temps: la fornera esperava els pans per a un dinar de veïns. Alguns espectadors es van inclinar endavant quan va aparèixer l’actor que representava qui els havia de lliurar.",
+          "El veí va entrar amb el cistell. Quan el va recolzar sobre la taula, va empènyer una gerra que era massa a prop. La fornera va aixecar la part del davant del davantal i la va interposar entre la gerra i els pans. Els actors van simular que es vessava aigua, tot i que el recipient era buit. El cistell va quedar a l’altra banda de la roba aixecada. En Neri va deixar anar una riallada; l’Isona es va mirar com la Joana mantenia el gest un instant abans de deixar caure el davantal.",
+          "L’actriu va tornar al banc, va recuperar el davantal humit i va repetir la frase inicial. En Neri va començar a riure abans que l’acabés. El desenllaç ja havia aparegut en obrir-se la funció; ara el públic n’havia vist la causa. La fornera del conte coneixia l’incident quan va pronunciar la primera frase, mentre que els espectadors encara buscaven què havia passat. L’Isona es va tornar a fixar en els objectes: al principi havia atès més el to de l’actriu.",
+          "Els aplaudiments van omplir la plaça. L’Elna va ajudar a retirar el banc i els actors van recollir la taula. En Neri volia explicar la funció a un veí que no havia pogut venir. Va començar pel cistell i la gerra, es va aturar i va provar amb la frase del davantal. L’Isona va fer la veu de la Joana. El veí va aixecar les celles i va mirar cap als actors, que ja marxaven amb les seves coses."
+        ],
+        "questions": [
+          {
+            "id": "l314b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què mostrava la Joana al començament i què va anunciar el seu personatge?",
+            "answer": "Mostrava el davantal humit i la fornera va anunciar que el pa havia arribat sec, però ella s’havia mullat.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "mostrava el davantal humit"
+              },
+              {
+                "paragraph": 1,
+                "text": "El pa ha arribat sec; jo, no gaire"
+              }
+            ]
+          },
+          {
+            "id": "l314b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "En què es diferencien les primeres reaccions de l’Isona i en Neri?",
+            "answer": "L’Isona riu de la veu resignada; en Neri es fixa en el cistell i espera saber què ha passat amb el davantal.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "L’Isona va riure de la veu resignada"
+              },
+              {
+                "paragraph": 2,
+                "text": "En Neri es va mirar el cistell i va esperar una explicació sobre el davantal."
+              }
+            ]
+          },
+          {
+            "id": "l314b-q3",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Per què el canvi a un davantal sec ajuda a representar el salt temporal?",
+            "answer": "Perquè mostra la mateixa fornera abans de l’incident que mullarà la peça.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "se’n va posar una altra d’igual, però seca. Va dir «Aquell matí…» i va començar una escena anterior en el temps"
+              }
+            ]
+          },
+          {
+            "id": "l314b-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Com comença l’incident de la gerra dins de la història representada?",
+            "answer": "El veí empeny la gerra quan recolza el cistell sobre la taula.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Quan el va recolzar sobre la taula, va empènyer una gerra que era massa a prop."
+              }
+            ]
+          },
+          {
+            "id": "l314b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què explica que els pans siguin secs quan la fornera explica el resultat?",
+            "answer": "Que ha interposat el davantal entre la gerra i els pans, protegint-los de l’aigua al conte.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "la va interposar entre la gerra i els pans"
+              }
+            ]
+          },
+          {
+            "id": "l314b-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què indica que l’aigua del conte es va representar sense vessar aigua real de la gerra?",
+            "answer": "Que els actors van simular que es vessava i el recipient era buit.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Els actors van simular que es vessava aigua, tot i que el recipient era buit."
+              }
+            ]
+          },
+          {
+            "id": "l314b-q7",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «desenllaç» en aquesta notícia?",
+            "answer": "La situació final a què arriben els fets del conte, que aquí s’ensenya al principi.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "El desenllaç ja havia aparegut en obrir-se la funció; ara el públic n’havia vist la causa."
+              }
+            ]
+          },
+          {
+            "id": "l314b-q8",
+            "type": "literal",
+            "lines": 3,
+            "prompt": "Quina diferència d’informació hi ha al principi entre la fornera del conte i el públic?",
+            "answer": "La fornera ja coneix l’incident de què parla; el públic en veu el resultat i encara necessita descobrir-ne la causa.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La fornera del conte coneixia l’incident quan va pronunciar la primera frase, mentre que els espectadors encara buscaven què havia passat."
+              }
+            ]
+          },
+          {
+            "id": "l314b-q9",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Per què la repetició de la frase no aporta al públic exactament la mateixa informació que al principi?",
+            "answer": "Perquè les paraules es repeteixen després que el públic hagi vist l’escena que explica el davantal humit.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "va repetir la frase inicial"
+              },
+              {
+                "paragraph": 4,
+                "text": "ara el públic n’havia vist la causa"
+              }
+            ]
+          },
+          {
+            "id": "l314b-q10",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què suggereix el canvi que fa en Neri quan comença a explicar la funció al veí?",
+            "answer": "Que prova el mateix recurs de la funció: despertar curiositat explicant abans la frase que expressa el resultat.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Va començar pel cistell i la gerra, es va aturar i va provar amb la frase del davantal."
+              },
+              {
+                "paragraph": 5,
+                "text": "El veí va aixecar les celles"
+              }
+            ]
+          },
+          {
+            "id": "l314b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix què canvia d’ordre en aquesta funció i què es manté igual al conte.",
+            "answer": "La funció mostra primer la fornera humida i després l’incident anterior. La relació causal es conserva: el veí mou la gerra i ella protegeix els pans amb el davantal, que es mulla.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "va començar una escena anterior en el temps"
+              },
+              {
+                "paragraph": 3,
+                "text": "la va interposar entre la gerra i els pans"
+              },
+              {
+                "paragraph": 4,
+                "text": "El desenllaç ja havia aparegut en obrir-se la funció"
+              }
+            ]
+          },
+          {
+            "id": "l314b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Creus que el començament triat funciona per a aquesta escena? Valora’l citant alguna reacció del públic.",
+            "answer": "Valoració personal amb suport: pot esmentar les rialles de l’Isona, l’espera d’en Neri, la seva rialla anticipada o la curiositat del veí. S’accepten lectures favorables o crítiques ben justificades."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "desenllaç",
+            "occurrence": 1,
+            "questionId": "l314b-q7"
+          }
+        ],
+        "images": [
+          {
+            "id": "l314-scene",
+            "src": "assets/readings/l314-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una actriu mostra un davantal humit en una funció a la plaça; en Neri, l’Isona i l’Elna se la miren des dels bancs.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 3
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L314A",
+        "language": "es",
+        "questions": {
+          "l314a-q1": {
+            "prompt": "¿Dónde se representó la función?",
+            "options": [
+              "Dentro del molino de Elna.",
+              "En la plaza de la ribera.",
+              "En el banco de la panadería.",
+              "Junto a la mesa del comedor de Elna."
+            ],
+            "correct": "b",
+            "explanation": "En la plaza de la ribera."
+          },
+          "l314a-q2": {
+            "prompt": "¿Qué personaje representaba Joana?",
+            "options": [
+              "Una vecina que llevaba la cesta.",
+              "La dueña del molino.",
+              "Una panadera.",
+              "Una espectadora de la plaza."
+            ],
+            "correct": "c",
+            "explanation": "Una panadera."
+          },
+          "l314a-q3": {
+            "prompt": "¿Qué cambio hizo Joana antes de decir «Aquella mañana…»?",
+            "options": [
+              "Cambió el delantal húmedo por uno seco.",
+              "Cambió la cesta de panes por una jarra.",
+              "Recogió la mesa y se sentó en un banco.",
+              "Se puso el delantal húmedo que estaba en el banco."
+            ],
+            "correct": "a",
+            "explanation": "Dejó el delantal húmedo en un banco y se puso otro igual, pero seco."
+          },
+          "l314a-q4": {
+            "prompt": "¿Qué hizo la panadera del cuento cuando la jarra se movió?",
+            "options": [
+              "Retiró la cesta antes de que el vecino moviera la jarra.",
+              "Dejó la cesta sobre el delantal del banco.",
+              "Acercó el delantal del banco para cubrir la mesa.",
+              "Puso su delantal delante de los panes."
+            ],
+            "correct": "d",
+            "explanation": "Levantó el delantal entre la jarra y los panes."
+          },
+          "l314a-q5": {
+            "prompt": "¿Por qué la primera frase dice que el pan llegó seco?",
+            "options": [
+              "Porque el vecino dejó los panes antes de entrar en la plaza.",
+              "Porque el delantal quedó entre los panes y el agua representada.",
+              "Porque Joana cambió los panes húmedos por otros secos.",
+              "Porque Elna recibió la cesta cuando los actores recogían."
+            ],
+            "correct": "b",
+            "explanation": "Porque el delantal había protegido los panes del agua en el cuento."
+          },
+          "l314a-q6": {
+            "prompt": "¿Qué significa «desenlace» en la lectura?",
+            "options": [
+              "La llegada de los vecinos a la plaza.",
+              "El anuncio de un momento anterior.",
+              "El resultado con que acaba la historia.",
+              "La recogida de las sillas del público."
+            ],
+            "correct": "c",
+            "explanation": "El resultado final de la historia."
+          },
+          "l314a-q7": {
+            "prompt": "¿Qué ocurrió primero en el cuento, aunque se mostró después en la función?",
+            "options": [
+              "El vecino movió la jarra y la panadera levantó el delantal.",
+              "La panadera contó que el pan había llegado seco.",
+              "Joana recogió el delantal húmedo y el público aplaudió.",
+              "Isona repitió la frase y Neri señaló la cesta."
+            ],
+            "correct": "a",
+            "explanation": "El vecino empujó la jarra y la panadera protegió los panes con el delantal."
+          }
+        }
+      },
+      {
+        "code": "L314A",
+        "language": "ca",
+        "questions": {
+          "l314a-q1": {
+            "prompt": "On es va representar la funció?",
+            "options": [
+              "Dins del molí de l’Elna.",
+              "A la plaça de la ribera.",
+              "Al banc de la fleca.",
+              "Al costat de la taula del menjador de l’Elna."
+            ],
+            "correct": "b",
+            "explanation": "A la plaça de la ribera."
+          },
+          "l314a-q2": {
+            "prompt": "Quin personatge representava la Joana?",
+            "options": [
+              "Una veïna que portava el cistell.",
+              "La propietària del molí.",
+              "Una fornera.",
+              "Una espectadora de la plaça."
+            ],
+            "correct": "c",
+            "explanation": "Una fornera."
+          },
+          "l314a-q3": {
+            "prompt": "Quin canvi va fer la Joana abans de dir «Aquell matí…»?",
+            "options": [
+              "Va canviar el davantal humit per un de sec.",
+              "Va canviar el cistell de pans per una gerra.",
+              "Va recollir la taula i es va asseure en un banc.",
+              "Es va posar el davantal humit que hi havia al banc."
+            ],
+            "correct": "a",
+            "explanation": "Va deixar el davantal humit en un banc i se’n va posar un altre d’igual, però sec."
+          },
+          "l314a-q4": {
+            "prompt": "Què va fer la fornera del conte quan la gerra es va moure?",
+            "options": [
+              "Va retirar el cistell abans que el veí mogués la gerra.",
+              "Va deixar el cistell sobre el davantal del banc.",
+              "Va acostar el davantal del banc per cobrir la taula.",
+              "Va posar el seu davantal davant dels pans."
+            ],
+            "correct": "d",
+            "explanation": "Va aixecar el davantal entre la gerra i els pans."
+          },
+          "l314a-q5": {
+            "prompt": "Per què la primera frase diu que el pa ha arribat sec?",
+            "options": [
+              "Perquè el veí va deixar els pans abans d’entrar a la plaça.",
+              "Perquè el davantal va quedar entre els pans i l’aigua representada.",
+              "Perquè la Joana va canviar els pans humits per uns altres de secs.",
+              "Perquè l’Elna va rebre el cistell quan els actors recollien."
+            ],
+            "correct": "b",
+            "explanation": "Perquè el davantal havia protegit els pans de l’aigua al conte."
+          },
+          "l314a-q6": {
+            "prompt": "Què vol dir «desenllaç» a la lectura?",
+            "options": [
+              "L’arribada dels veïns a la plaça.",
+              "L’anunci d’un moment anterior.",
+              "El resultat amb què acaba la història.",
+              "La recollida de les cadires del públic."
+            ],
+            "correct": "c",
+            "explanation": "El resultat final de la història."
+          },
+          "l314a-q7": {
+            "prompt": "Què va passar primer al conte, tot i que es va mostrar després a la funció?",
+            "options": [
+              "El veí va moure la gerra i la fornera va aixecar el davantal.",
+              "La fornera va explicar que el pa havia arribat sec.",
+              "La Joana va recollir el davantal humit i el públic va aplaudir.",
+              "L’Isona va repetir la frase i en Neri va assenyalar el cistell."
+            ],
+            "correct": "a",
+            "explanation": "El veí va empènyer la gerra i la fornera va protegir els pans amb el davantal."
+          }
+        }
+      },
+      {
+        "code": "L314",
+        "language": "es",
+        "questions": {
+          "l314-q1": {
+            "prompt": "¿Quién era Joana fuera del cuento representado?",
+            "options": [
+              "La panadera que preparó la comida del público.",
+              "La vecina que llevaba los panes al molino.",
+              "La dueña del molino que participaba en la fiesta.",
+              "Una actriz que representaba a una panadera."
+            ],
+            "correct": "d",
+            "explanation": "Una actriz de la compañía que llegó a la plaza."
+          },
+          "l314-q2": {
+            "prompt": "¿Qué objetos había sobre la mesa al abrirse la función?",
+            "options": [
+              "Una cesta de panes y una jarra de barro.",
+              "Un delantal seco y un banco pequeño.",
+              "La cesta vacía y el delantal húmedo.",
+              "Una jarra de agua y el banco del público."
+            ],
+            "correct": "a",
+            "explanation": "Una cesta de panes y una jarra de barro."
+          },
+          "l314-q3": {
+            "prompt": "¿En qué se fijaron Isona y Neri al oír la primera frase?",
+            "options": [
+              "Isona en el delantal seco y Neri en cómo hablaba Elna.",
+              "Isona en la voz de la actriz y Neri en la cesta y el delantal.",
+              "Ambos en la jarra y en la llegada del segundo actor.",
+              "Neri en la voz de Joana e Isona en cómo se mojaban los panes."
+            ],
+            "correct": "b",
+            "explanation": "Isona atendió más a cómo hablaba la actriz; Neri se fijó en la cesta y esperaba una explicación del delantal."
+          },
+          "l314-q4": {
+            "prompt": "¿Qué cambio de tiempo anuncia «Aquella mañana…»?",
+            "options": [
+              "Pasa del cuento a la llegada real de la compañía por la mañana.",
+              "Adelanta la historia hasta la recogida de la mesa.",
+              "Vuelve a lo que ocurrió antes del desenlace mostrado.",
+              "Repite el desenlace con otro personaje distinto."
+            ],
+            "correct": "c",
+            "explanation": "Que la representación vuelve a hechos anteriores al resultado que ya ha mostrado."
+          },
+          "l314-q5": {
+            "prompt": "¿Qué provocó el movimiento de la jarra dentro del cuento?",
+            "options": [
+              "El vecino apoyó la cesta y la empujó.",
+              "La panadera dejó el delantal sobre la jarra.",
+              "Elna movió el banco antes de los aplausos.",
+              "Joana retiró la cesta para cambiarse el delantal."
+            ],
+            "correct": "a",
+            "explanation": "El vecino la empujó al apoyar la cesta en la mesa."
+          },
+          "l314-q6": {
+            "prompt": "¿Qué relación explica que en el cuento se moje el delantal y se conserven secos los panes?",
+            "options": [
+              "El vecino cambia la cesta por otra mientras Joana habla.",
+              "La panadera coloca la jarra bajo el banco del público.",
+              "El agua se derrama después de que hayan retirado todos los panes.",
+              "La tela recibe el agua que habría alcanzado a los panes."
+            ],
+            "correct": "d",
+            "explanation": "La panadera interpone la tela delante de los panes para detener el agua representada."
+          },
+          "l314-q7": {
+            "prompt": "¿Qué significa «desenlace» en la noticia?",
+            "options": [
+              "La explicación previa de cómo iba a actuar la compañía.",
+              "El resultado al que llegan los hechos de la historia.",
+              "El cambio de personaje al ponerse otro delantal.",
+              "La despedida real de los actores tras recoger la mesa."
+            ],
+            "correct": "b",
+            "explanation": "El resultado final de los hechos del cuento."
+          },
+          "l314-q8": {
+            "prompt": "¿Por qué Neri se ríe antes de que Joana termine la frase la segunda vez?",
+            "options": [
+              "Ya sabe que Isona volverá a decir la frase con otra voz.",
+              "Ha comprobado que Elna está recogiendo el banco del escenario.",
+              "Ya conoce el incidente que da sentido a la frase.",
+              "Ve que el actor acaba de llenar la jarra que estaba vacía."
+            ],
+            "correct": "c",
+            "explanation": "Porque ya ha visto la causa del delantal mojado y reconoce el sentido de la frase."
+          },
+          "l314-q9": {
+            "prompt": "¿Qué opción resume el cuento siguiendo el orden de sus hechos?",
+            "options": [
+              "Espera el pan, ocurre el incidente con la jarra y la panadera cuenta el resultado.",
+              "La panadera cuenta el resultado, cambia de delantal y el público llega a la plaza.",
+              "El vecino trae el pan seco, Joana moja la cesta y Elna recoge el delantal.",
+              "Isona se ríe de la frase, el vecino llega y después la panadera espera los panes."
+            ],
+            "correct": "a",
+            "explanation": "La panadera espera los panes. El vecino llega y empuja una jarra al dejar la cesta. Ella protege los panes con el delantal y después cuenta que el pan llegó seco y ella se mojó."
+          }
+        }
+      },
+      {
+        "code": "L314",
+        "language": "ca",
+        "questions": {
+          "l314-q1": {
+            "prompt": "Qui era la Joana fora del conte representat?",
+            "options": [
+              "La fornera que va preparar el dinar del públic.",
+              "La veïna que portava els pans al molí.",
+              "La propietària del molí que participava a la festa.",
+              "Una actriu que representava una fornera."
+            ],
+            "correct": "d",
+            "explanation": "Una actriu de la companyia que va arribar a la plaça."
+          },
+          "l314-q2": {
+            "prompt": "Quins objectes hi havia sobre la taula en començar la funció?",
+            "options": [
+              "Un cistell de pans i una gerra de terrissa.",
+              "Un davantal sec i un banc petit.",
+              "El cistell buit i el davantal humit.",
+              "Una gerra d’aigua i el banc del públic."
+            ],
+            "correct": "a",
+            "explanation": "Un cistell de pans i una gerra de terrissa."
+          },
+          "l314-q3": {
+            "prompt": "En què es van fixar l’Isona i en Neri quan van sentir la primera frase?",
+            "options": [
+              "L’Isona en el davantal sec i en Neri en com parlava l’Elna.",
+              "L’Isona en la veu de l’actriu i en Neri en el cistell i el davantal.",
+              "Tots dos en la gerra i en l’arribada del segon actor.",
+              "En Neri en la veu de la Joana i l’Isona en com es mullaven els pans."
+            ],
+            "correct": "b",
+            "explanation": "L’Isona es va fixar més en com parlava l’actriu; en Neri es va fixar en el cistell i esperava una explicació del davantal."
+          },
+          "l314-q4": {
+            "prompt": "Quin canvi de temps anuncia «Aquell matí…»?",
+            "options": [
+              "Passa del conte a l’arribada real de la companyia al matí.",
+              "Avança la història fins a la recollida de la taula.",
+              "Torna a allò que va passar abans del desenllaç mostrat.",
+              "Repeteix el desenllaç amb un altre personatge diferent."
+            ],
+            "correct": "c",
+            "explanation": "Que la representació torna a fets anteriors al resultat que ja ha mostrat."
+          },
+          "l314-q5": {
+            "prompt": "Què va provocar el moviment de la gerra dins del conte?",
+            "options": [
+              "El veí va recolzar el cistell i la va empènyer.",
+              "La fornera va deixar el davantal sobre la gerra.",
+              "L’Elna va moure el banc abans dels aplaudiments.",
+              "La Joana va retirar el cistell per canviar-se el davantal."
+            ],
+            "correct": "a",
+            "explanation": "El veí la va empènyer quan va recolzar el cistell a la taula."
+          },
+          "l314-q6": {
+            "prompt": "Quina relació explica que al conte es mulli el davantal i es conservin secs els pans?",
+            "options": [
+              "El veí canvia el cistell per un altre mentre la Joana parla.",
+              "La fornera posa la gerra sota el banc del públic.",
+              "L’aigua es vessa després que hagin retirat tots els pans.",
+              "La roba rep l’aigua que hauria arribat als pans."
+            ],
+            "correct": "d",
+            "explanation": "La fornera interposa la roba davant dels pans per aturar l’aigua representada."
+          },
+          "l314-q7": {
+            "prompt": "Què vol dir «desenllaç» a la notícia?",
+            "options": [
+              "L’explicació prèvia de com actuaria la companyia.",
+              "El resultat a què arriben els fets de la història.",
+              "El canvi de personatge en posar-se un altre davantal.",
+              "El comiat real dels actors després de recollir la taula."
+            ],
+            "correct": "b",
+            "explanation": "El resultat final dels fets del conte."
+          },
+          "l314-q8": {
+            "prompt": "Per què en Neri riu abans que la Joana acabi la frase la segona vegada?",
+            "options": [
+              "Ja sap que l’Isona tornarà a dir la frase amb una altra veu.",
+              "Ha comprovat que l’Elna està recollint el banc de l’escenari.",
+              "Ja coneix l’incident que dona sentit a la frase.",
+              "Veu que l’actor acaba d’omplir la gerra que era buida."
+            ],
+            "correct": "c",
+            "explanation": "Perquè ja ha vist la causa del davantal mullat i reconeix el sentit de la frase."
+          },
+          "l314-q9": {
+            "prompt": "Quina opció resumeix el conte seguint l’ordre dels fets?",
+            "options": [
+              "Espera el pa, passa l’incident amb la gerra i la fornera explica el resultat.",
+              "La fornera explica el resultat, canvia de davantal i el públic arriba a la plaça.",
+              "El veí porta el pa sec, la Joana mulla el cistell i l’Elna recull el davantal.",
+              "L’Isona riu de la frase, arriba el veí i després la fornera espera els pans."
+            ],
+            "correct": "a",
+            "explanation": "La fornera espera els pans. El veí arriba i empeny una gerra quan deixa el cistell. Ella protegeix els pans amb el davantal i després explica que el pa ha arribat sec i ella s’ha mullat."
+          }
+        }
+      },
+      {
+        "code": "L314B",
+        "language": "es",
+        "questions": {
+          "l314b-q1": {
+            "prompt": "¿Qué mostraba Joana al comienzo y qué anunció su personaje?",
+            "options": [
+              "La cesta vacía; anunció que esperaban panes para la comida.",
+              "La jarra de barro; anunció que debía entregar agua al molino.",
+              "El delantal seco; anunció que el vecino había mojado los panes.",
+              "El delantal húmedo; anunció que los panes habían llegado secos."
+            ],
+            "correct": "d",
+            "explanation": "Mostraba el delantal húmedo y la panadera anunció que el pan había llegado seco, pero ella se había mojado."
+          },
+          "l314b-q2": {
+            "prompt": "¿En qué se diferencian las primeras reacciones de Isona y Neri?",
+            "options": [
+              "Ella atiende al tono; él busca la causa de lo que ve.",
+              "Ella entiende el incidente; él cree que han cambiado los panes.",
+              "Ella observa la jarra; él espera que llegue el público.",
+              "Ella reconoce al vecino; él trata de imitar la voz de Joana."
+            ],
+            "correct": "a",
+            "explanation": "Isona se ríe de la voz resignada; Neri se fija en la cesta y espera saber qué ha pasado con el delantal."
+          },
+          "l314b-q3": {
+            "prompt": "¿Por qué el cambio a un delantal seco ayuda a representar el salto temporal?",
+            "options": [
+              "Indica que Joana deja de ser panadera para representar al vecino.",
+              "Sitúa a la panadera antes del incidente cuyo resultado ya se ha visto.",
+              "Anuncia que la compañía repite la función porque el público llegó tarde.",
+              "Muestra que el delantal se ha secado mientras el vecino trae la cesta."
+            ],
+            "correct": "b",
+            "explanation": "Porque muestra a la misma panadera antes del incidente que mojará la prenda."
+          },
+          "l314b-q4": {
+            "prompt": "¿Cómo se inicia el incidente de la jarra dentro de la historia representada?",
+            "options": [
+              "Joana tira de la jarra al quitarse el primer delantal.",
+              "La cesta ya está en la mesa cuando Elna retira el banco.",
+              "El vecino coloca la cesta y empuja una jarra cercana.",
+              "La panadera acerca la jarra para dejar sitio a la cesta."
+            ],
+            "correct": "c",
+            "explanation": "El vecino empuja la jarra al apoyar la cesta sobre la mesa."
+          },
+          "l314b-q5": {
+            "prompt": "¿Qué explica que los panes estén secos cuando la panadera cuenta el resultado?",
+            "options": [
+              "El vecino ha llevado una cesta distinta después de derramarse el agua.",
+              "El banco ha recibido el agua antes de que alcanzara la mesa.",
+              "La panadera ha puesto el delantal para secar los panes al final.",
+              "La tela se ha situado en el recorrido del agua hacia los panes."
+            ],
+            "correct": "d",
+            "explanation": "Que ha interpuesto el delantal entre la jarra y los panes, protegiéndolos del agua en el cuento."
+          },
+          "l314b-q6": {
+            "prompt": "¿Qué indica que el agua del cuento se representó sin verter agua real de la jarra?",
+            "options": [
+              "El texto dice que simularon el derrame con la jarra vacía.",
+              "La primera frase afirma que la panadera no estaba húmeda.",
+              "Neri descubre que la cesta no contenía panes al llegar.",
+              "La actriz retira el delantal antes de que el vecino entre."
+            ],
+            "correct": "a",
+            "explanation": "Que los actores simularon el derrame y el recipiente estaba vacío."
+          },
+          "l314b-q7": {
+            "prompt": "¿Qué significa «desenlace» en esta noticia?",
+            "options": [
+              "El instante en que el vecino entra para entregar los panes.",
+              "El resultado final de los hechos que se representan.",
+              "La reacción de la primera persona del público que entiende el chiste.",
+              "El momento real en que la compañía abandona la plaza."
+            ],
+            "correct": "b",
+            "explanation": "La situación final a la que llegan los hechos del cuento, que aquí se enseña al principio."
+          },
+          "l314b-q8": {
+            "prompt": "¿Qué diferencia de información hay al principio entre la panadera del cuento y el público?",
+            "options": [
+              "El público conoce la causa porque tiene la jarra delante, pero la panadera no la ve.",
+              "Ambos conocen lo ocurrido y esperan únicamente saber qué dirá Neri.",
+              "La panadera sabe qué ha ocurrido y el público solo conoce el resultado mostrado.",
+              "La panadera ignora si el pan está seco y el público ya lo ha comprobado."
+            ],
+            "correct": "c",
+            "explanation": "La panadera ya conoce el incidente del que habla; el público ve su resultado y todavía necesita descubrir la causa."
+          },
+          "l314b-q9": {
+            "prompt": "¿Por qué la repetición de la frase no aporta al público exactamente la misma información que al principio?",
+            "options": [
+              "Porque la segunda vez la dice Isona y no la panadera del cuento.",
+              "Porque al repetirla se añade una frase que identifica al vecino.",
+              "Porque el delantal muestra ahora una consecuencia distinta.",
+              "Porque el público puede relacionar las mismas palabras con la causa que acaba de ver."
+            ],
+            "correct": "d",
+            "explanation": "Porque las palabras se repiten después de que el público haya visto la escena que explica el delantal húmedo."
+          },
+          "l314b-q10": {
+            "prompt": "¿Qué sugiere el cambio que hace Neri al empezar a contar la función al vecino?",
+            "options": [
+              "Ensaya empezar por el resultado para suscitar curiosidad.",
+              "Rectifica porque había confundido a Joana con la dueña del molino.",
+              "Evita contar la escena que el vecino ya había visto desde su casa.",
+              "Elimina del cuento el incidente con la jarra para acortarlo."
+            ],
+            "correct": "a",
+            "explanation": "Que prueba el mismo recurso de la función: despertar curiosidad contando antes la frase que expresa el resultado."
+          },
+          "l314b-q11": {
+            "prompt": "¿Qué resumen explica la relación entre el orden de la función y los hechos del cuento?",
+            "options": [
+              "El cuento cambia su causa, porque una jarra vacía ya no puede explicar el delantal.",
+              "El resultado se muestra primero, pero el incidente sigue siendo la causa dentro del cuento.",
+              "La función repite el resultado con otro personaje, mientras oculta qué ha pasado con el pan.",
+              "Los hechos se representan en el orden en que ocurren y solo se cambia la frase final."
+            ],
+            "correct": "b",
+            "explanation": "La función muestra primero la panadera húmeda y después el incidente anterior. La relación causal se conserva: el vecino mueve la jarra y ella protege los panes con el delantal, que se moja."
+          }
+        }
+      },
+      {
+        "code": "L314B",
+        "language": "ca",
+        "questions": {
+          "l314b-q1": {
+            "prompt": "Què mostrava la Joana al començament i què va anunciar el seu personatge?",
+            "options": [
+              "El cistell buit; va anunciar que esperaven pans per al dinar.",
+              "La gerra de terrissa; va anunciar que havia de lliurar aigua al molí.",
+              "El davantal sec; va anunciar que el veí havia mullat els pans.",
+              "El davantal humit; va anunciar que els pans havien arribat secs."
+            ],
+            "correct": "d",
+            "explanation": "Mostrava el davantal humit i la fornera va anunciar que el pa havia arribat sec, però ella s’havia mullat."
+          },
+          "l314b-q2": {
+            "prompt": "En què es diferencien les primeres reaccions de l’Isona i en Neri?",
+            "options": [
+              "Ella atén el to; ell busca la causa d’allò que veu.",
+              "Ella entén l’incident; ell creu que han canviat els pans.",
+              "Ella observa la gerra; ell espera que arribi el públic.",
+              "Ella reconeix el veí; ell prova d’imitar la veu de la Joana."
+            ],
+            "correct": "a",
+            "explanation": "L’Isona riu de la veu resignada; en Neri es fixa en el cistell i espera saber què ha passat amb el davantal."
+          },
+          "l314b-q3": {
+            "prompt": "Per què el canvi a un davantal sec ajuda a representar el salt temporal?",
+            "options": [
+              "Indica que la Joana deixa de ser fornera per representar el veí.",
+              "Situa la fornera abans de l’incident del qual ja s’ha vist el resultat.",
+              "Anuncia que la companyia repeteix la funció perquè el públic ha arribat tard.",
+              "Mostra que el davantal s’ha assecat mentre el veí porta el cistell."
+            ],
+            "correct": "b",
+            "explanation": "Perquè mostra la mateixa fornera abans de l’incident que mullarà la peça."
+          },
+          "l314b-q4": {
+            "prompt": "Com comença l’incident de la gerra dins de la història representada?",
+            "options": [
+              "La Joana estira la gerra quan es treu el primer davantal.",
+              "El cistell ja és a la taula quan l’Elna retira el banc.",
+              "El veí col·loca el cistell i empeny una gerra propera.",
+              "La fornera acosta la gerra per deixar lloc al cistell."
+            ],
+            "correct": "c",
+            "explanation": "El veí empeny la gerra quan recolza el cistell sobre la taula."
+          },
+          "l314b-q5": {
+            "prompt": "Què explica que els pans siguin secs quan la fornera explica el resultat?",
+            "options": [
+              "El veí ha portat un altre cistell després de vessar-se l’aigua.",
+              "El banc ha rebut l’aigua abans que arribés a la taula.",
+              "La fornera ha posat el davantal per eixugar els pans al final.",
+              "La roba s’ha situat en el recorregut de l’aigua cap als pans."
+            ],
+            "correct": "d",
+            "explanation": "Que ha interposat el davantal entre la gerra i els pans, protegint-los de l’aigua al conte."
+          },
+          "l314b-q6": {
+            "prompt": "Què indica que l’aigua del conte es va representar sense vessar aigua real de la gerra?",
+            "options": [
+              "El text diu que van simular que es vessava amb la gerra buida.",
+              "La primera frase afirma que la fornera no estava humida.",
+              "En Neri descobreix que el cistell no contenia pans en arribar.",
+              "L’actriu retira el davantal abans que entri el veí."
+            ],
+            "correct": "a",
+            "explanation": "Que els actors van simular que es vessava i el recipient era buit."
+          },
+          "l314b-q7": {
+            "prompt": "Què vol dir «desenllaç» en aquesta notícia?",
+            "options": [
+              "L’instant en què entra el veí per lliurar els pans.",
+              "El resultat final dels fets que es representen.",
+              "La reacció de la primera persona del públic que entén l’acudit.",
+              "El moment real en què la companyia abandona la plaça."
+            ],
+            "correct": "b",
+            "explanation": "La situació final a què arriben els fets del conte, que aquí s’ensenya al principi."
+          },
+          "l314b-q8": {
+            "prompt": "Quina diferència d’informació hi ha al principi entre la fornera del conte i el públic?",
+            "options": [
+              "El públic coneix la causa perquè té la gerra al davant, però la fornera no la veu.",
+              "Tots dos coneixen allò que ha passat i només esperen saber què dirà en Neri.",
+              "La fornera sap què ha passat i el públic només coneix el resultat mostrat.",
+              "La fornera ignora si el pa és sec i el públic ja ho ha comprovat."
+            ],
+            "correct": "c",
+            "explanation": "La fornera ja coneix l’incident de què parla; el públic en veu el resultat i encara necessita descobrir-ne la causa."
+          },
+          "l314b-q9": {
+            "prompt": "Per què la repetició de la frase no aporta al públic exactament la mateixa informació que al principi?",
+            "options": [
+              "Perquè la segona vegada la diu l’Isona i no la fornera del conte.",
+              "Perquè en repetir-la s’hi afegeix una frase que identifica el veí.",
+              "Perquè el davantal mostra ara una conseqüència diferent.",
+              "Perquè el públic pot relacionar les mateixes paraules amb la causa que acaba de veure."
+            ],
+            "correct": "d",
+            "explanation": "Perquè les paraules es repeteixen després que el públic hagi vist l’escena que explica el davantal humit."
+          },
+          "l314b-q10": {
+            "prompt": "Què suggereix el canvi que fa en Neri quan comença a explicar la funció al veí?",
+            "options": [
+              "Assaja començar pel resultat per despertar curiositat.",
+              "Rectifica perquè havia confós la Joana amb la propietària del molí.",
+              "Evita explicar l’escena que el veí ja havia vist des de casa seva.",
+              "Elimina del conte l’incident amb la gerra per escurçar-lo."
+            ],
+            "correct": "a",
+            "explanation": "Que prova el mateix recurs de la funció: despertar curiositat explicant abans la frase que expressa el resultat."
+          },
+          "l314b-q11": {
+            "prompt": "Quin resum explica la relació entre l’ordre de la funció i els fets del conte?",
+            "options": [
+              "El conte canvia de causa, perquè una gerra buida ja no pot explicar el davantal.",
+              "El resultat es mostra primer, però l’incident continua sent la causa dins del conte.",
+              "La funció repeteix el resultat amb un altre personatge, mentre amaga què ha passat amb el pa.",
+              "Els fets es representen en l’ordre en què passen i només es canvia la frase final."
+            ],
+            "correct": "b",
+            "explanation": "La funció mostra primer la fornera humida i després l’incident anterior. La relació causal es conserva: el veí mou la gerra i ella protegeix els pans amb el davantal, que es mulla."
+          }
+        }
+      }
+    ]
   }
 ];
