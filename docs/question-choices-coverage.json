@@ -1,9 +1,9 @@
 {
   "date": "2026-11-26",
-  "totalWorks": 510,
-  "coveredWorks": 510,
+  "totalWorks": 513,
+  "coveredWorks": 513,
   "pendingWorks": 0,
-  "localizedAlternatives": 4552,
+  "localizedAlternatives": 4606,
   "ranges": [
     {
       "start": 1,
@@ -392,9 +392,9 @@
     },
     {
       "start": 276,
-      "end": 276,
-      "total": 3,
-      "covered": 3,
+      "end": 277,
+      "total": 6,
+      "covered": 6,
       "status": "complete"
     }
   ],
@@ -29312,6 +29312,285 @@
             {
               "id": "l276b-q10",
               "number": 10
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L277",
+      "baseCode": "L277",
+      "variant": false,
+      "level": "1-secondary",
+      "difficulty": "intermediate",
+      "title": "Un gràfic amb un forat",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l277-q1",
+              "number": 1
+            },
+            {
+              "id": "l277-q2",
+              "number": 2
+            },
+            {
+              "id": "l277-q3",
+              "number": 3
+            },
+            {
+              "id": "l277-q4",
+              "number": 4
+            },
+            {
+              "id": "l277-q5",
+              "number": 5
+            },
+            {
+              "id": "l277-q6",
+              "number": 6
+            },
+            {
+              "id": "l277-q7",
+              "number": 7
+            },
+            {
+              "id": "l277-q8",
+              "number": 8
+            },
+            {
+              "id": "l277-q9",
+              "number": 9
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l277-q1",
+              "number": 1
+            },
+            {
+              "id": "l277-q2",
+              "number": 2
+            },
+            {
+              "id": "l277-q3",
+              "number": 3
+            },
+            {
+              "id": "l277-q4",
+              "number": 4
+            },
+            {
+              "id": "l277-q5",
+              "number": 5
+            },
+            {
+              "id": "l277-q6",
+              "number": 6
+            },
+            {
+              "id": "l277-q7",
+              "number": 7
+            },
+            {
+              "id": "l277-q8",
+              "number": 8
+            },
+            {
+              "id": "l277-q9",
+              "number": 9
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L277A",
+      "baseCode": "L277",
+      "variant": true,
+      "level": "6-primary",
+      "difficulty": "intermediate",
+      "title": "Un gràfic amb un forat",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l277a-q1",
+              "number": 1
+            },
+            {
+              "id": "l277a-q2",
+              "number": 2
+            },
+            {
+              "id": "l277a-q3",
+              "number": 3
+            },
+            {
+              "id": "l277a-q4",
+              "number": 4
+            },
+            {
+              "id": "l277a-q5",
+              "number": 5
+            },
+            {
+              "id": "l277a-q6",
+              "number": 6
+            },
+            {
+              "id": "l277a-q7",
+              "number": 7
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l277a-q1",
+              "number": 1
+            },
+            {
+              "id": "l277a-q2",
+              "number": 2
+            },
+            {
+              "id": "l277a-q3",
+              "number": 3
+            },
+            {
+              "id": "l277a-q4",
+              "number": 4
+            },
+            {
+              "id": "l277a-q5",
+              "number": 5
+            },
+            {
+              "id": "l277a-q6",
+              "number": 6
+            },
+            {
+              "id": "l277a-q7",
+              "number": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L277B",
+      "baseCode": "L277",
+      "variant": true,
+      "level": "1-secondary",
+      "difficulty": "advanced",
+      "title": "Un gràfic amb un forat",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l277b-q1",
+              "number": 1
+            },
+            {
+              "id": "l277b-q2",
+              "number": 2
+            },
+            {
+              "id": "l277b-q3",
+              "number": 3
+            },
+            {
+              "id": "l277b-q4",
+              "number": 4
+            },
+            {
+              "id": "l277b-q5",
+              "number": 5
+            },
+            {
+              "id": "l277b-q6",
+              "number": 6
+            },
+            {
+              "id": "l277b-q7",
+              "number": 7
+            },
+            {
+              "id": "l277b-q8",
+              "number": 8
+            },
+            {
+              "id": "l277b-q9",
+              "number": 9
+            },
+            {
+              "id": "l277b-q10",
+              "number": 10
+            },
+            {
+              "id": "l277b-q11",
+              "number": 11
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l277b-q1",
+              "number": 1
+            },
+            {
+              "id": "l277b-q2",
+              "number": 2
+            },
+            {
+              "id": "l277b-q3",
+              "number": 3
+            },
+            {
+              "id": "l277b-q4",
+              "number": 4
+            },
+            {
+              "id": "l277b-q5",
+              "number": 5
+            },
+            {
+              "id": "l277b-q6",
+              "number": 6
+            },
+            {
+              "id": "l277b-q7",
+              "number": 7
+            },
+            {
+              "id": "l277b-q8",
+              "number": 8
+            },
+            {
+              "id": "l277b-q9",
+              "number": 9
+            },
+            {
+              "id": "l277b-q10",
+              "number": 10
+            },
+            {
+              "id": "l277b-q11",
+              "number": 11
             }
           ]
         }

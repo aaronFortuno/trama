@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.59.9 · 26 de novembre del 2026
+
+L277: Un gràfic amb un forat. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 13 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.59.8 · 26 de novembre del 2026
 
 L276: Una carta a la caixa de tornada. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 12 històries independents. Contingut provisional, pendent de validació docent.

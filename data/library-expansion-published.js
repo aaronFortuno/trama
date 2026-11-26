@@ -14567,5 +14567,1818 @@ export const libraryPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L277",
+    "edition": "v1.59.9",
+    "family": {
+      "id": "familia-l277",
+      "code": "L277",
+      "name": {
+        "es": "Un gráfico con un hueco",
+        "ca": "Un gràfic amb un forat"
+      },
+      "description": {
+        "ca": "Una història de La biblioteca de les coses, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de La biblioteca de las cosas, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L277A",
+        "L277",
+        "L277B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "biblioteca-grafic-forat-a-es",
+        "code": "L277A",
+        "workId": "biblioteca-grafic-forat-a",
+        "language": "es",
+        "familyId": "familia-l277",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "math"
+        ],
+        "genre": "news",
+        "title": "Un gráfico con un hueco",
+        "summary": "Una noticia explica qué falta en un gráfico de préstamos de objetos.",
+        "paragraphs": [
+          "La biblioteca de las cosas ha añadido una segunda hoja a su balance de octubre. Este servicio de una asociación vecinal presta objetos que se usan de vez en cuando. Rosa, su coordinadora, presentó primero un gráfico con los préstamos realizados: veinticuatro de taladros y doce de un proyector. Cada préstamo contaba una vez, aunque durase varios días.",
+          "Adil, un estudiante que ayuda algunas tardes, estaba preparando una noticia para el boletín del barrio. Había escrito este título: «Los taladros interesan el doble». Al ver las barras, le pareció una conclusión clara. Rosa le enseñó entonces una libreta donde había apuntado también las peticiones que el servicio no había podido atender durante aquel mismo mes.",
+          "La libreta recogía seis peticiones de taladros sin atender porque estaban prestados. Del proyector había nueve: cinco coincidían con otro préstamo y cuatro con una reparación. Cada petición se anotaba una sola vez, aunque la persona volviera a preguntar por ella. Esas quince peticiones habían quedado fuera del gráfico inicial, dedicado únicamente a los préstamos que sí se hicieron.",
+          "Al sumar préstamos y peticiones sin atender, aparecen treinta solicitudes de taladros y veintiuna del proyector. Son solicitudes, no personas distintas: alguien pudo necesitar un objeto dos veces. Además, Rosa reconoce que alguna consulta rápida pudo quedarse sin apuntar. El nuevo balance reúne lo registrado; las conversaciones olvidadas siguen fuera del recuento y no pueden sumarse sin conocerlas.",
+          "Adil cambió el título por «Más préstamos de taladros, más peticiones sin atender del proyector». En la noticia incluyó los dos grupos de datos y explicó de dónde salían. Los veinticuatro préstamos siguen siendo el doble de doce; lo que ha cambiado es la pregunta que esas cifras permiten responder. Ahora el lector puede distinguir los préstamos de las necesidades anotadas.",
+          "El boletín publicará ambas hojas. La asociación todavía no ha decidido si comprará otro objeto: antes preguntará por las fechas en que suelen necesitarse. Rosa dejó la libreta junto al gráfico para explicarlo en la próxima reunión. Adil terminó la noticia y pidió que las dos hojas se imprimieran juntas, para que ninguna barra apareciera sola en el tablón."
+        ],
+        "questions": [
+          {
+            "id": "l277a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Cuántos préstamos de taladros se realizaron en octubre?",
+            "answer": "Se realizaron veinticuatro préstamos.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "veinticuatro de taladros y doce de un proyector"
+              }
+            ]
+          },
+          {
+            "id": "l277a-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué el primer título de Adil iba más allá de los datos del gráfico?",
+            "answer": "Confundía los préstamos realizados con todo el interés por los objetos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Los taladros interesan el doble"
+              },
+              {
+                "paragraph": 3,
+                "text": "dedicado únicamente a los préstamos que sí se hicieron"
+              }
+            ]
+          },
+          {
+            "id": "l277a-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué impidió atender cuatro peticiones del proyector?",
+            "answer": "El proyector estaba en reparación.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "cuatro con una reparación"
+              }
+            ]
+          },
+          {
+            "id": "l277a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «fuera del recuento» en esta noticia?",
+            "answer": "Que esas consultas no están incluidas en las cantidades registradas.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "las conversaciones olvidadas siguen fuera del recuento"
+              }
+            ]
+          },
+          {
+            "id": "l277a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Cómo se obtienen las treinta solicitudes registradas de taladros?",
+            "answer": "Sumando veinticuatro préstamos y seis peticiones sin atender.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "veinticuatro de taladros"
+              },
+              {
+                "paragraph": 3,
+                "text": "seis peticiones de taladros sin atender"
+              }
+            ]
+          },
+          {
+            "id": "l277a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué treinta solicitudes no demuestra que hubiera treinta personas distintas?",
+            "answer": "Una misma persona pudo realizar más de una solicitud.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "alguien pudo necesitar un objeto dos veces"
+              }
+            ]
+          },
+          {
+            "id": "l277a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume por qué se amplió el gráfico y qué permite entender ahora.",
+            "answer": "El gráfico solo contaba préstamos; al añadir las peticiones sin atender se entienden mejor las necesidades anotadas de los dos objetos.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "fuera del gráfico inicial"
+              },
+              {
+                "paragraph": 5,
+                "text": "incluyó los dos grupos de datos"
+              }
+            ]
+          },
+          {
+            "id": "l277a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué preguntarías a los usuarios antes de comprar otro objeto? Justifica para qué serviría.",
+            "answer": "Respuesta abierta: una pregunta concreta sobre necesidades o fechas y una explicación de su utilidad."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "fuera del recuento",
+            "occurrence": 1,
+            "questionId": "l277a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l277-scene",
+            "src": "assets/readings/l277-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Dos hojas con barras de colores, un cuaderno y un proyector sobre una mesa de madera.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-grafic-forat-a-ca",
+        "code": "L277A",
+        "workId": "biblioteca-grafic-forat-a",
+        "language": "ca",
+        "familyId": "familia-l277",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "math"
+        ],
+        "genre": "news",
+        "title": "Un gràfic amb un forat",
+        "summary": "Una notícia explica què falta en un gràfic de préstecs d’objectes.",
+        "paragraphs": [
+          "La biblioteca de les coses ha afegit un segon full al seu balanç d’octubre. Aquest servei d’una associació veïnal presta objectes que es fan servir de tant en tant. La Rosa, la coordinadora, va presentar primer un gràfic amb els préstecs fets: vint-i-quatre de trepants i dotze d’un projector. Cada préstec comptava una vegada, encara que durés diversos dies.",
+          "L’Adil, un estudiant que ajuda algunes tardes, preparava una notícia per al butlletí del barri. Havia escrit aquest títol: «Els trepants interessen el doble». En veure les barres, li va semblar una conclusió clara. La Rosa li va ensenyar aleshores una llibreta on havia apuntat també les peticions que el servei no havia pogut atendre durant aquell mateix mes.",
+          "La llibreta recollia sis peticions de trepants sense atendre perquè estaven prestats. Del projector n’hi havia nou: cinc coincidien amb un altre préstec i quatre amb una reparació. Cada petició s’anotava una sola vegada, encara que la persona tornés a preguntar per ella. Aquelles quinze peticions havien quedat fora del gràfic inicial, dedicat únicament als préstecs que sí que es van fer.",
+          "En sumar préstecs i peticions sense atendre, apareixen trenta sol·licituds de trepants i vint-i-una del projector. Són sol·licituds, no persones diferents: algú va poder necessitar un objecte dues vegades. A més, la Rosa reconeix que alguna consulta ràpida va poder quedar sense apuntar. El nou balanç reuneix allò registrat; les converses oblidades continuen fora del recompte i no es poden sumar sense conèixer-les.",
+          "L’Adil va canviar el títol per «Més préstecs de trepants, més peticions sense atendre del projector». A la notícia va incloure els dos grups de dades i va explicar d’on sortien. Els vint-i-quatre préstecs continuen sent el doble de dotze; el que ha canviat és la pregunta que aquestes xifres permeten respondre. Ara el lector pot distingir els préstecs de les necessitats anotades.",
+          "El butlletí publicarà tots dos fulls. L’associació encara no ha decidit si comprarà un altre objecte: abans preguntarà per les dates en què se solen necessitar. La Rosa va deixar la llibreta al costat del gràfic per explicar-ho a la pròxima reunió. L’Adil va acabar la notícia i va demanar que els dos fulls s’imprimissin junts, perquè cap barra aparegués sola al tauler."
+        ],
+        "questions": [
+          {
+            "id": "l277a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quants préstecs de trepants es van fer a l’octubre?",
+            "answer": "Es van fer vint-i-quatre préstecs.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "vint-i-quatre de trepants i dotze d’un projector"
+              }
+            ]
+          },
+          {
+            "id": "l277a-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què el primer títol de l’Adil anava més enllà de les dades del gràfic?",
+            "answer": "Confonia els préstecs fets amb tot l’interès pels objectes.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Els trepants interessen el doble"
+              },
+              {
+                "paragraph": 3,
+                "text": "dedicat únicament als préstecs que sí que es van fer"
+              }
+            ]
+          },
+          {
+            "id": "l277a-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què va impedir atendre quatre peticions del projector?",
+            "answer": "El projector estava en reparació.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "quatre amb una reparació"
+              }
+            ]
+          },
+          {
+            "id": "l277a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què significa «fora del recompte» en aquesta notícia?",
+            "answer": "Que aquestes consultes no estan incloses en les quantitats registrades.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "les converses oblidades continuen fora del recompte"
+              }
+            ]
+          },
+          {
+            "id": "l277a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Com s’obtenen les trenta sol·licituds registrades de trepants?",
+            "answer": "Sumant vint-i-quatre préstecs i sis peticions sense atendre.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "vint-i-quatre de trepants"
+              },
+              {
+                "paragraph": 3,
+                "text": "sis peticions de trepants sense atendre"
+              }
+            ]
+          },
+          {
+            "id": "l277a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què trenta sol·licituds no demostra que hi hagués trenta persones diferents?",
+            "answer": "Una mateixa persona va poder fer més d’una sol·licitud.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "algú va poder necessitar un objecte dues vegades"
+              }
+            ]
+          },
+          {
+            "id": "l277a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix per què es va ampliar el gràfic i què permet entendre ara.",
+            "answer": "El gràfic només comptava préstecs; en afegir les peticions sense atendre s’entenen millor les necessitats anotades dels dos objectes.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "fora del gràfic inicial"
+              },
+              {
+                "paragraph": 5,
+                "text": "va incloure els dos grups de dades"
+              }
+            ]
+          },
+          {
+            "id": "l277a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Què preguntaries als usuaris abans de comprar un altre objecte? Justifica per a què serviria.",
+            "answer": "Resposta oberta: una pregunta concreta sobre necessitats o dates i una explicació de la seva utilitat."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "fora del recompte",
+            "occurrence": 1,
+            "questionId": "l277a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l277-scene",
+            "src": "assets/readings/l277-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Dos fulls amb barres de colors, un quadern i un projector sobre una taula de fusta.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-grafic-forat-es",
+        "code": "L277",
+        "workId": "biblioteca-grafic-forat",
+        "language": "es",
+        "familyId": "familia-l277",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "math"
+        ],
+        "genre": "news",
+        "title": "Un gráfico con un hueco",
+        "summary": "El balance de un servicio vecinal cambia al incorporar solicitudes que no acabaron en préstamo.",
+        "paragraphs": [
+          "La biblioteca de las cosas publicará un balance de octubre con dos grupos de datos: los préstamos realizados y las peticiones que no pudo atender. El servicio, situado en el local de una asociación vecinal, presta objetos de uso ocasional. La ampliación del balance surgió mientras Adil, un estudiante que colabora algunas tardes, preparaba una noticia para el boletín del barrio.",
+          "El primer gráfico mostraba veinticuatro préstamos de taladros y doce de un proyector. Las barras estaban bien calculadas: cada salida de un objeto contaba una vez, durase uno o varios días. Adil propuso el título «Los taladros interesan el doble». Rosa, la coordinadora, le pidió que esperara y sacó una libreta que había usado durante ese mismo mes para apuntar las peticiones sin atender.",
+          "En la libreta figuraban seis peticiones de taladros rechazadas porque todos estaban prestados. Del proyector aparecían nueve: cinco coincidían con otro préstamo y cuatro con una reparación. Cada petición se anotaba una sola vez, aunque hubiera varias conversaciones sobre ella. La libreta y el registro de préstamos se referían al mismo periodo, de modo que podían leerse juntos sin mezclar meses distintos.",
+          "Sumar los préstamos y las peticiones sin atender da treinta solicitudes registradas de taladros y veintiuna del proyector. La diferencia entre ambos objetos pasa así de doce préstamos a nueve solicitudes. Rosa advirtió que una misma persona podía haber solicitado un objeto en fechas diferentes. El total cuenta ocasiones de uso pedidas al servicio; para saber cuántos vecinos distintos participaron haría falta otro recuento.",
+          "También hay un límite en la recogida de datos. Rosa reconoce que alguna consulta rápida, hecha al salir del local, pudo quedar sin anotar. Por eso la noticia habla de solicitudes registradas. Las preguntas que nadie escribió quedan fuera del recuento. La coordinadora no les atribuye una cantidad aproximada, porque no tiene una base para calcular cuántas fueron ni a qué objeto se referían.",
+          "Adil sustituyó el título por «Más préstamos de taladros, más peticiones sin atender del proyector». La comparación de veinticuatro con doce sigue siendo cierta para los préstamos. La de treinta con veintiuna responde a una pregunta más amplia: cuántas solicitudes quedaron anotadas, tanto si se atendieron como si no. El artículo incluye ambas comparaciones y explica las fuentes para que el lector sepa qué cuenta cada barra.",
+          "¿Hace falta comprar otro proyector? La asociación todavía no lo ha decidido. Las nueve peticiones sin atender justifican estudiar el problema, pero cuatro coincidieron con una reparación concreta. Antes de gastar dinero, Rosa preguntará por las fechas y las actividades para las que se necesita. Una coincidencia de muchas solicitudes en una tarde plantea una dificultad diferente de varias peticiones repartidas a lo largo del mes.",
+          "El boletín mostrará las dos hojas juntas y citará tanto el registro como la libreta. Para el mes siguiente, Rosa intentará apuntar también las consultas rápidas. Adil llevó una prueba de la noticia al local. Al verla, pidió dejar un poco más de espacio bajo las barras: la explicación del recuento había quedado demasiado pequeña y costaba leerla desde el otro lado del mostrador."
+        ],
+        "questions": [
+          {
+            "id": "l277-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué cuenta una unidad en el gráfico inicial?",
+            "answer": "Una salida en préstamo de un objeto, independientemente de su duración.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "cada salida de un objeto contaba una vez"
+              }
+            ]
+          },
+          {
+            "id": "l277-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué dato ausente del gráfico debilita el primer título de Adil?",
+            "answer": "Las peticiones sin atender también muestran interés, y no siguen la proporción de los préstamos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Los taladros interesan el doble"
+              },
+              {
+                "paragraph": 3,
+                "text": "seis peticiones de taladros"
+              },
+              {
+                "paragraph": 3,
+                "text": "Del proyector aparecían nueve"
+              }
+            ]
+          },
+          {
+            "id": "l277-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Cómo se reparten las nueve peticiones del proyector sin atender?",
+            "answer": "Cinco por otro préstamo y cuatro por una reparación.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "cinco coincidían con otro préstamo y cuatro con una reparación"
+              }
+            ]
+          },
+          {
+            "id": "l277-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cuál es la diferencia entre los totales de solicitudes registradas de ambos objetos?",
+            "answer": "Nueve solicitudes: treinta menos veintiuna.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "treinta solicitudes registradas de taladros y veintiuna del proyector"
+              }
+            ]
+          },
+          {
+            "id": "l277-q5",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa que unas consultas «quedan fuera del recuento»?",
+            "answer": "Que no se incluyen en las cantidades contabilizadas.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Las preguntas que nadie escribió quedan fuera del recuento."
+              }
+            ]
+          },
+          {
+            "id": "l277-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué el artículo precisa «solicitudes registradas»?",
+            "answer": "Porque algunas consultas pudieron quedar sin anotar y no se conoce su cantidad.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "alguna consulta rápida, hecha al salir del local, pudo quedar sin anotar"
+              }
+            ]
+          },
+          {
+            "id": "l277-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué función cumple explicar el registro y la libreta en esta noticia?",
+            "answer": "Permite identificar las fuentes y entender qué representa cada cantidad.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "explica las fuentes para que el lector sepa qué cuenta cada barra"
+              }
+            ]
+          },
+          {
+            "id": "l277-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué las nueve peticiones sin atender no cierran la decisión de compra?",
+            "answer": "Falta estudiar sus fechas y cuánto influyó la reparación concreta.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "cuatro coincidieron con una reparación concreta"
+              },
+              {
+                "paragraph": 7,
+                "text": "preguntará por las fechas y las actividades"
+              }
+            ]
+          },
+          {
+            "id": "l277-q9",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "¿Qué conclusión está mejor sustentada por los dos recuentos?",
+            "answer": "Los taladros tuvieron más préstamos, pero el proyector más peticiones registradas sin atender.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "veinticuatro préstamos de taladros y doce de un proyector"
+              },
+              {
+                "paragraph": 3,
+                "text": "seis peticiones de taladros"
+              },
+              {
+                "paragraph": 3,
+                "text": "Del proyector aparecían nueve"
+              }
+            ]
+          },
+          {
+            "id": "l277-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Propón un título distinto y explica por qué representa bien los datos conocidos.",
+            "answer": "Respuesta abierta: título coherente con los préstamos y las solicitudes, con una justificación que respete sus límites."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "quedan fuera del recuento",
+            "occurrence": 1,
+            "questionId": "l277-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l277-scene",
+            "src": "assets/readings/l277-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Dos hojas con barras de colores, un cuaderno y un proyector sobre una mesa de madera.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-grafic-forat-ca",
+        "code": "L277",
+        "workId": "biblioteca-grafic-forat",
+        "language": "ca",
+        "familyId": "familia-l277",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "math"
+        ],
+        "genre": "news",
+        "title": "Un gràfic amb un forat",
+        "summary": "El balanç d’un servei veïnal canvia en incorporar sol·licituds que no van acabar en préstec.",
+        "paragraphs": [
+          "La biblioteca de les coses publicarà un balanç d’octubre amb dos grups de dades: els préstecs fets i les peticions que no va poder atendre. El servei, situat al local d’una associació veïnal, presta objectes d’ús ocasional. L’ampliació del balanç va sorgir mentre l’Adil, un estudiant que col·labora algunes tardes, preparava una notícia per al butlletí del barri.",
+          "El primer gràfic mostrava vint-i-quatre préstecs de trepants i dotze d’un projector. Les barres estaven ben calculades: cada sortida d’un objecte comptava una vegada, durés un dia o diversos. L’Adil va proposar el títol «Els trepants interessen el doble». La Rosa, la coordinadora, li va demanar que esperés i va treure una llibreta que havia fet servir durant aquell mateix mes per apuntar les peticions sense atendre.",
+          "A la llibreta figuraven sis peticions de trepants rebutjades perquè tots estaven prestats. Del projector n’apareixien nou: cinc coincidien amb un altre préstec i quatre amb una reparació. Cada petició s’anotava una sola vegada, encara que hi hagués diverses converses sobre ella. La llibreta i el registre de préstecs es referien al mateix període, de manera que es podien llegir junts sense barrejar mesos diferents.",
+          "Sumar els préstecs i les peticions sense atendre dona trenta sol·licituds registrades de trepants i vint-i-una del projector. La diferència entre tots dos objectes passa així de dotze préstecs a nou sol·licituds. La Rosa va advertir que una mateixa persona podia haver sol·licitat un objecte en dates diferents. El total compta ocasions d’ús demanades al servei; per saber quants veïns diferents hi van participar caldria un altre recompte.",
+          "També hi ha un límit en la recollida de dades. La Rosa reconeix que alguna consulta ràpida, feta en sortir del local, va poder quedar sense anotar. Per això la notícia parla de sol·licituds registrades. Les preguntes que ningú va escriure queden fora del recompte. La coordinadora no els atribueix una quantitat aproximada, perquè no té una base per calcular quantes van ser ni a quin objecte es referien.",
+          "L’Adil va substituir el títol per «Més préstecs de trepants, més peticions sense atendre del projector». La comparació de vint-i-quatre amb dotze continua sent certa per als préstecs. La de trenta amb vint-i-una respon a una pregunta més àmplia: quantes sol·licituds van quedar anotades, tant si es van atendre com si no. L’article inclou totes dues comparacions i explica les fonts perquè el lector sàpiga què compta cada barra.",
+          "Cal comprar un altre projector? L’associació encara no ho ha decidit. Les nou peticions sense atendre justifiquen estudiar el problema, però quatre van coincidir amb una reparació concreta. Abans de gastar diners, la Rosa preguntarà per les dates i les activitats per a les quals es necessita. Una coincidència de moltes sol·licituds en una tarda planteja una dificultat diferent de diverses peticions repartides al llarg del mes.",
+          "El butlletí mostrarà tots dos fulls junts i citarà tant el registre com la llibreta. Per al mes següent, la Rosa intentarà apuntar també les consultes ràpides. L’Adil va portar una prova de la notícia al local. En veure-la, va demanar deixar una mica més d’espai sota les barres: l’explicació del recompte havia quedat massa petita i costava llegir-la des de l’altra banda del taulell."
+        ],
+        "questions": [
+          {
+            "id": "l277-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què compta una unitat al gràfic inicial?",
+            "answer": "Una sortida en préstec d’un objecte, independentment de la durada.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "cada sortida d’un objecte comptava una vegada"
+              }
+            ]
+          },
+          {
+            "id": "l277-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina dada absent del gràfic debilita el primer títol de l’Adil?",
+            "answer": "Les peticions sense atendre també mostren interès, i no segueixen la proporció dels préstecs.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Els trepants interessen el doble"
+              },
+              {
+                "paragraph": 3,
+                "text": "sis peticions de trepants"
+              },
+              {
+                "paragraph": 3,
+                "text": "Del projector n’apareixien nou"
+              }
+            ]
+          },
+          {
+            "id": "l277-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Com es reparteixen les nou peticions del projector sense atendre?",
+            "answer": "Cinc per un altre préstec i quatre per una reparació.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "cinc coincidien amb un altre préstec i quatre amb una reparació"
+              }
+            ]
+          },
+          {
+            "id": "l277-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina és la diferència entre els totals de sol·licituds registrades de tots dos objectes?",
+            "answer": "Nou sol·licituds: trenta menys vint-i-una.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "trenta sol·licituds registrades de trepants i vint-i-una del projector"
+              }
+            ]
+          },
+          {
+            "id": "l277-q5",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què significa que unes consultes «queden fora del recompte»?",
+            "answer": "Que no s’inclouen en les quantitats comptabilitzades.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Les preguntes que ningú va escriure queden fora del recompte."
+              }
+            ]
+          },
+          {
+            "id": "l277-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què l’article precisa «sol·licituds registrades»?",
+            "answer": "Perquè algunes consultes van poder quedar sense anotar i no se’n coneix la quantitat.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "alguna consulta ràpida, feta en sortir del local, va poder quedar sense anotar"
+              }
+            ]
+          },
+          {
+            "id": "l277-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quina funció fa explicar el registre i la llibreta en aquesta notícia?",
+            "answer": "Permet identificar les fonts i entendre què representa cada quantitat.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "explica les fonts perquè el lector sàpiga què compta cada barra"
+              }
+            ]
+          },
+          {
+            "id": "l277-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què les nou peticions sense atendre no tanquen la decisió de compra?",
+            "answer": "Falta estudiar-ne les dates i quant va influir la reparació concreta.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "quatre van coincidir amb una reparació concreta"
+              },
+              {
+                "paragraph": 7,
+                "text": "preguntarà per les dates i les activitats"
+              }
+            ]
+          },
+          {
+            "id": "l277-q9",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "Quina conclusió està més sustentada pels dos recomptes?",
+            "answer": "Els trepants van tenir més préstecs, però el projector més peticions registrades sense atendre.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "vint-i-quatre préstecs de trepants i dotze d’un projector"
+              },
+              {
+                "paragraph": 3,
+                "text": "sis peticions de trepants"
+              },
+              {
+                "paragraph": 3,
+                "text": "Del projector n’apareixien nou"
+              }
+            ]
+          },
+          {
+            "id": "l277-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Proposa un títol diferent i explica per què representa bé les dades conegudes.",
+            "answer": "Resposta oberta: títol coherent amb els préstecs i les sol·licituds, amb una justificació que en respecti els límits."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "queden fora del recompte",
+            "occurrence": 1,
+            "questionId": "l277-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l277-scene",
+            "src": "assets/readings/l277-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Dos fulls amb barres de colors, un quadern i un projector sobre una taula de fusta.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-grafic-forat-b-es",
+        "code": "L277B",
+        "workId": "biblioteca-grafic-forat-b",
+        "language": "es",
+        "familyId": "familia-l277",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "advanced",
+        "themes": [
+          "community",
+          "math"
+        ],
+        "genre": "news",
+        "title": "Un gráfico con un hueco",
+        "summary": "Una noticia contrasta préstamos, solicitudes y límites de un registro antes de proponer nuevas compras.",
+        "paragraphs": [
+          "El balance de octubre de la biblioteca de las cosas incorporará las peticiones sin atender. El servicio presta objetos de uso ocasional en el local de una asociación vecinal. La ampliación surgió al preparar una noticia para el boletín del barrio: el gráfico previsto mostraba únicamente los préstamos realizados.",
+          "Adil, un estudiante que colabora algunas tardes, había redactado el título «Los taladros interesan el doble». Se basaba en veinticuatro préstamos de taladros frente a doce de un proyector. La proporción era correcta para lo representado: cada salida contaba una vez, sin importar su duración. Sin embargo, el título hablaba del interés por los objetos, una idea más amplia que las operaciones completadas en el mostrador.",
+          "Rosa, la coordinadora del servicio, conservaba una libreta con las peticiones que no habían podido atender. Durante octubre anotó seis de taladros, todos ocupados en las fechas solicitadas. Del proyector registró nueve: cinco coincidieron con otro préstamo y cuatro con una reparación. Cada petición se anotaba una sola vez; una llamada posterior sobre la misma necesidad no abría otra entrada ni aumentaba el total de solicitudes.",
+          "Los dos registros cubren las mismas fechas. Leídos juntos, reúnen treinta solicitudes de taladros y veintiuna del proyector. La diferencia es de nueve solicitudes, frente a los doce préstamos de diferencia del gráfico inicial. Así, los taladros encabezan ambos totales, mientras que el proyector acumula más peticiones sin atender. Estas dos afirmaciones describen aspectos distintos del servicio y pueden sostenerse al mismo tiempo sin corregir ninguna suma.",
+          "La proporción de solicitudes sin atender también es diferente: seis de treinta en los taladros y nueve de veintiuna en el proyector. El boletín imprimirá la parte y el total correspondiente al lado de cada objeto, para que puedan compararse las proporciones de solicitudes que acabaron sin préstamo.",
+          "Rosa señala dos límites. Una persona pudo solicitar un objeto en varias ocasiones, por lo que el total de solicitudes no indica cuántos vecinos distintos participaron. Además, alguna consulta rápida pudo quedarse sin anotar. La noticia utilizará la expresión «solicitudes registradas»: las conversaciones olvidadas quedan fuera del recuento. No se les asignará una cifra estimada, porque se desconoce tanto su número como el objeto por el que preguntaban.",
+          "Al conocer las nueve peticiones sin atender, un vecino propuso comprar otro proyector. Rosa considera que la cifra merece atención, pero quiere revisar las fechas antes de llevar una propuesta a la asociación. Cuatro peticiones coincidieron con una avería concreta; las otras cinco, con usos ya reservados. Averiguar si esas cinco se concentraron en una tarde o se repartieron durante el mes ayudará a entender qué dificultad se repite.",
+          "Tampoco se sabe si octubre representa otros meses. El balance describe ese periodo y puede orientar las próximas preguntas, pero el servicio aún carece de una serie comparable de solicitudes sin atender. Rosa intentará recogerlas con mayor regularidad en noviembre. Adil le preguntó si entonces saldría necesariamente otro resultado. Ella respondió que unas anotaciones más completas permitirían comparar mejor, aunque todavía habría que esperar a conocer los datos.",
+          "El título definitivo será «Más préstamos de taladros, más peticiones sin atender del proyector». El texto distinguirá las fuentes y explicará la unidad que cuenta cada gráfico. La corrección afecta a la interpretación del primer dibujo, no a sus barras: veinticuatro sigue siendo el doble de doce. Al incorporar la libreta, el artículo puede tratar también las necesidades que llegaron al mostrador y acabaron sin un objeto que llevarse a casa.",
+          "La asociación decidirá más adelante si compra material o necesita más información. El boletín publicará las dos hojas juntas. Adil llevó una prueba impresa al local y pidió agrandar la explicación bajo las barras: apenas se leía a cierta distancia. Rosa apartó la libreta para desplegar la nueva prueba."
+        ],
+        "questions": [
+          {
+            "id": "l277b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué unidad se cuenta en el gráfico original?",
+            "answer": "Cada salida en préstamo, sea cual sea su duración.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "cada salida contaba una vez, sin importar su duración"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué salto hacía el primer título respecto de sus pruebas?",
+            "answer": "Pasaba de comparar operaciones completadas a afirmar cuánto interesaban los objetos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "una idea más amplia que las operaciones completadas en el mostrador"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Cómo se trata una segunda llamada sobre la misma petición?",
+            "answer": "No se añade una nueva solicitud.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una llamada posterior sobre la misma necesidad no abría otra entrada"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cuál es la diferencia entre las solicitudes totales de los dos objetos?",
+            "answer": "Nueve: treinta de taladros menos veintiuna del proyector.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "treinta solicitudes de taladros y veintiuna del proyector"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué comparación usa correctamente una parte y su total?",
+            "answer": "Seis de treinta solicitudes de taladros y nueve de veintiuna del proyector quedaron sin atender.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "seis de treinta en los taladros y nueve de veintiuna en el proyector"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q6",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué implica aquí «fuera del recuento»?",
+            "answer": "Que esas conversaciones no forman parte de los totales disponibles.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "las conversaciones olvidadas quedan fuera del recuento"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué dato exigiría un recuento distinto del presentado?",
+            "answer": "El número de vecinos distintos que hicieron solicitudes.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Una persona pudo solicitar un objeto en varias ocasiones"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué información quiere obtener Rosa antes de proponer una compra?",
+            "answer": "Cómo se distribuyeron las peticiones en el tiempo y qué papel tuvo la avería.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "quiere revisar las fechas"
+              },
+              {
+                "paragraph": 7,
+                "text": "Cuatro peticiones coincidieron con una avería concreta"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué un registro más completo en noviembre no permite anticipar sus resultados?",
+            "answer": "Mejora la información recogida, pero las solicitudes de noviembre todavía se desconocen.",
+            "evidence": [
+              {
+                "paragraph": 8,
+                "text": "todavía habría que esperar a conocer los datos"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q10",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué aporta el artículo al distinguir las fuentes y las unidades?",
+            "answer": "Permite comprobar qué respalda cada afirmación y qué cuenta cada cifra.",
+            "evidence": [
+              {
+                "paragraph": 9,
+                "text": "distinguirá las fuentes y explicará la unidad que cuenta cada gráfico"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume las dos conclusiones del balance que pueden ser ciertas al mismo tiempo.",
+            "answer": "Los taladros suman más solicitudes totales; el proyector, más solicitudes sin atender.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "los taladros encabezan ambos totales, mientras que el proyector acumula más peticiones sin atender"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿Qué información añadirías al próximo balance? Propón un dato concreto y justifica qué decisión ayudaría a estudiar.",
+            "answer": "Respuesta abierta: dato pertinente y una relación razonada con la compra, las fechas de uso o la organización."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 6,
+            "text": "fuera del recuento",
+            "occurrence": 1,
+            "questionId": "l277b-q6"
+          }
+        ],
+        "images": [
+          {
+            "id": "l277-scene",
+            "src": "assets/readings/l277-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Dos hojas con barras de colores, un cuaderno y un proyector sobre una mesa de madera.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 7
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-grafic-forat-b-ca",
+        "code": "L277B",
+        "workId": "biblioteca-grafic-forat-b",
+        "language": "ca",
+        "familyId": "familia-l277",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "advanced",
+        "themes": [
+          "community",
+          "math"
+        ],
+        "genre": "news",
+        "title": "Un gràfic amb un forat",
+        "summary": "Una notícia contrasta préstecs, sol·licituds i límits d’un registre abans de proposar noves compres.",
+        "paragraphs": [
+          "El balanç d’octubre de la biblioteca de les coses incorporarà les peticions sense atendre. El servei presta objectes d’ús ocasional al local d’una associació veïnal. L’ampliació va sorgir en preparar una notícia per al butlletí del barri: el gràfic previst mostrava únicament els préstecs fets.",
+          "L’Adil, un estudiant que col·labora algunes tardes, havia redactat el títol «Els trepants interessen el doble». Es basava en vint-i-quatre préstecs de trepants davant de dotze d’un projector. La proporció era correcta per a allò representat: cada sortida comptava una vegada, sense importar-ne la durada. Tanmateix, el títol parlava de l’interès pels objectes, una idea més àmplia que les operacions completades al taulell.",
+          "La Rosa, la coordinadora del servei, conservava una llibreta amb les peticions que no havien pogut atendre. Durant l’octubre en va anotar sis de trepants, tots ocupats en les dates sol·licitades. Del projector en va registrar nou: cinc van coincidir amb un altre préstec i quatre amb una reparació. Cada petició s’anotava una sola vegada; una trucada posterior sobre la mateixa necessitat no obria una altra entrada ni augmentava el total de sol·licituds.",
+          "Els dos registres cobreixen les mateixes dates. Llegits junts, reuneixen trenta sol·licituds de trepants i vint-i-una del projector. La diferència és de nou sol·licituds, davant dels dotze préstecs de diferència del gràfic inicial. Així, els trepants encapçalen tots dos totals, mentre que el projector acumula més peticions sense atendre. Aquestes dues afirmacions descriuen aspectes diferents del servei i es poden sostenir alhora sense corregir cap suma.",
+          "La proporció de sol·licituds sense atendre també és diferent: sis de trenta en els trepants i nou de vint-i-una en el projector. El butlletí imprimirà la part i el total corresponent al costat de cada objecte, perquè es puguin comparar les proporcions de sol·licituds que van acabar sense préstec.",
+          "La Rosa assenyala dos límits. Una persona va poder sol·licitar un objecte en diverses ocasions, de manera que el total de sol·licituds no indica quants veïns diferents hi van participar. A més, alguna consulta ràpida va poder quedar sense anotar. La notícia farà servir l’expressió «sol·licituds registrades»: les converses oblidades queden fora del recompte. No se’ls assignarà una xifra estimada, perquè se’n desconeix tant el nombre com l’objecte pel qual preguntaven.",
+          "En conèixer les nou peticions sense atendre, un veí va proposar comprar un altre projector. La Rosa considera que la xifra mereix atenció, però vol revisar les dates abans de portar una proposta a l’associació. Quatre peticions van coincidir amb una avaria concreta; les altres cinc, amb usos ja reservats. Esbrinar si aquestes cinc es van concentrar en una tarda o es van repartir durant el mes ajudarà a entendre quina dificultat es repeteix.",
+          "Tampoc se sap si l’octubre representa altres mesos. El balanç descriu aquell període i pot orientar les pròximes preguntes, però el servei encara no disposa d’una sèrie comparable de sol·licituds sense atendre. La Rosa intentarà recollir-les amb més regularitat al novembre. L’Adil li va preguntar si aleshores sortiria necessàriament un altre resultat. Ella va respondre que unes anotacions més completes permetrien comparar millor, encara que caldria esperar a conèixer les dades.",
+          "El títol definitiu serà «Més préstecs de trepants, més peticions sense atendre del projector». El text distingirà les fonts i explicarà la unitat que compta cada gràfic. La correcció afecta la interpretació del primer dibuix, no les seves barres: vint-i-quatre continua sent el doble de dotze. En incorporar la llibreta, l’article pot tractar també les necessitats que van arribar al taulell i van acabar sense un objecte per emportar-se a casa.",
+          "L’associació decidirà més endavant si compra material o necessita més informació. El butlletí publicarà els dos fulls junts. L’Adil va portar una prova impresa al local i va demanar engrandir l’explicació sota les barres: amb prou feines es llegia a certa distància. La Rosa va apartar la llibreta per desplegar la nova prova."
+        ],
+        "questions": [
+          {
+            "id": "l277b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quina unitat es compta al gràfic original?",
+            "answer": "Cada sortida en préstec, sigui quina sigui la durada.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "cada sortida comptava una vegada, sense importar-ne la durada"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quin salt feia el primer títol respecte de les seves proves?",
+            "answer": "Passava de comparar operacions completades a afirmar quant interessaven els objectes.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "una idea més àmplia que les operacions completades al taulell"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Com es tracta una segona trucada sobre la mateixa petició?",
+            "answer": "No s’afegeix una sol·licitud nova.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una trucada posterior sobre la mateixa necessitat no obria una altra entrada"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina és la diferència entre les sol·licituds totals dels dos objectes?",
+            "answer": "Nou: trenta de trepants menys vint-i-una del projector.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "trenta sol·licituds de trepants i vint-i-una del projector"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina comparació fa servir correctament una part i el seu total?",
+            "answer": "Sis de trenta sol·licituds de trepants i nou de vint-i-una del projector van quedar sense atendre.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "sis de trenta en els trepants i nou de vint-i-una en el projector"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q6",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què implica aquí «fora del recompte»?",
+            "answer": "Que aquestes converses no formen part dels totals disponibles.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "les converses oblidades queden fora del recompte"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina dada exigiria un recompte diferent del presentat?",
+            "answer": "El nombre de veïns diferents que van fer sol·licituds.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Una persona va poder sol·licitar un objecte en diverses ocasions"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina informació vol obtenir la Rosa abans de proposar una compra?",
+            "answer": "Com es van distribuir les peticions en el temps i quin paper va tenir l’avaria.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "vol revisar les dates"
+              },
+              {
+                "paragraph": 7,
+                "text": "Quatre peticions van coincidir amb una avaria concreta"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què un registre més complet al novembre no permet anticipar-ne els resultats?",
+            "answer": "Millora la informació recollida, però les sol·licituds del novembre encara es desconeixen.",
+            "evidence": [
+              {
+                "paragraph": 8,
+                "text": "caldria esperar a conèixer les dades"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q10",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Què aporta l’article en distingir les fonts i les unitats?",
+            "answer": "Permet comprovar què sosté cada afirmació i què compta cada xifra.",
+            "evidence": [
+              {
+                "paragraph": 9,
+                "text": "distingirà les fonts i explicarà la unitat que compta cada gràfic"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix les dues conclusions del balanç que poden ser certes alhora.",
+            "answer": "Els trepants sumen més sol·licituds totals; el projector, més sol·licituds sense atendre.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "els trepants encapçalen tots dos totals, mentre que el projector acumula més peticions sense atendre"
+              }
+            ]
+          },
+          {
+            "id": "l277b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Quina informació afegiries al pròxim balanç? Proposa una dada concreta i justifica quina decisió ajudaria a estudiar.",
+            "answer": "Resposta oberta: dada pertinent i una relació raonada amb la compra, les dates d’ús o l’organització."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 6,
+            "text": "fora del recompte",
+            "occurrence": 1,
+            "questionId": "l277b-q6"
+          }
+        ],
+        "images": [
+          {
+            "id": "l277-scene",
+            "src": "assets/readings/l277-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Dos fulls amb barres de colors, un quadern i un projector sobre una taula de fusta.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 7
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L277A",
+        "language": "es",
+        "questions": {
+          "l277a-q1": {
+            "prompt": "¿Cuántos préstamos de taladros se realizaron en octubre?",
+            "options": [
+              "Doce préstamos.",
+              "Veinticuatro préstamos.",
+              "Treinta préstamos.",
+              "Seis préstamos."
+            ],
+            "correct": "b",
+            "explanation": "Se realizaron veinticuatro préstamos."
+          },
+          "l277a-q2": {
+            "prompt": "¿Por qué el primer título de Adil iba más allá de los datos del gráfico?",
+            "options": [
+              "Comparaba meses con distinta duración.",
+              "Contaba dos veces cada reparación.",
+              "Sumaba personas y días de préstamo.",
+              "Extendía los préstamos a todo el interés."
+            ],
+            "correct": "d",
+            "explanation": "Confundía los préstamos realizados con todo el interés por los objetos."
+          },
+          "l277a-q3": {
+            "prompt": "¿Qué impidió atender cuatro peticiones del proyector?",
+            "options": [
+              "Una reparación del proyector.",
+              "La repetición de una consulta.",
+              "Un préstamo que seguía activo.",
+              "La pérdida de la libreta."
+            ],
+            "correct": "a",
+            "explanation": "El proyector estaba en reparación."
+          },
+          "l277a-q4": {
+            "prompt": "¿Qué significa «fuera del recuento» en esta noticia?",
+            "options": [
+              "Anotadas en una categoría distinta.",
+              "Eliminadas por repetirse varias veces.",
+              "Sin incluir en las cantidades registradas.",
+              "Aplazadas hasta la siguiente reunión."
+            ],
+            "correct": "c",
+            "explanation": "Que esas consultas no están incluidas en las cantidades registradas."
+          },
+          "l277a-q5": {
+            "prompt": "¿Cómo se obtienen las treinta solicitudes registradas de taladros?",
+            "options": [
+              "Sumando veinticuatro préstamos y seis peticiones.",
+              "Sumando veinticuatro préstamos y doce del proyector.",
+              "Sumando veintiuna solicitudes y nueve sin atender.",
+              "Duplicando las quince peticiones sin atender."
+            ],
+            "correct": "a",
+            "explanation": "Sumando veinticuatro préstamos y seis peticiones sin atender."
+          },
+          "l277a-q6": {
+            "prompt": "¿Por qué treinta solicitudes no demuestra que hubiera treinta personas distintas?",
+            "options": [
+              "Porque faltan los días de cada préstamo.",
+              "Porque algunas solicitudes quedaron sin atender.",
+              "Porque una persona pudo pedir varias veces.",
+              "Porque el gráfico incluye dos meses juntos."
+            ],
+            "correct": "c",
+            "explanation": "Una misma persona pudo realizar más de una solicitud."
+          },
+          "l277a-q7": {
+            "prompt": "¿Qué idea resume mejor la noticia?",
+            "options": [
+              "Una reparación obliga a retirar los taladros.",
+              "Otros datos completan el gráfico de préstamos.",
+              "El boletín anuncia la compra de otro proyector.",
+              "Adil descubre que las sumas estaban equivocadas."
+            ],
+            "correct": "b",
+            "explanation": "El gráfico solo contaba préstamos; al añadir las peticiones sin atender se entienden mejor las necesidades anotadas de los dos objetos."
+          }
+        }
+      },
+      {
+        "code": "L277A",
+        "language": "ca",
+        "questions": {
+          "l277a-q1": {
+            "prompt": "Quants préstecs de trepants es van fer a l’octubre?",
+            "options": [
+              "Dotze préstecs.",
+              "Vint-i-quatre préstecs.",
+              "Trenta préstecs.",
+              "Sis préstecs."
+            ],
+            "correct": "b",
+            "explanation": "Es van fer vint-i-quatre préstecs."
+          },
+          "l277a-q2": {
+            "prompt": "Per què el primer títol de l’Adil anava més enllà de les dades del gràfic?",
+            "options": [
+              "Comparava mesos amb una durada diferent.",
+              "Comptava dues vegades cada reparació.",
+              "Sumava persones i dies de préstec.",
+              "Estenia els préstecs a tot l’interès."
+            ],
+            "correct": "d",
+            "explanation": "Confonia els préstecs fets amb tot l’interès pels objectes."
+          },
+          "l277a-q3": {
+            "prompt": "Què va impedir atendre quatre peticions del projector?",
+            "options": [
+              "Una reparació del projector.",
+              "La repetició d’una consulta.",
+              "Un préstec que continuava actiu.",
+              "La pèrdua de la llibreta."
+            ],
+            "correct": "a",
+            "explanation": "El projector estava en reparació."
+          },
+          "l277a-q4": {
+            "prompt": "Què significa «fora del recompte» en aquesta notícia?",
+            "options": [
+              "Anotades en una categoria diferent.",
+              "Eliminades perquè es repeteixen diverses vegades.",
+              "Sense incloure en les quantitats registrades.",
+              "Ajornades fins a la reunió següent."
+            ],
+            "correct": "c",
+            "explanation": "Que aquestes consultes no estan incloses en les quantitats registrades."
+          },
+          "l277a-q5": {
+            "prompt": "Com s’obtenen les trenta sol·licituds registrades de trepants?",
+            "options": [
+              "Sumant vint-i-quatre préstecs i sis peticions.",
+              "Sumant vint-i-quatre préstecs i dotze del projector.",
+              "Sumant vint-i-una sol·licituds i nou sense atendre.",
+              "Duplicant les quinze peticions sense atendre."
+            ],
+            "correct": "a",
+            "explanation": "Sumant vint-i-quatre préstecs i sis peticions sense atendre."
+          },
+          "l277a-q6": {
+            "prompt": "Per què trenta sol·licituds no demostra que hi hagués trenta persones diferents?",
+            "options": [
+              "Perquè falten els dies de cada préstec.",
+              "Perquè algunes sol·licituds van quedar sense atendre.",
+              "Perquè una persona va poder demanar diverses vegades.",
+              "Perquè el gràfic inclou dos mesos junts."
+            ],
+            "correct": "c",
+            "explanation": "Una mateixa persona va poder fer més d’una sol·licitud."
+          },
+          "l277a-q7": {
+            "prompt": "Quina idea resumeix millor la notícia?",
+            "options": [
+              "Una reparació obliga a retirar els trepants.",
+              "Altres dades completen el gràfic de préstecs.",
+              "El butlletí anuncia la compra d’un altre projector.",
+              "L’Adil descobreix que les sumes eren equivocades."
+            ],
+            "correct": "b",
+            "explanation": "El gràfic només comptava préstecs; en afegir les peticions sense atendre s’entenen millor les necessitats anotades dels dos objectes."
+          }
+        }
+      },
+      {
+        "code": "L277",
+        "language": "es",
+        "questions": {
+          "l277-q1": {
+            "prompt": "¿Qué cuenta una unidad en el gráfico inicial?",
+            "options": [
+              "Un día con un objeto prestado.",
+              "Una persona que visitaba el servicio.",
+              "Una salida de un objeto prestado.",
+              "Una conversación sobre una solicitud."
+            ],
+            "correct": "c",
+            "explanation": "Una salida en préstamo de un objeto, independientemente de su duración."
+          },
+          "l277-q2": {
+            "prompt": "¿Qué dato ausente del gráfico debilita el primer título de Adil?",
+            "options": [
+              "Se anotaron más peticiones sin atender del proyector.",
+              "Los préstamos de taladros duraron más días.",
+              "La libreta reunía datos del mes siguiente.",
+              "Cada conversación equivalía a otro préstamo."
+            ],
+            "correct": "a",
+            "explanation": "Las peticiones sin atender también muestran interés, y no siguen la proporción de los préstamos."
+          },
+          "l277-q3": {
+            "prompt": "¿Cómo se reparten las nueve peticiones del proyector sin atender?",
+            "options": [
+              "Seis por préstamos y tres por reparación.",
+              "Cuatro por préstamos y cinco por reparación.",
+              "Nueve por coincidir con otros préstamos.",
+              "Cinco por préstamos y cuatro por reparación."
+            ],
+            "correct": "d",
+            "explanation": "Cinco por otro préstamo y cuatro por una reparación."
+          },
+          "l277-q4": {
+            "prompt": "¿Cuál es la diferencia entre los totales de solicitudes registradas de ambos objetos?",
+            "options": [
+              "Tres solicitudes.",
+              "Nueve solicitudes.",
+              "Doce solicitudes.",
+              "Quince solicitudes."
+            ],
+            "correct": "b",
+            "explanation": "Nueve solicitudes: treinta menos veintiuna."
+          },
+          "l277-q5": {
+            "prompt": "¿Qué significa que unas consultas «quedan fuera del recuento»?",
+            "options": [
+              "Se reservan para compararlas el mes siguiente.",
+              "Se reparten entre las dos categorías existentes.",
+              "No entran en las cantidades que se cuentan.",
+              "Se descartan por proceder de usuarios repetidos."
+            ],
+            "correct": "c",
+            "explanation": "Que no se incluyen en las cantidades contabilizadas."
+          },
+          "l277-q6": {
+            "prompt": "¿Por qué el artículo precisa «solicitudes registradas»?",
+            "options": [
+              "Para delimitar los datos que se conocen.",
+              "Para excluir todas las peticiones rechazadas.",
+              "Para indicar que cada vecino aparece una vez.",
+              "Para sumar las conversaciones que se olvidaron."
+            ],
+            "correct": "a",
+            "explanation": "Porque algunas consultas pudieron quedar sin anotar y no se conoce su cantidad."
+          },
+          "l277-q7": {
+            "prompt": "¿Qué función cumple explicar el registro y la libreta en esta noticia?",
+            "options": [
+              "Convertir el texto en instrucciones de préstamo.",
+              "Presentar dos opiniones que se contradicen.",
+              "Sustituir las cifras por recuerdos personales.",
+              "Aclarar el origen y el alcance de las cifras."
+            ],
+            "correct": "d",
+            "explanation": "Permite identificar las fuentes y entender qué representa cada cantidad."
+          },
+          "l277-q8": {
+            "prompt": "¿Por qué las nueve peticiones sin atender no cierran la decisión de compra?",
+            "options": [
+              "Porque únicamente pueden contarse préstamos realizados.",
+              "Porque conviene conocer cuándo surgió la dificultad.",
+              "Porque nueve solicitudes son nueve vecinos distintos.",
+              "Porque el registro de taladros ya resuelve la compra."
+            ],
+            "correct": "b",
+            "explanation": "Falta estudiar sus fechas y cuánto influyó la reparación concreta."
+          },
+          "l277-q9": {
+            "prompt": "¿Qué conclusión está mejor sustentada por los dos recuentos?",
+            "options": [
+              "Hubo más préstamos de taladros y más peticiones sin atender del proyector.",
+              "El proyector se solicitó más veces en total que los taladros.",
+              "Los taladros interesaron exactamente al doble de personas.",
+              "Las reparaciones explican todas las solicitudes sin atender."
+            ],
+            "correct": "a",
+            "explanation": "Los taladros tuvieron más préstamos, pero el proyector más peticiones registradas sin atender."
+          }
+        }
+      },
+      {
+        "code": "L277",
+        "language": "ca",
+        "questions": {
+          "l277-q1": {
+            "prompt": "Què compta una unitat al gràfic inicial?",
+            "options": [
+              "Un dia amb un objecte prestat.",
+              "Una persona que visitava el servei.",
+              "Una sortida d’un objecte prestat.",
+              "Una conversa sobre una sol·licitud."
+            ],
+            "correct": "c",
+            "explanation": "Una sortida en préstec d’un objecte, independentment de la durada."
+          },
+          "l277-q2": {
+            "prompt": "Quina dada absent del gràfic debilita el primer títol de l’Adil?",
+            "options": [
+              "Es van anotar més peticions sense atendre del projector.",
+              "Els préstecs de trepants van durar més dies.",
+              "La llibreta reunia dades del mes següent.",
+              "Cada conversa equivalia a un altre préstec."
+            ],
+            "correct": "a",
+            "explanation": "Les peticions sense atendre també mostren interès, i no segueixen la proporció dels préstecs."
+          },
+          "l277-q3": {
+            "prompt": "Com es reparteixen les nou peticions del projector sense atendre?",
+            "options": [
+              "Sis per préstecs i tres per reparació.",
+              "Quatre per préstecs i cinc per reparació.",
+              "Nou per coincidir amb altres préstecs.",
+              "Cinc per préstecs i quatre per reparació."
+            ],
+            "correct": "d",
+            "explanation": "Cinc per un altre préstec i quatre per una reparació."
+          },
+          "l277-q4": {
+            "prompt": "Quina és la diferència entre els totals de sol·licituds registrades de tots dos objectes?",
+            "options": [
+              "Tres sol·licituds.",
+              "Nou sol·licituds.",
+              "Dotze sol·licituds.",
+              "Quinze sol·licituds."
+            ],
+            "correct": "b",
+            "explanation": "Nou sol·licituds: trenta menys vint-i-una."
+          },
+          "l277-q5": {
+            "prompt": "Què significa que unes consultes «queden fora del recompte»?",
+            "options": [
+              "Es reserven per comparar-les el mes següent.",
+              "Es reparteixen entre les dues categories existents.",
+              "No entren en les quantitats que es compten.",
+              "Es descarten perquè provenen d’usuaris repetits."
+            ],
+            "correct": "c",
+            "explanation": "Que no s’inclouen en les quantitats comptabilitzades."
+          },
+          "l277-q6": {
+            "prompt": "Per què l’article precisa «sol·licituds registrades»?",
+            "options": [
+              "Per delimitar les dades que es coneixen.",
+              "Per excloure totes les peticions rebutjades.",
+              "Per indicar que cada veí apareix una vegada.",
+              "Per sumar les converses que es van oblidar."
+            ],
+            "correct": "a",
+            "explanation": "Perquè algunes consultes van poder quedar sense anotar i no se’n coneix la quantitat."
+          },
+          "l277-q7": {
+            "prompt": "Quina funció fa explicar el registre i la llibreta en aquesta notícia?",
+            "options": [
+              "Convertir el text en instruccions de préstec.",
+              "Presentar dues opinions que es contradiuen.",
+              "Substituir les xifres per records personals.",
+              "Aclarir l’origen i l’abast de les xifres."
+            ],
+            "correct": "d",
+            "explanation": "Permet identificar les fonts i entendre què representa cada quantitat."
+          },
+          "l277-q8": {
+            "prompt": "Per què les nou peticions sense atendre no tanquen la decisió de compra?",
+            "options": [
+              "Perquè únicament es poden comptar préstecs fets.",
+              "Perquè convé conèixer quan va sorgir la dificultat.",
+              "Perquè nou sol·licituds són nou veïns diferents.",
+              "Perquè el registre de trepants ja resol la compra."
+            ],
+            "correct": "b",
+            "explanation": "Falta estudiar-ne les dates i quant va influir la reparació concreta."
+          },
+          "l277-q9": {
+            "prompt": "Quina conclusió està més sustentada pels dos recomptes?",
+            "options": [
+              "Hi va haver més préstecs de trepants i més peticions sense atendre del projector.",
+              "El projector es va sol·licitar més vegades en total que els trepants.",
+              "Els trepants van interessar exactament al doble de persones.",
+              "Les reparacions expliquen totes les sol·licituds sense atendre."
+            ],
+            "correct": "a",
+            "explanation": "Els trepants van tenir més préstecs, però el projector més peticions registrades sense atendre."
+          }
+        }
+      },
+      {
+        "code": "L277B",
+        "language": "es",
+        "questions": {
+          "l277b-q1": {
+            "prompt": "¿Qué unidad se cuenta en el gráfico original?",
+            "options": [
+              "Una salida en préstamo.",
+              "Un día de utilización.",
+              "Un usuario diferente.",
+              "Una fecha solicitada."
+            ],
+            "correct": "a",
+            "explanation": "Cada salida en préstamo, sea cual sea su duración."
+          },
+          "l277b-q2": {
+            "prompt": "¿Qué salto hacía el primer título respecto de sus pruebas?",
+            "options": [
+              "De un mes completo a un mes incompleto.",
+              "De préstamos breves a préstamos prolongados.",
+              "De objetos disponibles a objetos reparados.",
+              "De préstamos realizados a interés general."
+            ],
+            "correct": "d",
+            "explanation": "Pasaba de comparar operaciones completadas a afirmar cuánto interesaban los objetos."
+          },
+          "l277b-q3": {
+            "prompt": "¿Cómo se trata una segunda llamada sobre la misma petición?",
+            "options": [
+              "Se añade a las peticiones por reparación.",
+              "Se conserva el mismo número de solicitudes.",
+              "Se cuenta como una solicitud ya atendida.",
+              "Se descuenta de los préstamos realizados."
+            ],
+            "correct": "b",
+            "explanation": "No se añade una nueva solicitud."
+          },
+          "l277b-q4": {
+            "prompt": "¿Cuál es la diferencia entre las solicitudes totales de los dos objetos?",
+            "options": [
+              "Tres solicitudes.",
+              "Doce solicitudes.",
+              "Nueve solicitudes.",
+              "Quince solicitudes."
+            ],
+            "correct": "c",
+            "explanation": "Nueve: treinta de taladros menos veintiuna del proyector."
+          },
+          "l277b-q5": {
+            "prompt": "¿Qué comparación usa correctamente una parte y su total?",
+            "options": [
+              "Seis de veinticuatro frente a nueve de doce.",
+              "Seis de treinta frente a nueve de veintiuna.",
+              "Veinticuatro de treinta frente a nueve de doce.",
+              "Seis de quince frente a nueve de treinta."
+            ],
+            "correct": "b",
+            "explanation": "Seis de treinta solicitudes de taladros y nueve de veintiuna del proyector quedaron sin atender."
+          },
+          "l277b-q6": {
+            "prompt": "¿Qué implica aquí «fuera del recuento»?",
+            "options": [
+              "No constan en las cantidades disponibles.",
+              "Constan como peticiones de otro periodo.",
+              "Se restan por tratarse de consultas repetidas.",
+              "Se añaden mediante una estimación conocida."
+            ],
+            "correct": "a",
+            "explanation": "Que esas conversaciones no forman parte de los totales disponibles."
+          },
+          "l277b-q7": {
+            "prompt": "¿Qué dato exigiría un recuento distinto del presentado?",
+            "options": [
+              "Cuántos préstamos del proyector se realizaron.",
+              "Cuántas peticiones coincidieron con la reparación.",
+              "Qué total suman las solicitudes de taladros.",
+              "Cuántas personas diferentes solicitaron objetos."
+            ],
+            "correct": "d",
+            "explanation": "El número de vecinos distintos que hicieron solicitudes."
+          },
+          "l277b-q8": {
+            "prompt": "¿Qué información quiere obtener Rosa antes de proponer una compra?",
+            "options": [
+              "El número de préstamos realizados y la diferencia entre ambos objetos.",
+              "La cantidad de personas distintas y el número de consultas olvidadas.",
+              "La distribución temporal y el efecto de la avería.",
+              "La cantidad de solicitudes registradas y su proporción sin atender."
+            ],
+            "correct": "c",
+            "explanation": "Cómo se distribuyeron las peticiones en el tiempo y qué papel tuvo la avería."
+          },
+          "l277b-q9": {
+            "prompt": "¿Por qué un registro más completo en noviembre no permite anticipar sus resultados?",
+            "options": [
+              "Porque obliga a repetir las cifras de octubre.",
+              "Porque octubre ya representa todos los meses.",
+              "Porque contar mejor reduce siempre la demanda.",
+              "Porque recoger mejor no anticipa lo que ocurrirá."
+            ],
+            "correct": "d",
+            "explanation": "Mejora la información recogida, pero las solicitudes de noviembre todavía se desconocen."
+          },
+          "l277b-q10": {
+            "prompt": "¿Qué aporta el artículo al distinguir las fuentes y las unidades?",
+            "options": [
+              "Facilita interpretar el alcance de cada comparación.",
+              "Demuestra que la primera suma tenía errores.",
+              "Sustituye las decisiones de la asociación vecinal.",
+              "Convierte cada solicitud en un usuario distinto."
+            ],
+            "correct": "a",
+            "explanation": "Permite comprobar qué respalda cada afirmación y qué cuenta cada cifra."
+          },
+          "l277b-q11": {
+            "prompt": "¿Qué síntesis mantiene las dos conclusiones compatibles del balance?",
+            "options": [
+              "El proyector lidera las solicitudes y los préstamos.",
+              "Los taladros lideran el total; el proyector, las solicitudes sin atender.",
+              "Ambos objetos interesan al mismo número de personas.",
+              "La reparación explica toda la diferencia entre objetos."
+            ],
+            "correct": "b",
+            "explanation": "Los taladros suman más solicitudes totales; el proyector, más solicitudes sin atender."
+          }
+        }
+      },
+      {
+        "code": "L277B",
+        "language": "ca",
+        "questions": {
+          "l277b-q1": {
+            "prompt": "Quina unitat es compta al gràfic original?",
+            "options": [
+              "Una sortida en préstec.",
+              "Un dia d’utilització.",
+              "Un usuari diferent.",
+              "Una data sol·licitada."
+            ],
+            "correct": "a",
+            "explanation": "Cada sortida en préstec, sigui quina sigui la durada."
+          },
+          "l277b-q2": {
+            "prompt": "Quin salt feia el primer títol respecte de les seves proves?",
+            "options": [
+              "D’un mes complet a un mes incomplet.",
+              "De préstecs breus a préstecs prolongats.",
+              "D’objectes disponibles a objectes reparats.",
+              "De préstecs fets a interès general."
+            ],
+            "correct": "d",
+            "explanation": "Passava de comparar operacions completades a afirmar quant interessaven els objectes."
+          },
+          "l277b-q3": {
+            "prompt": "Com es tracta una segona trucada sobre la mateixa petició?",
+            "options": [
+              "S’afegeix a les peticions per reparació.",
+              "Es conserva el mateix nombre de sol·licituds.",
+              "Es compta com una sol·licitud ja atesa.",
+              "Es descompta dels préstecs fets."
+            ],
+            "correct": "b",
+            "explanation": "No s’afegeix una sol·licitud nova."
+          },
+          "l277b-q4": {
+            "prompt": "Quina és la diferència entre les sol·licituds totals dels dos objectes?",
+            "options": [
+              "Tres sol·licituds.",
+              "Dotze sol·licituds.",
+              "Nou sol·licituds.",
+              "Quinze sol·licituds."
+            ],
+            "correct": "c",
+            "explanation": "Nou: trenta de trepants menys vint-i-una del projector."
+          },
+          "l277b-q5": {
+            "prompt": "Quina comparació fa servir correctament una part i el seu total?",
+            "options": [
+              "Sis de vint-i-quatre davant de nou de dotze.",
+              "Sis de trenta davant de nou de vint-i-una.",
+              "Vint-i-quatre de trenta davant de nou de dotze.",
+              "Sis de quinze davant de nou de trenta."
+            ],
+            "correct": "b",
+            "explanation": "Sis de trenta sol·licituds de trepants i nou de vint-i-una del projector van quedar sense atendre."
+          },
+          "l277b-q6": {
+            "prompt": "Què implica aquí «fora del recompte»?",
+            "options": [
+              "No consten en les quantitats disponibles.",
+              "Consten com a peticions d’un altre període.",
+              "Es resten perquè són consultes repetides.",
+              "S’afegeixen mitjançant una estimació coneguda."
+            ],
+            "correct": "a",
+            "explanation": "Que aquestes converses no formen part dels totals disponibles."
+          },
+          "l277b-q7": {
+            "prompt": "Quina dada exigiria un recompte diferent del presentat?",
+            "options": [
+              "Quants préstecs del projector es van fer.",
+              "Quantes peticions van coincidir amb la reparació.",
+              "Quin total sumen les sol·licituds de trepants.",
+              "Quantes persones diferents van sol·licitar objectes."
+            ],
+            "correct": "d",
+            "explanation": "El nombre de veïns diferents que van fer sol·licituds."
+          },
+          "l277b-q8": {
+            "prompt": "Quina informació vol obtenir la Rosa abans de proposar una compra?",
+            "options": [
+              "El nombre de préstecs fets i la diferència entre tots dos objectes.",
+              "La quantitat de persones diferents i el nombre de consultes oblidades.",
+              "La distribució temporal i l’efecte de l’avaria.",
+              "La quantitat de sol·licituds registrades i la seva proporció sense atendre."
+            ],
+            "correct": "c",
+            "explanation": "Com es van distribuir les peticions en el temps i quin paper va tenir l’avaria."
+          },
+          "l277b-q9": {
+            "prompt": "Per què un registre més complet al novembre no permet anticipar-ne els resultats?",
+            "options": [
+              "Perquè obliga a repetir les xifres de l’octubre.",
+              "Perquè l’octubre ja representa tots els mesos.",
+              "Perquè comptar millor redueix sempre la demanda.",
+              "Perquè recollir millor no anticipa què passarà."
+            ],
+            "correct": "d",
+            "explanation": "Millora la informació recollida, però les sol·licituds del novembre encara es desconeixen."
+          },
+          "l277b-q10": {
+            "prompt": "Què aporta l’article en distingir les fonts i les unitats?",
+            "options": [
+              "Facilita interpretar l’abast de cada comparació.",
+              "Demostra que la primera suma tenia errors.",
+              "Substitueix les decisions de l’associació veïnal.",
+              "Converteix cada sol·licitud en un usuari diferent."
+            ],
+            "correct": "a",
+            "explanation": "Permet comprovar què sosté cada afirmació i què compta cada xifra."
+          },
+          "l277b-q11": {
+            "prompt": "Quina síntesi manté les dues conclusions compatibles del balanç?",
+            "options": [
+              "El projector lidera les sol·licituds i els préstecs.",
+              "Els trepants lideren el total; el projector, les sol·licituds sense atendre.",
+              "Tots dos objectes interessen al mateix nombre de persones.",
+              "La reparació explica tota la diferència entre objectes."
+            ],
+            "correct": "b",
+            "explanation": "Els trepants sumen més sol·licituds totals; el projector, més sol·licituds sense atendre."
+          }
+        }
+      }
+    ]
   }
 ];
