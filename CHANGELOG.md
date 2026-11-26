@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.60.1 · 26 de novembre del 2026
+
+L281: Una crítica sense obrir la maleta. Nova família de La redacció del pati, amb suport de 5è, referència de 6è i ampliació de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 8 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.60 · 26 de novembre del 2026
 
 L280: El marcador no ho explica tot. Nova família de La redacció del pati, amb suport de 5è, referència de 6è i ampliació de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 7 històries independents. Contingut provisional, pendent de validació docent.
