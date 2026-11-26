@@ -1,9 +1,9 @@
 {
   "date": "2026-11-26",
-  "totalWorks": 558,
-  "coveredWorks": 558,
+  "totalWorks": 561,
+  "coveredWorks": 561,
   "pendingWorks": 0,
-  "localizedAlternatives": 5368,
+  "localizedAlternatives": 5410,
   "ranges": [
     {
       "start": 1,
@@ -413,9 +413,9 @@
     },
     {
       "start": 291,
-      "end": 292,
-      "total": 6,
-      "covered": 6,
+      "end": 293,
+      "total": 9,
+      "covered": 9,
       "status": "complete"
     }
   ],
@@ -33604,6 +33604,237 @@
             },
             {
               "id": "l292b-q9",
+              "number": 9
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L293",
+      "baseCode": "L293",
+      "variant": false,
+      "level": "4-primary",
+      "difficulty": "intermediate",
+      "title": "La maqueta del cel del poble",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l293-q1",
+              "number": 1
+            },
+            {
+              "id": "l293-q2",
+              "number": 2
+            },
+            {
+              "id": "l293-q3",
+              "number": 3
+            },
+            {
+              "id": "l293-q4",
+              "number": 4
+            },
+            {
+              "id": "l293-q5",
+              "number": 5
+            },
+            {
+              "id": "l293-q6",
+              "number": 6
+            },
+            {
+              "id": "l293-q7",
+              "number": 7
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l293-q1",
+              "number": 1
+            },
+            {
+              "id": "l293-q2",
+              "number": 2
+            },
+            {
+              "id": "l293-q3",
+              "number": 3
+            },
+            {
+              "id": "l293-q4",
+              "number": 4
+            },
+            {
+              "id": "l293-q5",
+              "number": 5
+            },
+            {
+              "id": "l293-q6",
+              "number": 6
+            },
+            {
+              "id": "l293-q7",
+              "number": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L293A",
+      "baseCode": "L293",
+      "variant": true,
+      "level": "3-primary",
+      "difficulty": "intermediate",
+      "title": "La maqueta del cel del poble",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l293a-q1",
+              "number": 1
+            },
+            {
+              "id": "l293a-q2",
+              "number": 2
+            },
+            {
+              "id": "l293a-q3",
+              "number": 3
+            },
+            {
+              "id": "l293a-q4",
+              "number": 4
+            },
+            {
+              "id": "l293a-q5",
+              "number": 5
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l293a-q1",
+              "number": 1
+            },
+            {
+              "id": "l293a-q2",
+              "number": 2
+            },
+            {
+              "id": "l293a-q3",
+              "number": 3
+            },
+            {
+              "id": "l293a-q4",
+              "number": 4
+            },
+            {
+              "id": "l293a-q5",
+              "number": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L293B",
+      "baseCode": "L293",
+      "variant": true,
+      "level": "5-primary",
+      "difficulty": "intermediate",
+      "title": "La maqueta del cel del poble",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l293b-q1",
+              "number": 1
+            },
+            {
+              "id": "l293b-q2",
+              "number": 2
+            },
+            {
+              "id": "l293b-q3",
+              "number": 3
+            },
+            {
+              "id": "l293b-q4",
+              "number": 4
+            },
+            {
+              "id": "l293b-q5",
+              "number": 5
+            },
+            {
+              "id": "l293b-q6",
+              "number": 6
+            },
+            {
+              "id": "l293b-q7",
+              "number": 7
+            },
+            {
+              "id": "l293b-q8",
+              "number": 8
+            },
+            {
+              "id": "l293b-q9",
+              "number": 9
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l293b-q1",
+              "number": 1
+            },
+            {
+              "id": "l293b-q2",
+              "number": 2
+            },
+            {
+              "id": "l293b-q3",
+              "number": 3
+            },
+            {
+              "id": "l293b-q4",
+              "number": 4
+            },
+            {
+              "id": "l293b-q5",
+              "number": 5
+            },
+            {
+              "id": "l293b-q6",
+              "number": 6
+            },
+            {
+              "id": "l293b-q7",
+              "number": 7
+            },
+            {
+              "id": "l293b-q8",
+              "number": 8
+            },
+            {
+              "id": "l293b-q9",
               "number": 9
             }
           ]

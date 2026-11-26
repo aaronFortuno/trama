@@ -5997,5 +5997,1494 @@ export const observatoryPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L293",
+    "edition": "v1.61.4",
+    "family": {
+      "id": "familia-l293",
+      "code": "L293",
+      "name": {
+        "es": "La maqueta del cielo del pueblo",
+        "ca": "La maqueta del cel del poble"
+      },
+      "description": {
+        "ca": "Una història de L’observatori del turó, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de El observatorio de la colina, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L293A",
+        "L293",
+        "L293B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "la-maqueta-del-cielo-del-pueblo-a-es",
+        "code": "L293A",
+        "workId": "la-maqueta-del-cielo-del-pueblo-a",
+        "language": "es",
+        "familyId": "familia-l293",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "3-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "science",
+          "environment",
+          "community"
+        ],
+        "genre": "informative",
+        "title": "La maqueta del cielo del pueblo",
+        "summary": "Una lámpara pequeña cambia lo que Dani y Mira ven en una maqueta. Joana les ayuda a dirigir su luz.",
+        "paragraphs": [
+          "En el observatorio de la colina había un pueblo de cartón sobre una mesa. Dani y Mira habían colocado casas y un camino. Joana, la guía, encendió un pequeño proyector. En el techo aparecieron puntos de luz que hacían de estrellas.",
+          "Después encendieron una lámpara junto a las casas. Su luz salía hacia los lados y hacia arriba. Costaba distinguir algunos puntos del techo. Dani propuso apagarla. Mira señaló las figuras del camino: «Entonces caminarían a oscuras».",
+          "Joana puso sobre la lámpara una pantalla abierta por abajo. Ahora la luz llegaba al camino y se escapaba menos hacia arriba. Los puntos se distinguían mejor. No habían tocado el proyector. «¡Han vuelto!», dijo Dani. Mira miró el techo: seguían siendo los mismos puntos.",
+          "Anotaron el cambio en un cuaderno. Después Mira llevó una figura hasta el banco de cartón. Dani la acompañó con otra, dando saltitos sobre el papel."
+        ],
+        "questions": [
+          {
+            "id": "l293a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué hacía aparecer los puntos de luz en el techo?",
+            "answer": "El pequeño proyector.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "encendió un pequeño proyector"
+              }
+            ]
+          },
+          {
+            "id": "l293a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué propuso Dani cuando costaba distinguir los puntos?",
+            "answer": "Apagar la lámpara.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Dani propuso apagarla."
+              }
+            ]
+          },
+          {
+            "id": "l293a-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «distinguir» los puntos?",
+            "answer": "Verlos y reconocerlos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Costaba distinguir algunos puntos del techo."
+              }
+            ]
+          },
+          {
+            "id": "l293a-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Mira no quería dejar apagada la lámpara?",
+            "answer": "Porque quería que las figuras del camino tuvieran luz para caminar.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Mira señaló las figuras del camino: «Entonces caminarían a oscuras»."
+              }
+            ]
+          },
+          {
+            "id": "l293a-q5",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "Explica qué cambiaron y qué pudieron ver mejor.",
+            "answer": "Pusieron una pantalla en la lámpara para dirigir la luz al camino. Así distinguían mejor los puntos del techo.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "la luz llegaba al camino y se escapaba menos hacia arriba"
+              },
+              {
+                "paragraph": 3,
+                "text": "Los puntos se distinguían mejor."
+              }
+            ]
+          },
+          {
+            "id": "l293a-q6",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué añadirías a este pueblo de cartón? Explica dónde lo pondrías.",
+            "answer": "Respuesta personal que describe un objeto y su ubicación en la maqueta."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "distinguir",
+            "occurrence": 1,
+            "questionId": "l293a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l293-scene",
+            "src": "assets/readings/l293-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una maqueta de casas junto a una pequeña lámpara con pantalla orientada hacia abajo, en la sala del observatorio.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El pequeño observatorio de piedra clara y cúpula gris en una colina con pinos, bajo un cielo lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-maqueta-del-cielo-del-pueblo-a-ca",
+        "code": "L293A",
+        "workId": "la-maqueta-del-cielo-del-pueblo-a",
+        "language": "ca",
+        "familyId": "familia-l293",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "3-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "science",
+          "environment",
+          "community"
+        ],
+        "genre": "informative",
+        "title": "La maqueta del cel del poble",
+        "summary": "Un llum petit canvia el que en Dani i la Mira veuen en una maqueta. La Joana els ajuda a dirigir-ne la llum.",
+        "paragraphs": [
+          "A l’observatori del turó hi havia un poble de cartró sobre una taula. En Dani i la Mira hi havien col·locat cases i un camí. La Joana, la guia, va encendre un petit projector. Al sostre van aparèixer punts de llum que feien d’estrelles.",
+          "Després van encendre un llum al costat de les cases. La llum sortia cap als costats i cap amunt. Costava distingir alguns punts del sostre. En Dani va proposar apagar-lo. La Mira va assenyalar les figures del camí: «Llavors caminarien a les fosques».",
+          "La Joana va posar sobre el llum una pantalla oberta per sota. Ara la llum arribava al camí i se n’escapava menys cap amunt. Els punts es distingien més bé. No havien tocat el projector. «Han tornat!», va dir en Dani. La Mira va mirar el sostre: continuaven sent els mateixos punts.",
+          "Van anotar el canvi en una llibreta. Després la Mira va portar una figura fins al banc de cartró. En Dani la va acompanyar amb una altra, fent saltirons sobre el paper."
+        ],
+        "questions": [
+          {
+            "id": "l293a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què feia aparèixer els punts de llum al sostre?",
+            "answer": "El petit projector.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "va encendre un petit projector"
+              }
+            ]
+          },
+          {
+            "id": "l293a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què va proposar en Dani quan costava distingir els punts?",
+            "answer": "Apagar el llum.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "En Dani va proposar apagar-lo."
+              }
+            ]
+          },
+          {
+            "id": "l293a-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «distingir» els punts?",
+            "answer": "Veure’ls i reconèixer-los.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Costava distingir alguns punts del sostre."
+              }
+            ]
+          },
+          {
+            "id": "l293a-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la Mira no volia deixar el llum apagat?",
+            "answer": "Perquè volia que les figures del camí tinguessin llum per caminar.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La Mira va assenyalar les figures del camí: «Llavors caminarien a les fosques»."
+              }
+            ]
+          },
+          {
+            "id": "l293a-q5",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "Explica què van canviar i què van poder veure més bé.",
+            "answer": "Van posar una pantalla al llum per dirigir la llum al camí. Així distingien més bé els punts del sostre.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "la llum arribava al camí i se n’escapava menys cap amunt"
+              },
+              {
+                "paragraph": 3,
+                "text": "Els punts es distingien més bé."
+              }
+            ]
+          },
+          {
+            "id": "l293a-q6",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Què afegiries a aquest poble de cartró? Explica on ho posaries.",
+            "answer": "Resposta personal que descriu un objecte i la seva ubicació a la maqueta."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "distingir",
+            "occurrence": 1,
+            "questionId": "l293a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l293-scene",
+            "src": "assets/readings/l293-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una maqueta de cases al costat d’un llum petit amb una pantalla orientada cap avall, a la sala de l’observatori.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El petit observatori de pedra clara i cúpula grisa en un turó amb pins, sota un cel lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-maqueta-del-cielo-del-pueblo-es",
+        "code": "L293",
+        "workId": "la-maqueta-del-cielo-del-pueblo",
+        "language": "es",
+        "familyId": "familia-l293",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "science",
+          "environment",
+          "community"
+        ],
+        "genre": "informative",
+        "title": "La maqueta del cielo del pueblo",
+        "summary": "En una maqueta, Dani y Mira prueban cómo iluminar un camino sin enviar tanta luz hacia el techo de la sala.",
+        "paragraphs": [
+          "En la sala del observatorio de la colina, Dani y Mira construyeron un pueblo de cartón. Había casas, un camino y dos figuras que llegaban hasta un banco. Joana, la guía, apagó las luces grandes y encendió un pequeño proyector. Varios puntos de luz aparecieron en el techo para representar las estrellas.",
+          "Después añadieron una lámpara pequeña junto al camino. Tenía la luz descubierta y la enviaba hacia los lados y hacia arriba. Desde la mesa costaba distinguir algunos puntos del techo. Dani propuso apagar la lámpara. Mira acercó una figura al borde del camino: si la apagaban, aquel tramo quedaría oscuro.",
+          "Joana preparó una pantalla opaca, abierta por abajo, y la colocó sobre la lámpara. La luz iluminaba el camino y se escapaba menos hacia el techo. Dani levantó la vista: ahora distinguía mejor los puntos. «Parece que hay más estrellas», dijo. Joana señaló el proyector, que seguía igual. Los puntos no habían cambiado; había cambiado la luz que molestaba para verlos.",
+          "Compararon las dos posiciones de la pantalla, puesta y retirada, sin mover las casas ni el proyector. Mira anotó qué pasaba con el camino y Dani qué veía en el techo. Así conservaron las dos observaciones en la misma página.",
+          "Al terminar, llevaron las figuras al banco. Una cayó de espaldas. Mira la levantó y Dani puso un minúsculo cojín de papel para que pudiera descansar."
+        ],
+        "questions": [
+          {
+            "id": "l293-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué dos cosas anotaron después de comparar la pantalla puesta y retirada?",
+            "answer": "Mira anotó qué pasaba con el camino y Dani qué veía en el techo.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Mira anotó qué pasaba con el camino y Dani qué veía en el techo."
+              }
+            ]
+          },
+          {
+            "id": "l293-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué la propuesta de apagar la lámpara no resolvía lo que quería Mira?",
+            "answer": "Porque dejaba oscuro el camino que quería iluminar para las figuras.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "si la apagaban, aquel tramo quedaría oscuro"
+              }
+            ]
+          },
+          {
+            "id": "l293-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa que la pantalla era «opaca»?",
+            "answer": "Que no dejaba pasar la luz a través de su material.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una pantalla opaca, abierta por abajo"
+              }
+            ]
+          },
+          {
+            "id": "l293-q4",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué dato permite saber que la pantalla no creó nuevos puntos de luz?",
+            "answer": "El proyector seguía igual y no lo habían movido; cambió la luz que dificultaba ver sus puntos.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "el proyector, que seguía igual"
+              },
+              {
+                "paragraph": 3,
+                "text": "Los puntos no habían cambiado"
+              }
+            ]
+          },
+          {
+            "id": "l293-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Hacia dónde dejaba salir la luz la abertura de la pantalla?",
+            "answer": "Hacia abajo, donde estaba el camino.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "abierta por abajo"
+              },
+              {
+                "paragraph": 3,
+                "text": "La luz iluminaba el camino"
+              }
+            ]
+          },
+          {
+            "id": "l293-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Para qué sirve volver a poner y retirar la pantalla?",
+            "answer": "Para comparar lo que sucede con y sin pantalla manteniendo los demás objetos en su sitio.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Compararon las dos posiciones de la pantalla, puesta y retirada, sin mover las casas ni el proyector."
+              }
+            ]
+          },
+          {
+            "id": "l293-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume el problema de la maqueta y la solución que probaron.",
+            "answer": "La luz descubierta del camino dificultaba ver los puntos del techo. Una pantalla dirigió la luz hacia el camino y permitió distinguirlos mejor.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "costaba distinguir algunos puntos del techo."
+              },
+              {
+                "paragraph": 3,
+                "text": "La luz iluminaba el camino y se escapaba menos hacia el techo."
+              }
+            ]
+          },
+          {
+            "id": "l293-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué parte de la prueba enseñarías primero a otro grupo? Explica tu elección.",
+            "answer": "Respuesta personal relacionada con la lámpara sin pantalla, la pantalla colocada o la comparación entre ambas."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "opaca",
+            "occurrence": 1,
+            "questionId": "l293-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l293-scene",
+            "src": "assets/readings/l293-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una maqueta de casas junto a una pequeña lámpara con pantalla orientada hacia abajo, en la sala del observatorio.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El pequeño observatorio de piedra clara y cúpula gris en una colina con pinos, bajo un cielo lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-maqueta-del-cielo-del-pueblo-ca",
+        "code": "L293",
+        "workId": "la-maqueta-del-cielo-del-pueblo",
+        "language": "ca",
+        "familyId": "familia-l293",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "science",
+          "environment",
+          "community"
+        ],
+        "genre": "informative",
+        "title": "La maqueta del cel del poble",
+        "summary": "En una maqueta, en Dani i la Mira proven com il·luminar un camí sense enviar tanta llum cap al sostre de la sala.",
+        "paragraphs": [
+          "A la sala de l’observatori del turó, en Dani i la Mira van construir un poble de cartró. Hi havia cases, un camí i dues figures que arribaven fins a un banc. La Joana, la guia, va apagar els llums grans i va encendre un petit projector. Al sostre van aparèixer diversos punts de llum per representar les estrelles.",
+          "Després van afegir un llum petit al costat del camí. Tenia la llum descoberta i l’enviava cap als costats i cap amunt. Des de la taula costava distingir alguns punts del sostre. En Dani va proposar apagar el llum. La Mira va acostar una figura a la vora del camí: si l’apagaven, aquell tram quedaria fosc.",
+          "La Joana va preparar una pantalla opaca, oberta per sota, i la va col·locar sobre el llum. La llum il·luminava el camí i se n’escapava menys cap al sostre. En Dani va alçar la vista: ara distingia més bé els punts. «Sembla que hi ha més estrelles», va dir. La Joana va assenyalar el projector, que continuava igual. Els punts no havien canviat; havia canviat la llum que molestava per veure’ls.",
+          "Van comparar les dues posicions de la pantalla, posada i retirada, sense moure les cases ni el projector. La Mira va anotar què passava amb el camí i en Dani què veia al sostre. Així van conservar les dues observacions a la mateixa pàgina.",
+          "En acabar, van portar les figures al banc. Una va caure d’esquena. La Mira la va aixecar i en Dani hi va posar un coixí minúscul de paper perquè pogués descansar."
+        ],
+        "questions": [
+          {
+            "id": "l293-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quines dues coses van anotar després de comparar la pantalla posada i retirada?",
+            "answer": "La Mira va anotar què passava amb el camí i en Dani què veia al sostre.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La Mira va anotar què passava amb el camí i en Dani què veia al sostre."
+              }
+            ]
+          },
+          {
+            "id": "l293-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la proposta d’apagar el llum no resolia el que volia la Mira?",
+            "answer": "Perquè deixava fosc el camí que volia il·luminar per a les figures.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "si l’apagaven, aquell tram quedaria fosc"
+              }
+            ]
+          },
+          {
+            "id": "l293-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir que la pantalla era «opaca»?",
+            "answer": "Que no deixava passar la llum a través del material.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una pantalla opaca, oberta per sota"
+              }
+            ]
+          },
+          {
+            "id": "l293-q4",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Quina dada permet saber que la pantalla no va crear punts de llum nous?",
+            "answer": "El projector continuava igual i no l’havien mogut; va canviar la llum que dificultava veure’n els punts.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "el projector, que continuava igual"
+              },
+              {
+                "paragraph": 3,
+                "text": "Els punts no havien canviat"
+              }
+            ]
+          },
+          {
+            "id": "l293-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Cap on deixava sortir la llum l’obertura de la pantalla?",
+            "answer": "Cap avall, on hi havia el camí.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "oberta per sota"
+              },
+              {
+                "paragraph": 3,
+                "text": "La llum il·luminava el camí"
+              }
+            ]
+          },
+          {
+            "id": "l293-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Per a què serveix tornar a posar i retirar la pantalla?",
+            "answer": "Per comparar el que passa amb pantalla i sense mantenint els altres objectes al seu lloc.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Van comparar les dues posicions de la pantalla, posada i retirada, sense moure les cases ni el projector."
+              }
+            ]
+          },
+          {
+            "id": "l293-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix el problema de la maqueta i la solució que van provar.",
+            "answer": "La llum descoberta del camí dificultava veure els punts del sostre. Una pantalla va dirigir la llum cap al camí i va permetre distingir-los més bé.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "costava distingir alguns punts del sostre."
+              },
+              {
+                "paragraph": 3,
+                "text": "La llum il·luminava el camí i se n’escapava menys cap al sostre."
+              }
+            ]
+          },
+          {
+            "id": "l293-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quina part de la prova ensenyaries primer a un altre grup? Explica la tria.",
+            "answer": "Resposta personal relacionada amb el llum sense pantalla, la pantalla col·locada o la comparació entre totes dues."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "opaca",
+            "occurrence": 1,
+            "questionId": "l293-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l293-scene",
+            "src": "assets/readings/l293-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una maqueta de cases al costat d’un llum petit amb una pantalla orientada cap avall, a la sala de l’observatori.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El petit observatori de pedra clara i cúpula grisa en un turó amb pins, sota un cel lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-maqueta-del-cielo-del-pueblo-b-es",
+        "code": "L293B",
+        "workId": "la-maqueta-del-cielo-del-pueblo-b",
+        "language": "es",
+        "familyId": "familia-l293",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "science",
+          "environment",
+          "community"
+        ],
+        "genre": "informative",
+        "title": "La maqueta del cielo del pueblo",
+        "summary": "Una maqueta ayuda a estudiar la dirección de la luz. Dani y Mira comparan lo que observan y preparan una conclusión que el modelo permite sostener.",
+        "paragraphs": [
+          "Dani y Mira construyeron un pueblo de cartón en la sala del observatorio de la colina. Colocaron varias casas y un camino por el que dos figuras llegarían hasta un banco. Joana, la guía, preparó un pequeño proyector. Con las luces grandes apagadas, sus puntos brillaban en el techo y representaban estrellas sobre la maqueta.",
+          "Encendieron después una lámpara junto al camino. La luz quedaba descubierta: salía hacia los lados y también hacia arriba. Desde la mesa costaba distinguir algunos puntos. Dani alargó la mano hacia el interruptor. Mira sostuvo las figuras al borde del camino: «Espera, si la apagas, no verán por dónde van». Querían conservar luz en el suelo de cartón y ver mejor el techo.",
+          "Joana colocó sobre la lámpara una pantalla opaca, abierta por abajo. La luz seguía llegando al camino y se escapaba menos hacia arriba. Dani distinguió mejor los puntos. «¡Tenemos más estrellas!», dijo. Mira buscó el mando del proyector; nadie lo había tocado. Joana aclaró que el dibujo de luz seguía siendo el mismo. Lo que habían reducido era la luz que dificultaba verlo.",
+          "Para repetir la comparación, retiraron la pantalla y volvieron a colocarla. Dejaron quietos las casas, el proyector y sus sillas. Mira anotó si el camino quedaba iluminado; Dani, cómo veía los puntos. Cada uno necesitaba también la observación del otro para saber si habían conseguido las dos cosas a la vez.",
+          "Joana relacionó la prueba con las farolas: una pantalla puede dirigir la luz hacia la zona que se quiere iluminar y limitar la que se pierde hacia arriba. Dani quiso escribir que con una tapa se arreglaba el cielo de todo el pueblo. Mira miró las pocas casas de cartón. Habían probado una lámpara de mesa. Cambiaron la frase para explicar el efecto observado en su modelo.",
+          "Al terminar, llevaron las figuras hasta el banco. Una cayó de espaldas y Mira la levantó. Dani dobló un trocito de papel para hacerle un cojín. Desde allí, las dos figuras parecían mirar tranquilamente los puntos del techo."
+        ],
+        "questions": [
+          {
+            "id": "l293b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué querían conseguir al mismo tiempo con la maqueta?",
+            "answer": "Mantener iluminado el camino y distinguir mejor los puntos del techo.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "conservar luz en el suelo de cartón y ver mejor el techo"
+              }
+            ]
+          },
+          {
+            "id": "l293b-q2",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «limitar» la luz que se pierde hacia arriba?",
+            "answer": "Reducir o poner un límite a esa luz.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "limitar la que se pierde hacia arriba"
+              }
+            ]
+          },
+          {
+            "id": "l293b-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cómo estaba abierta la pantalla y qué efecto tenía esa abertura?",
+            "answer": "Estaba abierta por abajo, de manera que la luz seguía llegando al camino.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "abierta por abajo. La luz seguía llegando al camino"
+              }
+            ]
+          },
+          {
+            "id": "l293b-q4",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué Mira buscó el mando del proyector al oír a Dani?",
+            "answer": "Para comprobar si habían cambiado el dibujo de puntos, aunque nadie lo había tocado.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "«¡Tenemos más estrellas!», dijo. Mira buscó el mando del proyector; nadie lo había tocado."
+              }
+            ]
+          },
+          {
+            "id": "l293b-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué necesitaban juntar las anotaciones de Dani y Mira?",
+            "answer": "Cada uno observaba una parte del objetivo: el techo o el camino. Juntas mostraban si se habían conseguido ambas cosas.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Cada uno necesitaba también la observación del otro para saber si habían conseguido las dos cosas a la vez."
+              }
+            ]
+          },
+          {
+            "id": "l293b-q6",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "¿Qué función tiene repetir la prueba sin mover casas, proyector ni sillas?",
+            "answer": "Permite comparar el cambio de pantalla manteniendo los demás elementos en su sitio.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Dejaron quietos las casas, el proyector y sus sillas."
+              }
+            ]
+          },
+          {
+            "id": "l293b-q7",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué era excesivo en la primera frase que Dani quería escribir?",
+            "answer": "Afirmaba que una tapa arreglaba el cielo de todo el pueblo, pero solo habían probado una lámpara en una maqueta.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "con una tapa se arreglaba el cielo de todo el pueblo"
+              },
+              {
+                "paragraph": 5,
+                "text": "Habían probado una lámpara de mesa."
+              }
+            ]
+          },
+          {
+            "id": "l293b-q8",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Según Joana, ¿para qué puede servir una pantalla en una farola?",
+            "answer": "Para dirigir la luz hacia la zona que se quiere iluminar y limitar la que se pierde hacia arriba.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "dirigir la luz hacia la zona que se quiere iluminar y limitar la que se pierde hacia arriba"
+              }
+            ]
+          },
+          {
+            "id": "l293b-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué compararon, qué observaron y cómo ajustaron su conclusión.",
+            "answer": "Compararon una lámpara con pantalla y sin ella. Con pantalla, el camino seguía iluminado y los puntos se distinguían mejor. Describieron el efecto de su modelo en vez de afirmar que habían resuelto el cielo de todo el pueblo.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La luz seguía llegando al camino y se escapaba menos hacia arriba."
+              },
+              {
+                "paragraph": 5,
+                "text": "Cambiaron la frase para explicar el efecto observado en su modelo."
+              }
+            ]
+          },
+          {
+            "id": "l293b-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Si explicaras esta prueba a alguien que no la ha visto, ¿qué dos detalles enseñarías? Justifica por qué los elegirías.",
+            "answer": "Respuesta personal que relaciona dos detalles de la experiencia con su explicación: por ejemplo, camino iluminado, techo o pantalla abierta por abajo."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "limitar",
+            "occurrence": 1,
+            "questionId": "l293b-q2"
+          }
+        ],
+        "images": [
+          {
+            "id": "l293-scene",
+            "src": "assets/readings/l293-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una maqueta de casas junto a una pequeña lámpara con pantalla orientada hacia abajo, en la sala del observatorio.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El pequeño observatorio de piedra clara y cúpula gris en una colina con pinos, bajo un cielo lavanda.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "la-maqueta-del-cielo-del-pueblo-b-ca",
+        "code": "L293B",
+        "workId": "la-maqueta-del-cielo-del-pueblo-b",
+        "language": "ca",
+        "familyId": "familia-l293",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "science",
+          "environment",
+          "community"
+        ],
+        "genre": "informative",
+        "title": "La maqueta del cel del poble",
+        "summary": "Una maqueta ajuda a estudiar la direcció de la llum. En Dani i la Mira comparen el que observen i preparen una conclusió que el model permet sostenir.",
+        "paragraphs": [
+          "En Dani i la Mira van construir un poble de cartró a la sala de l’observatori del turó. Van col·locar diverses cases i un camí pel qual dues figures arribarien fins a un banc. La Joana, la guia, va preparar un petit projector. Amb els llums grans apagats, els punts brillaven al sostre i representaven estrelles sobre la maqueta.",
+          "Després van encendre un llum al costat del camí. La llum quedava descoberta: sortia cap als costats i també cap amunt. Des de la taula costava distingir alguns punts. En Dani va acostar la mà a l’interruptor. La Mira va sostenir les figures a la vora del camí: «Espera, si l’apagues, no veuran per on van». Volien conservar llum al terra de cartró i veure més bé el sostre.",
+          "La Joana va col·locar sobre el llum una pantalla opaca, oberta per sota. La llum continuava arribant al camí i se n’escapava menys cap amunt. En Dani va distingir més bé els punts. «Tenim més estrelles!», va dir. La Mira va buscar el comandament del projector; ningú no l’havia tocat. La Joana va aclarir que el dibuix de llum continuava sent el mateix. Havien reduït la llum que dificultava veure’l.",
+          "Per repetir la comparació, van retirar la pantalla i la van tornar a col·locar. Van deixar quiets les cases, el projector i les cadires. La Mira va anotar si el camí quedava il·luminat; en Dani, com veia els punts. Cadascú necessitava també l’observació de l’altre per saber si havien aconseguit totes dues coses alhora.",
+          "La Joana va relacionar la prova amb els fanals: una pantalla pot dirigir la llum cap a la zona que es vol il·luminar i limitar la que es perd cap amunt. En Dani volia escriure que amb una tapa s’arreglava el cel de tot el poble. La Mira va mirar les poques cases de cartró. Havien provat un llum de taula. Van canviar la frase per explicar l’efecte observat en el model.",
+          "En acabar, van portar les figures fins al banc. Una va caure d’esquena i la Mira la va aixecar. En Dani va doblegar un trosset de paper per fer-li un coixí. Des d’allà, les dues figures semblaven mirar tranquil·lament els punts del sostre."
+        ],
+        "questions": [
+          {
+            "id": "l293b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què volien aconseguir alhora amb la maqueta?",
+            "answer": "Mantenir il·luminat el camí i distingir més bé els punts del sostre.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "conservar llum al terra de cartró i veure més bé el sostre"
+              }
+            ]
+          },
+          {
+            "id": "l293b-q2",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «limitar» la llum que es perd cap amunt?",
+            "answer": "Reduir o posar un límit a aquella llum.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "limitar la que es perd cap amunt"
+              }
+            ]
+          },
+          {
+            "id": "l293b-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Com estava oberta la pantalla i quin efecte tenia aquella obertura?",
+            "answer": "Estava oberta per sota, de manera que la llum continuava arribant al camí.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "oberta per sota. La llum continuava arribant al camí"
+              }
+            ]
+          },
+          {
+            "id": "l293b-q4",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què la Mira va buscar el comandament del projector en sentir en Dani?",
+            "answer": "Per comprovar si havien canviat el dibuix de punts, tot i que ningú no l’havia tocat.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "«Tenim més estrelles!», va dir. La Mira va buscar el comandament del projector; ningú no l’havia tocat."
+              }
+            ]
+          },
+          {
+            "id": "l293b-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què necessitaven ajuntar les anotacions d’en Dani i la Mira?",
+            "answer": "Cadascú observava una part de l’objectiu: el sostre o el camí. Juntes mostraven si havien aconseguit totes dues coses.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Cadascú necessitava també l’observació de l’altre per saber si havien aconseguit totes dues coses alhora."
+              }
+            ]
+          },
+          {
+            "id": "l293b-q6",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "Quina funció té repetir la prova sense moure cases, projector ni cadires?",
+            "answer": "Permet comparar el canvi de pantalla mantenint els altres elements al seu lloc.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Van deixar quiets les cases, el projector i les cadires."
+              }
+            ]
+          },
+          {
+            "id": "l293b-q7",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Què era excessiu en la primera frase que en Dani volia escriure?",
+            "answer": "Afirmava que una tapa arreglava el cel de tot el poble, però només havien provat un llum en una maqueta.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "amb una tapa s’arreglava el cel de tot el poble"
+              },
+              {
+                "paragraph": 5,
+                "text": "Havien provat un llum de taula."
+              }
+            ]
+          },
+          {
+            "id": "l293b-q8",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Segons la Joana, per a què pot servir una pantalla en un fanal?",
+            "answer": "Per dirigir la llum cap a la zona que es vol il·luminar i limitar la que es perd cap amunt.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "dirigir la llum cap a la zona que es vol il·luminar i limitar la que es perd cap amunt"
+              }
+            ]
+          },
+          {
+            "id": "l293b-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix què van comparar, què van observar i com van ajustar la conclusió.",
+            "answer": "Van comparar un llum amb pantalla i sense. Amb pantalla, el camí continuava il·luminat i els punts es distingien més bé. Van descriure l’efecte del model en lloc d’afirmar que havien resolt el cel de tot el poble.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La llum continuava arribant al camí i se n’escapava menys cap amunt."
+              },
+              {
+                "paragraph": 5,
+                "text": "Van canviar la frase per explicar l’efecte observat en el model."
+              }
+            ]
+          },
+          {
+            "id": "l293b-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Si expliquessis aquesta prova a algú que no l’ha vista, quins dos detalls ensenyaries? Justifica per què els triaries.",
+            "answer": "Resposta personal que relaciona dos detalls de l’experiència amb l’explicació: per exemple, camí il·luminat, sostre o pantalla oberta per sota."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "limitar",
+            "occurrence": 1,
+            "questionId": "l293b-q2"
+          }
+        ],
+        "images": [
+          {
+            "id": "l293-scene",
+            "src": "assets/readings/l293-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una maqueta de cases al costat d’un llum petit amb una pantalla orientada cap avall, a la sala de l’observatori.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El petit observatori de pedra clara i cúpula grisa en un turó amb pins, sota un cel lavanda.",
+            "afterParagraph": 4
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L293A",
+        "language": "es",
+        "questions": {
+          "l293a-q1": {
+            "prompt": "¿Qué hacía aparecer los puntos de luz en el techo?",
+            "options": [
+              "La lámpara junto a las casas.",
+              "La pantalla abierta por abajo.",
+              "El pequeño proyector.",
+              "Las figuras sobre el camino."
+            ],
+            "correct": "c",
+            "explanation": "El pequeño proyector."
+          },
+          "l293a-q2": {
+            "prompt": "¿Qué propuso Dani cuando costaba distinguir los puntos?",
+            "options": [
+              "Apagar la lámpara.",
+              "Mover las casas de sitio.",
+              "Cambiar el proyector.",
+              "Quitar las figuras del camino."
+            ],
+            "correct": "a",
+            "explanation": "Apagar la lámpara."
+          },
+          "l293a-q3": {
+            "prompt": "¿Qué significa «distinguir» los puntos?",
+            "options": [
+              "Encenderlos uno a uno.",
+              "Moverlos de sitio.",
+              "Dibujarlos en el papel.",
+              "Verlos y reconocerlos."
+            ],
+            "correct": "d",
+            "explanation": "Verlos y reconocerlos."
+          },
+          "l293a-q4": {
+            "prompt": "¿Por qué Mira no quería dejar apagada la lámpara?",
+            "options": [
+              "Quería mantener encendido el proyector del techo.",
+              "Quería mantener iluminado el camino.",
+              "Quería enviar al techo la luz del camino.",
+              "Quería dejar las figuras en una zona sin luz."
+            ],
+            "correct": "b",
+            "explanation": "Porque quería que las figuras del camino tuvieran luz para caminar."
+          },
+          "l293a-q5": {
+            "prompt": "¿Qué resumen explica mejor la prueba?",
+            "options": [
+              "Apagaron el proyector para ver mejor las casas.",
+              "Movieron las casas para hacer más ancho el camino.",
+              "Dirigieron la luz al camino y vieron mejor los puntos.",
+              "Cambiaron los puntos antes de encender la lámpara."
+            ],
+            "correct": "c",
+            "explanation": "Pusieron una pantalla en la lámpara para dirigir la luz al camino. Así distinguían mejor los puntos del techo."
+          }
+        }
+      },
+      {
+        "code": "L293A",
+        "language": "ca",
+        "questions": {
+          "l293a-q1": {
+            "prompt": "Què feia aparèixer els punts de llum al sostre?",
+            "options": [
+              "El llum al costat de les cases.",
+              "La pantalla oberta per sota.",
+              "El petit projector.",
+              "Les figures sobre el camí."
+            ],
+            "correct": "c",
+            "explanation": "El petit projector."
+          },
+          "l293a-q2": {
+            "prompt": "Què va proposar en Dani quan costava distingir els punts?",
+            "options": [
+              "Apagar el llum.",
+              "Moure les cases de lloc.",
+              "Canviar el projector.",
+              "Treure les figures del camí."
+            ],
+            "correct": "a",
+            "explanation": "Apagar el llum."
+          },
+          "l293a-q3": {
+            "prompt": "Què vol dir «distingir» els punts?",
+            "options": [
+              "Encendre’ls d’un en un.",
+              "Moure’ls de lloc.",
+              "Dibuixar-los al paper.",
+              "Veure’ls i reconèixer-los."
+            ],
+            "correct": "d",
+            "explanation": "Veure’ls i reconèixer-los."
+          },
+          "l293a-q4": {
+            "prompt": "Per què la Mira no volia deixar el llum apagat?",
+            "options": [
+              "Volia mantenir encès el projector del sostre.",
+              "Volia mantenir il·luminat el camí.",
+              "Volia enviar al sostre la llum del camí.",
+              "Volia deixar les figures en una zona sense llum."
+            ],
+            "correct": "b",
+            "explanation": "Perquè volia que les figures del camí tinguessin llum per caminar."
+          },
+          "l293a-q5": {
+            "prompt": "Quin resum explica millor la prova?",
+            "options": [
+              "Van apagar el projector per veure millor les cases.",
+              "Van moure les cases per fer més ample el camí.",
+              "Van dirigir la llum al camí i van veure més bé els punts.",
+              "Van canviar els punts abans d’encendre el llum."
+            ],
+            "correct": "c",
+            "explanation": "Van posar una pantalla al llum per dirigir la llum al camí. Així distingien més bé els punts del sostre."
+          }
+        }
+      },
+      {
+        "code": "L293",
+        "language": "es",
+        "questions": {
+          "l293-q1": {
+            "prompt": "¿Qué dos cosas anotaron después de comparar la pantalla puesta y retirada?",
+            "options": [
+              "La cantidad de casas y el número de figuras.",
+              "La luz del camino y lo que se veía en el techo.",
+              "La posición del banco y el tamaño del cojín.",
+              "El recorrido de las figuras y el orden de las casas."
+            ],
+            "correct": "b",
+            "explanation": "Mira anotó qué pasaba con el camino y Dani qué veía en el techo."
+          },
+          "l293-q2": {
+            "prompt": "¿Por qué la propuesta de apagar la lámpara no resolvía lo que quería Mira?",
+            "options": [
+              "El proyector dejaría de formar puntos en el techo.",
+              "Mira quería iluminar también la zona de detrás de las casas.",
+              "Mira quería que la luz alumbrara solo el techo.",
+              "El camino perdería la luz que las figuras necesitaban."
+            ],
+            "correct": "d",
+            "explanation": "Porque dejaba oscuro el camino que quería iluminar para las figuras."
+          },
+          "l293-q3": {
+            "prompt": "¿Qué significa que la pantalla era «opaca»?",
+            "options": [
+              "Que no dejaba pasar la luz a través del material.",
+              "Que tenía la misma forma que el camino.",
+              "Que se mantenía siempre retirada de la lámpara.",
+              "Que mostraba los puntos proyectados en el techo."
+            ],
+            "correct": "a",
+            "explanation": "Que no dejaba pasar la luz a través de su material."
+          },
+          "l293-q4": {
+            "prompt": "¿Qué dato permite saber que la pantalla no creó nuevos puntos de luz?",
+            "options": [
+              "Las figuras llegaron al banco al terminar.",
+              "Mira acercó una figura al camino.",
+              "El proyector seguía igual durante el cambio.",
+              "Joana había apagado antes las luces grandes."
+            ],
+            "correct": "c",
+            "explanation": "El proyector seguía igual y no lo habían movido; cambió la luz que dificultaba ver sus puntos."
+          },
+          "l293-q5": {
+            "prompt": "¿Hacia dónde dejaba salir la luz la abertura de la pantalla?",
+            "options": [
+              "Hacia el techo, junto a los puntos.",
+              "Hacia los lados, detrás de las casas.",
+              "Hacia el proyector, al fondo de la sala.",
+              "Hacia abajo, donde estaba el camino."
+            ],
+            "correct": "d",
+            "explanation": "Hacia abajo, donde estaba el camino."
+          },
+          "l293-q6": {
+            "prompt": "¿Para qué sirve volver a poner y retirar la pantalla?",
+            "options": [
+              "Para comparar el efecto de la pantalla con los otros objetos quietos.",
+              "Para comprobar solo si el camino recibía más luz.",
+              "Para mover el proyector hasta ver más puntos.",
+              "Para comprobar el recorrido antes de iluminarlo."
+            ],
+            "correct": "a",
+            "explanation": "Para comparar lo que sucede con y sin pantalla manteniendo los demás objetos en su sitio."
+          },
+          "l293-q7": {
+            "prompt": "¿Qué resumen recoge mejor lo que probaron?",
+            "options": [
+              "Quitan las casas para ver el techo desde el camino.",
+              "Dirigen la luz del camino y comparan la visibilidad de los puntos.",
+              "Apagan el proyector para iluminar mejor las casas.",
+              "Dibujan nuevos puntos después de mover las figuras."
+            ],
+            "correct": "b",
+            "explanation": "La luz descubierta del camino dificultaba ver los puntos del techo. Una pantalla dirigió la luz hacia el camino y permitió distinguirlos mejor."
+          }
+        }
+      },
+      {
+        "code": "L293",
+        "language": "ca",
+        "questions": {
+          "l293-q1": {
+            "prompt": "Quines dues coses van anotar després de comparar la pantalla posada i retirada?",
+            "options": [
+              "La quantitat de cases i el nombre de figures.",
+              "La llum del camí i el que es veia al sostre.",
+              "La posició del banc i la mida del coixí.",
+              "El recorregut de les figures i l’ordre de les cases."
+            ],
+            "correct": "b",
+            "explanation": "La Mira va anotar què passava amb el camí i en Dani què veia al sostre."
+          },
+          "l293-q2": {
+            "prompt": "Per què la proposta d’apagar el llum no resolia el que volia la Mira?",
+            "options": [
+              "El projector deixaria de formar punts al sostre.",
+              "La Mira volia il·luminar també la zona de darrere les cases.",
+              "La Mira volia que la llum il·luminés només el sostre.",
+              "El camí perdria la llum que les figures necessitaven."
+            ],
+            "correct": "d",
+            "explanation": "Perquè deixava fosc el camí que volia il·luminar per a les figures."
+          },
+          "l293-q3": {
+            "prompt": "Què vol dir que la pantalla era «opaca»?",
+            "options": [
+              "Que no deixava passar la llum a través del material.",
+              "Que tenia la mateixa forma que el camí.",
+              "Que es mantenia sempre retirada del llum.",
+              "Que mostrava els punts projectats al sostre."
+            ],
+            "correct": "a",
+            "explanation": "Que no deixava passar la llum a través del material."
+          },
+          "l293-q4": {
+            "prompt": "Quina dada permet saber que la pantalla no va crear punts de llum nous?",
+            "options": [
+              "Les figures van arribar al banc en acabar.",
+              "La Mira va acostar una figura al camí.",
+              "El projector continuava igual durant el canvi.",
+              "La Joana havia apagat abans els llums grans."
+            ],
+            "correct": "c",
+            "explanation": "El projector continuava igual i no l’havien mogut; va canviar la llum que dificultava veure’n els punts."
+          },
+          "l293-q5": {
+            "prompt": "Cap on deixava sortir la llum l’obertura de la pantalla?",
+            "options": [
+              "Cap al sostre, al costat dels punts.",
+              "Cap als costats, darrere les cases.",
+              "Cap al projector, al fons de la sala.",
+              "Cap avall, on hi havia el camí."
+            ],
+            "correct": "d",
+            "explanation": "Cap avall, on hi havia el camí."
+          },
+          "l293-q6": {
+            "prompt": "Per a què serveix tornar a posar i retirar la pantalla?",
+            "options": [
+              "Per comparar l’efecte de la pantalla amb els altres objectes quiets.",
+              "Per comprovar només si el camí rebia més llum.",
+              "Per moure el projector fins a veure més punts.",
+              "Per comprovar el recorregut abans d’il·luminar-lo."
+            ],
+            "correct": "a",
+            "explanation": "Per comparar el que passa amb pantalla i sense mantenint els altres objectes al seu lloc."
+          },
+          "l293-q7": {
+            "prompt": "Quin resum recull millor el que van provar?",
+            "options": [
+              "Treuen les cases per veure el sostre des del camí.",
+              "Dirigeixen la llum del camí i comparen la visibilitat dels punts.",
+              "Apaguen el projector per il·luminar millor les cases.",
+              "Dibuixen punts nous després de moure les figures."
+            ],
+            "correct": "b",
+            "explanation": "La llum descoberta del camí dificultava veure els punts del sostre. Una pantalla va dirigir la llum cap al camí i va permetre distingir-los més bé."
+          }
+        }
+      },
+      {
+        "code": "L293B",
+        "language": "es",
+        "questions": {
+          "l293b-q1": {
+            "prompt": "¿Qué querían conseguir al mismo tiempo con la maqueta?",
+            "options": [
+              "Apagar la lámpara y ver mejor los puntos.",
+              "Iluminar las casas y dejar oscuro el camino.",
+              "Cambiar el proyector y apagar la luz del camino.",
+              "Iluminar el camino y distinguir mejor los puntos."
+            ],
+            "correct": "d",
+            "explanation": "Mantener iluminado el camino y distinguir mejor los puntos del techo."
+          },
+          "l293b-q2": {
+            "prompt": "¿Qué significa «limitar» la luz que se pierde hacia arriba?",
+            "options": [
+              "Reducir la cantidad que se escapa hacia arriba.",
+              "Concentrar arriba la luz que antes llegaba al suelo.",
+              "Apagar toda la luz de la lámpara.",
+              "Mover la lámpara sin cambiar la luz que se escapa."
+            ],
+            "correct": "a",
+            "explanation": "Reducir o poner un límite a esa luz."
+          },
+          "l293b-q3": {
+            "prompt": "¿Cómo estaba abierta la pantalla y qué efecto tenía esa abertura?",
+            "options": [
+              "Abierta por arriba para iluminar los puntos del techo.",
+              "Abierta por un lado para iluminar solo las fachadas.",
+              "Abierta por abajo para que la luz llegara al camino.",
+              "Abierta frente al proyector para recibir sus puntos."
+            ],
+            "correct": "c",
+            "explanation": "Estaba abierta por abajo, de manera que la luz seguía llegando al camino."
+          },
+          "l293b-q4": {
+            "prompt": "¿Por qué Mira buscó el mando del proyector al oír a Dani?",
+            "options": [
+              "Quería apagar la lámpara desde el mando.",
+              "Quería comprobar si había cambiado el dibujo de puntos.",
+              "Quería añadir al dibujo una figura junto al banco.",
+              "Quería repetir el movimiento de las casas."
+            ],
+            "correct": "b",
+            "explanation": "Para comprobar si habían cambiado el dibujo de puntos, aunque nadie lo había tocado."
+          },
+          "l293b-q5": {
+            "prompt": "¿Por qué necesitaban juntar las anotaciones de Dani y Mira?",
+            "options": [
+              "Ambos habían anotado únicamente lo que pasaba con el camino.",
+              "Dani había perdido el lugar desde donde miraba el techo.",
+              "Joana había cambiado de sitio las casas entre las dos notas.",
+              "Cada nota recogía una de las dos cosas que querían lograr."
+            ],
+            "correct": "d",
+            "explanation": "Cada uno observaba una parte del objetivo: el techo o el camino. Juntas mostraban si se habían conseguido ambas cosas."
+          },
+          "l293b-q6": {
+            "prompt": "¿Qué función tiene repetir la prueba sin mover casas, proyector ni sillas?",
+            "options": [
+              "Comparar la pantalla puesta y retirada desde la misma disposición.",
+              "Decidir qué casas conviene acercar al proyector después.",
+              "Comprobar cómo cambia el camino al mover las figuras.",
+              "Para comprobar a la vez el cambio de pantalla y el de las casas."
+            ],
+            "correct": "a",
+            "explanation": "Permite comparar el cambio de pantalla manteniendo los demás elementos en su sitio."
+          },
+          "l293b-q7": {
+            "prompt": "¿Qué era excesivo en la primera frase que Dani quería escribir?",
+            "options": [
+              "Atribuía a Mira una observación que había escrito Dani.",
+              "Generalizaba a todo el pueblo lo observado en una maqueta.",
+              "Describía solo el camino y olvidaba mencionar las casas.",
+              "Situaba el banco antes de la prueba con la lámpara."
+            ],
+            "correct": "b",
+            "explanation": "Afirmaba que una tapa arreglaba el cielo de todo el pueblo, pero solo habían probado una lámpara en una maqueta."
+          },
+          "l293b-q8": {
+            "prompt": "Según Joana, ¿para qué puede servir una pantalla en una farola?",
+            "options": [
+              "Para iluminar también las partes altas que quedan fuera del camino.",
+              "Para enviar luz hacia la zona alta que observaba Mira.",
+              "Para dirigir la luz donde hace falta y reducir la que escapa arriba.",
+              "Para dejar oscuro el camino mientras se miran las estrellas."
+            ],
+            "correct": "c",
+            "explanation": "Para dirigir la luz hacia la zona que se quiere iluminar y limitar la que se pierde hacia arriba."
+          },
+          "l293b-q9": {
+            "prompt": "¿Qué resumen recoge mejor la experiencia y su conclusión?",
+            "options": [
+              "Mueven varias farolas del pueblo y trasladan su resultado a una maqueta.",
+              "Cambian el proyector hasta conseguir más puntos sobre las casas.",
+              "Cambian la pantalla y mueven las casas para iluminar otro tramo.",
+              "Prueban una pantalla y describen los dos efectos observados en el modelo."
+            ],
+            "correct": "d",
+            "explanation": "Compararon una lámpara con pantalla y sin ella. Con pantalla, el camino seguía iluminado y los puntos se distinguían mejor. Describieron el efecto de su modelo en vez de afirmar que habían resuelto el cielo de todo el pueblo."
+          }
+        }
+      },
+      {
+        "code": "L293B",
+        "language": "ca",
+        "questions": {
+          "l293b-q1": {
+            "prompt": "Què volien aconseguir alhora amb la maqueta?",
+            "options": [
+              "Apagar el llum i veure més bé els punts.",
+              "Il·luminar les cases i deixar fosc el camí.",
+              "Canviar el projector i apagar la llum del camí.",
+              "Il·luminar el camí i distingir més bé els punts."
+            ],
+            "correct": "d",
+            "explanation": "Mantenir il·luminat el camí i distingir més bé els punts del sostre."
+          },
+          "l293b-q2": {
+            "prompt": "Què vol dir «limitar» la llum que es perd cap amunt?",
+            "options": [
+              "Reduir la quantitat que s’escapa cap amunt.",
+              "Concentrar amunt la llum que abans arribava a terra.",
+              "Apagar tota la llum del llum.",
+              "Moure el llum sense canviar la llum que se n’escapa."
+            ],
+            "correct": "a",
+            "explanation": "Reduir o posar un límit a aquella llum."
+          },
+          "l293b-q3": {
+            "prompt": "Com estava oberta la pantalla i quin efecte tenia aquella obertura?",
+            "options": [
+              "Oberta per dalt per il·luminar els punts del sostre.",
+              "Oberta per un costat per il·luminar només les façanes.",
+              "Oberta per sota perquè la llum arribés al camí.",
+              "Oberta davant del projector per rebre’n els punts."
+            ],
+            "correct": "c",
+            "explanation": "Estava oberta per sota, de manera que la llum continuava arribant al camí."
+          },
+          "l293b-q4": {
+            "prompt": "Per què la Mira va buscar el comandament del projector en sentir en Dani?",
+            "options": [
+              "Volia apagar el llum des del comandament.",
+              "Volia comprovar si havia canviat el dibuix de punts.",
+              "Volia afegir al dibuix una figura al costat del banc.",
+              "Volia repetir el moviment de les cases."
+            ],
+            "correct": "b",
+            "explanation": "Per comprovar si havien canviat el dibuix de punts, tot i que ningú no l’havia tocat."
+          },
+          "l293b-q5": {
+            "prompt": "Per què necessitaven ajuntar les anotacions d’en Dani i la Mira?",
+            "options": [
+              "Tots dos havien anotat únicament el que passava amb el camí.",
+              "En Dani havia perdut el lloc des d’on mirava el sostre.",
+              "La Joana havia canviat de lloc les cases entre les dues notes.",
+              "Cada nota recollia una de les dues coses que volien aconseguir."
+            ],
+            "correct": "d",
+            "explanation": "Cadascú observava una part de l’objectiu: el sostre o el camí. Juntes mostraven si havien aconseguit totes dues coses."
+          },
+          "l293b-q6": {
+            "prompt": "Quina funció té repetir la prova sense moure cases, projector ni cadires?",
+            "options": [
+              "Comparar la pantalla posada i retirada des de la mateixa disposició.",
+              "Decidir quines cases convé acostar al projector després.",
+              "Comprovar com canvia el camí en moure les figures.",
+              "Per comprovar alhora el canvi de pantalla i el de les cases."
+            ],
+            "correct": "a",
+            "explanation": "Permet comparar el canvi de pantalla mantenint els altres elements al seu lloc."
+          },
+          "l293b-q7": {
+            "prompt": "Què era excessiu en la primera frase que en Dani volia escriure?",
+            "options": [
+              "Atribuïa a la Mira una observació que havia escrit en Dani.",
+              "Generalitzava a tot el poble el que havien observat en una maqueta.",
+              "Descrivia només el camí i oblidava esmentar les cases.",
+              "Situava el banc abans de la prova amb el llum."
+            ],
+            "correct": "b",
+            "explanation": "Afirmava que una tapa arreglava el cel de tot el poble, però només havien provat un llum en una maqueta."
+          },
+          "l293b-q8": {
+            "prompt": "Segons la Joana, per a què pot servir una pantalla en un fanal?",
+            "options": [
+              "Per il·luminar també les parts altes que queden fora del camí.",
+              "Per enviar llum cap a la zona alta que observava la Mira.",
+              "Per dirigir la llum on cal i reduir la que s’escapa amunt.",
+              "Per deixar fosc el camí mentre es miren les estrelles."
+            ],
+            "correct": "c",
+            "explanation": "Per dirigir la llum cap a la zona que es vol il·luminar i limitar la que es perd cap amunt."
+          },
+          "l293b-q9": {
+            "prompt": "Quin resum recull millor l’experiència i la conclusió?",
+            "options": [
+              "Mouen diversos fanals del poble i traslladen el resultat a una maqueta.",
+              "Canvien el projector fins a aconseguir més punts sobre les cases.",
+              "Canvien la pantalla i mouen les cases per il·luminar un altre tram.",
+              "Proven una pantalla i descriuen els dos efectes observats en el model."
+            ],
+            "correct": "d",
+            "explanation": "Van comparar un llum amb pantalla i sense. Amb pantalla, el camí continuava il·luminat i els punts es distingien més bé. Van descriure l’efecte del model en lloc d’afirmar que havien resolt el cel de tot el poble."
+          }
+        }
+      }
+    ]
   }
 ];
