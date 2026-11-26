@@ -12576,5 +12576,1796 @@ export const newsroomPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L287",
+    "edition": "v1.60.7",
+    "family": {
+      "id": "familia-l287",
+      "code": "L287",
+      "name": {
+        "es": "La receta que no cabía en la columna",
+        "ca": "La recepta que no cabia a la columna"
+      },
+      "description": {
+        "ca": "Una història de La redacció del pati, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de La redacción del patio, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L287A",
+        "L287",
+        "L287B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "la-receta-que-no-cabia-en-la-columna-a-es",
+        "code": "L287A",
+        "workId": "la-receta-que-no-cabia-en-la-columna-a",
+        "language": "es",
+        "familyId": "familia-l287",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "everyday",
+          "community",
+          "arts"
+        ],
+        "genre": "instructional",
+        "title": "La receta que no cabía en la columna",
+        "summary": "Una receta parece completa hasta que Clara y Omar intentan seguir la versión que han acortado para el diario.",
+        "paragraphs": [
+          "La redacción del patio, el equipo del periódico escolar, iba a publicar una receta de ensalada de fruta. Clara y Omar, de sexto, querían probarla antes. El equipo de cocina les había dejado la fruta lavada, pelada y cortada, cada clase en un recipiente distinto. Tendrían que mezclarla y repartirla siguiendo el texto.",
+          "La receta original decía: «Para cuatro cuencos pequeños: una manzana, una pera, dos mandarinas y dos cucharadas de zumo de naranja. Pon la manzana y la pera en un bol grande. Añade los gajos de mandarina y el zumo. Mezcla suavemente desde el fondo. Reparte en cuatro cuencos».",
+          "Omar había reducido las instrucciones para dejar espacio a una fotografía. Conservó los ingredientes, pero escribió solo que pusieran la fruta en el bol y la repartieran. Clara siguió aquella versión. Antes de probarla, señaló el zumo que seguía en la jarrita y la fruta que había quedado separada por capas. La fotografía original mostraba un resultado que no habían conseguido siguiendo aquellas dos acciones.",
+          "Volvieron a reunir la fruta en el bol grande. Omar iba a echar zumo a ojo, pero Clara buscó la cantidad en el original. Midieron las dos cucharadas, mezclaron y repartieron de nuevo. Esta vez los cuencos tenían trozos de las tres frutas.",
+          "Recuperaron las instrucciones que faltaban y redujeron un poco la fotografía. Después probaron la ensalada. Omar miró la página nueva: la foto era menor, pero todavía se distinguían los gajos. Clara se llevó a la boca uno que no había salido retratado."
+        ],
+        "questions": [
+          {
+            "id": "l287a-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Nombra las tres frutas que se añaden a trozos o en gajos.",
+            "answer": "Manzana, pera y mandarina.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "una manzana, una pera, dos mandarinas"
+              }
+            ]
+          },
+          {
+            "id": "l287a-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué el zumo seguía en la jarrita después de seguir la receta corta?",
+            "answer": "Porque la versión corta no indicaba que lo añadieran.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "escribió solo que pusieran la fruta en el bol y la repartieran"
+              }
+            ]
+          },
+          {
+            "id": "l287a-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué se hace inmediatamente después de añadir la mandarina y el zumo en el original?",
+            "answer": "Mezclar suavemente desde el fondo.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Mezcla suavemente desde el fondo"
+              }
+            ]
+          },
+          {
+            "id": "l287a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa echar zumo «a ojo»?",
+            "answer": "Calcular aproximadamente la cantidad sin medirla.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Omar iba a echar zumo a ojo"
+              }
+            ]
+          },
+          {
+            "id": "l287a-q5",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Para qué sirve la lista del principio de la receta?",
+            "answer": "Para saber qué ingredientes y cantidades se necesitan para cuatro cuencos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Para cuatro cuencos pequeños"
+              }
+            ]
+          },
+          {
+            "id": "l287a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué reúnen otra vez la fruta en el bol grande?",
+            "answer": "Para añadir la cantidad de zumo y mezclar antes de repartirla otra vez.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Midieron las dos cucharadas, mezclaron y repartieron de nuevo"
+              }
+            ]
+          },
+          {
+            "id": "l287a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué ocurrió al acortar la receta y qué cambiaron después.",
+            "answer": "Omitieron añadir el zumo y mezclar. Al probar las instrucciones detectaron el problema, recuperaron esos pasos y redujeron la foto.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Conservó los ingredientes"
+              },
+              {
+                "paragraph": 5,
+                "text": "Recuperaron las instrucciones que faltaban y redujeron un poco la fotografía"
+              }
+            ]
+          },
+          {
+            "id": "l287a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Cómo comprobarías unas instrucciones que has escrito? Explica qué harías.",
+            "answer": "Respuesta personal razonada, por ejemplo pedir a alguien que las siga sin ayudarle y observar si falta algún paso."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "a ojo",
+            "occurrence": 1,
+            "questionId": "l287a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l287-scene",
+            "src": "assets/readings/l287-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un bol de ensalada de fruta con manzana, pera y mandarina, cuatro cuencos y dos versiones de una receta sobre la mesa del periódico escolar.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan el periódico escolar en una mesa del patio, en una ilustración azul y naranja.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-receta-que-no-cabia-en-la-columna-a-ca",
+        "code": "L287A",
+        "workId": "la-receta-que-no-cabia-en-la-columna-a",
+        "language": "ca",
+        "familyId": "familia-l287",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "everyday",
+          "community",
+          "arts"
+        ],
+        "genre": "instructional",
+        "title": "La recepta que no cabia a la columna",
+        "summary": "Una recepta sembla completa fins que la Clara i l’Omar intenten seguir la versió que han escurçat per al diari.",
+        "paragraphs": [
+          "La redacció del pati, l’equip del diari escolar, publicaria una recepta d’amanida de fruita. La Clara i l’Omar, de sisè, la volien provar abans. L’equip de cuina els havia deixat la fruita rentada, pelada i tallada, cada tipus en un recipient diferent. L’haurien de barrejar i repartir seguint el text.",
+          "La recepta original deia: «Per a quatre bols petits: una poma, una pera, dues mandarines i dues cullerades de suc de taronja. Posa la poma i la pera en un bol gran. Afegeix-hi els grills de mandarina i el suc. Barreja-ho suaument des del fons. Reparteix-ho en quatre bols petits».",
+          "L’Omar havia reduït les instruccions per deixar espai a una fotografia. Va conservar els ingredients, però només va escriure que posessin la fruita al bol i la repartissin. La Clara va seguir aquella versió. Abans de tastar-la, va assenyalar el suc que encara era a la gerreta i la fruita que havia quedat separada per capes. La fotografia original mostrava un resultat que no havien aconseguit seguint aquelles dues accions.",
+          "Van tornar a reunir la fruita al bol gran. L’Omar anava a abocar-hi suc a ull, però la Clara va buscar la quantitat a l’original. Van mesurar les dues cullerades, van barrejar i van tornar a repartir. Aquest cop els bols tenien trossos de les tres fruites.",
+          "Van recuperar les instruccions que faltaven i van reduir una mica la fotografia. Després van tastar l’amanida. L’Omar va mirar la pàgina nova: la foto era més petita, però encara s’hi distingien els grills. La Clara se’n va posar a la boca un que no havia sortit retratat."
+        ],
+        "questions": [
+          {
+            "id": "l287a-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Esmenta les tres fruites que s’afegeixen a trossos o en grills.",
+            "answer": "Poma, pera i mandarina.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "una poma, una pera, dues mandarines"
+              }
+            ]
+          },
+          {
+            "id": "l287a-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què el suc encara era a la gerreta després de seguir la recepta curta?",
+            "answer": "Perquè la versió curta no indicava que l’afegissin.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "només va escriure que posessin la fruita al bol i la repartissin"
+              }
+            ]
+          },
+          {
+            "id": "l287a-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què es fa immediatament després d’afegir la mandarina i el suc a l’original?",
+            "answer": "Barrejar suaument des del fons.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Barreja-ho suaument des del fons"
+              }
+            ]
+          },
+          {
+            "id": "l287a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir abocar suc «a ull»?",
+            "answer": "Calcular aproximadament la quantitat sense mesurar-la.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "L’Omar anava a abocar-hi suc a ull"
+              }
+            ]
+          },
+          {
+            "id": "l287a-q5",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Per a què serveix la llista del principi de la recepta?",
+            "answer": "Per saber quins ingredients i quantitats calen per a quatre bols.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Per a quatre bols petits"
+              }
+            ]
+          },
+          {
+            "id": "l287a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què tornen a reunir la fruita al bol gran?",
+            "answer": "Per afegir la quantitat de suc i barrejar abans de repartir-la de nou.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Van mesurar les dues cullerades, van barrejar i van tornar a repartir"
+              }
+            ]
+          },
+          {
+            "id": "l287a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix què va passar en escurçar la recepta i què van canviar després.",
+            "answer": "Van ometre afegir el suc i barrejar. En provar les instruccions van detectar el problema, van recuperar aquells passos i van reduir la foto.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Va conservar els ingredients"
+              },
+              {
+                "paragraph": 5,
+                "text": "Van recuperar les instruccions que faltaven i van reduir una mica la fotografia"
+              }
+            ]
+          },
+          {
+            "id": "l287a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Com comprovaries unes instruccions que has escrit? Explica què faries.",
+            "answer": "Resposta personal raonada, per exemple demanar a algú que les segueixi sense ajudar-lo i observar si falta cap pas."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "a ull",
+            "occurrence": 1,
+            "questionId": "l287a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l287-scene",
+            "src": "assets/readings/l287-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un bol d’amanida de fruita amb poma, pera i mandarina, quatre bols petits i dues versions d’una recepta damunt la taula del diari escolar.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen el diari escolar en una taula del pati, en una il·lustració blava i taronja.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-receta-que-no-cabia-en-la-columna-es",
+        "code": "L287",
+        "workId": "la-receta-que-no-cabia-en-la-columna",
+        "language": "es",
+        "familyId": "familia-l287",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "everyday",
+          "community",
+          "arts"
+        ],
+        "genre": "instructional",
+        "title": "La receta que no cabía en la columna",
+        "summary": "Una prueba práctica descubre que una lista de ingredientes completa puede acompañar unas instrucciones incompletas.",
+        "paragraphs": [
+          "El periódico de la escuela tendría una columna de recetas. Clara y Omar, alumnos de sexto de la redacción del patio, habían pedido una propuesta al equipo de cocina. Les entregaron una receta de ensalada de fruta y se ofrecieron a dejarles los ingredientes preparados para probarla. La fruta llegaría lavada, pelada y cortada, cada tipo en un recipiente. Los dos redactores tendrían que mezclarla y repartirla siguiendo el texto que iban a publicar.",
+          "La receta original decía: «Para cuatro cuencos pequeños: una manzana, una pera, dos mandarinas y dos cucharadas de zumo de naranja. Pon la manzana y la pera en un bol grande. Añade los gajos de mandarina y el zumo. Mezcla suavemente desde el fondo para repartir las frutas. Sirve en cuatro cuencos». Bajo las instrucciones había una fotografía donde se distinguían las tres frutas.",
+          "Omar quería que la imagen ocupara la mitad de la columna. Conservó la lista de ingredientes y resumió las instrucciones en dos acciones: poner las frutas en el bol y repartirlas. Clara leyó únicamente aquella versión durante la prueba. Colocó primero la manzana, luego la pera y al final la mandarina. Repartió la fruta sin removerla. Antes de probar, vio que unos cuencos tenían más manzana y otros más gajos. El zumo seguía en la jarrita.",
+          "—En la lista está todo —dijo Omar, buscando qué había pasado.\nClara comparó las instrucciones con el original y señaló las frases que habían desaparecido. Volvieron a reunir la fruta en el bol. Omar iba a añadir zumo a ojo; Clara encontró la cantidad en la lista y acercó una cuchara. Midieron las dos cucharadas y mezclaron desde el fondo, levantando suavemente la fruta antes de repartirla otra vez.",
+          "Los cuencos contenían ahora trozos de las tres frutas. Los probaron antes de volver a la página. Podían reducir la fotografía y conservar unas instrucciones completas. Clara propuso además separar los pasos en líneas distintas para encontrarlos durante la preparación. Omar cambió el tamaño de la imagen y recuperó las acciones omitidas; no tuvieron que cambiar los ingredientes ni las cuatro raciones.",
+          "Omar miró la foto más pequeña y señaló un gajo de su cuenco: «Este tampoco cabe en la columna». Clara acercó una cuchara para cogerlo. Guardaron el archivo y terminaron la fruta."
+        ],
+        "questions": [
+          {
+            "id": "l287-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué trabajo dejaba ya hecho el equipo de cocina?",
+            "answer": "Lavar, pelar y cortar la fruta, dejando cada tipo separado.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "lavada, pelada y cortada, cada tipo en un recipiente"
+              }
+            ]
+          },
+          {
+            "id": "l287-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Cuánto zumo necesita la receta original para cuatro cuencos?",
+            "answer": "Dos cucharadas de zumo de naranja.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "dos cucharadas de zumo de naranja"
+              }
+            ]
+          },
+          {
+            "id": "l287-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué relación hay entre el tamaño que Omar quiere para la foto y la versión corta?",
+            "answer": "Acorta las instrucciones para dejar la mitad de la columna a la foto.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "quería que la imagen ocupara la mitad de la columna"
+              }
+            ]
+          },
+          {
+            "id": "l287-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué no basta la observación de Omar «En la lista está todo»?",
+            "answer": "Porque tener todos los ingredientes escritos no indica cuándo añadirlos ni cómo mezclarlos.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "resumió las instrucciones en dos acciones"
+              },
+              {
+                "paragraph": 4,
+                "text": "señaló las frases que habían desaparecido"
+              }
+            ]
+          },
+          {
+            "id": "l287-q5",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué quiere decir añadir zumo «a ojo»?",
+            "answer": "Estimar la cantidad sin usar una medida.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Omar iba a añadir zumo a ojo"
+              }
+            ]
+          },
+          {
+            "id": "l287-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Indica los pasos que recuperan antes de repartir por segunda vez.",
+            "answer": "Añadir las dos cucharadas de zumo y mezclar suavemente desde el fondo.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Midieron las dos cucharadas y mezclaron desde el fondo"
+              }
+            ]
+          },
+          {
+            "id": "l287-q7",
+            "type": "inference",
+            "lines": 1,
+            "prompt": "Si se duplica toda la receta para ocho cuencos, ¿cuántas cucharadas de zumo se necesitan?",
+            "answer": "Cuatro cucharadas.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Para cuatro cuencos pequeños"
+              },
+              {
+                "paragraph": 2,
+                "text": "dos cucharadas de zumo de naranja"
+              }
+            ]
+          },
+          {
+            "id": "l287-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué utilidad tiene separar los pasos en líneas distintas?",
+            "answer": "Facilita encontrar y seguir cada acción durante la preparación.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "separar los pasos en líneas distintas para encontrarlos durante la preparación"
+              }
+            ]
+          },
+          {
+            "id": "l287-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume el error de la versión abreviada y la revisión final.",
+            "answer": "La lista estaba completa, pero faltaba añadir el zumo y mezclar. Tras seguirla, recuperaron las acciones, separaron los pasos y redujeron la foto.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "recuperó las acciones omitidas"
+              }
+            ]
+          },
+          {
+            "id": "l287-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué parte de una receta conservarías siempre al reducir su extensión? Justifica tu decisión.",
+            "answer": "Respuesta razonada con referencia a cantidades, pasos necesarios, orden u otros datos que permitan realizarla."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "a ojo",
+            "occurrence": 1,
+            "questionId": "l287-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l287-scene",
+            "src": "assets/readings/l287-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un bol de ensalada de fruta con manzana, pera y mandarina, cuatro cuencos y dos versiones de una receta sobre la mesa del periódico escolar.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan el periódico escolar en una mesa del patio, en una ilustración azul y naranja.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "la-receta-que-no-cabia-en-la-columna-ca",
+        "code": "L287",
+        "workId": "la-receta-que-no-cabia-en-la-columna",
+        "language": "ca",
+        "familyId": "familia-l287",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "everyday",
+          "community",
+          "arts"
+        ],
+        "genre": "instructional",
+        "title": "La recepta que no cabia a la columna",
+        "summary": "Una prova pràctica descobreix que una llista d’ingredients completa pot acompanyar unes instruccions incompletes.",
+        "paragraphs": [
+          "El diari de l’escola tindria una columna de receptes. La Clara i l’Omar, alumnes de sisè de la redacció del pati, havien demanat una proposta a l’equip de cuina. Els van donar una recepta d’amanida de fruita i es van oferir a deixar-los els ingredients preparats per provar-la. La fruita arribaria rentada, pelada i tallada, cada tipus en un recipient. Els dos redactors l’haurien de barrejar i repartir seguint el text que publicarien.",
+          "La recepta original deia: «Per a quatre bols petits: una poma, una pera, dues mandarines i dues cullerades de suc de taronja. Posa la poma i la pera en un bol gran. Afegeix-hi els grills de mandarina i el suc. Barreja-ho suaument des del fons per repartir les fruites. Serveix-ho en quatre bols petits». Sota les instruccions hi havia una fotografia on es distingien les tres fruites.",
+          "L’Omar volia que la imatge ocupés la meitat de la columna. Va conservar la llista d’ingredients i va resumir les instruccions en dues accions: posar les fruites al bol i repartir-les. La Clara va llegir únicament aquella versió durant la prova. Va posar primer la poma, després la pera i al final la mandarina. Va repartir la fruita sense remenar-la. Abans de tastar, va veure que uns bols tenien més poma i d’altres més grills. El suc encara era a la gerreta.",
+          "—A la llista hi és tot —va dir l’Omar, buscant què havia passat.\nLa Clara va comparar les instruccions amb l’original i va assenyalar les frases que havien desaparegut. Van tornar a reunir la fruita al bol. L’Omar anava a afegir-hi suc a ull; la Clara va trobar la quantitat a la llista i va acostar una cullera. Van mesurar les dues cullerades i van barrejar des del fons, aixecant suaument la fruita abans de repartir-la de nou.",
+          "Ara els bols contenien trossos de les tres fruites. Els van tastar abans de tornar a la pàgina. Podien reduir la fotografia i conservar unes instruccions completes. La Clara també va proposar separar els passos en línies diferents per trobar-los durant la preparació. L’Omar va canviar la mida de la imatge i va recuperar les accions omeses; no van haver de canviar els ingredients ni les quatre racions.",
+          "L’Omar va mirar la foto més petita i va assenyalar un grill del seu bol: «Aquest tampoc no cap a la columna». La Clara va acostar una cullera per agafar-lo. Van desar l’arxiu i van acabar la fruita."
+        ],
+        "questions": [
+          {
+            "id": "l287-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina feina deixava ja feta l’equip de cuina?",
+            "answer": "Rentar, pelar i tallar la fruita, deixant cada tipus separat.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "rentada, pelada i tallada, cada tipus en un recipient"
+              }
+            ]
+          },
+          {
+            "id": "l287-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quant de suc necessita la recepta original per a quatre bols?",
+            "answer": "Dues cullerades de suc de taronja.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "dues cullerades de suc de taronja"
+              }
+            ]
+          },
+          {
+            "id": "l287-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina relació hi ha entre la mida que l’Omar vol per a la foto i la versió curta?",
+            "answer": "Escurça les instruccions per deixar la meitat de la columna a la foto.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "volia que la imatge ocupés la meitat de la columna"
+              }
+            ]
+          },
+          {
+            "id": "l287-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què no n’hi ha prou amb l’observació de l’Omar «A la llista hi és tot»?",
+            "answer": "Perquè tenir tots els ingredients escrits no indica quan afegir-los ni com barrejar-los.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "va resumir les instruccions en dues accions"
+              },
+              {
+                "paragraph": 4,
+                "text": "va assenyalar les frases que havien desaparegut"
+              }
+            ]
+          },
+          {
+            "id": "l287-q5",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir afegir suc «a ull»?",
+            "answer": "Estimar la quantitat sense fer servir una mesura.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "L’Omar anava a afegir-hi suc a ull"
+              }
+            ]
+          },
+          {
+            "id": "l287-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Indica els passos que recuperen abans de repartir per segona vegada.",
+            "answer": "Afegir les dues cullerades de suc i barrejar suaument des del fons.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Van mesurar les dues cullerades i van barrejar des del fons"
+              }
+            ]
+          },
+          {
+            "id": "l287-q7",
+            "type": "inference",
+            "lines": 1,
+            "prompt": "Si es duplica tota la recepta per a vuit bols, quantes cullerades de suc calen?",
+            "answer": "Quatre cullerades.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Per a quatre bols petits"
+              },
+              {
+                "paragraph": 2,
+                "text": "dues cullerades de suc de taronja"
+              }
+            ]
+          },
+          {
+            "id": "l287-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quina utilitat té separar els passos en línies diferents?",
+            "answer": "Facilita trobar i seguir cada acció durant la preparació.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "separar els passos en línies diferents per trobar-los durant la preparació"
+              }
+            ]
+          },
+          {
+            "id": "l287-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix l’error de la versió abreujada i la revisió final.",
+            "answer": "La llista era completa, però faltava afegir el suc i barrejar. Després de seguir-la, van recuperar les accions, van separar els passos i van reduir la foto.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "va recuperar les accions omeses"
+              }
+            ]
+          },
+          {
+            "id": "l287-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quina part d’una recepta conservaries sempre en reduir-ne l’extensió? Justifica la decisió.",
+            "answer": "Resposta raonada amb referència a quantitats, passos necessaris, ordre o altres dades que permetin fer-la."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "a ull",
+            "occurrence": 1,
+            "questionId": "l287-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l287-scene",
+            "src": "assets/readings/l287-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un bol d’amanida de fruita amb poma, pera i mandarina, quatre bols petits i dues versions d’una recepta damunt la taula del diari escolar.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen el diari escolar en una taula del pati, en una il·lustració blava i taronja.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "la-receta-que-no-cabia-en-la-columna-b-es",
+        "code": "L287B",
+        "workId": "la-receta-que-no-cabia-en-la-columna-b",
+        "language": "es",
+        "familyId": "familia-l287",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "everyday",
+          "community",
+          "arts"
+        ],
+        "genre": "instructional",
+        "title": "La receta que no cabía en la columna",
+        "summary": "Recortar una receta obliga a distinguir lo que puede abreviarse de las acciones que un lector necesita para realizarla.",
+        "paragraphs": [
+          "La redacción del patio preparaba una columna de recetas para el periódico escolar. Clara y Omar, de sexto, habían pedido una propuesta al equipo de cocina. Recibieron una receta de ensalada de fruta, con una fotografía grande y un texto breve. Para comprobar la página que publicarían, acordaron probar las instrucciones. Desde la cocina les dejarían la fruta lavada, pelada y cortada, cada tipo en un recipiente separado. Su trabajo consistiría en mezclarla y repartirla siguiendo la versión del periódico.",
+          "El original indicaba: «Para cuatro cuencos pequeños: una manzana, una pera, dos mandarinas y dos cucharadas de zumo de naranja. Pon la manzana y la pera en un bol grande. Añade los gajos de mandarina y el zumo. Mezcla suavemente desde el fondo para repartir las frutas sin aplastarlas. Sirve en cuatro cuencos». Un comentario final proponía decorar la mesa con una servilleta de color. Omar retiró primero ese comentario, pero aún quería dar más espacio a la imagen.",
+          "La fotografía mostraba bien los gajos y le parecía lo más atractivo de la página. Conservó todas las cantidades en la lista, y redujo la preparación a poner la fruta en el bol y repartirla. Clara siguió esa versión sin consultar el original. Puso primero la manzana, después la pera y por último la mandarina. Al servir desde arriba, los primeros cuencos recibieron muchos gajos; en los últimos predominaban los trozos de manzana. Antes de probarlos, vio el zumo que seguía en la jarrita.",
+          "—Pero en la lista está todo —dijo Omar.\n—Y yo he hecho lo que ponía debajo —respondió Clara, enseñándole las dos instrucciones.\nCompararon los textos. Retirar la sugerencia de la servilleta no había cambiado la preparación. Al quitar también pasos de preparación, en cambio, habían perdido cuándo añadir el zumo y cómo mezclar la fruta. Omar señaló la foto: allí se veían las tres frutas juntas, pero no podía leerse qué acción debía hacer Clara antes de servir.",
+          "Reunieron de nuevo la fruta en el bol grande, todavía sin haberla probado. Omar iba a echar zumo a ojo; Clara acercó la cuchara y señaló las dos cucharadas de la lista. Las midieron, mezclaron desde el fondo y repartieron otra vez. En cada cuenco había ahora trozos de las tres frutas. Se sentaron un momento a probarlas y regresaron a la página con el original abierto al lado.",
+          "Clara propuso separar las acciones en líneas distintas y mantener las cantidades arriba, donde se encontraban con rapidez. Omar redujo la foto para recuperar las instrucciones omitidas. La servilleta siguió fuera. La imagen todavía permitía reconocer la ensalada, y los pasos indicaban qué hacer sin tener que adivinarlo a partir del resultado fotografiado. Guardaron una copia con cada versión para enseñarle a la maestra por qué la columna había cambiado de aspecto.",
+          "Omar miró la fotografía más pequeña y señaló un gajo de su cuenco: «Este tampoco cabe en la columna». Clara acercó una cuchara para cogerlo. Acabaron la fruta con la página nueva ya guardada."
+        ],
+        "questions": [
+          {
+            "id": "l287b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué tareas correspondían al equipo de cocina y cuáles a los redactores en la prueba?",
+            "answer": "La cocina preparaba la fruta cortada por tipos; Clara y Omar la mezclarían y repartirían siguiendo el texto.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "la fruta lavada, pelada y cortada, cada tipo en un recipiente separado"
+              },
+              {
+                "paragraph": 1,
+                "text": "mezclarla y repartirla siguiendo la versión del periódico"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué comentario del original eliminó Omar primero?",
+            "answer": "La sugerencia de decorar la mesa con una servilleta de color.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "decorar la mesa con una servilleta de color"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué los primeros cuencos recibieron más mandarina?",
+            "answer": "Porque la mandarina se había puesto al final, arriba, y Clara sirvió sin mezclar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "por último la mandarina. Al servir desde arriba"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿En qué se diferencia retirar el comentario de la servilleta de retirar la mezcla?",
+            "answer": "La servilleta es una sugerencia de presentación; mezclar es una acción necesaria para repartir las frutas como se propone.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Retirar la sugerencia de la servilleta no había cambiado la preparación"
+              },
+              {
+                "paragraph": 4,
+                "text": "habían perdido cuándo añadir el zumo y cómo mezclar la fruta"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q5",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué indica «a ojo» sobre la cantidad que iba a añadir Omar?",
+            "answer": "Que pensaba estimarla sin medirla con la cuchara.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Omar iba a echar zumo a ojo"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué no resuelve la fotografía aunque muestre las tres frutas juntas?",
+            "answer": "No explica la acción de mezclar ni el momento de añadir el zumo.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "no podía leerse qué acción debía hacer Clara antes de servir"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué hacen antes de repartir por segunda vez?",
+            "answer": "Reúnen la fruta, miden y añaden dos cucharadas de zumo y mezclan desde el fondo.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Las midieron, mezclaron desde el fondo y repartieron otra vez"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Para doce cuencos con las mismas proporciones, ¿cuántas mandarinas y cucharadas de zumo harían falta?",
+            "answer": "Seis mandarinas y seis cucharadas de zumo: tres veces la receta de cuatro cuencos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Para cuatro cuencos pequeños"
+              },
+              {
+                "paragraph": 2,
+                "text": "dos mandarinas y dos cucharadas de zumo de naranja"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q9",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué utilidad tienen las cantidades arriba y los pasos en líneas separadas?",
+            "answer": "Permiten localizar cantidades y seguir acciones mientras se prepara la receta.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "separar las acciones en líneas distintas y mantener las cantidades arriba"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q10",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué guardan una copia de cada versión para la maestra?",
+            "answer": "Para mostrar qué cambiaron en la columna y por qué recuperaron espacio para las instrucciones.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "enseñarle a la maestra por qué la columna había cambiado de aspecto"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resume qué aprendieron sobre reducir la extensión de unas instrucciones a partir de esta prueba.",
+            "answer": "Podían quitar una sugerencia decorativa, pero no acciones de preparación. La prueba reveló que la lista completa y la foto no sustituían los pasos, que recuperaron reduciendo la imagen.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Retirar la sugerencia de la servilleta no había cambiado la preparación"
+              },
+              {
+                "paragraph": 6,
+                "text": "recuperar las instrucciones omitidas"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Propón otro modo de ganar espacio sin perder información necesaria. Explica una ventaja y un posible límite.",
+            "answer": "Respuesta personal argumentada: reducir repeticiones, simplificar frases, reorganizar la página u otra propuesta viable, sin omitir pasos."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "a ojo",
+            "occurrence": 1,
+            "questionId": "l287b-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l287-scene",
+            "src": "assets/readings/l287-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un bol de ensalada de fruta con manzana, pera y mandarina, cuatro cuencos y dos versiones de una receta sobre la mesa del periódico escolar.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan el periódico escolar en una mesa del patio, en una ilustración azul y naranja.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "la-receta-que-no-cabia-en-la-columna-b-ca",
+        "code": "L287B",
+        "workId": "la-receta-que-no-cabia-en-la-columna-b",
+        "language": "ca",
+        "familyId": "familia-l287",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "everyday",
+          "community",
+          "arts"
+        ],
+        "genre": "instructional",
+        "title": "La recepta que no cabia a la columna",
+        "summary": "Retallar una recepta obliga a distingir què es pot abreujar de les accions que un lector necessita per fer-la.",
+        "paragraphs": [
+          "La redacció del pati preparava una columna de receptes per al diari escolar. La Clara i l’Omar, de sisè, havien demanat una proposta a l’equip de cuina. Van rebre una recepta d’amanida de fruita, amb una fotografia gran i un text breu. Per comprovar la pàgina que publicarien, van acordar provar les instruccions. Des de la cuina els deixarien la fruita rentada, pelada i tallada, cada tipus en un recipient separat. La seva feina consistiria a barrejar-la i repartir-la seguint la versió del diari.",
+          "L’original indicava: «Per a quatre bols petits: una poma, una pera, dues mandarines i dues cullerades de suc de taronja. Posa la poma i la pera en un bol gran. Afegeix-hi els grills de mandarina i el suc. Barreja-ho suaument des del fons per repartir les fruites sense aixafar-les. Serveix-ho en quatre bols petits». Un comentari final proposava decorar la taula amb un tovalló de color. L’Omar va retirar primer aquell comentari, però encara volia donar més espai a la imatge.",
+          "La fotografia mostrava bé els grills i li semblava el més atractiu de la pàgina. Va conservar totes les quantitats a la llista i va reduir la preparació a posar la fruita al bol i repartir-la. La Clara va seguir aquella versió sense consultar l’original. Va posar primer la poma, després la pera i finalment la mandarina. En servir des de dalt, els primers bols van rebre molts grills; als últims hi predominaven els trossos de poma. Abans de tastar-los, va veure el suc que encara era a la gerreta.",
+          "—Però a la llista hi és tot —va dir l’Omar.\n—I jo he fet el que deia a sota —va respondre la Clara, ensenyant-li les dues instruccions.\nVan comparar els textos. Retirar el suggeriment del tovalló no havia canviat la preparació. En treure també passos de preparació, en canvi, havien perdut quan afegir el suc i com barrejar la fruita. L’Omar va assenyalar la foto: allà es veien les tres fruites juntes, però no s’hi podia llegir quina acció havia de fer la Clara abans de servir.",
+          "Van tornar a reunir la fruita al bol gran, encara sense haver-la tastat. L’Omar anava a abocar-hi suc a ull; la Clara va acostar la cullera i va assenyalar les dues cullerades de la llista. Les van mesurar, van barrejar des del fons i van tornar a repartir. Ara a cada bol hi havia trossos de les tres fruites. Es van asseure un moment per tastar-les i van tornar a la pàgina amb l’original obert al costat.",
+          "La Clara va proposar separar les accions en línies diferents i mantenir les quantitats a dalt, on es trobaven de pressa. L’Omar va reduir la foto per recuperar les instruccions omeses. El tovalló va continuar fora. La imatge encara permetia reconèixer l’amanida i els passos indicaven què fer sense haver-ho d’endevinar a partir del resultat fotografiat. Van desar una còpia de cada versió per ensenyar a la mestra per què la columna havia canviat d’aspecte.",
+          "L’Omar va mirar la fotografia més petita i va assenyalar un grill del seu bol: «Aquest tampoc no cap a la columna». La Clara va acostar una cullera per agafar-lo. Van acabar la fruita amb la pàgina nova ja desada."
+        ],
+        "questions": [
+          {
+            "id": "l287b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quines tasques corresponien a l’equip de cuina i quines als redactors durant la prova?",
+            "answer": "La cuina preparava la fruita tallada per tipus; la Clara i l’Omar la barrejarien i repartirien seguint el text.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "la fruita rentada, pelada i tallada, cada tipus en un recipient separat"
+              },
+              {
+                "paragraph": 1,
+                "text": "barrejar-la i repartir-la seguint la versió del diari"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quin comentari de l’original va eliminar primer l’Omar?",
+            "answer": "El suggeriment de decorar la taula amb un tovalló de color.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "decorar la taula amb un tovalló de color"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què els primers bols van rebre més mandarina?",
+            "answer": "Perquè la mandarina s’havia posat al final, a dalt, i la Clara va servir sense barrejar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "finalment la mandarina. En servir des de dalt"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "En què es diferencia retirar el comentari del tovalló de retirar la barreja?",
+            "answer": "El tovalló és un suggeriment de presentació; barrejar és una acció necessària per repartir les fruites com es proposa.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Retirar el suggeriment del tovalló no havia canviat la preparació"
+              },
+              {
+                "paragraph": 4,
+                "text": "havien perdut quan afegir el suc i com barrejar la fruita"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q5",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què indica «a ull» sobre la quantitat que anava a afegir l’Omar?",
+            "answer": "Que pensava estimar-la sense mesurar-la amb la cullera.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "L’Omar anava a abocar-hi suc a ull"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què no resol la fotografia tot i que mostri les tres fruites juntes?",
+            "answer": "No explica l’acció de barrejar ni el moment d’afegir el suc.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "no s’hi podia llegir quina acció havia de fer la Clara abans de servir"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què fan abans de repartir per segona vegada?",
+            "answer": "Reuneixen la fruita, mesuren i afegeixen dues cullerades de suc i barregen des del fons.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Les van mesurar, van barrejar des del fons i van tornar a repartir"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per a dotze bols amb les mateixes proporcions, quantes mandarines i cullerades de suc caldrien?",
+            "answer": "Sis mandarines i sis cullerades de suc: tres vegades la recepta de quatre bols.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Per a quatre bols petits"
+              },
+              {
+                "paragraph": 2,
+                "text": "dues mandarines i dues cullerades de suc de taronja"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q9",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quina utilitat tenen les quantitats a dalt i els passos en línies separades?",
+            "answer": "Permeten localitzar quantitats i seguir accions mentre es prepara la recepta.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "separar les accions en línies diferents i mantenir les quantitats a dalt"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q10",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què desen una còpia de cada versió per a la mestra?",
+            "answer": "Per mostrar què van canviar a la columna i per què van recuperar espai per a les instruccions.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "ensenyar a la mestra per què la columna havia canviat d’aspecte"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resumeix què van aprendre sobre reduir l’extensió d’unes instruccions a partir d’aquesta prova.",
+            "answer": "Podien treure un suggeriment decoratiu, però no accions de preparació. La prova va revelar que la llista completa i la foto no substituïen els passos, que van recuperar reduint la imatge.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Retirar el suggeriment del tovalló no havia canviat la preparació"
+              },
+              {
+                "paragraph": 6,
+                "text": "recuperar les instruccions omeses"
+              }
+            ]
+          },
+          {
+            "id": "l287b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Proposa una altra manera de guanyar espai sense perdre informació necessària. Explica un avantatge i un possible límit.",
+            "answer": "Resposta personal argumentada: reduir repeticions, simplificar frases, reorganitzar la pàgina o una altra proposta viable, sense ometre passos."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "a ull",
+            "occurrence": 1,
+            "questionId": "l287b-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l287-scene",
+            "src": "assets/readings/l287-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un bol d’amanida de fruita amb poma, pera i mandarina, quatre bols petits i dues versions d’una recepta damunt la taula del diari escolar.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen el diari escolar en una taula del pati, en una il·lustració blava i taronja.",
+            "afterParagraph": 5
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L287A",
+        "language": "es",
+        "questions": {
+          "l287a-q1": {
+            "prompt": "Nombra las tres frutas que se añaden a trozos o en gajos.",
+            "options": [
+              "Manzana, naranja y pera.",
+              "Pera, mandarina y plátano.",
+              "Manzana, pera y mandarina.",
+              "Naranja, mandarina y manzana."
+            ],
+            "correct": "c",
+            "explanation": "Manzana, pera y mandarina."
+          },
+          "l287a-q2": {
+            "prompt": "¿Por qué el zumo seguía en la jarrita después de seguir la receta corta?",
+            "options": [
+              "Faltaba la instrucción de añadirlo.",
+              "La cantidad solo alcanzaba para un cuenco.",
+              "Lo habían reservado para la fotografía.",
+              "La receta original pedía servirlo aparte."
+            ],
+            "correct": "a",
+            "explanation": "Porque la versión corta no indicaba que lo añadieran."
+          },
+          "l287a-q3": {
+            "prompt": "¿Qué se hace inmediatamente después de añadir la mandarina y el zumo en el original?",
+            "options": [
+              "Repartir sin mover la fruta.",
+              "Lavar la fruta de nuevo.",
+              "Apartar la manzana y la pera.",
+              "Mezclar desde el fondo con suavidad."
+            ],
+            "correct": "d",
+            "explanation": "Mezclar suavemente desde el fondo."
+          },
+          "l287a-q4": {
+            "prompt": "¿Qué significa echar zumo «a ojo»?",
+            "options": [
+              "Seguir la medida de dos cucharadas.",
+              "Calcular la cantidad sin medirla.",
+              "Comprobar el color sin añadir zumo.",
+              "Repartir una cucharada por cuenco."
+            ],
+            "correct": "b",
+            "explanation": "Calcular aproximadamente la cantidad sin medirla."
+          },
+          "l287a-q5": {
+            "prompt": "¿Para qué sirve la lista del principio de la receta?",
+            "options": [
+              "Para explicar qué fruta sale mejor en la foto.",
+              "Para contar en qué orden escribieron la noticia.",
+              "Para indicar ingredientes y cantidades de la preparación.",
+              "Para señalar cuánto tiempo tardará cada paso."
+            ],
+            "correct": "c",
+            "explanation": "Para saber qué ingredientes y cantidades se necesitan para cuatro cuencos."
+          },
+          "l287a-q6": {
+            "prompt": "¿Por qué reúnen otra vez la fruta en el bol grande?",
+            "options": [
+              "Para hacer los pasos omitidos antes de repartir de nuevo.",
+              "Para retirar la mandarina y dejar solo dos frutas.",
+              "Para preparar una cantidad doble de ensalada.",
+              "Para guardar cuatro cuencos vacíos para la foto."
+            ],
+            "correct": "a",
+            "explanation": "Para añadir la cantidad de zumo y mezclar antes de repartirla otra vez."
+          },
+          "l287a-q7": {
+            "prompt": "¿Qué resumen explica mejor el problema y la solución?",
+            "options": [
+              "La fruta no alcanzaba y cambiaron los ingredientes para llenar cuatro cuencos.",
+              "La fotografía confundió a Clara y decidieron publicar solo una lista de frutas.",
+              "El zumo no les gustó y prepararon una versión nueva que no lo necesitaba.",
+              "La versión corta omitía pasos y los recuperaron quitando espacio a la foto."
+            ],
+            "correct": "d",
+            "explanation": "Omitieron añadir el zumo y mezclar. Al probar las instrucciones detectaron el problema, recuperaron esos pasos y redujeron la foto."
+          }
+        }
+      },
+      {
+        "code": "L287A",
+        "language": "ca",
+        "questions": {
+          "l287a-q1": {
+            "prompt": "Esmenta les tres fruites que s’afegeixen a trossos o en grills.",
+            "options": [
+              "Poma, taronja i pera.",
+              "Pera, mandarina i plàtan.",
+              "Poma, pera i mandarina.",
+              "Taronja, mandarina i poma."
+            ],
+            "correct": "c",
+            "explanation": "Poma, pera i mandarina."
+          },
+          "l287a-q2": {
+            "prompt": "Per què el suc encara era a la gerreta després de seguir la recepta curta?",
+            "options": [
+              "Faltava la instrucció d’afegir-lo.",
+              "La quantitat només arribava per a un bol.",
+              "L’havien reservat per a la fotografia.",
+              "La recepta original demanava servir-lo a part."
+            ],
+            "correct": "a",
+            "explanation": "Perquè la versió curta no indicava que l’afegissin."
+          },
+          "l287a-q3": {
+            "prompt": "Què es fa immediatament després d’afegir la mandarina i el suc a l’original?",
+            "options": [
+              "Repartir sense moure la fruita.",
+              "Rentar la fruita de nou.",
+              "Apartar la poma i la pera.",
+              "Barrejar des del fons amb suavitat."
+            ],
+            "correct": "d",
+            "explanation": "Barrejar suaument des del fons."
+          },
+          "l287a-q4": {
+            "prompt": "Què vol dir abocar suc «a ull»?",
+            "options": [
+              "Seguir la mesura de dues cullerades.",
+              "Calcular la quantitat sense mesurar-la.",
+              "Comprovar el color sense afegir suc.",
+              "Repartir una cullerada per bol."
+            ],
+            "correct": "b",
+            "explanation": "Calcular aproximadament la quantitat sense mesurar-la."
+          },
+          "l287a-q5": {
+            "prompt": "Per a què serveix la llista del principi de la recepta?",
+            "options": [
+              "Per explicar quina fruita surt millor a la foto.",
+              "Per explicar en quin ordre van escriure la notícia.",
+              "Per indicar ingredients i quantitats de la preparació.",
+              "Per assenyalar quant de temps durarà cada pas."
+            ],
+            "correct": "c",
+            "explanation": "Per saber quins ingredients i quantitats calen per a quatre bols."
+          },
+          "l287a-q6": {
+            "prompt": "Per què tornen a reunir la fruita al bol gran?",
+            "options": [
+              "Per fer els passos omesos abans de repartir de nou.",
+              "Per retirar la mandarina i deixar només dues fruites.",
+              "Per preparar una quantitat doble d’amanida.",
+              "Per desar quatre bols buits per a la foto."
+            ],
+            "correct": "a",
+            "explanation": "Per afegir la quantitat de suc i barrejar abans de repartir-la de nou."
+          },
+          "l287a-q7": {
+            "prompt": "Quin resum explica millor el problema i la solució?",
+            "options": [
+              "La fruita no arribava i van canviar els ingredients per omplir quatre bols.",
+              "La fotografia va confondre la Clara i van decidir publicar només una llista de fruites.",
+              "El suc no els va agradar i van preparar una versió nova que no en necessitava.",
+              "La versió curta ometia passos i els van recuperar traient espai a la foto."
+            ],
+            "correct": "d",
+            "explanation": "Van ometre afegir el suc i barrejar. En provar les instruccions van detectar el problema, van recuperar aquells passos i van reduir la foto."
+          }
+        }
+      },
+      {
+        "code": "L287",
+        "language": "es",
+        "questions": {
+          "l287-q1": {
+            "prompt": "¿Qué trabajo dejaba ya hecho el equipo de cocina?",
+            "options": [
+              "Mezclar las frutas y servir cuatro raciones.",
+              "Medir el zumo y preparar la fotografía final.",
+              "Separar las raciones y corregir las instrucciones.",
+              "Preparar la fruta cortada por tipos, sin mezclarla."
+            ],
+            "correct": "d",
+            "explanation": "Lavar, pelar y cortar la fruta, dejando cada tipo separado."
+          },
+          "l287-q2": {
+            "prompt": "¿Cuánto zumo necesita la receta original para cuatro cuencos?",
+            "options": [
+              "Dos cucharadas en total.",
+              "Dos cucharadas por cuenco.",
+              "Una jarrita por cuenco.",
+              "Cuatro cucharadas en total."
+            ],
+            "correct": "a",
+            "explanation": "Dos cucharadas de zumo de naranja."
+          },
+          "l287-q3": {
+            "prompt": "¿Qué relación hay entre el tamaño que Omar quiere para la foto y la versión corta?",
+            "options": [
+              "La imagen era pequeña y añadió instrucciones de más.",
+              "La foto explicaba los pasos y retiró la lista completa.",
+              "Reservó mucho espacio a la imagen y redujo el procedimiento.",
+              "La foto mostraba otra receta y cambió las cantidades."
+            ],
+            "correct": "c",
+            "explanation": "Acorta las instrucciones para dejar la mitad de la columna a la foto."
+          },
+          "l287-q4": {
+            "prompt": "¿Por qué no basta la observación de Omar «En la lista está todo»?",
+            "options": [
+              "Porque la lista confundía las frutas con el zumo.",
+              "Porque el procedimiento había perdido acciones necesarias.",
+              "Porque las cantidades estaban calculadas para más cuencos.",
+              "Porque el equipo de cocina había mezclado ya los ingredientes."
+            ],
+            "correct": "b",
+            "explanation": "Porque tener todos los ingredientes escritos no indica cuándo añadirlos ni cómo mezclarlos."
+          },
+          "l287-q5": {
+            "prompt": "¿Qué quiere decir añadir zumo «a ojo»?",
+            "options": [
+              "Usar exactamente la mitad de la jarrita.",
+              "Comprobar el sabor antes de repartir.",
+              "Tomar una medida por cada fruta.",
+              "Calcular aproximadamente sin medir."
+            ],
+            "correct": "d",
+            "explanation": "Estimar la cantidad sin usar una medida."
+          },
+          "l287-q6": {
+            "prompt": "Indica los pasos que recuperan antes de repartir por segunda vez.",
+            "options": [
+              "Añadir el zumo medido y mezclar la fruta.",
+              "Lavar las tres frutas y cambiar los cuencos.",
+              "Retirar los gajos y duplicar el zumo.",
+              "Reducir las raciones y añadir otra pera."
+            ],
+            "correct": "a",
+            "explanation": "Añadir las dos cucharadas de zumo y mezclar suavemente desde el fondo."
+          },
+          "l287-q7": {
+            "prompt": "Si se duplica toda la receta para ocho cuencos, ¿cuántas cucharadas de zumo se necesitan?",
+            "options": [
+              "Dos, porque la cantidad no depende de las raciones.",
+              "Ocho, una por cada cuenco preparado.",
+              "Cuatro, el doble de las dos originales.",
+              "Seis, sumando los nuevos cuencos a las cucharadas."
+            ],
+            "correct": "c",
+            "explanation": "Cuatro cucharadas."
+          },
+          "l287-q8": {
+            "prompt": "¿Qué utilidad tiene separar los pasos en líneas distintas?",
+            "options": [
+              "Ayuda a consultar las cantidades, sin cambiar cómo se encuentran las acciones.",
+              "Ayuda a localizar las acciones mientras se prepara la receta.",
+              "Permite comparar las frutas de la lista con las que se ven en la imagen.",
+              "Facilita elegir solo los pasos que cada lector quiera realizar."
+            ],
+            "correct": "b",
+            "explanation": "Facilita encontrar y seguir cada acción durante la preparación."
+          },
+          "l287-q9": {
+            "prompt": "¿Qué resumen mantiene el problema principal y su solución?",
+            "options": [
+              "La receta necesitaba más fruta y la foto permitió calcular las nuevas cantidades.",
+              "La cocina olvidó el zumo y los redactores lo añadieron después de publicar.",
+              "La prueba mostró que debían cambiar las cuatro raciones por cuencos más grandes.",
+              "La prueba detectó pasos omitidos y reorganizaron la columna para recuperarlos."
+            ],
+            "correct": "d",
+            "explanation": "La lista estaba completa, pero faltaba añadir el zumo y mezclar. Tras seguirla, recuperaron las acciones, separaron los pasos y redujeron la foto."
+          }
+        }
+      },
+      {
+        "code": "L287",
+        "language": "ca",
+        "questions": {
+          "l287-q1": {
+            "prompt": "Quina feina deixava ja feta l’equip de cuina?",
+            "options": [
+              "Barrejar les fruites i servir quatre racions.",
+              "Mesurar el suc i preparar la fotografia final.",
+              "Separar les racions i corregir les instruccions.",
+              "Preparar la fruita tallada per tipus, sense barrejar-la."
+            ],
+            "correct": "d",
+            "explanation": "Rentar, pelar i tallar la fruita, deixant cada tipus separat."
+          },
+          "l287-q2": {
+            "prompt": "Quant de suc necessita la recepta original per a quatre bols?",
+            "options": [
+              "Dues cullerades en total.",
+              "Dues cullerades per bol.",
+              "Una gerreta per bol.",
+              "Quatre cullerades en total."
+            ],
+            "correct": "a",
+            "explanation": "Dues cullerades de suc de taronja."
+          },
+          "l287-q3": {
+            "prompt": "Quina relació hi ha entre la mida que l’Omar vol per a la foto i la versió curta?",
+            "options": [
+              "La imatge era petita i va afegir instruccions de més.",
+              "La foto explicava els passos i va retirar la llista completa.",
+              "Va reservar molt d’espai a la imatge i va reduir el procediment.",
+              "La foto mostrava una altra recepta i va canviar les quantitats."
+            ],
+            "correct": "c",
+            "explanation": "Escurça les instruccions per deixar la meitat de la columna a la foto."
+          },
+          "l287-q4": {
+            "prompt": "Per què no n’hi ha prou amb l’observació de l’Omar «A la llista hi és tot»?",
+            "options": [
+              "Perquè la llista confonia les fruites amb el suc.",
+              "Perquè el procediment havia perdut accions necessàries.",
+              "Perquè les quantitats estaven calculades per a més bols.",
+              "Perquè l’equip de cuina ja havia barrejat els ingredients."
+            ],
+            "correct": "b",
+            "explanation": "Perquè tenir tots els ingredients escrits no indica quan afegir-los ni com barrejar-los."
+          },
+          "l287-q5": {
+            "prompt": "Què vol dir afegir suc «a ull»?",
+            "options": [
+              "Fer servir exactament la meitat de la gerreta.",
+              "Comprovar el gust abans de repartir.",
+              "Prendre una mesura per cada fruita.",
+              "Calcular aproximadament sense mesurar."
+            ],
+            "correct": "d",
+            "explanation": "Estimar la quantitat sense fer servir una mesura."
+          },
+          "l287-q6": {
+            "prompt": "Indica els passos que recuperen abans de repartir per segona vegada.",
+            "options": [
+              "Afegir el suc mesurat i barrejar la fruita.",
+              "Rentar les tres fruites i canviar els bols.",
+              "Retirar els grills i duplicar el suc.",
+              "Reduir les racions i afegir una altra pera."
+            ],
+            "correct": "a",
+            "explanation": "Afegir les dues cullerades de suc i barrejar suaument des del fons."
+          },
+          "l287-q7": {
+            "prompt": "Si es duplica tota la recepta per a vuit bols, quantes cullerades de suc calen?",
+            "options": [
+              "Dues, perquè la quantitat no depèn de les racions.",
+              "Vuit, una per cada bol preparat.",
+              "Quatre, el doble de les dues originals.",
+              "Sis, sumant els nous bols a les cullerades."
+            ],
+            "correct": "c",
+            "explanation": "Quatre cullerades."
+          },
+          "l287-q8": {
+            "prompt": "Quina utilitat té separar els passos en línies diferents?",
+            "options": [
+              "Ajuda a consultar les quantitats, sense canviar com es troben les accions.",
+              "Ajuda a localitzar les accions mentre es prepara la recepta.",
+              "Permet comparar les fruites de la llista amb les que es veuen a la imatge.",
+              "Facilita triar només els passos que cada lector vulgui fer."
+            ],
+            "correct": "b",
+            "explanation": "Facilita trobar i seguir cada acció durant la preparació."
+          },
+          "l287-q9": {
+            "prompt": "Quin resum manté el problema principal i la solució?",
+            "options": [
+              "La recepta necessitava més fruita i la foto va permetre calcular les quantitats noves.",
+              "La cuina va oblidar el suc i els redactors el van afegir després de publicar.",
+              "La prova va mostrar que havien de canviar les quatre racions per bols més grans.",
+              "La prova va detectar passos omesos i van reorganitzar la columna per recuperar-los."
+            ],
+            "correct": "d",
+            "explanation": "La llista era completa, però faltava afegir el suc i barrejar. Després de seguir-la, van recuperar les accions, van separar els passos i van reduir la foto."
+          }
+        }
+      },
+      {
+        "code": "L287B",
+        "language": "es",
+        "questions": {
+          "l287b-q1": {
+            "prompt": "¿Qué tareas correspondían al equipo de cocina y cuáles a los redactores en la prueba?",
+            "options": [
+              "La cocina servía los cuencos y los redactores calculaban las raciones.",
+              "La cocina preparaba el texto y Clara elegía las frutas para sustituirlo.",
+              "La cocina mezclaba las frutas y Omar decidía cómo cortarlas.",
+              "La cocina dejaba la fruta preparada y ellos seguían los pasos de mezcla y reparto."
+            ],
+            "correct": "d",
+            "explanation": "La cocina preparaba la fruta cortada por tipos; Clara y Omar la mezclarían y repartirían siguiendo el texto."
+          },
+          "l287b-q2": {
+            "prompt": "¿Qué comentario del original eliminó Omar primero?",
+            "options": [
+              "La sugerencia de decorar con una servilleta.",
+              "La cantidad de zumo para cuatro cuencos.",
+              "La indicación de mezclar desde el fondo.",
+              "La lista con las frutas de la preparación."
+            ],
+            "correct": "a",
+            "explanation": "La sugerencia de decorar la mesa con una servilleta de color."
+          },
+          "l287b-q3": {
+            "prompt": "¿Por qué los primeros cuencos recibieron más mandarina?",
+            "options": [
+              "Se habían usado más mandarinas de las previstas en la receta.",
+              "El zumo había desplazado la manzana hacia el fondo.",
+              "La fruta seguía en capas y sirvió primero la que estaba arriba.",
+              "La receta original reservaba los gajos para las primeras raciones."
+            ],
+            "correct": "c",
+            "explanation": "Porque la mandarina se había puesto al final, arriba, y Clara sirvió sin mezclar."
+          },
+          "l287b-q4": {
+            "prompt": "¿En qué se diferencia retirar el comentario de la servilleta de retirar la mezcla?",
+            "options": [
+              "Ambos cambios alteran las cantidades de los ingredientes.",
+              "Uno retira una decoración y el otro una acción de preparación.",
+              "La servilleta determina las raciones y la mezcla solo el aspecto.",
+              "La mezcla puede verse completa en la foto y la servilleta no."
+            ],
+            "correct": "b",
+            "explanation": "La servilleta es una sugerencia de presentación; mezclar es una acción necesaria para repartir las frutas como se propone."
+          },
+          "l287b-q5": {
+            "prompt": "¿Qué indica «a ojo» sobre la cantidad que iba a añadir Omar?",
+            "options": [
+              "Que repetiría la medida usada por Clara.",
+              "Que calcularía la cantidad dividiendo cuatro raciones.",
+              "Que añadiría todo el contenido de la jarrita.",
+              "Que calcularía aproximadamente sin usar una medida."
+            ],
+            "correct": "d",
+            "explanation": "Que pensaba estimarla sin medirla con la cuchara."
+          },
+          "l287b-q6": {
+            "prompt": "¿Qué no resuelve la fotografía aunque muestre las tres frutas juntas?",
+            "options": [
+              "El procedimiento que permite obtener el resultado mostrado.",
+              "La presencia de mandarina entre los ingredientes.",
+              "El aspecto general de la ensalada que quieren preparar.",
+              "La posibilidad de reconocer fruta en los cuencos."
+            ],
+            "correct": "a",
+            "explanation": "No explica la acción de mezclar ni el momento de añadir el zumo."
+          },
+          "l287b-q7": {
+            "prompt": "¿Qué hacen antes de repartir por segunda vez?",
+            "options": [
+              "Prueban cada cuenco y completan el que tiene menos mandarina.",
+              "Cambian la lista para añadir cuatro cucharadas de zumo.",
+              "Reúnen la fruta, añaden el zumo medido y mezclan.",
+              "Preparan otra tanda con los ingredientes que han sobrado."
+            ],
+            "correct": "c",
+            "explanation": "Reúnen la fruta, miden y añaden dos cucharadas de zumo y mezclan desde el fondo."
+          },
+          "l287b-q8": {
+            "prompt": "Para doce cuencos con las mismas proporciones, ¿cuántas mandarinas y cucharadas de zumo harían falta?",
+            "options": [
+              "Cuatro mandarinas y cuatro cucharadas.",
+              "Seis mandarinas y seis cucharadas.",
+              "Seis mandarinas y doce cucharadas.",
+              "Doce mandarinas y dos cucharadas."
+            ],
+            "correct": "b",
+            "explanation": "Seis mandarinas y seis cucharadas de zumo: tres veces la receta de cuatro cuencos."
+          },
+          "l287b-q9": {
+            "prompt": "¿Qué utilidad tienen las cantidades arriba y los pasos en líneas separadas?",
+            "options": [
+              "Reúnen las cantidades y las acciones en una sola secuencia continua.",
+              "Permiten consultar ingredientes usando la foto para decidir el orden de preparación.",
+              "Dejan las acciones como ejemplos y las cantidades como única instrucción necesaria.",
+              "Facilitan consultar los datos y las acciones durante la preparación."
+            ],
+            "correct": "d",
+            "explanation": "Permiten localizar cantidades y seguir acciones mientras se prepara la receta."
+          },
+          "l287b-q10": {
+            "prompt": "¿Por qué guardan una copia de cada versión para la maestra?",
+            "options": [
+              "Para comparar las decisiones de edición y explicar los cambios.",
+              "Para que la maestra elija nuevas frutas para cada receta.",
+              "Para publicar ambas versiones como dos recetas diferentes.",
+              "Para demostrar que la foto original contenía cantidades erróneas."
+            ],
+            "correct": "a",
+            "explanation": "Para mostrar qué cambiaron en la columna y por qué recuperaron espacio para las instrucciones."
+          },
+          "l287b-q11": {
+            "prompt": "¿Qué conclusión resume mejor lo que muestra la prueba?",
+            "options": [
+              "La lista determina el resultado aunque el procedimiento se reduzca a servir.",
+              "La mejor manera de abreviar es reemplazar todas las acciones por una fotografía.",
+              "Se puede reducir lo accesorio, pero deben conservarse las acciones que permiten realizar la receta.",
+              "Probar una receta sirve principalmente para decidir qué fruta fotografiar en primer plano."
+            ],
+            "correct": "c",
+            "explanation": "Podían quitar una sugerencia decorativa, pero no acciones de preparación. La prueba reveló que la lista completa y la foto no sustituían los pasos, que recuperaron reduciendo la imagen."
+          }
+        }
+      },
+      {
+        "code": "L287B",
+        "language": "ca",
+        "questions": {
+          "l287b-q1": {
+            "prompt": "Quines tasques corresponien a l’equip de cuina i quines als redactors durant la prova?",
+            "options": [
+              "La cuina servia els bols i els redactors calculaven les racions.",
+              "La cuina preparava el text i la Clara triava les fruites per substituir-lo.",
+              "La cuina barrejava les fruites i l’Omar decidia com tallar-les.",
+              "La cuina deixava la fruita preparada i ells seguien els passos de barreja i repartiment."
+            ],
+            "correct": "d",
+            "explanation": "La cuina preparava la fruita tallada per tipus; la Clara i l’Omar la barrejarien i repartirien seguint el text."
+          },
+          "l287b-q2": {
+            "prompt": "Quin comentari de l’original va eliminar primer l’Omar?",
+            "options": [
+              "El suggeriment de decorar amb un tovalló.",
+              "La quantitat de suc per a quatre bols.",
+              "La indicació de barrejar des del fons.",
+              "La llista amb les fruites de la preparació."
+            ],
+            "correct": "a",
+            "explanation": "El suggeriment de decorar la taula amb un tovalló de color."
+          },
+          "l287b-q3": {
+            "prompt": "Per què els primers bols van rebre més mandarina?",
+            "options": [
+              "S’havien fet servir més mandarines de les previstes a la recepta.",
+              "El suc havia desplaçat la poma cap al fons.",
+              "La fruita continuava en capes i va servir primer la que era a dalt.",
+              "La recepta original reservava els grills per a les primeres racions."
+            ],
+            "correct": "c",
+            "explanation": "Perquè la mandarina s’havia posat al final, a dalt, i la Clara va servir sense barrejar."
+          },
+          "l287b-q4": {
+            "prompt": "En què es diferencia retirar el comentari del tovalló de retirar la barreja?",
+            "options": [
+              "Tots dos canvis alteren les quantitats dels ingredients.",
+              "Un retira una decoració i l’altre una acció de preparació.",
+              "El tovalló determina les racions i la barreja només l’aspecte.",
+              "La barreja es pot veure completa a la foto i el tovalló no."
+            ],
+            "correct": "b",
+            "explanation": "El tovalló és un suggeriment de presentació; barrejar és una acció necessària per repartir les fruites com es proposa."
+          },
+          "l287b-q5": {
+            "prompt": "Què indica «a ull» sobre la quantitat que anava a afegir l’Omar?",
+            "options": [
+              "Que repetiria la mesura feta servir per la Clara.",
+              "Que calcularia la quantitat dividint quatre racions.",
+              "Que afegiria tot el contingut de la gerreta.",
+              "Que calcularia aproximadament sense fer servir una mesura."
+            ],
+            "correct": "d",
+            "explanation": "Que pensava estimar-la sense mesurar-la amb la cullera."
+          },
+          "l287b-q6": {
+            "prompt": "Què no resol la fotografia tot i que mostri les tres fruites juntes?",
+            "options": [
+              "El procediment que permet obtenir el resultat mostrat.",
+              "La presència de mandarina entre els ingredients.",
+              "L’aspecte general de l’amanida que volen preparar.",
+              "La possibilitat de reconèixer fruita als bols."
+            ],
+            "correct": "a",
+            "explanation": "No explica l’acció de barrejar ni el moment d’afegir el suc."
+          },
+          "l287b-q7": {
+            "prompt": "Què fan abans de repartir per segona vegada?",
+            "options": [
+              "Tasten cada bol i completen el que té menys mandarina.",
+              "Canvien la llista per afegir quatre cullerades de suc.",
+              "Reuneixen la fruita, afegeixen el suc mesurat i barregen.",
+              "Preparen una altra tanda amb els ingredients que han sobrat."
+            ],
+            "correct": "c",
+            "explanation": "Reuneixen la fruita, mesuren i afegeixen dues cullerades de suc i barregen des del fons."
+          },
+          "l287b-q8": {
+            "prompt": "Per a dotze bols amb les mateixes proporcions, quantes mandarines i cullerades de suc caldrien?",
+            "options": [
+              "Quatre mandarines i quatre cullerades.",
+              "Sis mandarines i sis cullerades.",
+              "Sis mandarines i dotze cullerades.",
+              "Dotze mandarines i dues cullerades."
+            ],
+            "correct": "b",
+            "explanation": "Sis mandarines i sis cullerades de suc: tres vegades la recepta de quatre bols."
+          },
+          "l287b-q9": {
+            "prompt": "Quina utilitat tenen les quantitats a dalt i els passos en línies separades?",
+            "options": [
+              "Reuneixen les quantitats i les accions en una sola seqüència contínua.",
+              "Permeten consultar ingredients fent servir la foto per decidir l’ordre de preparació.",
+              "Deixen les accions com a exemples i les quantitats com a única instrucció necessària.",
+              "Faciliten consultar les dades i les accions durant la preparació."
+            ],
+            "correct": "d",
+            "explanation": "Permeten localitzar quantitats i seguir accions mentre es prepara la recepta."
+          },
+          "l287b-q10": {
+            "prompt": "Per què desen una còpia de cada versió per a la mestra?",
+            "options": [
+              "Per comparar les decisions d’edició i explicar els canvis.",
+              "Perquè la mestra triï fruites noves per a cada recepta.",
+              "Per publicar totes dues versions com dues receptes diferents.",
+              "Per demostrar que la foto original contenia quantitats errònies."
+            ],
+            "correct": "a",
+            "explanation": "Per mostrar què van canviar a la columna i per què van recuperar espai per a les instruccions."
+          },
+          "l287b-q11": {
+            "prompt": "Quina conclusió resumeix millor el que mostra la prova?",
+            "options": [
+              "La llista determina el resultat encara que el procediment es redueixi a servir.",
+              "La millor manera d’abreujar és substituir totes les accions per una fotografia.",
+              "Es pot reduir el que és accessori, però cal conservar les accions que permeten fer la recepta.",
+              "Provar una recepta serveix principalment per decidir quina fruita fotografiar en primer pla."
+            ],
+            "correct": "c",
+            "explanation": "Podien treure un suggeriment decoratiu, però no accions de preparació. La prova va revelar que la llista completa i la foto no substituïen els passos, que van recuperar reduint la imatge."
+          }
+        }
+      }
+    ]
   }
 ];
