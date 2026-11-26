@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.63.6 · 26 de novembre del 2026
+
+L313: L’ombra que va entrar al dibuix. Nova família de l’univers Els camins de la ribera, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 13 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.63.5 · 26 de novembre del 2026
 
 L312: Les preguntes de la cistellera. Nova família de l’univers Els camins de la ribera, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 12 històries independents. Contingut provisional, pendent de validació docent.

@@ -11149,5 +11149,1820 @@ export const riversidePublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L313",
+    "edition": "v1.63.6",
+    "family": {
+      "id": "familia-l313",
+      "code": "L313",
+      "name": {
+        "es": "La sombra que entró en el dibujo",
+        "ca": "L’ombra que va entrar al dibuix"
+      },
+      "description": {
+        "ca": "Una història dels Camins de la ribera, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de Los caminos de la ribera, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L313A",
+        "L313",
+        "L313B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "la-sombra-que-entro-en-el-dibujo-a-es",
+        "code": "L313A",
+        "workId": "la-sombra-que-entro-en-el-dibujo-a",
+        "language": "es",
+        "familyId": "familia-l313",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "nature",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "La sombra que entró en el dibujo",
+        "summary": "Isona dibuja junto al molino y Neri descubre una mancha que cambia de lugar.",
+        "paragraphs": [
+          "Isona y Neri, dos amigos de la ribera, se sentaron bajo una higuera para dibujar. Desde el banco de piedra veían el molino de Elna. Isona apoyó una tabla sobre las rodillas y puso encima una hoja. Con un trozo de carbón empezó a dibujar el tejado.",
+          "Neri vio una mancha oscura junto al tejado del dibujo. Señaló el carbón que Isona había dejado sobre la tabla. Ella deslizó la hoja un poco. La mancha quedó ahora sobre el árbol que había dibujado al lado. Isona levantó la vista: unas hojas de la higuera se movían sobre sus cabezas.",
+          "—Es una sombra —dijo Neri—. Me gusta esa punta. Isona esperó a que el aire se calmara y repasó suavemente el contorno de una de aquellas formas. Después levantaron la hoja hacia un claro de luz. La mancha desapareció del papel; la línea de carbón siguió allí.",
+          "Al volver a poner la hoja sobre la tabla, otra sombra cruzó el molino dibujado. Isona dejó el carbón y miró el papel un rato. Neri colocó su propia hoja en el banco. Quería probar qué forma aparecía allí, sin tapar con el cuerpo la luz que llegaba entre las ramas."
+        ],
+        "questions": [
+          {
+            "id": "l313a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Dónde se sentaron los dos amigos?",
+            "answer": "En un banco de piedra bajo una higuera.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "se sentaron bajo una higuera"
+              },
+              {
+                "paragraph": 1,
+                "text": "Desde el banco de piedra"
+              }
+            ]
+          },
+          {
+            "id": "l313a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué dibujó Isona al empezar?",
+            "answer": "El tejado del molino.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "empezó a dibujar el tejado"
+              }
+            ]
+          },
+          {
+            "id": "l313a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Neri señaló el carbón al ver la mancha?",
+            "answer": "Pensó que la mancha podía proceder del carbón que estaba sobre la tabla.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Neri vio una mancha oscura junto al tejado del dibujo. Señaló el carbón"
+              }
+            ]
+          },
+          {
+            "id": "l313a-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué cambió cuando Isona deslizó la hoja?",
+            "answer": "La mancha pasó de estar junto al tejado a quedar sobre el árbol del dibujo.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La mancha quedó ahora sobre el árbol que había dibujado al lado."
+              }
+            ]
+          },
+          {
+            "id": "l313a-q5",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «contorno» en este texto?",
+            "answer": "La línea que rodea una forma por fuera.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "repasó suavemente el contorno de una de aquellas formas"
+              }
+            ]
+          },
+          {
+            "id": "l313a-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué quedó en el papel al levantarlo hacia la luz?",
+            "answer": "La línea de carbón que Isona había dibujado; la mancha de sombra desapareció.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La mancha desapareció del papel; la línea de carbón siguió allí."
+              }
+            ]
+          },
+          {
+            "id": "l313a-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Neri procuraba no tapar la luz al colocar su hoja?",
+            "answer": "Porque quería ver las sombras de las ramas sobre el papel, como había visto en la hoja de Isona.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Quería probar qué forma aparecía allí, sin tapar con el cuerpo la luz"
+              }
+            ]
+          },
+          {
+            "id": "l313a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué te gustaría dibujar en ese lugar? Explica tu elección.",
+            "answer": "Respuesta personal razonada, relacionada con un elemento del lugar o con el juego de sombras."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "contorno",
+            "occurrence": 1,
+            "questionId": "l313a-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l313-scene",
+            "src": "assets/readings/l313-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Isona dibuja el molino bajo una higuera mientras Neri observa las sombras de hojas sobre el papel.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-sombra-que-entro-en-el-dibujo-a-ca",
+        "code": "L313A",
+        "workId": "la-sombra-que-entro-en-el-dibujo-a",
+        "language": "ca",
+        "familyId": "familia-l313",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "nature",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "L’ombra que va entrar al dibuix",
+        "summary": "L’Isona dibuixa al costat del molí i en Neri descobreix una taca que canvia de lloc.",
+        "paragraphs": [
+          "L’Isona i en Neri, dos amics de la ribera, es van asseure sota una figuera per dibuixar. Des del banc de pedra veien el molí de l’Elna. L’Isona es va posar una tauleta sobre els genolls i hi va posar un full. Amb un tros de carbó va començar a dibuixar la teulada.",
+          "En Neri va veure una taca fosca al costat de la teulada del dibuix. Va assenyalar el carbó que l’Isona havia deixat sobre la tauleta. Ella va fer lliscar una mica el full. La taca quedava ara sobre l’arbre que havia dibuixat al costat. L’Isona va alçar la vista: unes fulles de la figuera es movien damunt dels seus caps.",
+          "—És una ombra —va dir en Neri—. M’agrada aquesta punta. L’Isona va esperar que l’aire es calmés i va resseguir suaument el contorn d’una d’aquelles formes. Després van aixecar el full cap a una clariana de llum. La taca va desaparèixer del paper; la línia de carbó hi continuava.",
+          "Quan va tornar a posar el full sobre la tauleta, una altra ombra va travessar el molí dibuixat. L’Isona va deixar el carbó i es va mirar el paper una estona. En Neri va posar el seu full al banc. Volia provar quina forma hi apareixia, sense tapar amb el cos la llum que arribava entre les branques."
+        ],
+        "questions": [
+          {
+            "id": "l313a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "On es van asseure els dos amics?",
+            "answer": "En un banc de pedra sota una figuera.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "es van asseure sota una figuera"
+              },
+              {
+                "paragraph": 1,
+                "text": "Des del banc de pedra"
+              }
+            ]
+          },
+          {
+            "id": "l313a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què va dibuixar l’Isona al començament?",
+            "answer": "La teulada del molí.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "va començar a dibuixar la teulada"
+              }
+            ]
+          },
+          {
+            "id": "l313a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què en Neri va assenyalar el carbó quan va veure la taca?",
+            "answer": "Va pensar que la taca podia venir del carbó que hi havia sobre la tauleta.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "En Neri va veure una taca fosca al costat de la teulada del dibuix. Va assenyalar el carbó"
+              }
+            ]
+          },
+          {
+            "id": "l313a-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què va canviar quan l’Isona va fer lliscar el full?",
+            "answer": "La taca va passar de ser al costat de la teulada a quedar sobre l’arbre del dibuix.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La taca quedava ara sobre l’arbre que havia dibuixat al costat."
+              }
+            ]
+          },
+          {
+            "id": "l313a-q5",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «contorn» en aquest text?",
+            "answer": "La línia que envolta una forma per fora.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "va resseguir suaument el contorn d’una d’aquelles formes"
+              }
+            ]
+          },
+          {
+            "id": "l313a-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què va quedar al paper quan el van aixecar cap a la llum?",
+            "answer": "La línia de carbó que l’Isona havia dibuixat; la taca d’ombra va desaparèixer.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La taca va desaparèixer del paper; la línia de carbó hi continuava."
+              }
+            ]
+          },
+          {
+            "id": "l313a-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què en Neri procurava no tapar la llum quan posava el seu full?",
+            "answer": "Perquè volia veure les ombres de les branques sobre el paper, com havia vist al full de l’Isona.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Volia provar quina forma hi apareixia, sense tapar amb el cos la llum"
+              }
+            ]
+          },
+          {
+            "id": "l313a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Què t’agradaria dibuixar en aquell lloc? Explica la tria.",
+            "answer": "Resposta personal raonada, relacionada amb un element del lloc o amb el joc d’ombres."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "contorn",
+            "occurrence": 1,
+            "questionId": "l313a-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l313-scene",
+            "src": "assets/readings/l313-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "L’Isona dibuixa el molí sota una figuera mentre en Neri observa les ombres de fulles sobre el paper.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-sombra-que-entro-en-el-dibujo-es",
+        "code": "L313",
+        "workId": "la-sombra-que-entro-en-el-dibujo",
+        "language": "es",
+        "familyId": "familia-l313",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "nature",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "La sombra que entró en el dibujo",
+        "summary": "Una sombra cambia lo que Isona y Neri ven sobre un dibujo del molino.",
+        "paragraphs": [
+          "Isona quería dibujar el molino de Elna desde el banco de piedra que había bajo una higuera. Su amigo Neri, que llevaba recados por la ribera, tenía aquella tarde libre y se sentó a su lado. Ella apoyó una tabla sobre las rodillas y sujetó el papel por una esquina. Desde allí se veían el tejado y una parte de la rueda.",
+          "Cuando Isona dejó el carbón, Neri señaló una mancha junto al tejado del dibujo. Pensaba que el trozo había rozado el papel. Isona pasó un dedo por aquella zona, sin arrastrarlo, y no vio polvo en la piel. Después deslizó la hoja hacia un lado. La mancha quedó sobre el árbol que había dibujado junto al molino; las líneas del tejado seguían en su sitio.",
+          "Los dos miraron hacia arriba. El aire movía las hojas de la higuera y sus sombras atravesaban la tabla. Neri se inclinó para ver mejor y tapó parte de la luz con la cabeza. Isona esperó a que se apartara. Luego dejó la hoja quieta unos instantes. Una forma puntiaguda cruzó el camino dibujado y pareció una pequeña tienda.",
+          "—Esa sí que me gustaría guardarla —dijo Neri. Isona esperó a que el aire se calmara y repasó suavemente su contorno con carbón. Al levantar el papel hacia un claro de luz, desapareció la mancha oscura. Quedó una línea ligera junto al camino. Isona volvió a poner el dibujo sobre la tabla, pero la siguiente sombra cayó en otro lugar.",
+          "Isona dio por terminado el tejado. Neri sacó su propia hoja del zurrón y la colocó en el banco. Ella se apartó un poco para dejarle luz y sostuvo la tabla mientras él probaba dónde poner el papel."
+        ],
+        "questions": [
+          {
+            "id": "l313-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué podía Neri acompañar a Isona aquella tarde?",
+            "answer": "Porque tenía la tarde libre de sus recados.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "tenía aquella tarde libre"
+              }
+            ]
+          },
+          {
+            "id": "l313-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué pensó Neri que había causado la mancha?",
+            "answer": "Que el carbón había rozado el papel.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Pensaba que el trozo había rozado el papel."
+              }
+            ]
+          },
+          {
+            "id": "l313-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué observación al mover el papel hacía dudar de que fuera una mancha de carbón?",
+            "answer": "Que la forma oscura coincidía con otra zona del dibujo, mientras las líneas dibujadas conservaban su sitio en la hoja.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La mancha quedó sobre el árbol"
+              },
+              {
+                "paragraph": 2,
+                "text": "las líneas del tejado seguían en su sitio"
+              }
+            ]
+          },
+          {
+            "id": "l313-q4",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿De dónde procedían las sombras que cruzaban la tabla?",
+            "answer": "De las hojas de la higuera.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El aire movía las hojas de la higuera y sus sombras atravesaban la tabla."
+              }
+            ]
+          },
+          {
+            "id": "l313-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Isona esperó a que Neri apartara la cabeza?",
+            "answer": "Porque su cabeza tapaba parte de la luz y alteraba lo que podían ver en el papel.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "tapó parte de la luz con la cabeza. Isona esperó a que se apartara."
+              }
+            ]
+          },
+          {
+            "id": "l313-q6",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «contorno» en la acción de Isona?",
+            "answer": "El borde que delimita por fuera la forma de la sombra.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "repasó suavemente su contorno con carbón"
+              }
+            ]
+          },
+          {
+            "id": "l313-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué hicieron para conservar una de las formas?",
+            "answer": "Isona repasó su contorno con carbón cuando el aire se calmó.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "esperó a que el aire se calmara y repasó suavemente su contorno con carbón"
+              }
+            ]
+          },
+          {
+            "id": "l313-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué la línea de carbón puede conservar lo que ya no coincide con la sombra siguiente?",
+            "answer": "Porque registra la forma que Isona trazó en aquel momento; después las sombras caen en otros lugares.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Quedó una línea ligera junto al camino."
+              },
+              {
+                "paragraph": 4,
+                "text": "la siguiente sombra cayó en otro lugar"
+              }
+            ]
+          },
+          {
+            "id": "l313-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume cómo cambia la interpretación de la mancha.",
+            "answer": "Primero Neri cree que procede del carbón. Al mover la hoja y mirar las ramas, descubren que es una sombra; Isona guarda su forma mediante un trazo.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Pensaba que el trozo había rozado el papel."
+              },
+              {
+                "paragraph": 3,
+                "text": "sus sombras atravesaban la tabla"
+              },
+              {
+                "paragraph": 4,
+                "text": "repasó suavemente su contorno con carbón"
+              }
+            ]
+          },
+          {
+            "id": "l313-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Conservarías ese contorno en el dibujo? Explica por qué.",
+            "answer": "Respuesta personal justificada: puede valorar el recuerdo del momento, el resultado visual o preferir un dibujo sin ese añadido."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "contorno",
+            "occurrence": 1,
+            "questionId": "l313-q6"
+          }
+        ],
+        "images": [
+          {
+            "id": "l313-scene",
+            "src": "assets/readings/l313-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Isona dibuja el molino bajo una higuera mientras Neri observa las sombras de hojas sobre el papel.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-sombra-que-entro-en-el-dibujo-ca",
+        "code": "L313",
+        "workId": "la-sombra-que-entro-en-el-dibujo",
+        "language": "ca",
+        "familyId": "familia-l313",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "nature",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "L’ombra que va entrar al dibuix",
+        "summary": "Una ombra canvia allò que l’Isona i en Neri veuen sobre un dibuix del molí.",
+        "paragraphs": [
+          "L’Isona volia dibuixar el molí de l’Elna des del banc de pedra que hi havia sota una figuera. El seu amic Neri, que portava encàrrecs per la ribera, tenia aquella tarda lliure i es va asseure al seu costat. Ella es va posar una tauleta sobre els genolls i va subjectar el paper per una cantonada. Des d’allà es veien la teulada i una part de la roda.",
+          "Quan l’Isona va deixar el carbó, en Neri va assenyalar una taca al costat de la teulada del dibuix. Pensava que el tros havia fregat el paper. L’Isona va passar un dit per aquella zona, sense arrossegar-lo, i no va veure pols a la pell. Després va fer lliscar el full cap a un costat. La taca quedava sobre l’arbre que havia dibuixat al costat del molí; les línies de la teulada continuaven al seu lloc.",
+          "Tots dos van mirar amunt. L’aire movia les fulles de la figuera i les ombres travessaven la tauleta. En Neri es va inclinar per veure-hi millor i va tapar part de la llum amb el cap. L’Isona va esperar que s’apartés. Després va deixar el full quiet uns instants. Una forma punxeguda va travessar el camí dibuixat i va semblar una petita tenda.",
+          "—Aquesta sí que m’agradaria guardar-la —va dir en Neri. L’Isona va esperar que l’aire es calmés i en va resseguir suaument el contorn amb carbó. Quan van aixecar el paper cap a una clariana de llum, la taca fosca va desaparèixer. Va quedar una línia lleugera al costat del camí. L’Isona va tornar a posar el dibuix sobre la tauleta, però l’ombra següent va caure en un altre lloc.",
+          "L’Isona va donar la teulada per acabada. En Neri va treure el seu full del sarró i el va posar al banc. Ella es va apartar una mica per deixar-li llum i va subjectar la tauleta mentre ell provava on posar el paper."
+        ],
+        "questions": [
+          {
+            "id": "l313-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què en Neri podia acompanyar l’Isona aquella tarda?",
+            "answer": "Perquè tenia la tarda lliure dels seus encàrrecs.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "tenia aquella tarda lliure"
+              }
+            ]
+          },
+          {
+            "id": "l313-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què va pensar en Neri que havia causat la taca?",
+            "answer": "Que el carbó havia fregat el paper.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Pensava que el tros havia fregat el paper."
+              }
+            ]
+          },
+          {
+            "id": "l313-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina observació en moure el paper feia dubtar que fos una taca de carbó?",
+            "answer": "Que la forma fosca coincidia amb una altra zona del dibuix, mentre les línies dibuixades conservaven el lloc al full.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La taca quedava sobre l’arbre"
+              },
+              {
+                "paragraph": 2,
+                "text": "les línies de la teulada continuaven al seu lloc"
+              }
+            ]
+          },
+          {
+            "id": "l313-q4",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "D’on venien les ombres que travessaven la tauleta?",
+            "answer": "De les fulles de la figuera.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "L’aire movia les fulles de la figuera i les ombres travessaven la tauleta."
+              }
+            ]
+          },
+          {
+            "id": "l313-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què l’Isona va esperar que en Neri apartés el cap?",
+            "answer": "Perquè el seu cap tapava part de la llum i alterava allò que podien veure al paper.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "va tapar part de la llum amb el cap. L’Isona va esperar que s’apartés."
+              }
+            ]
+          },
+          {
+            "id": "l313-q6",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «contorn» en l’acció de l’Isona?",
+            "answer": "La vora que delimita per fora la forma de l’ombra.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "en va resseguir suaument el contorn amb carbó"
+              }
+            ]
+          },
+          {
+            "id": "l313-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què van fer per conservar una de les formes?",
+            "answer": "L’Isona en va resseguir el contorn amb carbó quan l’aire es va calmar.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "va esperar que l’aire es calmés i en va resseguir suaument el contorn amb carbó"
+              }
+            ]
+          },
+          {
+            "id": "l313-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la línia de carbó pot conservar allò que ja no coincideix amb l’ombra següent?",
+            "answer": "Perquè recull la forma que l’Isona va traçar en aquell moment; després les ombres cauen en altres llocs.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Va quedar una línia lleugera al costat del camí."
+              },
+              {
+                "paragraph": 4,
+                "text": "l’ombra següent va caure en un altre lloc"
+              }
+            ]
+          },
+          {
+            "id": "l313-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix com canvia la interpretació de la taca.",
+            "answer": "Primer en Neri creu que ve del carbó. En moure el full i mirar les branques, descobreixen que és una ombra; l’Isona en guarda la forma amb un traç.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Pensava que el tros havia fregat el paper."
+              },
+              {
+                "paragraph": 3,
+                "text": "les ombres travessaven la tauleta"
+              },
+              {
+                "paragraph": 4,
+                "text": "en va resseguir suaument el contorn amb carbó"
+              }
+            ]
+          },
+          {
+            "id": "l313-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Conservaries aquell contorn al dibuix? Explica per què.",
+            "answer": "Resposta personal justificada: pot valorar el record del moment, el resultat visual o preferir un dibuix sense aquell afegit."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "contorn",
+            "occurrence": 1,
+            "questionId": "l313-q6"
+          }
+        ],
+        "images": [
+          {
+            "id": "l313-scene",
+            "src": "assets/readings/l313-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "L’Isona dibuixa el molí sota una figuera mentre en Neri observa les ombres de fulles sobre el paper.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-sombra-que-entro-en-el-dibujo-b-es",
+        "code": "L313B",
+        "workId": "la-sombra-que-entro-en-el-dibujo-b",
+        "language": "es",
+        "familyId": "familia-l313",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "nature",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "La sombra que entró en el dibujo",
+        "summary": "Un dibujo del molino recoge una forma que al principio parecía un error y que luego cambia de sentido.",
+        "paragraphs": [
+          "Isona había elegido el banco de piedra bajo una higuera para dibujar el molino de Elna. Desde allí veía el tejado entero y parte de la rueda, aunque una rama le ocultaba una ventana. Su amigo Neri, que solía llevar recados por la ribera, tenía aquella tarde libre. Dejó el zurrón a sus pies y se sentó a mirar cómo ella sostenía una tabla sobre las rodillas y sujetaba la hoja por una esquina.",
+          "Cuando Isona dejó el carbón sobre la tabla, Neri señaló una mancha oscura junto al tejado del dibujo. Pensó que el trozo había rozado el papel. Ella tocó la zona con un dedo, sin arrastrarlo, y no vio polvo negro en la piel. Deslizó entonces la hoja hacia un lado. La mancha quedó sobre el árbol dibujado junto al molino; las líneas del tejado conservaron su sitio en el papel. Neri siguió mirando la mancha, ahora sin señalar el carbón.",
+          "Miraron hacia arriba. El aire movía las hojas de la higuera y sus sombras cruzaban la tabla. Neri se inclinó y tapó parte de la luz con la cabeza; Isona le pidió que retrocediera un poco. Dejaron el papel quieto. Una forma puntiaguda atravesó el camino que ella había dibujado y pareció una tienda pequeña. A Neri le gustó aquel añadido, pero desapareció antes de que Isona cogiera otra vez el carbón.",
+          "Esperaron. Cuando el aire se calmó, otra punta quedó cerca del mismo camino. Isona repasó suavemente su contorno con carbón. Después levantaron la hoja hacia un claro de luz: la mancha se retiró del papel y quedó una línea ligera, abierta en un extremo. Neri propuso cerrarla para que pareciera más una tienda. Isona prefirió conservar el trazo tal como le había salido. Al devolver el papel a la tabla, nuevas sombras cubrieron parte de aquella línea.",
+          "Elna salió del molino y preguntó qué dibujaban. Isona levantó la hoja y Neri señaló la línea abierta. Antes de que él hablara de la higuera, Elna dijo que parecía un toldo junto al camino. Isona sonrió y guardó el dibujo entre dos tablas. Neri sacó otra hoja del zurrón; ella se apartó para dejarle luz mientras él buscaba dónde colocarla sobre el banco."
+        ],
+        "questions": [
+          {
+            "id": "l313b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué parte del molino quedaba oculta desde el banco?",
+            "answer": "Una ventana, tapada por una rama.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una rama le ocultaba una ventana"
+              }
+            ]
+          },
+          {
+            "id": "l313b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué dos comprobaciones hizo Isona después de que Neri señalara la mancha?",
+            "answer": "Tocó la zona sin arrastrar el dedo y después deslizó la hoja hacia un lado.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Ella tocó la zona con un dedo, sin arrastrarlo"
+              },
+              {
+                "paragraph": 2,
+                "text": "Deslizó entonces la hoja hacia un lado."
+              }
+            ]
+          },
+          {
+            "id": "l313b-q3",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué el desplazamiento de la hoja aporta una pista distinta de la comprobación con el dedo?",
+            "answer": "El dedo permite observar que no recoge polvo; mover la hoja permite comparar la posición de la mancha con las líneas que permanecen en el papel.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "no vio polvo negro en la piel"
+              },
+              {
+                "paragraph": 2,
+                "text": "La mancha quedó sobre el árbol dibujado junto al molino; las líneas del tejado conservaron su sitio en el papel."
+              }
+            ]
+          },
+          {
+            "id": "l313b-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué sugiere que Neri siga mirando la mancha sin señalar ya el carbón?",
+            "answer": "Que empieza a dudar de su primera explicación, aunque todavía observa antes de descubrir la causa.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Neri siguió mirando la mancha, ahora sin señalar el carbón."
+              }
+            ]
+          },
+          {
+            "id": "l313b-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué Isona le pidió a Neri que retrocediera?",
+            "answer": "Porque al inclinarse tapó parte de la luz con la cabeza.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Neri se inclinó y tapó parte de la luz con la cabeza; Isona le pidió que retrocediera un poco."
+              }
+            ]
+          },
+          {
+            "id": "l313b-q6",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «contorno» cuando Isona lo repasa?",
+            "answer": "El límite exterior de la forma que dibuja la sombra.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "repasó suavemente su contorno con carbón"
+              }
+            ]
+          },
+          {
+            "id": "l313b-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué diferencia había entre el trazo que hizo Isona y la propuesta posterior de Neri?",
+            "answer": "Isona dejó una línea abierta en un extremo; Neri propuso cerrarla para que se pareciera más a una tienda.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "quedó una línea ligera, abierta en un extremo. Neri propuso cerrarla para que pareciera más una tienda."
+              }
+            ]
+          },
+          {
+            "id": "l313b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué lo que dice Elna no permite concluir que Isona quisiera dibujar un toldo?",
+            "answer": "Porque Elna interpreta la línea sin haber oído aún su origen; Isona había seguido una sombra y conservado el trazo resultante.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Isona prefirió conservar el trazo tal como le había salido."
+              },
+              {
+                "paragraph": 5,
+                "text": "Antes de que él hablara de la higuera, Elna dijo que parecía un toldo"
+              }
+            ]
+          },
+          {
+            "id": "l313b-q9",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Para qué sirve la aparición de Elna en el último párrafo?",
+            "answer": "Introduce una mirada nueva sobre el trazo: ella lo interpreta sin haber visto cómo lo hicieron.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Antes de que él hablara de la higuera, Elna dijo que parecía un toldo junto al camino."
+              }
+            ]
+          },
+          {
+            "id": "l313b-q10",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué relación hay entre la primera sospecha de Neri y su acción final?",
+            "answer": "Pasa de sospechar una mancha accidental de carbón a buscar voluntariamente formas de sombra en su propio papel.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Pensó que el trozo había rozado el papel."
+              },
+              {
+                "paragraph": 5,
+                "text": "Neri sacó otra hoja del zurrón"
+              }
+            ]
+          },
+          {
+            "id": "l313b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume la transformación que experimenta la mancha a lo largo de la historia.",
+            "answer": "Parece un roce de carbón; al comparar el papel y las hojas descubren su origen como sombra. Isona conserva un contorno que después Elna interpreta como un toldo.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Pensó que el trozo había rozado el papel."
+              },
+              {
+                "paragraph": 3,
+                "text": "sus sombras cruzaban la tabla"
+              },
+              {
+                "paragraph": 5,
+                "text": "Elna dijo que parecía un toldo"
+              }
+            ]
+          },
+          {
+            "id": "l313b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿Qué decisión tomarías ante la propuesta de cerrar la línea? Justifica tu preferencia a partir de la escena.",
+            "answer": "Respuesta personal razonada: cerrar puede definir una figura; dejarla abierta puede conservar el gesto inicial o permitir otras interpretaciones. Ambas preferencias son válidas si se justifican."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "contorno",
+            "occurrence": 1,
+            "questionId": "l313b-q6"
+          }
+        ],
+        "images": [
+          {
+            "id": "l313-scene",
+            "src": "assets/readings/l313-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Isona dibuja el molino bajo una higuera mientras Neri observa las sombras de hojas sobre el papel.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-sombra-que-entro-en-el-dibujo-b-ca",
+        "code": "L313B",
+        "workId": "la-sombra-que-entro-en-el-dibujo-b",
+        "language": "ca",
+        "familyId": "familia-l313",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "nature",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "L’ombra que va entrar al dibuix",
+        "summary": "Un dibuix del molí recull una forma que al principi semblava un error i que després canvia de sentit.",
+        "paragraphs": [
+          "L’Isona havia triat el banc de pedra sota una figuera per dibuixar el molí de l’Elna. Des d’allà veia tota la teulada i part de la roda, tot i que una branca li amagava una finestra. El seu amic Neri, que solia portar encàrrecs per la ribera, tenia aquella tarda lliure. Va deixar el sarró als peus i es va asseure a mirar com ella es posava una tauleta sobre els genolls i subjectava el full per una cantonada.",
+          "Quan l’Isona va deixar el carbó sobre la tauleta, en Neri va assenyalar una taca fosca al costat de la teulada del dibuix. Va pensar que el tros havia fregat el paper. Ella va tocar la zona amb un dit, sense arrossegar-lo, i no va veure pols negra a la pell. Aleshores va fer lliscar el full cap a un costat. La taca quedava sobre l’arbre dibuixat al costat del molí; les línies de la teulada van conservar el lloc al paper. En Neri va continuar mirant la taca, ara sense assenyalar el carbó.",
+          "Van mirar amunt. L’aire movia les fulles de la figuera i les ombres travessaven la tauleta. En Neri es va inclinar i va tapar part de la llum amb el cap; l’Isona li va demanar que reculés una mica. Van deixar el paper quiet. Una forma punxeguda va travessar el camí que ella havia dibuixat i va semblar una tenda petita. A en Neri li va agradar aquell afegit, però va desaparèixer abans que l’Isona tornés a agafar el carbó.",
+          "Van esperar. Quan l’aire es va calmar, una altra punta va quedar a prop del mateix camí. L’Isona en va resseguir suaument el contorn amb carbó. Després van aixecar el full cap a una clariana de llum: la taca es va retirar del paper i va quedar una línia lleugera, oberta per un extrem. En Neri va proposar tancar-la perquè semblés més una tenda. L’Isona va preferir conservar el traç tal com li havia sortit. Quan va tornar el paper a la tauleta, noves ombres van cobrir part d’aquella línia.",
+          "L’Elna va sortir del molí i va preguntar què dibuixaven. L’Isona va aixecar el full i en Neri va assenyalar la línia oberta. Abans que ell parlés de la figuera, l’Elna va dir que semblava un tendal al costat del camí. L’Isona va somriure i va desar el dibuix entre dues tauletes. En Neri va treure un altre full del sarró; ella es va apartar per deixar-li llum mentre ell buscava on posar-lo sobre el banc."
+        ],
+        "questions": [
+          {
+            "id": "l313b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina part del molí quedava amagada des del banc?",
+            "answer": "Una finestra, tapada per una branca.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una branca li amagava una finestra"
+              }
+            ]
+          },
+          {
+            "id": "l313b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quines dues comprovacions va fer l’Isona després que en Neri assenyalés la taca?",
+            "answer": "Va tocar la zona sense arrossegar el dit i després va fer lliscar el full cap a un costat.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Ella va tocar la zona amb un dit, sense arrossegar-lo"
+              },
+              {
+                "paragraph": 2,
+                "text": "Aleshores va fer lliscar el full cap a un costat."
+              }
+            ]
+          },
+          {
+            "id": "l313b-q3",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què el desplaçament del full aporta una pista diferent de la comprovació amb el dit?",
+            "answer": "El dit permet observar que no recull pols; moure el full permet comparar la posició de la taca amb les línies que es mantenen al paper.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "no va veure pols negra a la pell"
+              },
+              {
+                "paragraph": 2,
+                "text": "La taca quedava sobre l’arbre dibuixat al costat del molí; les línies de la teulada van conservar el lloc al paper."
+              }
+            ]
+          },
+          {
+            "id": "l313b-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què suggereix que en Neri continuï mirant la taca sense assenyalar ja el carbó?",
+            "answer": "Que comença a dubtar de la primera explicació, tot i que encara observa abans de descobrir la causa.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "En Neri va continuar mirant la taca, ara sense assenyalar el carbó."
+              }
+            ]
+          },
+          {
+            "id": "l313b-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què l’Isona va demanar a en Neri que reculés?",
+            "answer": "Perquè en inclinar-se va tapar part de la llum amb el cap.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "En Neri es va inclinar i va tapar part de la llum amb el cap; l’Isona li va demanar que reculés una mica."
+              }
+            ]
+          },
+          {
+            "id": "l313b-q6",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «contorn» quan l’Isona el ressegueix?",
+            "answer": "El límit exterior de la forma que dibuixa l’ombra.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "en va resseguir suaument el contorn amb carbó"
+              }
+            ]
+          },
+          {
+            "id": "l313b-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina diferència hi havia entre el traç que va fer l’Isona i la proposta posterior d’en Neri?",
+            "answer": "L’Isona va deixar una línia oberta per un extrem; en Neri va proposar tancar-la perquè semblés més una tenda.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "va quedar una línia lleugera, oberta per un extrem. En Neri va proposar tancar-la perquè semblés més una tenda."
+              }
+            ]
+          },
+          {
+            "id": "l313b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què allò que diu l’Elna no permet concloure que l’Isona volgués dibuixar un tendal?",
+            "answer": "Perquè l’Elna interpreta la línia sense haver-ne sentit encara l’origen; l’Isona havia seguit una ombra i conservat el traç que n’havia sortit.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "L’Isona va preferir conservar el traç tal com li havia sortit."
+              },
+              {
+                "paragraph": 5,
+                "text": "Abans que ell parlés de la figuera, l’Elna va dir que semblava un tendal"
+              }
+            ]
+          },
+          {
+            "id": "l313b-q9",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Per a què serveix l’aparició de l’Elna a l’últim paràgraf?",
+            "answer": "Introdueix una mirada nova sobre el traç: ella l’interpreta sense haver vist com l’han fet.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Abans que ell parlés de la figuera, l’Elna va dir que semblava un tendal al costat del camí."
+              }
+            ]
+          },
+          {
+            "id": "l313b-q10",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina relació hi ha entre la primera sospita d’en Neri i l’acció final?",
+            "answer": "Passa de sospitar una taca accidental de carbó a buscar voluntàriament formes d’ombra al seu paper.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Va pensar que el tros havia fregat el paper."
+              },
+              {
+                "paragraph": 5,
+                "text": "En Neri va treure un altre full del sarró"
+              }
+            ]
+          },
+          {
+            "id": "l313b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix la transformació que experimenta la taca al llarg de la història.",
+            "answer": "Sembla una fregada de carbó; en comparar el paper i les fulles en descobreixen l’origen com a ombra. L’Isona en conserva un contorn que després l’Elna interpreta com un tendal.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Va pensar que el tros havia fregat el paper."
+              },
+              {
+                "paragraph": 3,
+                "text": "les ombres travessaven la tauleta"
+              },
+              {
+                "paragraph": 5,
+                "text": "l’Elna va dir que semblava un tendal"
+              }
+            ]
+          },
+          {
+            "id": "l313b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Quina decisió prendries davant la proposta de tancar la línia? Justifica la preferència a partir de l’escena.",
+            "answer": "Resposta personal raonada: tancar-la pot definir una figura; deixar-la oberta pot conservar el gest inicial o permetre altres interpretacions. Totes dues preferències són vàlides si es justifiquen."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "contorn",
+            "occurrence": 1,
+            "questionId": "l313b-q6"
+          }
+        ],
+        "images": [
+          {
+            "id": "l313-scene",
+            "src": "assets/readings/l313-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "L’Isona dibuixa el molí sota una figuera mentre en Neri observa les ombres de fulles sobre el paper.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 3
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L313A",
+        "language": "es",
+        "questions": {
+          "l313a-q1": {
+            "prompt": "¿Dónde se sentaron los dos amigos?",
+            "options": [
+              "En el banco bajo la higuera.",
+              "En el banco dentro del molino.",
+              "En unas tablas bajo la higuera.",
+              "En el suelo, con la tabla entre los dos."
+            ],
+            "correct": "a",
+            "explanation": "En un banco de piedra bajo una higuera."
+          },
+          "l313a-q2": {
+            "prompt": "¿Qué dibujó Isona al empezar?",
+            "options": [
+              "El banco de piedra.",
+              "Las hojas de la higuera.",
+              "El tejado del molino.",
+              "El contorno de la sombra."
+            ],
+            "correct": "c",
+            "explanation": "El tejado del molino."
+          },
+          "l313a-q3": {
+            "prompt": "¿Por qué Neri señaló el carbón al ver la mancha?",
+            "options": [
+              "Quería que Isona repasara el árbol.",
+              "Creyó que el carbón había hecho la mancha.",
+              "Ya sabía qué hoja producía la sombra.",
+              "Pedía que Isona terminara el tejado."
+            ],
+            "correct": "b",
+            "explanation": "Pensó que la mancha podía proceder del carbón que estaba sobre la tabla."
+          },
+          "l313a-q4": {
+            "prompt": "¿Qué cambió cuando Isona deslizó la hoja?",
+            "options": [
+              "La mancha siguió junto al tejado sin cambiar de sitio en el dibujo.",
+              "La mancha cubrió parte del tejado que Isona había repasado.",
+              "La mancha se alejó hasta quedar fuera de la hoja.",
+              "La mancha coincidió con otra parte del dibujo."
+            ],
+            "correct": "d",
+            "explanation": "La mancha pasó de estar junto al tejado a quedar sobre el árbol del dibujo."
+          },
+          "l313a-q5": {
+            "prompt": "¿Qué significa «contorno» en este texto?",
+            "options": [
+              "La parte más oscura del interior.",
+              "La línea que rodea la forma.",
+              "La tabla que sostiene el papel.",
+              "La punta del trozo de carbón."
+            ],
+            "correct": "b",
+            "explanation": "La línea que rodea una forma por fuera."
+          },
+          "l313a-q6": {
+            "prompt": "¿Qué quedó en el papel al levantarlo hacia la luz?",
+            "options": [
+              "La mancha y la línea de carbón.",
+              "Solo la mancha junto al tejado.",
+              "La línea que había trazado Isona.",
+              "La forma de todas las hojas del árbol."
+            ],
+            "correct": "c",
+            "explanation": "La línea de carbón que Isona había dibujado; la mancha de sombra desapareció."
+          },
+          "l313a-q7": {
+            "prompt": "¿Por qué Neri procuraba no tapar la luz al colocar su hoja?",
+            "options": [
+              "Quería probar las formas que aparecían con aquella luz.",
+              "Quería impedir que otra sombra cruzara el molino.",
+              "Quería que el carbón se viera más negro.",
+              "Quería conservar el tejado que había dibujado Isona."
+            ],
+            "correct": "a",
+            "explanation": "Porque quería ver las sombras de las ramas sobre el papel, como había visto en la hoja de Isona."
+          }
+        }
+      },
+      {
+        "code": "L313A",
+        "language": "ca",
+        "questions": {
+          "l313a-q1": {
+            "prompt": "On es van asseure els dos amics?",
+            "options": [
+              "Al banc sota la figuera.",
+              "Al banc de dins del molí.",
+              "En unes taules sota la figuera.",
+              "A terra, amb la tauleta entre tots dos."
+            ],
+            "correct": "a",
+            "explanation": "En un banc de pedra sota una figuera."
+          },
+          "l313a-q2": {
+            "prompt": "Què va dibuixar l’Isona al començament?",
+            "options": [
+              "El banc de pedra.",
+              "Les fulles de la figuera.",
+              "La teulada del molí.",
+              "El contorn de l’ombra."
+            ],
+            "correct": "c",
+            "explanation": "La teulada del molí."
+          },
+          "l313a-q3": {
+            "prompt": "Per què en Neri va assenyalar el carbó quan va veure la taca?",
+            "options": [
+              "Volia que l’Isona resseguís l’arbre.",
+              "Va creure que el carbó havia fet la taca.",
+              "Ja sabia quina fulla produïa l’ombra.",
+              "Demanava que l’Isona acabés la teulada."
+            ],
+            "correct": "b",
+            "explanation": "Va pensar que la taca podia venir del carbó que hi havia sobre la tauleta."
+          },
+          "l313a-q4": {
+            "prompt": "Què va canviar quan l’Isona va fer lliscar el full?",
+            "options": [
+              "La taca va continuar al costat de la teulada sense canviar de lloc al dibuix.",
+              "La taca va cobrir part de la teulada que l’Isona havia resseguit.",
+              "La taca es va allunyar fins a quedar fora del full.",
+              "La taca va coincidir amb una altra part del dibuix."
+            ],
+            "correct": "d",
+            "explanation": "La taca va passar de ser al costat de la teulada a quedar sobre l’arbre del dibuix."
+          },
+          "l313a-q5": {
+            "prompt": "Què vol dir «contorn» en aquest text?",
+            "options": [
+              "La part més fosca de l’interior.",
+              "La línia que envolta la forma.",
+              "La tauleta que sosté el paper.",
+              "La punta del tros de carbó."
+            ],
+            "correct": "b",
+            "explanation": "La línia que envolta una forma per fora."
+          },
+          "l313a-q6": {
+            "prompt": "Què va quedar al paper quan el van aixecar cap a la llum?",
+            "options": [
+              "La taca i la línia de carbó.",
+              "Només la taca al costat de la teulada.",
+              "La línia que havia traçat l’Isona.",
+              "La forma de totes les fulles de l’arbre."
+            ],
+            "correct": "c",
+            "explanation": "La línia de carbó que l’Isona havia dibuixat; la taca d’ombra va desaparèixer."
+          },
+          "l313a-q7": {
+            "prompt": "Per què en Neri procurava no tapar la llum quan posava el seu full?",
+            "options": [
+              "Volia provar les formes que apareixien amb aquella llum.",
+              "Volia impedir que una altra ombra travessés el molí.",
+              "Volia que el carbó es veiés més negre.",
+              "Volia conservar la teulada que havia dibuixat l’Isona."
+            ],
+            "correct": "a",
+            "explanation": "Perquè volia veure les ombres de les branques sobre el paper, com havia vist al full de l’Isona."
+          }
+        }
+      },
+      {
+        "code": "L313",
+        "language": "es",
+        "questions": {
+          "l313-q1": {
+            "prompt": "¿Por qué podía Neri acompañar a Isona aquella tarde?",
+            "options": [
+              "Había ido a entregar el dibujo a Elna.",
+              "Tenía libre aquella tarde.",
+              "Esperaba un recado junto al banco.",
+              "Isona lo había llamado para acabar el tejado."
+            ],
+            "correct": "b",
+            "explanation": "Porque tenía la tarde libre de sus recados."
+          },
+          "l313-q2": {
+            "prompt": "¿Qué pensó Neri que había causado la mancha?",
+            "options": [
+              "El dedo de Isona al tocar la tabla.",
+              "Las líneas oscuras de la rueda.",
+              "La cabeza de Isona sobre el tejado.",
+              "Un roce del carbón sobre la hoja."
+            ],
+            "correct": "d",
+            "explanation": "Que el carbón había rozado el papel."
+          },
+          "l313-q3": {
+            "prompt": "¿Qué observación al mover el papel hacía dudar de que fuera una mancha de carbón?",
+            "options": [
+              "Cambió la zona del dibujo cubierta por la mancha, sin cambiar sus líneas.",
+              "La mancha desapareció cuando Isona la tocó con el dedo.",
+              "El tejado se desplazó hacia el árbol al mover la hoja.",
+              "Isona encontró polvo negro al comprobar la mancha."
+            ],
+            "correct": "a",
+            "explanation": "Que la forma oscura coincidía con otra zona del dibujo, mientras las líneas dibujadas conservaban su sitio en la hoja."
+          },
+          "l313-q4": {
+            "prompt": "¿De dónde procedían las sombras que cruzaban la tabla?",
+            "options": [
+              "De la rueda que giraba en el molino.",
+              "Del árbol dibujado junto al tejado.",
+              "De las hojas que se movían encima.",
+              "Del papel que Neri sacó del zurrón."
+            ],
+            "correct": "c",
+            "explanation": "De las hojas de la higuera."
+          },
+          "l313-q5": {
+            "prompt": "¿Por qué Isona esperó a que Neri apartara la cabeza?",
+            "options": [
+              "Para que pudiera ver mejor la rueda desde el banco.",
+              "Para recuperar la luz que él estaba tapando.",
+              "Para que Neri pudiera copiar la forma antes de mover la hoja.",
+              "Para dejar sitio a la tabla al levantarla hacia la luz."
+            ],
+            "correct": "b",
+            "explanation": "Porque su cabeza tapaba parte de la luz y alteraba lo que podían ver en el papel."
+          },
+          "l313-q6": {
+            "prompt": "¿Qué significa «contorno» en la acción de Isona?",
+            "options": [
+              "La zona con más polvo negro.",
+              "El camino representado en la hoja.",
+              "La punta del carbón que utiliza.",
+              "El borde exterior de aquella forma."
+            ],
+            "correct": "d",
+            "explanation": "El borde que delimita por fuera la forma de la sombra."
+          },
+          "l313-q7": {
+            "prompt": "¿Qué hicieron para conservar una de las formas?",
+            "options": [
+              "Isona dibujó su borde cuando la forma quedó quieta.",
+              "Neri cubrió la forma con otra hoja sacada del zurrón.",
+              "Isona frotó el papel con el dedo para fijar el polvo.",
+              "Neri sostuvo la rama para que no pasara más luz."
+            ],
+            "correct": "a",
+            "explanation": "Isona repasó su contorno con carbón cuando el aire se calmó."
+          },
+          "l313-q8": {
+            "prompt": "¿Por qué la línea de carbón puede conservar lo que ya no coincide con la sombra siguiente?",
+            "options": [
+              "Porque al devolver la hoja colocaron el trazo en el mismo lugar de la tabla.",
+              "Porque todas las sombras repiten el contorno del tejado.",
+              "Porque el trazo permanece aunque cambien las sombras sobre él.",
+              "Porque guardaron la hoja sin volver a ponerla bajo las sombras."
+            ],
+            "correct": "c",
+            "explanation": "Porque registra la forma que Isona trazó en aquel momento; después las sombras caen en otros lugares."
+          },
+          "l313-q9": {
+            "prompt": "¿Qué resumen recoge el cambio que ocurre en la lectura?",
+            "options": [
+              "Una marca de carbón borra el tejado y obliga a dibujarlo de nuevo.",
+              "Una mancha parece de carbón, resulta ser una sombra y acaba dejando un trazo elegido.",
+              "Una sombra impide ver el molino y Neri busca otro sitio para dibujarlo.",
+              "Un contorno hecho por Neri explica qué rama está tapando la luz."
+            ],
+            "correct": "b",
+            "explanation": "Primero Neri cree que procede del carbón. Al mover la hoja y mirar las ramas, descubren que es una sombra; Isona guarda su forma mediante un trazo."
+          }
+        }
+      },
+      {
+        "code": "L313",
+        "language": "ca",
+        "questions": {
+          "l313-q1": {
+            "prompt": "Per què en Neri podia acompanyar l’Isona aquella tarda?",
+            "options": [
+              "Havia anat a lliurar el dibuix a l’Elna.",
+              "Tenia lliure aquella tarda.",
+              "Esperava un encàrrec al costat del banc.",
+              "L’Isona l’havia cridat per acabar la teulada."
+            ],
+            "correct": "b",
+            "explanation": "Perquè tenia la tarda lliure dels seus encàrrecs."
+          },
+          "l313-q2": {
+            "prompt": "Què va pensar en Neri que havia causat la taca?",
+            "options": [
+              "El dit de l’Isona quan tocava la tauleta.",
+              "Les línies fosques de la roda.",
+              "El cap de l’Isona sobre la teulada.",
+              "Una fregada del carbó sobre el full."
+            ],
+            "correct": "d",
+            "explanation": "Que el carbó havia fregat el paper."
+          },
+          "l313-q3": {
+            "prompt": "Quina observació en moure el paper feia dubtar que fos una taca de carbó?",
+            "options": [
+              "Va canviar la zona del dibuix coberta per la taca, sense canviar-ne les línies.",
+              "La taca va desaparèixer quan l’Isona la va tocar amb el dit.",
+              "La teulada es va desplaçar cap a l’arbre en moure el full.",
+              "L’Isona va trobar pols negra quan comprovava la taca."
+            ],
+            "correct": "a",
+            "explanation": "Que la forma fosca coincidia amb una altra zona del dibuix, mentre les línies dibuixades conservaven el lloc al full."
+          },
+          "l313-q4": {
+            "prompt": "D’on venien les ombres que travessaven la tauleta?",
+            "options": [
+              "De la roda que girava al molí.",
+              "De l’arbre dibuixat al costat de la teulada.",
+              "De les fulles que es movien a sobre.",
+              "Del paper que en Neri va treure del sarró."
+            ],
+            "correct": "c",
+            "explanation": "De les fulles de la figuera."
+          },
+          "l313-q5": {
+            "prompt": "Per què l’Isona va esperar que en Neri apartés el cap?",
+            "options": [
+              "Perquè pogués veure millor la roda des del banc.",
+              "Per recuperar la llum que ell estava tapant.",
+              "Perquè en Neri pogués copiar la forma abans de moure el full.",
+              "Per deixar lloc a la tauleta en aixecar-la cap a la llum."
+            ],
+            "correct": "b",
+            "explanation": "Perquè el seu cap tapava part de la llum i alterava allò que podien veure al paper."
+          },
+          "l313-q6": {
+            "prompt": "Què vol dir «contorn» en l’acció de l’Isona?",
+            "options": [
+              "La zona amb més pols negra.",
+              "El camí representat al full.",
+              "La punta del carbó que fa servir.",
+              "La vora exterior d’aquella forma."
+            ],
+            "correct": "d",
+            "explanation": "La vora que delimita per fora la forma de l’ombra."
+          },
+          "l313-q7": {
+            "prompt": "Què van fer per conservar una de les formes?",
+            "options": [
+              "L’Isona en va dibuixar la vora quan la forma va quedar quieta.",
+              "En Neri va cobrir la forma amb un altre full tret del sarró.",
+              "L’Isona va fregar el paper amb el dit per fixar-hi la pols.",
+              "En Neri va subjectar la branca perquè no hi passés més llum."
+            ],
+            "correct": "a",
+            "explanation": "L’Isona en va resseguir el contorn amb carbó quan l’aire es va calmar."
+          },
+          "l313-q8": {
+            "prompt": "Per què la línia de carbó pot conservar allò que ja no coincideix amb l’ombra següent?",
+            "options": [
+              "Perquè en tornar el full van posar el traç al mateix lloc de la tauleta.",
+              "Perquè totes les ombres repeteixen el contorn de la teulada.",
+              "Perquè el traç es manté encara que canviïn les ombres al damunt.",
+              "Perquè van desar el full sense tornar-lo a posar sota les ombres."
+            ],
+            "correct": "c",
+            "explanation": "Perquè recull la forma que l’Isona va traçar en aquell moment; després les ombres cauen en altres llocs."
+          },
+          "l313-q9": {
+            "prompt": "Quin resum recull el canvi que passa a la lectura?",
+            "options": [
+              "Una marca de carbó esborra la teulada i obliga a dibuixar-la de nou.",
+              "Una taca sembla de carbó, resulta ser una ombra i acaba deixant un traç triat.",
+              "Una ombra impedeix veure el molí i en Neri busca un altre lloc per dibuixar-lo.",
+              "Un contorn fet per en Neri explica quina branca està tapant la llum."
+            ],
+            "correct": "b",
+            "explanation": "Primer en Neri creu que ve del carbó. En moure el full i mirar les branques, descobreixen que és una ombra; l’Isona en guarda la forma amb un traç."
+          }
+        }
+      },
+      {
+        "code": "L313B",
+        "language": "es",
+        "questions": {
+          "l313b-q1": {
+            "prompt": "¿Qué parte del molino quedaba oculta desde el banco?",
+            "options": [
+              "Parte del tejado, detrás de la rueda.",
+              "La rueda entera, detrás de la higuera.",
+              "Una ventana, detrás de una rama.",
+              "La puerta, detrás del banco de piedra."
+            ],
+            "correct": "c",
+            "explanation": "Una ventana, tapada por una rama."
+          },
+          "l313b-q2": {
+            "prompt": "¿Qué dos comprobaciones hizo Isona después de que Neri señalara la mancha?",
+            "options": [
+              "Tocó la zona y desplazó la hoja.",
+              "Apartó el carbón y cerró el contorno.",
+              "Movió la tabla y dibujó otro árbol.",
+              "Frotó la mancha y alzó la hoja hacia Elna."
+            ],
+            "correct": "a",
+            "explanation": "Tocó la zona sin arrastrar el dedo y después deslizó la hoja hacia un lado."
+          },
+          "l313b-q3": {
+            "prompt": "¿Por qué el desplazamiento de la hoja aporta una pista distinta de la comprobación con el dedo?",
+            "options": [
+              "El dedo fija el carbón y el movimiento permite observarlo después.",
+              "El dedo busca si la mancha se borra y el movimiento termina de limpiarla.",
+              "Ambas acciones comprueban solo si la hoja está suficientemente sujeta.",
+              "Una busca polvo y la otra compara la mancha con los trazos del papel."
+            ],
+            "correct": "d",
+            "explanation": "El dedo permite observar que no recoge polvo; mover la hoja permite comparar la posición de la mancha con las líneas que permanecen en el papel."
+          },
+          "l313b-q4": {
+            "prompt": "¿Qué sugiere que Neri siga mirando la mancha sin señalar ya el carbón?",
+            "options": [
+              "Que ya ha decidido cerrar la línea que trazará Isona.",
+              "Que empieza a revisar la explicación que había supuesto.",
+              "Que considera que Isona ha limpiado el papel con el dedo.",
+              "Que cree que la mancha forma parte del árbol desde el principio."
+            ],
+            "correct": "b",
+            "explanation": "Que empieza a dudar de su primera explicación, aunque todavía observa antes de descubrir la causa."
+          },
+          "l313b-q5": {
+            "prompt": "¿Por qué Isona le pidió a Neri que retrocediera?",
+            "options": [
+              "Para que pudiera ver la ventana oculta tras la rama.",
+              "Para evitar que moviera el carbón sobre el dibujo.",
+              "Porque su cabeza estaba quitando luz al papel.",
+              "Porque desde atrás se veía completa la rueda del molino."
+            ],
+            "correct": "c",
+            "explanation": "Porque al inclinarse tapó parte de la luz con la cabeza."
+          },
+          "l313b-q6": {
+            "prompt": "¿Qué significa «contorno» cuando Isona lo repasa?",
+            "options": [
+              "El borde que delimita la forma.",
+              "El tono más oscuro de la mancha.",
+              "La posición de la hoja sobre la tabla.",
+              "El espacio blanco entre la rueda y el tejado."
+            ],
+            "correct": "a",
+            "explanation": "El límite exterior de la forma que dibuja la sombra."
+          },
+          "l313b-q7": {
+            "prompt": "¿Qué diferencia había entre el trazo que hizo Isona y la propuesta posterior de Neri?",
+            "options": [
+              "Isona dibujó un toldo y Neri quiso borrar el camino.",
+              "Isona cerró la forma y Neri quiso volver a abrirla.",
+              "Isona dibujó una rama y Neri prefirió completar la ventana.",
+              "Isona dejó el trazo abierto y Neri quiso completarlo como tienda."
+            ],
+            "correct": "d",
+            "explanation": "Isona dejó una línea abierta en un extremo; Neri propuso cerrarla para que se pareciera más a una tienda."
+          },
+          "l313b-q8": {
+            "prompt": "¿Por qué lo que dice Elna no permite concluir que Isona quisiera dibujar un toldo?",
+            "options": [
+              "Porque Elna había visto la sombra original desde el molino.",
+              "Porque Elna pone nombre a una forma cuyo origen todavía desconoce.",
+              "Porque Neri había cerrado la línea siguiendo su propia propuesta.",
+              "Porque Isona quería que Elna confundiera el tejado con un toldo."
+            ],
+            "correct": "b",
+            "explanation": "Porque Elna interpreta la línea sin haber oído aún su origen; Isona había seguido una sombra y conservado el trazo resultante."
+          },
+          "l313b-q9": {
+            "prompt": "¿Para qué sirve la aparición de Elna en el último párrafo?",
+            "options": [
+              "Aporta la explicación que los niños necesitaban para descubrir la sombra.",
+              "Confirma que Neri ha completado la tienda después de discutirlo.",
+              "Muestra otra interpretación de la forma que han conservado.",
+              "Revela que el toldo existía en el camino aunque Isona no lo veía."
+            ],
+            "correct": "c",
+            "explanation": "Introduce una mirada nueva sobre el trazo: ella lo interpreta sin haber visto cómo lo hicieron."
+          },
+          "l313b-q10": {
+            "prompt": "¿Qué relación hay entre la primera sospecha de Neri y su acción final?",
+            "options": [
+              "Primero le interesa la rueda y al final decide copiar la ventana.",
+              "Primero observa desde el banco y al final pide dibujar dentro del molino.",
+              "Primero quiere guardar una sombra y al final decide tapar toda la luz.",
+              "Primero sospecha un accidente y al final quiere probar ese efecto en su hoja."
+            ],
+            "correct": "d",
+            "explanation": "Pasa de sospechar una mancha accidental de carbón a buscar voluntariamente formas de sombra en su propio papel."
+          },
+          "l313b-q11": {
+            "prompt": "¿Qué resumen recoge mejor el recorrido de la mancha y del trazo?",
+            "options": [
+              "Una aparente mancha resulta ser una sombra y da lugar a un trazo que admite otra lectura.",
+              "Una sombra se confunde con el tejado hasta que Elna dibuja el toldo que faltaba.",
+              "Un accidente con carbón obliga a Isona a convertir el molino dibujado en una tienda.",
+              "Un trazo incompleto permite a Neri mostrar la ventana que la rama había ocultado."
+            ],
+            "correct": "a",
+            "explanation": "Parece un roce de carbón; al comparar el papel y las hojas descubren su origen como sombra. Isona conserva un contorno que después Elna interpreta como un toldo."
+          }
+        }
+      },
+      {
+        "code": "L313B",
+        "language": "ca",
+        "questions": {
+          "l313b-q1": {
+            "prompt": "Quina part del molí quedava amagada des del banc?",
+            "options": [
+              "Part de la teulada, darrere de la roda.",
+              "Tota la roda, darrere de la figuera.",
+              "Una finestra, darrere d’una branca.",
+              "La porta, darrere del banc de pedra."
+            ],
+            "correct": "c",
+            "explanation": "Una finestra, tapada per una branca."
+          },
+          "l313b-q2": {
+            "prompt": "Quines dues comprovacions va fer l’Isona després que en Neri assenyalés la taca?",
+            "options": [
+              "Va tocar la zona i va desplaçar el full.",
+              "Va apartar el carbó i va tancar el contorn.",
+              "Va moure la tauleta i va dibuixar un altre arbre.",
+              "Va fregar la taca i va alçar el full cap a l’Elna."
+            ],
+            "correct": "a",
+            "explanation": "Va tocar la zona sense arrossegar el dit i després va fer lliscar el full cap a un costat."
+          },
+          "l313b-q3": {
+            "prompt": "Per què el desplaçament del full aporta una pista diferent de la comprovació amb el dit?",
+            "options": [
+              "El dit fixa el carbó i el moviment permet observar-lo després.",
+              "El dit busca si la taca s’esborra i el moviment acaba de netejar-la.",
+              "Totes dues accions comproven només si el full està prou subjectat.",
+              "Una busca pols i l’altra compara la taca amb els traços del paper."
+            ],
+            "correct": "d",
+            "explanation": "El dit permet observar que no recull pols; moure el full permet comparar la posició de la taca amb les línies que es mantenen al paper."
+          },
+          "l313b-q4": {
+            "prompt": "Què suggereix que en Neri continuï mirant la taca sense assenyalar ja el carbó?",
+            "options": [
+              "Que ja ha decidit tancar la línia que traçarà l’Isona.",
+              "Que comença a revisar l’explicació que havia suposat.",
+              "Que considera que l’Isona ha netejat el paper amb el dit.",
+              "Que creu que la taca forma part de l’arbre des del principi."
+            ],
+            "correct": "b",
+            "explanation": "Que comença a dubtar de la primera explicació, tot i que encara observa abans de descobrir la causa."
+          },
+          "l313b-q5": {
+            "prompt": "Per què l’Isona va demanar a en Neri que reculés?",
+            "options": [
+              "Perquè pogués veure la finestra amagada darrere la branca.",
+              "Per evitar que mogués el carbó sobre el dibuix.",
+              "Perquè el seu cap estava traient llum al paper.",
+              "Perquè des de darrere es veia tota la roda del molí."
+            ],
+            "correct": "c",
+            "explanation": "Perquè en inclinar-se va tapar part de la llum amb el cap."
+          },
+          "l313b-q6": {
+            "prompt": "Què vol dir «contorn» quan l’Isona el ressegueix?",
+            "options": [
+              "La vora que delimita la forma.",
+              "El to més fosc de la taca.",
+              "La posició del full sobre la tauleta.",
+              "L’espai blanc entre la roda i la teulada."
+            ],
+            "correct": "a",
+            "explanation": "El límit exterior de la forma que dibuixa l’ombra."
+          },
+          "l313b-q7": {
+            "prompt": "Quina diferència hi havia entre el traç que va fer l’Isona i la proposta posterior d’en Neri?",
+            "options": [
+              "L’Isona va dibuixar un tendal i en Neri va voler esborrar el camí.",
+              "L’Isona va tancar la forma i en Neri va voler tornar-la a obrir.",
+              "L’Isona va dibuixar una branca i en Neri va preferir completar la finestra.",
+              "L’Isona va deixar el traç obert i en Neri el va voler completar com a tenda."
+            ],
+            "correct": "d",
+            "explanation": "L’Isona va deixar una línia oberta per un extrem; en Neri va proposar tancar-la perquè semblés més una tenda."
+          },
+          "l313b-q8": {
+            "prompt": "Per què allò que diu l’Elna no permet concloure que l’Isona volgués dibuixar un tendal?",
+            "options": [
+              "Perquè l’Elna havia vist l’ombra original des del molí.",
+              "Perquè l’Elna posa nom a una forma de la qual encara desconeix l’origen.",
+              "Perquè en Neri havia tancat la línia seguint la seva proposta.",
+              "Perquè l’Isona volia que l’Elna confongués la teulada amb un tendal."
+            ],
+            "correct": "b",
+            "explanation": "Perquè l’Elna interpreta la línia sense haver-ne sentit encara l’origen; l’Isona havia seguit una ombra i conservat el traç que n’havia sortit."
+          },
+          "l313b-q9": {
+            "prompt": "Per a què serveix l’aparició de l’Elna a l’últim paràgraf?",
+            "options": [
+              "Aporta l’explicació que els infants necessitaven per descobrir l’ombra.",
+              "Confirma que en Neri ha completat la tenda després de parlar-ne.",
+              "Mostra una altra interpretació de la forma que han conservat.",
+              "Revela que el tendal existia al camí tot i que l’Isona no el veia."
+            ],
+            "correct": "c",
+            "explanation": "Introdueix una mirada nova sobre el traç: ella l’interpreta sense haver vist com l’han fet."
+          },
+          "l313b-q10": {
+            "prompt": "Quina relació hi ha entre la primera sospita d’en Neri i l’acció final?",
+            "options": [
+              "Primer li interessa la roda i al final decideix copiar la finestra.",
+              "Primer observa des del banc i al final demana dibuixar dins del molí.",
+              "Primer vol guardar una ombra i al final decideix tapar tota la llum.",
+              "Primer sospita un accident i al final vol provar aquell efecte al seu full."
+            ],
+            "correct": "d",
+            "explanation": "Passa de sospitar una taca accidental de carbó a buscar voluntàriament formes d’ombra al seu paper."
+          },
+          "l313b-q11": {
+            "prompt": "Quin resum recull millor el recorregut de la taca i del traç?",
+            "options": [
+              "Una aparent taca resulta ser una ombra i dona lloc a un traç que admet una altra lectura.",
+              "Una ombra es confon amb la teulada fins que l’Elna dibuixa el tendal que faltava.",
+              "Un accident amb carbó obliga l’Isona a convertir el molí dibuixat en una tenda.",
+              "Un traç incomplet permet a en Neri mostrar la finestra que la branca havia amagat."
+            ],
+            "correct": "a",
+            "explanation": "Sembla una fregada de carbó; en comparar el paper i les fulles en descobreixen l’origen com a ombra. L’Isona en conserva un contorn que després l’Elna interpreta com un tendal."
+          }
+        }
+      }
+    ]
   }
 ];
