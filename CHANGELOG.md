@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.62.8 · 26 de novembre del 2026
+
+L306: L’aparador que es podia tocar. Nova família de l’univers El taller de la plaça, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 15 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.62.7 · 26 de novembre del 2026
 
 L305: La ressenya que va oblidar l’espera. Nova família de l’univers El taller de la plaça, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 14 històries independents. Contingut provisional, pendent de validació docent.

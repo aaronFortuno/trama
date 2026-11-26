@@ -1,9 +1,9 @@
 {
   "date": "2026-11-26",
-  "totalWorks": 597,
-  "coveredWorks": 597,
+  "totalWorks": 600,
+  "coveredWorks": 600,
   "pendingWorks": 0,
-  "localizedAlternatives": 5990,
+  "localizedAlternatives": 6044,
   "ranges": [
     {
       "start": 1,
@@ -430,6 +430,13 @@
       "end": 305,
       "total": 15,
       "covered": 15,
+      "status": "complete"
+    },
+    {
+      "start": 306,
+      "end": 306,
+      "total": 3,
+      "covered": 3,
       "status": "complete"
     }
   ],
@@ -36925,6 +36932,285 @@
             },
             {
               "id": "l305b-q11",
+              "number": 11
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L306",
+      "baseCode": "L306",
+      "variant": false,
+      "level": "5-primary",
+      "difficulty": "intermediate",
+      "title": "L’aparador que es podia tocar",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l306-q1",
+              "number": 1
+            },
+            {
+              "id": "l306-q2",
+              "number": 2
+            },
+            {
+              "id": "l306-q3",
+              "number": 3
+            },
+            {
+              "id": "l306-q4",
+              "number": 4
+            },
+            {
+              "id": "l306-q5",
+              "number": 5
+            },
+            {
+              "id": "l306-q6",
+              "number": 6
+            },
+            {
+              "id": "l306-q7",
+              "number": 7
+            },
+            {
+              "id": "l306-q8",
+              "number": 8
+            },
+            {
+              "id": "l306-q9",
+              "number": 9
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l306-q1",
+              "number": 1
+            },
+            {
+              "id": "l306-q2",
+              "number": 2
+            },
+            {
+              "id": "l306-q3",
+              "number": 3
+            },
+            {
+              "id": "l306-q4",
+              "number": 4
+            },
+            {
+              "id": "l306-q5",
+              "number": 5
+            },
+            {
+              "id": "l306-q6",
+              "number": 6
+            },
+            {
+              "id": "l306-q7",
+              "number": 7
+            },
+            {
+              "id": "l306-q8",
+              "number": 8
+            },
+            {
+              "id": "l306-q9",
+              "number": 9
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L306A",
+      "baseCode": "L306",
+      "variant": true,
+      "level": "4-primary",
+      "difficulty": "intermediate",
+      "title": "L’aparador que es podia tocar",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l306a-q1",
+              "number": 1
+            },
+            {
+              "id": "l306a-q2",
+              "number": 2
+            },
+            {
+              "id": "l306a-q3",
+              "number": 3
+            },
+            {
+              "id": "l306a-q4",
+              "number": 4
+            },
+            {
+              "id": "l306a-q5",
+              "number": 5
+            },
+            {
+              "id": "l306a-q6",
+              "number": 6
+            },
+            {
+              "id": "l306a-q7",
+              "number": 7
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l306a-q1",
+              "number": 1
+            },
+            {
+              "id": "l306a-q2",
+              "number": 2
+            },
+            {
+              "id": "l306a-q3",
+              "number": 3
+            },
+            {
+              "id": "l306a-q4",
+              "number": 4
+            },
+            {
+              "id": "l306a-q5",
+              "number": 5
+            },
+            {
+              "id": "l306a-q6",
+              "number": 6
+            },
+            {
+              "id": "l306a-q7",
+              "number": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L306B",
+      "baseCode": "L306",
+      "variant": true,
+      "level": "6-primary",
+      "difficulty": "intermediate",
+      "title": "L’aparador que es podia tocar",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l306b-q1",
+              "number": 1
+            },
+            {
+              "id": "l306b-q2",
+              "number": 2
+            },
+            {
+              "id": "l306b-q3",
+              "number": 3
+            },
+            {
+              "id": "l306b-q4",
+              "number": 4
+            },
+            {
+              "id": "l306b-q5",
+              "number": 5
+            },
+            {
+              "id": "l306b-q6",
+              "number": 6
+            },
+            {
+              "id": "l306b-q7",
+              "number": 7
+            },
+            {
+              "id": "l306b-q8",
+              "number": 8
+            },
+            {
+              "id": "l306b-q9",
+              "number": 9
+            },
+            {
+              "id": "l306b-q10",
+              "number": 10
+            },
+            {
+              "id": "l306b-q11",
+              "number": 11
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l306b-q1",
+              "number": 1
+            },
+            {
+              "id": "l306b-q2",
+              "number": 2
+            },
+            {
+              "id": "l306b-q3",
+              "number": 3
+            },
+            {
+              "id": "l306b-q4",
+              "number": 4
+            },
+            {
+              "id": "l306b-q5",
+              "number": 5
+            },
+            {
+              "id": "l306b-q6",
+              "number": 6
+            },
+            {
+              "id": "l306b-q7",
+              "number": 7
+            },
+            {
+              "id": "l306b-q8",
+              "number": 8
+            },
+            {
+              "id": "l306b-q9",
+              "number": 9
+            },
+            {
+              "id": "l306b-q10",
+              "number": 10
+            },
+            {
+              "id": "l306b-q11",
               "number": 11
             }
           ]

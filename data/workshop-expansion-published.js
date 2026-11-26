@@ -14615,5 +14615,1786 @@ export const workshopPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L306",
+    "edition": "v1.62.8",
+    "family": {
+      "id": "familia-l306",
+      "code": "L306",
+      "name": {
+        "es": "El escaparate que se podía tocar",
+        "ca": "L’aparador que es podia tocar"
+      },
+      "description": {
+        "ca": "Una història del Taller de la plaça, amb suport, versió de referència i ampliació.",
+        "es": "Una historia del Taller de la plaza, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L306A",
+        "L306",
+        "L306B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "el-escaparate-que-se-podia-tocar-a-es",
+        "code": "L306A",
+        "workId": "el-escaparate-que-se-podia-tocar-a",
+        "language": "es",
+        "familyId": "familia-l306",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "everyday"
+        ],
+        "genre": "informative",
+        "title": "El escaparate que se podía tocar",
+        "summary": "Tres muestras que se pueden tocar ayudan a entender una reparación sin manipular objetos de clientes.",
+        "paragraphs": [
+          "Junto al escaparate del taller de la plaza hay una tabla con tres trozos de tela: loneta azul, fieltro gris y tela verde de un paraguas. Irene, la reparadora, los ha preparado para que los visitantes puedan tocarlos. Solo están sujetos por el borde superior con pinzas; se pueden levantar y doblar.",
+          "Una tarde, Asha y Hugo, dos niños del barrio, compararon las muestras. Asha encontró suave el fieltro. Hugo vio que la tela del paraguas formaba un bulto menor al doblarla que la loneta. Luego cambiaron de sitio para notar las diferencias con sus propias manos.",
+          "Lola llegó con la funda gastada de su tambor pequeño. Quería reparar la parte exterior y conservar el forro, que estaba bien. Al ver el fieltro, pensó en añadirlo dentro. Irene soltó la muestra y Lola la puso doblada en su mochila: ocupaba más espacio del que quería perder. La devolvió a la tabla.",
+          "Irene comparó la loneta con la funda y eligieron un retal para el parche exterior. Mientras Lola sacaba el tambor, Asha volvió a levantar la tela verde. En el escaparate quedaban las otras muestras listas para la siguiente visita."
+        ],
+        "questions": [
+          {
+            "id": "l306a-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué tres telas hay en la tabla?",
+            "answer": "Loneta azul, fieltro gris y tela verde de un paraguas.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "loneta azul, fieltro gris y tela verde de un paraguas"
+              }
+            ]
+          },
+          {
+            "id": "l306a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Por qué borde están sujetos los trozos?",
+            "answer": "Por el borde superior.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Solo están sujetos por el borde superior"
+              }
+            ]
+          },
+          {
+            "id": "l306a-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué es el «forro» que Lola quiere conservar?",
+            "answer": "La tela que recubre la funda por dentro.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "reparar la parte exterior y conservar el forro"
+              },
+              {
+                "paragraph": 3,
+                "text": "añadirlo dentro"
+              }
+            ]
+          },
+          {
+            "id": "l306a-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué observa Hugo al doblar dos muestras?",
+            "answer": "Que la tela del paraguas hace menos bulto que la loneta.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "la tela del paraguas formaba un bulto menor al doblarla que la loneta"
+              }
+            ]
+          },
+          {
+            "id": "l306a-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Para qué cambian de sitio los niños después de comentar las muestras?",
+            "answer": "Para que ambos puedan notar directamente las diferencias.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "para notar las diferencias con sus propias manos"
+              }
+            ]
+          },
+          {
+            "id": "l306a-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué Lola no añade el fieltro dentro de la funda?",
+            "answer": "Porque la muestra doblada ocupa más espacio del que quiere perder en la mochila.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "ocupaba más espacio del que quería perder"
+              }
+            ]
+          },
+          {
+            "id": "l306a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Explica para qué sirve este mostrario y cómo ayuda a Lola.",
+            "answer": "Permite tocar y doblar telas preparadas. Lola compara su volumen y elige con Irene un retal de loneta para el exterior, conservando el forro.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "los ha preparado para que los visitantes puedan tocarlos"
+              },
+              {
+                "paragraph": 4,
+                "text": "eligieron un retal para el parche exterior"
+              }
+            ]
+          },
+          {
+            "id": "l306a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué dos muestras te gustaría comparar con las manos? Explica qué diferencia buscarías.",
+            "answer": "Respuesta personal que nombre dos muestras y una diferencia observable, como suavidad o volumen al doblarlas."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "forro",
+            "occurrence": 1,
+            "questionId": "l306a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l306-scene",
+            "src": "assets/readings/l306-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Asha toca la muestra gris junto al escaparate mientras Hugo observa; Irene compara un retal azul con la funda vacía del tambor pequeño de Lola.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-escaparate-que-se-podia-tocar-a-ca",
+        "code": "L306A",
+        "workId": "el-escaparate-que-se-podia-tocar-a",
+        "language": "ca",
+        "familyId": "familia-l306",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "everyday"
+        ],
+        "genre": "informative",
+        "title": "L’aparador que es podia tocar",
+        "summary": "Tres mostres que es poden tocar ajuden a entendre una reparació sense manipular objectes de clients.",
+        "paragraphs": [
+          "Al costat de l’aparador del taller de la plaça hi ha un tauler amb tres trossos de roba: loneta blava, feltre gris i roba verda d’un paraigua. La Irene, la reparadora, els ha preparat perquè els visitants els puguin tocar. Només estan subjectats per la vora superior amb pinces; es poden aixecar i doblegar.",
+          "Una tarda, l’Asha i l’Hugo, dos infants del barri, van comparar les mostres. L’Asha va trobar suau el feltre. L’Hugo va veure que la roba del paraigua feia menys bony en doblegar-la que la loneta. Després van canviar de lloc per notar les diferències amb les seves pròpies mans.",
+          "La Lola va arribar amb la funda gastada del seu tambor petit. Volia reparar la part exterior i conservar el folre, que estava bé. Quan va veure el feltre, va pensar a afegir-l’hi a dins. La Irene va desenganxar la mostra i la Lola la va posar doblegada a la motxilla: ocupava més espai del que volia perdre. La va tornar al tauler.",
+          "La Irene va comparar la loneta amb la funda i van triar un retall per al pedaç exterior. Mentre la Lola treia el tambor, l’Asha va tornar a aixecar la roba verda. A l’aparador quedaven les altres mostres a punt per a la visita següent."
+        ],
+        "questions": [
+          {
+            "id": "l306a-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quines tres robes hi ha al tauler?",
+            "answer": "Loneta blava, feltre gris i roba verda d’un paraigua.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "loneta blava, feltre gris i roba verda d’un paraigua"
+              }
+            ]
+          },
+          {
+            "id": "l306a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Per quina vora estan subjectats els trossos?",
+            "answer": "Per la vora superior.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Només estan subjectats per la vora superior"
+              }
+            ]
+          },
+          {
+            "id": "l306a-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què és el «folre» que la Lola vol conservar?",
+            "answer": "La roba que recobreix la funda per dins.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "reparar la part exterior i conservar el folre"
+              },
+              {
+                "paragraph": 3,
+                "text": "afegir-l’hi a dins"
+              }
+            ]
+          },
+          {
+            "id": "l306a-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què observa l’Hugo quan doblega dues mostres?",
+            "answer": "Que la roba del paraigua fa menys bony que la loneta.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "la roba del paraigua feia menys bony en doblegar-la que la loneta"
+              }
+            ]
+          },
+          {
+            "id": "l306a-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per a què canvien de lloc els infants després de comentar les mostres?",
+            "answer": "Perquè tots dos puguin notar directament les diferències.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "per notar les diferències amb les seves pròpies mans"
+              }
+            ]
+          },
+          {
+            "id": "l306a-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què la Lola no afegeix el feltre dins de la funda?",
+            "answer": "Perquè la mostra doblegada ocupa més espai del que vol perdre a la motxilla.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "ocupava més espai del que volia perdre"
+              }
+            ]
+          },
+          {
+            "id": "l306a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Explica per a què serveix aquest mostrari i com ajuda la Lola.",
+            "answer": "Permet tocar i doblegar robes preparades. La Lola en compara el volum i tria amb la Irene un retall de loneta per a l’exterior, conservant el folre.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "els ha preparat perquè els visitants els puguin tocar"
+              },
+              {
+                "paragraph": 4,
+                "text": "van triar un retall per al pedaç exterior"
+              }
+            ]
+          },
+          {
+            "id": "l306a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quines dues mostres t’agradaria comparar amb les mans? Explica quina diferència hi buscaries.",
+            "answer": "Resposta personal que anomeni dues mostres i una diferència observable, com la suavitat o el volum en doblegar-les."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "folre",
+            "occurrence": 1,
+            "questionId": "l306a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l306-scene",
+            "src": "assets/readings/l306-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "L’Asha toca la mostra grisa al costat de l’aparador mentre l’Hugo observa; la Irene compara un retall blau amb la funda buida del tambor petit de la Lola.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-escaparate-que-se-podia-tocar-es",
+        "code": "L306",
+        "workId": "el-escaparate-que-se-podia-tocar",
+        "language": "es",
+        "familyId": "familia-l306",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "everyday"
+        ],
+        "genre": "informative",
+        "title": "El escaparate que se podía tocar",
+        "summary": "Un mostrario táctil aporta comparaciones concretas para decidir cómo reparar una funda de tambor.",
+        "paragraphs": [
+          "El escaparate del taller de la plaza tiene una parte que se visita desde dentro. Junto a la ventana, Irene, la reparadora, ha colocado una tabla baja con tres muestras: loneta azul, fieltro gris y tela verde de un paraguas. Son retales preparados para tocar, separados de los objetos que esperan reparación. Cada trozo, fijado con pinzas, queda sujeto solo por arriba para poder levantarlo y doblarlo.",
+          "Una tarde, Asha y Hugo, dos niños del barrio, empezaron a compararlas. Asha pasó la mano por el fieltro y lo encontró suave. Hugo dobló la tela del paraguas: hacía menos bulto que la loneta. Cambiaron de sitio y repitieron los gestos. La vista les había permitido distinguir los colores; al tocarlas notaban también diferencias de superficie y de volumen.",
+          "Lola llegó con la funda de su tambor pequeño. La parte exterior estaba gastada, pero el forro seguía entero. Al tocar el fieltro del mostrario, propuso añadir una capa por dentro. Llevaba la funda en una mochila casi llena. Irene soltó la pinza del fieltro. Lola probó a meter también aquella muestra doblada y enseguida la sacó: prefería conservar ese espacio para su botella. Se la devolvió a Irene, que volvió a sujetarla a la tabla. Irene le mostró entonces la loneta junto al exterior de la funda.",
+          "Eligieron un retal para cubrir la zona gastada y conservaron el interior. Irene aún debía cortar y coser el parche; las muestras habían ayudado a escogerlo. Lola sacó el tambor y dejó la funda vacía en la mesa. Mientras tanto, Hugo volvió a doblar las telas azul y verde una junto a otra. Asha acercó una silla para que otra visitante alcanzara la tabla."
+        ],
+        "questions": [
+          {
+            "id": "l306-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Dónde se encuentra la parte del escaparate que permite tocar muestras?",
+            "answer": "Dentro del taller, en una tabla baja junto a la ventana.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "se visita desde dentro. Junto a la ventana"
+              }
+            ]
+          },
+          {
+            "id": "l306-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué resulta útil que los trozos estén sujetos solo por arriba?",
+            "answer": "Así se pueden levantar y doblar para comparar cómo son.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "sujeto solo por arriba para poder levantarlo y doblarlo"
+              }
+            ]
+          },
+          {
+            "id": "l306-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «muestras» en el primer párrafo?",
+            "answer": "Trozos preparados que permiten conocer y comparar esos materiales.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Son retales preparados para tocar"
+              }
+            ]
+          },
+          {
+            "id": "l306-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué diferencias notan los niños además de los colores?",
+            "answer": "Diferencias de superficie y de volumen al tocar y doblar las muestras.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "diferencias de superficie y de volumen"
+              }
+            ]
+          },
+          {
+            "id": "l306-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué parte de la funda necesita reparación y cuál está entera?",
+            "answer": "El exterior está gastado y el forro está entero.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La parte exterior estaba gastada, pero el forro seguía entero."
+              }
+            ]
+          },
+          {
+            "id": "l306-q6",
+            "type": "literal",
+            "lines": 3,
+            "prompt": "¿Qué hace que Lola descarte añadir fieltro, aunque le haya interesado al tocarlo?",
+            "answer": "Comprueba cuánto espacio ocupa en una mochila casi llena y prefiere reservarlo para la botella.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "prefería conservar ese espacio para su botella"
+              }
+            ]
+          },
+          {
+            "id": "l306-q7",
+            "type": "literal",
+            "lines": 3,
+            "prompt": "¿Qué diferencia hay entre la ayuda del mostrario y la reparación final?",
+            "answer": "El mostrario permite comparar y elegir; Irene todavía tiene que cortar y coser el parche.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Irene aún debía cortar y coser el parche; las muestras habían ayudado a escogerlo."
+              }
+            ]
+          },
+          {
+            "id": "l306-q8",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "¿Qué aporta el caso de Lola a la explicación general del mostrario?",
+            "answer": "Un ejemplo concreto de cómo comparar telas ayuda a tomar una decisión según una necesidad.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "meter también aquella muestra doblada"
+              },
+              {
+                "paragraph": 4,
+                "text": "Eligieron un retal para cubrir la zona gastada"
+              }
+            ]
+          },
+          {
+            "id": "l306-q9",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resume cómo pasa Lola de tocar el fieltro a elegir el arreglo exterior.",
+            "answer": "Piensa en añadir fieltro, pero comprueba el bulto en la mochila y conserva el forro. Luego compara la loneta con Irene y elige un retal para el exterior.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "propuso añadir una capa por dentro"
+              },
+              {
+                "paragraph": 4,
+                "text": "Eligieron un retal para cubrir la zona gastada y conservaron el interior."
+              }
+            ]
+          },
+          {
+            "id": "l306-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿En qué otro objeto te ayudaría tocar una muestra antes de elegir un material? Explica qué comprobarías.",
+            "answer": "Respuesta personal con un objeto y una comparación pertinente, sin exigir conocimientos técnicos."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "muestras",
+            "occurrence": 1,
+            "questionId": "l306-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l306-scene",
+            "src": "assets/readings/l306-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Asha toca la muestra gris junto al escaparate mientras Hugo observa; Irene compara un retal azul con la funda vacía del tambor pequeño de Lola.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-escaparate-que-se-podia-tocar-ca",
+        "code": "L306",
+        "workId": "el-escaparate-que-se-podia-tocar",
+        "language": "ca",
+        "familyId": "familia-l306",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "everyday"
+        ],
+        "genre": "informative",
+        "title": "L’aparador que es podia tocar",
+        "summary": "Un mostrari tàctil aporta comparacions concretes per decidir com reparar una funda de tambor.",
+        "paragraphs": [
+          "L’aparador del taller de la plaça té una part que es visita des de dins. Al costat de la finestra, la Irene, la reparadora, ha col·locat un tauler baix amb tres mostres: loneta blava, feltre gris i roba verda d’un paraigua. Són retalls preparats per tocar, separats dels objectes que esperen reparació. Cada tros, fixat amb pinces, queda subjectat només per dalt per poder-lo aixecar i doblegar.",
+          "Una tarda, l’Asha i l’Hugo, dos infants del barri, van començar a comparar-les. L’Asha va passar la mà pel feltre i el va trobar suau. L’Hugo va doblegar la roba del paraigua: feia menys bony que la loneta. Van canviar de lloc i van repetir els gestos. La vista els havia permès distingir els colors; quan les tocaven també notaven diferències de superfície i de volum.",
+          "La Lola va arribar amb la funda del seu tambor petit. La part exterior estava gastada, però el folre continuava sencer. Quan va tocar el feltre del mostrari, va proposar afegir-hi una capa per dins. Portava la funda en una motxilla gairebé plena. La Irene va desenganxar la pinça del feltre. La Lola va provar de ficar-hi també aquella mostra doblegada i de seguida la va treure: preferia conservar aquell espai per a l’ampolla. La va tornar a la Irene, que la va tornar a subjectar al tauler. La Irene li va mostrar llavors la loneta al costat de l’exterior de la funda.",
+          "Van triar un retall per tapar la zona gastada i van conservar l’interior. La Irene encara havia de tallar i cosir el pedaç; les mostres havien ajudat a triar-lo. La Lola va treure el tambor i va deixar la funda buida a la taula. Mentrestant, l’Hugo va tornar a doblegar les robes blava i verda l’una al costat de l’altra. L’Asha va acostar una cadira perquè una altra visitant arribés al tauler."
+        ],
+        "questions": [
+          {
+            "id": "l306-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "On és la part de l’aparador que permet tocar mostres?",
+            "answer": "Dins del taller, en un tauler baix al costat de la finestra.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "es visita des de dins. Al costat de la finestra"
+              }
+            ]
+          },
+          {
+            "id": "l306-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què és útil que els trossos estiguin subjectats només per dalt?",
+            "answer": "Així es poden aixecar i doblegar per comparar com són.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "subjectat només per dalt per poder-lo aixecar i doblegar"
+              }
+            ]
+          },
+          {
+            "id": "l306-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què significa «mostres» al primer paràgraf?",
+            "answer": "Trossos preparats que permeten conèixer i comparar aquells materials.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Són retalls preparats per tocar"
+              }
+            ]
+          },
+          {
+            "id": "l306-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quines diferències noten els infants a més dels colors?",
+            "answer": "Diferències de superfície i de volum quan toquen i dobleguen les mostres.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "diferències de superfície i de volum"
+              }
+            ]
+          },
+          {
+            "id": "l306-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina part de la funda necessita reparació i quina està sencera?",
+            "answer": "L’exterior està gastat i el folre està sencer.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La part exterior estava gastada, però el folre continuava sencer."
+              }
+            ]
+          },
+          {
+            "id": "l306-q6",
+            "type": "literal",
+            "lines": 3,
+            "prompt": "Què fa que la Lola descarti afegir feltre, tot i que li hagi interessat quan l’ha tocat?",
+            "answer": "Comprova quant d’espai ocupa en una motxilla gairebé plena i prefereix reservar-lo per a l’ampolla.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "preferia conservar aquell espai per a l’ampolla"
+              }
+            ]
+          },
+          {
+            "id": "l306-q7",
+            "type": "literal",
+            "lines": 3,
+            "prompt": "Quina diferència hi ha entre l’ajuda del mostrari i la reparació final?",
+            "answer": "El mostrari permet comparar i triar; la Irene encara ha de tallar i cosir el pedaç.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La Irene encara havia de tallar i cosir el pedaç; les mostres havien ajudat a triar-lo."
+              }
+            ]
+          },
+          {
+            "id": "l306-q8",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "Què aporta el cas de la Lola a l’explicació general del mostrari?",
+            "answer": "Un exemple concret de com comparar robes ajuda a prendre una decisió segons una necessitat.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "ficar-hi també aquella mostra doblegada"
+              },
+              {
+                "paragraph": 4,
+                "text": "Van triar un retall per tapar la zona gastada"
+              }
+            ]
+          },
+          {
+            "id": "l306-q9",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resumeix com passa la Lola de tocar el feltre a triar l’arranjament exterior.",
+            "answer": "Pensa a afegir feltre, però comprova el bony a la motxilla i conserva el folre. Després compara la loneta amb la Irene i tria un retall per a l’exterior.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "va proposar afegir-hi una capa per dins"
+              },
+              {
+                "paragraph": 4,
+                "text": "Van triar un retall per tapar la zona gastada i van conservar l’interior."
+              }
+            ]
+          },
+          {
+            "id": "l306-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "En quin altre objecte t’ajudaria tocar una mostra abans de triar un material? Explica què hi comprovaries.",
+            "answer": "Resposta personal amb un objecte i una comparació pertinent, sense exigir coneixements tècnics."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "mostres",
+            "occurrence": 1,
+            "questionId": "l306-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l306-scene",
+            "src": "assets/readings/l306-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "L’Asha toca la mostra grisa al costat de l’aparador mentre l’Hugo observa; la Irene compara un retall blau amb la funda buida del tambor petit de la Lola.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-escaparate-que-se-podia-tocar-b-es",
+        "code": "L306B",
+        "workId": "el-escaparate-que-se-podia-tocar-b",
+        "language": "es",
+        "familyId": "familia-l306",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "everyday"
+        ],
+        "genre": "informative",
+        "title": "El escaparate que se podía tocar",
+        "summary": "El tacto, el volumen y las necesidades de una usuaria se combinan en un mostrario que informa sin decidir por ella.",
+        "paragraphs": [
+          "En el taller de reparación de la plaza, el escaparate continúa por dentro. Irene ha instalado junto a la ventana una tabla baja con tres muestras: loneta azul, fieltro gris y tela verde recuperada de un paraguas. Los trozos, fijados con pinzas, están sujetos por el borde superior y tienen el resto suelto. Los visitantes pueden levantarlos, deslizar la mano por la superficie y doblarlos. Son retales preparados para ese uso; los objetos de clientes esperan su turno en otro estante.",
+          "Una tarde, Asha y Hugo, dos niños del barrio, compararon las tres telas. Asha encontró suave el fieltro. Hugo dobló primero la loneta y después la tela del paraguas; aquella muestra verde formaba un paquete menor. Cambiaron de sitio y repitieron los gestos. El azul parecía más grueso incluso antes de tocarlo, pero plegarlo les permitió comparar el volumen que ocupaban realmente aquellos retales.",
+          "Lola entró con la funda de su tambor pequeño. La cara exterior estaba gastada de rozar con sus otras cosas; el forro interior seguía entero. Al tocar el fieltro, imaginó una capa suave por dentro. Llevaba la funda en una mochila casi llena. Pidió a Irene probar la muestra doblada dentro de la mochila. Irene soltó la pinza. Lola puso la tela dentro y, al verla allí, decidió conservar aquel hueco para la botella que siempre llevaba. Devolvió el fieltro e Irene volvió a sujetarlo a la tabla.",
+          "Irene colocó la loneta junto a la funda para escoger con Lola un retal que cubriera la parte gastada. La tela del paraguas abultaba menos, pero Lola no buscaba únicamente la opción más fina: también quería que la zona reparada se pareciera al exterior que conservaba. Las dos eligieron la loneta azul. La muestra de fieltro seguía siendo suave para Lola; lo que había cambiado era su interés en añadirla a esa funda.",
+          "La comparación se refería a los trozos que habían tocado y al espacio de aquella mochila. Irene aún tenía que cortar y coser el parche. Lola sacó el tambor y dejó la funda vacía sobre la mesa de trabajo. Hugo volvió a plegar las muestras azul y verde, esta vez una junto a otra. Asha acercó una silla para que otra visitante llegara a la tabla y pudiera levantar por sí misma el primer retal."
+        ],
+        "questions": [
+          {
+            "id": "l306b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué distingue las muestras del mostrario de los objetos del otro estante?",
+            "answer": "Las muestras están preparadas para tocar; los otros objetos son de clientes y esperan reparación.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Son retales preparados para ese uso; los objetos de clientes esperan su turno en otro estante."
+              }
+            ]
+          },
+          {
+            "id": "l306b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cómo se sujetan las muestras para permitir la comparación?",
+            "answer": "Por el borde superior, dejando el resto suelto.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "sujetos por el borde superior y tienen el resto suelto"
+              }
+            ]
+          },
+          {
+            "id": "l306b-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «forro» en la descripción de la funda?",
+            "answer": "La tela que reviste la funda por dentro.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "el forro interior seguía entero"
+              }
+            ]
+          },
+          {
+            "id": "l306b-q4",
+            "type": "literal",
+            "lines": 3,
+            "prompt": "¿Qué añade plegar las telas a la primera impresión visual de Hugo?",
+            "answer": "Permite comparar directamente el volumen que ocupan los retales, en vez de quedarse solo con el aspecto de grosor.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "plegarlo les permitió comparar el volumen que ocupaban realmente aquellos retales"
+              }
+            ]
+          },
+          {
+            "id": "l306b-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué está gastado en la funda y a qué se atribuye?",
+            "answer": "La cara exterior, por rozar con las otras cosas de Lola.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La cara exterior estaba gastada de rozar con sus otras cosas"
+              }
+            ]
+          },
+          {
+            "id": "l306b-q6",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué Lola devuelve el fieltro aunque siga encontrándolo suave?",
+            "answer": "La suavidad le interesa, pero prefiere el espacio de la mochila para la botella y el forro ya está entero.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "decidió conservar aquel hueco para la botella"
+              },
+              {
+                "paragraph": 4,
+                "text": "lo que había cambiado era su interés en añadirla a esa funda"
+              }
+            ]
+          },
+          {
+            "id": "l306b-q7",
+            "type": "literal",
+            "lines": 3,
+            "prompt": "¿Por qué no elige Lola la tela que ocupa menos volumen?",
+            "answer": "Porque también valora que el parche se parezca al exterior que conservará.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "también quería que la zona reparada se pareciera al exterior que conservaba"
+              }
+            ]
+          },
+          {
+            "id": "l306b-q8",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué conclusión sobre el fieltro se sostiene después de la decisión de Lola?",
+            "answer": "Le parece suave, pero no quiere añadirlo a esa funda por el espacio que ocupa en su mochila.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La muestra de fieltro seguía siendo suave para Lola; lo que había cambiado era su interés en añadirla a esa funda."
+              }
+            ]
+          },
+          {
+            "id": "l306b-q9",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "¿Qué función cumple la escena de Lola en un texto informativo sobre el mostrario?",
+            "answer": "Muestra un uso concreto en el que varias cualidades y necesidades intervienen en una elección.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "imaginó una capa suave por dentro"
+              },
+              {
+                "paragraph": 4,
+                "text": "Las dos eligieron la loneta azul."
+              }
+            ]
+          },
+          {
+            "id": "l306b-q10",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué afirmación sobre la elección de la loneta iría más allá de lo que han observado?",
+            "answer": "Afirmar que la loneta es siempre el mejor material para todas las fundas de tambor.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "La comparación se refería a los trozos que habían tocado y al espacio de aquella mochila."
+              }
+            ]
+          },
+          {
+            "id": "l306b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resume qué permite hacer el mostrario y qué tareas quedan pendientes al final.",
+            "answer": "Permite tocar, plegar y comparar retales para decidir según el uso previsto. Lola conserva el forro y elige loneta para el exterior; Irene aún tiene que cortar y coser el parche.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "levantarlos, deslizar la mano por la superficie y doblarlos"
+              },
+              {
+                "paragraph": 5,
+                "text": "Irene aún tenía que cortar y coser el parche."
+              }
+            ]
+          },
+          {
+            "id": "l306b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Si preparases otro mostrario, ¿qué materiales incluirías y qué comparación propondrías? Justifica la utilidad para una persona concreta.",
+            "answer": "Respuesta personal con materiales, una comparación realizable y una necesidad comprensible; no requiere afirmar propiedades técnicas."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "forro",
+            "occurrence": 1,
+            "questionId": "l306b-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l306-scene",
+            "src": "assets/readings/l306-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Asha toca la muestra gris junto al escaparate mientras Hugo observa; Irene compara un retal azul con la funda vacía del tambor pequeño de Lola.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-escaparate-que-se-podia-tocar-b-ca",
+        "code": "L306B",
+        "workId": "el-escaparate-que-se-podia-tocar-b",
+        "language": "ca",
+        "familyId": "familia-l306",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "everyday"
+        ],
+        "genre": "informative",
+        "title": "L’aparador que es podia tocar",
+        "summary": "El tacte, el volum i les necessitats d’una usuària es combinen en un mostrari que informa sense decidir per ella.",
+        "paragraphs": [
+          "Al taller de reparació de la plaça, l’aparador continua per dins. La Irene ha instal·lat al costat de la finestra un tauler baix amb tres mostres: loneta blava, feltre gris i roba verda recuperada d’un paraigua. Els trossos, fixats amb pinces, estan subjectats per la vora superior i tenen la resta solta. Els visitants els poden aixecar, passar la mà per la superfície i doblegar. Són retalls preparats per a aquell ús; els objectes de clients esperen el torn en un altre prestatge.",
+          "Una tarda, l’Asha i l’Hugo, dos infants del barri, van comparar les tres robes. L’Asha va trobar suau el feltre. L’Hugo va doblegar primer la loneta i després la roba del paraigua; aquella mostra verda feia un paquet més petit. Van canviar de lloc i van repetir els gestos. El blau semblava més gruixut fins i tot abans de tocar-lo, però plegar-lo els va permetre comparar el volum que ocupaven realment aquells retalls.",
+          "La Lola va entrar amb la funda del seu tambor petit. La cara exterior estava gastada de fregar amb les altres coses; el folre interior continuava sencer. Quan va tocar el feltre, es va imaginar una capa suau per dins. Portava la funda en una motxilla gairebé plena. Va demanar a la Irene de provar la mostra doblegada dins de la motxilla. La Irene va desenganxar la pinça. La Lola va posar la roba a dins i, quan la va veure allà, va decidir conservar aquell espai per a l’ampolla que sempre portava. Va tornar el feltre i la Irene el va tornar a subjectar al tauler.",
+          "La Irene va col·locar la loneta al costat de la funda per triar amb la Lola un retall que tapés la part gastada. La roba del paraigua feia menys bony, però la Lola no buscava únicament l’opció més fina: també volia que la zona reparada s’assemblés a l’exterior que conservava. Totes dues van triar la loneta blava. La mostra de feltre continuava sent suau per a la Lola; el que havia canviat era el seu interès a afegir-la a aquella funda.",
+          "La comparació es referia als trossos que havien tocat i a l’espai d’aquella motxilla. La Irene encara havia de tallar i cosir el pedaç. La Lola va treure el tambor i va deixar la funda buida sobre la taula de treball. L’Hugo va tornar a plegar les mostres blava i verda, aquesta vegada l’una al costat de l’altra. L’Asha va acostar una cadira perquè una altra visitant arribés al tauler i pogués aixecar per si mateixa el primer retall."
+        ],
+        "questions": [
+          {
+            "id": "l306b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què distingeix les mostres del mostrari dels objectes de l’altre prestatge?",
+            "answer": "Les mostres estan preparades per tocar; els altres objectes són de clients i esperen reparació.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Són retalls preparats per a aquell ús; els objectes de clients esperen el torn en un altre prestatge."
+              }
+            ]
+          },
+          {
+            "id": "l306b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Com se subjecten les mostres per permetre la comparació?",
+            "answer": "Per la vora superior, deixant la resta solta.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "subjectats per la vora superior i tenen la resta solta"
+              }
+            ]
+          },
+          {
+            "id": "l306b-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què significa «folre» a la descripció de la funda?",
+            "answer": "La roba que revesteix la funda per dins.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "el folre interior continuava sencer"
+              }
+            ]
+          },
+          {
+            "id": "l306b-q4",
+            "type": "literal",
+            "lines": 3,
+            "prompt": "Què afegeix plegar les robes a la primera impressió visual de l’Hugo?",
+            "answer": "Permet comparar directament el volum que ocupen els retalls, en lloc de quedar-se només amb l’aspecte de gruix.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "plegar-lo els va permetre comparar el volum que ocupaven realment aquells retalls"
+              }
+            ]
+          },
+          {
+            "id": "l306b-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què està gastat a la funda i a què s’atribueix?",
+            "answer": "La cara exterior, per fregar amb les altres coses de la Lola.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La cara exterior estava gastada de fregar amb les altres coses"
+              }
+            ]
+          },
+          {
+            "id": "l306b-q6",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què la Lola torna el feltre tot i que continua trobant-lo suau?",
+            "answer": "La suavitat li interessa, però prefereix l’espai de la motxilla per a l’ampolla i el folre ja està sencer.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "va decidir conservar aquell espai per a l’ampolla"
+              },
+              {
+                "paragraph": 4,
+                "text": "el que havia canviat era el seu interès a afegir-la a aquella funda"
+              }
+            ]
+          },
+          {
+            "id": "l306b-q7",
+            "type": "literal",
+            "lines": 3,
+            "prompt": "Per què la Lola no tria la roba que ocupa menys volum?",
+            "answer": "Perquè també valora que el pedaç s’assembli a l’exterior que conservarà.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "també volia que la zona reparada s’assemblés a l’exterior que conservava"
+              }
+            ]
+          },
+          {
+            "id": "l306b-q8",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Quina conclusió sobre el feltre se sosté després de la decisió de la Lola?",
+            "answer": "Li sembla suau, però no el vol afegir a aquella funda per l’espai que ocupa a la motxilla.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La mostra de feltre continuava sent suau per a la Lola; el que havia canviat era el seu interès a afegir-la a aquella funda."
+              }
+            ]
+          },
+          {
+            "id": "l306b-q9",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "Quina funció fa l’escena de la Lola en un text informatiu sobre el mostrari?",
+            "answer": "Mostra un ús concret en què diverses qualitats i necessitats intervenen en una tria.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "es va imaginar una capa suau per dins"
+              },
+              {
+                "paragraph": 4,
+                "text": "Totes dues van triar la loneta blava."
+              }
+            ]
+          },
+          {
+            "id": "l306b-q10",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Quina afirmació sobre la tria de la loneta aniria més enllà d’allò que han observat?",
+            "answer": "Afirmar que la loneta és sempre el millor material per a totes les fundes de tambor.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "La comparació es referia als trossos que havien tocat i a l’espai d’aquella motxilla."
+              }
+            ]
+          },
+          {
+            "id": "l306b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resumeix què permet fer el mostrari i quines tasques queden pendents al final.",
+            "answer": "Permet tocar, plegar i comparar retalls per decidir segons l’ús previst. La Lola conserva el folre i tria loneta per a l’exterior; la Irene encara ha de tallar i cosir el pedaç.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "aixecar, passar la mà per la superfície i doblegar"
+              },
+              {
+                "paragraph": 5,
+                "text": "La Irene encara havia de tallar i cosir el pedaç."
+              }
+            ]
+          },
+          {
+            "id": "l306b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Si preparessis un altre mostrari, quins materials hi inclouries i quina comparació proposaries? Justifica’n la utilitat per a una persona concreta.",
+            "answer": "Resposta personal amb materials, una comparació que es pugui fer i una necessitat entenedora; no requereix afirmar propietats tècniques."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "folre",
+            "occurrence": 1,
+            "questionId": "l306b-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l306-scene",
+            "src": "assets/readings/l306-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "L’Asha toca la mostra grisa al costat de l’aparador mentre l’Hugo observa; la Irene compara un retall blau amb la funda buida del tambor petit de la Lola.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 3
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L306A",
+        "language": "es",
+        "questions": {
+          "l306a-q1": {
+            "prompt": "¿Qué tres telas hay en la tabla?",
+            "options": [
+              "Loneta gris, fieltro verde y tela azul de paraguas.",
+              "Loneta verde, fieltro azul y tela gris de paraguas.",
+              "Loneta azul, fieltro gris y tela verde de paraguas.",
+              "Loneta azul, forro verde y tela gris de paraguas."
+            ],
+            "correct": "c",
+            "explanation": "Loneta azul, fieltro gris y tela verde de un paraguas."
+          },
+          "l306a-q2": {
+            "prompt": "¿Por qué borde están sujetos los trozos?",
+            "options": [
+              "Por el borde inferior.",
+              "Por los bordes laterales.",
+              "Por todos los bordes.",
+              "Por el borde superior."
+            ],
+            "correct": "d",
+            "explanation": "Por el borde superior."
+          },
+          "l306a-q3": {
+            "prompt": "¿Qué es el «forro» que Lola quiere conservar?",
+            "options": [
+              "La tela que recubre el interior.",
+              "El retal que tapará el exterior.",
+              "La tabla que sujeta las muestras.",
+              "El trozo que procede del paraguas."
+            ],
+            "correct": "a",
+            "explanation": "La tela que recubre la funda por dentro."
+          },
+          "l306a-q4": {
+            "prompt": "¿Qué observa Hugo al doblar dos muestras?",
+            "options": [
+              "El fieltro ocupa menos que la tela verde.",
+              "La tela verde abulta menos que la loneta.",
+              "La loneta se nota más suave que el fieltro.",
+              "El forro forma más bulto que la loneta."
+            ],
+            "correct": "b",
+            "explanation": "Que la tela del paraguas hace menos bulto que la loneta."
+          },
+          "l306a-q5": {
+            "prompt": "¿Para qué cambian de sitio los niños después de comentar las muestras?",
+            "options": [
+              "Para elegir quién se queda cada tela.",
+              "Para colocar la loneta junto a la funda.",
+              "Para comprobar ambos lo que han notado.",
+              "Para alcanzar la mochila donde está el fieltro."
+            ],
+            "correct": "c",
+            "explanation": "Para que ambos puedan notar directamente las diferencias."
+          },
+          "l306a-q6": {
+            "prompt": "¿Por qué Lola no añade el fieltro dentro de la funda?",
+            "options": [
+              "Porque prefiere que el interior sea azul.",
+              "Porque el forro necesita una reparación.",
+              "Porque el fieltro no se puede levantar.",
+              "Porque ocuparía demasiado en su mochila."
+            ],
+            "correct": "d",
+            "explanation": "Porque la muestra doblada ocupa más espacio del que quiere perder en la mochila."
+          },
+          "l306a-q7": {
+            "prompt": "¿Qué resumen explica la utilidad del mostrario?",
+            "options": [
+              "Permite comparar telas antes de decidir una reparación.",
+              "Permite reparar las muestras que traen los visitantes.",
+              "Permite cambiar todos los forros por tela de paraguas.",
+              "Permite probar el tambor antes de dejarlo en el taller."
+            ],
+            "correct": "a",
+            "explanation": "Permite tocar y doblar telas preparadas. Lola compara su volumen y elige con Irene un retal de loneta para el exterior, conservando el forro."
+          }
+        }
+      },
+      {
+        "code": "L306A",
+        "language": "ca",
+        "questions": {
+          "l306a-q1": {
+            "prompt": "Quines tres robes hi ha al tauler?",
+            "options": [
+              "Loneta grisa, feltre verd i roba blava de paraigua.",
+              "Loneta verda, feltre blau i roba grisa de paraigua.",
+              "Loneta blava, feltre gris i roba verda de paraigua.",
+              "Loneta blava, folre verd i roba grisa de paraigua."
+            ],
+            "correct": "c",
+            "explanation": "Loneta blava, feltre gris i roba verda d’un paraigua."
+          },
+          "l306a-q2": {
+            "prompt": "Per quina vora estan subjectats els trossos?",
+            "options": [
+              "Per la vora inferior.",
+              "Per les vores laterals.",
+              "Per totes les vores.",
+              "Per la vora superior."
+            ],
+            "correct": "d",
+            "explanation": "Per la vora superior."
+          },
+          "l306a-q3": {
+            "prompt": "Què és el «folre» que la Lola vol conservar?",
+            "options": [
+              "La roba que recobreix l’interior.",
+              "El retall que taparà l’exterior.",
+              "El tauler que subjecta les mostres.",
+              "El tros que prové del paraigua."
+            ],
+            "correct": "a",
+            "explanation": "La roba que recobreix la funda per dins."
+          },
+          "l306a-q4": {
+            "prompt": "Què observa l’Hugo quan doblega dues mostres?",
+            "options": [
+              "El feltre ocupa menys que la roba verda.",
+              "La roba verda fa menys bony que la loneta.",
+              "La loneta es nota més suau que el feltre.",
+              "El folre fa més bony que la loneta."
+            ],
+            "correct": "b",
+            "explanation": "Que la roba del paraigua fa menys bony que la loneta."
+          },
+          "l306a-q5": {
+            "prompt": "Per a què canvien de lloc els infants després de comentar les mostres?",
+            "options": [
+              "Per triar qui es queda cada roba.",
+              "Per col·locar la loneta al costat de la funda.",
+              "Per comprovar tots dos allò que han notat.",
+              "Per arribar a la motxilla on hi ha el feltre."
+            ],
+            "correct": "c",
+            "explanation": "Perquè tots dos puguin notar directament les diferències."
+          },
+          "l306a-q6": {
+            "prompt": "Per què la Lola no afegeix el feltre dins de la funda?",
+            "options": [
+              "Perquè prefereix que l’interior sigui blau.",
+              "Perquè el folre necessita una reparació.",
+              "Perquè el feltre no es pot aixecar.",
+              "Perquè ocuparia massa a la motxilla."
+            ],
+            "correct": "d",
+            "explanation": "Perquè la mostra doblegada ocupa més espai del que vol perdre a la motxilla."
+          },
+          "l306a-q7": {
+            "prompt": "Quin resum explica la utilitat del mostrari?",
+            "options": [
+              "Permet comparar robes abans de decidir una reparació.",
+              "Permet reparar les mostres que porten els visitants.",
+              "Permet canviar tots els folres per roba de paraigua.",
+              "Permet provar el tambor abans de deixar-lo al taller."
+            ],
+            "correct": "a",
+            "explanation": "Permet tocar i doblegar robes preparades. La Lola en compara el volum i tria amb la Irene un retall de loneta per a l’exterior, conservant el folre."
+          }
+        }
+      },
+      {
+        "code": "L306",
+        "language": "es",
+        "questions": {
+          "l306-q1": {
+            "prompt": "¿Dónde se encuentra la parte del escaparate que permite tocar muestras?",
+            "options": [
+              "Fuera, en una mesa de la plaza.",
+              "Dentro, junto a la ventana del taller.",
+              "Dentro, en la mochila que lleva Lola.",
+              "Fuera, detrás de los objetos de clientes."
+            ],
+            "correct": "b",
+            "explanation": "Dentro del taller, en una tabla baja junto a la ventana."
+          },
+          "l306-q2": {
+            "prompt": "¿Por qué resulta útil que los trozos estén sujetos solo por arriba?",
+            "options": [
+              "Así se confunden menos con las telas de clientes.",
+              "Así se conserva el forro que ya está entero.",
+              "Así pueden doblarse sin separarlos de la tabla.",
+              "Así caben dentro de cualquier funda de tambor."
+            ],
+            "correct": "c",
+            "explanation": "Así se pueden levantar y doblar para comparar cómo son."
+          },
+          "l306-q3": {
+            "prompt": "¿Qué significa «muestras» en el primer párrafo?",
+            "options": [
+              "Piezas de clientes que esperan a ser reparadas.",
+              "Dibujos de los tres colores de los materiales.",
+              "Capas que deben coserse dentro de la funda.",
+              "Trozos para conocer y comparar los materiales."
+            ],
+            "correct": "d",
+            "explanation": "Trozos preparados que permiten conocer y comparar esos materiales."
+          },
+          "l306-q4": {
+            "prompt": "¿Qué diferencias notan los niños además de los colores?",
+            "options": [
+              "La superficie y el volumen de las muestras.",
+              "La suavidad del forro y la medida del tambor.",
+              "El espacio de la mochila y el color del parche.",
+              "El desgaste de la funda y el espacio de la botella."
+            ],
+            "correct": "a",
+            "explanation": "Diferencias de superficie y de volumen al tocar y doblar las muestras."
+          },
+          "l306-q5": {
+            "prompt": "¿Qué parte de la funda necesita reparación y cuál está entera?",
+            "options": [
+              "El forro está gastado y el exterior entero.",
+              "El exterior está gastado y el forro entero.",
+              "El exterior y el forro están desgastados.",
+              "La mochila está gastada y la funda entera."
+            ],
+            "correct": "b",
+            "explanation": "El exterior está gastado y el forro está entero."
+          },
+          "l306-q6": {
+            "prompt": "¿Qué hace que Lola descarte añadir fieltro, aunque le haya interesado al tocarlo?",
+            "options": [
+              "La falta de una muestra azul del mismo material.",
+              "El desgaste del forro que cubre el tambor.",
+              "El espacio que quiere reservar para la botella.",
+              "La dificultad de alcanzar la tabla desde fuera."
+            ],
+            "correct": "c",
+            "explanation": "Comprueba cuánto espacio ocupa en una mochila casi llena y prefiere reservarlo para la botella."
+          },
+          "l306-q7": {
+            "prompt": "¿Qué diferencia hay entre la ayuda del mostrario y la reparación final?",
+            "options": [
+              "Las muestras se coserán dentro y después Irene renovará el exterior.",
+              "El mostrario mide el tambor y después Lola cose la loneta.",
+              "El mostrario permite probar la costura que Irene ya terminó.",
+              "El mostrario ayuda a elegir y después Irene hará la costura."
+            ],
+            "correct": "d",
+            "explanation": "El mostrario permite comparar y elegir; Irene todavía tiene que cortar y coser el parche."
+          },
+          "l306-q8": {
+            "prompt": "¿Qué aporta el caso de Lola a la explicación general del mostrario?",
+            "options": [
+              "Un ejemplo de uso del mostrario para una decisión.",
+              "Una explicación del origen de todos los materiales.",
+              "Una demostración de que el fieltro siempre sobra.",
+              "Una lista de reparaciones ya acabadas en el taller."
+            ],
+            "correct": "a",
+            "explanation": "Un ejemplo concreto de cómo comparar telas ayuda a tomar una decisión según una necesidad."
+          },
+          "l306-q9": {
+            "prompt": "¿Qué resumen sigue la decisión de Lola?",
+            "options": [
+              "Cambia el forro por fieltro y deja el exterior gastado.",
+              "Valora el volumen y escoge reparar solo el exterior.",
+              "Elige por el color y cambia también su mochila.",
+              "Prueba el tambor y lleva las tres muestras a casa."
+            ],
+            "correct": "b",
+            "explanation": "Piensa en añadir fieltro, pero comprueba el bulto en la mochila y conserva el forro. Luego compara la loneta con Irene y elige un retal para el exterior."
+          }
+        }
+      },
+      {
+        "code": "L306",
+        "language": "ca",
+        "questions": {
+          "l306-q1": {
+            "prompt": "On és la part de l’aparador que permet tocar mostres?",
+            "options": [
+              "Fora, en una taula de la plaça.",
+              "Dins, al costat de la finestra del taller.",
+              "Dins, a la motxilla que porta la Lola.",
+              "Fora, darrere dels objectes de clients."
+            ],
+            "correct": "b",
+            "explanation": "Dins del taller, en un tauler baix al costat de la finestra."
+          },
+          "l306-q2": {
+            "prompt": "Per què és útil que els trossos estiguin subjectats només per dalt?",
+            "options": [
+              "Així es confonen menys amb les robes de clients.",
+              "Així es conserva el folre que ja està sencer.",
+              "Així es poden doblegar sense separar-los del tauler.",
+              "Així caben dins de qualsevol funda de tambor."
+            ],
+            "correct": "c",
+            "explanation": "Així es poden aixecar i doblegar per comparar com són."
+          },
+          "l306-q3": {
+            "prompt": "Què significa «mostres» al primer paràgraf?",
+            "options": [
+              "Peces de clients que esperen que les reparin.",
+              "Dibuixos dels tres colors dels materials.",
+              "Capes que s’han de cosir dins de la funda.",
+              "Trossos per conèixer i comparar els materials."
+            ],
+            "correct": "d",
+            "explanation": "Trossos preparats que permeten conèixer i comparar aquells materials."
+          },
+          "l306-q4": {
+            "prompt": "Quines diferències noten els infants a més dels colors?",
+            "options": [
+              "La superfície i el volum de les mostres.",
+              "La suavitat del folre i la mida del tambor.",
+              "L’espai de la motxilla i el color del pedaç.",
+              "El desgast de la funda i l’espai de l’ampolla."
+            ],
+            "correct": "a",
+            "explanation": "Diferències de superfície i de volum quan toquen i dobleguen les mostres."
+          },
+          "l306-q5": {
+            "prompt": "Quina part de la funda necessita reparació i quina està sencera?",
+            "options": [
+              "El folre està gastat i l’exterior sencer.",
+              "L’exterior està gastat i el folre sencer.",
+              "L’exterior i el folre estan desgastats.",
+              "La motxilla està gastada i la funda sencera."
+            ],
+            "correct": "b",
+            "explanation": "L’exterior està gastat i el folre està sencer."
+          },
+          "l306-q6": {
+            "prompt": "Què fa que la Lola descarti afegir feltre, tot i que li hagi interessat quan l’ha tocat?",
+            "options": [
+              "La falta d’una mostra blava del mateix material.",
+              "El desgast del folre que cobreix el tambor.",
+              "L’espai que vol reservar per a l’ampolla.",
+              "La dificultat d’arribar al tauler des de fora."
+            ],
+            "correct": "c",
+            "explanation": "Comprova quant d’espai ocupa en una motxilla gairebé plena i prefereix reservar-lo per a l’ampolla."
+          },
+          "l306-q7": {
+            "prompt": "Quina diferència hi ha entre l’ajuda del mostrari i la reparació final?",
+            "options": [
+              "Les mostres es cosiran a dins i després la Irene renovarà l’exterior.",
+              "El mostrari mesura el tambor i després la Lola cus la loneta.",
+              "El mostrari permet provar la costura que la Irene ja ha acabat.",
+              "El mostrari ajuda a triar i després la Irene farà la costura."
+            ],
+            "correct": "d",
+            "explanation": "El mostrari permet comparar i triar; la Irene encara ha de tallar i cosir el pedaç."
+          },
+          "l306-q8": {
+            "prompt": "Què aporta el cas de la Lola a l’explicació general del mostrari?",
+            "options": [
+              "Un exemple d’ús del mostrari per a una decisió.",
+              "Una explicació de l’origen de tots els materials.",
+              "Una demostració que el feltre sempre sobra.",
+              "Una llista de reparacions ja acabades al taller."
+            ],
+            "correct": "a",
+            "explanation": "Un exemple concret de com comparar robes ajuda a prendre una decisió segons una necessitat."
+          },
+          "l306-q9": {
+            "prompt": "Quin resum segueix la decisió de la Lola?",
+            "options": [
+              "Canvia el folre per feltre i deixa l’exterior gastat.",
+              "Valora el volum i tria reparar només l’exterior.",
+              "Tria pel color i canvia també la motxilla.",
+              "Prova el tambor i porta les tres mostres a casa."
+            ],
+            "correct": "b",
+            "explanation": "Pensa a afegir feltre, però comprova el bony a la motxilla i conserva el folre. Després compara la loneta amb la Irene i tria un retall per a l’exterior."
+          }
+        }
+      },
+      {
+        "code": "L306B",
+        "language": "es",
+        "questions": {
+          "l306b-q1": {
+            "prompt": "¿Qué distingue las muestras del mostrario de los objetos del otro estante?",
+            "options": [
+              "Unos son de Irene y los otros pueden llevarse a casa.",
+              "Unos están reparados y los otros sirven de muestras.",
+              "Unos son para tocar y los otros esperan reparación.",
+              "Unos se comparan por color y los otros solo por volumen."
+            ],
+            "correct": "c",
+            "explanation": "Las muestras están preparadas para tocar; los otros objetos son de clientes y esperan reparación."
+          },
+          "l306b-q2": {
+            "prompt": "¿Cómo se sujetan las muestras para permitir la comparación?",
+            "options": [
+              "Se dejan sueltas dentro de la mochila.",
+              "Se cosen por todos los bordes a la tabla.",
+              "Se guardan plegadas en el estante de los clientes.",
+              "Se fijan por arriba y queda libre el resto."
+            ],
+            "correct": "d",
+            "explanation": "Por el borde superior, dejando el resto suelto."
+          },
+          "l306b-q3": {
+            "prompt": "¿Qué significa «forro» en la descripción de la funda?",
+            "options": [
+              "La tela que reviste la funda por dentro.",
+              "El retal elegido para cubrir el exterior.",
+              "La capa añadida después de tocar el fieltro.",
+              "La tela que queda en el estante de clientes."
+            ],
+            "correct": "a",
+            "explanation": "La tela que reviste la funda por dentro."
+          },
+          "l306b-q4": {
+            "prompt": "¿Qué añade plegar las telas a la primera impresión visual de Hugo?",
+            "options": [
+              "Permite medir cuánto durará la futura costura.",
+              "Permite comparar el volumen de los retales plegados.",
+              "Permite descubrir de quién era cada tela antes.",
+              "Permite escoger el color que prefiere la clienta."
+            ],
+            "correct": "b",
+            "explanation": "Permite comparar directamente el volumen que ocupan los retales, en vez de quedarse solo con el aspecto de grosor."
+          },
+          "l306b-q5": {
+            "prompt": "¿Qué está gastado en la funda y a qué se atribuye?",
+            "options": [
+              "El forro interior, por tocar repetidamente las muestras.",
+              "El borde superior, por sujetarlo a la tabla baja.",
+              "La cara exterior, por el roce con otras cosas.",
+              "La zona del parche, por coserla junto a la loneta."
+            ],
+            "correct": "c",
+            "explanation": "La cara exterior, por rozar con las otras cosas de Lola."
+          },
+          "l306b-q6": {
+            "prompt": "¿Por qué Lola devuelve el fieltro aunque siga encontrándolo suave?",
+            "options": [
+              "Porque el fieltro ya no parece suave al estar doblado.",
+              "Porque la muestra debe coserse en el exterior gastado.",
+              "Porque prefiere un interior azul que combine con la loneta.",
+              "Porque prioriza el espacio para la botella sobre otra capa."
+            ],
+            "correct": "d",
+            "explanation": "La suavidad le interesa, pero prefiere el espacio de la mochila para la botella y el forro ya está entero."
+          },
+          "l306b-q7": {
+            "prompt": "¿Por qué no elige Lola la tela que ocupa menos volumen?",
+            "options": [
+              "Porque busca también semejanza con el exterior conservado.",
+              "Porque decide que la botella puede quedarse fuera.",
+              "Porque cambia de idea y quiere renovar todo el forro.",
+              "Porque la muestra verde ocupa más que la azul al doblarla."
+            ],
+            "correct": "a",
+            "explanation": "Porque también valora que el parche se parezca al exterior que conservará."
+          },
+          "l306b-q8": {
+            "prompt": "¿Qué conclusión sobre el fieltro se sostiene después de la decisión de Lola?",
+            "options": [
+              "Todo el fieltro es demasiado grueso para cualquier funda.",
+              "La muestra le gusta al tacto, pero no para añadirla aquí.",
+              "La suavidad basta para decidir añadirla al forro.",
+              "La muestra debería usarse fuera junto a la loneta azul."
+            ],
+            "correct": "b",
+            "explanation": "Le parece suave, pero no quiere añadirlo a esa funda por el espacio que ocupa en su mochila."
+          },
+          "l306b-q9": {
+            "prompt": "¿Qué función cumple la escena de Lola en un texto informativo sobre el mostrario?",
+            "options": [
+              "Introduce una aventura anterior de los dos niños.",
+              "Presenta la fabricación completa de un tambor nuevo.",
+              "Concreta cómo se usa la comparación para una elección.",
+              "Sustituye la explicación del mostrario por una lista de telas."
+            ],
+            "correct": "c",
+            "explanation": "Muestra un uso concreto en el que varias cualidades y necesidades intervienen en una elección."
+          },
+          "l306b-q10": {
+            "prompt": "¿Qué afirmación sobre la elección de la loneta iría más allá de lo que han observado?",
+            "options": [
+              "La loneta elegida se ha comparado con esa funda.",
+              "Lola también valora el aspecto del parche exterior.",
+              "Esa muestra de loneta abulta más que la tela verde.",
+              "La loneta es la mejor opción para toda funda de tambor."
+            ],
+            "correct": "d",
+            "explanation": "Afirmar que la loneta es siempre el mejor material para todas las fundas de tambor."
+          },
+          "l306b-q11": {
+            "prompt": "¿Qué resumen distingue la elección del trabajo pendiente?",
+            "options": [
+              "Comparan para elegir el material; falta realizar la reparación.",
+              "Comparan la reparación ya cosida; falta recoger el tambor.",
+              "Eligen las tres telas para el forro; falta vaciar la mochila.",
+              "Reparan la tabla de muestras; falta elegir una tela azul."
+            ],
+            "correct": "a",
+            "explanation": "Permite tocar, plegar y comparar retales para decidir según el uso previsto. Lola conserva el forro y elige loneta para el exterior; Irene aún tiene que cortar y coser el parche."
+          }
+        }
+      },
+      {
+        "code": "L306B",
+        "language": "ca",
+        "questions": {
+          "l306b-q1": {
+            "prompt": "Què distingeix les mostres del mostrari dels objectes de l’altre prestatge?",
+            "options": [
+              "Uns són de la Irene i els altres es poden endur a casa.",
+              "Uns estan reparats i els altres serveixen de mostres.",
+              "Uns són per tocar i els altres esperen reparació.",
+              "Uns es comparen pel color i els altres només pel volum."
+            ],
+            "correct": "c",
+            "explanation": "Les mostres estan preparades per tocar; els altres objectes són de clients i esperen reparació."
+          },
+          "l306b-q2": {
+            "prompt": "Com se subjecten les mostres per permetre la comparació?",
+            "options": [
+              "Es deixen soltes dins de la motxilla.",
+              "Es cusen per totes les vores al tauler.",
+              "Es guarden plegades al prestatge dels clients.",
+              "Es fixen per dalt i queda lliure la resta."
+            ],
+            "correct": "d",
+            "explanation": "Per la vora superior, deixant la resta solta."
+          },
+          "l306b-q3": {
+            "prompt": "Què significa «folre» a la descripció de la funda?",
+            "options": [
+              "La roba que revesteix la funda per dins.",
+              "El retall triat per tapar l’exterior.",
+              "La capa afegida després de tocar el feltre.",
+              "La roba que queda al prestatge de clients."
+            ],
+            "correct": "a",
+            "explanation": "La roba que revesteix la funda per dins."
+          },
+          "l306b-q4": {
+            "prompt": "Què afegeix plegar les robes a la primera impressió visual de l’Hugo?",
+            "options": [
+              "Permet mesurar quant durarà la costura futura.",
+              "Permet comparar el volum dels retalls plegats.",
+              "Permet descobrir de qui era cada roba abans.",
+              "Permet triar el color que prefereix la clienta."
+            ],
+            "correct": "b",
+            "explanation": "Permet comparar directament el volum que ocupen els retalls, en lloc de quedar-se només amb l’aspecte de gruix."
+          },
+          "l306b-q5": {
+            "prompt": "Què està gastat a la funda i a què s’atribueix?",
+            "options": [
+              "El folre interior, per tocar repetidament les mostres.",
+              "La vora superior, per subjectar-lo al tauler baix.",
+              "La cara exterior, pel fregament amb altres coses.",
+              "La zona del pedaç, per cosir-la al costat de la loneta."
+            ],
+            "correct": "c",
+            "explanation": "La cara exterior, per fregar amb les altres coses de la Lola."
+          },
+          "l306b-q6": {
+            "prompt": "Per què la Lola torna el feltre tot i que continua trobant-lo suau?",
+            "options": [
+              "Perquè el feltre ja no sembla suau quan està doblegat.",
+              "Perquè la mostra s’ha de cosir a l’exterior gastat.",
+              "Perquè prefereix un interior blau que combini amb la loneta.",
+              "Perquè prioritza l’espai per a l’ampolla per sobre d’una altra capa."
+            ],
+            "correct": "d",
+            "explanation": "La suavitat li interessa, però prefereix l’espai de la motxilla per a l’ampolla i el folre ja està sencer."
+          },
+          "l306b-q7": {
+            "prompt": "Per què la Lola no tria la roba que ocupa menys volum?",
+            "options": [
+              "Perquè busca també semblança amb l’exterior conservat.",
+              "Perquè decideix que l’ampolla es pot quedar fora.",
+              "Perquè canvia d’idea i vol renovar tot el folre.",
+              "Perquè la mostra verda ocupa més que la blava en doblegar-la."
+            ],
+            "correct": "a",
+            "explanation": "Perquè també valora que el pedaç s’assembli a l’exterior que conservarà."
+          },
+          "l306b-q8": {
+            "prompt": "Quina conclusió sobre el feltre se sosté després de la decisió de la Lola?",
+            "options": [
+              "Tot el feltre és massa gruixut per a qualsevol funda.",
+              "La mostra li agrada al tacte, però no per afegir-la aquí.",
+              "La suavitat és suficient per decidir afegir-la al folre.",
+              "La mostra s’hauria de fer servir a fora amb la loneta blava."
+            ],
+            "correct": "b",
+            "explanation": "Li sembla suau, però no el vol afegir a aquella funda per l’espai que ocupa a la motxilla."
+          },
+          "l306b-q9": {
+            "prompt": "Quina funció fa l’escena de la Lola en un text informatiu sobre el mostrari?",
+            "options": [
+              "Introdueix una aventura anterior dels dos infants.",
+              "Presenta la fabricació completa d’un tambor nou.",
+              "Concreta com es fa servir la comparació per a una tria.",
+              "Substitueix l’explicació del mostrari per una llista de robes."
+            ],
+            "correct": "c",
+            "explanation": "Mostra un ús concret en què diverses qualitats i necessitats intervenen en una tria."
+          },
+          "l306b-q10": {
+            "prompt": "Quina afirmació sobre la tria de la loneta aniria més enllà d’allò que han observat?",
+            "options": [
+              "La loneta triada s’ha comparat amb aquella funda.",
+              "La Lola també valora l’aspecte del pedaç exterior.",
+              "Aquella mostra de loneta fa més bony que la roba verda.",
+              "La loneta és la millor opció per a tota funda de tambor."
+            ],
+            "correct": "d",
+            "explanation": "Afirmar que la loneta és sempre el millor material per a totes les fundes de tambor."
+          },
+          "l306b-q11": {
+            "prompt": "Quin resum distingeix la tria de la feina pendent?",
+            "options": [
+              "Comparen per triar el material; falta fer la reparació.",
+              "Comparen la reparació ja cosida; falta recollir el tambor.",
+              "Trien les tres robes per al folre; falta buidar la motxilla.",
+              "Reparen el tauler de mostres; falta triar una roba blava."
+            ],
+            "correct": "a",
+            "explanation": "Permet tocar, plegar i comparar retalls per decidir segons l’ús previst. La Lola conserva el folre i tria loneta per a l’exterior; la Irene encara ha de tallar i cosir el pedaç."
+          }
+        }
+      }
+    ]
   }
 ];

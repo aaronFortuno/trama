@@ -46,6 +46,8 @@ La redacció del pati continua amb el mateix procés a L280–L288: model d’au
 
 L’observatori del turó amplia el mateix sistema a L289–L297: model `data/observatory-expansion-model.js`, registre públic `data/observatory-expansion-published.js` i revisions `docs/question-choices/observatory-2026-11-26-review.json`. Cada família conté suport de 3r, referència de 4t i ampliació de 5è, en ES/CA. La ciència dels models i de les ombres es contrasta amb fonts primàries documentades a la guia de l’univers. Les tasques de creació de versos es mantenen obertes.
 
+El taller de la plaça continua amb L298–L306: model `data/workshop-expansion-model.js`, famílies completes a `data/workshop-expansion-published.js` i revisió exacta a `docs/question-choices/workshop-2026-11-26-review.json`. Cada família té suport de 4t, referència de 5è i ampliació de 6è en ES/CA, amb 8, 10 i 12 preguntes respectivament. Els tres graus comparteixen situació i il·lustracions, però tenen textos, alternatives, solucionaris i cites propis. Les opinions i la creació personal es mantenen obertes. El registre conserva autor i revisor diferents i empremtes separades per variant, idioma i pregunta.
+
 question-responses.js resol el format triat. Els maquetats incorporen questionMode i questionModes per a les excepcions individuals. Els enllaços de maquetat poden utilitzar PREG=ABCD i TIPUSRES=1:OBERTA; els codis curts continuen identificant lectura, llengua i omissions.
 
 docs/question-choices-review.json registra les quaranta versions exactes revisades, amb empremta del text, pregunta oberta, alternativa, explicació i evidències. Autor: root. Revisor independent: review_early_families. Les empremtes s’han de contrastar abans de publicar.
