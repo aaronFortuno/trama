@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.59.2 · 26 de novembre del 2026
+
+L270: La parada va canviar de centre. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 6 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.59.1 · 26 de novembre del 2026
 
 L269: La peça dins del vas. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 5 històries independents. Contingut provisional, pendent de validació docent.
