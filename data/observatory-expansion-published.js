@@ -12011,5 +12011,1516 @@ export const observatoryPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L297",
+    "edition": "v1.61.8",
+    "family": {
+      "id": "familia-l297",
+      "code": "L297",
+      "name": {
+        "es": "El pícnic de las sombras",
+        "ca": "El pícnic de les ombres"
+      },
+      "description": {
+        "ca": "Una història de L’observatori del turó, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de El observatorio de la colina, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L297A",
+        "L297",
+        "L297B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "el-picnic-de-las-sombras-a-es",
+        "code": "L297A",
+        "workId": "el-picnic-de-las-sombras-a",
+        "language": "es",
+        "familyId": "familia-l297",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "3-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "science",
+          "nature",
+          "everyday"
+        ],
+        "genre": "letter",
+        "title": "El pícnic de las sombras",
+        "summary": "Dani escribe a un amigo después de un pícnic junto al observatorio. Dos piedras guardan el recuerdo de una sombra.",
+        "paragraphs": [
+          "Hola, Leo:\nHoy Mira y yo hemos ido de día al observatorio de la colina. Joana, la guía, nos acompañó a la terraza. Cerca del banco había un poste corto de madera, fijo en el suelo. Su sombra terminaba junto a una piedrecita clara. La había puesto Mira antes de sacar los bocadillos.",
+          "Comimos y después miramos las fotos de la sala. Al volver a la terraza, la punta de la sombra ya no estaba junto a la piedra. El poste seguía en el mismo lugar. Joana puso una piedra oscura donde acababa ahora la sombra. Dejamos la primera señal tal como estaba.",
+          "Mira enseñó las dos piedras a Joana. Señalaban dónde había terminado la sombra en dos momentos distintos. Yo recogí el papel de mi bocadillo y le dibujé una sombra larga. Nos lo llevamos todo al marcharnos, menos las dos piedras.\nHasta pronto,\nDani"
+        ],
+        "questions": [
+          {
+            "id": "l297a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Quién escribe la carta y a quién?",
+            "answer": "Dani escribe a Leo.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Hola, Leo"
+              },
+              {
+                "paragraph": 3,
+                "text": "Hasta pronto,\nDani"
+              }
+            ]
+          },
+          {
+            "id": "l297a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué seguía en el mismo lugar cuando volvieron a la terraza?",
+            "answer": "El poste de madera.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El poste seguía en el mismo lugar."
+              }
+            ]
+          },
+          {
+            "id": "l297a-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué quiere decir la «señal» que dejaron?",
+            "answer": "La piedra que marcaba dónde acababa la primera sombra.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Dejamos la primera señal tal como estaba."
+              },
+              {
+                "paragraph": 1,
+                "text": "Su sombra terminaba junto a una piedrecita clara."
+              }
+            ]
+          },
+          {
+            "id": "l297a-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Para qué conservaron la piedra clara al poner la oscura?",
+            "answer": "Para poder ver dónde había acabado la sombra antes y compararlo con el punto nuevo.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Dejamos la primera señal tal como estaba."
+              },
+              {
+                "paragraph": 3,
+                "text": "Señalaban dónde había terminado la sombra en dos momentos distintos."
+              }
+            ]
+          },
+          {
+            "id": "l297a-q5",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "Explica qué descubrieron al volver a la terraza.",
+            "answer": "La sombra acababa en otro lugar aunque el poste no se había movido. Marcaron el nuevo punto con otra piedra.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "la punta de la sombra ya no estaba junto a la piedra. El poste seguía en el mismo lugar."
+              }
+            ]
+          },
+          {
+            "id": "l297a-q6",
+            "type": "opinion",
+            "lines": 2,
+            "prompt": "¿Qué contarías tú a Leo sobre esta visita? Elige un detalle y explica por qué.",
+            "answer": "Respuesta personal relacionada con un detalle del texto y con un motivo comprensible."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "señal",
+            "occurrence": 1,
+            "questionId": "l297a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l297-scene",
+            "src": "assets/readings/l297-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Dani, Mira y Joana observan la sombra de un poste fijo junto al observatorio; dos piedras marcan posiciones de su punta en momentos distintos.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El pequeño observatorio de piedra clara y cúpula gris en una colina con pinos, bajo un cielo lavanda.",
+            "afterParagraph": 2
+          }
+        ]
+      },
+      {
+        "id": "el-picnic-de-las-sombras-a-ca",
+        "code": "L297A",
+        "workId": "el-picnic-de-las-sombras-a",
+        "language": "ca",
+        "familyId": "familia-l297",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "3-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "science",
+          "nature",
+          "everyday"
+        ],
+        "genre": "letter",
+        "title": "El pícnic de les ombres",
+        "summary": "En Dani escriu a un amic després d’un pícnic al costat de l’observatori. Dues pedres guarden el record d’una ombra.",
+        "paragraphs": [
+          "Hola, Leo:\nAvui la Mira i jo hem anat de dia a l’observatori del turó. La Joana, la guia, ens ha acompanyat a la terrassa. Prop del banc hi havia un pal curt de fusta, fix a terra. La seva ombra acabava al costat d’una pedreta clara. L’havia posada la Mira abans de treure els entrepans.",
+          "Vam menjar i després vam mirar les fotos de la sala. En tornar a la terrassa, l’extrem de l’ombra ja no era al costat de la pedra. El pal continuava al mateix lloc. La Joana va posar una pedra fosca on acabava ara l’ombra. Vam deixar el primer senyal tal com era.",
+          "La Mira va ensenyar les dues pedres a la Joana. Indicaven on havia acabat l’ombra en dos moments diferents. Jo vaig recollir el paper del meu entrepà i hi vaig dibuixar una ombra llarga. Ens ho vam endur tot quan vam marxar, menys les dues pedres.\nFins aviat,\nDani"
+        ],
+        "questions": [
+          {
+            "id": "l297a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Qui escriu la carta i a qui?",
+            "answer": "En Dani escriu a en Leo.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Hola, Leo"
+              },
+              {
+                "paragraph": 3,
+                "text": "Fins aviat,\nDani"
+              }
+            ]
+          },
+          {
+            "id": "l297a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què continuava al mateix lloc quan van tornar a la terrassa?",
+            "answer": "El pal de fusta.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El pal continuava al mateix lloc."
+              }
+            ]
+          },
+          {
+            "id": "l297a-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir el «senyal» que van deixar?",
+            "answer": "La pedra que marcava on acabava la primera ombra.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Vam deixar el primer senyal tal com era."
+              },
+              {
+                "paragraph": 1,
+                "text": "La seva ombra acabava al costat d’una pedreta clara."
+              }
+            ]
+          },
+          {
+            "id": "l297a-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per a què van conservar la pedra clara en posar la fosca?",
+            "answer": "Per poder veure on havia acabat l’ombra abans i comparar-ho amb el punt nou.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Vam deixar el primer senyal tal com era."
+              },
+              {
+                "paragraph": 3,
+                "text": "Indicaven on havia acabat l’ombra en dos moments diferents."
+              }
+            ]
+          },
+          {
+            "id": "l297a-q5",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "Explica què van descobrir en tornar a la terrassa.",
+            "answer": "L’ombra acabava en un altre lloc tot i que el pal no s’havia mogut. Van marcar el punt nou amb una altra pedra.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "l’extrem de l’ombra ja no era al costat de la pedra. El pal continuava al mateix lloc."
+              }
+            ]
+          },
+          {
+            "id": "l297a-q6",
+            "type": "opinion",
+            "lines": 2,
+            "prompt": "Què explicaries tu a en Leo d’aquesta visita? Tria un detall i explica per què.",
+            "answer": "Resposta personal relacionada amb un detall del text i amb un motiu entenedor."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "senyal",
+            "occurrence": 1,
+            "questionId": "l297a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l297-scene",
+            "src": "assets/readings/l297-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Dani, la Mira i la Joana observen l’ombra d’un pal fix al costat de l’observatori; dues pedres marquen posicions de l’extrem en moments diferents.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El petit observatori de pedra clara i cúpula grisa en un turó amb pins, sota un cel lavanda.",
+            "afterParagraph": 2
+          }
+        ]
+      },
+      {
+        "id": "el-picnic-de-las-sombras-es",
+        "code": "L297",
+        "workId": "el-picnic-de-las-sombras",
+        "language": "es",
+        "familyId": "familia-l297",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "science",
+          "nature",
+          "everyday"
+        ],
+        "genre": "letter",
+        "title": "El pícnic de las sombras",
+        "summary": "Una carta cuenta cómo un pícnic se convirtió en una pequeña observación de la sombra de un poste.",
+        "paragraphs": [
+          "Hola, Leo:\nTe escribo después de visitar de día el observatorio de la colina con Mira. Joana, la guía adulta, nos acompañó a la terraza. Había un poste corto de madera fijado al suelo cerca del banco. Mira dejó una piedra clara en la punta de su sombra antes de que sacáramos los bocadillos. Luego nos sentamos y abrimos las mochilas.",
+          "Tras comer entramos a mirar las fotos de la sala. Cuando volvimos a la terraza, la sombra ya no llegaba a la piedra. «¿La habrá movido alguien?», preguntó Mira. Joana señaló el poste: seguía sujeto a la misma base. La piedra clara también estaba donde la habíamos dejado. Lo que había cambiado era el lugar donde terminaba la sombra.",
+          "Joana puso una piedra oscura en la nueva punta, sin retirar la clara. Nos explicó que, según cambia la posición del Sol en el cielo durante el día, también puede cambiar la sombra de un objeto fijo. Nosotros mirábamos la sombra del suelo. Las dos piedras guardaban los dos momentos de aquella visita.",
+          "Mira preguntó dónde acabaría mañana. Joana propuso volver a marcarla cuando regresáramos: habría que mirar de nuevo. Dibujé en mi cuaderno el poste y los dos puntos, y escribí cuál habíamos colocado antes de comer. La piedra clara me ayudó a recordar el orden sin mover ninguna.",
+          "Al recoger, doblé el papel del bocadillo y le dibujé una sombra larguísima. Mira dijo que el mío parecía un bocadillo con cola. Lo guardé dentro de la mochila, junto al cuaderno.\nHasta pronto,\nDani"
+        ],
+        "questions": [
+          {
+            "id": "l297-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué marcó Mira antes de sacar los bocadillos?",
+            "answer": "La punta de la sombra del poste, con una piedra clara.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Mira dejó una piedra clara en la punta de su sombra"
+              }
+            ]
+          },
+          {
+            "id": "l297-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué hicieron entre la primera marca y el regreso a la terraza?",
+            "answer": "Comieron los bocadillos y miraron las fotos de la sala.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Tras comer entramos a mirar las fotos de la sala."
+              }
+            ]
+          },
+          {
+            "id": "l297-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué importaba comprobar que el poste y la piedra clara seguían en su sitio?",
+            "answer": "Para poder atribuir la diferencia a la sombra y no a que alguien hubiera cambiado las referencias.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "seguía sujeto a la misma base. La piedra clara también estaba donde la habíamos dejado."
+              }
+            ]
+          },
+          {
+            "id": "l297-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué es la «punta» de la sombra en esta lectura?",
+            "answer": "El lugar del suelo donde termina la sombra del poste.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "en la nueva punta"
+              }
+            ]
+          },
+          {
+            "id": "l297-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué conservan las dos piedras que no conservaría solo la oscura?",
+            "answer": "Permiten comparar el lugar de la punta antes de comer y después, sin perder la primera posición.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Las dos piedras guardaban los dos momentos de aquella visita."
+              }
+            ]
+          },
+          {
+            "id": "l297-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué detalle permite saber quién cuenta la visita en esta carta?",
+            "answer": "Está escrita en primera persona y termina firmada por Dani.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Te escribo"
+              },
+              {
+                "paragraph": 5,
+                "text": "Hasta pronto,\nDani"
+              }
+            ]
+          },
+          {
+            "id": "l297-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume lo que observaron y cómo dejaron constancia de ello.",
+            "answer": "La sombra de un poste fijo terminó en otro lugar al volver del pícnic y la sala. Mantuvieron la piedra clara y añadieron una oscura para comparar los dos momentos; Dani lo dibujó.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Lo que había cambiado era el lugar donde terminaba la sombra."
+              },
+              {
+                "paragraph": 3,
+                "text": "Joana puso una piedra oscura en la nueva punta, sin retirar la clara."
+              }
+            ]
+          },
+          {
+            "id": "l297-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Si volvieras con ellos, ¿qué te gustaría observar del mismo poste? Explica cómo lo recordarías.",
+            "answer": "Respuesta personal coherente: puede proponer otra observación y una marca, dibujo o nota que permita recordarla."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "punta",
+            "occurrence": 1,
+            "questionId": "l297-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l297-scene",
+            "src": "assets/readings/l297-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Dani, Mira y Joana observan la sombra de un poste fijo junto al observatorio; dos piedras marcan posiciones de su punta en momentos distintos.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El pequeño observatorio de piedra clara y cúpula gris en una colina con pinos, bajo un cielo lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-picnic-de-las-sombras-ca",
+        "code": "L297",
+        "workId": "el-picnic-de-las-sombras",
+        "language": "ca",
+        "familyId": "familia-l297",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "science",
+          "nature",
+          "everyday"
+        ],
+        "genre": "letter",
+        "title": "El pícnic de les ombres",
+        "summary": "Una carta explica com un pícnic es va convertir en una petita observació de l’ombra d’un pal.",
+        "paragraphs": [
+          "Hola, Leo:\nT’escric després de visitar de dia l’observatori del turó amb la Mira. La Joana, la guia adulta, ens va acompanyar a la terrassa. Hi havia un pal curt de fusta fixat a terra prop del banc. La Mira va deixar una pedra clara a l’extrem de la seva ombra abans que traguéssim els entrepans. Després vam seure i vam obrir les motxilles.",
+          "Després de menjar vam entrar a mirar les fotos de la sala. Quan vam tornar a la terrassa, l’ombra ja no arribava a la pedra. «La deu haver moguda algú?», va preguntar la Mira. La Joana va assenyalar el pal: continuava subjectat a la mateixa base. La pedra clara també era on l’havíem deixada. El que havia canviat era el lloc on acabava l’ombra.",
+          "La Joana va posar una pedra fosca al nou extrem, sense retirar la clara. Ens va explicar que, segons canvia la posició del Sol al cel durant el dia, també pot canviar l’ombra d’un objecte fix. Nosaltres miràvem l’ombra de terra. Les dues pedres guardaven els dos moments d’aquella visita.",
+          "La Mira va preguntar on acabaria demà. La Joana va proposar tornar-la a marcar quan hi tornéssim: caldria mirar una altra vegada. Vaig dibuixar al quadern el pal i els dos punts, i vaig escriure quin havíem posat abans de menjar. La pedra clara em va ajudar a recordar l’ordre sense moure’n cap.",
+          "En recollir, vaig doblegar el paper de l’entrepà i hi vaig dibuixar una ombra llarguíssima. La Mira va dir que el meu semblava un entrepà amb cua. El vaig desar dins de la motxilla, al costat del quadern.\nFins aviat,\nDani"
+        ],
+        "questions": [
+          {
+            "id": "l297-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què va marcar la Mira abans de treure els entrepans?",
+            "answer": "L’extrem de l’ombra del pal, amb una pedra clara.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "La Mira va deixar una pedra clara a l’extrem de la seva ombra"
+              }
+            ]
+          },
+          {
+            "id": "l297-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què van fer entre la primera marca i el retorn a la terrassa?",
+            "answer": "Van menjar els entrepans i van mirar les fotos de la sala.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Després de menjar vam entrar a mirar les fotos de la sala."
+              }
+            ]
+          },
+          {
+            "id": "l297-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què era important comprovar que el pal i la pedra clara continuaven al seu lloc?",
+            "answer": "Per poder atribuir la diferència a l’ombra i no al fet que algú hagués canviat les referències.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "continuava subjectat a la mateixa base. La pedra clara també era on l’havíem deixada."
+              }
+            ]
+          },
+          {
+            "id": "l297-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què és l’«extrem» de l’ombra en aquesta lectura?",
+            "answer": "El lloc de terra on s’acaba l’ombra del pal.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "al nou extrem"
+              }
+            ]
+          },
+          {
+            "id": "l297-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què conserven les dues pedres que no conservaria només la fosca?",
+            "answer": "Permeten comparar el lloc de l’extrem abans de menjar i després, sense perdre la primera posició.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Les dues pedres guardaven els dos moments d’aquella visita."
+              }
+            ]
+          },
+          {
+            "id": "l297-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quin detall permet saber qui explica la visita en aquesta carta?",
+            "answer": "Està escrita en primera persona i s’acaba signada per en Dani.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "T’escric"
+              },
+              {
+                "paragraph": 5,
+                "text": "Fins aviat,\nDani"
+              }
+            ]
+          },
+          {
+            "id": "l297-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix el que van observar i com en van deixar constància.",
+            "answer": "L’ombra d’un pal fix va acabar en un altre lloc en tornar del pícnic i de la sala. Van conservar la pedra clara i en van afegir una de fosca per comparar els dos moments; en Dani ho va dibuixar.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El que havia canviat era el lloc on acabava l’ombra."
+              },
+              {
+                "paragraph": 3,
+                "text": "La Joana va posar una pedra fosca al nou extrem, sense retirar la clara."
+              }
+            ]
+          },
+          {
+            "id": "l297-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Si hi tornessis amb ells, què t’agradaria observar del mateix pal? Explica com ho recordaries.",
+            "answer": "Resposta personal coherent: pot proposar una altra observació i una marca, dibuix o nota que permeti recordar-la."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "extrem",
+            "occurrence": 1,
+            "questionId": "l297-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l297-scene",
+            "src": "assets/readings/l297-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Dani, la Mira i la Joana observen l’ombra d’un pal fix al costat de l’observatori; dues pedres marquen posicions de l’extrem en moments diferents.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El petit observatori de pedra clara i cúpula grisa en un turó amb pins, sota un cel lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-picnic-de-las-sombras-b-es",
+        "code": "L297B",
+        "workId": "el-picnic-de-las-sombras-b",
+        "language": "es",
+        "familyId": "familia-l297",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "science",
+          "nature",
+          "everyday"
+        ],
+        "genre": "letter",
+        "title": "El pícnic de las sombras",
+        "summary": "Dani relata dos posiciones de una sombra durante una visita y una pregunta que quedará para otro día.",
+        "paragraphs": [
+          "Hola, Leo:\nHoy he visitado de día el observatorio de la colina con Mira. Joana, la guía adulta, nos ha acompañado a la terraza antes de entrar en la sala. Cerca del banco había un poste corto de madera fijado al suelo. Mira puso una piedra clara justo donde terminaba su sombra. Después sacamos los bocadillos, y yo dejé el cuaderno sobre las rodillas para que no se llenara de migas.",
+          "Al acabar de comer fuimos a mirar las fotos del interior. Cuando volvimos, la sombra ya no llegaba a la piedra. Mira pensó que alguien podía haber cambiado la marca. Joana nos hizo mirar la base: el poste seguía sujeto al mismo lugar. La piedra clara continuaba junto a una grieta pequeña que habíamos visto antes. No habían cambiado ninguna de aquellas referencias.",
+          "Joana iba a marcar la nueva punta, pero pasó una nube y el borde de la sombra se volvió difícil de distinguir. Esperamos a que regresara la claridad. Entonces colocó una piedra oscura en el punto donde acababa la sombra, sin retirar la clara. Yo dibujé el poste y las dos marcas, y anoté cuál habíamos puesto antes de comer. La grieta también apareció en mi dibujo.",
+          "La guía explicó que la posición aparente del Sol cambia a lo largo del día. Por eso la sombra de un objeto fijo puede cambiar de dirección y de longitud. Nosotros habíamos conservado el mismo poste y las marcas del suelo para seguir lo que le pasaba a aquella sombra. Mira se inclinó sobre las dos piedras y pidió que no las recogiéramos todavía.",
+          "«¿Mañana terminará en uno de estos dos puntos?», preguntó. Joana propuso volver a observarla en otra visita y añadir entonces nuevas marcas. Con las de hoy podíamos comparar nuestros dos momentos; la pregunta de mañana seguía abierta. Mira me pidió que escribiera también esa pregunta al lado del dibujo, para no olvidarla.",
+          "Al recoger doblé el papel del bocadillo y le dibujé una sombra enorme. Mira dijo que parecía un bocadillo con cola. Lo guardé en la mochila junto al cuaderno. Si vienes la próxima vez, podrás buscar la grieta pequeña antes de que saquemos la comida.\nHasta pronto,\nDani"
+        ],
+        "questions": [
+          {
+            "id": "l297b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿En qué momentos pusieron la piedra clara y la oscura?",
+            "answer": "La clara antes de comer; la oscura después de comer y de visitar la sala, cuando volvió la claridad tras la nube.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Mira puso una piedra clara justo donde terminaba su sombra. Después sacamos los bocadillos"
+              },
+              {
+                "paragraph": 3,
+                "text": "Esperamos a que regresara la claridad. Entonces colocó una piedra oscura"
+              }
+            ]
+          },
+          {
+            "id": "l297b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué aportó comprobar la base del poste y la grieta junto a la piedra?",
+            "answer": "Permitió comprobar que las referencias continuaban en su lugar y que no habían explicado la diferencia moviendo el poste o la piedra.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "el poste seguía sujeto al mismo lugar. La piedra clara continuaba junto a una grieta pequeña"
+              }
+            ]
+          },
+          {
+            "id": "l297b-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Por qué esperaron antes de poner la piedra oscura?",
+            "answer": "Una nube dificultaba distinguir el borde de la sombra y esperaron a que volviera la claridad.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "pasó una nube y el borde de la sombra se volvió difícil de distinguir"
+              }
+            ]
+          },
+          {
+            "id": "l297b-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «referencias» en el segundo párrafo?",
+            "answer": "Los elementos estables que ayudan a reconocer y comparar posiciones: la base, la piedra y la grieta.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "No habían cambiado ninguna de aquellas referencias."
+              }
+            ]
+          },
+          {
+            "id": "l297b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué el dibujo de Dani incluye la grieta, además del poste y las marcas?",
+            "answer": "La grieta ayuda a situar la primera piedra y reconocer el lugar que compararon.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La piedra clara continuaba junto a una grieta pequeña que habíamos visto antes."
+              },
+              {
+                "paragraph": 3,
+                "text": "La grieta también apareció en mi dibujo."
+              }
+            ]
+          },
+          {
+            "id": "l297b-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué añade la pregunta de Mira sobre el día siguiente?",
+            "answer": "Abre algo que aún quieren observar, distinto de la comparación que ya han hecho durante esa visita.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "la pregunta de mañana seguía abierta"
+              }
+            ]
+          },
+          {
+            "id": "l297b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué pueden afirmar sobre las dos posiciones que marcaron?",
+            "answer": "Son dos posiciones de la punta de la sombra durante esa visita, con el mismo poste fijo.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "habíamos conservado el mismo poste y las marcas del suelo"
+              },
+              {
+                "paragraph": 5,
+                "text": "Con las de hoy podíamos comparar nuestros dos momentos"
+              }
+            ]
+          },
+          {
+            "id": "l297b-q8",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume cómo comprobaron y conservaron el cambio de la sombra.",
+            "answer": "Comprobaron que el poste y la primera marca seguían fijos. Al distinguir bien la sombra pusieron otra piedra, conservaron ambas y las dibujaron para comparar dos momentos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "No habían cambiado ninguna de aquellas referencias."
+              },
+              {
+                "paragraph": 3,
+                "text": "colocó una piedra oscura en el punto donde acababa la sombra, sin retirar la clara"
+              }
+            ]
+          },
+          {
+            "id": "l297b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Dani termina invitando a Leo a buscar la grieta?",
+            "answer": "Le propone reconocer un detalle del lugar y participar en una próxima visita relacionada con lo que ha contado.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Si vienes la próxima vez, podrás buscar la grieta pequeña"
+              }
+            ]
+          },
+          {
+            "id": "l297b-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué añadirías a la carta o al dibujo para recordar mejor otra visita? Justifica tu propuesta.",
+            "answer": "Respuesta personal: puede proponer fecha, momentos de observación, colores, otro dibujo o una pregunta, explicando para qué ayudaría."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "referencias",
+            "occurrence": 1,
+            "questionId": "l297b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l297-scene",
+            "src": "assets/readings/l297-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Dani, Mira y Joana observan la sombra de un poste fijo junto al observatorio; dos piedras marcan posiciones de su punta en momentos distintos.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El pequeño observatorio de piedra clara y cúpula gris en una colina con pinos, bajo un cielo lavanda.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "el-picnic-de-las-sombras-b-ca",
+        "code": "L297B",
+        "workId": "el-picnic-de-las-sombras-b",
+        "language": "ca",
+        "familyId": "familia-l297",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "science",
+          "nature",
+          "everyday"
+        ],
+        "genre": "letter",
+        "title": "El pícnic de les ombres",
+        "summary": "En Dani relata dues posicions d’una ombra durant una visita i una pregunta que quedarà per a un altre dia.",
+        "paragraphs": [
+          "Hola, Leo:\nAvui he visitat de dia l’observatori del turó amb la Mira. La Joana, la guia adulta, ens ha acompanyat a la terrassa abans d’entrar a la sala. Prop del banc hi havia un pal curt de fusta fixat a terra. La Mira va posar una pedra clara just on acabava la seva ombra. Després vam treure els entrepans, i jo vaig deixar el quadern sobre els genolls perquè no s’omplís d’engrunes.",
+          "En acabar de menjar vam anar a mirar les fotos de l’interior. Quan vam tornar, l’ombra ja no arribava a la pedra. La Mira va pensar que algú podia haver canviat la marca. La Joana ens va fer mirar la base: el pal continuava subjectat al mateix lloc. La pedra clara continuava al costat d’una esquerda petita que havíem vist abans. No havien canviat cap d’aquelles referències.",
+          "La Joana anava a marcar el nou extrem, però va passar un núvol i la vora de l’ombra es va fer difícil de distingir. Vam esperar que tornés la claror. Llavors va posar una pedra fosca al punt on acabava l’ombra, sense retirar la clara. Jo vaig dibuixar el pal i les dues marques, i vaig anotar quina havíem posat abans de menjar. L’esquerda també va aparèixer al meu dibuix.",
+          "La guia va explicar que la posició aparent del Sol canvia al llarg del dia. Per això l’ombra d’un objecte fix pot canviar de direcció i de llargada. Nosaltres havíem conservat el mateix pal i les marques de terra per seguir el que li passava a aquella ombra. La Mira es va inclinar damunt de les dues pedres i va demanar que encara no les recollíssim.",
+          "«Demà s’acabarà en un d’aquests dos punts?», va preguntar. La Joana va proposar tornar-la a observar en una altra visita i afegir-hi llavors marques noves. Amb les d’avui podíem comparar els nostres dos moments; la pregunta de demà continuava oberta. La Mira em va demanar que també escrivís aquella pregunta al costat del dibuix, per no oblidar-la.",
+          "En recollir vaig doblegar el paper de l’entrepà i hi vaig dibuixar una ombra enorme. La Mira va dir que semblava un entrepà amb cua. El vaig desar a la motxilla al costat del quadern. Si vens la pròxima vegada, podràs buscar l’esquerda petita abans que traguem el menjar.\nFins aviat,\nDani"
+        ],
+        "questions": [
+          {
+            "id": "l297b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "En quins moments van posar la pedra clara i la fosca?",
+            "answer": "La clara abans de menjar; la fosca després de menjar i de visitar la sala, quan va tornar la claror després del núvol.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "La Mira va posar una pedra clara just on acabava la seva ombra. Després vam treure els entrepans"
+              },
+              {
+                "paragraph": 3,
+                "text": "Vam esperar que tornés la claror. Llavors va posar una pedra fosca"
+              }
+            ]
+          },
+          {
+            "id": "l297b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què va aportar comprovar la base del pal i l’esquerda al costat de la pedra?",
+            "answer": "Va permetre comprovar que les referències continuaven al seu lloc i que no havien explicat la diferència movent el pal o la pedra.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "el pal continuava subjectat al mateix lloc. La pedra clara continuava al costat d’una esquerda petita"
+              }
+            ]
+          },
+          {
+            "id": "l297b-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Per què van esperar abans de posar la pedra fosca?",
+            "answer": "Un núvol dificultava distingir la vora de l’ombra i van esperar que tornés la claror.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "va passar un núvol i la vora de l’ombra es va fer difícil de distingir"
+              }
+            ]
+          },
+          {
+            "id": "l297b-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «referències» al segon paràgraf?",
+            "answer": "Els elements estables que ajuden a reconèixer i comparar posicions: la base, la pedra i l’esquerda.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "No havien canviat cap d’aquelles referències."
+              }
+            ]
+          },
+          {
+            "id": "l297b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què el dibuix d’en Dani inclou l’esquerda, a més del pal i les marques?",
+            "answer": "L’esquerda ajuda a situar la primera pedra i reconèixer el lloc que van comparar.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La pedra clara continuava al costat d’una esquerda petita que havíem vist abans."
+              },
+              {
+                "paragraph": 3,
+                "text": "L’esquerda també va aparèixer al meu dibuix."
+              }
+            ]
+          },
+          {
+            "id": "l297b-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Què afegeix la pregunta de la Mira sobre l’endemà?",
+            "answer": "Obre una cosa que encara volen observar, diferent de la comparació que ja han fet durant aquella visita.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "la pregunta de demà continuava oberta"
+              }
+            ]
+          },
+          {
+            "id": "l297b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què poden afirmar sobre les dues posicions que van marcar?",
+            "answer": "Són dues posicions de l’extrem de l’ombra durant aquella visita, amb el mateix pal fix.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "havíem conservat el mateix pal i les marques de terra"
+              },
+              {
+                "paragraph": 5,
+                "text": "Amb les d’avui podíem comparar els nostres dos moments"
+              }
+            ]
+          },
+          {
+            "id": "l297b-q8",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix com van comprovar i conservar el canvi de l’ombra.",
+            "answer": "Van comprovar que el pal i la primera marca continuaven fixos. En distingir bé l’ombra van posar una altra pedra, les van conservar totes dues i les van dibuixar per comparar dos moments.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "No havien canviat cap d’aquelles referències."
+              },
+              {
+                "paragraph": 3,
+                "text": "va posar una pedra fosca al punt on acabava l’ombra, sense retirar la clara"
+              }
+            ]
+          },
+          {
+            "id": "l297b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què en Dani acaba convidant en Leo a buscar l’esquerda?",
+            "answer": "Li proposa reconèixer un detall del lloc i participar en una pròxima visita relacionada amb el que ha explicat.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Si vens la pròxima vegada, podràs buscar l’esquerda petita"
+              }
+            ]
+          },
+          {
+            "id": "l297b-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Què afegiries a la carta o al dibuix per recordar millor una altra visita? Justifica la proposta.",
+            "answer": "Resposta personal: pot proposar data, moments d’observació, colors, un altre dibuix o una pregunta, explicant per a què ajudaria."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "referències",
+            "occurrence": 1,
+            "questionId": "l297b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l297-scene",
+            "src": "assets/readings/l297-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Dani, la Mira i la Joana observen l’ombra d’un pal fix al costat de l’observatori; dues pedres marquen posicions de l’extrem en moments diferents.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El petit observatori de pedra clara i cúpula grisa en un turó amb pins, sota un cel lavanda.",
+            "afterParagraph": 4
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L297A",
+        "language": "es",
+        "questions": {
+          "l297a-q1": {
+            "prompt": "¿Quién escribe la carta y a quién?",
+            "options": [
+              "Mira escribe a Joana.",
+              "Leo escribe a Dani.",
+              "Joana escribe a Mira.",
+              "Dani escribe a Leo."
+            ],
+            "correct": "d",
+            "explanation": "Dani escribe a Leo."
+          },
+          "l297a-q2": {
+            "prompt": "¿Qué seguía en el mismo lugar cuando volvieron a la terraza?",
+            "options": [
+              "El poste de madera.",
+              "La punta de la sombra.",
+              "El papel del bocadillo.",
+              "Las fotos de la terraza."
+            ],
+            "correct": "a",
+            "explanation": "El poste de madera."
+          },
+          "l297a-q3": {
+            "prompt": "¿Qué quiere decir la «señal» que dejaron?",
+            "options": [
+              "La fotografía que vieron en la sala.",
+              "La marca hecha con la piedra.",
+              "La firma al final de la carta.",
+              "La sombra dibujada en el papel."
+            ],
+            "correct": "b",
+            "explanation": "La piedra que marcaba dónde acababa la primera sombra."
+          },
+          "l297a-q4": {
+            "prompt": "¿Para qué conservaron la piedra clara al poner la oscura?",
+            "options": [
+              "Para indicar dónde dejarían los bocadillos.",
+              "Para recordar la entrada de la sala de fotos.",
+              "Para comparar los dos lugares donde terminaba la sombra.",
+              "Para guardar el sitio del poste después de moverlo."
+            ],
+            "correct": "c",
+            "explanation": "Para poder ver dónde había acabado la sombra antes y compararlo con el punto nuevo."
+          },
+          "l297a-q5": {
+            "prompt": "¿Qué resumen cuenta el descubrimiento?",
+            "options": [
+              "Habían movido el poste para hacer sitio al pícnic.",
+              "La sombra seguía terminando junto a la piedra clara.",
+              "Las dos piedras estaban puestas antes de comer.",
+              "La sombra había cambiado de lugar y marcaron la nueva punta."
+            ],
+            "correct": "d",
+            "explanation": "La sombra acababa en otro lugar aunque el poste no se había movido. Marcaron el nuevo punto con otra piedra."
+          }
+        }
+      },
+      {
+        "code": "L297A",
+        "language": "ca",
+        "questions": {
+          "l297a-q1": {
+            "prompt": "Qui escriu la carta i a qui?",
+            "options": [
+              "La Mira escriu a la Joana.",
+              "En Leo escriu a en Dani.",
+              "La Joana escriu a la Mira.",
+              "En Dani escriu a en Leo."
+            ],
+            "correct": "d",
+            "explanation": "En Dani escriu a en Leo."
+          },
+          "l297a-q2": {
+            "prompt": "Què continuava al mateix lloc quan van tornar a la terrassa?",
+            "options": [
+              "El pal de fusta.",
+              "L’extrem de l’ombra.",
+              "El paper de l’entrepà.",
+              "Les fotos de la terrassa."
+            ],
+            "correct": "a",
+            "explanation": "El pal de fusta."
+          },
+          "l297a-q3": {
+            "prompt": "Què vol dir el «senyal» que van deixar?",
+            "options": [
+              "La fotografia que van veure a la sala.",
+              "La marca feta amb la pedra.",
+              "La signatura al final de la carta.",
+              "L’ombra dibuixada al paper."
+            ],
+            "correct": "b",
+            "explanation": "La pedra que marcava on acabava la primera ombra."
+          },
+          "l297a-q4": {
+            "prompt": "Per a què van conservar la pedra clara en posar la fosca?",
+            "options": [
+              "Per indicar on deixarien els entrepans.",
+              "Per recordar l’entrada de la sala de fotos.",
+              "Per comparar els dos llocs on acabava l’ombra.",
+              "Per guardar el lloc del pal després de moure’l."
+            ],
+            "correct": "c",
+            "explanation": "Per poder veure on havia acabat l’ombra abans i comparar-ho amb el punt nou."
+          },
+          "l297a-q5": {
+            "prompt": "Quin resum explica el descobriment?",
+            "options": [
+              "Havien mogut el pal per fer lloc al pícnic.",
+              "L’ombra continuava acabant al costat de la pedra clara.",
+              "Les dues pedres estaven posades abans de menjar.",
+              "L’ombra havia canviat de lloc i van marcar el nou extrem."
+            ],
+            "correct": "d",
+            "explanation": "L’ombra acabava en un altre lloc tot i que el pal no s’havia mogut. Van marcar el punt nou amb una altra pedra."
+          }
+        }
+      },
+      {
+        "code": "L297",
+        "language": "es",
+        "questions": {
+          "l297-q1": {
+            "prompt": "¿Qué marcó Mira antes de sacar los bocadillos?",
+            "options": [
+              "La posición del banco, con una piedra clara.",
+              "La punta de la sombra, con una piedra clara.",
+              "La base del poste, con una piedra oscura.",
+              "El nuevo punto de la sombra después de comer."
+            ],
+            "correct": "b",
+            "explanation": "La punta de la sombra del poste, con una piedra clara."
+          },
+          "l297-q2": {
+            "prompt": "¿Qué hicieron entre la primera marca y el regreso a la terraza?",
+            "options": [
+              "Dibujaron el poste y retiraron la piedra clara.",
+              "Movieron el banco y prepararon otra visita.",
+              "Comieron y miraron las fotos de la sala.",
+              "Colocaron la piedra oscura y escribieron a Leo."
+            ],
+            "correct": "c",
+            "explanation": "Comieron los bocadillos y miraron las fotos de la sala."
+          },
+          "l297-q3": {
+            "prompt": "¿Por qué importaba comprobar que el poste y la piedra clara seguían en su sitio?",
+            "options": [
+              "Para decidir qué piedra sustituiría a la primera marca.",
+              "Para saber cuánto habían tardado en comer.",
+              "Para marcar el sitio del poste después de volverlo a clavar.",
+              "Para comparar sombras sin haber movido las referencias."
+            ],
+            "correct": "d",
+            "explanation": "Para poder atribuir la diferencia a la sombra y no a que alguien hubiera cambiado las referencias."
+          },
+          "l297-q4": {
+            "prompt": "¿Qué es la «punta» de la sombra en esta lectura?",
+            "options": [
+              "El punto del suelo donde termina.",
+              "La base que sujeta el poste.",
+              "La parte más alta de la madera.",
+              "El lado claro de la piedra."
+            ],
+            "correct": "a",
+            "explanation": "El lugar del suelo donde termina la sombra del poste."
+          },
+          "l297-q5": {
+            "prompt": "¿Qué conservan las dos piedras que no conservaría solo la oscura?",
+            "options": [
+              "El orden en que habían visitado las salas.",
+              "Las dos posiciones de la punta de la sombra.",
+              "La posición que tendrá la sombra al día siguiente.",
+              "El lugar donde el poste estuvo antes de moverlo."
+            ],
+            "correct": "b",
+            "explanation": "Permiten comparar el lugar de la punta antes de comer y después, sin perder la primera posición."
+          },
+          "l297-q6": {
+            "prompt": "¿Qué detalle permite saber quién cuenta la visita en esta carta?",
+            "options": [
+              "El nombre de Leo al principio señala al narrador.",
+              "Las palabras de Joana convierten a la guía en narradora.",
+              "La primera persona y la firma de Dani identifican al narrador.",
+              "La pregunta de Mira muestra que ella escribe la carta."
+            ],
+            "correct": "c",
+            "explanation": "Está escrita en primera persona y termina firmada por Dani."
+          },
+          "l297-q7": {
+            "prompt": "¿Qué resumen recoge la observación?",
+            "options": [
+              "Movieron el poste y anotaron su nueva posición con una piedra.",
+              "Las dos piedras permitieron saber dónde acabaría mañana la sombra.",
+              "Retiraron la marca inicial para dejar sitio a la sombra nueva.",
+              "Marcaron dos posiciones de la sombra sin cambiar el poste."
+            ],
+            "correct": "d",
+            "explanation": "La sombra de un poste fijo terminó en otro lugar al volver del pícnic y la sala. Mantuvieron la piedra clara y añadieron una oscura para comparar los dos momentos; Dani lo dibujó."
+          }
+        }
+      },
+      {
+        "code": "L297",
+        "language": "ca",
+        "questions": {
+          "l297-q1": {
+            "prompt": "Què va marcar la Mira abans de treure els entrepans?",
+            "options": [
+              "La posició del banc, amb una pedra clara.",
+              "L’extrem de l’ombra, amb una pedra clara.",
+              "La base del pal, amb una pedra fosca.",
+              "El nou punt de l’ombra després de menjar."
+            ],
+            "correct": "b",
+            "explanation": "L’extrem de l’ombra del pal, amb una pedra clara."
+          },
+          "l297-q2": {
+            "prompt": "Què van fer entre la primera marca i el retorn a la terrassa?",
+            "options": [
+              "Van dibuixar el pal i van retirar la pedra clara.",
+              "Van moure el banc i van preparar una altra visita.",
+              "Van menjar i van mirar les fotos de la sala.",
+              "Van posar la pedra fosca i van escriure a en Leo."
+            ],
+            "correct": "c",
+            "explanation": "Van menjar els entrepans i van mirar les fotos de la sala."
+          },
+          "l297-q3": {
+            "prompt": "Per què era important comprovar que el pal i la pedra clara continuaven al seu lloc?",
+            "options": [
+              "Per decidir quina pedra substituiria la primera marca.",
+              "Per saber quant havien trigat a menjar.",
+              "Per marcar el lloc del pal després de tornar-lo a clavar.",
+              "Per comparar ombres sense haver mogut les referències."
+            ],
+            "correct": "d",
+            "explanation": "Per poder atribuir la diferència a l’ombra i no al fet que algú hagués canviat les referències."
+          },
+          "l297-q4": {
+            "prompt": "Què és l’«extrem» de l’ombra en aquesta lectura?",
+            "options": [
+              "El punt de terra on s’acaba.",
+              "La base que subjecta el pal.",
+              "La part més alta de la fusta.",
+              "El costat clar de la pedra."
+            ],
+            "correct": "a",
+            "explanation": "El lloc de terra on s’acaba l’ombra del pal."
+          },
+          "l297-q5": {
+            "prompt": "Què conserven les dues pedres que no conservaria només la fosca?",
+            "options": [
+              "L’ordre en què havien visitat les sales.",
+              "Les dues posicions de l’extrem de l’ombra.",
+              "La posició que tindrà l’ombra l’endemà.",
+              "El lloc on havia estat el pal abans de moure’l."
+            ],
+            "correct": "b",
+            "explanation": "Permeten comparar el lloc de l’extrem abans de menjar i després, sense perdre la primera posició."
+          },
+          "l297-q6": {
+            "prompt": "Quin detall permet saber qui explica la visita en aquesta carta?",
+            "options": [
+              "El nom d’en Leo al principi assenyala el narrador.",
+              "Les paraules de la Joana converteixen la guia en narradora.",
+              "La primera persona i la signatura d’en Dani identifiquen el narrador.",
+              "La pregunta de la Mira mostra que ella escriu la carta."
+            ],
+            "correct": "c",
+            "explanation": "Està escrita en primera persona i s’acaba signada per en Dani."
+          },
+          "l297-q7": {
+            "prompt": "Quin resum recull l’observació?",
+            "options": [
+              "Van moure el pal i van anotar la nova posició amb una pedra.",
+              "Les dues pedres van permetre saber on acabaria demà l’ombra.",
+              "Van retirar la marca inicial per deixar lloc a la nova ombra.",
+              "Van marcar dues posicions de l’ombra sense canviar el pal."
+            ],
+            "correct": "d",
+            "explanation": "L’ombra d’un pal fix va acabar en un altre lloc en tornar del pícnic i de la sala. Van conservar la pedra clara i en van afegir una de fosca per comparar els dos moments; en Dani ho va dibuixar."
+          }
+        }
+      },
+      {
+        "code": "L297B",
+        "language": "es",
+        "questions": {
+          "l297b-q1": {
+            "prompt": "¿En qué momentos pusieron la piedra clara y la oscura?",
+            "options": [
+              "La oscura antes de comer y la clara al volver de la sala.",
+              "Las dos antes de comer, para marcar los extremos del poste.",
+              "La clara antes de comer y la oscura al volver la claridad.",
+              "La clara durante la nube y la oscura al terminar la carta."
+            ],
+            "correct": "c",
+            "explanation": "La clara antes de comer; la oscura después de comer y de visitar la sala, cuando volvió la claridad tras la nube."
+          },
+          "l297b-q2": {
+            "prompt": "¿Qué aportó comprobar la base del poste y la grieta junto a la piedra?",
+            "options": [
+              "Permitió conocer cuántos minutos habían estado dentro.",
+              "Mostró que habían cambiado la piedra al abrir las mochilas.",
+              "Permitió elegir dónde clavar un poste nuevo.",
+              "Dio referencias estables para comparar las dos posiciones de la sombra."
+            ],
+            "correct": "d",
+            "explanation": "Permitió comprobar que las referencias continuaban en su lugar y que no habían explicado la diferencia moviendo el poste o la piedra."
+          },
+          "l297b-q3": {
+            "prompt": "¿Por qué esperaron antes de poner la piedra oscura?",
+            "options": [
+              "No distinguían bien la punta de la sombra durante la nube.",
+              "Joana quería cambiar primero el poste de lugar.",
+              "Dani todavía no había terminado el bocadillo.",
+              "Mira necesitaba recoger la primera piedra."
+            ],
+            "correct": "a",
+            "explanation": "Una nube dificultaba distinguir el borde de la sombra y esperaron a que volviera la claridad."
+          },
+          "l297b-q4": {
+            "prompt": "¿Qué significa «referencias» en el segundo párrafo?",
+            "options": [
+              "Los recuerdos de las fotos que acababan de ver.",
+              "Los puntos estables que sirven para situar y comparar.",
+              "Las preguntas que escribirán después a Leo.",
+              "Los movimientos que hizo Mira alrededor del banco."
+            ],
+            "correct": "b",
+            "explanation": "Los elementos estables que ayudan a reconocer y comparar posiciones: la base, la piedra y la grieta."
+          },
+          "l297b-q5": {
+            "prompt": "¿Por qué el dibujo de Dani incluye la grieta, además del poste y las marcas?",
+            "options": [
+              "Porque la grieta les decía dónde estaría mañana la sombra.",
+              "Porque Joana la había hecho al fijar el poste aquella mañana.",
+              "Porque era un punto que ayudaba a situar la piedra clara.",
+              "Porque allí coincidían la primera y la segunda marca."
+            ],
+            "correct": "c",
+            "explanation": "La grieta ayuda a situar la primera piedra y reconocer el lugar que compararon."
+          },
+          "l297b-q6": {
+            "prompt": "¿Qué añade la pregunta de Mira sobre el día siguiente?",
+            "options": [
+              "Corrige el lugar donde estaba la primera piedra.",
+              "Explica por qué no habían podido comer en la terraza.",
+              "Da por terminado el trabajo con una respuesta sobre mañana.",
+              "Distingue lo ya observado de una nueva pregunta pendiente."
+            ],
+            "correct": "d",
+            "explanation": "Abre algo que aún quieren observar, distinto de la comparación que ya han hecho durante esa visita."
+          },
+          "l297b-q7": {
+            "prompt": "¿Qué pueden afirmar sobre las dos posiciones que marcaron?",
+            "options": [
+              "Corresponden a dos momentos de esa visita.",
+              "Indican todas las posiciones de la sombra de aquel día.",
+              "La clara marca la llegada y la oscura el día siguiente.",
+              "La oscura señala la primera sombra y la clara, la segunda."
+            ],
+            "correct": "a",
+            "explanation": "Son dos posiciones de la punta de la sombra durante esa visita, con el mismo poste fijo."
+          },
+          "l297b-q8": {
+            "prompt": "¿Qué resumen recoge cómo conservaron la observación?",
+            "options": [
+              "Movieron el poste para hacer coincidir su sombra con la piedra inicial.",
+              "Mantuvieron las referencias y guardaron dos marcas y un dibujo.",
+              "Retiraron la primera marca al ver que había cambiado la sombra.",
+              "Esperaron al día siguiente para comparar las dos piedras de hoy."
+            ],
+            "correct": "b",
+            "explanation": "Comprobaron que el poste y la primera marca seguían fijos. Al distinguir bien la sombra pusieron otra piedra, conservaron ambas y las dibujaron para comparar dos momentos."
+          },
+          "l297b-q9": {
+            "prompt": "¿Por qué Dani termina invitando a Leo a buscar la grieta?",
+            "options": [
+              "Quiere que Leo sustituya las marcas antes de que lleguen.",
+              "Le encarga averiguar quién ha movido el poste.",
+              "Le ofrece un detalle concreto para sumarse a la próxima visita.",
+              "Le pide elegir qué piedra deben llevarse hoy a casa."
+            ],
+            "correct": "c",
+            "explanation": "Le propone reconocer un detalle del lugar y participar en una próxima visita relacionada con lo que ha contado."
+          }
+        }
+      },
+      {
+        "code": "L297B",
+        "language": "ca",
+        "questions": {
+          "l297b-q1": {
+            "prompt": "En quins moments van posar la pedra clara i la fosca?",
+            "options": [
+              "La fosca abans de menjar i la clara en tornar de la sala.",
+              "Totes dues abans de menjar, per marcar els extrems del pal.",
+              "La clara abans de menjar i la fosca en tornar la claror.",
+              "La clara durant el núvol i la fosca en acabar la carta."
+            ],
+            "correct": "c",
+            "explanation": "La clara abans de menjar; la fosca després de menjar i de visitar la sala, quan va tornar la claror després del núvol."
+          },
+          "l297b-q2": {
+            "prompt": "Què va aportar comprovar la base del pal i l’esquerda al costat de la pedra?",
+            "options": [
+              "Va permetre saber quants minuts havien estat a dins.",
+              "Va mostrar que havien canviat la pedra en obrir les motxilles.",
+              "Va permetre triar on clavar un pal nou.",
+              "Va donar referències estables per comparar les dues posicions de l’ombra."
+            ],
+            "correct": "d",
+            "explanation": "Va permetre comprovar que les referències continuaven al seu lloc i que no havien explicat la diferència movent el pal o la pedra."
+          },
+          "l297b-q3": {
+            "prompt": "Per què van esperar abans de posar la pedra fosca?",
+            "options": [
+              "No distingien bé l’extrem de l’ombra durant el núvol.",
+              "La Joana volia canviar primer el pal de lloc.",
+              "En Dani encara no havia acabat l’entrepà.",
+              "La Mira havia de recollir la primera pedra."
+            ],
+            "correct": "a",
+            "explanation": "Un núvol dificultava distingir la vora de l’ombra i van esperar que tornés la claror."
+          },
+          "l297b-q4": {
+            "prompt": "Què vol dir «referències» al segon paràgraf?",
+            "options": [
+              "Els records de les fotos que acabaven de veure.",
+              "Els punts estables que serveixen per situar i comparar.",
+              "Les preguntes que després escriuran a en Leo.",
+              "Els moviments que va fer la Mira al voltant del banc."
+            ],
+            "correct": "b",
+            "explanation": "Els elements estables que ajuden a reconèixer i comparar posicions: la base, la pedra i l’esquerda."
+          },
+          "l297b-q5": {
+            "prompt": "Per què el dibuix d’en Dani inclou l’esquerda, a més del pal i les marques?",
+            "options": [
+              "Perquè l’esquerda els deia on seria demà l’ombra.",
+              "Perquè la Joana l’havia feta en fixar el pal aquell matí.",
+              "Perquè era un punt que ajudava a situar la pedra clara.",
+              "Perquè allà coincidien la primera i la segona marca."
+            ],
+            "correct": "c",
+            "explanation": "L’esquerda ajuda a situar la primera pedra i reconèixer el lloc que van comparar."
+          },
+          "l297b-q6": {
+            "prompt": "Què afegeix la pregunta de la Mira sobre l’endemà?",
+            "options": [
+              "Corregeix el lloc on era la primera pedra.",
+              "Explica per què no havien pogut menjar a la terrassa.",
+              "Dona per acabada la feina amb una resposta sobre demà.",
+              "Distingeix el que ja han observat d’una nova pregunta pendent."
+            ],
+            "correct": "d",
+            "explanation": "Obre una cosa que encara volen observar, diferent de la comparació que ja han fet durant aquella visita."
+          },
+          "l297b-q7": {
+            "prompt": "Què poden afirmar sobre les dues posicions que van marcar?",
+            "options": [
+              "Corresponen a dos moments d’aquella visita.",
+              "Indiquen totes les posicions de l’ombra d’aquell dia.",
+              "La clara marca l’arribada i la fosca l’endemà.",
+              "La fosca assenyala la primera ombra i la clara, la segona."
+            ],
+            "correct": "a",
+            "explanation": "Són dues posicions de l’extrem de l’ombra durant aquella visita, amb el mateix pal fix."
+          },
+          "l297b-q8": {
+            "prompt": "Quin resum recull com van conservar l’observació?",
+            "options": [
+              "Van moure el pal per fer coincidir l’ombra amb la pedra inicial.",
+              "Van mantenir les referències i van guardar dues marques i un dibuix.",
+              "Van retirar la primera marca en veure que havia canviat l’ombra.",
+              "Van esperar l’endemà per comparar les dues pedres d’avui."
+            ],
+            "correct": "b",
+            "explanation": "Van comprovar que el pal i la primera marca continuaven fixos. En distingir bé l’ombra van posar una altra pedra, les van conservar totes dues i les van dibuixar per comparar dos moments."
+          },
+          "l297b-q9": {
+            "prompt": "Per què en Dani acaba convidant en Leo a buscar l’esquerda?",
+            "options": [
+              "Vol que en Leo substitueixi les marques abans que arribin.",
+              "Li encarrega esbrinar qui ha mogut el pal.",
+              "Li ofereix un detall concret per afegir-se a la pròxima visita.",
+              "Li demana triar quina pedra s’han d’endur avui a casa."
+            ],
+            "correct": "c",
+            "explanation": "Li proposa reconèixer un detall del lloc i participar en una pròxima visita relacionada amb el que ha explicat."
+          }
+        }
+      }
+    ]
   }
 ];

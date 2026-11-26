@@ -7,18 +7,20 @@
 | Univers i guia | Identificador estable | Origen | Altres històries | Tram de les propostes |
 | --- | --- | --- | --- | --- |
 | [La biblioteca de les coses](biblioteca-de-les-coses.md) | `biblioteca-de-les-coses` | L208 | L246–L248, L269–L279 | 6è–1r d’ESO; 15 històries |
-| [L’observatori del turó](observatori-del-turo.md) | `observatori-del-turo` | L175 | L249–L253 | 4t–5è |
+| [L’observatori del turó](observatori-del-turo.md) | `observatori-del-turo` | L175 | L249–L253, L289–L297 | 3r–5è; 15 històries |
 | [El taller de la plaça](taller-de-la-placa.md) | `taller-de-la-placa` | L039 | L254–L258 | 4t–5è |
 | [La redacció del pati](redaccio-del-pati.md) | `redaccio-del-pati` | L070 | L259–L263, L280–L288 | 5è–1r d’ESO; 15 històries |
 | [Els camins de la ribera](camins-de-la-ribera.md) | `camins-de-la-ribera` | L189 | L264–L268 | 4t–5è |
 
-Totes les històries tenen versió catalana i castellana. L’observatori, el taller i la ribera ofereixen **sis propostes autònomes per univers**. La biblioteca i la redacció n’ofereixen **quinze cadascuna** des del 26 de novembre. Les famílies aporten altres graus, però cadascuna continua comptant com una sola proposta al catàleg. Així, aquest conjunt ofereix **48 propostes connectades**, sense duplicar traduccions ni graus d’una mateixa família.
+Totes les històries tenen versió catalana i castellana. El taller i la ribera ofereixen **sis propostes autònomes per univers**. La biblioteca, la redacció i l’observatori n’ofereixen **quinze cadascun** des del 26 de novembre. Les famílies aporten altres graus, però cadascuna continua comptant com una sola proposta al catàleg. Així, aquest conjunt ofereix **57 propostes connectades**, sense duplicar traduccions ni graus d’una mateixa família.
 
 La tanda L249–L268 del 20 de novembre va afegir 20 obres i 40 versions lingüístiques. En aquella edició el catàleg tenia 310 obres concretes, 620 versions lingüístiques i 268 propostes agrupant les 21 famílies. Són recomptes històrics, no objectius fixos.
 
 La tanda L269–L279 del 26 de novembre afegeix onze famílies noves de la biblioteca: **33 versions graduades i 66 versions lingüístiques**, totes amb resposta textual i alternatives ABCD pertinents, solucionari, evidències i dues il·lustracions. El [registre propi](library-expansion-2026-11-26-review.json) identifica separadament cada variant i idioma revisats. La [guia d’autoria](library-expansion-2026-11-26-authoring.md) fixa el model per continuar ampliant el món.
 
 La tanda L280–L288 completa la redacció amb **nou famílies noves, 27 versions graduades i 54 versions lingüístiques**. El [registre de revisió](newsroom-expansion-2026-11-26-review.json), la [guia d’autoria](newsroom-expansion-2026-11-26-authoring.md) i les [instruccions de les il·lustracions](newsroom-expansion-2026-11-26-images.json) en documenten els continguts, el procés i la continuïtat visual.
+
+La tanda L289–L297 completa l’observatori amb **nou famílies noves, 27 versions graduades i 54 versions lingüístiques**, amb suport de 3r, referència de 4t i ampliació de 5è. El [registre editorial](observatory-expansion-2026-11-26-review.json), la [guia d’autoria](observatory-expansion-2026-11-26-authoring.md), les [fonts científiques](observatory-expansion-2026-11-26-sources.md) i els [prompts de les il·lustracions](observatory-expansion-2026-11-26-images.json) permeten continuar el món sense perdre’n la coherència.
 
 Les quaranta versions han superat la revisió independent i són **provisionals, pendents de validació docent**. El [registre editorial de la tanda](review-2026-11-20.md) conserva codi, llengua, data, resultat i identificació exacta de la versió revisada. Un canvi editorial posterior requereix revalidar els elements afectats.
 
@@ -65,6 +67,8 @@ node tools/check-library-expansion.mjs --complete
 node tools/check-library-expansion-browser.cjs
 node tools/check-newsroom-expansion.mjs --complete
 node tools/check-newsroom-expansion-browser.cjs
+node tools/check-observatory-expansion.mjs --complete
+node tools/check-observatory-expansion-browser.cjs
 ```
 
 La comprovació d’ampliació valida els cinc mons, les vint obres bilingües, els recursos, les metadades, les preguntes i les cites. La del navegador comprova filtre i recomptes de tots els universos, fitxes i solucionaris en tots dos idiomes, preservació del text, desbordaments i un PDF real, sense visitar producció.

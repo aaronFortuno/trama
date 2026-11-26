@@ -1,9 +1,9 @@
 {
   "date": "2026-11-26",
-  "totalWorks": 570,
-  "coveredWorks": 570,
+  "totalWorks": 573,
+  "coveredWorks": 573,
   "pendingWorks": 0,
-  "localizedAlternatives": 5534,
+  "localizedAlternatives": 5576,
   "ranges": [
     {
       "start": 1,
@@ -420,9 +420,9 @@
     },
     {
       "start": 296,
-      "end": 296,
-      "total": 3,
-      "covered": 3,
+      "end": 297,
+      "total": 6,
+      "covered": 6,
       "status": "complete"
     }
   ],
@@ -34528,6 +34528,237 @@
             {
               "id": "l296b-q8",
               "number": 8
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L297",
+      "baseCode": "L297",
+      "variant": false,
+      "level": "4-primary",
+      "difficulty": "intermediate",
+      "title": "El pícnic de les ombres",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l297-q1",
+              "number": 1
+            },
+            {
+              "id": "l297-q2",
+              "number": 2
+            },
+            {
+              "id": "l297-q3",
+              "number": 3
+            },
+            {
+              "id": "l297-q4",
+              "number": 4
+            },
+            {
+              "id": "l297-q5",
+              "number": 5
+            },
+            {
+              "id": "l297-q6",
+              "number": 6
+            },
+            {
+              "id": "l297-q7",
+              "number": 7
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l297-q1",
+              "number": 1
+            },
+            {
+              "id": "l297-q2",
+              "number": 2
+            },
+            {
+              "id": "l297-q3",
+              "number": 3
+            },
+            {
+              "id": "l297-q4",
+              "number": 4
+            },
+            {
+              "id": "l297-q5",
+              "number": 5
+            },
+            {
+              "id": "l297-q6",
+              "number": 6
+            },
+            {
+              "id": "l297-q7",
+              "number": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L297A",
+      "baseCode": "L297",
+      "variant": true,
+      "level": "3-primary",
+      "difficulty": "intermediate",
+      "title": "El pícnic de les ombres",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l297a-q1",
+              "number": 1
+            },
+            {
+              "id": "l297a-q2",
+              "number": 2
+            },
+            {
+              "id": "l297a-q3",
+              "number": 3
+            },
+            {
+              "id": "l297a-q4",
+              "number": 4
+            },
+            {
+              "id": "l297a-q5",
+              "number": 5
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l297a-q1",
+              "number": 1
+            },
+            {
+              "id": "l297a-q2",
+              "number": 2
+            },
+            {
+              "id": "l297a-q3",
+              "number": 3
+            },
+            {
+              "id": "l297a-q4",
+              "number": 4
+            },
+            {
+              "id": "l297a-q5",
+              "number": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L297B",
+      "baseCode": "L297",
+      "variant": true,
+      "level": "5-primary",
+      "difficulty": "intermediate",
+      "title": "El pícnic de les ombres",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l297b-q1",
+              "number": 1
+            },
+            {
+              "id": "l297b-q2",
+              "number": 2
+            },
+            {
+              "id": "l297b-q3",
+              "number": 3
+            },
+            {
+              "id": "l297b-q4",
+              "number": 4
+            },
+            {
+              "id": "l297b-q5",
+              "number": 5
+            },
+            {
+              "id": "l297b-q6",
+              "number": 6
+            },
+            {
+              "id": "l297b-q7",
+              "number": 7
+            },
+            {
+              "id": "l297b-q8",
+              "number": 8
+            },
+            {
+              "id": "l297b-q9",
+              "number": 9
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l297b-q1",
+              "number": 1
+            },
+            {
+              "id": "l297b-q2",
+              "number": 2
+            },
+            {
+              "id": "l297b-q3",
+              "number": 3
+            },
+            {
+              "id": "l297b-q4",
+              "number": 4
+            },
+            {
+              "id": "l297b-q5",
+              "number": 5
+            },
+            {
+              "id": "l297b-q6",
+              "number": 6
+            },
+            {
+              "id": "l297b-q7",
+              "number": 7
+            },
+            {
+              "id": "l297b-q8",
+              "number": 8
+            },
+            {
+              "id": "l297b-q9",
+              "number": 9
             }
           ]
         }

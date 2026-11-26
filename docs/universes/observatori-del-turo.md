@@ -1,6 +1,6 @@
 # L’observatori del turó
 
-Identificador estable: `observatori-del-turo`. Castellà: **El observatorio de la colina**. Origen: **L175, Una nit sense estrelles**. Tram d’aquesta ampliació: **4t i 5è de primària**, amb les variants ja existents de la L175 accessibles en altres graus.
+Identificador estable: `observatori-del-turo`. Castellà: **El observatorio de la colina**. Origen: **L175, Una nit sense estrelles**. Tram del pilot: **4t i 5è de primària**, amb les variants ja existents de la L175 accessibles en altres graus. L’ampliació L289–L297 incorpora famílies amb suport de 3r, referència de 4t i ampliació de 5è.
 
 ## Món i continuïtat
 
@@ -9,8 +9,12 @@ Petit observatori fictici en un turó amb pins, davant d’una serra. Edifici de
 - **Dani:** infant d’uns deu o onze anys, narrador del diari d’origen. Curiós, dibuixa i pot impacientar-se; també escolta, demana ajuda i crea històries.
 - **Mira:** companya d’edat semblant. Fa preguntes directes i proposa alternatives; no és sempre qui encerta ni qui necessita ajuda.
 - **Joana:** guia adulta. Escolta, adapta les explicacions i acompanya l’ús del telescopi. No confon no saber una resposta amb no tenir res per descobrir.
+- **Pau:** avi d’en Dani, convidat a la L290. Vol fer la visita i explica que aquell dia necessita seure durant la pujada. Cabell gris curt, ulleres, armilla beix sobre camisa de to vermellós i roba informal. No es fixa cap malaltia ni es converteix una tria de camí en una promesa d’accessibilitat universal.
+- **Elisa:** antiga col·laboradora que visita l’exposició de la L294. Explica com feia servir una lupa per llegir notes; els records no identifiquen automàticament l’autoria de les preguntes. No se’n fixa una aparença visual: la seva escena se centra en els objectes.
 
 Cada text reintrodueix observatori i personatges necessaris. No requereix conèixer cap visita anterior. El món admet observacions, cartes, entrevistes, diaris i activitats amb models. Un dibuix inventat es presenta com a tal; les dades d’observació no s’omplen amb fantasia. No s’afegeixen afirmacions astronòmiques que no s’hagin verificat quan calgui.
+
+L’ampliació del 26 de novembre concreta un porxo lateral amb banc i canaló baix, una sala amb taules per treballar amb models i un espai exterior on hi ha un pal curt fix per observar ombres. El banc del camí de la L290 és un altre lloc, a mitja pujada. No es fixa un plànol complet del centre. Els conceptes dels models de la Lluna, la il·luminació i les ombres es contrasten a les [fonts científiques de la tanda](observatory-expansion-2026-11-26-sources.md).
 
 ## Identitat visual
 
@@ -40,3 +44,23 @@ Totes en català i castellà, amb preguntes, solucionari, línies i referències
 Textos: `data/readings-universe-observatory.js`. Escenes: `assets/readings/l249-*.webp` a `l253-*.webp`. Referència comuna: `assets/readings/l175-una-noche-sin-estrellas.webp`. Les instruccions completes de les cinc il·lustracions són a [prompts](prompts/), fitxers `l249.txt` a `l253.txt`, generats amb l’eina integrada i desats a 1100 × 733 WebP sense retocs semàntics.
 
 Possibles continuacions: una visita de dia, una pregunta enviada per una altra escola, preparar una petita exposició o explicar a una persona nova què pot esperar del telescopi. Cal aportar una situació pròpia i no repetir sempre el mateix conflicte de dades insuficients.
+
+<!-- observatory-expansion:start -->
+## Ampliació del 26 de novembre del 2026
+
+L’univers arriba a **15 històries independents**. Les 9 noves són famílies completes: suport de 3r (140–190 paraules, 6 preguntes), referència de 4t (220–280 paraules, 8 preguntes) i ampliació de 5è (310–390 paraules, 10 preguntes), totes en català i castellà. Cada grau té textos, tasques, solucionari i evidències propis, i comparteix la situació i les il·lustracions amb els altres. Les alternatives ABCD són pròpies de cada variant i llengua; les opinions i la creació personal mantenen resposta textual.
+
+| Família | Història | Variants |
+| --- | --- | --- |
+| L289 | La visita a plena llum | L289A · L289 · L289B |
+| L290 | Un banc a mig camí | L290A · L290 · L290B |
+| L291 | La maleta de les preguntes | L291A · L291 · L291B |
+| L292 | Una Lluna que cabia a la mà | L292A · L292 · L292B |
+| L293 | La maqueta del cel del poble | L293A · L293 · L293B |
+| L294 | L’exposició que va començar per un calaix | L294A · L294 · L294B |
+| L295 | El soroll que va baixar per la teulada | L295A · L295 · L295B |
+| L296 | El poema de la bufanda | L296A · L296 · L296B |
+| L297 | El pícnic de les ombres | L297A · L297 · L297B |
+
+La [guia d’autoria](observatory-expansion-2026-11-26-authoring.md), el [registre editorial](observatory-expansion-2026-11-26-review.json) i els [prompts de les escenes](observatory-expansion-2026-11-26-images.json) documenten la tanda. Cada història reintrodueix l’equip i el context necessaris; no s’ha de llegir en cap ordre. En Dani, la Mira i la Joana alternen descobertes, preguntes i creació. Les versions han superat revisió independent i són **provisionals, pendents de validació docent**.
+<!-- observatory-expansion:end -->

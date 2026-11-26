@@ -44,6 +44,8 @@ Les famílies noves de La biblioteca de les coses (L269–L279) neixen directame
 
 La redacció del pati continua amb el mateix procés a L280–L288: model d’autoria `data/newsroom-expansion-model.js`, publicacions completes a `data/newsroom-expansion-published.js` i registre independent `docs/question-choices/newsroom-2026-11-26-review.json`. Cada història té suport de 5è, referència de 6è i ampliació de 1r d’ESO en ES/CA. Els comprovadors comparteixen les regles d’integritat entre universos i en validen els perfils de curs, llargada i preguntes separadament.
 
+L’observatori del turó amplia el mateix sistema a L289–L297: model `data/observatory-expansion-model.js`, registre públic `data/observatory-expansion-published.js` i revisions `docs/question-choices/observatory-2026-11-26-review.json`. Cada família conté suport de 3r, referència de 4t i ampliació de 5è, en ES/CA. La ciència dels models i de les ombres es contrasta amb fonts primàries documentades a la guia de l’univers. Les tasques de creació de versos es mantenen obertes.
+
 question-responses.js resol el format triat. Els maquetats incorporen questionMode i questionModes per a les excepcions individuals. Els enllaços de maquetat poden utilitzar PREG=ABCD i TIPUSRES=1:OBERTA; els codis curts continuen identificant lectura, llengua i omissions.
 
 docs/question-choices-review.json registra les quaranta versions exactes revisades, amb empremta del text, pregunta oberta, alternativa, explicació i evidències. Autor: root. Revisor independent: review_early_families. Les empremtes s’han de contrastar abans de publicar.
