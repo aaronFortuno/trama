@@ -1,9 +1,9 @@
 {
   "date": "2026-11-26",
-  "totalWorks": 543,
-  "coveredWorks": 543,
+  "totalWorks": 546,
+  "coveredWorks": 546,
   "pendingWorks": 0,
-  "localizedAlternatives": 5146,
+  "localizedAlternatives": 5200,
   "ranges": [
     {
       "start": 1,
@@ -406,9 +406,9 @@
     },
     {
       "start": 286,
-      "end": 287,
-      "total": 6,
-      "covered": 6,
+      "end": 288,
+      "total": 9,
+      "covered": 9,
       "status": "complete"
     }
   ],
@@ -32394,6 +32394,285 @@
             },
             {
               "id": "l287b-q11",
+              "number": 11
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L288",
+      "baseCode": "L288",
+      "variant": false,
+      "level": "6-primary",
+      "difficulty": "intermediate",
+      "title": "La pàgina que es va sentir al pati",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l288-q1",
+              "number": 1
+            },
+            {
+              "id": "l288-q2",
+              "number": 2
+            },
+            {
+              "id": "l288-q3",
+              "number": 3
+            },
+            {
+              "id": "l288-q4",
+              "number": 4
+            },
+            {
+              "id": "l288-q5",
+              "number": 5
+            },
+            {
+              "id": "l288-q6",
+              "number": 6
+            },
+            {
+              "id": "l288-q7",
+              "number": 7
+            },
+            {
+              "id": "l288-q8",
+              "number": 8
+            },
+            {
+              "id": "l288-q9",
+              "number": 9
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l288-q1",
+              "number": 1
+            },
+            {
+              "id": "l288-q2",
+              "number": 2
+            },
+            {
+              "id": "l288-q3",
+              "number": 3
+            },
+            {
+              "id": "l288-q4",
+              "number": 4
+            },
+            {
+              "id": "l288-q5",
+              "number": 5
+            },
+            {
+              "id": "l288-q6",
+              "number": 6
+            },
+            {
+              "id": "l288-q7",
+              "number": 7
+            },
+            {
+              "id": "l288-q8",
+              "number": 8
+            },
+            {
+              "id": "l288-q9",
+              "number": 9
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L288A",
+      "baseCode": "L288",
+      "variant": true,
+      "level": "5-primary",
+      "difficulty": "intermediate",
+      "title": "La pàgina que es va sentir al pati",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l288a-q1",
+              "number": 1
+            },
+            {
+              "id": "l288a-q2",
+              "number": 2
+            },
+            {
+              "id": "l288a-q3",
+              "number": 3
+            },
+            {
+              "id": "l288a-q4",
+              "number": 4
+            },
+            {
+              "id": "l288a-q5",
+              "number": 5
+            },
+            {
+              "id": "l288a-q6",
+              "number": 6
+            },
+            {
+              "id": "l288a-q7",
+              "number": 7
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l288a-q1",
+              "number": 1
+            },
+            {
+              "id": "l288a-q2",
+              "number": 2
+            },
+            {
+              "id": "l288a-q3",
+              "number": 3
+            },
+            {
+              "id": "l288a-q4",
+              "number": 4
+            },
+            {
+              "id": "l288a-q5",
+              "number": 5
+            },
+            {
+              "id": "l288a-q6",
+              "number": 6
+            },
+            {
+              "id": "l288a-q7",
+              "number": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L288B",
+      "baseCode": "L288",
+      "variant": true,
+      "level": "1-secondary",
+      "difficulty": "intermediate",
+      "title": "La pàgina que es va sentir al pati",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l288b-q1",
+              "number": 1
+            },
+            {
+              "id": "l288b-q2",
+              "number": 2
+            },
+            {
+              "id": "l288b-q3",
+              "number": 3
+            },
+            {
+              "id": "l288b-q4",
+              "number": 4
+            },
+            {
+              "id": "l288b-q5",
+              "number": 5
+            },
+            {
+              "id": "l288b-q6",
+              "number": 6
+            },
+            {
+              "id": "l288b-q7",
+              "number": 7
+            },
+            {
+              "id": "l288b-q8",
+              "number": 8
+            },
+            {
+              "id": "l288b-q9",
+              "number": 9
+            },
+            {
+              "id": "l288b-q10",
+              "number": 10
+            },
+            {
+              "id": "l288b-q11",
+              "number": 11
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l288b-q1",
+              "number": 1
+            },
+            {
+              "id": "l288b-q2",
+              "number": 2
+            },
+            {
+              "id": "l288b-q3",
+              "number": 3
+            },
+            {
+              "id": "l288b-q4",
+              "number": 4
+            },
+            {
+              "id": "l288b-q5",
+              "number": 5
+            },
+            {
+              "id": "l288b-q6",
+              "number": 6
+            },
+            {
+              "id": "l288b-q7",
+              "number": 7
+            },
+            {
+              "id": "l288b-q8",
+              "number": 8
+            },
+            {
+              "id": "l288b-q9",
+              "number": 9
+            },
+            {
+              "id": "l288b-q10",
+              "number": 10
+            },
+            {
+              "id": "l288b-q11",
               "number": 11
             }
           ]

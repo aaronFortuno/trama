@@ -14367,5 +14367,1796 @@ export const newsroomPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L288",
+    "edition": "v1.60.8",
+    "family": {
+      "id": "familia-l288",
+      "code": "L288",
+      "name": {
+        "es": "La página que se oyó en el patio",
+        "ca": "La pàgina que es va sentir al pati"
+      },
+      "description": {
+        "ca": "Una història de La redacció del pati, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de La redacción del patio, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L288A",
+        "L288",
+        "L288B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "la-pagina-que-se-oyo-en-el-patio-a-es",
+        "code": "L288A",
+        "workId": "la-pagina-que-se-oyo-en-el-patio-a",
+        "language": "es",
+        "familyId": "familia-l288",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "letter",
+        "title": "La página que se oyó en el patio",
+        "summary": "Clara y Omar cuentan cómo unos lectores pequeños acabaron poniendo voz a un personaje del periódico.",
+        "paragraphs": [
+          "Queridos lectores del patio:\nSomos Clara y Omar, de sexto, y ayudamos a hacer el periódico de la escuela. Os escribimos hoy después de leer unas páginas con el grupo de primero, bajo el tilo del patio. Llevamos una noticia del huerto y una historieta de un gato que se quedaba dormido dentro de una caja.",
+          "La historieta decía: «La encargada del huerto encontró una caja y preguntó: “¿Quién duerme ahí?”. El gato respondió: “El vigilante de las lechugas”». Sobre el papel, cada frase salía junto a su personaje. Cuando empezamos a leer, los dos dijimos la respuesta del gato a la vez. June, que escuchaba desde el banco, preguntó quién estaba hablando.",
+          "Para no pisarnos al hablar, repartimos las voces. Clara contaría lo que pasaba y leería la pregunta de la encargada. Omar respondería como el gato. Dejamos una pausa antes de su frase. Esta vez June sonrió: había entendido quién vigilaba las lechugas sin salir de la caja.",
+          "Después pidió responder también. Probamos una tercera lectura: Clara narraba y hacía la pregunta; todo el grupo sería el gato. Omar levantó la mano para que esperaran y la bajó al terminar la pregunta. Entonces respondieron juntos. La última palabra salió tan fuerte que un pájaro dejó el banco y se posó en el árbol.",
+          "Os enviamos la página para que podáis repetirla con otras voces y gestos. El dibujo sigue siendo el mismo. Nosotros ahora, al verlo, oímos al gato con muchas voces.\nHasta la próxima,\nClara y Omar"
+        ],
+        "questions": [
+          {
+            "id": "l288a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿A qué grupo leyeron las páginas?",
+            "answer": "Al grupo de primero.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "con el grupo de primero"
+              }
+            ]
+          },
+          {
+            "id": "l288a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué responde el gato a la encargada?",
+            "answer": "«El vigilante de las lechugas».",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El vigilante de las lechugas"
+              }
+            ]
+          },
+          {
+            "id": "l288a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué June pregunta quién habla durante la primera lectura?",
+            "answer": "Porque ambos lectores dicen a la vez la respuesta del gato y se confunden las voces.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "los dos dijimos la respuesta del gato a la vez"
+              }
+            ]
+          },
+          {
+            "id": "l288a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «pisarnos» en esta carta?",
+            "answer": "Hablar al mismo tiempo, de forma que las voces se superponen.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Para no pisarnos al hablar"
+              }
+            ]
+          },
+          {
+            "id": "l288a-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cómo se reparten las voces en la segunda lectura?",
+            "answer": "Clara narra y lee la pregunta de la encargada; Omar responde como el gato.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Clara contaría lo que pasaba y leería la pregunta de la encargada. Omar respondería como el gato"
+              }
+            ]
+          },
+          {
+            "id": "l288a-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cuándo baja Omar la mano y qué hace entonces el grupo?",
+            "answer": "La baja al terminar la pregunta; el grupo responde junto como el gato.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "la bajó al terminar la pregunta. Entonces respondieron juntos"
+              }
+            ]
+          },
+          {
+            "id": "l288a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume cómo cambió la lectura desde el primer intento hasta el último.",
+            "answer": "Primero se confundieron al leer juntos. Después repartieron voces y dejaron una pausa; al final el grupo hizo de gato siguiendo la señal de Omar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "repartimos las voces"
+              },
+              {
+                "paragraph": 4,
+                "text": "todo el grupo sería el gato"
+              }
+            ]
+          },
+          {
+            "id": "l288a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué personaje te gustaría leer en voz alta y cómo harías su voz? Explícalo.",
+            "answer": "Respuesta personal que relaciona una elección de voz o ritmo con un personaje."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "pisarnos",
+            "occurrence": 1,
+            "questionId": "l288a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l288-scene",
+            "src": "assets/readings/l288-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar leen una página del periódico en el patio a tres alumnos más pequeños sentados en un banco.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan el periódico escolar en una mesa del patio, en una ilustración azul y naranja.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-pagina-que-se-oyo-en-el-patio-a-ca",
+        "code": "L288A",
+        "workId": "la-pagina-que-se-oyo-en-el-patio-a",
+        "language": "ca",
+        "familyId": "familia-l288",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "letter",
+        "title": "La pàgina que es va sentir al pati",
+        "summary": "La Clara i l’Omar expliquen com uns lectors petits van acabar posant veu a un personatge del diari.",
+        "paragraphs": [
+          "Estimats lectors del pati:\nSom la Clara i l’Omar, de sisè, i ajudem a fer el diari de l’escola. Us escrivim avui després de llegir unes pàgines amb el grup de primer, sota el til·ler del pati. Vam portar una notícia de l’hort i una historieta d’un gat que s’adormia dins d’una caixa.",
+          "La historieta deia: «L’encarregada de l’hort va trobar una caixa i va preguntar: “Qui dorm aquí?”. El gat va respondre: “El vigilant dels enciams”». Al paper, cada frase sortia al costat del personatge. Quan vam començar a llegir, tots dos vam dir la resposta del gat alhora. La June, que escoltava des del banc, va preguntar qui parlava.",
+          "Per no trepitjar-nos parlant, vam repartir les veus. La Clara explicaria què passava i llegiria la pregunta de l’encarregada. L’Omar respondria com el gat. Vam deixar una pausa abans de la seva frase. Aquest cop la June va somriure: havia entès qui vigilava els enciams sense sortir de la caixa.",
+          "Després va demanar respondre també. Vam provar una tercera lectura: la Clara narrava i feia la pregunta; tot el grup seria el gat. L’Omar va aixecar la mà perquè esperessin i la va abaixar en acabar la pregunta. Llavors van respondre junts. L’última paraula va sortir tan forta que un ocell va deixar el banc i es va posar a l’arbre.",
+          "Us enviem la pàgina perquè la pugueu repetir amb altres veus i gestos. El dibuix continua sent el mateix. Nosaltres ara, en veure’l, sentim el gat amb moltes veus.\nFins a la pròxima,\nClara i Omar"
+        ],
+        "questions": [
+          {
+            "id": "l288a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "A quin grup van llegir les pàgines?",
+            "answer": "Al grup de primer.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "amb el grup de primer"
+              }
+            ]
+          },
+          {
+            "id": "l288a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què respon el gat a l’encarregada?",
+            "answer": "«El vigilant dels enciams».",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El vigilant dels enciams"
+              }
+            ]
+          },
+          {
+            "id": "l288a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la June pregunta qui parla durant la primera lectura?",
+            "answer": "Perquè tots dos lectors diuen alhora la resposta del gat i es confonen les veus.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "tots dos vam dir la resposta del gat alhora"
+              }
+            ]
+          },
+          {
+            "id": "l288a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què significa «trepitjar-nos» en aquesta carta?",
+            "answer": "Parlar alhora, de manera que les veus se superposen.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Per no trepitjar-nos parlant"
+              }
+            ]
+          },
+          {
+            "id": "l288a-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Com es reparteixen les veus a la segona lectura?",
+            "answer": "La Clara narra i llegeix la pregunta de l’encarregada; l’Omar respon com el gat.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La Clara explicaria què passava i llegiria la pregunta de l’encarregada. L’Omar respondria com el gat"
+              }
+            ]
+          },
+          {
+            "id": "l288a-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quan abaixa la mà l’Omar i què fa llavors el grup?",
+            "answer": "L’abaixa en acabar la pregunta; el grup respon junt com el gat.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "la va abaixar en acabar la pregunta. Llavors van respondre junts"
+              }
+            ]
+          },
+          {
+            "id": "l288a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix com va canviar la lectura des del primer intent fins a l’últim.",
+            "answer": "Primer es van confondre en llegir junts. Després van repartir veus i van deixar una pausa; al final el grup va fer de gat seguint el senyal de l’Omar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "vam repartir les veus"
+              },
+              {
+                "paragraph": 4,
+                "text": "tot el grup seria el gat"
+              }
+            ]
+          },
+          {
+            "id": "l288a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quin personatge t’agradaria llegir en veu alta i com en faries la veu? Explica-ho.",
+            "answer": "Resposta personal que relaciona una tria de veu o ritme amb un personatge."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "trepitjar-nos",
+            "occurrence": 1,
+            "questionId": "l288a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l288-scene",
+            "src": "assets/readings/l288-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar llegeixen una pàgina del diari al pati a tres alumnes més petits asseguts en un banc.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen el diari escolar en una taula del pati, en una il·lustració blava i taronja.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-pagina-que-se-oyo-en-el-patio-es",
+        "code": "L288",
+        "workId": "la-pagina-que-se-oyo-en-el-patio",
+        "language": "es",
+        "familyId": "familia-l288",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "letter",
+        "title": "La página que se oyó en el patio",
+        "summary": "Una carta recuerda una lectura del periódico en la que el público acabó interpretando al gato de una historieta.",
+        "paragraphs": [
+          "Queridos lectores del patio:\nSomos Clara y Omar, alumnos de sexto y colaboradores del periódico escolar. Os escribimos después de la lectura que compartimos ayer con el grupo de primero. Su maestra nos invitó a llevar unas páginas al banco del tilo. Elegimos una noticia sobre el huerto y una historieta breve, porque nos parecía que podían escucharlas sin tener todo el periódico delante.",
+          "En la noticia leímos lo que habían plantado varias clases. Después abrimos la historieta. Contaba que un gato se dormía dentro de una caja del huerto. La encargada encontraba la caja y preguntaba: «¿Quién duerme ahí?». El gato respondía: «El vigilante de las lechugas». Después volvía a cerrar los ojos. Sobre el papel, las frases aparecían junto a cada personaje; al leerlas, empezamos los dos a decir la respuesta del gato. June, que estaba en el extremo del banco, preguntó quién había contestado.",
+          "Nos miramos y paramos. Habíamos preparado qué páginas llevar, pero no quién leería cada intervención. Para no pisarnos al hablar, Clara narraría y haría la pregunta de la encargada; Omar respondería como el gato. Antes de su frase dejamos una pausa. Clara miró a Omar y él contestó con una voz adormilada. June sonrió y señaló la caja del dibujo cuando le enseñamos la página.",
+          "Entonces pidió responder también. Otras manos se levantaron. Probamos una tercera lectura: Clara mantendría la narración y la pregunta, y el grupo entero sería el gato. Omar levantó la mano mientras Clara leía, para que esperaran. La bajó cuando terminó la pregunta. Todos contestaron juntos, y esta vez la encargada del huerto parecía haber despertado a una familia enorme de gatos.",
+          "La última palabra sonó tan fuerte que un pájaro dejó el banco y se posó en una rama del tilo. Algunos empezaron a reír antes de que acabáramos. Esperamos a que se calmaran y repetimos la última frase para quienes no la habían oído. Después la maestra dejó la página en el centro del banco y los pequeños se acercaron a mirar la historieta.",
+          "Os enviamos una copia por si queréis repetirla. No hemos cambiado las palabras del gato ni el dibujo. Pero ahora, cuando abrimos esa página, ya no la oímos con una sola voz. June nos ha pedido otra historia para la próxima visita.\nHasta pronto,\nClara y Omar"
+        ],
+        "questions": [
+          {
+            "id": "l288-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Quién los invitó a leer y dónde se reunieron?",
+            "answer": "La maestra de primero; se reunieron en el banco del tilo.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Su maestra nos invitó a llevar unas páginas al banco del tilo"
+              }
+            ]
+          },
+          {
+            "id": "l288-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué dos tipos de texto llevaron?",
+            "answer": "Una noticia sobre el huerto y una historieta breve.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una noticia sobre el huerto y una historieta breve"
+              }
+            ]
+          },
+          {
+            "id": "l288-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué diferencia entre mirar el papel y escuchar ayuda a explicar la confusión de June?",
+            "answer": "En el papel cada frase está junto a su personaje; al oír a los dos lectores juntos no se distingue la voz del gato.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "las frases aparecían junto a cada personaje"
+              },
+              {
+                "paragraph": 2,
+                "text": "empezamos los dos a decir la respuesta del gato"
+              }
+            ]
+          },
+          {
+            "id": "l288-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Explica «pisarnos» referido a las voces.",
+            "answer": "Hablar simultáneamente, tapándose o superponiéndose.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Para no pisarnos al hablar"
+              }
+            ]
+          },
+          {
+            "id": "l288-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué preparación habían hecho y cuál les faltaba al empezar?",
+            "answer": "Habían elegido las páginas, pero no repartido quién leería cada intervención.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Habíamos preparado qué páginas llevar, pero no quién leería cada intervención"
+              }
+            ]
+          },
+          {
+            "id": "l288-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué aporta la pausa antes de que Omar responda en la segunda lectura?",
+            "answer": "Separa la pregunta de la respuesta y ayuda a distinguir las intervenciones.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Antes de su frase dejamos una pausa. Clara miró a Omar y él contestó"
+              }
+            ]
+          },
+          {
+            "id": "l288-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué cambia en la tercera lectura respecto a la segunda?",
+            "answer": "Todo el grupo responde como el gato; Omar da la señal para entrar.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "el grupo entero sería el gato"
+              },
+              {
+                "paragraph": 4,
+                "text": "La bajó cuando terminó la pregunta"
+              }
+            ]
+          },
+          {
+            "id": "l288-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué esperan y repiten la última frase tras las risas?",
+            "answer": "Porque algunos no la habían oído y quieren que puedan seguir el final.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "repetimos la última frase para quienes no la habían oído"
+              }
+            ]
+          },
+          {
+            "id": "l288-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume los dos ajustes principales que hicieron para compartir la historieta.",
+            "answer": "Primero repartieron las voces y separaron las intervenciones con una pausa. Después incorporaron al grupo como gato, siguiendo una señal para responder juntos.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Clara narraría y haría la pregunta de la encargada; Omar respondería como el gato"
+              },
+              {
+                "paragraph": 4,
+                "text": "el grupo entero sería el gato"
+              }
+            ]
+          },
+          {
+            "id": "l288-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué texto elegirías para otra lectura con primero y por qué?",
+            "answer": "Elección personal justificada por extensión, tema, voces, posibilidad de participación u otra característica."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "pisarnos",
+            "occurrence": 1,
+            "questionId": "l288-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l288-scene",
+            "src": "assets/readings/l288-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar leen una página del periódico en el patio a tres alumnos más pequeños sentados en un banco.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan el periódico escolar en una mesa del patio, en una ilustración azul y naranja.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "la-pagina-que-se-oyo-en-el-patio-ca",
+        "code": "L288",
+        "workId": "la-pagina-que-se-oyo-en-el-patio",
+        "language": "ca",
+        "familyId": "familia-l288",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "letter",
+        "title": "La pàgina que es va sentir al pati",
+        "summary": "Una carta recorda una lectura del diari en què el públic va acabar interpretant el gat d’una historieta.",
+        "paragraphs": [
+          "Estimats lectors del pati:\nSom la Clara i l’Omar, alumnes de sisè i col·laboradors del diari escolar. Us escrivim després de la lectura que vam compartir ahir amb el grup de primer. La seva mestra ens va convidar a portar unes pàgines al banc del til·ler. Vam triar una notícia sobre l’hort i una historieta breu, perquè ens semblava que les podien escoltar sense tenir tot el diari al davant.",
+          "A la notícia vam llegir què havien plantat diverses classes. Després vam obrir la historieta. Explicava que un gat s’adormia dins d’una caixa de l’hort. L’encarregada trobava la caixa i preguntava: «Qui dorm aquí?». El gat responia: «El vigilant dels enciams». Després tornava a tancar els ulls. Al paper, les frases apareixien al costat de cada personatge; en llegir-les, tots dos vam començar a dir la resposta del gat. La June, que era a la punta del banc, va preguntar qui havia contestat.",
+          "Ens vam mirar i vam parar. Havíem preparat quines pàgines portar, però no qui llegiria cada intervenció. Per no trepitjar-nos parlant, la Clara narraria i faria la pregunta de l’encarregada; l’Omar respondria com el gat. Abans de la seva frase vam deixar una pausa. La Clara va mirar l’Omar i ell va contestar amb una veu endormiscada. La June va somriure i va assenyalar la caixa del dibuix quan li vam ensenyar la pàgina.",
+          "Llavors va demanar respondre també. Es van aixecar altres mans. Vam provar una tercera lectura: la Clara mantindria la narració i la pregunta, i el grup sencer seria el gat. L’Omar va aixecar la mà mentre la Clara llegia, perquè esperessin. La va abaixar quan es va acabar la pregunta. Tots van contestar junts, i aquest cop l’encarregada de l’hort semblava haver despertat una família enorme de gats.",
+          "L’última paraula va sonar tan forta que un ocell va deixar el banc i es va posar en una branca del til·ler. Alguns van començar a riure abans que acabéssim. Vam esperar que es calmessin i vam repetir l’última frase per als qui no l’havien sentida. Després la mestra va deixar la pàgina al mig del banc i els petits s’hi van acostar per mirar la historieta.",
+          "Us enviem una còpia per si la voleu repetir. No hem canviat les paraules del gat ni el dibuix. Però ara, quan obrim aquella pàgina, ja no la sentim amb una sola veu. La June ens ha demanat una altra història per a la pròxima visita.\nFins aviat,\nClara i Omar"
+        ],
+        "questions": [
+          {
+            "id": "l288-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Qui els va convidar a llegir i on es van reunir?",
+            "answer": "La mestra de primer; es van reunir al banc del til·ler.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "La seva mestra ens va convidar a portar unes pàgines al banc del til·ler"
+              }
+            ]
+          },
+          {
+            "id": "l288-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quins dos tipus de text van portar?",
+            "answer": "Una notícia sobre l’hort i una historieta breu.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una notícia sobre l’hort i una historieta breu"
+              }
+            ]
+          },
+          {
+            "id": "l288-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina diferència entre mirar el paper i escoltar ajuda a explicar la confusió de la June?",
+            "answer": "Al paper cada frase és al costat del personatge; en sentir tots dos lectors junts no es distingeix la veu del gat.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "les frases apareixien al costat de cada personatge"
+              },
+              {
+                "paragraph": 2,
+                "text": "tots dos vam començar a dir la resposta del gat"
+              }
+            ]
+          },
+          {
+            "id": "l288-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Explica «trepitjar-nos» referit a les veus.",
+            "answer": "Parlar simultàniament, tapant-se o superposant-se.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Per no trepitjar-nos parlant"
+              }
+            ]
+          },
+          {
+            "id": "l288-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina preparació havien fet i quina els faltava en començar?",
+            "answer": "Havien triat les pàgines, però no havien repartit qui llegiria cada intervenció.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Havíem preparat quines pàgines portar, però no qui llegiria cada intervenció"
+              }
+            ]
+          },
+          {
+            "id": "l288-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què aporta la pausa abans que l’Omar respongui a la segona lectura?",
+            "answer": "Separa la pregunta de la resposta i ajuda a distingir les intervencions.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Abans de la seva frase vam deixar una pausa. La Clara va mirar l’Omar i ell va contestar"
+              }
+            ]
+          },
+          {
+            "id": "l288-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què canvia a la tercera lectura respecte de la segona?",
+            "answer": "Tot el grup respon com el gat; l’Omar dona el senyal per entrar.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "el grup sencer seria el gat"
+              },
+              {
+                "paragraph": 4,
+                "text": "La va abaixar quan es va acabar la pregunta"
+              }
+            ]
+          },
+          {
+            "id": "l288-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què esperen i repeteixen l’última frase després de les rialles?",
+            "answer": "Perquè alguns no l’havien sentida i volen que puguin seguir el final.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "vam repetir l’última frase per als qui no l’havien sentida"
+              }
+            ]
+          },
+          {
+            "id": "l288-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix els dos ajustos principals que van fer per compartir la historieta.",
+            "answer": "Primer van repartir les veus i van separar les intervencions amb una pausa. Després van incorporar el grup com a gat, seguint un senyal per respondre junts.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "la Clara narraria i faria la pregunta de l’encarregada; l’Omar respondria com el gat"
+              },
+              {
+                "paragraph": 4,
+                "text": "el grup sencer seria el gat"
+              }
+            ]
+          },
+          {
+            "id": "l288-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quin text triaries per a una altra lectura amb primer i per què?",
+            "answer": "Tria personal justificada per extensió, tema, veus, possibilitat de participació o una altra característica."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "trepitjar-nos",
+            "occurrence": 1,
+            "questionId": "l288-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l288-scene",
+            "src": "assets/readings/l288-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar llegeixen una pàgina del diari al pati a tres alumnes més petits asseguts en un banc.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen el diari escolar en una taula del pati, en una il·lustració blava i taronja.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "la-pagina-que-se-oyo-en-el-patio-b-es",
+        "code": "L288B",
+        "workId": "la-pagina-que-se-oyo-en-el-patio-b",
+        "language": "es",
+        "familyId": "familia-l288",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "letter",
+        "title": "La página que se oyó en el patio",
+        "summary": "Una carta muestra cómo cambia la interpretación de una página al pasar del papel a una lectura compartida con el público.",
+        "paragraphs": [
+          "Queridos lectores del patio:\nOs enviamos la copia que prometimos ayer al terminar la lectura bajo el tilo. Somos Clara y Omar, de sexto, y formamos parte del equipo del periódico escolar. La maestra de primero nos había invitado a compartir unas páginas con su grupo. Escogimos una noticia sobre las plantas del huerto y una historieta breve. La noticia contaba una actividad real de varias clases; la historieta imaginaba a un gato que se dormía dentro de una caja.",
+          "Nos sentamos cerca del banco y empezamos por la noticia. Cuando abrimos la historieta, leímos que la encargada del huerto encontraba la caja y preguntaba: «¿Quién duerme ahí?». El gato respondía: «El vigilante de las lechugas». Después volvía a cerrar los ojos. Sobre el papel, las frases estaban dentro de bocadillos junto a quien las decía. Nosotros teníamos la página delante; el grupo escuchaba. No habíamos pensado en repartir las intervenciones y dijimos los dos la respuesta del gato.",
+          "June, desde el extremo del banco, preguntó quién había hablado. Clara señaló al gato en la página, pero desde allí June solo veía una esquina del papel. Acercamos el dibujo y volvimos a mirar el texto. Habíamos elegido algo corto, con una escena que nos hacía gracia; después nos habíamos puesto a leer sin decidir cómo entraría cada voz. Omar repitió la respuesta, esta vez solo, con un bostezo que dejó al gato todavía más dormido.",
+          "Para no pisarnos al hablar, acordamos que Clara narraría y leería la pregunta de la encargada; Omar contestaría como el gato. Probamos dejando una pausa antes de su frase. Clara lo miró al terminar la pregunta y Omar respondió con la voz adormilada. June sonrió y luego pidió hacer ella también de gato. Se levantaron otras manos. La maestra miró hacia la página que sosteníamos y se apartó un poco para que el grupo tuviera sitio.",
+          "En el siguiente intento, todo el grupo respondería como el gato. Clara mantendría la narración y la pregunta. Omar levantaría la mano mientras ella leía y la bajaría al terminar la pregunta, para darles la entrada. Ensayamos la señal una vez sin leer. Algunos entraron antes de tiempo y se rieron; esperamos y probamos de nuevo. Cuando Clara leyó la pregunta completa, el grupo respondió a la vez. La encargada del dibujo parecía haber encontrado muchos gatos en una sola caja.",
+          "La última palabra sonó tan fuerte que un pájaro dejó el banco y se posó en una rama. Las risas taparon parte del final que estábamos contando. Esperamos a que bajaran y repetimos la última frase para quienes no la habían oído. Después dejamos la página en el centro del banco. June se acercó a mirar el gato y otro niño buscó dónde estaban escritas las palabras que acababan de decir.",
+          "Aquí tenéis la copia. Conserva el mismo diálogo y los mismos dibujos. Las voces, la pausa y la señal no aparecen impresas, pero os las contamos por si queréis repetir la lectura. Para la próxima visita estamos buscando otra historia. Omar ha pedido que no tenga un personaje que se pase toda la página durmiendo: dice que ya lleva dos bostezos de adelanto.\nHasta pronto,\nClara y Omar"
+        ],
+        "questions": [
+          {
+            "id": "l288b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué distingue los dos textos que llevaron según el primer párrafo?",
+            "answer": "La noticia cuenta una actividad real; la historieta imagina a un gato que duerme en una caja.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "La noticia contaba una actividad real de varias clases; la historieta imaginaba a un gato"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué señalar al gato en la página no resuelve por sí solo la duda de June?",
+            "answer": "Porque desde su sitio apenas ve una esquina; la referencia visual que tienen los lectores no le llega igual.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "desde allí June solo veía una esquina del papel"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué habían seleccionado y qué no habían repartido antes de empezar?",
+            "answer": "Habían seleccionado una escena breve, pero no habían repartido las intervenciones de las voces.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Habíamos elegido algo corto"
+              },
+              {
+                "paragraph": 2,
+                "text": "No habíamos pensado en repartir las intervenciones"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «pisarnos» aplicado a esta lectura?",
+            "answer": "Superponer las voces al hablar simultáneamente, sin distinguir las intervenciones.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Para no pisarnos al hablar"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cómo se reparten las tareas antes de incorporar la respuesta del grupo?",
+            "answer": "Clara narra y hace la pregunta de la encargada; Omar responde como gato.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Clara narraría y leería la pregunta de la encargada; Omar contestaría como el gato"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué efecto tienen, juntas, la pausa y la mirada de Clara a Omar?",
+            "answer": "Separa las intervenciones y señala cuándo entra la respuesta, de modo que no empiezan a la vez.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Clara lo miró al terminar la pregunta y Omar respondió"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué motiva que prueben una lectura con el grupo como gato?",
+            "answer": "June pide participar y otros niños también levantan la mano.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "June sonrió y luego pidió hacer ella también de gato. Se levantaron otras manos"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q8",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cómo ensayan la señal antes de leer de nuevo la historieta?",
+            "answer": "Prueban una vez sin leer, esperan tras las entradas anticipadas y lo repiten.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Ensayamos la señal una vez sin leer. Algunos entraron antes de tiempo y se rieron; esperamos y probamos de nuevo"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué repiten la última frase después de esperar?",
+            "answer": "Porque las risas habían tapado parte del final a algunos oyentes.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Las risas taparon parte del final"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q10",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Por qué la carta acompaña la copia con una explicación de voces, pausa y señal?",
+            "answer": "Porque esos recursos de la lectura no están impresos en la historieta y pueden ayudar a repetirla.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "Las voces, la pausa y la señal no aparecen impresas, pero os las contamos por si queréis repetir la lectura"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resume cómo pasan de leer una página a compartir su interpretación con el grupo.",
+            "answer": "La confusión inicial les hace repartir voces y marcar entradas. La petición de June incorpora al grupo como gato; después ajustan el ritmo y repiten lo que no se ha oído, conservando el diálogo.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Para no pisarnos al hablar, acordamos"
+              },
+              {
+                "paragraph": 5,
+                "text": "todo el grupo respondería como el gato"
+              },
+              {
+                "paragraph": 7,
+                "text": "Conserva el mismo diálogo y los mismos dibujos"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿Qué parte de otra página del periódico podrías compartir con voces o gestos? Propón una adaptación y explica su utilidad.",
+            "answer": "Propuesta personal viable que relaciona un recurso oral o gestual con la comprensión o participación."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "pisarnos",
+            "occurrence": 1,
+            "questionId": "l288b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l288-scene",
+            "src": "assets/readings/l288-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar leen una página del periódico en el patio a tres alumnos más pequeños sentados en un banco.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan el periódico escolar en una mesa del patio, en una ilustración azul y naranja.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "la-pagina-que-se-oyo-en-el-patio-b-ca",
+        "code": "L288B",
+        "workId": "la-pagina-que-se-oyo-en-el-patio-b",
+        "language": "ca",
+        "familyId": "familia-l288",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "letter",
+        "title": "La pàgina que es va sentir al pati",
+        "summary": "Una carta mostra com canvia la interpretació d’una pàgina en passar del paper a una lectura compartida amb el públic.",
+        "paragraphs": [
+          "Estimats lectors del pati:\nUs enviem la còpia que vam prometre ahir en acabar la lectura sota el til·ler. Som la Clara i l’Omar, de sisè, i formem part de l’equip del diari escolar. La mestra de primer ens havia convidat a compartir unes pàgines amb el seu grup. Vam triar una notícia sobre les plantes de l’hort i una historieta breu. La notícia explicava una activitat real de diverses classes; la historieta imaginava un gat que s’adormia dins d’una caixa.",
+          "Ens vam asseure a prop del banc i vam començar per la notícia. Quan vam obrir la historieta, vam llegir que l’encarregada de l’hort trobava la caixa i preguntava: «Qui dorm aquí?». El gat responia: «El vigilant dels enciams». Després tornava a tancar els ulls. Al paper, les frases eren dins de bafarades al costat de qui les deia. Nosaltres teníem la pàgina al davant; el grup escoltava. No havíem pensat a repartir les intervencions i tots dos vam dir la resposta del gat.",
+          "La June, des de la punta del banc, va preguntar qui havia parlat. La Clara va assenyalar el gat a la pàgina, però des d’allà la June només veia una cantonada del paper. Vam acostar el dibuix i vam tornar a mirar el text. Havíem triat una cosa curta, amb una escena que ens feia gràcia; després ens havíem posat a llegir sense decidir com entraria cada veu. L’Omar va repetir la resposta, aquest cop sol, amb un badall que va deixar el gat encara més adormit.",
+          "Per no trepitjar-nos parlant, vam acordar que la Clara narraria i llegiria la pregunta de l’encarregada; l’Omar contestaria com el gat. Vam provar deixant una pausa abans de la seva frase. La Clara el va mirar en acabar la pregunta i l’Omar va respondre amb la veu endormiscada. La June va somriure i després va demanar fer ella també de gat. Es van aixecar altres mans. La mestra va mirar cap a la pàgina que sosteníem i es va apartar una mica perquè el grup tingués lloc.",
+          "A l’intent següent, tot el grup respondria com el gat. La Clara mantindria la narració i la pregunta. L’Omar aixecaria la mà mentre ella llegia i l’abaixaria en acabar la pregunta, per donar-los l’entrada. Vam assajar el senyal una vegada sense llegir. Alguns van entrar abans d’hora i van riure; vam esperar i ho vam tornar a provar. Quan la Clara va llegir la pregunta completa, el grup va respondre alhora. L’encarregada del dibuix semblava haver trobat molts gats en una sola caixa.",
+          "L’última paraula va sonar tan forta que un ocell va deixar el banc i es va posar en una branca. Les rialles van tapar part del final que explicàvem. Vam esperar que baixessin i vam repetir l’última frase per als qui no l’havien sentida. Després vam deixar la pàgina al mig del banc. La June s’hi va acostar per mirar el gat i un altre nen va buscar on eren escrites les paraules que acabaven de dir.",
+          "Aquí teniu la còpia. Conserva el mateix diàleg i els mateixos dibuixos. Les veus, la pausa i el senyal no hi apareixen impresos, però us els expliquem per si voleu repetir la lectura. Per a la pròxima visita estem buscant una altra història. L’Omar ha demanat que no tingui un personatge que es passi tota la pàgina dormint: diu que ja porta dos badalls d’avantatge.\nFins aviat,\nClara i Omar"
+        ],
+        "questions": [
+          {
+            "id": "l288b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què distingeix els dos textos que van portar segons el primer paràgraf?",
+            "answer": "La notícia explica una activitat real; la historieta imagina un gat que dorm en una caixa.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "La notícia explicava una activitat real de diverses classes; la historieta imaginava un gat"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què assenyalar el gat a la pàgina no resol per si sol el dubte de la June?",
+            "answer": "Perquè des del seu lloc amb prou feines veu una cantonada; la referència visual que tenen els lectors no li arriba igual.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "des d’allà la June només veia una cantonada del paper"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què havien seleccionat i què no havien repartit abans de començar?",
+            "answer": "Havien seleccionat una escena breu, però no havien repartit les intervencions de les veus.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Havíem triat una cosa curta"
+              },
+              {
+                "paragraph": 2,
+                "text": "No havíem pensat a repartir les intervencions"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què significa «trepitjar-nos» aplicat a aquesta lectura?",
+            "answer": "Superposar les veus en parlar simultàniament, sense distingir les intervencions.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Per no trepitjar-nos parlant"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Com es reparteixen les tasques abans d’incorporar la resposta del grup?",
+            "answer": "La Clara narra i fa la pregunta de l’encarregada; l’Omar respon com a gat.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "la Clara narraria i llegiria la pregunta de l’encarregada; l’Omar contestaria com el gat"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quin efecte tenen, juntes, la pausa i la mirada de la Clara a l’Omar?",
+            "answer": "Separa les intervencions i assenyala quan entra la resposta, de manera que no comencen alhora.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La Clara el va mirar en acabar la pregunta i l’Omar va respondre"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què motiva que provin una lectura amb el grup com a gat?",
+            "answer": "La June demana participar-hi i altres infants també aixequen la mà.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La June va somriure i després va demanar fer ella també de gat. Es van aixecar altres mans"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q8",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Com assagen el senyal abans de tornar a llegir la historieta?",
+            "answer": "Proven una vegada sense llegir, esperen després de les entrades anticipades i ho repeteixen.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Vam assajar el senyal una vegada sense llegir. Alguns van entrar abans d’hora i van riure; vam esperar i ho vam tornar a provar"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què repeteixen l’última frase després d’esperar?",
+            "answer": "Perquè les rialles havien tapat part del final a alguns oients.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Les rialles van tapar part del final"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q10",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Per què la carta acompanya la còpia amb una explicació de veus, pausa i senyal?",
+            "answer": "Perquè aquells recursos de la lectura no són impresos a la historieta i poden ajudar a repetir-la.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "Les veus, la pausa i el senyal no hi apareixen impresos, però us els expliquem per si voleu repetir la lectura"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resumeix com passen de llegir una pàgina a compartir-ne la interpretació amb el grup.",
+            "answer": "La confusió inicial els fa repartir veus i marcar entrades. La petició de la June incorpora el grup com a gat; després ajusten el ritme i repeteixen què no s’ha sentit, conservant el diàleg.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Per no trepitjar-nos parlant, vam acordar"
+              },
+              {
+                "paragraph": 5,
+                "text": "tot el grup respondria com el gat"
+              },
+              {
+                "paragraph": 7,
+                "text": "Conserva el mateix diàleg i els mateixos dibuixos"
+              }
+            ]
+          },
+          {
+            "id": "l288b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Quina part d’una altra pàgina del diari podries compartir amb veus o gestos? Proposa una adaptació i explica’n la utilitat.",
+            "answer": "Proposta personal viable que relaciona un recurs oral o gestual amb la comprensió o la participació."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "trepitjar-nos",
+            "occurrence": 1,
+            "questionId": "l288b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l288-scene",
+            "src": "assets/readings/l288-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar llegeixen una pàgina del diari al pati a tres alumnes més petits asseguts en un banc.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen el diari escolar en una taula del pati, en una il·lustració blava i taronja.",
+            "afterParagraph": 5
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L288A",
+        "language": "es",
+        "questions": {
+          "l288a-q1": {
+            "prompt": "¿A qué grupo leyeron las páginas?",
+            "options": [
+              "A los compañeros de la redacción.",
+              "Al grupo de primero.",
+              "A las familias del huerto.",
+              "Al grupo de sexto entero."
+            ],
+            "correct": "b",
+            "explanation": "Al grupo de primero."
+          },
+          "l288a-q2": {
+            "prompt": "¿Qué responde el gato a la encargada?",
+            "options": [
+              "Que lleva las cajas del huerto.",
+              "Que pregunta por las lechugas.",
+              "Que espera a la encargada.",
+              "Que es el vigilante de las lechugas."
+            ],
+            "correct": "d",
+            "explanation": "«El vigilante de las lechugas»."
+          },
+          "l288a-q3": {
+            "prompt": "¿Por qué June pregunta quién habla durante la primera lectura?",
+            "options": [
+              "Porque los lectores dicen juntos la misma respuesta.",
+              "Porque no han contado dónde está el gato.",
+              "Porque el texto no incluye palabras del gato.",
+              "Porque el pájaro interrumpe la primera frase."
+            ],
+            "correct": "a",
+            "explanation": "Porque ambos lectores dicen a la vez la respuesta del gato y se confunden las voces."
+          },
+          "l288a-q4": {
+            "prompt": "¿Qué significa «pisarnos» en esta carta?",
+            "options": [
+              "Cambiar de sitio durante la lectura.",
+              "Leer demasiado despacio una frase.",
+              "Hablar a la vez y superponer las voces.",
+              "Pasar de página sin terminar la frase."
+            ],
+            "correct": "c",
+            "explanation": "Hablar al mismo tiempo, de forma que las voces se superponen."
+          },
+          "l288a-q5": {
+            "prompt": "¿Cómo se reparten las voces en la segunda lectura?",
+            "options": [
+              "Omar narra y Clara responde como el gato.",
+              "Clara narra y pregunta; Omar hace de gato.",
+              "June narra y los dos lectores hacen de gato.",
+              "El grupo pregunta y Clara responde como el gato."
+            ],
+            "correct": "b",
+            "explanation": "Clara narra y lee la pregunta de la encargada; Omar responde como el gato."
+          },
+          "l288a-q6": {
+            "prompt": "¿Cuándo baja Omar la mano y qué hace entonces el grupo?",
+            "options": [
+              "La baja al empezar y el grupo repite toda la narración.",
+              "La baja al llegar June y el grupo cambia de banco.",
+              "La baja al volar el pájaro y el grupo guarda silencio.",
+              "La baja tras la pregunta y el grupo da la respuesta del gato."
+            ],
+            "correct": "d",
+            "explanation": "La baja al terminar la pregunta; el grupo responde junto como el gato."
+          },
+          "l288a-q7": {
+            "prompt": "¿Qué resumen explica mejor la evolución de la lectura?",
+            "options": [
+              "Repartieron las voces y después incorporaron al grupo como personaje.",
+              "Cambió la historia para que June apareciera como protagonista.",
+              "Retiraron al gato y terminaron leyendo solo la noticia del huerto.",
+              "La pausa sirvió para que el grupo dibujara una página nueva."
+            ],
+            "correct": "a",
+            "explanation": "Primero se confundieron al leer juntos. Después repartieron voces y dejaron una pausa; al final el grupo hizo de gato siguiendo la señal de Omar."
+          }
+        }
+      },
+      {
+        "code": "L288A",
+        "language": "ca",
+        "questions": {
+          "l288a-q1": {
+            "prompt": "A quin grup van llegir les pàgines?",
+            "options": [
+              "Als companys de la redacció.",
+              "Al grup de primer.",
+              "A les famílies de l’hort.",
+              "Al grup de sisè sencer."
+            ],
+            "correct": "b",
+            "explanation": "Al grup de primer."
+          },
+          "l288a-q2": {
+            "prompt": "Què respon el gat a l’encarregada?",
+            "options": [
+              "Que porta les caixes de l’hort.",
+              "Que pregunta pels enciams.",
+              "Que espera l’encarregada.",
+              "Que és el vigilant dels enciams."
+            ],
+            "correct": "d",
+            "explanation": "«El vigilant dels enciams»."
+          },
+          "l288a-q3": {
+            "prompt": "Per què la June pregunta qui parla durant la primera lectura?",
+            "options": [
+              "Perquè els lectors diuen junts la mateixa resposta.",
+              "Perquè no han explicat on és el gat.",
+              "Perquè el text no inclou paraules del gat.",
+              "Perquè l’ocell interromp la primera frase."
+            ],
+            "correct": "a",
+            "explanation": "Perquè tots dos lectors diuen alhora la resposta del gat i es confonen les veus."
+          },
+          "l288a-q4": {
+            "prompt": "Què significa «trepitjar-nos» en aquesta carta?",
+            "options": [
+              "Canviar de lloc durant la lectura.",
+              "Llegir massa a poc a poc una frase.",
+              "Parlar alhora i superposar les veus.",
+              "Passar de pàgina sense acabar la frase."
+            ],
+            "correct": "c",
+            "explanation": "Parlar alhora, de manera que les veus se superposen."
+          },
+          "l288a-q5": {
+            "prompt": "Com es reparteixen les veus a la segona lectura?",
+            "options": [
+              "L’Omar narra i la Clara respon com el gat.",
+              "La Clara narra i pregunta; l’Omar fa de gat.",
+              "La June narra i tots dos lectors fan de gat.",
+              "El grup pregunta i la Clara respon com el gat."
+            ],
+            "correct": "b",
+            "explanation": "La Clara narra i llegeix la pregunta de l’encarregada; l’Omar respon com el gat."
+          },
+          "l288a-q6": {
+            "prompt": "Quan abaixa la mà l’Omar i què fa llavors el grup?",
+            "options": [
+              "L’abaixa en començar i el grup repeteix tota la narració.",
+              "L’abaixa en arribar la June i el grup canvia de banc.",
+              "L’abaixa quan l’ocell vola i el grup calla.",
+              "L’abaixa després de la pregunta i el grup dona la resposta del gat."
+            ],
+            "correct": "d",
+            "explanation": "L’abaixa en acabar la pregunta; el grup respon junt com el gat."
+          },
+          "l288a-q7": {
+            "prompt": "Quin resum explica millor l’evolució de la lectura?",
+            "options": [
+              "Van repartir les veus i després van incorporar el grup com a personatge.",
+              "Va canviar la història perquè la June hi aparegués com a protagonista.",
+              "Van retirar el gat i van acabar llegint només la notícia de l’hort.",
+              "La pausa va servir perquè el grup dibuixés una pàgina nova."
+            ],
+            "correct": "a",
+            "explanation": "Primer es van confondre en llegir junts. Després van repartir veus i van deixar una pausa; al final el grup va fer de gat seguint el senyal de l’Omar."
+          }
+        }
+      },
+      {
+        "code": "L288",
+        "language": "es",
+        "questions": {
+          "l288-q1": {
+            "prompt": "¿Quién los invitó a leer y dónde se reunieron?",
+            "options": [
+              "June los invitó a la mesa de la redacción.",
+              "La maestra de sexto los llevó al huerto.",
+              "La maestra de primero los invitó al banco del tilo.",
+              "La encargada los esperaba junto a la caja."
+            ],
+            "correct": "c",
+            "explanation": "La maestra de primero; se reunieron en el banco del tilo."
+          },
+          "l288-q2": {
+            "prompt": "¿Qué dos tipos de texto llevaron?",
+            "options": [
+              "Una noticia y una historieta.",
+              "Una carta y una entrevista.",
+              "Un poema y un anuncio.",
+              "Una receta y una noticia."
+            ],
+            "correct": "a",
+            "explanation": "Una noticia sobre el huerto y una historieta breve."
+          },
+          "l288-q3": {
+            "prompt": "¿Qué diferencia entre mirar el papel y escuchar ayuda a explicar la confusión de June?",
+            "options": [
+              "La noticia presentaba personajes que no aparecían dibujados.",
+              "La respuesta del gato había cambiado al leerla en voz alta.",
+              "June recordaba otra historia con la misma pregunta.",
+              "La posición de las frases ayudaba en el papel y las voces se superpusieron al leer."
+            ],
+            "correct": "d",
+            "explanation": "En el papel cada frase está junto a su personaje; al oír a los dos lectores juntos no se distingue la voz del gato."
+          },
+          "l288-q4": {
+            "prompt": "Explica «pisarnos» referido a las voces.",
+            "options": [
+              "Acercarse al banco para que oigan mejor.",
+              "Hablar al mismo tiempo y superponer las voces.",
+              "Cambiar las palabras de un personaje.",
+              "Esperar a que el otro termine su intervención."
+            ],
+            "correct": "b",
+            "explanation": "Hablar simultáneamente, tapándose o superponiéndose."
+          },
+          "l288-q5": {
+            "prompt": "¿Qué preparación habían hecho y cuál les faltaba al empezar?",
+            "options": [
+              "Habían preparado el dibujo, pero no escrito el diálogo.",
+              "Habían distribuido las voces, pero no elegido el lugar.",
+              "Habían seleccionado textos, pero no asignado las intervenciones.",
+              "Habían leído con primero, pero no pedido permiso a la maestra."
+            ],
+            "correct": "c",
+            "explanation": "Habían elegido las páginas, pero no repartido quién leería cada intervención."
+          },
+          "l288-q6": {
+            "prompt": "¿Qué aporta la pausa antes de que Omar responda en la segunda lectura?",
+            "options": [
+              "Marca el paso de la pregunta a la respuesta del gato.",
+              "Da tiempo a que el grupo responda como gato antes de la frase de Omar.",
+              "Marca el final de la respuesta del gato y el regreso a la narración de Clara.",
+              "Deja que Omar haga la pregunta y Clara entre como narradora."
+            ],
+            "correct": "a",
+            "explanation": "Separa la pregunta de la respuesta y ayuda a distinguir las intervenciones."
+          },
+          "l288-q7": {
+            "prompt": "¿Qué cambia en la tercera lectura respecto a la segunda?",
+            "options": [
+              "June hace de encargada y Omar vuelve a narrar.",
+              "El grupo lee la noticia y Clara interpreta al gato.",
+              "Los dos redactores vuelven a decir juntos la respuesta.",
+              "El grupo hace de gato y Omar coordina su entrada."
+            ],
+            "correct": "d",
+            "explanation": "Todo el grupo responde como el gato; Omar da la señal para entrar."
+          },
+          "l288-q8": {
+            "prompt": "¿Por qué esperan y repiten la última frase tras las risas?",
+            "options": [
+              "Porque habían olvidado quién debía interpretar al gato.",
+              "Porque la risa había impedido oír el final a algunos.",
+              "Porque la maestra quería cambiar el texto de la historieta.",
+              "Porque June había pedido empezar otra noticia."
+            ],
+            "correct": "b",
+            "explanation": "Porque algunos no la habían oído y quieren que puedan seguir el final."
+          },
+          "l288-q9": {
+            "prompt": "¿Qué resumen explica mejor esos ajustes?",
+            "options": [
+              "Sustituyeron la noticia por una carta y el gato por June.",
+              "Redibujaron la historieta y pidieron al grupo que la copiara.",
+              "Organizaron las voces y después dieron una intervención al grupo.",
+              "Eliminaron la pregunta del texto y dejaron la respuesta para el dibujo."
+            ],
+            "correct": "c",
+            "explanation": "Primero repartieron las voces y separaron las intervenciones con una pausa. Después incorporaron al grupo como gato, siguiendo una señal para responder juntos."
+          }
+        }
+      },
+      {
+        "code": "L288",
+        "language": "ca",
+        "questions": {
+          "l288-q1": {
+            "prompt": "Qui els va convidar a llegir i on es van reunir?",
+            "options": [
+              "La June els va convidar a la taula de la redacció.",
+              "La mestra de sisè els va portar a l’hort.",
+              "La mestra de primer els va convidar al banc del til·ler.",
+              "L’encarregada els esperava al costat de la caixa."
+            ],
+            "correct": "c",
+            "explanation": "La mestra de primer; es van reunir al banc del til·ler."
+          },
+          "l288-q2": {
+            "prompt": "Quins dos tipus de text van portar?",
+            "options": [
+              "Una notícia i una historieta.",
+              "Una carta i una entrevista.",
+              "Un poema i un anunci.",
+              "Una recepta i una notícia."
+            ],
+            "correct": "a",
+            "explanation": "Una notícia sobre l’hort i una historieta breu."
+          },
+          "l288-q3": {
+            "prompt": "Quina diferència entre mirar el paper i escoltar ajuda a explicar la confusió de la June?",
+            "options": [
+              "La notícia presentava personatges que no apareixien dibuixats.",
+              "La resposta del gat havia canviat en llegir-la en veu alta.",
+              "La June recordava una altra història amb la mateixa pregunta.",
+              "La posició de les frases ajudava al paper i les veus es van superposar en llegir."
+            ],
+            "correct": "d",
+            "explanation": "Al paper cada frase és al costat del personatge; en sentir tots dos lectors junts no es distingeix la veu del gat."
+          },
+          "l288-q4": {
+            "prompt": "Explica «trepitjar-nos» referit a les veus.",
+            "options": [
+              "Acostar-se al banc perquè hi sentin millor.",
+              "Parlar alhora i superposar les veus.",
+              "Canviar les paraules d’un personatge.",
+              "Esperar que l’altre acabi la intervenció."
+            ],
+            "correct": "b",
+            "explanation": "Parlar simultàniament, tapant-se o superposant-se."
+          },
+          "l288-q5": {
+            "prompt": "Quina preparació havien fet i quina els faltava en començar?",
+            "options": [
+              "Havien preparat el dibuix, però no havien escrit el diàleg.",
+              "Havien distribuït les veus, però no havien triat el lloc.",
+              "Havien seleccionat textos, però no havien assignat les intervencions.",
+              "Havien llegit amb primer, però no havien demanat permís a la mestra."
+            ],
+            "correct": "c",
+            "explanation": "Havien triat les pàgines, però no havien repartit qui llegiria cada intervenció."
+          },
+          "l288-q6": {
+            "prompt": "Què aporta la pausa abans que l’Omar respongui a la segona lectura?",
+            "options": [
+              "Marca el pas de la pregunta a la resposta del gat.",
+              "Dona temps perquè el grup respongui com a gat abans de la frase de l’Omar.",
+              "Marca el final de la resposta del gat i el retorn a la narració de la Clara.",
+              "Deixa que l’Omar faci la pregunta i la Clara entri com a narradora."
+            ],
+            "correct": "a",
+            "explanation": "Separa la pregunta de la resposta i ajuda a distingir les intervencions."
+          },
+          "l288-q7": {
+            "prompt": "Què canvia a la tercera lectura respecte de la segona?",
+            "options": [
+              "La June fa d’encarregada i l’Omar torna a narrar.",
+              "El grup llegeix la notícia i la Clara interpreta el gat.",
+              "Tots dos redactors tornen a dir junts la resposta.",
+              "El grup fa de gat i l’Omar en coordina l’entrada."
+            ],
+            "correct": "d",
+            "explanation": "Tot el grup respon com el gat; l’Omar dona el senyal per entrar."
+          },
+          "l288-q8": {
+            "prompt": "Per què esperen i repeteixen l’última frase després de les rialles?",
+            "options": [
+              "Perquè havien oblidat qui havia d’interpretar el gat.",
+              "Perquè la rialla havia impedit sentir el final a alguns.",
+              "Perquè la mestra volia canviar el text de la historieta.",
+              "Perquè la June havia demanat començar una altra notícia."
+            ],
+            "correct": "b",
+            "explanation": "Perquè alguns no l’havien sentida i volen que puguin seguir el final."
+          },
+          "l288-q9": {
+            "prompt": "Quin resum explica millor aquells ajustos?",
+            "options": [
+              "Van substituir la notícia per una carta i el gat per la June.",
+              "Van redibuixar la historieta i van demanar al grup que la copiés.",
+              "Van organitzar les veus i després van donar una intervenció al grup.",
+              "Van eliminar la pregunta del text i van deixar la resposta per al dibuix."
+            ],
+            "correct": "c",
+            "explanation": "Primer van repartir les veus i van separar les intervencions amb una pausa. Després van incorporar el grup com a gat, seguint un senyal per respondre junts."
+          }
+        }
+      },
+      {
+        "code": "L288B",
+        "language": "es",
+        "questions": {
+          "l288b-q1": {
+            "prompt": "¿Qué distingue los dos textos que llevaron según el primer párrafo?",
+            "options": [
+              "Ambos informan del mismo hecho, uno con datos y otro con dibujos.",
+              "La noticia narra un hecho escolar y la historieta presenta una escena inventada.",
+              "La noticia contiene opiniones y la historieta explica cómo cuidar el huerto.",
+              "Ambos dan instrucciones para plantar, con voces diferentes."
+            ],
+            "correct": "b",
+            "explanation": "La noticia cuenta una actividad real; la historieta imagina a un gato que duerme en una caja."
+          },
+          "l288b-q2": {
+            "prompt": "¿Por qué señalar al gato en la página no resuelve por sí solo la duda de June?",
+            "options": [
+              "June no conoce las palabras que están diciendo.",
+              "El gato aún no aparece dibujado en aquella página.",
+              "La página se ha cambiado por la noticia del huerto.",
+              "La posición de June dificulta ver lo que le señalan."
+            ],
+            "correct": "d",
+            "explanation": "Porque desde su sitio apenas ve una esquina; la referencia visual que tienen los lectores no le llega igual."
+          },
+          "l288b-q3": {
+            "prompt": "¿Qué habían seleccionado y qué no habían repartido antes de empezar?",
+            "options": [
+              "Habían escogido los textos, pero no asignado las intervenciones.",
+              "Habían escogido los personajes, pero no dibujado sus bocadillos.",
+              "Habían repartido los diálogos, pero no decidido a qué grupo leer.",
+              "Habían ensayado la señal, pero no elegido la noticia."
+            ],
+            "correct": "a",
+            "explanation": "Habían seleccionado una escena breve, pero no habían repartido las intervenciones de las voces."
+          },
+          "l288b-q4": {
+            "prompt": "¿Qué significa «pisarnos» aplicado a esta lectura?",
+            "options": [
+              "Repetir una palabra para que el grupo la entienda.",
+              "Mover el papel y ocultar los dibujos al público.",
+              "Hablar al mismo tiempo y solapar las intervenciones.",
+              "Detenerse antes de que entre la siguiente voz."
+            ],
+            "correct": "c",
+            "explanation": "Superponer las voces al hablar simultáneamente, sin distinguir las intervenciones."
+          },
+          "l288b-q5": {
+            "prompt": "¿Cómo se reparten las tareas antes de incorporar la respuesta del grupo?",
+            "options": [
+              "Clara hace de gato y Omar lee la pregunta y la noticia.",
+              "Clara narra y pregunta; Omar contesta como gato.",
+              "June pregunta y ambos redactores responden juntos.",
+              "Omar narra y June contesta antes de que Clara pregunte."
+            ],
+            "correct": "b",
+            "explanation": "Clara narra y hace la pregunta de la encargada; Omar responde como gato."
+          },
+          "l288b-q6": {
+            "prompt": "¿Qué efecto tienen, juntas, la pausa y la mirada de Clara a Omar?",
+            "options": [
+              "Señalan que Omar debe leer la pregunta y dejar la respuesta a Clara.",
+              "Dan entrada al grupo como gato antes de que Omar termine de hablar.",
+              "Cierran la respuesta de Omar para que Clara vuelva a narrar.",
+              "Marca una separación y la entrada de la siguiente voz."
+            ],
+            "correct": "d",
+            "explanation": "Separa las intervenciones y señala cuándo entra la respuesta, de modo que no empiezan a la vez."
+          },
+          "l288b-q7": {
+            "prompt": "¿Qué motiva que prueben una lectura con el grupo como gato?",
+            "options": [
+              "La petición de June se extiende a otros niños que quieren intervenir.",
+              "La maestra anuncia que Omar ya no puede seguir leyendo.",
+              "El periódico cambia el diálogo para incluir más personajes.",
+              "El grupo pide sustituir la historieta por una noticia."
+            ],
+            "correct": "a",
+            "explanation": "June pide participar y otros niños también levantan la mano."
+          },
+          "l288b-q8": {
+            "prompt": "¿Cómo ensayan la señal antes de leer de nuevo la historieta?",
+            "options": [
+              "Repiten toda la noticia hasta que el grupo guarda silencio.",
+              "Piden a June que muestre el dibujo durante el diálogo.",
+              "Prueban la entrada sin leer y repiten tras los primeros adelantos.",
+              "Ensayan la respuesta del gato mientras Clara vuelve a leer toda la noticia."
+            ],
+            "correct": "c",
+            "explanation": "Prueban una vez sin leer, esperan tras las entradas anticipadas y lo repiten."
+          },
+          "l288b-q9": {
+            "prompt": "¿Por qué repiten la última frase después de esperar?",
+            "options": [
+              "El grupo ha pedido cambiar las palabras de la encargada.",
+              "Algunos no han podido oír el final entre las risas.",
+              "Omar ha olvidado el orden de las páginas del periódico.",
+              "El gato de la historieta tiene una respuesta nueva."
+            ],
+            "correct": "b",
+            "explanation": "Porque las risas habían tapado parte del final a algunos oyentes."
+          },
+          "l288b-q10": {
+            "prompt": "¿Por qué la carta acompaña la copia con una explicación de voces, pausa y señal?",
+            "options": [
+              "Para que los lectores sepan qué palabras nuevas se han añadido al diálogo.",
+              "Para explicar por qué el grupo sustituyó la noticia por la historieta.",
+              "Para indicar qué dibujos cambiaron al incorporar las voces del grupo.",
+              "Para conservar decisiones de interpretación que el papel no muestra."
+            ],
+            "correct": "d",
+            "explanation": "Porque esos recursos de la lectura no están impresos en la historieta y pueden ayudar a repetirla."
+          },
+          "l288b-q11": {
+            "prompt": "¿Qué resumen mantiene mejor el cambio de la actividad?",
+            "options": [
+              "Organizan las voces y abren una intervención al público sin cambiar la historieta.",
+              "Modifican el diálogo para que cada niño tenga un personaje y una frase nueva.",
+              "Abandonan la lectura para que el grupo interprete los dibujos sin ninguna palabra.",
+              "Sustituyen la historieta por una carta que solo puede entender quien estuvo allí."
+            ],
+            "correct": "a",
+            "explanation": "La confusión inicial les hace repartir voces y marcar entradas. La petición de June incorpora al grupo como gato; después ajustan el ritmo y repiten lo que no se ha oído, conservando el diálogo."
+          }
+        }
+      },
+      {
+        "code": "L288B",
+        "language": "ca",
+        "questions": {
+          "l288b-q1": {
+            "prompt": "Què distingeix els dos textos que van portar segons el primer paràgraf?",
+            "options": [
+              "Tots dos informen del mateix fet, un amb dades i l’altre amb dibuixos.",
+              "La notícia narra un fet escolar i la historieta presenta una escena inventada.",
+              "La notícia conté opinions i la historieta explica com cuidar l’hort.",
+              "Tots dos donen instruccions per plantar, amb veus diferents."
+            ],
+            "correct": "b",
+            "explanation": "La notícia explica una activitat real; la historieta imagina un gat que dorm en una caixa."
+          },
+          "l288b-q2": {
+            "prompt": "Per què assenyalar el gat a la pàgina no resol per si sol el dubte de la June?",
+            "options": [
+              "La June no coneix les paraules que estan dient.",
+              "El gat encara no apareix dibuixat en aquella pàgina.",
+              "La pàgina s’ha canviat per la notícia de l’hort.",
+              "La posició de la June dificulta veure què li assenyalen."
+            ],
+            "correct": "d",
+            "explanation": "Perquè des del seu lloc amb prou feines veu una cantonada; la referència visual que tenen els lectors no li arriba igual."
+          },
+          "l288b-q3": {
+            "prompt": "Què havien seleccionat i què no havien repartit abans de començar?",
+            "options": [
+              "Havien triat els textos, però no havien assignat les intervencions.",
+              "Havien triat els personatges, però no havien dibuixat les bafarades.",
+              "Havien repartit els diàlegs, però no havien decidit a quin grup llegir.",
+              "Havien assajat el senyal, però no havien triat la notícia."
+            ],
+            "correct": "a",
+            "explanation": "Havien seleccionat una escena breu, però no havien repartit les intervencions de les veus."
+          },
+          "l288b-q4": {
+            "prompt": "Què significa «trepitjar-nos» aplicat a aquesta lectura?",
+            "options": [
+              "Repetir una paraula perquè el grup l’entengui.",
+              "Moure el paper i amagar els dibuixos al públic.",
+              "Parlar alhora i solapar les intervencions.",
+              "Aturar-se abans que entri la veu següent."
+            ],
+            "correct": "c",
+            "explanation": "Superposar les veus en parlar simultàniament, sense distingir les intervencions."
+          },
+          "l288b-q5": {
+            "prompt": "Com es reparteixen les tasques abans d’incorporar la resposta del grup?",
+            "options": [
+              "La Clara fa de gat i l’Omar llegeix la pregunta i la notícia.",
+              "La Clara narra i pregunta; l’Omar contesta com a gat.",
+              "La June pregunta i tots dos redactors responen junts.",
+              "L’Omar narra i la June contesta abans que la Clara pregunti."
+            ],
+            "correct": "b",
+            "explanation": "La Clara narra i fa la pregunta de l’encarregada; l’Omar respon com a gat."
+          },
+          "l288b-q6": {
+            "prompt": "Quin efecte tenen, juntes, la pausa i la mirada de la Clara a l’Omar?",
+            "options": [
+              "Assenyalen que l’Omar ha de llegir la pregunta i deixar la resposta a la Clara.",
+              "Donen entrada al grup com a gat abans que l’Omar acabi de parlar.",
+              "Tanquen la resposta de l’Omar perquè la Clara torni a narrar.",
+              "Marca una separació i l’entrada de la veu següent."
+            ],
+            "correct": "d",
+            "explanation": "Separa les intervencions i assenyala quan entra la resposta, de manera que no comencen alhora."
+          },
+          "l288b-q7": {
+            "prompt": "Què motiva que provin una lectura amb el grup com a gat?",
+            "options": [
+              "La petició de la June s’estén a altres infants que volen intervenir.",
+              "La mestra anuncia que l’Omar ja no pot continuar llegint.",
+              "El diari canvia el diàleg per incloure més personatges.",
+              "El grup demana substituir la historieta per una notícia."
+            ],
+            "correct": "a",
+            "explanation": "La June demana participar-hi i altres infants també aixequen la mà."
+          },
+          "l288b-q8": {
+            "prompt": "Com assagen el senyal abans de tornar a llegir la historieta?",
+            "options": [
+              "Repeteixen tota la notícia fins que el grup calla.",
+              "Demanen a la June que mostri el dibuix durant el diàleg.",
+              "Proven l’entrada sense llegir i repeteixen després dels primers avançaments.",
+              "Assagen la resposta del gat mentre la Clara torna a llegir tota la notícia."
+            ],
+            "correct": "c",
+            "explanation": "Proven una vegada sense llegir, esperen després de les entrades anticipades i ho repeteixen."
+          },
+          "l288b-q9": {
+            "prompt": "Per què repeteixen l’última frase després d’esperar?",
+            "options": [
+              "El grup ha demanat canviar les paraules de l’encarregada.",
+              "Alguns no han pogut sentir el final entre les rialles.",
+              "L’Omar ha oblidat l’ordre de les pàgines del diari.",
+              "El gat de la historieta té una resposta nova."
+            ],
+            "correct": "b",
+            "explanation": "Perquè les rialles havien tapat part del final a alguns oients."
+          },
+          "l288b-q10": {
+            "prompt": "Per què la carta acompanya la còpia amb una explicació de veus, pausa i senyal?",
+            "options": [
+              "Perquè els lectors sàpiguen quines paraules noves s’han afegit al diàleg.",
+              "Per explicar per què el grup va substituir la notícia per la historieta.",
+              "Per indicar quins dibuixos van canviar en incorporar les veus del grup.",
+              "Per conservar decisions d’interpretació que el paper no mostra."
+            ],
+            "correct": "d",
+            "explanation": "Perquè aquells recursos de la lectura no són impresos a la historieta i poden ajudar a repetir-la."
+          },
+          "l288b-q11": {
+            "prompt": "Quin resum manté millor el canvi de l’activitat?",
+            "options": [
+              "Organitzen les veus i obren una intervenció al públic sense canviar la historieta.",
+              "Modifiquen el diàleg perquè cada infant tingui un personatge i una frase nova.",
+              "Abandonen la lectura perquè el grup interpreti els dibuixos sense cap paraula.",
+              "Substitueixen la historieta per una carta que només pot entendre qui hi era."
+            ],
+            "correct": "a",
+            "explanation": "La confusió inicial els fa repartir veus i marcar entrades. La petició de la June incorpora el grup com a gat; després ajusten el ritme i repeteixen què no s’ha sentit, conservant el diàleg."
+          }
+        }
+      }
+    ]
   }
 ];

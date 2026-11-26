@@ -42,6 +42,8 @@ Les ampliacions són a data/question-choices/batch-NNN.js. Cada objecte identifi
 
 Les famílies noves de La biblioteca de les coses (L269–L279) neixen directament amb els dos formats. S’autoren amb `data/library-expansion-model.js` i només s’incorporen al catàleg, família per família, a través de `data/library-expansion-published.js`, després de disposar d’il·lustració i revisió independent exacta. Les alternatives revisades són a `docs/question-choices/library-2026-11-26-review.json`; el registre cobreix separadament cada variant, idioma i pregunta. `tools/check-library-expansion.mjs` i el comprovador general d’ABCD en contrasten les empremtes. No es força una família nova dins d’un lot històric ja tancat.
 
+La redacció del pati continua amb el mateix procés a L280–L288: model d’autoria `data/newsroom-expansion-model.js`, publicacions completes a `data/newsroom-expansion-published.js` i registre independent `docs/question-choices/newsroom-2026-11-26-review.json`. Cada història té suport de 5è, referència de 6è i ampliació de 1r d’ESO en ES/CA. Els comprovadors comparteixen les regles d’integritat entre universos i en validen els perfils de curs, llargada i preguntes separadament.
+
 question-responses.js resol el format triat. Els maquetats incorporen questionMode i questionModes per a les excepcions individuals. Els enllaços de maquetat poden utilitzar PREG=ABCD i TIPUSRES=1:OBERTA; els codis curts continuen identificant lectura, llengua i omissions.
 
 docs/question-choices-review.json registra les quaranta versions exactes revisades, amb empremta del text, pregunta oberta, alternativa, explicació i evidències. Autor: root. Revisor independent: review_early_families. Les empremtes s’han de contrastar abans de publicar.

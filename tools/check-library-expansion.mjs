@@ -17,8 +17,10 @@ export async function loadLibraryDrafts() {
   return rows;
 }
 
-export function checkLibraryFamily(entry, { published = false } = {}) {
-  assert(/^L2[67]\d$/.test(entry.spec?.code ?? entry.code));
+const libraryProfile = { codes: /^L2[67]\d$/, universe: 'biblioteca-de-les-coses',
+  ranges: [[300,390,8,'6-primary','intermediate'],[440,540,10,'1-secondary','intermediate'],[570,680,12,'1-secondary','advanced']] };
+export function checkLibraryFamily(entry, { published = false, profile = libraryProfile } = {}) {
+  assert(profile.codes.test(entry.spec?.code ?? entry.code));
   assert.equal(entry.readings.length, 6);
   const code = entry.spec?.code ?? entry.code;
   assert.deepEqual(entry.family.variantCodes, [code + 'A', code, code + 'B']);
@@ -26,12 +28,12 @@ export function checkLibraryFamily(entry, { published = false } = {}) {
   const counts = [];
   for (const reading of entry.readings) {
     assert.equal(reading.familyId, entry.family.id);
-    assert.deepEqual(reading.universeIds, ['biblioteca-de-les-coses']);
+    assert.deepEqual(reading.universeIds, [profile.universe]);
     assert(reading.title && reading.summary && reading.workId && reading.id);
     assert(reading.themes.length && reading.themes.every(theme => Object.hasOwn(labels.theme, theme)));
     assert(Object.hasOwn(labels.genre, reading.genre));
     const variant = reading.code === code + 'A' ? 0 : reading.code === code ? 1 : 2;
-    const [min, max, questions, level, difficulty] = [[300,390,8,'6-primary','intermediate'],[440,540,10,'1-secondary','intermediate'],[570,680,12,'1-secondary','advanced']][variant];
+    const [min, max, questions, level, difficulty] = profile.ranges[variant];
     const words = wordCount(reading);
     assert(words >= min && words <= max, `${reading.code}/${reading.language}: ${words} outside ${min}–${max}`);
     assert.equal(reading.questions.length, questions);

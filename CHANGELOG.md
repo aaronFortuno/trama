@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.60.8 · 26 de novembre del 2026
+
+L288: La pàgina que es va sentir al pati. Nova família de La redacció del pati, amb suport de 5è, referència de 6è i ampliació de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 15 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.60.7 · 26 de novembre del 2026
 
 L287: La recepta que no cabia a la columna. Nova família de La redacció del pati, amb suport de 5è, referència de 6è i ampliació de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 14 històries independents. Contingut provisional, pendent de validació docent.

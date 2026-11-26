@@ -5,15 +5,22 @@ export const q = (type, lines, prompt, answer, evidence = [], choice = null) =>
 export const mc = (options, correct, prompt = null, explanation = null) =>
   ({ options, correct, ...(prompt ? { prompt } : {}), ...(explanation ? { explanation } : {}) });
 
-export function compileLibraryFamily(spec) {
+const libraryWorld = {
+  id: 'biblioteca-de-les-coses', imageSuffix: 'biblioteca',
+  description: {
+    ca: 'Una història de La biblioteca de les coses, amb suport, versió de referència i ampliació.',
+    es: 'Una historia de La biblioteca de las cosas, con apoyo, versión de referencia y ampliación.',
+  },
+  sharedImage: { id: 'library-room', src: 'assets/readings/l208-la-biblioteca-de-objetos-1.webp',
+    alt: ['Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.', 'Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.'] },
+};
+
+export function compileLibraryFamily(spec, world = libraryWorld) {
   const familyId = `familia-${spec.code.toLowerCase()}`;
   const family = {
     id: familyId, code: spec.code,
     name: { es: spec.title[0], ca: spec.title[1] },
-    description: {
-      ca: 'Una història de La biblioteca de les coses, amb suport, versió de referència i ampliació.',
-      es: 'Una historia de La biblioteca de las cosas, con apoyo, versión de referencia y ampliación.',
-    }, variantCodes: [`${spec.code}A`, spec.code, `${spec.code}B`],
+    description: world.description, variantCodes: [`${spec.code}A`, spec.code, `${spec.code}B`],
   };
   const readings = [], choices = [];
   for (const edition of spec.editions) for (const [locale, language] of ['es', 'ca'].entries()) {
@@ -33,16 +40,16 @@ export function compileLibraryFamily(spec) {
     annotations.push(...(edition.notes ?? []).map(note => ({ paragraph: note.paragraph,
       text: note.text[locale], definition: note.definition[locale], occurrence: 1 })));
     readings.push({ id: `${workId}-${language}`, code, workId, language,
-      familyId, universeIds: ['biblioteca-de-les-coses'],
+      familyId, universeIds: [world.id],
       level: edition.level, difficulty: edition.difficulty,
       themes: spec.themes, genre: spec.genre, title: spec.title[locale],
       summary: edition.summary[locale], paragraphs, questions, annotations,
       images: [
-        { id: `${spec.code.toLowerCase()}-scene`, src: `assets/readings/${spec.code.toLowerCase()}-biblioteca.webp`,
+        { id: `${spec.code.toLowerCase()}-scene`, src: `assets/readings/${spec.code.toLowerCase()}-${world.imageSuffix}.webp`,
           width: 1100, height: 733, alt: spec.imageAlt[locale], afterParagraph: Math.max(1, Math.round(paragraphs.length / 3)) },
-        { id: 'library-room', src: 'assets/readings/l208-la-biblioteca-de-objetos-1.webp',
+        { id: world.sharedImage.id, src: world.sharedImage.src,
           width: 1100, height: 733,
-          alt: locale ? 'Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.' : 'Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.',
+          alt: world.sharedImage.alt[locale],
           afterParagraph: Math.max(2, Math.round(paragraphs.length * 2 / 3)) },
       ],
     });
