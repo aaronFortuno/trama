@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.62.6 · 26 de novembre del 2026
+
+L304: La tarda de les mans diferents. Nova família de l’univers El taller de la plaça, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 13 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.62.5 · 26 de novembre del 2026
 
 L303: El rellotge que no tenia pressa. Nova família de l’univers El taller de la plaça, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 12 històries independents. Contingut provisional, pendent de validació docent.

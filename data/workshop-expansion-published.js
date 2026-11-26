@@ -11007,5 +11007,1820 @@ export const workshopPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L304",
+    "edition": "v1.62.6",
+    "family": {
+      "id": "familia-l304",
+      "code": "L304",
+      "name": {
+        "es": "La tarde de las manos distintas",
+        "ca": "La tarda de les mans diferents"
+      },
+      "description": {
+        "ca": "Una història del Taller de la plaça, amb suport, versió de referència i ampliació.",
+        "es": "Una historia del Taller de la plaza, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L304A",
+        "L304",
+        "L304B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "la-tarde-de-las-manos-distintas-a-es",
+        "code": "L304A",
+        "workId": "la-tarde-de-las-manos-distintas-a",
+        "language": "es",
+        "familyId": "familia-l304",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "La tarde de las manos distintas",
+        "summary": "Un cojín roto reúne distintas maneras de mirar y de dibujar en una tarde de reparación.",
+        "paragraphs": [
+          "Rosa llevó al taller de la plaza el cojín del banco donde se sentaba a leer. Tenía una esquina rota. Irene, la reparadora, había invitado a vecinos de distintas edades a pasar la tarde juntos. Hugo y Asha, dos niños del barrio, se acercaron a la mesa con sus cuadernos.",
+          "Irene sacó el relleno por la cremallera. Rosa había traído retales de una camisa verde. Quería un parche que apenas se notara. Asha dibujó una hoja para aprovechar uno de los trozos, pero Rosa señaló dos puntas demasiado estrechas para cubrir la rotura.",
+          "—¿Y una hoja más ancha? —preguntó Asha, y cambió el dibujo. La hoja solo cabía a lo largo del retal estrecho. Hugo puso el retal junto a la funda: las rayas iban en otra dirección. Rosa lo giró con el dibujo encima para hacerlas coincidir. Entonces la hoja del dibujo quedó atravesada. Se miraron y probaron las dos posiciones sobre la mesa.",
+          "Rosa eligió la hoja derecha, aunque se vieran las rayas cruzadas. Irene cortó y cosió el parche en la funda vacía. Después metieron el relleno. Rosa llevó el cojín al banco y Asha se sentó a su lado para enseñarle otro dibujo."
+        ],
+        "questions": [
+          {
+            "id": "l304a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué desperfecto tenía el cojín?",
+            "answer": "Tenía una esquina rota.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Tenía una esquina rota."
+              }
+            ]
+          },
+          {
+            "id": "l304a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué quería Rosa al principio para el parche?",
+            "answer": "Quería que apenas se notara.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Quería un parche que apenas se notara."
+              }
+            ]
+          },
+          {
+            "id": "l304a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Asha ensancha su dibujo?",
+            "answer": "Porque las puntas estrechas no tapaban bien la rotura.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "dos puntas demasiado estrechas para cubrir la rotura"
+              },
+              {
+                "paragraph": 3,
+                "text": "y cambió el dibujo"
+              }
+            ]
+          },
+          {
+            "id": "l304a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «retales» en esta lectura?",
+            "answer": "Son trozos de tela que se pueden aprovechar.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "retales de una camisa verde"
+              }
+            ]
+          },
+          {
+            "id": "l304a-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Quién advierte que las rayas no van en la misma dirección?",
+            "answer": "Hugo, al colocar el retal junto a la funda.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Hugo puso el retal junto a la funda: las rayas iban en otra dirección."
+              }
+            ]
+          },
+          {
+            "id": "l304a-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué prefiere Rosa al final: disimular el parche o conservar la hoja derecha? ¿Cómo se ve?",
+            "answer": "Conservar la hoja derecha: acepta que las rayas queden cruzadas.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "eligió la hoja derecha, aunque se vieran las rayas cruzadas"
+              }
+            ]
+          },
+          {
+            "id": "l304a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume cómo llegan al parche que cose Irene.",
+            "answer": "Asha dibuja una hoja y la ensancha al escuchar a Rosa. Hugo compara las rayas. Prueban posiciones y Rosa escoge la hoja derecha.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Asha dibujó una hoja"
+              },
+              {
+                "paragraph": 3,
+                "text": "probaron las dos posiciones sobre la mesa"
+              },
+              {
+                "paragraph": 4,
+                "text": "Rosa eligió la hoja derecha"
+              }
+            ]
+          },
+          {
+            "id": "l304a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué parche habrías elegido tú? Explica qué detalle te importa más.",
+            "answer": "Respuesta personal razonada, por ejemplo elegir la hoja derecha por el dibujo o las rayas alineadas para disimular el parche."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "retales",
+            "occurrence": 1,
+            "questionId": "l304a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l304-scene",
+            "src": "assets/readings/l304-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene cose una funda de cojín mientras Rosa, Hugo y Asha comparan un dibujo y un retal de rayas junto a la mesa del taller.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-tarde-de-las-manos-distintas-a-ca",
+        "code": "L304A",
+        "workId": "la-tarde-de-las-manos-distintas-a",
+        "language": "ca",
+        "familyId": "familia-l304",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "La tarda de les mans diferents",
+        "summary": "Un coixí esquinçat reuneix maneres diferents de mirar i de dibuixar en una tarda de reparació.",
+        "paragraphs": [
+          "La Rosa va portar al taller de la plaça el coixí del banc on seia a llegir. Tenia una cantonada esquinçada. La Irene, la reparadora, havia convidat veïns de diferents edats a passar la tarda junts. L’Hugo i l’Asha, dos infants del barri, es van acostar a la taula amb les llibretes.",
+          "La Irene va treure el farciment per la cremallera. La Rosa havia portat retalls d’una camisa verda. Volia un pedaç que gairebé no es notés. L’Asha va dibuixar una fulla per aprofitar un dels trossos, però la Rosa va assenyalar dues puntes massa estretes per tapar l’esquinç.",
+          "—I una fulla més ampla? —va preguntar l’Asha, i va canviar el dibuix. La fulla només cabia de llarg al retall estret. L’Hugo va posar el retall al costat de la funda: les ratlles anaven en una altra direcció. La Rosa el va girar amb el dibuix a sobre per fer-les coincidir. Llavors la fulla del dibuix va quedar travessada. Es van mirar i van provar les dues posicions sobre la taula.",
+          "La Rosa va triar la fulla dreta, encara que es veiessin les ratlles creuades. La Irene va tallar i cosir el pedaç a la funda buida. Després hi van ficar el farciment. La Rosa va portar el coixí al banc i l’Asha va seure al seu costat per ensenyar-li un altre dibuix."
+        ],
+        "questions": [
+          {
+            "id": "l304a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quin desperfecte tenia el coixí?",
+            "answer": "Tenia una cantonada esquinçada.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Tenia una cantonada esquinçada."
+              }
+            ]
+          },
+          {
+            "id": "l304a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què volia la Rosa al principi per al pedaç?",
+            "answer": "Volia que gairebé no es notés.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Volia un pedaç que gairebé no es notés."
+              }
+            ]
+          },
+          {
+            "id": "l304a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què l’Asha eixampla el dibuix?",
+            "answer": "Perquè les puntes estretes no tapaven bé l’esquinç.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "dues puntes massa estretes per tapar l’esquinç"
+              },
+              {
+                "paragraph": 3,
+                "text": "i va canviar el dibuix"
+              }
+            ]
+          },
+          {
+            "id": "l304a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què significa «retalls» en aquesta lectura?",
+            "answer": "Són trossos de roba que es poden aprofitar.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "retalls d’una camisa verda"
+              }
+            ]
+          },
+          {
+            "id": "l304a-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Qui s’adona que les ratlles no van en la mateixa direcció?",
+            "answer": "L’Hugo, quan posa el retall al costat de la funda.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "L’Hugo va posar el retall al costat de la funda: les ratlles anaven en una altra direcció."
+              }
+            ]
+          },
+          {
+            "id": "l304a-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què prefereix la Rosa al final: dissimular el pedaç o conservar la fulla dreta? Com es veu?",
+            "answer": "Conservar la fulla dreta: accepta que les ratlles quedin creuades.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "va triar la fulla dreta, encara que es veiessin les ratlles creuades"
+              }
+            ]
+          },
+          {
+            "id": "l304a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix com arriben al pedaç que cus la Irene.",
+            "answer": "L’Asha dibuixa una fulla i l’eixampla quan escolta la Rosa. L’Hugo compara les ratlles. Proven posicions i la Rosa tria la fulla dreta.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "L’Asha va dibuixar una fulla"
+              },
+              {
+                "paragraph": 3,
+                "text": "van provar les dues posicions sobre la taula"
+              },
+              {
+                "paragraph": 4,
+                "text": "La Rosa va triar la fulla dreta"
+              }
+            ]
+          },
+          {
+            "id": "l304a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quin pedaç hauries triat tu? Explica quin detall t’importa més.",
+            "answer": "Resposta personal raonada, per exemple triar la fulla dreta pel dibuix o les ratlles alineades per dissimular el pedaç."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "retalls",
+            "occurrence": 1,
+            "questionId": "l304a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l304-scene",
+            "src": "assets/readings/l304-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene cus una funda de coixí mentre la Rosa, l’Hugo i l’Asha comparen un dibuix i un retall de ratlles al costat de la taula del taller.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-tarde-de-las-manos-distintas-es",
+        "code": "L304",
+        "workId": "la-tarde-de-las-manos-distintas",
+        "language": "es",
+        "familyId": "familia-l304",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "La tarde de las manos distintas",
+        "summary": "Una reparación compartida obliga a combinar un dibujo, la cobertura de un roto y los gustos de su dueña.",
+        "paragraphs": [
+          "En el taller de la plaza, Irene había preparado una tarde para reparar objetos entre vecinos de distintas edades. Rosa, que tenía setenta años, apareció con un cojín del banco donde leía. Una esquina de la funda estaba rota. Hugo y Asha, dos niños del barrio, se sentaron cerca para dibujar posibles parches.",
+          "Rosa trajo retales de una camisa verde de rayas. Había cosido muchas bolsas, pero nunca había hecho un parche con forma de dibujo. Prefería que la reparación quedara disimulada. Irene abrió la cremallera y retiró el relleno para trabajar solo con la funda. Asha le enseñó una hoja de papel con una hoja de árbol dibujada.",
+          "—Estas puntas tan finas dejan parte del roto fuera —observó Rosa, colocando el papel sobre la tela. Asha ensanchó el dibujo sin borrar el tallo. La hoja solo cabía a lo largo del retal estrecho. Hugo acercó el retal a la funda: las rayas verdes iban en una dirección distinta. Rosa giró la tela con el dibujo encima para alinearlas. Con aquel giro, la hoja quedaba tumbada hacia un lado.",
+          "Hugo dibujó las dos opciones en su cuaderno. Rosa se alejó un paso, como hacía cuando miraba cuadros. —La hoja derecha parece recién caída —dijo—. Dejemos las rayas cruzadas. Asha sujetó su dibujo junto al retal mientras Irene marcaba la forma. La reparadora cortó y cosió el parche; Rosa eligió con ella un hilo verde oscuro entre los que había en la caja.",
+          "Cuando recuperó el relleno, el cojín volvió a su banco. Rosa lo colocó con la hoja hacia arriba. Luego sacó una bolsa que había cosido ella y se la mostró a Asha. La niña abrió otra página para dibujarle un bolsillo exterior, mientras Hugo acercaba una silla."
+        ],
+        "questions": [
+          {
+            "id": "l304-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué objeto lleva Rosa y qué parte necesita reparación?",
+            "answer": "Lleva un cojín cuya funda tiene una esquina rota.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Una esquina de la funda estaba rota."
+              }
+            ]
+          },
+          {
+            "id": "l304-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué experiencia de costura tiene Rosa y qué no ha hecho antes?",
+            "answer": "Ha cosido muchas bolsas, pero no ha hecho parches con forma de dibujo.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Había cosido muchas bolsas, pero nunca había hecho un parche con forma de dibujo."
+              }
+            ]
+          },
+          {
+            "id": "l304-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Por qué Irene saca el relleno?",
+            "answer": "Para trabajar solo con la funda.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "retiró el relleno para trabajar solo con la funda"
+              }
+            ]
+          },
+          {
+            "id": "l304-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa que la reparación quede «disimulada»?",
+            "answer": "Que se note poco al mirar el cojín.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Prefería que la reparación quedara disimulada."
+              }
+            ]
+          },
+          {
+            "id": "l304-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué no sirve el primer dibujo de Asha tal como está?",
+            "answer": "Las puntas son tan finas que el parche no cubriría todo el roto.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Estas puntas tan finas dejan parte del roto fuera"
+              }
+            ]
+          },
+          {
+            "id": "l304-q6",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué dos deseos no pueden mantener a la vez con ese dibujo y ese retal?",
+            "answer": "Que coincidan las rayas y que la hoja quede derecha.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Rosa giró la tela con el dibujo encima para alinearlas. Con aquel giro, la hoja quedaba tumbada hacia un lado."
+              }
+            ]
+          },
+          {
+            "id": "l304-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Para qué sirven los dos dibujos que hace Hugo?",
+            "answer": "Para comparar el aspecto de las dos posiciones antes de coser.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Hugo dibujó las dos opciones en su cuaderno. Rosa se alejó un paso"
+              }
+            ]
+          },
+          {
+            "id": "l304-q8",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "¿Qué aporta el último párrafo después de terminar el cojín?",
+            "answer": "Muestra que la colaboración continúa: Rosa enseña su bolsa y Asha empieza otro dibujo.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "La niña abrió otra página para dibujarle un bolsillo exterior"
+              }
+            ]
+          },
+          {
+            "id": "l304-q9",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resume el proceso desde el primer dibujo hasta la decisión de Rosa.",
+            "answer": "Asha dibuja una hoja y Rosa observa que no tapa el roto. Asha la ensancha; Hugo compara las rayas y dibuja las posiciones. Rosa elige la hoja derecha aunque las rayas se crucen.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Asha ensanchó el dibujo sin borrar el tallo."
+              },
+              {
+                "paragraph": 4,
+                "text": "Dejemos las rayas cruzadas."
+              }
+            ]
+          },
+          {
+            "id": "l304-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿Qué aportación te parece más útil para esta reparación? Justifica tu elección sin quitar valor a las demás.",
+            "answer": "Respuesta personal apoyada en una aportación concreta: detectar la parte descubierta, dibujar, comparar rayas o coser la funda."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "disimulada",
+            "occurrence": 1,
+            "questionId": "l304-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l304-scene",
+            "src": "assets/readings/l304-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene cose una funda de cojín mientras Rosa, Hugo y Asha comparan un dibujo y un retal de rayas junto a la mesa del taller.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-tarde-de-las-manos-distintas-ca",
+        "code": "L304",
+        "workId": "la-tarde-de-las-manos-distintas",
+        "language": "ca",
+        "familyId": "familia-l304",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "La tarda de les mans diferents",
+        "summary": "Una reparació compartida obliga a combinar un dibuix, la cobertura d’un esquinç i els gustos de la propietària.",
+        "paragraphs": [
+          "Al taller de la plaça, la Irene havia preparat una tarda per reparar objectes entre veïns de diferents edats. La Rosa, que tenia setanta anys, va aparèixer amb un coixí del banc on llegia. Una cantonada de la funda estava esquinçada. L’Hugo i l’Asha, dos infants del barri, van seure a prop per dibuixar possibles pedaços.",
+          "La Rosa va portar retalls d’una camisa verda de ratlles. Havia cosit moltes bosses, però mai no havia fet un pedaç amb forma de dibuix. Preferia que la reparació quedés dissimulada. La Irene va obrir la cremallera i va retirar el farciment per treballar només amb la funda. L’Asha li va ensenyar un full de paper amb una fulla d’arbre dibuixada.",
+          "—Aquestes puntes tan fines deixen part de l’esquinç fora —va observar la Rosa, col·locant el paper sobre la roba. L’Asha va eixamplar el dibuix sense esborrar la tija. La fulla només cabia de llarg al retall estret. L’Hugo va acostar el retall a la funda: les ratlles verdes anaven en una direcció diferent. La Rosa va girar la roba amb el dibuix a sobre per alinear-les. Amb aquell gir, la fulla quedava tombada cap a un costat.",
+          "L’Hugo va dibuixar les dues opcions a la llibreta. La Rosa es va allunyar un pas, com feia quan mirava quadres. —La fulla dreta sembla acabada de caure —va dir—. Deixem les ratlles creuades. L’Asha va subjectar el dibuix al costat del retall mentre la Irene marcava la forma. La reparadora va tallar i cosir el pedaç; la Rosa va triar amb ella un fil verd fosc entre els que hi havia a la capsa.",
+          "Quan va recuperar el farciment, el coixí va tornar al banc. La Rosa el va col·locar amb la fulla cap amunt. Després va treure una bossa que havia cosit ella i la va mostrar a l’Asha. La nena va obrir una altra pàgina per dibuixar-li una butxaca exterior, mentre l’Hugo acostava una cadira."
+        ],
+        "questions": [
+          {
+            "id": "l304-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quin objecte porta la Rosa i quina part necessita reparació?",
+            "answer": "Porta un coixí que té una cantonada de la funda esquinçada.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Una cantonada de la funda estava esquinçada."
+              }
+            ]
+          },
+          {
+            "id": "l304-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina experiència de costura té la Rosa i què no ha fet abans?",
+            "answer": "Ha cosit moltes bosses, però no ha fet pedaços amb forma de dibuix.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Havia cosit moltes bosses, però mai no havia fet un pedaç amb forma de dibuix."
+              }
+            ]
+          },
+          {
+            "id": "l304-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Per què la Irene treu el farciment?",
+            "answer": "Per treballar només amb la funda.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "va retirar el farciment per treballar només amb la funda"
+              }
+            ]
+          },
+          {
+            "id": "l304-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què significa que la reparació quedi «dissimulada»?",
+            "answer": "Que es noti poc quan es mira el coixí.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Preferia que la reparació quedés dissimulada."
+              }
+            ]
+          },
+          {
+            "id": "l304-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què no serveix el primer dibuix de l’Asha tal com està?",
+            "answer": "Les puntes són tan fines que el pedaç no taparia tot l’esquinç.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Aquestes puntes tan fines deixen part de l’esquinç fora"
+              }
+            ]
+          },
+          {
+            "id": "l304-q6",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Quins dos desitjos no poden mantenir alhora amb aquest dibuix i aquest retall?",
+            "answer": "Que coincideixin les ratlles i que la fulla quedi dreta.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La Rosa va girar la roba amb el dibuix a sobre per alinear-les. Amb aquell gir, la fulla quedava tombada cap a un costat."
+              }
+            ]
+          },
+          {
+            "id": "l304-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per a què serveixen els dos dibuixos que fa l’Hugo?",
+            "answer": "Per comparar l’aspecte de les dues posicions abans de cosir.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "L’Hugo va dibuixar les dues opcions a la llibreta. La Rosa es va allunyar un pas"
+              }
+            ]
+          },
+          {
+            "id": "l304-q8",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "Què aporta l’últim paràgraf després d’acabar el coixí?",
+            "answer": "Mostra que la col·laboració continua: la Rosa ensenya la bossa i l’Asha comença un altre dibuix.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "La nena va obrir una altra pàgina per dibuixar-li una butxaca exterior"
+              }
+            ]
+          },
+          {
+            "id": "l304-q9",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resumeix el procés des del primer dibuix fins a la decisió de la Rosa.",
+            "answer": "L’Asha dibuixa una fulla i la Rosa observa que no tapa l’esquinç. L’Asha l’eixampla; l’Hugo compara les ratlles i dibuixa les posicions. La Rosa tria la fulla dreta encara que les ratlles es creuin.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "L’Asha va eixamplar el dibuix sense esborrar la tija."
+              },
+              {
+                "paragraph": 4,
+                "text": "Deixem les ratlles creuades."
+              }
+            ]
+          },
+          {
+            "id": "l304-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Quina aportació et sembla més útil per a aquesta reparació? Justifica la tria sense treure valor a les altres.",
+            "answer": "Resposta personal basada en una aportació concreta: detectar la part descoberta, dibuixar, comparar ratlles o cosir la funda."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "dissimulada",
+            "occurrence": 1,
+            "questionId": "l304-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l304-scene",
+            "src": "assets/readings/l304-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene cus una funda de coixí mentre la Rosa, l’Hugo i l’Asha comparen un dibuix i un retall de ratlles al costat de la taula del taller.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-tarde-de-las-manos-distintas-b-es",
+        "code": "L304B",
+        "workId": "la-tarde-de-las-manos-distintas-b",
+        "language": "es",
+        "familyId": "familia-l304",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "La tarde de las manos distintas",
+        "summary": "Una tarde intergeneracional combina conocimientos de costura, decisiones de diseño y un cambio de gusto que nadie había previsto.",
+        "paragraphs": [
+          "La tarde de reparaciones compartidas empezaba en el taller de la plaza. Irene, la reparadora, había juntado varias sillas alrededor de su mesa. Rosa, una vecina de setenta años, llevó el cojín del banco donde se sentaba a leer. Una esquina de la funda se había rasgado al engancharse en una astilla; el banco ya estaba arreglado. Hugo y Asha, dos niños del barrio, llegaron con cuadernos para proponer dibujos.",
+          "Rosa había cosido bolsas durante años. Dejó sobre la mesa unos retales de una camisa verde de rayas y explicó que prefería un parche discreto. Irene abrió la cremallera y retiró el relleno. Mientras extendía la funda vacía, Asha dibujó una hoja de árbol. Le gustaba que el tallo apuntara hacia el centro del cojín, como si acabara de caer desde una de las ramas del árbol junto al banco.",
+          "Rosa puso el papel sobre la zona dañada. —Mira, por estas dos puntas seguiríamos viendo el roto. Asha ensanchó los bordes y conservó el tallo. La hoja solo cabía a lo largo del retal estrecho. Después Hugo acercó el retal a la funda y siguió sus rayas con el dedo: no iban en la misma dirección. Al girar la tela con el dibujo encima para alinearlas, la hoja quedaba tumbada y su tallo apuntaba hacia fuera. La reparación podría quedar discreta, pero el dibujo cambiaría.",
+          "Hugo dibujó ambas posiciones en su cuaderno. Irene esperó con las tijeras cerradas mientras Rosa se alejaba un paso para compararlas. —Con las rayas cruzadas parece más una hoja de verdad —dijo la vecina. Asha levantó la vista: había esperado que Rosa eligiera disimular el parche. —¿Dejamos entonces el tallo hacia dentro? —preguntó. Rosa asintió y buscó con Irene un hilo verde oscuro. Le apetecía probar aquel dibujo que ella sola nunca había pensado.",
+          "Asha dejó el papel junto a la tela e Irene marcó, cortó y cosió la forma sobre la funda vacía. Cuando volvieron a meter el relleno, Rosa llevó el cojín al banco. Sacó de su bolso una bolsa que había cosido y enseñó a los niños una costura que le había quedado torcida. Asha abrió otra página para dibujarle un bolsillo que encajara allí. Hugo acercó una silla y Rosa extendió la bolsa entre los tres."
+        ],
+        "questions": [
+          {
+            "id": "l304b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué había provocado el roto y qué se había arreglado ya al empezar?",
+            "answer": "Una astilla del banco había rasgado la funda; el banco ya estaba arreglado.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "al engancharse en una astilla; el banco ya estaba arreglado"
+              }
+            ]
+          },
+          {
+            "id": "l304b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Hacia dónde quiere Asha que apunte el tallo al principio?",
+            "answer": "Hacia el centro del cojín.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "el tallo apuntara hacia el centro del cojín"
+              }
+            ]
+          },
+          {
+            "id": "l304b-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «discreto» al describir el parche que desea Rosa?",
+            "answer": "Que llame poco la atención y se note poco en la funda.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "prefería un parche discreto"
+              },
+              {
+                "paragraph": 3,
+                "text": "Al girar la tela con el dibujo encima para alinearlas"
+              }
+            ]
+          },
+          {
+            "id": "l304b-q4",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué problema resuelve ensanchar la hoja y qué problema queda por decidir?",
+            "answer": "Resuelve que el parche cubra la rotura. Queda decidir entre alinear rayas o conservar la dirección del dibujo.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Asha ensanchó los bordes y conservó el tallo."
+              },
+              {
+                "paragraph": 3,
+                "text": "La reparación podría quedar discreta, pero el dibujo cambiaría."
+              }
+            ]
+          },
+          {
+            "id": "l304b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué es útil comparar los dibujos antes de cortar la tela?",
+            "answer": "Permite elegir la posición viendo su efecto antes de dar al retal una forma definitiva.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Hugo dibujó ambas posiciones en su cuaderno. Irene esperó con las tijeras cerradas"
+              }
+            ]
+          },
+          {
+            "id": "l304b-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué expectativa de Asha no se cumple?",
+            "answer": "Esperaba que Rosa eligiera disimular el parche, pero esta prefiere las rayas cruzadas.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "había esperado que Rosa eligiera disimular el parche"
+              }
+            ]
+          },
+          {
+            "id": "l304b-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Quién corta y cose, y sobre qué pieza trabaja?",
+            "answer": "Irene corta y cose sobre la funda vacía.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Irene marcó, cortó y cosió la forma sobre la funda vacía"
+              }
+            ]
+          },
+          {
+            "id": "l304b-q8",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué detalle del final muestra que Rosa también puede pedir ayuda en algo que sabe hacer?",
+            "answer": "Aunque lleva años cosiendo, enseña una costura torcida y acepta que Asha diseñe un bolsillo para esa zona.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Rosa había cosido bolsas durante años."
+              },
+              {
+                "paragraph": 5,
+                "text": "enseñó a los niños una costura que le había quedado torcida"
+              }
+            ]
+          },
+          {
+            "id": "l304b-q9",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "¿Por qué el relato incluye que Rosa había cosido bolsas antes de mostrar su costura torcida?",
+            "answer": "Para que se entienda que tener experiencia no impide que necesite otra mirada en una tarea concreta.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Rosa había cosido bolsas durante años."
+              },
+              {
+                "paragraph": 5,
+                "text": "Asha abrió otra página para dibujarle un bolsillo que encajara allí."
+              }
+            ]
+          },
+          {
+            "id": "l304b-q10",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿En qué se diferencia la aportación de Rosa a la forma del parche de su decisión sobre las rayas?",
+            "answer": "Lo primero atiende a que el parche cubra el roto; lo segundo es una preferencia sobre su aspecto.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "por estas dos puntas seguiríamos viendo el roto"
+              },
+              {
+                "paragraph": 4,
+                "text": "Con las rayas cruzadas parece más una hoja de verdad"
+              }
+            ]
+          },
+          {
+            "id": "l304b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resume cómo se reparten las aportaciones hasta conseguir el cojín reparado.",
+            "answer": "Asha diseña la hoja y la ensancha por la observación de Rosa. Hugo detecta las rayas y dibuja posiciones. Rosa escoge la orientación e Irene realiza el corte y la costura.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Asha ensanchó los bordes"
+              },
+              {
+                "paragraph": 4,
+                "text": "Hugo dibujó ambas posiciones"
+              },
+              {
+                "paragraph": 5,
+                "text": "Irene marcó, cortó y cosió la forma"
+              }
+            ]
+          },
+          {
+            "id": "l304b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿Preferirías que un parche se notara o que pasara desapercibido? Razona tu respuesta para un objeto concreto.",
+            "answer": "Respuesta personal con un objeto y una razón coherentes; no se considera mejor una preferencia por sí misma."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "discreto",
+            "occurrence": 1,
+            "questionId": "l304b-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l304-scene",
+            "src": "assets/readings/l304-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene cose una funda de cojín mientras Rosa, Hugo y Asha comparan un dibujo y un retal de rayas junto a la mesa del taller.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-tarde-de-las-manos-distintas-b-ca",
+        "code": "L304B",
+        "workId": "la-tarde-de-las-manos-distintas-b",
+        "language": "ca",
+        "familyId": "familia-l304",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "La tarda de les mans diferents",
+        "summary": "Una tarda intergeneracional combina coneixements de costura, decisions de disseny i un canvi de gust que ningú no havia previst.",
+        "paragraphs": [
+          "La tarda de reparacions compartides començava al taller de la plaça. La Irene, la reparadora, havia ajuntat diverses cadires al voltant de la taula. La Rosa, una veïna de setanta anys, va portar el coixí del banc on seia a llegir. Una cantonada de la funda s’havia esquinçat en enganxar-se en una estella; el banc ja estava arreglat. L’Hugo i l’Asha, dos infants del barri, van arribar amb llibretes per proposar dibuixos.",
+          "La Rosa havia cosit bosses durant anys. Va deixar sobre la taula uns retalls d’una camisa verda de ratlles i va explicar que preferia un pedaç discret. La Irene va obrir la cremallera i va retirar el farciment. Mentre estenia la funda buida, l’Asha va dibuixar una fulla d’arbre. Li agradava que la tija apuntés cap al centre del coixí, com si acabés de caure d’una de les branques de l’arbre al costat del banc.",
+          "La Rosa va posar el paper sobre la zona malmesa. —Mira, per aquestes dues puntes continuaríem veient l’esquinç. L’Asha va eixamplar les vores i va conservar la tija. La fulla només cabia de llarg al retall estret. Després l’Hugo va acostar el retall a la funda i va resseguir les ratlles amb el dit: no anaven en la mateixa direcció. En girar la roba amb el dibuix a sobre per alinear-les, la fulla quedava tombada i la tija apuntava cap enfora. La reparació podria quedar discreta, però el dibuix canviaria.",
+          "L’Hugo va dibuixar totes dues posicions a la llibreta. La Irene va esperar amb les tisores tancades mentre la Rosa s’allunyava un pas per comparar-les. —Amb les ratlles creuades sembla més una fulla de debò —va dir la veïna. L’Asha va aixecar la mirada: havia esperat que la Rosa triés dissimular el pedaç. —Deixem doncs la tija cap endins? —va preguntar. La Rosa va assentir i va buscar amb la Irene un fil verd fosc. Li venia de gust provar aquell dibuix que tota sola mai no havia pensat.",
+          "L’Asha va deixar el paper al costat de la roba i la Irene va marcar, tallar i cosir la forma sobre la funda buida. Quan hi van tornar a ficar el farciment, la Rosa va portar el coixí al banc. Va treure del cabàs una bossa que havia cosit i va ensenyar als infants una costura que li havia quedat torta. L’Asha va obrir una altra pàgina per dibuixar-li una butxaca que hi encaixés. L’Hugo va acostar una cadira i la Rosa va estendre la bossa entre tots tres."
+        ],
+        "questions": [
+          {
+            "id": "l304b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què havia provocat l’esquinç i què ja estava arreglat al començament?",
+            "answer": "Una estella del banc havia esquinçat la funda; el banc ja estava arreglat.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "en enganxar-se en una estella; el banc ja estava arreglat"
+              }
+            ]
+          },
+          {
+            "id": "l304b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Cap a on vol l’Asha que apunti la tija al principi?",
+            "answer": "Cap al centre del coixí.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "la tija apuntés cap al centre del coixí"
+              }
+            ]
+          },
+          {
+            "id": "l304b-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què significa «discret» quan es descriu el pedaç que desitja la Rosa?",
+            "answer": "Que cridi poc l’atenció i es noti poc a la funda.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "preferia un pedaç discret"
+              },
+              {
+                "paragraph": 3,
+                "text": "En girar la roba amb el dibuix a sobre per alinear-les"
+              }
+            ]
+          },
+          {
+            "id": "l304b-q4",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Quin problema resol eixamplar la fulla i quin problema queda per decidir?",
+            "answer": "Resol que el pedaç tapi l’esquinç. Queda decidir entre alinear ratlles o conservar la direcció del dibuix.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "L’Asha va eixamplar les vores i va conservar la tija."
+              },
+              {
+                "paragraph": 3,
+                "text": "La reparació podria quedar discreta, però el dibuix canviaria."
+              }
+            ]
+          },
+          {
+            "id": "l304b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què és útil comparar els dibuixos abans de tallar la roba?",
+            "answer": "Permet triar la posició veient-ne l’efecte abans de donar al retall una forma definitiva.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "L’Hugo va dibuixar totes dues posicions a la llibreta. La Irene va esperar amb les tisores tancades"
+              }
+            ]
+          },
+          {
+            "id": "l304b-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina expectativa de l’Asha no es compleix?",
+            "answer": "Esperava que la Rosa triés dissimular el pedaç, però ella prefereix les ratlles creuades.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "havia esperat que la Rosa triés dissimular el pedaç"
+              }
+            ]
+          },
+          {
+            "id": "l304b-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Qui talla i cus, i sobre quina peça treballa?",
+            "answer": "La Irene talla i cus sobre la funda buida.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "la Irene va marcar, tallar i cosir la forma sobre la funda buida"
+              }
+            ]
+          },
+          {
+            "id": "l304b-q8",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Quin detall del final mostra que la Rosa també pot demanar ajuda en una cosa que sap fer?",
+            "answer": "Tot i que fa anys que cus, ensenya una costura torta i accepta que l’Asha dissenyi una butxaca per a aquella zona.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La Rosa havia cosit bosses durant anys."
+              },
+              {
+                "paragraph": 5,
+                "text": "va ensenyar als infants una costura que li havia quedat torta"
+              }
+            ]
+          },
+          {
+            "id": "l304b-q9",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "Per què el relat inclou que la Rosa havia cosit bosses abans de mostrar la costura torta?",
+            "answer": "Perquè s’entengui que tenir experiència no impedeix que necessiti una altra mirada en una tasca concreta.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La Rosa havia cosit bosses durant anys."
+              },
+              {
+                "paragraph": 5,
+                "text": "L’Asha va obrir una altra pàgina per dibuixar-li una butxaca que hi encaixés."
+              }
+            ]
+          },
+          {
+            "id": "l304b-q10",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "En què es diferencia l’aportació de la Rosa a la forma del pedaç de la seva decisió sobre les ratlles?",
+            "answer": "La primera atén que el pedaç tapi l’esquinç; la segona és una preferència sobre l’aspecte.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "per aquestes dues puntes continuaríem veient l’esquinç"
+              },
+              {
+                "paragraph": 4,
+                "text": "Amb les ratlles creuades sembla més una fulla de debò"
+              }
+            ]
+          },
+          {
+            "id": "l304b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resumeix com es reparteixen les aportacions fins a aconseguir el coixí reparat.",
+            "answer": "L’Asha dissenya la fulla i l’eixampla per l’observació de la Rosa. L’Hugo detecta les ratlles i dibuixa posicions. La Rosa tria l’orientació i la Irene fa el tall i la costura.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "L’Asha va eixamplar les vores"
+              },
+              {
+                "paragraph": 4,
+                "text": "L’Hugo va dibuixar totes dues posicions"
+              },
+              {
+                "paragraph": 5,
+                "text": "la Irene va marcar, tallar i cosir la forma"
+              }
+            ]
+          },
+          {
+            "id": "l304b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Preferiries que un pedaç es notés o que passés desapercebut? Raona la resposta per a un objecte concret.",
+            "answer": "Resposta personal amb un objecte i una raó coherents; no es considera millor una preferència per si mateixa."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "discret",
+            "occurrence": 1,
+            "questionId": "l304b-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l304-scene",
+            "src": "assets/readings/l304-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene cus una funda de coixí mentre la Rosa, l’Hugo i l’Asha comparen un dibuix i un retall de ratlles al costat de la taula del taller.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 3
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L304A",
+        "language": "es",
+        "questions": {
+          "l304a-q1": {
+            "prompt": "¿Qué desperfecto tenía el cojín?",
+            "options": [
+              "Una esquina rota.",
+              "La cremallera atascada.",
+              "El relleno salido.",
+              "Las rayas borradas."
+            ],
+            "correct": "a",
+            "explanation": "Tenía una esquina rota."
+          },
+          "l304a-q2": {
+            "prompt": "¿Qué quería Rosa al principio para el parche?",
+            "options": [
+              "Que tuviera forma de hoja.",
+              "Que se notara muy poco.",
+              "Que cruzara todas las rayas.",
+              "Que cubriera toda la funda."
+            ],
+            "correct": "b",
+            "explanation": "Quería que apenas se notara."
+          },
+          "l304a-q3": {
+            "prompt": "¿Por qué Asha ensancha su dibujo?",
+            "options": [
+              "Para que el parche se notara menos.",
+              "Para que coincidieran las rayas.",
+              "Para que tapara bien la rotura.",
+              "Para aprovechar toda la camisa."
+            ],
+            "correct": "c",
+            "explanation": "Porque las puntas estrechas no tapaban bien la rotura."
+          },
+          "l304a-q4": {
+            "prompt": "¿Qué significa «retales» en esta lectura?",
+            "options": [
+              "Dibujos para dar forma al parche.",
+              "Rayas de colores sobre la funda.",
+              "Puntas que quedan sin cubrir.",
+              "Trozos de tela para aprovechar."
+            ],
+            "correct": "d",
+            "explanation": "Son trozos de tela que se pueden aprovechar."
+          },
+          "l304a-q5": {
+            "prompt": "¿Quién advierte que las rayas no van en la misma dirección?",
+            "options": [
+              "Hugo al comparar las dos telas.",
+              "Asha al ensanchar las puntas.",
+              "Irene al sacar el relleno.",
+              "Rosa al sentarse en el banco."
+            ],
+            "correct": "a",
+            "explanation": "Hugo, al colocar el retal junto a la funda."
+          },
+          "l304a-q6": {
+            "prompt": "¿Qué prefiere Rosa al final: disimular el parche o conservar la hoja derecha? ¿Cómo se ve?",
+            "options": [
+              "Disimularlo, aunque la hoja quede atravesada.",
+              "Mantener la hoja derecha con las rayas cruzadas.",
+              "Dejarlo sin hoja y hacer coincidir las rayas.",
+              "Esperar otro retal con las mismas rayas."
+            ],
+            "correct": "b",
+            "explanation": "Conservar la hoja derecha: acepta que las rayas queden cruzadas."
+          },
+          "l304a-q7": {
+            "prompt": "¿Qué resumen explica cómo eligen el parche?",
+            "options": [
+              "Rosa dibuja la hoja y Hugo la cose después de comparar.",
+              "Irene elige un parche oculto y Asha dibuja sobre él.",
+              "Aportan ideas, prueban posiciones y Rosa elige la hoja.",
+              "Asha conserva su primer dibujo y Rosa gira el cojín."
+            ],
+            "correct": "c",
+            "explanation": "Asha dibuja una hoja y la ensancha al escuchar a Rosa. Hugo compara las rayas. Prueban posiciones y Rosa escoge la hoja derecha."
+          }
+        }
+      },
+      {
+        "code": "L304A",
+        "language": "ca",
+        "questions": {
+          "l304a-q1": {
+            "prompt": "Quin desperfecte tenia el coixí?",
+            "options": [
+              "Una cantonada esquinçada.",
+              "La cremallera encallada.",
+              "El farciment fora de lloc.",
+              "Les ratlles esborrades."
+            ],
+            "correct": "a",
+            "explanation": "Tenia una cantonada esquinçada."
+          },
+          "l304a-q2": {
+            "prompt": "Què volia la Rosa al principi per al pedaç?",
+            "options": [
+              "Que tingués forma de fulla.",
+              "Que es notés molt poc.",
+              "Que creués totes les ratlles.",
+              "Que tapés tota la funda."
+            ],
+            "correct": "b",
+            "explanation": "Volia que gairebé no es notés."
+          },
+          "l304a-q3": {
+            "prompt": "Per què l’Asha eixampla el dibuix?",
+            "options": [
+              "Perquè el pedaç es notés menys.",
+              "Perquè coincidissin les ratlles.",
+              "Perquè tapés bé l’esquinç.",
+              "Per aprofitar tota la camisa."
+            ],
+            "correct": "c",
+            "explanation": "Perquè les puntes estretes no tapaven bé l’esquinç."
+          },
+          "l304a-q4": {
+            "prompt": "Què significa «retalls» en aquesta lectura?",
+            "options": [
+              "Dibuixos per donar forma al pedaç.",
+              "Ratlles de colors sobre la funda.",
+              "Puntes que queden sense tapar.",
+              "Trossos de roba per aprofitar."
+            ],
+            "correct": "d",
+            "explanation": "Són trossos de roba que es poden aprofitar."
+          },
+          "l304a-q5": {
+            "prompt": "Qui s’adona que les ratlles no van en la mateixa direcció?",
+            "options": [
+              "L’Hugo quan compara les dues robes.",
+              "L’Asha quan eixampla les puntes.",
+              "La Irene quan treu el farciment.",
+              "La Rosa quan seu al banc."
+            ],
+            "correct": "a",
+            "explanation": "L’Hugo, quan posa el retall al costat de la funda."
+          },
+          "l304a-q6": {
+            "prompt": "Què prefereix la Rosa al final: dissimular el pedaç o conservar la fulla dreta? Com es veu?",
+            "options": [
+              "Dissimular-lo, encara que la fulla quedi travessada.",
+              "Mantenir la fulla dreta amb les ratlles creuades.",
+              "Deixar-lo sense fulla i fer coincidir les ratlles.",
+              "Esperar un altre retall amb les mateixes ratlles."
+            ],
+            "correct": "b",
+            "explanation": "Conservar la fulla dreta: accepta que les ratlles quedin creuades."
+          },
+          "l304a-q7": {
+            "prompt": "Quin resum explica com trien el pedaç?",
+            "options": [
+              "La Rosa dibuixa la fulla i l’Hugo la cus després de comparar.",
+              "La Irene tria un pedaç amagat i l’Asha hi dibuixa a sobre.",
+              "Aporten idees, proven posicions i la Rosa tria la fulla.",
+              "L’Asha conserva el primer dibuix i la Rosa gira el coixí."
+            ],
+            "correct": "c",
+            "explanation": "L’Asha dibuixa una fulla i l’eixampla quan escolta la Rosa. L’Hugo compara les ratlles. Proven posicions i la Rosa tria la fulla dreta."
+          }
+        }
+      },
+      {
+        "code": "L304",
+        "language": "es",
+        "questions": {
+          "l304-q1": {
+            "prompt": "¿Qué objeto lleva Rosa y qué parte necesita reparación?",
+            "options": [
+              "Una bolsa con un bolsillo exterior roto.",
+              "Un cojín con una esquina de la funda rota.",
+              "Una camisa con el tallo del dibujo borrado.",
+              "Un cojín con la cremallera que no abre."
+            ],
+            "correct": "b",
+            "explanation": "Lleva un cojín cuya funda tiene una esquina rota."
+          },
+          "l304-q2": {
+            "prompt": "¿Qué experiencia de costura tiene Rosa y qué no ha hecho antes?",
+            "options": [
+              "Ha dibujado hojas, pero no ha cosido bolsas.",
+              "Ha hecho parches dibujados, pero no bolsas.",
+              "Ha cosido bolsas, pero no parches dibujados.",
+              "Ha reparado cojines, pero no ha elegido hilo."
+            ],
+            "correct": "c",
+            "explanation": "Ha cosido muchas bolsas, pero no ha hecho parches con forma de dibujo."
+          },
+          "l304-q3": {
+            "prompt": "¿Por qué Irene saca el relleno?",
+            "options": [
+              "Para que Rosa se sentara en el banco.",
+              "Para elegir el color del hilo verde.",
+              "Para comparar la camisa con la bolsa.",
+              "Para trabajar con la funda por separado."
+            ],
+            "correct": "d",
+            "explanation": "Para trabajar solo con la funda."
+          },
+          "l304-q4": {
+            "prompt": "¿Qué significa que la reparación quede «disimulada»?",
+            "options": [
+              "Que cueste distinguirla al mirar el cojín.",
+              "Que tenga la forma de una hoja caída.",
+              "Que se cosa con un hilo verde oscuro.",
+              "Que quede tapada por el relleno interior."
+            ],
+            "correct": "a",
+            "explanation": "Que se note poco al mirar el cojín."
+          },
+          "l304-q5": {
+            "prompt": "¿Por qué no sirve el primer dibujo de Asha tal como está?",
+            "options": [
+              "Porque el tallo coincide con las rayas verdes.",
+              "Porque una parte del roto quedaría descubierta.",
+              "Porque Rosa prefiere dibujar una bolsa entera.",
+              "Porque el papel impide abrir la cremallera."
+            ],
+            "correct": "b",
+            "explanation": "Las puntas son tan finas que el parche no cubriría todo el roto."
+          },
+          "l304-q6": {
+            "prompt": "¿Qué dos deseos no pueden mantener a la vez con ese dibujo y ese retal?",
+            "options": [
+              "Que la funda tenga relleno y una cremallera.",
+              "Que el parche cubra el roto y conserve un tallo.",
+              "Que las rayas coincidan y la hoja quede derecha.",
+              "Que el hilo sea oscuro y el parche sea verde."
+            ],
+            "correct": "c",
+            "explanation": "Que coincidan las rayas y que la hoja quede derecha."
+          },
+          "l304-q7": {
+            "prompt": "¿Para qué sirven los dos dibujos que hace Hugo?",
+            "options": [
+              "Para medir el relleno que vuelve al cojín.",
+              "Para copiar el bolsillo de la bolsa de Rosa.",
+              "Para mostrar cómo se abre la cremallera.",
+              "Para ver el resultado de ambas posiciones."
+            ],
+            "correct": "d",
+            "explanation": "Para comparar el aspecto de las dos posiciones antes de coser."
+          },
+          "l304-q8": {
+            "prompt": "¿Qué aporta el último párrafo después de terminar el cojín?",
+            "options": [
+              "Muestra una nueva colaboración a partir de la bolsa.",
+              "Explica una reparación anterior del mismo cojín.",
+              "Deshace la elección de la hoja de la funda.",
+              "Aclara por qué se había roto la esquina."
+            ],
+            "correct": "a",
+            "explanation": "Muestra que la colaboración continúa: Rosa enseña su bolsa y Asha empieza otro dibujo."
+          },
+          "l304-q9": {
+            "prompt": "¿Qué resumen recoge el proceso de elección?",
+            "options": [
+              "Rosa impone rayas alineadas y Asha elimina la hoja.",
+              "Revisan forma y orientación antes de elegir la hoja derecha.",
+              "Hugo cose el primer dibujo y Rosa cambia el relleno.",
+              "Irene termina el parche y después comparan los dibujos."
+            ],
+            "correct": "b",
+            "explanation": "Asha dibuja una hoja y Rosa observa que no tapa el roto. Asha la ensancha; Hugo compara las rayas y dibuja las posiciones. Rosa elige la hoja derecha aunque las rayas se crucen."
+          }
+        }
+      },
+      {
+        "code": "L304",
+        "language": "ca",
+        "questions": {
+          "l304-q1": {
+            "prompt": "Quin objecte porta la Rosa i quina part necessita reparació?",
+            "options": [
+              "Una bossa amb una butxaca exterior esquinçada.",
+              "Un coixí amb una cantonada de la funda esquinçada.",
+              "Una camisa amb la tija del dibuix esborrada.",
+              "Un coixí amb la cremallera que no s’obre."
+            ],
+            "correct": "b",
+            "explanation": "Porta un coixí que té una cantonada de la funda esquinçada."
+          },
+          "l304-q2": {
+            "prompt": "Quina experiència de costura té la Rosa i què no ha fet abans?",
+            "options": [
+              "Ha dibuixat fulles, però no ha cosit bosses.",
+              "Ha fet pedaços dibuixats, però no bosses.",
+              "Ha cosit bosses, però no pedaços dibuixats.",
+              "Ha reparat coixins, però no ha triat fil."
+            ],
+            "correct": "c",
+            "explanation": "Ha cosit moltes bosses, però no ha fet pedaços amb forma de dibuix."
+          },
+          "l304-q3": {
+            "prompt": "Per què la Irene treu el farciment?",
+            "options": [
+              "Perquè la Rosa segués al banc.",
+              "Per triar el color del fil verd.",
+              "Per comparar la camisa amb la bossa.",
+              "Per treballar amb la funda per separat."
+            ],
+            "correct": "d",
+            "explanation": "Per treballar només amb la funda."
+          },
+          "l304-q4": {
+            "prompt": "Què significa que la reparació quedi «dissimulada»?",
+            "options": [
+              "Que costi distingir-la quan es mira el coixí.",
+              "Que tingui la forma d’una fulla caiguda.",
+              "Que es cusi amb un fil verd fosc.",
+              "Que quedi tapada pel farciment interior."
+            ],
+            "correct": "a",
+            "explanation": "Que es noti poc quan es mira el coixí."
+          },
+          "l304-q5": {
+            "prompt": "Per què no serveix el primer dibuix de l’Asha tal com està?",
+            "options": [
+              "Perquè la tija coincideix amb les ratlles verdes.",
+              "Perquè una part de l’esquinç quedaria descoberta.",
+              "Perquè la Rosa prefereix dibuixar una bossa sencera.",
+              "Perquè el paper impedeix obrir la cremallera."
+            ],
+            "correct": "b",
+            "explanation": "Les puntes són tan fines que el pedaç no taparia tot l’esquinç."
+          },
+          "l304-q6": {
+            "prompt": "Quins dos desitjos no poden mantenir alhora amb aquest dibuix i aquest retall?",
+            "options": [
+              "Que la funda tingui farciment i una cremallera.",
+              "Que el pedaç tapi l’esquinç i conservi una tija.",
+              "Que les ratlles coincideixin i la fulla quedi dreta.",
+              "Que el fil sigui fosc i el pedaç sigui verd."
+            ],
+            "correct": "c",
+            "explanation": "Que coincideixin les ratlles i que la fulla quedi dreta."
+          },
+          "l304-q7": {
+            "prompt": "Per a què serveixen els dos dibuixos que fa l’Hugo?",
+            "options": [
+              "Per mesurar el farciment que torna al coixí.",
+              "Per copiar la butxaca de la bossa de la Rosa.",
+              "Per mostrar com s’obre la cremallera.",
+              "Per veure el resultat de totes dues posicions."
+            ],
+            "correct": "d",
+            "explanation": "Per comparar l’aspecte de les dues posicions abans de cosir."
+          },
+          "l304-q8": {
+            "prompt": "Què aporta l’últim paràgraf després d’acabar el coixí?",
+            "options": [
+              "Mostra una nova col·laboració a partir de la bossa.",
+              "Explica una reparació anterior del mateix coixí.",
+              "Desfà la tria de la fulla de la funda.",
+              "Aclareix per què s’havia esquinçat la cantonada."
+            ],
+            "correct": "a",
+            "explanation": "Mostra que la col·laboració continua: la Rosa ensenya la bossa i l’Asha comença un altre dibuix."
+          },
+          "l304-q9": {
+            "prompt": "Quin resum recull el procés de tria?",
+            "options": [
+              "La Rosa imposa ratlles alineades i l’Asha elimina la fulla.",
+              "Revisen forma i orientació abans de triar la fulla dreta.",
+              "L’Hugo cus el primer dibuix i la Rosa canvia el farciment.",
+              "La Irene acaba el pedaç i després comparen els dibuixos."
+            ],
+            "correct": "b",
+            "explanation": "L’Asha dibuixa una fulla i la Rosa observa que no tapa l’esquinç. L’Asha l’eixampla; l’Hugo compara les ratlles i dibuixa les posicions. La Rosa tria la fulla dreta encara que les ratlles es creuin."
+          }
+        }
+      },
+      {
+        "code": "L304B",
+        "language": "es",
+        "questions": {
+          "l304b-q1": {
+            "prompt": "¿Qué había provocado el roto y qué se había arreglado ya al empezar?",
+            "options": [
+              "El relleno había roto la funda y ya estaba sustituido.",
+              "La cremallera había roto el cojín y ya estaba arreglada.",
+              "Una astilla había rasgado la funda y el banco estaba arreglado.",
+              "Las tijeras habían rasgado la bolsa y ya estaba cosida."
+            ],
+            "correct": "c",
+            "explanation": "Una astilla del banco había rasgado la funda; el banco ya estaba arreglado."
+          },
+          "l304b-q2": {
+            "prompt": "¿Hacia dónde quiere Asha que apunte el tallo al principio?",
+            "options": [
+              "Hacia las rayas del retal.",
+              "Hacia la esquina exterior.",
+              "Hacia la cremallera abierta.",
+              "Hacia el centro del cojín."
+            ],
+            "correct": "d",
+            "explanation": "Hacia el centro del cojín."
+          },
+          "l304b-q3": {
+            "prompt": "¿Qué significa «discreto» al describir el parche que desea Rosa?",
+            "options": [
+              "Que destaque poco entre la tela de la funda.",
+              "Que muestre claramente la hoja recién caída.",
+              "Que cubra solo una parte del roto existente.",
+              "Que tenga un hilo más oscuro que las rayas."
+            ],
+            "correct": "a",
+            "explanation": "Que llame poco la atención y se note poco en la funda."
+          },
+          "l304b-q4": {
+            "prompt": "¿Qué problema resuelve ensanchar la hoja y qué problema queda por decidir?",
+            "options": [
+              "Alinea las rayas; aún deben conseguir que tape el roto.",
+              "Cubre el roto; aún deben decidir la orientación del retal.",
+              "Centra el tallo; aún deben retirar el relleno de dentro.",
+              "Disimula el hilo; aún deben elegir la forma del parche."
+            ],
+            "correct": "b",
+            "explanation": "Resuelve que el parche cubra la rotura. Queda decidir entre alinear rayas o conservar la dirección del dibujo."
+          },
+          "l304b-q5": {
+            "prompt": "¿Por qué es útil comparar los dibujos antes de cortar la tela?",
+            "options": [
+              "Permite averiguar qué astilla había roto la tela.",
+              "Permite decidir si el relleno cabe en la funda.",
+              "Permite elegir la orientación sin cortar aún el retal.",
+              "Permite corregir la costura de la bolsa de Rosa."
+            ],
+            "correct": "c",
+            "explanation": "Permite elegir la posición viendo su efecto antes de dar al retal una forma definitiva."
+          },
+          "l304b-q6": {
+            "prompt": "¿Qué expectativa de Asha no se cumple?",
+            "options": [
+              "Que Rosa quisiera conservar la forma de hoja.",
+              "Que Irene esperara antes de cortar el retal.",
+              "Que Hugo dibujara las dos posiciones posibles.",
+              "Que Rosa escogiera el parche menos visible."
+            ],
+            "correct": "d",
+            "explanation": "Esperaba que Rosa eligiera disimular el parche, pero esta prefiere las rayas cruzadas."
+          },
+          "l304b-q7": {
+            "prompt": "¿Quién corta y cose, y sobre qué pieza trabaja?",
+            "options": [
+              "Irene trabaja sobre la funda sin relleno.",
+              "Rosa trabaja sobre su bolsa de costura.",
+              "Asha trabaja sobre el cojín ya relleno.",
+              "Hugo trabaja sobre la camisa completa."
+            ],
+            "correct": "a",
+            "explanation": "Irene corta y cose sobre la funda vacía."
+          },
+          "l304b-q8": {
+            "prompt": "¿Qué detalle del final muestra que Rosa también puede pedir ayuda en algo que sabe hacer?",
+            "options": [
+              "Que lleva el cojín al banco con la hoja hacia dentro.",
+              "Que enseña una costura torcida de una bolsa propia.",
+              "Que escoge un hilo oscuro junto a la reparadora.",
+              "Que había traído retales de una camisa de rayas."
+            ],
+            "correct": "b",
+            "explanation": "Aunque lleva años cosiendo, enseña una costura torcida y acepta que Asha diseñe un bolsillo para esa zona."
+          },
+          "l304b-q9": {
+            "prompt": "¿Por qué el relato incluye que Rosa había cosido bolsas antes de mostrar su costura torcida?",
+            "options": [
+              "Para explicar que Irene aprendió a coser con Rosa.",
+              "Para presentar la causa del roto de la funda.",
+              "Para contrastar su experiencia con una ayuda que recibe.",
+              "Para demostrar que Asha ya sabía coser bolsas."
+            ],
+            "correct": "c",
+            "explanation": "Para que se entienda que tener experiencia no impide que necesite otra mirada en una tarea concreta."
+          },
+          "l304b-q10": {
+            "prompt": "¿En qué se diferencia la aportación de Rosa a la forma del parche de su decisión sobre las rayas?",
+            "options": [
+              "La forma es un gusto; las rayas deciden si la funda cierra.",
+              "Ambas decisiones sirven para ocultar totalmente el parche.",
+              "Ambas decisiones las toma Irene según su forma de coser.",
+              "La forma permite cubrir el roto; las rayas responden a un gusto."
+            ],
+            "correct": "d",
+            "explanation": "Lo primero atiende a que el parche cubra el roto; lo segundo es una preferencia sobre su aspecto."
+          },
+          "l304b-q11": {
+            "prompt": "¿Qué resumen refleja el reparto de aportaciones?",
+            "options": [
+              "Combinan observación y diseño; Rosa elige e Irene cose.",
+              "Rosa diseña y cose; los niños observan sus decisiones.",
+              "Irene propone y dibuja; Rosa y Asha cosen el parche.",
+              "Hugo elige las rayas; Irene adapta después el dibujo."
+            ],
+            "correct": "a",
+            "explanation": "Asha diseña la hoja y la ensancha por la observación de Rosa. Hugo detecta las rayas y dibuja posiciones. Rosa escoge la orientación e Irene realiza el corte y la costura."
+          }
+        }
+      },
+      {
+        "code": "L304B",
+        "language": "ca",
+        "questions": {
+          "l304b-q1": {
+            "prompt": "Què havia provocat l’esquinç i què ja estava arreglat al començament?",
+            "options": [
+              "El farciment havia esquinçat la funda i ja estava substituït.",
+              "La cremallera havia esquinçat el coixí i ja estava arreglada.",
+              "Una estella havia esquinçat la funda i el banc estava arreglat.",
+              "Les tisores havien esquinçat la bossa i ja estava cosida."
+            ],
+            "correct": "c",
+            "explanation": "Una estella del banc havia esquinçat la funda; el banc ja estava arreglat."
+          },
+          "l304b-q2": {
+            "prompt": "Cap a on vol l’Asha que apunti la tija al principi?",
+            "options": [
+              "Cap a les ratlles del retall.",
+              "Cap a la cantonada exterior.",
+              "Cap a la cremallera oberta.",
+              "Cap al centre del coixí."
+            ],
+            "correct": "d",
+            "explanation": "Cap al centre del coixí."
+          },
+          "l304b-q3": {
+            "prompt": "Què significa «discret» quan es descriu el pedaç que desitja la Rosa?",
+            "options": [
+              "Que destaqui poc entre la roba de la funda.",
+              "Que mostri clarament la fulla acabada de caure.",
+              "Que tapi només una part de l’esquinç existent.",
+              "Que tingui un fil més fosc que les ratlles."
+            ],
+            "correct": "a",
+            "explanation": "Que cridi poc l’atenció i es noti poc a la funda."
+          },
+          "l304b-q4": {
+            "prompt": "Quin problema resol eixamplar la fulla i quin problema queda per decidir?",
+            "options": [
+              "Alinea les ratlles; encara han d’aconseguir que tapi l’esquinç.",
+              "Tapa l’esquinç; encara han de decidir l’orientació del retall.",
+              "Centra la tija; encara han de retirar el farciment de dins.",
+              "Dissimula el fil; encara han de triar la forma del pedaç."
+            ],
+            "correct": "b",
+            "explanation": "Resol que el pedaç tapi l’esquinç. Queda decidir entre alinear ratlles o conservar la direcció del dibuix."
+          },
+          "l304b-q5": {
+            "prompt": "Per què és útil comparar els dibuixos abans de tallar la roba?",
+            "options": [
+              "Permet esbrinar quina estella havia esquinçat la roba.",
+              "Permet decidir si el farciment cap a la funda.",
+              "Permet triar l’orientació sense tallar encara el retall.",
+              "Permet corregir la costura de la bossa de la Rosa."
+            ],
+            "correct": "c",
+            "explanation": "Permet triar la posició veient-ne l’efecte abans de donar al retall una forma definitiva."
+          },
+          "l304b-q6": {
+            "prompt": "Quina expectativa de l’Asha no es compleix?",
+            "options": [
+              "Que la Rosa volgués conservar la forma de fulla.",
+              "Que la Irene esperés abans de tallar el retall.",
+              "Que l’Hugo dibuixés les dues posicions possibles.",
+              "Que la Rosa triés el pedaç menys visible."
+            ],
+            "correct": "d",
+            "explanation": "Esperava que la Rosa triés dissimular el pedaç, però ella prefereix les ratlles creuades."
+          },
+          "l304b-q7": {
+            "prompt": "Qui talla i cus, i sobre quina peça treballa?",
+            "options": [
+              "La Irene treballa sobre la funda sense farciment.",
+              "La Rosa treballa sobre la seva bossa de costura.",
+              "L’Asha treballa sobre el coixí ja farcit.",
+              "L’Hugo treballa sobre la camisa sencera."
+            ],
+            "correct": "a",
+            "explanation": "La Irene talla i cus sobre la funda buida."
+          },
+          "l304b-q8": {
+            "prompt": "Quin detall del final mostra que la Rosa també pot demanar ajuda en una cosa que sap fer?",
+            "options": [
+              "Que porta el coixí al banc amb la fulla cap endins.",
+              "Que ensenya una costura torta d’una bossa pròpia.",
+              "Que tria un fil fosc al costat de la reparadora.",
+              "Que havia portat retalls d’una camisa de ratlles."
+            ],
+            "correct": "b",
+            "explanation": "Tot i que fa anys que cus, ensenya una costura torta i accepta que l’Asha dissenyi una butxaca per a aquella zona."
+          },
+          "l304b-q9": {
+            "prompt": "Per què el relat inclou que la Rosa havia cosit bosses abans de mostrar la costura torta?",
+            "options": [
+              "Per explicar que la Irene va aprendre a cosir amb la Rosa.",
+              "Per presentar la causa de l’esquinç de la funda.",
+              "Per contrastar la seva experiència amb una ajuda que rep.",
+              "Per demostrar que l’Asha ja sabia cosir bosses."
+            ],
+            "correct": "c",
+            "explanation": "Perquè s’entengui que tenir experiència no impedeix que necessiti una altra mirada en una tasca concreta."
+          },
+          "l304b-q10": {
+            "prompt": "En què es diferencia l’aportació de la Rosa a la forma del pedaç de la seva decisió sobre les ratlles?",
+            "options": [
+              "La forma és un gust; les ratlles decideixen si la funda tanca.",
+              "Totes dues decisions serveixen per amagar totalment el pedaç.",
+              "Totes dues decisions les pren la Irene segons la seva manera de cosir.",
+              "La forma permet tapar l’esquinç; les ratlles responen a un gust."
+            ],
+            "correct": "d",
+            "explanation": "La primera atén que el pedaç tapi l’esquinç; la segona és una preferència sobre l’aspecte."
+          },
+          "l304b-q11": {
+            "prompt": "Quin resum reflecteix el repartiment d’aportacions?",
+            "options": [
+              "Combinen observació i disseny; la Rosa tria i la Irene cus.",
+              "La Rosa dissenya i cus; els infants observen les decisions.",
+              "La Irene proposa i dibuixa; la Rosa i l’Asha cusen el pedaç.",
+              "L’Hugo tria les ratlles; la Irene adapta després el dibuix."
+            ],
+            "correct": "a",
+            "explanation": "L’Asha dissenya la fulla i l’eixampla per l’observació de la Rosa. L’Hugo detecta les ratlles i dibuixa posicions. La Rosa tria l’orientació i la Irene fa el tall i la costura."
+          }
+        }
+      }
+    ]
   }
 ];
