@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.62.1 · 26 de novembre del 2026
+
+L299: La pancarta de les dues festes. Nova família de l’univers El taller de la plaça, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 8 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.62 · 26 de novembre del 2026
 
 L298: La nansa que demanava una altra idea. Nova família de l’univers El taller de la plaça, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 7 històries independents. Contingut provisional, pendent de validació docent.

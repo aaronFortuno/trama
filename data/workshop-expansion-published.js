@@ -1952,5 +1952,1894 @@ export const workshopPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L299",
+    "edition": "v1.62.1",
+    "family": {
+      "id": "familia-l299",
+      "code": "L299",
+      "name": {
+        "es": "La pancarta de las dos fiestas",
+        "ca": "La pancarta de les dues festes"
+      },
+      "description": {
+        "ca": "Una història del Taller de la plaça, amb suport, versió de referència i ampliació.",
+        "es": "Una historia del Taller de la plaza, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L299A",
+        "L299",
+        "L299B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "la-pancarta-de-las-dos-fiestas-a-es",
+        "code": "L299A",
+        "workId": "la-pancarta-de-las-dos-fiestas-a",
+        "language": "es",
+        "familyId": "familia-l299",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "diary",
+        "title": "La pancarta de las dos fiestas",
+        "summary": "Asha cuenta cómo una pancarta encuentra sitio en dos celebraciones diferentes.",
+        "paragraphs": [
+          "Del cuaderno de Asha. Hoy he dibujado un sol, pero todo empezó con una tela vacía. Estaba con Hugo en el taller de Irene, la reparadora de la plaza. Llegó Paula, una vecina que preparaba dos fiestas: una con música en la plaza y otra, por el aniversario de la asociación, en una sala pequeña.",
+          "Quería usar la misma pancarta en las dos. En la plaza debía verse desde lejos; en la sala tenía que caber sobre una puerta estrecha. Yo propuse cortarla después de la primera fiesta. Paula preguntó cómo volverían a usarla entera el año siguiente. Me quedé mirando las tijeras de Irene.",
+          "Hugo dobló los extremos de una tira de papel hacia atrás. En el centro dibujamos un sol y en los lados dos pájaros. Al plegarla, el sol seguía visible. Irene nos ayudó a hacer una maqueta pequeña de la puerta con papel y probamos allí nuestra tira.",
+          "Irene preparó la tela, cosió las cintas para colgarla y sujetó los extremos plegados por detrás. Paula comprobó las dos formas antes de llevársela. Yo he pegado la maqueta en mi cuaderno por el centro. Así todavía puedo abrir los lados y hacer aparecer los pájaros."
+        ],
+        "questions": [
+          {
+            "id": "l299a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Quién cuenta lo sucedido en el taller?",
+            "answer": "Lo cuenta Asha en su cuaderno.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Del cuaderno de Asha."
+              }
+            ]
+          },
+          {
+            "id": "l299a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué necesitaba la pancarta en cada lugar?",
+            "answer": "En la plaza tenía que verse desde lejos; en la sala debía caber sobre una puerta estrecha.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "En la plaza debía verse desde lejos; en la sala tenía que caber sobre una puerta estrecha."
+              }
+            ]
+          },
+          {
+            "id": "l299a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué problema tenía cortar la tela después de la primera fiesta?",
+            "answer": "La dejaría más corta y no podrían volver a usarla entera en la plaza al año siguiente.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Yo propuse cortarla después de la primera fiesta. Paula preguntó cómo volverían a usarla entera el año siguiente."
+              }
+            ]
+          },
+          {
+            "id": "l299a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué es una «maqueta» en esta lectura?",
+            "answer": "Una representación pequeña de papel que permite probar cómo quedaría la pancarta sobre la puerta.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Irene nos ayudó a hacer una maqueta pequeña de la puerta con papel y probamos allí nuestra tira."
+              }
+            ]
+          },
+          {
+            "id": "l299a-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué dibujo quedaba visible al plegar los lados y qué dibujos se ocultaban?",
+            "answer": "El sol del centro seguía visible; los dos pájaros de los lados quedaban detrás.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "En el centro dibujamos un sol y en los lados dos pájaros. Al plegarla, el sol seguía visible."
+              }
+            ]
+          },
+          {
+            "id": "l299a-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué Asha pegó la maqueta en el cuaderno solo por el centro?",
+            "answer": "Porque así podía seguir doblando y abriendo los laterales para mostrar las dos formas.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Yo he pegado la maqueta en mi cuaderno por el centro. Así todavía puedo abrir los lados y hacer aparecer los pájaros."
+              }
+            ]
+          },
+          {
+            "id": "l299a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume la idea que permite usar una sola pancarta en las dos fiestas.",
+            "answer": "La pancarta se abre entera para la plaza y se pliegan los lados por detrás para la sala. El sol central queda visible en las dos formas y la tela puede volver a abrirse.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Hugo dobló los extremos de una tira de papel hacia atrás."
+              },
+              {
+                "paragraph": 3,
+                "text": "Al plegarla, el sol seguía visible."
+              },
+              {
+                "paragraph": 4,
+                "text": "sujetó los extremos plegados por detrás"
+              }
+            ]
+          },
+          {
+            "id": "l299a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué otro dibujo pondrías en el centro para que sirviera en dos fiestas distintas? Explica tu elección.",
+            "answer": "Respuesta personal justificada que proponga un motivo apropiado para ambas celebraciones."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "maqueta",
+            "occurrence": 1,
+            "questionId": "l299a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l299-scene",
+            "src": "assets/readings/l299-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene, Asha y Hugo observan una pancarta abierta sobre la mesa, con un sol central, hojas y un pájaro en cada extremo; junto a ella hay papeles de prueba.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-pancarta-de-las-dos-fiestas-a-ca",
+        "code": "L299A",
+        "workId": "la-pancarta-de-las-dos-fiestas-a",
+        "language": "ca",
+        "familyId": "familia-l299",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "diary",
+        "title": "La pancarta de les dues festes",
+        "summary": "L’Asha explica com una pancarta troba lloc en dues celebracions diferents.",
+        "paragraphs": [
+          "Del quadern de l’Asha. Avui he dibuixat un sol, però tot ha començat amb una tela buida. Era amb l’Hugo al taller de la Irene, la reparadora de la plaça. Ha arribat la Paula, una veïna que preparava dues festes: una amb música a la plaça i una altra, per l’aniversari de l’associació, en una sala petita.",
+          "Volia fer servir la mateixa pancarta a totes dues. A la plaça s’havia de veure de lluny; a la sala havia de cabre damunt d’una porta estreta. He proposat tallar-la després de la primera festa. La Paula ha preguntat com la tornarien a fer servir sencera l’any següent. M’he quedat mirant les tisores de la Irene.",
+          "L’Hugo ha doblegat els extrems d’una tira de paper cap enrere. Al centre hi hem dibuixat un sol i als costats dos ocells. En plegar-la, el sol continuava visible. La Irene ens ha ajudat a fer una maqueta petita de la porta amb paper i hi hem provat la tira.",
+          "La Irene ha preparat la tela, hi ha cosit les cintes per penjar-la i ha subjectat els extrems plegats per darrere. La Paula ha comprovat les dues formes abans d’endur-se-la. He enganxat la maqueta al quadern pel centre. Així encara puc obrir els costats i fer aparèixer els ocells."
+        ],
+        "questions": [
+          {
+            "id": "l299a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Qui explica què ha passat al taller?",
+            "answer": "Ho explica l’Asha al seu quadern.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Del quadern de l’Asha."
+              }
+            ]
+          },
+          {
+            "id": "l299a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què necessitava la pancarta a cada lloc?",
+            "answer": "A la plaça s’havia de veure de lluny; a la sala havia de cabre damunt d’una porta estreta.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "A la plaça s’havia de veure de lluny; a la sala havia de cabre damunt d’una porta estreta."
+              }
+            ]
+          },
+          {
+            "id": "l299a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quin problema tenia tallar la tela després de la primera festa?",
+            "answer": "La deixaria més curta i no la podrien tornar a fer servir sencera a la plaça l’any següent.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "He proposat tallar-la després de la primera festa. La Paula ha preguntat com la tornarien a fer servir sencera l’any següent."
+              }
+            ]
+          },
+          {
+            "id": "l299a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què és una «maqueta» en aquesta lectura?",
+            "answer": "Una representació petita de paper que permet provar com quedaria la pancarta damunt de la porta.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La Irene ens ha ajudat a fer una maqueta petita de la porta amb paper i hi hem provat la tira."
+              }
+            ]
+          },
+          {
+            "id": "l299a-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quin dibuix quedava visible en plegar els costats i quins dibuixos s’amagaven?",
+            "answer": "El sol del centre continuava visible; els dos ocells dels costats quedaven al darrere.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Al centre hi hem dibuixat un sol i als costats dos ocells. En plegar-la, el sol continuava visible."
+              }
+            ]
+          },
+          {
+            "id": "l299a-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què l’Asha va enganxar la maqueta al quadern només pel centre?",
+            "answer": "Perquè així podia continuar doblegant i obrint els laterals per mostrar les dues formes.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "He enganxat la maqueta al quadern pel centre. Així encara puc obrir els costats i fer aparèixer els ocells."
+              }
+            ]
+          },
+          {
+            "id": "l299a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix la idea que permet fer servir una sola pancarta a les dues festes.",
+            "answer": "La pancarta s’obre sencera per a la plaça i se’n pleguen els costats per darrere per a la sala. El sol central queda visible en les dues formes i la tela es pot tornar a obrir.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "L’Hugo ha doblegat els extrems d’una tira de paper cap enrere."
+              },
+              {
+                "paragraph": 3,
+                "text": "En plegar-la, el sol continuava visible."
+              },
+              {
+                "paragraph": 4,
+                "text": "ha subjectat els extrems plegats per darrere"
+              }
+            ]
+          },
+          {
+            "id": "l299a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quin altre dibuix posaries al centre perquè servís en dues festes diferents? Explica la tria.",
+            "answer": "Resposta personal justificada que proposi un motiu adequat per a totes dues celebracions."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "maqueta",
+            "occurrence": 1,
+            "questionId": "l299a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l299-scene",
+            "src": "assets/readings/l299-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene, l’Asha i l’Hugo observen una pancarta oberta damunt la taula, amb un sol al centre, fulles i un ocell a cada extrem; al costat hi ha papers de prova.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-pancarta-de-las-dos-fiestas-es",
+        "code": "L299",
+        "workId": "la-pancarta-de-las-dos-fiestas",
+        "language": "es",
+        "familyId": "familia-l299",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "diary",
+        "title": "La pancarta de las dos fiestas",
+        "summary": "El diario de Asha recoge las pruebas para adaptar una pancarta a dos espacios sin cortarla.",
+        "paragraphs": [
+          "Del cuaderno de Asha. Esta tarde, en el taller de la plaza, he propuesto cortar una pancarta. Al final he guardado unas tijeras dibujadas en mi cuaderno, pero la tela sigue entera. Estaba con Hugo, mi amigo, mientras Irene, la reparadora, ordenaba hilos. Llegó Paula con una tela y dos celebraciones en la cabeza: una fiesta con música en la plaza y el aniversario de la asociación vecinal en una sala.",
+          "Paula quería una sola pancarta para las dos fiestas. Abierta, la tela medía ciento ochenta centímetros de ancho. Serviría sobre la mesa de los músicos, donde debía verse desde lejos. La puerta de la sala tenía un hueco de ciento diez centímetros. —La cortamos después de la primera fiesta —dije. —¿Y el próximo año? —preguntó Paula. Yo aún no había pensado tan lejos.",
+          "Hugo dobló los extremos de una tira de papel hacia atrás. Dibujamos un sol en el centro y un pájaro en cada lado. Irene nos ayudó a representar la puerta a la misma escala. Al doblar los lados, quedaba un centro equivalente a noventa centímetros: cabía sobre la puerta y el sol seguía entero. Los pájaros quedaban ocultos detrás.",
+          "Paula eligió los tres dibujos: le servían para ambas celebraciones. Irene pasó el diseño a la tela y cosió las cintas para colgarla en las dos posiciones. También preparó unas cintas traseras para sujetar los extremos doblados. Paula probó a abrirla y plegarla antes de recogerla.",
+          "Yo he pegado nuestra maqueta en el cuaderno, solo por el centro. Cuando levanto sus lados, aparecen los pájaros. Mañana enseñaré primero la versión estrecha a mi hermano; después abriré la tira de golpe. Ya lo estoy oyendo: «¡Pero si antes era más pequeña!»."
+        ],
+        "questions": [
+          {
+            "id": "l299-q1",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué indicios permiten reconocer que este texto es una entrada de diario?",
+            "answer": "Asha cuenta en primera persona algo que le ha ocurrido esa tarde, comenta lo que pensaba y anuncia qué hará mañana.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Del cuaderno de Asha. Esta tarde, en el taller de la plaza, he propuesto cortar una pancarta."
+              },
+              {
+                "paragraph": 5,
+                "text": "Mañana enseñaré primero la versión estrecha a mi hermano"
+              }
+            ]
+          },
+          {
+            "id": "l299-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué dos necesidades distintas debía cumplir la misma pancarta?",
+            "answer": "Verse desde lejos en la plaza y caber sobre el hueco de la puerta de la sala.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "donde debía verse desde lejos"
+              },
+              {
+                "paragraph": 2,
+                "text": "La puerta de la sala tenía un hueco de ciento diez centímetros."
+              }
+            ]
+          },
+          {
+            "id": "l299-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué había olvidado considerar Asha al proponer cortar la tela?",
+            "answer": "Que Paula quería volver a usarla abierta en la plaza el año siguiente; cortarla impediría recuperar su tamaño sin otra reparación.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La cortamos después de la primera fiesta"
+              },
+              {
+                "paragraph": 2,
+                "text": "¿Y el próximo año? —preguntó Paula."
+              }
+            ]
+          },
+          {
+            "id": "l299-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué implica representar la puerta «a la misma escala» que la tira de papel?",
+            "answer": "Reducir ambas medidas en la misma proporción para poder comparar si la pancarta cabría.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Irene nos ayudó a representar la puerta a la misma escala."
+              },
+              {
+                "paragraph": 3,
+                "text": "cabía sobre la puerta"
+              }
+            ]
+          },
+          {
+            "id": "l299-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Cuánto medía la parte que quedaba visible al plegar los lados?",
+            "answer": "Noventa centímetros.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "quedaba un centro equivalente a noventa centímetros"
+              }
+            ]
+          },
+          {
+            "id": "l299-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué era importante colocar el sol en el centro y no en un extremo?",
+            "answer": "Porque el centro quedaba visible en las dos posiciones, mientras que los extremos se ocultaban al plegar la pancarta para la sala.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "el sol seguía entero. Los pájaros quedaban ocultos detrás."
+              }
+            ]
+          },
+          {
+            "id": "l299-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Para qué preparó Irene unas cintas en la parte trasera?",
+            "answer": "Para sujetar los extremos cuando estuvieran doblados hacia atrás.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "También preparó unas cintas traseras para sujetar los extremos doblados."
+              }
+            ]
+          },
+          {
+            "id": "l299-q8",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Al final, ¿la frase del hermano ya ha ocurrido? Explica cómo lo sabes.",
+            "answer": "No. Asha anuncia que le enseñará la maqueta mañana y se imagina lo que él dirá.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Mañana enseñaré primero la versión estrecha a mi hermano; después abriré la tira de golpe. Ya lo estoy oyendo"
+              }
+            ]
+          },
+          {
+            "id": "l299-q9",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resume cómo pasa el grupo de la primera propuesta a la solución final.",
+            "answer": "Asha propone cortar la pancarta para que quepa en la sala, pero Paula quiere reutilizarla entera. Prueban con papel unos laterales que se doblan detrás del centro. El sol sigue visible y la pancarta cabe en ambos lugares; Irene prepara la tela y las cintas.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La cortamos después de la primera fiesta"
+              },
+              {
+                "paragraph": 2,
+                "text": "¿Y el próximo año?"
+              },
+              {
+                "paragraph": 3,
+                "text": "Hugo dobló los extremos de una tira de papel hacia atrás."
+              },
+              {
+                "paragraph": 4,
+                "text": "Irene pasó el diseño a la tela"
+              }
+            ]
+          },
+          {
+            "id": "l299-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Paula quiere reutilizar la pancarta otro año. ¿Qué le recomendarías comprobar al recogerla? Justifica una recomendación.",
+            "answer": "Respuesta personal razonada: por ejemplo, comprobar que puede plegar, sujetar y volver a desplegar los laterales sin ayuda."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "a la misma escala",
+            "occurrence": 1,
+            "questionId": "l299-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l299-scene",
+            "src": "assets/readings/l299-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene, Asha y Hugo observan una pancarta abierta sobre la mesa, con un sol central, hojas y un pájaro en cada extremo; junto a ella hay papeles de prueba.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-pancarta-de-las-dos-fiestas-ca",
+        "code": "L299",
+        "workId": "la-pancarta-de-las-dos-fiestas",
+        "language": "ca",
+        "familyId": "familia-l299",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "diary",
+        "title": "La pancarta de les dues festes",
+        "summary": "El diari de l’Asha recull les proves per adaptar una pancarta a dos espais sense tallar-la.",
+        "paragraphs": [
+          "Del quadern de l’Asha. Aquesta tarda, al taller de la plaça, he proposat tallar una pancarta. Al final he guardat unes tisores dibuixades al quadern, però la tela continua sencera. Era amb l’Hugo, el meu amic, mentre la Irene, la reparadora, endreçava fils. Ha arribat la Paula amb una tela i dues celebracions al cap: una festa amb música a la plaça i l’aniversari de l’associació veïnal en una sala.",
+          "La Paula volia una sola pancarta per a totes dues festes. Oberta, la tela feia cent vuitanta centímetres d’ample. Serviria damunt la taula dels músics, on s’havia de veure de lluny. La porta de la sala tenia un buit de cent deu centímetres. —La tallem després de la primera festa —he dit. —I l’any vinent? —ha preguntat la Paula. Jo encara no havia pensat tan lluny.",
+          "L’Hugo ha doblegat els extrems d’una tira de paper cap enrere. Hem dibuixat un sol al centre i un ocell a cada costat. La Irene ens ha ajudat a representar la porta a la mateixa escala. En doblegar els costats, quedava un centre equivalent a noranta centímetres: cabia damunt de la porta i el sol continuava sencer. Els ocells quedaven amagats al darrere.",
+          "La Paula ha triat els tres dibuixos: li servien per a totes dues celebracions. La Irene ha passat el disseny a la tela i hi ha cosit les cintes per penjar-la en les dues posicions. També ha preparat unes cintes al darrere per subjectar els extrems doblegats. La Paula ha provat d’obrir-la i plegar-la abans de recollir-la.",
+          "He enganxat la nostra maqueta al quadern, només pel centre. Quan n’aixeco els costats, apareixen els ocells. Demà ensenyaré primer la versió estreta al meu germà; després obriré la tira de cop. Ja el sento: «Però si abans era més petita!»."
+        ],
+        "questions": [
+          {
+            "id": "l299-q1",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quins indicis permeten reconèixer que aquest text és una entrada de diari?",
+            "answer": "L’Asha explica en primera persona una cosa que li ha passat aquella tarda, comenta què pensava i anuncia què farà demà.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Del quadern de l’Asha. Aquesta tarda, al taller de la plaça, he proposat tallar una pancarta."
+              },
+              {
+                "paragraph": 5,
+                "text": "Demà ensenyaré primer la versió estreta al meu germà"
+              }
+            ]
+          },
+          {
+            "id": "l299-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quines dues necessitats diferents havia de complir la mateixa pancarta?",
+            "answer": "Veure’s de lluny a la plaça i cabre damunt del buit de la porta de la sala.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "on s’havia de veure de lluny"
+              },
+              {
+                "paragraph": 2,
+                "text": "La porta de la sala tenia un buit de cent deu centímetres."
+              }
+            ]
+          },
+          {
+            "id": "l299-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què havia oblidat considerar l’Asha en proposar tallar la tela?",
+            "answer": "Que la Paula volia tornar-la a fer servir oberta a la plaça l’any següent; tallar-la impediria recuperar-ne la mida sense una altra reparació.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La tallem després de la primera festa"
+              },
+              {
+                "paragraph": 2,
+                "text": "I l’any vinent? —ha preguntat la Paula."
+              }
+            ]
+          },
+          {
+            "id": "l299-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què implica representar la porta «a la mateixa escala» que la tira de paper?",
+            "answer": "Reduir totes dues mesures en la mateixa proporció per poder comparar si la pancarta hi cabria.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La Irene ens ha ajudat a representar la porta a la mateixa escala."
+              },
+              {
+                "paragraph": 3,
+                "text": "cabia damunt de la porta"
+              }
+            ]
+          },
+          {
+            "id": "l299-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quant feia la part que quedava visible en plegar els costats?",
+            "answer": "Noranta centímetres.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "quedava un centre equivalent a noranta centímetres"
+              }
+            ]
+          },
+          {
+            "id": "l299-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què era important posar el sol al centre i no en un extrem?",
+            "answer": "Perquè el centre quedava visible en les dues posicions, mentre que els extrems s’amagaven en plegar la pancarta per a la sala.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "el sol continuava sencer. Els ocells quedaven amagats al darrere."
+              }
+            ]
+          },
+          {
+            "id": "l299-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per a què va preparar la Irene unes cintes a la part del darrere?",
+            "answer": "Per subjectar els extrems quan estiguessin doblegats cap enrere.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "També ha preparat unes cintes al darrere per subjectar els extrems doblegats."
+              }
+            ]
+          },
+          {
+            "id": "l299-q8",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Al final, la frase del germà ja ha passat? Explica com ho saps.",
+            "answer": "No. L’Asha anuncia que li ensenyarà la maqueta demà i s’imagina què dirà.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Demà ensenyaré primer la versió estreta al meu germà; després obriré la tira de cop. Ja el sento"
+              }
+            ]
+          },
+          {
+            "id": "l299-q9",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resumeix com passa el grup de la primera proposta a la solució final.",
+            "answer": "L’Asha proposa tallar la pancarta perquè càpiga a la sala, però la Paula la vol reutilitzar sencera. Proven amb paper uns laterals que es dobleguen darrere del centre. El sol continua visible i la pancarta cap a tots dos llocs; la Irene prepara la tela i les cintes.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La tallem després de la primera festa"
+              },
+              {
+                "paragraph": 2,
+                "text": "I l’any vinent?"
+              },
+              {
+                "paragraph": 3,
+                "text": "L’Hugo ha doblegat els extrems d’una tira de paper cap enrere."
+              },
+              {
+                "paragraph": 4,
+                "text": "La Irene ha passat el disseny a la tela"
+              }
+            ]
+          },
+          {
+            "id": "l299-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "La Paula vol reutilitzar la pancarta un altre any. Què li recomanaries comprovar quan la reculli? Justifica una recomanació.",
+            "answer": "Resposta personal raonada: per exemple, comprovar que pot plegar, subjectar i tornar a desplegar els laterals sense ajuda."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "a la mateixa escala",
+            "occurrence": 1,
+            "questionId": "l299-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l299-scene",
+            "src": "assets/readings/l299-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene, l’Asha i l’Hugo observen una pancarta oberta damunt la taula, amb un sol al centre, fulles i un ocell a cada extrem; al costat hi ha papers de prova.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-pancarta-de-las-dos-fiestas-b-es",
+        "code": "L299B",
+        "workId": "la-pancarta-de-las-dos-fiestas-b",
+        "language": "es",
+        "familyId": "familia-l299",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "diary",
+        "title": "La pancarta de las dos fiestas",
+        "summary": "Una página del diario de Asha conserva las dudas y pruebas de una pancarta que cambia de tamaño sin perder la tela.",
+        "paragraphs": [
+          "Del cuaderno de Asha. Esta tarde he dibujado unas tijeras en mi cuaderno y luego las he tachado. Estaba en el taller de la plaza con Hugo, mi amigo, cuando llegó Paula. Irene, la reparadora, apartó sus hilos para extender la tela que traía la vecina. Paula quería convertirla en una pancarta para dos celebraciones: una fiesta con música en la plaza y el aniversario de la asociación vecinal, que se haría en una sala.",
+          "Extendida, la tela medía ciento ochenta centímetros de ancho. En la plaza la colgarían sobre la mesa de los músicos y querían que se viera desde lejos. Sin embargo, el hueco de la puerta de la sala medía ciento diez centímetros. Propuse cortar los extremos después de la primera fiesta. Paula levantó las cejas: —Pero el año que viene volveremos a necesitarla grande. Cogí el lápiz para borrar mis tijeras.",
+          "Hugo hizo una tira de papel y dobló ambos extremos hacia atrás. Yo había dibujado primero un sol enorme que ocupaba casi toda la tira. Al plegarla desaparecía parte del dibujo. Probé entonces con un sol más pequeño, centrado, y un pájaro en cada extremo. Al abrirla aparecían los tres dibujos; al cerrarla solo quedaba el sol completo. Paula eligió esa distribución porque le servía para las dos fiestas.",
+          "Irene nos ayudó a dibujar la puerta y la pancarta a la misma escala. El centro representaba noventa centímetros y cada lateral, cuarenta y cinco. Con los laterales plegados, la pancarta dejaba veinte centímetros libres en el hueco de la puerta. Hugo repartió ese espacio a ambos lados en la maqueta. Paula acercó la cara al papel para imaginar cómo quedaría colgada.",
+          "Después, Irene trasladó el diseño a la tela y cosió las cintas para colgarla en las dos posiciones. Preparó también unas cintas traseras que sujetaban los extremos doblados, pues en la primera prueba uno se había desdoblado. Paula practicó hasta que pudo cambiar de tamaño sin que nadie le sostuviera los lados. Luego se llevó la pancarta abierta para la primera fiesta.",
+          "He pegado la maqueta al cuaderno solo por el centro. Mañana se la enseñaré a mi hermano y abriré los pájaros cuando menos lo espere. Ahora cierro la página con cuidado: uno de los picos sobresale un poquito del papel."
+        ],
+        "questions": [
+          {
+            "id": "l299b-q1",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Cómo se reconoce la voz de un diario personal en este texto? Cita dos indicios.",
+            "answer": "La narradora cuenta su propia tarde en primera persona y deja constancia de sus ideas, correcciones y planes para mañana. Se aceptan ejemplos concretos del texto.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Del cuaderno de Asha. Esta tarde he dibujado unas tijeras en mi cuaderno y luego las he tachado."
+              },
+              {
+                "paragraph": 6,
+                "text": "Mañana se la enseñaré a mi hermano"
+              }
+            ]
+          },
+          {
+            "id": "l299b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué diferencia entre los dos espacios origina el problema de la pancarta?",
+            "answer": "En la plaza buscan que se vea de lejos, mientras que en la sala debe ajustarse al hueco de una puerta más estrecho que la tela abierta.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "querían que se viera desde lejos"
+              },
+              {
+                "paragraph": 2,
+                "text": "el hueco de la puerta de la sala medía ciento diez centímetros"
+              }
+            ]
+          },
+          {
+            "id": "l299b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué la propuesta de cortar era insuficiente aunque resolviera el tamaño para la sala?",
+            "answer": "Porque solo resolvía el uso más estrecho; eliminaba tela que volvería a hacer falta al año siguiente para usarla grande.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Propuse cortar los extremos después de la primera fiesta."
+              },
+              {
+                "paragraph": 2,
+                "text": "el año que viene volveremos a necesitarla grande"
+              }
+            ]
+          },
+          {
+            "id": "l299b-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué problema tenía el primer sol y cómo lo modificó la narradora?",
+            "answer": "Ocupaba casi toda la tira y parte desaparecía al plegarla. Lo dibujó más pequeño y centrado, dejando los pájaros en los extremos.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Al plegarla desaparecía parte del dibujo. Probé entonces con un sol más pequeño, centrado, y un pájaro en cada extremo."
+              }
+            ]
+          },
+          {
+            "id": "l299b-q5",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Explica «a la misma escala» y por qué era útil para esta prueba.",
+            "answer": "La puerta y la pancarta se dibujan reduciendo sus medidas en la misma proporción. Así pueden comparar en papel si una cabe sobre la otra.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Irene nos ayudó a dibujar la puerta y la pancarta a la misma escala."
+              },
+              {
+                "paragraph": 4,
+                "text": "la pancarta dejaba veinte centímetros libres en el hueco de la puerta"
+              }
+            ]
+          },
+          {
+            "id": "l299b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Si centran los noventa centímetros visibles en el hueco de ciento diez, ¿qué espacio queda a cada lado? Muestra el cálculo.",
+            "answer": "110 − 90 = 20 cm libres en total; 20 ÷ 2 = 10 cm a cada lado.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "El centro representaba noventa centímetros"
+              },
+              {
+                "paragraph": 4,
+                "text": "la pancarta dejaba veinte centímetros libres en el hueco de la puerta. Hugo repartió ese espacio a ambos lados"
+              }
+            ]
+          },
+          {
+            "id": "l299b-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué observación llevó a Irene a añadir las cintas traseras?",
+            "answer": "En la primera prueba, uno de los extremos doblados se había desdoblado.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "en la primera prueba uno se había desdoblado"
+              }
+            ]
+          },
+          {
+            "id": "l299b-q8",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué condición práctica comprueba Paula al cambiar de tamaño sin que nadie sostenga los lados?",
+            "answer": "Que ella podrá preparar la pancarta y que los laterales quedarán sujetos sin necesitar a otra persona sosteniéndolos.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Preparó también unas cintas traseras que sujetaban los extremos doblados"
+              },
+              {
+                "paragraph": 5,
+                "text": "Paula practicó hasta que pudo cambiar de tamaño sin que nadie le sostuviera los lados."
+              }
+            ]
+          },
+          {
+            "id": "l299b-q9",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué relación hay entre las tijeras del inicio y las del segundo párrafo?",
+            "answer": "El inicio anuncia que Asha tachó el dibujo de unas tijeras; después se explica que representaban su propuesta de cortar la tela, que descarta por la futura reutilización.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "he dibujado unas tijeras en mi cuaderno y luego las he tachado"
+              },
+              {
+                "paragraph": 2,
+                "text": "Propuse cortar los extremos después de la primera fiesta."
+              },
+              {
+                "paragraph": 2,
+                "text": "Cogí el lápiz para borrar mis tijeras."
+              }
+            ]
+          },
+          {
+            "id": "l299b-q10",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué perdería el resumen si dijera únicamente «Hicieron la pancarta más pequeña»?",
+            "answer": "Omitiría que la reducción era reversible: los laterales se plegaban para la sala, pero seguían disponibles para abrir la pancarta en la plaza.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "el año que viene volveremos a necesitarla grande"
+              },
+              {
+                "paragraph": 3,
+                "text": "Al abrirla aparecían los tres dibujos; al cerrarla solo quedaba el sol completo."
+              }
+            ]
+          },
+          {
+            "id": "l299b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Redacta un resumen que incluya el doble uso, la prueba y el ajuste final.",
+            "answer": "Paula necesita una pancarta visible en la plaza que también quepa sobre una puerta de sala. Descartan cortarla porque la reutilizarán. Con una maqueta ajustan el dibujo central y los laterales plegables. Irene prepara la tela y añade cintas traseras al ver que un extremo se abre; Paula prueba ambas posiciones.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "el año que viene volveremos a necesitarla grande"
+              },
+              {
+                "paragraph": 3,
+                "text": "Al abrirla aparecían los tres dibujos; al cerrarla solo quedaba el sol completo."
+              },
+              {
+                "paragraph": 5,
+                "text": "unas cintas traseras que sujetaban los extremos doblados"
+              }
+            ]
+          },
+          {
+            "id": "l299b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Si una tercera celebración pidiera usar esta pancarta, ¿qué información solicitarías antes de asegurar que sirve? Explica para qué usarías esa información.",
+            "answer": "Respuesta personal justificada: medidas y lugar de colocación, si el motivo resulta apropiado o cómo se colgará. Debe vincular la información con una comprobación concreta."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "a la misma escala",
+            "occurrence": 1,
+            "questionId": "l299b-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l299-scene",
+            "src": "assets/readings/l299-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene, Asha y Hugo observan una pancarta abierta sobre la mesa, con un sol central, hojas y un pájaro en cada extremo; junto a ella hay papeles de prueba.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "la-pancarta-de-las-dos-fiestas-b-ca",
+        "code": "L299B",
+        "workId": "la-pancarta-de-las-dos-fiestas-b",
+        "language": "ca",
+        "familyId": "familia-l299",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "diary",
+        "title": "La pancarta de les dues festes",
+        "summary": "Una pàgina del diari de l’Asha conserva els dubtes i les proves d’una pancarta que canvia de mida sense perdre la tela.",
+        "paragraphs": [
+          "Del quadern de l’Asha. Aquesta tarda he dibuixat unes tisores al quadern i després les he ratllat. Era al taller de la plaça amb l’Hugo, el meu amic, quan ha arribat la Paula. La Irene, la reparadora, ha apartat els fils per estendre la tela que portava la veïna. La Paula la volia convertir en una pancarta per a dues celebracions: una festa amb música a la plaça i l’aniversari de l’associació veïnal, que es faria en una sala.",
+          "Estesa, la tela feia cent vuitanta centímetres d’ample. A la plaça la penjarien damunt la taula dels músics i volien que es veiés de lluny. En canvi, el buit de la porta de la sala feia cent deu centímetres. He proposat tallar-ne els extrems després de la primera festa. La Paula ha alçat les celles: —Però l’any que ve la tornarem a necessitar gran. He agafat el llapis per esborrar les meves tisores.",
+          "L’Hugo ha fet una tira de paper i n’ha doblegat tots dos extrems cap enrere. Primer hi havia dibuixat un sol enorme que ocupava gairebé tota la tira. En plegar-la desapareixia part del dibuix. He provat aleshores un sol més petit, centrat, i un ocell a cada extrem. En obrir-la apareixien els tres dibuixos; en tancar-la només quedava el sol sencer. La Paula ha triat aquella distribució perquè li servia per a totes dues festes.",
+          "La Irene ens ha ajudat a dibuixar la porta i la pancarta a la mateixa escala. El centre representava noranta centímetres i cada lateral, quaranta-cinc. Amb els laterals plegats, la pancarta deixava vint centímetres lliures al buit de la porta. L’Hugo ha repartit aquell espai a tots dos costats de la maqueta. La Paula ha acostat la cara al paper per imaginar com quedaria penjada.",
+          "Després, la Irene ha traslladat el disseny a la tela i hi ha cosit les cintes per penjar-la en les dues posicions. També ha preparat unes cintes al darrere que subjectaven els extrems doblegats, perquè a la primera prova un s’havia desplegat. La Paula ha practicat fins que ha pogut canviar de mida sense que ningú li sostingués els costats. Després s’ha endut la pancarta oberta per a la primera festa.",
+          "He enganxat la maqueta al quadern només pel centre. Demà la hi ensenyaré al meu germà i obriré els ocells quan menys s’ho esperi. Ara tanco la pàgina amb cura: un dels becs sobresurt una miqueta del paper."
+        ],
+        "questions": [
+          {
+            "id": "l299b-q1",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Com es reconeix la veu d’un diari personal en aquest text? Cita dos indicis.",
+            "answer": "La narradora explica la seva tarda en primera persona i deixa constància de les idees, les correccions i els plans per a demà. S’accepten exemples concrets del text.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Del quadern de l’Asha. Aquesta tarda he dibuixat unes tisores al quadern i després les he ratllat."
+              },
+              {
+                "paragraph": 6,
+                "text": "Demà la hi ensenyaré al meu germà"
+              }
+            ]
+          },
+          {
+            "id": "l299b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina diferència entre els dos espais origina el problema de la pancarta?",
+            "answer": "A la plaça volen que es vegi de lluny, mentre que a la sala s’ha d’ajustar al buit d’una porta més estret que la tela oberta.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "volien que es veiés de lluny"
+              },
+              {
+                "paragraph": 2,
+                "text": "el buit de la porta de la sala feia cent deu centímetres"
+              }
+            ]
+          },
+          {
+            "id": "l299b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la proposta de tallar era insuficient encara que resolgués la mida per a la sala?",
+            "answer": "Perquè només resolia l’ús més estret; eliminava tela que tornaria a fer falta l’any següent per fer-la servir gran.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "He proposat tallar-ne els extrems després de la primera festa."
+              },
+              {
+                "paragraph": 2,
+                "text": "l’any que ve la tornarem a necessitar gran"
+              }
+            ]
+          },
+          {
+            "id": "l299b-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quin problema tenia el primer sol i com el va modificar la narradora?",
+            "answer": "Ocupava gairebé tota la tira i una part desapareixia en plegar-la. El va dibuixar més petit i centrat, deixant els ocells als extrems.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "En plegar-la desapareixia part del dibuix. He provat aleshores un sol més petit, centrat, i un ocell a cada extrem."
+              }
+            ]
+          },
+          {
+            "id": "l299b-q5",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Explica «a la mateixa escala» i per què era útil per a aquesta prova.",
+            "answer": "La porta i la pancarta es dibuixen reduint les mesures en la mateixa proporció. Així poden comparar sobre paper si una cap damunt de l’altra.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La Irene ens ha ajudat a dibuixar la porta i la pancarta a la mateixa escala."
+              },
+              {
+                "paragraph": 4,
+                "text": "la pancarta deixava vint centímetres lliures al buit de la porta"
+              }
+            ]
+          },
+          {
+            "id": "l299b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Si centren els noranta centímetres visibles al buit de cent deu, quin espai queda a cada costat? Mostra el càlcul.",
+            "answer": "110 − 90 = 20 cm lliures en total; 20 ÷ 2 = 10 cm a cada costat.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "El centre representava noranta centímetres"
+              },
+              {
+                "paragraph": 4,
+                "text": "la pancarta deixava vint centímetres lliures al buit de la porta. L’Hugo ha repartit aquell espai a tots dos costats"
+              }
+            ]
+          },
+          {
+            "id": "l299b-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina observació va portar la Irene a afegir les cintes del darrere?",
+            "answer": "A la primera prova, un dels extrems doblegats s’havia desplegat.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "a la primera prova un s’havia desplegat"
+              }
+            ]
+          },
+          {
+            "id": "l299b-q8",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Quina condició pràctica comprova la Paula en canviar de mida sense que ningú sostingui els costats?",
+            "answer": "Que ella podrà preparar la pancarta i que els laterals quedaran subjectats sense necessitar una altra persona que els sostingui.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "També ha preparat unes cintes al darrere que subjectaven els extrems doblegats"
+              },
+              {
+                "paragraph": 5,
+                "text": "La Paula ha practicat fins que ha pogut canviar de mida sense que ningú li sostingués els costats."
+              }
+            ]
+          },
+          {
+            "id": "l299b-q9",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quina relació hi ha entre les tisores de l’inici i les del segon paràgraf?",
+            "answer": "L’inici anuncia que l’Asha ha ratllat el dibuix d’unes tisores; després s’explica que representaven la proposta de tallar la tela, que descarta per la reutilització futura.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "he dibuixat unes tisores al quadern i després les he ratllat"
+              },
+              {
+                "paragraph": 2,
+                "text": "He proposat tallar-ne els extrems després de la primera festa."
+              },
+              {
+                "paragraph": 2,
+                "text": "He agafat el llapis per esborrar les meves tisores."
+              }
+            ]
+          },
+          {
+            "id": "l299b-q10",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Què perdria el resum si digués només «Van fer la pancarta més petita»?",
+            "answer": "Ometria que la reducció es podia desfer: els laterals es plegaven per a la sala, però continuaven disponibles per obrir la pancarta a la plaça.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "l’any que ve la tornarem a necessitar gran"
+              },
+              {
+                "paragraph": 3,
+                "text": "En obrir-la apareixien els tres dibuixos; en tancar-la només quedava el sol sencer."
+              }
+            ]
+          },
+          {
+            "id": "l299b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Redacta un resum que inclogui el doble ús, la prova i l’ajust final.",
+            "answer": "La Paula necessita una pancarta visible a la plaça que també càpiga damunt d’una porta de sala. Descarten tallar-la perquè la reutilitzaran. Amb una maqueta ajusten el dibuix central i els laterals plegables. La Irene prepara la tela i afegeix cintes al darrere en veure que un extrem s’obre; la Paula prova les dues posicions.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "l’any que ve la tornarem a necessitar gran"
+              },
+              {
+                "paragraph": 3,
+                "text": "En obrir-la apareixien els tres dibuixos; en tancar-la només quedava el sol sencer."
+              },
+              {
+                "paragraph": 5,
+                "text": "unes cintes al darrere que subjectaven els extrems doblegats"
+              }
+            ]
+          },
+          {
+            "id": "l299b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Si una tercera celebració demanés fer servir aquesta pancarta, quina informació demanaries abans d’assegurar que serveix? Explica per a què faries servir aquella informació.",
+            "answer": "Resposta personal justificada: mesures i lloc on es posarà, si el motiu és adequat o com es penjarà. Cal vincular la informació amb una comprovació concreta."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "a la mateixa escala",
+            "occurrence": 1,
+            "questionId": "l299b-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l299-scene",
+            "src": "assets/readings/l299-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene, l’Asha i l’Hugo observen una pancarta oberta damunt la taula, amb un sol al centre, fulles i un ocell a cada extrem; al costat hi ha papers de prova.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 4
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L299A",
+        "language": "es",
+        "questions": {
+          "l299a-q1": {
+            "prompt": "¿Quién cuenta lo sucedido en el taller?",
+            "options": [
+              "Paula, la vecina que prepara las fiestas.",
+              "Irene, la adulta que prepara la tela.",
+              "Hugo, el niño que dobla la tira.",
+              "Asha, la niña que pega la maqueta."
+            ],
+            "correct": "d",
+            "explanation": "Lo cuenta Asha en su cuaderno."
+          },
+          "l299a-q2": {
+            "prompt": "¿Qué necesitaba la pancarta en cada lugar?",
+            "options": [
+              "En la plaza debía ser estrecha; en la sala, verse desde lejos.",
+              "En la plaza debía verse de lejos; en la sala, caber sobre la puerta.",
+              "En la plaza debía tapar una puerta; en la sala, mostrar los pájaros.",
+              "En la plaza debía quedar plegada; en la sala, mostrar la tela entera."
+            ],
+            "correct": "b",
+            "explanation": "En la plaza tenía que verse desde lejos; en la sala debía caber sobre una puerta estrecha."
+          },
+          "l299a-q3": {
+            "prompt": "¿Qué problema tenía cortar la tela después de la primera fiesta?",
+            "options": [
+              "El siguiente año ya no tendría el ancho original.",
+              "La primera fiesta tendría que hacerse dentro de la sala.",
+              "Los pájaros quedarían visibles también en la sala.",
+              "La maqueta de papel dejaría de caber en el cuaderno."
+            ],
+            "correct": "a",
+            "explanation": "La dejaría más corta y no podrían volver a usarla entera en la plaza al año siguiente."
+          },
+          "l299a-q4": {
+            "prompt": "¿Qué es una «maqueta» en esta lectura?",
+            "options": [
+              "Una pancarta ya cosida para la fiesta de la sala.",
+              "Un dibujo del sol que debe verse desde la plaza.",
+              "Una versión pequeña de papel para hacer pruebas.",
+              "Una cinta que sirve para sujetar la tela plegada."
+            ],
+            "correct": "c",
+            "explanation": "Una representación pequeña de papel que permite probar cómo quedaría la pancarta sobre la puerta."
+          },
+          "l299a-q5": {
+            "prompt": "¿Qué dibujo quedaba visible al plegar los lados y qué dibujos se ocultaban?",
+            "options": [
+              "Se veía un pájaro y quedaban ocultos el sol y el otro pájaro.",
+              "Se veían los dos pájaros y quedaba oculto el sol.",
+              "Se veían el sol y los pájaros, pero quedaban más juntos.",
+              "Se veía el sol y quedaban ocultos los dos pájaros."
+            ],
+            "correct": "d",
+            "explanation": "El sol del centro seguía visible; los dos pájaros de los lados quedaban detrás."
+          },
+          "l299a-q6": {
+            "prompt": "¿Por qué Asha pegó la maqueta en el cuaderno solo por el centro?",
+            "options": [
+              "Para que el sol quedara tapado al abrir el cuaderno.",
+              "Para poder seguir abriendo y plegando los lados.",
+              "Para que la tira tuviera el mismo ancho que la puerta real.",
+              "Para separar los pájaros y pegarlos en otra página."
+            ],
+            "correct": "b",
+            "explanation": "Porque así podía seguir doblando y abriendo los laterales para mostrar las dos formas."
+          },
+          "l299a-q7": {
+            "prompt": "¿Qué idea permite reutilizar la pancarta en los dos lugares?",
+            "options": [
+              "Abrirla en la plaza y plegar los extremos en la sala sin cortar la tela.",
+              "Cortar los laterales después de la plaza y volver a coserlos al año siguiente.",
+              "Llevar la pancarta de tela a la plaza y colgar la maqueta pequeña en la sala.",
+              "Plegarla para la plaza y abrir los dibujos laterales sobre la puerta de la sala."
+            ],
+            "correct": "a",
+            "explanation": "La pancarta se abre entera para la plaza y se pliegan los lados por detrás para la sala. El sol central queda visible en las dos formas y la tela puede volver a abrirse."
+          }
+        }
+      },
+      {
+        "code": "L299A",
+        "language": "ca",
+        "questions": {
+          "l299a-q1": {
+            "prompt": "Qui explica què ha passat al taller?",
+            "options": [
+              "La Paula, la veïna que prepara les festes.",
+              "La Irene, l’adulta que prepara la tela.",
+              "L’Hugo, el nen que doblega la tira.",
+              "L’Asha, la nena que enganxa la maqueta."
+            ],
+            "correct": "d",
+            "explanation": "Ho explica l’Asha al seu quadern."
+          },
+          "l299a-q2": {
+            "prompt": "Què necessitava la pancarta a cada lloc?",
+            "options": [
+              "A la plaça havia de ser estreta; a la sala, veure’s de lluny.",
+              "A la plaça s’havia de veure de lluny; a la sala, cabre damunt de la porta.",
+              "A la plaça havia de tapar una porta; a la sala, mostrar els ocells.",
+              "A la plaça havia de quedar plegada; a la sala, mostrar la tela sencera."
+            ],
+            "correct": "b",
+            "explanation": "A la plaça s’havia de veure de lluny; a la sala havia de cabre damunt d’una porta estreta."
+          },
+          "l299a-q3": {
+            "prompt": "Quin problema tenia tallar la tela després de la primera festa?",
+            "options": [
+              "L’any següent ja no tindria l’amplada original.",
+              "La primera festa s’hauria de fer dins de la sala.",
+              "Els ocells quedarien visibles també a la sala.",
+              "La maqueta de paper deixaria de cabre al quadern."
+            ],
+            "correct": "a",
+            "explanation": "La deixaria més curta i no la podrien tornar a fer servir sencera a la plaça l’any següent."
+          },
+          "l299a-q4": {
+            "prompt": "Què és una «maqueta» en aquesta lectura?",
+            "options": [
+              "Una pancarta ja cosida per a la festa de la sala.",
+              "Un dibuix del sol que s’ha de veure des de la plaça.",
+              "Una versió petita de paper per fer proves.",
+              "Una cinta que serveix per subjectar la tela plegada."
+            ],
+            "correct": "c",
+            "explanation": "Una representació petita de paper que permet provar com quedaria la pancarta damunt de la porta."
+          },
+          "l299a-q5": {
+            "prompt": "Quin dibuix quedava visible en plegar els costats i quins dibuixos s’amagaven?",
+            "options": [
+              "Es veia un ocell i quedaven amagats el sol i l’altre ocell.",
+              "Es veien els dos ocells i quedava amagat el sol.",
+              "Es veien el sol i els ocells, però quedaven més junts.",
+              "Es veia el sol i quedaven amagats els dos ocells."
+            ],
+            "correct": "d",
+            "explanation": "El sol del centre continuava visible; els dos ocells dels costats quedaven al darrere."
+          },
+          "l299a-q6": {
+            "prompt": "Per què l’Asha va enganxar la maqueta al quadern només pel centre?",
+            "options": [
+              "Perquè el sol quedés tapat en obrir el quadern.",
+              "Per poder continuar obrint i plegant els costats.",
+              "Perquè la tira tingués la mateixa amplada que la porta real.",
+              "Per separar els ocells i enganxar-los en una altra pàgina."
+            ],
+            "correct": "b",
+            "explanation": "Perquè així podia continuar doblegant i obrint els laterals per mostrar les dues formes."
+          },
+          "l299a-q7": {
+            "prompt": "Quina idea permet reutilitzar la pancarta als dos llocs?",
+            "options": [
+              "Obrir-la a la plaça i plegar-ne els extrems a la sala sense tallar la tela.",
+              "Tallar els laterals després de la plaça i tornar-los a cosir l’any següent.",
+              "Portar la pancarta de tela a la plaça i penjar la maqueta petita a la sala.",
+              "Plegar-la per a la plaça i obrir els dibuixos laterals damunt la porta de la sala."
+            ],
+            "correct": "a",
+            "explanation": "La pancarta s’obre sencera per a la plaça i se’n pleguen els costats per darrere per a la sala. El sol central queda visible en les dues formes i la tela es pot tornar a obrir."
+          }
+        }
+      },
+      {
+        "code": "L299",
+        "language": "es",
+        "questions": {
+          "l299-q1": {
+            "prompt": "¿Qué indicios permiten reconocer que este texto es una entrada de diario?",
+            "options": [
+              "Paula da instrucciones para montar dos fiestas paso a paso.",
+              "Un periodista describe la celebración tras entrevistar a los músicos.",
+              "Asha cuenta su tarde y mezcla acciones con pensamientos personales.",
+              "Irene escribe una carta a la asociación para pedir más materiales."
+            ],
+            "correct": "c",
+            "explanation": "Asha cuenta en primera persona algo que le ha ocurrido esa tarde, comenta lo que pensaba y anuncia qué hará mañana."
+          },
+          "l299-q2": {
+            "prompt": "¿Qué dos necesidades distintas debía cumplir la misma pancarta?",
+            "options": [
+              "Verse desde lejos en la plaza y caber sobre la puerta de la sala.",
+              "Mostrar los pájaros en la sala y ocultar el sol durante la música.",
+              "Medir lo mismo que la puerta y cubrir toda la mesa de los músicos.",
+              "Quedar plegada en la plaza y conservar los dibujos visibles en la sala."
+            ],
+            "correct": "a",
+            "explanation": "Verse desde lejos en la plaza y caber sobre el hueco de la puerta de la sala."
+          },
+          "l299-q3": {
+            "prompt": "¿Qué había olvidado considerar Asha al proponer cortar la tela?",
+            "options": [
+              "Que aún no habían elegido los tres dibujos de la tela.",
+              "Que la puerta era más ancha que la pancarta abierta.",
+              "Que los músicos necesitaban la pancarta en la sala.",
+              "Que la volverían a necesitar entera en otra ocasión."
+            ],
+            "correct": "d",
+            "explanation": "Que Paula quería volver a usarla abierta en la plaza el año siguiente; cortarla impediría recuperar su tamaño sin otra reparación."
+          },
+          "l299-q4": {
+            "prompt": "¿Qué implica representar la puerta «a la misma escala» que la tira de papel?",
+            "options": [
+              "Dibujar la puerta y la pancarta con el mismo ancho.",
+              "Reducir las dos cosas manteniendo la misma proporción.",
+              "Representar solo la parte central de cada objeto.",
+              "Usar el mismo papel aunque cada medida cambie de forma distinta."
+            ],
+            "correct": "b",
+            "explanation": "Reducir ambas medidas en la misma proporción para poder comparar si la pancarta cabría."
+          },
+          "l299-q5": {
+            "prompt": "¿Cuánto medía la parte que quedaba visible al plegar los lados?",
+            "options": [
+              "Noventa centímetros.",
+              "Ciento diez centímetros.",
+              "Ciento ochenta centímetros.",
+              "Setenta centímetros."
+            ],
+            "correct": "a",
+            "explanation": "Noventa centímetros."
+          },
+          "l299-q6": {
+            "prompt": "¿Por qué era importante colocar el sol en el centro y no en un extremo?",
+            "options": [
+              "Porque el sol permitía colgar la pancarta sin cintas.",
+              "Porque así los tres dibujos se veían también plegados.",
+              "Porque el motivo central se veía en los dos tamaños.",
+              "Porque los extremos iban a cortarse tras la primera fiesta."
+            ],
+            "correct": "c",
+            "explanation": "Porque el centro quedaba visible en las dos posiciones, mientras que los extremos se ocultaban al plegar la pancarta para la sala."
+          },
+          "l299-q7": {
+            "prompt": "¿Para qué preparó Irene unas cintas en la parte trasera?",
+            "options": [
+              "Para unir los pájaros con el sol cuando se cortara la tela.",
+              "Para sujetar los laterales doblados detrás del centro.",
+              "Para señalar dónde tenían que colocarse los músicos.",
+              "Para pegar la maqueta al cuaderno sin cubrir sus dibujos."
+            ],
+            "correct": "b",
+            "explanation": "Para sujetar los extremos cuando estuvieran doblados hacia atrás."
+          },
+          "l299-q8": {
+            "prompt": "Al final, ¿la frase del hermano ya ha ocurrido? Explica cómo lo sabes.",
+            "options": [
+              "Sí; él ya vio la pancarta al recogerla Paula.",
+              "Sí; Asha copia una frase que él dijo en el taller.",
+              "No; la frase explica lo que Hugo dijo al doblar el papel.",
+              "No; Asha imagina su reacción cuando se la enseñe mañana."
+            ],
+            "correct": "d",
+            "explanation": "No. Asha anuncia que le enseñará la maqueta mañana y se imagina lo que él dirá."
+          },
+          "l299-q9": {
+            "prompt": "¿Qué resumen recoge la modificación de la primera propuesta?",
+            "options": [
+              "Descartan cortar la tela y prueban unos laterales plegables antes de preparar la pancarta.",
+              "Cortan una pancarta grande y aprovechan sus laterales para dibujar una maqueta pequeña.",
+              "Hacen una pancarta para cada fiesta porque el sol solo sirve para la plaza.",
+              "Dejan la tela entera para la sala y utilizan el dibujo del cuaderno en la plaza."
+            ],
+            "correct": "a",
+            "explanation": "Asha propone cortar la pancarta para que quepa en la sala, pero Paula quiere reutilizarla entera. Prueban con papel unos laterales que se doblan detrás del centro. El sol sigue visible y la pancarta cabe en ambos lugares; Irene prepara la tela y las cintas."
+          }
+        }
+      },
+      {
+        "code": "L299",
+        "language": "ca",
+        "questions": {
+          "l299-q1": {
+            "prompt": "Quins indicis permeten reconèixer que aquest text és una entrada de diari?",
+            "options": [
+              "La Paula dona instruccions per muntar dues festes pas a pas.",
+              "Un periodista descriu la celebració després d’entrevistar els músics.",
+              "L’Asha explica la seva tarda i barreja accions amb pensaments personals.",
+              "La Irene escriu una carta a l’associació per demanar més materials."
+            ],
+            "correct": "c",
+            "explanation": "L’Asha explica en primera persona una cosa que li ha passat aquella tarda, comenta què pensava i anuncia què farà demà."
+          },
+          "l299-q2": {
+            "prompt": "Quines dues necessitats diferents havia de complir la mateixa pancarta?",
+            "options": [
+              "Veure’s de lluny a la plaça i cabre damunt la porta de la sala.",
+              "Mostrar els ocells a la sala i amagar el sol durant la música.",
+              "Fer el mateix que la porta i cobrir tota la taula dels músics.",
+              "Quedar plegada a la plaça i conservar els dibuixos visibles a la sala."
+            ],
+            "correct": "a",
+            "explanation": "Veure’s de lluny a la plaça i cabre damunt del buit de la porta de la sala."
+          },
+          "l299-q3": {
+            "prompt": "Què havia oblidat considerar l’Asha en proposar tallar la tela?",
+            "options": [
+              "Que encara no havien triat els tres dibuixos de la tela.",
+              "Que la porta era més ampla que la pancarta oberta.",
+              "Que els músics necessitaven la pancarta a la sala.",
+              "Que la tornarien a necessitar sencera en una altra ocasió."
+            ],
+            "correct": "d",
+            "explanation": "Que la Paula volia tornar-la a fer servir oberta a la plaça l’any següent; tallar-la impediria recuperar-ne la mida sense una altra reparació."
+          },
+          "l299-q4": {
+            "prompt": "Què implica representar la porta «a la mateixa escala» que la tira de paper?",
+            "options": [
+              "Dibuixar la porta i la pancarta amb la mateixa amplada.",
+              "Reduir les dues coses mantenint la mateixa proporció.",
+              "Representar només la part central de cada objecte.",
+              "Fer servir el mateix paper encara que cada mesura canviï de manera diferent."
+            ],
+            "correct": "b",
+            "explanation": "Reduir totes dues mesures en la mateixa proporció per poder comparar si la pancarta hi cabria."
+          },
+          "l299-q5": {
+            "prompt": "Quant feia la part que quedava visible en plegar els costats?",
+            "options": [
+              "Noranta centímetres.",
+              "Cent deu centímetres.",
+              "Cent vuitanta centímetres.",
+              "Setanta centímetres."
+            ],
+            "correct": "a",
+            "explanation": "Noranta centímetres."
+          },
+          "l299-q6": {
+            "prompt": "Per què era important posar el sol al centre i no en un extrem?",
+            "options": [
+              "Perquè el sol permetia penjar la pancarta sense cintes.",
+              "Perquè així els tres dibuixos es veien també plegats.",
+              "Perquè el motiu central es veia en totes dues mides.",
+              "Perquè els extrems s’havien de tallar després de la primera festa."
+            ],
+            "correct": "c",
+            "explanation": "Perquè el centre quedava visible en les dues posicions, mentre que els extrems s’amagaven en plegar la pancarta per a la sala."
+          },
+          "l299-q7": {
+            "prompt": "Per a què va preparar la Irene unes cintes a la part del darrere?",
+            "options": [
+              "Per unir els ocells amb el sol quan es tallés la tela.",
+              "Per subjectar els laterals doblegats darrere del centre.",
+              "Per assenyalar on s’havien de posar els músics.",
+              "Per enganxar la maqueta al quadern sense cobrir-ne els dibuixos."
+            ],
+            "correct": "b",
+            "explanation": "Per subjectar els extrems quan estiguessin doblegats cap enrere."
+          },
+          "l299-q8": {
+            "prompt": "Al final, la frase del germà ja ha passat? Explica com ho saps.",
+            "options": [
+              "Sí; ell ja ha vist la pancarta quan l’ha recollit la Paula.",
+              "Sí; l’Asha copia una frase que ell ha dit al taller.",
+              "No; la frase explica què ha dit l’Hugo en doblegar el paper.",
+              "No; l’Asha imagina la seva reacció quan la hi ensenyi demà."
+            ],
+            "correct": "d",
+            "explanation": "No. L’Asha anuncia que li ensenyarà la maqueta demà i s’imagina què dirà."
+          },
+          "l299-q9": {
+            "prompt": "Quin resum recull la modificació de la primera proposta?",
+            "options": [
+              "Descarten tallar la tela i proven uns laterals plegables abans de preparar la pancarta.",
+              "Tallen una pancarta gran i n’aprofiten els laterals per dibuixar una maqueta petita.",
+              "Fan una pancarta per a cada festa perquè el sol només serveix per a la plaça.",
+              "Deixen la tela sencera per a la sala i fan servir el dibuix del quadern a la plaça."
+            ],
+            "correct": "a",
+            "explanation": "L’Asha proposa tallar la pancarta perquè càpiga a la sala, però la Paula la vol reutilitzar sencera. Proven amb paper uns laterals que es dobleguen darrere del centre. El sol continua visible i la pancarta cap a tots dos llocs; la Irene prepara la tela i les cintes."
+          }
+        }
+      },
+      {
+        "code": "L299B",
+        "language": "es",
+        "questions": {
+          "l299b-q1": {
+            "prompt": "¿Cómo se reconoce la voz de un diario personal en este texto? Cita dos indicios.",
+            "options": [
+              "Una narradora recuerda su tarde y registra ideas y planes personales.",
+              "Una vecina envía al taller una lista de medidas que deben respetar.",
+              "Una periodista informa de dos celebraciones que ya han terminado.",
+              "Una reparadora explica a sus clientes cómo deben coser una pancarta."
+            ],
+            "correct": "a",
+            "explanation": "La narradora cuenta su propia tarde en primera persona y deja constancia de sus ideas, correcciones y planes para mañana. Se aceptan ejemplos concretos del texto."
+          },
+          "l299b-q2": {
+            "prompt": "¿Qué diferencia entre los dos espacios origina el problema de la pancarta?",
+            "options": [
+              "La puerta mide ciento ochenta centímetros y la plaza necesita noventa.",
+              "Los músicos necesitan una tela plegada y la sala exige los tres dibujos.",
+              "La pancarta debe verse de lejos fuera y caber sobre una puerta más estrecha dentro.",
+              "Las dos fiestas tienen huecos iguales, pero necesitan motivos centrales distintos."
+            ],
+            "correct": "c",
+            "explanation": "En la plaza buscan que se vea de lejos, mientras que en la sala debe ajustarse al hueco de una puerta más estrecho que la tela abierta."
+          },
+          "l299b-q3": {
+            "prompt": "¿Por qué la propuesta de cortar era insuficiente aunque resolviera el tamaño para la sala?",
+            "options": [
+              "Obligaba a cambiar el orden de las dos fiestas previstas.",
+              "Resolvía el uso de la sala sacrificando un futuro uso grande.",
+              "Dejaba el sol demasiado pequeño para colocarlo en el centro.",
+              "Permitía ver los pájaros, pero ocultaba la maqueta de la puerta."
+            ],
+            "correct": "b",
+            "explanation": "Porque solo resolvía el uso más estrecho; eliminaba tela que volvería a hacer falta al año siguiente para usarla grande."
+          },
+          "l299b-q4": {
+            "prompt": "¿Qué problema tenía el primer sol y cómo lo modificó la narradora?",
+            "options": [
+              "Quedaba demasiado pequeño; lo extendió hasta los dos extremos.",
+              "Quedaba detrás de los pájaros; cambió los pájaros por cintas.",
+              "No gustaba para la plaza; reservó el sol solo para la sala.",
+              "Se ocultaba una parte al plegar; lo hizo más pequeño y centrado."
+            ],
+            "correct": "d",
+            "explanation": "Ocupaba casi toda la tira y parte desaparecía al plegarla. Lo dibujó más pequeño y centrado, dejando los pájaros en los extremos."
+          },
+          "l299b-q5": {
+            "prompt": "Explica «a la misma escala» y por qué era útil para esta prueba.",
+            "options": [
+              "Reducir ambas medidas por igual para conservar su proporción.",
+              "Dibujar ambos objetos con el mismo ancho para poder superponerlos.",
+              "Acercar la maqueta a la cara hasta verla de su tamaño real.",
+              "Plegar por igual la puerta dibujada y los lados de la pancarta."
+            ],
+            "correct": "a",
+            "explanation": "La puerta y la pancarta se dibujan reduciendo sus medidas en la misma proporción. Así pueden comparar en papel si una cabe sobre la otra."
+          },
+          "l299b-q6": {
+            "prompt": "Al centrar la parte visible, ¿qué espacio queda a cada lado?",
+            "options": [
+              "Veinte centímetros a cada lado.",
+              "Cuarenta y cinco centímetros a cada lado.",
+              "Diez centímetros a cada lado.",
+              "Setenta centímetros a cada lado."
+            ],
+            "correct": "c",
+            "explanation": "110 − 90 = 20 cm libres en total; 20 ÷ 2 = 10 cm a cada lado."
+          },
+          "l299b-q7": {
+            "prompt": "¿Qué observación llevó a Irene a añadir las cintas traseras?",
+            "options": [
+              "El sol quedaba incompleto al reducir el tamaño.",
+              "La maqueta sobresalía de una página del cuaderno.",
+              "El hueco de la puerta dejaba diez centímetros por lado.",
+              "Un lateral se había abierto durante la primera prueba."
+            ],
+            "correct": "d",
+            "explanation": "En la primera prueba, uno de los extremos doblados se había desdoblado."
+          },
+          "l299b-q8": {
+            "prompt": "¿Qué condición práctica comprueba Paula al cambiar de tamaño sin que nadie sostenga los lados?",
+            "options": [
+              "Que los pájaros podrán verse también con la pancarta plegada.",
+              "Que podrá preparar el tamaño y mantener los lados sujetos.",
+              "Que la pancarta servirá sobre cualquier puerta de la asociación.",
+              "Que en la plaza podrá colgarla prescindiendo de las cintas."
+            ],
+            "correct": "b",
+            "explanation": "Que ella podrá preparar la pancarta y que los laterales quedarán sujetos sin necesitar a otra persona sosteniéndolos."
+          },
+          "l299b-q9": {
+            "prompt": "¿Qué relación hay entre las tijeras del inicio y las del segundo párrafo?",
+            "options": [
+              "Anticipan una propuesta abandonada que después se explica.",
+              "Señalan que Irene ha perdido una herramienta durante la reparación.",
+              "Anuncian que Paula cortará la pancarta después de probarla.",
+              "Representan el recorte de papel que Hugo pega en su cuaderno."
+            ],
+            "correct": "a",
+            "explanation": "El inicio anuncia que Asha tachó el dibujo de unas tijeras; después se explica que representaban su propuesta de cortar la tela, que descarta por la futura reutilización."
+          },
+          "l299b-q10": {
+            "prompt": "¿Qué perdería el resumen si dijera únicamente «Hicieron la pancarta más pequeña»?",
+            "options": [
+              "Que cambiaron el sol por dos dibujos distintos según la fiesta.",
+              "Que el tamaño definitivo era exactamente igual al hueco de la puerta.",
+              "Que podían recuperar el tamaño grande sin volver a añadir tela.",
+              "Que decidieron conservar solo la maqueta y retirar la pancarta."
+            ],
+            "correct": "c",
+            "explanation": "Omitiría que la reducción era reversible: los laterales se plegaban para la sala, pero seguían disponibles para abrir la pancarta en la plaza."
+          },
+          "l299b-q11": {
+            "prompt": "¿Qué resumen conserva las necesidades y las modificaciones principales?",
+            "options": [
+              "Una tela grande se corta para la sala; los pájaros sobrantes se guardan para la fiesta del año siguiente.",
+              "Una maqueta muestra que faltan veinte centímetros; Irene los añade y cambia el sol para cada celebración.",
+              "Una pancarta se prueba abierta en la sala; después ocultan el sol para que se vean los pájaros en la plaza.",
+              "Una pancarta se adapta con laterales plegables; ajustan el dibujo y las sujeciones tras probar las dos formas."
+            ],
+            "correct": "d",
+            "explanation": "Paula necesita una pancarta visible en la plaza que también quepa sobre una puerta de sala. Descartan cortarla porque la reutilizarán. Con una maqueta ajustan el dibujo central y los laterales plegables. Irene prepara la tela y añade cintas traseras al ver que un extremo se abre; Paula prueba ambas posiciones."
+          }
+        }
+      },
+      {
+        "code": "L299B",
+        "language": "ca",
+        "questions": {
+          "l299b-q1": {
+            "prompt": "Com es reconeix la veu d’un diari personal en aquest text? Cita dos indicis.",
+            "options": [
+              "Una narradora recorda la tarda i registra idees i plans personals.",
+              "Una veïna envia al taller una llista de mesures que cal respectar.",
+              "Una periodista informa de dues celebracions que ja s’han acabat.",
+              "Una reparadora explica als clients com han de cosir una pancarta."
+            ],
+            "correct": "a",
+            "explanation": "La narradora explica la seva tarda en primera persona i deixa constància de les idees, les correccions i els plans per a demà. S’accepten exemples concrets del text."
+          },
+          "l299b-q2": {
+            "prompt": "Quina diferència entre els dos espais origina el problema de la pancarta?",
+            "options": [
+              "La porta fa cent vuitanta centímetres i la plaça en necessita noranta.",
+              "Els músics necessiten una tela plegada i la sala exigeix els tres dibuixos.",
+              "La pancarta s’ha de veure de lluny a fora i cabre damunt d’una porta més estreta a dins.",
+              "Les dues festes tenen buits iguals, però necessiten motius centrals diferents."
+            ],
+            "correct": "c",
+            "explanation": "A la plaça volen que es vegi de lluny, mentre que a la sala s’ha d’ajustar al buit d’una porta més estret que la tela oberta."
+          },
+          "l299b-q3": {
+            "prompt": "Per què la proposta de tallar era insuficient encara que resolgués la mida per a la sala?",
+            "options": [
+              "Obligava a canviar l’ordre de les dues festes previstes.",
+              "Resolia l’ús de la sala sacrificant un futur ús gran.",
+              "Deixava el sol massa petit per posar-lo al centre.",
+              "Permetia veure els ocells, però amagava la maqueta de la porta."
+            ],
+            "correct": "b",
+            "explanation": "Perquè només resolia l’ús més estret; eliminava tela que tornaria a fer falta l’any següent per fer-la servir gran."
+          },
+          "l299b-q4": {
+            "prompt": "Quin problema tenia el primer sol i com el va modificar la narradora?",
+            "options": [
+              "Quedava massa petit; el va estendre fins als dos extrems.",
+              "Quedava darrere dels ocells; va canviar els ocells per cintes.",
+              "No agradava per a la plaça; va reservar el sol només per a la sala.",
+              "Se n’amagava una part en plegar; el va fer més petit i centrat."
+            ],
+            "correct": "d",
+            "explanation": "Ocupava gairebé tota la tira i una part desapareixia en plegar-la. El va dibuixar més petit i centrat, deixant els ocells als extrems."
+          },
+          "l299b-q5": {
+            "prompt": "Explica «a la mateixa escala» i per què era útil per a aquesta prova.",
+            "options": [
+              "Reduir totes dues mesures igual per conservar-ne la proporció.",
+              "Dibuixar tots dos objectes amb la mateixa amplada per superposar-los.",
+              "Acostar la maqueta a la cara fins a veure-la de mida real.",
+              "Plegar igual la porta dibuixada i els costats de la pancarta."
+            ],
+            "correct": "a",
+            "explanation": "La porta i la pancarta es dibuixen reduint les mesures en la mateixa proporció. Així poden comparar sobre paper si una cap damunt de l’altra."
+          },
+          "l299b-q6": {
+            "prompt": "En centrar la part visible, quin espai queda a cada costat?",
+            "options": [
+              "Vint centímetres a cada costat.",
+              "Quaranta-cinc centímetres a cada costat.",
+              "Deu centímetres a cada costat.",
+              "Setanta centímetres a cada costat."
+            ],
+            "correct": "c",
+            "explanation": "110 − 90 = 20 cm lliures en total; 20 ÷ 2 = 10 cm a cada costat."
+          },
+          "l299b-q7": {
+            "prompt": "Quina observació va portar la Irene a afegir les cintes del darrere?",
+            "options": [
+              "El sol quedava incomplet en reduir la mida.",
+              "La maqueta sobresortia d’una pàgina del quadern.",
+              "El buit de la porta deixava deu centímetres per costat.",
+              "Un lateral s’havia obert durant la primera prova."
+            ],
+            "correct": "d",
+            "explanation": "A la primera prova, un dels extrems doblegats s’havia desplegat."
+          },
+          "l299b-q8": {
+            "prompt": "Quina condició pràctica comprova la Paula en canviar de mida sense que ningú sostingui els costats?",
+            "options": [
+              "Que els ocells es podran veure també amb la pancarta plegada.",
+              "Que podrà preparar la mida i mantenir els costats subjectats.",
+              "Que la pancarta servirà damunt de qualsevol porta de l’associació.",
+              "Que a la plaça podrà penjar-la prescindint de les cintes."
+            ],
+            "correct": "b",
+            "explanation": "Que ella podrà preparar la pancarta i que els laterals quedaran subjectats sense necessitar una altra persona que els sostingui."
+          },
+          "l299b-q9": {
+            "prompt": "Quina relació hi ha entre les tisores de l’inici i les del segon paràgraf?",
+            "options": [
+              "Anticipen una proposta abandonada que després s’explica.",
+              "Assenyalen que la Irene ha perdut una eina durant la reparació.",
+              "Anuncien que la Paula tallarà la pancarta després de provar-la.",
+              "Representen el retall de paper que l’Hugo enganxa al seu quadern."
+            ],
+            "correct": "a",
+            "explanation": "L’inici anuncia que l’Asha ha ratllat el dibuix d’unes tisores; després s’explica que representaven la proposta de tallar la tela, que descarta per la reutilització futura."
+          },
+          "l299b-q10": {
+            "prompt": "Què perdria el resum si digués només «Van fer la pancarta més petita»?",
+            "options": [
+              "Que van canviar el sol per dos dibuixos diferents segons la festa.",
+              "Que la mida definitiva era exactament igual al buit de la porta.",
+              "Que podien recuperar la mida gran sense tornar a afegir tela.",
+              "Que van decidir conservar només la maqueta i retirar la pancarta."
+            ],
+            "correct": "c",
+            "explanation": "Ometria que la reducció es podia desfer: els laterals es plegaven per a la sala, però continuaven disponibles per obrir la pancarta a la plaça."
+          },
+          "l299b-q11": {
+            "prompt": "Quin resum conserva les necessitats i les modificacions principals?",
+            "options": [
+              "Una tela gran es talla per a la sala; els ocells sobrants es guarden per a la festa de l’any següent.",
+              "Una maqueta mostra que falten vint centímetres; la Irene els afegeix i canvia el sol per a cada celebració.",
+              "Una pancarta es prova oberta a la sala; després amaguen el sol perquè es vegin els ocells a la plaça.",
+              "Una pancarta s’adapta amb laterals plegables; ajusten el dibuix i les subjeccions després de provar les dues formes."
+            ],
+            "correct": "d",
+            "explanation": "La Paula necessita una pancarta visible a la plaça que també càpiga damunt d’una porta de sala. Descarten tallar-la perquè la reutilitzaran. Amb una maqueta ajusten el dibuix central i els laterals plegables. La Irene prepara la tela i afegeix cintes al darrere en veure que un extrem s’obre; la Paula prova les dues posicions."
+          }
+        }
+      }
+    ]
   }
 ];
