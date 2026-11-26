@@ -25,6 +25,7 @@ const review = [
   ...JSON.parse(fs.readFileSync('docs/question-choices-review.json', 'utf8')),
   ...choiceBatches.flatMap(batch => JSON.parse(fs.readFileSync(batch.review, 'utf8'))),
   ...JSON.parse(fs.readFileSync('docs/question-choices/library-2026-11-26-review.json', 'utf8')),
+  ...JSON.parse(fs.readFileSync('docs/question-choices/newsroom-2026-11-26-review.json', 'utf8')),
 ];
 const approved = new Map(review.map(entry => [`${entry.code}:${entry.language}:${entry.questionId}`, entry]));
 assert.deepEqual(Object.keys(questionChoices), firstFive);
