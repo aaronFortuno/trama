@@ -3745,5 +3745,1886 @@ export const riversidePublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L309",
+    "edition": "v1.63.2",
+    "family": {
+      "id": "familia-l309",
+      "code": "L309",
+      "name": {
+        "es": "El juego del saquito",
+        "ca": "El joc del saquet"
+      },
+      "description": {
+        "ca": "Una història dels Camins de la ribera, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de Los caminos de la ribera, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L309A",
+        "L309",
+        "L309B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "el-juego-del-saquito-a-es",
+        "code": "L309A",
+        "workId": "el-juego-del-saquito-a",
+        "language": "es",
+        "familyId": "familia-l309",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "games",
+          "community",
+          "math"
+        ],
+        "genre": "instructional",
+        "title": "El juego del saquito",
+        "summary": "Un saquito y tres círculos permiten jugar una partida con caminos distintos hacia la misma puntuación.",
+        "paragraphs": [
+          "Neri e Isona, dos amigos de la ribera, prepararon un juego cerca de la plaza. Usaron un saquito de tela con unas piedrecitas lisas dentro. En el suelo trazaron una raya y tres círculos a distintas distancias. Antes de jugar, explicaron las reglas a quienes se habían acercado.",
+          "1. Lanza desde detrás de la raya. El círculo más cercano vale un punto; el del medio, dos; el más lejano, tres. Para puntuar, el saquito debe quedar entero dentro de un círculo. Si toca el borde o queda fuera, vale cero.",
+          "2. Cada persona hace tres lanzamientos en su turno. Después de cada uno, recoge el saquito y vuelve detrás de la raya. Al acabar los tres, suma sus puntos y entrega la bolsa a la siguiente persona. Gana quien obtiene más puntos; también puede haber un empate.",
+          "Isona acertó una vez en el círculo lejano. En el segundo tiro tocó un borde y en el tercero quedó fuera. Neri acertó tres veces en el círculo cercano. Al sumar, ambos tenían tres puntos. Isona recogió el saquito y lo preparó para otra partida."
+        ],
+        "questions": [
+          {
+            "id": "l309a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Desde dónde se lanza el saquito?",
+            "answer": "Desde detrás de la raya.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Lanza desde detrás de la raya."
+              }
+            ]
+          },
+          {
+            "id": "l309a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Cuántos puntos vale el círculo del medio?",
+            "answer": "Dos puntos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "el del medio, dos"
+              }
+            ]
+          },
+          {
+            "id": "l309a-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué ocurre si el saquito toca el borde de un círculo?",
+            "answer": "Ese lanzamiento vale cero puntos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Si toca el borde o queda fuera, vale cero."
+              }
+            ]
+          },
+          {
+            "id": "l309a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «turno» en estas reglas?",
+            "answer": "El momento de jugar que corresponde a cada persona.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Cada persona hace tres lanzamientos en su turno."
+              }
+            ]
+          },
+          {
+            "id": "l309a-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué hay que hacer después de cada lanzamiento?",
+            "answer": "Recoger el saquito y volver detrás de la raya.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "recoge el saquito y vuelve detrás de la raya"
+              }
+            ]
+          },
+          {
+            "id": "l309a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Cómo consigue Neri tres puntos sin acertar en el círculo lejano?",
+            "answer": "Acertando tres veces en el cercano, que vale un punto cada vez: uno más uno más uno.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El círculo más cercano vale un punto"
+              },
+              {
+                "paragraph": 4,
+                "text": "Neri acertó tres veces en el círculo cercano."
+              }
+            ]
+          },
+          {
+            "id": "l309a-q7",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "Explica por qué la partida termina en empate.",
+            "answer": "Isona suma tres puntos por un acierto lejano; los otros tiros valen cero. Neri suma tres por tres aciertos cercanos.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Isona acertó una vez en el círculo lejano."
+              },
+              {
+                "paragraph": 4,
+                "text": "Al sumar, ambos tenían tres puntos."
+              }
+            ]
+          },
+          {
+            "id": "l309a-q8",
+            "type": "opinion",
+            "lines": 2,
+            "prompt": "¿A qué círculo intentarías llegar primero? Explica tu elección.",
+            "answer": "Respuesta personal con un motivo relacionado con la distancia o los puntos."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "turno",
+            "occurrence": 1,
+            "questionId": "l309a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l309-scene",
+            "src": "assets/readings/l309-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Isona prepara un lanzamiento con un saquito mientras Neri espera a su lado, detrás de una raya ante tres círculos de tierra.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-juego-del-saquito-a-ca",
+        "code": "L309A",
+        "workId": "el-juego-del-saquito-a",
+        "language": "ca",
+        "familyId": "familia-l309",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "games",
+          "community",
+          "math"
+        ],
+        "genre": "instructional",
+        "title": "El joc del saquet",
+        "summary": "Un saquet i tres cercles permeten jugar una partida amb camins diferents cap a la mateixa puntuació.",
+        "paragraphs": [
+          "En Neri i l’Isona, dos amics de la ribera, van preparar un joc a prop de la plaça. Van fer servir un saquet de roba amb unes pedretes llises a dins. A terra van traçar una ratlla i tres cercles a distàncies diferents. Abans de jugar, van explicar les regles a les persones que s’hi havien acostat.",
+          "1. Llança des de darrere de la ratlla. El cercle més proper val un punt; el del mig, dos; el més llunyà, tres. Per puntuar, el saquet ha de quedar sencer dins d’un cercle. Si toca la vora o queda fora, val zero.",
+          "2. Cada persona fa tres llançaments en el seu torn. Després de cadascun, recull el saquet i torna darrere de la ratlla. En acabar tots tres, suma els punts i dona la bossa a la persona següent. Guanya qui obté més punts; també hi pot haver un empat.",
+          "L’Isona va encertar una vegada el cercle llunyà. En el segon tir va tocar una vora i en el tercer va quedar fora. En Neri va encertar tres vegades el cercle proper. En sumar, tots dos tenien tres punts. L’Isona va recollir el saquet i el va preparar per a una altra partida."
+        ],
+        "questions": [
+          {
+            "id": "l309a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Des d’on es llança el saquet?",
+            "answer": "Des de darrere de la ratlla.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Llança des de darrere de la ratlla."
+              }
+            ]
+          },
+          {
+            "id": "l309a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quants punts val el cercle del mig?",
+            "answer": "Dos punts.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "el del mig, dos"
+              }
+            ]
+          },
+          {
+            "id": "l309a-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què passa si el saquet toca la vora d’un cercle?",
+            "answer": "Aquell llançament val zero punts.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Si toca la vora o queda fora, val zero."
+              }
+            ]
+          },
+          {
+            "id": "l309a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «torn» en aquestes regles?",
+            "answer": "El moment de jugar que correspon a cada persona.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Cada persona fa tres llançaments en el seu torn."
+              }
+            ]
+          },
+          {
+            "id": "l309a-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què cal fer després de cada llançament?",
+            "answer": "Recollir el saquet i tornar darrere de la ratlla.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "recull el saquet i torna darrere de la ratlla"
+              }
+            ]
+          },
+          {
+            "id": "l309a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Com aconsegueix en Neri tres punts sense encertar el cercle llunyà?",
+            "answer": "Encertant tres vegades el proper, que val un punt cada vegada: un més un més un.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El cercle més proper val un punt"
+              },
+              {
+                "paragraph": 4,
+                "text": "En Neri va encertar tres vegades el cercle proper."
+              }
+            ]
+          },
+          {
+            "id": "l309a-q7",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "Explica per què la partida acaba en empat.",
+            "answer": "L’Isona suma tres punts per un encert llunyà; els altres tirs valen zero. En Neri en suma tres per tres encerts propers.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "L’Isona va encertar una vegada el cercle llunyà."
+              },
+              {
+                "paragraph": 4,
+                "text": "En sumar, tots dos tenien tres punts."
+              }
+            ]
+          },
+          {
+            "id": "l309a-q8",
+            "type": "opinion",
+            "lines": 2,
+            "prompt": "A quin cercle intentaries arribar primer? Explica la tria.",
+            "answer": "Resposta personal amb un motiu relacionat amb la distància o els punts."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "torn",
+            "occurrence": 1,
+            "questionId": "l309a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l309-scene",
+            "src": "assets/readings/l309-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "L’Isona prepara un llançament amb un saquet mentre en Neri espera al seu costat, darrere d’una ratlla davant de tres cercles a terra.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-juego-del-saquito-es",
+        "code": "L309",
+        "workId": "el-juego-del-saquito",
+        "language": "es",
+        "familyId": "familia-l309",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "games",
+          "community",
+          "math"
+        ],
+        "genre": "instructional",
+        "title": "El juego del saquito",
+        "summary": "Las reglas de un juego explican por qué acertar más lejos no basta para ganar una partida.",
+        "paragraphs": [
+          "Neri e Isona, dos amigos de la ribera, prepararon un juego cerca de la plaza. Metieron unas piedrecitas lisas en un saquito de tela y lo cerraron bien. En un trozo de suelo llano marcaron una raya y tres círculos: uno cerca, otro algo más lejos y el tercero al final. Varias personas se acercaron a mirar.",
+          "Antes de empezar la partida, Neri hizo un ensayo. El saquito quedó tocando un borde. Los dos acordaron que para puntuar tendría que quedar entero dentro del círculo. Después explicaron las reglas a los demás. Aquel tiro de ensayo quedó fuera de la cuenta. Los que miraban pudieron ver qué parte había quedado fuera.",
+          "1. Lanza desde detrás de la raya. El círculo cercano vale un punto; el del medio, dos; el lejano, tres. Se suman los puntos del círculo donde queda entero el saquito. Si toca un borde o queda fuera, el tiro vale cero. Después de cada lanzamiento, recoge la bolsa y vuelve al punto de salida.",
+          "2. Haz tres lanzamientos en tu turno y suma los resultados. Luego entrega el mismo saquito a la siguiente persona. Gana quien tenga más puntos al terminar los turnos. Si las sumas son iguales, hay empate.",
+          "Isona acertó en el círculo lejano con su primer tiro. El segundo tocó un borde y el tercero quedó fuera. Neri acertó sus tres tiros en el círculo cercano. Cuando compararon las sumas, tenían tres puntos cada uno. Un niño que había visto el lanzamiento largo preguntó quién había ganado. Isona le enseñó los tres aciertos de Neri y anunció el empate. Después pidió el saquito para volver a probar."
+        ],
+        "questions": [
+          {
+            "id": "l309-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué decidieron a partir del tiro de ensayo?",
+            "answer": "Que el saquito debía quedar entero dentro de un círculo para puntuar; tocar el borde no daría puntos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "para puntuar tendría que quedar entero dentro del círculo"
+              }
+            ]
+          },
+          {
+            "id": "l309-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Cuántos lanzamientos tiene cada persona durante la partida?",
+            "answer": "Tres lanzamientos.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Haz tres lanzamientos en tu turno"
+              }
+            ]
+          },
+          {
+            "id": "l309-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «ensayo» en este juego?",
+            "answer": "Una prueba previa para ver cómo funciona el juego antes de contar la partida.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Antes de empezar la partida, Neri hizo un ensayo."
+              },
+              {
+                "paragraph": 2,
+                "text": "quedó fuera de la cuenta"
+              }
+            ]
+          },
+          {
+            "id": "l309-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cuándo hay que volver al punto de salida y cuándo se entrega la bolsa?",
+            "answer": "Se vuelve después de cada lanzamiento; se entrega la bolsa al acabar los tres del turno.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Después de cada lanzamiento, recoge la bolsa y vuelve al punto de salida."
+              },
+              {
+                "paragraph": 4,
+                "text": "Luego entrega el mismo saquito a la siguiente persona."
+              }
+            ]
+          },
+          {
+            "id": "l309-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Si alguien apunta al círculo lejano pero el saquito queda entero en el del medio, ¿cuántos puntos suma?",
+            "answer": "Dos puntos, porque cuenta el círculo donde queda el saquito.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "el del medio, dos"
+              },
+              {
+                "paragraph": 3,
+                "text": "los puntos del círculo donde queda entero el saquito"
+              }
+            ]
+          },
+          {
+            "id": "l309-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Cuántos puntos consigue Isona y qué ocurre con sus otros dos tiros?",
+            "answer": "Tres puntos por el primer acierto lejano; el borde y el tiro fuera valen cero.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Isona acertó en el círculo lejano con su primer tiro. El segundo tocó un borde y el tercero quedó fuera."
+              },
+              {
+                "paragraph": 3,
+                "text": "el lejano, tres"
+              }
+            ]
+          },
+          {
+            "id": "l309-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué dato necesita el niño que vio el tiro largo para entender el empate?",
+            "answer": "Que Neri acertó tres veces en el círculo de un punto y se suman los tres resultados.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Isona le enseñó los tres aciertos de Neri y anunció el empate."
+              },
+              {
+                "paragraph": 4,
+                "text": "suma los resultados"
+              }
+            ]
+          },
+          {
+            "id": "l309-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué aporta la partida final después de las reglas?",
+            "answer": "Un ejemplo concreto de cómo se calculan los puntos y puede producirse un empate.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Si las sumas son iguales, hay empate."
+              },
+              {
+                "paragraph": 5,
+                "text": "tenían tres puntos cada uno"
+              }
+            ]
+          },
+          {
+            "id": "l309-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Explica las condiciones para puntuar y el motivo del empate.",
+            "answer": "Se lanza desde la raya y la bolsa debe quedar entera dentro; borde y fuera valen cero. Isona suma tres por un acierto lejano y Neri tres por sus tres aciertos cercanos.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Si toca un borde o queda fuera, el tiro vale cero."
+              },
+              {
+                "paragraph": 5,
+                "text": "tenían tres puntos cada uno"
+              }
+            ]
+          },
+          {
+            "id": "l309-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Probarías primero los círculos cercanos o el lejano? Relaciona tu elección con una regla del juego.",
+            "answer": "Respuesta personal razonada que use la distancia, la puntuación o el número de intentos."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "ensayo",
+            "occurrence": 1,
+            "questionId": "l309-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l309-scene",
+            "src": "assets/readings/l309-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Isona prepara un lanzamiento con un saquito mientras Neri espera a su lado, detrás de una raya ante tres círculos de tierra.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-juego-del-saquito-ca",
+        "code": "L309",
+        "workId": "el-juego-del-saquito",
+        "language": "ca",
+        "familyId": "familia-l309",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "games",
+          "community",
+          "math"
+        ],
+        "genre": "instructional",
+        "title": "El joc del saquet",
+        "summary": "Les regles d’un joc expliquen per què encertar més lluny no basta per guanyar una partida.",
+        "paragraphs": [
+          "En Neri i l’Isona, dos amics de la ribera, van preparar un joc a prop de la plaça. Van posar unes pedretes llises dins d’un saquet de roba i el van tancar bé. En un tros de terra pla van marcar una ratlla i tres cercles: un a prop, un altre una mica més lluny i el tercer al final. Diverses persones es van acostar a mirar.",
+          "Abans de començar la partida, en Neri va fer un assaig. El saquet va quedar tocant una vora. Tots dos van acordar que per puntuar hauria de quedar sencer dins del cercle. Després van explicar les regles als altres. Aquell tir d’assaig va quedar fora del recompte. Les persones que miraven van poder veure quina part havia quedat fora.",
+          "1. Llança des de darrere de la ratlla. El cercle proper val un punt; el del mig, dos; el llunyà, tres. Se sumen els punts del cercle on queda sencer el saquet. Si toca una vora o queda fora, el tir val zero. Després de cada llançament, recull la bossa i torna al punt de sortida.",
+          "2. Fes tres llançaments en el teu torn i suma els resultats. Després dona el mateix saquet a la persona següent. Guanya qui tingui més punts quan acabin els torns. Si les sumes són iguals, hi ha empat.",
+          "L’Isona va encertar el cercle llunyà amb el primer tir. El segon va tocar una vora i el tercer va quedar fora. En Neri va encertar els tres tirs al cercle proper. Quan van comparar les sumes, tenien tres punts cadascun. Un infant que havia vist el llançament llarg va preguntar qui havia guanyat. L’Isona li va ensenyar els tres encerts d’en Neri i va anunciar l’empat. Després va demanar el saquet per tornar-ho a provar."
+        ],
+        "questions": [
+          {
+            "id": "l309-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què van decidir a partir del tir d’assaig?",
+            "answer": "Que el saquet havia de quedar sencer dins d’un cercle per puntuar; tocar la vora no donaria punts.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "per puntuar hauria de quedar sencer dins del cercle"
+              }
+            ]
+          },
+          {
+            "id": "l309-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quants llançaments té cada persona durant la partida?",
+            "answer": "Tres llançaments.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Fes tres llançaments en el teu torn"
+              }
+            ]
+          },
+          {
+            "id": "l309-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «assaig» en aquest joc?",
+            "answer": "Una prova prèvia per veure com funciona el joc abans de comptar la partida.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Abans de començar la partida, en Neri va fer un assaig."
+              },
+              {
+                "paragraph": 2,
+                "text": "va quedar fora del recompte"
+              }
+            ]
+          },
+          {
+            "id": "l309-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quan cal tornar al punt de sortida i quan es dona la bossa?",
+            "answer": "S’hi torna després de cada llançament; es dona la bossa en acabar tots tres del torn.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Després de cada llançament, recull la bossa i torna al punt de sortida."
+              },
+              {
+                "paragraph": 4,
+                "text": "Després dona el mateix saquet a la persona següent."
+              }
+            ]
+          },
+          {
+            "id": "l309-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Si algú apunta al cercle llunyà però el saquet queda sencer al del mig, quants punts suma?",
+            "answer": "Dos punts, perquè compta el cercle on queda el saquet.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "el del mig, dos"
+              },
+              {
+                "paragraph": 3,
+                "text": "els punts del cercle on queda sencer el saquet"
+              }
+            ]
+          },
+          {
+            "id": "l309-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quants punts aconsegueix l’Isona i què passa amb els altres dos tirs?",
+            "answer": "Tres punts pel primer encert llunyà; la vora i el tir fora valen zero.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "L’Isona va encertar el cercle llunyà amb el primer tir. El segon va tocar una vora i el tercer va quedar fora."
+              },
+              {
+                "paragraph": 3,
+                "text": "el llunyà, tres"
+              }
+            ]
+          },
+          {
+            "id": "l309-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina dada necessita l’infant que ha vist el tir llarg per entendre l’empat?",
+            "answer": "Que en Neri va encertar tres vegades el cercle d’un punt i se sumen tots tres resultats.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "L’Isona li va ensenyar els tres encerts d’en Neri i va anunciar l’empat."
+              },
+              {
+                "paragraph": 4,
+                "text": "suma els resultats"
+              }
+            ]
+          },
+          {
+            "id": "l309-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Què aporta la partida final després de les regles?",
+            "answer": "Un exemple concret de com es calculen els punts i es pot produir un empat.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Si les sumes són iguals, hi ha empat."
+              },
+              {
+                "paragraph": 5,
+                "text": "tenien tres punts cadascun"
+              }
+            ]
+          },
+          {
+            "id": "l309-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Explica les condicions per puntuar i el motiu de l’empat.",
+            "answer": "Es llança des de la ratlla i la bossa ha de quedar sencera a dins; vora i fora valen zero. L’Isona suma tres per un encert llunyà i en Neri tres pels seus tres encerts propers.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Si toca una vora o queda fora, el tir val zero."
+              },
+              {
+                "paragraph": 5,
+                "text": "tenien tres punts cadascun"
+              }
+            ]
+          },
+          {
+            "id": "l309-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Provaries primer els cercles propers o el llunyà? Relaciona la tria amb una regla del joc.",
+            "answer": "Resposta personal raonada que faci servir la distància, la puntuació o el nombre d’intents."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "assaig",
+            "occurrence": 1,
+            "questionId": "l309-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l309-scene",
+            "src": "assets/readings/l309-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "L’Isona prepara un llançament amb un saquet mentre en Neri espera al seu costat, darrere d’una ratlla davant de tres cercles a terra.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-juego-del-saquito-b-es",
+        "code": "L309B",
+        "workId": "el-juego-del-saquito-b",
+        "language": "es",
+        "familyId": "familia-l309",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "games",
+          "community",
+          "math"
+        ],
+        "genre": "instructional",
+        "title": "El juego del saquito",
+        "summary": "Un juego de puntería permite distinguir el valor de un acierto, la suma del turno y un ensayo que no cuenta.",
+        "paragraphs": [
+          "Neri e Isona, dos amigos que solían encontrarse en los caminos de la ribera, prepararon un juego junto a la plaza. Habían cerrado un saquito de tela con unas piedrecitas lisas dentro. En un trozo de suelo llano marcaron una raya de salida y tres círculos a distancias distintas. Ninguno tocaba a los otros. Varias personas se quedaron mirando mientras decidían cómo jugar.",
+          "Neri lanzó una vez para ensayar y la bolsa quedó apoyada en el borde de un círculo. Isona preguntó si aquello contaría como acierto. Los dos miraron la bolsa: una parte estaba dentro y otra fuera. Acordaron que solo puntuaría si quedaba entera dentro. Retiraron el saquito y explicaron las reglas antes de iniciar la partida. El ensayo no entraría en la suma.",
+          "Así explicaban cómo jugar: lanza siempre desde detrás de la raya. El círculo cercano vale un punto; el del medio, dos; el lejano, tres. Importa dónde termina entero el saquito, aunque apuntaras a otro círculo. Tocar un borde o quedar fuera vale cero. Recoge la bolsa después de cada lanzamiento y vuelve detrás de la raya para el siguiente.",
+          "Cada persona dispone de tres lanzamientos por turno. Suma los tres resultados antes de entregar el mismo saquito a quien va después. Al terminar todos los turnos, gana la suma mayor. Si dos personas tienen la misma suma, empatan. Ningún acierto añade lanzamientos al turno.",
+          "Isona empezó acertando en el círculo lejano. Su segundo tiro tocó un borde y el tercero acabó fuera. Neri consiguió que sus tres lanzamientos quedaran dentro del círculo cercano. Ferran, un niño que había visto el primer tiro de Isona, dijo que ella había llegado más lejos. Isona señaló los tres aciertos de Neri y contó sus puntos en voz alta. Los dos tenían tres.",
+          "Elna, la dueña del molino, se acercó cuando recogían la bolsa. Quería probar el juego antes de regresar a su trabajo. Dejó su cesta junto al banco antes de acercarse a la raya. Isona sostuvo el saquito mientras le explicaba los valores de los círculos y Neri repasó con el pie una parte de la raya que se había borrado. Ferran se puso detrás de ellos para esperar su turno."
+        ],
+        "questions": [
+          {
+            "id": "l309b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué detalle del ensayo llevó a precisar una regla?",
+            "answer": "El saquito quedó con una parte dentro de un círculo y otra fuera, tocando el borde.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "una parte estaba dentro y otra fuera"
+              }
+            ]
+          },
+          {
+            "id": "l309b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué el ensayo de Neri no le da un lanzamiento adicional dentro de la partida?",
+            "answer": "Porque ocurre antes de iniciar la partida y se acuerda dejarlo fuera de la suma; cada turno conserva tres tiros.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El ensayo no entraría en la suma."
+              },
+              {
+                "paragraph": 4,
+                "text": "tres lanzamientos por turno"
+              }
+            ]
+          },
+          {
+            "id": "l309b-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «dispone de» en la regla sobre el turno?",
+            "answer": "Que cada persona tiene tres oportunidades de lanzar en su turno.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Cada persona dispone de tres lanzamientos por turno."
+              }
+            ]
+          },
+          {
+            "id": "l309b-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Si se apunta al círculo lejano y la bolsa termina entera en el cercano, ¿qué resultado corresponde?",
+            "answer": "Un punto: importa el círculo donde queda, no el que se pretendía alcanzar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El círculo cercano vale un punto"
+              },
+              {
+                "paragraph": 3,
+                "text": "Importa dónde termina entero el saquito, aunque apuntaras a otro círculo."
+              }
+            ]
+          },
+          {
+            "id": "l309b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué diferencia hay entre un tiro fuera y uno que toca el borde al calcular la suma?",
+            "answer": "Ninguna en los puntos: ambos valen cero y consumen uno de los tres lanzamientos.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Tocar un borde o quedar fuera vale cero."
+              },
+              {
+                "paragraph": 4,
+                "text": "tres lanzamientos por turno"
+              }
+            ]
+          },
+          {
+            "id": "l309b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué los tres aciertos de Neri no le dan más puntos que el único acierto de Isona?",
+            "answer": "Porque cada acierto cercano vale uno, mientras que el lejano de Isona vale tres.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El círculo cercano vale un punto; el del medio, dos; el lejano, tres."
+              },
+              {
+                "paragraph": 5,
+                "text": "Los dos tenían tres."
+              }
+            ]
+          },
+          {
+            "id": "l309b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Bastaría lo que ha visto Ferran para decidir quién ha ganado? Explica qué le falta considerar.",
+            "answer": "No. Ha visto el tiro lejano de Isona, pero tiene que comparar las sumas completas de los dos turnos.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Ferran, un niño que había visto el primer tiro de Isona"
+              },
+              {
+                "paragraph": 4,
+                "text": "gana la suma mayor"
+              }
+            ]
+          },
+          {
+            "id": "l309b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Si un turno acaba con un acierto en el medio, otro cercano y un tiro fuera, ¿cuántos puntos tendría?",
+            "answer": "Tres puntos: dos más uno más cero.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "el del medio, dos"
+              },
+              {
+                "paragraph": 3,
+                "text": "El círculo cercano vale un punto"
+              },
+              {
+                "paragraph": 3,
+                "text": "quedar fuera vale cero"
+              }
+            ]
+          },
+          {
+            "id": "l309b-q9",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué función cumplen las reglas entre el ensayo y la partida narrada?",
+            "answer": "Fijan cómo se jugará y permiten interpretar después los resultados sin deducir una regla nueva de cada tiro.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "explicaron las reglas antes de iniciar la partida"
+              },
+              {
+                "paragraph": 4,
+                "text": "Si dos personas tienen la misma suma, empatan."
+              }
+            ]
+          },
+          {
+            "id": "l309b-q10",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué hacen Isona y Neri cuando Elna pide probar el juego?",
+            "answer": "Isona le explica los valores de los círculos y Neri repasa una parte borrada de la raya.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Isona sostuvo el saquito mientras le explicaba los valores de los círculos y Neri repasó con el pie una parte de la raya"
+              }
+            ]
+          },
+          {
+            "id": "l309b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué se decide en el ensayo, cómo se puntúa y por qué hay empate.",
+            "answer": "Deciden que la bolsa entre entera para puntuar. Cada turno suma tres tiros, con valores de uno, dos o tres según el círculo y cero para borde o fuera. Isona consigue tres en un lejano y Neri tres en tres cercanos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "solo puntuaría si quedaba entera dentro"
+              },
+              {
+                "paragraph": 4,
+                "text": "Suma los tres resultados"
+              },
+              {
+                "paragraph": 5,
+                "text": "Los dos tenían tres."
+              }
+            ]
+          },
+          {
+            "id": "l309b-q12",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Propón una regla distinta para otra partida y explica cómo podría cambiar la forma de jugar.",
+            "answer": "Producción personal coherente con una regla comprensible y su posible efecto; no cambia el resultado de la partida ya contada."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "dispone de",
+            "occurrence": 1,
+            "questionId": "l309b-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l309-scene",
+            "src": "assets/readings/l309-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Isona prepara un lanzamiento con un saquito mientras Neri espera a su lado, detrás de una raya ante tres círculos de tierra.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "el-juego-del-saquito-b-ca",
+        "code": "L309B",
+        "workId": "el-juego-del-saquito-b",
+        "language": "ca",
+        "familyId": "familia-l309",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "games",
+          "community",
+          "math"
+        ],
+        "genre": "instructional",
+        "title": "El joc del saquet",
+        "summary": "Un joc de punteria permet distingir el valor d’un encert, la suma del torn i un assaig que no compta.",
+        "paragraphs": [
+          "En Neri i l’Isona, dos amics que es trobaven sovint als camins de la ribera, van preparar un joc al costat de la plaça. Havien tancat un saquet de roba amb unes pedretes llises a dins. En un tros de terra pla van marcar una ratlla de sortida i tres cercles a distàncies diferents. Cap no tocava els altres. Diverses persones es van quedar mirant mentre decidien com jugar.",
+          "En Neri va llançar una vegada per assajar i la bossa va quedar recolzada a la vora d’un cercle. L’Isona va preguntar si allò comptaria com a encert. Tots dos van mirar la bossa: una part era a dins i l’altra a fora. Van acordar que només puntuaria si quedava sencera a dins. Van retirar el saquet i van explicar les regles abans d’iniciar la partida. L’assaig no entraria en la suma.",
+          "Així explicaven com jugar: llança sempre des de darrere de la ratlla. El cercle proper val un punt; el del mig, dos; el llunyà, tres. Importa on acaba sencer el saquet, encara que apuntessis a un altre cercle. Tocar una vora o quedar fora val zero. Recull la bossa després de cada llançament i torna darrere de la ratlla per al següent.",
+          "Cada persona disposa de tres llançaments per torn. Suma tots tres resultats abans de donar el mateix saquet a qui va després. Quan acabin tots els torns, guanya la suma més alta. Si dues persones tenen la mateixa suma, empaten. Cap encert no afegeix llançaments al torn.",
+          "L’Isona va començar encertant el cercle llunyà. El segon tir va tocar una vora i el tercer va acabar fora. En Neri va aconseguir que tots tres llançaments quedessin dins del cercle proper. En Ferran, un infant que havia vist el primer tir de l’Isona, va dir que ella havia arribat més lluny. L’Isona va assenyalar els tres encerts d’en Neri i va comptar els punts en veu alta. Tots dos en tenien tres.",
+          "L’Elna, la propietària del molí, es va acostar quan recollien la bossa. Volia provar el joc abans de tornar a la feina. Va deixar el cistell al costat del banc abans d’acostar-se a la ratlla. L’Isona va sostenir el saquet mentre li explicava els valors dels cercles i en Neri va repassar amb el peu una part de la ratlla que s’havia esborrat. En Ferran es va posar darrere d’ells per esperar el torn."
+        ],
+        "questions": [
+          {
+            "id": "l309b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quin detall de l’assaig va fer precisar una regla?",
+            "answer": "El saquet va quedar amb una part dins d’un cercle i l’altra fora, tocant la vora.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "una part era a dins i l’altra a fora"
+              }
+            ]
+          },
+          {
+            "id": "l309b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què l’assaig d’en Neri no li dona un llançament addicional dins de la partida?",
+            "answer": "Perquè passa abans d’iniciar la partida i s’acorda deixar-lo fora de la suma; cada torn conserva tres tirs.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "L’assaig no entraria en la suma."
+              },
+              {
+                "paragraph": 4,
+                "text": "tres llançaments per torn"
+              }
+            ]
+          },
+          {
+            "id": "l309b-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir «disposa de» en la regla sobre el torn?",
+            "answer": "Que cada persona té tres oportunitats de llançar en el seu torn.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Cada persona disposa de tres llançaments per torn."
+              }
+            ]
+          },
+          {
+            "id": "l309b-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Si s’apunta al cercle llunyà i la bossa acaba sencera al proper, quin resultat correspon?",
+            "answer": "Un punt: importa el cercle on queda, no el que es pretenia assolir.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El cercle proper val un punt"
+              },
+              {
+                "paragraph": 3,
+                "text": "Importa on acaba sencer el saquet, encara que apuntessis a un altre cercle."
+              }
+            ]
+          },
+          {
+            "id": "l309b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina diferència hi ha entre un tir fora i un que toca la vora quan es calcula la suma?",
+            "answer": "Cap pel que fa als punts: tots dos valen zero i consumeixen un dels tres llançaments.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Tocar una vora o quedar fora val zero."
+              },
+              {
+                "paragraph": 4,
+                "text": "tres llançaments per torn"
+              }
+            ]
+          },
+          {
+            "id": "l309b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què els tres encerts d’en Neri no li donen més punts que l’únic encert de l’Isona?",
+            "answer": "Perquè cada encert proper val un, mentre que el llunyà de l’Isona val tres.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El cercle proper val un punt; el del mig, dos; el llunyà, tres."
+              },
+              {
+                "paragraph": 5,
+                "text": "Tots dos en tenien tres."
+              }
+            ]
+          },
+          {
+            "id": "l309b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "N’hi hauria prou amb el que ha vist en Ferran per decidir qui ha guanyat? Explica què li falta considerar.",
+            "answer": "No. Ha vist el tir llunyà de l’Isona, però ha de comparar les sumes completes dels dos torns.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "En Ferran, un infant que havia vist el primer tir de l’Isona"
+              },
+              {
+                "paragraph": 4,
+                "text": "guanya la suma més alta"
+              }
+            ]
+          },
+          {
+            "id": "l309b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Si un torn acaba amb un encert al mig, un altre de proper i un tir fora, quants punts tindria?",
+            "answer": "Tres punts: dos més un més zero.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "el del mig, dos"
+              },
+              {
+                "paragraph": 3,
+                "text": "El cercle proper val un punt"
+              },
+              {
+                "paragraph": 3,
+                "text": "quedar fora val zero"
+              }
+            ]
+          },
+          {
+            "id": "l309b-q9",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quina funció tenen les regles entre l’assaig i la partida narrada?",
+            "answer": "Fixen com es jugarà i permeten interpretar després els resultats sense deduir una regla nova de cada tir.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "van explicar les regles abans d’iniciar la partida"
+              },
+              {
+                "paragraph": 4,
+                "text": "Si dues persones tenen la mateixa suma, empaten."
+              }
+            ]
+          },
+          {
+            "id": "l309b-q10",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què fan l’Isona i en Neri quan l’Elna demana provar el joc?",
+            "answer": "L’Isona li explica els valors dels cercles i en Neri repassa una part esborrada de la ratlla.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "L’Isona va sostenir el saquet mentre li explicava els valors dels cercles i en Neri va repassar amb el peu una part de la ratlla"
+              }
+            ]
+          },
+          {
+            "id": "l309b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix què es decideix a l’assaig, com es puntua i per què hi ha empat.",
+            "answer": "Decideixen que la bossa entri sencera per puntuar. Cada torn suma tres tirs, amb valors d’un, dos o tres segons el cercle i zero per vora o fora. L’Isona aconsegueix tres en un de llunyà i en Neri tres en tres de propers.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "només puntuaria si quedava sencera a dins"
+              },
+              {
+                "paragraph": 4,
+                "text": "Suma tots tres resultats"
+              },
+              {
+                "paragraph": 5,
+                "text": "Tots dos en tenien tres."
+              }
+            ]
+          },
+          {
+            "id": "l309b-q12",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Proposa una regla diferent per a una altra partida i explica com podria canviar la manera de jugar.",
+            "answer": "Producció personal coherent amb una regla entenedora i el seu possible efecte; no canvia el resultat de la partida ja explicada."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "disposa de",
+            "occurrence": 1,
+            "questionId": "l309b-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l309-scene",
+            "src": "assets/readings/l309-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "L’Isona prepara un llançament amb un saquet mentre en Neri espera al seu costat, darrere d’una ratlla davant de tres cercles a terra.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 4
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L309A",
+        "language": "es",
+        "questions": {
+          "l309a-q1": {
+            "prompt": "¿Desde dónde se lanza el saquito?",
+            "options": [
+              "Desde dentro del círculo cercano.",
+              "Desde el borde del círculo del medio.",
+              "Desde detrás de la raya.",
+              "Desde el lugar donde ha caído antes."
+            ],
+            "correct": "c",
+            "explanation": "Desde detrás de la raya."
+          },
+          "l309a-q2": {
+            "prompt": "¿Cuántos puntos vale el círculo del medio?",
+            "options": [
+              "Un punto.",
+              "Dos puntos.",
+              "Tres puntos.",
+              "Cero puntos."
+            ],
+            "correct": "b",
+            "explanation": "Dos puntos."
+          },
+          "l309a-q3": {
+            "prompt": "¿Qué ocurre si el saquito toca el borde de un círculo?",
+            "options": [
+              "Se obtiene el valor del círculo tocado.",
+              "Se repite ese tiro hasta acertar.",
+              "Se suma un punto por haber llegado cerca.",
+              "El lanzamiento vale cero puntos."
+            ],
+            "correct": "d",
+            "explanation": "Ese lanzamiento vale cero puntos."
+          },
+          "l309a-q4": {
+            "prompt": "¿Qué significa «turno» en estas reglas?",
+            "options": [
+              "El momento de jugar que corresponde a una persona.",
+              "El círculo donde ha quedado el último lanzamiento.",
+              "La raya que se atraviesa para recoger la bolsa.",
+              "La suma de puntos de todas las personas juntas."
+            ],
+            "correct": "a",
+            "explanation": "El momento de jugar que corresponde a cada persona."
+          },
+          "l309a-q5": {
+            "prompt": "¿Qué hay que hacer después de cada lanzamiento?",
+            "options": [
+              "Entregar la bolsa a la otra persona de inmediato.",
+              "Recoger la bolsa y volver detrás de la raya.",
+              "Lanzar desde el punto donde ha caído la bolsa.",
+              "Volver a la raya solo al terminar los tres lanzamientos."
+            ],
+            "correct": "b",
+            "explanation": "Recoger el saquito y volver detrás de la raya."
+          },
+          "l309a-q6": {
+            "prompt": "¿Cómo consigue Neri tres puntos sin acertar en el círculo lejano?",
+            "options": [
+              "Recibe tres puntos por acertar una vez en el círculo cercano.",
+              "Añade los puntos de Isona a los de su turno.",
+              "Suma un punto en cada uno de sus tres aciertos cercanos.",
+              "Cuenta los tres lanzamientos aunque queden fuera."
+            ],
+            "correct": "c",
+            "explanation": "Acertando tres veces en el cercano, que vale un punto cada vez: uno más uno más uno."
+          },
+          "l309a-q7": {
+            "prompt": "¿Qué explica mejor el empate?",
+            "options": [
+              "Ambos aciertan una vez en el círculo lejano y fallan dos veces.",
+              "Isona gana un punto por cada tiro y Neri suma solo un acierto.",
+              "Los dos logran el mismo número de aciertos en el círculo cercano.",
+              "Un acierto lejano de Isona vale lo mismo que los tres cercanos de Neri."
+            ],
+            "correct": "d",
+            "explanation": "Isona suma tres puntos por un acierto lejano; los otros tiros valen cero. Neri suma tres por tres aciertos cercanos."
+          }
+        }
+      },
+      {
+        "code": "L309A",
+        "language": "ca",
+        "questions": {
+          "l309a-q1": {
+            "prompt": "Des d’on es llança el saquet?",
+            "options": [
+              "Des de dins del cercle proper.",
+              "Des de la vora del cercle del mig.",
+              "Des de darrere de la ratlla.",
+              "Des del lloc on ha caigut abans."
+            ],
+            "correct": "c",
+            "explanation": "Des de darrere de la ratlla."
+          },
+          "l309a-q2": {
+            "prompt": "Quants punts val el cercle del mig?",
+            "options": [
+              "Un punt.",
+              "Dos punts.",
+              "Tres punts.",
+              "Zero punts."
+            ],
+            "correct": "b",
+            "explanation": "Dos punts."
+          },
+          "l309a-q3": {
+            "prompt": "Què passa si el saquet toca la vora d’un cercle?",
+            "options": [
+              "S’obté el valor del cercle que toca.",
+              "Es repeteix aquell tir fins a encertar.",
+              "Se suma un punt per haver arribat a prop.",
+              "El llançament val zero punts."
+            ],
+            "correct": "d",
+            "explanation": "Aquell llançament val zero punts."
+          },
+          "l309a-q4": {
+            "prompt": "Què vol dir «torn» en aquestes regles?",
+            "options": [
+              "El moment de jugar que correspon a una persona.",
+              "El cercle on ha quedat l’últim llançament.",
+              "La ratlla que es travessa per recollir la bossa.",
+              "La suma de punts de totes les persones juntes."
+            ],
+            "correct": "a",
+            "explanation": "El moment de jugar que correspon a cada persona."
+          },
+          "l309a-q5": {
+            "prompt": "Què cal fer després de cada llançament?",
+            "options": [
+              "Donar la bossa a l’altra persona de seguida.",
+              "Recollir la bossa i tornar darrere de la ratlla.",
+              "Llançar des del punt on ha caigut la bossa.",
+              "Tornar a la ratlla només en acabar tots tres llançaments."
+            ],
+            "correct": "b",
+            "explanation": "Recollir el saquet i tornar darrere de la ratlla."
+          },
+          "l309a-q6": {
+            "prompt": "Com aconsegueix en Neri tres punts sense encertar el cercle llunyà?",
+            "options": [
+              "Rep tres punts per encertar una vegada el cercle proper.",
+              "Afegeix els punts de l’Isona als del seu torn.",
+              "Suma un punt en cadascun dels seus tres encerts propers.",
+              "Compta els tres llançaments encara que quedin fora."
+            ],
+            "correct": "c",
+            "explanation": "Encertant tres vegades el proper, que val un punt cada vegada: un més un més un."
+          },
+          "l309a-q7": {
+            "prompt": "Què explica millor l’empat?",
+            "options": [
+              "Tots dos encerten una vegada el cercle llunyà i fallen dues vegades.",
+              "L’Isona guanya un punt per cada tir i en Neri suma només un encert.",
+              "Tots dos aconsegueixen el mateix nombre d’encerts al cercle proper.",
+              "Un encert llunyà de l’Isona val el mateix que els tres propers d’en Neri."
+            ],
+            "correct": "d",
+            "explanation": "L’Isona suma tres punts per un encert llunyà; els altres tirs valen zero. En Neri en suma tres per tres encerts propers."
+          }
+        }
+      },
+      {
+        "code": "L309",
+        "language": "es",
+        "questions": {
+          "l309-q1": {
+            "prompt": "¿Qué decidieron a partir del tiro de ensayo?",
+            "options": [
+              "Que los bordes tendrían el valor del círculo más cercano.",
+              "Que el ensayo sería el primer lanzamiento de la partida.",
+              "Que cada persona repetiría los tiros que tocaran el borde.",
+              "Que solo puntuaría un saquito entero dentro de un círculo."
+            ],
+            "correct": "d",
+            "explanation": "Que el saquito debía quedar entero dentro de un círculo para puntuar; tocar el borde no daría puntos."
+          },
+          "l309-q2": {
+            "prompt": "¿Cuántos lanzamientos tiene cada persona durante la partida?",
+            "options": [
+              "Tres, sin contar el ensayo previo.",
+              "Cuatro, porque el ensayo se añade al turno.",
+              "Uno, si logra acertar en el círculo lejano.",
+              "Los que necesite para conseguir tres aciertos."
+            ],
+            "correct": "a",
+            "explanation": "Tres lanzamientos."
+          },
+          "l309-q3": {
+            "prompt": "¿Qué significa «ensayo» en este juego?",
+            "options": [
+              "El primer resultado que se añade a la suma final.",
+              "La forma de decidir quién ha ganado un empate.",
+              "Una prueba que se hace antes de contar la partida.",
+              "El turno especial que recibe quien falla un tiro."
+            ],
+            "correct": "c",
+            "explanation": "Una prueba previa para ver cómo funciona el juego antes de contar la partida."
+          },
+          "l309-q4": {
+            "prompt": "¿Cuándo hay que volver al punto de salida y cuándo se entrega la bolsa?",
+            "options": [
+              "Se vuelve solo al terminar el turno y se entrega después de cada tiro.",
+              "Se vuelve después de cada tiro y se entrega tras completar los tres.",
+              "Se vuelve cuando se falla y se entrega solo cuando hay empate.",
+              "Se vuelve tras el ensayo y se entrega al acertar en el círculo lejano."
+            ],
+            "correct": "b",
+            "explanation": "Se vuelve después de cada lanzamiento; se entrega la bolsa al acabar los tres del turno."
+          },
+          "l309-q5": {
+            "prompt": "Si alguien apunta al círculo lejano pero el saquito queda entero en el del medio, ¿cuántos puntos suma?",
+            "options": [
+              "Tres, por el círculo al que había apuntado.",
+              "Cero, porque no acertó en el que quería.",
+              "Uno, porque el tiro quedó más cerca de lo previsto.",
+              "Dos, por el círculo donde terminó dentro."
+            ],
+            "correct": "d",
+            "explanation": "Dos puntos, porque cuenta el círculo donde queda el saquito."
+          },
+          "l309-q6": {
+            "prompt": "¿Cuántos puntos consigue Isona y qué ocurre con sus otros dos tiros?",
+            "options": [
+              "Tres; los otros dos no suman porque uno toca borde y otro queda fuera.",
+              "Cinco; añade un punto por cada lanzamiento que no entra.",
+              "Cuatro; el borde cuenta como el círculo cercano y el otro vale cero.",
+              "Nueve; los tres lanzamientos se valoran como el primer acierto."
+            ],
+            "correct": "a",
+            "explanation": "Tres puntos por el primer acierto lejano; el borde y el tiro fuera valen cero."
+          },
+          "l309-q7": {
+            "prompt": "¿Qué dato necesita el niño que vio el tiro largo para entender el empate?",
+            "options": [
+              "Que Neri había hecho un ensayo antes de comenzar a jugar.",
+              "Que el círculo lejano tiene más valor que el círculo del medio.",
+              "Que los tres aciertos de Neri suman tantos puntos como el de Isona.",
+              "Que Isona usó la misma bolsa que después recibió Neri."
+            ],
+            "correct": "c",
+            "explanation": "Que Neri acertó tres veces en el círculo de un punto y se suman los tres resultados."
+          },
+          "l309-q8": {
+            "prompt": "¿Qué aporta la partida final después de las reglas?",
+            "options": [
+              "Cambia el número de tiros para que los dos lleguen a tres puntos.",
+              "Muestra con un caso cómo se aplican las reglas de puntuación.",
+              "Sustituye las reglas anteriores por las que prefiere el niño que mira.",
+              "Explica por qué el ensayo debe contarse junto al resultado de Isona."
+            ],
+            "correct": "b",
+            "explanation": "Un ejemplo concreto de cómo se calculan los puntos y puede producirse un empate."
+          },
+          "l309-q9": {
+            "prompt": "¿Qué resumen combina bien las reglas y el resultado?",
+            "options": [
+              "Puntúa cualquier tiro que llegue a un círculo; ambos hacen tres lanzamientos.",
+              "Solo puntúa el tiro más largo; ambos logran alcanzar el círculo lejano.",
+              "Los ensayos se suman al turno; Neri añade así el punto que le falta.",
+              "Se cuentan aciertos completos; un lejano iguala tres cercanos en esta partida."
+            ],
+            "correct": "d",
+            "explanation": "Se lanza desde la raya y la bolsa debe quedar entera dentro; borde y fuera valen cero. Isona suma tres por un acierto lejano y Neri tres por sus tres aciertos cercanos."
+          }
+        }
+      },
+      {
+        "code": "L309",
+        "language": "ca",
+        "questions": {
+          "l309-q1": {
+            "prompt": "Què van decidir a partir del tir d’assaig?",
+            "options": [
+              "Que les vores tindrien el valor del cercle més proper.",
+              "Que l’assaig seria el primer llançament de la partida.",
+              "Que cada persona repetiria els tirs que toquessin la vora.",
+              "Que només puntuaria un saquet sencer dins d’un cercle."
+            ],
+            "correct": "d",
+            "explanation": "Que el saquet havia de quedar sencer dins d’un cercle per puntuar; tocar la vora no donaria punts."
+          },
+          "l309-q2": {
+            "prompt": "Quants llançaments té cada persona durant la partida?",
+            "options": [
+              "Tres, sense comptar l’assaig previ.",
+              "Quatre, perquè l’assaig s’afegeix al torn.",
+              "Un, si aconsegueix encertar el cercle llunyà.",
+              "Els que calguin per aconseguir tres encerts."
+            ],
+            "correct": "a",
+            "explanation": "Tres llançaments."
+          },
+          "l309-q3": {
+            "prompt": "Què vol dir «assaig» en aquest joc?",
+            "options": [
+              "El primer resultat que s’afegeix a la suma final.",
+              "La manera de decidir qui ha guanyat un empat.",
+              "Una prova que es fa abans de comptar la partida.",
+              "El torn especial que rep qui falla un tir."
+            ],
+            "correct": "c",
+            "explanation": "Una prova prèvia per veure com funciona el joc abans de comptar la partida."
+          },
+          "l309-q4": {
+            "prompt": "Quan cal tornar al punt de sortida i quan es dona la bossa?",
+            "options": [
+              "S’hi torna només quan acaba el torn i es dona després de cada tir.",
+              "S’hi torna després de cada tir i es dona quan s’han completat tots tres.",
+              "S’hi torna quan es falla i es dona només quan hi ha empat.",
+              "S’hi torna després de l’assaig i es dona en encertar el cercle llunyà."
+            ],
+            "correct": "b",
+            "explanation": "S’hi torna després de cada llançament; es dona la bossa en acabar tots tres del torn."
+          },
+          "l309-q5": {
+            "prompt": "Si algú apunta al cercle llunyà però el saquet queda sencer al del mig, quants punts suma?",
+            "options": [
+              "Tres, pel cercle on havia apuntat.",
+              "Zero, perquè no ha encertat el que volia.",
+              "Un, perquè el tir ha quedat més a prop del previst.",
+              "Dos, pel cercle on ha acabat a dins."
+            ],
+            "correct": "d",
+            "explanation": "Dos punts, perquè compta el cercle on queda el saquet."
+          },
+          "l309-q6": {
+            "prompt": "Quants punts aconsegueix l’Isona i què passa amb els altres dos tirs?",
+            "options": [
+              "Tres; els altres dos no sumen perquè un toca vora i l’altre queda fora.",
+              "Cinc; afegeix un punt per cada llançament que no entra.",
+              "Quatre; la vora compta com el cercle proper i l’altre val zero.",
+              "Nou; tots tres llançaments es valoren com el primer encert."
+            ],
+            "correct": "a",
+            "explanation": "Tres punts pel primer encert llunyà; la vora i el tir fora valen zero."
+          },
+          "l309-q7": {
+            "prompt": "Quina dada necessita l’infant que ha vist el tir llarg per entendre l’empat?",
+            "options": [
+              "Que en Neri havia fet un assaig abans de començar a jugar.",
+              "Que el cercle llunyà té més valor que el cercle del mig.",
+              "Que els tres encerts d’en Neri sumen tants punts com el de l’Isona.",
+              "Que l’Isona va fer servir la mateixa bossa que després va rebre en Neri."
+            ],
+            "correct": "c",
+            "explanation": "Que en Neri va encertar tres vegades el cercle d’un punt i se sumen tots tres resultats."
+          },
+          "l309-q8": {
+            "prompt": "Què aporta la partida final després de les regles?",
+            "options": [
+              "Canvia el nombre de tirs perquè tots dos arribin a tres punts.",
+              "Mostra amb un cas com s’apliquen les regles de puntuació.",
+              "Substitueix les regles anteriors per les que prefereix l’infant que mira.",
+              "Explica per què l’assaig s’ha de comptar juntament amb el resultat de l’Isona."
+            ],
+            "correct": "b",
+            "explanation": "Un exemple concret de com es calculen els punts i es pot produir un empat."
+          },
+          "l309-q9": {
+            "prompt": "Quin resum combina bé les regles i el resultat?",
+            "options": [
+              "Puntua qualsevol tir que arribi a un cercle; tots dos fan tres llançaments.",
+              "Només puntua el tir més llarg; tots dos aconsegueixen arribar al cercle llunyà.",
+              "Els assaigs se sumen al torn; en Neri hi afegeix així el punt que li falta.",
+              "Es compten encerts complets; un de llunyà iguala tres de propers en aquesta partida."
+            ],
+            "correct": "d",
+            "explanation": "Es llança des de la ratlla i la bossa ha de quedar sencera a dins; vora i fora valen zero. L’Isona suma tres per un encert llunyà i en Neri tres pels seus tres encerts propers."
+          }
+        }
+      },
+      {
+        "code": "L309B",
+        "language": "es",
+        "questions": {
+          "l309b-q1": {
+            "prompt": "¿Qué detalle del ensayo llevó a precisar una regla?",
+            "options": [
+              "La bolsa había llegado al círculo lejano en el último intento.",
+              "Dos círculos se tocaban y no podía distinguirse la puntuación.",
+              "La bolsa había quedado parte dentro y parte fuera de un círculo.",
+              "La raya se había borrado antes de que Neri hiciera el ensayo."
+            ],
+            "correct": "c",
+            "explanation": "El saquito quedó con una parte dentro de un círculo y otra fuera, tocando el borde."
+          },
+          "l309b-q2": {
+            "prompt": "¿Por qué el ensayo de Neri no le da un lanzamiento adicional dentro de la partida?",
+            "options": [
+              "Porque cualquier tiro que toca un borde se elimina y se repite.",
+              "Porque es una prueba anterior, separada de los tres tiros que cuentan.",
+              "Porque Isona le presta uno de sus intentos cuando empatan.",
+              "Porque los aciertos cercanos permiten jugar sin límite de lanzamientos."
+            ],
+            "correct": "b",
+            "explanation": "Porque ocurre antes de iniciar la partida y se acuerda dejarlo fuera de la suma; cada turno conserva tres tiros."
+          },
+          "l309b-q3": {
+            "prompt": "¿Qué significa «dispone de» en la regla sobre el turno?",
+            "options": [
+              "Que cada persona ordena los círculos después de lanzar.",
+              "Que cada persona guarda tres saquitos distintos para jugar.",
+              "Que cada persona reparte los tiros entre quienes miran.",
+              "Que cada persona tiene tres lanzamientos disponibles en su turno."
+            ],
+            "correct": "d",
+            "explanation": "Que cada persona tiene tres oportunidades de lanzar en su turno."
+          },
+          "l309b-q4": {
+            "prompt": "Si se apunta al círculo lejano y la bolsa termina entera en el cercano, ¿qué resultado corresponde?",
+            "options": [
+              "Un punto por quedar entera en el círculo cercano.",
+              "Tres puntos por haber elegido el círculo lejano al apuntar.",
+              "Cero puntos por no alcanzar el círculo que se quería.",
+              "Un nuevo intento para repetir la distancia elegida."
+            ],
+            "correct": "a",
+            "explanation": "Un punto: importa el círculo donde queda, no el que se pretendía alcanzar."
+          },
+          "l309b-q5": {
+            "prompt": "¿Qué diferencia hay entre un tiro fuera y uno que toca el borde al calcular la suma?",
+            "options": [
+              "El borde cuenta como cercano; el tiro fuera se repite.",
+              "El tiro fuera vale cero; el borde vale los puntos del círculo.",
+              "Los dos valen cero y forman parte del turno de tres tiros.",
+              "Los dos quedan fuera de la suma y se añaden tiros para sustituirlos."
+            ],
+            "correct": "c",
+            "explanation": "Ninguna en los puntos: ambos valen cero y consumen uno de los tres lanzamientos."
+          },
+          "l309b-q6": {
+            "prompt": "¿Por qué los tres aciertos de Neri no le dan más puntos que el único acierto de Isona?",
+            "options": [
+              "Porque cada persona puede sumar como máximo tres puntos por turno.",
+              "Porque un acierto lejano vale lo mismo que tres cercanos.",
+              "Porque el ensayo de Neri se resta de los aciertos posteriores.",
+              "Porque solo se toma en cuenta el último tiro de cada turno."
+            ],
+            "correct": "b",
+            "explanation": "Porque cada acierto cercano vale uno, mientras que el lejano de Isona vale tres."
+          },
+          "l309b-q7": {
+            "prompt": "¿Bastaría lo que ha visto Ferran para decidir quién ha ganado? Explica qué le falta considerar.",
+            "options": [
+              "Sí, porque gana siempre quien alcanza el círculo más lejano.",
+              "Sí, porque basta comparar la distancia del primer tiro de cada persona.",
+              "No, porque necesita sumar también el lanzamiento de ensayo de Neri.",
+              "No, porque necesita la suma de los tres tiros de cada participante."
+            ],
+            "correct": "d",
+            "explanation": "No. Ha visto el tiro lejano de Isona, pero tiene que comparar las sumas completas de los dos turnos."
+          },
+          "l309b-q8": {
+            "prompt": "Si un turno acaba con un acierto en el medio, otro cercano y un tiro fuera, ¿cuántos puntos tendría?",
+            "options": [
+              "Tres puntos: dos más uno más cero.",
+              "Seis puntos: dos puntos por cada lanzamiento.",
+              "Dos puntos: solo se cuenta el acierto de mayor valor.",
+              "Cuatro puntos: se añade un punto por el tiro fuera."
+            ],
+            "correct": "a",
+            "explanation": "Tres puntos: dos más uno más cero."
+          },
+          "l309b-q9": {
+            "prompt": "¿Qué función cumplen las reglas entre el ensayo y la partida narrada?",
+            "options": [
+              "Justifican que Neri cambie los puntos después de ver sus aciertos.",
+              "Presentan las reglas que Ferran inventa tras observar el tiro de Isona.",
+              "Permiten entender con qué condiciones se calcula la partida posterior.",
+              "Sustituyen la suma de puntos por la comparación de distancias alcanzadas."
+            ],
+            "correct": "c",
+            "explanation": "Fijan cómo se jugará y permiten interpretar después los resultados sin deducir una regla nueva de cada tiro."
+          },
+          "l309b-q10": {
+            "prompt": "¿Qué hacen Isona y Neri cuando Elna pide probar el juego?",
+            "options": [
+              "Le entregan tres bolsas distintas y cambian la distancia del círculo lejano.",
+              "Explican los valores y vuelven a marcar una parte de la raya.",
+              "Le piden que elija quién ha ganado y que borre los otros círculos.",
+              "Repiten el ensayo de Neri y lo añaden a la suma que ya tenía."
+            ],
+            "correct": "b",
+            "explanation": "Isona le explica los valores de los círculos y Neri repasa una parte borrada de la raya."
+          },
+          "l309b-q11": {
+            "prompt": "¿Cuál es el resumen más preciso?",
+            "options": [
+              "El ensayo da puntos por el borde y permite a Neri igualar el tiro lejano de Isona.",
+              "Las reglas valoran el tiro más largo y por eso ambos deben volver a lanzar.",
+              "Las reglas dan un punto por tiro y el empate depende de haber lanzado tres veces.",
+              "El ensayo precisa el acierto completo y la suma de tres tiros da tres puntos a cada uno."
+            ],
+            "correct": "d",
+            "explanation": "Deciden que la bolsa entre entera para puntuar. Cada turno suma tres tiros, con valores de uno, dos o tres según el círculo y cero para borde o fuera. Isona consigue tres en un lejano y Neri tres en tres cercanos."
+          }
+        }
+      },
+      {
+        "code": "L309B",
+        "language": "ca",
+        "questions": {
+          "l309b-q1": {
+            "prompt": "Quin detall de l’assaig va fer precisar una regla?",
+            "options": [
+              "La bossa havia arribat al cercle llunyà en l’últim intent.",
+              "Dos cercles es tocaven i no es podia distingir la puntuació.",
+              "La bossa havia quedat en part dins i en part fora d’un cercle.",
+              "La ratlla s’havia esborrat abans que en Neri fes l’assaig."
+            ],
+            "correct": "c",
+            "explanation": "El saquet va quedar amb una part dins d’un cercle i l’altra fora, tocant la vora."
+          },
+          "l309b-q2": {
+            "prompt": "Per què l’assaig d’en Neri no li dona un llançament addicional dins de la partida?",
+            "options": [
+              "Perquè qualsevol tir que toca una vora s’elimina i es repeteix.",
+              "Perquè és una prova anterior, separada dels tres tirs que compten.",
+              "Perquè l’Isona li deixa un dels seus intents quan empaten.",
+              "Perquè els encerts propers permeten jugar sense límit de llançaments."
+            ],
+            "correct": "b",
+            "explanation": "Perquè passa abans d’iniciar la partida i s’acorda deixar-lo fora de la suma; cada torn conserva tres tirs."
+          },
+          "l309b-q3": {
+            "prompt": "Què vol dir «disposa de» en la regla sobre el torn?",
+            "options": [
+              "Que cada persona ordena els cercles després de llançar.",
+              "Que cada persona desa tres saquets diferents per jugar.",
+              "Que cada persona reparteix els tirs entre els que miren.",
+              "Que cada persona té tres llançaments disponibles en el seu torn."
+            ],
+            "correct": "d",
+            "explanation": "Que cada persona té tres oportunitats de llançar en el seu torn."
+          },
+          "l309b-q4": {
+            "prompt": "Si s’apunta al cercle llunyà i la bossa acaba sencera al proper, quin resultat correspon?",
+            "options": [
+              "Un punt per quedar sencera al cercle proper.",
+              "Tres punts per haver triat el cercle llunyà en apuntar.",
+              "Zero punts per no assolir el cercle que es volia.",
+              "Un altre intent per repetir la distància triada."
+            ],
+            "correct": "a",
+            "explanation": "Un punt: importa el cercle on queda, no el que es pretenia assolir."
+          },
+          "l309b-q5": {
+            "prompt": "Quina diferència hi ha entre un tir fora i un que toca la vora quan es calcula la suma?",
+            "options": [
+              "La vora compta com a proper; el tir fora es repeteix.",
+              "El tir fora val zero; la vora val els punts del cercle.",
+              "Tots dos valen zero i formen part del torn de tres tirs.",
+              "Tots dos queden fora de la suma i s’afegeixen tirs per substituir-los."
+            ],
+            "correct": "c",
+            "explanation": "Cap pel que fa als punts: tots dos valen zero i consumeixen un dels tres llançaments."
+          },
+          "l309b-q6": {
+            "prompt": "Per què els tres encerts d’en Neri no li donen més punts que l’únic encert de l’Isona?",
+            "options": [
+              "Perquè cada persona pot sumar com a màxim tres punts per torn.",
+              "Perquè un encert llunyà val el mateix que tres de propers.",
+              "Perquè l’assaig d’en Neri es resta dels encerts posteriors.",
+              "Perquè només es té en compte l’últim tir de cada torn."
+            ],
+            "correct": "b",
+            "explanation": "Perquè cada encert proper val un, mentre que el llunyà de l’Isona val tres."
+          },
+          "l309b-q7": {
+            "prompt": "N’hi hauria prou amb el que ha vist en Ferran per decidir qui ha guanyat? Explica què li falta considerar.",
+            "options": [
+              "Sí, perquè guanya sempre qui arriba al cercle més llunyà.",
+              "Sí, perquè n’hi ha prou de comparar la distància del primer tir de cada persona.",
+              "No, perquè necessita sumar també el llançament d’assaig d’en Neri.",
+              "No, perquè necessita la suma dels tres tirs de cada participant."
+            ],
+            "correct": "d",
+            "explanation": "No. Ha vist el tir llunyà de l’Isona, però ha de comparar les sumes completes dels dos torns."
+          },
+          "l309b-q8": {
+            "prompt": "Si un torn acaba amb un encert al mig, un altre de proper i un tir fora, quants punts tindria?",
+            "options": [
+              "Tres punts: dos més un més zero.",
+              "Sis punts: dos punts per cada llançament.",
+              "Dos punts: només es compta l’encert de més valor.",
+              "Quatre punts: s’afegeix un punt pel tir fora."
+            ],
+            "correct": "a",
+            "explanation": "Tres punts: dos més un més zero."
+          },
+          "l309b-q9": {
+            "prompt": "Quina funció tenen les regles entre l’assaig i la partida narrada?",
+            "options": [
+              "Justifiquen que en Neri canviï els punts després de veure els encerts.",
+              "Presenten les regles que en Ferran inventa després d’observar el tir de l’Isona.",
+              "Permeten entendre amb quines condicions es calcula la partida posterior.",
+              "Substitueixen la suma de punts per la comparació de distàncies assolides."
+            ],
+            "correct": "c",
+            "explanation": "Fixen com es jugarà i permeten interpretar després els resultats sense deduir una regla nova de cada tir."
+          },
+          "l309b-q10": {
+            "prompt": "Què fan l’Isona i en Neri quan l’Elna demana provar el joc?",
+            "options": [
+              "Li donen tres bosses diferents i canvien la distància del cercle llunyà.",
+              "Expliquen els valors i tornen a marcar una part de la ratlla.",
+              "Li demanen que triï qui ha guanyat i que esborri els altres cercles.",
+              "Repeteixen l’assaig d’en Neri i l’afegeixen a la suma que ja tenia."
+            ],
+            "correct": "b",
+            "explanation": "L’Isona li explica els valors dels cercles i en Neri repassa una part esborrada de la ratlla."
+          },
+          "l309b-q11": {
+            "prompt": "Quin resum és més precís?",
+            "options": [
+              "L’assaig dona punts per la vora i permet a en Neri igualar el tir llunyà de l’Isona.",
+              "Les regles valoren el tir més llarg i per això tots dos han de tornar a llançar.",
+              "Les regles donen un punt per tir i l’empat depèn d’haver llançat tres vegades.",
+              "L’assaig precisa l’encert complet i la suma de tres tirs dona tres punts a cadascú."
+            ],
+            "correct": "d",
+            "explanation": "Decideixen que la bossa entri sencera per puntuar. Cada torn suma tres tirs, amb valors d’un, dos o tres segons el cercle i zero per vora o fora. L’Isona aconsegueix tres en un de llunyà i en Neri tres en tres de propers."
+          }
+        }
+      }
+    ]
   }
 ];
