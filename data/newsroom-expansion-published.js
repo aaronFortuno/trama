@@ -3537,5 +3537,1800 @@ export const newsroomPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L282",
+    "edition": "v1.60.2",
+    "family": {
+      "id": "familia-l282",
+      "code": "L282",
+      "name": {
+        "es": "Una carta en la fila del agua",
+        "ca": "Una carta a la cua de l’aigua"
+      },
+      "description": {
+        "ca": "Una història de La redacció del pati, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de La redacción del patio, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L282A",
+        "L282",
+        "L282B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "una-carta-en-la-fila-del-agua-a-es",
+        "code": "L282A",
+        "workId": "una-carta-en-la-fila-del-agua-a",
+        "language": "es",
+        "familyId": "familia-l282",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "Una carta en la fila del agua",
+        "summary": "Una carta sin firma lleva a dos redactores escolares a mirar la fuente en un momento que no conocían.",
+        "paragraphs": [
+          "Clara y Omar preparaban el periódico escolar cuando encontraron una carta doblada en su buzón. No tenía firma. Decía: «La cola de la fuente nos deja sin recreo. Los mayores llenan sus botellas y nosotros esperamos. ¿Podéis mirarlo? Sucede nada más salir al patio por la mañana». Omar arrugó la frente: él había bebido allí el día anterior sin esperar casi nada. Clara propuso acercarse al empezar el recreo, como pedía la carta.",
+          "Aquel día, un grupo salía de educación física con botellas vacías. Detrás esperaban varios pequeños. El agua salía en un hilo y llenar cada botella llevaba bastante tiempo. Una niña de tercero se marchó hacia el banco sin beber. «Si espero más, no juego», les dijo. Omar recordó entonces que él había usado la fuente cuando el patio ya estaba casi vacío.",
+          "Clara buscó a Sergi, el conserje adulto de la escuela. Él probó el pulsador de la fuente y avisó al servicio de mantenimiento. Mientras llegaba la reparación, una maestra abrió el acceso a la otra fuente, dentro del gimnasio. Allí podían llenar las botellas. Al día siguiente repararon la del patio y el agua volvió a salir con fuerza.",
+          "La noticia contó qué habían visto al inicio del recreo y cómo se había arreglado la fuente. Guardaron la carta junto a sus notas. Una semana después apareció otro papel en el buzón: «Hoy me ha dado tiempo de jugar». Tampoco llevaba firma. Omar lo dejó encima de la primera carta y salió al patio con Clara."
+        ],
+        "questions": [
+          {
+            "id": "l282a-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué pide a la redacción quien escribe la carta?",
+            "answer": "Que mire lo que ocurre en la cola de la fuente y la espera de los pequeños.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Los mayores llenan sus botellas y nosotros esperamos. ¿Podéis mirarlo?"
+              }
+            ]
+          },
+          {
+            "id": "l282a-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Omar no había visto la misma cola el día anterior?",
+            "answer": "Porque fue cuando el patio ya estaba casi vacío, no al inicio del recreo.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "él había usado la fuente cuando el patio ya estaba casi vacío."
+              }
+            ]
+          },
+          {
+            "id": "l282a-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «en un hilo» al hablar del agua?",
+            "answer": "Que salía muy poca agua y el chorro era muy fino.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El agua salía en un hilo"
+              }
+            ]
+          },
+          {
+            "id": "l282a-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué se marcha la niña de tercero?",
+            "answer": "Porque seguir esperando le quitaría el tiempo para jugar.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Si espero más, no juego"
+              }
+            ]
+          },
+          {
+            "id": "l282a-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué hacen Sergi y la maestra mientras hay un problema en la fuente?",
+            "answer": "Sergi prueba el pulsador y avisa a mantenimiento; la maestra abre el acceso a la otra fuente para llenar botellas.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Él probó el pulsador de la fuente y avisó al servicio de mantenimiento."
+              },
+              {
+                "paragraph": 3,
+                "text": "una maestra abrió el acceso a la otra fuente"
+              }
+            ]
+          },
+          {
+            "id": "l282a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Podemos saber si las dos cartas las escribió la misma persona? Explica por qué.",
+            "answer": "No. Las dos carecen de firma y el texto no identifica a sus autores.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "No tenía firma."
+              },
+              {
+                "paragraph": 4,
+                "text": "Tampoco llevaba firma."
+              }
+            ]
+          },
+          {
+            "id": "l282a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume cómo pasan de la carta a la noticia.",
+            "answer": "Leen la queja, observan la cola al inicio del recreo, avisan a un adulto y cuentan lo observado y la reparación.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La noticia contó qué habían visto al inicio del recreo y cómo se había arreglado la fuente."
+              }
+            ]
+          },
+          {
+            "id": "l282a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué detalle de esta noticia te parecería más importante contar al resto de la escuela? Justifica tu elección.",
+            "answer": "Respuesta abierta: puede destacar la espera, el poco caudal, la alternativa del gimnasio o la reparación, explicando para qué le serviría a los lectores."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "en un hilo",
+            "occurrence": 1,
+            "questionId": "l282a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l282-scene",
+            "src": "assets/readings/l282-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un buzón de cartas del periódico escolar y una carta doblada; al fondo se ve la fuente del patio.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan el periódico escolar en una mesa del patio, en una ilustración azul y naranja.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "una-carta-en-la-fila-del-agua-a-ca",
+        "code": "L282A",
+        "workId": "una-carta-en-la-fila-del-agua-a",
+        "language": "ca",
+        "familyId": "familia-l282",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "Una carta a la cua de l’aigua",
+        "summary": "Una carta sense signatura porta dos redactors escolars a mirar la font en un moment que no coneixien.",
+        "paragraphs": [
+          "La Clara i l’Omar preparaven el diari escolar quan van trobar una carta doblegada a la bústia. No tenia signatura. Deia: «La cua de la font ens deixa sense esbarjo. Els grans omplen les ampolles i nosaltres esperem. Ho podeu mirar? Passa tot just sortir al pati al matí». L’Omar va arrufar el front: ell hi havia begut el dia abans sense esperar gairebé gens. La Clara va proposar acostar-s’hi en començar l’esbarjo, com demanava la carta.",
+          "Aquell dia, un grup sortia d’educació física amb ampolles buides. Al darrere esperaven diversos petits. L’aigua sortia amb un rajolí i omplir cada ampolla costava força estona. Una nena de tercer se’n va anar cap al banc sense beure. «Si espero més, no jugo», els va dir. L’Omar va recordar llavors que ell havia fet servir la font quan el pati ja era gairebé buit.",
+          "La Clara va buscar en Sergi, el conserge adult de l’escola. Ell va provar el polsador de la font i va avisar el servei de manteniment. Mentre arribava la reparació, una mestra va obrir l’accés a l’altra font, dins del gimnàs. Allà podien omplir les ampolles. L’endemà van reparar la del pati i l’aigua va tornar a sortir amb força.",
+          "La notícia va explicar què havien vist a l’inici de l’esbarjo i com s’havia arreglat la font. Van desar la carta al costat de les notes. Una setmana després va aparèixer un altre paper a la bústia: «Avui he tingut temps de jugar». Tampoc no duia signatura. L’Omar el va deixar damunt de la primera carta i va sortir al pati amb la Clara."
+        ],
+        "questions": [
+          {
+            "id": "l282a-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què demana a la redacció qui escriu la carta?",
+            "answer": "Que miri què passa a la cua de la font i l’espera dels petits.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Els grans omplen les ampolles i nosaltres esperem. Ho podeu mirar?"
+              }
+            ]
+          },
+          {
+            "id": "l282a-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què l’Omar no havia vist la mateixa cua el dia abans?",
+            "answer": "Perquè hi va anar quan el pati ja era gairebé buit, no a l’inici de l’esbarjo.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "ell havia fet servir la font quan el pati ja era gairebé buit."
+              }
+            ]
+          },
+          {
+            "id": "l282a-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «amb un rajolí» quan es parla de l’aigua?",
+            "answer": "Que sortia molt poca aigua i el raig era molt prim.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "L’aigua sortia amb un rajolí"
+              }
+            ]
+          },
+          {
+            "id": "l282a-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què se’n va la nena de tercer?",
+            "answer": "Perquè continuar esperant li trauria el temps per jugar.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Si espero més, no jugo"
+              }
+            ]
+          },
+          {
+            "id": "l282a-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què fan en Sergi i la mestra mentre hi ha un problema a la font?",
+            "answer": "En Sergi prova el polsador i avisa manteniment; la mestra obre l’accés a l’altra font per omplir ampolles.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Ell va provar el polsador de la font i va avisar el servei de manteniment."
+              },
+              {
+                "paragraph": 3,
+                "text": "una mestra va obrir l’accés a l’altra font"
+              }
+            ]
+          },
+          {
+            "id": "l282a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Podem saber si les dues cartes les va escriure la mateixa persona? Explica per què.",
+            "answer": "No. Cap de les dues té signatura i el text no n’identifica els autors.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "No tenia signatura."
+              },
+              {
+                "paragraph": 4,
+                "text": "Tampoc no duia signatura."
+              }
+            ]
+          },
+          {
+            "id": "l282a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix com passen de la carta a la notícia.",
+            "answer": "Llegeixen la queixa, observen la cua a l’inici de l’esbarjo, avisen un adult i expliquen el que han observat i la reparació.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La notícia va explicar què havien vist a l’inici de l’esbarjo i com s’havia arreglat la font."
+              }
+            ]
+          },
+          {
+            "id": "l282a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quin detall d’aquesta notícia et semblaria més important explicar a la resta de l’escola? Justifica la tria.",
+            "answer": "Resposta oberta: pot destacar l’espera, el poc cabal, l’alternativa del gimnàs o la reparació, explicant per a què serviria als lectors."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "amb un rajolí",
+            "occurrence": 1,
+            "questionId": "l282a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l282-scene",
+            "src": "assets/readings/l282-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una bústia de cartes del diari escolar i una carta doblegada; al fons es veu la font del pati.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen el diari escolar en una taula del pati, en una il·lustració blava i taronja.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "una-carta-en-la-fila-del-agua-es",
+        "code": "L282",
+        "workId": "una-carta-en-la-fila-del-agua",
+        "language": "es",
+        "familyId": "familia-l282",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "Una carta en la fila del agua",
+        "summary": "Una queja anónima cambia cuando los redactores observan la fuente a la hora que les faltaba conocer.",
+        "paragraphs": [
+          "Clara y Omar, dos alumnos que preparaban el periódico escolar, encontraron una carta doblada en el buzón de la redacción. No llevaba firma. «La cola de la fuente nos deja sin recreo. Los mayores llenan sus botellas y nosotros esperamos. ¿Podéis mirarlo al empezar el patio?». Omar puso la carta junto a su libreta. «Ayer yo bebí en un momento», dijo. Clara le preguntó a qué hora había ido. Él no se acordaba con precisión.",
+          "Al día siguiente se acercaron nada más salir al recreo. Un grupo acababa educación física y llevaba botellas vacías. Detrás esperaban varios pequeños, algunos estirando el cuello para ver cuánto faltaba. El agua salía en un hilo. Una alumna mayor retiró su botella a medio llenar para dejar beber a un niño. La fila avanzó un poco y volvió a detenerse cuando otra botella quedó bajo el chorro.",
+          "Una niña de tercero se fue al banco sin beber. «Si espero más, ya no juego», explicó cuando Clara se acercó. Omar recordó entonces su visita del día anterior: había sido al final del recreo, con el patio casi vacío. Clara escribió en sus notas que había mayores llenando botellas, pero también una alumna que había cedido su turno. La carta hablaba de una espera real; en aquella fila no todos actuaban de la misma manera.",
+          "Buscaron a Sergi, el conserje adulto, y le enseñaron el chorro. Probó el pulsador y llamó al servicio de mantenimiento. Mientras esperaban la reparación, una maestra abrió el acceso a la fuente del gimnasio para llenar botellas. Clara y Omar volvieron a la mesa con una noticia que ya tenía un lugar, un momento y voces concretas. No habían averiguado quién escribió la carta ni intentaron atribuírsela a la niña de tercero.",
+          "Al día siguiente repararon la fuente del patio. Los dos redactores fueron de nuevo al inicio del recreo: seguía llegando gente, pero las botellas se llenaban con más rapidez y la fila avanzaba. La noticia explicó la queja, lo observado y la reparación. Guardaron la carta junto a las notas. Una semana después apareció otro papel sin firma: «Hoy me ha dado tiempo de jugar». Omar lo puso encima del primero y llamó a Clara antes de salir."
+        ],
+        "questions": [
+          {
+            "id": "l282-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿En qué momento pide la carta que observen la fuente?",
+            "answer": "Al empezar el recreo.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "¿Podéis mirarlo al empezar el patio?"
+              }
+            ]
+          },
+          {
+            "id": "l282-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué la visita anterior de Omar no bastaba para valorar aquella queja?",
+            "answer": "Porque había usado la fuente al final, con poca gente, y la queja se refería al inicio.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "había sido al final del recreo, con el patio casi vacío."
+              }
+            ]
+          },
+          {
+            "id": "l282-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «cedido su turno» en lo que Clara anota?",
+            "answer": "Que dejó pasar a otra persona antes de terminar de llenar su botella.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una alumna que había cedido su turno."
+              }
+            ]
+          },
+          {
+            "id": "l282-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué detalle impide describir a todos los mayores como si se comportaran igual?",
+            "answer": "Una alumna retiró su botella a medio llenar para dejar beber a un niño.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Una alumna mayor retiró su botella a medio llenar para dejar beber a un niño."
+              }
+            ]
+          },
+          {
+            "id": "l282-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué alternativa se ofrece mientras esperan la reparación?",
+            "answer": "Una maestra abre el acceso a la fuente del gimnasio para llenar botellas.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "una maestra abrió el acceso a la fuente del gimnasio para llenar botellas."
+              }
+            ]
+          },
+          {
+            "id": "l282-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué vuelven los redactores al inicio del recreo tras la reparación?",
+            "answer": "Para observar cómo avanza la fila en un momento semejante al de la queja y la primera visita.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "fueron de nuevo al inicio del recreo: seguía llegando gente, pero las botellas se llenaban con más rapidez y la fila avanzaba."
+              }
+            ]
+          },
+          {
+            "id": "l282-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué saben de la autoría de la carta al terminar la investigación?",
+            "answer": "No han identificado a quien la escribió; la niña entrevistada no queda señalada como su autora.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "No habían averiguado quién escribió la carta ni intentaron atribuírsela a la niña de tercero."
+              }
+            ]
+          },
+          {
+            "id": "l282-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué añade la segunda visita a la noticia, además de que se ha reparado la fuente?",
+            "answer": "Una observación de cómo funcionan el llenado y la fila después del arreglo.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "las botellas se llenaban con más rapidez y la fila avanzaba."
+              }
+            ]
+          },
+          {
+            "id": "l282-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume cómo cambia la primera impresión de Omar y qué termina contando la noticia.",
+            "answer": "Su experiencia al final del recreo parecía quitar importancia a la queja. Al ir al inicio observa la espera y el poco caudal; la noticia cuenta esa situación, la alternativa temporal y la reparación.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Omar recordó entonces su visita del día anterior: había sido al final del recreo"
+              },
+              {
+                "paragraph": 5,
+                "text": "La noticia explicó la queja, lo observado y la reparación."
+              }
+            ]
+          },
+          {
+            "id": "l282-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Propón un título para la noticia que informe del problema sin atribuir el mismo comportamiento a todo un grupo. Explica tu elección.",
+            "answer": "Respuesta abierta: un título sobre la espera, el caudal o la reparación, relacionado con lo observado y sin identificar a un autor desconocido."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "cedido su turno",
+            "occurrence": 1,
+            "questionId": "l282-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l282-scene",
+            "src": "assets/readings/l282-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un buzón de cartas del periódico escolar y una carta doblada; al fondo se ve la fuente del patio.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan el periódico escolar en una mesa del patio, en una ilustración azul y naranja.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "una-carta-en-la-fila-del-agua-ca",
+        "code": "L282",
+        "workId": "una-carta-en-la-fila-del-agua",
+        "language": "ca",
+        "familyId": "familia-l282",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "Una carta a la cua de l’aigua",
+        "summary": "Una queixa anònima canvia quan els redactors observen la font a l’hora que els faltava conèixer.",
+        "paragraphs": [
+          "La Clara i l’Omar, dos alumnes que preparaven el diari escolar, van trobar una carta doblegada a la bústia de la redacció. No duia signatura. «La cua de la font ens deixa sense esbarjo. Els grans omplen les ampolles i nosaltres esperem. Ho podeu mirar quan comença el pati?». L’Omar va posar la carta al costat de la llibreta. «Ahir jo vaig beure en un moment», va dir. La Clara li va preguntar a quina hora hi havia anat. Ell no se’n recordava amb precisió.",
+          "L’endemà s’hi van acostar tot just sortir a l’esbarjo. Un grup acabava educació física i duia ampolles buides. Al darrere esperaven diversos petits, alguns estirant el coll per veure quant faltava. L’aigua sortia amb un rajolí. Una alumna gran va retirar l’ampolla mig plena per deixar beure un nen. La cua va avançar una mica i es va tornar a aturar quan una altra ampolla va quedar sota el raig.",
+          "Una nena de tercer se’n va anar al banc sense beure. «Si espero més, ja no jugo», va explicar quan la Clara s’hi va acostar. L’Omar va recordar llavors la visita del dia abans: havia estat al final de l’esbarjo, amb el pati gairebé buit. La Clara va escriure a les notes que hi havia grans omplint ampolles, però també una alumna que havia cedit el torn. La carta parlava d’una espera real; en aquella cua no tothom actuava de la mateixa manera.",
+          "Van buscar en Sergi, el conserge adult, i li van ensenyar el raig. Va provar el polsador i va trucar al servei de manteniment. Mentre esperaven la reparació, una mestra va obrir l’accés a la font del gimnàs per omplir ampolles. La Clara i l’Omar van tornar a la taula amb una notícia que ja tenia un lloc, un moment i veus concretes. No havien esbrinat qui havia escrit la carta ni van intentar atribuir-la a la nena de tercer.",
+          "L’endemà van reparar la font del pati. Els dos redactors hi van tornar a l’inici de l’esbarjo: continuava arribant gent, però les ampolles s’omplien més de pressa i la cua avançava. La notícia va explicar la queixa, el que havien observat i la reparació. Van desar la carta al costat de les notes. Una setmana després va aparèixer un altre paper sense signatura: «Avui he tingut temps de jugar». L’Omar el va posar damunt del primer i va cridar la Clara abans de sortir."
+        ],
+        "questions": [
+          {
+            "id": "l282-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "En quin moment demana la carta que observin la font?",
+            "answer": "Quan comença l’esbarjo.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Ho podeu mirar quan comença el pati?"
+              }
+            ]
+          },
+          {
+            "id": "l282-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la visita anterior de l’Omar no bastava per valorar aquella queixa?",
+            "answer": "Perquè havia fet servir la font al final, amb poca gent, i la queixa es referia a l’inici.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "havia estat al final de l’esbarjo, amb el pati gairebé buit."
+              }
+            ]
+          },
+          {
+            "id": "l282-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «cedit el torn» en el que anota la Clara?",
+            "answer": "Que va deixar passar una altra persona abans d’acabar d’omplir l’ampolla.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una alumna que havia cedit el torn."
+              }
+            ]
+          },
+          {
+            "id": "l282-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quin detall impedeix descriure tots els grans com si es comportessin igual?",
+            "answer": "Una alumna va retirar l’ampolla mig plena per deixar beure un nen.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Una alumna gran va retirar l’ampolla mig plena per deixar beure un nen."
+              }
+            ]
+          },
+          {
+            "id": "l282-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina alternativa s’ofereix mentre esperen la reparació?",
+            "answer": "Una mestra obre l’accés a la font del gimnàs per omplir ampolles.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "una mestra va obrir l’accés a la font del gimnàs per omplir ampolles."
+              }
+            ]
+          },
+          {
+            "id": "l282-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què tornen els redactors a l’inici de l’esbarjo després de la reparació?",
+            "answer": "Per observar com avança la cua en un moment semblant al de la queixa i la primera visita.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "hi van tornar a l’inici de l’esbarjo: continuava arribant gent, però les ampolles s’omplien més de pressa i la cua avançava."
+              }
+            ]
+          },
+          {
+            "id": "l282-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què saben de l’autoria de la carta en acabar la investigació?",
+            "answer": "No han identificat qui la va escriure; la nena entrevistada no queda assenyalada com l’autora.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "No havien esbrinat qui havia escrit la carta ni van intentar atribuir-la a la nena de tercer."
+              }
+            ]
+          },
+          {
+            "id": "l282-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Què afegeix la segona visita a la notícia, a més que s’ha reparat la font?",
+            "answer": "Una observació de com funcionen l’ompliment i la cua després de l’arranjament.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "les ampolles s’omplien més de pressa i la cua avançava."
+              }
+            ]
+          },
+          {
+            "id": "l282-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix com canvia la primera impressió de l’Omar i què acaba explicant la notícia.",
+            "answer": "La seva experiència al final de l’esbarjo semblava treure importància a la queixa. En anar-hi a l’inici observa l’espera i el poc cabal; la notícia explica aquella situació, l’alternativa temporal i la reparació.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "L’Omar va recordar llavors la visita del dia abans: havia estat al final de l’esbarjo"
+              },
+              {
+                "paragraph": 5,
+                "text": "La notícia va explicar la queixa, el que havien observat i la reparació."
+              }
+            ]
+          },
+          {
+            "id": "l282-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Proposa un títol per a la notícia que informi del problema sense atribuir el mateix comportament a tot un grup. Explica la tria.",
+            "answer": "Resposta oberta: un títol sobre l’espera, el cabal o la reparació, relacionat amb el que han observat i sense identificar un autor desconegut."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "cedit el torn",
+            "occurrence": 1,
+            "questionId": "l282-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l282-scene",
+            "src": "assets/readings/l282-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una bústia de cartes del diari escolar i una carta doblegada; al fons es veu la font del pati.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen el diari escolar en una taula del pati, en una il·lustració blava i taronja.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "una-carta-en-la-fila-del-agua-b-es",
+        "code": "L282B",
+        "workId": "una-carta-en-la-fila-del-agua-b",
+        "language": "es",
+        "familyId": "familia-l282",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "Una carta en la fila del agua",
+        "summary": "Dos redactores separan la experiencia de una queja, la conducta de personas concretas y lo que realmente pueden comprobar.",
+        "paragraphs": [
+          "Clara y Omar, alumnos del equipo que preparaba el periódico escolar, encontraron una carta doblada en el buzón de la redacción. No llevaba firma. «La cola de la fuente nos deja sin recreo. Los mayores llenan sus botellas y nosotros esperamos. ¿Podéis mirarlo al empezar el patio?». Omar recordó que el día anterior había bebido sin esperar. Clara quiso saber a qué hora. Él pensó un momento: había ido al final, cuando ya recogían las cuerdas del juego.",
+          "Al día siguiente llegaron a la fuente nada más salir al recreo. Un grupo acababa educación física y llevaba botellas vacías. «Hoy hemos corrido mucho», dijo una alumna mientras desenroscaba el tapón. Detrás esperaban pequeños de varios cursos. El agua salía en un hilo, de modo que cada botella retenía la fila durante bastante tiempo. Una alumna mayor la retiró a medio llenar y dejó beber a un niño. Después volvió a colocarla bajo el chorro. Otra compañera no oyó la petición de un pequeño hasta que se la repitieron desde atrás.",
+          "Una niña de tercero se marchó hacia el banco sin beber. «Si espero más, ya no juego», dijo cuando Clara se acercó. Al volver, Clara señaló la carta: «Igual la ha escrito ella». Omar le preguntó cómo lo sabía. La niña les había explicado una experiencia parecida, pero no había hablado del buzón. Clara borró el nombre que acababa de apuntar junto a la palabra «autora» y conservó lo que la niña les había contado de su espera.",
+          "Buscaron a Sergi, el conserje adulto de la escuela, y le mostraron el chorro. Probó el pulsador y avisó al servicio de mantenimiento. Mientras llegaba la reparación, una maestra abrió el acceso a la fuente del gimnasio para llenar botellas. Omar anotó aquel cambio junto a su primera visita. Su recuerdo de haber bebido enseguida seguía siendo cierto; le faltaba aquel otro momento del patio que los autores de la carta habían pedido mirar.",
+          "Para el artículo reunieron la queja, sus observaciones y las respuestas de quienes esperaban. La espera de los pequeños aparecía junto a la botella retirada a medio llenar. Clara recortó una frase que atribuía la misma intención a todos los mayores: en sus notas había gestos diferentes. Tampoco habían preguntado a cada persona de la fila por qué necesitaba agua. Se quedaron con las acciones y las respuestas que sí podían describir de aquella mañana.",
+          "Al día siguiente repararon la fuente. Los redactores volvieron al inicio del recreo: seguía llegando gente, pero el llenado era más rápido y la fila avanzaba. Añadieron esa escena a la noticia antes de cerrar el número. Una semana después encontraron otro papel sin firma: «Hoy me ha dado tiempo de jugar». No supieron si venía de la misma mano. Omar lo dejó encima de la primera carta y llamó a Clara. Sonaba el recreo y esta vez salieron juntos, antes de que recogieran las cuerdas."
+        ],
+        "questions": [
+          {
+            "id": "l282b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué momento deben observar según la carta y cuál conocía Omar?",
+            "answer": "La carta pide mirar al inicio del recreo; Omar había ido al final, cuando recogían las cuerdas.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "¿Podéis mirarlo al empezar el patio?"
+              },
+              {
+                "paragraph": 1,
+                "text": "había ido al final, cuando ya recogían las cuerdas del juego."
+              }
+            ]
+          },
+          {
+            "id": "l282b-q2",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué pueden ser verdaderos el recuerdo de Omar y la espera que describe la carta?",
+            "answer": "Porque corresponden a momentos con distinta afluencia; beber rápido al final no describe necesariamente el inicio.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Su recuerdo de haber bebido enseguida seguía siendo cierto; le faltaba aquel otro momento del patio"
+              }
+            ]
+          },
+          {
+            "id": "l282b-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «atribuía» al hablar de la intención de los mayores?",
+            "answer": "Que asignaba o daba por propia de ellos aquella intención.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "una frase que atribuía la misma intención a todos los mayores"
+              }
+            ]
+          },
+          {
+            "id": "l282b-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué permite explicar que cada botella detuviera bastante la fila?",
+            "answer": "Que el agua salía en un hilo y llenarla llevaba bastante tiempo.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El agua salía en un hilo, de modo que cada botella retenía la fila durante bastante tiempo."
+              }
+            ]
+          },
+          {
+            "id": "l282b-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué retira Clara el nombre que había escrito junto a «autora»?",
+            "answer": "Porque la niña cuenta una experiencia parecida, pero no ha dicho que escribiera la carta; esa coincidencia no identifica a quien la envió.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La niña les había explicado una experiencia parecida, pero no había hablado del buzón."
+              }
+            ]
+          },
+          {
+            "id": "l282b-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué hace Sergi y qué medida toma la maestra mientras tanto?",
+            "answer": "Sergi prueba el pulsador y avisa a mantenimiento; la maestra permite llenar botellas en la fuente del gimnasio.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Probó el pulsador y avisó al servicio de mantenimiento."
+              },
+              {
+                "paragraph": 4,
+                "text": "una maestra abrió el acceso a la fuente del gimnasio para llenar botellas."
+              }
+            ]
+          },
+          {
+            "id": "l282b-q7",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué aportan a la noticia los dos comportamientos de las alumnas mayores del segundo párrafo?",
+            "answer": "Muestran respuestas diferentes en la misma fila: una cede sitio y otra necesita que le repitan una petición. Ayudan a evitar una única intención para todo el grupo.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Una alumna mayor la retiró a medio llenar y dejó beber a un niño."
+              },
+              {
+                "paragraph": 2,
+                "text": "Otra compañera no oyó la petición de un pequeño hasta que se la repitieron desde atrás."
+              }
+            ]
+          },
+          {
+            "id": "l282b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué observan después del arreglo sin afirmar que desaparezca toda fila?",
+            "answer": "Sigue llegando gente, pero las botellas se llenan más rápido y la fila avanza.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "seguía llegando gente, pero el llenado era más rápido y la fila avanzaba."
+              }
+            ]
+          },
+          {
+            "id": "l282b-q9",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué efecto tiene terminar con la recogida de cuerdas, un detalle que también aparece al principio?",
+            "answer": "Relaciona las dos salidas al patio: antes Omar había ido al final; ahora ambos salen antes, al sonar el recreo.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "había ido al final, cuando ya recogían las cuerdas del juego."
+              },
+              {
+                "paragraph": 6,
+                "text": "esta vez salieron juntos, antes de que recogieran las cuerdas."
+              }
+            ]
+          },
+          {
+            "id": "l282b-q10",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué pueden concluir sobre la segunda carta y qué queda desconocido?",
+            "answer": "Quien escribe dice que ha tenido tiempo de jugar, pero no saben si es la misma persona de la primera carta.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Hoy me ha dado tiempo de jugar"
+              },
+              {
+                "paragraph": 6,
+                "text": "No supieron si venía de la misma mano."
+              }
+            ]
+          },
+          {
+            "id": "l282b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué primeras ideas revisan los dos redactores y con qué información.",
+            "answer": "Omar amplía su experiencia al final del recreo al observar la cola inicial. Clara retira una autoría supuesta y una intención atribuida a todos al contrastarlas con las palabras de la niña y comportamientos distintos.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Clara borró el nombre que acababa de apuntar junto a la palabra «autora»"
+              },
+              {
+                "paragraph": 5,
+                "text": "Clara recortó una frase que atribuía la misma intención a todos los mayores"
+              }
+            ]
+          },
+          {
+            "id": "l282b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Escribe una pregunta que harías a otra persona de la fila y explica qué información nueva podría aportar. Evita dar por conocida su intención.",
+            "answer": "Respuesta abierta: una pregunta sobre cuándo espera, qué necesita hacer o cómo vivió un episodio, con un propósito informativo que no adelante una acusación como respuesta."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "atribuía",
+            "occurrence": 1,
+            "questionId": "l282b-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l282-scene",
+            "src": "assets/readings/l282-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un buzón de cartas del periódico escolar y una carta doblada; al fondo se ve la fuente del patio.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan el periódico escolar en una mesa del patio, en una ilustración azul y naranja.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "una-carta-en-la-fila-del-agua-b-ca",
+        "code": "L282B",
+        "workId": "una-carta-en-la-fila-del-agua-b",
+        "language": "ca",
+        "familyId": "familia-l282",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "Una carta a la cua de l’aigua",
+        "summary": "Dos redactors separen l’experiència d’una queixa, la conducta de persones concretes i el que realment poden comprovar.",
+        "paragraphs": [
+          "La Clara i l’Omar, alumnes de l’equip que preparava el diari escolar, van trobar una carta doblegada a la bústia de la redacció. No duia signatura. «La cua de la font ens deixa sense esbarjo. Els grans omplen les ampolles i nosaltres esperem. Ho podeu mirar quan comença el pati?». L’Omar va recordar que el dia abans havia begut sense esperar. La Clara va voler saber a quina hora. Ell s’hi va pensar un moment: hi havia anat al final, quan ja recollien les cordes del joc.",
+          "L’endemà van arribar a la font tot just sortir a l’esbarjo. Un grup acabava educació física i duia ampolles buides. «Avui hem corregut molt», va dir una alumna mentre desenroscava el tap. Al darrere esperaven petits de diversos cursos. L’aigua sortia amb un rajolí, de manera que cada ampolla retenia la cua força estona. Una alumna gran la va retirar mig plena i va deixar beure un nen. Després la va tornar a posar sota el raig. Una altra companya no va sentir la petició d’un petit fins que la hi van repetir des del darrere.",
+          "Una nena de tercer se’n va anar cap al banc sense beure. «Si espero més, ja no jugo», va dir quan la Clara s’hi va acostar. En tornar, la Clara va assenyalar la carta: «Potser l’ha escrita ella». L’Omar li va preguntar com ho sabia. La nena els havia explicat una experiència semblant, però no havia parlat de la bústia. La Clara va esborrar el nom que acabava d’apuntar al costat de la paraula «autora» i va conservar el que la nena els havia explicat de l’espera.",
+          "Van buscar en Sergi, el conserge adult de l’escola, i li van mostrar el raig. Va provar el polsador i va avisar el servei de manteniment. Mentre arribava la reparació, una mestra va obrir l’accés a la font del gimnàs per omplir ampolles. L’Omar va anotar aquell canvi al costat de la primera visita. El record d’haver begut de seguida continuava sent cert; li faltava aquell altre moment del pati que els autors de la carta havien demanat mirar.",
+          "Per a l’article van reunir la queixa, les observacions i les respostes de qui esperava. L’espera dels petits apareixia al costat de l’ampolla retirada mig plena. La Clara va retallar una frase que atribuïa la mateixa intenció a tots els grans: a les notes hi havia gestos diferents. Tampoc no havien preguntat a cada persona de la cua per què necessitava aigua. Es van quedar amb les accions i les respostes que sí que podien descriure d’aquell matí.",
+          "L’endemà van reparar la font. Els redactors hi van tornar a l’inici de l’esbarjo: continuava arribant gent, però l’ompliment era més ràpid i la cua avançava. Van afegir aquella escena a la notícia abans de tancar el número. Una setmana després van trobar un altre paper sense signatura: «Avui he tingut temps de jugar». No van saber si venia de la mateixa mà. L’Omar el va deixar damunt de la primera carta i va cridar la Clara. Sonava l’esbarjo i aquest cop van sortir junts, abans que recollissin les cordes."
+        ],
+        "questions": [
+          {
+            "id": "l282b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quin moment han d’observar segons la carta i quin coneixia l’Omar?",
+            "answer": "La carta demana mirar a l’inici de l’esbarjo; l’Omar hi havia anat al final, quan recollien les cordes.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Ho podeu mirar quan comença el pati?"
+              },
+              {
+                "paragraph": 1,
+                "text": "hi havia anat al final, quan ja recollien les cordes del joc."
+              }
+            ]
+          },
+          {
+            "id": "l282b-q2",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què poden ser certs el record de l’Omar i l’espera que descriu la carta?",
+            "answer": "Perquè corresponen a moments amb afluència diferent; beure de pressa al final no descriu necessàriament l’inici.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "El record d’haver begut de seguida continuava sent cert; li faltava aquell altre moment del pati"
+              }
+            ]
+          },
+          {
+            "id": "l282b-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «atribuïa» quan es parla de la intenció dels grans?",
+            "answer": "Que els assignava o donava per pròpia aquella intenció.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "una frase que atribuïa la mateixa intenció a tots els grans"
+              }
+            ]
+          },
+          {
+            "id": "l282b-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què permet explicar que cada ampolla aturés força la cua?",
+            "answer": "Que l’aigua sortia amb un rajolí i omplir-la costava força estona.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "L’aigua sortia amb un rajolí, de manera que cada ampolla retenia la cua força estona."
+              }
+            ]
+          },
+          {
+            "id": "l282b-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què retira la Clara el nom que havia escrit al costat d’«autora»?",
+            "answer": "Perquè la nena explica una experiència semblant, però no ha dit que escrivís la carta; aquella coincidència no identifica qui la va enviar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La nena els havia explicat una experiència semblant, però no havia parlat de la bústia."
+              }
+            ]
+          },
+          {
+            "id": "l282b-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què fa en Sergi i quina mesura pren la mestra mentrestant?",
+            "answer": "En Sergi prova el polsador i avisa manteniment; la mestra permet omplir ampolles a la font del gimnàs.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Va provar el polsador i va avisar el servei de manteniment."
+              },
+              {
+                "paragraph": 4,
+                "text": "una mestra va obrir l’accés a la font del gimnàs per omplir ampolles."
+              }
+            ]
+          },
+          {
+            "id": "l282b-q7",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Què aporten a la notícia els dos comportaments de les alumnes grans del segon paràgraf?",
+            "answer": "Mostren respostes diferents a la mateixa cua: una cedeix lloc i una altra necessita que li repeteixin una petició. Ajuden a evitar una única intenció per a tot el grup.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Una alumna gran la va retirar mig plena i va deixar beure un nen."
+              },
+              {
+                "paragraph": 2,
+                "text": "Una altra companya no va sentir la petició d’un petit fins que la hi van repetir des del darrere."
+              }
+            ]
+          },
+          {
+            "id": "l282b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què observen després de l’arranjament sense afirmar que desaparegui tota cua?",
+            "answer": "Continua arribant gent, però les ampolles s’omplen més de pressa i la cua avança.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "continuava arribant gent, però l’ompliment era més ràpid i la cua avançava."
+              }
+            ]
+          },
+          {
+            "id": "l282b-q9",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quin efecte té acabar amb la recollida de cordes, un detall que també apareix al principi?",
+            "answer": "Relaciona les dues sortides al pati: abans l’Omar hi havia anat al final; ara tots dos surten abans, en sonar l’esbarjo.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "hi havia anat al final, quan ja recollien les cordes del joc."
+              },
+              {
+                "paragraph": 6,
+                "text": "aquest cop van sortir junts, abans que recollissin les cordes."
+              }
+            ]
+          },
+          {
+            "id": "l282b-q10",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què poden concloure sobre la segona carta i què continua sent desconegut?",
+            "answer": "Qui escriu diu que ha tingut temps de jugar, però no saben si és la mateixa persona de la primera carta.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Avui he tingut temps de jugar"
+              },
+              {
+                "paragraph": 6,
+                "text": "No van saber si venia de la mateixa mà."
+              }
+            ]
+          },
+          {
+            "id": "l282b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix quines primeres idees revisen els dos redactors i amb quina informació.",
+            "answer": "L’Omar amplia la seva experiència al final de l’esbarjo observant la cua inicial. La Clara retira una autoria suposada i una intenció atribuïda a tothom en contrastar-les amb les paraules de la nena i comportaments diferents.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La Clara va esborrar el nom que acabava d’apuntar al costat de la paraula «autora»"
+              },
+              {
+                "paragraph": 5,
+                "text": "La Clara va retallar una frase que atribuïa la mateixa intenció a tots els grans"
+              }
+            ]
+          },
+          {
+            "id": "l282b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Escriu una pregunta que faries a una altra persona de la cua i explica quina informació nova podria aportar. Evita donar per coneguda la seva intenció.",
+            "answer": "Resposta oberta: una pregunta sobre quan espera, què necessita fer o com va viure un episodi, amb un propòsit informatiu que no avanci una acusació com a resposta."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "atribuïa",
+            "occurrence": 1,
+            "questionId": "l282b-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l282-scene",
+            "src": "assets/readings/l282-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una bústia de cartes del diari escolar i una carta doblegada; al fons es veu la font del pati.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen el diari escolar en una taula del pati, en una il·lustració blava i taronja.",
+            "afterParagraph": 4
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L282A",
+        "language": "es",
+        "questions": {
+          "l282a-q1": {
+            "prompt": "¿Qué pide a la redacción quien escribe la carta?",
+            "options": [
+              "Que averigüe el nombre de todos los que van a la fuente.",
+              "Que observe la espera para beber en la fuente.",
+              "Que publiquen la queja antes de observar la fila.",
+              "Que averigüen quién escribe antes de visitar la fuente."
+            ],
+            "correct": "b",
+            "explanation": "Que mire lo que ocurre en la cola de la fuente y la espera de los pequeños."
+          },
+          "l282a-q2": {
+            "prompt": "¿Por qué Omar no había visto la misma cola el día anterior?",
+            "options": [
+              "Porque bebió en el gimnasio y no fue al patio.",
+              "Porque la niña de tercero aún no había escrito la carta.",
+              "Porque aquel día ya habían reparado la fuente.",
+              "Porque la utilizó en un momento con menos gente."
+            ],
+            "correct": "d",
+            "explanation": "Porque fue cuando el patio ya estaba casi vacío, no al inicio del recreo."
+          },
+          "l282a-q3": {
+            "prompt": "¿Qué significa «en un hilo» al hablar del agua?",
+            "options": [
+              "Que salía una cantidad pequeña con poca fuerza.",
+              "Que habían puesto una cuerda en la fuente.",
+              "Que salía tanta que llenaba las botellas enseguida.",
+              "Que el agua solo servía para limpiar el patio."
+            ],
+            "correct": "a",
+            "explanation": "Que salía muy poca agua y el chorro era muy fino."
+          },
+          "l282a-q4": {
+            "prompt": "¿Por qué se marcha la niña de tercero?",
+            "options": [
+              "Porque ya ha llenado su botella en el gimnasio.",
+              "Porque Omar le pide que deje sitio para otra persona.",
+              "Porque prefiere ir a jugar antes de perder más recreo en la cola.",
+              "Porque sabe que esa misma mañana repararán la fuente."
+            ],
+            "correct": "c",
+            "explanation": "Porque seguir esperando le quitaría el tiempo para jugar."
+          },
+          "l282a-q5": {
+            "prompt": "¿Qué hacen Sergi y la maestra mientras hay un problema en la fuente?",
+            "options": [
+              "Sergi abre el buzón y la maestra busca quién firmó.",
+              "Sergi avisa a mantenimiento y la maestra permite usar otra fuente.",
+              "Sergi avisa a la redacción y la maestra espera para abrir la otra fuente.",
+              "Sergi abre el gimnasio y la maestra repara el pulsador de la fuente."
+            ],
+            "correct": "b",
+            "explanation": "Sergi prueba el pulsador y avisa a mantenimiento; la maestra abre el acceso a la otra fuente para llenar botellas."
+          },
+          "l282a-q6": {
+            "prompt": "¿Podemos saber si las dos cartas las escribió la misma persona? Explica por qué.",
+            "options": [
+              "Sí, porque las dos hablan de tener tiempo para jugar.",
+              "Sí, porque Omar coloca una carta encima de la otra.",
+              "No, porque la segunda demuestra que fue otra niña.",
+              "No, porque ninguna firma permite identificar a quien escribe."
+            ],
+            "correct": "d",
+            "explanation": "No. Las dos carecen de firma y el texto no identifica a sus autores."
+          },
+          "l282a-q7": {
+            "prompt": "¿Qué resumen sigue lo que sucede?",
+            "options": [
+              "Investigan el momento de la queja y cuentan lo que ven y la solución.",
+              "Atribuyen la carta a la niña y publican su nombre en la noticia.",
+              "Retiran la carta porque Omar había bebido sin esperar.",
+              "Revisan la fuente al final y cuentan solo la primera impresión de Omar."
+            ],
+            "correct": "a",
+            "explanation": "Leen la queja, observan la cola al inicio del recreo, avisan a un adulto y cuentan lo observado y la reparación."
+          }
+        }
+      },
+      {
+        "code": "L282A",
+        "language": "ca",
+        "questions": {
+          "l282a-q1": {
+            "prompt": "Què demana a la redacció qui escriu la carta?",
+            "options": [
+              "Que esbrini el nom de tots els que van a la font.",
+              "Que observi l’espera per beure a la font.",
+              "Que publiquin la queixa abans d’observar la cua.",
+              "Que esbrinin qui escriu abans de visitar la font."
+            ],
+            "correct": "b",
+            "explanation": "Que miri què passa a la cua de la font i l’espera dels petits."
+          },
+          "l282a-q2": {
+            "prompt": "Per què l’Omar no havia vist la mateixa cua el dia abans?",
+            "options": [
+              "Perquè va beure al gimnàs i no va anar al pati.",
+              "Perquè la nena de tercer encara no havia escrit la carta.",
+              "Perquè aquell dia ja havien reparat la font.",
+              "Perquè la va fer servir en un moment amb menys gent."
+            ],
+            "correct": "d",
+            "explanation": "Perquè hi va anar quan el pati ja era gairebé buit, no a l’inici de l’esbarjo."
+          },
+          "l282a-q3": {
+            "prompt": "Què vol dir «amb un rajolí» quan es parla de l’aigua?",
+            "options": [
+              "Que en sortia una quantitat petita amb poca força.",
+              "Que havien posat una corda a la font.",
+              "Que en sortia tanta que omplia les ampolles de seguida.",
+              "Que l’aigua només servia per netejar el pati."
+            ],
+            "correct": "a",
+            "explanation": "Que sortia molt poca aigua i el raig era molt prim."
+          },
+          "l282a-q4": {
+            "prompt": "Per què se’n va la nena de tercer?",
+            "options": [
+              "Perquè ja ha omplert l’ampolla al gimnàs.",
+              "Perquè l’Omar li demana que deixi lloc a una altra persona.",
+              "Perquè prefereix anar a jugar abans de perdre més esbarjo a la cua.",
+              "Perquè sap que aquell mateix matí repararan la font."
+            ],
+            "correct": "c",
+            "explanation": "Perquè continuar esperant li trauria el temps per jugar."
+          },
+          "l282a-q5": {
+            "prompt": "Què fan en Sergi i la mestra mentre hi ha un problema a la font?",
+            "options": [
+              "En Sergi obre la bústia i la mestra busca qui va signar.",
+              "En Sergi avisa manteniment i la mestra permet fer servir una altra font.",
+              "En Sergi avisa la redacció i la mestra espera per obrir l’altra font.",
+              "En Sergi obre el gimnàs i la mestra repara el polsador de la font."
+            ],
+            "correct": "b",
+            "explanation": "En Sergi prova el polsador i avisa manteniment; la mestra obre l’accés a l’altra font per omplir ampolles."
+          },
+          "l282a-q6": {
+            "prompt": "Podem saber si les dues cartes les va escriure la mateixa persona? Explica per què.",
+            "options": [
+              "Sí, perquè totes dues parlen de tenir temps per jugar.",
+              "Sí, perquè l’Omar posa una carta damunt l’altra.",
+              "No, perquè la segona demostra que va ser una altra nena.",
+              "No, perquè cap signatura permet identificar qui escriu."
+            ],
+            "correct": "d",
+            "explanation": "No. Cap de les dues té signatura i el text no n’identifica els autors."
+          },
+          "l282a-q7": {
+            "prompt": "Quin resum segueix el que passa?",
+            "options": [
+              "Investiguen el moment de la queixa i expliquen el que veuen i la solució.",
+              "Atribueixen la carta a la nena i en publiquen el nom a la notícia.",
+              "Retiren la carta perquè l’Omar havia begut sense esperar.",
+              "Revisen la font al final i expliquen només la primera impressió de l’Omar."
+            ],
+            "correct": "a",
+            "explanation": "Llegeixen la queixa, observen la cua a l’inici de l’esbarjo, avisen un adult i expliquen el que han observat i la reparació."
+          }
+        }
+      },
+      {
+        "code": "L282",
+        "language": "es",
+        "questions": {
+          "l282-q1": {
+            "prompt": "¿En qué momento pide la carta que observen la fuente?",
+            "options": [
+              "Al terminar educación física por la tarde.",
+              "Cuando el patio ya está casi vacío.",
+              "Nada más empezar el recreo.",
+              "Después de repartir el siguiente periódico."
+            ],
+            "correct": "c",
+            "explanation": "Al empezar el recreo."
+          },
+          "l282-q2": {
+            "prompt": "¿Por qué la visita anterior de Omar no bastaba para valorar aquella queja?",
+            "options": [
+              "Había observado otro momento, con una afluencia diferente.",
+              "No sabía dónde estaba la fuente a la que aludía la carta.",
+              "Había visto la misma fila y había olvidado a todos los pequeños.",
+              "Su visita había ocurrido después de que llegara mantenimiento."
+            ],
+            "correct": "a",
+            "explanation": "Porque había usado la fuente al final, con poca gente, y la queja se refería al inicio."
+          },
+          "l282-q3": {
+            "prompt": "¿Qué significa «cedido su turno» en lo que Clara anota?",
+            "options": [
+              "Había perdido su botella mientras esperaba.",
+              "Había reservado la fuente para su grupo.",
+              "Había pedido a quien estaba delante que dejara pasar a su grupo.",
+              "Había dejado pasar a alguien antes de seguir."
+            ],
+            "correct": "d",
+            "explanation": "Que dejó pasar a otra persona antes de terminar de llenar su botella."
+          },
+          "l282-q4": {
+            "prompt": "¿Qué detalle impide describir a todos los mayores como si se comportaran igual?",
+            "options": [
+              "Todos habían terminado educación física a la misma hora.",
+              "Una de ellas dejó pasar a un pequeño antes de completar la botella.",
+              "Omar había usado la fuente sin esperar el día anterior.",
+              "El servicio de mantenimiento llegó al día siguiente."
+            ],
+            "correct": "b",
+            "explanation": "Una alumna retiró su botella a medio llenar para dejar beber a un niño."
+          },
+          "l282-q5": {
+            "prompt": "¿Qué alternativa se ofrece mientras esperan la reparación?",
+            "options": [
+              "Repartir las botellas que se habían quedado a medio llenar.",
+              "Llenar las botellas en el patio solo cuando terminara el recreo.",
+              "Permitir llenar botellas en la fuente del gimnasio.",
+              "Esperar al final sin ofrecer otro lugar para el agua."
+            ],
+            "correct": "c",
+            "explanation": "Una maestra abre el acceso a la fuente del gimnasio para llenar botellas."
+          },
+          "l282-q6": {
+            "prompt": "¿Por qué vuelven los redactores al inicio del recreo tras la reparación?",
+            "options": [
+              "Para ver si la espera había cambiado en el momento en que era un problema.",
+              "Para demostrar que ya nunca volverá a haber una fila.",
+              "Para averiguar qué niña había firmado la primera carta.",
+              "Para abrir por su cuenta la fuente que estaba dentro del gimnasio."
+            ],
+            "correct": "a",
+            "explanation": "Para observar cómo avanza la fila en un momento semejante al de la queja y la primera visita."
+          },
+          "l282-q7": {
+            "prompt": "¿Qué saben de la autoría de la carta al terminar la investigación?",
+            "options": [
+              "Saben que la escribió la alumna mayor que cedió el turno.",
+              "Saben que Sergi la dejó para avisar de la reparación.",
+              "Confirman que la escribió la niña que se marchó al banco.",
+              "La autoría sigue sin conocerse, aunque han podido investigar el problema."
+            ],
+            "correct": "d",
+            "explanation": "No han identificado a quien la escribió; la niña entrevistada no queda señalada como su autora."
+          },
+          "l282-q8": {
+            "prompt": "¿Qué añade la segunda visita a la noticia, además de que se ha reparado la fuente?",
+            "options": [
+              "Una explicación de quién escribió cada una de las cartas.",
+              "Una escena que muestra el efecto del arreglo en la espera.",
+              "Una explicación de por qué esa mañana habían llegado menos alumnos.",
+              "Una prueba de que los mayores dejaron de usar botellas."
+            ],
+            "correct": "b",
+            "explanation": "Una observación de cómo funcionan el llenado y la fila después del arreglo."
+          },
+          "l282-q9": {
+            "prompt": "¿Qué resumen mantiene la secuencia de la investigación?",
+            "options": [
+              "Omar descubre quién escribe y la noticia se centra en su nombre.",
+              "Una visita sin cola permite descartar la queja antes de hablar con Sergi.",
+              "Observar otro momento amplía la impresión inicial y permite contar el problema y su arreglo.",
+              "La reparación llega antes de la primera carta y hace innecesaria la visita."
+            ],
+            "correct": "c",
+            "explanation": "Su experiencia al final del recreo parecía quitar importancia a la queja. Al ir al inicio observa la espera y el poco caudal; la noticia cuenta esa situación, la alternativa temporal y la reparación."
+          }
+        }
+      },
+      {
+        "code": "L282",
+        "language": "ca",
+        "questions": {
+          "l282-q1": {
+            "prompt": "En quin moment demana la carta que observin la font?",
+            "options": [
+              "En acabar educació física a la tarda.",
+              "Quan el pati ja és gairebé buit.",
+              "Tot just començar l’esbarjo.",
+              "Després de repartir el diari següent."
+            ],
+            "correct": "c",
+            "explanation": "Quan comença l’esbarjo."
+          },
+          "l282-q2": {
+            "prompt": "Per què la visita anterior de l’Omar no bastava per valorar aquella queixa?",
+            "options": [
+              "Havia observat un altre moment, amb una afluència diferent.",
+              "No sabia on era la font a què es referia la carta.",
+              "Havia vist la mateixa cua i havia oblidat tots els petits.",
+              "La visita havia estat després que arribés manteniment."
+            ],
+            "correct": "a",
+            "explanation": "Perquè havia fet servir la font al final, amb poca gent, i la queixa es referia a l’inici."
+          },
+          "l282-q3": {
+            "prompt": "Què vol dir «cedit el torn» en el que anota la Clara?",
+            "options": [
+              "Havia perdut l’ampolla mentre esperava.",
+              "Havia reservat la font per al seu grup.",
+              "Havia demanat a qui era al davant que deixés passar el seu grup.",
+              "Havia deixat passar algú abans de continuar."
+            ],
+            "correct": "d",
+            "explanation": "Que va deixar passar una altra persona abans d’acabar d’omplir l’ampolla."
+          },
+          "l282-q4": {
+            "prompt": "Quin detall impedeix descriure tots els grans com si es comportessin igual?",
+            "options": [
+              "Tots havien acabat educació física a la mateixa hora.",
+              "Una d’elles va deixar passar un petit abans de completar l’ampolla.",
+              "L’Omar havia fet servir la font sense esperar el dia abans.",
+              "El servei de manteniment va arribar l’endemà."
+            ],
+            "correct": "b",
+            "explanation": "Una alumna va retirar l’ampolla mig plena per deixar beure un nen."
+          },
+          "l282-q5": {
+            "prompt": "Quina alternativa s’ofereix mentre esperen la reparació?",
+            "options": [
+              "Repartir les ampolles que havien quedat mig plenes.",
+              "Omplir les ampolles al pati només quan s’acabés l’esbarjo.",
+              "Permetre omplir ampolles a la font del gimnàs.",
+              "Esperar al final sense oferir un altre lloc per a l’aigua."
+            ],
+            "correct": "c",
+            "explanation": "Una mestra obre l’accés a la font del gimnàs per omplir ampolles."
+          },
+          "l282-q6": {
+            "prompt": "Per què tornen els redactors a l’inici de l’esbarjo després de la reparació?",
+            "options": [
+              "Per veure si l’espera havia canviat en el moment en què era un problema.",
+              "Per demostrar que ja no hi tornarà a haver mai una cua.",
+              "Per esbrinar quina nena havia signat la primera carta.",
+              "Per obrir pel seu compte la font que era dins del gimnàs."
+            ],
+            "correct": "a",
+            "explanation": "Per observar com avança la cua en un moment semblant al de la queixa i la primera visita."
+          },
+          "l282-q7": {
+            "prompt": "Què saben de l’autoria de la carta en acabar la investigació?",
+            "options": [
+              "Saben que la va escriure l’alumna gran que va cedir el torn.",
+              "Saben que en Sergi la va deixar per avisar de la reparació.",
+              "Confirmen que la va escriure la nena que va marxar al banc.",
+              "L’autoria continua sense conèixer-se, tot i que han pogut investigar el problema."
+            ],
+            "correct": "d",
+            "explanation": "No han identificat qui la va escriure; la nena entrevistada no queda assenyalada com l’autora."
+          },
+          "l282-q8": {
+            "prompt": "Què afegeix la segona visita a la notícia, a més que s’ha reparat la font?",
+            "options": [
+              "Una explicació de qui va escriure cadascuna de les cartes.",
+              "Una escena que mostra l’efecte de l’arranjament en l’espera.",
+              "Una explicació de per què aquell matí havien arribat menys alumnes.",
+              "Una prova que els grans van deixar de fer servir ampolles."
+            ],
+            "correct": "b",
+            "explanation": "Una observació de com funcionen l’ompliment i la cua després de l’arranjament."
+          },
+          "l282-q9": {
+            "prompt": "Quin resum manté la seqüència de la investigació?",
+            "options": [
+              "L’Omar descobreix qui escriu i la notícia se centra en el seu nom.",
+              "Una visita sense cua permet descartar la queixa abans de parlar amb en Sergi.",
+              "Observar un altre moment amplia la impressió inicial i permet explicar el problema i l’arranjament.",
+              "La reparació arriba abans de la primera carta i fa innecessària la visita."
+            ],
+            "correct": "c",
+            "explanation": "La seva experiència al final de l’esbarjo semblava treure importància a la queixa. En anar-hi a l’inici observa l’espera i el poc cabal; la notícia explica aquella situació, l’alternativa temporal i la reparació."
+          }
+        }
+      },
+      {
+        "code": "L282B",
+        "language": "es",
+        "questions": {
+          "l282b-q1": {
+            "prompt": "¿Qué momento deben observar según la carta y cuál conocía Omar?",
+            "options": [
+              "La carta habla del gimnasio y Omar solo conoce la pista.",
+              "Ambos se refieren al final, pero en días diferentes.",
+              "La carta habla del inicio; Omar recuerda el final.",
+              "La carta habla de la tarde; Omar recuerda la clase de educación física."
+            ],
+            "correct": "c",
+            "explanation": "La carta pide mirar al inicio del recreo; Omar había ido al final, cuando recogían las cuerdas."
+          },
+          "l282b-q2": {
+            "prompt": "¿Por qué pueden ser verdaderos el recuerdo de Omar y la espera que describe la carta?",
+            "options": [
+              "Una experiencia de poca espera al final puede coexistir con cola al inicio.",
+              "La carta confirma que Omar tuvo que esperar aunque no lo recordara.",
+              "La fuente funcionó igual de rápido para todas las personas de ambos días.",
+              "La reparación ya estaba hecha cuando llegó el grupo de educación física."
+            ],
+            "correct": "a",
+            "explanation": "Porque corresponden a momentos con distinta afluencia; beber rápido al final no describe necesariamente el inicio."
+          },
+          "l282b-q3": {
+            "prompt": "¿Qué significa «atribuía» al hablar de la intención de los mayores?",
+            "options": [
+              "Preguntaba a cada persona qué había querido hacer.",
+              "Anotaba el tiempo exacto que esperó cada grupo.",
+              "Citaba una respuesta que todos habían dado con sus nombres.",
+              "Asignaba a un grupo una intención como si fuera suya."
+            ],
+            "correct": "d",
+            "explanation": "Que asignaba o daba por propia de ellos aquella intención."
+          },
+          "l282b-q4": {
+            "prompt": "¿Qué permite explicar que cada botella detuviera bastante la fila?",
+            "options": [
+              "Que los pequeños preferían beber únicamente en el gimnasio.",
+              "Que el poco caudal hacía lento el llenado de las botellas.",
+              "Que los redactores paraban a todos para preguntarles su nombre.",
+              "Que todas las alumnas mayores se negaban a retirar sus botellas."
+            ],
+            "correct": "b",
+            "explanation": "Que el agua salía en un hilo y llenarla llevaba bastante tiempo."
+          },
+          "l282b-q5": {
+            "prompt": "¿Por qué retira Clara el nombre que había escrito junto a «autora»?",
+            "options": [
+              "La niña reconoce que la carta la escribió una compañera.",
+              "Omar ha encontrado otra firma debajo del primer papel.",
+              "Compartir la experiencia de espera no demuestra haber escrito la carta.",
+              "La niña niega haber esperado y Clara descubre que no la escuchó."
+            ],
+            "correct": "c",
+            "explanation": "Porque la niña cuenta una experiencia parecida, pero no ha dicho que escribiera la carta; esa coincidencia no identifica a quien la envió."
+          },
+          "l282b-q6": {
+            "prompt": "¿Qué hace Sergi y qué medida toma la maestra mientras tanto?",
+            "options": [
+              "Se avisa para reparar la fuente y se ofrece otra para las botellas.",
+              "Se cierra la fuente del gimnasio y se reparte el agua de las botellas.",
+              "Se repara la fuente antes de ofrecer agua en el gimnasio.",
+              "Se espera una semana antes de informar de lo observado."
+            ],
+            "correct": "a",
+            "explanation": "Sergi prueba el pulsador y avisa a mantenimiento; la maestra permite llenar botellas en la fuente del gimnasio."
+          },
+          "l282b-q7": {
+            "prompt": "¿Qué aportan a la noticia los dos comportamientos de las alumnas mayores del segundo párrafo?",
+            "options": [
+              "Demuestran que todos los mayores querían impedir que bebieran los pequeños.",
+              "Permiten saber quién había escrito la carta con más probabilidad.",
+              "Prueban que el estado de la fuente no influía en la espera.",
+              "Matizan la descripción del grupo con acciones concretas que no son iguales."
+            ],
+            "correct": "d",
+            "explanation": "Muestran respuestas diferentes en la misma fila: una cede sitio y otra necesita que le repitan una petición. Ayudan a evitar una única intención para todo el grupo."
+          },
+          "l282b-q8": {
+            "prompt": "¿Qué observan después del arreglo sin afirmar que desaparezca toda fila?",
+            "options": [
+              "Que ya nadie vuelve a usar botellas durante el recreo.",
+              "Que la espera funciona de otra manera aunque siga habiendo usuarios.",
+              "Que todos prefieren la fuente del gimnasio a la del patio.",
+              "Que solo llegan pequeños porque los mayores han cambiado de hora."
+            ],
+            "correct": "b",
+            "explanation": "Sigue llegando gente, pero las botellas se llenan más rápido y la fila avanza."
+          },
+          "l282b-q9": {
+            "prompt": "¿Qué efecto tiene terminar con la recogida de cuerdas, un detalle que también aparece al principio?",
+            "options": [
+              "Indica que al final vuelven a observar la fuente con el patio casi vacío.",
+              "Revela quién escribió las cartas al equipo de redacción.",
+              "Recupera un detalle para mostrar el cambio de momento en que salen.",
+              "Explica que el recreo se ha alargado para todo el alumnado."
+            ],
+            "correct": "c",
+            "explanation": "Relaciona las dos salidas al patio: antes Omar había ido al final; ahora ambos salen antes, al sonar el recreo."
+          },
+          "l282b-q10": {
+            "prompt": "¿Qué pueden concluir sobre la segunda carta y qué queda desconocido?",
+            "options": [
+              "Conocen el comentario recibido, pero sigue sin conocerse su autoría.",
+              "La segunda firma confirma el nombre que Clara había borrado.",
+              "Saben que todos los alumnos ya han tenido tiempo de jugar.",
+              "Pueden probar que quien escribió la primera carta estaba equivocado."
+            ],
+            "correct": "a",
+            "explanation": "Quien escribe dice que ha tenido tiempo de jugar, pero no saben si es la misma persona de la primera carta."
+          },
+          "l282b-q11": {
+            "prompt": "¿Qué resumen recoge lo que revisan los redactores?",
+            "options": [
+              "Los dos identifican al autor y descartan la espera de los pequeños.",
+              "Omar sustituye su recuerdo por otro y Clara mantiene el nombre supuesto.",
+              "La reparación permite demostrar que todas las alumnas mayores actuaban igual.",
+              "Amplían una experiencia limitada y retiran suposiciones al observar y escuchar."
+            ],
+            "correct": "d",
+            "explanation": "Omar amplía su experiencia al final del recreo al observar la cola inicial. Clara retira una autoría supuesta y una intención atribuida a todos al contrastarlas con las palabras de la niña y comportamientos distintos."
+          }
+        }
+      },
+      {
+        "code": "L282B",
+        "language": "ca",
+        "questions": {
+          "l282b-q1": {
+            "prompt": "Quin moment han d’observar segons la carta i quin coneixia l’Omar?",
+            "options": [
+              "La carta parla del gimnàs i l’Omar només coneix la pista.",
+              "Tots dos es refereixen al final, però en dies diferents.",
+              "La carta parla de l’inici; l’Omar recorda el final.",
+              "La carta parla de la tarda; l’Omar recorda la classe d’educació física."
+            ],
+            "correct": "c",
+            "explanation": "La carta demana mirar a l’inici de l’esbarjo; l’Omar hi havia anat al final, quan recollien les cordes."
+          },
+          "l282b-q2": {
+            "prompt": "Per què poden ser certs el record de l’Omar i l’espera que descriu la carta?",
+            "options": [
+              "Una experiència de poca espera al final pot coexistir amb cua a l’inici.",
+              "La carta confirma que l’Omar va haver d’esperar encara que no ho recordés.",
+              "La font va funcionar igual de pressa per a totes les persones dels dos dies.",
+              "La reparació ja era feta quan va arribar el grup d’educació física."
+            ],
+            "correct": "a",
+            "explanation": "Perquè corresponen a moments amb afluència diferent; beure de pressa al final no descriu necessàriament l’inici."
+          },
+          "l282b-q3": {
+            "prompt": "Què vol dir «atribuïa» quan es parla de la intenció dels grans?",
+            "options": [
+              "Preguntava a cada persona què havia volgut fer.",
+              "Anotava el temps exacte que va esperar cada grup.",
+              "Citava una resposta que tots havien donat amb els noms.",
+              "Assignava a un grup una intenció com si fos seva."
+            ],
+            "correct": "d",
+            "explanation": "Que els assignava o donava per pròpia aquella intenció."
+          },
+          "l282b-q4": {
+            "prompt": "Què permet explicar que cada ampolla aturés força la cua?",
+            "options": [
+              "Que els petits preferien beure únicament al gimnàs.",
+              "Que el poc cabal feia lent l’ompliment de les ampolles.",
+              "Que els redactors aturaven tothom per preguntar el nom.",
+              "Que totes les alumnes grans es negaven a retirar les ampolles."
+            ],
+            "correct": "b",
+            "explanation": "Que l’aigua sortia amb un rajolí i omplir-la costava força estona."
+          },
+          "l282b-q5": {
+            "prompt": "Per què retira la Clara el nom que havia escrit al costat d’«autora»?",
+            "options": [
+              "La nena reconeix que la carta la va escriure una companya.",
+              "L’Omar ha trobat una altra signatura sota el primer paper.",
+              "Compartir l’experiència d’espera no demostra haver escrit la carta.",
+              "La nena nega haver esperat i la Clara descobreix que no l’ha escoltada."
+            ],
+            "correct": "c",
+            "explanation": "Perquè la nena explica una experiència semblant, però no ha dit que escrivís la carta; aquella coincidència no identifica qui la va enviar."
+          },
+          "l282b-q6": {
+            "prompt": "Què fa en Sergi i quina mesura pren la mestra mentrestant?",
+            "options": [
+              "S’avisa per reparar la font i se n’ofereix una altra per a les ampolles.",
+              "Es tanca la font del gimnàs i es reparteix l’aigua de les ampolles.",
+              "Es repara la font abans d’oferir aigua al gimnàs.",
+              "S’espera una setmana abans d’informar del que s’ha observat."
+            ],
+            "correct": "a",
+            "explanation": "En Sergi prova el polsador i avisa manteniment; la mestra permet omplir ampolles a la font del gimnàs."
+          },
+          "l282b-q7": {
+            "prompt": "Què aporten a la notícia els dos comportaments de les alumnes grans del segon paràgraf?",
+            "options": [
+              "Demostren que tots els grans volien impedir que beguessin els petits.",
+              "Permeten saber qui havia escrit la carta amb més probabilitat.",
+              "Proven que l’estat de la font no influïa en l’espera.",
+              "Matisen la descripció del grup amb accions concretes que no són iguals."
+            ],
+            "correct": "d",
+            "explanation": "Mostren respostes diferents a la mateixa cua: una cedeix lloc i una altra necessita que li repeteixin una petició. Ajuden a evitar una única intenció per a tot el grup."
+          },
+          "l282b-q8": {
+            "prompt": "Què observen després de l’arranjament sense afirmar que desaparegui tota cua?",
+            "options": [
+              "Que ja ningú no torna a fer servir ampolles durant l’esbarjo.",
+              "Que l’espera funciona d’una altra manera encara que continuï havent-hi usuaris.",
+              "Que tothom prefereix la font del gimnàs a la del pati.",
+              "Que només arriben petits perquè els grans han canviat d’hora."
+            ],
+            "correct": "b",
+            "explanation": "Continua arribant gent, però les ampolles s’omplen més de pressa i la cua avança."
+          },
+          "l282b-q9": {
+            "prompt": "Quin efecte té acabar amb la recollida de cordes, un detall que també apareix al principi?",
+            "options": [
+              "Indica que al final tornen a observar la font amb el pati gairebé buit.",
+              "Revela qui va escriure les cartes a l’equip de redacció.",
+              "Recupera un detall per mostrar el canvi de moment en què surten.",
+              "Explica que l’esbarjo s’ha allargat per a tot l’alumnat."
+            ],
+            "correct": "c",
+            "explanation": "Relaciona les dues sortides al pati: abans l’Omar hi havia anat al final; ara tots dos surten abans, en sonar l’esbarjo."
+          },
+          "l282b-q10": {
+            "prompt": "Què poden concloure sobre la segona carta i què continua sent desconegut?",
+            "options": [
+              "Coneixen el comentari rebut, però continua sense conèixer-se’n l’autoria.",
+              "La segona signatura confirma el nom que la Clara havia esborrat.",
+              "Saben que tots els alumnes ja han tingut temps de jugar.",
+              "Poden provar que qui va escriure la primera carta s’equivocava."
+            ],
+            "correct": "a",
+            "explanation": "Qui escriu diu que ha tingut temps de jugar, però no saben si és la mateixa persona de la primera carta."
+          },
+          "l282b-q11": {
+            "prompt": "Quin resum recull el que revisen els redactors?",
+            "options": [
+              "Tots dos identifiquen l’autor i descarten l’espera dels petits.",
+              "L’Omar substitueix el seu record per un altre i la Clara manté el nom suposat.",
+              "La reparació permet demostrar que totes les alumnes grans actuaven igual.",
+              "Amplien una experiència limitada i retiren suposicions en observar i escoltar."
+            ],
+            "correct": "d",
+            "explanation": "L’Omar amplia la seva experiència al final de l’esbarjo observant la cua inicial. La Clara retira una autoria suposada i una intenció atribuïda a tothom en contrastar-les amb les paraules de la nena i comportaments diferents."
+          }
+        }
+      }
+    ]
   }
 ];
