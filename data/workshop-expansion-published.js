@@ -5746,5 +5746,1724 @@ export const workshopPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L301",
+    "edition": "v1.62.3",
+    "family": {
+      "id": "familia-l301",
+      "code": "L301",
+      "name": {
+        "es": "La reparación que esperó al jueves",
+        "ca": "La reparació que va esperar fins dijous"
+      },
+      "description": {
+        "ca": "Una història del Taller de la plaça, amb suport, versió de referència i ampliació.",
+        "es": "Una historia del Taller de la plaza, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L301A",
+        "L301",
+        "L301B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "la-reparacion-que-espero-al-jueves-a-es",
+        "code": "L301A",
+        "workId": "la-reparacion-que-espero-al-jueves-a",
+        "language": "es",
+        "familyId": "familia-l301",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "everyday",
+          "arts",
+          "community"
+        ],
+        "genre": "letter",
+        "title": "La reparación que esperó al jueves",
+        "summary": "Celia cuenta en una carta cómo consiguió recuperar a tiempo la funda de su caballete.",
+        "paragraphs": [
+          "Jueves por la noche. Querida Sara: mañana iremos juntas a dibujar al río. Ya tengo preparada la funda del caballete. Es la que uso todos los veranos. El lunes la llevé al taller de Irene porque tenía el asa rota. Sin ella debía sujetar la funda con las dos manos.",
+          "Irene esperaba una cinta ancha para hacer un asa nueva. El paquete debía llegar el miércoles. Me propuso recoger la funda ese día si llegaba el material. Mientras hablábamos, Hugo y Asha dibujaban las herramientas del taller para un mural.",
+          "El miércoles Irene me llamó: el paquete llegaría el jueves por la mañana. Podía devolverme la funda con el asa rota o esperar a repararla. Elegí esperar: el viernes necesitaré una mano libre para llevar mi carpeta de dibujos.",
+          "Hoy jueves, a las diez, Irene recibió la cinta y me llamó otra vez. Esta vez se comprometió a tener la funda lista a las seis. A esa hora fui a buscarla. Levanté el caballete por el asa reparada y lo llevé hasta la puerta. ¡Ya puedo llevar también la carpeta con mi mano libre! Hasta mañana. Celia."
+        ],
+        "questions": [
+          {
+            "id": "l301a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué parte de la funda estaba rota?",
+            "answer": "El asa.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "tenía el asa rota"
+              }
+            ]
+          },
+          {
+            "id": "l301a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Para qué esperaba Irene la cinta ancha?",
+            "answer": "Para hacer un asa nueva.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "esperaba una cinta ancha para hacer un asa nueva"
+              }
+            ]
+          },
+          {
+            "id": "l301a-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué eligió Celia cuando supo que el paquete llegaría el jueves?",
+            "answer": "Esperar a que repararan la funda.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Elegí esperar"
+              }
+            ]
+          },
+          {
+            "id": "l301a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «se comprometió» en esta carta?",
+            "answer": "Que aseguró que tendría la funda lista a una hora.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "se comprometió a tener la funda lista a las seis"
+              }
+            ]
+          },
+          {
+            "id": "l301a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué a Celia le convenía esperar hasta el jueves?",
+            "answer": "Porque salía el viernes y, con el asa reparada, podría llevar la carpeta en la otra mano.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "mañana iremos juntas a dibujar al río"
+              },
+              {
+                "paragraph": 3,
+                "text": "el viernes necesitaré una mano libre para llevar mi carpeta de dibujos"
+              }
+            ]
+          },
+          {
+            "id": "l301a-q6",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Cómo comprobó Celia el asa reparada?",
+            "answer": "Levantó el caballete por el asa y lo llevó hasta la puerta.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Levanté el caballete por el asa reparada y lo llevé hasta la puerta."
+              }
+            ]
+          },
+          {
+            "id": "l301a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Cuenta qué retrasó la reparación y cuándo pudo recogerla Celia.",
+            "answer": "La cinta llegó el jueves en vez del miércoles. Celia esperó y recogió la funda reparada el jueves a las seis.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "el paquete llegaría el jueves por la mañana"
+              },
+              {
+                "paragraph": 4,
+                "text": "A esa hora fui a buscarla."
+              }
+            ]
+          },
+          {
+            "id": "l301a-q8",
+            "type": "opinion",
+            "lines": 2,
+            "prompt": "Si escribieras a Sara, ¿qué le preguntarías sobre la salida a dibujar?",
+            "answer": "Respuesta personal con una pregunta relacionada con la salida."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "se comprometió",
+            "occurrence": 1,
+            "questionId": "l301a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l301-scene",
+            "src": "assets/readings/l301-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene muestra a Celia la nueva asa de una funda de caballete mientras Hugo observa junto a la mesa.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-reparacion-que-espero-al-jueves-a-ca",
+        "code": "L301A",
+        "workId": "la-reparacion-que-espero-al-jueves-a",
+        "language": "ca",
+        "familyId": "familia-l301",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "everyday",
+          "arts",
+          "community"
+        ],
+        "genre": "letter",
+        "title": "La reparació que va esperar fins dijous",
+        "summary": "La Celia explica en una carta com va aconseguir recuperar a temps la funda del cavallet.",
+        "paragraphs": [
+          "Dijous a la nit. Estimada Sara: demà anirem juntes a dibuixar al riu. Ja tinc preparada la funda del cavallet. És la que faig servir cada estiu. Dilluns la vaig portar al taller de la Irene perquè tenia la nansa trencada. Sense la nansa havia de subjectar la funda amb totes dues mans.",
+          "La Irene esperava una cinta ampla per fer una nansa nova. El paquet havia d’arribar dimecres. Em va proposar recollir la funda aquell dia si arribava el material. Mentre parlàvem, l’Hugo i l’Asha dibuixaven les eines del taller per a un mural.",
+          "Dimecres la Irene em va trucar: el paquet arribaria dijous al matí. Em podia tornar la funda amb la nansa trencada o esperar a reparar-la. Vaig triar esperar: divendres necessitaré una mà lliure per portar la carpeta de dibuixos.",
+          "Avui dijous, a les deu, la Irene ha rebut la cinta i m’ha tornat a trucar. Aquest cop s’ha compromès a tenir la funda a punt a les sis. A aquella hora l’he anat a buscar. He aixecat el cavallet per la nansa reparada i l’he portat fins a la porta. Ara també puc portar la carpeta amb la mà lliure! Fins demà. Celia."
+        ],
+        "questions": [
+          {
+            "id": "l301a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quina part de la funda estava trencada?",
+            "answer": "La nansa.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "tenia la nansa trencada"
+              }
+            ]
+          },
+          {
+            "id": "l301a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Per a què esperava la Irene la cinta ampla?",
+            "answer": "Per fer una nansa nova.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "esperava una cinta ampla per fer una nansa nova"
+              }
+            ]
+          },
+          {
+            "id": "l301a-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què va triar la Celia quan va saber que el paquet arribaria dijous?",
+            "answer": "Esperar que reparessin la funda.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Vaig triar esperar"
+              }
+            ]
+          },
+          {
+            "id": "l301a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «s’ha compromès» en aquesta carta?",
+            "answer": "Que ha assegurat que tindria la funda a punt a una hora.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "s’ha compromès a tenir la funda a punt a les sis"
+              }
+            ]
+          },
+          {
+            "id": "l301a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què a la Celia li anava bé esperar fins dijous?",
+            "answer": "Perquè sortia divendres i, amb la nansa reparada, podria portar la carpeta amb l’altra mà.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "demà anirem juntes a dibuixar al riu"
+              },
+              {
+                "paragraph": 3,
+                "text": "divendres necessitaré una mà lliure per portar la carpeta de dibuixos"
+              }
+            ]
+          },
+          {
+            "id": "l301a-q6",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Com va comprovar la Celia la nansa reparada?",
+            "answer": "Ha aixecat el cavallet per la nansa i l’ha portat fins a la porta.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "He aixecat el cavallet per la nansa reparada i l’he portat fins a la porta."
+              }
+            ]
+          },
+          {
+            "id": "l301a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Explica què va retardar la reparació i quan la va poder recollir la Celia.",
+            "answer": "La cinta ha arribat dijous en lloc de dimecres. La Celia ha esperat i ha recollit la funda reparada dijous a les sis.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "el paquet arribaria dijous al matí"
+              },
+              {
+                "paragraph": 4,
+                "text": "A aquella hora l’he anat a buscar."
+              }
+            ]
+          },
+          {
+            "id": "l301a-q8",
+            "type": "opinion",
+            "lines": 2,
+            "prompt": "Si escrivissis a la Sara, què li preguntaries sobre la sortida a dibuixar?",
+            "answer": "Resposta personal amb una pregunta relacionada amb la sortida."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "s’ha compromès",
+            "occurrence": 1,
+            "questionId": "l301a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l301-scene",
+            "src": "assets/readings/l301-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene ensenya a la Celia la nansa nova d’una funda de cavallet mentre l’Hugo observa al costat de la taula.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-reparacion-que-espero-al-jueves-es",
+        "code": "L301",
+        "workId": "la-reparacion-que-espero-al-jueves",
+        "language": "es",
+        "familyId": "familia-l301",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "everyday",
+          "arts",
+          "community"
+        ],
+        "genre": "letter",
+        "title": "La reparación que esperó al jueves",
+        "summary": "Una carta distingue lo que se propuso el lunes de lo que se pudo asegurar el jueves.",
+        "paragraphs": [
+          "Jueves por la noche. Querida Sara: ya tengo lista la funda del caballete para nuestra salida al río de mañana viernes. Te cuento el recorrido que ha hecho esta semana. El lunes la llevé al taller de Irene, en la plaza. El asa se había rasgado y debía llevar la funda cogida por abajo, con ambas manos.",
+          "Irene esperaba un paquete de cinta ancha para hacer un asa nueva. Según el aviso de la tienda, llegaría el miércoles. «Podrías recogerla ese día, si tengo la cinta por la mañana», me dijo. Hugo y Asha, que dibujaban herramientas para un mural, dejaron un hueco en la mesa para que extendiera mi funda.",
+          "El miércoles me llamó Irene: el reparto se había retrasado hasta el jueves por la mañana. Me ofreció devolverme la funda tal como estaba. Podría usarla sosteniéndola por abajo, pero entonces tendría ocupadas las dos manos. También podía esperar. «Con el caballete y la carpeta, me faltaría otra mano», le contesté. Elegí esperar.",
+          "Irene quedó en llamarme cuando recibiera la cinta. La reparación seguía pendiente. Aquella tarde preparé los pinceles y las láminas que llevaremos. Dejé junto a la puerta la carpeta, que tiene una pequeña asa propia. Si podía llevar la funda con una mano, la otra me serviría para la carpeta.",
+          "Hoy, a las diez, llegó su llamada: la cinta ya estaba sobre la mesa. Irene se comprometió a acabar el asa para las seis. Cuando fui a buscarla a esa hora, había terminado. Metí el caballete en la funda, la levanté por el asa y caminé hasta la puerta. Mañana llevaré también la carpeta. ¡Nos vemos junto al puente! Celia."
+        ],
+        "questions": [
+          {
+            "id": "l301-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Para cuándo necesitaba Celia la funda?",
+            "answer": "Para la salida al río del viernes.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "para nuestra salida al río de mañana viernes"
+              }
+            ]
+          },
+          {
+            "id": "l301-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿De qué dependía recoger la funda el miércoles?",
+            "answer": "De que Irene recibiera la cinta por la mañana.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "si tengo la cinta por la mañana"
+              }
+            ]
+          },
+          {
+            "id": "l301-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué alternativa le ofreció Irene al anunciar el retraso?",
+            "answer": "Devolverle la funda tal como estaba.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Me ofreció devolverme la funda tal como estaba."
+              }
+            ]
+          },
+          {
+            "id": "l301-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué no le convenía a Celia esa alternativa?",
+            "answer": "Porque tendría las dos manos ocupadas con la funda y no podría llevar la carpeta de esa forma.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "tendría ocupadas las dos manos"
+              },
+              {
+                "paragraph": 4,
+                "text": "la otra me serviría para la carpeta"
+              }
+            ]
+          },
+          {
+            "id": "l301-q5",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa que la reparación estaba «pendiente»?",
+            "answer": "Que todavía faltaba hacerla.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La reparación seguía pendiente."
+              }
+            ]
+          },
+          {
+            "id": "l301-q6",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué aseguró Irene cuando tuvo la cinta?",
+            "answer": "Que acabaría el asa para las seis.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "se comprometió a acabar el asa para las seis"
+              }
+            ]
+          },
+          {
+            "id": "l301-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué diferencia hay entre la conversación del lunes y la llamada del jueves?",
+            "answer": "El lunes la fecha dependía de un paquete que aún no tenía. El jueves tenía el material y dio una hora de entrega.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "si tengo la cinta por la mañana"
+              },
+              {
+                "paragraph": 5,
+                "text": "la cinta ya estaba sobre la mesa"
+              }
+            ]
+          },
+          {
+            "id": "l301-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué partes del texto permiten saber quién escribe y a quién?",
+            "answer": "El saludo «Querida Sara» y la firma «Celia».",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Querida Sara"
+              },
+              {
+                "paragraph": 5,
+                "text": "¡Nos vemos junto al puente! Celia."
+              }
+            ]
+          },
+          {
+            "id": "l301-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume el problema, la decisión de Celia y el resultado.",
+            "answer": "El material para reparar el asa se retrasó. Celia eligió esperar para tener una mano libre en la salida. Recogió la funda reparada el jueves a las seis.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Elegí esperar."
+              },
+              {
+                "paragraph": 5,
+                "text": "Cuando fui a buscarla a esa hora, había terminado."
+              }
+            ]
+          },
+          {
+            "id": "l301-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué información pedirías si necesitas un objeto reparado para un día concreto? Explica para qué te serviría.",
+            "answer": "Respuesta personal razonada: material, fecha posible, confirmación o alternativas, por ejemplo."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "pendiente",
+            "occurrence": 1,
+            "questionId": "l301-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l301-scene",
+            "src": "assets/readings/l301-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene muestra a Celia la nueva asa de una funda de caballete mientras Hugo observa junto a la mesa.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-reparacion-que-espero-al-jueves-ca",
+        "code": "L301",
+        "workId": "la-reparacion-que-espero-al-jueves",
+        "language": "ca",
+        "familyId": "familia-l301",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "everyday",
+          "arts",
+          "community"
+        ],
+        "genre": "letter",
+        "title": "La reparació que va esperar fins dijous",
+        "summary": "Una carta distingeix què es va proposar dilluns de què es va poder assegurar dijous.",
+        "paragraphs": [
+          "Dijous a la nit. Estimada Sara: ja tinc a punt la funda del cavallet per a la nostra sortida al riu de demà divendres. T’explico el recorregut que ha fet aquesta setmana. Dilluns la vaig portar al taller de la Irene, a la plaça. La nansa s’havia esquinçat i havia de portar la funda agafada per sota, amb totes dues mans.",
+          "La Irene esperava un paquet de cinta ampla per fer una nansa nova. Segons l’avís de la botiga, arribaria dimecres. «La podries recollir aquell dia, si tinc la cinta al matí», em va dir. L’Hugo i l’Asha, que dibuixaven eines per a un mural, van deixar un espai a la taula perquè hi estengués la funda.",
+          "Dimecres la Irene em va trucar: el repartiment s’havia endarrerit fins dijous al matí. Em va oferir tornar-me la funda tal com estava. La podria fer servir aguantant-la per sota, però llavors tindria ocupades totes dues mans. També podia esperar. «Amb el cavallet i la carpeta, em faltaria una altra mà», li vaig contestar. Vaig triar esperar.",
+          "La Irene va quedar que em trucaria quan rebés la cinta. La reparació continuava pendent. Aquella tarda vaig preparar els pinzells i les làmines que portarem. Vaig deixar al costat de la porta la carpeta, que té una nansa petita pròpia. Si podia portar la funda amb una mà, l’altra em serviria per a la carpeta.",
+          "Avui, a les deu, ha arribat la seva trucada: la cinta ja era damunt la taula. La Irene s’ha compromès a acabar la nansa per a les sis. Quan l’he anat a buscar a aquella hora, havia acabat. He ficat el cavallet a la funda, l’he aixecada per la nansa i he caminat fins a la porta. Demà també portaré la carpeta. Ens veiem al costat del pont! Celia."
+        ],
+        "questions": [
+          {
+            "id": "l301-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Per a quan necessitava la Celia la funda?",
+            "answer": "Per a la sortida al riu de divendres.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "per a la nostra sortida al riu de demà divendres"
+              }
+            ]
+          },
+          {
+            "id": "l301-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "De què depenia recollir la funda dimecres?",
+            "answer": "Que la Irene rebés la cinta al matí.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "si tinc la cinta al matí"
+              }
+            ]
+          },
+          {
+            "id": "l301-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quina alternativa li va oferir la Irene en anunciar el retard?",
+            "answer": "Tornar-li la funda tal com estava.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Em va oferir tornar-me la funda tal com estava."
+              }
+            ]
+          },
+          {
+            "id": "l301-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què no li anava bé a la Celia aquella alternativa?",
+            "answer": "Perquè tindria totes dues mans ocupades amb la funda i no podria portar la carpeta d’aquella manera.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "tindria ocupades totes dues mans"
+              },
+              {
+                "paragraph": 4,
+                "text": "l’altra em serviria per a la carpeta"
+              }
+            ]
+          },
+          {
+            "id": "l301-q5",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir que la reparació estava «pendent»?",
+            "answer": "Que encara faltava fer-la.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La reparació continuava pendent."
+              }
+            ]
+          },
+          {
+            "id": "l301-q6",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què va assegurar la Irene quan va tenir la cinta?",
+            "answer": "Que acabaria la nansa per a les sis.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "s’ha compromès a acabar la nansa per a les sis"
+              }
+            ]
+          },
+          {
+            "id": "l301-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina diferència hi ha entre la conversa de dilluns i la trucada de dijous?",
+            "answer": "Dilluns la data depenia d’un paquet que encara no tenia. Dijous tenia el material i va donar una hora de lliurament.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "si tinc la cinta al matí"
+              },
+              {
+                "paragraph": 5,
+                "text": "la cinta ja era damunt la taula"
+              }
+            ]
+          },
+          {
+            "id": "l301-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quines parts del text permeten saber qui escriu i a qui?",
+            "answer": "La salutació «Estimada Sara» i la signatura «Celia».",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Estimada Sara"
+              },
+              {
+                "paragraph": 5,
+                "text": "Ens veiem al costat del pont! Celia."
+              }
+            ]
+          },
+          {
+            "id": "l301-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix el problema, la decisió de la Celia i el resultat.",
+            "answer": "El material per reparar la nansa es va endarrerir. La Celia va triar esperar per tenir una mà lliure durant la sortida. Va recollir la funda reparada dijous a les sis.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Vaig triar esperar."
+              },
+              {
+                "paragraph": 5,
+                "text": "Quan l’he anat a buscar a aquella hora, havia acabat."
+              }
+            ]
+          },
+          {
+            "id": "l301-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quina informació demanaries si necessites un objecte reparat per a un dia concret? Explica per a què et serviria.",
+            "answer": "Resposta personal raonada: material, data possible, confirmació o alternatives, per exemple."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "pendent",
+            "occurrence": 1,
+            "questionId": "l301-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l301-scene",
+            "src": "assets/readings/l301-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene ensenya a la Celia la nansa nova d’una funda de cavallet mentre l’Hugo observa al costat de la taula.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-reparacion-que-espero-al-jueves-b-es",
+        "code": "L301B",
+        "workId": "la-reparacion-que-espero-al-jueves-b",
+        "language": "es",
+        "familyId": "familia-l301",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "everyday",
+          "arts",
+          "community"
+        ],
+        "genre": "letter",
+        "title": "La reparación que esperó al jueves",
+        "summary": "Celia reconstruye por carta una semana de propuestas, cambios y una entrega confirmada.",
+        "paragraphs": [
+          "Jueves por la noche. Querida Sara: mañana viernes podremos ir a dibujar al río con el caballete y la carpeta grande. Acabo de recuperar la funda. Te escribo porque, cuando hablamos el martes, todavía te dije que quizá tendríamos que llevarlo todo entre las dos. Durante la semana han cambiado varias cosas.",
+          "El lunes llevé la funda al taller de Irene, junto a la plaza. El asa estaba rasgada. La tela que rodea el caballete seguía entera, de modo que podía transportarlo sujetándolo por abajo con ambas manos. Eso me impedía llevar a la vez la carpeta, aunque esta tuviera su propia asa.",
+          "Irene esperaba una cinta ancha para sustituir el asa. La tienda había anunciado el reparto para el miércoles. «Si la recibo por la mañana, podrías recoger la funda por la tarde», me propuso. Hugo y Asha estaban dibujando herramientas para un mural y apartaron sus papeles para dejarme extender la funda. Asha dibujó también su silueta alargada. Hugo me preguntó si pintaríamos árboles o el puente. Le enseñé una lámina del año anterior y le dije que esta vez quería probar con los reflejos del agua.",
+          "El miércoles recibí otra noticia. El reparto pasaba al jueves por la mañana. Irene me ofreció devolverme la funda sin reparar si la necesitaba antes. Pensé en pedirte ayuda para cargarla, pero tú ya llevarías tu caja de pinturas. Preferí esperar al jueves. «Avísame cuando tengas la cinta», le pedí. Quedamos en eso; todavía no teníamos una hora de recogida.",
+          "Por la tarde preparé los pinceles y las láminas. El viaje seguía previsto para el viernes, pero el modo de llevarlo todo quedaba en suspenso. Dejé la carpeta junto a la puerta y busqué una bolsa por si finalmente necesitábamos repartir los materiales de otra manera.",
+          "Hoy jueves, a las diez, Irene me llamó con la cinta ya sobre la mesa. Me aseguró que tendría el asa terminada a las seis. Esta vez apunté la hora para ir a buscarla. A las seis encontré la funda reparada. Metí dentro el caballete, levanté el conjunto por el asa y caminé unos pasos. Con la otra mano pude coger la carpeta. Te esperaré junto al puente con mis dos bultos. Hasta mañana. Celia."
+        ],
+        "questions": [
+          {
+            "id": "l301b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué le había dicho Celia a Sara el martes?",
+            "answer": "Que quizá tendrían que llevarlo todo entre las dos.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "quizá tendríamos que llevarlo todo entre las dos"
+              }
+            ]
+          },
+          {
+            "id": "l301b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué parte estaba dañada y qué parte seguía entera?",
+            "answer": "El asa estaba rasgada; la tela que rodeaba el caballete seguía entera.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El asa estaba rasgada. La tela que rodea el caballete seguía entera"
+              }
+            ]
+          },
+          {
+            "id": "l301b-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué condición incluyó Irene en su primera propuesta?",
+            "answer": "Recibir la cinta el miércoles por la mañana para poder entregar la funda por la tarde.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Si la recibo por la mañana, podrías recoger la funda por la tarde"
+              }
+            ]
+          },
+          {
+            "id": "l301b-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué la ayuda de Sara no resolvía cómodamente el transporte?",
+            "answer": "Porque Sara ya llevaría su propia caja de pinturas, además de los objetos de Celia que pudieran repartirse.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "pero tú ya llevarías tu caja de pinturas"
+              }
+            ]
+          },
+          {
+            "id": "l301b-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué habían acordado al terminar la llamada del miércoles?",
+            "answer": "Que Irene avisaría cuando tuviera la cinta.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Avísame cuando tengas la cinta"
+              }
+            ]
+          },
+          {
+            "id": "l301b-q6",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué quiere decir «en suspenso» en esta carta?",
+            "answer": "Que la manera de transportar los materiales todavía estaba sin resolver, esperando la noticia.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "el modo de llevarlo todo quedaba en suspenso"
+              }
+            ]
+          },
+          {
+            "id": "l301b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué busca Celia una bolsa si ha elegido esperar?",
+            "answer": "Porque espera la reparación, pero prepara otra forma de repartir los materiales por si no puede contar con ella.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "busqué una bolsa por si finalmente necesitábamos repartir los materiales de otra manera"
+              }
+            ]
+          },
+          {
+            "id": "l301b-q8",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué dato nuevo pudo dar Irene el jueves, además de confirmar la llegada de la cinta?",
+            "answer": "La hora a la que estaría acabada la funda: las seis.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Me aseguró que tendría el asa terminada a las seis."
+              }
+            ]
+          },
+          {
+            "id": "l301b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Cómo demuestra el final que se ha resuelto la dificultad de transporte?",
+            "answer": "Celia lleva el caballete por el asa reparada y coge la carpeta con la otra mano.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "levanté el conjunto por el asa y caminé unos pasos. Con la otra mano pude coger la carpeta"
+              }
+            ]
+          },
+          {
+            "id": "l301b-q10",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Por qué la carta empieza mencionando la conversación del martes?",
+            "answer": "Para que Sara relacione la noticia actual con la información incierta que había recibido antes.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Te escribo porque, cuando hablamos el martes, todavía te dije que quizá tendríamos que llevarlo todo entre las dos."
+              }
+            ]
+          },
+          {
+            "id": "l301b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resume en tres pasos cómo se pasa de una propuesta a una reparación terminada.",
+            "answer": "El lunes Irene propone una entrega condicionada a la cinta. Tras el retraso, el jueves recibe el material y asegura una hora. Celia recoge y prueba la funda terminada a las seis.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Si la recibo por la mañana, podrías recoger la funda por la tarde"
+              },
+              {
+                "paragraph": 6,
+                "text": "A las seis encontré la funda reparada."
+              }
+            ]
+          },
+          {
+            "id": "l301b-q12",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Te parece útil preparar otra posibilidad mientras esperas una confirmación? Argumenta con una situación concreta.",
+            "answer": "Respuesta personal que relaciona una decisión con sus posibles consecuencias."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "en suspenso",
+            "occurrence": 1,
+            "questionId": "l301b-q6"
+          }
+        ],
+        "images": [
+          {
+            "id": "l301-scene",
+            "src": "assets/readings/l301-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene muestra a Celia la nueva asa de una funda de caballete mientras Hugo observa junto a la mesa.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "la-reparacion-que-espero-al-jueves-b-ca",
+        "code": "L301B",
+        "workId": "la-reparacion-que-espero-al-jueves-b",
+        "language": "ca",
+        "familyId": "familia-l301",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "everyday",
+          "arts",
+          "community"
+        ],
+        "genre": "letter",
+        "title": "La reparació que va esperar fins dijous",
+        "summary": "La Celia reconstrueix per carta una setmana de propostes, canvis i un lliurament confirmat.",
+        "paragraphs": [
+          "Dijous a la nit. Estimada Sara: demà divendres podrem anar a dibuixar al riu amb el cavallet i la carpeta gran. Acabo de recuperar la funda. T’escric perquè, quan vam parlar dimarts, encara et vaig dir que potser ho hauríem de portar tot entre totes dues. Durant la setmana han canviat unes quantes coses.",
+          "Dilluns vaig portar la funda al taller de la Irene, al costat de la plaça. La nansa estava esquinçada. La tela que envolta el cavallet continuava sencera, de manera que el podia transportar agafant-lo per sota amb totes dues mans. Això m’impedia portar alhora la carpeta, encara que tingués una nansa pròpia.",
+          "La Irene esperava una cinta ampla per substituir la nansa. La botiga havia anunciat el repartiment per a dimecres. «Si la rebo al matí, podries recollir la funda a la tarda», em va proposar. L’Hugo i l’Asha dibuixaven eines per a un mural i van apartar els papers per deixar-me estendre la funda. L’Asha també en va dibuixar la silueta allargada. L’Hugo em va preguntar si pintaríem arbres o el pont. Li vaig ensenyar una làmina de l’any anterior i li vaig dir que aquest cop volia provar amb els reflexos de l’aigua.",
+          "Dimecres vaig rebre una altra notícia. El repartiment passava a dijous al matí. La Irene em va oferir tornar-me la funda sense reparar si la necessitava abans. Vaig pensar a demanar-te ajuda per carregar-la, però tu ja portaries la capsa de pintures. Vaig preferir esperar fins dijous. «Avisa’m quan tinguis la cinta», li vaig demanar. Vam quedar en això; encara no teníem una hora de recollida.",
+          "A la tarda vaig preparar els pinzells i les làmines. La sortida continuava prevista per a divendres, però la manera de portar-ho tot quedava en suspens. Vaig deixar la carpeta al costat de la porta i vaig buscar una bossa per si finalment necessitàvem repartir els materials d’una altra manera.",
+          "Avui dijous, a les deu, la Irene m’ha trucat amb la cinta ja damunt la taula. M’ha assegurat que tindria la nansa acabada a les sis. Aquest cop he apuntat l’hora per anar-la a buscar. A les sis he trobat la funda reparada. Hi he ficat el cavallet, he aixecat el conjunt per la nansa i he caminat unes passes. Amb l’altra mà he pogut agafar la carpeta. T’esperaré al costat del pont amb els meus dos paquets. Fins demà. Celia."
+        ],
+        "questions": [
+          {
+            "id": "l301b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què havia dit la Celia a la Sara dimarts?",
+            "answer": "Que potser ho haurien de portar tot entre totes dues.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "potser ho hauríem de portar tot entre totes dues"
+              }
+            ]
+          },
+          {
+            "id": "l301b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina part estava malmesa i quina continuava sencera?",
+            "answer": "La nansa estava esquinçada; la tela que envoltava el cavallet continuava sencera.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La nansa estava esquinçada. La tela que envolta el cavallet continuava sencera"
+              }
+            ]
+          },
+          {
+            "id": "l301b-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina condició va incloure la Irene en la primera proposta?",
+            "answer": "Rebre la cinta dimecres al matí per poder lliurar la funda a la tarda.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Si la rebo al matí, podries recollir la funda a la tarda"
+              }
+            ]
+          },
+          {
+            "id": "l301b-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què l’ajuda de la Sara no resolia còmodament el transport?",
+            "answer": "Perquè la Sara ja portaria la seva capsa de pintures, a més dels objectes de la Celia que es poguessin repartir.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "però tu ja portaries la capsa de pintures"
+              }
+            ]
+          },
+          {
+            "id": "l301b-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què havien acordat en acabar la trucada de dimecres?",
+            "answer": "Que la Irene avisaria quan tingués la cinta.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Avisa’m quan tinguis la cinta"
+              }
+            ]
+          },
+          {
+            "id": "l301b-q6",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir «en suspens» en aquesta carta?",
+            "answer": "Que la manera de transportar els materials encara estava sense resoldre, esperant la notícia.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "la manera de portar-ho tot quedava en suspens"
+              }
+            ]
+          },
+          {
+            "id": "l301b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la Celia busca una bossa si ha triat esperar?",
+            "answer": "Perquè espera la reparació, però prepara una altra manera de repartir els materials per si no hi pot comptar.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "vaig buscar una bossa per si finalment necessitàvem repartir els materials d’una altra manera"
+              }
+            ]
+          },
+          {
+            "id": "l301b-q8",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina dada nova va poder donar la Irene dijous, a més de confirmar l’arribada de la cinta?",
+            "answer": "L’hora a la qual estaria acabada la funda: les sis.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "M’ha assegurat que tindria la nansa acabada a les sis."
+              }
+            ]
+          },
+          {
+            "id": "l301b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Com demostra el final que s’ha resolt la dificultat de transport?",
+            "answer": "La Celia porta el cavallet per la nansa reparada i agafa la carpeta amb l’altra mà.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "he aixecat el conjunt per la nansa i he caminat unes passes. Amb l’altra mà he pogut agafar la carpeta"
+              }
+            ]
+          },
+          {
+            "id": "l301b-q10",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Per què la carta comença esmentant la conversa de dimarts?",
+            "answer": "Perquè la Sara relacioni la notícia actual amb la informació incerta que havia rebut abans.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "T’escric perquè, quan vam parlar dimarts, encara et vaig dir que potser ho hauríem de portar tot entre totes dues."
+              }
+            ]
+          },
+          {
+            "id": "l301b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resumeix en tres passos com es passa d’una proposta a una reparació acabada.",
+            "answer": "Dilluns la Irene proposa un lliurament condicionat a la cinta. Després del retard, dijous rep el material i assegura una hora. La Celia recull i prova la funda acabada a les sis.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Si la rebo al matí, podries recollir la funda a la tarda"
+              },
+              {
+                "paragraph": 6,
+                "text": "A les sis he trobat la funda reparada."
+              }
+            ]
+          },
+          {
+            "id": "l301b-q12",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Et sembla útil preparar una altra possibilitat mentre esperes una confirmació? Argumenta-ho amb una situació concreta.",
+            "answer": "Resposta personal que relaciona una decisió amb les possibles conseqüències."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "en suspens",
+            "occurrence": 1,
+            "questionId": "l301b-q6"
+          }
+        ],
+        "images": [
+          {
+            "id": "l301-scene",
+            "src": "assets/readings/l301-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene ensenya a la Celia la nansa nova d’una funda de cavallet mentre l’Hugo observa al costat de la taula.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 4
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L301A",
+        "language": "es",
+        "questions": {
+          "l301a-q1": {
+            "prompt": "¿Qué parte de la funda estaba rota?",
+            "options": [
+              "El fondo de la funda.",
+              "El asa de la funda.",
+              "La cinta del paquete.",
+              "La tapa de la carpeta."
+            ],
+            "correct": "b",
+            "explanation": "El asa."
+          },
+          "l301a-q2": {
+            "prompt": "¿Para qué esperaba Irene la cinta ancha?",
+            "options": [
+              "Para cerrar la carpeta de dibujos.",
+              "Para colgar el mural del taller.",
+              "Para envolver el paquete recibido.",
+              "Para hacer una nueva asa."
+            ],
+            "correct": "d",
+            "explanation": "Para hacer un asa nueva."
+          },
+          "l301a-q3": {
+            "prompt": "¿Qué eligió Celia cuando supo que el paquete llegaría el jueves?",
+            "options": [
+              "Esperar a tener la funda reparada.",
+              "Recoger la funda rota el miércoles.",
+              "Salir al río sin el caballete.",
+              "Recoger la funda reparada el miércoles."
+            ],
+            "correct": "a",
+            "explanation": "Esperar a que repararan la funda."
+          },
+          "l301a-q4": {
+            "prompt": "¿Qué significa «se comprometió» en esta carta?",
+            "options": [
+              "Preguntó cuándo llegaría el paquete.",
+              "Propuso mirar el asa el lunes.",
+              "Aseguró que estaría lista a las seis.",
+              "Contó que la cinta seguía de camino."
+            ],
+            "correct": "c",
+            "explanation": "Que aseguró que tendría la funda lista a una hora."
+          },
+          "l301a-q5": {
+            "prompt": "¿Por qué a Celia le convenía esperar hasta el jueves?",
+            "options": [
+              "Porque necesitaba usar el caballete el miércoles.",
+              "Porque así tendría una mano libre el viernes.",
+              "Porque Sara recogía el paquete el jueves.",
+              "Porque Hugo llevaría la carpeta al río."
+            ],
+            "correct": "b",
+            "explanation": "Porque salía el viernes y, con el asa reparada, podría llevar la carpeta en la otra mano."
+          },
+          "l301a-q6": {
+            "prompt": "¿Cómo comprobó Celia el asa reparada?",
+            "options": [
+              "Colgó la carpeta en la puerta.",
+              "Abrió el paquete de cinta.",
+              "Dibujó el asa en el mural.",
+              "Llevó el caballete cogido del asa."
+            ],
+            "correct": "d",
+            "explanation": "Levantó el caballete por el asa y lo llevó hasta la puerta."
+          }
+        }
+      },
+      {
+        "code": "L301A",
+        "language": "ca",
+        "questions": {
+          "l301a-q1": {
+            "prompt": "Quina part de la funda estava trencada?",
+            "options": [
+              "El fons de la funda.",
+              "La nansa de la funda.",
+              "La cinta del paquet.",
+              "La tapa de la carpeta."
+            ],
+            "correct": "b",
+            "explanation": "La nansa."
+          },
+          "l301a-q2": {
+            "prompt": "Per a què esperava la Irene la cinta ampla?",
+            "options": [
+              "Per tancar la carpeta de dibuixos.",
+              "Per penjar el mural del taller.",
+              "Per embolicar el paquet rebut.",
+              "Per fer una nansa nova."
+            ],
+            "correct": "d",
+            "explanation": "Per fer una nansa nova."
+          },
+          "l301a-q3": {
+            "prompt": "Què va triar la Celia quan va saber que el paquet arribaria dijous?",
+            "options": [
+              "Esperar a tenir la funda reparada.",
+              "Recollir la funda trencada dimecres.",
+              "Sortir al riu sense el cavallet.",
+              "Recollir la funda reparada dimecres."
+            ],
+            "correct": "a",
+            "explanation": "Esperar que reparessin la funda."
+          },
+          "l301a-q4": {
+            "prompt": "Què vol dir «s’ha compromès» en aquesta carta?",
+            "options": [
+              "Ha preguntat quan arribaria el paquet.",
+              "Ha proposat mirar la nansa dilluns.",
+              "Ha assegurat que estaria a punt a les sis.",
+              "Ha explicat que la cinta continuava de camí."
+            ],
+            "correct": "c",
+            "explanation": "Que ha assegurat que tindria la funda a punt a una hora."
+          },
+          "l301a-q5": {
+            "prompt": "Per què a la Celia li anava bé esperar fins dijous?",
+            "options": [
+              "Perquè necessitava fer servir el cavallet dimecres.",
+              "Perquè així tindria una mà lliure divendres.",
+              "Perquè la Sara recollia el paquet dijous.",
+              "Perquè l’Hugo portaria la carpeta al riu."
+            ],
+            "correct": "b",
+            "explanation": "Perquè sortia divendres i, amb la nansa reparada, podria portar la carpeta amb l’altra mà."
+          },
+          "l301a-q6": {
+            "prompt": "Com va comprovar la Celia la nansa reparada?",
+            "options": [
+              "Ha penjat la carpeta a la porta.",
+              "Ha obert el paquet de cinta.",
+              "Ha dibuixat la nansa al mural.",
+              "Ha portat el cavallet agafat per la nansa."
+            ],
+            "correct": "d",
+            "explanation": "Ha aixecat el cavallet per la nansa i l’ha portat fins a la porta."
+          }
+        }
+      },
+      {
+        "code": "L301",
+        "language": "es",
+        "questions": {
+          "l301-q1": {
+            "prompt": "¿Para cuándo necesitaba Celia la funda?",
+            "options": [
+              "Para llevarla al taller el lunes.",
+              "Para recoger la cinta el miércoles.",
+              "Para salir a dibujar el viernes.",
+              "Para pintar el mural el jueves."
+            ],
+            "correct": "c",
+            "explanation": "Para la salida al río del viernes."
+          },
+          "l301-q2": {
+            "prompt": "¿De qué dependía recoger la funda el miércoles?",
+            "options": [
+              "De que la cinta llegara por la mañana.",
+              "De que el mural dejara libre la mesa.",
+              "De que Sara recogiera el caballete.",
+              "De que la carpeta tuviera otra asa."
+            ],
+            "correct": "a",
+            "explanation": "De que Irene recibiera la cinta por la mañana."
+          },
+          "l301-q3": {
+            "prompt": "¿Qué alternativa le ofreció Irene al anunciar el retraso?",
+            "options": [
+              "Devolverle ya la funda reparada.",
+              "Ponerle el asa de su carpeta.",
+              "Cambiar el día de la salida.",
+              "Devolverle la funda sin reparar."
+            ],
+            "correct": "d",
+            "explanation": "Devolverle la funda tal como estaba."
+          },
+          "l301-q4": {
+            "prompt": "¿Por qué no le convenía a Celia esa alternativa?",
+            "options": [
+              "Porque le impediría guardar las láminas el jueves.",
+              "Porque le faltaría una mano para la carpeta.",
+              "Porque tendría que dejar el caballete en el taller.",
+              "Porque Sara necesitaría utilizar esa misma funda."
+            ],
+            "correct": "b",
+            "explanation": "Porque tendría las dos manos ocupadas con la funda y no podría llevar la carpeta de esa forma."
+          },
+          "l301-q5": {
+            "prompt": "¿Qué significa que la reparación estaba «pendiente»?",
+            "options": [
+              "Que ya se podía recoger.",
+              "Que debía hacerse de nuevo.",
+              "Que aún faltaba realizarla.",
+              "Que Celia había renunciado a ella."
+            ],
+            "correct": "c",
+            "explanation": "Que todavía faltaba hacerla."
+          },
+          "l301-q6": {
+            "prompt": "¿Qué aseguró Irene cuando tuvo la cinta?",
+            "options": [
+              "Que el asa estaría terminada a las seis.",
+              "Que la cinta llegaría a las seis.",
+              "Que Celia podría salir al río el jueves.",
+              "Que las láminas ya estaban preparadas."
+            ],
+            "correct": "a",
+            "explanation": "Que acabaría el asa para las seis."
+          },
+          "l301-q7": {
+            "prompt": "¿Qué diferencia hay entre la conversación del lunes y la llamada del jueves?",
+            "options": [
+              "El lunes ya había cosido; el jueves comprobó el asa.",
+              "El lunes habló con Sara; el jueves habló con Celia.",
+              "El lunes fijó las seis; el jueves cambió esa hora.",
+              "El lunes esperaba material; el jueves ya lo tenía."
+            ],
+            "correct": "d",
+            "explanation": "El lunes la fecha dependía de un paquete que aún no tenía. El jueves tenía el material y dio una hora de entrega."
+          },
+          "l301-q8": {
+            "prompt": "¿Qué partes del texto permiten saber quién escribe y a quién?",
+            "options": [
+              "La hora de llamada y el día de recogida.",
+              "El saludo inicial y la firma final.",
+              "El nombre del taller y el lugar de encuentro.",
+              "La descripción del asa y la de la carpeta."
+            ],
+            "correct": "b",
+            "explanation": "El saludo «Querida Sara» y la firma «Celia»."
+          }
+        }
+      },
+      {
+        "code": "L301",
+        "language": "ca",
+        "questions": {
+          "l301-q1": {
+            "prompt": "Per a quan necessitava la Celia la funda?",
+            "options": [
+              "Per portar-la al taller dilluns.",
+              "Per recollir la cinta dimecres.",
+              "Per sortir a dibuixar divendres.",
+              "Per pintar el mural dijous."
+            ],
+            "correct": "c",
+            "explanation": "Per a la sortida al riu de divendres."
+          },
+          "l301-q2": {
+            "prompt": "De què depenia recollir la funda dimecres?",
+            "options": [
+              "Que la cinta arribés al matí.",
+              "Que el mural deixés lliure la taula.",
+              "Que la Sara recollís el cavallet.",
+              "Que la carpeta tingués una altra nansa."
+            ],
+            "correct": "a",
+            "explanation": "Que la Irene rebés la cinta al matí."
+          },
+          "l301-q3": {
+            "prompt": "Quina alternativa li va oferir la Irene en anunciar el retard?",
+            "options": [
+              "Tornar-li la funda ja reparada.",
+              "Posar-hi la nansa de la carpeta.",
+              "Canviar el dia de la sortida.",
+              "Tornar-li la funda sense reparar."
+            ],
+            "correct": "d",
+            "explanation": "Tornar-li la funda tal com estava."
+          },
+          "l301-q4": {
+            "prompt": "Per què no li anava bé a la Celia aquella alternativa?",
+            "options": [
+              "Perquè li impediria desar les làmines dijous.",
+              "Perquè li faltaria una mà per a la carpeta.",
+              "Perquè hauria de deixar el cavallet al taller.",
+              "Perquè la Sara necessitaria fer servir la mateixa funda."
+            ],
+            "correct": "b",
+            "explanation": "Perquè tindria totes dues mans ocupades amb la funda i no podria portar la carpeta d’aquella manera."
+          },
+          "l301-q5": {
+            "prompt": "Què vol dir que la reparació estava «pendent»?",
+            "options": [
+              "Que ja es podia recollir.",
+              "Que s’havia de tornar a fer.",
+              "Que encara faltava fer-la.",
+              "Que la Celia hi havia renunciat."
+            ],
+            "correct": "c",
+            "explanation": "Que encara faltava fer-la."
+          },
+          "l301-q6": {
+            "prompt": "Què va assegurar la Irene quan va tenir la cinta?",
+            "options": [
+              "Que la nansa estaria acabada a les sis.",
+              "Que la cinta arribaria a les sis.",
+              "Que la Celia podria sortir al riu dijous.",
+              "Que les làmines ja estaven preparades."
+            ],
+            "correct": "a",
+            "explanation": "Que acabaria la nansa per a les sis."
+          },
+          "l301-q7": {
+            "prompt": "Quina diferència hi ha entre la conversa de dilluns i la trucada de dijous?",
+            "options": [
+              "Dilluns ja havia cosit; dijous va comprovar la nansa.",
+              "Dilluns va parlar amb la Sara; dijous amb la Celia.",
+              "Dilluns va fixar les sis; dijous va canviar l’hora.",
+              "Dilluns esperava material; dijous ja el tenia."
+            ],
+            "correct": "d",
+            "explanation": "Dilluns la data depenia d’un paquet que encara no tenia. Dijous tenia el material i va donar una hora de lliurament."
+          },
+          "l301-q8": {
+            "prompt": "Quines parts del text permeten saber qui escriu i a qui?",
+            "options": [
+              "L’hora de trucada i el dia de recollida.",
+              "La salutació inicial i la signatura final.",
+              "El nom del taller i el lloc de trobada.",
+              "La descripció de la nansa i la de la carpeta."
+            ],
+            "correct": "b",
+            "explanation": "La salutació «Estimada Sara» i la signatura «Celia»."
+          }
+        }
+      },
+      {
+        "code": "L301B",
+        "language": "es",
+        "questions": {
+          "l301b-q1": {
+            "prompt": "¿Qué le había dicho Celia a Sara el martes?",
+            "options": [
+              "Que recogería la funda el jueves a las seis.",
+              "Que tal vez deberían compartir el transporte.",
+              "Que había cambiado la salida al jueves.",
+              "Que la cinta había llegado el miércoles."
+            ],
+            "correct": "b",
+            "explanation": "Que quizá tendrían que llevarlo todo entre las dos."
+          },
+          "l301b-q2": {
+            "prompt": "¿Qué parte estaba dañada y qué parte seguía entera?",
+            "options": [
+              "La carpeta estaba rota; su asa seguía entera.",
+              "La cinta estaba rota; el asa seguía entera.",
+              "La funda estaba rasgada por abajo; el asa, entera.",
+              "El asa estaba rasgada; el resto de tela, entero."
+            ],
+            "correct": "d",
+            "explanation": "El asa estaba rasgada; la tela que rodeaba el caballete seguía entera."
+          },
+          "l301b-q3": {
+            "prompt": "¿Qué condición incluyó Irene en su primera propuesta?",
+            "options": [
+              "Que la cinta llegara por la mañana.",
+              "Que Sara trajera su caja de pinturas.",
+              "Que Asha acabara el dibujo del asa.",
+              "Que Celia recogiera el paquete en la tienda."
+            ],
+            "correct": "a",
+            "explanation": "Recibir la cinta el miércoles por la mañana para poder entregar la funda por la tarde."
+          },
+          "l301b-q4": {
+            "prompt": "¿Por qué la ayuda de Sara no resolvía cómodamente el transporte?",
+            "options": [
+              "Porque Sara necesitaba la funda para su caballete.",
+              "Porque Celia había dejado su carpeta en el taller.",
+              "Porque Sara también tendría su propio bulto.",
+              "Porque el viaje de Sara se había adelantado."
+            ],
+            "correct": "c",
+            "explanation": "Porque Sara ya llevaría su propia caja de pinturas, además de los objetos de Celia que pudieran repartirse."
+          },
+          "l301b-q5": {
+            "prompt": "¿Qué habían acordado al terminar la llamada del miércoles?",
+            "options": [
+              "Una recogida el miércoles por la tarde.",
+              "Un aviso cuando llegara el material.",
+              "Una devolución inmediata de la funda rota.",
+              "Una entrega en el puente al día siguiente."
+            ],
+            "correct": "b",
+            "explanation": "Que Irene avisaría cuando tuviera la cinta."
+          },
+          "l301b-q6": {
+            "prompt": "¿Qué quiere decir «en suspenso» en esta carta?",
+            "options": [
+              "Que la salida había quedado cancelada.",
+              "Que los pinceles seguían sin prepararse.",
+              "Que habían decidido repartir los materiales.",
+              "Que el transporte aún estaba por resolver."
+            ],
+            "correct": "d",
+            "explanation": "Que la manera de transportar los materiales todavía estaba sin resolver, esperando la noticia."
+          },
+          "l301b-q7": {
+            "prompt": "¿Por qué busca Celia una bolsa si ha elegido esperar?",
+            "options": [
+              "Para tener una alternativa si la funda no estaba lista.",
+              "Para sustituir la carpeta que había dejado en el taller.",
+              "Para recoger la cinta en lugar de Irene.",
+              "Para guardar los papeles del mural de Asha."
+            ],
+            "correct": "a",
+            "explanation": "Porque espera la reparación, pero prepara otra forma de repartir los materiales por si no puede contar con ella."
+          },
+          "l301b-q8": {
+            "prompt": "¿Qué dato nuevo pudo dar Irene el jueves, además de confirmar la llegada de la cinta?",
+            "options": [
+              "El día de la salida al río.",
+              "El aviso de reparto del miércoles.",
+              "La hora de finalización del asa.",
+              "El lugar donde esperaba Sara."
+            ],
+            "correct": "c",
+            "explanation": "La hora a la que estaría acabada la funda: las seis."
+          },
+          "l301b-q9": {
+            "prompt": "¿Cómo demuestra el final que se ha resuelto la dificultad de transporte?",
+            "options": [
+              "Celia guarda todos los materiales dentro de la carpeta.",
+              "Celia puede sostener un bulto con cada mano.",
+              "Sara recoge el caballete antes de llegar al puente.",
+              "Irene transporta los materiales hasta el río."
+            ],
+            "correct": "b",
+            "explanation": "Celia lleva el caballete por el asa reparada y coge la carpeta con la otra mano."
+          },
+          "l301b-q10": {
+            "prompt": "¿Por qué la carta empieza mencionando la conversación del martes?",
+            "options": [
+              "Para anunciar una salida distinta de la del viernes.",
+              "Para recordar que Sara encargó la reparación.",
+              "Para contar cómo Irene reparó el asa el martes.",
+              "Para actualizar una información que Sara ya tenía."
+            ],
+            "correct": "d",
+            "explanation": "Para que Sara relacione la noticia actual con la información incierta que había recibido antes."
+          }
+        }
+      },
+      {
+        "code": "L301B",
+        "language": "ca",
+        "questions": {
+          "l301b-q1": {
+            "prompt": "Què havia dit la Celia a la Sara dimarts?",
+            "options": [
+              "Que recolliria la funda dijous a les sis.",
+              "Que potser haurien de compartir el transport.",
+              "Que havia canviat la sortida a dijous.",
+              "Que la cinta havia arribat dimecres."
+            ],
+            "correct": "b",
+            "explanation": "Que potser ho haurien de portar tot entre totes dues."
+          },
+          "l301b-q2": {
+            "prompt": "Quina part estava malmesa i quina continuava sencera?",
+            "options": [
+              "La carpeta estava trencada; la nansa continuava sencera.",
+              "La cinta estava trencada; la nansa continuava sencera.",
+              "La funda estava esquinçada per sota; la nansa, sencera.",
+              "La nansa estava esquinçada; la resta de tela, sencera."
+            ],
+            "correct": "d",
+            "explanation": "La nansa estava esquinçada; la tela que envoltava el cavallet continuava sencera."
+          },
+          "l301b-q3": {
+            "prompt": "Quina condició va incloure la Irene en la primera proposta?",
+            "options": [
+              "Que la cinta arribés al matí.",
+              "Que la Sara portés la capsa de pintures.",
+              "Que l’Asha acabés el dibuix de la nansa.",
+              "Que la Celia recollís el paquet a la botiga."
+            ],
+            "correct": "a",
+            "explanation": "Rebre la cinta dimecres al matí per poder lliurar la funda a la tarda."
+          },
+          "l301b-q4": {
+            "prompt": "Per què l’ajuda de la Sara no resolia còmodament el transport?",
+            "options": [
+              "Perquè la Sara necessitava la funda per al seu cavallet.",
+              "Perquè la Celia havia deixat la carpeta al taller.",
+              "Perquè la Sara també tindria el seu propi paquet.",
+              "Perquè la sortida de la Sara s’havia avançat."
+            ],
+            "correct": "c",
+            "explanation": "Perquè la Sara ja portaria la seva capsa de pintures, a més dels objectes de la Celia que es poguessin repartir."
+          },
+          "l301b-q5": {
+            "prompt": "Què havien acordat en acabar la trucada de dimecres?",
+            "options": [
+              "Una recollida dimecres a la tarda.",
+              "Un avís quan arribés el material.",
+              "Un retorn immediat de la funda trencada.",
+              "Un lliurament al pont l’endemà."
+            ],
+            "correct": "b",
+            "explanation": "Que la Irene avisaria quan tingués la cinta."
+          },
+          "l301b-q6": {
+            "prompt": "Què vol dir «en suspens» en aquesta carta?",
+            "options": [
+              "Que la sortida havia quedat cancel·lada.",
+              "Que els pinzells continuaven sense preparar.",
+              "Que havien decidit repartir els materials.",
+              "Que el transport encara estava per resoldre."
+            ],
+            "correct": "d",
+            "explanation": "Que la manera de transportar els materials encara estava sense resoldre, esperant la notícia."
+          },
+          "l301b-q7": {
+            "prompt": "Per què la Celia busca una bossa si ha triat esperar?",
+            "options": [
+              "Per tenir una alternativa si la funda no estava a punt.",
+              "Per substituir la carpeta que havia deixat al taller.",
+              "Per recollir la cinta en lloc de la Irene.",
+              "Per desar els papers del mural de l’Asha."
+            ],
+            "correct": "a",
+            "explanation": "Perquè espera la reparació, però prepara una altra manera de repartir els materials per si no hi pot comptar."
+          },
+          "l301b-q8": {
+            "prompt": "Quina dada nova va poder donar la Irene dijous, a més de confirmar l’arribada de la cinta?",
+            "options": [
+              "El dia de la sortida al riu.",
+              "L’avís de repartiment de dimecres.",
+              "L’hora d’acabament de la nansa.",
+              "El lloc on esperava la Sara."
+            ],
+            "correct": "c",
+            "explanation": "L’hora a la qual estaria acabada la funda: les sis."
+          },
+          "l301b-q9": {
+            "prompt": "Com demostra el final que s’ha resolt la dificultat de transport?",
+            "options": [
+              "La Celia desa tots els materials dins la carpeta.",
+              "La Celia pot sostenir un paquet amb cada mà.",
+              "La Sara recull el cavallet abans d’arribar al pont.",
+              "La Irene transporta els materials fins al riu."
+            ],
+            "correct": "b",
+            "explanation": "La Celia porta el cavallet per la nansa reparada i agafa la carpeta amb l’altra mà."
+          },
+          "l301b-q10": {
+            "prompt": "Per què la carta comença esmentant la conversa de dimarts?",
+            "options": [
+              "Per anunciar una sortida diferent de la de divendres.",
+              "Per recordar que la Sara va encarregar la reparació.",
+              "Per explicar com la Irene va reparar la nansa dimarts.",
+              "Per actualitzar una informació que la Sara ja tenia."
+            ],
+            "correct": "d",
+            "explanation": "Perquè la Sara relacioni la notícia actual amb la informació incerta que havia rebut abans."
+          }
+        }
+      }
+    ]
   }
 ];

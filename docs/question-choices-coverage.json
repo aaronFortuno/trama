@@ -1,9 +1,9 @@
 {
   "date": "2026-11-26",
-  "totalWorks": 582,
-  "coveredWorks": 582,
+  "totalWorks": 585,
+  "coveredWorks": 585,
   "pendingWorks": 0,
-  "localizedAlternatives": 5738,
+  "localizedAlternatives": 5786,
   "ranges": [
     {
       "start": 1,
@@ -423,6 +423,13 @@
       "end": 300,
       "total": 15,
       "covered": 15,
+      "status": "complete"
+    },
+    {
+      "start": 301,
+      "end": 301,
+      "total": 3,
+      "covered": 3,
       "status": "complete"
     }
   ],
@@ -35596,6 +35603,261 @@
             {
               "id": "l300b-q11",
               "number": 11
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L301",
+      "baseCode": "L301",
+      "variant": false,
+      "level": "5-primary",
+      "difficulty": "intermediate",
+      "title": "La reparació que va esperar fins dijous",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l301-q1",
+              "number": 1
+            },
+            {
+              "id": "l301-q2",
+              "number": 2
+            },
+            {
+              "id": "l301-q3",
+              "number": 3
+            },
+            {
+              "id": "l301-q4",
+              "number": 4
+            },
+            {
+              "id": "l301-q5",
+              "number": 5
+            },
+            {
+              "id": "l301-q6",
+              "number": 6
+            },
+            {
+              "id": "l301-q7",
+              "number": 7
+            },
+            {
+              "id": "l301-q8",
+              "number": 8
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l301-q1",
+              "number": 1
+            },
+            {
+              "id": "l301-q2",
+              "number": 2
+            },
+            {
+              "id": "l301-q3",
+              "number": 3
+            },
+            {
+              "id": "l301-q4",
+              "number": 4
+            },
+            {
+              "id": "l301-q5",
+              "number": 5
+            },
+            {
+              "id": "l301-q6",
+              "number": 6
+            },
+            {
+              "id": "l301-q7",
+              "number": 7
+            },
+            {
+              "id": "l301-q8",
+              "number": 8
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L301A",
+      "baseCode": "L301",
+      "variant": true,
+      "level": "4-primary",
+      "difficulty": "intermediate",
+      "title": "La reparació que va esperar fins dijous",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l301a-q1",
+              "number": 1
+            },
+            {
+              "id": "l301a-q2",
+              "number": 2
+            },
+            {
+              "id": "l301a-q3",
+              "number": 3
+            },
+            {
+              "id": "l301a-q4",
+              "number": 4
+            },
+            {
+              "id": "l301a-q5",
+              "number": 5
+            },
+            {
+              "id": "l301a-q6",
+              "number": 6
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l301a-q1",
+              "number": 1
+            },
+            {
+              "id": "l301a-q2",
+              "number": 2
+            },
+            {
+              "id": "l301a-q3",
+              "number": 3
+            },
+            {
+              "id": "l301a-q4",
+              "number": 4
+            },
+            {
+              "id": "l301a-q5",
+              "number": 5
+            },
+            {
+              "id": "l301a-q6",
+              "number": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L301B",
+      "baseCode": "L301",
+      "variant": true,
+      "level": "6-primary",
+      "difficulty": "intermediate",
+      "title": "La reparació que va esperar fins dijous",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l301b-q1",
+              "number": 1
+            },
+            {
+              "id": "l301b-q2",
+              "number": 2
+            },
+            {
+              "id": "l301b-q3",
+              "number": 3
+            },
+            {
+              "id": "l301b-q4",
+              "number": 4
+            },
+            {
+              "id": "l301b-q5",
+              "number": 5
+            },
+            {
+              "id": "l301b-q6",
+              "number": 6
+            },
+            {
+              "id": "l301b-q7",
+              "number": 7
+            },
+            {
+              "id": "l301b-q8",
+              "number": 8
+            },
+            {
+              "id": "l301b-q9",
+              "number": 9
+            },
+            {
+              "id": "l301b-q10",
+              "number": 10
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l301b-q1",
+              "number": 1
+            },
+            {
+              "id": "l301b-q2",
+              "number": 2
+            },
+            {
+              "id": "l301b-q3",
+              "number": 3
+            },
+            {
+              "id": "l301b-q4",
+              "number": 4
+            },
+            {
+              "id": "l301b-q5",
+              "number": 5
+            },
+            {
+              "id": "l301b-q6",
+              "number": 6
+            },
+            {
+              "id": "l301b-q7",
+              "number": 7
+            },
+            {
+              "id": "l301b-q8",
+              "number": 8
+            },
+            {
+              "id": "l301b-q9",
+              "number": 9
+            },
+            {
+              "id": "l301b-q10",
+              "number": 10
             }
           ]
         }
