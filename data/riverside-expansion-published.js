@@ -1848,5 +1848,1902 @@ export const riversidePublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L308",
+    "edition": "v1.63.1",
+    "family": {
+      "id": "familia-l308",
+      "code": "L308",
+      "name": {
+        "es": "La carta que volvió con dibujos",
+        "ca": "La carta que va tornar amb dibuixos"
+      },
+      "description": {
+        "ca": "Una història dels Camins de la ribera, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de Los caminos de la ribera, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L308A",
+        "L308",
+        "L308B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "la-carta-que-volvio-con-dibujos-a-es",
+        "code": "L308A",
+        "workId": "la-carta-que-volvio-con-dibujos-a",
+        "language": "es",
+        "familyId": "familia-l308",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "letter",
+        "title": "La carta que volvió con dibujos",
+        "summary": "Una carta de Isona vuelve del molino con una respuesta y un dibujo para preparar una tarde de cuentos.",
+        "paragraphs": [
+          "Carta de Isona a Elna, la dueña del molino. Miércoles. Querida Elna: Neri y yo queremos leer dos cuentos a los vecinos el sábado por la tarde. Nos gustaría hacerlo bajo tu porche. Yo leería primero y Neri después. Él te llevará esta carta cuando pase por el molino.",
+          "Podríamos extender una manta grande delante de la puerta para que se sentaran los niños. ¿Nos dejarías alguna? A mi abuelo le cuesta levantarse del suelo. También necesitaríamos un banco para él y para quien prefiera un asiento. Al acabar, recogeríamos las mantas y llevaríamos el banco a su sitio. Isona.",
+          "Respuesta de Elna, al dorso. Jueves. Querida Isona: el sábado podéis usar el porche. Tengo dos mantas pequeñas en vez de una grande. He dibujado dónde podríais ponerlas: una a cada lado, dejando entre ellas un paso hasta la puerta. A esa hora aún entrará gente a recoger harina.",
+          "El banco cabe junto a la pared, desde donde se puede escuchar. Neri te devolverá el papel para que miréis el dibujo juntos. Si os sirve esta colocación, el sábado os ayudaré a sacar las mantas. Después quiero oír vuestros cuentos. Elna."
+        ],
+        "questions": [
+          {
+            "id": "l308a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué le propone Isona a Elna?",
+            "answer": "Leer dos cuentos a los vecinos bajo el porche del molino.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "queremos leer dos cuentos a los vecinos el sábado por la tarde"
+              },
+              {
+                "paragraph": 1,
+                "text": "bajo tu porche"
+              }
+            ]
+          },
+          {
+            "id": "l308a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué día quieren hacer la lectura de cuentos?",
+            "answer": "El sábado por la tarde.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "el sábado por la tarde"
+              }
+            ]
+          },
+          {
+            "id": "l308a-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué Isona pide también un banco?",
+            "answer": "Porque a su abuelo le cuesta levantarse del suelo y puede haber otras personas que prefieran un asiento.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "A mi abuelo le cuesta levantarse del suelo."
+              }
+            ]
+          },
+          {
+            "id": "l308a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa escribir «al dorso» del papel?",
+            "answer": "Escribir en la otra cara, por detrás.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Respuesta de Elna, al dorso."
+              }
+            ]
+          },
+          {
+            "id": "l308a-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cómo propone Elna colocar las dos mantas?",
+            "answer": "Una a cada lado, con un paso entre ellas hasta la puerta.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una a cada lado, dejando entre ellas un paso hasta la puerta"
+              }
+            ]
+          },
+          {
+            "id": "l308a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué conviene dejar libre el paso a la puerta?",
+            "answer": "Porque habrá personas que entren a recoger harina mientras se cuentan los cuentos.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "A esa hora aún entrará gente a recoger harina."
+              }
+            ]
+          },
+          {
+            "id": "l308a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Cuenta qué cambia Elna de la propuesta y qué acepta.",
+            "answer": "Acepta la tarde de cuentos y el banco. En vez de una manta grande, ofrece dos pequeñas a los lados para dejar paso a la puerta.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "el sábado podéis usar el porche"
+              },
+              {
+                "paragraph": 3,
+                "text": "Tengo dos mantas pequeñas en vez de una grande."
+              },
+              {
+                "paragraph": 4,
+                "text": "El banco cabe junto a la pared"
+              }
+            ]
+          },
+          {
+            "id": "l308a-q8",
+            "type": "opinion",
+            "lines": 2,
+            "prompt": "¿Qué le responderías a Elna antes del sábado?",
+            "answer": "Respuesta personal relacionada con la propuesta, el material o la ayuda ofrecida."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "al dorso",
+            "occurrence": 1,
+            "questionId": "l308a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l308-scene",
+            "src": "assets/readings/l308-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Isona lee la carta devuelta sentada en un banco del camino; Neri está a su lado y el molino aparece al fondo.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-carta-que-volvio-con-dibujos-a-ca",
+        "code": "L308A",
+        "workId": "la-carta-que-volvio-con-dibujos-a",
+        "language": "ca",
+        "familyId": "familia-l308",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "letter",
+        "title": "La carta que va tornar amb dibuixos",
+        "summary": "Una carta de l’Isona torna del molí amb una resposta i un dibuix per preparar una tarda de contes.",
+        "paragraphs": [
+          "Carta de l’Isona a l’Elna, la propietària del molí. Dimecres. Estimada Elna: en Neri i jo volem llegir dos contes als veïns dissabte a la tarda. Ens agradaria fer-ho sota el teu porxo. Jo llegiria primer i en Neri després. Ell et portarà aquesta carta quan passi pel molí.",
+          "Podríem estendre una manta gran davant de la porta perquè hi seguessin els infants. Ens en deixaries alguna? Al meu avi li costa aixecar-se de terra. També necessitaríem un banc per a ell i per a qui prefereixi un seient. En acabar, recolliríem les mantes i portaríem el banc al seu lloc. Isona.",
+          "Resposta de l’Elna, al dors. Dijous. Estimada Isona: dissabte podeu fer servir el porxo. Tinc dues mantes petites en lloc d’una de gran. He dibuixat on les podríeu posar: una a cada costat, deixant-hi entremig un pas fins a la porta. A aquella hora encara entrarà gent a recollir farina.",
+          "El banc cap al costat de la paret, des d’on es pot escoltar. En Neri et tornarà el paper perquè mireu el dibuix plegats. Si us va bé aquesta col·locació, dissabte us ajudaré a treure les mantes. Després vull sentir els vostres contes. Elna."
+        ],
+        "questions": [
+          {
+            "id": "l308a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què proposa l’Isona a l’Elna?",
+            "answer": "Llegir dos contes als veïns sota el porxo del molí.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "volem llegir dos contes als veïns dissabte a la tarda"
+              },
+              {
+                "paragraph": 1,
+                "text": "sota el teu porxo"
+              }
+            ]
+          },
+          {
+            "id": "l308a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quin dia volen fer la lectura de contes?",
+            "answer": "Dissabte a la tarda.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "dissabte a la tarda"
+              }
+            ]
+          },
+          {
+            "id": "l308a-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què l’Isona demana també un banc?",
+            "answer": "Perquè al seu avi li costa aixecar-se de terra i pot haver-hi altres persones que prefereixin un seient.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Al meu avi li costa aixecar-se de terra."
+              }
+            ]
+          },
+          {
+            "id": "l308a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir escriure «al dors» del paper?",
+            "answer": "Escriure a l’altra cara, per darrere.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Resposta de l’Elna, al dors."
+              }
+            ]
+          },
+          {
+            "id": "l308a-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Com proposa l’Elna col·locar les dues mantes?",
+            "answer": "Una a cada costat, amb un pas entremig fins a la porta.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una a cada costat, deixant-hi entremig un pas fins a la porta"
+              }
+            ]
+          },
+          {
+            "id": "l308a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què convé deixar lliure el pas a la porta?",
+            "answer": "Perquè hi haurà persones que entraran a recollir farina mentre s’expliquen els contes.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "A aquella hora encara entrarà gent a recollir farina."
+              }
+            ]
+          },
+          {
+            "id": "l308a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Explica què canvia l’Elna de la proposta i què accepta.",
+            "answer": "Accepta la tarda de contes i el banc. En lloc d’una manta gran, ofereix dues mantes petites als costats per deixar pas a la porta.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "dissabte podeu fer servir el porxo"
+              },
+              {
+                "paragraph": 3,
+                "text": "Tinc dues mantes petites en lloc d’una de gran."
+              },
+              {
+                "paragraph": 4,
+                "text": "El banc cap al costat de la paret"
+              }
+            ]
+          },
+          {
+            "id": "l308a-q8",
+            "type": "opinion",
+            "lines": 2,
+            "prompt": "Què respondries a l’Elna abans de dissabte?",
+            "answer": "Resposta personal relacionada amb la proposta, el material o l’ajuda que ofereix."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "al dors",
+            "occurrence": 1,
+            "questionId": "l308a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l308-scene",
+            "src": "assets/readings/l308-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "L’Isona llegeix la carta retornada asseguda en un banc del camí; en Neri és al seu costat i el molí es veu al fons.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-carta-que-volvio-con-dibujos-es",
+        "code": "L308",
+        "workId": "la-carta-que-volvio-con-dibujos",
+        "language": "es",
+        "familyId": "familia-l308",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "letter",
+        "title": "La carta que volvió con dibujos",
+        "summary": "Dos mensajes en las caras de un mismo papel permiten acordar una tarde de cuentos en el molino.",
+        "paragraphs": [
+          "Carta de Isona a Elna, dueña del molino de la ribera. Miércoles. Querida Elna: Neri y yo hemos preparado dos cuentos para leerlos a los vecinos el sábado por la tarde. Nos gustaría reunirnos bajo tu porche, cerca de la plaza. Yo empezaría con el mío y Neri leería después el suyo. Él te llevará este papel cuando pase por el molino.",
+          "Habíamos pensado extender una manta grande delante de la puerta y sentar allí a los niños. ¿Tendrías alguna para dejarnos? También querríamos un banco: a mi abuelo le cuesta levantarse del suelo. Otros vecinos quizá prefieran sentarse a su lado. Al terminar, devolveríamos cada cosa a su sitio. ¿Te parece bien la idea? Isona.",
+          "Respuesta de Elna, al dorso. Jueves. Querida Isona: podéis hacer la lectura el sábado. Tengo dos mantas pequeñas que os pueden servir. He añadido un boceto para explicar cómo las colocaría: una a cada lado del porche, con una franja libre entre ambas hasta la puerta. A esa hora todavía vendrán vecinos a recoger harina y necesitarán entrar.",
+          "El banco estará junto a la pared, desde donde se puede escuchar sin ocupar esa franja. En el dibujo lo he marcado con un rectángulo estrecho. Neri te devolverá el mismo papel; así podrás leer la respuesta y mirar el dibujo con él. Si esta colocación os va bien, os ayudaré a sacar las mantas cuando lleguéis el sábado.",
+          "Yo me sentaré al final del banco para oír los cuentos. Neri me ha contado que su cuento empieza con una barca vacía; tengo ganas de saber quién la encuentra. Guarda el papel hasta ese día y me lo enseñas al llegar. Elna."
+        ],
+        "questions": [
+          {
+            "id": "l308-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Quién escribe cada mensaje y en qué orden?",
+            "answer": "Isona escribe a Elna el miércoles y Elna responde el jueves.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Carta de Isona a Elna"
+              },
+              {
+                "paragraph": 1,
+                "text": "Miércoles."
+              },
+              {
+                "paragraph": 3,
+                "text": "Respuesta de Elna, al dorso. Jueves."
+              }
+            ]
+          },
+          {
+            "id": "l308-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué orden de lectura propone Isona para los cuentos?",
+            "answer": "Primero el suyo y después el de Neri.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Yo empezaría con el mío y Neri leería después el suyo."
+              }
+            ]
+          },
+          {
+            "id": "l308-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué material pide Isona y qué material ofrece Elna?",
+            "answer": "Isona pide una manta grande y un banco. Elna ofrece dos mantas pequeñas y el banco.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "una manta grande"
+              },
+              {
+                "paragraph": 2,
+                "text": "También querríamos un banco"
+              },
+              {
+                "paragraph": 3,
+                "text": "Tengo dos mantas pequeñas"
+              },
+              {
+                "paragraph": 4,
+                "text": "El banco estará junto a la pared"
+              }
+            ]
+          },
+          {
+            "id": "l308-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué es el «boceto» que añade Elna?",
+            "answer": "Un dibujo sencillo que muestra cómo propone distribuir las mantas y el banco.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "He añadido un boceto para explicar cómo las colocaría"
+              }
+            ]
+          },
+          {
+            "id": "l308-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué problema evita la franja libre entre las mantas?",
+            "answer": "Que las personas que entren por harina tengan que cruzar por donde están sentados los niños.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "con una franja libre entre ambas hasta la puerta"
+              },
+              {
+                "paragraph": 3,
+                "text": "todavía vendrán vecinos a recoger harina y necesitarán entrar"
+              }
+            ]
+          },
+          {
+            "id": "l308-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué el banco no tiene que estar sobre la franja central?",
+            "answer": "Porque esa franja debe servir para entrar; al lado de la pared puede escucharse sin ocuparla.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "desde donde se puede escuchar sin ocupar esa franja"
+              }
+            ]
+          },
+          {
+            "id": "l308-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué aportan juntas las palabras de Elna y el dibujo que describe?",
+            "answer": "Las palabras explican el motivo y la colocación; el dibujo ayuda a imaginar esa distribución.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "para explicar cómo las colocaría"
+              },
+              {
+                "paragraph": 4,
+                "text": "lo he marcado con un rectángulo estrecho"
+              }
+            ]
+          },
+          {
+            "id": "l308-q8",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué llevará Neri de vuelta a Isona?",
+            "answer": "El mismo papel, con la respuesta y el dibujo de Elna al dorso.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Neri te devolverá el mismo papel"
+              },
+              {
+                "paragraph": 3,
+                "text": "Respuesta de Elna, al dorso."
+              }
+            ]
+          },
+          {
+            "id": "l308-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué acepta y propone Elna y qué debe hacer Isona con el papel.",
+            "answer": "Elna acepta los cuentos el sábado y propone dos mantas separadas y un banco junto a la pared. Isona debe mirar la propuesta con Neri y guardar el papel para enseñárselo a Elna al llegar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "podéis hacer la lectura el sábado"
+              },
+              {
+                "paragraph": 4,
+                "text": "leer la respuesta y mirar el dibujo con él"
+              },
+              {
+                "paragraph": 5,
+                "text": "Guarda el papel hasta ese día y me lo enseñas al llegar."
+              }
+            ]
+          },
+          {
+            "id": "l308-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Escribe una respuesta breve de Isona que confirme lo que ha entendido y añada una pregunta útil.",
+            "answer": "Producción personal coherente con los acuerdos y con una pregunta pertinente."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "boceto",
+            "occurrence": 1,
+            "questionId": "l308-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l308-scene",
+            "src": "assets/readings/l308-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Isona lee la carta devuelta sentada en un banco del camino; Neri está a su lado y el molino aparece al fondo.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-carta-que-volvio-con-dibujos-ca",
+        "code": "L308",
+        "workId": "la-carta-que-volvio-con-dibujos",
+        "language": "ca",
+        "familyId": "familia-l308",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "letter",
+        "title": "La carta que va tornar amb dibuixos",
+        "summary": "Dos missatges a les cares d’un mateix paper permeten acordar una tarda de contes al molí.",
+        "paragraphs": [
+          "Carta de l’Isona a l’Elna, propietària del molí de la ribera. Dimecres. Estimada Elna: en Neri i jo hem preparat dos contes per llegir-los als veïns dissabte a la tarda. Ens agradaria reunir-nos sota el teu porxo, a prop de la plaça. Jo començaria amb el meu i en Neri llegiria després el seu. Ell et portarà aquest paper quan passi pel molí.",
+          "Havíem pensat estendre una manta gran davant de la porta i fer-hi seure els infants. En tindries alguna per deixar-nos? També voldríem un banc: al meu avi li costa aixecar-se de terra. Potser altres veïns preferiran seure al seu costat. En acabar, tornaríem cada cosa al seu lloc. Et sembla bé la idea? Isona.",
+          "Resposta de l’Elna, al dors. Dijous. Estimada Isona: podeu fer la lectura dissabte. Tinc dues mantes petites que us poden servir. Hi he afegit un esbós per explicar com les col·locaria: una a cada costat del porxo, amb una franja lliure entremig fins a la porta. A aquella hora encara vindran veïns a recollir farina i hauran d’entrar.",
+          "El banc serà al costat de la paret, des d’on es pot escoltar sense ocupar aquella franja. Al dibuix l’he marcat amb un rectangle estret. En Neri et tornarà el mateix paper; així podràs llegir la resposta i mirar el dibuix amb ell. Si aquesta col·locació us va bé, us ajudaré a treure les mantes quan arribeu dissabte.",
+          "Jo seuré al final del banc per sentir els contes. En Neri m’ha dit que el seu conte comença amb una barca buida; tinc ganes de saber qui la troba. Guarda el paper fins aquell dia i me l’ensenyes quan arribis. Elna."
+        ],
+        "questions": [
+          {
+            "id": "l308-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Qui escriu cada missatge i en quin ordre?",
+            "answer": "L’Isona escriu a l’Elna dimecres i l’Elna respon dijous.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Carta de l’Isona a l’Elna"
+              },
+              {
+                "paragraph": 1,
+                "text": "Dimecres."
+              },
+              {
+                "paragraph": 3,
+                "text": "Resposta de l’Elna, al dors. Dijous."
+              }
+            ]
+          },
+          {
+            "id": "l308-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quin ordre de lectura proposa l’Isona per als contes?",
+            "answer": "Primer el seu i després el d’en Neri.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Jo començaria amb el meu i en Neri llegiria després el seu."
+              }
+            ]
+          },
+          {
+            "id": "l308-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quin material demana l’Isona i quin material ofereix l’Elna?",
+            "answer": "L’Isona demana una manta gran i un banc. L’Elna ofereix dues mantes petites i el banc.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "una manta gran"
+              },
+              {
+                "paragraph": 2,
+                "text": "També voldríem un banc"
+              },
+              {
+                "paragraph": 3,
+                "text": "Tinc dues mantes petites"
+              },
+              {
+                "paragraph": 4,
+                "text": "El banc serà al costat de la paret"
+              }
+            ]
+          },
+          {
+            "id": "l308-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què és l’«esbós» que hi afegeix l’Elna?",
+            "answer": "Un dibuix senzill que mostra com proposa distribuir les mantes i el banc.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Hi he afegit un esbós per explicar com les col·locaria"
+              }
+            ]
+          },
+          {
+            "id": "l308-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quin problema evita la franja lliure entre les mantes?",
+            "answer": "Que les persones que entrin a buscar farina hagin de travessar per on seuen els infants.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "amb una franja lliure entremig fins a la porta"
+              },
+              {
+                "paragraph": 3,
+                "text": "encara vindran veïns a recollir farina i hauran d’entrar"
+              }
+            ]
+          },
+          {
+            "id": "l308-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què el banc no ha de ser damunt de la franja central?",
+            "answer": "Perquè aquella franja ha de servir per entrar; al costat de la paret es pot escoltar sense ocupar-la.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "des d’on es pot escoltar sense ocupar aquella franja"
+              }
+            ]
+          },
+          {
+            "id": "l308-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Què aporten plegades les paraules de l’Elna i el dibuix que descriu?",
+            "answer": "Les paraules expliquen el motiu i la col·locació; el dibuix ajuda a imaginar aquella distribució.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "per explicar com les col·locaria"
+              },
+              {
+                "paragraph": 4,
+                "text": "l’he marcat amb un rectangle estret"
+              }
+            ]
+          },
+          {
+            "id": "l308-q8",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què portarà en Neri de tornada a l’Isona?",
+            "answer": "El mateix paper, amb la resposta i el dibuix de l’Elna al dors.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "En Neri et tornarà el mateix paper"
+              },
+              {
+                "paragraph": 3,
+                "text": "Resposta de l’Elna, al dors."
+              }
+            ]
+          },
+          {
+            "id": "l308-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix què accepta i proposa l’Elna i què ha de fer l’Isona amb el paper.",
+            "answer": "L’Elna accepta els contes dissabte i proposa dues mantes separades i un banc al costat de la paret. L’Isona ha de mirar la proposta amb en Neri i guardar el paper per ensenyar-lo a l’Elna en arribar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "podeu fer la lectura dissabte"
+              },
+              {
+                "paragraph": 4,
+                "text": "llegir la resposta i mirar el dibuix amb ell"
+              },
+              {
+                "paragraph": 5,
+                "text": "Guarda el paper fins aquell dia i me l’ensenyes quan arribis."
+              }
+            ]
+          },
+          {
+            "id": "l308-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Escriu una resposta breu de l’Isona que confirmi què ha entès i afegeixi una pregunta útil.",
+            "answer": "Producció personal coherent amb els acords i amb una pregunta pertinent."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "esbós",
+            "occurrence": 1,
+            "questionId": "l308-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l308-scene",
+            "src": "assets/readings/l308-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "L’Isona llegeix la carta retornada asseguda en un banc del camí; en Neri és al seu costat i el molí es veu al fons.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-carta-que-volvio-con-dibujos-b-es",
+        "code": "L308B",
+        "workId": "la-carta-que-volvio-con-dibujos-b",
+        "language": "es",
+        "familyId": "familia-l308",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "letter",
+        "title": "La carta que volvió con dibujos",
+        "summary": "Una propuesta por carta cambia al considerar quién escuchará los cuentos y quién seguirá usando el molino.",
+        "paragraphs": [
+          "Carta de Isona a Elna, dueña del molino de la ribera. Miércoles. Querida Elna: Neri y yo hemos terminado dos cuentos y nos gustaría leerlos a los vecinos el sábado por la tarde. Pensamos en tu porche porque algunos niños de la plaza ya conocen el camino. Yo leería primero y Neri después. En el suyo aparece una barca vacía; todavía no quiero contarte quién la encuentra.",
+          "Querríamos extender una manta grande delante de la puerta y sentar a los niños cerca de quien lea. Mi abuelo también vendrá, pero le cuesta levantarse del suelo. ¿Nos dejarías un banco para él y para otros vecinos que prefieran un asiento? Al acabar, recogeríamos lo prestado. Neri te llevará esta carta y nos contará qué te parece la propuesta. Isona.",
+          "Respuesta de Elna, al dorso. Jueves. Querida Isona: me hace ilusión oír vuestros cuentos. Podéis utilizar el porche el sábado. He esperado a contestarte por escrito porque quería probar allí las mantas que tengo: son dos pequeñas, en vez de la grande que pedías. Las he extendido a los lados, dejando una franja central libre hasta la puerta.",
+          "He añadido un dibujo de esta disposición. Las dos figuras anchas representan las mantas; el rectángulo estrecho junto a la pared es el banco. Desde allí también se escucha a quien lee. La franja entre las mantas queda sin asiento: aún habrá vecinos que entren a recoger harina durante esa tarde. Si extendiéramos una manta de lado a lado, tendrían que pisarla o pedir que se apartara alguien.",
+          "Neri te devolverá el mismo papel, con mi respuesta por detrás. Así podréis mirar juntos el dibujo y decirme si os sirve. Os ayudaré a sacar las mantas al llegar el sábado; después me sentaré al final del banco. Como recogéis el material al terminar, dejaremos despejado el porche antes de cerrar el molino. Si queréis cambiar algo, enseñádmelo en el papel cuando vengáis.",
+          "Guarda la carta y tráela ese día. Quiero que me enseñes dónde os pondríais a leer: ese lugar no lo he señalado en el dibujo. Después podremos abrir los cuentos. Me quedé pensando en la barca vacía que mencionabas; el sábado buscaré un buen sitio para enterarme de lo que ocurre. Elna."
+        ],
+        "questions": [
+          {
+            "id": "l308b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué razones da Isona para proponer el porche y para pedir un banco?",
+            "answer": "Algunos niños conocen el camino al porche; su abuelo tiene dificultad para levantarse del suelo y otros vecinos pueden preferir asiento.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "algunos niños de la plaza ya conocen el camino"
+              },
+              {
+                "paragraph": 2,
+                "text": "le cuesta levantarse del suelo"
+              }
+            ]
+          },
+          {
+            "id": "l308b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué Elna ha esperado para responder por escrito?",
+            "answer": "Porque quería probar en el porche las dos mantas pequeñas que tenía.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "quería probar allí las mantas que tengo"
+              }
+            ]
+          },
+          {
+            "id": "l308b-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «disposición» en la expresión «esta disposición»?",
+            "answer": "La manera en que se han colocado las mantas y el banco dentro del espacio.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Las he extendido a los lados, dejando una franja central libre"
+              },
+              {
+                "paragraph": 4,
+                "text": "un dibujo de esta disposición"
+              }
+            ]
+          },
+          {
+            "id": "l308b-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué dos actividades permite combinar el cambio de distribución?",
+            "answer": "La escucha de los cuentos y la entrada de vecinos para recoger harina.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Desde allí también se escucha a quien lee."
+              },
+              {
+                "paragraph": 4,
+                "text": "vecinos que entren a recoger harina"
+              }
+            ]
+          },
+          {
+            "id": "l308b-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué representa cada forma del dibujo según explica Elna?",
+            "answer": "Las dos figuras anchas son las mantas y el rectángulo estrecho junto a la pared es el banco.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Las dos figuras anchas representan las mantas; el rectángulo estrecho junto a la pared es el banco."
+              }
+            ]
+          },
+          {
+            "id": "l308b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué no bastaría con poner las dos mantas juntas de lado a lado?",
+            "answer": "Porque ocuparían el acceso y obligarían a los vecinos a pisarlas o pedir que se apartara alguien.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "tendrían que pisarla o pedir que se apartara alguien"
+              }
+            ]
+          },
+          {
+            "id": "l308b-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Por qué el texto se organiza en una carta y una respuesta?",
+            "answer": "Permite conocer primero lo que pide Isona y después qué acepta o modifica Elna con sus razones.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "nos contará qué te parece la propuesta."
+              },
+              {
+                "paragraph": 3,
+                "text": "Podéis utilizar el porche el sábado."
+              }
+            ]
+          },
+          {
+            "id": "l308b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué puede hacer Isona al recibir el papel que no podía hacer antes de enviarlo?",
+            "answer": "Conocer la respuesta de Elna y comentar con Neri la colocación que ha probado y dibujado.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "con mi respuesta por detrás"
+              },
+              {
+                "paragraph": 5,
+                "text": "mirar juntos el dibujo y decirme si os sirve"
+              }
+            ]
+          },
+          {
+            "id": "l308b-q9",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué detalle de la organización queda sin señalar en el dibujo?",
+            "answer": "El lugar donde se pondrán Isona y Neri a leer.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "ese lugar no lo he señalado en el dibujo"
+              }
+            ]
+          },
+          {
+            "id": "l308b-q10",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué nos permite afirmar que Elna quiere participar también como oyente?",
+            "answer": "Dice que se sentará al final del banco y expresa curiosidad por la barca del cuento de Neri.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "después me sentaré al final del banco"
+              },
+              {
+                "paragraph": 6,
+                "text": "el sábado buscaré un buen sitio para enterarme de lo que ocurre"
+              }
+            ]
+          },
+          {
+            "id": "l308b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resume qué acepta Elna, qué cambia y qué deja para acordar al llegar.",
+            "answer": "Acepta el porche el sábado y el banco. Ofrece dos mantas pequeñas separadas en vez de una grande ante la puerta, para mantener el acceso. Queda por decidir dónde se pondrán los lectores.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Podéis utilizar el porche el sábado."
+              },
+              {
+                "paragraph": 3,
+                "text": "son dos pequeñas, en vez de la grande que pedías"
+              },
+              {
+                "paragraph": 6,
+                "text": "Quiero que me enseñes dónde os pondríais a leer"
+              }
+            ]
+          },
+          {
+            "id": "l308b-q12",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Redacta dos frases de respuesta de Isona: una sobre la distribución propuesta y otra sobre dónde podrían colocarse para leer.",
+            "answer": "Producción personal coherente que mantenga el paso libre y considere a quienes escucharán."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "disposición",
+            "occurrence": 1,
+            "questionId": "l308b-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l308-scene",
+            "src": "assets/readings/l308-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Isona lee la carta devuelta sentada en un banco del camino; Neri está a su lado y el molino aparece al fondo.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "la-carta-que-volvio-con-dibujos-b-ca",
+        "code": "L308B",
+        "workId": "la-carta-que-volvio-con-dibujos-b",
+        "language": "ca",
+        "familyId": "familia-l308",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "letter",
+        "title": "La carta que va tornar amb dibuixos",
+        "summary": "Una proposta per carta canvia en tenir en compte qui escoltarà els contes i qui continuarà fent servir el molí.",
+        "paragraphs": [
+          "Carta de l’Isona a l’Elna, propietària del molí de la ribera. Dimecres. Estimada Elna: en Neri i jo hem acabat dos contes i ens agradaria llegir-los als veïns dissabte a la tarda. Hem pensat en el teu porxo perquè alguns infants de la plaça ja en coneixen el camí. Jo llegiria primer i en Neri després. En el seu hi surt una barca buida; encara no et vull explicar qui la troba.",
+          "Voldríem estendre una manta gran davant de la porta i fer seure els infants a prop de qui llegeixi. El meu avi també vindrà, però li costa aixecar-se de terra. Ens deixaries un banc per a ell i per a altres veïns que prefereixin un seient? En acabar, recolliríem el que ens hagis deixat. En Neri et portarà aquesta carta i ens explicarà què et sembla la proposta. Isona.",
+          "Resposta de l’Elna, al dors. Dijous. Estimada Isona: em fa il·lusió sentir els vostres contes. Podeu fer servir el porxo dissabte. He esperat a respondre’t per escrit perquè volia provar-hi les mantes que tinc: són dues de petites, en lloc de la gran que demanaves. Les he estès als costats i he deixat una franja central lliure fins a la porta.",
+          "Hi he afegit un dibuix d’aquesta disposició. Les dues figures amples representen les mantes; el rectangle estret al costat de la paret és el banc. Des d’allà també s’escolta qui llegeix. La franja entre les mantes queda sense seient: encara hi haurà veïns que entraran a recollir farina durant aquella tarda. Si estenguéssim una manta de banda a banda, l’haurien de trepitjar o demanar que algú s’apartés.",
+          "En Neri et tornarà el mateix paper, amb la meva resposta per darrere. Així podreu mirar plegats el dibuix i dir-me si us va bé. Us ajudaré a treure les mantes quan arribeu dissabte; després seuré al final del banc. Com que recollireu el material en acabar, deixarem lliure el porxo abans de tancar el molí. Si voleu canviar alguna cosa, ensenyeu-m’ho al paper quan vingueu.",
+          "Guarda la carta i porta-la aquell dia. Vull que m’ensenyis on us posaríeu a llegir: aquest lloc no l’he assenyalat al dibuix. Després podrem obrir els contes. Em vaig quedar pensant en la barca buida que deies; dissabte buscaré un bon lloc per saber què hi passa. Elna."
+        ],
+        "questions": [
+          {
+            "id": "l308b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quins motius dona l’Isona per proposar el porxo i per demanar un banc?",
+            "answer": "Alguns infants coneixen el camí del porxo; al seu avi li costa aixecar-se de terra i altres veïns poden preferir un seient.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "alguns infants de la plaça ja en coneixen el camí"
+              },
+              {
+                "paragraph": 2,
+                "text": "li costa aixecar-se de terra"
+              }
+            ]
+          },
+          {
+            "id": "l308b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què l’Elna ha esperat per respondre per escrit?",
+            "answer": "Perquè volia provar al porxo les dues mantes petites que tenia.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "volia provar-hi les mantes que tinc"
+              }
+            ]
+          },
+          {
+            "id": "l308b-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir «disposició» en l’expressió «aquesta disposició»?",
+            "answer": "La manera com s’han col·locat les mantes i el banc dins de l’espai.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Les he estès als costats i he deixat una franja central lliure"
+              },
+              {
+                "paragraph": 4,
+                "text": "un dibuix d’aquesta disposició"
+              }
+            ]
+          },
+          {
+            "id": "l308b-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quines dues activitats permet combinar el canvi de distribució?",
+            "answer": "L’escolta dels contes i l’entrada de veïns per recollir farina.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Des d’allà també s’escolta qui llegeix."
+              },
+              {
+                "paragraph": 4,
+                "text": "veïns que entraran a recollir farina"
+              }
+            ]
+          },
+          {
+            "id": "l308b-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què representa cada forma del dibuix segons explica l’Elna?",
+            "answer": "Les dues figures amples són les mantes i el rectangle estret al costat de la paret és el banc.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Les dues figures amples representen les mantes; el rectangle estret al costat de la paret és el banc."
+              }
+            ]
+          },
+          {
+            "id": "l308b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què no n’hi hauria prou de posar les dues mantes juntes de banda a banda?",
+            "answer": "Perquè ocuparien l’accés i obligarien els veïns a trepitjar-les o a demanar que algú s’apartés.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "l’haurien de trepitjar o demanar que algú s’apartés"
+              }
+            ]
+          },
+          {
+            "id": "l308b-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Per què el text s’organitza en una carta i una resposta?",
+            "answer": "Permet conèixer primer què demana l’Isona i després què accepta o modifica l’Elna amb els seus motius.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "què et sembla la proposta"
+              },
+              {
+                "paragraph": 3,
+                "text": "Podeu fer servir el porxo dissabte."
+              }
+            ]
+          },
+          {
+            "id": "l308b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què pot fer l’Isona en rebre el paper que no podia fer abans d’enviar-lo?",
+            "answer": "Saber la resposta de l’Elna i comentar amb en Neri la col·locació que ha provat i dibuixat.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "amb la meva resposta per darrere"
+              },
+              {
+                "paragraph": 5,
+                "text": "mirar plegats el dibuix i dir-me si us va bé"
+              }
+            ]
+          },
+          {
+            "id": "l308b-q9",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quin detall de l’organització queda sense assenyalar al dibuix?",
+            "answer": "El lloc on es posaran l’Isona i en Neri a llegir.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "aquest lloc no l’he assenyalat al dibuix"
+              }
+            ]
+          },
+          {
+            "id": "l308b-q10",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què ens permet afirmar que l’Elna vol participar també com a oient?",
+            "answer": "Diu que seurà al final del banc i expressa curiositat per la barca del conte d’en Neri.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "després seuré al final del banc"
+              },
+              {
+                "paragraph": 6,
+                "text": "dissabte buscaré un bon lloc per saber què hi passa"
+              }
+            ]
+          },
+          {
+            "id": "l308b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resumeix què accepta l’Elna, què canvia i què deixa per acordar en arribar.",
+            "answer": "Accepta el porxo dissabte i el banc. Ofereix dues mantes petites separades en lloc d’una de gran davant de la porta, per mantenir l’accés. Queda per decidir on es posaran els lectors.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Podeu fer servir el porxo dissabte."
+              },
+              {
+                "paragraph": 3,
+                "text": "són dues de petites, en lloc de la gran que demanaves"
+              },
+              {
+                "paragraph": 6,
+                "text": "Vull que m’ensenyis on us posaríeu a llegir"
+              }
+            ]
+          },
+          {
+            "id": "l308b-q12",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Redacta dues frases de resposta de l’Isona: una sobre la distribució proposada i l’altra sobre on es podrien posar per llegir.",
+            "answer": "Producció personal coherent que mantingui el pas lliure i tingui en compte qui escoltarà."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "disposició",
+            "occurrence": 1,
+            "questionId": "l308b-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l308-scene",
+            "src": "assets/readings/l308-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "L’Isona llegeix la carta retornada asseguda en un banc del camí; en Neri és al seu costat i el molí es veu al fons.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 4
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L308A",
+        "language": "es",
+        "questions": {
+          "l308a-q1": {
+            "prompt": "¿Qué le propone Isona a Elna?",
+            "options": [
+              "Llevar dos cuentos nuevos al abuelo de Elna.",
+              "Leer dos cuentos a los vecinos bajo el porche.",
+              "Recoger harina mientras Neri prepara las mantas.",
+              "Dibujar el molino para guardarlo junto al banco."
+            ],
+            "correct": "b",
+            "explanation": "Leer dos cuentos a los vecinos bajo el porche del molino."
+          },
+          "l308a-q2": {
+            "prompt": "¿Qué día quieren hacer la lectura de cuentos?",
+            "options": [
+              "El miércoles, cuando Isona escribe.",
+              "El jueves, cuando Elna responde.",
+              "El sábado, después de recoger las mantas.",
+              "El sábado por la tarde."
+            ],
+            "correct": "d",
+            "explanation": "El sábado por la tarde."
+          },
+          "l308a-q3": {
+            "prompt": "¿Por qué Isona pide también un banco?",
+            "options": [
+              "Para su abuelo y otras personas que prefieran un asiento.",
+              "Para dejar encima la harina que recogerán los vecinos.",
+              "Para que Neri se siente mientras Isona lleva la carta.",
+              "Para sujetar la manta grande delante de la puerta."
+            ],
+            "correct": "a",
+            "explanation": "Porque a su abuelo le cuesta levantarse del suelo y puede haber otras personas que prefieran un asiento."
+          },
+          "l308a-q4": {
+            "prompt": "¿Qué significa escribir «al dorso» del papel?",
+            "options": [
+              "Escribir debajo del dibujo, en la misma cara.",
+              "Escribir en otro papel que llevará el abuelo.",
+              "Escribir por detrás, en la otra cara del papel.",
+              "Escribir al final de la carta, antes de firmarla."
+            ],
+            "correct": "c",
+            "explanation": "Escribir en la otra cara, por detrás."
+          },
+          "l308a-q5": {
+            "prompt": "¿Cómo propone Elna colocar las dos mantas?",
+            "options": [
+              "Una sobre otra, junto al banco de la pared.",
+              "Una a cada lado, con un paso entre ellas.",
+              "Las dos delante de la puerta, sin separación.",
+              "Una dentro del molino y otra junto al abuelo."
+            ],
+            "correct": "b",
+            "explanation": "Una a cada lado, con un paso entre ellas hasta la puerta."
+          },
+          "l308a-q6": {
+            "prompt": "¿Por qué conviene dejar libre el paso a la puerta?",
+            "options": [
+              "Para que Isona pueda leer antes que Neri.",
+              "Para que el dibujo vuelva el jueves a casa de Isona.",
+              "Para poner allí el banco cuando se levante el abuelo.",
+              "Para permitir que siga entrando gente al molino."
+            ],
+            "correct": "d",
+            "explanation": "Porque habrá personas que entren a recoger harina mientras se cuentan los cuentos."
+          },
+          "l308a-q7": {
+            "prompt": "¿Qué resumen recoge mejor la respuesta de Elna?",
+            "options": [
+              "Acepta los cuentos, con dos mantas separadas y un banco junto a la pared.",
+              "Cambia los cuentos al jueves y conserva una manta delante de la puerta.",
+              "Acepta prestar las mantas, pero pide que los cuentos se lean en otro lugar.",
+              "Acepta una manta grande y quita el banco para dejar paso a la harina."
+            ],
+            "correct": "a",
+            "explanation": "Acepta la tarde de cuentos y el banco. En vez de una manta grande, ofrece dos pequeñas a los lados para dejar paso a la puerta."
+          }
+        }
+      },
+      {
+        "code": "L308A",
+        "language": "ca",
+        "questions": {
+          "l308a-q1": {
+            "prompt": "Què proposa l’Isona a l’Elna?",
+            "options": [
+              "Portar dos contes nous a l’avi de l’Elna.",
+              "Llegir dos contes als veïns sota el porxo.",
+              "Recollir farina mentre en Neri prepara les mantes.",
+              "Dibuixar el molí per desar-lo al costat del banc."
+            ],
+            "correct": "b",
+            "explanation": "Llegir dos contes als veïns sota el porxo del molí."
+          },
+          "l308a-q2": {
+            "prompt": "Quin dia volen fer la lectura de contes?",
+            "options": [
+              "Dimecres, quan l’Isona escriu.",
+              "Dijous, quan l’Elna respon.",
+              "Dissabte, després de recollir les mantes.",
+              "Dissabte a la tarda."
+            ],
+            "correct": "d",
+            "explanation": "Dissabte a la tarda."
+          },
+          "l308a-q3": {
+            "prompt": "Per què l’Isona demana també un banc?",
+            "options": [
+              "Per al seu avi i altres persones que prefereixin un seient.",
+              "Per deixar-hi al damunt la farina que recolliran els veïns.",
+              "Perquè en Neri hi segui mentre l’Isona porta la carta.",
+              "Per subjectar la manta gran davant de la porta."
+            ],
+            "correct": "a",
+            "explanation": "Perquè al seu avi li costa aixecar-se de terra i pot haver-hi altres persones que prefereixin un seient."
+          },
+          "l308a-q4": {
+            "prompt": "Què vol dir escriure «al dors» del paper?",
+            "options": [
+              "Escriure sota el dibuix, a la mateixa cara.",
+              "Escriure en un altre paper que portarà l’avi.",
+              "Escriure per darrere, a l’altra cara del paper.",
+              "Escriure al final de la carta, abans de signar-la."
+            ],
+            "correct": "c",
+            "explanation": "Escriure a l’altra cara, per darrere."
+          },
+          "l308a-q5": {
+            "prompt": "Com proposa l’Elna col·locar les dues mantes?",
+            "options": [
+              "Una damunt de l’altra, al costat del banc de la paret.",
+              "Una a cada costat, amb un pas entremig.",
+              "Totes dues davant de la porta, sense separació.",
+              "Una dins del molí i l’altra al costat de l’avi."
+            ],
+            "correct": "b",
+            "explanation": "Una a cada costat, amb un pas entremig fins a la porta."
+          },
+          "l308a-q6": {
+            "prompt": "Per què convé deixar lliure el pas a la porta?",
+            "options": [
+              "Perquè l’Isona pugui llegir abans que en Neri.",
+              "Perquè el dibuix torni dijous a casa de l’Isona.",
+              "Per posar-hi el banc quan s’aixequi l’avi.",
+              "Per permetre que continuï entrant gent al molí."
+            ],
+            "correct": "d",
+            "explanation": "Perquè hi haurà persones que entraran a recollir farina mentre s’expliquen els contes."
+          },
+          "l308a-q7": {
+            "prompt": "Quin resum recull millor la resposta de l’Elna?",
+            "options": [
+              "Accepta els contes, amb dues mantes separades i un banc al costat de la paret.",
+              "Canvia els contes a dijous i conserva una manta davant de la porta.",
+              "Accepta deixar les mantes, però demana que els contes es llegeixin en un altre lloc.",
+              "Accepta una manta gran i treu el banc per deixar pas a la farina."
+            ],
+            "correct": "a",
+            "explanation": "Accepta la tarda de contes i el banc. En lloc d’una manta gran, ofereix dues mantes petites als costats per deixar pas a la porta."
+          }
+        }
+      },
+      {
+        "code": "L308",
+        "language": "es",
+        "questions": {
+          "l308-q1": {
+            "prompt": "¿Quién escribe cada mensaje y en qué orden?",
+            "options": [
+              "Neri escribe a Isona el miércoles; ella contesta el jueves.",
+              "Elna escribe a Isona el miércoles; Isona contesta el sábado.",
+              "Isona escribe a Elna el miércoles; Elna responde el jueves.",
+              "Isona escribe a Neri el jueves; Elna responde el sábado."
+            ],
+            "correct": "c",
+            "explanation": "Isona escribe a Elna el miércoles y Elna responde el jueves."
+          },
+          "l308-q2": {
+            "prompt": "¿Qué orden de lectura propone Isona para los cuentos?",
+            "options": [
+              "Primero Isona y después Neri.",
+              "Primero Elna y después el abuelo.",
+              "Primero Neri y después Isona.",
+              "Primero el abuelo y después Elna."
+            ],
+            "correct": "a",
+            "explanation": "Primero el suyo y después el de Neri."
+          },
+          "l308-q3": {
+            "prompt": "¿Qué material pide Isona y qué material ofrece Elna?",
+            "options": [
+              "Pide dos mantas pequeñas y recibe una grande junto a la puerta.",
+              "Pide un banco y Elna propone sustituirlo por una manta grande.",
+              "Pide una manta y Elna presta un banco para ocupar su lugar.",
+              "Pide una manta grande y un banco; recibe dos pequeñas y el banco."
+            ],
+            "correct": "d",
+            "explanation": "Isona pide una manta grande y un banco. Elna ofrece dos mantas pequeñas y el banco."
+          },
+          "l308-q4": {
+            "prompt": "¿Qué es el «boceto» que añade Elna?",
+            "options": [
+              "Una copia completa de los cuentos del sábado.",
+              "Un dibujo sencillo de la colocación propuesta.",
+              "Una lista de quienes vendrán a recoger harina.",
+              "Una manta pequeña destinada al banco del abuelo."
+            ],
+            "correct": "b",
+            "explanation": "Un dibujo sencillo que muestra cómo propone distribuir las mantas y el banco."
+          },
+          "l308-q5": {
+            "prompt": "¿Qué problema evita la franja libre entre las mantas?",
+            "options": [
+              "Que los vecinos tengan que cruzar la zona donde se sientan los niños.",
+              "Que el banco quede ocupado por las mantas en vez de por los oyentes.",
+              "Que los niños tengan que sentarse todos sobre una sola manta.",
+              "Que el lugar de los lectores quede separado del de quienes escuchan."
+            ],
+            "correct": "a",
+            "explanation": "Que las personas que entren por harina tengan que cruzar por donde están sentados los niños."
+          },
+          "l308-q6": {
+            "prompt": "¿Por qué el banco no tiene que estar sobre la franja central?",
+            "options": [
+              "Porque esa franja está reservada a quienes leen los cuentos.",
+              "Porque en el banco solo podrán sentarse quienes recojan harina.",
+              "Porque debe quedar disponible como paso de entrada al molino.",
+              "Porque Isona llevará una manta grande que ocupará todo el porche."
+            ],
+            "correct": "c",
+            "explanation": "Porque esa franja debe servir para entrar; al lado de la pared puede escucharse sin ocuparla."
+          },
+          "l308-q7": {
+            "prompt": "¿Qué aportan juntas las palabras de Elna y el dibujo que describe?",
+            "options": [
+              "Las palabras cuentan un cuento y el dibujo permite elegir su final.",
+              "El dibujo confirma qué vecinos han prometido llevar cada manta.",
+              "Las palabras cambian el día y el dibujo mantiene la propuesta inicial.",
+              "Las palabras explican la propuesta y el dibujo ayuda a visualizarla."
+            ],
+            "correct": "d",
+            "explanation": "Las palabras explican el motivo y la colocación; el dibujo ayuda a imaginar esa distribución."
+          },
+          "l308-q8": {
+            "prompt": "¿Qué llevará Neri de vuelta a Isona?",
+            "options": [
+              "El banco junto con los dos cuentos ya leídos.",
+              "El papel con la respuesta y el dibujo por detrás.",
+              "Dos papeles con los cuentos que ha elegido Elna.",
+              "La manta grande que Isona había pedido primero."
+            ],
+            "correct": "b",
+            "explanation": "El mismo papel, con la respuesta y el dibujo de Elna al dorso."
+          },
+          "l308-q9": {
+            "prompt": "¿Qué resumen corresponde a la respuesta?",
+            "options": [
+              "Elna acepta los cuentos con otra distribución; pide conservar el papel hasta el encuentro.",
+              "Elna aplaza los cuentos y devuelve el papel para que Isona cambie las historias.",
+              "Elna acepta la manta grande y envía a Neri para recoger el banco antes del sábado.",
+              "Elna presta el porche después de repartir toda la harina y decide quién leerá primero."
+            ],
+            "correct": "a",
+            "explanation": "Elna acepta los cuentos el sábado y propone dos mantas separadas y un banco junto a la pared. Isona debe mirar la propuesta con Neri y guardar el papel para enseñárselo a Elna al llegar."
+          }
+        }
+      },
+      {
+        "code": "L308",
+        "language": "ca",
+        "questions": {
+          "l308-q1": {
+            "prompt": "Qui escriu cada missatge i en quin ordre?",
+            "options": [
+              "En Neri escriu a l’Isona dimecres; ella contesta dijous.",
+              "L’Elna escriu a l’Isona dimecres; l’Isona contesta dissabte.",
+              "L’Isona escriu a l’Elna dimecres; l’Elna respon dijous.",
+              "L’Isona escriu a en Neri dijous; l’Elna respon dissabte."
+            ],
+            "correct": "c",
+            "explanation": "L’Isona escriu a l’Elna dimecres i l’Elna respon dijous."
+          },
+          "l308-q2": {
+            "prompt": "Quin ordre de lectura proposa l’Isona per als contes?",
+            "options": [
+              "Primer l’Isona i després en Neri.",
+              "Primer l’Elna i després l’avi.",
+              "Primer en Neri i després l’Isona.",
+              "Primer l’avi i després l’Elna."
+            ],
+            "correct": "a",
+            "explanation": "Primer el seu i després el d’en Neri."
+          },
+          "l308-q3": {
+            "prompt": "Quin material demana l’Isona i quin material ofereix l’Elna?",
+            "options": [
+              "Demana dues mantes petites i en rep una de gran al costat de la porta.",
+              "Demana un banc i l’Elna proposa substituir-lo per una manta gran.",
+              "Demana una manta i l’Elna deixa un banc per ocupar-ne el lloc.",
+              "Demana una manta gran i un banc; rep dues mantes petites i el banc."
+            ],
+            "correct": "d",
+            "explanation": "L’Isona demana una manta gran i un banc. L’Elna ofereix dues mantes petites i el banc."
+          },
+          "l308-q4": {
+            "prompt": "Què és l’«esbós» que hi afegeix l’Elna?",
+            "options": [
+              "Una còpia completa dels contes de dissabte.",
+              "Un dibuix senzill de la col·locació proposada.",
+              "Una llista de les persones que vindran a recollir farina.",
+              "Una manta petita destinada al banc de l’avi."
+            ],
+            "correct": "b",
+            "explanation": "Un dibuix senzill que mostra com proposa distribuir les mantes i el banc."
+          },
+          "l308-q5": {
+            "prompt": "Quin problema evita la franja lliure entre les mantes?",
+            "options": [
+              "Que els veïns hagin de travessar la zona on seuen els infants.",
+              "Que el banc quedi ocupat per les mantes en lloc dels oients.",
+              "Que els infants hagin de seure tots damunt d’una sola manta.",
+              "Que el lloc dels lectors quedi separat del dels que escolten."
+            ],
+            "correct": "a",
+            "explanation": "Que les persones que entrin a buscar farina hagin de travessar per on seuen els infants."
+          },
+          "l308-q6": {
+            "prompt": "Per què el banc no ha de ser damunt de la franja central?",
+            "options": [
+              "Perquè aquella franja està reservada als que llegeixen els contes.",
+              "Perquè al banc només hi podran seure els que recullin farina.",
+              "Perquè ha de quedar disponible com a pas d’entrada al molí.",
+              "Perquè l’Isona portarà una manta gran que ocuparà tot el porxo."
+            ],
+            "correct": "c",
+            "explanation": "Perquè aquella franja ha de servir per entrar; al costat de la paret es pot escoltar sense ocupar-la."
+          },
+          "l308-q7": {
+            "prompt": "Què aporten plegades les paraules de l’Elna i el dibuix que descriu?",
+            "options": [
+              "Les paraules expliquen un conte i el dibuix permet triar-ne el final.",
+              "El dibuix confirma quins veïns han promès portar cada manta.",
+              "Les paraules canvien el dia i el dibuix manté la proposta inicial.",
+              "Les paraules expliquen la proposta i el dibuix ajuda a visualitzar-la."
+            ],
+            "correct": "d",
+            "explanation": "Les paraules expliquen el motiu i la col·locació; el dibuix ajuda a imaginar aquella distribució."
+          },
+          "l308-q8": {
+            "prompt": "Què portarà en Neri de tornada a l’Isona?",
+            "options": [
+              "El banc juntament amb els dos contes ja llegits.",
+              "El paper amb la resposta i el dibuix per darrere.",
+              "Dos papers amb els contes que ha triat l’Elna.",
+              "La manta gran que l’Isona havia demanat primer."
+            ],
+            "correct": "b",
+            "explanation": "El mateix paper, amb la resposta i el dibuix de l’Elna al dors."
+          },
+          "l308-q9": {
+            "prompt": "Quin resum correspon a la resposta?",
+            "options": [
+              "L’Elna accepta els contes amb una altra distribució; demana conservar el paper fins a la trobada.",
+              "L’Elna ajorna els contes i torna el paper perquè l’Isona canviï les històries.",
+              "L’Elna accepta la manta gran i envia en Neri a recollir el banc abans de dissabte.",
+              "L’Elna deixa el porxo després de repartir tota la farina i decideix qui llegirà primer."
+            ],
+            "correct": "a",
+            "explanation": "L’Elna accepta els contes dissabte i proposa dues mantes separades i un banc al costat de la paret. L’Isona ha de mirar la proposta amb en Neri i guardar el paper per ensenyar-lo a l’Elna en arribar."
+          }
+        }
+      },
+      {
+        "code": "L308B",
+        "language": "es",
+        "questions": {
+          "l308b-q1": {
+            "prompt": "¿Qué razones da Isona para proponer el porche y para pedir un banco?",
+            "options": [
+              "El porche está cerrado el sábado y el banco permite guardar los cuentos.",
+              "Elna ha probado las mantas y Neri ha elegido el sitio de los lectores.",
+              "La harina ya estará repartida y los niños han pedido sentarse en el banco.",
+              "El camino resulta conocido y algunas personas necesitan o prefieren un asiento."
+            ],
+            "correct": "d",
+            "explanation": "Algunos niños conocen el camino al porche; su abuelo tiene dificultad para levantarse del suelo y otros vecinos pueden preferir asiento."
+          },
+          "l308b-q2": {
+            "prompt": "¿Por qué Elna ha esperado para responder por escrito?",
+            "options": [
+              "Quería probar cómo quedaban allí las mantas disponibles.",
+              "Esperaba conocer el final del cuento de la barca vacía.",
+              "Quería que el abuelo eligiera primero su lugar en el banco.",
+              "Esperaba a que Neri trajera las dos mantas grandes de la plaza."
+            ],
+            "correct": "a",
+            "explanation": "Porque quería probar en el porche las dos mantas pequeñas que tenía."
+          },
+          "l308b-q3": {
+            "prompt": "¿Qué significa «disposición» en la expresión «esta disposición»?",
+            "options": [
+              "La voluntad de Elna de prestar cualquier parte del molino.",
+              "El orden en que Isona y Neri han acabado de escribir sus cuentos.",
+              "La manera de colocar los asientos y las mantas en el porche.",
+              "La lista de vecinos que se sentarán en cada manta el sábado."
+            ],
+            "correct": "c",
+            "explanation": "La manera en que se han colocado las mantas y el banco dentro del espacio."
+          },
+          "l308b-q4": {
+            "prompt": "¿Qué dos actividades permite combinar el cambio de distribución?",
+            "options": [
+              "Leer cuentos y mover el banco por delante de la puerta.",
+              "Escuchar los relatos y seguir entrando a recoger harina.",
+              "Dibujar el camino y guardar las mantas sin extenderlas.",
+              "Preparar harina y leer primero el cuento que elija el abuelo."
+            ],
+            "correct": "b",
+            "explanation": "La escucha de los cuentos y la entrada de vecinos para recoger harina."
+          },
+          "l308b-q5": {
+            "prompt": "¿Qué representa cada forma del dibujo según explica Elna?",
+            "options": [
+              "Las figuras anchas son los cuentos y la estrecha es el lugar de lectura.",
+              "Las figuras anchas son los bancos y la estrecha es la puerta.",
+              "Las figuras anchas son las entradas y la estrecha es una manta doblada.",
+              "Las figuras anchas son las mantas y la estrecha junto a la pared es el banco."
+            ],
+            "correct": "d",
+            "explanation": "Las dos figuras anchas son las mantas y el rectángulo estrecho junto a la pared es el banco."
+          },
+          "l308b-q6": {
+            "prompt": "¿Por qué no bastaría con poner las dos mantas juntas de lado a lado?",
+            "options": [
+              "Porque atravesaría un acceso que seguirá necesitando gente ajena a los cuentos.",
+              "Porque las mantas tienen que reservarse para los vecinos que recogen harina.",
+              "Porque el banco dejaría de ser necesario al haber dos mantas disponibles.",
+              "Porque una manta grande impediría distinguir los lugares de los dos cuentos."
+            ],
+            "correct": "a",
+            "explanation": "Porque ocuparían el acceso y obligarían a los vecinos a pisarlas o pedir que se apartara alguien."
+          },
+          "l308b-q7": {
+            "prompt": "¿Por qué el texto se organiza en una carta y una respuesta?",
+            "options": [
+              "Para presentar dos versiones de lo que ya ha ocurrido durante los cuentos.",
+              "Para mostrar que Neri cambia la carta mientras la lleva al molino.",
+              "Para seguir una petición y los cambios que propone quien responde.",
+              "Para separar el cuento de Isona del cuento de Neri sin revelar sus finales."
+            ],
+            "correct": "c",
+            "explanation": "Permite conocer primero lo que pide Isona y después qué acepta o modifica Elna con sus razones."
+          },
+          "l308b-q8": {
+            "prompt": "¿Qué puede hacer Isona al recibir el papel que no podía hacer antes de enviarlo?",
+            "options": [
+              "Saber qué personajes aparecerán en su propio cuento del sábado.",
+              "Valorar con Neri la respuesta y la distribución propuesta por Elna.",
+              "Confirmar que el molino dejará de recibir vecinos durante toda la tarde.",
+              "Comprobar que el abuelo ya ha ocupado su lugar al final del banco."
+            ],
+            "correct": "b",
+            "explanation": "Conocer la respuesta de Elna y comentar con Neri la colocación que ha probado y dibujado."
+          },
+          "l308b-q9": {
+            "prompt": "¿Qué detalle de la organización queda sin señalar en el dibujo?",
+            "options": [
+              "Qué objetos corresponden a las dos figuras anchas.",
+              "Dónde quedará el paso para entrar al molino.",
+              "Dónde se colocará el banco junto a la pared.",
+              "Dónde se situarán quienes lean los cuentos."
+            ],
+            "correct": "d",
+            "explanation": "El lugar donde se pondrán Isona y Neri a leer."
+          },
+          "l308b-q10": {
+            "prompt": "¿Qué nos permite afirmar que Elna quiere participar también como oyente?",
+            "options": [
+              "Se reserva un lugar para escuchar y quiere saber cómo sigue el cuento.",
+              "Espera a que Isona haya recogido todo para decidir qué puede prestar.",
+              "Quiere cambiar el orden de los lectores para empezar con su propio relato.",
+              "Dibuja una barca real y pide a los niños que la lleven hasta el molino."
+            ],
+            "correct": "a",
+            "explanation": "Dice que se sentará al final del banco y expresa curiosidad por la barca del cuento de Neri."
+          },
+          "l308b-q11": {
+            "prompt": "¿Cuál es el resumen más preciso de la respuesta?",
+            "options": [
+              "Elna cambia la tarde, mantiene la manta grande y espera que Neri elija los cuentos.",
+              "Elna acepta solo el banco y deja el uso del porche pendiente de que acabe el reparto.",
+              "Elna acepta la actividad, adapta los asientos al acceso y deja por concretar el lugar de lectura.",
+              "Elna dibuja una propuesta definitiva, cambia el orden de lectura y pide traer otra manta."
+            ],
+            "correct": "c",
+            "explanation": "Acepta el porche el sábado y el banco. Ofrece dos mantas pequeñas separadas en vez de una grande ante la puerta, para mantener el acceso. Queda por decidir dónde se pondrán los lectores."
+          }
+        }
+      },
+      {
+        "code": "L308B",
+        "language": "ca",
+        "questions": {
+          "l308b-q1": {
+            "prompt": "Quins motius dona l’Isona per proposar el porxo i per demanar un banc?",
+            "options": [
+              "El porxo és tancat dissabte i el banc permet desar els contes.",
+              "L’Elna ha provat les mantes i en Neri ha triat el lloc dels lectors.",
+              "La farina ja estarà repartida i els infants han demanat seure al banc.",
+              "El camí resulta conegut i algunes persones necessiten o prefereixen un seient."
+            ],
+            "correct": "d",
+            "explanation": "Alguns infants coneixen el camí del porxo; al seu avi li costa aixecar-se de terra i altres veïns poden preferir un seient."
+          },
+          "l308b-q2": {
+            "prompt": "Per què l’Elna ha esperat per respondre per escrit?",
+            "options": [
+              "Volia provar com hi quedaven les mantes disponibles.",
+              "Esperava saber el final del conte de la barca buida.",
+              "Volia que l’avi triés primer el seu lloc al banc.",
+              "Esperava que en Neri portés les dues mantes grans de la plaça."
+            ],
+            "correct": "a",
+            "explanation": "Perquè volia provar al porxo les dues mantes petites que tenia."
+          },
+          "l308b-q3": {
+            "prompt": "Què vol dir «disposició» en l’expressió «aquesta disposició»?",
+            "options": [
+              "La voluntat de l’Elna de deixar qualsevol part del molí.",
+              "L’ordre en què l’Isona i en Neri han acabat d’escriure els contes.",
+              "La manera de col·locar els seients i les mantes al porxo.",
+              "La llista de veïns que seuran a cada manta dissabte."
+            ],
+            "correct": "c",
+            "explanation": "La manera com s’han col·locat les mantes i el banc dins de l’espai."
+          },
+          "l308b-q4": {
+            "prompt": "Quines dues activitats permet combinar el canvi de distribució?",
+            "options": [
+              "Llegir contes i moure el banc per davant de la porta.",
+              "Escoltar els relats i continuar entrant a recollir farina.",
+              "Dibuixar el camí i desar les mantes sense estendre-les.",
+              "Preparar farina i llegir primer el conte que triï l’avi."
+            ],
+            "correct": "b",
+            "explanation": "L’escolta dels contes i l’entrada de veïns per recollir farina."
+          },
+          "l308b-q5": {
+            "prompt": "Què representa cada forma del dibuix segons explica l’Elna?",
+            "options": [
+              "Les figures amples són els contes i l’estreta és el lloc de lectura.",
+              "Les figures amples són els bancs i l’estreta és la porta.",
+              "Les figures amples són les entrades i l’estreta és una manta plegada.",
+              "Les figures amples són les mantes i l’estreta al costat de la paret és el banc."
+            ],
+            "correct": "d",
+            "explanation": "Les dues figures amples són les mantes i el rectangle estret al costat de la paret és el banc."
+          },
+          "l308b-q6": {
+            "prompt": "Per què no n’hi hauria prou de posar les dues mantes juntes de banda a banda?",
+            "options": [
+              "Perquè travessaria un accés que continuarà necessitant gent que no escolta els contes.",
+              "Perquè les mantes s’han de reservar per als veïns que recullen farina.",
+              "Perquè el banc deixaria de caldre en haver-hi dues mantes disponibles.",
+              "Perquè una manta gran impediria distingir els llocs dels dos contes."
+            ],
+            "correct": "a",
+            "explanation": "Perquè ocuparien l’accés i obligarien els veïns a trepitjar-les o a demanar que algú s’apartés."
+          },
+          "l308b-q7": {
+            "prompt": "Per què el text s’organitza en una carta i una resposta?",
+            "options": [
+              "Per presentar dues versions del que ja ha passat durant els contes.",
+              "Per mostrar que en Neri canvia la carta mentre la porta al molí.",
+              "Per seguir una petició i els canvis que proposa qui respon.",
+              "Per separar el conte de l’Isona del conte d’en Neri sense revelar-ne els finals."
+            ],
+            "correct": "c",
+            "explanation": "Permet conèixer primer què demana l’Isona i després què accepta o modifica l’Elna amb els seus motius."
+          },
+          "l308b-q8": {
+            "prompt": "Què pot fer l’Isona en rebre el paper que no podia fer abans d’enviar-lo?",
+            "options": [
+              "Saber quins personatges sortiran al seu propi conte de dissabte.",
+              "Valorar amb en Neri la resposta i la distribució proposada per l’Elna.",
+              "Confirmar que el molí deixarà de rebre veïns durant tota la tarda.",
+              "Comprovar que l’avi ja ha ocupat el seu lloc al final del banc."
+            ],
+            "correct": "b",
+            "explanation": "Saber la resposta de l’Elna i comentar amb en Neri la col·locació que ha provat i dibuixat."
+          },
+          "l308b-q9": {
+            "prompt": "Quin detall de l’organització queda sense assenyalar al dibuix?",
+            "options": [
+              "Quins objectes corresponen a les dues figures amples.",
+              "On quedarà el pas per entrar al molí.",
+              "On es col·locarà el banc al costat de la paret.",
+              "On se situaran els que llegeixin els contes."
+            ],
+            "correct": "d",
+            "explanation": "El lloc on es posaran l’Isona i en Neri a llegir."
+          },
+          "l308b-q10": {
+            "prompt": "Què ens permet afirmar que l’Elna vol participar també com a oient?",
+            "options": [
+              "Es reserva un lloc per escoltar i vol saber com continua el conte.",
+              "Espera que l’Isona ho hagi recollit tot per decidir què pot deixar.",
+              "Vol canviar l’ordre dels lectors per començar amb el seu propi relat.",
+              "Dibuixa una barca real i demana als infants que la portin fins al molí."
+            ],
+            "correct": "a",
+            "explanation": "Diu que seurà al final del banc i expressa curiositat per la barca del conte d’en Neri."
+          },
+          "l308b-q11": {
+            "prompt": "Quin resum és més precís de la resposta?",
+            "options": [
+              "L’Elna canvia la tarda, manté la manta gran i espera que en Neri triï els contes.",
+              "L’Elna accepta només el banc i deixa l’ús del porxo pendent que acabi el repartiment.",
+              "L’Elna accepta l’activitat, adapta els seients a l’accés i deixa per concretar el lloc de lectura.",
+              "L’Elna dibuixa una proposta definitiva, canvia l’ordre de lectura i demana portar una altra manta."
+            ],
+            "correct": "c",
+            "explanation": "Accepta el porxo dissabte i el banc. Ofereix dues mantes petites separades en lloc d’una de gran davant de la porta, per mantenir l’accés. Queda per decidir on es posaran els lectors."
+          }
+        }
+      }
+    ]
   }
 ];
