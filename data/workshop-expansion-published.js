@@ -3841,5 +3841,1910 @@ export const workshopPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L300",
+    "edition": "v1.62.2",
+    "family": {
+      "id": "familia-l300",
+      "code": "L300",
+      "name": {
+        "es": "La cometa que volvió al patio",
+        "ca": "L’estel que va tornar al pati"
+      },
+      "description": {
+        "ca": "Una història del Taller de la plaça, amb suport, versió de referència i ampliació.",
+        "es": "Una historia del Taller de la plaza, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L300A",
+        "L300",
+        "L300B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "la-cometa-que-volvio-al-patio-a-es",
+        "code": "L300A",
+        "workId": "la-cometa-que-volvio-al-patio-a",
+        "language": "es",
+        "familyId": "familia-l300",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "games",
+          "community",
+          "everyday"
+        ],
+        "genre": "news",
+        "title": "La cometa que volvió al patio",
+        "summary": "Una reparación y una prueba corta permiten volver a usar una cometa en el patio.",
+        "paragraphs": [
+          "La cometa amarilla y azul de Mateo volvió ayer al patio del centro vecinal. Mateo, un adulto que organiza juegos allí, la había llevado al taller de la plaza. Irene, la reparadora, arregló un desgarro en la tela. Hugo y Asha, dos niños del barrio, observaron la reparación y la prueba.",
+          "La tela se había enganchado en un seto junto al patio. Hugo pensó que habría que cambiar toda la parte azul. Irene revisó las varillas y las encontró firmes. La tela alrededor del corte también estaba entera. Decidió coser un parche claro sobre la zona dañada. Asha dibujó el lugar del corte antes de que quedara tapado.",
+          "Irene propuso probarla la tarde siguiente si había brisa. Mateo manejaría el hilo en una parte despejada del patio. Los niños mirarían desde un lado. Primero harían un vuelo corto y después revisarían el parche.",
+          "Ayer pudieron realizar esa prueba. Mateo hizo volar la cometa y la bajó poco después. Irene comprobó que la costura no se había abierto. Hugo añadió el parche al dibujo de Asha. Antes de otro vuelo, Mateo se acercó al dibujo para ver dónde había estado el corte."
+        ],
+        "questions": [
+          {
+            "id": "l300a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Cómo se había roto la tela de la cometa?",
+            "answer": "Se había enganchado en un seto junto al patio.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La tela se había enganchado en un seto junto al patio."
+              }
+            ]
+          },
+          {
+            "id": "l300a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué revisó Irene antes de elegir la reparación?",
+            "answer": "Revisó las varillas, que estaban firmes, y la tela alrededor del corte, que estaba entera.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Irene revisó las varillas y las encontró firmes. La tela alrededor del corte también estaba entera."
+              }
+            ]
+          },
+          {
+            "id": "l300a-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «desgarro» en esta lectura?",
+            "answer": "Una rotura o rasgadura en la tela de la cometa.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Irene, la reparadora, arregló un desgarro en la tela."
+              }
+            ]
+          },
+          {
+            "id": "l300a-q4",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Quién manejaría el hilo durante la prueba?",
+            "answer": "Mateo, el adulto que organiza juegos en el centro vecinal.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Mateo manejaría el hilo"
+              }
+            ]
+          },
+          {
+            "id": "l300a-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué hizo Mateo después del vuelo corto y qué comprobó Irene?",
+            "answer": "Mateo bajó la cometa e Irene comprobó que la costura del parche no se había abierto.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Mateo hizo volar la cometa y la bajó poco después. Irene comprobó que la costura no se había abierto."
+              }
+            ]
+          },
+          {
+            "id": "l300a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Para qué resultó útil el dibujo cuando el corte ya estaba tapado?",
+            "answer": "Permitía recordar dónde estaba el corte y compararlo con el lugar del parche.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Asha dibujó el lugar del corte antes de que quedara tapado."
+              },
+              {
+                "paragraph": 4,
+                "text": "Hugo añadió el parche al dibujo de Asha."
+              },
+              {
+                "paragraph": 4,
+                "text": "ver dónde había estado el corte"
+              }
+            ]
+          },
+          {
+            "id": "l300a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué le ocurrió a la cometa y cómo comprobaron la reparación.",
+            "answer": "La tela se rompió al engancharse en un seto. Irene revisó la cometa y cosió un parche. Mateo realizó un vuelo corto y, al bajarla, Irene comprobó que la costura seguía cerrada.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Decidió coser un parche claro sobre la zona dañada."
+              },
+              {
+                "paragraph": 4,
+                "text": "Mateo hizo volar la cometa y la bajó poco después. Irene comprobó que la costura no se había abierto."
+              }
+            ]
+          },
+          {
+            "id": "l300a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué anotarías junto al dibujo después de la prueba? Escribe una nota que te parezca útil y explica por qué.",
+            "answer": "Respuesta personal vinculada a lo observado, por ejemplo que el parche se revisó después de un vuelo corto y la costura seguía cerrada."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "desgarro",
+            "occurrence": 1,
+            "questionId": "l300a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l300-scene",
+            "src": "assets/readings/l300-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Mateo sostiene su cometa amarilla y azul con un parche claro mientras Irene, Hugo y Asha preparan la prueba en el porche del centro vecinal.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-cometa-que-volvio-al-patio-a-ca",
+        "code": "L300A",
+        "workId": "la-cometa-que-volvio-al-patio-a",
+        "language": "ca",
+        "familyId": "familia-l300",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "games",
+          "community",
+          "everyday"
+        ],
+        "genre": "news",
+        "title": "L’estel que va tornar al pati",
+        "summary": "Una reparació i una prova curta permeten tornar a fer servir un estel al pati.",
+        "paragraphs": [
+          "L’estel groc i blau d’en Mateo va tornar ahir al pati del centre veïnal. En Mateo, un adult que hi organitza jocs, l’havia portat al taller de la plaça. La Irene, la reparadora, va arreglar un esquinç de la tela. L’Hugo i l’Asha, dos infants del barri, van observar la reparació i la prova.",
+          "La tela s’havia enganxat en una tanca vegetal al costat del pati. L’Hugo va pensar que caldria canviar tota la part blava. La Irene va revisar les varetes i les va trobar fermes. La tela al voltant del tall també era sencera. Va decidir cosir un pedaç clar damunt la zona malmesa. L’Asha va dibuixar el lloc del tall abans que quedés tapat.",
+          "La Irene va proposar provar-lo la tarda següent si feia una mica de vent. En Mateo faria anar el fil en una part buida del pati. Els infants mirarien des d’un costat. Primer farien un vol curt i després revisarien el pedaç.",
+          "Ahir van poder fer aquella prova. En Mateo va fer volar l’estel i el va fer baixar poc després. La Irene va comprovar que la costura no s’havia obert. L’Hugo va afegir el pedaç al dibuix de l’Asha. Abans d’un altre vol, en Mateo es va acostar al dibuix per veure on hi havia hagut el tall."
+        ],
+        "questions": [
+          {
+            "id": "l300a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Com s’havia estripat la tela de l’estel?",
+            "answer": "S’havia enganxat en una tanca vegetal al costat del pati.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La tela s’havia enganxat en una tanca vegetal al costat del pati."
+              }
+            ]
+          },
+          {
+            "id": "l300a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què va revisar la Irene abans de triar la reparació?",
+            "answer": "Va revisar les varetes, que eren fermes, i la tela al voltant del tall, que era sencera.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La Irene va revisar les varetes i les va trobar fermes. La tela al voltant del tall també era sencera."
+              }
+            ]
+          },
+          {
+            "id": "l300a-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir «esquinç» en aquesta lectura?",
+            "answer": "Un estrip o un tall a la tela de l’estel.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "La Irene, la reparadora, va arreglar un esquinç de la tela."
+              }
+            ]
+          },
+          {
+            "id": "l300a-q4",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Qui faria anar el fil durant la prova?",
+            "answer": "En Mateo, l’adult que organitza jocs al centre veïnal.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "En Mateo faria anar el fil"
+              }
+            ]
+          },
+          {
+            "id": "l300a-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què va fer en Mateo després del vol curt i què va comprovar la Irene?",
+            "answer": "En Mateo va fer baixar l’estel i la Irene va comprovar que la costura del pedaç no s’havia obert.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "En Mateo va fer volar l’estel i el va fer baixar poc després. La Irene va comprovar que la costura no s’havia obert."
+              }
+            ]
+          },
+          {
+            "id": "l300a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per a què va ser útil el dibuix quan el tall ja estava tapat?",
+            "answer": "Permetia recordar on era el tall i comparar-lo amb el lloc del pedaç.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "L’Asha va dibuixar el lloc del tall abans que quedés tapat."
+              },
+              {
+                "paragraph": 4,
+                "text": "L’Hugo va afegir el pedaç al dibuix de l’Asha."
+              },
+              {
+                "paragraph": 4,
+                "text": "veure on hi havia hagut el tall"
+              }
+            ]
+          },
+          {
+            "id": "l300a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix què li va passar a l’estel i com van comprovar la reparació.",
+            "answer": "La tela es va estripar en enganxar-se en una tanca vegetal. La Irene va revisar l’estel i hi va cosir un pedaç. En Mateo va fer un vol curt i, en fer-lo baixar, la Irene va comprovar que la costura continuava tancada.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Va decidir cosir un pedaç clar damunt la zona malmesa."
+              },
+              {
+                "paragraph": 4,
+                "text": "En Mateo va fer volar l’estel i el va fer baixar poc després. La Irene va comprovar que la costura no s’havia obert."
+              }
+            ]
+          },
+          {
+            "id": "l300a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Què anotaries al costat del dibuix després de la prova? Escriu una nota que et sembli útil i explica per què.",
+            "answer": "Resposta personal vinculada a l’observació, per exemple que el pedaç es va revisar després d’un vol curt i la costura continuava tancada."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "esquinç",
+            "occurrence": 1,
+            "questionId": "l300a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l300-scene",
+            "src": "assets/readings/l300-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Mateo sosté l’estel groc i blau amb un pedaç clar mentre la Irene, l’Hugo i l’Asha preparen la prova al porxo del centre veïnal.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-cometa-que-volvio-al-patio-es",
+        "code": "L300",
+        "workId": "la-cometa-que-volvio-al-patio",
+        "language": "es",
+        "familyId": "familia-l300",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "games",
+          "community",
+          "everyday"
+        ],
+        "genre": "news",
+        "title": "La cometa que volvió al patio",
+        "summary": "El taller devuelve al patio una cometa cuya reparación se pone a prueba antes de seguir jugando.",
+        "paragraphs": [
+          "La cometa amarilla y azul de Mateo volvió ayer al patio del centro vecinal tras una reparación en el taller de la plaza. Irene, la reparadora, acompañó a su propietario para comprobar el resultado. También asistieron Hugo y Asha, dos niños del barrio que habían observado el arreglo. El primer vuelo duró poco: formaba parte de la prueba que habían acordado.",
+          "Mateo, un adulto que organiza juegos en el centro, había llevado la cometa al taller el día anterior. La tela se había enganchado en el seto del patio y tenía un desgarro cerca de una punta. Pensaba guardarla hasta comprar otra, pero quiso preguntar primero a Irene. La cometa estaba sobre la mesa cuando Hugo propuso cambiar toda la parte azul.",
+          "Irene revisó las varillas: estaban firmes. Comprobó también que la tela alrededor del corte estaba entera y propuso cubrir esa zona con un parche claro. Asha dibujó el corte antes de que Irene lo tapara. Después de coser el parche, la reparadora enseñó a Mateo dónde había trabajado. Él buscó con el dedo el mismo lugar en el dibujo.",
+          "Acordaron probarla la tarde siguiente si había brisa. Mateo manejaría el hilo en una zona despejada del patio y los niños observarían desde un lado. Tras un vuelo corto, la bajarían para mirar el parche. La previsión se cumplió: pudieron realizar la prueba e Irene comprobó que la costura no se había abierto.",
+          "Hugo añadió el parche al dibujo de Asha. Mateo comparó el papel con la cometa antes de recoger de nuevo el hilo. Esta vez los niños se colocaron un poco más atrás, donde podían ver entera la figura amarilla y azul sobre el patio."
+        ],
+        "questions": [
+          {
+            "id": "l300-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Por qué duró poco el primer vuelo?",
+            "answer": "Porque habían acordado un vuelo corto como parte de la prueba, para bajar la cometa y revisar el parche.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "El primer vuelo duró poco: formaba parte de la prueba que habían acordado."
+              },
+              {
+                "paragraph": 4,
+                "text": "Tras un vuelo corto, la bajarían para mirar el parche."
+              }
+            ]
+          },
+          {
+            "id": "l300-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué pensaba hacer Mateo antes de consultar a Irene?",
+            "answer": "Guardar la cometa hasta comprar otra.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Pensaba guardarla hasta comprar otra, pero quiso preguntar primero a Irene."
+              }
+            ]
+          },
+          {
+            "id": "l300-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «desgarro» en el segundo párrafo?",
+            "answer": "Un corte o una rotura en la tela.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "tenía un desgarro cerca de una punta"
+              }
+            ]
+          },
+          {
+            "id": "l300-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué observó Irene que la llevó a proponer un parche en vez de cambiar toda la parte azul?",
+            "answer": "Que las varillas estaban firmes y la tela alrededor del corte estaba entera.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Irene revisó las varillas: estaban firmes. Comprobó también que la tela alrededor del corte estaba entera"
+              }
+            ]
+          },
+          {
+            "id": "l300-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Asha dibujó el corte antes de poner el parche?",
+            "answer": "Porque después quedaría tapado y el dibujo conservaría su posición para poder compararla con la reparación.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Asha dibujó el corte antes de que Irene lo tapara."
+              },
+              {
+                "paragraph": 5,
+                "text": "Hugo añadió el parche al dibujo de Asha."
+              }
+            ]
+          },
+          {
+            "id": "l300-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué dos condiciones concretas acordaron para la prueba?",
+            "answer": "Se aceptan dos: hacerla si había brisa; que Mateo manejara el hilo en zona despejada; que los niños miraran desde un lado; bajar la cometa tras un vuelo corto para revisar el parche.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Acordaron probarla la tarde siguiente si había brisa."
+              },
+              {
+                "paragraph": 4,
+                "text": "Mateo manejaría el hilo en una zona despejada del patio y los niños observarían desde un lado."
+              },
+              {
+                "paragraph": 4,
+                "text": "Tras un vuelo corto, la bajarían para mirar el parche."
+              }
+            ]
+          },
+          {
+            "id": "l300-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "El texto empieza con la vuelta de la cometa al patio. ¿Qué explica después, en el segundo párrafo?",
+            "answer": "Retrocede al día anterior para explicar el daño y por qué Mateo llevó la cometa al taller.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "volvió ayer al patio"
+              },
+              {
+                "paragraph": 2,
+                "text": "había llevado la cometa al taller el día anterior"
+              }
+            ]
+          },
+          {
+            "id": "l300-q8",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué permite afirmar el resultado de la prueba y qué no se ha comprobado todavía?",
+            "answer": "Que la costura resistió el vuelo corto realizado. No se ha probado su duración tras muchos vuelos o bajo otras condiciones.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "El primer vuelo duró poco"
+              },
+              {
+                "paragraph": 4,
+                "text": "Irene comprobó que la costura no se había abierto."
+              }
+            ]
+          },
+          {
+            "id": "l300-q9",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resume la noticia distinguiendo el daño, la intervención y la comprobación.",
+            "answer": "La tela de la cometa de Mateo se rompe en un seto. Irene encuentra las varillas firmes y la tela alrededor del corte entera, por lo que cose un parche. Acuerdan un vuelo corto con Mateo y, al terminarlo, Irene revisa que la costura siga cerrada.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La tela se había enganchado en el seto del patio"
+              },
+              {
+                "paragraph": 3,
+                "text": "propuso cubrir esa zona con un parche claro"
+              },
+              {
+                "paragraph": 4,
+                "text": "Irene comprobó que la costura no se había abierto."
+              }
+            ]
+          },
+          {
+            "id": "l300-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué dato añadirías al dibujo para que Mateo recordara mejor la prueba? Justifica tu propuesta.",
+            "answer": "Respuesta personal razonada vinculada al caso: fecha, duración aproximada del vuelo, zona revisada o resultado observado, sin inventar que el relato ya incluye ese dato."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "desgarro",
+            "occurrence": 1,
+            "questionId": "l300-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l300-scene",
+            "src": "assets/readings/l300-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Mateo sostiene su cometa amarilla y azul con un parche claro mientras Irene, Hugo y Asha preparan la prueba en el porche del centro vecinal.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-cometa-que-volvio-al-patio-ca",
+        "code": "L300",
+        "workId": "la-cometa-que-volvio-al-patio",
+        "language": "ca",
+        "familyId": "familia-l300",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "games",
+          "community",
+          "everyday"
+        ],
+        "genre": "news",
+        "title": "L’estel que va tornar al pati",
+        "summary": "El taller torna al pati un estel del qual es prova la reparació abans de continuar jugant.",
+        "paragraphs": [
+          "L’estel groc i blau d’en Mateo va tornar ahir al pati del centre veïnal després d’una reparació al taller de la plaça. La Irene, la reparadora, va acompanyar el propietari per comprovar-ne el resultat. També hi van assistir l’Hugo i l’Asha, dos infants del barri que havien observat l’arranjament. El primer vol va durar poc: formava part de la prova que havien acordat.",
+          "En Mateo, un adult que organitza jocs al centre, havia portat l’estel al taller el dia anterior. La tela s’havia enganxat a la tanca vegetal del pati i tenia un esquinç prop d’una punta. Pensava guardar-lo fins a comprar-ne un altre, però primer ho va voler preguntar a la Irene. L’estel era damunt la taula quan l’Hugo va proposar canviar tota la part blava.",
+          "La Irene va revisar les varetes: eren fermes. També va comprovar que la tela al voltant del tall era sencera i va proposar cobrir aquella zona amb un pedaç clar. L’Asha va dibuixar el tall abans que la Irene el tapés. Després de cosir el pedaç, la reparadora va ensenyar a en Mateo on havia treballat. Ell va buscar amb el dit el mateix lloc al dibuix.",
+          "Van acordar provar-lo la tarda següent si feia una mica de vent. En Mateo faria anar el fil en una zona buida del pati i els infants observarien des d’un costat. Després d’un vol curt, el farien baixar per mirar el pedaç. El pla es va poder complir: van fer la prova i la Irene va comprovar que la costura no s’havia obert.",
+          "L’Hugo va afegir el pedaç al dibuix de l’Asha. En Mateo va comparar el paper amb l’estel abans de tornar a agafar el fil. Aquesta vegada els infants es van posar una mica més enrere, on podien veure sencera la figura groga i blava damunt del pati."
+        ],
+        "questions": [
+          {
+            "id": "l300-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Per què va durar poc el primer vol?",
+            "answer": "Perquè havien acordat un vol curt com a part de la prova, per fer baixar l’estel i revisar el pedaç.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "El primer vol va durar poc: formava part de la prova que havien acordat."
+              },
+              {
+                "paragraph": 4,
+                "text": "Després d’un vol curt, el farien baixar per mirar el pedaç."
+              }
+            ]
+          },
+          {
+            "id": "l300-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què pensava fer en Mateo abans de consultar la Irene?",
+            "answer": "Guardar l’estel fins a comprar-ne un altre.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Pensava guardar-lo fins a comprar-ne un altre, però primer ho va voler preguntar a la Irene."
+              }
+            ]
+          },
+          {
+            "id": "l300-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir «esquinç» al segon paràgraf?",
+            "answer": "Un tall o un estrip a la tela.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "tenia un esquinç prop d’una punta"
+              }
+            ]
+          },
+          {
+            "id": "l300-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què va observar la Irene que la va portar a proposar un pedaç en comptes de canviar tota la part blava?",
+            "answer": "Que les varetes eren fermes i la tela al voltant del tall era sencera.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La Irene va revisar les varetes: eren fermes. També va comprovar que la tela al voltant del tall era sencera"
+              }
+            ]
+          },
+          {
+            "id": "l300-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què l’Asha va dibuixar el tall abans de posar-hi el pedaç?",
+            "answer": "Perquè després quedaria tapat i el dibuix en conservaria la posició per poder-la comparar amb la reparació.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "L’Asha va dibuixar el tall abans que la Irene el tapés."
+              },
+              {
+                "paragraph": 5,
+                "text": "L’Hugo va afegir el pedaç al dibuix de l’Asha."
+              }
+            ]
+          },
+          {
+            "id": "l300-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quines dues condicions concretes van acordar per a la prova?",
+            "answer": "S’accepten dues: fer-la si feia una mica de vent; que en Mateo fes anar el fil en una zona buida; que els infants miressin des d’un costat; fer baixar l’estel després d’un vol curt per revisar el pedaç.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Van acordar provar-lo la tarda següent si feia una mica de vent."
+              },
+              {
+                "paragraph": 4,
+                "text": "En Mateo faria anar el fil en una zona buida del pati i els infants observarien des d’un costat."
+              },
+              {
+                "paragraph": 4,
+                "text": "Després d’un vol curt, el farien baixar per mirar el pedaç."
+              }
+            ]
+          },
+          {
+            "id": "l300-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "El text comença amb la tornada de l’estel al pati. Què explica després, al segon paràgraf?",
+            "answer": "Torna al dia anterior per explicar el desperfecte i per què en Mateo va portar l’estel al taller.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "va tornar ahir al pati"
+              },
+              {
+                "paragraph": 2,
+                "text": "havia portat l’estel al taller el dia anterior"
+              }
+            ]
+          },
+          {
+            "id": "l300-q8",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Què permet afirmar el resultat de la prova i què no s’ha comprovat encara?",
+            "answer": "Que la costura va resistir el vol curt que van fer. No s’ha provat quant durarà després de molts vols o en altres condicions.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "El primer vol va durar poc"
+              },
+              {
+                "paragraph": 4,
+                "text": "la Irene va comprovar que la costura no s’havia obert."
+              }
+            ]
+          },
+          {
+            "id": "l300-q9",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resumeix la notícia distingint el desperfecte, la intervenció i la comprovació.",
+            "answer": "La tela de l’estel d’en Mateo s’estripa en una tanca vegetal. La Irene troba les varetes fermes i la tela al voltant del tall sencera, i per això hi cus un pedaç. Acorden un vol curt amb en Mateo i, en acabar-lo, la Irene revisa que la costura continuï tancada.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La tela s’havia enganxat a la tanca vegetal del pati"
+              },
+              {
+                "paragraph": 3,
+                "text": "va proposar cobrir aquella zona amb un pedaç clar"
+              },
+              {
+                "paragraph": 4,
+                "text": "la Irene va comprovar que la costura no s’havia obert."
+              }
+            ]
+          },
+          {
+            "id": "l300-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quina dada afegiries al dibuix perquè en Mateo recordés millor la prova? Justifica la proposta.",
+            "answer": "Resposta personal raonada vinculada al cas: data, durada aproximada del vol, zona revisada o resultat observat, sense inventar que el relat ja inclou aquella dada."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "esquinç",
+            "occurrence": 1,
+            "questionId": "l300-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l300-scene",
+            "src": "assets/readings/l300-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Mateo sosté l’estel groc i blau amb un pedaç clar mentre la Irene, l’Hugo i l’Asha preparen la prova al porxo del centre veïnal.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-cometa-que-volvio-al-patio-b-es",
+        "code": "L300B",
+        "workId": "la-cometa-que-volvio-al-patio-b",
+        "language": "es",
+        "familyId": "familia-l300",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "games",
+          "community",
+          "everyday"
+        ],
+        "genre": "news",
+        "title": "La cometa que volvió al patio",
+        "summary": "La vuelta de una cometa al patio permite seguir la diferencia entre reparar, probar y comprobar un resultado.",
+        "paragraphs": [
+          "La cometa amarilla y azul de Mateo volvió ayer al patio del centro vecinal, después de una reparación en el taller de la plaza. Su primer vuelo fue breve por decisión de los participantes, que querían revisar el arreglo antes de continuar. Irene, la reparadora, acudió a la prueba con Hugo y Asha, dos niños del barrio que habían observado su trabajo en el taller.",
+          "Mateo es un adulto que organiza juegos en el centro. El día anterior a la prueba había llevado la cometa al taller: la tela se había enganchado en el seto del patio y tenía un desgarro cerca de una punta. Pensaba guardarla y comprar otra para la siguiente jornada. Al pasar ante la puerta azul, decidió consultar a Irene antes de hacerlo. Extendió la cometa sobre la mesa y señaló la zona dañada.",
+          "Hugo propuso cambiar toda la parte azul, donde estaba el corte. Irene examinó las varillas y las encontró firmes. Después revisó la tela alrededor de la rotura, que estaba entera, y propuso una reparación más localizada: coser un parche claro sobre aquel lugar. Asha dibujó la forma y la posición del corte antes de que quedara cubierto. Cuando Irene terminó, Mateo comparó el dibujo con el parche, que ocupaba algo más de espacio que la rotura.",
+          "La costura estaba hecha, pero Irene quería observarla después de un vuelo. Propuso ir al patio la tarde siguiente si había brisa. Mateo manejaría el hilo en una zona despejada, alejada del seto, y los niños mirarían desde un lado. Acordaron bajar la cometa tras un vuelo corto para revisar juntos la parte reparada. Mateo dejó libre ese espacio antes de que llegaran los demás.",
+          "Ayer la brisa permitió realizar la prueba prevista. Después del vuelo, Mateo bajó la cometa e Irene comprobó que la costura seguía cerrada y el parche permanecía en su sitio. Hugo añadió su contorno al dibujo de Asha y escribió debajo «primer vuelo». El corte original quedaba dentro de ese contorno. Mateo acercó el papel a la tela para localizarlo.",
+          "Tras la revisión, Mateo volvió a coger el hilo. Los niños se apartaron un poco más para ver la cometa entera. Asha sostuvo la libreta abierta mientras Hugo señalaba en ella la punta que ya se levantaba sobre el patio."
+        ],
+        "questions": [
+          {
+            "id": "l300b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cuál es el hecho principal que anuncia el primer párrafo y por qué fue breve el vuelo?",
+            "answer": "La cometa volvió al patio después de ser reparada. El vuelo fue breve porque habían decidido revisar el arreglo antes de continuar.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "volvió ayer al patio del centro vecinal, después de una reparación"
+              },
+              {
+                "paragraph": 1,
+                "text": "Su primer vuelo fue breve por decisión de los participantes, que querían revisar el arreglo antes de continuar."
+              }
+            ]
+          },
+          {
+            "id": "l300b-q2",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué cambio temporal se produce al pasar del primer párrafo al segundo?",
+            "answer": "La noticia comienza con la prueba de ayer y luego retrocede al día anterior a esa prueba para explicar la visita al taller.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "volvió ayer al patio"
+              },
+              {
+                "paragraph": 2,
+                "text": "El día anterior a la prueba había llevado la cometa al taller"
+              }
+            ]
+          },
+          {
+            "id": "l300b-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué observaciones justifican que Irene proponga una reparación localizada?",
+            "answer": "Las varillas estaban firmes y la tela alrededor de la rotura estaba entera.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Irene examinó las varillas y las encontró firmes. Después revisó la tela alrededor de la rotura, que estaba entera"
+              }
+            ]
+          },
+          {
+            "id": "l300b-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «localizada» al describir la reparación?",
+            "answer": "Que se concentra en la zona dañada, en lugar de sustituir toda la parte azul.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una reparación más localizada: coser un parche claro sobre aquel lugar"
+              }
+            ]
+          },
+          {
+            "id": "l300b-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué aportan juntos el dibujo del corte y el contorno del parche que añade Hugo?",
+            "answer": "Permiten distinguir el daño original de la zona reparada y comprobar dónde queda el corte, aunque ya esté cubierto por el parche.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Asha dibujó la forma y la posición del corte antes de que quedara cubierto."
+              },
+              {
+                "paragraph": 5,
+                "text": "Hugo añadió su contorno al dibujo de Asha"
+              },
+              {
+                "paragraph": 5,
+                "text": "El corte original quedaba dentro de ese contorno."
+              }
+            ]
+          },
+          {
+            "id": "l300b-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué dependía de que hubiera brisa y quién controlaría la cometa?",
+            "answer": "La prueba de la tarde siguiente dependía de esa condición. Mateo manejaría el hilo.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Propuso ir al patio la tarde siguiente si había brisa. Mateo manejaría el hilo"
+              }
+            ]
+          },
+          {
+            "id": "l300b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Relaciona el lugar elegido para la prueba con el origen del desperfecto.",
+            "answer": "El daño se produjo al engancharse en el seto; para la prueba eligen una zona despejada y alejada de ese seto, evitando repetir esa situación.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "la tela se había enganchado en el seto del patio"
+              },
+              {
+                "paragraph": 4,
+                "text": "en una zona despejada, alejada del seto"
+              }
+            ]
+          },
+          {
+            "id": "l300b-q8",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué dos resultados concretos observó Irene al bajar la cometa?",
+            "answer": "Que la costura seguía cerrada y que el parche permanecía en su sitio.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Irene comprobó que la costura seguía cerrada y el parche permanecía en su sitio."
+              }
+            ]
+          },
+          {
+            "id": "l300b-q9",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué «primer vuelo» es una anotación más precisa que «reparación comprobada para siempre»?",
+            "answer": "Porque registra la comprobación que realmente han hecho: un vuelo corto. Ese resultado no demuestra cuánto resistirá en todos los vuelos futuros.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Su primer vuelo fue breve"
+              },
+              {
+                "paragraph": 5,
+                "text": "escribió debajo «primer vuelo»"
+              },
+              {
+                "paragraph": 5,
+                "text": "la costura seguía cerrada y el parche permanecía en su sitio"
+              }
+            ]
+          },
+          {
+            "id": "l300b-q10",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Un lector interpreta que bajaron la cometa porque se había roto de nuevo. ¿Qué dos datos corrigen esa interpretación?",
+            "answer": "Ya habían acordado bajarla tras un vuelo corto para revisarla y, al hacerlo, comprobaron que la costura seguía cerrada y el parche en su sitio.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Acordaron bajar la cometa tras un vuelo corto para revisar juntos la parte reparada."
+              },
+              {
+                "paragraph": 5,
+                "text": "la costura seguía cerrada y el parche permanecía en su sitio"
+              }
+            ]
+          },
+          {
+            "id": "l300b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resume la noticia explicando qué cambia entre la intención inicial de Mateo y la escena final.",
+            "answer": "Mateo pensaba guardar la cometa dañada y comprar otra. Irene encuentra un daño localizado, cose un parche y acuerda una prueba concreta. Después de un vuelo corto, comprueban que la costura y el parche siguen bien. Mateo vuelve a coger el hilo para continuar, mientras los niños observan con el dibujo.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Pensaba guardarla y comprar otra"
+              },
+              {
+                "paragraph": 3,
+                "text": "coser un parche claro sobre aquel lugar"
+              },
+              {
+                "paragraph": 5,
+                "text": "la costura seguía cerrada y el parche permanecía en su sitio"
+              },
+              {
+                "paragraph": 6,
+                "text": "Mateo volvió a coger el hilo"
+              }
+            ]
+          },
+          {
+            "id": "l300b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿Qué información pedirías para escribir una segunda noticia sobre esta cometa un mes después? Explica qué querrías averiguar.",
+            "answer": "Respuesta personal justificada, por ejemplo preguntar cuántas veces la han utilizado y cómo sigue la costura para conocer su evolución sin darla por supuesta."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "localizada",
+            "occurrence": 1,
+            "questionId": "l300b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l300-scene",
+            "src": "assets/readings/l300-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Mateo sostiene su cometa amarilla y azul con un parche claro mientras Irene, Hugo y Asha preparan la prueba en el porche del centro vecinal.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "la-cometa-que-volvio-al-patio-b-ca",
+        "code": "L300B",
+        "workId": "la-cometa-que-volvio-al-patio-b",
+        "language": "ca",
+        "familyId": "familia-l300",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "games",
+          "community",
+          "everyday"
+        ],
+        "genre": "news",
+        "title": "L’estel que va tornar al pati",
+        "summary": "La tornada d’un estel al pati permet seguir la diferència entre reparar, provar i comprovar un resultat.",
+        "paragraphs": [
+          "L’estel groc i blau d’en Mateo va tornar ahir al pati del centre veïnal, després d’una reparació al taller de la plaça. El primer vol va ser breu per decisió dels participants, que volien revisar l’arranjament abans de continuar. La Irene, la reparadora, va anar a la prova amb l’Hugo i l’Asha, dos infants del barri que havien observat la seva feina al taller.",
+          "En Mateo és un adult que organitza jocs al centre. El dia anterior a la prova havia portat l’estel al taller: la tela s’havia enganxat a la tanca vegetal del pati i tenia un esquinç prop d’una punta. Pensava guardar-lo i comprar-ne un altre per a la jornada següent. En passar davant la porta blava, va decidir consultar-ho a la Irene abans de fer-ho. Va estendre l’estel damunt la taula i va assenyalar la zona malmesa.",
+          "L’Hugo va proposar canviar tota la part blava, on hi havia el tall. La Irene va examinar les varetes i les va trobar fermes. Després va revisar la tela al voltant de l’estrip, que era sencera, i va proposar una reparació més localitzada: cosir un pedaç clar damunt d’aquell lloc. L’Asha va dibuixar la forma i la posició del tall abans que quedés cobert. Quan la Irene va acabar, en Mateo va comparar el dibuix amb el pedaç, que ocupava una mica més d’espai que l’estrip.",
+          "La costura estava feta, però la Irene la volia observar després d’un vol. Va proposar anar al pati la tarda següent si feia una mica de vent. En Mateo faria anar el fil en una zona buida, lluny de la tanca vegetal, i els infants mirarien des d’un costat. Van acordar fer baixar l’estel després d’un vol curt per revisar plegats la part reparada. En Mateo va deixar lliure aquell espai abans que arribessin els altres.",
+          "Ahir va fer prou vent per poder fer la prova prevista. Després del vol, en Mateo va fer baixar l’estel i la Irene va comprovar que la costura continuava tancada i el pedaç era al seu lloc. L’Hugo en va afegir el contorn al dibuix de l’Asha i hi va escriure «primer vol». El tall original quedava dins d’aquell contorn. En Mateo va acostar el paper a la tela per localitzar-lo.",
+          "Després de la revisió, en Mateo va tornar a agafar el fil. Els infants es van apartar una mica més per veure l’estel sencer. L’Asha va sostenir la llibreta oberta mentre l’Hugo hi assenyalava la punta que ja s’aixecava damunt del pati."
+        ],
+        "questions": [
+          {
+            "id": "l300b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quin és el fet principal que anuncia el primer paràgraf i per què va ser breu el vol?",
+            "answer": "L’estel va tornar al pati després de ser reparat. El vol va ser breu perquè havien decidit revisar l’arranjament abans de continuar.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "va tornar ahir al pati del centre veïnal, després d’una reparació"
+              },
+              {
+                "paragraph": 1,
+                "text": "El primer vol va ser breu per decisió dels participants, que volien revisar l’arranjament abans de continuar."
+              }
+            ]
+          },
+          {
+            "id": "l300b-q2",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quin canvi temporal es produeix en passar del primer paràgraf al segon?",
+            "answer": "La notícia comença amb la prova d’ahir i després recula al dia anterior a aquella prova per explicar la visita al taller.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "va tornar ahir al pati"
+              },
+              {
+                "paragraph": 2,
+                "text": "El dia anterior a la prova havia portat l’estel al taller"
+              }
+            ]
+          },
+          {
+            "id": "l300b-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quines observacions justifiquen que la Irene proposi una reparació localitzada?",
+            "answer": "Les varetes eren fermes i la tela al voltant de l’estrip era sencera.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La Irene va examinar les varetes i les va trobar fermes. Després va revisar la tela al voltant de l’estrip, que era sencera"
+              }
+            ]
+          },
+          {
+            "id": "l300b-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir «localitzada» en descriure la reparació?",
+            "answer": "Que se centra a la zona malmesa, en comptes de substituir tota la part blava.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una reparació més localitzada: cosir un pedaç clar damunt d’aquell lloc"
+              }
+            ]
+          },
+          {
+            "id": "l300b-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Què aporten plegats el dibuix del tall i el contorn del pedaç que afegeix l’Hugo?",
+            "answer": "Permeten distingir el desperfecte original de la zona reparada i comprovar on queda el tall, encara que ja estigui cobert pel pedaç.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "L’Asha va dibuixar la forma i la posició del tall abans que quedés cobert."
+              },
+              {
+                "paragraph": 5,
+                "text": "L’Hugo en va afegir el contorn al dibuix de l’Asha"
+              },
+              {
+                "paragraph": 5,
+                "text": "El tall original quedava dins d’aquell contorn."
+              }
+            ]
+          },
+          {
+            "id": "l300b-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què depenia que fes una mica de vent i qui controlaria l’estel?",
+            "answer": "La prova de la tarda següent depenia d’aquella condició. En Mateo faria anar el fil.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Va proposar anar al pati la tarda següent si feia una mica de vent. En Mateo faria anar el fil"
+              }
+            ]
+          },
+          {
+            "id": "l300b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Relaciona el lloc triat per a la prova amb l’origen del desperfecte.",
+            "answer": "El desperfecte es va produir en enganxar-se a la tanca vegetal; per a la prova trien una zona buida i lluny d’aquella tanca, evitant repetir la situació.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "la tela s’havia enganxat a la tanca vegetal del pati"
+              },
+              {
+                "paragraph": 4,
+                "text": "en una zona buida, lluny de la tanca vegetal"
+              }
+            ]
+          },
+          {
+            "id": "l300b-q8",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quins dos resultats concrets va observar la Irene en fer baixar l’estel?",
+            "answer": "Que la costura continuava tancada i que el pedaç era al seu lloc.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "la Irene va comprovar que la costura continuava tancada i el pedaç era al seu lloc."
+              }
+            ]
+          },
+          {
+            "id": "l300b-q9",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què «primer vol» és una anotació més precisa que «reparació comprovada per sempre»?",
+            "answer": "Perquè registra la comprovació que han fet realment: un vol curt. Aquell resultat no demostra quant resistirà en tots els vols futurs.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "El primer vol va ser breu"
+              },
+              {
+                "paragraph": 5,
+                "text": "hi va escriure «primer vol»"
+              },
+              {
+                "paragraph": 5,
+                "text": "la costura continuava tancada i el pedaç era al seu lloc"
+              }
+            ]
+          },
+          {
+            "id": "l300b-q10",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Un lector interpreta que van fer baixar l’estel perquè s’havia tornat a trencar. Quines dues dades corregeixen aquella interpretació?",
+            "answer": "Ja havien acordat fer-lo baixar després d’un vol curt per revisar-lo i, en fer-ho, van comprovar que la costura continuava tancada i el pedaç al seu lloc.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Van acordar fer baixar l’estel després d’un vol curt per revisar plegats la part reparada."
+              },
+              {
+                "paragraph": 5,
+                "text": "la costura continuava tancada i el pedaç era al seu lloc"
+              }
+            ]
+          },
+          {
+            "id": "l300b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resumeix la notícia explicant què canvia entre la intenció inicial d’en Mateo i l’escena final.",
+            "answer": "En Mateo pensava guardar l’estel malmès i comprar-ne un altre. La Irene troba un desperfecte localitzat, hi cus un pedaç i acorda una prova concreta. Després d’un vol curt, comproven que la costura i el pedaç continuen bé. En Mateo torna a agafar el fil per continuar, mentre els infants observen amb el dibuix.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Pensava guardar-lo i comprar-ne un altre"
+              },
+              {
+                "paragraph": 3,
+                "text": "cosir un pedaç clar damunt d’aquell lloc"
+              },
+              {
+                "paragraph": 5,
+                "text": "la costura continuava tancada i el pedaç era al seu lloc"
+              },
+              {
+                "paragraph": 6,
+                "text": "en Mateo va tornar a agafar el fil"
+              }
+            ]
+          },
+          {
+            "id": "l300b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Quina informació demanaries per escriure una segona notícia sobre aquest estel un mes després? Explica què voldries esbrinar.",
+            "answer": "Resposta personal justificada, per exemple preguntar quantes vegades l’han fet servir i com continua la costura per conèixer-ne l’evolució sense donar-la per suposada."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "localitzada",
+            "occurrence": 1,
+            "questionId": "l300b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l300-scene",
+            "src": "assets/readings/l300-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Mateo sosté l’estel groc i blau amb un pedaç clar mentre la Irene, l’Hugo i l’Asha preparen la prova al porxo del centre veïnal.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 4
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L300A",
+        "language": "es",
+        "questions": {
+          "l300a-q1": {
+            "prompt": "¿Cómo se había roto la tela de la cometa?",
+            "options": [
+              "Se había enganchado en un seto junto al patio.",
+              "Se había abierto al sacar las varillas en el taller.",
+              "Se había enganchado al bajarla después de la prueba.",
+              "Se había cortado al retirar el parche después del vuelo."
+            ],
+            "correct": "a",
+            "explanation": "Se había enganchado en un seto junto al patio."
+          },
+          "l300a-q2": {
+            "prompt": "¿Qué revisó Irene antes de elegir la reparación?",
+            "options": [
+              "El lugar del seto y el espacio del porche.",
+              "El dibujo de Asha y el color del hilo de Mateo.",
+              "Las varillas y la tela que rodeaba el corte.",
+              "El parche anterior y la parte amarilla que Hugo dibujó."
+            ],
+            "correct": "c",
+            "explanation": "Revisó las varillas, que estaban firmes, y la tela alrededor del corte, que estaba entera."
+          },
+          "l300a-q3": {
+            "prompt": "¿Qué significa «desgarro» en esta lectura?",
+            "options": [
+              "Una costura que sujeta la tela a una varilla.",
+              "Una rotura abierta en la tela de la cometa.",
+              "Un parche añadido para cubrir una zona azul.",
+              "Una marca dibujada para encontrar el corte."
+            ],
+            "correct": "b",
+            "explanation": "Una rotura o rasgadura en la tela de la cometa."
+          },
+          "l300a-q4": {
+            "prompt": "¿Quién manejaría el hilo durante la prueba?",
+            "options": [
+              "Hugo, después de completar el dibujo.",
+              "Asha, desde un lado del patio.",
+              "Irene, al terminar la costura.",
+              "Mateo, en la zona despejada del patio."
+            ],
+            "correct": "d",
+            "explanation": "Mateo, el adulto que organiza juegos en el centro vecinal."
+          },
+          "l300a-q5": {
+            "prompt": "¿Qué hizo Mateo después del vuelo corto y qué comprobó Irene?",
+            "options": [
+              "La acercó al seto e Irene revisó de nuevo las varillas.",
+              "La llevó al taller y pidió cambiar toda la parte azul.",
+              "La bajó e Irene revisó que la costura siguiera cerrada.",
+              "La guardó e Irene dibujó el corte que faltaba en el papel."
+            ],
+            "correct": "c",
+            "explanation": "Mateo bajó la cometa e Irene comprobó que la costura del parche no se había abierto."
+          },
+          "l300a-q6": {
+            "prompt": "¿Para qué resultó útil el dibujo cuando el corte ya estaba tapado?",
+            "options": [
+              "Para localizar el daño original debajo del parche.",
+              "Para decidir de qué color había sido la cometa entera.",
+              "Para recordar el lugar del patio elegido para la prueba.",
+              "Para elegir quién había manejado el hilo en el primer vuelo."
+            ],
+            "correct": "a",
+            "explanation": "Permitía recordar dónde estaba el corte y compararlo con el lugar del parche."
+          },
+          "l300a-q7": {
+            "prompt": "¿Qué resumen corresponde a lo que sucedió?",
+            "options": [
+              "Una cometa se rompe en el taller y Hugo sustituye su parte azul antes de volar.",
+              "Irene repara una tela rota y revisan el parche después de un vuelo corto con Mateo.",
+              "Mateo lleva una cometa rota al patio y decide probarla antes de ponerle el parche.",
+              "Asha dibuja una cometa nueva y la usa para sustituir la que se enganchó en el seto."
+            ],
+            "correct": "b",
+            "explanation": "La tela se rompió al engancharse en un seto. Irene revisó la cometa y cosió un parche. Mateo realizó un vuelo corto y, al bajarla, Irene comprobó que la costura seguía cerrada."
+          }
+        }
+      },
+      {
+        "code": "L300A",
+        "language": "ca",
+        "questions": {
+          "l300a-q1": {
+            "prompt": "Com s’havia estripat la tela de l’estel?",
+            "options": [
+              "S’havia enganxat en una tanca vegetal al costat del pati.",
+              "S’havia obert en treure les varetes al taller.",
+              "S’havia enganxat en fer-lo baixar després de la prova.",
+              "S’havia tallat en retirar el pedaç després del vol."
+            ],
+            "correct": "a",
+            "explanation": "S’havia enganxat en una tanca vegetal al costat del pati."
+          },
+          "l300a-q2": {
+            "prompt": "Què va revisar la Irene abans de triar la reparació?",
+            "options": [
+              "El lloc de la tanca vegetal i l’espai del porxo.",
+              "El dibuix de l’Asha i el color del fil d’en Mateo.",
+              "Les varetes i la tela que envoltava el tall.",
+              "El pedaç anterior i la part groga que l’Hugo va dibuixar."
+            ],
+            "correct": "c",
+            "explanation": "Va revisar les varetes, que eren fermes, i la tela al voltant del tall, que era sencera."
+          },
+          "l300a-q3": {
+            "prompt": "Què vol dir «esquinç» en aquesta lectura?",
+            "options": [
+              "Una costura que subjecta la tela a una vareta.",
+              "Un estrip obert a la tela de l’estel.",
+              "Un pedaç afegit per cobrir una zona blava.",
+              "Una marca dibuixada per trobar el tall."
+            ],
+            "correct": "b",
+            "explanation": "Un estrip o un tall a la tela de l’estel."
+          },
+          "l300a-q4": {
+            "prompt": "Qui faria anar el fil durant la prova?",
+            "options": [
+              "L’Hugo, després de completar el dibuix.",
+              "L’Asha, des d’un costat del pati.",
+              "La Irene, en acabar la costura.",
+              "En Mateo, a la zona buida del pati."
+            ],
+            "correct": "d",
+            "explanation": "En Mateo, l’adult que organitza jocs al centre veïnal."
+          },
+          "l300a-q5": {
+            "prompt": "Què va fer en Mateo després del vol curt i què va comprovar la Irene?",
+            "options": [
+              "El va acostar a la tanca i la Irene va revisar de nou les varetes.",
+              "El va portar al taller i va demanar canviar tota la part blava.",
+              "El va fer baixar i la Irene va revisar que la costura continués tancada.",
+              "El va guardar i la Irene va dibuixar el tall que faltava al paper."
+            ],
+            "correct": "c",
+            "explanation": "En Mateo va fer baixar l’estel i la Irene va comprovar que la costura del pedaç no s’havia obert."
+          },
+          "l300a-q6": {
+            "prompt": "Per a què va ser útil el dibuix quan el tall ja estava tapat?",
+            "options": [
+              "Per localitzar el desperfecte original sota el pedaç.",
+              "Per decidir de quin color havia estat l’estel sencer.",
+              "Per recordar el lloc del pati triat per a la prova.",
+              "Per triar qui havia fet anar el fil al primer vol."
+            ],
+            "correct": "a",
+            "explanation": "Permetia recordar on era el tall i comparar-lo amb el lloc del pedaç."
+          },
+          "l300a-q7": {
+            "prompt": "Quin resum correspon al que va passar?",
+            "options": [
+              "Un estel s’estripa al taller i l’Hugo en substitueix la part blava abans de volar.",
+              "La Irene repara una tela estripada i revisen el pedaç després d’un vol curt amb en Mateo.",
+              "En Mateo porta un estel estripat al pati i decideix provar-lo abans de posar-hi el pedaç.",
+              "L’Asha dibuixa un estel nou i el fa servir per substituir el que es va enganxar a la tanca."
+            ],
+            "correct": "b",
+            "explanation": "La tela es va estripar en enganxar-se en una tanca vegetal. La Irene va revisar l’estel i hi va cosir un pedaç. En Mateo va fer un vol curt i, en fer-lo baixar, la Irene va comprovar que la costura continuava tancada."
+          }
+        }
+      },
+      {
+        "code": "L300",
+        "language": "es",
+        "questions": {
+          "l300-q1": {
+            "prompt": "¿Por qué duró poco el primer vuelo?",
+            "options": [
+              "Porque descubrieron que una varilla estaba suelta.",
+              "Porque la cometa volvió a engancharse en el seto.",
+              "Porque los niños pidieron sustituir el parche por tela azul.",
+              "Porque querían bajarla pronto para revisar la reparación."
+            ],
+            "correct": "d",
+            "explanation": "Porque habían acordado un vuelo corto como parte de la prueba, para bajar la cometa y revisar el parche."
+          },
+          "l300-q2": {
+            "prompt": "¿Qué pensaba hacer Mateo antes de consultar a Irene?",
+            "options": [
+              "Cambiar toda la parte azul con ayuda de Hugo.",
+              "Guardarla hasta poder comprar otra cometa.",
+              "Probarla en el patio antes de revisar la tela.",
+              "Retirar las varillas para conservar solo la tela."
+            ],
+            "correct": "b",
+            "explanation": "Guardar la cometa hasta comprar otra."
+          },
+          "l300-q3": {
+            "prompt": "¿Qué significa «desgarro» en el segundo párrafo?",
+            "options": [
+              "Un corte abierto en una parte de la tela.",
+              "Una unión cosida junto a una punta.",
+              "Una doblez que permite guardar la cometa.",
+              "Una zona clara añadida sobre la tela azul."
+            ],
+            "correct": "a",
+            "explanation": "Un corte o una rotura en la tela."
+          },
+          "l300-q4": {
+            "prompt": "¿Qué observó Irene que la llevó a proponer un parche en vez de cambiar toda la parte azul?",
+            "options": [
+              "El dibujo de Asha mostraba que el seto era más bajo que la cometa.",
+              "El primer vuelo había terminado sin que se abriera la costura.",
+              "Las varillas estaban firmes y la tela que rodeaba el corte estaba entera.",
+              "Mateo había guardado una parte azul nueva junto al hilo."
+            ],
+            "correct": "c",
+            "explanation": "Que las varillas estaban firmes y la tela alrededor del corte estaba entera."
+          },
+          "l300-q5": {
+            "prompt": "¿Por qué Asha dibujó el corte antes de poner el parche?",
+            "options": [
+              "Para decidir si cambiarían todas las varillas después del vuelo.",
+              "Para señalar en el patio el lugar donde debía ponerse Mateo.",
+              "Para elegir el color de la nueva cometa que compraría Mateo.",
+              "Para conservar la ubicación del corte cuando quedara cubierto."
+            ],
+            "correct": "d",
+            "explanation": "Porque después quedaría tapado y el dibujo conservaría su posición para poder compararla con la reparación."
+          },
+          "l300-q6": {
+            "prompt": "¿Qué pareja de condiciones corresponde al acuerdo?",
+            "options": [
+              "Que Mateo la hiciera volar y que la revisaran al acabar toda la tarde.",
+              "Que Mateo manejara el hilo y que revisaran el parche tras un vuelo corto.",
+              "Que Hugo manejara el hilo y que Irene observara desde el taller.",
+              "Que la prueba durara toda la tarde y que Mateo revisara después las varillas."
+            ],
+            "correct": "b",
+            "explanation": "Se aceptan dos: hacerla si había brisa; que Mateo manejara el hilo en zona despejada; que los niños miraran desde un lado; bajar la cometa tras un vuelo corto para revisar el parche."
+          },
+          "l300-q7": {
+            "prompt": "El texto empieza con la vuelta de la cometa al patio. ¿Qué explica después, en el segundo párrafo?",
+            "options": [
+              "Vuelve atrás para explicar el daño y la visita al taller.",
+              "Salta al siguiente juego que se hará en el centro vecinal.",
+              "Repite el mismo vuelo desde el punto de vista de Asha.",
+              "Explica lo que Irene comprobó después de la prueba."
+            ],
+            "correct": "a",
+            "explanation": "Retrocede al día anterior para explicar el daño y por qué Mateo llevó la cometa al taller."
+          },
+          "l300-q8": {
+            "prompt": "¿Cuál es la conclusión respaldada por el texto?",
+            "options": [
+              "La cometa resistirá cualquier viento porque el parche sigue cerrado.",
+              "El parche debe cambiarse antes de hacer un segundo vuelo.",
+              "La costura se mantuvo cerrada durante la prueba realizada.",
+              "La parte azul entera necesitaba cambiarse después de todo."
+            ],
+            "correct": "c",
+            "explanation": "Que la costura resistió el vuelo corto realizado. No se ha probado su duración tras muchos vuelos o bajo otras condiciones."
+          },
+          "l300-q9": {
+            "prompt": "¿Qué resumen distingue mejor el problema, el arreglo y su prueba?",
+            "options": [
+              "Una cometa se rompe y Mateo hace un vuelo largo para decidir si irá al taller.",
+              "Hugo sustituye la tela azul e Irene decide aplazar la prueba para otro juego.",
+              "Una cometa nueva sustituye a la rota y los niños guardan el dibujo del daño.",
+              "Irene repara una rotura localizada y comprueban el parche tras un vuelo corto."
+            ],
+            "correct": "d",
+            "explanation": "La tela de la cometa de Mateo se rompe en un seto. Irene encuentra las varillas firmes y la tela alrededor del corte entera, por lo que cose un parche. Acuerdan un vuelo corto con Mateo y, al terminarlo, Irene revisa que la costura siga cerrada."
+          }
+        }
+      },
+      {
+        "code": "L300",
+        "language": "ca",
+        "questions": {
+          "l300-q1": {
+            "prompt": "Per què va durar poc el primer vol?",
+            "options": [
+              "Perquè van descobrir que una vareta era fluixa.",
+              "Perquè l’estel es va tornar a enganxar a la tanca vegetal.",
+              "Perquè els infants van demanar substituir el pedaç per tela blava.",
+              "Perquè el volien fer baixar aviat per revisar la reparació."
+            ],
+            "correct": "d",
+            "explanation": "Perquè havien acordat un vol curt com a part de la prova, per fer baixar l’estel i revisar el pedaç."
+          },
+          "l300-q2": {
+            "prompt": "Què pensava fer en Mateo abans de consultar la Irene?",
+            "options": [
+              "Canviar tota la part blava amb l’ajuda de l’Hugo.",
+              "Guardar-lo fins a poder comprar un altre estel.",
+              "Provar-lo al pati abans de revisar-ne la tela.",
+              "Retirar-ne les varetes per conservar només la tela."
+            ],
+            "correct": "b",
+            "explanation": "Guardar l’estel fins a comprar-ne un altre."
+          },
+          "l300-q3": {
+            "prompt": "Què vol dir «esquinç» al segon paràgraf?",
+            "options": [
+              "Un tall obert en una part de la tela.",
+              "Una unió cosida al costat d’una punta.",
+              "Un plec que permet guardar l’estel.",
+              "Una zona clara afegida damunt de la tela blava."
+            ],
+            "correct": "a",
+            "explanation": "Un tall o un estrip a la tela."
+          },
+          "l300-q4": {
+            "prompt": "Què va observar la Irene que la va portar a proposar un pedaç en comptes de canviar tota la part blava?",
+            "options": [
+              "El dibuix de l’Asha mostrava que la tanca era més baixa que l’estel.",
+              "El primer vol s’havia acabat sense que s’obrís la costura.",
+              "Les varetes eren fermes i la tela que envoltava el tall era sencera.",
+              "En Mateo havia guardat una part blava nova al costat del fil."
+            ],
+            "correct": "c",
+            "explanation": "Que les varetes eren fermes i la tela al voltant del tall era sencera."
+          },
+          "l300-q5": {
+            "prompt": "Per què l’Asha va dibuixar el tall abans de posar-hi el pedaç?",
+            "options": [
+              "Per decidir si canviarien totes les varetes després del vol.",
+              "Per assenyalar al pati el lloc on s’havia de posar en Mateo.",
+              "Per triar el color del nou estel que compraria en Mateo.",
+              "Per conservar la ubicació del tall quan quedés cobert."
+            ],
+            "correct": "d",
+            "explanation": "Perquè després quedaria tapat i el dibuix en conservaria la posició per poder-la comparar amb la reparació."
+          },
+          "l300-q6": {
+            "prompt": "Quina parella de condicions correspon a l’acord?",
+            "options": [
+              "Que en Mateo el fes volar i que el revisessin en acabar tota la tarda.",
+              "Que en Mateo fes anar el fil i que revisessin el pedaç després d’un vol curt.",
+              "Que l’Hugo fes anar el fil i que la Irene observés des del taller.",
+              "Que la prova durés tota la tarda i que en Mateo revisés després les varetes."
+            ],
+            "correct": "b",
+            "explanation": "S’accepten dues: fer-la si feia una mica de vent; que en Mateo fes anar el fil en una zona buida; que els infants miressin des d’un costat; fer baixar l’estel després d’un vol curt per revisar el pedaç."
+          },
+          "l300-q7": {
+            "prompt": "El text comença amb la tornada de l’estel al pati. Què explica després, al segon paràgraf?",
+            "options": [
+              "Torna enrere per explicar el desperfecte i la visita al taller.",
+              "Salta al següent joc que es farà al centre veïnal.",
+              "Repeteix el mateix vol des del punt de vista de l’Asha.",
+              "Explica què va comprovar la Irene després de la prova."
+            ],
+            "correct": "a",
+            "explanation": "Torna al dia anterior per explicar el desperfecte i per què en Mateo va portar l’estel al taller."
+          },
+          "l300-q8": {
+            "prompt": "Quina és la conclusió que té el suport del text?",
+            "options": [
+              "L’estel resistirà qualsevol vent perquè el pedaç continua tancat.",
+              "El pedaç s’ha de canviar abans de fer un segon vol.",
+              "La costura es va mantenir tancada durant la prova que van fer.",
+              "La part blava sencera s’havia de canviar, al capdavall."
+            ],
+            "correct": "c",
+            "explanation": "Que la costura va resistir el vol curt que van fer. No s’ha provat quant durarà després de molts vols o en altres condicions."
+          },
+          "l300-q9": {
+            "prompt": "Quin resum distingeix millor el problema, l’arranjament i la prova?",
+            "options": [
+              "Un estel s’estripa i en Mateo fa un vol llarg per decidir si anirà al taller.",
+              "L’Hugo substitueix la tela blava i la Irene decideix ajornar la prova per a un altre joc.",
+              "Un estel nou substitueix l’estripat i els infants guarden el dibuix del desperfecte.",
+              "La Irene repara un estrip localitzat i comproven el pedaç després d’un vol curt."
+            ],
+            "correct": "d",
+            "explanation": "La tela de l’estel d’en Mateo s’estripa en una tanca vegetal. La Irene troba les varetes fermes i la tela al voltant del tall sencera, i per això hi cus un pedaç. Acorden un vol curt amb en Mateo i, en acabar-lo, la Irene revisa que la costura continuï tancada."
+          }
+        }
+      },
+      {
+        "code": "L300B",
+        "language": "es",
+        "questions": {
+          "l300b-q1": {
+            "prompt": "¿Cuál es el hecho principal que anuncia el primer párrafo y por qué fue breve el vuelo?",
+            "options": [
+              "La cometa se volvió a romper y la bajaron para cambiar las varillas.",
+              "La cometa reparada volvió al patio y la bajaron pronto para revisarla.",
+              "La cometa nueva llegó al centro y la bajaron para comparar sus colores.",
+              "La cometa se alejó del patio y la bajaron para evitar el seto."
+            ],
+            "correct": "b",
+            "explanation": "La cometa volvió al patio después de ser reparada. El vuelo fue breve porque habían decidido revisar el arreglo antes de continuar."
+          },
+          "l300b-q2": {
+            "prompt": "¿Qué cambio temporal se produce al pasar del primer párrafo al segundo?",
+            "options": [
+              "Avanza del arreglo a una jornada de juegos que aún no ha ocurrido.",
+              "Presenta dos versiones contradictorias del mismo vuelo del patio.",
+              "Detiene la noticia para explicar cómo se fabrica una cometa nueva.",
+              "Retrocede desde la prueba para explicar cómo llegó la cometa al taller."
+            ],
+            "correct": "d",
+            "explanation": "La noticia comienza con la prueba de ayer y luego retrocede al día anterior a esa prueba para explicar la visita al taller."
+          },
+          "l300b-q3": {
+            "prompt": "¿Qué observaciones justifican que Irene proponga una reparación localizada?",
+            "options": [
+              "Las varillas firmes y la tela entera alrededor del corte.",
+              "El dibujo de la cometa y la prueba que ya habían terminado.",
+              "La parte azul nueva y el parche que había traído Mateo.",
+              "La distancia del seto y el espacio que ocupaban los niños."
+            ],
+            "correct": "a",
+            "explanation": "Las varillas estaban firmes y la tela alrededor de la rotura estaba entera."
+          },
+          "l300b-q4": {
+            "prompt": "¿Qué significa «localizada» al describir la reparación?",
+            "options": [
+              "Hecha en el patio en lugar de hacerse en el taller.",
+              "Dibujada en papel antes de que llegue la cometa.",
+              "Concentrada en una zona concreta de la cometa.",
+              "Repartida entre la parte amarilla y toda la parte azul."
+            ],
+            "correct": "c",
+            "explanation": "Que se concentra en la zona dañada, en lugar de sustituir toda la parte azul."
+          },
+          "l300b-q5": {
+            "prompt": "¿Qué aportan juntos el dibujo del corte y el contorno del parche que añade Hugo?",
+            "options": [
+              "Demuestran cuánto tiempo podrá volar la cometa después de repararla.",
+              "Relacionan el daño tapado con la zona que cubre la reparación.",
+              "Permiten comparar la altura del vuelo con el tamaño del seto.",
+              "Sustituyen la revisión de la tela después de cada prueba."
+            ],
+            "correct": "b",
+            "explanation": "Permiten distinguir el daño original de la zona reparada y comprobar dónde queda el corte, aunque ya esté cubierto por el parche."
+          },
+          "l300b-q6": {
+            "prompt": "¿Qué dependía de que hubiera brisa y quién controlaría la cometa?",
+            "options": [
+              "La elección del parche dependía de la brisa y Hugo controlaría el hilo.",
+              "La reparación se haría si había brisa y Asha controlaría el hilo.",
+              "La revisión de las varillas esperaba a la brisa e Irene controlaría el hilo.",
+              "La prueba se haría si había brisa y Mateo controlaría el hilo."
+            ],
+            "correct": "d",
+            "explanation": "La prueba de la tarde siguiente dependía de esa condición. Mateo manejaría el hilo."
+          },
+          "l300b-q7": {
+            "prompt": "Relaciona el lugar elegido para la prueba con el origen del desperfecto.",
+            "options": [
+              "Se apartan del obstáculo en el que se había enganchado la tela.",
+              "Buscan el mismo lugar para que el seto ayude a sujetar la cometa.",
+              "Cambian de patio porque Mateo ya no organiza juegos en el centro.",
+              "Se acercan al taller para que Irene pueda revisar la tela desde su mesa."
+            ],
+            "correct": "a",
+            "explanation": "El daño se produjo al engancharse en el seto; para la prueba eligen una zona despejada y alejada de ese seto, evitando repetir esa situación."
+          },
+          "l300b-q8": {
+            "prompt": "¿Qué dos resultados concretos observó Irene al bajar la cometa?",
+            "options": [
+              "Que la parte azul era nueva y el hilo tenía la misma longitud.",
+              "Que el dibujo seguía abierto y el seto quedaba lejos del taller.",
+              "Que la costura seguía cerrada y el parche no se había desplazado.",
+              "Que el corte había desaparecido de la tela y del dibujo original."
+            ],
+            "correct": "c",
+            "explanation": "Que la costura seguía cerrada y que el parche permanecía en su sitio."
+          },
+          "l300b-q9": {
+            "prompt": "¿Por qué «primer vuelo» es una anotación más precisa que «reparación comprobada para siempre»?",
+            "options": [
+              "Porque indica que el parche debe retirarse antes del siguiente vuelo.",
+              "Porque limita la anotación a la prueba que realmente han observado.",
+              "Porque confirma que la cometa ya ha superado cualquier clase de viento.",
+              "Porque significa que aún no han revisado la costura después de volar."
+            ],
+            "correct": "b",
+            "explanation": "Porque registra la comprobación que realmente han hecho: un vuelo corto. Ese resultado no demuestra cuánto resistirá en todos los vuelos futuros."
+          },
+          "l300b-q10": {
+            "prompt": "Un lector interpreta que bajaron la cometa porque se había roto de nuevo. ¿Qué dos datos corrigen esa interpretación?",
+            "options": [
+              "El parche era claro y Hugo había propuesto cambiar la parte azul.",
+              "Mateo organizaba juegos y los niños conocían el taller de Irene.",
+              "La tela se enganchó en un seto y Mateo pensó en comprar otra cometa.",
+              "La bajada estaba prevista y el arreglo seguía cerrado al revisarlo."
+            ],
+            "correct": "d",
+            "explanation": "Ya habían acordado bajarla tras un vuelo corto para revisarla y, al hacerlo, comprobaron que la costura seguía cerrada y el parche en su sitio."
+          },
+          "l300b-q11": {
+            "prompt": "¿Qué resumen recoge el cambio principal y el resultado de la prueba?",
+            "options": [
+              "Mateo pasa de querer sustituir la cometa a volver a usarla después de reparar y probar el daño localizado.",
+              "Mateo prueba la cometa rota antes de llevarla al taller y decide comprar otra cuando acaba el primer vuelo.",
+              "Irene cambia toda la parte azul y los niños hacen el primer vuelo para decidir dónde quieren poner el parche.",
+              "El grupo dibuja una cometa dañada y guarda la original en el centro sin llegar a probarla de nuevo."
+            ],
+            "correct": "a",
+            "explanation": "Mateo pensaba guardar la cometa dañada y comprar otra. Irene encuentra un daño localizado, cose un parche y acuerda una prueba concreta. Después de un vuelo corto, comprueban que la costura y el parche siguen bien. Mateo vuelve a coger el hilo para continuar, mientras los niños observan con el dibujo."
+          }
+        }
+      },
+      {
+        "code": "L300B",
+        "language": "ca",
+        "questions": {
+          "l300b-q1": {
+            "prompt": "Quin és el fet principal que anuncia el primer paràgraf i per què va ser breu el vol?",
+            "options": [
+              "L’estel es va tornar a trencar i el van fer baixar per canviar les varetes.",
+              "L’estel reparat va tornar al pati i el van fer baixar aviat per revisar-lo.",
+              "L’estel nou va arribar al centre i el van fer baixar per comparar-ne els colors.",
+              "L’estel es va allunyar del pati i el van fer baixar per evitar la tanca vegetal."
+            ],
+            "correct": "b",
+            "explanation": "L’estel va tornar al pati després de ser reparat. El vol va ser breu perquè havien decidit revisar l’arranjament abans de continuar."
+          },
+          "l300b-q2": {
+            "prompt": "Quin canvi temporal es produeix en passar del primer paràgraf al segon?",
+            "options": [
+              "Avança de l’arranjament a una jornada de jocs que encara no ha passat.",
+              "Presenta dues versions contradictòries del mateix vol del pati.",
+              "Atura la notícia per explicar com es fabrica un estel nou.",
+              "Recula des de la prova per explicar com va arribar l’estel al taller."
+            ],
+            "correct": "d",
+            "explanation": "La notícia comença amb la prova d’ahir i després recula al dia anterior a aquella prova per explicar la visita al taller."
+          },
+          "l300b-q3": {
+            "prompt": "Quines observacions justifiquen que la Irene proposi una reparació localitzada?",
+            "options": [
+              "Les varetes fermes i la tela sencera al voltant del tall.",
+              "El dibuix de l’estel i la prova que ja havien acabat.",
+              "La part blava nova i el pedaç que havia portat en Mateo.",
+              "La distància de la tanca vegetal i l’espai que ocupaven els infants."
+            ],
+            "correct": "a",
+            "explanation": "Les varetes eren fermes i la tela al voltant de l’estrip era sencera."
+          },
+          "l300b-q4": {
+            "prompt": "Què vol dir «localitzada» en descriure la reparació?",
+            "options": [
+              "Feta al pati en comptes de fer-la al taller.",
+              "Dibuixada sobre paper abans que arribi l’estel.",
+              "Centrada en una zona concreta de l’estel.",
+              "Repartida entre la part groga i tota la part blava."
+            ],
+            "correct": "c",
+            "explanation": "Que se centra a la zona malmesa, en comptes de substituir tota la part blava."
+          },
+          "l300b-q5": {
+            "prompt": "Què aporten plegats el dibuix del tall i el contorn del pedaç que afegeix l’Hugo?",
+            "options": [
+              "Demostren quant de temps podrà volar l’estel després de reparar-lo.",
+              "Relacionen el desperfecte tapat amb la zona que cobreix la reparació.",
+              "Permeten comparar l’altura del vol amb la mida de la tanca vegetal.",
+              "Substitueixen la revisió de la tela després de cada prova."
+            ],
+            "correct": "b",
+            "explanation": "Permeten distingir el desperfecte original de la zona reparada i comprovar on queda el tall, encara que ja estigui cobert pel pedaç."
+          },
+          "l300b-q6": {
+            "prompt": "Què depenia que fes una mica de vent i qui controlaria l’estel?",
+            "options": [
+              "La tria del pedaç depenia del vent i l’Hugo controlaria el fil.",
+              "La reparació es faria si hi havia vent i l’Asha controlaria el fil.",
+              "La revisió de les varetes esperava el vent i la Irene controlaria el fil.",
+              "La prova es faria si hi havia vent i en Mateo controlaria el fil."
+            ],
+            "correct": "d",
+            "explanation": "La prova de la tarda següent depenia d’aquella condició. En Mateo faria anar el fil."
+          },
+          "l300b-q7": {
+            "prompt": "Relaciona el lloc triat per a la prova amb l’origen del desperfecte.",
+            "options": [
+              "S’aparten de l’obstacle on s’havia enganxat la tela.",
+              "Busquen el mateix lloc perquè la tanca ajudi a subjectar l’estel.",
+              "Canvien de pati perquè en Mateo ja no organitza jocs al centre.",
+              "S’acosten al taller perquè la Irene pugui revisar la tela des de la taula."
+            ],
+            "correct": "a",
+            "explanation": "El desperfecte es va produir en enganxar-se a la tanca vegetal; per a la prova trien una zona buida i lluny d’aquella tanca, evitant repetir la situació."
+          },
+          "l300b-q8": {
+            "prompt": "Quins dos resultats concrets va observar la Irene en fer baixar l’estel?",
+            "options": [
+              "Que la part blava era nova i el fil tenia la mateixa llargada.",
+              "Que el dibuix continuava obert i la tanca quedava lluny del taller.",
+              "Que la costura continuava tancada i el pedaç no s’havia desplaçat.",
+              "Que el tall havia desaparegut de la tela i del dibuix original."
+            ],
+            "correct": "c",
+            "explanation": "Que la costura continuava tancada i que el pedaç era al seu lloc."
+          },
+          "l300b-q9": {
+            "prompt": "Per què «primer vol» és una anotació més precisa que «reparació comprovada per sempre»?",
+            "options": [
+              "Perquè indica que cal retirar el pedaç abans del vol següent.",
+              "Perquè limita l’anotació a la prova que han observat realment.",
+              "Perquè confirma que l’estel ja ha superat qualsevol mena de vent.",
+              "Perquè vol dir que encara no han revisat la costura després de volar."
+            ],
+            "correct": "b",
+            "explanation": "Perquè registra la comprovació que han fet realment: un vol curt. Aquell resultat no demostra quant resistirà en tots els vols futurs."
+          },
+          "l300b-q10": {
+            "prompt": "Un lector interpreta que van fer baixar l’estel perquè s’havia tornat a trencar. Quines dues dades corregeixen aquella interpretació?",
+            "options": [
+              "El pedaç era clar i l’Hugo havia proposat canviar la part blava.",
+              "En Mateo organitzava jocs i els infants coneixien el taller de la Irene.",
+              "La tela es va enganxar en una tanca i en Mateo va pensar a comprar un altre estel.",
+              "La baixada estava prevista i l’arranjament continuava tancat en revisar-lo."
+            ],
+            "correct": "d",
+            "explanation": "Ja havien acordat fer-lo baixar després d’un vol curt per revisar-lo i, en fer-ho, van comprovar que la costura continuava tancada i el pedaç al seu lloc."
+          },
+          "l300b-q11": {
+            "prompt": "Quin resum recull el canvi principal i el resultat de la prova?",
+            "options": [
+              "En Mateo passa de voler substituir l’estel a tornar-lo a fer servir després de reparar i provar el desperfecte localitzat.",
+              "En Mateo prova l’estel estripat abans de portar-lo al taller i decideix comprar-ne un altre en acabar el primer vol.",
+              "La Irene canvia tota la part blava i els infants fan el primer vol per decidir on volen posar el pedaç.",
+              "El grup dibuixa un estel malmès i guarda l’original al centre sense arribar a tornar-lo a provar."
+            ],
+            "correct": "a",
+            "explanation": "En Mateo pensava guardar l’estel malmès i comprar-ne un altre. La Irene troba un desperfecte localitzat, hi cus un pedaç i acorda una prova concreta. Després d’un vol curt, comproven que la costura i el pedaç continuen bé. En Mateo torna a agafar el fil per continuar, mentre els infants observen amb el dibuix."
+          }
+        }
+      }
+    ]
   }
 ];
