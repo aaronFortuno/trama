@@ -1,6 +1,6 @@
 # Els camins de la ribera
 
-Identificador estable: `camins-de-la-ribera`. Castellà: **Los caminos de la ribera**. Origen: **L189, El camí del missatger**, de 4t avançada. Les cinc novetats se situen a **5è de primària**, amb dificultat inicial, intermèdia i avançada.
+Identificador estable: `camins-de-la-ribera`. Castellà: **Los caminos de la ribera**. Origen: **L189, El camí del missatger**, de 4t avançada. Les cinc primeres novetats L264–L268 se situen a **5è de primària**, amb dificultat inicial, intermèdia i avançada. L307–L315 hi afegeixen nou famílies amb suport de 4t, referència de 5è i ampliació de 6è, fins a **quinze històries autònomes**.
 
 ## Món i continuïtat
 
@@ -39,6 +39,37 @@ Totes en català i castellà, amb vuit preguntes en les noves, solucionaris, lí
 
 ## Recursos i futures ampliacions
 
-Textos: `data/readings-universe-riverside.js`. Escenes: `assets/readings/l264-*.webp` a `l268-*.webp`. Referència comuna: `assets/readings/l189-el-camino-del-mensajero.webp`. Instruccions: [prompts](prompts/), `l264.txt` a `l268.txt`; eina integrada, WebP 1100 × 733 sense retocs semàntics després de generar.
+Textos inicials: `data/readings-universe-riverside.js`. L’ampliació s’autora a `data/riverside-2026-11-26-*.js` amb `riverside-expansion-model.js`; només les famílies completes i revisades de `riverside-expansion-published.js` s’importen al catàleg. Escenes inicials: `assets/readings/l264-*.webp` a `l268-*.webp`; les noves són `l307-ribera.webp` a `l315-ribera.webp`. Referència comuna: `assets/readings/l189-el-camino-del-mensajero.webp`. Instruccions inicials: [prompts](prompts/), `l264.txt` a `l268.txt`; les noves són al registre d’imatges enllaçat a la secció d’ampliació. Eina integrada, WebP 1100 × 733 amb redimensionament i compressió sense retocs semàntics per codi.
 
-Possibles continuacions: una trobada al mercat, ajudar a preparar una celebració, un relat transmès de manera diferent per dos veïns o un encàrrec amb necessitats noves. No repetir sempre un camí tallat ni presentar tots els conflictes com una cursa contra rellotge.
+Les novetats incorporen mercat, correspondència, joc, música, berenar compartit, artesania, dibuix, teatre i sons de la vall. Futures ampliacions poden explorar trobades, nous punts de vista i encàrrecs amb necessitats diferents. No repetir sempre un camí tallat ni presentar tots els conflictes com una cursa contra rellotge.
+
+Detalls de continuïtat de L307–L315:
+
+- La Bruna ven cintes teixides a la plaça; a la seva escena té rínxols foscos curts, brusa clara i xal verd blavós. El tamboret a l’extrem ombrívol permet treballar mantenint el mostrador i el pas.
+- La proposta de contes d’Isona i la resposta d’Elna comparteixen un full, escrit al dors en tornar. Les dues mantes previstes deixen un pas central; cada lectura descriu la proposta amb paraules.
+- El joc del saquet té tres cercles i una ratlla, tres llançaments per participant i valors 1/2/3 segons proximitat; el saquet ha de quedar sencer a dins per puntuar. La il·lustració mostra la preparació, sense xifres ni necessitat de comptar objectes al dibuix.
+- Isona i Neri assagen flauta i recitació al porxo. Al berenar, dotze persones inicials inclouen Elna i els dos infants; després n’arriben dues més. Les porcions no són necessàriament de la mateixa mida.
+- La Sira és cistellera adulta d’uns quaranta anys, amb trena fosca i davantal marró de lli a la primera escena. Isona vol veure els cabdells en un cistell baix i ample; el paper només prova la mida del fons. La recollida és l’endemà en tots els graus.
+- Sota una figuera, els dos infants dibuixen el molí. Les ombres travessen el full i es distingeixen de les línies fetes amb carbó. No es fixa cap posició cardinal nova.
+- La Joana actriu representa una fornera a la funció que comença pel desenllaç, amb el davantal humit. La Joana d’aquest relat no té cap relació establerta amb la guia de l’observatori. La representació simula l’accident de la gerra; no hi ha màgia ni aigua real vessada a escena.
+- El mapa de sons és un dibuix personal de la passejada: ones blaves per al rierol, tres ratlles per a la roda i una espiral per a la melodia repetida, amb una fulla que recorda la figuera. No incorpora distàncies, escala ni un mapa geogràfic canònic; la llegenda s’explica al text.
+
+<!-- riverside-expansion:start -->
+## Ampliació del 26 de novembre del 2026
+
+L’univers arriba a **15 històries independents**. Les 9 noves són famílies completes: suport de 4t (180–240 paraules, 8 preguntes), referència de 5è (270–340 paraules, 10 preguntes) i ampliació de 6è (360–450 paraules, 12 preguntes), totes en català i castellà. Cada grau té textos, tasques, solucionari i evidències propis, i comparteix la situació i les il·lustracions amb els altres. Les alternatives ABCD són pròpies de cada variant i llengua; les opinions i la creació personal mantenen resposta textual.
+
+| Família | Història | Variants |
+| --- | --- | --- |
+| L307 | La parada que buscava ombra | L307A · L307 · L307B |
+| L308 | La carta que va tornar amb dibuixos | L308A · L308 · L308B |
+| L309 | El joc del saquet | L309A · L309 · L309B |
+| L310 | La cançó que necessitava una pausa | L310A · L310 · L310B |
+| L311 | La taula dels pans diferents | L311A · L311 · L311B |
+| L312 | Les preguntes de la cistellera | L312A · L312 · L312B |
+| L313 | L’ombra que va entrar al dibuix | L313A · L313 · L313B |
+| L314 | La funció que va començar pel final | L314A · L314 · L314B |
+| L315 | El mapa que guardava sons | L315A · L315 · L315B |
+
+La [guia d’autoria](riverside-expansion-2026-11-26-authoring.md), el [registre editorial](riverside-expansion-2026-11-26-review.json) i els [prompts de les escenes](riverside-expansion-2026-11-26-images.json) documenten la tanda. Cada història reintrodueix l’equip i el context necessaris; no s’ha de llegir en cap ordre. En Neri, l’Elna i l’Isona comparteixen encàrrecs, trobades i vida cultural a la vall. Les versions han superat revisió independent i són **provisionals, pendents de validació docent**.
+<!-- riverside-expansion:end -->

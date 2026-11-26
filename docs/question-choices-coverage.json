@@ -1,9 +1,9 @@
 {
   "date": "2026-11-26",
-  "totalWorks": 624,
-  "coveredWorks": 624,
+  "totalWorks": 627,
+  "coveredWorks": 627,
   "pendingWorks": 0,
-  "localizedAlternatives": 6476,
+  "localizedAlternatives": 6530,
   "ranges": [
     {
       "start": 1,
@@ -441,9 +441,9 @@
     },
     {
       "start": 311,
-      "end": 314,
-      "total": 12,
-      "covered": 12,
+      "end": 315,
+      "total": 15,
+      "covered": 15,
       "status": "complete"
     }
   ],
@@ -39450,6 +39450,285 @@
             },
             {
               "id": "l314b-q11",
+              "number": 11
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L315",
+      "baseCode": "L315",
+      "variant": false,
+      "level": "5-primary",
+      "difficulty": "intermediate",
+      "title": "El mapa que guardava sons",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l315-q1",
+              "number": 1
+            },
+            {
+              "id": "l315-q2",
+              "number": 2
+            },
+            {
+              "id": "l315-q3",
+              "number": 3
+            },
+            {
+              "id": "l315-q4",
+              "number": 4
+            },
+            {
+              "id": "l315-q5",
+              "number": 5
+            },
+            {
+              "id": "l315-q6",
+              "number": 6
+            },
+            {
+              "id": "l315-q7",
+              "number": 7
+            },
+            {
+              "id": "l315-q8",
+              "number": 8
+            },
+            {
+              "id": "l315-q9",
+              "number": 9
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l315-q1",
+              "number": 1
+            },
+            {
+              "id": "l315-q2",
+              "number": 2
+            },
+            {
+              "id": "l315-q3",
+              "number": 3
+            },
+            {
+              "id": "l315-q4",
+              "number": 4
+            },
+            {
+              "id": "l315-q5",
+              "number": 5
+            },
+            {
+              "id": "l315-q6",
+              "number": 6
+            },
+            {
+              "id": "l315-q7",
+              "number": 7
+            },
+            {
+              "id": "l315-q8",
+              "number": 8
+            },
+            {
+              "id": "l315-q9",
+              "number": 9
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L315A",
+      "baseCode": "L315",
+      "variant": true,
+      "level": "4-primary",
+      "difficulty": "intermediate",
+      "title": "El mapa que guardava sons",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l315a-q1",
+              "number": 1
+            },
+            {
+              "id": "l315a-q2",
+              "number": 2
+            },
+            {
+              "id": "l315a-q3",
+              "number": 3
+            },
+            {
+              "id": "l315a-q4",
+              "number": 4
+            },
+            {
+              "id": "l315a-q5",
+              "number": 5
+            },
+            {
+              "id": "l315a-q6",
+              "number": 6
+            },
+            {
+              "id": "l315a-q7",
+              "number": 7
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l315a-q1",
+              "number": 1
+            },
+            {
+              "id": "l315a-q2",
+              "number": 2
+            },
+            {
+              "id": "l315a-q3",
+              "number": 3
+            },
+            {
+              "id": "l315a-q4",
+              "number": 4
+            },
+            {
+              "id": "l315a-q5",
+              "number": 5
+            },
+            {
+              "id": "l315a-q6",
+              "number": 6
+            },
+            {
+              "id": "l315a-q7",
+              "number": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L315B",
+      "baseCode": "L315",
+      "variant": true,
+      "level": "6-primary",
+      "difficulty": "intermediate",
+      "title": "El mapa que guardava sons",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l315b-q1",
+              "number": 1
+            },
+            {
+              "id": "l315b-q2",
+              "number": 2
+            },
+            {
+              "id": "l315b-q3",
+              "number": 3
+            },
+            {
+              "id": "l315b-q4",
+              "number": 4
+            },
+            {
+              "id": "l315b-q5",
+              "number": 5
+            },
+            {
+              "id": "l315b-q6",
+              "number": 6
+            },
+            {
+              "id": "l315b-q7",
+              "number": 7
+            },
+            {
+              "id": "l315b-q8",
+              "number": 8
+            },
+            {
+              "id": "l315b-q9",
+              "number": 9
+            },
+            {
+              "id": "l315b-q10",
+              "number": 10
+            },
+            {
+              "id": "l315b-q11",
+              "number": 11
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l315b-q1",
+              "number": 1
+            },
+            {
+              "id": "l315b-q2",
+              "number": 2
+            },
+            {
+              "id": "l315b-q3",
+              "number": 3
+            },
+            {
+              "id": "l315b-q4",
+              "number": 4
+            },
+            {
+              "id": "l315b-q5",
+              "number": 5
+            },
+            {
+              "id": "l315b-q6",
+              "number": 6
+            },
+            {
+              "id": "l315b-q7",
+              "number": 7
+            },
+            {
+              "id": "l315b-q8",
+              "number": 8
+            },
+            {
+              "id": "l315b-q9",
+              "number": 9
+            },
+            {
+              "id": "l315b-q10",
+              "number": 10
+            },
+            {
+              "id": "l315b-q11",
               "number": 11
             }
           ]

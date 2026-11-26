@@ -14787,5 +14787,1820 @@ export const riversidePublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L315",
+    "edition": "v1.63.8",
+    "family": {
+      "id": "familia-l315",
+      "code": "L315",
+      "name": {
+        "es": "El mapa que guardaba sonidos",
+        "ca": "El mapa que guardava sons"
+      },
+      "description": {
+        "ca": "Una història dels Camins de la ribera, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de Los caminos de la ribera, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L315A",
+        "L315",
+        "L315B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "el-mapa-que-guardaba-sonidos-a-es",
+        "code": "L315A",
+        "workId": "el-mapa-que-guardaba-sonidos-a",
+        "language": "es",
+        "familyId": "familia-l315",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "nature",
+          "geography"
+        ],
+        "genre": "informative",
+        "title": "El mapa que guardaba sonidos",
+        "summary": "Un dibujo reúne los sonidos que Neri e Isona quieren recordar de una tarde en la ribera.",
+        "paragraphs": [
+          "Sobre la mesa del molino de Elna había un dibujo de Neri e Isona, dos amigos de la ribera. Querían recordar los sonidos de su paseo. Primero habían escuchado el agua del arroyo. Después, los golpes repetidos de la rueda del molino. Más tarde, Isona había tocado la flauta bajo la higuera. Al volver al molino, habían pedido papel y un poco de color azul.",
+          "Neri dibujó unas ondas azules para el agua. Isona puso tres rayas cortas para los golpes de la rueda. En medio hicieron una espiral grande para la melodía de la flauta. Isona había repetido varias veces el mismo comienzo y Neri quería guardar aquel momento en el centro de la hoja.",
+          "Elna miró la espiral y preguntó si era el viento. Isona cogió la flauta y tocó el comienzo otra vez. Después escribieron junto a cada signo lo que representaba. Esa leyenda permitía relacionar las marcas con sus sonidos. Elna pasó el dedo de las ondas a las rayas y tarareó al llegar a la espiral.",
+          "Neri llamó al dibujo su mapa de sonidos. Isona añadió una hoja junto a la espiral para recordar la higuera. Dejaron el papel secándose en la mesa y salieron al patio, donde todavía se oía la rueda."
+        ],
+        "questions": [
+          {
+            "id": "l315a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Para qué hicieron Neri e Isona el dibujo?",
+            "answer": "Para recordar los sonidos de su paseo.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Querían recordar los sonidos de su paseo."
+              }
+            ]
+          },
+          {
+            "id": "l315a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué habían escuchado primero?",
+            "answer": "El agua del arroyo.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Primero habían escuchado el agua del arroyo."
+              }
+            ]
+          },
+          {
+            "id": "l315a-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué representaban las tres rayas cortas?",
+            "answer": "Los golpes repetidos de la rueda del molino.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "tres rayas cortas para los golpes de la rueda"
+              }
+            ]
+          },
+          {
+            "id": "l315a-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué pensó Elna que podía representar la espiral?",
+            "answer": "El viento.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "preguntó si era el viento"
+              }
+            ]
+          },
+          {
+            "id": "l315a-q5",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué es la «leyenda» de este dibujo?",
+            "answer": "La explicación escrita que relaciona cada signo con su sonido.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "escribieron junto a cada signo lo que representaba. Esa leyenda permitía relacionar las marcas con sus sonidos."
+              }
+            ]
+          },
+          {
+            "id": "l315a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Isona vuelve a tocar el comienzo de la melodía ante Elna?",
+            "answer": "Para mostrarle el sonido que querían representar con la espiral, después de que ella pensara en el viento.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Elna miró la espiral y preguntó si era el viento. Isona cogió la flauta y tocó el comienzo otra vez."
+              }
+            ]
+          },
+          {
+            "id": "l315a-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué añadió Isona al final y para qué?",
+            "answer": "Una hoja junto a la espiral, para recordar la higuera.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Isona añadió una hoja junto a la espiral para recordar la higuera."
+              }
+            ]
+          },
+          {
+            "id": "l315a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué otro sonido de un lugar conocido guardarías en un dibujo? Explica cómo lo representarías.",
+            "answer": "Propuesta personal con un sonido reconocible y un signo o dibujo explicado de manera comprensible."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "leyenda",
+            "occurrence": 1,
+            "questionId": "l315a-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l315-scene",
+            "src": "assets/readings/l315-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri e Isona muestran a Elna un dibujo con ondas, rayas y una espiral para recordar los sonidos de su paseo.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-mapa-que-guardaba-sonidos-a-ca",
+        "code": "L315A",
+        "workId": "el-mapa-que-guardaba-sonidos-a",
+        "language": "ca",
+        "familyId": "familia-l315",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "nature",
+          "geography"
+        ],
+        "genre": "informative",
+        "title": "El mapa que guardava sons",
+        "summary": "Un dibuix reuneix els sons que en Neri i l’Isona volen recordar d’una tarda a la ribera.",
+        "paragraphs": [
+          "Sobre la taula del molí de l’Elna hi havia un dibuix d’en Neri i l’Isona, dos amics de la ribera. Volien recordar els sons de la passejada. Primer havien escoltat l’aigua del rierol. Després, els cops repetits de la roda del molí. Més tard, l’Isona havia tocat la flauta sota la figuera. En tornar al molí, havien demanat paper i una mica de color blau.",
+          "En Neri va dibuixar unes ones blaves per a l’aigua. L’Isona va posar tres ratlles curtes per als cops de la roda. Al mig hi van fer una espiral gran per a la melodia de la flauta. L’Isona havia repetit unes quantes vegades el mateix començament i en Neri volia guardar aquell moment al centre del full.",
+          "L’Elna es va mirar l’espiral i va preguntar si era el vent. L’Isona va agafar la flauta i va tocar el començament una altra vegada. Després van escriure al costat de cada signe què representava. Aquella llegenda permetia relacionar les marques amb els sons. L’Elna va passar el dit de les ones a les ratlles i va taral·lejar quan va arribar a l’espiral.",
+          "En Neri va dir que el dibuix era el seu mapa de sons. L’Isona va afegir una fulla al costat de l’espiral per recordar la figuera. Van deixar el paper assecant-se a la taula i van sortir al pati, on encara se sentia la roda."
+        ],
+        "questions": [
+          {
+            "id": "l315a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Per a què van fer el dibuix en Neri i l’Isona?",
+            "answer": "Per recordar els sons de la passejada.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Volien recordar els sons de la passejada."
+              }
+            ]
+          },
+          {
+            "id": "l315a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què havien escoltat primer?",
+            "answer": "L’aigua del rierol.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Primer havien escoltat l’aigua del rierol."
+              }
+            ]
+          },
+          {
+            "id": "l315a-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què representaven les tres ratlles curtes?",
+            "answer": "Els cops repetits de la roda del molí.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "tres ratlles curtes per als cops de la roda"
+              }
+            ]
+          },
+          {
+            "id": "l315a-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què va pensar l’Elna que podia representar l’espiral?",
+            "answer": "El vent.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "va preguntar si era el vent"
+              }
+            ]
+          },
+          {
+            "id": "l315a-q5",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què és la «llegenda» d’aquest dibuix?",
+            "answer": "L’explicació escrita que relaciona cada signe amb el seu so.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "van escriure al costat de cada signe què representava. Aquella llegenda permetia relacionar les marques amb els sons."
+              }
+            ]
+          },
+          {
+            "id": "l315a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què l’Isona torna a tocar el començament de la melodia davant de l’Elna?",
+            "answer": "Per mostrar-li el so que volien representar amb l’espiral, després que ella pensés en el vent.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "L’Elna es va mirar l’espiral i va preguntar si era el vent. L’Isona va agafar la flauta i va tocar el començament una altra vegada."
+              }
+            ]
+          },
+          {
+            "id": "l315a-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què va afegir l’Isona al final i per a què?",
+            "answer": "Una fulla al costat de l’espiral, per recordar la figuera.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "L’Isona va afegir una fulla al costat de l’espiral per recordar la figuera."
+              }
+            ]
+          },
+          {
+            "id": "l315a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quin altre so d’un lloc conegut guardaries en un dibuix? Explica com el representaries.",
+            "answer": "Proposta personal amb un so reconeixible i un signe o dibuix explicat de manera entenedora."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "llegenda",
+            "occurrence": 1,
+            "questionId": "l315a-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l315-scene",
+            "src": "assets/readings/l315-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri i l’Isona ensenyen a l’Elna un dibuix amb ones, ratlles i una espiral per recordar els sons de la passejada.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-mapa-que-guardaba-sonidos-es",
+        "code": "L315",
+        "workId": "el-mapa-que-guardaba-sonidos",
+        "language": "es",
+        "familyId": "familia-l315",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "nature",
+          "geography"
+        ],
+        "genre": "informative",
+        "title": "El mapa que guardaba sonidos",
+        "summary": "Tres signos permiten guardar una tarde de sonidos, pero otra persona necesita saber qué representan.",
+        "paragraphs": [
+          "Un dibujo sobre la mesa del molino de Elna reúne los sonidos que Neri e Isona quisieron recordar de una tarde en la ribera. Los dos amigos habían escuchado primero el agua del arroyo; después, los golpes repetidos de la rueda del molino. Más tarde, Isona había tocado su flauta bajo la higuera. Cuando volvieron al molino, pidieron papel, carbón y un poco de color azul.",
+          "Neri trazó unas ondas azules para el agua. Isona dibujó tres rayas cortas para los golpes de la rueda. En el centro hicieron una espiral ancha para la melodía de la flauta. Isona había repetido el mismo comienzo varias veces antes de continuar. Neri quiso darle más espacio a ese recuerdo, aunque la higuera estuviera después del molino en su paseo.",
+          "Elna se acercó a mirar. Reconoció el agua en las ondas, pero preguntó si la espiral era un remolino de viento. Isona tocó de nuevo el comienzo de la melodía. Neri siguió con el dedo la vuelta del signo mientras la oía. Después escribieron al lado de las ondas «arroyo», de las rayas «rueda del molino» y de la espiral «flauta de Isona».",
+          "Esa leyenda permitía que otra persona relacionara las marcas con los sonidos elegidos. Elna recorrió los signos con el dedo y tarareó al llegar a la espiral. «Aquí empezabas otra vez», dijo. Isona asintió y añadió una hoja junto al signo, para recordar también el lugar donde había tocado.",
+          "Neri llamó a la hoja su mapa de sonidos. Dejaron que se secara el azul antes de guardarla. Mientras esperaban en el patio, Isona tocó la frase completa; desde el interior del molino, Elna la acompañó un instante con la voz."
+        ],
+        "questions": [
+          {
+            "id": "l315-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué tres sonidos querían recordar?",
+            "answer": "El agua del arroyo, los golpes de la rueda del molino y la flauta de Isona.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "el agua del arroyo; después, los golpes repetidos de la rueda del molino"
+              },
+              {
+                "paragraph": 1,
+                "text": "Isona había tocado su flauta"
+              }
+            ]
+          },
+          {
+            "id": "l315-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿En qué orden escucharon esos sonidos durante el paseo?",
+            "answer": "Primero el arroyo, después la rueda del molino y más tarde la flauta bajo la higuera.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "habían escuchado primero el agua del arroyo; después, los golpes repetidos de la rueda del molino. Más tarde, Isona había tocado su flauta bajo la higuera."
+              }
+            ]
+          },
+          {
+            "id": "l315-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué la espiral ocupa más espacio en el papel?",
+            "answer": "Porque Neri quiso dar más espacio al recuerdo de la melodía repetida por Isona.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Neri quiso darle más espacio a ese recuerdo"
+              }
+            ]
+          },
+          {
+            "id": "l315-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué interpretación hizo Elna de la espiral al principio?",
+            "answer": "Pensó que podía ser un remolino de viento.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "preguntó si la espiral era un remolino de viento"
+              }
+            ]
+          },
+          {
+            "id": "l315-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué relación hay entre la espiral y el comienzo que Isona había repetido?",
+            "answer": "La forma que da vueltas puede recordar volver al mismo comienzo de la melodía, como muestran el gesto de Neri y el comentario de Elna.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Neri siguió con el dedo la vuelta del signo mientras la oía."
+              },
+              {
+                "paragraph": 4,
+                "text": "Aquí empezabas otra vez"
+              }
+            ]
+          },
+          {
+            "id": "l315-q6",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué es la «leyenda» en este texto?",
+            "answer": "El conjunto de explicaciones que relaciona los signos del dibujo con los sonidos.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Esa leyenda permitía que otra persona relacionara las marcas con los sonidos elegidos."
+              }
+            ]
+          },
+          {
+            "id": "l315-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué muestra la duda de Elna sobre la espiral?",
+            "answer": "Que el significado que los autores dan a un signo puede necesitar una explicación para otra persona.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "preguntó si la espiral era un remolino de viento"
+              },
+              {
+                "paragraph": 4,
+                "text": "relacionara las marcas con los sonidos elegidos"
+              }
+            ]
+          },
+          {
+            "id": "l315-q8",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué esperaron antes de guardar la hoja?",
+            "answer": "Para que se secara el color azul.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Dejaron que se secara el azul antes de guardarla."
+              }
+            ]
+          },
+          {
+            "id": "l315-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué añade la leyenda a la hoja de sonidos.",
+            "answer": "Permite que otra persona entienda qué sonidos han elegido representar y evita confundir la espiral con otro sonido, como el viento.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "escribieron al lado de las ondas «arroyo», de las rayas «rueda del molino» y de la espiral «flauta de Isona»"
+              },
+              {
+                "paragraph": 4,
+                "text": "relacionara las marcas con los sonidos elegidos"
+              }
+            ]
+          },
+          {
+            "id": "l315-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué sonido harías más grande en un dibujo de tu entorno? Explica qué importancia tendría para ti.",
+            "answer": "Respuesta personal que relaciona un sonido con un recuerdo, una preferencia o una experiencia, sin exigir que sea el más fuerte."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "leyenda",
+            "occurrence": 1,
+            "questionId": "l315-q6"
+          }
+        ],
+        "images": [
+          {
+            "id": "l315-scene",
+            "src": "assets/readings/l315-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri e Isona muestran a Elna un dibujo con ondas, rayas y una espiral para recordar los sonidos de su paseo.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-mapa-que-guardaba-sonidos-ca",
+        "code": "L315",
+        "workId": "el-mapa-que-guardaba-sonidos",
+        "language": "ca",
+        "familyId": "familia-l315",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "nature",
+          "geography"
+        ],
+        "genre": "informative",
+        "title": "El mapa que guardava sons",
+        "summary": "Tres signes permeten guardar una tarda de sons, però una altra persona necessita saber què representen.",
+        "paragraphs": [
+          "Un dibuix sobre la taula del molí de l’Elna reuneix els sons que en Neri i l’Isona van voler recordar d’una tarda a la ribera. Els dos amics havien escoltat primer l’aigua del rierol; després, els cops repetits de la roda del molí. Més tard, l’Isona havia tocat la flauta sota la figuera. Quan van tornar al molí, van demanar paper, carbó i una mica de color blau.",
+          "En Neri va traçar unes ones blaves per a l’aigua. L’Isona va dibuixar tres ratlles curtes per als cops de la roda. Al centre hi van fer una espiral ampla per a la melodia de la flauta. L’Isona havia repetit el mateix començament unes quantes vegades abans de continuar. En Neri va voler donar més espai a aquell record, tot i que la figuera vingués després del molí a la passejada.",
+          "L’Elna es va acostar a mirar. Va reconèixer l’aigua a les ones, però va preguntar si l’espiral era un remolí de vent. L’Isona va tornar a tocar el començament de la melodia. En Neri va seguir amb el dit la volta del signe mentre la sentia. Després van escriure al costat de les ones «rierol», de les ratlles «roda del molí» i de l’espiral «flauta de l’Isona».",
+          "Aquella llegenda permetia que una altra persona relacionés les marques amb els sons triats. L’Elna va resseguir els signes amb el dit i va taral·lejar quan va arribar a l’espiral. «Aquí tornaves a començar», va dir. L’Isona va assentir i va afegir una fulla al costat del signe, per recordar també el lloc on havia tocat.",
+          "En Neri va dir que el full era el seu mapa de sons. Van deixar que s’assequés el blau abans de desar-lo. Mentre esperaven al pati, l’Isona va tocar la frase sencera; des de dins del molí, l’Elna la va acompanyar un instant amb la veu."
+        ],
+        "questions": [
+          {
+            "id": "l315-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quins tres sons volien recordar?",
+            "answer": "L’aigua del rierol, els cops de la roda del molí i la flauta de l’Isona.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "l’aigua del rierol; després, els cops repetits de la roda del molí"
+              },
+              {
+                "paragraph": 1,
+                "text": "l’Isona havia tocat la flauta"
+              }
+            ]
+          },
+          {
+            "id": "l315-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "En quin ordre van escoltar aquells sons durant la passejada?",
+            "answer": "Primer el rierol, després la roda del molí i més tard la flauta sota la figuera.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "havien escoltat primer l’aigua del rierol; després, els cops repetits de la roda del molí. Més tard, l’Isona havia tocat la flauta sota la figuera."
+              }
+            ]
+          },
+          {
+            "id": "l315-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què l’espiral ocupa més espai al paper?",
+            "answer": "Perquè en Neri va voler donar més espai al record de la melodia repetida per l’Isona.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "En Neri va voler donar més espai a aquell record"
+              }
+            ]
+          },
+          {
+            "id": "l315-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina interpretació va fer l’Elna de l’espiral al principi?",
+            "answer": "Va pensar que podia ser un remolí de vent.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "va preguntar si l’espiral era un remolí de vent"
+              }
+            ]
+          },
+          {
+            "id": "l315-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina relació hi ha entre l’espiral i el començament que l’Isona havia repetit?",
+            "answer": "La forma que fa voltes pot recordar tornar al mateix començament de la melodia, com mostren el gest d’en Neri i el comentari de l’Elna.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "En Neri va seguir amb el dit la volta del signe mentre la sentia."
+              },
+              {
+                "paragraph": 4,
+                "text": "Aquí tornaves a començar"
+              }
+            ]
+          },
+          {
+            "id": "l315-q6",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què és la «llegenda» en aquest text?",
+            "answer": "El conjunt d’explicacions que relaciona els signes del dibuix amb els sons.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Aquella llegenda permetia que una altra persona relacionés les marques amb els sons triats."
+              }
+            ]
+          },
+          {
+            "id": "l315-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què mostra el dubte de l’Elna sobre l’espiral?",
+            "answer": "Que el significat que els autors donen a un signe pot necessitar una explicació per a una altra persona.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "va preguntar si l’espiral era un remolí de vent"
+              },
+              {
+                "paragraph": 4,
+                "text": "relacionés les marques amb els sons triats"
+              }
+            ]
+          },
+          {
+            "id": "l315-q8",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què van esperar abans de desar el full?",
+            "answer": "Perquè s’assequés el color blau.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Van deixar que s’assequés el blau abans de desar-lo."
+              }
+            ]
+          },
+          {
+            "id": "l315-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix què afegeix la llegenda al full de sons.",
+            "answer": "Permet que una altra persona entengui quins sons han triat representar i evita confondre l’espiral amb un altre so, com el vent.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "van escriure al costat de les ones «rierol», de les ratlles «roda del molí» i de l’espiral «flauta de l’Isona»"
+              },
+              {
+                "paragraph": 4,
+                "text": "relacionés les marques amb els sons triats"
+              }
+            ]
+          },
+          {
+            "id": "l315-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quin so faries més gran en un dibuix del teu entorn? Explica quina importància tindria per a tu.",
+            "answer": "Resposta personal que relaciona un so amb un record, una preferència o una experiència, sense exigir que sigui el més fort."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "llegenda",
+            "occurrence": 1,
+            "questionId": "l315-q6"
+          }
+        ],
+        "images": [
+          {
+            "id": "l315-scene",
+            "src": "assets/readings/l315-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri i l’Isona ensenyen a l’Elna un dibuix amb ones, ratlles i una espiral per recordar els sons de la passejada.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-mapa-que-guardaba-sonidos-b-es",
+        "code": "L315B",
+        "workId": "el-mapa-que-guardaba-sonidos-b",
+        "language": "es",
+        "familyId": "familia-l315",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "nature",
+          "geography"
+        ],
+        "genre": "informative",
+        "title": "El mapa que guardaba sonidos",
+        "summary": "Un mapa personal combina recuerdos, signos y explicaciones; su lectura cambia cuando alguien conoce cómo se ha elaborado.",
+        "paragraphs": [
+          "El mapa de sonidos de Neri e Isona nació una tarde sobre la mesa del molino de Elna. Los dos amigos de la ribera habían paseado desde la plaza. Primero se detuvieron junto al arroyo; después escucharon los golpes repetidos de la rueda del molino. Más tarde, Isona tocó la flauta bajo la higuera. Al volver al molino, pidieron papel, carbón y color azul. Querían guardar algo de aquella tarde que recordaban sobre todo por lo que habían oído.",
+          "Neri trazó unas ondas azules para el agua. Isona eligió tres rayas cortas para los golpes de la rueda. La flauta tuvo una espiral ancha en el centro: Isona había repetido varias veces el mismo comienzo antes de continuar la melodía. Neri siguió una vuelta del signo con el dedo y volvió al inicio tarareando. Le dio más espacio a ese recuerdo, aunque hubiera ocurrido después de los otros dos. Isona añadió una hoja junto a la espiral para situar la higuera.",
+          "Elna, la dueña del molino, se acercó cuando dejaron el carbón. Reconoció el agua en las ondas y preguntó si la espiral era un remolino de viento. Isona cogió la flauta y tocó el comienzo otra vez. Elna miró el dedo de Neri, que seguía las vueltas sobre el papel. «Aquí empezabas otra vez», dijo. Neri asintió. Las tres rayas le recordaron entonces los golpes de la rueda que seguían oyéndose desde la mesa.",
+          "Junto a cada signo escribieron qué representaba: «arroyo», «rueda del molino» y «flauta de Isona». Esa leyenda conservaba la relación elegida por los dos amigos para quien mirara la hoja otro día. Neri dejó espacio alrededor de la espiral en vez de llenarlo con las casas de la plaza. Isona le preguntó por qué. Él tarareó otra vez y señaló el recorrido que hacía su dedo. Ella retiró el carbón que había acercado a aquel hueco.",
+          "Elna recorrió las marcas desde las ondas hasta la espiral y acompañó la última con la voz. Dejaron secar el azul antes de guardar la hoja. En el patio, Isona tocó la frase completa. Neri miraba el papel desde la puerta abierta, con una mano en cada extremo para no rozar el color."
+        ],
+        "questions": [
+          {
+            "id": "l315b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿En qué orden aparecen los tres momentos recordados del paseo?",
+            "answer": "Arroyo, rueda del molino y flauta bajo la higuera.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Primero se detuvieron junto al arroyo; después escucharon los golpes repetidos de la rueda del molino. Más tarde, Isona tocó la flauta bajo la higuera."
+              }
+            ]
+          },
+          {
+            "id": "l315b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué motivo expresan para crear la hoja?",
+            "answer": "Guardar algo de una tarde que recordaban principalmente por los sonidos.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Querían guardar algo de aquella tarde que recordaban sobre todo por lo que habían oído."
+              }
+            ]
+          },
+          {
+            "id": "l315b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué una espiral puede evocar para ellos el comienzo de la melodía?",
+            "answer": "Por la repetición del comienzo y el gesto de dar vueltas y volver al inicio mientras lo tararean.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Isona había repetido varias veces el mismo comienzo"
+              },
+              {
+                "paragraph": 2,
+                "text": "siguió una vuelta del signo con el dedo y volvió al inicio tarareando"
+              }
+            ]
+          },
+          {
+            "id": "l315b-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué criterio hace que la flauta tenga una figura más grande y central?",
+            "answer": "La importancia que Neri dio a ese recuerdo, aunque ocurrió después de los otros.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Le dio más espacio a ese recuerdo, aunque hubiera ocurrido después de los otros dos."
+              }
+            ]
+          },
+          {
+            "id": "l315b-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué signo reconoce Elna antes de que los amigos lo expliquen y con cuál duda?",
+            "answer": "Reconoce el agua en las ondas y duda de la espiral, que relaciona con viento.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Reconoció el agua en las ondas y preguntó si la espiral era un remolino de viento."
+              }
+            ]
+          },
+          {
+            "id": "l315b-q6",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «leyenda» en esta lectura?",
+            "answer": "La explicación de la relación entre cada signo y lo que representa.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Esa leyenda conservaba la relación elegida por los dos amigos"
+              }
+            ]
+          },
+          {
+            "id": "l315b-q7",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué el reconocimiento de las ondas por Elna no garantiza que entienda todos los signos?",
+            "answer": "Porque puede asociar unas ondas con el agua, pero no conoce todas las relaciones personales elegidas; de hecho, interpreta la espiral como viento.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Reconoció el agua en las ondas y preguntó si la espiral era un remolino de viento."
+              },
+              {
+                "paragraph": 4,
+                "text": "conservaba la relación elegida por los dos amigos"
+              }
+            ]
+          },
+          {
+            "id": "l315b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué cambio muestra la frase de Elna «Aquí empezabas otra vez»?",
+            "answer": "Que empieza a entender la espiral como recuerdo de la repetición musical después de oír la flauta y ver el gesto de Neri.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Isona cogió la flauta y tocó el comienzo otra vez."
+              },
+              {
+                "paragraph": 3,
+                "text": "Aquí empezabas otra vez"
+              }
+            ]
+          },
+          {
+            "id": "l315b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Isona retira el carbón del hueco alrededor de la espiral?",
+            "answer": "Comprende que Neri quiere dejar espacio para seguir con el dedo y la voz aquel recuerdo, en lugar de llenar el hueco con casas.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Neri dejó espacio alrededor de la espiral en vez de llenarlo con las casas de la plaza."
+              },
+              {
+                "paragraph": 4,
+                "text": "Él tarareó otra vez y señaló el recorrido que hacía su dedo. Ella retiró el carbón"
+              }
+            ]
+          },
+          {
+            "id": "l315b-q10",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué aporta que Elna recorra los signos al final?",
+            "answer": "Muestra que ahora puede relacionarlos con los sonidos elegidos y participar en el recuerdo, tras su duda inicial.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "preguntó si la espiral era un remolino de viento"
+              },
+              {
+                "paragraph": 5,
+                "text": "Elna recorrió las marcas desde las ondas hasta la espiral y acompañó la última con la voz."
+              }
+            ]
+          },
+          {
+            "id": "l315b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué hace de esta hoja un recuerdo compartido y no solo un conjunto de marcas personales.",
+            "answer": "Los amigos eligen signos para experiencias sonoras; al repetir la melodía, señalar las marcas y escribir la leyenda permiten a Elna comprender su relación y recorrerlas con la voz.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Isona cogió la flauta y tocó el comienzo otra vez."
+              },
+              {
+                "paragraph": 4,
+                "text": "Junto a cada signo escribieron qué representaba"
+              },
+              {
+                "paragraph": 5,
+                "text": "acompañó la última con la voz"
+              }
+            ]
+          },
+          {
+            "id": "l315b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Si hicieras una hoja semejante, ¿mantendrías los signos de Neri e Isona o elegirías otros? Explica dos elecciones concretas.",
+            "answer": "Respuesta personal con dos asociaciones comprensibles entre signo y sonido; puede conservarlas o modificarlas y debe justificar sus decisiones."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "leyenda",
+            "occurrence": 1,
+            "questionId": "l315b-q6"
+          }
+        ],
+        "images": [
+          {
+            "id": "l315-scene",
+            "src": "assets/readings/l315-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri e Isona muestran a Elna un dibujo con ondas, rayas y una espiral para recordar los sonidos de su paseo.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-mapa-que-guardaba-sonidos-b-ca",
+        "code": "L315B",
+        "workId": "el-mapa-que-guardaba-sonidos-b",
+        "language": "ca",
+        "familyId": "familia-l315",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "nature",
+          "geography"
+        ],
+        "genre": "informative",
+        "title": "El mapa que guardava sons",
+        "summary": "Un mapa personal combina records, signes i explicacions; la lectura canvia quan algú coneix com s’ha elaborat.",
+        "paragraphs": [
+          "El mapa de sons d’en Neri i l’Isona va néixer una tarda sobre la taula del molí de l’Elna. Els dos amics de la ribera havien passejat des de la plaça. Primer es van aturar al costat del rierol; després van escoltar els cops repetits de la roda del molí. Més tard, l’Isona va tocar la flauta sota la figuera. En tornar al molí, van demanar paper, carbó i color blau. Volien guardar alguna cosa d’aquella tarda que recordaven sobretot per allò que havien sentit.",
+          "En Neri va traçar unes ones blaves per a l’aigua. L’Isona va triar tres ratlles curtes per als cops de la roda. La flauta va tenir una espiral ampla al centre: l’Isona havia repetit unes quantes vegades el mateix començament abans de continuar la melodia. En Neri va seguir una volta del signe amb el dit i va tornar a l’inici taral·lejant. Va donar més espai a aquell record, tot i que havia passat després dels altres dos. L’Isona va afegir una fulla al costat de l’espiral per situar la figuera.",
+          "L’Elna, la propietària del molí, es va acostar quan van deixar el carbó. Va reconèixer l’aigua a les ones i va preguntar si l’espiral era un remolí de vent. L’Isona va agafar la flauta i va tocar el començament una altra vegada. L’Elna es va mirar el dit d’en Neri, que seguia les voltes sobre el paper. «Aquí tornaves a començar», va dir. En Neri va assentir. Les tres ratlles li van recordar aleshores els cops de la roda que es continuaven sentint des de la taula.",
+          "Al costat de cada signe van escriure què representava: «rierol», «roda del molí» i «flauta de l’Isona». Aquella llegenda conservava la relació triada pels dos amics per a qui es mirés el full un altre dia. En Neri va deixar espai al voltant de l’espiral en lloc d’omplir-lo amb les cases de la plaça. L’Isona li va preguntar per què. Ell va tornar a taral·lejar i va assenyalar el recorregut que feia el seu dit. Ella va retirar el carbó que havia acostat a aquell buit.",
+          "L’Elna va resseguir les marques des de les ones fins a l’espiral i va acompanyar l’última amb la veu. Van deixar assecar el blau abans de desar el full. Al pati, l’Isona va tocar la frase sencera. En Neri es mirava el paper des de la porta oberta, amb una mà a cada extrem per no fregar el color."
+        ],
+        "questions": [
+          {
+            "id": "l315b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "En quin ordre apareixen els tres moments recordats de la passejada?",
+            "answer": "Rierol, roda del molí i flauta sota la figuera.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Primer es van aturar al costat del rierol; després van escoltar els cops repetits de la roda del molí. Més tard, l’Isona va tocar la flauta sota la figuera."
+              }
+            ]
+          },
+          {
+            "id": "l315b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quin motiu expressen per crear el full?",
+            "answer": "Guardar alguna cosa d’una tarda que recordaven principalment pels sons.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Volien guardar alguna cosa d’aquella tarda que recordaven sobretot per allò que havien sentit."
+              }
+            ]
+          },
+          {
+            "id": "l315b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què una espiral pot evocar per a ells el començament de la melodia?",
+            "answer": "Per la repetició del començament i el gest de fer voltes i tornar a l’inici mentre el taral·legen.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "l’Isona havia repetit unes quantes vegades el mateix començament"
+              },
+              {
+                "paragraph": 2,
+                "text": "va seguir una volta del signe amb el dit i va tornar a l’inici taral·lejant"
+              }
+            ]
+          },
+          {
+            "id": "l315b-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quin criteri fa que la flauta tingui una figura més gran i central?",
+            "answer": "La importància que en Neri va donar a aquell record, tot i que va passar després dels altres.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Va donar més espai a aquell record, tot i que havia passat després dels altres dos."
+              }
+            ]
+          },
+          {
+            "id": "l315b-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quin signe reconeix l’Elna abans que els amics l’expliquin i amb quin dubta?",
+            "answer": "Reconeix l’aigua a les ones i dubta de l’espiral, que relaciona amb vent.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Va reconèixer l’aigua a les ones i va preguntar si l’espiral era un remolí de vent."
+              }
+            ]
+          },
+          {
+            "id": "l315b-q6",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «llegenda» en aquesta lectura?",
+            "answer": "L’explicació de la relació entre cada signe i allò que representa.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Aquella llegenda conservava la relació triada pels dos amics"
+              }
+            ]
+          },
+          {
+            "id": "l315b-q7",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què el reconeixement de les ones per part de l’Elna no garanteix que entengui tots els signes?",
+            "answer": "Perquè pot associar unes ones amb l’aigua, però no coneix totes les relacions personals triades; de fet, interpreta l’espiral com a vent.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Va reconèixer l’aigua a les ones i va preguntar si l’espiral era un remolí de vent."
+              },
+              {
+                "paragraph": 4,
+                "text": "conservava la relació triada pels dos amics"
+              }
+            ]
+          },
+          {
+            "id": "l315b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quin canvi mostra la frase de l’Elna «Aquí tornaves a començar»?",
+            "answer": "Que comença a entendre l’espiral com a record de la repetició musical després de sentir la flauta i veure el gest d’en Neri.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "L’Isona va agafar la flauta i va tocar el començament una altra vegada."
+              },
+              {
+                "paragraph": 3,
+                "text": "Aquí tornaves a començar"
+              }
+            ]
+          },
+          {
+            "id": "l315b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què l’Isona retira el carbó del buit al voltant de l’espiral?",
+            "answer": "Entén que en Neri vol deixar espai per seguir amb el dit i la veu aquell record, en lloc d’omplir el buit amb cases.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "En Neri va deixar espai al voltant de l’espiral en lloc d’omplir-lo amb les cases de la plaça."
+              },
+              {
+                "paragraph": 4,
+                "text": "Ell va tornar a taral·lejar i va assenyalar el recorregut que feia el seu dit. Ella va retirar el carbó"
+              }
+            ]
+          },
+          {
+            "id": "l315b-q10",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Què aporta que l’Elna ressegueixi els signes al final?",
+            "answer": "Mostra que ara pot relacionar-los amb els sons triats i participar del record, després del dubte inicial.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "va preguntar si l’espiral era un remolí de vent"
+              },
+              {
+                "paragraph": 5,
+                "text": "L’Elna va resseguir les marques des de les ones fins a l’espiral i va acompanyar l’última amb la veu."
+              }
+            ]
+          },
+          {
+            "id": "l315b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix què fa d’aquest full un record compartit i no només un conjunt de marques personals.",
+            "answer": "Els amics trien signes per a experiències sonores; en repetir la melodia, assenyalar les marques i escriure la llegenda permeten a l’Elna comprendre’n la relació i resseguir-les amb la veu.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "L’Isona va agafar la flauta i va tocar el començament una altra vegada."
+              },
+              {
+                "paragraph": 4,
+                "text": "Al costat de cada signe van escriure què representava"
+              },
+              {
+                "paragraph": 5,
+                "text": "va acompanyar l’última amb la veu"
+              }
+            ]
+          },
+          {
+            "id": "l315b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Si fessis un full semblant, mantindries els signes d’en Neri i l’Isona o en triaries uns altres? Explica dues tries concretes.",
+            "answer": "Resposta personal amb dues associacions entenedores entre signe i so; les pot conservar o modificar i ha de justificar les decisions."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "llegenda",
+            "occurrence": 1,
+            "questionId": "l315b-q6"
+          }
+        ],
+        "images": [
+          {
+            "id": "l315-scene",
+            "src": "assets/readings/l315-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri i l’Isona ensenyen a l’Elna un dibuix amb ones, ratlles i una espiral per recordar els sons de la passejada.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 3
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L315A",
+        "language": "es",
+        "questions": {
+          "l315a-q1": {
+            "prompt": "¿Para qué hicieron Neri e Isona el dibujo?",
+            "options": [
+              "Para mostrar cómo reparar la rueda.",
+              "Para pedir papel a los vecinos de la plaza.",
+              "Para recordar los sonidos de la tarde.",
+              "Para copiar las hojas de la higuera."
+            ],
+            "correct": "c",
+            "explanation": "Para recordar los sonidos de su paseo."
+          },
+          "l315a-q2": {
+            "prompt": "¿Qué habían escuchado primero?",
+            "options": [
+              "El agua del arroyo.",
+              "Los golpes de la rueda.",
+              "La flauta bajo la higuera.",
+              "El tarareo de Elna."
+            ],
+            "correct": "a",
+            "explanation": "El agua del arroyo."
+          },
+          "l315a-q3": {
+            "prompt": "¿Qué representaban las tres rayas cortas?",
+            "options": [
+              "El comienzo de la melodía.",
+              "Las hojas sobre el banco.",
+              "El agua que recorría el arroyo.",
+              "Los golpes de la rueda del molino."
+            ],
+            "correct": "d",
+            "explanation": "Los golpes repetidos de la rueda del molino."
+          },
+          "l315a-q4": {
+            "prompt": "¿Qué pensó Elna que podía representar la espiral?",
+            "options": [
+              "La rueda.",
+              "El viento.",
+              "La higuera.",
+              "El agua."
+            ],
+            "correct": "b",
+            "explanation": "El viento."
+          },
+          "l315a-q5": {
+            "prompt": "¿Qué es la «leyenda» de este dibujo?",
+            "options": [
+              "El nombre que Neri da al dibujo terminado.",
+              "La melodía que Isona toca bajo la higuera.",
+              "La explicación de lo que representa cada signo.",
+              "La hoja que añaden junto a la espiral."
+            ],
+            "correct": "c",
+            "explanation": "La explicación escrita que relaciona cada signo con su sonido."
+          },
+          "l315a-q6": {
+            "prompt": "¿Por qué Isona vuelve a tocar el comienzo de la melodía ante Elna?",
+            "options": [
+              "Quiere que Elna relacione la espiral con ese sonido.",
+              "Quiere que Neri quite las ondas del dibujo.",
+              "Quiere repetir los golpes que da la rueda.",
+              "Quiere acompañar el viento que acaba de dibujar Elna."
+            ],
+            "correct": "a",
+            "explanation": "Para mostrarle el sonido que querían representar con la espiral, después de que ella pensara en el viento."
+          },
+          "l315a-q7": {
+            "prompt": "¿Qué añadió Isona al final y para qué?",
+            "options": [
+              "Una espiral junto al agua, para recordar el viento.",
+              "Tres rayas junto al árbol, para recordar la flauta.",
+              "Unas ondas junto al molino, para recordar el banco.",
+              "Una hoja junto a la espiral, para recordar la higuera."
+            ],
+            "correct": "d",
+            "explanation": "Una hoja junto a la espiral, para recordar la higuera."
+          }
+        }
+      },
+      {
+        "code": "L315A",
+        "language": "ca",
+        "questions": {
+          "l315a-q1": {
+            "prompt": "Per a què van fer el dibuix en Neri i l’Isona?",
+            "options": [
+              "Per mostrar com es repara la roda.",
+              "Per demanar paper als veïns de la plaça.",
+              "Per recordar els sons de la tarda.",
+              "Per copiar les fulles de la figuera."
+            ],
+            "correct": "c",
+            "explanation": "Per recordar els sons de la passejada."
+          },
+          "l315a-q2": {
+            "prompt": "Què havien escoltat primer?",
+            "options": [
+              "L’aigua del rierol.",
+              "Els cops de la roda.",
+              "La flauta sota la figuera.",
+              "El taral·leig de l’Elna."
+            ],
+            "correct": "a",
+            "explanation": "L’aigua del rierol."
+          },
+          "l315a-q3": {
+            "prompt": "Què representaven les tres ratlles curtes?",
+            "options": [
+              "El començament de la melodia.",
+              "Les fulles sobre el banc.",
+              "L’aigua que recorria el rierol.",
+              "Els cops de la roda del molí."
+            ],
+            "correct": "d",
+            "explanation": "Els cops repetits de la roda del molí."
+          },
+          "l315a-q4": {
+            "prompt": "Què va pensar l’Elna que podia representar l’espiral?",
+            "options": [
+              "La roda.",
+              "El vent.",
+              "La figuera.",
+              "L’aigua."
+            ],
+            "correct": "b",
+            "explanation": "El vent."
+          },
+          "l315a-q5": {
+            "prompt": "Què és la «llegenda» d’aquest dibuix?",
+            "options": [
+              "El nom que en Neri dona al dibuix acabat.",
+              "La melodia que l’Isona toca sota la figuera.",
+              "L’explicació d’allò que representa cada signe.",
+              "La fulla que afegeixen al costat de l’espiral."
+            ],
+            "correct": "c",
+            "explanation": "L’explicació escrita que relaciona cada signe amb el seu so."
+          },
+          "l315a-q6": {
+            "prompt": "Per què l’Isona torna a tocar el començament de la melodia davant de l’Elna?",
+            "options": [
+              "Vol que l’Elna relacioni l’espiral amb aquell so.",
+              "Vol que en Neri tregui les ones del dibuix.",
+              "Vol repetir els cops que fa la roda.",
+              "Vol acompanyar el vent que acaba de dibuixar l’Elna."
+            ],
+            "correct": "a",
+            "explanation": "Per mostrar-li el so que volien representar amb l’espiral, després que ella pensés en el vent."
+          },
+          "l315a-q7": {
+            "prompt": "Què va afegir l’Isona al final i per a què?",
+            "options": [
+              "Una espiral al costat de l’aigua, per recordar el vent.",
+              "Tres ratlles al costat de l’arbre, per recordar la flauta.",
+              "Unes ones al costat del molí, per recordar el banc.",
+              "Una fulla al costat de l’espiral, per recordar la figuera."
+            ],
+            "correct": "d",
+            "explanation": "Una fulla al costat de l’espiral, per recordar la figuera."
+          }
+        }
+      },
+      {
+        "code": "L315",
+        "language": "es",
+        "questions": {
+          "l315-q1": {
+            "prompt": "¿Qué tres sonidos querían recordar?",
+            "options": [
+              "El agua, el viento y el tarareo de Elna.",
+              "El agua, la rueda del molino y la flauta.",
+              "La rueda, las hojas de la higuera y la voz de Neri.",
+              "La flauta, el viento y los golpes en la mesa."
+            ],
+            "correct": "b",
+            "explanation": "El agua del arroyo, los golpes de la rueda del molino y la flauta de Isona."
+          },
+          "l315-q2": {
+            "prompt": "¿En qué orden escucharon esos sonidos durante el paseo?",
+            "options": [
+              "Molino, higuera y arroyo.",
+              "Higuera, arroyo y molino.",
+              "Arroyo, higuera y molino.",
+              "Arroyo, molino e higuera."
+            ],
+            "correct": "d",
+            "explanation": "Primero el arroyo, después la rueda del molino y más tarde la flauta bajo la higuera."
+          },
+          "l315-q3": {
+            "prompt": "¿Por qué la espiral ocupa más espacio en el papel?",
+            "options": [
+              "Neri dio más espacio a aquel recuerdo de la flauta.",
+              "La higuera ocupa el centro exacto de los caminos de la ribera.",
+              "La flauta se oyó antes que el resto de los sonidos.",
+              "Elna pidió que la melodía tapara los otros signos."
+            ],
+            "correct": "a",
+            "explanation": "Porque Neri quiso dar más espacio al recuerdo de la melodía repetida por Isona."
+          },
+          "l315-q4": {
+            "prompt": "¿Qué interpretación hizo Elna de la espiral al principio?",
+            "options": [
+              "Un giro de la rueda del molino.",
+              "El camino que pasa bajo la higuera.",
+              "Un remolino de viento.",
+              "La vuelta que dio Neri alrededor de la mesa."
+            ],
+            "correct": "c",
+            "explanation": "Pensó que podía ser un remolino de viento."
+          },
+          "l315-q5": {
+            "prompt": "¿Qué relación hay entre la espiral y el comienzo que Isona había repetido?",
+            "options": [
+              "La espiral cuenta cuántos pasos dieron hasta la higuera.",
+              "Las vueltas del signo evocan el regreso al mismo comienzo musical.",
+              "La espiral muestra que la rueda sonaba mientras Isona tocaba.",
+              "Las vueltas indican que Elna había compuesto la melodía antes."
+            ],
+            "correct": "b",
+            "explanation": "La forma que da vueltas puede recordar volver al mismo comienzo de la melodía, como muestran el gesto de Neri y el comentario de Elna."
+          },
+          "l315-q6": {
+            "prompt": "¿Qué es la «leyenda» en este texto?",
+            "options": [
+              "La frase musical que se repite en el patio.",
+              "El título que Neri pone al terminar el dibujo.",
+              "La lista de materiales que pidieron al molino.",
+              "La explicación de qué significa cada marca."
+            ],
+            "correct": "d",
+            "explanation": "El conjunto de explicaciones que relaciona los signos del dibujo con los sonidos."
+          },
+          "l315-q7": {
+            "prompt": "¿Qué muestra la duda de Elna sobre la espiral?",
+            "options": [
+              "Un mismo signo puede sugerirle otra cosa a quien no conoce la elección.",
+              "Las ondas son más difíciles de reconocer que la espiral.",
+              "Los sonidos se habían escuchado en un orden distinto del explicado.",
+              "La espiral representa el sonido más fuerte de toda la tarde."
+            ],
+            "correct": "a",
+            "explanation": "Que el significado que los autores dan a un signo puede necesitar una explicación para otra persona."
+          },
+          "l315-q8": {
+            "prompt": "¿Por qué esperaron antes de guardar la hoja?",
+            "options": [
+              "Elna necesitaba terminar la leyenda.",
+              "Neri esperaba oír el viento que había imaginado Elna.",
+              "El color azul tenía que secarse.",
+              "Isona quería borrar las tres rayas del molino."
+            ],
+            "correct": "c",
+            "explanation": "Para que se secara el color azul."
+          },
+          "l315-q9": {
+            "prompt": "¿Qué opción resume la utilidad de la leyenda en esta hoja?",
+            "options": [
+              "Completa el dibujo para que los lugares aparezcan en el orden del paseo.",
+              "Explica los signos elegidos para que otras personas relacionen cada uno con su sonido.",
+              "Añade los sonidos que Elna había escuchado mientras estaba sola en el molino.",
+              "Sustituye las marcas por dibujos que reproducen exactamente cada lugar."
+            ],
+            "correct": "b",
+            "explanation": "Permite que otra persona entienda qué sonidos han elegido representar y evita confundir la espiral con otro sonido, como el viento."
+          }
+        }
+      },
+      {
+        "code": "L315",
+        "language": "ca",
+        "questions": {
+          "l315-q1": {
+            "prompt": "Quins tres sons volien recordar?",
+            "options": [
+              "L’aigua, el vent i el taral·leig de l’Elna.",
+              "L’aigua, la roda del molí i la flauta.",
+              "La roda, les fulles de la figuera i la veu d’en Neri.",
+              "La flauta, el vent i els cops a la taula."
+            ],
+            "correct": "b",
+            "explanation": "L’aigua del rierol, els cops de la roda del molí i la flauta de l’Isona."
+          },
+          "l315-q2": {
+            "prompt": "En quin ordre van escoltar aquells sons durant la passejada?",
+            "options": [
+              "Molí, figuera i rierol.",
+              "Figuera, rierol i molí.",
+              "Rierol, figuera i molí.",
+              "Rierol, molí i figuera."
+            ],
+            "correct": "d",
+            "explanation": "Primer el rierol, després la roda del molí i més tard la flauta sota la figuera."
+          },
+          "l315-q3": {
+            "prompt": "Per què l’espiral ocupa més espai al paper?",
+            "options": [
+              "En Neri va donar més espai a aquell record de la flauta.",
+              "La figuera ocupa el centre exacte dels camins de la ribera.",
+              "La flauta es va sentir abans que la resta dels sons.",
+              "L’Elna va demanar que la melodia tapés els altres signes."
+            ],
+            "correct": "a",
+            "explanation": "Perquè en Neri va voler donar més espai al record de la melodia repetida per l’Isona."
+          },
+          "l315-q4": {
+            "prompt": "Quina interpretació va fer l’Elna de l’espiral al principi?",
+            "options": [
+              "Un gir de la roda del molí.",
+              "El camí que passa sota la figuera.",
+              "Un remolí de vent.",
+              "La volta que va fer en Neri al voltant de la taula."
+            ],
+            "correct": "c",
+            "explanation": "Va pensar que podia ser un remolí de vent."
+          },
+          "l315-q5": {
+            "prompt": "Quina relació hi ha entre l’espiral i el començament que l’Isona havia repetit?",
+            "options": [
+              "L’espiral compta quantes passes van fer fins a la figuera.",
+              "Les voltes del signe evoquen el retorn al mateix començament musical.",
+              "L’espiral mostra que la roda sonava mentre l’Isona tocava.",
+              "Les voltes indiquen que l’Elna havia compost la melodia abans."
+            ],
+            "correct": "b",
+            "explanation": "La forma que fa voltes pot recordar tornar al mateix començament de la melodia, com mostren el gest d’en Neri i el comentari de l’Elna."
+          },
+          "l315-q6": {
+            "prompt": "Què és la «llegenda» en aquest text?",
+            "options": [
+              "La frase musical que es repeteix al pati.",
+              "El títol que en Neri posa quan acaba el dibuix.",
+              "La llista de materials que van demanar al molí.",
+              "L’explicació de què significa cada marca."
+            ],
+            "correct": "d",
+            "explanation": "El conjunt d’explicacions que relaciona els signes del dibuix amb els sons."
+          },
+          "l315-q7": {
+            "prompt": "Què mostra el dubte de l’Elna sobre l’espiral?",
+            "options": [
+              "Un mateix signe pot suggerir una altra cosa a qui no coneix la tria.",
+              "Les ones són més difícils de reconèixer que l’espiral.",
+              "Els sons s’havien escoltat en un ordre diferent de l’explicat.",
+              "L’espiral representa el so més fort de tota la tarda."
+            ],
+            "correct": "a",
+            "explanation": "Que el significat que els autors donen a un signe pot necessitar una explicació per a una altra persona."
+          },
+          "l315-q8": {
+            "prompt": "Per què van esperar abans de desar el full?",
+            "options": [
+              "L’Elna necessitava acabar la llegenda.",
+              "En Neri esperava sentir el vent que havia imaginat l’Elna.",
+              "El color blau s’havia d’assecar.",
+              "L’Isona volia esborrar les tres ratlles del molí."
+            ],
+            "correct": "c",
+            "explanation": "Perquè s’assequés el color blau."
+          },
+          "l315-q9": {
+            "prompt": "Quina opció resumeix la utilitat de la llegenda en aquest full?",
+            "options": [
+              "Completa el dibuix perquè els llocs apareguin en l’ordre de la passejada.",
+              "Explica els signes triats perquè altres persones relacionin cadascun amb el seu so.",
+              "Afegeix els sons que l’Elna havia escoltat mentre era sola al molí.",
+              "Substitueix les marques per dibuixos que reprodueixen exactament cada lloc."
+            ],
+            "correct": "b",
+            "explanation": "Permet que una altra persona entengui quins sons han triat representar i evita confondre l’espiral amb un altre so, com el vent."
+          }
+        }
+      },
+      {
+        "code": "L315B",
+        "language": "es",
+        "questions": {
+          "l315b-q1": {
+            "prompt": "¿En qué orden aparecen los tres momentos recordados del paseo?",
+            "options": [
+              "Arroyo, higuera y rueda del molino.",
+              "Rueda del molino, arroyo e higuera.",
+              "Higuera, rueda del molino y arroyo.",
+              "Arroyo, rueda del molino e higuera."
+            ],
+            "correct": "d",
+            "explanation": "Arroyo, rueda del molino y flauta bajo la higuera."
+          },
+          "l315b-q2": {
+            "prompt": "¿Qué motivo expresan para crear la hoja?",
+            "options": [
+              "Conservar un recuerdo de lo que habían escuchado esa tarde.",
+              "Explicar a Elna el trayecto que debía seguir para llegar a la plaza.",
+              "Comparar cuánto tardaban en llegar los sonidos a la mesa.",
+              "Copiar las casas de la plaza dejando el mismo espacio entre ellas."
+            ],
+            "correct": "a",
+            "explanation": "Guardar algo de una tarde que recordaban principalmente por los sonidos."
+          },
+          "l315b-q3": {
+            "prompt": "¿Por qué una espiral puede evocar para ellos el comienzo de la melodía?",
+            "options": [
+              "La espiral sigue la forma de la rueda que acompañó toda la melodía.",
+              "Las vueltas y el regreso al inicio se asocian al comienzo repetido.",
+              "El signo indica que el paseo terminó exactamente donde había empezado.",
+              "La flauta repite el ruido del viento que Elna había escuchado junto al arroyo."
+            ],
+            "correct": "b",
+            "explanation": "Por la repetición del comienzo y el gesto de dar vueltas y volver al inicio mientras lo tararean."
+          },
+          "l315b-q4": {
+            "prompt": "¿Qué criterio hace que la flauta tenga una figura más grande y central?",
+            "options": [
+              "Fue el primer sonido del paseo y Neri lo empezó por el centro.",
+              "Era el sonido que podía escucharse mejor desde la mesa del molino.",
+              "Neri quiso darle más espacio al recuerdo de aquel momento.",
+              "Elna pidió que la figura de la flauta quedara más cerca del molino."
+            ],
+            "correct": "c",
+            "explanation": "La importancia que Neri dio a ese recuerdo, aunque ocurrió después de los otros."
+          },
+          "l315b-q5": {
+            "prompt": "¿Qué signo reconoce Elna antes de que los amigos lo expliquen y con cuál duda?",
+            "options": [
+              "Reconoce la flauta en la espiral y duda de las rayas de la rueda.",
+              "Reconoce el molino en las ondas y duda de la hoja de higuera.",
+              "Reconoce las rayas de la rueda y duda del agua representada.",
+              "Reconoce el agua en las ondas y duda de qué representa la espiral."
+            ],
+            "correct": "d",
+            "explanation": "Reconoce el agua en las ondas y duda de la espiral, que relaciona con viento."
+          },
+          "l315b-q6": {
+            "prompt": "¿Qué significa «leyenda» en esta lectura?",
+            "options": [
+              "La explicación del significado de las marcas de la hoja.",
+              "El relato oral de Elna sobre una tarde anterior en la ribera.",
+              "El título que convierte el dibujo en una canción completa.",
+              "El orden de los lugares que deben reproducirse a su tamaño."
+            ],
+            "correct": "a",
+            "explanation": "La explicación de la relación entre cada signo y lo que representa."
+          },
+          "l315b-q7": {
+            "prompt": "¿Por qué el reconocimiento de las ondas por Elna no garantiza que entienda todos los signos?",
+            "options": [
+              "Las ondas representan todos los lugares, mientras que la espiral solo indica su posición.",
+              "Reconocer una asociación no le revela necesariamente las demás elecciones de los autores.",
+              "Las ondas indican el primer lugar y los otros signos solo ordenan el resto del paseo.",
+              "Elna conoce los sonidos del molino, pero todavía no ha oído el agua del arroyo."
+            ],
+            "correct": "b",
+            "explanation": "Porque puede asociar unas ondas con el agua, pero no conoce todas las relaciones personales elegidas; de hecho, interpreta la espiral como viento."
+          },
+          "l315b-q8": {
+            "prompt": "¿Qué cambio muestra la frase de Elna «Aquí empezabas otra vez»?",
+            "options": [
+              "Le pide a Isona que repita el paseo desde la plaza.",
+              "Descubre que el molino comenzó a sonar cuando Isona dejó de tocar.",
+              "Relaciona las vueltas del signo con el inicio musical que se repetía.",
+              "Confirma que la espiral representaba el viento que había supuesto."
+            ],
+            "correct": "c",
+            "explanation": "Que empieza a entender la espiral como recuerdo de la repetición musical después de oír la flauta y ver el gesto de Neri."
+          },
+          "l315b-q9": {
+            "prompt": "¿Por qué Isona retira el carbón del hueco alrededor de la espiral?",
+            "options": [
+              "Ha visto que el carbón ya no puede dibujar sobre el color azul.",
+              "Decide dejar hueco para copiar después la leyenda del arroyo.",
+              "Elna le ha pedido que reserve ese sitio para las tres rayas.",
+              "Acepta el espacio que Neri quiere conservar alrededor del recuerdo musical."
+            ],
+            "correct": "d",
+            "explanation": "Comprende que Neri quiere dejar espacio para seguir con el dedo y la voz aquel recuerdo, en lugar de llenar el hueco con casas."
+          },
+          "l315b-q10": {
+            "prompt": "¿Qué aporta que Elna recorra los signos al final?",
+            "options": [
+              "Cierra el cambio entre su primera interpretación y la lectura compartida de la hoja.",
+              "Revela que ella había elegido desde el principio los signos que dibujaron.",
+              "Demuestra que todas las personas recuerdan igual aquella tarde de paseo.",
+              "Añade al mapa un sonido de la plaza que los niños habían olvidado."
+            ],
+            "correct": "a",
+            "explanation": "Muestra que ahora puede relacionarlos con los sonidos elegidos y participar en el recuerdo, tras su duda inicial."
+          },
+          "l315b-q11": {
+            "prompt": "¿Qué opción resume cómo comparten el sentido de la hoja con Elna?",
+            "options": [
+              "Reproducen todos los lugares y sus tamaños para que cualquiera siga el mismo trayecto.",
+              "Explican sus asociaciones mediante sonidos, gestos y una leyenda que otra persona puede leer.",
+              "Corrigen todos los signos de acuerdo con las primeras suposiciones que hace Elna.",
+              "Dejan la hoja sin palabras para que cada visitante elija qué sonidos corresponden a ella."
+            ],
+            "correct": "b",
+            "explanation": "Los amigos eligen signos para experiencias sonoras; al repetir la melodía, señalar las marcas y escribir la leyenda permiten a Elna comprender su relación y recorrerlas con la voz."
+          }
+        }
+      },
+      {
+        "code": "L315B",
+        "language": "ca",
+        "questions": {
+          "l315b-q1": {
+            "prompt": "En quin ordre apareixen els tres moments recordats de la passejada?",
+            "options": [
+              "Rierol, figuera i roda del molí.",
+              "Roda del molí, rierol i figuera.",
+              "Figuera, roda del molí i rierol.",
+              "Rierol, roda del molí i figuera."
+            ],
+            "correct": "d",
+            "explanation": "Rierol, roda del molí i flauta sota la figuera."
+          },
+          "l315b-q2": {
+            "prompt": "Quin motiu expressen per crear el full?",
+            "options": [
+              "Conservar un record d’allò que havien escoltat aquella tarda.",
+              "Explicar a l’Elna el trajecte que havia de seguir per arribar a la plaça.",
+              "Comparar quant trigaven els sons a arribar a la taula.",
+              "Copiar les cases de la plaça deixant el mateix espai entre elles."
+            ],
+            "correct": "a",
+            "explanation": "Guardar alguna cosa d’una tarda que recordaven principalment pels sons."
+          },
+          "l315b-q3": {
+            "prompt": "Per què una espiral pot evocar per a ells el començament de la melodia?",
+            "options": [
+              "L’espiral segueix la forma de la roda que va acompanyar tota la melodia.",
+              "Les voltes i el retorn a l’inici s’associen al començament repetit.",
+              "El signe indica que la passejada va acabar exactament on havia començat.",
+              "La flauta repeteix el soroll del vent que l’Elna havia escoltat al costat del rierol."
+            ],
+            "correct": "b",
+            "explanation": "Per la repetició del començament i el gest de fer voltes i tornar a l’inici mentre el taral·legen."
+          },
+          "l315b-q4": {
+            "prompt": "Quin criteri fa que la flauta tingui una figura més gran i central?",
+            "options": [
+              "Va ser el primer so de la passejada i en Neri el va començar pel centre.",
+              "Era el so que es podia escoltar millor des de la taula del molí.",
+              "En Neri va voler donar més espai al record d’aquell moment.",
+              "L’Elna va demanar que la figura de la flauta quedés més a prop del molí."
+            ],
+            "correct": "c",
+            "explanation": "La importància que en Neri va donar a aquell record, tot i que va passar després dels altres."
+          },
+          "l315b-q5": {
+            "prompt": "Quin signe reconeix l’Elna abans que els amics l’expliquin i amb quin dubta?",
+            "options": [
+              "Reconeix la flauta a l’espiral i dubta de les ratlles de la roda.",
+              "Reconeix el molí a les ones i dubta de la fulla de figuera.",
+              "Reconeix les ratlles de la roda i dubta de l’aigua representada.",
+              "Reconeix l’aigua a les ones i dubta de què representa l’espiral."
+            ],
+            "correct": "d",
+            "explanation": "Reconeix l’aigua a les ones i dubta de l’espiral, que relaciona amb vent."
+          },
+          "l315b-q6": {
+            "prompt": "Què vol dir «llegenda» en aquesta lectura?",
+            "options": [
+              "L’explicació del significat de les marques del full.",
+              "El relat oral de l’Elna sobre una tarda anterior a la ribera.",
+              "El títol que converteix el dibuix en una cançó sencera.",
+              "L’ordre dels llocs que s’han de reproduir amb la seva mida."
+            ],
+            "correct": "a",
+            "explanation": "L’explicació de la relació entre cada signe i allò que representa."
+          },
+          "l315b-q7": {
+            "prompt": "Per què el reconeixement de les ones per part de l’Elna no garanteix que entengui tots els signes?",
+            "options": [
+              "Les ones representen tots els llocs, mentre que l’espiral només indica la seva posició.",
+              "Reconèixer una associació no li revela necessàriament les altres tries dels autors.",
+              "Les ones indiquen el primer lloc i els altres signes només ordenen la resta de la passejada.",
+              "L’Elna coneix els sons del molí, però encara no ha sentit l’aigua del rierol."
+            ],
+            "correct": "b",
+            "explanation": "Perquè pot associar unes ones amb l’aigua, però no coneix totes les relacions personals triades; de fet, interpreta l’espiral com a vent."
+          },
+          "l315b-q8": {
+            "prompt": "Quin canvi mostra la frase de l’Elna «Aquí tornaves a començar»?",
+            "options": [
+              "Demana a l’Isona que repeteixi la passejada des de la plaça.",
+              "Descobreix que el molí va començar a sonar quan l’Isona va deixar de tocar.",
+              "Relaciona les voltes del signe amb l’inici musical que es repetia.",
+              "Confirma que l’espiral representava el vent que havia suposat."
+            ],
+            "correct": "c",
+            "explanation": "Que comença a entendre l’espiral com a record de la repetició musical després de sentir la flauta i veure el gest d’en Neri."
+          },
+          "l315b-q9": {
+            "prompt": "Per què l’Isona retira el carbó del buit al voltant de l’espiral?",
+            "options": [
+              "Ha vist que el carbó ja no pot dibuixar sobre el color blau.",
+              "Decideix deixar buit per copiar després la llegenda del rierol.",
+              "L’Elna li ha demanat que reservi aquell lloc per a les tres ratlles.",
+              "Accepta l’espai que en Neri vol conservar al voltant del record musical."
+            ],
+            "correct": "d",
+            "explanation": "Entén que en Neri vol deixar espai per seguir amb el dit i la veu aquell record, en lloc d’omplir el buit amb cases."
+          },
+          "l315b-q10": {
+            "prompt": "Què aporta que l’Elna ressegueixi els signes al final?",
+            "options": [
+              "Tanca el canvi entre la primera interpretació i la lectura compartida del full.",
+              "Revela que ella havia triat des del principi els signes que van dibuixar.",
+              "Demostra que totes les persones recorden igual aquella tarda de passejada.",
+              "Afegeix al mapa un so de la plaça que els infants havien oblidat."
+            ],
+            "correct": "a",
+            "explanation": "Mostra que ara pot relacionar-los amb els sons triats i participar del record, després del dubte inicial."
+          },
+          "l315b-q11": {
+            "prompt": "Quina opció resumeix com comparteixen el sentit del full amb l’Elna?",
+            "options": [
+              "Reprodueixen tots els llocs i les mides perquè qualsevol persona segueixi el mateix trajecte.",
+              "Expliquen les associacions amb sons, gestos i una llegenda que una altra persona pot llegir.",
+              "Corregeixen tots els signes d’acord amb les primeres suposicions que fa l’Elna.",
+              "Deixen el full sense paraules perquè cada visitant triï quins sons li corresponen."
+            ],
+            "correct": "b",
+            "explanation": "Els amics trien signes per a experiències sonores; en repetir la melodia, assenyalar les marques i escriure la llegenda permeten a l’Elna comprendre’n la relació i resseguir-les amb la veu."
+          }
+        }
+      }
+    ]
   }
 ];

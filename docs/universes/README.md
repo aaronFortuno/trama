@@ -10,9 +10,9 @@
 | [L’observatori del turó](observatori-del-turo.md) | `observatori-del-turo` | L175 | L249–L253, L289–L297 | 3r–5è; 15 històries |
 | [El taller de la plaça](taller-de-la-placa.md) | `taller-de-la-placa` | L039 | L254–L258, L298–L306 | 4t–6è; 15 històries |
 | [La redacció del pati](redaccio-del-pati.md) | `redaccio-del-pati` | L070 | L259–L263, L280–L288 | 5è–1r d’ESO; 15 històries |
-| [Els camins de la ribera](camins-de-la-ribera.md) | `camins-de-la-ribera` | L189 | L264–L268 | 4t–5è |
+| [Els camins de la ribera](camins-de-la-ribera.md) | `camins-de-la-ribera` | L189 | L264–L268, L307–L315 | 4t–6è; 15 històries |
 
-Totes les històries tenen versió catalana i castellana. La biblioteca, la redacció, l’observatori i el taller ofereixen **quinze històries autònomes cadascun** des del 26 de novembre. La ribera en conserva sis. Les famílies aporten altres graus, però cadascuna continua comptant com una sola proposta al catàleg. Així, aquest conjunt ofereix **66 propostes connectades**, sense duplicar traduccions ni graus d’una mateixa família.
+Totes les històries tenen versió catalana i castellana. Els cinc universos ofereixen **quinze històries autònomes cadascun** des del 26 de novembre. Les famílies aporten altres graus, però cadascuna continua comptant com una sola proposta al catàleg. Així, aquest conjunt ofereix **75 propostes connectades**, sense duplicar traduccions ni graus d’una mateixa família.
 
 La tanda L249–L268 del 20 de novembre va afegir 20 obres i 40 versions lingüístiques. En aquella edició el catàleg tenia 310 obres concretes, 620 versions lingüístiques i 268 propostes agrupant les 21 famílies. Són recomptes històrics, no objectius fixos.
 
@@ -22,7 +22,9 @@ La tanda L280–L288 completa la redacció amb **nou famílies noves, 27 version
 
 La tanda L289–L297 completa l’observatori amb **nou famílies noves, 27 versions graduades i 54 versions lingüístiques**, amb suport de 3r, referència de 4t i ampliació de 5è. El [registre editorial](observatory-expansion-2026-11-26-review.json), la [guia d’autoria](observatory-expansion-2026-11-26-authoring.md), les [fonts científiques](observatory-expansion-2026-11-26-sources.md) i els [prompts de les il·lustracions](observatory-expansion-2026-11-26-images.json) permeten continuar el món sense perdre’n la coherència.
 
-La tanda L298–L306 completa el taller amb **nou famílies noves, 27 versions graduades i 54 versions lingüístiques**: suport de 4t, referència de 5è i ampliació de 6è. Combina narració, diari, notícia, carta, instruccions, entrevista, ressenya i text informatiu. El [registre editorial](workshop-expansion-2026-11-26-review.json), la [guia d’autoria](workshop-expansion-2026-11-26-authoring.md) i els [prompts de les nou escenes](workshop-expansion-2026-11-26-images.json) en documenten la revisió i la continuïtat visual. Amb aquesta tanda el catàleg suma **306 propostes agrupades, 600 fitxes concretes i 1.200 versions lingüístiques**.
+La tanda L298–L306 completa el taller amb **nou famílies noves, 27 versions graduades i 54 versions lingüístiques**: suport de 4t, referència de 5è i ampliació de 6è. Combina narració, diari, notícia, carta, instruccions, entrevista, ressenya i text informatiu. El [registre editorial](workshop-expansion-2026-11-26-review.json), la [guia d’autoria](workshop-expansion-2026-11-26-authoring.md) i els [prompts de les nou escenes](workshop-expansion-2026-11-26-images.json) en documenten la revisió i la continuïtat visual. En tancar aquesta tanda el catàleg sumava **306 propostes agrupades, 600 fitxes concretes i 1.200 versions lingüístiques**.
+
+La tanda L307–L315 completa la ribera amb **nou famílies noves, 27 versions graduades i 54 versions lingüístiques**, de suport de 4t, referència de 5è i ampliació de 6è. El mercat, la correspondència, el joc, la música, el berenar, la cistelleria, el dibuix, el teatre i la memòria dels sons amplien la vida de la vall mantenint l’ambient rural atemporal. El [registre editorial](riverside-expansion-2026-11-26-review.json), la [guia d’autoria](riverside-expansion-2026-11-26-authoring.md) i els [prompts de les il·lustracions](riverside-expansion-2026-11-26-images.json) documenten cada peça i les referències visuals. El catàleg arriba a **315 propostes agrupades, 627 fitxes concretes i 1.254 versions lingüístiques**.
 
 Les quaranta versions han superat la revisió independent i són **provisionals, pendents de validació docent**. El [registre editorial de la tanda](review-2026-11-20.md) conserva codi, llengua, data, resultat i identificació exacta de la versió revisada. Un canvi editorial posterior requereix revalidar els elements afectats.
 
@@ -73,6 +75,8 @@ node tools/check-observatory-expansion.mjs --complete
 node tools/check-observatory-expansion-browser.cjs
 node tools/check-workshop-expansion.mjs --complete
 node tools/check-workshop-expansion-browser.cjs
+node tools/check-riverside-expansion.mjs --complete
+node tools/check-riverside-expansion-browser.cjs
 ```
 
 La comprovació d’ampliació valida els cinc mons, les vint obres bilingües, els recursos, les metadades, les preguntes i les cites. La del navegador comprova filtre i recomptes de tots els universos, fitxes i solucionaris en tots dos idiomes, preservació del text, desbordaments i un PDF real, sense visitar producció.
