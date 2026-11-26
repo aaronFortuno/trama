@@ -17,6 +17,7 @@ const stub = `window.umami = { track(name, data) { const payload = {name, data};
       const context = await browser.newContext({ viewport: { width: 1500, height: 1000 }, reducedMotion: 'reduce', acceptDownloads: true });
       await context.addInitScript(restriction => {
         window.__events = []; window.__rawEvents = []; window.__prints = 0;
+        localStorage.setItem('trama.question-format-seen.v1', '1');
         window.print = () => { window.dispatchEvent(new Event('beforeprint')); window.__prints++; window.dispatchEvent(new Event('afterprint')); };
         if (restriction === 'dnt') Object.defineProperty(Navigator.prototype, 'doNotTrack', { get: () => '1' });
         if (restriction === 'gpc') Object.defineProperty(Navigator.prototype, 'globalPrivacyControl', { get: () => true });
@@ -81,6 +82,8 @@ const stub = `window.umami = { track(name, data) { const payload = {name, data};
     await page.evaluate(() => window.print());
     await waitEvent('genera_document');
     assert.equal((await events('genera_document'))[0].data.contingut, 'solucionari');
+    assert.equal((await events('prepara_lectura')).length, 1);
+    assert.equal((await events('prepara_lectura'))[0].data.codi, 'L001');
     await page.locator('#studio-print-trigger').click();
     const downloading = page.waitForEvent('download');
     await page.locator('#studio-print-menu [data-option="pdf-key"]').click();
@@ -88,6 +91,8 @@ const stub = `window.umami = { track(name, data) { const payload = {name, data};
     assert(pdf.suggestedFilename().endsWith('.pdf'));
     await waitEvent('genera_document', 2);
     assert.equal((await events('genera_document'))[1].data.format, 'pdf');
+    assert.equal((await events('prepara_lectura')).length, 2);
+    assert.equal((await events('prepara_lectura'))[1].data.contingut, 'solucionari');
 
     // Templates must report only the action and whether they are personal.
     await page.locator('.studio-template-picker summary').click();
@@ -169,11 +174,14 @@ const stub = `window.umami = { track(name, data) { const payload = {name, data};
     assert((await events('colleccio')).some(e => e.data.accio === 'reordena'));
     assert.equal(await page.locator('#catalog-view').isVisible(), true);
 
-    // A combined job sends one event, never one event per worksheet or page.
+    // A job is counted once; its public editions are counted once each separately.
     await page.locator('#batch-open').click();
     await waitEvent('obre_lot');
     assert.equal((await events('obre_lot')).length, 1, 'One event per dialog opening');
     assert.deepEqual((await events('obre_lot'))[0].data, { origen: 'capcalera', vista: 'cataleg', quantitat: '2-5', colleccio: true });
+    const selectionCodes = await page.locator('#batch-list input:checked').evaluateAll(inputs => inputs.map(input =>
+      input.closest('label').querySelector('code').textContent.replace(/-(?:CA|ES)$/, '')));
+    const beforeResources = (await events('prepara_lectura')).length;
     await page.locator('#batch-print').click();
     await waitEvent('genera_document', 3);
     const batch = (await events('genera_document')).at(-1).data;
@@ -182,6 +190,33 @@ const stub = `window.umami = { track(name, data) { const payload = {name, data};
     assert.equal(batch.doble_cara, true);
     assert.equal(batch.colleccio, true);
     assert.equal((await events('genera_document')).length, 3, 'No duplicate beforeprint event');
+    const batchResources = (await events('prepara_lectura')).slice(beforeResources);
+    assert.equal(batchResources.length, selectionCodes.length);
+    assert(batchResources.every(event => event.data.abast === 'lot' && event.data.format === 'impressio'));
+    assert.equal(new Set(batchResources.map(event => event.data.codi + ':' + event.data.llengua)).size, selectionCodes.length);
+    assert.deepEqual(batchResources.map(event => event.data.codi).sort(), [...selectionCodes].sort());
+    for (const action of ['pdf-key', 'zip']) {
+      const documentCount = (await events('genera_document')).length;
+      const resourceCount = (await events('prepara_lectura')).length;
+      await page.locator('#batch-print-trigger').click();
+      const download = page.waitForEvent('download');
+      await page.locator(`#batch-print-menu [data-option="${action}"]`).click();
+      assert((await download).suggestedFilename().endsWith(action === 'zip' ? '.zip' : '.pdf'));
+      await waitEvent('genera_document', documentCount + 1);
+      const resources = (await events('prepara_lectura')).slice(resourceCount);
+      assert.equal(resources.length, selectionCodes.length);
+      assert(resources.every(event => event.data.format === (action === 'zip' ? 'zip' : 'pdf') &&
+        event.data.contingut === (action.endsWith('-key') ? 'solucionari' : 'alumnat')));
+    }
+    const countsBeforeCancel = [(await events('genera_document')).length, (await events('prepara_lectura')).length];
+    await page.evaluate(() => {
+      document.querySelector('#batch-print').click();
+      document.querySelector('#batch-dialog [data-close-dialog]').click();
+    });
+    await page.locator('#batch-dialog').waitFor({ state: 'hidden' });
+    assert.deepEqual([(await events('genera_document')).length, (await events('prepara_lectura')).length], countsBeforeCancel,
+      'An aborted preparation must not count the job or any of its readings');
+    await page.locator('#batch-open').click();
     await page.locator('.batch-layout-tools > summary').click();
     const backupDownload = page.waitForEvent('download');
     await page.locator('#batch-export-backup').click();
@@ -214,20 +249,26 @@ const stub = `window.umami = { track(name, data) { const payload = {name, data};
     const universeFilter = (await events('aplica_filtre')).at(-1).data;
     assert.equal(universeFilter.valor, 'biblioteca-de-les-coses');
     assert.equal(universeFilter.univers, 'biblioteca-de-les-coses');
-    assert.equal(universeFilter.resultats, '2-5');
+    assert.equal(universeFilter.resultats, '6-15');
     await page.locator('#filter-family').check();
     const familyFilter = (await events('aplica_filtre')).at(-1).data;
     assert.equal(familyFilter.filtre, 'family');
     assert.equal(familyFilter.variants, true);
-    assert.equal(familyFilter.resultats, '1');
+    assert.equal(familyFilter.resultats, '6-15');
     const familyCount = (await events('familia')).length;
-    await page.locator('.is-family .card-open').click();
+    await page.locator('[data-family-id="biblioteca-objectes"] .card-open').click();
     await waitEvent('familia', familyCount + 1);
     assert.equal((await events('familia')).at(-1).data.familia, 'biblioteca-objectes');
     assert.equal((await events('familia')).at(-1).data.accio, 'obre');
     await page.locator('#family-options [data-reading="biblioteca-objetos-a-es"]').click();
     await page.waitForFunction(() => document.querySelector('#studio-reading-code').textContent === 'L208A');
     assert.equal((await events('obre_lectura')).at(-1).data.familia, 'biblioteca-objectes');
+    await page.evaluate(() => window.print());
+    const familyResource = (await events('prepara_lectura')).at(-1).data;
+    assert.equal(familyResource.codi, 'L208A');
+    assert.equal(familyResource.codi_base, 'L208');
+    assert.equal(familyResource.variant, 'A');
+    assert.equal(familyResource.univers, 'biblioteca-de-les-coses');
     await page.locator('.studio-compare:visible').first().click();
     await waitEvent('familia', familyCount + 2);
     assert.equal((await events('familia')).at(-1).data.accio, 'compara');
@@ -271,6 +312,7 @@ const stub = `window.umami = { track(name, data) { const payload = {name, data};
     for (const restriction of ['local', 'gpc', 'dnt', 'disabled', 'blocked']) {
       const check = await openPage(restriction, '#lectura=el-cartel-de-la-plaza-es');
       await check.page.locator('#studio-solution').check();
+      await check.page.evaluate(() => window.print());
       assert.equal(await check.page.evaluate(() => window.__events.length), 0);
       assert.equal(check.scripts(), restriction === 'blocked' ? 1 : 0);
       assert(await check.page.locator('#studio-pages .worksheet-evidence-reference').count() > 0, 'Blocked analytics must not break the worksheet');

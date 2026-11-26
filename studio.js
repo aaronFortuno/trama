@@ -15,7 +15,7 @@ import { mountReadingReport, readingReportMarkup } from './reading-report.js';
 import { encodeImage, logoSource, tramaLogo } from './local-images.js';
 import { fontGroups, loadWorksheetFont, worksheetFonts } from './worksheet-fonts.js';
 import { prepareAnswerEvidence } from './answer-evidence.js';
-import { trackFeature, trackReadingFeature } from './analytics.js';
+import { trackDocumentPrepared, trackFeature, trackReadingFeature } from './analytics.js';
 import { universeById } from './data/universes.js';
 import { familyComparisonMarkup, mountFamilyComparison } from './family-comparison.js';
 import { familyStageMarkup, mountFamilyStage } from './family-stage.js';
@@ -798,11 +798,11 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
         const { downloadPdf } = await import('./worksheet-pdf.js');
         const filename = `${current.code}-${current.language.toUpperCase()}${answerKey ? '-' + t('solucionari') : ''}.pdf`;
         await downloadPdf(exportPages, { title: current.title, filename });
-        trackReadingFeature('genera_document', current, documentData);
+        trackDocumentPrepared([current], documentData);
       } else {
         await decodeWorksheetImages(exportPages);
         if (reading === current && !root.hidden) {
-          trackReadingFeature('genera_document', current, documentData);
+          trackDocumentPrepared([current], documentData);
           printPages(exportPages);
         }
       }
@@ -939,7 +939,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
 
   window.addEventListener('beforeprint', () => {
     if (!pendingPrint && (root.hidden || !reading)) return;
-    if (!pendingPrint) trackReadingFeature('genera_document', reading, { abast: 'individual', format: 'impressio',
+    if (!pendingPrint) trackDocumentPrepared([reading], { abast: 'individual', format: 'impressio',
       contingut: solution.checked ? 'solucionari' : 'alumnat', quantitat: '1', colleccio: Boolean(readingCollection), maquetats: hasSavedLayout });
     printOutlet.replaceChildren(...(pendingPrint ?? exportWorksheetPages(reading, settings, solution.checked)));
     document.body.dataset.tramaPrint = '';

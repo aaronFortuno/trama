@@ -5,7 +5,7 @@ import { decodeWorksheetImages, exportWorksheetPages } from './worksheet.js';
 import { loadWorksheetFont } from './worksheet-fonts.js';
 import { readWorksheetLayout } from './worksheet-layouts.js';
 import { downloadBackup, prepareBackup, restoreBackup } from './settings-backup.js';
-import { countBucket, trackFeature } from './analytics.js';
+import { countBucket, trackDocumentPrepared, trackFeature } from './analytics.js';
 import { mountDisclosures } from './motion.js';
 import { placeMenu } from './select-menu.js';
 
@@ -287,7 +287,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getAllReading
         for await (const { pages } of selection) sheets.push(...pages);
         await decodeWorksheetImages(sheets);
         if (!canFinish()) return;
-        trackFeature('genera_document', documentData);
+        trackDocumentPrepared(selected.map(row => row.reading), documentData);
         printPages(sheets);
       } else {
         const zipFormat = action.startsWith('zip');
@@ -311,7 +311,7 @@ export function mountBatchDownload({ dialog, trigger, getReadings, getAllReading
         const blob = zip?.blob() ?? new Blob([await combined.save()], { type: 'application/pdf' });
         if (!canFinish()) return;
         saveDownload(blob, `${name}.${zipFormat ? 'zip' : 'pdf'}`);
-        trackFeature('genera_document', documentData);
+        trackDocumentPrepared(selected.map(row => row.reading), documentData);
       }
       setStatus(t('Lot preparat.'));
     } catch {

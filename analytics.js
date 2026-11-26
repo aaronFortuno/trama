@@ -1,6 +1,7 @@
 import { labels } from './catalog.js';
 import { readings } from './data/readings.js';
 import { familyById } from './data/families.js';
+import { universeById } from './data/universes.js';
 import { multipleChoice } from './data/question-choices.js';
 
 const host = 'trama.ortogra.fi';
@@ -31,6 +32,9 @@ const eventRules = {
   genera_document: { reading: true, required: ['abast', 'format', 'contingut', 'quantitat'], fields: {
     abast: ['individual', 'lot'], format: ['impressio', 'pdf', 'zip'], contingut: ['alumnat', 'solucionari'], quantitat: counts,
     doble_cara: 'boolean', colleccio: 'boolean', maquetats: 'boolean',
+  } },
+  prepara_lectura: { reading: true, publicReading: true, required: ['abast', 'format', 'contingut'], fields: {
+    abast: ['individual', 'lot'], format: ['impressio', 'pdf', 'zip'], contingut: ['alumnat', 'solucionari'],
   } },
   canvia_vista: { reading: true, required: ['vista'], fields: { vista: ['alumnat', 'solucionari'] } },
   personalitza_fitxa: { required: ['bloc', 'accio'], fields: {
@@ -82,9 +86,14 @@ export function sanitizeAnalyticsEvent(name, data = {}) {
   if (rule.reading) {
     const entry = publicVersions.get(data.codi + ':' + data.llengua);
     if (entry) {
-      Object.assign(clean, { codi: entry.code, llengua: entry.language, nivell: entry.level, dificultat: entry.difficulty });
-      if (familyById.has(entry.familyId)) clean.familia = entry.familyId;
+      const family = familyById.get(entry.familyId);
+      const base = family?.variantCodes.includes(entry.code) ? family.code : entry.code;
+      const universes = [...new Set((entry.universeIds ?? []).filter(id => universeById.has(id)))].sort();
+      Object.assign(clean, { codi: entry.code, codi_base: base, variant: entry.code.slice(base.length) || 'base',
+        llengua: entry.language, nivell: entry.level, dificultat: entry.difficulty, univers: universes.join('|') || 'no-universe' });
+      if (family) clean.familia = family.id;
     }
+    else if (rule.publicReading) return false;
     else if (name === 'obre_lectura' && data.llengua === undefined && publicCodes.has(data.codi)) clean.codi = data.codi;
   }
   return Object.keys(clean).length ? { name, data: clean } : { name };
@@ -146,6 +155,10 @@ export function startAnalytics() {
   script.dataset.excludeSearch = 'true';
   script.dataset.excludeHash = 'true';
   script.dataset.doNotTrack = 'true';
+  script.dataset.fetchCredentials = 'omit';
+  script.dataset.performance = 'false';
+  script.dataset.errors = 'false';
+  script.referrerPolicy = 'no-referrer';
   script.dataset.beforeSend = 'tramaBeforeSend';
   window.tramaBeforeSend = beforeSend;
   trackerLoading = true;
@@ -197,6 +210,24 @@ export function trackFeature(name, data) { track(name, data); }
 
 export function trackReadingFeature(name, reading, data = {}) {
   track(name, { ...data, ...readingData(reading) });
+}
+
+// One job event, plus one resource event per public edition. No batch ID,
+// selection order, private content or per-page/per-copy events are sent.
+export function trackDocumentPrepared(documentReadings, data) {
+  const context = allowedFields(data ?? {}, eventRules.genera_document.fields);
+  const event = sanitizeAnalyticsEvent('genera_document', { ...context,
+    ...(data?.abast === 'individual' ? readingData(documentReadings[0]) : {}) });
+  if (!event) return;
+  track(event.name, event.data);
+  const editions = new Map(documentReadings.map(reading => {
+    const publicData = readingData(reading);
+    return [publicData.codi + ':' + publicData.llengua, publicData];
+  }).filter(([, entry]) => entry.codi));
+  const { abast, format, contingut } = event.data;
+  for (const [, entry] of [...editions].sort(([a], [b]) => a.localeCompare(b, 'en'))) {
+    track('prepara_lectura', { abast, format, contingut, ...entry });
+  }
 }
 
 export async function sendReadingReport(reading, { part, element, motiu, responseMode }) {

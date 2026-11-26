@@ -1,13 +1,29 @@
 import assert from 'node:assert/strict';
-import { countBucket, sanitizeAnalyticsEvent, startAnalytics, trackFamilyActivity, trackFeature, trackReadingOpened, trackReadingFeature, sendReadingReport } from '../analytics.js';
+import { countBucket, sanitizeAnalyticsEvent, startAnalytics, trackDocumentPrepared, trackFamilyActivity, trackFeature, trackReadingOpened, trackReadingFeature, sendReadingReport } from '../analytics.js';
 import { readings } from '../data/readings.js';
 
 const canary = 'PRIVATE-school-code-search-collection-filename';
 const first = readings[0];
 const dirty = { url: canary, referrer: canary, title: canary, name: canary, settings: { classroomCode: canary }, collectionId: canary };
-const metadata = { codi: first.code, llengua: first.language, nivell: first.level, dificultat: first.difficulty, ...(first.familyId ? { familia: first.familyId } : {}) };
+const metadata = { codi: first.code, codi_base: 'L001', variant: 'base', llengua: first.language, nivell: first.level,
+  dificultat: first.difficulty, univers: 'no-universe', familia: 'familia-l001' };
 const opened = sanitizeAnalyticsEvent('obre_lectura', { ...dirty, codi: first.code, llengua: first.language, nivell: canary, dificultat: canary });
 assert.deepEqual(opened, { name: 'obre_lectura', data: metadata });
+const workshopVariant = readings.find(reading => reading.code === 'L298B' && reading.language === 'ca');
+const workshopMetadata = { codi: 'L298B', codi_base: 'L298', variant: 'B', llengua: 'ca', nivell: '6-primary',
+  dificultat: 'intermediate', univers: 'taller-de-la-placa', familia: 'familia-l298' };
+const prepared = { abast: 'lot', format: 'pdf', contingut: 'alumnat' };
+assert.deepEqual(sanitizeAnalyticsEvent('prepara_lectura', { ...prepared, ...dirty, ...workshopMetadata,
+  univers: canary, codi_base: canary, variant: canary, familia: canary, nivell: canary }), {
+  name: 'prepara_lectura', data: { ...prepared, ...workshopMetadata },
+});
+assert.equal(sanitizeAnalyticsEvent('prepara_lectura', { ...prepared, codi: canary, llengua: 'ca' }), false);
+assert.equal(sanitizeAnalyticsEvent('prepara_lectura', { ...prepared, codi: 'L298B', llengua: canary }), false);
+assert.equal(sanitizeAnalyticsEvent('prepara_lectura', { ...prepared, format: canary, ...workshopMetadata }), false);
+for (const reading of readings) {
+  const event = sanitizeAnalyticsEvent('prepara_lectura', { ...prepared, codi: reading.code, llengua: reading.language });
+  assert(event && event.data.codi === reading.code && event.data.univers && event.data.codi_base && event.data.variant);
+}
 assert.deepEqual(sanitizeAnalyticsEvent('obre_lectura', { codi: canary, llengua: canary }), { name: 'obre_lectura' });
 for (const name of [canary, '__proto__', 'constructor', 'click', 'notifica_error']) assert.equal(sanitizeAnalyticsEvent(name, dirty), false);
 assert.equal(sanitizeAnalyticsEvent('aplica_filtre', { filtre: 'theme', valor: canary }), false);
@@ -82,6 +98,10 @@ startAnalytics();
 assert.equal(nodes.length, 1);
 assert.equal(nodes[0].dataset.excludeSearch, 'true');
 assert.equal(nodes[0].dataset.excludeHash, 'true');
+assert.equal(nodes[0].dataset.fetchCredentials, 'omit');
+assert.equal(nodes[0].dataset.performance, 'false');
+assert.equal(nodes[0].dataset.errors, 'false');
+assert.equal(nodes[0].referrerPolicy, 'no-referrer');
 const baseline = window.tramaBeforeSend('event', { ...dirty });
 assert.equal(baseline, false); // Unknown named event.
 const pageview = window.tramaBeforeSend('event', { url: canary, referrer: canary, title: canary });
@@ -101,6 +121,31 @@ trackReadingOpened({ ...first, personal: true }, { origen: 'cataleg' });
 assert.deepEqual(sent.at(-1).data, { origen: 'cataleg' });
 trackReadingFeature('genera_document', { ...first, personal: true }, samples.genera_document);
 assert(!sent.at(-1).data.codi);
+const batchStart = sent.length;
+trackDocumentPrepared([workshopVariant, workshopVariant, first, { ...first, personal: true }, { id: canary, code: canary }],
+  { ...samples.genera_document, ...dirty });
+const batchEvents = sent.slice(batchStart);
+assert.equal(batchEvents.length, 3, 'One job plus two unique public editions');
+assert.deepEqual(batchEvents[0], { ...pageview, name: 'genera_document', data: samples.genera_document });
+assert.deepEqual(batchEvents.map(event => event.data.codi), [undefined, 'L001', 'L298B'], 'Canonical order does not reveal collection order');
+assert.deepEqual(batchEvents[2].data, { abast: 'lot', format: 'pdf', contingut: 'solucionari', ...workshopMetadata });
+assert(batchEvents.slice(1).every(event => event.name === 'prepara_lectura' && !('quantitat' in event.data) && !('colleccio' in event.data)));
+assert(!JSON.stringify(batchEvents).includes(canary));
+for (const format of ['impressio', 'pdf', 'zip']) {
+  const before = sent.length;
+  trackDocumentPrepared([workshopVariant], { abast: 'individual', format, contingut: 'alumnat', quantitat: '1', ...dirty });
+  assert.equal(sent.length, before + 2);
+  assert.deepEqual(sent.at(-1).data, { abast: 'individual', format, contingut: 'alumnat', ...workshopMetadata });
+  assert.equal(sent.at(-2).name, 'genera_document');
+}
+const privateStart = sent.length;
+trackDocumentPrepared([{ ...workshopVariant, personal: true }], { abast: 'individual', format: 'pdf', contingut: 'alumnat', quantitat: '1',
+  codi: workshopVariant.code, llengua: workshopVariant.language, univers: canary });
+assert.equal(sent.length, privateStart + 1, 'Personal document only sends generic job usage');
+assert(!sent.at(-1).data.codi && !sent.at(-1).data.univers);
+const invalidStart = sent.length;
+trackDocumentPrepared([first], { ...samples.genera_document, format: canary });
+assert.equal(sent.length, invalidStart);
 const familyReading = readings.find(reading => reading.familyId);
 trackFamilyActivity(familyReading, 'obre', 'cataleg');
 assert.equal(sent.at(-1).name, 'familia');
@@ -113,6 +158,7 @@ assert.equal(familyOpening.data.familia, familyReading.familyId, 'Family metadat
 navigator.globalPrivacyControl = true;
 const previous = sent.length;
 trackFeature('plantilla', samples.plantilla);
+trackDocumentPrepared([workshopVariant], samples.genera_document);
 assert.equal(sent.length, previous);
 assert.equal(window.tramaBeforeSend('event', { name: 'plantilla', data: samples.plantilla }), false);
 navigator.globalPrivacyControl = false;
