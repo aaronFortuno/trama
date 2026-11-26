@@ -12820,5 +12820,1752 @@ export const libraryPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L276",
+    "edition": "v1.59.8",
+    "family": {
+      "id": "familia-l276",
+      "code": "L276",
+      "name": {
+        "es": "Una carta en la caja de vuelta",
+        "ca": "Una carta a la caixa de tornada"
+      },
+      "description": {
+        "ca": "Una història de La biblioteca de les coses, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de La biblioteca de las cosas, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L276A",
+        "L276",
+        "L276B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "caixa-carta-retorn-a-es",
+        "code": "L276A",
+        "workId": "caixa-carta-retorn-a",
+        "language": "es",
+        "familyId": "familia-l276",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "arts"
+        ],
+        "genre": "letter",
+        "title": "Una carta en la caja de vuelta",
+        "summary": "Elena devuelve una caja de objetos y cuenta los usos y deseos de varias personas de la residencia.",
+        "paragraphs": [
+          "Querida Rosa:\nOs devolvemos la caja de la biblioteca de las cosas, el servicio vecinal que presta objetos para usarlos durante un tiempo. Gracias por traerla a nuestra residencia. Soy Elena, una de las personas que pidió este préstamo. Noa y Adil, los adolescentes que colaboran contigo, preguntaron qué habíamos hecho con los objetos. Les escribo desde la mesa del jardín.",
+          "La caja llegó con un dominó de piezas grandes, una lupa con soporte y una prensa de flores. Como llevaba ruedas, tú y la conductora pudisteis acercarla hasta la sala. Emili organizó una partida de dominó esa tarde. Yo jugué un rato y luego salí al jardín con Teresa. A ella no le apetecía jugar; quería mirar las hojas de una planta.",
+          "Teresa colocó una hoja caída bajo la lupa y dibujó sus líneas. Con el soporte podía tener las manos libres para dibujar. Me la prestó después para leer las letras pequeñas de un sobre de semillas. La lupa estuvo varios días junto a la ventana del jardín. Cada persona la acercaba a lo que quería observar, sin esperar una actividad organizada.",
+          "La prensa también encontró su sitio. Carme pidió permiso para recoger unas flores del jardín y las puso entre papeles. Dos semanas después, estaban secas y las utilizó para decorar una cubierta. Emili le propuso ponerla junto al dominó. Carme prefirió llevársela a su habitación: era la cubierta del cuaderno donde escribe sus propios relatos.",
+          "Para la próxima caja, Emili pide un dominó más pequeño: el grande ocupa demasiado en su mesa favorita. Yo pediría un atril para leer en el jardín. Teresa quiere repetir la lupa. Cada cual ha escrito su petición en una tarjeta. Las encontrarás dentro del bolsillo de la caja, junto a esta carta.",
+          "Cuando vengáis otra vez, os enseñaremos los dibujos si Teresa está de acuerdo. La cubierta de Carme tendréis que pedírsela a ella.\nUn abrazo,\nElena"
+        ],
+        "questions": [
+          {
+            "id": "l276a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Quién escribe la carta?",
+            "answer": "Elena, una de las residentes que pidió el préstamo.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Soy Elena, una de las personas que pidió este préstamo."
+              }
+            ]
+          },
+          {
+            "id": "l276a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Para qué usa Teresa la lupa con soporte?",
+            "answer": "Para observar una hoja y dibujar sus líneas con las manos libres.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Con el soporte podía tener las manos libres para dibujar."
+              }
+            ]
+          },
+          {
+            "id": "l276a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué muestra que Elena deje la partida y vaya al jardín?",
+            "answer": "Que puede elegir actividades distintas durante la misma tarde.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Yo jugué un rato y luego salí al jardín con Teresa."
+              }
+            ]
+          },
+          {
+            "id": "l276a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «cubierta» en el proyecto de Carme?",
+            "answer": "La parte exterior que protege su cuaderno.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "era la cubierta del cuaderno donde escribe sus propios relatos."
+              }
+            ]
+          },
+          {
+            "id": "l276a-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Por qué Emili quiere un dominó más pequeño?",
+            "answer": "Porque el grande ocupa demasiado en su mesa favorita.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "el grande ocupa demasiado en su mesa favorita."
+              }
+            ]
+          },
+          {
+            "id": "l276a-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué contiene la parte final de la carta, antes de la despedida?",
+            "answer": "Peticiones para otra caja y una invitación a preguntar por los trabajos.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Para la próxima caja"
+              },
+              {
+                "paragraph": 6,
+                "text": "Cuando vengáis otra vez"
+              }
+            ]
+          },
+          {
+            "id": "l276a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume cómo se usan los objetos y qué piden para la próxima caja.",
+            "answer": "Varias personas usan los objetos de formas diferentes y piden cambios según sus preferencias.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "A ella no le apetecía jugar"
+              },
+              {
+                "paragraph": 5,
+                "text": "Cada cual ha escrito su petición en una tarjeta."
+              }
+            ]
+          },
+          {
+            "id": "l276a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué objeto añadirías a una próxima caja? Explica a qué interés concreto podría responder.",
+            "answer": "Propuesta personal de un objeto y de un uso ligado a un interés, sin atribuir el mismo gusto a todo el grupo."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "cubierta",
+            "occurrence": 1,
+            "questionId": "l276a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l276-scene",
+            "src": "assets/readings/l276-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Caja con ruedas, dominó, lupa y prensa de flores junto a una carta sin texto legible en el local de la biblioteca.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "caixa-carta-retorn-a-ca",
+        "code": "L276A",
+        "workId": "caixa-carta-retorn-a",
+        "language": "ca",
+        "familyId": "familia-l276",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "arts"
+        ],
+        "genre": "letter",
+        "title": "Una carta a la caixa de tornada",
+        "summary": "L’Elena retorna una caixa d’objectes i explica els usos i desitjos de diverses persones de la residència.",
+        "paragraphs": [
+          "Benvolguda Rosa:\nUs retornem la caixa de la biblioteca de les coses, el servei veïnal que deixa objectes per fer-los servir durant un temps. Gràcies per portar-la a la nostra residència. Soc l’Elena, una de les persones que va demanar aquest préstec. La Noa i l’Adil, els adolescents que col·laboren amb tu, van preguntar què havíem fet amb els objectes. Els escric des de la taula del jardí.",
+          "La caixa va arribar amb un dòmino de peces grans, una lupa amb suport i una premsa de flors. Com que duia rodes, tu i la conductora la vau poder acostar fins a la sala. L’Emili va organitzar una partida de dòmino aquella tarda. Jo hi vaig jugar una estona i després vaig sortir al jardí amb la Teresa. A ella no li venia de gust jugar; volia mirar les fulles d’una planta.",
+          "La Teresa va posar una fulla caiguda sota la lupa i en va dibuixar les línies. Amb el suport podia tenir les mans lliures per dibuixar. Me la va deixar després per llegir les lletres petites d’un sobre de llavors. La lupa va estar diversos dies al costat de la finestra del jardí. Cada persona l’acostava al que volia observar, sense esperar una activitat organitzada.",
+          "La premsa també va trobar el seu lloc. La Carme va demanar permís per collir unes flors del jardí i les va posar entre papers. Dues setmanes després, estaven seques i les va fer servir per decorar una coberta. L’Emili li va proposar posar-la al costat del dòmino. La Carme va preferir endur-se-la a l’habitació: era la coberta del quadern on escriu els seus propis relats.",
+          "Per a la propera caixa, l’Emili demana un dòmino més petit: el gran ocupa massa a la seva taula preferida. Jo demanaria un faristol per llegir al jardí. La Teresa vol repetir la lupa. Cadascú ha escrit la seva petició en una targeta. Les trobaràs dins la butxaca de la caixa, al costat d’aquesta carta.",
+          "Quan torneu a venir, us ensenyarem els dibuixos si la Teresa hi està d’acord. La coberta de la Carme l’hi haureu de demanar a ella.\nUna abraçada,\nElena"
+        ],
+        "questions": [
+          {
+            "id": "l276a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Qui escriu la carta?",
+            "answer": "L’Elena, una de les residents que va demanar el préstec.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Soc l’Elena, una de les persones que va demanar aquest préstec."
+              }
+            ]
+          },
+          {
+            "id": "l276a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Per a què fa servir la Teresa la lupa amb suport?",
+            "answer": "Per observar una fulla i dibuixar-ne les línies amb les mans lliures.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Amb el suport podia tenir les mans lliures per dibuixar."
+              }
+            ]
+          },
+          {
+            "id": "l276a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què mostra que l’Elena deixi la partida i vagi al jardí?",
+            "answer": "Que pot triar activitats diferents durant la mateixa tarda.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Jo hi vaig jugar una estona i després vaig sortir al jardí amb la Teresa."
+              }
+            ]
+          },
+          {
+            "id": "l276a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què significa «coberta» en el projecte de la Carme?",
+            "answer": "La part exterior que protegeix el quadern.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "era la coberta del quadern on escriu els seus propis relats."
+              }
+            ]
+          },
+          {
+            "id": "l276a-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Per què l’Emili vol un dòmino més petit?",
+            "answer": "Perquè el gran ocupa massa a la seva taula preferida.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "el gran ocupa massa a la seva taula preferida."
+              }
+            ]
+          },
+          {
+            "id": "l276a-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Què conté la part final de la carta, abans del comiat?",
+            "answer": "Peticions per a una altra caixa i una invitació a preguntar per les obres.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Per a la propera caixa"
+              },
+              {
+                "paragraph": 6,
+                "text": "Quan torneu a venir"
+              }
+            ]
+          },
+          {
+            "id": "l276a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix com es fan servir els objectes i què demanen per a la propera caixa.",
+            "answer": "Diverses persones fan servir els objectes de maneres diferents i demanen canvis segons les seves preferències.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "A ella no li venia de gust jugar"
+              },
+              {
+                "paragraph": 5,
+                "text": "Cadascú ha escrit la seva petició en una targeta."
+              }
+            ]
+          },
+          {
+            "id": "l276a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quin objecte afegiries a una propera caixa? Explica a quin interès concret podria respondre.",
+            "answer": "Proposta personal d’un objecte i d’un ús lligat a un interès, sense atribuir el mateix gust a tot el grup."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "coberta",
+            "occurrence": 1,
+            "questionId": "l276a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l276-scene",
+            "src": "assets/readings/l276-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Caixa amb rodes, dòmino, lupa i premsa de flors al costat d’una carta sense text llegible al local de la biblioteca.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "caixa-carta-retorn-es",
+        "code": "L276",
+        "workId": "caixa-carta-retorn",
+        "language": "es",
+        "familyId": "familia-l276",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "arts"
+        ],
+        "genre": "letter",
+        "title": "Una carta en la caja de vuelta",
+        "summary": "Una carta cuenta cómo tres objetos viajaron por espacios y preferencias diferentes dentro de una residencia.",
+        "paragraphs": [
+          "Querida Rosa:\nLa caja ya está lista para volver a la biblioteca de las cosas, vuestro servicio vecinal de préstamo de objetos. Soy Elena, una de las residentes que pidió traerla. Cuando tú y la conductora la acercasteis a nuestra sala, Noa y Adil preguntaron si les contaríamos el resultado. Los dos adolescentes habían ayudado a elegir los objetos a partir de nuestra petición: algo para jugar, observar plantas y trabajar con flores. Aquí tienen noticias de las últimas dos semanas.",
+          "Emili abrió primero el dominó de piezas grandes y convocó una partida para aquella tarde. Participamos cuatro personas. Teresa prefirió salir al jardín con la lupa de soporte; quería dibujar las líneas de una hoja caída. Yo jugué dos partidas y después fui a buscarla. No hemos usado los tres objetos siempre juntos ni todos a la vez. El jardín y la sala han tenido sus propios horarios, según lo que le apetecía a cada cual.",
+          "La lupa quedó junto a la ventana que da al jardín. Su soporte dejaba las manos libres para dibujar y también para sostener un sobre de semillas. A mí me ayudó a leer las instrucciones de siembra, escritas con una letra diminuta. Teresa la utilizó después para observar un pétalo. Carme pasó por allí, miró los dibujos y siguió hacia la sala con su cuaderno. Tenía otro proyecto en marcha y nos lo enseñó varios días después.",
+          "Había pedido permiso para recoger unas flores del jardín y las había puesto entre papeles dentro de la prensa. Al cabo de dos semanas, las flores estaban secas. Decoró con ellas la cubierta de su cuaderno de relatos. Emili propuso mostrarla junto al dominó, pero Carme se la llevó a su habitación para seguir escribiendo. Dijo que nos enseñaría el cuaderno cuando acabara el cuento que estaba corrigiendo. Por ahora, solo hemos visto la cubierta.",
+          "Tenemos algunas peticiones para el próximo viaje. Emili querría un dominó de tamaño corriente: las piezas grandes le resultan incómodas en la mesa pequeña donde prefiere jugar. Teresa repetiría la lupa. Yo probaría un atril para apoyar el libro mientras leo en el jardín. Hemos escrito las peticiones por separado y las hemos guardado en el bolsillo de la caja. Si algún objeto no está disponible, ya nos dirás qué alternativas hay.",
+          "La caja conserva sus ruedas y el asa, que la conductora agradeció mucho al traerla. Los objetos regresan dentro; los dibujos y la cubierta se quedan con sus autoras. Para enseñárselos a Noa y Adil cuando vengan, les preguntaremos primero. Teresa suele aceptar visitas a su mesa de dibujo, sobre todo si llevan algo interesante del jardín.",
+          "Esperamos vuestra respuesta antes de preparar el siguiente envío. Mientras tanto, Emili ya está buscando una mesa más grande por si el dominó pequeño tarda.\nUn abrazo,\nElena"
+        ],
+        "questions": [
+          {
+            "id": "l276-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué intereses habían indicado las personas que pidieron la caja?",
+            "answer": "Jugar, observar plantas y trabajar con flores.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "algo para jugar, observar plantas y trabajar con flores."
+              }
+            ]
+          },
+          {
+            "id": "l276-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué hace Elena después de jugar dos partidas?",
+            "answer": "Sale al jardín a buscar a Teresa.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Yo jugué dos partidas y después fui a buscarla."
+              }
+            ]
+          },
+          {
+            "id": "l276-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué resulta útil que la lupa tenga soporte?",
+            "answer": "Porque permite dibujar o sostener un sobre sin tener que sujetar la lupa con la mano.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Su soporte dejaba las manos libres para dibujar y también para sostener un sobre de semillas."
+              }
+            ]
+          },
+          {
+            "id": "l276-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa que Carme tenga un proyecto «en marcha»?",
+            "answer": "Que ya ha empezado a hacerlo y está trabajando en él.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Tenía otro proyecto en marcha"
+              }
+            ]
+          },
+          {
+            "id": "l276-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué han visto los demás del cuaderno de Carme?",
+            "answer": "Solo la cubierta decorada.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Por ahora, solo hemos visto la cubierta."
+              }
+            ]
+          },
+          {
+            "id": "l276-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué la petición de Emili concreta el tamaño del próximo dominó?",
+            "answer": "Porque la experiencia con las piezas grandes ha mostrado que no se ajustan a su mesa preferida.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "las piezas grandes le resultan incómodas en la mesa pequeña donde prefiere jugar."
+              }
+            ]
+          },
+          {
+            "id": "l276-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Cómo se organiza principalmente el cuerpo de la carta?",
+            "answer": "Presenta los usos de los objetos y después las peticiones para el siguiente envío.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Emili abrió primero el dominó"
+              },
+              {
+                "paragraph": 5,
+                "text": "Tenemos algunas peticiones para el próximo viaje."
+              }
+            ]
+          },
+          {
+            "id": "l276-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué se deduce de que las peticiones se escriban por separado?",
+            "answer": "Que se quieren conservar preferencias diferentes dentro de la próxima solicitud.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Hemos escrito las peticiones por separado"
+              }
+            ]
+          },
+          {
+            "id": "l276-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume la experiencia del préstamo y las peticiones que transmite Elena.",
+            "answer": "Elena cuenta usos diversos de los préstamos y transmite peticiones personales, mientras las obras siguen en manos de sus autoras.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Teresa repetiría la lupa. Yo probaría un atril"
+              },
+              {
+                "paragraph": 6,
+                "text": "los dibujos y la cubierta se quedan con sus autoras."
+              }
+            ]
+          },
+          {
+            "id": "l276-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Redacta una breve respuesta de Rosa a Elena. Atiende una petición sin dar por hecho que todos los objetos estén disponibles.",
+            "answer": "Producción abierta que responde de forma cordial y distingue una petición de una disponibilidad aún por consultar."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "en marcha",
+            "occurrence": 1,
+            "questionId": "l276-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l276-scene",
+            "src": "assets/readings/l276-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Caja con ruedas, dominó, lupa y prensa de flores junto a una carta sin texto legible en el local de la biblioteca.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "caixa-carta-retorn-ca",
+        "code": "L276",
+        "workId": "caixa-carta-retorn",
+        "language": "ca",
+        "familyId": "familia-l276",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "arts"
+        ],
+        "genre": "letter",
+        "title": "Una carta a la caixa de tornada",
+        "summary": "Una carta explica com tres objectes van viatjar per espais i preferències diferents dins d’una residència.",
+        "paragraphs": [
+          "Benvolguda Rosa:\nLa caixa ja està a punt per tornar a la biblioteca de les coses, el vostre servei veïnal de préstec d’objectes. Soc l’Elena, una de les residents que va demanar portar-la. Quan tu i la conductora la vau acostar a la nostra sala, la Noa i l’Adil van preguntar si els explicaríem el resultat. Els dos adolescents havien ajudat a triar els objectes a partir de la nostra petició: alguna cosa per jugar, observar plantes i treballar amb flors. Aquí tenen notícies de les últimes dues setmanes.",
+          "L’Emili va obrir primer el dòmino de peces grans i va convocar una partida per a aquella tarda. Hi vam participar quatre persones. La Teresa es va estimar més sortir al jardí amb la lupa de suport; volia dibuixar les línies d’una fulla caiguda. Jo vaig jugar dues partides i després la vaig anar a buscar. No hem fet servir els tres objectes sempre junts ni tots alhora. El jardí i la sala han tingut els seus propis horaris, segons el que venia de gust a cadascú.",
+          "La lupa es va quedar al costat de la finestra que dona al jardí. El suport deixava les mans lliures per dibuixar i també per aguantar un sobre de llavors. A mi em va ajudar a llegir les instruccions de sembra, escrites amb una lletra minúscula. La Teresa la va fer servir després per observar un pètal. La Carme va passar per allà, va mirar els dibuixos i va continuar cap a la sala amb el quadern. Tenia un altre projecte en marxa i ens el va ensenyar uns quants dies després.",
+          "Havia demanat permís per collir unes flors del jardí i les havia posat entre papers dins la premsa. Al cap de dues setmanes, les flors estaven seques. Va decorar-hi la coberta del seu quadern de relats. L’Emili va proposar mostrar-la al costat del dòmino, però la Carme se la va endur a l’habitació per continuar escrivint. Va dir que ens ensenyaria el quadern quan acabés el conte que estava corregint. Ara com ara, només n’hem vist la coberta.",
+          "Tenim algunes peticions per al proper viatge. L’Emili voldria un dòmino de mida corrent: les peces grans li resulten incòmodes a la taula petita on prefereix jugar. La Teresa repetiria la lupa. Jo provaria un faristol per recolzar-hi el llibre mentre llegeixo al jardí. Hem escrit les peticions per separat i les hem desat a la butxaca de la caixa. Si algun objecte no està disponible, ja ens diràs quines alternatives hi ha.",
+          "La caixa conserva les rodes i la nansa, que la conductora va agrair molt quan la va portar. Els objectes tornen a dins; els dibuixos i la coberta es queden amb les autores. Per ensenyar-los a la Noa i l’Adil quan vinguin, els ho preguntarem primer. La Teresa sol acceptar visites a la seva taula de dibuix, sobretot si porten alguna cosa interessant del jardí.",
+          "Esperem la vostra resposta abans de preparar el pròxim enviament. Mentrestant, l’Emili ja busca una taula més grossa per si el dòmino petit triga.\nUna abraçada,\nElena"
+        ],
+        "questions": [
+          {
+            "id": "l276-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quins interessos havien indicat les persones que van demanar la caixa?",
+            "answer": "Jugar, observar plantes i treballar amb flors.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "alguna cosa per jugar, observar plantes i treballar amb flors."
+              }
+            ]
+          },
+          {
+            "id": "l276-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què fa l’Elena després de jugar dues partides?",
+            "answer": "Surt al jardí a buscar la Teresa.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Jo vaig jugar dues partides i després la vaig anar a buscar."
+              }
+            ]
+          },
+          {
+            "id": "l276-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què resulta útil que la lupa tingui suport?",
+            "answer": "Perquè permet dibuixar o aguantar un sobre sense haver d’agafar la lupa amb la mà.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El suport deixava les mans lliures per dibuixar i també per aguantar un sobre de llavors."
+              }
+            ]
+          },
+          {
+            "id": "l276-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què significa que la Carme tingui un projecte «en marxa»?",
+            "answer": "Que ja ha començat a fer-lo i hi està treballant.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Tenia un altre projecte en marxa"
+              }
+            ]
+          },
+          {
+            "id": "l276-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què han vist els altres del quadern de la Carme?",
+            "answer": "Només la coberta decorada.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Ara com ara, només n’hem vist la coberta."
+              }
+            ]
+          },
+          {
+            "id": "l276-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la petició de l’Emili concreta la mida del pròxim dòmino?",
+            "answer": "Perquè l’experiència amb les peces grans ha mostrat que no s’ajusten a la seva taula preferida.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "les peces grans li resulten incòmodes a la taula petita on prefereix jugar."
+              }
+            ]
+          },
+          {
+            "id": "l276-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Com s’organitza principalment el cos de la carta?",
+            "answer": "Presenta els usos dels objectes i després les peticions per al següent enviament.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "L’Emili va obrir primer el dòmino"
+              },
+              {
+                "paragraph": 5,
+                "text": "Tenim algunes peticions per al proper viatge."
+              }
+            ]
+          },
+          {
+            "id": "l276-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què es dedueix del fet que les peticions s’escriguin per separat?",
+            "answer": "Que es volen conservar preferències diferents dins de la propera sol·licitud.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Hem escrit les peticions per separat"
+              }
+            ]
+          },
+          {
+            "id": "l276-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix l’experiència del préstec i les peticions que transmet l’Elena.",
+            "answer": "L’Elena explica usos diversos dels préstecs i transmet peticions personals, mentre les obres continuen en mans de les autores.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "La Teresa repetiria la lupa. Jo provaria un faristol"
+              },
+              {
+                "paragraph": 6,
+                "text": "els dibuixos i la coberta es queden amb les autores."
+              }
+            ]
+          },
+          {
+            "id": "l276-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Redacta una resposta breu de la Rosa a l’Elena. Atén una petició sense donar per fet que tots els objectes estiguin disponibles.",
+            "answer": "Producció oberta que respon de manera cordial i distingeix una petició d’una disponibilitat encara per consultar."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "en marxa",
+            "occurrence": 1,
+            "questionId": "l276-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l276-scene",
+            "src": "assets/readings/l276-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Caixa amb rodes, dòmino, lupa i premsa de flors al costat d’una carta sense text llegible al local de la biblioteca.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "caixa-carta-retorn-b-es",
+        "code": "L276B",
+        "workId": "caixa-carta-retorn-b",
+        "language": "es",
+        "familyId": "familia-l276",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "advanced",
+        "themes": [
+          "community",
+          "everyday",
+          "arts"
+        ],
+        "genre": "letter",
+        "title": "Una carta en la caja de vuelta",
+        "summary": "Elena cuenta una experiencia compartida desde una voz propia, con usos dispersos y preferencias que no siempre coinciden.",
+        "paragraphs": [
+          "Querida Rosa:\nTe escribo en nombre propio, aunque llevaré esta carta a la sala para que quienes aparecen puedan leerla antes de enviarla. Soy Elena, residente y una de las personas que pidió la caja de la biblioteca de las cosas, vuestro servicio vecinal de préstamo. Noa y Adil, los adolescentes que colaboran contigo, querían conocer el resultado. Cuando tú y la conductora trajisteis la caja con ruedas, comenzamos a descubrir que aquellos tres objetos tendrían recorridos distintos dentro de la residencia.",
+          "Nuestra petición mencionaba juegos de mesa, observación de plantas y trabajo con flores. Por eso llegaron un dominó de piezas grandes, una lupa con soporte y una prensa. Emili organizó una partida esa misma tarde. Fuimos cuatro, aunque la sala tenía bastantes más personas. Teresa se llevó la lupa al jardín porque quería dibujar las líneas de una hoja caída. Yo jugué dos partidas y luego salí a verla. Carme empezó a buscar papeles para la prensa, con una idea que todavía no quiso explicar.",
+          "La lupa quedó junto a la ventana del jardín. Con el soporte, Teresa tenía las manos libres para dibujar. Después la usé para leer las instrucciones de un sobre de semillas; su letra parecía escrita para una hormiga jardinera. Otro día la acercamos a un pétalo. Se ha utilizado en momentos sueltos, a menudo sin anunciar ninguna actividad. Si solo hubiéramos contado las personas reunidas a una hora fija en la sala, varios de esos usos habrían quedado fuera de nuestra descripción.",
+          "Carme pidió permiso para recoger unas flores del jardín y las colocó entre papeles en la prensa. Dos semanas después estaban secas y pudo decorar la cubierta de su cuaderno de relatos. Emili quiso exponerlo junto al dominó. Ella prefirió llevárselo a la habitación para seguir corrigiendo un cuento. Nos prometió enseñarlo cuando lo terminara. Hasta ahora conocemos la cubierta y dos frases que nos leyó en voz alta; el resto sigue siendo suyo, por mucho que algunos tengamos curiosidad por saber el final.",
+          "Para el siguiente viaje, Emili pide un dominó de tamaño corriente. Las piezas grandes se ven bien, pero ocupan demasiado en su mesa favorita, que es pequeña y está cerca de la puerta del jardín. No quiere cambiar de sitio para jugar. Teresa repetiría la lupa y yo probaría un atril para apoyar el libro al leer fuera. Hemos puesto tres tarjetas en el bolsillo de la caja. Cuando nos confirmes cuáles de esos objetos están disponibles, podremos acordar contigo el día y la hora del próximo viaje de la caja.",
+          "He preguntado también a quienes no utilizaron nada. Una vecina estaba ocupada preparando una visita y otra prefirió seguir con su lectura. Ambas quieren saber qué traerá el próximo envío, pero ninguna ha pedido un objeto concreto. No sé si lo usarán cuando llegue. De momento, sus respuestas me ayudan a explicar las sillas vacías en la primera partida de dominó sin inventarles falta de interés por todo lo que pueda venir de la biblioteca.",
+          "Los objetos vuelven en la caja; las obras se quedan con sus autoras. Cuando vengan Noa y Adil, podrán preguntarles si quieren enseñarlas. Si Teresa acepta, procurad llegar mientras haya claridad en el jardín: querrá mostraros cómo ha dibujado las líneas de las hojas. Después de esta carta, todavía habrá cosas que será mejor escuchar de ella misma.",
+          "Esperamos respuesta para organizar la siguiente visita. Emili ya está negociando una mesa grande por si tarda el dominó pequeño.\nUn abrazo,\nElena"
+        ],
+        "questions": [
+          {
+            "id": "l276b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿En nombre de quién dice escribir Elena?",
+            "answer": "En nombre propio, aunque dejará leer la carta a las personas mencionadas.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Te escribo en nombre propio"
+              }
+            ]
+          },
+          {
+            "id": "l276b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué límite tendría contar solo a quienes se reúnen en la sala a una hora fija?",
+            "answer": "Se perderían usos individuales o en otros espacios y momentos, como los de la lupa.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "varios de esos usos habrían quedado fuera de nuestra descripción."
+              }
+            ]
+          },
+          {
+            "id": "l276b-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Por qué Emili prefiere un dominó de tamaño corriente?",
+            "answer": "Porque quiere seguir jugando en su mesa pequeña preferida y las piezas grandes ocupan demasiado.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "ocupan demasiado en su mesa favorita, que es pequeña"
+              }
+            ]
+          },
+          {
+            "id": "l276b-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa usar la lupa «en momentos sueltos»?",
+            "answer": "Utilizarla en ocasiones separadas, sin una sesión continua o común para todos.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Se ha utilizado en momentos sueltos, a menudo sin anunciar ninguna actividad."
+              }
+            ]
+          },
+          {
+            "id": "l276b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué conclusión evita Elena al preguntar a quienes no usaron los objetos?",
+            "answer": "Evita atribuirles un desinterés general por cualquier envío solo por no participar esta vez.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "sin inventarles falta de interés por todo lo que pueda venir de la biblioteca."
+              }
+            ]
+          },
+          {
+            "id": "l276b-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué aporta el párrafo sobre quienes no utilizaron nada?",
+            "answer": "Amplía la carta más allá de los usuarios activos y matiza lo que significan las ausencias.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "He preguntado también a quienes no utilizaron nada."
+              }
+            ]
+          },
+          {
+            "id": "l276b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué sabemos del relato que Carme está corrigiendo?",
+            "answer": "Que los demás solo han oído dos frases y ella lo enseñará cuando lo termine.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Hasta ahora conocemos la cubierta y dos frases que nos leyó en voz alta"
+              }
+            ]
+          },
+          {
+            "id": "l276b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué persona pide repetir un objeto sin solicitar ningún cambio de tamaño?",
+            "answer": "Teresa, que quiere volver a tener la lupa.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Teresa repetiría la lupa"
+              }
+            ]
+          },
+          {
+            "id": "l276b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué se puede afirmar sobre el uso del próximo envío por las dos vecinas consultadas?",
+            "answer": "Tienen interés en saber qué llegará, pero todavía no sabemos si usarán los objetos.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "No sé si lo usarán cuando llegue."
+              }
+            ]
+          },
+          {
+            "id": "l276b-q10",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume la experiencia que cuenta Elena, incluyendo un límite de lo que puede afirmar.",
+            "answer": "Desde su experiencia, Elena recoge usos y preferencias diversos, reconoce lo que aún no sabe y transmite peticiones sin confirmar.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Te escribo en nombre propio"
+              },
+              {
+                "paragraph": 6,
+                "text": "No sé si lo usarán cuando llegue."
+              }
+            ]
+          },
+          {
+            "id": "l276b-q11",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿Qué otra pregunta harías a las personas de la residencia para preparar la próxima caja? Explica qué información te aportaría.",
+            "answer": "Pregunta personal que permita conocer intereses o condiciones de uso sin atribuir una preferencia común a toda la residencia."
+          },
+          {
+            "id": "l276b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Redacta un párrafo de respuesta a Elena que reconozca dos preferencias diferentes y plantee un siguiente paso razonable.",
+            "answer": "Producción personal compatible con dos peticiones del texto y una consulta o propuesta aún por concretar."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "en momentos sueltos",
+            "occurrence": 1,
+            "questionId": "l276b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l276-scene",
+            "src": "assets/readings/l276-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Caja con ruedas, dominó, lupa y prensa de flores junto a una carta sin texto legible en el local de la biblioteca.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "caixa-carta-retorn-b-ca",
+        "code": "L276B",
+        "workId": "caixa-carta-retorn-b",
+        "language": "ca",
+        "familyId": "familia-l276",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "advanced",
+        "themes": [
+          "community",
+          "everyday",
+          "arts"
+        ],
+        "genre": "letter",
+        "title": "Una carta a la caixa de tornada",
+        "summary": "L’Elena explica una experiència compartida des d’una veu pròpia, amb usos dispersos i preferències que no sempre coincideixen.",
+        "paragraphs": [
+          "Benvolguda Rosa:\nT’escric en nom propi, tot i que portaré aquesta carta a la sala perquè els qui hi apareixen la puguin llegir abans d’enviar-la. Soc l’Elena, resident i una de les persones que va demanar la caixa de la biblioteca de les coses, el vostre servei veïnal de préstec. La Noa i l’Adil, els adolescents que col·laboren amb tu, volien conèixer el resultat. Quan tu i la conductora vau portar la caixa amb rodes, vam començar a descobrir que aquells tres objectes tindrien recorreguts diferents dins la residència.",
+          "La nostra petició esmentava jocs de taula, observació de plantes i treball amb flors. Per això van arribar un dòmino de peces grans, una lupa amb suport i una premsa. L’Emili va organitzar una partida aquella mateixa tarda. Vam ser quatre, tot i que a la sala hi havia força més persones. La Teresa es va endur la lupa al jardí perquè volia dibuixar les línies d’una fulla caiguda. Jo vaig jugar dues partides i després vaig sortir a veure-la. La Carme va començar a buscar papers per a la premsa, amb una idea que encara no va voler explicar.",
+          "La lupa es va quedar al costat de la finestra del jardí. Amb el suport, la Teresa tenia les mans lliures per dibuixar. Després la vaig fer servir per llegir les instruccions d’un sobre de llavors; la lletra semblava escrita per a una formiga jardinera. Un altre dia la vam acostar a un pètal. S’ha utilitzat en moments solts, sovint sense anunciar cap activitat. Si només haguéssim comptat les persones reunides a una hora fixa a la sala, diversos d’aquells usos haurien quedat fora de la nostra descripció.",
+          "La Carme va demanar permís per collir unes flors del jardí i les va posar entre papers a la premsa. Dues setmanes després estaven seques i va poder decorar la coberta del seu quadern de relats. L’Emili el va voler exposar al costat del dòmino. Ella es va estimar més endur-se’l a l’habitació per continuar corregint un conte. Ens va prometre ensenyar-lo quan l’acabés. Fins ara coneixem la coberta i dues frases que ens va llegir en veu alta; la resta continua sent seva, per més que alguns tinguem curiositat per saber-ne el final.",
+          "Per al viatge següent, l’Emili demana un dòmino de mida corrent. Les peces grans es veuen bé, però ocupen massa a la seva taula preferida, que és petita i és a prop de la porta del jardí. No vol canviar de lloc per jugar. La Teresa repetiria la lupa i jo provaria un faristol per recolzar-hi el llibre quan llegeixo a fora. Hem posat tres targetes a la butxaca de la caixa. Quan ens confirmis quins d’aquests objectes estan disponibles, podrem acordar amb tu el dia i l’hora del proper viatge de la caixa.",
+          "També he preguntat als qui no van utilitzar res. Una veïna estava ocupada preparant una visita i una altra va preferir continuar la lectura. Totes dues volen saber què portarà el proper enviament, però cap no ha demanat un objecte concret. No sé si el faran servir quan arribi. De moment, les seves respostes m’ajuden a explicar les cadires buides a la primera partida de dòmino sense inventar-los falta d’interès per tot allò que pugui venir de la biblioteca.",
+          "Els objectes tornen a la caixa; les obres es queden amb les autores. Quan vinguin la Noa i l’Adil, els podran preguntar si les volen ensenyar. Si la Teresa accepta, procureu arribar mentre hi hagi claror al jardí: voldrà mostrar-vos com ha dibuixat les línies de les fulles. Després d’aquesta carta, encara hi haurà coses que serà millor escoltar d’ella mateixa.",
+          "Esperem resposta per organitzar la visita següent. L’Emili ja negocia una taula grossa per si triga el dòmino petit.\nUna abraçada,\nElena"
+        ],
+        "questions": [
+          {
+            "id": "l276b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "En nom de qui diu que escriu l’Elena?",
+            "answer": "En nom propi, tot i que deixarà llegir la carta a les persones esmentades.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "T’escric en nom propi"
+              }
+            ]
+          },
+          {
+            "id": "l276b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quin límit tindria comptar només els qui es reuneixen a la sala a una hora fixa?",
+            "answer": "Es perdrien usos individuals o en altres espais i moments, com els de la lupa.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "diversos d’aquells usos haurien quedat fora de la nostra descripció."
+              }
+            ]
+          },
+          {
+            "id": "l276b-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Per què l’Emili prefereix un dòmino de mida corrent?",
+            "answer": "Perquè vol continuar jugant a la seva taula petita preferida i les peces grans ocupen massa.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "ocupen massa a la seva taula preferida, que és petita"
+              }
+            ]
+          },
+          {
+            "id": "l276b-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què significa fer servir la lupa «en moments solts»?",
+            "answer": "Utilitzar-la en ocasions separades, sense una sessió contínua o comuna per a tothom.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "S’ha utilitzat en moments solts, sovint sense anunciar cap activitat."
+              }
+            ]
+          },
+          {
+            "id": "l276b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina conclusió evita l’Elena quan pregunta als qui no van fer servir els objectes?",
+            "answer": "Evita atribuir-los un desinterès general per qualsevol enviament només perquè aquesta vegada no hi han participat.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "sense inventar-los falta d’interès per tot allò que pugui venir de la biblioteca."
+              }
+            ]
+          },
+          {
+            "id": "l276b-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Què aporta el paràgraf sobre els qui no van utilitzar res?",
+            "answer": "Amplia la carta més enllà dels usuaris actius i matisa què signifiquen les absències.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "També he preguntat als qui no van utilitzar res."
+              }
+            ]
+          },
+          {
+            "id": "l276b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què sabem del relat que la Carme està corregint?",
+            "answer": "Que els altres només n’han sentit dues frases i ella l’ensenyarà quan l’acabi.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Fins ara coneixem la coberta i dues frases que ens va llegir en veu alta"
+              }
+            ]
+          },
+          {
+            "id": "l276b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina persona demana repetir un objecte sense sol·licitar cap canvi de mida?",
+            "answer": "La Teresa, que vol tornar a tenir la lupa.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "La Teresa repetiria la lupa"
+              }
+            ]
+          },
+          {
+            "id": "l276b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què es pot afirmar sobre l’ús del proper enviament per part de les dues veïnes consultades?",
+            "answer": "Tenen interès a saber què arribarà, però encara no sabem si faran servir els objectes.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "No sé si el faran servir quan arribi."
+              }
+            ]
+          },
+          {
+            "id": "l276b-q10",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix l’experiència que explica l’Elena, incloent-hi un límit del que pot afirmar.",
+            "answer": "Des de la seva experiència, l’Elena recull usos i preferències diversos, reconeix què encara no sap i transmet peticions sense confirmar.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "T’escric en nom propi"
+              },
+              {
+                "paragraph": 6,
+                "text": "No sé si el faran servir quan arribi."
+              }
+            ]
+          },
+          {
+            "id": "l276b-q11",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Quina altra pregunta faries a les persones de la residència per preparar la propera caixa? Explica quina informació t’aportaria.",
+            "answer": "Pregunta personal que permeti conèixer interessos o condicions d’ús sense atribuir una preferència comuna a tota la residència."
+          },
+          {
+            "id": "l276b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Redacta un paràgraf de resposta a l’Elena que reconegui dues preferències diferents i plantegi un pas següent raonable.",
+            "answer": "Producció personal compatible amb dues peticions del text i una consulta o proposta encara per concretar."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "en moments solts",
+            "occurrence": 1,
+            "questionId": "l276b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l276-scene",
+            "src": "assets/readings/l276-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Caixa amb rodes, dòmino, lupa i premsa de flors al costat d’una carta sense text llegible al local de la biblioteca.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 5
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L276A",
+        "language": "es",
+        "questions": {
+          "l276a-q1": {
+            "prompt": "¿Quién escribe la carta?",
+            "options": [
+              "Rosa, que coordina la biblioteca.",
+              "Teresa, que dibuja las hojas.",
+              "Elena, que participó en la petición.",
+              "Carme, que escribe relatos."
+            ],
+            "correct": "c",
+            "explanation": "Elena, una de las residentes que pidió el préstamo."
+          },
+          "l276a-q2": {
+            "prompt": "¿Para qué usa Teresa la lupa con soporte?",
+            "options": [
+              "Para observar una hoja mientras la dibuja.",
+              "Para leer los relatos de Carme al grupo.",
+              "Para ver las piezas del dominó de Emili.",
+              "Para secar las flores dentro de la prensa."
+            ],
+            "correct": "a",
+            "explanation": "Para observar una hoja y dibujar sus líneas con las manos libres."
+          },
+          "l276a-q3": {
+            "prompt": "¿Qué muestra que Elena deje la partida y vaya al jardín?",
+            "options": [
+              "Que el dominó se había roto durante la partida.",
+              "Que todas las personas debían cambiar a la vez.",
+              "Que Teresa había prohibido jugar en la sala.",
+              "Que Elena decide combinar juego y jardín."
+            ],
+            "correct": "d",
+            "explanation": "Que puede elegir actividades distintas durante la misma tarde."
+          },
+          "l276a-q4": {
+            "prompt": "¿Qué significa «cubierta» en el proyecto de Carme?",
+            "options": [
+              "El techo del lugar donde juega Emili.",
+              "La parte exterior que protege el cuaderno.",
+              "La hoja donde apunta las peticiones.",
+              "La tapa de la caja que vuelve al local."
+            ],
+            "correct": "b",
+            "explanation": "La parte exterior que protege su cuaderno."
+          },
+          "l276a-q5": {
+            "prompt": "¿Por qué Emili quiere un dominó más pequeño?",
+            "options": [
+              "Porque el grande tiene piezas que faltan.",
+              "Porque prefiere llevarlo a jugar al jardín.",
+              "Porque el grande ocupa demasiado en su mesa.",
+              "Porque nadie quiere repetir una partida."
+            ],
+            "correct": "c",
+            "explanation": "Porque el grande ocupa demasiado en su mesa favorita."
+          },
+          "l276a-q6": {
+            "prompt": "¿Qué contiene la parte final de la carta, antes de la despedida?",
+            "options": [
+              "Deseos para otra caja y una posible visita.",
+              "Instrucciones para construir la caja con ruedas.",
+              "Las reglas de todas las partidas de dominó.",
+              "Una lista de personas obligadas a dibujar."
+            ],
+            "correct": "a",
+            "explanation": "Peticiones para otra caja y una invitación a preguntar por los trabajos."
+          },
+          "l276a-q7": {
+            "prompt": "¿Qué resumen refleja mejor la experiencia?",
+            "options": [
+              "Todos hacen la misma actividad y piden repetir exactamente la caja.",
+              "La caja vuelve sin usarse porque nadie sabe para qué sirven sus objetos.",
+              "Carme enseña todos sus relatos y entrega el cuaderno a la biblioteca.",
+              "Los objetos tienen usos diversos y las nuevas peticiones responden a gustos concretos."
+            ],
+            "correct": "d",
+            "explanation": "Varias personas usan los objetos de formas diferentes y piden cambios según sus preferencias."
+          }
+        }
+      },
+      {
+        "code": "L276A",
+        "language": "ca",
+        "questions": {
+          "l276a-q1": {
+            "prompt": "Qui escriu la carta?",
+            "options": [
+              "La Rosa, que coordina la biblioteca.",
+              "La Teresa, que dibuixa les fulles.",
+              "L’Elena, que va participar en la petició.",
+              "La Carme, que escriu relats."
+            ],
+            "correct": "c",
+            "explanation": "L’Elena, una de les residents que va demanar el préstec."
+          },
+          "l276a-q2": {
+            "prompt": "Per a què fa servir la Teresa la lupa amb suport?",
+            "options": [
+              "Per observar una fulla mentre la dibuixa.",
+              "Per llegir els relats de la Carme al grup.",
+              "Per veure les peces del dòmino de l’Emili.",
+              "Per assecar les flors dins de la premsa."
+            ],
+            "correct": "a",
+            "explanation": "Per observar una fulla i dibuixar-ne les línies amb les mans lliures."
+          },
+          "l276a-q3": {
+            "prompt": "Què mostra que l’Elena deixi la partida i vagi al jardí?",
+            "options": [
+              "Que el dòmino s’havia trencat durant la partida.",
+              "Que totes les persones havien de canviar alhora.",
+              "Que la Teresa havia prohibit jugar a la sala.",
+              "Que l’Elena decideix combinar joc i jardí."
+            ],
+            "correct": "d",
+            "explanation": "Que pot triar activitats diferents durant la mateixa tarda."
+          },
+          "l276a-q4": {
+            "prompt": "Què significa «coberta» en el projecte de la Carme?",
+            "options": [
+              "El sostre del lloc on juga l’Emili.",
+              "La part exterior que protegeix el quadern.",
+              "El full on apunta les peticions.",
+              "La tapa de la caixa que torna al local."
+            ],
+            "correct": "b",
+            "explanation": "La part exterior que protegeix el quadern."
+          },
+          "l276a-q5": {
+            "prompt": "Per què l’Emili vol un dòmino més petit?",
+            "options": [
+              "Perquè al gran li falten peces.",
+              "Perquè prefereix portar-lo a jugar al jardí.",
+              "Perquè el gran ocupa massa a la seva taula.",
+              "Perquè ningú no vol repetir una partida."
+            ],
+            "correct": "c",
+            "explanation": "Perquè el gran ocupa massa a la seva taula preferida."
+          },
+          "l276a-q6": {
+            "prompt": "Què conté la part final de la carta, abans del comiat?",
+            "options": [
+              "Desitjos per a una altra caixa i una possible visita.",
+              "Instruccions per construir la caixa amb rodes.",
+              "Les regles de totes les partides de dòmino.",
+              "Una llista de persones obligades a dibuixar."
+            ],
+            "correct": "a",
+            "explanation": "Peticions per a una altra caixa i una invitació a preguntar per les obres."
+          },
+          "l276a-q7": {
+            "prompt": "Quin resum reflecteix millor l’experiència?",
+            "options": [
+              "Tothom fa la mateixa activitat i demana repetir exactament la caixa.",
+              "La caixa torna sense fer servir perquè ningú no sap per a què serveixen els objectes.",
+              "La Carme ensenya tots els relats i lliura el quadern a la biblioteca.",
+              "Els objectes tenen usos diversos i les noves peticions responen a gustos concrets."
+            ],
+            "correct": "d",
+            "explanation": "Diverses persones fan servir els objectes de maneres diferents i demanen canvis segons les seves preferències."
+          }
+        }
+      },
+      {
+        "code": "L276",
+        "language": "es",
+        "questions": {
+          "l276-q1": {
+            "prompt": "¿Qué intereses habían indicado las personas que pidieron la caja?",
+            "options": [
+              "Escuchar música, cocinar y reparar muebles.",
+              "Leer relatos, fotografiar y montar escenarios.",
+              "Pintar paredes, hacer deporte y viajar.",
+              "Jugar, observar plantas y trabajar con flores."
+            ],
+            "correct": "d",
+            "explanation": "Jugar, observar plantas y trabajar con flores."
+          },
+          "l276-q2": {
+            "prompt": "¿Qué hace Elena después de jugar dos partidas?",
+            "options": [
+              "Se lleva el cuaderno de relatos a su habitación.",
+              "Sale a buscar a Teresa en el jardín.",
+              "Prepara la caja para devolverla esa tarde.",
+              "Cambia el dominó grande por otro pequeño."
+            ],
+            "correct": "b",
+            "explanation": "Sale al jardín a buscar a Teresa."
+          },
+          "l276-q3": {
+            "prompt": "¿Por qué resulta útil que la lupa tenga soporte?",
+            "options": [
+              "Deja las manos libres para la tarea observada.",
+              "Hace que las flores se sequen más deprisa.",
+              "Permite transportar a la vez las piezas del dominó.",
+              "Evita tener que acercarse a cualquier planta."
+            ],
+            "correct": "a",
+            "explanation": "Porque permite dibujar o sostener un sobre sin tener que sujetar la lupa con la mano."
+          },
+          "l276-q4": {
+            "prompt": "¿Qué significa que Carme tenga un proyecto «en marcha»?",
+            "options": [
+              "Que lo ha enviado a otra residencia.",
+              "Que necesita llevarlo siempre sobre ruedas.",
+              "Que lo ha iniciado y lo está realizando.",
+              "Que lo ha terminado antes de recibir la caja."
+            ],
+            "correct": "c",
+            "explanation": "Que ya ha empezado a hacerlo y está trabajando en él."
+          },
+          "l276-q5": {
+            "prompt": "¿Qué han visto los demás del cuaderno de Carme?",
+            "options": [
+              "Todos los relatos corregidos.",
+              "La carta escrita para Rosa.",
+              "Una fotografía de todas sus páginas.",
+              "La cubierta que ha decorado."
+            ],
+            "correct": "d",
+            "explanation": "Solo la cubierta decorada."
+          },
+          "l276-q6": {
+            "prompt": "¿Por qué la petición de Emili concreta el tamaño del próximo dominó?",
+            "options": [
+              "Ha decidido dejar de jugar en la sala.",
+              "Ha identificado un problema concreto entre objeto y lugar.",
+              "Ha descubierto que al dominó grande le faltan piezas.",
+              "Ha prometido compartir la mesa con la prensa de flores."
+            ],
+            "correct": "b",
+            "explanation": "Porque la experiencia con las piezas grandes ha mostrado que no se ajustan a su mesa preferida."
+          },
+          "l276-q7": {
+            "prompt": "¿Cómo se organiza principalmente el cuerpo de la carta?",
+            "options": [
+              "Relata los usos y luego plantea nuevas peticiones.",
+              "Empieza por las peticiones y después cuenta cómo se usaron los objetos.",
+              "Mezcla las peticiones futuras con los usos de cada persona.",
+              "Ordena los usos por días y acaba confirmando otro envío."
+            ],
+            "correct": "a",
+            "explanation": "Presenta los usos de los objetos y después las peticiones para el siguiente envío."
+          },
+          "l276-q8": {
+            "prompt": "¿Qué se deduce de que las peticiones se escriban por separado?",
+            "options": [
+              "Que no pueden enviar las tarjetas en una misma caja.",
+              "Que Rosa ya ha confirmado todos los objetos pedidos.",
+              "Que las preferencias individuales no se reducen a una sola.",
+              "Que ninguna persona conoce lo que han pedido las otras."
+            ],
+            "correct": "c",
+            "explanation": "Que se quieren conservar preferencias diferentes dentro de la próxima solicitud."
+          },
+          "l276-q9": {
+            "prompt": "¿Qué resumen respeta los distintos puntos de vista de la carta?",
+            "options": [
+              "Una caja obliga a todos a reunirse para hacer el mismo proyecto y exponerlo.",
+              "Un préstamo fracasa porque los objetos se utilizan en salas y horarios diferentes.",
+              "Elena confirma que ya están preparados todos los objetos del siguiente envío.",
+              "La carta muestra elecciones diversas y pide nuevos préstamos según la experiencia."
+            ],
+            "correct": "d",
+            "explanation": "Elena cuenta usos diversos de los préstamos y transmite peticiones personales, mientras las obras siguen en manos de sus autoras."
+          }
+        }
+      },
+      {
+        "code": "L276",
+        "language": "ca",
+        "questions": {
+          "l276-q1": {
+            "prompt": "Quins interessos havien indicat les persones que van demanar la caixa?",
+            "options": [
+              "Escoltar música, cuinar i reparar mobles.",
+              "Llegir relats, fotografiar i muntar escenaris.",
+              "Pintar parets, fer esport i viatjar.",
+              "Jugar, observar plantes i treballar amb flors."
+            ],
+            "correct": "d",
+            "explanation": "Jugar, observar plantes i treballar amb flors."
+          },
+          "l276-q2": {
+            "prompt": "Què fa l’Elena després de jugar dues partides?",
+            "options": [
+              "S’endú el quadern de relats a l’habitació.",
+              "Surt a buscar la Teresa al jardí.",
+              "Prepara la caixa per retornar-la aquella tarda.",
+              "Canvia el dòmino gran per un altre de petit."
+            ],
+            "correct": "b",
+            "explanation": "Surt al jardí a buscar la Teresa."
+          },
+          "l276-q3": {
+            "prompt": "Per què resulta útil que la lupa tingui suport?",
+            "options": [
+              "Deixa les mans lliures per a la tasca observada.",
+              "Fa que les flors s’assequin més de pressa.",
+              "Permet transportar alhora les peces del dòmino.",
+              "Evita haver-se d’acostar a qualsevol planta."
+            ],
+            "correct": "a",
+            "explanation": "Perquè permet dibuixar o aguantar un sobre sense haver d’agafar la lupa amb la mà."
+          },
+          "l276-q4": {
+            "prompt": "Què significa que la Carme tingui un projecte «en marxa»?",
+            "options": [
+              "Que l’ha enviat a una altra residència.",
+              "Que l’ha de portar sempre sobre rodes.",
+              "Que l’ha iniciat i l’està duent a terme.",
+              "Que l’ha acabat abans de rebre la caixa."
+            ],
+            "correct": "c",
+            "explanation": "Que ja ha començat a fer-lo i hi està treballant."
+          },
+          "l276-q5": {
+            "prompt": "Què han vist els altres del quadern de la Carme?",
+            "options": [
+              "Tots els relats corregits.",
+              "La carta escrita per a la Rosa.",
+              "Una fotografia de totes les pàgines.",
+              "La coberta que ha decorat."
+            ],
+            "correct": "d",
+            "explanation": "Només la coberta decorada."
+          },
+          "l276-q6": {
+            "prompt": "Per què la petició de l’Emili concreta la mida del pròxim dòmino?",
+            "options": [
+              "Ha decidit deixar de jugar a la sala.",
+              "Ha identificat un problema concret entre objecte i lloc.",
+              "Ha descobert que al dòmino gran li falten peces.",
+              "Ha promès compartir la taula amb la premsa de flors."
+            ],
+            "correct": "b",
+            "explanation": "Perquè l’experiència amb les peces grans ha mostrat que no s’ajusten a la seva taula preferida."
+          },
+          "l276-q7": {
+            "prompt": "Com s’organitza principalment el cos de la carta?",
+            "options": [
+              "Relata els usos i després planteja noves peticions.",
+              "Comença per les peticions i després explica com es van fer servir els objectes.",
+              "Barreja les peticions futures amb els usos de cada persona.",
+              "Ordena els usos per dies i acaba confirmant un altre enviament."
+            ],
+            "correct": "a",
+            "explanation": "Presenta els usos dels objectes i després les peticions per al següent enviament."
+          },
+          "l276-q8": {
+            "prompt": "Què es dedueix del fet que les peticions s’escriguin per separat?",
+            "options": [
+              "Que no poden enviar les targetes en una mateixa caixa.",
+              "Que la Rosa ja ha confirmat tots els objectes demanats.",
+              "Que les preferències individuals no es redueixen a una de sola.",
+              "Que cap persona no coneix què han demanat les altres."
+            ],
+            "correct": "c",
+            "explanation": "Que es volen conservar preferències diferents dins de la propera sol·licitud."
+          },
+          "l276-q9": {
+            "prompt": "Quin resum respecta els diferents punts de vista de la carta?",
+            "options": [
+              "Una caixa obliga tothom a reunir-se per fer el mateix projecte i exposar-lo.",
+              "Un préstec fracassa perquè els objectes s’utilitzen en sales i horaris diferents.",
+              "L’Elena confirma que ja estan preparats tots els objectes de l’enviament següent.",
+              "La carta mostra tries diverses i demana nous préstecs segons l’experiència."
+            ],
+            "correct": "d",
+            "explanation": "L’Elena explica usos diversos dels préstecs i transmet peticions personals, mentre les obres continuen en mans de les autores."
+          }
+        }
+      },
+      {
+        "code": "L276B",
+        "language": "es",
+        "questions": {
+          "l276b-q1": {
+            "prompt": "¿En nombre de quién dice escribir Elena?",
+            "options": [
+              "En nombre de todos los trabajadores.",
+              "En nombre propio como residente.",
+              "En nombre de Noa y Adil.",
+              "En nombre de todas las residencias."
+            ],
+            "correct": "b",
+            "explanation": "En nombre propio, aunque dejará leer la carta a las personas mencionadas."
+          },
+          "l276b-q2": {
+            "prompt": "¿Qué límite tendría contar solo a quienes se reúnen en la sala a una hora fija?",
+            "options": [
+              "Se contarían dos veces todas las partidas de dominó.",
+              "Se sabría qué objetos pedirán todas las personas.",
+              "Se comprobaría que nadie ha utilizado la lupa.",
+              "Quedarían fuera usos que suceden en otros momentos y lugares."
+            ],
+            "correct": "d",
+            "explanation": "Se perderían usos individuales o en otros espacios y momentos, como los de la lupa."
+          },
+          "l276b-q3": {
+            "prompt": "¿Por qué Emili prefiere un dominó de tamaño corriente?",
+            "options": [
+              "Para ajustarlo a su mesa preferida sin cambiar de sitio.",
+              "Para que puedan jugar más de cuatro personas a la vez.",
+              "Para llevar las piezas al jardín junto a la lupa.",
+              "Para sustituir la prensa que Carme se ha quedado."
+            ],
+            "correct": "a",
+            "explanation": "Porque quiere seguir jugando en su mesa pequeña preferida y las piezas grandes ocupan demasiado."
+          },
+          "l276b-q4": {
+            "prompt": "¿Qué significa usar la lupa «en momentos sueltos»?",
+            "options": [
+              "Utilizarla en turnos anunciados para todo el grupo.",
+              "Reservarla a una sola persona durante dos semanas.",
+              "Utilizarla en ocasiones separadas según cada necesidad.",
+              "Mantenerla funcionando durante toda la jornada."
+            ],
+            "correct": "c",
+            "explanation": "Utilizarla en ocasiones separadas, sin una sesión continua o común para todos."
+          },
+          "l276b-q5": {
+            "prompt": "¿Qué conclusión evita Elena al preguntar a quienes no usaron los objetos?",
+            "options": [
+              "Que tendrán que jugar al dominó en la siguiente visita.",
+              "Que la biblioteca nunca podrá interesarles.",
+              "Que habían preparado visitas durante esas semanas.",
+              "Que todavía no han pedido un objeto concreto."
+            ],
+            "correct": "b",
+            "explanation": "Evita atribuirles un desinterés general por cualquier envío solo por no participar esta vez."
+          },
+          "l276b-q6": {
+            "prompt": "¿Qué aporta el párrafo sobre quienes no utilizaron nada?",
+            "options": [
+              "Introduce la causa de una avería en la caja.",
+              "Sustituye las peticiones ya redactadas por tres nuevas.",
+              "Prueba que las actividades del jardín se cancelaron.",
+              "Añade voces que matizan una visión basada solo en los participantes."
+            ],
+            "correct": "d",
+            "explanation": "Amplía la carta más allá de los usuarios activos y matiza lo que significan las ausencias."
+          },
+          "l276b-q7": {
+            "prompt": "¿Qué sabemos del relato que Carme está corrigiendo?",
+            "options": [
+              "Se han compartido dos frases, pero no el relato entero.",
+              "Ya se ha expuesto completo junto a la mesa de dominó.",
+              "Elena lo ha copiado entero dentro de esta carta.",
+              "Noa y Adil lo han elegido para el boletín vecinal."
+            ],
+            "correct": "a",
+            "explanation": "Que los demás solo han oído dos frases y ella lo enseñará cuando lo termine."
+          },
+          "l276b-q8": {
+            "prompt": "¿Qué persona pide repetir un objeto sin solicitar ningún cambio de tamaño?",
+            "options": [
+              "Elena quiere otro atril igual al que devolvió.",
+              "Carme pide una segunda caja con ruedas.",
+              "Teresa quiere volver a disponer de la lupa.",
+              "Emili solicita mantener las piezas grandes."
+            ],
+            "correct": "c",
+            "explanation": "Teresa, que quiere volver a tener la lupa."
+          },
+          "l276b-q9": {
+            "prompt": "¿Qué se puede afirmar sobre el uso del próximo envío por las dos vecinas consultadas?",
+            "options": [
+              "Las dos han confirmado que utilizarán todos los objetos.",
+              "Ninguna quiere recibir noticias de la próxima caja.",
+              "Las dos ya han elegido el mismo objeto para pedirlo.",
+              "Quieren conocer el envío; aún no sabemos si usarán los objetos."
+            ],
+            "correct": "d",
+            "explanation": "Tienen interés en saber qué llegará, pero todavía no sabemos si usarán los objetos."
+          },
+          "l276b-q10": {
+            "prompt": "¿Qué resumen respeta mejor el alcance de la carta?",
+            "options": [
+              "Elena demuestra que todos comparten los mismos gustos y asegura el siguiente envío.",
+              "Elena ofrece una visión situada con elecciones diversas y algunas cuestiones pendientes.",
+              "Elena describe un préstamo inútil porque no logró reunir a toda la residencia a la vez.",
+              "Elena sustituye las voces de los demás y publica todas sus obras dentro de la carta."
+            ],
+            "correct": "b",
+            "explanation": "Desde su experiencia, Elena recoge usos y preferencias diversos, reconoce lo que aún no sabe y transmite peticiones sin confirmar."
+          }
+        }
+      },
+      {
+        "code": "L276B",
+        "language": "ca",
+        "questions": {
+          "l276b-q1": {
+            "prompt": "En nom de qui diu que escriu l’Elena?",
+            "options": [
+              "En nom de tots els treballadors.",
+              "En nom propi com a resident.",
+              "En nom de la Noa i l’Adil.",
+              "En nom de totes les residències."
+            ],
+            "correct": "b",
+            "explanation": "En nom propi, tot i que deixarà llegir la carta a les persones esmentades."
+          },
+          "l276b-q2": {
+            "prompt": "Quin límit tindria comptar només els qui es reuneixen a la sala a una hora fixa?",
+            "options": [
+              "Es comptarien dues vegades totes les partides de dòmino.",
+              "Se sabria quins objectes demanaran totes les persones.",
+              "Es comprovaria que ningú no ha utilitzat la lupa.",
+              "Quedarien fora usos que passen en altres moments i llocs."
+            ],
+            "correct": "d",
+            "explanation": "Es perdrien usos individuals o en altres espais i moments, com els de la lupa."
+          },
+          "l276b-q3": {
+            "prompt": "Per què l’Emili prefereix un dòmino de mida corrent?",
+            "options": [
+              "Per ajustar-lo a la taula preferida sense canviar de lloc.",
+              "Perquè hi puguin jugar més de quatre persones alhora.",
+              "Per portar les peces al jardí al costat de la lupa.",
+              "Per substituir la premsa que la Carme s’ha quedat."
+            ],
+            "correct": "a",
+            "explanation": "Perquè vol continuar jugant a la seva taula petita preferida i les peces grans ocupen massa."
+          },
+          "l276b-q4": {
+            "prompt": "Què significa fer servir la lupa «en moments solts»?",
+            "options": [
+              "Utilitzar-la en torns anunciats per a tot el grup.",
+              "Reservar-la a una sola persona durant dues setmanes.",
+              "Utilitzar-la en ocasions separades segons cada necessitat.",
+              "Mantenir-la funcionant durant tota la jornada."
+            ],
+            "correct": "c",
+            "explanation": "Utilitzar-la en ocasions separades, sense una sessió contínua o comuna per a tothom."
+          },
+          "l276b-q5": {
+            "prompt": "Quina conclusió evita l’Elena quan pregunta als qui no van fer servir els objectes?",
+            "options": [
+              "Que hauran de jugar al dòmino a la visita següent.",
+              "Que la biblioteca no els podrà interessar mai.",
+              "Que havien preparat visites durant aquelles setmanes.",
+              "Que encara no han demanat cap objecte concret."
+            ],
+            "correct": "b",
+            "explanation": "Evita atribuir-los un desinterès general per qualsevol enviament només perquè aquesta vegada no hi han participat."
+          },
+          "l276b-q6": {
+            "prompt": "Què aporta el paràgraf sobre els qui no van utilitzar res?",
+            "options": [
+              "Introdueix la causa d’una avaria a la caixa.",
+              "Substitueix les peticions ja redactades per tres de noves.",
+              "Prova que les activitats del jardí es van anul·lar.",
+              "Afegeix veus que matisen una visió basada només en els participants."
+            ],
+            "correct": "d",
+            "explanation": "Amplia la carta més enllà dels usuaris actius i matisa què signifiquen les absències."
+          },
+          "l276b-q7": {
+            "prompt": "Què sabem del relat que la Carme està corregint?",
+            "options": [
+              "S’han compartit dues frases, però no el relat sencer.",
+              "Ja s’ha exposat complet al costat de la taula del dòmino.",
+              "L’Elena l’ha copiat sencer dins d’aquesta carta.",
+              "La Noa i l’Adil l’han triat per al butlletí veïnal."
+            ],
+            "correct": "a",
+            "explanation": "Que els altres només n’han sentit dues frases i ella l’ensenyarà quan l’acabi."
+          },
+          "l276b-q8": {
+            "prompt": "Quina persona demana repetir un objecte sense sol·licitar cap canvi de mida?",
+            "options": [
+              "L’Elena vol un altre faristol igual al que va retornar.",
+              "La Carme demana una segona caixa amb rodes.",
+              "La Teresa vol tornar a disposar de la lupa.",
+              "L’Emili sol·licita mantenir les peces grans."
+            ],
+            "correct": "c",
+            "explanation": "La Teresa, que vol tornar a tenir la lupa."
+          },
+          "l276b-q9": {
+            "prompt": "Què es pot afirmar sobre l’ús del proper enviament per part de les dues veïnes consultades?",
+            "options": [
+              "Totes dues han confirmat que faran servir tots els objectes.",
+              "Cap no vol rebre notícies de la propera caixa.",
+              "Totes dues ja han triat el mateix objecte per demanar-lo.",
+              "Volen conèixer l’enviament; encara no sabem si faran servir els objectes."
+            ],
+            "correct": "d",
+            "explanation": "Tenen interès a saber què arribarà, però encara no sabem si faran servir els objectes."
+          },
+          "l276b-q10": {
+            "prompt": "Quin resum respecta millor l’abast de la carta?",
+            "options": [
+              "L’Elena demostra que tothom comparteix els mateixos gustos i assegura l’enviament següent.",
+              "L’Elena ofereix una visió situada amb tries diverses i algunes qüestions pendents.",
+              "L’Elena descriu un préstec inútil perquè no va reunir tota la residència alhora.",
+              "L’Elena substitueix les veus dels altres i publica totes les seves obres dins de la carta."
+            ],
+            "correct": "b",
+            "explanation": "Des de la seva experiència, l’Elena recull usos i preferències diversos, reconeix què encara no sap i transmet peticions sense confirmar."
+          }
+        }
+      }
+    ]
   }
 ];
