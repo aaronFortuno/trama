@@ -1,4 +1,15 @@
 export const es = Object.fromEntries(`
+v1.59 · Obre l’historial de canvis|v1.59 · Abrir el historial de cambios
+La primera fitxa presenta els formats textual i ABCD amb exemples reals. La preferència es recorda entre lectures i sessions, respectant les excepcions de cada pregunta; el diàleg es pot recuperar des del panell de contingut.|La primera ficha presenta los formatos textual y ABCD con ejemplos reales. La preferencia se recuerda entre lecturas y sesiones, respetando las excepciones de cada pregunta; el diálogo se puede recuperar desde el panel de contenido.
+Com prefereixes les preguntes?|¿Cómo prefieres las preguntas?
+Tria entre resposta textual i opcions ABCD, quan n’hi hagi. Les preguntes d’opinió o creació mantenen la resposta textual.|Elige entre respuesta textual y opciones ABCD, cuando estén disponibles. Las preguntas de opinión o creación mantienen la respuesta textual.
+Retall d’una pregunta del full imprimible amb línies per escriure la resposta.|Recorte de una pregunta de la ficha imprimible con líneas para escribir la respuesta.
+La mateixa pregunta amb quatre opcions ABCD i caselles sense marcar.|La misma pregunta con cuatro opciones ABCD y casillas sin marcar.
+Prefereixo resposta textual|Prefiero respuesta textual
+Prefereixo ABCD|Prefiero ABCD
+Al full, els botons del llapis i ABCD permeten canviar cada pregunta. Pots combinar tots dos formats en una mateixa fitxa.|En la ficha, los botones del lápiz y ABCD permiten cambiar cada pregunta. Puedes combinar ambos formatos en una misma ficha.
+Recordarem la tria entre sessions i fitxes. La pots canviar a «Format de les preguntes», al panell de contingut, o tornar als exemples amb «Tria de nou».|Recordaremos la elección entre sesiones y fichas. Puedes cambiarla en «Formato de las preguntas», en el panel de contenido, o volver a los ejemplos con «Elegir de nuevo».
+Tria de nou|Elegir de nuevo
 v1.58.66 · Obre l’historial de canvis|v1.58.66 · Abrir el historial de cambios
 Renovades les il·lustracions de la L131 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 66 de 66 lectures de la llista.|Renovadas las ilustraciones de L131 con imágenes pintadas, compartidas entre catalán, castellano y las variantes de familia. La renovación acumula 66 de 66 lecturas de la lista.
 v1.58.65 · Obre l’historial de canvis|v1.58.65 · Abrir el historial de cambios

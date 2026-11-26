@@ -26,11 +26,13 @@ La validació docent dels continguts nous queda pendent. La cobertura es registr
 
 ## Funcionament
 
-«Format de les preguntes», al sidebar de contingut, aplica una preferència a totes les preguntes compatibles. El llapis i ABCD al preview canvien una pregunta concreta. La resposta oberta és el valor inicial. Una fitxa pot combinar els dos formats; les preguntes sense alternativa es mantenen obertes.
+La primera vegada que s’obre una fitxa, un diàleg mostra dos retalls reals de la mateixa pregunta i permet preferir resposta textual o ABCD. La preferència es conserva en aquest navegador entre fitxes i sessions; tancar el diàleg també queda recordat, encara que no s’hagi triat cap format. Sense tria, la resposta oberta és el valor inicial.
+
+«Format de les preguntes», al sidebar de contingut, permet canviar la preferència general i tornar a veure els exemples amb «Tria de nou». El llapis i ABCD al preview canvien una pregunta concreta: aquestes excepcions es desen amb el maquetat i prevalen sobre la preferència general. Una fitxa pot combinar els dos formats; les preguntes sense alternativa es mantenen obertes.
 
 En ABCD es mostren quatre caselles i s’ometen les línies de resposta. Tornar a oberta recupera les línies configurades. El solucionari mostra les opcions, marca la correcta i inclou la lletra, el text i l’explicació. Les evidències són pròpies quan la formulació alternativa ho necessita.
 
-La tria es desa per lectura i per col·lecció, s’inclou a la còpia de seguretat i es conserva en impressions individuals, lots, PDF i solucionaris. Restablir el maquetat torna al format obert. No altera el codi curt d’identificació de la lectura.
+La tria es desa per lectura i per col·lecció, s’inclou a la còpia de seguretat i es conserva en impressions individuals, lots, PDF i solucionaris. Restablir el maquetat elimina les excepcions de la fitxa i aplica la preferència general vigent. No altera el codi curt d’identificació de la lectura.
 
 ## Dades i seguiment
 

@@ -168,7 +168,7 @@
         </a>
       </p>
       <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.58.66 · Obre l’historial de canvis">v1.58.66</button>
+        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.59 · Obre l’historial de canvis">v1.59</button>
         <button class="footer-link" id="about-open" type="button" data-open-dialog="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
           V4V
@@ -237,6 +237,30 @@
         <button type="button" role="menuitem" tabindex="-1" data-option="zip-key">Descarrega el solucionari en ZIP</button>
       </div>
     </div>
+  </dialog>
+
+  <dialog class="site-dialog question-format-dialog" id="question-format-dialog" aria-labelledby="question-format-title" aria-describedby="question-format-description">
+    <div class="dialog-heading">
+      <h2 id="question-format-title">Com prefereixes les preguntes?</h2>
+      <button class="button close-button" type="button" data-close-dialog aria-label="Tanca"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+    </div>
+    <div class="dialog-scroll question-format-dialog-scroll">
+      <p id="question-format-description">Tria entre resposta textual i opcions ABCD, quan n’hi hagi. Les preguntes d’opinió o creació mantenen la resposta textual.</p>
+      <div class="response-example-grid">
+        <article class="response-example-card">
+          <h3>Resposta oberta</h3>
+          <div class="response-paper-sample"><img src="assets/examples/question-format-open-ca.webp" width="1440" height="159" data-response-sample="open" alt="Retall d’una pregunta del full imprimible amb línies per escriure la resposta." lang="ca"></div>
+          <button class="button" type="button" data-preference-mode="open">Prefereixo resposta textual</button>
+        </article>
+        <article class="response-example-card">
+          <h3>ABCD</h3>
+          <div class="response-paper-sample"><img src="assets/examples/question-format-choice-ca.webp" width="1440" height="356" data-response-sample="choice" alt="La mateixa pregunta amb quatre opcions ABCD i caselles sense marcar." lang="ca"></div>
+          <button class="button primary" type="button" data-preference-mode="choice">Prefereixo ABCD</button>
+        </article>
+      </div>
+      <p>Al full, els botons del llapis i ABCD permeten canviar cada pregunta. Pots combinar tots dos formats en una mateixa fitxa.</p>
+    </div>
+    <p class="response-preference-note">Recordarem la tria entre sessions i fitxes. La pots canviar a «Format de les preguntes», al panell de contingut, o tornar als exemples amb «Tria de nou».</p>
   </dialog>
 
   <dialog class="site-dialog collection-dialog" id="collection-dialog" aria-labelledby="collection-title">
@@ -378,6 +402,10 @@
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’historial"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
     <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
+      <article class="release">
+        <header><h3>v1.59</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
+        <p>La primera fitxa presenta els formats textual i ABCD amb exemples reals. La preferència es recorda entre lectures i sessions, respectant les excepcions de cada pregunta; el diàleg es pot recuperar des del panell de contingut.</p>
+      </article>
       <article class="release">
         <header><h3>v1.58.66</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L131 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 66 de 66 lectures de la llista.</p>

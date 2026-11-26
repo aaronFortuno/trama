@@ -16,6 +16,26 @@
 
 .dialog-heading { display: flex; align-items: start; justify-content: space-between; gap: 12px; }
 .dialog-heading h2 { margin: 0; color: var(--green); font: 400 1.6rem/1.2 var(--serif); }
+.question-format-dialog { width: min(850px, calc(100% - 24px)); max-height: 88dvh; padding: 0; overflow: hidden; }
+.question-format-dialog[open] { display: flex; flex-direction: column; }
+.question-format-dialog > .dialog-heading { flex: none; padding: 19px 22px 12px; }
+.question-format-dialog .question-format-dialog-scroll { padding: 0 22px 12px; display: grid; gap: 16px; }
+.question-format-dialog-scroll > p { margin: 0; font-size: .9rem; line-height: 1.55; }
+.response-example-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.response-example-card { min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+.response-example-card h3 { margin: 0; font-size: .89rem; font-weight: 650; }
+.response-example-card > .button { width: 100%; justify-content: center; margin-top: auto; }
+.response-paper-sample { height: 180px; overflow: hidden; mask-image: linear-gradient(to right, #000 58%, transparent); -webkit-mask-image: linear-gradient(to right, #000 58%, transparent); }
+.response-paper-sample img { display: block; width: 720px; max-width: none; height: auto; }
+.response-preference-note { flex: none; margin: 0; padding: 12px 22px 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: .8rem; line-height: 1.5; }
+[data-theme="dark"] .response-paper-sample img { filter: sepia(.15) brightness(.91); }
+.studio-response-preference-reset { align-self: flex-start; font-size: .76rem; }
+@media (max-width: 640px) {
+  .response-example-grid { grid-template-columns: 1fr; gap: 18px; }
+  .question-format-dialog > .dialog-heading { padding: 16px 16px 10px; }
+  .question-format-dialog .question-format-dialog-scroll { padding-inline: 16px; }
+  .response-preference-note { padding: 12px 16px 16px; }
+}
 .close-button { width: 32px; min-height: 32px; flex: none; padding: 0; border-color: transparent; background: transparent; }
 .close-button .ui-icon { width: 18px; height: 18px; }
 .about-dialog, .release-dialog, .batch-dialog, .help-dialog { padding: 24px; }

@@ -21,6 +21,7 @@ import { familyComparisonMarkup, mountFamilyComparison } from './family-comparis
 import { familyStageMarkup, mountFamilyStage } from './family-stage.js';
 import { multipleChoice } from './data/question-choices.js';
 import { questionMode, responseQuestion } from './question-responses.js';
+import { questionFormatPreference } from './question-format-preference.js';
 
 const formatKeys = new Set(templateGroups.filter(group => group.id !== 'images').flatMap(group => group.keys));
 const pageFormat = settings => Object.fromEntries([...formatKeys].map(key => [key, settings[key]]));
@@ -192,6 +193,7 @@ const template = `
               <label><input type="radio" name="questionMode" value="choice"> ABCD</label>
             </fieldset>
             <p class="studio-control-note" id="studio-choice-status" role="status"></p>
+            <button class="button studio-response-preference-reset" type="button" id="response-preference-reset">Tria de nou</button>
           </div>
         </details>
         <details>
@@ -283,13 +285,14 @@ function imageControls(image, index) {
   return card;
 }
 
-export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFamilyVariant, onUniverse, getNeighbors, onNavigate, onRemove }) {
+export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFamilyVariant, onUniverse, getNeighbors, onNavigate, onRemove, onQuestionFormatHelp }) {
   root.innerHTML = template;
   const translateMarkup = bindTranslations(root);
   const find = selector => root.querySelector(selector);
   const forms = [...root.querySelectorAll('.studio-form')];
   const licenseControl = find('[name="showLicense"]').closest('label');
   const contentForm = find('.studio-content .studio-form');
+  find('#response-preference-reset').addEventListener('click', () => onQuestionFormatHelp?.());
   const vocabulary = contentForm.elements.showVocabulary;
   const vocabularyEmpty = find('#studio-vocabulary-empty');
   const pages = find('#studio-pages');
@@ -374,13 +377,13 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
   }
   function settingsForReading(entry, collectionId) {
     const defaults = defaultSettings(entry.level);
-    return collectionId || resetReadings.has(entry.id) ? defaults : { ...defaults, ...sessionFormat };
+    return questionFormatPreference.apply(collectionId || resetReadings.has(entry.id) ? defaults : { ...defaults, ...sessionFormat });
   }
   function settingsForVariant(entry) {
     if (entry.id === reading?.id) return worksheetLayout(entry, settings);
     const collectionId = readingCollection?.readingIds.includes(entry.id) ? readingCollection.id : undefined;
-    return readWorksheetLayout(entry, collectionId) ?? (collectionId || resetReadings.has(entry.id)
-      ? defaultSettings(entry.level) : { ...settingsForReading(entry), ...sessionClassroomCode });
+    return questionFormatPreference.apply(readWorksheetLayout(entry, collectionId) ?? (collectionId || resetReadings.has(entry.id)
+      ? defaultSettings(entry.level) : { ...settingsForReading(entry), ...sessionClassroomCode }));
   }
   const outsideCollection = entry => readingCollection && !readingCollection.readingIds.includes(entry.id);
   let requestedFont;
@@ -495,7 +498,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
   }
 
   function resetStudioLayout() {
-    settings = defaultSettings(reading.level);
+    settings = questionFormatPreference.apply(defaultSettings(reading.level));
     hasSavedLayout = false;
     layoutError = '';
     hiddenQuestion = undefined;
@@ -634,7 +637,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
     report.close();
     reading = entry;
     usedFeatures.clear();
-    settings = config;
+    settings = questionFormatPreference.apply(config);
     hasSavedLayout = Boolean(saved);
     layoutError = '';
     fileStatus.hidden = true;
@@ -678,7 +681,10 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
       const next = input.name === 'leading' ? Math.round(value * 20) / 10 : value;
       if ((settings[input.name] === next && !(input.name === 'questionMode' && Object.keys(settings.questionModes).length)) || !validSetting(input.name, next)) return;
       settings[input.name] = next;
-      if (input.name === 'questionMode') settings.questionModes = Object.create(null);
+      if (input.name === 'questionMode') {
+        questionFormatPreference.set(next);
+        settings.questionModes = Object.create(null);
+      }
       if (!readingCollection && formatKeys.has(input.name)) sessionFormat = pageFormat(settings);
       if (!readingCollection && classroomKeys.includes(input.name)) sessionClassroomCode = classroomFormat(settings);
     } else {
@@ -946,10 +952,16 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
   return {
     dismissMenu() { printMenu.close(); fileMenu.close(); },
     exportSettings: settingsForReading,
+    setQuestionPreference(mode) {
+      if (!reading) return;
+      settings.questionMode = mode;
+      persistLayout(); syncControls(); refresh(); animateRefresh(pages);
+      trackEdit('preguntes', 'ajusta');
+    },
     previewSettings(entry, collectionId) {
       if (entry.id === reading?.id && collectionId === readingCollection?.id) return worksheetLayout(entry, settings);
-      return readWorksheetLayout(entry, collectionId) ?? (collectionId || resetReadings.has(entry.id)
-        ? defaultSettings(entry.level) : { ...settingsForReading(entry), ...sessionClassroomCode });
+      return questionFormatPreference.apply(readWorksheetLayout(entry, collectionId) ?? (collectionId || resetReadings.has(entry.id)
+        ? defaultSettings(entry.level) : { ...settingsForReading(entry), ...sessionClassroomCode }));
     },
     printPages,
     reloadTemplates() { templates.translate(); },

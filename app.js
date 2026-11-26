@@ -9,6 +9,7 @@ import { countBucket, startAnalytics, trackFamilyActivity, trackFeature, trackFi
 import { listPersonalReadings, readingStorageKey } from './reading-files.js';
 import { mountBatchDownload } from './batch-download.js';
 import { listCollections, saveCollectionEntries } from './collections.js';
+import { mountQuestionFormatDialog } from './question-format-dialog.js';
 
 const main = document.querySelector('#contingut');
 const catalogView = document.querySelector('#catalog-view');
@@ -97,7 +98,9 @@ const studio = mountStudio({
     if (!catalog.chooseFamily(reading, origin)) openCatalogReading(reading, origin);
   },
   onRemove: removeReading,
+  onQuestionFormatHelp: () => questionFormatDialog.reopen(),
 });
+const questionFormatDialog = mountQuestionFormatDialog({ onChoose: mode => studio.setQuestionPreference(mode) });
 const batchDialog = document.querySelector('#batch-dialog');
 const collectionDialog = document.querySelector('#collection-dialog');
 const collectionName = collectionDialog.querySelector('#collection-name');
@@ -188,6 +191,7 @@ mountActionMenu(document.querySelector('#language-button'), languageMenu, value 
   applyTheme(document.documentElement.dataset.theme);
   catalog.translate();
   studio.translate();
+  questionFormatDialog.translate();
   lightningStatus.textContent = '';
 });
 
@@ -220,6 +224,7 @@ function showStudio(reading, { keepLayout, saved, collection, focusPreview }) {
   openingSource = 'enllac';
   if (!keepLayout && !focusPreview) focusStudio();
   if (wasInCatalog) animateRefresh(studioView);
+  questionFormatDialog.maybeShow();
 }
 
 function focusStudio() {
@@ -231,6 +236,7 @@ function focusStudio() {
 function showCatalog({ focusReading = true } = {}) {
   const wasInStudio = !studioView.hidden;
   studio.dismissMenu();
+  questionFormatDialog.close();
   studioView.querySelector('dialog[open]')?.close();
   catalogView.hidden = false;
   studioView.hidden = true;

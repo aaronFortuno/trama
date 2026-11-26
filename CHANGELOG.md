@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.59 · 26 de novembre del 2026
+
+La primera fitxa presenta els formats textual i ABCD amb exemples reals. La preferència es recorda entre lectures i sessions, respectant les excepcions de cada pregunta; el diàleg es pot recuperar des del panell de contingut.
+
 ## 1.58.66 · 25 de novembre del 2026
 
 Renovades les il·lustracions de la L131 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 66 de 66 lectures de la llista.
