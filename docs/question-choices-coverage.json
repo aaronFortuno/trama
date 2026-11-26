@@ -1,9 +1,9 @@
 {
   "date": "2026-11-26",
-  "totalWorks": 495,
-  "coveredWorks": 495,
+  "totalWorks": 498,
+  "coveredWorks": 498,
   "pendingWorks": 0,
-  "localizedAlternatives": 4290,
+  "localizedAlternatives": 4344,
   "ranges": [
     {
       "start": 1,
@@ -385,9 +385,9 @@
     },
     {
       "start": 271,
-      "end": 271,
-      "total": 3,
-      "covered": 3,
+      "end": 272,
+      "total": 6,
+      "covered": 6,
       "status": "complete"
     }
   ],
@@ -27941,6 +27941,285 @@
             },
             {
               "id": "l271b-q11",
+              "number": 11
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L272",
+      "baseCode": "L272",
+      "variant": false,
+      "level": "1-secondary",
+      "difficulty": "intermediate",
+      "title": "Una taula fins a casa",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l272-q1",
+              "number": 1
+            },
+            {
+              "id": "l272-q2",
+              "number": 2
+            },
+            {
+              "id": "l272-q3",
+              "number": 3
+            },
+            {
+              "id": "l272-q4",
+              "number": 4
+            },
+            {
+              "id": "l272-q5",
+              "number": 5
+            },
+            {
+              "id": "l272-q6",
+              "number": 6
+            },
+            {
+              "id": "l272-q7",
+              "number": 7
+            },
+            {
+              "id": "l272-q8",
+              "number": 8
+            },
+            {
+              "id": "l272-q9",
+              "number": 9
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l272-q1",
+              "number": 1
+            },
+            {
+              "id": "l272-q2",
+              "number": 2
+            },
+            {
+              "id": "l272-q3",
+              "number": 3
+            },
+            {
+              "id": "l272-q4",
+              "number": 4
+            },
+            {
+              "id": "l272-q5",
+              "number": 5
+            },
+            {
+              "id": "l272-q6",
+              "number": 6
+            },
+            {
+              "id": "l272-q7",
+              "number": 7
+            },
+            {
+              "id": "l272-q8",
+              "number": 8
+            },
+            {
+              "id": "l272-q9",
+              "number": 9
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L272A",
+      "baseCode": "L272",
+      "variant": true,
+      "level": "6-primary",
+      "difficulty": "intermediate",
+      "title": "Una taula fins a casa",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l272a-q1",
+              "number": 1
+            },
+            {
+              "id": "l272a-q2",
+              "number": 2
+            },
+            {
+              "id": "l272a-q3",
+              "number": 3
+            },
+            {
+              "id": "l272a-q4",
+              "number": 4
+            },
+            {
+              "id": "l272a-q5",
+              "number": 5
+            },
+            {
+              "id": "l272a-q6",
+              "number": 6
+            },
+            {
+              "id": "l272a-q7",
+              "number": 7
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l272a-q1",
+              "number": 1
+            },
+            {
+              "id": "l272a-q2",
+              "number": 2
+            },
+            {
+              "id": "l272a-q3",
+              "number": 3
+            },
+            {
+              "id": "l272a-q4",
+              "number": 4
+            },
+            {
+              "id": "l272a-q5",
+              "number": 5
+            },
+            {
+              "id": "l272a-q6",
+              "number": 6
+            },
+            {
+              "id": "l272a-q7",
+              "number": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L272B",
+      "baseCode": "L272",
+      "variant": true,
+      "level": "1-secondary",
+      "difficulty": "advanced",
+      "title": "Una taula fins a casa",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l272b-q1",
+              "number": 1
+            },
+            {
+              "id": "l272b-q2",
+              "number": 2
+            },
+            {
+              "id": "l272b-q3",
+              "number": 3
+            },
+            {
+              "id": "l272b-q4",
+              "number": 4
+            },
+            {
+              "id": "l272b-q5",
+              "number": 5
+            },
+            {
+              "id": "l272b-q6",
+              "number": 6
+            },
+            {
+              "id": "l272b-q7",
+              "number": 7
+            },
+            {
+              "id": "l272b-q8",
+              "number": 8
+            },
+            {
+              "id": "l272b-q9",
+              "number": 9
+            },
+            {
+              "id": "l272b-q10",
+              "number": 10
+            },
+            {
+              "id": "l272b-q11",
+              "number": 11
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l272b-q1",
+              "number": 1
+            },
+            {
+              "id": "l272b-q2",
+              "number": 2
+            },
+            {
+              "id": "l272b-q3",
+              "number": 3
+            },
+            {
+              "id": "l272b-q4",
+              "number": 4
+            },
+            {
+              "id": "l272b-q5",
+              "number": 5
+            },
+            {
+              "id": "l272b-q6",
+              "number": 6
+            },
+            {
+              "id": "l272b-q7",
+              "number": 7
+            },
+            {
+              "id": "l272b-q8",
+              "number": 8
+            },
+            {
+              "id": "l272b-q9",
+              "number": 9
+            },
+            {
+              "id": "l272b-q10",
+              "number": 10
+            },
+            {
+              "id": "l272b-q11",
               "number": 11
             }
           ]

@@ -5654,5 +5654,1906 @@ export const libraryPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L272",
+    "edition": "v1.59.4",
+    "family": {
+      "id": "familia-l272",
+      "code": "L272",
+      "name": {
+        "es": "Una mesa hasta casa",
+        "ca": "Una taula fins a casa"
+      },
+      "description": {
+        "ca": "Una història de La biblioteca de les coses, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de La biblioteca de las cosas, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L272A",
+        "L272",
+        "L272B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "una-taula-fins-a-casa-a-es",
+        "code": "L272A",
+        "workId": "una-taula-fins-a-casa-a",
+        "language": "es",
+        "familyId": "familia-l272",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "games"
+        ],
+        "genre": "diary",
+        "title": "Una mesa hasta casa",
+        "summary": "Noa busca una mesa para un puzle. Como su familia no tiene coche, elegirla también requiere pensar cómo llegará a casa.",
+        "paragraphs": [
+          "Hoy he ido a la biblioteca de las cosas a buscar una mesa para un puzle. Soy Noa y colaboro algunas tardes en ese local vecinal, donde se prestan objetos. Mi madre y yo queremos montar uno durante el fin de semana. La mesa del comedor debe quedar libre para comer y en casa no tenemos coche.",
+          "En una foto había visto una mesa enorme. Rosa, la adulta que coordina el servicio, me preguntó dónde pensábamos ponerla. Mi madre me había enviado las medidas del rincón: ciento veinticinco centímetros de largo. La mesa grande medía ciento ochenta. «Pues empieza bien la cosa», dije. Rosa sonrió y me enseñó otra más pequeña.",
+          "La pequeña medía ciento veinte por sesenta centímetros. El puzle terminado ocuparía setenta por cincuenta, según la caja, así que cabía. Rosa abrió la mesa y comprobó que quedaba firme. Después la plegó: el tablero se doblaba por la mitad y las patas quedaban dentro. Cerrada seguía siendo un paquete bastante ancho. Yo la había imaginado casi como una carpeta.",
+          "—¿La llevamos con el carro de carga? —pregunté. Rosa midió el conjunto: la mesa dentro de su funda y el carro. Cabía por la puerta de casa, que mi madre también había medido. Rosa sujetó la funda al carro. Yo guardé la caja del puzle en mi mochila para llevar las manos libres.",
+          "Rosa me acompañó hasta casa. Elegimos el camino de la panadería, un poco más largo, porque el atajo tenía tres escalones. Ella empujaba el carro y yo iba a su lado. Mi madre nos esperaba abajo y entre las dos adultas subieron la mesa en el ascensor. Luego Rosa comprobó cómo quedaba abierta en el rincón.",
+          "Cabía sin mover el sofá. Dejamos la funda doblada debajo y Rosa se llevó el carro de vuelta. Esta noche solo hemos montado una esquina del puzle. Hemos podido dejarla allí mientras cenábamos. Era eso lo que necesitábamos."
+        ],
+        "questions": [
+          {
+            "id": "l272a-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué Noa y su madre quieren otra mesa?",
+            "answer": "Para dejar montado el puzle sin ocupar la mesa del comedor que necesitan para comer.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "La mesa del comedor debe quedar libre para comer"
+              },
+              {
+                "paragraph": 6,
+                "text": "Hemos podido dejarla allí mientras cenábamos."
+              }
+            ]
+          },
+          {
+            "id": "l272a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué descartan la mesa grande?",
+            "answer": "Mide ciento ochenta centímetros de largo y el rincón solo tiene ciento veinticinco.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "ciento veinticinco centímetros de largo"
+              },
+              {
+                "paragraph": 2,
+                "text": "La mesa grande medía ciento ochenta."
+              }
+            ]
+          },
+          {
+            "id": "l272a-q3",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué descubre Noa sobre la palabra «plegable» al ver la mesa cerrada?",
+            "answer": "Que se haga más pequeña no significa que se convierta en un paquete pequeño como una carpeta; aún hay que pensar cómo transportarla.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Cerrada seguía siendo un paquete bastante ancho."
+              },
+              {
+                "paragraph": 3,
+                "text": "Yo la había imaginado casi como una carpeta."
+              }
+            ]
+          },
+          {
+            "id": "l272a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «atajo» en el trayecto a casa?",
+            "answer": "Un camino más corto para llegar al mismo lugar.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "un poco más largo, porque el atajo tenía tres escalones"
+              }
+            ]
+          },
+          {
+            "id": "l272a-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué eligen el camino de la panadería?",
+            "answer": "Evita los tres escalones del atajo, que dificultarían el transporte con el carro.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Elegimos el camino de la panadería, un poco más largo, porque el atajo tenía tres escalones."
+              }
+            ]
+          },
+          {
+            "id": "l272a-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué detalle final muestra que la elección ha servido?",
+            "answer": "Pueden dejar el puzle en la mesa prestada mientras cenan en la del comedor.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Hemos podido dejarla allí mientras cenábamos."
+              }
+            ]
+          },
+          {
+            "id": "l272a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume cómo consiguen llevar a casa una mesa útil sin coche.",
+            "answer": "Eligen una mesa que cabe en el rincón y sirve para el puzle. Rosa la pliega, la protege y acompaña a Noa con el carro por un camino sin los escalones del atajo.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "así que cabía"
+              },
+              {
+                "paragraph": 4,
+                "text": "Rosa sujetó la funda al carro."
+              },
+              {
+                "paragraph": 5,
+                "text": "Rosa me acompañó hasta casa."
+              }
+            ]
+          },
+          {
+            "id": "l272a-q8",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿Qué preguntarías antes de pedir prestado un objeto grande? Explica cómo te ayudaría la respuesta.",
+            "answer": "Respuesta abierta sobre medidas, necesidad, embalaje, peso, trayecto o ayuda adulta, con una explicación relacionada con la elección o el transporte."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "atajo",
+            "occurrence": 1,
+            "questionId": "l272a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l272-scene",
+            "src": "assets/readings/l272-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una mesa plegada dentro de una funda sobre un carro de carga, junto a una cinta de medir y una caja de puzle.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "una-taula-fins-a-casa-a-ca",
+        "code": "L272A",
+        "workId": "una-taula-fins-a-casa-a",
+        "language": "ca",
+        "familyId": "familia-l272",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "games"
+        ],
+        "genre": "diary",
+        "title": "Una taula fins a casa",
+        "summary": "La Noa busca una taula per a un puzle. Com que la família no té cotxe, triar-la també requereix pensar com arribarà a casa.",
+        "paragraphs": [
+          "Avui he anat a la biblioteca de les coses a buscar una taula per a un puzle. Soc la Noa i col·laboro algunes tardes en aquell local veïnal, on es presten objectes. La mare i jo en volem muntar un durant el cap de setmana. La taula del menjador ha de quedar lliure per menjar i a casa no tenim cotxe.",
+          "En una foto havia vist una taula enorme. La Rosa, l’adulta que coordina el servei, em va preguntar on la pensàvem posar. La mare m’havia enviat les mides del racó: cent vint-i-cinc centímetres de llarg. La taula gran en feia cent vuitanta. «Doncs comencem bé», vaig dir. La Rosa va somriure i me’n va ensenyar una altra de més petita.",
+          "La petita feia cent vint per seixanta centímetres. El puzle acabat ocuparia setanta per cinquanta, segons la capsa, així que hi cabia. La Rosa va obrir la taula i va comprovar que quedava ferma. Després la va plegar: el tauler es doblegava per la meitat i les potes quedaven a dins. Tancada continuava sent un paquet força ample. Jo me l’havia imaginada gairebé com una carpeta.",
+          "—La portem amb el carret de càrrega? —vaig preguntar. La Rosa va mesurar el conjunt: la taula dins la funda i el carret. Cabia per la porta de casa, que la mare també havia mesurat. La Rosa va subjectar la funda al carret. Jo vaig desar la capsa del puzle a la motxilla per portar les mans lliures.",
+          "La Rosa em va acompanyar fins a casa. Vam triar el camí de la fleca, una mica més llarg, perquè la drecera tenia tres graons. Ella empenyia el carret i jo anava al costat. La mare ens esperava a baix i entre les dues adultes van pujar la taula a l’ascensor. Després la Rosa va comprovar com quedava oberta al racó.",
+          "Hi cabia sense moure el sofà. Vam deixar la funda plegada a sota i la Rosa es va endur el carret de tornada. Aquesta nit només hem muntat una cantonada del puzle. L’hem poguda deixar allà mentre sopàvem. Era això el que necessitàvem."
+        ],
+        "questions": [
+          {
+            "id": "l272a-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què la Noa i la mare volen una altra taula?",
+            "answer": "Per deixar muntat el puzle sense ocupar la taula del menjador que necessiten per menjar.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "La taula del menjador ha de quedar lliure per menjar"
+              },
+              {
+                "paragraph": 6,
+                "text": "L’hem poguda deixar allà mentre sopàvem."
+              }
+            ]
+          },
+          {
+            "id": "l272a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què descarten la taula gran?",
+            "answer": "Fa cent vuitanta centímetres de llarg i el racó només en té cent vint-i-cinc.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "cent vint-i-cinc centímetres de llarg"
+              },
+              {
+                "paragraph": 2,
+                "text": "La taula gran en feia cent vuitanta."
+              }
+            ]
+          },
+          {
+            "id": "l272a-q3",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Què descobreix la Noa sobre la paraula «plegable» en veure la taula tancada?",
+            "answer": "Que es faci més petita no vol dir que es converteixi en un paquet petit com una carpeta; encara cal pensar com transportar-la.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Tancada continuava sent un paquet força ample."
+              },
+              {
+                "paragraph": 3,
+                "text": "Jo me l’havia imaginada gairebé com una carpeta."
+              }
+            ]
+          },
+          {
+            "id": "l272a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir «drecera» en el trajecte a casa?",
+            "answer": "Un camí més curt per arribar al mateix lloc.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "una mica més llarg, perquè la drecera tenia tres graons"
+              }
+            ]
+          },
+          {
+            "id": "l272a-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què trien el camí de la fleca?",
+            "answer": "Evita els tres graons de la drecera, que dificultarien el transport amb el carret.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Vam triar el camí de la fleca, una mica més llarg, perquè la drecera tenia tres graons."
+              }
+            ]
+          },
+          {
+            "id": "l272a-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quin detall final mostra que la tria ha servit?",
+            "answer": "Poden deixar el puzle a la taula prestada mentre sopen a la del menjador.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "L’hem poguda deixar allà mentre sopàvem."
+              }
+            ]
+          },
+          {
+            "id": "l272a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix com aconsegueixen portar a casa una taula útil sense cotxe.",
+            "answer": "Trien una taula que cap al racó i serveix per al puzle. La Rosa la plega, la protegeix i acompanya la Noa amb el carret per un camí sense els graons de la drecera.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "així que hi cabia"
+              },
+              {
+                "paragraph": 4,
+                "text": "La Rosa va subjectar la funda al carret."
+              },
+              {
+                "paragraph": 5,
+                "text": "La Rosa em va acompanyar fins a casa."
+              }
+            ]
+          },
+          {
+            "id": "l272a-q8",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Què preguntaries abans de demanar un objecte gran en préstec? Explica com t’ajudaria la resposta.",
+            "answer": "Resposta oberta sobre mides, necessitat, embalatge, pes, trajecte o ajuda adulta, amb una explicació relacionada amb la tria o el transport."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "drecera",
+            "occurrence": 1,
+            "questionId": "l272a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l272-scene",
+            "src": "assets/readings/l272-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una taula plegada dins d’una funda damunt un carret de càrrega, al costat d’una cinta de mesurar i una capsa de puzle.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "una-taula-fins-a-casa-es",
+        "code": "L272",
+        "workId": "una-taula-fins-a-casa",
+        "language": "es",
+        "familyId": "familia-l272",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "games"
+        ],
+        "genre": "diary",
+        "title": "Una mesa hasta casa",
+        "summary": "Noa cuenta en su diario cómo una mesa que parecía ideal en una fotografía obliga a revisar el espacio, el uso y el camino hasta casa.",
+        "paragraphs": [
+          "Esta noche he dejado un puzle a medias sin que nadie me pidiera recogerlo para cenar. Para conseguirlo hemos tardado casi toda la tarde. Soy Noa y colaboro en la biblioteca de las cosas, un local vecinal donde prestan objetos de uso ocasional. Hoy había ido como usuaria: mi madre y yo queríamos una mesa para montar el puzle durante el fin de semana. La del comedor la necesitamos para las comidas. En casa no tenemos coche.",
+          "Yo había elegido en una fotografía la mesa más grande. Rosa, la adulta que coordina el servicio, me preguntó dónde la pondríamos. Saqué el mensaje de mi madre con las medidas del rincón: ciento veinticinco centímetros de largo por setenta de fondo. La mesa que me gustaba medía ciento ochenta por ochenta. «Vale, esta no», dije, antes de pensar siquiera en cómo llevarla. Había mirado cuánto espacio ofrecía, pero no cuánto espacio necesitaba.",
+          "Rosa me enseñó una mesa de ciento veinte por sesenta. En la caja del puzle indicaba setenta por cincuenta para la imagen terminada. Cabía y todavía quedaba una franja para dejar piezas. Rosa abrió la mesa y comprobó que las patas quedaban firmes. Después la cerró: el tablero se doblaba por la mitad y las patas se recogían dentro. El paquete medía sesenta por sesenta. Yo había imaginado algo casi tan fino como una carpeta; al verlo pensé en las puertas.",
+          "—¿Y con el carro de carga? —pregunté. Rosa tenía uno bajo, con una funda adecuada para aquella mesa. La colocó dentro, sujetó el paquete y midió el ancho total del carro cargado: sesenta y cuatro centímetros. La puerta de casa tenía setenta y cuatro de paso libre, según otra medida que mi madre acababa de enviarme. El ascensor también tenía espacio. La caja del puzle viajó en mi mochila; no necesitaba ocupar sitio en el carro.",
+          "Rosa me acompañó. Ella empujaba el carro y yo iba a su lado. El camino que uso para ir a clase tiene tres escalones junto a un pasaje; elegimos otro por la panadería, algo más largo y sin ese tramo. Lo conocía, pero nunca lo había pensado como camino para una mesa. Al llegar, mi madre nos esperaba abajo. Las dos adultas metieron el conjunto en el ascensor y lo llevaron hasta el piso.",
+          "La mesa quedó abierta en el rincón sin mover el sofá. Rosa comprobó que estaba firme, recogió el carro y volvió al local. Guardamos la funda debajo para la devolución. Mi madre puso dos bandejas pequeñas al lado para las piezas que no cupieran en la franja del tablero. No hacía falta una mesa enorme para dejar de recoger el puzle cada noche.",
+          "Solo hemos terminado una esquina. Esta vez la he dejado donde estaba y me he sentado a cenar."
+        ],
+        "questions": [
+          {
+            "id": "l272-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué uso concreto quieren dar Noa y su madre a la mesa?",
+            "answer": "Montar y dejar el puzle durante el fin de semana sin ocupar la mesa de las comidas.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una mesa para montar el puzle durante el fin de semana"
+              },
+              {
+                "paragraph": 1,
+                "text": "La del comedor la necesitamos para las comidas."
+              }
+            ]
+          },
+          {
+            "id": "l272-q2",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué había considerado Noa en la fotografía y qué dato había dejado fuera?",
+            "answer": "Había considerado la superficie de trabajo de la mesa grande, pero no las medidas del rincón donde quería ponerla.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Había mirado cuánto espacio ofrecía, pero no cuánto espacio necesitaba."
+              }
+            ]
+          },
+          {
+            "id": "l272-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cuáles son las medidas de la mesa pequeña abierta y del puzle terminado?",
+            "answer": "La mesa mide ciento veinte por sesenta centímetros; el puzle, setenta por cincuenta.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una mesa de ciento veinte por sesenta"
+              },
+              {
+                "paragraph": 3,
+                "text": "setenta por cincuenta para la imagen terminada"
+              }
+            ]
+          },
+          {
+            "id": "l272-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «paso libre» en la medida de la puerta?",
+            "answer": "La anchura utilizable por la que puede pasar el conjunto, sin contar las partes que la ocupan.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La puerta de casa tenía setenta y cuatro de paso libre"
+              }
+            ]
+          },
+          {
+            "id": "l272-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué Rosa mide el carro cargado y no solo la mesa plegada?",
+            "answer": "Porque lo que tiene que pasar por la puerta es el conjunto con la funda y el carro, cuyo ancho total es mayor.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El paquete medía sesenta por sesenta."
+              },
+              {
+                "paragraph": 4,
+                "text": "el ancho total del carro cargado: sesenta y cuatro centímetros"
+              }
+            ]
+          },
+          {
+            "id": "l272-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué diferencia entre los dos caminos influye en la elección?",
+            "answer": "El camino de clase tiene tres escalones; el de la panadería es algo más largo pero evita ese tramo.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "tiene tres escalones"
+              },
+              {
+                "paragraph": 5,
+                "text": "algo más largo y sin ese tramo"
+              }
+            ]
+          },
+          {
+            "id": "l272-q7",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué solución evita que necesiten la mesa más grande para las piezas sueltas?",
+            "answer": "Usan dos bandejas al lado para las piezas que no caben en la franja libre del tablero.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "dos bandejas pequeñas al lado para las piezas que no cupieran en la franja del tablero"
+              }
+            ]
+          },
+          {
+            "id": "l272-q8",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "¿Qué relación hay entre la primera frase del diario y la última?",
+            "answer": "Anuncian y confirman el resultado: poder dejar el puzle sin recoger durante la cena; en medio se explica cómo lo lograron.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "he dejado un puzle a medias sin que nadie me pidiera recogerlo para cenar"
+              },
+              {
+                "paragraph": 7,
+                "text": "Esta vez la he dejado donde estaba y me he sentado a cenar."
+              }
+            ]
+          },
+          {
+            "id": "l272-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume las decisiones que permiten resolver la necesidad de Noa.",
+            "answer": "Eligen una mesa que cabe en el rincón y contiene el puzle, completan el espacio con bandejas y preparan un transporte protegido con carro, medidas del paso y acompañamiento de Rosa por otro camino.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Cabía y todavía quedaba una franja para dejar piezas."
+              },
+              {
+                "paragraph": 4,
+                "text": "sujetó el paquete y midió el ancho total del carro cargado"
+              },
+              {
+                "paragraph": 5,
+                "text": "Rosa me acompañó."
+              }
+            ]
+          },
+          {
+            "id": "l272-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿Qué dato pedirías primero en una situación parecida? Justifica tu orden con una dificultad del diario.",
+            "answer": "Respuesta abierta: puede priorizar uso, espacio en casa, volumen plegado o recorrido, con una justificación coherente. No hay un único orden obligatorio."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "paso libre",
+            "occurrence": 1,
+            "questionId": "l272-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l272-scene",
+            "src": "assets/readings/l272-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una mesa plegada dentro de una funda sobre un carro de carga, junto a una cinta de medir y una caja de puzle.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "una-taula-fins-a-casa-ca",
+        "code": "L272",
+        "workId": "una-taula-fins-a-casa",
+        "language": "ca",
+        "familyId": "familia-l272",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "games"
+        ],
+        "genre": "diary",
+        "title": "Una taula fins a casa",
+        "summary": "La Noa explica al diari com una taula que semblava ideal en una fotografia obliga a revisar l’espai, l’ús i el camí fins a casa.",
+        "paragraphs": [
+          "Aquesta nit he deixat un puzle a mitges sense que ningú em demanés recollir-lo per sopar. Per aconseguir-ho hem trigat gairebé tota la tarda. Soc la Noa i col·laboro a la biblioteca de les coses, un local veïnal on presten objectes d’ús ocasional. Avui hi havia anat com a usuària: la mare i jo volíem una taula per muntar el puzle durant el cap de setmana. La del menjador la necessitem per als àpats. A casa no tenim cotxe.",
+          "Jo havia triat en una fotografia la taula més gran. La Rosa, l’adulta que coordina el servei, em va preguntar on la posaríem. Vaig treure el missatge de la mare amb les mides del racó: cent vint-i-cinc centímetres de llarg per setanta de fons. La taula que m’agradava feia cent vuitanta per vuitanta. «D’acord, aquesta no», vaig dir, abans de pensar ni tan sols com portar-la. Havia mirat quant espai oferia, però no quant espai necessitava.",
+          "La Rosa em va ensenyar una taula de cent vint per seixanta. A la capsa del puzle hi indicava setanta per cinquanta per a la imatge acabada. Hi cabia i encara quedava una franja per deixar peces. La Rosa va obrir la taula i va comprovar que les potes quedaven fermes. Després la va tancar: el tauler es doblegava per la meitat i les potes es recollien a dins. El paquet feia seixanta per seixanta. Jo havia imaginat una cosa gairebé tan prima com una carpeta; en veure’l vaig pensar en les portes.",
+          "—I amb el carret de càrrega? —vaig preguntar. La Rosa en tenia un de baix, amb una funda adequada per a aquella taula. La hi va posar, va subjectar el paquet i va mesurar l’amplada total del carret carregat: seixanta-quatre centímetres. La porta de casa en tenia setanta-quatre de pas lliure, segons una altra mida que la mare m’acabava d’enviar. A l’ascensor també hi havia espai. La capsa del puzle va viatjar a la motxilla; no calia que ocupés lloc al carret.",
+          "La Rosa em va acompanyar. Ella empenyia el carret i jo anava al costat. El camí que faig servir per anar a classe té tres graons al costat d’un passatge; en vam triar un altre per la fleca, una mica més llarg i sense aquell tram. El coneixia, però mai no hi havia pensat com a camí per a una taula. En arribar, la mare ens esperava a baix. Les dues adultes van ficar el conjunt a l’ascensor i el van portar fins al pis.",
+          "La taula va quedar oberta al racó sense moure el sofà. La Rosa va comprovar que estava ferma, va recollir el carret i va tornar al local. Vam desar la funda a sota per al retorn. La mare va posar dues safates petites al costat per a les peces que no cabessin a la franja del tauler. No calia una taula enorme per deixar de recollir el puzle cada nit.",
+          "Només n’hem acabat una cantonada. Aquest cop l’he deixada on era i m’he assegut a sopar."
+        ],
+        "questions": [
+          {
+            "id": "l272-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quin ús concret volen donar la Noa i la mare a la taula?",
+            "answer": "Muntar i deixar el puzle durant el cap de setmana sense ocupar la taula dels àpats.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una taula per muntar el puzle durant el cap de setmana"
+              },
+              {
+                "paragraph": 1,
+                "text": "La del menjador la necessitem per als àpats."
+              }
+            ]
+          },
+          {
+            "id": "l272-q2",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Què havia considerat la Noa a la fotografia i quina dada havia deixat de banda?",
+            "answer": "Havia considerat la superfície de treball de la taula gran, però no les mides del racó on la volia posar.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Havia mirat quant espai oferia, però no quant espai necessitava."
+              }
+            ]
+          },
+          {
+            "id": "l272-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quines són les mides de la taula petita oberta i del puzle acabat?",
+            "answer": "La taula fa cent vint per seixanta centímetres; el puzle, setanta per cinquanta.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una taula de cent vint per seixanta"
+              },
+              {
+                "paragraph": 3,
+                "text": "setanta per cinquanta per a la imatge acabada"
+              }
+            ]
+          },
+          {
+            "id": "l272-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir «pas lliure» en la mida de la porta?",
+            "answer": "L’amplada utilitzable per on pot passar el conjunt, sense comptar les parts que l’ocupen.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La porta de casa en tenia setanta-quatre de pas lliure"
+              }
+            ]
+          },
+          {
+            "id": "l272-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què la Rosa mesura el carret carregat i no només la taula plegada?",
+            "answer": "Perquè el que ha de passar per la porta és el conjunt amb la funda i el carret, que té una amplada total més gran.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El paquet feia seixanta per seixanta."
+              },
+              {
+                "paragraph": 4,
+                "text": "l’amplada total del carret carregat: seixanta-quatre centímetres"
+              }
+            ]
+          },
+          {
+            "id": "l272-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina diferència entre els dos camins influeix en la tria?",
+            "answer": "El camí de classe té tres graons; el de la fleca és una mica més llarg però evita aquell tram.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "té tres graons"
+              },
+              {
+                "paragraph": 5,
+                "text": "una mica més llarg i sense aquell tram"
+              }
+            ]
+          },
+          {
+            "id": "l272-q7",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Quina solució evita que necessitin la taula més gran per a les peces soltes?",
+            "answer": "Fan servir dues safates al costat per a les peces que no caben a la franja lliure del tauler.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "dues safates petites al costat per a les peces que no cabessin a la franja del tauler"
+              }
+            ]
+          },
+          {
+            "id": "l272-q8",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "Quina relació hi ha entre la primera frase del diari i l’última?",
+            "answer": "Anuncien i confirmen el resultat: poder deixar el puzle sense recollir durant el sopar; entremig s’explica com ho van aconseguir.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "he deixat un puzle a mitges sense que ningú em demanés recollir-lo per sopar"
+              },
+              {
+                "paragraph": 7,
+                "text": "Aquest cop l’he deixada on era i m’he assegut a sopar."
+              }
+            ]
+          },
+          {
+            "id": "l272-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix les decisions que permeten resoldre la necessitat de la Noa.",
+            "answer": "Trien una taula que cap al racó i conté el puzle, completen l’espai amb safates i preparen un transport protegit amb carret, mides del pas i acompanyament de la Rosa per un altre camí.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Hi cabia i encara quedava una franja per deixar peces."
+              },
+              {
+                "paragraph": 4,
+                "text": "va subjectar el paquet i va mesurar l’amplada total del carret carregat"
+              },
+              {
+                "paragraph": 5,
+                "text": "La Rosa em va acompanyar."
+              }
+            ]
+          },
+          {
+            "id": "l272-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Quina dada demanaries primer en una situació semblant? Justifica l’ordre amb una dificultat del diari.",
+            "answer": "Resposta oberta: pot prioritzar ús, espai a casa, volum plegat o recorregut, amb una justificació coherent. No hi ha un únic ordre obligatori."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "pas lliure",
+            "occurrence": 1,
+            "questionId": "l272-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l272-scene",
+            "src": "assets/readings/l272-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una taula plegada dins d’una funda damunt un carret de càrrega, al costat d’una cinta de mesurar i una capsa de puzle.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "una-taula-fins-a-casa-b-es",
+        "code": "L272B",
+        "workId": "una-taula-fins-a-casa-b",
+        "language": "es",
+        "familyId": "familia-l272",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "advanced",
+        "themes": [
+          "community",
+          "everyday",
+          "games"
+        ],
+        "genre": "diary",
+        "title": "Una mesa hasta casa",
+        "summary": "Noa revisa una elección hecha mirando una fotografía. La mesa debe servir para el puzle, caber en casa y poder llegar hasta allí con ayuda y sin coche.",
+        "paragraphs": [
+          "He dibujado en esta página una esquina de nuestro puzle. Es lo único que hemos terminado hoy, pero sigue montada mientras escribo. Soy Noa y colaboro algunas tardes en la biblioteca de las cosas, un local de la asociación vecinal que presta objetos de uso ocasional. Hoy he ido como usuaria. Mi madre y yo buscábamos una mesa para dejar el puzle durante el fin de semana sin ocupar la del comedor, que necesitamos para las comidas. En casa no tenemos coche. Yo había visto una mesa plegable enorme en una foto del servicio y ya me la imaginaba junto al sofá.",
+          "Rosa, la adulta que coordina el local, me preguntó cuánto medía el hueco. Saqué el mensaje de mi madre: ciento veinticinco centímetros de largo y setenta de fondo. La mesa de la foto medía ciento ochenta por ochenta. No cabía abierta, por mucho que pudiera plegarse. «Esta nos obligaría a sacar el sofá», dije. Había pensado en todas las piezas extendidas sobre el tablero y había olvidado el resto de la habitación. Mi madre había medido el rincón precisamente para evitar eso.",
+          "Rosa me mostró otra de ciento veinte por sesenta. La abrió y comprobó que las patas quedaban firmes. El puzle terminado ocuparía setenta por cincuenta, según la caja que llevaba. Colocamos un papel con esas medidas encima para imaginar la franja que quedaba libre. No cabrían todas las piezas sueltas a la vez, pero en casa teníamos dos bandejas para repartirlas. La necesidad principal era poder dejar la imagen en construcción entre una tarde y otra. Con esa mesa bastaba. Rosa volvió a cerrarla después de retirar el papel.",
+          "Al plegarla, el tablero se dobló por la mitad y las patas quedaron dentro. El paquete medía sesenta por sesenta centímetros. No era la carpeta fina que yo había imaginado al leer «plegable». Rosa sacó su funda y un carro bajo de carga. Metió la mesa en la funda, sujetó el conjunto y midió sesenta y cuatro centímetros de ancho total. Mi madre confirmó que la puerta tenía setenta y cuatro de paso libre y que había espacio en el ascensor. Haber medido solo el tablero habría dejado fuera las ruedas y la funda.",
+          "—Yo voy contigo —dijo Rosa—. Tu madre nos espera abajo. La caja del puzle entró en mi mochila. Revisamos el recorrido: el camino de clase tenía tres escalones junto a un pasaje. El de la panadería era más largo, pero evitaba ese tramo. Habíamos pasado por allí muchas veces; esa tarde elegimos mirando el suelo y los pasos estrechos, no solo contando minutos. Rosa empujó el carro durante todo el trayecto y yo caminé a su lado, señalando el desvío.",
+          "Al llegar, las dos adultas llevaron el carro al ascensor y después al piso. La mesa abierta quedó en el rincón sin mover el sofá. Rosa comprobó que estaba firme. Guardamos la funda debajo y ella volvió al local con el carro. Mi madre me pidió que conservara las medidas en el móvil para preparar la devolución; aún tendríamos que acordar con Rosa el día y la ayuda para el regreso.",
+          "Hemos puesto las bandejas junto al tablero. Las piezas de cielo están en una y las del árbol en otra. Cuando mi madre ha dicho que era hora de cenar, mi primer impulso ha sido recoger. Ella me ha señalado la mesa del comedor, ya libre.",
+          "He dejado la esquina azul donde estaba. Mañana seguiremos por el árbol."
+        ],
+        "questions": [
+          {
+            "id": "l272b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cuál es la necesidad principal que debe cubrir la mesa?",
+            "answer": "Dejar la imagen del puzle en construcción entre tardes sin ocupar la mesa de las comidas.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "sin ocupar la del comedor"
+              },
+              {
+                "paragraph": 3,
+                "text": "poder dejar la imagen en construcción entre una tarde y otra"
+              }
+            ]
+          },
+          {
+            "id": "l272b-q2",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué confusión corrige la frase sobre que la mesa grande no cabía aunque fuera plegable?",
+            "answer": "Poder reducirla para el transporte no cambia el espacio que ocupa al abrirla para usarla.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "No cabía abierta, por mucho que pudiera plegarse."
+              }
+            ]
+          },
+          {
+            "id": "l272b-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué hicieron con el papel de setenta por cincuenta centímetros?",
+            "answer": "Lo pusieron sobre la mesa pequeña para representar el puzle y ver el espacio libre alrededor.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Colocamos un papel con esas medidas encima para imaginar la franja que quedaba libre."
+              }
+            ]
+          },
+          {
+            "id": "l272b-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «paso libre» referido a la puerta?",
+            "answer": "La anchura disponible para pasar con el conjunto, sin contar lo que ocupa el marco u otros obstáculos.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "la puerta tenía setenta y cuatro de paso libre"
+              }
+            ]
+          },
+          {
+            "id": "l272b-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué las bandejas permiten elegir la mesa pequeña sin renunciar al objetivo?",
+            "answer": "Guardan las piezas sueltas que no caben alrededor, mientras la imagen del puzle queda montada sobre la mesa.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "dos bandejas para repartirlas"
+              },
+              {
+                "paragraph": 3,
+                "text": "poder dejar la imagen en construcción"
+              }
+            ]
+          },
+          {
+            "id": "l272b-q6",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué margen de ancho queda entre el carro cargado y el paso de la puerta?",
+            "answer": "Diez centímetros en total: setenta y cuatro menos sesenta y cuatro. El texto no indica cómo se reparte a cada lado.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "sesenta y cuatro centímetros de ancho total"
+              },
+              {
+                "paragraph": 4,
+                "text": "setenta y cuatro de paso libre"
+              }
+            ]
+          },
+          {
+            "id": "l272b-q7",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué información se habría perdido al medir únicamente la mesa plegada?",
+            "answer": "El ancho que añaden el carro y la funda al conjunto que debe atravesar la puerta.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Haber medido solo el tablero habría dejado fuera las ruedas y la funda."
+              }
+            ]
+          },
+          {
+            "id": "l272b-q8",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "¿Cómo contribuye la voz de diario a mostrar el cambio de Noa?",
+            "answer": "La narradora cuenta lo que imaginaba y lo contrasta con lo que fue viendo y haciendo durante la tarde.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "ya me la imaginaba junto al sofá"
+              },
+              {
+                "paragraph": 4,
+                "text": "No era la carpeta fina que yo había imaginado"
+              }
+            ]
+          },
+          {
+            "id": "l272b-q9",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué no eligen el camino habitual de clase?",
+            "answer": "Tiene tres escalones; el camino más largo por la panadería evita ese tramo y facilita llevar el carro.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "tenía tres escalones junto a un pasaje"
+              },
+              {
+                "paragraph": 5,
+                "text": "era más largo, pero evitaba ese tramo"
+              }
+            ]
+          },
+          {
+            "id": "l272b-q10",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué parte de la devolución sigue sin acordarse al acabar el diario?",
+            "answer": "El día y la ayuda para transportar la mesa de regreso, que acordarán con Rosa.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "aún tendríamos que acordar con Rosa el día y la ayuda para el regreso"
+              }
+            ]
+          },
+          {
+            "id": "l272b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resume cómo se relacionan la necesidad, las medidas y el transporte en la decisión final.",
+            "answer": "El objetivo es dejar el puzle sin ocupar el comedor. La mesa pequeña cabe en el rincón y contiene la imagen; las bandejas permiten repartir las piezas sueltas. Preparan el conjunto con funda y carro, comprueban el paso y Rosa acompaña por un camino sin los escalones. El regreso aún debe acordarse.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Con esa mesa bastaba."
+              },
+              {
+                "paragraph": 4,
+                "text": "sujetó el conjunto"
+              },
+              {
+                "paragraph": 5,
+                "text": "Rosa empujó el carro durante todo el trayecto"
+              },
+              {
+                "paragraph": 6,
+                "text": "aún tendríamos que acordar con Rosa el día y la ayuda para el regreso"
+              }
+            ]
+          },
+          {
+            "id": "l272b-q12",
+            "type": "opinion",
+            "lines": 5,
+            "prompt": "¿Qué dato añadirías al catálogo para ayudar a otra familia sin coche a elegir esta mesa? Explica su utilidad con un problema del relato.",
+            "answer": "Respuesta abierta: puede proponer medidas abierta y plegada, volumen del conjunto embalado o descripción de la ayuda de transporte disponible. Debe justificarla sin inventar que el servicio garantiza acompañamiento en todos los préstamos."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "paso libre",
+            "occurrence": 1,
+            "questionId": "l272b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l272-scene",
+            "src": "assets/readings/l272-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una mesa plegada dentro de una funda sobre un carro de carga, junto a una cinta de medir y una caja de puzle.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "una-taula-fins-a-casa-b-ca",
+        "code": "L272B",
+        "workId": "una-taula-fins-a-casa-b",
+        "language": "ca",
+        "familyId": "familia-l272",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "advanced",
+        "themes": [
+          "community",
+          "everyday",
+          "games"
+        ],
+        "genre": "diary",
+        "title": "Una taula fins a casa",
+        "summary": "La Noa revisa una tria feta mirant una fotografia. La taula ha de servir per al puzle, cabre a casa i poder arribar-hi amb ajuda i sense cotxe.",
+        "paragraphs": [
+          "He dibuixat en aquesta pàgina una cantonada del nostre puzle. És l’únic que hem acabat avui, però continua muntada mentre escric. Soc la Noa i col·laboro algunes tardes a la biblioteca de les coses, un local de l’associació veïnal que presta objectes d’ús ocasional. Avui hi he anat com a usuària. La mare i jo buscàvem una taula per deixar el puzle durant el cap de setmana sense ocupar la del menjador, que necessitem per als àpats. A casa no tenim cotxe. Jo havia vist una taula plegable enorme en una foto del servei i ja me la imaginava al costat del sofà.",
+          "La Rosa, l’adulta que coordina el local, em va preguntar quant feia l’espai. Vaig treure el missatge de la mare: cent vint-i-cinc centímetres de llarg i setanta de fons. La taula de la foto feia cent vuitanta per vuitanta. No hi cabia oberta, per molt que es pogués plegar. «Aquesta ens obligaria a treure el sofà», vaig dir. Havia pensat en totes les peces esteses damunt el tauler i havia oblidat la resta de l’habitació. La mare havia mesurat el racó justament per evitar allò.",
+          "La Rosa me’n va mostrar una altra de cent vint per seixanta. La va obrir i va comprovar que les potes quedaven fermes. El puzle acabat ocuparia setanta per cinquanta, segons la capsa que portava. Hi vam posar al damunt un paper amb aquelles mides per imaginar la franja que quedava lliure. No hi cabrien totes les peces soltes alhora, però a casa teníem dues safates per repartir-les. La necessitat principal era poder deixar la imatge en construcció entre una tarda i l’altra. Amb aquella taula n’hi havia prou. La Rosa la va tornar a tancar després de retirar el paper.",
+          "En plegar-la, el tauler es va doblegar per la meitat i les potes van quedar a dins. El paquet feia seixanta per seixanta centímetres. No era la carpeta prima que jo havia imaginat en llegir «plegable». La Rosa va treure la funda i un carret baix de càrrega. Va ficar la taula a la funda, va subjectar el conjunt i va mesurar seixanta-quatre centímetres d’amplada total. La mare va confirmar que la porta en tenia setanta-quatre de pas lliure i que hi havia espai a l’ascensor. Haver mesurat només el tauler hauria deixat fora les rodes i la funda.",
+          "—Jo vinc amb tu —va dir la Rosa—. La mare ens espera a baix. La capsa del puzle va entrar a la motxilla. Vam repassar el recorregut: el camí de classe tenia tres graons al costat d’un passatge. El de la fleca era més llarg, però evitava aquell tram. Hi havíem passat moltes vegades; aquella tarda vam triar mirant el terra i els passos estrets, no només comptant minuts. La Rosa va empènyer el carret durant tot el trajecte i jo vaig caminar al costat, assenyalant el trencall.",
+          "En arribar, les dues adultes van portar el carret a l’ascensor i després al pis. La taula oberta va quedar al racó sense moure el sofà. La Rosa va comprovar que estava ferma. Vam desar la funda a sota i ella va tornar al local amb el carret. La mare em va demanar que conservés les mides al mòbil per preparar el retorn; encara hauríem d’acordar amb la Rosa el dia i l’ajuda per a la tornada.",
+          "Hem posat les safates al costat del tauler. Les peces de cel són en una i les de l’arbre en una altra. Quan la mare ha dit que era hora de sopar, el primer impuls ha estat recollir. Ella m’ha assenyalat la taula del menjador, ja lliure.",
+          "He deixat la cantonada blava on era. Demà continuarem per l’arbre."
+        ],
+        "questions": [
+          {
+            "id": "l272b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina és la necessitat principal que ha de cobrir la taula?",
+            "answer": "Deixar la imatge del puzle en construcció entre tardes sense ocupar la taula dels àpats.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "sense ocupar la del menjador"
+              },
+              {
+                "paragraph": 3,
+                "text": "poder deixar la imatge en construcció entre una tarda i l’altra"
+              }
+            ]
+          },
+          {
+            "id": "l272b-q2",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Quina confusió corregeix la frase que la taula gran no hi cabia encara que fos plegable?",
+            "answer": "Poder reduir-la per al transport no canvia l’espai que ocupa en obrir-la per fer-la servir.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "No hi cabia oberta, per molt que es pogués plegar."
+              }
+            ]
+          },
+          {
+            "id": "l272b-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què van fer amb el paper de setanta per cinquanta centímetres?",
+            "answer": "El van posar damunt la taula petita per representar el puzle i veure l’espai lliure al voltant.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Hi vam posar al damunt un paper amb aquelles mides per imaginar la franja que quedava lliure."
+              }
+            ]
+          },
+          {
+            "id": "l272b-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir «pas lliure» referit a la porta?",
+            "answer": "L’amplada disponible per passar amb el conjunt, sense comptar el que ocupa el marc o altres obstacles.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "la porta en tenia setanta-quatre de pas lliure"
+              }
+            ]
+          },
+          {
+            "id": "l272b-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què les safates permeten triar la taula petita sense renunciar a l’objectiu?",
+            "answer": "Guarden les peces soltes que no caben al voltant, mentre la imatge del puzle queda muntada damunt la taula.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "dues safates per repartir-les"
+              },
+              {
+                "paragraph": 3,
+                "text": "poder deixar la imatge en construcció"
+              }
+            ]
+          },
+          {
+            "id": "l272b-q6",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Quin marge d’amplada queda entre el carret carregat i el pas de la porta?",
+            "answer": "Deu centímetres en total: setanta-quatre menys seixanta-quatre. El text no indica com es reparteix a cada costat.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "seixanta-quatre centímetres d’amplada total"
+              },
+              {
+                "paragraph": 4,
+                "text": "setanta-quatre de pas lliure"
+              }
+            ]
+          },
+          {
+            "id": "l272b-q7",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Quina informació s’hauria perdut en mesurar únicament la taula plegada?",
+            "answer": "L’amplada que afegeixen el carret i la funda al conjunt que ha de travessar la porta.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Haver mesurat només el tauler hauria deixat fora les rodes i la funda."
+              }
+            ]
+          },
+          {
+            "id": "l272b-q8",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "Com contribueix la veu de diari a mostrar el canvi de la Noa?",
+            "answer": "La narradora explica el que imaginava i ho contrasta amb el que va anar veient i fent durant la tarda.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "ja me la imaginava al costat del sofà"
+              },
+              {
+                "paragraph": 4,
+                "text": "No era la carpeta prima que jo havia imaginat"
+              }
+            ]
+          },
+          {
+            "id": "l272b-q9",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què no trien el camí habitual de classe?",
+            "answer": "Té tres graons; el camí més llarg per la fleca evita aquell tram i facilita portar el carret.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "tenia tres graons al costat d’un passatge"
+              },
+              {
+                "paragraph": 5,
+                "text": "era més llarg, però evitava aquell tram"
+              }
+            ]
+          },
+          {
+            "id": "l272b-q10",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina part del retorn continua sense acordar-se en acabar el diari?",
+            "answer": "El dia i l’ajuda per transportar la taula de tornada, que acordaran amb la Rosa.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "encara hauríem d’acordar amb la Rosa el dia i l’ajuda per a la tornada"
+              }
+            ]
+          },
+          {
+            "id": "l272b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resumeix com es relacionen la necessitat, les mides i el transport en la decisió final.",
+            "answer": "L’objectiu és deixar el puzle sense ocupar el menjador. La taula petita cap al racó i conté la imatge; les safates permeten repartir les peces soltes. Preparen el conjunt amb funda i carret, comproven el pas i la Rosa acompanya per un camí sense els graons. La tornada encara s’ha d’acordar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Amb aquella taula n’hi havia prou."
+              },
+              {
+                "paragraph": 4,
+                "text": "va subjectar el conjunt"
+              },
+              {
+                "paragraph": 5,
+                "text": "La Rosa va empènyer el carret durant tot el trajecte"
+              },
+              {
+                "paragraph": 6,
+                "text": "encara hauríem d’acordar amb la Rosa el dia i l’ajuda per a la tornada"
+              }
+            ]
+          },
+          {
+            "id": "l272b-q12",
+            "type": "opinion",
+            "lines": 5,
+            "prompt": "Quina dada afegiries al catàleg per ajudar una altra família sense cotxe a triar aquesta taula? Explica’n la utilitat amb un problema del relat.",
+            "answer": "Resposta oberta: pot proposar mides oberta i plegada, volum del conjunt embalat o descripció de l’ajuda de transport disponible. Ha de justificar-la sense inventar que el servei garanteix acompanyament en tots els préstecs."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "pas lliure",
+            "occurrence": 1,
+            "questionId": "l272b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l272-scene",
+            "src": "assets/readings/l272-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una taula plegada dins d’una funda damunt un carret de càrrega, al costat d’una cinta de mesurar i una capsa de puzle.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 5
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L272A",
+        "language": "es",
+        "questions": {
+          "l272a-q1": {
+            "prompt": "¿Por qué Noa y su madre quieren otra mesa?",
+            "options": [
+              "Para colocar el puzle terminado como adorno en el local.",
+              "Para montar el puzle sin ocupar la mesa de comer.",
+              "Para sustituir una mesa del comedor que está rota.",
+              "Para guardar las compras que traerá Rosa con el carro."
+            ],
+            "correct": "b",
+            "explanation": "Para dejar montado el puzle sin ocupar la mesa del comedor que necesitan para comer."
+          },
+          "l272a-q2": {
+            "prompt": "¿Por qué descartan la mesa grande?",
+            "options": [
+              "Porque es más corta que el puzle terminado.",
+              "Porque solo puede usarse dentro de la biblioteca.",
+              "Porque no tiene una funda para transportarla.",
+              "Porque supera el largo del rincón disponible."
+            ],
+            "correct": "d",
+            "explanation": "Mide ciento ochenta centímetros de largo y el rincón solo tiene ciento veinticinco."
+          },
+          "l272a-q3": {
+            "prompt": "¿Qué descubre Noa sobre la palabra «plegable» al ver la mesa cerrada?",
+            "options": [
+              "Que doblada ocupa menos, pero sigue siendo ancha.",
+              "Que doblada pesa tanto como la mesa grande.",
+              "Que las patas no pueden guardarse dentro.",
+              "Que plegarla impide volver a abrirla en casa."
+            ],
+            "correct": "a",
+            "explanation": "Que se haga más pequeña no significa que se convierta en un paquete pequeño como una carpeta; aún hay que pensar cómo transportarla."
+          },
+          "l272a-q4": {
+            "prompt": "¿Qué significa «atajo» en el trayecto a casa?",
+            "options": [
+              "Un espacio para dejar el carro al llegar.",
+              "Una calle donde se prestan objetos grandes.",
+              "Un camino que acorta el recorrido hasta un lugar.",
+              "Una entrada más ancha que la puerta de casa."
+            ],
+            "correct": "c",
+            "explanation": "Un camino más corto para llegar al mismo lugar."
+          },
+          "l272a-q5": {
+            "prompt": "¿Por qué eligen el camino de la panadería?",
+            "options": [
+              "Permite que Noa empuje sola el carro desde la biblioteca.",
+              "Facilita llevar el carro al evitar un tramo con escalones.",
+              "Es el recorrido más corto entre el local y el ascensor.",
+              "Lleva a otra casa donde la puerta no necesita medirse."
+            ],
+            "correct": "b",
+            "explanation": "Evita los tres escalones del atajo, que dificultarían el transporte con el carro."
+          },
+          "l272a-q6": {
+            "prompt": "¿Qué detalle final muestra que la elección ha servido?",
+            "options": [
+              "La funda se guarda sin doblar dentro de la mochila.",
+              "La mesa grande queda abierta en la biblioteca.",
+              "Rosa deja el carro en casa durante todo el fin de semana.",
+              "El puzle puede quedarse montado durante la cena."
+            ],
+            "correct": "d",
+            "explanation": "Pueden dejar el puzle en la mesa prestada mientras cenan en la del comedor."
+          },
+          "l272a-q7": {
+            "prompt": "¿Qué resumen explica la elección y el transporte?",
+            "options": [
+              "Eligen una mesa ajustada al uso y al espacio, y Rosa acompaña su transporte protegido en carro.",
+              "Eligen la mesa mayor, la llevan entre Noa y su madre y cambian el sofá de habitación.",
+              "Descartan las mesas plegables, alquilan un coche y llevan el puzle al local vecinal.",
+              "Transportan la mesa abierta en el carro para no tener que montarla de nuevo al llegar."
+            ],
+            "correct": "a",
+            "explanation": "Eligen una mesa que cabe en el rincón y sirve para el puzle. Rosa la pliega, la protege y acompaña a Noa con el carro por un camino sin los escalones del atajo."
+          }
+        }
+      },
+      {
+        "code": "L272A",
+        "language": "ca",
+        "questions": {
+          "l272a-q1": {
+            "prompt": "Per què la Noa i la mare volen una altra taula?",
+            "options": [
+              "Per posar el puzle acabat com a guarniment al local.",
+              "Per muntar el puzle sense ocupar la taula de menjar.",
+              "Per substituir una taula del menjador que està trencada.",
+              "Per desar la compra que portarà la Rosa amb el carret."
+            ],
+            "correct": "b",
+            "explanation": "Per deixar muntat el puzle sense ocupar la taula del menjador que necessiten per menjar."
+          },
+          "l272a-q2": {
+            "prompt": "Per què descarten la taula gran?",
+            "options": [
+              "Perquè és més curta que el puzle acabat.",
+              "Perquè només es pot fer servir dins de la biblioteca.",
+              "Perquè no té una funda per transportar-la.",
+              "Perquè supera el llarg del racó disponible."
+            ],
+            "correct": "d",
+            "explanation": "Fa cent vuitanta centímetres de llarg i el racó només en té cent vint-i-cinc."
+          },
+          "l272a-q3": {
+            "prompt": "Què descobreix la Noa sobre la paraula «plegable» en veure la taula tancada?",
+            "options": [
+              "Que plegada ocupa menys, però continua sent ampla.",
+              "Que plegada pesa tant com la taula gran.",
+              "Que les potes no es poden desar a dins.",
+              "Que plegar-la impedeix tornar-la a obrir a casa."
+            ],
+            "correct": "a",
+            "explanation": "Que es faci més petita no vol dir que es converteixi en un paquet petit com una carpeta; encara cal pensar com transportar-la."
+          },
+          "l272a-q4": {
+            "prompt": "Què vol dir «drecera» en el trajecte a casa?",
+            "options": [
+              "Un espai per deixar el carret en arribar.",
+              "Un carrer on es presten objectes grans.",
+              "Un camí que escurça el recorregut fins a un lloc.",
+              "Una entrada més ampla que la porta de casa."
+            ],
+            "correct": "c",
+            "explanation": "Un camí més curt per arribar al mateix lloc."
+          },
+          "l272a-q5": {
+            "prompt": "Per què trien el camí de la fleca?",
+            "options": [
+              "Permet que la Noa empenyi sola el carret des de la biblioteca.",
+              "Facilita portar el carret en evitar un tram amb graons.",
+              "És el recorregut més curt entre el local i l’ascensor.",
+              "Porta a una altra casa on no cal mesurar la porta."
+            ],
+            "correct": "b",
+            "explanation": "Evita els tres graons de la drecera, que dificultarien el transport amb el carret."
+          },
+          "l272a-q6": {
+            "prompt": "Quin detall final mostra que la tria ha servit?",
+            "options": [
+              "La funda es desa sense plegar dins de la motxilla.",
+              "La taula gran queda oberta a la biblioteca.",
+              "La Rosa deixa el carret a casa durant tot el cap de setmana.",
+              "El puzle es pot quedar muntat durant el sopar."
+            ],
+            "correct": "d",
+            "explanation": "Poden deixar el puzle a la taula prestada mentre sopen a la del menjador."
+          },
+          "l272a-q7": {
+            "prompt": "Quin resum explica la tria i el transport?",
+            "options": [
+              "Trien una taula ajustada a l’ús i a l’espai, i la Rosa n’acompanya el transport protegit en carret.",
+              "Trien la taula més gran, la porten entre la Noa i la mare i canvien el sofà d’habitació.",
+              "Descarten les taules plegables, lloguen un cotxe i porten el puzle al local veïnal.",
+              "Transporten la taula oberta al carret per no haver de tornar-la a muntar en arribar."
+            ],
+            "correct": "a",
+            "explanation": "Trien una taula que cap al racó i serveix per al puzle. La Rosa la plega, la protegeix i acompanya la Noa amb el carret per un camí sense els graons de la drecera."
+          }
+        }
+      },
+      {
+        "code": "L272",
+        "language": "es",
+        "questions": {
+          "l272-q1": {
+            "prompt": "¿Qué uso concreto quieren dar Noa y su madre a la mesa?",
+            "options": [
+              "Cambiar la mesa del comedor por otra más grande.",
+              "Llevar una exposición de puzles hasta la biblioteca.",
+              "Dejar el puzle montado sin ocupar la mesa de comer.",
+              "Usar el rincón como almacén para todos los préstamos."
+            ],
+            "correct": "c",
+            "explanation": "Montar y dejar el puzle durante el fin de semana sin ocupar la mesa de las comidas."
+          },
+          "l272-q2": {
+            "prompt": "¿Qué había considerado Noa en la fotografía y qué dato había dejado fuera?",
+            "options": [
+              "Miró el espacio para trabajar, pero no el espacio que ocuparía en casa.",
+              "Miró el tamaño cerrado, pero no la superficie abierta que ofrecía.",
+              "Miró las ruedas del carro, pero no las medidas de la funda.",
+              "Miró el rincón de casa, pero no supo que la mesa era plegable."
+            ],
+            "correct": "a",
+            "explanation": "Había considerado la superficie de trabajo de la mesa grande, pero no las medidas del rincón donde quería ponerla."
+          },
+          "l272-q3": {
+            "prompt": "¿Cuáles son las medidas de la mesa pequeña abierta y del puzle terminado?",
+            "options": [
+              "Mesa: sesenta por sesenta; puzle: setenta por cincuenta.",
+              "Mesa: ciento ochenta por ochenta; puzle: ciento veinte por sesenta.",
+              "Mesa: ciento veinticinco por setenta; puzle: sesenta por sesenta.",
+              "Mesa: ciento veinte por sesenta; puzle: setenta por cincuenta."
+            ],
+            "correct": "d",
+            "explanation": "La mesa mide ciento veinte por sesenta centímetros; el puzle, setenta por cincuenta."
+          },
+          "l272-q4": {
+            "prompt": "¿Qué significa «paso libre» en la medida de la puerta?",
+            "options": [
+              "La distancia desde la puerta hasta el ascensor.",
+              "El ancho disponible para atravesar la puerta.",
+              "El permiso para entrar sin pedir una llave.",
+              "El espacio que ocupa la mesa al quedar abierta."
+            ],
+            "correct": "b",
+            "explanation": "La anchura utilizable por la que puede pasar el conjunto, sin contar las partes que la ocupan."
+          },
+          "l272-q5": {
+            "prompt": "¿Por qué Rosa mide el carro cargado y no solo la mesa plegada?",
+            "options": [
+              "Porque la mesa cambia de tamaño al entrar en el ascensor.",
+              "Porque la caja del puzle debe viajar debajo del carro.",
+              "Porque el conjunto transportado ocupa más ancho que la mesa sola.",
+              "Porque la puerta se medirá solo después de llegar a casa."
+            ],
+            "correct": "c",
+            "explanation": "Porque lo que tiene que pasar por la puerta es el conjunto con la funda y el carro, cuyo ancho total es mayor."
+          },
+          "l272-q6": {
+            "prompt": "¿Qué diferencia entre los dos caminos influye en la elección?",
+            "options": [
+              "El de la panadería es más corto y pasa por el local.",
+              "El de clase tiene tres puertas y el otro no llega a casa.",
+              "El de clase está cerrado y el otro solo admite carros.",
+              "El de la panadería evita los escalones aunque alarga el recorrido."
+            ],
+            "correct": "d",
+            "explanation": "El camino de clase tiene tres escalones; el de la panadería es algo más largo pero evita ese tramo."
+          },
+          "l272-q7": {
+            "prompt": "¿Qué solución evita que necesiten la mesa más grande para las piezas sueltas?",
+            "options": [
+              "Añadir bandejas para repartir las piezas que no caben en la franja.",
+              "Guardar en el carro todas las piezas hasta el día de devolverlo.",
+              "Mover el sofá y juntar la mesa pequeña con la del comedor.",
+              "Recoger cada noche la imagen terminada dentro de su caja."
+            ],
+            "correct": "a",
+            "explanation": "Usan dos bandejas al lado para las piezas que no caben en la franja libre del tablero."
+          },
+          "l272-q8": {
+            "prompt": "¿Qué relación hay entre la primera frase del diario y la última?",
+            "options": [
+              "Las dos introducen medidas nuevas que cambian la elección.",
+              "La última contradice la necesidad descrita al principio.",
+              "Enmarcan los pasos del relato con el resultado que buscaban.",
+              "Separan dos préstamos de mesas ocurridos en días distintos."
+            ],
+            "correct": "c",
+            "explanation": "Anuncian y confirman el resultado: poder dejar el puzle sin recoger durante la cena; en medio se explica cómo lo lograron."
+          },
+          "l272-q9": {
+            "prompt": "¿Qué resumen conecta la necesidad, la elección y el transporte?",
+            "options": [
+              "Una mesa más grande resolvió el espacio del puzle después de que trasladaran el sofá a otra habitación.",
+              "Una mesa que cabía y un transporte preparado con ayuda adulta permitieron mantener libre la mesa de comer.",
+              "Una mesa plegada sustituyó al carro para que Noa llevara las piezas hasta la biblioteca sin ayuda.",
+              "Una mesa se llevó abierta por el camino habitual y se guardó en casa sin comprobar el paso de las puertas."
+            ],
+            "correct": "b",
+            "explanation": "Eligen una mesa que cabe en el rincón y contiene el puzle, completan el espacio con bandejas y preparan un transporte protegido con carro, medidas del paso y acompañamiento de Rosa por otro camino."
+          }
+        }
+      },
+      {
+        "code": "L272",
+        "language": "ca",
+        "questions": {
+          "l272-q1": {
+            "prompt": "Quin ús concret volen donar la Noa i la mare a la taula?",
+            "options": [
+              "Canviar la taula del menjador per una altra de més gran.",
+              "Portar una exposició de puzles fins a la biblioteca.",
+              "Deixar el puzle muntat sense ocupar la taula de menjar.",
+              "Fer servir el racó com a magatzem per a tots els préstecs."
+            ],
+            "correct": "c",
+            "explanation": "Muntar i deixar el puzle durant el cap de setmana sense ocupar la taula dels àpats."
+          },
+          "l272-q2": {
+            "prompt": "Què havia considerat la Noa a la fotografia i quina dada havia deixat de banda?",
+            "options": [
+              "Va mirar l’espai per treballar, però no l’espai que ocuparia a casa.",
+              "Va mirar la mida tancada, però no la superfície oberta que oferia.",
+              "Va mirar les rodes del carret, però no les mides de la funda.",
+              "Va mirar el racó de casa, però no va saber que la taula era plegable."
+            ],
+            "correct": "a",
+            "explanation": "Havia considerat la superfície de treball de la taula gran, però no les mides del racó on la volia posar."
+          },
+          "l272-q3": {
+            "prompt": "Quines són les mides de la taula petita oberta i del puzle acabat?",
+            "options": [
+              "Taula: seixanta per seixanta; puzle: setanta per cinquanta.",
+              "Taula: cent vuitanta per vuitanta; puzle: cent vint per seixanta.",
+              "Taula: cent vint-i-cinc per setanta; puzle: seixanta per seixanta.",
+              "Taula: cent vint per seixanta; puzle: setanta per cinquanta."
+            ],
+            "correct": "d",
+            "explanation": "La taula fa cent vint per seixanta centímetres; el puzle, setanta per cinquanta."
+          },
+          "l272-q4": {
+            "prompt": "Què vol dir «pas lliure» en la mida de la porta?",
+            "options": [
+              "La distància des de la porta fins a l’ascensor.",
+              "L’amplada disponible per travessar la porta.",
+              "El permís per entrar sense demanar una clau.",
+              "L’espai que ocupa la taula en quedar oberta."
+            ],
+            "correct": "b",
+            "explanation": "L’amplada utilitzable per on pot passar el conjunt, sense comptar les parts que l’ocupen."
+          },
+          "l272-q5": {
+            "prompt": "Per què la Rosa mesura el carret carregat i no només la taula plegada?",
+            "options": [
+              "Perquè la taula canvia de mida en entrar a l’ascensor.",
+              "Perquè la capsa del puzle ha de viatjar sota el carret.",
+              "Perquè el conjunt transportat ocupa més amplada que la taula sola.",
+              "Perquè la porta es mesurarà només després d’arribar a casa."
+            ],
+            "correct": "c",
+            "explanation": "Perquè el que ha de passar per la porta és el conjunt amb la funda i el carret, que té una amplada total més gran."
+          },
+          "l272-q6": {
+            "prompt": "Quina diferència entre els dos camins influeix en la tria?",
+            "options": [
+              "El de la fleca és més curt i passa pel local.",
+              "El de classe té tres portes i l’altre no arriba a casa.",
+              "El de classe està tancat i l’altre només admet carrets.",
+              "El de la fleca evita els graons encara que allarga el recorregut."
+            ],
+            "correct": "d",
+            "explanation": "El camí de classe té tres graons; el de la fleca és una mica més llarg però evita aquell tram."
+          },
+          "l272-q7": {
+            "prompt": "Quina solució evita que necessitin la taula més gran per a les peces soltes?",
+            "options": [
+              "Afegir safates per repartir les peces que no caben a la franja.",
+              "Desar al carret totes les peces fins al dia de retornar-lo.",
+              "Moure el sofà i ajuntar la taula petita amb la del menjador.",
+              "Recollir cada nit la imatge acabada dins la capsa."
+            ],
+            "correct": "a",
+            "explanation": "Fan servir dues safates al costat per a les peces que no caben a la franja lliure del tauler."
+          },
+          "l272-q8": {
+            "prompt": "Quina relació hi ha entre la primera frase del diari i l’última?",
+            "options": [
+              "Totes dues introdueixen mides noves que canvien la tria.",
+              "L’última contradiu la necessitat descrita al principi.",
+              "Emmarquen els passos del relat amb el resultat que buscaven.",
+              "Separen dos préstecs de taules ocorreguts en dies diferents."
+            ],
+            "correct": "c",
+            "explanation": "Anuncien i confirmen el resultat: poder deixar el puzle sense recollir durant el sopar; entremig s’explica com ho van aconseguir."
+          },
+          "l272-q9": {
+            "prompt": "Quin resum connecta la necessitat, la tria i el transport?",
+            "options": [
+              "Una taula més gran va resoldre l’espai del puzle després que traslladessin el sofà a una altra habitació.",
+              "Una taula que hi cabia i un transport preparat amb ajuda adulta van permetre mantenir lliure la taula de menjar.",
+              "Una taula plegada va substituir el carret perquè la Noa portés les peces fins a la biblioteca sense ajuda.",
+              "Una taula es va portar oberta pel camí habitual i es va desar a casa sense comprovar el pas de les portes."
+            ],
+            "correct": "b",
+            "explanation": "Trien una taula que cap al racó i conté el puzle, completen l’espai amb safates i preparen un transport protegit amb carret, mides del pas i acompanyament de la Rosa per un altre camí."
+          }
+        }
+      },
+      {
+        "code": "L272B",
+        "language": "es",
+        "questions": {
+          "l272b-q1": {
+            "prompt": "¿Cuál es la necesidad principal que debe cubrir la mesa?",
+            "options": [
+              "Mostrar todas las piezas sueltas a la vez en una única superficie.",
+              "Sustituir la mesa de comer por otra que se pueda guardar.",
+              "Organizar una exposición de puzles abierta al vecindario.",
+              "Mantener el puzle montado y la mesa de comer disponible."
+            ],
+            "correct": "d",
+            "explanation": "Dejar la imagen del puzle en construcción entre tardes sin ocupar la mesa de las comidas."
+          },
+          "l272b-q2": {
+            "prompt": "¿Qué confusión corrige la frase sobre que la mesa grande no cabía aunque fuera plegable?",
+            "options": [
+              "La medida de una mesa plegada siempre coincide con la de una puerta.",
+              "Plegarla para llevarla no reduce su tamaño cuando se usa abierta.",
+              "Una mesa grande deja de ser estable en cuanto se pliega una vez.",
+              "Las mesas grandes necesitan coche incluso después de guardarse."
+            ],
+            "correct": "b",
+            "explanation": "Poder reducirla para el transporte no cambia el espacio que ocupa al abrirla para usarla."
+          },
+          "l272b-q3": {
+            "prompt": "¿Qué hicieron con el papel de setenta por cincuenta centímetros?",
+            "options": [
+              "Representaron el puzle sobre la mesa para valorar el espacio restante.",
+              "Envolvieron con él las patas para evitar que rozaran la funda.",
+              "Comprobaron con él el ancho total del carro antes de cargarlo.",
+              "Marcaron en él los tramos con escalones del camino de clase."
+            ],
+            "correct": "a",
+            "explanation": "Lo pusieron sobre la mesa pequeña para representar el puzle y ver el espacio libre alrededor."
+          },
+          "l272b-q4": {
+            "prompt": "¿Qué significa «paso libre» referido a la puerta?",
+            "options": [
+              "El tiempo que tarda en cerrarse una puerta abierta.",
+              "La distancia entre la puerta y la mesa ya montada.",
+              "El ancho de la abertura que puede atravesarse.",
+              "La entrada al edificio sin necesidad de usar llave."
+            ],
+            "correct": "c",
+            "explanation": "La anchura disponible para pasar con el conjunto, sin contar lo que ocupa el marco u otros obstáculos."
+          },
+          "l272b-q5": {
+            "prompt": "¿Por qué las bandejas permiten elegir la mesa pequeña sin renunciar al objetivo?",
+            "options": [
+              "Evitan tener que comprobar si cabe la imagen terminada.",
+              "Reducen las dimensiones del puzle cuando está terminado.",
+              "Permiten usar la mesa cerrada y guardarla durante la cena.",
+              "Reparten las piezas sueltas sin ocupar la zona de la imagen."
+            ],
+            "correct": "d",
+            "explanation": "Guardan las piezas sueltas que no caben alrededor, mientras la imagen del puzle queda montada sobre la mesa."
+          },
+          "l272b-q6": {
+            "prompt": "¿Qué margen de ancho queda entre el carro cargado y el paso de la puerta?",
+            "options": [
+              "Cuatro centímetros de margen total.",
+              "Diez centímetros de margen total.",
+              "Catorce centímetros de margen total.",
+              "Veinte centímetros de margen total."
+            ],
+            "correct": "b",
+            "explanation": "Diez centímetros en total: setenta y cuatro menos sesenta y cuatro. El texto no indica cómo se reparte a cada lado."
+          },
+          "l272b-q7": {
+            "prompt": "¿Qué información se habría perdido al medir únicamente la mesa plegada?",
+            "options": [
+              "El espacio adicional que ocupa el transporte ya preparado.",
+              "La medida exacta de la imagen terminada sobre la mesa.",
+              "La cantidad de patas que caben dentro del tablero.",
+              "La distancia entre el sofá y la mesa del comedor."
+            ],
+            "correct": "a",
+            "explanation": "El ancho que añaden el carro y la funda al conjunto que debe atravesar la puerta."
+          },
+          "l272b-q8": {
+            "prompt": "¿Cómo contribuye la voz de diario a mostrar el cambio de Noa?",
+            "options": [
+              "Presenta solo instrucciones impersonales que cualquiera debe seguir.",
+              "Oculta las dudas para describir únicamente el resultado final.",
+              "Permite contrastar sus expectativas con las comprobaciones vividas.",
+              "Expone los pensamientos de Rosa como si Noa pudiera conocerlos todos."
+            ],
+            "correct": "c",
+            "explanation": "La narradora cuenta lo que imaginaba y lo contrasta con lo que fue viendo y haciendo durante la tarde."
+          },
+          "l272b-q9": {
+            "prompt": "¿Por qué no eligen el camino habitual de clase?",
+            "options": [
+              "Porque la madre de Noa los esperaba en la panadería.",
+              "Porque el otro camino les evitaba tener que plegar la mesa.",
+              "Porque el recorrido de la panadería era el más corto de los dos.",
+              "Porque el estado del recorrido importaba más que ahorrar unos minutos."
+            ],
+            "correct": "d",
+            "explanation": "Tiene tres escalones; el camino más largo por la panadería evita ese tramo y facilita llevar el carro."
+          },
+          "l272b-q10": {
+            "prompt": "¿Qué parte de la devolución sigue sin acordarse al acabar el diario?",
+            "options": [
+              "La medida del rincón y el ancho de la puerta.",
+              "El día de vuelta y la ayuda para el transporte.",
+              "El tamaño del puzle y el número de bandejas.",
+              "La funda que usaron y el lugar donde la guardaron."
+            ],
+            "correct": "b",
+            "explanation": "El día y la ayuda para transportar la mesa de regreso, que acordarán con Rosa."
+          },
+          "l272b-q11": {
+            "prompt": "¿Qué resumen conecta mejor las decisiones del diario?",
+            "options": [
+              "Eligen una mesa suficiente y transportable con ayuda, tras comprobar espacio, conjunto cargado y recorrido.",
+              "Eligen la mesa más amplia porque plegada cabe por la puerta, aunque deban cambiar la distribución de casa.",
+              "Eligen una mesa por la foto y resuelven el transporte al llegar, sin necesidad de comprobar medidas ni caminos.",
+              "Eligen dejar el puzle en la biblioteca para evitar el transporte y aplazan hasta otro día la vuelta a casa."
+            ],
+            "correct": "a",
+            "explanation": "El objetivo es dejar el puzle sin ocupar el comedor. La mesa pequeña cabe en el rincón y contiene la imagen; las bandejas permiten repartir las piezas sueltas. Preparan el conjunto con funda y carro, comprueban el paso y Rosa acompaña por un camino sin los escalones. El regreso aún debe acordarse."
+          }
+        }
+      },
+      {
+        "code": "L272B",
+        "language": "ca",
+        "questions": {
+          "l272b-q1": {
+            "prompt": "Quina és la necessitat principal que ha de cobrir la taula?",
+            "options": [
+              "Mostrar totes les peces soltes alhora en una única superfície.",
+              "Substituir la taula de menjar per una altra que es pugui desar.",
+              "Organitzar una exposició de puzles oberta al veïnat.",
+              "Mantenir el puzle muntat i la taula de menjar disponible."
+            ],
+            "correct": "d",
+            "explanation": "Deixar la imatge del puzle en construcció entre tardes sense ocupar la taula dels àpats."
+          },
+          "l272b-q2": {
+            "prompt": "Quina confusió corregeix la frase que la taula gran no hi cabia encara que fos plegable?",
+            "options": [
+              "La mida d’una taula plegada sempre coincideix amb la d’una porta.",
+              "Plegar-la per portar-la no en redueix la mida quan s’usa oberta.",
+              "Una taula gran deixa de ser estable quan es plega una vegada.",
+              "Les taules grans necessiten cotxe fins i tot després de desar-se."
+            ],
+            "correct": "b",
+            "explanation": "Poder reduir-la per al transport no canvia l’espai que ocupa en obrir-la per fer-la servir."
+          },
+          "l272b-q3": {
+            "prompt": "Què van fer amb el paper de setanta per cinquanta centímetres?",
+            "options": [
+              "Van representar el puzle damunt la taula per valorar l’espai restant.",
+              "Van embolicar-hi les potes per evitar que freguessin la funda.",
+              "Hi van comprovar l’amplada total del carret abans de carregar-lo.",
+              "Hi van marcar els trams amb graons del camí de classe."
+            ],
+            "correct": "a",
+            "explanation": "El van posar damunt la taula petita per representar el puzle i veure l’espai lliure al voltant."
+          },
+          "l272b-q4": {
+            "prompt": "Què vol dir «pas lliure» referit a la porta?",
+            "options": [
+              "El temps que triga a tancar-se una porta oberta.",
+              "La distància entre la porta i la taula ja muntada.",
+              "L’amplada de l’obertura que es pot travessar.",
+              "L’entrada a l’edifici sense necessitat de fer servir clau."
+            ],
+            "correct": "c",
+            "explanation": "L’amplada disponible per passar amb el conjunt, sense comptar el que ocupa el marc o altres obstacles."
+          },
+          "l272b-q5": {
+            "prompt": "Per què les safates permeten triar la taula petita sense renunciar a l’objectiu?",
+            "options": [
+              "Eviten haver de comprovar si hi cap la imatge acabada.",
+              "Redueixen les dimensions del puzle quan està acabat.",
+              "Permeten fer servir la taula tancada i desar-la durant el sopar.",
+              "Reparteixen les peces soltes sense ocupar la zona de la imatge."
+            ],
+            "correct": "d",
+            "explanation": "Guarden les peces soltes que no caben al voltant, mentre la imatge del puzle queda muntada damunt la taula."
+          },
+          "l272b-q6": {
+            "prompt": "Quin marge d’amplada queda entre el carret carregat i el pas de la porta?",
+            "options": [
+              "Quatre centímetres de marge total.",
+              "Deu centímetres de marge total.",
+              "Catorze centímetres de marge total.",
+              "Vint centímetres de marge total."
+            ],
+            "correct": "b",
+            "explanation": "Deu centímetres en total: setanta-quatre menys seixanta-quatre. El text no indica com es reparteix a cada costat."
+          },
+          "l272b-q7": {
+            "prompt": "Quina informació s’hauria perdut en mesurar únicament la taula plegada?",
+            "options": [
+              "L’espai addicional que ocupa el transport ja preparat.",
+              "La mida exacta de la imatge acabada damunt la taula.",
+              "La quantitat de potes que caben dins del tauler.",
+              "La distància entre el sofà i la taula del menjador."
+            ],
+            "correct": "a",
+            "explanation": "L’amplada que afegeixen el carret i la funda al conjunt que ha de travessar la porta."
+          },
+          "l272b-q8": {
+            "prompt": "Com contribueix la veu de diari a mostrar el canvi de la Noa?",
+            "options": [
+              "Presenta només instruccions impersonals que tothom ha de seguir.",
+              "Amaga els dubtes per descriure únicament el resultat final.",
+              "Permet contrastar les expectatives amb les comprovacions viscudes.",
+              "Exposa els pensaments de la Rosa com si la Noa els pogués conèixer tots."
+            ],
+            "correct": "c",
+            "explanation": "La narradora explica el que imaginava i ho contrasta amb el que va anar veient i fent durant la tarda."
+          },
+          "l272b-q9": {
+            "prompt": "Per què no trien el camí habitual de classe?",
+            "options": [
+              "Perquè la mare de la Noa els esperava a la fleca.",
+              "Perquè l’altre camí els evitava haver de plegar la taula.",
+              "Perquè el recorregut de la fleca era el més curt de tots dos.",
+              "Perquè l’estat del recorregut importava més que estalviar uns minuts."
+            ],
+            "correct": "d",
+            "explanation": "Té tres graons; el camí més llarg per la fleca evita aquell tram i facilita portar el carret."
+          },
+          "l272b-q10": {
+            "prompt": "Quina part del retorn continua sense acordar-se en acabar el diari?",
+            "options": [
+              "La mida del racó i l’amplada de la porta.",
+              "El dia de tornada i l’ajuda per al transport.",
+              "La mida del puzle i el nombre de safates.",
+              "La funda que van fer servir i el lloc on la van desar."
+            ],
+            "correct": "b",
+            "explanation": "El dia i l’ajuda per transportar la taula de tornada, que acordaran amb la Rosa."
+          },
+          "l272b-q11": {
+            "prompt": "Quin resum connecta més bé les decisions del diari?",
+            "options": [
+              "Trien una taula suficient i transportable amb ajuda, després de comprovar espai, conjunt carregat i recorregut.",
+              "Trien la taula més ampla perquè plegada cap per la porta, encara que hagin de canviar la distribució de casa.",
+              "Trien una taula per la foto i resolen el transport en arribar, sense necessitat de comprovar mides ni camins.",
+              "Trien deixar el puzle a la biblioteca per evitar el transport i ajornen fins a un altre dia la tornada a casa."
+            ],
+            "correct": "a",
+            "explanation": "L’objectiu és deixar el puzle sense ocupar el menjador. La taula petita cap al racó i conté la imatge; les safates permeten repartir les peces soltes. Preparen el conjunt amb funda i carret, comproven el pas i la Rosa acompanya per un camí sense els graons. La tornada encara s’ha d’acordar."
+          }
+        }
+      }
+    ]
   }
 ];
