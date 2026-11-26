@@ -9238,5 +9238,1774 @@ export const workshopPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L303",
+    "edition": "v1.62.5",
+    "family": {
+      "id": "familia-l303",
+      "code": "L303",
+      "name": {
+        "es": "El reloj que no tenía prisa",
+        "ca": "El rellotge que no tenia pressa"
+      },
+      "description": {
+        "ca": "Una història del Taller de la plaça, amb suport, versió de referència i ampliació.",
+        "es": "Una historia del Taller de la plaza, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L303A",
+        "L303",
+        "L303B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "el-reloj-que-no-tenia-prisa-a-es",
+        "code": "L303A",
+        "workId": "el-reloj-que-no-tenia-prisa-a",
+        "language": "es",
+        "familyId": "familia-l303",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "technology"
+        ],
+        "genre": "interview",
+        "title": "El reloj que no tenía prisa",
+        "summary": "Una entrevista muestra por qué Tomás lleva su reloj a otra especialista.",
+        "paragraphs": [
+          "Hugo y Asha preparaban entrevistas para contar en clase qué ocurría en el taller de Irene. Allí conocieron a Tomás, el dueño de una librería. Había llevado un reloj de mesa que se había parado. Irene acababa de ajustar una tapa de madera que estaba suelta.",
+          "Hugo: ¿Ya está arreglado?\nIrene: La tapa sí. Pero el reloj sigue parado. No sé reparar su mecanismo. Una relojera de la calle de al lado puede examinarlo y decir qué reparación necesita.",
+          "Asha: ¿Para qué lo usas, Tomás?\nTomás: Lo tengo frente al mostrador. Así veo la hora mientras atiendo a la gente. Desde allí no veo el reloj de la calle. Si lo pongo otra vez en su sitio, necesito que funcione.",
+          "Hugo: ¿Lo llevarás a la relojera?\nTomás: Sí. Primero pediré un presupuesto. Quiero saber cuánto costaría arreglarlo antes de decidir. Mientras tanto usaré mi reloj de pulsera. No necesito recuperarlo hoy mismo.",
+          "Asha: ¿Y si no te conviene la reparación?\nTomás: Buscaré otra solución para ver la hora. De momento, voy a preguntar.\nIrene le dio la dirección. Tomás envolvió el reloj, lo metió en su bolsa y salió hacia la relojería. Hugo escribió: «La tapa está arreglada; el reloj todavía no»."
+        ],
+        "questions": [
+          {
+            "id": "l303a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué trabajo había terminado Irene?",
+            "answer": "Había ajustado la tapa de madera.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Irene acababa de ajustar una tapa de madera que estaba suelta."
+              }
+            ]
+          },
+          {
+            "id": "l303a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Por qué no repara Irene el mecanismo?",
+            "answer": "Porque no sabe reparar ese mecanismo.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "No sé reparar su mecanismo."
+              }
+            ]
+          },
+          {
+            "id": "l303a-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Dónde utiliza Tomás el reloj?",
+            "answer": "En la librería, frente al mostrador.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Lo tengo frente al mostrador."
+              }
+            ]
+          },
+          {
+            "id": "l303a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué es un «presupuesto» en esta entrevista?",
+            "answer": "La información sobre cuánto costaría reparar el reloj.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Primero pediré un presupuesto. Quiero saber cuánto costaría arreglarlo antes de decidir."
+              }
+            ]
+          },
+          {
+            "id": "l303a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Tomás no necesita que le devuelvan el reloj hoy mismo?",
+            "answer": "Porque puede usar mientras tanto el reloj de pulsera.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Mientras tanto usaré mi reloj de pulsera."
+              }
+            ]
+          },
+          {
+            "id": "l303a-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué ha decidido hacer Tomás al salir del taller?",
+            "answer": "Ir a la relojería a preguntar por la reparación y su precio.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Primero pediré un presupuesto."
+              },
+              {
+                "paragraph": 5,
+                "text": "salió hacia la relojería"
+              }
+            ]
+          },
+          {
+            "id": "l303a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Explica qué se ha arreglado y qué falta saber al final.",
+            "answer": "Irene ha ajustado la tapa. El mecanismo sigue sin funcionar. Tomás va a preguntar a una relojera qué necesita y cuánto costaría.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "el reloj sigue parado"
+              },
+              {
+                "paragraph": 4,
+                "text": "Quiero saber cuánto costaría arreglarlo antes de decidir."
+              }
+            ]
+          },
+          {
+            "id": "l303a-q8",
+            "type": "opinion",
+            "lines": 2,
+            "prompt": "¿Qué otra pregunta harías a Tomás o a Irene? Explica a quién se la harías.",
+            "answer": "Respuesta personal con una pregunta pertinente y destinatario."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "presupuesto",
+            "occurrence": 1,
+            "questionId": "l303a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l303-scene",
+            "src": "assets/readings/l303-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Tomás conversa con Irene sobre un reloj de mesa parado mientras Hugo y Asha preparan una entrevista.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-reloj-que-no-tenia-prisa-a-ca",
+        "code": "L303A",
+        "workId": "el-reloj-que-no-tenia-prisa-a",
+        "language": "ca",
+        "familyId": "familia-l303",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "technology"
+        ],
+        "genre": "interview",
+        "title": "El rellotge que no tenia pressa",
+        "summary": "Una entrevista mostra per què en Tomás porta el rellotge a una altra especialista.",
+        "paragraphs": [
+          "L’Hugo i l’Asha preparaven entrevistes per explicar a classe què passava al taller de la Irene. Allà van conèixer en Tomás, l’amo d’una llibreria. Havia portat un rellotge de taula que s’havia aturat. La Irene acabava d’ajustar una tapa de fusta que estava fluixa.",
+          "Hugo: Ja està arreglat?\nIrene: La tapa sí. Però el rellotge continua aturat. No sé reparar-ne el mecanisme. Una rellotgera del carrer del costat el pot examinar i dir quina reparació necessita.",
+          "Asha: Per a què el fas servir, Tomás?\nTomás: El tinc davant del taulell. Així veig l’hora mentre atenc la gent. Des d’allà no veig el rellotge del carrer. Si el torno a posar al seu lloc, necessito que funcioni.",
+          "Hugo: El portaràs a la rellotgera?\nTomás: Sí. Primer demanaré un pressupost. Vull saber quant costaria arreglar-lo abans de decidir. Mentrestant faré servir el rellotge de polsera. No necessito recuperar-lo avui mateix.",
+          "Asha: I si no et convé la reparació?\nTomás: Buscaré una altra solució per veure l’hora. De moment, vaig a preguntar.\nLa Irene li va donar l’adreça. En Tomás va embolicar el rellotge, el va ficar a la bossa i va sortir cap a la rellotgeria. L’Hugo va escriure: «La tapa està arreglada; el rellotge encara no»."
+        ],
+        "questions": [
+          {
+            "id": "l303a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quina feina havia acabat la Irene?",
+            "answer": "Havia ajustat la tapa de fusta.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "La Irene acabava d’ajustar una tapa de fusta que estava fluixa."
+              }
+            ]
+          },
+          {
+            "id": "l303a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Per què la Irene no repara el mecanisme?",
+            "answer": "Perquè no sap reparar aquell mecanisme.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "No sé reparar-ne el mecanisme."
+              }
+            ]
+          },
+          {
+            "id": "l303a-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "On fa servir en Tomás el rellotge?",
+            "answer": "A la llibreria, davant del taulell.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El tinc davant del taulell."
+              }
+            ]
+          },
+          {
+            "id": "l303a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què és un «pressupost» en aquesta entrevista?",
+            "answer": "La informació sobre quant costaria reparar el rellotge.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Primer demanaré un pressupost. Vull saber quant costaria arreglar-lo abans de decidir."
+              }
+            ]
+          },
+          {
+            "id": "l303a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què en Tomás no necessita que li tornin el rellotge avui mateix?",
+            "answer": "Perquè mentrestant pot fer servir el rellotge de polsera.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Mentrestant faré servir el rellotge de polsera."
+              }
+            ]
+          },
+          {
+            "id": "l303a-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què ha decidit fer en Tomás en sortir del taller?",
+            "answer": "Anar a la rellotgeria a preguntar per la reparació i el preu.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Primer demanaré un pressupost."
+              },
+              {
+                "paragraph": 5,
+                "text": "va sortir cap a la rellotgeria"
+              }
+            ]
+          },
+          {
+            "id": "l303a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Explica què s’ha arreglat i què falta saber al final.",
+            "answer": "La Irene ha ajustat la tapa. El mecanisme continua sense funcionar. En Tomás va a preguntar a una rellotgera què necessita i quant costaria.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "el rellotge continua aturat"
+              },
+              {
+                "paragraph": 4,
+                "text": "Vull saber quant costaria arreglar-lo abans de decidir."
+              }
+            ]
+          },
+          {
+            "id": "l303a-q8",
+            "type": "opinion",
+            "lines": 2,
+            "prompt": "Quina altra pregunta faries a en Tomás o a la Irene? Explica a qui la faries.",
+            "answer": "Resposta personal amb una pregunta pertinent i destinatari."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "pressupost",
+            "occurrence": 1,
+            "questionId": "l303a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l303-scene",
+            "src": "assets/readings/l303-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Tomás conversa amb la Irene sobre un rellotge de taula aturat mentre l’Hugo i l’Asha preparen una entrevista.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-reloj-que-no-tenia-prisa-es",
+        "code": "L303",
+        "workId": "el-reloj-que-no-tenia-prisa",
+        "language": "es",
+        "familyId": "familia-l303",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "technology"
+        ],
+        "genre": "interview",
+        "title": "El reloj que no tenía prisa",
+        "summary": "Tomás distingue tener la caja del reloj reparada de disponer de un reloj que dé la hora.",
+        "paragraphs": [
+          "Hugo y Asha recogían entrevistas para explicar en clase qué trabajos se hacían en el taller de Irene. Aquella tarde conocieron a Tomás, propietario de una librería cercana. Traía un reloj de mesa que se había parado. La tapa de madera de la caja también estaba suelta; Irene acababa de ajustarla cuando los niños se acercaron.",
+          "Hugo: Ahora que la tapa encaja, ¿ya está arreglado?\nIrene: La caja sí, pero el reloj sigue parado. No sé reparar su mecanismo. Puedo darte la dirección de una relojera de la calle de al lado. Ella tendrá que examinarlo para saber qué le ocurre.",
+          "Asha: Tomás, ¿dónde lo tienes normalmente?\nTomás: Frente al mostrador de la librería. Así veo la hora mientras atiendo, sin apartarme a buscar el teléfono. El reloj de la calle queda fuera de mi vista desde allí. Compré este hace dos años porque se veían bien sus números.",
+          "Hugo: Si vuelve a quedar en el mismo sitio, ¿te servirá aunque esté parado?\nTomás: Para lo que necesito, no. Me gusta su caja, pero quiero consultar la hora. Iré a la relojera y pediré un presupuesto. Antes de encargar la reparación, quiero saber qué habría que hacer y cuánto costaría.",
+          "Asha: ¿Y si no te conviene?\nTomás: Buscaré otra solución para ver la hora desde el mostrador. De momento, llevo puesto un reloj de pulsera. Puedo utilizarlo mientras decido; no necesito recuperar este hoy mismo.\nIrene escribió la dirección en una tarjeta. Tomás envolvió el reloj, lo guardó en su bolsa y salió hacia la relojería. Hugo separó dos frases en sus notas: «Tapa ajustada» y «Mecanismo pendiente de examinar»."
+        ],
+        "questions": [
+          {
+            "id": "l303-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Para qué preparaban las entrevistas Hugo y Asha?",
+            "answer": "Para explicar en clase los trabajos que se hacían en el taller.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "para explicar en clase qué trabajos se hacían en el taller"
+              }
+            ]
+          },
+          {
+            "id": "l303-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué había reparado Irene y qué seguía sin funcionar?",
+            "answer": "Había ajustado la tapa de la caja; el reloj seguía parado.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La caja sí, pero el reloj sigue parado."
+              }
+            ]
+          },
+          {
+            "id": "l303-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué debe hacer la relojera antes de saber qué le ocurre?",
+            "answer": "Examinar el reloj.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "tendrá que examinarlo para saber qué le ocurre"
+              }
+            ]
+          },
+          {
+            "id": "l303-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué volver a poner la caja en su sitio no resolvería la necesidad de Tomás?",
+            "answer": "Porque necesita leer la hora y, aunque la caja esté ajustada, el reloj sigue parado.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "el reloj sigue parado"
+              },
+              {
+                "paragraph": 4,
+                "text": "quiero consultar la hora"
+              }
+            ]
+          },
+          {
+            "id": "l303-q5",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «presupuesto» en la conversación?",
+            "answer": "La propuesta de coste que podrá valorar antes de encargar la reparación.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "pediré un presupuesto. Antes de encargar la reparación, quiero saber qué habría que hacer y cuánto costaría"
+              }
+            ]
+          },
+          {
+            "id": "l303-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué quiere saber Tomás antes de encargar la reparación?",
+            "answer": "Qué habría que hacer y cuánto costaría.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "qué habría que hacer y cuánto costaría"
+              }
+            ]
+          },
+          {
+            "id": "l303-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué dato le permite consultar a la especialista sin exigir una solución ese mismo día?",
+            "answer": "Dispone de un reloj de pulsera que puede usar mientras decide.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Puedo utilizarlo mientras decido; no necesito recuperar este hoy mismo."
+              }
+            ]
+          },
+          {
+            "id": "l303-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué función tiene la pregunta de Asha «¿Y si no te conviene?»?",
+            "answer": "Hace que Tomás explique otra posibilidad si decide no aceptar la reparación.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "¿Y si no te conviene?"
+              },
+              {
+                "paragraph": 5,
+                "text": "Buscaré otra solución para ver la hora desde el mostrador."
+              }
+            ]
+          },
+          {
+            "id": "l303-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume la necesidad de Tomás, el límite de Irene y el siguiente paso.",
+            "answer": "Tomás necesita ver la hora en la librería. Irene arregla la tapa pero no sabe reparar el mecanismo. Él va a una relojera para conocer la reparación y el precio antes de decidir.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "No sé reparar su mecanismo."
+              },
+              {
+                "paragraph": 4,
+                "text": "Antes de encargar la reparación"
+              },
+              {
+                "paragraph": 5,
+                "text": "salió hacia la relojería"
+              }
+            ]
+          },
+          {
+            "id": "l303-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué información añadirías a una entrevista sobre un objeto que usas a menudo? Propón una pregunta y explica su utilidad.",
+            "answer": "Respuesta personal con una pregunta y un propósito coherente."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "presupuesto",
+            "occurrence": 1,
+            "questionId": "l303-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l303-scene",
+            "src": "assets/readings/l303-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Tomás conversa con Irene sobre un reloj de mesa parado mientras Hugo y Asha preparan una entrevista.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-reloj-que-no-tenia-prisa-ca",
+        "code": "L303",
+        "workId": "el-reloj-que-no-tenia-prisa",
+        "language": "ca",
+        "familyId": "familia-l303",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "technology"
+        ],
+        "genre": "interview",
+        "title": "El rellotge que no tenia pressa",
+        "summary": "En Tomás distingeix tenir la caixa del rellotge reparada de disposar d’un rellotge que marqui l’hora.",
+        "paragraphs": [
+          "L’Hugo i l’Asha recollien entrevistes per explicar a classe quines feines es feien al taller de la Irene. Aquella tarda van conèixer en Tomás, propietari d’una llibreria propera. Portava un rellotge de taula que s’havia aturat. La tapa de fusta de la caixa també estava fluixa; la Irene l’acabava d’ajustar quan els infants es van acostar.",
+          "Hugo: Ara que la tapa encaixa, ja està arreglat?\nIrene: La caixa sí, però el rellotge continua aturat. No sé reparar-ne el mecanisme. Et puc donar l’adreça d’una rellotgera del carrer del costat. Ella l’haurà d’examinar per saber què li passa.",
+          "Asha: Tomás, on el tens normalment?\nTomás: Davant del taulell de la llibreria. Així veig l’hora mentre atenc, sense apartar-me a buscar el telèfon. Des d’allà no veig el rellotge del carrer. El vaig comprar fa dos anys perquè se’n veien bé els números. Els podia llegir sense haver d’aturar la conversa amb els clients.",
+          "Hugo: Si torna a quedar al mateix lloc, et servirà encara que estigui aturat?\nTomás: Per al que necessito, no. M’agrada la caixa, però vull consultar l’hora. Aniré a la rellotgera i demanaré un pressupost. Abans d’encarregar la reparació, vull saber què caldria fer i quant costaria.",
+          "Asha: I si no et convé?\nTomás: Buscaré una altra solució per veure l’hora des del taulell. De moment, porto un rellotge de polsera. El puc fer servir mentre decideixo; no necessito recuperar aquest avui mateix.\nLa Irene va escriure l’adreça en una targeta. En Tomás va embolicar el rellotge, el va desar a la bossa i va sortir cap a la rellotgeria. L’Hugo va separar dues frases a les notes: «Tapa ajustada» i «Mecanisme pendent d’examinar»."
+        ],
+        "questions": [
+          {
+            "id": "l303-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per a què preparaven les entrevistes l’Hugo i l’Asha?",
+            "answer": "Per explicar a classe les feines que es feien al taller.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "per explicar a classe quines feines es feien al taller"
+              }
+            ]
+          },
+          {
+            "id": "l303-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què havia reparat la Irene i què continuava sense funcionar?",
+            "answer": "Havia ajustat la tapa de la caixa; el rellotge continuava aturat.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La caixa sí, però el rellotge continua aturat."
+              }
+            ]
+          },
+          {
+            "id": "l303-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què ha de fer la rellotgera abans de saber què li passa?",
+            "answer": "Examinar el rellotge.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "l’haurà d’examinar per saber què li passa"
+              }
+            ]
+          },
+          {
+            "id": "l303-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què tornar a posar la caixa al seu lloc no resoldria la necessitat d’en Tomás?",
+            "answer": "Perquè necessita llegir l’hora i, encara que la caixa estigui ajustada, el rellotge continua aturat.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "el rellotge continua aturat"
+              },
+              {
+                "paragraph": 4,
+                "text": "vull consultar l’hora"
+              }
+            ]
+          },
+          {
+            "id": "l303-q5",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «pressupost» en la conversa?",
+            "answer": "La proposta de cost que podrà valorar abans d’encarregar la reparació.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "demanaré un pressupost. Abans d’encarregar la reparació, vull saber què caldria fer i quant costaria"
+              }
+            ]
+          },
+          {
+            "id": "l303-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què vol saber en Tomás abans d’encarregar la reparació?",
+            "answer": "Què caldria fer i quant costaria.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "què caldria fer i quant costaria"
+              }
+            ]
+          },
+          {
+            "id": "l303-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina dada li permet consultar l’especialista sense exigir una solució aquell mateix dia?",
+            "answer": "Disposa d’un rellotge de polsera que pot fer servir mentre decideix.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "El puc fer servir mentre decideixo; no necessito recuperar aquest avui mateix."
+              }
+            ]
+          },
+          {
+            "id": "l303-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quina funció té la pregunta de l’Asha «I si no et convé?»?",
+            "answer": "Fa que en Tomás expliqui una altra possibilitat si decideix no acceptar la reparació.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "I si no et convé?"
+              },
+              {
+                "paragraph": 5,
+                "text": "Buscaré una altra solució per veure l’hora des del taulell."
+              }
+            ]
+          },
+          {
+            "id": "l303-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix la necessitat d’en Tomás, el límit de la Irene i el pas següent.",
+            "answer": "En Tomás necessita veure l’hora a la llibreria. La Irene arregla la tapa però no sap reparar el mecanisme. Ell va a una rellotgera per conèixer la reparació i el preu abans de decidir.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "No sé reparar-ne el mecanisme."
+              },
+              {
+                "paragraph": 4,
+                "text": "Abans d’encarregar la reparació"
+              },
+              {
+                "paragraph": 5,
+                "text": "va sortir cap a la rellotgeria"
+              }
+            ]
+          },
+          {
+            "id": "l303-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quina informació afegiries a una entrevista sobre un objecte que fas servir sovint? Proposa una pregunta i explica’n la utilitat.",
+            "answer": "Resposta personal amb una pregunta i un propòsit coherent."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "pressupost",
+            "occurrence": 1,
+            "questionId": "l303-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l303-scene",
+            "src": "assets/readings/l303-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Tomás conversa amb la Irene sobre un rellotge de taula aturat mentre l’Hugo i l’Asha preparen una entrevista.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-reloj-que-no-tenia-prisa-b-es",
+        "code": "L303B",
+        "workId": "el-reloj-que-no-tenia-prisa-b",
+        "language": "es",
+        "familyId": "familia-l303",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "technology"
+        ],
+        "genre": "interview",
+        "title": "El reloj que no tenía prisa",
+        "summary": "Una entrevista separa el aspecto de un objeto, su función y una decisión que necesita más información.",
+        "paragraphs": [
+          "Hugo y Asha reunían entrevistas para explicar en clase qué podía repararse en el taller de Irene. Allí encontraron a Tomás, propietario de una librería cercana. Había traído un reloj de mesa que se había parado. La tapa de madera de la caja estaba suelta. Irene acababa de ajustarla, pero las agujas seguían en la misma posición.",
+          "Hugo: Ahora la tapa encaja. ¿Podemos decir que está arreglado?\nIrene: La caja ha quedado ajustada. El mecanismo sigue sin funcionar y yo no sé repararlo. Conozco a una relojera en la calle de al lado. Tendrá que examinarlo antes de decir qué necesita. Tomás: ¿Puedes apuntarme la dirección para ir después?",
+          "Asha: ¿Qué necesitas tú, Tomás: conservarlo como está o volver a usarlo?\nTomás: Lo tengo frente al mostrador de la librería. Desde allí veo sus números mientras atiendo; el reloj de la calle queda fuera de mi vista. Compré este hace dos años porque podía leerlo desde el fondo. Me gusta la caja, pero si lo vuelvo a colocar allí necesito que marque la hora.",
+          "Hugo: ¿Has decidido entonces que la relojera lo repare?\nTomás: He decidido ir a preguntarle. Primero quiero saber qué habría que hacer y pedir un presupuesto. Cuando conozca el coste, decidiré si encargo la reparación. La tapa ya ajustada me viene bien, pero no me dice cuánto costará reparar lo de dentro.",
+          "Asha: ¿Y si el presupuesto no te conviene?\nTomás: Buscaré otra solución para ver la hora desde el mostrador. No quiero devolver un reloj parado a ese sitio solo porque su caja esté bien. Hoy llevo el de pulsera; puedo utilizarlo mientras decido.\nHugo: Entonces, ¿no tienes prisa por recuperarlo?\nTomás: No tiene que volver hoy mismo a la librería. Prefiero enterarme primero de las opciones.",
+          "Irene escribió la dirección de la relojería en una tarjeta. Tomás comprobó que la llevaba en el bolsillo, envolvió el reloj y lo guardó en su bolsa. Al salir hacia la otra tienda, se despidió de los niños. Hugo había escrito «Reloj arreglado» al principio de la entrevista. Lo tachó y puso dos frases: «Tapa ajustada. Mecanismo pendiente de examinar». Asha le pidió la libreta para copiar la última respuesta de Tomás."
+        ],
+        "questions": [
+          {
+            "id": "l303b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué señal indica al comienzo que el reloj continúa parado?",
+            "answer": "Que las agujas seguían en la misma posición.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "las agujas seguían en la misma posición"
+              }
+            ]
+          },
+          {
+            "id": "l303b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué sabe Irene y qué todavía no puede decir sobre el mecanismo?",
+            "answer": "Sabe que no funciona y que ella no sabe repararlo; no puede decir qué reparación necesitará antes del examen de la relojera.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El mecanismo sigue sin funcionar y yo no sé repararlo."
+              },
+              {
+                "paragraph": 2,
+                "text": "Tendrá que examinarlo antes de decir qué necesita."
+              }
+            ]
+          },
+          {
+            "id": "l303b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué muestra la pregunta de Hugo sobre el significado de «arreglado»?",
+            "answer": "Que tomaba la reparación visible de la tapa como señal de que todo el reloj estaba reparado.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Ahora la tapa encaja. ¿Podemos decir que está arreglado?"
+              }
+            ]
+          },
+          {
+            "id": "l303b-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué dos datos explican que Tomás eligiera este reloj para la librería?",
+            "answer": "Podía leer sus números desde el fondo y no veía el reloj de la calle desde el mostrador.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "el reloj de la calle queda fuera de mi vista"
+              },
+              {
+                "paragraph": 3,
+                "text": "podía leerlo desde el fondo"
+              }
+            ]
+          },
+          {
+            "id": "l303b-q5",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «presupuesto» en la decisión de Tomás?",
+            "answer": "Una propuesta de coste que conocerá antes de aceptar la reparación.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "pedir un presupuesto. Cuando conozca el coste, decidiré si encargo la reparación."
+              }
+            ]
+          },
+          {
+            "id": "l303b-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué decisión ha tomado Tomás y cuál todavía no?",
+            "answer": "Ha decidido consultar a la relojera; aún no ha decidido encargar la reparación.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "He decidido ir a preguntarle."
+              },
+              {
+                "paragraph": 4,
+                "text": "Cuando conozca el coste, decidiré si encargo la reparación."
+              }
+            ]
+          },
+          {
+            "id": "l303b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué le importa más que el reloj marque la hora que conservarlo en ese lugar solo por su caja?",
+            "answer": "Porque lo utiliza para consultar la hora mientras atiende, no solo como un objeto que le gusta mirar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "si lo vuelvo a colocar allí necesito que marque la hora"
+              },
+              {
+                "paragraph": 5,
+                "text": "No quiero devolver un reloj parado a ese sitio solo porque su caja esté bien."
+              }
+            ]
+          },
+          {
+            "id": "l303b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Cómo influye el reloj de pulsera en la decisión de Tomás?",
+            "answer": "Le permite consultar la hora mientras se informa, sin necesitar la devolución del reloj de mesa ese mismo día.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Hoy llevo el de pulsera; puedo utilizarlo mientras decido."
+              },
+              {
+                "paragraph": 5,
+                "text": "No tiene que volver hoy mismo a la librería."
+              }
+            ]
+          },
+          {
+            "id": "l303b-q9",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué cambio hace Hugo en sus notas al final?",
+            "answer": "Tacha «Reloj arreglado» y separa la tapa ajustada del mecanismo pendiente de examinar.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Lo tachó y puso dos frases: «Tapa ajustada. Mecanismo pendiente de examinar»."
+              }
+            ]
+          },
+          {
+            "id": "l303b-q10",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Cómo ayuda la pregunta «¿Y si el presupuesto no te conviene?» a completar la entrevista?",
+            "answer": "Abre una posibilidad distinta de aceptar la reparación y permite explicar qué necesita mantener Tomás en cualquier caso.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Buscaré otra solución para ver la hora desde el mostrador."
+              }
+            ]
+          },
+          {
+            "id": "l303b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resume qué necesita Tomás, qué puede hacer Irene y qué información falta para decidir.",
+            "answer": "Tomás necesita ver la hora desde el mostrador. Irene ha ajustado la tapa pero no repara ese mecanismo. Una relojera debe examinarlo y dar un presupuesto; Tomás decidirá entonces si acepta. Mientras usa su reloj de pulsera.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El mecanismo sigue sin funcionar y yo no sé repararlo."
+              },
+              {
+                "paragraph": 4,
+                "text": "Cuando conozca el coste, decidiré si encargo la reparación."
+              },
+              {
+                "paragraph": 5,
+                "text": "puedo utilizarlo mientras decido"
+              }
+            ]
+          },
+          {
+            "id": "l303b-q12",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Propón una pregunta que ayude a distinguir el aspecto de un objeto de la función que necesita su propietario. Explica qué aportaría a esta entrevista.",
+            "answer": "Respuesta personal con una pregunta útil y una explicación sobre uso, apariencia o decisión."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "presupuesto",
+            "occurrence": 1,
+            "questionId": "l303b-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l303-scene",
+            "src": "assets/readings/l303-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Tomás conversa con Irene sobre un reloj de mesa parado mientras Hugo y Asha preparan una entrevista.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "el-reloj-que-no-tenia-prisa-b-ca",
+        "code": "L303B",
+        "workId": "el-reloj-que-no-tenia-prisa-b",
+        "language": "ca",
+        "familyId": "familia-l303",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "technology"
+        ],
+        "genre": "interview",
+        "title": "El rellotge que no tenia pressa",
+        "summary": "Una entrevista separa l’aspecte d’un objecte, la funció i una decisió que necessita més informació.",
+        "paragraphs": [
+          "L’Hugo i l’Asha reunien entrevistes per explicar a classe què es podia reparar al taller de la Irene. Allà van trobar en Tomás, propietari d’una llibreria propera. Havia portat un rellotge de taula que s’havia aturat. La tapa de fusta de la caixa estava fluixa. La Irene l’acabava d’ajustar, però les agulles continuaven en la mateixa posició.",
+          "Hugo: Ara la tapa encaixa. Podem dir que està arreglat?\nIrene: La caixa ha quedat ajustada. El mecanisme continua sense funcionar i jo no sé reparar-lo. Conec una rellotgera al carrer del costat. L’haurà d’examinar abans de dir què necessita. Tomás: Em pots apuntar l’adreça per anar-hi després?",
+          "Asha: Què necessites tu, Tomás: conservar-lo com està o tornar-lo a fer servir?\nTomás: El tinc davant del taulell de la llibreria. Des d’allà veig els números mentre atenc; el rellotge del carrer em queda fora de la vista. El vaig comprar fa dos anys perquè el podia llegir des del fons. M’agrada la caixa, però si el torno a col·locar allà necessito que marqui l’hora.",
+          "Hugo: Has decidit, doncs, que la rellotgera el repari?\nTomás: He decidit anar-li a preguntar. Primer vull saber què caldria fer i demanar un pressupost. Quan en conegui el cost, decidiré si encarrego la reparació. La tapa ja ajustada em va bé, però no em diu quant costarà reparar el que hi ha dins.",
+          "Asha: I si el pressupost no et convé?\nTomás: Buscaré una altra solució per veure l’hora des del taulell. No vull tornar un rellotge aturat a aquell lloc només perquè la caixa estigui bé. Avui porto el de polsera; el puc fer servir mentre decideixo.\nHugo: Aleshores, no tens pressa per recuperar-lo?\nTomás: No cal que torni avui mateix a la llibreria. Prefereixo assabentar-me primer de les opcions.",
+          "La Irene va escriure l’adreça de la rellotgeria en una targeta. En Tomás va comprovar que la duia a la butxaca, va embolicar el rellotge i el va desar a la bossa. En sortir cap a l’altra botiga, es va acomiadar dels infants. L’Hugo havia escrit «Rellotge arreglat» al principi de l’entrevista. Ho va ratllar i va posar dues frases: «Tapa ajustada. Mecanisme pendent d’examinar». L’Asha li va demanar la llibreta per copiar l’última resposta d’en Tomás."
+        ],
+        "questions": [
+          {
+            "id": "l303b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quin senyal indica al començament que el rellotge continua aturat?",
+            "answer": "Que les agulles continuaven en la mateixa posició.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "les agulles continuaven en la mateixa posició"
+              }
+            ]
+          },
+          {
+            "id": "l303b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què sap la Irene i què encara no pot dir sobre el mecanisme?",
+            "answer": "Sap que no funciona i que ella no sap reparar-lo; no pot dir quina reparació necessitarà abans de l’examen de la rellotgera.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El mecanisme continua sense funcionar i jo no sé reparar-lo."
+              },
+              {
+                "paragraph": 2,
+                "text": "L’haurà d’examinar abans de dir què necessita."
+              }
+            ]
+          },
+          {
+            "id": "l303b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què mostra la pregunta de l’Hugo sobre el significat d’«arreglat»?",
+            "answer": "Que prenia la reparació visible de la tapa com a senyal que tot el rellotge estava reparat.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Ara la tapa encaixa. Podem dir que està arreglat?"
+              }
+            ]
+          },
+          {
+            "id": "l303b-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quines dues dades expliquen que en Tomás triés aquest rellotge per a la llibreria?",
+            "answer": "Podia llegir els números des del fons i no veia el rellotge del carrer des del taulell.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "el rellotge del carrer em queda fora de la vista"
+              },
+              {
+                "paragraph": 3,
+                "text": "el podia llegir des del fons"
+              }
+            ]
+          },
+          {
+            "id": "l303b-q5",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «pressupost» en la decisió d’en Tomás?",
+            "answer": "Una proposta de cost que coneixerà abans d’acceptar la reparació.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "demanar un pressupost. Quan en conegui el cost, decidiré si encarrego la reparació."
+              }
+            ]
+          },
+          {
+            "id": "l303b-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina decisió ha pres en Tomás i quina encara no?",
+            "answer": "Ha decidit consultar la rellotgera; encara no ha decidit encarregar la reparació.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "He decidit anar-li a preguntar."
+              },
+              {
+                "paragraph": 4,
+                "text": "Quan en conegui el cost, decidiré si encarrego la reparació."
+              }
+            ]
+          },
+          {
+            "id": "l303b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què li importa més que el rellotge marqui l’hora que conservar-lo en aquell lloc només per la caixa?",
+            "answer": "Perquè el fa servir per consultar l’hora mentre atén, no només com un objecte que li agrada mirar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "si el torno a col·locar allà necessito que marqui l’hora"
+              },
+              {
+                "paragraph": 5,
+                "text": "No vull tornar un rellotge aturat a aquell lloc només perquè la caixa estigui bé."
+              }
+            ]
+          },
+          {
+            "id": "l303b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Com influeix el rellotge de polsera en la decisió d’en Tomás?",
+            "answer": "Li permet consultar l’hora mentre s’informa, sense necessitar el retorn del rellotge de taula aquell mateix dia.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Avui porto el de polsera; el puc fer servir mentre decideixo."
+              },
+              {
+                "paragraph": 5,
+                "text": "No cal que torni avui mateix a la llibreria."
+              }
+            ]
+          },
+          {
+            "id": "l303b-q9",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quin canvi fa l’Hugo a les notes al final?",
+            "answer": "Ratlla «Rellotge arreglat» i separa la tapa ajustada del mecanisme pendent d’examinar.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Ho va ratllar i va posar dues frases: «Tapa ajustada. Mecanisme pendent d’examinar»."
+              }
+            ]
+          },
+          {
+            "id": "l303b-q10",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Com ajuda la pregunta «I si el pressupost no et convé?» a completar l’entrevista?",
+            "answer": "Obre una possibilitat diferent d’acceptar la reparació i permet explicar què necessita mantenir en Tomás en qualsevol cas.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Buscaré una altra solució per veure l’hora des del taulell."
+              }
+            ]
+          },
+          {
+            "id": "l303b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resumeix què necessita en Tomás, què pot fer la Irene i quina informació falta per decidir.",
+            "answer": "En Tomás necessita veure l’hora des del taulell. La Irene ha ajustat la tapa però no repara aquell mecanisme. Una rellotgera l’ha d’examinar i fer un pressupost; en Tomás decidirà llavors si l’accepta. Mentrestant fa servir el rellotge de polsera.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El mecanisme continua sense funcionar i jo no sé reparar-lo."
+              },
+              {
+                "paragraph": 4,
+                "text": "Quan en conegui el cost, decidiré si encarrego la reparació."
+              },
+              {
+                "paragraph": 5,
+                "text": "el puc fer servir mentre decideixo"
+              }
+            ]
+          },
+          {
+            "id": "l303b-q12",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Proposa una pregunta que ajudi a distingir l’aspecte d’un objecte de la funció que necessita el propietari. Explica què aportaria a aquesta entrevista.",
+            "answer": "Resposta personal amb una pregunta útil i una explicació sobre ús, aparença o decisió."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "pressupost",
+            "occurrence": 1,
+            "questionId": "l303b-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l303-scene",
+            "src": "assets/readings/l303-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Tomás conversa amb la Irene sobre un rellotge de taula aturat mentre l’Hugo i l’Asha preparen una entrevista.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 4
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L303A",
+        "language": "es",
+        "questions": {
+          "l303a-q1": {
+            "prompt": "¿Qué trabajo había terminado Irene?",
+            "options": [
+              "Había reparado el mecanismo del reloj.",
+              "Había colocado el reloj frente al mostrador.",
+              "Había calculado el precio de la reparación.",
+              "Había ajustado la tapa de madera."
+            ],
+            "correct": "d",
+            "explanation": "Había ajustado la tapa de madera."
+          },
+          "l303a-q2": {
+            "prompt": "¿Por qué no repara Irene el mecanismo?",
+            "options": [
+              "Porque no sabe hacer esa reparación.",
+              "Porque Tomás ya no quiere usarlo.",
+              "Porque aún no ha ajustado la tapa.",
+              "Porque el reloj ya da la hora."
+            ],
+            "correct": "a",
+            "explanation": "Porque no sabe reparar ese mecanismo."
+          },
+          "l303a-q3": {
+            "prompt": "¿Dónde utiliza Tomás el reloj?",
+            "options": [
+              "En la calle, junto a la relojería.",
+              "En la clase de Hugo y Asha.",
+              "En la librería, frente al mostrador.",
+              "En el taller, frente a la puerta."
+            ],
+            "correct": "c",
+            "explanation": "En la librería, frente al mostrador."
+          },
+          "l303a-q4": {
+            "prompt": "¿Qué es un «presupuesto» en esta entrevista?",
+            "options": [
+              "La dirección de la calle de al lado.",
+              "El precio previsto para la reparación.",
+              "La hora que marca el reloj parado.",
+              "La nota de la entrevista de clase."
+            ],
+            "correct": "b",
+            "explanation": "La información sobre cuánto costaría reparar el reloj."
+          },
+          "l303a-q5": {
+            "prompt": "¿Por qué Tomás no necesita que le devuelvan el reloj hoy mismo?",
+            "options": [
+              "Porque Irene ya ha reparado el mecanismo.",
+              "Porque ve el reloj de la calle desde allí.",
+              "Porque ha decidido comprar otro reloj de mesa.",
+              "Porque tiene otro reloj que puede consultar."
+            ],
+            "correct": "d",
+            "explanation": "Porque puede usar mientras tanto el reloj de pulsera."
+          },
+          "l303a-q6": {
+            "prompt": "¿Qué ha decidido hacer Tomás al salir del taller?",
+            "options": [
+              "Pedir información antes de decidir la reparación.",
+              "Dejar el reloj en clase para la entrevista.",
+              "Llevar el reloj al mostrador sin preguntar más.",
+              "Encargar a Irene que repare el mecanismo."
+            ],
+            "correct": "a",
+            "explanation": "Ir a la relojería a preguntar por la reparación y su precio."
+          }
+        }
+      },
+      {
+        "code": "L303A",
+        "language": "ca",
+        "questions": {
+          "l303a-q1": {
+            "prompt": "Quina feina havia acabat la Irene?",
+            "options": [
+              "Havia reparat el mecanisme del rellotge.",
+              "Havia col·locat el rellotge davant del taulell.",
+              "Havia calculat el preu de la reparació.",
+              "Havia ajustat la tapa de fusta."
+            ],
+            "correct": "d",
+            "explanation": "Havia ajustat la tapa de fusta."
+          },
+          "l303a-q2": {
+            "prompt": "Per què la Irene no repara el mecanisme?",
+            "options": [
+              "Perquè no sap fer aquella reparació.",
+              "Perquè en Tomás ja no el vol fer servir.",
+              "Perquè encara no ha ajustat la tapa.",
+              "Perquè el rellotge ja marca l’hora."
+            ],
+            "correct": "a",
+            "explanation": "Perquè no sap reparar aquell mecanisme."
+          },
+          "l303a-q3": {
+            "prompt": "On fa servir en Tomás el rellotge?",
+            "options": [
+              "Al carrer, al costat de la rellotgeria.",
+              "A la classe de l’Hugo i l’Asha.",
+              "A la llibreria, davant del taulell.",
+              "Al taller, davant de la porta."
+            ],
+            "correct": "c",
+            "explanation": "A la llibreria, davant del taulell."
+          },
+          "l303a-q4": {
+            "prompt": "Què és un «pressupost» en aquesta entrevista?",
+            "options": [
+              "L’adreça del carrer del costat.",
+              "El preu previst per a la reparació.",
+              "L’hora que marca el rellotge aturat.",
+              "La nota de l’entrevista de classe."
+            ],
+            "correct": "b",
+            "explanation": "La informació sobre quant costaria reparar el rellotge."
+          },
+          "l303a-q5": {
+            "prompt": "Per què en Tomás no necessita que li tornin el rellotge avui mateix?",
+            "options": [
+              "Perquè la Irene ja ha reparat el mecanisme.",
+              "Perquè veu el rellotge del carrer des d’allà.",
+              "Perquè ha decidit comprar un altre rellotge de taula.",
+              "Perquè té un altre rellotge que pot consultar."
+            ],
+            "correct": "d",
+            "explanation": "Perquè mentrestant pot fer servir el rellotge de polsera."
+          },
+          "l303a-q6": {
+            "prompt": "Què ha decidit fer en Tomás en sortir del taller?",
+            "options": [
+              "Demanar informació abans de decidir la reparació.",
+              "Deixar el rellotge a classe per a l’entrevista.",
+              "Portar el rellotge al taulell sense preguntar més.",
+              "Encarregar a la Irene que repari el mecanisme."
+            ],
+            "correct": "a",
+            "explanation": "Anar a la rellotgeria a preguntar per la reparació i el preu."
+          }
+        }
+      },
+      {
+        "code": "L303",
+        "language": "es",
+        "questions": {
+          "l303-q1": {
+            "prompt": "¿Para qué preparaban las entrevistas Hugo y Asha?",
+            "options": [
+              "Para anunciar los horarios de la librería.",
+              "Para comparar los precios de los relojes.",
+              "Para contar en clase los trabajos del taller.",
+              "Para enseñar a reparar mecanismos de reloj."
+            ],
+            "correct": "c",
+            "explanation": "Para explicar en clase los trabajos que se hacían en el taller."
+          },
+          "l303-q2": {
+            "prompt": "¿Qué había reparado Irene y qué seguía sin funcionar?",
+            "options": [
+              "La tapa estaba ajustada; el reloj seguía parado.",
+              "El mecanismo funcionaba; la tapa seguía suelta.",
+              "La tapa encajaba; faltaba examinar la caja.",
+              "El reloj daba la hora; faltaba ajustar la tapa."
+            ],
+            "correct": "a",
+            "explanation": "Había ajustado la tapa de la caja; el reloj seguía parado."
+          },
+          "l303-q3": {
+            "prompt": "¿Qué debe hacer la relojera antes de saber qué le ocurre?",
+            "options": [
+              "Consultar las notas que lleva Hugo.",
+              "Cambiar la caja que ajustó Irene.",
+              "Ver el reloj desde el mostrador.",
+              "Examinar el mecanismo del reloj de mesa."
+            ],
+            "correct": "d",
+            "explanation": "Examinar el reloj."
+          },
+          "l303-q4": {
+            "prompt": "¿Por qué volver a poner la caja en su sitio no resolvería la necesidad de Tomás?",
+            "options": [
+              "Porque desde el mostrador ya ve el reloj de la calle.",
+              "Porque necesita que funcione, además de tener la caja ajustada.",
+              "Porque quiere poner el teléfono en lugar del reloj.",
+              "Porque la caja tapa los números desde el mostrador."
+            ],
+            "correct": "b",
+            "explanation": "Porque necesita leer la hora y, aunque la caja esté ajustada, el reloj sigue parado."
+          },
+          "l303-q5": {
+            "prompt": "¿Qué significa «presupuesto» en la conversación?",
+            "options": [
+              "El precio por comprar una caja nueva.",
+              "La dirección que Irene escribe en la tarjeta.",
+              "El coste previsto del arreglo que quiere valorar.",
+              "La confirmación de que el reloj ya funciona."
+            ],
+            "correct": "c",
+            "explanation": "La propuesta de coste que podrá valorar antes de encargar la reparación."
+          },
+          "l303-q6": {
+            "prompt": "¿Qué quiere saber Tomás antes de encargar la reparación?",
+            "options": [
+              "La intervención necesaria y su coste.",
+              "La hora de entrega y el lugar del mostrador.",
+              "La duración de la entrevista de clase.",
+              "El precio que pagó hace dos años."
+            ],
+            "correct": "a",
+            "explanation": "Qué habría que hacer y cuánto costaría."
+          },
+          "l303-q7": {
+            "prompt": "¿Qué dato le permite consultar a la especialista sin exigir una solución ese mismo día?",
+            "options": [
+              "Que compró el reloj de mesa hace dos años.",
+              "Que la tapa ya encaja en la caja.",
+              "Que Hugo ha escrito dos frases en sus notas.",
+              "Que tiene un reloj de pulsera como alternativa."
+            ],
+            "correct": "d",
+            "explanation": "Dispone de un reloj de pulsera que puede usar mientras decide."
+          },
+          "l303-q8": {
+            "prompt": "¿Qué función tiene la pregunta de Asha «¿Y si no te conviene?»?",
+            "options": [
+              "Le pide confirmar que la tapa ya está reparada.",
+              "Le hace explicar qué hará si no acepta el arreglo.",
+              "Le pide repetir dónde está la relojería.",
+              "Le hace recordar por qué compró la caja."
+            ],
+            "correct": "b",
+            "explanation": "Hace que Tomás explique otra posibilidad si decide no aceptar la reparación."
+          }
+        }
+      },
+      {
+        "code": "L303",
+        "language": "ca",
+        "questions": {
+          "l303-q1": {
+            "prompt": "Per a què preparaven les entrevistes l’Hugo i l’Asha?",
+            "options": [
+              "Per anunciar els horaris de la llibreria.",
+              "Per comparar els preus dels rellotges.",
+              "Per explicar a classe les feines del taller.",
+              "Per ensenyar a reparar mecanismes de rellotge."
+            ],
+            "correct": "c",
+            "explanation": "Per explicar a classe les feines que es feien al taller."
+          },
+          "l303-q2": {
+            "prompt": "Què havia reparat la Irene i què continuava sense funcionar?",
+            "options": [
+              "La tapa estava ajustada; el rellotge continuava aturat.",
+              "El mecanisme funcionava; la tapa continuava fluixa.",
+              "La tapa encaixava; faltava examinar la caixa.",
+              "El rellotge marcava l’hora; faltava ajustar la tapa."
+            ],
+            "correct": "a",
+            "explanation": "Havia ajustat la tapa de la caixa; el rellotge continuava aturat."
+          },
+          "l303-q3": {
+            "prompt": "Què ha de fer la rellotgera abans de saber què li passa?",
+            "options": [
+              "Consultar les notes que porta l’Hugo.",
+              "Canviar la caixa que va ajustar la Irene.",
+              "Veure el rellotge des del taulell.",
+              "Examinar el mecanisme del rellotge de taula."
+            ],
+            "correct": "d",
+            "explanation": "Examinar el rellotge."
+          },
+          "l303-q4": {
+            "prompt": "Per què tornar a posar la caixa al seu lloc no resoldria la necessitat d’en Tomás?",
+            "options": [
+              "Perquè des del taulell ja veu el rellotge del carrer.",
+              "Perquè necessita que funcioni, a més de tenir la caixa ajustada.",
+              "Perquè vol posar el telèfon en lloc del rellotge.",
+              "Perquè la caixa tapa els números des del taulell."
+            ],
+            "correct": "b",
+            "explanation": "Perquè necessita llegir l’hora i, encara que la caixa estigui ajustada, el rellotge continua aturat."
+          },
+          "l303-q5": {
+            "prompt": "Què vol dir «pressupost» en la conversa?",
+            "options": [
+              "El preu per comprar una caixa nova.",
+              "L’adreça que la Irene escriu a la targeta.",
+              "El cost previst de l’arranjament que vol valorar.",
+              "La confirmació que el rellotge ja funciona."
+            ],
+            "correct": "c",
+            "explanation": "La proposta de cost que podrà valorar abans d’encarregar la reparació."
+          },
+          "l303-q6": {
+            "prompt": "Què vol saber en Tomás abans d’encarregar la reparació?",
+            "options": [
+              "La intervenció necessària i el cost.",
+              "L’hora de lliurament i el lloc del taulell.",
+              "La durada de l’entrevista de classe.",
+              "El preu que va pagar fa dos anys."
+            ],
+            "correct": "a",
+            "explanation": "Què caldria fer i quant costaria."
+          },
+          "l303-q7": {
+            "prompt": "Quina dada li permet consultar l’especialista sense exigir una solució aquell mateix dia?",
+            "options": [
+              "Que va comprar el rellotge de taula fa dos anys.",
+              "Que la tapa ja encaixa a la caixa.",
+              "Que l’Hugo ha escrit dues frases a les notes.",
+              "Que té un rellotge de polsera com a alternativa."
+            ],
+            "correct": "d",
+            "explanation": "Disposa d’un rellotge de polsera que pot fer servir mentre decideix."
+          },
+          "l303-q8": {
+            "prompt": "Quina funció té la pregunta de l’Asha «I si no et convé?»?",
+            "options": [
+              "Li demana confirmar que la tapa ja està reparada.",
+              "Li fa explicar què farà si no accepta l’arranjament.",
+              "Li demana repetir on és la rellotgeria.",
+              "Li fa recordar per què va comprar la caixa."
+            ],
+            "correct": "b",
+            "explanation": "Fa que en Tomás expliqui una altra possibilitat si decideix no acceptar la reparació."
+          }
+        }
+      },
+      {
+        "code": "L303B",
+        "language": "es",
+        "questions": {
+          "l303b-q1": {
+            "prompt": "¿Qué señal indica al comienzo que el reloj continúa parado?",
+            "options": [
+              "La tapa de madera encajaba en la caja.",
+              "Tomás miraba el reloj desde el fondo.",
+              "Las agujas no habían cambiado de posición.",
+              "Irene ya había escrito la dirección."
+            ],
+            "correct": "c",
+            "explanation": "Que las agujas seguían en la misma posición."
+          },
+          "l303b-q2": {
+            "prompt": "¿Qué sabe Irene y qué todavía no puede decir sobre el mecanismo?",
+            "options": [
+              "Sabe que sigue parado; falta saber qué arreglo necesita.",
+              "Sabe qué pieza falla; falta escoger quién reparará la tapa.",
+              "Sabe el coste del arreglo; falta elegir otra caja.",
+              "Sabe que funciona; falta probarlo desde el mostrador."
+            ],
+            "correct": "a",
+            "explanation": "Sabe que no funciona y que ella no sabe repararlo; no puede decir qué reparación necesitará antes del examen de la relojera."
+          },
+          "l303b-q3": {
+            "prompt": "¿Qué muestra la pregunta de Hugo sobre el significado de «arreglado»?",
+            "options": [
+              "Que había visto funcionar el mecanismo antes de preguntar.",
+              "Que no sabía para qué se usaba el reloj en la librería.",
+              "Que creía que Tomás había rechazado arreglar la caja.",
+              "Que confundía una parte reparada con el objeto resuelto."
+            ],
+            "correct": "d",
+            "explanation": "Que tomaba la reparación visible de la tapa como señal de que todo el reloj estaba reparado."
+          },
+          "l303b-q4": {
+            "prompt": "¿Qué dos datos explican que Tomás eligiera este reloj para la librería?",
+            "options": [
+              "La caja le gustaba y el reloj de pulsera se había parado.",
+              "Sus números se veían y el reloj de la calle no.",
+              "Su mecanismo era sencillo y la tienda estaba cerca.",
+              "Era de pulsera y podía llevarlo mientras atendía."
+            ],
+            "correct": "b",
+            "explanation": "Podía leer sus números desde el fondo y no veía el reloj de la calle desde el mostrador."
+          },
+          "l303b-q5": {
+            "prompt": "¿Qué significa «presupuesto» en la decisión de Tomás?",
+            "options": [
+              "Una cita que obliga a reparar el reloj.",
+              "Una nota que confirma el mecanismo reparado.",
+              "Una propuesta del precio que podrá valorar.",
+              "Una dirección donde cambiar la tapa suelta."
+            ],
+            "correct": "c",
+            "explanation": "Una propuesta de coste que conocerá antes de aceptar la reparación."
+          },
+          "l303b-q6": {
+            "prompt": "¿Qué decisión ha tomado Tomás y cuál todavía no?",
+            "options": [
+              "Irá a consultar; decidirá el arreglo cuando sepa el coste.",
+              "Encargará el arreglo; decidirá después dónde poner el reloj.",
+              "Guardará la caja; decidirá después a quién entrevistar.",
+              "Comprará otro reloj; decidirá después si consulta a Irene."
+            ],
+            "correct": "a",
+            "explanation": "Ha decidido consultar a la relojera; aún no ha decidido encargar la reparación."
+          },
+          "l303b-q7": {
+            "prompt": "¿Por qué le importa más que el reloj marque la hora que conservarlo en ese lugar solo por su caja?",
+            "options": [
+              "Porque la tapa ajustada permite leer los números desde el fondo.",
+              "Porque necesita cambiar el horario de su librería.",
+              "Porque prefiere una caja que se vea desde la calle.",
+              "Porque el lugar tiene una función práctica para él."
+            ],
+            "correct": "d",
+            "explanation": "Porque lo utiliza para consultar la hora mientras atiende, no solo como un objeto que le gusta mirar."
+          },
+          "l303b-q8": {
+            "prompt": "¿Cómo influye el reloj de pulsera en la decisión de Tomás?",
+            "options": [
+              "Le permite evitar conocer el coste de la reparación.",
+              "Le da una alternativa mientras pregunta y valora el arreglo.",
+              "Le asegura que la relojera terminará esa misma tarde.",
+              "Le demuestra que basta con arreglar la caja del reloj."
+            ],
+            "correct": "b",
+            "explanation": "Le permite consultar la hora mientras se informa, sin necesitar la devolución del reloj de mesa ese mismo día."
+          },
+          "l303b-q9": {
+            "prompt": "¿Qué cambio hace Hugo en sus notas al final?",
+            "options": [
+              "Cambia la dirección del taller por la de la librería.",
+              "Borra las preguntas y conserva solo el presupuesto.",
+              "Distingue lo terminado de lo que aún falta examinar.",
+              "Anota que la relojera ya ha aceptado hacer el arreglo."
+            ],
+            "correct": "c",
+            "explanation": "Tacha «Reloj arreglado» y separa la tapa ajustada del mecanismo pendiente de examinar."
+          },
+          "l303b-q10": {
+            "prompt": "¿Cómo ayuda la pregunta «¿Y si el presupuesto no te conviene?» a completar la entrevista?",
+            "options": [
+              "Explora una alternativa sin dar por aceptada la reparación.",
+              "Confirma que Tomás ya conoce el precio del arreglo.",
+              "Demuestra que la caja no ha quedado bien ajustada.",
+              "Resuelve qué pieza del mecanismo deberá cambiarse."
+            ],
+            "correct": "a",
+            "explanation": "Abre una posibilidad distinta de aceptar la reparación y permite explicar qué necesita mantener Tomás en cualquier caso."
+          }
+        }
+      },
+      {
+        "code": "L303B",
+        "language": "ca",
+        "questions": {
+          "l303b-q1": {
+            "prompt": "Quin senyal indica al començament que el rellotge continua aturat?",
+            "options": [
+              "La tapa de fusta encaixava a la caixa.",
+              "En Tomás mirava el rellotge des del fons.",
+              "Les agulles no havien canviat de posició.",
+              "La Irene ja havia escrit l’adreça."
+            ],
+            "correct": "c",
+            "explanation": "Que les agulles continuaven en la mateixa posició."
+          },
+          "l303b-q2": {
+            "prompt": "Què sap la Irene i què encara no pot dir sobre el mecanisme?",
+            "options": [
+              "Sap que continua aturat; falta saber quin arranjament necessita.",
+              "Sap quina peça falla; falta triar qui repararà la tapa.",
+              "Sap el cost de l’arranjament; falta triar una altra caixa.",
+              "Sap que funciona; falta provar-lo des del taulell."
+            ],
+            "correct": "a",
+            "explanation": "Sap que no funciona i que ella no sap reparar-lo; no pot dir quina reparació necessitarà abans de l’examen de la rellotgera."
+          },
+          "l303b-q3": {
+            "prompt": "Què mostra la pregunta de l’Hugo sobre el significat d’«arreglat»?",
+            "options": [
+              "Que havia vist funcionar el mecanisme abans de preguntar.",
+              "Que no sabia per a què es feia servir el rellotge a la llibreria.",
+              "Que creia que en Tomás havia rebutjat arreglar la caixa.",
+              "Que confonia una part reparada amb l’objecte resolt."
+            ],
+            "correct": "d",
+            "explanation": "Que prenia la reparació visible de la tapa com a senyal que tot el rellotge estava reparat."
+          },
+          "l303b-q4": {
+            "prompt": "Quines dues dades expliquen que en Tomás triés aquest rellotge per a la llibreria?",
+            "options": [
+              "La caixa li agradava i el rellotge de polsera s’havia aturat.",
+              "Els números es veien i el rellotge del carrer no.",
+              "El mecanisme era senzill i la botiga era a prop.",
+              "Era de polsera i el podia dur mentre atenia."
+            ],
+            "correct": "b",
+            "explanation": "Podia llegir els números des del fons i no veia el rellotge del carrer des del taulell."
+          },
+          "l303b-q5": {
+            "prompt": "Què vol dir «pressupost» en la decisió d’en Tomás?",
+            "options": [
+              "Una cita que obliga a reparar el rellotge.",
+              "Una nota que confirma el mecanisme reparat.",
+              "Una proposta del preu que podrà valorar.",
+              "Una adreça on canviar la tapa fluixa."
+            ],
+            "correct": "c",
+            "explanation": "Una proposta de cost que coneixerà abans d’acceptar la reparació."
+          },
+          "l303b-q6": {
+            "prompt": "Quina decisió ha pres en Tomás i quina encara no?",
+            "options": [
+              "Hi anirà a consultar; decidirà l’arranjament quan sàpiga el cost.",
+              "Encarregarà l’arranjament; decidirà després on posar el rellotge.",
+              "Desarà la caixa; decidirà després qui entrevistarà.",
+              "Comprarà un altre rellotge; decidirà després si consulta la Irene."
+            ],
+            "correct": "a",
+            "explanation": "Ha decidit consultar la rellotgera; encara no ha decidit encarregar la reparació."
+          },
+          "l303b-q7": {
+            "prompt": "Per què li importa més que el rellotge marqui l’hora que conservar-lo en aquell lloc només per la caixa?",
+            "options": [
+              "Perquè la tapa ajustada permet llegir els números des del fons.",
+              "Perquè necessita canviar l’horari de la llibreria.",
+              "Perquè prefereix una caixa que es vegi des del carrer.",
+              "Perquè el lloc té una funció pràctica per a ell."
+            ],
+            "correct": "d",
+            "explanation": "Perquè el fa servir per consultar l’hora mentre atén, no només com un objecte que li agrada mirar."
+          },
+          "l303b-q8": {
+            "prompt": "Com influeix el rellotge de polsera en la decisió d’en Tomás?",
+            "options": [
+              "Li permet evitar conèixer el cost de la reparació.",
+              "Li dona una alternativa mentre pregunta i valora l’arranjament.",
+              "Li assegura que la rellotgera acabarà aquella mateixa tarda.",
+              "Li demostra que n’hi ha prou d’arreglar la caixa del rellotge."
+            ],
+            "correct": "b",
+            "explanation": "Li permet consultar l’hora mentre s’informa, sense necessitar el retorn del rellotge de taula aquell mateix dia."
+          },
+          "l303b-q9": {
+            "prompt": "Quin canvi fa l’Hugo a les notes al final?",
+            "options": [
+              "Canvia l’adreça del taller per la de la llibreria.",
+              "Esborra les preguntes i conserva només el pressupost.",
+              "Distingeix què està acabat de què encara falta examinar.",
+              "Anota que la rellotgera ja ha acceptat fer l’arranjament."
+            ],
+            "correct": "c",
+            "explanation": "Ratlla «Rellotge arreglat» i separa la tapa ajustada del mecanisme pendent d’examinar."
+          },
+          "l303b-q10": {
+            "prompt": "Com ajuda la pregunta «I si el pressupost no et convé?» a completar l’entrevista?",
+            "options": [
+              "Explora una alternativa sense donar per acceptada la reparació.",
+              "Confirma que en Tomás ja coneix el preu de l’arranjament.",
+              "Demostra que la caixa no ha quedat ben ajustada.",
+              "Resol quina peça del mecanisme s’haurà de canviar."
+            ],
+            "correct": "a",
+            "explanation": "Obre una possibilitat diferent d’acceptar la reparació i permet explicar què necessita mantenir en Tomás en qualsevol cas."
+          }
+        }
+      }
+    ]
   }
 ];

@@ -1,6 +1,6 @@
 # Seguiment de les alternatives ABCD
 
-Actualitzat el 2026-11-26. **588 de 588 fitxes concretes** tenen alternatives en català i castellà; en queden 0 pendents. Hi ha 5834 alternatives lingüístiques revisades.
+Actualitzat el 2026-11-26. **591 de 591 fitxes concretes** tenen alternatives en català i castellà; en queden 0 pendents. Hi ha 5882 alternatives lingüístiques revisades.
 
 La xifra inclou lectures base i variants de família, que es treballen independentment. Cobrir una lectura vol dir donar alternativa a les preguntes adequades; les opinions i activitats de producció es mantenen obertes. Provisional significa revisió independent superada i validació docent pendent. El prototip base L001–L005 ha estat acceptat pel docent pel que fa al format.
 
@@ -70,7 +70,7 @@ Pots escriure un rang com 6-10 al cercador del web. La taula compta les fitxes c
 | L286–L290 | 15/15 | Complet ES/CA |
 | L291–L295 | 15/15 | Complet ES/CA |
 | L296–L300 | 15/15 | Complet ES/CA |
-| L301–L302 | 6/6 | Complet ES/CA |
+| L301–L303 | 9/9 | Complet ES/CA |
 
 ## Lots publicats
 
@@ -134,6 +134,6 @@ Pots escriure un rang com 6-10 al cercador del web. La taula compta les fitxes c
 | Biblioteca · famílies noves | v1.59.11 | 33 | [Registre de revisió](question-choices/library-2026-11-26-review.json) |
 | Redacció · famílies noves | v1.60.8 | 27 | [Registre de revisió](question-choices/newsroom-2026-11-26-review.json) |
 | Observatori · famílies noves | v1.61.8 | 27 | [Registre de revisió](question-choices/observatory-2026-11-26-review.json) |
-| Taller · famílies noves | v1.62.4 | 15 | [Registre de revisió](question-choices/workshop-2026-11-26-review.json) |
+| Taller · famílies noves | v1.62.5 | 18 | [Registre de revisió](question-choices/workshop-2026-11-26-review.json) |
 
 El detall per codi, llengua i número de pregunta és a [question-choices-coverage.json](question-choices-coverage.json). Els criteris editorials i de gradació són a [question-choices.md](question-choices.md).

@@ -1,9 +1,9 @@
 {
   "date": "2026-11-26",
-  "totalWorks": 588,
-  "coveredWorks": 588,
+  "totalWorks": 591,
+  "coveredWorks": 591,
   "pendingWorks": 0,
-  "localizedAlternatives": 5834,
+  "localizedAlternatives": 5882,
   "ranges": [
     {
       "start": 1,
@@ -427,9 +427,9 @@
     },
     {
       "start": 301,
-      "end": 302,
-      "total": 6,
-      "covered": 6,
+      "end": 303,
+      "total": 9,
+      "covered": 9,
       "status": "complete"
     }
   ],
@@ -36112,6 +36112,261 @@
             },
             {
               "id": "l302b-q10",
+              "number": 10
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L303",
+      "baseCode": "L303",
+      "variant": false,
+      "level": "5-primary",
+      "difficulty": "intermediate",
+      "title": "El rellotge que no tenia pressa",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l303-q1",
+              "number": 1
+            },
+            {
+              "id": "l303-q2",
+              "number": 2
+            },
+            {
+              "id": "l303-q3",
+              "number": 3
+            },
+            {
+              "id": "l303-q4",
+              "number": 4
+            },
+            {
+              "id": "l303-q5",
+              "number": 5
+            },
+            {
+              "id": "l303-q6",
+              "number": 6
+            },
+            {
+              "id": "l303-q7",
+              "number": 7
+            },
+            {
+              "id": "l303-q8",
+              "number": 8
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l303-q1",
+              "number": 1
+            },
+            {
+              "id": "l303-q2",
+              "number": 2
+            },
+            {
+              "id": "l303-q3",
+              "number": 3
+            },
+            {
+              "id": "l303-q4",
+              "number": 4
+            },
+            {
+              "id": "l303-q5",
+              "number": 5
+            },
+            {
+              "id": "l303-q6",
+              "number": 6
+            },
+            {
+              "id": "l303-q7",
+              "number": 7
+            },
+            {
+              "id": "l303-q8",
+              "number": 8
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L303A",
+      "baseCode": "L303",
+      "variant": true,
+      "level": "4-primary",
+      "difficulty": "intermediate",
+      "title": "El rellotge que no tenia pressa",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l303a-q1",
+              "number": 1
+            },
+            {
+              "id": "l303a-q2",
+              "number": 2
+            },
+            {
+              "id": "l303a-q3",
+              "number": 3
+            },
+            {
+              "id": "l303a-q4",
+              "number": 4
+            },
+            {
+              "id": "l303a-q5",
+              "number": 5
+            },
+            {
+              "id": "l303a-q6",
+              "number": 6
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l303a-q1",
+              "number": 1
+            },
+            {
+              "id": "l303a-q2",
+              "number": 2
+            },
+            {
+              "id": "l303a-q3",
+              "number": 3
+            },
+            {
+              "id": "l303a-q4",
+              "number": 4
+            },
+            {
+              "id": "l303a-q5",
+              "number": 5
+            },
+            {
+              "id": "l303a-q6",
+              "number": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L303B",
+      "baseCode": "L303",
+      "variant": true,
+      "level": "6-primary",
+      "difficulty": "intermediate",
+      "title": "El rellotge que no tenia pressa",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l303b-q1",
+              "number": 1
+            },
+            {
+              "id": "l303b-q2",
+              "number": 2
+            },
+            {
+              "id": "l303b-q3",
+              "number": 3
+            },
+            {
+              "id": "l303b-q4",
+              "number": 4
+            },
+            {
+              "id": "l303b-q5",
+              "number": 5
+            },
+            {
+              "id": "l303b-q6",
+              "number": 6
+            },
+            {
+              "id": "l303b-q7",
+              "number": 7
+            },
+            {
+              "id": "l303b-q8",
+              "number": 8
+            },
+            {
+              "id": "l303b-q9",
+              "number": 9
+            },
+            {
+              "id": "l303b-q10",
+              "number": 10
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l303b-q1",
+              "number": 1
+            },
+            {
+              "id": "l303b-q2",
+              "number": 2
+            },
+            {
+              "id": "l303b-q3",
+              "number": 3
+            },
+            {
+              "id": "l303b-q4",
+              "number": 4
+            },
+            {
+              "id": "l303b-q5",
+              "number": 5
+            },
+            {
+              "id": "l303b-q6",
+              "number": 6
+            },
+            {
+              "id": "l303b-q7",
+              "number": 7
+            },
+            {
+              "id": "l303b-q8",
+              "number": 8
+            },
+            {
+              "id": "l303b-q9",
+              "number": 9
+            },
+            {
+              "id": "l303b-q10",
               "number": 10
             }
           ]
