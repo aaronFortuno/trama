@@ -10518,5 +10518,1498 @@ export const observatoryPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L296",
+    "edition": "v1.61.7",
+    "family": {
+      "id": "familia-l296",
+      "code": "L296",
+      "name": {
+        "es": "El poema de la bufanda",
+        "ca": "El poema de la bufanda"
+      },
+      "description": {
+        "ca": "Una història de L’observatori del turó, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de El observatorio de la colina, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L296A",
+        "L296",
+        "L296B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "el-poema-de-la-bufanda-a-es",
+        "code": "L296A",
+        "workId": "el-poema-de-la-bufanda-a",
+        "language": "es",
+        "familyId": "familia-l296",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "3-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "everyday",
+          "community"
+        ],
+        "genre": "diary",
+        "title": "El poema de la bufanda",
+        "summary": "Dani cuenta en su diario cómo un poema de Mira sonó distinto al leerlo otra vez.",
+        "paragraphs": [
+          "Hoy he vuelto al observatorio de la colina con Mira. Soy Dani y escribo esto en mi diario. Esperábamos en el banco del porche mientras Joana, la guía, atendía a otro grupo. Yo tiritaba. Mira sacó una bufanda roja de su mochila y me la dejó.",
+          "Después me enseñó un poema que acababa de escribir. Lo copio aquí:\nLa noche lleva bufanda,\nel viento tira de un hilo.\nYo me guardo una palabra\npara decirla bajito.",
+          "Mira lo leyó muy deprisa. Apenas oí la última palabra. Le pedí que lo repitiera más despacio. Esta vez se paró un momento antes del último verso y lo dijo con voz suave. Joana lo escuchó desde la puerta y sonrió.",
+          "Me bajé la bufanda, que me tapaba la boca, para repetir el final. Mira guardó el cuaderno y entramos detrás de Joana. Le devolveré la bufanda al salir."
+        ],
+        "questions": [
+          {
+            "id": "l296a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Quién escribe este diario?",
+            "answer": "Dani.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Soy Dani y escribo esto en mi diario."
+              }
+            ]
+          },
+          {
+            "id": "l296a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿De quién era la bufanda roja?",
+            "answer": "De Mira, que se la dejó a Dani.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Mira sacó una bufanda roja de su mochila y me la dejó."
+              }
+            ]
+          },
+          {
+            "id": "l296a-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué quiere decir «tiritaba» en este texto?",
+            "answer": "Que tenía frío y su cuerpo temblaba.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Yo tiritaba."
+              },
+              {
+                "paragraph": 1,
+                "text": "Mira sacó una bufanda roja"
+              }
+            ]
+          },
+          {
+            "id": "l296a-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Dani pidió una segunda lectura?",
+            "answer": "Porque Mira había leído tan deprisa que apenas había oído la última palabra.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Mira lo leyó muy deprisa. Apenas oí la última palabra."
+              }
+            ]
+          },
+          {
+            "id": "l296a-q5",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "Explica qué cambió entre las dos lecturas del poema.",
+            "answer": "La primera fue muy rápida. En la segunda Mira leyó más despacio, hizo una pausa y dijo el final con voz suave.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Mira lo leyó muy deprisa."
+              },
+              {
+                "paragraph": 3,
+                "text": "se paró un momento antes del último verso y lo dijo con voz suave"
+              }
+            ]
+          },
+          {
+            "id": "l296a-q6",
+            "type": "opinion",
+            "lines": 2,
+            "prompt": "¿Qué verso te gusta más? Explica por qué.",
+            "answer": "Respuesta personal: se acepta cualquier verso con una explicación relacionada con sus palabras o con lo que hace imaginar."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "tiritaba",
+            "occurrence": 1,
+            "questionId": "l296a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l296-scene",
+            "src": "assets/readings/l296-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Dani, con una bufanda rojiza, escucha a Mira leer un cuaderno en el banco del porche del observatorio.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El pequeño observatorio de piedra clara y cúpula gris en una colina con pinos, bajo un cielo lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-poema-de-la-bufanda-a-ca",
+        "code": "L296A",
+        "workId": "el-poema-de-la-bufanda-a",
+        "language": "ca",
+        "familyId": "familia-l296",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "3-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "everyday",
+          "community"
+        ],
+        "genre": "diary",
+        "title": "El poema de la bufanda",
+        "summary": "En Dani explica al diari com un poema de la Mira va sonar diferent en llegir-lo una altra vegada.",
+        "paragraphs": [
+          "Avui he tornat a l’observatori del turó amb la Mira. Soc en Dani i ho escric al diari. Esperàvem al banc del porxo mentre la Joana, la guia, atenia un altre grup. Jo tremolava. La Mira va treure una bufanda vermella de la motxilla i me la va deixar.",
+          "Després em va ensenyar un poema que acabava d’escriure. El copio aquí:\nLa nit porta una bufanda,\nel vent estira un fil.\nEm guardo una paraula\nper dir-la ben fluixet.",
+          "La Mira el va llegir molt de pressa. Gairebé no vaig sentir l’última paraula. Li vaig demanar que el repetís més a poc a poc. Aquest cop es va aturar un moment abans de l’últim vers i el va dir amb veu suau. La Joana el va escoltar des de la porta i va somriure.",
+          "Em vaig abaixar la bufanda, que em tapava la boca, per repetir el final. La Mira va desar el quadern i vam entrar darrere la Joana. Li tornaré la bufanda quan sortim."
+        ],
+        "questions": [
+          {
+            "id": "l296a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Qui escriu aquest diari?",
+            "answer": "En Dani.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Soc en Dani i ho escric al diari."
+              }
+            ]
+          },
+          {
+            "id": "l296a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "De qui era la bufanda vermella?",
+            "answer": "De la Mira, que la va deixar a en Dani.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "La Mira va treure una bufanda vermella de la motxilla i me la va deixar."
+              }
+            ]
+          },
+          {
+            "id": "l296a-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «tremolava» en aquest text?",
+            "answer": "Que tenia fred i el cos se li movia amb petites sacsejades.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Jo tremolava."
+              },
+              {
+                "paragraph": 1,
+                "text": "La Mira va treure una bufanda vermella"
+              }
+            ]
+          },
+          {
+            "id": "l296a-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què en Dani va demanar una segona lectura?",
+            "answer": "Perquè la Mira havia llegit tan de pressa que gairebé no havia sentit l’última paraula.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La Mira el va llegir molt de pressa. Gairebé no vaig sentir l’última paraula."
+              }
+            ]
+          },
+          {
+            "id": "l296a-q5",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "Explica què va canviar entre les dues lectures del poema.",
+            "answer": "La primera va ser molt ràpida. A la segona la Mira va llegir més a poc a poc, va fer una pausa i va dir el final amb veu suau.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La Mira el va llegir molt de pressa."
+              },
+              {
+                "paragraph": 3,
+                "text": "es va aturar un moment abans de l’últim vers i el va dir amb veu suau"
+              }
+            ]
+          },
+          {
+            "id": "l296a-q6",
+            "type": "opinion",
+            "lines": 2,
+            "prompt": "Quin vers t’agrada més? Explica per què.",
+            "answer": "Resposta personal: s’accepta qualsevol vers amb una explicació relacionada amb les paraules o amb allò que fa imaginar."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "tremolava",
+            "occurrence": 1,
+            "questionId": "l296a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l296-scene",
+            "src": "assets/readings/l296-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Dani, amb una bufanda vermellosa, escolta la Mira llegint un quadern al banc del porxo de l’observatori.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El petit observatori de pedra clara i cúpula grisa en un turó amb pins, sota un cel lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-poema-de-la-bufanda-es",
+        "code": "L296",
+        "workId": "el-poema-de-la-bufanda",
+        "language": "es",
+        "familyId": "familia-l296",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "everyday",
+          "community"
+        ],
+        "genre": "diary",
+        "title": "El poema de la bufanda",
+        "summary": "Una bufanda prestada y dos maneras de leer quedan en el diario de Dani.",
+        "paragraphs": [
+          "Esta tarde he visitado con Mira el observatorio de la colina. Soy Dani y dejo en mi diario lo que ha pasado antes de entrar en la cúpula. Joana, la guía adulta, estaba terminando con otro grupo. Nosotros esperábamos en el banco del porche. Yo tiritaba y metía las manos en los bolsillos. Mira encontró una bufanda roja en su mochila y me la prestó.",
+          "Mientras yo me la enrollaba al cuello, Mira escribió cuatro versos en su cuaderno. Le pregunté si me los enseñaba. Los copio para recordarlos:\nLa noche lleva bufanda,\nel viento tira de un hilo.\nYo me guardo una palabra\npara decirla bajito.",
+          "Mira comenzó a leer antes de que yo acabara de sentarme. Fue tan deprisa que apenas oí la última palabra. Se lo dije. «Ya la habrás visto en el papel», respondió. Pero cuando aparté los ojos del cuaderno, me costó recordar cómo terminaba. Le pedí que lo leyera otra vez, más despacio.",
+          "Esta vez esperó a que la mirara. Leyó los primeros versos y dejó una pausa antes del último. Después lo dijo con voz suave. Oí «bajito» con claridad, aunque no lo había gritado. Joana apareció en la puerta y dijo que también lo había escuchado. Mira volvió a mirar sus cuatro líneas, que seguían siendo las mismas.",
+          "Me bajé la bufanda, que me tapaba la boca, e intenté repetir el final. Mira cerró el cuaderno y entramos detrás de Joana. La bufanda sigue conmigo mientras escribo. Se la devolveré al salir; el poema me lo quedo en esta página, con su nombre al lado."
+        ],
+        "questions": [
+          {
+            "id": "l296-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Por qué esperaban en el banco del porche?",
+            "answer": "Porque Joana estaba terminando con otro grupo.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Joana, la guía adulta, estaba terminando con otro grupo."
+              }
+            ]
+          },
+          {
+            "id": "l296-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Quién escribió el poema y quién lo copió en su diario?",
+            "answer": "Mira lo escribió y Dani lo copió en su diario.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Mira escribió cuatro versos en su cuaderno"
+              },
+              {
+                "paragraph": 2,
+                "text": "Los copio para recordarlos"
+              }
+            ]
+          },
+          {
+            "id": "l296-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa que Dani oyó «con claridad» la última palabra?",
+            "answer": "Que pudo distinguirla bien.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Oí «bajito» con claridad"
+              }
+            ]
+          },
+          {
+            "id": "l296-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué ver la palabra en el papel no resolvía lo que Dani le pedía a Mira?",
+            "answer": "Él quería poder seguir y recordar el poema al escucharlo; al apartar la mirada no recordaba bien el final.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "cuando aparté los ojos del cuaderno, me costó recordar cómo terminaba"
+              }
+            ]
+          },
+          {
+            "id": "l296-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Escribe dos cosas que hizo Mira de otra manera en la segunda lectura.",
+            "answer": "Leyó más despacio, esperó que Dani la mirara, hizo una pausa antes del último verso o lo dijo con voz suave. Bastan dos.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "más despacio"
+              },
+              {
+                "paragraph": 4,
+                "text": "esperó a que la mirara"
+              },
+              {
+                "paragraph": 4,
+                "text": "dejó una pausa antes del último"
+              }
+            ]
+          },
+          {
+            "id": "l296-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Para qué incluye Dani los cuatro versos dentro de su diario?",
+            "answer": "Para conservar el poema y permitir que quien lea el diario conozca las palabras de las que habla.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Los copio para recordarlos"
+              },
+              {
+                "paragraph": 5,
+                "text": "el poema me lo quedo en esta página, con su nombre al lado"
+              }
+            ]
+          },
+          {
+            "id": "l296-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume el problema de la primera lectura y cómo lo resolvieron.",
+            "answer": "Mira leyó tan rápido que Dani no siguió bien el final. Ella repitió los mismos versos más despacio y con una pausa, y él pudo oírlos claramente.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Fue tan deprisa que apenas oí la última palabra."
+              },
+              {
+                "paragraph": 4,
+                "text": "Leyó los primeros versos y dejó una pausa antes del último."
+              }
+            ]
+          },
+          {
+            "id": "l296-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Cómo leerías tú el último verso? Explica tu elección.",
+            "answer": "Respuesta personal justificada. Puede proponer volumen, ritmo o una pausa relacionándolos con las palabras del verso."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "con claridad",
+            "occurrence": 1,
+            "questionId": "l296-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l296-scene",
+            "src": "assets/readings/l296-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Dani, con una bufanda rojiza, escucha a Mira leer un cuaderno en el banco del porche del observatorio.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El pequeño observatorio de piedra clara y cúpula gris en una colina con pinos, bajo un cielo lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-poema-de-la-bufanda-ca",
+        "code": "L296",
+        "workId": "el-poema-de-la-bufanda",
+        "language": "ca",
+        "familyId": "familia-l296",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "everyday",
+          "community"
+        ],
+        "genre": "diary",
+        "title": "El poema de la bufanda",
+        "summary": "Una bufanda deixada i dues maneres de llegir queden al diari d’en Dani.",
+        "paragraphs": [
+          "Aquesta tarda he visitat amb la Mira l’observatori del turó. Soc en Dani i deixo al diari el que ha passat abans d’entrar a la cúpula. La Joana, la guia adulta, estava acabant d’atendre un altre grup. Nosaltres esperàvem al banc del porxo. Jo tremolava i em ficava les mans a les butxaques. La Mira va trobar una bufanda vermella a la motxilla i me la va deixar.",
+          "Llavors la Mira va escriure quatre versos al quadern. Li vaig preguntar si me’ls ensenyava. Els copio per recordar-los:\nLa nit porta una bufanda,\nel vent estira un fil.\nEm guardo una paraula\nper dir-la ben fluixet.",
+          "La Mira va començar a llegir abans que jo acabés d’asseure’m. Va anar tan de pressa que gairebé no vaig sentir l’última paraula. Li ho vaig dir. «Ja l’hauràs vista al paper», va respondre. Però quan vaig apartar els ulls del quadern, em va costar recordar com acabava. Li vaig demanar que el llegís una altra vegada, més a poc a poc.",
+          "Aquest cop va esperar que la mirés. Va llegir els primers versos i va deixar una pausa abans de l’últim. Després el va dir amb veu suau. Vaig sentir «fluixet» amb claredat, tot i que no ho havia cridat. La Joana va aparèixer a la porta i va dir que l’havia escoltat. La Mira va tornar a mirar les quatre línies, que continuaven sent les mateixes.",
+          "Em vaig abaixar la bufanda, que em tapava la boca, i vaig provar de repetir el final. La Mira va tancar el quadern i vam entrar darrere la Joana. La hi tornaré quan sortim; el poema me’l quedo en aquesta pàgina, amb el seu nom al costat."
+        ],
+        "questions": [
+          {
+            "id": "l296-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Per què esperaven al banc del porxo?",
+            "answer": "Perquè la Joana estava acabant d’atendre un altre grup.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "La Joana, la guia adulta, estava acabant d’atendre un altre grup."
+              }
+            ]
+          },
+          {
+            "id": "l296-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Qui va escriure el poema i qui el va copiar al diari?",
+            "answer": "La Mira el va escriure i en Dani el va copiar al diari.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "la Mira va escriure quatre versos al quadern"
+              },
+              {
+                "paragraph": 2,
+                "text": "Els copio per recordar-los"
+              }
+            ]
+          },
+          {
+            "id": "l296-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir que en Dani va sentir «amb claredat» l’última paraula?",
+            "answer": "Que la va poder distingir bé.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Vaig sentir «fluixet» amb claredat"
+              }
+            ]
+          },
+          {
+            "id": "l296-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què veure la paraula al paper no resolia el que en Dani demanava a la Mira?",
+            "answer": "Ell volia poder seguir i recordar el poema en escoltar-lo; en apartar la mirada no recordava bé el final.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "quan vaig apartar els ulls del quadern, em va costar recordar com acabava"
+              }
+            ]
+          },
+          {
+            "id": "l296-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Escriu dues coses que la Mira va fer d’una altra manera a la segona lectura.",
+            "answer": "Va llegir més a poc a poc, va esperar que en Dani la mirés, va fer una pausa abans de l’últim vers o el va dir amb veu suau. N’hi ha prou amb dues.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "més a poc a poc"
+              },
+              {
+                "paragraph": 4,
+                "text": "va esperar que la mirés"
+              },
+              {
+                "paragraph": 4,
+                "text": "va deixar una pausa abans de l’últim"
+              }
+            ]
+          },
+          {
+            "id": "l296-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Per a què inclou en Dani els quatre versos dins del diari?",
+            "answer": "Per conservar el poema i permetre que qui llegeixi el diari conegui les paraules de què parla.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Els copio per recordar-los"
+              },
+              {
+                "paragraph": 5,
+                "text": "el poema me’l quedo en aquesta pàgina, amb el seu nom al costat"
+              }
+            ]
+          },
+          {
+            "id": "l296-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix el problema de la primera lectura i com el van resoldre.",
+            "answer": "La Mira va llegir tan de pressa que en Dani no va seguir bé el final. Ella va repetir els mateixos versos més a poc a poc i amb una pausa, i ell els va poder sentir clarament.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Va anar tan de pressa que gairebé no vaig sentir l’última paraula."
+              },
+              {
+                "paragraph": 4,
+                "text": "Va llegir els primers versos i va deixar una pausa abans de l’últim."
+              }
+            ]
+          },
+          {
+            "id": "l296-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Com llegiries tu l’últim vers? Explica la teva tria.",
+            "answer": "Resposta personal justificada. Pot proposar volum, ritme o una pausa relacionant-los amb les paraules del vers."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "amb claredat",
+            "occurrence": 1,
+            "questionId": "l296-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l296-scene",
+            "src": "assets/readings/l296-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Dani, amb una bufanda vermellosa, escolta la Mira llegint un quadern al banc del porxo de l’observatori.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El petit observatori de pedra clara i cúpula grisa en un turó amb pins, sota un cel lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-poema-de-la-bufanda-b-es",
+        "code": "L296B",
+        "workId": "el-poema-de-la-bufanda-b",
+        "language": "es",
+        "familyId": "familia-l296",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "everyday",
+          "community"
+        ],
+        "genre": "diary",
+        "title": "El poema de la bufanda",
+        "summary": "Dani conserva el poema de Mira junto al recuerdo de dos lecturas: las palabras fueron las mismas, pero no llegaron igual al oyente.",
+        "paragraphs": [
+          "He copiado un poema en mi diario para no perder cómo sonó esta tarde. Soy Dani y había ido con Mira al observatorio de la colina. Joana, la guía adulta, estaba terminando la visita de otro grupo. Esperábamos en el banco del porche, desde donde se veían los pinos y la cúpula gris. Yo tiritaba aunque llevaba la chaqueta cerrada. Mira buscó en su mochila y me prestó una bufanda roja; se me quedó una punta colgando sobre el cuaderno.",
+          "Ella escribió unas líneas mientras yo me la acomodaba. Al leerlas, reconocí la bufanda y el viento que levantaba su fleco. Las palabras habían salido de lo que nos rodeaba, pero Mira las había colocado de otra manera. Copio su poema, con su nombre al lado:\nLa noche lleva bufanda,\nel viento tira de un hilo.\nYo me guardo una palabra\npara decirla bajito.",
+          "Mira empezó a leer cuando yo todavía me estaba sentando. Se precipitó hasta el final y apenas distinguí la última palabra. «Está aquí», dijo señalando el cuaderno. Aparté la mirada e intenté repetir el último verso: me faltaba una parte. Le expliqué que quería escucharlo entero, no ir buscando en el papel lo que se me había escapado. Entonces volvió a colocar el cuaderno sobre las rodillas.",
+          "Esperó a que me quedara quieto y la mirara. Leyó despacio los primeros versos, dejó una pausa y dijo el último con voz suave. La espera me hizo atender al final. Oí «bajito» con claridad, sin que tuviera que alzar la voz. Joana apareció en la puerta y comentó que también lo había oído. Mira miró sus cuatro líneas: no había añadido ninguna palabra.",
+          "Me bajé la bufanda, que me tapaba la boca, para probar yo el último verso. Mira recogió el cuaderno y entramos detrás de Joana. La bufanda sigue conmigo mientras escribo y se la devolveré al salir. En esta página he dejado el poema, la primera lectura apresurada y aquella pausa que todavía me parece oír cuando llego a la última línea."
+        ],
+        "questions": [
+          {
+            "id": "l296b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Quién es el autor del diario y quién es la autora del poema?",
+            "answer": "Dani escribe el diario; Mira escribió el poema que él copia.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Soy Dani"
+              },
+              {
+                "paragraph": 2,
+                "text": "Copio su poema, con su nombre al lado"
+              }
+            ]
+          },
+          {
+            "id": "l296b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué relación establece Dani entre el poema y la escena en que se escribió?",
+            "answer": "Reconoce la bufanda prestada y el viento que levanta su fleco como elementos que Mira transforma en versos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "reconocí la bufanda y el viento que levantaba su fleco"
+              }
+            ]
+          },
+          {
+            "id": "l296b-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué hizo Dani para mostrar que no había seguido entero el último verso?",
+            "answer": "Apartó la mirada del cuaderno e intentó repetirlo, pero le faltaba una parte.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Aparté la mirada e intenté repetir el último verso: me faltaba una parte."
+              }
+            ]
+          },
+          {
+            "id": "l296b-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «Se precipitó» al describir la lectura de Mira?",
+            "answer": "Que leyó demasiado deprisa, sin dar tiempo a seguir bien el poema.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Se precipitó hasta el final y apenas distinguí la última palabra."
+              }
+            ]
+          },
+          {
+            "id": "l296b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué explica que Dani oyera mejor el final sin que Mira alzara la voz?",
+            "answer": "La segunda vez Mira esperó su atención, leyó despacio y dejó una pausa que lo hizo atender al último verso.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Esperó a que me quedara quieto y la mirara."
+              },
+              {
+                "paragraph": 4,
+                "text": "La espera me hizo atender al final."
+              }
+            ]
+          },
+          {
+            "id": "l296b-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué aporta el comentario de Joana desde la puerta?",
+            "answer": "Muestra que otra persona también había oído la segunda lectura, aunque Mira usó una voz suave.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Joana apareció en la puerta y comentó que también lo había oído."
+              }
+            ]
+          },
+          {
+            "id": "l296b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué comprobó Mira al mirar las cuatro líneas después de leer?",
+            "answer": "Que no había añadido palabras: lo que cambió fue la manera de leerlas.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Mira miró sus cuatro líneas: no había añadido ninguna palabra."
+              }
+            ]
+          },
+          {
+            "id": "l296b-q8",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume por qué Dani conserva tanto el poema como el recuerdo de la pausa.",
+            "answer": "Conserva las palabras de Mira y una experiencia que le permitió escucharlas de otra manera: la pausa y el ritmo ayudaron a seguir el final que había perdido en la primera lectura.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "apenas distinguí la última palabra"
+              },
+              {
+                "paragraph": 4,
+                "text": "La espera me hizo atender al final."
+              },
+              {
+                "paragraph": 5,
+                "text": "En esta página he dejado el poema, la primera lectura apresurada y aquella pausa"
+              }
+            ]
+          },
+          {
+            "id": "l296b-q9",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Escribe dos versos que nazcan de un detalle cotidiano de esta visita. Puedes continuar el poema o empezar otro.",
+            "answer": "Producción personal. Debe relacionarse con un detalle de la visita y presentarse en dos versos; no se exige rima."
+          },
+          {
+            "id": "l296b-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué forma de leer elegirías para tus versos? Explica cómo se relaciona con lo que quieres hacer sentir.",
+            "answer": "Respuesta personal razonada: puede combinar volumen, ritmo y pausas en relación con su intención."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "Se precipitó",
+            "occurrence": 1,
+            "questionId": "l296b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l296-scene",
+            "src": "assets/readings/l296-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Dani, con una bufanda rojiza, escucha a Mira leer un cuaderno en el banco del porche del observatorio.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El pequeño observatorio de piedra clara y cúpula gris en una colina con pinos, bajo un cielo lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-poema-de-la-bufanda-b-ca",
+        "code": "L296B",
+        "workId": "el-poema-de-la-bufanda-b",
+        "language": "ca",
+        "familyId": "familia-l296",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "everyday",
+          "community"
+        ],
+        "genre": "diary",
+        "title": "El poema de la bufanda",
+        "summary": "En Dani conserva el poema de la Mira al costat del record de dues lectures: les paraules eren les mateixes, però no van arribar igual a qui escoltava.",
+        "paragraphs": [
+          "He copiat un poema al diari per no perdre com ha sonat aquesta tarda. Soc en Dani i havia anat amb la Mira a l’observatori del turó. La Joana, la guia adulta, acabava la visita d’un altre grup. Esperàvem al banc del porxo, des d’on es veien els pins i la cúpula grisa. Jo tremolava tot i dur la jaqueta tancada. La Mira va buscar a la motxilla i em va deixar una bufanda vermella; me’n va quedar una punta penjant damunt del quadern.",
+          "Ella va escriure unes línies mentre jo me la col·locava. En llegir-les, vaig reconèixer la bufanda i el vent que n’aixecava el serrell. Les paraules havien sortit del que ens envoltava, però la Mira les havia col·locat d’una altra manera. Copio el seu poema, amb el seu nom al costat:\nLa nit porta una bufanda,\nel vent estira un fil.\nEm guardo una paraula\nper dir-la ben fluixet.",
+          "La Mira va començar a llegir quan jo encara m’asseia. Es va precipitar fins al final i gairebé no vaig distingir l’última paraula. «És aquí», va dir assenyalant el quadern. Vaig apartar la mirada i vaig provar de repetir l’últim vers: me’n faltava una part. Li vaig explicar que el volia escoltar sencer, no anar buscant al paper el que se m’havia escapat. Llavors es va tornar a posar el quadern sobre els genolls.",
+          "Va esperar que em quedés quiet i la mirés. Va llegir a poc a poc els primers versos, va deixar una pausa i va dir l’últim amb veu suau. L’espera em va fer parar atenció al final. Vaig sentir «fluixet» amb claredat, sense que hagués d’alçar la veu. La Joana va aparèixer a la porta i va comentar que també l’havia sentit. La Mira va mirar les quatre línies: no hi havia afegit cap paraula.",
+          "Em vaig abaixar la bufanda, que em tapava la boca, per provar jo l’últim vers. La Mira va recollir el quadern i vam entrar darrere la Joana. Encara duc la bufanda mentre escric i la hi tornaré quan sortim. En aquesta pàgina he deixat el poema, la primera lectura precipitada i aquella pausa que encara em sembla sentir quan arribo a l’última línia."
+        ],
+        "questions": [
+          {
+            "id": "l296b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Qui és l’autor del diari i qui és l’autora del poema?",
+            "answer": "En Dani escriu el diari; la Mira va escriure el poema que ell copia.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Soc en Dani"
+              },
+              {
+                "paragraph": 2,
+                "text": "Copio el seu poema, amb el seu nom al costat"
+              }
+            ]
+          },
+          {
+            "id": "l296b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina relació estableix en Dani entre el poema i l’escena en què es va escriure?",
+            "answer": "Hi reconeix la bufanda deixada i el vent que n’aixeca el serrell com a elements que la Mira transforma en versos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "vaig reconèixer la bufanda i el vent que n’aixecava el serrell"
+              }
+            ]
+          },
+          {
+            "id": "l296b-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què va fer en Dani per mostrar que no havia seguit sencer l’últim vers?",
+            "answer": "Va apartar la mirada del quadern i va provar de repetir-lo, però li’n faltava una part.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Vaig apartar la mirada i vaig provar de repetir l’últim vers: me’n faltava una part."
+              }
+            ]
+          },
+          {
+            "id": "l296b-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «Es va precipitar» quan descriu la lectura de la Mira?",
+            "answer": "Que va llegir massa de pressa, sense donar temps de seguir bé el poema.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Es va precipitar fins al final i gairebé no vaig distingir l’última paraula."
+              }
+            ]
+          },
+          {
+            "id": "l296b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què explica que en Dani sentís millor el final sense que la Mira alcés la veu?",
+            "answer": "La segona vegada la Mira va esperar la seva atenció, va llegir a poc a poc i va deixar una pausa que el va fer parar atenció a l’últim vers.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Va esperar que em quedés quiet i la mirés."
+              },
+              {
+                "paragraph": 4,
+                "text": "L’espera em va fer parar atenció al final."
+              }
+            ]
+          },
+          {
+            "id": "l296b-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Què aporta el comentari de la Joana des de la porta?",
+            "answer": "Mostra que una altra persona també havia sentit la segona lectura, tot i que la Mira va fer servir una veu suau.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La Joana va aparèixer a la porta i va comentar que també l’havia sentit."
+              }
+            ]
+          },
+          {
+            "id": "l296b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què va comprovar la Mira en mirar les quatre línies després de llegir?",
+            "answer": "Que no hi havia afegit paraules: el que havia canviat era la manera de llegir-les.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La Mira va mirar les quatre línies: no hi havia afegit cap paraula."
+              }
+            ]
+          },
+          {
+            "id": "l296b-q8",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix per què en Dani conserva tant el poema com el record de la pausa.",
+            "answer": "Conserva les paraules de la Mira i una experiència que li va permetre escoltar-les d’una altra manera: la pausa i el ritme el van ajudar a seguir el final que havia perdut a la primera lectura.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "gairebé no vaig distingir l’última paraula"
+              },
+              {
+                "paragraph": 4,
+                "text": "L’espera em va fer parar atenció al final."
+              },
+              {
+                "paragraph": 5,
+                "text": "En aquesta pàgina he deixat el poema, la primera lectura precipitada i aquella pausa"
+              }
+            ]
+          },
+          {
+            "id": "l296b-q9",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Escriu dos versos que neixin d’un detall quotidià d’aquesta visita. Pots continuar el poema o començar-ne un altre.",
+            "answer": "Producció personal. S’ha de relacionar amb un detall de la visita i presentar-se en dos versos; no s’exigeix rima."
+          },
+          {
+            "id": "l296b-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quina manera de llegir triaries per als teus versos? Explica com es relaciona amb el que vols fer sentir.",
+            "answer": "Resposta personal raonada: pot combinar volum, ritme i pauses en relació amb la seva intenció."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "Es va precipitar",
+            "occurrence": 1,
+            "questionId": "l296b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l296-scene",
+            "src": "assets/readings/l296-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Dani, amb una bufanda vermellosa, escolta la Mira llegint un quadern al banc del porxo de l’observatori.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El petit observatori de pedra clara i cúpula grisa en un turó amb pins, sota un cel lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L296A",
+        "language": "es",
+        "questions": {
+          "l296a-q1": {
+            "prompt": "¿Quién escribe este diario?",
+            "options": [
+              "Mira.",
+              "Joana.",
+              "Dani.",
+              "Una persona del otro grupo."
+            ],
+            "correct": "c",
+            "explanation": "Dani."
+          },
+          "l296a-q2": {
+            "prompt": "¿De quién era la bufanda roja?",
+            "options": [
+              "De Joana, que la había dejado en el banco.",
+              "De Dani, que la encontró en su mochila.",
+              "Del grupo que estaba dentro.",
+              "De Mira, que la llevaba en la mochila."
+            ],
+            "correct": "d",
+            "explanation": "De Mira, que se la dejó a Dani."
+          },
+          "l296a-q3": {
+            "prompt": "¿Qué quiere decir «tiritaba» en este texto?",
+            "options": [
+              "Temblaba de frío.",
+              "Leía muy deprisa.",
+              "Buscaba una palabra del poema.",
+              "Movía el banco del porche."
+            ],
+            "correct": "a",
+            "explanation": "Que tenía frío y su cuerpo temblaba."
+          },
+          "l296a-q4": {
+            "prompt": "¿Por qué Dani pidió una segunda lectura?",
+            "options": [
+              "Quería que Mira cambiara las palabras escritas.",
+              "Quería oír mejor el final que había pasado muy deprisa.",
+              "Esperaba que Joana le prestara una bufanda.",
+              "Quería copiar el poema antes de que Mira lo escribiera."
+            ],
+            "correct": "b",
+            "explanation": "Porque Mira había leído tan deprisa que apenas había oído la última palabra."
+          },
+          "l296a-q5": {
+            "prompt": "¿Qué resumen explica el cambio?",
+            "options": [
+              "Dani escribió otro poema para que lo leyera Joana.",
+              "Mira quitó el último verso para leer más rápido.",
+              "Mira repitió el poema más despacio y con una pausa.",
+              "Joana cambió las palabras antes de que entraran."
+            ],
+            "correct": "c",
+            "explanation": "La primera fue muy rápida. En la segunda Mira leyó más despacio, hizo una pausa y dijo el final con voz suave."
+          }
+        }
+      },
+      {
+        "code": "L296A",
+        "language": "ca",
+        "questions": {
+          "l296a-q1": {
+            "prompt": "Qui escriu aquest diari?",
+            "options": [
+              "La Mira.",
+              "La Joana.",
+              "En Dani.",
+              "Una persona de l’altre grup."
+            ],
+            "correct": "c",
+            "explanation": "En Dani."
+          },
+          "l296a-q2": {
+            "prompt": "De qui era la bufanda vermella?",
+            "options": [
+              "De la Joana, que l’havia deixada al banc.",
+              "D’en Dani, que la va trobar a la motxilla.",
+              "Del grup que era a dins.",
+              "De la Mira, que la duia a la motxilla."
+            ],
+            "correct": "d",
+            "explanation": "De la Mira, que la va deixar a en Dani."
+          },
+          "l296a-q3": {
+            "prompt": "Què vol dir «tremolava» en aquest text?",
+            "options": [
+              "Tenia petites sacsejades pel fred.",
+              "Llegia molt de pressa.",
+              "Buscava una paraula del poema.",
+              "Movia el banc del porxo."
+            ],
+            "correct": "a",
+            "explanation": "Que tenia fred i el cos se li movia amb petites sacsejades."
+          },
+          "l296a-q4": {
+            "prompt": "Per què en Dani va demanar una segona lectura?",
+            "options": [
+              "Volia que la Mira canviés les paraules escrites.",
+              "Volia sentir millor el final, que havia passat molt de pressa.",
+              "Esperava que la Joana li deixés una bufanda.",
+              "Volia copiar el poema abans que la Mira l’escrivís."
+            ],
+            "correct": "b",
+            "explanation": "Perquè la Mira havia llegit tan de pressa que gairebé no havia sentit l’última paraula."
+          },
+          "l296a-q5": {
+            "prompt": "Quin resum explica el canvi?",
+            "options": [
+              "En Dani va escriure un altre poema perquè el llegís la Joana.",
+              "La Mira va treure l’últim vers per llegir més ràpid.",
+              "La Mira va repetir el poema més a poc a poc i amb una pausa.",
+              "La Joana va canviar les paraules abans que entressin."
+            ],
+            "correct": "c",
+            "explanation": "La primera va ser molt ràpida. A la segona la Mira va llegir més a poc a poc, va fer una pausa i va dir el final amb veu suau."
+          }
+        }
+      },
+      {
+        "code": "L296",
+        "language": "es",
+        "questions": {
+          "l296-q1": {
+            "prompt": "¿Por qué esperaban en el banco del porche?",
+            "options": [
+              "Mira estaba esperando que le devolvieran la bufanda.",
+              "Joana estaba terminando con otro grupo.",
+              "Dani había salido de la cúpula antes que Joana.",
+              "Querían terminar el diario antes de iniciar la visita."
+            ],
+            "correct": "b",
+            "explanation": "Porque Joana estaba terminando con otro grupo."
+          },
+          "l296-q2": {
+            "prompt": "¿Quién escribió el poema y quién lo copió en su diario?",
+            "options": [
+              "Joana lo escribió y Mira lo copió.",
+              "Dani lo escribió y Joana lo copió.",
+              "Mira lo escribió y Dani lo copió.",
+              "Dani y Mira escribieron cada uno dos versos."
+            ],
+            "correct": "c",
+            "explanation": "Mira lo escribió y Dani lo copió en su diario."
+          },
+          "l296-q3": {
+            "prompt": "¿Qué significa que Dani oyó «con claridad» la última palabra?",
+            "options": [
+              "Solo la recordó al verla escrita.",
+              "La oyó mucho más fuerte que antes.",
+              "La siguió leyendo mientras Mira hablaba.",
+              "La distinguió bien al escucharla."
+            ],
+            "correct": "d",
+            "explanation": "Que pudo distinguirla bien."
+          },
+          "l296-q4": {
+            "prompt": "¿Por qué ver la palabra en el papel no resolvía lo que Dani le pedía a Mira?",
+            "options": [
+              "Quería seguir el poema al escucharlo, sin depender del papel.",
+              "Quería que las cuatro líneas se copiaran con otra letra.",
+              "Quería que Joana escribiera una palabra nueva al final.",
+              "Quería leer el poema antes de que Mira lo terminara."
+            ],
+            "correct": "a",
+            "explanation": "Él quería poder seguir y recordar el poema al escucharlo; al apartar la mirada no recordaba bien el final."
+          },
+          "l296-q5": {
+            "prompt": "¿Qué dos cambios aparecen en la segunda lectura?",
+            "options": [
+              "Cambió el último verso y leyó más deprisa.",
+              "Esperó su atención y dejó una pausa antes del final.",
+              "Copió el poema y se lo dio a Joana.",
+              "Tapó el cuaderno y pidió a Dani que leyera."
+            ],
+            "correct": "b",
+            "explanation": "Leyó más despacio, esperó que Dani la mirara, hizo una pausa antes del último verso o lo dijo con voz suave. Bastan dos."
+          },
+          "l296-q6": {
+            "prompt": "¿Para qué incluye Dani los cuatro versos dentro de su diario?",
+            "options": [
+              "Para recuperar un poema que había escrito Joana.",
+              "Para completar las líneas que Mira había dejado sin acabar.",
+              "Para conservar las palabras del poema que comenta.",
+              "Para guardar una dedicatoria de Mira al otro grupo."
+            ],
+            "correct": "c",
+            "explanation": "Para conservar el poema y permitir que quien lea el diario conozca las palabras de las que habla."
+          },
+          "l296-q7": {
+            "prompt": "¿Qué resumen recoge el problema y la solución?",
+            "options": [
+              "Dani no recordaba el final y escribió un verso para cambiarlo.",
+              "Joana leyó el poema mientras Mira buscaba la bufanda.",
+              "Mira añadió una línea para explicar la última palabra.",
+              "Mira repitió más despacio el mismo poema para que Dani lo siguiera."
+            ],
+            "correct": "d",
+            "explanation": "Mira leyó tan rápido que Dani no siguió bien el final. Ella repitió los mismos versos más despacio y con una pausa, y él pudo oírlos claramente."
+          }
+        }
+      },
+      {
+        "code": "L296",
+        "language": "ca",
+        "questions": {
+          "l296-q1": {
+            "prompt": "Per què esperaven al banc del porxo?",
+            "options": [
+              "La Mira esperava que li tornessin la bufanda.",
+              "La Joana estava acabant d’atendre un altre grup.",
+              "En Dani havia sortit de la cúpula abans que la Joana.",
+              "Volien acabar el diari abans de començar la visita."
+            ],
+            "correct": "b",
+            "explanation": "Perquè la Joana estava acabant d’atendre un altre grup."
+          },
+          "l296-q2": {
+            "prompt": "Qui va escriure el poema i qui el va copiar al diari?",
+            "options": [
+              "La Joana el va escriure i la Mira el va copiar.",
+              "En Dani el va escriure i la Joana el va copiar.",
+              "La Mira el va escriure i en Dani el va copiar.",
+              "En Dani i la Mira van escriure dos versos cadascun."
+            ],
+            "correct": "c",
+            "explanation": "La Mira el va escriure i en Dani el va copiar al diari."
+          },
+          "l296-q3": {
+            "prompt": "Què vol dir que en Dani va sentir «amb claredat» l’última paraula?",
+            "options": [
+              "Només la va recordar en veure-la escrita.",
+              "La va sentir molt més forta que abans.",
+              "La va seguir llegint mentre la Mira parlava.",
+              "La va distingir bé en escoltar-la."
+            ],
+            "correct": "d",
+            "explanation": "Que la va poder distingir bé."
+          },
+          "l296-q4": {
+            "prompt": "Per què veure la paraula al paper no resolia el que en Dani demanava a la Mira?",
+            "options": [
+              "Volia seguir el poema en escoltar-lo, sense dependre del paper.",
+              "Volia que les quatre línies es copiessin amb una altra lletra.",
+              "Volia que la Joana escrivís una paraula nova al final.",
+              "Volia llegir el poema abans que la Mira l’acabés."
+            ],
+            "correct": "a",
+            "explanation": "Ell volia poder seguir i recordar el poema en escoltar-lo; en apartar la mirada no recordava bé el final."
+          },
+          "l296-q5": {
+            "prompt": "Quins dos canvis apareixen a la segona lectura?",
+            "options": [
+              "Va canviar l’últim vers i va llegir més de pressa.",
+              "Va esperar la seva atenció i va deixar una pausa abans del final.",
+              "Va copiar el poema i el va donar a la Joana.",
+              "Va tapar el quadern i va demanar a en Dani que llegís."
+            ],
+            "correct": "b",
+            "explanation": "Va llegir més a poc a poc, va esperar que en Dani la mirés, va fer una pausa abans de l’últim vers o el va dir amb veu suau. N’hi ha prou amb dues."
+          },
+          "l296-q6": {
+            "prompt": "Per a què inclou en Dani els quatre versos dins del diari?",
+            "options": [
+              "Per recuperar un poema que havia escrit la Joana.",
+              "Per completar les línies que la Mira havia deixat inacabades.",
+              "Per conservar les paraules del poema que comenta.",
+              "Per guardar una dedicatòria de la Mira a l’altre grup."
+            ],
+            "correct": "c",
+            "explanation": "Per conservar el poema i permetre que qui llegeixi el diari conegui les paraules de què parla."
+          },
+          "l296-q7": {
+            "prompt": "Quin resum recull el problema i la solució?",
+            "options": [
+              "En Dani no recordava el final i va escriure un vers per canviar-lo.",
+              "La Joana va llegir el poema mentre la Mira buscava la bufanda.",
+              "La Mira va afegir una línia per explicar l’última paraula.",
+              "La Mira va repetir més a poc a poc el mateix poema perquè en Dani el seguís."
+            ],
+            "correct": "d",
+            "explanation": "La Mira va llegir tan de pressa que en Dani no va seguir bé el final. Ella va repetir els mateixos versos més a poc a poc i amb una pausa, i ell els va poder sentir clarament."
+          }
+        }
+      },
+      {
+        "code": "L296B",
+        "language": "es",
+        "questions": {
+          "l296b-q1": {
+            "prompt": "¿Quién es el autor del diario y quién es la autora del poema?",
+            "options": [
+              "Mira escribe ambos textos y Dani los escucha.",
+              "Joana escribe el diario y Mira el poema.",
+              "Dani escribe el diario y Mira el poema.",
+              "Dani escribe el poema y Mira lo copia en el diario."
+            ],
+            "correct": "c",
+            "explanation": "Dani escribe el diario; Mira escribió el poema que él copia."
+          },
+          "l296b-q2": {
+            "prompt": "¿Qué relación establece Dani entre el poema y la escena en que se escribió?",
+            "options": [
+              "Los versos recuerdan lo que había dicho Joana al otro grupo.",
+              "El poema explica dónde había guardado Dani su chaqueta.",
+              "El poema anuncia la actividad que harán dentro de la cúpula.",
+              "La bufanda y el viento de la espera entran en los versos."
+            ],
+            "correct": "d",
+            "explanation": "Reconoce la bufanda prestada y el viento que levanta su fleco como elementos que Mira transforma en versos."
+          },
+          "l296b-q3": {
+            "prompt": "¿Qué hizo Dani para mostrar que no había seguido entero el último verso?",
+            "options": [
+              "Intentó repetirlo sin mirar y le faltó una parte.",
+              "Lo copió en el diario y cambió una palabra.",
+              "Pidió a Joana que leyera una parte desde la puerta.",
+              "Buscó una línea anterior mientras Mira seguía leyendo."
+            ],
+            "correct": "a",
+            "explanation": "Apartó la mirada del cuaderno e intentó repetirlo, pero le faltaba una parte."
+          },
+          "l296b-q4": {
+            "prompt": "¿Qué significa «Se precipitó» al describir la lectura de Mira?",
+            "options": [
+              "Olvidó la última línea y dejó el poema sin acabar.",
+              "Avanzó demasiado rápido en la lectura.",
+              "Cambió de página antes de mostrar el poema.",
+              "Bajó tanto la voz que dejó de leer."
+            ],
+            "correct": "b",
+            "explanation": "Que leyó demasiado deprisa, sin dar tiempo a seguir bien el poema."
+          },
+          "l296b-q5": {
+            "prompt": "¿Qué explica que Dani oyera mejor el final sin que Mira alzara la voz?",
+            "options": [
+              "Joana repitió la palabra que Dani no había oído.",
+              "Dani había leído el verso en voz alta antes que Mira.",
+              "La atención, el ritmo lento y la pausa ayudaron a seguirlo.",
+              "Mira sustituyó el último verso por una frase más larga."
+            ],
+            "correct": "c",
+            "explanation": "La segunda vez Mira esperó su atención, leyó despacio y dejó una pausa que lo hizo atender al último verso."
+          },
+          "l296b-q6": {
+            "prompt": "¿Qué aporta el comentario de Joana desde la puerta?",
+            "options": [
+              "Revela que Joana había preparado el poema antes de la visita.",
+              "Explica por qué Dani necesitó que Mira leyera dos veces.",
+              "Indica que el otro grupo esperaba fuera del porche.",
+              "Añade a otra oyente que había seguido la lectura suave."
+            ],
+            "correct": "d",
+            "explanation": "Muestra que otra persona también había oído la segunda lectura, aunque Mira usó una voz suave."
+          },
+          "l296b-q7": {
+            "prompt": "¿Qué comprobó Mira al mirar las cuatro líneas después de leer?",
+            "options": [
+              "Las palabras seguían iguales pese al cambio que habían oído.",
+              "Faltaba la palabra que Dani había buscado al principio.",
+              "Joana había corregido la última línea desde la puerta.",
+              "Había escrito un verso nuevo para llenar la pausa."
+            ],
+            "correct": "a",
+            "explanation": "Que no había añadido palabras: lo que cambió fue la manera de leerlas."
+          },
+          "l296b-q8": {
+            "prompt": "¿Qué resumen explica mejor lo que conserva el diario?",
+            "options": [
+              "Quiere recordar una corrección escrita por Joana en el poema.",
+              "Quiere guardar las palabras y cómo cambió su forma de escucharlas.",
+              "Quiere mostrar que el poema estuvo incompleto hasta la segunda lectura.",
+              "Quiere recordar que Mira levantó la voz para que Joana la oyera."
+            ],
+            "correct": "b",
+            "explanation": "Conserva las palabras de Mira y una experiencia que le permitió escucharlas de otra manera: la pausa y el ritmo ayudaron a seguir el final que había perdido en la primera lectura."
+          }
+        }
+      },
+      {
+        "code": "L296B",
+        "language": "ca",
+        "questions": {
+          "l296b-q1": {
+            "prompt": "Qui és l’autor del diari i qui és l’autora del poema?",
+            "options": [
+              "La Mira escriu tots dos textos i en Dani els escolta.",
+              "La Joana escriu el diari i la Mira el poema.",
+              "En Dani escriu el diari i la Mira el poema.",
+              "En Dani escriu el poema i la Mira el copia al diari."
+            ],
+            "correct": "c",
+            "explanation": "En Dani escriu el diari; la Mira va escriure el poema que ell copia."
+          },
+          "l296b-q2": {
+            "prompt": "Quina relació estableix en Dani entre el poema i l’escena en què es va escriure?",
+            "options": [
+              "Els versos recorden el que la Joana havia dit a l’altre grup.",
+              "El poema explica on havia desat en Dani la jaqueta.",
+              "El poema anuncia l’activitat que faran dins de la cúpula.",
+              "La bufanda i el vent de l’espera entren als versos."
+            ],
+            "correct": "d",
+            "explanation": "Hi reconeix la bufanda deixada i el vent que n’aixeca el serrell com a elements que la Mira transforma en versos."
+          },
+          "l296b-q3": {
+            "prompt": "Què va fer en Dani per mostrar que no havia seguit sencer l’últim vers?",
+            "options": [
+              "Va provar de repetir-lo sense mirar i li’n va faltar una part.",
+              "El va copiar al diari i va canviar una paraula.",
+              "Va demanar a la Joana que en llegís una part des de la porta.",
+              "Va buscar una línia anterior mentre la Mira continuava llegint."
+            ],
+            "correct": "a",
+            "explanation": "Va apartar la mirada del quadern i va provar de repetir-lo, però li’n faltava una part."
+          },
+          "l296b-q4": {
+            "prompt": "Què vol dir «Es va precipitar» quan descriu la lectura de la Mira?",
+            "options": [
+              "Va oblidar l’última línia i va deixar el poema inacabat.",
+              "Va avançar massa ràpid en la lectura.",
+              "Va canviar de pàgina abans d’ensenyar el poema.",
+              "Va abaixar tant la veu que va deixar de llegir."
+            ],
+            "correct": "b",
+            "explanation": "Que va llegir massa de pressa, sense donar temps de seguir bé el poema."
+          },
+          "l296b-q5": {
+            "prompt": "Què explica que en Dani sentís millor el final sense que la Mira alcés la veu?",
+            "options": [
+              "La Joana va repetir la paraula que en Dani no havia sentit.",
+              "En Dani havia llegit el vers en veu alta abans que la Mira.",
+              "L’atenció, el ritme lent i la pausa van ajudar a seguir-lo.",
+              "La Mira va substituir l’últim vers per una frase més llarga."
+            ],
+            "correct": "c",
+            "explanation": "La segona vegada la Mira va esperar la seva atenció, va llegir a poc a poc i va deixar una pausa que el va fer parar atenció a l’últim vers."
+          },
+          "l296b-q6": {
+            "prompt": "Què aporta el comentari de la Joana des de la porta?",
+            "options": [
+              "Revela que la Joana havia preparat el poema abans de la visita.",
+              "Explica per què en Dani va necessitar que la Mira llegís dues vegades.",
+              "Indica que l’altre grup esperava fora del porxo.",
+              "Afegeix una altra oient que havia seguit la lectura suau."
+            ],
+            "correct": "d",
+            "explanation": "Mostra que una altra persona també havia sentit la segona lectura, tot i que la Mira va fer servir una veu suau."
+          },
+          "l296b-q7": {
+            "prompt": "Què va comprovar la Mira en mirar les quatre línies després de llegir?",
+            "options": [
+              "Les paraules continuaven igual tot i el canvi que havien sentit.",
+              "Faltava la paraula que en Dani havia buscat al principi.",
+              "La Joana havia corregit l’última línia des de la porta.",
+              "Havia escrit un vers nou per omplir la pausa."
+            ],
+            "correct": "a",
+            "explanation": "Que no hi havia afegit paraules: el que havia canviat era la manera de llegir-les."
+          },
+          "l296b-q8": {
+            "prompt": "Quin resum explica millor el que conserva el diari?",
+            "options": [
+              "Vol recordar una correcció escrita per la Joana al poema.",
+              "Vol guardar les paraules i com va canviar la seva manera d’escoltar-les.",
+              "Vol mostrar que el poema va estar incomplet fins a la segona lectura.",
+              "Vol recordar que la Mira va alçar la veu perquè la Joana la sentís."
+            ],
+            "correct": "b",
+            "explanation": "Conserva les paraules de la Mira i una experiència que li va permetre escoltar-les d’una altra manera: la pausa i el ritme el van ajudar a seguir el final que havia perdut a la primera lectura."
+          }
+        }
+      }
+    ]
   }
 ];

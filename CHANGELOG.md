@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.61.7 · 26 de novembre del 2026
+
+L296: El poema de la bufanda. Nova família de l’univers L’observatori del turó, amb suport de 3r, referència de 4t i ampliació de 5è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 14 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.61.6 · 26 de novembre del 2026
 
 L295: El soroll que va baixar per la teulada. Nova família de l’univers L’observatori del turó, amb suport de 3r, referència de 4t i ampliació de 5è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 13 històries independents. Contingut provisional, pendent de validació docent.
