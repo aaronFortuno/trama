@@ -1,9 +1,9 @@
 {
   "date": "2026-11-26",
-  "totalWorks": 612,
-  "coveredWorks": 612,
+  "totalWorks": 615,
+  "coveredWorks": 615,
   "pendingWorks": 0,
-  "localizedAlternatives": 6260,
+  "localizedAlternatives": 6314,
   "ranges": [
     {
       "start": 1,
@@ -437,6 +437,13 @@
       "end": 310,
       "total": 15,
       "covered": 15,
+      "status": "complete"
+    },
+    {
+      "start": 311,
+      "end": 311,
+      "total": 3,
+      "covered": 3,
       "status": "complete"
     }
   ],
@@ -38327,6 +38334,285 @@
             },
             {
               "id": "l310b-q11",
+              "number": 11
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L311",
+      "baseCode": "L311",
+      "variant": false,
+      "level": "5-primary",
+      "difficulty": "intermediate",
+      "title": "La taula dels pans diferents",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l311-q1",
+              "number": 1
+            },
+            {
+              "id": "l311-q2",
+              "number": 2
+            },
+            {
+              "id": "l311-q3",
+              "number": 3
+            },
+            {
+              "id": "l311-q4",
+              "number": 4
+            },
+            {
+              "id": "l311-q5",
+              "number": 5
+            },
+            {
+              "id": "l311-q6",
+              "number": 6
+            },
+            {
+              "id": "l311-q7",
+              "number": 7
+            },
+            {
+              "id": "l311-q8",
+              "number": 8
+            },
+            {
+              "id": "l311-q9",
+              "number": 9
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l311-q1",
+              "number": 1
+            },
+            {
+              "id": "l311-q2",
+              "number": 2
+            },
+            {
+              "id": "l311-q3",
+              "number": 3
+            },
+            {
+              "id": "l311-q4",
+              "number": 4
+            },
+            {
+              "id": "l311-q5",
+              "number": 5
+            },
+            {
+              "id": "l311-q6",
+              "number": 6
+            },
+            {
+              "id": "l311-q7",
+              "number": 7
+            },
+            {
+              "id": "l311-q8",
+              "number": 8
+            },
+            {
+              "id": "l311-q9",
+              "number": 9
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L311A",
+      "baseCode": "L311",
+      "variant": true,
+      "level": "4-primary",
+      "difficulty": "intermediate",
+      "title": "La taula dels pans diferents",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l311a-q1",
+              "number": 1
+            },
+            {
+              "id": "l311a-q2",
+              "number": 2
+            },
+            {
+              "id": "l311a-q3",
+              "number": 3
+            },
+            {
+              "id": "l311a-q4",
+              "number": 4
+            },
+            {
+              "id": "l311a-q5",
+              "number": 5
+            },
+            {
+              "id": "l311a-q6",
+              "number": 6
+            },
+            {
+              "id": "l311a-q7",
+              "number": 7
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l311a-q1",
+              "number": 1
+            },
+            {
+              "id": "l311a-q2",
+              "number": 2
+            },
+            {
+              "id": "l311a-q3",
+              "number": 3
+            },
+            {
+              "id": "l311a-q4",
+              "number": 4
+            },
+            {
+              "id": "l311a-q5",
+              "number": 5
+            },
+            {
+              "id": "l311a-q6",
+              "number": 6
+            },
+            {
+              "id": "l311a-q7",
+              "number": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L311B",
+      "baseCode": "L311",
+      "variant": true,
+      "level": "6-primary",
+      "difficulty": "intermediate",
+      "title": "La taula dels pans diferents",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l311b-q1",
+              "number": 1
+            },
+            {
+              "id": "l311b-q2",
+              "number": 2
+            },
+            {
+              "id": "l311b-q3",
+              "number": 3
+            },
+            {
+              "id": "l311b-q4",
+              "number": 4
+            },
+            {
+              "id": "l311b-q5",
+              "number": 5
+            },
+            {
+              "id": "l311b-q6",
+              "number": 6
+            },
+            {
+              "id": "l311b-q7",
+              "number": 7
+            },
+            {
+              "id": "l311b-q8",
+              "number": 8
+            },
+            {
+              "id": "l311b-q9",
+              "number": 9
+            },
+            {
+              "id": "l311b-q10",
+              "number": 10
+            },
+            {
+              "id": "l311b-q11",
+              "number": 11
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l311b-q1",
+              "number": 1
+            },
+            {
+              "id": "l311b-q2",
+              "number": 2
+            },
+            {
+              "id": "l311b-q3",
+              "number": 3
+            },
+            {
+              "id": "l311b-q4",
+              "number": 4
+            },
+            {
+              "id": "l311b-q5",
+              "number": 5
+            },
+            {
+              "id": "l311b-q6",
+              "number": 6
+            },
+            {
+              "id": "l311b-q7",
+              "number": 7
+            },
+            {
+              "id": "l311b-q8",
+              "number": 8
+            },
+            {
+              "id": "l311b-q9",
+              "number": 9
+            },
+            {
+              "id": "l311b-q10",
+              "number": 10
+            },
+            {
+              "id": "l311b-q11",
               "number": 11
             }
           ]

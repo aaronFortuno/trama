@@ -7475,5 +7475,1870 @@ export const riversidePublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L311",
+    "edition": "v1.63.4",
+    "family": {
+      "id": "familia-l311",
+      "code": "L311",
+      "name": {
+        "es": "La mesa de los panes distintos",
+        "ca": "La taula dels pans diferents"
+      },
+      "description": {
+        "ca": "Una història dels Camins de la ribera, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de Los caminos de la ribera, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L311A",
+        "L311",
+        "L311B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "la-mesa-de-los-panes-distintos-a-es",
+        "code": "L311A",
+        "workId": "la-mesa-de-los-panes-distintos-a",
+        "language": "es",
+        "familyId": "familia-l311",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "math"
+        ],
+        "genre": "narrative",
+        "title": "La mesa de los panes distintos",
+        "summary": "Neri ayuda a preparar una merienda y descubre que contar trozos no explica todas las diferencias.",
+        "paragraphs": [
+          "Elna, la dueña del molino de la ribera, preparaba una merienda para doce personas, contándose ella y sus dos ayudantes. Neri e Isona, dos amigos del valle, la ayudaban a poner los platos en una mesa del patio. Había dos panes redondos y un pan largo. Elna cortó cada pan redondo en cuatro partes. De la mitad del pan largo sacó cuatro rebanadas; guardó la otra mitad en una cesta. Isona llevó dos bandejas de madera hasta la mesa.",
+          "Neri contó doce trozos y propuso poner una porción en cada plato. «Así todos tendrán lo mismo», dijo. Isona puso una rebanada junto a un cuarto de pan redondo. La rebanada era mucho más pequeña. Ella prefería esa; Neri escogió el cuarto. Dejaron los trozos en dos bandejas para que los vecinos pudieran elegir.",
+          "Poco después llegaron dos personas más. Elna sacó el pan reservado y cortó dos rebanadas gruesas. Neri añadió dos platos y contó de nuevo las porciones. Ahora había catorce.",
+          "Isona acercó las bandejas al centro. Neri dejó libre su plato mientras esperaba a los demás. Cuando se sentaron, cada uno pudo mirar los panes antes de escoger."
+        ],
+        "questions": [
+          {
+            "id": "l311a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Para cuántas personas estaba prevista la merienda?",
+            "answer": "Para doce personas.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una merienda para doce personas"
+              }
+            ]
+          },
+          {
+            "id": "l311a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cuántos cuartos salieron de los dos panes redondos?",
+            "answer": "Ocho: cuatro de cada uno de los dos panes.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "dos panes redondos"
+              },
+              {
+                "paragraph": 1,
+                "text": "cortó cada pan redondo en cuatro partes"
+              }
+            ]
+          },
+          {
+            "id": "l311a-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «porción» en esta lectura?",
+            "answer": "Una parte o un trozo de pan para servir.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "poner una porción en cada plato"
+              }
+            ]
+          },
+          {
+            "id": "l311a-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué mostraron al poner juntos una rebanada y un cuarto?",
+            "answer": "Que la rebanada era mucho más pequeña que el cuarto de pan redondo.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La rebanada era mucho más pequeña."
+              }
+            ]
+          },
+          {
+            "id": "l311a-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué hizo Elna cuando llegaron dos personas más?",
+            "answer": "Cortó dos rebanadas gruesas del pan que había reservado.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "sacó el pan reservado y cortó dos rebanadas gruesas"
+              }
+            ]
+          },
+          {
+            "id": "l311a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué una porción por persona no aseguraba que todos recibieran la misma cantidad de pan?",
+            "answer": "Porque un cuarto de pan redondo era mayor que una rebanada: contar un trozo por persona no igualaba el tamaño de los trozos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Así todos tendrán lo mismo"
+              },
+              {
+                "paragraph": 2,
+                "text": "La rebanada era mucho más pequeña."
+              }
+            ]
+          },
+          {
+            "id": "l311a-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cuántas porciones había después de añadir las dos nuevas?",
+            "answer": "Catorce: las doce del principio y las dos rebanadas nuevas.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Neri contó doce trozos"
+              },
+              {
+                "paragraph": 3,
+                "text": "Ahora había catorce."
+              }
+            ]
+          },
+          {
+            "id": "l311a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Preferirías escoger tu trozo de pan o encontrarlo ya en el plato? Explica el motivo.",
+            "answer": "Respuesta personal razonada que explique una preferencia."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "porción",
+            "occurrence": 1,
+            "questionId": "l311a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l311-scene",
+            "src": "assets/readings/l311-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Elna, Neri e Isona preparan una mesa junto al molino con cuartos de pan redondo y rebanadas de pan alargado.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-mesa-de-los-panes-distintos-a-ca",
+        "code": "L311A",
+        "workId": "la-mesa-de-los-panes-distintos-a",
+        "language": "ca",
+        "familyId": "familia-l311",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "math"
+        ],
+        "genre": "narrative",
+        "title": "La taula dels pans diferents",
+        "summary": "En Neri ajuda a preparar un berenar i descobreix que comptar trossos no explica totes les diferències.",
+        "paragraphs": [
+          "L’Elna, la propietària del molí de la ribera, preparava un berenar per a dotze persones, comptant-la a ella i els seus dos ajudants. En Neri i l’Isona, dos amics de la vall, l’ajudaven a posar els plats en una taula del pati. Hi havia dos pans rodons i un pa llarg. L’Elna va tallar cada pa rodó en quatre parts. De la meitat del pa llarg en va fer quatre llesques; va desar l’altra meitat en un cistell. L’Isona va portar dues safates de fusta fins a la taula.",
+          "En Neri va comptar dotze trossos i va proposar posar una porció a cada plat. «Així tots tindran el mateix», va dir. L’Isona va posar una llesca al costat d’un quart de pa rodó. La llesca era molt més petita. Ella s’estimava més aquella; en Neri va escollir el quart. Van deixar els trossos en dues safates perquè els veïns poguessin triar.",
+          "Poc després van arribar dues persones més. L’Elna va treure el pa reservat i va tallar dues llesques gruixudes. En Neri va afegir dos plats i va tornar a comptar les porcions. Ara n’hi havia catorze.",
+          "L’Isona va acostar les safates al centre. En Neri va deixar el plat buit mentre esperava els altres. Quan es van asseure, cadascú va poder mirar els pans abans d’escollir."
+        ],
+        "questions": [
+          {
+            "id": "l311a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Per a quantes persones estava previst el berenar?",
+            "answer": "Per a dotze persones.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "un berenar per a dotze persones"
+              }
+            ]
+          },
+          {
+            "id": "l311a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quants quarts van sortir dels dos pans rodons?",
+            "answer": "Vuit: quatre de cadascun dels dos pans.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "dos pans rodons"
+              },
+              {
+                "paragraph": 1,
+                "text": "va tallar cada pa rodó en quatre parts"
+              }
+            ]
+          },
+          {
+            "id": "l311a-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «porció» en aquesta lectura?",
+            "answer": "Una part o un tros de pa per servir.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "posar una porció a cada plat"
+              }
+            ]
+          },
+          {
+            "id": "l311a-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què van mostrar en posar junts una llesca i un quart?",
+            "answer": "Que la llesca era molt més petita que el quart de pa rodó.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La llesca era molt més petita."
+              }
+            ]
+          },
+          {
+            "id": "l311a-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què va fer l’Elna quan van arribar dues persones més?",
+            "answer": "Va tallar dues llesques gruixudes del pa que havia reservat.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "va treure el pa reservat i va tallar dues llesques gruixudes"
+              }
+            ]
+          },
+          {
+            "id": "l311a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què una porció per persona no assegurava que tots rebessin la mateixa quantitat de pa?",
+            "answer": "Perquè un quart de pa rodó era més gran que una llesca: comptar un tros per persona no igualava la mida dels trossos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Així tots tindran el mateix"
+              },
+              {
+                "paragraph": 2,
+                "text": "La llesca era molt més petita."
+              }
+            ]
+          },
+          {
+            "id": "l311a-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quantes porcions hi havia després d’afegir-ne les dues noves?",
+            "answer": "Catorze: les dotze del principi i les dues llesques noves.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "En Neri va comptar dotze trossos"
+              },
+              {
+                "paragraph": 3,
+                "text": "Ara n’hi havia catorze."
+              }
+            ]
+          },
+          {
+            "id": "l311a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "T’estimaries més escollir el tros de pa o trobar-lo ja al plat? Explica’n el motiu.",
+            "answer": "Resposta personal raonada que expliqui una preferència."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "porció",
+            "occurrence": 1,
+            "questionId": "l311a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l311-scene",
+            "src": "assets/readings/l311-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "L’Elna, en Neri i l’Isona preparen una taula al costat del molí amb quarts de pa rodó i llesques de pa llarg.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-mesa-de-los-panes-distintos-es",
+        "code": "L311",
+        "workId": "la-mesa-de-los-panes-distintos",
+        "language": "es",
+        "familyId": "familia-l311",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "math"
+        ],
+        "genre": "narrative",
+        "title": "La mesa de los panes distintos",
+        "summary": "En la merienda del molino, Neri descubre lo que le falta a un reparto basado solo en contar trozos.",
+        "paragraphs": [
+          "Elna, la dueña del molino de la ribera, preparaba una merienda en el patio para doce personas en total, incluidos ella y sus dos ayudantes. Neri e Isona, dos amigos del valle, la ayudaban a preparar la mesa. El panadero había traído dos panes redondos y uno largo. Elna cortó los redondos en cuatro partes cada uno. De la mitad del pan largo sacó cuatro rebanadas finas. Guardó la otra mitad en una cesta, cubierta con un paño.",
+          "Neri contó doce porciones y puso doce platos. Propuso repartir un trozo en cada uno antes de que llegaran los invitados. «Así todos tendrán lo mismo», dijo, satisfecho con la cuenta. Isona colocó una rebanada al lado de un cuarto de pan redondo. La rebanada era bastante más pequeña. Neri miró primero los panes y después las manos con las que había contado.",
+          "Isona prefería una rebanada fina; quería acompañarla con un poco de queso. Neri tenía más hambre y señaló el cuarto de pan. Dejaron unos trozos y otros en dos bandejas, al alcance de los invitados. Los platos quedaron vacíos. Elna acercó la cesta del pan reservado al extremo de la mesa y siguió colocando las jarras.",
+          "Cuando ya se sentaban, llegaron una vecina y su hijo que no estaban en la cuenta inicial. Neri añadió dos platos y buscó con la mirada la cesta. Elna destapó el pan y cortó dos rebanadas gruesas. Había catorce porciones para catorce personas. Las nuevas rebanadas tampoco eran iguales a las primeras.",
+          "Isona pasó una bandeja a los recién llegados. Neri esperó a que escogieran, sin adelantar un trozo a cada plato. Luego tomó un cuarto y acercó el queso a su amiga."
+        ],
+        "questions": [
+          {
+            "id": "l311-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿De dónde salieron las doce primeras porciones?",
+            "answer": "Ocho cuartos de los dos panes redondos y cuatro rebanadas de la mitad del pan largo.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "los redondos en cuatro partes cada uno"
+              },
+              {
+                "paragraph": 1,
+                "text": "De la mitad del pan largo sacó cuatro rebanadas finas."
+              }
+            ]
+          },
+          {
+            "id": "l311-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué parte del pan se había reservado antes de empezar?",
+            "answer": "La mitad del pan largo, dentro de una cesta cubierta con un paño.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Guardó la otra mitad en una cesta, cubierta con un paño."
+              }
+            ]
+          },
+          {
+            "id": "l311-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué no había tenido en cuenta Neri al decir que todos tendrían lo mismo?",
+            "answer": "Que tener un trozo por persona no significaba recibir la misma cantidad, porque los trozos eran de tamaños distintos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Así todos tendrán lo mismo"
+              },
+              {
+                "paragraph": 2,
+                "text": "La rebanada era bastante más pequeña."
+              }
+            ]
+          },
+          {
+            "id": "l311-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «al alcance» cuando se habla de las bandejas?",
+            "answer": "En un lugar al que los invitados podían llegar para coger el pan.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "en dos bandejas, al alcance de los invitados"
+              }
+            ]
+          },
+          {
+            "id": "l311-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué preferían Isona y Neri trozos diferentes?",
+            "answer": "Isona quería una rebanada fina con queso; Neri tenía más hambre y prefería el cuarto.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Isona prefería una rebanada fina; quería acompañarla con un poco de queso. Neri tenía más hambre y señaló el cuarto de pan."
+              }
+            ]
+          },
+          {
+            "id": "l311-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cómo cambió la preparación con la llegada de dos personas más?",
+            "answer": "Añadieron dos platos y Elna cortó dos rebanadas del pan reservado.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Neri añadió dos platos"
+              },
+              {
+                "paragraph": 4,
+                "text": "cortó dos rebanadas gruesas"
+              }
+            ]
+          },
+          {
+            "id": "l311-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué sugiere que Neri busque la cesta con la mirada?",
+            "answer": "Que recuerda el pan reservado y lo relaciona con la necesidad de servir a los dos nuevos invitados.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Elna acercó la cesta del pan reservado al extremo de la mesa"
+              },
+              {
+                "paragraph": 4,
+                "text": "Neri añadió dos platos y buscó con la mirada la cesta."
+              }
+            ]
+          },
+          {
+            "id": "l311-q8",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Eran iguales las porciones cuando ya había catorce?",
+            "answer": "No. Había cuartos de pan redondo, rebanadas finas y dos rebanadas nuevas más gruesas.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "cuatro rebanadas finas"
+              },
+              {
+                "paragraph": 4,
+                "text": "Las nuevas rebanadas tampoco eran iguales a las primeras."
+              }
+            ]
+          },
+          {
+            "id": "l311-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué cambió en la manera de repartir el pan.",
+            "answer": "Neri pensaba colocar un trozo en cada plato. Al comparar tamaños y preferencias, dejaron el pan en bandejas para elegir. Elna añadió pan reservado cuando llegaron más personas.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Propuso repartir un trozo en cada uno"
+              },
+              {
+                "paragraph": 3,
+                "text": "Dejaron unos trozos y otros en dos bandejas"
+              },
+              {
+                "paragraph": 4,
+                "text": "Elna destapó el pan y cortó dos rebanadas gruesas."
+              }
+            ]
+          },
+          {
+            "id": "l311-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Te parece una buena idea dejar elegir en una merienda así? Explica una ventaja o un inconveniente.",
+            "answer": "Respuesta personal razonada; puede valorar preferencias, tiempo de reparto o necesidades diferentes."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "al alcance",
+            "occurrence": 1,
+            "questionId": "l311-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l311-scene",
+            "src": "assets/readings/l311-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Elna, Neri e Isona preparan una mesa junto al molino con cuartos de pan redondo y rebanadas de pan alargado.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-mesa-de-los-panes-distintos-ca",
+        "code": "L311",
+        "workId": "la-mesa-de-los-panes-distintos",
+        "language": "ca",
+        "familyId": "familia-l311",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "math"
+        ],
+        "genre": "narrative",
+        "title": "La taula dels pans diferents",
+        "summary": "Al berenar del molí, en Neri descobreix què li falta a un repartiment basat només a comptar trossos.",
+        "paragraphs": [
+          "L’Elna, la propietària del molí de la ribera, preparava un berenar al pati per a dotze persones en total, incloent-hi ella i els seus dos ajudants. En Neri i l’Isona, dos amics de la vall, l’ajudaven a preparar la taula. El forner havia portat dos pans rodons i un de llarg. L’Elna va tallar els rodons en quatre parts cadascun. De la meitat del pa llarg en va fer quatre llesques primes. Va desar l’altra meitat en un cistell, tapada amb un drap.",
+          "En Neri va comptar dotze porcions i va posar dotze plats. Va proposar repartir un tros a cadascun abans que arribessin els convidats. «Així tots tindran el mateix», va dir, satisfet amb el compte. L’Isona va col·locar una llesca al costat d’un quart de pa rodó. La llesca era força més petita. En Neri va mirar primer els pans i després les mans amb què havia comptat.",
+          "L’Isona s’estimava més una llesca prima; la volia acompanyar amb una mica de formatge. En Neri tenia més gana i va assenyalar el quart de pa. Van deixar uns trossos i altres en dues safates, a l’abast dels convidats. Els plats van quedar buits. L’Elna va acostar el cistell del pa reservat a l’extrem de la taula i va continuar col·locant les gerres.",
+          "Quan ja s’asseien, van arribar una veïna i el seu fill que no eren al compte inicial. En Neri va afegir dos plats i va buscar el cistell amb la mirada. L’Elna va destapar el pa i va tallar dues llesques gruixudes. Hi havia catorze porcions per a catorze persones. Les llesques noves tampoc no eren iguals que les primeres.",
+          "L’Isona va passar una safata als nouvinguts. En Neri va esperar que triessin, sense avançar un tros a cada plat. Després va agafar un quart i va acostar el formatge a la seva amiga."
+        ],
+        "questions": [
+          {
+            "id": "l311-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "D’on van sortir les dotze primeres porcions?",
+            "answer": "Vuit quarts dels dos pans rodons i quatre llesques de la meitat del pa llarg.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "els rodons en quatre parts cadascun"
+              },
+              {
+                "paragraph": 1,
+                "text": "De la meitat del pa llarg en va fer quatre llesques primes."
+              }
+            ]
+          },
+          {
+            "id": "l311-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina part del pa s’havia reservat abans de començar?",
+            "answer": "La meitat del pa llarg, dins d’un cistell tapat amb un drap.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Va desar l’altra meitat en un cistell, tapada amb un drap."
+              }
+            ]
+          },
+          {
+            "id": "l311-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què no havia tingut en compte en Neri en dir que tots tindrien el mateix?",
+            "answer": "Que tenir un tros per persona no significava rebre la mateixa quantitat, perquè els trossos eren de mides diferents.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Així tots tindran el mateix"
+              },
+              {
+                "paragraph": 2,
+                "text": "La llesca era força més petita."
+              }
+            ]
+          },
+          {
+            "id": "l311-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir «a l’abast» quan es parla de les safates?",
+            "answer": "En un lloc on els convidats podien arribar per agafar el pa.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "en dues safates, a l’abast dels convidats"
+              }
+            ]
+          },
+          {
+            "id": "l311-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què l’Isona i en Neri preferien trossos diferents?",
+            "answer": "L’Isona volia una llesca prima amb formatge; en Neri tenia més gana i preferia el quart.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "L’Isona s’estimava més una llesca prima; la volia acompanyar amb una mica de formatge. En Neri tenia més gana i va assenyalar el quart de pa."
+              }
+            ]
+          },
+          {
+            "id": "l311-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Com va canviar la preparació amb l’arribada de dues persones més?",
+            "answer": "Van afegir dos plats i l’Elna va tallar dues llesques del pa reservat.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "En Neri va afegir dos plats"
+              },
+              {
+                "paragraph": 4,
+                "text": "va tallar dues llesques gruixudes"
+              }
+            ]
+          },
+          {
+            "id": "l311-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què suggereix que en Neri busqui el cistell amb la mirada?",
+            "answer": "Que recorda el pa reservat i el relaciona amb la necessitat de servir els dos convidats nous.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "L’Elna va acostar el cistell del pa reservat a l’extrem de la taula"
+              },
+              {
+                "paragraph": 4,
+                "text": "En Neri va afegir dos plats i va buscar el cistell amb la mirada."
+              }
+            ]
+          },
+          {
+            "id": "l311-q8",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Eren iguals les porcions quan ja n’hi havia catorze?",
+            "answer": "No. Hi havia quarts de pa rodó, llesques primes i dues llesques noves més gruixudes.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "quatre llesques primes"
+              },
+              {
+                "paragraph": 4,
+                "text": "Les llesques noves tampoc no eren iguals que les primeres."
+              }
+            ]
+          },
+          {
+            "id": "l311-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix què va canviar en la manera de repartir el pa.",
+            "answer": "En Neri pensava posar un tros a cada plat. En comparar mides i preferències, van deixar el pa en safates per triar. L’Elna va afegir pa reservat quan van arribar més persones.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Va proposar repartir un tros a cadascun"
+              },
+              {
+                "paragraph": 3,
+                "text": "Van deixar uns trossos i altres en dues safates"
+              },
+              {
+                "paragraph": 4,
+                "text": "L’Elna va destapar el pa i va tallar dues llesques gruixudes."
+              }
+            ]
+          },
+          {
+            "id": "l311-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Et sembla una bona idea deixar triar en un berenar així? Explica un avantatge o un inconvenient.",
+            "answer": "Resposta personal raonada; pot valorar preferències, temps de repartiment o necessitats diferents."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "a l’abast",
+            "occurrence": 1,
+            "questionId": "l311-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l311-scene",
+            "src": "assets/readings/l311-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "L’Elna, en Neri i l’Isona preparen una taula al costat del molí amb quarts de pa rodó i llesques de pa llarg.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-mesa-de-los-panes-distintos-b-es",
+        "code": "L311B",
+        "workId": "la-mesa-de-los-panes-distintos-b",
+        "language": "es",
+        "familyId": "familia-l311",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "math"
+        ],
+        "genre": "narrative",
+        "title": "La mesa de los panes distintos",
+        "summary": "Un reparto que parecía resuelto con una cuenta cambia al mirar las porciones y escuchar a los invitados.",
+        "paragraphs": [
+          "Elna, la dueña del molino de la ribera, preparaba una merienda en el patio para doce personas en total, incluidos ella y sus dos ayudantes. Neri e Isona, dos amigos del valle, llegaron antes para ayudarla a preparar la mesa. El panadero había dejado dos panes redondos y uno largo. Elna dividió cada redondo en cuatro partes. De la mitad del largo cortó cuatro rebanadas finas y guardó la otra mitad en una cesta, bajo un paño.",
+          "Neri contó ocho cuartos y cuatro rebanadas. Sacó doce platos y propuso poner una porción en cada uno. «Así todos tendrán lo mismo», dijo. Le parecía una manera rápida de terminar la mesa sin tener que preguntar nada cuando se sentaran los vecinos. Isona acercó una rebanada a uno de los cuartos. La rebanada era bastante más pequeña, aunque ambos contaban como una sola porción.",
+          "Neri propuso partir los cuartos otra vez para hacerlos más pequeños. Isona señaló la rebanada que había escogido: la quería fina para acompañarla con queso. Él, en cambio, tenía más hambre y prefería conservar un cuarto entero. Dejaron el cuchillo en la zona donde trabajaba Elna y colocaron los distintos trozos en dos bandejas. Los platos quedaron vacíos, de modo que cada invitado pudiera ver lo que había antes de servirse.",
+          "Elna acercó la cesta tapada al extremo de la mesa. Cuando empezaban a sentarse, llegaron una vecina y su hijo que no figuraban en la cuenta inicial. Neri miró los doce platos y luego la cesta. Fue a buscar dos platos más. Elna destapó la mitad del pan largo y cortó dos rebanadas gruesas. Las añadió a una bandeja: ya había catorce porciones para catorce personas.",
+          "La vecina pidió una rebanada fina y su hijo prefirió un cuarto. Neri no les pasó directamente los trozos recién cortados, aunque habían aparecido por su llegada. Les acercó la bandeja para que eligieran. Las porciones seguían teniendo tamaños diferentes; la cuenta permitía saber cuántas había, pero para repartirlas también estaban escuchando a quienes iban a comer.",
+          "Cuando todos tuvieron pan, Isona pasó el queso a la vecina. Neri tomó el cuarto que había señalado antes y se sentó cerca de la cesta, con el plato ya ocupado y las dos bandejas a la vista."
+        ],
+        "questions": [
+          {
+            "id": "l311b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Explica el cálculo de las doce porciones iniciales.",
+            "answer": "Dos panes redondos en cuatro partes daban ocho cuartos; sumados a cuatro rebanadas de medio pan largo, eran doce porciones.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "cada redondo en cuatro partes"
+              },
+              {
+                "paragraph": 2,
+                "text": "ocho cuartos y cuatro rebanadas"
+              }
+            ]
+          },
+          {
+            "id": "l311b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué ventaja veía Neri en colocar de antemano un trozo por plato?",
+            "answer": "Terminar la mesa rápidamente y no tener que preguntar cuando se sentaran los vecinos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "una manera rápida de terminar la mesa sin tener que preguntar nada cuando se sentaran los vecinos"
+              }
+            ]
+          },
+          {
+            "id": "l311b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué límite tenía la afirmación «todos tendrán lo mismo»?",
+            "answer": "Solo era cierta respecto al número de trozos; no demostraba igualdad de cantidad ni atendía a las preferencias.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La rebanada era bastante más pequeña, aunque ambos contaban como una sola porción."
+              },
+              {
+                "paragraph": 3,
+                "text": "Él, en cambio, tenía más hambre"
+              }
+            ]
+          },
+          {
+            "id": "l311b-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué solución propuso primero Neri al ver la diferencia de tamaño?",
+            "answer": "Partir otra vez los cuartos para hacerlos más pequeños.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "partir los cuartos otra vez para hacerlos más pequeños"
+              }
+            ]
+          },
+          {
+            "id": "l311b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué muestran las preferencias de Isona y Neri sobre aquella propuesta?",
+            "answer": "Que reducir todos los trozos no atendía a ambos: Isona quería una rebanada fina y Neri prefería un cuarto entero.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "la quería fina para acompañarla con queso"
+              },
+              {
+                "paragraph": 3,
+                "text": "prefería conservar un cuarto entero"
+              }
+            ]
+          },
+          {
+            "id": "l311b-q6",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «porción» en esta lectura? ¿Tiene que ser una cantidad fija?",
+            "answer": "Una parte de pan que se cuenta como una unidad de reparto. Puede tener distinto tamaño; el texto compara una rebanada y un cuarto.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "ambos contaban como una sola porción"
+              }
+            ]
+          },
+          {
+            "id": "l311b-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿De dónde salieron las dos porciones que se añadieron?",
+            "answer": "De la mitad del pan largo que Elna había guardado bajo el paño.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Elna destapó la mitad del pan largo y cortó dos rebanadas gruesas."
+              }
+            ]
+          },
+          {
+            "id": "l311b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué relación hay entre la mirada de Neri a la cesta y la llegada de los invitados?",
+            "answer": "La llegada obliga a ampliar la mesa y Neri parece recordar que existe una reserva de pan para hacerlo.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Neri miró los doce platos y luego la cesta. Fue a buscar dos platos más."
+              },
+              {
+                "paragraph": 1,
+                "text": "guardó la otra mitad en una cesta"
+              }
+            ]
+          },
+          {
+            "id": "l311b-q9",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué escogieron la vecina y su hijo?",
+            "answer": "Ella una rebanada fina y él un cuarto de pan.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "La vecina pidió una rebanada fina y su hijo prefirió un cuarto."
+              }
+            ]
+          },
+          {
+            "id": "l311b-q10",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Neri no les pasó directamente las dos rebanadas nuevas?",
+            "answer": "Porque habían expresado otras preferencias; que el pan se cortara por su llegada no obligaba a asignárselo a ellos.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "no les pasó directamente los trozos recién cortados, aunque habían aparecido por su llegada"
+              },
+              {
+                "paragraph": 5,
+                "text": "Les acercó la bandeja para que eligieran."
+              }
+            ]
+          },
+          {
+            "id": "l311b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué información usaron, además del número de trozos, para repartir el pan.",
+            "answer": "Compararon tamaños, escucharon preferencias y tuvieron en cuenta la llegada de dos personas y la reserva disponible. Mantuvieron la elección en bandejas en vez de asignar piezas solo por el recuento.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La rebanada era bastante más pequeña"
+              },
+              {
+                "paragraph": 3,
+                "text": "cada invitado pudiera ver lo que había antes de servirse"
+              },
+              {
+                "paragraph": 5,
+                "text": "también estaban escuchando a quienes iban a comer"
+              }
+            ]
+          },
+          {
+            "id": "l311b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿En qué situación te parecería preferible repartir de antemano y en cuál dejar elegir? Razona ambos casos.",
+            "answer": "Respuesta personal que justifique dos situaciones, atendiendo a factores como tiempo, necesidades o variedad."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "porción",
+            "occurrence": 1,
+            "questionId": "l311b-q6"
+          }
+        ],
+        "images": [
+          {
+            "id": "l311-scene",
+            "src": "assets/readings/l311-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Elna, Neri e Isona preparan una mesa junto al molino con cuartos de pan redondo y rebanadas de pan alargado.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "la-mesa-de-los-panes-distintos-b-ca",
+        "code": "L311B",
+        "workId": "la-mesa-de-los-panes-distintos-b",
+        "language": "ca",
+        "familyId": "familia-l311",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "math"
+        ],
+        "genre": "narrative",
+        "title": "La taula dels pans diferents",
+        "summary": "Un repartiment que semblava resolt amb un compte canvia en mirar les porcions i escoltar els convidats.",
+        "paragraphs": [
+          "L’Elna, la propietària del molí de la ribera, preparava un berenar al pati per a dotze persones en total, incloent-hi ella i els seus dos ajudants. En Neri i l’Isona, dos amics de la vall, van arribar abans per ajudar-la a preparar la taula. El forner havia deixat dos pans rodons i un de llarg. L’Elna va dividir cada rodó en quatre parts. De la meitat del llarg va tallar quatre llesques primes i va desar l’altra meitat en un cistell, sota un drap.",
+          "En Neri va comptar vuit quarts i quatre llesques. Va treure dotze plats i va proposar posar una porció a cadascun. «Així tots tindran el mateix», va dir. Li semblava una manera ràpida d’acabar la taula sense haver de preguntar res quan s’asseguessin els veïns. L’Isona va acostar una llesca a un dels quarts. La llesca era força més petita, tot i que tots dos comptaven com una sola porció.",
+          "En Neri va proposar tornar a partir els quarts per fer-los més petits. L’Isona va assenyalar la llesca que havia escollit: la volia prima per acompanyar-la amb formatge. Ell, en canvi, tenia més gana i s’estimava més conservar un quart sencer. Van deixar el ganivet a la zona on treballava l’Elna i van col·locar els diferents trossos en dues safates. Els plats van quedar buits, de manera que cada convidat pogués veure què hi havia abans de servir-se.",
+          "L’Elna va acostar el cistell tapat a l’extrem de la taula. Quan començaven a asseure’s, van arribar una veïna i el seu fill que no figuraven al compte inicial. En Neri va mirar els dotze plats i després el cistell. Va anar a buscar dos plats més. L’Elna va destapar la meitat del pa llarg i va tallar dues llesques gruixudes. Les va afegir a una safata: ja hi havia catorze porcions per a catorze persones.",
+          "La veïna va demanar una llesca prima i el seu fill es va estimar més un quart. En Neri no els va passar directament els trossos acabats de tallar, tot i que havien aparegut per la seva arribada. Els va acostar la safata perquè triessin. Les porcions continuaven tenint mides diferents; el compte permetia saber quantes n’hi havia, però per repartir-les també escoltaven els qui havien de menjar.",
+          "Quan tothom va tenir pa, l’Isona va passar el formatge a la veïna. En Neri va agafar el quart que havia assenyalat abans i es va asseure a prop del cistell, amb el plat ja ocupat i les dues safates a la vista."
+        ],
+        "questions": [
+          {
+            "id": "l311b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Explica el càlcul de les dotze porcions inicials.",
+            "answer": "Dos pans rodons en quatre parts donaven vuit quarts; sumats a quatre llesques de mig pa llarg, eren dotze porcions.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "cada rodó en quatre parts"
+              },
+              {
+                "paragraph": 2,
+                "text": "vuit quarts i quatre llesques"
+              }
+            ]
+          },
+          {
+            "id": "l311b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quin avantatge veia en Neri a posar per endavant un tros a cada plat?",
+            "answer": "Acabar la taula ràpidament i no haver de preguntar quan s’asseguessin els veïns.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "una manera ràpida d’acabar la taula sense haver de preguntar res quan s’asseguessin els veïns"
+              }
+            ]
+          },
+          {
+            "id": "l311b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quin límit tenia l’afirmació «tots tindran el mateix»?",
+            "answer": "Només era certa respecte al nombre de trossos; no demostrava igualtat de quantitat ni atenia les preferències.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La llesca era força més petita, tot i que tots dos comptaven com una sola porció."
+              },
+              {
+                "paragraph": 3,
+                "text": "Ell, en canvi, tenia més gana"
+              }
+            ]
+          },
+          {
+            "id": "l311b-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina solució va proposar primer en Neri en veure la diferència de mida?",
+            "answer": "Tornar a partir els quarts per fer-los més petits.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "tornar a partir els quarts per fer-los més petits"
+              }
+            ]
+          },
+          {
+            "id": "l311b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què mostren les preferències de l’Isona i en Neri sobre aquella proposta?",
+            "answer": "Que reduir tots els trossos no els atenia tots dos: l’Isona volia una llesca prima i en Neri preferia un quart sencer.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "la volia prima per acompanyar-la amb formatge"
+              },
+              {
+                "paragraph": 3,
+                "text": "s’estimava més conservar un quart sencer"
+              }
+            ]
+          },
+          {
+            "id": "l311b-q6",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir «porció» en aquesta lectura? Ha de ser una quantitat fixa?",
+            "answer": "Una part de pa que es compta com una unitat de repartiment. Pot tenir una mida diferent; el text compara una llesca i un quart.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "tots dos comptaven com una sola porció"
+              }
+            ]
+          },
+          {
+            "id": "l311b-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "D’on van sortir les dues porcions que es van afegir?",
+            "answer": "De la meitat del pa llarg que l’Elna havia desat sota el drap.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "L’Elna va destapar la meitat del pa llarg i va tallar dues llesques gruixudes."
+              }
+            ]
+          },
+          {
+            "id": "l311b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina relació hi ha entre la mirada d’en Neri al cistell i l’arribada dels convidats?",
+            "answer": "L’arribada obliga a ampliar la taula i en Neri sembla recordar que hi ha una reserva de pa per fer-ho.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "En Neri va mirar els dotze plats i després el cistell. Va anar a buscar dos plats més."
+              },
+              {
+                "paragraph": 1,
+                "text": "va desar l’altra meitat en un cistell"
+              }
+            ]
+          },
+          {
+            "id": "l311b-q9",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què van escollir la veïna i el seu fill?",
+            "answer": "Ella una llesca prima i ell un quart de pa.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "La veïna va demanar una llesca prima i el seu fill es va estimar més un quart."
+              }
+            ]
+          },
+          {
+            "id": "l311b-q10",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què en Neri no els va passar directament les dues llesques noves?",
+            "answer": "Perquè havien expressat altres preferències; que el pa es tallés per la seva arribada no obligava a assignar-los-el.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "no els va passar directament els trossos acabats de tallar, tot i que havien aparegut per la seva arribada"
+              },
+              {
+                "paragraph": 5,
+                "text": "Els va acostar la safata perquè triessin."
+              }
+            ]
+          },
+          {
+            "id": "l311b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix quina informació van fer servir, a més del nombre de trossos, per repartir el pa.",
+            "answer": "Van comparar mides, van escoltar preferències i van tenir en compte l’arribada de dues persones i la reserva disponible. Van mantenir la tria en safates en lloc d’assignar peces només pel recompte.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La llesca era força més petita"
+              },
+              {
+                "paragraph": 3,
+                "text": "cada convidat pogués veure què hi havia abans de servir-se"
+              },
+              {
+                "paragraph": 5,
+                "text": "també escoltaven els qui havien de menjar"
+              }
+            ]
+          },
+          {
+            "id": "l311b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "En quina situació et semblaria preferible repartir per endavant i en quina deixar triar? Raona tots dos casos.",
+            "answer": "Resposta personal que justifiqui dues situacions, atenent factors com el temps, les necessitats o la varietat."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "porció",
+            "occurrence": 1,
+            "questionId": "l311b-q6"
+          }
+        ],
+        "images": [
+          {
+            "id": "l311-scene",
+            "src": "assets/readings/l311-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "L’Elna, en Neri i l’Isona preparen una taula al costat del molí amb quarts de pa rodó i llesques de pa llarg.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 4
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L311A",
+        "language": "es",
+        "questions": {
+          "l311a-q1": {
+            "prompt": "¿Para cuántas personas estaba prevista la merienda?",
+            "options": [
+              "Para doce vecinos.",
+              "Para catorce vecinos.",
+              "Para ocho vecinos.",
+              "Para cuatro vecinos."
+            ],
+            "correct": "a",
+            "explanation": "Para doce personas."
+          },
+          "l311a-q2": {
+            "prompt": "¿Cuántos cuartos salieron de los dos panes redondos?",
+            "options": [
+              "Cuatro, contando los dos panes juntos.",
+              "Doce, sumando todas las rebanadas.",
+              "Ocho, cuatro de cada pan redondo.",
+              "Dos, una parte de cada pan."
+            ],
+            "correct": "c",
+            "explanation": "Ocho: cuatro de cada uno de los dos panes."
+          },
+          "l311a-q3": {
+            "prompt": "¿Qué significa «porción» en esta lectura?",
+            "options": [
+              "La bandeja donde se guarda el pan.",
+              "Una parte de pan que se puede servir.",
+              "La mitad de pan que queda en la cesta.",
+              "El plato en el que cada uno escoge."
+            ],
+            "correct": "b",
+            "explanation": "Una parte o un trozo de pan para servir."
+          },
+          "l311a-q4": {
+            "prompt": "¿Qué mostraron al poner juntos una rebanada y un cuarto?",
+            "options": [
+              "Que los dos trozos venían del mismo pan.",
+              "Que el cuarto era más pequeño que la rebanada.",
+              "Que aún faltaba cortar los dos trozos.",
+              "Que no todos los trozos tenían el mismo tamaño."
+            ],
+            "correct": "d",
+            "explanation": "Que la rebanada era mucho más pequeña que el cuarto de pan redondo."
+          },
+          "l311a-q5": {
+            "prompt": "¿Qué hizo Elna cuando llegaron dos personas más?",
+            "options": [
+              "Cortó dos rebanadas del pan reservado.",
+              "Dividió todos los cuartos en dos.",
+              "Guardó dos platos para otra merienda.",
+              "Cambió las rebanadas pequeñas por cuartos."
+            ],
+            "correct": "a",
+            "explanation": "Cortó dos rebanadas gruesas del pan que había reservado."
+          },
+          "l311a-q6": {
+            "prompt": "¿Por qué una porción por persona no aseguraba que todos recibieran la misma cantidad de pan?",
+            "options": [
+              "Porque aún no habían contado los trozos.",
+              "Porque Elna no había preparado platos.",
+              "Porque el cuarto tenía más pan que la rebanada.",
+              "Porque habían llegado dos personas más a la mesa."
+            ],
+            "correct": "c",
+            "explanation": "Porque un cuarto de pan redondo era mayor que una rebanada: contar un trozo por persona no igualaba el tamaño de los trozos."
+          },
+          "l311a-q7": {
+            "prompt": "¿Cuántas porciones había después de añadir las dos nuevas?",
+            "options": [
+              "Doce, igual que antes de la llegada.",
+              "Catorce, dos más que al principio.",
+              "Dieciséis, al partir los cuartos.",
+              "Diez, al apartar las dos nuevas."
+            ],
+            "correct": "b",
+            "explanation": "Catorce: las doce del principio y las dos rebanadas nuevas."
+          }
+        }
+      },
+      {
+        "code": "L311A",
+        "language": "ca",
+        "questions": {
+          "l311a-q1": {
+            "prompt": "Per a quantes persones estava previst el berenar?",
+            "options": [
+              "Per a dotze veïns.",
+              "Per a catorze veïns.",
+              "Per a vuit veïns.",
+              "Per a quatre veïns."
+            ],
+            "correct": "a",
+            "explanation": "Per a dotze persones."
+          },
+          "l311a-q2": {
+            "prompt": "Quants quarts van sortir dels dos pans rodons?",
+            "options": [
+              "Quatre, comptant els dos pans junts.",
+              "Dotze, sumant totes les llesques.",
+              "Vuit, quatre de cada pa rodó.",
+              "Dos, una part de cada pa."
+            ],
+            "correct": "c",
+            "explanation": "Vuit: quatre de cadascun dels dos pans."
+          },
+          "l311a-q3": {
+            "prompt": "Què vol dir «porció» en aquesta lectura?",
+            "options": [
+              "La safata on es desa el pa.",
+              "Una part de pa que es pot servir.",
+              "La meitat de pa que queda al cistell.",
+              "El plat on cadascú escull."
+            ],
+            "correct": "b",
+            "explanation": "Una part o un tros de pa per servir."
+          },
+          "l311a-q4": {
+            "prompt": "Què van mostrar en posar junts una llesca i un quart?",
+            "options": [
+              "Que tots dos trossos venien del mateix pa.",
+              "Que el quart era més petit que la llesca.",
+              "Que encara faltava tallar tots dos trossos.",
+              "Que no tots els trossos tenien la mateixa mida."
+            ],
+            "correct": "d",
+            "explanation": "Que la llesca era molt més petita que el quart de pa rodó."
+          },
+          "l311a-q5": {
+            "prompt": "Què va fer l’Elna quan van arribar dues persones més?",
+            "options": [
+              "Va tallar dues llesques del pa reservat.",
+              "Va dividir tots els quarts en dos.",
+              "Va desar dos plats per a un altre berenar.",
+              "Va canviar les llesques petites per quarts."
+            ],
+            "correct": "a",
+            "explanation": "Va tallar dues llesques gruixudes del pa que havia reservat."
+          },
+          "l311a-q6": {
+            "prompt": "Per què una porció per persona no assegurava que tots rebessin la mateixa quantitat de pa?",
+            "options": [
+              "Perquè encara no havien comptat els trossos.",
+              "Perquè l’Elna no havia preparat plats.",
+              "Perquè el quart tenia més pa que la llesca.",
+              "Perquè havien arribat dues persones més a la taula."
+            ],
+            "correct": "c",
+            "explanation": "Perquè un quart de pa rodó era més gran que una llesca: comptar un tros per persona no igualava la mida dels trossos."
+          },
+          "l311a-q7": {
+            "prompt": "Quantes porcions hi havia després d’afegir-ne les dues noves?",
+            "options": [
+              "Dotze, igual que abans de l’arribada.",
+              "Catorze, dues més que al principi.",
+              "Setze, en partir els quarts.",
+              "Deu, en apartar les dues noves."
+            ],
+            "correct": "b",
+            "explanation": "Catorze: les dotze del principi i les dues llesques noves."
+          }
+        }
+      },
+      {
+        "code": "L311",
+        "language": "es",
+        "questions": {
+          "l311-q1": {
+            "prompt": "¿De dónde salieron las doce primeras porciones?",
+            "options": [
+              "Cuatro cuartos y ocho rebanadas del pan largo entero.",
+              "Ocho cuartos y cuatro rebanadas de medio pan largo.",
+              "Ocho cuartos y dos rebanadas gruesas de cada mitad.",
+              "Doce trozos iguales de los tres panes completos."
+            ],
+            "correct": "b",
+            "explanation": "Ocho cuartos de los dos panes redondos y cuatro rebanadas de la mitad del pan largo."
+          },
+          "l311-q2": {
+            "prompt": "¿Qué parte del pan se había reservado antes de empezar?",
+            "options": [
+              "Un pan redondo entero, sin cortar sus cuartos.",
+              "Las cuatro rebanadas finas que sobraban en una bandeja.",
+              "Dos cuartos de cada pan, envueltos en el paño.",
+              "La mitad del pan largo, tapada dentro de la cesta."
+            ],
+            "correct": "d",
+            "explanation": "La mitad del pan largo, dentro de una cesta cubierta con un paño."
+          },
+          "l311-q3": {
+            "prompt": "¿Qué no había tenido en cuenta Neri al decir que todos tendrían lo mismo?",
+            "options": [
+              "Había contado unidades sin comparar el tamaño de cada una.",
+              "Había olvidado sumar los platos a las porciones de pan.",
+              "Había contado a los recién llegados antes de que se sentaran.",
+              "Había reservado más rebanadas que cuartos para cada persona."
+            ],
+            "correct": "a",
+            "explanation": "Que tener un trozo por persona no significaba recibir la misma cantidad, porque los trozos eran de tamaños distintos."
+          },
+          "l311-q4": {
+            "prompt": "¿Qué significa «al alcance» cuando se habla de las bandejas?",
+            "options": [
+              "Reservadas para quienes aún no habían llegado.",
+              "Tan cerca de Elna que solo ella podía repartirlas.",
+              "Situadas donde podían cogerlas los invitados.",
+              "Repartidas por igual entre todos los platos."
+            ],
+            "correct": "c",
+            "explanation": "En un lugar al que los invitados podían llegar para coger el pan."
+          },
+          "l311-q5": {
+            "prompt": "¿Por qué preferían Isona y Neri trozos diferentes?",
+            "options": [
+              "Isona tenía más hambre y Neri reservaba el queso para los vecinos.",
+              "Isona quería una rebanada con queso y Neri prefería un trozo mayor.",
+              "Isona buscaba una porción gruesa y Neri una de las cuatro finas.",
+              "Ambos querían un cuarto, pero Isona se lo cedió a Neri."
+            ],
+            "correct": "b",
+            "explanation": "Isona quería una rebanada fina con queso; Neri tenía más hambre y prefería el cuarto."
+          },
+          "l311-q6": {
+            "prompt": "¿Cómo cambió la preparación con la llegada de dos personas más?",
+            "options": [
+              "Retiraron dos platos y juntaron las bandejas.",
+              "Cortaron por la mitad todas las porciones pequeñas.",
+              "Sacaron cuatro rebanadas finas que habían guardado.",
+              "Añadieron dos platos y dos rebanadas recién cortadas."
+            ],
+            "correct": "d",
+            "explanation": "Añadieron dos platos y Elna cortó dos rebanadas del pan reservado."
+          },
+          "l311-q7": {
+            "prompt": "¿Qué sugiere que Neri busque la cesta con la mirada?",
+            "options": [
+              "Recuerda una reserva que puede servir para las dos personas nuevas.",
+              "Quiere devolver los cuartos a la cesta antes de que lleguen los demás.",
+              "Busca el paño para cubrir las bandejas durante el reparto.",
+              "Intenta comprobar dónde había guardado los dos platos nuevos."
+            ],
+            "correct": "a",
+            "explanation": "Que recuerda el pan reservado y lo relaciona con la necesidad de servir a los dos nuevos invitados."
+          },
+          "l311-q8": {
+            "prompt": "¿Eran iguales las porciones cuando ya había catorce?",
+            "options": [
+              "Sí, porque había una porción para cada persona.",
+              "Sí, porque las nuevas se cortaron del mismo pan.",
+              "No, las porciones seguían teniendo formas y tamaños distintos.",
+              "No, porque aún faltaban los dos cuartos de los recién llegados."
+            ],
+            "correct": "c",
+            "explanation": "No. Había cuartos de pan redondo, rebanadas finas y dos rebanadas nuevas más gruesas."
+          },
+          "l311-q9": {
+            "prompt": "¿Qué resumen explica el cambio en el reparto?",
+            "options": [
+              "Igualaron el tamaño de los trozos para poder poner uno en cada plato.",
+              "Pasaron del reparto previo por unidades a ofrecer elección y usar una reserva.",
+              "Guardaron los trozos pequeños para los invitados que llegaron después.",
+              "Cortaron todos los panes en rebanadas para evitar diferencias de forma."
+            ],
+            "correct": "b",
+            "explanation": "Neri pensaba colocar un trozo en cada plato. Al comparar tamaños y preferencias, dejaron el pan en bandejas para elegir. Elna añadió pan reservado cuando llegaron más personas."
+          }
+        }
+      },
+      {
+        "code": "L311",
+        "language": "ca",
+        "questions": {
+          "l311-q1": {
+            "prompt": "D’on van sortir les dotze primeres porcions?",
+            "options": [
+              "Quatre quarts i vuit llesques del pa llarg sencer.",
+              "Vuit quarts i quatre llesques de mig pa llarg.",
+              "Vuit quarts i dues llesques gruixudes de cada meitat.",
+              "Dotze trossos iguals dels tres pans complets."
+            ],
+            "correct": "b",
+            "explanation": "Vuit quarts dels dos pans rodons i quatre llesques de la meitat del pa llarg."
+          },
+          "l311-q2": {
+            "prompt": "Quina part del pa s’havia reservat abans de començar?",
+            "options": [
+              "Un pa rodó sencer, sense tallar-ne els quarts.",
+              "Les quatre llesques primes que sobraven en una safata.",
+              "Dos quarts de cada pa, embolicats amb el drap.",
+              "La meitat del pa llarg, tapada dins del cistell."
+            ],
+            "correct": "d",
+            "explanation": "La meitat del pa llarg, dins d’un cistell tapat amb un drap."
+          },
+          "l311-q3": {
+            "prompt": "Què no havia tingut en compte en Neri en dir que tots tindrien el mateix?",
+            "options": [
+              "Havia comptat unitats sense comparar la mida de cadascuna.",
+              "Havia oblidat sumar els plats a les porcions de pa.",
+              "Havia comptat els nouvinguts abans que s’asseguessin.",
+              "Havia reservat més llesques que quarts per a cada persona."
+            ],
+            "correct": "a",
+            "explanation": "Que tenir un tros per persona no significava rebre la mateixa quantitat, perquè els trossos eren de mides diferents."
+          },
+          "l311-q4": {
+            "prompt": "Què vol dir «a l’abast» quan es parla de les safates?",
+            "options": [
+              "Reservades per als qui encara no havien arribat.",
+              "Tan a prop de l’Elna que només ella les podia repartir.",
+              "Situades on les podien agafar els convidats.",
+              "Repartides per igual entre tots els plats."
+            ],
+            "correct": "c",
+            "explanation": "En un lloc on els convidats podien arribar per agafar el pa."
+          },
+          "l311-q5": {
+            "prompt": "Per què l’Isona i en Neri preferien trossos diferents?",
+            "options": [
+              "L’Isona tenia més gana i en Neri reservava el formatge per als veïns.",
+              "L’Isona volia una llesca amb formatge i en Neri preferia un tros més gran.",
+              "L’Isona buscava una porció gruixuda i en Neri una de les quatre primes.",
+              "Tots dos volien un quart, però l’Isona el va cedir a en Neri."
+            ],
+            "correct": "b",
+            "explanation": "L’Isona volia una llesca prima amb formatge; en Neri tenia més gana i preferia el quart."
+          },
+          "l311-q6": {
+            "prompt": "Com va canviar la preparació amb l’arribada de dues persones més?",
+            "options": [
+              "Van retirar dos plats i van ajuntar les safates.",
+              "Van tallar per la meitat totes les porcions petites.",
+              "Van treure quatre llesques primes que havien desat.",
+              "Van afegir dos plats i dues llesques acabades de tallar."
+            ],
+            "correct": "d",
+            "explanation": "Van afegir dos plats i l’Elna va tallar dues llesques del pa reservat."
+          },
+          "l311-q7": {
+            "prompt": "Què suggereix que en Neri busqui el cistell amb la mirada?",
+            "options": [
+              "Recorda una reserva que pot servir per a les dues persones noves.",
+              "Vol tornar els quarts al cistell abans que arribin els altres.",
+              "Busca el drap per tapar les safates durant el repartiment.",
+              "Intenta comprovar on havia desat els dos plats nous."
+            ],
+            "correct": "a",
+            "explanation": "Que recorda el pa reservat i el relaciona amb la necessitat de servir els dos convidats nous."
+          },
+          "l311-q8": {
+            "prompt": "Eren iguals les porcions quan ja n’hi havia catorze?",
+            "options": [
+              "Sí, perquè hi havia una porció per a cada persona.",
+              "Sí, perquè les noves es van tallar del mateix pa.",
+              "No, les porcions continuaven tenint formes i mides diferents.",
+              "No, perquè encara faltaven els dos quarts dels nouvinguts."
+            ],
+            "correct": "c",
+            "explanation": "No. Hi havia quarts de pa rodó, llesques primes i dues llesques noves més gruixudes."
+          },
+          "l311-q9": {
+            "prompt": "Quin resum explica el canvi en el repartiment?",
+            "options": [
+              "Van igualar la mida dels trossos per poder-ne posar un a cada plat.",
+              "Van passar del repartiment previ per unitats a oferir tria i fer servir una reserva.",
+              "Van desar els trossos petits per als convidats que van arribar després.",
+              "Van tallar tots els pans a llesques per evitar diferències de forma."
+            ],
+            "correct": "b",
+            "explanation": "En Neri pensava posar un tros a cada plat. En comparar mides i preferències, van deixar el pa en safates per triar. L’Elna va afegir pa reservat quan van arribar més persones."
+          }
+        }
+      },
+      {
+        "code": "L311B",
+        "language": "es",
+        "questions": {
+          "l311b-q1": {
+            "prompt": "Explica el cálculo de las doce porciones iniciales.",
+            "options": [
+              "Dos panes en cuatro cuartos y el largo entero en ocho rebanadas.",
+              "Ocho cuartos más dos mitades de pan largo divididas cada una en dos.",
+              "Ocho cuartos de los redondos más cuatro rebanadas de medio pan largo.",
+              "Doce trozos iguales obtenidos al dividir los tres panes completos."
+            ],
+            "correct": "c",
+            "explanation": "Dos panes redondos en cuatro partes daban ocho cuartos; sumados a cuatro rebanadas de medio pan largo, eran doce porciones."
+          },
+          "l311b-q2": {
+            "prompt": "¿Qué ventaja veía Neri en colocar de antemano un trozo por plato?",
+            "options": [
+              "Acabar rápido el reparto sin preguntar a cada vecino al sentarse.",
+              "Conservar toda la mitad del pan largo para los dos últimos vecinos.",
+              "Dar más pan a quienes eligieran sentarse junto a la cesta.",
+              "Hacer que las rebanadas fueran del mismo tamaño que los cuartos."
+            ],
+            "correct": "a",
+            "explanation": "Terminar la mesa rápidamente y no tener que preguntar cuando se sentaran los vecinos."
+          },
+          "l311b-q3": {
+            "prompt": "¿Qué límite tenía la afirmación «todos tendrán lo mismo»?",
+            "options": [
+              "Suponía que los invitados preferían el pan del mismo panadero.",
+              "Confundía el número de platos con la cantidad de invitados tardíos.",
+              "Contaba las porciones reservadas como si ya estuvieran en la bandeja.",
+              "Extendía una igualdad de unidades a trozos de tamaños y usos distintos."
+            ],
+            "correct": "d",
+            "explanation": "Solo era cierta respecto al número de trozos; no demostraba igualdad de cantidad ni atendía a las preferencias."
+          },
+          "l311b-q4": {
+            "prompt": "¿Qué solución propuso primero Neri al ver la diferencia de tamaño?",
+            "options": [
+              "Cortar las rebanadas más gruesas para que se parecieran a los cuartos.",
+              "Dividir de nuevo los cuartos para reducir su tamaño.",
+              "Reservar los cuartos y servir solo la mitad del pan largo.",
+              "Colocar un cuarto y una rebanada en cada plato."
+            ],
+            "correct": "b",
+            "explanation": "Partir otra vez los cuartos para hacerlos más pequeños."
+          },
+          "l311b-q5": {
+            "prompt": "¿Qué muestran las preferencias de Isona y Neri sobre aquella propuesta?",
+            "options": [
+              "Que los dos querían porciones pequeñas por motivos diferentes.",
+              "Que la elección del queso dependía de haber cortado todos los cuartos.",
+              "Que igualar hacia tamaños menores no respondía a las dos preferencias.",
+              "Que Neri aceptaba partir su cuarto si Isona escogía también uno."
+            ],
+            "correct": "c",
+            "explanation": "Que reducir todos los trozos no atendía a ambos: Isona quería una rebanada fina y Neri prefería un cuarto entero."
+          },
+          "l311b-q6": {
+            "prompt": "¿Qué explicación de «porción» encaja con esta lectura?",
+            "options": [
+              "Una parte que cuenta como unidad, aunque su tamaño puede variar.",
+              "Una cantidad igual de pan que se coloca siempre en cada plato.",
+              "Una de las dos clases de pan, redondo o alargado.",
+              "La parte reservada que aún no puede ofrecerse a los invitados."
+            ],
+            "correct": "a",
+            "explanation": "Una parte de pan que se cuenta como una unidad de reparto. Puede tener distinto tamaño; el texto compara una rebanada y un cuarto."
+          },
+          "l311b-q7": {
+            "prompt": "¿De dónde salieron las dos porciones que se añadieron?",
+            "options": [
+              "De partir dos de las cuatro rebanadas finas del principio.",
+              "De cortar otra vez los cuartos que prefería Neri.",
+              "De recuperar dos trozos que ya estaban puestos en platos.",
+              "De cortar el medio pan largo que se había reservado."
+            ],
+            "correct": "d",
+            "explanation": "De la mitad del pan largo que Elna había guardado bajo el paño."
+          },
+          "l311b-q8": {
+            "prompt": "¿Qué relación hay entre la mirada de Neri a la cesta y la llegada de los invitados?",
+            "options": [
+              "Neri busca los cuartos que había retirado de la mesa al principio.",
+              "Neri relaciona los nuevos comensales con el pan que aún estaba reservado.",
+              "Neri comprueba si los recién llegados han traído más platos en la cesta.",
+              "Neri pide que las porciones más pequeñas vuelvan a guardarse bajo el paño."
+            ],
+            "correct": "b",
+            "explanation": "La llegada obliga a ampliar la mesa y Neri parece recordar que existe una reserva de pan para hacerlo."
+          },
+          "l311b-q9": {
+            "prompt": "¿Qué escogieron la vecina y su hijo?",
+            "options": [
+              "Ella un cuarto y él una rebanada recién cortada.",
+              "Ambos las dos rebanadas gruesas que Elna añadió.",
+              "Ella una rebanada fina y él un cuarto.",
+              "Ambos una rebanada fina acompañada de queso."
+            ],
+            "correct": "c",
+            "explanation": "Ella una rebanada fina y él un cuarto de pan."
+          },
+          "l311b-q10": {
+            "prompt": "¿Por qué Neri no les pasó directamente las dos rebanadas nuevas?",
+            "options": [
+              "Porque ya habían pedido trozos distintos y él les ofreció la elección.",
+              "Porque Elna había reservado las rebanadas gruesas para Isona y Neri.",
+              "Porque las dos nuevas porciones todavía no entraban en el recuento.",
+              "Porque quería cortar el cuarto del hijo antes de pasar la bandeja."
+            ],
+            "correct": "a",
+            "explanation": "Porque habían expresado otras preferencias; que el pan se cortara por su llegada no obligaba a asignárselo a ellos."
+          },
+          "l311b-q11": {
+            "prompt": "¿Qué idea resume el reparto que hicieron?",
+            "options": [
+              "El tamaño decidió que todos los trozos se cortaran otra vez antes de servir.",
+              "La reserva permitió que los últimos invitados recibieran las dos porciones nuevas.",
+              "El recuento bastó cuando hubo catorce porciones para catorce personas.",
+              "El tamaño, las preferencias y las llegadas completaron la información del recuento."
+            ],
+            "correct": "d",
+            "explanation": "Compararon tamaños, escucharon preferencias y tuvieron en cuenta la llegada de dos personas y la reserva disponible. Mantuvieron la elección en bandejas en vez de asignar piezas solo por el recuento."
+          }
+        }
+      },
+      {
+        "code": "L311B",
+        "language": "ca",
+        "questions": {
+          "l311b-q1": {
+            "prompt": "Explica el càlcul de les dotze porcions inicials.",
+            "options": [
+              "Dos pans en quatre quarts i el llarg sencer en vuit llesques.",
+              "Vuit quarts més dues meitats de pa llarg dividides cadascuna en dos.",
+              "Vuit quarts dels rodons més quatre llesques de mig pa llarg.",
+              "Dotze trossos iguals obtinguts en dividir els tres pans complets."
+            ],
+            "correct": "c",
+            "explanation": "Dos pans rodons en quatre parts donaven vuit quarts; sumats a quatre llesques de mig pa llarg, eren dotze porcions."
+          },
+          "l311b-q2": {
+            "prompt": "Quin avantatge veia en Neri a posar per endavant un tros a cada plat?",
+            "options": [
+              "Acabar ràpid el repartiment sense preguntar a cada veí en asseure’s.",
+              "Conservar tota la meitat del pa llarg per als dos últims veïns.",
+              "Donar més pa als qui triessin seure al costat del cistell.",
+              "Fer que les llesques fossin de la mateixa mida que els quarts."
+            ],
+            "correct": "a",
+            "explanation": "Acabar la taula ràpidament i no haver de preguntar quan s’asseguessin els veïns."
+          },
+          "l311b-q3": {
+            "prompt": "Quin límit tenia l’afirmació «tots tindran el mateix»?",
+            "options": [
+              "Suposava que els convidats preferien el pa del mateix forner.",
+              "Confonia el nombre de plats amb la quantitat de convidats tardans.",
+              "Comptava les porcions reservades com si ja fossin a la safata.",
+              "Estenia una igualtat d’unitats a trossos de mides i usos diferents."
+            ],
+            "correct": "d",
+            "explanation": "Només era certa respecte al nombre de trossos; no demostrava igualtat de quantitat ni atenia les preferències."
+          },
+          "l311b-q4": {
+            "prompt": "Quina solució va proposar primer en Neri en veure la diferència de mida?",
+            "options": [
+              "Tallar les llesques més gruixudes perquè s’assemblessin als quarts.",
+              "Tornar a dividir els quarts per reduir-ne la mida.",
+              "Reservar els quarts i servir només la meitat del pa llarg.",
+              "Posar un quart i una llesca a cada plat."
+            ],
+            "correct": "b",
+            "explanation": "Tornar a partir els quarts per fer-los més petits."
+          },
+          "l311b-q5": {
+            "prompt": "Què mostren les preferències de l’Isona i en Neri sobre aquella proposta?",
+            "options": [
+              "Que tots dos volien porcions petites per motius diferents.",
+              "Que la tria del formatge depenia d’haver tallat tots els quarts.",
+              "Que igualar cap a mides més petites no responia a totes dues preferències.",
+              "Que en Neri acceptava partir el seu quart si l’Isona també en triava un."
+            ],
+            "correct": "c",
+            "explanation": "Que reduir tots els trossos no els atenia tots dos: l’Isona volia una llesca prima i en Neri preferia un quart sencer."
+          },
+          "l311b-q6": {
+            "prompt": "Quina explicació de «porció» encaixa amb aquesta lectura?",
+            "options": [
+              "Una part que compta com a unitat, tot i que la mida pot variar.",
+              "Una quantitat igual de pa que es posa sempre a cada plat.",
+              "Una de les dues classes de pa, rodó o llarg.",
+              "La part reservada que encara no es pot oferir als convidats."
+            ],
+            "correct": "a",
+            "explanation": "Una part de pa que es compta com una unitat de repartiment. Pot tenir una mida diferent; el text compara una llesca i un quart."
+          },
+          "l311b-q7": {
+            "prompt": "D’on van sortir les dues porcions que es van afegir?",
+            "options": [
+              "De partir dues de les quatre llesques primes del principi.",
+              "De tornar a tallar els quarts que preferia en Neri.",
+              "De recuperar dos trossos que ja eren als plats.",
+              "De tallar el mig pa llarg que s’havia reservat."
+            ],
+            "correct": "d",
+            "explanation": "De la meitat del pa llarg que l’Elna havia desat sota el drap."
+          },
+          "l311b-q8": {
+            "prompt": "Quina relació hi ha entre la mirada d’en Neri al cistell i l’arribada dels convidats?",
+            "options": [
+              "En Neri busca els quarts que havia retirat de la taula al principi.",
+              "En Neri relaciona els nous comensals amb el pa que encara estava reservat.",
+              "En Neri comprova si els nouvinguts han portat més plats al cistell.",
+              "En Neri demana que les porcions més petites es tornin a desar sota el drap."
+            ],
+            "correct": "b",
+            "explanation": "L’arribada obliga a ampliar la taula i en Neri sembla recordar que hi ha una reserva de pa per fer-ho."
+          },
+          "l311b-q9": {
+            "prompt": "Què van escollir la veïna i el seu fill?",
+            "options": [
+              "Ella un quart i ell una llesca acabada de tallar.",
+              "Tots dos les dues llesques gruixudes que l’Elna va afegir.",
+              "Ella una llesca prima i ell un quart.",
+              "Tots dos una llesca prima acompanyada de formatge."
+            ],
+            "correct": "c",
+            "explanation": "Ella una llesca prima i ell un quart de pa."
+          },
+          "l311b-q10": {
+            "prompt": "Per què en Neri no els va passar directament les dues llesques noves?",
+            "options": [
+              "Perquè ja havien demanat trossos diferents i ell els va oferir la tria.",
+              "Perquè l’Elna havia reservat les llesques gruixudes per a l’Isona i en Neri.",
+              "Perquè les dues porcions noves encara no entraven al recompte.",
+              "Perquè volia tallar el quart del fill abans de passar la safata."
+            ],
+            "correct": "a",
+            "explanation": "Perquè havien expressat altres preferències; que el pa es tallés per la seva arribada no obligava a assignar-los-el."
+          },
+          "l311b-q11": {
+            "prompt": "Quina idea resumeix el repartiment que van fer?",
+            "options": [
+              "La mida va fer decidir que tots els trossos es tornessin a tallar abans de servir.",
+              "La reserva va permetre que els últims convidats rebessin les dues porcions noves.",
+              "El recompte va bastar quan hi va haver catorze porcions per a catorze persones.",
+              "La mida, les preferències i les arribades van completar la informació del recompte."
+            ],
+            "correct": "d",
+            "explanation": "Van comparar mides, van escoltar preferències i van tenir en compte l’arribada de dues persones i la reserva disponible. Van mantenir la tria en safates en lloc d’assignar peces només pel recompte."
+          }
+        }
+      }
+    ]
   }
 ];

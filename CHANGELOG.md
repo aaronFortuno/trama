@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.63.4 · 26 de novembre del 2026
+
+L311: La taula dels pans diferents. Nova família de l’univers Els camins de la ribera, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 11 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.63.3 · 26 de novembre del 2026
 
 L310: La cançó que necessitava una pausa. Nova família de l’univers Els camins de la ribera, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 10 històries independents. Contingut provisional, pendent de validació docent.
