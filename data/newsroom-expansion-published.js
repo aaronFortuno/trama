@@ -10817,5 +10817,1764 @@ export const newsroomPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L286",
+    "edition": "v1.60.6",
+    "family": {
+      "id": "familia-l286",
+      "code": "L286",
+      "name": {
+        "es": "Una noticia en dos lenguas",
+        "ca": "Una notícia en dues llengües"
+      },
+      "description": {
+        "ca": "Una història de La redacció del pati, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de La redacción del patio, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L286A",
+        "L286",
+        "L286B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "una-noticia-en-dos-lenguas-a-es",
+        "code": "L286A",
+        "workId": "una-noticia-en-dos-lenguas-a",
+        "language": "es",
+        "familyId": "familia-l286",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "Una noticia en dos lenguas",
+        "summary": "Dos versiones de una invitación dicen casi lo mismo, pero una familia imagina una actividad diferente.",
+        "paragraphs": [
+          "Clara y Omar preparaban el periódico escolar en una mesa del patio. Tenían once años y también ayudaban en el huerto. El viernes siguiente, las familias podrían plantar lechugas con el alumnado de toda la escuela. El periódico llevaría una invitación en castellano y otra en catalán, para que cada familia eligiera cuál leer.",
+          "Clara había escrito «Puertas abiertas en el huerto». Omar preparó la versión catalana con el mismo título. Debajo figuraban el viernes, la hora y la entrada por la verja del patio. Al entregar una prueba a Nora, de cuarto, ella preguntó si su abuela tendría que escuchar una charla. Habían ido juntas a unas puertas abiertas de otro centro, donde les enseñaron las aulas.",
+          "Los dos redactores habían dado por hecho que las familias conocían el plan. El título podía servir, pero no explicaba qué harían allí. Clara añadió: «Ven a plantar con nosotros». Omar incorporó la misma idea a la otra versión y escribió que habría plantones y pequeñas palas para compartir.",
+          "Nora leyó de nuevo la invitación. Ahora dijo que su abuela podría ayudarla con una lechuga. Después señaló el dibujo de una pala: le recordaba la que usaban en casa. Clara le pidió que enseñara también la frase nueva, no solo el dibujo.",
+          "El viernes, Nora llegó con su abuela y buscaron su grupo junto a los plantones. Omar les acercó una pala. La abuela la levantó y bromeó: «Esta charla viene con herramientas». Clara se agachó para hacer sitio a otra lechuga."
+        ],
+        "questions": [
+          {
+            "id": "l286a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué actividad prepararían las familias con el alumnado?",
+            "answer": "Plantar lechugas en el huerto.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "las familias podrían plantar lechugas con el alumnado"
+              }
+            ]
+          },
+          {
+            "id": "l286a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué tres datos de acceso ya figuraban debajo del título?",
+            "answer": "El viernes, la hora y la entrada por la verja del patio.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "el viernes, la hora y la entrada por la verja del patio"
+              }
+            ]
+          },
+          {
+            "id": "l286a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Nora pensó que habría una charla?",
+            "answer": "Relacionó el título con otras puertas abiertas a las que había ido con su abuela.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Habían ido juntas a unas puertas abiertas de otro centro"
+              }
+            ]
+          },
+          {
+            "id": "l286a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «dado por hecho» en este texto?",
+            "answer": "Habían supuesto que las familias sabían el plan, sin comprobarlo.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "habían dado por hecho que las familias conocían el plan"
+              }
+            ]
+          },
+          {
+            "id": "l286a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué aclaró la frase nueva que no aclaraba el título?",
+            "answer": "Que las familias participarían plantando, no solo visitarían el lugar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Ven a plantar con nosotros"
+              }
+            ]
+          },
+          {
+            "id": "l286a-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Para qué sirve volver a mostrar a Nora en el último párrafo?",
+            "answer": "Para mostrarla participando con su abuela en la actividad que la invitación había aclarado.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Nora llegó con su abuela y buscaron su grupo junto a los plantones"
+              }
+            ]
+          },
+          {
+            "id": "l286a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume el problema de la invitación y cómo lo resolvieron.",
+            "answer": "Las dos versiones daban datos de acceso, pero no explicaban la actividad. La pregunta de Nora llevó a añadir que las familias plantarían con el alumnado.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El título podía servir, pero no explicaba qué harían allí"
+              }
+            ]
+          },
+          {
+            "id": "l286a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué otra información preguntarías antes de participar? Explica por qué sería útil.",
+            "answer": "Respuesta personal razonada: por ejemplo, duración, ropa o qué hacer si llueve, explicando su utilidad."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "dado por hecho",
+            "occurrence": 1,
+            "questionId": "l286a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l286-scene",
+            "src": "assets/readings/l286-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan dos versiones de una invitación al huerto en una mesa del patio, junto a macetas pequeñas.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan el periódico escolar en una mesa del patio, en una ilustración azul y naranja.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "una-noticia-en-dos-lenguas-a-ca",
+        "code": "L286A",
+        "workId": "una-noticia-en-dos-lenguas-a",
+        "language": "ca",
+        "familyId": "familia-l286",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "Una notícia en dues llengües",
+        "summary": "Dues versions d’una invitació diuen gairebé el mateix, però una família s’imagina una activitat diferent.",
+        "paragraphs": [
+          "La Clara i l’Omar preparaven el diari escolar en una taula del pati. Tenien onze anys i també ajudaven a l’hort. El divendres següent, les famílies podrien plantar enciams amb l’alumnat. El diari portaria una invitació en castellà i una altra en català, perquè cada família triés quina llegir.",
+          "La Clara havia escrit «Portes obertes a l’hort». L’Omar va preparar la versió castellana amb el mateix títol. A sota hi figuraven el divendres, l’hora i l’entrada per la reixa del pati. En donar una prova a la Nora, de quart, ella va preguntar si l’àvia hauria d’escoltar una xerrada. Havien anat juntes a unes portes obertes d’un altre centre, on els van ensenyar les aules.",
+          "Els dos redactors havien donat per fet que les famílies coneixien el pla. El títol podia servir, però no explicava què hi farien. La Clara hi va afegir: «Vine a plantar amb nosaltres». L’Omar va incorporar la mateixa idea a l’altra versió i va escriure que hi hauria planters i pales petites per compartir.",
+          "La Nora va tornar a llegir la invitació. Ara va dir que l’àvia podria ajudar-la amb un enciam. Després va assenyalar el dibuix d’una pala: li recordava la que feien servir a casa. La Clara li va demanar que ensenyés també la frase nova, no tan sols el dibuix.",
+          "Divendres, la Nora va arribar amb l’àvia i van buscar el seu grup al costat dels planters. L’Omar els va acostar una pala. L’àvia la va aixecar i va fer broma: «Aquesta xerrada ve amb eines». La Clara es va ajupir per fer lloc a un altre enciam."
+        ],
+        "questions": [
+          {
+            "id": "l286a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quina activitat prepararien les famílies amb l’alumnat?",
+            "answer": "Plantar enciams a l’hort.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "les famílies podrien plantar enciams amb l’alumnat"
+              }
+            ]
+          },
+          {
+            "id": "l286a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quines tres dades d’accés ja figuraven sota el títol?",
+            "answer": "El divendres, l’hora i l’entrada per la reixa del pati.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "el divendres, l’hora i l’entrada per la reixa del pati"
+              }
+            ]
+          },
+          {
+            "id": "l286a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la Nora va pensar que hi hauria una xerrada?",
+            "answer": "Va relacionar el títol amb unes altres portes obertes on havia anat amb l’àvia.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Havien anat juntes a unes portes obertes d’un altre centre"
+              }
+            ]
+          },
+          {
+            "id": "l286a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir «donat per fet» en aquest text?",
+            "answer": "Havien suposat que les famílies sabien el pla, sense comprovar-ho.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "havien donat per fet que les famílies coneixien el pla"
+              }
+            ]
+          },
+          {
+            "id": "l286a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què va aclarir la frase nova que no aclaria el títol?",
+            "answer": "Que les famílies participarien plantant, no tan sols visitarien el lloc.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Vine a plantar amb nosaltres"
+              }
+            ]
+          },
+          {
+            "id": "l286a-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Per a què serveix tornar a mostrar la Nora a l’últim paràgraf?",
+            "answer": "Per mostrar-la participant amb l’àvia en l’activitat que la invitació havia aclarit.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "la Nora va arribar amb l’àvia i van buscar el seu grup al costat dels planters"
+              }
+            ]
+          },
+          {
+            "id": "l286a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix el problema de la invitació i com el van resoldre.",
+            "answer": "Les dues versions donaven dades d’accés, però no explicaven l’activitat. La pregunta de la Nora va portar a afegir que les famílies plantarien amb l’alumnat.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El títol podia servir, però no explicava què hi farien"
+              }
+            ]
+          },
+          {
+            "id": "l286a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quina altra informació preguntaries abans de participar? Explica per què seria útil.",
+            "answer": "Resposta personal raonada: per exemple, durada, roba o què fer si plou, explicant-ne la utilitat."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "donat per fet",
+            "occurrence": 1,
+            "questionId": "l286a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l286-scene",
+            "src": "assets/readings/l286-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen dues versions d’una invitació a l’hort en una taula del pati, al costat de testos petits.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen el diari escolar en una taula del pati, en una il·lustració blava i taronja.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "una-noticia-en-dos-lenguas-es",
+        "code": "L286",
+        "workId": "una-noticia-en-dos-lenguas",
+        "language": "es",
+        "familyId": "familia-l286",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "Una noticia en dos lenguas",
+        "summary": "Una pregunta sobre dos invitaciones equivalentes obliga a explicar algo que sus redactores creían evidente.",
+        "paragraphs": [
+          "El periódico escolar preparaba una página para invitar a las familias a plantar en el huerto. Clara y Omar, de sexto, se habían llevado las pruebas a una mesa del patio. En su escuela había familias que preferían leer en castellano y otras en catalán. Publicarían las dos versiones una al lado de la otra. El encuentro sería el viernes siguiente, después de clase, y cada grupo plantaría unas lechugas acompañado por sus familiares.",
+          "Clara había titulado su texto «Puertas abiertas en el huerto». Omar preparó la otra versión conservando el título y la información: día, hora y entrada por la verja del patio. Releyeron las dos y comprobaron que ninguna cambiaba aquellos datos. Después Nora, una alumna de cuarto, se acercó con una pregunta: «¿Habrá una charla larga? Mi abuela quiere venir conmigo».",
+          "Nora y su abuela habían visitado otro centro durante unas puertas abiertas. Allí escucharon explicaciones y recorrieron las aulas. Clara iba a responder que en el huerto harían otra cosa, pero se detuvo: no lo había escrito. Los redactores habían dado por hecho que todas las familias conocían el plan porque en su clase llevaban días hablando de él. En ambas versiones faltaba decir en qué consistiría la participación.",
+          "Añadieron bajo el título «Ven a plantar con nosotros» y, en la otra lengua, una frase con el mismo sentido. Explicaron que cada familia se uniría al grupo de su hijo o hija y que habría plantones y pequeñas palas para compartir. Omar propuso dibujar unas manos junto a una lechuga. Clara aceptó el dibujo y dejó la explicación escrita justo al lado, en lugar de esconderla al final de la columna.",
+          "Nora volvió a leer. «Entonces puedo plantar con mi abuela», dijo. No necesitó que le tradujeran ninguna palabra: necesitaba saber qué la estaban invitando a hacer. Preguntó también si podría enseñar a su hermano pequeño la lechuga de su grupo cuando terminara. Omar anotó esa pregunta para consultarla con la maestra, que organizaba los turnos.",
+          "El viernes llegaron juntas y encontraron su grupo junto a los plantones. La abuela cogió una pala y bromeó: «Esta charla viene con herramientas». Clara, que estaba haciendo un hueco en la tierra, se rio y le señaló dónde dejar la siguiente lechuga. Omar apartó una copia del periódico antes de que quedara enterrada bajo una montaña de tierra."
+        ],
+        "questions": [
+          {
+            "id": "l286-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué publicarían dos versiones de la invitación?",
+            "answer": "Porque había familias que preferían leer en castellano y otras en catalán.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "familias que preferían leer en castellano y otras en catalán"
+              }
+            ]
+          },
+          {
+            "id": "l286-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué comprobaron antes de hablar con Nora?",
+            "answer": "Que ambas versiones conservaban día, hora y entrada.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "ninguna cambiaba aquellos datos"
+              }
+            ]
+          },
+          {
+            "id": "l286-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué experiencia explica la pregunta de Nora sobre la charla?",
+            "answer": "En otras puertas abiertas había escuchado explicaciones y visitado aulas con su abuela.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Allí escucharon explicaciones y recorrieron las aulas"
+              }
+            ]
+          },
+          {
+            "id": "l286-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Explica «dado por hecho» en la situación de los redactores.",
+            "answer": "Supusieron sin comprobarlo que las familias conocían lo que se haría.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "habían dado por hecho que todas las familias conocían el plan"
+              }
+            ]
+          },
+          {
+            "id": "l286-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Clara se detiene antes de responder que harían otra cosa?",
+            "answer": "Porque se da cuenta de que la invitación no explicaba la actividad que ella tenía en mente.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "se detuvo: no lo había escrito"
+              }
+            ]
+          },
+          {
+            "id": "l286-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Por qué colocan la explicación nueva cerca del título y del dibujo?",
+            "answer": "Para que se encuentre al leer la invitación y aclare lo que representa la imagen.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "dejó la explicación escrita justo al lado, en lugar de esconderla al final de la columna"
+              }
+            ]
+          },
+          {
+            "id": "l286-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué muestra la segunda lectura de Nora sobre el problema inicial?",
+            "answer": "Que faltaba contexto sobre la actividad, no traducirle una palabra desconocida.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "No necesitó que le tradujeran ninguna palabra"
+              }
+            ]
+          },
+          {
+            "id": "l286-q8",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué pregunta sigue pendiente de consultar con la maestra?",
+            "answer": "Si Nora podría enseñar a su hermano pequeño la lechuga de su grupo al terminar.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "si podría enseñar a su hermano pequeño la lechuga de su grupo cuando terminara"
+              }
+            ]
+          },
+          {
+            "id": "l286-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué descubrieron al revisar las dos versiones con Nora.",
+            "answer": "Los datos coincidían, pero ambas omitían qué harían las familias. La pregunta de Nora les llevó a explicar la plantación cerca del título y en las dos lenguas.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "En ambas versiones faltaba decir en qué consistiría la participación"
+              }
+            ]
+          },
+          {
+            "id": "l286-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Cómo comprobarías otra invitación antes de publicarla? Propón una acción y justifícala.",
+            "answer": "Respuesta razonada: pedir a alguien ajeno a la preparación que explique qué entiende, revisar datos y contexto u otra acción útil."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "dado por hecho",
+            "occurrence": 1,
+            "questionId": "l286-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l286-scene",
+            "src": "assets/readings/l286-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan dos versiones de una invitación al huerto en una mesa del patio, junto a macetas pequeñas.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan el periódico escolar en una mesa del patio, en una ilustración azul y naranja.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "una-noticia-en-dos-lenguas-ca",
+        "code": "L286",
+        "workId": "una-noticia-en-dos-lenguas",
+        "language": "ca",
+        "familyId": "familia-l286",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "Una notícia en dues llengües",
+        "summary": "Una pregunta sobre dues invitacions equivalents obliga a explicar una cosa que els redactors creien evident.",
+        "paragraphs": [
+          "El diari escolar preparava una pàgina per convidar les famílies a plantar a l’hort. La Clara i l’Omar, de sisè, s’havien endut les proves a una taula del pati. A la seva escola hi havia famílies que preferien llegir en castellà i d’altres en català. Publicarien les dues versions l’una al costat de l’altra. La trobada seria el divendres següent, després de classe, i cada grup plantaria uns enciams acompanyat dels familiars.",
+          "La Clara havia titulat el text «Portes obertes a l’hort». L’Omar va preparar l’altra versió conservant el títol i la informació: dia, hora i entrada per la reixa del pati. Les van rellegir totes dues i van comprovar que cap no canviava aquelles dades. Després la Nora, una alumna de quart, s’hi va acostar amb una pregunta: «Hi haurà una xerrada llarga? L’àvia vol venir amb mi».",
+          "La Nora i l’àvia havien visitat un altre centre durant unes portes obertes. Allà van escoltar explicacions i van recórrer les aules. La Clara anava a respondre que a l’hort farien una altra cosa, però es va aturar: no ho havia escrit. Els redactors havien donat per fet que totes les famílies coneixien el pla perquè a la seva classe feia dies que en parlaven. En totes dues versions faltava dir en què consistiria la participació.",
+          "Van afegir sota el títol «Vine a plantar amb nosaltres» i, en l’altra llengua, una frase amb el mateix sentit. Van explicar que cada família s’afegiria al grup del fill o la filla i que hi hauria planters i pales petites per compartir. L’Omar va proposar dibuixar unes mans al costat d’un enciam. La Clara va acceptar el dibuix i va deixar l’explicació escrita just al costat, en lloc d’amagar-la al final de la columna.",
+          "La Nora va tornar a llegir. «Llavors puc plantar amb l’àvia», va dir. No va necessitar que li traduïssin cap paraula: necessitava saber a què la convidaven. També va preguntar si podria ensenyar al germà petit l’enciam del seu grup quan acabés. L’Omar va apuntar aquella pregunta per consultar-la amb la mestra, que organitzava els torns.",
+          "Divendres van arribar juntes i van trobar el seu grup al costat dels planters. L’àvia va agafar una pala i va fer broma: «Aquesta xerrada ve amb eines». La Clara, que estava fent un clot a la terra, va riure i li va assenyalar on deixar l’enciam següent. L’Omar va apartar una còpia del diari abans que quedés enterrada sota una muntanya de terra."
+        ],
+        "questions": [
+          {
+            "id": "l286-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què publicarien dues versions de la invitació?",
+            "answer": "Perquè hi havia famílies que preferien llegir en castellà i d’altres en català.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "famílies que preferien llegir en castellà i d’altres en català"
+              }
+            ]
+          },
+          {
+            "id": "l286-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què van comprovar abans de parlar amb la Nora?",
+            "answer": "Que totes dues versions conservaven dia, hora i entrada.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "cap no canviava aquelles dades"
+              }
+            ]
+          },
+          {
+            "id": "l286-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina experiència explica la pregunta de la Nora sobre la xerrada?",
+            "answer": "En unes altres portes obertes havia escoltat explicacions i visitat aules amb l’àvia.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Allà van escoltar explicacions i van recórrer les aules"
+              }
+            ]
+          },
+          {
+            "id": "l286-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Explica «donat per fet» en la situació dels redactors.",
+            "answer": "Van suposar sense comprovar-ho que les famílies coneixien el que es faria.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "havien donat per fet que totes les famílies coneixien el pla"
+              }
+            ]
+          },
+          {
+            "id": "l286-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la Clara s’atura abans de respondre que farien una altra cosa?",
+            "answer": "Perquè s’adona que la invitació no explicava l’activitat que ella tenia al cap.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "es va aturar: no ho havia escrit"
+              }
+            ]
+          },
+          {
+            "id": "l286-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Per què posen l’explicació nova a prop del títol i del dibuix?",
+            "answer": "Perquè es trobi en llegir la invitació i aclareixi què representa la imatge.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "va deixar l’explicació escrita just al costat, en lloc d’amagar-la al final de la columna"
+              }
+            ]
+          },
+          {
+            "id": "l286-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què mostra la segona lectura de la Nora sobre el problema inicial?",
+            "answer": "Que faltava context sobre l’activitat, no traduir-li una paraula desconeguda.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "No va necessitar que li traduïssin cap paraula"
+              }
+            ]
+          },
+          {
+            "id": "l286-q8",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina pregunta queda pendent de consultar amb la mestra?",
+            "answer": "Si la Nora podria ensenyar al germà petit l’enciam del seu grup en acabar.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "si podria ensenyar al germà petit l’enciam del seu grup quan acabés"
+              }
+            ]
+          },
+          {
+            "id": "l286-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix què van descobrir en revisar les dues versions amb la Nora.",
+            "answer": "Les dades coincidien, però totes dues ometien què farien les famílies. La pregunta de la Nora els va portar a explicar la plantació a prop del títol i en les dues llengües.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "En totes dues versions faltava dir en què consistiria la participació"
+              }
+            ]
+          },
+          {
+            "id": "l286-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Com comprovaries una altra invitació abans de publicar-la? Proposa una acció i justifica-la.",
+            "answer": "Resposta raonada: demanar a algú aliè a la preparació que expliqui què entén, revisar dades i context o una altra acció útil."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "donat per fet",
+            "occurrence": 1,
+            "questionId": "l286-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l286-scene",
+            "src": "assets/readings/l286-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen dues versions d’una invitació a l’hort en una taula del pati, al costat de testos petits.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen el diari escolar en una taula del pati, en una il·lustració blava i taronja.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "una-noticia-en-dos-lenguas-b-es",
+        "code": "L286B",
+        "workId": "una-noticia-en-dos-lenguas-b",
+        "language": "es",
+        "familyId": "familia-l286",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "Una noticia en dos lenguas",
+        "summary": "La equivalencia entre dos versiones no garantiza que expliquen la actividad a quien desconoce los preparativos.",
+        "paragraphs": [
+          "Clara y Omar preparaban una invitación para el periódico escolar. Eran alumnos de sexto y colaboraban en la redacción del patio, un equipo que escribía noticias y propuestas para la comunidad de la escuela. La semana siguiente habría una tarde para plantar lechugas con las familias en el huerto. El periódico publicaría una versión en castellano y otra en catalán, una al lado de la otra, porque las familias tenían distintas preferencias de lectura.",
+          "Clara había elegido «Puertas abiertas en el huerto» como título. Omar conservó esa expresión al preparar la otra versión. Bajo el anuncio figuraban el viernes, la hora y la entrada por la verja del patio. La última línea decía que cada familia se uniría al grupo de su hijo o hija. Los redactores comprobaron nombres, fecha y horario en los dos textos. Ninguno parecía contradecir al otro, y Clara estaba a punto de enviar la página a la maestra.",
+          "Nora, de cuarto, se acercó con una prueba que pensaba llevar a su abuela. Preguntó si primero habría una charla y después una visita. Las dos habían estado en unas puertas abiertas de otro centro: habían escuchado explicaciones y recorrido las aulas. Clara empezó a contestar que aquello sería distinto. Entonces miró la página. En su clase llevaban días preparando la plantación y habían dado por hecho que el resto de las familias conocía el plan. El texto permitía saber dónde y cuándo acudir, pero no qué harían al llegar.",
+          "Omar propuso sustituir el título por una lista de tareas. Clara prefería mantenerlo y explicar la acción justo debajo: «Ven a plantar con nosotros». Leyeron ambas posibilidades en voz alta. La lista incluía demasiados detalles para el espacio de la invitación, así que dejaron la frase breve y añadieron qué material compartirían. En la otra lengua escribieron una frase con el mismo sentido. Al lado colocaron un dibujo de manos sujetando un plantón, acompañado de la explicación escrita.",
+          "La información nueva decía que habría plantones y pequeñas palas para compartir, y que las familias plantarían con su grupo. Nora volvió a leer y explicó con sus palabras lo que harían: «Busco mi grupo y planto con mi abuela». Omar señaló que no había cambiado ningún dato del horario. Clara señaló la frase añadida. Habían revisado primero si las versiones coincidían entre sí; la pregunta de Nora les había hecho mirar también qué necesitaba saber alguien ajeno a la preparación.",
+          "Nora preguntó después si podría enseñar a su hermano pequeño la lechuga al terminar. Esa respuesta dependía de cómo se organizaran los turnos. Omar dejó la pregunta junto al mensaje para la maestra. Clara guardó las dos pruebas antiguas debajo de la versión nueva, para poder enseñarle qué había cambiado. Cuando el viento empezó a levantar una esquina, Nora dejó encima su estuche. «Este también quiere participar», dijo, sujetando una goma que rodaba hacia el suelo.",
+          "El viernes, Nora llegó con su abuela y encontraron su grupo junto a los plantones. La abuela cogió una pala: «Esta charla viene con herramientas». Omar le acercó una lechuga mientras Clara abría un pequeño hueco en la tierra. La copia del periódico quedó bajo el estuche, a salvo del viento, pero al final de la tarde tenía una huella de barro junto al título."
+        ],
+        "questions": [
+          {
+            "id": "l286b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué dos decisiones sobre la publicación se anuncian en el primer párrafo?",
+            "answer": "Publicar en castellano y catalán y colocar ambas versiones una al lado de la otra.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una versión en castellano y otra en catalán, una al lado de la otra"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué podía averiguar una familia en la primera versión sobre cuándo y dónde acudir?",
+            "answer": "El viernes, la hora y que entraría por la verja del patio.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "el viernes, la hora y la entrada por la verja del patio"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué las dos versiones podían coincidir y aun así provocar la duda de Nora?",
+            "answer": "Porque compartían la misma falta de información sobre la actividad.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El texto permitía saber dónde y cuándo acudir, pero no qué harían al llegar"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué expresa «dado por hecho» sobre la suposición de los redactores?",
+            "answer": "Consideraban sabido por las familias algo que no habían comprobado que supieran.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "habían dado por hecho que el resto de las familias conocía el plan"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué la experiencia anterior de Nora es relevante para entender su pregunta?",
+            "answer": "Porque asocia unas puertas abiertas con charla y visita, aunque esta actividad incluía plantar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "habían escuchado explicaciones y recorrido las aulas"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué alternativa al título propone Omar y por qué la descartan?",
+            "answer": "Una lista de tareas; la descartan por tener demasiados detalles para el espacio de la invitación.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La lista incluía demasiados detalles para el espacio de la invitación"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Cómo se complementan el dibujo y la explicación en la versión final?",
+            "answer": "El dibujo representa la plantación y las palabras explican la participación y el material.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "un dibujo de manos sujetando un plantón, acompañado de la explicación escrita"
+              },
+              {
+                "paragraph": 5,
+                "text": "habría plantones y pequeñas palas para compartir"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué aporta que Nora explique el plan con sus palabras?",
+            "answer": "Permite observar que ha entendido la acción propuesta y no solo que reconoce los datos escritos.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "explicó con sus palabras lo que harían"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Omar deja la pregunta sobre el hermano para la maestra?",
+            "answer": "Porque depende de los turnos de la actividad, que aún debe consultar, y no de cómo traducir el anuncio.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Esa respuesta dependía de cómo se organizaran los turnos"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q10",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Relaciona la broma de la abuela al final con la pregunta inicial de Nora.",
+            "answer": "Retoma la idea de una charla, pero ahora la abuela participa con una pala en la plantación que el texto aclaró.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "Esta charla viene con herramientas"
+              },
+              {
+                "paragraph": 3,
+                "text": "si primero habría una charla y después una visita"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resume el cambio entre la primera revisión de los redactores y la que hacen después de hablar con Nora.",
+            "answer": "Primero comprueban que las versiones coinciden en los datos. Después descubren que ambas omiten la acción propuesta y añaden una explicación pensada para quien desconoce el plan.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Habían revisado primero si las versiones coincidían entre sí"
+              },
+              {
+                "paragraph": 3,
+                "text": "El texto permitía saber dónde y cuándo acudir, pero no qué harían al llegar"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿Qué ventajas y límites ves en poner dos versiones lingüísticas en la misma página? Razona tu respuesta.",
+            "answer": "Respuesta personal con un beneficio y un límite argumentados; por ejemplo, elección y comparación frente al espacio disponible."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "dado por hecho",
+            "occurrence": 1,
+            "questionId": "l286b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l286-scene",
+            "src": "assets/readings/l286-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan dos versiones de una invitación al huerto en una mesa del patio, junto a macetas pequeñas.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan el periódico escolar en una mesa del patio, en una ilustración azul y naranja.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "una-noticia-en-dos-lenguas-b-ca",
+        "code": "L286B",
+        "workId": "una-noticia-en-dos-lenguas-b",
+        "language": "ca",
+        "familyId": "familia-l286",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "Una notícia en dues llengües",
+        "summary": "L’equivalència entre dues versions no garanteix que expliquin l’activitat a qui desconeix els preparatius.",
+        "paragraphs": [
+          "La Clara i l’Omar preparaven una invitació per al diari escolar. Eren alumnes de sisè i col·laboraven a la redacció del pati, un equip que escrivia notícies i propostes per a la comunitat de l’escola. La setmana següent hi hauria una tarda per plantar enciams amb les famílies a l’hort. El diari publicaria una versió en castellà i una altra en català, l’una al costat de l’altra, perquè les famílies tenien preferències de lectura diferents.",
+          "La Clara havia triat «Portes obertes a l’hort» com a títol. L’Omar va conservar aquella expressió en preparar l’altra versió. Sota l’anunci hi figuraven el divendres, l’hora i l’entrada per la reixa del pati. L’última línia deia que cada família s’afegiria al grup del fill o la filla. Els redactors van comprovar noms, data i horari en els dos textos. Cap no semblava contradir l’altre, i la Clara estava a punt d’enviar la pàgina a la mestra.",
+          "La Nora, de quart, s’hi va acostar amb una prova que pensava portar a l’àvia. Va preguntar si primer hi hauria una xerrada i després una visita. Totes dues havien estat en unes portes obertes d’un altre centre: havien escoltat explicacions i recorregut les aules. La Clara va començar a contestar que allò seria diferent. Llavors va mirar la pàgina. A la seva classe feia dies que preparaven la plantació i havien donat per fet que la resta de famílies coneixia el pla. El text permetia saber on i quan anar-hi, però no què farien en arribar.",
+          "L’Omar va proposar substituir el títol per una llista de tasques. La Clara preferia mantenir-lo i explicar l’acció just a sota: «Vine a plantar amb nosaltres». Van llegir totes dues possibilitats en veu alta. La llista incloïa massa detalls per a l’espai de la invitació, així que van deixar la frase breu i van afegir quin material compartirien. En l’altra llengua van escriure una frase amb el mateix sentit. Al costat van col·locar un dibuix de mans sostenint un planter, acompanyat de l’explicació escrita.",
+          "La informació nova deia que hi hauria planters i pales petites per compartir, i que les famílies plantarien amb el seu grup. La Nora va tornar a llegir i va explicar amb les seves paraules què farien: «Busco el meu grup i planto amb l’àvia». L’Omar va assenyalar que no havia canviat cap dada de l’horari. La Clara va assenyalar la frase afegida. Primer havien revisat si les versions coincidien entre si; la pregunta de la Nora els havia fet mirar també què necessitava saber algú aliè a la preparació.",
+          "Després la Nora va preguntar si podria ensenyar al germà petit l’enciam en acabar. Aquella resposta depenia de com s’organitzessin els torns. L’Omar va deixar la pregunta al costat del missatge per a la mestra. La Clara va desar les dues proves antigues sota la versió nova, per poder ensenyar-li què havia canviat. Quan el vent va començar a aixecar una cantonada, la Nora hi va posar l’estoig al damunt. «Aquest també vol participar», va dir, subjectant una goma que rodolava cap a terra.",
+          "Divendres, la Nora va arribar amb l’àvia i van trobar el seu grup al costat dels planters. L’àvia va agafar una pala: «Aquesta xerrada ve amb eines». L’Omar li va acostar un enciam mentre la Clara obria un clot petit a la terra. La còpia del diari va quedar sota l’estoig, a recer del vent, però al final de la tarda tenia una petjada de fang al costat del títol."
+        ],
+        "questions": [
+          {
+            "id": "l286b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quines dues decisions sobre la publicació s’anuncien al primer paràgraf?",
+            "answer": "Publicar en castellà i català i posar totes dues versions l’una al costat de l’altra.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una versió en castellà i una altra en català, l’una al costat de l’altra"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què podia esbrinar una família a la primera versió sobre quan i on anar-hi?",
+            "answer": "El divendres, l’hora i que entraria per la reixa del pati.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "el divendres, l’hora i l’entrada per la reixa del pati"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què les dues versions podien coincidir i, així i tot, provocar el dubte de la Nora?",
+            "answer": "Perquè compartien la mateixa manca d’informació sobre l’activitat.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El text permetia saber on i quan anar-hi, però no què farien en arribar"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què expressa «donat per fet» sobre la suposició dels redactors?",
+            "answer": "Consideraven sabut per les famílies una cosa que no havien comprovat que sabessin.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "havien donat per fet que la resta de famílies coneixia el pla"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què l’experiència anterior de la Nora és rellevant per entendre la seva pregunta?",
+            "answer": "Perquè associa unes portes obertes amb xerrada i visita, tot i que aquesta activitat incloïa plantar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "havien escoltat explicacions i recorregut les aules"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina alternativa al títol proposa l’Omar i per què la descarten?",
+            "answer": "Una llista de tasques; la descarten perquè tenia massa detalls per a l’espai de la invitació.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La llista incloïa massa detalls per a l’espai de la invitació"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Com es complementen el dibuix i l’explicació en la versió final?",
+            "answer": "El dibuix representa la plantació i les paraules expliquen la participació i el material.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "un dibuix de mans sostenint un planter, acompanyat de l’explicació escrita"
+              },
+              {
+                "paragraph": 5,
+                "text": "hi hauria planters i pales petites per compartir"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què aporta que la Nora expliqui el pla amb les seves paraules?",
+            "answer": "Permet observar que ha entès l’acció proposada i no tan sols que reconeix les dades escrites.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "va explicar amb les seves paraules què farien"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què l’Omar deixa la pregunta sobre el germà per a la mestra?",
+            "answer": "Perquè depèn dels torns de l’activitat, que encara ha de consultar, i no de com traduir l’anunci.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Aquella resposta depenia de com s’organitzessin els torns"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q10",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Relaciona la broma de l’àvia al final amb la pregunta inicial de la Nora.",
+            "answer": "Reprèn la idea d’una xerrada, però ara l’àvia participa amb una pala en la plantació que el text va aclarir.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "Aquesta xerrada ve amb eines"
+              },
+              {
+                "paragraph": 3,
+                "text": "si primer hi hauria una xerrada i després una visita"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resumeix el canvi entre la primera revisió dels redactors i la que fan després de parlar amb la Nora.",
+            "answer": "Primer comproven que les versions coincideixen en les dades. Després descobreixen que totes dues ometen l’acció proposada i afegeixen una explicació pensada per a qui desconeix el pla.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Primer havien revisat si les versions coincidien entre si"
+              },
+              {
+                "paragraph": 3,
+                "text": "El text permetia saber on i quan anar-hi, però no què farien en arribar"
+              }
+            ]
+          },
+          {
+            "id": "l286b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Quins avantatges i límits veus a posar dues versions lingüístiques a la mateixa pàgina? Raona la resposta.",
+            "answer": "Resposta personal amb un benefici i un límit argumentats; per exemple, tria i comparació davant de l’espai disponible."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "donat per fet",
+            "occurrence": 1,
+            "questionId": "l286b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l286-scene",
+            "src": "assets/readings/l286-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen dues versions d’una invitació a l’hort en una taula del pati, al costat de testos petits.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen el diari escolar en una taula del pati, en una il·lustració blava i taronja.",
+            "afterParagraph": 5
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L286A",
+        "language": "es",
+        "questions": {
+          "l286a-q1": {
+            "prompt": "¿Qué actividad prepararían las familias con el alumnado?",
+            "options": [
+              "Visitar las aulas del centro.",
+              "Plantar lechugas en el huerto.",
+              "Escuchar una charla sobre palas.",
+              "Entregar el periódico a cuarto."
+            ],
+            "correct": "b",
+            "explanation": "Plantar lechugas en el huerto."
+          },
+          "l286a-q2": {
+            "prompt": "¿Qué tres datos de acceso ya figuraban debajo del título?",
+            "options": [
+              "La fecha, el precio y el aula.",
+              "La hora, el grupo y el material de casa.",
+              "El viernes, la hora y la entrada del patio.",
+              "El viernes, la charla y la visita a las aulas."
+            ],
+            "correct": "c",
+            "explanation": "El viernes, la hora y la entrada por la verja del patio."
+          },
+          "l286a-q3": {
+            "prompt": "¿Por qué Nora pensó que habría una charla?",
+            "options": [
+              "Recordó otra actividad anunciada como puertas abiertas.",
+              "Leyó que la charla sería al lado de los plantones.",
+              "Confundió la hora de la invitación con la de clase.",
+              "Omar le explicó que enseñarían las aulas."
+            ],
+            "correct": "a",
+            "explanation": "Relacionó el título con otras puertas abiertas a las que había ido con su abuela."
+          },
+          "l286a-q4": {
+            "prompt": "¿Qué significa «dado por hecho» en este texto?",
+            "options": [
+              "Habían terminado de plantar antes de avisar.",
+              "Habían preguntado el plan a cada familia.",
+              "Habían explicado la actividad con herramientas.",
+              "Habían supuesto que el plan ya era conocido."
+            ],
+            "correct": "d",
+            "explanation": "Habían supuesto que las familias sabían el plan, sin comprobarlo."
+          },
+          "l286a-q5": {
+            "prompt": "¿Qué aclaró la frase nueva que no aclaraba el título?",
+            "options": [
+              "Que la actividad empezaría después de clase.",
+              "Que las familias participarían en la plantación.",
+              "Que solo entrarían quienes supieran cultivar.",
+              "Que cada familia llevaría su propia pala."
+            ],
+            "correct": "b",
+            "explanation": "Que las familias participarían plantando, no solo visitarían el lugar."
+          },
+          "l286a-q6": {
+            "prompt": "¿Para qué sirve volver a mostrar a Nora en el último párrafo?",
+            "options": [
+              "Para explicar quién había escrito la traducción.",
+              "Para repetir los datos de entrada del cartel.",
+              "Para mostrar cómo acaba participando con su abuela.",
+              "Para anunciar otras puertas abiertas del centro."
+            ],
+            "correct": "c",
+            "explanation": "Para mostrarla participando con su abuela en la actividad que la invitación había aclarado."
+          },
+          "l286a-q7": {
+            "prompt": "¿Qué resumen recoge mejor lo ocurrido?",
+            "options": [
+              "Una pregunta mostró que faltaba explicar la actividad y añadieron esa información en ambas versiones.",
+              "Nora corrigió una fecha equivocada y llevó a su abuela a visitar las aulas.",
+              "Omar cambió la lengua del periódico porque las familias no entendían el título.",
+              "Clara sustituyó la invitación por un dibujo y las familias trajeron herramientas."
+            ],
+            "correct": "a",
+            "explanation": "Las dos versiones daban datos de acceso, pero no explicaban la actividad. La pregunta de Nora llevó a añadir que las familias plantarían con el alumnado."
+          }
+        }
+      },
+      {
+        "code": "L286A",
+        "language": "ca",
+        "questions": {
+          "l286a-q1": {
+            "prompt": "Quina activitat prepararien les famílies amb l’alumnat?",
+            "options": [
+              "Visitar les aules del centre.",
+              "Plantar enciams a l’hort.",
+              "Escoltar una xerrada sobre pales.",
+              "Repartir el diari a quart."
+            ],
+            "correct": "b",
+            "explanation": "Plantar enciams a l’hort."
+          },
+          "l286a-q2": {
+            "prompt": "Quines tres dades d’accés ja figuraven sota el títol?",
+            "options": [
+              "La data, el preu i l’aula.",
+              "L’hora, el grup i el material de casa.",
+              "El divendres, l’hora i l’entrada del pati.",
+              "El divendres, la xerrada i la visita a les aules."
+            ],
+            "correct": "c",
+            "explanation": "El divendres, l’hora i l’entrada per la reixa del pati."
+          },
+          "l286a-q3": {
+            "prompt": "Per què la Nora va pensar que hi hauria una xerrada?",
+            "options": [
+              "Va recordar una altra activitat anunciada com a portes obertes.",
+              "Va llegir que la xerrada seria al costat dels planters.",
+              "Va confondre l’hora de la invitació amb la de classe.",
+              "L’Omar li va explicar que ensenyarien les aules."
+            ],
+            "correct": "a",
+            "explanation": "Va relacionar el títol amb unes altres portes obertes on havia anat amb l’àvia."
+          },
+          "l286a-q4": {
+            "prompt": "Què vol dir «donat per fet» en aquest text?",
+            "options": [
+              "Havien acabat de plantar abans d’avisar.",
+              "Havien preguntat el pla a cada família.",
+              "Havien explicat l’activitat amb eines.",
+              "Havien suposat que el pla ja era conegut."
+            ],
+            "correct": "d",
+            "explanation": "Havien suposat que les famílies sabien el pla, sense comprovar-ho."
+          },
+          "l286a-q5": {
+            "prompt": "Què va aclarir la frase nova que no aclaria el títol?",
+            "options": [
+              "Que l’activitat començaria després de classe.",
+              "Que les famílies participarien en la plantació.",
+              "Que només entrarien els qui sabessin cultivar.",
+              "Que cada família portaria la seva pala."
+            ],
+            "correct": "b",
+            "explanation": "Que les famílies participarien plantant, no tan sols visitarien el lloc."
+          },
+          "l286a-q6": {
+            "prompt": "Per a què serveix tornar a mostrar la Nora a l’últim paràgraf?",
+            "options": [
+              "Per explicar qui havia escrit la traducció.",
+              "Per repetir les dades d’entrada del cartell.",
+              "Per mostrar com acaba participant amb l’àvia.",
+              "Per anunciar unes altres portes obertes del centre."
+            ],
+            "correct": "c",
+            "explanation": "Per mostrar-la participant amb l’àvia en l’activitat que la invitació havia aclarit."
+          },
+          "l286a-q7": {
+            "prompt": "Quin resum recull millor el que va passar?",
+            "options": [
+              "Una pregunta va mostrar que faltava explicar l’activitat i van afegir aquella informació en totes dues versions.",
+              "La Nora va corregir una data equivocada i va portar l’àvia a visitar les aules.",
+              "L’Omar va canviar la llengua del diari perquè les famílies no entenien el títol.",
+              "La Clara va substituir la invitació per un dibuix i les famílies van portar eines."
+            ],
+            "correct": "a",
+            "explanation": "Les dues versions donaven dades d’accés, però no explicaven l’activitat. La pregunta de la Nora va portar a afegir que les famílies plantarien amb l’alumnat."
+          }
+        }
+      },
+      {
+        "code": "L286",
+        "language": "es",
+        "questions": {
+          "l286-q1": {
+            "prompt": "¿Por qué publicarían dos versiones de la invitación?",
+            "options": [
+              "Para anunciar dos actividades en fechas distintas.",
+              "Para separar las familias por grupos de lengua.",
+              "Para que Clara y Omar tuvieran una noticia cada uno.",
+              "Para atender distintas preferencias de lectura."
+            ],
+            "correct": "d",
+            "explanation": "Porque había familias que preferían leer en castellano y otras en catalán."
+          },
+          "l286-q2": {
+            "prompt": "¿Qué comprobaron antes de hablar con Nora?",
+            "options": [
+              "Que las dos versiones mantenían los datos de acceso.",
+              "Que todas las familias entendían qué iban a hacer.",
+              "Que la maestra había aprobado la visita del hermano.",
+              "Que cada grupo tenía ya repartidas sus herramientas."
+            ],
+            "correct": "a",
+            "explanation": "Que ambas versiones conservaban día, hora y entrada."
+          },
+          "l286-q3": {
+            "prompt": "¿Qué experiencia explica la pregunta de Nora sobre la charla?",
+            "options": [
+              "Su clase llevaba días preparando una charla.",
+              "La invitación decía que primero visitarían aulas.",
+              "Una visita anterior daba otro sentido al mismo anuncio.",
+              "La abuela ya conocía el huerto de aquella escuela."
+            ],
+            "correct": "c",
+            "explanation": "En otras puertas abiertas había escuchado explicaciones y visitado aulas con su abuela."
+          },
+          "l286-q4": {
+            "prompt": "Explica «dado por hecho» en la situación de los redactores.",
+            "options": [
+              "Habían decidido la actividad con todas las familias.",
+              "Habían supuesto que las familias ya sabían el plan.",
+              "Habían realizado antes la actividad con Nora.",
+              "Habían enviado una explicación detallada a cada casa."
+            ],
+            "correct": "b",
+            "explanation": "Supusieron sin comprobarlo que las familias conocían lo que se haría."
+          },
+          "l286-q5": {
+            "prompt": "¿Por qué Clara se detiene antes de responder que harían otra cosa?",
+            "options": [
+              "Recuerda que aún no han decidido la actividad.",
+              "Duda de cuál de los dos idiomas entiende Nora.",
+              "Espera que Omar cambie la fecha del encuentro.",
+              "Descubre un dato necesario que su texto omitía."
+            ],
+            "correct": "d",
+            "explanation": "Porque se da cuenta de que la invitación no explicaba la actividad que ella tenía en mente."
+          },
+          "l286-q6": {
+            "prompt": "¿Por qué colocan la explicación nueva cerca del título y del dibujo?",
+            "options": [
+              "Para que el lector encuentre pronto qué actividad se propone.",
+              "Para situar junto al dibujo la información de por dónde entrar.",
+              "Para destacar el material por encima de la acción que realizarán.",
+              "Para reservar el final de la columna a la pregunta sobre el hermano."
+            ],
+            "correct": "a",
+            "explanation": "Para que se encuentre al leer la invitación y aclare lo que representa la imagen."
+          },
+          "l286-q7": {
+            "prompt": "¿Qué muestra la segunda lectura de Nora sobre el problema inicial?",
+            "options": [
+              "Que Nora solo entendía el anuncio con un dibujo.",
+              "Que las versiones anunciaban dos horarios distintos.",
+              "Que necesitaba conocer la acción a la que la invitaban.",
+              "Que prefería que Clara le leyera la invitación."
+            ],
+            "correct": "c",
+            "explanation": "Que faltaba contexto sobre la actividad, no traducirle una palabra desconocida."
+          },
+          "l286-q8": {
+            "prompt": "¿Qué pregunta sigue pendiente de consultar con la maestra?",
+            "options": [
+              "Si la abuela podría acercarse a los plantones.",
+              "Si Nora podría enseñar la lechuga a su hermano.",
+              "Si las familias tendrían que llevar herramientas.",
+              "Si el periódico se publicaría en dos lenguas."
+            ],
+            "correct": "b",
+            "explanation": "Si Nora podría enseñar a su hermano pequeño la lechuga de su grupo al terminar."
+          },
+          "l286-q9": {
+            "prompt": "¿Qué resumen mantiene el problema y su solución?",
+            "options": [
+              "Una traducción equivocó el día y Nora ayudó a reunir a las familias.",
+              "Las familias pidieron dos actividades y los redactores prepararon dos carteles.",
+              "El dibujo explicó el plan y permitió retirar las frases de ambas versiones.",
+              "Una pregunta reveló una explicación ausente en ambas versiones y los redactores la añadieron."
+            ],
+            "correct": "d",
+            "explanation": "Los datos coincidían, pero ambas omitían qué harían las familias. La pregunta de Nora les llevó a explicar la plantación cerca del título y en las dos lenguas."
+          }
+        }
+      },
+      {
+        "code": "L286",
+        "language": "ca",
+        "questions": {
+          "l286-q1": {
+            "prompt": "Per què publicarien dues versions de la invitació?",
+            "options": [
+              "Per anunciar dues activitats en dates diferents.",
+              "Per separar les famílies per grups de llengua.",
+              "Perquè la Clara i l’Omar tinguessin una notícia cadascun.",
+              "Per atendre preferències de lectura diferents."
+            ],
+            "correct": "d",
+            "explanation": "Perquè hi havia famílies que preferien llegir en castellà i d’altres en català."
+          },
+          "l286-q2": {
+            "prompt": "Què van comprovar abans de parlar amb la Nora?",
+            "options": [
+              "Que les dues versions mantenien les dades d’accés.",
+              "Que totes les famílies entenien què hi anirien a fer.",
+              "Que la mestra havia aprovat la visita del germà.",
+              "Que cada grup tenia ja repartides les eines."
+            ],
+            "correct": "a",
+            "explanation": "Que totes dues versions conservaven dia, hora i entrada."
+          },
+          "l286-q3": {
+            "prompt": "Quina experiència explica la pregunta de la Nora sobre la xerrada?",
+            "options": [
+              "La seva classe feia dies que preparava una xerrada.",
+              "La invitació deia que primer visitarien aules.",
+              "Una visita anterior donava un altre sentit al mateix anunci.",
+              "L’àvia ja coneixia l’hort d’aquella escola."
+            ],
+            "correct": "c",
+            "explanation": "En unes altres portes obertes havia escoltat explicacions i visitat aules amb l’àvia."
+          },
+          "l286-q4": {
+            "prompt": "Explica «donat per fet» en la situació dels redactors.",
+            "options": [
+              "Havien decidit l’activitat amb totes les famílies.",
+              "Havien suposat que les famílies ja sabien el pla.",
+              "Havien fet abans l’activitat amb la Nora.",
+              "Havien enviat una explicació detallada a cada casa."
+            ],
+            "correct": "b",
+            "explanation": "Van suposar sense comprovar-ho que les famílies coneixien el que es faria."
+          },
+          "l286-q5": {
+            "prompt": "Per què la Clara s’atura abans de respondre que farien una altra cosa?",
+            "options": [
+              "Recorda que encara no han decidit l’activitat.",
+              "Dubta de quina de les dues llengües entén la Nora.",
+              "Espera que l’Omar canviï la data de la trobada.",
+              "Descobreix una dada necessària que el seu text ometia."
+            ],
+            "correct": "d",
+            "explanation": "Perquè s’adona que la invitació no explicava l’activitat que ella tenia al cap."
+          },
+          "l286-q6": {
+            "prompt": "Per què posen l’explicació nova a prop del títol i del dibuix?",
+            "options": [
+              "Perquè el lector trobi aviat quina activitat es proposa.",
+              "Per posar al costat del dibuix la informació de per on entrar.",
+              "Per destacar el material per damunt de l’acció que faran.",
+              "Per reservar el final de la columna a la pregunta sobre el germà."
+            ],
+            "correct": "a",
+            "explanation": "Perquè es trobi en llegir la invitació i aclareixi què representa la imatge."
+          },
+          "l286-q7": {
+            "prompt": "Què mostra la segona lectura de la Nora sobre el problema inicial?",
+            "options": [
+              "Que la Nora només entenia l’anunci amb un dibuix.",
+              "Que les versions anunciaven dos horaris diferents.",
+              "Que necessitava conèixer l’acció a què la convidaven.",
+              "Que preferia que la Clara li llegís la invitació."
+            ],
+            "correct": "c",
+            "explanation": "Que faltava context sobre l’activitat, no traduir-li una paraula desconeguda."
+          },
+          "l286-q8": {
+            "prompt": "Quina pregunta queda pendent de consultar amb la mestra?",
+            "options": [
+              "Si l’àvia es podria acostar als planters.",
+              "Si la Nora podria ensenyar l’enciam al germà.",
+              "Si les famílies haurien de portar eines.",
+              "Si el diari es publicaria en dues llengües."
+            ],
+            "correct": "b",
+            "explanation": "Si la Nora podria ensenyar al germà petit l’enciam del seu grup en acabar."
+          },
+          "l286-q9": {
+            "prompt": "Quin resum manté el problema i la solució?",
+            "options": [
+              "Una traducció va equivocar el dia i la Nora va ajudar a reunir les famílies.",
+              "Les famílies van demanar dues activitats i els redactors van preparar dos cartells.",
+              "El dibuix va explicar el pla i va permetre retirar les frases de totes dues versions.",
+              "Una pregunta va revelar una explicació absent en totes dues versions i els redactors la van afegir."
+            ],
+            "correct": "d",
+            "explanation": "Les dades coincidien, però totes dues ometien què farien les famílies. La pregunta de la Nora els va portar a explicar la plantació a prop del títol i en les dues llengües."
+          }
+        }
+      },
+      {
+        "code": "L286B",
+        "language": "es",
+        "questions": {
+          "l286b-q1": {
+            "prompt": "¿Qué dos decisiones sobre la publicación se anuncian en el primer párrafo?",
+            "options": [
+              "Un texto por cada clase, publicado después de plantar.",
+              "Dos versiones lingüísticas colocadas juntas.",
+              "Una invitación para visitantes y otra para participantes.",
+              "Dos horarios con entradas distintas por el patio."
+            ],
+            "correct": "b",
+            "explanation": "Publicar en castellano y catalán y colocar ambas versiones una al lado de la otra."
+          },
+          "l286b-q2": {
+            "prompt": "¿Qué podía averiguar una familia en la primera versión sobre cuándo y dónde acudir?",
+            "options": [
+              "Qué herramientas llevaría y cuánto tiempo plantaría.",
+              "Qué grupo plantaría primero y qué plantas elegiría.",
+              "Qué tareas haría al llegar y cómo se repartirían.",
+              "Qué día y a qué hora iría y por dónde entraría."
+            ],
+            "correct": "d",
+            "explanation": "El viernes, la hora y que entraría por la verja del patio."
+          },
+          "l286b-q3": {
+            "prompt": "¿Por qué las dos versiones podían coincidir y aun así provocar la duda de Nora?",
+            "options": [
+              "La coincidencia de los datos no completaba una explicación ausente.",
+              "Nora había leído una lengua distinta de la que prefería su abuela.",
+              "La segunda versión cambiaba la actividad sin cambiar la fecha.",
+              "Los redactores habían revisado solo el título de cada versión."
+            ],
+            "correct": "a",
+            "explanation": "Porque compartían la misma falta de información sobre la actividad."
+          },
+          "l286b-q4": {
+            "prompt": "¿Qué expresa «dado por hecho» sobre la suposición de los redactores?",
+            "options": [
+              "El plan estaba cerrado y no permitía que participaran otros grupos.",
+              "La actividad ya se había realizado aunque aún no estaba publicada.",
+              "Suponían compartido un conocimiento de su propia clase.",
+              "Todas las familias habían confirmado que entendían la invitación."
+            ],
+            "correct": "c",
+            "explanation": "Consideraban sabido por las familias algo que no habían comprobado que supieran."
+          },
+          "l286b-q5": {
+            "prompt": "¿Por qué la experiencia anterior de Nora es relevante para entender su pregunta?",
+            "options": [
+              "Le permite reconocer qué grupo plantará antes de leerlo.",
+              "Le da una interpretación razonable que el texto no corrige todavía.",
+              "Demuestra que la misma expresión anuncia siempre una charla.",
+              "Explica por qué prefiere visitar otro centro el viernes."
+            ],
+            "correct": "b",
+            "explanation": "Porque asocia unas puertas abiertas con charla y visita, aunque esta actividad incluía plantar."
+          },
+          "l286b-q6": {
+            "prompt": "¿Qué alternativa al título propone Omar y por qué la descartan?",
+            "options": [
+              "Un dibujo sin frases, porque ya conocían las herramientas.",
+              "Un horario por grupos, porque Nora llegaría después.",
+              "Una lista de familias, porque aún faltaban nombres.",
+              "Una lista de tareas, porque ocupaba demasiado espacio."
+            ],
+            "correct": "d",
+            "explanation": "Una lista de tareas; la descartan por tener demasiados detalles para el espacio de la invitación."
+          },
+          "l286b-q7": {
+            "prompt": "¿Cómo se complementan el dibujo y la explicación en la versión final?",
+            "options": [
+              "La imagen muestra la acción y el texto aporta la explicación.",
+              "La imagen da el horario y el texto enumera las familias.",
+              "El dibujo permite eliminar la frase sobre la participación.",
+              "Ambos explican únicamente por qué puerta se entra."
+            ],
+            "correct": "a",
+            "explanation": "El dibujo representa la plantación y las palabras explican la participación y el material."
+          },
+          "l286b-q8": {
+            "prompt": "¿Qué aporta que Nora explique el plan con sus palabras?",
+            "options": [
+              "Sirve para comprobar que memoriza las dos traducciones.",
+              "Confirma que sabe organizar los turnos del huerto.",
+              "Muestra qué acción ha entendido a partir de la invitación.",
+              "Permite decidir qué lengua leerán todas las familias."
+            ],
+            "correct": "c",
+            "explanation": "Permite observar que ha entendido la acción propuesta y no solo que reconoce los datos escritos."
+          },
+          "l286b-q9": {
+            "prompt": "¿Por qué Omar deja la pregunta sobre el hermano para la maestra?",
+            "options": [
+              "Porque Nora todavía no ha escogido qué versión leer.",
+              "Porque necesita una información de organización que no tiene.",
+              "Porque la entrada por la verja se ha cambiado ese día.",
+              "Porque las familias ya han decidido que no entren hermanos."
+            ],
+            "correct": "b",
+            "explanation": "Porque depende de los turnos de la actividad, que aún debe consultar, y no de cómo traducir el anuncio."
+          },
+          "l286b-q10": {
+            "prompt": "Relaciona la broma de la abuela al final con la pregunta inicial de Nora.",
+            "options": [
+              "Anuncia que la charla se hará después de plantar.",
+              "Recuerda que la abuela había organizado la primera visita.",
+              "Muestra que la invitación seguía sin explicar la actividad.",
+              "Recupera con humor la duda sobre una charla al empezar a plantar."
+            ],
+            "correct": "d",
+            "explanation": "Retoma la idea de una charla, pero ahora la abuela participa con una pala en la plantación que el texto aclaró."
+          },
+          "l286b-q11": {
+            "prompt": "¿Qué formulación resume mejor ese cambio de revisión?",
+            "options": [
+              "Pasan de comprobar la coincidencia entre versiones a completar el contexto que necesita el lector.",
+              "Pasan de invitar a las familias a preparar una visita exclusiva para la clase de Nora.",
+              "Pasan de un título expresivo a una lista detallada que sustituye las dos versiones.",
+              "Pasan de un error de horario a una invitación que elimina todos los datos de acceso."
+            ],
+            "correct": "a",
+            "explanation": "Primero comprueban que las versiones coinciden en los datos. Después descubren que ambas omiten la acción propuesta y añaden una explicación pensada para quien desconoce el plan."
+          }
+        }
+      },
+      {
+        "code": "L286B",
+        "language": "ca",
+        "questions": {
+          "l286b-q1": {
+            "prompt": "Quines dues decisions sobre la publicació s’anuncien al primer paràgraf?",
+            "options": [
+              "Un text per cada classe, publicat després de plantar.",
+              "Dues versions lingüístiques posades juntes.",
+              "Una invitació per a visitants i una altra per a participants.",
+              "Dos horaris amb entrades diferents pel pati."
+            ],
+            "correct": "b",
+            "explanation": "Publicar en castellà i català i posar totes dues versions l’una al costat de l’altra."
+          },
+          "l286b-q2": {
+            "prompt": "Què podia esbrinar una família a la primera versió sobre quan i on anar-hi?",
+            "options": [
+              "Quines eines portaria i quant de temps plantaria.",
+              "Quin grup plantaria primer i quines plantes triaria.",
+              "Quines tasques faria en arribar i com es repartirien.",
+              "Quin dia i a quina hora hi aniria i per on entraria."
+            ],
+            "correct": "d",
+            "explanation": "El divendres, l’hora i que entraria per la reixa del pati."
+          },
+          "l286b-q3": {
+            "prompt": "Per què les dues versions podien coincidir i, així i tot, provocar el dubte de la Nora?",
+            "options": [
+              "La coincidència de les dades no completava una explicació absent.",
+              "La Nora havia llegit una llengua diferent de la que preferia l’àvia.",
+              "La segona versió canviava l’activitat sense canviar la data.",
+              "Els redactors havien revisat només el títol de cada versió."
+            ],
+            "correct": "a",
+            "explanation": "Perquè compartien la mateixa manca d’informació sobre l’activitat."
+          },
+          "l286b-q4": {
+            "prompt": "Què expressa «donat per fet» sobre la suposició dels redactors?",
+            "options": [
+              "El pla estava tancat i no permetia que hi participessin altres grups.",
+              "L’activitat ja s’havia fet tot i que encara no estava publicada.",
+              "Suposaven compartit un coneixement de la seva pròpia classe.",
+              "Totes les famílies havien confirmat que entenien la invitació."
+            ],
+            "correct": "c",
+            "explanation": "Consideraven sabut per les famílies una cosa que no havien comprovat que sabessin."
+          },
+          "l286b-q5": {
+            "prompt": "Per què l’experiència anterior de la Nora és rellevant per entendre la seva pregunta?",
+            "options": [
+              "Li permet reconèixer quin grup plantarà abans de llegir-ho.",
+              "Li dona una interpretació raonable que el text encara no corregeix.",
+              "Demostra que la mateixa expressió anuncia sempre una xerrada.",
+              "Explica per què prefereix visitar un altre centre divendres."
+            ],
+            "correct": "b",
+            "explanation": "Perquè associa unes portes obertes amb xerrada i visita, tot i que aquesta activitat incloïa plantar."
+          },
+          "l286b-q6": {
+            "prompt": "Quina alternativa al títol proposa l’Omar i per què la descarten?",
+            "options": [
+              "Un dibuix sense frases, perquè ja coneixien les eines.",
+              "Un horari per grups, perquè la Nora arribaria després.",
+              "Una llista de famílies, perquè encara faltaven noms.",
+              "Una llista de tasques, perquè ocupava massa espai."
+            ],
+            "correct": "d",
+            "explanation": "Una llista de tasques; la descarten perquè tenia massa detalls per a l’espai de la invitació."
+          },
+          "l286b-q7": {
+            "prompt": "Com es complementen el dibuix i l’explicació en la versió final?",
+            "options": [
+              "La imatge mostra l’acció i el text aporta l’explicació.",
+              "La imatge dona l’horari i el text enumera les famílies.",
+              "El dibuix permet eliminar la frase sobre la participació.",
+              "Tots dos expliquen únicament per quina porta s’entra."
+            ],
+            "correct": "a",
+            "explanation": "El dibuix representa la plantació i les paraules expliquen la participació i el material."
+          },
+          "l286b-q8": {
+            "prompt": "Què aporta que la Nora expliqui el pla amb les seves paraules?",
+            "options": [
+              "Serveix per comprovar que memoritza les dues traduccions.",
+              "Confirma que sap organitzar els torns de l’hort.",
+              "Mostra quina acció ha entès a partir de la invitació.",
+              "Permet decidir quina llengua llegiran totes les famílies."
+            ],
+            "correct": "c",
+            "explanation": "Permet observar que ha entès l’acció proposada i no tan sols que reconeix les dades escrites."
+          },
+          "l286b-q9": {
+            "prompt": "Per què l’Omar deixa la pregunta sobre el germà per a la mestra?",
+            "options": [
+              "Perquè la Nora encara no ha triat quina versió llegir.",
+              "Perquè necessita una informació d’organització que no té.",
+              "Perquè l’entrada per la reixa s’ha canviat aquell dia.",
+              "Perquè les famílies ja han decidit que no hi entrin germans."
+            ],
+            "correct": "b",
+            "explanation": "Perquè depèn dels torns de l’activitat, que encara ha de consultar, i no de com traduir l’anunci."
+          },
+          "l286b-q10": {
+            "prompt": "Relaciona la broma de l’àvia al final amb la pregunta inicial de la Nora.",
+            "options": [
+              "Anuncia que la xerrada es farà després de plantar.",
+              "Recorda que l’àvia havia organitzat la primera visita.",
+              "Mostra que la invitació continuava sense explicar l’activitat.",
+              "Recupera amb humor el dubte sobre una xerrada en començar a plantar."
+            ],
+            "correct": "d",
+            "explanation": "Reprèn la idea d’una xerrada, però ara l’àvia participa amb una pala en la plantació que el text va aclarir."
+          },
+          "l286b-q11": {
+            "prompt": "Quina formulació resumeix millor aquell canvi de revisió?",
+            "options": [
+              "Passen de comprovar la coincidència entre versions a completar el context que necessita el lector.",
+              "Passen de convidar les famílies a preparar una visita exclusiva per a la classe de la Nora.",
+              "Passen d’un títol expressiu a una llista detallada que substitueix les dues versions.",
+              "Passen d’un error d’horari a una invitació que elimina totes les dades d’accés."
+            ],
+            "correct": "a",
+            "explanation": "Primer comproven que les versions coincideixen en les dades. Després descobreixen que totes dues ometen l’acció proposada i afegeixen una explicació pensada per a qui desconeix el pla."
+          }
+        }
+      }
+    ]
   }
 ];

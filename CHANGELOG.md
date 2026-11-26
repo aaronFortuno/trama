@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.60.6 · 26 de novembre del 2026
+
+L286: Una notícia en dues llengües. Nova família de La redacció del pati, amb suport de 5è, referència de 6è i ampliació de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 13 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.60.5 · 26 de novembre del 2026
 
 L285: Un rumor a l’altra banda de la tanca. Nova família de La redacció del pati, amb suport de 5è, referència de 6è i ampliació de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 12 històries independents. Contingut provisional, pendent de validació docent.
