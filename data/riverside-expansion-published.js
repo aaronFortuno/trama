@@ -5626,5 +5626,1854 @@ export const riversidePublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L310",
+    "edition": "v1.63.3",
+    "family": {
+      "id": "familia-l310",
+      "code": "L310",
+      "name": {
+        "es": "La canción que necesitaba una pausa",
+        "ca": "La cançó que necessitava una pausa"
+      },
+      "description": {
+        "ca": "Una història dels Camins de la ribera, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de Los caminos de la ribera, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L310A",
+        "L310",
+        "L310B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "la-cancion-que-necesitaba-una-pausa-a-es",
+        "code": "L310A",
+        "workId": "la-cancion-que-necesitaba-una-pausa-a",
+        "language": "es",
+        "familyId": "familia-l310",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "diary",
+        "title": "La canción que necesitaba una pausa",
+        "summary": "Isona escribe cómo preparó con Neri una canción y un verso para sus vecinos.",
+        "paragraphs": [
+          "Del cuaderno de Isona. Esta tarde he ensayado con Neri en el porche del molino de Elna. Soy de la ribera y toco la flauta. Neri, mi amigo, quería recitar un verso después de mi canción. Elna había invitado a unos vecinos para escucharnos al acabar la tarde. Dejamos nuestras cosas sobre un escalón del porche.",
+          "En el primer ensayo, Neri empezó cuando yo aún tocaba las últimas notas. Él pensó que yo había terminado porque había oído la misma melodía unos momentos antes. Seguimos los dos y apenas se entendió el principio del verso. Lo probamos otra vez. Neri contó hasta tres, pero volvió a entrar demasiado pronto.",
+          "Le propuse que esperara a que yo bajara la flauta. Dejé una pausa más larga entre la canción y el verso. Esta vez Neri me miró y comenzó cuando tuve el instrumento junto al pecho. Elna, sentada cerca, pudo repetir las primeras palabras del verso.",
+          "Cuando llegaron los vecinos, hicimos lo que habíamos ensayado. Después de mi última nota hubo un breve silencio. Neri levantó su hoja y yo me senté a escuchar el verso entero."
+        ],
+        "questions": [
+          {
+            "id": "l310a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Dónde ensayaron Isona y Neri?",
+            "answer": "En el porche del molino de Elna.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "en el porche del molino de Elna"
+              }
+            ]
+          },
+          {
+            "id": "l310a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué quería hacer Neri después de la canción?",
+            "answer": "Recitar un verso.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "quería recitar un verso después de mi canción"
+              }
+            ]
+          },
+          {
+            "id": "l310a-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué creyó Neri que la canción había terminado?",
+            "answer": "Porque había oído la misma melodía unos momentos antes y confundió su repetición con el final.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "pensó que yo había terminado porque había oído la misma melodía unos momentos antes"
+              }
+            ]
+          },
+          {
+            "id": "l310a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «pausa» en esta lectura?",
+            "answer": "Un tiempo de silencio entre la canción y el verso.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Dejé una pausa más larga entre la canción y el verso."
+              },
+              {
+                "paragraph": 4,
+                "text": "hubo un breve silencio"
+              }
+            ]
+          },
+          {
+            "id": "l310a-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué señal acordaron para que Neri empezara?",
+            "answer": "Que Isona bajara la flauta.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "que esperara a que yo bajara la flauta"
+              }
+            ]
+          },
+          {
+            "id": "l310a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Para qué les sirvió que Elna repitiera las primeras palabras?",
+            "answer": "Para comprobar que esta vez se había entendido el principio del verso.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "apenas se entendió el principio del verso"
+              },
+              {
+                "paragraph": 3,
+                "text": "pudo repetir las primeras palabras del verso"
+              }
+            ]
+          },
+          {
+            "id": "l310a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué problema tuvieron y cómo lo resolvieron.",
+            "answer": "Neri empezó el verso mientras Isona aún tocaba. Acordaron que esperara a verla bajar la flauta y dejaron una pausa entre las dos partes.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Neri empezó cuando yo aún tocaba las últimas notas"
+              },
+              {
+                "paragraph": 3,
+                "text": "que esperara a que yo bajara la flauta"
+              }
+            ]
+          },
+          {
+            "id": "l310a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Preferirías tocar o recitar en una actuación como esta? Explica por qué.",
+            "answer": "Respuesta personal razonada que mencione una preferencia y su motivo."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "pausa",
+            "occurrence": 1,
+            "questionId": "l310a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l310-scene",
+            "src": "assets/readings/l310-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Isona baja la flauta mientras Neri espera con un papel en el porche del molino; Elna escucha de pie junto a la puerta.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-cancion-que-necesitaba-una-pausa-a-ca",
+        "code": "L310A",
+        "workId": "la-cancion-que-necesitaba-una-pausa-a",
+        "language": "ca",
+        "familyId": "familia-l310",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "diary",
+        "title": "La cançó que necessitava una pausa",
+        "summary": "L’Isona escriu com va preparar amb en Neri una cançó i un vers per als veïns.",
+        "paragraphs": [
+          "Del quadern de l’Isona. Aquesta tarda he assajat amb en Neri al porxo del molí de l’Elna. Soc de la ribera i toco la flauta. En Neri, el meu amic, volia recitar un vers després de la meva cançó. L’Elna havia convidat uns veïns a escoltar-nos al final de la tarda. Vam deixar les nostres coses sobre un esglaó del porxo.",
+          "Al primer assaig, en Neri va començar quan jo encara tocava les últimes notes. Va pensar que havia acabat perquè havia sentit la mateixa melodia uns moments abans. Vam continuar tots dos i gairebé no es va entendre el principi del vers. Ho vam tornar a provar. En Neri va comptar fins a tres, però va tornar a entrar massa aviat.",
+          "Li vaig proposar que esperés que abaixés la flauta. Vaig deixar una pausa més llarga entre la cançó i el vers. Aquest cop en Neri em va mirar i va començar quan vaig tenir l’instrument al costat del pit. L’Elna, asseguda a prop, va poder repetir les primeres paraules del vers.",
+          "Quan van arribar els veïns, vam fer el que havíem assajat. Després de la meva última nota hi va haver un breu silenci. En Neri va aixecar el full i jo em vaig asseure a escoltar el vers sencer."
+        ],
+        "questions": [
+          {
+            "id": "l310a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "On van assajar l’Isona i en Neri?",
+            "answer": "Al porxo del molí de l’Elna.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "al porxo del molí de l’Elna"
+              }
+            ]
+          },
+          {
+            "id": "l310a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què volia fer en Neri després de la cançó?",
+            "answer": "Recitar un vers.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "volia recitar un vers després de la meva cançó"
+              }
+            ]
+          },
+          {
+            "id": "l310a-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què en Neri va creure que la cançó s’havia acabat?",
+            "answer": "Perquè havia sentit la mateixa melodia uns moments abans i en va confondre la repetició amb el final.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Va pensar que havia acabat perquè havia sentit la mateixa melodia uns moments abans"
+              }
+            ]
+          },
+          {
+            "id": "l310a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «pausa» en aquesta lectura?",
+            "answer": "Una estona de silenci entre la cançó i el vers.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Vaig deixar una pausa més llarga entre la cançó i el vers."
+              },
+              {
+                "paragraph": 4,
+                "text": "hi va haver un breu silenci"
+              }
+            ]
+          },
+          {
+            "id": "l310a-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quin senyal van acordar perquè en Neri comencés?",
+            "answer": "Que l’Isona abaixés la flauta.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "que esperés que abaixés la flauta"
+              }
+            ]
+          },
+          {
+            "id": "l310a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "De què els va servir que l’Elna repetís les primeres paraules?",
+            "answer": "Per comprovar que aquest cop s’havia entès el principi del vers.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "gairebé no es va entendre el principi del vers"
+              },
+              {
+                "paragraph": 3,
+                "text": "va poder repetir les primeres paraules del vers"
+              }
+            ]
+          },
+          {
+            "id": "l310a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix quin problema van tenir i com el van resoldre.",
+            "answer": "En Neri va començar el vers mentre l’Isona encara tocava. Van acordar que esperaria a veure-la abaixar la flauta i van deixar una pausa entre les dues parts.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "en Neri va començar quan jo encara tocava les últimes notes"
+              },
+              {
+                "paragraph": 3,
+                "text": "que esperés que abaixés la flauta"
+              }
+            ]
+          },
+          {
+            "id": "l310a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "T’estimaries més tocar o recitar en una actuació com aquesta? Explica per què.",
+            "answer": "Resposta personal raonada que esmenti una preferència i el seu motiu."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "pausa",
+            "occurrence": 1,
+            "questionId": "l310a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l310-scene",
+            "src": "assets/readings/l310-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "L’Isona abaixa la flauta mentre en Neri espera amb un paper al porxo del molí; l’Elna escolta dreta al costat de la porta.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-cancion-que-necesitaba-una-pausa-es",
+        "code": "L310",
+        "workId": "la-cancion-que-necesitaba-una-pausa",
+        "language": "es",
+        "familyId": "familia-l310",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "diary",
+        "title": "La canción que necesitaba una pausa",
+        "summary": "Una melodía repetida y una entrada precipitada cambian el ensayo que Isona cuenta en su cuaderno.",
+        "paragraphs": [
+          "Del cuaderno de Isona. Hoy he llevado la flauta al molino de Elna. Neri, mi amigo de la ribera, ha venido con un verso escrito en una hoja. Queríamos ofrecer una canción y un recitado a los vecinos al acabar la tarde. Elna nos dejó el porche para ensayar mientras ella recogía unas cestas cerca de la puerta.",
+          "En el primer intento, Neri empezó a hablar cuando todavía sonaban mis últimas notas. Una parte de la melodía se repetía, y él había tomado esa vuelta por el final. Yo seguí tocando; él siguió recitando. Elna se acercó y preguntó cómo empezaba el verso. Apenas había entendido las primeras palabras, aunque desde allí nos veía a los dos.",
+          "Volvimos a empezar. Esta vez Neri contó hasta tres después de reconocer la melodía, pero yo aún no había terminado. Me dijo que le costaba saber si iba a tocar otra vez aquella parte. Le propuse que esperara a verme bajar la flauta. Además, dejé una pausa algo más larga, para que el cambio no pareciera una carrera.",
+          "Lo ensayamos así. Neri me miró por encima de la hoja y empezó cuando tuve el instrumento junto al pecho. Elna pudo repetir el comienzo del verso. Neri quería que el silencio fuera más corto. Fue al fondo del porche a escuchar el cambio mientras Elna decía unas palabras en su lugar. Al volver, aceptó mantener el silencio. Después repasamos solo el paso de una parte a la otra.",
+          "Al llegar los vecinos hicimos la prueba completa. Después de mi última nota hubo un breve silencio. Neri levantó la hoja, comenzó su verso y yo me senté en un escalón. Esta vez pude escucharlo entero."
+        ],
+        "questions": [
+          {
+            "id": "l310-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué iban a ofrecer a los vecinos y en qué orden?",
+            "answer": "Primero una canción de flauta y después el verso recitado por Neri.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una canción y un recitado"
+              },
+              {
+                "paragraph": 2,
+                "text": "Neri empezó a hablar cuando todavía sonaban mis últimas notas"
+              }
+            ]
+          },
+          {
+            "id": "l310-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué confundió Neri en el primer intento?",
+            "answer": "La repetición de una parte de la melodía con el final de la canción.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Una parte de la melodía se repetía, y él había tomado esa vuelta por el final."
+              }
+            ]
+          },
+          {
+            "id": "l310-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué muestra la pregunta de Elna sobre el comienzo del verso?",
+            "answer": "Que la superposición de música y voz dificultaba entender las palabras, aunque pudiera ver a los intérpretes.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Yo seguí tocando; él siguió recitando."
+              },
+              {
+                "paragraph": 2,
+                "text": "Apenas había entendido las primeras palabras, aunque desde allí nos veía a los dos."
+              }
+            ]
+          },
+          {
+            "id": "l310-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué contar hasta tres no resolvió el problema?",
+            "answer": "Porque Neri contaba desde una parte que reconocía y Isona todavía seguía tocando cuando acababa de contar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Neri contó hasta tres después de reconocer la melodía, pero yo aún no había terminado."
+              }
+            ]
+          },
+          {
+            "id": "l310-q5",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «pausa» en el tercer párrafo?",
+            "answer": "Un tiempo de silencio que separa la canción del recitado.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "dejé una pausa algo más larga"
+              },
+              {
+                "paragraph": 5,
+                "text": "Después de mi última nota hubo un breve silencio."
+              }
+            ]
+          },
+          {
+            "id": "l310-q6",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué tenía que observar Neri para empezar?",
+            "answer": "Que Isona bajara la flauta hasta el pecho.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "que esperara a verme bajar la flauta"
+              },
+              {
+                "paragraph": 4,
+                "text": "empezó cuando tuve el instrumento junto al pecho"
+              }
+            ]
+          },
+          {
+            "id": "l310-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué cambió al escuchar Neri desde el fondo del porche?",
+            "answer": "Aceptó mantener la duración del silencio después de escuchar cómo sonaba el cambio entre las dos partes.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Neri quería que el silencio fuera más corto"
+              },
+              {
+                "paragraph": 4,
+                "text": "aceptó mantener el silencio"
+              }
+            ]
+          },
+          {
+            "id": "l310-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué detalles indican que leemos un diario de Isona?",
+            "answer": "La entrada se presenta como parte de su cuaderno y cuenta en primera persona lo ocurrido ese día.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Del cuaderno de Isona. Hoy he llevado la flauta"
+              }
+            ]
+          },
+          {
+            "id": "l310-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume cómo mejoraron el paso de la canción al verso.",
+            "answer": "Primero se solaparon y contar no evitó la entrada anticipada. Acordaron mirar la bajada de la flauta, dejaron una pausa y repasaron ese cambio antes de actuar.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Neri empezó a hablar cuando todavía sonaban mis últimas notas"
+              },
+              {
+                "paragraph": 3,
+                "text": "que esperara a verme bajar la flauta"
+              },
+              {
+                "paragraph": 4,
+                "text": "repasamos solo el paso de una parte a la otra"
+              }
+            ]
+          },
+          {
+            "id": "l310-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Te parece útil escuchar un ensayo desde el lugar del público? Razona tu respuesta.",
+            "answer": "Respuesta personal razonada; puede relacionar la escucha con lo que se percibe desde otro lugar."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "pausa",
+            "occurrence": 1,
+            "questionId": "l310-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l310-scene",
+            "src": "assets/readings/l310-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Isona baja la flauta mientras Neri espera con un papel en el porche del molino; Elna escucha de pie junto a la puerta.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-cancion-que-necesitaba-una-pausa-ca",
+        "code": "L310",
+        "workId": "la-cancion-que-necesitaba-una-pausa",
+        "language": "ca",
+        "familyId": "familia-l310",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "diary",
+        "title": "La cançó que necessitava una pausa",
+        "summary": "Una melodia repetida i una entrada precipitada canvien l’assaig que l’Isona explica al quadern.",
+        "paragraphs": [
+          "Del quadern de l’Isona. Avui he portat la flauta al molí de l’Elna. En Neri, el meu amic de la ribera, ha vingut amb un vers escrit en un full. Volíem oferir una cançó i un recitat als veïns al final de la tarda. L’Elna ens ha deixat el porxo per assajar mentre recollia uns cistells a prop de la porta.",
+          "Al primer intent, en Neri ha començat a parlar quan encara sonaven les meves últimes notes. Una part de la melodia es repetia, i ell havia pres aquella tornada pel final. Jo he continuat tocant; ell ha continuat recitant. L’Elna s’ha acostat i ha preguntat com començava el vers. Gairebé no havia entès les primeres paraules, tot i que des d’allà ens veia tots dos.",
+          "Hem tornat a començar. Aquest cop en Neri ha comptat fins a tres després de reconèixer la melodia, però jo encara no havia acabat. M’ha dit que li costava saber si tornaria a tocar aquella part. Li he proposat que esperés a veure’m abaixar la flauta. A més, he deixat una pausa una mica més llarga, perquè el canvi no semblés una cursa.",
+          "Ho hem assajat així. En Neri m’ha mirat per sobre del full i ha començat quan he tingut l’instrument al costat del pit. L’Elna ha pogut repetir el començament del vers. En Neri volia que el silenci fos més curt. Ha anat al fons del porxo a escoltar el canvi mentre l’Elna deia unes paraules al seu lloc. En tornar, ha acceptat mantenir el silenci. Després hem repassat només el pas d’una part a l’altra.",
+          "Quan han arribat els veïns hem fet la prova completa. Després de la meva última nota hi ha hagut un breu silenci. En Neri ha aixecat el full, ha començat el vers i jo m’he assegut en un esglaó. Aquest cop l’he pogut escoltar sencer."
+        ],
+        "questions": [
+          {
+            "id": "l310-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què oferirien als veïns i en quin ordre?",
+            "answer": "Primer una cançó de flauta i després el vers recitat per en Neri.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una cançó i un recitat"
+              },
+              {
+                "paragraph": 2,
+                "text": "en Neri ha començat a parlar quan encara sonaven les meves últimes notes"
+              }
+            ]
+          },
+          {
+            "id": "l310-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què ha confós en Neri al primer intent?",
+            "answer": "La repetició d’una part de la melodia amb el final de la cançó.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Una part de la melodia es repetia, i ell havia pres aquella tornada pel final."
+              }
+            ]
+          },
+          {
+            "id": "l310-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què mostra la pregunta de l’Elna sobre el començament del vers?",
+            "answer": "Que la superposició de música i veu dificultava entendre les paraules, tot i que podia veure els intèrprets.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Jo he continuat tocant; ell ha continuat recitant."
+              },
+              {
+                "paragraph": 2,
+                "text": "Gairebé no havia entès les primeres paraules, tot i que des d’allà ens veia tots dos."
+              }
+            ]
+          },
+          {
+            "id": "l310-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què comptar fins a tres no ha resolt el problema?",
+            "answer": "Perquè en Neri comptava des d’una part que reconeixia i l’Isona encara continuava tocant quan acabava de comptar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "en Neri ha comptat fins a tres després de reconèixer la melodia, però jo encara no havia acabat."
+              }
+            ]
+          },
+          {
+            "id": "l310-q5",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir «pausa» al tercer paràgraf?",
+            "answer": "Una estona de silenci que separa la cançó del recitat.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "he deixat una pausa una mica més llarga"
+              },
+              {
+                "paragraph": 5,
+                "text": "Després de la meva última nota hi ha hagut un breu silenci."
+              }
+            ]
+          },
+          {
+            "id": "l310-q6",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què havia d’observar en Neri per començar?",
+            "answer": "Que l’Isona abaixés la flauta fins al pit.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "que esperés a veure’m abaixar la flauta"
+              },
+              {
+                "paragraph": 4,
+                "text": "ha començat quan he tingut l’instrument al costat del pit"
+              }
+            ]
+          },
+          {
+            "id": "l310-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què ha canviat quan en Neri ha escoltat des del fons del porxo?",
+            "answer": "Ha acceptat mantenir la durada del silenci després d’escoltar com sonava el canvi entre les dues parts.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "En Neri volia que el silenci fos més curt"
+              },
+              {
+                "paragraph": 4,
+                "text": "ha acceptat mantenir el silenci"
+              }
+            ]
+          },
+          {
+            "id": "l310-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quins detalls indiquen que llegim un diari de l’Isona?",
+            "answer": "L’entrada es presenta com a part del seu quadern i explica en primera persona què ha passat aquell dia.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Del quadern de l’Isona. Avui he portat la flauta"
+              }
+            ]
+          },
+          {
+            "id": "l310-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix com han millorat el pas de la cançó al vers.",
+            "answer": "Primer s’han superposat i comptar no ha evitat l’entrada anticipada. Han acordat mirar quan s’abaixava la flauta, han deixat una pausa i han repassat aquest canvi abans d’actuar.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "en Neri ha començat a parlar quan encara sonaven les meves últimes notes"
+              },
+              {
+                "paragraph": 3,
+                "text": "que esperés a veure’m abaixar la flauta"
+              },
+              {
+                "paragraph": 4,
+                "text": "hem repassat només el pas d’una part a l’altra"
+              }
+            ]
+          },
+          {
+            "id": "l310-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Et sembla útil escoltar un assaig des del lloc del públic? Raona la resposta.",
+            "answer": "Resposta personal raonada; pot relacionar l’escolta amb allò que es percep des d’un altre lloc."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "pausa",
+            "occurrence": 1,
+            "questionId": "l310-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l310-scene",
+            "src": "assets/readings/l310-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "L’Isona abaixa la flauta mentre en Neri espera amb un paper al porxo del molí; l’Elna escolta dreta al costat de la porta.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-cancion-que-necesitaba-una-pausa-b-es",
+        "code": "L310B",
+        "workId": "la-cancion-que-necesitaba-una-pausa-b",
+        "language": "es",
+        "familyId": "familia-l310",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "diary",
+        "title": "La canción que necesitaba una pausa",
+        "summary": "En su diario, Isona distingue reconocer una melodía de saber cuándo llega su final.",
+        "paragraphs": [
+          "Del cuaderno de Isona. Hoy he vuelto al molino de Elna con la flauta. Neri, mi amigo de la ribera, llevaba un verso escrito en una hoja que había doblado para guardarla en el zurrón. Queríamos ofrecer las dos piezas a los vecinos al acabar la tarde: primero mi canción y después su recitado. Elna nos dejó ensayar en el porche, mientras recogía unas cestas junto a la puerta.",
+          "En el primer intento, Neri empezó cuando yo aún tocaba. Una parte de mi melodía volvía a sonar cerca del final y él había tomado esa repetición por el cierre. Yo seguí, pensando que se detendría; él siguió, esperando que yo acabara. Elna se acercó a preguntar cómo comenzaba el verso. Desde donde estaba podía vernos, pero la flauta había tapado parte de las palabras.",
+          "La segunda vez Neri contó hasta tres desde que reconoció aquella parte. Al terminar la cuenta yo seguía tocando. Me explicó que recordaba la melodía, aunque no sabía si faltaba otra vuelta. Le propuse esperar a verme bajar la flauta hasta el pecho. Él apartó un poco la hoja para poder mirarme por encima y probamos ese gesto sin empezar desde el principio de la canción.",
+          "Además, alargué la pausa entre ambas piezas. A Neri le pareció un hueco demasiado grande. Quería entrar enseguida para que los vecinos no creyeran que habíamos olvidado algo. Le pedí que escuchara ese cambio desde el fondo del porche. Elna dijo unas palabras en su lugar después de mi señal. Cuando Neri regresó, prefirió conservar el silencio: desde allí había distinguido bien dónde acababa una parte y empezaba la otra.",
+          "Repasamos solo los últimos momentos de la canción y el comienzo del verso. Elna pudo repetir las primeras palabras cuando Neri volvió a recitarlas. Él seguía atento a mi gesto, no a una cuenta fija. Antes de que llegaran los vecinos dejó su hoja abierta sobre un escalón del porche, para que el doblez no le escondiera el inicio.",
+          "Al actuar mantuvimos aquella pausa. Un vecino levantó la vista justo antes de que Neri empezara. Yo me senté en el escalón con la flauta en las rodillas y escuché el verso entero, incluido ese principio que habíamos repetido tantas veces."
+        ],
+        "questions": [
+          {
+            "id": "l310b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cuál era el orden previsto de las dos piezas?",
+            "answer": "Primero la canción de Isona y después el recitado de Neri.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "primero mi canción y después su recitado"
+              }
+            ]
+          },
+          {
+            "id": "l310b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué explica que ambos siguieran actuando tras la entrada anticipada?",
+            "answer": "Cada uno esperaba que el otro cambiara lo que estaba haciendo, por lo que mantuvieron la superposición.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Yo seguí, pensando que se detendría; él siguió, esperando que yo acabara."
+              }
+            ]
+          },
+          {
+            "id": "l310b-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué diferencia reconoció Neri entre recordar la melodía y conocer su final?",
+            "answer": "Reconocía la parte repetida, pero no sabía si todavía faltaba otra vuelta.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "recordaba la melodía, aunque no sabía si faltaba otra vuelta"
+              }
+            ]
+          },
+          {
+            "id": "l310b-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué la señal visible era más adecuada que aquella cuenta fija?",
+            "answer": "Porque dependía de que Isona hubiera terminado de tocar, mientras que la cuenta empezaba en una parte que aún no era el final.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Al terminar la cuenta yo seguía tocando."
+              },
+              {
+                "paragraph": 3,
+                "text": "esperar a verme bajar la flauta hasta el pecho"
+              }
+            ]
+          },
+          {
+            "id": "l310b-q5",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué expresa «pausa» en la situación del cuarto párrafo?",
+            "answer": "El silencio que separa la canción de la entrada de la voz.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "alargué la pausa entre ambas piezas"
+              },
+              {
+                "paragraph": 4,
+                "text": "prefirió conservar el silencio"
+              }
+            ]
+          },
+          {
+            "id": "l310b-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué temía Neri al dejar un silencio más largo?",
+            "answer": "Que los vecinos creyeran que habían olvidado algo.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "para que los vecinos no creyeran que habíamos olvidado algo"
+              }
+            ]
+          },
+          {
+            "id": "l310b-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cómo pudo Neri escuchar el cambio desde el fondo si su papel era recitar?",
+            "answer": "Elna dijo unas palabras en su lugar después de la señal de Isona.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Elna dijo unas palabras en su lugar después de mi señal."
+              }
+            ]
+          },
+          {
+            "id": "l310b-q8",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué evidencia le hizo cambiar de opinión sobre la duración del silencio?",
+            "answer": "Desde el fondo pudo distinguir bien el final de una parte y el principio de la otra.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "desde allí había distinguido bien dónde acababa una parte y empezaba la otra"
+              }
+            ]
+          },
+          {
+            "id": "l310b-q9",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué fragmento decidieron repasar, en vez de repetir siempre todo?",
+            "answer": "Los últimos momentos de la canción y el comienzo del verso.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "solo los últimos momentos de la canción y el comienzo del verso"
+              }
+            ]
+          },
+          {
+            "id": "l310b-q10",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué perspectiva aporta que Isona escriba esta entrada de diario?",
+            "answer": "Conocemos lo que hizo y lo que pensó durante el ensayo, junto con lo que Neri le explicó y las reacciones que observó.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Yo seguí, pensando que se detendría"
+              },
+              {
+                "paragraph": 3,
+                "text": "Me explicó que recordaba la melodía"
+              }
+            ]
+          },
+          {
+            "id": "l310b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume la diferencia entre las primeras pruebas y la actuación final.",
+            "answer": "Al principio Neri entraba guiándose por una melodía repetida y por una cuenta que no coincidía con el final. Después acordaron un gesto visible y una pausa, la probaron desde el público y consiguieron separar las dos piezas.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Al terminar la cuenta yo seguía tocando."
+              },
+              {
+                "paragraph": 4,
+                "text": "prefirió conservar el silencio"
+              },
+              {
+                "paragraph": 6,
+                "text": "Al actuar mantuvimos aquella pausa."
+              }
+            ]
+          },
+          {
+            "id": "l310b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Neri temía que el silencio pareciera un olvido. ¿Compartes su preocupación? Explica cómo valorarías tú la pausa.",
+            "answer": "Respuesta razonada; se admite preferir una pausa más corta o mantenerla, explicando el efecto que se busca."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "pausa",
+            "occurrence": 1,
+            "questionId": "l310b-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l310-scene",
+            "src": "assets/readings/l310-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Isona baja la flauta mientras Neri espera con un papel en el porche del molino; Elna escucha de pie junto a la puerta.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "la-cancion-que-necesitaba-una-pausa-b-ca",
+        "code": "L310B",
+        "workId": "la-cancion-que-necesitaba-una-pausa-b",
+        "language": "ca",
+        "familyId": "familia-l310",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "diary",
+        "title": "La cançó que necessitava una pausa",
+        "summary": "Al seu diari, l’Isona distingeix reconèixer una melodia de saber quan arriba el final.",
+        "paragraphs": [
+          "Del quadern de l’Isona. Avui he tornat al molí de l’Elna amb la flauta. En Neri, el meu amic de la ribera, duia un vers escrit en un full que havia doblegat per desar-lo al sarró. Volíem oferir les dues peces als veïns al final de la tarda: primer la meva cançó i després el seu recitat. L’Elna ens ha deixat assajar al porxo, mentre recollia uns cistells al costat de la porta.",
+          "Al primer intent, en Neri ha començat quan jo encara tocava. Una part de la meva melodia tornava a sonar a prop del final i ell havia pres aquella repetició pel tancament. Jo he continuat, pensant que s’aturaria; ell ha continuat, esperant que jo acabés. L’Elna s’ha acostat a preguntar com començava el vers. Des d’on era ens podia veure, però la flauta havia tapat part de les paraules.",
+          "La segona vegada en Neri ha comptat fins a tres des que ha reconegut aquella part. En acabar el compte jo continuava tocant. M’ha explicat que recordava la melodia, tot i que no sabia si faltava una altra tornada. Li he proposat esperar a veure’m abaixar la flauta fins al pit. Ell ha apartat una mica el full per poder mirar-me per sobre i hem provat aquell gest sense començar des del principi de la cançó.",
+          "A més, he allargat la pausa entre totes dues peces. A en Neri li ha semblat un buit massa gran. Volia entrar de seguida perquè els veïns no es pensessin que havíem oblidat alguna cosa. Li he demanat que escoltés aquell canvi des del fons del porxo. L’Elna ha dit unes paraules al seu lloc després del meu senyal. Quan en Neri ha tornat, s’ha estimat més conservar el silenci: des d’allà havia distingit bé on acabava una part i començava l’altra.",
+          "Hem repassat només els últims moments de la cançó i el començament del vers. L’Elna ha pogut repetir les primeres paraules quan en Neri les ha tornat a recitar. Ell continuava atent al meu gest, no a un compte fix. Abans que arribessin els veïns ha deixat el full obert sobre un esglaó del porxo, perquè el plec no li amagués l’inici.",
+          "En actuar hem mantingut aquella pausa. Un veí ha aixecat la vista just abans que en Neri comencés. Jo m’he assegut a l’esglaó amb la flauta als genolls i he escoltat el vers sencer, inclòs aquell principi que havíem repetit tantes vegades."
+        ],
+        "questions": [
+          {
+            "id": "l310b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quin era l’ordre previst de les dues peces?",
+            "answer": "Primer la cançó de l’Isona i després el recitat d’en Neri.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "primer la meva cançó i després el seu recitat"
+              }
+            ]
+          },
+          {
+            "id": "l310b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què explica que tots dos continuessin actuant després de l’entrada anticipada?",
+            "answer": "Cadascú esperava que l’altre canviés allò que feia, i per això van mantenir la superposició.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Jo he continuat, pensant que s’aturaria; ell ha continuat, esperant que jo acabés."
+              }
+            ]
+          },
+          {
+            "id": "l310b-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina diferència ha reconegut en Neri entre recordar la melodia i conèixer-ne el final?",
+            "answer": "Reconeixia la part repetida, però no sabia si encara faltava una altra tornada.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "recordava la melodia, tot i que no sabia si faltava una altra tornada"
+              }
+            ]
+          },
+          {
+            "id": "l310b-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què el senyal visible era més adequat que aquell compte fix?",
+            "answer": "Perquè depenia que l’Isona hagués acabat de tocar, mentre que el compte començava en una part que encara no era el final.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "En acabar el compte jo continuava tocant."
+              },
+              {
+                "paragraph": 3,
+                "text": "esperar a veure’m abaixar la flauta fins al pit"
+              }
+            ]
+          },
+          {
+            "id": "l310b-q5",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què expressa «pausa» en la situació del quart paràgraf?",
+            "answer": "El silenci que separa la cançó de l’entrada de la veu.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "he allargat la pausa entre totes dues peces"
+              },
+              {
+                "paragraph": 4,
+                "text": "s’ha estimat més conservar el silenci"
+              }
+            ]
+          },
+          {
+            "id": "l310b-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què temia en Neri en deixar un silenci més llarg?",
+            "answer": "Que els veïns es pensessin que havien oblidat alguna cosa.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "perquè els veïns no es pensessin que havíem oblidat alguna cosa"
+              }
+            ]
+          },
+          {
+            "id": "l310b-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Com ha pogut en Neri escoltar el canvi des del fons si el seu paper era recitar?",
+            "answer": "L’Elna ha dit unes paraules al seu lloc després del senyal de l’Isona.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "L’Elna ha dit unes paraules al seu lloc després del meu senyal."
+              }
+            ]
+          },
+          {
+            "id": "l310b-q8",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina evidència li ha fet canviar d’opinió sobre la durada del silenci?",
+            "answer": "Des del fons ha pogut distingir bé el final d’una part i el principi de l’altra.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "des d’allà havia distingit bé on acabava una part i començava l’altra"
+              }
+            ]
+          },
+          {
+            "id": "l310b-q9",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quin fragment han decidit repassar, en comptes de repetir sempre tot?",
+            "answer": "Els últims moments de la cançó i el començament del vers.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "només els últims moments de la cançó i el començament del vers"
+              }
+            ]
+          },
+          {
+            "id": "l310b-q10",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quina perspectiva aporta que l’Isona escrigui aquesta entrada de diari?",
+            "answer": "Coneixem què ha fet i què ha pensat durant l’assaig, juntament amb allò que en Neri li ha explicat i les reaccions que ha observat.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Jo he continuat, pensant que s’aturaria"
+              },
+              {
+                "paragraph": 3,
+                "text": "M’ha explicat que recordava la melodia"
+              }
+            ]
+          },
+          {
+            "id": "l310b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix la diferència entre les primeres proves i l’actuació final.",
+            "answer": "Al principi en Neri entrava guiant-se per una melodia repetida i per un compte que no coincidia amb el final. Després han acordat un gest visible i una pausa, els han provat des del públic i han aconseguit separar les dues peces.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "En acabar el compte jo continuava tocant."
+              },
+              {
+                "paragraph": 4,
+                "text": "s’ha estimat més conservar el silenci"
+              },
+              {
+                "paragraph": 6,
+                "text": "En actuar hem mantingut aquella pausa."
+              }
+            ]
+          },
+          {
+            "id": "l310b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "En Neri temia que el silenci semblés un oblit. Comparteixes la seva preocupació? Explica com valoraries tu la pausa.",
+            "answer": "Resposta raonada; s’admet preferir una pausa més curta o mantenir-la, explicant l’efecte que es busca."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "pausa",
+            "occurrence": 1,
+            "questionId": "l310b-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l310-scene",
+            "src": "assets/readings/l310-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "L’Isona abaixa la flauta mentre en Neri espera amb un paper al porxo del molí; l’Elna escolta dreta al costat de la porta.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 4
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L310A",
+        "language": "es",
+        "questions": {
+          "l310a-q1": {
+            "prompt": "¿Dónde ensayaron Isona y Neri?",
+            "options": [
+              "En el porche del molino de Elna.",
+              "En la plaza donde esperaban los vecinos.",
+              "Dentro del molino, al acabar la actuación.",
+              "En el lugar donde Neri guardaba su cuaderno."
+            ],
+            "correct": "a",
+            "explanation": "En el porche del molino de Elna."
+          },
+          "l310a-q2": {
+            "prompt": "¿Qué quería hacer Neri después de la canción?",
+            "options": [
+              "Repetir la canción con la flauta.",
+              "Recitar un verso ante los vecinos.",
+              "Escuchar a Elna repetir la melodía.",
+              "Enseñar el cuaderno a los vecinos."
+            ],
+            "correct": "b",
+            "explanation": "Recitar un verso."
+          },
+          "l310a-q3": {
+            "prompt": "¿Por qué creyó Neri que la canción había terminado?",
+            "options": [
+              "Porque Isona ya tenía la flauta junto al pecho.",
+              "Porque Elna había repetido las primeras palabras.",
+              "Porque reconoció una melodía que ya había sonado.",
+              "Porque los vecinos se sentaron para oír el verso."
+            ],
+            "correct": "c",
+            "explanation": "Porque había oído la misma melodía unos momentos antes y confundió su repetición con el final."
+          },
+          "l310a-q4": {
+            "prompt": "¿Qué significa «pausa» en esta lectura?",
+            "options": [
+              "La repetición de las primeras notas.",
+              "El principio del verso recitado.",
+              "El momento de contar hasta tres.",
+              "Un rato de silencio entre ambas partes."
+            ],
+            "correct": "d",
+            "explanation": "Un tiempo de silencio entre la canción y el verso."
+          },
+          "l310a-q5": {
+            "prompt": "¿Qué señal acordaron para que Neri empezara?",
+            "options": [
+              "Que Elna repitiera el comienzo del verso.",
+              "Que Isona bajara la flauta al terminar.",
+              "Que Neri terminara de contar hasta tres.",
+              "Que volviera a sonar la melodía conocida."
+            ],
+            "correct": "b",
+            "explanation": "Que Isona bajara la flauta."
+          },
+          "l310a-q6": {
+            "prompt": "¿Para qué les sirvió que Elna repitiera las primeras palabras?",
+            "options": [
+              "Para comprobar que ya se entendía el comienzo.",
+              "Para decidir qué melodía debía repetir Isona.",
+              "Para que Neri pudiera dejar de mirar a Isona.",
+              "Para elegir el verso que recitarían los vecinos."
+            ],
+            "correct": "a",
+            "explanation": "Para comprobar que esta vez se había entendido el principio del verso."
+          },
+          "l310a-q7": {
+            "prompt": "¿Qué resumen recoge el problema y la solución?",
+            "options": [
+              "Neri olvidaba el verso y Elna lo recitó mientras Isona tocaba.",
+              "Isona repitió la canción para que Neri contara hasta tres antes de entrar.",
+              "Las dos partes se solapaban; acordaron una señal y dejaron un silencio.",
+              "Los vecinos no entendían el verso y decidieron escuchar solo la canción."
+            ],
+            "correct": "c",
+            "explanation": "Neri empezó el verso mientras Isona aún tocaba. Acordaron que esperara a verla bajar la flauta y dejaron una pausa entre las dos partes."
+          }
+        }
+      },
+      {
+        "code": "L310A",
+        "language": "ca",
+        "questions": {
+          "l310a-q1": {
+            "prompt": "On van assajar l’Isona i en Neri?",
+            "options": [
+              "Al porxo del molí de l’Elna.",
+              "A la plaça on esperaven els veïns.",
+              "Dins del molí, en acabar l’actuació.",
+              "Al lloc on en Neri desava el quadern."
+            ],
+            "correct": "a",
+            "explanation": "Al porxo del molí de l’Elna."
+          },
+          "l310a-q2": {
+            "prompt": "Què volia fer en Neri després de la cançó?",
+            "options": [
+              "Repetir la cançó amb la flauta.",
+              "Recitar un vers davant dels veïns.",
+              "Escoltar com l’Elna repetia la melodia.",
+              "Ensenyar el quadern als veïns."
+            ],
+            "correct": "b",
+            "explanation": "Recitar un vers."
+          },
+          "l310a-q3": {
+            "prompt": "Per què en Neri va creure que la cançó s’havia acabat?",
+            "options": [
+              "Perquè l’Isona ja tenia la flauta al costat del pit.",
+              "Perquè l’Elna havia repetit les primeres paraules.",
+              "Perquè va reconèixer una melodia que ja havia sonat.",
+              "Perquè els veïns es van asseure per sentir el vers."
+            ],
+            "correct": "c",
+            "explanation": "Perquè havia sentit la mateixa melodia uns moments abans i en va confondre la repetició amb el final."
+          },
+          "l310a-q4": {
+            "prompt": "Què vol dir «pausa» en aquesta lectura?",
+            "options": [
+              "La repetició de les primeres notes.",
+              "El principi del vers recitat.",
+              "El moment de comptar fins a tres.",
+              "Una estona de silenci entre totes dues parts."
+            ],
+            "correct": "d",
+            "explanation": "Una estona de silenci entre la cançó i el vers."
+          },
+          "l310a-q5": {
+            "prompt": "Quin senyal van acordar perquè en Neri comencés?",
+            "options": [
+              "Que l’Elna repetís el començament del vers.",
+              "Que l’Isona abaixés la flauta en acabar.",
+              "Que en Neri acabés de comptar fins a tres.",
+              "Que tornés a sonar la melodia coneguda."
+            ],
+            "correct": "b",
+            "explanation": "Que l’Isona abaixés la flauta."
+          },
+          "l310a-q6": {
+            "prompt": "De què els va servir que l’Elna repetís les primeres paraules?",
+            "options": [
+              "Per comprovar que ja s’entenia el començament.",
+              "Per decidir quina melodia havia de repetir l’Isona.",
+              "Perquè en Neri pogués deixar de mirar l’Isona.",
+              "Per triar el vers que recitarien els veïns."
+            ],
+            "correct": "a",
+            "explanation": "Per comprovar que aquest cop s’havia entès el principi del vers."
+          },
+          "l310a-q7": {
+            "prompt": "Quin resum recull el problema i la solució?",
+            "options": [
+              "En Neri oblidava el vers i l’Elna el va recitar mentre l’Isona tocava.",
+              "L’Isona va repetir la cançó perquè en Neri comptés fins a tres abans d’entrar.",
+              "Les dues parts se superposaven; van acordar un senyal i van deixar un silenci.",
+              "Els veïns no entenien el vers i van decidir escoltar només la cançó."
+            ],
+            "correct": "c",
+            "explanation": "En Neri va començar el vers mentre l’Isona encara tocava. Van acordar que esperaria a veure-la abaixar la flauta i van deixar una pausa entre les dues parts."
+          }
+        }
+      },
+      {
+        "code": "L310",
+        "language": "es",
+        "questions": {
+          "l310-q1": {
+            "prompt": "¿Qué iban a ofrecer a los vecinos y en qué orden?",
+            "options": [
+              "El verso de Neri y luego la canción de Isona.",
+              "La canción de Isona y luego el verso de Neri.",
+              "La canción y el verso, empezados a la vez.",
+              "La canción de Isona y un verso leído por Elna."
+            ],
+            "correct": "b",
+            "explanation": "Primero una canción de flauta y después el verso recitado por Neri."
+          },
+          "l310-q2": {
+            "prompt": "¿Qué confundió Neri en el primer intento?",
+            "options": [
+              "La pregunta de Elna con una señal para empezar.",
+              "La bajada de la flauta con una pausa del ensayo.",
+              "El silencio final con otra parte de la melodía.",
+              "Una parte que volvía a sonar con el final."
+            ],
+            "correct": "d",
+            "explanation": "La repetición de una parte de la melodía con el final de la canción."
+          },
+          "l310-q3": {
+            "prompt": "¿Qué muestra la pregunta de Elna sobre el comienzo del verso?",
+            "options": [
+              "Que estar cerca y verlos no bastaba para entender las palabras con la flauta sonando a la vez.",
+              "Que Elna había llegado cuando el verso ya estaba terminado.",
+              "Que Neri aún no había aprendido las primeras palabras de su verso.",
+              "Que Elna prefería el recitado a la melodía que se repetía."
+            ],
+            "correct": "a",
+            "explanation": "Que la superposición de música y voz dificultaba entender las palabras, aunque pudiera ver a los intérpretes."
+          },
+          "l310-q4": {
+            "prompt": "¿Por qué contar hasta tres no resolvió el problema?",
+            "options": [
+              "Porque Neri empezó a contar cuando Elna hizo la pregunta.",
+              "Porque Isona bajó la flauta antes de que Neri acabara la cuenta.",
+              "Porque al terminar la cuenta Isona todavía estaba tocando.",
+              "Porque la señal acordada exigía contar después de bajar la flauta."
+            ],
+            "correct": "c",
+            "explanation": "Porque Neri contaba desde una parte que reconocía y Isona todavía seguía tocando cuando acababa de contar."
+          },
+          "l310-q5": {
+            "prompt": "¿Qué significa «pausa» en el tercer párrafo?",
+            "options": [
+              "Una vuelta de la melodía antes de terminar.",
+              "Un silencio entre la canción y el recitado.",
+              "El tiempo que Neri tarda en leer todo el verso.",
+              "El descanso de Elna mientras escucha a los vecinos."
+            ],
+            "correct": "b",
+            "explanation": "Un tiempo de silencio que separa la canción del recitado."
+          },
+          "l310-q6": {
+            "prompt": "¿Qué tenía que observar Neri para empezar?",
+            "options": [
+              "La llegada de Elna al fondo del porche.",
+              "La primera vez que sonaba la melodía repetida.",
+              "El momento en que los vecinos se sentaban.",
+              "El gesto de Isona al bajar la flauta."
+            ],
+            "correct": "d",
+            "explanation": "Que Isona bajara la flauta hasta el pecho."
+          },
+          "l310-q7": {
+            "prompt": "¿Qué cambió al escuchar Neri desde el fondo del porche?",
+            "options": [
+              "Pasó de querer acortar el silencio a aceptar que se mantuviera.",
+              "Decidió empezar el verso desde el fondo para que Elna lo oyera.",
+              "Dejó de mirar a Isona porque ya reconocía la melodía entera.",
+              "Pidió cambiar el orden para que el silencio quedara al principio."
+            ],
+            "correct": "a",
+            "explanation": "Aceptó mantener la duración del silencio después de escuchar cómo sonaba el cambio entre las dos partes."
+          },
+          "l310-q8": {
+            "prompt": "¿Qué detalles indican que leemos un diario de Isona?",
+            "options": [
+              "Elna pregunta por el verso y Neri responde con su hoja.",
+              "Se cuenta en orden cómo deben colocarse todos los vecinos.",
+              "La autora presenta su cuaderno y cuenta lo vivido hoy en primera persona.",
+              "Se incluyen las palabras que los vecinos deben aprender para la función."
+            ],
+            "correct": "c",
+            "explanation": "La entrada se presenta como parte de su cuaderno y cuenta en primera persona lo ocurrido ese día."
+          },
+          "l310-q9": {
+            "prompt": "¿Qué resumen explica la mejora del ensayo?",
+            "options": [
+              "Repitieron la melodía hasta que Neri pudo contar su duración y entrar sin mirar.",
+              "Ensayaron una señal visible y un silencio para que las partes no se solaparan.",
+              "Acortaron el silencio para que el verso pareciera una continuación de la flauta.",
+              "Elna repitió el comienzo del verso para indicar cuándo debía entrar Neri."
+            ],
+            "correct": "b",
+            "explanation": "Primero se solaparon y contar no evitó la entrada anticipada. Acordaron mirar la bajada de la flauta, dejaron una pausa y repasaron ese cambio antes de actuar."
+          }
+        }
+      },
+      {
+        "code": "L310",
+        "language": "ca",
+        "questions": {
+          "l310-q1": {
+            "prompt": "Què oferirien als veïns i en quin ordre?",
+            "options": [
+              "El vers d’en Neri i després la cançó de l’Isona.",
+              "La cançó de l’Isona i després el vers d’en Neri.",
+              "La cançó i el vers, començats alhora.",
+              "La cançó de l’Isona i un vers llegit per l’Elna."
+            ],
+            "correct": "b",
+            "explanation": "Primer una cançó de flauta i després el vers recitat per en Neri."
+          },
+          "l310-q2": {
+            "prompt": "Què ha confós en Neri al primer intent?",
+            "options": [
+              "La pregunta de l’Elna amb un senyal per començar.",
+              "L’abaixada de la flauta amb una pausa de l’assaig.",
+              "El silenci final amb una altra part de la melodia.",
+              "Una part que tornava a sonar amb el final."
+            ],
+            "correct": "d",
+            "explanation": "La repetició d’una part de la melodia amb el final de la cançó."
+          },
+          "l310-q3": {
+            "prompt": "Què mostra la pregunta de l’Elna sobre el començament del vers?",
+            "options": [
+              "Que ser a prop i veure’ls no bastava per entendre les paraules amb la flauta sonant alhora.",
+              "Que l’Elna havia arribat quan el vers ja s’havia acabat.",
+              "Que en Neri encara no s’havia après les primeres paraules del vers.",
+              "Que l’Elna preferia el recitat a la melodia que es repetia."
+            ],
+            "correct": "a",
+            "explanation": "Que la superposició de música i veu dificultava entendre les paraules, tot i que podia veure els intèrprets."
+          },
+          "l310-q4": {
+            "prompt": "Per què comptar fins a tres no ha resolt el problema?",
+            "options": [
+              "Perquè en Neri ha començat a comptar quan l’Elna ha fet la pregunta.",
+              "Perquè l’Isona ha abaixat la flauta abans que en Neri acabés el compte.",
+              "Perquè en acabar el compte l’Isona encara estava tocant.",
+              "Perquè el senyal acordat exigia comptar després d’abaixar la flauta."
+            ],
+            "correct": "c",
+            "explanation": "Perquè en Neri comptava des d’una part que reconeixia i l’Isona encara continuava tocant quan acabava de comptar."
+          },
+          "l310-q5": {
+            "prompt": "Què vol dir «pausa» al tercer paràgraf?",
+            "options": [
+              "Una tornada de la melodia abans d’acabar.",
+              "Un silenci entre la cançó i el recitat.",
+              "El temps que en Neri triga a llegir tot el vers.",
+              "El descans de l’Elna mentre escolta els veïns."
+            ],
+            "correct": "b",
+            "explanation": "Una estona de silenci que separa la cançó del recitat."
+          },
+          "l310-q6": {
+            "prompt": "Què havia d’observar en Neri per començar?",
+            "options": [
+              "L’arribada de l’Elna al fons del porxo.",
+              "La primera vegada que sonava la melodia repetida.",
+              "El moment que els veïns s’asseien.",
+              "El gest de l’Isona en abaixar la flauta."
+            ],
+            "correct": "d",
+            "explanation": "Que l’Isona abaixés la flauta fins al pit."
+          },
+          "l310-q7": {
+            "prompt": "Què ha canviat quan en Neri ha escoltat des del fons del porxo?",
+            "options": [
+              "Ha passat de voler escurçar el silenci a acceptar que es mantingués.",
+              "Ha decidit començar el vers des del fons perquè l’Elna el sentís.",
+              "Ha deixat de mirar l’Isona perquè ja reconeixia la melodia sencera.",
+              "Ha demanat canviar l’ordre perquè el silenci quedés al principi."
+            ],
+            "correct": "a",
+            "explanation": "Ha acceptat mantenir la durada del silenci després d’escoltar com sonava el canvi entre les dues parts."
+          },
+          "l310-q8": {
+            "prompt": "Quins detalls indiquen que llegim un diari de l’Isona?",
+            "options": [
+              "L’Elna pregunta pel vers i en Neri respon amb el full.",
+              "S’hi explica en ordre com s’han de col·locar tots els veïns.",
+              "L’autora presenta el quadern i explica què ha viscut avui en primera persona.",
+              "S’hi inclouen les paraules que els veïns s’han d’aprendre per a la funció."
+            ],
+            "correct": "c",
+            "explanation": "L’entrada es presenta com a part del seu quadern i explica en primera persona què ha passat aquell dia."
+          },
+          "l310-q9": {
+            "prompt": "Quin resum explica la millora de l’assaig?",
+            "options": [
+              "Han repetit la melodia fins que en Neri n’ha pogut comptar la durada i entrar sense mirar.",
+              "Han assajat un senyal visible i un silenci perquè les parts no se superposessin.",
+              "Han escurçat el silenci perquè el vers semblés una continuació de la flauta.",
+              "L’Elna ha repetit el començament del vers per indicar quan havia d’entrar en Neri."
+            ],
+            "correct": "b",
+            "explanation": "Primer s’han superposat i comptar no ha evitat l’entrada anticipada. Han acordat mirar quan s’abaixava la flauta, han deixat una pausa i han repassat aquest canvi abans d’actuar."
+          }
+        }
+      },
+      {
+        "code": "L310B",
+        "language": "es",
+        "questions": {
+          "l310b-q1": {
+            "prompt": "¿Cuál era el orden previsto de las dos piezas?",
+            "options": [
+              "La melodía de Isona seguida del verso de Neri.",
+              "El verso de Neri seguido de la melodía repetida.",
+              "La melodía y el verso alternados en cada repetición.",
+              "Una pieza conjunta y después una repetición separada."
+            ],
+            "correct": "a",
+            "explanation": "Primero la canción de Isona y después el recitado de Neri."
+          },
+          "l310b-q2": {
+            "prompt": "¿Qué explica que ambos siguieran actuando tras la entrada anticipada?",
+            "options": [
+              "Ambos creían que Elna les había pedido repetir el principio.",
+              "Ambos querían comprobar si el público entendía las dos piezas juntas.",
+              "Cada cual esperaba que el otro se detuviera o terminara.",
+              "Neri seguía la cuenta e Isona esperaba que llegara a tres."
+            ],
+            "correct": "c",
+            "explanation": "Cada uno esperaba que el otro cambiara lo que estaba haciendo, por lo que mantuvieron la superposición."
+          },
+          "l310b-q3": {
+            "prompt": "¿Qué diferencia reconoció Neri entre recordar la melodía y conocer su final?",
+            "options": [
+              "Recordaba las notas iniciales, pero había olvidado las palabras del verso.",
+              "Reconocía la parte que volvía, pero ignoraba si se repetiría de nuevo.",
+              "Conocía el final, pero no recordaba desde dónde había empezado a contar.",
+              "Conocía el final, pero la hoja le ocultaba la señal que habían acordado."
+            ],
+            "correct": "b",
+            "explanation": "Reconocía la parte repetida, pero no sabía si todavía faltaba otra vuelta."
+          },
+          "l310b-q4": {
+            "prompt": "¿Por qué la señal visible era más adecuada que aquella cuenta fija?",
+            "options": [
+              "Porque permitía que Neri empezara antes de la repetición final.",
+              "Porque fijaba una duración de tres tiempos después de la última nota.",
+              "Porque sustituía la necesidad de oír las palabras por la de verlas.",
+              "Porque estaba ligada al final real, no al reconocimiento de una parte."
+            ],
+            "correct": "d",
+            "explanation": "Porque dependía de que Isona hubiera terminado de tocar, mientras que la cuenta empezaba en una parte que aún no era el final."
+          },
+          "l310b-q5": {
+            "prompt": "¿Qué expresa «pausa» en la situación del cuarto párrafo?",
+            "options": [
+              "Una separación silenciosa entre las dos piezas.",
+              "Una parte de la melodía que vuelve a sonar.",
+              "Un cambio de lugar para escuchar desde el fondo.",
+              "Un ensayo reducido al comienzo del recitado."
+            ],
+            "correct": "a",
+            "explanation": "El silencio que separa la canción de la entrada de la voz."
+          },
+          "l310b-q6": {
+            "prompt": "¿Qué temía Neri al dejar un silencio más largo?",
+            "options": [
+              "Que Elna empezara a repetir el verso antes de su señal.",
+              "Que el público creyera que la pausa era un olvido.",
+              "Que Isona confundiera el final con otra repetición.",
+              "Que el doblez de la hoja le ocultara las primeras palabras."
+            ],
+            "correct": "b",
+            "explanation": "Que los vecinos creyeran que habían olvidado algo."
+          },
+          "l310b-q7": {
+            "prompt": "¿Cómo pudo Neri escuchar el cambio desde el fondo si su papel era recitar?",
+            "options": [
+              "Isona recitó el verso mientras Elna tocaba las últimas notas.",
+              "Neri volvió al porche antes de que Isona llegara al final.",
+              "Los vecinos leyeron en voz alta las palabras de su hoja.",
+              "Elna ocupó su lugar durante esa parte del ensayo."
+            ],
+            "correct": "d",
+            "explanation": "Elna dijo unas palabras en su lugar después de la señal de Isona."
+          },
+          "l310b-q8": {
+            "prompt": "¿Qué evidencia le hizo cambiar de opinión sobre la duración del silencio?",
+            "options": [
+              "La promesa de Isona de tocar la melodía sin repetirla.",
+              "La reacción de los vecinos al ver la hoja doblada.",
+              "La separación clara que percibió al escuchar desde el fondo.",
+              "La posibilidad de empezar sin esperar a que bajara la flauta."
+            ],
+            "correct": "c",
+            "explanation": "Desde el fondo pudo distinguir bien el final de una parte y el principio de la otra."
+          },
+          "l310b-q9": {
+            "prompt": "¿Qué fragmento decidieron repasar, en vez de repetir siempre todo?",
+            "options": [
+              "Las notas finales de la canción y las primeras palabras del verso.",
+              "Las tres primeras notas y el gesto de guardar la flauta.",
+              "La repetición de la melodía y el final entero del verso.",
+              "El gesto de bajar la flauta y las últimas palabras del recitado."
+            ],
+            "correct": "a",
+            "explanation": "Los últimos momentos de la canción y el comienzo del verso."
+          },
+          "l310b-q10": {
+            "prompt": "¿Qué perspectiva aporta que Isona escriba esta entrada de diario?",
+            "options": [
+              "Una descripción externa que evita contar lo que pensaron los participantes.",
+              "El punto de vista de todos los vecinos sobre las dos piezas completas.",
+              "Una versión de Elna sobre el ensayo que hicieron los dos amigos.",
+              "La experiencia de Isona, con lo que hizo, pensó y supo al hablar con Neri."
+            ],
+            "correct": "d",
+            "explanation": "Conocemos lo que hizo y lo que pensó durante el ensayo, junto con lo que Neri le explicó y las reacciones que observó."
+          },
+          "l310b-q11": {
+            "prompt": "¿Qué síntesis explica el cambio hasta la actuación final?",
+            "options": [
+              "Neri acabó aprendiendo una cuenta más larga que le permitió entrar sin observar a Isona.",
+              "Pasaron de una entrada que se anticipaba a un enlace con gesto y silencio comprobado al ensayar.",
+              "Isona eliminó la repetición que confundía a Neri y dejó el verso separado de la canción.",
+              "Elna mantuvo su lugar de recitadora para que Neri pudiera escuchar la actuación desde el fondo."
+            ],
+            "correct": "b",
+            "explanation": "Al principio Neri entraba guiándose por una melodía repetida y por una cuenta que no coincidía con el final. Después acordaron un gesto visible y una pausa, la probaron desde el público y consiguieron separar las dos piezas."
+          }
+        }
+      },
+      {
+        "code": "L310B",
+        "language": "ca",
+        "questions": {
+          "l310b-q1": {
+            "prompt": "Quin era l’ordre previst de les dues peces?",
+            "options": [
+              "La melodia de l’Isona seguida del vers d’en Neri.",
+              "El vers d’en Neri seguit de la melodia repetida.",
+              "La melodia i el vers alternats a cada repetició.",
+              "Una peça conjunta i després una repetició separada."
+            ],
+            "correct": "a",
+            "explanation": "Primer la cançó de l’Isona i després el recitat d’en Neri."
+          },
+          "l310b-q2": {
+            "prompt": "Què explica que tots dos continuessin actuant després de l’entrada anticipada?",
+            "options": [
+              "Tots dos creien que l’Elna els havia demanat repetir el principi.",
+              "Tots dos volien comprovar si el públic entenia les dues peces juntes.",
+              "Cadascú esperava que l’altre s’aturés o acabés.",
+              "En Neri seguia el compte i l’Isona esperava que arribés a tres."
+            ],
+            "correct": "c",
+            "explanation": "Cadascú esperava que l’altre canviés allò que feia, i per això van mantenir la superposició."
+          },
+          "l310b-q3": {
+            "prompt": "Quina diferència ha reconegut en Neri entre recordar la melodia i conèixer-ne el final?",
+            "options": [
+              "Recordava les notes inicials, però havia oblidat les paraules del vers.",
+              "Reconeixia la part que tornava, però ignorava si es repetiria de nou.",
+              "Coneixia el final, però no recordava des d’on havia començat a comptar.",
+              "Coneixia el final, però el full li ocultava el senyal que havien acordat."
+            ],
+            "correct": "b",
+            "explanation": "Reconeixia la part repetida, però no sabia si encara faltava una altra tornada."
+          },
+          "l310b-q4": {
+            "prompt": "Per què el senyal visible era més adequat que aquell compte fix?",
+            "options": [
+              "Perquè permetia que en Neri comencés abans de la repetició final.",
+              "Perquè fixava una durada de tres temps després de l’última nota.",
+              "Perquè substituïa la necessitat de sentir les paraules per la de veure-les.",
+              "Perquè estava lligada al final real, no al reconeixement d’una part."
+            ],
+            "correct": "d",
+            "explanation": "Perquè depenia que l’Isona hagués acabat de tocar, mentre que el compte començava en una part que encara no era el final."
+          },
+          "l310b-q5": {
+            "prompt": "Què expressa «pausa» en la situació del quart paràgraf?",
+            "options": [
+              "Una separació silenciosa entre les dues peces.",
+              "Una part de la melodia que torna a sonar.",
+              "Un canvi de lloc per escoltar des del fons.",
+              "Un assaig reduït al començament del recitat."
+            ],
+            "correct": "a",
+            "explanation": "El silenci que separa la cançó de l’entrada de la veu."
+          },
+          "l310b-q6": {
+            "prompt": "Què temia en Neri en deixar un silenci més llarg?",
+            "options": [
+              "Que l’Elna comencés a repetir el vers abans del seu senyal.",
+              "Que el públic cregués que la pausa era un oblit.",
+              "Que l’Isona confongués el final amb una altra repetició.",
+              "Que el plec del full li amagués les primeres paraules."
+            ],
+            "correct": "b",
+            "explanation": "Que els veïns es pensessin que havien oblidat alguna cosa."
+          },
+          "l310b-q7": {
+            "prompt": "Com ha pogut en Neri escoltar el canvi des del fons si el seu paper era recitar?",
+            "options": [
+              "L’Isona ha recitat el vers mentre l’Elna tocava les últimes notes.",
+              "En Neri ha tornat al porxo abans que l’Isona arribés al final.",
+              "Els veïns han llegit en veu alta les paraules del seu full.",
+              "L’Elna ha ocupat el seu lloc durant aquella part de l’assaig."
+            ],
+            "correct": "d",
+            "explanation": "L’Elna ha dit unes paraules al seu lloc després del senyal de l’Isona."
+          },
+          "l310b-q8": {
+            "prompt": "Quina evidència li ha fet canviar d’opinió sobre la durada del silenci?",
+            "options": [
+              "La promesa de l’Isona de tocar la melodia sense repetir-la.",
+              "La reacció dels veïns en veure el full doblegat.",
+              "La separació clara que ha percebut en escoltar des del fons.",
+              "La possibilitat de començar sense esperar que s’abaixés la flauta."
+            ],
+            "correct": "c",
+            "explanation": "Des del fons ha pogut distingir bé el final d’una part i el principi de l’altra."
+          },
+          "l310b-q9": {
+            "prompt": "Quin fragment han decidit repassar, en comptes de repetir sempre tot?",
+            "options": [
+              "Les notes finals de la cançó i les primeres paraules del vers.",
+              "Les tres primeres notes i el gest de desar la flauta.",
+              "La repetició de la melodia i el final sencer del vers.",
+              "El gest d’abaixar la flauta i les últimes paraules del recitat."
+            ],
+            "correct": "a",
+            "explanation": "Els últims moments de la cançó i el començament del vers."
+          },
+          "l310b-q10": {
+            "prompt": "Quina perspectiva aporta que l’Isona escrigui aquesta entrada de diari?",
+            "options": [
+              "Una descripció externa que evita explicar què han pensat els participants.",
+              "El punt de vista de tots els veïns sobre les dues peces completes.",
+              "Una versió de l’Elna sobre l’assaig que han fet els dos amics.",
+              "L’experiència de l’Isona, amb què ha fet, pensat i sabut en parlar amb en Neri."
+            ],
+            "correct": "d",
+            "explanation": "Coneixem què ha fet i què ha pensat durant l’assaig, juntament amb allò que en Neri li ha explicat i les reaccions que ha observat."
+          },
+          "l310b-q11": {
+            "prompt": "Quina síntesi explica el canvi fins a l’actuació final?",
+            "options": [
+              "En Neri ha acabat aprenent un compte més llarg que li ha permès entrar sense observar l’Isona.",
+              "Han passat d’una entrada que s’anticipava a un enllaç amb gest i silenci comprovat en assajar.",
+              "L’Isona ha eliminat la repetició que confonia en Neri i ha deixat el vers separat de la cançó.",
+              "L’Elna ha mantingut el lloc de recitadora perquè en Neri pogués escoltar l’actuació des del fons."
+            ],
+            "correct": "b",
+            "explanation": "Al principi en Neri entrava guiant-se per una melodia repetida i per un compte que no coincidia amb el final. Després han acordat un gest visible i una pausa, els han provat des del públic i han aconseguit separar les dues peces."
+          }
+        }
+      }
+    ]
   }
 ];
