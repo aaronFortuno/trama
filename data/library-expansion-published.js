@@ -16380,5 +16380,1800 @@ export const libraryPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L278",
+    "edition": "v1.59.10",
+    "family": {
+      "id": "familia-l278",
+      "code": "L278",
+      "name": {
+        "es": "¿Quién hizo esta foto?",
+        "ca": "Qui va fer aquesta foto?"
+      },
+      "description": {
+        "ca": "Una història de La biblioteca de les coses, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de La biblioteca de las cosas, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L278A",
+        "L278",
+        "L278B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "biblioteca-autora-foto-a-es",
+        "code": "L278A",
+        "workId": "biblioteca-autora-foto-a",
+        "language": "es",
+        "familyId": "familia-l278",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "history"
+        ],
+        "genre": "narrative",
+        "title": "¿Quién hizo esta foto?",
+        "summary": "Una foto antigua parece contar una cosa hasta que aparece su autora.",
+        "paragraphs": [
+          "Noa ayudaba a escoger una fotografía para el folleto de la biblioteca de las cosas. En este local vecinal se prestan objetos de uso ocasional. Rosa, la coordinadora, le dio una carpeta de imágenes antiguas. Una mostraba una caja roja de herramientas sobre una mesa, delante de unos estantes casi vacíos. No aparecía ninguna persona en el papel.",
+          "—Parece que aquel día no vino nadie —comentó Noa. Rosa miró la fotografía. En un borde se veía solo un trozo de silla, cortado por la mitad. La caja era la que Elena, una vecina, había donado años atrás. Rosa decidió preguntarle por la imagen antes de escribir una frase para acompañarla en el folleto que estaban preparando.",
+          "Elena volvió al día siguiente con un álbum. Ella había hecho la foto el primer sábado del servicio, diez minutos antes de abrir. Después había recortado una copia para enviársela a su hermana, que había pintado la caja. Quería enseñarle cómo quedaba la pintura roja. El recorte permitía ver la caja más grande y dejaba fuera buena parte de la sala.",
+          "La fotografía completa estaba en el álbum. A la derecha aparecían tres vecinos colocando objetos en una estantería. La silla también se veía entera. Noa entendió que el encuadre, la parte de la escena incluida en la imagen, había ocultado aquella preparación. Tampoco la foto completa mostraba cuántas personas entrarían después: las puertas seguían cerradas cuando Elena pulsó el botón de la cámara.",
+          "Para el folleto eligieron hacer una foto nueva. Rosa reunió varios objetos que estaban entonces en el local y los fotografió sobre el mostrador. Debajo escribirían: «Algunos objetos del servicio, reunidos para la fotografía». La imagen serviría para presentar ejemplos de lo que se presta. Para saber cuándo se podía pedir cada cosa, el folleto indicaría que había que consultar las fechas.",
+          "La foto antigua quedó para un pequeño rincón de recuerdos. Noa preparó un cartel: «Primer sábado, antes de abrir. Foto de Elena». La vecina buscó un hueco junto al álbum y dejó allí la copia recortada. Antes de irse, señaló la caja real: todavía conservaba una raya pequeña en la tapa que también se distinguía en las dos fotografías."
+        ],
+        "questions": [
+          {
+            "id": "l278a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Para qué buscaban una fotografía al principio?",
+            "answer": "Para el folleto de la biblioteca de las cosas.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una fotografía para el folleto de la biblioteca de las cosas"
+              }
+            ]
+          },
+          {
+            "id": "l278a-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿En qué se basó la primera impresión de Noa?",
+            "answer": "En la ausencia de personas y los estantes casi vacíos del recorte.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "unos estantes casi vacíos. No aparecía ninguna persona"
+              }
+            ]
+          },
+          {
+            "id": "l278a-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Quién tomó la fotografía antigua y cuándo?",
+            "answer": "Elena, diez minutos antes de abrir el primer sábado del servicio.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Ella había hecho la foto el primer sábado del servicio, diez minutos antes de abrir"
+              }
+            ]
+          },
+          {
+            "id": "l278a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «encuadre» en el texto?",
+            "answer": "La parte de la escena incluida en la imagen.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "el encuadre, la parte de la escena incluida en la imagen"
+              }
+            ]
+          },
+          {
+            "id": "l278a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Elena había recortado la copia?",
+            "answer": "Para mostrar mejor a su hermana la caja que había pintado.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Quería enseñarle cómo quedaba la pintura roja"
+              }
+            ]
+          },
+          {
+            "id": "l278a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué permite saber la fotografía completa sobre los usuarios que entraron después?",
+            "answer": "No permite contarlos, porque se tomó antes de abrir.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "las puertas seguían cerradas cuando Elena pulsó el botón"
+              }
+            ]
+          },
+          {
+            "id": "l278a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué descubre Noa sobre la foto y cómo cambia su primera impresión.",
+            "answer": "El recorte parecía mostrar un local sin actividad. La autora y la foto completa revelan que había vecinos preparándolo antes de abrir.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "dejaba fuera buena parte de la sala"
+              },
+              {
+                "paragraph": 4,
+                "text": "tres vecinos colocando objetos"
+              }
+            ]
+          },
+          {
+            "id": "l278a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué foto elegirías para un rincón de recuerdos: la completa o la recortada? Justifica tu elección con el texto.",
+            "answer": "Respuesta abierta: cualquiera de las dos, con una razón sobre lo que muestra y el contexto que convendría explicar."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "encuadre",
+            "occurrence": 1,
+            "questionId": "l278a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l278-scene",
+            "src": "assets/readings/l278-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una caja roja de herramientas junto a un álbum abierto y una cámara apagada.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-autora-foto-a-ca",
+        "code": "L278A",
+        "workId": "biblioteca-autora-foto-a",
+        "language": "ca",
+        "familyId": "familia-l278",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "history"
+        ],
+        "genre": "narrative",
+        "title": "Qui va fer aquesta foto?",
+        "summary": "Una foto antiga sembla explicar una cosa fins que apareix la seva autora.",
+        "paragraphs": [
+          "La Noa ajudava a triar una fotografia per al fullet de la biblioteca de les coses. En aquest local veïnal es presten objectes d’ús ocasional. La Rosa, la coordinadora, li va donar una carpeta d’imatges antigues. Una mostrava una caixa vermella d’eines sobre una taula, davant d’uns prestatges gairebé buits. No apareixia cap persona al paper.",
+          "—Sembla que aquell dia no va venir ningú —va comentar la Noa. La Rosa va mirar la fotografia. En una vora es veia només un tros de cadira, tallat per la meitat. La caixa era la que l’Elena, una veïna, havia donat anys enrere. La Rosa va decidir preguntar-li per la imatge abans d’escriure una frase per acompanyar-la al fullet que preparaven.",
+          "L’Elena va tornar l’endemà amb un àlbum. Ella havia fet la foto el primer dissabte del servei, deu minuts abans d’obrir. Després havia retallat una còpia per enviar-la a la seva germana, que havia pintat la caixa. Volia ensenyar-li com quedava la pintura vermella. El retall permetia veure la caixa més gran i deixava fora bona part de la sala.",
+          "La fotografia completa era a l’àlbum. A la dreta apareixien tres veïns col·locant objectes en una prestatgeria. La cadira també es veia sencera. La Noa va entendre que l’enquadrament, la part de l’escena inclosa en la imatge, havia amagat aquella preparació. Tampoc la foto completa mostrava quantes persones entrarien després: les portes continuaven tancades quan l’Elena va prémer el botó de la càmera.",
+          "Per al fullet van triar fer una foto nova. La Rosa va reunir diversos objectes que aleshores eren al local i els va fotografiar sobre el taulell. A sota escriurien: «Alguns objectes del servei, reunits per a la fotografia». La imatge serviria per presentar exemples d’allò que es presta. Per saber quan es podia demanar cada cosa, el fullet indicaria que calia consultar les dates.",
+          "La foto antiga va quedar per a un petit racó de records. La Noa va preparar un cartell: «Primer dissabte, abans d’obrir. Foto de l’Elena». La veïna va buscar un espai al costat de l’àlbum i hi va deixar la còpia retallada. Abans de marxar, va assenyalar la caixa real: encara conservava una ratlla petita a la tapa que també es distingia a les dues fotografies."
+        ],
+        "questions": [
+          {
+            "id": "l278a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Per a què buscaven una fotografia al principi?",
+            "answer": "Per al fullet de la biblioteca de les coses.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una fotografia per al fullet de la biblioteca de les coses"
+              }
+            ]
+          },
+          {
+            "id": "l278a-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "En què es va basar la primera impressió de la Noa?",
+            "answer": "En l’absència de persones i els prestatges gairebé buits del retall.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "uns prestatges gairebé buits. No apareixia cap persona"
+              }
+            ]
+          },
+          {
+            "id": "l278a-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Qui va fer la fotografia antiga i quan?",
+            "answer": "L’Elena, deu minuts abans d’obrir el primer dissabte del servei.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Ella havia fet la foto el primer dissabte del servei, deu minuts abans d’obrir"
+              }
+            ]
+          },
+          {
+            "id": "l278a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què significa «enquadrament» al text?",
+            "answer": "La part de l’escena inclosa en la imatge.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "l’enquadrament, la part de l’escena inclosa en la imatge"
+              }
+            ]
+          },
+          {
+            "id": "l278a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què l’Elena havia retallat la còpia?",
+            "answer": "Per mostrar millor a la seva germana la caixa que havia pintat.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Volia ensenyar-li com quedava la pintura vermella"
+              }
+            ]
+          },
+          {
+            "id": "l278a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què permet saber la fotografia completa sobre els usuaris que van entrar després?",
+            "answer": "No permet comptar-los, perquè es va fer abans d’obrir.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "les portes continuaven tancades quan l’Elena va prémer el botó"
+              }
+            ]
+          },
+          {
+            "id": "l278a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix què descobreix la Noa sobre la foto i com canvia la seva primera impressió.",
+            "answer": "El retall semblava mostrar un local sense activitat. L’autora i la foto completa revelen que hi havia veïns preparant-lo abans d’obrir.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "deixava fora bona part de la sala"
+              },
+              {
+                "paragraph": 4,
+                "text": "tres veïns col·locant objectes"
+              }
+            ]
+          },
+          {
+            "id": "l278a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quina foto triaries per a un racó de records: la completa o la retallada? Justifica la tria amb el text.",
+            "answer": "Resposta oberta: qualsevol de les dues, amb una raó sobre allò que mostra i el context que convindria explicar."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "enquadrament",
+            "occurrence": 1,
+            "questionId": "l278a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l278-scene",
+            "src": "assets/readings/l278-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una caixa vermella d’eines al costat d’un àlbum obert i una càmera apagada.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-autora-foto-es",
+        "code": "L278",
+        "workId": "biblioteca-autora-foto",
+        "language": "es",
+        "familyId": "familia-l278",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "history"
+        ],
+        "genre": "narrative",
+        "title": "¿Quién hizo esta foto?",
+        "summary": "Buscar a la autora de una foto permite separar lo que muestra de lo que parecía demostrar.",
+        "paragraphs": [
+          "Noa preparaba con Rosa un folleto de la biblioteca de las cosas, el servicio de una asociación vecinal que presta objetos de uso ocasional. Rosa era la coordinadora; Noa, una estudiante que colaboraba algunas tardes. Habían abierto una carpeta de fotografías antiguas. Una caja roja de herramientas ocupaba casi todo el centro de una copia pequeña.",
+          "La caja descansaba sobre una mesa y, detrás, se veían estantes casi vacíos. No había personas. «Parece un día en que no vino nadie», comentó Noa. Rosa recordó que Elena, una vecina, había donado aquella caja al comenzar el servicio. Pero el recuerdo de la donación no le decía quién había tomado la foto ni en qué momento. La coordinadora dejó pendiente la frase que debía acompañarla.",
+          "En el borde derecho aparecía media silla, como si el resto se hubiera quedado fuera. Rosa llamó a Elena y le describió la caja y los estantes. La vecina reconoció la imagen y prometió pasar al día siguiente con su álbum. Noa guardó la copia dentro de un sobre para poder compararla.",
+          "Elena llegó con una fotografía más ancha. La caja tenía la misma raya en la tapa; la silla aparecía ahora entera. Era la imagen original de la que había recortado la copia pequeña. Ella la había tomado el primer sábado del servicio, diez minutos antes de abrir las puertas. Luego había enviado otra copia de ese recorte a su hermana, que había pintado la caja, para enseñarle cómo quedaba.",
+          "En la parte derecha de la imagen completa, tres vecinos estaban colocando objetos en una estantería. El encuadre de la copia pequeña había dejado fuera esa actividad. «Yo quería que se viera bien el rojo», explicó Elena. Noa acercó las dos fotos. El recorte servía para mirar la caja, pero su primera frase sobre un día sin visitantes ya no se sostenía: la foto se había hecho antes de recibir a nadie.",
+          "La imagen más ancha mostraba la preparación de aquella mañana. Tampoco contaba los usuarios que habían entrado después; para eso haría falta otra información. Rosa preguntó si la foto antigua explicaba bien el servicio actual. Noa miró los estantes reales, mucho más llenos, y propuso fotografiar algunos objetos que se prestaban entonces. Podían conservar el recuerdo del primer sábado en otro lugar, acompañado de una explicación sobre su origen.",
+          "Para el folleto, Rosa reunió varios objetos sobre el mostrador y tomó una foto nueva. El texto inferior diría: «Algunos objetos del servicio, reunidos para la fotografía». Así se presentaban ejemplos, sin hacer pasar aquella colocación por una escena espontánea. En otra frase del folleto invitarían a consultar las fechas de préstamo en el local.",
+          "Noa preparó un cartel para el rincón de recuerdos: «Primer sábado, antes de abrir. Foto de Elena». Colocó la copia antigua junto al álbum y buscó la caja real en el estante. Elena señaló la raya que Noa acababa de mirar en ambas fotos."
+        ],
+        "questions": [
+          {
+            "id": "l278-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué sabía Rosa antes de llamar a Elena?",
+            "answer": "Que Elena había donado la caja al comenzar el servicio.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Elena, una vecina, había donado aquella caja al comenzar el servicio"
+              }
+            ]
+          },
+          {
+            "id": "l278-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué sugiere la media silla del borde?",
+            "answer": "Que parte de la escena puede haber quedado fuera de la copia.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "media silla, como si el resto se hubiera quedado fuera"
+              }
+            ]
+          },
+          {
+            "id": "l278-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Con qué propósito había enviado Elena el recorte?",
+            "answer": "Para mostrar a su hermana la caja que esta había pintado.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "a su hermana, que había pintado la caja, para enseñarle cómo quedaba"
+              }
+            ]
+          },
+          {
+            "id": "l278-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿A qué se refiere «encuadre» en este relato?",
+            "answer": "A la selección de la parte de la escena que aparece en la imagen.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "El encuadre de la copia pequeña había dejado fuera esa actividad."
+              }
+            ]
+          },
+          {
+            "id": "l278-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué esta foto no permite concluir que aquel día no hubo visitantes?",
+            "answer": "Que la foto se tomó antes de abrir, de modo que no muestra lo ocurrido durante la atención al público.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "diez minutos antes de abrir las puertas"
+              }
+            ]
+          },
+          {
+            "id": "l278-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué revela la foto completa que el recorte ocultaba?",
+            "answer": "A tres vecinos colocando objetos antes de abrir.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "tres vecinos estaban colocando objetos en una estantería"
+              }
+            ]
+          },
+          {
+            "id": "l278-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué proponen otra imagen para el folleto actual?",
+            "answer": "Porque quieren presentar objetos que el servicio presta ahora.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "propuso fotografiar algunos objetos que se prestaban entonces"
+              }
+            ]
+          },
+          {
+            "id": "l278-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué aporta la frase «reunidos para la fotografía»?",
+            "answer": "Aclara que la colocación se preparó para presentar objetos.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "sin hacer pasar aquella colocación por una escena espontánea"
+              }
+            ]
+          },
+          {
+            "id": "l278-q9",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "¿Cuál es el cambio principal en la lectura que hace Noa de la foto?",
+            "answer": "Pasa de imaginar falta de visitantes a reconocer una preparación parcial vista antes de abrir.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Parece un día en que no vino nadie"
+              },
+              {
+                "paragraph": 6,
+                "text": "La imagen más ancha mostraba la preparación de aquella mañana."
+              }
+            ]
+          },
+          {
+            "id": "l278-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué dato pondrías junto a una foto antigua de tu entorno para ayudar a interpretarla? Explica por qué lo elegirías.",
+            "answer": "Respuesta abierta: autoría, fecha, situación o finalidad, con una explicación de cómo orientaría la lectura."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "encuadre",
+            "occurrence": 1,
+            "questionId": "l278-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l278-scene",
+            "src": "assets/readings/l278-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una caja roja de herramientas junto a un álbum abierto y una cámara apagada.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-autora-foto-ca",
+        "code": "L278",
+        "workId": "biblioteca-autora-foto",
+        "language": "ca",
+        "familyId": "familia-l278",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "history"
+        ],
+        "genre": "narrative",
+        "title": "Qui va fer aquesta foto?",
+        "summary": "Buscar l’autora d’una foto permet separar allò que mostra d’allò que semblava demostrar.",
+        "paragraphs": [
+          "La Noa preparava amb la Rosa un fullet de la biblioteca de les coses, el servei d’una associació veïnal que presta objectes d’ús ocasional. La Rosa era la coordinadora; la Noa, una estudiant que col·laborava algunes tardes. Havien obert una carpeta de fotografies antigues. Una caixa vermella d’eines ocupava gairebé tot el centre d’una còpia petita.",
+          "La caixa descansava sobre una taula i, al darrere, es veien prestatges gairebé buits. No hi havia persones. «Sembla un dia en què no va venir ningú», va comentar la Noa. La Rosa va recordar que l’Elena, una veïna, havia donat aquella caixa en començar el servei. Però el record de la donació no li deia qui havia fet la foto ni en quin moment. La coordinadora va deixar pendent la frase que l’havia d’acompanyar.",
+          "A la vora dreta apareixia mitja cadira, com si la resta hagués quedat fora. La Rosa va trucar a l’Elena i li va descriure la caixa i els prestatges. La veïna va reconèixer la imatge i va prometre passar l’endemà amb el seu àlbum. La Noa va guardar la còpia dins d’un sobre per poder comparar-la.",
+          "L’Elena va arribar amb una fotografia més ampla. La caixa tenia la mateixa ratlla a la tapa; la cadira apareixia ara sencera. Era la imatge original de la qual havia retallat la còpia petita. Ella l’havia feta el primer dissabte del servei, deu minuts abans d’obrir les portes. Després havia enviat una altra còpia d’aquell retall a la seva germana, que havia pintat la caixa, per ensenyar-li com quedava.",
+          "A la part dreta de la imatge completa, tres veïns col·locaven objectes en una prestatgeria. L’enquadrament de la còpia petita havia deixat fora aquella activitat. «Jo volia que es veiés bé el vermell», va explicar l’Elena. La Noa va acostar les dues fotos. El retall servia per mirar la caixa, però la seva primera frase sobre un dia sense visitants ja no se sostenia: la foto s’havia fet abans de rebre ningú.",
+          "La imatge més ampla mostrava la preparació d’aquell matí. Tampoc comptava els usuaris que havien entrat després; per a això caldria una altra informació. La Rosa va preguntar si la foto antiga explicava bé el servei actual. La Noa va mirar els prestatges reals, molt més plens, i va proposar fotografiar alguns objectes que es prestaven aleshores. Podien conservar el record del primer dissabte en un altre lloc, acompanyat d’una explicació sobre el seu origen.",
+          "Per al fullet, la Rosa va reunir diversos objectes sobre el taulell i va fer una foto nova. El text inferior diria: «Alguns objectes del servei, reunits per a la fotografia». Així es presentaven exemples, sense fer passar aquella col·locació per una escena espontània. En una altra frase del fullet convidarien a consultar les dates de préstec al local.",
+          "La Noa va preparar un cartell per al racó de records: «Primer dissabte, abans d’obrir. Foto de l’Elena». Va col·locar la còpia antiga al costat de l’àlbum i va buscar la caixa real al prestatge. L’Elena va assenyalar la ratlla que la Noa acabava de mirar a totes dues fotos."
+        ],
+        "questions": [
+          {
+            "id": "l278-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què sabia la Rosa abans de trucar a l’Elena?",
+            "answer": "Que l’Elena havia donat la caixa en començar el servei.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "l’Elena, una veïna, havia donat aquella caixa en començar el servei"
+              }
+            ]
+          },
+          {
+            "id": "l278-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què suggereix la mitja cadira de la vora?",
+            "answer": "Que una part de l’escena pot haver quedat fora de la còpia.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "mitja cadira, com si la resta hagués quedat fora"
+              }
+            ]
+          },
+          {
+            "id": "l278-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Amb quin propòsit havia enviat l’Elena el retall?",
+            "answer": "Per mostrar a la seva germana la caixa que aquesta havia pintat.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "a la seva germana, que havia pintat la caixa, per ensenyar-li com quedava"
+              }
+            ]
+          },
+          {
+            "id": "l278-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "A què es refereix «enquadrament» en aquest relat?",
+            "answer": "A la selecció de la part de l’escena que apareix en la imatge.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "L’enquadrament de la còpia petita havia deixat fora aquella activitat."
+              }
+            ]
+          },
+          {
+            "id": "l278-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què aquesta foto no permet concloure que aquell dia no hi va haver visitants?",
+            "answer": "Que la foto es va fer abans d’obrir, de manera que no mostra què va passar durant l’atenció al públic.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "deu minuts abans d’obrir les portes"
+              }
+            ]
+          },
+          {
+            "id": "l278-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què revela la foto completa que el retall amagava?",
+            "answer": "Tres veïns col·locant objectes abans d’obrir.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "tres veïns col·locaven objectes en una prestatgeria"
+              }
+            ]
+          },
+          {
+            "id": "l278-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què proposen una altra imatge per al fullet actual?",
+            "answer": "Perquè volen presentar objectes que el servei presta ara.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "va proposar fotografiar alguns objectes que es prestaven aleshores"
+              }
+            ]
+          },
+          {
+            "id": "l278-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Què aporta la frase «reunits per a la fotografia»?",
+            "answer": "Aclareix que la col·locació es va preparar per presentar objectes.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "sense fer passar aquella col·locació per una escena espontània"
+              }
+            ]
+          },
+          {
+            "id": "l278-q9",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "Quin és el canvi principal en la lectura que fa la Noa de la foto?",
+            "answer": "Passa d’imaginar manca de visitants a reconèixer una preparació parcial vista abans d’obrir.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Sembla un dia en què no va venir ningú"
+              },
+              {
+                "paragraph": 6,
+                "text": "La imatge més ampla mostrava la preparació d’aquell matí."
+              }
+            ]
+          },
+          {
+            "id": "l278-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quina dada posaries al costat d’una foto antiga del teu entorn per ajudar a interpretar-la? Explica per què la triaries.",
+            "answer": "Resposta oberta: autoria, data, situació o finalitat, amb una explicació de com orientaria la lectura."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "enquadrament",
+            "occurrence": 1,
+            "questionId": "l278-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l278-scene",
+            "src": "assets/readings/l278-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una caixa vermella d’eines al costat d’un àlbum obert i una càmera apagada.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-autora-foto-b-es",
+        "code": "L278B",
+        "workId": "biblioteca-autora-foto-b",
+        "language": "es",
+        "familyId": "familia-l278",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "advanced",
+        "themes": [
+          "community",
+          "arts",
+          "history"
+        ],
+        "genre": "narrative",
+        "title": "¿Quién hizo esta foto?",
+        "summary": "La investigación de una fotografía lleva a elegir imágenes según su intención, su contexto y sus límites.",
+        "paragraphs": [
+          "Noa encontró en una carpeta antigua una foto de una caja roja de herramientas sobre una mesa, con estantes casi vacíos al fondo. Era estudiante y colaboraba en la biblioteca de las cosas, un servicio vecinal de préstamo de objetos. Junto a Rosa, la coordinadora, buscaba una imagen para el folleto que presentaría el servicio actual.",
+          "«Da sensación de calma. Quizá aquel día no vino nadie», dijo Noa. Podía describir la mesa y los estantes, pero su comentario añadía una historia sobre lo ocurrido durante toda una jornada. Rosa reconoció la caja: Elena, una vecina, la había donado al comenzar el servicio. Todavía desconocían la autoría y la fecha de la imagen.",
+          "El dorso del papel estaba en blanco. En el borde derecho aparecía media silla, indicio de una escena cortada. Rosa llamó a Elena y le describió la copia. La vecina creyó reconocerla y prometió buscar el álbum para el día siguiente. Noa guardó el papel en un sobre y dejó pendiente la frase del folleto.",
+          "Elena llegó con una imagen más ancha. Coincidían la posición de la caja, una raya de la tapa y los pliegues del mantel. La silla, ahora entera, ocupaba el borde de la parte que faltaba en la copia pequeña. Era la fotografía original. Elena explicó que la había tomado ella el primer sábado del servicio, diez minutos antes de que se abrieran las puertas a los primeros visitantes.",
+          "Su hermana había pintado la caja antes de la donación. Para enseñarle el resultado, Elena había recortado una copia y había enviado otra copia de ese recorte a su hermana. «En la foto entera, el rojo se veía muy pequeño», recordó. El encuadre del recorte respondía a esa intención. Noa había encontrado años después aquella selección sin conocer su destinataria y la había leído como si pretendiera mostrar el funcionamiento de toda la biblioteca.",
+          "A la derecha de la fotografía completa, tres vecinos colocaban objetos en una estantería. Elena había disparado desde la puerta, cerca de la caja. La foto más ancha permitía ver a los vecinos, pero conservaba ese punto de vista. No mostraba lo que ocurría detrás de la fotógrafa ni lo que sucedería cuando empezaran los préstamos.",
+          "Noa retiró su frase sobre un día sin visitantes. La hora de la toma explicaba la ausencia de público; la imagen completa mostraba además que sí había preparación. Contar las personas que acudieron después requeriría otro testimonio o un registro. Aun así, la fotografía resultaba valiosa para recordar los comienzos. Rosa propuso ponerla en el rincón de recuerdos con la autora y el momento, en lugar de desecharla por ser antigua.",
+          "Para el folleto, eligieron preparar una imagen nueva con objetos que el servicio prestaba actualmente. Rosa reunió varios sobre el mostrador y los fotografió. Noa propuso explicar esa colocación con el texto «Algunos objetos del servicio, reunidos para la fotografía». La escena se había organizado para presentar ejemplos. Al reunirlos, también habían creado una selección: otros objetos del inventario quedaban fuera y algunos estaban entonces prestados en casas del barrio.",
+          "En otra frase del folleto invitarían a consultar las fechas de préstamo en el local. Ver un proyector en una foto preparada no permitía saber si estaría libre un sábado concreto. Esa información se encontraba en la agenda. La nueva imagen respondía a la pregunta de qué se podía encontrar en el servicio; las fechas de uso requerían una consulta distinta. Rosa revisó ambas frases antes de guardar la fotografía elegida.",
+          "El cartel para la foto antigua quedó así: «Primer sábado, antes de abrir. Foto de Elena». Noa dejó las dos versiones junto al álbum para compararlas. Elena buscó la caja verdadera y pasó un dedo por la raya de la tapa. Rosa acercó una silla a la mesa y la vecina se sentó a mirar otras páginas."
+        ],
+        "questions": [
+          {
+            "id": "l278b-q1",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué parte de la primera observación de Noa excedía lo visible?",
+            "answer": "Suponer que nadie había visitado el local durante todo aquel día.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "su comentario añadía una historia sobre lo ocurrido durante toda una jornada"
+              }
+            ]
+          },
+          {
+            "id": "l278b-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué podía identificar Rosa por su propio recuerdo?",
+            "answer": "La caja que Elena había donado al comenzar el servicio.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Rosa reconoció la caja: Elena, una vecina, la había donado"
+              }
+            ]
+          },
+          {
+            "id": "l278b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Para qué sirven las coincidencias de la caja y el mantel entre las imágenes?",
+            "answer": "Ayudan a reconocer la copia como un recorte de la imagen más ancha.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Coincidían la posición de la caja, una raya de la tapa y los pliegues del mantel."
+              }
+            ]
+          },
+          {
+            "id": "l278b-q4",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Quién era la destinataria inicial del recorte y qué quería mostrarle Elena?",
+            "answer": "Su hermana; quería enseñarle el resultado de pintar la caja.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Su hermana había pintado la caja"
+              },
+              {
+                "paragraph": 5,
+                "text": "Para enseñarle el resultado, Elena había recortado una copia"
+              }
+            ]
+          },
+          {
+            "id": "l278b-q5",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué expresa «encuadre» en este contexto?",
+            "answer": "La delimitación de lo que se incluye visualmente en la imagen.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "El encuadre del recorte respondía a esa intención."
+              }
+            ]
+          },
+          {
+            "id": "l278b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué la foto completa también tiene límites como testimonio?",
+            "answer": "Conserva un lugar y un momento de toma: no muestra lo que queda detrás ni lo posterior.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "No mostraba lo que ocurría detrás de la fotógrafa ni lo que sucedería cuando empezaran los préstamos."
+              }
+            ]
+          },
+          {
+            "id": "l278b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué información cambia la interpretación de la ausencia de público?",
+            "answer": "Que faltaban diez minutos para abrir las puertas.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "diez minutos antes de que se abrieran las puertas"
+              }
+            ]
+          },
+          {
+            "id": "l278b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué selección incorpora también la nueva fotografía?",
+            "answer": "Reúne algunos objetos actuales y deja fuera otros, incluidos algunos prestados.",
+            "evidence": [
+              {
+                "paragraph": 8,
+                "text": "otros objetos del inventario quedaban fuera y algunos estaban entonces prestados"
+              }
+            ]
+          },
+          {
+            "id": "l278b-q9",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Cómo se complementan la foto nueva y la invitación a consultar fechas?",
+            "answer": "La imagen presenta ejemplos de objetos; la consulta permite conocer su disponibilidad.",
+            "evidence": [
+              {
+                "paragraph": 9,
+                "text": "qué se podía encontrar en el servicio; las fechas de uso requerían una consulta distinta"
+              }
+            ]
+          },
+          {
+            "id": "l278b-q10",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué criterio explica el destino diferente de las dos fotografías?",
+            "answer": "Su adecuación a una finalidad: recordar los comienzos o presentar ejemplos actuales.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "valiosa para recordar los comienzos"
+              },
+              {
+                "paragraph": 8,
+                "text": "objetos que el servicio prestaba actualmente"
+              }
+            ]
+          },
+          {
+            "id": "l278b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resume cómo cambia la interpretación de Noa y qué aprende al escoger las imágenes.",
+            "answer": "Conocer la autora, el propósito del recorte y el momento cambia su lectura de la foto. Conservan la imagen antigua con contexto y eligen una nueva para presentar ejemplos actuales.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "respondía a esa intención"
+              },
+              {
+                "paragraph": 6,
+                "text": "conservaba ese punto de vista"
+              },
+              {
+                "paragraph": 7,
+                "text": "con la autora y el momento"
+              }
+            ]
+          },
+          {
+            "id": "l278b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Si solo pudieras añadir dos datos junto a la foto antigua, ¿cuáles elegirías y qué interpretación ayudarían a evitar?",
+            "answer": "Respuesta abierta: dos datos pertinentes, como autora, momento o finalidad del recorte, relacionados con una interpretación concreta."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "encuadre",
+            "occurrence": 1,
+            "questionId": "l278b-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l278-scene",
+            "src": "assets/readings/l278-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una caja roja de herramientas junto a un álbum abierto y una cámara apagada.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 7
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-autora-foto-b-ca",
+        "code": "L278B",
+        "workId": "biblioteca-autora-foto-b",
+        "language": "ca",
+        "familyId": "familia-l278",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "advanced",
+        "themes": [
+          "community",
+          "arts",
+          "history"
+        ],
+        "genre": "narrative",
+        "title": "Qui va fer aquesta foto?",
+        "summary": "La recerca sobre una fotografia porta a triar imatges segons la intenció, el context i els límits.",
+        "paragraphs": [
+          "La Noa va trobar en una carpeta antiga una foto d’una caixa vermella d’eines sobre una taula, amb prestatges gairebé buits al fons. Era estudiant i col·laborava a la biblioteca de les coses, un servei veïnal de préstec d’objectes. Amb la Rosa, la coordinadora, buscava una imatge per al fullet que presentaria el servei actual.",
+          "«Fa sensació de calma. Potser aquell dia no va venir ningú», va dir la Noa. Podia descriure la taula i els prestatges, però el seu comentari afegia una història sobre allò que havia passat durant tota una jornada. La Rosa va reconèixer la caixa: l’Elena, una veïna, l’havia donat en començar el servei. Encara desconeixien l’autoria i la data de la imatge.",
+          "El dors del paper era en blanc. A la vora dreta apareixia mitja cadira, indici d’una escena tallada. La Rosa va trucar a l’Elena i li va descriure la còpia. La veïna va creure reconèixer-la i va prometre buscar l’àlbum per a l’endemà. La Noa va guardar el paper en un sobre i va deixar pendent la frase del fullet.",
+          "L’Elena va arribar amb una imatge més ampla. Coincidien la posició de la caixa, una ratlla de la tapa i els plecs de les estovalles. La cadira, ara sencera, ocupava la vora de la part que faltava a la còpia petita. Era la fotografia original. L’Elena va explicar que l’havia feta ella el primer dissabte del servei, deu minuts abans que s’obrissin les portes als primers visitants.",
+          "La seva germana havia pintat la caixa abans de la donació. Per ensenyar-li el resultat, l’Elena havia retallat una còpia i havia enviat una altra còpia d’aquell retall a la seva germana. «A la foto sencera, el vermell es veia molt petit», va recordar. L’enquadrament del retall responia a aquella intenció. La Noa havia trobat anys després aquella selecció sense conèixer-ne la destinatària i l’havia llegida com si pretengués mostrar el funcionament de tota la biblioteca.",
+          "A la dreta de la fotografia completa, tres veïns col·locaven objectes en una prestatgeria. L’Elena havia disparat des de la porta, a prop de la caixa. La foto més ampla permetia veure els veïns, però conservava aquell punt de vista. No mostrava què passava darrere de la fotògrafa ni què succeiria quan comencessin els préstecs.",
+          "La Noa va retirar la seva frase sobre un dia sense visitants. L’hora de la presa explicava l’absència de públic; la imatge completa mostrava, a més, que sí que hi havia preparació. Comptar les persones que hi van anar després requeriria un altre testimoni o un registre. Tot i així, la fotografia resultava valuosa per recordar els inicis. La Rosa va proposar posar-la al racó de records amb l’autora i el moment, en lloc de descartar-la perquè era antiga.",
+          "Per al fullet, van triar preparar una imatge nova amb objectes que el servei prestava actualment. La Rosa en va reunir diversos sobre el taulell i els va fotografiar. La Noa va proposar explicar aquella col·locació amb el text «Alguns objectes del servei, reunits per a la fotografia». L’escena s’havia organitzat per presentar exemples. En reunir-los, també havien creat una selecció: altres objectes de l’inventari quedaven fora i alguns estaven aleshores prestats en cases del barri.",
+          "En una altra frase del fullet convidarien a consultar les dates de préstec al local. Veure un projector en una foto preparada no permetia saber si estaria lliure un dissabte concret. Aquella informació era a l’agenda. La nova imatge responia a la pregunta de què es podia trobar al servei; les dates d’ús requerien una consulta diferent. La Rosa va revisar totes dues frases abans de guardar la fotografia triada.",
+          "El cartell per a la foto antiga va quedar així: «Primer dissabte, abans d’obrir. Foto de l’Elena». La Noa va deixar les dues versions al costat de l’àlbum per comparar-les. L’Elena va buscar la caixa de debò i va passar un dit per la ratlla de la tapa. La Rosa va acostar una cadira a la taula i la veïna es va asseure a mirar altres pàgines."
+        ],
+        "questions": [
+          {
+            "id": "l278b-q1",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina part de la primera observació de la Noa anava més enllà del que es veia?",
+            "answer": "Suposar que ningú no havia visitat el local durant tot aquell dia.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "el seu comentari afegia una història sobre allò que havia passat durant tota una jornada"
+              }
+            ]
+          },
+          {
+            "id": "l278b-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què podia identificar la Rosa pel seu propi record?",
+            "answer": "La caixa que l’Elena havia donat en començar el servei.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La Rosa va reconèixer la caixa: l’Elena, una veïna, l’havia donat"
+              }
+            ]
+          },
+          {
+            "id": "l278b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per a què serveixen les coincidències de la caixa i les estovalles entre les imatges?",
+            "answer": "Ajuden a reconèixer la còpia com un retall de la imatge més ampla.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Coincidien la posició de la caixa, una ratlla de la tapa i els plecs de les estovalles."
+              }
+            ]
+          },
+          {
+            "id": "l278b-q4",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Qui era la destinatària inicial del retall i què li volia mostrar l’Elena?",
+            "answer": "La seva germana; li volia ensenyar el resultat de pintar la caixa.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "La seva germana havia pintat la caixa"
+              },
+              {
+                "paragraph": 5,
+                "text": "Per ensenyar-li el resultat, l’Elena havia retallat una còpia"
+              }
+            ]
+          },
+          {
+            "id": "l278b-q5",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què expressa «enquadrament» en aquest context?",
+            "answer": "La delimitació d’allò que s’inclou visualment en la imatge.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "L’enquadrament del retall responia a aquella intenció."
+              }
+            ]
+          },
+          {
+            "id": "l278b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la foto completa també té límits com a testimoni?",
+            "answer": "Conserva un lloc i un moment de presa: no mostra allò que queda darrere ni allò posterior.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "No mostrava què passava darrere de la fotògrafa ni què succeiria quan comencessin els préstecs."
+              }
+            ]
+          },
+          {
+            "id": "l278b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina informació canvia la interpretació de l’absència de públic?",
+            "answer": "Que faltaven deu minuts per obrir les portes.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "deu minuts abans que s’obrissin les portes"
+              }
+            ]
+          },
+          {
+            "id": "l278b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina selecció incorpora també la fotografia nova?",
+            "answer": "Reuneix alguns objectes actuals i en deixa fora altres, inclosos alguns de prestats.",
+            "evidence": [
+              {
+                "paragraph": 8,
+                "text": "altres objectes de l’inventari quedaven fora i alguns estaven aleshores prestats"
+              }
+            ]
+          },
+          {
+            "id": "l278b-q9",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Com es complementen la foto nova i la invitació a consultar dates?",
+            "answer": "La imatge presenta exemples d’objectes; la consulta permet conèixer-ne la disponibilitat.",
+            "evidence": [
+              {
+                "paragraph": 9,
+                "text": "què es podia trobar al servei; les dates d’ús requerien una consulta diferent"
+              }
+            ]
+          },
+          {
+            "id": "l278b-q10",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quin criteri explica la destinació diferent de les dues fotografies?",
+            "answer": "L’adequació a una finalitat: recordar els inicis o presentar exemples actuals.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "valuosa per recordar els inicis"
+              },
+              {
+                "paragraph": 8,
+                "text": "objectes que el servei prestava actualment"
+              }
+            ]
+          },
+          {
+            "id": "l278b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resumeix com canvia la interpretació de la Noa i què aprèn en triar les imatges.",
+            "answer": "Conèixer l’autora, el propòsit del retall i el moment canvia la lectura de la foto. Conserven la imatge antiga amb context i en trien una de nova per presentar exemples actuals.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "responia a aquella intenció"
+              },
+              {
+                "paragraph": 6,
+                "text": "conservava aquell punt de vista"
+              },
+              {
+                "paragraph": 7,
+                "text": "amb l’autora i el moment"
+              }
+            ]
+          },
+          {
+            "id": "l278b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Si només poguessis afegir dues dades al costat de la foto antiga, quines triaries i quina interpretació ajudarien a evitar?",
+            "answer": "Resposta oberta: dues dades pertinents, com autora, moment o finalitat del retall, relacionades amb una interpretació concreta."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "enquadrament",
+            "occurrence": 1,
+            "questionId": "l278b-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l278-scene",
+            "src": "assets/readings/l278-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una caixa vermella d’eines al costat d’un àlbum obert i una càmera apagada.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 7
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L278A",
+        "language": "es",
+        "questions": {
+          "l278a-q1": {
+            "prompt": "¿Para qué buscaban una fotografía al principio?",
+            "options": [
+              "Para enviarla a la hermana de Noa.",
+              "Para registrar una reparación de la caja.",
+              "Para presentarla en un álbum familiar.",
+              "Para incluirla en el folleto del servicio."
+            ],
+            "correct": "d",
+            "explanation": "Para el folleto de la biblioteca de las cosas."
+          },
+          "l278a-q2": {
+            "prompt": "¿En qué se basó la primera impresión de Noa?",
+            "options": [
+              "En un cartel que anunciaba el cierre.",
+              "En lo poco que mostraba la copia recortada.",
+              "En el recuerdo de la hermana de Elena.",
+              "En las fechas de préstamo de la caja."
+            ],
+            "correct": "b",
+            "explanation": "En la ausencia de personas y los estantes casi vacíos del recorte."
+          },
+          "l278a-q3": {
+            "prompt": "¿Quién tomó la fotografía antigua y cuándo?",
+            "options": [
+              "Elena, antes de abrir el primer sábado.",
+              "Rosa, después de cerrar el primer sábado.",
+              "Noa, al preparar el nuevo folleto.",
+              "Su hermana, antes de pintar la caja."
+            ],
+            "correct": "a",
+            "explanation": "Elena, diez minutos antes de abrir el primer sábado del servicio."
+          },
+          "l278a-q4": {
+            "prompt": "¿Qué significa «encuadre» en el texto?",
+            "options": [
+              "El momento elegido para abrir la sala.",
+              "La explicación escrita debajo de la foto.",
+              "La parte de la escena que se muestra.",
+              "El borde de madera que sostiene el papel."
+            ],
+            "correct": "c",
+            "explanation": "La parte de la escena incluida en la imagen."
+          },
+          "l278a-q5": {
+            "prompt": "¿Por qué Elena había recortado la copia?",
+            "options": [
+              "Quería mostrar una sala sin voluntarios.",
+              "Quería destacar la caja pintada por su hermana.",
+              "Quería anunciar cuántos usuarios habían entrado.",
+              "Quería ocultar una reparación pendiente."
+            ],
+            "correct": "b",
+            "explanation": "Para mostrar mejor a su hermana la caja que había pintado."
+          },
+          "l278a-q6": {
+            "prompt": "¿Qué permite saber la fotografía completa sobre los usuarios que entraron después?",
+            "options": [
+              "Que entraron exactamente tres usuarios.",
+              "Que nadie acudió durante aquella mañana.",
+              "Que acudieron quienes colocaban objetos.",
+              "Que su cantidad no aparece en esa escena."
+            ],
+            "correct": "d",
+            "explanation": "No permite contarlos, porque se tomó antes de abrir."
+          },
+          "l278a-q7": {
+            "prompt": "¿Qué resume mejor lo que descubre Noa?",
+            "options": [
+              "El contexto cambia la lectura de una foto.",
+              "Una foto antigua sirve para contar préstamos.",
+              "La caja ha desaparecido desde la apertura.",
+              "El folleto ya estaba hecho por la hermana."
+            ],
+            "correct": "a",
+            "explanation": "El recorte parecía mostrar un local sin actividad. La autora y la foto completa revelan que había vecinos preparándolo antes de abrir."
+          }
+        }
+      },
+      {
+        "code": "L278A",
+        "language": "ca",
+        "questions": {
+          "l278a-q1": {
+            "prompt": "Per a què buscaven una fotografia al principi?",
+            "options": [
+              "Per enviar-la a la germana de la Noa.",
+              "Per registrar una reparació de la caixa.",
+              "Per presentar-la en un àlbum familiar.",
+              "Per incloure-la al fullet del servei."
+            ],
+            "correct": "d",
+            "explanation": "Per al fullet de la biblioteca de les coses."
+          },
+          "l278a-q2": {
+            "prompt": "En què es va basar la primera impressió de la Noa?",
+            "options": [
+              "En un cartell que anunciava el tancament.",
+              "En el poc que mostrava la còpia retallada.",
+              "En el record de la germana de l’Elena.",
+              "En les dates de préstec de la caixa."
+            ],
+            "correct": "b",
+            "explanation": "En l’absència de persones i els prestatges gairebé buits del retall."
+          },
+          "l278a-q3": {
+            "prompt": "Qui va fer la fotografia antiga i quan?",
+            "options": [
+              "L’Elena, abans d’obrir el primer dissabte.",
+              "La Rosa, després de tancar el primer dissabte.",
+              "La Noa, en preparar el fullet nou.",
+              "La seva germana, abans de pintar la caixa."
+            ],
+            "correct": "a",
+            "explanation": "L’Elena, deu minuts abans d’obrir el primer dissabte del servei."
+          },
+          "l278a-q4": {
+            "prompt": "Què significa «enquadrament» al text?",
+            "options": [
+              "El moment triat per obrir la sala.",
+              "L’explicació escrita sota la foto.",
+              "La part de l’escena que es mostra.",
+              "La vora de fusta que sosté el paper."
+            ],
+            "correct": "c",
+            "explanation": "La part de l’escena inclosa en la imatge."
+          },
+          "l278a-q5": {
+            "prompt": "Per què l’Elena havia retallat la còpia?",
+            "options": [
+              "Volia mostrar una sala sense voluntaris.",
+              "Volia destacar la caixa pintada per la seva germana.",
+              "Volia anunciar quants usuaris havien entrat.",
+              "Volia amagar una reparació pendent."
+            ],
+            "correct": "b",
+            "explanation": "Per mostrar millor a la seva germana la caixa que havia pintat."
+          },
+          "l278a-q6": {
+            "prompt": "Què permet saber la fotografia completa sobre els usuaris que van entrar després?",
+            "options": [
+              "Que van entrar exactament tres usuaris.",
+              "Que ningú no hi va anar durant aquell matí.",
+              "Que hi van anar els qui col·locaven objectes.",
+              "Que la seva quantitat no apareix en aquella escena."
+            ],
+            "correct": "d",
+            "explanation": "No permet comptar-los, perquè es va fer abans d’obrir."
+          },
+          "l278a-q7": {
+            "prompt": "Què resumeix millor allò que descobreix la Noa?",
+            "options": [
+              "El context canvia la lectura d’una foto.",
+              "Una foto antiga serveix per comptar préstecs.",
+              "La caixa ha desaparegut des de l’obertura.",
+              "El fullet ja estava fet per la germana."
+            ],
+            "correct": "a",
+            "explanation": "El retall semblava mostrar un local sense activitat. L’autora i la foto completa revelen que hi havia veïns preparant-lo abans d’obrir."
+          }
+        }
+      },
+      {
+        "code": "L278",
+        "language": "es",
+        "questions": {
+          "l278-q1": {
+            "prompt": "¿Qué sabía Rosa antes de llamar a Elena?",
+            "options": [
+              "Que Elena había pintado personalmente la caja.",
+              "Que la foto se tomó después del cierre.",
+              "Que Elena había donado la caja al servicio.",
+              "Que habían entrado tres usuarios aquel día."
+            ],
+            "correct": "c",
+            "explanation": "Que Elena había donado la caja al comenzar el servicio."
+          },
+          "l278-q2": {
+            "prompt": "¿Qué sugiere la media silla del borde?",
+            "options": [
+              "Que la copia quizá no muestra toda la escena.",
+              "Que la imagen se tomó antes de colocar los muebles.",
+              "Que la copia procede de una fotografía de otra sala.",
+              "Que apartaron la silla para dejar pasar al público."
+            ],
+            "correct": "a",
+            "explanation": "Que parte de la escena puede haber quedado fuera de la copia."
+          },
+          "l278-q3": {
+            "prompt": "¿Con qué propósito había enviado Elena el recorte?",
+            "options": [
+              "Para anunciar el horario del primer sábado.",
+              "Para contar los asistentes a la apertura.",
+              "Para demostrar que no había voluntarios.",
+              "Para enseñar el resultado de la pintura."
+            ],
+            "correct": "d",
+            "explanation": "Para mostrar a su hermana la caja que esta había pintado."
+          },
+          "l278-q4": {
+            "prompt": "¿A qué se refiere «encuadre» en este relato?",
+            "options": [
+              "Al orden en que se colocan las fotos del álbum.",
+              "A la parte de la escena incluida en la foto.",
+              "Al nombre que firma debajo de cada imagen.",
+              "A la explicación de la fecha de apertura."
+            ],
+            "correct": "b",
+            "explanation": "A la selección de la parte de la escena que aparece en la imagen."
+          },
+          "l278-q5": {
+            "prompt": "¿Por qué esta foto no permite concluir que aquel día no hubo visitantes?",
+            "options": [
+              "La raya de la caja, visible en ambas fotos.",
+              "La cantidad actual de objetos del servicio.",
+              "El momento anterior a la apertura al público.",
+              "El tamaño del cartel del rincón de recuerdos."
+            ],
+            "correct": "c",
+            "explanation": "Que la foto se tomó antes de abrir, de modo que no muestra lo ocurrido durante la atención al público."
+          },
+          "l278-q6": {
+            "prompt": "¿Qué revela la foto completa que el recorte ocultaba?",
+            "options": [
+              "La preparación que se hacía en otra parte de la sala.",
+              "El número de préstamos realizados durante la mañana.",
+              "La identidad de todos los visitantes de aquel sábado.",
+              "La disponibilidad actual de la caja de herramientas."
+            ],
+            "correct": "a",
+            "explanation": "A tres vecinos colocando objetos antes de abrir."
+          },
+          "l278-q7": {
+            "prompt": "¿Por qué proponen otra imagen para el folleto actual?",
+            "options": [
+              "Porque una imagen antigua nunca aporta información.",
+              "Porque desconocen a la autora de la foto antigua.",
+              "Porque han decidido retirar la caja del servicio.",
+              "Porque quieren mostrar ejemplos del servicio actual."
+            ],
+            "correct": "d",
+            "explanation": "Porque quieren presentar objetos que el servicio presta ahora."
+          },
+          "l278-q8": {
+            "prompt": "¿Qué aporta la frase «reunidos para la fotografía»?",
+            "options": [
+              "Asegura que estarán libres cualquier día.",
+              "Explica cómo se preparó la escena mostrada.",
+              "Identifica a quien pintó la caja antigua.",
+              "Cuenta los préstamos de cada objeto reunido."
+            ],
+            "correct": "b",
+            "explanation": "Aclara que la colocación se preparó para presentar objetos."
+          },
+          "l278-q9": {
+            "prompt": "¿Cuál es el cambio principal en la lectura que hace Noa de la foto?",
+            "options": [
+              "De contar herramientas a contar usuarios actuales.",
+              "De creer a Elena a desconfiar de su álbum.",
+              "De suponer inactividad a comprender el contexto.",
+              "De ignorar la caja a anunciar su reparación."
+            ],
+            "correct": "c",
+            "explanation": "Pasa de imaginar falta de visitantes a reconocer una preparación parcial vista antes de abrir."
+          }
+        }
+      },
+      {
+        "code": "L278",
+        "language": "ca",
+        "questions": {
+          "l278-q1": {
+            "prompt": "Què sabia la Rosa abans de trucar a l’Elena?",
+            "options": [
+              "Que l’Elena havia pintat personalment la caixa.",
+              "Que la foto es va fer després del tancament.",
+              "Que l’Elena havia donat la caixa al servei.",
+              "Que havien entrat tres usuaris aquell dia."
+            ],
+            "correct": "c",
+            "explanation": "Que l’Elena havia donat la caixa en començar el servei."
+          },
+          "l278-q2": {
+            "prompt": "Què suggereix la mitja cadira de la vora?",
+            "options": [
+              "Que la còpia potser no mostra tota l’escena.",
+              "Que la imatge es va fer abans de col·locar els mobles.",
+              "Que la còpia prové d’una fotografia d’una altra sala.",
+              "Que van apartar la cadira per deixar passar el públic."
+            ],
+            "correct": "a",
+            "explanation": "Que una part de l’escena pot haver quedat fora de la còpia."
+          },
+          "l278-q3": {
+            "prompt": "Amb quin propòsit havia enviat l’Elena el retall?",
+            "options": [
+              "Per anunciar l’horari del primer dissabte.",
+              "Per comptar els assistents a l’obertura.",
+              "Per demostrar que no hi havia voluntaris.",
+              "Per ensenyar el resultat de la pintura."
+            ],
+            "correct": "d",
+            "explanation": "Per mostrar a la seva germana la caixa que aquesta havia pintat."
+          },
+          "l278-q4": {
+            "prompt": "A què es refereix «enquadrament» en aquest relat?",
+            "options": [
+              "A l’ordre en què es col·loquen les fotos de l’àlbum.",
+              "A la part de l’escena inclosa en la foto.",
+              "Al nom que signa sota de cada imatge.",
+              "A l’explicació de la data d’obertura."
+            ],
+            "correct": "b",
+            "explanation": "A la selecció de la part de l’escena que apareix en la imatge."
+          },
+          "l278-q5": {
+            "prompt": "Per què aquesta foto no permet concloure que aquell dia no hi va haver visitants?",
+            "options": [
+              "La ratlla de la caixa, visible a totes dues fotos.",
+              "La quantitat actual d’objectes del servei.",
+              "El moment anterior a l’obertura al públic.",
+              "La mida del cartell del racó de records."
+            ],
+            "correct": "c",
+            "explanation": "Que la foto es va fer abans d’obrir, de manera que no mostra què va passar durant l’atenció al públic."
+          },
+          "l278-q6": {
+            "prompt": "Què revela la foto completa que el retall amagava?",
+            "options": [
+              "La preparació que es feia en una altra part de la sala.",
+              "El nombre de préstecs fets durant el matí.",
+              "La identitat de tots els visitants d’aquell dissabte.",
+              "La disponibilitat actual de la caixa d’eines."
+            ],
+            "correct": "a",
+            "explanation": "Tres veïns col·locant objectes abans d’obrir."
+          },
+          "l278-q7": {
+            "prompt": "Per què proposen una altra imatge per al fullet actual?",
+            "options": [
+              "Perquè una imatge antiga mai no aporta informació.",
+              "Perquè desconeixen l’autora de la foto antiga.",
+              "Perquè han decidit retirar la caixa del servei.",
+              "Perquè volen mostrar exemples del servei actual."
+            ],
+            "correct": "d",
+            "explanation": "Perquè volen presentar objectes que el servei presta ara."
+          },
+          "l278-q8": {
+            "prompt": "Què aporta la frase «reunits per a la fotografia»?",
+            "options": [
+              "Assegura que estaran lliures qualsevol dia.",
+              "Explica com es va preparar l’escena mostrada.",
+              "Identifica qui va pintar la caixa antiga.",
+              "Compta els préstecs de cada objecte reunit."
+            ],
+            "correct": "b",
+            "explanation": "Aclareix que la col·locació es va preparar per presentar objectes."
+          },
+          "l278-q9": {
+            "prompt": "Quin és el canvi principal en la lectura que fa la Noa de la foto?",
+            "options": [
+              "De comptar eines a comptar usuaris actuals.",
+              "De creure l’Elena a desconfiar del seu àlbum.",
+              "De suposar inactivitat a comprendre el context.",
+              "D’ignorar la caixa a anunciar-ne la reparació."
+            ],
+            "correct": "c",
+            "explanation": "Passa d’imaginar manca de visitants a reconèixer una preparació parcial vista abans d’obrir."
+          }
+        }
+      },
+      {
+        "code": "L278B",
+        "language": "es",
+        "questions": {
+          "l278b-q1": {
+            "prompt": "¿Qué parte de la primera observación de Noa excedía lo visible?",
+            "options": [
+              "Que la caja aparecía cerca del centro.",
+              "Que detrás se veían estantes casi vacíos.",
+              "Que la copia no mostraba personas.",
+              "Que no había habido visitas aquel día."
+            ],
+            "correct": "d",
+            "explanation": "Suponer que nadie había visitado el local durante todo aquel día."
+          },
+          "l278b-q2": {
+            "prompt": "¿Qué podía identificar Rosa por su propio recuerdo?",
+            "options": [
+              "La autora, la hora y el día de la foto.",
+              "La caja y su relación con una donación.",
+              "La cantidad de visitas de aquella mañana.",
+              "La intención con que se recortó la copia."
+            ],
+            "correct": "b",
+            "explanation": "La caja que Elena había donado al comenzar el servicio."
+          },
+          "l278b-q3": {
+            "prompt": "¿Para qué sirven las coincidencias de la caja y el mantel entre las imágenes?",
+            "options": [
+              "Relacionan el recorte con la fotografía original.",
+              "Permiten calcular la duración de la apertura.",
+              "Identifican a quienes acudieron después al local.",
+              "Demuestran quién había pintado los estantes."
+            ],
+            "correct": "a",
+            "explanation": "Ayudan a reconocer la copia como un recorte de la imagen más ancha."
+          },
+          "l278b-q4": {
+            "prompt": "¿Quién era la destinataria inicial del recorte y qué quería mostrarle Elena?",
+            "options": [
+              "Rosa; la cantidad de préstamos del sábado.",
+              "Noa; el aspecto actual de los estantes.",
+              "Su hermana; el resultado de la pintura.",
+              "Los visitantes; el horario del servicio."
+            ],
+            "correct": "c",
+            "explanation": "Su hermana; quería enseñarle el resultado de pintar la caja."
+          },
+          "l278b-q5": {
+            "prompt": "¿Qué expresa «encuadre» en este contexto?",
+            "options": [
+              "La firma que identifica a quien toma la foto.",
+              "El tiempo transcurrido desde la donación.",
+              "El orden de las fotografías dentro del álbum.",
+              "La selección de la porción visible de la escena."
+            ],
+            "correct": "d",
+            "explanation": "La delimitación de lo que se incluye visualmente en la imagen."
+          },
+          "l278b-q6": {
+            "prompt": "¿Por qué la foto completa también tiene límites como testimonio?",
+            "options": [
+              "Porque sigue seleccionando un espacio y un instante.",
+              "Porque la copia pequeña conserva más información.",
+              "Porque la autora desconoce cuándo la había tomado.",
+              "Porque los vecinos del fondo llegaron otro día."
+            ],
+            "correct": "a",
+            "explanation": "Conserva un lugar y un momento de toma: no muestra lo que queda detrás ni lo posterior."
+          },
+          "l278b-q7": {
+            "prompt": "¿Qué información cambia la interpretación de la ausencia de público?",
+            "options": [
+              "Que la caja se pintó antes de donarla.",
+              "Que la imagen se tomó antes de abrir.",
+              "Que Elena conservaba un álbum más ancho.",
+              "Que el asa de la caja había perdido brillo."
+            ],
+            "correct": "b",
+            "explanation": "Que faltaban diez minutos para abrir las puertas."
+          },
+          "l278b-q8": {
+            "prompt": "¿Qué selección incorpora también la nueva fotografía?",
+            "options": [
+              "La lista completa de objetos y sus fechas libres.",
+              "Las personas que fotografiaban el primer sábado.",
+              "Una muestra preparada de los objetos del servicio.",
+              "Los objetos que habían rechazado como donación."
+            ],
+            "correct": "c",
+            "explanation": "Reúne algunos objetos actuales y deja fuera otros, incluidos algunos prestados."
+          },
+          "l278b-q9": {
+            "prompt": "¿Cómo se complementan la foto nueva y la invitación a consultar fechas?",
+            "options": [
+              "La foto presenta objetos; la consulta reconstruye cómo empezó el servicio.",
+              "La foto muestra algunos objetos; la consulta ayuda a identificar a la autora antigua.",
+              "La consulta corrige errores del álbum antiguo y la foto confirma las correcciones.",
+              "La foto presenta ejemplos del servicio; la consulta aclara cuándo se pueden usar."
+            ],
+            "correct": "d",
+            "explanation": "La imagen presenta ejemplos de objetos; la consulta permite conocer su disponibilidad."
+          },
+          "l278b-q10": {
+            "prompt": "¿Qué criterio explica el destino diferente de las dos fotografías?",
+            "options": [
+              "La nueva siempre dice más por ser reciente.",
+              "Cada una sirve mejor a una finalidad concreta.",
+              "La antigua carece de autora y de contexto.",
+              "La recortada permite contar todos los usuarios."
+            ],
+            "correct": "b",
+            "explanation": "Su adecuación a una finalidad: recordar los comienzos o presentar ejemplos actuales."
+          },
+          "l278b-q11": {
+            "prompt": "¿Qué conclusión recoge mejor el recorrido de Noa?",
+            "options": [
+              "La autoría y el contexto orientan el uso de una imagen.",
+              "La foto completa corrige el recorte y permite contar las visitas posteriores.",
+              "El recorte selecciona la escena para anunciar cómo funcionaba el servicio.",
+              "La foto actual evita seleccionar y muestra los objetos sin preparación."
+            ],
+            "correct": "a",
+            "explanation": "Conocer la autora, el propósito del recorte y el momento cambia su lectura de la foto. Conservan la imagen antigua con contexto y eligen una nueva para presentar ejemplos actuales."
+          }
+        }
+      },
+      {
+        "code": "L278B",
+        "language": "ca",
+        "questions": {
+          "l278b-q1": {
+            "prompt": "Quina part de la primera observació de la Noa anava més enllà del que es veia?",
+            "options": [
+              "Que la caixa apareixia a prop del centre.",
+              "Que al darrere es veien prestatges gairebé buits.",
+              "Que la còpia no mostrava persones.",
+              "Que no hi havia hagut visites aquell dia."
+            ],
+            "correct": "d",
+            "explanation": "Suposar que ningú no havia visitat el local durant tot aquell dia."
+          },
+          "l278b-q2": {
+            "prompt": "Què podia identificar la Rosa pel seu propi record?",
+            "options": [
+              "L’autora, l’hora i el dia de la foto.",
+              "La caixa i la seva relació amb una donació.",
+              "La quantitat de visites d’aquell matí.",
+              "La intenció amb què es va retallar la còpia."
+            ],
+            "correct": "b",
+            "explanation": "La caixa que l’Elena havia donat en començar el servei."
+          },
+          "l278b-q3": {
+            "prompt": "Per a què serveixen les coincidències de la caixa i les estovalles entre les imatges?",
+            "options": [
+              "Relacionen el retall amb la fotografia original.",
+              "Permeten calcular la durada de l’obertura.",
+              "Identifiquen els qui van anar després al local.",
+              "Demostren qui havia pintat els prestatges."
+            ],
+            "correct": "a",
+            "explanation": "Ajuden a reconèixer la còpia com un retall de la imatge més ampla."
+          },
+          "l278b-q4": {
+            "prompt": "Qui era la destinatària inicial del retall i què li volia mostrar l’Elena?",
+            "options": [
+              "La Rosa; la quantitat de préstecs del dissabte.",
+              "La Noa; l’aspecte actual dels prestatges.",
+              "La seva germana; el resultat de la pintura.",
+              "Els visitants; l’horari del servei."
+            ],
+            "correct": "c",
+            "explanation": "La seva germana; li volia ensenyar el resultat de pintar la caixa."
+          },
+          "l278b-q5": {
+            "prompt": "Què expressa «enquadrament» en aquest context?",
+            "options": [
+              "La signatura que identifica qui fa la foto.",
+              "El temps transcorregut des de la donació.",
+              "L’ordre de les fotografies dins de l’àlbum.",
+              "La selecció de la porció visible de l’escena."
+            ],
+            "correct": "d",
+            "explanation": "La delimitació d’allò que s’inclou visualment en la imatge."
+          },
+          "l278b-q6": {
+            "prompt": "Per què la foto completa també té límits com a testimoni?",
+            "options": [
+              "Perquè continua seleccionant un espai i un instant.",
+              "Perquè la còpia petita conserva més informació.",
+              "Perquè l’autora desconeix quan l’havia feta.",
+              "Perquè els veïns del fons van arribar un altre dia."
+            ],
+            "correct": "a",
+            "explanation": "Conserva un lloc i un moment de presa: no mostra allò que queda darrere ni allò posterior."
+          },
+          "l278b-q7": {
+            "prompt": "Quina informació canvia la interpretació de l’absència de públic?",
+            "options": [
+              "Que la caixa es va pintar abans de donar-la.",
+              "Que la imatge es va fer abans d’obrir.",
+              "Que l’Elena conservava un àlbum més ample.",
+              "Que la nansa de la caixa havia perdut lluentor."
+            ],
+            "correct": "b",
+            "explanation": "Que faltaven deu minuts per obrir les portes."
+          },
+          "l278b-q8": {
+            "prompt": "Quina selecció incorpora també la fotografia nova?",
+            "options": [
+              "La llista completa d’objectes i les dates lliures.",
+              "Les persones que fotografiaven el primer dissabte.",
+              "Una mostra preparada dels objectes del servei.",
+              "Els objectes que havien rebutjat com a donació."
+            ],
+            "correct": "c",
+            "explanation": "Reuneix alguns objectes actuals i en deixa fora altres, inclosos alguns de prestats."
+          },
+          "l278b-q9": {
+            "prompt": "Com es complementen la foto nova i la invitació a consultar dates?",
+            "options": [
+              "La foto presenta objectes; la consulta reconstrueix com va començar el servei.",
+              "La foto mostra alguns objectes; la consulta ajuda a identificar l’autora antiga.",
+              "La consulta corregeix errors de l’àlbum antic i la foto confirma les correccions.",
+              "La foto presenta exemples del servei; la consulta aclareix quan es poden fer servir."
+            ],
+            "correct": "d",
+            "explanation": "La imatge presenta exemples d’objectes; la consulta permet conèixer-ne la disponibilitat."
+          },
+          "l278b-q10": {
+            "prompt": "Quin criteri explica la destinació diferent de les dues fotografies?",
+            "options": [
+              "La nova sempre diu més perquè és recent.",
+              "Cadascuna serveix millor a una finalitat concreta.",
+              "L’antiga no té autora ni context.",
+              "La retallada permet comptar tots els usuaris."
+            ],
+            "correct": "b",
+            "explanation": "L’adequació a una finalitat: recordar els inicis o presentar exemples actuals."
+          },
+          "l278b-q11": {
+            "prompt": "Quina conclusió recull millor el recorregut de la Noa?",
+            "options": [
+              "L’autoria i el context orienten l’ús d’una imatge.",
+              "La foto completa corregeix el retall i permet comptar les visites posteriors.",
+              "El retall selecciona l’escena per anunciar com funcionava el servei.",
+              "La foto actual evita seleccionar i mostra els objectes sense preparació."
+            ],
+            "correct": "a",
+            "explanation": "Conèixer l’autora, el propòsit del retall i el moment canvia la lectura de la foto. Conserven la imatge antiga amb context i en trien una de nova per presentar exemples actuals."
+          }
+        }
+      }
+    ]
   }
 ];
