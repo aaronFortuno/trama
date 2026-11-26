@@ -1,9 +1,9 @@
 {
   "date": "2026-11-26",
-  "totalWorks": 585,
-  "coveredWorks": 585,
+  "totalWorks": 588,
+  "coveredWorks": 588,
   "pendingWorks": 0,
-  "localizedAlternatives": 5786,
+  "localizedAlternatives": 5834,
   "ranges": [
     {
       "start": 1,
@@ -427,9 +427,9 @@
     },
     {
       "start": 301,
-      "end": 301,
-      "total": 3,
-      "covered": 3,
+      "end": 302,
+      "total": 6,
+      "covered": 6,
       "status": "complete"
     }
   ],
@@ -35857,6 +35857,261 @@
             },
             {
               "id": "l301b-q10",
+              "number": 10
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L302",
+      "baseCode": "L302",
+      "variant": false,
+      "level": "5-primary",
+      "difficulty": "intermediate",
+      "title": "Del retall a l’estoig",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l302-q1",
+              "number": 1
+            },
+            {
+              "id": "l302-q2",
+              "number": 2
+            },
+            {
+              "id": "l302-q3",
+              "number": 3
+            },
+            {
+              "id": "l302-q4",
+              "number": 4
+            },
+            {
+              "id": "l302-q5",
+              "number": 5
+            },
+            {
+              "id": "l302-q6",
+              "number": 6
+            },
+            {
+              "id": "l302-q7",
+              "number": 7
+            },
+            {
+              "id": "l302-q8",
+              "number": 8
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l302-q1",
+              "number": 1
+            },
+            {
+              "id": "l302-q2",
+              "number": 2
+            },
+            {
+              "id": "l302-q3",
+              "number": 3
+            },
+            {
+              "id": "l302-q4",
+              "number": 4
+            },
+            {
+              "id": "l302-q5",
+              "number": 5
+            },
+            {
+              "id": "l302-q6",
+              "number": 6
+            },
+            {
+              "id": "l302-q7",
+              "number": 7
+            },
+            {
+              "id": "l302-q8",
+              "number": 8
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L302A",
+      "baseCode": "L302",
+      "variant": true,
+      "level": "4-primary",
+      "difficulty": "intermediate",
+      "title": "Del retall a l’estoig",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l302a-q1",
+              "number": 1
+            },
+            {
+              "id": "l302a-q2",
+              "number": 2
+            },
+            {
+              "id": "l302a-q3",
+              "number": 3
+            },
+            {
+              "id": "l302a-q4",
+              "number": 4
+            },
+            {
+              "id": "l302a-q5",
+              "number": 5
+            },
+            {
+              "id": "l302a-q6",
+              "number": 6
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l302a-q1",
+              "number": 1
+            },
+            {
+              "id": "l302a-q2",
+              "number": 2
+            },
+            {
+              "id": "l302a-q3",
+              "number": 3
+            },
+            {
+              "id": "l302a-q4",
+              "number": 4
+            },
+            {
+              "id": "l302a-q5",
+              "number": 5
+            },
+            {
+              "id": "l302a-q6",
+              "number": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L302B",
+      "baseCode": "L302",
+      "variant": true,
+      "level": "6-primary",
+      "difficulty": "intermediate",
+      "title": "Del retall a l’estoig",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l302b-q1",
+              "number": 1
+            },
+            {
+              "id": "l302b-q2",
+              "number": 2
+            },
+            {
+              "id": "l302b-q3",
+              "number": 3
+            },
+            {
+              "id": "l302b-q4",
+              "number": 4
+            },
+            {
+              "id": "l302b-q5",
+              "number": 5
+            },
+            {
+              "id": "l302b-q6",
+              "number": 6
+            },
+            {
+              "id": "l302b-q7",
+              "number": 7
+            },
+            {
+              "id": "l302b-q8",
+              "number": 8
+            },
+            {
+              "id": "l302b-q9",
+              "number": 9
+            },
+            {
+              "id": "l302b-q10",
+              "number": 10
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l302b-q1",
+              "number": 1
+            },
+            {
+              "id": "l302b-q2",
+              "number": 2
+            },
+            {
+              "id": "l302b-q3",
+              "number": 3
+            },
+            {
+              "id": "l302b-q4",
+              "number": 4
+            },
+            {
+              "id": "l302b-q5",
+              "number": 5
+            },
+            {
+              "id": "l302b-q6",
+              "number": 6
+            },
+            {
+              "id": "l302b-q7",
+              "number": 7
+            },
+            {
+              "id": "l302b-q8",
+              "number": 8
+            },
+            {
+              "id": "l302b-q9",
+              "number": 9
+            },
+            {
+              "id": "l302b-q10",
               "number": 10
             }
           ]

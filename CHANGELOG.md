@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.62.4 · 26 de novembre del 2026
+
+L302: Del retall a l’estoig. Nova família de l’univers El taller de la plaça, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 11 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.62.3 · 26 de novembre del 2026
 
 L301: La reparació que va esperar fins dijous. Nova família de l’univers El taller de la plaça, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 10 històries independents. Contingut provisional, pendent de validació docent.

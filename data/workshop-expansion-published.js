@@ -7465,5 +7465,1778 @@ export const workshopPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L302",
+    "edition": "v1.62.4",
+    "family": {
+      "id": "familia-l302",
+      "code": "L302",
+      "name": {
+        "es": "Del retal al estuche",
+        "ca": "Del retall a l’estoig"
+      },
+      "description": {
+        "ca": "Una història del Taller de la plaça, amb suport, versió de referència i ampliació.",
+        "es": "Una historia del Taller de la plaza, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L302A",
+        "L302",
+        "L302B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "del-retal-al-estuche-a-es",
+        "code": "L302A",
+        "workId": "del-retal-al-estuche-a",
+        "language": "es",
+        "familyId": "familia-l302",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "environment",
+          "arts",
+          "everyday"
+        ],
+        "genre": "instructional",
+        "title": "Del retal al estuche",
+        "summary": "Asha lleva un retal al taller y prepara con Hugo el modelo de un estuche.",
+        "paragraphs": [
+          "Asha llevó al taller de Irene un retal verde. Había sobrado al acortar una cortina de su casa. La tela estaba limpia y era bastante gruesa. Quería un estuche para seis lápices y un sacapuntas. Hugo, que había ido a buscarla, se quedó a ayudar. Irene les dio papel y les propuso preparar primero un modelo.",
+          "1. Dibuja el espacio. Asha dibujó un rectángulo siguiendo su regla corta. Hugo puso encima el lápiz más largo. Sobresalía del dibujo. Asha alargó el rectángulo hasta que cabían los seis lápices y el sacapuntas, uno al lado de los otros.",
+          "2. Prueba el modelo. Con otra hoja, hicieron un sobre de papel del tamaño del dibujo. Tenía una solapa para cerrarlo. Metieron los objetos y comprobaron que podían sacar el lápiz más largo sin romper el papel.",
+          "3. Pasa a la tela. Irene usó el modelo para preparar la pieza de tela. Dejó espacio para las costuras, cortó y cosió. Añadió una cinta para sujetar la solapa. Asha guardó sus seis lápices y el sacapuntas en el estuche terminado. Hugo le pidió el modelo: quería dibujar cómo había cambiado."
+        ],
+        "questions": [
+          {
+            "id": "l302a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿De dónde había salido el retal?",
+            "answer": "De una cortina de casa de Asha que habían acortado.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Había sobrado al acortar una cortina de su casa."
+              }
+            ]
+          },
+          {
+            "id": "l302a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué objeto sobresalía del primer dibujo?",
+            "answer": "El lápiz más largo.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Hugo puso encima el lápiz más largo. Sobresalía del dibujo."
+              }
+            ]
+          },
+          {
+            "id": "l302a-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cómo corrigió Asha el dibujo?",
+            "answer": "Alargó el rectángulo hasta que cabían los objetos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Asha alargó el rectángulo"
+              }
+            ]
+          },
+          {
+            "id": "l302a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué es la «solapa» del modelo?",
+            "answer": "La parte que se dobla para tapar y cerrar el sobre.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Tenía una solapa para cerrarlo."
+              }
+            ]
+          },
+          {
+            "id": "l302a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Para qué probaron un modelo de papel antes de cortar la tela?",
+            "answer": "Para comprobar y corregir el tamaño antes de usar el retal.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Asha alargó el rectángulo"
+              },
+              {
+                "paragraph": 3,
+                "text": "comprobaron que podían sacar el lápiz más largo"
+              }
+            ]
+          },
+          {
+            "id": "l302a-q6",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Quién cortó y cosió la tela?",
+            "answer": "Irene.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Irene usó el modelo para preparar la pieza de tela. Dejó espacio para las costuras, cortó y cosió."
+              }
+            ]
+          },
+          {
+            "id": "l302a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Explica el camino del retal hasta convertirse en un estuche.",
+            "answer": "Asha lleva el retal; ella y Hugo dibujan y prueban el modelo; Irene prepara, corta y cose la tela; Asha guarda los objetos.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "hicieron un sobre de papel del tamaño del dibujo"
+              },
+              {
+                "paragraph": 4,
+                "text": "cortó y cosió"
+              }
+            ]
+          },
+          {
+            "id": "l302a-q8",
+            "type": "opinion",
+            "lines": 2,
+            "prompt": "¿Qué objetos guardarías en tu estuche? Explica qué necesitarías comprobar.",
+            "answer": "Respuesta personal con objetos concretos y una comprobación de cabida o de uso."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "solapa",
+            "occurrence": 1,
+            "questionId": "l302a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l302-scene",
+            "src": "assets/readings/l302-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene muestra el estuche verde terminado mientras Asha prueba el modelo de papel y Hugo observa.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "del-retal-al-estuche-a-ca",
+        "code": "L302A",
+        "workId": "del-retal-al-estuche-a",
+        "language": "ca",
+        "familyId": "familia-l302",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "environment",
+          "arts",
+          "everyday"
+        ],
+        "genre": "instructional",
+        "title": "Del retall a l’estoig",
+        "summary": "L’Asha porta un retall al taller i prepara amb l’Hugo el model d’un estoig.",
+        "paragraphs": [
+          "L’Asha va portar al taller de la Irene un retall verd. Havia sobrat en escurçar una cortina de casa seva. La tela estava neta i era força gruixuda. Volia un estoig per a sis llapis i una maquineta. L’Hugo, que l’havia anat a buscar, es va quedar a ajudar. La Irene els va donar paper i els va proposar preparar primer un model.",
+          "1. Dibuixa l’espai. L’Asha va dibuixar un rectangle resseguint el regle curt. L’Hugo hi va posar damunt el llapis més llarg. Sobresortia del dibuix. L’Asha va allargar el rectangle fins que hi cabien els sis llapis i la maquineta, els uns al costat dels altres.",
+          "2. Prova el model. Amb un altre full, van fer un sobre de paper de la mida del dibuix. Tenia una solapa per tancar-lo. Hi van ficar els objectes i van comprovar que podien treure el llapis més llarg sense estripar el paper.",
+          "3. Passa a la tela. La Irene va fer servir el model per preparar la peça de tela. Va deixar espai per a les costures, va tallar i va cosir. Hi va afegir una cinta per subjectar la solapa. L’Asha va desar els sis llapis i la maquineta a l’estoig acabat. L’Hugo li va demanar el model: volia dibuixar com havia canviat."
+        ],
+        "questions": [
+          {
+            "id": "l302a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "D’on havia sortit el retall?",
+            "answer": "D’una cortina de casa de l’Asha que havien escurçat.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Havia sobrat en escurçar una cortina de casa seva."
+              }
+            ]
+          },
+          {
+            "id": "l302a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quin objecte sobresortia del primer dibuix?",
+            "answer": "El llapis més llarg.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "L’Hugo hi va posar damunt el llapis més llarg. Sobresortia del dibuix."
+              }
+            ]
+          },
+          {
+            "id": "l302a-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Com va corregir l’Asha el dibuix?",
+            "answer": "Va allargar el rectangle fins que hi cabien els objectes.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "L’Asha va allargar el rectangle"
+              }
+            ]
+          },
+          {
+            "id": "l302a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què és la «solapa» del model?",
+            "answer": "La part que es doblega per tapar i tancar el sobre.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Tenia una solapa per tancar-lo."
+              }
+            ]
+          },
+          {
+            "id": "l302a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per a què van provar un model de paper abans de tallar la tela?",
+            "answer": "Per comprovar i corregir la mida abans de fer servir el retall.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "L’Asha va allargar el rectangle"
+              },
+              {
+                "paragraph": 3,
+                "text": "van comprovar que podien treure el llapis més llarg"
+              }
+            ]
+          },
+          {
+            "id": "l302a-q6",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Qui va tallar i cosir la tela?",
+            "answer": "La Irene.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La Irene va fer servir el model per preparar la peça de tela. Va deixar espai per a les costures, va tallar i va cosir."
+              }
+            ]
+          },
+          {
+            "id": "l302a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Explica el camí del retall fins a convertir-se en un estoig.",
+            "answer": "L’Asha porta el retall; ella i l’Hugo dibuixen i proven el model; la Irene prepara, talla i cus la tela; l’Asha desa els objectes.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "van fer un sobre de paper de la mida del dibuix"
+              },
+              {
+                "paragraph": 4,
+                "text": "va tallar i va cosir"
+              }
+            ]
+          },
+          {
+            "id": "l302a-q8",
+            "type": "opinion",
+            "lines": 2,
+            "prompt": "Quins objectes desaries al teu estoig? Explica què necessitaries comprovar.",
+            "answer": "Resposta personal amb objectes concrets i una comprovació de cabuda o d’ús."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "solapa",
+            "occurrence": 1,
+            "questionId": "l302a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l302-scene",
+            "src": "assets/readings/l302-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene ensenya l’estoig verd acabat mentre l’Asha prova el model de paper i l’Hugo observa.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "del-retal-al-estuche-es",
+        "code": "L302",
+        "workId": "del-retal-al-estuche",
+        "language": "es",
+        "familyId": "familia-l302",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "environment",
+          "arts",
+          "everyday"
+        ],
+        "genre": "instructional",
+        "title": "Del retal al estuche",
+        "summary": "Una prueba de papel permite cambiar el tamaño de un estuche antes de que Irene corte el retal.",
+        "paragraphs": [
+          "Asha llegó al taller de Irene con un retal verde que había sobrado al acortar una cortina de su casa. Quería transformarlo en un estuche para seis lápices y un sacapuntas. Hugo había ido a buscarla y se quedó al ver la tela sobre la mesa. «¿Lo dibujamos primero?», propuso Irene. Les dio unas hojas mientras apartaba sus tijeras.",
+          "1. Dibuja pensando en lo que guardarás. Asha trazó un rectángulo siguiendo su regla corta. Hugo colocó el lápiz más largo encima y la punta quedó fuera del dibujo. «Este no entra», dijo. Asha alargó el rectángulo. Distribuyeron los seis lápices y el sacapuntas sin amontonarlos. Ahora todos quedaban dentro del contorno. Apartaron un momento los objetos para mirar el dibujo corregido.",
+          "2. Prueba una forma que se pueda abrir. Con otra hoja hicieron un sobre del tamaño del dibujo. Doblaron una solapa para cerrarlo y sujetaron los lados con cinta adhesiva. Metieron los objetos. Hugo los pudo sacar, pero la solapa apenas tapaba la abertura. Asha añadió una tira de papel y repitieron la prueba. Esta vez cerraba bien.",
+          "3. Prepara y cose la tela. Irene tomó el modelo y marcó la pieza sobre el retal, dejando espacio para las costuras. Después cortó y cosió. Los niños miraban desde el otro extremo de la mesa. Irene añadió una cinta para sujetar la solapa cuando el estuche estuviera cerrado.",
+          "4. Comprueba el resultado. Asha guardó los seis lápices y el sacapuntas en el estuche terminado. Abrió y cerró la solapa. Hugo puso al lado el primer dibujo: el rectángulo inicial parecía muy pequeño. Asha se llevó el estuche; Hugo pidió quedarse con el modelo para dibujar sus cambios."
+        ],
+        "questions": [
+          {
+            "id": "l302-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué quería guardar Asha en el estuche?",
+            "answer": "Seis lápices y un sacapuntas.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "para seis lápices y un sacapuntas"
+              }
+            ]
+          },
+          {
+            "id": "l302-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué copiar la longitud de la regla no bastó para el dibujo?",
+            "answer": "Porque el lápiz más largo superaba esa longitud; necesitaban medir el espacio con los objetos que guardarían.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "siguiendo su regla corta"
+              },
+              {
+                "paragraph": 2,
+                "text": "la punta quedó fuera del dibujo"
+              }
+            ]
+          },
+          {
+            "id": "l302-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «contorno» en la prueba del dibujo?",
+            "answer": "El límite dibujado que rodea el espacio previsto.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "todos quedaban dentro del contorno"
+              }
+            ]
+          },
+          {
+            "id": "l302-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué problema apareció al llenar el modelo de papel?",
+            "answer": "Que la solapa apenas tapaba la abertura.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "la solapa apenas tapaba la abertura"
+              }
+            ]
+          },
+          {
+            "id": "l302-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Cómo corrigieron el problema de la solapa?",
+            "answer": "Asha añadió una tira de papel y repitieron la prueba.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Asha añadió una tira de papel y repitieron la prueba."
+              }
+            ]
+          },
+          {
+            "id": "l302-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué ventaja tuvo corregir la solapa en papel?",
+            "answer": "Pudieron modificar y probar el modelo antes de que Irene cortara la tela con esa forma.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Esta vez cerraba bien."
+              },
+              {
+                "paragraph": 4,
+                "text": "Irene tomó el modelo y marcó la pieza sobre el retal"
+              }
+            ]
+          },
+          {
+            "id": "l302-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué hace Irene y qué comprueba Asha al final?",
+            "answer": "Irene corta y cose la tela; Asha guarda los objetos y abre y cierra la solapa.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Después cortó y cosió."
+              },
+              {
+                "paragraph": 5,
+                "text": "Abrió y cerró la solapa."
+              }
+            ]
+          },
+          {
+            "id": "l302-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Para qué sirven los cuatro títulos numerados?",
+            "answer": "Para ordenar las etapas del proceso y anunciar qué se hace en cada una.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "1. Dibuja pensando en lo que guardarás."
+              },
+              {
+                "paragraph": 5,
+                "text": "4. Comprueba el resultado."
+              }
+            ]
+          },
+          {
+            "id": "l302-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume las dos correcciones del modelo y el resultado final.",
+            "answer": "Alargan el rectángulo para el lápiz y alargan la solapa para cerrar. Irene confecciona el estuche y Asha puede guardar y sacar sus objetos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Asha alargó el rectángulo."
+              },
+              {
+                "paragraph": 3,
+                "text": "Asha añadió una tira de papel"
+              },
+              {
+                "paragraph": 5,
+                "text": "Asha guardó los seis lápices y el sacapuntas en el estuche terminado."
+              }
+            ]
+          },
+          {
+            "id": "l302-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué probarías si diseñaras una funda para otro objeto? Nombra el objeto y una prueba útil.",
+            "answer": "Respuesta personal que relaciona una prueba con el tamaño, la abertura o el uso del objeto."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "contorno",
+            "occurrence": 1,
+            "questionId": "l302-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l302-scene",
+            "src": "assets/readings/l302-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene muestra el estuche verde terminado mientras Asha prueba el modelo de papel y Hugo observa.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "del-retal-al-estuche-ca",
+        "code": "L302",
+        "workId": "del-retal-al-estuche",
+        "language": "ca",
+        "familyId": "familia-l302",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "environment",
+          "arts",
+          "everyday"
+        ],
+        "genre": "instructional",
+        "title": "Del retall a l’estoig",
+        "summary": "Una prova de paper permet canviar la mida d’un estoig abans que la Irene talli el retall.",
+        "paragraphs": [
+          "L’Asha va arribar al taller de la Irene amb un retall verd que havia sobrat en escurçar una cortina de casa seva. El volia transformar en un estoig per a sis llapis i una maquineta. L’Hugo l’havia anat a buscar i es va quedar en veure la tela damunt la taula. «El dibuixem primer?», va proposar la Irene. Els va donar uns fulls mentre apartava les tisores.",
+          "1. Dibuixa pensant en què hi desaràs. L’Asha va traçar un rectangle resseguint el regle curt. L’Hugo hi va posar el llapis més llarg damunt i la punta va quedar fora del dibuix. «Aquest no hi cap», va dir. L’Asha va allargar el rectangle. Van distribuir els sis llapis i la maquineta sense amuntegar-los. Ara tots quedaven dins el contorn. Van apartar un moment els objectes per mirar el dibuix corregit.",
+          "2. Prova una forma que es pugui obrir. Amb un altre full van fer un sobre de la mida del dibuix. Van doblegar una solapa per tancar-lo i van subjectar els costats amb cinta adhesiva. Hi van ficar els objectes. L’Hugo els va poder treure, però la solapa amb prou feines tapava l’obertura. L’Asha hi va afegir una tira de paper i van repetir la prova. Aquest cop tancava bé.",
+          "3. Prepara i cus la tela. La Irene va agafar el model i va marcar la peça damunt el retall, deixant espai per a les costures. Després va tallar i cosir. Els infants miraven des de l’altre extrem de la taula. La Irene hi va afegir una cinta per subjectar la solapa quan l’estoig estigués tancat.",
+          "4. Comprova el resultat. L’Asha va desar els sis llapis i la maquineta a l’estoig acabat. Va obrir i tancar la solapa. L’Hugo va posar al costat el primer dibuix: el rectangle inicial semblava molt petit. L’Asha es va endur l’estoig; l’Hugo va demanar quedar-se el model per dibuixar-ne els canvis."
+        ],
+        "questions": [
+          {
+            "id": "l302-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què volia desar l’Asha a l’estoig?",
+            "answer": "Sis llapis i una maquineta.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "per a sis llapis i una maquineta"
+              }
+            ]
+          },
+          {
+            "id": "l302-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què copiar la llargada del regle no va ser suficient per al dibuix?",
+            "answer": "Perquè el llapis més llarg superava aquella llargada; necessitaven comprovar l’espai amb els objectes que hi desarien.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "resseguint el regle curt"
+              },
+              {
+                "paragraph": 2,
+                "text": "la punta va quedar fora del dibuix"
+              }
+            ]
+          },
+          {
+            "id": "l302-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «contorn» en la prova del dibuix?",
+            "answer": "El límit dibuixat que envolta l’espai previst.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "tots quedaven dins el contorn"
+              }
+            ]
+          },
+          {
+            "id": "l302-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quin problema va aparèixer en omplir el model de paper?",
+            "answer": "Que la solapa amb prou feines tapava l’obertura.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "la solapa amb prou feines tapava l’obertura"
+              }
+            ]
+          },
+          {
+            "id": "l302-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Com van corregir el problema de la solapa?",
+            "answer": "L’Asha hi va afegir una tira de paper i van repetir la prova.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "L’Asha hi va afegir una tira de paper i van repetir la prova."
+              }
+            ]
+          },
+          {
+            "id": "l302-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quin avantatge va tenir corregir la solapa en paper?",
+            "answer": "Van poder modificar i provar el model abans que la Irene tallés la tela amb aquella forma.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Aquest cop tancava bé."
+              },
+              {
+                "paragraph": 4,
+                "text": "La Irene va agafar el model i va marcar la peça damunt el retall"
+              }
+            ]
+          },
+          {
+            "id": "l302-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què fa la Irene i què comprova l’Asha al final?",
+            "answer": "La Irene talla i cus la tela; l’Asha desa els objectes i obre i tanca la solapa.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Després va tallar i cosir."
+              },
+              {
+                "paragraph": 5,
+                "text": "Va obrir i tancar la solapa."
+              }
+            ]
+          },
+          {
+            "id": "l302-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Per a què serveixen els quatre títols numerats?",
+            "answer": "Per ordenar les etapes del procés i anunciar què es fa en cadascuna.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "1. Dibuixa pensant en què hi desaràs."
+              },
+              {
+                "paragraph": 5,
+                "text": "4. Comprova el resultat."
+              }
+            ]
+          },
+          {
+            "id": "l302-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix les dues correccions del model i el resultat final.",
+            "answer": "Allarguen el rectangle per al llapis i allarguen la solapa per tancar. La Irene confecciona l’estoig i l’Asha hi pot desar i treure els objectes.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "L’Asha va allargar el rectangle."
+              },
+              {
+                "paragraph": 3,
+                "text": "L’Asha hi va afegir una tira de paper"
+              },
+              {
+                "paragraph": 5,
+                "text": "L’Asha va desar els sis llapis i la maquineta a l’estoig acabat."
+              }
+            ]
+          },
+          {
+            "id": "l302-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Què provaries si dissenyessis una funda per a un altre objecte? Digues quin objecte i una prova útil.",
+            "answer": "Resposta personal que relaciona una prova amb la mida, l’obertura o l’ús de l’objecte."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "contorn",
+            "occurrence": 1,
+            "questionId": "l302-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l302-scene",
+            "src": "assets/readings/l302-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene ensenya l’estoig verd acabat mentre l’Asha prova el model de paper i l’Hugo observa.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "del-retal-al-estuche-b-es",
+        "code": "L302B",
+        "workId": "del-retal-al-estuche-b",
+        "language": "es",
+        "familyId": "familia-l302",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "environment",
+          "arts",
+          "everyday"
+        ],
+        "genre": "instructional",
+        "title": "Del retal al estuche",
+        "summary": "Un pequeño proyecto de reutilización exige distinguir el espacio dibujado del volumen que ocuparán los objetos.",
+        "paragraphs": [
+          "Asha llevó al taller de Irene un retal verde, sobrante de una cortina que habían acortado en su casa. La tela estaba limpia y quería aprovecharla para un estuche con seis lápices y un sacapuntas. Hugo había ido a buscarla. Al oír la idea, dejó su mochila junto a la puerta. Irene les acercó papel: «Haced una prueba antes de que corte la tela».",
+          "1. Representa el espacio necesario. Asha trazó un rectángulo siguiendo su regla corta. Hugo colocó encima el lápiz más largo; la punta sobresalía. Alargaron el dibujo y distribuyeron los seis lápices y el sacapuntas, sin apilar unos sobre otros. Con los objetos delante, Asha pudo corregir el contorno y dejó de tomar la regla como medida del estuche.",
+          "2. Convierte el dibujo en un modelo. Sobre otra hoja prepararon un sobre del tamaño previsto. Doblaron una solapa para cerrar y sujetaron los lados con cinta adhesiva. Vacío, el sobre cerraba bien. Al llenarlo, el sacapuntas abultaba y la solapa apenas alcanzaba la abertura. «En el dibujo parecía que sobraba sitio», dijo Hugo. Levantó el sobre lleno y miró el hueco que quedaba bajo la solapa. Asha probó a cerrarlo apoyándolo en la mesa, pero seguía sin tapar bien la abertura. Asha añadió una tira de papel a la solapa. Volvieron a llenarlo y cerrarlo; después sacaron el lápiz más largo sin rasgar los bordes.",
+          "3. Prepara la tela a partir del modelo. Irene examinó el sobre lleno, lo vació y lo desplegó. Marcó la pieza sobre el retal, reservando tela para las costuras. El borde del corte quedaba fuera del contorno que habían dibujado. Asha preguntó por aquella diferencia. Irene señaló las zonas que uniría al coser; esa tela también formaba parte de la pieza, aunque no quedaría como espacio para guardar objetos.",
+          "4. Comprueba el estuche terminado. Irene cortó y cosió mientras los niños observaban desde el otro extremo de la mesa. Añadió una cinta que sujetaba la solapa cerrada. Asha metió los seis lápices y el sacapuntas, abrió el estuche y volvió a cerrarlo. Después lo guardó en su mochila. Hugo colocó juntos el dibujo inicial y el modelo corregido: quería dibujar los cambios para contarle a su hermano cómo lo habían preparado."
+        ],
+        "questions": [
+          {
+            "id": "l302b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué uso quería dar Asha al retal?",
+            "answer": "Hacer un estuche para seis lápices y un sacapuntas.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "para un estuche con seis lápices y un sacapuntas"
+              }
+            ]
+          },
+          {
+            "id": "l302b-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué mostró el lápiz más largo en la primera prueba?",
+            "answer": "Que el rectángulo inicial era demasiado corto.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "la punta sobresalía. Alargaron el dibujo"
+              }
+            ]
+          },
+          {
+            "id": "l302b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué dejaron de usar la regla como medida del estuche?",
+            "answer": "Porque la longitud de la regla no coincidía con el espacio que necesitaban los objetos reales.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "el lápiz más largo; la punta sobresalía"
+              },
+              {
+                "paragraph": 2,
+                "text": "dejó de tomar la regla como medida del estuche"
+              }
+            ]
+          },
+          {
+            "id": "l302b-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué diferencia hubo entre probar el sobre vacío y lleno?",
+            "answer": "Vacío cerraba bien; lleno, el sacapuntas abultaba y la solapa apenas alcanzaba la abertura.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Vacío, el sobre cerraba bien. Al llenarlo, el sacapuntas abultaba y la solapa apenas alcanzaba la abertura."
+              }
+            ]
+          },
+          {
+            "id": "l302b-q5",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «abultaba» al hablar del sacapuntas?",
+            "answer": "Que ocupaba volumen y levantaba el papel del sobre.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "el sacapuntas abultaba y la solapa apenas alcanzaba la abertura"
+              }
+            ]
+          },
+          {
+            "id": "l302b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué limitación del dibujo plano descubre Hugo al llenar el modelo?",
+            "answer": "Que mostrar los objetos dentro de un contorno no prueba que la solapa cierre cuando los objetos ocupan volumen.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "En el dibujo parecía que sobraba sitio"
+              },
+              {
+                "paragraph": 3,
+                "text": "Al llenarlo, el sacapuntas abultaba"
+              }
+            ]
+          },
+          {
+            "id": "l302b-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué hicieron después de alargar la solapa de papel?",
+            "answer": "Llenaron y cerraron el sobre y sacaron el lápiz más largo sin rasgar los bordes.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Volvieron a llenarlo y cerrarlo; después sacaron el lápiz más largo sin rasgar los bordes."
+              }
+            ]
+          },
+          {
+            "id": "l302b-q8",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué marcó Irene un corte por fuera del contorno?",
+            "answer": "Para reservar tela para las costuras que unirían la pieza.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "reservando tela para las costuras"
+              }
+            ]
+          },
+          {
+            "id": "l302b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Asha vuelve a abrir y cerrar el estuche de tela si ya probaron el de papel?",
+            "answer": "Para comprobar el objeto terminado, no solo el modelo con el que lo prepararon.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Asha metió los seis lápices y el sacapuntas, abrió el estuche y volvió a cerrarlo."
+              }
+            ]
+          },
+          {
+            "id": "l302b-q10",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Cómo combina este texto instrucciones y relato? Pon un ejemplo de cada uno.",
+            "answer": "Los títulos dan instrucciones, como «Convierte el dibujo en un modelo»; los párrafos cuentan cómo los personajes las realizan y corrigen, por ejemplo al alargar la solapa.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "2. Convierte el dibujo en un modelo."
+              },
+              {
+                "paragraph": 3,
+                "text": "Asha añadió una tira de papel a la solapa."
+              }
+            ]
+          },
+          {
+            "id": "l302b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resume qué aporta cada etapa: dibujo, modelo, confección y comprobación final.",
+            "answer": "El dibujo ajusta la longitud a los objetos; el modelo permite probar volumen y cierre; Irene reserva costuras, corta y cose; Asha comprueba que puede usar el estuche terminado.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Alargaron el dibujo"
+              },
+              {
+                "paragraph": 3,
+                "text": "Asha añadió una tira de papel a la solapa."
+              },
+              {
+                "paragraph": 4,
+                "text": "reservando tela para las costuras"
+              },
+              {
+                "paragraph": 5,
+                "text": "abrió el estuche y volvió a cerrarlo"
+              }
+            ]
+          },
+          {
+            "id": "l302b-q12",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Propón otro uso para un retal y explica qué podrías probar con papel antes de pedir a una persona adulta que lo confeccione.",
+            "answer": "Respuesta personal con un uso posible y una prueba pertinente."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "abultaba",
+            "occurrence": 1,
+            "questionId": "l302b-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l302-scene",
+            "src": "assets/readings/l302-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene muestra el estuche verde terminado mientras Asha prueba el modelo de papel y Hugo observa.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "del-retal-al-estuche-b-ca",
+        "code": "L302B",
+        "workId": "del-retal-al-estuche-b",
+        "language": "ca",
+        "familyId": "familia-l302",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "environment",
+          "arts",
+          "everyday"
+        ],
+        "genre": "instructional",
+        "title": "Del retall a l’estoig",
+        "summary": "Un petit projecte de reutilització exigeix distingir l’espai dibuixat del volum que ocuparan els objectes.",
+        "paragraphs": [
+          "L’Asha va portar al taller de la Irene un retall verd, sobrant d’una cortina que havien escurçat a casa seva. La tela estava neta i la volia aprofitar per a un estoig amb sis llapis i una maquineta. L’Hugo l’havia anat a buscar. En sentir la idea, va deixar la motxilla al costat de la porta. La Irene els va acostar paper: «Feu una prova abans que talli la tela».",
+          "1. Representa l’espai necessari. L’Asha va traçar un rectangle resseguint el regle curt. L’Hugo hi va posar damunt el llapis més llarg; la punta sobresortia. Van allargar el dibuix i van distribuir els sis llapis i la maquineta, sense apilar-los. Amb els objectes al davant, l’Asha va poder corregir el contorn i va deixar de prendre el regle com a mida de l’estoig.",
+          "2. Converteix el dibuix en un model. Damunt un altre full van preparar un sobre de la mida prevista. Van doblegar una solapa per tancar i van subjectar els costats amb cinta adhesiva. Buit, el sobre tancava bé. En omplir-lo, la maquineta feia gruix i la solapa amb prou feines arribava a l’obertura. «Al dibuix semblava que sobrava espai», va dir l’Hugo. Va aixecar el sobre ple i va mirar el buit que quedava sota la solapa. L’Asha va provar de tancar-lo damunt la taula, però continuava sense tapar bé l’obertura. L’Asha va afegir una tira de paper a la solapa. El van tornar a omplir i tancar; després van treure el llapis més llarg sense estripar les vores.",
+          "3. Prepara la tela a partir del model. La Irene va examinar el sobre ple, el va buidar i el va desplegar. Va marcar la peça damunt el retall, reservant tela per a les costures. La vora del tall quedava fora del contorn que havien dibuixat. L’Asha va preguntar per aquella diferència. La Irene va assenyalar les zones que uniria en cosir; aquella tela també formava part de la peça, encara que no quedaria com a espai per desar-hi objectes.",
+          "4. Comprova l’estoig acabat. La Irene va tallar i cosir mentre els infants observaven des de l’altre extrem de la taula. Hi va afegir una cinta que subjectava la solapa tancada. L’Asha hi va ficar els sis llapis i la maquineta, va obrir l’estoig i el va tornar a tancar. Després el va desar a la motxilla. L’Hugo va posar junts el dibuix inicial i el model corregit: volia dibuixar-ne els canvis per explicar al seu germà com l’havien preparat."
+        ],
+        "questions": [
+          {
+            "id": "l302b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quin ús volia donar l’Asha al retall?",
+            "answer": "Fer un estoig per a sis llapis i una maquineta.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "per a un estoig amb sis llapis i una maquineta"
+              }
+            ]
+          },
+          {
+            "id": "l302b-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què va mostrar el llapis més llarg a la primera prova?",
+            "answer": "Que el rectangle inicial era massa curt.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "la punta sobresortia. Van allargar el dibuix"
+              }
+            ]
+          },
+          {
+            "id": "l302b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què van deixar de fer servir el regle com a mida de l’estoig?",
+            "answer": "Perquè la llargada del regle no coincidia amb l’espai que necessitaven els objectes reals.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "el llapis més llarg; la punta sobresortia"
+              },
+              {
+                "paragraph": 2,
+                "text": "va deixar de prendre el regle com a mida de l’estoig"
+              }
+            ]
+          },
+          {
+            "id": "l302b-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina diferència hi va haver entre provar el sobre buit i ple?",
+            "answer": "Buit tancava bé; ple, la maquineta feia gruix i la solapa amb prou feines arribava a l’obertura.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Buit, el sobre tancava bé. En omplir-lo, la maquineta feia gruix i la solapa amb prou feines arribava a l’obertura."
+              }
+            ]
+          },
+          {
+            "id": "l302b-q5",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «feia gruix» quan parla de la maquineta?",
+            "answer": "Que ocupava volum i aixecava el paper del sobre.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "la maquineta feia gruix i la solapa amb prou feines arribava a l’obertura"
+              }
+            ]
+          },
+          {
+            "id": "l302b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina limitació del dibuix pla descobreix l’Hugo en omplir el model?",
+            "answer": "Que mostrar els objectes dins un contorn no prova que la solapa tanqui quan els objectes ocupen volum.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Al dibuix semblava que sobrava espai"
+              },
+              {
+                "paragraph": 3,
+                "text": "En omplir-lo, la maquineta feia gruix"
+              }
+            ]
+          },
+          {
+            "id": "l302b-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què van fer després d’allargar la solapa de paper?",
+            "answer": "Van omplir i tancar el sobre i van treure el llapis més llarg sense estripar les vores.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El van tornar a omplir i tancar; després van treure el llapis més llarg sense estripar les vores."
+              }
+            ]
+          },
+          {
+            "id": "l302b-q8",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què va marcar la Irene un tall per fora del contorn?",
+            "answer": "Per reservar tela per a les costures que unirien la peça.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "reservant tela per a les costures"
+              }
+            ]
+          },
+          {
+            "id": "l302b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què l’Asha torna a obrir i tancar l’estoig de tela si ja han provat el de paper?",
+            "answer": "Per comprovar l’objecte acabat, no només el model amb què l’han preparat.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "L’Asha hi va ficar els sis llapis i la maquineta, va obrir l’estoig i el va tornar a tancar."
+              }
+            ]
+          },
+          {
+            "id": "l302b-q10",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Com combina aquest text instruccions i relat? Posa un exemple de cadascun.",
+            "answer": "Els títols donen instruccions, com ara «Converteix el dibuix en un model»; els paràgrafs expliquen com els personatges les fan i corregeixen, per exemple en allargar la solapa.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "2. Converteix el dibuix en un model."
+              },
+              {
+                "paragraph": 3,
+                "text": "L’Asha va afegir una tira de paper a la solapa."
+              }
+            ]
+          },
+          {
+            "id": "l302b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resumeix què aporta cada etapa: dibuix, model, confecció i comprovació final.",
+            "answer": "El dibuix ajusta la llargada als objectes; el model permet provar volum i tancament; la Irene reserva costures, talla i cus; l’Asha comprova que pot fer servir l’estoig acabat.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Van allargar el dibuix"
+              },
+              {
+                "paragraph": 3,
+                "text": "L’Asha va afegir una tira de paper a la solapa."
+              },
+              {
+                "paragraph": 4,
+                "text": "reservant tela per a les costures"
+              },
+              {
+                "paragraph": 5,
+                "text": "va obrir l’estoig i el va tornar a tancar"
+              }
+            ]
+          },
+          {
+            "id": "l302b-q12",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Proposa un altre ús per a un retall i explica què podries provar amb paper abans de demanar a una persona adulta que el confeccionés.",
+            "answer": "Resposta personal amb un ús possible i una prova pertinent."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "feia gruix",
+            "occurrence": 1,
+            "questionId": "l302b-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l302-scene",
+            "src": "assets/readings/l302-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene ensenya l’estoig verd acabat mentre l’Asha prova el model de paper i l’Hugo observa.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 3
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L302A",
+        "language": "es",
+        "questions": {
+          "l302a-q1": {
+            "prompt": "¿De dónde había salido el retal?",
+            "options": [
+              "De acortar una cortina de Asha.",
+              "De abrir un sobre de papel.",
+              "De recortar el modelo de Irene.",
+              "De quitar la solapa del estuche."
+            ],
+            "correct": "a",
+            "explanation": "De una cortina de casa de Asha que habían acortado."
+          },
+          "l302a-q2": {
+            "prompt": "¿Qué objeto sobresalía del primer dibujo?",
+            "options": [
+              "La regla corta de Asha.",
+              "El retal de cortina verde.",
+              "El lápiz de mayor longitud.",
+              "La solapa del sobre cerrado."
+            ],
+            "correct": "c",
+            "explanation": "El lápiz más largo."
+          },
+          "l302a-q3": {
+            "prompt": "¿Cómo corrigió Asha el dibujo?",
+            "options": [
+              "Quitó el sacapuntas del modelo.",
+              "Hizo el rectángulo más largo.",
+              "Puso la regla dentro del estuche.",
+              "Acortó la solapa del sobre de papel."
+            ],
+            "correct": "b",
+            "explanation": "Alargó el rectángulo hasta que cabían los objetos."
+          },
+          "l302a-q4": {
+            "prompt": "¿Qué es la «solapa» del modelo?",
+            "options": [
+              "La marca que deja el lápiz al dibujar.",
+              "La cinta que sujeta toda la tela.",
+              "La costura que une los dos lados.",
+              "La parte que se dobla para cerrar."
+            ],
+            "correct": "d",
+            "explanation": "La parte que se dobla para tapar y cerrar el sobre."
+          },
+          "l302a-q5": {
+            "prompt": "¿Para qué probaron un modelo de papel antes de cortar la tela?",
+            "options": [
+              "Para comprobar el espacio antes de usar la tela.",
+              "Para decidir de qué cortina sacarían el retal.",
+              "Para que Irene no tuviera que coser el estuche.",
+              "Para elegir cómo sujetar la solapa de tela."
+            ],
+            "correct": "a",
+            "explanation": "Para comprobar y corregir el tamaño antes de usar el retal."
+          },
+          "l302a-q6": {
+            "prompt": "¿Quién cortó y cosió la tela?",
+            "options": [
+              "Asha, con el dibujo de Hugo.",
+              "Hugo, con la regla de Asha.",
+              "Irene, a partir del modelo.",
+              "Asha y Hugo al mismo tiempo."
+            ],
+            "correct": "c",
+            "explanation": "Irene."
+          }
+        }
+      },
+      {
+        "code": "L302A",
+        "language": "ca",
+        "questions": {
+          "l302a-q1": {
+            "prompt": "D’on havia sortit el retall?",
+            "options": [
+              "D’escurçar una cortina de l’Asha.",
+              "D’obrir un sobre de paper.",
+              "De retallar el model de la Irene.",
+              "De treure la solapa de l’estoig."
+            ],
+            "correct": "a",
+            "explanation": "D’una cortina de casa de l’Asha que havien escurçat."
+          },
+          "l302a-q2": {
+            "prompt": "Quin objecte sobresortia del primer dibuix?",
+            "options": [
+              "El regle curt de l’Asha.",
+              "El retall de cortina verda.",
+              "El llapis de més llargada.",
+              "La solapa del sobre tancat."
+            ],
+            "correct": "c",
+            "explanation": "El llapis més llarg."
+          },
+          "l302a-q3": {
+            "prompt": "Com va corregir l’Asha el dibuix?",
+            "options": [
+              "Va treure la maquineta del model.",
+              "Va fer el rectangle més llarg.",
+              "Va posar el regle dins l’estoig.",
+              "Va escurçar la solapa del sobre de paper."
+            ],
+            "correct": "b",
+            "explanation": "Va allargar el rectangle fins que hi cabien els objectes."
+          },
+          "l302a-q4": {
+            "prompt": "Què és la «solapa» del model?",
+            "options": [
+              "La marca que deixa el llapis en dibuixar.",
+              "La cinta que subjecta tota la tela.",
+              "La costura que uneix tots dos costats.",
+              "La part que es doblega per tancar."
+            ],
+            "correct": "d",
+            "explanation": "La part que es doblega per tapar i tancar el sobre."
+          },
+          "l302a-q5": {
+            "prompt": "Per a què van provar un model de paper abans de tallar la tela?",
+            "options": [
+              "Per comprovar l’espai abans de fer servir la tela.",
+              "Per decidir de quina cortina traurien el retall.",
+              "Perquè la Irene no hagués de cosir l’estoig.",
+              "Per triar com subjectar la solapa de tela."
+            ],
+            "correct": "a",
+            "explanation": "Per comprovar i corregir la mida abans de fer servir el retall."
+          },
+          "l302a-q6": {
+            "prompt": "Qui va tallar i cosir la tela?",
+            "options": [
+              "L’Asha, amb el dibuix de l’Hugo.",
+              "L’Hugo, amb el regle de l’Asha.",
+              "La Irene, a partir del model.",
+              "L’Asha i l’Hugo alhora."
+            ],
+            "correct": "c",
+            "explanation": "La Irene."
+          }
+        }
+      },
+      {
+        "code": "L302",
+        "language": "es",
+        "questions": {
+          "l302-q1": {
+            "prompt": "¿Qué quería guardar Asha en el estuche?",
+            "options": [
+              "La regla corta y las tijeras.",
+              "El dibujo y el retal verde.",
+              "Los seis lápices y el sacapuntas.",
+              "La cinta adhesiva y el modelo."
+            ],
+            "correct": "c",
+            "explanation": "Seis lápices y un sacapuntas."
+          },
+          "l302-q2": {
+            "prompt": "¿Por qué copiar la longitud de la regla no bastó para el dibujo?",
+            "options": [
+              "Porque uno de los objetos necesitaba más longitud.",
+              "Porque todavía no habían elegido el color del retal.",
+              "Porque la cinta de cierre estaba dentro del sobre.",
+              "Porque Hugo había cambiado la regla por las tijeras."
+            ],
+            "correct": "a",
+            "explanation": "Porque el lápiz más largo superaba esa longitud; necesitaban medir el espacio con los objetos que guardarían."
+          },
+          "l302-q3": {
+            "prompt": "¿Qué significa «contorno» en la prueba del dibujo?",
+            "options": [
+              "La abertura que tapa la solapa.",
+              "La tela que sobra de la cortina.",
+              "La cinta que sujeta los lados.",
+              "La línea que limita el dibujo."
+            ],
+            "correct": "d",
+            "explanation": "El límite dibujado que rodea el espacio previsto."
+          },
+          "l302-q4": {
+            "prompt": "¿Qué problema apareció al llenar el modelo de papel?",
+            "options": [
+              "La punta del lápiz quedó fuera del dibujo.",
+              "La solapa no cubría bien la abertura.",
+              "Los lados de tela estaban descosidos.",
+              "El sacapuntas quedó debajo de la mesa."
+            ],
+            "correct": "b",
+            "explanation": "Que la solapa apenas tapaba la abertura."
+          },
+          "l302-q5": {
+            "prompt": "¿Cómo corrigieron el problema de la solapa?",
+            "options": [
+              "Quitaron los lápices más largos.",
+              "Cortaron una tira de la cortina.",
+              "Alargaron la solapa con papel.",
+              "Cosieron directamente la abertura."
+            ],
+            "correct": "c",
+            "explanation": "Asha añadió una tira de papel y repitieron la prueba."
+          },
+          "l302-q6": {
+            "prompt": "¿Qué ventaja tuvo corregir la solapa en papel?",
+            "options": [
+              "Permitió ajustar la forma antes de cortar el retal.",
+              "Evitó que Irene tuviera que coser la tela después.",
+              "Hizo que el primer dibujo ya tuviera la medida correcta.",
+              "Permitió guardar los objetos solo en el modelo de papel."
+            ],
+            "correct": "a",
+            "explanation": "Pudieron modificar y probar el modelo antes de que Irene cortara la tela con esa forma."
+          },
+          "l302-q7": {
+            "prompt": "¿Qué hace Irene y qué comprueba Asha al final?",
+            "options": [
+              "Irene dibuja la regla; Asha corta las costuras.",
+              "Irene llena el sobre; Asha cose la cinta.",
+              "Irene guarda el modelo; Asha dibuja el retal.",
+              "Irene confecciona; Asha prueba el estuche terminado."
+            ],
+            "correct": "d",
+            "explanation": "Irene corta y cose la tela; Asha guarda los objetos y abre y cierra la solapa."
+          },
+          "l302-q8": {
+            "prompt": "¿Para qué sirven los cuatro títulos numerados?",
+            "options": [
+              "Para comparar cuatro estuches de distintos tamaños.",
+              "Para ordenar las etapas y anunciar cada acción.",
+              "Para repartir cuatro trabajos iguales entre los niños.",
+              "Para enumerar los materiales que sobraron al final."
+            ],
+            "correct": "b",
+            "explanation": "Para ordenar las etapas del proceso y anunciar qué se hace en cada una."
+          }
+        }
+      },
+      {
+        "code": "L302",
+        "language": "ca",
+        "questions": {
+          "l302-q1": {
+            "prompt": "Què volia desar l’Asha a l’estoig?",
+            "options": [
+              "El regle curt i les tisores.",
+              "El dibuix i el retall verd.",
+              "Els sis llapis i la maquineta.",
+              "La cinta adhesiva i el model."
+            ],
+            "correct": "c",
+            "explanation": "Sis llapis i una maquineta."
+          },
+          "l302-q2": {
+            "prompt": "Per què copiar la llargada del regle no va ser suficient per al dibuix?",
+            "options": [
+              "Perquè un dels objectes necessitava més llargada.",
+              "Perquè encara no havien triat el color del retall.",
+              "Perquè la cinta de tancament era dins el sobre.",
+              "Perquè l’Hugo havia canviat el regle per les tisores."
+            ],
+            "correct": "a",
+            "explanation": "Perquè el llapis més llarg superava aquella llargada; necessitaven comprovar l’espai amb els objectes que hi desarien."
+          },
+          "l302-q3": {
+            "prompt": "Què vol dir «contorn» en la prova del dibuix?",
+            "options": [
+              "L’obertura que tapa la solapa.",
+              "La tela que sobra de la cortina.",
+              "La cinta que subjecta els costats.",
+              "La línia que limita el dibuix."
+            ],
+            "correct": "d",
+            "explanation": "El límit dibuixat que envolta l’espai previst."
+          },
+          "l302-q4": {
+            "prompt": "Quin problema va aparèixer en omplir el model de paper?",
+            "options": [
+              "La punta del llapis va quedar fora del dibuix.",
+              "La solapa no cobria bé l’obertura.",
+              "Els costats de tela estaven descosits.",
+              "La maquineta va quedar sota la taula."
+            ],
+            "correct": "b",
+            "explanation": "Que la solapa amb prou feines tapava l’obertura."
+          },
+          "l302-q5": {
+            "prompt": "Com van corregir el problema de la solapa?",
+            "options": [
+              "Van treure els llapis més llargs.",
+              "Van tallar una tira de la cortina.",
+              "Van allargar la solapa amb paper.",
+              "Van cosir directament l’obertura."
+            ],
+            "correct": "c",
+            "explanation": "L’Asha hi va afegir una tira de paper i van repetir la prova."
+          },
+          "l302-q6": {
+            "prompt": "Quin avantatge va tenir corregir la solapa en paper?",
+            "options": [
+              "Va permetre ajustar la forma abans de tallar el retall.",
+              "Va evitar que la Irene hagués de cosir la tela després.",
+              "Va fer que el primer dibuix ja tingués la mida correcta.",
+              "Va permetre desar els objectes només al model de paper."
+            ],
+            "correct": "a",
+            "explanation": "Van poder modificar i provar el model abans que la Irene tallés la tela amb aquella forma."
+          },
+          "l302-q7": {
+            "prompt": "Què fa la Irene i què comprova l’Asha al final?",
+            "options": [
+              "La Irene dibuixa el regle; l’Asha talla les costures.",
+              "La Irene omple el sobre; l’Asha cus la cinta.",
+              "La Irene desa el model; l’Asha dibuixa el retall.",
+              "La Irene confecciona; l’Asha prova l’estoig acabat."
+            ],
+            "correct": "d",
+            "explanation": "La Irene talla i cus la tela; l’Asha desa els objectes i obre i tanca la solapa."
+          },
+          "l302-q8": {
+            "prompt": "Per a què serveixen els quatre títols numerats?",
+            "options": [
+              "Per comparar quatre estoigs de mides diferents.",
+              "Per ordenar les etapes i anunciar cada acció.",
+              "Per repartir quatre feines iguals entre els infants.",
+              "Per enumerar els materials que van sobrar al final."
+            ],
+            "correct": "b",
+            "explanation": "Per ordenar les etapes del procés i anunciar què es fa en cadascuna."
+          }
+        }
+      },
+      {
+        "code": "L302B",
+        "language": "es",
+        "questions": {
+          "l302b-q1": {
+            "prompt": "¿Qué uso quería dar Asha al retal?",
+            "options": [
+              "Completar la cortina que habían acortado.",
+              "Preparar un estuche para sus materiales.",
+              "Hacer una funda para la mochila de Hugo.",
+              "Sustituir el papel del dibujo del hermano."
+            ],
+            "correct": "b",
+            "explanation": "Hacer un estuche para seis lápices y un sacapuntas."
+          },
+          "l302b-q2": {
+            "prompt": "¿Qué mostró el lápiz más largo en la primera prueba?",
+            "options": [
+              "Que debían hacer una solapa más gruesa.",
+              "Que sobraba tela para las costuras.",
+              "Que el sacapuntas debía ir apilado.",
+              "Que faltaba longitud en el dibujo."
+            ],
+            "correct": "d",
+            "explanation": "Que el rectángulo inicial era demasiado corto."
+          },
+          "l302b-q3": {
+            "prompt": "¿Por qué dejaron de usar la regla como medida del estuche?",
+            "options": [
+              "Los objetos exigían otra medida distinta de la regla.",
+              "La regla debía caber junto a los lápices.",
+              "La solapa necesitaba más anchura para cubrir el sacapuntas.",
+              "Los márgenes de costura ya habían reducido el espacio dibujado."
+            ],
+            "correct": "a",
+            "explanation": "Porque la longitud de la regla no coincidía con el espacio que necesitaban los objetos reales."
+          },
+          "l302b-q4": {
+            "prompt": "¿Qué diferencia hubo entre probar el sobre vacío y lleno?",
+            "options": [
+              "Vacío no cerraba; lleno se ajustó al sacapuntas.",
+              "Vacío tenía bordes rotos; lleno quedaban cubiertos.",
+              "Vacío cerraba; lleno necesitaba alargar la solapa.",
+              "Vacío era corto; lleno el lápiz quedaba dentro."
+            ],
+            "correct": "c",
+            "explanation": "Vacío cerraba bien; lleno, el sacapuntas abultaba y la solapa apenas alcanzaba la abertura."
+          },
+          "l302b-q5": {
+            "prompt": "¿Qué significa «abultaba» al hablar del sacapuntas?",
+            "options": [
+              "Que era más largo que el lápiz.",
+              "Que ocupaba volumen dentro del sobre.",
+              "Que marcaba el contorno del dibujo.",
+              "Que sujetaba la solapa con cinta."
+            ],
+            "correct": "b",
+            "explanation": "Que ocupaba volumen y levantaba el papel del sobre."
+          },
+          "l302b-q6": {
+            "prompt": "¿Qué limitación del dibujo plano descubre Hugo al llenar el modelo?",
+            "options": [
+              "El lápiz no saldrá porque la abertura dibujada es demasiado estrecha.",
+              "El rectángulo sigue siendo demasiado corto para el lápiz más largo.",
+              "El modelo incluye márgenes de costura que impiden guardar los objetos.",
+              "El contorno muestra dónde caben, pero no cómo afecta su volumen al cierre."
+            ],
+            "correct": "d",
+            "explanation": "Que mostrar los objetos dentro de un contorno no prueba que la solapa cierre cuando los objetos ocupan volumen."
+          },
+          "l302b-q7": {
+            "prompt": "¿Qué hicieron después de alargar la solapa de papel?",
+            "options": [
+              "Repitieron la prueba de cierre y de extracción.",
+              "Dieron por terminado el estuche de tela.",
+              "Cortaron el retal por el primer contorno.",
+              "Sacaron el sacapuntas para reducir el volumen."
+            ],
+            "correct": "a",
+            "explanation": "Llenaron y cerraron el sobre y sacaron el lápiz más largo sin rasgar los bordes."
+          },
+          "l302b-q8": {
+            "prompt": "¿Por qué marcó Irene un corte por fuera del contorno?",
+            "options": [
+              "Para hacer sitio a una regla más larga.",
+              "Para evitar desplegar el modelo de papel.",
+              "Para dejar tela que se uniría al coser.",
+              "Para que la solapa tapara la abertura del modelo."
+            ],
+            "correct": "c",
+            "explanation": "Para reservar tela para las costuras que unirían la pieza."
+          },
+          "l302b-q9": {
+            "prompt": "¿Por qué Asha vuelve a abrir y cerrar el estuche de tela si ya probaron el de papel?",
+            "options": [
+              "Para escoger otra vez qué objetos quería guardar.",
+              "Para comprobar el funcionamiento de la pieza terminada.",
+              "Para decidir si alargarían la solapa del modelo de papel.",
+              "Para sustituir la cinta por una tira de papel."
+            ],
+            "correct": "b",
+            "explanation": "Para comprobar el objeto terminado, no solo el modelo con el que lo prepararon."
+          },
+          "l302b-q10": {
+            "prompt": "¿Cómo combina este texto instrucciones y relato? Pon un ejemplo de cada uno.",
+            "options": [
+              "Los títulos enumeran materiales y los párrafos indican qué sobró.",
+              "Los títulos describen el modelo y los párrafos solo dan órdenes.",
+              "Los títulos nombran problemas y los párrafos dan soluciones alternativas.",
+              "Los títulos orientan y los párrafos narran las pruebas."
+            ],
+            "correct": "d",
+            "explanation": "Los títulos dan instrucciones, como «Convierte el dibujo en un modelo»; los párrafos cuentan cómo los personajes las realizan y corrigen, por ejemplo al alargar la solapa."
+          }
+        }
+      },
+      {
+        "code": "L302B",
+        "language": "ca",
+        "questions": {
+          "l302b-q1": {
+            "prompt": "Quin ús volia donar l’Asha al retall?",
+            "options": [
+              "Completar la cortina que havien escurçat.",
+              "Preparar un estoig per als seus materials.",
+              "Fer una funda per a la motxilla de l’Hugo.",
+              "Substituir el paper del dibuix del germà."
+            ],
+            "correct": "b",
+            "explanation": "Fer un estoig per a sis llapis i una maquineta."
+          },
+          "l302b-q2": {
+            "prompt": "Què va mostrar el llapis més llarg a la primera prova?",
+            "options": [
+              "Que havien de fer una solapa més gruixuda.",
+              "Que sobrava tela per a les costures.",
+              "Que la maquineta havia d’anar apilada.",
+              "Que faltava llargada al dibuix."
+            ],
+            "correct": "d",
+            "explanation": "Que el rectangle inicial era massa curt."
+          },
+          "l302b-q3": {
+            "prompt": "Per què van deixar de fer servir el regle com a mida de l’estoig?",
+            "options": [
+              "Els objectes exigien una mida diferent de la del regle.",
+              "El regle havia de cabre al costat dels llapis.",
+              "La solapa necessitava més amplada per tapar la maquineta.",
+              "Els marges de costura ja havien reduït l’espai dibuixat."
+            ],
+            "correct": "a",
+            "explanation": "Perquè la llargada del regle no coincidia amb l’espai que necessitaven els objectes reals."
+          },
+          "l302b-q4": {
+            "prompt": "Quina diferència hi va haver entre provar el sobre buit i ple?",
+            "options": [
+              "Buit no tancava; ple es va ajustar a la maquineta.",
+              "Buit tenia vores estripades; ple quedaven tapades.",
+              "Buit tancava; ple calia allargar la solapa.",
+              "Buit era curt; ple el llapis quedava dins."
+            ],
+            "correct": "c",
+            "explanation": "Buit tancava bé; ple, la maquineta feia gruix i la solapa amb prou feines arribava a l’obertura."
+          },
+          "l302b-q5": {
+            "prompt": "Què vol dir «feia gruix» quan parla de la maquineta?",
+            "options": [
+              "Que era més llarga que el llapis.",
+              "Que ocupava volum dins el sobre.",
+              "Que marcava el contorn del dibuix.",
+              "Que subjectava la solapa amb cinta."
+            ],
+            "correct": "b",
+            "explanation": "Que ocupava volum i aixecava el paper del sobre."
+          },
+          "l302b-q6": {
+            "prompt": "Quina limitació del dibuix pla descobreix l’Hugo en omplir el model?",
+            "options": [
+              "El llapis no sortirà perquè l’obertura dibuixada és massa estreta.",
+              "El rectangle continua sent massa curt per al llapis més llarg.",
+              "El model inclou marges de costura que impedeixen desar-hi els objectes.",
+              "El contorn mostra on caben, però no com afecta el volum al tancament."
+            ],
+            "correct": "d",
+            "explanation": "Que mostrar els objectes dins un contorn no prova que la solapa tanqui quan els objectes ocupen volum."
+          },
+          "l302b-q7": {
+            "prompt": "Què van fer després d’allargar la solapa de paper?",
+            "options": [
+              "Van repetir la prova de tancament i d’extracció.",
+              "Van donar per acabat l’estoig de tela.",
+              "Van tallar el retall pel primer contorn.",
+              "Van treure la maquineta per reduir el volum."
+            ],
+            "correct": "a",
+            "explanation": "Van omplir i tancar el sobre i van treure el llapis més llarg sense estripar les vores."
+          },
+          "l302b-q8": {
+            "prompt": "Per què va marcar la Irene un tall per fora del contorn?",
+            "options": [
+              "Per fer lloc a un regle més llarg.",
+              "Per evitar desplegar el model de paper.",
+              "Per deixar tela que s’uniria en cosir.",
+              "Perquè la solapa tapés l’obertura del model."
+            ],
+            "correct": "c",
+            "explanation": "Per reservar tela per a les costures que unirien la peça."
+          },
+          "l302b-q9": {
+            "prompt": "Per què l’Asha torna a obrir i tancar l’estoig de tela si ja han provat el de paper?",
+            "options": [
+              "Per tornar a triar quins objectes volia desar.",
+              "Per comprovar el funcionament de la peça acabada.",
+              "Per decidir si allargarien la solapa del model de paper.",
+              "Per substituir la cinta per una tira de paper."
+            ],
+            "correct": "b",
+            "explanation": "Per comprovar l’objecte acabat, no només el model amb què l’han preparat."
+          },
+          "l302b-q10": {
+            "prompt": "Com combina aquest text instruccions i relat? Posa un exemple de cadascun.",
+            "options": [
+              "Els títols enumeren materials i els paràgrafs indiquen què va sobrar.",
+              "Els títols descriuen el model i els paràgrafs només donen ordres.",
+              "Els títols anomenen problemes i els paràgrafs donen solucions alternatives.",
+              "Els títols orienten i els paràgrafs narren les proves."
+            ],
+            "correct": "d",
+            "explanation": "Els títols donen instruccions, com ara «Converteix el dibuix en un model»; els paràgrafs expliquen com els personatges les fan i corregeixen, per exemple en allargar la solapa."
+          }
+        }
+      }
+    ]
   }
 ];
