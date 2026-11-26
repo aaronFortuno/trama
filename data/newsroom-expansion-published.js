@@ -7123,5 +7123,1826 @@ export const newsroomPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L284",
+    "edition": "v1.60.4",
+    "family": {
+      "id": "familia-l284",
+      "code": "L284",
+      "name": {
+        "es": "La ilustración también tiene autora",
+        "ca": "La il·lustració també té autora"
+      },
+      "description": {
+        "ca": "Una història de La redacció del pati, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de La redacción del patio, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L284A",
+        "L284",
+        "L284B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "la-ilustracion-tambien-tiene-autora-a-es",
+        "code": "L284A",
+        "workId": "la-ilustracion-tambien-tiene-autora-a",
+        "language": "es",
+        "familyId": "familia-l284",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "diary",
+        "title": "La ilustración también tiene autora",
+        "summary": "Omar cuenta cómo una ilustración nueva acabó llevando el nombre de su autora.",
+        "paragraphs": [
+          "Hoy hemos preparado una página del periódico escolar sobre el taller de aviones de papel. Me llamo Omar y escribí el artículo. Clara, mi compañera de redacción, colocaba el texto y las imágenes. Mara, una alumna de quinto que acababa de unirse al equipo, trajo un dibujo de un avión sobre el patio. Lo había terminado en casa.",
+          "También enseñó dos bocetos. En el primero, el avión parecía una mancha entre los árboles. En el segundo se distinguía mejor. Mara había movido las ramas y dejado un trozo de cielo vacío. Clara eligió el dibujo terminado para acompañar mi artículo. Yo escribí debajo «Redacción», porque la página la hacíamos entre varias personas.",
+          "Mara miró mi nombre encima del texto y preguntó dónde iría el suyo. Le señalé la palabra «Redacción». Entonces puso los bocetos al lado de la prueba. Yo había visto el dibujo listo, pero ella llevaba dos tardes trabajando en él. Borré la palabra y pregunté cómo quería firmarlo. «Mara, sin apellido», respondió.",
+          "Clara propuso «Ilustración: Mara» debajo de la imagen y mantuvo mi nombre en el artículo. Cuando intentó recortar el cielo delante del avión para hacer sitio, este quedó muy cerca del margen. Mara pidió verlo entero: aquel espacio dejaba un camino abierto para el vuelo. Clara movió el pie de imagen a otra línea y recuperó el dibujo completo.",
+          "Antes de irnos, Mara me enseñó a dibujar un avión pequeño en una esquina de mi cuaderno. El mío salió torcido. Ella añadió una ráfaga de viento y ahora parecía que estaba girando. Lo he dejado ahí, al lado de esta página del diario."
+        ],
+        "questions": [
+          {
+            "id": "l284a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Quién escribió el artículo sobre el taller?",
+            "answer": "Omar.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Me llamo Omar y escribí el artículo."
+              }
+            ]
+          },
+          {
+            "id": "l284a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué cambió Mara entre los dos bocetos?",
+            "answer": "Movió las ramas y dejó cielo vacío para que el avión se distinguiera mejor.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "había movido las ramas y dejado un trozo de cielo vacío"
+              }
+            ]
+          },
+          {
+            "id": "l284a-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué son los «bocetos» que enseña Mara?",
+            "answer": "Dibujos de prueba anteriores al dibujo terminado.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "También enseñó dos bocetos."
+              }
+            ]
+          },
+          {
+            "id": "l284a-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Omar escribió primero «Redacción»?",
+            "answer": "Porque pensó en el trabajo conjunto de la página y no en identificar a la autora del dibujo.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "porque la página la hacíamos entre varias personas"
+              }
+            ]
+          },
+          {
+            "id": "l284a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué hicieron visible los bocetos para Omar?",
+            "answer": "El trabajo previo de Mara: el dibujo no había aparecido terminado sin esfuerzo.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "ella llevaba dos tardes trabajando en él"
+              }
+            ]
+          },
+          {
+            "id": "l284a-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Cómo sabemos que el texto tiene forma de diario personal?",
+            "answer": "Omar cuenta en primera persona lo que le ha pasado y al final menciona esta página del diario.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Hoy hemos preparado"
+              },
+              {
+                "paragraph": 5,
+                "text": "esta página del diario"
+              }
+            ]
+          },
+          {
+            "id": "l284a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué cambió en la página después de que Mara habló de su dibujo.",
+            "answer": "Identificaron a Mara como ilustradora y conservaron su dibujo entero moviendo el pie de imagen.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "«Ilustración: Mara»"
+              },
+              {
+                "paragraph": 4,
+                "text": "recuperó el dibujo completo"
+              }
+            ]
+          },
+          {
+            "id": "l284a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué te gustaría preguntar a Mara sobre su dibujo? Explica por qué.",
+            "answer": "Pregunta abierta pertinente y razón relacionada con el proceso o las decisiones de la ilustración."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "bocetos",
+            "occurrence": 1,
+            "questionId": "l284a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l284-scene",
+            "src": "assets/readings/l284-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Mara dibuja un avión de papel mientras Clara y Omar miran una prueba del periódico escolar.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan el periódico escolar en una mesa del patio, en una ilustración azul y naranja.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-ilustracion-tambien-tiene-autora-a-ca",
+        "code": "L284A",
+        "workId": "la-ilustracion-tambien-tiene-autora-a",
+        "language": "ca",
+        "familyId": "familia-l284",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "diary",
+        "title": "La il·lustració també té autora",
+        "summary": "L’Omar explica com una il·lustració nova va acabar portant el nom de l’autora.",
+        "paragraphs": [
+          "Avui hem preparat una pàgina del diari escolar sobre el taller d’avions de paper. Em dic Omar i vaig escriure l’article. La Clara, la meva companya de redacció, col·locava el text i les imatges. La Mara, una alumna de cinquè que s’acabava d’afegir a l’equip, ha portat un dibuix d’un avió damunt del pati. L’havia acabat a casa.",
+          "També ha ensenyat dos esbossos. En el primer, l’avió semblava una taca entre els arbres. En el segon es distingia més bé. La Mara havia mogut les branques i deixat un tros de cel buit. La Clara ha triat el dibuix acabat per acompanyar el meu article. Jo he escrit a sota «Redacció», perquè la pàgina la fèiem entre diverses persones.",
+          "La Mara ha mirat el meu nom damunt del text i ha preguntat on aniria el seu. Li he assenyalat la paraula «Redacció». Llavors ha posat els esbossos al costat de la prova. Jo havia vist el dibuix a punt, però ella feia dues tardes que hi treballava. He esborrat la paraula i li he preguntat com el volia signar. «Mara, sense cognom», ha respost.",
+          "La Clara ha proposat «Il·lustració: Mara» sota la imatge i ha mantingut el meu nom a l’article. Quan ha intentat retallar el cel davant de l’avió per fer lloc, aquest ha quedat molt a prop del marge. La Mara ha demanat veure’l sencer: aquell espai deixava un camí obert per al vol. La Clara ha mogut el peu d’imatge a una altra línia i ha recuperat el dibuix complet.",
+          "Abans de marxar, la Mara m’ha ensenyat a dibuixar un avió petit en una cantonada de la llibreta. El meu ha sortit tort. Ella hi ha afegit una ràfega de vent i ara semblava que girava. L’he deixat allà, al costat d’aquesta pàgina del diari."
+        ],
+        "questions": [
+          {
+            "id": "l284a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Qui va escriure l’article sobre el taller?",
+            "answer": "L’Omar.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Em dic Omar i vaig escriure l’article."
+              }
+            ]
+          },
+          {
+            "id": "l284a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què va canviar la Mara entre els dos esbossos?",
+            "answer": "Va moure les branques i va deixar cel buit perquè l’avió es distingís més bé.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "havia mogut les branques i deixat un tros de cel buit"
+              }
+            ]
+          },
+          {
+            "id": "l284a-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què són els «esbossos» que ensenya la Mara?",
+            "answer": "Dibuixos de prova anteriors al dibuix acabat.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "També ha ensenyat dos esbossos."
+              }
+            ]
+          },
+          {
+            "id": "l284a-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què l’Omar va escriure primer «Redacció»?",
+            "answer": "Perquè va pensar en la feina conjunta de la pàgina i no a identificar l’autora del dibuix.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "perquè la pàgina la fèiem entre diverses persones"
+              }
+            ]
+          },
+          {
+            "id": "l284a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què van fer visible els esbossos per a l’Omar?",
+            "answer": "La feina prèvia de la Mara: el dibuix no havia aparegut acabat sense esforç.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "ella feia dues tardes que hi treballava"
+              }
+            ]
+          },
+          {
+            "id": "l284a-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Com sabem que el text té forma de diari personal?",
+            "answer": "L’Omar explica en primera persona el que li ha passat i al final esmenta aquesta pàgina del diari.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Avui hem preparat"
+              },
+              {
+                "paragraph": 5,
+                "text": "aquesta pàgina del diari"
+              }
+            ]
+          },
+          {
+            "id": "l284a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix què va canviar a la pàgina després que la Mara parlés del dibuix.",
+            "answer": "Van identificar la Mara com a il·lustradora i van conservar el dibuix sencer movent el peu d’imatge.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "«Il·lustració: Mara»"
+              },
+              {
+                "paragraph": 4,
+                "text": "ha recuperat el dibuix complet"
+              }
+            ]
+          },
+          {
+            "id": "l284a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Què t’agradaria preguntar a la Mara sobre el dibuix? Explica per què.",
+            "answer": "Pregunta oberta pertinent i raó relacionada amb el procés o les decisions de la il·lustració."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "esbossos",
+            "occurrence": 1,
+            "questionId": "l284a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l284-scene",
+            "src": "assets/readings/l284-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Mara dibuixa un avió de paper mentre la Clara i l’Omar miren una prova del diari escolar.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen el diari escolar en una taula del pati, en una il·lustració blava i taronja.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-ilustracion-tambien-tiene-autora-es",
+        "code": "L284",
+        "workId": "la-ilustracion-tambien-tiene-autora",
+        "language": "es",
+        "familyId": "familia-l284",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "diary",
+        "title": "La ilustración también tiene autora",
+        "summary": "En su diario, Omar recuerda la pregunta que le hizo fijarse en el trabajo de la nueva ilustradora.",
+        "paragraphs": [
+          "Hoy casi he dejado a Mara sin nombre en el periódico escolar. Soy Omar, uno de los alumnos de la redacción, y había escrito el artículo sobre nuestro taller de aviones de papel. Clara estaba distribuyendo las columnas. Mara, una alumna de quinto que acababa de sumarse al equipo, llegó con una ilustración del avión que cruzaría el patio en la portada de nuestra página.",
+          "Traía también dos bocetos. En el primero, las ramas tapaban parte del avión; en el segundo había apartado los árboles y ampliado el cielo. A simple vista, el dibujo final parecía muy sencillo. Mara nos contó que había trabajado dos tardes: primero buscó cómo hacer que se distinguieran los pliegues y después probó dónde colocar los árboles para que el vuelo se entendiera.",
+          "Mi artículo ya llevaba mi nombre encima. Debajo de la imagen escribí «Redacción», pensando que toda la página era una tarea compartida. Mara se quedó mirando la prueba y preguntó dónde aparecería su nombre. Le señalé aquella palabra. Ella puso los dos bocetos junto a la hoja y preguntó quién entendería, al leerla, que el dibujo era suyo. Entonces miré otra vez mi nombre sobre el texto.",
+          "Borré «Redacción» y le pregunté cómo quería firmar. Eligió «Mara», sin apellido. Clara añadió «Ilustración: Mara» debajo del dibujo y mantuvo mi firma junto al artículo. La nueva línea ocupaba espacio. Probó a recortar el cielo delante del avión, que quedó muy cerca del margen de la imagen. Mara pidió comparar la prueba con el original antes de decidir.",
+          "Entendí entonces para qué estaba aquel trozo de cielo vacío. En el dibujo completo, el avión tenía un camino claro; en el recorte parecía a punto de salir de la página. Clara pasó el pie de imagen a otra línea y ajustó la columna de mi artículo. Así recuperó la ilustración entera. Mara comprobó la prueba y guardó los bocetos en su carpeta.",
+          "Al recoger, le pedí que me enseñara a dibujar un avión en el margen de mi cuaderno. El mío salió torcido. Mara añadió una ráfaga de viento y ahora parecía que estaba girando. Debajo escribí nuestros dos nombres. Ella se rio y dijo que esa ráfaga le había costado bastante menos que los árboles de la página. He dejado el pequeño avión junto a esta entrada del diario."
+        ],
+        "questions": [
+          {
+            "id": "l284-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué tarea tenía cada uno al preparar la página?",
+            "answer": "Omar escribió el artículo, Clara distribuía las columnas y Mara hizo la ilustración.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "había escrito el artículo"
+              },
+              {
+                "paragraph": 1,
+                "text": "Clara estaba distribuyendo las columnas."
+              },
+              {
+                "paragraph": 1,
+                "text": "llegó con una ilustración"
+              }
+            ]
+          },
+          {
+            "id": "l284-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿En qué dos aspectos había trabajado Mara durante las dos tardes?",
+            "answer": "En distinguir los pliegues del avión y en colocar los árboles para que se entendiera el vuelo.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "primero buscó cómo hacer que se distinguieran los pliegues y después probó dónde colocar los árboles"
+              }
+            ]
+          },
+          {
+            "id": "l284-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «A simple vista» en el segundo párrafo?",
+            "answer": "Según una primera mirada, antes de fijarse en el trabajo y las decisiones que hay detrás.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "A simple vista, el dibujo final parecía muy sencillo."
+              }
+            ]
+          },
+          {
+            "id": "l284-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué problema señaló Mara al preguntar quién reconocería su dibujo?",
+            "answer": "«Redacción» no permitía identificarla como autora, mientras Omar sí aparecía firmado.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "quién entendería, al leerla, que el dibujo era suyo"
+              },
+              {
+                "paragraph": 3,
+                "text": "mi nombre sobre el texto"
+              }
+            ]
+          },
+          {
+            "id": "l284-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Omar volvió a mirar su propio nombre?",
+            "answer": "Porque advirtió la diferencia: su texto sí tenía autor identificado y el dibujo de Mara no.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Mi artículo ya llevaba mi nombre encima."
+              },
+              {
+                "paragraph": 3,
+                "text": "Entonces miré otra vez mi nombre sobre el texto."
+              }
+            ]
+          },
+          {
+            "id": "l284-q6",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Cómo quiso firmar Mara?",
+            "answer": "Solo con Mara, sin apellido.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Eligió «Mara», sin apellido."
+              }
+            ]
+          },
+          {
+            "id": "l284-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué el recorte cambiaba el efecto del dibujo?",
+            "answer": "Quitaba el cielo situado delante del avión y lo dejaba cerca del margen, como si fuera a salir de la página.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "en el recorte parecía a punto de salir de la página"
+              }
+            ]
+          },
+          {
+            "id": "l284-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué aporta que Omar cuente la escena en primera persona?",
+            "answer": "Permite conocer su primera idea y cómo la cambia al escuchar a Mara y comparar las imágenes.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "parecía muy sencillo"
+              },
+              {
+                "paragraph": 5,
+                "text": "Entendí entonces"
+              }
+            ]
+          },
+          {
+            "id": "l284-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué aprende Omar sobre la ilustración a través de lo que ocurre en la página.",
+            "answer": "Reconoce el trabajo y la autoría de Mara y comprende que el espacio del dibujo también forma parte de sus decisiones.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "había trabajado dos tardes"
+              },
+              {
+                "paragraph": 4,
+                "text": "«Ilustración: Mara»"
+              },
+              {
+                "paragraph": 5,
+                "text": "para qué estaba aquel trozo de cielo vacío"
+              }
+            ]
+          },
+          {
+            "id": "l284-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué preguntarías a una persona antes de adaptar su dibujo a una página? Justifica tu pregunta.",
+            "answer": "Respuesta abierta con una pregunta pertinente sobre intención, composición o presentación, acompañada de una razón."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "A simple vista",
+            "occurrence": 1,
+            "questionId": "l284-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l284-scene",
+            "src": "assets/readings/l284-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Mara dibuja un avión de papel mientras Clara y Omar miran una prueba del periódico escolar.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan el periódico escolar en una mesa del patio, en una ilustración azul y naranja.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "la-ilustracion-tambien-tiene-autora-ca",
+        "code": "L284",
+        "workId": "la-ilustracion-tambien-tiene-autora",
+        "language": "ca",
+        "familyId": "familia-l284",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "diary",
+        "title": "La il·lustració també té autora",
+        "summary": "Al diari personal, l’Omar recorda la pregunta que el va fer fixar en la feina de la nova il·lustradora.",
+        "paragraphs": [
+          "Avui gairebé he deixat la Mara sense nom al diari escolar. Soc l’Omar, un dels alumnes de la redacció, i havia escrit l’article sobre el nostre taller d’avions de paper. La Clara estava distribuint les columnes. La Mara, una alumna de cinquè que s’acabava d’afegir a l’equip, ha arribat amb una il·lustració de l’avió que travessaria el pati a la portada de la nostra pàgina.",
+          "També portava dos esbossos. En el primer, les branques tapaven part de l’avió; en el segon havia apartat els arbres i ampliat el cel. A primer cop d’ull, el dibuix final semblava molt senzill. La Mara ens ha explicat que hi havia treballat dues tardes: primer va buscar com fer que es distingissin els plecs i després va provar on col·locar els arbres perquè el vol s’entengués.",
+          "El meu article ja portava el meu nom al damunt. Sota la imatge he escrit «Redacció», pensant que tota la pàgina era una tasca compartida. La Mara s’ha quedat mirant la prova i ha preguntat on apareixeria el seu nom. Li he assenyalat aquella paraula. Ella ha posat els dos esbossos al costat del full i ha preguntat qui entendria, en llegir-lo, que el dibuix era seu. Llavors he tornat a mirar el meu nom damunt del text.",
+          "He esborrat «Redacció» i li he preguntat com volia signar. Ha triat «Mara», sense cognom. La Clara ha afegit «Il·lustració: Mara» sota el dibuix i ha mantingut la meva signatura al costat de l’article. La nova línia ocupava espai. Ha provat de retallar el cel davant de l’avió, que ha quedat molt a prop del marge de la imatge. La Mara ha demanat comparar la prova amb l’original abans de decidir.",
+          "Llavors he entès per a què servia aquell tros de cel buit. En el dibuix complet, l’avió tenia un camí clar; en el retall semblava a punt de sortir de la pàgina. La Clara ha passat el peu d’imatge a una altra línia i ha ajustat la columna del meu article. Així ha recuperat la il·lustració sencera. La Mara ha comprovat la prova i ha desat els esbossos a la carpeta.",
+          "En recollir, li he demanat que m’ensenyés a dibuixar un avió al marge de la llibreta. El meu ha sortit tort. La Mara hi ha afegit una ràfega de vent i ara semblava que girava. A sota he escrit els nostres dos noms. Ella ha rigut i ha dit que aquella ràfega li havia costat força menys que els arbres de la pàgina. He deixat l’avió petit al costat d’aquesta entrada del diari."
+        ],
+        "questions": [
+          {
+            "id": "l284-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina tasca tenia cadascú en preparar la pàgina?",
+            "answer": "L’Omar va escriure l’article, la Clara distribuïa les columnes i la Mara va fer la il·lustració.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "havia escrit l’article"
+              },
+              {
+                "paragraph": 1,
+                "text": "La Clara estava distribuint les columnes."
+              },
+              {
+                "paragraph": 1,
+                "text": "ha arribat amb una il·lustració"
+              }
+            ]
+          },
+          {
+            "id": "l284-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "En quins dos aspectes havia treballat la Mara durant les dues tardes?",
+            "answer": "A distingir els plecs de l’avió i a col·locar els arbres perquè s’entengués el vol.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "primer va buscar com fer que es distingissin els plecs i després va provar on col·locar els arbres"
+              }
+            ]
+          },
+          {
+            "id": "l284-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què significa «A primer cop d’ull» al segon paràgraf?",
+            "answer": "Segons una primera mirada, abans de fixar-se en la feina i les decisions que hi ha al darrere.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "A primer cop d’ull, el dibuix final semblava molt senzill."
+              }
+            ]
+          },
+          {
+            "id": "l284-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quin problema va assenyalar la Mara en preguntar qui reconeixeria el seu dibuix?",
+            "answer": "«Redacció» no permetia identificar-la com a autora, mentre que l’Omar sí que hi apareixia signat.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "qui entendria, en llegir-lo, que el dibuix era seu"
+              },
+              {
+                "paragraph": 3,
+                "text": "el meu nom damunt del text"
+              }
+            ]
+          },
+          {
+            "id": "l284-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què l’Omar va tornar a mirar el seu propi nom?",
+            "answer": "Perquè va advertir la diferència: el seu text sí que tenia l’autor identificat i el dibuix de la Mara no.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El meu article ja portava el meu nom al damunt."
+              },
+              {
+                "paragraph": 3,
+                "text": "Llavors he tornat a mirar el meu nom damunt del text."
+              }
+            ]
+          },
+          {
+            "id": "l284-q6",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Com va voler signar la Mara?",
+            "answer": "Només amb Mara, sense cognom.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Ha triat «Mara», sense cognom."
+              }
+            ]
+          },
+          {
+            "id": "l284-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què el retall canviava l’efecte del dibuix?",
+            "answer": "Treia el cel situat davant de l’avió i el deixava a prop del marge, com si hagués de sortir de la pàgina.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "en el retall semblava a punt de sortir de la pàgina"
+              }
+            ]
+          },
+          {
+            "id": "l284-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Què aporta que l’Omar expliqui l’escena en primera persona?",
+            "answer": "Permet conèixer la seva primera idea i com la canvia en escoltar la Mara i comparar les imatges.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "semblava molt senzill"
+              },
+              {
+                "paragraph": 5,
+                "text": "Llavors he entès"
+              }
+            ]
+          },
+          {
+            "id": "l284-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix què aprèn l’Omar sobre la il·lustració a través del que passa a la pàgina.",
+            "answer": "Reconeix la feina i l’autoria de la Mara i comprèn que l’espai del dibuix també forma part de les seves decisions.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "hi havia treballat dues tardes"
+              },
+              {
+                "paragraph": 4,
+                "text": "«Il·lustració: Mara»"
+              },
+              {
+                "paragraph": 5,
+                "text": "per a què servia aquell tros de cel buit"
+              }
+            ]
+          },
+          {
+            "id": "l284-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Què preguntaries a una persona abans d’adaptar el seu dibuix a una pàgina? Justifica la pregunta.",
+            "answer": "Resposta oberta amb una pregunta pertinent sobre intenció, composició o presentació, acompanyada d’una raó."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "A primer cop d’ull",
+            "occurrence": 1,
+            "questionId": "l284-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l284-scene",
+            "src": "assets/readings/l284-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Mara dibuixa un avió de paper mentre la Clara i l’Omar miren una prova del diari escolar.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen el diari escolar en una taula del pati, en una il·lustració blava i taronja.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "la-ilustracion-tambien-tiene-autora-b-es",
+        "code": "L284B",
+        "workId": "la-ilustracion-tambien-tiene-autora-b",
+        "language": "es",
+        "familyId": "familia-l284",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "diary",
+        "title": "La ilustración también tiene autora",
+        "summary": "Omar descubre que un nombre colectivo y un recorte aparentemente pequeño podían ocultar decisiones de la ilustradora.",
+        "paragraphs": [
+          "Hoy he vuelto a mirar una palabra que suelo escribir sin pensarlo demasiado: «Redacción». Soy Omar, alumno de sexto y colaborador del periódico escolar. Había terminado el artículo sobre nuestro taller de aviones de papel. Clara distribuía las columnas y yo buscaba una frase para acompañar la imagen. Mara, una alumna de quinto recién incorporada al equipo, había traído una ilustración de un avión cruzando el patio. También llevaba dos bocetos dentro de una carpeta azul.",
+          "Al principio vi un dibujo bastante sencillo: un avión, dos árboles y cielo. Mara desplegó las pruebas. En la primera, las ramas tapaban parte de un ala; en la segunda había apartado los árboles y dejado más espacio en la dirección del vuelo. Había dedicado una tarde a distinguir los pliegues y otra a colocar los árboles. Para probar sus dibujos, había puesto un avión de papel sobre la mesa y lo había mirado desde varios lados. Yo había escrito tres párrafos sobre el taller y apenas me había preguntado qué historia contaba la imagen por su cuenta.",
+          "Mi nombre ya aparecía sobre el artículo. Debajo de la ilustración escribí «Redacción», porque la página saldría del trabajo de varias personas. Mara me preguntó dónde pondríamos el suyo. Le señalé aquella palabra y ella acercó los bocetos a la prueba. «Si tú no estuvieras aquí, ¿sabrías quién lo ha dibujado?», preguntó. Miré mi firma y luego la suya, que todavía faltaba. Había dado por sentado que nuestra palabra de grupo servía también para explicar cada trabajo.",
+          "Borré la palabra y le pregunté cómo quería firmar. Prefirió «Mara», sin apellido. Clara escribió «Ilustración: Mara» bajo la imagen y conservó mi nombre junto al texto. Para encajar la nueva línea, recortó el cielo delante del avión. La punta quedó cerca del margen de la imagen. Mara pidió ver la prueba al lado del original. Con el recorte, el avión parecía a punto de salir del marco; en la versión completa había espacio para seguir imaginando el vuelo.",
+          "Clara movió el pie de imagen a otra línea y ajustó la columna de mi artículo hasta recuperar el dibujo entero. El espacio vacío había parecido lo más fácil de quitar. Ahora veíamos que dejaba espacio en la dirección del vuelo y dirigía la mirada. Mara pasó un dedo por ese camino sin tocar el papel. Volví a leer mi artículo: explicaba cómo habíamos doblado y probado los aviones. El dibujo, en cambio, inventaba un vuelo posible sobre el patio.",
+          "Guardamos una prueba con el nombre de cada autor y la imagen completa. Mara se llevó los bocetos en la carpeta azul. Antes de recoger, le pedí que me enseñara a dibujar un avión en el margen de mi cuaderno. El mío salió torcido; ella añadió una ráfaga de viento y parecía que estaba girando. Escribí nuestros dos nombres debajo. Mara se rio: aquella ráfaga había sido bastante más rápida que los árboles. He dejado el pequeño avión junto a esta entrada del diario."
+        ],
+        "questions": [
+          {
+            "id": "l284b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué dos tipos de trabajo aportó Mara además del dibujo final?",
+            "answer": "Las pruebas sobre los pliegues y sobre la colocación de los árboles, visibles en los bocetos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "una tarde a distinguir los pliegues y otra a colocar los árboles"
+              }
+            ]
+          },
+          {
+            "id": "l284b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué la pregunta «Si tú no estuvieras aquí…» pone a prueba la firma colectiva?",
+            "answer": "Obliga a pensar en un lector que no ha presenciado el trabajo y no puede identificar a la ilustradora a partir de «Redacción».",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "¿sabrías quién lo ha dibujado?"
+              }
+            ]
+          },
+          {
+            "id": "l284b-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué quiere decir «dado por sentado» en la reflexión de Omar?",
+            "answer": "Que había aceptado esa idea como válida sin comprobar si realmente explicaba quién había hecho cada trabajo.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Había dado por sentado que nuestra palabra de grupo servía también para explicar cada trabajo."
+              }
+            ]
+          },
+          {
+            "id": "l284b-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué diferencia advierte Omar entre su firma y la de Mara?",
+            "answer": "Él ya estaba identificado como autor del artículo; el trabajo de Mara quedaba dentro de una palabra colectiva.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Miré mi firma y luego la suya, que todavía faltaba."
+              }
+            ]
+          },
+          {
+            "id": "l284b-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué hicieron para que cupiera la firma sin perder parte de la imagen?",
+            "answer": "Movieron el pie a otra línea y ajustaron la columna del artículo.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "movió el pie de imagen a otra línea y ajustó la columna de mi artículo"
+              }
+            ]
+          },
+          {
+            "id": "l284b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué el cielo aparentemente vacío no era un espacio sin función?",
+            "answer": "Dejaba espacio en la dirección del vuelo y ayudaba a imaginar que continuaba más allá del marco.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "dejaba espacio en la dirección del vuelo y dirigía la mirada"
+              }
+            ]
+          },
+          {
+            "id": "l284b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué diferencia entre el artículo y la ilustración reconoce Omar?",
+            "answer": "El artículo relata el taller que hicieron; la ilustración imagina un vuelo posible sobre el patio.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "explicaba cómo habíamos doblado y probado los aviones"
+              },
+              {
+                "paragraph": 5,
+                "text": "inventaba un vuelo posible sobre el patio"
+              }
+            ]
+          },
+          {
+            "id": "l284b-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué efecto produce la frase inicial sobre «Redacción»?",
+            "answer": "Anuncia que Omar revisará una idea habitual suya, cuyo motivo se entiende en la escena con Mara.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una palabra que suelo escribir sin pensarlo demasiado"
+              }
+            ]
+          },
+          {
+            "id": "l284b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Podemos afirmar que Mara quería firmar con apellido? Justifica con el texto.",
+            "answer": "No: al preguntarle, prefirió Mara sin apellido.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Prefirió «Mara», sin apellido."
+              }
+            ]
+          },
+          {
+            "id": "l284b-q10",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué los dos nombres bajo el avión del cuaderno resultan coherentes con lo que pasó?",
+            "answer": "Porque Omar dibujó el avión y Mara añadió la ráfaga que cambió su efecto; ambos aportaron algo a ese dibujo.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "El mío salió torcido; ella añadió una ráfaga de viento"
+              }
+            ]
+          },
+          {
+            "id": "l284b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume los dos aspectos del trabajo de Mara que Omar aprende a reconocer.",
+            "answer": "Reconoce su autoría y proceso previo, y comprende que la composición aporta un sentido que un recorte puede cambiar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "¿sabrías quién lo ha dibujado?"
+              },
+              {
+                "paragraph": 5,
+                "text": "dirigía la mirada"
+              }
+            ]
+          },
+          {
+            "id": "l284b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Si tuvieras poco espacio, ¿qué propondrías antes de recortar una ilustración? Explica cómo hablarías con su autora.",
+            "answer": "Respuesta abierta que propone un ajuste viable y explica cómo contrastaría sus efectos con la autora."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "dado por sentado",
+            "occurrence": 1,
+            "questionId": "l284b-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l284-scene",
+            "src": "assets/readings/l284-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Mara dibuja un avión de papel mientras Clara y Omar miran una prueba del periódico escolar.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan el periódico escolar en una mesa del patio, en una ilustración azul y naranja.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "la-ilustracion-tambien-tiene-autora-b-ca",
+        "code": "L284B",
+        "workId": "la-ilustracion-tambien-tiene-autora-b",
+        "language": "ca",
+        "familyId": "familia-l284",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "community",
+          "everyday"
+        ],
+        "genre": "diary",
+        "title": "La il·lustració també té autora",
+        "summary": "L’Omar descobreix que un nom col·lectiu i un retall aparentment petit podien amagar decisions de la il·lustradora.",
+        "paragraphs": [
+          "Avui he tornat a mirar una paraula que acostumo a escriure sense pensar-hi gaire: «Redacció». Soc l’Omar, alumne de sisè i col·laborador del diari escolar. Havia acabat l’article sobre el nostre taller d’avions de paper. La Clara distribuïa les columnes i jo buscava una frase per acompanyar la imatge. La Mara, una alumna de cinquè acabada d’incorporar a l’equip, havia portat una il·lustració d’un avió travessant el pati. També duia dos esbossos dins d’una carpeta blava.",
+          "Al principi vaig veure un dibuix força senzill: un avió, dos arbres i cel. La Mara ha desplegat les proves. En la primera, les branques tapaven part d’una ala; en la segona havia apartat els arbres i deixat més espai en la direcció del vol. Havia dedicat una tarda a distingir els plecs i una altra a col·locar els arbres. Per provar els dibuixos, havia posat un avió de paper damunt la taula i se l’havia mirat des de diversos costats. Jo havia escrit tres paràgrafs sobre el taller i gairebé no m’havia preguntat quina història explicava la imatge pel seu compte.",
+          "El meu nom ja apareixia damunt de l’article. Sota la il·lustració he escrit «Redacció», perquè la pàgina sortiria de la feina de diverses persones. La Mara m’ha preguntat on hi posaríem el seu. Li he assenyalat aquella paraula i ella ha acostat els esbossos a la prova. «Si tu no fossis aquí, sabries qui l’ha dibuixat?», ha preguntat. He mirat la meva signatura i després la seva, que encara faltava. Havia donat per fet que la nostra paraula de grup també servia per explicar cada feina.",
+          "He esborrat la paraula i li he preguntat com volia signar. Ha preferit «Mara», sense cognom. La Clara ha escrit «Il·lustració: Mara» sota la imatge i ha conservat el meu nom al costat del text. Per encabir la línia nova, ha retallat el cel davant de l’avió. La punta ha quedat a prop del marge de la imatge. La Mara ha demanat veure la prova al costat de l’original. Amb el retall, l’avió semblava a punt de sortir del marc; en la versió completa hi havia espai per continuar imaginant el vol.",
+          "La Clara ha mogut el peu d’imatge a una altra línia i ha ajustat la columna del meu article fins a recuperar el dibuix sencer. L’espai buit havia semblat el més fàcil de treure. Ara vèiem que deixava espai en la direcció del vol i dirigia la mirada. La Mara ha passat un dit per aquell camí sense tocar el paper. He tornat a llegir l’article: explicava com havíem plegat i provat els avions. El dibuix, en canvi, inventava un vol possible damunt del pati.",
+          "Hem desat una prova amb el nom de cada autor i la imatge completa. La Mara s’ha endut els esbossos a la carpeta blava. Abans de recollir, li he demanat que m’ensenyés a dibuixar un avió al marge de la llibreta. El meu ha sortit tort; ella hi ha afegit una ràfega de vent i semblava que girava. He escrit els nostres dos noms a sota. La Mara ha rigut: aquella ràfega havia estat força més ràpida que els arbres. He deixat l’avió petit al costat d’aquesta entrada del diari."
+        ],
+        "questions": [
+          {
+            "id": "l284b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quins dos tipus de feina va aportar la Mara a més del dibuix final?",
+            "answer": "Les proves sobre els plecs i sobre la col·locació dels arbres, visibles als esbossos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "una tarda a distingir els plecs i una altra a col·locar els arbres"
+              }
+            ]
+          },
+          {
+            "id": "l284b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la pregunta «Si tu no fossis aquí…» posa a prova la signatura col·lectiva?",
+            "answer": "Obliga a pensar en un lector que no ha presenciat la feina i no pot identificar la il·lustradora a partir de «Redacció».",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "sabries qui l’ha dibuixat?"
+              }
+            ]
+          },
+          {
+            "id": "l284b-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir «donat per fet» en la reflexió de l’Omar?",
+            "answer": "Que havia acceptat aquella idea com a vàlida sense comprovar si realment explicava qui havia fet cada feina.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Havia donat per fet que la nostra paraula de grup també servia per explicar cada feina."
+              }
+            ]
+          },
+          {
+            "id": "l284b-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina diferència adverteix l’Omar entre la seva signatura i la de la Mara?",
+            "answer": "Ell ja estava identificat com a autor de l’article; la feina de la Mara quedava dins d’una paraula col·lectiva.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "He mirat la meva signatura i després la seva, que encara faltava."
+              }
+            ]
+          },
+          {
+            "id": "l284b-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què van fer perquè hi cabés la signatura sense perdre part de la imatge?",
+            "answer": "Van moure el peu a una altra línia i van ajustar la columna de l’article.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "ha mogut el peu d’imatge a una altra línia i ha ajustat la columna del meu article"
+              }
+            ]
+          },
+          {
+            "id": "l284b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què el cel aparentment buit no era un espai sense funció?",
+            "answer": "Deixava espai en la direcció del vol i ajudava a imaginar que continuava més enllà del marc.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "deixava espai en la direcció del vol i dirigia la mirada"
+              }
+            ]
+          },
+          {
+            "id": "l284b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina diferència entre l’article i la il·lustració reconeix l’Omar?",
+            "answer": "L’article relata el taller que van fer; la il·lustració imagina un vol possible damunt del pati.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "explicava com havíem plegat i provat els avions"
+              },
+              {
+                "paragraph": 5,
+                "text": "inventava un vol possible damunt del pati"
+              }
+            ]
+          },
+          {
+            "id": "l284b-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quin efecte produeix la frase inicial sobre «Redacció»?",
+            "answer": "Anuncia que l’Omar revisarà una idea habitual seva, i el motiu s’entén en l’escena amb la Mara.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una paraula que acostumo a escriure sense pensar-hi gaire"
+              }
+            ]
+          },
+          {
+            "id": "l284b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Podem afirmar que la Mara volia signar amb cognom? Justifica-ho amb el text.",
+            "answer": "No: en preguntar-li, va preferir Mara sense cognom.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Ha preferit «Mara», sense cognom."
+              }
+            ]
+          },
+          {
+            "id": "l284b-q10",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què els dos noms sota l’avió de la llibreta són coherents amb el que ha passat?",
+            "answer": "Perquè l’Omar va dibuixar l’avió i la Mara hi va afegir la ràfega que en va canviar l’efecte; tots dos van aportar una cosa a aquell dibuix.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "El meu ha sortit tort; ella hi ha afegit una ràfega de vent"
+              }
+            ]
+          },
+          {
+            "id": "l284b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix els dos aspectes de la feina de la Mara que l’Omar aprèn a reconèixer.",
+            "answer": "Reconeix la seva autoria i el procés previ, i comprèn que la composició aporta un sentit que un retall pot canviar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "sabries qui l’ha dibuixat?"
+              },
+              {
+                "paragraph": 5,
+                "text": "dirigia la mirada"
+              }
+            ]
+          },
+          {
+            "id": "l284b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Si tinguessis poc espai, què proposaries abans de retallar una il·lustració? Explica com en parlaries amb l’autora.",
+            "answer": "Resposta oberta que proposa un ajust viable i explica com en contrastaria els efectes amb l’autora."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "donat per fet",
+            "occurrence": 1,
+            "questionId": "l284b-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l284-scene",
+            "src": "assets/readings/l284-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Mara dibuixa un avió de paper mentre la Clara i l’Omar miren una prova del diari escolar.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen el diari escolar en una taula del pati, en una il·lustració blava i taronja.",
+            "afterParagraph": 4
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L284A",
+        "language": "es",
+        "questions": {
+          "l284a-q1": {
+            "prompt": "¿Quién escribió el artículo sobre el taller?",
+            "options": [
+              "Clara.",
+              "Mara.",
+              "Omar.",
+              "Todo el equipo a la vez."
+            ],
+            "correct": "c",
+            "explanation": "Omar."
+          },
+          "l284a-q2": {
+            "prompt": "¿Qué cambió Mara entre los dos bocetos?",
+            "options": [
+              "Movió las ramas y dejó una parte del cielo vacía.",
+              "Sustituyó el avión por un dibujo de árboles.",
+              "Colocó el artículo dentro del cielo del dibujo.",
+              "Añadió más ramas alrededor de todo el avión."
+            ],
+            "correct": "a",
+            "explanation": "Movió las ramas y dejó cielo vacío para que el avión se distinguiera mejor."
+          },
+          "l284a-q3": {
+            "prompt": "¿Qué son los «bocetos» que enseña Mara?",
+            "options": [
+              "Copias impresas de la página del periódico.",
+              "Artículos que todavía no han revisado.",
+              "Firmas para poner al final del dibujo.",
+              "Dibujos de prueba anteriores al terminado."
+            ],
+            "correct": "d",
+            "explanation": "Dibujos de prueba anteriores al dibujo terminado."
+          },
+          "l284a-q4": {
+            "prompt": "¿Por qué Omar escribió primero «Redacción»?",
+            "options": [
+              "Porque Mara había pedido que nadie pusiera su nombre.",
+              "Porque pensó en la página como un trabajo de varias personas.",
+              "Porque Clara también había dibujado parte del avión.",
+              "Porque todavía no sabía quién había traído el dibujo."
+            ],
+            "correct": "b",
+            "explanation": "Porque pensó en el trabajo conjunto de la página y no en identificar a la autora del dibujo."
+          },
+          "l284a-q5": {
+            "prompt": "¿Qué hicieron visible los bocetos para Omar?",
+            "options": [
+              "Que el artículo necesitaba cambiar de autor.",
+              "Que el primer dibujo era el elegido para publicar.",
+              "Que Mara había probado y trabajado antes de traerlo.",
+              "Que Clara había dibujado el cielo en su casa."
+            ],
+            "correct": "c",
+            "explanation": "El trabajo previo de Mara: el dibujo no había aparecido terminado sin esfuerzo."
+          },
+          "l284a-q6": {
+            "prompt": "¿Cómo sabemos que el texto tiene forma de diario personal?",
+            "options": [
+              "Porque Omar relata su día desde su propio punto de vista.",
+              "Porque da pasos para construir un avión de papel.",
+              "Porque reúne las respuestas de una entrevista a Mara.",
+              "Porque describe todas las noticias de aquel periódico."
+            ],
+            "correct": "a",
+            "explanation": "Omar cuenta en primera persona lo que le ha pasado y al final menciona esta página del diario."
+          },
+          "l284a-q7": {
+            "prompt": "¿Qué resumen recoge los cambios finales?",
+            "options": [
+              "Mara sustituyó el artículo de Omar por sus dos bocetos.",
+              "Omar puso su nombre debajo de la imagen y borró el de Mara.",
+              "Clara recortó el cielo para que cupieran todos los nombres.",
+              "Añadieron el nombre de Mara y conservaron la imagen completa."
+            ],
+            "correct": "d",
+            "explanation": "Identificaron a Mara como ilustradora y conservaron su dibujo entero moviendo el pie de imagen."
+          }
+        }
+      },
+      {
+        "code": "L284A",
+        "language": "ca",
+        "questions": {
+          "l284a-q1": {
+            "prompt": "Qui va escriure l’article sobre el taller?",
+            "options": [
+              "La Clara.",
+              "La Mara.",
+              "L’Omar.",
+              "Tot l’equip alhora."
+            ],
+            "correct": "c",
+            "explanation": "L’Omar."
+          },
+          "l284a-q2": {
+            "prompt": "Què va canviar la Mara entre els dos esbossos?",
+            "options": [
+              "Va moure les branques i va deixar una part del cel buida.",
+              "Va substituir l’avió per un dibuix d’arbres.",
+              "Va col·locar l’article dins del cel del dibuix.",
+              "Va afegir més branques al voltant de tot l’avió."
+            ],
+            "correct": "a",
+            "explanation": "Va moure les branques i va deixar cel buit perquè l’avió es distingís més bé."
+          },
+          "l284a-q3": {
+            "prompt": "Què són els «esbossos» que ensenya la Mara?",
+            "options": [
+              "Còpies impreses de la pàgina del diari.",
+              "Articles que encara no han revisat.",
+              "Signatures per posar al final del dibuix.",
+              "Dibuixos de prova anteriors a l’acabat."
+            ],
+            "correct": "d",
+            "explanation": "Dibuixos de prova anteriors al dibuix acabat."
+          },
+          "l284a-q4": {
+            "prompt": "Per què l’Omar va escriure primer «Redacció»?",
+            "options": [
+              "Perquè la Mara havia demanat que ningú hi posés el seu nom.",
+              "Perquè va pensar en la pàgina com una feina de diverses persones.",
+              "Perquè la Clara també havia dibuixat part de l’avió.",
+              "Perquè encara no sabia qui havia portat el dibuix."
+            ],
+            "correct": "b",
+            "explanation": "Perquè va pensar en la feina conjunta de la pàgina i no a identificar l’autora del dibuix."
+          },
+          "l284a-q5": {
+            "prompt": "Què van fer visible els esbossos per a l’Omar?",
+            "options": [
+              "Que l’article necessitava canviar d’autor.",
+              "Que el primer dibuix era el triat per publicar.",
+              "Que la Mara havia provat i treballat abans de portar-lo.",
+              "Que la Clara havia dibuixat el cel a casa seva."
+            ],
+            "correct": "c",
+            "explanation": "La feina prèvia de la Mara: el dibuix no havia aparegut acabat sense esforç."
+          },
+          "l284a-q6": {
+            "prompt": "Com sabem que el text té forma de diari personal?",
+            "options": [
+              "Perquè l’Omar explica el seu dia des del seu punt de vista.",
+              "Perquè dona passos per construir un avió de paper.",
+              "Perquè recull les respostes d’una entrevista a la Mara.",
+              "Perquè descriu totes les notícies d’aquell diari."
+            ],
+            "correct": "a",
+            "explanation": "L’Omar explica en primera persona el que li ha passat i al final esmenta aquesta pàgina del diari."
+          },
+          "l284a-q7": {
+            "prompt": "Quin resum recull els canvis finals?",
+            "options": [
+              "La Mara va substituir l’article de l’Omar pels dos esbossos.",
+              "L’Omar va posar el seu nom sota la imatge i va esborrar el de la Mara.",
+              "La Clara va retallar el cel perquè hi cabessin tots els noms.",
+              "Van afegir el nom de la Mara i van conservar la imatge completa."
+            ],
+            "correct": "d",
+            "explanation": "Van identificar la Mara com a il·lustradora i van conservar el dibuix sencer movent el peu d’imatge."
+          }
+        }
+      },
+      {
+        "code": "L284",
+        "language": "es",
+        "questions": {
+          "l284-q1": {
+            "prompt": "¿Qué tarea tenía cada uno al preparar la página?",
+            "options": [
+              "Omar ilustró, Clara escribió y Mara distribuyó las columnas.",
+              "Omar escribió, Clara distribuyó y Mara ilustró.",
+              "Los tres escribieron el artículo y eligieron una foto antigua.",
+              "Mara escribió e ilustró y los otros dos solo imprimieron."
+            ],
+            "correct": "b",
+            "explanation": "Omar escribió el artículo, Clara distribuía las columnas y Mara hizo la ilustración."
+          },
+          "l284-q2": {
+            "prompt": "¿En qué dos aspectos había trabajado Mara durante las dos tardes?",
+            "options": [
+              "En escribir el artículo y elegir sus dos firmas.",
+              "En imprimir las páginas y recortar los árboles.",
+              "En distribuir las columnas y mover el pie de imagen.",
+              "En mostrar los pliegues y situar bien los árboles."
+            ],
+            "correct": "d",
+            "explanation": "En distinguir los pliegues del avión y en colocar los árboles para que se entendiera el vuelo."
+          },
+          "l284-q3": {
+            "prompt": "¿Qué significa «A simple vista» en el segundo párrafo?",
+            "options": [
+              "Al mirarlo por primera vez, sin examinar sus detalles.",
+              "Después de comparar con cuidado los dos bocetos.",
+              "Al ver únicamente la firma situada bajo la imagen.",
+              "Después de haber dibujado el mismo avión muchas veces."
+            ],
+            "correct": "a",
+            "explanation": "Según una primera mirada, antes de fijarse en el trabajo y las decisiones que hay detrás."
+          },
+          "l284-q4": {
+            "prompt": "¿Qué problema señaló Mara al preguntar quién reconocería su dibujo?",
+            "options": [
+              "Que el dibujo todavía no tenía árboles suficientes.",
+              "Que el artículo se había publicado con un nombre equivocado.",
+              "Que la firma colectiva no indicaba quién había ilustrado.",
+              "Que faltaba explicar cómo se construía el avión del taller."
+            ],
+            "correct": "c",
+            "explanation": "«Redacción» no permitía identificarla como autora, mientras Omar sí aparecía firmado."
+          },
+          "l284-q5": {
+            "prompt": "¿Por qué Omar volvió a mirar su propio nombre?",
+            "options": [
+              "Para comprobar si Clara había cambiado el título del artículo.",
+              "Para comparar su firma visible con la falta del nombre de Mara.",
+              "Para copiar su firma debajo de la ilustración terminada.",
+              "Para saber cuánto había tardado Mara en hacer el dibujo."
+            ],
+            "correct": "b",
+            "explanation": "Porque advirtió la diferencia: su texto sí tenía autor identificado y el dibujo de Mara no."
+          },
+          "l284-q6": {
+            "prompt": "¿Cómo quiso firmar Mara?",
+            "options": [
+              "Como «Redacción».",
+              "Con Omar y Clara.",
+              "Con nombre y apellido.",
+              "Con su nombre, sin apellido."
+            ],
+            "correct": "d",
+            "explanation": "Solo con Mara, sin apellido."
+          },
+          "l284-q7": {
+            "prompt": "¿Por qué el recorte cambiaba el efecto del dibujo?",
+            "options": [
+              "Reducía el espacio delante del avión y lo acercaba al margen.",
+              "Mostraba árboles que no estaban en el dibujo original.",
+              "Hacía que las ramas taparan el ala, como en el primer boceto.",
+              "Borraba los pliegues porque Mara aún no los había terminado."
+            ],
+            "correct": "a",
+            "explanation": "Quitaba el cielo situado delante del avión y lo dejaba cerca del margen, como si fuera a salir de la página."
+          },
+          "l284-q8": {
+            "prompt": "¿Qué aporta que Omar cuente la escena en primera persona?",
+            "options": [
+              "Conocer lo que pensaban todos los alumnos del taller.",
+              "Recibir instrucciones exactas para dibujar el avión.",
+              "Seguir el cambio de mirada de quien había escrito «Redacción».",
+              "Leer la opinión de Mara sin pasar por otro narrador."
+            ],
+            "correct": "c",
+            "explanation": "Permite conocer su primera idea y cómo la cambia al escuchar a Mara y comparar las imágenes."
+          },
+          "l284-q9": {
+            "prompt": "¿Qué resumen recoge mejor el cambio de Omar?",
+            "options": [
+              "Aprende a sustituir un artículo por una imagen cuando falta espacio.",
+              "Reconoce la autoría y el trabajo de Mara y el sentido de la composición.",
+              "Descubre que todos los dibujos deben ir firmados con apellidos.",
+              "Decide que las ilustraciones compartidas ya no necesitan revisión."
+            ],
+            "correct": "b",
+            "explanation": "Reconoce el trabajo y la autoría de Mara y comprende que el espacio del dibujo también forma parte de sus decisiones."
+          }
+        }
+      },
+      {
+        "code": "L284",
+        "language": "ca",
+        "questions": {
+          "l284-q1": {
+            "prompt": "Quina tasca tenia cadascú en preparar la pàgina?",
+            "options": [
+              "L’Omar va il·lustrar, la Clara va escriure i la Mara va distribuir les columnes.",
+              "L’Omar va escriure, la Clara va distribuir i la Mara va il·lustrar.",
+              "Tots tres van escriure l’article i van triar una foto antiga.",
+              "La Mara va escriure i il·lustrar i els altres dos només van imprimir."
+            ],
+            "correct": "b",
+            "explanation": "L’Omar va escriure l’article, la Clara distribuïa les columnes i la Mara va fer la il·lustració."
+          },
+          "l284-q2": {
+            "prompt": "En quins dos aspectes havia treballat la Mara durant les dues tardes?",
+            "options": [
+              "A escriure l’article i triar-ne les dues signatures.",
+              "A imprimir les pàgines i retallar els arbres.",
+              "A distribuir les columnes i moure el peu d’imatge.",
+              "A mostrar els plecs i situar bé els arbres."
+            ],
+            "correct": "d",
+            "explanation": "A distingir els plecs de l’avió i a col·locar els arbres perquè s’entengués el vol."
+          },
+          "l284-q3": {
+            "prompt": "Què significa «A primer cop d’ull» al segon paràgraf?",
+            "options": [
+              "En mirar-lo per primera vegada, sense examinar-ne els detalls.",
+              "Després de comparar amb cura els dos esbossos.",
+              "En veure únicament la signatura situada sota la imatge.",
+              "Després d’haver dibuixat el mateix avió moltes vegades."
+            ],
+            "correct": "a",
+            "explanation": "Segons una primera mirada, abans de fixar-se en la feina i les decisions que hi ha al darrere."
+          },
+          "l284-q4": {
+            "prompt": "Quin problema va assenyalar la Mara en preguntar qui reconeixeria el seu dibuix?",
+            "options": [
+              "Que al dibuix encara no hi havia prou arbres.",
+              "Que l’article s’havia publicat amb un nom equivocat.",
+              "Que la signatura col·lectiva no indicava qui havia il·lustrat.",
+              "Que faltava explicar com es construïa l’avió del taller."
+            ],
+            "correct": "c",
+            "explanation": "«Redacció» no permetia identificar-la com a autora, mentre que l’Omar sí que hi apareixia signat."
+          },
+          "l284-q5": {
+            "prompt": "Per què l’Omar va tornar a mirar el seu propi nom?",
+            "options": [
+              "Per comprovar si la Clara havia canviat el títol de l’article.",
+              "Per comparar la seva signatura visible amb la falta del nom de la Mara.",
+              "Per copiar la seva signatura sota la il·lustració acabada.",
+              "Per saber quant havia trigat la Mara a fer el dibuix."
+            ],
+            "correct": "b",
+            "explanation": "Perquè va advertir la diferència: el seu text sí que tenia l’autor identificat i el dibuix de la Mara no."
+          },
+          "l284-q6": {
+            "prompt": "Com va voler signar la Mara?",
+            "options": [
+              "Com a «Redacció».",
+              "Amb l’Omar i la Clara.",
+              "Amb nom i cognom.",
+              "Amb el seu nom, sense cognom."
+            ],
+            "correct": "d",
+            "explanation": "Només amb Mara, sense cognom."
+          },
+          "l284-q7": {
+            "prompt": "Per què el retall canviava l’efecte del dibuix?",
+            "options": [
+              "Reduïa l’espai davant de l’avió i l’acostava al marge.",
+              "Mostrava arbres que no eren al dibuix original.",
+              "Feia que les branques tapessin l’ala, com en el primer esbós.",
+              "Esborrava els plecs perquè la Mara encara no els havia acabat."
+            ],
+            "correct": "a",
+            "explanation": "Treia el cel situat davant de l’avió i el deixava a prop del marge, com si hagués de sortir de la pàgina."
+          },
+          "l284-q8": {
+            "prompt": "Què aporta que l’Omar expliqui l’escena en primera persona?",
+            "options": [
+              "Conèixer el que pensaven tots els alumnes del taller.",
+              "Rebre instruccions exactes per dibuixar l’avió.",
+              "Seguir el canvi de mirada de qui havia escrit «Redacció».",
+              "Llegir l’opinió de la Mara sense passar per un altre narrador."
+            ],
+            "correct": "c",
+            "explanation": "Permet conèixer la seva primera idea i com la canvia en escoltar la Mara i comparar les imatges."
+          },
+          "l284-q9": {
+            "prompt": "Quin resum recull millor el canvi de l’Omar?",
+            "options": [
+              "Aprèn a substituir un article per una imatge quan falta espai.",
+              "Reconeix l’autoria i la feina de la Mara i el sentit de la composició.",
+              "Descobreix que tots els dibuixos han d’anar signats amb cognoms.",
+              "Decideix que les il·lustracions compartides ja no necessiten revisió."
+            ],
+            "correct": "b",
+            "explanation": "Reconeix la feina i l’autoria de la Mara i comprèn que l’espai del dibuix també forma part de les seves decisions."
+          }
+        }
+      },
+      {
+        "code": "L284B",
+        "language": "es",
+        "questions": {
+          "l284b-q1": {
+            "prompt": "¿Qué dos tipos de trabajo aportó Mara además del dibujo final?",
+            "options": [
+              "La escritura del artículo y la revisión de sus tres párrafos.",
+              "Las pruebas de impresión y la elección del título del taller.",
+              "Las pruebas de pliegues y de colocación de los árboles.",
+              "El reparto de columnas y la redacción del pie de imagen."
+            ],
+            "correct": "c",
+            "explanation": "Las pruebas sobre los pliegues y sobre la colocación de los árboles, visibles en los bocetos."
+          },
+          "l284b-q2": {
+            "prompt": "¿Por qué la pregunta «Si tú no estuvieras aquí…» pone a prueba la firma colectiva?",
+            "options": [
+              "Sitúa a Omar en el lugar de alguien que no conoce el proceso.",
+              "Propone que Mara abandone el equipo antes de publicar.",
+              "Demuestra que el dibujo debía explicar cómo se pliega el avión.",
+              "Pide que Clara retire todos los nombres de la página."
+            ],
+            "correct": "a",
+            "explanation": "Obliga a pensar en un lector que no ha presenciado el trabajo y no puede identificar a la ilustradora a partir de «Redacción»."
+          },
+          "l284b-q3": {
+            "prompt": "¿Qué quiere decir «dado por sentado» en la reflexión de Omar?",
+            "options": [
+              "Había discutido la idea con todos antes de escribirla.",
+              "Había decidido dejar la firma para otro número del periódico.",
+              "Había dejado la idea pendiente hasta consultarla con Mara.",
+              "Había aceptado la idea sin detenerse a comprobarla."
+            ],
+            "correct": "d",
+            "explanation": "Que había aceptado esa idea como válida sin comprobar si realmente explicaba quién había hecho cada trabajo."
+          },
+          "l284b-q4": {
+            "prompt": "¿Qué diferencia advierte Omar entre su firma y la de Mara?",
+            "options": [
+              "Su firma era más larga porque incluía el apellido.",
+              "Su autoría estaba indicada y la de Mara todavía no.",
+              "Mara había firmado antes de terminar y él después.",
+              "El nombre de Mara aparecía en el artículo y el suyo en el dibujo."
+            ],
+            "correct": "b",
+            "explanation": "Él ya estaba identificado como autor del artículo; el trabajo de Mara quedaba dentro de una palabra colectiva."
+          },
+          "l284b-q5": {
+            "prompt": "¿Qué hicieron para que cupiera la firma sin perder parte de la imagen?",
+            "options": [
+              "Quitaron el nombre de Omar del artículo.",
+              "Publicaron únicamente el segundo boceto.",
+              "Movieron el pie y ajustaron la columna del texto.",
+              "Mantuvieron el recorte y redujeron la firma de Mara."
+            ],
+            "correct": "c",
+            "explanation": "Movieron el pie a otra línea y ajustaron la columna del artículo."
+          },
+          "l284b-q6": {
+            "prompt": "¿Por qué el cielo aparentemente vacío no era un espacio sin función?",
+            "options": [
+              "Dejaba un camino abierto por delante del avión.",
+              "Reservaba un lugar para escribir los tres párrafos del artículo.",
+              "Ocultaba una parte del avión que Mara no había terminado.",
+              "Permitía añadir un nombre colectivo sin mover ninguna columna."
+            ],
+            "correct": "a",
+            "explanation": "Dejaba espacio en la dirección del vuelo y ayudaba a imaginar que continuaba más allá del marco."
+          },
+          "l284b-q7": {
+            "prompt": "¿Qué diferencia entre el artículo y la ilustración reconoce Omar?",
+            "options": [
+              "Ambos describen la misma prueba de vuelo observada desde dos lugares.",
+              "El dibujo da instrucciones y el artículo inventa una aventura.",
+              "El artículo explica los bocetos y el dibujo retrata a sus autores.",
+              "El texto cuenta lo realizado y el dibujo imagina un vuelo."
+            ],
+            "correct": "d",
+            "explanation": "El artículo relata el taller que hicieron; la ilustración imagina un vuelo posible sobre el patio."
+          },
+          "l284b-q8": {
+            "prompt": "¿Qué efecto produce la frase inicial sobre «Redacción»?",
+            "options": [
+              "Presenta una norma general que Mara ya conoce antes de llegar.",
+              "Anticipa la revisión de una idea que Omar utilizaba sin pensarla.",
+              "Explica desde el inicio todos los pasos de la maquetación final.",
+              "Atribuye al grupo una decisión tomada exclusivamente por Clara."
+            ],
+            "correct": "b",
+            "explanation": "Anuncia que Omar revisará una idea habitual suya, cuyo motivo se entiende en la escena con Mara."
+          },
+          "l284b-q9": {
+            "prompt": "¿Podemos afirmar que Mara quería firmar con apellido? Justifica con el texto.",
+            "options": [
+              "Sí, porque pidió que identificaran su trabajo.",
+              "Sí, porque la firma colectiva no mostraba su nombre.",
+              "No: eligió expresamente usar su nombre sin apellido.",
+              "No se sabe: Omar no llegó a preguntarle cómo quería firmar."
+            ],
+            "correct": "c",
+            "explanation": "No: al preguntarle, prefirió Mara sin apellido."
+          },
+          "l284b-q10": {
+            "prompt": "¿Por qué los dos nombres bajo el avión del cuaderno resultan coherentes con lo que pasó?",
+            "options": [
+              "Reconocen las aportaciones de ambos al pequeño dibujo.",
+              "Sustituyen la firma que aún faltaba en la página del periódico.",
+              "Indican que Mara había escrito también el artículo del taller.",
+              "Explican por qué los árboles del dibujo final se habían recortado."
+            ],
+            "correct": "a",
+            "explanation": "Porque Omar dibujó el avión y Mara añadió la ráfaga que cambió su efecto; ambos aportaron algo a ese dibujo."
+          },
+          "l284b-q11": {
+            "prompt": "¿Qué resumen recoge mejor el aprendizaje del narrador?",
+            "options": [
+              "Comprende que la firma colectiva bastaba y que solo había que mover el texto.",
+              "Decide que el dibujo debe repetir exactamente las instrucciones del artículo.",
+              "Aprende a recortar primero y preguntar después para terminar la página.",
+              "Reconoce a la autora y entiende decisiones de la composición."
+            ],
+            "correct": "d",
+            "explanation": "Reconoce su autoría y proceso previo, y comprende que la composición aporta un sentido que un recorte puede cambiar."
+          }
+        }
+      },
+      {
+        "code": "L284B",
+        "language": "ca",
+        "questions": {
+          "l284b-q1": {
+            "prompt": "Quins dos tipus de feina va aportar la Mara a més del dibuix final?",
+            "options": [
+              "L’escriptura de l’article i la revisió dels seus tres paràgrafs.",
+              "Les proves d’impressió i la tria del títol del taller.",
+              "Les proves de plecs i de col·locació dels arbres.",
+              "El repartiment de columnes i la redacció del peu d’imatge."
+            ],
+            "correct": "c",
+            "explanation": "Les proves sobre els plecs i sobre la col·locació dels arbres, visibles als esbossos."
+          },
+          "l284b-q2": {
+            "prompt": "Per què la pregunta «Si tu no fossis aquí…» posa a prova la signatura col·lectiva?",
+            "options": [
+              "Situa l’Omar en el lloc d’algú que no coneix el procés.",
+              "Proposa que la Mara abandoni l’equip abans de publicar.",
+              "Demostra que el dibuix havia d’explicar com es plega l’avió.",
+              "Demana que la Clara retiri tots els noms de la pàgina."
+            ],
+            "correct": "a",
+            "explanation": "Obliga a pensar en un lector que no ha presenciat la feina i no pot identificar la il·lustradora a partir de «Redacció»."
+          },
+          "l284b-q3": {
+            "prompt": "Què vol dir «donat per fet» en la reflexió de l’Omar?",
+            "options": [
+              "Havia discutit la idea amb tothom abans d’escriure-la.",
+              "Havia decidit deixar la signatura per a un altre número del diari.",
+              "Havia deixat la idea pendent fins a consultar-la amb la Mara.",
+              "Havia acceptat la idea sense aturar-se a comprovar-la."
+            ],
+            "correct": "d",
+            "explanation": "Que havia acceptat aquella idea com a vàlida sense comprovar si realment explicava qui havia fet cada feina."
+          },
+          "l284b-q4": {
+            "prompt": "Quina diferència adverteix l’Omar entre la seva signatura i la de la Mara?",
+            "options": [
+              "La seva signatura era més llarga perquè incloïa el cognom.",
+              "La seva autoria estava indicada i la de la Mara encara no.",
+              "La Mara havia signat abans d’acabar i ell després.",
+              "El nom de la Mara apareixia a l’article i el seu al dibuix."
+            ],
+            "correct": "b",
+            "explanation": "Ell ja estava identificat com a autor de l’article; la feina de la Mara quedava dins d’una paraula col·lectiva."
+          },
+          "l284b-q5": {
+            "prompt": "Què van fer perquè hi cabés la signatura sense perdre part de la imatge?",
+            "options": [
+              "Van treure el nom de l’Omar de l’article.",
+              "Van publicar únicament el segon esbós.",
+              "Van moure el peu i van ajustar la columna del text.",
+              "Van mantenir el retall i van reduir la signatura de la Mara."
+            ],
+            "correct": "c",
+            "explanation": "Van moure el peu a una altra línia i van ajustar la columna de l’article."
+          },
+          "l284b-q6": {
+            "prompt": "Per què el cel aparentment buit no era un espai sense funció?",
+            "options": [
+              "Deixava un camí obert davant de l’avió.",
+              "Reservava un lloc per escriure els tres paràgrafs de l’article.",
+              "Amagava una part de l’avió que la Mara no havia acabat.",
+              "Permetia afegir un nom col·lectiu sense moure cap columna."
+            ],
+            "correct": "a",
+            "explanation": "Deixava espai en la direcció del vol i ajudava a imaginar que continuava més enllà del marc."
+          },
+          "l284b-q7": {
+            "prompt": "Quina diferència entre l’article i la il·lustració reconeix l’Omar?",
+            "options": [
+              "Tots dos descriuen la mateixa prova de vol observada des de dos llocs.",
+              "El dibuix dona instruccions i l’article inventa una aventura.",
+              "L’article explica els esbossos i el dibuix retrata els autors.",
+              "El text explica el que van fer i el dibuix imagina un vol."
+            ],
+            "correct": "d",
+            "explanation": "L’article relata el taller que van fer; la il·lustració imagina un vol possible damunt del pati."
+          },
+          "l284b-q8": {
+            "prompt": "Quin efecte produeix la frase inicial sobre «Redacció»?",
+            "options": [
+              "Presenta una norma general que la Mara ja coneix abans d’arribar.",
+              "Anticipa la revisió d’una idea que l’Omar feia servir sense pensar-hi.",
+              "Explica des del començament tots els passos de la maquetació final.",
+              "Atribueix al grup una decisió presa exclusivament per la Clara."
+            ],
+            "correct": "b",
+            "explanation": "Anuncia que l’Omar revisarà una idea habitual seva, i el motiu s’entén en l’escena amb la Mara."
+          },
+          "l284b-q9": {
+            "prompt": "Podem afirmar que la Mara volia signar amb cognom? Justifica-ho amb el text.",
+            "options": [
+              "Sí, perquè va demanar que identifiquessin la seva feina.",
+              "Sí, perquè la signatura col·lectiva no mostrava el seu nom.",
+              "No: va triar expressament fer servir el nom sense cognom.",
+              "No se sap: l’Omar no li va arribar a preguntar com volia signar."
+            ],
+            "correct": "c",
+            "explanation": "No: en preguntar-li, va preferir Mara sense cognom."
+          },
+          "l284b-q10": {
+            "prompt": "Per què els dos noms sota l’avió de la llibreta són coherents amb el que ha passat?",
+            "options": [
+              "Reconeixen les aportacions de tots dos al dibuix petit.",
+              "Substitueixen la signatura que encara faltava a la pàgina del diari.",
+              "Indiquen que la Mara també havia escrit l’article del taller.",
+              "Expliquen per què els arbres del dibuix final s’havien retallat."
+            ],
+            "correct": "a",
+            "explanation": "Perquè l’Omar va dibuixar l’avió i la Mara hi va afegir la ràfega que en va canviar l’efecte; tots dos van aportar una cosa a aquell dibuix."
+          },
+          "l284b-q11": {
+            "prompt": "Quin resum recull millor l’aprenentatge del narrador?",
+            "options": [
+              "Comprèn que la signatura col·lectiva bastava i que només calia moure el text.",
+              "Decideix que el dibuix ha de repetir exactament les instruccions de l’article.",
+              "Aprèn a retallar primer i preguntar després per acabar la pàgina.",
+              "Reconeix l’autora i entén decisions de la composició."
+            ],
+            "correct": "d",
+            "explanation": "Reconeix la seva autoria i el procés previ, i comprèn que la composició aporta un sentit que un retall pot canviar."
+          }
+        }
+      }
+    ]
   }
 ];
