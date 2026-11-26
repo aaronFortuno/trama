@@ -3041,5 +3041,1478 @@ export const observatoryPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L291",
+    "edition": "v1.61.2",
+    "family": {
+      "id": "familia-l291",
+      "code": "L291",
+      "name": {
+        "es": "La maleta de las preguntas",
+        "ca": "La maleta de les preguntes"
+      },
+      "description": {
+        "ca": "Una història de L’observatori del turó, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de El observatorio de la colina, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L291A",
+        "L291",
+        "L291B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "la-maleta-de-las-preguntas-a-es",
+        "code": "L291A",
+        "workId": "la-maleta-de-las-preguntas-a",
+        "language": "es",
+        "familyId": "familia-l291",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "3-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "science",
+          "arts"
+        ],
+        "genre": "letter",
+        "title": "La maleta de las preguntas",
+        "summary": "Una clase pregunta si podrá hacer algo durante la visita y dos niños preparan una respuesta con materiales para dibujar.",
+        "paragraphs": [
+          "Hola, clase:\nSomos Dani y Mira. Venimos a menudo al observatorio del cerro, donde Joana es la guía adulta. Hemos recibido vuestra carta. Preguntáis: «¿Solo miraremos por el telescopio? Nos gustaría hacer algo para explicarlo después en la escuela».",
+          "Dani escribió un borrador: «Veréis el telescopio y la cúpula». Mira señaló la otra parte de la pregunta. Faltaba decir qué podríais hacer vosotros. Joana propuso preparar una mesa para dibujar mientras esperáis el turno del telescopio.",
+          "Hemos llenado una maleta pequeña con una foto del edificio, hojas y lápices de colores. Podréis escoger qué dibujar de la visita. La foto ayudará a recordar la forma de la cúpula. Las hojas están en blanco: vuestros dibujos todavía no existen.",
+          "Nosotros hemos probado los lápices en una hoja aparte. Ahora la maleta espera junto a la puerta. Tiene un asa grande y hemos decidido llevarla entre los dos.\nHasta pronto,\nDani y Mira"
+        ],
+        "questions": [
+          {
+            "id": "l291a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Quiénes responden a la carta de la clase?",
+            "answer": "Dani y Mira.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Somos Dani y Mira."
+              }
+            ]
+          },
+          {
+            "id": "l291a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué propuso Joana que hicieran mientras esperaban el turno?",
+            "answer": "Dibujar en una mesa preparada.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "preparar una mesa para dibujar mientras esperáis el turno del telescopio"
+              }
+            ]
+          },
+          {
+            "id": "l291a-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué es un «borrador» en lo que escribió Dani?",
+            "answer": "Una primera versión de la respuesta que todavía pueden cambiar.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Dani escribió un borrador: «Veréis el telescopio y la cúpula»."
+              }
+            ]
+          },
+          {
+            "id": "l291a-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué han puesto hojas en blanco en la maleta?",
+            "answer": "Porque los visitantes harán sus propios dibujos durante la visita.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Las hojas están en blanco: vuestros dibujos todavía no existen."
+              }
+            ]
+          },
+          {
+            "id": "l291a-q5",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "Explica qué añadieron a la primera respuesta de Dani.",
+            "answer": "Añadieron una actividad para los visitantes: dibujar mientras esperan el turno, con materiales de una maleta.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Faltaba decir qué podríais hacer vosotros."
+              },
+              {
+                "paragraph": 2,
+                "text": "preparar una mesa para dibujar"
+              }
+            ]
+          },
+          {
+            "id": "l291a-q6",
+            "type": "opinion",
+            "lines": 2,
+            "prompt": "¿Qué escogerías dibujar de una visita al observatorio? Explica tu elección.",
+            "answer": "Respuesta personal con un elemento de la visita y una razón."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "borrador",
+            "occurrence": 1,
+            "questionId": "l291a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l291-scene",
+            "src": "assets/readings/l291-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Dani y Mira preparan una respuesta a una carta en una mesa del observatorio, con fotografías y hojas para dibujar.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El pequeño observatorio de piedra clara y cúpula gris en una colina con pinos, bajo un cielo lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-maleta-de-las-preguntas-a-ca",
+        "code": "L291A",
+        "workId": "la-maleta-de-las-preguntas-a",
+        "language": "ca",
+        "familyId": "familia-l291",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "3-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "science",
+          "arts"
+        ],
+        "genre": "letter",
+        "title": "La maleta de les preguntes",
+        "summary": "Una classe pregunta si podrà fer alguna cosa durant la visita i dos infants preparen una resposta amb materials per dibuixar.",
+        "paragraphs": [
+          "Hola, classe:\nSom en Dani i la Mira. Venim sovint a l’observatori del turó, on la Joana és la guia adulta. Hem rebut la vostra carta. Pregunteu: «Només mirarem pel telescopi? Ens agradaria fer alguna cosa per explicar-ho després a l’escola».",
+          "En Dani va escriure un esborrany: «Veureu el telescopi i la cúpula». La Mira va assenyalar l’altra part de la pregunta. Faltava dir què podríeu fer vosaltres. La Joana va proposar preparar una taula per dibuixar mentre espereu el torn del telescopi.",
+          "Hem omplert una maleta petita amb una foto de l’edifici, fulls i llapis de colors. Podreu escollir què dibuixar de la visita. La foto ajudarà a recordar la forma de la cúpula. Els fulls són en blanc: els vostres dibuixos encara no existeixen.",
+          "Nosaltres hem provat els llapis en un full a part. Ara la maleta espera al costat de la porta. Té una nansa grossa i hem decidit portar-la entre tots dos.\nFins aviat,\nDani i Mira"
+        ],
+        "questions": [
+          {
+            "id": "l291a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Qui respon a la carta de la classe?",
+            "answer": "En Dani i la Mira.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Som en Dani i la Mira."
+              }
+            ]
+          },
+          {
+            "id": "l291a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què va proposar la Joana que fessin mentre esperaven el torn?",
+            "answer": "Dibuixar en una taula preparada.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "preparar una taula per dibuixar mentre espereu el torn del telescopi"
+              }
+            ]
+          },
+          {
+            "id": "l291a-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què és un «esborrany» en el que va escriure en Dani?",
+            "answer": "Una primera versió de la resposta que encara poden canviar.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "En Dani va escriure un esborrany: «Veureu el telescopi i la cúpula»."
+              }
+            ]
+          },
+          {
+            "id": "l291a-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què han posat fulls en blanc a la maleta?",
+            "answer": "Perquè els visitants faran els seus propis dibuixos durant la visita.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Els fulls són en blanc: els vostres dibuixos encara no existeixen."
+              }
+            ]
+          },
+          {
+            "id": "l291a-q5",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "Explica què van afegir a la primera resposta d’en Dani.",
+            "answer": "Hi van afegir una activitat per als visitants: dibuixar mentre esperen el torn, amb materials d’una maleta.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Faltava dir què podríeu fer vosaltres."
+              },
+              {
+                "paragraph": 2,
+                "text": "preparar una taula per dibuixar"
+              }
+            ]
+          },
+          {
+            "id": "l291a-q6",
+            "type": "opinion",
+            "lines": 2,
+            "prompt": "Què escolliries dibuixar d’una visita a l’observatori? Explica la tria.",
+            "answer": "Resposta personal amb un element de la visita i una raó."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "esborrany",
+            "occurrence": 1,
+            "questionId": "l291a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l291-scene",
+            "src": "assets/readings/l291-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Dani i la Mira preparen la resposta a una carta en una taula de l’observatori, amb fotografies i fulls per dibuixar.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El petit observatori de pedra clara i cúpula grisa en un turó amb pins, sota un cel lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-maleta-de-las-preguntas-es",
+        "code": "L291",
+        "workId": "la-maleta-de-las-preguntas",
+        "language": "es",
+        "familyId": "familia-l291",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "science",
+          "arts"
+        ],
+        "genre": "letter",
+        "title": "La maleta de las preguntas",
+        "summary": "Una pregunta de una clase hace revisar una respuesta que solo contaba lo que verían, pero no lo que podrían hacer.",
+        "paragraphs": [
+          "Hola, clase:\nSomos Dani y Mira, dos niños que visitamos a menudo el observatorio del cerro. Joana, la guía adulta, nos ha enseñado vuestra carta. Queréis saber si solo miraréis por el telescopio o si podréis hacer algo para explicar después la visita al otro grupo de la escuela.",
+          "Dani empezó la respuesta con una lista: «Veréis el telescopio, la cúpula y las fotografías de la sala». Mira volvió a leer vuestra pregunta. Aquella lista la respondía a medias: explicaba qué veríais, pero no qué podríais hacer. Joana nos preguntó qué recordábamos nosotros después de una visita. Dani abrió la libreta donde había dibujado el edificio.",
+          "La guía propuso preparar una mesa para dibujar mientras esperáis el turno del telescopio. Podréis elegir una cosa que os haya llamado la atención. Hemos buscado una foto del edificio para quien quiera recordar la forma de la cúpula, hojas en blanco y lápices de colores. Lo hemos guardado todo en una maleta pequeña.",
+          "Antes de cerrarla probamos los lápices en una hoja aparte. Mira dibujó la puerta y Dani una ventana. Los dos dibujos nos hicieron buscar detalles distintos en la misma foto. No hace falta copiar lo mismo: cada cual podrá contar con su dibujo una parte de lo que haya visto.",
+          "Hemos dejado la maleta junto a la puerta. Cuando vengáis, Joana os mostrará la mesa. Nosotros ya hemos probado a llevarla entre los dos: la gran asa parece hecha para cuatro manos.\nHasta pronto,\nDani y Mira"
+        ],
+        "questions": [
+          {
+            "id": "l291-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Para quién quiere la clase explicar después la visita?",
+            "answer": "Para el otro grupo de su escuela.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "explicar después la visita al otro grupo de la escuela"
+              }
+            ]
+          },
+          {
+            "id": "l291-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué la lista de Dani no respondía toda la pregunta?",
+            "answer": "Decía lo que verían, pero no proponía nada que los visitantes pudieran hacer.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "explicaba qué veríais, pero no qué podríais hacer"
+              }
+            ]
+          },
+          {
+            "id": "l291-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa que la lista respondía «a medias»?",
+            "answer": "Que respondía solo una parte de lo que preguntaban.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Aquella lista la respondía a medias"
+              }
+            ]
+          },
+          {
+            "id": "l291-q4",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Cuándo podrán usar la mesa de dibujo?",
+            "answer": "Mientras esperan el turno del telescopio.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "preparar una mesa para dibujar mientras esperáis el turno del telescopio"
+              }
+            ]
+          },
+          {
+            "id": "l291-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Para qué sirve la fotografía entre los materiales?",
+            "answer": "Para ayudar a recordar detalles del edificio al dibujar, como la forma de la cúpula.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una foto del edificio para quien quiera recordar la forma de la cúpula"
+              }
+            ]
+          },
+          {
+            "id": "l291-q6",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué dibujaron Mira y Dani al probar los lápices?",
+            "answer": "Mira dibujó la puerta y Dani una ventana.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Mira dibujó la puerta y Dani una ventana."
+              }
+            ]
+          },
+          {
+            "id": "l291-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume cómo llegaron a preparar la maleta.",
+            "answer": "Al revisar la pregunta vieron que faltaba proponer una actividad. Joana sugirió dibujar y prepararon foto, hojas y lápices para hacerlo.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "explicaba qué veríais, pero no qué podríais hacer"
+              },
+              {
+                "paragraph": 3,
+                "text": "Lo hemos guardado todo en una maleta pequeña."
+              }
+            ]
+          },
+          {
+            "id": "l291-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué dibujo harías para explicar una visita a alguien que no ha venido? Cuenta qué le ayudaría a entender.",
+            "answer": "Respuesta personal que conecte un dibujo con una información o experiencia de la visita."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "a medias",
+            "occurrence": 1,
+            "questionId": "l291-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l291-scene",
+            "src": "assets/readings/l291-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Dani y Mira preparan una respuesta a una carta en una mesa del observatorio, con fotografías y hojas para dibujar.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El pequeño observatorio de piedra clara y cúpula gris en una colina con pinos, bajo un cielo lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-maleta-de-las-preguntas-ca",
+        "code": "L291",
+        "workId": "la-maleta-de-las-preguntas",
+        "language": "ca",
+        "familyId": "familia-l291",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "science",
+          "arts"
+        ],
+        "genre": "letter",
+        "title": "La maleta de les preguntes",
+        "summary": "Una pregunta d’una classe fa revisar una resposta que només deia què veurien, però no què podrien fer.",
+        "paragraphs": [
+          "Hola, classe:\nSom en Dani i la Mira, dos infants que visitem sovint l’observatori del turó. La Joana, la guia adulta, ens ha ensenyat la vostra carta. Voleu saber si només mirareu pel telescopi o si podreu fer alguna cosa per explicar després la visita a l’altre grup de l’escola.",
+          "En Dani va començar la resposta amb una llista: «Veureu el telescopi, la cúpula i les fotografies de la sala». La Mira va tornar a llegir la vostra pregunta. Aquella llista la responia a mitges: explicava què veuríeu, però no què podríeu fer. La Joana ens va preguntar què recordàvem nosaltres després d’una visita. En Dani va obrir la llibreta on havia dibuixat l’edifici.",
+          "La guia va proposar preparar una taula per dibuixar mentre espereu el torn del telescopi. Podreu triar una cosa que us hagi cridat l’atenció. Hem buscat una foto de l’edifici per a qui vulgui recordar la forma de la cúpula, fulls en blanc i llapis de colors. Ho hem desat tot en una maleta petita.",
+          "Abans de tancar-la vam provar els llapis en un full a part. La Mira va dibuixar la porta i en Dani una finestra. Tots dos dibuixos ens van fer buscar detalls diferents a la mateixa foto. No cal copiar el mateix: cadascú podrà explicar amb el seu dibuix una part del que hagi vist.",
+          "Hem deixat la maleta al costat de la porta. Quan vingueu, la Joana us ensenyarà la taula. Nosaltres ja hem provat de portar-la entre tots dos: la nansa grossa sembla feta per a quatre mans.\nFins aviat,\nDani i Mira"
+        ],
+        "questions": [
+          {
+            "id": "l291-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Per a qui vol la classe explicar després la visita?",
+            "answer": "Per a l’altre grup de la seva escola.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "explicar després la visita a l’altre grup de l’escola"
+              }
+            ]
+          },
+          {
+            "id": "l291-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la llista d’en Dani no responia tota la pregunta?",
+            "answer": "Deia què veurien, però no proposava res que els visitants poguessin fer.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "explicava què veuríeu, però no què podríeu fer"
+              }
+            ]
+          },
+          {
+            "id": "l291-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir que la llista responia «a mitges»?",
+            "answer": "Que responia només una part del que preguntaven.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Aquella llista la responia a mitges"
+              }
+            ]
+          },
+          {
+            "id": "l291-q4",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quan podran fer servir la taula de dibuix?",
+            "answer": "Mentre esperen el torn del telescopi.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "preparar una taula per dibuixar mentre espereu el torn del telescopi"
+              }
+            ]
+          },
+          {
+            "id": "l291-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per a què serveix la fotografia entre els materials?",
+            "answer": "Per ajudar a recordar detalls de l’edifici en dibuixar, com la forma de la cúpula.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una foto de l’edifici per a qui vulgui recordar la forma de la cúpula"
+              }
+            ]
+          },
+          {
+            "id": "l291-q6",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què van dibuixar la Mira i en Dani en provar els llapis?",
+            "answer": "La Mira va dibuixar la porta i en Dani una finestra.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La Mira va dibuixar la porta i en Dani una finestra."
+              }
+            ]
+          },
+          {
+            "id": "l291-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix com van arribar a preparar la maleta.",
+            "answer": "En revisar la pregunta van veure que faltava proposar una activitat. La Joana va suggerir dibuixar i van preparar foto, fulls i llapis per fer-ho.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "explicava què veuríeu, però no què podríeu fer"
+              },
+              {
+                "paragraph": 3,
+                "text": "Ho hem desat tot en una maleta petita."
+              }
+            ]
+          },
+          {
+            "id": "l291-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quin dibuix faries per explicar una visita a algú que no hi ha vingut? Explica què l’ajudaria a entendre.",
+            "answer": "Resposta personal que connecti un dibuix amb una informació o experiència de la visita."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "a mitges",
+            "occurrence": 1,
+            "questionId": "l291-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l291-scene",
+            "src": "assets/readings/l291-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Dani i la Mira preparen la resposta a una carta en una taula de l’observatori, amb fotografies i fulls per dibuixar.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El petit observatori de pedra clara i cúpula grisa en un turó amb pins, sota un cel lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-maleta-de-las-preguntas-b-es",
+        "code": "L291B",
+        "workId": "la-maleta-de-las-preguntas-b",
+        "language": "es",
+        "familyId": "familia-l291",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "science",
+          "arts"
+        ],
+        "genre": "letter",
+        "title": "La maleta de las preguntas",
+        "summary": "Dani y Mira revisan una respuesta incompleta y preparan materiales que permiten a cada visitante elaborar su propio recuerdo.",
+        "paragraphs": [
+          "Hola, clase:\nSomos Dani y Mira. Visitamos a menudo el pequeño observatorio del cerro y conocemos a Joana, la guía adulta. Ella nos ha enseñado vuestra carta. Preguntáis si durante la visita solo miraréis por el telescopio o si podréis hacer algo para explicar después lo vivido a otro grupo de la escuela. Habéis añadido que no todos recordáis los mismos detalles.",
+          "Dani preparó una primera respuesta: «Veréis el telescopio, la cúpula y las fotografías de la sala». Mira puso vuestra carta al lado del borrador y subrayó «hacer algo». La lista hablaba de lugares y objetos que veríais, pero dejaba pendiente esa parte. Joana nos preguntó qué nos había ayudado a contar nuestras visitas en casa. Dani buscó en su libreta un dibujo de la puerta.",
+          "La guía propuso una mesa para dibujar mientras esperáis el turno del telescopio. Al principio habíamos pensado que copiaríais la fotografía. Hemos preparado una foto del edificio, hojas en blanco y lápices de colores dentro de una maleta. La foto permite consultar la forma de la cúpula o las ventanas; el papel todavía está en blanco.",
+          "Probamos la propuesta antes de cerrar la maleta. Mira dibujó la puerta y Dani una ventana. Al enseñar los dibujos, cada uno explicó una cosa distinta que había descubierto mirando la misma fotografía. Joana nos pidió que dejáramos también sitio para lo que recordarais sin necesitar la foto: un rincón de la sala, una conversación o vuestra espera antes de mirar.",
+          "Por eso hemos cambiado la última frase de la respuesta. En vez de «Copiaréis el observatorio de esta foto», dice «Dibujaréis una parte de vuestra visita». Podréis llevaros las hojas para explicar al otro grupo por qué habéis escogido aquello. Los lápices y la fotografía se quedarán en la maleta para los próximos visitantes.",
+          "La maleta ya espera junto a la puerta. Nuestra prueba se ha quedado sobre la mesa de Joana: Dani ha dibujado en su ventana una mano que saluda al dibujo de Mira.\nHasta pronto,\nDani y Mira"
+        ],
+        "questions": [
+          {
+            "id": "l291b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué dos posibilidades distingue la pregunta que envió la clase?",
+            "answer": "Solo mirar por el telescopio o hacer también algo para explicar la visita después.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "solo miraréis por el telescopio o si podréis hacer algo para explicar después lo vivido"
+              }
+            ]
+          },
+          {
+            "id": "l291b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué permite ver la carta al lado del primer borrador?",
+            "answer": "Que la lista de lo que verán deja sin responder qué podrán hacer ellos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La lista hablaba de lugares y objetos que veríais, pero dejaba pendiente esa parte."
+              }
+            ]
+          },
+          {
+            "id": "l291b-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «borrador» al compararlo con la carta recibida?",
+            "answer": "Una versión inicial de la respuesta, todavía revisable.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Mira puso vuestra carta al lado del borrador"
+              }
+            ]
+          },
+          {
+            "id": "l291b-q4",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué tres tipos de materiales preparan dentro de la maleta?",
+            "answer": "Una foto del edificio, hojas en blanco y lápices de colores.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una foto del edificio, hojas en blanco y lápices de colores dentro de una maleta"
+              }
+            ]
+          },
+          {
+            "id": "l291b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué mostró la prueba de dibujar con la misma fotografía?",
+            "answer": "Que podían elegir y explicar detalles distintos a partir de una misma imagen.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "cada uno explicó una cosa distinta que había descubierto mirando la misma fotografía"
+              }
+            ]
+          },
+          {
+            "id": "l291b-q6",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué ejemplos da Joana de recuerdos que no necesitan la foto?",
+            "answer": "Un rincón de la sala, una conversación o la espera antes de mirar.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "un rincón de la sala, una conversación o vuestra espera antes de mirar"
+              }
+            ]
+          },
+          {
+            "id": "l291b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué cambian «Copiaréis el observatorio de esta foto» por «Dibujaréis una parte de vuestra visita»?",
+            "answer": "Para abrir la elección a recuerdos propios de la visita y no limitar todos los dibujos a copiar la imagen.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "En vez de «Copiaréis el observatorio de esta foto», dice «Dibujaréis una parte de vuestra visita»."
+              }
+            ]
+          },
+          {
+            "id": "l291b-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué ayuda a saber a quién va dirigida la respuesta?",
+            "answer": "El saludo a la clase y las referencias a vuestra carta.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Hola, clase:"
+              },
+              {
+                "paragraph": 1,
+                "text": "Ella nos ha enseñado vuestra carta."
+              }
+            ]
+          },
+          {
+            "id": "l291b-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume cómo se amplía la propuesta desde la primera respuesta hasta la versión final.",
+            "answer": "Pasan de enumerar cosas que verán a proponer dibujar durante la espera. Preparan materiales y dejan elegir recuerdos propios, no solo copiar una foto.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La lista hablaba de lugares y objetos que veríais, pero dejaba pendiente esa parte."
+              },
+              {
+                "paragraph": 5,
+                "text": "Dibujaréis una parte de vuestra visita"
+              }
+            ]
+          },
+          {
+            "id": "l291b-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Propón otra forma de contar una visita al grupo que no vino. Explica qué aportaría.",
+            "answer": "Respuesta personal que proponga un recurso concreto y explique su utilidad para ese público."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "borrador",
+            "occurrence": 1,
+            "questionId": "l291b-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l291-scene",
+            "src": "assets/readings/l291-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Dani y Mira preparan una respuesta a una carta en una mesa del observatorio, con fotografías y hojas para dibujar.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El pequeño observatorio de piedra clara y cúpula gris en una colina con pinos, bajo un cielo lavanda.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "la-maleta-de-las-preguntas-b-ca",
+        "code": "L291B",
+        "workId": "la-maleta-de-las-preguntas-b",
+        "language": "ca",
+        "familyId": "familia-l291",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "science",
+          "arts"
+        ],
+        "genre": "letter",
+        "title": "La maleta de les preguntes",
+        "summary": "En Dani i la Mira revisen una resposta incompleta i preparen materials que permeten a cada visitant elaborar el seu propi record.",
+        "paragraphs": [
+          "Hola, classe:\nSom en Dani i la Mira. Visitem sovint el petit observatori del turó i coneixem la Joana, la guia adulta. Ella ens ha ensenyat la vostra carta. Pregunteu si durant la visita només mirareu pel telescopi o si podreu fer alguna cosa per explicar després el que heu viscut a un altre grup de l’escola. Heu afegit que no tothom recorda els mateixos detalls.",
+          "En Dani va preparar una primera resposta: «Veureu el telescopi, la cúpula i les fotografies de la sala». La Mira va posar la vostra carta al costat de l’esborrany i va subratllar «fer alguna cosa». La llista parlava de llocs i objectes que veuríeu, però deixava pendent aquella part. La Joana ens va preguntar què ens havia ajudat a explicar les visites a casa. En Dani va buscar a la llibreta un dibuix de la porta.",
+          "La guia va proposar una taula per dibuixar mentre espereu el torn del telescopi. Al principi havíem pensat que copiaríeu la fotografia. Hem preparat una foto de l’edifici, fulls en blanc i llapis de colors dins d’una maleta. La foto permet consultar la forma de la cúpula o les finestres; el paper encara és en blanc.",
+          "Vam provar la proposta abans de tancar la maleta. La Mira va dibuixar la porta i en Dani una finestra. En ensenyar els dibuixos, cadascú va explicar una cosa diferent que havia descobert mirant la mateixa fotografia. La Joana ens va demanar que deixéssim també lloc per al que recordéssiu sense necessitar la foto: un racó de la sala, una conversa o la vostra espera abans de mirar.",
+          "Per això hem canviat l’última frase de la resposta. En lloc de «Copiareu l’observatori d’aquesta foto», diu «Dibuixareu una part de la vostra visita». Us podreu endur els fulls per explicar a l’altre grup per què heu escollit allò. Els llapis i la fotografia es quedaran a la maleta per als pròxims visitants.",
+          "La maleta ja espera al costat de la porta. La nostra prova s’ha quedat damunt la taula de la Joana: en Dani ha dibuixat a la seva finestra una mà que saluda el dibuix de la Mira.\nFins aviat,\nDani i Mira"
+        ],
+        "questions": [
+          {
+            "id": "l291b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quines dues possibilitats distingeix la pregunta que va enviar la classe?",
+            "answer": "Només mirar pel telescopi o fer també alguna cosa per explicar la visita després.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "només mirareu pel telescopi o si podreu fer alguna cosa per explicar després el que heu viscut"
+              }
+            ]
+          },
+          {
+            "id": "l291b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què permet veure la carta al costat del primer esborrany?",
+            "answer": "Que la llista del que veuran deixa sense respondre què podran fer ells.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La llista parlava de llocs i objectes que veuríeu, però deixava pendent aquella part."
+              }
+            ]
+          },
+          {
+            "id": "l291b-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «esborrany» en comparar-lo amb la carta rebuda?",
+            "answer": "Una versió inicial de la resposta, encara revisable.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La Mira va posar la vostra carta al costat de l’esborrany"
+              }
+            ]
+          },
+          {
+            "id": "l291b-q4",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quins tres tipus de materials preparen dins de la maleta?",
+            "answer": "Una foto de l’edifici, fulls en blanc i llapis de colors.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una foto de l’edifici, fulls en blanc i llapis de colors dins d’una maleta"
+              }
+            ]
+          },
+          {
+            "id": "l291b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què va mostrar la prova de dibuixar amb la mateixa fotografia?",
+            "answer": "Que podien triar i explicar detalls diferents a partir d’una mateixa imatge.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "cadascú va explicar una cosa diferent que havia descobert mirant la mateixa fotografia"
+              }
+            ]
+          },
+          {
+            "id": "l291b-q6",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quins exemples dona la Joana de records que no necessiten la foto?",
+            "answer": "Un racó de la sala, una conversa o l’espera abans de mirar.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "un racó de la sala, una conversa o la vostra espera abans de mirar"
+              }
+            ]
+          },
+          {
+            "id": "l291b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què canvien «Copiareu l’observatori d’aquesta foto» per «Dibuixareu una part de la vostra visita»?",
+            "answer": "Per obrir la tria a records propis de la visita i no limitar tots els dibuixos a copiar la imatge.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "En lloc de «Copiareu l’observatori d’aquesta foto», diu «Dibuixareu una part de la vostra visita»."
+              }
+            ]
+          },
+          {
+            "id": "l291b-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Què ajuda a saber a qui va dirigida la resposta?",
+            "answer": "La salutació a la classe i les referències a la vostra carta.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Hola, classe:"
+              },
+              {
+                "paragraph": 1,
+                "text": "Ella ens ha ensenyat la vostra carta."
+              }
+            ]
+          },
+          {
+            "id": "l291b-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix com s’amplia la proposta des de la primera resposta fins a la versió final.",
+            "answer": "Passen d’enumerar coses que veuran a proposar dibuixar durant l’espera. Preparen materials i deixen triar records propis, no només copiar una foto.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La llista parlava de llocs i objectes que veuríeu, però deixava pendent aquella part."
+              },
+              {
+                "paragraph": 5,
+                "text": "Dibuixareu una part de la vostra visita"
+              }
+            ]
+          },
+          {
+            "id": "l291b-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Proposa una altra manera d’explicar una visita al grup que no hi va anar. Explica què aportaria.",
+            "answer": "Resposta personal que proposi un recurs concret i n’expliqui la utilitat per a aquell públic."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "esborrany",
+            "occurrence": 1,
+            "questionId": "l291b-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l291-scene",
+            "src": "assets/readings/l291-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Dani i la Mira preparen la resposta a una carta en una taula de l’observatori, amb fotografies i fulls per dibuixar.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El petit observatori de pedra clara i cúpula grisa en un turó amb pins, sota un cel lavanda.",
+            "afterParagraph": 4
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L291A",
+        "language": "es",
+        "questions": {
+          "l291a-q1": {
+            "prompt": "¿Quiénes responden a la carta de la clase?",
+            "options": [
+              "Solo Joana.",
+              "Dani y Joana.",
+              "Dani y Mira.",
+              "Los alumnos que harán la visita."
+            ],
+            "correct": "c",
+            "explanation": "Dani y Mira."
+          },
+          "l291a-q2": {
+            "prompt": "¿Qué propuso Joana que hicieran mientras esperaban el turno?",
+            "options": [
+              "Dibujar en una mesa.",
+              "Escribir de nuevo la carta.",
+              "Llevar la maleta a la escuela.",
+              "Dibujar solo cuando hayan acabado todos los turnos."
+            ],
+            "correct": "a",
+            "explanation": "Dibujar en una mesa preparada."
+          },
+          "l291a-q3": {
+            "prompt": "¿Qué es un «borrador» en lo que escribió Dani?",
+            "options": [
+              "El dibujo que hará la clase.",
+              "La foto que han guardado en la maleta.",
+              "La carta que recibieron de la escuela.",
+              "Una primera versión de la respuesta."
+            ],
+            "correct": "d",
+            "explanation": "Una primera versión de la respuesta que todavía pueden cambiar."
+          },
+          "l291a-q4": {
+            "prompt": "¿Por qué han puesto hojas en blanco en la maleta?",
+            "options": [
+              "Para copiar en ellas la carta de Dani.",
+              "Para que los visitantes hagan sus dibujos.",
+              "Para envolver la foto antes de mirarla.",
+              "Para anotar el orden de las maletas."
+            ],
+            "correct": "b",
+            "explanation": "Porque los visitantes harán sus propios dibujos durante la visita."
+          },
+          "l291a-q5": {
+            "prompt": "¿Qué resumen explica la mejora de la respuesta?",
+            "options": [
+              "Cambian la visita al telescopio por una carta a la escuela.",
+              "Guardan la primera respuesta sin añadir nada.",
+              "Explican también una actividad que podrán hacer los visitantes.",
+              "Piden que la clase envíe dibujos antes de visitar el lugar."
+            ],
+            "correct": "c",
+            "explanation": "Añadieron una actividad para los visitantes: dibujar mientras esperan el turno, con materiales de una maleta."
+          }
+        }
+      },
+      {
+        "code": "L291A",
+        "language": "ca",
+        "questions": {
+          "l291a-q1": {
+            "prompt": "Qui respon a la carta de la classe?",
+            "options": [
+              "Només la Joana.",
+              "En Dani i la Joana.",
+              "En Dani i la Mira.",
+              "Els alumnes que faran la visita."
+            ],
+            "correct": "c",
+            "explanation": "En Dani i la Mira."
+          },
+          "l291a-q2": {
+            "prompt": "Què va proposar la Joana que fessin mentre esperaven el torn?",
+            "options": [
+              "Dibuixar en una taula.",
+              "Tornar a escriure la carta.",
+              "Portar la maleta a l’escola.",
+              "Dibuixar només quan hagin acabat tots els torns."
+            ],
+            "correct": "a",
+            "explanation": "Dibuixar en una taula preparada."
+          },
+          "l291a-q3": {
+            "prompt": "Què és un «esborrany» en el que va escriure en Dani?",
+            "options": [
+              "El dibuix que farà la classe.",
+              "La foto que han desat a la maleta.",
+              "La carta que van rebre de l’escola.",
+              "Una primera versió de la resposta."
+            ],
+            "correct": "d",
+            "explanation": "Una primera versió de la resposta que encara poden canviar."
+          },
+          "l291a-q4": {
+            "prompt": "Per què han posat fulls en blanc a la maleta?",
+            "options": [
+              "Per copiar-hi la carta d’en Dani.",
+              "Perquè els visitants hi facin els dibuixos.",
+              "Per embolicar la foto abans de mirar-la.",
+              "Per anotar l’ordre de les maletes."
+            ],
+            "correct": "b",
+            "explanation": "Perquè els visitants faran els seus propis dibuixos durant la visita."
+          },
+          "l291a-q5": {
+            "prompt": "Quin resum explica la millora de la resposta?",
+            "options": [
+              "Canvien la visita al telescopi per una carta a l’escola.",
+              "Desen la primera resposta sense afegir-hi res.",
+              "Expliquen també una activitat que podran fer els visitants.",
+              "Demanen que la classe enviï dibuixos abans de visitar el lloc."
+            ],
+            "correct": "c",
+            "explanation": "Hi van afegir una activitat per als visitants: dibuixar mentre esperen el torn, amb materials d’una maleta."
+          }
+        }
+      },
+      {
+        "code": "L291",
+        "language": "es",
+        "questions": {
+          "l291-q1": {
+            "prompt": "¿Para quién quiere la clase explicar después la visita?",
+            "options": [
+              "Para los otros visitantes del observatorio.",
+              "Para el otro grupo de su escuela.",
+              "Solo para Dani y Mira.",
+              "Para las familias antes de la visita."
+            ],
+            "correct": "b",
+            "explanation": "Para el otro grupo de su escuela."
+          },
+          "l291-q2": {
+            "prompt": "¿Por qué la lista de Dani no respondía toda la pregunta?",
+            "options": [
+              "Porque confundía el telescopio con la cúpula.",
+              "Porque no decía quién había enviado la carta.",
+              "Porque olvidaba en qué escuela estudiaban.",
+              "Porque faltaba la parte de participar y hacer algo."
+            ],
+            "correct": "d",
+            "explanation": "Decía lo que verían, pero no proponía nada que los visitantes pudieran hacer."
+          },
+          "l291-q3": {
+            "prompt": "¿Qué significa que la lista respondía «a medias»?",
+            "options": [
+              "Respondía solo una parte de la pregunta.",
+              "Estaba escrita en la mitad de una hoja.",
+              "La habían escrito entre dos personas.",
+              "Se debía leer durante media visita."
+            ],
+            "correct": "a",
+            "explanation": "Que respondía solo una parte de lo que preguntaban."
+          },
+          "l291-q4": {
+            "prompt": "¿Cuándo podrán usar la mesa de dibujo?",
+            "options": [
+              "Antes de mandar la primera carta.",
+              "Después de regresar a su escuela.",
+              "Mientras esperan el turno del telescopio.",
+              "Solo cuando todos hayan terminado la visita."
+            ],
+            "correct": "c",
+            "explanation": "Mientras esperan el turno del telescopio."
+          },
+          "l291-q5": {
+            "prompt": "¿Para qué sirve la fotografía entre los materiales?",
+            "options": [
+              "Para decidir qué grupo recibirá la carta.",
+              "Para consultar detalles del edificio al dibujar.",
+              "Para que todos copien obligatoriamente la misma ventana.",
+              "Para sustituir los dibujos que harán los visitantes."
+            ],
+            "correct": "b",
+            "explanation": "Para ayudar a recordar detalles del edificio al dibujar, como la forma de la cúpula."
+          },
+          "l291-q6": {
+            "prompt": "¿Qué dibujaron Mira y Dani al probar los lápices?",
+            "options": [
+              "Los dos dibujaron la cúpula.",
+              "Mira una ventana y Dani la puerta.",
+              "Los dos dibujaron el asa de la maleta.",
+              "Mira la puerta y Dani una ventana."
+            ],
+            "correct": "d",
+            "explanation": "Mira dibujó la puerta y Dani una ventana."
+          },
+          "l291-q7": {
+            "prompt": "¿Qué resumen explica la preparación de la maleta?",
+            "options": [
+              "Completan una respuesta con una actividad y sus materiales.",
+              "Preparan dibujos idénticos para que la clase se los lleve.",
+              "Cambian la visita por el envío de una fotografía a la escuela.",
+              "Reciben una maleta de la clase y devuelven los mismos papeles."
+            ],
+            "correct": "a",
+            "explanation": "Al revisar la pregunta vieron que faltaba proponer una actividad. Joana sugirió dibujar y prepararon foto, hojas y lápices para hacerlo."
+          }
+        }
+      },
+      {
+        "code": "L291",
+        "language": "ca",
+        "questions": {
+          "l291-q1": {
+            "prompt": "Per a qui vol la classe explicar després la visita?",
+            "options": [
+              "Per als altres visitants de l’observatori.",
+              "Per a l’altre grup de la seva escola.",
+              "Només per a en Dani i la Mira.",
+              "Per a les famílies abans de la visita."
+            ],
+            "correct": "b",
+            "explanation": "Per a l’altre grup de la seva escola."
+          },
+          "l291-q2": {
+            "prompt": "Per què la llista d’en Dani no responia tota la pregunta?",
+            "options": [
+              "Perquè confonia el telescopi amb la cúpula.",
+              "Perquè no deia qui havia enviat la carta.",
+              "Perquè oblidava a quina escola estudiaven.",
+              "Perquè faltava la part de participar i fer alguna cosa."
+            ],
+            "correct": "d",
+            "explanation": "Deia què veurien, però no proposava res que els visitants poguessin fer."
+          },
+          "l291-q3": {
+            "prompt": "Què vol dir que la llista responia «a mitges»?",
+            "options": [
+              "Responia només una part de la pregunta.",
+              "Estava escrita a la meitat d’un full.",
+              "L’havien escrita entre dues persones.",
+              "S’havia de llegir durant mitja visita."
+            ],
+            "correct": "a",
+            "explanation": "Que responia només una part del que preguntaven."
+          },
+          "l291-q4": {
+            "prompt": "Quan podran fer servir la taula de dibuix?",
+            "options": [
+              "Abans d’enviar la primera carta.",
+              "Després de tornar a la seva escola.",
+              "Mentre esperen el torn del telescopi.",
+              "Només quan tothom hagi acabat la visita."
+            ],
+            "correct": "c",
+            "explanation": "Mentre esperen el torn del telescopi."
+          },
+          "l291-q5": {
+            "prompt": "Per a què serveix la fotografia entre els materials?",
+            "options": [
+              "Per decidir quin grup rebrà la carta.",
+              "Per consultar detalls de l’edifici en dibuixar.",
+              "Perquè tothom copiï obligatòriament la mateixa finestra.",
+              "Per substituir els dibuixos que faran els visitants."
+            ],
+            "correct": "b",
+            "explanation": "Per ajudar a recordar detalls de l’edifici en dibuixar, com la forma de la cúpula."
+          },
+          "l291-q6": {
+            "prompt": "Què van dibuixar la Mira i en Dani en provar els llapis?",
+            "options": [
+              "Tots dos van dibuixar la cúpula.",
+              "La Mira una finestra i en Dani la porta.",
+              "Tots dos van dibuixar la nansa de la maleta.",
+              "La Mira la porta i en Dani una finestra."
+            ],
+            "correct": "d",
+            "explanation": "La Mira va dibuixar la porta i en Dani una finestra."
+          },
+          "l291-q7": {
+            "prompt": "Quin resum explica la preparació de la maleta?",
+            "options": [
+              "Completen una resposta amb una activitat i els materials.",
+              "Preparen dibuixos idèntics perquè la classe se’ls endugui.",
+              "Canvien la visita per l’enviament d’una fotografia a l’escola.",
+              "Reben una maleta de la classe i tornen els mateixos papers."
+            ],
+            "correct": "a",
+            "explanation": "En revisar la pregunta van veure que faltava proposar una activitat. La Joana va suggerir dibuixar i van preparar foto, fulls i llapis per fer-ho."
+          }
+        }
+      },
+      {
+        "code": "L291B",
+        "language": "es",
+        "questions": {
+          "l291b-q1": {
+            "prompt": "¿Qué dos posibilidades distingue la pregunta que envió la clase?",
+            "options": [
+              "Visitar de día o esperar hasta la noche.",
+              "Escuchar a Joana o leer una carta en casa.",
+              "Mirar solamente o participar elaborando algo que contar.",
+              "Dibujar todos lo mismo o escoger el color de los lápices."
+            ],
+            "correct": "c",
+            "explanation": "Solo mirar por el telescopio o hacer también algo para explicar la visita después."
+          },
+          "l291b-q2": {
+            "prompt": "¿Qué permite ver la carta al lado del primer borrador?",
+            "options": [
+              "Que falta responder la parte de hacer algo.",
+              "Que la clase ya ha elegido todos los dibujos.",
+              "Que Dani no había incluido ningún objeto del observatorio.",
+              "Que Joana había pedido sustituir el telescopio por fotografías."
+            ],
+            "correct": "a",
+            "explanation": "Que la lista de lo que verán deja sin responder qué podrán hacer ellos."
+          },
+          "l291b-q3": {
+            "prompt": "¿Qué significa «borrador» al compararlo con la carta recibida?",
+            "options": [
+              "La carta que ya había enviado la clase.",
+              "La fotografía que acompaña la visita.",
+              "El dibujo terminado que se llevará cada visitante.",
+              "Una primera versión de la respuesta que están preparando."
+            ],
+            "correct": "d",
+            "explanation": "Una versión inicial de la respuesta, todavía revisable."
+          },
+          "l291b-q4": {
+            "prompt": "¿Qué tres tipos de materiales preparan dentro de la maleta?",
+            "options": [
+              "Cartas, dibujos terminados y una libreta.",
+              "Una foto, hojas en blanco y lápices de colores.",
+              "Una foto, lápices y todas las libretas de Dani.",
+              "Hojas, fotografías de la clase y una carta nueva."
+            ],
+            "correct": "b",
+            "explanation": "Una foto del edificio, hojas en blanco y lápices de colores."
+          },
+          "l291b-q5": {
+            "prompt": "¿Qué mostró la prueba de dibujar con la misma fotografía?",
+            "options": [
+              "Que todos tenían que copiar la puerta.",
+              "Que la ventana solo podía dibujarse de memoria.",
+              "Que una misma imagen permite fijarse en detalles diferentes.",
+              "Que necesitaban una foto distinta para cada visitante."
+            ],
+            "correct": "c",
+            "explanation": "Que podían elegir y explicar detalles distintos a partir de una misma imagen."
+          },
+          "l291b-q6": {
+            "prompt": "¿Qué ejemplos da Joana de recuerdos que no necesitan la foto?",
+            "options": [
+              "Los lápices, el asa y el cierre de la maleta.",
+              "Los dibujos hechos en la escuela antes de venir.",
+              "Las fotografías que todavía no han recibido.",
+              "Un rincón, una conversación o la espera del turno."
+            ],
+            "correct": "d",
+            "explanation": "Un rincón de la sala, una conversación o la espera antes de mirar."
+          },
+          "l291b-q7": {
+            "prompt": "¿Por qué cambian «Copiaréis el observatorio de esta foto» por «Dibujaréis una parte de vuestra visita»?",
+            "options": [
+              "Para incluir elecciones y recuerdos que no salen en la foto.",
+              "Para que el dibujo se haga solo antes de mirar por el telescopio.",
+              "Para retirar la foto y dejar los lápices guardados.",
+              "Para que todos dibujen la misma puerta con colores distintos."
+            ],
+            "correct": "a",
+            "explanation": "Para abrir la elección a recuerdos propios de la visita y no limitar todos los dibujos a copiar la imagen."
+          },
+          "l291b-q8": {
+            "prompt": "¿Qué ayuda a saber a quién va dirigida la respuesta?",
+            "options": [
+              "La firma de Dani y Mira, como si fueran quienes reciben la carta.",
+              "El saludo y las referencias directas a la carta de la clase.",
+              "La prueba de los lápices, que hicieron los visitantes.",
+              "La fotografía, que muestra a toda la clase."
+            ],
+            "correct": "b",
+            "explanation": "El saludo a la clase y las referencias a vuestra carta."
+          },
+          "l291b-q9": {
+            "prompt": "¿Qué resumen recoge la evolución de la propuesta?",
+            "options": [
+              "Añaden más objetos a la lista, pero dejan pendiente qué harán.",
+              "Proponen copiar una foto idéntica y guardar las hojas en la sala.",
+              "Cambian la visita por un envío de materiales a la escuela.",
+              "Añaden una actividad con materiales y libertad para escoger recuerdos."
+            ],
+            "correct": "d",
+            "explanation": "Pasan de enumerar cosas que verán a proponer dibujar durante la espera. Preparan materiales y dejan elegir recuerdos propios, no solo copiar una foto."
+          }
+        }
+      },
+      {
+        "code": "L291B",
+        "language": "ca",
+        "questions": {
+          "l291b-q1": {
+            "prompt": "Quines dues possibilitats distingeix la pregunta que va enviar la classe?",
+            "options": [
+              "Visitar de dia o esperar fins a la nit.",
+              "Escoltar la Joana o llegir una carta a casa.",
+              "Mirar només o participar elaborant alguna cosa per explicar.",
+              "Dibuixar tots el mateix o escollir el color dels llapis."
+            ],
+            "correct": "c",
+            "explanation": "Només mirar pel telescopi o fer també alguna cosa per explicar la visita després."
+          },
+          "l291b-q2": {
+            "prompt": "Què permet veure la carta al costat del primer esborrany?",
+            "options": [
+              "Que falta respondre la part de fer alguna cosa.",
+              "Que la classe ja ha triat tots els dibuixos.",
+              "Que en Dani no havia inclòs cap objecte de l’observatori.",
+              "Que la Joana havia demanat substituir el telescopi per fotografies."
+            ],
+            "correct": "a",
+            "explanation": "Que la llista del que veuran deixa sense respondre què podran fer ells."
+          },
+          "l291b-q3": {
+            "prompt": "Què vol dir «esborrany» en comparar-lo amb la carta rebuda?",
+            "options": [
+              "La carta que ja havia enviat la classe.",
+              "La fotografia que acompanya la visita.",
+              "El dibuix acabat que s’endurà cada visitant.",
+              "Una primera versió de la resposta que preparen."
+            ],
+            "correct": "d",
+            "explanation": "Una versió inicial de la resposta, encara revisable."
+          },
+          "l291b-q4": {
+            "prompt": "Quins tres tipus de materials preparen dins de la maleta?",
+            "options": [
+              "Cartes, dibuixos acabats i una llibreta.",
+              "Una foto, fulls en blanc i llapis de colors.",
+              "Una foto, llapis i totes les llibretes d’en Dani.",
+              "Fulls, fotografies de la classe i una carta nova."
+            ],
+            "correct": "b",
+            "explanation": "Una foto de l’edifici, fulls en blanc i llapis de colors."
+          },
+          "l291b-q5": {
+            "prompt": "Què va mostrar la prova de dibuixar amb la mateixa fotografia?",
+            "options": [
+              "Que tothom havia de copiar la porta.",
+              "Que la finestra només es podia dibuixar de memòria.",
+              "Que una mateixa imatge permet fixar-se en detalls diferents.",
+              "Que necessitaven una foto diferent per a cada visitant."
+            ],
+            "correct": "c",
+            "explanation": "Que podien triar i explicar detalls diferents a partir d’una mateixa imatge."
+          },
+          "l291b-q6": {
+            "prompt": "Quins exemples dona la Joana de records que no necessiten la foto?",
+            "options": [
+              "Els llapis, la nansa i el tancament de la maleta.",
+              "Els dibuixos fets a l’escola abans de venir.",
+              "Les fotografies que encara no han rebut.",
+              "Un racó, una conversa o l’espera del torn."
+            ],
+            "correct": "d",
+            "explanation": "Un racó de la sala, una conversa o l’espera abans de mirar."
+          },
+          "l291b-q7": {
+            "prompt": "Per què canvien «Copiareu l’observatori d’aquesta foto» per «Dibuixareu una part de la vostra visita»?",
+            "options": [
+              "Per incloure tries i records que no surten a la foto.",
+              "Perquè el dibuix es faci només abans de mirar pel telescopi.",
+              "Per retirar la foto i deixar els llapis desats.",
+              "Perquè tothom dibuixi la mateixa porta amb colors diferents."
+            ],
+            "correct": "a",
+            "explanation": "Per obrir la tria a records propis de la visita i no limitar tots els dibuixos a copiar la imatge."
+          },
+          "l291b-q8": {
+            "prompt": "Què ajuda a saber a qui va dirigida la resposta?",
+            "options": [
+              "La signatura d’en Dani i la Mira, com si fossin els qui reben la carta.",
+              "La salutació i les referències directes a la carta de la classe.",
+              "La prova dels llapis, que van fer els visitants.",
+              "La fotografia, que mostra tota la classe."
+            ],
+            "correct": "b",
+            "explanation": "La salutació a la classe i les referències a la vostra carta."
+          },
+          "l291b-q9": {
+            "prompt": "Quin resum recull l’evolució de la proposta?",
+            "options": [
+              "Afegeixen més objectes a la llista, però deixen pendent què faran.",
+              "Proposen copiar una foto idèntica i desar els fulls a la sala.",
+              "Canvien la visita per un enviament de materials a l’escola.",
+              "Afegeixen una activitat amb materials i llibertat per triar records."
+            ],
+            "correct": "d",
+            "explanation": "Passen d’enumerar coses que veuran a proposar dibuixar durant l’espera. Preparen materials i deixen triar records propis, no només copiar una foto."
+          }
+        }
+      }
+    ]
   }
 ];
