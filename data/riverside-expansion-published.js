@@ -9340,5 +9340,1814 @@ export const riversidePublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L312",
+    "edition": "v1.63.5",
+    "family": {
+      "id": "familia-l312",
+      "code": "L312",
+      "name": {
+        "es": "Las preguntas de la cestera",
+        "ca": "Les preguntes de la cistellera"
+      },
+      "description": {
+        "ca": "Una història dels Camins de la ribera, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de Los caminos de la ribera, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L312A",
+        "L312",
+        "L312B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "las-preguntas-de-la-cestera-a-es",
+        "code": "L312A",
+        "workId": "las-preguntas-de-la-cestera-a",
+        "language": "es",
+        "familyId": "familia-l312",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "everyday",
+          "community"
+        ],
+        "genre": "interview",
+        "title": "Las preguntas de la cestera",
+        "summary": "Isona busca una cesta para sus ovillos y la artesana quiere saber cómo la usará.",
+        "paragraphs": [
+          "Neri e Isona, dos amigos de la ribera, visitaron a Sira, la cestera de la plaza. Isona quería una cesta para sus ovillos de lana. Llevaba varios en una bolsa para ver si cabían. Neri había traído un cuaderno: quería preguntar por el oficio de Sira y contárselo después a Elna, la dueña del molino.",
+          "Neri: ¿Por qué tienes cestas de formas diferentes? Sira: Porque la gente me pide cosas distintas. Isona, ¿qué harás con la tuya? Isona: Quiero tener los colores a la vista, sin sacar todos los ovillos para buscar uno.",
+          "Sira puso sobre la mesa una cesta alta de fondo estrecho y otra baja y ancha. En la alta cabían los ovillos, pero algunos quedaban debajo de otros. La baja permitía verlos de un vistazo. Sira aún tenía que acabar su borde.",
+          "Neri: ¿Cómo sabes si el fondo será suficiente? Sira: Dibujemos su contorno en este papel. Isona colocó encima sus ovillos, sin amontonarlos. Cabían. Eligió la cesta baja. Sira dijo que acabaría el borde y que Isona podría recogerla al día siguiente. Neri dibujó en el cuaderno las dos cestas, con un ovillo escondido en la alta. Isona recogió la lana para volver a guardarla en la bolsa."
+        ],
+        "questions": [
+          {
+            "id": "l312a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Para qué quería Isona la cesta?",
+            "answer": "Para guardar sus ovillos de lana.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una cesta para sus ovillos de lana"
+              }
+            ]
+          },
+          {
+            "id": "l312a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué necesitaba poder hacer con los colores?",
+            "answer": "Verlos sin sacar todos los ovillos para buscar uno.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "tener los colores a la vista, sin sacar todos los ovillos para buscar uno"
+              }
+            ]
+          },
+          {
+            "id": "l312a-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa ver los ovillos «de un vistazo»?",
+            "answer": "Verlos rápidamente, con una sola mirada, sin tener que buscarlos debajo de otros.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La baja permitía verlos de un vistazo."
+              }
+            ]
+          },
+          {
+            "id": "l312a-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué pasaba en la cesta alta, aunque los ovillos cabían?",
+            "answer": "Algunos ovillos quedaban debajo de otros.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "En la alta cabían los ovillos, pero algunos quedaban debajo de otros."
+              }
+            ]
+          },
+          {
+            "id": "l312a-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cómo comprobaron el espacio del fondo?",
+            "answer": "Dibujaron su contorno en papel y pusieron los ovillos encima sin amontonarlos.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Dibujemos su contorno en este papel."
+              },
+              {
+                "paragraph": 4,
+                "text": "colocó encima sus ovillos, sin amontonarlos"
+              }
+            ]
+          },
+          {
+            "id": "l312a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué que los ovillos cupieran no bastaba para elegir la cesta alta?",
+            "answer": "Porque Isona también quería ver todos los colores sin vaciar ni remover la cesta.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "sin sacar todos los ovillos para buscar uno"
+              },
+              {
+                "paragraph": 3,
+                "text": "algunos quedaban debajo de otros"
+              }
+            ]
+          },
+          {
+            "id": "l312a-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué detalle muestra que hay una conversación de preguntas y respuestas?",
+            "answer": "Las intervenciones llevan los nombres y Sira responde a preguntas de Neri y pregunta a Isona qué necesita.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Neri: ¿Por qué tienes cestas de formas diferentes? Sira: Porque la gente me pide cosas distintas."
+              }
+            ]
+          },
+          {
+            "id": "l312a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué otra pregunta le harías a Sira sobre su oficio? Explica tu interés.",
+            "answer": "Pregunta personal pertinente acompañada de una explicación; no tiene que estar respondida en el texto."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "de un vistazo",
+            "occurrence": 1,
+            "questionId": "l312a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l312-scene",
+            "src": "assets/readings/l312-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Sira compara una cesta baja y ancha con otra alta, mientras Isona coloca ovillos sobre una plantilla de papel y Neri observa.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "las-preguntas-de-la-cestera-a-ca",
+        "code": "L312A",
+        "workId": "las-preguntas-de-la-cestera-a",
+        "language": "ca",
+        "familyId": "familia-l312",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "everyday",
+          "community"
+        ],
+        "genre": "interview",
+        "title": "Les preguntes de la cistellera",
+        "summary": "L’Isona busca un cistell per als seus cabdells i l’artesana vol saber com el farà servir.",
+        "paragraphs": [
+          "En Neri i l’Isona, dos amics de la ribera, van visitar la Sira, la cistellera de la plaça. L’Isona volia un cistell per als seus cabdells de llana. En portava uns quants en una bossa per veure si hi cabien. En Neri havia dut un quadern: volia preguntar per l’ofici de la Sira i explicar-ho després a l’Elna, la propietària del molí.",
+          "Neri: Per què tens cistells de formes diferents? Sira: Perquè la gent em demana coses diferents. Isona, què faràs amb el teu? Isona: Vull tenir els colors a la vista, sense treure tots els cabdells per buscar-ne un.",
+          "La Sira va posar a la taula un cistell alt de fons estret i un altre de baix i ample. A l’alt hi cabien els cabdells, però alguns quedaven sota d’altres. El baix permetia veure’ls d’un cop d’ull. La Sira encara n’havia d’acabar la vora.",
+          "Neri: Com saps si el fons serà suficient? Sira: Dibuixem-ne el contorn en aquest paper. L’Isona hi va col·locar els cabdells, sense apilar-los. Hi cabien. Va triar el cistell baix. La Sira va dir que n’acabaria la vora i que l’Isona el podria recollir l’endemà. En Neri va dibuixar al quadern tots dos cistells, amb un cabdell amagat a l’alt. L’Isona va recollir la llana per tornar-la a desar a la bossa."
+        ],
+        "questions": [
+          {
+            "id": "l312a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Per a què volia l’Isona el cistell?",
+            "answer": "Per desar els seus cabdells de llana.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "un cistell per als seus cabdells de llana"
+              }
+            ]
+          },
+          {
+            "id": "l312a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què necessitava poder fer amb els colors?",
+            "answer": "Veure’ls sense treure tots els cabdells per buscar-ne un.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "tenir els colors a la vista, sense treure tots els cabdells per buscar-ne un"
+              }
+            ]
+          },
+          {
+            "id": "l312a-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir veure els cabdells «d’un cop d’ull»?",
+            "answer": "Veure’ls ràpidament, amb una sola mirada, sense haver-los de buscar sota d’altres.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El baix permetia veure’ls d’un cop d’ull."
+              }
+            ]
+          },
+          {
+            "id": "l312a-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què passava al cistell alt, tot i que els cabdells hi cabien?",
+            "answer": "Alguns cabdells quedaven sota d’altres.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "A l’alt hi cabien els cabdells, però alguns quedaven sota d’altres."
+              }
+            ]
+          },
+          {
+            "id": "l312a-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Com van comprovar l’espai del fons?",
+            "answer": "En van dibuixar el contorn en paper i van posar-hi els cabdells sense apilar-los.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Dibuixem-ne el contorn en aquest paper."
+              },
+              {
+                "paragraph": 4,
+                "text": "hi va col·locar els cabdells, sense apilar-los"
+              }
+            ]
+          },
+          {
+            "id": "l312a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què no n’hi havia prou que els cabdells hi cabessin per triar el cistell alt?",
+            "answer": "Perquè l’Isona també volia veure tots els colors sense buidar ni remenar el cistell.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "sense treure tots els cabdells per buscar-ne un"
+              },
+              {
+                "paragraph": 3,
+                "text": "alguns quedaven sota d’altres"
+              }
+            ]
+          },
+          {
+            "id": "l312a-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quin detall mostra que hi ha una conversa de preguntes i respostes?",
+            "answer": "Les intervencions porten els noms i la Sira respon preguntes d’en Neri i pregunta a l’Isona què necessita.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Neri: Per què tens cistells de formes diferents? Sira: Perquè la gent em demana coses diferents."
+              }
+            ]
+          },
+          {
+            "id": "l312a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quina altra pregunta faries a la Sira sobre el seu ofici? Explica què t’interessa.",
+            "answer": "Pregunta personal pertinent acompanyada d’una explicació; no cal que estigui resposta al text."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "d’un cop d’ull",
+            "occurrence": 1,
+            "questionId": "l312a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l312-scene",
+            "src": "assets/readings/l312-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Sira compara un cistell baix i ample amb un altre d’alt, mentre l’Isona col·loca cabdells sobre una plantilla de paper i en Neri observa.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "las-preguntas-de-la-cestera-es",
+        "code": "L312",
+        "workId": "las-preguntas-de-la-cestera",
+        "language": "es",
+        "familyId": "familia-l312",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "everyday",
+          "community"
+        ],
+        "genre": "interview",
+        "title": "Las preguntas de la cestera",
+        "summary": "Una entrevista cambia de dirección cuando la cestera pregunta por el uso que tendrá su trabajo.",
+        "paragraphs": [
+          "Neri e Isona, dos amigos de la ribera, visitaron a Sira, la cestera de la plaza. Neri llevaba un cuaderno para preguntar por su oficio y contárselo después a Elna, la dueña del molino. Isona quería una cesta para sus ovillos. Los había llevado en una bolsa. Sobre la mesa de Sira había cestas altas y bajas, algunas todavía con el borde sin acabar.",
+          "Neri: ¿Por qué haces tantas formas? Sira: Porque no todos quieren guardar lo mismo. Antes de acabar una cesta, pregunto dónde la pondrán y qué buscarán dentro. Isona, ¿vas a llevar mucho peso? Isona: La tendré junto al banco donde me siento a tejer. Quiero escoger el color sin sacar todos los ovillos.",
+          "Sira acercó una cesta alta de fondo estrecho. Los ovillos cabían, aunque algunos quedaban debajo de otros. Después señaló una cesta baja y ancha, aún sin rematar. Extendidos en ella, los colores podían verse de un vistazo. Isona pasó la mano por encima, como si eligiera uno para empezar su labor.",
+          "Neri: ¿Cómo compruebas si tendrá sitio suficiente? Sira: Mira el fondo, no solo la altura. Dibujó su contorno en una hoja y colocaron encima los ovillos sin amontonarlos. Quedaba un pequeño hueco al lado. Isona explicó que a veces añadía otro color y probó a separar un poco los que ya tenía. Siguieron cabiendo dentro del dibujo.",
+          "Isona: Me quedo con la baja. Sira: Acabaré el borde y podrás recogerla mañana. Neri dibujó las dos cestas en su cuaderno. En la alta dejó medio ovillo oculto detrás de otro. Bajo el dibujo de la baja anotó el lugar donde Isona la pondría. Al salir, ella volvió a guardar la lana en su bolsa."
+        ],
+        "questions": [
+          {
+            "id": "l312-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Con qué propósitos visitaron a Sira los dos amigos?",
+            "answer": "Neri quería preguntar por su oficio; Isona buscaba una cesta para sus ovillos.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "un cuaderno para preguntar por su oficio"
+              },
+              {
+                "paragraph": 1,
+                "text": "Isona quería una cesta para sus ovillos."
+              }
+            ]
+          },
+          {
+            "id": "l312-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué pregunta Sira antes de acabar una cesta?",
+            "answer": "Dónde la pondrán y qué buscarán dentro.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "pregunto dónde la pondrán y qué buscarán dentro"
+              }
+            ]
+          },
+          {
+            "id": "l312-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué era importante saber que la cesta estaría junto al banco?",
+            "answer": "Porque Isona la usaría para buscar colores mientras tejía, no principalmente para transportar una carga.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La tendré junto al banco donde me siento a tejer. Quiero escoger el color sin sacar todos los ovillos."
+              }
+            ]
+          },
+          {
+            "id": "l312-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «de un vistazo» al hablar de los colores?",
+            "answer": "Verlos rápidamente con una mirada, sin tener que sacar unos ovillos para descubrir otros.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "los colores podían verse de un vistazo"
+              }
+            ]
+          },
+          {
+            "id": "l312-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué limitación de la cesta alta observaron?",
+            "answer": "Aunque cabían los ovillos, algunos quedaban debajo de otros y no se veían todos los colores a la vez.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Los ovillos cabían, aunque algunos quedaban debajo de otros."
+              }
+            ]
+          },
+          {
+            "id": "l312-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué hicieron con la hoja de papel?",
+            "answer": "Dibujaron el contorno del fondo y colocaron los ovillos encima sin amontonarlos.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Dibujó su contorno en una hoja y colocaron encima los ovillos sin amontonarlos."
+              }
+            ]
+          },
+          {
+            "id": "l312-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Para qué probó Isona a separar un poco los ovillos?",
+            "answer": "Para comprobar el margen disponible, ya que a veces añadía otro color.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "a veces añadía otro color y probó a separar un poco los que ya tenía"
+              }
+            ]
+          },
+          {
+            "id": "l312-q8",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Cuándo podría recoger Isona la cesta elegida?",
+            "answer": "Al día siguiente, cuando Sira hubiera acabado el borde.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Acabaré el borde y podrás recogerla mañana."
+              }
+            ]
+          },
+          {
+            "id": "l312-q9",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Por qué el título habla de las preguntas de la cestera, si Neri iba a entrevistarla?",
+            "answer": "Porque Sira también pregunta para conocer el uso de la cesta, y esas preguntas ayudan a elegir la forma adecuada.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Isona, ¿vas a llevar mucho peso?"
+              },
+              {
+                "paragraph": 2,
+                "text": "pregunto dónde la pondrán y qué buscarán dentro"
+              }
+            ]
+          },
+          {
+            "id": "l312-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Piensa en un objeto que uses a menudo. ¿Qué preguntarías antes de encargar otro? Explica por qué.",
+            "answer": "Respuesta personal que relacione una pregunta con el uso o la necesidad del objeto."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "de un vistazo",
+            "occurrence": 1,
+            "questionId": "l312-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l312-scene",
+            "src": "assets/readings/l312-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Sira compara una cesta baja y ancha con otra alta, mientras Isona coloca ovillos sobre una plantilla de papel y Neri observa.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "las-preguntas-de-la-cestera-ca",
+        "code": "L312",
+        "workId": "las-preguntas-de-la-cestera",
+        "language": "ca",
+        "familyId": "familia-l312",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "everyday",
+          "community"
+        ],
+        "genre": "interview",
+        "title": "Les preguntes de la cistellera",
+        "summary": "Una entrevista canvia de direcció quan la cistellera pregunta per l’ús que tindrà la seva feina.",
+        "paragraphs": [
+          "En Neri i l’Isona, dos amics de la ribera, van visitar la Sira, la cistellera de la plaça. En Neri duia un quadern per preguntar pel seu ofici i explicar-ho després a l’Elna, la propietària del molí. L’Isona volia un cistell per als seus cabdells. Els havia portat en una bossa. A la taula de la Sira hi havia cistells alts i baixos, alguns encara amb la vora sense acabar.",
+          "Neri: Per què fas tantes formes? Sira: Perquè no tothom vol desar el mateix. Abans d’acabar un cistell, pregunto on el posaran i què hi buscaran a dins. Isona, hi portaràs gaire pes? Isona: El tindré al costat del banc on m’assec a teixir. Vull escollir el color sense treure tots els cabdells.",
+          "La Sira va acostar un cistell alt de fons estret. Els cabdells hi cabien, tot i que alguns quedaven sota d’altres. Després va assenyalar un cistell baix i ample, encara sense rematar. Estesos en aquell cistell, els colors es podien veure d’un cop d’ull. L’Isona hi va passar la mà per sobre, com si en triés un per començar la feina.",
+          "Neri: Com comproves si tindrà prou lloc? Sira: Mira el fons, no només l’alçada. En va dibuixar el contorn en un full i hi van col·locar els cabdells sense apilar-los. Quedava un petit espai al costat. L’Isona va explicar que de vegades hi afegia un altre color i va provar de separar una mica els que ja tenia. Continuaven cabent dins del dibuix.",
+          "Isona: Em quedo el baix. Sira: N’acabaré la vora i el podràs recollir demà. En Neri va dibuixar tots dos cistells al quadern. A l’alt va deixar mig cabdell ocult darrere d’un altre. Sota el dibuix del baix va anotar el lloc on l’Isona el posaria. En sortir, ella va tornar a desar la llana a la bossa."
+        ],
+        "questions": [
+          {
+            "id": "l312-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Amb quins propòsits van visitar la Sira els dos amics?",
+            "answer": "En Neri volia preguntar pel seu ofici; l’Isona buscava un cistell per als seus cabdells.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "un quadern per preguntar pel seu ofici"
+              },
+              {
+                "paragraph": 1,
+                "text": "L’Isona volia un cistell per als seus cabdells."
+              }
+            ]
+          },
+          {
+            "id": "l312-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què pregunta la Sira abans d’acabar un cistell?",
+            "answer": "On el posaran i què hi buscaran a dins.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "pregunto on el posaran i què hi buscaran a dins"
+              }
+            ]
+          },
+          {
+            "id": "l312-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què era important saber que el cistell seria al costat del banc?",
+            "answer": "Perquè l’Isona el faria servir per buscar colors mentre teixia, no principalment per transportar una càrrega.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El tindré al costat del banc on m’assec a teixir. Vull escollir el color sense treure tots els cabdells."
+              }
+            ]
+          },
+          {
+            "id": "l312-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir «d’un cop d’ull» en parlar dels colors?",
+            "answer": "Veure’ls ràpidament amb una mirada, sense haver de treure uns cabdells per descobrir-ne d’altres.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "els colors es podien veure d’un cop d’ull"
+              }
+            ]
+          },
+          {
+            "id": "l312-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina limitació del cistell alt van observar?",
+            "answer": "Tot i que hi cabien els cabdells, alguns quedaven sota d’altres i no es veien tots els colors alhora.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Els cabdells hi cabien, tot i que alguns quedaven sota d’altres."
+              }
+            ]
+          },
+          {
+            "id": "l312-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què van fer amb el full de paper?",
+            "answer": "Van dibuixar el contorn del fons i hi van posar els cabdells sense apilar-los.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "En va dibuixar el contorn en un full i hi van col·locar els cabdells sense apilar-los."
+              }
+            ]
+          },
+          {
+            "id": "l312-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per a què va provar l’Isona de separar una mica els cabdells?",
+            "answer": "Per comprovar l’espai disponible, ja que de vegades hi afegia un altre color.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "de vegades hi afegia un altre color i va provar de separar una mica els que ja tenia"
+              }
+            ]
+          },
+          {
+            "id": "l312-q8",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quan podria recollir l’Isona el cistell triat?",
+            "answer": "L’endemà, quan la Sira n’hagués acabat la vora.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "N’acabaré la vora i el podràs recollir demà."
+              }
+            ]
+          },
+          {
+            "id": "l312-q9",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Per què el títol parla de les preguntes de la cistellera, si en Neri anava a entrevistar-la?",
+            "answer": "Perquè la Sira també pregunta per conèixer l’ús del cistell, i aquestes preguntes ajuden a triar-ne la forma adequada.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Isona, hi portaràs gaire pes?"
+              },
+              {
+                "paragraph": 2,
+                "text": "pregunto on el posaran i què hi buscaran a dins"
+              }
+            ]
+          },
+          {
+            "id": "l312-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Pensa en un objecte que facis servir sovint. Què preguntaries abans d’encarregar-ne un altre? Explica per què.",
+            "answer": "Resposta personal que relacioni una pregunta amb l’ús o la necessitat de l’objecte."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "d’un cop d’ull",
+            "occurrence": 1,
+            "questionId": "l312-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l312-scene",
+            "src": "assets/readings/l312-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Sira compara un cistell baix i ample amb un altre d’alt, mentre l’Isona col·loca cabdells sobre una plantilla de paper i en Neri observa.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "las-preguntas-de-la-cestera-b-es",
+        "code": "L312B",
+        "workId": "las-preguntas-de-la-cestera-b",
+        "language": "es",
+        "familyId": "familia-l312",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "everyday",
+          "community"
+        ],
+        "genre": "interview",
+        "title": "Las preguntas de la cestera",
+        "summary": "La conversación con Sira distingue capacidad, visibilidad y uso al elegir una cesta.",
+        "paragraphs": [
+          "Neri e Isona, dos amigos de la ribera, visitaron a Sira, la cestera de la plaza. Neri llevaba preguntas sobre su oficio para contárselo después a Elna, la dueña del molino. Isona quería una cesta para sus ovillos y había traído la lana en una bolsa. Sobre la mesa de Sira esperaban varias cestas, algunas con el borde todavía sin terminar.",
+          "Neri: ¿Cómo eliges la forma antes de empezar? Sira: Pregunto dónde la pondrán y qué harán con ella. Dos personas pueden guardar lana y necesitar cestas distintas. Isona, ¿vas a llevar mucho peso? Isona: La tendré junto al banco donde tejo. Me importa escoger el color sin sacar todos los ovillos. Sira: Entonces probemos cómo se ven al colocarlos.",
+          "Sira acercó una cesta alta de fondo estrecho. Neri comprobó que cabían todos los ovillos y levantó la vista, como si la elección ya estuviera hecha. Isona buscó el verde y tuvo que apartar el rojo que lo tapaba. Sira señaló otra cesta, baja y ancha. Al extender los ovillos en ella se veían de un vistazo. Aún le faltaba rematar el borde.",
+          "Neri: ¿Más ancho será siempre mejor? Sira: Para Isona, aquí, ayuda. Si tuviera que llevarla pegada al cuerpo, habría que mirar también cómo la sujeta. Ella ha dicho que estará junto al banco. Isona apoyó la cesta baja en el suelo, al lado de un taburete, y escogió dos colores sin vaciarla. Al incorporarse volvió a dejarlos dentro.",
+          "Neri: ¿Cómo compruebas si el fondo basta cuando aún no has acabado? Sira dibujó el contorno en una hoja. Colocaron los ovillos sobre el papel, sin amontonarlos. Quedaba un pequeño hueco. Isona dijo que algunas tardes añadía otro color y probó a separar un poco los que llevaba. Siguieron cabiendo, aunque cerca del borde del dibujo. Neri borró la primera marca que había hecho junto a la cesta alta.",
+          "Isona eligió la baja. Sira acordó acabar el borde y tenerla lista al día siguiente. Antes de irse, Neri dibujó ambas cestas con los ovillos: en una quedaban superpuestos; en la otra, extendidos. Isona recogió los colores de la mesa y volvió a guardarlos en la bolsa con la que había llegado."
+        ],
+        "questions": [
+          {
+            "id": "l312b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué quería averiguar Neri y qué quería conseguir Isona?",
+            "answer": "Neri quería conocer el oficio de Sira; Isona quería una cesta para sus ovillos.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "preguntas sobre su oficio"
+              },
+              {
+                "paragraph": 1,
+                "text": "Isona quería una cesta para sus ovillos"
+              }
+            ]
+          },
+          {
+            "id": "l312b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué saber que guardaría lana no resolvía todavía el encargo?",
+            "answer": "Porque también importaba cómo y dónde se usaría la cesta: Isona quería ver y escoger colores junto al banco.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Dos personas pueden guardar lana y necesitar cestas distintas."
+              },
+              {
+                "paragraph": 2,
+                "text": "La tendré junto al banco donde tejo. Me importa escoger el color sin sacar todos los ovillos."
+              }
+            ]
+          },
+          {
+            "id": "l312b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué muestra la reacción de Neri al comprobar que todos los ovillos cabían?",
+            "answer": "Parece dar por suficiente la capacidad, antes de comprobar si se pueden encontrar los colores como Isona necesita.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "levantó la vista, como si la elección ya estuviera hecha"
+              },
+              {
+                "paragraph": 3,
+                "text": "Isona buscó el verde y tuvo que apartar el rojo que lo tapaba."
+              }
+            ]
+          },
+          {
+            "id": "l312b-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué ocurrió al buscar el ovillo verde en la cesta alta?",
+            "answer": "Isona tuvo que apartar el rojo que lo tapaba.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "tuvo que apartar el rojo que lo tapaba"
+              }
+            ]
+          },
+          {
+            "id": "l312b-q5",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa ver los colores «de un vistazo» en la cesta baja?",
+            "answer": "Poder percibirlos de una vez y rápidamente, sin tener que levantar unos para descubrir otros.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "se veían de un vistazo"
+              }
+            ]
+          },
+          {
+            "id": "l312b-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué condición plantea Sira antes de preferir la cesta ancha para otro uso?",
+            "answer": "Si hubiera que llevarla pegada al cuerpo, también habría que mirar cómo la sujeta la persona.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Si tuviera que llevarla pegada al cuerpo, habría que mirar también cómo la sujeta."
+              }
+            ]
+          },
+          {
+            "id": "l312b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué comprueba Isona al poner la cesta junto al taburete y escoger dos colores?",
+            "answer": "Ensaya una colocación parecida a la del banco donde tejerá y comprueba que puede elegir sin vaciar la cesta.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "junto al banco donde tejo"
+              },
+              {
+                "paragraph": 4,
+                "text": "al lado de un taburete, y escogió dos colores sin vaciarla"
+              }
+            ]
+          },
+          {
+            "id": "l312b-q8",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Para qué utilizaron el contorno dibujado en papel?",
+            "answer": "Para colocar los ovillos sin amontonarlos y comprobar el espacio del fondo, incluyendo un pequeño margen.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Colocaron los ovillos sobre el papel, sin amontonarlos. Quedaba un pequeño hueco."
+              }
+            ]
+          },
+          {
+            "id": "l312b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Isona separa un poco los ovillos en la prueba de papel?",
+            "answer": "Relaciona el espacio libre con la posibilidad de añadir otro color, en vez de ajustar el fondo solo a los ovillos de ese día.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "algunas tardes añadía otro color y probó a separar un poco los que llevaba"
+              }
+            ]
+          },
+          {
+            "id": "l312b-q10",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué sugiere que Neri borre la primera marca junto a la cesta alta?",
+            "answer": "Que revisa su primera impresión después de ver otras necesidades además de que los ovillos quepan.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "como si la elección ya estuviera hecha"
+              },
+              {
+                "paragraph": 5,
+                "text": "Neri borró la primera marca que había hecho junto a la cesta alta."
+              }
+            ]
+          },
+          {
+            "id": "l312b-q11",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "¿Cómo contribuyen las preguntas de Sira a la entrevista iniciada por Neri?",
+            "answer": "Muestran cómo trabaja la artesana: relaciona las formas con la necesidad de quien usará la cesta y comprueba opciones concretas. La entrevista acaba mostrando ese proceso con el caso de Isona.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Pregunto dónde la pondrán y qué harán con ella."
+              },
+              {
+                "paragraph": 2,
+                "text": "Entonces probemos cómo se ven al colocarlos."
+              }
+            ]
+          },
+          {
+            "id": "l312b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Elige un objeto de uso cotidiano y explica dos necesidades que podrían hacer preferibles dos versiones distintas.",
+            "answer": "Respuesta personal razonada que relacione cada versión con una necesidad concreta, sin exigir que una sea mejor para todos."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "de un vistazo",
+            "occurrence": 1,
+            "questionId": "l312b-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l312-scene",
+            "src": "assets/readings/l312-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Sira compara una cesta baja y ancha con otra alta, mientras Isona coloca ovillos sobre una plantilla de papel y Neri observa.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Neri contempla los caminos de la ribera y el molino de piedra en un valle de otoño.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "las-preguntas-de-la-cestera-b-ca",
+        "code": "L312B",
+        "workId": "las-preguntas-de-la-cestera-b",
+        "language": "ca",
+        "familyId": "familia-l312",
+        "universeIds": [
+          "camins-de-la-ribera"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "arts",
+          "everyday",
+          "community"
+        ],
+        "genre": "interview",
+        "title": "Les preguntes de la cistellera",
+        "summary": "La conversa amb la Sira distingeix capacitat, visibilitat i ús en triar un cistell.",
+        "paragraphs": [
+          "En Neri i l’Isona, dos amics de la ribera, van visitar la Sira, la cistellera de la plaça. En Neri duia preguntes sobre el seu ofici per explicar-ho després a l’Elna, la propietària del molí. L’Isona volia un cistell per als seus cabdells i havia portat la llana en una bossa. A la taula de la Sira esperaven diversos cistells, alguns encara amb la vora sense acabar.",
+          "Neri: Com tries la forma abans de començar? Sira: Pregunto on el posaran i què en faran. Dues persones poden desar llana i necessitar cistells diferents. Isona, hi portaràs gaire pes? Isona: El tindré al costat del banc on teixeixo. M’importa escollir el color sense treure tots els cabdells. Sira: Doncs provem com es veuen en col·locar-los.",
+          "La Sira va acostar un cistell alt de fons estret. En Neri va comprovar que hi cabien tots els cabdells i va aixecar la vista, com si la tria ja estigués feta. L’Isona va buscar el verd i va haver d’apartar el vermell que el tapava. La Sira va assenyalar un altre cistell, baix i ample. En estendre-hi els cabdells es veien d’un cop d’ull. Encara li faltava rematar la vora.",
+          "Neri: Més ample serà sempre millor? Sira: Per a l’Isona, aquí, ajuda. Si l’hagués de portar arran del cos, també caldria mirar com el subjecta. Ella ha dit que serà al costat del banc. L’Isona va posar el cistell baix a terra, al costat d’un tamboret, i va triar dos colors sense buidar-lo. En incorporar-se els va tornar a deixar a dins.",
+          "Neri: Com comproves si el fons basta quan encara no has acabat? La Sira va dibuixar el contorn en un full. Van col·locar els cabdells sobre el paper, sense apilar-los. Quedava un petit espai. L’Isona va dir que algunes tardes hi afegia un altre color i va provar de separar una mica els que duia. Continuaven cabent, tot i que a prop de la vora del dibuix. En Neri va esborrar la primera marca que havia fet al costat del cistell alt.",
+          "L’Isona va triar el baix. La Sira va acordar acabar-ne la vora i tenir-lo llest l’endemà. Abans de marxar, en Neri va dibuixar tots dos cistells amb els cabdells: a l’un quedaven superposats; a l’altre, estesos. L’Isona va recollir els colors de la taula i els va tornar a desar a la bossa amb què havia arribat."
+        ],
+        "questions": [
+          {
+            "id": "l312b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què volia esbrinar en Neri i què volia aconseguir l’Isona?",
+            "answer": "En Neri volia conèixer l’ofici de la Sira; l’Isona volia un cistell per als seus cabdells.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "preguntes sobre el seu ofici"
+              },
+              {
+                "paragraph": 1,
+                "text": "L’Isona volia un cistell per als seus cabdells"
+              }
+            ]
+          },
+          {
+            "id": "l312b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què saber que hi desaria llana encara no resolia l’encàrrec?",
+            "answer": "Perquè també importava com i on es faria servir el cistell: l’Isona volia veure i escollir colors al costat del banc.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Dues persones poden desar llana i necessitar cistells diferents."
+              },
+              {
+                "paragraph": 2,
+                "text": "El tindré al costat del banc on teixeixo. M’importa escollir el color sense treure tots els cabdells."
+              }
+            ]
+          },
+          {
+            "id": "l312b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què mostra la reacció d’en Neri en comprovar que tots els cabdells hi cabien?",
+            "answer": "Sembla donar per suficient la capacitat, abans de comprovar si es poden trobar els colors com necessita l’Isona.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "va aixecar la vista, com si la tria ja estigués feta"
+              },
+              {
+                "paragraph": 3,
+                "text": "L’Isona va buscar el verd i va haver d’apartar el vermell que el tapava."
+              }
+            ]
+          },
+          {
+            "id": "l312b-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què va passar en buscar el cabdell verd al cistell alt?",
+            "answer": "L’Isona va haver d’apartar el vermell que el tapava.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "va haver d’apartar el vermell que el tapava"
+              }
+            ]
+          },
+          {
+            "id": "l312b-q5",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir veure els colors «d’un cop d’ull» al cistell baix?",
+            "answer": "Poder percebre’ls d’una vegada i ràpidament, sense haver d’aixecar-ne uns per descobrir-ne d’altres.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "es veien d’un cop d’ull"
+              }
+            ]
+          },
+          {
+            "id": "l312b-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina condició planteja la Sira abans de preferir el cistell ample per a un altre ús?",
+            "answer": "Si s’hagués de portar arran del cos, també caldria mirar com el subjecta la persona.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Si l’hagués de portar arran del cos, també caldria mirar com el subjecta."
+              }
+            ]
+          },
+          {
+            "id": "l312b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què comprova l’Isona en posar el cistell al costat del tamboret i escollir dos colors?",
+            "answer": "Assaja una col·locació semblant a la del banc on teixirà i comprova que pot triar sense buidar el cistell.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "al costat del banc on teixeixo"
+              },
+              {
+                "paragraph": 4,
+                "text": "al costat d’un tamboret, i va triar dos colors sense buidar-lo"
+              }
+            ]
+          },
+          {
+            "id": "l312b-q8",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per a què van fer servir el contorn dibuixat en paper?",
+            "answer": "Per posar els cabdells sense apilar-los i comprovar l’espai del fons, incloent-hi un petit marge.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Van col·locar els cabdells sobre el paper, sense apilar-los. Quedava un petit espai."
+              }
+            ]
+          },
+          {
+            "id": "l312b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què l’Isona separa una mica els cabdells a la prova de paper?",
+            "answer": "Relaciona l’espai lliure amb la possibilitat d’afegir-hi un altre color, en lloc d’ajustar el fons només als cabdells d’aquell dia.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "algunes tardes hi afegia un altre color i va provar de separar una mica els que duia"
+              }
+            ]
+          },
+          {
+            "id": "l312b-q10",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què suggereix que en Neri esborri la primera marca al costat del cistell alt?",
+            "answer": "Que revisa la primera impressió després de veure altres necessitats a més que els cabdells hi càpiguen.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "com si la tria ja estigués feta"
+              },
+              {
+                "paragraph": 5,
+                "text": "En Neri va esborrar la primera marca que havia fet al costat del cistell alt."
+              }
+            ]
+          },
+          {
+            "id": "l312b-q11",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "Com contribueixen les preguntes de la Sira a l’entrevista iniciada per en Neri?",
+            "answer": "Mostren com treballa l’artesana: relaciona les formes amb la necessitat de qui farà servir el cistell i comprova opcions concretes. L’entrevista acaba mostrant aquest procés amb el cas de l’Isona.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Pregunto on el posaran i què en faran."
+              },
+              {
+                "paragraph": 2,
+                "text": "Doncs provem com es veuen en col·locar-los."
+              }
+            ]
+          },
+          {
+            "id": "l312b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Tria un objecte d’ús quotidià i explica dues necessitats que podrien fer preferibles dues versions diferents.",
+            "answer": "Resposta personal raonada que relacioni cada versió amb una necessitat concreta, sense exigir que una sigui millor per a tothom."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "d’un cop d’ull",
+            "occurrence": 1,
+            "questionId": "l312b-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l312-scene",
+            "src": "assets/readings/l312-ribera.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Sira compara un cistell baix i ample amb un altre d’alt, mentre l’Isona col·loca cabdells sobre una plantilla de paper i en Neri observa.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "riverside-valley",
+            "src": "assets/readings/l189-el-camino-del-mensajero.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Neri contempla els camins de la ribera i el molí de pedra en una vall de tardor.",
+            "afterParagraph": 4
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L312A",
+        "language": "es",
+        "questions": {
+          "l312a-q1": {
+            "prompt": "¿Para qué quería Isona la cesta?",
+            "options": [
+              "Para llevar el cuaderno y enseñárselo a Elna.",
+              "Para guardar sus ovillos de lana.",
+              "Para recoger los papeles del dibujo de Neri.",
+              "Para esconder los colores que ya había elegido."
+            ],
+            "correct": "b",
+            "explanation": "Para guardar sus ovillos de lana."
+          },
+          "l312a-q2": {
+            "prompt": "¿Qué necesitaba poder hacer con los colores?",
+            "options": [
+              "Apilar los ovillos por colores dentro de la cesta alta.",
+              "Llevar todos los colores al molino en una bolsa.",
+              "Verlos y encontrar uno sin sacar todos los ovillos.",
+              "Dejar algunos colores escondidos bajo los otros."
+            ],
+            "correct": "c",
+            "explanation": "Verlos sin sacar todos los ovillos para buscar uno."
+          },
+          "l312a-q3": {
+            "prompt": "¿Qué significa ver los ovillos «de un vistazo»?",
+            "options": [
+              "Verlos con una mirada rápida, sin revolverlos.",
+              "Mirar solo el ovillo que queda en el fondo.",
+              "Sacar los ovillos antes de mirarlos por colores.",
+              "Hacer un dibujo de cada color en el cuaderno."
+            ],
+            "correct": "a",
+            "explanation": "Verlos rápidamente, con una sola mirada, sin tener que buscarlos debajo de otros."
+          },
+          "l312a-q4": {
+            "prompt": "¿Qué pasaba en la cesta alta, aunque los ovillos cabían?",
+            "options": [
+              "No quedaba espacio para acabar el borde.",
+              "Los colores se veían mejor que en la baja.",
+              "Todos quedaban extendidos en una sola capa.",
+              "Unos ovillos tapaban a otros al amontonarse."
+            ],
+            "correct": "d",
+            "explanation": "Algunos ovillos quedaban debajo de otros."
+          },
+          "l312a-q5": {
+            "prompt": "¿Cómo comprobaron el espacio del fondo?",
+            "options": [
+              "Dibujaron los colores en la bolsa antes de vaciarla.",
+              "Pusieron los ovillos sobre el contorno de papel sin apilarlos.",
+              "Contaron los ovillos escondidos en el cuaderno de Neri.",
+              "Colocaron la cesta alta encima de la baja para compararlas."
+            ],
+            "correct": "b",
+            "explanation": "Dibujaron su contorno en papel y pusieron los ovillos encima sin amontonarlos."
+          },
+          "l312a-q6": {
+            "prompt": "¿Por qué que los ovillos cupieran no bastaba para elegir la cesta alta?",
+            "options": [
+              "Porque también necesitaba ver los colores sin sacar todos los ovillos.",
+              "Porque en la cesta alta no cabían todos los ovillos de Isona.",
+              "Porque la cesta alta todavía tenía el borde sin acabar.",
+              "Porque al ponerlos sobre el papel los ovillos ya no cabían."
+            ],
+            "correct": "a",
+            "explanation": "Porque Isona también quería ver todos los colores sin vaciar ni remover la cesta."
+          },
+          "l312a-q7": {
+            "prompt": "¿Qué detalle muestra que hay una conversación de preguntas y respuestas?",
+            "options": [
+              "Neri dibuja las cestas al acabar la visita.",
+              "Isona lleva los ovillos dentro de una bolsa.",
+              "El texto alterna nombres, preguntas y respuestas.",
+              "La cesta alta y la baja aparecen sobre la mesa."
+            ],
+            "correct": "c",
+            "explanation": "Las intervenciones llevan los nombres y Sira responde a preguntas de Neri y pregunta a Isona qué necesita."
+          }
+        }
+      },
+      {
+        "code": "L312A",
+        "language": "ca",
+        "questions": {
+          "l312a-q1": {
+            "prompt": "Per a què volia l’Isona el cistell?",
+            "options": [
+              "Per portar el quadern i ensenyar-lo a l’Elna.",
+              "Per desar els seus cabdells de llana.",
+              "Per recollir els papers del dibuix d’en Neri.",
+              "Per amagar els colors que ja havia triat."
+            ],
+            "correct": "b",
+            "explanation": "Per desar els seus cabdells de llana."
+          },
+          "l312a-q2": {
+            "prompt": "Què necessitava poder fer amb els colors?",
+            "options": [
+              "Apilar els cabdells per colors dins del cistell alt.",
+              "Portar tots els colors al molí en una bossa.",
+              "Veure’ls i trobar-ne un sense treure tots els cabdells.",
+              "Deixar alguns colors amagats sota els altres."
+            ],
+            "correct": "c",
+            "explanation": "Veure’ls sense treure tots els cabdells per buscar-ne un."
+          },
+          "l312a-q3": {
+            "prompt": "Què vol dir veure els cabdells «d’un cop d’ull»?",
+            "options": [
+              "Veure’ls amb una mirada ràpida, sense remenar-los.",
+              "Mirar només el cabdell que queda al fons.",
+              "Treure els cabdells abans de mirar-los per colors.",
+              "Fer un dibuix de cada color al quadern."
+            ],
+            "correct": "a",
+            "explanation": "Veure’ls ràpidament, amb una sola mirada, sense haver-los de buscar sota d’altres."
+          },
+          "l312a-q4": {
+            "prompt": "Què passava al cistell alt, tot i que els cabdells hi cabien?",
+            "options": [
+              "No quedava espai per acabar la vora.",
+              "Els colors es veien millor que al baix.",
+              "Tots quedaven estesos en una sola capa.",
+              "Uns cabdells en tapaven d’altres en apilar-se."
+            ],
+            "correct": "d",
+            "explanation": "Alguns cabdells quedaven sota d’altres."
+          },
+          "l312a-q5": {
+            "prompt": "Com van comprovar l’espai del fons?",
+            "options": [
+              "Van dibuixar els colors a la bossa abans de buidar-la.",
+              "Van posar els cabdells sobre el contorn de paper sense apilar-los.",
+              "Van comptar els cabdells amagats al quadern d’en Neri.",
+              "Van posar el cistell alt damunt del baix per comparar-los."
+            ],
+            "correct": "b",
+            "explanation": "En van dibuixar el contorn en paper i van posar-hi els cabdells sense apilar-los."
+          },
+          "l312a-q6": {
+            "prompt": "Per què no n’hi havia prou que els cabdells hi cabessin per triar el cistell alt?",
+            "options": [
+              "Perquè també necessitava veure els colors sense treure tots els cabdells.",
+              "Perquè al cistell alt no hi cabien tots els cabdells de l’Isona.",
+              "Perquè el cistell alt encara tenia la vora sense acabar.",
+              "Perquè en posar-los sobre el paper els cabdells ja no hi cabien."
+            ],
+            "correct": "a",
+            "explanation": "Perquè l’Isona també volia veure tots els colors sense buidar ni remenar el cistell."
+          },
+          "l312a-q7": {
+            "prompt": "Quin detall mostra que hi ha una conversa de preguntes i respostes?",
+            "options": [
+              "En Neri dibuixa els cistells en acabar la visita.",
+              "L’Isona porta els cabdells dins d’una bossa.",
+              "El text alterna noms, preguntes i respostes.",
+              "El cistell alt i el baix apareixen sobre la taula."
+            ],
+            "correct": "c",
+            "explanation": "Les intervencions porten els noms i la Sira respon preguntes d’en Neri i pregunta a l’Isona què necessita."
+          }
+        }
+      },
+      {
+        "code": "L312",
+        "language": "es",
+        "questions": {
+          "l312-q1": {
+            "prompt": "¿Con qué propósitos visitaron a Sira los dos amigos?",
+            "options": [
+              "Neri buscaba una cesta e Isona quería aprender a dibujarla.",
+              "Los dos querían encargar una cesta para llevar peso al molino.",
+              "Neri iba a entrevistar e Isona a escoger una cesta para su lana.",
+              "Isona llevaba preguntas de Elna y Neri los ovillos para guardarlos."
+            ],
+            "correct": "c",
+            "explanation": "Neri quería preguntar por su oficio; Isona buscaba una cesta para sus ovillos."
+          },
+          "l312-q2": {
+            "prompt": "¿Qué pregunta Sira antes de acabar una cesta?",
+            "options": [
+              "Dónde se usará y qué necesitarán encontrar en ella.",
+              "Cuántos colores dibujarán sobre la hoja al recogerla.",
+              "Qué cesta ha elegido antes la dueña del molino.",
+              "Si quieren una cesta alta, sin hablar de su uso."
+            ],
+            "correct": "a",
+            "explanation": "Dónde la pondrán y qué buscarán dentro."
+          },
+          "l312-q3": {
+            "prompt": "¿Por qué era importante saber que la cesta estaría junto al banco?",
+            "options": [
+              "Porque daba prioridad a transportar los ovillos sin que se mezclaran.",
+              "Porque explicaba que el uso principal sería elegir lana al tejer.",
+              "Porque aseguraba que habría espacio para añadir más colores.",
+              "Porque evitaba tener que probar la distribución sobre el papel."
+            ],
+            "correct": "b",
+            "explanation": "Porque Isona la usaría para buscar colores mientras tejía, no principalmente para transportar una carga."
+          },
+          "l312-q4": {
+            "prompt": "¿Qué significa «de un vistazo» al hablar de los colores?",
+            "options": [
+              "Mirar un color después de vaciar la cesta entera.",
+              "Recordar de memoria los colores sin ver la lana.",
+              "Elegir el color que está siempre debajo de los demás.",
+              "Percibir los colores con una sola mirada rápida."
+            ],
+            "correct": "d",
+            "explanation": "Verlos rápidamente con una mirada, sin tener que sacar unos ovillos para descubrir otros."
+          },
+          "l312-q5": {
+            "prompt": "¿Qué limitación de la cesta alta observaron?",
+            "options": [
+              "Cabían los ovillos, pero unos ocultaban a otros.",
+              "Su fondo era tan ancho que los ovillos se separaban demasiado.",
+              "Faltaba altura para colocar los ovillos unos sobre otros.",
+              "Su borde impedía pasar los ovillos de la bolsa a la cesta."
+            ],
+            "correct": "a",
+            "explanation": "Aunque cabían los ovillos, algunos quedaban debajo de otros y no se veían todos los colores a la vez."
+          },
+          "l312-q6": {
+            "prompt": "¿Qué hicieron con la hoja de papel?",
+            "options": [
+              "Escribieron una lista de todos los colores que compraría Isona.",
+              "Midieron el banco y copiaron su forma sobre la cesta.",
+              "Usaron el contorno del fondo para probar la colocación de los ovillos.",
+              "Taparon los ovillos para comprobar qué parte del dibujo quedaba oculta."
+            ],
+            "correct": "c",
+            "explanation": "Dibujaron el contorno del fondo y colocaron los ovillos encima sin amontonarlos."
+          },
+          "l312-q7": {
+            "prompt": "¿Para qué probó Isona a separar un poco los ovillos?",
+            "options": [
+              "Para que desapareciera el pequeño hueco del fondo estrecho.",
+              "Para comprobar cómo variaba la colocación si necesitaba más espacio.",
+              "Para reproducir sobre el papel las capas de ovillos de la cesta alta.",
+              "Para copiar la altura de la cesta antes de elegir su anchura."
+            ],
+            "correct": "b",
+            "explanation": "Para comprobar el margen disponible, ya que a veces añadía otro color."
+          },
+          "l312-q8": {
+            "prompt": "¿Cuándo podría recoger Isona la cesta elegida?",
+            "options": [
+              "Antes de que Neri abriera el cuaderno.",
+              "En cuanto colocaran los ovillos sobre el dibujo.",
+              "Al terminar la entrevista, sin acabar el borde.",
+              "Al día siguiente, después de acabar el borde."
+            ],
+            "correct": "d",
+            "explanation": "Al día siguiente, cuando Sira hubiera acabado el borde."
+          },
+          "l312-q9": {
+            "prompt": "¿Por qué el título habla de las preguntas de la cestera, si Neri iba a entrevistarla?",
+            "options": [
+              "Porque Sira decide con sus preguntas qué cesta usará Neri para el cuaderno.",
+              "Porque Neri deja el cuaderno para que Sira escriba las preguntas.",
+              "Porque las preguntas de Sira aclaran qué necesita la persona que usará la cesta.",
+              "Porque Isona responde a Sira para demostrar que conoce el oficio."
+            ],
+            "correct": "c",
+            "explanation": "Porque Sira también pregunta para conocer el uso de la cesta, y esas preguntas ayudan a elegir la forma adecuada."
+          }
+        }
+      },
+      {
+        "code": "L312",
+        "language": "ca",
+        "questions": {
+          "l312-q1": {
+            "prompt": "Amb quins propòsits van visitar la Sira els dos amics?",
+            "options": [
+              "En Neri buscava un cistell i l’Isona volia aprendre a dibuixar-lo.",
+              "Tots dos volien encarregar un cistell per portar pes al molí.",
+              "En Neri anava a entrevistar i l’Isona a escollir un cistell per a la llana.",
+              "L’Isona duia preguntes de l’Elna i en Neri els cabdells per desar-los."
+            ],
+            "correct": "c",
+            "explanation": "En Neri volia preguntar pel seu ofici; l’Isona buscava un cistell per als seus cabdells."
+          },
+          "l312-q2": {
+            "prompt": "Què pregunta la Sira abans d’acabar un cistell?",
+            "options": [
+              "On es farà servir i què hi necessitaran trobar.",
+              "Quants colors dibuixaran sobre el full en recollir-lo.",
+              "Quin cistell ha triat abans la propietària del molí.",
+              "Si volen un cistell alt, sense parlar del seu ús."
+            ],
+            "correct": "a",
+            "explanation": "On el posaran i què hi buscaran a dins."
+          },
+          "l312-q3": {
+            "prompt": "Per què era important saber que el cistell seria al costat del banc?",
+            "options": [
+              "Perquè donava prioritat a transportar els cabdells sense que es barregessin.",
+              "Perquè explicava que l’ús principal seria triar llana en teixir.",
+              "Perquè assegurava que hi hauria espai per afegir més colors.",
+              "Perquè evitava haver de provar la distribució sobre el paper."
+            ],
+            "correct": "b",
+            "explanation": "Perquè l’Isona el faria servir per buscar colors mentre teixia, no principalment per transportar una càrrega."
+          },
+          "l312-q4": {
+            "prompt": "Què vol dir «d’un cop d’ull» en parlar dels colors?",
+            "options": [
+              "Mirar un color després de buidar el cistell sencer.",
+              "Recordar de memòria els colors sense veure la llana.",
+              "Triar el color que és sempre sota els altres.",
+              "Percebre els colors amb una sola mirada ràpida."
+            ],
+            "correct": "d",
+            "explanation": "Veure’ls ràpidament amb una mirada, sense haver de treure uns cabdells per descobrir-ne d’altres."
+          },
+          "l312-q5": {
+            "prompt": "Quina limitació del cistell alt van observar?",
+            "options": [
+              "Hi cabien els cabdells, però uns n’ocultaven d’altres.",
+              "El fons era tan ample que els cabdells se separaven massa.",
+              "Hi faltava alçada per posar els cabdells uns damunt dels altres.",
+              "La vora impedia passar els cabdells de la bossa al cistell."
+            ],
+            "correct": "a",
+            "explanation": "Tot i que hi cabien els cabdells, alguns quedaven sota d’altres i no es veien tots els colors alhora."
+          },
+          "l312-q6": {
+            "prompt": "Què van fer amb el full de paper?",
+            "options": [
+              "Van escriure una llista de tots els colors que compraria l’Isona.",
+              "Van mesurar el banc i en van copiar la forma sobre el cistell.",
+              "Van fer servir el contorn del fons per provar la col·locació dels cabdells.",
+              "Van tapar els cabdells per comprovar quina part del dibuix quedava oculta."
+            ],
+            "correct": "c",
+            "explanation": "Van dibuixar el contorn del fons i hi van posar els cabdells sense apilar-los."
+          },
+          "l312-q7": {
+            "prompt": "Per a què va provar l’Isona de separar una mica els cabdells?",
+            "options": [
+              "Perquè desaparegués el petit espai del fons estret.",
+              "Per comprovar com variava la col·locació si necessitava més espai.",
+              "Per reproduir sobre el paper les capes de cabdells del cistell alt.",
+              "Per copiar l’alçada del cistell abans de triar-ne l’amplada."
+            ],
+            "correct": "b",
+            "explanation": "Per comprovar l’espai disponible, ja que de vegades hi afegia un altre color."
+          },
+          "l312-q8": {
+            "prompt": "Quan podria recollir l’Isona el cistell triat?",
+            "options": [
+              "Abans que en Neri obrís el quadern.",
+              "Tan bon punt posessin els cabdells sobre el dibuix.",
+              "En acabar l’entrevista, sense acabar la vora.",
+              "L’endemà, després d’acabar la vora."
+            ],
+            "correct": "d",
+            "explanation": "L’endemà, quan la Sira n’hagués acabat la vora."
+          },
+          "l312-q9": {
+            "prompt": "Per què el títol parla de les preguntes de la cistellera, si en Neri anava a entrevistar-la?",
+            "options": [
+              "Perquè la Sira decideix amb les preguntes quin cistell farà servir en Neri per al quadern.",
+              "Perquè en Neri deixa el quadern perquè la Sira escrigui les preguntes.",
+              "Perquè les preguntes de la Sira aclareixen què necessita la persona que farà servir el cistell.",
+              "Perquè l’Isona respon a la Sira per demostrar que coneix l’ofici."
+            ],
+            "correct": "c",
+            "explanation": "Perquè la Sira també pregunta per conèixer l’ús del cistell, i aquestes preguntes ajuden a triar-ne la forma adequada."
+          }
+        }
+      },
+      {
+        "code": "L312B",
+        "language": "es",
+        "questions": {
+          "l312b-q1": {
+            "prompt": "¿Qué quería averiguar Neri y qué quería conseguir Isona?",
+            "options": [
+              "Los dos iban a encargar cestas iguales para guardar lana.",
+              "Neri buscaba información del oficio; Isona, una cesta para su uso.",
+              "Neri iba a recoger una cesta de Elna; Isona, a observar cómo la terminaban.",
+              "Isona buscaba preguntas para Elna y Neri quería ordenar los colores."
+            ],
+            "correct": "b",
+            "explanation": "Neri quería conocer el oficio de Sira; Isona quería una cesta para sus ovillos."
+          },
+          "l312b-q2": {
+            "prompt": "¿Por qué saber que guardaría lana no resolvía todavía el encargo?",
+            "options": [
+              "Porque faltaba elegir la cesta más alta para apilar todos los ovillos.",
+              "Porque Sira solo podía decidir la forma después de terminar el borde.",
+              "Porque había que conocer el color de la lana antes de escoger el material.",
+              "Porque el uso concreto y el lugar también condicionaban la elección."
+            ],
+            "correct": "d",
+            "explanation": "Porque también importaba cómo y dónde se usaría la cesta: Isona quería ver y escoger colores junto al banco."
+          },
+          "l312b-q3": {
+            "prompt": "¿Qué muestra la reacción de Neri al comprobar que todos los ovillos cabían?",
+            "options": [
+              "Se fija primero en que quepan, sin haber comprobado aún cómo se accede a ellos.",
+              "Ha comprobado tanto el espacio como la visibilidad antes de dar por hecha la elección.",
+              "Prefiere la cesta alta porque Isona ya ha encontrado el verde sin mover nada.",
+              "Cree que el borde acabado impide ensayar otra distribución de colores."
+            ],
+            "correct": "a",
+            "explanation": "Parece dar por suficiente la capacidad, antes de comprobar si se pueden encontrar los colores como Isona necesita."
+          },
+          "l312b-q4": {
+            "prompt": "¿Qué ocurrió al buscar el ovillo verde en la cesta alta?",
+            "options": [
+              "Isona lo vio junto al rojo sin tener que cambiar nada.",
+              "Neri sacó primero todos los ovillos para medir la cesta.",
+              "Isona movió el rojo para descubrir el verde que quedaba debajo.",
+              "Sira tuvo que acabar el borde antes de sacar el color verde."
+            ],
+            "correct": "c",
+            "explanation": "Isona tuvo que apartar el rojo que lo tapaba."
+          },
+          "l312b-q5": {
+            "prompt": "¿Qué significa ver los colores «de un vistazo» en la cesta baja?",
+            "options": [
+              "Recordarlos sin necesidad de tenerlos delante.",
+              "Percibirlos en una mirada, sin buscar bajo otros ovillos.",
+              "Reconocerlos solo después de colocarlos sobre el papel.",
+              "Escogerlos siempre en el mismo orden en que se guardaron."
+            ],
+            "correct": "b",
+            "explanation": "Poder percibirlos de una vez y rápidamente, sin tener que levantar unos para descubrir otros."
+          },
+          "l312b-q6": {
+            "prompt": "¿Qué condición plantea Sira antes de preferir la cesta ancha para otro uso?",
+            "options": [
+              "Que todos los colores pudieran ocultarse bajo una sola capa.",
+              "Que Isona pudiera añadir otro ovillo en el hueco del fondo.",
+              "Que el fondo fuera más pequeño que el dibujo del papel.",
+              "Que se comprobara cómo se sujetaría si hubiera que transportarla junto al cuerpo."
+            ],
+            "correct": "d",
+            "explanation": "Si hubiera que llevarla pegada al cuerpo, también habría que mirar cómo la sujeta la persona."
+          },
+          "l312b-q7": {
+            "prompt": "¿Qué comprueba Isona al poner la cesta junto al taburete y escoger dos colores?",
+            "options": [
+              "Prueba el acceso a los colores desde una posición parecida a la de su uso.",
+              "Comprueba que la cesta alta puede colocarse debajo del taburete.",
+              "Decide qué dos colores ocuparán siempre la parte de abajo.",
+              "Ensaya el transporte pegando la cesta al cuerpo antes de levantarse."
+            ],
+            "correct": "a",
+            "explanation": "Ensaya una colocación parecida a la del banco donde tejerá y comprueba que puede elegir sin vaciar la cesta."
+          },
+          "l312b-q8": {
+            "prompt": "¿Para qué utilizaron el contorno dibujado en papel?",
+            "options": [
+              "Para copiar el borde terminado de la cesta alta en el cuaderno.",
+              "Para comprobar si habría que hacer el borde más alto al añadir otro color.",
+              "Para ensayar la distribución y ver el espacio que quedaba en el fondo.",
+              "Para comprobar el peso que podía llevar Isona al caminar con la cesta."
+            ],
+            "correct": "c",
+            "explanation": "Para colocar los ovillos sin amontonarlos y comprobar el espacio del fondo, incluyendo un pequeño margen."
+          },
+          "l312b-q9": {
+            "prompt": "¿Por qué Isona separa un poco los ovillos en la prueba de papel?",
+            "options": [
+              "Porque así puede esconder mejor el verde debajo del rojo.",
+              "Porque quiere comprobar un margen para cuando añada algún color.",
+              "Porque la cesta ya terminada le impide acercarlos al borde.",
+              "Porque Neri le ha pedido reducir el número de ovillos del encargo."
+            ],
+            "correct": "b",
+            "explanation": "Relaciona el espacio libre con la posibilidad de añadir otro color, en vez de ajustar el fondo solo a los ovillos de ese día."
+          },
+          "l312b-q10": {
+            "prompt": "¿Qué sugiere que Neri borre la primera marca junto a la cesta alta?",
+            "options": [
+              "Que descubre que había contado un color que Isona no había llevado.",
+              "Que sustituye el dibujo de la cesta alta por el del banco de Elna.",
+              "Que ya no quiere contarle la entrevista a Elna al llegar al molino.",
+              "Que modifica una elección inicial al comprender mejor el uso previsto."
+            ],
+            "correct": "d",
+            "explanation": "Que revisa su primera impresión después de ver otras necesidades además de que los ovillos quepan."
+          },
+          "l312b-q11": {
+            "prompt": "¿Cómo contribuyen las preguntas de Sira a la entrevista iniciada por Neri?",
+            "options": [
+              "Permiten conocer el oficio mediante un caso de uso que concreta las respuestas.",
+              "Sustituyen las dudas de Neri por una lista de materiales que Isona debe aprender.",
+              "Demuestran que la forma baja es la mejor para todos los encargos de lana.",
+              "Aplazan el encargo hasta que Neri haya acabado de copiar las dos cestas."
+            ],
+            "correct": "a",
+            "explanation": "Muestran cómo trabaja la artesana: relaciona las formas con la necesidad de quien usará la cesta y comprueba opciones concretas. La entrevista acaba mostrando ese proceso con el caso de Isona."
+          }
+        }
+      },
+      {
+        "code": "L312B",
+        "language": "ca",
+        "questions": {
+          "l312b-q1": {
+            "prompt": "Què volia esbrinar en Neri i què volia aconseguir l’Isona?",
+            "options": [
+              "Tots dos anaven a encarregar cistells iguals per desar llana.",
+              "En Neri buscava informació de l’ofici; l’Isona, un cistell per fer servir.",
+              "En Neri anava a recollir un cistell de l’Elna; l’Isona, a observar com l’acabaven.",
+              "L’Isona buscava preguntes per a l’Elna i en Neri volia ordenar els colors."
+            ],
+            "correct": "b",
+            "explanation": "En Neri volia conèixer l’ofici de la Sira; l’Isona volia un cistell per als seus cabdells."
+          },
+          "l312b-q2": {
+            "prompt": "Per què saber que hi desaria llana encara no resolia l’encàrrec?",
+            "options": [
+              "Perquè faltava triar el cistell més alt per apilar tots els cabdells.",
+              "Perquè la Sira només podia decidir la forma després d’acabar la vora.",
+              "Perquè calia conèixer el color de la llana abans d’escollir el material.",
+              "Perquè l’ús concret i el lloc també condicionaven la tria."
+            ],
+            "correct": "d",
+            "explanation": "Perquè també importava com i on es faria servir el cistell: l’Isona volia veure i escollir colors al costat del banc."
+          },
+          "l312b-q3": {
+            "prompt": "Què mostra la reacció d’en Neri en comprovar que tots els cabdells hi cabien?",
+            "options": [
+              "Es fixa primer que hi càpiguen, sense haver comprovat encara com s’hi accedeix.",
+              "Ha comprovat tant l’espai com la visibilitat abans de donar per feta la tria.",
+              "Prefereix el cistell alt perquè l’Isona ja ha trobat el verd sense moure res.",
+              "Creu que la vora acabada impedeix assajar una altra distribució de colors."
+            ],
+            "correct": "a",
+            "explanation": "Sembla donar per suficient la capacitat, abans de comprovar si es poden trobar els colors com necessita l’Isona."
+          },
+          "l312b-q4": {
+            "prompt": "Què va passar en buscar el cabdell verd al cistell alt?",
+            "options": [
+              "L’Isona el va veure al costat del vermell sense haver de canviar res.",
+              "En Neri va treure primer tots els cabdells per mesurar el cistell.",
+              "L’Isona va moure el vermell per descobrir el verd que quedava a sota.",
+              "La Sira va haver d’acabar la vora abans de treure el color verd."
+            ],
+            "correct": "c",
+            "explanation": "L’Isona va haver d’apartar el vermell que el tapava."
+          },
+          "l312b-q5": {
+            "prompt": "Què vol dir veure els colors «d’un cop d’ull» al cistell baix?",
+            "options": [
+              "Recordar-los sense necessitat de tenir-los al davant.",
+              "Percebre’ls en una mirada, sense buscar sota d’altres cabdells.",
+              "Reconèixer-los només després de col·locar-los sobre el paper.",
+              "Escollir-los sempre en el mateix ordre que es van desar."
+            ],
+            "correct": "b",
+            "explanation": "Poder percebre’ls d’una vegada i ràpidament, sense haver d’aixecar-ne uns per descobrir-ne d’altres."
+          },
+          "l312b-q6": {
+            "prompt": "Quina condició planteja la Sira abans de preferir el cistell ample per a un altre ús?",
+            "options": [
+              "Que tots els colors es poguessin ocultar sota una sola capa.",
+              "Que l’Isona pogués afegir un altre cabdell a l’espai del fons.",
+              "Que el fons fos més petit que el dibuix del paper.",
+              "Que es comprovés com se subjectaria si s’hagués de transportar al costat del cos."
+            ],
+            "correct": "d",
+            "explanation": "Si s’hagués de portar arran del cos, també caldria mirar com el subjecta la persona."
+          },
+          "l312b-q7": {
+            "prompt": "Què comprova l’Isona en posar el cistell al costat del tamboret i escollir dos colors?",
+            "options": [
+              "Prova l’accés als colors des d’una posició semblant a la del seu ús.",
+              "Comprova que el cistell alt es pot col·locar sota el tamboret.",
+              "Decideix quins dos colors ocuparan sempre la part de sota.",
+              "Assaja el transport acostant el cistell al cos abans d’aixecar-se."
+            ],
+            "correct": "a",
+            "explanation": "Assaja una col·locació semblant a la del banc on teixirà i comprova que pot triar sense buidar el cistell."
+          },
+          "l312b-q8": {
+            "prompt": "Per a què van fer servir el contorn dibuixat en paper?",
+            "options": [
+              "Per copiar la vora acabada del cistell alt al quadern.",
+              "Per comprovar si caldria fer la vora més alta en afegir un altre color.",
+              "Per assajar la distribució i veure l’espai que quedava al fons.",
+              "Per comprovar el pes que podia portar l’Isona en caminar amb el cistell."
+            ],
+            "correct": "c",
+            "explanation": "Per posar els cabdells sense apilar-los i comprovar l’espai del fons, incloent-hi un petit marge."
+          },
+          "l312b-q9": {
+            "prompt": "Per què l’Isona separa una mica els cabdells a la prova de paper?",
+            "options": [
+              "Perquè així pot amagar millor el verd sota el vermell.",
+              "Perquè vol comprovar un marge per quan hi afegeixi algun color.",
+              "Perquè el cistell ja acabat li impedeix acostar-los a la vora.",
+              "Perquè en Neri li ha demanat reduir el nombre de cabdells de l’encàrrec."
+            ],
+            "correct": "b",
+            "explanation": "Relaciona l’espai lliure amb la possibilitat d’afegir-hi un altre color, en lloc d’ajustar el fons només als cabdells d’aquell dia."
+          },
+          "l312b-q10": {
+            "prompt": "Què suggereix que en Neri esborri la primera marca al costat del cistell alt?",
+            "options": [
+              "Que descobreix que havia comptat un color que l’Isona no havia dut.",
+              "Que substitueix el dibuix del cistell alt pel del banc de l’Elna.",
+              "Que ja no vol explicar l’entrevista a l’Elna en arribar al molí.",
+              "Que modifica una tria inicial en comprendre millor l’ús previst."
+            ],
+            "correct": "d",
+            "explanation": "Que revisa la primera impressió després de veure altres necessitats a més que els cabdells hi càpiguen."
+          },
+          "l312b-q11": {
+            "prompt": "Com contribueixen les preguntes de la Sira a l’entrevista iniciada per en Neri?",
+            "options": [
+              "Permeten conèixer l’ofici mitjançant un cas d’ús que concreta les respostes.",
+              "Substitueixen els dubtes d’en Neri per una llista de materials que l’Isona ha d’aprendre.",
+              "Demostren que la forma baixa és la millor per a tots els encàrrecs de llana.",
+              "Ajornen l’encàrrec fins que en Neri hagi acabat de copiar els dos cistells."
+            ],
+            "correct": "a",
+            "explanation": "Mostren com treballa l’artesana: relaciona les formes amb la necessitat de qui farà servir el cistell i comprova opcions concretes. L’entrevista acaba mostrant aquest procés amb el cas de l’Isona."
+          }
+        }
+      }
+    ]
   }
 ];
