@@ -8944,5 +8944,1878 @@ export const newsroomPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L285",
+    "edition": "v1.60.5",
+    "family": {
+      "id": "familia-l285",
+      "code": "L285",
+      "name": {
+        "es": "Un rumor al otro lado de la valla",
+        "ca": "Un rumor a l’altra banda de la tanca"
+      },
+      "description": {
+        "ca": "Una història de La redacció del pati, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de La redacción del patio, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L285A",
+        "L285",
+        "L285B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "un-rumor-al-otro-lado-de-la-valla-a-es",
+        "code": "L285A",
+        "workId": "un-rumor-al-otro-lado-de-la-valla-a",
+        "language": "es",
+        "familyId": "familia-l285",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "nature",
+          "community",
+          "environment"
+        ],
+        "genre": "interview",
+        "title": "Un rumor al otro lado de la valla",
+        "summary": "Clara y Omar preguntan a una jardinera qué pasará con el árbol del patio.",
+        "paragraphs": [
+          "El martes corrió un rumor por el patio: iban a quitar el árbol que crecía al otro lado de la valla. Omar lo oyó y preparó preguntas para el periódico escolar. Clara, su compañera de redacción, fue con él a hablar con Berta, la jardinera que revisaba los árboles. Los tres se encontraron junto a la valla.",
+          "Omar: ¿Qué plantaréis en su lugar?\nBerta: ¿En lugar del árbol? Retiraremos una rama, la que veis hacia el jardín. El resto del árbol se queda.\nOmar bajó la mirada hacia su primera pregunta. Había imaginado un hueco enorme donde ahora veía hojas.",
+          "Clara: ¿Por qué habrán dicho que lo quitabais entero?\nOmar: Un compañero vio una furgoneta y una cinta naranja cerca.\nBerta: Ayer trajimos material en la furgoneta. La cinta rodea el sitio donde trabajaremos. El miércoles ese trozo de jardín estará cerrado mientras retiramos la rama.",
+          "Clara: ¿Qué le pasa a la rama?\nBerta: Después del viento fuerte apareció una grieta cerca del tronco. Mi compañero y yo la revisamos el lunes. La quitaremos el miércoles si no llueve. Si llueve, buscaremos otro día.\nOmar dibujó una flecha en la libreta hacia la rama que Berta señalaba.",
+          "Omar: ¿Qué se verá diferente cuando terminéis?\nBerta: Desde este lado se verá un claro entre las hojas. Podéis volver después y mirarlo.\nClara anotó esa invitación. Para su noticia ya tenían una rama concreta y un trabajo previsto, en lugar del árbol desaparecido que habían imaginado.",
+          "En la mesa de redacción, Omar tachó su primera pregunta. Clara escribió «Una rama espera al miércoles». Él acercó la libreta al cristal: todavía veía la flecha y, detrás, el árbol entero."
+        ],
+        "questions": [
+          {
+            "id": "l285a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿A quién entrevistaron Clara y Omar?",
+            "answer": "A Berta, la jardinera que revisaba los árboles.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Berta, la jardinera que revisaba los árboles"
+              }
+            ]
+          },
+          {
+            "id": "l285a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué iban a retirar?",
+            "answer": "Una rama orientada hacia el jardín, no el árbol entero.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Retiraremos una rama"
+              }
+            ]
+          },
+          {
+            "id": "l285a-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «rumor» al comienzo del texto?",
+            "answer": "Una noticia que se transmite entre personas sin haberla confirmado.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "corrió un rumor por el patio"
+              }
+            ]
+          },
+          {
+            "id": "l285a-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Para qué habían puesto la cinta naranja?",
+            "answer": "Para rodear el lugar donde trabajarían el miércoles.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La cinta rodea el sitio donde trabajaremos."
+              }
+            ]
+          },
+          {
+            "id": "l285a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Se había retirado ya la rama cuando hicieron la entrevista? ¿Cómo lo sabes?",
+            "answer": "No: Berta la señala y explica que la quitarán el miércoles si no llueve.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La quitaremos el miércoles si no llueve."
+              }
+            ]
+          },
+          {
+            "id": "l285a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué idea equivocada contenía la primera pregunta de Omar?",
+            "answer": "Daba por hecho que iban a quitar el árbol entero y plantar otro en su lugar.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "¿Qué plantaréis en su lugar?"
+              },
+              {
+                "paragraph": 2,
+                "text": "El resto del árbol se queda."
+              }
+            ]
+          },
+          {
+            "id": "l285a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume cómo cambió la noticia después de la entrevista.",
+            "answer": "Pasaron de pensar que quitarían todo el árbol a saber que estaba prevista la retirada de una rama, si no llovía.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Retiraremos una rama"
+              },
+              {
+                "paragraph": 4,
+                "text": "si no llueve"
+              }
+            ]
+          },
+          {
+            "id": "l285a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué preguntarías a Berta al volver después del trabajo? Explica por qué.",
+            "answer": "Pregunta abierta pertinente sobre lo realizado o sus efectos, con una razón."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "rumor",
+            "occurrence": 1,
+            "questionId": "l285a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l285-scene",
+            "src": "assets/readings/l285-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La jardinera Berta conversa con Clara y Omar junto al árbol y la valla del patio.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan el periódico escolar en una mesa del patio, en una ilustración azul y naranja.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "un-rumor-al-otro-lado-de-la-valla-a-ca",
+        "code": "L285A",
+        "workId": "un-rumor-al-otro-lado-de-la-valla-a",
+        "language": "ca",
+        "familyId": "familia-l285",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "nature",
+          "community",
+          "environment"
+        ],
+        "genre": "interview",
+        "title": "Un rumor a l’altra banda de la tanca",
+        "summary": "La Clara i l’Omar pregunten a una jardinera què passarà amb l’arbre del pati.",
+        "paragraphs": [
+          "Dimarts va córrer un rumor pel pati: traurien l’arbre que creixia a l’altra banda de la tanca. L’Omar ho va sentir i va preparar preguntes per al diari escolar. La Clara, la seva companya de redacció, va anar amb ell a parlar amb la Berta, la jardinera que revisava els arbres. Tots tres es van trobar al costat de la tanca.",
+          "Omar: Què plantareu al seu lloc?\nBerta: Al lloc de l’arbre? Retirarem una branca, la que veieu cap al jardí. La resta de l’arbre es queda.\nL’Omar va abaixar la mirada cap a la primera pregunta. S’havia imaginat un buit enorme on ara veia fulles.",
+          "Clara: Per què deuen haver dit que el trèieu sencer?\nOmar: Un company va veure una furgoneta i una cinta taronja a prop.\nBerta: Ahir vam portar material amb la furgoneta. La cinta envolta el lloc on treballarem. Dimecres aquell tros de jardí estarà tancat mentre retirem la branca.",
+          "Clara: Què li passa a la branca?\nBerta: Després del vent fort va aparèixer una esquerda prop del tronc. El meu company i jo la vam revisar dilluns. La traurem dimecres si no plou. Si plou, buscarem un altre dia.\nL’Omar va dibuixar una fletxa a la llibreta cap a la branca que assenyalava la Berta.",
+          "Omar: Què es veurà diferent quan acabeu?\nBerta: Des d’aquest costat es veurà una clariana entre les fulles. Podeu tornar després i mirar-ho.\nLa Clara va anotar aquella invitació. Per a la notícia ja tenien una branca concreta i una feina prevista, en lloc de l’arbre desaparegut que havien imaginat.",
+          "A la taula de redacció, l’Omar va ratllar la primera pregunta. La Clara va escriure «Una branca espera dimecres». Ell va acostar la llibreta al vidre: encara veia la fletxa i, al darrere, l’arbre sencer."
+        ],
+        "questions": [
+          {
+            "id": "l285a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "A qui van entrevistar la Clara i l’Omar?",
+            "answer": "A la Berta, la jardinera que revisava els arbres.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "la Berta, la jardinera que revisava els arbres"
+              }
+            ]
+          },
+          {
+            "id": "l285a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què havien de retirar?",
+            "answer": "Una branca orientada cap al jardí, no l’arbre sencer.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Retirarem una branca"
+              }
+            ]
+          },
+          {
+            "id": "l285a-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què significa «rumor» al començament del text?",
+            "answer": "Una notícia que es transmet entre persones sense haver-la confirmat.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "va córrer un rumor pel pati"
+              }
+            ]
+          },
+          {
+            "id": "l285a-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per a què havien posat la cinta taronja?",
+            "answer": "Per envoltar el lloc on treballarien dimecres.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La cinta envolta el lloc on treballarem."
+              }
+            ]
+          },
+          {
+            "id": "l285a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Ja havien retirat la branca quan van fer l’entrevista? Com ho saps?",
+            "answer": "No: la Berta l’assenyala i explica que la trauran dimecres si no plou.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La traurem dimecres si no plou."
+              }
+            ]
+          },
+          {
+            "id": "l285a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina idea equivocada contenia la primera pregunta de l’Omar?",
+            "answer": "Donava per fet que traurien l’arbre sencer i en plantarien un altre al seu lloc.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Què plantareu al seu lloc?"
+              },
+              {
+                "paragraph": 2,
+                "text": "La resta de l’arbre es queda."
+              }
+            ]
+          },
+          {
+            "id": "l285a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix com va canviar la notícia després de l’entrevista.",
+            "answer": "Van passar de pensar que traurien tot l’arbre a saber que estava prevista la retirada d’una branca, si no plovia.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Retirarem una branca"
+              },
+              {
+                "paragraph": 4,
+                "text": "si no plou"
+              }
+            ]
+          },
+          {
+            "id": "l285a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Què preguntaries a la Berta en tornar després de la feina? Explica per què.",
+            "answer": "Pregunta oberta pertinent sobre el que s’ha fet o els seus efectes, amb una raó."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "rumor",
+            "occurrence": 1,
+            "questionId": "l285a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l285-scene",
+            "src": "assets/readings/l285-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La jardinera Berta conversa amb la Clara i l’Omar al costat de l’arbre i la tanca del pati.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen el diari escolar en una taula del pati, en una il·lustració blava i taronja.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "un-rumor-al-otro-lado-de-la-valla-es",
+        "code": "L285",
+        "workId": "un-rumor-al-otro-lado-de-la-valla",
+        "language": "es",
+        "familyId": "familia-l285",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "nature",
+          "community",
+          "environment"
+        ],
+        "genre": "interview",
+        "title": "Un rumor al otro lado de la valla",
+        "summary": "Una pregunta preparada desde un rumor cambia al escuchar el plan de la jardinera.",
+        "paragraphs": [
+          "El martes, Clara y Omar salieron de la redacción del periódico escolar para entrevistar a Berta, la jardinera que revisaba los árboles junto al patio. Había circulado un rumor: quitarían el árbol del otro lado de la valla. Omar preparó una pregunta sobre lo que plantarían después. Clara llevaba otra sobre la cinta naranja que rodeaba una parte del jardín. Habían dado por hecho que aquella cinta anunciaba la desaparición del árbol.",
+          "Omar: ¿Qué plantaréis en su lugar?\nBerta: ¿En lugar del árbol? Solo retiraremos la rama que sale hacia el jardín. El resto se queda.\nClara: Entonces, ¿la cinta no rodea un hueco para un árbol nuevo?\nBerta: Rodea el espacio donde trabajaremos el miércoles. Durante ese rato estará cerrado. Después recogeremos el material y quitaremos la cinta.",
+          "Clara: ¿De dónde salió lo del árbol entero?\nOmar: Un compañero vio una furgoneta y la cinta. Me dijo que seguramente se lo llevarían. Yo pensé en lo grande que quedaría el hueco.\nBerta: La furgoneta trajo material ayer. Desde vuestra ventana podéis ver la cinta, pero la rama queda detrás de otras hojas. Acercaos a este tramo de la valla y os la señalo.",
+          "Clara: ¿Qué le ocurre a esa rama?\nBerta: Tras el viento fuerte apareció una grieta cerca del tronco. Mi compañero y yo la revisamos el lunes y preparamos el trabajo.\nOmar: ¿La quitaréis seguro el miércoles?\nBerta: Es el día previsto, si no llueve. Si llueve, buscaremos otro día. La visita del lunes ya está hecha; la retirada todavía tiene que llegar.",
+          "Omar: ¿Qué se verá distinto cuando acabéis?\nBerta: Desde aquí se verá un claro entre las hojas. El tronco y las otras ramas seguirán en su sitio. Podéis volver después y comparar con lo que veis hoy.\nClara dibujó la rama en su libreta y dejó un espacio al lado. Quería añadir otra vista cuando hubieran terminado.",
+          "En la mesa de redacción, Omar tachó la pregunta sobre el árbol nuevo. Clara propuso «Una rama espera al miércoles» como título. El texto explicaba quién había contado el plan y por qué la fecha podía cambiar. Guardaron el dibujo del martes para la próxima visita. Omar lo acercó al cristal del aula: la flecha de la libreta apuntaba justo hacia las hojas que ocultaban la rama."
+        ],
+        "questions": [
+          {
+            "id": "l285-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué había visto el compañero de Omar?",
+            "answer": "Una furgoneta y una cinta cerca del árbol.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Un compañero vio una furgoneta y la cinta."
+              }
+            ]
+          },
+          {
+            "id": "l285-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué había añadido el compañero a lo que vio?",
+            "answer": "La suposición de que se llevarían el árbol entero.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "seguramente se lo llevarían"
+              }
+            ]
+          },
+          {
+            "id": "l285-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «dado por hecho» en la introducción?",
+            "answer": "Aceptado como cierto sin haberlo comprobado con quien conocía el trabajo.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Habían dado por hecho que aquella cinta anunciaba la desaparición del árbol."
+              }
+            ]
+          },
+          {
+            "id": "l285-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué función tenía la cinta y cuándo la quitarían?",
+            "answer": "Rodeaba el espacio de trabajo, cerrado mientras lo hicieran; la quitarían al terminar y recoger.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Rodea el espacio donde trabajaremos el miércoles."
+              },
+              {
+                "paragraph": 2,
+                "text": "Después recogeremos el material y quitaremos la cinta."
+              }
+            ]
+          },
+          {
+            "id": "l285-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué trabajo ya habían realizado el lunes?",
+            "answer": "La revisión de la rama, Berta y su compañero.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "la revisamos el lunes"
+              }
+            ]
+          },
+          {
+            "id": "l285-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué no podían anunciar la retirada del miércoles como algo seguro?",
+            "answer": "Porque estaba prevista para ese día si no llovía; la lluvia obligaría a buscar otra fecha.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Es el día previsto, si no llueve."
+              }
+            ]
+          },
+          {
+            "id": "l285-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué permite comparar el espacio que Clara dejó junto a su dibujo?",
+            "answer": "El aspecto del árbol antes de retirar la rama y después del trabajo.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "dejó un espacio al lado. Quería añadir otra vista cuando hubieran terminado."
+              }
+            ]
+          },
+          {
+            "id": "l285-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué muestra el cambio entre la primera y la última pregunta de Omar?",
+            "answer": "Que dejó de preguntar desde el supuesto del árbol desaparecido y pasó a preguntar por los efectos del trabajo real.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "¿Qué plantaréis en su lugar?"
+              },
+              {
+                "paragraph": 5,
+                "text": "¿Qué se verá distinto cuando acabéis?"
+              }
+            ]
+          },
+          {
+            "id": "l285-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué información nueva permitió escribir una noticia distinta del rumor.",
+            "answer": "Berta explicó que retiraría una rama agrietada, que el resto del árbol seguiría y que la fecha prevista podía cambiar con la lluvia.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El resto se queda."
+              },
+              {
+                "paragraph": 4,
+                "text": "una grieta cerca del tronco"
+              },
+              {
+                "paragraph": 4,
+                "text": "si no llueve"
+              }
+            ]
+          },
+          {
+            "id": "l285-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué dato incluirías en el título y cuál dejarías para el cuerpo de la noticia? Razona tu elección.",
+            "answer": "Respuesta abierta que selecciona datos reales del texto y justifica cómo informa sin dar por realizado el trabajo."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "dado por hecho",
+            "occurrence": 1,
+            "questionId": "l285-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l285-scene",
+            "src": "assets/readings/l285-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La jardinera Berta conversa con Clara y Omar junto al árbol y la valla del patio.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan el periódico escolar en una mesa del patio, en una ilustración azul y naranja.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "un-rumor-al-otro-lado-de-la-valla-ca",
+        "code": "L285",
+        "workId": "un-rumor-al-otro-lado-de-la-valla",
+        "language": "ca",
+        "familyId": "familia-l285",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "nature",
+          "community",
+          "environment"
+        ],
+        "genre": "interview",
+        "title": "Un rumor a l’altra banda de la tanca",
+        "summary": "Una pregunta preparada a partir d’un rumor canvia en escoltar el pla de la jardinera.",
+        "paragraphs": [
+          "Dimarts, la Clara i l’Omar van sortir de la redacció del diari escolar per entrevistar la Berta, la jardinera que revisava els arbres al costat del pati. Havia circulat un rumor: traurien l’arbre de l’altra banda de la tanca. L’Omar va preparar una pregunta sobre el que plantarien després. La Clara en portava una altra sobre la cinta taronja que envoltava una part del jardí. Havien donat per fet que aquella cinta anunciava la desaparició de l’arbre.",
+          "Omar: Què plantareu al seu lloc?\nBerta: Al lloc de l’arbre? Només retirarem la branca que surt cap al jardí. La resta es queda.\nClara: Aleshores, la cinta no envolta un buit per a un arbre nou?\nBerta: Envolta l’espai on treballarem dimecres. Durant aquella estona estarà tancat. Després recollirem el material i traurem la cinta.",
+          "Clara: D’on va sortir allò de l’arbre sencer?\nOmar: Un company va veure una furgoneta i la cinta. Em va dir que segurament se l’endurien. Jo vaig pensar com quedaria de gros el buit.\nBerta: La furgoneta va portar material ahir. Des de la vostra finestra podeu veure la cinta, però la branca queda darrere d’altres fulles. Acosteu-vos a aquest tram de la tanca i us l’assenyalo.",
+          "Clara: Què li passa a aquella branca?\nBerta: Després del vent fort va aparèixer una esquerda prop del tronc. El meu company i jo la vam revisar dilluns i vam preparar la feina.\nOmar: La traureu segur dimecres?\nBerta: És el dia previst, si no plou. Si plou, buscarem un altre dia. La visita de dilluns ja està feta; la retirada encara ha d’arribar.",
+          "Omar: Què es veurà diferent quan acabeu?\nBerta: Des d’aquí es veurà una clariana entre les fulles. El tronc i les altres branques continuaran al seu lloc. Podeu tornar després i comparar-ho amb el que veieu avui.\nLa Clara va dibuixar la branca a la llibreta i va deixar un espai al costat. Hi volia afegir una altra vista quan haguessin acabat.",
+          "A la taula de redacció, l’Omar va ratllar la pregunta sobre l’arbre nou. La Clara va proposar «Una branca espera dimecres» com a títol. El text explicava qui havia explicat el pla i per què la data podia canviar. Van desar el dibuix de dimarts per a la pròxima visita. L’Omar el va acostar al vidre de l’aula: la fletxa de la llibreta apuntava just cap a les fulles que amagaven la branca."
+        ],
+        "questions": [
+          {
+            "id": "l285-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què havia vist el company de l’Omar?",
+            "answer": "Una furgoneta i una cinta a prop de l’arbre.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Un company va veure una furgoneta i la cinta."
+              }
+            ]
+          },
+          {
+            "id": "l285-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què havia afegit el company al que havia vist?",
+            "answer": "La suposició que s’endurien l’arbre sencer.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "segurament se l’endurien"
+              }
+            ]
+          },
+          {
+            "id": "l285-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què significa «donat per fet» a la introducció?",
+            "answer": "Acceptat com a cert sense haver-ho comprovat amb qui coneixia la feina.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Havien donat per fet que aquella cinta anunciava la desaparició de l’arbre."
+              }
+            ]
+          },
+          {
+            "id": "l285-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina funció tenia la cinta i quan la traurien?",
+            "answer": "Envoltava l’espai de feina, tancat mentre la fessin; la traurien en acabar i recollir.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Envolta l’espai on treballarem dimecres."
+              },
+              {
+                "paragraph": 2,
+                "text": "Després recollirem el material i traurem la cinta."
+              }
+            ]
+          },
+          {
+            "id": "l285-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quina feina ja havien fet dilluns?",
+            "answer": "La revisió de la branca, la Berta i el seu company.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "la vam revisar dilluns"
+              }
+            ]
+          },
+          {
+            "id": "l285-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què no podien anunciar la retirada de dimecres com una cosa segura?",
+            "answer": "Perquè estava prevista per a aquell dia si no plovia; la pluja obligaria a buscar una altra data.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "És el dia previst, si no plou."
+              }
+            ]
+          },
+          {
+            "id": "l285-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què permet comparar l’espai que la Clara va deixar al costat del dibuix?",
+            "answer": "L’aspecte de l’arbre abans de retirar la branca i després de la feina.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "va deixar un espai al costat. Hi volia afegir una altra vista quan haguessin acabat."
+              }
+            ]
+          },
+          {
+            "id": "l285-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Què mostra el canvi entre la primera i l’última pregunta de l’Omar?",
+            "answer": "Que va deixar de preguntar des del supòsit de l’arbre desaparegut i va passar a preguntar pels efectes de la feina real.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Què plantareu al seu lloc?"
+              },
+              {
+                "paragraph": 5,
+                "text": "Què es veurà diferent quan acabeu?"
+              }
+            ]
+          },
+          {
+            "id": "l285-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix quina informació nova va permetre escriure una notícia diferent del rumor.",
+            "answer": "La Berta va explicar que retiraria una branca esquerdada, que la resta de l’arbre continuaria i que la data prevista podia canviar amb la pluja.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La resta es queda."
+              },
+              {
+                "paragraph": 4,
+                "text": "una esquerda prop del tronc"
+              },
+              {
+                "paragraph": 4,
+                "text": "si no plou"
+              }
+            ]
+          },
+          {
+            "id": "l285-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quina dada inclouries al títol i quina deixaries per al cos de la notícia? Raona la tria.",
+            "answer": "Resposta oberta que selecciona dades reals del text i justifica com informa sense donar per feta la feina."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "donat per fet",
+            "occurrence": 1,
+            "questionId": "l285-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l285-scene",
+            "src": "assets/readings/l285-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La jardinera Berta conversa amb la Clara i l’Omar al costat de l’arbre i la tanca del pati.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen el diari escolar en una taula del pati, en una il·lustració blava i taronja.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "un-rumor-al-otro-lado-de-la-valla-b-es",
+        "code": "L285B",
+        "workId": "un-rumor-al-otro-lado-de-la-valla-b",
+        "language": "es",
+        "familyId": "familia-l285",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "nature",
+          "community",
+          "environment"
+        ],
+        "genre": "interview",
+        "title": "Un rumor al otro lado de la valla",
+        "summary": "La entrevista distingue lo observado, lo supuesto y el trabajo previsto en un árbol del jardín.",
+        "paragraphs": [
+          "La redacción del periódico escolar quería contar qué ocurriría con el árbol que crecía al otro lado de la valla del patio. El martes, Omar llegó con un rumor: se lo llevarían entero. Clara, su compañera de sexto, había visto la cinta naranja desde la ventana del aula. Prepararon preguntas y salieron a entrevistar a Berta, la jardinera que revisaba aquellos árboles. Ella estaba junto a la valla, donde podían hablar sin entrar en el jardín.",
+          "Omar: ¿Qué plantaréis en su lugar?\nBerta: ¿En lugar del árbol? La rama que sale hacia el jardín tiene una grieta. Retiraremos esa rama; el tronco y las demás se quedan.\nClara: Yo había entendido que la cinta marcaba el lugar del árbol nuevo.\nBerta: La cinta rodea el espacio que ocuparemos para trabajar. Durante ese rato estará cerrado. Al recoger el material, retiraremos también la cinta.",
+          "Clara: ¿Cómo empezó lo de quitarlo entero?\nOmar: Un compañero vio una furgoneta y la cinta, y me dijo que seguramente se lo llevarían. Yo me puse a imaginar lo que cabría en el hueco.\nBerta: Ayer trajimos material en esa furgoneta. Vuestra ventana queda frente al tramo de cinta, pero la rama está detrás de otras hojas. Desde aquí podéis verla si seguís la línea que os señalo hacia el jardín.\nOmar cambió de sitio junto a la valla y la encontró.",
+          "Clara: ¿Desde cuándo sabéis lo de la grieta?\nBerta: Apareció después del viento fuerte. Mi compañero y yo revisamos la rama el lunes y preparamos lo necesario.\nOmar: ¿El miércoles ya no estará?\nBerta: Es el día previsto, siempre que no llueva. Si llueve, tendremos que aplazar el trabajo. Os avisaremos de la nueva fecha. Lo que ya hicimos fue la revisión; la retirada está pendiente.",
+          "Omar: ¿Qué se verá distinto cuando acabéis?\nBerta: Desde este lado, un claro entre las hojas. El resto del árbol seguirá en su sitio. Podéis dibujar lo que veis hoy y volver después.\nClara sacó la libreta y trazó la rama. Dejó un hueco al lado para otra vista. Berta le indicó dónde se unía al tronco, porque desde la primera posición una rama más fina parecía salir del mismo punto.",
+          "Omar: ¿Y el segundo dibujo lo hacemos desde la ventana del aula?\nBerta: Si queréis compararlo con este, volved a colocaros aquí. Desde la ventana, una rama más fina tapa parte de lo que veis ahora.\nClara anotó junto al dibujo «al lado de la puerta de la valla» y la fecha del martes. El espacio siguiente quedó vacío, esperando una visita que aún no habían hecho.",
+          "En la mesa de redacción, Omar tachó la pregunta sobre lo que plantarían. Clara propuso «Una rama espera al miércoles». En el cuerpo de la noticia explicaron que era la fecha prevista, condicionada por la lluvia, y atribuyeron el plan a Berta. Omar acercó la libreta al cristal del aula: veía la flecha y, detrás, todas las hojas. Luego devolvió la hoja a su sitio, junto al hueco donde pondrían el dibujo de la próxima visita."
+        ],
+        "questions": [
+          {
+            "id": "l285b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué observaciones reales estaban en el origen del rumor?",
+            "answer": "Un compañero había visto una furgoneta y la cinta; Clara había visto también la cinta desde el aula.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "había visto la cinta naranja desde la ventana del aula"
+              },
+              {
+                "paragraph": 3,
+                "text": "Un compañero vio una furgoneta y la cinta"
+              }
+            ]
+          },
+          {
+            "id": "l285b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué convirtió aquellas observaciones en la noticia de un árbol que desaparecería?",
+            "answer": "La interpretación del compañero, que Omar y Clara aceptaron al preparar preguntas sin conocer aún el plan.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "me dijo que seguramente se lo llevarían"
+              },
+              {
+                "paragraph": 2,
+                "text": "Yo había entendido que la cinta marcaba el lugar del árbol nuevo."
+              }
+            ]
+          },
+          {
+            "id": "l285b-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «aplazar» según la respuesta de Berta?",
+            "answer": "Dejar el trabajo para una fecha posterior si llueve.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Si llueve, tendremos que aplazar el trabajo."
+              },
+              {
+                "paragraph": 4,
+                "text": "la nueva fecha"
+              }
+            ]
+          },
+          {
+            "id": "l285b-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué explica Berta sobre la cinta y la furgoneta?",
+            "answer": "La furgoneta había traído material; la cinta rodeaba el espacio para trabajar, no un hueco de plantación.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "el espacio que ocuparemos para trabajar"
+              },
+              {
+                "paragraph": 3,
+                "text": "trajimos material en esa furgoneta"
+              }
+            ]
+          },
+          {
+            "id": "l285b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué cambiar de posición ayudó a Omar?",
+            "answer": "Porque la rama estaba escondida tras otras hojas desde la ventana; desde la valla pudo seguir la indicación de Berta.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "la rama está detrás de otras hojas"
+              },
+              {
+                "paragraph": 3,
+                "text": "Omar cambió de sitio junto a la valla y la encontró."
+              }
+            ]
+          },
+          {
+            "id": "l285b-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Distingue el trabajo ya hecho y el que aún estaba previsto.",
+            "answer": "La revisión de la rama se hizo el lunes; la retirada estaba prevista para el miércoles si no llovía.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "revisamos la rama el lunes"
+              },
+              {
+                "paragraph": 4,
+                "text": "Es el día previsto, siempre que no llueva."
+              }
+            ]
+          },
+          {
+            "id": "l285b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué error habría en el titular «El miércoles retiraron la rama» para esta noticia?",
+            "answer": "Daría por realizado un trabajo futuro cuya fecha todavía dependía de la lluvia.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "la retirada está pendiente"
+              },
+              {
+                "paragraph": 7,
+                "text": "la fecha prevista, condicionada por la lluvia"
+              }
+            ]
+          },
+          {
+            "id": "l285b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué puede mostrar la segunda vista que aún falta en la libreta?",
+            "answer": "El aspecto observado después del trabajo, para compararlo con el del martes.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "volver después"
+              },
+              {
+                "paragraph": 6,
+                "text": "esperando una visita que aún no habían hecho"
+              }
+            ]
+          },
+          {
+            "id": "l285b-q9",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué aporta la pregunta de Omar sobre dónde hacer el segundo dibujo?",
+            "answer": "Introduce la importancia de mantener el punto de vista para comparar el aspecto anterior y posterior del árbol.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Si queréis compararlo con este, volved a colocaros aquí."
+              }
+            ]
+          },
+          {
+            "id": "l285b-q10",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué mencionan a Berta como fuente del plan?",
+            "answer": "Porque conoce la revisión y el trabajo preparado y explicó directamente a los alumnos lo previsto.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Mi compañero y yo revisamos la rama el lunes y preparamos lo necesario."
+              },
+              {
+                "paragraph": 7,
+                "text": "atribuyeron el plan a Berta"
+              }
+            ]
+          },
+          {
+            "id": "l285b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume cómo la entrevista distingue observación, suposición y plan.",
+            "answer": "Parten de una cinta y una furgoneta observadas, revisan la suposición del árbol entero y explican el plan de retirar una rama, con fecha condicionada.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "vio una furgoneta y la cinta"
+              },
+              {
+                "paragraph": 2,
+                "text": "Retiraremos esa rama"
+              },
+              {
+                "paragraph": 4,
+                "text": "siempre que no llueva"
+              }
+            ]
+          },
+          {
+            "id": "l285b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿Qué pregunta añadirías para preparar una segunda noticia después del trabajo? Justifica su utilidad.",
+            "answer": "Respuesta abierta con una pregunta pertinente y explicación de qué información nueva permitiría obtener."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "aplazar",
+            "occurrence": 1,
+            "questionId": "l285b-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l285-scene",
+            "src": "assets/readings/l285-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La jardinera Berta conversa con Clara y Omar junto al árbol y la valla del patio.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan el periódico escolar en una mesa del patio, en una ilustración azul y naranja.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "un-rumor-al-otro-lado-de-la-valla-b-ca",
+        "code": "L285B",
+        "workId": "un-rumor-al-otro-lado-de-la-valla-b",
+        "language": "ca",
+        "familyId": "familia-l285",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "nature",
+          "community",
+          "environment"
+        ],
+        "genre": "interview",
+        "title": "Un rumor a l’altra banda de la tanca",
+        "summary": "L’entrevista distingeix el que s’ha observat, el que s’ha suposat i la feina prevista en un arbre del jardí.",
+        "paragraphs": [
+          "La redacció del diari escolar volia explicar què passaria amb l’arbre que creixia a l’altra banda de la tanca del pati. Dimarts, l’Omar va arribar amb un rumor: se l’endurien sencer. La Clara, la seva companya de sisè, havia vist la cinta taronja des de la finestra de l’aula. Van preparar preguntes i van sortir a entrevistar la Berta, la jardinera que revisava aquells arbres. Era al costat de la tanca, on podien parlar sense entrar al jardí.",
+          "Omar: Què plantareu al seu lloc?\nBerta: Al lloc de l’arbre? La branca que surt cap al jardí té una esquerda. Retirarem aquella branca; el tronc i les altres es queden.\nClara: Jo havia entès que la cinta marcava el lloc de l’arbre nou.\nBerta: La cinta envolta l’espai que ocuparem per treballar. Durant aquella estona estarà tancat. En recollir el material, retirarem també la cinta.",
+          "Clara: Com va començar allò de treure’l sencer?\nOmar: Un company va veure una furgoneta i la cinta, i em va dir que segurament se l’endurien. Jo em vaig posar a imaginar què cabria al buit.\nBerta: Ahir vam portar material amb aquella furgoneta. La vostra finestra queda davant del tram de cinta, però la branca és darrere d’altres fulles. Des d’aquí la podeu veure si seguiu la línia que us assenyalo cap al jardí.\nL’Omar va canviar de lloc al costat de la tanca i la va trobar.",
+          "Clara: Des de quan sabeu allò de l’esquerda?\nBerta: Va aparèixer després del vent fort. El meu company i jo vam revisar la branca dilluns i vam preparar el que calia.\nOmar: Dimecres ja no hi serà?\nBerta: És el dia previst, sempre que no plogui. Si plou, haurem d’ajornar la feina. Us avisarem de la data nova. El que ja vam fer va ser la revisió; la retirada està pendent.",
+          "Omar: Què es veurà diferent quan acabeu?\nBerta: Des d’aquest costat, una clariana entre les fulles. La resta de l’arbre continuarà al seu lloc. Podeu dibuixar el que veieu avui i tornar després.\nLa Clara va treure la llibreta i va traçar la branca. Va deixar un buit al costat per a una altra vista. La Berta li va indicar on s’unia al tronc, perquè des de la primera posició una branca més prima semblava sortir del mateix punt.",
+          "Omar: I el segon dibuix el fem des de la finestra de l’aula?\nBerta: Si el voleu comparar amb aquest, torneu-vos a posar aquí. Des de la finestra, una branca més prima tapa part del que veieu ara.\nLa Clara va anotar al costat del dibuix «al costat de la porta de la tanca» i la data de dimarts. L’espai següent va quedar buit, esperant una visita que encara no havien fet.",
+          "A la taula de redacció, l’Omar va ratllar la pregunta sobre el que plantarien. La Clara va proposar «Una branca espera dimecres». Al cos de la notícia van explicar que era la data prevista, condicionada per la pluja, i van atribuir el pla a la Berta. L’Omar va acostar la llibreta al vidre de l’aula: veia la fletxa i, al darrere, totes les fulles. Després va tornar el full al seu lloc, al costat del buit on posarien el dibuix de la pròxima visita."
+        ],
+        "questions": [
+          {
+            "id": "l285b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quines observacions reals hi havia a l’origen del rumor?",
+            "answer": "Un company havia vist una furgoneta i la cinta; la Clara també havia vist la cinta des de l’aula.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "havia vist la cinta taronja des de la finestra de l’aula"
+              },
+              {
+                "paragraph": 3,
+                "text": "Un company va veure una furgoneta i la cinta"
+              }
+            ]
+          },
+          {
+            "id": "l285b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què va convertir aquelles observacions en la notícia d’un arbre que desapareixeria?",
+            "answer": "La interpretació del company, que l’Omar i la Clara van acceptar en preparar preguntes sense conèixer encara el pla.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "em va dir que segurament se l’endurien"
+              },
+              {
+                "paragraph": 2,
+                "text": "Jo havia entès que la cinta marcava el lloc de l’arbre nou."
+              }
+            ]
+          },
+          {
+            "id": "l285b-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què significa «ajornar» segons la resposta de la Berta?",
+            "answer": "Deixar la feina per a una data posterior si plou.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Si plou, haurem d’ajornar la feina."
+              },
+              {
+                "paragraph": 4,
+                "text": "la data nova"
+              }
+            ]
+          },
+          {
+            "id": "l285b-q4",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què explica la Berta sobre la cinta i la furgoneta?",
+            "answer": "La furgoneta havia portat material; la cinta envoltava l’espai per treballar, no un buit per plantar-hi.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "l’espai que ocuparem per treballar"
+              },
+              {
+                "paragraph": 3,
+                "text": "vam portar material amb aquella furgoneta"
+              }
+            ]
+          },
+          {
+            "id": "l285b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què canviar de posició va ajudar l’Omar?",
+            "answer": "Perquè la branca quedava amagada darrere d’altres fulles des de la finestra; des de la tanca va poder seguir la indicació de la Berta.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "la branca és darrere d’altres fulles"
+              },
+              {
+                "paragraph": 3,
+                "text": "L’Omar va canviar de lloc al costat de la tanca i la va trobar."
+              }
+            ]
+          },
+          {
+            "id": "l285b-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Distingeix la feina ja feta i la que encara estava prevista.",
+            "answer": "La revisió de la branca es va fer dilluns; la retirada estava prevista per a dimecres si no plovia.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "vam revisar la branca dilluns"
+              },
+              {
+                "paragraph": 4,
+                "text": "És el dia previst, sempre que no plogui."
+              }
+            ]
+          },
+          {
+            "id": "l285b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quin error hi hauria en el titular «Dimecres van retirar la branca» per a aquesta notícia?",
+            "answer": "Donaria per feta una feina futura la data de la qual encara depenia de la pluja.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "la retirada està pendent"
+              },
+              {
+                "paragraph": 7,
+                "text": "la data prevista, condicionada per la pluja"
+              }
+            ]
+          },
+          {
+            "id": "l285b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què pot mostrar la segona vista que encara falta a la llibreta?",
+            "answer": "L’aspecte observat després de la feina, per comparar-lo amb el de dimarts.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "tornar després"
+              },
+              {
+                "paragraph": 6,
+                "text": "esperant una visita que encara no havien fet"
+              }
+            ]
+          },
+          {
+            "id": "l285b-q9",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Què aporta la pregunta de l’Omar sobre on fer el segon dibuix?",
+            "answer": "Introdueix la importància de mantenir el punt de vista per comparar l’aspecte anterior i posterior de l’arbre.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Si el voleu comparar amb aquest, torneu-vos a posar aquí."
+              }
+            ]
+          },
+          {
+            "id": "l285b-q10",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què esmenten la Berta com a font del pla?",
+            "answer": "Perquè coneix la revisió i la feina preparada i va explicar directament als alumnes el que estava previst.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "El meu company i jo vam revisar la branca dilluns i vam preparar el que calia."
+              },
+              {
+                "paragraph": 7,
+                "text": "van atribuir el pla a la Berta"
+              }
+            ]
+          },
+          {
+            "id": "l285b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix com l’entrevista distingeix observació, suposició i pla.",
+            "answer": "Parteixen d’una cinta i una furgoneta observades, revisen la suposició de l’arbre sencer i expliquen el pla de retirar una branca, amb data condicionada.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "va veure una furgoneta i la cinta"
+              },
+              {
+                "paragraph": 2,
+                "text": "Retirarem aquella branca"
+              },
+              {
+                "paragraph": 4,
+                "text": "sempre que no plogui"
+              }
+            ]
+          },
+          {
+            "id": "l285b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Quina pregunta afegiries per preparar una segona notícia després de la feina? Justifica’n la utilitat.",
+            "answer": "Resposta oberta amb una pregunta pertinent i explicació de quina informació nova permetria obtenir."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "ajornar",
+            "occurrence": 1,
+            "questionId": "l285b-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l285-scene",
+            "src": "assets/readings/l285-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La jardinera Berta conversa amb la Clara i l’Omar al costat de l’arbre i la tanca del pati.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen el diari escolar en una taula del pati, en una il·lustració blava i taronja.",
+            "afterParagraph": 5
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L285A",
+        "language": "es",
+        "questions": {
+          "l285a-q1": {
+            "prompt": "¿A quién entrevistaron Clara y Omar?",
+            "options": [
+              "Al compañero que había visto la cinta.",
+              "Al compañero de trabajo de Berta.",
+              "A la persona que conducía la furgoneta.",
+              "A Berta, la jardinera."
+            ],
+            "correct": "d",
+            "explanation": "A Berta, la jardinera que revisaba los árboles."
+          },
+          "l285a-q2": {
+            "prompt": "¿Qué iban a retirar?",
+            "options": [
+              "La rama que daba hacia el jardín.",
+              "Todo el árbol situado junto a la valla.",
+              "La valla que separaba el patio del jardín.",
+              "La cinta antes de empezar a revisar el árbol."
+            ],
+            "correct": "a",
+            "explanation": "Una rama orientada hacia el jardín, no el árbol entero."
+          },
+          "l285a-q3": {
+            "prompt": "¿Qué significa «rumor» al comienzo del texto?",
+            "options": [
+              "El ruido de la furgoneta al llegar al jardín.",
+              "Una pregunta preparada por Berta para la clase.",
+              "Una noticia que circulaba sin estar confirmada.",
+              "El título ya impreso del periódico escolar."
+            ],
+            "correct": "c",
+            "explanation": "Una noticia que se transmite entre personas sin haberla confirmado."
+          },
+          "l285a-q4": {
+            "prompt": "¿Para qué habían puesto la cinta naranja?",
+            "options": [
+              "Para marcar el árbol nuevo que plantarían.",
+              "Para rodear la zona en la que iban a trabajar.",
+              "Para señalar dónde había quedado la furgoneta.",
+              "Para indicar que ya habían quitado la rama."
+            ],
+            "correct": "b",
+            "explanation": "Para rodear el lugar donde trabajarían el miércoles."
+          },
+          "l285a-q5": {
+            "prompt": "¿Se había retirado ya la rama cuando hicieron la entrevista? ¿Cómo lo sabes?",
+            "options": [
+              "Sí, porque la habían revisado el lunes.",
+              "Sí, porque la cinta ya rodeaba el lugar.",
+              "No se sabe: Berta no menciona ningún día.",
+              "No, porque Berta habla de retirarla el miércoles."
+            ],
+            "correct": "d",
+            "explanation": "No: Berta la señala y explica que la quitarán el miércoles si no llueve."
+          },
+          "l285a-q6": {
+            "prompt": "¿Qué idea equivocada contenía la primera pregunta de Omar?",
+            "options": [
+              "Que el árbol entero iba a desaparecer.",
+              "Que no habían visto ninguna cinta.",
+              "Que la rama ya se había retirado el lunes.",
+              "Que Berta no trabajaba en aquel jardín."
+            ],
+            "correct": "a",
+            "explanation": "Daba por hecho que iban a quitar el árbol entero y plantar otro en su lugar."
+          },
+          "l285a-q7": {
+            "prompt": "¿Qué resumen es fiel al cambio de información?",
+            "options": [
+              "La entrevista confirmó que plantarían otro árbol el miércoles.",
+              "La entrevista mostró que la rama se había quitado el lunes.",
+              "La entrevista cambió el rumor por un trabajo concreto aún previsto.",
+              "La entrevista explicó por qué el patio ya se había quedado sin hojas."
+            ],
+            "correct": "c",
+            "explanation": "Pasaron de pensar que quitarían todo el árbol a saber que estaba prevista la retirada de una rama, si no llovía."
+          }
+        }
+      },
+      {
+        "code": "L285A",
+        "language": "ca",
+        "questions": {
+          "l285a-q1": {
+            "prompt": "A qui van entrevistar la Clara i l’Omar?",
+            "options": [
+              "Al company que havia vist la cinta.",
+              "Al company de feina de la Berta.",
+              "A la persona que conduïa la furgoneta.",
+              "A la Berta, la jardinera."
+            ],
+            "correct": "d",
+            "explanation": "A la Berta, la jardinera que revisava els arbres."
+          },
+          "l285a-q2": {
+            "prompt": "Què havien de retirar?",
+            "options": [
+              "La branca que donava cap al jardí.",
+              "Tot l’arbre situat al costat de la tanca.",
+              "La tanca que separava el pati del jardí.",
+              "La cinta abans de començar a revisar l’arbre."
+            ],
+            "correct": "a",
+            "explanation": "Una branca orientada cap al jardí, no l’arbre sencer."
+          },
+          "l285a-q3": {
+            "prompt": "Què significa «rumor» al començament del text?",
+            "options": [
+              "El soroll de la furgoneta en arribar al jardí.",
+              "Una pregunta preparada per la Berta per a la classe.",
+              "Una notícia que circulava sense estar confirmada.",
+              "El títol ja imprès del diari escolar."
+            ],
+            "correct": "c",
+            "explanation": "Una notícia que es transmet entre persones sense haver-la confirmat."
+          },
+          "l285a-q4": {
+            "prompt": "Per a què havien posat la cinta taronja?",
+            "options": [
+              "Per marcar l’arbre nou que plantarien.",
+              "Per envoltar la zona on havien de treballar.",
+              "Per assenyalar on havia quedat la furgoneta.",
+              "Per indicar que ja havien tret la branca."
+            ],
+            "correct": "b",
+            "explanation": "Per envoltar el lloc on treballarien dimecres."
+          },
+          "l285a-q5": {
+            "prompt": "Ja havien retirat la branca quan van fer l’entrevista? Com ho saps?",
+            "options": [
+              "Sí, perquè l’havien revisat dilluns.",
+              "Sí, perquè la cinta ja envoltava el lloc.",
+              "No se sap: la Berta no esmenta cap dia.",
+              "No, perquè la Berta parla de retirar-la dimecres."
+            ],
+            "correct": "d",
+            "explanation": "No: la Berta l’assenyala i explica que la trauran dimecres si no plou."
+          },
+          "l285a-q6": {
+            "prompt": "Quina idea equivocada contenia la primera pregunta de l’Omar?",
+            "options": [
+              "Que l’arbre sencer desapareixeria.",
+              "Que no havien vist cap cinta.",
+              "Que la branca ja s’havia retirat dilluns.",
+              "Que la Berta no treballava en aquell jardí."
+            ],
+            "correct": "a",
+            "explanation": "Donava per fet que traurien l’arbre sencer i en plantarien un altre al seu lloc."
+          },
+          "l285a-q7": {
+            "prompt": "Quin resum és fidel al canvi d’informació?",
+            "options": [
+              "L’entrevista va confirmar que plantarien un altre arbre dimecres.",
+              "L’entrevista va mostrar que la branca s’havia tret dilluns.",
+              "L’entrevista va canviar el rumor per una feina concreta encara prevista.",
+              "L’entrevista va explicar per què el pati ja s’havia quedat sense fulles."
+            ],
+            "correct": "c",
+            "explanation": "Van passar de pensar que traurien tot l’arbre a saber que estava prevista la retirada d’una branca, si no plovia."
+          }
+        }
+      },
+      {
+        "code": "L285",
+        "language": "es",
+        "questions": {
+          "l285-q1": {
+            "prompt": "¿Qué había visto el compañero de Omar?",
+            "options": [
+              "Una rama ya cortada y un tronco en el suelo.",
+              "Una furgoneta y la cinta.",
+              "Un árbol nuevo dentro del jardín.",
+              "La grieta desde el interior del aula."
+            ],
+            "correct": "b",
+            "explanation": "Una furgoneta y una cinta cerca del árbol."
+          },
+          "l285-q2": {
+            "prompt": "¿Qué había añadido el compañero a lo que vio?",
+            "options": [
+              "La explicación del trabajo que Berta había preparado.",
+              "La fecha del lunes en que revisaron la rama.",
+              "La confirmación de que la furgoneta trajo material.",
+              "La idea de que retirarían todo el árbol."
+            ],
+            "correct": "d",
+            "explanation": "La suposición de que se llevarían el árbol entero."
+          },
+          "l285-q3": {
+            "prompt": "¿Qué significa «dado por hecho» en la introducción?",
+            "options": [
+              "Aceptado como cierto antes de comprobarlo.",
+              "Escrito como pregunta después de la entrevista.",
+              "Descartado porque nadie había visto la cinta.",
+              "Acordado con Berta durante la revisión del lunes."
+            ],
+            "correct": "a",
+            "explanation": "Aceptado como cierto sin haberlo comprobado con quien conocía el trabajo."
+          },
+          "l285-q4": {
+            "prompt": "¿Qué función tenía la cinta y cuándo la quitarían?",
+            "options": [
+              "Rodeaba el árbol nuevo y la quitarían cuando creciera.",
+              "Marcaba la grieta y la quitarían antes de la revisión.",
+              "Delimitaba la zona de trabajo y la quitarían al recoger.",
+              "Reservaba sitio a la furgoneta hasta acabar la entrevista."
+            ],
+            "correct": "c",
+            "explanation": "Rodeaba el espacio de trabajo, cerrado mientras lo hicieran; la quitarían al terminar y recoger."
+          },
+          "l285-q5": {
+            "prompt": "¿Qué trabajo ya habían realizado el lunes?",
+            "options": [
+              "La retirada de todo el árbol.",
+              "La revisión de la rama.",
+              "La publicación del periódico.",
+              "La retirada de la cinta."
+            ],
+            "correct": "b",
+            "explanation": "La revisión de la rama, Berta y su compañero."
+          },
+          "l285-q6": {
+            "prompt": "¿Por qué no podían anunciar la retirada del miércoles como algo seguro?",
+            "options": [
+              "Porque Omar todavía no había escrito el título.",
+              "Porque faltaba saber qué árbol plantarían después.",
+              "Porque la revisión del lunes no se había realizado.",
+              "Porque el plan dependía de que no lloviera."
+            ],
+            "correct": "d",
+            "explanation": "Porque estaba prevista para ese día si no llovía; la lluvia obligaría a buscar otra fecha."
+          },
+          "l285-q7": {
+            "prompt": "¿Qué permite comparar el espacio que Clara dejó junto a su dibujo?",
+            "options": [
+              "La vista del martes con otra posterior a la retirada.",
+              "Las hojas del árbol actual con las de uno nuevo.",
+              "La vista desde la ventana con otra desde la puerta de la valla.",
+              "El aspecto del árbol del lunes con el que tenía el martes."
+            ],
+            "correct": "a",
+            "explanation": "El aspecto del árbol antes de retirar la rama y después del trabajo."
+          },
+          "l285-q8": {
+            "prompt": "¿Qué muestra el cambio entre la primera y la última pregunta de Omar?",
+            "options": [
+              "Que la entrevista abandonó el árbol para hablar del periódico.",
+              "Que Omar confirmó el rumor antes de escuchar a Berta.",
+              "Que ajustó su pregunta a la información que acababa de conocer.",
+              "Que Berta dejó todas las decisiones en manos de los alumnos."
+            ],
+            "correct": "c",
+            "explanation": "Que dejó de preguntar desde el supuesto del árbol desaparecido y pasó a preguntar por los efectos del trabajo real."
+          },
+          "l285-q9": {
+            "prompt": "¿Qué resumen recoge la información confirmada por Berta?",
+            "options": [
+              "El compañero confirmó que ya habían retirado la rama el lunes.",
+              "La jardinera concretó qué rama retirarían y bajo qué previsión.",
+              "La cinta indicaba dónde se plantaría un árbol nuevo el miércoles.",
+              "Omar propuso aplazar el trabajo hasta que saliera el periódico."
+            ],
+            "correct": "b",
+            "explanation": "Berta explicó que retiraría una rama agrietada, que el resto del árbol seguiría y que la fecha prevista podía cambiar con la lluvia."
+          }
+        }
+      },
+      {
+        "code": "L285",
+        "language": "ca",
+        "questions": {
+          "l285-q1": {
+            "prompt": "Què havia vist el company de l’Omar?",
+            "options": [
+              "Una branca ja tallada i un tronc a terra.",
+              "Una furgoneta i la cinta.",
+              "Un arbre nou dins del jardí.",
+              "L’esquerda des de dins de l’aula."
+            ],
+            "correct": "b",
+            "explanation": "Una furgoneta i una cinta a prop de l’arbre."
+          },
+          "l285-q2": {
+            "prompt": "Què havia afegit el company al que havia vist?",
+            "options": [
+              "L’explicació de la feina que la Berta havia preparat.",
+              "La data de dilluns en què van revisar la branca.",
+              "La confirmació que la furgoneta va portar material.",
+              "La idea que retirarien tot l’arbre."
+            ],
+            "correct": "d",
+            "explanation": "La suposició que s’endurien l’arbre sencer."
+          },
+          "l285-q3": {
+            "prompt": "Què significa «donat per fet» a la introducció?",
+            "options": [
+              "Acceptat com a cert abans de comprovar-ho.",
+              "Escrit com a pregunta després de l’entrevista.",
+              "Descartat perquè ningú no havia vist la cinta.",
+              "Acordat amb la Berta durant la revisió de dilluns."
+            ],
+            "correct": "a",
+            "explanation": "Acceptat com a cert sense haver-ho comprovat amb qui coneixia la feina."
+          },
+          "l285-q4": {
+            "prompt": "Quina funció tenia la cinta i quan la traurien?",
+            "options": [
+              "Envoltava l’arbre nou i la traurien quan creixés.",
+              "Marcava l’esquerda i la traurien abans de la revisió.",
+              "Delimitava la zona de feina i la traurien en recollir.",
+              "Reservava lloc a la furgoneta fins a acabar l’entrevista."
+            ],
+            "correct": "c",
+            "explanation": "Envoltava l’espai de feina, tancat mentre la fessin; la traurien en acabar i recollir."
+          },
+          "l285-q5": {
+            "prompt": "Quina feina ja havien fet dilluns?",
+            "options": [
+              "La retirada de tot l’arbre.",
+              "La revisió de la branca.",
+              "La publicació del diari.",
+              "La retirada de la cinta."
+            ],
+            "correct": "b",
+            "explanation": "La revisió de la branca, la Berta i el seu company."
+          },
+          "l285-q6": {
+            "prompt": "Per què no podien anunciar la retirada de dimecres com una cosa segura?",
+            "options": [
+              "Perquè l’Omar encara no havia escrit el títol.",
+              "Perquè faltava saber quin arbre plantarien després.",
+              "Perquè la revisió de dilluns no s’havia fet.",
+              "Perquè el pla depenia que no plogués."
+            ],
+            "correct": "d",
+            "explanation": "Perquè estava prevista per a aquell dia si no plovia; la pluja obligaria a buscar una altra data."
+          },
+          "l285-q7": {
+            "prompt": "Què permet comparar l’espai que la Clara va deixar al costat del dibuix?",
+            "options": [
+              "La vista de dimarts amb una altra posterior a la retirada.",
+              "Les fulles de l’arbre actual amb les d’un de nou.",
+              "La vista des de la finestra amb una altra des de la porta de la tanca.",
+              "L’aspecte de l’arbre de dilluns amb el que tenia dimarts."
+            ],
+            "correct": "a",
+            "explanation": "L’aspecte de l’arbre abans de retirar la branca i després de la feina."
+          },
+          "l285-q8": {
+            "prompt": "Què mostra el canvi entre la primera i l’última pregunta de l’Omar?",
+            "options": [
+              "Que l’entrevista va abandonar l’arbre per parlar del diari.",
+              "Que l’Omar va confirmar el rumor abans d’escoltar la Berta.",
+              "Que va ajustar la pregunta a la informació que acabava de conèixer.",
+              "Que la Berta va deixar totes les decisions en mans dels alumnes."
+            ],
+            "correct": "c",
+            "explanation": "Que va deixar de preguntar des del supòsit de l’arbre desaparegut i va passar a preguntar pels efectes de la feina real."
+          },
+          "l285-q9": {
+            "prompt": "Quin resum recull la informació confirmada per la Berta?",
+            "options": [
+              "El company va confirmar que ja havien retirat la branca dilluns.",
+              "La jardinera va concretar quina branca retirarien i amb quina previsió.",
+              "La cinta indicava on es plantaria un arbre nou dimecres.",
+              "L’Omar va proposar ajornar la feina fins que sortís el diari."
+            ],
+            "correct": "b",
+            "explanation": "La Berta va explicar que retiraria una branca esquerdada, que la resta de l’arbre continuaria i que la data prevista podia canviar amb la pluja."
+          }
+        }
+      },
+      {
+        "code": "L285B",
+        "language": "es",
+        "questions": {
+          "l285b-q1": {
+            "prompt": "¿Qué observaciones reales estaban en el origen del rumor?",
+            "options": [
+              "Un árbol entero cargado en la furgoneta.",
+              "La grieta y la retirada de una rama el lunes.",
+              "La llegada de un árbol nuevo y una cinta.",
+              "Una furgoneta y una cinta vistas desde fuera."
+            ],
+            "correct": "d",
+            "explanation": "Un compañero había visto una furgoneta y la cinta; Clara había visto también la cinta desde el aula."
+          },
+          "l285b-q2": {
+            "prompt": "¿Qué convirtió aquellas observaciones en la noticia de un árbol que desaparecería?",
+            "options": [
+              "Una interpretación que los alumnos tomaron como punto de partida.",
+              "Una explicación de Berta que el compañero había oído completa.",
+              "La comprobación de que la rama ya no estaba junto al tronco.",
+              "La decisión de Clara de publicar una observación hecha el lunes."
+            ],
+            "correct": "a",
+            "explanation": "La interpretación del compañero, que Omar y Clara aceptaron al preparar preguntas sin conocer aún el plan."
+          },
+          "l285b-q3": {
+            "prompt": "¿Qué significa «aplazar» según la respuesta de Berta?",
+            "options": [
+              "Terminar antes de lo previsto para evitar la lluvia.",
+              "Repetir la revisión del lunes mientras llueve.",
+              "Dejar la retirada para una fecha posterior.",
+              "Cambiar la retirada de una rama por la de todo el árbol."
+            ],
+            "correct": "c",
+            "explanation": "Dejar el trabajo para una fecha posterior si llueve."
+          },
+          "l285b-q4": {
+            "prompt": "¿Qué explica Berta sobre la cinta y la furgoneta?",
+            "options": [
+              "La furgoneta ya se llevó la rama y la cinta marca la ausencia.",
+              "La furgoneta trajo material y la cinta rodea la zona de trabajo.",
+              "La cinta señala dónde aparcará la furgoneta con el árbol nuevo.",
+              "La cinta marca una grieta que descubrieron desde la furgoneta."
+            ],
+            "correct": "b",
+            "explanation": "La furgoneta había traído material; la cinta rodeaba el espacio para trabajar, no un hueco de plantación."
+          },
+          "l285b-q5": {
+            "prompt": "¿Por qué cambiar de posición ayudó a Omar?",
+            "options": [
+              "Porque Berta había retirado las hojas durante la conversación.",
+              "Porque desde el aula podían ver el árbol entero sin obstáculos.",
+              "Porque la cinta se había movido hasta señalar la grieta.",
+              "Porque vio desde otro ángulo lo que las hojas ocultaban."
+            ],
+            "correct": "d",
+            "explanation": "Porque la rama estaba escondida tras otras hojas desde la ventana; desde la valla pudo seguir la indicación de Berta."
+          },
+          "l285b-q6": {
+            "prompt": "Distingue el trabajo ya hecho y el que aún estaba previsto.",
+            "options": [
+              "Revisión hecha el lunes; retirada prevista para el miércoles.",
+              "Retirada hecha el lunes; revisión prevista para el miércoles.",
+              "Cinta retirada el martes; plantación prevista para el miércoles.",
+              "Revisión y retirada terminadas antes de la entrevista."
+            ],
+            "correct": "a",
+            "explanation": "La revisión de la rama se hizo el lunes; la retirada estaba prevista para el miércoles si no llovía."
+          },
+          "l285b-q7": {
+            "prompt": "¿Qué error habría en el titular «El miércoles retiraron la rama» para esta noticia?",
+            "options": [
+              "Asegura que una retirada ya hecha el lunes se repetirá el miércoles.",
+              "Atribuye al miércoles la revisión que Berta hizo el lunes.",
+              "Convertiría un plan condicionado en un hecho ya ocurrido.",
+              "Afirma que los alumnos estuvieron presentes durante la retirada."
+            ],
+            "correct": "c",
+            "explanation": "Daría por realizado un trabajo futuro cuya fecha todavía dependía de la lluvia."
+          },
+          "l285b-q8": {
+            "prompt": "¿Qué puede mostrar la segunda vista que aún falta en la libreta?",
+            "options": [
+              "El aspecto de la rama vista ese mismo martes desde la ventana.",
+              "Una vista posterior que se pueda comparar con la del martes.",
+              "La demostración de que el rumor inicial era correcto.",
+              "Los detalles que Berta vio al revisarla el lunes."
+            ],
+            "correct": "b",
+            "explanation": "El aspecto observado después del trabajo, para compararlo con el del martes."
+          },
+          "l285b-q9": {
+            "prompt": "¿Qué aporta la pregunta de Omar sobre dónde hacer el segundo dibujo?",
+            "options": [
+              "Confirma que la vista desde el aula muestra mejor la rama grande.",
+              "Decide qué dibujo sustituirá al que ya habían hecho el martes.",
+              "Permite precisar desde qué lugar habían visto la furgoneta.",
+              "Plantea cómo conservar el punto de vista para comparar las vistas."
+            ],
+            "correct": "d",
+            "explanation": "Introduce la importancia de mantener el punto de vista para comparar el aspecto anterior y posterior del árbol."
+          },
+          "l285b-q10": {
+            "prompt": "¿Por qué mencionan a Berta como fuente del plan?",
+            "options": [
+              "Permite saber de quién procede la explicación del trabajo previsto.",
+              "Convierte la fecha prevista en una fecha segura aunque llueva.",
+              "Indica que Berta había creado el rumor del árbol entero.",
+              "Sustituye la necesidad de contar qué parte del árbol se retirará."
+            ],
+            "correct": "a",
+            "explanation": "Porque conoce la revisión y el trabajo preparado y explicó directamente a los alumnos lo previsto."
+          },
+          "l285b-q11": {
+            "prompt": "¿Cuál es el resumen más preciso?",
+            "options": [
+              "La entrevista confirma que la cinta marcaba un árbol nuevo y aplaza su plantación.",
+              "La entrevista cambia la fecha de una retirada que ya se había terminado el lunes.",
+              "La entrevista separa lo visto de lo supuesto y concreta un trabajo aún previsto.",
+              "La entrevista sustituye el rumor por un dibujo del aspecto definitivo del jardín."
+            ],
+            "correct": "c",
+            "explanation": "Parten de una cinta y una furgoneta observadas, revisan la suposición del árbol entero y explican el plan de retirar una rama, con fecha condicionada."
+          }
+        }
+      },
+      {
+        "code": "L285B",
+        "language": "ca",
+        "questions": {
+          "l285b-q1": {
+            "prompt": "Quines observacions reals hi havia a l’origen del rumor?",
+            "options": [
+              "Un arbre sencer carregat a la furgoneta.",
+              "L’esquerda i la retirada d’una branca dilluns.",
+              "L’arribada d’un arbre nou i una cinta.",
+              "Una furgoneta i una cinta vistes des de fora."
+            ],
+            "correct": "d",
+            "explanation": "Un company havia vist una furgoneta i la cinta; la Clara també havia vist la cinta des de l’aula."
+          },
+          "l285b-q2": {
+            "prompt": "Què va convertir aquelles observacions en la notícia d’un arbre que desapareixeria?",
+            "options": [
+              "Una interpretació que els alumnes van prendre com a punt de partida.",
+              "Una explicació de la Berta que el company havia sentit completa.",
+              "La comprovació que la branca ja no era al costat del tronc.",
+              "La decisió de la Clara de publicar una observació feta dilluns."
+            ],
+            "correct": "a",
+            "explanation": "La interpretació del company, que l’Omar i la Clara van acceptar en preparar preguntes sense conèixer encara el pla."
+          },
+          "l285b-q3": {
+            "prompt": "Què significa «ajornar» segons la resposta de la Berta?",
+            "options": [
+              "Acabar abans del previst per evitar la pluja.",
+              "Repetir la revisió de dilluns mentre plou.",
+              "Deixar la retirada per a una data posterior.",
+              "Canviar la retirada d’una branca per la de tot l’arbre."
+            ],
+            "correct": "c",
+            "explanation": "Deixar la feina per a una data posterior si plou."
+          },
+          "l285b-q4": {
+            "prompt": "Què explica la Berta sobre la cinta i la furgoneta?",
+            "options": [
+              "La furgoneta ja es va endur la branca i la cinta en marca l’absència.",
+              "La furgoneta va portar material i la cinta envolta la zona de feina.",
+              "La cinta assenyala on aparcarà la furgoneta amb l’arbre nou.",
+              "La cinta marca una esquerda que van descobrir des de la furgoneta."
+            ],
+            "correct": "b",
+            "explanation": "La furgoneta havia portat material; la cinta envoltava l’espai per treballar, no un buit per plantar-hi."
+          },
+          "l285b-q5": {
+            "prompt": "Per què canviar de posició va ajudar l’Omar?",
+            "options": [
+              "Perquè la Berta havia retirat les fulles durant la conversa.",
+              "Perquè des de l’aula podien veure l’arbre sencer sense obstacles.",
+              "Perquè la cinta s’havia mogut fins a assenyalar l’esquerda.",
+              "Perquè va veure des d’un altre angle el que les fulles amagaven."
+            ],
+            "correct": "d",
+            "explanation": "Perquè la branca quedava amagada darrere d’altres fulles des de la finestra; des de la tanca va poder seguir la indicació de la Berta."
+          },
+          "l285b-q6": {
+            "prompt": "Distingeix la feina ja feta i la que encara estava prevista.",
+            "options": [
+              "Revisió feta dilluns; retirada prevista per a dimecres.",
+              "Retirada feta dilluns; revisió prevista per a dimecres.",
+              "Cinta retirada dimarts; plantació prevista per a dimecres.",
+              "Revisió i retirada acabades abans de l’entrevista."
+            ],
+            "correct": "a",
+            "explanation": "La revisió de la branca es va fer dilluns; la retirada estava prevista per a dimecres si no plovia."
+          },
+          "l285b-q7": {
+            "prompt": "Quin error hi hauria en el titular «Dimecres van retirar la branca» per a aquesta notícia?",
+            "options": [
+              "Assegura que una retirada ja feta dilluns es repetirà dimecres.",
+              "Atribueix a dimecres la revisió que la Berta va fer dilluns.",
+              "Convertiria un pla condicionat en un fet ja passat.",
+              "Afirma que els alumnes van ser presents durant la retirada."
+            ],
+            "correct": "c",
+            "explanation": "Donaria per feta una feina futura la data de la qual encara depenia de la pluja."
+          },
+          "l285b-q8": {
+            "prompt": "Què pot mostrar la segona vista que encara falta a la llibreta?",
+            "options": [
+              "L’aspecte de la branca vista aquell mateix dimarts des de la finestra.",
+              "Una vista posterior que es pugui comparar amb la de dimarts.",
+              "La demostració que el rumor inicial era correcte.",
+              "Els detalls que la Berta va veure en revisar-la dilluns."
+            ],
+            "correct": "b",
+            "explanation": "L’aspecte observat després de la feina, per comparar-lo amb el de dimarts."
+          },
+          "l285b-q9": {
+            "prompt": "Què aporta la pregunta de l’Omar sobre on fer el segon dibuix?",
+            "options": [
+              "Confirma que la vista des de l’aula mostra més bé la branca gran.",
+              "Decideix quin dibuix substituirà el que ja havien fet dimarts.",
+              "Permet precisar des de quin lloc havien vist la furgoneta.",
+              "Planteja com conservar el punt de vista per comparar les vistes."
+            ],
+            "correct": "d",
+            "explanation": "Introdueix la importància de mantenir el punt de vista per comparar l’aspecte anterior i posterior de l’arbre."
+          },
+          "l285b-q10": {
+            "prompt": "Per què esmenten la Berta com a font del pla?",
+            "options": [
+              "Permet saber de qui procedeix l’explicació de la feina prevista.",
+              "Converteix la data prevista en una data segura encara que plogui.",
+              "Indica que la Berta havia creat el rumor de l’arbre sencer.",
+              "Substitueix la necessitat d’explicar quina part de l’arbre es retirarà."
+            ],
+            "correct": "a",
+            "explanation": "Perquè coneix la revisió i la feina preparada i va explicar directament als alumnes el que estava previst."
+          },
+          "l285b-q11": {
+            "prompt": "Quin és el resum més precís?",
+            "options": [
+              "L’entrevista confirma que la cinta marcava un arbre nou i n’ajorna la plantació.",
+              "L’entrevista canvia la data d’una retirada que ja s’havia acabat dilluns.",
+              "L’entrevista separa el que s’ha vist del que s’ha suposat i concreta una feina encara prevista.",
+              "L’entrevista substitueix el rumor per un dibuix de l’aspecte definitiu del jardí."
+            ],
+            "correct": "c",
+            "explanation": "Parteixen d’una cinta i una furgoneta observades, revisen la suposició de l’arbre sencer i expliquen el pla de retirar una branca, amb data condicionada."
+          }
+        }
+      }
+    ]
   }
 ];
