@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.61.1 · 26 de novembre del 2026
+
+L290: Un banc a mig camí. Nova família de l’univers L’observatori del turó, amb suport de 3r, referència de 4t i ampliació de 5è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 8 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.61 · 26 de novembre del 2026
 
 L289: La visita a plena llum. Nova família de l’univers L’observatori del turó, amb suport de 3r, referència de 4t i ampliació de 5è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 7 històries independents. Contingut provisional, pendent de validació docent.
