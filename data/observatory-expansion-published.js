@@ -4514,5 +4514,1488 @@ export const observatoryPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L292",
+    "edition": "v1.61.3",
+    "family": {
+      "id": "familia-l292",
+      "code": "L292",
+      "name": {
+        "es": "Una Luna que cabía en la mano",
+        "ca": "Una Lluna que cabia a la mà"
+      },
+      "description": {
+        "ca": "Una història de L’observatori del turó, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de El observatorio de la colina, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L292A",
+        "L292",
+        "L292B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "una-luna-que-cabia-en-la-mano-a-es",
+        "code": "L292A",
+        "workId": "una-luna-que-cabia-en-la-mano-a",
+        "language": "es",
+        "familyId": "familia-l292",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "3-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "science",
+          "everyday"
+        ],
+        "genre": "instructional",
+        "title": "Una Luna que cabía en la mano",
+        "summary": "Una bola y una lámpara ayudan a Dani y Mira a entender por qué no siempre vemos igual la parte iluminada de la Luna.",
+        "paragraphs": [
+          "Dani y Mira visitaron el observatorio de la colina. Joana, la guía, puso una lámpara en una mesa. También sacó una bola blanca sobre un soporte. «Hoy esta será nuestra Luna», dijo. La lámpara haría de Sol y Dani miraría desde una silla.",
+          "Primero dejaron quieta la lámpara. Después Mira movió el soporte de la bola alrededor de Dani. Él siguió sentado. Joana colocó la bola un poco más alta que su cabeza para que el cuerpo del niño no tapara la luz.",
+          "Desde la silla, Dani veía cambiar la parte clara. A veces era estrecha y otras ocupaba más espacio. La bola seguía siendo redonda. Joana explicó que la Luna refleja la luz del Sol. Desde la Tierra vemos distintas partes de su zona iluminada.",
+          "Dani dibujó dos vistas en su cuaderno. Mira puso la bola entre ambas. «¡Solo nos ha hecho falta una!», dijo. Luego intercambiaron la silla y el soporte para repetirlo."
+        ],
+        "questions": [
+          {
+            "id": "l292a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué objeto hacía de Sol?",
+            "answer": "La lámpara.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "La lámpara haría de Sol"
+              }
+            ]
+          },
+          {
+            "id": "l292a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué hacía Mira mientras Dani seguía sentado?",
+            "answer": "Movía el soporte de la bola alrededor de Dani.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Mira movió el soporte de la bola alrededor de Dani"
+              }
+            ]
+          },
+          {
+            "id": "l292a-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué es un «soporte» en esta lectura?",
+            "answer": "La pieza que sostiene la bola.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una bola blanca sobre un soporte"
+              }
+            ]
+          },
+          {
+            "id": "l292a-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué los dos dibujos pueden ser distintos si usaron una sola bola?",
+            "answer": "Porque Dani veía distintas partes de la zona iluminada al cambiar la posición de la bola.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Dani veía cambiar la parte clara"
+              },
+              {
+                "paragraph": 3,
+                "text": "La bola seguía siendo redonda."
+              }
+            ]
+          },
+          {
+            "id": "l292a-q5",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "Cuenta en dos frases qué hicieron y qué observó Dani.",
+            "answer": "Movieron una bola alrededor de Dani con una lámpara fija. Él vio cambiar la parte clara sin que cambiara la forma de la bola.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "dejaron quieta la lámpara"
+              },
+              {
+                "paragraph": 3,
+                "text": "La bola seguía siendo redonda."
+              }
+            ]
+          },
+          {
+            "id": "l292a-q6",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Preferirías mirar desde la silla o mover la bola? Explica por qué.",
+            "answer": "Respuesta personal con una razón relacionada con observar o manejar el modelo."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "soporte",
+            "occurrence": 1,
+            "questionId": "l292a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l292-scene",
+            "src": "assets/readings/l292-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un modelo preparado con una lámpara estable, una bola blanca sobre un soporte elevado, una silla y un cuaderno en la sala del observatorio.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El pequeño observatorio de piedra clara y cúpula gris en una colina con pinos, bajo un cielo lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "una-luna-que-cabia-en-la-mano-a-ca",
+        "code": "L292A",
+        "workId": "una-luna-que-cabia-en-la-mano-a",
+        "language": "ca",
+        "familyId": "familia-l292",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "3-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "science",
+          "everyday"
+        ],
+        "genre": "instructional",
+        "title": "Una Lluna que cabia a la mà",
+        "summary": "Una bola i un llum ajuden en Dani i la Mira a entendre per què no sempre veiem igual la part il·luminada de la Lluna.",
+        "paragraphs": [
+          "En Dani i la Mira van visitar l’observatori del turó. La Joana, la guia, va posar un llum en una taula. També va treure una bola blanca sobre un suport. «Avui aquesta serà la nostra Lluna», va dir. El llum faria de Sol i en Dani miraria des d’una cadira.",
+          "Primer van deixar quiet el llum. Després la Mira va moure el suport de la bola al voltant d’en Dani. Ell va continuar assegut. La Joana va posar la bola una mica més amunt que el cap perquè el cos del nen no tapés la llum.",
+          "Des de la cadira, en Dani veia canviar la part clara. De vegades era estreta i d’altres ocupava més espai. La bola continuava sent rodona. La Joana va explicar que la Lluna reflecteix la llum del Sol. Des de la Terra veiem parts diferents de la seva zona il·luminada.",
+          "En Dani va dibuixar dues vistes a la llibreta. La Mira va posar la bola entre totes dues. «Només ens n’ha calgut una!», va dir. Després van intercanviar la cadira i el suport per repetir-ho."
+        ],
+        "questions": [
+          {
+            "id": "l292a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quin objecte feia de Sol?",
+            "answer": "El llum.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "El llum faria de Sol"
+              }
+            ]
+          },
+          {
+            "id": "l292a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què feia la Mira mentre en Dani continuava assegut?",
+            "answer": "Movia el suport de la bola al voltant d’en Dani.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "la Mira va moure el suport de la bola al voltant d’en Dani"
+              }
+            ]
+          },
+          {
+            "id": "l292a-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què és un «suport» en aquesta lectura?",
+            "answer": "La peça que sosté la bola.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una bola blanca sobre un suport"
+              }
+            ]
+          },
+          {
+            "id": "l292a-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què els dos dibuixos poden ser diferents si van fer servir una sola bola?",
+            "answer": "Perquè en Dani veia parts diferents de la zona il·luminada quan canviava la posició de la bola.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "en Dani veia canviar la part clara"
+              },
+              {
+                "paragraph": 3,
+                "text": "La bola continuava sent rodona."
+              }
+            ]
+          },
+          {
+            "id": "l292a-q5",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "Explica en dues frases què van fer i què va observar en Dani.",
+            "answer": "Van moure una bola al voltant d’en Dani amb un llum fix. Ell va veure canviar la part clara sense que canviés la forma de la bola.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "van deixar quiet el llum"
+              },
+              {
+                "paragraph": 3,
+                "text": "La bola continuava sent rodona."
+              }
+            ]
+          },
+          {
+            "id": "l292a-q6",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "T’estimaries més mirar des de la cadira o moure la bola? Explica per què.",
+            "answer": "Resposta personal amb una raó relacionada amb observar o fer anar el model."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "suport",
+            "occurrence": 1,
+            "questionId": "l292a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l292-scene",
+            "src": "assets/readings/l292-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un model preparat amb un llum estable, una bola blanca sobre un suport elevat, una cadira i una llibreta a la sala de l’observatori.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El petit observatori de pedra clara i cúpula grisa en un turó amb pins, sota un cel lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "una-luna-que-cabia-en-la-mano-es",
+        "code": "L292",
+        "workId": "una-luna-que-cabia-en-la-mano",
+        "language": "es",
+        "familyId": "familia-l292",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "science",
+          "everyday"
+        ],
+        "genre": "instructional",
+        "title": "Una Luna que cabía en la mano",
+        "summary": "Dani prepara unos dibujos de la Luna. Joana propone usar una lámpara y una bola antes de decidir cómo representar sus cambios.",
+        "paragraphs": [
+          "Dani quería dibujar varias vistas de la Luna para el rincón de visitas del observatorio de la colina. Mira, su compañera, había llevado un cuaderno. Joana, la guía, les propuso probar primero con una lámpara y una bola blanca sobre un soporte. La lámpara representaría el Sol; la bola, la Luna, y Dani observaría desde el lugar de la Tierra.",
+          "Joana preparó la actividad: dejar la lámpara fija, sentar a Dani y mover la bola alrededor de él. La colocó un poco más alta que su cabeza, de modo que el cuerpo del niño no interrumpiera la luz. Mira se encargaría de mover el soporte y se detendría cuando Dani pidiera dibujar.",
+          "Dani veía una porción clara estrecha en una posición y una más ancha en otra. Se levantó para mirar la bola de cerca. Seguía entera y redonda. Volvió a la silla para continuar la comparación desde el mismo sitio. Joana explicó que la Luna refleja luz solar: las fases muestran cómo vemos su zona iluminada desde la Tierra.",
+          "Mira señaló la lámpara, que no habían movido. Los dibujos de Dani habían cambiado porque había visto otra parte de la zona clara al moverse la bola. Prepararon dos imágenes para el rincón de visitas. Bajo ellas dejaron espacio para explicar qué representaba cada objeto del modelo.",
+          "Antes de guardar, intercambiaron los papeles. Mira se sentó y pidió ir despacio. Dani dio un paso diminuto con el soporte. «Así nos dará tiempo a dibujar hasta la mesa», dijo ella, riendo."
+        ],
+        "questions": [
+          {
+            "id": "l292-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Para qué quería Dani los dibujos?",
+            "answer": "Para el rincón de visitas del observatorio.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "para el rincón de visitas del observatorio de la colina"
+              }
+            ]
+          },
+          {
+            "id": "l292-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Cuándo se detenía Mira con el soporte?",
+            "answer": "Cuando Dani pedía dibujar.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "se detendría cuando Dani pidiera dibujar"
+              }
+            ]
+          },
+          {
+            "id": "l292-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué Dani volvió a su silla después de mirar la bola de cerca?",
+            "answer": "Para comparar las vistas desde el mismo lugar mientras Mira movía la bola.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Volvió a la silla para continuar la comparación desde el mismo sitio."
+              }
+            ]
+          },
+          {
+            "id": "l292-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «porción» al hablar de la zona clara?",
+            "answer": "Una parte.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una porción clara estrecha"
+              }
+            ]
+          },
+          {
+            "id": "l292-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué detalle indica que los dibujos distintos no se debían a cambiar la forma de la bola?",
+            "answer": "Dani la miró de cerca y comprobó que seguía entera y redonda.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Seguía entera y redonda."
+              }
+            ]
+          },
+          {
+            "id": "l292-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué parte del texto permite saber cómo organizaron la prueba?",
+            "answer": "El segundo párrafo, que explica qué debían dejar fijo, quién miraría y quién movería la bola.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "dejar la lámpara fija, sentar a Dani y mover la bola alrededor de él"
+              }
+            ]
+          },
+          {
+            "id": "l292-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué hicieron con el modelo y qué entendió Dani.",
+            "answer": "Con una lámpara fija y una bola que Mira movía, Dani comparó vistas desde su silla. Entendió que cambiaba la parte iluminada que veía, aunque la bola seguía redonda.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "dejar la lámpara fija, sentar a Dani y mover la bola alrededor de él"
+              },
+              {
+                "paragraph": 4,
+                "text": "había visto otra parte de la zona clara al moverse la bola"
+              }
+            ]
+          },
+          {
+            "id": "l292-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué añadirías junto a los dos dibujos para ayudar a otra persona a entender el modelo?",
+            "answer": "Respuesta personal: por ejemplo, un dibujo de la lámpara, la bola y la silla con una explicación de lo que representan."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "porción",
+            "occurrence": 1,
+            "questionId": "l292-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l292-scene",
+            "src": "assets/readings/l292-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un modelo preparado con una lámpara estable, una bola blanca sobre un soporte elevado, una silla y un cuaderno en la sala del observatorio.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El pequeño observatorio de piedra clara y cúpula gris en una colina con pinos, bajo un cielo lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "una-luna-que-cabia-en-la-mano-ca",
+        "code": "L292",
+        "workId": "una-luna-que-cabia-en-la-mano",
+        "language": "ca",
+        "familyId": "familia-l292",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "science",
+          "everyday"
+        ],
+        "genre": "instructional",
+        "title": "Una Lluna que cabia a la mà",
+        "summary": "En Dani prepara uns dibuixos de la Lluna. La Joana proposa fer servir un llum i una bola abans de decidir com representar-ne els canvis.",
+        "paragraphs": [
+          "En Dani volia dibuixar diverses vistes de la Lluna per al racó de visites de l’observatori del turó. La Mira, la seva companya, havia portat una llibreta. La Joana, la guia, els va proposar provar-ho primer amb un llum i una bola blanca sobre un suport. El llum representaria el Sol; la bola, la Lluna, i en Dani observaria des del lloc de la Terra.",
+          "La Joana va preparar l’activitat: deixar el llum fix, asseure en Dani i moure la bola al voltant seu. La va col·locar una mica més amunt del cap, de manera que el cos del nen no interrompés la llum. La Mira s’encarregaria de moure el suport i s’aturaria quan en Dani demanés dibuixar.",
+          "En Dani veia una porció clara estreta en una posició i una de més ampla en una altra. Es va aixecar per mirar la bola de prop. Continuava sencera i rodona. Va tornar a la cadira per continuar la comparació des del mateix lloc. La Joana va explicar que la Lluna reflecteix llum solar: les fases mostren com veiem la seva zona il·luminada des de la Terra.",
+          "La Mira va assenyalar el llum, que no havien mogut. Els dibuixos d’en Dani havien canviat perquè havia vist una altra part de la zona clara quan es movia la bola. Van preparar dues imatges per al racó de visites. A sota van deixar espai per explicar què representava cada objecte del model.",
+          "Abans d’endreçar, van intercanviar els papers. La Mira es va asseure i va demanar avançar lentament. En Dani va fer un pas diminut amb el suport. «Així tindrem temps de dibuixar fins i tot la taula», va dir ella, rient."
+        ],
+        "questions": [
+          {
+            "id": "l292-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per a què volia en Dani els dibuixos?",
+            "answer": "Per al racó de visites de l’observatori.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "per al racó de visites de l’observatori del turó"
+              }
+            ]
+          },
+          {
+            "id": "l292-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quan s’aturava la Mira amb el suport?",
+            "answer": "Quan en Dani demanava dibuixar.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "s’aturaria quan en Dani demanés dibuixar"
+              }
+            ]
+          },
+          {
+            "id": "l292-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què en Dani va tornar a la seva cadira després de mirar la bola de prop?",
+            "answer": "Per comparar les vistes des del mateix lloc mentre la Mira movia la bola.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Va tornar a la cadira per continuar la comparació des del mateix lloc."
+              }
+            ]
+          },
+          {
+            "id": "l292-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir «porció» quan es parla de la zona clara?",
+            "answer": "Una part.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una porció clara estreta"
+              }
+            ]
+          },
+          {
+            "id": "l292-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Quin detall indica que els dibuixos diferents no es devien a canviar la forma de la bola?",
+            "answer": "En Dani la va mirar de prop i va comprovar que continuava sencera i rodona.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Continuava sencera i rodona."
+              }
+            ]
+          },
+          {
+            "id": "l292-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quina part del text permet saber com van organitzar la prova?",
+            "answer": "El segon paràgraf, que explica què havien de deixar fix, qui miraria i qui mouria la bola.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "deixar el llum fix, asseure en Dani i moure la bola al voltant seu"
+              }
+            ]
+          },
+          {
+            "id": "l292-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix què van fer amb el model i què va entendre en Dani.",
+            "answer": "Amb un llum fix i una bola que la Mira movia, en Dani va comparar vistes des de la cadira. Va entendre que canviava la part il·luminada que veia, tot i que la bola continuava rodona.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "deixar el llum fix, asseure en Dani i moure la bola al voltant seu"
+              },
+              {
+                "paragraph": 4,
+                "text": "havia vist una altra part de la zona clara quan es movia la bola"
+              }
+            ]
+          },
+          {
+            "id": "l292-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Què afegiries al costat dels dos dibuixos per ajudar una altra persona a entendre el model?",
+            "answer": "Resposta personal: per exemple, un dibuix del llum, la bola i la cadira amb una explicació del que representen."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "porció",
+            "occurrence": 1,
+            "questionId": "l292-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l292-scene",
+            "src": "assets/readings/l292-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un model preparat amb un llum estable, una bola blanca sobre un suport elevat, una cadira i una llibreta a la sala de l’observatori.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El petit observatori de pedra clara i cúpula grisa en un turó amb pins, sota un cel lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "una-luna-que-cabia-en-la-mano-b-es",
+        "code": "L292B",
+        "workId": "una-luna-que-cabia-en-la-mano-b",
+        "language": "es",
+        "familyId": "familia-l292",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "science",
+          "everyday"
+        ],
+        "genre": "instructional",
+        "title": "Una Luna que cabía en la mano",
+        "summary": "Una actividad con una bola y una lámpara obliga a Dani a distinguir el objeto completo de la porción iluminada que ve desde su sitio.",
+        "paragraphs": [
+          "Dani preparaba unos dibujos de la Luna para el rincón de visitas del observatorio de la colina. Había hecho una franja clara muy estrecha y después un círculo casi lleno. Mira, su compañera, preguntó si debía recortar las dos siluetas. Joana, la guía, acercó una bola blanca: antes de coger las tijeras podían probar qué cambiaba al verla iluminada.",
+          "Colocaron una lámpara fija en la sala. Representaría el Sol; la bola, la Luna, y Dani observaría desde el lugar de la Tierra. Mira movería el soporte alrededor de la silla. Joana situó la bola algo más alta que la cabeza del niño para que su cuerpo no tapara la luz. Dani tendría que volver al mismo asiento después de cada pausa.",
+          "Mira empezó a moverse y se detuvo cuando Dani pidió dibujar. Él veía una zona clara estrecha. En otra posición, la parte clara visible era más ancha. Dani se levantó para comprobar la bola de cerca: seguía entera y redonda. Volvió a la silla. Esta vez dejó de seguir el borde de la bola con el lápiz y se fijó en el límite entre la zona clara y la oscura.",
+          "Joana explicó que la Luna refleja la luz del Sol. Mientras se mueve alrededor de la Tierra, vemos distintas porciones de su zona iluminada. Aquellos cambios de vista son las fases. Mira miró de nuevo la lámpara, que seguía en el mismo sitio. En su prueba habían cambiado la posición de la bola y la parte clara que Dani alcanzaba a ver, no la forma del objeto.",
+          "Al preparar la explicación para los visitantes, Dani propuso poner una foto de su primera vista. Mira pidió conservar también la segunda y dibujar el montaje. Con una sola imagen se vería un resultado, pero no cómo lo habían conseguido. Joana les recordó que su mesa representaba las posiciones: los tamaños y las distancias del cielo no cabían a escala en aquella sala.",
+          "Finalmente colocaron dos dibujos y una pequeña explicación de cada objeto. Después intercambiaron los papeles para repetirlo. Mira pidió avanzar despacio y Dani dio un paso diminuto. Ella fingió preparar otra página para dibujar hasta las patas de la mesa."
+        ],
+        "questions": [
+          {
+            "id": "l292b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué duda de Mira llevó a probar el modelo antes de usar las tijeras?",
+            "answer": "Preguntó si debía recortar las dos siluetas que Dani había dibujado.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "preguntó si debía recortar las dos siluetas"
+              }
+            ]
+          },
+          {
+            "id": "l292b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué Joana colocó la bola más alta que la cabeza de Dani?",
+            "answer": "Para que el cuerpo de Dani no tapara la luz.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "para que su cuerpo no tapara la luz"
+              }
+            ]
+          },
+          {
+            "id": "l292b-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué son las «siluetas» que Mira piensa recortar?",
+            "answer": "Las formas dibujadas de las distintas vistas de la Luna.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "recortar las dos siluetas"
+              }
+            ]
+          },
+          {
+            "id": "l292b-q4",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué era importante que Dani regresara al mismo asiento?",
+            "answer": "Para mantener su lugar de observación mientras cambiaba la posición de la bola y poder comparar lo que veía.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Dani tendría que volver al mismo asiento después de cada pausa."
+              },
+              {
+                "paragraph": 4,
+                "text": "habían cambiado la posición de la bola"
+              }
+            ]
+          },
+          {
+            "id": "l292b-q5",
+            "type": "literal",
+            "lines": 3,
+            "prompt": "¿Qué cambió en la manera de dibujar de Dani después de mirar la bola de cerca?",
+            "answer": "Dejó de fijarse solo en el borde del objeto y atendió al límite entre luz y oscuridad.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "dejó de seguir el borde de la bola con el lápiz y se fijó en el límite entre la zona clara y la oscura"
+              }
+            ]
+          },
+          {
+            "id": "l292b-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Según la explicación de Joana, ¿de dónde procede la luz que refleja la Luna?",
+            "answer": "Del Sol.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "la Luna refleja la luz del Sol"
+              }
+            ]
+          },
+          {
+            "id": "l292b-q7",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué Mira pidió dos vistas y un dibujo del montaje?",
+            "answer": "Para mostrar el cambio observado y cómo lo habían obtenido, no solo una vista aislada.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Con una sola imagen se vería un resultado, pero no cómo lo habían conseguido."
+              }
+            ]
+          },
+          {
+            "id": "l292b-q8",
+            "type": "literal",
+            "lines": 3,
+            "prompt": "¿Qué límite del modelo explica Joana al preparar la exposición?",
+            "answer": "Representa posiciones, pero sus tamaños y distancias no reproducen a escala los del cielo.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "los tamaños y las distancias del cielo no cabían a escala en aquella sala"
+              }
+            ]
+          },
+          {
+            "id": "l292b-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume la duda inicial, la prueba y lo que decidieron mostrar al final.",
+            "answer": "Se preguntan si deben recortar distintas siluetas. Comparan una bola iluminada desde una silla y comprueban que cambia la zona clara visible. Exponen dos vistas y la explicación del modelo.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "preguntó si debía recortar las dos siluetas"
+              },
+              {
+                "paragraph": 4,
+                "text": "no la forma del objeto"
+              },
+              {
+                "paragraph": 6,
+                "text": "colocaron dos dibujos y una pequeña explicación de cada objeto"
+              }
+            ]
+          },
+          {
+            "id": "l292b-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿Qué pregunta harías a quien mirara estos dibujos para saber si ha entendido el modelo? Explica qué querrías comprobar.",
+            "answer": "Respuesta personal coherente: por ejemplo, preguntar qué objeto se movió y cuál quedó fijo, o si cambió la forma de la bola."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "siluetas",
+            "occurrence": 1,
+            "questionId": "l292b-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l292-scene",
+            "src": "assets/readings/l292-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un modelo preparado con una lámpara estable, una bola blanca sobre un soporte elevado, una silla y un cuaderno en la sala del observatorio.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El pequeño observatorio de piedra clara y cúpula gris en una colina con pinos, bajo un cielo lavanda.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "una-luna-que-cabia-en-la-mano-b-ca",
+        "code": "L292B",
+        "workId": "una-luna-que-cabia-en-la-mano-b",
+        "language": "ca",
+        "familyId": "familia-l292",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "science",
+          "everyday"
+        ],
+        "genre": "instructional",
+        "title": "Una Lluna que cabia a la mà",
+        "summary": "Una activitat amb una bola i un llum obliga en Dani a distingir l’objecte sencer de la porció il·luminada que veu des del seu lloc.",
+        "paragraphs": [
+          "En Dani preparava dibuixos de la Lluna per al racó de visites de l’observatori del turó. Havia fet una franja clara estreta i un cercle gairebé ple. La Mira, la seva companya, va preguntar si havia de retallar les dues siluetes. La Joana, la guia, va acostar una bola blanca: abans d’agafar les tisores podien provar què canviava en veure-la il·luminada.",
+          "Van col·locar un llum fix a la sala. Representaria el Sol; la bola, la Lluna, i en Dani observaria des del lloc de la Terra. La Mira mouria el suport al voltant de la cadira. La Joana va situar la bola una mica més amunt que el cap del nen perquè el seu cos no tapés la llum. En Dani hauria de tornar al mateix seient després de cada pausa.",
+          "La Mira es va aturar quan en Dani va demanar dibuixar. Ell veia una zona clara estreta. En una altra posició, la part clara visible era més ampla. En Dani es va aixecar per comprovar la bola: continuava sencera i rodona. Va tornar a la cadira. Va deixar de seguir la vora de la bola amb el llapis i es va fixar en el límit entre la zona clara i la fosca.",
+          "La Joana va explicar que la Lluna reflecteix la llum del Sol. Mentre es mou al voltant de la Terra, veiem porcions diferents de la seva zona il·luminada. Aquells canvis de vista són les fases. La Mira va tornar a mirar el llum, que continuava al mateix lloc. En la prova havien canviat la posició de la bola i la part clara que en Dani arribava a veure, no la forma de l’objecte.",
+          "En Dani va proposar una foto de la primera vista per als visitants. La Mira va demanar conservar també la segona i dibuixar el muntatge. Amb una sola imatge es veuria un resultat, però no com l’havien aconseguit. La Joana els va recordar que la taula representava les posicions: les mides i les distàncies del cel no cabien a escala en aquella sala.",
+          "Finalment van col·locar dos dibuixos i una petita explicació de cada objecte. Van intercanviar els papers per repetir-ho. La Mira va demanar avançar lentament i en Dani va fer un pas diminut. Ella va preparar una pàgina per dibuixar fins i tot les potes de la taula."
+        ],
+        "questions": [
+          {
+            "id": "l292b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quin dubte de la Mira va portar a provar el model abans de fer servir les tisores?",
+            "answer": "Va preguntar si havia de retallar les dues siluetes que en Dani havia dibuixat.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "va preguntar si havia de retallar les dues siluetes"
+              }
+            ]
+          },
+          {
+            "id": "l292b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què la Joana va col·locar la bola més amunt que el cap d’en Dani?",
+            "answer": "Perquè el cos d’en Dani no tapés la llum.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "perquè el seu cos no tapés la llum"
+              }
+            ]
+          },
+          {
+            "id": "l292b-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què són les «siluetes» que la Mira pensa retallar?",
+            "answer": "Les formes dibuixades de les diferents vistes de la Lluna.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "retallar les dues siluetes"
+              }
+            ]
+          },
+          {
+            "id": "l292b-q4",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què era important que en Dani tornés al mateix seient?",
+            "answer": "Per mantenir el seu lloc d’observació mentre canviava la posició de la bola i poder comparar el que veia.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "En Dani hauria de tornar al mateix seient després de cada pausa."
+              },
+              {
+                "paragraph": 4,
+                "text": "havien canviat la posició de la bola"
+              }
+            ]
+          },
+          {
+            "id": "l292b-q5",
+            "type": "literal",
+            "lines": 3,
+            "prompt": "Què va canviar en la manera de dibuixar d’en Dani després de mirar la bola de prop?",
+            "answer": "Va deixar de fixar-se només en la vora de l’objecte i va parar atenció al límit entre llum i foscor.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Va deixar de seguir la vora de la bola amb el llapis i es va fixar en el límit entre la zona clara i la fosca"
+              }
+            ]
+          },
+          {
+            "id": "l292b-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Segons l’explicació de la Joana, d’on ve la llum que reflecteix la Lluna?",
+            "answer": "Del Sol.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "la Lluna reflecteix la llum del Sol"
+              }
+            ]
+          },
+          {
+            "id": "l292b-q7",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què la Mira va demanar dues vistes i un dibuix del muntatge?",
+            "answer": "Per mostrar el canvi observat i com l’havien obtingut, no només una vista aïllada.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Amb una sola imatge es veuria un resultat, però no com l’havien aconseguit."
+              }
+            ]
+          },
+          {
+            "id": "l292b-q8",
+            "type": "literal",
+            "lines": 3,
+            "prompt": "Quin límit del model explica la Joana en preparar l’exposició?",
+            "answer": "Representa posicions, però les seves mides i distàncies no reprodueixen a escala les del cel.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "les mides i les distàncies del cel no cabien a escala en aquella sala"
+              }
+            ]
+          },
+          {
+            "id": "l292b-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix el dubte inicial, la prova i el que van decidir mostrar al final.",
+            "answer": "Es pregunten si han de retallar siluetes diferents. Comparen una bola il·luminada des d’una cadira i comproven que canvia la zona clara visible. Exposen dues vistes i l’explicació del model.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "va preguntar si havia de retallar les dues siluetes"
+              },
+              {
+                "paragraph": 4,
+                "text": "no la forma de l’objecte"
+              },
+              {
+                "paragraph": 6,
+                "text": "van col·locar dos dibuixos i una petita explicació de cada objecte"
+              }
+            ]
+          },
+          {
+            "id": "l292b-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Quina pregunta faries a qui mirés aquests dibuixos per saber si ha entès el model? Explica què voldries comprovar.",
+            "answer": "Resposta personal coherent: per exemple, preguntar quin objecte es va moure i quin va quedar fix, o si va canviar la forma de la bola."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "siluetes",
+            "occurrence": 1,
+            "questionId": "l292b-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l292-scene",
+            "src": "assets/readings/l292-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un model preparat amb un llum estable, una bola blanca sobre un suport elevat, una cadira i una llibreta a la sala de l’observatori.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El petit observatori de pedra clara i cúpula grisa en un turó amb pins, sota un cel lavanda.",
+            "afterParagraph": 4
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L292A",
+        "language": "es",
+        "questions": {
+          "l292a-q1": {
+            "prompt": "¿Qué objeto hacía de Sol?",
+            "options": [
+              "La bola blanca.",
+              "La lámpara.",
+              "La silla de Dani.",
+              "El cuaderno de Dani."
+            ],
+            "correct": "b",
+            "explanation": "La lámpara."
+          },
+          "l292a-q2": {
+            "prompt": "¿Qué hacía Mira mientras Dani seguía sentado?",
+            "options": [
+              "Dibujaba las dos vistas en el cuaderno.",
+              "Cambiaba de sitio la lámpara.",
+              "Movía la bola alrededor de Dani.",
+              "Se sentaba junto a Dani para mirar."
+            ],
+            "correct": "c",
+            "explanation": "Movía el soporte de la bola alrededor de Dani."
+          },
+          "l292a-q3": {
+            "prompt": "¿Qué es un «soporte» en esta lectura?",
+            "options": [
+              "Una pieza que sostiene la bola.",
+              "El dibujo de la parte clara.",
+              "El sitio desde donde mira Dani.",
+              "La luz que llega a la bola."
+            ],
+            "correct": "a",
+            "explanation": "La pieza que sostiene la bola."
+          },
+          "l292a-q4": {
+            "prompt": "¿Por qué los dos dibujos pueden ser distintos si usaron una sola bola?",
+            "options": [
+              "Mira cambió una bola pequeña por otra grande.",
+              "Dani miró desde dos sillas diferentes.",
+              "La guía pintó una parte de la bola.",
+              "Dani veía otra parte de la zona iluminada."
+            ],
+            "correct": "d",
+            "explanation": "Porque Dani veía distintas partes de la zona iluminada al cambiar la posición de la bola."
+          },
+          "l292a-q5": {
+            "prompt": "¿Qué resumen explica mejor la actividad?",
+            "options": [
+              "Dani movió la lámpara y Mira dibujó dos bolas.",
+              "Mira movió una bola y Dani vio cambiar su parte clara.",
+              "Joana cambió la bola y Dani comparó sus tamaños.",
+              "Dani dibujó la Luna antes de probar la lámpara."
+            ],
+            "correct": "b",
+            "explanation": "Movieron una bola alrededor de Dani con una lámpara fija. Él vio cambiar la parte clara sin que cambiara la forma de la bola."
+          }
+        }
+      },
+      {
+        "code": "L292A",
+        "language": "ca",
+        "questions": {
+          "l292a-q1": {
+            "prompt": "Quin objecte feia de Sol?",
+            "options": [
+              "La bola blanca.",
+              "El llum.",
+              "La cadira d’en Dani.",
+              "La llibreta d’en Dani."
+            ],
+            "correct": "b",
+            "explanation": "El llum."
+          },
+          "l292a-q2": {
+            "prompt": "Què feia la Mira mentre en Dani continuava assegut?",
+            "options": [
+              "Dibuixava les dues vistes a la llibreta.",
+              "Canviava de lloc el llum.",
+              "Movia la bola al voltant d’en Dani.",
+              "S’asseia al costat d’en Dani per mirar."
+            ],
+            "correct": "c",
+            "explanation": "Movia el suport de la bola al voltant d’en Dani."
+          },
+          "l292a-q3": {
+            "prompt": "Què és un «suport» en aquesta lectura?",
+            "options": [
+              "Una peça que sosté la bola.",
+              "El dibuix de la part clara.",
+              "El lloc des d’on mira en Dani.",
+              "La llum que arriba a la bola."
+            ],
+            "correct": "a",
+            "explanation": "La peça que sosté la bola."
+          },
+          "l292a-q4": {
+            "prompt": "Per què els dos dibuixos poden ser diferents si van fer servir una sola bola?",
+            "options": [
+              "La Mira va canviar una bola petita per una de grossa.",
+              "En Dani va mirar des de dues cadires diferents.",
+              "La guia va pintar una part de la bola.",
+              "En Dani veia una altra part de la zona il·luminada."
+            ],
+            "correct": "d",
+            "explanation": "Perquè en Dani veia parts diferents de la zona il·luminada quan canviava la posició de la bola."
+          },
+          "l292a-q5": {
+            "prompt": "Quin resum explica millor l’activitat?",
+            "options": [
+              "En Dani va moure el llum i la Mira va dibuixar dues boles.",
+              "La Mira va moure una bola i en Dani va veure canviar la part clara.",
+              "La Joana va canviar la bola i en Dani en va comparar les mides.",
+              "En Dani va dibuixar la Lluna abans de provar el llum."
+            ],
+            "correct": "b",
+            "explanation": "Van moure una bola al voltant d’en Dani amb un llum fix. Ell va veure canviar la part clara sense que canviés la forma de la bola."
+          }
+        }
+      },
+      {
+        "code": "L292",
+        "language": "es",
+        "questions": {
+          "l292-q1": {
+            "prompt": "¿Para qué quería Dani los dibujos?",
+            "options": [
+              "Para medir en el cielo el tamaño real de la Luna.",
+              "Para probar que la Luna cambiaba de forma.",
+              "Para el rincón de visitas del observatorio.",
+              "Para elegir una lámpara con más luz para observarla."
+            ],
+            "correct": "c",
+            "explanation": "Para el rincón de visitas del observatorio."
+          },
+          "l292-q2": {
+            "prompt": "¿Cuándo se detenía Mira con el soporte?",
+            "options": [
+              "Cuando Dani pedía dibujar.",
+              "Cuando Joana movía la lámpara.",
+              "Cuando acababa de dibujar ella.",
+              "Cuando Dani cambiaba de silla."
+            ],
+            "correct": "a",
+            "explanation": "Cuando Dani pedía dibujar."
+          },
+          "l292-q3": {
+            "prompt": "¿Por qué Dani volvió a su silla después de mirar la bola de cerca?",
+            "options": [
+              "Para que Mira pudiera dibujar antes de moverse.",
+              "Para mirar la bola sin recibir luz de la lámpara.",
+              "Para ver la bola más cerca y comparar su tamaño.",
+              "Para comparar las vistas desde un mismo sitio."
+            ],
+            "correct": "d",
+            "explanation": "Para comparar las vistas desde el mismo lugar mientras Mira movía la bola."
+          },
+          "l292-q4": {
+            "prompt": "¿Qué significa «porción» al hablar de la zona clara?",
+            "options": [
+              "La bola completa.",
+              "Una parte.",
+              "Un dibujo terminado.",
+              "Una posición nueva."
+            ],
+            "correct": "b",
+            "explanation": "Una parte."
+          },
+          "l292-q5": {
+            "prompt": "¿Qué detalle indica que los dibujos distintos no se debían a cambiar la forma de la bola?",
+            "options": [
+              "Comprobó que la bola seguía entera y redonda.",
+              "Mira esperó a que Dani terminara cada dibujo.",
+              "Joana dejó espacio bajo las imágenes del rincón.",
+              "Mira pidió ir despacio cuando se sentó al final."
+            ],
+            "correct": "a",
+            "explanation": "Dani la miró de cerca y comprobó que seguía entera y redonda."
+          },
+          "l292-q6": {
+            "prompt": "¿Qué parte del texto permite saber cómo organizaron la prueba?",
+            "options": [
+              "La presentación del rincón donde pondrían los dibujos.",
+              "La broma de Mira después de intercambiar los papeles.",
+              "Las indicaciones de Joana sobre la lámpara, Dani y la bola.",
+              "La descripción de los dos dibujos ya preparados."
+            ],
+            "correct": "c",
+            "explanation": "El segundo párrafo, que explica qué debían dejar fijo, quién miraría y quién movería la bola."
+          },
+          "l292-q7": {
+            "prompt": "¿Qué resumen recoge mejor la actividad?",
+            "options": [
+              "Cambian de lámpara para decidir qué dibujos quedan más claros.",
+              "Comparan dos bolas desde el mismo sitio para preparar una exposición.",
+              "Dibujan primero y organizan después una prueba para elegir la silla.",
+              "Mueven una bola con luz fija y comparan la parte iluminada que ve Dani."
+            ],
+            "correct": "d",
+            "explanation": "Con una lámpara fija y una bola que Mira movía, Dani comparó vistas desde su silla. Entendió que cambiaba la parte iluminada que veía, aunque la bola seguía redonda."
+          }
+        }
+      },
+      {
+        "code": "L292",
+        "language": "ca",
+        "questions": {
+          "l292-q1": {
+            "prompt": "Per a què volia en Dani els dibuixos?",
+            "options": [
+              "Per mesurar al cel la mida real de la Lluna.",
+              "Per provar que la Lluna canviava de forma.",
+              "Per al racó de visites de l’observatori.",
+              "Per triar un llum amb més llum per observar-la."
+            ],
+            "correct": "c",
+            "explanation": "Per al racó de visites de l’observatori."
+          },
+          "l292-q2": {
+            "prompt": "Quan s’aturava la Mira amb el suport?",
+            "options": [
+              "Quan en Dani demanava dibuixar.",
+              "Quan la Joana movia el llum.",
+              "Quan ella acabava de dibuixar.",
+              "Quan en Dani canviava de cadira."
+            ],
+            "correct": "a",
+            "explanation": "Quan en Dani demanava dibuixar."
+          },
+          "l292-q3": {
+            "prompt": "Per què en Dani va tornar a la seva cadira després de mirar la bola de prop?",
+            "options": [
+              "Perquè la Mira pogués dibuixar abans de moure’s.",
+              "Per mirar la bola sense rebre llum del llum.",
+              "Per veure la bola més de prop i comparar-ne la mida.",
+              "Per comparar les vistes des d’un mateix lloc."
+            ],
+            "correct": "d",
+            "explanation": "Per comparar les vistes des del mateix lloc mentre la Mira movia la bola."
+          },
+          "l292-q4": {
+            "prompt": "Què vol dir «porció» quan es parla de la zona clara?",
+            "options": [
+              "La bola sencera.",
+              "Una part.",
+              "Un dibuix acabat.",
+              "Una posició nova."
+            ],
+            "correct": "b",
+            "explanation": "Una part."
+          },
+          "l292-q5": {
+            "prompt": "Quin detall indica que els dibuixos diferents no es devien a canviar la forma de la bola?",
+            "options": [
+              "Va comprovar que la bola continuava sencera i rodona.",
+              "La Mira va esperar que en Dani acabés cada dibuix.",
+              "La Joana va deixar espai sota les imatges del racó.",
+              "La Mira va demanar anar a poc a poc quan es va asseure al final."
+            ],
+            "correct": "a",
+            "explanation": "En Dani la va mirar de prop i va comprovar que continuava sencera i rodona."
+          },
+          "l292-q6": {
+            "prompt": "Quina part del text permet saber com van organitzar la prova?",
+            "options": [
+              "La presentació del racó on posarien els dibuixos.",
+              "La broma de la Mira després d’intercanviar els papers.",
+              "Les indicacions de la Joana sobre el llum, en Dani i la bola.",
+              "La descripció dels dos dibuixos ja preparats."
+            ],
+            "correct": "c",
+            "explanation": "El segon paràgraf, que explica què havien de deixar fix, qui miraria i qui mouria la bola."
+          },
+          "l292-q7": {
+            "prompt": "Quin resum recull millor l’activitat?",
+            "options": [
+              "Canvien de llum per decidir quins dibuixos queden més clars.",
+              "Comparen dues boles des del mateix lloc per preparar una exposició.",
+              "Primer dibuixen i després organitzen una prova per triar la cadira.",
+              "Mouen una bola amb llum fixa i comparen la part il·luminada que veu en Dani."
+            ],
+            "correct": "d",
+            "explanation": "Amb un llum fix i una bola que la Mira movia, en Dani va comparar vistes des de la cadira. Va entendre que canviava la part il·luminada que veia, tot i que la bola continuava rodona."
+          }
+        }
+      },
+      {
+        "code": "L292B",
+        "language": "es",
+        "questions": {
+          "l292b-q1": {
+            "prompt": "¿Qué duda de Mira llevó a probar el modelo antes de usar las tijeras?",
+            "options": [
+              "Si debían fotografiar la lámpara o dibujarla.",
+              "Si debía recortar las dos siluetas dibujadas.",
+              "Si Dani debía mirar desde otro asiento.",
+              "Si debían dejar de usar la bola blanca."
+            ],
+            "correct": "b",
+            "explanation": "Preguntó si debía recortar las dos siluetas que Dani había dibujado."
+          },
+          "l292b-q2": {
+            "prompt": "¿Por qué Joana colocó la bola más alta que la cabeza de Dani?",
+            "options": [
+              "Para que Dani comparara siempre la bola desde arriba.",
+              "Para mantener la bola delante de la lámpara en todas las posiciones.",
+              "Para que la sombra de Dani formara las vistas dibujadas.",
+              "Para que el cuerpo de Dani no tapara la luz."
+            ],
+            "correct": "d",
+            "explanation": "Para que el cuerpo de Dani no tapara la luz."
+          },
+          "l292b-q3": {
+            "prompt": "¿Qué son las «siluetas» que Mira piensa recortar?",
+            "options": [
+              "Las formas de las vistas de la Luna dibujadas en el papel.",
+              "Las posiciones de la bola alrededor de la silla.",
+              "Las sombras de las personas proyectadas en la sala.",
+              "Las explicaciones que acompañan a cada objeto."
+            ],
+            "correct": "a",
+            "explanation": "Las formas dibujadas de las distintas vistas de la Luna."
+          },
+          "l292b-q4": {
+            "prompt": "¿Por qué era importante que Dani regresara al mismo asiento?",
+            "options": [
+              "Para mantener la misma distancia entre Mira y la lámpara.",
+              "Para comprobar que las dos siluetas tenían el mismo tamaño.",
+              "Para comparar vistas desde un lugar fijo mientras se movía la bola.",
+              "Para seguir viendo siempre la misma porción iluminada de la bola."
+            ],
+            "correct": "c",
+            "explanation": "Para mantener su lugar de observación mientras cambiaba la posición de la bola y poder comparar lo que veía."
+          },
+          "l292b-q5": {
+            "prompt": "¿Qué cambió en la manera de dibujar de Dani después de mirar la bola de cerca?",
+            "options": [
+              "Dibujó la lámpara en lugar de la bola.",
+              "Se fijó en el límite entre la parte clara y la oscura.",
+              "Recortó las siluetas antes de terminar la comparación.",
+              "Siguió el movimiento del soporte sin detener a Mira."
+            ],
+            "correct": "b",
+            "explanation": "Dejó de fijarse solo en el borde del objeto y atendió al límite entre luz y oscuridad."
+          },
+          "l292b-q6": {
+            "prompt": "Según la explicación de Joana, ¿de dónde procede la luz que refleja la Luna?",
+            "options": [
+              "Del Sol.",
+              "De la lámpara del observatorio.",
+              "De la luz de la Tierra que representa el observador.",
+              "De la propia superficie blanca de la Luna."
+            ],
+            "correct": "a",
+            "explanation": "Del Sol."
+          },
+          "l292b-q7": {
+            "prompt": "¿Por qué Mira pidió dos vistas y un dibujo del montaje?",
+            "options": [
+              "Para reemplazar la explicación de lo que representaba cada objeto.",
+              "Para demostrar que ambos habían dibujado desde la silla.",
+              "Para elegir después una sola imagen sin mostrar el montaje.",
+              "Para mostrar un cambio y la disposición con que lo observaron."
+            ],
+            "correct": "d",
+            "explanation": "Para mostrar el cambio observado y cómo lo habían obtenido, no solo una vista aislada."
+          },
+          "l292b-q8": {
+            "prompt": "¿Qué límite del modelo explica Joana al preparar la exposición?",
+            "options": [
+              "Los tamaños están a escala; las distancias, no.",
+              "Las distancias están a escala; los tamaños, no.",
+              "No reproduce a escala los tamaños y distancias reales.",
+              "Tamaños y distancias están a escala, pero no el movimiento."
+            ],
+            "correct": "c",
+            "explanation": "Representa posiciones, pero sus tamaños y distancias no reproducen a escala los del cielo."
+          },
+          "l292b-q9": {
+            "prompt": "¿Qué resumen sigue mejor el desarrollo de la lectura?",
+            "options": [
+              "Preparan dibujos, comparan dos bolas y eligen la de mayor tamaño.",
+              "Prueban una bola iluminada y muestran distintas vistas junto con el montaje.",
+              "Cambian de asiento en cada vista y exponen solo el último dibujo.",
+              "Recortan primero las siluetas y después repiten sus formas con la lámpara."
+            ],
+            "correct": "b",
+            "explanation": "Se preguntan si deben recortar distintas siluetas. Comparan una bola iluminada desde una silla y comprueban que cambia la zona clara visible. Exponen dos vistas y la explicación del modelo."
+          }
+        }
+      },
+      {
+        "code": "L292B",
+        "language": "ca",
+        "questions": {
+          "l292b-q1": {
+            "prompt": "Quin dubte de la Mira va portar a provar el model abans de fer servir les tisores?",
+            "options": [
+              "Si havien de fotografiar el llum o dibuixar-lo.",
+              "Si havia de retallar les dues siluetes dibuixades.",
+              "Si en Dani havia de mirar des d’un altre seient.",
+              "Si havien de deixar de fer servir la bola blanca."
+            ],
+            "correct": "b",
+            "explanation": "Va preguntar si havia de retallar les dues siluetes que en Dani havia dibuixat."
+          },
+          "l292b-q2": {
+            "prompt": "Per què la Joana va col·locar la bola més amunt que el cap d’en Dani?",
+            "options": [
+              "Perquè en Dani comparés sempre la bola des de dalt.",
+              "Per mantenir la bola davant del llum en totes les posicions.",
+              "Perquè la seva ombra formés les vistes dibuixades.",
+              "Perquè el cos d’en Dani no tapés la llum."
+            ],
+            "correct": "d",
+            "explanation": "Perquè el cos d’en Dani no tapés la llum."
+          },
+          "l292b-q3": {
+            "prompt": "Què són les «siluetes» que la Mira pensa retallar?",
+            "options": [
+              "Les formes de les vistes de la Lluna dibuixades al paper.",
+              "Les posicions de la bola al voltant de la cadira.",
+              "Les ombres de les persones projectades a la sala.",
+              "Les explicacions que acompanyen cada objecte."
+            ],
+            "correct": "a",
+            "explanation": "Les formes dibuixades de les diferents vistes de la Lluna."
+          },
+          "l292b-q4": {
+            "prompt": "Per què era important que en Dani tornés al mateix seient?",
+            "options": [
+              "Per mantenir la mateixa distància entre la Mira i el llum.",
+              "Per comprovar que les dues siluetes tenien la mateixa mida.",
+              "Per comparar vistes des d’un lloc fix mentre es movia la bola.",
+              "Per continuar veient sempre la mateixa porció il·luminada de la bola."
+            ],
+            "correct": "c",
+            "explanation": "Per mantenir el seu lloc d’observació mentre canviava la posició de la bola i poder comparar el que veia."
+          },
+          "l292b-q5": {
+            "prompt": "Què va canviar en la manera de dibuixar d’en Dani després de mirar la bola de prop?",
+            "options": [
+              "Va dibuixar el llum en lloc de la bola.",
+              "Es va fixar en el límit entre la part clara i la fosca.",
+              "Va retallar les siluetes abans d’acabar la comparació.",
+              "Va seguir el moviment del suport sense aturar la Mira."
+            ],
+            "correct": "b",
+            "explanation": "Va deixar de fixar-se només en la vora de l’objecte i va parar atenció al límit entre llum i foscor."
+          },
+          "l292b-q6": {
+            "prompt": "Segons l’explicació de la Joana, d’on ve la llum que reflecteix la Lluna?",
+            "options": [
+              "Del Sol.",
+              "Del llum de l’observatori.",
+              "De la llum de la Terra que representa l’observador.",
+              "De la mateixa superfície blanca de la Lluna."
+            ],
+            "correct": "a",
+            "explanation": "Del Sol."
+          },
+          "l292b-q7": {
+            "prompt": "Per què la Mira va demanar dues vistes i un dibuix del muntatge?",
+            "options": [
+              "Per substituir l’explicació del que representava cada objecte.",
+              "Per demostrar que tots dos havien dibuixat des de la cadira.",
+              "Per triar després una sola imatge sense mostrar el muntatge.",
+              "Per mostrar un canvi i la disposició amb què el van observar."
+            ],
+            "correct": "d",
+            "explanation": "Per mostrar el canvi observat i com l’havien obtingut, no només una vista aïllada."
+          },
+          "l292b-q8": {
+            "prompt": "Quin límit del model explica la Joana en preparar l’exposició?",
+            "options": [
+              "Les mides estan a escala; les distàncies, no.",
+              "Les distàncies estan a escala; les mides, no.",
+              "No reprodueix a escala les mides i distàncies reals.",
+              "Mides i distàncies estan a escala, però no el moviment."
+            ],
+            "correct": "c",
+            "explanation": "Representa posicions, però les seves mides i distàncies no reprodueixen a escala les del cel."
+          },
+          "l292b-q9": {
+            "prompt": "Quin resum segueix millor el desenvolupament de la lectura?",
+            "options": [
+              "Preparen dibuixos, comparen dues boles i trien la més grossa.",
+              "Proven una bola il·luminada i mostren vistes diferents juntament amb el muntatge.",
+              "Canvien de seient a cada vista i exposen només l’últim dibuix.",
+              "Primer retallen les siluetes i després en repeteixen les formes amb el llum."
+            ],
+            "correct": "b",
+            "explanation": "Es pregunten si han de retallar siluetes diferents. Comparen una bola il·luminada des d’una cadira i comproven que canvia la zona clara visible. Exposen dues vistes i l’explicació del model."
+          }
+        }
+      }
+    ]
   }
 ];

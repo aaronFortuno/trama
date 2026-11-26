@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.61.3 · 26 de novembre del 2026
+
+L292: Una Lluna que cabia a la mà. Nova família de l’univers L’observatori del turó, amb suport de 3r, referència de 4t i ampliació de 5è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 10 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.61.2 · 26 de novembre del 2026
 
 L291: La maleta de les preguntes. Nova família de l’univers L’observatori del turó, amb suport de 3r, referència de 4t i ampliació de 5è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 9 històries independents. Contingut provisional, pendent de validació docent.

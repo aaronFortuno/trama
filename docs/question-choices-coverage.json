@@ -1,9 +1,9 @@
 {
   "date": "2026-11-26",
-  "totalWorks": 555,
-  "coveredWorks": 555,
+  "totalWorks": 558,
+  "coveredWorks": 558,
   "pendingWorks": 0,
-  "localizedAlternatives": 5326,
+  "localizedAlternatives": 5368,
   "ranges": [
     {
       "start": 1,
@@ -413,9 +413,9 @@
     },
     {
       "start": 291,
-      "end": 291,
-      "total": 3,
-      "covered": 3,
+      "end": 292,
+      "total": 6,
+      "covered": 6,
       "status": "complete"
     }
   ],
@@ -33373,6 +33373,237 @@
             },
             {
               "id": "l291b-q9",
+              "number": 9
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L292",
+      "baseCode": "L292",
+      "variant": false,
+      "level": "4-primary",
+      "difficulty": "intermediate",
+      "title": "Una Lluna que cabia a la mà",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l292-q1",
+              "number": 1
+            },
+            {
+              "id": "l292-q2",
+              "number": 2
+            },
+            {
+              "id": "l292-q3",
+              "number": 3
+            },
+            {
+              "id": "l292-q4",
+              "number": 4
+            },
+            {
+              "id": "l292-q5",
+              "number": 5
+            },
+            {
+              "id": "l292-q6",
+              "number": 6
+            },
+            {
+              "id": "l292-q7",
+              "number": 7
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l292-q1",
+              "number": 1
+            },
+            {
+              "id": "l292-q2",
+              "number": 2
+            },
+            {
+              "id": "l292-q3",
+              "number": 3
+            },
+            {
+              "id": "l292-q4",
+              "number": 4
+            },
+            {
+              "id": "l292-q5",
+              "number": 5
+            },
+            {
+              "id": "l292-q6",
+              "number": 6
+            },
+            {
+              "id": "l292-q7",
+              "number": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L292A",
+      "baseCode": "L292",
+      "variant": true,
+      "level": "3-primary",
+      "difficulty": "intermediate",
+      "title": "Una Lluna que cabia a la mà",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l292a-q1",
+              "number": 1
+            },
+            {
+              "id": "l292a-q2",
+              "number": 2
+            },
+            {
+              "id": "l292a-q3",
+              "number": 3
+            },
+            {
+              "id": "l292a-q4",
+              "number": 4
+            },
+            {
+              "id": "l292a-q5",
+              "number": 5
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l292a-q1",
+              "number": 1
+            },
+            {
+              "id": "l292a-q2",
+              "number": 2
+            },
+            {
+              "id": "l292a-q3",
+              "number": 3
+            },
+            {
+              "id": "l292a-q4",
+              "number": 4
+            },
+            {
+              "id": "l292a-q5",
+              "number": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L292B",
+      "baseCode": "L292",
+      "variant": true,
+      "level": "5-primary",
+      "difficulty": "intermediate",
+      "title": "Una Lluna que cabia a la mà",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l292b-q1",
+              "number": 1
+            },
+            {
+              "id": "l292b-q2",
+              "number": 2
+            },
+            {
+              "id": "l292b-q3",
+              "number": 3
+            },
+            {
+              "id": "l292b-q4",
+              "number": 4
+            },
+            {
+              "id": "l292b-q5",
+              "number": 5
+            },
+            {
+              "id": "l292b-q6",
+              "number": 6
+            },
+            {
+              "id": "l292b-q7",
+              "number": 7
+            },
+            {
+              "id": "l292b-q8",
+              "number": 8
+            },
+            {
+              "id": "l292b-q9",
+              "number": 9
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l292b-q1",
+              "number": 1
+            },
+            {
+              "id": "l292b-q2",
+              "number": 2
+            },
+            {
+              "id": "l292b-q3",
+              "number": 3
+            },
+            {
+              "id": "l292b-q4",
+              "number": 4
+            },
+            {
+              "id": "l292b-q5",
+              "number": 5
+            },
+            {
+              "id": "l292b-q6",
+              "number": 6
+            },
+            {
+              "id": "l292b-q7",
+              "number": 7
+            },
+            {
+              "id": "l292b-q8",
+              "number": 8
+            },
+            {
+              "id": "l292b-q9",
               "number": 9
             }
           ]
