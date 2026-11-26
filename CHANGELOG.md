@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.60.3 · 26 de novembre del 2026
+
+L283: El mapa dels esbarjos. Nova família de La redacció del pati, amb suport de 5è, referència de 6è i ampliació de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 10 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.60.2 · 26 de novembre del 2026
 
 L282: Una carta a la cua de l’aigua. Nova família de La redacció del pati, amb suport de 5è, referència de 6è i ampliació de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 9 històries independents. Contingut provisional, pendent de validació docent.

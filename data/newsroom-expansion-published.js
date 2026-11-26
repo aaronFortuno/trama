@@ -5332,5 +5332,1796 @@ export const newsroomPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L283",
+    "edition": "v1.60.3",
+    "family": {
+      "id": "familia-l283",
+      "code": "L283",
+      "name": {
+        "es": "El mapa de los recreos",
+        "ca": "El mapa dels esbarjos"
+      },
+      "description": {
+        "ca": "Una història de La redacció del pati, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de La redacción del patio, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L283A",
+        "L283",
+        "L283B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "el-mapa-de-los-recreos-a-es",
+        "code": "L283A",
+        "workId": "el-mapa-de-los-recreos-a",
+        "language": "es",
+        "familyId": "familia-l283",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "games"
+        ],
+        "genre": "informative",
+        "title": "El mapa de los recreos",
+        "summary": "Dos visitas al mismo patio muestran que sus rincones cambian durante el recreo.",
+        "paragraphs": [
+          "El periódico escolar quería publicar un mapa de los juegos del patio. Clara y Omar, dos alumnos de la redacción, salieron el martes con una hoja donde habían dibujado la pista, el porche y el tilo. Se repartieron el recorrido para poder mirar los tres lugares. Después compararían sus notas en la mesa del periódico.",
+          "Al empezar el recreo, había un partido en la pista. Bajo el porche, cuatro niñas saltaban a la cuerda. Cerca del tilo, Leo leía un cómic y dos compañeros jugaban a las cartas sobre una mesa. Clara anotó cada actividad junto al lugar correspondiente. Omar propuso poner un dibujo pequeño de cada juego.",
+          "Volvieron a recorrer el patio antes del timbre. Las niñas de la cuerda habían ido a beber. Ahora otros alumnos dibujaban con tiza bajo el porche. Leo seguía con su cómic. Los jugadores de cartas se habían acercado a la pared del porche: allí el viento no les levantaba las cartas.",
+          "Omar sacó la goma para cambiar los dibujos. Clara miró las dos notas: la primera visita también había ocurrido. En lugar de borrarla, dividieron la página en dos planos pequeños. Uno llevaba «Al principio» y el otro «Antes del timbre». Así podían mostrar los cambios de aquella mañana.",
+          "El texto que acompañaba los planos decía que habían observado el martes. Dejaron un espacio para que los lectores dibujaran otro rincón que conocieran. Al ver la prueba, Leo pidió salir con su cómic abierto: justo aquella mañana había llegado a la mejor página. Lo sostuvo junto al plano para enseñársela a los dos."
+        ],
+        "questions": [
+          {
+            "id": "l283a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué tres lugares aparecían en la hoja inicial?",
+            "answer": "La pista, el porche y el tilo.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "la pista, el porche y el tilo"
+              }
+            ]
+          },
+          {
+            "id": "l283a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué actividad encontraron primero bajo el porche?",
+            "answer": "Cuatro niñas saltaban a la cuerda.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Bajo el porche, cuatro niñas saltaban a la cuerda."
+              }
+            ]
+          },
+          {
+            "id": "l283a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué los jugadores de cartas cambiaron de lugar?",
+            "answer": "Buscaban un lugar donde el viento no levantara las cartas.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "allí el viento no les levantaba las cartas"
+              }
+            ]
+          },
+          {
+            "id": "l283a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «recorrido» en el primer párrafo?",
+            "answer": "El camino que seguían para pasar por los lugares del patio.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Se repartieron el recorrido para poder mirar los tres lugares."
+              }
+            ]
+          },
+          {
+            "id": "l283a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Clara no quiso borrar la primera visita?",
+            "answer": "Porque también era cierta y permitía ver cómo habían cambiado los lugares.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "la primera visita también había ocurrido"
+              }
+            ]
+          },
+          {
+            "id": "l283a-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Para qué sirven los títulos de los dos planos?",
+            "answer": "Para distinguir el momento del recreo que representa cada plano.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Uno llevaba «Al principio» y el otro «Antes del timbre»."
+              }
+            ]
+          },
+          {
+            "id": "l283a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué descubrieron Clara y Omar y cómo lo mostraron.",
+            "answer": "Vieron que los usos del patio cambiaban durante el recreo y publicaron dos planos de distintos momentos.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Ahora otros alumnos dibujaban con tiza bajo el porche."
+              },
+              {
+                "paragraph": 4,
+                "text": "dividieron la página en dos planos pequeños"
+              }
+            ]
+          },
+          {
+            "id": "l283a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué otro rincón del patio añadirías? Explica qué permitiría conocer.",
+            "answer": "Respuesta abierta: propone un lugar y explica qué uso o actividad ayudaría a conocer."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "recorrido",
+            "occurrence": 1,
+            "questionId": "l283a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l283-scene",
+            "src": "assets/readings/l283-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un plano del patio, lápices y un cómic sobre la mesa del periódico escolar, con juegos al fondo.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan el periódico escolar en una mesa del patio, en una ilustración azul y naranja.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-mapa-de-los-recreos-a-ca",
+        "code": "L283A",
+        "workId": "el-mapa-de-los-recreos-a",
+        "language": "ca",
+        "familyId": "familia-l283",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "games"
+        ],
+        "genre": "informative",
+        "title": "El mapa dels esbarjos",
+        "summary": "Dues visites al mateix pati mostren que els racons canvien durant l’esbarjo.",
+        "paragraphs": [
+          "El diari escolar volia publicar un mapa dels jocs del pati. La Clara i l’Omar, dos alumnes de la redacció, van sortir dimarts amb un full on havien dibuixat la pista, el porxo i el til·ler. Es van repartir el recorregut per poder mirar els tres llocs. Després compararien les notes a la taula del diari.",
+          "En començar l’esbarjo, hi havia un partit a la pista. Sota el porxo, quatre nenes saltaven a corda. Prop del til·ler, en Leo llegia un còmic i dos companys jugaven a cartes damunt una taula. La Clara va anotar cada activitat al costat del lloc corresponent. L’Omar va proposar posar-hi un dibuix petit de cada joc.",
+          "Van tornar a recórrer el pati abans del timbre. Les nenes de la corda havien anat a beure. Ara altres alumnes dibuixaven amb guix sota el porxo. En Leo continuava amb el còmic. Els jugadors de cartes s’havien acostat a la paret del porxo: allà el vent no els aixecava les cartes.",
+          "L’Omar va treure la goma per canviar els dibuixos. La Clara va mirar les dues notes: la primera visita també havia passat. En lloc d’esborrar-la, van dividir la pàgina en dos plànols petits. L’un deia «Al principi» i l’altre «Abans del timbre». Així podien mostrar els canvis d’aquell matí.",
+          "El text que acompanyava els plànols deia que havien observat dimarts. Van deixar un espai perquè els lectors dibuixessin un altre racó que coneguessin. En veure la prova, en Leo va demanar sortir amb el còmic obert: just aquell matí havia arribat a la millor pàgina. El va aguantar al costat del plànol per ensenyar-la a tots dos."
+        ],
+        "questions": [
+          {
+            "id": "l283a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quins tres llocs apareixien al full inicial?",
+            "answer": "La pista, el porxo i el til·ler.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "la pista, el porxo i el til·ler"
+              }
+            ]
+          },
+          {
+            "id": "l283a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quina activitat van trobar primer sota el porxo?",
+            "answer": "Quatre nenes saltaven a corda.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Sota el porxo, quatre nenes saltaven a corda."
+              }
+            ]
+          },
+          {
+            "id": "l283a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què els jugadors de cartes van canviar de lloc?",
+            "answer": "Buscaven un lloc on el vent no aixequés les cartes.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "allà el vent no els aixecava les cartes"
+              }
+            ]
+          },
+          {
+            "id": "l283a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què significa «recorregut» al primer paràgraf?",
+            "answer": "El camí que seguien per passar pels llocs del pati.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Es van repartir el recorregut per poder mirar els tres llocs."
+              }
+            ]
+          },
+          {
+            "id": "l283a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la Clara no volia esborrar la primera visita?",
+            "answer": "Perquè també era certa i permetia veure com havien canviat els llocs.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "la primera visita també havia passat"
+              }
+            ]
+          },
+          {
+            "id": "l283a-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Per a què serveixen els títols dels dos plànols?",
+            "answer": "Per distingir el moment de l’esbarjo que representa cada plànol.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "L’un deia «Al principi» i l’altre «Abans del timbre»."
+              }
+            ]
+          },
+          {
+            "id": "l283a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix què van descobrir la Clara i l’Omar i com ho van mostrar.",
+            "answer": "Van veure que els usos del pati canviaven durant l’esbarjo i van publicar dos plànols de moments diferents.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Ara altres alumnes dibuixaven amb guix sota el porxo."
+              },
+              {
+                "paragraph": 4,
+                "text": "van dividir la pàgina en dos plànols petits"
+              }
+            ]
+          },
+          {
+            "id": "l283a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quin altre racó del pati hi afegiries? Explica què permetria conèixer.",
+            "answer": "Resposta oberta: proposa un lloc i explica quin ús o activitat ajudaria a conèixer."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "recorregut",
+            "occurrence": 1,
+            "questionId": "l283a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l283-scene",
+            "src": "assets/readings/l283-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un plànol del pati, llapis i un còmic damunt la taula del diari escolar, amb jocs al fons.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen el diari escolar en una taula del pati, en una il·lustració blava i taronja.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-mapa-de-los-recreos-es",
+        "code": "L283",
+        "workId": "el-mapa-de-los-recreos",
+        "language": "es",
+        "familyId": "familia-l283",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "games"
+        ],
+        "genre": "informative",
+        "title": "El mapa de los recreos",
+        "summary": "La redacción descubre que un mapa fijo puede dejar fuera los cambios de un mismo recreo.",
+        "paragraphs": [
+          "¿Qué ocurre en los rincones del patio cuando empieza el recreo y cuando está a punto de terminar? Clara y Omar, alumnos de sexto que preparan el periódico escolar, buscaron una respuesta el martes. Llevaron una hoja con la pista, el porche y el tilo dibujados. Querían que los lectores encontraran actividades que a veces pasaban desapercibidas desde el centro de la pista.",
+          "Durante los primeros minutos vieron un partido en la pista y cuatro niñas saltando a la cuerda bajo el porche. Cerca del tilo, Leo leía un cómic. Dos compañeros jugaban a las cartas sobre una mesa próxima. Omar propuso dibujar un balón, una cuerda, un libro y unas cartas. Cada símbolo permitiría reconocer una actividad sin llenar el plano de frases.",
+          "Antes del timbre repitieron el recorrido. Las niñas de la cuerda habían ido a beber; bajo el porche, otros alumnos dibujaban con tiza. Leo continuaba leyendo. Las cartas, en cambio, ya no estaban junto al tilo. Sus jugadores se habían instalado al lado de la pared del porche, donde el viento no levantaba las esquinas de los naipes. El partido seguía en la pista.",
+          "Omar acercó la goma al dibujo de la cuerda. Clara le pidió que esperara: borrar aquel símbolo haría desaparecer algo que sí habían visto. Probaron a poner todos los dibujos juntos, pero parecía que todas las actividades habían coincidido. Al final dividieron la página en dos planos con los mismos lugares: «Al principio» y «Antes del timbre».",
+          "En la leyenda, junto a cada símbolo, escribieron la actividad que representaba. Un texto breve explicó el día de la observación y los dos momentos elegidos. La página contaba aquella mañana concreta; para describir otros días necesitarían volver a mirar. Clara dejó un recuadro vacío donde los lectores podrían dibujar una actividad que conocieran y señalar cuándo la habían visto.",
+          "Leo se acercó a la prueba y localizó el libro junto al tilo en los dos planos. «Aquí he cambiado de capítulo», dijo señalando el segundo. Omar añadió una pequeña viñeta a un lado: un lector con el cómic abierto. El mapa ya estaba lleno, pero todavía les quedaba aquel margen para una historia que no cabía dentro de un símbolo."
+        ],
+        "questions": [
+          {
+            "id": "l283-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué día observaron el patio?",
+            "answer": "El martes.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "buscaron una respuesta el martes"
+              }
+            ]
+          },
+          {
+            "id": "l283-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué dos actividades seguían en el mismo lugar en la segunda visita?",
+            "answer": "El partido en la pista y la lectura de Leo junto al tilo.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Leo continuaba leyendo."
+              },
+              {
+                "paragraph": 3,
+                "text": "El partido seguía en la pista."
+              }
+            ]
+          },
+          {
+            "id": "l283-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué motivó el traslado de los jugadores de cartas?",
+            "answer": "La búsqueda de un lugar protegido del viento que levantaba las cartas.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "donde el viento no levantaba las esquinas de los naipes"
+              }
+            ]
+          },
+          {
+            "id": "l283-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «pasaban desapercibidas» en este texto?",
+            "answer": "Que podían estar ocurriendo sin que quienes miraban desde la pista se fijaran en ellas.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "actividades que a veces pasaban desapercibidas desde el centro de la pista"
+              }
+            ]
+          },
+          {
+            "id": "l283-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué reunir todos los símbolos en un solo plano podía confundir?",
+            "answer": "Parecía que todas las actividades habían coincidido, aunque algunas ocurrieron en momentos distintos.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "parecía que todas las actividades habían coincidido"
+              }
+            ]
+          },
+          {
+            "id": "l283-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué función tiene la leyenda?",
+            "answer": "Explica qué actividad representa cada símbolo del plano.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "junto a cada símbolo, escribieron la actividad que representaba"
+              }
+            ]
+          },
+          {
+            "id": "l283-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Se puede asegurar con esta página que el patio será igual el jueves? Explica por qué.",
+            "answer": "No: describe dos momentos del martes; tendrían que observar otros días para describirlos.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "para describir otros días necesitarían volver a mirar"
+              }
+            ]
+          },
+          {
+            "id": "l283-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué añade la viñeta de Leo a los símbolos del mapa?",
+            "answer": "Un detalle de su experiencia: seguía leyendo, pero había avanzado en la historia.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "«Aquí he cambiado de capítulo»"
+              }
+            ]
+          },
+          {
+            "id": "l283-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume el problema de representar el recreo y la solución que encontraron.",
+            "answer": "Los usos cambiaron entre dos visitas; separaron los momentos en dos planos y explicaron cuándo los habían observado.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Antes del timbre repitieron el recorrido."
+              },
+              {
+                "paragraph": 4,
+                "text": "dos planos con los mismos lugares"
+              }
+            ]
+          },
+          {
+            "id": "l283-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué observarías en una próxima visita para ampliar esta página? Justifica tu propuesta.",
+            "answer": "Respuesta abierta con una observación concreta y una razón relacionada con lo que el mapa aún no cuenta."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "pasaban desapercibidas",
+            "occurrence": 1,
+            "questionId": "l283-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l283-scene",
+            "src": "assets/readings/l283-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un plano del patio, lápices y un cómic sobre la mesa del periódico escolar, con juegos al fondo.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan el periódico escolar en una mesa del patio, en una ilustración azul y naranja.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "el-mapa-de-los-recreos-ca",
+        "code": "L283",
+        "workId": "el-mapa-de-los-recreos",
+        "language": "ca",
+        "familyId": "familia-l283",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "games"
+        ],
+        "genre": "informative",
+        "title": "El mapa dels esbarjos",
+        "summary": "La redacció descobreix que un mapa fix pot deixar fora els canvis d’un mateix esbarjo.",
+        "paragraphs": [
+          "Què passa als racons del pati quan comença l’esbarjo i quan està a punt d’acabar? La Clara i l’Omar, alumnes de sisè que preparen el diari escolar, van buscar una resposta dimarts. Van portar un full amb la pista, el porxo i el til·ler dibuixats. Volien que els lectors trobessin activitats que de vegades passaven desapercebudes des del centre de la pista.",
+          "Durant els primers minuts van veure un partit a la pista i quatre nenes saltant a corda sota el porxo. Prop del til·ler, en Leo llegia un còmic. Dos companys jugaven a cartes damunt una taula propera. L’Omar va proposar dibuixar una pilota, una corda, un llibre i unes cartes. Cada símbol permetria reconèixer una activitat sense omplir el plànol de frases.",
+          "Abans del timbre van repetir el recorregut. Les nenes de la corda havien anat a beure; sota el porxo, altres alumnes dibuixaven amb guix. En Leo continuava llegint. Les cartes, en canvi, ja no eren al costat del til·ler. Els jugadors s’havien instal·lat al costat de la paret del porxo, on el vent no aixecava les cantonades de les cartes. El partit continuava a la pista.",
+          "L’Omar va acostar la goma al dibuix de la corda. La Clara li va demanar que s’esperés: esborrar aquell símbol faria desaparèixer una cosa que sí que havien vist. Van provar de posar tots els dibuixos junts, però semblava que totes les activitats havien coincidit. Al final van dividir la pàgina en dos plànols amb els mateixos llocs: «Al principi» i «Abans del timbre».",
+          "A la llegenda, al costat de cada símbol, van escriure l’activitat que representava. Un text breu va explicar el dia de l’observació i els dos moments triats. La pàgina explicava aquell matí concret; per descriure altres dies haurien de tornar a mirar. La Clara va deixar un requadre buit on els lectors podrien dibuixar una activitat que coneguessin i assenyalar quan l’havien vista.",
+          "En Leo es va acostar a la prova i va localitzar el llibre al costat del til·ler en tots dos plànols. «Aquí he canviat de capítol», va dir assenyalant el segon. L’Omar va afegir una vinyeta petita a un costat: un lector amb el còmic obert. El mapa ja era ple, però encara els quedava aquell marge per a una història que no cabia dins d’un símbol."
+        ],
+        "questions": [
+          {
+            "id": "l283-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quin dia van observar el pati?",
+            "answer": "Dimarts.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "van buscar una resposta dimarts"
+              }
+            ]
+          },
+          {
+            "id": "l283-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quines dues activitats continuaven al mateix lloc en la segona visita?",
+            "answer": "El partit a la pista i la lectura d’en Leo al costat del til·ler.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "En Leo continuava llegint."
+              },
+              {
+                "paragraph": 3,
+                "text": "El partit continuava a la pista."
+              }
+            ]
+          },
+          {
+            "id": "l283-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què va motivar el trasllat dels jugadors de cartes?",
+            "answer": "La cerca d’un lloc protegit del vent que aixecava les cartes.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "on el vent no aixecava les cantonades de les cartes"
+              }
+            ]
+          },
+          {
+            "id": "l283-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què significa «passaven desapercebudes» en aquest text?",
+            "answer": "Que podien estar passant sense que els qui miraven des de la pista s’hi fixessin.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "activitats que de vegades passaven desapercebudes des del centre de la pista"
+              }
+            ]
+          },
+          {
+            "id": "l283-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què reunir tots els símbols en un sol plànol podia confondre?",
+            "answer": "Semblava que totes les activitats havien coincidit, tot i que algunes van passar en moments diferents.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "semblava que totes les activitats havien coincidit"
+              }
+            ]
+          },
+          {
+            "id": "l283-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quina funció té la llegenda?",
+            "answer": "Explica quina activitat representa cada símbol del plànol.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "al costat de cada símbol, van escriure l’activitat que representava"
+              }
+            ]
+          },
+          {
+            "id": "l283-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Es pot assegurar amb aquesta pàgina que el pati serà igual dijous? Explica per què.",
+            "answer": "No: descriu dos moments de dimarts; haurien d’observar altres dies per descriure’ls.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "per descriure altres dies haurien de tornar a mirar"
+              }
+            ]
+          },
+          {
+            "id": "l283-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què afegeix la vinyeta d’en Leo als símbols del mapa?",
+            "answer": "Un detall de la seva experiència: continuava llegint, però havia avançat en la història.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "«Aquí he canviat de capítol»"
+              }
+            ]
+          },
+          {
+            "id": "l283-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix el problema de representar l’esbarjo i la solució que van trobar.",
+            "answer": "Els usos van canviar entre dues visites; van separar els moments en dos plànols i van explicar quan els havien observat.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Abans del timbre van repetir el recorregut."
+              },
+              {
+                "paragraph": 4,
+                "text": "dos plànols amb els mateixos llocs"
+              }
+            ]
+          },
+          {
+            "id": "l283-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Què observaries en una pròxima visita per ampliar aquesta pàgina? Justifica la proposta.",
+            "answer": "Resposta oberta amb una observació concreta i una raó relacionada amb el que el mapa encara no explica."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "passaven desapercebudes",
+            "occurrence": 1,
+            "questionId": "l283-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l283-scene",
+            "src": "assets/readings/l283-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un plànol del pati, llapis i un còmic damunt la taula del diari escolar, amb jocs al fons.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen el diari escolar en una taula del pati, en una il·lustració blava i taronja.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "el-mapa-de-los-recreos-b-es",
+        "code": "L283B",
+        "workId": "el-mapa-de-los-recreos-b",
+        "language": "es",
+        "familyId": "familia-l283",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "games"
+        ],
+        "genre": "informative",
+        "title": "El mapa de los recreos",
+        "summary": "Dos planos y una viñeta permiten contar usos y experiencias que una imagen fija del patio dejaba fuera.",
+        "paragraphs": [
+          "La redacción del periódico escolar preparó una página sobre los usos del patio. Clara y Omar, dos alumnos de sexto, querían que la pista de juego dejara de ocupar casi todas sus noticias del recreo. Desde allí se veía movimiento, pero algunos rincones quedaban detrás de los grupos. El martes salieron con un plano donde ya habían situado la pista, el porche, el tilo y una mesa cercana. Se repartieron el recorrido y acordaron reunirse al terminarlo.",
+          "En los primeros minutos había un partido en la pista y cuatro niñas saltaban a la cuerda bajo el porche. Junto al tilo, Leo leía un cómic; dos compañeros habían extendido unas cartas en la mesa próxima. Clara escribió las actividades al lado de los lugares. Omar propuso sustituir las frases por símbolos pequeños: el espacio disponible en el periódico apenas alcanzaba para una columna de texto junto al plano.",
+          "Repitieron el recorrido antes del timbre. Las niñas de la cuerda se habían ido a beber y otros alumnos dibujaban con tiza en el porche. Leo seguía leyendo. Los jugadores de cartas habían buscado la pared del porche porque el viento levantaba las esquinas de los naipes. La pista conservaba el partido, aunque varios jugadores habían cambiado de equipo. Clara anotó los cambios en otra hoja; prefería no escribir encima de lo que había observado al principio.",
+          "Al volver a la mesa de redacción, Omar acercó la goma al símbolo de la cuerda. Clara sujetó la esquina del papel. La cuerda había estado allí: el segundo recorrido añadía otro momento. Probaron a superponer todos los símbolos, pero entonces el porche parecía ocupado a la vez por cuerda, tizas y cartas. Repartirlos en dos planos, «Al principio» y «Antes del timbre», permitía distinguir cuándo habían visto cada actividad sin borrar ninguna de las visitas.",
+          "La leyenda explicó el significado de los símbolos. En la columna escribieron el día y los momentos de la observación. Cuando Omar preparó la frase «Así se juega en nuestro patio», Clara señaló la fecha del martes que acababan de escribir. La cambiaron por «Dos momentos del recreo del martes». Para hablar de una costumbre de toda la semana tendrían que visitar de nuevo los rincones y comprobar qué se repetía.",
+          "Dejaron un recuadro para que los lectores añadieran un lugar y el momento en que habían visto alguna actividad. Leo miró los dos libros dibujados junto al tilo. «Aquí parece que sigo en la misma página», comentó. Durante el recreo había cambiado de capítulo y había releído una viñeta que le hacía gracia. Omar dibujó a un lado al lector con el cómic abierto. El símbolo lo situaba; aquella viñeta contaba un detalle de su experiencia.",
+          "Al revisar la prueba, Leo pidió que el personaje llevara una ceja levantada, como la suya cuando llegaba a una sorpresa. Omar lo intentó en el margen. Clara acercó el cómic para ver aquella cara y acabó leyendo la página que Leo les recomendaba. La goma quedó junto al primer plano, sin borrar la cuerda."
+        ],
+        "questions": [
+          {
+            "id": "l283b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué querían encontrar al salir de la pista?",
+            "answer": "Actividades de otros rincones que quedaban poco visibles desde la pista y apenas salían en sus noticias.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "algunos rincones quedaban detrás de los grupos"
+              }
+            ]
+          },
+          {
+            "id": "l283b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué habían cambiado los jugadores del partido en la segunda visita?",
+            "answer": "Varios habían cambiado de equipo; el partido seguía en la pista.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "varios jugadores habían cambiado de equipo"
+              }
+            ]
+          },
+          {
+            "id": "l283b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué ventaja tenía anotar la segunda visita en otra hoja?",
+            "answer": "Conservaba los datos de la primera para poder comparar los dos momentos.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "prefería no escribir encima de lo que había observado al principio"
+              }
+            ]
+          },
+          {
+            "id": "l283b-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «superponer» en la prueba de los símbolos?",
+            "answer": "Poner juntos sobre el mismo plano símbolos de las dos observaciones, unos sobre otros o muy próximos.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Probaron a superponer todos los símbolos"
+              }
+            ]
+          },
+          {
+            "id": "l283b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué interpretación equivocada podía producir el plano superpuesto?",
+            "answer": "Que cuerda, tizas y cartas habían ocupado el porche al mismo tiempo.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "el porche parecía ocupado a la vez por cuerda, tizas y cartas"
+              }
+            ]
+          },
+          {
+            "id": "l283b-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué aportan los títulos que la leyenda no explica?",
+            "answer": "Los títulos distinguen los momentos; la leyenda explica el significado de cada símbolo.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "«Al principio» y «Antes del timbre»"
+              },
+              {
+                "paragraph": 5,
+                "text": "La leyenda explicó el significado de los símbolos."
+              }
+            ]
+          },
+          {
+            "id": "l283b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué cambiaron la frase «Así se juega en nuestro patio»?",
+            "answer": "Era demasiado general para dos observaciones de un martes; la nueva precisa el día y los momentos.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Para hablar de una costumbre de toda la semana tendrían que visitar de nuevo los rincones"
+              }
+            ]
+          },
+          {
+            "id": "l283b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué información falta para afirmar que la cuerda se repite cada martes?",
+            "answer": "Observaciones de otros martes que permitan comprobar si se repite.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "comprobar qué se repetía"
+              }
+            ]
+          },
+          {
+            "id": "l283b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué diferencia hay entre situar a Leo con un símbolo y añadir su viñeta?",
+            "answer": "El símbolo indica lectura y lugar; la viñeta aporta un detalle de cómo vivió la lectura.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "El símbolo lo situaba; aquella viñeta contaba un detalle de su experiencia."
+              }
+            ]
+          },
+          {
+            "id": "l283b-q10",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Por qué la goma sin usar resulta significativa al final?",
+            "answer": "Recuerda que decidieron conservar la primera observación en lugar de borrarla.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Omar acercó la goma al símbolo de la cuerda."
+              },
+              {
+                "paragraph": 7,
+                "text": "sin borrar la cuerda"
+              }
+            ]
+          },
+          {
+            "id": "l283b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume cómo la página fue ganando información sin confundir los dos momentos.",
+            "answer": "Separaron las observaciones en dos planos, explicaron símbolos y momentos, acotaron el día y añadieron la experiencia de Leo en una viñeta.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Repartirlos en dos planos"
+              },
+              {
+                "paragraph": 5,
+                "text": "el día y los momentos de la observación"
+              },
+              {
+                "paragraph": 6,
+                "text": "un detalle de su experiencia"
+              }
+            ]
+          },
+          {
+            "id": "l283b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿Preferirías ampliar esta página con otra visita o con otra experiencia personal? Defiende tu elección.",
+            "answer": "Respuesta abierta: distingue el conocimiento de usos y momentos de una experiencia particular y justifica su prioridad."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "superponer",
+            "occurrence": 1,
+            "questionId": "l283b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l283-scene",
+            "src": "assets/readings/l283-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un plano del patio, lápices y un cómic sobre la mesa del periódico escolar, con juegos al fondo.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Clara y Omar preparan el periódico escolar en una mesa del patio, en una ilustración azul y naranja.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "el-mapa-de-los-recreos-b-ca",
+        "code": "L283B",
+        "workId": "el-mapa-de-los-recreos-b",
+        "language": "ca",
+        "familyId": "familia-l283",
+        "universeIds": [
+          "redaccio-del-pati"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "games"
+        ],
+        "genre": "informative",
+        "title": "El mapa dels esbarjos",
+        "summary": "Dos plànols i una vinyeta permeten explicar usos i experiències que una imatge fixa del pati deixava fora.",
+        "paragraphs": [
+          "La redacció del diari escolar va preparar una pàgina sobre els usos del pati. La Clara i l’Omar, dos alumnes de sisè, volien que la pista de joc deixés d’ocupar gairebé totes les notícies de l’esbarjo. Des d’allà es veia moviment, però alguns racons quedaven darrere dels grups. Dimarts van sortir amb un plànol on ja havien situat la pista, el porxo, el til·ler i una taula propera. Es van repartir el recorregut i van acordar reunir-se quan l’acabessin.",
+          "En els primers minuts hi havia un partit a la pista i quatre nenes saltaven a corda sota el porxo. Al costat del til·ler, en Leo llegia un còmic; dos companys havien estès unes cartes a la taula propera. La Clara va escriure les activitats al costat dels llocs. L’Omar va proposar substituir les frases per símbols petits: l’espai disponible al diari tot just donava per a una columna de text al costat del plànol.",
+          "Van repetir el recorregut abans del timbre. Les nenes de la corda havien anat a beure i altres alumnes dibuixaven amb guix al porxo. En Leo continuava llegint. Els jugadors de cartes havien buscat la paret del porxo perquè el vent aixecava les cantonades de les cartes. La pista conservava el partit, tot i que diversos jugadors havien canviat d’equip. La Clara va anotar els canvis en un altre full; preferia no escriure damunt del que havia observat al principi.",
+          "En tornar a la taula de redacció, l’Omar va acostar la goma al símbol de la corda. La Clara va subjectar la cantonada del paper. La corda havia estat allà: el segon recorregut afegia un altre moment. Van provar de superposar tots els símbols, però llavors el porxo semblava ocupat alhora per corda, guixos i cartes. Repartir-los en dos plànols, «Al principi» i «Abans del timbre», permetia distingir quan havien vist cada activitat sense esborrar cap de les visites.",
+          "La llegenda va explicar el significat dels símbols. A la columna van escriure el dia i els moments de l’observació. Quan l’Omar va preparar la frase «Així es juga al nostre pati», la Clara va assenyalar la data de dimarts que acabaven d’escriure. La van canviar per «Dos moments de l’esbarjo de dimarts». Per parlar d’un costum de tota la setmana haurien de tornar a visitar els racons i comprovar què es repetia.",
+          "Van deixar un requadre perquè els lectors afegissin un lloc i el moment en què havien vist alguna activitat. En Leo va mirar els dos llibres dibuixats al costat del til·ler. «Aquí sembla que continuï a la mateixa pàgina», va comentar. Durant l’esbarjo havia canviat de capítol i havia rellegit una vinyeta que li feia gràcia. L’Omar va dibuixar a un costat el lector amb el còmic obert. El símbol el situava; aquella vinyeta explicava un detall de la seva experiència.",
+          "En revisar la prova, en Leo va demanar que el personatge portés una cella aixecada, com la seva quan arribava a una sorpresa. L’Omar ho va provar al marge. La Clara va acostar el còmic per veure aquella cara i va acabar llegint la pàgina que en Leo els recomanava. La goma va quedar al costat del primer plànol, sense esborrar la corda."
+        ],
+        "questions": [
+          {
+            "id": "l283b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què volien trobar en sortir de la pista?",
+            "answer": "Activitats d’altres racons que quedaven poc visibles des de la pista i gairebé no sortien a les notícies.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "alguns racons quedaven darrere dels grups"
+              }
+            ]
+          },
+          {
+            "id": "l283b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què havien canviat els jugadors del partit en la segona visita?",
+            "answer": "Diversos havien canviat d’equip; el partit continuava a la pista.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "diversos jugadors havien canviat d’equip"
+              }
+            ]
+          },
+          {
+            "id": "l283b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quin avantatge tenia anotar la segona visita en un altre full?",
+            "answer": "Conservava les dades de la primera per poder comparar els dos moments.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "preferia no escriure damunt del que havia observat al principi"
+              }
+            ]
+          },
+          {
+            "id": "l283b-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què significa «superposar» en la prova dels símbols?",
+            "answer": "Posar junts sobre el mateix plànol símbols de les dues observacions, els uns damunt dels altres o molt a prop.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Van provar de superposar tots els símbols"
+              }
+            ]
+          },
+          {
+            "id": "l283b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina interpretació equivocada podia produir el plànol superposat?",
+            "answer": "Que corda, guixos i cartes havien ocupat el porxo al mateix temps.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "el porxo semblava ocupat alhora per corda, guixos i cartes"
+              }
+            ]
+          },
+          {
+            "id": "l283b-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Què aporten els títols que la llegenda no explica?",
+            "answer": "Els títols distingeixen els moments; la llegenda explica el significat de cada símbol.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "«Al principi» i «Abans del timbre»"
+              },
+              {
+                "paragraph": 5,
+                "text": "La llegenda va explicar el significat dels símbols."
+              }
+            ]
+          },
+          {
+            "id": "l283b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què van canviar la frase «Així es juga al nostre pati»?",
+            "answer": "Era massa general per a dues observacions d’un dimarts; la nova precisa el dia i els moments.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Per parlar d’un costum de tota la setmana haurien de tornar a visitar els racons"
+              }
+            ]
+          },
+          {
+            "id": "l283b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina informació falta per afirmar que la corda es repeteix cada dimarts?",
+            "answer": "Observacions d’altres dimarts que permetin comprovar si es repeteix.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "comprovar què es repetia"
+              }
+            ]
+          },
+          {
+            "id": "l283b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina diferència hi ha entre situar en Leo amb un símbol i afegir-hi la vinyeta?",
+            "answer": "El símbol indica lectura i lloc; la vinyeta aporta un detall de com va viure la lectura.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "El símbol el situava; aquella vinyeta explicava un detall de la seva experiència."
+              }
+            ]
+          },
+          {
+            "id": "l283b-q10",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Per què la goma sense fer servir és significativa al final?",
+            "answer": "Recorda que van decidir conservar la primera observació en lloc d’esborrar-la.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "l’Omar va acostar la goma al símbol de la corda."
+              },
+              {
+                "paragraph": 7,
+                "text": "sense esborrar la corda"
+              }
+            ]
+          },
+          {
+            "id": "l283b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix com la pàgina va anar guanyant informació sense confondre els dos moments.",
+            "answer": "Van separar les observacions en dos plànols, van explicar símbols i moments, van concretar el dia i van afegir l’experiència d’en Leo en una vinyeta.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Repartir-los en dos plànols"
+              },
+              {
+                "paragraph": 5,
+                "text": "el dia i els moments de l’observació"
+              },
+              {
+                "paragraph": 6,
+                "text": "un detall de la seva experiència"
+              }
+            ]
+          },
+          {
+            "id": "l283b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Preferiries ampliar aquesta pàgina amb una altra visita o amb una altra experiència personal? Defensa la tria.",
+            "answer": "Resposta oberta: distingeix el coneixement d’usos i moments d’una experiència particular i justifica la prioritat."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "superposar",
+            "occurrence": 1,
+            "questionId": "l283b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l283-scene",
+            "src": "assets/readings/l283-redaccio.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un plànol del pati, llapis i un còmic damunt la taula del diari escolar, amb jocs al fons.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "newsroom-team",
+            "src": "assets/readings/l070-la-noticia-que-cambio-de-titulo.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Clara i l’Omar preparen el diari escolar en una taula del pati, en una il·lustració blava i taronja.",
+            "afterParagraph": 5
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L283A",
+        "language": "es",
+        "questions": {
+          "l283a-q1": {
+            "prompt": "¿Qué tres lugares aparecían en la hoja inicial?",
+            "options": [
+              "La pista, el porche y la fuente.",
+              "La pista, el porche y el tilo.",
+              "El porche, el tilo y la clase.",
+              "La pista, la mesa y la clase."
+            ],
+            "correct": "b",
+            "explanation": "La pista, el porche y el tilo."
+          },
+          "l283a-q2": {
+            "prompt": "¿Qué actividad encontraron primero bajo el porche?",
+            "options": [
+              "Un grupo dibujaba con tiza.",
+              "Leo leía su cómic.",
+              "Dos compañeros jugaban a las cartas.",
+              "Cuatro niñas saltaban a la cuerda."
+            ],
+            "correct": "d",
+            "explanation": "Cuatro niñas saltaban a la cuerda."
+          },
+          "l283a-q3": {
+            "prompt": "¿Por qué los jugadores de cartas cambiaron de lugar?",
+            "options": [
+              "Para que el viento no les levantara las cartas.",
+              "Para dejar la mesa a Leo y su cómic.",
+              "Para reunirse con las niñas de la cuerda.",
+              "Para ver mejor el partido de la pista."
+            ],
+            "correct": "a",
+            "explanation": "Buscaban un lugar donde el viento no levantara las cartas."
+          },
+          "l283a-q4": {
+            "prompt": "¿Qué significa «recorrido» en el primer párrafo?",
+            "options": [
+              "La lista de juegos que querían proponer.",
+              "El dibujo terminado que iban a publicar.",
+              "El camino para pasar por los lugares del patio.",
+              "El tiempo que faltaba para volver a clase."
+            ],
+            "correct": "c",
+            "explanation": "El camino que seguían para pasar por los lugares del patio."
+          },
+          "l283a-q5": {
+            "prompt": "¿Por qué Clara no quiso borrar la primera visita?",
+            "options": [
+              "Porque todavía no habían terminado el primer recorrido.",
+              "Porque también mostraba algo que había ocurrido.",
+              "Porque Leo había pedido conservar todos los dibujos.",
+              "Porque las cartas habían vuelto a la primera mesa."
+            ],
+            "correct": "b",
+            "explanation": "Porque también era cierta y permitía ver cómo habían cambiado los lugares."
+          },
+          "l283a-q6": {
+            "prompt": "¿Para qué sirven los títulos de los dos planos?",
+            "options": [
+              "Para distinguir patios de dos escuelas diferentes.",
+              "Para indicar qué juegos quieren empezar mañana.",
+              "Para separar los dibujos de Clara y los de Omar.",
+              "Para distinguir dos momentos del mismo recreo."
+            ],
+            "correct": "d",
+            "explanation": "Para distinguir el momento del recreo que representa cada plano."
+          },
+          "l283a-q7": {
+            "prompt": "¿Qué resumen recoge mejor lo que ocurrió?",
+            "options": [
+              "Dos visitas mostraron cambios y las representaron en dos planos.",
+              "Una segunda visita permitió corregir todos los errores de la primera.",
+              "Un mapa sirvió para repartir a los alumnos en juegos nuevos.",
+              "Dos dibujos de Leo ocuparon el espacio previsto para los juegos."
+            ],
+            "correct": "a",
+            "explanation": "Vieron que los usos del patio cambiaban durante el recreo y publicaron dos planos de distintos momentos."
+          }
+        }
+      },
+      {
+        "code": "L283A",
+        "language": "ca",
+        "questions": {
+          "l283a-q1": {
+            "prompt": "Quins tres llocs apareixien al full inicial?",
+            "options": [
+              "La pista, el porxo i la font.",
+              "La pista, el porxo i el til·ler.",
+              "El porxo, el til·ler i la classe.",
+              "La pista, la taula i la classe."
+            ],
+            "correct": "b",
+            "explanation": "La pista, el porxo i el til·ler."
+          },
+          "l283a-q2": {
+            "prompt": "Quina activitat van trobar primer sota el porxo?",
+            "options": [
+              "Un grup dibuixava amb guix.",
+              "En Leo llegia el còmic.",
+              "Dos companys jugaven a cartes.",
+              "Quatre nenes saltaven a corda."
+            ],
+            "correct": "d",
+            "explanation": "Quatre nenes saltaven a corda."
+          },
+          "l283a-q3": {
+            "prompt": "Per què els jugadors de cartes van canviar de lloc?",
+            "options": [
+              "Perquè el vent no els aixequés les cartes.",
+              "Per deixar la taula a en Leo i el seu còmic.",
+              "Per reunir-se amb les nenes de la corda.",
+              "Per veure més bé el partit de la pista."
+            ],
+            "correct": "a",
+            "explanation": "Buscaven un lloc on el vent no aixequés les cartes."
+          },
+          "l283a-q4": {
+            "prompt": "Què significa «recorregut» al primer paràgraf?",
+            "options": [
+              "La llista de jocs que volien proposar.",
+              "El dibuix acabat que volien publicar.",
+              "El camí per passar pels llocs del pati.",
+              "El temps que faltava per tornar a classe."
+            ],
+            "correct": "c",
+            "explanation": "El camí que seguien per passar pels llocs del pati."
+          },
+          "l283a-q5": {
+            "prompt": "Per què la Clara no volia esborrar la primera visita?",
+            "options": [
+              "Perquè encara no havien acabat el primer recorregut.",
+              "Perquè també mostrava una cosa que havia passat.",
+              "Perquè en Leo havia demanat conservar tots els dibuixos.",
+              "Perquè les cartes havien tornat a la primera taula."
+            ],
+            "correct": "b",
+            "explanation": "Perquè també era certa i permetia veure com havien canviat els llocs."
+          },
+          "l283a-q6": {
+            "prompt": "Per a què serveixen els títols dels dos plànols?",
+            "options": [
+              "Per distingir patis de dues escoles diferents.",
+              "Per indicar quins jocs volen començar demà.",
+              "Per separar els dibuixos de la Clara i els de l’Omar.",
+              "Per distingir dos moments del mateix esbarjo."
+            ],
+            "correct": "d",
+            "explanation": "Per distingir el moment de l’esbarjo que representa cada plànol."
+          },
+          "l283a-q7": {
+            "prompt": "Quin resum recull millor el que va passar?",
+            "options": [
+              "Dues visites van mostrar canvis i els van representar en dos plànols.",
+              "Una segona visita va permetre corregir tots els errors de la primera.",
+              "Un mapa va servir per repartir els alumnes en jocs nous.",
+              "Dos dibuixos d’en Leo van ocupar l’espai previst per als jocs."
+            ],
+            "correct": "a",
+            "explanation": "Van veure que els usos del pati canviaven durant l’esbarjo i van publicar dos plànols de moments diferents."
+          }
+        }
+      },
+      {
+        "code": "L283",
+        "language": "es",
+        "questions": {
+          "l283-q1": {
+            "prompt": "¿Qué día observaron el patio?",
+            "options": [
+              "El día en que se publicó el periódico.",
+              "El lunes antes del recreo.",
+              "El martes durante el recreo.",
+              "Dos días distintos de aquella semana."
+            ],
+            "correct": "c",
+            "explanation": "El martes."
+          },
+          "l283-q2": {
+            "prompt": "¿Qué dos actividades seguían en el mismo lugar en la segunda visita?",
+            "options": [
+              "El partido y la lectura de Leo.",
+              "La cuerda y las cartas.",
+              "La lectura de Leo y la cuerda.",
+              "El dibujo con tiza y el partido."
+            ],
+            "correct": "a",
+            "explanation": "El partido en la pista y la lectura de Leo junto al tilo."
+          },
+          "l283-q3": {
+            "prompt": "¿Qué motivó el traslado de los jugadores de cartas?",
+            "options": [
+              "Querían compartir mesa con quienes dibujaban.",
+              "Las niñas necesitaban la mesa para beber.",
+              "Querían acercarse a los lectores del cómic.",
+              "Buscaban que el viento no moviera las cartas."
+            ],
+            "correct": "d",
+            "explanation": "La búsqueda de un lugar protegido del viento que levantaba las cartas."
+          },
+          "l283-q4": {
+            "prompt": "¿Qué significa «pasaban desapercibidas» en este texto?",
+            "options": [
+              "Que solo podían hacerse antes de empezar el recreo.",
+              "Que ocurrían sin llamar la atención de quien miraba desde allí.",
+              "Que habían desaparecido del patio aquella semana.",
+              "Que se habían trasladado todas fuera de la pista."
+            ],
+            "correct": "b",
+            "explanation": "Que podían estar ocurriendo sin que quienes miraban desde la pista se fijaran en ellas."
+          },
+          "l283-q5": {
+            "prompt": "¿Por qué reunir todos los símbolos en un solo plano podía confundir?",
+            "options": [
+              "Porque parecería que cada redactor había visitado un patio distinto.",
+              "Porque impediría localizar la pista y el porche.",
+              "Porque haría parecer simultáneas actividades de distintos momentos.",
+              "Porque obligaría a poner los nombres de todos los alumnos."
+            ],
+            "correct": "c",
+            "explanation": "Parecía que todas las actividades habían coincidido, aunque algunas ocurrieron en momentos distintos."
+          },
+          "l283-q6": {
+            "prompt": "¿Qué función tiene la leyenda?",
+            "options": [
+              "Explicar qué representa cada símbolo.",
+              "Contar la historia completa del cómic de Leo.",
+              "Decidir qué juegos tendrán espacio al día siguiente.",
+              "Señalar quién escribió cada párrafo del periódico."
+            ],
+            "correct": "a",
+            "explanation": "Explica qué actividad representa cada símbolo del plano."
+          },
+          "l283-q7": {
+            "prompt": "¿Se puede asegurar con esta página que el patio será igual el jueves? Explica por qué.",
+            "options": [
+              "Sí, porque dibujaron dos planos en lugar de uno.",
+              "Sí, porque la pista y el porche no han cambiado de sitio.",
+              "No, porque en la segunda visita todos los juegos cambiaron de lugar.",
+              "No, porque observaron el martes y no el jueves."
+            ],
+            "correct": "d",
+            "explanation": "No: describe dos momentos del martes; tendrían que observar otros días para describirlos."
+          },
+          "l283-q8": {
+            "prompt": "¿Qué añade la viñeta de Leo a los símbolos del mapa?",
+            "options": [
+              "La explicación de por qué se trasladaron las cartas.",
+              "Un detalle de lo que vivía el lector que el símbolo no contaba.",
+              "Una corrección del lugar donde habían dibujado el tilo.",
+              "La prueba de que Leo leyó el mismo capítulo todo el recreo."
+            ],
+            "correct": "b",
+            "explanation": "Un detalle de su experiencia: seguía leyendo, pero había avanzado en la historia."
+          },
+          "l283-q9": {
+            "prompt": "¿Cuál es el resumen más fiel?",
+            "options": [
+              "El segundo recorrido corrigió el primer mapa y borraron las actividades iniciales.",
+              "Los lectores eligieron nuevos juegos para ocupar los espacios vacíos del mapa.",
+              "Mostraron cambios de una mañana con dos planos y una explicación de los momentos.",
+              "Una viñeta sustituyó los dos planos para contar mejor todas las actividades."
+            ],
+            "correct": "c",
+            "explanation": "Los usos cambiaron entre dos visitas; separaron los momentos en dos planos y explicaron cuándo los habían observado."
+          }
+        }
+      },
+      {
+        "code": "L283",
+        "language": "ca",
+        "questions": {
+          "l283-q1": {
+            "prompt": "Quin dia van observar el pati?",
+            "options": [
+              "El dia que es va publicar el diari.",
+              "Dilluns abans de l’esbarjo.",
+              "Dimarts durant l’esbarjo.",
+              "Dos dies diferents d’aquella setmana."
+            ],
+            "correct": "c",
+            "explanation": "Dimarts."
+          },
+          "l283-q2": {
+            "prompt": "Quines dues activitats continuaven al mateix lloc en la segona visita?",
+            "options": [
+              "El partit i la lectura d’en Leo.",
+              "La corda i les cartes.",
+              "La lectura d’en Leo i la corda.",
+              "El dibuix amb guix i el partit."
+            ],
+            "correct": "a",
+            "explanation": "El partit a la pista i la lectura d’en Leo al costat del til·ler."
+          },
+          "l283-q3": {
+            "prompt": "Què va motivar el trasllat dels jugadors de cartes?",
+            "options": [
+              "Volien compartir taula amb els qui dibuixaven.",
+              "Les nenes necessitaven la taula per beure.",
+              "Volien acostar-se als lectors del còmic.",
+              "Buscaven que el vent no mogués les cartes."
+            ],
+            "correct": "d",
+            "explanation": "La cerca d’un lloc protegit del vent que aixecava les cartes."
+          },
+          "l283-q4": {
+            "prompt": "Què significa «passaven desapercebudes» en aquest text?",
+            "options": [
+              "Que només es podien fer abans de començar l’esbarjo.",
+              "Que passaven sense cridar l’atenció de qui mirava des d’allà.",
+              "Que havien desaparegut del pati aquella setmana.",
+              "Que s’havien traslladat totes fora de la pista."
+            ],
+            "correct": "b",
+            "explanation": "Que podien estar passant sense que els qui miraven des de la pista s’hi fixessin."
+          },
+          "l283-q5": {
+            "prompt": "Per què reunir tots els símbols en un sol plànol podia confondre?",
+            "options": [
+              "Perquè semblaria que cada redactor havia visitat un pati diferent.",
+              "Perquè impediria localitzar la pista i el porxo.",
+              "Perquè faria semblar simultànies activitats de moments diferents.",
+              "Perquè obligaria a posar els noms de tots els alumnes."
+            ],
+            "correct": "c",
+            "explanation": "Semblava que totes les activitats havien coincidit, tot i que algunes van passar en moments diferents."
+          },
+          "l283-q6": {
+            "prompt": "Quina funció té la llegenda?",
+            "options": [
+              "Explicar què representa cada símbol.",
+              "Explicar la història completa del còmic d’en Leo.",
+              "Decidir quins jocs tindran espai l’endemà.",
+              "Assenyalar qui va escriure cada paràgraf del diari."
+            ],
+            "correct": "a",
+            "explanation": "Explica quina activitat representa cada símbol del plànol."
+          },
+          "l283-q7": {
+            "prompt": "Es pot assegurar amb aquesta pàgina que el pati serà igual dijous? Explica per què.",
+            "options": [
+              "Sí, perquè van dibuixar dos plànols en lloc d’un.",
+              "Sí, perquè la pista i el porxo no han canviat de lloc.",
+              "No, perquè en la segona visita tots els jocs van canviar de lloc.",
+              "No, perquè van observar dimarts i no dijous."
+            ],
+            "correct": "d",
+            "explanation": "No: descriu dos moments de dimarts; haurien d’observar altres dies per descriure’ls."
+          },
+          "l283-q8": {
+            "prompt": "Què afegeix la vinyeta d’en Leo als símbols del mapa?",
+            "options": [
+              "L’explicació de per què es van traslladar les cartes.",
+              "Un detall del que vivia el lector que el símbol no explicava.",
+              "Una correcció del lloc on havien dibuixat el til·ler.",
+              "La prova que en Leo va llegir el mateix capítol tot l’esbarjo."
+            ],
+            "correct": "b",
+            "explanation": "Un detall de la seva experiència: continuava llegint, però havia avançat en la història."
+          },
+          "l283-q9": {
+            "prompt": "Quin és el resum més fidel?",
+            "options": [
+              "El segon recorregut va corregir el primer mapa i van esborrar les activitats inicials.",
+              "Els lectors van triar jocs nous per ocupar els espais buits del mapa.",
+              "Van mostrar canvis d’un matí amb dos plànols i una explicació dels moments.",
+              "Una vinyeta va substituir els dos plànols per explicar millor totes les activitats."
+            ],
+            "correct": "c",
+            "explanation": "Els usos van canviar entre dues visites; van separar els moments en dos plànols i van explicar quan els havien observat."
+          }
+        }
+      },
+      {
+        "code": "L283B",
+        "language": "es",
+        "questions": {
+          "l283b-q1": {
+            "prompt": "¿Qué querían encontrar al salir de la pista?",
+            "options": [
+              "Un lugar donde trasladar definitivamente el partido.",
+              "La actividad que reunía a más alumnos de sexto.",
+              "Una mesa más grande para preparar el periódico.",
+              "Actividades de rincones poco presentes en sus noticias."
+            ],
+            "correct": "d",
+            "explanation": "Actividades de otros rincones que quedaban poco visibles desde la pista y apenas salían en sus noticias."
+          },
+          "l283b-q2": {
+            "prompt": "¿Qué habían cambiado los jugadores del partido en la segunda visita?",
+            "options": [
+              "Varios habían cambiado de equipo, sin cambiar de pista.",
+              "Habían llevado el partido al espacio del porche.",
+              "Habían dejado el partido para jugar a las cartas.",
+              "Habían esperado a los lectores para empezar."
+            ],
+            "correct": "a",
+            "explanation": "Varios habían cambiado de equipo; el partido seguía en la pista."
+          },
+          "l283b-q3": {
+            "prompt": "¿Qué ventaja tenía anotar la segunda visita en otra hoja?",
+            "options": [
+              "Permitía atribuir todas las actividades al mismo momento.",
+              "Evitaba tener que situar los lugares una segunda vez.",
+              "Conservaba la primera observación para compararla con la segunda.",
+              "Mostraba qué juegos eran los preferidos de toda la escuela."
+            ],
+            "correct": "c",
+            "explanation": "Conservaba los datos de la primera para poder comparar los dos momentos."
+          },
+          "l283b-q4": {
+            "prompt": "¿Qué significa «superponer» en la prueba de los símbolos?",
+            "options": [
+              "Borrar los símbolos de la visita anterior.",
+              "Reunir los símbolos sobre un mismo plano.",
+              "Cambiar cada símbolo por una frase completa.",
+              "Repartir los símbolos entre dos páginas distintas."
+            ],
+            "correct": "b",
+            "explanation": "Poner juntos sobre el mismo plano símbolos de las dos observaciones, unos sobre otros o muy próximos."
+          },
+          "l283b-q5": {
+            "prompt": "¿Qué interpretación equivocada podía producir el plano superpuesto?",
+            "options": [
+              "Que las cartas habían estado junto al tilo al principio.",
+              "Que había distintas actividades en el conjunto del patio.",
+              "Que los juegos podían cambiar durante el recreo.",
+              "Que las tres actividades del porche habían coincidido."
+            ],
+            "correct": "d",
+            "explanation": "Que cuerda, tizas y cartas habían ocupado el porche al mismo tiempo."
+          },
+          "l283b-q6": {
+            "prompt": "¿Qué aportan los títulos que la leyenda no explica?",
+            "options": [
+              "El momento de cada plano, frente al significado de los símbolos.",
+              "El nombre de los autores, frente al de los participantes.",
+              "La frecuencia semanal de los juegos, frente a su ubicación.",
+              "El nombre de cada juego, frente al día de la publicación."
+            ],
+            "correct": "a",
+            "explanation": "Los títulos distinguen los momentos; la leyenda explica el significado de cada símbolo."
+          },
+          "l283b-q7": {
+            "prompt": "¿Por qué cambiaron la frase «Así se juega en nuestro patio»?",
+            "options": [
+              "Porque el periódico se publicaría otro día de la semana.",
+              "Porque el primer plano ya no conservaba los juegos iniciales.",
+              "Porque presentaba como costumbre general lo observado en dos momentos.",
+              "Porque la viñeta de Leo debía ocupar el lugar del título."
+            ],
+            "correct": "c",
+            "explanation": "Era demasiado general para dos observaciones de un martes; la nueva precisa el día y los momentos."
+          },
+          "l283b-q8": {
+            "prompt": "¿Qué información falta para afirmar que la cuerda se repite cada martes?",
+            "options": [
+              "El número de símbolos usados en los dos planos.",
+              "Observaciones de otros martes y sus actividades.",
+              "Otra vuelta al patio al final de ese mismo recreo.",
+              "Una observación más larga del partido de aquel martes."
+            ],
+            "correct": "b",
+            "explanation": "Observaciones de otros martes que permitan comprobar si se repite."
+          },
+          "l283b-q9": {
+            "prompt": "¿Qué diferencia hay entre situar a Leo con un símbolo y añadir su viñeta?",
+            "options": [
+              "El símbolo cuenta la historia del cómic y la viñeta su ubicación.",
+              "La viñeta demuestra que se había movido de lugar.",
+              "Ambos representan por separado las dos visitas al patio.",
+              "El símbolo localiza la lectura y la viñeta añade una experiencia."
+            ],
+            "correct": "d",
+            "explanation": "El símbolo indica lectura y lugar; la viñeta aporta un detalle de cómo vivió la lectura."
+          },
+          "l283b-q10": {
+            "prompt": "¿Por qué la goma sin usar resulta significativa al final?",
+            "options": [
+              "Porque recuerda la decisión de conservar la primera visita.",
+              "Porque indica que abandonaron la revisión del periódico.",
+              "Porque demuestra que todos los símbolos eran correctos desde el inicio.",
+              "Porque explica que la cuerda volvió al porche antes de publicar."
+            ],
+            "correct": "a",
+            "explanation": "Recuerda que decidieron conservar la primera observación en lugar de borrarla."
+          },
+          "l283b-q11": {
+            "prompt": "¿Qué resumen recoge el desarrollo de la página?",
+            "options": [
+              "Sustituyeron los símbolos iniciales por los del final y añadieron una viñeta.",
+              "Publicaron un plano de costumbres semanales apoyado en una visita completa.",
+              "Separaron momentos, explicaron el alcance y añadieron un detalle personal.",
+              "Reunieron los juegos de todo el martes y pidieron a Leo que eligiera los títulos."
+            ],
+            "correct": "c",
+            "explanation": "Separaron las observaciones en dos planos, explicaron símbolos y momentos, acotaron el día y añadieron la experiencia de Leo en una viñeta."
+          }
+        }
+      },
+      {
+        "code": "L283B",
+        "language": "ca",
+        "questions": {
+          "l283b-q1": {
+            "prompt": "Què volien trobar en sortir de la pista?",
+            "options": [
+              "Un lloc on traslladar definitivament el partit.",
+              "L’activitat que reunia més alumnes de sisè.",
+              "Una taula més gran per preparar el diari.",
+              "Activitats de racons poc presents a les notícies."
+            ],
+            "correct": "d",
+            "explanation": "Activitats d’altres racons que quedaven poc visibles des de la pista i gairebé no sortien a les notícies."
+          },
+          "l283b-q2": {
+            "prompt": "Què havien canviat els jugadors del partit en la segona visita?",
+            "options": [
+              "Diversos havien canviat d’equip, sense canviar de pista.",
+              "Havien portat el partit a l’espai del porxo.",
+              "Havien deixat el partit per jugar a cartes.",
+              "Havien esperat els lectors per començar."
+            ],
+            "correct": "a",
+            "explanation": "Diversos havien canviat d’equip; el partit continuava a la pista."
+          },
+          "l283b-q3": {
+            "prompt": "Quin avantatge tenia anotar la segona visita en un altre full?",
+            "options": [
+              "Permetia atribuir totes les activitats al mateix moment.",
+              "Evitava haver de situar els llocs una segona vegada.",
+              "Conservava la primera observació per comparar-la amb la segona.",
+              "Mostrava quins jocs eren els preferits de tota l’escola."
+            ],
+            "correct": "c",
+            "explanation": "Conservava les dades de la primera per poder comparar els dos moments."
+          },
+          "l283b-q4": {
+            "prompt": "Què significa «superposar» en la prova dels símbols?",
+            "options": [
+              "Esborrar els símbols de la visita anterior.",
+              "Reunir els símbols damunt d’un mateix plànol.",
+              "Canviar cada símbol per una frase completa.",
+              "Repartir els símbols entre dues pàgines diferents."
+            ],
+            "correct": "b",
+            "explanation": "Posar junts sobre el mateix plànol símbols de les dues observacions, els uns damunt dels altres o molt a prop."
+          },
+          "l283b-q5": {
+            "prompt": "Quina interpretació equivocada podia produir el plànol superposat?",
+            "options": [
+              "Que les cartes havien estat al costat del til·ler al principi.",
+              "Que hi havia activitats diferents al conjunt del pati.",
+              "Que els jocs podien canviar durant l’esbarjo.",
+              "Que les tres activitats del porxo havien coincidit."
+            ],
+            "correct": "d",
+            "explanation": "Que corda, guixos i cartes havien ocupat el porxo al mateix temps."
+          },
+          "l283b-q6": {
+            "prompt": "Què aporten els títols que la llegenda no explica?",
+            "options": [
+              "El moment de cada plànol, davant del significat dels símbols.",
+              "El nom dels autors, davant del dels participants.",
+              "La freqüència setmanal dels jocs, davant de la seva ubicació.",
+              "El nom de cada joc, davant del dia de la publicació."
+            ],
+            "correct": "a",
+            "explanation": "Els títols distingeixen els moments; la llegenda explica el significat de cada símbol."
+          },
+          "l283b-q7": {
+            "prompt": "Per què van canviar la frase «Així es juga al nostre pati»?",
+            "options": [
+              "Perquè el diari es publicaria un altre dia de la setmana.",
+              "Perquè el primer plànol ja no conservava els jocs inicials.",
+              "Perquè presentava com a costum general el que havien observat en dos moments.",
+              "Perquè la vinyeta d’en Leo havia d’ocupar el lloc del títol."
+            ],
+            "correct": "c",
+            "explanation": "Era massa general per a dues observacions d’un dimarts; la nova precisa el dia i els moments."
+          },
+          "l283b-q8": {
+            "prompt": "Quina informació falta per afirmar que la corda es repeteix cada dimarts?",
+            "options": [
+              "El nombre de símbols utilitzats en els dos plànols.",
+              "Observacions d’altres dimarts i les seves activitats.",
+              "Una altra volta al pati al final d’aquell mateix esbarjo.",
+              "Una observació més llarga del partit d’aquell dimarts."
+            ],
+            "correct": "b",
+            "explanation": "Observacions d’altres dimarts que permetin comprovar si es repeteix."
+          },
+          "l283b-q9": {
+            "prompt": "Quina diferència hi ha entre situar en Leo amb un símbol i afegir-hi la vinyeta?",
+            "options": [
+              "El símbol explica la història del còmic i la vinyeta la seva ubicació.",
+              "La vinyeta demostra que s’havia mogut de lloc.",
+              "Tots dos representen per separat les dues visites al pati.",
+              "El símbol localitza la lectura i la vinyeta afegeix una experiència."
+            ],
+            "correct": "d",
+            "explanation": "El símbol indica lectura i lloc; la vinyeta aporta un detall de com va viure la lectura."
+          },
+          "l283b-q10": {
+            "prompt": "Per què la goma sense fer servir és significativa al final?",
+            "options": [
+              "Perquè recorda la decisió de conservar la primera visita.",
+              "Perquè indica que van abandonar la revisió del diari.",
+              "Perquè demostra que tots els símbols eren correctes des del començament.",
+              "Perquè explica que la corda va tornar al porxo abans de publicar."
+            ],
+            "correct": "a",
+            "explanation": "Recorda que van decidir conservar la primera observació en lloc d’esborrar-la."
+          },
+          "l283b-q11": {
+            "prompt": "Quin resum recull el desenvolupament de la pàgina?",
+            "options": [
+              "Van substituir els símbols inicials pels del final i van afegir una vinyeta.",
+              "Van publicar un plànol de costums setmanals basat en una visita completa.",
+              "Van separar moments, van explicar-ne l’abast i van afegir un detall personal.",
+              "Van reunir els jocs de tot dimarts i van demanar a en Leo que triés els títols."
+            ],
+            "correct": "c",
+            "explanation": "Van separar les observacions en dos plànols, van explicar símbols i moments, van concretar el dia i van afegir l’experiència d’en Leo en una vinyeta."
+          }
+        }
+      }
+    ]
   }
 ];
