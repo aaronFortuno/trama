@@ -8999,5 +8999,1524 @@ export const observatoryPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L295",
+    "edition": "v1.61.6",
+    "family": {
+      "id": "familia-l295",
+      "code": "L295",
+      "name": {
+        "es": "El ruido que bajó por el tejado",
+        "ca": "El soroll que va baixar per la teulada"
+      },
+      "description": {
+        "ca": "Una història de L’observatori del turó, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de El observatorio de la colina, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L295A",
+        "L295",
+        "L295B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "el-ruido-que-bajo-por-el-tejado-a-es",
+        "code": "L295A",
+        "workId": "el-ruido-que-bajo-por-el-tejado-a",
+        "language": "es",
+        "familyId": "familia-l295",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "3-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "nature",
+          "adventure",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "El ruido que bajó por el tejado",
+        "summary": "Un ruido sorprende a Dani y Mira en el observatorio. Mirar hacia el porche les ayuda a encontrar su origen.",
+        "paragraphs": [
+          "Dani y Mira esperaban a Joana, la guía, junto al pequeño observatorio de la colina. El edificio tenía una cúpula gris y estaba rodeado de pinos. De pronto oyeron dos golpes: «cloc, cloc». Dani miró la cúpula. Mira se acercó al porche, la parte cubierta de la entrada.",
+          "Joana salió con una linterna. El ruido había sonado otra vez cerca del porche. Los tres miraron hacia el canalón, el tubo abierto que recogía el agua del tejado. Una piña grande sobresalía por encima del borde. Debajo había otras dos piñas quietas.",
+          "Llegó una ráfaga. La piña se movió por el canalón y golpeó una unión del metal. «Cloc». Esta vez la vieron moverse mientras sonaba el golpe. Dani dejó de mirar la cúpula. Mira sonrió y repitió el ruido con la boca.",
+          "Joana anotó la limpieza del canalón para el día siguiente. Ella y Mira entraron; Dani se quedó fuera. Llamó con dos golpes y Mira abrió: «Ya sabemos quién viene ahora»."
+        ],
+        "questions": [
+          {
+            "id": "l295a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Dónde esperaban Dani y Mira?",
+            "answer": "Junto al observatorio de la colina.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "junto al pequeño observatorio de la colina"
+              }
+            ]
+          },
+          {
+            "id": "l295a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué objeto se movió cuando llegó la ráfaga?",
+            "answer": "La piña que sobresalía del canalón.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La piña se movió por el canalón"
+              }
+            ]
+          },
+          {
+            "id": "l295a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué les ayudó a relacionar el golpe con la piña?",
+            "answer": "Vieron que la piña se movía y golpeaba el metal justo cuando sonaba el ruido.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Esta vez la vieron moverse mientras sonaba el golpe."
+              }
+            ]
+          },
+          {
+            "id": "l295a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué es el «porche» en esta lectura?",
+            "answer": "La parte cubierta de la entrada.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "porche, la parte cubierta de la entrada"
+              }
+            ]
+          },
+          {
+            "id": "l295a-q5",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "Explica en dos frases qué pasó con el ruido.",
+            "answer": "Oyeron golpes cerca del observatorio. Después vieron una piña moverse en el canalón y golpear el metal.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "De pronto oyeron dos golpes"
+              },
+              {
+                "paragraph": 3,
+                "text": "La piña se movió por el canalón y golpeó una unión del metal."
+              }
+            ]
+          },
+          {
+            "id": "l295a-q6",
+            "type": "opinion",
+            "lines": 2,
+            "prompt": "¿Qué habrías mirado tú al oír los golpes? Explica por qué.",
+            "answer": "Respuesta personal: debe proponer un lugar u objeto de la escena y dar un motivo comprensible."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "porche",
+            "occurrence": 1,
+            "questionId": "l295a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l295-scene",
+            "src": "assets/readings/l295-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Dani, Mira y la guía Joana miran una piña que sobresale del canalón bajo del porche del observatorio.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El pequeño observatorio de piedra clara y cúpula gris en una colina con pinos, bajo un cielo lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-ruido-que-bajo-por-el-tejado-a-ca",
+        "code": "L295A",
+        "workId": "el-ruido-que-bajo-por-el-tejado-a",
+        "language": "ca",
+        "familyId": "familia-l295",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "3-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "nature",
+          "adventure",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "El soroll que va baixar per la teulada",
+        "summary": "Un soroll sorprèn en Dani i la Mira a l’observatori. Mirar cap al porxo els ajuda a trobar-ne l’origen.",
+        "paragraphs": [
+          "En Dani i la Mira esperaven la Joana, la guia, al costat del petit observatori del turó. L’edifici tenia una cúpula grisa i estava envoltat de pins. De sobte van sentir dos cops: «cloc, cloc». En Dani va mirar la cúpula. La Mira es va acostar al porxo, la part coberta de l’entrada.",
+          "La Joana va sortir amb una llanterna. El soroll havia sonat una altra vegada prop del porxo. Tots tres van mirar cap al canaló, el tub obert que recollia l’aigua de la teulada. Una pinya grossa sobresortia per damunt de la vora. A sota hi havia dues altres pinyes quietes.",
+          "Va arribar una ràfega. La pinya es va moure pel canaló i va colpejar una unió del metall. «Cloc». Aquest cop la van veure moure’s mentre sonava el cop. En Dani va deixar de mirar la cúpula. La Mira va somriure i va repetir el soroll amb la boca.",
+          "La Joana va apuntar la neteja del canaló per a l’endemà. Ella i la Mira van entrar; en Dani es va quedar fora. Va trucar amb dos cops i la Mira va obrir: «Ara ja sabem qui ve»."
+        ],
+        "questions": [
+          {
+            "id": "l295a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "On esperaven en Dani i la Mira?",
+            "answer": "Al costat de l’observatori del turó.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "al costat del petit observatori del turó"
+              }
+            ]
+          },
+          {
+            "id": "l295a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quin objecte es va moure quan va arribar la ràfega?",
+            "answer": "La pinya que sobresortia del canaló.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La pinya es va moure pel canaló"
+              }
+            ]
+          },
+          {
+            "id": "l295a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què els va ajudar a relacionar el cop amb la pinya?",
+            "answer": "Van veure que la pinya es movia i colpejava el metall just quan sonava el soroll.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Aquest cop la van veure moure’s mentre sonava el cop."
+              }
+            ]
+          },
+          {
+            "id": "l295a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què és el «porxo» en aquesta lectura?",
+            "answer": "La part coberta de l’entrada.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "porxo, la part coberta de l’entrada"
+              }
+            ]
+          },
+          {
+            "id": "l295a-q5",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "Explica en dues frases què va passar amb el soroll.",
+            "answer": "Van sentir cops prop de l’observatori. Després van veure una pinya moure’s pel canaló i colpejar el metall.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "De sobte van sentir dos cops"
+              },
+              {
+                "paragraph": 3,
+                "text": "La pinya es va moure pel canaló i va colpejar una unió del metall."
+              }
+            ]
+          },
+          {
+            "id": "l295a-q6",
+            "type": "opinion",
+            "lines": 2,
+            "prompt": "Què hauries mirat tu en sentir els cops? Explica per què.",
+            "answer": "Resposta personal: ha de proposar un lloc o objecte de l’escena i donar un motiu entenedor."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "porxo",
+            "occurrence": 1,
+            "questionId": "l295a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l295-scene",
+            "src": "assets/readings/l295-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Dani, la Mira i la guia Joana miren una pinya que sobresurt del canaló baix del porxo de l’observatori.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El petit observatori de pedra clara i cúpula grisa en un turó amb pins, sota un cel lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-ruido-que-bajo-por-el-tejado-es",
+        "code": "L295",
+        "workId": "el-ruido-que-bajo-por-el-tejado",
+        "language": "es",
+        "familyId": "familia-l295",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "nature",
+          "adventure",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "El ruido que bajó por el tejado",
+        "summary": "Dos golpes interrumpen la espera junto al observatorio. Dani y Mira siguen el sonido con ayuda de Joana.",
+        "paragraphs": [
+          "Dani y Mira esperaban junto al observatorio de la colina, un edificio de piedra clara rodeado de pinos. Joana, la guía adulta, terminaba de preparar la sala. Entonces sonó «cloc, cloc». Dani levantó la vista hacia la cúpula gris. «¿Se habrá movido algo ahí dentro?». Mira escuchó desde la entrada: el golpe le parecía más cercano al porche.",
+          "El ruido se repitió cuando se agitaron las ramas. Mira llamó a Joana. La guía salió con una linterna y se quedó con ellos en el suelo. Cerca del porche había un canalón bajo que recogía el agua del tejado. Una piña grande sobresalía del borde; otras dos descansaban junto al muro.",
+          "«Allí hay piñas», dijo Dani señalando el suelo. Mira miró hacia arriba. Antes de que respondiera, llegó otra ráfaga. Vieron avanzar un poco la piña del canalón. Topó con una unión del metal y sonó un golpe seco. Dani miró la cúpula una vez más y luego volvió los ojos al borde del tejado.",
+          "Esperaron junto al porche. La linterna seguía iluminando el mismo tramo. Otra sacudida de las ramas hizo rodar la piña y se oyó de nuevo «cloc». Mira imitó el ruido con la boca. Esta vez Dani se echó a reír antes de levantar la cabeza.",
+          "Joana apuntó que al día siguiente limpiarían aquel canalón. Ella y Mira entraron en la sala. Dani se quedó fuera y llamó con dos golpes. Mira abrió: «Ahora sí que has llegado tú». Joana dejó la linterna junto a los cuadernos."
+        ],
+        "questions": [
+          {
+            "id": "l295-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué estaba haciendo Joana antes de salir?",
+            "answer": "Terminaba de preparar la sala.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "terminaba de preparar la sala"
+              }
+            ]
+          },
+          {
+            "id": "l295-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Dónde estaban las tres piñas que vieron?",
+            "answer": "Una en el canalón y dos junto al muro.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Una piña grande sobresalía del borde; otras dos descansaban junto al muro."
+              }
+            ]
+          },
+          {
+            "id": "l295-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Para qué llamó Mira a Joana cuando se repitió el ruido?",
+            "answer": "Buscó la ayuda de la guía para localizar mejor un ruido que se repetía cerca del porche.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El ruido se repitió cuando se agitaron las ramas. Mira llamó a Joana."
+              },
+              {
+                "paragraph": 2,
+                "text": "La guía salió con una linterna"
+              }
+            ]
+          },
+          {
+            "id": "l295-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa que la piña «sobresalía» del borde?",
+            "answer": "Que una parte se veía por encima del borde.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Una piña grande sobresalía del borde"
+              }
+            ]
+          },
+          {
+            "id": "l295-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué encontrar dos piñas en el suelo no bastaba para explicar los golpes?",
+            "answer": "Porque estaban quietas. La relación con el ruido se vio cuando la del canalón se movió y golpeó el metal.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "otras dos descansaban junto al muro"
+              },
+              {
+                "paragraph": 3,
+                "text": "Topó con una unión del metal y sonó un golpe seco."
+              }
+            ]
+          },
+          {
+            "id": "l295-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué relación tienen los golpes de la puerta del final con el principio?",
+            "answer": "Repiten los dos golpes que al principio los habían sorprendido, ahora como una broma de Dani.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Entonces sonó «cloc, cloc»."
+              },
+              {
+                "paragraph": 5,
+                "text": "Dani se quedó fuera y llamó con dos golpes."
+              }
+            ]
+          },
+          {
+            "id": "l295-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume cómo pasaron de oír el ruido a encontrar su origen.",
+            "answer": "Primero miraron en direcciones distintas. Con Joana iluminaron el canalón y vieron una piña moverse y golpear el metal dos veces.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Dani levantó la vista hacia la cúpula gris"
+              },
+              {
+                "paragraph": 3,
+                "text": "Topó con una unión del metal y sonó un golpe seco."
+              },
+              {
+                "paragraph": 4,
+                "text": "Otra sacudida de las ramas hizo rodar la piña y se oyó de nuevo «cloc»."
+              }
+            ]
+          },
+          {
+            "id": "l295-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué detalle te parece que hace más divertido el final? Explica tu elección.",
+            "answer": "Respuesta personal argumentada: puede valorar la imitación de Mira o los golpes de Dani, relacionándolos con la sorpresa inicial."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "sobresalía",
+            "occurrence": 1,
+            "questionId": "l295-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l295-scene",
+            "src": "assets/readings/l295-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Dani, Mira y la guía Joana miran una piña que sobresale del canalón bajo del porche del observatorio.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El pequeño observatorio de piedra clara y cúpula gris en una colina con pinos, bajo un cielo lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-ruido-que-bajo-por-el-tejado-ca",
+        "code": "L295",
+        "workId": "el-ruido-que-bajo-por-el-tejado",
+        "language": "ca",
+        "familyId": "familia-l295",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "nature",
+          "adventure",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "El soroll que va baixar per la teulada",
+        "summary": "Dos cops interrompen l’espera al costat de l’observatori. En Dani i la Mira segueixen el so amb ajuda de la Joana.",
+        "paragraphs": [
+          "En Dani i la Mira esperaven a l’observatori del turó, entre pins. La Joana, la guia, acabava de preparar la sala. Llavors va sonar «cloc, cloc». En Dani va alçar la vista cap a la cúpula grisa. «S’hi deu haver mogut alguna cosa?». La Mira va escoltar: el cop li semblava més proper al porxo.",
+          "El soroll es va repetir quan es van agitar les branques. La Mira va cridar la Joana. La guia va sortir amb una llanterna i es va quedar amb ells a terra. Prop del porxo hi havia un canaló baix que recollia l’aigua de la teulada. Una pinya grossa sobresortia de la vora; dues altres descansaven al costat del mur.",
+          "«Allà hi ha pinyes», va dir en Dani. La Mira va mirar cap amunt. Va arribar una altra ràfega. Van veure avançar la pinya del canaló. Va topar amb una unió del metall i va sonar un cop sec. En Dani va mirar la cúpula i després la vora de la teulada.",
+          "Van esperar al costat del porxo. La llanterna continuava il·luminant el mateix tram. Una altra sacsejada de les branques va fer rodolar la pinya i es va tornar a sentir «cloc». La Mira va imitar el soroll amb la boca. Aquest cop en Dani es va posar a riure abans d’alçar el cap.",
+          "La Joana va apuntar que l’endemà netejarien aquell canaló. Ella i la Mira van entrar a la sala. En Dani es va quedar fora i va trucar amb dos cops. La Mira va obrir: «Ara sí que has arribat tu». La Joana va deixar la llanterna al costat dels quaderns."
+        ],
+        "questions": [
+          {
+            "id": "l295-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què feia la Joana abans de sortir?",
+            "answer": "Acabava de preparar la sala.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "acabava de preparar la sala"
+              }
+            ]
+          },
+          {
+            "id": "l295-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "On eren les tres pinyes que van veure?",
+            "answer": "Una al canaló i dues al costat del mur.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Una pinya grossa sobresortia de la vora; dues altres descansaven al costat del mur."
+              }
+            ]
+          },
+          {
+            "id": "l295-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per a què va cridar la Mira la Joana quan es va repetir el soroll?",
+            "answer": "Va buscar l’ajuda de la guia per localitzar millor un soroll que es repetia prop del porxo.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El soroll es va repetir quan es van agitar les branques. La Mira va cridar la Joana."
+              },
+              {
+                "paragraph": 2,
+                "text": "La guia va sortir amb una llanterna"
+              }
+            ]
+          },
+          {
+            "id": "l295-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir que la pinya «sobresortia» de la vora?",
+            "answer": "Que una part es veia per damunt de la vora.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Una pinya grossa sobresortia de la vora"
+              }
+            ]
+          },
+          {
+            "id": "l295-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què trobar dues pinyes a terra no era suficient per explicar els cops?",
+            "answer": "Perquè estaven quietes. La relació amb el soroll es va veure quan la del canaló es va moure i va colpejar el metall.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "dues altres descansaven al costat del mur"
+              },
+              {
+                "paragraph": 3,
+                "text": "Va topar amb una unió del metall i va sonar un cop sec."
+              }
+            ]
+          },
+          {
+            "id": "l295-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quina relació tenen els cops de la porta del final amb el principi?",
+            "answer": "Repeteixen els dos cops que al principi els havien sorprès, ara com una broma d’en Dani.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Llavors va sonar «cloc, cloc»."
+              },
+              {
+                "paragraph": 5,
+                "text": "En Dani es va quedar fora i va trucar amb dos cops."
+              }
+            ]
+          },
+          {
+            "id": "l295-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix com van passar de sentir el soroll a trobar-ne l’origen.",
+            "answer": "Primer van mirar en direccions diferents. Amb la Joana van il·luminar el canaló i van veure una pinya moure’s i colpejar el metall dues vegades.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "En Dani va alçar la vista cap a la cúpula grisa"
+              },
+              {
+                "paragraph": 3,
+                "text": "Va topar amb una unió del metall i va sonar un cop sec."
+              },
+              {
+                "paragraph": 4,
+                "text": "Una altra sacsejada de les branques va fer rodolar la pinya i es va tornar a sentir «cloc»."
+              }
+            ]
+          },
+          {
+            "id": "l295-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quin detall et sembla que fa més divertit el final? Explica la teva tria.",
+            "answer": "Resposta personal argumentada: pot valorar la imitació de la Mira o els cops d’en Dani, relacionant-los amb la sorpresa inicial."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "sobresortia",
+            "occurrence": 1,
+            "questionId": "l295-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l295-scene",
+            "src": "assets/readings/l295-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Dani, la Mira i la guia Joana miren una pinya que sobresurt del canaló baix del porxo de l’observatori.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El petit observatori de pedra clara i cúpula grisa en un turó amb pins, sota un cel lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-ruido-que-bajo-por-el-tejado-b-es",
+        "code": "L295B",
+        "workId": "el-ruido-que-bajo-por-el-tejado-b",
+        "language": "es",
+        "familyId": "familia-l295",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "nature",
+          "adventure",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "El ruido que bajó por el tejado",
+        "summary": "Una primera sospecha apunta a la cúpula. El sonido y un movimiento que se repite llevan a Dani y Mira hacia otra parte del observatorio.",
+        "paragraphs": [
+          "En el observatorio de la colina, Dani y Mira aguardaban junto a la entrada. Joana, la guía adulta, ordenaba los cuadernos de la visita. El cielo se iba volviendo lavanda sobre los pinos. Entonces se oyó «cloc, cloc», con una pausa breve entre ambos golpes. Dani miró la cúpula gris: «¿Habrá quedado algo suelto ahí dentro?». Mira dio unos pasos hacia el porche. Desde allí le parecía que el sonido venía del borde del tejado, bastante más abajo.",
+          "Al agitarse las ramas, volvieron a oír un golpe. Mira llamó a Joana, que salió con una linterna. Los tres se quedaron en el suelo, a un lado de la entrada, desde donde podían ver el canalón bajo del porche. Aquel tubo abierto recogía el agua del pequeño tejado. Una piña grande sobresalía de su borde. Junto al muro había otras dos, quietas entre agujas de pino.",
+          "Dani señaló las piñas del suelo. Joana acercó el haz de luz al canalón y Mira levantó la cabeza. Llegó una ráfaga. La piña de arriba rodó un palmo y topó con una unión del metal. El golpe sonó al mismo tiempo. Dani se volvió hacia la cúpula y luego miró a Joana. Ella mantenía la linterna en el mismo tramo del canalón.",
+          "Esperaron sin moverse. Durante unos instantes solo oyeron hojas y una cremallera: Mira se estaba cerrando la chaqueta que llevaba sobre la sudadera. Otra sacudida de las ramas hizo avanzar de nuevo la piña. Sonó un «cloc» contra el metal. Dani ya estaba mirando hacia allí y esta vez pudo seguir todo el movimiento. «Desde la entrada parecía que estaba encima de nosotros», comentó.",
+          "Joana apuntó que al día siguiente el equipo del observatorio limpiaría aquel canalón. Guardó la linterna y abrió la sala. Mira imitó los golpes con la boca mientras entraba. Dani se quedó un momento fuera y llamó a la puerta con dos nudillos. Ella abrió y le dijo: «Tú suenas más puntual que la piña». Dani entró riéndose y dejó un espacio en su cuaderno para dibujar el porche, además de la cúpula."
+        ],
+        "questions": [
+          {
+            "id": "l295b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿En qué se diferenciaban las primeras ideas de Dani y Mira sobre el lugar del ruido?",
+            "answer": "Dani miró la cúpula; Mira pensó en el borde más bajo del tejado del porche.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Dani miró la cúpula gris"
+              },
+              {
+                "paragraph": 1,
+                "text": "el sonido venía del borde del tejado, bastante más abajo"
+              }
+            ]
+          },
+          {
+            "id": "l295b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué aportó mirar el movimiento de la piña, además de encontrarla allí?",
+            "answer": "Permitió relacionar el golpe con un movimiento concreto contra el metal, no solo con la presencia de una piña.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La piña de arriba rodó un palmo y topó con una unión del metal. El golpe sonó al mismo tiempo."
+              }
+            ]
+          },
+          {
+            "id": "l295b-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué sonido se oyó entre los dos momentos en que vieron rodar la piña?",
+            "answer": "Una cremallera, cuando Mira se cerraba la chaqueta, además de las hojas.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "solo oyeron hojas y una cremallera"
+              }
+            ]
+          },
+          {
+            "id": "l295b-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué es el «haz de luz» que Joana acerca al canalón?",
+            "answer": "La luz dirigida que sale de la linterna.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Joana acercó el haz de luz al canalón"
+              }
+            ]
+          },
+          {
+            "id": "l295b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Para qué les sirvió esperar mirando el mismo tramo del canalón?",
+            "answer": "Pudieron volver a ver el movimiento y oír el golpe juntos; Dani siguió esta vez la secuencia completa.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Otra sacudida de las ramas hizo avanzar de nuevo la piña. Sonó un «cloc» contra el metal."
+              },
+              {
+                "paragraph": 4,
+                "text": "esta vez pudo seguir todo el movimiento"
+              }
+            ]
+          },
+          {
+            "id": "l295b-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué función tiene el ruido de la cremallera dentro de esta escena?",
+            "answer": "Sitúa una breve espera con otros sonidos cotidianos antes de que la piña vuelva a moverse.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Durante unos instantes solo oyeron hojas y una cremallera"
+              }
+            ]
+          },
+          {
+            "id": "l295b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Dani reserva espacio para el porche en su cuaderno?",
+            "answer": "El porche ha pasado a ser un lugar importante de su visita por lo que acaban de descubrir allí.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "dejó un espacio en su cuaderno para dibujar el porche, además de la cúpula"
+              }
+            ]
+          },
+          {
+            "id": "l295b-q8",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué hizo cambiar la primera sospecha de Dani.",
+            "answer": "Aunque primero miró la cúpula, siguieron el sonido hacia el porche. Allí vieron dos veces una piña rodar y golpear el canalón; la segunda vez Dani siguió todo el movimiento.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Dani miró la cúpula gris"
+              },
+              {
+                "paragraph": 3,
+                "text": "El golpe sonó al mismo tiempo."
+              },
+              {
+                "paragraph": 4,
+                "text": "esta vez pudo seguir todo el movimiento"
+              }
+            ]
+          },
+          {
+            "id": "l295b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué tarea queda pendiente al terminar la historia?",
+            "answer": "Limpiar el canalón al día siguiente; se ha apuntado, pero no se cuenta que ya se haya hecho.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "al día siguiente el equipo del observatorio limpiaría aquel canalón"
+              }
+            ]
+          },
+          {
+            "id": "l295b-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Te parece acertada la broma final de Mira? Relaciónala con algo que haya pasado antes.",
+            "answer": "Respuesta personal razonada. Puede relacionar «puntual» con los golpes regulares de Dani frente a los movimientos de la piña cuando soplaba viento."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "haz de luz",
+            "occurrence": 1,
+            "questionId": "l295b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l295-scene",
+            "src": "assets/readings/l295-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Dani, Mira y la guía Joana miran una piña que sobresale del canalón bajo del porche del observatorio.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El pequeño observatorio de piedra clara y cúpula gris en una colina con pinos, bajo un cielo lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "el-ruido-que-bajo-por-el-tejado-b-ca",
+        "code": "L295B",
+        "workId": "el-ruido-que-bajo-por-el-tejado-b",
+        "language": "ca",
+        "familyId": "familia-l295",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "nature",
+          "adventure",
+          "everyday"
+        ],
+        "genre": "narrative",
+        "title": "El soroll que va baixar per la teulada",
+        "summary": "Una primera sospita apunta a la cúpula. El so i un moviment que es repeteix porten en Dani i la Mira cap a una altra part de l’observatori.",
+        "paragraphs": [
+          "A l’observatori del turó, en Dani i la Mira s’esperaven a l’entrada. La Joana, la guia, ordenava els quaderns de la visita. El cel s’anava tornant lavanda damunt dels pins. Llavors es va sentir «cloc, cloc», amb una pausa breu entre tots dos cops. En Dani va mirar la cúpula grisa: «Hi deu haver quedat alguna cosa fluixa?». La Mira va fer uns passos cap al porxo. Des d’allà li semblava que el so venia de la vora de la teulada, força més avall.",
+          "En agitar-se les branques, van tornar a sentir un cop. La Mira va cridar la Joana, que va sortir amb una llanterna. Tots tres es van quedar a terra, a un costat de l’entrada, des d’on podien veure el canaló baix del porxo. Aquell tub obert recollia l’aigua de la petita teulada. Una pinya grossa sobresortia de la vora. Al costat del mur n’hi havia dues altres, quietes entre agulles de pi.",
+          "En Dani va assenyalar les pinyes de terra. La Joana va acostar el feix de llum al canaló i la Mira va alçar el cap. Va arribar una ràfega. La pinya de dalt va rodolar un pam i va topar amb una unió del metall. El cop va sonar al mateix temps. En Dani es va girar cap a la cúpula i després va mirar la Joana. Ella mantenia la llanterna en el mateix tram del canaló.",
+          "Es van esperar sense moure’s. Durant uns instants només van sentir fulles i una cremallera: la Mira es tancava la jaqueta que duia damunt de la dessuadora. Una altra sacsejada de les branques va fer avançar de nou la pinya. Va sonar un «cloc» contra el metall. En Dani ja mirava cap allà i aquest cop va poder seguir tot el moviment. «Des de l’entrada semblava que era damunt nostre», va comentar.",
+          "La Joana va apuntar que l’endemà l’equip de l’observatori netejaria aquell canaló. Va desar la llanterna i va obrir la sala. La Mira va imitar els cops amb la boca mentre entrava. En Dani es va quedar un moment a fora i va trucar a la porta amb dos artells. Ella va obrir i li va dir: «Tu sones més puntual que la pinya». En Dani va entrar rient i va deixar un espai al quadern per dibuixar el porxo, a més de la cúpula."
+        ],
+        "questions": [
+          {
+            "id": "l295b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "En què es diferenciaven les primeres idees d’en Dani i la Mira sobre el lloc del soroll?",
+            "answer": "En Dani va mirar la cúpula; la Mira va pensar en la vora més baixa de la teulada del porxo.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "En Dani va mirar la cúpula grisa"
+              },
+              {
+                "paragraph": 1,
+                "text": "el so venia de la vora de la teulada, força més avall"
+              }
+            ]
+          },
+          {
+            "id": "l295b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què va aportar mirar el moviment de la pinya, a més de trobar-la allà?",
+            "answer": "Va permetre relacionar el cop amb un moviment concret contra el metall, no només amb la presència d’una pinya.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La pinya de dalt va rodolar un pam i va topar amb una unió del metall. El cop va sonar al mateix temps."
+              }
+            ]
+          },
+          {
+            "id": "l295b-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quin so es va sentir entre els dos moments en què van veure rodolar la pinya?",
+            "answer": "Una cremallera, quan la Mira es tancava la jaqueta, a més de les fulles.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "només van sentir fulles i una cremallera"
+              }
+            ]
+          },
+          {
+            "id": "l295b-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què és el «feix de llum» que la Joana acosta al canaló?",
+            "answer": "La llum dirigida que surt de la llanterna.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La Joana va acostar el feix de llum al canaló"
+              }
+            ]
+          },
+          {
+            "id": "l295b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per a què els va servir esperar mirant el mateix tram del canaló?",
+            "answer": "Van poder tornar a veure el moviment i sentir el cop junts; en Dani aquest cop va seguir la seqüència completa.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Una altra sacsejada de les branques va fer avançar de nou la pinya. Va sonar un «cloc» contra el metall."
+              },
+              {
+                "paragraph": 4,
+                "text": "aquest cop va poder seguir tot el moviment"
+              }
+            ]
+          },
+          {
+            "id": "l295b-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quina funció té el soroll de la cremallera dins d’aquesta escena?",
+            "answer": "Situa una espera breu amb altres sons quotidians abans que la pinya es torni a moure.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Durant uns instants només van sentir fulles i una cremallera"
+              }
+            ]
+          },
+          {
+            "id": "l295b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què en Dani reserva espai per al porxo al quadern?",
+            "answer": "El porxo ha passat a ser un lloc important de la visita pel que hi acaben de descobrir.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "va deixar un espai al quadern per dibuixar el porxo, a més de la cúpula"
+              }
+            ]
+          },
+          {
+            "id": "l295b-q8",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix què va fer canviar la primera sospita d’en Dani.",
+            "answer": "Tot i que primer va mirar la cúpula, van seguir el so cap al porxo. Allà van veure dues vegades una pinya rodolar i colpejar el canaló; la segona vegada en Dani va seguir tot el moviment.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "En Dani va mirar la cúpula grisa"
+              },
+              {
+                "paragraph": 3,
+                "text": "El cop va sonar al mateix temps."
+              },
+              {
+                "paragraph": 4,
+                "text": "aquest cop va poder seguir tot el moviment"
+              }
+            ]
+          },
+          {
+            "id": "l295b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina tasca queda pendent quan s’acaba la història?",
+            "answer": "Netejar el canaló l’endemà; s’ha apuntat, però no s’explica que ja s’hagi fet.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "l’endemà l’equip de l’observatori netejaria aquell canaló"
+              }
+            ]
+          },
+          {
+            "id": "l295b-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Et sembla encertada la broma final de la Mira? Relaciona-la amb alguna cosa que hagi passat abans.",
+            "answer": "Resposta personal raonada. Pot relacionar «puntual» amb els cops seguits d’en Dani davant dels moviments de la pinya quan bufava el vent."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "feix de llum",
+            "occurrence": 1,
+            "questionId": "l295b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l295-scene",
+            "src": "assets/readings/l295-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "En Dani, la Mira i la guia Joana miren una pinya que sobresurt del canaló baix del porxo de l’observatori.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El petit observatori de pedra clara i cúpula grisa en un turó amb pins, sota un cel lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L295A",
+        "language": "es",
+        "questions": {
+          "l295a-q1": {
+            "prompt": "¿Dónde esperaban Dani y Mira?",
+            "options": [
+              "Junto al observatorio.",
+              "Dentro de la cúpula.",
+              "Debajo de los pinos, lejos del edificio.",
+              "Dentro de la sala de visitas."
+            ],
+            "correct": "a",
+            "explanation": "Junto al observatorio de la colina."
+          },
+          "l295a-q2": {
+            "prompt": "¿Qué objeto se movió cuando llegó la ráfaga?",
+            "options": [
+              "Una de las piñas del suelo.",
+              "La piña del canalón.",
+              "La linterna de Joana.",
+              "La puerta del porche."
+            ],
+            "correct": "b",
+            "explanation": "La piña que sobresalía del canalón."
+          },
+          "l295a-q3": {
+            "prompt": "¿Qué les ayudó a relacionar el golpe con la piña?",
+            "options": [
+              "Encontraron dos piñas quietas en el suelo.",
+              "Dani miró primero la cúpula.",
+              "Vieron moverse la piña mientras sonaba el golpe.",
+              "Joana salió antes de que soplara el viento."
+            ],
+            "correct": "c",
+            "explanation": "Vieron que la piña se movía y golpeaba el metal justo cuando sonaba el ruido."
+          },
+          "l295a-q4": {
+            "prompt": "¿Qué es el «porche» en esta lectura?",
+            "options": [
+              "La sala bajo la cúpula.",
+              "La parte del camino entre pinos.",
+              "El tubo que recoge agua.",
+              "La parte cubierta de la entrada."
+            ],
+            "correct": "d",
+            "explanation": "La parte cubierta de la entrada."
+          },
+          "l295a-q5": {
+            "prompt": "¿Qué resumen cuenta mejor lo ocurrido?",
+            "options": [
+              "Un ruido les hizo mirar y vieron una piña golpear el canalón.",
+              "Encontraron piñas en el suelo y entraron sin volver a oír nada.",
+              "Oyeron golpes en la cúpula y Joana subió a revisarla.",
+              "Dani llamó a la puerta antes de que llegara Joana."
+            ],
+            "correct": "a",
+            "explanation": "Oyeron golpes cerca del observatorio. Después vieron una piña moverse en el canalón y golpear el metal."
+          }
+        }
+      },
+      {
+        "code": "L295A",
+        "language": "ca",
+        "questions": {
+          "l295a-q1": {
+            "prompt": "On esperaven en Dani i la Mira?",
+            "options": [
+              "Al costat de l’observatori.",
+              "Dins de la cúpula.",
+              "Sota els pins, lluny de l’edifici.",
+              "Dins de la sala de visites."
+            ],
+            "correct": "a",
+            "explanation": "Al costat de l’observatori del turó."
+          },
+          "l295a-q2": {
+            "prompt": "Quin objecte es va moure quan va arribar la ràfega?",
+            "options": [
+              "Una de les pinyes de terra.",
+              "La pinya del canaló.",
+              "La llanterna de la Joana.",
+              "La porta del porxo."
+            ],
+            "correct": "b",
+            "explanation": "La pinya que sobresortia del canaló."
+          },
+          "l295a-q3": {
+            "prompt": "Què els va ajudar a relacionar el cop amb la pinya?",
+            "options": [
+              "Van trobar dues pinyes quietes a terra.",
+              "En Dani va mirar primer la cúpula.",
+              "Van veure moure’s la pinya mentre sonava el cop.",
+              "La Joana va sortir abans que bufés el vent."
+            ],
+            "correct": "c",
+            "explanation": "Van veure que la pinya es movia i colpejava el metall just quan sonava el soroll."
+          },
+          "l295a-q4": {
+            "prompt": "Què és el «porxo» en aquesta lectura?",
+            "options": [
+              "La sala sota la cúpula.",
+              "La part del camí entre pins.",
+              "El tub que recull aigua.",
+              "La part coberta de l’entrada."
+            ],
+            "correct": "d",
+            "explanation": "La part coberta de l’entrada."
+          },
+          "l295a-q5": {
+            "prompt": "Quin resum explica millor el que va passar?",
+            "options": [
+              "Un soroll els va fer mirar i van veure una pinya colpejar el canaló.",
+              "Van trobar pinyes a terra i van entrar sense tornar a sentir res.",
+              "Van sentir cops a la cúpula i la Joana va pujar a revisar-la.",
+              "En Dani va trucar a la porta abans que arribés la Joana."
+            ],
+            "correct": "a",
+            "explanation": "Van sentir cops prop de l’observatori. Després van veure una pinya moure’s pel canaló i colpejar el metall."
+          }
+        }
+      },
+      {
+        "code": "L295",
+        "language": "es",
+        "questions": {
+          "l295-q1": {
+            "prompt": "¿Qué estaba haciendo Joana antes de salir?",
+            "options": [
+              "Revisaba el canalón.",
+              "Preparaba la sala.",
+              "Abría la cúpula.",
+              "Recogía las piñas del muro."
+            ],
+            "correct": "b",
+            "explanation": "Terminaba de preparar la sala."
+          },
+          "l295-q2": {
+            "prompt": "¿Dónde estaban las tres piñas que vieron?",
+            "options": [
+              "Dos en el canalón y una junto al muro.",
+              "Las tres al pie de los pinos.",
+              "Una en el canalón y dos junto al muro.",
+              "Una sobre la cúpula y dos en el porche."
+            ],
+            "correct": "c",
+            "explanation": "Una en el canalón y dos junto al muro."
+          },
+          "l295-q3": {
+            "prompt": "¿Para qué llamó Mira a Joana cuando se repitió el ruido?",
+            "options": [
+              "Quería que la guía confirmara que el ruido venía de la cúpula.",
+              "Necesitaba que Joana recogiera las piñas del suelo.",
+              "Ya había visto la piña golpear y quería contárselo.",
+              "Buscó ayuda para localizar el ruido que se repetía."
+            ],
+            "correct": "d",
+            "explanation": "Buscó la ayuda de la guía para localizar mejor un ruido que se repetía cerca del porche."
+          },
+          "l295-q4": {
+            "prompt": "¿Qué significa que la piña «sobresalía» del borde?",
+            "options": [
+              "Una parte quedaba por encima del borde.",
+              "Había caído al lado del muro.",
+              "Estaba completamente tapada por el metal.",
+              "Se mantenía quieta debajo del canalón."
+            ],
+            "correct": "a",
+            "explanation": "Que una parte se veía por encima del borde."
+          },
+          "l295-q5": {
+            "prompt": "¿Por qué encontrar dos piñas en el suelo no bastaba para explicar los golpes?",
+            "options": [
+              "Las dos piñas del suelo habían caído después de los golpes.",
+              "Estaban quietas; aún faltaba ver qué producía un golpe.",
+              "Mira había oído el ruido desde dentro de la cúpula.",
+              "Joana ya había limpiado el canalón antes de salir."
+            ],
+            "correct": "b",
+            "explanation": "Porque estaban quietas. La relación con el ruido se vio cuando la del canalón se movió y golpeó el metal."
+          },
+          "l295-q6": {
+            "prompt": "¿Qué relación tienen los golpes de la puerta del final con el principio?",
+            "options": [
+              "Demuestran que la piña ya cayó al suelo.",
+              "Avisan de que Joana vuelve a salir con la linterna.",
+              "Recuperan el sonido inicial convertido en una broma.",
+              "Revelan que Dani había hecho también el primer ruido."
+            ],
+            "correct": "c",
+            "explanation": "Repiten los dos golpes que al principio los habían sorprendido, ahora como una broma de Dani."
+          },
+          "l295-q7": {
+            "prompt": "¿Qué resumen sigue el orden del descubrimiento?",
+            "options": [
+              "Joana limpió el canalón y entonces descubrieron tres piñas.",
+              "El ruido de la cúpula los llevó al porche para buscar a Dani.",
+              "Las piñas del suelo los hicieron entrar sin mirar el tejado.",
+              "Siguieron el sonido y vieron una piña golpear el canalón."
+            ],
+            "correct": "d",
+            "explanation": "Primero miraron en direcciones distintas. Con Joana iluminaron el canalón y vieron una piña moverse y golpear el metal dos veces."
+          }
+        }
+      },
+      {
+        "code": "L295",
+        "language": "ca",
+        "questions": {
+          "l295-q1": {
+            "prompt": "Què feia la Joana abans de sortir?",
+            "options": [
+              "Revisava el canaló.",
+              "Preparava la sala.",
+              "Obria la cúpula.",
+              "Recollia les pinyes del mur."
+            ],
+            "correct": "b",
+            "explanation": "Acabava de preparar la sala."
+          },
+          "l295-q2": {
+            "prompt": "On eren les tres pinyes que van veure?",
+            "options": [
+              "Dues al canaló i una al costat del mur.",
+              "Totes tres al peu dels pins.",
+              "Una al canaló i dues al costat del mur.",
+              "Una damunt la cúpula i dues al porxo."
+            ],
+            "correct": "c",
+            "explanation": "Una al canaló i dues al costat del mur."
+          },
+          "l295-q3": {
+            "prompt": "Per a què va cridar la Mira la Joana quan es va repetir el soroll?",
+            "options": [
+              "Volia que la guia confirmés que el soroll venia de la cúpula.",
+              "Necessitava que la Joana recollís les pinyes de terra.",
+              "Ja havia vist la pinya colpejar i volia explicar-l’hi.",
+              "Va buscar ajuda per localitzar el soroll que es repetia."
+            ],
+            "correct": "d",
+            "explanation": "Va buscar l’ajuda de la guia per localitzar millor un soroll que es repetia prop del porxo."
+          },
+          "l295-q4": {
+            "prompt": "Què vol dir que la pinya «sobresortia» de la vora?",
+            "options": [
+              "Una part quedava per damunt de la vora.",
+              "Havia caigut al costat del mur.",
+              "Estava completament tapada pel metall.",
+              "Es mantenia quieta sota el canaló."
+            ],
+            "correct": "a",
+            "explanation": "Que una part es veia per damunt de la vora."
+          },
+          "l295-q5": {
+            "prompt": "Per què trobar dues pinyes a terra no era suficient per explicar els cops?",
+            "options": [
+              "Les dues pinyes de terra havien caigut després dels cops.",
+              "Estaven quietes; encara faltava veure què produïa un cop.",
+              "La Mira havia sentit el soroll des de dins de la cúpula.",
+              "La Joana ja havia netejat el canaló abans de sortir."
+            ],
+            "correct": "b",
+            "explanation": "Perquè estaven quietes. La relació amb el soroll es va veure quan la del canaló es va moure i va colpejar el metall."
+          },
+          "l295-q6": {
+            "prompt": "Quina relació tenen els cops de la porta del final amb el principi?",
+            "options": [
+              "Demostren que la pinya ja ha caigut a terra.",
+              "Avisen que la Joana torna a sortir amb la llanterna.",
+              "Recuperen el so inicial convertit en una broma.",
+              "Revelen que en Dani també havia fet el primer soroll."
+            ],
+            "correct": "c",
+            "explanation": "Repeteixen els dos cops que al principi els havien sorprès, ara com una broma d’en Dani."
+          },
+          "l295-q7": {
+            "prompt": "Quin resum segueix l’ordre del descobriment?",
+            "options": [
+              "La Joana va netejar el canaló i llavors van descobrir tres pinyes.",
+              "El soroll de la cúpula els va portar al porxo per buscar en Dani.",
+              "Les pinyes de terra els van fer entrar sense mirar la teulada.",
+              "Van seguir el so i van veure una pinya colpejar el canaló."
+            ],
+            "correct": "d",
+            "explanation": "Primer van mirar en direccions diferents. Amb la Joana van il·luminar el canaló i van veure una pinya moure’s i colpejar el metall dues vegades."
+          }
+        }
+      },
+      {
+        "code": "L295B",
+        "language": "es",
+        "questions": {
+          "l295b-q1": {
+            "prompt": "¿En qué se diferenciaban las primeras ideas de Dani y Mira sobre el lugar del ruido?",
+            "options": [
+              "Dani miró la cúpula y Mira el borde del tejado.",
+              "Dani miró el suelo y Mira el interior de la sala.",
+              "Dani pensó en las ramas y Mira en la puerta.",
+              "Ambos situaron el ruido dentro de la cúpula."
+            ],
+            "correct": "a",
+            "explanation": "Dani miró la cúpula; Mira pensó en el borde más bajo del tejado del porche."
+          },
+          "l295b-q2": {
+            "prompt": "¿Qué aportó mirar el movimiento de la piña, además de encontrarla allí?",
+            "options": [
+              "Permitió saber a qué hora había caído cada piña.",
+              "Relacionó un movimiento contra el metal con el golpe oído.",
+              "Mostró que las piñas del muro también estaban rodando.",
+              "Confirmó que el primer sonido había salido de la sala."
+            ],
+            "correct": "b",
+            "explanation": "Permitió relacionar el golpe con un movimiento concreto contra el metal, no solo con la presencia de una piña."
+          },
+          "l295b-q3": {
+            "prompt": "¿Qué sonido se oyó entre los dos momentos en que vieron rodar la piña?",
+            "options": [
+              "La puerta, cuando Dani llamó para entrar.",
+              "Los cuadernos, cuando Joana los recogía.",
+              "Una cremallera, cuando Mira se cerraba la chaqueta.",
+              "La linterna, cuando Joana la guardó."
+            ],
+            "correct": "c",
+            "explanation": "Una cremallera, cuando Mira se cerraba la chaqueta, además de las hojas."
+          },
+          "l295b-q4": {
+            "prompt": "¿Qué es el «haz de luz» que Joana acerca al canalón?",
+            "options": [
+              "La claridad del cielo sobre los pinos.",
+              "El brillo del metal bajo la cúpula.",
+              "La sombra que tapa el porche.",
+              "La luz dirigida que sale de la linterna."
+            ],
+            "correct": "d",
+            "explanation": "La luz dirigida que sale de la linterna."
+          },
+          "l295b-q5": {
+            "prompt": "¿Para qué les sirvió esperar mirando el mismo tramo del canalón?",
+            "options": [
+              "Para ver y oír otra vez la misma relación.",
+              "Para saber quién había colocado las piñas en el suelo.",
+              "Para comprobar cómo se limpiaba el canalón.",
+              "Para esperar a que Joana terminara de ordenar la sala."
+            ],
+            "correct": "a",
+            "explanation": "Pudieron volver a ver el movimiento y oír el golpe juntos; Dani siguió esta vez la secuencia completa."
+          },
+          "l295b-q6": {
+            "prompt": "¿Qué función tiene el ruido de la cremallera dentro de esta escena?",
+            "options": [
+              "Presenta un nuevo origen para los golpes contra el metal.",
+              "Muestra la espera entre los dos movimientos de la piña.",
+              "Explica por qué Joana dejó de usar la linterna.",
+              "Anuncia que Mira ya ha entrado en la sala."
+            ],
+            "correct": "b",
+            "explanation": "Sitúa una breve espera con otros sonidos cotidianos antes de que la piña vuelva a moverse."
+          },
+          "l295b-q7": {
+            "prompt": "¿Por qué Dani reserva espacio para el porche en su cuaderno?",
+            "options": [
+              "Porque Joana le encargó dibujar cómo limpiar el canalón.",
+              "Porque ya no quiere conservar el dibujo de la cúpula.",
+              "Porque allí ha ocurrido una parte especial de la visita.",
+              "Porque Mira necesita el dibujo para encontrar la entrada."
+            ],
+            "correct": "c",
+            "explanation": "El porche ha pasado a ser un lugar importante de su visita por lo que acaban de descubrir allí."
+          },
+          "l295b-q8": {
+            "prompt": "¿Qué resumen recoge cómo cambió su sospecha?",
+            "options": [
+              "La guía recogió las piñas y entonces dejaron de oír golpes.",
+              "Mira imitó el sonido y Dani descubrió que ella lo había causado.",
+              "Una luz dentro de la cúpula permitió encontrar una pieza suelta.",
+              "Seguir el ruido y ver repetirse el golpe lo llevó al canalón."
+            ],
+            "correct": "d",
+            "explanation": "Aunque primero miró la cúpula, siguieron el sonido hacia el porche. Allí vieron dos veces una piña rodar y golpear el canalón; la segunda vez Dani siguió todo el movimiento."
+          },
+          "l295b-q9": {
+            "prompt": "¿Qué tarea queda pendiente al terminar la historia?",
+            "options": [
+              "La limpieza del canalón prevista para el día siguiente.",
+              "La salida de Joana para iluminar el tejado.",
+              "La segunda observación del movimiento de la piña.",
+              "La entrada de Dani en la sala de trabajo."
+            ],
+            "correct": "a",
+            "explanation": "Limpiar el canalón al día siguiente; se ha apuntado, pero no se cuenta que ya se haya hecho."
+          }
+        }
+      },
+      {
+        "code": "L295B",
+        "language": "ca",
+        "questions": {
+          "l295b-q1": {
+            "prompt": "En què es diferenciaven les primeres idees d’en Dani i la Mira sobre el lloc del soroll?",
+            "options": [
+              "En Dani va mirar la cúpula i la Mira la vora de la teulada.",
+              "En Dani va mirar a terra i la Mira l’interior de la sala.",
+              "En Dani va pensar en les branques i la Mira en la porta.",
+              "Tots dos van situar el soroll dins de la cúpula."
+            ],
+            "correct": "a",
+            "explanation": "En Dani va mirar la cúpula; la Mira va pensar en la vora més baixa de la teulada del porxo."
+          },
+          "l295b-q2": {
+            "prompt": "Què va aportar mirar el moviment de la pinya, a més de trobar-la allà?",
+            "options": [
+              "Va permetre saber a quina hora havia caigut cada pinya.",
+              "Va relacionar un moviment contra el metall amb el cop sentit.",
+              "Va mostrar que les pinyes del mur també rodolaven.",
+              "Va confirmar que el primer so havia sortit de la sala."
+            ],
+            "correct": "b",
+            "explanation": "Va permetre relacionar el cop amb un moviment concret contra el metall, no només amb la presència d’una pinya."
+          },
+          "l295b-q3": {
+            "prompt": "Quin so es va sentir entre els dos moments en què van veure rodolar la pinya?",
+            "options": [
+              "La porta, quan en Dani va trucar per entrar.",
+              "Els quaderns, quan la Joana els recollia.",
+              "Una cremallera, quan la Mira es tancava la jaqueta.",
+              "La llanterna, quan la Joana la va desar."
+            ],
+            "correct": "c",
+            "explanation": "Una cremallera, quan la Mira es tancava la jaqueta, a més de les fulles."
+          },
+          "l295b-q4": {
+            "prompt": "Què és el «feix de llum» que la Joana acosta al canaló?",
+            "options": [
+              "La claror del cel damunt dels pins.",
+              "La brillantor del metall sota la cúpula.",
+              "L’ombra que tapa el porxo.",
+              "La llum dirigida que surt de la llanterna."
+            ],
+            "correct": "d",
+            "explanation": "La llum dirigida que surt de la llanterna."
+          },
+          "l295b-q5": {
+            "prompt": "Per a què els va servir esperar mirant el mateix tram del canaló?",
+            "options": [
+              "Per veure i sentir una altra vegada la mateixa relació.",
+              "Per saber qui havia posat les pinyes a terra.",
+              "Per comprovar com es netejava el canaló.",
+              "Per esperar que la Joana acabés d’endreçar la sala."
+            ],
+            "correct": "a",
+            "explanation": "Van poder tornar a veure el moviment i sentir el cop junts; en Dani aquest cop va seguir la seqüència completa."
+          },
+          "l295b-q6": {
+            "prompt": "Quina funció té el soroll de la cremallera dins d’aquesta escena?",
+            "options": [
+              "Presenta un nou origen per als cops contra el metall.",
+              "Mostra l’espera entre els dos moviments de la pinya.",
+              "Explica per què la Joana va deixar de fer servir la llanterna.",
+              "Anuncia que la Mira ja ha entrat a la sala."
+            ],
+            "correct": "b",
+            "explanation": "Situa una espera breu amb altres sons quotidians abans que la pinya es torni a moure."
+          },
+          "l295b-q7": {
+            "prompt": "Per què en Dani reserva espai per al porxo al quadern?",
+            "options": [
+              "Perquè la Joana li va encarregar dibuixar com netejar el canaló.",
+              "Perquè ja no vol conservar el dibuix de la cúpula.",
+              "Perquè allà ha passat una part especial de la visita.",
+              "Perquè la Mira necessita el dibuix per trobar l’entrada."
+            ],
+            "correct": "c",
+            "explanation": "El porxo ha passat a ser un lloc important de la visita pel que hi acaben de descobrir."
+          },
+          "l295b-q8": {
+            "prompt": "Quin resum recull com va canviar la seva sospita?",
+            "options": [
+              "La guia va recollir les pinyes i llavors van deixar de sentir cops.",
+              "La Mira va imitar el so i en Dani va descobrir que ella l’havia causat.",
+              "Una llum dins de la cúpula va permetre trobar una peça fluixa.",
+              "Seguir el soroll i veure repetir-se el cop el va portar al canaló."
+            ],
+            "correct": "d",
+            "explanation": "Tot i que primer va mirar la cúpula, van seguir el so cap al porxo. Allà van veure dues vegades una pinya rodolar i colpejar el canaló; la segona vegada en Dani va seguir tot el moviment."
+          },
+          "l295b-q9": {
+            "prompt": "Quina tasca queda pendent quan s’acaba la història?",
+            "options": [
+              "La neteja del canaló prevista per a l’endemà.",
+              "La sortida de la Joana per il·luminar la teulada.",
+              "La segona observació del moviment de la pinya.",
+              "L’entrada d’en Dani a la sala de treball."
+            ],
+            "correct": "a",
+            "explanation": "Netejar el canaló l’endemà; s’ha apuntat, però no s’explica que ja s’hagi fet."
+          }
+        }
+      }
+    ]
   }
 ];
