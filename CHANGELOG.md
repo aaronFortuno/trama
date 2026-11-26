@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.59.7 · 26 de novembre del 2026
+
+L275: Sons sense endoll. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 11 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.59.6 · 26 de novembre del 2026
 
 L274: La feina darrere la lluentor. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 10 històries independents. Contingut provisional, pendent de validació docent.

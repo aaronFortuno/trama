@@ -11065,5 +11065,1760 @@ export const libraryPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L275",
+    "edition": "v1.59.7",
+    "family": {
+      "id": "familia-l275",
+      "code": "L275",
+      "name": {
+        "es": "Sonidos sin enchufe",
+        "ca": "Sons sense endoll"
+      },
+      "description": {
+        "ca": "Una història de La biblioteca de les coses, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de La biblioteca de las cosas, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L275A",
+        "L275",
+        "L275B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "sons-sense-endoll-a-es",
+        "code": "L275A",
+        "workId": "sons-sense-endoll-a",
+        "language": "es",
+        "familyId": "familia-l275",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "games"
+        ],
+        "genre": "narrative",
+        "title": "Sonidos sin enchufe",
+        "summary": "Un corte de luz transforma una sesión de sonidos en un juego con objetos de la biblioteca.",
+        "paragraphs": [
+          "El sábado por la tarde había una sesión de adivinar sonidos en la biblioteca de las cosas. El local vecinal prestaba objetos para usos ocasionales y también organizaba encuentros. Rosa, la coordinadora adulta, había preparado grabaciones. Noa y Adil, dos adolescentes colaboradores, colocaban las sillas. Aún entraba luz de día por la ventana verde con arco.",
+          "Cuando empezó la primera grabación, el altavoz se calló y las lámparas se apagaron. En el pasillo tampoco había luz. Rosa habló por teléfono con el encargado del edificio: se había cortado la electricidad y todavía no sabía cuánto tardaría en volver. Los asistentes podían verse bien cerca de la ventana. Nadie tenía ganas de irse tan pronto.",
+          "Adil señaló una campanilla de mano que estaba en el mostrador. También había unas varillas de batir dentro de un cuenco metálico y una caja de música de cuerda. Todos eran objetos que se prestaban en el local.\n—Podemos hacer los sonidos aquí —propuso.\nNoa agitó la campanilla delante del grupo.\n—¡Campanilla! —respondieron varias personas antes de que terminara de sonar.",
+          "La risa les dio una idea. Noa se puso detrás del mostrador, donde el grupo no veía sus manos. Rosa acercó las sillas a la ventana. Desde su escondite, Noa hizo girar las varillas en el cuenco. Un niño imaginó un tren; una mujer, una cocina. Cuando Noa levantó el cuenco, ambos reclamaron medio punto por haberse acercado.",
+          "Después Adil dio cuerda a la caja de música y dejó que sonara detrás del mostrador. Esta vez hubo que guardar silencio para oír la melodía. Algunas personas reconocieron el objeto; otras intentaron recordar la canción. Rosa anotaba las respuestas en un papel. El altavoz seguía mudo, pero ya tenían material para otra ronda de adivinanzas.",
+          "La electricidad volvió antes de terminar. Rosa preguntó si querían escuchar las grabaciones. El niño pidió primero otra ronda del cuenco. «Pero sin sopa», añadió. Noa guardó el cable del altavoz y le pasó las varillas para que le tocara hacer el sonido."
+        ],
+        "questions": [
+          {
+            "id": "l275a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué actividad había preparado Rosa?",
+            "answer": "Una sesión de adivinar sonidos con grabaciones.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "había una sesión de adivinar sonidos"
+              }
+            ]
+          },
+          {
+            "id": "l275a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué sabía el encargado sobre el corte?",
+            "answer": "Que se había cortado la electricidad, pero no cuánto tardaría en volver.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "se había cortado la electricidad y todavía no sabía cuánto tardaría en volver."
+              }
+            ]
+          },
+          {
+            "id": "l275a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué podían continuar cerca de la ventana?",
+            "answer": "Porque aún había luz natural suficiente para verse.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Los asistentes podían verse bien cerca de la ventana."
+              }
+            ]
+          },
+          {
+            "id": "l275a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué quiere decir que el altavoz seguía «mudo»?",
+            "answer": "Que no emitía ningún sonido.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "El altavoz seguía mudo"
+              }
+            ]
+          },
+          {
+            "id": "l275a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Noa esconde las manos detrás del mostrador?",
+            "answer": "Para que el grupo adivine escuchando, sin ver el objeto.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "respondieron varias personas antes de que terminara de sonar."
+              },
+              {
+                "paragraph": 4,
+                "text": "el grupo no veía sus manos."
+              }
+            ]
+          },
+          {
+            "id": "l275a-q6",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué objeto exige más silencio para oírlo?",
+            "answer": "La caja de música de cuerda.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Esta vez hubo que guardar silencio para oír la melodía."
+              }
+            ]
+          },
+          {
+            "id": "l275a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué ocurre con la actividad cuando se corta la luz y cómo termina.",
+            "answer": "Al faltar electricidad, el grupo hace adivinanzas con objetos que producen sonidos sin enchufe y decide continuar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Podemos hacer los sonidos aquí"
+              },
+              {
+                "paragraph": 6,
+                "text": "El niño pidió primero otra ronda del cuenco."
+              }
+            ]
+          },
+          {
+            "id": "l275a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Propón otro sonido que se pueda crear con un objeto sin enchufe. ¿Cómo lo esconderías para que fuera un reto?",
+            "answer": "Propuesta personal viable, con un objeto y una manera razonable de ocultarlo."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "mudo",
+            "occurrence": 1,
+            "questionId": "l275a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l275-scene",
+            "src": "assets/readings/l275-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Campanilla, cuenco con varillas y caja de música en un mostrador iluminado por la ventana; el altavoz queda a un lado.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "sons-sense-endoll-a-ca",
+        "code": "L275A",
+        "workId": "sons-sense-endoll-a",
+        "language": "ca",
+        "familyId": "familia-l275",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "games"
+        ],
+        "genre": "narrative",
+        "title": "Sons sense endoll",
+        "summary": "Un tall de llum transforma una sessió de sons en un joc amb objectes de la biblioteca.",
+        "paragraphs": [
+          "Dissabte a la tarda hi havia una sessió d’endevinar sons a la biblioteca de les coses. El local veïnal deixava objectes per a usos ocasionals i també organitzava trobades. La Rosa, la coordinadora adulta, havia preparat enregistraments. La Noa i l’Adil, dos adolescents col·laboradors, posaven les cadires. Encara entrava claror de dia per la finestra verda amb arc.",
+          "Quan va començar el primer enregistrament, l’altaveu va callar i els llums es van apagar. Al passadís tampoc no hi havia llum. La Rosa va parlar per telèfon amb l’encarregat de l’edifici: s’havia tallat l’electricitat i encara no sabia quant trigaria a tornar. Els assistents es podien veure bé a prop de la finestra. Ningú no tenia ganes de marxar tan aviat.",
+          "L’Adil va assenyalar una campaneta de mà que era al taulell. També hi havia unes varetes de batre dins d’un bol metàl·lic i una capsa de música de corda. Tots eren objectes que es deixaven al local.\n—Podem fer els sons aquí —va proposar.\nLa Noa va agitar la campaneta davant del grup.\n—Campaneta! —van respondre diverses persones abans que acabés de sonar.",
+          "El riure els va donar una idea. La Noa es va posar darrere el taulell, on el grup no li veia les mans. La Rosa va acostar les cadires a la finestra. Des del seu amagatall, la Noa va fer girar les varetes al bol. Un nen va imaginar un tren; una dona, una cuina. Quan la Noa va alçar el bol, tots dos van reclamar mig punt perquè s’hi havien acostat.",
+          "Després l’Adil va donar corda a la capsa de música i la va deixar sonar darrere el taulell. Aquest cop va caldre fer silenci per sentir la melodia. Algunes persones van reconèixer l’objecte; d’altres van intentar recordar la cançó. La Rosa apuntava les respostes en un paper. L’altaveu continuava mut, però ja tenien material per a una altra ronda d’endevinalles.",
+          "L’electricitat va tornar abans d’acabar. La Rosa va preguntar si volien escoltar els enregistraments. El nen va demanar primer una altra ronda del bol. «Però sense sopa», va afegir. La Noa va desar el cable de l’altaveu i li va passar les varetes perquè li toqués fer el so."
+        ],
+        "questions": [
+          {
+            "id": "l275a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quina activitat havia preparat la Rosa?",
+            "answer": "Una sessió d’endevinar sons amb enregistraments.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "hi havia una sessió d’endevinar sons"
+              }
+            ]
+          },
+          {
+            "id": "l275a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què sabia l’encarregat sobre el tall?",
+            "answer": "Que s’havia tallat l’electricitat, però no quant trigaria a tornar.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "s’havia tallat l’electricitat i encara no sabia quant trigaria a tornar."
+              }
+            ]
+          },
+          {
+            "id": "l275a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què podien continuar a prop de la finestra?",
+            "answer": "Perquè encara hi havia prou llum natural per veure’s.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Els assistents es podien veure bé a prop de la finestra."
+              }
+            ]
+          },
+          {
+            "id": "l275a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir que l’altaveu continuava «mut»?",
+            "answer": "Que no emetia cap so.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "L’altaveu continuava mut"
+              }
+            ]
+          },
+          {
+            "id": "l275a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la Noa amaga les mans darrere el taulell?",
+            "answer": "Perquè el grup endevini escoltant, sense veure l’objecte.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "van respondre diverses persones abans que acabés de sonar."
+              },
+              {
+                "paragraph": 4,
+                "text": "el grup no li veia les mans."
+              }
+            ]
+          },
+          {
+            "id": "l275a-q6",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quin objecte exigeix més silenci per sentir-lo?",
+            "answer": "La capsa de música de corda.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Aquest cop va caldre fer silenci per sentir la melodia."
+              }
+            ]
+          },
+          {
+            "id": "l275a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix què passa amb l’activitat quan es talla la llum i com acaba.",
+            "answer": "Quan falta electricitat, el grup fa endevinalles amb objectes que produeixen sons sense endoll i decideix continuar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Podem fer els sons aquí"
+              },
+              {
+                "paragraph": 6,
+                "text": "El nen va demanar primer una altra ronda del bol."
+              }
+            ]
+          },
+          {
+            "id": "l275a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Proposa un altre so que es pugui crear amb un objecte sense endoll. Com l’amagaries perquè fos un repte?",
+            "answer": "Proposta personal viable, amb un objecte i una manera raonable d’amagar-lo."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "mut",
+            "occurrence": 1,
+            "questionId": "l275a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l275-scene",
+            "src": "assets/readings/l275-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Campaneta, bol amb varetes i capsa de música en un taulell il·luminat per la finestra; l’altaveu queda a un costat.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "sons-sense-endoll-es",
+        "code": "L275",
+        "workId": "sons-sense-endoll",
+        "language": "es",
+        "familyId": "familia-l275",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "games"
+        ],
+        "genre": "narrative",
+        "title": "Sonidos sin enchufe",
+        "summary": "El altavoz calla, pero un cuenco, una campanilla y una caja de música cambian la tarde.",
+        "paragraphs": [
+          "El sábado por la tarde, Rosa tenía preparada una sesión de adivinar sonidos en la biblioteca de las cosas. El servicio de la asociación vecinal prestaba objetos de uso ocasional y celebraba encuentros abiertos. Noa y Adil, adolescentes que colaboraban allí, colocaban las sillas frente a un altavoz. Habían llegado familias y vecinos solos. Por la ventana verde con arco entraba todavía suficiente luz de día para leer las tarjetas donde escribirían las respuestas.",
+          "La primera grabación duró tres segundos. Después, el altavoz calló y las lámparas se apagaron. Rosa vio que el pasillo también estaba oscuro y llamó al encargado del edificio. Había un corte de electricidad; por el momento no podía decirle cuándo acabaría. Al colgar, explicó al grupo lo que sabía. Una niña preguntó si el sonido misterioso había sido precisamente el del silencio. Su padre levantó la tarjeta como si ya tuviera una respuesta.",
+          "Adil señaló algunos objetos de préstamo que esperaban en el mostrador: una campanilla de mano, unas varillas de batir con un cuenco metálico y una pequeña caja de música de cuerda. Podían producir sonidos sin conectarlos a la corriente. Noa probó la campanilla delante de todos. Apenas sonó, recibió una respuesta a coro. Se echó a reír: si querían adivinar de verdad, tendría que esconder las manos y los objetos.",
+          "Rosa acercó las sillas a la ventana, desde donde se veía bien el espacio de juego. El mostrador ocultaba las manos de Noa cuando se agachaba un poco. Desde allí hizo girar las varillas en el cuenco. Un niño escribió «tren» y una mujer escribió «cocina». Al revelar el objeto, ella pidió medio punto por haber acertado la habitación. El niño sostuvo que un tren también podía llevar un vagón restaurante. Rosa dibujó dos medios puntos enormes en su papel.",
+          "Para el siguiente turno, Adil dio cuerda a la caja de música detrás del mostrador. Su melodía era tenue y las conversaciones se fueron apagando para escucharla. Varias personas reconocieron la caja, aunque discrepaban sobre la canción. Una vecina tarareó el final y otra propuso una melodía distinta. Adil les enseñó el pequeño mecanismo parado, que podía volver a sonar si alguien le daba cuerda otra vez.",
+          "La luz regresó antes de terminar la sesión. El altavoz emitió un chasquido y Rosa lo apagó mientras preguntaba al grupo qué prefería hacer. Podían recuperar las grabaciones o continuar con los objetos. El niño del tren pidió una ronda más del cuenco, esta vez como encargado del sonido. Noa le cedió su escondite. Aún quedaban tarjetas vacías, y la tarde seguía siendo clara junto a la ventana.",
+          "Desde detrás del mostrador salió un redoble metálico. El padre de la niña levantó su tarjeta: «Sopa con ruedas». El niño enseñó el cuenco sin dejar de reír, y Rosa guardó aquella respuesta junto a los dos medios puntos."
+        ],
+        "questions": [
+          {
+            "id": "l275-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué se interrumpe al comenzar la sesión?",
+            "answer": "La primera grabación, que solo dura tres segundos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La primera grabación duró tres segundos."
+              }
+            ]
+          },
+          {
+            "id": "l275-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué permite atribuir la interrupción a algo más amplio que un fallo del altavoz?",
+            "answer": "También se apagan las lámparas y el encargado confirma un corte de electricidad.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Había un corte de electricidad"
+              }
+            ]
+          },
+          {
+            "id": "l275-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué tres objetos propone usar Adil?",
+            "answer": "Campanilla, varillas con cuenco y caja de música de cuerda.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una campanilla de mano, unas varillas de batir con un cuenco metálico y una pequeña caja de música de cuerda."
+              }
+            ]
+          },
+          {
+            "id": "l275-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «tenue» al describir la melodía?",
+            "answer": "Suave o de poca intensidad.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Su melodía era tenue y las conversaciones se fueron apagando para escucharla."
+              }
+            ]
+          },
+          {
+            "id": "l275-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué descubre Noa al tocar la campanilla delante de todos?",
+            "answer": "Que ver el objeto elimina el reto de reconocerlo solo por el sonido.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "si querían adivinar de verdad, tendría que esconder las manos y los objetos."
+              }
+            ]
+          },
+          {
+            "id": "l275-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿En qué se basa la broma del niño sobre el tren?",
+            "answer": "Relaciona su respuesta con la cocina mediante el vagón restaurante.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "El niño sostuvo que un tren también podía llevar un vagón restaurante."
+              }
+            ]
+          },
+          {
+            "id": "l275-q7",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué dos posibilidades ofrece Rosa cuando vuelve la luz?",
+            "answer": "Escuchar las grabaciones o continuar con los objetos.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Podían recuperar las grabaciones o continuar con los objetos."
+              }
+            ]
+          },
+          {
+            "id": "l275-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué relación tiene «Sopa con ruedas» con las respuestas anteriores?",
+            "answer": "Combina las ideas de cocina y tren que habían provocado la broma del medio punto.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Un niño escribió «tren» y una mujer escribió «cocina»."
+              },
+              {
+                "paragraph": 7,
+                "text": "Sopa con ruedas"
+              }
+            ]
+          },
+          {
+            "id": "l275-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume en dos frases el problema que surge en la sesión y cómo se resuelve.",
+            "answer": "Un corte interrumpe las grabaciones; el grupo crea sonidos con objetos y sigue jugando incluso después de volver la luz.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "el altavoz calló y las lámparas se apagaron."
+              },
+              {
+                "paragraph": 6,
+                "text": "El niño del tren pidió una ronda más del cuenco"
+              }
+            ]
+          },
+          {
+            "id": "l275-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿Habrías vuelto a las grabaciones al regresar la luz? Defiende tu elección con dos razones relacionadas con la sesión.",
+            "answer": "Elección personal con dos razones compatibles con el texto."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "tenue",
+            "occurrence": 1,
+            "questionId": "l275-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l275-scene",
+            "src": "assets/readings/l275-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Campanilla, cuenco con varillas y caja de música en un mostrador iluminado por la ventana; el altavoz queda a un lado.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "sons-sense-endoll-ca",
+        "code": "L275",
+        "workId": "sons-sense-endoll",
+        "language": "ca",
+        "familyId": "familia-l275",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts",
+          "games"
+        ],
+        "genre": "narrative",
+        "title": "Sons sense endoll",
+        "summary": "L’altaveu calla, però un bol, una campaneta i una capsa de música canvien la tarda.",
+        "paragraphs": [
+          "Dissabte a la tarda, la Rosa tenia preparada una sessió d’endevinar sons a la biblioteca de les coses. El servei de l’associació veïnal deixava objectes d’ús ocasional i celebrava trobades obertes. La Noa i l’Adil, adolescents que hi col·laboraven, posaven les cadires davant d’un altaveu. Havien arribat famílies i veïns sols. Per la finestra verda amb arc encara entrava prou claror de dia per llegir les targetes on escriurien les respostes.",
+          "El primer enregistrament va durar tres segons. Després, l’altaveu va callar i els llums es van apagar. La Rosa va veure que el passadís també era fosc i va trucar a l’encarregat de l’edifici. Hi havia un tall d’electricitat; de moment no li podia dir quan acabaria. En penjar, va explicar al grup el que sabia. Una nena va preguntar si el so misteriós havia estat precisament el del silenci. El seu pare va alçar la targeta com si ja tingués una resposta.",
+          "L’Adil va assenyalar alguns objectes de préstec que esperaven al taulell: una campaneta de mà, unes varetes de batre amb un bol metàl·lic i una petita capsa de música de corda. Podien produir sons sense connectar-los al corrent. La Noa va provar la campaneta davant de tothom. Tot just va sonar, va rebre una resposta a cor. Es va posar a riure: si volien endevinar de debò, hauria d’amagar les mans i els objectes.",
+          "La Rosa va acostar les cadires a la finestra, des d’on es veia bé l’espai de joc. El taulell amagava les mans de la Noa quan s’ajupia una mica. Des d’allà va fer girar les varetes al bol. Un nen va escriure «tren» i una dona va escriure «cuina». Quan va revelar l’objecte, ella va demanar mig punt perquè havia encertat l’habitació. El nen va sostenir que un tren també podia portar un vagó restaurant. La Rosa va dibuixar dos mitjos punts enormes al paper.",
+          "Per al torn següent, l’Adil va donar corda a la capsa de música darrere el taulell. La melodia era tènue i les converses es van anar apagant per escoltar-la. Diverses persones van reconèixer la capsa, tot i que discrepaven sobre la cançó. Una veïna en va taral·lejar el final i una altra va proposar una melodia diferent. L’Adil els va ensenyar el petit mecanisme aturat, que podia tornar a sonar si algú li donava corda una altra vegada.",
+          "La llum va tornar abans d’acabar la sessió. L’altaveu va fer un espetec i la Rosa el va apagar mentre preguntava al grup què preferia fer. Podien recuperar els enregistraments o continuar amb els objectes. El nen del tren va demanar una ronda més del bol, aquest cop com a encarregat del so. La Noa li va cedir l’amagatall. Encara quedaven targetes buides, i la tarda continuava sent clara al costat de la finestra.",
+          "De darrere el taulell va sortir un redoblament metàl·lic. El pare de la nena va alçar la targeta: «Sopa amb rodes». El nen va ensenyar el bol sense parar de riure, i la Rosa va desar aquella resposta al costat dels dos mitjos punts."
+        ],
+        "questions": [
+          {
+            "id": "l275-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què s’interromp quan comença la sessió?",
+            "answer": "El primer enregistrament, que només dura tres segons.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El primer enregistrament va durar tres segons."
+              }
+            ]
+          },
+          {
+            "id": "l275-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què permet atribuir la interrupció a una cosa més àmplia que una fallada de l’altaveu?",
+            "answer": "També s’apaguen els llums i l’encarregat confirma un tall d’electricitat.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Hi havia un tall d’electricitat"
+              }
+            ]
+          },
+          {
+            "id": "l275-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quins tres objectes proposa fer servir l’Adil?",
+            "answer": "Campaneta, varetes amb bol i capsa de música de corda.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una campaneta de mà, unes varetes de batre amb un bol metàl·lic i una petita capsa de música de corda."
+              }
+            ]
+          },
+          {
+            "id": "l275-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què significa «tènue» quan descriu la melodia?",
+            "answer": "Suau o de poca intensitat.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "La melodia era tènue i les converses es van anar apagant per escoltar-la."
+              }
+            ]
+          },
+          {
+            "id": "l275-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què descobreix la Noa quan toca la campaneta davant de tothom?",
+            "answer": "Que veure l’objecte elimina el repte de reconèixer-lo només pel so.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "si volien endevinar de debò, hauria d’amagar les mans i els objectes."
+              }
+            ]
+          },
+          {
+            "id": "l275-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "En què es basa la broma del nen sobre el tren?",
+            "answer": "Relaciona la seva resposta amb la cuina mitjançant el vagó restaurant.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "El nen va sostenir que un tren també podia portar un vagó restaurant."
+              }
+            ]
+          },
+          {
+            "id": "l275-q7",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quines dues possibilitats ofereix la Rosa quan torna la llum?",
+            "answer": "Escoltar els enregistraments o continuar amb els objectes.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Podien recuperar els enregistraments o continuar amb els objectes."
+              }
+            ]
+          },
+          {
+            "id": "l275-q8",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quina relació té «Sopa amb rodes» amb les respostes anteriors?",
+            "answer": "Combina les idees de cuina i tren que havien provocat la broma del mig punt.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Un nen va escriure «tren» i una dona va escriure «cuina»."
+              },
+              {
+                "paragraph": 7,
+                "text": "Sopa amb rodes"
+              }
+            ]
+          },
+          {
+            "id": "l275-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix en dues frases el problema que sorgeix a la sessió i com es resol.",
+            "answer": "Un tall interromp els enregistraments; el grup crea sons amb objectes i continua jugant fins i tot després que torni la llum.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "l’altaveu va callar i els llums es van apagar."
+              },
+              {
+                "paragraph": 6,
+                "text": "El nen del tren va demanar una ronda més del bol"
+              }
+            ]
+          },
+          {
+            "id": "l275-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Hauries tornat als enregistraments quan va tornar la llum? Defensa la tria amb dues raons relacionades amb la sessió.",
+            "answer": "Tria personal amb dues raons compatibles amb el text."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 5,
+            "text": "tènue",
+            "occurrence": 1,
+            "questionId": "l275-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l275-scene",
+            "src": "assets/readings/l275-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Campaneta, bol amb varetes i capsa de música en un taulell il·luminat per la finestra; l’altaveu queda a un costat.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "sons-sense-endoll-b-es",
+        "code": "L275B",
+        "workId": "sons-sense-endoll-b",
+        "language": "es",
+        "familyId": "familia-l275",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "advanced",
+        "themes": [
+          "community",
+          "arts",
+          "games"
+        ],
+        "genre": "narrative",
+        "title": "Sonidos sin enchufe",
+        "summary": "Una tarde de respuestas previstas se convierte en un juego de escucha, interpretaciones y bromas compartidas.",
+        "paragraphs": [
+          "Rosa había preparado doce grabaciones para una sesión de adivinar sonidos en la biblioteca de las cosas. Aquel local de la asociación vecinal prestaba objetos de uso ocasional y, algunas tardes, reunía a personas que querían probarlos. Noa y Adil, dos adolescentes colaboradores, habían dispuesto sillas frente al altavoz y tarjetas en blanco. A través de la ventana verde con arco entraba luz de una tarde despejada. El primer sonido debía ser fácil, según Rosa, aunque se negó a dar ninguna pista antes de empezar.",
+          "La grabación duró tres segundos. El altavoz calló y las lámparas se apagaron a la vez. Rosa vio el pasillo oscuro y telefoneó al encargado del edificio. Este confirmó un corte de electricidad, pero todavía no sabía cuánto duraría. Mientras ella hablaba, una niña preguntó si el silencio también contaba como sonido misterioso. Su padre escribió algo en una tarjeta y la escondió contra el pecho. Al terminar la llamada, Rosa explicó al grupo la información que acababa de recibir.",
+          "Adil miraba el mostrador. Allí esperaban objetos que habían usado en una exposición de préstamos: una campanilla de mano, unas varillas de batir con un cuenco metálico y una caja de música de cuerda. Se ofreció a preparar sonidos con ellos. Rosa acercó las sillas a la ventana para aprovechar la claridad. Noa tocó la campanilla con el brazo levantado y obtuvo una respuesta inmediata de casi todo el grupo. Bajó el brazo, entre risas, al comprender lo fácil que acababa de ponerlo.",
+          "Para la siguiente prueba se colocó detrás del mostrador y se agachó lo suficiente para ocultar las manos. Hizo girar las varillas dentro del cuenco. Esta vez aparecieron respuestas diferentes: un niño escribió «tren», una mujer escribió «cocina» y su compañero añadió «lluvia en un tejado». Al descubrirse el cuenco, la mujer reclamó medio punto por la habitación. El niño señaló que algunos trenes tenían vagón restaurante. Rosa les concedió dos medios puntos de un tamaño desproporcionado, dibujados en el margen del papel.",
+          "Adil dio cuerda a la caja de música sin sacarla del escondite. La melodía era tenue; quienes estaban hablando fueron callándose para oírla. Se reconoció pronto el objeto, pero hubo desacuerdo sobre la canción. Una vecina tarareó un final y otra recordó uno distinto. Adil volvió a darle cuerda para que escucharan otra vez. Aquella repetición, que no estaba en el programa de Rosa, duró más que la adivinanza. Nadie estaba mirando entonces el altavoz que había presidido las sillas al principio.",
+          "Cuando regresó la electricidad, el altavoz emitió un chasquido. Rosa lo apagó y ofreció al grupo recuperar las grabaciones. También podían continuar con los objetos hasta la hora prevista de cierre; aún había claridad suficiente. El niño del tren pidió hacer un sonido. Noa le dejó las varillas y el cuenco, y le mostró dónde ponerse para que sus manos quedaran ocultas. El padre de la niña cambió lo que había escrito en su tarjeta, dispuesto a responder otra vez.",
+          "Del mostrador salió un redoble metálico. «Sopa con ruedas», anunció la tarjeta del padre. El niño enseñó el cuenco y pidió que aquella respuesta valiera, por lo menos, otro medio punto. Rosa acabó dibujando un plato al lado de los números. Las tarjetas se llenaron de tachones y comentarios, muy lejos de la lista ordenada de doce respuestas que había imaginado al preparar la tarde.",
+          "Al recoger, Adil encontró una tarjeta intacta bajo el altavoz. Rosa escribió en ella el título de la sesión y la fecha. Debajo, Noa dibujó un cuenco. No tuvieron que enchufarlo para que todos reconocieran la referencia."
+        ],
+        "questions": [
+          {
+            "id": "l275b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué había preparado Rosa antes de la actividad?",
+            "answer": "Doce grabaciones para adivinar sonidos.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Rosa había preparado doce grabaciones"
+              }
+            ]
+          },
+          {
+            "id": "l275b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué sabe Rosa al acabar la llamada que no sabía al apagarse las lámparas?",
+            "answer": "Que el encargado confirma un corte de electricidad, aunque su duración siga siendo desconocida.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Este confirmó un corte de electricidad, pero todavía no sabía cuánto duraría."
+              }
+            ]
+          },
+          {
+            "id": "l275b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué el primer intento con la campanilla apenas funciona como adivinanza?",
+            "answer": "Porque Noa muestra el objeto mientras lo hace sonar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Noa tocó la campanilla con el brazo levantado"
+              }
+            ]
+          },
+          {
+            "id": "l275b-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «desproporcionado» al hablar de los medios puntos dibujados?",
+            "answer": "Excesivamente grande respecto a lo que se esperaría en una anotación así.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "dos medios puntos de un tamaño desproporcionado"
+              }
+            ]
+          },
+          {
+            "id": "l275b-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Sobre qué discrepan al oír la caja de música?",
+            "answer": "Sobre la canción, aunque reconocen el objeto.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Se reconoció pronto el objeto, pero hubo desacuerdo sobre la canción."
+              }
+            ]
+          },
+          {
+            "id": "l275b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué indica que repitan la melodía y nadie mire el altavoz?",
+            "answer": "Que la atención del grupo se ha centrado en la nueva actividad con objetos.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Nadie estaba mirando entonces el altavoz"
+              }
+            ]
+          },
+          {
+            "id": "l275b-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué papel tiene la vuelta de la electricidad en la segunda parte?",
+            "answer": "Elimina la obligación de usar objetos y convierte su continuidad en una elección.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "ofreció al grupo recuperar las grabaciones. También podían continuar con los objetos"
+              }
+            ]
+          },
+          {
+            "id": "l275b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué interpretación del medio punto se ajusta a la escena?",
+            "answer": "Es una broma que permite jugar con las asociaciones entre respuestas.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Rosa les concedió dos medios puntos de un tamaño desproporcionado"
+              }
+            ]
+          },
+          {
+            "id": "l275b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué afirmación sobre la tarjeta del padre está sustentada?",
+            "answer": "Que cambia su primer escrito antes de responder «Sopa con ruedas»; el texto no revela qué había puesto al principio.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "escribió algo en una tarjeta y la escondió contra el pecho."
+              },
+              {
+                "paragraph": 6,
+                "text": "cambió lo que había escrito en su tarjeta"
+              }
+            ]
+          },
+          {
+            "id": "l275b-q10",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "¿Qué cambio global explica mejor la sesión?",
+            "answer": "De un plan de grabaciones y respuestas previstas se pasa a crear sonidos y jugar con interpretaciones compartidas.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "había preparado doce grabaciones"
+              },
+              {
+                "paragraph": 7,
+                "text": "muy lejos de la lista ordenada de doce respuestas"
+              }
+            ]
+          },
+          {
+            "id": "l275b-q11",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿Qué se gana y qué se pierde al cambiar las grabaciones por objetos? Argumenta con una ventaja y un límite.",
+            "answer": "Reflexión personal con una ventaja y un límite pertinentes para la actividad narrada."
+          },
+          {
+            "id": "l275b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Escribe una breve invitación a otra sesión de sonidos inspirada en esta tarde. Incluye una propuesta propia viable.",
+            "answer": "Producción libre que presenta la sesión e incorpora una propuesta realizable de juego sonoro."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "desproporcionado",
+            "occurrence": 1,
+            "questionId": "l275b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l275-scene",
+            "src": "assets/readings/l275-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Campanilla, cuenco con varillas y caja de música en un mostrador iluminado por la ventana; el altavoz queda a un lado.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "sons-sense-endoll-b-ca",
+        "code": "L275B",
+        "workId": "sons-sense-endoll-b",
+        "language": "ca",
+        "familyId": "familia-l275",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "advanced",
+        "themes": [
+          "community",
+          "arts",
+          "games"
+        ],
+        "genre": "narrative",
+        "title": "Sons sense endoll",
+        "summary": "Una tarda de respostes previstes es converteix en un joc d’escolta, interpretacions i bromes compartides.",
+        "paragraphs": [
+          "La Rosa havia preparat dotze enregistraments per a una sessió d’endevinar sons a la biblioteca de les coses. Aquell local de l’associació veïnal deixava objectes d’ús ocasional i, algunes tardes, reunia persones que els volien provar. La Noa i l’Adil, dos adolescents col·laboradors, havien posat cadires davant de l’altaveu i targetes en blanc. A través de la finestra verda amb arc entrava claror d’una tarda serena. El primer so havia de ser fàcil, segons la Rosa, tot i que es va negar a donar cap pista abans de començar.",
+          "L’enregistrament va durar tres segons. L’altaveu va callar i els llums es van apagar alhora. La Rosa va veure el passadís fosc i va telefonar a l’encarregat de l’edifici. Ell va confirmar un tall d’electricitat, però encara no sabia quant duraria. Mentre ella parlava, una nena va preguntar si el silenci també comptava com a so misteriós. El seu pare va escriure alguna cosa en una targeta i la va amagar contra el pit. En acabar la trucada, la Rosa va explicar al grup la informació que acabava de rebre.",
+          "L’Adil mirava el taulell. Allà esperaven objectes que havien fet servir en una exposició de préstecs: una campaneta de mà, unes varetes de batre amb un bol metàl·lic i una capsa de música de corda. Es va oferir a preparar-hi sons. La Rosa va acostar les cadires a la finestra per aprofitar la claror. La Noa va tocar la campaneta amb el braç alçat i va obtenir una resposta immediata de gairebé tot el grup. Va abaixar el braç, entre rialles, quan va comprendre com ho acabava de posar de fàcil.",
+          "Per a la prova següent es va posar darrere el taulell i es va ajupir prou per amagar les mans. Va fer girar les varetes dins del bol. Aquest cop van aparèixer respostes diferents: un nen va escriure «tren», una dona va escriure «cuina» i el seu company va afegir «pluja en una teulada». Quan es va descobrir el bol, la dona va reclamar mig punt per l’habitació. El nen va assenyalar que alguns trens tenien vagó restaurant. La Rosa els va concedir dos mitjos punts d’una mida desproporcionada, dibuixats al marge del paper.",
+          "L’Adil va donar corda a la capsa de música sense treure-la de l’amagatall. La melodia era tènue; els qui parlaven van anar callant per sentir-la. Es va reconèixer aviat l’objecte, però hi va haver desacord sobre la cançó. Una veïna va taral·lejar un final i una altra en va recordar un de diferent. L’Adil va tornar a donar-hi corda perquè l’escoltessin una altra vegada. Aquella repetició, que no era al programa de la Rosa, va durar més que l’endevinalla. Ningú no mirava aleshores l’altaveu que havia presidit les cadires al principi.",
+          "Quan va tornar l’electricitat, l’altaveu va fer un espetec. La Rosa el va apagar i va oferir al grup recuperar els enregistraments. També podien continuar amb els objectes fins a l’hora prevista de tancament; encara hi havia prou claror. El nen del tren va demanar fer un so. La Noa li va deixar les varetes i el bol, i li va mostrar on posar-se perquè les mans li quedessin amagades. El pare de la nena va canviar el que havia escrit a la targeta, disposat a respondre una altra vegada.",
+          "Del taulell va sortir un redoblament metàl·lic. «Sopa amb rodes», anunciava la targeta del pare. El nen va ensenyar el bol i va demanar que aquella resposta valgués, com a mínim, un altre mig punt. La Rosa va acabar dibuixant un plat al costat dels nombres. Les targetes es van omplir de ratlles i comentaris, ben lluny de la llista ordenada de dotze respostes que havia imaginat quan preparava la tarda.",
+          "En recollir, l’Adil va trobar una targeta intacta sota l’altaveu. La Rosa hi va escriure el títol de la sessió i la data. A sota, la Noa hi va dibuixar un bol. No va caldre endollar-lo perquè tothom reconegués la referència."
+        ],
+        "questions": [
+          {
+            "id": "l275b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què havia preparat la Rosa abans de l’activitat?",
+            "answer": "Dotze enregistraments per endevinar sons.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "La Rosa havia preparat dotze enregistraments"
+              }
+            ]
+          },
+          {
+            "id": "l275b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què sap la Rosa en acabar la trucada que no sabia quan es van apagar els llums?",
+            "answer": "Que l’encarregat confirma un tall d’electricitat, encara que se’n desconegui la durada.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Ell va confirmar un tall d’electricitat, però encara no sabia quant duraria."
+              }
+            ]
+          },
+          {
+            "id": "l275b-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què el primer intent amb la campaneta gairebé no funciona com a endevinalla?",
+            "answer": "Perquè la Noa mostra l’objecte mentre el fa sonar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La Noa va tocar la campaneta amb el braç alçat"
+              }
+            ]
+          },
+          {
+            "id": "l275b-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què significa «desproporcionada» quan parla de la mida dels mitjos punts dibuixats?",
+            "answer": "Excessivament gran respecte del que s’esperaria en una anotació així.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "dos mitjos punts d’una mida desproporcionada"
+              }
+            ]
+          },
+          {
+            "id": "l275b-q5",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Sobre què discrepen quan senten la capsa de música?",
+            "answer": "Sobre la cançó, encara que reconeixen l’objecte.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Es va reconèixer aviat l’objecte, però hi va haver desacord sobre la cançó."
+              }
+            ]
+          },
+          {
+            "id": "l275b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què indica que repeteixin la melodia i ningú no miri l’altaveu?",
+            "answer": "Que l’atenció del grup s’ha centrat en la nova activitat amb objectes.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Ningú no mirava aleshores l’altaveu"
+              }
+            ]
+          },
+          {
+            "id": "l275b-q7",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quin paper té la tornada de l’electricitat a la segona part?",
+            "answer": "Elimina l’obligació de fer servir objectes i converteix la continuïtat en una tria.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "va oferir al grup recuperar els enregistraments. També podien continuar amb els objectes"
+              }
+            ]
+          },
+          {
+            "id": "l275b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina interpretació del mig punt s’ajusta a l’escena?",
+            "answer": "És una broma que permet jugar amb les associacions entre respostes.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La Rosa els va concedir dos mitjos punts d’una mida desproporcionada"
+              }
+            ]
+          },
+          {
+            "id": "l275b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina afirmació sobre la targeta del pare està sustentada?",
+            "answer": "Que canvia el primer escrit abans de respondre «Sopa amb rodes»; el text no revela què havia posat al principi.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "va escriure alguna cosa en una targeta i la va amagar contra el pit."
+              },
+              {
+                "paragraph": 6,
+                "text": "va canviar el que havia escrit a la targeta"
+              }
+            ]
+          },
+          {
+            "id": "l275b-q10",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Quin canvi global explica millor la sessió?",
+            "answer": "D’un pla d’enregistraments i respostes previstes es passa a crear sons i jugar amb interpretacions compartides.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "havia preparat dotze enregistraments"
+              },
+              {
+                "paragraph": 7,
+                "text": "ben lluny de la llista ordenada de dotze respostes"
+              }
+            ]
+          },
+          {
+            "id": "l275b-q11",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Què es guanya i què es perd quan es canvien els enregistraments per objectes? Argumenta amb un avantatge i un límit.",
+            "answer": "Reflexió personal amb un avantatge i un límit pertinents per a l’activitat narrada."
+          },
+          {
+            "id": "l275b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Escriu una invitació breu a una altra sessió de sons inspirada en aquesta tarda. Inclou-hi una proposta pròpia viable.",
+            "answer": "Producció lliure que presenta la sessió i hi incorpora una proposta realitzable de joc sonor."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "desproporcionada",
+            "occurrence": 1,
+            "questionId": "l275b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l275-scene",
+            "src": "assets/readings/l275-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Campaneta, bol amb varetes i capsa de música en un taulell il·luminat per la finestra; l’altaveu queda a un costat.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 5
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L275A",
+        "language": "es",
+        "questions": {
+          "l275a-q1": {
+            "prompt": "¿Qué actividad había preparado Rosa?",
+            "options": [
+              "Una sesión de adivinar sonidos.",
+              "Una merienda para probar recetas.",
+              "Una exposición de lámparas nuevas.",
+              "Un concierto de canciones del barrio."
+            ],
+            "correct": "a",
+            "explanation": "Una sesión de adivinar sonidos con grabaciones."
+          },
+          "l275a-q2": {
+            "prompt": "¿Qué sabía el encargado sobre el corte?",
+            "options": [
+              "Que solo se había apagado el altavoz.",
+              "Que volvería después de la primera ronda.",
+              "Que el corte afectaba a la electricidad, sin duración conocida.",
+              "Que debían trasladar la actividad al pasillo."
+            ],
+            "correct": "c",
+            "explanation": "Que se había cortado la electricidad, pero no cuánto tardaría en volver."
+          },
+          "l275a-q3": {
+            "prompt": "¿Por qué podían continuar cerca de la ventana?",
+            "options": [
+              "Porque el altavoz funcionaba mejor allí.",
+              "Porque podían aprovechar la claridad del día.",
+              "Porque las lámparas estaban encendidas allí.",
+              "Porque desde allí se veía al encargado."
+            ],
+            "correct": "b",
+            "explanation": "Porque aún había luz natural suficiente para verse."
+          },
+          "l275a-q4": {
+            "prompt": "¿Qué quiere decir que el altavoz seguía «mudo»?",
+            "options": [
+              "Que sonaba con una voz diferente.",
+              "Que repetía las respuestas del juego.",
+              "Que ocultaba la melodía del cuenco.",
+              "Que no estaba emitiendo sonidos."
+            ],
+            "correct": "d",
+            "explanation": "Que no emitía ningún sonido."
+          },
+          "l275a-q5": {
+            "prompt": "¿Por qué Noa esconde las manos detrás del mostrador?",
+            "options": [
+              "Para que los objetos no den la respuesta con su aspecto.",
+              "Para que el grupo vea mejor sus tarjetas.",
+              "Para concentrarse en oír la caja de música.",
+              "Para escuchar el teléfono del encargado en privado."
+            ],
+            "correct": "a",
+            "explanation": "Para que el grupo adivine escuchando, sin ver el objeto."
+          },
+          "l275a-q6": {
+            "prompt": "¿Qué objeto exige más silencio para oírlo?",
+            "options": [
+              "La campanilla que Noa levanta.",
+              "El cuenco golpeado como un tren.",
+              "La caja de música de cuerda.",
+              "El altavoz al volver la electricidad."
+            ],
+            "correct": "c",
+            "explanation": "La caja de música de cuerda."
+          },
+          "l275a-q7": {
+            "prompt": "¿Qué resumen explica mejor lo ocurrido?",
+            "options": [
+              "El grupo espera a oscuras hasta que puede volver a escuchar todas las grabaciones.",
+              "Un corte cambia el juego: los objetos sustituyen las grabaciones y animan la sesión.",
+              "La luz vuelve y el grupo deja los objetos para escuchar todas las grabaciones.",
+              "Rosa enseña los objetos antes de poner las grabaciones y termina la sesión al apagarse el altavoz."
+            ],
+            "correct": "b",
+            "explanation": "Al faltar electricidad, el grupo hace adivinanzas con objetos que producen sonidos sin enchufe y decide continuar."
+          }
+        }
+      },
+      {
+        "code": "L275A",
+        "language": "ca",
+        "questions": {
+          "l275a-q1": {
+            "prompt": "Quina activitat havia preparat la Rosa?",
+            "options": [
+              "Una sessió d’endevinar sons.",
+              "Un berenar per provar receptes.",
+              "Una exposició de llums nous.",
+              "Un concert de cançons del barri."
+            ],
+            "correct": "a",
+            "explanation": "Una sessió d’endevinar sons amb enregistraments."
+          },
+          "l275a-q2": {
+            "prompt": "Què sabia l’encarregat sobre el tall?",
+            "options": [
+              "Que només s’havia apagat l’altaveu.",
+              "Que tornaria després de la primera ronda.",
+              "Que el tall afectava l’electricitat, sense durada coneguda.",
+              "Que havien de traslladar l’activitat al passadís."
+            ],
+            "correct": "c",
+            "explanation": "Que s’havia tallat l’electricitat, però no quant trigaria a tornar."
+          },
+          "l275a-q3": {
+            "prompt": "Per què podien continuar a prop de la finestra?",
+            "options": [
+              "Perquè l’altaveu funcionava millor allà.",
+              "Perquè podien aprofitar la claror del dia.",
+              "Perquè els llums estaven encesos allà.",
+              "Perquè des d’allà es veia l’encarregat."
+            ],
+            "correct": "b",
+            "explanation": "Perquè encara hi havia prou llum natural per veure’s."
+          },
+          "l275a-q4": {
+            "prompt": "Què vol dir que l’altaveu continuava «mut»?",
+            "options": [
+              "Que sonava amb una veu diferent.",
+              "Que repetia les respostes del joc.",
+              "Que amagava la melodia del bol.",
+              "Que no estava emetent sons."
+            ],
+            "correct": "d",
+            "explanation": "Que no emetia cap so."
+          },
+          "l275a-q5": {
+            "prompt": "Per què la Noa amaga les mans darrere el taulell?",
+            "options": [
+              "Perquè els objectes no donin la resposta amb l’aspecte.",
+              "Perquè el grup vegi millor les targetes.",
+              "Per concentrar-se a sentir la capsa de música.",
+              "Per escoltar el telèfon de l’encarregat en privat."
+            ],
+            "correct": "a",
+            "explanation": "Perquè el grup endevini escoltant, sense veure l’objecte."
+          },
+          "l275a-q6": {
+            "prompt": "Quin objecte exigeix més silenci per sentir-lo?",
+            "options": [
+              "La campaneta que la Noa alça.",
+              "El bol colpejat com un tren.",
+              "La capsa de música de corda.",
+              "L’altaveu quan torna l’electricitat."
+            ],
+            "correct": "c",
+            "explanation": "La capsa de música de corda."
+          },
+          "l275a-q7": {
+            "prompt": "Quin resum explica millor què ha passat?",
+            "options": [
+              "El grup espera a les fosques fins que pot tornar a escoltar tots els enregistraments.",
+              "Un tall canvia el joc: els objectes substitueixen els enregistraments i animen la sessió.",
+              "La llum torna i el grup deixa els objectes per escoltar tots els enregistraments.",
+              "La Rosa ensenya els objectes abans de posar els enregistraments i acaba la sessió quan s’apaga l’altaveu."
+            ],
+            "correct": "b",
+            "explanation": "Quan falta electricitat, el grup fa endevinalles amb objectes que produeixen sons sense endoll i decideix continuar."
+          }
+        }
+      },
+      {
+        "code": "L275",
+        "language": "es",
+        "questions": {
+          "l275-q1": {
+            "prompt": "¿Qué se interrumpe al comenzar la sesión?",
+            "options": [
+              "La última ronda con el cuenco.",
+              "La primera grabación del altavoz.",
+              "La llamada de Rosa al encargado.",
+              "La melodía de la caja de cuerda."
+            ],
+            "correct": "b",
+            "explanation": "La primera grabación, que solo dura tres segundos."
+          },
+          "l275-q2": {
+            "prompt": "¿Qué permite atribuir la interrupción a algo más amplio que un fallo del altavoz?",
+            "options": [
+              "La niña pregunta por el sonido del silencio.",
+              "El padre levanta una tarjeta con su respuesta.",
+              "La caja de música necesita que le den cuerda.",
+              "Las luces se apagan y el encargado confirma el corte."
+            ],
+            "correct": "d",
+            "explanation": "También se apagan las lámparas y el encargado confirma un corte de electricidad."
+          },
+          "l275-q3": {
+            "prompt": "¿Qué tres objetos propone usar Adil?",
+            "options": [
+              "Campanilla, varillas con cuenco y caja de cuerda.",
+              "Altavoz, teléfono del local y caja de cuerda.",
+              "Tarjetas, lámparas del pasillo y campanilla.",
+              "Cuenco, grabaciones del tren y teléfono."
+            ],
+            "correct": "a",
+            "explanation": "Campanilla, varillas con cuenco y caja de música de cuerda."
+          },
+          "l275-q4": {
+            "prompt": "¿Qué significa «tenue» al describir la melodía?",
+            "options": [
+              "Rápida y difícil de recordar.",
+              "Distorsionada por la corriente.",
+              "Suave y de poca intensidad.",
+              "Larga y muy repetitiva."
+            ],
+            "correct": "c",
+            "explanation": "Suave o de poca intensidad."
+          },
+          "l275-q5": {
+            "prompt": "¿Qué descubre Noa al tocar la campanilla delante de todos?",
+            "options": [
+              "Que la campanilla no suena sin electricidad.",
+              "Que ver el objeto hace demasiado fácil acertarlo.",
+              "Que el grupo prefiere escribir a escuchar.",
+              "Que todos reconocen también la canción."
+            ],
+            "correct": "b",
+            "explanation": "Que ver el objeto elimina el reto de reconocerlo solo por el sonido."
+          },
+          "l275-q6": {
+            "prompt": "¿En qué se basa la broma del niño sobre el tren?",
+            "options": [
+              "Afirma que el sonido se grabó en una estación.",
+              "Reconoce la canción como un anuncio ferroviario.",
+              "Cambia el cuenco por una maqueta de tren.",
+              "Busca una conexión entre tren, comida y cuenco."
+            ],
+            "correct": "d",
+            "explanation": "Relaciona su respuesta con la cocina mediante el vagón restaurante."
+          },
+          "l275-q7": {
+            "prompt": "¿Qué dos posibilidades ofrece Rosa cuando vuelve la luz?",
+            "options": [
+              "Volver a las grabaciones o seguir con los objetos.",
+              "Ir al pasillo o trasladarse a otra biblioteca.",
+              "Repetir la llamada o cerrar el local enseguida.",
+              "Comprar una caja de cuerda o arreglar el altavoz."
+            ],
+            "correct": "a",
+            "explanation": "Escuchar las grabaciones o continuar con los objetos."
+          },
+          "l275-q8": {
+            "prompt": "¿Qué relación tiene «Sopa con ruedas» con las respuestas anteriores?",
+            "options": [
+              "Sustituye la campanilla por una canción distinta.",
+              "Revela que la actividad incluía una merienda.",
+              "Recupera y combina dos respuestas del juego.",
+              "Explica por qué se apagaron las lámparas."
+            ],
+            "correct": "c",
+            "explanation": "Combina las ideas de cocina y tren que habían provocado la broma del medio punto."
+          },
+          "l275-q9": {
+            "prompt": "¿Qué resumen conserva el conflicto y su resolución?",
+            "options": [
+              "Un concurso se interrumpe porque la caja de música tapa el sonido del altavoz.",
+              "Una interrupción da paso a adivinanzas con objetos que el grupo decide prolongar.",
+              "El encargado del edificio trae instrumentos y dirige las nuevas rondas del juego.",
+              "La falta de luz obliga a cambiar las tarjetas por una actividad de cocina real."
+            ],
+            "correct": "b",
+            "explanation": "Un corte interrumpe las grabaciones; el grupo crea sonidos con objetos y sigue jugando incluso después de volver la luz."
+          }
+        }
+      },
+      {
+        "code": "L275",
+        "language": "ca",
+        "questions": {
+          "l275-q1": {
+            "prompt": "Què s’interromp quan comença la sessió?",
+            "options": [
+              "L’última ronda amb el bol.",
+              "El primer enregistrament de l’altaveu.",
+              "La trucada de la Rosa a l’encarregat.",
+              "La melodia de la capsa de corda."
+            ],
+            "correct": "b",
+            "explanation": "El primer enregistrament, que només dura tres segons."
+          },
+          "l275-q2": {
+            "prompt": "Què permet atribuir la interrupció a una cosa més àmplia que una fallada de l’altaveu?",
+            "options": [
+              "La nena pregunta pel so del silenci.",
+              "El pare alça una targeta amb la resposta.",
+              "La capsa de música necessita que li donin corda.",
+              "Els llums s’apaguen i l’encarregat confirma el tall."
+            ],
+            "correct": "d",
+            "explanation": "També s’apaguen els llums i l’encarregat confirma un tall d’electricitat."
+          },
+          "l275-q3": {
+            "prompt": "Quins tres objectes proposa fer servir l’Adil?",
+            "options": [
+              "Campaneta, varetes amb bol i capsa de corda.",
+              "Altaveu, telèfon del local i capsa de corda.",
+              "Targetes, llums del passadís i campaneta.",
+              "Bol, enregistraments del tren i telèfon."
+            ],
+            "correct": "a",
+            "explanation": "Campaneta, varetes amb bol i capsa de música de corda."
+          },
+          "l275-q4": {
+            "prompt": "Què significa «tènue» quan descriu la melodia?",
+            "options": [
+              "Ràpida i difícil de recordar.",
+              "Distorsionada pel corrent.",
+              "Suau i de poca intensitat.",
+              "Llarga i molt repetitiva."
+            ],
+            "correct": "c",
+            "explanation": "Suau o de poca intensitat."
+          },
+          "l275-q5": {
+            "prompt": "Què descobreix la Noa quan toca la campaneta davant de tothom?",
+            "options": [
+              "Que la campaneta no sona sense electricitat.",
+              "Que veure l’objecte fa massa fàcil encertar-lo.",
+              "Que el grup prefereix escriure a escoltar.",
+              "Que tothom reconeix també la cançó."
+            ],
+            "correct": "b",
+            "explanation": "Que veure l’objecte elimina el repte de reconèixer-lo només pel so."
+          },
+          "l275-q6": {
+            "prompt": "En què es basa la broma del nen sobre el tren?",
+            "options": [
+              "Afirma que el so es va enregistrar en una estació.",
+              "Reconeix la cançó com un anunci ferroviari.",
+              "Canvia el bol per una maqueta de tren.",
+              "Busca una connexió entre tren, menjar i bol."
+            ],
+            "correct": "d",
+            "explanation": "Relaciona la seva resposta amb la cuina mitjançant el vagó restaurant."
+          },
+          "l275-q7": {
+            "prompt": "Quines dues possibilitats ofereix la Rosa quan torna la llum?",
+            "options": [
+              "Tornar als enregistraments o seguir amb els objectes.",
+              "Anar al passadís o traslladar-se a una altra biblioteca.",
+              "Repetir la trucada o tancar el local de seguida.",
+              "Comprar una capsa de corda o arreglar l’altaveu."
+            ],
+            "correct": "a",
+            "explanation": "Escoltar els enregistraments o continuar amb els objectes."
+          },
+          "l275-q8": {
+            "prompt": "Quina relació té «Sopa amb rodes» amb les respostes anteriors?",
+            "options": [
+              "Substitueix la campaneta per una cançó diferent.",
+              "Revela que l’activitat incloïa un berenar.",
+              "Recupera i combina dues respostes del joc.",
+              "Explica per què es van apagar els llums."
+            ],
+            "correct": "c",
+            "explanation": "Combina les idees de cuina i tren que havien provocat la broma del mig punt."
+          },
+          "l275-q9": {
+            "prompt": "Quin resum conserva el conflicte i la resolució?",
+            "options": [
+              "Un concurs s’interromp perquè la capsa de música tapa el so de l’altaveu.",
+              "Una interrupció dona pas a endevinalles amb objectes que el grup decideix allargar.",
+              "L’encarregat de l’edifici porta instruments i dirigeix les noves rondes del joc.",
+              "La falta de llum obliga a canviar les targetes per una activitat de cuina real."
+            ],
+            "correct": "b",
+            "explanation": "Un tall interromp els enregistraments; el grup crea sons amb objectes i continua jugant fins i tot després que torni la llum."
+          }
+        }
+      },
+      {
+        "code": "L275B",
+        "language": "es",
+        "questions": {
+          "l275b-q1": {
+            "prompt": "¿Qué había preparado Rosa antes de la actividad?",
+            "options": [
+              "Doce objetos para una exposición nueva.",
+              "Doce respuestas ya escritas en tarjetas.",
+              "Doce canciones para aprender a tararear.",
+              "Doce grabaciones de sonidos para adivinar."
+            ],
+            "correct": "d",
+            "explanation": "Doce grabaciones para adivinar sonidos."
+          },
+          "l275b-q2": {
+            "prompt": "¿Qué sabe Rosa al acabar la llamada que no sabía al apagarse las lámparas?",
+            "options": [
+              "La duración exacta de la interrupción.",
+              "La confirmación del corte, sin saber cuánto durará.",
+              "El daño que ha sufrido el cable del altavoz.",
+              "El objeto que escogerá primero cada asistente."
+            ],
+            "correct": "b",
+            "explanation": "Que el encargado confirma un corte de electricidad, aunque su duración siga siendo desconocida."
+          },
+          "l275b-q3": {
+            "prompt": "¿Por qué el primer intento con la campanilla apenas funciona como adivinanza?",
+            "options": [
+              "Porque el grupo puede ver lo que está sonando.",
+              "Porque nadie alcanza a oír el sonido elegido.",
+              "Porque el objeto necesita electricidad para sonar.",
+              "Porque las tarjetas contienen ya la respuesta."
+            ],
+            "correct": "a",
+            "explanation": "Porque Noa muestra el objeto mientras lo hace sonar."
+          },
+          "l275b-q4": {
+            "prompt": "¿Qué significa «desproporcionado» al hablar de los medios puntos dibujados?",
+            "options": [
+              "Imposible de repartir entre dos participantes.",
+              "Demasiado pequeño para poder leerlo después.",
+              "Exageradamente grande para esa anotación.",
+              "Igual de grande que todas las otras respuestas."
+            ],
+            "correct": "c",
+            "explanation": "Excesivamente grande respecto a lo que se esperaría en una anotación así."
+          },
+          "l275b-q5": {
+            "prompt": "¿Sobre qué discrepan al oír la caja de música?",
+            "options": [
+              "Sobre quién había prestado la campanilla.",
+              "Sobre el momento en que volverá la luz.",
+              "Sobre el número de tarjetas disponibles.",
+              "Sobre la melodía que está sonando."
+            ],
+            "correct": "d",
+            "explanation": "Sobre la canción, aunque reconocen el objeto."
+          },
+          "l275b-q6": {
+            "prompt": "¿Qué indica que repitan la melodía y nadie mire el altavoz?",
+            "options": [
+              "Que el grupo espera una orden del encargado.",
+              "Que el juego con objetos ha captado su atención.",
+              "Que han olvidado reconocer cualquier melodía.",
+              "Que ya han escuchado las doce grabaciones."
+            ],
+            "correct": "b",
+            "explanation": "Que la atención del grupo se ha centrado en la nueva actividad con objetos."
+          },
+          "l275b-q7": {
+            "prompt": "¿Qué papel tiene la vuelta de la electricidad en la segunda parte?",
+            "options": [
+              "Permite que continuar con objetos sea una elección.",
+              "Resuelve el desacuerdo sobre la canción de cuerda.",
+              "Obliga al grupo a escuchar la grabación interrumpida.",
+              "Explica por qué no había claridad junto a la ventana."
+            ],
+            "correct": "a",
+            "explanation": "Elimina la obligación de usar objetos y convierte su continuidad en una elección."
+          },
+          "l275b-q8": {
+            "prompt": "¿Qué interpretación del medio punto se ajusta a la escena?",
+            "options": [
+              "Es una regla anunciada para todo concurso del local.",
+              "Es la sanción por haber usado un objeto distinto.",
+              "Es una concesión humorística a las conexiones propuestas.",
+              "Es la prueba de que las tres respuestas son literalmente iguales."
+            ],
+            "correct": "c",
+            "explanation": "Es una broma que permite jugar con las asociaciones entre respuestas."
+          },
+          "l275b-q9": {
+            "prompt": "¿Qué afirmación sobre la tarjeta del padre está sustentada?",
+            "options": [
+              "Había escrito el título de una canción reconocida.",
+              "Mantuvo la misma respuesta durante toda la tarde.",
+              "Su primera respuesta era la palabra «silencio».",
+              "Modificó un escrito inicial cuyo contenido no conocemos."
+            ],
+            "correct": "d",
+            "explanation": "Que cambia su primer escrito antes de responder «Sopa con ruedas»; el texto no revela qué había puesto al principio."
+          },
+          "l275b-q10": {
+            "prompt": "¿Qué cambio global explica mejor la sesión?",
+            "options": [
+              "El grupo abandona la escucha y convierte la tarde en un taller de escritura.",
+              "Una interrupción lleva de respuestas previstas a una actividad sonora más participativa.",
+              "La falta de electricidad demuestra que no se puede organizar una sesión de sonidos.",
+              "Los objetos reproducen exactamente el programa original preparado por la coordinadora."
+            ],
+            "correct": "b",
+            "explanation": "De un plan de grabaciones y respuestas previstas se pasa a crear sonidos y jugar con interpretaciones compartidas."
+          }
+        }
+      },
+      {
+        "code": "L275B",
+        "language": "ca",
+        "questions": {
+          "l275b-q1": {
+            "prompt": "Què havia preparat la Rosa abans de l’activitat?",
+            "options": [
+              "Dotze objectes per a una exposició nova.",
+              "Dotze respostes ja escrites en targetes.",
+              "Dotze cançons per aprendre a taral·lejar.",
+              "Dotze enregistraments de sons per endevinar."
+            ],
+            "correct": "d",
+            "explanation": "Dotze enregistraments per endevinar sons."
+          },
+          "l275b-q2": {
+            "prompt": "Què sap la Rosa en acabar la trucada que no sabia quan es van apagar els llums?",
+            "options": [
+              "La durada exacta de la interrupció.",
+              "La confirmació del tall, sense saber quant durarà.",
+              "El dany que ha patit el cable de l’altaveu.",
+              "L’objecte que triarà primer cada assistent."
+            ],
+            "correct": "b",
+            "explanation": "Que l’encarregat confirma un tall d’electricitat, encara que se’n desconegui la durada."
+          },
+          "l275b-q3": {
+            "prompt": "Per què el primer intent amb la campaneta gairebé no funciona com a endevinalla?",
+            "options": [
+              "Perquè el grup pot veure què està sonant.",
+              "Perquè ningú no arriba a sentir el so triat.",
+              "Perquè l’objecte necessita electricitat per sonar.",
+              "Perquè les targetes ja contenen la resposta."
+            ],
+            "correct": "a",
+            "explanation": "Perquè la Noa mostra l’objecte mentre el fa sonar."
+          },
+          "l275b-q4": {
+            "prompt": "Què significa «desproporcionada» quan parla de la mida dels mitjos punts dibuixats?",
+            "options": [
+              "Impossible de repartir entre dos participants.",
+              "Massa petit per poder-lo llegir després.",
+              "Exageradament gran per a aquella anotació.",
+              "Igual de gran que totes les altres respostes."
+            ],
+            "correct": "c",
+            "explanation": "Excessivament gran respecte del que s’esperaria en una anotació així."
+          },
+          "l275b-q5": {
+            "prompt": "Sobre què discrepen quan senten la capsa de música?",
+            "options": [
+              "Sobre qui havia deixat la campaneta.",
+              "Sobre el moment en què tornarà la llum.",
+              "Sobre el nombre de targetes disponibles.",
+              "Sobre la melodia que està sonant."
+            ],
+            "correct": "d",
+            "explanation": "Sobre la cançó, encara que reconeixen l’objecte."
+          },
+          "l275b-q6": {
+            "prompt": "Què indica que repeteixin la melodia i ningú no miri l’altaveu?",
+            "options": [
+              "Que el grup espera una ordre de l’encarregat.",
+              "Que el joc amb objectes ha captat la seva atenció.",
+              "Que han oblidat reconèixer qualsevol melodia.",
+              "Que ja han escoltat els dotze enregistraments."
+            ],
+            "correct": "b",
+            "explanation": "Que l’atenció del grup s’ha centrat en la nova activitat amb objectes."
+          },
+          "l275b-q7": {
+            "prompt": "Quin paper té la tornada de l’electricitat a la segona part?",
+            "options": [
+              "Permet que continuar amb objectes sigui una tria.",
+              "Resol el desacord sobre la cançó de corda.",
+              "Obliga el grup a escoltar l’enregistrament interromput.",
+              "Explica per què no hi havia claror vora la finestra."
+            ],
+            "correct": "a",
+            "explanation": "Elimina l’obligació de fer servir objectes i converteix la continuïtat en una tria."
+          },
+          "l275b-q8": {
+            "prompt": "Quina interpretació del mig punt s’ajusta a l’escena?",
+            "options": [
+              "És una regla anunciada per a tot concurs del local.",
+              "És la sanció per haver fet servir un objecte diferent.",
+              "És una concessió humorística a les connexions proposades.",
+              "És la prova que les tres respostes són literalment iguals."
+            ],
+            "correct": "c",
+            "explanation": "És una broma que permet jugar amb les associacions entre respostes."
+          },
+          "l275b-q9": {
+            "prompt": "Quina afirmació sobre la targeta del pare està sustentada?",
+            "options": [
+              "Havia escrit el títol d’una cançó reconeguda.",
+              "Va mantenir la mateixa resposta tota la tarda.",
+              "La primera resposta era la paraula «silenci».",
+              "Va modificar un escrit inicial del qual no coneixem el contingut."
+            ],
+            "correct": "d",
+            "explanation": "Que canvia el primer escrit abans de respondre «Sopa amb rodes»; el text no revela què havia posat al principi."
+          },
+          "l275b-q10": {
+            "prompt": "Quin canvi global explica millor la sessió?",
+            "options": [
+              "El grup abandona l’escolta i converteix la tarda en un taller d’escriptura.",
+              "Una interrupció porta de respostes previstes a una activitat sonora més participativa.",
+              "La falta d’electricitat demostra que no es pot organitzar una sessió de sons.",
+              "Els objectes reprodueixen exactament el programa original preparat per la coordinadora."
+            ],
+            "correct": "b",
+            "explanation": "D’un pla d’enregistraments i respostes previstes es passa a crear sons i jugar amb interpretacions compartides."
+          }
+        }
+      }
+    ]
   }
 ];
