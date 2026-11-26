@@ -3761,5 +3761,1898 @@ export const libraryPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L271",
+    "edition": "v1.59.3",
+    "family": {
+      "id": "familia-l271",
+      "code": "L271",
+      "name": {
+        "es": "Una manta con sitio para más historias",
+        "ca": "Una manta amb lloc per a més històries"
+      },
+      "description": {
+        "ca": "Una història de La biblioteca de les coses, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de La biblioteca de las cosas, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L271A",
+        "L271",
+        "L271B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "una-manta-amb-lloc-per-a-mes-histories-a-es",
+        "code": "L271A",
+        "workId": "una-manta-amb-lloc-per-a-mes-histories-a",
+        "language": "es",
+        "familyId": "familia-l271",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "history",
+          "everyday"
+        ],
+        "genre": "interview",
+        "title": "Una manta con sitio para más historias",
+        "summary": "Adil entrevista a Teresa sobre una manta que ha donado. Su historia familiar ayuda a imaginar nuevos usos sin guardarla en una vitrina.",
+        "paragraphs": [
+          "La biblioteca de las cosas presta objetos desde un local vecinal. Teresa ha donado una manta de retales, y Rosa, la coordinadora, ha comprobado que está limpia y en buen estado. Adil, un estudiante que colabora allí, la entrevista para el boletín del servicio. La manta descansa sobre la mesa; en una esquina tiene un triángulo azul.",
+          "Adil: ¿Por qué has traído esta manta? Teresa: En casa estaba doblada en un armario. Tengo otra que uso cada noche y esta casi nunca salía. Aquí puede servir para una merienda o para sentarse a escuchar cuentos. Me gusta pensar que volverá a abrirse en algún sitio y que alguien la encontrará cómoda.",
+          "Adil: ¿Quién la hizo? Teresa: Mi madre la cosió con trozos de tela que le habían sobrado. De pequeña la llevábamos a la estación cuando esperábamos a mi padre. El banco estaba frío y nos sentábamos encima. Una vez se me cayó un bocadillo entre los pliegues. Lo buscamos por todo el andén antes de levantar la manta.",
+          "Adil: ¿El triángulo azul también lo puso tu madre? Teresa: Ese lo cosí yo, muchos años después. Una esquina se enganchó en una silla y se rasgó. El remiendo la dejó lista para seguir usándola. La tela azul era de una camisa que ya no me ponía.",
+          "Adil: Con esa historia, ¿te gustaría verla expuesta? Teresa: ¿Sin tocarla? Me daría pena. La he traído para que se use. Podéis guardar una foto y contar lo del banco. Así la historia se queda aquí aunque la manta esté en otra casa. Adil: Pues la foto cabrá en el boletín. La manta, seguro que no.",
+          "Rosa cuenta que una vecina ha pedido una manta para leer cuentos en su patio. Teresa alisa la esquina azul y pregunta si también podrá pedirla algún día. «Claro, cuando esté libre, igual que los demás», responde Rosa. Adil anota esa respuesta antes de cerrar el cuaderno."
+        ],
+        "questions": [
+          {
+            "id": "l271a-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Quién hizo la manta y con qué material?",
+            "answer": "La madre de Teresa, con trozos de tela que le habían sobrado.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Mi madre la cosió con trozos de tela que le habían sobrado."
+              }
+            ]
+          },
+          {
+            "id": "l271a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Quién añadió el triángulo azul y por qué?",
+            "answer": "Teresa lo cosió para reparar una esquina que se había rasgado al engancharse en una silla.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Ese lo cosí yo, muchos años después."
+              },
+              {
+                "paragraph": 4,
+                "text": "Una esquina se enganchó en una silla y se rasgó."
+              }
+            ]
+          },
+          {
+            "id": "l271a-q3",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué Teresa dona una manta que conserva recuerdos de su familia?",
+            "answer": "Porque casi no la usa en casa y quiere que otras personas puedan aprovecharla.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "esta casi nunca salía"
+              },
+              {
+                "paragraph": 5,
+                "text": "La he traído para que se use."
+              }
+            ]
+          },
+          {
+            "id": "l271a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «remiendo» en la respuesta de Teresa?",
+            "answer": "El trozo de tela cosido para reparar la parte rasgada.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "El remiendo la dejó lista para seguir usándola."
+              }
+            ]
+          },
+          {
+            "id": "l271a-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Cómo proponen conservar la historia sin impedir el uso de la manta?",
+            "answer": "Guardando una fotografía y contando la anécdota en el boletín, mientras la manta sigue prestándose.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Podéis guardar una foto y contar lo del banco."
+              },
+              {
+                "paragraph": 5,
+                "text": "aunque la manta esté en otra casa"
+              }
+            ]
+          },
+          {
+            "id": "l271a-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué forma del texto permite oír directamente la voz de Teresa?",
+            "answer": "La entrevista, organizada en preguntas de Adil y respuestas de Teresa.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Adil: ¿Quién la hizo? Teresa:"
+              }
+            ]
+          },
+          {
+            "id": "l271a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué cuenta Teresa y qué quiere para la manta.",
+            "answer": "Recuerda que su madre la hizo y que ella la reparó; desea que la manta siga usándose y que su historia se conserve en una foto y el boletín.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Mi madre la cosió"
+              },
+              {
+                "paragraph": 4,
+                "text": "Ese lo cosí yo"
+              },
+              {
+                "paragraph": 5,
+                "text": "La he traído para que se use."
+              }
+            ]
+          },
+          {
+            "id": "l271a-q8",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Escribe otra pregunta que harías a Teresa a partir de una de sus respuestas.",
+            "answer": "Respuesta abierta ligada a los recuerdos, a la confección, a la reparación o al nuevo uso; se valora que nazca de una respuesta concreta."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "remiendo",
+            "occurrence": 1,
+            "questionId": "l271a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l271-scene",
+            "src": "assets/readings/l271-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una manta de retales con un triángulo azul, doblada junto a una fotografía familiar sin rostros reconocibles y un cuaderno verde.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "una-manta-amb-lloc-per-a-mes-histories-a-ca",
+        "code": "L271A",
+        "workId": "una-manta-amb-lloc-per-a-mes-histories-a",
+        "language": "ca",
+        "familyId": "familia-l271",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "history",
+          "everyday"
+        ],
+        "genre": "interview",
+        "title": "Una manta amb lloc per a més històries",
+        "summary": "L’Adil entrevista la Teresa sobre una manta que ha donat. La història familiar ajuda a imaginar nous usos sense desar-la en una vitrina.",
+        "paragraphs": [
+          "La biblioteca de les coses presta objectes des d’un local veïnal. La Teresa hi ha donat una manta de retalls, i la Rosa, la coordinadora, ha comprovat que està neta i en bon estat. L’Adil, un estudiant que hi col·labora, l’entrevista per al butlletí del servei. La manta descansa damunt la taula; en un racó té un triangle blau.",
+          "Adil: Per què has portat aquesta manta? Teresa: A casa estava plegada en un armari. En tinc una altra que faig servir cada nit i aquesta gairebé no sortia mai. Aquí pot servir per a un berenar o per seure a escoltar contes. M’agrada pensar que es tornarà a obrir en algun lloc i que algú la trobarà còmoda.",
+          "Adil: Qui la va fer? Teresa: La meva mare la va cosir amb trossos de roba que li havien sobrat. De petita la portàvem a l’estació quan esperàvem el meu pare. El banc era fred i ens hi assèiem al damunt. Una vegada em va caure un entrepà entre els plecs. El vam buscar per tota l’andana abans d’aixecar la manta.",
+          "Adil: El triangle blau també el va posar la teva mare? Teresa: Aquest el vaig cosir jo, molts anys després. Una cantonada es va enganxar en una cadira i es va esquinçar. El pedaç la va deixar a punt per continuar fent-la servir. La roba blava era d’una camisa que ja no em posava.",
+          "Adil: Amb aquesta història, t’agradaria veure-la exposada? Teresa: Sense tocar-la? Em faria pena. L’he portada perquè es faci servir. Podeu desar una foto i explicar allò del banc. Així la història es queda aquí encara que la manta sigui en una altra casa. Adil: Doncs la foto cabrà al butlletí. La manta, segur que no.",
+          "La Rosa explica que una veïna ha demanat una manta per llegir contes al pati de casa. La Teresa allisa la cantonada blava i pregunta si també la podrà demanar algun dia. «És clar, quan estigui lliure, com tothom», respon la Rosa. L’Adil anota aquella resposta abans de tancar el quadern."
+        ],
+        "questions": [
+          {
+            "id": "l271a-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Qui va fer la manta i amb quin material?",
+            "answer": "La mare de la Teresa, amb trossos de roba que li havien sobrat.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La meva mare la va cosir amb trossos de roba que li havien sobrat."
+              }
+            ]
+          },
+          {
+            "id": "l271a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Qui va afegir el triangle blau i per què?",
+            "answer": "La Teresa el va cosir per reparar una cantonada que s’havia esquinçat en enganxar-se en una cadira.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Aquest el vaig cosir jo, molts anys després."
+              },
+              {
+                "paragraph": 4,
+                "text": "Una cantonada es va enganxar en una cadira i es va esquinçar."
+              }
+            ]
+          },
+          {
+            "id": "l271a-q3",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què la Teresa dona una manta que conserva records de la família?",
+            "answer": "Perquè gairebé no la fa servir a casa i vol que altres persones la puguin aprofitar.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "aquesta gairebé no sortia mai"
+              },
+              {
+                "paragraph": 5,
+                "text": "L’he portada perquè es faci servir."
+              }
+            ]
+          },
+          {
+            "id": "l271a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir «pedaç» en la resposta de la Teresa?",
+            "answer": "El tros de roba cosit per reparar la part esquinçada.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "El pedaç la va deixar a punt per continuar fent-la servir."
+              }
+            ]
+          },
+          {
+            "id": "l271a-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Com proposen conservar la història sense impedir l’ús de la manta?",
+            "answer": "Desant una fotografia i explicant l’anècdota al butlletí, mentre la manta continua prestant-se.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Podeu desar una foto i explicar allò del banc."
+              },
+              {
+                "paragraph": 5,
+                "text": "encara que la manta sigui en una altra casa"
+              }
+            ]
+          },
+          {
+            "id": "l271a-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quina forma del text permet sentir directament la veu de la Teresa?",
+            "answer": "L’entrevista, organitzada en preguntes de l’Adil i respostes de la Teresa.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Adil: Qui la va fer? Teresa:"
+              }
+            ]
+          },
+          {
+            "id": "l271a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix què explica la Teresa i què vol per a la manta.",
+            "answer": "Recorda que la mare la va fer i que ella la va reparar; vol que la manta es continuï fent servir i que se’n conservi la història en una foto i el butlletí.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La meva mare la va cosir"
+              },
+              {
+                "paragraph": 4,
+                "text": "Aquest el vaig cosir jo"
+              },
+              {
+                "paragraph": 5,
+                "text": "L’he portada perquè es faci servir."
+              }
+            ]
+          },
+          {
+            "id": "l271a-q8",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Escriu una altra pregunta que faries a la Teresa a partir d’una de les seves respostes.",
+            "answer": "Resposta oberta lligada als records, a la confecció, a la reparació o al nou ús; es valora que neixi d’una resposta concreta."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "pedaç",
+            "occurrence": 1,
+            "questionId": "l271a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l271-scene",
+            "src": "assets/readings/l271-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una manta de retalls amb un triangle blau, plegada al costat d’una fotografia familiar sense rostres recognoscibles i un quadern verd.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "una-manta-amb-lloc-per-a-mes-histories-es",
+        "code": "L271",
+        "workId": "una-manta-amb-lloc-per-a-mes-histories",
+        "language": "es",
+        "familyId": "familia-l271",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "history",
+          "everyday"
+        ],
+        "genre": "interview",
+        "title": "Una manta con sitio para más historias",
+        "summary": "Una entrevista sobre una manta donada descubre recuerdos, reparaciones y una condición de Teresa: que vuelva a usarse.",
+        "paragraphs": [
+          "Teresa ha donado una manta de retales a la biblioteca de las cosas, un servicio vecinal de préstamo de objetos. Rosa, la adulta que lo coordina, ya ha comprobado que está limpia y en buen estado. Adil, un estudiante colaborador, entrevista a la donante para el boletín. Noa, otra estudiante, toma apuntes a su lado. Sobre la mesa están la manta, con un triángulo azul en una esquina, y una fotografía antigua de un banco cubierto por ella.",
+          "Adil: ¿Por qué la has traído aquí? Teresa: Tengo otra para la cama y esta pasaba meses en el armario. La abría al ordenar y la volvía a guardar. Cuando vi que aquí prestabais cosas para meriendas y salidas, pensé en ella. Noa: ¿No te costó darla? Teresa: Sí, un poco. Por eso me gustó que pudiera seguir usándose cerca. Si un día la veo salir en una bolsa, sabré que no está otra vez dormida.",
+          "Adil: ¿Quién la cosió? Teresa: Mi madre, con telas que le sobraban de otros trabajos. Cuando yo era pequeña, la llevábamos a la estación si teníamos que esperar a mi padre. Nos sentábamos sobre ella porque el banco estaba helado. En esta foto se ve el banco, aunque no recuerdo quién la hizo. Una tarde perdí un bocadillo entre los pliegues. Mi padre llegó y todavía andábamos buscándolo. Se rio y levantó la manta por una punta.",
+          "Noa: ¿El triángulo azul ya estaba entonces? Teresa: No, lo puse yo de mayor. Una esquina se enganchó en una silla y se rasgó. Saqué tela de una camisa que ya no usaba e hice ese remiendo. Mira la foto: esa esquina era de cuadros pequeños. Adil acerca la imagen a la tela. El triángulo ocupa ahora un lugar donde antes había varios cuadros; el resto del borde sigue siendo reconocible.",
+          "Adil: Con todo lo que ha vivido, podríamos dejarla expuesta. Teresa: ¿Siempre aquí y sin tocarla? Eso me daría pena. Podéis contar la historia y guardar una foto. Yo la traje para que sirviera. Noa: Entonces, ¿una foto para el boletín y la manta para los cuentos? Rosa explica que una vecina ha pedido una para leer con unos niños en su patio. Teresa asiente y estira con la palma la esquina reparada.",
+          "Adil: ¿Y si tú la necesitas otra vez? Teresa: Precisamente quería preguntarlo. Rosa: Puedes pedirla como cualquier vecina, cuando esté libre. Teresa: Me gustaría llevármela algún día con mi nieta. Le contaré lo del bocadillo; lo del banco frío ya lo conoce. Noa anota la frase y pregunta si pueden incluir esa anécdota en el boletín. Teresa acepta y pide que le enseñen una copia cuando esté preparada.",
+          "Antes de doblar la manta, Noa la fotografía extendida. Teresa aparta la taza que había dejado junto a la esquina azul para que salga entera. Después ayuda a plegarla, buscando con los dedos las dobleces que conoce desde hace años."
+        ],
+        "questions": [
+          {
+            "id": "l271-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué Teresa pensó en donar esta manta al servicio?",
+            "answer": "Casi no la usaba y supo que allí prestaban cosas para meriendas y salidas, donde podía servir.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "esta pasaba meses en el armario"
+              },
+              {
+                "paragraph": 2,
+                "text": "Cuando vi que aquí prestabais cosas para meriendas y salidas"
+              }
+            ]
+          },
+          {
+            "id": "l271-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué hacía la familia con la manta en la estación?",
+            "answer": "La extendía sobre un banco frío para sentarse mientras esperaba al padre de Teresa.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "la llevábamos a la estación si teníamos que esperar a mi padre"
+              },
+              {
+                "paragraph": 3,
+                "text": "Nos sentábamos sobre ella porque el banco estaba helado."
+              }
+            ]
+          },
+          {
+            "id": "l271-q3",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué permite observar la comparación entre la fotografía y la manta actual?",
+            "answer": "Que la esquina cambió con la reparación: el triángulo azul sustituyó una zona de cuadros, mientras el resto del borde sigue reconocible.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "El triángulo ocupa ahora un lugar donde antes había varios cuadros"
+              }
+            ]
+          },
+          {
+            "id": "l271-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «remiendo» en esta entrevista?",
+            "answer": "Una reparación hecha añadiendo tela a la parte rasgada.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Saqué tela de una camisa que ya no usaba e hice ese remiendo."
+              }
+            ]
+          },
+          {
+            "id": "l271-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué preocupación de Teresa revela su respuesta a la propuesta de exponer la manta?",
+            "answer": "Le preocupa que conservar la historia lleve a dejar la manta sin uso; quiere que siga sirviendo.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "¿Siempre aquí y sin tocarla? Eso me daría pena."
+              },
+              {
+                "paragraph": 5,
+                "text": "Yo la traje para que sirviera."
+              }
+            ]
+          },
+          {
+            "id": "l271-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué pide Teresa respecto al boletín antes de marcharse?",
+            "answer": "Que le enseñen una copia cuando esté preparada; acepta incluir la anécdota.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Teresa acepta y pide que le enseñen una copia cuando esté preparada."
+              }
+            ]
+          },
+          {
+            "id": "l271-q7",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué guardar la foto y publicar el recuerdo responde a los dos intereses de Teresa?",
+            "answer": "Conserva y comparte la memoria familiar, mientras el objeto sigue disponible para usarse y prestarse.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Podéis contar la historia y guardar una foto."
+              },
+              {
+                "paragraph": 5,
+                "text": "Yo la traje para que sirviera."
+              }
+            ]
+          },
+          {
+            "id": "l271-q8",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "¿Qué aporta el gesto final de Teresa al ayudar a doblarla?",
+            "answer": "Muestra su familiaridad y vínculo con la manta mediante una acción, después de contar sus recuerdos.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "buscando con los dedos las dobleces que conoce desde hace años"
+              }
+            ]
+          },
+          {
+            "id": "l271-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume cómo unen la historia de la manta y su uso futuro.",
+            "answer": "La entrevista recoge la confección por la madre de Teresa, la reparación y los recuerdos. Una foto y el boletín conservarán esa historia mientras la manta puede prestarse para cuentos y otros usos.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Mi madre, con telas que le sobraban"
+              },
+              {
+                "paragraph": 4,
+                "text": "lo puse yo de mayor"
+              },
+              {
+                "paragraph": 5,
+                "text": "una foto para el boletín y la manta para los cuentos"
+              }
+            ]
+          },
+          {
+            "id": "l271-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿Qué detalle escogerías para presentar la entrevista en el boletín? Explica qué aporta y evita inventar información.",
+            "answer": "Respuesta abierta: puede elegir el triángulo, el banco, el bocadillo o el gesto de doblar, justificando su relación con el recuerdo o el uso."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "remiendo",
+            "occurrence": 1,
+            "questionId": "l271-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l271-scene",
+            "src": "assets/readings/l271-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una manta de retales con un triángulo azul, doblada junto a una fotografía familiar sin rostros reconocibles y un cuaderno verde.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "una-manta-amb-lloc-per-a-mes-histories-ca",
+        "code": "L271",
+        "workId": "una-manta-amb-lloc-per-a-mes-histories",
+        "language": "ca",
+        "familyId": "familia-l271",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "history",
+          "everyday"
+        ],
+        "genre": "interview",
+        "title": "Una manta amb lloc per a més històries",
+        "summary": "Una entrevista sobre una manta donada descobreix records, reparacions i una condició de la Teresa: que es torni a fer servir.",
+        "paragraphs": [
+          "La Teresa ha donat una manta de retalls a la biblioteca de les coses, un servei veïnal de préstec d’objectes. La Rosa, l’adulta que el coordina, ja ha comprovat que està neta i en bon estat. L’Adil, un estudiant col·laborador, entrevista la donant per al butlletí. La Noa, una altra estudiant, pren apunts al seu costat. Damunt la taula hi ha la manta, amb un triangle blau en un racó, i una fotografia antiga d’un banc cobert per la mateixa manta.",
+          "Adil: Per què l’has portada aquí? Teresa: En tinc una altra per al llit i aquesta passava mesos a l’armari. L’obria en endreçar i la tornava a desar. Quan vaig veure que aquí prestàveu coses per a berenars i sortides, hi vaig pensar. Noa: No et va costar donar-la? Teresa: Sí, una mica. Per això em va agradar que es pogués continuar fent servir a prop. Si un dia la veig sortir en una bossa, sabré que no torna a estar adormida.",
+          "Adil: Qui la va cosir? Teresa: La meva mare, amb robes que li sobraven d’altres feines. Quan jo era petita, la portàvem a l’estació si havíem d’esperar el meu pare. Ens hi assèiem al damunt perquè el banc era glaçat. En aquesta foto es veu el banc, tot i que no recordo qui la va fer. Una tarda vaig perdre un entrepà entre els plecs. El pare va arribar i encara l’estàvem buscant. Va riure i va aixecar la manta per una punta.",
+          "Noa: El triangle blau ja hi era, aleshores? Teresa: No, el vaig posar jo de gran. Una cantonada es va enganxar en una cadira i es va esquinçar. Vaig treure roba d’una camisa que ja no feia servir i vaig fer aquest pedaç. Mira la foto: aquella cantonada era de quadrets petits. L’Adil acosta la imatge a la roba. El triangle ocupa ara un lloc on abans hi havia diversos quadres; la resta de la vora continua sent recognoscible.",
+          "Adil: Amb tot el que ha viscut, la podríem deixar exposada. Teresa: Sempre aquí i sense tocar-la? Això em faria pena. Podeu explicar la història i desar una foto. Jo la vaig portar perquè servís. Noa: Aleshores, una foto per al butlletí i la manta per als contes? La Rosa explica que una veïna n’ha demanat una per llegir amb uns infants al pati de casa. La Teresa assenteix i estira amb el palmell la cantonada reparada.",
+          "Adil: I si tu la tornes a necessitar? Teresa: Justament ho volia preguntar. Rosa: La pots demanar com qualsevol veïna, quan estigui lliure. Teresa: M’agradaria endur-me-la algun dia amb la neta. Li explicaré allò de l’entrepà; allò del banc fred ja ho coneix. La Noa anota la frase i pregunta si poden incloure aquella anècdota al butlletí. La Teresa ho accepta i demana que li ensenyin una còpia quan estigui preparada.",
+          "Abans de plegar la manta, la Noa la fotografia estesa. La Teresa aparta la tassa que havia deixat al costat de la cantonada blava perquè surti sencera. Després ajuda a plegar-la, buscant amb els dits els plecs que coneix des de fa anys."
+        ],
+        "questions": [
+          {
+            "id": "l271-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què la Teresa va pensar a donar aquesta manta al servei?",
+            "answer": "Gairebé no la feia servir i va saber que allà prestaven coses per a berenars i sortides, on podia servir.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "aquesta passava mesos a l’armari"
+              },
+              {
+                "paragraph": 2,
+                "text": "Quan vaig veure que aquí prestàveu coses per a berenars i sortides"
+              }
+            ]
+          },
+          {
+            "id": "l271-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què feia la família amb la manta a l’estació?",
+            "answer": "L’estenia damunt un banc fred per seure mentre esperava el pare de la Teresa.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "la portàvem a l’estació si havíem d’esperar el meu pare"
+              },
+              {
+                "paragraph": 3,
+                "text": "Ens hi assèiem al damunt perquè el banc era glaçat."
+              }
+            ]
+          },
+          {
+            "id": "l271-q3",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Què permet observar la comparació entre la fotografia i la manta actual?",
+            "answer": "Que la cantonada va canviar amb la reparació: el triangle blau va substituir una zona de quadres, mentre la resta de la vora continua recognoscible.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "El triangle ocupa ara un lloc on abans hi havia diversos quadres"
+              }
+            ]
+          },
+          {
+            "id": "l271-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir «pedaç» en aquesta entrevista?",
+            "answer": "Una reparació feta afegint roba a la part esquinçada.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Vaig treure roba d’una camisa que ja no feia servir i vaig fer aquest pedaç."
+              }
+            ]
+          },
+          {
+            "id": "l271-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Quina preocupació de la Teresa revela la resposta a la proposta d’exposar la manta?",
+            "answer": "Li preocupa que conservar la història porti a deixar la manta sense ús; vol que continuï servint.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Sempre aquí i sense tocar-la? Això em faria pena."
+              },
+              {
+                "paragraph": 5,
+                "text": "Jo la vaig portar perquè servís."
+              }
+            ]
+          },
+          {
+            "id": "l271-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què demana la Teresa respecte del butlletí abans d’anar-se’n?",
+            "answer": "Que li ensenyin una còpia quan estigui preparada; accepta incloure-hi l’anècdota.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "La Teresa ho accepta i demana que li ensenyin una còpia quan estigui preparada."
+              }
+            ]
+          },
+          {
+            "id": "l271-q7",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què desar la foto i publicar el record respon als dos interessos de la Teresa?",
+            "answer": "Conserva i comparteix la memòria familiar, mentre l’objecte continua disponible per fer-se servir i prestar-se.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Podeu explicar la història i desar una foto."
+              },
+              {
+                "paragraph": 5,
+                "text": "Jo la vaig portar perquè servís."
+              }
+            ]
+          },
+          {
+            "id": "l271-q8",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "Què aporta el gest final de la Teresa en ajudar a plegar-la?",
+            "answer": "Mostra la familiaritat i el vincle amb la manta mitjançant una acció, després d’explicar-ne els records.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "buscant amb els dits els plecs que coneix des de fa anys"
+              }
+            ]
+          },
+          {
+            "id": "l271-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix com uneixen la història de la manta i l’ús futur.",
+            "answer": "L’entrevista recull la confecció per la mare de la Teresa, la reparació i els records. Una foto i el butlletí conservaran aquella història mentre la manta es pot prestar per a contes i altres usos.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La meva mare, amb robes que li sobraven"
+              },
+              {
+                "paragraph": 4,
+                "text": "el vaig posar jo de gran"
+              },
+              {
+                "paragraph": 5,
+                "text": "una foto per al butlletí i la manta per als contes"
+              }
+            ]
+          },
+          {
+            "id": "l271-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Quin detall triaries per presentar l’entrevista al butlletí? Explica què aporta i evita inventar informació.",
+            "answer": "Resposta oberta: pot triar el triangle, el banc, l’entrepà o el gest de plegar, justificant-ne la relació amb el record o l’ús."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "pedaç",
+            "occurrence": 1,
+            "questionId": "l271-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l271-scene",
+            "src": "assets/readings/l271-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una manta de retalls amb un triangle blau, plegada al costat d’una fotografia familiar sense rostres recognoscibles i un quadern verd.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "una-manta-amb-lloc-per-a-mes-histories-b-es",
+        "code": "L271B",
+        "workId": "una-manta-amb-lloc-per-a-mes-histories-b",
+        "language": "es",
+        "familyId": "familia-l271",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "advanced",
+        "themes": [
+          "community",
+          "history",
+          "everyday"
+        ],
+        "genre": "interview",
+        "title": "Una manta con sitio para más historias",
+        "summary": "Una manta, una fotografía sin fecha y la memoria de Teresa ofrecen pistas distintas para una entrevista que debe conservar la historia y permitir nuevos usos.",
+        "paragraphs": [
+          "Sobre el mostrador de la biblioteca de las cosas hay una manta de retales y una fotografía pequeña de esa misma manta sobre un banco. Teresa ha donado el objeto al servicio vecinal, que presta cosas de uso ocasional. Rosa, la adulta que lo coordina, ha comprobado que está limpio y en buen estado. Adil y Noa, dos estudiantes colaboradores, preparan una entrevista para el boletín. Él lleva las preguntas; ella toma notas. En la foto, sin fecha al dorso, una esquina tiene cuadros pequeños. En la manta actual, ese lugar es un triángulo azul.",
+          "Adil: ¿Te costó decidirte a traerla? Teresa: Sí. La hizo mi madre con telas que le sobraban. Pero llevaba meses en un armario, porque para la cama uso otra. Cada vez que ordenaba la sacaba, la tocaba y la guardaba. Luego vi una foto de una merienda del servicio y pensé que aún podía servir para algo parecido. Noa: ¿Preferías donarla cerca de casa? Teresa: Me hizo más fácil decidirme. Puedo imaginarla en un patio que conozco, y quizá la vea volver algún día.",
+          "Adil: ¿Qué recuerdas al mirar la foto del banco? Teresa: Las tardes en la estación esperando a mi padre. Mi madre llevaba la manta porque el banco estaba helado. Nos sentábamos juntas y yo metía las manos entre los pliegues. Un día se me perdió allí un bocadillo. Lo buscamos hasta que mi padre llegó y levantó una punta. No sé quién hizo esta foto ni de qué año es. Esa anécdota la recuerdo, pero no puedo asegurar que ocurriera el día de la fotografía.",
+          "Noa: La esquina de la foto es distinta. Teresa: El triángulo azul lo cosí yo de mayor. Se enganchó en una silla y quedó un agujero. Aproveché una camisa que ya no me ponía para hacer el remiendo. Adil: Entonces la foto es anterior. Teresa: Al remiendo, sí. El año no lo sé. Adil mira la pregunta siguiente, donde había escrito «¿De qué año es esta foto del estreno de la manta?». La tacha: la imagen no permitía saber si era la primera vez que usaban la manta.",
+          "Adil: Con estos recuerdos, podríamos dejarla expuesta aquí. Teresa: ¿Siempre, sin que nadie la toque? Eso me daría pena. La he donado para que vuelva a usarse. Guardad una foto y el relato, si os interesan. La manta puede salir. Rosa cuenta que una vecina ha preguntado por una para leer cuentos con unos niños en el patio. Teresa sonríe: recuerda haber hecho tiendas entre dos sillas con esa tela, aunque aquella vez terminó enganchada en una de ellas.",
+          "Noa: ¿Podemos contar lo del bocadillo? Teresa: Claro. Pero dejad la foto sin año, porque no lo sabemos. Quiero ver cómo queda cuando lo tengáis. Adil propone separar en el boletín el recuerdo de Teresa y un pie de foto que describa lo visible: la manta sobre el banco, antes del triángulo azul. Rosa les ofrece hacer una copia de la fotografía para que Teresa conserve la original. Ella acepta y vuelve a meterla en su sobre.",
+          "Teresa pregunta si también podrá pedir la manta para una salida con su nieta. Rosa responde que puede usar el servicio como cualquier vecina, cuando el objeto esté libre. Noa deja un espacio en sus notas para la foto nueva de la manta extendida. El relato recordará los usos antiguos; esa imagen mostrará también la reparación que permite seguir utilizándola.",
+          "Antes de recoger, Teresa ayuda a doblarla. Noa retira el cuaderno para dejarle sitio. Al llegar a la esquina azul, la donante cambia la doblez de lugar: «Así abulta menos». Adil prueba a sostenerla como ella y casi se le escapa una punta."
+        ],
+        "questions": [
+          {
+            "id": "l271b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué diferencia se observa entre la esquina de la fotografía y la actual?",
+            "answer": "En la fotografía hay cuadros pequeños donde ahora está el triángulo azul.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una esquina tiene cuadros pequeños"
+              },
+              {
+                "paragraph": 1,
+                "text": "ese lugar es un triángulo azul"
+              }
+            ]
+          },
+          {
+            "id": "l271b-q2",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Cómo facilita la cercanía la decisión de Teresa sin borrar su vínculo con la manta?",
+            "answer": "Puede imaginarla usada en lugares conocidos y quizá verla regresar, aunque ya no la guarde en casa.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Puedo imaginarla en un patio que conozco, y quizá la vea volver algún día."
+              }
+            ]
+          },
+          {
+            "id": "l271b-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué recuerda Teresa sobre el bocadillo y qué no puede asegurar?",
+            "answer": "Recuerda que se perdió entre los pliegues y lo encontraron al levantar la manta; no puede asegurar que ocurriera el día de la fotografía.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Un día se me perdió allí un bocadillo."
+              },
+              {
+                "paragraph": 3,
+                "text": "no puedo asegurar que ocurriera el día de la fotografía"
+              }
+            ]
+          },
+          {
+            "id": "l271b-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «remiendo» en el cuarto párrafo?",
+            "answer": "Una reparación con un trozo de tela, aquí de una camisa, para cubrir la zona dañada.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Aproveché una camisa que ya no me ponía para hacer el remiendo."
+              }
+            ]
+          },
+          {
+            "id": "l271b-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué orden temporal sí permite establecer la comparación de la foto y el relato?",
+            "answer": "La fotografía es anterior al remiendo azul, aunque no permite saber el año exacto.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Al remiendo, sí. El año no lo sé."
+              }
+            ]
+          },
+          {
+            "id": "l271b-q6",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué daba por seguro Adil en la pregunta que tacha?",
+            "answer": "Que la fotografía mostraba el estreno de la manta, aunque la imagen no permite saber si era su primer uso.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "la imagen no permitía saber si era la primera vez que usaban la manta"
+              }
+            ]
+          },
+          {
+            "id": "l271b-q7",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "¿Qué aporta conservar en el texto la pregunta corregida de Adil?",
+            "answer": "Permite ver cómo Adil revisa una pregunta preparada al descubrir que suponía algo no comprobado sobre la foto.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Adil mira la pregunta siguiente"
+              },
+              {
+                "paragraph": 4,
+                "text": "La tacha"
+              }
+            ]
+          },
+          {
+            "id": "l271b-q8",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué ventaja tiene separar el recuerdo y el pie de foto en el boletín?",
+            "answer": "Permite contar la anécdota sin hacer creer que la fotografía demuestra cuándo ocurrió; el pie describe lo que se ve.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "no puedo asegurar que ocurriera el día de la fotografía"
+              },
+              {
+                "paragraph": 6,
+                "text": "un pie de foto que describa lo visible"
+              }
+            ]
+          },
+          {
+            "id": "l271b-q9",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué Teresa rechaza una exposición permanente sin uso?",
+            "answer": "Ha donado la manta para que vuelva a servir y prefiere conservar la historia mediante una foto y el relato.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "La he donado para que vuelva a usarse."
+              },
+              {
+                "paragraph": 5,
+                "text": "Guardad una foto y el relato"
+              }
+            ]
+          },
+          {
+            "id": "l271b-q10",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué acuerdan guardar en el servicio y qué conservará Teresa?",
+            "answer": "El servicio guardará una copia de la fotografía; Teresa conservará el original, que vuelve a meter en su sobre.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "hacer una copia de la fotografía para que Teresa conserve la original"
+              },
+              {
+                "paragraph": 6,
+                "text": "vuelve a meterla en su sobre"
+              }
+            ]
+          },
+          {
+            "id": "l271b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resume qué aportan la manta, la fotografía y Teresa, y qué acuerdan hacer.",
+            "answer": "La manta muestra una reparación; la foto permite situarla después de la imagen, sin dar un año; Teresa cuenta su origen y recuerdos. Guardarán una copia y un relato que respete esas diferencias, mientras la manta sigue disponible para nuevos usos.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Al remiendo, sí. El año no lo sé."
+              },
+              {
+                "paragraph": 6,
+                "text": "separar en el boletín el recuerdo de Teresa y un pie de foto"
+              },
+              {
+                "paragraph": 7,
+                "text": "cuando el objeto esté libre"
+              }
+            ]
+          },
+          {
+            "id": "l271b-q12",
+            "type": "opinion",
+            "lines": 5,
+            "prompt": "Propón un título para el boletín y justifica cómo conserva la memoria sin inventar certezas ni presentar la manta como intocable.",
+            "answer": "Respuesta abierta: debe recoger algún recuerdo o el nuevo uso, respetar que no hay fecha exacta y no sugerir que la donación queda fuera del préstamo."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "remiendo",
+            "occurrence": 1,
+            "questionId": "l271b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l271-scene",
+            "src": "assets/readings/l271-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una manta de retales con un triángulo azul, doblada junto a una fotografía familiar sin rostros reconocibles y un cuaderno verde.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "una-manta-amb-lloc-per-a-mes-histories-b-ca",
+        "code": "L271B",
+        "workId": "una-manta-amb-lloc-per-a-mes-histories-b",
+        "language": "ca",
+        "familyId": "familia-l271",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "advanced",
+        "themes": [
+          "community",
+          "history",
+          "everyday"
+        ],
+        "genre": "interview",
+        "title": "Una manta amb lloc per a més històries",
+        "summary": "Una manta, una fotografia sense data i la memòria de la Teresa ofereixen pistes diferents per a una entrevista que ha de conservar la història i permetre nous usos.",
+        "paragraphs": [
+          "Damunt el taulell de la biblioteca de les coses hi ha una manta de retalls i una fotografia petita d’aquella mateixa manta sobre un banc. La Teresa ha donat l’objecte al servei veïnal, que presta coses d’ús ocasional. La Rosa, l’adulta que el coordina, ha comprovat que està net i en bon estat. L’Adil i la Noa, dos estudiants col·laboradors, preparen una entrevista per al butlletí. Ell porta les preguntes; ella pren notes. A la foto, sense data al darrere, una cantonada té quadrets petits. A la manta actual, aquell lloc és un triangle blau.",
+          "Adil: Et va costar decidir-te a portar-la? Teresa: Sí. La va fer la meva mare amb robes que li sobraven. Però feia mesos que era en un armari, perquè per al llit en faig servir una altra. Cada cop que endreçava la treia, la tocava i la desava. Després vaig veure una foto d’un berenar del servei i vaig pensar que encara podia servir per a una cosa semblant. Noa: Preferies donar-la a prop de casa? Teresa: Em va fer més fàcil decidir-me. Me la puc imaginar en un pati que conec, i potser algun dia la veuré tornar.",
+          "Adil: Què recordes quan mires la foto del banc? Teresa: Les tardes a l’estació esperant el meu pare. La mare portava la manta perquè el banc era glaçat. Ens hi assèiem juntes i jo ficava les mans entre els plecs. Un dia hi vaig perdre un entrepà. El vam buscar fins que va arribar el pare i va aixecar una punta. No sé qui va fer aquesta foto ni de quin any és. Aquella anècdota la recordo, però no puc assegurar que passés el dia de la fotografia.",
+          "Noa: La cantonada de la foto és diferent. Teresa: El triangle blau el vaig cosir jo de gran. Es va enganxar en una cadira i hi va quedar un forat. Vaig aprofitar una camisa que ja no em posava per fer el pedaç. Adil: Aleshores la foto és anterior. Teresa: Al pedaç, sí. L’any no el sé. L’Adil mira la pregunta següent, on havia escrit «De quin any és aquesta foto de l’estrena de la manta?». La ratlla: la imatge no permetia saber si era la primera vegada que feien servir la manta.",
+          "Adil: Amb aquests records, la podríem deixar exposada aquí. Teresa: Sempre, sense que ningú la toqui? Això em faria pena. L’he donada perquè es torni a fer servir. Deseu una foto i el relat, si us interessen. La manta pot sortir. La Rosa explica que una veïna ha preguntat per una per llegir contes amb uns infants al pati. La Teresa somriu: recorda haver fet tendes entre dues cadires amb aquella roba, tot i que aquella vegada va acabar enganxada en una de les cadires.",
+          "Noa: Podem explicar allò de l’entrepà? Teresa: És clar. Però deixeu la foto sense any, perquè no el sabem. Vull veure com queda quan ho tingueu. L’Adil proposa separar al butlletí el record de la Teresa i un peu de foto que descrigui el que es veu: la manta damunt el banc, abans del triangle blau. La Rosa els ofereix fer una còpia de la fotografia perquè la Teresa conservi l’original. Ella ho accepta i la torna a ficar al sobre.",
+          "La Teresa pregunta si també podrà demanar la manta per a una sortida amb la neta. La Rosa respon que pot fer servir el servei com qualsevol veïna, quan l’objecte estigui lliure. La Noa deixa un espai a les notes per a la foto nova de la manta estesa. El relat recordarà els usos antics; aquella imatge també mostrarà la reparació que permet continuar utilitzant-la.",
+          "Abans de recollir, la Teresa ajuda a plegar-la. La Noa retira el quadern per deixar-li lloc. En arribar a la cantonada blava, la donant canvia el plec de lloc: «Així fa menys bony». L’Adil prova d’aguantar-la com ella i gairebé se li escapa una punta."
+        ],
+        "questions": [
+          {
+            "id": "l271b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina diferència s’observa entre la cantonada de la fotografia i l’actual?",
+            "answer": "A la fotografia hi ha quadrets petits on ara hi ha el triangle blau.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una cantonada té quadrets petits"
+              },
+              {
+                "paragraph": 1,
+                "text": "aquell lloc és un triangle blau"
+              }
+            ]
+          },
+          {
+            "id": "l271b-q2",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Com facilita la proximitat la decisió de la Teresa sense esborrar el vincle amb la manta?",
+            "answer": "Se la pot imaginar usada en llocs coneguts i potser veure-la tornar, tot i que ja no la desi a casa.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Me la puc imaginar en un pati que conec, i potser algun dia la veuré tornar."
+              }
+            ]
+          },
+          {
+            "id": "l271b-q3",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què recorda la Teresa sobre l’entrepà i què no pot assegurar?",
+            "answer": "Recorda que es va perdre entre els plecs i el van trobar en aixecar la manta; no pot assegurar que passés el dia de la fotografia.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Un dia hi vaig perdre un entrepà."
+              },
+              {
+                "paragraph": 3,
+                "text": "no puc assegurar que passés el dia de la fotografia"
+              }
+            ]
+          },
+          {
+            "id": "l271b-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir «pedaç» en el quart paràgraf?",
+            "answer": "Una reparació amb un tros de roba, aquí d’una camisa, per cobrir la zona danyada.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Vaig aprofitar una camisa que ja no em posava per fer el pedaç."
+              }
+            ]
+          },
+          {
+            "id": "l271b-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Quin ordre temporal sí que permet establir la comparació de la foto i el relat?",
+            "answer": "La fotografia és anterior al pedaç blau, tot i que no permet saber l’any exacte.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Al pedaç, sí. L’any no el sé."
+              }
+            ]
+          },
+          {
+            "id": "l271b-q6",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Què donava per segur l’Adil en la pregunta que ratlla?",
+            "answer": "Que la fotografia mostrava l’estrena de la manta, tot i que la imatge no permet saber si era el primer ús.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "la imatge no permetia saber si era la primera vegada que feien servir la manta"
+              }
+            ]
+          },
+          {
+            "id": "l271b-q7",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "Què aporta conservar al text la pregunta corregida de l’Adil?",
+            "answer": "Permet veure com l’Adil revisa una pregunta preparada en descobrir que suposava una cosa no comprovada sobre la foto.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "L’Adil mira la pregunta següent"
+              },
+              {
+                "paragraph": 4,
+                "text": "La ratlla"
+              }
+            ]
+          },
+          {
+            "id": "l271b-q8",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Quin avantatge té separar el record i el peu de foto al butlletí?",
+            "answer": "Permet explicar l’anècdota sense fer creure que la fotografia demostra quan va passar; el peu descriu el que es veu.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "no puc assegurar que passés el dia de la fotografia"
+              },
+              {
+                "paragraph": 6,
+                "text": "un peu de foto que descrigui el que es veu"
+              }
+            ]
+          },
+          {
+            "id": "l271b-q9",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què la Teresa rebutja una exposició permanent sense ús?",
+            "answer": "Ha donat la manta perquè torni a servir i prefereix conservar-ne la història mitjançant una foto i el relat.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "L’he donada perquè es torni a fer servir."
+              },
+              {
+                "paragraph": 5,
+                "text": "Deseu una foto i el relat"
+              }
+            ]
+          },
+          {
+            "id": "l271b-q10",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què acorden desar al servei i què conservarà la Teresa?",
+            "answer": "El servei desarà una còpia de la fotografia; la Teresa conservarà l’original, que torna a ficar al sobre.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "fer una còpia de la fotografia perquè la Teresa conservi l’original"
+              },
+              {
+                "paragraph": 6,
+                "text": "la torna a ficar al sobre"
+              }
+            ]
+          },
+          {
+            "id": "l271b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resumeix què aporten la manta, la fotografia i la Teresa, i què acorden fer.",
+            "answer": "La manta mostra una reparació; la foto permet situar-la després de la imatge, sense donar un any; la Teresa n’explica l’origen i records. Desaran una còpia i un relat que respecti aquelles diferències, mentre la manta continua disponible per a nous usos.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Al pedaç, sí. L’any no el sé."
+              },
+              {
+                "paragraph": 6,
+                "text": "separar al butlletí el record de la Teresa i un peu de foto"
+              },
+              {
+                "paragraph": 7,
+                "text": "quan l’objecte estigui lliure"
+              }
+            ]
+          },
+          {
+            "id": "l271b-q12",
+            "type": "opinion",
+            "lines": 5,
+            "prompt": "Proposa un títol per al butlletí i justifica com conserva la memòria sense inventar certeses ni presentar la manta com a intocable.",
+            "answer": "Resposta oberta: ha de recollir algun record o el nou ús, respectar que no hi ha data exacta i no suggerir que la donació queda fora del préstec."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "pedaç",
+            "occurrence": 1,
+            "questionId": "l271b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l271-scene",
+            "src": "assets/readings/l271-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una manta de retalls amb un triangle blau, plegada al costat d’una fotografia familiar sense rostres recognoscibles i un quadern verd.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 5
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L271A",
+        "language": "es",
+        "questions": {
+          "l271a-q1": {
+            "prompt": "¿Quién hizo la manta y con qué material?",
+            "options": [
+              "Teresa, con tela comprada para el boletín.",
+              "Rosa, con camisas donadas por los vecinos.",
+              "La madre de Teresa, con tela que le sobraba.",
+              "La vecina del patio, con una cortina azul."
+            ],
+            "correct": "c",
+            "explanation": "La madre de Teresa, con trozos de tela que le habían sobrado."
+          },
+          "l271a-q2": {
+            "prompt": "¿Quién añadió el triángulo azul y por qué?",
+            "options": [
+              "Teresa, para reparar una esquina rasgada.",
+              "Su madre, para marcar el asiento del banco.",
+              "Rosa, para señalar que podía prestarse.",
+              "Adil, para preparar la foto del boletín."
+            ],
+            "correct": "a",
+            "explanation": "Teresa lo cosió para reparar una esquina que se había rasgado al engancharse en una silla."
+          },
+          "l271a-q3": {
+            "prompt": "¿Por qué Teresa dona una manta que conserva recuerdos de su familia?",
+            "options": [
+              "Porque la manta ha dejado de poder repararse.",
+              "Porque quiere cambiarla por una manta nueva.",
+              "Porque ha olvidado quién la había cosido.",
+              "Porque desea que tenga uso fuera del armario."
+            ],
+            "correct": "d",
+            "explanation": "Porque casi no la usa en casa y quiere que otras personas puedan aprovecharla."
+          },
+          "l271a-q4": {
+            "prompt": "¿Qué significa «remiendo» en la respuesta de Teresa?",
+            "options": [
+              "Una marca que se pinta para reconocer la manta.",
+              "Un trozo de tela añadido para reparar un daño.",
+              "Una costura que sirve para doblar toda la manta.",
+              "Un envoltorio que se retira antes del préstamo."
+            ],
+            "correct": "b",
+            "explanation": "El trozo de tela cosido para reparar la parte rasgada."
+          },
+          "l271a-q5": {
+            "prompt": "¿Cómo proponen conservar la historia sin impedir el uso de la manta?",
+            "options": [
+              "Dejándola extendida en una vitrina del local.",
+              "Prestándola únicamente a personas de la familia.",
+              "Conservando su relato y una imagen mientras circula.",
+              "Quitando el triángulo azul antes de cada préstamo."
+            ],
+            "correct": "c",
+            "explanation": "Guardando una fotografía y contando la anécdota en el boletín, mientras la manta sigue prestándose."
+          },
+          "l271a-q6": {
+            "prompt": "¿Qué forma del texto permite oír directamente la voz de Teresa?",
+            "options": [
+              "Las preguntas y respuestas identifican quién habla.",
+              "Una lista ordena todos los pasos para coserla.",
+              "Una carta cuenta solo lo que piensa Adil.",
+              "Un anuncio ofrece la manta a un precio concreto."
+            ],
+            "correct": "a",
+            "explanation": "La entrevista, organizada en preguntas de Adil y respuestas de Teresa."
+          },
+          "l271a-q7": {
+            "prompt": "¿Qué resumen recoge la entrevista?",
+            "options": [
+              "Teresa descubre que la manta está rota y pide que se guarde hasta repararla.",
+              "Teresa entrega una manta nueva para sustituir otra hecha por su madre.",
+              "Teresa decide recuperar la manta para que nadie pueda tocarla sin permiso.",
+              "Teresa comparte los recuerdos de una manta y desea que tenga nuevos usos."
+            ],
+            "correct": "d",
+            "explanation": "Recuerda que su madre la hizo y que ella la reparó; desea que la manta siga usándose y que su historia se conserve en una foto y el boletín."
+          }
+        }
+      },
+      {
+        "code": "L271A",
+        "language": "ca",
+        "questions": {
+          "l271a-q1": {
+            "prompt": "Qui va fer la manta i amb quin material?",
+            "options": [
+              "La Teresa, amb roba comprada per al butlletí.",
+              "La Rosa, amb camises donades pels veïns.",
+              "La mare de la Teresa, amb roba que li sobrava.",
+              "La veïna del pati, amb una cortina blava."
+            ],
+            "correct": "c",
+            "explanation": "La mare de la Teresa, amb trossos de roba que li havien sobrat."
+          },
+          "l271a-q2": {
+            "prompt": "Qui va afegir el triangle blau i per què?",
+            "options": [
+              "La Teresa, per reparar una cantonada esquinçada.",
+              "La seva mare, per marcar el seient del banc.",
+              "La Rosa, per assenyalar que es podia prestar.",
+              "L’Adil, per preparar la foto del butlletí."
+            ],
+            "correct": "a",
+            "explanation": "La Teresa el va cosir per reparar una cantonada que s’havia esquinçat en enganxar-se en una cadira."
+          },
+          "l271a-q3": {
+            "prompt": "Per què la Teresa dona una manta que conserva records de la família?",
+            "options": [
+              "Perquè la manta ja no es pot reparar.",
+              "Perquè la vol canviar per una manta nova.",
+              "Perquè ha oblidat qui l’havia cosida.",
+              "Perquè vol que tingui ús fora de l’armari."
+            ],
+            "correct": "d",
+            "explanation": "Perquè gairebé no la fa servir a casa i vol que altres persones la puguin aprofitar."
+          },
+          "l271a-q4": {
+            "prompt": "Què vol dir «pedaç» en la resposta de la Teresa?",
+            "options": [
+              "Una marca que es pinta per reconèixer la manta.",
+              "Un tros de roba afegit per reparar un dany.",
+              "Una costura que serveix per plegar tota la manta.",
+              "Un embolcall que es retira abans del préstec."
+            ],
+            "correct": "b",
+            "explanation": "El tros de roba cosit per reparar la part esquinçada."
+          },
+          "l271a-q5": {
+            "prompt": "Com proposen conservar la història sense impedir l’ús de la manta?",
+            "options": [
+              "Deixant-la estesa en una vitrina del local.",
+              "Prestant-la únicament a persones de la família.",
+              "Conservant-ne el relat i una imatge mentre circula.",
+              "Traient el triangle blau abans de cada préstec."
+            ],
+            "correct": "c",
+            "explanation": "Desant una fotografia i explicant l’anècdota al butlletí, mentre la manta continua prestant-se."
+          },
+          "l271a-q6": {
+            "prompt": "Quina forma del text permet sentir directament la veu de la Teresa?",
+            "options": [
+              "Les preguntes i respostes identifiquen qui parla.",
+              "Una llista ordena tots els passos per cosir-la.",
+              "Una carta explica només el que pensa l’Adil.",
+              "Un anunci ofereix la manta a un preu concret."
+            ],
+            "correct": "a",
+            "explanation": "L’entrevista, organitzada en preguntes de l’Adil i respostes de la Teresa."
+          },
+          "l271a-q7": {
+            "prompt": "Quin resum recull l’entrevista?",
+            "options": [
+              "La Teresa descobreix que la manta està trencada i demana que es desi fins a reparar-la.",
+              "La Teresa lliura una manta nova per substituir-ne una altra feta per la mare.",
+              "La Teresa decideix recuperar la manta perquè ningú no la pugui tocar sense permís.",
+              "La Teresa comparteix els records d’una manta i vol que tingui nous usos."
+            ],
+            "correct": "d",
+            "explanation": "Recorda que la mare la va fer i que ella la va reparar; vol que la manta es continuï fent servir i que se’n conservi la història en una foto i el butlletí."
+          }
+        }
+      },
+      {
+        "code": "L271",
+        "language": "es",
+        "questions": {
+          "l271-q1": {
+            "prompt": "¿Por qué Teresa pensó en donar esta manta al servicio?",
+            "options": [
+              "Quería sustituir la manta que seguía usando cada noche.",
+              "Necesitaba que repararan una esquina antes de recuperarla.",
+              "Deseaba que su madre la viera expuesta en un museo.",
+              "Pensó que podría usarse para salidas en vez de seguir guardada."
+            ],
+            "correct": "d",
+            "explanation": "Casi no la usaba y supo que allí prestaban cosas para meriendas y salidas, donde podía servir."
+          },
+          "l271-q2": {
+            "prompt": "¿Qué hacía la familia con la manta en la estación?",
+            "options": [
+              "La utilizaba para envolver la comida que llevaba al tren.",
+              "La ponía sobre el banco para sentarse mientras esperaba.",
+              "La colgaba de un banco para señalar dónde paraba el tren.",
+              "La extendía en el andén para vender los retales sobrantes."
+            ],
+            "correct": "b",
+            "explanation": "La extendía sobre un banco frío para sentarse mientras esperaba al padre de Teresa."
+          },
+          "l271-q3": {
+            "prompt": "¿Qué permite observar la comparación entre la fotografía y la manta actual?",
+            "options": [
+              "Una reparación posterior cambió una parte de la manta.",
+              "La manta fue hecha originalmente solo con tela azul.",
+              "La madre de Teresa ya había cosido el triángulo en la estación.",
+              "La fotografía corresponde a otra manta de la biblioteca."
+            ],
+            "correct": "a",
+            "explanation": "Que la esquina cambió con la reparación: el triángulo azul sustituyó una zona de cuadros, mientras el resto del borde sigue reconocible."
+          },
+          "l271-q4": {
+            "prompt": "¿Qué significa «remiendo» en esta entrevista?",
+            "options": [
+              "Una señal que indica la persona que donó el objeto.",
+              "Una funda para evitar que la manta se manche.",
+              "Una reparación con tela añadida sobre un daño.",
+              "Una copia nueva de todos los cuadros originales."
+            ],
+            "correct": "c",
+            "explanation": "Una reparación hecha añadiendo tela a la parte rasgada."
+          },
+          "l271-q5": {
+            "prompt": "¿Qué preocupación de Teresa revela su respuesta a la propuesta de exponer la manta?",
+            "options": [
+              "Que la foto antigua se use para reparar la esquina azul.",
+              "Que el boletín cuente solo la historia de la nueva vecina.",
+              "Que el préstamo permita a más personas conocer la manta.",
+              "Que se vuelva intocable y deje de servir a otras personas."
+            ],
+            "correct": "d",
+            "explanation": "Le preocupa que conservar la historia lleve a dejar la manta sin uso; quiere que siga sirviendo."
+          },
+          "l271-q6": {
+            "prompt": "¿Qué pide Teresa respecto al boletín antes de marcharse?",
+            "options": [
+              "Que retiren del boletín cualquier referencia a su familia.",
+              "Que le muestren una copia cuando la tengan preparada.",
+              "Que publiquen la entrevista sin incluir ninguna fotografía.",
+              "Que entreguen el boletín únicamente a su nieta."
+            ],
+            "correct": "b",
+            "explanation": "Que le enseñen una copia cuando esté preparada; acepta incluir la anécdota."
+          },
+          "l271-q7": {
+            "prompt": "¿Por qué guardar la foto y publicar el recuerdo responde a los dos intereses de Teresa?",
+            "options": [
+              "Se puede compartir el recuerdo y mantener la manta en uso.",
+              "Se puede evitar que la manta vuelva a salir del local.",
+              "Se puede prestar la foto en lugar de cualquier otro objeto.",
+              "Se puede reservar la manta para la familia de quien la hizo."
+            ],
+            "correct": "a",
+            "explanation": "Conserva y comparte la memoria familiar, mientras el objeto sigue disponible para usarse y prestarse."
+          },
+          "l271-q8": {
+            "prompt": "¿Qué aporta el gesto final de Teresa al ayudar a doblarla?",
+            "options": [
+              "Introduce una avería que obliga a retirar la manta.",
+              "Sustituye la entrevista por instrucciones completas de cuidado.",
+              "Da forma visible al vínculo que ha descrito con sus recuerdos.",
+              "Demuestra que ha decidido llevarse de nuevo la manta a casa."
+            ],
+            "correct": "c",
+            "explanation": "Muestra su familiaridad y vínculo con la manta mediante una acción, después de contar sus recuerdos."
+          },
+          "l271-q9": {
+            "prompt": "¿Qué resumen relaciona la memoria y el futuro del objeto?",
+            "options": [
+              "Teresa presta una manta rota para que los estudiantes la reparen y después se la devuelvan.",
+              "Teresa rechaza el préstamo porque prefiere guardar la manta con la foto del banco.",
+              "Teresa dona una manta sin recuerdos y pide que inventen una historia para el boletín.",
+              "Teresa comparte una manta y sus recuerdos; la historia se guardará sin impedir nuevos usos."
+            ],
+            "correct": "d",
+            "explanation": "La entrevista recoge la confección por la madre de Teresa, la reparación y los recuerdos. Una foto y el boletín conservarán esa historia mientras la manta puede prestarse para cuentos y otros usos."
+          }
+        }
+      },
+      {
+        "code": "L271",
+        "language": "ca",
+        "questions": {
+          "l271-q1": {
+            "prompt": "Per què la Teresa va pensar a donar aquesta manta al servei?",
+            "options": [
+              "Volia substituir la manta que continuava fent servir cada nit.",
+              "Necessitava que reparessin una cantonada abans de recuperar-la.",
+              "Volia que la mare la veiés exposada en un museu.",
+              "Va pensar que es podria fer servir per a sortides en lloc de continuar desada."
+            ],
+            "correct": "d",
+            "explanation": "Gairebé no la feia servir i va saber que allà prestaven coses per a berenars i sortides, on podia servir."
+          },
+          "l271-q2": {
+            "prompt": "Què feia la família amb la manta a l’estació?",
+            "options": [
+              "La feia servir per embolicar el menjar que portava al tren.",
+              "La posava damunt el banc per seure mentre esperava.",
+              "La penjava d’un banc per assenyalar on s’aturava el tren.",
+              "L’estenia a l’andana per vendre els retalls sobrants."
+            ],
+            "correct": "b",
+            "explanation": "L’estenia damunt un banc fred per seure mentre esperava el pare de la Teresa."
+          },
+          "l271-q3": {
+            "prompt": "Què permet observar la comparació entre la fotografia i la manta actual?",
+            "options": [
+              "Una reparació posterior va canviar una part de la manta.",
+              "La manta es va fer originalment només amb roba blava.",
+              "La mare de la Teresa ja havia cosit el triangle a l’estació.",
+              "La fotografia correspon a una altra manta de la biblioteca."
+            ],
+            "correct": "a",
+            "explanation": "Que la cantonada va canviar amb la reparació: el triangle blau va substituir una zona de quadres, mentre la resta de la vora continua recognoscible."
+          },
+          "l271-q4": {
+            "prompt": "Què vol dir «pedaç» en aquesta entrevista?",
+            "options": [
+              "Un senyal que indica la persona que va donar l’objecte.",
+              "Una funda per evitar que la manta es taqui.",
+              "Una reparació amb roba afegida damunt un dany.",
+              "Una còpia nova de tots els quadres originals."
+            ],
+            "correct": "c",
+            "explanation": "Una reparació feta afegint roba a la part esquinçada."
+          },
+          "l271-q5": {
+            "prompt": "Quina preocupació de la Teresa revela la resposta a la proposta d’exposar la manta?",
+            "options": [
+              "Que la foto antiga es faci servir per reparar la cantonada blava.",
+              "Que el butlletí expliqui només la història de la nova veïna.",
+              "Que el préstec permeti a més persones conèixer la manta.",
+              "Que es torni intocable i deixi de servir a altres persones."
+            ],
+            "correct": "d",
+            "explanation": "Li preocupa que conservar la història porti a deixar la manta sense ús; vol que continuï servint."
+          },
+          "l271-q6": {
+            "prompt": "Què demana la Teresa respecte del butlletí abans d’anar-se’n?",
+            "options": [
+              "Que retirin del butlletí qualsevol referència a la família.",
+              "Que li mostrin una còpia quan la tinguin preparada.",
+              "Que publiquin l’entrevista sense incloure cap fotografia.",
+              "Que lliurin el butlletí únicament a la seva neta."
+            ],
+            "correct": "b",
+            "explanation": "Que li ensenyin una còpia quan estigui preparada; accepta incloure-hi l’anècdota."
+          },
+          "l271-q7": {
+            "prompt": "Per què desar la foto i publicar el record respon als dos interessos de la Teresa?",
+            "options": [
+              "Es pot compartir el record i mantenir la manta en ús.",
+              "Es pot evitar que la manta torni a sortir del local.",
+              "Es pot prestar la foto en lloc de qualsevol altre objecte.",
+              "Es pot reservar la manta per a la família de qui la va fer."
+            ],
+            "correct": "a",
+            "explanation": "Conserva i comparteix la memòria familiar, mentre l’objecte continua disponible per fer-se servir i prestar-se."
+          },
+          "l271-q8": {
+            "prompt": "Què aporta el gest final de la Teresa en ajudar a plegar-la?",
+            "options": [
+              "Introdueix una avaria que obliga a retirar la manta.",
+              "Substitueix l’entrevista per instruccions completes de cura.",
+              "Dona forma visible al vincle que ha descrit amb els records.",
+              "Demostra que ha decidit tornar-se a endur la manta a casa."
+            ],
+            "correct": "c",
+            "explanation": "Mostra la familiaritat i el vincle amb la manta mitjançant una acció, després d’explicar-ne els records."
+          },
+          "l271-q9": {
+            "prompt": "Quin resum relaciona la memòria i el futur de l’objecte?",
+            "options": [
+              "La Teresa presta una manta trencada perquè els estudiants la reparin i després la hi tornin.",
+              "La Teresa rebutja el préstec perquè prefereix desar la manta amb la foto del banc.",
+              "La Teresa dona una manta sense records i demana que inventin una història per al butlletí.",
+              "La Teresa comparteix una manta i els records; la història es desarà sense impedir nous usos."
+            ],
+            "correct": "d",
+            "explanation": "L’entrevista recull la confecció per la mare de la Teresa, la reparació i els records. Una foto i el butlletí conservaran aquella història mentre la manta es pot prestar per a contes i altres usos."
+          }
+        }
+      },
+      {
+        "code": "L271B",
+        "language": "es",
+        "questions": {
+          "l271b-q1": {
+            "prompt": "¿Qué diferencia se observa entre la esquina de la fotografía y la actual?",
+            "options": [
+              "Antes tenía cuadros; ahora tiene un triángulo azul.",
+              "Antes era azul; ahora tiene solo cuadros pequeños.",
+              "Antes estaba rasgada; ahora está dentro de una funda.",
+              "Antes tenía una fecha; ahora muestra el nombre de Teresa."
+            ],
+            "correct": "a",
+            "explanation": "En la fotografía hay cuadros pequeños donde ahora está el triángulo azul."
+          },
+          "l271b-q2": {
+            "prompt": "¿Cómo facilita la cercanía la decisión de Teresa sin borrar su vínculo con la manta?",
+            "options": [
+              "Le asegura que será la primera en usarla cuando quiera.",
+              "Le evita tener que contar de dónde procede la manta.",
+              "Le permite imaginar nuevos usos cercanos de un objeto querido.",
+              "Le garantiza que la manta no abandonará nunca el local."
+            ],
+            "correct": "c",
+            "explanation": "Puede imaginarla usada en lugares conocidos y quizá verla regresar, aunque ya no la guarde en casa."
+          },
+          "l271b-q3": {
+            "prompt": "¿Qué recuerda Teresa sobre el bocadillo y qué no puede asegurar?",
+            "options": [
+              "Recuerda el año, pero no quién estaba esperando en la estación.",
+              "Recuerda quién hizo la foto, pero no si llevaba una manta.",
+              "Recuerda que el banco estaba vacío, pero no dónde perdió la comida.",
+              "Recuerda la anécdota, pero no la sitúa con certeza el día de la foto."
+            ],
+            "correct": "d",
+            "explanation": "Recuerda que se perdió entre los pliegues y lo encontraron al levantar la manta; no puede asegurar que ocurriera el día de la fotografía."
+          },
+          "l271b-q4": {
+            "prompt": "¿Qué significa «remiendo» en el cuarto párrafo?",
+            "options": [
+              "La tela que se guarda como recuerdo sin poder tocarla.",
+              "La reparación de una parte dañada con tela añadida.",
+              "La costura original que unía todos los cuadros de la manta.",
+              "La funda que se coloca a un objeto antes de prestarlo."
+            ],
+            "correct": "b",
+            "explanation": "Una reparación con un trozo de tela, aquí de una camisa, para cubrir la zona dañada."
+          },
+          "l271b-q5": {
+            "prompt": "¿Qué orden temporal sí permite establecer la comparación de la foto y el relato?",
+            "options": [
+              "Primero se hizo la foto y después se añadió el triángulo azul.",
+              "Primero Teresa reparó la manta y después su madre la cosió.",
+              "La foto y la reparación ocurrieron en la misma tarde de la estación.",
+              "La manta se estrenó el día exacto en que se tomó la fotografía."
+            ],
+            "correct": "a",
+            "explanation": "La fotografía es anterior al remiendo azul, aunque no permite saber el año exacto."
+          },
+          "l271b-q6": {
+            "prompt": "¿Qué daba por seguro Adil en la pregunta que tacha?",
+            "options": [
+              "Que la fotografía se había tomado después de coser el triángulo azul.",
+              "Que el banco fotografiado estaba en una casa de la familia.",
+              "Que la fotografía correspondía al estreno de la manta.",
+              "Que la fotografía se había tomado la tarde del bocadillo."
+            ],
+            "correct": "c",
+            "explanation": "Que la fotografía mostraba el estreno de la manta, aunque la imagen no permite saber si era su primer uso."
+          },
+          "l271b-q7": {
+            "prompt": "¿Qué aporta conservar en el texto la pregunta corregida de Adil?",
+            "options": [
+              "Introduce un segundo recuerdo que Teresa había olvidado por completo.",
+              "Asegura que todas las preguntas iniciales eran correctas.",
+              "Establece una fecha exacta para el origen de la manta.",
+              "Muestra cómo la entrevista se ajusta a las respuestas y las pistas."
+            ],
+            "correct": "d",
+            "explanation": "Permite ver cómo Adil revisa una pregunta preparada al descubrir que suponía algo no comprobado sobre la foto."
+          },
+          "l271b-q8": {
+            "prompt": "¿Qué ventaja tiene separar el recuerdo y el pie de foto en el boletín?",
+            "options": [
+              "Evita que Teresa tenga que autorizar el relato de su recuerdo.",
+              "Distingue lo que Teresa recuerda de lo que la imagen permite observar.",
+              "Demuestra que la fotografía y la manta pertenecen a familias distintas.",
+              "Permite poner una fecha aproximada aunque nadie la conozca."
+            ],
+            "correct": "b",
+            "explanation": "Permite contar la anécdota sin hacer creer que la fotografía demuestra cuándo ocurrió; el pie describe lo que se ve."
+          },
+          "l271b-q9": {
+            "prompt": "¿Por qué Teresa rechaza una exposición permanente sin uso?",
+            "options": [
+              "Quiere que el objeto siga circulando mientras su historia se conserva.",
+              "Cree que los recuerdos familiares deben eliminarse antes de prestarla.",
+              "Prefiere llevarse la manta y dejar solo la fotografía como donación.",
+              "Considera que la reparación azul hace imposible mostrarla al público."
+            ],
+            "correct": "a",
+            "explanation": "Ha donado la manta para que vuelva a servir y prefiere conservar la historia mediante una foto y el relato."
+          },
+          "l271b-q10": {
+            "prompt": "¿Qué acuerdan guardar en el servicio y qué conservará Teresa?",
+            "options": [
+              "La foto original para el servicio y una copia para Teresa.",
+              "La manta para Teresa y una copia de la foto para el servicio.",
+              "Una copia de la foto para el servicio y el original para Teresa.",
+              "Una copia del cuaderno para el servicio y la foto para Teresa."
+            ],
+            "correct": "c",
+            "explanation": "El servicio guardará una copia de la fotografía; Teresa conservará el original, que vuelve a meter en su sobre."
+          },
+          "l271b-q11": {
+            "prompt": "¿Qué resumen integra las fuentes y el acuerdo final?",
+            "options": [
+              "Las tres fuentes fijan un año exacto y el servicio decide proteger la manta de cualquier uso.",
+              "El relato completa unas pistas con límites; conservarán la memoria sin retirar la manta del préstamo.",
+              "La fotografía contradice todos los recuerdos de Teresa y el boletín decide publicar solo la imagen.",
+              "La manta resulta ser distinta de la foto y los estudiantes preparan una historia nueva para sustituirla."
+            ],
+            "correct": "b",
+            "explanation": "La manta muestra una reparación; la foto permite situarla después de la imagen, sin dar un año; Teresa cuenta su origen y recuerdos. Guardarán una copia y un relato que respete esas diferencias, mientras la manta sigue disponible para nuevos usos."
+          }
+        }
+      },
+      {
+        "code": "L271B",
+        "language": "ca",
+        "questions": {
+          "l271b-q1": {
+            "prompt": "Quina diferència s’observa entre la cantonada de la fotografia i l’actual?",
+            "options": [
+              "Abans tenia quadres; ara té un triangle blau.",
+              "Abans era blava; ara té només quadrets petits.",
+              "Abans estava esquinçada; ara és dins d’una funda.",
+              "Abans tenia una data; ara mostra el nom de la Teresa."
+            ],
+            "correct": "a",
+            "explanation": "A la fotografia hi ha quadrets petits on ara hi ha el triangle blau."
+          },
+          "l271b-q2": {
+            "prompt": "Com facilita la proximitat la decisió de la Teresa sense esborrar el vincle amb la manta?",
+            "options": [
+              "Li assegura que serà la primera a fer-la servir quan vulgui.",
+              "Li evita haver d’explicar d’on prové la manta.",
+              "Li permet imaginar nous usos propers d’un objecte estimat.",
+              "Li garanteix que la manta no abandonarà mai el local."
+            ],
+            "correct": "c",
+            "explanation": "Se la pot imaginar usada en llocs coneguts i potser veure-la tornar, tot i que ja no la desi a casa."
+          },
+          "l271b-q3": {
+            "prompt": "Què recorda la Teresa sobre l’entrepà i què no pot assegurar?",
+            "options": [
+              "Recorda l’any, però no qui estava esperant a l’estació.",
+              "Recorda qui va fer la foto, però no si portava una manta.",
+              "Recorda que el banc era buit, però no on va perdre el menjar.",
+              "Recorda l’anècdota, però no la situa amb certesa el dia de la foto."
+            ],
+            "correct": "d",
+            "explanation": "Recorda que es va perdre entre els plecs i el van trobar en aixecar la manta; no pot assegurar que passés el dia de la fotografia."
+          },
+          "l271b-q4": {
+            "prompt": "Què vol dir «pedaç» en el quart paràgraf?",
+            "options": [
+              "La roba que es desa com a record sense poder-la tocar.",
+              "La reparació d’una part danyada amb roba afegida.",
+              "La costura original que unia tots els quadres de la manta.",
+              "La funda que es posa a un objecte abans de prestar-lo."
+            ],
+            "correct": "b",
+            "explanation": "Una reparació amb un tros de roba, aquí d’una camisa, per cobrir la zona danyada."
+          },
+          "l271b-q5": {
+            "prompt": "Quin ordre temporal sí que permet establir la comparació de la foto i el relat?",
+            "options": [
+              "Primer es va fer la foto i després es va afegir el triangle blau.",
+              "Primer la Teresa va reparar la manta i després la mare la va cosir.",
+              "La foto i la reparació van passar la mateixa tarda de l’estació.",
+              "La manta es va estrenar el dia exacte en què es va fer la fotografia."
+            ],
+            "correct": "a",
+            "explanation": "La fotografia és anterior al pedaç blau, tot i que no permet saber l’any exacte."
+          },
+          "l271b-q6": {
+            "prompt": "Què donava per segur l’Adil en la pregunta que ratlla?",
+            "options": [
+              "Que la fotografia s’havia fet després de cosir el triangle blau.",
+              "Que el banc fotografiat era en una casa de la família.",
+              "Que la fotografia corresponia a l’estrena de la manta.",
+              "Que la fotografia s’havia fet la tarda de l’entrepà."
+            ],
+            "correct": "c",
+            "explanation": "Que la fotografia mostrava l’estrena de la manta, tot i que la imatge no permet saber si era el primer ús."
+          },
+          "l271b-q7": {
+            "prompt": "Què aporta conservar al text la pregunta corregida de l’Adil?",
+            "options": [
+              "Introdueix un segon record que la Teresa havia oblidat del tot.",
+              "Assegura que totes les preguntes inicials eren correctes.",
+              "Estableix una data exacta per a l’origen de la manta.",
+              "Mostra com l’entrevista s’ajusta a les respostes i les pistes."
+            ],
+            "correct": "d",
+            "explanation": "Permet veure com l’Adil revisa una pregunta preparada en descobrir que suposava una cosa no comprovada sobre la foto."
+          },
+          "l271b-q8": {
+            "prompt": "Quin avantatge té separar el record i el peu de foto al butlletí?",
+            "options": [
+              "Evita que la Teresa hagi d’autoritzar el relat del record.",
+              "Distingeix el que la Teresa recorda del que la imatge permet observar.",
+              "Demostra que la fotografia i la manta pertanyen a famílies diferents.",
+              "Permet posar una data aproximada encara que ningú no la conegui."
+            ],
+            "correct": "b",
+            "explanation": "Permet explicar l’anècdota sense fer creure que la fotografia demostra quan va passar; el peu descriu el que es veu."
+          },
+          "l271b-q9": {
+            "prompt": "Per què la Teresa rebutja una exposició permanent sense ús?",
+            "options": [
+              "Vol que l’objecte continuï circulant mentre se’n conserva la història.",
+              "Creu que els records familiars s’han d’eliminar abans de prestar-la.",
+              "Prefereix endur-se la manta i deixar només la fotografia com a donació.",
+              "Considera que la reparació blava fa impossible mostrar-la al públic."
+            ],
+            "correct": "a",
+            "explanation": "Ha donat la manta perquè torni a servir i prefereix conservar-ne la història mitjançant una foto i el relat."
+          },
+          "l271b-q10": {
+            "prompt": "Què acorden desar al servei i què conservarà la Teresa?",
+            "options": [
+              "La foto original per al servei i una còpia per a la Teresa.",
+              "La manta per a la Teresa i una còpia de la foto per al servei.",
+              "Una còpia de la foto per al servei i l’original per a la Teresa.",
+              "Una còpia del quadern per al servei i la foto per a la Teresa."
+            ],
+            "correct": "c",
+            "explanation": "El servei desarà una còpia de la fotografia; la Teresa conservarà l’original, que torna a ficar al sobre."
+          },
+          "l271b-q11": {
+            "prompt": "Quin resum integra les fonts i l’acord final?",
+            "options": [
+              "Les tres fonts fixen un any exacte i el servei decideix protegir la manta de qualsevol ús.",
+              "El relat completa unes pistes amb límits; conservaran la memòria sense retirar la manta del préstec.",
+              "La fotografia contradiu tots els records de la Teresa i el butlletí decideix publicar només la imatge.",
+              "La manta resulta ser diferent de la foto i els estudiants preparen una història nova per substituir-la."
+            ],
+            "correct": "b",
+            "explanation": "La manta mostra una reparació; la foto permet situar-la després de la imatge, sense donar un any; la Teresa n’explica l’origen i records. Desaran una còpia i un relat que respecti aquelles diferències, mentre la manta continua disponible per a nous usos."
+          }
+        }
+      }
+    ]
   }
 ];
