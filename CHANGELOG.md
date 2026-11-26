@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.59.5 · 26 de novembre del 2026
+
+L273: La pluja canvia l’equipatge. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 9 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.59.4 · 26 de novembre del 2026
 
 L272: Una taula fins a casa. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 8 històries independents. Contingut provisional, pendent de validació docent.

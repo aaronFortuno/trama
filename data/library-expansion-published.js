@@ -7555,5 +7555,1760 @@ export const libraryPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L273",
+    "edition": "v1.59.5",
+    "family": {
+      "id": "familia-l273",
+      "code": "L273",
+      "name": {
+        "es": "La lluvia cambia el equipaje",
+        "ca": "La pluja canvia l’equipatge"
+      },
+      "description": {
+        "ca": "Una història de La biblioteca de les coses, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de La biblioteca de las cosas, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L273A",
+        "L273",
+        "L273B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "pluja-canvia-equipatge-a-es",
+        "code": "L273A",
+        "workId": "pluja-canvia-equipatge-a",
+        "language": "es",
+        "familyId": "familia-l273",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "games"
+        ],
+        "genre": "narrative",
+        "title": "La lluvia cambia el equipaje",
+        "summary": "La lluvia cambia el lugar de una merienda y los objetos que necesita.",
+        "paragraphs": [
+          "El viernes, la lluvia golpeaba la ventana verde con arco de la biblioteca de las cosas. En aquel local vecinal se prestaban objetos para usarlos unos días. Rosa, la coordinadora, preparaba las salidas del fin de semana. Noa y Adil, dos adolescentes que colaboraban allí, la ayudaban a reunir juegos, mantas y una carpa plegada.",
+          "La carpa debía cubrir una merienda en el patio del centro cívico. En otra calle, una asociación había pedido dos mantas para sentarse en el suelo durante una sesión de cuentos. Adil colocó cada objeto junto a su bolsa de transporte. Desde la puerta, las dos montañas parecían equipajes para viajar a países distintos.",
+          "Al mediodía llamó la responsable de la merienda. El patio tenía charcos y habían conseguido una sala interior con mesas. Ya no necesitaban la carpa, pero querían juegos para quienes llegaran pronto. Noa sugirió mandarles también las mantas. Rosa preguntó primero si en aquella sala había sillas: la respuesta fue que sí, de sobra.",
+          "Las mantas siguieron destinadas a los cuentos. Rosa llamó a las dos responsables y concretó qué recogería cada una. Para la merienda añadió un dominó grande que estaba disponible. Rosa guardó la bolsa de la carpa con otro adulto. Noa los miraba mientras el bulto dejaba libre el paso. «Menos mal que todavía no había salido», dijo.",
+          "El sábado, Adil acompañó a su madre a la sesión de cuentos. Las mantas estaban extendidas sobre una alfombra delgada; cerca, varias familias se quitaban los zapatos. Por la tarde, una fotografía de la merienda mostró el dominó sobre una mesa. Rosa recibió la imagen en el teléfono del local y la enseñó a Noa cuando coincidieron para cerrar juntas.",
+          "El lunes devolvieron el dominó y las mantas secas. La bolsa de la carpa seguía en el estante. Noa la miró y sonrió: durante todo el fin de semana, aquel enorme paquete había sido el único que no había viajado."
+        ],
+        "questions": [
+          {
+            "id": "l273a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Para qué se había pedido la carpa?",
+            "answer": "Para cubrir una merienda en el patio del centro cívico.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La carpa debía cubrir una merienda en el patio del centro cívico."
+              }
+            ]
+          },
+          {
+            "id": "l273a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Dónde se celebraría finalmente la merienda?",
+            "answer": "En una sala interior con mesas.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El patio tenía charcos y habían conseguido una sala interior con mesas."
+              }
+            ]
+          },
+          {
+            "id": "l273a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué no enviaron las mantas a la merienda?",
+            "answer": "Allí sobraban sillas y las mantas seguían siendo útiles para los cuentos.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "la respuesta fue que sí, de sobra."
+              },
+              {
+                "paragraph": 4,
+                "text": "Las mantas siguieron destinadas a los cuentos."
+              }
+            ]
+          },
+          {
+            "id": "l273a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «dejaba libre el paso» en esta escena?",
+            "answer": "Al retirar el bulto, se podía pasar por donde estaba.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Rosa guardó la bolsa de la carpa con otro adulto. Noa los miraba mientras el bulto dejaba libre el paso."
+              }
+            ]
+          },
+          {
+            "id": "l273a-q5",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué hecho hace cambiar la preparación de los objetos?",
+            "answer": "La llamada que comunica el traslado de la merienda a una sala.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Al mediodía llamó la responsable de la merienda."
+              }
+            ]
+          },
+          {
+            "id": "l273a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué confirma la fotografía de la merienda?",
+            "answer": "Que el dominó llegó a la merienda y estaba sobre una mesa.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "una fotografía de la merienda mostró el dominó sobre una mesa."
+              }
+            ]
+          },
+          {
+            "id": "l273a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume en dos frases qué cambia en los préstamos y qué se mantiene.",
+            "answer": "La merienda pasa a una sala, recibe un dominó y deja de necesitar la carpa; las mantas van a los cuentos.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Ya no necesitaban la carpa, pero querían juegos"
+              },
+              {
+                "paragraph": 4,
+                "text": "Las mantas siguieron destinadas a los cuentos."
+              }
+            ]
+          },
+          {
+            "id": "l273a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué juego llevarías tú a una merienda con mesas? Explica por qué serviría allí.",
+            "answer": "Respuesta personal: debe proponer un juego y relacionarlo con el espacio y la actividad."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "dejaba libre el paso",
+            "occurrence": 1,
+            "questionId": "l273a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l273-scene",
+            "src": "assets/readings/l273-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Carpa plegada, bolsas de mantas y una caja de dominó en el local, junto a la ventana verde mojada.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "pluja-canvia-equipatge-a-ca",
+        "code": "L273A",
+        "workId": "pluja-canvia-equipatge-a",
+        "language": "ca",
+        "familyId": "familia-l273",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "games"
+        ],
+        "genre": "narrative",
+        "title": "La pluja canvia l’equipatge",
+        "summary": "La pluja canvia el lloc d’un berenar i els objectes que necessita.",
+        "paragraphs": [
+          "Divendres, la pluja repicava a la finestra verda amb arc de la biblioteca de les coses. En aquell local veïnal es deixaven objectes per fer-los servir uns dies. La Rosa, la coordinadora, preparava les sortides del cap de setmana. La Noa i l’Adil, dos adolescents que hi col·laboraven, l’ajudaven a reunir jocs, mantes i una carpa plegada.",
+          "La carpa havia de cobrir un berenar al pati del centre cívic. En un altre carrer, una associació havia demanat dues mantes per seure a terra durant una sessió de contes. L’Adil va posar cada objecte al costat de la seva bossa de transport. Des de la porta, les dues muntanyes semblaven equipatges per viatjar a països diferents.",
+          "Al migdia va trucar la responsable del berenar. El pati tenia bassals i havien aconseguit una sala interior amb taules. Ja no necessitaven la carpa, però volien jocs per a qui arribés aviat. La Noa va suggerir enviar-los també les mantes. La Rosa va preguntar primer si en aquella sala hi havia cadires: la resposta va ser que sí, de sobres.",
+          "Les mantes van continuar destinades als contes. La Rosa va trucar a totes dues responsables i va concretar què recolliria cadascuna. Per al berenar va afegir un dòmino gran que estava disponible. La Rosa va desar la bossa de la carpa amb un altre adult. La Noa els mirava mentre el paquet deixava lliure el pas. «Sort que encara no havia sortit», va dir.",
+          "Dissabte, l’Adil va acompanyar la seva mare a la sessió de contes. Les mantes estaven esteses damunt d’una catifa prima; a prop, diverses famílies es treien les sabates. A la tarda, una fotografia del berenar va mostrar el dòmino damunt d’una taula. La Rosa va rebre la imatge al telèfon del local i la va ensenyar a la Noa quan van coincidir per tancar juntes.",
+          "Dilluns van retornar el dòmino i les mantes seques. La bossa de la carpa continuava al prestatge. La Noa se la va mirar i va somriure: durant tot el cap de setmana, aquell paquet enorme havia estat l’únic que no havia viatjat."
+        ],
+        "questions": [
+          {
+            "id": "l273a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Per a què s’havia demanat la carpa?",
+            "answer": "Per cobrir un berenar al pati del centre cívic.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La carpa havia de cobrir un berenar al pati del centre cívic."
+              }
+            ]
+          },
+          {
+            "id": "l273a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "On es faria finalment el berenar?",
+            "answer": "En una sala interior amb taules.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El pati tenia bassals i havien aconseguit una sala interior amb taules."
+              }
+            ]
+          },
+          {
+            "id": "l273a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què no van enviar les mantes al berenar?",
+            "answer": "Allà sobraven cadires i les mantes continuaven sent útils per als contes.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "la resposta va ser que sí, de sobres."
+              },
+              {
+                "paragraph": 4,
+                "text": "Les mantes van continuar destinades als contes."
+              }
+            ]
+          },
+          {
+            "id": "l273a-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què significa «deixava lliure el pas» en aquesta escena?",
+            "answer": "En retirar el paquet, es podia passar per on era.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "La Rosa va desar la bossa de la carpa amb un altre adult. La Noa els mirava mentre el paquet deixava lliure el pas."
+              }
+            ]
+          },
+          {
+            "id": "l273a-q5",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quin fet fa canviar la preparació dels objectes?",
+            "answer": "La trucada que comunica el trasllat del berenar a una sala.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Al migdia va trucar la responsable del berenar."
+              }
+            ]
+          },
+          {
+            "id": "l273a-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què confirma la fotografia del berenar?",
+            "answer": "Que el dòmino va arribar al berenar i era damunt d’una taula.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "una fotografia del berenar va mostrar el dòmino damunt d’una taula."
+              }
+            ]
+          },
+          {
+            "id": "l273a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix en dues frases què canvia en els préstecs i què es manté.",
+            "answer": "El berenar passa a una sala, rep un dòmino i deixa de necessitar la carpa; les mantes van als contes.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Ja no necessitaven la carpa, però volien jocs"
+              },
+              {
+                "paragraph": 4,
+                "text": "Les mantes van continuar destinades als contes."
+              }
+            ]
+          },
+          {
+            "id": "l273a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quin joc portaries tu a un berenar amb taules? Explica per què hi serviria.",
+            "answer": "Resposta personal: ha de proposar un joc i relacionar-lo amb l’espai i l’activitat."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "deixava lliure el pas",
+            "occurrence": 1,
+            "questionId": "l273a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l273-scene",
+            "src": "assets/readings/l273-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Carpa plegada, bosses de mantes i una caixa de dòmino al local, vora la finestra verda mullada.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "pluja-canvia-equipatge-es",
+        "code": "L273",
+        "workId": "pluja-canvia-equipatge",
+        "language": "es",
+        "familyId": "familia-l273",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "games"
+        ],
+        "genre": "narrative",
+        "title": "La lluvia cambia el equipaje",
+        "summary": "Un cambio de espacio obliga a revisar qué necesita realmente cada actividad.",
+        "paragraphs": [
+          "El viernes, en la biblioteca de las cosas, los paraguas abiertos ocupaban casi tanto suelo como los objetos preparados para salir. El servicio vecinal prestaba herramientas, juegos y otros enseres de uso ocasional. Rosa, su coordinadora, repasaba las recogidas del fin de semana. Noa y Adil, adolescentes que colaboraban en el local, buscaban las bolsas de transporte sin pisar los regueros de agua de la entrada.",
+          "Había dos destinos distintos. Una carpa plegable debía cubrir la merienda de un grupo de vecinos en el patio del centro cívico. Dos mantas viajarían a una sesión de cuentos en la asociación de otra calle, donde las familias se sentarían en el suelo. Noa puso las bolsas separadas y bromeó con que les faltaban billetes de tren. Rosa dejó el transporte y el montaje de la carpa en manos de los adultos de la merienda.",
+          "Al mediodía llamó Clara, la responsable de la merienda. Los charcos hacían incómodo el patio, pero el centro había conseguido una sala con mesas y sillas. La carpa dejaba de ser útil. En cambio, Clara preguntó si había algún juego para los primeros invitados, que solían llegar antes de que estuviera lista la comida. El cambio de espacio había cambiado también su petición.",
+          "Adil recordó las mantas que esperaban junto a la puerta: podrían servir para jugar sentados. Rosa le pasó el teléfono para que escuchara a Clara explicar la sala. Tenían bastantes sillas y preferían mantener libres los pasillos. «Pues las mantas se quedan con los cuentos», respondió él. Noa encontró un dominó grande, sin otra salida prevista, y abrió la caja para mostrar sus piezas.",
+          "Rosa confirmó el nuevo préstamo con Clara y avisó a la responsable de los cuentos de que sus mantas seguían preparadas. Después cambió la anotación de la merienda. La carpa volvió al estante antes de que llegara la furgoneta que debía recogerla. En su lugar salió una caja que cabía bajo un brazo. El conductor tuvo que reírse al ver el espacio vacío que había dejado en el vehículo.",
+          "El sábado, Adil fue a los cuentos con su madre y vio las mantas sobre una alfombra fina. Los pequeños se habían sentado cerca de la narradora. Por la tarde llegó al teléfono del local una fotografía de la merienda: varias manos rodeaban el dominó sobre una mesa. La ventana del fondo estaba cubierta de gotas. Rosa enseñó la foto a Noa cuando coincidieron al cerrar.",
+          "El lunes regresaron los objetos prestados. La carpa seguía quieta bajo el estante de madera color miel, pero ya no bloqueaba el paso. «Esta ha hecho turismo de interior», dijo Noa señalando el recorrido de dos metros entre el mostrador y su sitio."
+        ],
+        "questions": [
+          {
+            "id": "l273-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué objetos estaban destinados a los cuentos?",
+            "answer": "Dos mantas.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Dos mantas viajarían a una sesión de cuentos"
+              }
+            ]
+          },
+          {
+            "id": "l273-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Quién se ocuparía de llevar y montar la carpa?",
+            "answer": "Los adultos de la merienda.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Rosa dejó el transporte y el montaje de la carpa en manos de los adultos de la merienda."
+              }
+            ]
+          },
+          {
+            "id": "l273-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Clara pide juegos después de cambiar de sala?",
+            "answer": "Para entretener a los invitados que llegarán antes de que la comida esté lista.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "solían llegar antes de que estuviera lista la comida."
+              }
+            ]
+          },
+          {
+            "id": "l273-q4",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué condición de la sala hace descartar las mantas?",
+            "answer": "Tienen suficientes sillas y quieren dejar libres los pasillos.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Tenían bastantes sillas y preferían mantener libres los pasillos."
+              }
+            ]
+          },
+          {
+            "id": "l273-q5",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «regueros de agua»?",
+            "answer": "Pequeñas corrientes o rastros de agua que se extienden por el suelo.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "sin pisar los regueros de agua de la entrada."
+              }
+            ]
+          },
+          {
+            "id": "l273-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué función tiene la llamada de Clara en el relato?",
+            "answer": "Introduce información que obliga a modificar los objetos preparados.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El cambio de espacio había cambiado también su petición."
+              }
+            ]
+          },
+          {
+            "id": "l273-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué se ríe el conductor al recoger el préstamo?",
+            "answer": "Había preparado mucho espacio para una carpa y solo se llevan una caja pequeña.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "En su lugar salió una caja que cabía bajo un brazo."
+              }
+            ]
+          },
+          {
+            "id": "l273-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Cómo conoce Adil el uso de las mantas?",
+            "answer": "Lo ve al asistir a los cuentos con su madre.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Adil fue a los cuentos con su madre y vio las mantas sobre una alfombra fina."
+              }
+            ]
+          },
+          {
+            "id": "l273-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume el cambio de planes del fin de semana en dos frases.",
+            "answer": "La lluvia traslada una merienda al interior; se sustituye la carpa por un dominó y las mantas siguen en los cuentos.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La carpa dejaba de ser útil."
+              },
+              {
+                "paragraph": 5,
+                "text": "sus mantas seguían preparadas."
+              }
+            ]
+          },
+          {
+            "id": "l273-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué preguntarías antes de proponer un objeto para una actividad que cambia de lugar? Justifica dos preguntas.",
+            "answer": "Respuesta abierta: dos preguntas pertinentes sobre espacio, participantes o usos, con su utilidad."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "regueros de agua",
+            "occurrence": 1,
+            "questionId": "l273-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l273-scene",
+            "src": "assets/readings/l273-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Carpa plegada, bolsas de mantas y una caja de dominó en el local, junto a la ventana verde mojada.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "pluja-canvia-equipatge-ca",
+        "code": "L273",
+        "workId": "pluja-canvia-equipatge",
+        "language": "ca",
+        "familyId": "familia-l273",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday",
+          "games"
+        ],
+        "genre": "narrative",
+        "title": "La pluja canvia l’equipatge",
+        "summary": "Un canvi d’espai obliga a revisar què necessita realment cada activitat.",
+        "paragraphs": [
+          "Divendres, a la biblioteca de les coses, els paraigües oberts ocupaven gairebé tant de terra com els objectes preparats per sortir. El servei veïnal deixava eines, jocs i altres estris d’ús ocasional. La Rosa, la coordinadora, repassava les recollides del cap de setmana. La Noa i l’Adil, adolescents que col·laboraven al local, buscaven les bosses de transport sense trepitjar els regalims d’aigua de l’entrada.",
+          "Hi havia dos destins diferents. Una carpa plegable havia de cobrir el berenar d’un grup de veïns al pati del centre cívic. Dues mantes viatjarien a una sessió de contes a l’associació d’un altre carrer, on les famílies seurien a terra. La Noa va posar les bosses separades i va fer broma que els faltaven bitllets de tren. La Rosa va deixar el transport i el muntatge de la carpa en mans dels adults del berenar.",
+          "Al migdia va trucar la Clara, la responsable del berenar. Els bassals feien incòmode el pati, però el centre havia aconseguit una sala amb taules i cadires. La carpa deixava de ser útil. En canvi, la Clara va preguntar si hi havia algun joc per als primers convidats, que solien arribar abans que el menjar estigués a punt. El canvi d’espai havia canviat també la seva petició.",
+          "L’Adil va recordar les mantes que esperaven vora la porta: podrien servir per jugar asseguts. La Rosa li va passar el telèfon perquè sentís la Clara explicar la sala. Tenien prou cadires i preferien mantenir lliures els passadissos. «Doncs les mantes es queden amb els contes», va respondre ell. La Noa va trobar un dòmino gran, sense cap altra sortida prevista, i va obrir la caixa per mostrar-ne les peces.",
+          "La Rosa va confirmar el nou préstec amb la Clara i va avisar la responsable dels contes que les seves mantes continuaven preparades. Després va canviar l’anotació del berenar. La carpa va tornar al prestatge abans que arribés la furgoneta que l’havia de recollir. En lloc seu va sortir una caixa que cabia sota un braç. El conductor va riure en veure l’espai buit que havia deixat al vehicle.",
+          "Dissabte, l’Adil va anar als contes amb la seva mare i va veure les mantes damunt d’una catifa prima. Els petits s’havien assegut a prop de la narradora. A la tarda va arribar al telèfon del local una fotografia del berenar: diverses mans envoltaven el dòmino sobre una taula. La finestra del fons estava coberta de gotes. La Rosa va ensenyar la foto a la Noa quan van coincidir en tancar.",
+          "Dilluns van tornar els objectes prestats. La carpa continuava quieta sota el prestatge de fusta mel, però ja no barrava el pas. «Aquesta ha fet turisme d’interior», va dir la Noa assenyalant el recorregut de dos metres entre el taulell i el seu lloc."
+        ],
+        "questions": [
+          {
+            "id": "l273-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quins objectes estaven destinats als contes?",
+            "answer": "Dues mantes.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Dues mantes viatjarien a una sessió de contes"
+              }
+            ]
+          },
+          {
+            "id": "l273-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Qui s’ocuparia de portar i muntar la carpa?",
+            "answer": "Els adults del berenar.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La Rosa va deixar el transport i el muntatge de la carpa en mans dels adults del berenar."
+              }
+            ]
+          },
+          {
+            "id": "l273-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la Clara demana jocs després de canviar de sala?",
+            "answer": "Per entretenir els convidats que arribaran abans que el menjar estigui a punt.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "solien arribar abans que el menjar estigués a punt."
+              }
+            ]
+          },
+          {
+            "id": "l273-q4",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quina condició de la sala fa descartar les mantes?",
+            "answer": "Tenen prou cadires i volen deixar lliures els passadissos.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Tenien prou cadires i preferien mantenir lliures els passadissos."
+              }
+            ]
+          },
+          {
+            "id": "l273-q5",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què significa «regalims d’aigua»?",
+            "answer": "Petits corrents o rastres d’aigua que s’estenen per terra.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "sense trepitjar els regalims d’aigua de l’entrada."
+              }
+            ]
+          },
+          {
+            "id": "l273-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quina funció té la trucada de la Clara en el relat?",
+            "answer": "Introdueix informació que obliga a modificar els objectes preparats.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "El canvi d’espai havia canviat també la seva petició."
+              }
+            ]
+          },
+          {
+            "id": "l273-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què riu el conductor quan recull el préstec?",
+            "answer": "Havia preparat molt espai per a una carpa i només s’emporten una caixa petita.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "En lloc seu va sortir una caixa que cabia sota un braç."
+              }
+            ]
+          },
+          {
+            "id": "l273-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Com coneix l’Adil l’ús de les mantes?",
+            "answer": "Ho veu quan assisteix als contes amb la seva mare.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "l’Adil va anar als contes amb la seva mare i va veure les mantes damunt d’una catifa prima."
+              }
+            ]
+          },
+          {
+            "id": "l273-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix el canvi de plans del cap de setmana en dues frases.",
+            "answer": "La pluja trasllada un berenar a dins; se substitueix la carpa per un dòmino i les mantes continuen als contes.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La carpa deixava de ser útil."
+              },
+              {
+                "paragraph": 5,
+                "text": "les seves mantes continuaven preparades."
+              }
+            ]
+          },
+          {
+            "id": "l273-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Què preguntaries abans de proposar un objecte per a una activitat que canvia de lloc? Justifica dues preguntes.",
+            "answer": "Resposta oberta: dues preguntes pertinents sobre espai, participants o usos, amb la seva utilitat."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "regalims d’aigua",
+            "occurrence": 1,
+            "questionId": "l273-q5"
+          }
+        ],
+        "images": [
+          {
+            "id": "l273-scene",
+            "src": "assets/readings/l273-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Carpa plegada, bosses de mantes i una caixa de dòmino al local, vora la finestra verda mullada.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "pluja-canvia-equipatge-b-es",
+        "code": "L273B",
+        "workId": "pluja-canvia-equipatge-b",
+        "language": "es",
+        "familyId": "familia-l273",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "advanced",
+        "themes": [
+          "community",
+          "everyday",
+          "games"
+        ],
+        "genre": "narrative",
+        "title": "La lluvia cambia el equipaje",
+        "summary": "Dos destinos y una llamada obligan a distinguir lo previsto, lo necesario y lo que luego se puede confirmar.",
+        "paragraphs": [
+          "El viernes, la biblioteca de las cosas olía a paraguas mojado. A través de la ventana verde con arco apenas se distinguía la acera. Aquel servicio de una asociación vecinal prestaba objetos de uso ocasional: desde juegos hasta material para encuentros. Rosa, la adulta que lo coordinaba, repasaba las salidas del fin de semana. Noa y Adil, adolescentes colaboradores, habían apartado dos bolsas y una caja enorme de carpa plegable. Cada paquete tenía un destino que parecía bastante claro al comenzar la mañana.",
+          "La carpa iría a la merienda de unos vecinos en el patio del centro cívico. Los adultos organizadores se encargarían de llevarla y montarla. Las bolsas contenían mantas para una sesión de cuentos en la asociación de otra calle. Allí se sentarían en el suelo, sobre una alfombra fina. Adil dibujó en un papel dos flechas para no mezclar las recogidas. Noa añadió una nube sobre las dos, aunque los cuentos se celebraban dentro desde el principio.",
+          "A mediodía, Clara, responsable de la merienda, llamó para cambiar la petición. El patio estaba lleno de charcos. El centro les había ofrecido una sala con mesas y sillas, de modo que la carpa sobraba. Sin embargo, la gente llegaría a la misma hora y la comida aún tardaría un rato en estar lista. Clara preguntó por juegos que pudieran ponerse sobre las mesas. Rosa la escuchó mientras miraba la caja de la carpa, que todavía seguía junto al mostrador.",
+          "Noa apuntó hacia las mantas: quizá servirían para hacer un rincón de juegos. Rosa le pidió que preguntara por el espacio antes de moverlas. Clara explicó por el altavoz que las mesas ocuparían casi toda la sala y convenía dejar los pasillos despejados. Además, ya tenían sillas suficientes. Noa borró su primer dibujo de un rincón en el suelo. Adil encontró un dominó grande disponible y levantó la caja para que Rosa pudiera verla desde el teléfono.",
+          "La solución quedó acordada con las dos responsables: las mantas mantendrían su viaje a los cuentos y el dominó acompañaría la merienda. Rosa cambió la anotación y devolvió la carpa a su estante con otro voluntario adulto. Cuando llegó la furgoneta, Clara salió con una caja bajo el brazo. El conductor abrió la puerta trasera, contempló todo el espacio preparado y volvió a cerrarla. La caja viajaría delante, sin aquel enorme volumen para el que habían movido un asiento.",
+          "El sábado, Adil acompañó a su madre a los cuentos. Vio las mantas sobre la alfombra y a varias familias instalándose cerca de la narradora. Una abuela se quedó en una silla que había junto a la pared. Adil sacó una foto de las bolsas vacías para enseñársela a Noa; evitó fotografiar al público. Al salir, la lluvia continuaba y su madre tuvo que abrir el paraguas mientras él sujetaba el libro que acababan de comprar.",
+          "Esa tarde, Clara envió a Rosa una imagen de las manos alrededor del dominó. En un mensaje añadió que algunos habían seguido jugando después de comer. La foto mostraba el juego en la mesa, mientras que el mensaje añadía el uso después de comer. La imagen no permitía saber cuántas personas habían participado durante toda la tarde. Rosa enseñó ambos mensajes a Noa cuando llegó al local. Ella dibujó una mesa al final de una de las flechas de Adil y dejó la otra como estaba.",
+          "El lunes, al recibir las mantas secas y el dominó, Rosa encontró el papel de las flechas. La nube de Noa ocupaba medio margen. La carpa seguía en casa, bajo la estantería de madera color miel, después de un recorrido de apenas dos metros."
+        ],
+        "questions": [
+          {
+            "id": "l273b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué actividad estaba prevista en un espacio interior desde el principio?",
+            "answer": "La sesión de cuentos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "aunque los cuentos se celebraban dentro desde el principio."
+              }
+            ]
+          },
+          {
+            "id": "l273b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué parte de la necesidad de la merienda se mantiene pese al traslado?",
+            "answer": "Los invitados llegarán antes de que esté lista la comida y tendrán que esperar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "la gente llegaría a la misma hora y la comida aún tardaría un rato en estar lista."
+              }
+            ]
+          },
+          {
+            "id": "l273b-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Quién devuelve la carpa a su estante?",
+            "answer": "Rosa y otro voluntario adulto.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Rosa cambió la anotación y devolvió la carpa a su estante con otro voluntario adulto."
+              }
+            ]
+          },
+          {
+            "id": "l273b-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa «despejados» aplicado a los pasillos?",
+            "answer": "Sin objetos que dificulten pasar.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "convenía dejar los pasillos despejados."
+              }
+            ]
+          },
+          {
+            "id": "l273b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué la idea de un rincón con mantas pierde sentido tras la explicación de Clara?",
+            "answer": "Las mesas ocupan casi toda la sala y hay sillas; el suelo debe quedar para el paso.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "las mesas ocuparían casi toda la sala y convenía dejar los pasillos despejados. Además, ya tenían sillas suficientes."
+              }
+            ]
+          },
+          {
+            "id": "l273b-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Para qué sirve que reaparezca el dibujo de las flechas?",
+            "answer": "Conecta la preparación inicial con los destinos finales de los objetos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Adil dibujó en un papel dos flechas"
+              },
+              {
+                "paragraph": 7,
+                "text": "Ella dibujó una mesa al final de una de las flechas"
+              }
+            ]
+          },
+          {
+            "id": "l273b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué acredita el mensaje de Clara que la foto por sí sola no sitúa en el tiempo?",
+            "answer": "Que algunas personas siguieron jugando después de comer.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "En un mensaje añadió que algunos habían seguido jugando después de comer."
+              }
+            ]
+          },
+          {
+            "id": "l273b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué conclusión sobre la merienda excedería las pruebas disponibles?",
+            "answer": "Que todas las personas asistentes jugaron al dominó.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "no permitía saber cuántas personas habían participado durante toda la tarde."
+              }
+            ]
+          },
+          {
+            "id": "l273b-q9",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué fotografió Adil en los cuentos?",
+            "answer": "Las bolsas vacías, evitando fotografiar al público.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Adil sacó una foto de las bolsas vacías"
+              }
+            ]
+          },
+          {
+            "id": "l273b-q10",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "¿Qué interpretación recoge mejor el conjunto del relato?",
+            "answer": "La lluvia cambia una actividad; se ajusta el préstamo a la nueva sala y luego se comprueban usos concretos de los objetos.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "la carpa sobraba."
+              },
+              {
+                "paragraph": 5,
+                "text": "el dominó acompañaría la merienda."
+              },
+              {
+                "paragraph": 7,
+                "text": "algunos habían seguido jugando después de comer."
+              }
+            ]
+          },
+          {
+            "id": "l273b-q11",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Te parece útil conservar el dibujo de las flechas? Explica un posible uso y un límite.",
+            "answer": "Respuesta personal razonada: puede ayudar a recordar destinos, pero no sustituye datos que no contiene."
+          },
+          {
+            "id": "l273b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Escribe un mensaje breve de Noa a Adil sobre el resultado del sábado. Usa dos datos del relato y añade una reacción propia.",
+            "answer": "Producción abierta con dos datos compatibles y una reacción verosímil de Noa."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "despejados",
+            "occurrence": 1,
+            "questionId": "l273b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l273-scene",
+            "src": "assets/readings/l273-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Carpa plegada, bolsas de mantas y una caja de dominó en el local, junto a la ventana verde mojada.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "pluja-canvia-equipatge-b-ca",
+        "code": "L273B",
+        "workId": "pluja-canvia-equipatge-b",
+        "language": "ca",
+        "familyId": "familia-l273",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "advanced",
+        "themes": [
+          "community",
+          "everyday",
+          "games"
+        ],
+        "genre": "narrative",
+        "title": "La pluja canvia l’equipatge",
+        "summary": "Dos destins i una trucada obliguen a distingir el previst, el necessari i el que després es pot confirmar.",
+        "paragraphs": [
+          "Divendres, la biblioteca de les coses feia olor de paraigua moll. A través de la finestra verda amb arc amb prou feines es distingia la vorera. Aquell servei d’una associació veïnal deixava objectes d’ús ocasional: des de jocs fins a material per a trobades. La Rosa, l’adulta que el coordinava, repassava les sortides del cap de setmana. La Noa i l’Adil, adolescents col·laboradors, havien apartat dues bosses i una caixa enorme de carpa plegable. Cada paquet tenia un destí que semblava força clar al començament del matí.",
+          "La carpa aniria al berenar d’uns veïns al pati del centre cívic. Els adults organitzadors s’encarregarien de portar-la i muntar-la. Les bosses contenien mantes per a una sessió de contes a l’associació d’un altre carrer. Allà seurien a terra, sobre una catifa prima. L’Adil va dibuixar en un paper dues fletxes per no barrejar les recollides. La Noa va afegir-hi un núvol sobre totes dues, tot i que els contes es feien a dins des del principi.",
+          "Al migdia, la Clara, responsable del berenar, va trucar per canviar la petició. El pati era ple de bassals. El centre els havia ofert una sala amb taules i cadires, de manera que la carpa sobrava. Tanmateix, la gent arribaria a la mateixa hora i el menjar encara trigaria una estona a estar a punt. La Clara va preguntar per jocs que es poguessin posar sobre les taules. La Rosa la va escoltar mentre mirava la caixa de la carpa, que encara continuava vora el taulell.",
+          "La Noa va assenyalar les mantes: potser servirien per fer un racó de jocs. La Rosa li va demanar que preguntés per l’espai abans de moure-les. La Clara va explicar per l’altaveu que les taules ocuparien gairebé tota la sala i convenia deixar els passadissos lliures. A més, ja tenien prou cadires. La Noa va esborrar el seu primer dibuix d’un racó a terra. L’Adil va trobar un dòmino gran disponible i va alçar la caixa perquè la Rosa la pogués veure des del telèfon.",
+          "La solució va quedar acordada amb totes dues responsables: les mantes mantindrien el viatge als contes i el dòmino acompanyaria el berenar. La Rosa va canviar l’anotació i va tornar la carpa al prestatge amb un altre voluntari adult. Quan va arribar la furgoneta, la Clara va sortir amb una caixa sota el braç. El conductor va obrir la porta del darrere, va contemplar tot l’espai preparat i la va tornar a tancar. La caixa viatjaria davant, sense aquell volum enorme per al qual havien mogut un seient.",
+          "Dissabte, l’Adil va acompanyar la seva mare als contes. Va veure les mantes damunt la catifa i diverses famílies instal·lant-se a prop de la narradora. Una àvia es va quedar en una cadira que hi havia al costat de la paret. L’Adil va fer una foto de les bosses buides per ensenyar-la a la Noa; va evitar fotografiar el públic. En sortir, continuava plovent i la seva mare va haver d’obrir el paraigua mentre ell aguantava el llibre que acabaven de comprar.",
+          "Aquella tarda, la Clara va enviar a la Rosa una imatge de les mans al voltant del dòmino. En un missatge va afegir que alguns havien continuat jugant després de menjar. La foto mostrava el joc a la taula, mentre que el missatge afegia l’ús després de menjar. La imatge no permetia saber quantes persones hi havien participat durant tota la tarda. La Rosa va ensenyar tots dos missatges a la Noa quan va arribar al local. Ella va dibuixar una taula al final d’una de les fletxes de l’Adil i va deixar l’altra com estava.",
+          "Dilluns, en rebre les mantes seques i el dòmino, la Rosa va trobar el paper de les fletxes. El núvol de la Noa ocupava mig marge. La carpa continuava a casa, sota la prestatgeria de fusta mel, després d’un recorregut de tot just dos metres."
+        ],
+        "questions": [
+          {
+            "id": "l273b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quina activitat estava prevista en un espai interior des del principi?",
+            "answer": "La sessió de contes.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "tot i que els contes es feien a dins des del principi."
+              }
+            ]
+          },
+          {
+            "id": "l273b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina part de la necessitat del berenar es manté malgrat el trasllat?",
+            "answer": "Els convidats arribaran abans que el menjar estigui a punt i hauran d’esperar.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "la gent arribaria a la mateixa hora i el menjar encara trigaria una estona a estar a punt."
+              }
+            ]
+          },
+          {
+            "id": "l273b-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Qui torna la carpa al prestatge?",
+            "answer": "La Rosa i un altre voluntari adult.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "La Rosa va canviar l’anotació i va tornar la carpa al prestatge amb un altre voluntari adult."
+              }
+            ]
+          },
+          {
+            "id": "l273b-q4",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què significa «lliures» aplicat als passadissos?",
+            "answer": "Sense objectes que dificultin passar.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "convenia deixar els passadissos lliures."
+              }
+            ]
+          },
+          {
+            "id": "l273b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la idea d’un racó amb mantes perd sentit després de l’explicació de la Clara?",
+            "answer": "Les taules ocupen gairebé tota la sala i hi ha cadires; el terra ha de quedar per al pas.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "les taules ocuparien gairebé tota la sala i convenia deixar els passadissos lliures. A més, ja tenien prou cadires."
+              }
+            ]
+          },
+          {
+            "id": "l273b-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Per a què serveix que reaparegui el dibuix de les fletxes?",
+            "answer": "Connecta la preparació inicial amb els destins finals dels objectes.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "L’Adil va dibuixar en un paper dues fletxes"
+              },
+              {
+                "paragraph": 7,
+                "text": "Ella va dibuixar una taula al final d’una de les fletxes"
+              }
+            ]
+          },
+          {
+            "id": "l273b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què acredita el missatge de la Clara que la foto tota sola no situa en el temps?",
+            "answer": "Que algunes persones van continuar jugant després de menjar.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "En un missatge va afegir que alguns havien continuat jugant després de menjar."
+              }
+            ]
+          },
+          {
+            "id": "l273b-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina conclusió sobre el berenar aniria més enllà de les proves disponibles?",
+            "answer": "Que totes les persones assistents van jugar al dòmino.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "no permetia saber quantes persones hi havien participat durant tota la tarda."
+              }
+            ]
+          },
+          {
+            "id": "l273b-q9",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què va fotografiar l’Adil als contes?",
+            "answer": "Les bosses buides, evitant fotografiar el públic.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "L’Adil va fer una foto de les bosses buides"
+              }
+            ]
+          },
+          {
+            "id": "l273b-q10",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Quina interpretació recull millor el conjunt del relat?",
+            "answer": "La pluja canvia una activitat; s’ajusta el préstec a la nova sala i després es comproven usos concrets dels objectes.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "la carpa sobrava."
+              },
+              {
+                "paragraph": 5,
+                "text": "el dòmino acompanyaria el berenar."
+              },
+              {
+                "paragraph": 7,
+                "text": "alguns havien continuat jugant després de menjar."
+              }
+            ]
+          },
+          {
+            "id": "l273b-q11",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Et sembla útil conservar el dibuix de les fletxes? Explica un possible ús i un límit.",
+            "answer": "Resposta personal raonada: pot ajudar a recordar destins, però no substitueix dades que no conté."
+          },
+          {
+            "id": "l273b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Escriu un missatge breu de la Noa a l’Adil sobre el resultat de dissabte. Fes servir dues dades del relat i afegeix-hi una reacció pròpia.",
+            "answer": "Producció oberta amb dues dades compatibles i una reacció versemblant de la Noa."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "lliures",
+            "occurrence": 1,
+            "questionId": "l273b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l273-scene",
+            "src": "assets/readings/l273-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Carpa plegada, bosses de mantes i una caixa de dòmino al local, vora la finestra verda mullada.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 5
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L273A",
+        "language": "es",
+        "questions": {
+          "l273a-q1": {
+            "prompt": "¿Para qué se había pedido la carpa?",
+            "options": [
+              "Para cubrir la merienda del patio.",
+              "Para sentarse durante los cuentos.",
+              "Para guardar los juegos devueltos.",
+              "Para llevar mantas a otra calle."
+            ],
+            "correct": "a",
+            "explanation": "Para cubrir una merienda en el patio del centro cívico."
+          },
+          "l273a-q2": {
+            "prompt": "¿Dónde se celebraría finalmente la merienda?",
+            "options": [
+              "En el patio bajo la carpa.",
+              "En la biblioteca junto al mostrador.",
+              "En una sala interior con mesas.",
+              "En la asociación de los cuentos."
+            ],
+            "correct": "c",
+            "explanation": "En una sala interior con mesas."
+          },
+          "l273a-q3": {
+            "prompt": "¿Por qué no enviaron las mantas a la merienda?",
+            "options": [
+              "Porque la lluvia las había mojado.",
+              "Porque tenían sillas y los cuentos las necesitaban.",
+              "Porque el dominó ocupaba todas las bolsas.",
+              "Porque la merienda seguía siendo en el patio."
+            ],
+            "correct": "b",
+            "explanation": "Allí sobraban sillas y las mantas seguían siendo útiles para los cuentos."
+          },
+          "l273a-q4": {
+            "prompt": "¿Qué significa «dejaba libre el paso» en esta escena?",
+            "options": [
+              "Permitía abrir mejor la puerta al patio.",
+              "Indicaba que el préstamo ya podía salir.",
+              "Señalaba el camino hacia la nueva sala.",
+              "Ya no estorbaba en la zona para pasar."
+            ],
+            "correct": "d",
+            "explanation": "Al retirar el bulto, se podía pasar por donde estaba."
+          },
+          "l273a-q5": {
+            "prompt": "¿Qué hecho hace cambiar la preparación de los objetos?",
+            "options": [
+              "La llamada sobre el cambio de lugar.",
+              "La visita de Adil a los cuentos.",
+              "La llegada de la foto del dominó.",
+              "La devolución de las mantas secas."
+            ],
+            "correct": "a",
+            "explanation": "La llamada que comunica el traslado de la merienda a una sala."
+          },
+          "l273a-q6": {
+            "prompt": "¿Qué confirma la fotografía de la merienda?",
+            "options": [
+              "Que la carpa se montó en el patio.",
+              "Que las mantas se usaron para jugar.",
+              "Que el dominó llegó al nuevo espacio.",
+              "Que los cuentos terminaron al aire libre."
+            ],
+            "correct": "c",
+            "explanation": "Que el dominó llegó a la merienda y estaba sobre una mesa."
+          },
+          "l273a-q7": {
+            "prompt": "¿Qué resumen recoge mejor el cambio principal?",
+            "options": [
+              "La lluvia cancela los cuentos y la merienda recibe todos los objetos.",
+              "La merienda cambia de lugar y de objetos; los cuentos conservan sus mantas.",
+              "La carpa cubre los cuentos y un dominó vuelve a la biblioteca.",
+              "Las mantas regresan antes del sábado porque sobran sillas en ambos lugares."
+            ],
+            "correct": "b",
+            "explanation": "La merienda pasa a una sala, recibe un dominó y deja de necesitar la carpa; las mantas van a los cuentos."
+          }
+        }
+      },
+      {
+        "code": "L273A",
+        "language": "ca",
+        "questions": {
+          "l273a-q1": {
+            "prompt": "Per a què s’havia demanat la carpa?",
+            "options": [
+              "Per cobrir el berenar del pati.",
+              "Per seure durant els contes.",
+              "Per guardar els jocs retornats.",
+              "Per portar mantes a un altre carrer."
+            ],
+            "correct": "a",
+            "explanation": "Per cobrir un berenar al pati del centre cívic."
+          },
+          "l273a-q2": {
+            "prompt": "On es faria finalment el berenar?",
+            "options": [
+              "Al pati sota la carpa.",
+              "A la biblioteca al costat del taulell.",
+              "En una sala interior amb taules.",
+              "A l’associació dels contes."
+            ],
+            "correct": "c",
+            "explanation": "En una sala interior amb taules."
+          },
+          "l273a-q3": {
+            "prompt": "Per què no van enviar les mantes al berenar?",
+            "options": [
+              "Perquè la pluja les havia mullat.",
+              "Perquè tenien cadires i els contes les necessitaven.",
+              "Perquè el dòmino ocupava totes les bosses.",
+              "Perquè el berenar continuava sent al pati."
+            ],
+            "correct": "b",
+            "explanation": "Allà sobraven cadires i les mantes continuaven sent útils per als contes."
+          },
+          "l273a-q4": {
+            "prompt": "Què significa «deixava lliure el pas» en aquesta escena?",
+            "options": [
+              "Permetia obrir millor la porta al pati.",
+              "Indicava que el préstec ja podia sortir.",
+              "Assenyalava el camí cap a la nova sala.",
+              "Ja no feia nosa a la zona per passar."
+            ],
+            "correct": "d",
+            "explanation": "En retirar el paquet, es podia passar per on era."
+          },
+          "l273a-q5": {
+            "prompt": "Quin fet fa canviar la preparació dels objectes?",
+            "options": [
+              "La trucada sobre el canvi de lloc.",
+              "La visita de l’Adil als contes.",
+              "L’arribada de la foto del dòmino.",
+              "La devolució de les mantes seques."
+            ],
+            "correct": "a",
+            "explanation": "La trucada que comunica el trasllat del berenar a una sala."
+          },
+          "l273a-q6": {
+            "prompt": "Què confirma la fotografia del berenar?",
+            "options": [
+              "Que la carpa es va muntar al pati.",
+              "Que les mantes es van fer servir per jugar.",
+              "Que el dòmino va arribar al nou espai.",
+              "Que els contes van acabar a l’aire lliure."
+            ],
+            "correct": "c",
+            "explanation": "Que el dòmino va arribar al berenar i era damunt d’una taula."
+          },
+          "l273a-q7": {
+            "prompt": "Quin resum recull millor el canvi principal?",
+            "options": [
+              "La pluja anul·la els contes i el berenar rep tots els objectes.",
+              "El berenar canvia de lloc i d’objectes; els contes conserven les mantes.",
+              "La carpa cobreix els contes i un dòmino torna a la biblioteca.",
+              "Les mantes tornen abans de dissabte perquè sobren cadires a tots dos llocs."
+            ],
+            "correct": "b",
+            "explanation": "El berenar passa a una sala, rep un dòmino i deixa de necessitar la carpa; les mantes van als contes."
+          }
+        }
+      },
+      {
+        "code": "L273",
+        "language": "es",
+        "questions": {
+          "l273-q1": {
+            "prompt": "¿Qué objetos estaban destinados a los cuentos?",
+            "options": [
+              "Una carpa y sus bolsas.",
+              "Un dominó y una alfombra.",
+              "Dos mantas para el suelo.",
+              "Mesas y sillas del centro."
+            ],
+            "correct": "c",
+            "explanation": "Dos mantas."
+          },
+          "l273-q2": {
+            "prompt": "¿Quién se ocuparía de llevar y montar la carpa?",
+            "options": [
+              "Los adultos de la merienda.",
+              "Noa y Adil al llegar al patio.",
+              "Las familias de los cuentos.",
+              "La narradora y la madre de Adil."
+            ],
+            "correct": "a",
+            "explanation": "Los adultos de la merienda."
+          },
+          "l273-q3": {
+            "prompt": "¿Por qué Clara pide juegos después de cambiar de sala?",
+            "options": [
+              "Porque la nueva sala carece de sillas.",
+              "Porque han cancelado la merienda.",
+              "Porque los cuentos necesitan el patio.",
+              "Porque habrá una espera antes de comer."
+            ],
+            "correct": "d",
+            "explanation": "Para entretener a los invitados que llegarán antes de que la comida esté lista."
+          },
+          "l273-q4": {
+            "prompt": "¿Qué condición de la sala hace descartar las mantas?",
+            "options": [
+              "Faltan mesas para poner el dominó.",
+              "Hay sillas y deben dejar paso.",
+              "La alfombra del suelo es demasiado fina.",
+              "La furgoneta no permite llevar bolsas."
+            ],
+            "correct": "b",
+            "explanation": "Tienen suficientes sillas y quieren dejar libres los pasillos."
+          },
+          "l273-q5": {
+            "prompt": "¿Qué significa «regueros de agua»?",
+            "options": [
+              "Gotas pegadas al cristal alto.",
+              "Recipientes para guardar paraguas.",
+              "Rastros alargados de agua en el suelo.",
+              "Charcos que cubren todo el patio."
+            ],
+            "correct": "c",
+            "explanation": "Pequeñas corrientes o rastros de agua que se extienden por el suelo."
+          },
+          "l273-q6": {
+            "prompt": "¿Qué función tiene la llamada de Clara en el relato?",
+            "options": [
+              "Provoca una revisión de la preparación.",
+              "Confirma el plan inicial sin cambios.",
+              "Explica por qué Adil visita los cuentos.",
+              "Adelanta la devolución del lunes."
+            ],
+            "correct": "a",
+            "explanation": "Introduce información que obliga a modificar los objetos preparados."
+          },
+          "l273-q7": {
+            "prompt": "¿Por qué se ríe el conductor al recoger el préstamo?",
+            "options": [
+              "Porque la carpa no cabe en la furgoneta.",
+              "Porque Clara ha olvidado las mantas.",
+              "Porque el dominó se ha abierto en el suelo.",
+              "Porque sobra el espacio preparado para la carpa."
+            ],
+            "correct": "d",
+            "explanation": "Había preparado mucho espacio para una carpa y solo se llevan una caja pequeña."
+          },
+          "l273-q8": {
+            "prompt": "¿Cómo conoce Adil el uso de las mantas?",
+            "options": [
+              "Rosa se lo explica al devolverlas.",
+              "Lo observa durante la sesión de cuentos.",
+              "Lo deduce de la fotografía del dominó.",
+              "Clara le llama desde la nueva sala."
+            ],
+            "correct": "b",
+            "explanation": "Lo ve al asistir a los cuentos con su madre."
+          },
+          "l273-q9": {
+            "prompt": "¿Cuál es el resumen más completo?",
+            "options": [
+              "Dos actividades cambian de local y se reparten la misma carpa.",
+              "Una merienda se cancela y todos los juegos se destinan a los cuentos.",
+              "La merienda cambia de espacio y de préstamo; los cuentos conservan las mantas.",
+              "La lluvia retrasa los retornos y obliga a trasladar la biblioteca al centro."
+            ],
+            "correct": "c",
+            "explanation": "La lluvia traslada una merienda al interior; se sustituye la carpa por un dominó y las mantas siguen en los cuentos."
+          }
+        }
+      },
+      {
+        "code": "L273",
+        "language": "ca",
+        "questions": {
+          "l273-q1": {
+            "prompt": "Quins objectes estaven destinats als contes?",
+            "options": [
+              "Una carpa i les seves bosses.",
+              "Un dòmino i una catifa.",
+              "Dues mantes per a terra.",
+              "Taules i cadires del centre."
+            ],
+            "correct": "c",
+            "explanation": "Dues mantes."
+          },
+          "l273-q2": {
+            "prompt": "Qui s’ocuparia de portar i muntar la carpa?",
+            "options": [
+              "Els adults del berenar.",
+              "La Noa i l’Adil en arribar al pati.",
+              "Les famílies dels contes.",
+              "La narradora i la mare de l’Adil."
+            ],
+            "correct": "a",
+            "explanation": "Els adults del berenar."
+          },
+          "l273-q3": {
+            "prompt": "Per què la Clara demana jocs després de canviar de sala?",
+            "options": [
+              "Perquè a la nova sala li falten cadires.",
+              "Perquè han anul·lat el berenar.",
+              "Perquè els contes necessiten el pati.",
+              "Perquè hi haurà una espera abans de menjar."
+            ],
+            "correct": "d",
+            "explanation": "Per entretenir els convidats que arribaran abans que el menjar estigui a punt."
+          },
+          "l273-q4": {
+            "prompt": "Quina condició de la sala fa descartar les mantes?",
+            "options": [
+              "Falten taules per posar el dòmino.",
+              "Hi ha cadires i han de deixar pas.",
+              "La catifa de terra és massa prima.",
+              "La furgoneta no permet portar bosses."
+            ],
+            "correct": "b",
+            "explanation": "Tenen prou cadires i volen deixar lliures els passadissos."
+          },
+          "l273-q5": {
+            "prompt": "Què significa «regalims d’aigua»?",
+            "options": [
+              "Gotes enganxades al vidre alt.",
+              "Recipients per guardar paraigües.",
+              "Rastres allargats d’aigua a terra.",
+              "Bassals que cobreixen tot el pati."
+            ],
+            "correct": "c",
+            "explanation": "Petits corrents o rastres d’aigua que s’estenen per terra."
+          },
+          "l273-q6": {
+            "prompt": "Quina funció té la trucada de la Clara en el relat?",
+            "options": [
+              "Provoca una revisió de la preparació.",
+              "Confirma el pla inicial sense canvis.",
+              "Explica per què l’Adil visita els contes.",
+              "Avança la devolució de dilluns."
+            ],
+            "correct": "a",
+            "explanation": "Introdueix informació que obliga a modificar els objectes preparats."
+          },
+          "l273-q7": {
+            "prompt": "Per què riu el conductor quan recull el préstec?",
+            "options": [
+              "Perquè la carpa no cap a la furgoneta.",
+              "Perquè la Clara ha oblidat les mantes.",
+              "Perquè el dòmino s’ha obert a terra.",
+              "Perquè sobra l’espai preparat per a la carpa."
+            ],
+            "correct": "d",
+            "explanation": "Havia preparat molt espai per a una carpa i només s’emporten una caixa petita."
+          },
+          "l273-q8": {
+            "prompt": "Com coneix l’Adil l’ús de les mantes?",
+            "options": [
+              "La Rosa li ho explica en retornar-les.",
+              "Ho observa durant la sessió de contes.",
+              "Ho dedueix de la fotografia del dòmino.",
+              "La Clara li truca des de la nova sala."
+            ],
+            "correct": "b",
+            "explanation": "Ho veu quan assisteix als contes amb la seva mare."
+          },
+          "l273-q9": {
+            "prompt": "Quin és el resum més complet?",
+            "options": [
+              "Dues activitats canvien de local i es reparteixen la mateixa carpa.",
+              "Un berenar s’anul·la i tots els jocs es destinen als contes.",
+              "El berenar canvia d’espai i de préstec; els contes conserven les mantes.",
+              "La pluja endarrereix els retorns i obliga a traslladar la biblioteca al centre."
+            ],
+            "correct": "c",
+            "explanation": "La pluja trasllada un berenar a dins; se substitueix la carpa per un dòmino i les mantes continuen als contes."
+          }
+        }
+      },
+      {
+        "code": "L273B",
+        "language": "es",
+        "questions": {
+          "l273b-q1": {
+            "prompt": "¿Qué actividad estaba prevista en un espacio interior desde el principio?",
+            "options": [
+              "La merienda bajo la carpa.",
+              "La sesión de cuentos.",
+              "El montaje de la carpa.",
+              "La recogida en la furgoneta."
+            ],
+            "correct": "b",
+            "explanation": "La sesión de cuentos."
+          },
+          "l273b-q2": {
+            "prompt": "¿Qué parte de la necesidad de la merienda se mantiene pese al traslado?",
+            "options": [
+              "El montaje de una cubierta exterior.",
+              "La falta de lugares para sentarse.",
+              "La necesidad de trasladar las mesas.",
+              "La espera anterior a la comida."
+            ],
+            "correct": "d",
+            "explanation": "Los invitados llegarán antes de que esté lista la comida y tendrán que esperar."
+          },
+          "l273b-q3": {
+            "prompt": "¿Quién devuelve la carpa a su estante?",
+            "options": [
+              "Rosa y otro voluntario adulto.",
+              "Clara y el conductor al recogerla.",
+              "Noa y Adil después de los cuentos.",
+              "La madre de Adil y la narradora."
+            ],
+            "correct": "a",
+            "explanation": "Rosa y otro voluntario adulto."
+          },
+          "l273b-q4": {
+            "prompt": "¿Qué significa «despejados» aplicado a los pasillos?",
+            "options": [
+              "Con más luz para jugar.",
+              "Separados de la sala principal.",
+              "Sin obstáculos para circular.",
+              "Disponibles para sentarse en ellos."
+            ],
+            "correct": "c",
+            "explanation": "Sin objetos que dificulten pasar."
+          },
+          "l273b-q5": {
+            "prompt": "¿Por qué la idea de un rincón con mantas pierde sentido tras la explicación de Clara?",
+            "options": [
+              "El suelo estará mojado por los charcos del patio.",
+              "El espacio disponible y los asientos aconsejan otro juego.",
+              "Las mantas son demasiado pequeñas para el público previsto.",
+              "La narradora necesita las mesas para la sesión de cuentos."
+            ],
+            "correct": "b",
+            "explanation": "Las mesas ocupan casi toda la sala y hay sillas; el suelo debe quedar para el paso."
+          },
+          "l273b-q6": {
+            "prompt": "¿Para qué sirve que reaparezca el dibujo de las flechas?",
+            "options": [
+              "Añade un tercer lugar para los préstamos.",
+              "Demuestra que la nube era un aviso oficial.",
+              "Sustituye la llamada que explica el cambio.",
+              "Relaciona los planes iniciales con su resultado."
+            ],
+            "correct": "d",
+            "explanation": "Conecta la preparación inicial con los destinos finales de los objetos."
+          },
+          "l273b-q7": {
+            "prompt": "¿Qué acredita el mensaje de Clara que la foto por sí sola no sitúa en el tiempo?",
+            "options": [
+              "La continuidad del juego después de comer.",
+              "La cantidad total de asistentes del sábado.",
+              "La hora exacta de llegada de la furgoneta.",
+              "El número de partidas ganadas por cada invitado."
+            ],
+            "correct": "a",
+            "explanation": "Que algunas personas siguieron jugando después de comer."
+          },
+          "l273b-q8": {
+            "prompt": "¿Qué conclusión sobre la merienda excedería las pruebas disponibles?",
+            "options": [
+              "El dominó llegó a una mesa de la sala.",
+              "Algunas personas jugaron después de comer.",
+              "Todos los asistentes participaron en el dominó.",
+              "La lluvia seguía afectando los planes exteriores."
+            ],
+            "correct": "c",
+            "explanation": "Que todas las personas asistentes jugaron al dominó."
+          },
+          "l273b-q9": {
+            "prompt": "¿Qué fotografió Adil en los cuentos?",
+            "options": [
+              "La narradora sentada con las familias.",
+              "Las bolsas vacías de las mantas.",
+              "Las manos alrededor del dominó.",
+              "La carpa montada junto a la pared."
+            ],
+            "correct": "b",
+            "explanation": "Las bolsas vacías, evitando fotografiar al público."
+          },
+          "l273b-q10": {
+            "prompt": "¿Qué interpretación recoge mejor el conjunto del relato?",
+            "options": [
+              "La lluvia hace inútiles todos los objetos preparados para el fin de semana.",
+              "Las fotografías sustituyen las conversaciones y resuelven las peticiones de objetos.",
+              "El cambio de lugar obliga a cancelar los cuentos y a reunir a todos en la merienda.",
+              "Un cambio de espacio modifica un préstamo y los mensajes muestran parte de su resultado."
+            ],
+            "correct": "d",
+            "explanation": "La lluvia cambia una actividad; se ajusta el préstamo a la nueva sala y luego se comprueban usos concretos de los objetos."
+          }
+        }
+      },
+      {
+        "code": "L273B",
+        "language": "ca",
+        "questions": {
+          "l273b-q1": {
+            "prompt": "Quina activitat estava prevista en un espai interior des del principi?",
+            "options": [
+              "El berenar sota la carpa.",
+              "La sessió de contes.",
+              "El muntatge de la carpa.",
+              "La recollida a la furgoneta."
+            ],
+            "correct": "b",
+            "explanation": "La sessió de contes."
+          },
+          "l273b-q2": {
+            "prompt": "Quina part de la necessitat del berenar es manté malgrat el trasllat?",
+            "options": [
+              "El muntatge d’una coberta exterior.",
+              "La manca de llocs per seure.",
+              "La necessitat de traslladar les taules.",
+              "L’espera anterior al menjar."
+            ],
+            "correct": "d",
+            "explanation": "Els convidats arribaran abans que el menjar estigui a punt i hauran d’esperar."
+          },
+          "l273b-q3": {
+            "prompt": "Qui torna la carpa al prestatge?",
+            "options": [
+              "La Rosa i un altre voluntari adult.",
+              "La Clara i el conductor en recollir-la.",
+              "La Noa i l’Adil després dels contes.",
+              "La mare de l’Adil i la narradora."
+            ],
+            "correct": "a",
+            "explanation": "La Rosa i un altre voluntari adult."
+          },
+          "l273b-q4": {
+            "prompt": "Què significa «lliures» aplicat als passadissos?",
+            "options": [
+              "Amb més llum per jugar.",
+              "Separats de la sala principal.",
+              "Sense obstacles per circular.",
+              "Disponibles per seure-hi."
+            ],
+            "correct": "c",
+            "explanation": "Sense objectes que dificultin passar."
+          },
+          "l273b-q5": {
+            "prompt": "Per què la idea d’un racó amb mantes perd sentit després de l’explicació de la Clara?",
+            "options": [
+              "El terra estarà mullat pels bassals del pati.",
+              "L’espai disponible i els seients aconsellen un altre joc.",
+              "Les mantes són massa petites per al públic previst.",
+              "La narradora necessita les taules per a la sessió de contes."
+            ],
+            "correct": "b",
+            "explanation": "Les taules ocupen gairebé tota la sala i hi ha cadires; el terra ha de quedar per al pas."
+          },
+          "l273b-q6": {
+            "prompt": "Per a què serveix que reaparegui el dibuix de les fletxes?",
+            "options": [
+              "Afegeix un tercer lloc per als préstecs.",
+              "Demostra que el núvol era un avís oficial.",
+              "Substitueix la trucada que explica el canvi.",
+              "Relaciona els plans inicials amb el resultat."
+            ],
+            "correct": "d",
+            "explanation": "Connecta la preparació inicial amb els destins finals dels objectes."
+          },
+          "l273b-q7": {
+            "prompt": "Què acredita el missatge de la Clara que la foto tota sola no situa en el temps?",
+            "options": [
+              "La continuïtat del joc després de menjar.",
+              "La quantitat total d’assistents de dissabte.",
+              "L’hora exacta d’arribada de la furgoneta.",
+              "El nombre de partides guanyades per cada convidat."
+            ],
+            "correct": "a",
+            "explanation": "Que algunes persones van continuar jugant després de menjar."
+          },
+          "l273b-q8": {
+            "prompt": "Quina conclusió sobre el berenar aniria més enllà de les proves disponibles?",
+            "options": [
+              "El dòmino va arribar a una taula de la sala.",
+              "Algunes persones van jugar després de menjar.",
+              "Tots els assistents van participar en el dòmino.",
+              "La pluja continuava afectant els plans exteriors."
+            ],
+            "correct": "c",
+            "explanation": "Que totes les persones assistents van jugar al dòmino."
+          },
+          "l273b-q9": {
+            "prompt": "Què va fotografiar l’Adil als contes?",
+            "options": [
+              "La narradora asseguda amb les famílies.",
+              "Les bosses buides de les mantes.",
+              "Les mans al voltant del dòmino.",
+              "La carpa muntada al costat de la paret."
+            ],
+            "correct": "b",
+            "explanation": "Les bosses buides, evitant fotografiar el públic."
+          },
+          "l273b-q10": {
+            "prompt": "Quina interpretació recull millor el conjunt del relat?",
+            "options": [
+              "La pluja fa inútils tots els objectes preparats per al cap de setmana.",
+              "Les fotografies substitueixen les converses i resolen les peticions d’objectes.",
+              "El canvi de lloc obliga a anul·lar els contes i a reunir tothom al berenar.",
+              "Un canvi d’espai modifica un préstec i els missatges mostren una part del resultat."
+            ],
+            "correct": "d",
+            "explanation": "La pluja canvia una activitat; s’ajusta el préstec a la nova sala i després es comproven usos concrets dels objectes."
+          }
+        }
+      }
+    ]
   }
 ];
