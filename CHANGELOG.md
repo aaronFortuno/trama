@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.61 · 26 de novembre del 2026
+
+L289: La visita a plena llum. Nova família de l’univers L’observatori del turó, amb suport de 3r, referència de 4t i ampliació de 5è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 7 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.60.8 · 26 de novembre del 2026
 
 L288: La pàgina que es va sentir al pati. Nova família de La redacció del pati, amb suport de 5è, referència de 6è i ampliació de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 15 històries independents. Contingut provisional, pendent de validació docent.
