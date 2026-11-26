@@ -1,9 +1,9 @@
 {
   "date": "2026-11-26",
-  "totalWorks": 594,
-  "coveredWorks": 594,
+  "totalWorks": 597,
+  "coveredWorks": 597,
   "pendingWorks": 0,
-  "localizedAlternatives": 5936,
+  "localizedAlternatives": 5990,
   "ranges": [
     {
       "start": 1,
@@ -427,9 +427,9 @@
     },
     {
       "start": 301,
-      "end": 304,
-      "total": 12,
-      "covered": 12,
+      "end": 305,
+      "total": 15,
+      "covered": 15,
       "status": "complete"
     }
   ],
@@ -36646,6 +36646,285 @@
             },
             {
               "id": "l304b-q11",
+              "number": 11
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L305",
+      "baseCode": "L305",
+      "variant": false,
+      "level": "5-primary",
+      "difficulty": "intermediate",
+      "title": "La ressenya que va oblidar l’espera",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l305-q1",
+              "number": 1
+            },
+            {
+              "id": "l305-q2",
+              "number": 2
+            },
+            {
+              "id": "l305-q3",
+              "number": 3
+            },
+            {
+              "id": "l305-q4",
+              "number": 4
+            },
+            {
+              "id": "l305-q5",
+              "number": 5
+            },
+            {
+              "id": "l305-q6",
+              "number": 6
+            },
+            {
+              "id": "l305-q7",
+              "number": 7
+            },
+            {
+              "id": "l305-q8",
+              "number": 8
+            },
+            {
+              "id": "l305-q9",
+              "number": 9
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l305-q1",
+              "number": 1
+            },
+            {
+              "id": "l305-q2",
+              "number": 2
+            },
+            {
+              "id": "l305-q3",
+              "number": 3
+            },
+            {
+              "id": "l305-q4",
+              "number": 4
+            },
+            {
+              "id": "l305-q5",
+              "number": 5
+            },
+            {
+              "id": "l305-q6",
+              "number": 6
+            },
+            {
+              "id": "l305-q7",
+              "number": 7
+            },
+            {
+              "id": "l305-q8",
+              "number": 8
+            },
+            {
+              "id": "l305-q9",
+              "number": 9
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L305A",
+      "baseCode": "L305",
+      "variant": true,
+      "level": "4-primary",
+      "difficulty": "intermediate",
+      "title": "La ressenya que va oblidar l’espera",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l305a-q1",
+              "number": 1
+            },
+            {
+              "id": "l305a-q2",
+              "number": 2
+            },
+            {
+              "id": "l305a-q3",
+              "number": 3
+            },
+            {
+              "id": "l305a-q4",
+              "number": 4
+            },
+            {
+              "id": "l305a-q5",
+              "number": 5
+            },
+            {
+              "id": "l305a-q6",
+              "number": 6
+            },
+            {
+              "id": "l305a-q7",
+              "number": 7
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l305a-q1",
+              "number": 1
+            },
+            {
+              "id": "l305a-q2",
+              "number": 2
+            },
+            {
+              "id": "l305a-q3",
+              "number": 3
+            },
+            {
+              "id": "l305a-q4",
+              "number": 4
+            },
+            {
+              "id": "l305a-q5",
+              "number": 5
+            },
+            {
+              "id": "l305a-q6",
+              "number": 6
+            },
+            {
+              "id": "l305a-q7",
+              "number": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L305B",
+      "baseCode": "L305",
+      "variant": true,
+      "level": "6-primary",
+      "difficulty": "intermediate",
+      "title": "La ressenya que va oblidar l’espera",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l305b-q1",
+              "number": 1
+            },
+            {
+              "id": "l305b-q2",
+              "number": 2
+            },
+            {
+              "id": "l305b-q3",
+              "number": 3
+            },
+            {
+              "id": "l305b-q4",
+              "number": 4
+            },
+            {
+              "id": "l305b-q5",
+              "number": 5
+            },
+            {
+              "id": "l305b-q6",
+              "number": 6
+            },
+            {
+              "id": "l305b-q7",
+              "number": 7
+            },
+            {
+              "id": "l305b-q8",
+              "number": 8
+            },
+            {
+              "id": "l305b-q9",
+              "number": 9
+            },
+            {
+              "id": "l305b-q10",
+              "number": 10
+            },
+            {
+              "id": "l305b-q11",
+              "number": 11
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l305b-q1",
+              "number": 1
+            },
+            {
+              "id": "l305b-q2",
+              "number": 2
+            },
+            {
+              "id": "l305b-q3",
+              "number": 3
+            },
+            {
+              "id": "l305b-q4",
+              "number": 4
+            },
+            {
+              "id": "l305b-q5",
+              "number": 5
+            },
+            {
+              "id": "l305b-q6",
+              "number": 6
+            },
+            {
+              "id": "l305b-q7",
+              "number": 7
+            },
+            {
+              "id": "l305b-q8",
+              "number": 8
+            },
+            {
+              "id": "l305b-q9",
+              "number": 9
+            },
+            {
+              "id": "l305b-q10",
+              "number": 10
+            },
+            {
+              "id": "l305b-q11",
               "number": 11
             }
           ]

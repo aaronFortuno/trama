@@ -12822,5 +12822,1798 @@ export const workshopPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L305",
+    "edition": "v1.62.7",
+    "family": {
+      "id": "familia-l305",
+      "code": "L305",
+      "name": {
+        "es": "La reseña que olvidó la espera",
+        "ca": "La ressenya que va oblidar l’espera"
+      },
+      "description": {
+        "ca": "Una història del Taller de la plaça, amb suport, versió de referència i ampliació.",
+        "es": "Una historia del Taller de la plaza, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L305A",
+        "L305",
+        "L305B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "la-resena-que-olvido-la-espera-a-es",
+        "code": "L305A",
+        "workId": "la-resena-que-olvido-la-espera-a",
+        "language": "es",
+        "familyId": "familia-l305",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday"
+        ],
+        "genre": "review",
+        "title": "La reseña que olvidó la espera",
+        "summary": "Hugo revisa lo que cuenta sobre una reparación antes de compartir su opinión.",
+        "paragraphs": [
+          "Esta es mi reseña del taller de Irene, junto a la plaza. Soy Hugo y fui con Asha a llevar un mantel del club de lectura. Lo necesitábamos para una merienda el sábado. El lunes, Irene nos dijo que estaría listo el jueves. Había que reparar un borde rasgado.",
+          "Volví el martes porque pasaba por allí. El mantel seguía en la estantería. Escribí en mi cuaderno: «Tardan mucho». Asha me preguntó qué día habíamos acordado recogerlo. Miré el papel que nos había dado Irene: jueves. Mi primera frase no contaba aquel acuerdo.",
+          "También habíamos elegido una tira azul para reforzar el borde. Irene avisó de que se vería. El jueves nos entregó el mantel con aquella franja. Me habría gustado una reparación más rápida y menos visible, pero el sábado la tela aguantó la merienda sin abrirse por el roto.",
+          "Ahora mi reseña explica los días, la franja y lo que ocurrió después. Sigo prefiriendo esperar menos. Asha leyó mi nueva versión y yo la pasé a limpio para dejarla en el cuaderno de visitas del taller, junto a la puerta azul."
+        ],
+        "questions": [
+          {
+            "id": "l305a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Para qué día necesitaban el mantel?",
+            "answer": "Para la merienda del sábado.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Lo necesitábamos para una merienda el sábado."
+              }
+            ]
+          },
+          {
+            "id": "l305a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué día habían acordado recogerlo?",
+            "answer": "El jueves.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "estaría listo el jueves"
+              }
+            ]
+          },
+          {
+            "id": "l305a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué la frase «Tardan mucho» cuenta solo una parte de la experiencia?",
+            "answer": "Porque omite que el martes aún no era el día acordado de entrega, el jueves.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Mi primera frase no contaba aquel acuerdo."
+              }
+            ]
+          },
+          {
+            "id": "l305a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué es la «franja» del mantel?",
+            "answer": "La tira azul que refuerza el borde.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una tira azul para reforzar el borde"
+              },
+              {
+                "paragraph": 3,
+                "text": "el mantel con aquella franja"
+              }
+            ]
+          },
+          {
+            "id": "l305a-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué había advertido Irene sobre la reparación?",
+            "answer": "Que la tira azul se vería.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Irene avisó de que se vería."
+              }
+            ]
+          },
+          {
+            "id": "l305a-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué opinión mantiene Hugo después de añadir los datos?",
+            "answer": "Sigue prefiriendo una espera más corta.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Sigo prefiriendo esperar menos."
+              }
+            ]
+          },
+          {
+            "id": "l305a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué cambia Hugo en su reseña.",
+            "answer": "Añade el plazo acordado, la franja visible elegida y el resultado de la merienda, aunque sigue prefiriendo esperar menos.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "explica los días, la franja y lo que ocurrió después"
+              }
+            ]
+          },
+          {
+            "id": "l305a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué dato de esta reseña te ayudaría más a decidir si llevar algo al taller? Explica por qué.",
+            "answer": "Respuesta personal justificada: plazo, resultado, aspecto visible u otro dato presente."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "franja",
+            "occurrence": 1,
+            "questionId": "l305a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l305-scene",
+            "src": "assets/readings/l305-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Hugo revisa una reseña con Asha junto a una mesa cubierta por un mantel con una franja azul reparada en el borde.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-resena-que-olvido-la-espera-a-ca",
+        "code": "L305A",
+        "workId": "la-resena-que-olvido-la-espera-a",
+        "language": "ca",
+        "familyId": "familia-l305",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday"
+        ],
+        "genre": "review",
+        "title": "La ressenya que va oblidar l’espera",
+        "summary": "L’Hugo revisa què explica sobre una reparació abans de compartir la seva opinió.",
+        "paragraphs": [
+          "Aquesta és la meva ressenya del taller de la Irene, al costat de la plaça. Soc l’Hugo i hi vaig anar amb l’Asha a portar unes estovalles del club de lectura. Les necessitàvem per a un berenar dissabte. Dilluns, la Irene ens va dir que estarien a punt dijous. Calia reparar una vora esquinçada.",
+          "Vaig tornar dimarts perquè passava per allà. Les estovalles continuaven al prestatge. Vaig escriure a la llibreta: «Triguen molt». L’Asha em va preguntar quin dia havíem acordat recollir-les. Vaig mirar el paper que ens havia donat la Irene: dijous. La primera frase no explicava aquell acord.",
+          "També havíem triat una tira blava per reforçar la vora. La Irene va avisar que es veuria. Dijous ens va lliurar les estovalles amb aquella franja. M’hauria agradat una reparació més ràpida i menys visible, però dissabte la roba va aguantar el berenar sense obrir-se per l’esquinç.",
+          "Ara la meva ressenya explica els dies, la franja i què va passar després. Continuo preferint esperar menys. L’Asha va llegir la nova versió i jo la vaig passar en net per deixar-la al quadern de visites del taller, al costat de la porta blava."
+        ],
+        "questions": [
+          {
+            "id": "l305a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Per a quin dia necessitaven les estovalles?",
+            "answer": "Per al berenar de dissabte.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Les necessitàvem per a un berenar dissabte."
+              }
+            ]
+          },
+          {
+            "id": "l305a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quin dia havien acordat recollir-les?",
+            "answer": "Dijous.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "estarien a punt dijous"
+              }
+            ]
+          },
+          {
+            "id": "l305a-q3",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la frase «Triguen molt» explica només una part de l’experiència?",
+            "answer": "Perquè omet que dimarts encara no era el dia acordat de lliurament, dijous.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La primera frase no explicava aquell acord."
+              }
+            ]
+          },
+          {
+            "id": "l305a-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què és la «franja» de les estovalles?",
+            "answer": "La tira blava que reforça la vora.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "una tira blava per reforçar la vora"
+              },
+              {
+                "paragraph": 3,
+                "text": "les estovalles amb aquella franja"
+              }
+            ]
+          },
+          {
+            "id": "l305a-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què havia advertit la Irene sobre la reparació?",
+            "answer": "Que la tira blava es veuria.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La Irene va avisar que es veuria."
+              }
+            ]
+          },
+          {
+            "id": "l305a-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina opinió manté l’Hugo després d’afegir les dades?",
+            "answer": "Continua preferint una espera més curta.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Continuo preferint esperar menys."
+              }
+            ]
+          },
+          {
+            "id": "l305a-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix què canvia l’Hugo a la ressenya.",
+            "answer": "Hi afegeix el termini acordat, la franja visible triada i el resultat del berenar, encara que continua preferint esperar menys.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "explica els dies, la franja i què va passar després"
+              }
+            ]
+          },
+          {
+            "id": "l305a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quina dada d’aquesta ressenya t’ajudaria més a decidir si portar alguna cosa al taller? Explica per què.",
+            "answer": "Resposta personal justificada: termini, resultat, aspecte visible o una altra dada present."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "franja",
+            "occurrence": 1,
+            "questionId": "l305a-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l305-scene",
+            "src": "assets/readings/l305-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "L’Hugo revisa una ressenya amb l’Asha al costat d’una taula coberta amb unes estovalles amb una franja blava reparada a la vora.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-resena-que-olvido-la-espera-es",
+        "code": "L305",
+        "workId": "la-resena-que-olvido-la-espera",
+        "language": "es",
+        "familyId": "familia-l305",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday"
+        ],
+        "genre": "review",
+        "title": "La reseña que olvidó la espera",
+        "summary": "Una reseña del taller distingue entre la impaciencia del autor, lo acordado y el resultado de una reparación.",
+        "paragraphs": [
+          "Soy Hugo y esta es mi reseña del taller de Irene, junto a la plaza. El lunes llevé con Asha un mantel del club de lectura. Tenía un borde rasgado y lo necesitábamos para una merienda el sábado. Irene lo extendió y nos ofreció reforzarlo con una tira de tela azul. Se vería la reparación, pero cubriría la zona dañada. Acordamos recogerlo el jueves.",
+          "El martes pasé por allí y vi el mantel doblado en una estantería, todavía sin arreglar. Me impacienté. En el cuaderno escribí: «Tardan mucho y el mantel seguirá teniendo una marca». Asha leyó mi borrador mientras esperábamos en la plaza. —¿Eso es lo que pasó o lo que te habría gustado? —preguntó. Busqué el papel de recogida. El día escrito era jueves, igual que habíamos hablado.",
+          "La franja azul tampoco era una sorpresa: Irene nos había enseñado la tela y la habíamos elegido juntos. Aquella frase mezclaba mi prisa con dos condiciones conocidas. La dejé sin publicar y esperé a usar el mantel. Así podría explicar algo más que mi visita del martes, cuando la reparación aún estaba pendiente.",
+          "El jueves lo recogimos a la hora acordada. La costura cerraba el roto y la tira se distinguía sobre la tela clara. El sábado extendimos el mantel y pusimos los platos de la merienda. Al recogerlos, el borde seguía cerrado. Me habría gustado que la franja fuera menos llamativa; Asha dijo que a ella le gustaba el contraste.",
+          "Mi versión final cuenta esos días y ese resultado. Yo sigo prefiriendo reparaciones rápidas y discretas. Para este mantel, Irene cumplió lo que habíamos acordado. Pasé la reseña a limpio y la dejé en el cuaderno de visitas del taller."
+        ],
+        "questions": [
+          {
+            "id": "l305-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué dos condiciones de la reparación conocían desde el lunes?",
+            "answer": "Que la recogerían el jueves y que la tira azul quedaría visible.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Se vería la reparación"
+              },
+              {
+                "paragraph": 1,
+                "text": "Acordamos recogerlo el jueves."
+              }
+            ]
+          },
+          {
+            "id": "l305-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿En qué momento ve Hugo el mantel aún sin arreglar?",
+            "answer": "El martes, cuando pasa por el taller.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El martes pasé por allí"
+              }
+            ]
+          },
+          {
+            "id": "l305-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué es el «borrador» que lee Asha?",
+            "answer": "Una primera versión de la reseña que Hugo aún puede cambiar.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "En el cuaderno escribí"
+              },
+              {
+                "paragraph": 2,
+                "text": "Asha leyó mi borrador"
+              }
+            ]
+          },
+          {
+            "id": "l305-q4",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué el papel de recogida hace que Hugo revise su frase sobre la tardanza?",
+            "answer": "Porque confirma que el plazo era el jueves, por lo que ver el mantel pendiente el martes no demuestra un retraso respecto al acuerdo.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El día escrito era jueves, igual que habíamos hablado."
+              }
+            ]
+          },
+          {
+            "id": "l305-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué Hugo espera a usar el mantel antes de publicar?",
+            "answer": "Para contar también cómo resulta la reparación durante el uso.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "esperé a usar el mantel. Así podría explicar algo más que mi visita del martes"
+              }
+            ]
+          },
+          {
+            "id": "l305-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué comprueban al recoger los platos el sábado?",
+            "answer": "Que el borde sigue cerrado.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Al recogerlos, el borde seguía cerrado."
+              }
+            ]
+          },
+          {
+            "id": "l305-q7",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿En qué discrepan Hugo y Asha sin contradecir los hechos?",
+            "answer": "En si les gusta el contraste visible de la franja azul.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Me habría gustado que la franja fuera menos llamativa; Asha dijo que a ella le gustaba el contraste."
+              }
+            ]
+          },
+          {
+            "id": "l305-q8",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "¿Para qué sirve incluir la primera frase dentro de la reseña final?",
+            "answer": "Para mostrar el cambio entre una reacción impaciente y una valoración que incorpora acuerdos y experiencia.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Tardan mucho y el mantel seguirá teniendo una marca"
+              },
+              {
+                "paragraph": 5,
+                "text": "Mi versión final cuenta esos días y ese resultado."
+              }
+            ]
+          },
+          {
+            "id": "l305-q9",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resume la valoración final de Hugo incluyendo un hecho y una preferencia.",
+            "answer": "Irene entrega el mantel en el plazo acordado y la reparación aguanta la merienda. Hugo sigue prefiriendo un arreglo más rápido y menos visible.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "el borde seguía cerrado"
+              },
+              {
+                "paragraph": 5,
+                "text": "Yo sigo prefiriendo reparaciones rápidas y discretas."
+              }
+            ]
+          },
+          {
+            "id": "l305-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿Te parece útil que la reseña mantenga un gusto que Irene no prometió satisfacer? Explica qué información te aporta.",
+            "answer": "Respuesta abierta razonada. Puede defender mantener la preferencia si se distingue de lo acordado, o proponer una presentación distinta."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "borrador",
+            "occurrence": 1,
+            "questionId": "l305-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l305-scene",
+            "src": "assets/readings/l305-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Hugo revisa una reseña con Asha junto a una mesa cubierta por un mantel con una franja azul reparada en el borde.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-resena-que-olvido-la-espera-ca",
+        "code": "L305",
+        "workId": "la-resena-que-olvido-la-espera",
+        "language": "ca",
+        "familyId": "familia-l305",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday"
+        ],
+        "genre": "review",
+        "title": "La ressenya que va oblidar l’espera",
+        "summary": "Una ressenya del taller distingeix entre la impaciència de l’autor, allò acordat i el resultat d’una reparació.",
+        "paragraphs": [
+          "Soc l’Hugo i aquesta és la meva ressenya del taller de la Irene, al costat de la plaça. Dilluns hi vaig portar amb l’Asha unes estovalles del club de lectura. Tenien una vora esquinçada i les necessitàvem per a un berenar dissabte. La Irene les va estendre i ens va oferir reforçar-les amb una tira de roba blava. La reparació es veuria, però taparia la zona malmesa. Vam acordar recollir-les dijous.",
+          "Dimarts hi vaig passar i vaig veure les estovalles plegades en un prestatge, encara sense arreglar. Em vaig impacientar. A la llibreta vaig escriure: «Triguen molt i les estovalles continuaran tenint una marca». L’Asha va llegir l’esborrany mentre esperàvem a la plaça. —Això és el que va passar o el que t’hauria agradat? —va preguntar. Vaig buscar el paper de recollida. El dia escrit era dijous, tal com havíem parlat.",
+          "La franja blava tampoc no era una sorpresa: la Irene ens havia ensenyat la roba i l’havíem triada junts. Aquella frase barrejava la meva pressa amb dues condicions conegudes. La vaig deixar sense publicar i vaig esperar a fer servir les estovalles. Així podria explicar alguna cosa més que la visita de dimarts, quan la reparació encara estava pendent.",
+          "Dijous les vam recollir a l’hora acordada. La costura tancava l’esquinç i la tira es distingia sobre la roba clara. Dissabte vam estendre les estovalles i hi vam posar els plats del berenar. En recollir-los, la vora continuava tancada. M’hauria agradat que la franja fos menys cridanera; l’Asha va dir que a ella li agradava el contrast.",
+          "La versió final explica aquells dies i aquell resultat. Jo continuo preferint reparacions ràpides i discretes. Per a aquestes estovalles, la Irene va complir allò que havíem acordat. Vaig passar la ressenya en net i la vaig deixar al quadern de visites del taller."
+        ],
+        "questions": [
+          {
+            "id": "l305-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quines dues condicions de la reparació coneixien des de dilluns?",
+            "answer": "Que la recollirien dijous i que la tira blava quedaria visible.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "La reparació es veuria"
+              },
+              {
+                "paragraph": 1,
+                "text": "Vam acordar recollir-les dijous."
+              }
+            ]
+          },
+          {
+            "id": "l305-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "En quin moment veu l’Hugo les estovalles encara sense arreglar?",
+            "answer": "Dimarts, quan passa pel taller.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Dimarts hi vaig passar"
+              }
+            ]
+          },
+          {
+            "id": "l305-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què és l’«esborrany» que llegeix l’Asha?",
+            "answer": "Una primera versió de la ressenya que l’Hugo encara pot canviar.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "A la llibreta vaig escriure"
+              },
+              {
+                "paragraph": 2,
+                "text": "L’Asha va llegir l’esborrany"
+              }
+            ]
+          },
+          {
+            "id": "l305-q4",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què el paper de recollida fa que l’Hugo revisi la frase sobre la tardança?",
+            "answer": "Perquè confirma que el termini era dijous i, per tant, veure les estovalles pendents dimarts no demostra un retard respecte de l’acord.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "El dia escrit era dijous, tal com havíem parlat."
+              }
+            ]
+          },
+          {
+            "id": "l305-q5",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què l’Hugo espera a fer servir les estovalles abans de publicar?",
+            "answer": "Per explicar també quin resultat dona la reparació durant l’ús.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "vaig esperar a fer servir les estovalles. Així podria explicar alguna cosa més que la visita de dimarts"
+              }
+            ]
+          },
+          {
+            "id": "l305-q6",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què comproven quan recullen els plats dissabte?",
+            "answer": "Que la vora continua tancada.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "En recollir-los, la vora continuava tancada."
+              }
+            ]
+          },
+          {
+            "id": "l305-q7",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "En què discrepen l’Hugo i l’Asha sense contradir els fets?",
+            "answer": "En si els agrada el contrast visible de la franja blava.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "M’hauria agradat que la franja fos menys cridanera; l’Asha va dir que a ella li agradava el contrast."
+              }
+            ]
+          },
+          {
+            "id": "l305-q8",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "Per a què serveix incloure la primera frase dins de la ressenya final?",
+            "answer": "Per mostrar el canvi entre una reacció impacient i una valoració que incorpora acords i experiència.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Triguen molt i les estovalles continuaran tenint una marca"
+              },
+              {
+                "paragraph": 5,
+                "text": "La versió final explica aquells dies i aquell resultat."
+              }
+            ]
+          },
+          {
+            "id": "l305-q9",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resumeix la valoració final de l’Hugo incloent-hi un fet i una preferència.",
+            "answer": "La Irene lliura les estovalles en el termini acordat i la reparació aguanta el berenar. L’Hugo continua preferint un arranjament més ràpid i menys visible.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "la vora continuava tancada"
+              },
+              {
+                "paragraph": 5,
+                "text": "Jo continuo preferint reparacions ràpides i discretes."
+              }
+            ]
+          },
+          {
+            "id": "l305-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Et sembla útil que la ressenya mantingui un gust que la Irene no va prometre satisfer? Explica quina informació t’aporta.",
+            "answer": "Resposta oberta raonada. Pot defensar mantenir la preferència si es distingeix d’allò acordat, o proposar una presentació diferent."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "esborrany",
+            "occurrence": 1,
+            "questionId": "l305-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l305-scene",
+            "src": "assets/readings/l305-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "L’Hugo revisa una ressenya amb l’Asha al costat d’una taula coberta amb unes estovalles amb una franja blava reparada a la vora.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-resena-que-olvido-la-espera-b-es",
+        "code": "L305B",
+        "workId": "la-resena-que-olvido-la-espera-b",
+        "language": "es",
+        "familyId": "familia-l305",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday"
+        ],
+        "genre": "review",
+        "title": "La reseña que olvidó la espera",
+        "summary": "Una reseña reconstruye un acuerdo, una impresión precipitada y una valoración que puede conservar matices.",
+        "paragraphs": [
+          "Escribo esta reseña después de utilizar el mantel que reparamos en el taller de Irene, junto a la plaza. Soy Hugo y fui con Asha en nombre del club de lectura. El lunes llevamos el mantel: el borde se había rasgado al engancharse en el cierre del armario. Queríamos usarlo el sábado en una merienda. Irene extendió la tela y propuso reforzar la zona con una tira azul que tenía en el taller.",
+          "La franja quedaría visible sobre el fondo claro. Irene nos enseñó la combinación antes de que aceptáramos y fijó la recogida para el jueves. Apuntamos ese día. Yo habría preferido algo invisible y para la tarde siguiente, pero quería llevarme una solución antes de ir a jugar a la plaza. Dije que me parecía bien sin hacer más preguntas.",
+          "El martes pasé por la puerta azul. Vi nuestro mantel doblado en una estantería y aún sin arreglar. En mi cuaderno empecé la reseña: «Tardan mucho y dejan una marca que se ve». Asha leyó el borrador y preguntó: —¿Cuándo tenían que entregarlo? Busqué el papel: jueves. Después señaló el dibujo que habíamos hecho de la franja. Mi frase daba la impresión de que ambos detalles nos habían llegado por sorpresa.",
+          "Guardé aquella versión hasta poder contar el resultado. El jueves recogimos el mantel a la hora acordada. Irene nos mostró la costura que cerraba el roto y el refuerzo azul. El sábado lo extendimos en la mesa del club. Después de mover los platos y recoger las migas, el borde seguía cerrado. Asha encontraba alegre el contraste; yo seguía prefiriendo una franja menos llamativa. Sobre la resistencia futura solo podía contar aquella primera merienda.",
+          "Mi reseña final incluye el plazo anunciado, el aspecto elegido y lo que observamos al usar el mantel. Para este encargo, el taller cumplió el acuerdo. A mí me gustaría un servicio más rápido cuando tengo prisa y preguntaría por otra tela si quisiera ocultar el arreglo. Asha leyó el texto una vez más. Añadí que esas eran mis preferencias y pasé la reseña al cuaderno de visitas de la mesa junto a la puerta azul, al lado de una opinión mucho más entusiasta sobre otro encargo."
+        ],
+        "questions": [
+          {
+            "id": "l305b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué provocó el desperfecto del mantel?",
+            "answer": "Se enganchó en el cierre del armario y se rasgó el borde.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "el borde se había rasgado al engancharse en el cierre del armario"
+              }
+            ]
+          },
+          {
+            "id": "l305b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué pudieron ver y conocer antes de aceptar la reparación?",
+            "answer": "La combinación de la tira azul con el fondo claro y que la recogida sería el jueves.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Irene nos enseñó la combinación antes de que aceptáramos y fijó la recogida para el jueves."
+              }
+            ]
+          },
+          {
+            "id": "l305b-q3",
+            "type": "literal",
+            "lines": 3,
+            "prompt": "¿Qué explica que Hugo acepte algo distinto de lo que prefería?",
+            "answer": "Quería resolver el encargo enseguida para ir a jugar y no preguntó por otras posibilidades.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "quería llevarme una solución antes de ir a jugar a la plaza. Dije que me parecía bien sin hacer más preguntas."
+              }
+            ]
+          },
+          {
+            "id": "l305b-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «borrador» en el tercer párrafo?",
+            "answer": "La primera versión de la reseña, todavía sujeta a cambios.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "En mi cuaderno empecé la reseña"
+              },
+              {
+                "paragraph": 3,
+                "text": "Asha leyó el borrador"
+              }
+            ]
+          },
+          {
+            "id": "l305b-q5",
+            "type": "literal",
+            "lines": 3,
+            "prompt": "¿Qué interpretación del primer borrador podría formarse un lector que no conociera el acuerdo?",
+            "answer": "Podría pensar que la espera y la marca visible fueron incumplimientos o sorpresas, aunque ambas estaban anunciadas.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Mi frase daba la impresión de que ambos detalles nos habían llegado por sorpresa."
+              }
+            ]
+          },
+          {
+            "id": "l305b-q6",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué aportan el papel y el dibujo a la revisión de la reseña?",
+            "answer": "Permiten contrastar la impresión de Hugo con el plazo y el aspecto que habían aceptado.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Busqué el papel: jueves. Después señaló el dibujo que habíamos hecho de la franja."
+              }
+            ]
+          },
+          {
+            "id": "l305b-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué observación favorable puede hacer Hugo después de la merienda?",
+            "answer": "Que el borde sigue cerrado tras utilizar el mantel.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Después de mover los platos y recoger las migas, el borde seguía cerrado."
+              }
+            ]
+          },
+          {
+            "id": "l305b-q8",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué la primera merienda no permite afirmar cuánto durará la reparación?",
+            "answer": "Porque solo han observado un uso; no conocen todavía su comportamiento durante usos futuros.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Sobre la resistencia futura solo podía contar aquella primera merienda."
+              }
+            ]
+          },
+          {
+            "id": "l305b-q9",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "¿Qué función tiene el párrafo de la merienda entre el borrador y la valoración final?",
+            "answer": "Aporta una experiencia de uso que permite fundamentar la valoración, además de recordar lo acordado.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "El sábado lo extendimos en la mesa del club."
+              },
+              {
+                "paragraph": 5,
+                "text": "lo que observamos al usar el mantel"
+              }
+            ]
+          },
+          {
+            "id": "l305b-q10",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Son incompatibles decir que Irene cumplió el acuerdo y preferir un servicio más rápido? Explica con el caso.",
+            "answer": "No. Se entregó el jueves como habían acordado, aunque Hugo desee un plazo más corto para otros encargos.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "fijó la recogida para el jueves"
+              },
+              {
+                "paragraph": 5,
+                "text": "el taller cumplió el acuerdo. A mí me gustaría un servicio más rápido"
+              }
+            ]
+          },
+          {
+            "id": "l305b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resume cómo evoluciona la reseña sin afirmar que Hugo acaba entusiasmado.",
+            "answer": "Empieza con una queja que omite acuerdos conocidos. Tras revisarlos y usar el mantel, reconoce que el taller los cumple y que la costura aguanta ese uso; conserva sus preferencias sobre rapidez y aspecto.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "ambos detalles nos habían llegado por sorpresa"
+              },
+              {
+                "paragraph": 5,
+                "text": "Añadí que esas eran mis preferencias"
+              }
+            ]
+          },
+          {
+            "id": "l305b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿Qué preguntarías antes de aceptar este encargo si tú fueras Hugo? Explica cómo influiría la respuesta en tu decisión.",
+            "answer": "Respuesta personal: puede preguntar por plazos, alternativas de tela, aspecto o coste, sin suponer que el taller puede ofrecer necesariamente todas las opciones."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "borrador",
+            "occurrence": 1,
+            "questionId": "l305b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l305-scene",
+            "src": "assets/readings/l305-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Hugo revisa una reseña con Asha junto a una mesa cubierta por un mantel con una franja azul reparada en el borde.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Irene y Hugo en el taller de reparación junto a la plaza, rodeados de paraguas y materiales.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-resena-que-olvido-la-espera-b-ca",
+        "code": "L305B",
+        "workId": "la-resena-que-olvido-la-espera-b",
+        "language": "ca",
+        "familyId": "familia-l305",
+        "universeIds": [
+          "taller-de-la-placa"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "everyday"
+        ],
+        "genre": "review",
+        "title": "La ressenya que va oblidar l’espera",
+        "summary": "Una ressenya reconstrueix un acord, una impressió precipitada i una valoració que pot conservar matisos.",
+        "paragraphs": [
+          "Escric aquesta ressenya després de fer servir les estovalles que vam reparar al taller de la Irene, al costat de la plaça. Soc l’Hugo i hi vaig anar amb l’Asha en nom del club de lectura. Dilluns vam portar les estovalles: la vora s’havia esquinçat en enganxar-se al tancament de l’armari. Les volíem fer servir dissabte en un berenar. La Irene va estendre la roba i va proposar reforçar la zona amb una tira blava que tenia al taller.",
+          "La franja quedaria visible sobre el fons clar. La Irene ens va ensenyar la combinació abans que l’acceptéssim i va fixar la recollida per a dijous. Vam apuntar aquell dia. Jo hauria preferit una cosa invisible i per a la tarda següent, però volia endur-me una solució abans d’anar a jugar a la plaça. Vaig dir que em semblava bé sense fer més preguntes.",
+          "Dimarts vaig passar per la porta blava. Vaig veure les nostres estovalles plegades en un prestatge i encara sense arreglar. A la llibreta vaig començar la ressenya: «Triguen molt i deixen una marca que es veu». L’Asha va llegir l’esborrany i va preguntar: —Quan les havien de lliurar? Vaig buscar el paper: dijous. Després va assenyalar el dibuix que havíem fet de la franja. La frase feia la impressió que tots dos detalls ens havien arribat per sorpresa.",
+          "Vaig guardar aquella versió fins a poder explicar el resultat. Dijous vam recollir les estovalles a l’hora acordada. La Irene ens va mostrar la costura que tancava l’esquinç i el reforç blau. Dissabte les vam estendre a la taula del club. Després de moure els plats i recollir les engrunes, la vora continuava tancada. L’Asha trobava alegre el contrast; jo continuava preferint una franja menys cridanera. Sobre la resistència futura només podia explicar aquell primer berenar.",
+          "La ressenya final inclou el termini anunciat, l’aspecte triat i què vam observar quan vam fer servir les estovalles. Per a aquest encàrrec, el taller va complir l’acord. A mi m’agradaria un servei més ràpid quan tinc pressa i preguntaria per una altra roba si volgués amagar l’arranjament. L’Asha va llegir el text una vegada més. Vaig afegir que aquelles eren les meves preferències i vaig passar la ressenya al quadern de visites de la taula al costat de la porta blava, al costat d’una opinió molt més entusiasta sobre un altre encàrrec."
+        ],
+        "questions": [
+          {
+            "id": "l305b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què va provocar el desperfecte de les estovalles?",
+            "answer": "Es van enganxar al tancament de l’armari i se’n va esquinçar la vora.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "la vora s’havia esquinçat en enganxar-se al tancament de l’armari"
+              }
+            ]
+          },
+          {
+            "id": "l305b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què van poder veure i saber abans d’acceptar la reparació?",
+            "answer": "La combinació de la tira blava amb el fons clar i que la recollida seria dijous.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "La Irene ens va ensenyar la combinació abans que l’acceptéssim i va fixar la recollida per a dijous."
+              }
+            ]
+          },
+          {
+            "id": "l305b-q3",
+            "type": "literal",
+            "lines": 3,
+            "prompt": "Què explica que l’Hugo accepti una cosa diferent de la que preferia?",
+            "answer": "Volia resoldre l’encàrrec de seguida per anar a jugar i no va preguntar per altres possibilitats.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "volia endur-me una solució abans d’anar a jugar a la plaça. Vaig dir que em semblava bé sense fer més preguntes."
+              }
+            ]
+          },
+          {
+            "id": "l305b-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què significa «esborrany» al tercer paràgraf?",
+            "answer": "La primera versió de la ressenya, encara subjecta a canvis.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "A la llibreta vaig començar la ressenya"
+              },
+              {
+                "paragraph": 3,
+                "text": "L’Asha va llegir l’esborrany"
+              }
+            ]
+          },
+          {
+            "id": "l305b-q5",
+            "type": "literal",
+            "lines": 3,
+            "prompt": "Quina interpretació del primer esborrany podria fer-se un lector que no conegués l’acord?",
+            "answer": "Podria pensar que l’espera i la marca visible van ser incompliments o sorpreses, tot i que totes dues estaven anunciades.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "La frase feia la impressió que tots dos detalls ens havien arribat per sorpresa."
+              }
+            ]
+          },
+          {
+            "id": "l305b-q6",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Què aporten el paper i el dibuix a la revisió de la ressenya?",
+            "answer": "Permeten contrastar la impressió de l’Hugo amb el termini i l’aspecte que havien acceptat.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Vaig buscar el paper: dijous. Després va assenyalar el dibuix que havíem fet de la franja."
+              }
+            ]
+          },
+          {
+            "id": "l305b-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina observació favorable pot fer l’Hugo després del berenar?",
+            "answer": "Que la vora continua tancada després de fer servir les estovalles.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Després de moure els plats i recollir les engrunes, la vora continuava tancada."
+              }
+            ]
+          },
+          {
+            "id": "l305b-q8",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què el primer berenar no permet afirmar quant durarà la reparació?",
+            "answer": "Perquè només han observat un ús; encara no saben com es comportarà durant usos futurs.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Sobre la resistència futura només podia explicar aquell primer berenar."
+              }
+            ]
+          },
+          {
+            "id": "l305b-q9",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "Quina funció té el paràgraf del berenar entre l’esborrany i la valoració final?",
+            "answer": "Aporta una experiència d’ús que permet fonamentar la valoració, a més de recordar allò acordat.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Dissabte les vam estendre a la taula del club."
+              },
+              {
+                "paragraph": 5,
+                "text": "què vam observar quan vam fer servir les estovalles"
+              }
+            ]
+          },
+          {
+            "id": "l305b-q10",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Són incompatibles dir que la Irene va complir l’acord i preferir un servei més ràpid? Explica-ho amb el cas.",
+            "answer": "No. Es va lliurar dijous tal com havien acordat, tot i que l’Hugo desitgi un termini més curt per a altres encàrrecs.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "va fixar la recollida per a dijous"
+              },
+              {
+                "paragraph": 5,
+                "text": "el taller va complir l’acord. A mi m’agradaria un servei més ràpid"
+              }
+            ]
+          },
+          {
+            "id": "l305b-q11",
+            "type": "summary",
+            "lines": 4,
+            "prompt": "Resumeix com evoluciona la ressenya sense afirmar que l’Hugo acaba entusiasmat.",
+            "answer": "Comença amb una queixa que omet acords coneguts. Després de revisar-los i fer servir les estovalles, reconeix que el taller els compleix i que la costura aguanta aquell ús; conserva les preferències sobre rapidesa i aspecte.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "tots dos detalls ens havien arribat per sorpresa"
+              },
+              {
+                "paragraph": 5,
+                "text": "Vaig afegir que aquelles eren les meves preferències"
+              }
+            ]
+          },
+          {
+            "id": "l305b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Què preguntaries abans d’acceptar aquest encàrrec si fossis l’Hugo? Explica com influiria la resposta en la teva decisió.",
+            "answer": "Resposta personal: pot preguntar per terminis, alternatives de roba, aspecte o cost, sense suposar que el taller pot oferir necessàriament totes les opcions."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "esborrany",
+            "occurrence": 1,
+            "questionId": "l305b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l305-scene",
+            "src": "assets/readings/l305-taller.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "L’Hugo revisa una ressenya amb l’Asha al costat d’una taula coberta amb unes estovalles amb una franja blava reparada a la vora.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "workshop-square",
+            "src": "assets/readings/l039-el-taller-de-los-paraguas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "La Irene i l’Hugo al taller de reparació de la plaça, entre paraigües i materials.",
+            "afterParagraph": 3
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L305A",
+        "language": "es",
+        "questions": {
+          "l305a-q1": {
+            "prompt": "¿Para qué día necesitaban el mantel?",
+            "options": [
+              "Para el lunes.",
+              "Para el martes.",
+              "Para el jueves.",
+              "Para el sábado."
+            ],
+            "correct": "d",
+            "explanation": "Para la merienda del sábado."
+          },
+          "l305a-q2": {
+            "prompt": "¿Qué día habían acordado recogerlo?",
+            "options": [
+              "El jueves.",
+              "El martes.",
+              "El sábado.",
+              "El lunes."
+            ],
+            "correct": "a",
+            "explanation": "El jueves."
+          },
+          "l305a-q3": {
+            "prompt": "¿Por qué la frase «Tardan mucho» cuenta solo una parte de la experiencia?",
+            "options": [
+              "Porque no describe el club de lectura.",
+              "Porque no explica el plazo acordado.",
+              "Porque olvida el color de la estantería.",
+              "Porque no dice quién escribió la reseña."
+            ],
+            "correct": "b",
+            "explanation": "Porque omite que el martes aún no era el día acordado de entrega, el jueves."
+          },
+          "l305a-q4": {
+            "prompt": "¿Qué es la «franja» del mantel?",
+            "options": [
+              "La zona donde escriben la reseña.",
+              "El papel que indica cuándo volver.",
+              "La tira de tela que refuerza el borde.",
+              "La parte de la mesa sin mantel."
+            ],
+            "correct": "c",
+            "explanation": "La tira azul que refuerza el borde."
+          },
+          "l305a-q5": {
+            "prompt": "¿Qué había advertido Irene sobre la reparación?",
+            "options": [
+              "Que la reseña estaría en el cuaderno.",
+              "Que el mantel se entregaría el sábado.",
+              "Que la merienda debía ser más tarde.",
+              "Que la tira azul quedaría visible."
+            ],
+            "correct": "d",
+            "explanation": "Que la tira azul se vería."
+          },
+          "l305a-q6": {
+            "prompt": "¿Qué opinión mantiene Hugo después de añadir los datos?",
+            "options": [
+              "Le gustaría esperar menos tiempo.",
+              "Prefiere recoger el mantel el sábado.",
+              "Quiere quitar los días de la reseña.",
+              "Cree que la tira no debía verse nunca."
+            ],
+            "correct": "a",
+            "explanation": "Sigue prefiriendo una espera más corta."
+          },
+          "l305a-q7": {
+            "prompt": "¿Qué resumen refleja la revisión de la reseña?",
+            "options": [
+              "Retira su opinión y solo describe la mesa del club.",
+              "Añade acuerdos y resultados sin ocultar su preferencia.",
+              "Conserva la primera frase y cambia el día de entrega.",
+              "Describe el sábado y omite de nuevo el acuerdo."
+            ],
+            "correct": "b",
+            "explanation": "Añade el plazo acordado, la franja visible elegida y el resultado de la merienda, aunque sigue prefiriendo esperar menos."
+          }
+        }
+      },
+      {
+        "code": "L305A",
+        "language": "ca",
+        "questions": {
+          "l305a-q1": {
+            "prompt": "Per a quin dia necessitaven les estovalles?",
+            "options": [
+              "Per a dilluns.",
+              "Per a dimarts.",
+              "Per a dijous.",
+              "Per a dissabte."
+            ],
+            "correct": "d",
+            "explanation": "Per al berenar de dissabte."
+          },
+          "l305a-q2": {
+            "prompt": "Quin dia havien acordat recollir-les?",
+            "options": [
+              "Dijous.",
+              "Dimarts.",
+              "Dissabte.",
+              "Dilluns."
+            ],
+            "correct": "a",
+            "explanation": "Dijous."
+          },
+          "l305a-q3": {
+            "prompt": "Per què la frase «Triguen molt» explica només una part de l’experiència?",
+            "options": [
+              "Perquè no descriu el club de lectura.",
+              "Perquè no explica el termini acordat.",
+              "Perquè oblida el color del prestatge.",
+              "Perquè no diu qui va escriure la ressenya."
+            ],
+            "correct": "b",
+            "explanation": "Perquè omet que dimarts encara no era el dia acordat de lliurament, dijous."
+          },
+          "l305a-q4": {
+            "prompt": "Què és la «franja» de les estovalles?",
+            "options": [
+              "La zona on escriuen la ressenya.",
+              "El paper que indica quan tornar.",
+              "La tira de roba que reforça la vora.",
+              "La part de la taula sense estovalles."
+            ],
+            "correct": "c",
+            "explanation": "La tira blava que reforça la vora."
+          },
+          "l305a-q5": {
+            "prompt": "Què havia advertit la Irene sobre la reparació?",
+            "options": [
+              "Que la ressenya seria al quadern.",
+              "Que les estovalles es lliurarien dissabte.",
+              "Que el berenar havia de ser més tard.",
+              "Que la tira blava quedaria visible."
+            ],
+            "correct": "d",
+            "explanation": "Que la tira blava es veuria."
+          },
+          "l305a-q6": {
+            "prompt": "Quina opinió manté l’Hugo després d’afegir les dades?",
+            "options": [
+              "Li agradaria esperar menys temps.",
+              "Prefereix recollir les estovalles dissabte.",
+              "Vol treure els dies de la ressenya.",
+              "Creu que la tira no s’havia de veure mai."
+            ],
+            "correct": "a",
+            "explanation": "Continua preferint una espera més curta."
+          },
+          "l305a-q7": {
+            "prompt": "Quin resum reflecteix la revisió de la ressenya?",
+            "options": [
+              "Retira l’opinió i només descriu la taula del club.",
+              "Hi afegeix acords i resultats sense amagar la preferència.",
+              "Conserva la primera frase i canvia el dia de lliurament.",
+              "Descriu dissabte i torna a ometre l’acord."
+            ],
+            "correct": "b",
+            "explanation": "Hi afegeix el termini acordat, la franja visible triada i el resultat del berenar, encara que continua preferint esperar menys."
+          }
+        }
+      },
+      {
+        "code": "L305",
+        "language": "es",
+        "questions": {
+          "l305-q1": {
+            "prompt": "¿Qué dos condiciones de la reparación conocían desde el lunes?",
+            "options": [
+              "Recoger el sábado y ocultar la tira azul.",
+              "Recoger el martes y conservar el borde roto.",
+              "Recoger el jueves y ver la tira azul.",
+              "Recoger el lunes y cambiar toda la tela."
+            ],
+            "correct": "c",
+            "explanation": "Que la recogerían el jueves y que la tira azul quedaría visible."
+          },
+          "l305-q2": {
+            "prompt": "¿En qué momento ve Hugo el mantel aún sin arreglar?",
+            "options": [
+              "El lunes al elegir la tela.",
+              "El jueves al recogerlo.",
+              "El sábado tras la merienda.",
+              "El martes al pasar por allí."
+            ],
+            "correct": "d",
+            "explanation": "El martes, cuando pasa por el taller."
+          },
+          "l305-q3": {
+            "prompt": "¿Qué es el «borrador» que lee Asha?",
+            "options": [
+              "Una versión inicial de su escrito.",
+              "Un justificante de la recogida.",
+              "Una descripción de la tela azul.",
+              "Una respuesta del taller a Hugo."
+            ],
+            "correct": "a",
+            "explanation": "Una primera versión de la reseña que Hugo aún puede cambiar."
+          },
+          "l305-q4": {
+            "prompt": "¿Por qué el papel de recogida hace que Hugo revise su frase sobre la tardanza?",
+            "options": [
+              "Porque demuestra que la franja sería poco visible.",
+              "Porque confirma que aún no había vencido el plazo.",
+              "Porque cambia la recogida de martes a jueves.",
+              "Porque indica que ya habían utilizado el mantel."
+            ],
+            "correct": "b",
+            "explanation": "Porque confirma que el plazo era el jueves, por lo que ver el mantel pendiente el martes no demuestra un retraso respecto al acuerdo."
+          },
+          "l305-q5": {
+            "prompt": "¿Por qué Hugo espera a usar el mantel antes de publicar?",
+            "options": [
+              "Para que Asha escogiera otra tela para el borde.",
+              "Para borrar del papel la fecha que había acordado.",
+              "Para incluir el resultado de la reparación al usarlo.",
+              "Para conseguir que la marca azul dejara de verse."
+            ],
+            "correct": "c",
+            "explanation": "Para contar también cómo resulta la reparación durante el uso."
+          },
+          "l305-q6": {
+            "prompt": "¿Qué comprueban al recoger los platos el sábado?",
+            "options": [
+              "Que la tira había cambiado de color.",
+              "Que la marca ya no se distinguía.",
+              "Que el mantel seguía en el taller.",
+              "Que el borde reparado seguía cerrado."
+            ],
+            "correct": "d",
+            "explanation": "Que el borde sigue cerrado."
+          },
+          "l305-q7": {
+            "prompt": "¿En qué discrepan Hugo y Asha sin contradecir los hechos?",
+            "options": [
+              "En si les gusta el contraste de la franja.",
+              "En si el mantel fue recogido el jueves.",
+              "En si habían elegido la tira el lunes.",
+              "En si el borde se abrió en la merienda."
+            ],
+            "correct": "a",
+            "explanation": "En si les gusta el contraste visible de la franja azul."
+          },
+          "l305-q8": {
+            "prompt": "¿Para qué sirve incluir la primera frase dentro de la reseña final?",
+            "options": [
+              "Para ofrecer dos plazos de entrega que se contradicen.",
+              "Para mostrar cómo cambia una primera valoración.",
+              "Para presentar la opinión que Irene tiene de Hugo.",
+              "Para separar dos reparaciones de manteles distintos."
+            ],
+            "correct": "b",
+            "explanation": "Para mostrar el cambio entre una reacción impaciente y una valoración que incorpora acuerdos y experiencia."
+          },
+          "l305-q9": {
+            "prompt": "¿Qué resumen incluye un hecho y la preferencia final de Hugo?",
+            "options": [
+              "La tira no se ve y Hugo deja de tener prisa.",
+              "El mantel llega tarde, aunque Asha prefiere la franja.",
+              "Se cumple el acuerdo; Hugo preferiría rapidez y discreción.",
+              "La reparación se abre y Hugo retira toda su reseña."
+            ],
+            "correct": "c",
+            "explanation": "Irene entrega el mantel en el plazo acordado y la reparación aguanta la merienda. Hugo sigue prefiriendo un arreglo más rápido y menos visible."
+          }
+        }
+      },
+      {
+        "code": "L305",
+        "language": "ca",
+        "questions": {
+          "l305-q1": {
+            "prompt": "Quines dues condicions de la reparació coneixien des de dilluns?",
+            "options": [
+              "Recollir dissabte i amagar la tira blava.",
+              "Recollir dimarts i conservar la vora esquinçada.",
+              "Recollir dijous i veure la tira blava.",
+              "Recollir dilluns i canviar tota la roba."
+            ],
+            "correct": "c",
+            "explanation": "Que la recollirien dijous i que la tira blava quedaria visible."
+          },
+          "l305-q2": {
+            "prompt": "En quin moment veu l’Hugo les estovalles encara sense arreglar?",
+            "options": [
+              "Dilluns quan tria la roba.",
+              "Dijous quan les recull.",
+              "Dissabte després del berenar.",
+              "Dimarts quan passa per allà."
+            ],
+            "correct": "d",
+            "explanation": "Dimarts, quan passa pel taller."
+          },
+          "l305-q3": {
+            "prompt": "Què és l’«esborrany» que llegeix l’Asha?",
+            "options": [
+              "Una versió inicial del seu escrit.",
+              "Un justificant de la recollida.",
+              "Una descripció de la roba blava.",
+              "Una resposta del taller a l’Hugo."
+            ],
+            "correct": "a",
+            "explanation": "Una primera versió de la ressenya que l’Hugo encara pot canviar."
+          },
+          "l305-q4": {
+            "prompt": "Per què el paper de recollida fa que l’Hugo revisi la frase sobre la tardança?",
+            "options": [
+              "Perquè demostra que la franja seria poc visible.",
+              "Perquè confirma que encara no havia vençut el termini.",
+              "Perquè canvia la recollida de dimarts a dijous.",
+              "Perquè indica que ja havien fet servir les estovalles."
+            ],
+            "correct": "b",
+            "explanation": "Perquè confirma que el termini era dijous i, per tant, veure les estovalles pendents dimarts no demostra un retard respecte de l’acord."
+          },
+          "l305-q5": {
+            "prompt": "Per què l’Hugo espera a fer servir les estovalles abans de publicar?",
+            "options": [
+              "Perquè l’Asha triés una altra roba per a la vora.",
+              "Per esborrar del paper la data que havia acordat.",
+              "Per incloure el resultat de la reparació en fer-les servir.",
+              "Per aconseguir que la marca blava deixés de veure’s."
+            ],
+            "correct": "c",
+            "explanation": "Per explicar també quin resultat dona la reparació durant l’ús."
+          },
+          "l305-q6": {
+            "prompt": "Què comproven quan recullen els plats dissabte?",
+            "options": [
+              "Que la tira havia canviat de color.",
+              "Que la marca ja no es distingia.",
+              "Que les estovalles continuaven al taller.",
+              "Que la vora reparada continuava tancada."
+            ],
+            "correct": "d",
+            "explanation": "Que la vora continua tancada."
+          },
+          "l305-q7": {
+            "prompt": "En què discrepen l’Hugo i l’Asha sense contradir els fets?",
+            "options": [
+              "En si els agrada el contrast de la franja.",
+              "En si les estovalles es van recollir dijous.",
+              "En si havien triat la tira dilluns.",
+              "En si la vora es va obrir al berenar."
+            ],
+            "correct": "a",
+            "explanation": "En si els agrada el contrast visible de la franja blava."
+          },
+          "l305-q8": {
+            "prompt": "Per a què serveix incloure la primera frase dins de la ressenya final?",
+            "options": [
+              "Per oferir dos terminis de lliurament que es contradiuen.",
+              "Per mostrar com canvia una primera valoració.",
+              "Per presentar l’opinió que la Irene té de l’Hugo.",
+              "Per separar dues reparacions d’estovalles diferents."
+            ],
+            "correct": "b",
+            "explanation": "Per mostrar el canvi entre una reacció impacient i una valoració que incorpora acords i experiència."
+          },
+          "l305-q9": {
+            "prompt": "Quin resum inclou un fet i la preferència final de l’Hugo?",
+            "options": [
+              "La tira no es veu i l’Hugo deixa de tenir pressa.",
+              "Les estovalles arriben tard, tot i que l’Asha prefereix la franja.",
+              "Es compleix l’acord; l’Hugo preferiria rapidesa i discreció.",
+              "La reparació s’obre i l’Hugo retira tota la ressenya."
+            ],
+            "correct": "c",
+            "explanation": "La Irene lliura les estovalles en el termini acordat i la reparació aguanta el berenar. L’Hugo continua preferint un arranjament més ràpid i menys visible."
+          }
+        }
+      },
+      {
+        "code": "L305B",
+        "language": "es",
+        "questions": {
+          "l305b-q1": {
+            "prompt": "¿Qué provocó el desperfecto del mantel?",
+            "options": [
+              "Se enganchó en el cierre de un armario.",
+              "Se rasgó al mover los platos del sábado.",
+              "Se dañó al doblarlo en la estantería.",
+              "Se abrió al coserle la franja azul."
+            ],
+            "correct": "a",
+            "explanation": "Se enganchó en el cierre del armario y se rasgó el borde."
+          },
+          "l305b-q2": {
+            "prompt": "¿Qué pudieron ver y conocer antes de aceptar la reparación?",
+            "options": [
+              "La primera merienda y la resistencia futura.",
+              "El aspecto de la franja y el día de recogida.",
+              "La reseña entusiasta y la costura terminada.",
+              "El mantel ya doblado y el resultado del sábado."
+            ],
+            "correct": "b",
+            "explanation": "La combinación de la tira azul con el fondo claro y que la recogida sería el jueves."
+          },
+          "l305b-q3": {
+            "prompt": "¿Qué explica que Hugo acepte algo distinto de lo que prefería?",
+            "options": [
+              "Creyó que Asha ya había probado la reparación.",
+              "Dio prioridad a probar el mantel durante la merienda.",
+              "Quiso cerrar el encargo rápido para ir a jugar.",
+              "Creyó que la tira no se vería sobre el fondo claro."
+            ],
+            "correct": "c",
+            "explanation": "Quería resolver el encargo enseguida para ir a jugar y no preguntó por otras posibilidades."
+          },
+          "l305b-q4": {
+            "prompt": "¿Qué significa «borrador» en el tercer párrafo?",
+            "options": [
+              "El papel que fija el día de entrega.",
+              "El dibujo de la tira sobre el mantel.",
+              "El texto de otra persona del cuaderno.",
+              "Una primera versión que puede revisarse."
+            ],
+            "correct": "d",
+            "explanation": "La primera versión de la reseña, todavía sujeta a cambios."
+          },
+          "l305b-q5": {
+            "prompt": "¿Qué interpretación del primer borrador podría formarse un lector que no conociera el acuerdo?",
+            "options": [
+              "Que el plazo y la marca no se habían explicado.",
+              "Que Hugo ya había usado el mantel el martes.",
+              "Que Asha había escrito una reseña entusiasta.",
+              "Que la tela escogida era de un color claro."
+            ],
+            "correct": "a",
+            "explanation": "Podría pensar que la espera y la marca visible fueron incumplimientos o sorpresas, aunque ambas estaban anunciadas."
+          },
+          "l305b-q6": {
+            "prompt": "¿Qué aportan el papel y el dibujo a la revisión de la reseña?",
+            "options": [
+              "Demuestran cuánto durará la costura en el futuro.",
+              "Recuerdan las condiciones conocidas del encargo.",
+              "Sustituyen el uso del mantel durante la merienda.",
+              "Explican por qué Asha prefiere el contraste azul."
+            ],
+            "correct": "b",
+            "explanation": "Permiten contrastar la impresión de Hugo con el plazo y el aspecto que habían aceptado."
+          },
+          "l305b-q7": {
+            "prompt": "¿Qué observación favorable puede hacer Hugo después de la merienda?",
+            "options": [
+              "Que la franja ha pasado a ser menos visible.",
+              "Que el taller entrega siempre en un solo día.",
+              "Que la costura se mantiene cerrada tras ese uso.",
+              "Que las otras opiniones coinciden con la suya."
+            ],
+            "correct": "c",
+            "explanation": "Que el borde sigue cerrado tras utilizar el mantel."
+          },
+          "l305b-q8": {
+            "prompt": "¿Por qué la primera merienda no permite afirmar cuánto durará la reparación?",
+            "options": [
+              "Porque la franja azul no combina con el fondo.",
+              "Porque la recogida ocurrió dos días antes de usarlo.",
+              "Porque Asha y Hugo discrepan sobre el aspecto.",
+              "Porque han comprobado el resultado en un único uso."
+            ],
+            "correct": "d",
+            "explanation": "Porque solo han observado un uso; no conocen todavía su comportamiento durante usos futuros."
+          },
+          "l305b-q9": {
+            "prompt": "¿Qué función tiene el párrafo de la merienda entre el borrador y la valoración final?",
+            "options": [
+              "Añade una prueba de uso para la valoración final.",
+              "Introduce otro encargo diferente al del mantel.",
+              "Reemplaza la fecha acordada por una nueva entrega.",
+              "Presenta la causa por la que se rasgó el borde."
+            ],
+            "correct": "a",
+            "explanation": "Aporta una experiencia de uso que permite fundamentar la valoración, además de recordar lo acordado."
+          },
+          "l305b-q10": {
+            "prompt": "¿Son incompatibles decir que Irene cumplió el acuerdo y preferir un servicio más rápido? Explica con el caso.",
+            "options": [
+              "Sí, porque aceptar el plazo obliga a disfrutar la espera.",
+              "No, cumplir un plazo y desear otro más corto son cosas distintas.",
+              "Sí, porque su preferencia cambia la fecha que habían acordado.",
+              "No, porque la entrega del martes ya satisfacía ambos deseos."
+            ],
+            "correct": "b",
+            "explanation": "No. Se entregó el jueves como habían acordado, aunque Hugo desee un plazo más corto para otros encargos."
+          },
+          "l305b-q11": {
+            "prompt": "¿Qué resumen recoge la evolución y los matices de la reseña?",
+            "options": [
+              "Pasa de la queja a recomendar siempre cualquier reparación.",
+              "Mantiene la queja inicial y añade otra opinión como prueba.",
+              "Añade acuerdos y observaciones, pero conserva preferencias.",
+              "Cambia lo acordado para hacerlo coincidir con sus deseos."
+            ],
+            "correct": "c",
+            "explanation": "Empieza con una queja que omite acuerdos conocidos. Tras revisarlos y usar el mantel, reconoce que el taller los cumple y que la costura aguanta ese uso; conserva sus preferencias sobre rapidez y aspecto."
+          }
+        }
+      },
+      {
+        "code": "L305B",
+        "language": "ca",
+        "questions": {
+          "l305b-q1": {
+            "prompt": "Què va provocar el desperfecte de les estovalles?",
+            "options": [
+              "Es van enganxar al tancament d’un armari.",
+              "Es van esquinçar quan van moure els plats dissabte.",
+              "Es van malmetre quan les van plegar al prestatge.",
+              "Es van obrir quan hi van cosir la franja blava."
+            ],
+            "correct": "a",
+            "explanation": "Es van enganxar al tancament de l’armari i se’n va esquinçar la vora."
+          },
+          "l305b-q2": {
+            "prompt": "Què van poder veure i saber abans d’acceptar la reparació?",
+            "options": [
+              "El primer berenar i la resistència futura.",
+              "L’aspecte de la franja i el dia de recollida.",
+              "La ressenya entusiasta i la costura acabada.",
+              "Les estovalles ja plegades i el resultat de dissabte."
+            ],
+            "correct": "b",
+            "explanation": "La combinació de la tira blava amb el fons clar i que la recollida seria dijous."
+          },
+          "l305b-q3": {
+            "prompt": "Què explica que l’Hugo accepti una cosa diferent de la que preferia?",
+            "options": [
+              "Va creure que l’Asha ja havia provat la reparació.",
+              "Va donar prioritat a provar les estovalles durant el berenar.",
+              "Va voler tancar l’encàrrec ràpid per anar a jugar.",
+              "Va creure que la tira no es veuria sobre el fons clar."
+            ],
+            "correct": "c",
+            "explanation": "Volia resoldre l’encàrrec de seguida per anar a jugar i no va preguntar per altres possibilitats."
+          },
+          "l305b-q4": {
+            "prompt": "Què significa «esborrany» al tercer paràgraf?",
+            "options": [
+              "El paper que fixa el dia de lliurament.",
+              "El dibuix de la tira sobre les estovalles.",
+              "El text d’una altra persona del quadern.",
+              "Una primera versió que es pot revisar."
+            ],
+            "correct": "d",
+            "explanation": "La primera versió de la ressenya, encara subjecta a canvis."
+          },
+          "l305b-q5": {
+            "prompt": "Quina interpretació del primer esborrany podria fer-se un lector que no conegués l’acord?",
+            "options": [
+              "Que el termini i la marca no s’havien explicat.",
+              "Que l’Hugo ja havia fet servir les estovalles dimarts.",
+              "Que l’Asha havia escrit una ressenya entusiasta.",
+              "Que la roba triada era d’un color clar."
+            ],
+            "correct": "a",
+            "explanation": "Podria pensar que l’espera i la marca visible van ser incompliments o sorpreses, tot i que totes dues estaven anunciades."
+          },
+          "l305b-q6": {
+            "prompt": "Què aporten el paper i el dibuix a la revisió de la ressenya?",
+            "options": [
+              "Demostren quant durarà la costura en el futur.",
+              "Recorden les condicions conegudes de l’encàrrec.",
+              "Substitueixen l’ús de les estovalles durant el berenar.",
+              "Expliquen per què l’Asha prefereix el contrast blau."
+            ],
+            "correct": "b",
+            "explanation": "Permeten contrastar la impressió de l’Hugo amb el termini i l’aspecte que havien acceptat."
+          },
+          "l305b-q7": {
+            "prompt": "Quina observació favorable pot fer l’Hugo després del berenar?",
+            "options": [
+              "Que la franja ha passat a ser menys visible.",
+              "Que el taller lliura sempre en un sol dia.",
+              "Que la costura es manté tancada després d’aquell ús.",
+              "Que les altres opinions coincideixen amb la seva."
+            ],
+            "correct": "c",
+            "explanation": "Que la vora continua tancada després de fer servir les estovalles."
+          },
+          "l305b-q8": {
+            "prompt": "Per què el primer berenar no permet afirmar quant durarà la reparació?",
+            "options": [
+              "Perquè la franja blava no combina amb el fons.",
+              "Perquè la recollida va ser dos dies abans de fer-les servir.",
+              "Perquè l’Asha i l’Hugo discrepen sobre l’aspecte.",
+              "Perquè han comprovat el resultat en un únic ús."
+            ],
+            "correct": "d",
+            "explanation": "Perquè només han observat un ús; encara no saben com es comportarà durant usos futurs."
+          },
+          "l305b-q9": {
+            "prompt": "Quina funció té el paràgraf del berenar entre l’esborrany i la valoració final?",
+            "options": [
+              "Afegeix una prova d’ús per a la valoració final.",
+              "Introdueix un altre encàrrec diferent del de les estovalles.",
+              "Substitueix la data acordada per un nou lliurament.",
+              "Presenta la causa per la qual es va esquinçar la vora."
+            ],
+            "correct": "a",
+            "explanation": "Aporta una experiència d’ús que permet fonamentar la valoració, a més de recordar allò acordat."
+          },
+          "l305b-q10": {
+            "prompt": "Són incompatibles dir que la Irene va complir l’acord i preferir un servei més ràpid? Explica-ho amb el cas.",
+            "options": [
+              "Sí, perquè acceptar el termini obliga a gaudir de l’espera.",
+              "No, complir un termini i desitjar-ne un de més curt són coses diferents.",
+              "Sí, perquè la preferència canvia la data que havien acordat.",
+              "No, perquè el lliurament de dimarts ja satisfeia tots dos desitjos."
+            ],
+            "correct": "b",
+            "explanation": "No. Es va lliurar dijous tal com havien acordat, tot i que l’Hugo desitgi un termini més curt per a altres encàrrecs."
+          },
+          "l305b-q11": {
+            "prompt": "Quin resum recull l’evolució i els matisos de la ressenya?",
+            "options": [
+              "Passa de la queixa a recomanar sempre qualsevol reparació.",
+              "Manté la queixa inicial i afegeix una altra opinió com a prova.",
+              "Hi afegeix acords i observacions, però conserva preferències.",
+              "Canvia allò acordat per fer-ho coincidir amb els seus desitjos."
+            ],
+            "correct": "c",
+            "explanation": "Comença amb una queixa que omet acords coneguts. Després de revisar-los i fer servir les estovalles, reconeix que el taller els compleix i que la costura aguanta aquell ús; conserva les preferències sobre rapidesa i aspecte."
+          }
+        }
+      }
+    ]
   }
 ];
