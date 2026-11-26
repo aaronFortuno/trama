@@ -7486,5 +7486,1518 @@ export const observatoryPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L294",
+    "edition": "v1.61.5",
+    "family": {
+      "id": "familia-l294",
+      "code": "L294",
+      "name": {
+        "es": "La exposición que empezó por un cajón",
+        "ca": "L’exposició que va començar per un calaix"
+      },
+      "description": {
+        "ca": "Una història de L’observatori del turó, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de El observatorio de la colina, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L294A",
+        "L294",
+        "L294B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "la-exposicion-que-empezo-por-un-cajon-a-es",
+        "code": "L294A",
+        "workId": "la-exposicion-que-empezo-por-un-cajon-a",
+        "language": "es",
+        "familyId": "familia-l294",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "3-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "history",
+          "community",
+          "arts"
+        ],
+        "genre": "interview",
+        "title": "La exposición que empezó por un cajón",
+        "summary": "Una antigua colaboradora del observatorio trae una lupa y un cuaderno. Dani y Mira le preguntan por su historia.",
+        "paragraphs": [
+          "Joana, la guía del observatorio de la colina, invitó a Elisa. Había trabajado allí hacía años. Trajo una lupa plegable y un cuaderno que guardaba en un cajón. Dani y Mira la entrevistaron para preparar una pequeña exposición.",
+          "Dani: ¿Mirabas las estrellas con esta lupa?\nElisa: La usaba para leer notas con letra pequeña. Después la doblaba para guardarla. Los visitantes escribían preguntas. A veces yo necesitaba acercarlas mucho a los ojos.\nMira: ¿Y esta cinta entre las páginas?\nElisa: Marcaba la página que quería volver a encontrar.",
+          "Mira: ¿Recuerdas quién escribió todas las notas?\nElisa: Algunas personas sí; otras no pusieron su nombre. Podemos enseñar sus preguntas sin inventar quién las hizo.\nDani abrió el cuaderno por la cinta. En aquella página había varias letras distintas.",
+          "Prepararon una mesa con la lupa y el cuaderno antiguo. Al lado dejaron otro para las preguntas nuevas. Dani empezó a escribir. Mira acercó la lupa: «¡Esta vez haz la letra grande!»."
+        ],
+        "questions": [
+          {
+            "id": "l294a-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué dos objetos trajo Elisa del cajón?",
+            "answer": "Una lupa plegable y un cuaderno.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una lupa plegable y un cuaderno"
+              }
+            ]
+          },
+          {
+            "id": "l294a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Para qué utilizaba la lupa?",
+            "answer": "Para leer notas con letra pequeña.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "para leer notas con letra pequeña"
+              }
+            ]
+          },
+          {
+            "id": "l294a-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa que la lupa era «plegable»?",
+            "answer": "Que se podía doblar para guardarla.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una lupa plegable"
+              }
+            ]
+          },
+          {
+            "id": "l294a-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué dejaron otro cuaderno junto al antiguo?",
+            "answer": "Para que los visitantes pudieran escribir preguntas nuevas.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "otro para las preguntas nuevas"
+              }
+            ]
+          },
+          {
+            "id": "l294a-q5",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "Explica qué prepararon después de entrevistar a Elisa.",
+            "answer": "Una pequeña exposición con su lupa y su cuaderno, junto a otro cuaderno para preguntas nuevas.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "una mesa con la lupa y el cuaderno antiguo"
+              },
+              {
+                "paragraph": 4,
+                "text": "otro para las preguntas nuevas"
+              }
+            ]
+          },
+          {
+            "id": "l294a-q6",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué preguntarías a Elisa sobre uno de sus objetos?",
+            "answer": "Respuesta personal relacionada con la lupa, la cinta o el cuaderno y sus usos o recuerdos."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "plegable",
+            "occurrence": 1,
+            "questionId": "l294a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l294-scene",
+            "src": "assets/readings/l294-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una lupa plegable, su caja, una cinta de tela y dos cuadernos preparados para una pequeña exposición del observatorio.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El pequeño observatorio de piedra clara y cúpula gris en una colina con pinos, bajo un cielo lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-exposicion-que-empezo-por-un-cajon-a-ca",
+        "code": "L294A",
+        "workId": "la-exposicion-que-empezo-por-un-cajon-a",
+        "language": "ca",
+        "familyId": "familia-l294",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "3-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "history",
+          "community",
+          "arts"
+        ],
+        "genre": "interview",
+        "title": "L’exposició que va començar per un calaix",
+        "summary": "Una antiga col·laboradora de l’observatori porta una lupa i un quadern. En Dani i la Mira li pregunten per la seva història.",
+        "paragraphs": [
+          "La Joana, la guia de l’observatori del turó, va convidar l’Elisa. Hi havia treballat feia anys. Va portar una lupa plegable i un quadern que guardava en un calaix. En Dani i la Mira la van entrevistar per preparar una petita exposició.",
+          "Dani: Miraves les estrelles amb aquesta lupa?\nElisa: La feia servir per llegir notes amb lletra petita. Després la doblegava per desar-la. Els visitants escrivien preguntes. De vegades jo les havia d’acostar molt als ulls.\nMira: I aquesta cinta entre les pàgines?\nElisa: Marcava la pàgina que volia tornar a trobar.",
+          "Mira: Recordes qui va escriure totes les notes?\nElisa: Algunes persones sí; d’altres no hi van posar el nom. Podem ensenyar les preguntes sense inventar qui les va fer.\nEn Dani va obrir el quadern per la cinta. En aquella pàgina hi havia diverses lletres diferents.",
+          "Van preparar una taula amb la lupa i el quadern antic. Al costat en van deixar un altre per a les preguntes noves. En Dani va començar a escriure. La Mira va acostar la lupa: «Aquest cop fes la lletra grossa!»."
+        ],
+        "questions": [
+          {
+            "id": "l294a-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quins dos objectes va portar l’Elisa del calaix?",
+            "answer": "Una lupa plegable i un quadern.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una lupa plegable i un quadern"
+              }
+            ]
+          },
+          {
+            "id": "l294a-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per a què feia servir la lupa?",
+            "answer": "Per llegir notes amb lletra petita.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "per llegir notes amb lletra petita"
+              }
+            ]
+          },
+          {
+            "id": "l294a-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir que la lupa era «plegable»?",
+            "answer": "Que es podia doblegar per desar-la.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una lupa plegable"
+              }
+            ]
+          },
+          {
+            "id": "l294a-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què van deixar un altre quadern al costat de l’antic?",
+            "answer": "Perquè els visitants hi poguessin escriure preguntes noves.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "un altre per a les preguntes noves"
+              }
+            ]
+          },
+          {
+            "id": "l294a-q5",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "Explica què van preparar després d’entrevistar l’Elisa.",
+            "answer": "Una petita exposició amb la lupa i el quadern de l’Elisa, al costat d’un altre quadern per a preguntes noves.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "una taula amb la lupa i el quadern antic"
+              },
+              {
+                "paragraph": 4,
+                "text": "un altre per a les preguntes noves"
+              }
+            ]
+          },
+          {
+            "id": "l294a-q6",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Què preguntaries a l’Elisa sobre un dels seus objectes?",
+            "answer": "Resposta personal relacionada amb la lupa, la cinta o el quadern i els usos o records que en té."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 1,
+            "text": "plegable",
+            "occurrence": 1,
+            "questionId": "l294a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l294-scene",
+            "src": "assets/readings/l294-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una lupa plegable, la capsa, una cinta de roba i dos quaderns preparats per a una petita exposició de l’observatori.",
+            "afterParagraph": 1
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El petit observatori de pedra clara i cúpula grisa en un turó amb pins, sota un cel lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-exposicion-que-empezo-por-un-cajon-es",
+        "code": "L294",
+        "workId": "la-exposicion-que-empezo-por-un-cajon",
+        "language": "es",
+        "familyId": "familia-l294",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "history",
+          "community",
+          "arts"
+        ],
+        "genre": "interview",
+        "title": "La exposición que empezó por un cajón",
+        "summary": "Dani y Mira entrevistan a Elisa para exponer dos objetos del pasado del observatorio. También preparan un lugar para las preguntas de hoy.",
+        "paragraphs": [
+          "Joana, la guía del observatorio de la colina, quería preparar una pequeña exposición sobre la vida del centro. Invitó a Elisa, que había colaborado allí hacía años. Trajo de un cajón una lupa plegable y un cuaderno de preguntas. Dani y Mira, dos visitantes habituales, se sentaron con ella para conocer la historia de los objetos.",
+          "Dani: ¿Mirabas las estrellas con esta lupa?\nElisa: La usaba en la mesa, para leer notas con letra pequeña. Los visitantes escribían preguntas y yo preparaba las que comentaríamos al terminar. Algunas casi parecían caminos de hormigas.\nMira: ¿Por eso hay una cinta entre las páginas?\nElisa: Me ayudaba a encontrar la página donde había dejado la lectura.",
+          "Mira: ¿Quién escribió estas dos preguntas con la misma letra?\nElisa: Recuerdo a una niña que siempre dibujaba una hoja junto a su nombre. Pero estas notas no tienen firma. Solo por la letra no puedo asegurar que sean suyas.\nDani acercó el cuaderno. Había páginas con nombres y otras sin ellos. Joana propuso enseñar una donde se vieran distintas formas de escribir.",
+          "Dani: ¿Dejamos la lupa al lado para leerlas?\nElisa: Sí. Y un papel que explique para qué servía. Si alguien ve solo una lupa en un observatorio, puede pensar lo mismo que tú al llegar.\nPrepararon esa explicación y abrieron el cuaderno por la cinta. Joana trajo otro cuaderno, nuevo, para que quienes visitaran la mesa añadieran sus propias preguntas.",
+          "Dani estrenó la primera página. Mira levantó la lupa con una sonrisa: «¿La vas a necesitar tú también?». Él separó un poco las letras y siguió escribiendo."
+        ],
+        "questions": [
+          {
+            "id": "l294-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué Joana invitó a Elisa?",
+            "answer": "Para conocer la historia de sus objetos y preparar una exposición sobre la vida del observatorio.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "preparar una pequeña exposición sobre la vida del centro"
+              },
+              {
+                "paragraph": 1,
+                "text": "había colaborado allí hacía años"
+              }
+            ]
+          },
+          {
+            "id": "l294-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué dos ayudas utilizaba Elisa para preparar la lectura de las preguntas?",
+            "answer": "La lupa para leer la letra pequeña y la cinta para encontrar la página donde se había quedado.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "para leer notas con letra pequeña"
+              },
+              {
+                "paragraph": 2,
+                "text": "encontrar la página donde había dejado la lectura"
+              }
+            ]
+          },
+          {
+            "id": "l294-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "¿Qué significa que unas notas no tienen «firma»?",
+            "answer": "Que no llevan el nombre o señal con que su autor se identifica.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "estas notas no tienen firma"
+              }
+            ]
+          },
+          {
+            "id": "l294-q4",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué Elisa no atribuye las dos notas a la niña que recuerda?",
+            "answer": "Porque no llevan firma y la letra por sí sola no le permite asegurarlo.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Solo por la letra no puedo asegurar que sean suyas."
+              }
+            ]
+          },
+          {
+            "id": "l294-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué pondrán una explicación junto a la lupa?",
+            "answer": "Para explicar su uso real y evitar que se piense que se utilizaba para mirar estrellas.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "puede pensar lo mismo que tú al llegar"
+              },
+              {
+                "paragraph": 2,
+                "text": "¿Mirabas las estrellas con esta lupa?"
+              }
+            ]
+          },
+          {
+            "id": "l294-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué aporta el formato de entrevista a esta lectura?",
+            "answer": "Permite conocer los recuerdos y las explicaciones de Elisa mediante las preguntas de Dani y Mira.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Dani: ¿Mirabas las estrellas con esta lupa?\nElisa: La usaba en la mesa"
+              }
+            ]
+          },
+          {
+            "id": "l294-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume cómo pasan de los objetos del cajón a la mesa de exposición.",
+            "answer": "Entrevistan a Elisa sobre la lupa y el cuaderno, preparan una explicación de su uso y dejan un cuaderno nuevo para las preguntas actuales.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una lupa plegable y un cuaderno de preguntas"
+              },
+              {
+                "paragraph": 4,
+                "text": "Prepararon esa explicación"
+              },
+              {
+                "paragraph": 4,
+                "text": "otro cuaderno, nuevo"
+              }
+            ]
+          },
+          {
+            "id": "l294-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué objeto de tu escuela guardarías para contar su historia dentro de unos años? Explica por qué.",
+            "answer": "Respuesta personal que relaciona un objeto concreto con un uso o recuerdo escolar."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "firma",
+            "occurrence": 1,
+            "questionId": "l294-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l294-scene",
+            "src": "assets/readings/l294-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una lupa plegable, su caja, una cinta de tela y dos cuadernos preparados para una pequeña exposición del observatorio.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El pequeño observatorio de piedra clara y cúpula gris en una colina con pinos, bajo un cielo lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-exposicion-que-empezo-por-un-cajon-ca",
+        "code": "L294",
+        "workId": "la-exposicion-que-empezo-por-un-cajon",
+        "language": "ca",
+        "familyId": "familia-l294",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "4-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "history",
+          "community",
+          "arts"
+        ],
+        "genre": "interview",
+        "title": "L’exposició que va començar per un calaix",
+        "summary": "En Dani i la Mira entrevisten l’Elisa per exposar dos objectes del passat de l’observatori. També preparen un lloc per a les preguntes d’avui.",
+        "paragraphs": [
+          "La Joana, la guia de l’observatori del turó, volia preparar una petita exposició sobre la vida del centre. Va convidar l’Elisa, que hi havia col·laborat feia anys. Va portar d’un calaix una lupa plegable i un quadern de preguntes. En Dani i la Mira, dos visitants habituals, es van asseure amb ella per conèixer la història dels objectes.",
+          "Dani: Miraves les estrelles amb aquesta lupa?\nElisa: La feia servir a la taula, per llegir notes amb lletra petita. Els visitants escrivien preguntes i jo preparava les que comentaríem en acabar. Algunes gairebé semblaven camins de formigues.\nMira: Per això hi ha una cinta entre les pàgines?\nElisa: M’ajudava a trobar la pàgina on havia deixat la lectura.",
+          "Mira: Qui va escriure aquestes dues preguntes amb la mateixa lletra?\nElisa: Recordo una nena que sempre dibuixava una fulla al costat del nom. Però aquestes notes no tenen signatura. Només per la lletra no puc assegurar que siguin seves.\nEn Dani va acostar el quadern. Hi havia pàgines amb noms i d’altres sense. La Joana va proposar ensenyar-ne una on es veiessin maneres diferents d’escriure.",
+          "Dani: Deixem la lupa al costat per llegir-les?\nElisa: Sí. I un paper que expliqui per a què servia. Si algú veu només una lupa en un observatori, pot pensar el mateix que tu en arribar.\nVan preparar aquella explicació i van obrir el quadern per la cinta. La Joana va portar un altre quadern, nou, perquè els qui visitessin la taula hi afegissin preguntes pròpies.",
+          "En Dani va estrenar la pàgina. La Mira va aixecar la lupa amb un somriure: «Tu també la necessitaràs?». Ell va separar una mica les lletres i va continuar escrivint."
+        ],
+        "questions": [
+          {
+            "id": "l294-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què la Joana va convidar l’Elisa?",
+            "answer": "Per conèixer la història dels seus objectes i preparar una exposició sobre la vida de l’observatori.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "preparar una petita exposició sobre la vida del centre"
+              },
+              {
+                "paragraph": 1,
+                "text": "hi havia col·laborat feia anys"
+              }
+            ]
+          },
+          {
+            "id": "l294-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quines dues ajudes feia servir l’Elisa per preparar la lectura de les preguntes?",
+            "answer": "La lupa per llegir la lletra petita i la cinta per trobar la pàgina on s’havia quedat.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "per llegir notes amb lletra petita"
+              },
+              {
+                "paragraph": 2,
+                "text": "trobar la pàgina on havia deixat la lectura"
+              }
+            ]
+          },
+          {
+            "id": "l294-q3",
+            "type": "vocabulary",
+            "lines": 1,
+            "prompt": "Què vol dir que unes notes no tenen «signatura»?",
+            "answer": "Que no porten el nom o senyal amb què l’autor s’identifica.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "aquestes notes no tenen signatura"
+              }
+            ]
+          },
+          {
+            "id": "l294-q4",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què l’Elisa no atribueix les dues notes a la nena que recorda?",
+            "answer": "Perquè no porten signatura i la lletra, tota sola, no li permet assegurar-ho.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Només per la lletra no puc assegurar que siguin seves."
+              }
+            ]
+          },
+          {
+            "id": "l294-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què posaran una explicació al costat de la lupa?",
+            "answer": "Per explicar-ne l’ús real i evitar que es pensi que es feia servir per mirar estrelles.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "pot pensar el mateix que tu en arribar"
+              },
+              {
+                "paragraph": 2,
+                "text": "Miraves les estrelles amb aquesta lupa?"
+              }
+            ]
+          },
+          {
+            "id": "l294-q6",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Què aporta el format d’entrevista a aquesta lectura?",
+            "answer": "Permet conèixer els records i les explicacions de l’Elisa mitjançant les preguntes d’en Dani i la Mira.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Dani: Miraves les estrelles amb aquesta lupa?\nElisa: La feia servir a la taula"
+              }
+            ]
+          },
+          {
+            "id": "l294-q7",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix com passen dels objectes del calaix a la taula d’exposició.",
+            "answer": "Entrevisten l’Elisa sobre la lupa i el quadern, preparen una explicació de l’ús i deixen un quadern nou per a les preguntes actuals.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "una lupa plegable i un quadern de preguntes"
+              },
+              {
+                "paragraph": 4,
+                "text": "Van preparar aquella explicació"
+              },
+              {
+                "paragraph": 4,
+                "text": "un altre quadern, nou"
+              }
+            ]
+          },
+          {
+            "id": "l294-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quin objecte de la teva escola desaries per explicar-ne la història d’aquí a uns anys? Explica per què.",
+            "answer": "Resposta personal que relaciona un objecte concret amb un ús o record escolar."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "signatura",
+            "occurrence": 1,
+            "questionId": "l294-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l294-scene",
+            "src": "assets/readings/l294-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una lupa plegable, la capsa, una cinta de roba i dos quaderns preparats per a una petita exposició de l’observatori.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El petit observatori de pedra clara i cúpula grisa en un turó amb pins, sota un cel lavanda.",
+            "afterParagraph": 3
+          }
+        ]
+      },
+      {
+        "id": "la-exposicion-que-empezo-por-un-cajon-b-es",
+        "code": "L294B",
+        "workId": "la-exposicion-que-empezo-por-un-cajon-b",
+        "language": "es",
+        "familyId": "familia-l294",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "history",
+          "community",
+          "arts"
+        ],
+        "genre": "interview",
+        "title": "La exposición que empezó por un cajón",
+        "summary": "Una entrevista sobre una lupa y un cuaderno permite preparar una exposición del observatorio y distinguir recuerdos, dudas y usos de los objetos.",
+        "paragraphs": [
+          "Joana quería preparar una pequeña exposición sobre la vida del observatorio de la colina. La guía invitó a Elisa, que había colaborado allí hacía años. De un cajón de su casa sacó una lupa plegable, su caja y un cuaderno. Dani y Mira, dos visitantes habituales, encontraron una mesa libre para entrevistarla. Dani había imaginado una historia de descubrimientos al ver la lupa junto al cuaderno.",
+          "Dani: ¿Con esta lupa buscabas estrellas nuevas?\nElisa: La tenía sobre la mesa, para leer notas con letra pequeña. Los visitantes escribían preguntas al llegar y yo preparaba algunas para comentarlas después de la visita. También copiaba las que quedaban pendientes para otro día.\nMira: ¿Y esta cinta de tela?\nElisa: Marcaba la página donde había dejado la lectura. Alguna vez la buscaba con el cuaderno abierto delante.",
+          "Mira: Estas dos notas tienen una letra parecida. ¿Son de la misma persona?\nElisa: Podrían serlo. Recuerdo a una niña que dibujaba una hoja junto a su nombre, pero aquí no hay firma ni hoja. Me gustaría encontrarla entre estas páginas; aun así, no puedo asegurarlo por la letra.\nJoana acercó otra página con varios nombres. Para la exposición podrían elegir una donde se vieran formas distintas de escribir, sin añadir nombres a las notas que no los llevaban.",
+          "Dani: La lupa sola no cuenta todo eso.\nElisa: Por eso conviene explicar su uso junto al objeto. ¿Qué pensaste al verla?\nDani repitió su primera pregunta y se rio. Escribieron un texto sobre las letras pequeñas y la preparación de las preguntas. Elisa lo leyó y cambió «todas» por «algunas»: no siempre había tiempo de comentarlas todas al final de cada visita.",
+          "Sobre la mesa dejaron el cuaderno abierto por la cinta y la lupa al lado. Joana trajo otro cuaderno para las preguntas de los visitantes actuales. Mira propuso poner ambos cerca: se podría leer una pregunta antigua y escribir otra nueva sin pasar de mesa.",
+          "Dani estrenó la primera página. Mira alzó la lupa, fingiendo esfuerzo para leer. Él separó las letras. Elisa miró el cuaderno nuevo y señaló la cinta antigua: «Me parece que necesitaremos otra»."
+        ],
+        "questions": [
+          {
+            "id": "l294b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué relación tenía Elisa con el observatorio?",
+            "answer": "Había colaborado allí hacía años.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "había colaborado allí hacía años"
+              }
+            ]
+          },
+          {
+            "id": "l294b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Qué hacía con las preguntas que quedaban pendientes?",
+            "answer": "Las copiaba para otro día.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "copiaba las que quedaban pendientes para otro día"
+              }
+            ]
+          },
+          {
+            "id": "l294b-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa que unas preguntas quedaban «pendientes»?",
+            "answer": "Que todavía no se habían tratado y se dejaban para otro momento.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "quedaban pendientes para otro día"
+              }
+            ]
+          },
+          {
+            "id": "l294b-q4",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué diferencia hay entre lo que Elisa desea y lo que puede afirmar sobre las notas sin firma?",
+            "answer": "Le gustaría encontrar las preguntas de la niña que recuerda, pero la letra no basta para atribuirle esas notas.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Me gustaría encontrarla entre estas páginas; aun así, no puedo asegurarlo por la letra."
+              }
+            ]
+          },
+          {
+            "id": "l294b-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Por qué mostrarían una página con distintas formas de escribir sin completar los nombres ausentes?",
+            "answer": "Para mostrar las voces de los visitantes sin presentar como seguras unas autorías que desconocen.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "sin añadir nombres a las notas que no los llevaban"
+              }
+            ]
+          },
+          {
+            "id": "l294b-q6",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "¿Qué muestra la primera pregunta de Dani sobre exponer la lupa sin explicación?",
+            "answer": "Que alguien puede atribuirle un uso distinto del real al verla en un observatorio.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "Dani había imaginado una historia de descubrimientos"
+              },
+              {
+                "paragraph": 2,
+                "text": "¿Con esta lupa buscabas estrellas nuevas?"
+              }
+            ]
+          },
+          {
+            "id": "l294b-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "¿Por qué Elisa cambió «todas» por «algunas» en el texto de la exposición?",
+            "answer": "Porque no siempre había tiempo para comentar todas las preguntas al terminar la visita.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "no siempre había tiempo de comentarlas todas al final de cada visita"
+              }
+            ]
+          },
+          {
+            "id": "l294b-q8",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "¿Qué relación establece la mesa entre el cuaderno antiguo y el nuevo?",
+            "answer": "Permite conocer preguntas de antes y añadir preguntas actuales en el mismo lugar.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "leer una pregunta antigua y escribir otra nueva sin pasar de mesa"
+              }
+            ]
+          },
+          {
+            "id": "l294b-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume cómo la entrevista cambia lo que van a mostrar en la exposición.",
+            "answer": "La entrevista permite explicar el uso cotidiano de la lupa y el cuaderno, respetar las dudas sobre sus autores y unir las preguntas antiguas con las actuales.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "para leer notas con letra pequeña"
+              },
+              {
+                "paragraph": 3,
+                "text": "sin añadir nombres a las notas que no los llevaban"
+              },
+              {
+                "paragraph": 5,
+                "text": "leer una pregunta antigua y escribir otra nueva"
+              }
+            ]
+          },
+          {
+            "id": "l294b-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Elige un objeto que conozcas y escribe dos preguntas que ayudarían a explicar su historia en una exposición.",
+            "answer": "Respuesta personal con un objeto concreto y dos preguntas sobre su uso, procedencia, personas o recuerdos."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "pendientes",
+            "occurrence": 1,
+            "questionId": "l294b-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l294-scene",
+            "src": "assets/readings/l294-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una lupa plegable, su caja, una cinta de tela y dos cuadernos preparados para una pequeña exposición del observatorio.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El pequeño observatorio de piedra clara y cúpula gris en una colina con pinos, bajo un cielo lavanda.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "la-exposicion-que-empezo-por-un-cajon-b-ca",
+        "code": "L294B",
+        "workId": "la-exposicion-que-empezo-por-un-cajon-b",
+        "language": "ca",
+        "familyId": "familia-l294",
+        "universeIds": [
+          "observatori-del-turo"
+        ],
+        "level": "5-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "history",
+          "community",
+          "arts"
+        ],
+        "genre": "interview",
+        "title": "L’exposició que va començar per un calaix",
+        "summary": "Una entrevista sobre una lupa i un quadern permet preparar una exposició de l’observatori i distingir records, dubtes i usos dels objectes.",
+        "paragraphs": [
+          "La Joana volia preparar una exposició sobre la vida de l’observatori del turó. La guia va convidar l’Elisa, que hi havia col·laborat feia anys. D’un calaix de casa seva va treure una lupa plegable, la capsa i un quadern. En Dani i la Mira, dos visitants habituals, van trobar una taula lliure per entrevistar-la. En Dani havia imaginat una història de descobriments en veure la lupa al costat del quadern.",
+          "Dani: Amb aquesta lupa buscaves estrelles noves?\nElisa: La tenia sobre la taula, per llegir notes amb lletra petita. Els visitants escrivien preguntes en arribar i jo en preparava algunes per comentar-les després de la visita. També copiava les que quedaven pendents per a un altre dia.\nMira: I aquesta cinta de roba?\nElisa: Marcava la pàgina on havia deixat la lectura. Alguna vegada la buscava amb el quadern obert al davant.",
+          "Mira: Aquestes dues notes tenen una lletra semblant. Són de la mateixa persona?\nElisa: Podrien ser-ho. Recordo una nena que dibuixava una fulla al costat del nom, però aquí no hi ha signatura ni fulla. M’agradaria trobar-la entre aquestes pàgines; tot i això, no ho puc assegurar per la lletra.\nLa Joana va acostar una altra pàgina amb diversos noms. Per a l’exposició podrien triar-ne una on es veiessin maneres diferents d’escriure, sense afegir noms a les notes que no en portaven.",
+          "Dani: La lupa sola no explica tot això.\nElisa: Per això convé explicar-ne l’ús al costat de l’objecte. Què vas pensar en veure-la?\nEn Dani va repetir la primera pregunta i va riure. Van escriure un text sobre les lletres petites i la preparació de les preguntes. L’Elisa el va llegir i va canviar «totes» per «algunes»: no sempre hi havia temps de comentar-les totes al final de cada visita.",
+          "Sobre la taula van deixar el quadern obert per la cinta i la lupa al costat. La Joana en va portar un altre per a les preguntes dels visitants actuals. La Mira va proposar posar-los a prop: es podria llegir una pregunta antiga i escriure’n una de nova sense canviar de taula.",
+          "En Dani va estrenar la primera pàgina. La Mira va alçar la lupa, fent veure que li costava llegir. Ell va separar les lletres. L’Elisa va mirar el quadern nou i va assenyalar la cinta antiga: «Em sembla que en necessitarem una altra»."
+        ],
+        "questions": [
+          {
+            "id": "l294b-q1",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Quina relació tenia l’Elisa amb l’observatori?",
+            "answer": "Hi havia col·laborat feia anys.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "hi havia col·laborat feia anys"
+              }
+            ]
+          },
+          {
+            "id": "l294b-q2",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Què feia amb les preguntes que quedaven pendents?",
+            "answer": "Les copiava per a un altre dia.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "copiava les que quedaven pendents per a un altre dia"
+              }
+            ]
+          },
+          {
+            "id": "l294b-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què vol dir que unes preguntes quedaven «pendents»?",
+            "answer": "Que encara no s’havien tractat i es deixaven per a un altre moment.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "quedaven pendents per a un altre dia"
+              }
+            ]
+          },
+          {
+            "id": "l294b-q4",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Quina diferència hi ha entre el que l’Elisa desitja i el que pot afirmar sobre les notes sense signatura?",
+            "answer": "Li agradaria trobar les preguntes de la nena que recorda, però la lletra no basta per atribuir-li aquelles notes.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "M’agradaria trobar-la entre aquestes pàgines; tot i això, no ho puc assegurar per la lletra."
+              }
+            ]
+          },
+          {
+            "id": "l294b-q5",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Per què mostrarien una pàgina amb maneres diferents d’escriure sense completar els noms que hi falten?",
+            "answer": "Per mostrar les veus dels visitants sense presentar com a segures unes autories que desconeixen.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "sense afegir noms a les notes que no en portaven"
+              }
+            ]
+          },
+          {
+            "id": "l294b-q6",
+            "type": "inference",
+            "lines": 3,
+            "prompt": "Què mostra la primera pregunta d’en Dani sobre exposar la lupa sense explicació?",
+            "answer": "Que algú pot atribuir-li un ús diferent del real en veure-la en un observatori.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "En Dani havia imaginat una història de descobriments"
+              },
+              {
+                "paragraph": 2,
+                "text": "Amb aquesta lupa buscaves estrelles noves?"
+              }
+            ]
+          },
+          {
+            "id": "l294b-q7",
+            "type": "literal",
+            "lines": 2,
+            "prompt": "Per què l’Elisa va canviar «totes» per «algunes» al text de l’exposició?",
+            "answer": "Perquè no sempre hi havia temps per comentar totes les preguntes en acabar la visita.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "no sempre hi havia temps de comentar-les totes al final de cada visita"
+              }
+            ]
+          },
+          {
+            "id": "l294b-q8",
+            "type": "structure",
+            "lines": 3,
+            "prompt": "Quina relació estableix la taula entre el quadern antic i el nou?",
+            "answer": "Permet conèixer preguntes d’abans i afegir preguntes actuals al mateix lloc.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "llegir una pregunta antiga i escriure’n una de nova sense canviar de taula"
+              }
+            ]
+          },
+          {
+            "id": "l294b-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix com l’entrevista canvia el que mostraran a l’exposició.",
+            "answer": "L’entrevista permet explicar l’ús quotidià de la lupa i el quadern, respectar els dubtes sobre els autors i unir les preguntes antigues amb les actuals.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "per llegir notes amb lletra petita"
+              },
+              {
+                "paragraph": 3,
+                "text": "sense afegir noms a les notes que no en portaven"
+              },
+              {
+                "paragraph": 5,
+                "text": "llegir una pregunta antiga i escriure’n una de nova"
+              }
+            ]
+          },
+          {
+            "id": "l294b-q10",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Tria un objecte que coneguis i escriu dues preguntes que ajudarien a explicar-ne la història en una exposició.",
+            "answer": "Resposta personal amb un objecte concret i dues preguntes sobre l’ús, la procedència, les persones o els records."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 2,
+            "text": "pendents",
+            "occurrence": 1,
+            "questionId": "l294b-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l294-scene",
+            "src": "assets/readings/l294-observatori.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Una lupa plegable, la capsa, una cinta de roba i dos quaderns preparats per a una petita exposició de l’observatori.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "observatory-hill",
+            "src": "assets/readings/l175-una-noche-sin-estrellas.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "El petit observatori de pedra clara i cúpula grisa en un turó amb pins, sota un cel lavanda.",
+            "afterParagraph": 4
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L294A",
+        "language": "es",
+        "questions": {
+          "l294a-q1": {
+            "prompt": "¿Qué dos objetos trajo Elisa del cajón?",
+            "options": [
+              "Una cinta y un cuaderno nuevo.",
+              "Una lupa plegable y un cuaderno.",
+              "Un telescopio y una caja.",
+              "Dos cuadernos para preguntas nuevas."
+            ],
+            "correct": "b",
+            "explanation": "Una lupa plegable y un cuaderno."
+          },
+          "l294a-q2": {
+            "prompt": "¿Para qué utilizaba la lupa?",
+            "options": [
+              "Para mirar las estrellas.",
+              "Para sujetar la cinta del cuaderno.",
+              "Para escribir las preguntas nuevas.",
+              "Para leer notas con letra pequeña."
+            ],
+            "correct": "d",
+            "explanation": "Para leer notas con letra pequeña."
+          },
+          "l294a-q3": {
+            "prompt": "¿Qué significa que la lupa era «plegable»?",
+            "options": [
+              "Que se podía doblar para guardarla.",
+              "Que debía quedar abierta al guardarla.",
+              "Que solo podía cerrarse al quitar el cristal.",
+              "Que se abría sola al sacar la tapa."
+            ],
+            "correct": "a",
+            "explanation": "Que se podía doblar para guardarla."
+          },
+          "l294a-q4": {
+            "prompt": "¿Por qué dejaron otro cuaderno junto al antiguo?",
+            "options": [
+              "Para copiar todos los nombres que Elisa recordaba.",
+              "Para guardar la lupa sin doblarla.",
+              "Para recoger preguntas de los visitantes de ahora.",
+              "Para sustituir la página marcada por la cinta."
+            ],
+            "correct": "c",
+            "explanation": "Para que los visitantes pudieran escribir preguntas nuevas."
+          },
+          "l294a-q5": {
+            "prompt": "¿Qué resumen explica mejor lo que prepararon?",
+            "options": [
+              "Guardaron los dos cuadernos en el cajón de Elisa.",
+              "Expusieron sus objetos y dejaron sitio para nuevas preguntas.",
+              "Escribieron el nombre de cada visitante del pasado.",
+              "Cambiaron el cuaderno antiguo por un telescopio."
+            ],
+            "correct": "b",
+            "explanation": "Una pequeña exposición con su lupa y su cuaderno, junto a otro cuaderno para preguntas nuevas."
+          }
+        }
+      },
+      {
+        "code": "L294A",
+        "language": "ca",
+        "questions": {
+          "l294a-q1": {
+            "prompt": "Quins dos objectes va portar l’Elisa del calaix?",
+            "options": [
+              "Una cinta i un quadern nou.",
+              "Una lupa plegable i un quadern.",
+              "Un telescopi i una capsa.",
+              "Dos quaderns per a preguntes noves."
+            ],
+            "correct": "b",
+            "explanation": "Una lupa plegable i un quadern."
+          },
+          "l294a-q2": {
+            "prompt": "Per a què feia servir la lupa?",
+            "options": [
+              "Per mirar les estrelles.",
+              "Per subjectar la cinta del quadern.",
+              "Per escriure les preguntes noves.",
+              "Per llegir notes amb lletra petita."
+            ],
+            "correct": "d",
+            "explanation": "Per llegir notes amb lletra petita."
+          },
+          "l294a-q3": {
+            "prompt": "Què vol dir que la lupa era «plegable»?",
+            "options": [
+              "Que es podia doblegar per desar-la.",
+              "Que havia de quedar oberta en desar-la.",
+              "Que només es podia tancar traient-ne el vidre.",
+              "Que s’obria sola en treure la tapa."
+            ],
+            "correct": "a",
+            "explanation": "Que es podia doblegar per desar-la."
+          },
+          "l294a-q4": {
+            "prompt": "Per què van deixar un altre quadern al costat de l’antic?",
+            "options": [
+              "Per copiar tots els noms que l’Elisa recordava.",
+              "Per desar la lupa sense doblegar-la.",
+              "Per recollir preguntes dels visitants d’ara.",
+              "Per substituir la pàgina marcada per la cinta."
+            ],
+            "correct": "c",
+            "explanation": "Perquè els visitants hi poguessin escriure preguntes noves."
+          },
+          "l294a-q5": {
+            "prompt": "Quin resum explica millor el que van preparar?",
+            "options": [
+              "Van desar tots dos quaderns al calaix de l’Elisa.",
+              "Van exposar els seus objectes i van deixar lloc per a preguntes noves.",
+              "Van escriure el nom de cada visitant del passat.",
+              "Van canviar el quadern antic per un telescopi."
+            ],
+            "correct": "b",
+            "explanation": "Una petita exposició amb la lupa i el quadern de l’Elisa, al costat d’un altre quadern per a preguntes noves."
+          }
+        }
+      },
+      {
+        "code": "L294",
+        "language": "es",
+        "questions": {
+          "l294-q1": {
+            "prompt": "¿Por qué Joana invitó a Elisa?",
+            "options": [
+              "Quería que Elisa cambiara las preguntas de los visitantes nuevos.",
+              "Necesitaba que Elisa llevara un telescopio para la exposición.",
+              "Quería recuperar la historia de sus objetos para una exposición.",
+              "Quería que Elisa identificara a todos los visitantes antiguos."
+            ],
+            "correct": "c",
+            "explanation": "Para conocer la historia de sus objetos y preparar una exposición sobre la vida del observatorio."
+          },
+          "l294-q2": {
+            "prompt": "¿Qué dos ayudas utilizaba Elisa para preparar la lectura de las preguntas?",
+            "options": [
+              "La lupa para leer y la cinta para encontrar la página.",
+              "La cinta para recordar preguntas y la lupa para marcar la página.",
+              "La lupa para ver firmas y la cinta para saber sus autores.",
+              "La cinta para marcar firmas y la lupa para reconocer autores."
+            ],
+            "correct": "a",
+            "explanation": "La lupa para leer la letra pequeña y la cinta para encontrar la página donde se había quedado."
+          },
+          "l294-q3": {
+            "prompt": "¿Qué significa que unas notas no tienen «firma»?",
+            "options": [
+              "Que están escritas en una página nueva.",
+              "Que nadie ha podido leer sus preguntas.",
+              "Que se han quedado fuera del cuaderno.",
+              "Que no identifican a quien las escribió."
+            ],
+            "correct": "d",
+            "explanation": "Que no llevan el nombre o señal con que su autor se identifica."
+          },
+          "l294-q4": {
+            "prompt": "¿Por qué Elisa no atribuye las dos notas a la niña que recuerda?",
+            "options": [
+              "La niña había dicho que nunca escribiría preguntas.",
+              "No tienen firma y reconocer la letra no le basta.",
+              "Las dos notas estaban en un cuaderno distinto.",
+              "Joana había retirado los nombres antes de exponerlas."
+            ],
+            "correct": "b",
+            "explanation": "Porque no llevan firma y la letra por sí sola no le permite asegurarlo."
+          },
+          "l294-q5": {
+            "prompt": "¿Por qué pondrán una explicación junto a la lupa?",
+            "options": [
+              "Para enseñar cómo habían elegido la página de distintas letras.",
+              "Para que Elisa recuerde el nombre de cada visitante.",
+              "Para que se entienda el uso que tuvo aquel objeto.",
+              "Para sustituir las preguntas que no llevan firma."
+            ],
+            "correct": "c",
+            "explanation": "Para explicar su uso real y evitar que se piense que se utilizaba para mirar estrellas."
+          },
+          "l294-q6": {
+            "prompt": "¿Qué aporta el formato de entrevista a esta lectura?",
+            "options": [
+              "Recoge directamente las preguntas y las explicaciones de Elisa.",
+              "Ordena las instrucciones para construir una lupa nueva.",
+              "Presenta todas las notas como si las hubiera escrito Elisa.",
+              "Cuenta solo lo que Dani recuerda de su primera visita."
+            ],
+            "correct": "a",
+            "explanation": "Permite conocer los recuerdos y las explicaciones de Elisa mediante las preguntas de Dani y Mira."
+          },
+          "l294-q7": {
+            "prompt": "¿Qué resumen recoge mejor la preparación de la exposición?",
+            "options": [
+              "Identifican todas las firmas y guardan los objetos de nuevo.",
+              "Cambian las notas antiguas por dibujos nuevos de Dani.",
+              "Muestran la lupa sin decir para qué la utilizaba Elisa.",
+              "Explican los objetos antiguos y dejan espacio para preguntas de hoy."
+            ],
+            "correct": "d",
+            "explanation": "Entrevistan a Elisa sobre la lupa y el cuaderno, preparan una explicación de su uso y dejan un cuaderno nuevo para las preguntas actuales."
+          }
+        }
+      },
+      {
+        "code": "L294",
+        "language": "ca",
+        "questions": {
+          "l294-q1": {
+            "prompt": "Per què la Joana va convidar l’Elisa?",
+            "options": [
+              "Volia que l’Elisa canviés les preguntes dels visitants nous.",
+              "Necessitava que l’Elisa portés un telescopi per a l’exposició.",
+              "Volia recuperar la història dels seus objectes per a una exposició.",
+              "Volia que l’Elisa identifiqués tots els visitants antics."
+            ],
+            "correct": "c",
+            "explanation": "Per conèixer la història dels seus objectes i preparar una exposició sobre la vida de l’observatori."
+          },
+          "l294-q2": {
+            "prompt": "Quines dues ajudes feia servir l’Elisa per preparar la lectura de les preguntes?",
+            "options": [
+              "La lupa per llegir i la cinta per trobar la pàgina.",
+              "La cinta per recordar preguntes i la lupa per marcar la pàgina.",
+              "La lupa per veure signatures i la cinta per saber-ne els autors.",
+              "La cinta per marcar signatures i la lupa per reconèixer autors."
+            ],
+            "correct": "a",
+            "explanation": "La lupa per llegir la lletra petita i la cinta per trobar la pàgina on s’havia quedat."
+          },
+          "l294-q3": {
+            "prompt": "Què vol dir que unes notes no tenen «signatura»?",
+            "options": [
+              "Que estan escrites en una pàgina nova.",
+              "Que ningú no ha pogut llegir les preguntes.",
+              "Que s’han quedat fora del quadern.",
+              "Que no identifiquen qui les va escriure."
+            ],
+            "correct": "d",
+            "explanation": "Que no porten el nom o senyal amb què l’autor s’identifica."
+          },
+          "l294-q4": {
+            "prompt": "Per què l’Elisa no atribueix les dues notes a la nena que recorda?",
+            "options": [
+              "La nena havia dit que mai no escriuria preguntes.",
+              "No tenen signatura i reconèixer la lletra no li basta.",
+              "Les dues notes eren en un quadern diferent.",
+              "La Joana havia retirat els noms abans d’exposar-les."
+            ],
+            "correct": "b",
+            "explanation": "Perquè no porten signatura i la lletra, tota sola, no li permet assegurar-ho."
+          },
+          "l294-q5": {
+            "prompt": "Per què posaran una explicació al costat de la lupa?",
+            "options": [
+              "Per ensenyar com havien triat la pàgina de lletres diferents.",
+              "Perquè l’Elisa recordi el nom de cada visitant.",
+              "Perquè s’entengui l’ús que va tenir aquell objecte.",
+              "Per substituir les preguntes que no porten signatura."
+            ],
+            "correct": "c",
+            "explanation": "Per explicar-ne l’ús real i evitar que es pensi que es feia servir per mirar estrelles."
+          },
+          "l294-q6": {
+            "prompt": "Què aporta el format d’entrevista a aquesta lectura?",
+            "options": [
+              "Recull directament les preguntes i les explicacions de l’Elisa.",
+              "Ordena les instruccions per construir una lupa nova.",
+              "Presenta totes les notes com si les hagués escrit l’Elisa.",
+              "Explica només el que en Dani recorda de la primera visita."
+            ],
+            "correct": "a",
+            "explanation": "Permet conèixer els records i les explicacions de l’Elisa mitjançant les preguntes d’en Dani i la Mira."
+          },
+          "l294-q7": {
+            "prompt": "Quin resum recull millor la preparació de l’exposició?",
+            "options": [
+              "Identifiquen totes les signatures i tornen a desar els objectes.",
+              "Canvien les notes antigues per dibuixos nous d’en Dani.",
+              "Mostren la lupa sense dir per a què la feia servir l’Elisa.",
+              "Expliquen els objectes antics i deixen espai per a preguntes d’avui."
+            ],
+            "correct": "d",
+            "explanation": "Entrevisten l’Elisa sobre la lupa i el quadern, preparen una explicació de l’ús i deixen un quadern nou per a les preguntes actuals."
+          }
+        }
+      },
+      {
+        "code": "L294B",
+        "language": "es",
+        "questions": {
+          "l294b-q1": {
+            "prompt": "¿Qué relación tenía Elisa con el observatorio?",
+            "options": [
+              "Había escrito todas las preguntas del cuaderno.",
+              "Era una visitante que acababa de conocer el centro.",
+              "Había colaborado en el centro hacía años.",
+              "Era la encargada de escribir las preguntas nuevas de aquel día."
+            ],
+            "correct": "c",
+            "explanation": "Había colaborado allí hacía años."
+          },
+          "l294b-q2": {
+            "prompt": "¿Qué hacía con las preguntas que quedaban pendientes?",
+            "options": [
+              "Las copiaba para retomarlas otro día.",
+              "Las dejaba fuera de todos los cuadernos.",
+              "Las atribuía a la niña de la hoja dibujada.",
+              "Las añadía a las ya comentadas para no repetirlas."
+            ],
+            "correct": "a",
+            "explanation": "Las copiaba para otro día."
+          },
+          "l294b-q3": {
+            "prompt": "¿Qué significa que unas preguntas quedaban «pendientes»?",
+            "options": [
+              "Que estaban escritas en los márgenes de las páginas.",
+              "Que tenían una letra demasiado pequeña para leer.",
+              "Que habían perdido el nombre de quien las escribió.",
+              "Que aún faltaba tratarlas en otro momento."
+            ],
+            "correct": "d",
+            "explanation": "Que todavía no se habían tratado y se dejaban para otro momento."
+          },
+          "l294b-q4": {
+            "prompt": "¿Qué diferencia hay entre lo que Elisa desea y lo que puede afirmar sobre las notas sin firma?",
+            "options": [
+              "Quiere recordar la cinta, pero solo puede describir la lupa.",
+              "Quiere reconocer a la niña, pero no puede atribuirle esas notas con seguridad.",
+              "Quiere guardar el cuaderno, pero Joana ya ha decidido sustituirlo.",
+              "Quiere leer las preguntas, pero todas las páginas están sin firma."
+            ],
+            "correct": "b",
+            "explanation": "Le gustaría encontrar las preguntas de la niña que recuerda, pero la letra no basta para atribuirle esas notas."
+          },
+          "l294b-q5": {
+            "prompt": "¿Por qué mostrarían una página con distintas formas de escribir sin completar los nombres ausentes?",
+            "options": [
+              "Para copiar al cuaderno nuevo solo las notas con firma.",
+              "Para enseñar solo las preguntas que Elisa ya respondió.",
+              "Para hacer visible la variedad sin inventar quién escribió cada nota.",
+              "Para atribuir las notas sin firma a Elisa, que las guardó."
+            ],
+            "correct": "c",
+            "explanation": "Para mostrar las voces de los visitantes sin presentar como seguras unas autorías que desconocen."
+          },
+          "l294b-q6": {
+            "prompt": "¿Qué muestra la primera pregunta de Dani sobre exponer la lupa sin explicación?",
+            "options": [
+              "El lugar donde se ve el objeto puede hacer imaginar un uso equivocado.",
+              "Dani conocía el uso de la lupa antes de que Elisa lo explicara.",
+              "Elisa había olvidado para qué la utilizaba.",
+              "La lupa tenía un uso distinto con cada visitante."
+            ],
+            "correct": "a",
+            "explanation": "Que alguien puede atribuirle un uso distinto del real al verla en un observatorio."
+          },
+          "l294b-q7": {
+            "prompt": "¿Por qué Elisa cambió «todas» por «algunas» en el texto de la exposición?",
+            "options": [
+              "Las preguntas con letra pequeña se dejaban siempre para otro día.",
+              "Solo las preguntas con nombre podían leerse al grupo.",
+              "Dani había incluido nombres que no aparecían en las notas.",
+              "No siempre llegaban a comentar todas las preguntas."
+            ],
+            "correct": "d",
+            "explanation": "Porque no siempre había tiempo para comentar todas las preguntas al terminar la visita."
+          },
+          "l294b-q8": {
+            "prompt": "¿Qué relación establece la mesa entre el cuaderno antiguo y el nuevo?",
+            "options": [
+              "El nuevo sustituye las preguntas antiguas que no tienen firma.",
+              "El antiguo muestra preguntas de antes y el nuevo recoge las de hoy.",
+              "El nuevo sirve para copiar únicamente la letra de Elisa.",
+              "El antiguo se cierra para que solo se vea la lupa."
+            ],
+            "correct": "b",
+            "explanation": "Permite conocer preguntas de antes y añadir preguntas actuales en el mismo lugar."
+          },
+          "l294b-q9": {
+            "prompt": "¿Qué resumen recoge mejor la aportación de la entrevista?",
+            "options": [
+              "Descubren que Elisa escribió todas las preguntas y lo añaden al cartel.",
+              "Reúnen objetos para contar un descubrimiento de estrellas nuevas.",
+              "Explican usos y recuerdos con sus límites y abren un lugar para nuevas preguntas.",
+              "Separan los cuadernos para que nadie compare preguntas de épocas distintas."
+            ],
+            "correct": "c",
+            "explanation": "La entrevista permite explicar el uso cotidiano de la lupa y el cuaderno, respetar las dudas sobre sus autores y unir las preguntas antiguas con las actuales."
+          }
+        }
+      },
+      {
+        "code": "L294B",
+        "language": "ca",
+        "questions": {
+          "l294b-q1": {
+            "prompt": "Quina relació tenia l’Elisa amb l’observatori?",
+            "options": [
+              "Havia escrit totes les preguntes del quadern.",
+              "Era una visitant que acabava de conèixer el centre.",
+              "Havia col·laborat al centre feia anys.",
+              "Era l’encarregada d’escriure les preguntes noves d’aquell dia."
+            ],
+            "correct": "c",
+            "explanation": "Hi havia col·laborat feia anys."
+          },
+          "l294b-q2": {
+            "prompt": "Què feia amb les preguntes que quedaven pendents?",
+            "options": [
+              "Les copiava per reprendre-les un altre dia.",
+              "Les deixava fora de tots els quaderns.",
+              "Les atribuïa a la nena de la fulla dibuixada.",
+              "Les afegia a les ja comentades per no repetir-les."
+            ],
+            "correct": "a",
+            "explanation": "Les copiava per a un altre dia."
+          },
+          "l294b-q3": {
+            "prompt": "Què vol dir que unes preguntes quedaven «pendents»?",
+            "options": [
+              "Que estaven escrites als marges de les pàgines.",
+              "Que tenien una lletra massa petita per llegir.",
+              "Que havien perdut el nom de qui les va escriure.",
+              "Que encara faltava tractar-les en un altre moment."
+            ],
+            "correct": "d",
+            "explanation": "Que encara no s’havien tractat i es deixaven per a un altre moment."
+          },
+          "l294b-q4": {
+            "prompt": "Quina diferència hi ha entre el que l’Elisa desitja i el que pot afirmar sobre les notes sense signatura?",
+            "options": [
+              "Vol recordar la cinta, però només pot descriure la lupa.",
+              "Vol reconèixer la nena, però no pot atribuir-li aquelles notes amb seguretat.",
+              "Vol desar el quadern, però la Joana ja ha decidit substituir-lo.",
+              "Vol llegir les preguntes, però totes les pàgines estan sense signatura."
+            ],
+            "correct": "b",
+            "explanation": "Li agradaria trobar les preguntes de la nena que recorda, però la lletra no basta per atribuir-li aquelles notes."
+          },
+          "l294b-q5": {
+            "prompt": "Per què mostrarien una pàgina amb maneres diferents d’escriure sense completar els noms que hi falten?",
+            "options": [
+              "Per copiar al quadern nou només les notes amb signatura.",
+              "Per ensenyar només les preguntes que l’Elisa ja va respondre.",
+              "Per fer visible la varietat sense inventar qui va escriure cada nota.",
+              "Per atribuir les notes sense signatura a l’Elisa, que les va desar."
+            ],
+            "correct": "c",
+            "explanation": "Per mostrar les veus dels visitants sense presentar com a segures unes autories que desconeixen."
+          },
+          "l294b-q6": {
+            "prompt": "Què mostra la primera pregunta d’en Dani sobre exposar la lupa sense explicació?",
+            "options": [
+              "El lloc on es veu l’objecte pot fer imaginar un ús equivocat.",
+              "En Dani coneixia l’ús de la lupa abans que l’Elisa l’expliqués.",
+              "L’Elisa havia oblidat per a què la feia servir.",
+              "La lupa tenia un ús diferent amb cada visitant."
+            ],
+            "correct": "a",
+            "explanation": "Que algú pot atribuir-li un ús diferent del real en veure-la en un observatori."
+          },
+          "l294b-q7": {
+            "prompt": "Per què l’Elisa va canviar «totes» per «algunes» al text de l’exposició?",
+            "options": [
+              "Les preguntes amb lletra petita es deixaven sempre per a un altre dia.",
+              "Només les preguntes amb nom es podien llegir al grup.",
+              "En Dani havia inclòs noms que no apareixien a les notes.",
+              "No sempre arribaven a comentar totes les preguntes."
+            ],
+            "correct": "d",
+            "explanation": "Perquè no sempre hi havia temps per comentar totes les preguntes en acabar la visita."
+          },
+          "l294b-q8": {
+            "prompt": "Quina relació estableix la taula entre el quadern antic i el nou?",
+            "options": [
+              "El nou substitueix les preguntes antigues que no tenen signatura.",
+              "L’antic mostra preguntes d’abans i el nou recull les d’avui.",
+              "El nou serveix per copiar únicament la lletra de l’Elisa.",
+              "L’antic es tanca perquè només es vegi la lupa."
+            ],
+            "correct": "b",
+            "explanation": "Permet conèixer preguntes d’abans i afegir preguntes actuals al mateix lloc."
+          },
+          "l294b-q9": {
+            "prompt": "Quin resum recull millor l’aportació de l’entrevista?",
+            "options": [
+              "Descobreixen que l’Elisa va escriure totes les preguntes i ho afegeixen al cartell.",
+              "Reuneixen objectes per explicar un descobriment d’estrelles noves.",
+              "Expliquen usos i records amb els límits i obren un lloc per a preguntes noves.",
+              "Separen els quaderns perquè ningú no compari preguntes d’èpoques diferents."
+            ],
+            "correct": "c",
+            "explanation": "L’entrevista permet explicar l’ús quotidià de la lupa i el quadern, respectar els dubtes sobre els autors i unir les preguntes antigues amb les actuals."
+          }
+        }
+      }
+    ]
   }
 ];

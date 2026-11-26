@@ -1,9 +1,9 @@
 {
   "date": "2026-11-26",
-  "totalWorks": 561,
-  "coveredWorks": 561,
+  "totalWorks": 564,
+  "coveredWorks": 564,
   "pendingWorks": 0,
-  "localizedAlternatives": 5410,
+  "localizedAlternatives": 5452,
   "ranges": [
     {
       "start": 1,
@@ -413,9 +413,9 @@
     },
     {
       "start": 291,
-      "end": 293,
-      "total": 9,
-      "covered": 9,
+      "end": 294,
+      "total": 12,
+      "covered": 12,
       "status": "complete"
     }
   ],
@@ -33835,6 +33835,237 @@
             },
             {
               "id": "l293b-q9",
+              "number": 9
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L294",
+      "baseCode": "L294",
+      "variant": false,
+      "level": "4-primary",
+      "difficulty": "intermediate",
+      "title": "L’exposició que va començar per un calaix",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l294-q1",
+              "number": 1
+            },
+            {
+              "id": "l294-q2",
+              "number": 2
+            },
+            {
+              "id": "l294-q3",
+              "number": 3
+            },
+            {
+              "id": "l294-q4",
+              "number": 4
+            },
+            {
+              "id": "l294-q5",
+              "number": 5
+            },
+            {
+              "id": "l294-q6",
+              "number": 6
+            },
+            {
+              "id": "l294-q7",
+              "number": 7
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l294-q1",
+              "number": 1
+            },
+            {
+              "id": "l294-q2",
+              "number": 2
+            },
+            {
+              "id": "l294-q3",
+              "number": 3
+            },
+            {
+              "id": "l294-q4",
+              "number": 4
+            },
+            {
+              "id": "l294-q5",
+              "number": 5
+            },
+            {
+              "id": "l294-q6",
+              "number": 6
+            },
+            {
+              "id": "l294-q7",
+              "number": 7
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L294A",
+      "baseCode": "L294",
+      "variant": true,
+      "level": "3-primary",
+      "difficulty": "intermediate",
+      "title": "L’exposició que va començar per un calaix",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l294a-q1",
+              "number": 1
+            },
+            {
+              "id": "l294a-q2",
+              "number": 2
+            },
+            {
+              "id": "l294a-q3",
+              "number": 3
+            },
+            {
+              "id": "l294a-q4",
+              "number": 4
+            },
+            {
+              "id": "l294a-q5",
+              "number": 5
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l294a-q1",
+              "number": 1
+            },
+            {
+              "id": "l294a-q2",
+              "number": 2
+            },
+            {
+              "id": "l294a-q3",
+              "number": 3
+            },
+            {
+              "id": "l294a-q4",
+              "number": 4
+            },
+            {
+              "id": "l294a-q5",
+              "number": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L294B",
+      "baseCode": "L294",
+      "variant": true,
+      "level": "5-primary",
+      "difficulty": "intermediate",
+      "title": "L’exposició que va començar per un calaix",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l294b-q1",
+              "number": 1
+            },
+            {
+              "id": "l294b-q2",
+              "number": 2
+            },
+            {
+              "id": "l294b-q3",
+              "number": 3
+            },
+            {
+              "id": "l294b-q4",
+              "number": 4
+            },
+            {
+              "id": "l294b-q5",
+              "number": 5
+            },
+            {
+              "id": "l294b-q6",
+              "number": 6
+            },
+            {
+              "id": "l294b-q7",
+              "number": 7
+            },
+            {
+              "id": "l294b-q8",
+              "number": 8
+            },
+            {
+              "id": "l294b-q9",
+              "number": 9
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l294b-q1",
+              "number": 1
+            },
+            {
+              "id": "l294b-q2",
+              "number": 2
+            },
+            {
+              "id": "l294b-q3",
+              "number": 3
+            },
+            {
+              "id": "l294b-q4",
+              "number": 4
+            },
+            {
+              "id": "l294b-q5",
+              "number": 5
+            },
+            {
+              "id": "l294b-q6",
+              "number": 6
+            },
+            {
+              "id": "l294b-q7",
+              "number": 7
+            },
+            {
+              "id": "l294b-q8",
+              "number": 8
+            },
+            {
+              "id": "l294b-q9",
               "number": 9
             }
           ]

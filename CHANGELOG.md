@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.61.5 · 26 de novembre del 2026
+
+L294: L’exposició que va començar per un calaix. Nova família de l’univers L’observatori del turó, amb suport de 3r, referència de 4t i ampliació de 5è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 12 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.61.4 · 26 de novembre del 2026
 
 L293: La maqueta del cel del poble. Nova família de l’univers L’observatori del turó, amb suport de 3r, referència de 4t i ampliació de 5è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 11 històries independents. Contingut provisional, pendent de validació docent.
