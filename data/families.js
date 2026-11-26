@@ -1,4 +1,5 @@
 import { familyEditionPlan } from './family-edition-plan.js';
+import { libraryFamilies } from './library-expansion.js';
 import { familyAdaptations } from './family-adaptations.js';
 import { earlyFamilyPlan } from './early-family-plan.js';
 import { earlyFamilyAdaptations } from './early-family-adaptations.js';
@@ -26,6 +27,6 @@ export const families = [{
     es: 'Una misma explicación del préstamo de objetos, con textos y preguntas graduados.',
   },
   variantCodes: ['L208A', 'L208B', 'L208'],
-}, ...plans.filter(family => completedSources.has(family.code))];
+}, ...plans.filter(family => completedSources.has(family.code)), ...libraryFamilies];
 
 export const familyById = new Map(families.map(family => [family.id, family]));

@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.59.1 · 26 de novembre del 2026
+
+L269: La peça dins del vas. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 5 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.59 · 26 de novembre del 2026
 
 La primera fitxa presenta els formats textual i ABCD amb exemples reals. La preferència es recorda entre lectures i sessions, respectant les excepcions de cada pregunta; el diàleg es pot recuperar des del panell de contingut.

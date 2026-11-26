@@ -38,6 +38,7 @@ import { readingsLibraryEs } from './readings-universe-library-es.js';
 import { readingsLibraryCa } from './readings-universe-library-ca.js';
 import { readingsFamilyEs, readingsFamilyCa } from './readings-family-library.js';
 import { families } from './families.js';
+import { libraryReadings } from './library-expansion.js';
 import { familyAdaptations } from './family-adaptations.js';
 import { earlyFamilyAdaptations } from './early-family-adaptations.js';
 import { familyExpansionAdaptations } from './family-expansion-adaptations.js';
@@ -276,7 +277,7 @@ const publicReadings = [
 });
 
 const familyIdsBySource = new Map(families.map(family => [family.code, family.id]));
-const familySources = [...publicReadings, ...newUniverseReadings].map(reading => {
+const familySources = [...publicReadings, ...newUniverseReadings, ...libraryReadings].map(reading => {
   const universeIds = [...new Set([...(reading.universeIds ?? []), ...universes.filter(universe => universe.seedCode === reading.code).map(universe => universe.id)])];
   return {
     ...reading,

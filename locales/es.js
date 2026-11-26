@@ -1,4 +1,6 @@
 export const es = Object.fromEntries(`
+v1.59.1 · Obre l’historial de canvis|v1.59.1 · Abrir el historial de cambios
+L269: La peça dins del vas. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 5 històries independents. Contingut provisional, pendent de validació docent.|L269: La pieza dentro del vaso. Nueva familia de La biblioteca de las cosas, con apoyo de 6.º y dos versiones de 1.º de ESO, en catalán y castellano; preguntas textuales y ABCD, solucionario, evidencias y dos ilustraciones. El universo llega a 5 historias independientes. Contenido provisional, pendiente de validación docente.
 v1.59 · Obre l’historial de canvis|v1.59 · Abrir el historial de cambios
 La primera fitxa presenta els formats textual i ABCD amb exemples reals. La preferència es recorda entre lectures i sessions, respectant les excepcions de cada pregunta; el diàleg es pot recuperar des del panell de contingut.|La primera ficha presenta los formatos textual y ABCD con ejemplos reales. La preferencia se recuerda entre lecturas y sesiones, respetando las excepciones de cada pregunta; el diálogo se puede recuperar desde el panel de contenido.
 Com prefereixes les preguntes?|¿Cómo prefieres las preguntas?
