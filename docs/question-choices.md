@@ -40,6 +40,8 @@ Les alternatives són a data/question-choices.js, vinculades a codi exacte i ide
 
 Les ampliacions són a data/question-choices/batch-NNN.js. Cada objecte identifica codi i idioma, i conté les alternatives per identificador de pregunta: prompt, quatre options, correct (a–d), explanation i, quan cal, evidence pròpia. Les dues llengües es redacten i revisen independentment; els seus identificadors de pregunta poden diferir. data/question-choices-batches.js només registra lots complets i revisats, amb versió i camí del registre de revisió. Els esborranys no s’importen al web.
 
+Les famílies noves de La biblioteca de les coses (L269–L279) neixen directament amb els dos formats. S’autoren amb `data/library-expansion-model.js` i només s’incorporen al catàleg, família per família, a través de `data/library-expansion-published.js`, després de disposar d’il·lustració i revisió independent exacta. Les alternatives revisades són a `docs/question-choices/library-2026-11-26-review.json`; el registre cobreix separadament cada variant, idioma i pregunta. `tools/check-library-expansion.mjs` i el comprovador general d’ABCD en contrasten les empremtes. No es força una família nova dins d’un lot històric ja tancat.
+
 question-responses.js resol el format triat. Els maquetats incorporen questionMode i questionModes per a les excepcions individuals. Els enllaços de maquetat poden utilitzar PREG=ABCD i TIPUSRES=1:OBERTA; els codis curts continuen identificant lectura, llengua i omissions.
 
 docs/question-choices-review.json registra les quaranta versions exactes revisades, amb empremta del text, pregunta oberta, alternativa, explicació i evidències. Autor: root. Revisor independent: review_early_families. Les empremtes s’han de contrastar abans de publicar.

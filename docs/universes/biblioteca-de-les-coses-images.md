@@ -2,6 +2,8 @@
 
 Generades el 19 de novembre del 2026 amb l’eina integrada de generació d’imatges. Les instruccions completes es conserven a continuació per facilitar-ne la revisió i mantenir la continuïtat visual. Els originals s’han redimensionat a 1100 × 733 i comprimit en WebP; no s’hi han fet retocs semàntics posteriors.
 
+L’ampliació del **26 de novembre del 2026** incorpora onze escenes pròpies (L269–L279), compartides entre les variants i les dues llengües. El [registre complet de les instruccions](library-expansion-2026-11-26-images.json) conserva la referència d’estil, el nom de l’original i l’arxiu WebP. Es manté deliberadament la vista general del local de la L208 com a segona imatge de cada història. La composició pròpia de cada lectura destaca els seus objectes: batedora, parada del mercat, manta de retalls, taula plegable, joc per a un dia de pluja, manteniment, sons, caixa de préstec, gràfics, fotografies i teatrí. No s’han fixat encara aparences noves per als personatges recurrents.
+
 | Lectura | Escena pròpia | Segona il·lustració |
 | --- | --- | --- |
 | L246 | [Reserves del projector](../../assets/readings/l246-reservas-proyector.webp) | Vista general del local de la L208 |

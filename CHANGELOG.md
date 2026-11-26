@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.59.11 · 26 de novembre del 2026
+
+L279: El teló torna a casa. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 15 històries independents. Contingut provisional, pendent de validació docent.
+
 ## 1.59.10 · 26 de novembre del 2026
 
 L278: Qui va fer aquesta foto?. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 14 històries independents. Contingut provisional, pendent de validació docent.

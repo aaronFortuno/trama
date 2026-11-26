@@ -44,3 +44,27 @@ L’ordre de la taula és d’identificació, no de lectura obligatòria. Les le
 La L208 disposa, a més, de dues variants de la seva mateixa explicació: L208A per a 4t intermedi i L208B per a 6è intermedi, en català i castellà. Formen la família `biblioteca-objectes` amb la L208 original i reutilitzen les seves il·lustracions. Aquesta família és una relació d’exigència dins de l’univers; no inclou les L246–L248.
 
 Les tres incorporacions tenen aproximadament 420–450 paraules, deu preguntes de tipus diversos, solucionari, fragments de suport i dues il·lustracions. La L246 és narrativa, la L247 instructiva i la L248 argumentativa. A la darrera, la Noa defensa la comprovació dels criteris i l’Adil presenta la proposta inicial: els papers d’observador i de persona que es precipita no han de quedar fixats en un sol personatge.
+
+<!-- library-expansion:start -->
+## Ampliació del 26 de novembre del 2026
+
+L’univers té **15 històries independents**. Les 11 incorporacions d’aquesta tanda són famílies completes en català i castellà: suport de 6è de primària intermig (300–390 paraules, 8 preguntes), referència de 1r d’ESO intermig (440–540 paraules, 10 preguntes) i ampliació de 1r d’ESO avançat (570–680 paraules, 12 preguntes). Les variants comparteixen situació i il·lustracions, però tenen textos, preguntes, solucionari i evidències propis. Les alternatives ABCD s’ofereixen quan són pertinents; l’opinió i la producció personal continuen obertes.
+
+| Família | Història | Variants |
+| --- | --- | --- |
+| L269 | La peça dins del vas | L269A · L269 · L269B |
+| L270 | La parada va canviar de centre | L270A · L270 · L270B |
+| L271 | Una manta amb lloc per a més històries | L271A · L271 · L271B |
+| L272 | Una taula fins a casa | L272A · L272 · L272B |
+| L273 | La pluja canvia l’equipatge | L273A · L273 · L273B |
+| L274 | La feina darrere la lluentor | L274A · L274 · L274B |
+| L275 | Sons sense endoll | L275A · L275 · L275B |
+| L276 | Una carta a la caixa de tornada | L276A · L276 · L276B |
+| L277 | Un gràfic amb un forat | L277A · L277 · L277B |
+| L278 | Qui va fer aquesta foto? | L278A · L278 · L278B |
+| L279 | El teló torna a casa | L279A · L279 · L279B |
+
+Cada història reintrodueix el servei i els personatges que necessita; no hi ha ordre obligatori. La Rosa continua sent la coordinadora adulta; la Noa i l’Adil alternen iniciativa, dubtes i rectificacions. Les veïnes i els usuaris secundaris no estableixen un repartiment visual fix. El local, la finestra verda amb arc i la paleta es mantenen, amb una escena pròpia per història i una segona vista compartida del local.
+
+La [guia d’autoria](library-expansion-2026-11-26-authoring.md), el [registre de revisió per variant i llengua](library-expansion-2026-11-26-review.json) i els [prompts i originals de les il·lustracions](library-expansion-2026-11-26-images.json) documenten aquesta ampliació. Totes les versions publicades han superat revisió independent i són **provisionals, pendents de validació docent**. Les empremtes dels textos i de les alternatives permeten detectar canvis posteriors que calgui revalidar.
+<!-- library-expansion:end -->

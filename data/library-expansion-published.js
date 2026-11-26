@@ -18175,5 +18175,1858 @@ export const libraryPublications = [
         }
       }
     ]
+  },
+  {
+    "code": "L279",
+    "edition": "v1.59.11",
+    "family": {
+      "id": "familia-l279",
+      "code": "L279",
+      "name": {
+        "es": "El telón vuelve a casa",
+        "ca": "El teló torna a casa"
+      },
+      "description": {
+        "ca": "Una història de La biblioteca de les coses, amb suport, versió de referència i ampliació.",
+        "es": "Una historia de La biblioteca de las cosas, con apoyo, versión de referencia y ampliación."
+      },
+      "variantCodes": [
+        "L279A",
+        "L279",
+        "L279B"
+      ]
+    },
+    "readings": [
+      {
+        "id": "biblioteca-telo-casa-a-es",
+        "code": "L279A",
+        "workId": "biblioteca-telo-casa-a",
+        "language": "es",
+        "familyId": "familia-l279",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts"
+        ],
+        "genre": "narrative",
+        "title": "El telón vuelve a casa",
+        "summary": "Al guardar un pequeño telón, Adil descubre cómo se había creado el viento de la función.",
+        "paragraphs": [
+          "La biblioteca de las cosas, un servicio vecinal de préstamo de objetos, había dejado un pequeño teatrillo al grupo de teatro del barrio. Tenía un bastidor plegable y un telón azul sujeto con pinzas. Después de la representación, Rosa, la coordinadora del servicio, recogía el material con Adil, un estudiante que participaba en el grupo.",
+          "Adil había leído el cuento desde un lado del escenario. Cuando la zorra de cartón cruzaba el bosque, el telón se levantaba por abajo y parecía que soplara viento. Iu, un niño del grupo, trabajaba escondido detrás. Al terminar, los actores de los animales habían salido a saludar. Adil había visto a Iu aparecer más tarde, cuando ya guardaban las sillas.",
+          "Para doblar la tela, Rosa la extendió sobre una mesa con el revés hacia arriba. Adil descubrió una presilla azul: una tira pequeña que formaba un aro, cosida cerca del borde inferior. Desde el público no se veía. Él había ayudado a colocar las pinzas antes de empezar, pero solo había mirado la cara del telón que daba hacia las sillas.",
+          "Lidia, la directora del grupo, se acercó. Había cosido aquella tira por la mañana, después del ensayo. Iu la había pedido para encontrar dónde agarrar la tela sin asomarse. Al oír la palabra «viento», levantaba despacio el borde y luego lo soltaba. Adil recordó cómo la zorra había dado un salto justo cuando la tela se había movido en la función.",
+          "La presilla se había añadido solo para esa obra. Lidia había acordado con Rosa retirarla al devolver el telón y ahora descosió sus pocos puntos. Rosa dobló la tela; Adil guardó las pinzas en una bolsa. Iu regresó a buscar su gorra. Lidia le ofreció la tira azul y él se la enrolló en los dedos mientras miraba el bastidor ya plegado.",
+          "—La zorra saltó por tu viento —le dijo Adil—. La próxima vez salimos juntos a saludar. Iu preguntó si podía llevar la gorra. Adil se la puso y ensayó una reverencia tan profunda que se le cayó al suelo. Iu la recogió riendo. Rosa esperó a que acabaran antes de llevar el telón doblado al estante del local."
+        ],
+        "questions": [
+          {
+            "id": "l279a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué había prestado el servicio al grupo de teatro?",
+            "answer": "Un pequeño teatrillo con bastidor plegable y telón azul.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "un pequeño teatrillo"
+              },
+              {
+                "paragraph": 1,
+                "text": "un bastidor plegable y un telón azul"
+              }
+            ]
+          },
+          {
+            "id": "l279a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Cuál había sido la tarea de Adil durante la función?",
+            "answer": "Leer el cuento desde un lado del escenario.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Adil había leído el cuento desde un lado del escenario."
+              }
+            ]
+          },
+          {
+            "id": "l279a-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué significa «revés» al extender el telón?",
+            "answer": "La cara de la tela que quedaba detrás, oculta al público.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "con el revés hacia arriba"
+              },
+              {
+                "paragraph": 3,
+                "text": "Desde el público no se veía."
+              }
+            ]
+          },
+          {
+            "id": "l279a-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Adil no había visto antes la presilla?",
+            "answer": "Había mirado la cara que daba al público, y la presilla quedaba detrás.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "solo había mirado la cara del telón que daba hacia las sillas"
+              }
+            ]
+          },
+          {
+            "id": "l279a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué relación había entre la palabra «viento» y el movimiento de Iu?",
+            "answer": "La palabra era su señal para levantar el borde de la tela.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Al oír la palabra «viento», levantaba despacio el borde"
+              }
+            ]
+          },
+          {
+            "id": "l279a-q6",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Por qué Lidia retiró la presilla al final?",
+            "answer": "La había añadido para esa obra y había acordado retirarla al devolver el telón.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "había acordado con Rosa retirarla al devolver el telón"
+              }
+            ]
+          },
+          {
+            "id": "l279a-q7",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "¿Qué cambia para Adil al guardar el telón?",
+            "answer": "Entiende mejor el trabajo de Iu y lo invita a saludar juntos la próxima vez.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Adil recordó cómo la zorra había dado un salto"
+              },
+              {
+                "paragraph": 6,
+                "text": "La próxima vez salimos juntos a saludar."
+              }
+            ]
+          },
+          {
+            "id": "l279a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Cómo organizarías el saludo final para incluir a quienes trabajan detrás del telón? Explica tu propuesta.",
+            "answer": "Respuesta abierta: una propuesta realizable que incluya a quienes no aparecen durante la obra, con una razón."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "revés",
+            "occurrence": 1,
+            "questionId": "l279a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l279-scene",
+            "src": "assets/readings/l279-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un telón azul doblado, una pequeña presilla de tela y un zorro de cartón sobre una mesa.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-telo-casa-a-ca",
+        "code": "L279A",
+        "workId": "biblioteca-telo-casa-a",
+        "language": "ca",
+        "familyId": "familia-l279",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "6-primary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts"
+        ],
+        "genre": "narrative",
+        "title": "El teló torna a casa",
+        "summary": "En guardar un petit teló, l’Adil descobreix com s’havia creat el vent de la funció.",
+        "paragraphs": [
+          "La biblioteca de les coses, un servei veïnal de préstec d’objectes, havia deixat un petit teatrí al grup de teatre del barri. Tenia un bastidor plegable i un teló blau subjectat amb pinces. Després de la representació, la Rosa, la coordinadora del servei, recollia el material amb l’Adil, un estudiant que participava en el grup.",
+          "L’Adil havia llegit el conte des d’un costat de l’escenari. Quan la guineu de cartró travessava el bosc, el teló s’aixecava per sota i semblava que bufés vent. L’Iu, un nen del grup, treballava amagat al darrere. En acabar, els actors dels animals havien sortit a saludar. L’Adil havia vist l’Iu aparèixer més tard, quan ja guardaven les cadires.",
+          "Per plegar la roba, la Rosa la va estendre sobre una taula amb el revés cap amunt. L’Adil va descobrir una baga blava: una tira petita que formava una anella, cosida prop de la vora inferior. Des del públic no es veia. Ell havia ajudat a col·locar les pinces abans de començar, però només havia mirat la cara del teló que donava a les cadires.",
+          "La Lídia, la directora del grup, s’hi va acostar. Havia cosit aquella tira al matí, després de l’assaig. L’Iu l’havia demanada per trobar on agafar la roba sense treure el cap. En sentir la paraula «vent», aixecava a poc a poc la vora i després la deixava anar. L’Adil va recordar com la guineu havia fet un salt just quan la roba s’havia mogut a la funció.",
+          "La baga s’havia afegit només per a aquella obra. La Lídia havia acordat amb la Rosa retirar-la en tornar el teló i ara en va descosir els pocs punts. La Rosa va plegar la roba; l’Adil va guardar les pinces en una bossa. L’Iu va tornar a buscar la gorra. La Lídia li va oferir la tira blava i ell se la va enrotllar als dits mentre mirava el bastidor ja plegat.",
+          "—La guineu va saltar pel teu vent —li va dir l’Adil—. La pròxima vegada sortim junts a saludar. L’Iu va preguntar si podia dur la gorra. L’Adil se la va posar i va assajar una reverència tan profunda que li va caure a terra. L’Iu la va recollir rient. La Rosa va esperar que acabessin abans de portar el teló plegat al prestatge del local."
+        ],
+        "questions": [
+          {
+            "id": "l279a-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què havia prestat el servei al grup de teatre?",
+            "answer": "Un petit teatrí amb bastidor plegable i teló blau.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "un petit teatrí"
+              },
+              {
+                "paragraph": 1,
+                "text": "un bastidor plegable i un teló blau"
+              }
+            ]
+          },
+          {
+            "id": "l279a-q2",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quina havia estat la tasca de l’Adil durant la funció?",
+            "answer": "Llegir el conte des d’un costat de l’escenari.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "L’Adil havia llegit el conte des d’un costat de l’escenari."
+              }
+            ]
+          },
+          {
+            "id": "l279a-q3",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què significa «revés» en estendre el teló?",
+            "answer": "La cara de la roba que quedava al darrere, amagada al públic.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "amb el revés cap amunt"
+              },
+              {
+                "paragraph": 3,
+                "text": "Des del públic no es veia."
+              }
+            ]
+          },
+          {
+            "id": "l279a-q4",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què l’Adil no havia vist abans la baga?",
+            "answer": "Havia mirat la cara que donava al públic, i la baga quedava al darrere.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "només havia mirat la cara del teló que donava a les cadires"
+              }
+            ]
+          },
+          {
+            "id": "l279a-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina relació hi havia entre la paraula «vent» i el moviment de l’Iu?",
+            "answer": "La paraula era el seu senyal per aixecar la vora de la roba.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "En sentir la paraula «vent», aixecava a poc a poc la vora"
+              }
+            ]
+          },
+          {
+            "id": "l279a-q6",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Per què la Lídia va retirar la baga al final?",
+            "answer": "L’havia afegida per a aquella obra i havia acordat retirar-la en tornar el teló.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "havia acordat amb la Rosa retirar-la en tornar el teló"
+              }
+            ]
+          },
+          {
+            "id": "l279a-q7",
+            "type": "summary",
+            "lines": 2,
+            "prompt": "Què canvia per a l’Adil en guardar el teló?",
+            "answer": "Entén millor la feina de l’Iu i el convida a saludar junts la pròxima vegada.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "L’Adil va recordar com la guineu havia fet un salt"
+              },
+              {
+                "paragraph": 6,
+                "text": "La pròxima vegada sortim junts a saludar."
+              }
+            ]
+          },
+          {
+            "id": "l279a-q8",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Com organitzaries la salutació final per incloure els qui treballen darrere del teló? Explica la teva proposta.",
+            "answer": "Resposta oberta: una proposta realitzable que inclogui els qui no apareixen durant l’obra, amb una raó."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 3,
+            "text": "revés",
+            "occurrence": 1,
+            "questionId": "l279a-q3"
+          }
+        ],
+        "images": [
+          {
+            "id": "l279-scene",
+            "src": "assets/readings/l279-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un teló blau plegat, una petita baga de roba i una guineu de cartró sobre una taula.",
+            "afterParagraph": 2
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 4
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-telo-casa-es",
+        "code": "L279",
+        "workId": "biblioteca-telo-casa",
+        "language": "es",
+        "familyId": "familia-l279",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts"
+        ],
+        "genre": "narrative",
+        "title": "El telón vuelve a casa",
+        "summary": "Una presilla oculta en un telón prestado hace que Adil recuerde la función desde otro lugar.",
+        "paragraphs": [
+          "Quedaba por devolver el teatrillo a la biblioteca de las cosas, un servicio vecinal que prestaba objetos de uso ocasional. Había dejado al grupo de teatro un bastidor plegable y un telón azul sujeto con pinzas. Rosa, la coordinadora, se acercó a recogerlos. Adil, un estudiante que participaba en el grupo, se quedó para ayudar.",
+          "Durante la función, Adil había leído el cuento desde un lado del escenario. Miraba alternativamente las páginas y los animales de cartón. Su momento favorito era el salto de la zorra: al llegar el viento, la parte baja del telón se alzaba y el animal parecía dar un respingo. El público había reído. Adil había felicitado a quien movía la zorra mientras los actores salían a saludar.",
+          "Iu, un niño más pequeño del grupo, se había quedado detrás de la tela. Apareció después, cuando estaban apilando las sillas, y se fue sin su gorra. En el ensayo había preguntado cómo encontraría el sitio correcto para tirar del telón si desde detrás todo le parecía azul. Lidia, la directora, había prometido buscar una solución.",
+          "Rosa sostuvo la tela mientras Adil quitaba las pinzas. Luego la extendieron en una mesa, con el revés hacia arriba. Cerca del borde inferior había una presilla azul, una pequeña tira de tela cosida formando un aro. Adil pasó un dedo por dentro. Antes solo había mirado la cara orientada hacia el público.",
+          "Lidia reconoció la presilla. La había cosido por la mañana, después del ensayo y antes de la función, para que Iu encontrara con la mano dónde agarrarse sin asomarse. Cuando Adil leía «viento», el niño levantaba el borde despacio y lo soltaba. La zorra saltaba al notar que la tela empezaba a subir. El efecto enlazaba la voz de Adil con la mano de Iu y la figura de cartón.",
+          "—Yo veía el salto, pero no cómo empezaba —dijo Adil. Lidia había acordado con Rosa retirar el añadido al devolver el telón. Descosió los pocos puntos. Guardaron las pinzas y el bastidor plegado por Rosa. Llevaron las piezas al mostrador del local contiguo. Al volver a la sala, encontraron la gorra de Iu sobre una silla.",
+          "Iu regresó a buscarla. Adil le preguntó por qué no había salido al final. «Esperaba que alguien me avisara», respondió el niño. Durante los saludos, Adil había mirado a los actores que ya tenía delante, sin acordarse de quien permanecía detrás. Lidia propuso ensayar también esa salida si repetían la obra. Adil se ofreció a ir a buscar a Iu cuando terminara la última frase del cuento.",
+          "Lidia le dio la tira azul a Iu, que preguntó si en el saludo podría llevar la gorra. Adil se la puso para hacer una prueba: se inclinó tanto que la gorra cayó al suelo. Iu la recogió riendo. Rosa esperó a que ensayaran otra reverencia antes de volver al local para guardar el telón en su estante."
+        ],
+        "questions": [
+          {
+            "id": "l279-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué dos partes principales del teatrillo debían devolver?",
+            "answer": "El bastidor plegable y el telón azul.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "un bastidor plegable y un telón azul sujeto con pinzas"
+              }
+            ]
+          },
+          {
+            "id": "l279-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Adil había prestado poca atención a Iu durante la función?",
+            "answer": "Leía y miraba los animales visibles, mientras Iu trabajaba detrás del telón.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Miraba alternativamente las páginas y los animales de cartón."
+              },
+              {
+                "paragraph": 3,
+                "text": "se había quedado detrás de la tela"
+              }
+            ]
+          },
+          {
+            "id": "l279-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué dificultad había planteado Iu en el ensayo?",
+            "answer": "No sabía cómo encontrar desde detrás el lugar donde debía tirar de la tela.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "cómo encontraría el sitio correcto para tirar del telón"
+              }
+            ]
+          },
+          {
+            "id": "l279-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿A qué cara del telón se refiere «revés»?",
+            "answer": "A la cara que quedaba detrás y no se orientaba al público.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "con el revés hacia arriba"
+              },
+              {
+                "paragraph": 4,
+                "text": "solo había mirado la cara orientada hacia el público"
+              }
+            ]
+          },
+          {
+            "id": "l279-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Cómo resolvía la presilla el problema de Iu?",
+            "answer": "Le permitía localizar con el tacto el punto de agarre sin asomarse.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "encontrara con la mano dónde agarrarse sin asomarse"
+              }
+            ]
+          },
+          {
+            "id": "l279-q6",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿En qué momento cosió Lidia la presilla?",
+            "answer": "Por la mañana, entre el ensayo y la función.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "por la mañana, después del ensayo y antes de la función"
+              }
+            ]
+          },
+          {
+            "id": "l279-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué descubre Adil sobre el salto de la zorra?",
+            "answer": "Que el efecto dependía también del movimiento que Iu iniciaba al oírlo leer.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Cuando Adil leía «viento», el niño levantaba el borde"
+              },
+              {
+                "paragraph": 5,
+                "text": "La zorra saltaba al notar que la tela empezaba a subir."
+              }
+            ]
+          },
+          {
+            "id": "l279-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué Iu no había salido con los demás al saludo?",
+            "answer": "Esperaba un aviso que nadie le dio.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "Esperaba que alguien me avisara"
+              }
+            ]
+          },
+          {
+            "id": "l279-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume qué descubre Adil al recoger y qué propone después.",
+            "answer": "Adil relaciona el efecto visible con el trabajo oculto de Iu y propone incluirlo en el saludo.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Yo veía el salto, pero no cómo empezaba"
+              },
+              {
+                "paragraph": 7,
+                "text": "Adil se ofreció a ir a buscar a Iu"
+              }
+            ]
+          },
+          {
+            "id": "l279-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "¿Qué detalle de la recogida te parece más importante para la historia? Elígelo y explica cómo cambia lo que entiende Adil.",
+            "answer": "Respuesta abierta: detalle del texto relacionado de manera razonada con la comprensión del trabajo de Iu o con su inclusión."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "revés",
+            "occurrence": 1,
+            "questionId": "l279-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l279-scene",
+            "src": "assets/readings/l279-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un telón azul doblado, una pequeña presilla de tela y un zorro de cartón sobre una mesa.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-telo-casa-ca",
+        "code": "L279",
+        "workId": "biblioteca-telo-casa",
+        "language": "ca",
+        "familyId": "familia-l279",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "intermediate",
+        "themes": [
+          "community",
+          "arts"
+        ],
+        "genre": "narrative",
+        "title": "El teló torna a casa",
+        "summary": "Una baga amagada en un teló prestat fa que l’Adil recordi la funció des d’un altre lloc.",
+        "paragraphs": [
+          "Quedava per tornar el teatrí a la biblioteca de les coses, un servei veïnal que prestava objectes d’ús ocasional. Havia deixat al grup de teatre un bastidor plegable i un teló blau subjectat amb pinces. La Rosa, la coordinadora, es va acostar a recollir-los. L’Adil, un estudiant que participava en el grup, es va quedar per ajudar.",
+          "Durant la funció, l’Adil havia llegit el conte des d’un costat de l’escenari. Mirava alternativament les pàgines i els animals de cartró. El seu moment preferit era el salt de la guineu: en arribar el vent, la part baixa del teló s’alçava i l’animal semblava fer un bot. El públic havia rigut. L’Adil havia felicitat qui movia la guineu mentre els actors sortien a saludar.",
+          "L’Iu, un nen més petit del grup, s’havia quedat darrere de la roba. Va aparèixer després, quan apilaven les cadires, i va marxar sense la gorra. A l’assaig havia preguntat com trobaria el lloc correcte per estirar el teló si des del darrere tot li semblava blau. La Lídia, la directora, havia promès buscar una solució.",
+          "La Rosa va sostenir la roba mentre l’Adil treia les pinces. Després la van estendre en una taula, amb el revés cap amunt. Prop de la vora inferior hi havia una baga blava, una petita tira de roba cosida formant una anella. L’Adil hi va passar un dit per dins. Abans només havia mirat la cara orientada al públic.",
+          "La Lídia va reconèixer la baga. L’havia cosida al matí, després de l’assaig i abans de la funció, perquè l’Iu trobés amb la mà on agafar-se sense treure el cap. Quan l’Adil llegia «vent», el nen aixecava la vora a poc a poc i la deixava anar. La guineu saltava en notar que la roba començava a pujar. L’efecte enllaçava la veu de l’Adil amb la mà de l’Iu i la figura de cartró.",
+          "—Jo veia el salt, però no com començava —va dir l’Adil. La Lídia havia acordat amb la Rosa retirar l’afegit en tornar el teló. Va descosir els pocs punts. Van guardar les pinces i el bastidor plegat per la Rosa. Van portar les peces al taulell del local contigu. En tornar a la sala, van trobar la gorra de l’Iu sobre una cadira.",
+          "L’Iu va tornar a buscar-la. L’Adil li va preguntar per què no havia sortit al final. «Esperava que algú m’avisés», va respondre el nen. Durant les salutacions, l’Adil havia mirat els actors que ja tenia al davant, sense recordar-se de qui continuava al darrere. La Lídia va proposar assajar també aquella sortida si repetien l’obra. L’Adil es va oferir a anar a buscar l’Iu quan acabés l’última frase del conte.",
+          "La Lídia va donar la tira blava a l’Iu, que va preguntar si a la salutació podria dur la gorra. L’Adil se la va posar per fer una prova: es va inclinar tant que la gorra va caure a terra. L’Iu la va recollir rient. La Rosa va esperar que assagessin una altra reverència abans de tornar al local per guardar el teló al prestatge."
+        ],
+        "questions": [
+          {
+            "id": "l279-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quines dues parts principals del teatrí havien de tornar?",
+            "answer": "El bastidor plegable i el teló blau.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "un bastidor plegable i un teló blau subjectat amb pinces"
+              }
+            ]
+          },
+          {
+            "id": "l279-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què l’Adil havia parat poca atenció a l’Iu durant la funció?",
+            "answer": "Llegia i mirava els animals visibles, mentre l’Iu treballava darrere del teló.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "Mirava alternativament les pàgines i els animals de cartró."
+              },
+              {
+                "paragraph": 3,
+                "text": "s’havia quedat darrere de la roba"
+              }
+            ]
+          },
+          {
+            "id": "l279-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quina dificultat havia plantejat l’Iu a l’assaig?",
+            "answer": "No sabia com trobar des del darrere el lloc on havia d’estirar la roba.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "com trobaria el lloc correcte per estirar el teló"
+              }
+            ]
+          },
+          {
+            "id": "l279-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "A quina cara del teló es refereix «revés»?",
+            "answer": "A la cara que quedava al darrere i no s’orientava al públic.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "amb el revés cap amunt"
+              },
+              {
+                "paragraph": 4,
+                "text": "només havia mirat la cara orientada al públic"
+              }
+            ]
+          },
+          {
+            "id": "l279-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Com resolia la baga el problema de l’Iu?",
+            "answer": "Li permetia localitzar amb el tacte el punt per agafar-se sense treure el cap.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "trobés amb la mà on agafar-se sense treure el cap"
+              }
+            ]
+          },
+          {
+            "id": "l279-q6",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "En quin moment va cosir la Lídia la baga?",
+            "answer": "Al matí, entre l’assaig i la funció.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "al matí, després de l’assaig i abans de la funció"
+              }
+            ]
+          },
+          {
+            "id": "l279-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què descobreix l’Adil sobre el salt de la guineu?",
+            "answer": "Que l’efecte depenia també del moviment que l’Iu iniciava en sentir-lo llegir.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Quan l’Adil llegia «vent», el nen aixecava la vora"
+              },
+              {
+                "paragraph": 5,
+                "text": "La guineu saltava en notar que la roba començava a pujar."
+              }
+            ]
+          },
+          {
+            "id": "l279-q8",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què l’Iu no havia sortit amb els altres a saludar?",
+            "answer": "Esperava un avís que ningú no li va donar.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "Esperava que algú m’avisés"
+              }
+            ]
+          },
+          {
+            "id": "l279-q9",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix què descobreix l’Adil en recollir i què proposa després.",
+            "answer": "L’Adil relaciona l’efecte visible amb la feina amagada de l’Iu i proposa incloure’l a la salutació.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Jo veia el salt, però no com començava"
+              },
+              {
+                "paragraph": 7,
+                "text": "L’Adil es va oferir a anar a buscar l’Iu"
+              }
+            ]
+          },
+          {
+            "id": "l279-q10",
+            "type": "opinion",
+            "lines": 3,
+            "prompt": "Quin detall de la recollida et sembla més important per a la història? Tria’l i explica com canvia allò que entén l’Adil.",
+            "answer": "Resposta oberta: detall del text relacionat de manera raonada amb la comprensió de la feina de l’Iu o amb la seva inclusió."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "revés",
+            "occurrence": 1,
+            "questionId": "l279-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l279-scene",
+            "src": "assets/readings/l279-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un teló blau plegat, una petita baga de roba i una guineu de cartró sobre una taula.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 5
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-telo-casa-b-es",
+        "code": "L279B",
+        "workId": "biblioteca-telo-casa-b",
+        "language": "es",
+        "familyId": "familia-l279",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "advanced",
+        "themes": [
+          "community",
+          "arts"
+        ],
+        "genre": "narrative",
+        "title": "El telón vuelve a casa",
+        "summary": "El desmontaje de un teatrillo revela la coordinación que un narrador no había visto desde su posición.",
+        "paragraphs": [
+          "El grupo de teatro debía devolver un teatrillo a la biblioteca de las cosas, un servicio vecinal de préstamo de objetos que funcionaba en el local contiguo a la sala. Adil recogía después de la representación, recordando el salto de la zorra. Rosa, la coordinadora, llegó para ayudar con el bastidor plegable y el telón azul.",
+          "Adil era un estudiante del grupo y también colaboraba algunas tardes en la biblioteca. Durante la función había leído el cuento desde un lateral. Desde allí veía las páginas, las figuras de cartón y una parte del público. Cuando pronunciaba «viento», el borde inferior del telón se levantaba; la zorra daba un respingo y arrancaba risas. Había felicitado a quien manejaba aquel animal al acabar la obra.",
+          "Iu, un niño más pequeño, salió de detrás del telón cuando ya apilaban las sillas. Adil pensó que prefería no salir a saludar. En el ensayo, Iu había preguntado dónde debía poner la mano: desde dentro, la tela le parecía toda igual. Lidia, la directora, prometió que buscaría algo que pudiera encontrar sin mirar.",
+          "Rosa sostuvo el telón mientras Adil retiraba las pinzas. Lo extendieron sobre una mesa para doblarlo. Al quedar el revés hacia arriba, apareció una presilla azul cerca del borde inferior: una tira cosida formando un aro pequeño. Adil había colocado las pinzas desde la cara orientada hacia las sillas y no había visto el añadido.",
+          "Lidia reconoció el aro. Había cosido la tira entre el ensayo y la representación. Iu se la había pedido para localizar el punto de agarre sin asomar la cabeza. Podía encontrarla con la mano mientras escuchaba a Adil. La directora había elegido una tela parecida a la del telón para que no destacara si el borde se giraba.",
+          "Al oír «viento», Iu levantaba el borde poco a poco y luego lo soltaba. Quien llevaba la zorra miraba la tela para hacerla saltar cuando comenzaba a subir. Adil conocía las dos tareas por separado, pero hasta entonces había recordado sobre todo el animal y las risas. La presilla le hizo reconstruir el momento desde detrás: alguien esperaba su palabra y otro esperaba el movimiento de ese alguien.",
+          "La tira era un añadido temporal. Lidia había acordado con Rosa quitarla al devolver el telón y ahora descosió sus pocos puntos. Rosa y Adil guardaron el bastidor plegado y la tela en la biblioteca. Cuando Rosa y Adil regresaron a la sala a buscar los cuentos, Iu también volvió para recoger su gorra.",
+          "Adil le preguntó por qué no había salido en el saludo. «Estaba esperando que me avisaran», contestó Iu. Adil había tomado aquella ausencia por una decisión de Iu; ahora tenía otra explicación. Desde detrás del telón, el niño había oído los aplausos, pero nadie había ido a buscarlo. Adil se acordó de que él estaba felicitando al actor de la zorra justo en ese momento, mirando hacia el lado contrario.",
+          "—Si repetimos, te busco al terminar mi última frase —propuso Adil. Lidia añadió que ensayarían esa salida. Iu preguntó si llevaría la gorra puesta. La directora se la acercó junto con la tira azul. El niño dijo que guardaría la tira con su dibujo del bosque, en la caja de los recuerdos de la función.",
+          "Antes de irse probaron el saludo. Adil se puso la gorra para inclinarse ante una fila de sillas vacías, pero se le cayó a los pies. Iu soltó una carcajada y se agachó a recogerla. Hicieron una segunda reverencia, menos profunda y con la gorra bien sujeta. Rosa esperó a que terminaran y llevó los cuentos al local. El telón azul ya descansaba doblado en su estante."
+        ],
+        "questions": [
+          {
+            "id": "l279b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Dónde funcionaba la biblioteca respecto a la sala de la representación?",
+            "answer": "En el local contiguo.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "funcionaba en el local contiguo"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué favorece que Adil recuerde sobre todo el salto de la zorra?",
+            "answer": "Su posición y su atención a las páginas, los animales visibles y la reacción del público.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "veía las páginas, las figuras de cartón y una parte del público"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué había pedido Iu en el ensayo?",
+            "answer": "Una forma de encontrar sin mirar dónde debía poner la mano.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "dónde debía poner la mano: desde dentro, la tela le parecía toda igual"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "¿Qué designa «revés» cuando extienden el telón?",
+            "answer": "La cara posterior de la tela, opuesta a la orientada al público.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "Al quedar el revés hacia arriba"
+              },
+              {
+                "paragraph": 4,
+                "text": "desde la cara orientada hacia las sillas"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Por qué la presilla podía ayudar a Iu sin destacar en la escena?",
+            "answer": "Se reconocía con la mano y tenía un color parecido al del telón.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "Podía encontrarla con la mano"
+              },
+              {
+                "paragraph": 5,
+                "text": "había elegido una tela parecida"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué cadena de señales producía el efecto del viento y el salto?",
+            "answer": "La palabra de Adil guiaba a Iu; el movimiento de la tela guiaba a quien llevaba la zorra.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Al oír «viento», Iu levantaba el borde"
+              },
+              {
+                "paragraph": 6,
+                "text": "miraba la tela para hacerla saltar cuando comenzaba a subir"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Cómo cambia el conocimiento de Adil al encontrar la presilla?",
+            "answer": "Relaciona dos tareas que conocía por separado y reconstruye la coordinación del efecto.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "Adil conocía las dos tareas por separado"
+              },
+              {
+                "paragraph": 6,
+                "text": "le hizo reconstruir el momento desde detrás"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q8",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "¿Qué acuerdo explica que Lidia quite la tira al devolver el telón?",
+            "answer": "Había acordado con Rosa retirar ese añadido temporal.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "Lidia había acordado con Rosa quitarla al devolver el telón"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "¿Qué primera explicación de Adil corrige la respuesta de Iu sobre el saludo?",
+            "answer": "Adil había supuesto que prefería no salir; Iu esperaba que alguien le avisara.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "Adil pensó que prefería no salir a saludar."
+              },
+              {
+                "paragraph": 8,
+                "text": "Estaba esperando que me avisaran"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q10",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "¿Qué función tiene la pregunta del ensayo en el desarrollo del relato?",
+            "answer": "Prepara la explicación de la presilla y conecta el hallazgo con una necesidad anterior.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "buscaría algo que pudiera encontrar sin mirar"
+              },
+              {
+                "paragraph": 5,
+                "text": "para localizar el punto de agarre"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resume los dos descubrimientos de Adil y cómo cambia su explicación de lo ocurrido.",
+            "answer": "Comprende la coordinación oculta del efecto y revisa su interpretación de la ausencia de Iu en el saludo.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "reconstruir el momento desde detrás"
+              },
+              {
+                "paragraph": 8,
+                "text": "tenía otra explicación"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "¿Qué escena añadirías a un próximo ensayo para que el final incluyera a todo el grupo? Explica cómo aprovecharía lo ocurrido con Iu.",
+            "answer": "Respuesta abierta: una propuesta de ensayo con señales o responsables claros, relacionada con la espera de Iu y el saludo colectivo."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "revés",
+            "occurrence": 1,
+            "questionId": "l279b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l279-scene",
+            "src": "assets/readings/l279-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un telón azul doblado, una pequeña presilla de tela y un zorro de cartón sobre una mesa.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca de objetos con estanterías de madera y una ventana verde con arco.",
+            "afterParagraph": 7
+          }
+        ]
+      },
+      {
+        "id": "biblioteca-telo-casa-b-ca",
+        "code": "L279B",
+        "workId": "biblioteca-telo-casa-b",
+        "language": "ca",
+        "familyId": "familia-l279",
+        "universeIds": [
+          "biblioteca-de-les-coses"
+        ],
+        "level": "1-secondary",
+        "difficulty": "advanced",
+        "themes": [
+          "community",
+          "arts"
+        ],
+        "genre": "narrative",
+        "title": "El teló torna a casa",
+        "summary": "El desmuntatge d’un teatrí revela la coordinació que un narrador no havia vist des de la seva posició.",
+        "paragraphs": [
+          "El grup de teatre havia de tornar un teatrí a la biblioteca de les coses, un servei veïnal de préstec d’objectes que funcionava al local contigu a la sala. L’Adil recollia després de la representació, recordant el salt de la guineu. La Rosa, la coordinadora, va arribar per ajudar amb el bastidor plegable i el teló blau.",
+          "L’Adil era un estudiant del grup i també col·laborava algunes tardes a la biblioteca. Durant la funció havia llegit el conte des d’un lateral. Des d’allà veia les pàgines, les figures de cartró i una part del públic. Quan pronunciava «vent», la vora inferior del teló s’aixecava; la guineu feia un bot i arrencava rialles. Havia felicitat qui manejava aquell animal en acabar l’obra.",
+          "L’Iu, un nen més petit, va sortir de darrere del teló quan ja apilaven les cadires. L’Adil va pensar que preferia no sortir a saludar. A l’assaig, l’Iu havia preguntat on havia de posar la mà: des de dins, la roba li semblava tota igual. La Lídia, la directora, va prometre que buscaria alguna cosa que pogués trobar sense mirar.",
+          "La Rosa va sostenir el teló mentre l’Adil retirava les pinces. El van estendre sobre una taula per plegar-lo. En quedar el revés cap amunt, va aparèixer una baga blava prop de la vora inferior: una tira cosida formant una anella petita. L’Adil havia col·locat les pinces des de la cara orientada a les cadires i no havia vist l’afegit.",
+          "La Lídia va reconèixer l’anella. Havia cosit la tira entre l’assaig i la representació. L’Iu l’hi havia demanada per localitzar el punt per agafar-se sense treure el cap. La podia trobar amb la mà mentre escoltava l’Adil. La directora havia triat una roba semblant a la del teló perquè no destaqués si la vora es girava.",
+          "En sentir «vent», l’Iu aixecava la vora a poc a poc i després la deixava anar. Qui duia la guineu mirava la roba per fer-la saltar quan començava a pujar. L’Adil coneixia les dues tasques per separat, però fins aleshores havia recordat sobretot l’animal i les rialles. La baga li va fer reconstruir el moment des del darrere: algú esperava la seva paraula i un altre esperava el moviment d’aquell algú.",
+          "La tira era un afegit temporal. La Lídia havia acordat amb la Rosa treure-la en tornar el teló i ara en va descosir els pocs punts. La Rosa i l’Adil van guardar el bastidor plegat i la roba a la biblioteca. Quan la Rosa i l’Adil van tornar a la sala a buscar els contes, l’Iu també va tornar per recollir la gorra.",
+          "L’Adil li va preguntar per què no havia sortit a la salutació. «Esperava que m’avisessin», va contestar l’Iu. L’Adil havia pres aquella absència per una decisió de l’Iu; ara tenia una altra explicació. Des del darrere del teló, el nen havia sentit els aplaudiments, però ningú no l’havia anat a buscar. L’Adil va recordar que ell felicitava l’actor de la guineu just en aquell moment, mirant cap al costat contrari.",
+          "—Si repetim, et busco en acabar la meva última frase —va proposar l’Adil. La Lídia va afegir que assajarien aquella sortida. L’Iu va preguntar si duria la gorra posada. La directora l’hi va acostar juntament amb la tira blava. El nen va dir que guardaria la tira amb el dibuix del bosc, a la caixa dels records de la funció.",
+          "Abans de marxar van provar la salutació. L’Adil es va posar la gorra per inclinar-se davant d’una fila de cadires buides, però li va caure als peus. L’Iu va deixar anar una riallada i es va ajupir a recollir-la. Van fer una segona reverència, menys profunda i amb la gorra ben subjectada. La Rosa va esperar que acabessin i va portar els contes al local. El teló blau ja descansava plegat al prestatge."
+        ],
+        "questions": [
+          {
+            "id": "l279b-q1",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "On funcionava la biblioteca respecte de la sala de la representació?",
+            "answer": "Al local contigu.",
+            "evidence": [
+              {
+                "paragraph": 1,
+                "text": "funcionava al local contigu"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q2",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Què afavoreix que l’Adil recordi sobretot el salt de la guineu?",
+            "answer": "La seva posició i l’atenció a les pàgines, els animals visibles i la reacció del públic.",
+            "evidence": [
+              {
+                "paragraph": 2,
+                "text": "veia les pàgines, les figures de cartró i una part del públic"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q3",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Què havia demanat l’Iu a l’assaig?",
+            "answer": "Una manera de trobar sense mirar on havia de posar la mà.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "on havia de posar la mà: des de dins, la roba li semblava tota igual"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q4",
+            "type": "vocabulary",
+            "lines": 2,
+            "prompt": "Què designa «revés» quan estenen el teló?",
+            "answer": "La cara posterior de la roba, oposada a l’orientada al públic.",
+            "evidence": [
+              {
+                "paragraph": 4,
+                "text": "En quedar el revés cap amunt"
+              },
+              {
+                "paragraph": 4,
+                "text": "des de la cara orientada a les cadires"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q5",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Per què la baga podia ajudar l’Iu sense destacar a l’escena?",
+            "answer": "Es reconeixia amb la mà i tenia un color semblant al del teló.",
+            "evidence": [
+              {
+                "paragraph": 5,
+                "text": "La podia trobar amb la mà"
+              },
+              {
+                "paragraph": 5,
+                "text": "havia triat una roba semblant"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q6",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina cadena de senyals produïa l’efecte del vent i el salt?",
+            "answer": "La paraula de l’Adil guiava l’Iu; el moviment de la roba guiava qui duia la guineu.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "En sentir «vent», l’Iu aixecava la vora"
+              },
+              {
+                "paragraph": 6,
+                "text": "mirava la roba per fer-la saltar quan començava a pujar"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q7",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Com canvia el coneixement de l’Adil en trobar la baga?",
+            "answer": "Relaciona dues tasques que coneixia per separat i reconstrueix la coordinació de l’efecte.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "L’Adil coneixia les dues tasques per separat"
+              },
+              {
+                "paragraph": 6,
+                "text": "li va fer reconstruir el moment des del darrere"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q8",
+            "type": "literal",
+            "lines": 1,
+            "prompt": "Quin acord explica que la Lídia tregui la tira en tornar el teló?",
+            "answer": "Havia acordat amb la Rosa retirar aquell afegit temporal.",
+            "evidence": [
+              {
+                "paragraph": 7,
+                "text": "La Lídia havia acordat amb la Rosa treure-la en tornar el teló"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q9",
+            "type": "inference",
+            "lines": 2,
+            "prompt": "Quina primera explicació de l’Adil corregeix la resposta de l’Iu sobre la salutació?",
+            "answer": "L’Adil havia suposat que preferia no sortir; l’Iu esperava que algú l’avisés.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "L’Adil va pensar que preferia no sortir a saludar."
+              },
+              {
+                "paragraph": 8,
+                "text": "Esperava que m’avisessin"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q10",
+            "type": "structure",
+            "lines": 2,
+            "prompt": "Quina funció té la pregunta de l’assaig en el desenvolupament del relat?",
+            "answer": "Prepara l’explicació de la baga i connecta la descoberta amb una necessitat anterior.",
+            "evidence": [
+              {
+                "paragraph": 3,
+                "text": "buscaria alguna cosa que pogués trobar sense mirar"
+              },
+              {
+                "paragraph": 5,
+                "text": "per localitzar el punt per agafar-se"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q11",
+            "type": "summary",
+            "lines": 3,
+            "prompt": "Resumeix els dos descobriments de l’Adil i com canvia la seva explicació d’allò que ha passat.",
+            "answer": "Comprèn la coordinació amagada de l’efecte i revisa la interpretació de l’absència de l’Iu a la salutació.",
+            "evidence": [
+              {
+                "paragraph": 6,
+                "text": "reconstruir el moment des del darrere"
+              },
+              {
+                "paragraph": 8,
+                "text": "tenia una altra explicació"
+              }
+            ]
+          },
+          {
+            "id": "l279b-q12",
+            "type": "opinion",
+            "lines": 4,
+            "prompt": "Quina escena afegiries a un pròxim assaig perquè el final inclogués tot el grup? Explica com aprofitaria allò que ha passat amb l’Iu.",
+            "answer": "Resposta oberta: una proposta d’assaig amb senyals o responsables clars, relacionada amb l’espera de l’Iu i la salutació col·lectiva."
+          }
+        ],
+        "annotations": [
+          {
+            "paragraph": 4,
+            "text": "revés",
+            "occurrence": 1,
+            "questionId": "l279b-q4"
+          }
+        ],
+        "images": [
+          {
+            "id": "l279-scene",
+            "src": "assets/readings/l279-biblioteca.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Un teló blau plegat, una petita baga de roba i una guineu de cartró sobre una taula.",
+            "afterParagraph": 3
+          },
+          {
+            "id": "library-room",
+            "src": "assets/readings/l208-la-biblioteca-de-objetos-1.webp",
+            "width": 1100,
+            "height": 733,
+            "alt": "Interior de la biblioteca d’objectes amb prestatgeries de fusta i una finestra verda amb arc.",
+            "afterParagraph": 7
+          }
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "code": "L279A",
+        "language": "es",
+        "questions": {
+          "l279a-q1": {
+            "prompt": "¿Qué había prestado el servicio al grupo de teatro?",
+            "options": [
+              "Un telón y un grupo de sillas.",
+              "Un teatrillo con bastidor y telón.",
+              "Una zorra de cartón y una gorra.",
+              "Una mesa y una colección de cuentos."
+            ],
+            "correct": "b",
+            "explanation": "Un pequeño teatrillo con bastidor plegable y telón azul."
+          },
+          "l279a-q2": {
+            "prompt": "¿Cuál había sido la tarea de Adil durante la función?",
+            "options": [
+              "Mover la tela escondido detrás.",
+              "Dirigir el ensayo de los animales.",
+              "Hacer saltar a la zorra de cartón.",
+              "Leer el cuento desde un lado."
+            ],
+            "correct": "d",
+            "explanation": "Leer el cuento desde un lado del escenario."
+          },
+          "l279a-q3": {
+            "prompt": "¿Qué significa «revés» al extender el telón?",
+            "options": [
+              "La cara de la tela oculta al público.",
+              "El borde por donde se abría el telón.",
+              "La esquina que tocaba la mesa.",
+              "La tela ya doblada para el estante."
+            ],
+            "correct": "a",
+            "explanation": "La cara de la tela que quedaba detrás, oculta al público."
+          },
+          "l279a-q4": {
+            "prompt": "¿Por qué Adil no había visto antes la presilla?",
+            "options": [
+              "Porque se cosió después de acabar la función.",
+              "Porque estaba dentro de la bolsa de pinzas.",
+              "Porque quedaba en la cara que no miró.",
+              "Porque Iu la trajo al regresar con la gorra."
+            ],
+            "correct": "c",
+            "explanation": "Había mirado la cara que daba al público, y la presilla quedaba detrás."
+          },
+          "l279a-q5": {
+            "prompt": "¿Qué relación había entre la palabra «viento» y el movimiento de Iu?",
+            "options": [
+              "Era la señal para quitar las pinzas.",
+              "Era la señal para mover el telón.",
+              "Era la señal para buscar la gorra.",
+              "Era la señal para doblar el bastidor."
+            ],
+            "correct": "b",
+            "explanation": "La palabra era su señal para levantar el borde de la tela."
+          },
+          "l279a-q6": {
+            "prompt": "¿Por qué Lidia retiró la presilla al final?",
+            "options": [
+              "Porque impedía levantar la tela en escena.",
+              "Porque se había roto durante la función.",
+              "Porque la había pedido otro grupo ese día.",
+              "Porque era un añadido temporal acordado."
+            ],
+            "correct": "d",
+            "explanation": "La había añadido para esa obra y había acordado retirarla al devolver el telón."
+          },
+          "l279a-q7": {
+            "prompt": "¿Qué cambia para Adil al guardar el telón?",
+            "options": [
+              "Reconoce el trabajo de Iu detrás de la tela.",
+              "Decide repetir la obra sin mover el telón.",
+              "Descubre que faltan piezas del teatrillo.",
+              "Comprueba que la zorra había roto la presilla."
+            ],
+            "correct": "a",
+            "explanation": "Entiende mejor el trabajo de Iu y lo invita a saludar juntos la próxima vez."
+          }
+        }
+      },
+      {
+        "code": "L279A",
+        "language": "ca",
+        "questions": {
+          "l279a-q1": {
+            "prompt": "Què havia prestat el servei al grup de teatre?",
+            "options": [
+              "Un teló i un grup de cadires.",
+              "Un teatrí amb bastidor i teló.",
+              "Una guineu de cartró i una gorra.",
+              "Una taula i una col·lecció de contes."
+            ],
+            "correct": "b",
+            "explanation": "Un petit teatrí amb bastidor plegable i teló blau."
+          },
+          "l279a-q2": {
+            "prompt": "Quina havia estat la tasca de l’Adil durant la funció?",
+            "options": [
+              "Moure la roba amagat al darrere.",
+              "Dirigir l’assaig dels animals.",
+              "Fer saltar la guineu de cartró.",
+              "Llegir el conte des d’un costat."
+            ],
+            "correct": "d",
+            "explanation": "Llegir el conte des d’un costat de l’escenari."
+          },
+          "l279a-q3": {
+            "prompt": "Què significa «revés» en estendre el teló?",
+            "options": [
+              "La cara de la roba amagada al públic.",
+              "La vora per on s’obria el teló.",
+              "El racó que tocava la taula.",
+              "La roba ja plegada per al prestatge."
+            ],
+            "correct": "a",
+            "explanation": "La cara de la roba que quedava al darrere, amagada al públic."
+          },
+          "l279a-q4": {
+            "prompt": "Per què l’Adil no havia vist abans la baga?",
+            "options": [
+              "Perquè es va cosir després d’acabar la funció.",
+              "Perquè era dins de la bossa de pinces.",
+              "Perquè quedava a la cara que no va mirar.",
+              "Perquè l’Iu la va dur en tornar amb la gorra."
+            ],
+            "correct": "c",
+            "explanation": "Havia mirat la cara que donava al públic, i la baga quedava al darrere."
+          },
+          "l279a-q5": {
+            "prompt": "Quina relació hi havia entre la paraula «vent» i el moviment de l’Iu?",
+            "options": [
+              "Era el senyal per treure les pinces.",
+              "Era el senyal per moure el teló.",
+              "Era el senyal per buscar la gorra.",
+              "Era el senyal per plegar el bastidor."
+            ],
+            "correct": "b",
+            "explanation": "La paraula era el seu senyal per aixecar la vora de la roba."
+          },
+          "l279a-q6": {
+            "prompt": "Per què la Lídia va retirar la baga al final?",
+            "options": [
+              "Perquè impedia aixecar la roba en escena.",
+              "Perquè s’havia trencat durant la funció.",
+              "Perquè l’havia demanada un altre grup aquell dia.",
+              "Perquè era un afegit temporal acordat."
+            ],
+            "correct": "d",
+            "explanation": "L’havia afegida per a aquella obra i havia acordat retirar-la en tornar el teló."
+          },
+          "l279a-q7": {
+            "prompt": "Què canvia per a l’Adil en guardar el teló?",
+            "options": [
+              "Reconeix la feina de l’Iu darrere la roba.",
+              "Decideix repetir l’obra sense moure el teló.",
+              "Descobreix que falten peces del teatrí.",
+              "Comprova que la guineu havia trencat la baga."
+            ],
+            "correct": "a",
+            "explanation": "Entén millor la feina de l’Iu i el convida a saludar junts la pròxima vegada."
+          }
+        }
+      },
+      {
+        "code": "L279",
+        "language": "es",
+        "questions": {
+          "l279-q1": {
+            "prompt": "¿Qué dos partes principales del teatrillo debían devolver?",
+            "options": [
+              "La zorra de cartón y el cuento.",
+              "La mesa del escenario y las sillas.",
+              "El bastidor plegable y el telón azul.",
+              "La gorra de Iu y la tira azul."
+            ],
+            "correct": "c",
+            "explanation": "El bastidor plegable y el telón azul."
+          },
+          "l279-q2": {
+            "prompt": "¿Por qué Adil había prestado poca atención a Iu durante la función?",
+            "options": [
+              "Estaba pendiente del relato y de lo visible.",
+              "Había salido del local antes del final.",
+              "Creía que Iu estaba apilando las sillas.",
+              "No conocía a ninguno de los actores."
+            ],
+            "correct": "a",
+            "explanation": "Leía y miraba los animales visibles, mientras Iu trabajaba detrás del telón."
+          },
+          "l279-q3": {
+            "prompt": "¿Qué dificultad había planteado Iu en el ensayo?",
+            "options": [
+              "No podía oír la lectura desde su sitio.",
+              "No sabía cómo mover la zorra de cartón.",
+              "No encontraba su gorra antes de salir.",
+              "No encontraba el punto de agarre detrás."
+            ],
+            "correct": "d",
+            "explanation": "No sabía cómo encontrar desde detrás el lugar donde debía tirar de la tela."
+          },
+          "l279-q4": {
+            "prompt": "¿A qué cara del telón se refiere «revés»?",
+            "options": [
+              "La cara que presenta los animales al público.",
+              "La cara posterior, donde estaba la presilla.",
+              "La franja inferior que toca el suelo.",
+              "El pliegue que Rosa sube al estante."
+            ],
+            "correct": "b",
+            "explanation": "A la cara que quedaba detrás y no se orientaba al público."
+          },
+          "l279-q5": {
+            "prompt": "¿Cómo resolvía la presilla el problema de Iu?",
+            "options": [
+              "Le mostraba desde fuera dónde estaba la zorra.",
+              "Le permitía oír mejor la última frase.",
+              "Le daba un punto reconocible con la mano.",
+              "Le indicaba cuándo debía salir a saludar."
+            ],
+            "correct": "c",
+            "explanation": "Le permitía localizar con el tacto el punto de agarre sin asomarse."
+          },
+          "l279-q6": {
+            "prompt": "¿En qué momento cosió Lidia la presilla?",
+            "options": [
+              "Después del ensayo y antes de representar.",
+              "Antes del ensayo de aquella mañana.",
+              "Durante los saludos finales de los actores.",
+              "Después de devolver el telón al estante."
+            ],
+            "correct": "a",
+            "explanation": "Por la mañana, entre el ensayo y la función."
+          },
+          "l279-q7": {
+            "prompt": "¿Qué descubre Adil sobre el salto de la zorra?",
+            "options": [
+              "Que se debía a una pinza mal colocada.",
+              "Que Iu también movía la figura de cartón.",
+              "Que había sido una improvisación sin señales.",
+              "Que enlazaba su lectura con dos movimientos."
+            ],
+            "correct": "d",
+            "explanation": "Que el efecto dependía también del movimiento que Iu iniciaba al oírlo leer."
+          },
+          "l279-q8": {
+            "prompt": "¿Por qué Iu no había salido con los demás al saludo?",
+            "options": [
+              "Había salido a buscar la gorra.",
+              "Se quedó esperando que lo avisaran.",
+              "Le habían pedido recoger las sillas.",
+              "Estaba retirando la tira cosida."
+            ],
+            "correct": "b",
+            "explanation": "Esperaba un aviso que nadie le dio."
+          },
+          "l279-q9": {
+            "prompt": "¿Qué resume el cambio que provoca el hallazgo de la presilla?",
+            "options": [
+              "El grupo sustituye la zorra por otro animal.",
+              "Rosa decide conservar la tira en el telón.",
+              "Adil reconoce la aportación de Iu y lo incluye.",
+              "Lidia descubre que el telón estaba dañado."
+            ],
+            "correct": "c",
+            "explanation": "Adil relaciona el efecto visible con el trabajo oculto de Iu y propone incluirlo en el saludo."
+          }
+        }
+      },
+      {
+        "code": "L279",
+        "language": "ca",
+        "questions": {
+          "l279-q1": {
+            "prompt": "Quines dues parts principals del teatrí havien de tornar?",
+            "options": [
+              "La guineu de cartró i el conte.",
+              "La taula de l’escenari i les cadires.",
+              "El bastidor plegable i el teló blau.",
+              "La gorra de l’Iu i la tira blava."
+            ],
+            "correct": "c",
+            "explanation": "El bastidor plegable i el teló blau."
+          },
+          "l279-q2": {
+            "prompt": "Per què l’Adil havia parat poca atenció a l’Iu durant la funció?",
+            "options": [
+              "Estava pendent del relat i d’allò visible.",
+              "Havia sortit del local abans del final.",
+              "Creia que l’Iu apilava les cadires.",
+              "No coneixia cap dels actors."
+            ],
+            "correct": "a",
+            "explanation": "Llegia i mirava els animals visibles, mentre l’Iu treballava darrere del teló."
+          },
+          "l279-q3": {
+            "prompt": "Quina dificultat havia plantejat l’Iu a l’assaig?",
+            "options": [
+              "No podia sentir la lectura des del seu lloc.",
+              "No sabia com moure la guineu de cartró.",
+              "No trobava la gorra abans de sortir.",
+              "No trobava el punt per agafar-se al darrere."
+            ],
+            "correct": "d",
+            "explanation": "No sabia com trobar des del darrere el lloc on havia d’estirar la roba."
+          },
+          "l279-q4": {
+            "prompt": "A quina cara del teló es refereix «revés»?",
+            "options": [
+              "La cara que presenta els animals al públic.",
+              "La cara posterior, on hi havia la baga.",
+              "La franja inferior que toca a terra.",
+              "El plec que la Rosa puja al prestatge."
+            ],
+            "correct": "b",
+            "explanation": "A la cara que quedava al darrere i no s’orientava al públic."
+          },
+          "l279-q5": {
+            "prompt": "Com resolia la baga el problema de l’Iu?",
+            "options": [
+              "Li mostrava des de fora on era la guineu.",
+              "Li permetia sentir millor l’última frase.",
+              "Li donava un punt recognoscible amb la mà.",
+              "Li indicava quan havia de sortir a saludar."
+            ],
+            "correct": "c",
+            "explanation": "Li permetia localitzar amb el tacte el punt per agafar-se sense treure el cap."
+          },
+          "l279-q6": {
+            "prompt": "En quin moment va cosir la Lídia la baga?",
+            "options": [
+              "Després de l’assaig i abans de representar.",
+              "Abans de l’assaig d’aquell matí.",
+              "Durant les salutacions finals dels actors.",
+              "Després de tornar el teló al prestatge."
+            ],
+            "correct": "a",
+            "explanation": "Al matí, entre l’assaig i la funció."
+          },
+          "l279-q7": {
+            "prompt": "Què descobreix l’Adil sobre el salt de la guineu?",
+            "options": [
+              "Que es devia a una pinça mal col·locada.",
+              "Que l’Iu també movia la figura de cartró.",
+              "Que havia estat una improvisació sense senyals.",
+              "Que enllaçava la seva lectura amb dos moviments."
+            ],
+            "correct": "d",
+            "explanation": "Que l’efecte depenia també del moviment que l’Iu iniciava en sentir-lo llegir."
+          },
+          "l279-q8": {
+            "prompt": "Per què l’Iu no havia sortit amb els altres a saludar?",
+            "options": [
+              "Havia sortit a buscar la gorra.",
+              "Es va quedar esperant que l’avisessin.",
+              "Li havien demanat recollir les cadires.",
+              "Retirava la tira cosida."
+            ],
+            "correct": "b",
+            "explanation": "Esperava un avís que ningú no li va donar."
+          },
+          "l279-q9": {
+            "prompt": "Què resumeix el canvi que provoca la descoberta de la baga?",
+            "options": [
+              "El grup substitueix la guineu per un altre animal.",
+              "La Rosa decideix conservar la tira al teló.",
+              "L’Adil reconeix l’aportació de l’Iu i l’inclou.",
+              "La Lídia descobreix que el teló estava malmès."
+            ],
+            "correct": "c",
+            "explanation": "L’Adil relaciona l’efecte visible amb la feina amagada de l’Iu i proposa incloure’l a la salutació."
+          }
+        }
+      },
+      {
+        "code": "L279B",
+        "language": "es",
+        "questions": {
+          "l279b-q1": {
+            "prompt": "¿Dónde funcionaba la biblioteca respecto a la sala de la representación?",
+            "options": [
+              "En el mismo escenario detrás del telón.",
+              "En otra planta de la asociación.",
+              "En el local situado al lado de la sala.",
+              "En el almacén de las figuras de cartón."
+            ],
+            "correct": "c",
+            "explanation": "En el local contiguo."
+          },
+          "l279b-q2": {
+            "prompt": "¿Qué favorece que Adil recuerde sobre todo el salto de la zorra?",
+            "options": [
+              "Su visión lateral y la atención a lo visible.",
+              "Su desconocimiento de la palabra que debía leer.",
+              "Su tarea de sujetar el telón desde el fondo.",
+              "Su salida de la sala antes de los aplausos."
+            ],
+            "correct": "a",
+            "explanation": "Su posición y su atención a las páginas, los animales visibles y la reacción del público."
+          },
+          "l279b-q3": {
+            "prompt": "¿Qué había pedido Iu en el ensayo?",
+            "options": [
+              "Cambiar la palabra que anunciaba el viento.",
+              "Una señal para el momento del saludo final.",
+              "Poder leer el cuento desde el lateral.",
+              "Reconocer al tacto dónde debía agarrarse."
+            ],
+            "correct": "d",
+            "explanation": "Una forma de encontrar sin mirar dónde debía poner la mano."
+          },
+          "l279b-q4": {
+            "prompt": "¿Qué designa «revés» cuando extienden el telón?",
+            "options": [
+              "El borde que se levanta al oír la señal.",
+              "La cara posterior que quedaba oculta al público.",
+              "La esquina que debe doblarse en primer lugar.",
+              "La tira cosida por la directora tras el ensayo."
+            ],
+            "correct": "b",
+            "explanation": "La cara posterior de la tela, opuesta a la orientada al público."
+          },
+          "l279b-q5": {
+            "prompt": "¿Por qué la presilla podía ayudar a Iu sin destacar en la escena?",
+            "options": [
+              "Estaba junto al borde y señalaba a qué altura debía saltar la zorra.",
+              "Marcaba la salida de Iu y él la reconocía desde el lado de las sillas.",
+              "Se reconocía con la mano y su color se parecía al del telón.",
+              "Sujetaba las pinzas por detrás y mantenía el borde a la altura adecuada."
+            ],
+            "correct": "c",
+            "explanation": "Se reconocía con la mano y tenía un color parecido al del telón."
+          },
+          "l279b-q6": {
+            "prompt": "¿Qué cadena de señales producía el efecto del viento y el salto?",
+            "options": [
+              "Lectura de Adil, movimiento de Iu y salto de la zorra.",
+              "Salto de la zorra, movimiento de Iu y lectura de Adil.",
+              "Movimiento de Iu, lectura de Adil y salto de la zorra.",
+              "Lectura de Adil, salto de la zorra y movimiento de Iu."
+            ],
+            "correct": "a",
+            "explanation": "La palabra de Adil guiaba a Iu; el movimiento de la tela guiaba a quien llevaba la zorra."
+          },
+          "l279b-q7": {
+            "prompt": "¿Cómo cambia el conocimiento de Adil al encontrar la presilla?",
+            "options": [
+              "Aprende por qué Iu se había quedado detrás durante el saludo.",
+              "Relaciona el salto con «viento», sin advertir el movimiento de la tela.",
+              "Concluye que la presilla indicaba a Iu cuándo debía salir a saludar.",
+              "Entiende cómo se enlazaban las tareas que ya conocía."
+            ],
+            "correct": "d",
+            "explanation": "Relaciona dos tareas que conocía por separado y reconstruye la coordinación del efecto."
+          },
+          "l279b-q8": {
+            "prompt": "¿Qué acuerdo explica que Lidia quite la tira al devolver el telón?",
+            "options": [
+              "Guardarla dentro de la tela para otra obra.",
+              "Retirar el añadido temporal al hacer el retorno.",
+              "Cambiar el color del borde después de la función.",
+              "Conservarla como señal fija de todos los grupos."
+            ],
+            "correct": "b",
+            "explanation": "Había acordado con Rosa retirar ese añadido temporal."
+          },
+          "l279b-q9": {
+            "prompt": "¿Qué primera explicación de Adil corrige la respuesta de Iu sobre el saludo?",
+            "options": [
+              "Que Iu había confundido «viento» con la señal del saludo.",
+              "Que Iu debía quedarse para retirar la presilla al final.",
+              "Que Iu había preferido quedarse fuera del saludo.",
+              "Que Iu había ido a buscar su gorra durante los aplausos."
+            ],
+            "correct": "c",
+            "explanation": "Adil había supuesto que prefería no salir; Iu esperaba que alguien le avisara."
+          },
+          "l279b-q10": {
+            "prompt": "¿Qué función tiene la pregunta del ensayo en el desarrollo del relato?",
+            "options": [
+              "Anticipa la dificultad que resolverá la presilla.",
+              "Explica la espera de Iu durante los aplausos del saludo.",
+              "Presenta el problema que obliga a cambiar la palabra del narrador.",
+              "Justifica la retirada de la tira al terminar la representación."
+            ],
+            "correct": "a",
+            "explanation": "Prepara la explicación de la presilla y conecta el hallazgo con una necesidad anterior."
+          },
+          "l279b-q11": {
+            "prompt": "¿Qué formulación reúne mejor los dos descubrimientos de Adil?",
+            "options": [
+              "El telón se había dañado y el niño debía repararlo.",
+              "El actor de la zorra improvisó y se olvidó del cuento.",
+              "La tira era permanente y el saludo ya estaba ensayado.",
+              "Había trabajo oculto y una espera que él interpretó mal."
+            ],
+            "correct": "d",
+            "explanation": "Comprende la coordinación oculta del efecto y revisa su interpretación de la ausencia de Iu en el saludo."
+          }
+        }
+      },
+      {
+        "code": "L279B",
+        "language": "ca",
+        "questions": {
+          "l279b-q1": {
+            "prompt": "On funcionava la biblioteca respecte de la sala de la representació?",
+            "options": [
+              "Al mateix escenari darrere del teló.",
+              "En una altra planta de l’associació.",
+              "Al local situat al costat de la sala.",
+              "Al magatzem de les figures de cartró."
+            ],
+            "correct": "c",
+            "explanation": "Al local contigu."
+          },
+          "l279b-q2": {
+            "prompt": "Què afavoreix que l’Adil recordi sobretot el salt de la guineu?",
+            "options": [
+              "La visió lateral i l’atenció a allò visible.",
+              "El desconeixement de la paraula que havia de llegir.",
+              "La tasca de subjectar el teló des del fons.",
+              "La sortida de la sala abans dels aplaudiments."
+            ],
+            "correct": "a",
+            "explanation": "La seva posició i l’atenció a les pàgines, els animals visibles i la reacció del públic."
+          },
+          "l279b-q3": {
+            "prompt": "Què havia demanat l’Iu a l’assaig?",
+            "options": [
+              "Canviar la paraula que anunciava el vent.",
+              "Un senyal per al moment de la salutació final.",
+              "Poder llegir el conte des del lateral.",
+              "Reconèixer amb el tacte on havia d’agafar-se."
+            ],
+            "correct": "d",
+            "explanation": "Una manera de trobar sense mirar on havia de posar la mà."
+          },
+          "l279b-q4": {
+            "prompt": "Què designa «revés» quan estenen el teló?",
+            "options": [
+              "La vora que s’aixeca en sentir el senyal.",
+              "La cara posterior que quedava amagada al públic.",
+              "El racó que s’ha de plegar en primer lloc.",
+              "La tira cosida per la directora després de l’assaig."
+            ],
+            "correct": "b",
+            "explanation": "La cara posterior de la roba, oposada a l’orientada al públic."
+          },
+          "l279b-q5": {
+            "prompt": "Per què la baga podia ajudar l’Iu sense destacar a l’escena?",
+            "options": [
+              "Era al costat de la vora i assenyalava a quina altura havia de saltar la guineu.",
+              "Marcava la sortida de l’Iu i ell la reconeixia des del costat de les cadires.",
+              "Es reconeixia amb la mà i el seu color s’assemblava al del teló.",
+              "Subjectava les pinces pel darrere i mantenia la vora a l’altura adequada."
+            ],
+            "correct": "c",
+            "explanation": "Es reconeixia amb la mà i tenia un color semblant al del teló."
+          },
+          "l279b-q6": {
+            "prompt": "Quina cadena de senyals produïa l’efecte del vent i el salt?",
+            "options": [
+              "Lectura de l’Adil, moviment de l’Iu i salt de la guineu.",
+              "Salt de la guineu, moviment de l’Iu i lectura de l’Adil.",
+              "Moviment de l’Iu, lectura de l’Adil i salt de la guineu.",
+              "Lectura de l’Adil, salt de la guineu i moviment de l’Iu."
+            ],
+            "correct": "a",
+            "explanation": "La paraula de l’Adil guiava l’Iu; el moviment de la roba guiava qui duia la guineu."
+          },
+          "l279b-q7": {
+            "prompt": "Com canvia el coneixement de l’Adil en trobar la baga?",
+            "options": [
+              "Aprèn per què l’Iu s’havia quedat al darrere durant la salutació.",
+              "Relaciona el salt amb «vent», sense advertir el moviment de la roba.",
+              "Conclou que la baga indicava a l’Iu quan havia de sortir a saludar.",
+              "Entén com s’enllaçaven les tasques que ja coneixia."
+            ],
+            "correct": "d",
+            "explanation": "Relaciona dues tasques que coneixia per separat i reconstrueix la coordinació de l’efecte."
+          },
+          "l279b-q8": {
+            "prompt": "Quin acord explica que la Lídia tregui la tira en tornar el teló?",
+            "options": [
+              "Guardar-la dins de la roba per a una altra obra.",
+              "Retirar l’afegit temporal en fer el retorn.",
+              "Canviar el color de la vora després de la funció.",
+              "Conservar-la com a senyal fix de tots els grups."
+            ],
+            "correct": "b",
+            "explanation": "Havia acordat amb la Rosa retirar aquell afegit temporal."
+          },
+          "l279b-q9": {
+            "prompt": "Quina primera explicació de l’Adil corregeix la resposta de l’Iu sobre la salutació?",
+            "options": [
+              "Que l’Iu havia confós «vent» amb el senyal de la salutació.",
+              "Que l’Iu s’havia de quedar per retirar la baga al final.",
+              "Que l’Iu havia preferit quedar-se fora de la salutació.",
+              "Que l’Iu havia anat a buscar la gorra durant els aplaudiments."
+            ],
+            "correct": "c",
+            "explanation": "L’Adil havia suposat que preferia no sortir; l’Iu esperava que algú l’avisés."
+          },
+          "l279b-q10": {
+            "prompt": "Quina funció té la pregunta de l’assaig en el desenvolupament del relat?",
+            "options": [
+              "Anticipa la dificultat que resoldrà la baga.",
+              "Explica l’espera de l’Iu durant els aplaudiments de la salutació.",
+              "Presenta el problema que obliga a canviar la paraula del narrador.",
+              "Justifica la retirada de la tira en acabar la representació."
+            ],
+            "correct": "a",
+            "explanation": "Prepara l’explicació de la baga i connecta la descoberta amb una necessitat anterior."
+          },
+          "l279b-q11": {
+            "prompt": "Quina formulació reuneix millor els dos descobriments de l’Adil?",
+            "options": [
+              "El teló s’havia malmès i el nen l’havia de reparar.",
+              "L’actor de la guineu va improvisar i es va oblidar del conte.",
+              "La tira era permanent i la salutació ja estava assajada.",
+              "Hi havia feina amagada i una espera que ell va interpretar malament."
+            ],
+            "correct": "d",
+            "explanation": "Comprèn la coordinació amagada de l’efecte i revisa la interpretació de l’absència de l’Iu a la salutació."
+          }
+        }
+      }
+    ]
   }
 ];

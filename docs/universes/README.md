@@ -1,20 +1,22 @@
 # Universos de Trama
 
-Índex de continuïtat narrativa i visual, actualitzat el **20 de novembre del 2026**. Cal consultar-lo abans d’ampliar un univers, adaptar-ne una lectura o crear il·lustracions amb personatges recurrents.
+Índex de continuïtat narrativa i visual, actualitzat el **26 de novembre del 2026**. Cal consultar-lo abans d’ampliar un univers, adaptar-ne una lectura o crear il·lustracions amb personatges recurrents.
 
 ## Els cinc universos
 
 | Univers i guia | Identificador estable | Origen | Altres històries | Tram de les propostes |
 | --- | --- | --- | --- | --- |
-| [La biblioteca de les coses](biblioteca-de-les-coses.md) | `biblioteca-de-les-coses` | L208 | L246–L248 | 1r d’ESO inicial |
+| [La biblioteca de les coses](biblioteca-de-les-coses.md) | `biblioteca-de-les-coses` | L208 | L246–L248, L269–L279 | 6è–1r d’ESO; 15 històries |
 | [L’observatori del turó](observatori-del-turo.md) | `observatori-del-turo` | L175 | L249–L253 | 4t–5è |
 | [El taller de la plaça](taller-de-la-placa.md) | `taller-de-la-placa` | L039 | L254–L258 | 4t–5è |
 | [La redacció del pati](redaccio-del-pati.md) | `redaccio-del-pati` | L070 | L259–L263 | 6è |
 | [Els camins de la ribera](camins-de-la-ribera.md) | `camins-de-la-ribera` | L189 | L264–L268 | 4t–5è |
 
-Totes les històries tenen versió catalana i castellana. Els quatre universos nous incorporen cinc històries cadascun i reutilitzen una lectura d’origen: **sis propostes autònomes per univers**. La biblioteca en conserva quatre. Les famílies de L208, L175 i L039 aporten altres graus, però cada família continua comptant com una sola proposta al catàleg. Així, aquest conjunt ofereix 28 propostes connectades, sense duplicar traduccions ni graus d’una mateixa família.
+Totes les històries tenen versió catalana i castellana. Els quatre universos del 20 de novembre incorporen cinc històries cadascun i reutilitzen una lectura d’origen: **sis propostes autònomes per univers**. La biblioteca n’ofereix quinze des del 26 de novembre. Les famílies aporten altres graus, però cadascuna continua comptant com una sola proposta al catàleg. Així, aquest conjunt ofereix **39 propostes connectades**, sense duplicar traduccions ni graus d’una mateixa família.
 
-La tanda L249–L268 afegeix 20 obres i 40 versions lingüístiques. Després d’aquesta tanda, el catàleg complet té 310 obres concretes, 620 versions lingüístiques i 268 propostes quan s’agrupen les 21 famílies. Són recomptes d’aquesta edició, no objectius fixos per a les ampliacions futures.
+La tanda L249–L268 del 20 de novembre va afegir 20 obres i 40 versions lingüístiques. En aquella edició el catàleg tenia 310 obres concretes, 620 versions lingüístiques i 268 propostes agrupant les 21 famílies. Són recomptes històrics, no objectius fixos.
+
+La tanda L269–L279 del 26 de novembre afegeix onze famílies noves de la biblioteca: **33 versions graduades i 66 versions lingüístiques**, totes amb resposta textual i alternatives ABCD pertinents, solucionari, evidències i dues il·lustracions. El [registre propi](library-expansion-2026-11-26-review.json) identifica separadament cada variant i idioma revisats. La [guia d’autoria](library-expansion-2026-11-26-authoring.md) fixa el model per continuar ampliant el món.
 
 Les quaranta versions han superat la revisió independent i són **provisionals, pendents de validació docent**. El [registre editorial de la tanda](review-2026-11-20.md) conserva codi, llengua, data, resultat i identificació exacta de la versió revisada. Un canvi editorial posterior requereix revalidar els elements afectats.
 
@@ -57,6 +59,8 @@ node tools/check-editorial.mjs
 node tools/check-answer-evidence.mjs
 node tools/check-family-editions.mjs --complete
 node tools/check-universes-browser.cjs
+node tools/check-library-expansion.mjs --complete
+node tools/check-library-expansion-browser.cjs
 ```
 
 La comprovació d’ampliació valida els cinc mons, les vint obres bilingües, els recursos, les metadades, les preguntes i les cites. La del navegador comprova filtre i recomptes de tots els universos, fitxes i solucionaris en tots dos idiomes, preservació del text, desbordaments i un PDF real, sense visitar producció.
