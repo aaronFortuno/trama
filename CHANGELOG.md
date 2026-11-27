@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.66.3 · 27 de novembre del 2026
+
+Reforcem segon cicle avançat amb les L289C–L293C de l’Observatori: cinc variants en català i castellà, nou preguntes per fitxa, alternatives ABCD exigents, solucionari i evidències. El bloc arriba a 20 propostes i aquestes famílies mostren quatre graus ordenats. Completem la tanda de 35 variants sense afegir històries; actualitzem criteris, guies i balanç. Revisió independent superada; validació docent pendent.
+
 ## 1.66.2 · 27 de novembre del 2026
 
 Completem quinze famílies amb versions inicials i avançades de primer cicle. Les L126, L139, L125 i L145 incorporen les últimes vuit variants en català i castellà, amb preguntes obertes i ABCD, solucionari, evidències i il·lustracions compartides. El primer cicle disposa de 15 propostes inicials, 28 intermèdies i 15 avançades. Revisió independent superada; validació docent pendent.

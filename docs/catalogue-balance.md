@@ -1,15 +1,15 @@
 # Balanç del catàleg per cicles
 
-Fotografia del 27 de novembre del 2026, versió v1.66.2. Generada amb `node tools/catalogue-balance.mjs --write`.
+Fotografia del 27 de novembre del 2026, versió v1.66.3. Generada amb `node tools/catalogue-balance.mjs --write`.
 
-315 històries diferents, 657 fitxes graduades per idioma, 1314 versions lingüístiques, 156 famílies amb variants i 159 històries sense variants. Tot el catàleg està disponible en català i castellà.
+315 històries diferents, 662 fitxes graduades per idioma, 1324 versions lingüístiques, 156 famílies amb variants i 159 històries sense variants. Tot el catàleg està disponible en català i castellà.
 
 Cada casella compta una història una sola vegada, agrupant família i sense duplicar idiomes. Els totals de fila també dedupliquen famílies: no són necessàriament la suma de dificultats. Una família pot aparèixer en diversos cicles.
 
 | Cicle o etapa | Inicial | Intermèdia | Avançada | Històries diferents |
 | --- | ---: | ---: | ---: | ---: |
 | Primer cicle · 1r–2n | 15 | 28 | 15 | 28 |
-| Segon cicle · 3r–4t | 54 | 140 | 15 | 156 |
+| Segon cicle · 3r–4t | 54 | 140 | 20 | 156 |
 | Tercer cicle · 5è–6è | 131 | 121 | 24 | 199 |
 | Primer cicle d’ESO · 1r–2n | 39 | 35 | 26 | 89 |
 
@@ -38,7 +38,7 @@ Els cinc universos tenen quinze històries cadascun. Els zeros indiquen absènci
 
 | Cicle o etapa | Inicial | Intermèdia | Avançada |
 | --- | ---: | ---: | ---: |
-| Segon cicle · 3r–4t | 10 | 12 | 1 |
+| Segon cicle · 3r–4t | 10 | 12 | 6 |
 | Tercer cicle · 5è–6è | 11 | 1 | 0 |
 
 ## El taller de la plaça
@@ -64,8 +64,8 @@ Els cinc universos tenen quinze històries cadascun. Els zeros indiquen absènci
 
 ## Lectura editorial del balanç
 
-- Segon cicle avançat és el bloc general amb menys marge. Cal completar-lo amb exigència real després de la revisió, sense promocionar peces només per omplir una quota.
-- Primer cicle de primària conserva 28 propostes intermèdies. Les variants inicials i avançades es completen sobre les mateixes històries, amb objectiu de quinze propostes per franja.
+- Segon cicle avançat disposa de 20 propostes. La compleció prevista queda coberta; convé validar-ne l’exigència abans d’ampliar de nou.
+- Primer cicle de primària: 15 inicials, 28 intermèdies i 15 avançades. Objectiu de quinze per franja assolit mitjançant variants; prioritzar ara la validació docent i els usos reals.
 - Els blocs d’univers es concentren en inicial/intermedi. Val la pena prioritzar variants exigents de mons existents abans d’afegir històries desconnectades.
 - Article d’opinió, ressenya i notícia continuen sent els gèneres menys abundants; adaptar peces existents pot reforçar diversitat i DUA alhora.
 

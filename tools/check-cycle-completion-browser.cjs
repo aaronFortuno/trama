@@ -21,18 +21,23 @@ const origin='http://127.0.0.1:4220';
     const render=await page.evaluate(async()=>{
       const{readings}=await import('./data/readings.js');const{cycleCompletionAdaptations}=await import('./data/cycle-completion.js');
       const{exportWorksheetPages,decodeWorksheetImages}=await import('./worksheet.js');const{defaultSettings}=await import('./worksheet-code.js');
+      const{multipleChoice}=await import('./data/question-choices.js');
       const{loadWorksheetFont}=await import('./worksheet-fonts.js');
       const codes=new Set(cycleCompletionAdaptations.map(edition=>edition.source+edition.suffix));const results=[];
       for(const reading of readings.filter(reading=>codes.has(reading.code))){
         const settings=defaultSettings(reading.level);await loadWorksheetFont(settings.font);
-        for(const answerKey of[false,true]){
+        for(const questionMode of['open','choice'])for(const answerKey of[false,true]){
+          settings.questionMode=questionMode;
           const pages=exportWorksheetPages(reading,settings,answerKey);await decodeWorksheetImages(pages);
           if(!pages.length||pages.some(page=>page.lang!==reading.language))throw Error(reading.code+': missing page or wrong language');
           if(!pages[0].textContent.includes(reading.title))throw Error(reading.code+': title missing');
           const questions=pages.flatMap(page=>[...page.querySelectorAll('.worksheet-question')]);
           if(questions.length!==reading.questions.length)throw Error(reading.code+': lost questions');
+          const expectedChoices=questionMode==='choice'?reading.questions.filter(question=>multipleChoice(reading,question)).length:0;
+          const renderedLetters=pages.flatMap(page=>[...page.querySelectorAll('.worksheet-choice-letter')]).filter(letter=>letter.textContent.trim());
+          if(renderedLetters.length!==expectedChoices*4)throw Error(reading.code+': missing choice alternatives');
           if(pages.some(page=>page.querySelector('[data-action]')))throw Error(reading.code+': editing controls in export');
-          results.push({code:reading.code,language:reading.language,answerKey,pages:pages.length});
+          results.push({code:reading.code,language:reading.language,answerKey,questionMode,pages:pages.length});
         }
       }
       return results;
@@ -62,8 +67,25 @@ const origin='http://127.0.0.1:4220';
     });
     await page.goto(origin+'/#lectura='+original);await page.reload();await page.locator('#studio-pages .worksheet-page').first().waitFor();
     assert.equal(await page.locator('[name="classroomCode"]').inputValue(),'2.1.1');assert.equal(await page.locator('[name="fontSize"]').inputValue(),'16');
+    const observatory=await page.evaluate(async()=>{
+      const{cycleCompletionAdaptations}=await import('./data/cycle-completion.js');
+      if(!cycleCompletionAdaptations.some(edition=>edition.source==='L289'))return null;
+      const{readings}=await import('./data/readings.js');
+      return['L289A','L289','L289C','L289B'].map(code=>readings.find(reading=>reading.code===code&&reading.language==='es').id);
+    });
+    if(observatory){
+      await page.locator('[data-action="catalog"]').click();await page.locator('#search').fill('L289');
+      await page.waitForFunction(()=>document.querySelector('#reading-grid .card-difficulty').textContent==='4 variants');
+      await page.locator('#reading-grid .card-open').click();await page.locator('#family-dialog').waitFor();
+      assert.deepEqual(await page.locator('.family-option').evaluateAll(buttons=>buttons.map(button=>button.dataset.reading)),observatory);
+      await page.locator(`.family-option[data-reading="${observatory[2]}"]`).click();
+      await page.waitForFunction(()=>document.querySelector('#studio-reading-code').textContent==='L289C');
+      assert((await page.locator('#studio-meta').textContent()).includes('2n cicle · Avançada'));
+      assert.equal(await page.locator('[name="fontSize"]').inputValue(),'13');
+    }
     assert.deepEqual(errors,[]);assert.deepEqual(missing,[]);
-    console.log(JSON.stringify({renderedDocuments:render.length,languageEditions:render.length/2,fiveVariantFamily:'ordered and comparable',
+    console.log(JSON.stringify({renderedDocuments:render.length,languageEditions:render.length/4,responseFormats:['open','choice'],fiveVariantFamily:'ordered and comparable',
+      fourVariantFamily:observatory?'ordered with intermediate extension':'not yet published',
       format:'Massallera 15pt',oldLayout:'preserved',print:'solution in reading language',missingAssets:missing,errors}));
     await context.close();
   }finally{if(browser)await browser.close();server.kill();}

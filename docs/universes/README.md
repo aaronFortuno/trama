@@ -1,6 +1,6 @@
 # Universos de Trama
 
-Índex de continuïtat narrativa i visual, actualitzat el **26 de novembre del 2026**. Cal consultar-lo abans d’ampliar un univers, adaptar-ne una lectura o crear il·lustracions amb personatges recurrents.
+Índex de continuïtat narrativa i visual, actualitzat el **27 de novembre del 2026**. Cal consultar-lo abans d’ampliar un univers, adaptar-ne una lectura o crear il·lustracions amb personatges recurrents.
 
 ## Els cinc universos
 
@@ -21,6 +21,8 @@ La tanda L269–L279 del 26 de novembre afegeix onze famílies noves de la bibli
 La tanda L280–L288 completa la redacció amb **nou famílies noves, 27 versions graduades i 54 versions lingüístiques**. El [registre de revisió](newsroom-expansion-2026-11-26-review.json), la [guia d’autoria](newsroom-expansion-2026-11-26-authoring.md) i les [instruccions de les il·lustracions](newsroom-expansion-2026-11-26-images.json) en documenten els continguts, el procés i la continuïtat visual.
 
 La tanda L289–L297 completa l’observatori amb **nou famílies noves, 27 versions graduades i 54 versions lingüístiques**, amb suport de 3r, referència de 4t i ampliació de 5è. El [registre editorial](observatory-expansion-2026-11-26-review.json), la [guia d’autoria](observatory-expansion-2026-11-26-authoring.md), les [fonts científiques](observatory-expansion-2026-11-26-sources.md) i els [prompts de les il·lustracions](observatory-expansion-2026-11-26-images.json) permeten continuar el món sense perdre’n la coherència.
+
+La [compleció per cicles del 27 de novembre](../cycle-completion.md) afegeix **L289C–L293C**, cinc edicions de segon cicle avançat, en català i castellà, dins de les mateixes famílies de l’Observatori. Aquestes cinc famílies tenen quatre variants en ordre A → original → C → B. L’univers continua oferint quinze històries; augmenten els graus disponibles, amb preguntes i distractors propis i les mateixes il·lustracions.
 
 La tanda L298–L306 completa el taller amb **nou famílies noves, 27 versions graduades i 54 versions lingüístiques**: suport de 4t, referència de 5è i ampliació de 6è. Combina narració, diari, notícia, carta, instruccions, entrevista, ressenya i text informatiu. El [registre editorial](workshop-expansion-2026-11-26-review.json), la [guia d’autoria](workshop-expansion-2026-11-26-authoring.md) i els [prompts de les nou escenes](workshop-expansion-2026-11-26-images.json) en documenten la revisió i la continuïtat visual. En tancar aquesta tanda el catàleg sumava **306 propostes agrupades, 600 fitxes concretes i 1.200 versions lingüístiques**.
 

@@ -1,12 +1,12 @@
 {
   "date": "2026-11-27",
-  "edition": "v1.66.2",
+  "edition": "v1.66.3",
   "classificationVersion": 2,
   "totals": {
     "proposals": 315,
-    "editions": 657,
+    "editions": 662,
     "families": 156,
-    "languageEditions": 1314,
+    "languageEditions": 1324,
     "languages": [
       "ca",
       "es"
@@ -40,7 +40,7 @@
     },
     "primary-cycle-2": {
       "proposals": 156,
-      "editions": 219,
+      "editions": 224,
       "families": 115,
       "difficulties": {
         "initial": {
@@ -54,9 +54,9 @@
           "families": 114
         },
         "advanced": {
-          "proposals": 15,
-          "editions": 15,
-          "families": 7
+          "proposals": 20,
+          "editions": 20,
+          "families": 12
         }
       }
     },
@@ -207,7 +207,7 @@
       "id": "observatori-del-turo",
       "name": "L’observatori del turó",
       "proposals": 15,
-      "editions": 35,
+      "editions": 40,
       "families": 10,
       "levels": {
         "primary-cycle-1": {
@@ -234,7 +234,7 @@
         },
         "primary-cycle-2": {
           "proposals": 13,
-          "editions": 23,
+          "editions": 28,
           "families": 10,
           "difficulties": {
             "initial": {
@@ -248,9 +248,9 @@
               "families": 10
             },
             "advanced": {
-              "proposals": 1,
-              "editions": 1,
-              "families": 0
+              "proposals": 6,
+              "editions": 6,
+              "families": 5
             }
           }
         },
@@ -596,19 +596,19 @@
     "narrative": {
       "label": "Narració",
       "proposals": 100,
-      "editions": 220,
+      "editions": 221,
       "families": 54
     },
     "informative": {
       "label": "Divulgació",
       "proposals": 76,
-      "editions": 122,
+      "editions": 123,
       "families": 22
     },
     "instructional": {
       "label": "Text instructiu",
       "proposals": 33,
-      "editions": 83,
+      "editions": 84,
       "families": 21
     },
     "interview": {
@@ -620,7 +620,7 @@
     "letter": {
       "label": "Carta",
       "proposals": 30,
-      "editions": 74,
+      "editions": 75,
       "families": 20
     },
     "news": {
@@ -638,7 +638,7 @@
     "diary": {
       "label": "Diari",
       "proposals": 14,
-      "editions": 28,
+      "editions": 29,
       "families": 7
     },
     "argument": {

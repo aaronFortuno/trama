@@ -1,9 +1,9 @@
 {
   "date": "2026-11-27",
-  "totalWorks": 657,
-  "coveredWorks": 657,
+  "totalWorks": 662,
+  "coveredWorks": 662,
   "pendingWorks": 0,
-  "localizedAlternatives": 6748,
+  "localizedAlternatives": 6828,
   "ranges": [
     {
       "start": 1,
@@ -407,15 +407,15 @@
     {
       "start": 286,
       "end": 290,
-      "total": 15,
-      "covered": 15,
+      "total": 17,
+      "covered": 17,
       "status": "complete"
     },
     {
       "start": 291,
       "end": 295,
-      "total": 15,
-      "covered": 15,
+      "total": 18,
+      "covered": 18,
       "status": "complete"
     },
     {
@@ -34448,6 +34448,91 @@
       }
     },
     {
+      "code": "L289C",
+      "baseCode": "L289",
+      "variant": true,
+      "level": "4-primary",
+      "difficulty": "advanced",
+      "title": "La visita a plena llum",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l289c-q1",
+              "number": 1
+            },
+            {
+              "id": "l289c-q2",
+              "number": 2
+            },
+            {
+              "id": "l289c-q3",
+              "number": 3
+            },
+            {
+              "id": "l289c-q4",
+              "number": 4
+            },
+            {
+              "id": "l289c-q5",
+              "number": 5
+            },
+            {
+              "id": "l289c-q6",
+              "number": 6
+            },
+            {
+              "id": "l289c-q7",
+              "number": 7
+            },
+            {
+              "id": "l289c-q8",
+              "number": 8
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l289c-q1",
+              "number": 1
+            },
+            {
+              "id": "l289c-q2",
+              "number": 2
+            },
+            {
+              "id": "l289c-q3",
+              "number": 3
+            },
+            {
+              "id": "l289c-q4",
+              "number": 4
+            },
+            {
+              "id": "l289c-q5",
+              "number": 5
+            },
+            {
+              "id": "l289c-q6",
+              "number": 6
+            },
+            {
+              "id": "l289c-q7",
+              "number": 7
+            },
+            {
+              "id": "l289c-q8",
+              "number": 8
+            }
+          ]
+        }
+      }
+    },
+    {
       "code": "L290",
       "baseCode": "L290",
       "variant": false,
@@ -34673,6 +34758,91 @@
             {
               "id": "l290b-q9",
               "number": 9
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L290C",
+      "baseCode": "L290",
+      "variant": true,
+      "level": "4-primary",
+      "difficulty": "advanced",
+      "title": "Un banc a mig camí",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l290c-q1",
+              "number": 1
+            },
+            {
+              "id": "l290c-q2",
+              "number": 2
+            },
+            {
+              "id": "l290c-q3",
+              "number": 3
+            },
+            {
+              "id": "l290c-q4",
+              "number": 4
+            },
+            {
+              "id": "l290c-q5",
+              "number": 5
+            },
+            {
+              "id": "l290c-q6",
+              "number": 6
+            },
+            {
+              "id": "l290c-q7",
+              "number": 7
+            },
+            {
+              "id": "l290c-q8",
+              "number": 8
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l290c-q1",
+              "number": 1
+            },
+            {
+              "id": "l290c-q2",
+              "number": 2
+            },
+            {
+              "id": "l290c-q3",
+              "number": 3
+            },
+            {
+              "id": "l290c-q4",
+              "number": 4
+            },
+            {
+              "id": "l290c-q5",
+              "number": 5
+            },
+            {
+              "id": "l290c-q6",
+              "number": 6
+            },
+            {
+              "id": "l290c-q7",
+              "number": 7
+            },
+            {
+              "id": "l290c-q8",
+              "number": 8
             }
           ]
         }
@@ -34910,6 +35080,91 @@
       }
     },
     {
+      "code": "L291C",
+      "baseCode": "L291",
+      "variant": true,
+      "level": "4-primary",
+      "difficulty": "advanced",
+      "title": "La maleta de les preguntes",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l291c-q1",
+              "number": 1
+            },
+            {
+              "id": "l291c-q2",
+              "number": 2
+            },
+            {
+              "id": "l291c-q3",
+              "number": 3
+            },
+            {
+              "id": "l291c-q4",
+              "number": 4
+            },
+            {
+              "id": "l291c-q5",
+              "number": 5
+            },
+            {
+              "id": "l291c-q6",
+              "number": 6
+            },
+            {
+              "id": "l291c-q7",
+              "number": 7
+            },
+            {
+              "id": "l291c-q8",
+              "number": 8
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l291c-q1",
+              "number": 1
+            },
+            {
+              "id": "l291c-q2",
+              "number": 2
+            },
+            {
+              "id": "l291c-q3",
+              "number": 3
+            },
+            {
+              "id": "l291c-q4",
+              "number": 4
+            },
+            {
+              "id": "l291c-q5",
+              "number": 5
+            },
+            {
+              "id": "l291c-q6",
+              "number": 6
+            },
+            {
+              "id": "l291c-q7",
+              "number": 7
+            },
+            {
+              "id": "l291c-q8",
+              "number": 8
+            }
+          ]
+        }
+      }
+    },
+    {
       "code": "L292",
       "baseCode": "L292",
       "variant": false,
@@ -35141,6 +35396,91 @@
       }
     },
     {
+      "code": "L292C",
+      "baseCode": "L292",
+      "variant": true,
+      "level": "4-primary",
+      "difficulty": "advanced",
+      "title": "Una Lluna que cabia a la mà",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l292c-q1",
+              "number": 1
+            },
+            {
+              "id": "l292c-q2",
+              "number": 2
+            },
+            {
+              "id": "l292c-q3",
+              "number": 3
+            },
+            {
+              "id": "l292c-q4",
+              "number": 4
+            },
+            {
+              "id": "l292c-q5",
+              "number": 5
+            },
+            {
+              "id": "l292c-q6",
+              "number": 6
+            },
+            {
+              "id": "l292c-q7",
+              "number": 7
+            },
+            {
+              "id": "l292c-q8",
+              "number": 8
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l292c-q1",
+              "number": 1
+            },
+            {
+              "id": "l292c-q2",
+              "number": 2
+            },
+            {
+              "id": "l292c-q3",
+              "number": 3
+            },
+            {
+              "id": "l292c-q4",
+              "number": 4
+            },
+            {
+              "id": "l292c-q5",
+              "number": 5
+            },
+            {
+              "id": "l292c-q6",
+              "number": 6
+            },
+            {
+              "id": "l292c-q7",
+              "number": 7
+            },
+            {
+              "id": "l292c-q8",
+              "number": 8
+            }
+          ]
+        }
+      }
+    },
+    {
       "code": "L293",
       "baseCode": "L293",
       "variant": false,
@@ -35366,6 +35706,91 @@
             {
               "id": "l293b-q9",
               "number": 9
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L293C",
+      "baseCode": "L293",
+      "variant": true,
+      "level": "4-primary",
+      "difficulty": "advanced",
+      "title": "La maqueta del cel del poble",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l293c-q1",
+              "number": 1
+            },
+            {
+              "id": "l293c-q2",
+              "number": 2
+            },
+            {
+              "id": "l293c-q3",
+              "number": 3
+            },
+            {
+              "id": "l293c-q4",
+              "number": 4
+            },
+            {
+              "id": "l293c-q5",
+              "number": 5
+            },
+            {
+              "id": "l293c-q6",
+              "number": 6
+            },
+            {
+              "id": "l293c-q7",
+              "number": 7
+            },
+            {
+              "id": "l293c-q8",
+              "number": 8
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l293c-q1",
+              "number": 1
+            },
+            {
+              "id": "l293c-q2",
+              "number": 2
+            },
+            {
+              "id": "l293c-q3",
+              "number": 3
+            },
+            {
+              "id": "l293c-q4",
+              "number": 4
+            },
+            {
+              "id": "l293c-q5",
+              "number": 5
+            },
+            {
+              "id": "l293c-q6",
+              "number": 6
+            },
+            {
+              "id": "l293c-q7",
+              "number": 7
+            },
+            {
+              "id": "l293c-q8",
+              "number": 8
             }
           ]
         }

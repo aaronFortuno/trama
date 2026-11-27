@@ -16,7 +16,9 @@ Es valoren conjuntament llenguatge i sintaxi, densitat d’informació, abstracc
 
 En avançada, els distractors ABCD disponibles també han d’exigir lectura acurada. Les adaptacions personals de format o preguntes no canvien la classificació editorial de la fitxa completa.
 
-Les 28 lectures actuals del primer cicle són suports de 2n inicial: 48–72 paraules i quatre preguntes literals, d’opinió directa o vocabulari immediat. Per indicació docent explícita, a v1.65.1 passen a **intermèdia del primer cicle**. La referència és tot el cicle, inclòs l’inici de 1r. Inicial i avançada continuen pendents. El bloc d’ESO es presenta com a primer cicle (1r–2n), mantenint les franges de les fitxes actuals.
+Les 28 lectures que formaven el primer cicle a v1.65.1 són suports de 2n inicial: 48–72 paraules i quatre preguntes literals, d’opinió directa o vocabulari immediat. Per indicació docent explícita, passen a **intermèdia del primer cicle**. La referència és tot el cicle, inclòs l’inici de 1r. El bloc d’ESO es presenta com a primer cicle (1r–2n), mantenint les franges de les fitxes actuals.
+
+La [tanda de compleció per cicles](cycle-completion.md) desenvolupa inicial i avançada sobre quinze d’aquestes famílies. Inicial: unes 10–40 paraules, frases mínimes i tres preguntes literals amb una línia. Avançada: unes 60–130 paraules, cinc preguntes i connexions causals, temporals o inferències pròximes. Són ancoratges d’autoria per a aquesta tanda, no llindars automàtics de classificació. La revisió de cada variant i idioma comprova la progressió i la coherència amb les il·lustracions. Els originals i els maquetats no es reescriuen.
 
 ## Migració i revisió
 

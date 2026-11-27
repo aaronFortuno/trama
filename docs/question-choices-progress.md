@@ -1,6 +1,6 @@
 # Seguiment de les alternatives ABCD
 
-Actualitzat el 2026-11-27. **657 de 657 fitxes concretes** tenen alternatives en català i castellà; en queden 0 pendents. Hi ha 6748 alternatives lingüístiques revisades.
+Actualitzat el 2026-11-27. **662 de 662 fitxes concretes** tenen alternatives en català i castellà; en queden 0 pendents. Hi ha 6828 alternatives lingüístiques revisades.
 
 La xifra inclou lectures base i variants de família, que es treballen independentment. Cobrir una lectura vol dir donar alternativa a les preguntes adequades; les opinions i activitats de producció es mantenen obertes. Provisional significa revisió independent superada i validació docent pendent. El prototip base L001–L005 ha estat acceptat pel docent pel que fa al format.
 
@@ -67,8 +67,8 @@ Pots escriure un rang com 6-10 al cercador del web. La taula compta les fitxes c
 | L271–L275 | 15/15 | Complet ES/CA |
 | L276–L280 | 15/15 | Complet ES/CA |
 | L281–L285 | 15/15 | Complet ES/CA |
-| L286–L290 | 15/15 | Complet ES/CA |
-| L291–L295 | 15/15 | Complet ES/CA |
+| L286–L290 | 17/17 | Complet ES/CA |
+| L291–L295 | 18/18 | Complet ES/CA |
 | L296–L300 | 15/15 | Complet ES/CA |
 | L301–L305 | 15/15 | Complet ES/CA |
 | L306–L310 | 15/15 | Complet ES/CA |
@@ -138,6 +138,6 @@ Pots escriure un rang com 6-10 al cercador del web. La taula compta les fitxes c
 | Observatori · famílies noves | v1.61.8 | 27 | [Registre de revisió](question-choices/observatory-2026-11-26-review.json) |
 | Taller · famílies noves | v1.62.8 | 27 | [Registre de revisió](question-choices/workshop-2026-11-26-review.json) |
 | Ribera · famílies noves | v1.63.8 | 27 | [Registre de revisió](question-choices/riverside-2026-11-26-review.json) |
-| Compleció per cicles · variants | v1.66.2 | 30 | [Registre de revisió](question-choices/cycle-completion-review.json) |
+| Compleció per cicles · variants | v1.66.3 | 35 | [Registre de revisió](question-choices/cycle-completion-review.json) |
 
 El detall per codi, llengua i número de pregunta és a [question-choices-coverage.json](question-choices-coverage.json). Els criteris editorials i de gradació són a [question-choices.md](question-choices.md).

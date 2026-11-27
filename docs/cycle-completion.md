@@ -32,11 +32,11 @@ Cinc versions C amplien famílies existents de l’Observatori. S’ordenen entr
 
 | Família | Variant nova publicada | Estat |
 | --- | --- | --- |
-| L289 · La visita a plena llum | — | Previst |
-| L290 · Un banc a mig camí | — | Previst |
-| L291 · La maleta de les preguntes | — | Previst |
-| L292 · Una Lluna que cabia a la mà | — | Previst |
-| L293 · La maqueta del cel del poble | — | Previst |
+| L289 · La visita a plena llum | L289C | Provisional ES/CA, revisió superada |
+| L290 · Un banc a mig camí | L290C | Provisional ES/CA, revisió superada |
+| L291 · La maleta de les preguntes | L291C | Provisional ES/CA, revisió superada |
+| L292 · Una Lluna que cabia a la mà | L292C | Provisional ES/CA, revisió superada |
+| L293 · La maqueta del cel del poble | L293C | Provisional ES/CA, revisió superada |
 
 ## Revisió i compatibilitat
 

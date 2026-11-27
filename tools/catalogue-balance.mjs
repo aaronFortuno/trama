@@ -42,6 +42,9 @@ if(process.argv.includes('--write')) {
     `\n## ${world.name}\n`, '| Cicle o etapa | Inicial | Intermèdia | Avançada |','| --- | ---: | ---: | ---: |',
     ...levels.filter(level=>world.levels[level].proposals).map(level=>`| ${labels.level[level]} | ${bands.map(band=>world.levels[level].difficulties[band].proposals).join(' | ')} |`),
   ]);
+  const firstCycle=report.levels['primary-cycle-1'].difficulties;
+  const secondAdvanced=report.levels['primary-cycle-2'].difficulties.advanced.proposals;
+  const firstCycleComplete=firstCycle.initial.proposals>=15&&firstCycle.advanced.proposals>=15;
   const text = ['# Balanç del catàleg per cicles', `\nFotografia del 27 de novembre del 2026, versió ${edition}. Generada amb \`node tools/catalogue-balance.mjs --write\`.\n`,
     `${report.totals.proposals} històries diferents, ${report.totals.editions} fitxes graduades per idioma, ${report.totals.languageEditions} versions lingüístiques, ${families.length} famílies amb variants i ${report.totals.standalones} històries sense variants. Tot el catàleg està disponible en català i castellà.`,
     '\nCada casella compta una història una sola vegada, agrupant família i sense duplicar idiomes. Els totals de fila també dedupliquen famílies: no són necessàriament la suma de dificultats. Una família pot aparèixer en diversos cicles.\n',
@@ -50,8 +53,8 @@ if(process.argv.includes('--write')) {
     '\nEls cinc universos tenen quinze històries cadascun. Els zeros indiquen absència en aquell tram, no una obligació de cobrir tots els universos en tots els cicles. Les 28 lectures de primer cicle de primària, originades com a 2n inicial, s’ubiquen a intermèdia de cicle. A ESO el primer cicle agrupa 1r i 2n.\n',
     ...detail,
     '\n## Lectura editorial del balanç\n',
-    '- Segon cicle avançat és el bloc general amb menys marge. Cal completar-lo amb exigència real després de la revisió, sense promocionar peces només per omplir una quota.',
-    '- Primer cicle de primària conserva 28 propostes intermèdies. Les variants inicials i avançades es completen sobre les mateixes històries, amb objectiu de quinze propostes per franja.',
+    `- Segon cicle avançat disposa de ${secondAdvanced} propostes. ${secondAdvanced>=20?'La compleció prevista queda coberta; convé validar-ne l’exigència abans d’ampliar de nou.':'La compleció prevista reforça aquest bloc amb cinc variants de l’Observatori, amb exigència real i revisió pròpia.'}`,
+    `- Primer cicle de primària: ${firstCycle.initial.proposals} inicials, ${firstCycle.intermediate.proposals} intermèdies i ${firstCycle.advanced.proposals} avançades. ${firstCycleComplete?'Objectiu de quinze per franja assolit mitjançant variants; prioritzar ara la validació docent i els usos reals.':'Les variants inicials i avançades es completen sobre les mateixes històries, amb objectiu de quinze propostes per franja.'}`,
     '- Els blocs d’univers es concentren en inicial/intermedi. Val la pena prioritzar variants exigents de mons existents abans d’afegir històries desconnectades.',
     '- Article d’opinió, ressenya i notícia continuen sent els gèneres menys abundants; adaptar peces existents pot reforçar diversitat i DUA alhora.',
     '\nEls criteris i el límit de la revisió independent es documenten a [cycle-classification.md](cycle-classification.md). El fitxer [catalogue-balance.json](catalogue-balance.json) conserva recomptes de fitxes i famílies per a una anàlisi posterior.\n',

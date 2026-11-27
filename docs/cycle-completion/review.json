@@ -1141,6 +1141,196 @@
       "sha256": "e0fecf46be8f2f6b4e91abc6e04d0ccff6dbc5eed8086e8d36780b98740f36b9",
       "source": "data/cycle-completion/early-4.js",
       "sourceSha256": "35e0754c040946045d4cf815ec57ecf84f6bc69f8d515915ee39c3f49c33a4b3"
+    },
+    {
+      "code": "L289C",
+      "id": "la-visita-a-plena-luz-c-es",
+      "language": "es",
+      "edition": "v1.66.3",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_observatory_cycle_completion",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "advanced"
+      },
+      "sha256": "ec60d370b93163c91c24c669d7112a2a2bb10d45b89d7992ee26d082111bbed0",
+      "source": "data/cycle-completion/observatory.js",
+      "sourceSha256": "be8e091cfc183de3460edabc7316308f0931bdb1e6c7d30593b36936e247a7b9"
+    },
+    {
+      "code": "L289C",
+      "id": "la-visita-a-plena-luz-c-ca",
+      "language": "ca",
+      "edition": "v1.66.3",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_observatory_cycle_completion",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "advanced"
+      },
+      "sha256": "0d7b6ffc538afb6c5fd4e91766e58365fab56bb6e47c90215d771eac22c4a3ad",
+      "source": "data/cycle-completion/observatory.js",
+      "sourceSha256": "be8e091cfc183de3460edabc7316308f0931bdb1e6c7d30593b36936e247a7b9"
+    },
+    {
+      "code": "L290C",
+      "id": "un-banco-a-mitad-de-camino-c-es",
+      "language": "es",
+      "edition": "v1.66.3",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_observatory_cycle_completion",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "advanced"
+      },
+      "sha256": "da28da7ca5458c111dc10b31363b289b4de63015f04bba70f65514db737ed5f5",
+      "source": "data/cycle-completion/observatory.js",
+      "sourceSha256": "be8e091cfc183de3460edabc7316308f0931bdb1e6c7d30593b36936e247a7b9"
+    },
+    {
+      "code": "L290C",
+      "id": "un-banco-a-mitad-de-camino-c-ca",
+      "language": "ca",
+      "edition": "v1.66.3",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_observatory_cycle_completion",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "advanced"
+      },
+      "sha256": "35576b7bde26e229ebd2087c21cf2335b2588242213b30836dde2389cc94919d",
+      "source": "data/cycle-completion/observatory.js",
+      "sourceSha256": "be8e091cfc183de3460edabc7316308f0931bdb1e6c7d30593b36936e247a7b9"
+    },
+    {
+      "code": "L291C",
+      "id": "la-maleta-de-las-preguntas-c-es",
+      "language": "es",
+      "edition": "v1.66.3",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_observatory_cycle_completion",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "advanced"
+      },
+      "sha256": "f1b450f5c175e19f982c14d59e44c706b8628f2bd7fab6617ead08c2b85c08ad",
+      "source": "data/cycle-completion/observatory.js",
+      "sourceSha256": "be8e091cfc183de3460edabc7316308f0931bdb1e6c7d30593b36936e247a7b9"
+    },
+    {
+      "code": "L291C",
+      "id": "la-maleta-de-las-preguntas-c-ca",
+      "language": "ca",
+      "edition": "v1.66.3",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_observatory_cycle_completion",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "advanced"
+      },
+      "sha256": "cdeab902fdb99ec7d180705daa0b8de023402d1c23d8af3cad5b5f1084484f26",
+      "source": "data/cycle-completion/observatory.js",
+      "sourceSha256": "be8e091cfc183de3460edabc7316308f0931bdb1e6c7d30593b36936e247a7b9"
+    },
+    {
+      "code": "L292C",
+      "id": "una-luna-que-cabia-en-la-mano-c-es",
+      "language": "es",
+      "edition": "v1.66.3",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_observatory_cycle_completion",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "advanced"
+      },
+      "sha256": "836cfbd5b5704d1890f8c2bca81c11a104fd809db1ca71cec3da5a33249c69aa",
+      "source": "data/cycle-completion/observatory.js",
+      "sourceSha256": "be8e091cfc183de3460edabc7316308f0931bdb1e6c7d30593b36936e247a7b9"
+    },
+    {
+      "code": "L292C",
+      "id": "una-luna-que-cabia-en-la-mano-c-ca",
+      "language": "ca",
+      "edition": "v1.66.3",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_observatory_cycle_completion",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "advanced"
+      },
+      "sha256": "74f95e2ca3496daa678ddc582c13539019a546998d103b44d7512da6d5aac50a",
+      "source": "data/cycle-completion/observatory.js",
+      "sourceSha256": "be8e091cfc183de3460edabc7316308f0931bdb1e6c7d30593b36936e247a7b9"
+    },
+    {
+      "code": "L293C",
+      "id": "la-maqueta-del-cielo-del-pueblo-c-es",
+      "language": "es",
+      "edition": "v1.66.3",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_observatory_cycle_completion",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "advanced"
+      },
+      "sha256": "121b4edf1bedfbeb18f71a0e484cbd08ea841cd81f3c78dd83970bf28452d8cd",
+      "source": "data/cycle-completion/observatory.js",
+      "sourceSha256": "be8e091cfc183de3460edabc7316308f0931bdb1e6c7d30593b36936e247a7b9"
+    },
+    {
+      "code": "L293C",
+      "id": "la-maqueta-del-cielo-del-pueblo-c-ca",
+      "language": "ca",
+      "edition": "v1.66.3",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_observatory_cycle_completion",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "advanced"
+      },
+      "sha256": "4a8043568d79e9dd1a3ba3c6849adc9ba545275516fe149f19750d637286b577",
+      "source": "data/cycle-completion/observatory.js",
+      "sourceSha256": "be8e091cfc183de3460edabc7316308f0931bdb1e6c7d30593b36936e247a7b9"
     }
   ]
 }

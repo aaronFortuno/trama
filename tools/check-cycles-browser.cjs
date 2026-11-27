@@ -49,7 +49,11 @@ const origin = 'http://127.0.0.1:4219';
     }
     await locale('ca');
     await change('#filter-level','primary-cycle-2');await change('#filter-difficulty','advanced');
-    await page.waitForFunction(()=>document.querySelector('#result-count').textContent.startsWith('15 '));
+    const secondCycleAdvanced=await page.evaluate(async()=>{
+      const{cycleCompletionAdaptations}=await import('./data/cycle-completion.js');
+      return 15+cycleCompletionAdaptations.filter(edition=>edition.cycleLevel==='primary-cycle-2'&&edition.cycleDifficulty==='advanced').length;
+    });
+    await page.waitForFunction(expected=>document.querySelector('#result-count').textContent.startsWith(expected+' '),secondCycleAdvanced);
     await search('L038');await page.locator('#reading-grid .card-code').filter({hasText:'L038'}).waitFor();
     assert((await page.locator('#reading-grid .card-level').textContent()).includes('Segon cicle'));
     assert.equal(await page.locator('#reading-grid .card-difficulty').textContent(),'Avançada');

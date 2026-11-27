@@ -64,3 +64,19 @@ L’univers arriba a **15 històries independents**. Les 9 noves són famílies 
 
 La [guia d’autoria](observatory-expansion-2026-11-26-authoring.md), el [registre editorial](observatory-expansion-2026-11-26-review.json) i els [prompts de les escenes](observatory-expansion-2026-11-26-images.json) documenten la tanda. Cada història reintrodueix l’equip i el context necessaris; no s’ha de llegir en cap ordre. En Dani, la Mira i la Joana alternen descobertes, preguntes i creació. Les versions han superat revisió independent i són **provisionals, pendents de validació docent**.
 <!-- observatory-expansion:end -->
+
+## Compleció per cicles · 27 de novembre del 2026
+
+Les cinc primeres famílies de l’ampliació incorporen un pas de **segon cicle de primària avançat**, amb codi C. No són històries noves: mantenen situació, personatges i dues il·lustracions. Cada família s’ordena **A → original → C → B**. Les lletres identifiquen edicions, no una escala universal de dificultat.
+
+| Família | Variant nova | Exigència pròpia |
+| --- | --- | --- |
+| L289 | L289C | Relacionar posició de la persona, reflex i canvi de paret; distingir una prova individual de la preparació per a un grup. |
+| L290 | L290C | Comparar criteris de ruta, integrar necessitat de descans i decisions, interpretar el canvi del narrador. |
+| L291 | L291C | Connectar petició, resposta inicial, activitat i ús posterior dels dibuixos; distingir fets i plans. |
+| L292 | L292C | Interpretar les correspondències d’un model i les condicions de comparació; distingir objecte complet i porció clara visible. |
+| L293 | L293C | Integrar dos objectius d’il·luminació, relacionar resultat amb la pantalla i entendre per què es mantenen les altres condicions. |
+
+Cada edició té nou preguntes, vuit amb doble format obert/ABCD i una d’opinió oberta, solucionari, línies i evidències pròpies en català i castellà. La classificació es basa en el conjunt de text i tasques. Les franges d’extensió només orienten: aquestes edicions tenen 243–308 paraules segons la llengua.
+
+No es fixa cap lloc, personatge, tecnologia o fet astronòmic nou. Els conceptes de la Lluna i la llum es tornen a contrastar amb les [fonts científiques](observatory-expansion-2026-11-26-sources.md). La [compleció per cicles](../cycle-completion.md) i el seu [registre editorial](../cycle-completion/review.json) identifiquen les versions exactes. La validació docent continua pendent.
