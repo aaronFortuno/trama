@@ -22,6 +22,8 @@ Organitzem primària per cicles i recalibrem la dificultat amb criteris de text 
 
 ## Pendent de publicar
 
+- La mostra estrena una galeria de lectures amb graella i lateral adaptables.
+
 - La mostra incorpora el text complet de les llicències MIT i CC BY 4.0 amb resum i desplaçament intern.
 
 - La mostra incorpora l’historial compartit amb versió, data, grups de canvis i enllaç al registre complet.

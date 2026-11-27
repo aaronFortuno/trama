@@ -1,28 +1,24 @@
-import { mountV4V } from './v4v.js?v=0.6.0';
-import { mountChangelog } from './changelog.js?v=0.6.0';
-import { mountLicense } from './license.js?v=0.6.0';
-import { changelogCopy, projectCopy } from './preview-copy.js?v=0.6.0';
+import { mountV4V } from './v4v.js?v=0.7.0';
+import { mountChangelog } from './changelog.js?v=0.7.0';
+import { mountLicense } from './license.js?v=0.7.0';
+import { changelogCopy, projectCopy } from './preview-copy.js?v=0.7.0';
+import { mountGalleryPreview } from './gallery-preview.js?v=0.7.0';
 
 const ca = {
-  title: 'Prova de la base comuna',
-  summary: 'Comprova la capçalera, el peu i el diàleg V4V d’aquesta versió. Els ajustos de la mostra duren fins que tanques o recarregues la pàgina.',
   website: 'Obre el web actual', changes: 'Historial de versions', close: 'Tanca',
   language: 'Idioma de la interfície', dark: 'Tema fosc', light: 'Tema clar',
 };
 const strings = {
   ca,
   es: {
-    title: 'Prueba de la base común', summary: 'Comprueba la cabecera, el pie y el diálogo V4V. Los ajustes de la prueba duran hasta que cierras o recargas la página.',
     website: 'Abre la web actual', changes: 'Historial de versiones', close: 'Cierra',
     language: 'Idioma de la interfaz', dark: 'Tema oscuro', light: 'Tema claro',
   },
   gl: {
-    title: 'Proba da base común', summary: 'Comproba a cabeceira, o pé e o diálogo V4V. Os axustes da proba duran ata que pechas ou recargas a páxina.',
     website: 'Abre a web actual', changes: 'Historial de versións', close: 'Pecha',
     language: 'Idioma da interface', dark: 'Tema escuro', light: 'Tema claro',
   },
   eu: {
-    title: 'Oinarri komunaren proba', summary: 'Begiratu goiburua, orri-oina eta V4V elkarrizketa-koadroa. Probako ezarpenek orria itxi edo berriro kargatu arte irauten dute.',
     website: 'Ireki oraingo webgunea', changes: 'Bertsioen historia', close: 'Itxi',
     language: 'Interfazearen hizkuntza', dark: 'Gai iluna', light: 'Gai argia',
   },
@@ -38,6 +34,7 @@ const licenseOpen = document.getElementById('license-open');
 const repoLink = document.querySelector('.of-footer-tools a');
 const root = document.documentElement;
 const copy = projectCopy[document.body.dataset.project];
+const updateGallery = mountGalleryPreview(document.querySelector('[data-gallery-preview]'));
 let locale = 'ca';
 const previousMotto = history.state?.ortografiPreviewMotto;
 const mottoOptions = copy.ca.mottos.map((_, index) => index).filter(index => index !== previousMotto);
@@ -55,7 +52,7 @@ function render() {
   const dark = root.dataset.theme === 'dark';
   theme.setAttribute('aria-pressed', String(dark));
   labelled(theme, dark ? messages.light : messages.dark);
-  document.getElementById('project-description').textContent = text.description;
+  updateGallery(locale);
   document.getElementById('motto').textContent = text.mottos[motto];
   document.getElementById('footer-motto').textContent = text.footer;
   for (const node of document.querySelectorAll('[data-message]')) node.textContent = messages[node.dataset.message] ?? changelogCopy[locale][node.dataset.message];
@@ -96,7 +93,7 @@ menu.addEventListener('click', event => {
   root.lang = locale;
   render();
   const duration = Number.parseFloat(getComputedStyle(root).getPropertyValue('--of-motion'));
-  if (duration > 0) for (const node of document.querySelectorAll('#contingut article, #motto, #footer-motto')) {
+  if (duration > 0) for (const node of document.querySelectorAll('.sample-toolbar, #motto, #footer-motto')) {
     node.getAnimations().find(animation => animation.id === 'preview-language')?.cancel();
     const animation = node.animate([{ opacity: 0.45 }, { opacity: 1 }], { duration, easing: 'ease' });
     animation.id = 'preview-language';
