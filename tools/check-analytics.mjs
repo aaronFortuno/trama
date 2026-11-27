@@ -1,17 +1,20 @@
 import assert from 'node:assert/strict';
 import { countBucket, sanitizeAnalyticsEvent, startAnalytics, trackDocumentPrepared, trackFamilyActivity, trackFeature, trackReadingOpened, trackReadingFeature, sendReadingReport } from '../analytics.js';
 import { readings } from '../data/readings.js';
+import { classificationFor } from '../reading-levels.js';
 
 const canary = 'PRIVATE-school-code-search-collection-filename';
 const first = readings[0];
 const dirty = { url: canary, referrer: canary, title: canary, name: canary, settings: { classroomCode: canary }, collectionId: canary };
 const metadata = { codi: first.code, codi_base: 'L001', variant: 'base', llengua: first.language, nivell: first.level,
-  dificultat: first.difficulty, univers: 'no-universe', familia: 'familia-l001' };
+  dificultat: first.difficulty, cicle: classificationFor(first).level, dificultat_cicle: classificationFor(first).difficulty,
+  univers: 'no-universe', familia: 'familia-l001' };
 const opened = sanitizeAnalyticsEvent('obre_lectura', { ...dirty, codi: first.code, llengua: first.language, nivell: canary, dificultat: canary });
 assert.deepEqual(opened, { name: 'obre_lectura', data: metadata });
 const workshopVariant = readings.find(reading => reading.code === 'L298B' && reading.language === 'ca');
 const workshopMetadata = { codi: 'L298B', codi_base: 'L298', variant: 'B', llengua: 'ca', nivell: '6-primary',
-  dificultat: 'intermediate', univers: 'taller-de-la-placa', familia: 'familia-l298' };
+  dificultat: 'intermediate', cicle: classificationFor(workshopVariant).level, dificultat_cicle: classificationFor(workshopVariant).difficulty,
+  univers: 'taller-de-la-placa', familia: 'familia-l298' };
 const prepared = { abast: 'lot', format: 'pdf', contingut: 'alumnat' };
 assert.deepEqual(sanitizeAnalyticsEvent('prepara_lectura', { ...prepared, ...dirty, ...workshopMetadata,
   univers: canary, codi_base: canary, variant: canary, familia: canary, nivell: canary }), {
@@ -174,7 +177,8 @@ let reports = 0;
 globalThis.fetch = async (url, options) => {
   const body = JSON.parse(options.body);
   assert.equal(body.payload.name, 'notifica_error');
-  assert.deepEqual(body.payload.data, { codi: first.code, llengua: first.language, nivell: first.level, dificultat: first.difficulty, part: 'text', motiu: 'wording', element: '1' });
+  assert.deepEqual(body.payload.data, { codi: first.code, llengua: first.language, nivell: first.level, dificultat: first.difficulty,
+    cicle: classificationFor(first).level, dificultat_cicle: classificationFor(first).difficulty, part: 'text', motiu: 'wording', element: '1' });
   assert(!JSON.stringify(body).includes(canary));
   reports++;
   return { ok: true, json: async () => ({ cache: 'acknowledgement' }) };
@@ -212,6 +216,7 @@ for (const language of ['ca', 'es']) {
     }), true);
     assert.deepEqual(difficultyReports.at(-1), {
       codi: reading.code, llengua: reading.language, nivell: reading.level, dificultat: reading.difficulty,
+      cicle: classificationFor(reading).level, dificultat_cicle: classificationFor(reading).difficulty,
       part: 'text', motiu,
     }, 'Difficulty reports use catalogue metadata rather than caller-provided values');
     assert.equal(await sendReadingReport(reading, { part: 'question', element: reading.questions[0].id, motiu }), false);

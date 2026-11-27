@@ -1,0 +1,650 @@
+{
+  "date": "2026-11-27",
+  "classificationVersion": 1,
+  "totals": {
+    "proposals": 315,
+    "editions": 627,
+    "families": 156,
+    "languageEditions": 1254,
+    "languages": [
+      "ca",
+      "es"
+    ],
+    "standalones": 159,
+    "universes": 5,
+    "universeProposals": 75
+  },
+  "levels": {
+    "primary-cycle-1": {
+      "proposals": 28,
+      "editions": 28,
+      "families": 28,
+      "difficulties": {
+        "initial": {
+          "proposals": 28,
+          "editions": 28,
+          "families": 28
+        },
+        "intermediate": {
+          "proposals": 0,
+          "editions": 0,
+          "families": 0
+        },
+        "advanced": {
+          "proposals": 0,
+          "editions": 0,
+          "families": 0
+        }
+      }
+    },
+    "primary-cycle-2": {
+      "proposals": 156,
+      "editions": 219,
+      "families": 115,
+      "difficulties": {
+        "initial": {
+          "proposals": 54,
+          "editions": 54,
+          "families": 47
+        },
+        "intermediate": {
+          "proposals": 140,
+          "editions": 150,
+          "families": 114
+        },
+        "advanced": {
+          "proposals": 15,
+          "editions": 15,
+          "families": 7
+        }
+      }
+    },
+    "primary-cycle-3": {
+      "proposals": 199,
+      "editions": 280,
+      "families": 128,
+      "difficulties": {
+        "initial": {
+          "proposals": 131,
+          "editions": 131,
+          "families": 100
+        },
+        "intermediate": {
+          "proposals": 121,
+          "editions": 125,
+          "families": 84
+        },
+        "advanced": {
+          "proposals": 24,
+          "editions": 24,
+          "families": 21
+        }
+      }
+    },
+    "1-secondary": {
+      "proposals": 89,
+      "editions": 100,
+      "families": 42,
+      "difficulties": {
+        "initial": {
+          "proposals": 39,
+          "editions": 39,
+          "families": 22
+        },
+        "intermediate": {
+          "proposals": 35,
+          "editions": 35,
+          "families": 20
+        },
+        "advanced": {
+          "proposals": 26,
+          "editions": 26,
+          "families": 11
+        }
+      }
+    }
+  },
+  "universes": [
+    {
+      "id": "biblioteca-de-les-coses",
+      "name": "La biblioteca de les coses",
+      "proposals": 15,
+      "editions": 39,
+      "families": 12,
+      "levels": {
+        "primary-cycle-1": {
+          "proposals": 0,
+          "editions": 0,
+          "families": 0,
+          "difficulties": {
+            "initial": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "intermediate": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "advanced": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            }
+          }
+        },
+        "primary-cycle-2": {
+          "proposals": 1,
+          "editions": 1,
+          "families": 1,
+          "difficulties": {
+            "initial": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "intermediate": {
+              "proposals": 1,
+              "editions": 1,
+              "families": 1
+            },
+            "advanced": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            }
+          }
+        },
+        "primary-cycle-3": {
+          "proposals": 12,
+          "editions": 12,
+          "families": 12,
+          "difficulties": {
+            "initial": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "intermediate": {
+              "proposals": 12,
+              "editions": 12,
+              "families": 12
+            },
+            "advanced": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            }
+          }
+        },
+        "1-secondary": {
+          "proposals": 15,
+          "editions": 26,
+          "families": 12,
+          "difficulties": {
+            "initial": {
+              "proposals": 4,
+              "editions": 4,
+              "families": 1
+            },
+            "intermediate": {
+              "proposals": 11,
+              "editions": 11,
+              "families": 11
+            },
+            "advanced": {
+              "proposals": 11,
+              "editions": 11,
+              "families": 11
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "observatori-del-turo",
+      "name": "L’observatori del turó",
+      "proposals": 15,
+      "editions": 35,
+      "families": 10,
+      "levels": {
+        "primary-cycle-1": {
+          "proposals": 0,
+          "editions": 0,
+          "families": 0,
+          "difficulties": {
+            "initial": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "intermediate": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "advanced": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            }
+          }
+        },
+        "primary-cycle-2": {
+          "proposals": 13,
+          "editions": 23,
+          "families": 10,
+          "difficulties": {
+            "initial": {
+              "proposals": 10,
+              "editions": 10,
+              "families": 10
+            },
+            "intermediate": {
+              "proposals": 12,
+              "editions": 12,
+              "families": 10
+            },
+            "advanced": {
+              "proposals": 1,
+              "editions": 1,
+              "families": 0
+            }
+          }
+        },
+        "primary-cycle-3": {
+          "proposals": 12,
+          "editions": 12,
+          "families": 10,
+          "difficulties": {
+            "initial": {
+              "proposals": 11,
+              "editions": 11,
+              "families": 9
+            },
+            "intermediate": {
+              "proposals": 1,
+              "editions": 1,
+              "families": 1
+            },
+            "advanced": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            }
+          }
+        },
+        "1-secondary": {
+          "proposals": 0,
+          "editions": 0,
+          "families": 0,
+          "difficulties": {
+            "initial": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "intermediate": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "advanced": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "taller-de-la-placa",
+      "name": "El taller de la plaça",
+      "proposals": 15,
+      "editions": 35,
+      "families": 10,
+      "levels": {
+        "primary-cycle-1": {
+          "proposals": 0,
+          "editions": 0,
+          "families": 0,
+          "difficulties": {
+            "initial": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "intermediate": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "advanced": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            }
+          }
+        },
+        "primary-cycle-2": {
+          "proposals": 12,
+          "editions": 13,
+          "families": 10,
+          "difficulties": {
+            "initial": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "intermediate": {
+              "proposals": 11,
+              "editions": 11,
+              "families": 10
+            },
+            "advanced": {
+              "proposals": 2,
+              "editions": 2,
+              "families": 1
+            }
+          }
+        },
+        "primary-cycle-3": {
+          "proposals": 13,
+          "editions": 22,
+          "families": 10,
+          "difficulties": {
+            "initial": {
+              "proposals": 12,
+              "editions": 12,
+              "families": 9
+            },
+            "intermediate": {
+              "proposals": 10,
+              "editions": 10,
+              "families": 10
+            },
+            "advanced": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            }
+          }
+        },
+        "1-secondary": {
+          "proposals": 0,
+          "editions": 0,
+          "families": 0,
+          "difficulties": {
+            "initial": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "intermediate": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "advanced": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "redaccio-del-pati",
+      "name": "La redacció del pati",
+      "proposals": 15,
+      "editions": 33,
+      "families": 9,
+      "levels": {
+        "primary-cycle-1": {
+          "proposals": 0,
+          "editions": 0,
+          "families": 0,
+          "difficulties": {
+            "initial": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "intermediate": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "advanced": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            }
+          }
+        },
+        "primary-cycle-2": {
+          "proposals": 0,
+          "editions": 0,
+          "families": 0,
+          "difficulties": {
+            "initial": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "intermediate": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "advanced": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            }
+          }
+        },
+        "primary-cycle-3": {
+          "proposals": 15,
+          "editions": 24,
+          "families": 9,
+          "difficulties": {
+            "initial": {
+              "proposals": 9,
+              "editions": 9,
+              "families": 9
+            },
+            "intermediate": {
+              "proposals": 12,
+              "editions": 12,
+              "families": 9
+            },
+            "advanced": {
+              "proposals": 3,
+              "editions": 3,
+              "families": 0
+            }
+          }
+        },
+        "1-secondary": {
+          "proposals": 9,
+          "editions": 9,
+          "families": 9,
+          "difficulties": {
+            "initial": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "intermediate": {
+              "proposals": 9,
+              "editions": 9,
+              "families": 9
+            },
+            "advanced": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "camins-de-la-ribera",
+      "name": "Els camins de la ribera",
+      "proposals": 15,
+      "editions": 33,
+      "families": 9,
+      "levels": {
+        "primary-cycle-1": {
+          "proposals": 0,
+          "editions": 0,
+          "families": 0,
+          "difficulties": {
+            "initial": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "intermediate": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "advanced": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            }
+          }
+        },
+        "primary-cycle-2": {
+          "proposals": 10,
+          "editions": 10,
+          "families": 9,
+          "difficulties": {
+            "initial": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "intermediate": {
+              "proposals": 9,
+              "editions": 9,
+              "families": 9
+            },
+            "advanced": {
+              "proposals": 1,
+              "editions": 1,
+              "families": 0
+            }
+          }
+        },
+        "primary-cycle-3": {
+          "proposals": 14,
+          "editions": 23,
+          "families": 9,
+          "difficulties": {
+            "initial": {
+              "proposals": 12,
+              "editions": 12,
+              "families": 9
+            },
+            "intermediate": {
+              "proposals": 9,
+              "editions": 9,
+              "families": 7
+            },
+            "advanced": {
+              "proposals": 2,
+              "editions": 2,
+              "families": 2
+            }
+          }
+        },
+        "1-secondary": {
+          "proposals": 0,
+          "editions": 0,
+          "families": 0,
+          "difficulties": {
+            "initial": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "intermediate": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            },
+            "advanced": {
+              "proposals": 0,
+              "editions": 0,
+              "families": 0
+            }
+          }
+        }
+      }
+    }
+  ],
+  "genres": {
+    "narrative": {
+      "label": "Narració",
+      "proposals": 100,
+      "editions": 208,
+      "families": 54
+    },
+    "informative": {
+      "label": "Divulgació",
+      "proposals": 76,
+      "editions": 120,
+      "families": 22
+    },
+    "instructional": {
+      "label": "Text instructiu",
+      "proposals": 33,
+      "editions": 75,
+      "families": 21
+    },
+    "interview": {
+      "label": "Entrevista",
+      "proposals": 34,
+      "editions": 74,
+      "families": 20
+    },
+    "letter": {
+      "label": "Carta",
+      "proposals": 30,
+      "editions": 70,
+      "families": 20
+    },
+    "news": {
+      "label": "Notícia",
+      "proposals": 14,
+      "editions": 30,
+      "families": 8
+    },
+    "review": {
+      "label": "Ressenya",
+      "proposals": 9,
+      "editions": 17,
+      "families": 4
+    },
+    "diary": {
+      "label": "Diari",
+      "proposals": 14,
+      "editions": 28,
+      "families": 7
+    },
+    "argument": {
+      "label": "Article d’opinió",
+      "proposals": 5,
+      "editions": 5,
+      "families": 0
+    }
+  }
+}

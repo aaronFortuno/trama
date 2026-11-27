@@ -1,5 +1,7 @@
 # Trama
 
+La classificació pública de primària és per cicles. Abans d’afegir lectures o recalibrar-ne l’exigència, consulta `docs/cycle-classification.md`. Registra cada codi de fitxa a `data/cycle-classification.js`; les traduccions comparteixen assignació i les variants en tenen de pròpia. Conserva `level` i `difficulty` originals com a referència editorial i per al format inicial; la UI fa servir els helpers de `reading-levels.js`. Revisa text i preguntes, incloses ABCD, sense classificar només per llargada. Comprova cobertura i progressió amb `node tools/check-cycle-classification.mjs` i actualitza el balanç amb `node tools/catalogue-balance.mjs --write`. No alteris identificadors ni dades locals dels usuaris en canviar etiquetes.
+
 Per ampliar preguntes amb doble format obert/ABCD, consulta `docs/question-choices.md`. Mantén la cobertura seqüencial per codi, alternatives pròpies per idioma i variant, i distractors graduats segons curs. A partir de 4t–5è les opcions han de ser plausibles i exigir lectura acurada, amb una única resposta defensable. Registra i revalida el contingut exacte al registre editorial corresponent.
 
 Actualitza `CHANGELOG.md` amb cada canvi, encara que sigui menor. Quan publiquis una versió, sincronitza la versió i les notes a `index.html` i les traduccions a `locales/es.js`. Fes servir una versió de pedaç per als ajustos menors, com ara de 1.16 a 1.16.1.

@@ -33,8 +33,8 @@ assert.equal(genreCounts.counts.get('informative'), 1, 'Three variants contribut
 assert.equal(countFacetResults(pilot, 'genre', { groupFamilies: false }).total, 3, 'Selection and printing keep concrete worksheets');
 assert.equal(countFacetResults(pilot, 'difficulty').counts.get('intermediate'), 1, 'Two matching degrees in one family count once');
 assert.equal(countFacetResults(pilot, 'level').counts.size, 3, 'A family remains discoverable through any of its levels');
-assert.equal(filterCatalog(pilot, { level: '4-primary', difficulty: 'initial' }).length, 0, 'All constraints must match the same variant');
-assert.equal(filterCatalog(pilot, { family: 'with-variants', language: 'ca', level: '4-primary' }).length, 1);
+assert.equal(filterCatalog(pilot, { level: 'primary-cycle-2', difficulty: 'initial' }).length, 0, 'All constraints must match the same variant');
+assert.equal(filterCatalog(pilot, { family: 'with-variants', language: 'ca', level: 'primary-cycle-2' }).length, 1);
 const translationsOnly = readings.filter(r => r.code === 'L208');
 assert.equal(filterCatalog(indexCatalog(translationsOnly), { family: 'with-variants' }).length, 0);
 assert.equal(groupFamilyCards(variants).flatMap(group => group.familyMatches).length, variants.length);

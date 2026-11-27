@@ -122,7 +122,7 @@ const stub = `window.umami = { track(name, data) { const payload = {name, data};
     await waitEvent('cerca_cataleg', 2);
     assert.deepEqual((await events('cerca_cataleg')).at(-1).data, { tipus: 'codi', resultats: '1', llengua: 'es', variants: false, abast: 'cataleg' });
     await page.locator('#filters-reset').click();
-    await select('#filter-level', '5-primary');
+    await select('#filter-level', 'primary-cycle-3');
     await page.locator('#filter-level').evaluate(node => node.closest('.filter-field').querySelector('button.filter-clear').click());
     assert((await events('neteja_filtres')).some(e => e.data.filtre === 'level'));
 
@@ -232,13 +232,13 @@ const stub = `window.umami = { track(name, data) { const payload = {name, data};
 
     await page.locator('#collection-exit').click();
     if (await page.locator('#catalog-filter-panel > summary').getAttribute('aria-expanded') === 'false') await page.locator('#catalog-filter-panel > summary > span').click();
-    await select('#filter-level', '6-primary');
+    await select('#filter-level', 'primary-cycle-3');
     await select('#filter-difficulty', 'advanced');
     await select('#filter-length', 'long');
     const lengthFilter = (await events('aplica_filtre')).at(-1).data;
     assert.equal(lengthFilter.filtre, 'length');
-    assert.equal(lengthFilter.nivell, '6-primary');
-    assert.equal(lengthFilter.dificultat, 'advanced');
+    assert.equal(lengthFilter.cicle, 'primary-cycle-3');
+    assert.equal(lengthFilter.dificultat_cicle, 'advanced');
     assert.equal(lengthFilter.extensio, 'long');
     assert.equal(lengthFilter.llengua, 'es');
     assert.equal(lengthFilter.abast, 'cataleg');

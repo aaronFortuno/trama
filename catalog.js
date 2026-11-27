@@ -9,15 +9,11 @@ import { countFacetResults, familyMembers, groupFamilyCards } from './reading-fa
 import { defaultSettings } from './worksheet-code.js';
 import { exportWorksheetPages } from './worksheet.js';
 import { loadWorksheetFont } from './worksheet-fonts.js';
+import { levelLabels, shortLevelLabels, readingLevel, readingDifficulty } from './reading-levels.js';
 
 export const labels = {
   language: { es: 'Castellà', ca: 'Català' },
-  level: {
-    '1-primary': '1r de primària', '2-primary': '2n de primària', '3-primary': '3r de primària',
-    '4-primary': '4t de primària', '5-primary': '5è de primària', '6-primary': '6è de primària',
-    '1-secondary': '1r d’ESO', '2-secondary': '2n d’ESO', '3-secondary': '3r d’ESO', '4-secondary': '4t d’ESO',
-    '1-baccalaureate': '1r de batxillerat', '2-baccalaureate': '2n de batxillerat',
-  },
+  level: levelLabels,
   difficulty: { initial: 'Inicial', intermediate: 'Intermèdia', advanced: 'Avançada' },
   length: { short: 'Curta', medium: 'Mitjana', long: 'Llarga' },
   universe: { 'no-universe': 'Sense univers', ...Object.fromEntries(universes.map(universe => [universe.id, universe.name.ca])) },
@@ -42,13 +38,11 @@ function savePreference(key, value) {
   try { localStorage.setItem(key, value); } catch { /* Keep the selection for this visit. */ }
 }
 
-// Editorial word ranges for the levels covered by the catalogue.
+// Length is relative to the cycle, independently of the difficulty band.
 const lengthLimits = new Map([
-  ['2-primary', { shortMax: 55, mediumMax: 75 }],
-  ['3-primary', { shortMax: 125, mediumMax: 145 }],
-  ['4-primary', { shortMax: 185, mediumMax: 210 }],
-  ['5-primary', { shortMax: 240, mediumMax: 265 }],
-  ['6-primary', { shortMax: 285, mediumMax: 359 }],
+  ['primary-cycle-1', { shortMax: 55, mediumMax: 80 }],
+  ['primary-cycle-2', { shortMax: 140, mediumMax: 220 }],
+  ['primary-cycle-3', { shortMax: 260, mediumMax: 380 }],
   ['1-secondary', { shortMax: 375, mediumMax: 475 }],
 ]);
 
@@ -65,6 +59,12 @@ export function labelFor(facet, value, locale = language()) {
 export function wordCount(reading) {
   return reading.paragraphs.join(' ').match(/[\p{L}\p{N}]+(?:[’'-][\p{L}\p{N}]+)*/gu)?.length ?? 0;
 }
+
+export function readingLevelLabel(reading, locale = language(), short = false) {
+  const level = readingLevel(reading);
+  return short && shortLevelLabels[level] ? t(shortLevelLabels[level], {}, locale) : labelFor('level', level, locale);
+}
+export const readingDifficultyLabel = (reading, locale = language()) => labelFor('difficulty', readingDifficulty(reading), locale);
 
 function lengthBucket(count, level) {
   const limits = lengthLimits.get(level);
@@ -101,7 +101,7 @@ export function indexCatalog(readings) {
   return readings.map((reading) => {
     const count = wordCount(reading);
     const facets = {
-      language: [reading.language], level: [reading.level], difficulty: [reading.difficulty], length: [lengthBucket(count, reading.level)],
+      language: [reading.language], level: [readingLevel(reading)], difficulty: [readingDifficulty(reading)], length: [lengthBucket(count, readingLevel(reading))],
       theme: reading.themes, genre: [reading.genre], universe: reading.universeIds?.length ? reading.universeIds : ['no-universe'],
       family: [(families.get(`${reading.familyId}:${reading.language}`) ?? 0) > 1 ? 'with-variants' : 'no-variants'],
     };
@@ -346,7 +346,7 @@ export function mountCatalog({ root, readings, searchInput, resultCounter, onSel
       button.className = 'family-option';
       button.dataset.reading = entry.id;
       button.classList.toggle('is-match', hasOtherLevels && matches.has(entry.id));
-      title.textContent = `${entry.code} · ${labelFor('level', entry.level)} · ${labelFor('difficulty', entry.difficulty)}`;
+      title.textContent = `${entry.code} · ${readingLevelLabel(entry)} · ${readingDifficultyLabel(entry)}`;
       meta.textContent = entry.summary;
       meta.className = 'family-option-summary';
       meta.lang = entry.language;
@@ -386,14 +386,14 @@ export function mountCatalog({ root, readings, searchInput, resultCounter, onSel
       image.remove();
     }
     card.querySelector('.card-genre').textContent = labelFor('genre', reading.genre);
-    card.querySelector('.card-level').textContent = `${labelFor('language', reading.language)} · ${labelFor('level', reading.level)}`;
+    card.querySelector('.card-level').textContent = `${labelFor('language', reading.language)} · ${readingLevelLabel(reading)}`;
     title.textContent = reading.title;
     title.lang = reading.language;
     title.id = `reading-title-${reading.id}`;
     summary.textContent = reading.summary;
     summary.lang = reading.language;
-    difficulty.textContent = labelFor('difficulty', reading.difficulty);
-    difficulty.dataset.difficulty = reading.difficulty;
+    difficulty.textContent = readingDifficultyLabel(reading);
+    difficulty.dataset.difficulty = readingDifficulty(reading);
     card.querySelector('.card-code').textContent = reading.code;
     card.querySelector('.card-personal').hidden = !reading.personal;
     const worlds = card.querySelector('.card-universes');
@@ -414,9 +414,9 @@ export function mountCatalog({ root, readings, searchInput, resultCounter, onSel
       delete difficulty.dataset.difficulty;
       card.querySelector('.card-code').textContent = family?.code ?? reading.code;
       card.querySelector('.card-level').textContent = labelFor('language', reading.language);
-      const matchingLevels = [...new Set((familyMatches ?? []).map(item => item.reading.level))];
+      const matchingLevels = [...new Set((familyMatches ?? []).map(item => readingLevel(item.reading)))];
       if (matchingLevels.length === 1) card.querySelector('.card-level').textContent += ' · ' + labelFor('level', matchingLevels[0]);
-      const levels = [...new Set(members.map(entry => labelFor('level', entry.level).replace(/ de (?:primària|primaria)$/, '')))];
+      const levels = [...new Set(members.map(entry => readingLevelLabel(entry, language(), true)))];
       card.querySelector('.card-words').textContent = levels.join(' · ');
       card.querySelector('.card-questions').textContent = '';
       card.querySelector('.card-questions').hidden = true;
@@ -539,7 +539,7 @@ export function mountCatalog({ root, readings, searchInput, resultCounter, onSel
   function analyticsContext(origen = 'selector') {
     const facets = selectedFacets();
     return {
-      nivell: facets.level, dificultat: facets.difficulty, llengua: facets.language,
+      cicle: facets.level, dificultat_cicle: facets.difficulty, llengua: facets.language,
       extensio: facets.length, tema: facets.theme, tipus_text: facets.genre, univers: facets.universe,
       variants: Boolean(facets.family), abast: selecting ? 'seleccio' : activeCollection ? 'colleccio' : 'cataleg',
       origen, resultats: selecting || activeCollection ? orderedMatches.length : groupFamilyCards(orderedMatches).length,

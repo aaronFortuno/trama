@@ -1,8 +1,8 @@
-// Update the local changelog and both interface languages. No network or Git.
+// Update the local changelog and supplied interface translations. No network or Git.
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 
-export function recordRelease({ version, date, ca, es }) {
+export function recordRelease({ version, date, ca, es, gl, eu }) {
   assert(/^\d+\.\d+(?:\.\d+)?$/.test(version));
   assert(/^\d{4}-\d{2}-\d{2}$/.test(date));
   assert(ca && es && !/[|`]/.test(ca + es));
@@ -26,4 +26,14 @@ export function recordRelease({ version, date, ca, es }) {
   const dictionary = fs.readFileSync('locales/es.js', 'utf8');
   assert(dictionary.startsWith(prefix));
   fs.writeFileSync('locales/es.js', dictionary.replace(prefix, prefix + `\n${edition} · Obre l’historial de canvis|${edition} · Abrir el historial de cambios\n${ca}|${es}`));
+  for (const [locale, note, label] of [[ 'gl', gl, 'Abre o historial de cambios' ], [ 'eu', eu, 'Ireki aldaketen historia' ]]) {
+    if (!note) continue;
+    const file = `locales/${locale}.js`;
+    const header = `// Interface translation; reading content remains in its own language.\nexport const ${locale} = Object.freeze(`;
+    const original = fs.readFileSync(file, 'utf8');
+    const entries = JSON.parse(original.slice(original.indexOf('Object.freeze(') + 14).replace(/\);\s*$/, ''));
+    entries[`${edition} · Obre l’historial de canvis`] = `${edition} · ${label}`;
+    entries[ca] = note;
+    fs.writeFileSync(file, header + JSON.stringify(entries, null, 2) + ');\n');
+  }
 }

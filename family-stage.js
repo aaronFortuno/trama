@@ -1,4 +1,4 @@
-import { labelFor } from './catalog.js';
+import { readingLevelLabel, readingDifficultyLabel } from './catalog.js';
 import { familyMembers } from './reading-families.js';
 import { language, t } from './i18n.js';
 import { icon } from './icons.js';
@@ -153,14 +153,14 @@ export function mountFamilyStage({ root, readings, getSettings, isOutsideCollect
         const compare = toolbar.querySelector('.studio-compare');
         toolbar.hidden = false;
         compare.dataset.reading = member.id;
-        compare.setAttribute('aria-label', t('Compara amb {code}, {level}', { code: member.code, level: labelFor('level', member.level) }));
+        compare.setAttribute('aria-label', t('Compara amb {code}, {level}', { code: member.code, level: readingLevelLabel(member) }));
         compare.title = compare.getAttribute('aria-label');
         const button = document.createElement('button');
         button.type = 'button';
         button.className = 'family-stage-variant';
         button.dataset.side = side;
         button.dataset.reading = member.id;
-        const level = labelFor('level', member.level).replace(/ de (?:primària|primaria)$/, '');
+        const level = `${readingLevelLabel(member, language(), true)} · ${readingDifficultyLabel(member)}`;
         button.setAttribute('aria-label', t('Obre {code}, {level}', { code: member.code, level }));
         const edge = edgeButtons.find(button => button.dataset.side === side);
         edge.hidden = false;

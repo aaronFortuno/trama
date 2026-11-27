@@ -1,4 +1,4 @@
-import { labelFor, wordCount } from './catalog.js';
+import { labelFor, readingLevelLabel, readingDifficultyLabel, wordCount } from './catalog.js';
 import { familyById } from './data/families.js';
 import { familyMembers } from './reading-families.js';
 import { language, t } from './i18n.js';
@@ -214,9 +214,9 @@ export function mountFamilyComparison({ root, readings, getSettings, isOutsideCo
         const column = element('section', 'family-comparison-column');
         column.dataset.reading = member.id;
         const header = element('header', 'family-comparison-column-heading');
-        const title = element('h3', null, `${member.code} · ${labelFor('level', member.level)}`);
+        const title = element('h3', null, `${member.code} · ${readingLevelLabel(member)}`);
         const count = member.questions.filter(question => !settings.excluded.includes(question.id)).length;
-        const meta = element('p', null, [labelFor('difficulty', member.difficulty), t('{count} paraules', { count: wordCount(member) }), t('{count} preguntes', { count })].join(' · '));
+        const meta = element('p', null, [readingDifficultyLabel(member), t('{count} paraules', { count: wordCount(member) }), t('{count} preguntes', { count })].join(' · '));
         const open = element('button', 'button family-comparison-open', t(member.id === reading.id ? 'Lectura oberta' : isOutsideCollection?.(member) ? 'Obre fora de la col·lecció' : 'Obre aquesta variant'));
         open.type = 'button';
         open.disabled = member.id === reading.id;
@@ -225,7 +225,7 @@ export function mountFamilyComparison({ root, readings, getSettings, isOutsideCo
         const body = element('div', 'family-comparison-body');
         body.tabIndex = 0;
         body.setAttribute('role', 'region');
-        body.setAttribute('aria-label', `${member.code} · ${labelFor('level', member.level)}`);
+        body.setAttribute('aria-label', `${member.code} · ${readingLevelLabel(member)}`);
         body.addEventListener('scroll', () => {
           const expected = expectedScroll.get(body);
           expectedScroll.delete(body);

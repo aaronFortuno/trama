@@ -1,4 +1,4 @@
-import { labelFor, wordCount } from './catalog.js';
+import { labelFor, readingLevelLabel, readingDifficultyLabel, wordCount } from './catalog.js';
 import { classroomCodeSize, defaultImageConfig, defaultQuestionLines, defaultSettings, marginLimits, maxAnswerLines, maxClassroomCodeLength, questionLines, readCode, validSetting, worksheetLayout } from './worksheet-code.js';
 import { classroomKeys, clearWorksheetLayouts, hasPendingWorksheetLayout, readWorksheetLayout, removeWorksheetLayout, saveWorksheetLayout } from './worksheet-layouts.js';
 import { decodeWorksheetImages, exportWorksheetPages, renderWorksheet, worksheetThumbnail } from './worksheet.js';
@@ -438,7 +438,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
     const collectionLabel = find('#studio-collection-name');
     collectionLabel.hidden = !readingCollection;
     collectionLabel.textContent = readingCollection?.name ?? '';
-    const level = labelFor('level', reading.level).replace(/ de (?:primària|primaria)$/, '');
+    const level = `${readingLevelLabel(reading, language(), true)} · ${readingDifficultyLabel(reading)}`;
     const count = wordCount(reading);
     const words = t(count === 1 ? '{count} paraula' : '{count} paraules', { count: new Intl.NumberFormat(language()).format(count) });
     const variants = readings.filter(entry => entry.workId && entry.workId === reading.workId);

@@ -1,0 +1,961 @@
+{
+  "date": "2026-11-27",
+  "referenceCommit": "0c516d2",
+  "classificationVersion": 1,
+  "reviewer": "cycle_calibration_review (independent of coordinator)",
+  "scope": "Difficulty classification of a boundary sample. Text, questions, answers and available ABCD read in each language; content unchanged. Other editions use documented cycle anchors, not an individual fresh validation.",
+  "codes": 43,
+  "languageEditions": 86,
+  "openQuestions": 660,
+  "abcdAlternatives": 478,
+  "structuralChecks": "627 codes classified once; bilingual agreement; no progression reversal in 156 families.",
+  "teacherValidation": "pending",
+  "readings": [
+    {
+      "id": "la-caja-de-los-martes-es",
+      "code": "L004",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "2bda68f3805186ad1346f11d26c6f9b3a4c852f5548925499367c101d512a78d"
+    },
+    {
+      "id": "el-abrigo-del-perchero-es",
+      "code": "L021",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "3d523fc280cbeab54e7c0b804a0ba7b7af9302e918a6282640384be814a07de6"
+    },
+    {
+      "id": "el-reloj-del-pan-es",
+      "code": "L027",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "7a5d69576e60cb627f447502abf3ac4b6e0a7593cd0bc6fc9a6a2d17dcc6ad10"
+    },
+    {
+      "id": "como-hacer-hablar-a-una-puerta-es",
+      "code": "L035",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "bdd90fb54b901398eef3e3d5d8ec9e61c8f83bfe827157d71f36d2eeb6ca4256"
+    },
+    {
+      "id": "el-punto-que-faltaba-es",
+      "code": "L036",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "536110e3a890b4f4edaf47d64fdb7f576e7ef618b956d6c4eeec18cddeea3d34"
+    },
+    {
+      "id": "una-respuesta-para-el-canal-es",
+      "code": "L037",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "598d880b24c86ff9c9b563e05a89d3a557bb98198faceaab6f43376175d72f85"
+    },
+    {
+      "id": "por-que-el-hielo-flota-es",
+      "code": "L038",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "advanced"
+      },
+      "result": "classification-review-passed",
+      "sha256": "810b7596b986375fab668fbe02a9aeaa88c67feb82eb0f3b0e0bdbccfb24be64"
+    },
+    {
+      "id": "como-guardar-una-partida-es",
+      "code": "L168",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "849572b256d4f3002cc56ab047617ddad3135681c03208ea59162e7440261164"
+    },
+    {
+      "id": "el-presupuesto-del-patinete-es",
+      "code": "L177",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "7455bc9e5cd721af05728ac2f680410879632ce42f9b7c7c28b71b94db628695"
+    },
+    {
+      "id": "una-resena-con-un-pero-es",
+      "code": "L179",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "6be1184b9f3a2942f72f5b5cac652603a0331f88d42753b8e2081cd048ac4819"
+    },
+    {
+      "id": "una-foto-para-recordar-el-tamano-es",
+      "code": "L183",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "ed094def1e510e93a203bcabf1c548698f5fb4145e2746189f10b02bca0840e4"
+    },
+    {
+      "id": "una-rampa-distinta-es",
+      "code": "L143",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "57117685371f648e462045d37cdf783bf955f4455a0796335ae024bdaecfe20c"
+    },
+    {
+      "id": "un-patio-dos-noticias-es",
+      "code": "L153",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "efd344f6ba2cd143b8dd8fe304aa03f6a8782124a698f8531c2615dc40f28704"
+    },
+    {
+      "id": "doce-sillas-y-dos-bancos-es",
+      "code": "L155",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "4e6f69c6bd4a065ed1995887e3ad3f09e3960de4dee0cb69633776c13e17e785"
+    },
+    {
+      "id": "el-barro-en-el-filtro-es",
+      "code": "L160",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "9216c185f540e12d12df290e166d93b46ffeb976e54b18d3001b75667bde7b0b"
+    },
+    {
+      "id": "el-billete-que-volvio-al-cajon-es",
+      "code": "L190",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "712f3b8f21cf384122a15cce78ad93f24e2bf182a7a4e50e68405d4f9ba22203"
+    },
+    {
+      "id": "el-hilo-de-la-cometa-es",
+      "code": "L196",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "9328fec2ece817786b3813e7b527f56467e0a4b6147798aca52a957af9619031"
+    },
+    {
+      "id": "el-mapa-de-las-islas-de-luz-es",
+      "code": "L202",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "a78207688bc3bb07f1b7ebcff9e997233e88a5f0cd5795ca63a3b1c1e949e351"
+    },
+    {
+      "id": "las-dos-velocidades-de-un-glaciar-es",
+      "code": "L206",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "advanced"
+      },
+      "result": "classification-review-passed",
+      "sha256": "f45298f7411c11e846320d5badce830f19a58a9a72460aaa17abafab73062651"
+    },
+    {
+      "id": "una-rampa-distinta-ca",
+      "code": "L143",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "dc033f931166f3d876d423a36e10256056382057b8a5c0f4993dcc9a95f97cf0"
+    },
+    {
+      "id": "un-patio-dos-noticias-ca",
+      "code": "L153",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "e7f0c5d4c0b2b05a7cbfe32e2e1aa9843f3e863c2c8b7f4c6b3241f15fa2ac7b"
+    },
+    {
+      "id": "doce-sillas-y-dos-bancos-ca",
+      "code": "L155",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "879c4e964b5ce0fa05dede984d4aa152a6975e54db125e7b98022372213a1b72"
+    },
+    {
+      "id": "labric-del-penjador-ca",
+      "code": "L021",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "b26f68f8d682c793b0937899af5eaab62d66be4a449cc86f01972f5187986e3f"
+    },
+    {
+      "id": "el-rellotge-del-pa-ca",
+      "code": "L027",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "a39207a90c9c9ab3fc95dcdae2613ee044974de6df027ff25aa4f365fca6cbbc"
+    },
+    {
+      "id": "com-fer-parlar-una-porta-ca",
+      "code": "L035",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "1599e97b79039b26ef46b6159f727ca0e27a78a2963aefc5756e9e41718b3aca"
+    },
+    {
+      "id": "el-punt-que-faltava-ca",
+      "code": "L036",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "dc0be505c0449b85c8403861a8b949e3cd5257022a69abe4388a9437da8ce1f3"
+    },
+    {
+      "id": "una-resposta-per-al-canal-ca",
+      "code": "L037",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "b5496b822e645e00ae93e783a659a29bda56a850ef0d9d3673c185ff1c1345b2"
+    },
+    {
+      "id": "per-que-sura-el-gel-ca",
+      "code": "L038",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "advanced"
+      },
+      "result": "classification-review-passed",
+      "sha256": "d381b2ed7dd08958ba8d26d86c783d6f1d21ce447d8e497d398deb03cf0420c2"
+    },
+    {
+      "id": "como-guardar-una-partida-ca",
+      "code": "L168",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "ed9ba94e56a59c3382fa7cb320aafaf1ea7cd4e1c9b2419b9808c8a080b910ea"
+    },
+    {
+      "id": "el-presupuesto-del-patinete-ca",
+      "code": "L177",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "a5c56a92c5bd87db4b6c083f756b940a26e3e9b05aa8a51aa9be7a2aee8b190b"
+    },
+    {
+      "id": "una-resena-con-un-pero-ca",
+      "code": "L179",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "1adc78895757cf8c795e6350fac38efb79dc22d65f65c7c0dd74c7f5611c4cea"
+    },
+    {
+      "id": "una-foto-para-recordar-el-tamano-ca",
+      "code": "L183",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "a4ab80ea265a52d9392e5622e52d7cd07036a11206650309b682695058fce440"
+    },
+    {
+      "id": "la-caixa-dels-dimarts-ca",
+      "code": "L004",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "3967f23cdafe3bab477f772e635149f9e74e079e51a968ede98b4d04eab9c1db"
+    },
+    {
+      "id": "el-barro-en-el-filtro-ca",
+      "code": "L160",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "01721a75ebe1a70fd866042ced05c4f27bba086507aabcaedb91fc32348d3341"
+    },
+    {
+      "id": "el-billete-que-volvio-al-cajon-ca",
+      "code": "L190",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "4d380046e9bfee92f50829e16c9bf9ae554f50ea5f913fd93beba65bb1424308"
+    },
+    {
+      "id": "el-hilo-de-la-cometa-ca",
+      "code": "L196",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "20992898bf3823647572fd55f49dca21e2a3f0002aaea11dedb4f3e64c9abc7f"
+    },
+    {
+      "id": "el-mapa-de-las-islas-de-luz-ca",
+      "code": "L202",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "de8f85ae77938f5f65ee14c95c743a15f5ddf022bc9a659c2cf691947cdd42fd"
+    },
+    {
+      "id": "las-dos-velocidades-de-un-glaciar-ca",
+      "code": "L206",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "advanced"
+      },
+      "result": "classification-review-passed",
+      "sha256": "06c7c327793d56a6eeafe17b453fe966265ea03ce5af998a4fc400301395b7e5"
+    },
+    {
+      "id": "el-marcador-no-lo-cuenta-todo-es",
+      "code": "L280",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "1e41a1faf47b211d72e6d360ca245ff2ef730365059e3af30c386966c88cb5aa"
+    },
+    {
+      "id": "el-marcador-no-lo-cuenta-todo-ca",
+      "code": "L280",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "f30563c4ecf1d6c11d873b70b90062ba66704bf6befe6ad5dabfdb1e7da48ed2"
+    },
+    {
+      "id": "una-carta-en-la-fila-del-agua-es",
+      "code": "L282",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "20e6ba1f014b8cc93a6b96ae12cd1d4b340035e13a3355b1d285977fd3200923"
+    },
+    {
+      "id": "una-carta-en-la-fila-del-agua-ca",
+      "code": "L282",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "c72c2fb250d0c20b4630f6fb85b666ec3bf401a084131b891f892d78a1010251"
+    },
+    {
+      "id": "la-ilustracion-tambien-tiene-autora-es",
+      "code": "L284",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "9567dc5d9ddb527512d7a4de367d852cbf2116a611b066679f7582a2c99aee6c"
+    },
+    {
+      "id": "la-ilustracion-tambien-tiene-autora-ca",
+      "code": "L284",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "c7b87eeb80b83ec32a348f428672cf0a5191087b25bd9a206a38888ed8c6cb2b"
+    },
+    {
+      "id": "una-noticia-en-dos-lenguas-es",
+      "code": "L286",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "8ed0c70d45de910123391ecd75e70f89615499adb544cf3a91f1f0f9af75aeb7"
+    },
+    {
+      "id": "una-noticia-en-dos-lenguas-ca",
+      "code": "L286",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "7751c10e76876d94550ce89ebf8d7eba48747112d650bef719d3fb3fb8d52fc4"
+    },
+    {
+      "id": "la-receta-que-no-cabia-en-la-columna-es",
+      "code": "L287",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "1ef4e0f4e682ab07435b5d5a471b448730a068d94f529af7f31556ca24b21221"
+    },
+    {
+      "id": "la-receta-que-no-cabia-en-la-columna-ca",
+      "code": "L287",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "3aa1d232878ba15e9144ea027f1011ba4796cdafbd27881b756a5256c2922b37"
+    },
+    {
+      "id": "la-pagina-que-se-oyo-en-el-patio-es",
+      "code": "L288",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "f9c0ec0425647e54835fe1ff0891bf92acdcfdb852ddb85acac4f66d43e4a541"
+    },
+    {
+      "id": "la-pagina-que-se-oyo-en-el-patio-ca",
+      "code": "L288",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "a0a9449daf58bf229417fe70470638ff4753bd0b62f916ab82f47fc0b8548efb"
+    },
+    {
+      "id": "el-asa-que-pedia-otra-idea-b-es",
+      "code": "L298B",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "dbee1c3323db36136a0a668c1f5c5739833983de4d911886f67152e048d1121b"
+    },
+    {
+      "id": "el-asa-que-pedia-otra-idea-b-ca",
+      "code": "L298B",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "e1152cfa3771c61a14ab76ade45390d7aa674064194ffbd22196c7b46d49ab5a"
+    },
+    {
+      "id": "la-reparacion-que-espero-al-jueves-b-es",
+      "code": "L301B",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "e17f06672ec53da11a0ece33f949a752fd8cba97d6f79513c827d4f80ad49af0"
+    },
+    {
+      "id": "la-reparacion-que-espero-al-jueves-b-ca",
+      "code": "L301B",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "af4bb890686895c103ce372dc48bddb86121e3fe698973a806ff07087c72edf1"
+    },
+    {
+      "id": "la-resena-que-olvido-la-espera-a-es",
+      "code": "L305A",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "1428cecf72bde1c1190f26f3cc3110ac7a69cc8546546fb0ef8f48b1f30d1b1a"
+    },
+    {
+      "id": "la-resena-que-olvido-la-espera-a-ca",
+      "code": "L305A",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "e6a30d762fe7b8d066a976bc9ed1c4f51e473e5e1af811ff03f22de83c3ee2d0"
+    },
+    {
+      "id": "el-juego-del-saquito-b-es",
+      "code": "L309B",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "694b0bfb176dba2223d46ba8c5a4cd4fb405ed5f9fe4d836e8cb91d69af317dc"
+    },
+    {
+      "id": "el-juego-del-saquito-b-ca",
+      "code": "L309B",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "25fc06113700f7db36b421bfa458300e80f2742905d414da49e6e0767148df64"
+    },
+    {
+      "id": "la-funcion-que-empezo-por-el-final-b-es",
+      "code": "L314B",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "advanced"
+      },
+      "result": "classification-review-passed",
+      "sha256": "05ff774bfebaaa68e75f51b59e4212a9380a0a4953688220a6235dd189ad9b6d"
+    },
+    {
+      "id": "la-funcion-que-empezo-por-el-final-b-ca",
+      "code": "L314B",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "advanced"
+      },
+      "result": "classification-review-passed",
+      "sha256": "c617702939c25178a206af06ea56083e7ce13de0ec1c068717d2eb49e31089c0"
+    },
+    {
+      "id": "el-mapa-que-guardaba-sonidos-b-es",
+      "code": "L315B",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "advanced"
+      },
+      "result": "classification-review-passed",
+      "sha256": "084efe0f7a54604e64dc5679957fde20c1eb2474070d8e3596344fd354d9d70b"
+    },
+    {
+      "id": "el-mapa-que-guardaba-sonidos-b-ca",
+      "code": "L315B",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "advanced"
+      },
+      "result": "classification-review-passed",
+      "sha256": "dba7f1471c79e9025803337d54cedeee3c257076592efe87872fb02a13e38e69"
+    },
+    {
+      "id": "un-puente-de-papel-a-es",
+      "code": "L002A",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "7e4b3590602927c7422a83e15a8c9924b5bbbe61d36295e421f9857486dae97b"
+    },
+    {
+      "id": "un-puente-de-papel-a-ca",
+      "code": "L002A",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "a0788165f8c165e181947ff15448fbb553e81bbe0c5fec289bd4b2688ab8d36b"
+    },
+    {
+      "id": "la-pinza-que-cuidaba-los-dibujos-a-es",
+      "code": "L008A",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "aaab311cbc0a8655d2b43294a397ed5b9c3ec56cea6a794c0786be7e5cb5099f"
+    },
+    {
+      "id": "la-pinza-que-cuidaba-los-dibujos-a-ca",
+      "code": "L008A",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "46ceeb1ecd65184cb6f4a41f19a5bbfe39d5d1163be09ea21cb94c6ed8be2542"
+    },
+    {
+      "id": "cuanto-mide-el-rio-en-el-plano-a-es",
+      "code": "L054A",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "4dbe876467261893d1ad9aaec33bb2016005d42178b04ec131ff2b750bf4eb9a"
+    },
+    {
+      "id": "cuanto-mide-el-rio-en-el-plano-a-ca",
+      "code": "L054A",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "e4b1f67c7fbef065848b7bd983f4ca0d3643f352bae818159cd3daf319d3224f"
+    },
+    {
+      "id": "el-puente-de-los-siete-minutos-a-es",
+      "code": "L065A",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "14e684189a686cae2464b5f2f94e6aaa5b5c90d826ba2356bb903d3ceb970f0e"
+    },
+    {
+      "id": "el-puente-de-los-siete-minutos-a-ca",
+      "code": "L065A",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "981349fd8055f95e4f6e93e4b7098a3f255c9544f7b416028a08841ab54680f9"
+    },
+    {
+      "id": "quien-usa-la-pista-a-es",
+      "code": "L077A",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "ac729f1324eeb2425e792039d22aeb03aff08cd53c4655b4d8eeea98fae3a40b"
+    },
+    {
+      "id": "quien-usa-la-pista-a-ca",
+      "code": "L077A",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "bd03a177e540c57c9346fb2950bccbdf303ffb3c7d7083297b606e5705a58140"
+    },
+    {
+      "id": "el-banco-mojado-a-es",
+      "code": "L104A",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "result": "classification-review-passed",
+      "sha256": "675de677159dfae2a76313b289fda3d0b103c3bbcd9ae7e78a70cacab2819ae9"
+    },
+    {
+      "id": "el-banco-mojado-a-ca",
+      "code": "L104A",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "result": "classification-review-passed",
+      "sha256": "01ff5c1e54a467973689bbec114233cebf2960f07012b4fa75c9207a5130698c"
+    },
+    {
+      "id": "el-sobre-de-las-dos-entradas-a-es",
+      "code": "L048A",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "9a502433a35f7b6f132008852d652874a6786cf396745778f891f193e5ad9302"
+    },
+    {
+      "id": "el-sobre-de-las-dos-entradas-a-ca",
+      "code": "L048A",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "8c6ab2a063a40cd3a3369a41c78ab231e46974788dbdb67736aa12dfdf6e3c3d"
+    },
+    {
+      "id": "doce-sillas-y-dos-bancos-a-es",
+      "code": "L155A",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "result": "classification-review-passed",
+      "sha256": "a9cbd7b48b13ab7e5362856c51a5dbc9ea299852aa74e916fe4dff0760a67b81"
+    },
+    {
+      "id": "doce-sillas-y-dos-bancos-a-ca",
+      "code": "L155A",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "result": "classification-review-passed",
+      "sha256": "7db130840a88bc70d793d7fb25ea84a789b8d920a1d7e5ded3c1f4a808e09a69"
+    },
+    {
+      "id": "letras-al-reves-b-es",
+      "code": "L148B",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "9ad12899ecb5cbe3853dcd17fdceac344b3fcb9640cae372d7306d1071cf225d"
+    },
+    {
+      "id": "letras-al-reves-b-ca",
+      "code": "L148B",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "e0dfe399716a139a332ea68c4827613896146ee1adb06d80094fa09a59f97602"
+    },
+    {
+      "id": "el-turno-del-robot-a-es",
+      "code": "L159A",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "9c6273af3d91262b8c468f606cf3f2cc266b729fcc4fcbfc1b332e255cd86444"
+    },
+    {
+      "id": "el-turno-del-robot-a-ca",
+      "code": "L159A",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-2",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "417fbaae6e020ad0c40f25c1765f4cabc29854e6997c47e208cb9413dbd3bd57"
+    },
+    {
+      "id": "la-feria-por-dentro-b-es",
+      "code": "L057B",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "96bf004d8c7cfefcfed884c2dab2edc6a5490ea43bb07ea291186dde14bad164"
+    },
+    {
+      "id": "la-feria-por-dentro-b-ca",
+      "code": "L057B",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-3",
+        "difficulty": "intermediate"
+      },
+      "result": "classification-review-passed",
+      "sha256": "bbf598a0c1450a70f68f93b39683ceefae01653c6e795f1ca86881666acef5a0"
+    },
+    {
+      "id": "un-vaso-para-medir-a-es",
+      "code": "L150A",
+      "language": "es",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "result": "classification-review-passed",
+      "sha256": "4a72d5b7692f0fadc6efca15e2b054ab78a980a5c58f7abc4cf1aa0d9df50b1f"
+    },
+    {
+      "id": "un-vaso-para-medir-a-ca",
+      "code": "L150A",
+      "language": "ca",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "result": "classification-review-passed",
+      "sha256": "81ea4ad1fd865999ae4c87e22e6252d366f769292f2315b16de5def529eb4fac"
+    }
+  ]
+}

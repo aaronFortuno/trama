@@ -4,6 +4,7 @@ import { familyById } from './data/families.js';
 import { universeById } from './data/universes.js';
 import { multipleChoice } from './data/question-choices.js';
 import { languages as interfaceLanguages } from './i18n.js';
+import { classificationFor, referenceLevelLabels } from './reading-levels.js';
 
 const host = 'trama.ortogra.fi';
 const scriptURL = 'https://maquestria.tail72bc84.ts.net:8443/script.js';
@@ -20,7 +21,8 @@ const pendingEvents = [];
 // settings, DOM text, filenames, collection/template IDs or user-written text.
 const counts = ['0', '1', '2-5', '6-15', '16-50', '51+'];
 const catalogFields = {
-  nivell: Object.keys(labels.level), dificultat: Object.keys(labels.difficulty), llengua: Object.keys(labels.language),
+  nivell: Object.keys(referenceLevelLabels), dificultat: Object.keys(labels.difficulty), llengua: Object.keys(labels.language),
+  cicle: Object.keys(labels.level), dificultat_cicle: Object.keys(labels.difficulty),
   extensio: Object.keys(labels.length), tema: Object.keys(labels.theme), tipus_text: Object.keys(labels.genre),
   univers: Object.keys(labels.universe), variants: 'boolean', abast: ['cataleg', 'colleccio', 'seleccio'],
   origen: ['selector', 'lectura'], resultats: counts,
@@ -90,8 +92,10 @@ export function sanitizeAnalyticsEvent(name, data = {}) {
       const family = familyById.get(entry.familyId);
       const base = family?.variantCodes.includes(entry.code) ? family.code : entry.code;
       const universes = [...new Set((entry.universeIds ?? []).filter(id => universeById.has(id)))].sort();
+      const classification = classificationFor(entry);
       Object.assign(clean, { codi: entry.code, codi_base: base, variant: entry.code.slice(base.length) || 'base',
-        llengua: entry.language, nivell: entry.level, dificultat: entry.difficulty, univers: universes.join('|') || 'no-universe' });
+        llengua: entry.language, nivell: entry.level, dificultat: entry.difficulty,
+        cicle: classification.level, dificultat_cicle: classification.difficulty, univers: universes.join('|') || 'no-universe' });
       if (family) clean.familia = family.id;
     }
     else if (rule.publicReading) return false;
@@ -244,7 +248,9 @@ export async function sendReadingReport(reading, { part, element, motiu, respons
   } else if (!entry.questions.some(question => question.id === element && (part !== 'solution' || question.answer))) {
     return false;
   }
-  const data = { codi: entry.code, llengua: entry.language, nivell: entry.level, dificultat: entry.difficulty, part, motiu };
+  const classification = classificationFor(entry);
+  const data = { codi: entry.code, llengua: entry.language, nivell: entry.level, dificultat: entry.difficulty,
+    cicle: classification.level, dificultat_cicle: classification.difficulty, part, motiu };
   if (element) data.element = element;
   if (['question', 'solution'].includes(part) && responseMode !== undefined) {
     if (!['open', 'choice'].includes(responseMode)) return false;

@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.65 · 27 de novembre del 2026
+
+Organitzem primària per cicles i recalibrem la dificultat amb criteris de text i preguntes. Filtres, targetes, variants i comparador mostren la nova classificació; 1r d’ESO es manté. Conservem la classificació original com a referència i els maquetats, codis d’aula i col·leccions. Afegim ajuda sobre els nivells i ajustem els rangs d’extensió per cicle. L’analítica i els avisos incorporen cicle i dificultat de cicle, mantenint el context històric.
+
 ## Pendent de publicar
 
 - Peu de pilot amb icones per a l’historial, el diàleg de llicències, el repositori i el V4V. En mòbil es mantenen les icones amb etiquetes accessibles.

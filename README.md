@@ -1,5 +1,7 @@
 # Trama
 
+El catàleg de primària s’organitza per **primer, segon i tercer cicle**, amb dificultat inicial, intermèdia o avançada relativa al cicle. Secundària conserva **1r d’ESO**. Els [criteris de classificació](docs/cycle-classification.md) documenten el calibratge i la referència editorial original; el [balanç actual](docs/catalogue-balance.md) mostra la cobertura per cicle, dificultat i univers. Els maquetats i les col·leccions existents es mantenen.
+
 Catàleg de comprensions lectores imprimibles d’ortogra.fi. Inclou fitxes de 2n de primària a 1r d’ESO en castellà i català. La interfície es pot fer servir en català, castellà, gallec i èuscar. Les fitxes mostren els rètols en l’idioma de la lectura quan hi ha una traducció disponible.
 
 La llengua de la interfície i la de les lectures es trien per separat i es recorden. Amb la interfície en gallec o èuscar, el catàleg mostra lectures en castellà si encara no s’ha triat una llengua de lectura. Els maquetats, els noms personals i les col·leccions es conserven en canviar d’idioma. La [guia d’idiomes](docs/interface-languages.md) documenta les traduccions i les comprovacions locals.
