@@ -1,4 +1,4 @@
-import { mountDialog } from './dialog.js?v=0.5.0';
+import { mountDialog } from './dialog.js?v=0.6.0';
 
 export const changelogLabels = {
   ca: { title: 'Historial de versions', full: 'Historial complet', close: 'Tanca l’historial', compatibility: 'Compatibilitat', added: 'Novetats', improved: 'Millores', fixed: 'Correccions', materials: 'Materials' },
