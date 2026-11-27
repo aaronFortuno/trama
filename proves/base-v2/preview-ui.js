@@ -1,8 +1,10 @@
-import { mountV4V } from './v4v.js?v=0.7.0';
-import { mountChangelog } from './changelog.js?v=0.7.0';
-import { mountLicense } from './license.js?v=0.7.0';
-import { changelogCopy, projectCopy } from './preview-copy.js?v=0.7.0';
-import { mountGalleryPreview } from './gallery-preview.js?v=0.7.0';
+import { mountV4V } from './v4v.js?v=0.8.0';
+import { mountChangelog } from './changelog.js?v=0.8.0';
+import { mountLicense } from './license.js?v=0.8.0';
+import { changelogCopy, projectCopy } from './preview-copy.js?v=0.8.0';
+import { mountGalleryPreview } from './gallery-preview.js?v=0.8.0';
+import { formatCatalogCount, galleryLabels, mountGalleryHelp, mountGallerySearch } from './gallery-controls.js?v=0.8.0';
+import { localiseGalleryHelp, projectNames } from './gallery-help-copy.js?v=0.8.0';
 
 const ca = {
   website: 'Obre el web actual', changes: 'Historial de versions', close: 'Tanca',
@@ -33,7 +35,12 @@ const changesOpen = document.getElementById('changes-open');
 const licenseOpen = document.getElementById('license-open');
 const repoLink = document.querySelector('.of-footer-tools a');
 const root = document.documentElement;
-const copy = projectCopy[document.body.dataset.project];
+const project = document.body.dataset.project;
+const copy = projectCopy[project];
+const head = document.querySelector('.of-gallery-head');
+const count = head.querySelector('[data-total]');
+const helpOpen = head.querySelector('[data-of-help-open]');
+const helpDialog = document.getElementById('help-dialog');
 const updateGallery = mountGalleryPreview(document.querySelector('[data-gallery-preview]'));
 let locale = 'ca';
 const previousMotto = history.state?.ortografiPreviewMotto;
@@ -54,6 +61,9 @@ function render() {
   labelled(theme, dark ? messages.light : messages.dark);
   updateGallery(locale);
   document.getElementById('motto').textContent = text.mottos[motto];
+  count.textContent = formatCatalogCount(project, Number(count.dataset.total), locale);
+  labelled(head.querySelector('[data-of-search-toggle]'), galleryLabels(locale).search);
+  labelled(helpOpen, galleryLabels(locale).help(projectNames[project]));
   document.getElementById('footer-motto').textContent = text.footer;
   for (const node of document.querySelectorAll('[data-message]')) node.textContent = messages[node.dataset.message] ?? changelogCopy[locale][node.dataset.message];
   for (const option of options) option.setAttribute('aria-checked', String(option.dataset.language === locale));
@@ -93,13 +103,15 @@ menu.addEventListener('click', event => {
   root.lang = locale;
   render();
   const duration = Number.parseFloat(getComputedStyle(root).getPropertyValue('--of-motion'));
-  if (duration > 0) for (const node of document.querySelectorAll('.sample-toolbar, #motto, #footer-motto')) {
+  if (duration > 0) for (const node of document.querySelectorAll('.of-gallery-context, #footer-motto')) {
     node.getAnimations().find(animation => animation.id === 'preview-language')?.cancel();
     const animation = node.animate([{ opacity: 0.45 }, { opacity: 1 }], { duration, easing: 'ease' });
     animation.id = 'preview-language';
   }
 });
 mountChangelog(changes, changesOpen);
+mountGallerySearch(head);
+mountGalleryHelp(helpDialog, helpOpen, () => localiseGalleryHelp(helpDialog, project, locale));
 mountLicense(document.getElementById('project-license'), licenseOpen);
 mountV4V(support, document.getElementById('support-open'));
 root.dataset.theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';

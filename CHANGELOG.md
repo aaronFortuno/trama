@@ -26,6 +26,8 @@ Organitzem primària per cicles i recalibrem la dificultat amb criteris de text 
 
 ## Pendent de publicar
 
+- La mostra incorpora l’ajuda, la cerca i el recompte a la capçalera i aprofita tota l’alçada del lateral.
+
 - La mostra estrena una galeria de lectures amb graella i lateral adaptables.
 
 - La mostra incorpora el text complet de les llicències MIT i CC BY 4.0 amb resum i desplaçament intern.
