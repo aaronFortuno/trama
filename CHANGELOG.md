@@ -2,6 +2,8 @@
 
 ## Pendent de publicar
 
+- El quadre compartit de llicències incorpora les pestanyes MIT i CC BY 4.0, amb resum i text legal complet en una zona amb desplaçament intern.
+
 - Historial compartit amb data, versió, grups de canvis i enllaç al registre complet. Es comprova l’increment de versió en preparar una publicació de Trama.
 
 - El diàleg V4V de la mostra adopta les proporcions de Pentagrama, amb presentació i fonts obertes de Trama i els actius compartits d’ortogra.fi.

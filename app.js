@@ -1,5 +1,5 @@
 import { mountChangelog } from './ortografi-base/changelog.js?v=0.5.0';
-import { mountLicense } from './ortografi-base/license.js?v=0.3.0';
+import { mountLicense } from './ortografi-base/license.js?v=0.6.0';
 import { mountV4V } from './ortografi-base/v4v.js?v=0.4.0';
 import { mountCatalog } from './catalog.js';
 import { readings as publicReadings } from './data/readings.js';
