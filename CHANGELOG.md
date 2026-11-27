@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## Pendent de publicar
+
+- Pilot de la capçalera i el peu amb mides comunes d’ortogra.fi. El V4V comparteix la còpia de l’adreça, el tancament i el retorn del focus. La mostra és a `proves/base-v2/`.
+
 ## 1.64 · 27 de novembre del 2026
 
 Afegim la interfície en gallec i èuscar: catàleg, configurador, col·leccions, plantilles, ajuda i avisos. La llengua de les lectures es tria per separat i conserva la preferència; si no hi ha tria prèvia, les interfícies noves mostren lectures en castellà. Les fitxes i els solucionaris mantenen la llengua del contingut. Umami incorpora les noves tries d’idioma de la interfície, sense ampliar les dades personals recollides.

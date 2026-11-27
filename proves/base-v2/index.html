@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Trama · Prova de la base comuna</title>
+  <link rel="icon" href="../../assets/brand/trama.svg">
+  <link rel="stylesheet" href="preview.css">
+  <link rel="stylesheet" href="shell.css">
+  <script type="module" src="preview-ui.js"></script>
+</head>
+<body>
+  <a class="skip" href="#contingut">Ves al contingut</a>
+  <header class="of-header">
+    <div class="of-bar preview-bar">
+      <a class="brand" href="./"><img src="../../assets/brand/trama.svg" width="34" height="34" alt=""><span>Trama<span class="accent">.</span></span></a>
+      <div class="of-tools">
+        <select id="language" aria-label="Idioma de la interfície"><option value="ca" lang="ca">Català</option><option value="es" lang="es">Español</option><option value="gl" lang="gl">Galego</option><option value="eu" lang="eu">Euskara</option></select>
+        <button id="theme" type="button" aria-pressed="false" aria-label="Tema fosc" title="Tema fosc"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 13a9 9 0 1 1-9.8-9.8 9 9 0 0 0 9.8 9.8Z"/></svg></button>
+      </div>
+    </div>
+  </header>
+  <main id="contingut" tabindex="-1">
+    <article>
+      <p class="description">Comprensió lectora</p>
+      <h1 data-message="title">Prova de la base comuna</h1>
+      <p data-message="summary">Comprova la capçalera, el peu i el diàleg V4V d’aquesta versió. Els ajustos de la mostra duren fins que tanques o recarregues la pàgina.</p>
+      <a class="site-link" href="../../" data-message="website">Obre el web actual</a>
+    </article>
+  </main>
+  <footer class="of-footer">
+    <div class="of-bar preview-footer">
+      <span class="footer-context">Trama</span>
+      <a class="of-signature" href="https://ortogra.fi/" aria-label="ortogra.fi"><svg viewBox="0 0 48 48" width="22" height="22" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><circle cx="22" cy="28" r="14"/><path d="m27 9 7-6"/></svg><span>ortogra<span class="accent">.</span>fi</span></a>
+      <div class="footer-tools">
+        <button type="button" id="changes-open" aria-haspopup="dialog" aria-controls="changes" aria-label="Historial de la prova">Pilot v0.1.0</button>
+        <button type="button" id="support-open" aria-haspopup="dialog" aria-controls="support">V4V</button>
+      </div>
+    </div>
+  </footer>
+  <dialog id="changes" aria-labelledby="changes-title">
+    <h2 id="changes-title" data-message="changes">Historial de la prova</h2>
+    <p data-message="release">v0.1.0 · Mides comunes de la capçalera i el peu. Diàleg V4V compartit.</p>
+    <form method="dialog"><button data-message="close">Tanca</button></form>
+  </dialog>
+  <dialog id="support" class="of-v4v" data-of-v4v aria-labelledby="support-title">
+    <div class="of-v4v-heading">
+      <h2 id="support-title">V4V · Value for Value</h2>
+      <button type="button" data-of-close aria-label="Tanca" title="Tanca"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+    </div>
+    <div class="of-v4v-scroll">
+      <section class="of-v4v-intro">
+        <div>
+          <p data-message="support">Els recursos són gratuïts. Si et resulten útils, pots fer una aportació voluntària. Compartir-los o suggerir millores també ajuda.</p>
+          <small>Lightning Network</small>
+          <div class="of-address"><code data-of-address>aptswim903@walletofsatoshi.com</code><button type="button" data-of-copy aria-label="Copia l’adreça Lightning" title="Copia l’adreça Lightning"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 8h12v12H8zM16 8V4H4v12h4"/></svg></button></div>
+          <p data-of-status role="status"></p>
+        </div>
+        <a class="of-qr" href="lightning:LNURL1DP68GURN8GHJ7AMPD3KX2AR0VEEKZAR0WD5XJTNRDAKJ7TNHV4KXCTTTDEHHWM30D3H82UNVWQHKZUR5WDMKJMFEXQESLJTDDS" aria-label="Lightning"><img src="../../assets/v4v/lightning.svg" alt="QR Lightning" width="120" height="120"></a>
+      </section>
+    </div>
+  </dialog>
+</body>
+</html>
