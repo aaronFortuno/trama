@@ -1,5 +1,5 @@
 import { mountLicense } from './ortografi-base/license.js?v=0.3.0';
-import { mountV4V } from './ortografi-base/v4v.js?v=0.3.0';
+import { mountV4V } from './ortografi-base/v4v.js?v=0.4.0';
 import { mountCatalog } from './catalog.js';
 import { readings as publicReadings } from './data/readings.js';
 import { mountStudio } from './studio.js';
@@ -308,12 +308,7 @@ document.querySelector('.skip-link').addEventListener('click', (event) => {
   main.focus();
 });
 
-mountV4V(document.getElementById('about-dialog'), document.getElementById('about-open'), {
-  messages: () => ({
-    copied: t('Adreça Lightning copiada.'),
-    manual: t('Adreça seleccionada. Copia-la amb Ctrl+C o ⌘C.'),
-  }),
-});
+mountV4V(document.getElementById('about-dialog'), document.getElementById('about-open'));
 
 window.addEventListener('hashchange', route);
 route();

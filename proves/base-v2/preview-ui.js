@@ -1,38 +1,30 @@
-import { mountV4V } from './v4v.js';
-import { mountDialog } from './dialog.js';
-import { mountLicense } from './license.js';
-import { changelogCopy, projectCopy } from './preview-copy.js';
+import { mountV4V } from './v4v.js?v=0.4.0';
+import { mountDialog } from './dialog.js?v=0.4.0';
+import { mountLicense } from './license.js?v=0.4.0';
+import { changelogCopy, projectCopy } from './preview-copy.js?v=0.4.0';
 
 const ca = {
   title: 'Prova de la base comuna',
   summary: 'Comprova la capçalera, el peu i el diàleg V4V d’aquesta versió. Els ajustos de la mostra duren fins que tanques o recarregues la pàgina.',
   website: 'Obre el web actual', changes: 'Historial de versions', close: 'Tanca',
-  support: 'Els recursos són gratuïts. Si et resulten útils, pots fer una aportació voluntària. Compartir-los o suggerir millores també ajuda.',
-  language: 'Idioma de la interfície', dark: 'Tema fosc', light: 'Tema clar', copy: 'Copia l’adreça Lightning',
-  copied: 'Adreça copiada.', manual: 'Adreça seleccionada. Copia-la amb Ctrl+C o ⌘C.',
+  language: 'Idioma de la interfície', dark: 'Tema fosc', light: 'Tema clar',
 };
 const strings = {
   ca,
   es: {
     title: 'Prueba de la base común', summary: 'Comprueba la cabecera, el pie y el diálogo V4V. Los ajustes de la prueba duran hasta que cierras o recargas la página.',
     website: 'Abre la web actual', changes: 'Historial de versiones', close: 'Cierra',
-    support: 'Los recursos son gratuitos. Si te resultan útiles, puedes hacer una aportación voluntaria. Compartirlos o sugerir mejoras también ayuda.',
-    language: 'Idioma de la interfaz', dark: 'Tema oscuro', light: 'Tema claro', copy: 'Copia la dirección Lightning',
-    copied: 'Dirección copiada.', manual: 'Dirección seleccionada. Cópiala con Ctrl+C o ⌘C.',
+    language: 'Idioma de la interfaz', dark: 'Tema oscuro', light: 'Tema claro',
   },
   gl: {
     title: 'Proba da base común', summary: 'Comproba a cabeceira, o pé e o diálogo V4V. Os axustes da proba duran ata que pechas ou recargas a páxina.',
     website: 'Abre a web actual', changes: 'Historial de versións', close: 'Pecha',
-    support: 'Os recursos son gratuítos. Se che resultan útiles, podes facer unha achega voluntaria. Compartilos ou suxerir melloras tamén axuda.',
-    language: 'Idioma da interface', dark: 'Tema escuro', light: 'Tema claro', copy: 'Copia o enderezo Lightning',
-    copied: 'Enderezo copiado.', manual: 'Enderezo seleccionado. Cópiao con Ctrl+C ou ⌘C.',
+    language: 'Idioma da interface', dark: 'Tema escuro', light: 'Tema claro',
   },
   eu: {
     title: 'Oinarri komunaren proba', summary: 'Begiratu goiburua, orri-oina eta V4V elkarrizketa-koadroa. Probako ezarpenek orria itxi edo berriro kargatu arte irauten dute.',
     website: 'Ireki oraingo webgunea', changes: 'Bertsioen historia', close: 'Itxi',
-    support: 'Baliabideak doakoak dira. Erabilgarriak badira, borondatezko ekarpena egin dezakezu. Partekatzeak edo hobekuntzak proposatzeak ere laguntzen du.',
-    language: 'Interfazearen hizkuntza', dark: 'Gai iluna', light: 'Gai argia', copy: 'Kopiatu Lightning helbidea',
-    copied: 'Helbidea kopiatu da.', manual: 'Helbidea hautatu da. Kopiatu Ctrl+C edo ⌘C erabiliz.',
+    language: 'Interfazearen hizkuntza', dark: 'Gai iluna', light: 'Gai argia',
   },
 };
 const theme = document.getElementById('theme');
@@ -75,8 +67,6 @@ function render() {
   labelled(licenseOpen, changelogCopy[locale].license);
   labelled(repoLink, changelogCopy[locale].repo);
   labelled(changes.querySelector('[data-of-close]'), messages.close);
-  labelled(support.querySelector('[data-of-close]'), messages.close);
-  labelled(support.querySelector('[data-of-copy]'), messages.copy);
 }
 
 theme.addEventListener('click', () => {
@@ -117,6 +107,6 @@ menu.addEventListener('click', event => {
 });
 mountDialog(changes, changesOpen);
 mountLicense(document.getElementById('project-license'), licenseOpen);
-mountV4V(support, document.getElementById('support-open'), { messages: () => strings[locale] });
+mountV4V(support, document.getElementById('support-open'));
 root.dataset.theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 render();

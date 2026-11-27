@@ -2,6 +2,8 @@
 
 ## Pendent de publicar
 
+- El diàleg V4V de la mostra adopta les proporcions de Pentagrama, amb presentació i fonts obertes de Trama i els actius compartits d’ortogra.fi.
+
 - Peu de pilot amb icones per a l’historial, el diàleg de llicències, el repositori i el V4V. En mòbil es mantenen les icones amb etiquetes accessibles.
 
 - La mostra incorpora el menú d’idioma amb icona, lemes, un historial d’exemple i l’enllaç a la llicència. Els diàlegs, els menús i els canvis de tema de la mostra comparteixen una transició de 220 ms.

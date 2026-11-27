@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="select-menu.css">
   <link rel="stylesheet" href="template-library.css">
   <script type="module" src="app.js"></script>
-  <link rel="stylesheet" href="./ortografi-base/shell.css?v=0.3.0">
+  <link rel="stylesheet" href="./ortografi-base/shell.css?v=0.4.0">
 </head>
 <body>
   <a class="skip-link" href="#contingut">Ves al contingut</a>
@@ -351,53 +351,49 @@
     </div>
   </dialog>
 
-  <dialog class="site-dialog about-dialog of-v4v" id="about-dialog" data-of-v4v aria-labelledby="about-title">
-    <div class="dialog-heading of-v4v-heading">
-      <h2 id="about-title" tabindex="-1" data-dialog-focus>Un petit espai per aprendre</h2>
-      <button class="button close-button" type="button" data-close-dialog data-of-close aria-label="Tanca la informació del projecte"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+  <dialog id="about-dialog" class="of-v4v" data-of-v4v="trama" aria-labelledby="of-v4v-title">
+    <div class="of-v4v-heading">
+      <h2 id="of-v4v-title" data-of-v4v-text="title">Un petit espai per aprendre</h2>
+      <button type="button" data-of-close data-of-v4v-label="close" aria-label="Tanca" title="Tanca"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
-    <div class="dialog-scroll of-v4v-scroll" tabindex="0" role="region" aria-labelledby="about-title">
-      <div class="about-layout of-v4v-grid">
-      <section class="project-resources about-v4v of-v4v-lead" id="about-v4v">
-        <h3>V4V · Value for Value</h3>
-        <div class="about-intro of-v4v-intro">
-        <a class="lightning-qr of-qr" href="lightning:LNURL1DP68GURN8GHJ7AMPD3KX2AR0VEEKZAR0WD5XJTNRDAKJ7TNHV4KXCTTTDEHHWM30D3H82UNVWQHKZUR5WDMKJMFEXQESLJTDDS" aria-label="Obre la cartera Lightning" title="Obre la cartera Lightning"><img src="assets/v4v/lightning.svg" width="128" height="128" alt="Codi QR per fer una aportació voluntària amb Lightning"></a>
-        <div class="about-intro-copy">
-          <p>Trama neix d’una necessitat senzilla: trobar una lectura i preparar una fitxa adequada per al grup. Tria una lectura del catàleg, escull les preguntes i adapta la fitxa abans d’imprimir-la.</p>
-          <p>El projecte és gratuït i segueix la filosofia Value for Value: si et resulta útil i vols donar-hi suport, pots fer un microdonatiu voluntari per Lightning. Recomanar-lo també ajuda.</p>
-          <div class="lightning-details">
-            <p class="lightning-label">Lightning Network</p>
-            <div class="lightning-address of-address"><span id="lightning-address" data-of-address>aptswim903@walletofsatoshi.com</span><button class="button close-button" id="copy-lightning" data-of-copy type="button" aria-label="Copia l’adreça Lightning" title="Copia l’adreça Lightning"><svg class="ui-icon copy-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg><svg class="ui-icon copied-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></button></div>
-            <p id="lightning-copy-status" data-of-status class="copy-status" role="status"></p>
+    <div class="of-v4v-scroll">
+      <div class="of-v4v-intro">
+        <div class="of-v4v-copy">
+          <p data-of-v4v-text="story">Trama neix d’una necessitat senzilla: trobar una lectura i preparar una fitxa adequada per al grup. Tria una lectura del catàleg, escull les preguntes i adapta la fitxa abans d’imprimir-la.</p>
+          <p data-of-v4v-text="support">El projecte és gratuït i segueix la filosofia Value for Value. Si et resulta útil, pots donar-hi suport amb una aportació voluntària. Recomanar-lo o proposar millores també ajuda.</p>
+          <div class="of-lightning">
+            <small>Lightning Network</small>
+            <div class="of-address"><span data-of-address>aptswim903@walletofsatoshi.com</span><button type="button" data-of-copy data-of-v4v-label="copy" aria-label="Copia l’adreça Lightning" title="Copia l’adreça Lightning"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 8h12v12H8zM16 8V4H4v12h4"/></svg></button></div>
+            <p data-of-status role="status"></p>
           </div>
         </div>
+        <a class="of-qr" href="lightning:LNURL1DP68GURN8GHJ7AMPD3KX2AR0VEEKZAR0WD5XJTNRDAKJ7TNHV4KXCTTTDEHHWM30D3H82UNVWQHKZUR5WDMKJMFEXQESLJTDDS" data-of-v4v-label="wallet" aria-label="Obre la cartera Lightning" title="Obre la cartera Lightning"><img src="./ortografi-base/v4v-assets/lightning.svg" alt="QR Lightning" width="128" height="128" loading="lazy"></a>
       </div>
-      </section>
-        <section class="project-resources author-note" id="about-author">
-          <h3>Qui sóc · Aarón Fortuño</h3>
-          <img class="author-portrait" src="assets/author/aaron-fortuno.png" alt="Aarón Fortuño" width="400" height="400" loading="lazy" decoding="async">
-          <p>Soc docent i creo aplicacions educatives i altres projectes de codi obert. Si tens curiositat, els trobaràs al meu portfoli.</p>
-          <a href="https://aaronfortuno.github.io/portfolio/" target="_blank" rel="noopener noreferrer">Explora el meu portfoli ↗</a>
-        </section>
-        <section class="project-resources" id="about-privacy">
+      <div class="of-v4v-grid">
+        <div class="of-v4v-author-column">
+          <section class="of-v4v-author">
+            <h3><span data-of-v4v-text="author">Sobre l’autor</span> · Aarón Fortuño</h3>
+            <img class="of-v4v-portrait" src="./ortografi-base/v4v-assets/author.png" alt="Aarón Fortuño" width="128" height="128" loading="lazy" decoding="async">
+            <p data-of-v4v-text="biography">Soc docent i creo aplicacions educatives i altres projectes de codi obert. Si tens curiositat, els trobaràs al meu portfoli.</p>
+            <a href="https://aaronfortuno.github.io/portfolio/" target="_blank" rel="noopener noreferrer"><span data-of-v4v-text="portfolio">Explora el meu portfoli</span><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 5h6v6m0-6-9 9m8-1v6H5V6h6"/></svg></a>
+          </section>
+          <section class="analytics-privacy" id="about-privacy">
           <h3>Privacitat i Umami</h3>
           <p>Sense comptes ni cookies. Les col·leccions, els maquetats i els codis d’aula es desen en aquest navegador.</p>
           <p>Umami compta quines fitxes es preparen per imprimir o descarregar, també en lot, amb el codi públic, la variant, el curs, la llengua i l’univers. També ens ajuda a saber quins filtres i eines s’utilitzen.</p>
           <p>No enviem el text de les cerques, codis d’aula, noms de col·leccions ni contingut personal. Respectem els bloquejadors i les preferències de privadesa del navegador.</p>
           <a href="https://github.com/aaronFortuno/trama/blob/main/docs/analytics.md" target="_blank" rel="noopener noreferrer">Què comptem amb Umami? ↗</a>
         </section>
-        <section class="project-resources" id="about-sources">
-          <h3>Fonts obertes</h3>
-          <ul class="project-links">
-            <li><a href="https://github.com/aaronFortuno/trama" target="_blank" rel="noopener noreferrer">Repositori de Trama ↗</a></li>
-            <li><a href="https://github.com/aaronFortuno/trama/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">Llicència MIT del codi ↗</a></li>
-            <li><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Llicència CC BY 4.0 dels textos ↗</a></li>
-            <li>Icones de <a href="https://lucide.dev/" target="_blank" rel="noopener noreferrer">Lucide ↗</a></li>
-            <li>PDF amb <a href="https://pdf-lib.js.org/" target="_blank" rel="noopener noreferrer">pdf-lib ↗</a></li>
-            <li><span>Reordenació de targetes amb</span> <a href="assets/vendor/sortable/README.md" target="_blank" rel="noopener noreferrer">SortableJS ↗</a></li>
-            <li>Partició de mots amb <a href="assets/vendor/hyphen/README.md" target="_blank" rel="noopener noreferrer">Hyphen ↗</a></li>
-            <li><a href="assets/fonts/README.md" target="_blank" rel="noopener noreferrer">Crèdits de les tipografies ↗</a></li>
-            <li>Fotografia i QR reutilitzats de <a href="https://plec.ortogra.fi/" target="_blank" rel="noopener noreferrer">Plec ↗</a></li>
+        </div>
+        <section class="of-v4v-sources">
+          <h3 data-of-v4v-text="sources">Fonts obertes</h3>
+          <ul>
+            <li><a href="https://lucide.dev/" target="_blank" rel="noopener noreferrer">Lucide<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 5h6v6m0-6-9 9m8-1v6H5V6h6"/></svg></a></li>
+            <li><a href="https://pdf-lib.js.org/" target="_blank" rel="noopener noreferrer">pdf-lib<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 5h6v6m0-6-9 9m8-1v6H5V6h6"/></svg></a></li>
+            <li><a href="./assets/vendor/sortable/README.md" target="_blank" rel="noopener noreferrer">SortableJS<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 5h6v6m0-6-9 9m8-1v6H5V6h6"/></svg></a></li>
+            <li><a href="./assets/vendor/hyphen/README.md" target="_blank" rel="noopener noreferrer">Hyphen<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 5h6v6m0-6-9 9m8-1v6H5V6h6"/></svg></a></li>
+            <li><a href="./assets/fonts/README.md" target="_blank" rel="noopener noreferrer"><span data-of-v4v-text="fonts">Crèdits de les tipografies</span><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 5h6v6m0-6-9 9m8-1v6H5V6h6"/></svg></a></li>
+            <li><span data-of-v4v-text="shared">Fotografia i QR reutilitzats de</span> <a href="https://plec.ortogra.fi/" target="_blank" rel="noopener noreferrer">Plec<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 5h6v6m0-6-9 9m8-1v6H5V6h6"/></svg></a></li>
           </ul>
         </section>
       </div>
