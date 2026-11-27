@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="select-menu.css">
   <link rel="stylesheet" href="template-library.css">
   <script type="module" src="app.js"></script>
-  <link rel="stylesheet" href="./ortografi-base/shell.css?v=0.4.0">
+  <link rel="stylesheet" href="./ortografi-base/shell.css?v=0.5.0">
 </head>
 <body>
   <a class="skip-link" href="#contingut">Ves al contingut</a>
@@ -171,7 +171,7 @@
         </a>
       </p>
       <div class="of-footer-tools">
-          <button type="button" class="of-footer-action" id="changelog-open" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.64 · Obre l’historial de canvis" title="Historial de versions"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" x2="6" y1="3" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg><span class="of-footer-label">v1.64</span></button>
+          <button type="button" class="of-footer-action" id="changelog-open" data-of-release="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.64 · Obre l’historial de canvis" title="Historial de versions"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" x2="6" y1="3" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg><span class="of-footer-label">v1.64</span></button>
           <button type="button" class="of-footer-action" id="license-open" aria-haspopup="dialog" aria-controls="project-license" aria-label="Llicència" title="Llicència"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v16"/><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z"/></svg><span class="of-footer-label">Llicència</span></button>
           <a class="of-footer-action" href="https://github.com/aaronFortuno/trama" target="_blank" rel="noopener noreferrer" aria-label="Repositori" title="Repositori"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><line x1="3" x2="9" y1="12" y2="12"/><line x1="15" x2="21" y1="12" y2="12"/></svg><span class="of-footer-label">Repositori</span></a>
           <button type="button" class="of-footer-action" id="about-open" data-of-open="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte" title="Value for Value"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762"/></svg><span class="of-footer-label">V4V</span></button>
@@ -400,1273 +400,1249 @@
     </div>
   </dialog>
 
-  <dialog class="site-dialog release-dialog" id="changelog-dialog" aria-labelledby="changelog-title">
-    <div class="dialog-heading">
-      <div class="release-heading">
-        <h2 id="changelog-title" tabindex="-1" data-dialog-focus>Historial de versions</h2>
-        <a href="https://github.com/aaronFortuno/trama/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer">Changelog complet ↗</a>
+  <dialog id="changelog-dialog" class="of-dialog of-changelog" data-of-dialog aria-labelledby="changelog-title">
+    <div class="of-v4v-heading">
+      <div class="of-changelog-heading">
+        <h2 id="changelog-title" data-of-changelog="title">Historial de versions</h2>
+        <a href="https://github.com/aaronFortuno/trama/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer"><span data-of-changelog="full">Historial complet</span> <span aria-hidden="true">↗</span></a>
       </div>
-      <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’historial"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+      <button type="button" data-of-close aria-label="Tanca l’historial" title="Tanca l’historial"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
-    <p id="changelog-language-note" class="dialog-language-note" hidden>L’historial anterior es conserva en català i castellà.</p>
-    <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="changelog-title">
-      <article class="release">
+    <p id="changelog-language-note" class="of-changelog-note" hidden>L’historial anterior es conserva en català i castellà.</p>
+    <div class="of-v4v-scroll of-changelog-list" data-of-releases tabindex="0" role="region" aria-labelledby="changelog-title">
+      <article class="of-release">
         <header><h3>v1.64</h3><time datetime="2026-11-27">27 de novembre del 2026</time></header>
-        <p>Afegim la interfície en gallec i èuscar: catàleg, configurador, col·leccions, plantilles, ajuda i avisos. La llengua de les lectures es tria per separat i conserva la preferència; si no hi ha tria prèvia, les interfícies noves mostren lectures en castellà. Les fitxes i els solucionaris mantenen la llengua del contingut. Umami incorpora les noves tries d’idioma de la interfície, sense ampliar les dades personals recollides.</p>
+        <section><h4 data-of-changelog="added">Novetats</h4><ul><li>Afegim la interfície en gallec i èuscar: catàleg, configurador, col·leccions, plantilles, ajuda i avisos. La llengua de les lectures es tria per separat i conserva la preferència; si no hi ha tria prèvia, les interfícies noves mostren lectures en castellà. Les fitxes i els solucionaris mantenen la llengua del contingut. Umami incorpora les noves tries d’idioma de la interfície, sense ampliar les dades personals recollides.</li></ul></section>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.63.8</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
-        <p>L315: El mapa que guardava sons. Nova família de l’univers Els camins de la ribera, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 15 històries independents. Contingut provisional, pendent de validació docent.</p>
+        <section><h4 data-of-changelog="materials">Materials</h4><ul><li>L315: El mapa que guardava sons. Nova família de l’univers Els camins de la ribera, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 15 històries independents. Contingut provisional, pendent de validació docent.</li></ul></section>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.63.7</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
-        <p>L314: La funció que va començar pel final. Nova família de l’univers Els camins de la ribera, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 14 històries independents. Contingut provisional, pendent de validació docent.</p>
+        <section><h4 data-of-changelog="materials">Materials</h4><ul><li>L314: La funció que va començar pel final. Nova família de l’univers Els camins de la ribera, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 14 històries independents. Contingut provisional, pendent de validació docent.</li></ul></section>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.63.6</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L313: L’ombra que va entrar al dibuix. Nova família de l’univers Els camins de la ribera, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 13 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.63.5</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L312: Les preguntes de la cistellera. Nova família de l’univers Els camins de la ribera, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 12 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.63.4</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L311: La taula dels pans diferents. Nova família de l’univers Els camins de la ribera, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 11 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.63.3</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L310: La cançó que necessitava una pausa. Nova família de l’univers Els camins de la ribera, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 10 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.63.2</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L309: El joc del saquet. Nova família de l’univers Els camins de la ribera, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 9 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.63.1</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L308: La carta que va tornar amb dibuixos. Nova família de l’univers Els camins de la ribera, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 8 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.63</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L307: La parada que buscava ombra. Nova família de l’univers Els camins de la ribera, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 7 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.62.9</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>Ampliem l’analítica de materials amb codi base, variant i univers. Cada fitxa pública preparada per imprimir o descarregar es compta una vegada, també dins dels lots, per saber quins cursos i lectures s’utilitzen més. Es manté el recompte general de documents i s’exclou tota la personalització del docent. Actualitzem la informació de privacitat i documentem els ajustos pendents d’Umami a Umbrel.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.62.8</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L306: L’aparador que es podia tocar. Nova família de l’univers El taller de la plaça, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 15 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.62.7</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L305: La ressenya que va oblidar l’espera. Nova família de l’univers El taller de la plaça, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 14 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.62.6</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L304: La tarda de les mans diferents. Nova família de l’univers El taller de la plaça, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 13 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.62.5</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L303: El rellotge que no tenia pressa. Nova família de l’univers El taller de la plaça, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 12 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.62.4</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L302: Del retall a l’estoig. Nova família de l’univers El taller de la plaça, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 11 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.62.3</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L301: La reparació que va esperar fins dijous. Nova família de l’univers El taller de la plaça, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 10 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.62.2</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L300: L’estel que va tornar al pati. Nova família de l’univers El taller de la plaça, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 9 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.62.1</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L299: La pancarta de les dues festes. Nova família de l’univers El taller de la plaça, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 8 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.62</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L298: La nansa que demanava una altra idea. Nova família de l’univers El taller de la plaça, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 7 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.61.8</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L297: El pícnic de les ombres. Nova família de l’univers L’observatori del turó, amb suport de 3r, referència de 4t i ampliació de 5è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 15 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.61.7</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L296: El poema de la bufanda. Nova família de l’univers L’observatori del turó, amb suport de 3r, referència de 4t i ampliació de 5è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 14 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.61.6</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L295: El soroll que va baixar per la teulada. Nova família de l’univers L’observatori del turó, amb suport de 3r, referència de 4t i ampliació de 5è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 13 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.61.5</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L294: L’exposició que va començar per un calaix. Nova família de l’univers L’observatori del turó, amb suport de 3r, referència de 4t i ampliació de 5è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 12 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.61.4</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L293: La maqueta del cel del poble. Nova família de l’univers L’observatori del turó, amb suport de 3r, referència de 4t i ampliació de 5è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 11 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.61.3</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L292: Una Lluna que cabia a la mà. Nova família de l’univers L’observatori del turó, amb suport de 3r, referència de 4t i ampliació de 5è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 10 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.61.2</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L291: La maleta de les preguntes. Nova família de l’univers L’observatori del turó, amb suport de 3r, referència de 4t i ampliació de 5è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 9 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.61.1</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L290: Un banc a mig camí. Nova família de l’univers L’observatori del turó, amb suport de 3r, referència de 4t i ampliació de 5è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 8 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.61</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L289: La visita a plena llum. Nova família de l’univers L’observatori del turó, amb suport de 3r, referència de 4t i ampliació de 5è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 7 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.60.8</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L288: La pàgina que es va sentir al pati. Nova família de La redacció del pati, amb suport de 5è, referència de 6è i ampliació de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 15 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.60.7</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L287: La recepta que no cabia a la columna. Nova família de La redacció del pati, amb suport de 5è, referència de 6è i ampliació de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 14 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.60.6</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L286: Una notícia en dues llengües. Nova família de La redacció del pati, amb suport de 5è, referència de 6è i ampliació de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 13 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.60.5</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L285: Un rumor a l’altra banda de la tanca. Nova família de La redacció del pati, amb suport de 5è, referència de 6è i ampliació de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 12 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.60.4</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L284: La il·lustració també té autora. Nova família de La redacció del pati, amb suport de 5è, referència de 6è i ampliació de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 11 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.60.3</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L283: El mapa dels esbarjos. Nova família de La redacció del pati, amb suport de 5è, referència de 6è i ampliació de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 10 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.60.2</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L282: Una carta a la cua de l’aigua. Nova família de La redacció del pati, amb suport de 5è, referència de 6è i ampliació de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 9 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.60.1</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L281: Una crítica sense obrir la maleta. Nova família de La redacció del pati, amb suport de 5è, referència de 6è i ampliació de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 8 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.60</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L280: El marcador no ho explica tot. Nova família de La redacció del pati, amb suport de 5è, referència de 6è i ampliació de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 7 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.59.11</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L279: El teló torna a casa. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 15 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.59.10</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L278: Qui va fer aquesta foto?. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 14 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.59.9</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L277: Un gràfic amb un forat. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 13 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.59.8</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L276: Una carta a la caixa de tornada. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 12 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.59.7</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L275: Sons sense endoll. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 11 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.59.6</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L274: La feina darrere la lluentor. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 10 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.59.5</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L273: La pluja canvia l’equipatge. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 9 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.59.4</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L272: Una taula fins a casa. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 8 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.59.3</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L271: Una manta amb lloc per a més històries. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 7 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.59.2</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L270: La parada va canviar de centre. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 6 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.59.1</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>L269: La peça dins del vas. Nova família de La biblioteca de les coses, amb suport de 6è i dues versions de 1r d’ESO, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 5 històries independents. Contingut provisional, pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.59</h3><time datetime="2026-11-26">26 de novembre del 2026</time></header>
         <p>La primera fitxa presenta els formats textual i ABCD amb exemples reals. La preferència es recorda entre lectures i sessions, respectant les excepcions de cada pregunta; el diàleg es pot recuperar des del panell de contingut.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.66</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L131 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 66 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.65</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L007 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 65 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.64</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L132 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 64 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.63</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L152 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 63 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.62</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L123 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 62 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.61</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L134 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 61 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.60</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L143 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 60 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.59</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L135 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 59 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.58</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L140 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 58 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.57</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L139 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 57 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.56</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L153 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 56 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.55</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L121 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 55 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.54</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L154 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 54 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.53</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L001 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 53 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.52</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L129 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 52 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.51</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L136 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 51 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.50</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L141 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 50 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.49</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L151 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 49 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.48</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L116 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 48 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.47</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L106 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 47 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.46</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L142 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 46 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.45</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L144 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 45 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.44</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L148 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 44 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.43</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L125 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 43 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.42</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L156 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 42 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.41</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L005 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 41 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.40</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L149 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 40 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.39</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L145 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 39 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.38</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L117 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 38 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.37</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L133 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 37 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.36</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L120 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 36 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.35</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L124 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 35 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.34</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L112 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 34 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.33</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L126 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 33 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.32</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L085 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 32 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.31</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L127 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 31 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.30</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L111 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 30 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.29</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L004 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 29 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.28</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L115 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 28 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.27</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L157 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 27 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.26</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L128 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 26 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.25</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L105 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 25 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.24</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L147 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 24 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.23</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L138 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 23 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.22</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L119 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 22 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.21</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L113 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 21 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.20</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L150 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 20 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.19</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L146 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 19 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.18</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L002 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 18 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.17</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L008 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 17 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.16</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L130 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 16 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.15</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L110 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 15 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.14</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L155 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 14 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.13</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L086 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 13 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.12</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L088 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 12 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.11</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L087 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 11 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.10</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L122 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 10 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.9</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L006 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 9 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.8</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L108 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 8 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.7</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L137 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 7 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.6</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L114 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 6 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.5</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L109 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 5 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.4</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L107 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 4 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.3</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L003 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 3 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.2</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L118 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 2 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58.1</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Renovades les il·lustracions de la L104 amb imatges pintades, compartides entre català, castellà i les variants de família. La renovació acumula 1 de 66 lectures de la llista.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.58</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Les banderes permeten avisar si una lectura és massa fàcil o massa difícil per al nivell indicat. Els avisos inclouen el curs i la dificultat del catàleg per orientar-ne la revisió.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.53</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 054 incorpora alternatives ABCD a 3 fitxes del rang L266–L268, incloses les variants existents, en català i castellà. 30 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 486 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.52</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 053 incorpora alternatives ABCD a 5 fitxes del rang L261–L265, incloses les variants existents, en català i castellà. 48 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 483 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.51</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 052 incorpora alternatives ABCD a 5 fitxes del rang L256–L260, incloses les variants existents, en català i castellà. 46 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 478 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.50</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 051 incorpora alternatives ABCD a 5 fitxes del rang L251–L255, incloses les variants existents, en català i castellà. 40 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 473 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.49</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 050 incorpora alternatives ABCD a 5 fitxes del rang L246–L250, incloses les variants existents, en català i castellà. 48 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 468 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.48</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 049 incorpora alternatives ABCD a 5 fitxes del rang L241–L245, incloses les variants existents, en català i castellà. 60 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 463 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.47</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 048 incorpora alternatives ABCD a 5 fitxes del rang L236–L240, incloses les variants existents, en català i castellà. 60 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 458 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.46</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 047 incorpora alternatives ABCD a 5 fitxes del rang L231–L235, incloses les variants existents, en català i castellà. 60 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 453 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.45</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 046 incorpora alternatives ABCD a 5 fitxes del rang L226–L230, incloses les variants existents, en català i castellà. 60 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 448 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.44</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 045 incorpora alternatives ABCD a 5 fitxes del rang L221–L225, incloses les variants existents, en català i castellà. 60 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 443 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.43</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 044 incorpora alternatives ABCD a 5 fitxes del rang L216–L220, incloses les variants existents, en català i castellà. 56 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 438 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.42</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 043 incorpora alternatives ABCD a 5 fitxes del rang L211–L215, incloses les variants existents, en català i castellà. 60 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 433 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.41</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 042 incorpora alternatives ABCD a 11 fitxes del rang L206–L210, incloses les variants existents, en català i castellà. 114 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 428 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.40</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 041 incorpora alternatives ABCD a 13 fitxes del rang L201–L205, incloses les variants existents, en català i castellà. 130 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 417 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.39</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 040 incorpora alternatives ABCD a 5 fitxes del rang L196–L200, incloses les variants existents, en català i castellà. 50 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 404 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.38</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 039 incorpora alternatives ABCD a 5 fitxes del rang L191–L195, incloses les variants existents, en català i castellà. 50 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 399 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.37</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 038 incorpora alternatives ABCD a 9 fitxes del rang L186–L190, incloses les variants existents, en català i castellà. 74 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 394 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.36</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 037 incorpora alternatives ABCD a 11 fitxes del rang L181–L185, incloses les variants existents, en català i castellà. 88 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 385 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.35</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 036 incorpora alternatives ABCD a 11 fitxes del rang L176–L180, incloses les variants existents, en català i castellà. 88 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 374 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.34</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 035 incorpora alternatives ABCD a 13 fitxes del rang L171–L175, incloses les variants existents, en català i castellà. 106 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 363 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.33</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 034 incorpora alternatives ABCD a 11 fitxes del rang L166–L170, incloses les variants existents, en català i castellà. 86 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 350 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.32</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 033 incorpora alternatives ABCD a 7 fitxes del rang L161–L165, incloses les variants existents, en català i castellà. 58 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 339 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.31</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 032 incorpora alternatives ABCD a 9 fitxes del rang L156–L160, incloses les variants existents, en català i castellà. 80 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 332 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.30</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 031 incorpora alternatives ABCD a 7 fitxes del rang L151–L155, incloses les variants existents, en català i castellà. 44 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 323 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.29</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 030 incorpora alternatives ABCD a 11 fitxes del rang L146–L150, incloses les variants existents, en català i castellà. 72 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 316 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.28</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 029 incorpora alternatives ABCD a 9 fitxes del rang L141–L145, incloses les variants existents, en català i castellà. 58 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 305 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.27</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 028 incorpora alternatives ABCD a 13 fitxes del rang L136–L140, incloses les variants existents, en català i castellà. 86 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 296 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.26</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 027 incorpora alternatives ABCD a 7 fitxes del rang L131–L135, incloses les variants existents, en català i castellà. 44 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 283 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.25</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 026 incorpora alternatives ABCD a 15 fitxes del rang L126–L130, incloses les variants existents, en català i castellà. 100 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 276 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.24</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 025 incorpora alternatives ABCD a 11 fitxes del rang L121–L125, incloses les variants existents, en català i castellà. 80 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 261 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.23</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 024 incorpora alternatives ABCD a 13 fitxes del rang L116–L120, incloses les variants existents, en català i castellà. 112 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 250 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.22</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 023 incorpora alternatives ABCD a 15 fitxes del rang L111–L115, incloses les variants existents, en català i castellà. 112 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 237 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.21</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 022 incorpora alternatives ABCD a 15 fitxes del rang L106–L110, incloses les variants existents, en català i castellà. 100 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 222 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.20</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 021 incorpora alternatives ABCD a 9 fitxes del rang L101–L105, incloses les variants existents, en català i castellà. 70 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 207 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.19</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 020 incorpora alternatives ABCD a 7 fitxes del rang L096–L100, incloses les variants existents, en català i castellà. 68 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 198 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.18</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 019 incorpora alternatives ABCD a 15 fitxes del rang L091–L095, incloses les variants existents, en català i castellà. 140 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 191 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.17</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 018 incorpora alternatives ABCD a 15 fitxes del rang L086–L090, incloses les variants existents, en català i castellà. 140 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 176 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.16</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 017 incorpora alternatives ABCD a 13 fitxes del rang L081–L085, incloses les variants existents, en català i castellà. 122 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 161 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.15</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 016 incorpora alternatives ABCD a 7 fitxes del rang L076–L080, incloses les variants existents, en català i castellà. 62 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 148 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.14</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 015 incorpora alternatives ABCD a 5 fitxes del rang L071–L075, incloses les variants existents, en català i castellà. 48 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 141 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.13</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 014 incorpora alternatives ABCD a 5 fitxes del rang L066–L070, incloses les variants existents, en català i castellà. 42 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 136 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.12</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 013 incorpora alternatives ABCD a 7 fitxes del rang L061–L065, incloses les variants existents, en català i castellà. 66 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 131 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.11</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 012 incorpora alternatives ABCD a 9 fitxes del rang L056–L060, incloses les variants existents, en català i castellà. 76 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 124 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.10</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 011 incorpora alternatives ABCD a 13 fitxes del rang L051–L055, incloses les variants existents, en català i castellà. 112 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 115 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.9</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 010 incorpora alternatives ABCD a 13 fitxes del rang L046–L050, incloses les variants existents, en català i castellà. 112 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 102 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.8</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 009 incorpora alternatives ABCD a 13 fitxes del rang L041–L045, incloses les variants existents, en català i castellà. 112 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 89 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.7</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 008 incorpora alternatives ABCD a 9 fitxes del rang L036–L040, incloses les variants existents, en català i castellà. 68 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 76 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.6</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 007 incorpora alternatives ABCD a 11 fitxes del rang L031–L035, incloses les variants existents, en català i castellà. 82 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 67 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.5</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 006 incorpora alternatives ABCD a 11 fitxes del rang L026–L030, incloses les variants existents, en català i castellà. 82 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 56 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.4</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 005 incorpora alternatives ABCD a 11 fitxes del rang L021–L025, incloses les variants existents, en català i castellà. 82 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 45 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.3</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 004 incorpora alternatives ABCD a 5 fitxes del rang L016–L020, incloses les variants existents, en català i castellà. 40 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 34 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.2</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 003 incorpora alternatives ABCD a 5 fitxes del rang L011–L015, incloses les variants existents, en català i castellà. 40 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 29 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57.1</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>El lot 002 incorpora alternatives ABCD a 9 fitxes del rang L006–L010, incloses les variants existents, en català i castellà. 76 alternatives lingüístiques noves amb revisió independent superada. La cobertura arriba a 24 de 486 fitxes concretes; les opinions i activitats de producció es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.57</h3><time datetime="2026-11-25">25 de novembre del 2026</time></header>
         <p>Comença l’ampliació de preguntes ABCD en lots amb les deu variants A/B de L001–L005. 88 alternatives lingüístiques noves en català i castellà, amb explicacions pròpies i distractors graduats revisats independentment. El seguiment identifica totes les fitxes pendents i només dona un rang per complet quan també s’han cobert les variants.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.56</h3><time datetime="2026-11-24">24 de novembre del 2026</time></header>
         <p>Prototip de resposta oberta o ABCD a L001–L005: quatre preguntes per lectura en català i castellà, amb tria general o individual, maquetats desats i solucionaris amb resposta i explicació. El cercador admet rangs com -5, -L005 i 10-20. Les alternatives s’han revisat independentment, amb distractors que exigeixen lectura acurada; les opinions es mantenen obertes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.55.9</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>Completada la cinquena ampliació: vint famílies més, quaranta variants noves i vuitanta versions en català i castellà, amb originals conservats i revisió independent superada. L162, la jugada sense marcador, i L206, la glacera, tanquen la tanda. El catàleg arriba a 109 famílies, 486 lectures i 972 versions lingüístiques. Les noves variants queden pendents de la validació docent progressiva.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.55.8</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>L150 i L184 amplien el catàleg DUA: el got per mesurar i la carta per al rober. Suport i ampliació de 2n a 5è, amb preguntes, línies, solucionaris i evidències propis en català i castellà.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.55.7</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>L118 i L095 incorporen suport i ampliació: el racó de la Bruna i la sorra que mouen les onades, de 4t a 1r d’ESO. Textos bilingües, solucionaris i marques d’evidència revisats independentment.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.55.6</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>Noves famílies per a L145 i L182: la manta feta de mànigues i la pedra que pesava poc. Variants de 2n a 5è en català i castellà, amb il·lustracions compartides, preguntes i solucionaris propis revisats.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.55.5</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>L057 i L091 estrenen suport i ampliació: l’entrevista sobre la fira i les papallones nocturnes, de 4t a 1r d’ESO. Preguntes, solucionaris, línies i fragments de resposta revisats en totes dues llengües.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.55.4</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>La primera desena de la cinquena tanda es completa amb L128, els entrepans del berenar, i L166, la tassa de dues nanses. Vint variants noves en català i castellà, amb suport, ampliació i originals preservats.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.55.3</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>L’ampolla dels missatges L055 i la carta dins del fang L090 passen a tenir suport i ampliació de 4t a 1r d’ESO. Versions catalana i castellana amb preguntes graduades, solucionaris i evidències pròpies revisades.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.55.2</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>Dues famílies noves, L125 i L033: la barca de suro i el canvi de parada de l’autobús. Suport i ampliació de 2n a 5è, amb les il·lustracions originals compartides i textos, preguntes i solucionaris revisats en català i castellà.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.55.1</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>L049 i L086 incorporen suport i ampliació: les pistes al mirall i el rellotge d’aigua, de 4t a 1r d’ESO. Cada variant té preguntes, solucionari i marques de resposta propis en tots dos idiomes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.55</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>Comença la cinquena ampliació DUA amb L109, el camí a l’ombra del pont, i L027, el rellotge del pa. Suport i ampliació de 2n a 5è en català i castellà, amb originals conservats, solucionaris, línies i evidències revisades independentment.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.54.9</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>Completades vint famílies més: quaranta variants noves, cadascuna en català i castellà, amb originals conservats i revisió independent. L159, el robot, i L207, l’entrevista al taller de restauració, tanquen la tanda. El catàleg arriba a 89 famílies, 446 lectures i 892 versions lingüístiques.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.54.8</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>L148 i L187 incorporen suport i ampliació: les lletres estampades i els dibuixos que viatgen en autobús, de 2n a 5è. Les variants catalana i castellana conserven els originals, comparteixen il·lustracions i inclouen preguntes i solucionaris propis revisats.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.54.7</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>L060 i L093 amplien el catàleg DUA: el tauler de la biblioteca i les indicacions durant el partit. Versions de suport i ampliació de 4t a 1r d’ESO, en català i castellà, amb línies, solucionaris i marques de resposta revisades.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.54.6</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>Noves famílies per a L141 i L174: els senyals de la font i el camí de l’antic ferrocarril. Suport i ampliació de 2n a 5è, amb il·lustracions compartides, preguntes i solucionaris revisats en català i castellà.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.54.5</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>L052 i L092 estrenen suport i ampliació: les proves de projecció del cinema i el joc de probabilitat amb fitxes, de 4t a 1r d’ESO. Textos, preguntes, solucionaris i evidències propis revisats en totes dues llengües.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.54.4</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>Completada la primera desena de la quarta tanda amb L112, el joc de les fitxes, i L037, la proposta per al canal. Ja són vint variants noves en català i castellà, amb originals preservats i revisió independent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.54.3</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>El mapa de l’escola L045 i la recepta amb dues dates L084 s’amplien amb suport i ampliació de 4t a 1r d’ESO. Versions bilingües revisades, amb preguntes graduades, solucionaris i fragments exactes de suport.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.54.2</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>Dues entrevistes passen a tenir família: L110, la roda fluixa, i L032, el pati d’abans. Noves variants de 2n a 5è en català i castellà, conservant els originals i les il·lustracions, amb preguntes i solucionaris revisats.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.54.1</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>L041 i L083 incorporen suport i ampliació: el camí a l’ombra i el banc de sorra del riu, de 4t a 1r d’ESO. Cada variant té preguntes, solucionari, línies i marques de resposta pròpies en tots dos idiomes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.54</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>Comença una nova tanda de vint famílies DUA amb L105, el rastre del cargol, i L021, l’abric del penjador. Suport per a 2n i 3r i ampliació per a 4t i 5è, en català i castellà, amb preguntes, solucionaris i evidències revisades independentment.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.53.14</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>Completada la tanda de trenta famílies: seixanta variants noves, cadascuna en català i castellà, amb originals conservats, il·lustracions compartides, solucionaris i marques de resposta revisats independentment. L155 i L186 tanquen l’ampliació. El catàleg arriba a 69 famílies i 406 lectures amb 812 versions lingüístiques.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.53.13</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>L183 i L158 afegeixen dues famílies: la fotografia amb una referència de mida i la llibreta antiga de l’exposició. Suport i ampliació de 3r a 6è, en català i castellà, amb evidències, preguntes i solucionaris revisats.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.53.12</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>La capsa de contes L149 i el menú de les dues «tortillas» L096 passen a tenir suport i ampliació en català i castellà. Les versions de 2n a 1r d’ESO mantenen el relat i les il·lustracions, amb preguntes i solucionaris propis revisats.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.53.11</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>Dues famílies noves, L172 i L053: els preus dels llapis i els senyals del mercat. Suport i ampliació de 3r a 6è, amb comparacions, preguntes i fragments de resposta revisats en tots dos idiomes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.53.10</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>L140 i L094 incorporen suport i ampliació, de 2n a 1r d’ESO: el bitllet de l’avi i el peix estampat. Versions en català i castellà, amb preguntes, línies de resposta i solucionaris revisats.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.53.9</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>Completada la segona desena de famílies amb L169 i L046: les motxilles del concert i els torns del jardí. La tanda suma quaranta variants noves en català i castellà, amb gradació, solucionaris i evidències revisats independentment.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.53.8</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>L136 i L089 amplien el catàleg DUA: el paquet dels dos veïns Soler i el nus dels estels, amb suport i ampliació de 2n a 1r d’ESO. Cada variant té preguntes, solucionari i marques de resposta pròpies en tots dos idiomes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.53.7</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>Noves famílies per a L026 i L122, el mural compartit i el ritme dels gots. Les variants de 3r a 6è mantenen la situació i les il·lustracions i graduen text, preguntes i solucionaris en català i castellà.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.53.6</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>L139 i L088 estrenen suport i ampliació: la corda de l’hort i les cartes del quiosc, de 2n de primària a 1r d’ESO. Versions catalana i castellana amb preguntes, solucionaris, línies i evidències revisades.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.53.5</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>Comença la segona desena amb les famílies L023 i L120: els fulls reutilitzats i el camí entre la neu. Suport i ampliació de 3r a 6è en tots dos idiomes, amb preguntes, solucionaris i fragments de resposta revisats.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.53.4</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>Completada la primera desena de famílies de la tanda: vint variants noves en català i castellà. L085 adapta la maleta dels records per a 5è i 1r d’ESO; L126 adapta el camí de les fletxes per a 2n i 4t. Textos, solucionaris i evidències revisats independentment.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.53.3</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>L171 i L119 s’afegeixen a les famílies DUA: la bossa de la narradora i les polseres per encàrrec, amb suport i ampliació de 3r a 6è, en català i castellà. Preguntes, càlculs, solucionaris i fragments de resposta revisats independentment.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.53.2</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>L087 i L123 incorporen suport i ampliació en català i castellà: l’entrevista sobre audiodescripció i la llauna dels llapis. Les variants cobreixen de 2n de primària a 1r d’ESO, amb preguntes, solucionaris i evidències pròpies revisades.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.53.1</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>Dues famílies noves: L114, el teatre d’ombres, i L050, les cartes del pati, amb suport per a 4t i ampliació per a 6è, en català i castellà. Inclouen solucionaris, línies de resposta i marques d’evidència revisades.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.53</h3><time datetime="2026-11-23">23 de novembre del 2026</time></header>
         <p>Comencem l’ampliació DUA de trenta famílies amb L130, L’entrada de cartró, i L177, El pressupost del patinet. Cadascuna incorpora suport i ampliació en català i castellà, conservant l’original i la il·lustració. Les vuit versions noves tenen preguntes, solucionari, línies i marques pròpies i han superat la revisió independent i les comprovacions locals. Documentem el pla de deu famílies inicials i vint més, amb registre de revisió i originals preservats. La validació docent continua pendent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.52.4</h3><time datetime="2026-11-22">22 de novembre del 2026</time></header>
         <p>Completem la tanda de deu famílies amb L082, L’assaig de les dues pauses, i L204, Una entrada amb dos horaris. Afegim suport de 5è i ampliació de 1r d’ESO en català i castellà, amb onze preguntes i dues imatges en les ampliacions. La tanda suma vint variants i quaranta versions lingüístiques noves, amb solucionaris, línies i evidències pròpies. Els deu originals es conserven íntegres. Totes les versions noves han superat la revisió independent i les comprovacions locals i queden provisionals, pendents de validació docent. El catàleg arriba a 39 famílies.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.52.3</h3><time datetime="2026-11-22">22 de novembre del 2026</time></header>
         <p>Afegim les famílies L115, La passada de la portera, i L117, El calaix de les peces soltes, amb suport de 4t i ampliació de 6è en català i castellà. Les variants desenvolupen l’observació abans de passar la pilota i els criteris per reutilitzar una peça d’un joc. Conservem els originals de 5è i les il·lustracions, amb preguntes, solucionaris, línies i fragments propis. Les vuit versions noves han superat la revisió independent i les comprovacions locals; queden provisionals, pendents de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.52.2</h3><time datetime="2026-11-22">22 de novembre del 2026</time></header>
         <p>Afegim les famílies L168, Com guardar una partida, i L048, El sobre de les dues entrades, en català i castellà. La L168 incorpora suport de 3r i ampliació de 5è; la L048, suport de 4t i ampliació de 6è. Les variants tenen preguntes, solucionaris, línies i evidències pròpies i conserven els originals i les imatges. Permetem precisar el text alternatiu d’una imatge a cada variant i ajustem la descripció de les estrelles d’orientació. Les vuit versions noves han superat la revisió independent i queden provisionals, pendents de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.52.1</h3><time datetime="2026-11-22">22 de novembre del 2026</time></header>
         <p>Afegim les famílies L025, Un torn al mercat, i L028, Les cadires del cinema, amb suport de 3r i ampliació de 5è en català i castellà. Les variants treballen la preparació d’una parada i una proposta per millorar la visibilitat al cinema, amb preguntes, solucionari, línies i evidències pròpies. Conservem els originals de 4t i les il·lustracions. Les vuit versions noves han superat la revisió independent i les comprovacions locals; la validació docent continua pendent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.52</h3><time datetime="2026-11-22">22 de novembre del 2026</time></header>
         <p>Comencem una ampliació de deu famílies de 3r–6è amb L108, La capsa dels dibuixos, i L127, Una pinça per a cada mitjó. Conservem els originals de 3r i afegim suport de 2n amb quatre preguntes literals i ampliació de 4t amb set preguntes, en català i castellà. Les vuit versions noves comparteixen les il·lustracions coherents i tenen solucionari, línies i marques pròpies. Han superat la revisió independent i queden provisionals, pendents de validació docent. Documentem la tria de les deu famílies i comprovem que els originals es conserven.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.51.12</h3><time datetime="2026-11-21">21 de novembre del 2026</time></header>
         <p>Substituïm la segona il·lustració de la L084, Una recepta amb dues dates, arran d’un avís d’error rebut. La nova escena de l’exposició mostra el quadern, la fotografia del forn i el testimoni de l’àvia amb l’estil de risografia de la primera imatge. S’aplica al català i al castellà, conserva l’identificador i les dimensions i utilitza un nom de fitxer nou per renovar la memòria cau. Documentem el prompt i la referència visual.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.51.11</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
         <p>A la vista ampliada d’una família, les fletxes laterals apareixen en acostar el cursor a cada vora i obren directament la variant veïna mantenint l’ampliació. Només oferim les direccions disponibles; el solucionari es conserva i cada variant recupera el seu maquetat. Les fletxes també són accessibles amb teclat i visibles en pantalles tàctils. El clic fora o als sidebars continua retornant a la vista compacta, amb transicions de 220 ms.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.51.10</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
         <p>A la vista de família, un clic al full actiu l’amplia a l’espai habitual del visor i aparta les variants veïnes. En clicar fora, moure el focus a un altre control o prémer Esc, torna a la composició de família. El zoom continua disponible i es conserva el punt de lectura durant el canvi de mida, amb transicions de 220 ms. També funciona amb teclat i en pantalles petites, sense modificar els maquetats ni els documents impresos.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.51.9</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
         <p>Afegim la plantilla Cicle inicial: Massallera de 15 pt, interlineat 1,15×, 10 mm entre paràgrafs, 20 mm abans de les preguntes, marges superior/inferior de 20 mm i esquerre/dret de 25 mm. És el format inicial de 1r i 2n i també es pot aplicar des de Plantilles. Conservem els maquetats desats i els ajustos personals de la sessió; Restableix recupera el format del curs.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.51.8</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
         <p>Completem quatre famílies més de 2n–3r–4t amb L138, Una bústia a la biblioteca, després de L106, L111 i L113. Afegim vuit obres adaptades en català i castellà: suport de 2n amb quatre preguntes literals i ampliació de 4t amb set preguntes. Conservem els originals de 3r i les il·lustracions compartides; cada variant té solucionari, línies i marques pròpies. Les setze versions noves han superat la revisió independent i les comprovacions locals i queden provisionals, pendents de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.51.7</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
         <p>Afegim la família L113, Una carta plena de blau, amb suport de 2n i ampliació de 4t en català i castellà. El suport presenta una carta breu amb quatre preguntes literals; l’ampliació distingeix fets, propostes i accions futures del mural compartit. Conservem l’original de 3r i la il·lustració. Les quatre versions noves han superat la revisió independent i les comprovacions locals.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.51.6</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
         <p>Afegim la família L111, Gots de tres colors, amb suport de 2n i ampliació de 4t en català i castellà. La recepta manté ingredients, quatre racions i l’ordre de les capes de l’original de 3r; el suport té quatre preguntes literals i l’ampliació treballa repartiment, seqüència i presentació. Les quatre versions noves han superat la revisió independent i les comprovacions locals.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.51.5</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
         <p>Comencem la segona tanda de famílies de 2n–3r–4t amb L106, El guant de ratlles. Afegim un suport breu amb quatre preguntes literals i una ampliació que desenvolupa les pistes i l’ordre dels fets, en català i castellà. Conservem l’original i la il·lustració; cada grau té respostes, línies i marques pròpies. Les quatre versions noves han superat la revisió independent i queden pendents de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.51.4</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
         <p>Compactem el catàleg: retirem el títol gran, situem el recompte sota el lema i portem el cercador a la capçalera, al costat de l’idioma. La cerca també funciona des d’una lectura i torna al catàleg sense perdre el focus. La impressió en lot passa a una icona amb ajuda a la capçalera. Afegim l’esdeveniment obre_lot per distingir les obertures del diàleg de les generacions de documents, amb context de vista, col·lecció i quantitat agrupada. Conservem la identificació i sortida de les col·leccions i adaptem la disposició a pantalles petites.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.51.3</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
         <p>Completem la tanda de quatre famílies de 2n–3r–4t amb L133, Un missatge a la nevera. Les noves versions de 2n tenen entre 47 i 65 paraules, paràgrafs breus i quatre preguntes literals; les ampliacions de 4t desenvolupen la mateixa proposta amb set preguntes. Les vuit obres adaptades disposen de català i castellà, solucionaris, línies ajustades, il·lustracions compartides i marques pròpies. Conservem els originals de 3r. Les setze versions noves han superat la revisió independent i queden provisionals, pendents de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.51.2</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
         <p>Afegim la família L129, L’aigua del gerro, amb una versió de 2n centrada en fets explícits i quatre preguntes literals i una ampliació de 4t sobre l’observació del canvi de color. Conservem l’original de 3r i la il·lustració. Les quatre versions en català i castellà han superat la revisió independent; documentem la font científica de referència i mantenim obertes les respostes raonables del solucionari.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.51.1</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
         <p>Afegim la família L107, Una garlanda de paper, amb suport de 2n de frases curtes i quatre preguntes literals i ampliació de 4t que desenvolupa l’ordre i les comprovacions de la construcció. Conservem l’original de 3r i les il·lustracions. Les quatre versions noves, en català i castellà, han superat la revisió independent i les comprovacions locals.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.51</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
         <p>Estrenem les variants de 2n amb la família L104, El banc moll: suport molt breu amb quatre preguntes literals, original de 3r conservat i ampliació de 4t, en català i castellà. Afegim format inicial de 16 pt i interlineat més ampli per a 2n i intervals d’extensió propis. Documentem els criteris de la tanda i la revisió independent de cada nova versió, provisional i pendent de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.50.5</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
         <p>Expliquem el paper de les variants com a mesura de disseny universal per a l’aprenentatge (DUA), tant al helper del filtre com a l’ajuda. Fem «Com funciona Trama» més ample i hi afegim exemples reals d’una pila de família i d’una resposta amb pistes, amb textos en català i castellà i disposició adaptada al mòbil.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.50.4</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
         <p>Fem més visibles les famílies al catàleg: la targeta frontal és una mica més estreta i baixa, amb més separació entre les dues capes de la pila. Conservem la mida del text i les transicions de 220 ms.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.50.3</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
         <p>Completem Els camins de la ribera amb les L264–L268, a partir de la L189: cinc històries de 5è amb en Neri, l’Elna i l’Isona, en català i castellà. Inclouen dues il·lustracions, preguntes, solucionaris, línies ajustades i marques de resposta. El catàleg ja ofereix cinc universos: els quatre nous tenen sis propostes autònomes cadascun, comptant la lectura d’origen. La tanda afegeix vint obres bilingües i vint escenes pròpies. L’índex conjunt documenta també La biblioteca de les coses, amb guies de continuïtat, personatges, estils i criteris per ampliar cada món. Les quaranta versions superen una revisió editorial independent amb registre de la versió exacta, com a provisionals pendents de validació docent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.50.2</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
         <p>Obrim La redacció del pati amb la Clara i l’Omar de la L070. Les L259–L263 afegeixen cinc lectures de 6è en català i castellà sobre fotografia, entrevistes, opinió, distribució i creació literària. Cada novetat inclou dues il·lustracions coherents, deu preguntes, solucionari, línies i marques de resposta. La guia de l’univers documenta continuïtat, gèneres, aparences i recursos.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.50.1</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
         <p>Obrim El taller de la plaça a partir de la L039 i hi afegim les L254–L258 en català i castellà. Sis propostes autònomes comparteixen la Irene, en Hugo i l’Asha, amb narració, instruccions, carta, entrevista i notícia. Les cinc lectures noves inclouen dues il·lustracions, preguntes, solucionari, línies ajustades i marques de resposta. Documentem escenari, personatges, identitat visual i possibles continuacions.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.50</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
         <p>Obrim L’observatori del turó a partir de la L175 i hi afegim les L249–L253, en català i castellà: cinc lectures noves amb dues il·lustracions, preguntes, solucionari, línies ajustades i marques de resposta. El món té sis propostes autònomes connectades per en Dani, la Mira i la guia Joana. Documentem continuïtat narrativa, aparença dels personatges i instruccions de les imatges. Les variants de la lectura d’origen hereten l’univers sense modificar-ne el contingut.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.49.4</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
         <p>Completem vint famílies noves amb les L180, L202, L203 i L205: notícia esportiva, enllumenat nocturn, transmissió de cançons i un torneig d’escacs. La tanda incorpora quaranta obres adaptades i vuitanta versions en català i castellà, amb reforç, ampliació, solucionaris, línies ajustades i marques al text. Amb el pilot previ hi ha vint-i-una famílies de tres graus. El catàleg arriba a 290 obres concretes i 580 versions lingüístiques; les famílies continuen comptant com una sola proposta. Afegim la taula de gradació i les comprovacions de tota la tanda, inclòs el subratllat de vocabulari que apareix més d’una vegada en un paràgraf.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.49.3</h3><time datetime="2026-11-20">20 de novembre del 2026</time></header>
         <p>Les L065, L077, L175 i L179 incorporen reforç i ampliació en català i castellà: trajectes i comparació de dades, usos de la pista, un diari d’observatori i una ressenya crítica. Arribem a setze famílies noves, trenta-dues obres adaptades i seixanta-quatre versions lingüístiques, conservant els originals.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.49.2</h3><time datetime="2026-11-19">19 de novembre del 2026</time></header>
         <p>Ampliem les L039, L043, L044 i L054 amb reforç i ampliació bilingües: reparació de paraigües, una carta de transport, l’ofici d’afinadora i mesures al plànol. La tanda arriba a dotze famílies noves, vint-i-quatre obres adaptades i quaranta-vuit versions lingüístiques, amb preguntes i solucionaris graduats.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.49.1</h3><time datetime="2026-11-19">19 de novembre del 2026</time></header>
         <p>Afegim reforç i ampliació per a les L005, L006, L008 i L031, en català i castellà: aqüeductes, identificació de balenes, disseny experimental i mosaics. La primera ampliació arriba a vuit famílies noves, amb setze obres adaptades i trenta-dues versions lingüístiques. Cada variant té preguntes, solucions, línies i marques de resposta pròpies.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.49</h3><time datetime="2026-11-19">19 de novembre del 2026</time></header>
         <p>Iniciem l’ampliació de famílies amb les L001–L004: cadascuna conserva l’original i incorpora una variant de reforç A i una d’ampliació B, en català i castellà. Són vuit obres noves, setze versions lingüístiques, amb preguntes, solucionari, línies de resposta i fragments ressaltats propis. Compartim les il·lustracions coherents amb cada història i mantenim els enllaços i maquetats existents. Documentem una primera selecció de vint lectures per continuar aquesta gradació.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.48.2</h3><time datetime="2026-11-19">19 de novembre del 2026</time></header>
         <p>Afegim «Compara» a cada costat amb una variant veïna: cada botó obre la parella corresponent amb la lectura actual, respectant l’ordre de gradació. Unifiquem a 220 ms el canvi de variant, el moviment dels previews veïns, l’obertura i el tancament del comparador i el desplaçament entre parelles. Respectem la preferència de moviment reduït.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.48.1</h3><time datetime="2026-11-19">19 de novembre del 2026</time></header>
         <p>Fem més grans els previews veïns de les famílies i situem «Compara» entre els fulls, sense tapar la lectura. Si només hi ha una variant veïna, desplacem el full principal per donar-li espai; amb dues, el mantenim centrat. El comparador s’obre amb la variant actual i l’anterior en gradació, o la següent si és la primera; en mòbil mostra directament la variant oberta.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.48</h3><time datetime="2026-11-19">19 de novembre del 2026</time></header>
         <p>Ampliem Umami amb context de curs, dificultat, llengua, univers, variants i resultats per a cerques i filtres; distingim les obertures i comparacions de famílies públiques. Reorganitzem el V4V amb presentació i autor a dalt, i privacitat/Umami i fonts obertes a baix. Corregim l’scroll del comparador: les pàgines comparteixen escala i desplaçament, amb salts alineats encara que les variants tinguin diferent nombre de fulls. No s’envien textos de cerca ni dades personals.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.47</h3><time datetime="2026-11-19">19 de novembre del 2026</time></header>
         <p>Cada família compta com una proposta al catàleg i als números dels filtres. Substituïm el desplegable de famílies pel checkbox «Només lectures amb variants». En obrir una família, la tria mostra miniatures reals de les primeres pàgines amb el maquetat propi de cada variant, el curs i la dificultat. Els filtres cerquen en les variants i destaquem les que hi coincideixen. La selecció, les col·leccions i la impressió continuen treballant amb fitxes concretes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.46.3</h3><time datetime="2026-11-19">19 de novembre del 2026</time></header>
         <p>Fem més discrets els interrogants d’Univers i Famílies: més petits, sense vora i enganxats al nom del filtre.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.46.2</h3><time datetime="2026-11-19">19 de novembre del 2026</time></header>
         <p>Les variants passen al preview com a miniatures de les fitxes veïnes, amb canvi animat al primer pla i «Compara» visible al centre. Retirem el submenú textual del sidebar i compactem el comparador, que ara sincronitza l’scroll per defecte, amb opció de separar-lo. La neteja de cerca i filtres passa a una creu discreta al costat de «Filtres», sense ocupar una fila pròpia ni desplegar o replegar la secció.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.46.1</h3><time datetime="2026-11-19">19 de novembre del 2026</time></header>
         <p>Afegim «Compara les variants» a la previsualització i al sidebar de famílies. El quadre ampli mostra les fitxes ordenades per gradació, amb dues columnes visibles en pantalles amples, desplaçament horitzontal i scroll independent per lectura. Permet anar directament a les preguntes, comparar solucionaris i obrir una variant, respectant els maquetats i codis d’aula de cada lectura i col·lecció sense modificar-los.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.46</h3><time datetime="2026-11-19">19 de novembre del 2026</time></header>
         <p>Univers passa als filtres principals, amb una ajuda que explica les lectures connectades. Estrenem el filtre de famílies i una pila de targetes amb tria prèvia de variant. La família de la L208 incorpora les L208A (4t) i L208B (6è), en català i castellà, conservant l’original de 1r d’ESO. Les variants es poden canviar des del visor i tenen maquetats independents; en seleccionar lectures o obrir una col·lecció es mostren per separat. Documentem els codis amb sufix, la navegació i els criteris de gradació.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.45.2</h3><time datetime="2026-11-19">19 de novembre del 2026</time></header>
         <p>Completem el primer univers amb la L248, «Un tamboret més a la llista?», una lectura argumentativa de 1r d’ESO inicial en català i castellà. Inclou dues il·lustracions, deu preguntes, solucionari i pistes revisades. «La biblioteca de les coses» ja agrupa quatre lectures independents; documentem la continuïtat dels personatges, les imatges i els criteris per ampliar-la.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.45.1</h3><time datetime="2026-11-19">19 de novembre del 2026</time></header>
         <p>Afegim la L247, «Una fitxa que no acusa», a l’univers de la biblioteca de les coses. Una lectura instructiva de 1r d’ESO inicial, en català i castellà, sobre registrar observacions sense convertir sospites en acusacions. Inclou dues il·lustracions, deu preguntes, vocabulari, solucionari i pistes revisades.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.45</h3><time datetime="2026-11-19">19 de novembre del 2026</time></header>
         <p>Estrenem els universos: un filtre nou agrupa lectures independents que comparteixen un món, amb accés també des del visor. «La biblioteca de les coses» neix de la L208 i incorpora la L246, en català i castellà, amb dues il·lustracions i deu preguntes amb solucionari i pistes. Documentem les decisions d’universos, famílies, itineraris i diàlegs i preparem els camps editorials sense confondre traduccions amb variants d’exigència.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.44.5</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Alineem l’etiqueta de col·lecció amb el lateral del catàleg. A la impressió en lot, «Cada lectura en un full nou (doble cara)» incorpora un interrogant amb una explicació de les pàgines en blanc, accessible amb ratolí, teclat i toc. Replantegem «Maquetats d’aquest navegador» com a «Còpia de seguretat i recuperació», amb textos que expliquen què es desa i com traslladar-ho, i separem el restabliment dels maquetats en un apartat propi. Els desplegables tenen transicions de 220 ms.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.44.4</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Compactem l’indicador de col·lecció: el nom passa a ser el títol, amb la icona de capes i una creu per treure el filtre. En passar-hi per sobre o donar-hi focus, una ajuda explica com tornar al catàleg. Retirem la franja que ocupava una fila sencera i afegim transicions de 220 ms, mantenint la posició de la graella i el sidebar.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.44.3</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Fem visible l’abast del catàleg quan s’obre una col·lecció: el títol diu «Col·lecció» i una franja destacada mostra el nom, explica que només se’n veuen les lectures i ofereix «Surt de la col·lecció». La sortida recupera el catàleg de la llengua triada i queda recordada en recarregar, conservant les col·leccions i els maquetats.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.44.2</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Afegim un botó d’ajuda amb interrogant al header. La guia presenta Trama i explica la cerca, la maquetació, les col·leccions, les pistes del solucionari, la impressió en lot i les còpies de seguretat, en català i castellà. Simplifiquem el selector d’idioma traient-ne la fletxa.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.44.1</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>«Afegeix a una col·lecció» desplega les col·leccions existents dins del menú de la targeta i hi afegeix la lectura directament. «Nova col·lecció» permet escriure el nom i crear-la al mateix menú, sense obrir el diàleg de desar ni canviar la vista del catàleg. Marquem les col·leccions que ja contenen la lectura i conservem el seu maquetat en copiar-la.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.44</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Les col·leccions es reordenen arrossegant les targetes directament a la graella, amb l’ordre desat per a la navegació i els lots. El clic obre la fitxa o alterna la selecció; una pulsació llarga o clic dret obre les opcions per afegir-la a una col·lecció existent o nova, o retirar-la de l’actual conservant-ne el maquetat. Substituïm el gestor d’ordenació emergent pels gestos a les targetes i el botó «Afegeix lectures». Incloem reordenació amb Alt + fletxes, opcions amb Majúscules + F10 i suport tàctil amb desplaçament normal de la pàgina.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.43.1</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>En mode selecció de col·leccions, tota la targeta serveix per seleccionar o deseleccionar la lectura, també amb el teclat. Substituïm els checkboxes per una marca de selecció i una vora destacada. En acabar o cancel·lar la selecció, les targetes tornen a obrir les lectures amb normalitat.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.43</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Ampliem el seguiment d’ús d’Umami per entendre millor les impressions, els lots, els solucionaris, la maquetació, les plantilles, les col·leccions i les còpies de seguretat. Les obertures de lectures inclouen llengua, curs i dificultat, també des d’enllaços directes. Les cerques només indiquen tipus i tram de resultats. No s’envien textos personals, codis d’aula ni noms de col·leccions; agrupem recomptes i evitem comptar cada moviment dels sliders. Documentem tots els esdeveniments i mantenim el respecte a les preferències de privadesa i als bloquejos.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.42.1</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>L’enllaç al changelog complet obre l’historial del repositori a GitHub.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.42</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Completem les pistes del solucionari per a les 245 lectures del catàleg, en català i castellà. Els fragments ressaltats i numerats es relacionen amb «Veure al text», amb colors compartits entre el text i la resposta. Es poden amagar des de «Pistes al text» i la tria es conserva amb el maquetat, també per imprimir o preparar lots. Revisem totes les referències i comprovem la paginació de tot el catàleg.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.41.8</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Les pistes del solucionari ja cobreixen les L001–L224 en català i castellà. Afegim els fragments de suport de les lectures més complexes i les referències a dades que cal comparar.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.41.7</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Ampliem les pistes revisades del solucionari fins a la L204 en tots dos idiomes, mantenint la numeració i els colors quan s’exclouen preguntes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.41.6</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Les pistes del solucionari arriben a la L180 en català i castellà. Revisem també les preguntes que demanen relacionar una observació, una mesura o una decisió amb la seva explicació.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.41.5</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Completem la revisió de pistes fins a la L150 en català i castellà, amb marques per localitzar informació literal, vocabulari i indicis d’inferència.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.41.4</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Estenguem les pistes de resposta fins a la L128 en tots dos idiomes: també s’hi incorporen els textos de 3r, amb referències breus i adaptades a cada pregunta.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.41.3</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Les marques de suport al solucionari ja cobreixen les L001–L100 en català i castellà, incloent-hi les lectures llargues i les pistes que cal relacionar entre paràgrafs.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.41.2</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Ampliem les pistes del solucionari fins a la L076, amb fragments revisats en català i castellà i indicis combinats per a les preguntes d’inferència.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.41.1</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Les pistes del solucionari s’amplien fins a L050, en català i castellà. Els fragments exactes s’han revisat amb les respostes de cada idioma; les marques poden compartir un passatge i mantenen la numeració quan s’amaguen preguntes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.41</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>El solucionari incorpora fragments ressaltats amb el número i el color de cada pregunta, i una drecera «Veure al text». Es poden desactivar a Pistes al text i la tria es conserva amb el maquetat, també per als lots. Primeres referències revisades a L001–L005 en català i castellà; la selecció s’ampliarà a la resta del catàleg.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.40</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Sis lectures noves de 1r d’ESO avançat (L240–L245), en català i castellà, completen quinze lectures per dificultat també a 1r d’ESO. L’ampliació acaba amb 81 lectures bilingües noves i 125 il·lustracions: 4t, 6è i 1r d’ESO disposen de quinze lectures inicials, quinze intermèdies i quinze avançades en cada idioma.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.39.1</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Tres lectures noves de 1r d’ESO avançat (L237–L239), en català i castellà: disseny experimental, cronologia d’una fotografia i memòries d’un riu. Dues il·lustracions i dotze preguntes exigents amb solucionari per lectura.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.39</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Dues lectures noves de 1r d’ESO intermedi (L235–L236), en català i castellà, completen quinze lectures d’aquesta dificultat. Una ressenya crítica i una carta familiar amb dues il·lustracions, onze preguntes i solucionari cadascuna.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.38.2</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Sis lectures més de 1r d’ESO intermedi (L229–L234), en català i castellà: energia, arqueologia, conques d’aigua, una final ajornada, memòria documental i rutes. Dues il·lustracions, onze preguntes i solucionari per lectura.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.38.1</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Sis lectures noves de 1r d’ESO intermedi (L223–L228), en català i castellà: enquestes, memòria, música, mapes, serveis digitals i ratpenats. Dues il·lustracions i onze preguntes amb solucionari per lectura.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.38</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Quinze lectures noves de 1r d’ESO inicial (L208–L222), en català i castellà, amb dues il·lustracions, deu preguntes, solucionari i espais ajustats. La tanda combina narracions, notícies, entrevistes, diaris, ressenyes, instruccions, cartes i argumentació.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.37</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Sis lectures noves de 6è intermedi (L202–L207), en català i castellà, amb dues il·lustracions, nou preguntes, solucionari i notes de vocabulari quan escau. 6è completa quinze lectures de cada dificultat en tots dos idiomes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.36.1</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Dotze lectures noves de 6è inicial (L190–L201), en català i castellà, amb il·lustració, vuit preguntes, solucionari i espais de resposta ajustats. El nivell inicial de 6è arriba a quinze lectures per idioma.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.36</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Nou lectures avançades (L181–L189) completen el catàleg de 4t: quinze lectures per dificultat, totes en català i castellà. Inclouen ficció, natura, tecnologia, notícies, una ressenya i una carta, amb il·lustració, vuit preguntes i solucionari.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.35.5</h3><time datetime="2026-11-18">18 de novembre del 2026</time></header>
         <p>Les lectures L177–L180 completen les quinze de 4t intermedi en català i castellà. El catàleg també distingeix la temàtica Jocs i enigmes per als textos que expliquen partides i regles.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.35.4</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>S’afegeixen tres lectures de 4t intermedi (L174–L176), amb un antic ferrocarril, un diari d’observació i una entrevista radiofònica. Totes tenen versió catalana i castellana, il·lustració i solucionari.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.35.3</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>Les lectures L171–L173 completen les quinze de 4t inicial en català i castellà, amb una entrevista, una lectura sobre preus i un conte fantàstic.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.35.2</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>Tres lectures més de 4t inicial (L168–L170) en totes dues llengües: una partida de dames, una carta sobre els seients d’un concert i unes mongetes enfiladisses.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.35.1</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>Tres lectures noves de 4t inicial (L165–L167), en català i castellà, amb il·lustració, sis preguntes i solucionari. S’ha rectificat l’anatomia de la mà de la il·lustració de la L165.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.35</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>Es retira el filtre de tipus de pregunta i s’unifiquen les etiquetes del catàleg. Medi ambient, esport, tecnologia i geografia tenen noms propis als filtres en català i castellà. Totes les lectures existents tenen temàtica i tipus de text verificats.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.34.3</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>Els controls de selecció i gestió de col·leccions s’agrupen al lateral esquerre del catàleg, incloent-hi el comptador, desar i cancel·lar.</p>
       </article>
-      <article>
-        <header><h3>v1.34.2</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
-        <p>La impressió en lot incorpora una opció de doble cara activada per defecte. Afegeix una pàgina en blanc al final de cada fitxa o solucionari amb un nombre senar de pàgines, també als PDF i ZIP. Les fletxes del visor mantenen la vista d’alumnat o de solucionari en canviar de lectura.</p>
-      </article>
-      <article>
-        <header><h3>v1.34.1</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
-        <p>El lateral de contingut mostra només les preguntes eliminades del preview, amb un botó per recuperar-les. La secció queda buida quan totes les preguntes són visibles.</p>
-      </article>
-      <article>
-        <header><h3>v1.34</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
-        <p>El catàleg mostra una sola llengua i recorda l’última tria. El lateral incorpora filtres desplegables i selecció de cards. Les col·leccions conserven l’ordre entre sessions i permeten afegir, retirar i reordenar lectures.</p>
-      </article>
-      <article>
-        <header><h3>v1.33</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
-        <p>Set lectures noves de 5è avançat (L158–L164), en català i castellà, completen les quinze de cada llengua. Totes tenen il·lustració, vuit preguntes i solucionari.</p>
-      </article>
-      <article>
-        <header><h3>v1.32</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
-        <p>El catàleg permet desar col·leccions amb la tria, l’ordre i un maquetat independent per lectura. Una còpia de seguretat permet traslladar les col·leccions, els maquetats, els codis d’aula i les plantilles.</p>
-      </article>
-      <article>
-        <header><h3>v1.31</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
-        <p>Els ajustos de cada lectura es desen automàticament al navegador i es recuperen en reobrir-la o imprimir-la, sola o en lot. Es pot restablir una lectura o esborrar tots els maquetats desats.</p>
-      </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.30</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>El visor permet desar el maquetat de cada lectura per imprimir-la més tard en lot. El diàleg pot mostrar només les lectures maquetades i aplica els ajustos desats tant a la fitxa com al solucionari.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.29.1</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>El codi d’aula manté el text, la mida, el contrast i la visibilitat en canviar de lectura durant la sessió. La mida per defecte és de 20 pt.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.29</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>Quinze lectures avançades (L143–L157) completen el catàleg de 3r: quinze lectures per dificultat, totes en català i castellà.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.28.1</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>Quan el visor mostra el solucionari, el botó principal imprimeix el solucionari amb el format actual. El desplegable permet imprimir la fitxa d’alumnat.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.28</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>S’incorporen onze lectures noves de 3r inicial (L123–L133) en català i castellà, amb il·lustració i solucionari.</p>
         <p>Nou lectures noves (L134–L142) completen les quinze de dificultat intermèdia de 3r en totes dues llengües.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.27.1</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>El codi d’aula permet triar entre cinc mides i dos contrastos. La lletra és de pal sec i queda centrada dins l’etiqueta.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.27</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>S’incorporen les lectures L114–L116 de 5è de primària, de dificultat inicial, en català i castellà.</p>
         <p>S’afegeixen tres lectures més de 5è inicial (L117–L119), amb il·lustració i solucionari.</p>
         <p>Les lectures L120–L122 completen el grup de 5è inicial, amb quinze lectures disponibles en totes dues llengües.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.26.4</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>L’encapçalament pot mostrar un codi d’aula personalitzat. Es desa per lectura al navegador i surt tant a la fitxa d’alumnat com al solucionari, també en imprimir o descarregar un lot.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.26.3</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>La finestra de lots obre la impressió de les fitxes d’alumnat amb el botó principal. El desplegable permet imprimir el solucionari i descarregar tots dos tipus de document en PDF o ZIP. Les fletxes del visor segueixen l’ordre de la graella filtrada.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.26.2</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>El text pot continuar al costat d’una il·lustració durant diversos paràgrafs. La fitxa incorpora botons per anar a la lectura anterior o següent segons la cerca, els filtres i l’ordre del catàleg.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.26.1</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>La descàrrega en bloc permet triar entre les fitxes d’alumnat i el solucionari. En obrir el diàleg, totes les lectures que coincideixen amb els filtres ja estan seleccionades.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.26</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>El catàleg permet seleccionar les lectures que coincideixen amb la cerca i els filtres i descarregar-les en un sol PDF o en un ZIP amb un PDF per lectura. La descàrrega en bloc substitueix l’intercanvi de lectures en JSON.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.25</h3><time datetime="2026-11-17">17 de novembre de 2026</time></header>
         <p>Cada curs té un format inicial de lletra i interlineat. Els ajustos de format es mantenen en obrir altres lectures durant la sessió. «Restableix» recupera el format del curs sense canviar el contingut triat.</p>
         <p>S’estrena el catàleg de 3r de primària amb cinc lectures curtes il·lustrades en català i castellà (L104–L108). El filtre d’extensió aplica llindars propis per al curs.</p>
         <p>Cinc lectures més de 3r de primària (L109–L113), amb il·lustracions, solucionari i espai de resposta ajustat a cada pregunta.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.24</h3><time datetime="2026-11-16">16 de novembre de 2026</time></header>
         <p>S’incorpora «El camí subterrani de l’aigua» (L100), una lectura de divulgació de 1r d’ESO sobre els qanats de l’Iran, en català i castellà.</p>
         <p>S’incorpora «La ratlla del darrer punt» (L101), una narració bilingüe de 1r d’ESO sobre un desacord a la final d’un torneig de bàdminton.</p>
         <p>S’incorpora «El rellotge de les dues minuteres» (L102), una lectura bilingüe de 1r d’ESO sobre els horaris del ferrocarril i l’hora de Greenwich.</p>
         <p>S’incorpora «Un paisatge per tocar» (L103), una entrevista bilingüe de 1r d’ESO sobre el disseny i l’avaluació d’una reproducció tàctil.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.23</h3><time datetime="2026-11-16">16 de novembre de 2026</time></header>
         <p>S’estrena 1r d’ESO amb «El pati a dues temperatures» (L097), una lectura de divulgació en català i castellà amb dues il·lustracions, deu preguntes i solucionari.</p>
         <p>S’incorpora «El revers de la tempesta» (L098), una narració bilingüe de 1r d’ESO sobre les pistes que amaga un decorat de teatre.</p>
         <p>S’incorpora «La sala dels divendres» (L099), una carta argumentativa bilingüe de 1r d’ESO amb onze preguntes sobre dades, horaris i accés a un espai compartit.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.22.2</h3><time datetime="2026-11-16">16 de novembre de 2026</time></header>
         <p>L’etiqueta sota el logotip s’imprimeix en majúscules més petites, ajustades a l’amplada de la marca.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.22.1</h3><time datetime="2026-11-16">16 de novembre de 2026</time></header>
         <p>Les definicions de vocabulari comencen directament sota la línia separadora. L’etiqueta de comprensió lectora apareix sota el logotip de l’encapçalament.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.22</h3><time datetime="2026-11-16">16 de novembre de 2026</time></header>
         <p>El catàleg incorpora 91 versions en català i arriba a 96 lectures disponibles en totes dues llengües.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.21</h3><time datetime="2026-11-16">16 de novembre de 2026</time></header>
         <p>Les lectures L001–L005 ja tenen versió en català. El selector d’idioma de la fitxa conserva els ajustos i el passatge visible quan es canvia de versió. Els avisos mostren el codi amb la llengua corresponent.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.20</h3><time datetime="2026-11-16">16 de novembre de 2026</time></header>
         <p>S’incorpora «El lado de la ola» (L093), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.</p>
         <p>S’incorpora «El pez que nadó al revés» (L094), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.</p>
         <p>S’incorpora «La playa que viajó con las olas» (L095), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.</p>
         <p>S’incorpora «El menú de las dos tortillas» (L096), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.19.1</h3><time datetime="2026-11-16">16 de novembre de 2026</time></header>
         <p>Les il·lustracions de les fitxes ocupen per defecte el 48% de l’amplada útil. Quan n’hi ha més d’una, s’alineen alternativament a l’esquerra i a la dreta.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.19</h3><time datetime="2026-11-16">16 de novembre de 2026</time></header>
         <p>S’incorpora «El nudo del cielo» (L089), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.</p>
         <p>S’incorpora «Una carta dentro del barro» (L090), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.</p>
         <p>S’incorpora «El turno de las polillas» (L091), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.</p>
         <p>S’incorpora «Dos fichas y una regla» (L092), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.18</h3><time datetime="2026-11-16">16 de novembre de 2026</time></header>
         <p>S’incorpora «La maleta que no quería cerrar» (L085), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.</p>
         <p>S’incorpora «Un minuto en el reloj de agua» (L086), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.</p>
@@ -1674,134 +1650,134 @@
         <p>S’incorpora «Dos cartas para una persiana» (L088), una lectura llarga i avançada de 6è de primària en castellà, amb dues il·lustracions, preguntes i solucionari.</p>
         <p>Les lectures de més de 350 paraules tenen dues il·lustracions. S’afegeix una segona imatge a les fitxes L082, L083 i L084.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.17.2</h3><time datetime="2026-11-16">16 de novembre de 2026</time></header>
         <p>L’interruptor de les notes de vocabulari té una fila pròpia al lateral de contingut. Si la lectura no té notes, la fila indica «Cap nota» i l’interruptor està desactivat.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.17.1</h3><time datetime="2026-11-16">16 de novembre de 2026</time></header>
         <p>El lateral de contingut permet amagar les notes de vocabulari i els seus superíndexs. Per defecte es mostren.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.17</h3><time datetime="2026-11-16">16 de novembre de 2026</time></header>
         <p>Les expressions citades a les preguntes de vocabulari se subratllen al text. Algunes lectures inclouen notes de vocabulari numerades abans de les preguntes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.16.4</h3><time datetime="2026-11-15">15 de novembre de 2026</time></header>
         <p>El formulari d’avisos indica quan Umami no està disponible i ofereix ajuda per tornar a permetre l’enviament. La bandera passa a la dreta de la capçalera de la fitxa i l’exportació JSON queda al catàleg.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.16.3</h3><time datetime="2026-11-15">15 de novembre de 2026</time></header>
         <p>La bandera del títol, de les preguntes i del solucionari permet notificar errors de les lectures públiques. El formulari indica si Umami ha rebut l’avís o si no s’ha pogut enviar.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.16.2</h3><time datetime="2026-11-15">15 de novembre de 2026</time></header>
         <p>Umami compta les obertures per codi de lectura pública i registra els filtres aplicats al catàleg. Per al filtre d’extensió, també registra el curs si se n’ha triat un.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.16.1</h3><time datetime="2026-11-14">14 de novembre de 2026</time></header>
         <p>Cada filtre actiu es pot treure amb la × al costat del seu desplegable.</p>
         <p>La llicència apareix al peu de les fitxes com a «Text: CC BY 4.0» i queda centrada encara que s’amagui l’origen de la fitxa.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.16</h3><time datetime="2026-11-14">14 de novembre de 2026</time></header>
         <p>El lema de la capçalera varia en carregar el web. Els filtres actius es poden treure des del recompte i els desplegables indiquen quantes lectures hi ha per opció.</p>
         <p>Es revisen els nivells de 5è i 6è, i s’afegeixen 31 preguntes amb solucionari a vint lectures.</p>
         <p>S’incorporen quatre lectures il·lustrades de 6è en castellà: una d’inicial i tres d’avançades.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.15</h3><time datetime="2026-11-13">13 de novembre de 2026</time></header>
         <p>El text de la lectura es pot justificar i pot portar guionets a final de línia en català i castellà. Els dos ajustos es poden desar en una plantilla.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.14</h3><time datetime="2026-11-13">13 de novembre de 2026</time></header>
         <p>L’extensió es classifica per curs i el catàleg afegeix dues files de lectures en arribar al final dels resultats visibles.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.13.1</h3><time datetime="2026-11-13">13 de novembre de 2026</time></header>
         <p>Els textos, les preguntes i les respostes de Trama es publiquen amb llicència CC BY 4.0, que apareix al peu de les fitxes. El camp de curs de l’encapçalament queda desactivat per defecte. També s’ha corregit la posició de l’espiral del quadern a la il·lustració de la L010.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.13</h3><time datetime="2026-11-13">13 de novembre de 2026</time></header>
         <p>El catàleg arriba a 80 lectures amb 60 fitxes noves en castellà, 20 per a cadascun dels cursos de 4t a 6è de primària. Totes les noves tenen una il·lustració, solucionari i espai de resposta adaptat a cada pregunta.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.12.3</h3><time datetime="2026-11-13">13 de novembre de 2026</time></header>
         <p>La lectura L001, «El cartel de la plaza», incorpora una pregunta nova i una quarta pregunta d’inferència.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.12.2</h3><time datetime="2026-11-12">12 de novembre de 2026</time></header>
         <p>L’Umami propi d’ortogra.fi compta les visites i les obertures de fitxes des del catàleg.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.12.1</h3><time datetime="2026-11-11">11 de novembre de 2026</time></header>
         <p>El catàleg es barreja en carregar la pàgina i manté el mateix ordre mentre es navega.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.12</h3><time datetime="2026-11-11">11 de novembre de 2026</time></header>
         <p>Quatre lectures de 5è en castellà amb il·lustracions en blanc i negre d’estil linogravat. El catàleg arriba a vint fitxes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.11</h3><time datetime="2026-11-11">11 de novembre de 2026</time></header>
         <p>Quatre lectures il·lustrades de 5è en castellà sobre la brúixola, els cargols, la pluja àcida i la suor.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.10</h3><time datetime="2026-11-11">11 de novembre de 2026</time></header>
         <p>Quatre lectures il·lustrades de 5è en castellà sobre les petjades fòssils, els músculs, el so a l’espai i la lira d’Hermes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.9.1</h3><time datetime="2026-11-11">11 de novembre de 2026</time></header>
         <p>Importació i exportació de lectures en un diàleg amb una plantilla JSON. El recompte acompanya el títol del catàleg.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.9</h3><time datetime="2026-11-11">11 de novembre de 2026</time></header>
         <p>Quatre lectures noves de 5è en castellà i revisió de les quatre primeres fitxes i els seus solucionaris.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.8</h3><time datetime="2026-11-11">11 de novembre de 2026</time></header>
         <p>Set tipografies agrupades per família, amb Massallera per a les fitxes en lletra lligada.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.7.2</h3><time datetime="2026-11-11">11 de novembre de 2026</time></header>
         <p>Les respostes orientatives del solucionari es distingeixen pel gris i una tipografia diferent de la dels enunciats.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.7.1</h3><time datetime="2026-11-11">11 de novembre de 2026</time></header>
         <p>Nou lema i logotip de Trama per defecte a l’encapçalament, amb una alçada màxima més baixa per als logotips.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.7</h3><time datetime="2026-11-11">11 de novembre de 2026</time></header>
         <p>Lectures importables i exportables en JSON, logotips al full i espai independent abans de les preguntes.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.6</h3><time datetime="2026-11-11">11 de novembre de 2026</time></header>
         <p>Interfície en català i castellà. Cerca pel codi de lectura, solucionari al full i menú d’impressió i descàrrega de PDF.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.5</h3><time datetime="2026-11-11">11 de novembre de 2026</time></header>
         <p>Visor amb capçalera compacta, zoom flotant i impressió a mà. Plantilles amb miniatures i ordre personalitzable. Nous valors per a la pauta de resposta i crèdits al V4V.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.4</h3><time datetime="2026-11-10">10 de novembre de 2026</time></header>
         <p>Visor més ample, amb el format a l’esquerra i el contingut a la dreta. Codis curts de lectura i preguntes, i preferència de tema desada al navegador.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.3.1</h3><time datetime="2026-11-10">10 de novembre de 2026</time></header>
         <p>El catàleg aprofita l’amplada de la finestra i passa de quatre a tres, dues o una columna segons la pantalla.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.3</h3><time datetime="2026-11-10">10 de novembre de 2026</time></header>
         <p>Codis llegibles a totes les pàgines, encapçalament i peu configurables i controls d’espai de resposta directament a la previsualització.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.2</h3><time datetime="2026-11-10">10 de novembre de 2026</time></header>
         <p>Catàleg de quatre columnes en pantalles amples i menús més compactes. Nous marges de la fitxa i plantilles de format editables desades al navegador.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.1</h3><time datetime="2026-11-10">10 de novembre de 2026</time></header>
         <p>Catàleg més directe, amb capçalera i peu fixos. Ajustos i previsualització amb desplaçament propi, zoom del full i un nou espai per al projecte i l’historial.</p>
       </article>
-      <article class="release">
+      <article class="of-release">
         <header><h3>v1.0</h3><time datetime="2026-11-10">10 de novembre de 2026</time></header>
         <p>Primera versió amb quatre lectures il·lustrades en castellà per a 5è de primària i un editor de fitxes imprimibles amb codi de recuperació.</p>
       </article>

@@ -2,6 +2,8 @@
 
 ## Pendent de publicar
 
+- Historial compartit amb data, versió, grups de canvis i enllaç al registre complet. Es comprova l’increment de versió en preparar una publicació de Trama.
+
 - El diàleg V4V de la mostra adopta les proporcions de Pentagrama, amb presentació i fonts obertes de Trama i els actius compartits d’ortogra.fi.
 
 - Peu de pilot amb icones per a l’historial, el diàleg de llicències, el repositori i el V4V. En mòbil es mantenen les icones amb etiquetes accessibles.

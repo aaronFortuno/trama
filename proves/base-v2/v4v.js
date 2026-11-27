@@ -1,5 +1,5 @@
-import { mountDialog } from './dialog.js?v=0.4.0';
-import { v4vCopy, v4vProjectCopy } from './v4v-copy.js?v=0.4.0';
+import { mountDialog } from './dialog.js?v=0.5.0';
+import { v4vCopy, v4vProjectCopy } from './v4v-copy.js?v=0.5.0';
 
 export function mountV4V(dialog, trigger, { onOpen, onCopy } = {}) {
   const copy = dialog.querySelector('[data-of-copy]');

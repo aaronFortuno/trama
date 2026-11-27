@@ -1,3 +1,4 @@
+import { mountChangelog } from './ortografi-base/changelog.js?v=0.5.0';
 import { mountLicense } from './ortografi-base/license.js?v=0.3.0';
 import { mountV4V } from './ortografi-base/v4v.js?v=0.4.0';
 import { mountCatalog } from './catalog.js';
@@ -314,3 +315,5 @@ window.addEventListener('hashchange', route);
 route();
 
 mountLicense(document.getElementById('project-license'), document.getElementById('license-open'));
+
+mountChangelog(document.getElementById('changelog-dialog'), document.querySelector('[data-of-release="changelog-dialog"]'));

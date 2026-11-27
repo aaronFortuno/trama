@@ -71,17 +71,6 @@ h1 { margin: 0; font: 700 clamp(1.55rem, 6vw, 2.15rem)/1.15 var(--of-title-font)
 .preview-footer { display: grid; grid-template-columns: 1fr auto 1fr; font-size: .83rem; }
 .footer-context { color: var(--muted); margin: 0; }
 .of-signature { display: inline-flex; align-items: center; gap: 4px; font: 700 1.1rem/1 var(--of-title-font); text-decoration: none; }
-#changes { --of-dialog-width: 35rem; }
-.release-example { margin: 0 0 12px; color: var(--muted); font-size: .82rem; }
-.release { padding-block: 12px; border-block-start: 1px solid var(--line); }
-.release:last-child { padding-block-end: 0; }
-.release header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 10px; }
-.release h3, .release h4 { margin: 0; }
-.release time { color: var(--muted); font-size: .82rem; }
-.release h4 { margin-block-start: 5px; font-size: .83rem; }
-.release ul { margin: 4px 0 0; padding-inline-start: 20px; }
-.release li + li { margin-block-start: 3px; }
-[data-message="support"] { margin-block-start: 0; }
 @media (max-width: 480px) {
   .preview-identity { gap: 6px; }
   .brand { gap: 5px; font-size: 1.3rem; }

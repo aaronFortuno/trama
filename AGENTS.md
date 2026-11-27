@@ -4,6 +4,8 @@ Per ampliar preguntes amb doble format obert/ABCD, consulta `docs/question-choic
 
 Actualitza `CHANGELOG.md` amb cada canvi, encara que sigui menor. Quan publiquis una versió, sincronitza la versió i les notes a `index.html` i les traduccions a `locales/es.js`. Fes servir una versió de pedaç per als ajustos menors, com ara de 1.16 a 1.16.1.
 
+Per decidir l’increment i agrupar les notes, aplica els [criteris comuns de publicació](ortografi-base/AGENTS.md). `tools/record-release.mjs` valida l’increment, amb `patch` per defecte per a les eines que publiquen tandes de materials. Per a altres publicacions, passa el tipus de canvi i les notes agrupades de la publicació.
+
 Abans d’ampliar lectures d’un univers, consulta `docs/universes/README.md` i la guia del món corresponent. Conserva la continuïtat de personatges, llocs i il·lustracions; cada lectura ha de funcionar sense ordre obligatori. Documenta a la guia els detalls nous que es fixin i conserva les instruccions de les il·lustracions.
 
 Després de preparar una lectura o de modificar-ne el text o les preguntes, aplicar el skill `revisio-coherencia-didactica`, instal·lat a `C:/Users/afortun8/.codex/skills/revisio-coherencia-didactica/SKILL.md`. La [font compartida i versionada](https://github.com/aaronFortuno/sentit/blob/main/skills/revisio-coherencia-didactica/SKILL.md) serveix de referència en altres entorns. Un agent independent de l'autor ha de comprovar plausibilitat, cronologia, causalitat, coneixement dels personatges, preguntes, solucionari i marques de resposta. Corregir els problemes i fer revalidar els elements afectats abans de presentar el material al docent. Cada variant o idioma requereix revisar les seves pròpies dades; no hereta l'aprovació de l'original.

@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { createRequire } from 'node:module';
-import { recordRelease } from './record-release.mjs';
+import { nextMaterialRelease, recordRelease } from './record-release.mjs';
 
 const require = createRequire('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/package.json');
 const sharp = require('sharp');
@@ -46,7 +46,7 @@ ledger.progress = {
 };
 const readingComplete = reading.images.every(asset => asset.status === 'complete');
 if (readingComplete) {
-  const version = '1.58.' + completedReadings.length;
+  const version = nextMaterialRelease();
   reading.edition = 'v' + version;
   const amount = reading.images.length;
   recordRelease({ version, date: job.date ?? '2026-11-25',

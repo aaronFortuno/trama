@@ -5,12 +5,13 @@ import fs from 'node:fs';
 import { loadLibraryDrafts, checkLibraryFamily, hash } from './check-library-expansion.mjs';
 import { libraryPublications } from '../data/library-expansion.js';
 import { localizedChoice, choiceReviewSnapshot } from '../data/question-choices.js';
-import { recordRelease } from './record-release.mjs';
+import { checkMaterialRelease, recordRelease } from './record-release.mjs';
 
 const arg = name => process.argv.find(value => value.startsWith(`--${name}=`))?.slice(name.length + 3);
 const code = arg('code'), reviewer = arg('reviewer'), author = arg('author'), sourceSha256 = arg('source-sha')?.toLowerCase(), edition = arg('edition'), date = arg('date');
 assert(/^L2[67]\d$/.test(code ?? '') && author && reviewer && author !== reviewer);
 assert(/^[a-f0-9]{64}$/.test(sourceSha256 ?? '') && /^v\d+\.\d+(?:\.\d+)?$/.test(edition ?? '') && /^\d{4}-\d{2}-\d{2}$/.test(date ?? ''));
+checkMaterialRelease(edition.slice(1));
 const draft = (await loadLibraryDrafts()).find(entry => entry.spec.code === code);
 assert(draft && draft.sourceSha256 === sourceSha256, 'Source must exactly match the independent review');
 checkLibraryFamily(draft, { published: true });
