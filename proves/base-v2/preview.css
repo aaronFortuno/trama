@@ -22,7 +22,7 @@ button { font: inherit; color: inherit; }
 a { color: inherit; }
 button { cursor: pointer; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
-body, .of-dialog, :is(button, a, .accent, .header-motto, .language-check) {
+body, .of-dialog, :is(button, a, .accent, .language-check) {
   transition-property: background-color, border-color, color, outline-color;
   transition-duration: var(--of-motion);
   transition-timing-function: var(--of-ease);
@@ -30,10 +30,8 @@ body, .of-dialog, :is(button, a, .accent, .header-motto, .language-check) {
 .skip:not(:focus) { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
 .skip:focus { position: absolute; inset: 6px auto auto 6px; z-index: 1; padding: 6px 10px; background: var(--surface); }
 .preview-bar { display: flex; justify-content: space-between; padding-block: 5px; }
-.preview-identity { display: flex; align-items: center; min-width: 0; gap: var(--of-gap); }
 .brand { display: inline-flex; align-items: center; gap: 8px; min-width: 0; font: 700 1.65rem/1 var(--of-title-font); text-decoration: none; }
 .brand img { flex: none; }
-.header-motto { margin: 0; min-width: 0; border-inline-start: 1px solid var(--line); padding-inline-start: var(--of-gap); font: italic 1rem/1.25 var(--of-title-font); color: var(--muted); }
 .accent { color: var(--accent); }
 .of-tools { flex: none; }
 .of-tools > button { border: 1px solid var(--line); border-radius: 7px; padding: 5px 8px; background: var(--surface); }
@@ -66,10 +64,8 @@ body, .of-dialog, :is(button, a, .accent, .header-motto, .language-check) {
 .footer-context { color: var(--muted); margin: 0; }
 .of-signature { display: inline-flex; align-items: center; gap: 4px; font: 700 1.1rem/1 var(--of-title-font); text-decoration: none; }
 @media (max-width: 480px) {
-  .preview-identity { gap: 6px; }
   .brand { gap: 5px; font-size: 1.3rem; }
   .brand img { width: 28px; height: 28px; }
-  .header-motto { padding-inline-start: 6px; font-size: .78rem; }
   .preview-footer { grid-template-columns: 1fr auto; }
   .preview-footer .of-signature { justify-self: start; }
   .footer-context { grid-column: 1 / -1; font-size: .75rem; }

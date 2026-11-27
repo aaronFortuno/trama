@@ -2,21 +2,12 @@ body:has(.gallery-preview) { block-size: 100dvh; min-block-size: 0; }
 [hidden] { display: none !important; }
 .gallery-preview {
   display: grid;
-  grid-template-rows: auto minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr);
   min-block-size: 0;
   padding-block: 15px 12px;
 }
-.sample-toolbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 12px;
-  margin-block-end: 12px;
-}
-.sample-toolbar h1 { margin: 0; font: 400 1.5rem/1.2 var(--of-title-font); }
 #sample-count { font-size: .76rem; color: var(--of-muted); }
-.sample-search { inline-size: min(100%, 21rem); }
-.sample-search input, .sample-fields select {
+.sample-fields select {
   inline-size: 100%;
   min-block-size: 36px;
   padding: 6px 9px;
@@ -28,6 +19,8 @@ body:has(.gallery-preview) { block-size: 100dvh; min-block-size: 0; }
 }
 .sample-layout { min-block-size: 0; align-items: stretch; }
 .sample-sidebar {
+  display: flex;
+  flex-direction: column;
   align-self: start;
   min-inline-size: 0;
   max-block-size: 100%;
@@ -44,7 +37,8 @@ body:has(.gallery-preview) { block-size: 100dvh; min-block-size: 0; }
 .sample-fields label { display: grid; gap: 3px; min-inline-size: 0; }
 .sample-fields span { font-weight: 600; }
 .sample-reset { justify-self: start; border: 0; padding: 2px 0; background: transparent; text-decoration: underline; text-underline-offset: 3px; }
-.sample-sidebar .site-link { display: inline-block; margin-block-start: 8px; text-underline-offset: 3px; }
+.sample-sidebar-meta { display: grid; gap: 5px; margin-block-start: auto; padding-block-start: 8px; }
+.sample-sidebar .site-link { justify-self: start; text-underline-offset: 3px; }
 .sample-results { min-inline-size: 0; min-block-size: 0; padding: 4px; margin: -4px; overflow: auto; scrollbar-width: thin; scrollbar-color: var(--of-border) transparent; }
 .sample-results:focus-visible { outline-offset: -2px; }
 .sample-empty { margin: 0; padding: 18px; color: var(--of-muted); }
@@ -85,8 +79,4 @@ body:has(.gallery-preview) { block-size: 100dvh; min-block-size: 0; }
   .sample-layout { display: grid; }
   .sample-results { overflow: visible; }
   .sample-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-}
-@media (max-width: 520px) {
-  .sample-toolbar { align-items: stretch; flex-direction: column; }
-  .sample-search { inline-size: 100%; }
 }

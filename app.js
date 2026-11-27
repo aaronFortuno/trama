@@ -1,7 +1,8 @@
+import { mountGallerySearch } from './ortografi-base/gallery-controls.js?v=0.8.0';
 import { mountChangelog } from './ortografi-base/changelog.js?v=0.5.0';
 import { mountLicense } from './ortografi-base/license.js?v=0.6.0';
 import { mountV4V } from './ortografi-base/v4v.js?v=0.4.0';
-import { mountCatalog } from './catalog.js';
+import { mountCatalog } from './catalog.js?base=0.8.0';
 import { readings as publicReadings } from './data/readings.js';
 import { mountStudio } from './studio.js';
 import { animateRefresh, closeDialog, mountDialogs, openDialog } from './motion.js';
@@ -173,6 +174,7 @@ mountBatchDownload({
     studio.reloadTemplates();
   },
 });
+mountGallerySearch(document.querySelector('.of-gallery-head'));
 mountDialogs();
 mountSelectMenus();
 

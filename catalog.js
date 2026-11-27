@@ -1,3 +1,4 @@
+import { formatCatalogCount, gallerySearchFocusTarget } from './ortografi-base/gallery-controls.js?v=0.8.0';
 import { animateRefresh, closeDialog, mountDisclosures, openDialog, setDisclosure } from './motion.js';
 import { placeMenu, syncSelects } from './select-menu.js';
 import { defaultReadingLanguage, language, languages, t } from './i18n.js';
@@ -165,6 +166,7 @@ export function mountCatalog({ root, readings, searchInput, resultCounter, onSel
   languageField.value = languagePreference ?? defaultReadingLanguage(availableLanguages);
   const levelField = root.querySelector('#filter-level');
   const grid = root.querySelector('#reading-grid');
+  const publicCount = new Set(readings.filter(reading => !reading.personal).map(reading => reading.code)).size;
   const resultCount = resultCounter ?? root.querySelector('#result-count');
   const catalogHeading = root.querySelector('.catalog-heading');
   const heading = root.querySelector('#readings-title');
@@ -289,7 +291,7 @@ export function mountCatalog({ root, readings, searchInput, resultCounter, onSel
     setFacet(fields.find(field => field.dataset.facet === button.dataset.removeFacet), '');
     onActivity?.('neteja_filtres', { filtre: button.dataset.removeFacet });
     refresh();
-    const next = activeFilters.children[index] ?? activeFilters.lastElementChild ?? search;
+    const next = activeFilters.children[index] ?? activeFilters.lastElementChild ?? gallerySearchFocusTarget(search);
     next.focus({ preventScroll: true });
   });
 
@@ -466,7 +468,10 @@ export function mountCatalog({ root, readings, searchInput, resultCounter, onSel
     const unit = selecting || activeCollection ? 'fitxa' : facets.family ? 'família' : 'proposta';
     const singular = { fitxa: '1 fitxa', família: '1 família', proposta: '1 proposta' };
     const plural = { fitxa: '{count} fitxes', família: '{count} famílies', proposta: '{count} propostes' };
-    const countLabel = t(total === 1 ? singular[unit] : plural[unit], { count: words.format(total) });
+    const filtered = selecting || activeCollection || activeCount || search.value.trim() || !activeFilters.hidden;
+    const countLabel = filtered
+      ? t(total === 1 ? singular[unit] : plural[unit], { count: words.format(total) })
+      : formatCatalogCount('trama', publicCount, language());
     if (resultCount.textContent !== countLabel) resultCount.textContent = countLabel;
     setDisclosure(catalogHeading, Boolean(activeCollection) || !activeFilters.hidden);
     emptyState.hidden = total !== 0;
@@ -568,7 +573,7 @@ export function mountCatalog({ root, readings, searchInput, resultCounter, onSel
     search.value = '';
     for (const field of optionalFields) setFacet(field, '');
     refresh();
-    search.focus();
+    gallerySearchFocusTarget(search).focus();
   }
 
   function syncCollections() {
@@ -624,7 +629,7 @@ export function mountCatalog({ root, readings, searchInput, resultCounter, onSel
     collectionStatus.textContent = '';
     selectCollection('');
     cardStatus.textContent = t('Has tornat al catàleg de lectures.');
-    search.focus({ preventScroll: true });
+    gallerySearchFocusTarget(search).focus({ preventScroll: true });
   });
   collectionAdd.addEventListener('click', () => { if (activeCollection) startAdding(activeCollection.id); });
   selectionToggle.addEventListener('click', () => {
@@ -702,7 +707,7 @@ export function mountCatalog({ root, readings, searchInput, resultCounter, onSel
     addingTo = collections.find(entry => entry.id === id);
     beginSelection();
     onActivity?.('colleccio', { accio: 'selecciona' });
-    search.focus();
+    gallerySearchFocusTarget(search).focus();
   }
 
   function commitCollection(change, focusId, action, message) {
@@ -835,7 +840,7 @@ export function mountCatalog({ root, readings, searchInput, resultCounter, onSel
       const family = catalog.find(item => item.reading.id === readingId)?.reading.familyId;
       const button = [...grid.querySelectorAll('button[data-id]')].find(({ dataset }) => dataset.id === readingId)
         ?? [...grid.querySelectorAll('[data-family-id]')].find(card => family && card.dataset.familyId === family)?.querySelector('.card-open');
-      (button ?? search).focus();
+      (button ?? gallerySearchFocusTarget(search)).focus();
     },
   };
 }

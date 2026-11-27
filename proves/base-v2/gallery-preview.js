@@ -1,3 +1,5 @@
+import { gallerySearchFocusTarget } from './gallery-controls.js?v=0.8.0';
+
 const copy = {
   ca: { filters: 'Filtres', search: 'Cerca per títol o codi', level: 'Curs', type: 'Tipologia', topicType: 'Temàtica', structure: 'Estructura', allLevels: 'Tots els cursos', allTypes: 'Totes les tipologies', allTopics: 'Totes les temàtiques', allStructures: 'Totes les estructures', reset: 'Esborra els filtres', empty: 'Cap resultat amb aquests filtres.', count: n => `${n} de mostra`, title: { trama: 'Lectures', sentit: 'Comprensions orals', 'mon-a-ma': 'Temes', 'fil-i-compte': 'Problemes' }, worksheet: 'Prepara la fitxa', listening: 'Obre la comprensió', topic: 'Obre el tema', solution: 'Detall del solucionari', region: 'Galeria de mostra' },
   es: { filters: 'Filtros', search: 'Busca por título o código', level: 'Curso', type: 'Tipo de texto', allLevels: 'Todos los cursos', allTypes: 'Todos los tipos', reset: 'Borra los filtros', empty: 'Ningún resultado con estos filtros.', count: n => `${n} de muestra`, title: { trama: 'Lecturas', sentit: 'Comprensiones orales' }, worksheet: 'Prepara la ficha', listening: 'Abre la comprensión', region: 'Galería de muestra' },
@@ -8,11 +10,11 @@ const normalise = value => value.normalize('NFD').replace(/\p{M}/gu, '').toLower
 
 export function mountGalleryPreview(gallery) {
   const project = document.body.dataset.project;
-  const labels = [...gallery.querySelectorAll('[data-gallery-label]')];
+  const labels = [...document.querySelectorAll('[data-gallery-label]')];
   const cards = [...gallery.querySelectorAll('[data-sample]')];
   const terms = cards.map(card => normalise(card.querySelector('h2').textContent + ' ' + (card.querySelector('.sample-code')?.textContent ?? card.querySelector('.sample-kicker span:last-child')?.textContent ?? '')));
   const selects = [...gallery.querySelectorAll('[data-filter]')];
-  const search = gallery.querySelector('input[type="search"]');
+  const search = document.querySelector('[data-of-search-panel] input');
   const reset = gallery.querySelector('.sample-reset');
   const empty = gallery.querySelector('.sample-empty');
   const counter = gallery.querySelector('#sample-count');
@@ -41,7 +43,7 @@ export function mountGalleryPreview(gallery) {
   reset.addEventListener('click', () => {
     search.value = '';
     for (const select of selects) select.value = '';
-    search.focus({ preventScroll: true });
+    gallerySearchFocusTarget(search).focus({ preventScroll: true });
     filter();
   });
 

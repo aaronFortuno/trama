@@ -2,6 +2,8 @@
 
 ## Pendent de publicar
 
+- La cerca i el recompte passen a la capçalera del catàleg, amb accés a «Com funciona» i un lateral que ocupa l’alçada disponible.
+
 - El pilot comparteix l’amplada, el lateral i la graella adaptable del catàleg. La galeria conserva les il·lustracions i les piles de variants.
 
 - El quadre compartit de llicències incorpora les pestanyes MIT i CC BY 4.0, amb resum i text legal complet en una zona amb desplaçament intern.
