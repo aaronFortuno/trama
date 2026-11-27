@@ -1,9 +1,9 @@
 {
   "date": "2026-11-27",
-  "totalWorks": 649,
-  "coveredWorks": 649,
+  "totalWorks": 657,
+  "coveredWorks": 657,
   "pendingWorks": 0,
-  "localizedAlternatives": 6690,
+  "localizedAlternatives": 6748,
   "ranges": [
     {
       "start": 1,
@@ -176,15 +176,15 @@
     {
       "start": 121,
       "end": 125,
-      "total": 13,
-      "covered": 13,
+      "total": 15,
+      "covered": 15,
       "status": "complete"
     },
     {
       "start": 126,
       "end": 130,
-      "total": 19,
-      "covered": 19,
+      "total": 21,
+      "covered": 21,
       "status": "complete"
     },
     {
@@ -197,15 +197,15 @@
     {
       "start": 136,
       "end": 140,
-      "total": 15,
-      "covered": 15,
+      "total": 17,
+      "covered": 17,
       "status": "complete"
     },
     {
       "start": 141,
       "end": 145,
-      "total": 9,
-      "covered": 9,
+      "total": 11,
+      "covered": 11,
       "status": "complete"
     },
     {
@@ -15312,6 +15312,104 @@
       }
     },
     {
+      "code": "L125C",
+      "baseCode": "L125",
+      "variant": true,
+      "level": "1-primary",
+      "difficulty": "initial",
+      "title": "Una barca per a dos",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l125c-q1",
+              "number": 1
+            },
+            {
+              "id": "l125c-q2",
+              "number": 2
+            },
+            {
+              "id": "l125c-q3",
+              "number": 3
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l125c-q1",
+              "number": 1
+            },
+            {
+              "id": "l125c-q2",
+              "number": 2
+            },
+            {
+              "id": "l125c-q3",
+              "number": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L125D",
+      "baseCode": "L125",
+      "variant": true,
+      "level": "2-primary",
+      "difficulty": "advanced",
+      "title": "Una barca per a dos",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l125d-q1",
+              "number": 1
+            },
+            {
+              "id": "l125d-q2",
+              "number": 2
+            },
+            {
+              "id": "l125d-q3",
+              "number": 3
+            },
+            {
+              "id": "l125d-q4",
+              "number": 4
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l125d-q1",
+              "number": 1
+            },
+            {
+              "id": "l125d-q2",
+              "number": 2
+            },
+            {
+              "id": "l125d-q3",
+              "number": 3
+            },
+            {
+              "id": "l125d-q4",
+              "number": 4
+            }
+          ]
+        }
+      }
+    },
+    {
       "code": "L126",
       "baseCode": "L126",
       "variant": false,
@@ -15449,6 +15547,104 @@
             {
               "id": "l126b-q6",
               "number": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L126C",
+      "baseCode": "L126",
+      "variant": true,
+      "level": "1-primary",
+      "difficulty": "initial",
+      "title": "El camí de les fletxes",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l126c-q1",
+              "number": 1
+            },
+            {
+              "id": "l126c-q2",
+              "number": 2
+            },
+            {
+              "id": "l126c-q3",
+              "number": 3
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l126c-q1",
+              "number": 1
+            },
+            {
+              "id": "l126c-q2",
+              "number": 2
+            },
+            {
+              "id": "l126c-q3",
+              "number": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L126D",
+      "baseCode": "L126",
+      "variant": true,
+      "level": "2-primary",
+      "difficulty": "advanced",
+      "title": "El camí de les fletxes",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l126d-q1",
+              "number": 1
+            },
+            {
+              "id": "l126d-q2",
+              "number": 2
+            },
+            {
+              "id": "l126d-q3",
+              "number": 3
+            },
+            {
+              "id": "l126d-q4",
+              "number": 4
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l126d-q1",
+              "number": 1
+            },
+            {
+              "id": "l126d-q2",
+              "number": 2
+            },
+            {
+              "id": "l126d-q3",
+              "number": 3
+            },
+            {
+              "id": "l126d-q4",
+              "number": 4
             }
           ]
         }
@@ -17232,6 +17428,104 @@
       }
     },
     {
+      "code": "L139C",
+      "baseCode": "L139",
+      "variant": true,
+      "level": "1-primary",
+      "difficulty": "initial",
+      "title": "La corda de l’hort",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l139c-q1",
+              "number": 1
+            },
+            {
+              "id": "l139c-q2",
+              "number": 2
+            },
+            {
+              "id": "l139c-q3",
+              "number": 3
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l139c-q1",
+              "number": 1
+            },
+            {
+              "id": "l139c-q2",
+              "number": 2
+            },
+            {
+              "id": "l139c-q3",
+              "number": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L139D",
+      "baseCode": "L139",
+      "variant": true,
+      "level": "2-primary",
+      "difficulty": "advanced",
+      "title": "La corda de l’hort",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l139d-q1",
+              "number": 1
+            },
+            {
+              "id": "l139d-q2",
+              "number": 2
+            },
+            {
+              "id": "l139d-q3",
+              "number": 3
+            },
+            {
+              "id": "l139d-q4",
+              "number": 4
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l139d-q1",
+              "number": 1
+            },
+            {
+              "id": "l139d-q2",
+              "number": 2
+            },
+            {
+              "id": "l139d-q3",
+              "number": 3
+            },
+            {
+              "id": "l139d-q4",
+              "number": 4
+            }
+          ]
+        }
+      }
+    },
+    {
       "code": "L140",
       "baseCode": "L140",
       "variant": false,
@@ -17790,6 +18084,112 @@
             {
               "id": "l145b-q6",
               "number": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L145C",
+      "baseCode": "L145",
+      "variant": true,
+      "level": "1-primary",
+      "difficulty": "initial",
+      "title": "La manta de les mànigues",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l145c-q1",
+              "number": 1
+            },
+            {
+              "id": "l145c-q2",
+              "number": 2
+            },
+            {
+              "id": "l145c-q3",
+              "number": 3
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l145c-q1",
+              "number": 1
+            },
+            {
+              "id": "l145c-q2",
+              "number": 2
+            },
+            {
+              "id": "l145c-q3",
+              "number": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L145D",
+      "baseCode": "L145",
+      "variant": true,
+      "level": "2-primary",
+      "difficulty": "advanced",
+      "title": "La manta de les mànigues",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l145d-q1",
+              "number": 1
+            },
+            {
+              "id": "l145d-q2",
+              "number": 2
+            },
+            {
+              "id": "l145d-q3",
+              "number": 3
+            },
+            {
+              "id": "l145d-q4",
+              "number": 4
+            },
+            {
+              "id": "l145d-q5",
+              "number": 5
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l145d-q1",
+              "number": 1
+            },
+            {
+              "id": "l145d-q2",
+              "number": 2
+            },
+            {
+              "id": "l145d-q3",
+              "number": 3
+            },
+            {
+              "id": "l145d-q4",
+              "number": 4
+            },
+            {
+              "id": "l145d-q5",
+              "number": 5
             }
           ]
         }

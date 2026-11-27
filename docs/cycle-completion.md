@@ -21,10 +21,10 @@ Ordre editorial: **C → A → D → original → B**. C, A i D ofereixen els tr
 | L108 · La capsa dels dibuixos | L108C, L108D | Provisional ES/CA, revisió superada |
 | L127 · Una pinça per a cada mitjó | L127C, L127D | Provisional ES/CA, revisió superada |
 | L123 · La llauna dels llapis | L123C, L123D | Provisional ES/CA, revisió superada |
-| L126 · El camí de les fletxes | — | Previst |
-| L139 · La corda de l’hort | — | Previst |
-| L125 · Una barca per a dos | — | Previst |
-| L145 · La manta de les mànigues | — | Previst |
+| L126 · El camí de les fletxes | L126C, L126D | Provisional ES/CA, revisió superada |
+| L139 · La corda de l’hort | L139C, L139D | Provisional ES/CA, revisió superada |
+| L125 · Una barca per a dos | L125C, L125D | Provisional ES/CA, revisió superada |
+| L145 · La manta de les mànigues | L145C, L145D | Provisional ES/CA, revisió superada |
 
 ## Segon cicle avançat · Observatori
 

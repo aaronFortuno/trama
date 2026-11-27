@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.66.2 · 27 de novembre del 2026
+
+Completem quinze famílies amb versions inicials i avançades de primer cicle. Les L126, L139, L125 i L145 incorporen les últimes vuit variants en català i castellà, amb preguntes obertes i ABCD, solucionari, evidències i il·lustracions compartides. El primer cicle disposa de 15 propostes inicials, 28 intermèdies i 15 avançades. Revisió independent superada; validació docent pendent.
+
 ## 1.66.1 · 27 de novembre del 2026
 
 Vuit famílies més completen els trams inicial i avançat del primer cicle: L106, L111, L113, L129, L138, L108, L127 i L123. Setze variants noves en català i castellà, amb il·lustracions compartides, preguntes obertes i ABCD, solucionari i evidències. El primer cicle arriba a 11 propostes inicials, 28 intermèdies i 11 avançades. Revisió independent superada; validació docent pendent.

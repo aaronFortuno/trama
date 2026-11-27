@@ -1,12 +1,12 @@
 {
   "date": "2026-11-27",
-  "edition": "v1.66.1",
+  "edition": "v1.66.2",
   "classificationVersion": 2,
   "totals": {
     "proposals": 315,
-    "editions": 649,
+    "editions": 657,
     "families": 156,
-    "languageEditions": 1298,
+    "languageEditions": 1314,
     "languages": [
       "ca",
       "es"
@@ -18,13 +18,13 @@
   "levels": {
     "primary-cycle-1": {
       "proposals": 28,
-      "editions": 50,
+      "editions": 58,
       "families": 28,
       "difficulties": {
         "initial": {
-          "proposals": 11,
-          "editions": 11,
-          "families": 11
+          "proposals": 15,
+          "editions": 15,
+          "families": 15
         },
         "intermediate": {
           "proposals": 28,
@@ -32,9 +32,9 @@
           "families": 28
         },
         "advanced": {
-          "proposals": 11,
-          "editions": 11,
-          "families": 11
+          "proposals": 15,
+          "editions": 15,
+          "families": 15
         }
       }
     },
@@ -596,7 +596,7 @@
     "narrative": {
       "label": "Narració",
       "proposals": 100,
-      "editions": 216,
+      "editions": 220,
       "families": 54
     },
     "informative": {
@@ -608,13 +608,13 @@
     "instructional": {
       "label": "Text instructiu",
       "proposals": 33,
-      "editions": 81,
+      "editions": 83,
       "families": 21
     },
     "interview": {
       "label": "Entrevista",
       "proposals": 34,
-      "editions": 76,
+      "editions": 78,
       "families": 20
     },
     "letter": {

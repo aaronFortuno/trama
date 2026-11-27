@@ -837,6 +837,310 @@
       "sha256": "0280a48609d6e06c67ff1dba8aafe2e9da8e4065582e052e020c66f8b67796cf",
       "source": "data/cycle-completion/early-3.js",
       "sourceSha256": "8093eabf0801b631a99d3af9124f546831d1e899a0793e6abdedaf5ec6932ba9"
+    },
+    {
+      "code": "L126C",
+      "id": "el-camino-de-las-flechas-c-es",
+      "language": "es",
+      "edition": "v1.66.2",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "1bc4dc28db241a382ee8812add69137f13c2ee96bdb72659a60adfbf8676bc3f",
+      "source": "data/cycle-completion/early-4.js",
+      "sourceSha256": "35e0754c040946045d4cf815ec57ecf84f6bc69f8d515915ee39c3f49c33a4b3"
+    },
+    {
+      "code": "L126C",
+      "id": "el-camino-de-las-flechas-c-ca",
+      "language": "ca",
+      "edition": "v1.66.2",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "4747ffc87a3a7e06e7a54e51b72727458ae8420a6b4c9d4dfcfe296b7620d52d",
+      "source": "data/cycle-completion/early-4.js",
+      "sourceSha256": "35e0754c040946045d4cf815ec57ecf84f6bc69f8d515915ee39c3f49c33a4b3"
+    },
+    {
+      "code": "L126D",
+      "id": "el-camino-de-las-flechas-d-es",
+      "language": "es",
+      "edition": "v1.66.2",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "ee644cfc7829c9ba36ed204b87f9a180a8c45b2b84098d8ee5ab14a96b5c4901",
+      "source": "data/cycle-completion/early-4.js",
+      "sourceSha256": "35e0754c040946045d4cf815ec57ecf84f6bc69f8d515915ee39c3f49c33a4b3"
+    },
+    {
+      "code": "L126D",
+      "id": "el-camino-de-las-flechas-d-ca",
+      "language": "ca",
+      "edition": "v1.66.2",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "007d4de53e368de4a415f2f2f4009bbeaf514f59eaab10956c0041be6d75d315",
+      "source": "data/cycle-completion/early-4.js",
+      "sourceSha256": "35e0754c040946045d4cf815ec57ecf84f6bc69f8d515915ee39c3f49c33a4b3"
+    },
+    {
+      "code": "L139C",
+      "id": "la-cuerda-del-huerto-c-es",
+      "language": "es",
+      "edition": "v1.66.2",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "10dad11e06dde0f21e76edb885500ee2c17d664f43fc251804acae1a99b433b8",
+      "source": "data/cycle-completion/early-4.js",
+      "sourceSha256": "35e0754c040946045d4cf815ec57ecf84f6bc69f8d515915ee39c3f49c33a4b3"
+    },
+    {
+      "code": "L139C",
+      "id": "la-cuerda-del-huerto-c-ca",
+      "language": "ca",
+      "edition": "v1.66.2",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "cf6a9e9bb6d1d3d2cbdec4169caf5554270ff0a657d1a30e3cf2288a568b85af",
+      "source": "data/cycle-completion/early-4.js",
+      "sourceSha256": "35e0754c040946045d4cf815ec57ecf84f6bc69f8d515915ee39c3f49c33a4b3"
+    },
+    {
+      "code": "L139D",
+      "id": "la-cuerda-del-huerto-d-es",
+      "language": "es",
+      "edition": "v1.66.2",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "cacca8a839e72aedf80f0569efcd053ccee605512a74000212dfe4d2a32e83b3",
+      "source": "data/cycle-completion/early-4.js",
+      "sourceSha256": "35e0754c040946045d4cf815ec57ecf84f6bc69f8d515915ee39c3f49c33a4b3"
+    },
+    {
+      "code": "L139D",
+      "id": "la-cuerda-del-huerto-d-ca",
+      "language": "ca",
+      "edition": "v1.66.2",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "3f0530850caf6189d56c207d990e56d42ae7e174b5b95167d0a616e27efd9be0",
+      "source": "data/cycle-completion/early-4.js",
+      "sourceSha256": "35e0754c040946045d4cf815ec57ecf84f6bc69f8d515915ee39c3f49c33a4b3"
+    },
+    {
+      "code": "L125C",
+      "id": "una-barca-para-dos-c-es",
+      "language": "es",
+      "edition": "v1.66.2",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "fa325f7aae0a5ffafb3a445a893192338d508b21cf955c0ca3db833f112e309a",
+      "source": "data/cycle-completion/early-4.js",
+      "sourceSha256": "35e0754c040946045d4cf815ec57ecf84f6bc69f8d515915ee39c3f49c33a4b3"
+    },
+    {
+      "code": "L125C",
+      "id": "una-barca-para-dos-c-ca",
+      "language": "ca",
+      "edition": "v1.66.2",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "1d113d8c395e461c56982449f71698ec00a8e2b60459281a61178a733784fd97",
+      "source": "data/cycle-completion/early-4.js",
+      "sourceSha256": "35e0754c040946045d4cf815ec57ecf84f6bc69f8d515915ee39c3f49c33a4b3"
+    },
+    {
+      "code": "L125D",
+      "id": "una-barca-para-dos-d-es",
+      "language": "es",
+      "edition": "v1.66.2",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "0d294f2d19a67fb7af4cf3c11d9fb8cb0be552b79972e1abaa0ffe70e05c46ce",
+      "source": "data/cycle-completion/early-4.js",
+      "sourceSha256": "35e0754c040946045d4cf815ec57ecf84f6bc69f8d515915ee39c3f49c33a4b3"
+    },
+    {
+      "code": "L125D",
+      "id": "una-barca-para-dos-d-ca",
+      "language": "ca",
+      "edition": "v1.66.2",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "732f3e09cf8ee4b58183b3d1fb4b35579202e4f21f7787e43f6ed41eab908800",
+      "source": "data/cycle-completion/early-4.js",
+      "sourceSha256": "35e0754c040946045d4cf815ec57ecf84f6bc69f8d515915ee39c3f49c33a4b3"
+    },
+    {
+      "code": "L145C",
+      "id": "la-manta-de-las-mangas-c-es",
+      "language": "es",
+      "edition": "v1.66.2",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "b32519dd13c207df4e303ab4f0aa2dc8bdd9526a332ffd7a7eb30095707b6d01",
+      "source": "data/cycle-completion/early-4.js",
+      "sourceSha256": "35e0754c040946045d4cf815ec57ecf84f6bc69f8d515915ee39c3f49c33a4b3"
+    },
+    {
+      "code": "L145C",
+      "id": "la-manta-de-las-mangas-c-ca",
+      "language": "ca",
+      "edition": "v1.66.2",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "f19a5046712106ae772d89c2e8e427917666f1676a5b5a19e7973e02c42e59ad",
+      "source": "data/cycle-completion/early-4.js",
+      "sourceSha256": "35e0754c040946045d4cf815ec57ecf84f6bc69f8d515915ee39c3f49c33a4b3"
+    },
+    {
+      "code": "L145D",
+      "id": "la-manta-de-las-mangas-d-es",
+      "language": "es",
+      "edition": "v1.66.2",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "1e3db1c1263b380643b68fec2318b011dc9a5c2eb33213b37d3b6a498f8f111c",
+      "source": "data/cycle-completion/early-4.js",
+      "sourceSha256": "35e0754c040946045d4cf815ec57ecf84f6bc69f8d515915ee39c3f49c33a4b3"
+    },
+    {
+      "code": "L145D",
+      "id": "la-manta-de-las-mangas-d-ca",
+      "language": "ca",
+      "edition": "v1.66.2",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "e0fecf46be8f2f6b4e91abc6e04d0ccff6dbc5eed8086e8d36780b98740f36b9",
+      "source": "data/cycle-completion/early-4.js",
+      "sourceSha256": "35e0754c040946045d4cf815ec57ecf84f6bc69f8d515915ee39c3f49c33a4b3"
     }
   ]
 }
