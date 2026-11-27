@@ -1,7 +1,7 @@
-import { mountV4V } from './v4v.js?v=0.4.0';
-import { mountDialog } from './dialog.js?v=0.4.0';
-import { mountLicense } from './license.js?v=0.4.0';
-import { changelogCopy, projectCopy } from './preview-copy.js?v=0.4.0';
+import { mountV4V } from './v4v.js?v=0.5.0';
+import { mountChangelog } from './changelog.js?v=0.5.0';
+import { mountLicense } from './license.js?v=0.5.0';
+import { changelogCopy, projectCopy } from './preview-copy.js?v=0.5.0';
 
 const ca = {
   title: 'Prova de la base comuna',
@@ -59,14 +59,11 @@ function render() {
   document.getElementById('motto').textContent = text.mottos[motto];
   document.getElementById('footer-motto').textContent = text.footer;
   for (const node of document.querySelectorAll('[data-message]')) node.textContent = messages[node.dataset.message] ?? changelogCopy[locale][node.dataset.message];
-  const formatter = new Intl.DateTimeFormat(locale, { dateStyle: 'long', timeZone: 'UTC' });
-  for (const date of changes.querySelectorAll('time')) date.textContent = formatter.format(new Date(date.dateTime));
   for (const option of options) option.setAttribute('aria-checked', String(option.dataset.language === locale));
   labelled(language, messages.language);
   labelled(changesOpen, `${changesOpen.textContent} · ${messages.changes}`);
   labelled(licenseOpen, changelogCopy[locale].license);
   labelled(repoLink, changelogCopy[locale].repo);
-  labelled(changes.querySelector('[data-of-close]'), messages.close);
 }
 
 theme.addEventListener('click', () => {
@@ -105,7 +102,7 @@ menu.addEventListener('click', event => {
     animation.id = 'preview-language';
   }
 });
-mountDialog(changes, changesOpen);
+mountChangelog(changes, changesOpen);
 mountLicense(document.getElementById('project-license'), licenseOpen);
 mountV4V(support, document.getElementById('support-open'));
 root.dataset.theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
