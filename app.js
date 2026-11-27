@@ -1,4 +1,4 @@
-import { mountV4V } from './ortografi-base/v4v.js?v=0.1.0';
+import { mountV4V } from './ortografi-base/v4v.js?v=0.2.0';
 import { mountCatalog } from './catalog.js';
 import { readings as publicReadings } from './data/readings.js';
 import { mountStudio } from './studio.js';

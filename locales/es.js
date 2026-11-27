@@ -973,6 +973,7 @@ Diari|Diario
 Article d’opinió|Artículo de opinión
 Entrevista|Entrevista
 Llegir, entendre i fer-se preguntes.|Leer, entender y hacerse preguntas.
+Llicència|Licencia
 Un projecte d’|Un proyecto de
 v1.24 · Obre l’historial de canvis|v1.24 · Abrir el historial de cambios
 v1.25 · Obre l’historial de canvis|v1.25 · Abrir el historial de cambios
