@@ -1,0 +1,482 @@
+[
+  {
+    "id": "el-banco-mojado-es",
+    "sha256": "3f295d12a4d196da216b0febfe2484817b4f483249532d4c324d871e85baafa4"
+  },
+  {
+    "id": "el-guante-de-rayas-es",
+    "sha256": "05d66f33b896d6515e4d13b6d1549569ce15b7c23d0bf06f59c5a5a2de421766"
+  },
+  {
+    "id": "una-guirnalda-de-papel-es",
+    "sha256": "e2a091f41fdb0340d908d7a4929090a4496fa5fb13c20c835de101f681691a18"
+  },
+  {
+    "id": "la-caja-de-los-dibujos-es",
+    "sha256": "29f279d92899661377c5af32d07595a3b2979686ad88e33458a7949d47a869c9"
+  },
+  {
+    "id": "vasos-de-tres-colores-es",
+    "sha256": "01f0770c8289528f78a1103b11deaba013f16a7d7bd3d7215978d640acc892d3"
+  },
+  {
+    "id": "una-carta-llena-de-azul-es",
+    "sha256": "3dfefa82e3f448215a8ec88bd9138df801ccd0ec1eedfd0e16b7dc5b9b2430ac"
+  },
+  {
+    "id": "la-lata-de-los-lapices-es",
+    "sha256": "e7c5eb1ba0a17297574bab8ae69a5ae7627e8479983185b07d711ef0ec6eeb04"
+  },
+  {
+    "id": "una-barca-para-dos-es",
+    "sha256": "42cbed74b73573ebb1682e69cfa6c4fc6080d62aea45e2af47fad97a15e097a6"
+  },
+  {
+    "id": "el-camino-de-las-flechas-es",
+    "sha256": "f0934af56168c2caeed3d28cb877fe603b6d17a6ceb05f38ed02e57673f22ae3"
+  },
+  {
+    "id": "una-pinza-para-cada-calcetin-es",
+    "sha256": "701c7e5ae8d5e0d857b450c88cbf20ffea9ec90cedc7b197c58714479952728f"
+  },
+  {
+    "id": "el-agua-del-jarron-es",
+    "sha256": "a7a08e828c272284e745f637f668a4468f5b1d3c47a4ab42754cedcb17c5fc2e"
+  },
+  {
+    "id": "un-mensaje-en-la-nevera-es",
+    "sha256": "a39a3e2df0534fac507c6c4f20699186c1cf0d2283f8273a659fdc4391c172c5"
+  },
+  {
+    "id": "un-buzon-en-la-biblioteca-es",
+    "sha256": "e5a4e1d118d81ed8d83ac70e3cae4e7b81dafaceafe12a2ccf4180b92057fa82"
+  },
+  {
+    "id": "la-cuerda-del-huerto-es",
+    "sha256": "7932e50cff2a837cf16001c998a2b2a388d54adf329b0c5b3f9e6c7eea0a140b"
+  },
+  {
+    "id": "la-manta-de-las-mangas-es",
+    "sha256": "f996726467c7db3581317a2d751c5a96e25122fe49257797666d20b4d6d13d33"
+  },
+  {
+    "id": "el-banco-mojado-ca",
+    "sha256": "bd9d1197c50b9afc0e65950e40873d0f58b21e7356fa266445d4e67abaef8f9e"
+  },
+  {
+    "id": "el-guante-de-rayas-ca",
+    "sha256": "00b120ad8ad0bfe96746303b35bd2ba76018bf654729cb45a0f4a595a4c5a4a5"
+  },
+  {
+    "id": "una-guirnalda-de-papel-ca",
+    "sha256": "5e4b25050830874dbbeea157aaa76572a15073f1dcb60e7b14aed65145a4b4c1"
+  },
+  {
+    "id": "la-caja-de-los-dibujos-ca",
+    "sha256": "c69fef99225ee9249d1e9aefe2f07d58f31be9b7720db2f81abd5696dd7d802d"
+  },
+  {
+    "id": "vasos-de-tres-colores-ca",
+    "sha256": "a3e01f49e3cbac2c4b62d565593bd2713a0910b86e7d5d558ad4af0b181d4261"
+  },
+  {
+    "id": "una-carta-llena-de-azul-ca",
+    "sha256": "706169e678436125468c9c71b9e43527bbc7630add42c306b45a7ebcc9687829"
+  },
+  {
+    "id": "la-lata-de-los-lapices-ca",
+    "sha256": "66b65beb7b38dc8605500bb613e58e6fb14c5d6385041d4a423844a9157e0be6"
+  },
+  {
+    "id": "una-barca-para-dos-ca",
+    "sha256": "eb5813788964931de21006b1ade9d3901bc85db00ae8e6a67e12cbb4ee6c0fdd"
+  },
+  {
+    "id": "el-camino-de-las-flechas-ca",
+    "sha256": "32d59b4c6e72153fa1e49d99c8b9db39d71c646c1c72a1c50ce653fe11860a76"
+  },
+  {
+    "id": "una-pinza-para-cada-calcetin-ca",
+    "sha256": "79d0689b3e712a9ea14e827c61eb632a47b87c14a1d243518fdbb52a35048f2d"
+  },
+  {
+    "id": "el-agua-del-jarron-ca",
+    "sha256": "06d067a9656908688860f6064151869ef9e516a56ddeeb81e925df35bc378ea7"
+  },
+  {
+    "id": "un-mensaje-en-la-nevera-ca",
+    "sha256": "0e1e081a1c0ef409d95c78025c80e250e2fdbe28081abe575cb4d48a6cca241d"
+  },
+  {
+    "id": "un-buzon-en-la-biblioteca-ca",
+    "sha256": "4fd4d8cc15e6dec59d293c31a33fc2aed8e7a07b64cf961214cd8d7312a005fe"
+  },
+  {
+    "id": "la-cuerda-del-huerto-ca",
+    "sha256": "244294ceb8362e1dc2096655c5cf7afac81e20434548fb7ada71303f9f7c9204"
+  },
+  {
+    "id": "la-manta-de-las-mangas-ca",
+    "sha256": "88616403284990c3480a459701760a6f587f0c80eec6bdccac35f880ef80ec6d"
+  },
+  {
+    "id": "la-visita-a-plena-luz-a-es",
+    "sha256": "392603b07a04dfe5b8c86fcffa9674313f9cdc8bc0d0b8ff7e71b33c9521cc56"
+  },
+  {
+    "id": "la-visita-a-plena-luz-a-ca",
+    "sha256": "4af723d989285ee61e99668d548e9c4ab7061cd1590249d5c0bb32686d9c2a9b"
+  },
+  {
+    "id": "la-visita-a-plena-luz-es",
+    "sha256": "23971fb058474af6e8af484bb341d2a2ec859e81b29b4b2dff22637dff6c8781"
+  },
+  {
+    "id": "la-visita-a-plena-luz-ca",
+    "sha256": "a9243fa2b46be4c22e0ec64298da348e262c2e5362f43624c35a38b692afbf22"
+  },
+  {
+    "id": "la-visita-a-plena-luz-b-es",
+    "sha256": "fb1c7952edacadea839b8377137ddbe20639ca462d13ddcc1828a195ff4b5ca9"
+  },
+  {
+    "id": "la-visita-a-plena-luz-b-ca",
+    "sha256": "6a065d8c5e99b0d9d3132d6fb24f36cc22e0d5a84ac42412761401dd17601caa"
+  },
+  {
+    "id": "un-banco-a-mitad-de-camino-a-es",
+    "sha256": "26cd96a560b0fc84c70d503a6878424a05781333b4d39728832a178af7e2edf3"
+  },
+  {
+    "id": "un-banco-a-mitad-de-camino-a-ca",
+    "sha256": "12f6a9f8364439f5cdb9bda40d86461c587d2229b25c109c12db9935050fe272"
+  },
+  {
+    "id": "un-banco-a-mitad-de-camino-es",
+    "sha256": "7c304463ab96e4391aa054bed41d68129628fc6959c37b13b8991eccd3f8ebd0"
+  },
+  {
+    "id": "un-banco-a-mitad-de-camino-ca",
+    "sha256": "841b4d17c4c40a6d99344359bac25c8a22d8d88ea36473a20dea0641210f9bbc"
+  },
+  {
+    "id": "un-banco-a-mitad-de-camino-b-es",
+    "sha256": "4d6add13300ca938a5cb240ba033e614ab110c73d2eb9076cf8057cbd8cd49d2"
+  },
+  {
+    "id": "un-banco-a-mitad-de-camino-b-ca",
+    "sha256": "b542bc66b74d4d6efd51feea2fc81d5fe486e1402bb57a170c84c77cf800d7f4"
+  },
+  {
+    "id": "la-maleta-de-las-preguntas-a-es",
+    "sha256": "c6389985680f608b77eb3c779f9fa566e9427c682f27e209d70b259a25630109"
+  },
+  {
+    "id": "la-maleta-de-las-preguntas-a-ca",
+    "sha256": "3dd5935b031ca84c316601ca3adc3fe05fdacda6361508d227b638f5fb758f17"
+  },
+  {
+    "id": "la-maleta-de-las-preguntas-es",
+    "sha256": "b28f19a28ef9d68c798d48df11dd299276c3bfbfc516fb672ec67b6dd4dfbaa4"
+  },
+  {
+    "id": "la-maleta-de-las-preguntas-ca",
+    "sha256": "17e7c69766f99b3acee1d6ed2d948ec0d80d8d470ad1205f993185c070b2603d"
+  },
+  {
+    "id": "la-maleta-de-las-preguntas-b-es",
+    "sha256": "fa6e1cc7d06dbd6f1fec56f884c3fc0b9705437f801e2629e4424dc81a05fbd4"
+  },
+  {
+    "id": "la-maleta-de-las-preguntas-b-ca",
+    "sha256": "deca97c70894bbf781c0509b22d57a5db7062533df4516a4c6e86887be5409c5"
+  },
+  {
+    "id": "una-luna-que-cabia-en-la-mano-a-es",
+    "sha256": "5344334f26ab9a9bb3ebbc3af0ed83b6d34f29637dca75ce3ae1e6c4e086bff8"
+  },
+  {
+    "id": "una-luna-que-cabia-en-la-mano-a-ca",
+    "sha256": "6907cb33c7cdc391fec18e2ac2e7e386ef31953cc1811635728f275e32aee974"
+  },
+  {
+    "id": "una-luna-que-cabia-en-la-mano-es",
+    "sha256": "388b8a612ed5c48af8aee2294e0d6e93190007a818084eb8b20148666a61c45b"
+  },
+  {
+    "id": "una-luna-que-cabia-en-la-mano-ca",
+    "sha256": "6a6830e665e0a362e2ef222f691f0064dcd266be5d19cba3d1e8befc47cd3e3e"
+  },
+  {
+    "id": "una-luna-que-cabia-en-la-mano-b-es",
+    "sha256": "3757e879e60b9a763950d06eab486d5dd7c27a094d8c466ee830dabad4c6c075"
+  },
+  {
+    "id": "una-luna-que-cabia-en-la-mano-b-ca",
+    "sha256": "91a13c56b9bb0478caf6b77377c67e1f862c01576cdf3a4c4bc1ce3ab112fc4b"
+  },
+  {
+    "id": "la-maqueta-del-cielo-del-pueblo-a-es",
+    "sha256": "d2030f81b7ad539e8b626f94c2055278727e2e2dc071975e3ee5f3d739ac068d"
+  },
+  {
+    "id": "la-maqueta-del-cielo-del-pueblo-a-ca",
+    "sha256": "68f9b24175839f104fd227f252c1747136822a5ce1c8f2446d2a3c69f3413846"
+  },
+  {
+    "id": "la-maqueta-del-cielo-del-pueblo-es",
+    "sha256": "45e396713ecf8707b0330579083c6f57aac407a951a842928b941977e139ba01"
+  },
+  {
+    "id": "la-maqueta-del-cielo-del-pueblo-ca",
+    "sha256": "ca505e3da33136e9066f03f911ca5d94b507156dd094b89b0ff732a52c2f5c0e"
+  },
+  {
+    "id": "la-maqueta-del-cielo-del-pueblo-b-es",
+    "sha256": "7cfa9f9172d7ff813e5d8aaffe7e2f3f852c01eb7c8246b6cea3ce3185bdca21"
+  },
+  {
+    "id": "la-maqueta-del-cielo-del-pueblo-b-ca",
+    "sha256": "42c2501b839be4300a5437e7135943ceeb9cfed6bfc046772edb56de420ac923"
+  },
+  {
+    "id": "el-banco-mojado-a-es",
+    "sha256": "675de677159dfae2a76313b289fda3d0b103c3bbcd9ae7e78a70cacab2819ae9"
+  },
+  {
+    "id": "el-banco-mojado-a-ca",
+    "sha256": "01ff5c1e54a467973689bbec114233cebf2960f07012b4fa75c9207a5130698c"
+  },
+  {
+    "id": "el-banco-mojado-b-es",
+    "sha256": "66a49fe3ef9544d73e7ead7f08fec1809f3d55186991eb1c945110b41ac5d723"
+  },
+  {
+    "id": "el-banco-mojado-b-ca",
+    "sha256": "d0af4890ae8e4f0d2ed6e3ffc24c30b2615d798268d7f62e7419ecca50806427"
+  },
+  {
+    "id": "una-guirnalda-de-papel-a-es",
+    "sha256": "24ea7268f6f1dd6a5bb78c234d77a21a88a51536ce5dfe6e0fbd5a2aafb7a8c4"
+  },
+  {
+    "id": "una-guirnalda-de-papel-a-ca",
+    "sha256": "38fb578d544ac8037d7775655bd3e82ef2869a514c6b5be3388c2ae298368be1"
+  },
+  {
+    "id": "una-guirnalda-de-papel-b-es",
+    "sha256": "558edee21c1f0252481d22128743728afbdfdd5c4c26b2ebb053392efb81861d"
+  },
+  {
+    "id": "una-guirnalda-de-papel-b-ca",
+    "sha256": "4c977d2f39ec58ca00d9939be673a77debfb98d0919b499ff49e1ac5e2104e39"
+  },
+  {
+    "id": "el-agua-del-jarron-a-es",
+    "sha256": "05d028871606c517f8de7bc85ccd1b9cbbd1b322974bcfca25c5fba99f5139ae"
+  },
+  {
+    "id": "el-agua-del-jarron-a-ca",
+    "sha256": "43002af2a60259e4540501b1886fbb2097da0f735e4350604fba243b172ea16d"
+  },
+  {
+    "id": "el-agua-del-jarron-b-es",
+    "sha256": "3ff1855dc37b1ef09516b3707203a8390047e0c18d4f803b16a3e2b00aec7f4e"
+  },
+  {
+    "id": "el-agua-del-jarron-b-ca",
+    "sha256": "186292ce3146ac359734968322a1ff56fd7116243e992de6dff635ea085b3d59"
+  },
+  {
+    "id": "un-mensaje-en-la-nevera-a-es",
+    "sha256": "41bd3b0883cd35d9cb647b7d321e6fcf34f57e3e1e87ee42765b63dd3382f254"
+  },
+  {
+    "id": "un-mensaje-en-la-nevera-a-ca",
+    "sha256": "99cf60cefe48c22f3002a8cfb1a3a1a6fd20c6a0cef76a4d7ed35c2e78b68b23"
+  },
+  {
+    "id": "un-mensaje-en-la-nevera-b-es",
+    "sha256": "99231adbcaf8f507bc99ff9fa0cc9d0c68f744fd0eb81b044cf2a20f2a7729fc"
+  },
+  {
+    "id": "un-mensaje-en-la-nevera-b-ca",
+    "sha256": "417f4f86105f7166bf0f9d8004dc9ab1d4f545701f4541c2e7c91619f250f752"
+  },
+  {
+    "id": "el-guante-de-rayas-a-es",
+    "sha256": "0c2b1a2cf140f0ca7417897a0bee35e197edae1a0d6e31a343ea1d7ea7d6b186"
+  },
+  {
+    "id": "el-guante-de-rayas-a-ca",
+    "sha256": "3f2732385d088797dd94627951d422edeff53a85e0b0ad26ba0adfffd3e48004"
+  },
+  {
+    "id": "el-guante-de-rayas-b-es",
+    "sha256": "05dc8a62ffa11fffc7e72f2b47ad5c66188c603606f72fffadfb816c7b8b53e0"
+  },
+  {
+    "id": "el-guante-de-rayas-b-ca",
+    "sha256": "d9eec8fe108e903967523c6467b47011bd8cd852e909a0474563acc26251da4b"
+  },
+  {
+    "id": "vasos-de-tres-colores-a-es",
+    "sha256": "73650dcb26832278e39a2d5285cdc8b4c9381285cadd71886b93b03b021d528b"
+  },
+  {
+    "id": "vasos-de-tres-colores-a-ca",
+    "sha256": "2073db0a067712a9872715ca48e0b98a4c12768b5f9deef83a3c6c232156dcdc"
+  },
+  {
+    "id": "vasos-de-tres-colores-b-es",
+    "sha256": "ef7c85db6595ce9e445ba8ff58b5343ecfe2f299873134e486d7dc639205d2b1"
+  },
+  {
+    "id": "vasos-de-tres-colores-b-ca",
+    "sha256": "4c4156d7c0c0e4879961866eb1d4c0898f6a0a4620a602280920cf7842add0a0"
+  },
+  {
+    "id": "una-carta-llena-de-azul-a-es",
+    "sha256": "d3a0ee8c8ca6c58bf3e92e525424fce632348fd291ce0ca511b849d22afacf14"
+  },
+  {
+    "id": "una-carta-llena-de-azul-a-ca",
+    "sha256": "5e7ca70fcdfe9a002242361b13a495a08438b22162d0b1a2e2500ab5ab82547e"
+  },
+  {
+    "id": "una-carta-llena-de-azul-b-es",
+    "sha256": "a779bf59a43d285a9c24c611db9ad1ae02c6eed610beca49ecc66f8085311a11"
+  },
+  {
+    "id": "una-carta-llena-de-azul-b-ca",
+    "sha256": "86bfe23943dec0dcdc042e16b39177e746f4b208cfc0a6dff6cee99db2c28157"
+  },
+  {
+    "id": "un-buzon-en-la-biblioteca-a-es",
+    "sha256": "e40746ee0dac5dfd3dd67ebebaf52a09072794b82d1e921f31b8006b7bd290bc"
+  },
+  {
+    "id": "un-buzon-en-la-biblioteca-a-ca",
+    "sha256": "38fc5956fc176bc64d712fe2c48f49cd6c7ff4ecfe533750979cc71762a72750"
+  },
+  {
+    "id": "un-buzon-en-la-biblioteca-b-es",
+    "sha256": "ffc94f170b48e3add2ebe6f837d92e70b14c68b7ef2d38f8190dbcb6219871da"
+  },
+  {
+    "id": "un-buzon-en-la-biblioteca-b-ca",
+    "sha256": "54067bf6af8736255e4f2f03741623a2976cf4fb77463aa71f832dca0aa94d58"
+  },
+  {
+    "id": "la-caja-de-los-dibujos-a-es",
+    "sha256": "b382fd6c85beb8137241919285e385ed483dd3869ec654670fb8d2c27ec89340"
+  },
+  {
+    "id": "la-caja-de-los-dibujos-a-ca",
+    "sha256": "7af0b61900ec102d8439064ac02679a8df8e57001367656a7ddf714496efbe93"
+  },
+  {
+    "id": "la-caja-de-los-dibujos-b-es",
+    "sha256": "2e3bf2bd76ef736aeb8d3196f8eb6f86343572bd30bab75690101940a43928b4"
+  },
+  {
+    "id": "la-caja-de-los-dibujos-b-ca",
+    "sha256": "0a894ce554b3a530d5d86b49f36cc4ac765fef5f2b85f0736562753354596735"
+  },
+  {
+    "id": "una-pinza-para-cada-calcetin-a-es",
+    "sha256": "99b5651186ba9bdb3a818657b29fab4978dd61dddb7d55182af9951a4fcbaf58"
+  },
+  {
+    "id": "una-pinza-para-cada-calcetin-a-ca",
+    "sha256": "3bc8988be133f0a3ab85ac70cea50d8eedbd0b53cc8589a8eefff2dcfd201d80"
+  },
+  {
+    "id": "una-pinza-para-cada-calcetin-b-es",
+    "sha256": "ba681f8054779e78be86c8c61b3d8d3d5a17dd22ff4b779ec8600fb3b4097591"
+  },
+  {
+    "id": "una-pinza-para-cada-calcetin-b-ca",
+    "sha256": "d2fae514da22663f92e67b2cc862e81abaecc4d17f14a9758310117f260b4e19"
+  },
+  {
+    "id": "la-lata-de-los-lapices-a-es",
+    "sha256": "3e627d8a3250957439713235ffb3f902ff43b389176fd5014b2d150f47933933"
+  },
+  {
+    "id": "la-lata-de-los-lapices-a-ca",
+    "sha256": "01d74cd877295cc1d900aac3d7764ef03a9a36d69a41c128721b0e8c55c17341"
+  },
+  {
+    "id": "la-lata-de-los-lapices-b-es",
+    "sha256": "12505d5fc14bc6f186853d921308c0bc1a034a98aa3daebaffe9649b0b7d375e"
+  },
+  {
+    "id": "la-lata-de-los-lapices-b-ca",
+    "sha256": "f8c26c896fcaaaebfe024bccb67715a0f469a9b2f3535fbc97e0ca6be00e0346"
+  },
+  {
+    "id": "el-camino-de-las-flechas-a-es",
+    "sha256": "17d2a4e2129e5275451737f76da5432689b607af726bf7d7cbcaff32b682c92d"
+  },
+  {
+    "id": "el-camino-de-las-flechas-a-ca",
+    "sha256": "2b3176f638523b10d1fbe76ee7b321c98ec2a57ab4ce5d6c9992b9ad614a4394"
+  },
+  {
+    "id": "el-camino-de-las-flechas-b-es",
+    "sha256": "5c944bf5490f682da3f587b5feea24e4d0d37ee204e94c785b8b4054fef2ab9e"
+  },
+  {
+    "id": "el-camino-de-las-flechas-b-ca",
+    "sha256": "16cb62542e006eddd7487b5da8a2de69afc22483f49c031576b879d1df11bc46"
+  },
+  {
+    "id": "la-cuerda-del-huerto-a-es",
+    "sha256": "baf46a1ea93779b873fdaaeebd02286a81cffbbcc70eb32dc0b5456356eeeee9"
+  },
+  {
+    "id": "la-cuerda-del-huerto-a-ca",
+    "sha256": "656532d00c49318d6efac8ddd41ee763e0f8622fbd7037978d2b6e7cd02bcf5e"
+  },
+  {
+    "id": "la-cuerda-del-huerto-b-es",
+    "sha256": "ff92ccd134e17a6e0f15cd1cb9378eb50882656b70ff3613a5ed4caef90e7617"
+  },
+  {
+    "id": "la-cuerda-del-huerto-b-ca",
+    "sha256": "94bdd8abe5c087ba326a544de3c0a0d85bfc99a395bc67487b35c8f245093556"
+  },
+  {
+    "id": "una-barca-para-dos-a-es",
+    "sha256": "6a0ced250aa1cd6637d909c4d40d9067404a7cf005bec1eb638045cd91301a18"
+  },
+  {
+    "id": "una-barca-para-dos-a-ca",
+    "sha256": "62a75ecd90a010764a77f210bfb596fab3faf1e20528f3e15b4c6c3d8e8aaf76"
+  },
+  {
+    "id": "una-barca-para-dos-b-es",
+    "sha256": "8ba01af7cb3af9ebe71637b99f921e8c49a85ac072dcab6ac8dc9e5a51efbaba"
+  },
+  {
+    "id": "una-barca-para-dos-b-ca",
+    "sha256": "a8ee570ee3b0f0db2a09b1e7b2c5489ef4b0dcc205a9e892a54e34a6bd75e6ff"
+  },
+  {
+    "id": "la-manta-de-las-mangas-a-es",
+    "sha256": "d776b9d4b846700bd33c1a8579957d2f6b66361131b70060cecda9406c285f9b"
+  },
+  {
+    "id": "la-manta-de-las-mangas-a-ca",
+    "sha256": "e1c52dbfccbeb2c08bd710cdc55635bf462f93299871e7eec8da9f186dc43715"
+  },
+  {
+    "id": "la-manta-de-las-mangas-b-es",
+    "sha256": "2ef58a473c940c101b5b991251f48a241e80d08788a7bb4417fc31e2be37a959"
+  },
+  {
+    "id": "la-manta-de-las-mangas-b-ca",
+    "sha256": "acfc29bcf70c2c34016438bef68086d92bae235ae2b02fa18c9b81e3b814f195"
+  }
+]

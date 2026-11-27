@@ -50,6 +50,7 @@ import { familyExpansionAdaptations as familyExpansionNov23Adaptations } from '.
 import { familyExpansionAdaptations as familyExpansionFourthAdaptations } from './family-expansion-2026-11-23b-adaptations.js';
 import { familyExpansionAdaptations as familyExpansionFifthAdaptations } from './family-expansion-2026-11-23c-adaptations.js';
 import { buildFamilyAdaptations } from './family-adaptation-model.js';
+import { cycleCompletionAdaptations } from './cycle-completion.js';
 import { universes } from './universes.js';
 import { newUniverseReadings } from './readings-new-universes.js';
 import { applyIllustrationRenewals } from './illustration-renewals.js';
@@ -290,4 +291,4 @@ const familySources = [...publicReadings, ...newUniverseReadings, ...libraryRead
   };
 });
 
-export const readings = [...familySources, ...buildFamilyAdaptations(familySources, [...familyAdaptations, ...earlyFamilyAdaptations, ...familyExpansionAdaptations, ...familyExpansionNov23Adaptations, ...familyExpansionFourthAdaptations, ...familyExpansionFifthAdaptations], families)].map(applyIllustrationRenewals);
+export const readings = [...familySources, ...buildFamilyAdaptations(familySources, [...familyAdaptations, ...earlyFamilyAdaptations, ...familyExpansionAdaptations, ...familyExpansionNov23Adaptations, ...familyExpansionFourthAdaptations, ...familyExpansionFifthAdaptations, ...cycleCompletionAdaptations], families)].map(applyIllustrationRenewals);

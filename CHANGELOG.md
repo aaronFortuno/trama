@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.66 · 27 de novembre del 2026
+
+Primer pilot de compleció de primer cicle: les famílies L104, L107 i L133 incorporen una variant inicial C i una d’avançada D, en català i castellà, amb il·lustracions compartides, solucionari, evidències, línies ajustades i alternatives ABCD. Les cinc variants de cada família es mostren en ordre de gradació i conserven els maquetats anteriors. Sis fitxes noves, dotze versions lingüístiques, amb revisió independent superada i validació docent pendent.
+
 ## 1.65.1 · 27 de novembre del 2026
 
 El primer cicle d’ESO agrupa 1r i 2n als filtres, targetes i variants. Les 28 lectures originades com a 2n inicial passen a dificultat intermèdia del primer cicle de primària, per indicació docent. Actualitzem criteris, ajuda, traduccions i balanç; conservem les classificacions de referència, els maquetats i les col·leccions.

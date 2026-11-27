@@ -29,6 +29,7 @@ const review = [
   ...JSON.parse(fs.readFileSync('docs/question-choices/observatory-2026-11-26-review.json', 'utf8')),
   ...JSON.parse(fs.readFileSync('docs/question-choices/workshop-2026-11-26-review.json', 'utf8')),
   ...JSON.parse(fs.readFileSync('docs/question-choices/riverside-2026-11-26-review.json', 'utf8')),
+  ...JSON.parse(fs.readFileSync('docs/question-choices/cycle-completion-review.json', 'utf8')),
 ];
 const approved = new Map(review.map(entry => [`${entry.code}:${entry.language}:${entry.questionId}`, entry]));
 assert.deepEqual(Object.keys(questionChoices), firstFive);

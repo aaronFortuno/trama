@@ -25,9 +25,10 @@ for (const original of review.originals) {
 for (const source of sources) {
   const family = families.find(family => family.code === source);
   assert(family && familyExpansionPlan.some(family => family.code === source));
-  assert.deepEqual(family.variantCodes, [source + 'A', source, source + 'B']);
+  const originalCodes = [source + 'A', source, source + 'B'];
+  assert.deepEqual(family.variantCodes.filter(code => originalCodes.includes(code)), originalCodes);
   for (const language of ['es', 'ca']) {
-    const [support, original, extension] = family.variantCodes.map(code => readings.find(reading => reading.code === code && reading.language === language));
+    const [support, original, extension] = originalCodes.map(code => readings.find(reading => reading.code === code && reading.language === language));
     assert(support && original && extension);
     assert(years.indexOf(support.level) < years.indexOf(original.level) && years.indexOf(original.level) < years.indexOf(extension.level));
     assert(wordCount(support) < wordCount(original) && wordCount(original) < wordCount(extension), `${source}-${language}: length must increase`);

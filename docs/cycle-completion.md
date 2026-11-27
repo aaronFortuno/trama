@@ -1,0 +1,49 @@
+# Compleció del catàleg per cicles
+
+Tanda autoritzada el 27 de novembre del 2026: 30 variants per completar quinze històries de primer cicle i cinc ampliacions de segon cicle dins de l’Observatori. Es mantenen les 315 històries i les famílies existents. Les publicacions són progressives i la validació docent continua pendent.
+
+## Primer cicle de primària
+
+Les versions C són inicials: frases breus, poca informació simultània, unes 10–40 paraules i tres preguntes literals. Les D són avançades de primer cicle: lectura més sostinguda, unes 60–130 paraules i cinc preguntes amb connexions o inferències pròximes. Les versions A de 2n inicial ja publicades continuen com a intermèdies de cicle. Els intervals són orientatius; la revisió concreta comprova text, preguntes i il·lustracions.
+
+Ordre editorial: **C → A → D → original → B**. C, A i D ofereixen els tres trams del primer cicle; original i B continuen disponibles al segon cicle. Una família pot tenir cinc variants i cadascuna manté identitat i maquetat propis. Els sufixos no defineixen dificultat per si sols.
+
+| Família | Variants noves publicades | Estat |
+| --- | --- | --- |
+| L104 · El banc moll | L104C, L104D | Provisional ES/CA, revisió superada |
+| L107 · Una garlanda de paper | L107C, L107D | Provisional ES/CA, revisió superada |
+| L133 · Un missatge a la nevera | L133C, L133D | Provisional ES/CA, revisió superada |
+| L106 · El guant de ratlles | — | Previst |
+| L111 · Gots de tres colors | — | Previst |
+| L113 · Una carta plena de blau | — | Previst |
+| L129 · L’aigua del gerro | — | Previst |
+| L138 · Una bústia a la biblioteca | — | Previst |
+| L108 · La capsa dels dibuixos | — | Previst |
+| L127 · Una pinça per a cada mitjó | — | Previst |
+| L123 · La llauna dels llapis | — | Previst |
+| L126 · El camí de les fletxes | — | Previst |
+| L139 · La corda de l’hort | — | Previst |
+| L125 · Una barca per a dos | — | Previst |
+| L145 · La manta de les mànigues | — | Previst |
+
+## Segon cicle avançat · Observatori
+
+Cinc versions C amplien famílies existents de l’Observatori. S’ordenen entre l’original i B: **A → original → C → B**. La dificultat s’ha de construir amb integració de pistes, interpretacions i justificacions; allargar el text no és suficient.
+
+| Família | Variant nova publicada | Estat |
+| --- | --- | --- |
+| L289 · La visita a plena llum | — | Previst |
+| L290 · Un banc a mig camí | — | Previst |
+| L291 · La maleta de les preguntes | — | Previst |
+| L292 · Una Lluna que cabia a la mà | — | Previst |
+| L293 · La maqueta del cel del poble | — | Previst |
+
+## Revisió i compatibilitat
+
+Cada idioma i variant es revisa independentment, incloses totes les opcions ABCD, respostes, evidències i la compatibilitat de la il·lustració compartida. Les opinions mantenen resposta oberta. Es conserva una línia per a respostes breus i més espai quan cal explicar. Les inicials i avançades de primer cicle utilitzen Massallera de 15 punts i la plantilla existent del cicle.
+
+El [registre](cycle-completion/review.json) identifica la versió exacta, l’autor i el revisor. El [registre ABCD](question-choices/cycle-completion-review.json) conserva cada alternativa. No s’ha regenerat cap aprovació antiga. Les [empremtes anteriors](cycle-completion/originals.json) protegeixen 120 versions lingüístiques prèvies, amb preguntes i alternatives.
+
+La comprovació històrica `check-early-families.mjs` troba una empremta antiga de L104A diferent de la versió ja publicada abans d’aquesta tanda. Aquella aprovació no es reescriu: el control nou compara els originals amb la fotografia prèvia a la tanda i confirma que es conserven.
+
+Comprovacions: `node tools/check-cycle-completion.mjs --complete`, `node tools/check-question-choices.mjs`, `node tools/check-cycle-classification.mjs` i `node tools/check-cycle-completion-browser.cjs`. Durant la publicació progressiva s’omet `--complete`. La prova de navegador és local; producció la revisa l’usuari.

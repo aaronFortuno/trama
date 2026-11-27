@@ -81,7 +81,7 @@ for (const record of review.readings) {
   assert.equal(createHash('sha256').update(JSON.stringify({reading,choices})).digest('hex'),record.sha256,`${record.id}: calibration sample changed`);
   assert.deepEqual(classificationFor(reading),record.teacherClassification ?? record.classification);
 }
-const early=readings.filter(reading=>reading.level==='2-primary');
+const early=readings.filter(reading=>reading.level==='2-primary'&&reading.difficulty==='initial');
 assert.equal(early.length,56);
 assert(early.every(reading=>readingDifficulty(reading)==='intermediate'));
 assert.equal(classificationFor({...reading,personal:true,level:'2-primary',difficulty:'initial'}).difficulty,'intermediate');

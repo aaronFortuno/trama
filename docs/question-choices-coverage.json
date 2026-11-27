@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-26",
-  "totalWorks": 627,
-  "coveredWorks": 627,
+  "date": "2026-11-27",
+  "totalWorks": 633,
+  "coveredWorks": 633,
   "pendingWorks": 0,
-  "localizedAlternatives": 6530,
+  "localizedAlternatives": 6574,
   "ranges": [
     {
       "start": 1,
@@ -148,15 +148,15 @@
     {
       "start": 101,
       "end": 105,
-      "total": 9,
-      "covered": 9,
+      "total": 11,
+      "covered": 11,
       "status": "complete"
     },
     {
       "start": 106,
       "end": 110,
-      "total": 15,
-      "covered": 15,
+      "total": 17,
+      "covered": 17,
       "status": "complete"
     },
     {
@@ -190,8 +190,8 @@
     {
       "start": 131,
       "end": 135,
-      "total": 7,
-      "covered": 7,
+      "total": 9,
+      "covered": 9,
       "status": "complete"
     },
     {
@@ -11725,6 +11725,104 @@
       }
     },
     {
+      "code": "L104C",
+      "baseCode": "L104",
+      "variant": true,
+      "level": "1-primary",
+      "difficulty": "initial",
+      "title": "El banc moll",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l104c-q1",
+              "number": 1
+            },
+            {
+              "id": "l104c-q2",
+              "number": 2
+            },
+            {
+              "id": "l104c-q3",
+              "number": 3
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l104c-q1",
+              "number": 1
+            },
+            {
+              "id": "l104c-q2",
+              "number": 2
+            },
+            {
+              "id": "l104c-q3",
+              "number": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L104D",
+      "baseCode": "L104",
+      "variant": true,
+      "level": "2-primary",
+      "difficulty": "advanced",
+      "title": "El banc moll",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l104d-q1",
+              "number": 1
+            },
+            {
+              "id": "l104d-q2",
+              "number": 2
+            },
+            {
+              "id": "l104d-q3",
+              "number": 3
+            },
+            {
+              "id": "l104d-q4",
+              "number": 4
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l104d-q1",
+              "number": 1
+            },
+            {
+              "id": "l104d-q2",
+              "number": 2
+            },
+            {
+              "id": "l104d-q3",
+              "number": 3
+            },
+            {
+              "id": "l104d-q4",
+              "number": 4
+            }
+          ]
+        }
+      }
+    },
+    {
       "code": "L105",
       "baseCode": "L105",
       "variant": false,
@@ -12148,6 +12246,104 @@
             {
               "id": "l107b-q5",
               "number": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L107C",
+      "baseCode": "L107",
+      "variant": true,
+      "level": "1-primary",
+      "difficulty": "initial",
+      "title": "Una garlanda de paper",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l107c-q1",
+              "number": 1
+            },
+            {
+              "id": "l107c-q2",
+              "number": 2
+            },
+            {
+              "id": "l107c-q3",
+              "number": 3
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l107c-q1",
+              "number": 1
+            },
+            {
+              "id": "l107c-q2",
+              "number": 2
+            },
+            {
+              "id": "l107c-q3",
+              "number": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L107D",
+      "baseCode": "L107",
+      "variant": true,
+      "level": "2-primary",
+      "difficulty": "advanced",
+      "title": "Una garlanda de paper",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l107d-q1",
+              "number": 1
+            },
+            {
+              "id": "l107d-q2",
+              "number": 2
+            },
+            {
+              "id": "l107d-q3",
+              "number": 3
+            },
+            {
+              "id": "l107d-q4",
+              "number": 4
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l107d-q1",
+              "number": 1
+            },
+            {
+              "id": "l107d-q2",
+              "number": 2
+            },
+            {
+              "id": "l107d-q3",
+              "number": 3
+            },
+            {
+              "id": "l107d-q4",
+              "number": 4
             }
           ]
         }
@@ -15560,6 +15756,112 @@
             {
               "id": "l133b-q6",
               "number": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L133C",
+      "baseCode": "L133",
+      "variant": true,
+      "level": "1-primary",
+      "difficulty": "initial",
+      "title": "Un missatge a la nevera",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l133c-q1",
+              "number": 1
+            },
+            {
+              "id": "l133c-q2",
+              "number": 2
+            },
+            {
+              "id": "l133c-q3",
+              "number": 3
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l133c-q1",
+              "number": 1
+            },
+            {
+              "id": "l133c-q2",
+              "number": 2
+            },
+            {
+              "id": "l133c-q3",
+              "number": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L133D",
+      "baseCode": "L133",
+      "variant": true,
+      "level": "2-primary",
+      "difficulty": "advanced",
+      "title": "Un missatge a la nevera",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l133d-q1",
+              "number": 1
+            },
+            {
+              "id": "l133d-q2",
+              "number": 2
+            },
+            {
+              "id": "l133d-q3",
+              "number": 3
+            },
+            {
+              "id": "l133d-q4",
+              "number": 4
+            },
+            {
+              "id": "l133d-q5",
+              "number": 5
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l133d-q1",
+              "number": 1
+            },
+            {
+              "id": "l133d-q2",
+              "number": 2
+            },
+            {
+              "id": "l133d-q3",
+              "number": 3
+            },
+            {
+              "id": "l133d-q4",
+              "number": 4
+            },
+            {
+              "id": "l133d-q5",
+              "number": 5
             }
           ]
         }

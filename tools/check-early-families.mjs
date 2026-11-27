@@ -18,10 +18,11 @@ const versions = [];
 for (const source of sources) {
   const family = families.find(item => item.code === source);
   assert(family && earlyFamilyPlan.some(item => item.code === source));
-  assert.deepEqual(family.variantCodes, [source + 'A', source, source + 'B']);
+  const originalCodes = [source + 'A', source, source + 'B'];
+  assert.deepEqual(family.variantCodes.filter(code => originalCodes.includes(code)), originalCodes);
   assert.deepEqual(earlyFamilyAdaptations.filter(item => item.source === source).map(item => item.suffix).sort(), ['A', 'B']);
   for (const language of ['es', 'ca']) {
-    const [support, original, extension] = family.variantCodes.map(code => readings.find(reading => reading.code === code && reading.language === language));
+    const [support, original, extension] = originalCodes.map(code => readings.find(reading => reading.code === code && reading.language === language));
     assert(support && original && extension);
     assert.deepEqual([support.level, original.level, extension.level], ['2-primary', '3-primary', '4-primary']);
     assert(wordCount(support) >= 40 && wordCount(support) <= 80, `${support.code}-${language}: short support text`);

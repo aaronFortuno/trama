@@ -2,6 +2,7 @@
 // Codes identify editions, not languages.
 // Original grade/difficulty fields and all reading content remain unchanged.
 // Criteria and boundary decisions: docs/cycle-classification.md.
+import { cycleCompletionAssignments } from './cycle-completion.js';
 export const cycleAssignments = [
   ['primary-cycle-1', 'intermediate', [
     'L104A', 'L105A', 'L106A', 'L107A', 'L108A', 'L109A', 'L110A', 'L111A', 'L112A', 'L113A', 'L123A', 'L125A',
@@ -80,6 +81,7 @@ export const cycleAssignments = [
     'L243', 'L244', 'L245', 'L269B', 'L270B', 'L271B', 'L272B', 'L273B', 'L274B', 'L275B', 'L276B', 'L277B',
     'L278B', 'L279B',
   ]],
+  ...cycleCompletionAssignments,
 ];
 
 export const cycleClassificationNotes = {

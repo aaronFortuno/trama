@@ -1,14 +1,14 @@
 # Balanç del catàleg per cicles
 
-Fotografia del 27 de novembre del 2026, després de les correccions docents de v1.65.1. Generada amb `node tools/catalogue-balance.mjs --write`.
+Fotografia del 27 de novembre del 2026, versió v1.66. Generada amb `node tools/catalogue-balance.mjs --write`.
 
-315 històries diferents, 627 fitxes graduades per idioma, 1254 versions lingüístiques, 156 famílies de tres variants i 159 històries sense variants. Tot el catàleg està disponible en català i castellà.
+315 històries diferents, 633 fitxes graduades per idioma, 1266 versions lingüístiques, 156 famílies amb variants i 159 històries sense variants. Tot el catàleg està disponible en català i castellà.
 
 Cada casella compta una història una sola vegada, agrupant família i sense duplicar idiomes. Els totals de fila també dedupliquen famílies: no són necessàriament la suma de dificultats. Una família pot aparèixer en diversos cicles.
 
 | Cicle o etapa | Inicial | Intermèdia | Avançada | Històries diferents |
 | --- | ---: | ---: | ---: | ---: |
-| Primer cicle · 1r–2n | 0 | 28 | 0 | 28 |
+| Primer cicle · 1r–2n | 3 | 28 | 3 | 28 |
 | Segon cicle · 3r–4t | 54 | 140 | 15 | 156 |
 | Tercer cicle · 5è–6è | 131 | 121 | 24 | 199 |
 | Primer cicle d’ESO · 1r–2n | 39 | 35 | 26 | 89 |
@@ -65,7 +65,7 @@ Els cinc universos tenen quinze històries cadascun. Els zeros indiquen absènci
 ## Lectura editorial del balanç
 
 - Segon cicle avançat és el bloc general amb menys marge. Cal completar-lo amb exigència real després de la revisió, sense promocionar peces només per omplir una quota.
-- Primer cicle de primària té 28 propostes intermèdies; inicial i avançada són els trams pendents si es vol ampliar la cobertura del cicle.
+- Primer cicle de primària conserva 28 propostes intermèdies. Les variants inicials i avançades es completen sobre les mateixes històries, amb objectiu de quinze propostes per franja.
 - Els blocs d’univers es concentren en inicial/intermedi. Val la pena prioritzar variants exigents de mons existents abans d’afegir històries desconnectades.
 - Article d’opinió, ressenya i notícia continuen sent els gèneres menys abundants; adaptar peces existents pot reforçar diversitat i DUA alhora.
 

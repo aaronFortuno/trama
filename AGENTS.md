@@ -1,5 +1,7 @@
 # Trama
 
+Per continuar el tancament del catàleg, consulta `docs/cycle-completion.md` i `data/cycle-completion-plan.js`. Una família pot tenir més de tres variants: l’ordre és `variantCodes`, no l’alfabet dels sufixos. Conserva els codis i les versions anteriors. La tanda de primer cicle ordena C (inicial), A (intermèdia), D (avançada), original i B. Les ampliacions de l’Observatori insereixen C abans de B. `tools/prepare-cycle-completion.mjs` només es pot executar amb el SHA256 final confirmat pel revisor independent; registra l’aprovació del contingut nou, mai la d’un text encara en revisió.
+
 A Trama, primer cicle d’ESO agrupa 1r i 2n (`secondary-cycle-1`), i segon cicle, 3r i 4t (`secondary-cycle-2`). Les 28 lectures originades com a 2n inicial són intermèdies del primer cicle de primària, per indicació docent de v1.65.1.
 
 La classificació pública de primària és per cicles. Abans d’afegir lectures o recalibrar-ne l’exigència, consulta `docs/cycle-classification.md`. Registra cada codi de fitxa a `data/cycle-classification.js`; les traduccions comparteixen assignació i les variants en tenen de pròpia. Conserva `level` i `difficulty` originals com a referència editorial i per al format inicial; la UI fa servir els helpers de `reading-levels.js`. Revisa text i preguntes, incloses ABCD, sense classificar només per llargada. Comprova cobertura i progressió amb `node tools/check-cycle-classification.mjs` i actualitza el balanç amb `node tools/catalogue-balance.mjs --write`. No alteris identificadors ni dades locals dels usuaris en canviar etiquetes.

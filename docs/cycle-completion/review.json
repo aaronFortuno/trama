@@ -1,0 +1,234 @@
+{
+  "date": "2026-11-27",
+  "teacherValidation": "pending",
+  "readings": [
+    {
+      "code": "L104C",
+      "id": "el-banco-mojado-c-es",
+      "language": "es",
+      "edition": "v1.66",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "0425bfcc86e72f5e71bb5f206093691c97e8c4bab187b8aca0d3c2c6ee614a12",
+      "source": "data/cycle-completion/early-pilot.js",
+      "sourceSha256": "04a8edbe804c2ff532878d6a9fd90d08771f2a4656b363081a4b328d678f9b16"
+    },
+    {
+      "code": "L104C",
+      "id": "el-banco-mojado-c-ca",
+      "language": "ca",
+      "edition": "v1.66",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "9d5c044a3e8f61588bb3ec95a50e4b6707d70b4eb12a5f8f73151c198230ae52",
+      "source": "data/cycle-completion/early-pilot.js",
+      "sourceSha256": "04a8edbe804c2ff532878d6a9fd90d08771f2a4656b363081a4b328d678f9b16"
+    },
+    {
+      "code": "L104D",
+      "id": "el-banco-mojado-d-es",
+      "language": "es",
+      "edition": "v1.66",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "4c1a8d009ce3a54170c2b0c2e4cbf92e7bdab8018596eb0231d3ff878a76aaed",
+      "source": "data/cycle-completion/early-pilot.js",
+      "sourceSha256": "04a8edbe804c2ff532878d6a9fd90d08771f2a4656b363081a4b328d678f9b16"
+    },
+    {
+      "code": "L104D",
+      "id": "el-banco-mojado-d-ca",
+      "language": "ca",
+      "edition": "v1.66",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "073b17bd7b9f0a240a8a332bae13348065be7a69fff3d9db89ff6222b2f6fd95",
+      "source": "data/cycle-completion/early-pilot.js",
+      "sourceSha256": "04a8edbe804c2ff532878d6a9fd90d08771f2a4656b363081a4b328d678f9b16"
+    },
+    {
+      "code": "L107C",
+      "id": "una-guirnalda-de-papel-c-es",
+      "language": "es",
+      "edition": "v1.66",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "c52dd0a30b45a7b07342e61542be346a739b8dbf01eb7c015e1d6cc69a1e7f33",
+      "source": "data/cycle-completion/early-pilot.js",
+      "sourceSha256": "04a8edbe804c2ff532878d6a9fd90d08771f2a4656b363081a4b328d678f9b16"
+    },
+    {
+      "code": "L107C",
+      "id": "una-guirnalda-de-papel-c-ca",
+      "language": "ca",
+      "edition": "v1.66",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "d8f1de6094904b439eab373c4d010476ae0d760af6090ccd712f4e011bdbde58",
+      "source": "data/cycle-completion/early-pilot.js",
+      "sourceSha256": "04a8edbe804c2ff532878d6a9fd90d08771f2a4656b363081a4b328d678f9b16"
+    },
+    {
+      "code": "L107D",
+      "id": "una-guirnalda-de-papel-d-es",
+      "language": "es",
+      "edition": "v1.66",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "c37218240b5a5a63812f81809c104bb8e31c111c1ccba5cb88eb23ef1169cd5a",
+      "source": "data/cycle-completion/early-pilot.js",
+      "sourceSha256": "04a8edbe804c2ff532878d6a9fd90d08771f2a4656b363081a4b328d678f9b16"
+    },
+    {
+      "code": "L107D",
+      "id": "una-guirnalda-de-papel-d-ca",
+      "language": "ca",
+      "edition": "v1.66",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "bd4f08bf730db616b42770ca392c72817a69eb24b59c9084e1e7edf5b7d2bda5",
+      "source": "data/cycle-completion/early-pilot.js",
+      "sourceSha256": "04a8edbe804c2ff532878d6a9fd90d08771f2a4656b363081a4b328d678f9b16"
+    },
+    {
+      "code": "L133C",
+      "id": "un-mensaje-en-la-nevera-c-es",
+      "language": "es",
+      "edition": "v1.66",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "832c1ceb65829d2af9d5df5a396ef24b5a6c37230b62fe4a61ddbc751921d8b2",
+      "source": "data/cycle-completion/early-pilot.js",
+      "sourceSha256": "04a8edbe804c2ff532878d6a9fd90d08771f2a4656b363081a4b328d678f9b16"
+    },
+    {
+      "code": "L133C",
+      "id": "un-mensaje-en-la-nevera-c-ca",
+      "language": "ca",
+      "edition": "v1.66",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "099dbb5c5fb22fdd974a288f81d68e7d3b593139b35bef98a5afc7ca7d7cbfa4",
+      "source": "data/cycle-completion/early-pilot.js",
+      "sourceSha256": "04a8edbe804c2ff532878d6a9fd90d08771f2a4656b363081a4b328d678f9b16"
+    },
+    {
+      "code": "L133D",
+      "id": "un-mensaje-en-la-nevera-d-es",
+      "language": "es",
+      "edition": "v1.66",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "9bbdb191a1095b2c07803f4abb0d890af0df0d50af6a80a50d3d59791fb9601d",
+      "source": "data/cycle-completion/early-pilot.js",
+      "sourceSha256": "04a8edbe804c2ff532878d6a9fd90d08771f2a4656b363081a4b328d678f9b16"
+    },
+    {
+      "code": "L133D",
+      "id": "un-mensaje-en-la-nevera-d-ca",
+      "language": "ca",
+      "edition": "v1.66",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "d996c73e54979c4298c263223e83b8cf22a578b974aaf46897a926251c70c724",
+      "source": "data/cycle-completion/early-pilot.js",
+      "sourceSha256": "04a8edbe804c2ff532878d6a9fd90d08771f2a4656b363081a4b328d678f9b16"
+    }
+  ]
+}

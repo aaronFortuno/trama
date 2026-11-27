@@ -9,6 +9,7 @@ import { groupFamilyCards } from '../reading-families.js';
 const catalog = indexCatalog(readings.filter(reading => reading.language === 'ca'));
 const levels = ['primary-cycle-1','primary-cycle-2','primary-cycle-3','secondary-cycle-1'];
 const bands = ['initial','intermediate','advanced'];
+const edition = /id="changelog-open"[^>]*aria-label="(v[\d.]+) /.exec(fs.readFileSync('index.html','utf8'))?.[1] ?? 'v1.65.1';
 const unique = values => new Set(values).size;
 const summarize = entries => ({ proposals:groupFamilyCards(entries).length, editions:entries.length,
   families:unique(entries.map(({reading})=>reading.familyId).filter(Boolean)) });
@@ -17,7 +18,7 @@ const matrix = facets => Object.fromEntries(levels.map(level=>[level,{
   difficulties:Object.fromEntries(bands.map(difficulty=>[difficulty,summarize(filterCatalog(catalog,{...facets,level,difficulty}))])),
 }]));
 const report = {
-  date:'2026-11-27', classificationVersion:2,
+  date:'2026-11-27', edition, classificationVersion:2,
   totals:{ ...summarize(catalog), languageEditions:readings.length, languages:['ca','es'],
     standalones:catalog.filter(({reading})=>!reading.familyId).length,
     universes:universes.length, universeProposals:groupFamilyCards(catalog.filter(({reading})=>reading.universeIds?.length)).length,
@@ -41,8 +42,8 @@ if(process.argv.includes('--write')) {
     `\n## ${world.name}\n`, '| Cicle o etapa | Inicial | Intermèdia | Avançada |','| --- | ---: | ---: | ---: |',
     ...levels.filter(level=>world.levels[level].proposals).map(level=>`| ${labels.level[level]} | ${bands.map(band=>world.levels[level].difficulties[band].proposals).join(' | ')} |`),
   ]);
-  const text = ['# Balanç del catàleg per cicles', '\nFotografia del 27 de novembre del 2026, després de les correccions docents de v1.65.1. Generada amb `node tools/catalogue-balance.mjs --write`.\n',
-    `${report.totals.proposals} històries diferents, ${report.totals.editions} fitxes graduades per idioma, ${report.totals.languageEditions} versions lingüístiques, ${families.length} famílies de tres variants i ${report.totals.standalones} històries sense variants. Tot el catàleg està disponible en català i castellà.`,
+  const text = ['# Balanç del catàleg per cicles', `\nFotografia del 27 de novembre del 2026, versió ${edition}. Generada amb \`node tools/catalogue-balance.mjs --write\`.\n`,
+    `${report.totals.proposals} històries diferents, ${report.totals.editions} fitxes graduades per idioma, ${report.totals.languageEditions} versions lingüístiques, ${families.length} famílies amb variants i ${report.totals.standalones} històries sense variants. Tot el catàleg està disponible en català i castellà.`,
     '\nCada casella compta una història una sola vegada, agrupant família i sense duplicar idiomes. Els totals de fila també dedupliquen famílies: no són necessàriament la suma de dificultats. Una família pot aparèixer en diversos cicles.\n',
     '| Cicle o etapa | Inicial | Intermèdia | Avançada | Històries diferents |','| --- | ---: | ---: | ---: | ---: |',...rows,
     '\n## Universos\n','| Univers | Primer cicle primària | Segon cicle primària | Tercer cicle primària | Primer cicle ESO | Amb variants |','| --- | ---: | ---: | ---: | ---: | ---: |',...worlds,
@@ -50,7 +51,7 @@ if(process.argv.includes('--write')) {
     ...detail,
     '\n## Lectura editorial del balanç\n',
     '- Segon cicle avançat és el bloc general amb menys marge. Cal completar-lo amb exigència real després de la revisió, sense promocionar peces només per omplir una quota.',
-    '- Primer cicle de primària té 28 propostes intermèdies; inicial i avançada són els trams pendents si es vol ampliar la cobertura del cicle.',
+    '- Primer cicle de primària conserva 28 propostes intermèdies. Les variants inicials i avançades es completen sobre les mateixes històries, amb objectiu de quinze propostes per franja.',
     '- Els blocs d’univers es concentren en inicial/intermedi. Val la pena prioritzar variants exigents de mons existents abans d’afegir històries desconnectades.',
     '- Article d’opinió, ressenya i notícia continuen sent els gèneres menys abundants; adaptar peces existents pot reforçar diversitat i DUA alhora.',
     '\nEls criteris i el límit de la revisió independent es documenten a [cycle-classification.md](cycle-classification.md). El fitxer [catalogue-balance.json](catalogue-balance.json) conserva recomptes de fitxes i famílies per a una anàlisi posterior.\n',

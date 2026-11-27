@@ -1,5 +1,7 @@
 # Trama
 
+La [compleció per cicles](docs/cycle-completion.md) afegeix variants inicials i avançades a quinze famílies de primer cicle i cinc ampliacions de segon cicle a l’Observatori. La publicació és progressiva i conserva les històries, els codis anteriors i els maquetats. Les famílies ampliades poden oferir cinc variants.
+
 El catàleg de primària s’organitza per **primer, segon i tercer cicle**, amb dificultat inicial, intermèdia o avançada relativa al cicle. A secundària, el **primer cicle d’ESO agrupa 1r i 2n**. Les 28 lectures originades com a 2n inicial són intermèdies del primer cicle de primària. Els [criteris de classificació](docs/cycle-classification.md) documenten el calibratge i la referència editorial original; el [balanç actual](docs/catalogue-balance.md) mostra la cobertura per cicle, dificultat i univers. Els maquetats i les col·leccions existents es mantenen.
 
 Catàleg de comprensions lectores imprimibles d’ortogra.fi. Inclou fitxes de 2n de primària a 1r d’ESO en castellà i català. La interfície es pot fer servir en català, castellà, gallec i èuscar. Les fitxes mostren els rètols en l’idioma de la lectura quan hi ha una traducció disponible.
