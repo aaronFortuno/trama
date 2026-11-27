@@ -16,7 +16,7 @@ export const projectCopy = {
 
 export const changelogCopy = {
   ca: {
-    license: 'Llicència', example: 'Entrades de mostra', added: 'Novetats', fixed: 'Correccions', improved: 'Millores',
+    license: 'Llicència', repo: 'Repositori', example: 'Entrades de mostra', added: 'Novetats', fixed: 'Correccions', improved: 'Millores',
     newEntry: 'Pots desar la maquetació d’una fitxa amb un nom i recuperar-la des de Plantilles.',
     secondEntry: 'El catàleg conserva els filtres quan tornes de la vista d’una fitxa.',
     fixedEntry: 'El visor torna a la mateixa pàgina després de canviar l’orientació del mòbil.',
@@ -24,7 +24,7 @@ export const changelogCopy = {
     secondImproved: 'El teclat torna al botó que ha obert cada diàleg.',
   },
   es: {
-    license: 'Licencia', example: 'Entradas de muestra', added: 'Novedades', fixed: 'Correcciones', improved: 'Mejoras',
+    license: 'Licencia', repo: 'Repositorio', example: 'Entradas de muestra', added: 'Novedades', fixed: 'Correcciones', improved: 'Mejoras',
     newEntry: 'Puedes guardar el diseño de una ficha con un nombre y recuperarlo desde Plantillas.',
     secondEntry: 'El catálogo conserva los filtros al volver de la vista de una ficha.',
     fixedEntry: 'El visor vuelve a la misma página tras cambiar la orientación del móvil.',
@@ -32,7 +32,7 @@ export const changelogCopy = {
     secondImproved: 'El foco del teclado vuelve al botón que abrió cada diálogo.',
   },
   gl: {
-    license: 'Licenza', example: 'Entradas de mostra', added: 'Novidades', fixed: 'Correccións', improved: 'Melloras',
+    license: 'Licenza', repo: 'Repositorio', example: 'Entradas de mostra', added: 'Novidades', fixed: 'Correccións', improved: 'Melloras',
     newEntry: 'Podes gardar a maquetación dunha ficha cun nome e recuperala desde Modelos.',
     secondEntry: 'O catálogo conserva os filtros cando volves da vista dunha ficha.',
     fixedEntry: 'O visor volve á mesma páxina despois de cambiar a orientación do móbil.',
@@ -40,7 +40,7 @@ export const changelogCopy = {
     secondImproved: 'O foco do teclado volve ao botón que abriu cada diálogo.',
   },
   eu: {
-    license: 'Lizentzia', example: 'Adibideko sarrerak', added: 'Nobedadeak', fixed: 'Zuzenketak', improved: 'Hobekuntzak',
+    license: 'Lizentzia', repo: 'Biltegia', example: 'Adibideko sarrerak', added: 'Nobedadeak', fixed: 'Zuzenketak', improved: 'Hobekuntzak',
     newEntry: 'Fitxa baten diseinua izen batekin gorde eta Txantiloiak atalean berreskura dezakezu.',
     secondEntry: 'Katalogoak iragazkiak gordetzen ditu fitxa batetik itzultzean.',
     fixedEntry: 'Ikustailea orri berera itzultzen da mugikorraren orientazioa aldatzean.',
