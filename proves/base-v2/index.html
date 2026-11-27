@@ -6,9 +6,11 @@
   <meta name="robots" content="noindex">
   <title>Trama · Prova de la base comuna</title>
   <link rel="icon" href="../../assets/brand/trama.svg">
-  <link rel="stylesheet" href="preview.css?v=0.6.0">
-  <link rel="stylesheet" href="shell.css?v=0.6.0">
-  <script type="module" src="preview-ui.js?v=0.6.0"></script>
+  <link rel="stylesheet" href="preview.css?v=0.7.0">
+  <link rel="stylesheet" href="shell.css?v=0.7.0">
+  <link rel="stylesheet" href="gallery.css?v=0.7.0">
+  <link rel="stylesheet" href="gallery-preview.css?v=0.7.0">
+  <script type="module" src="preview-ui.js?v=0.7.0"></script>
 </head>
 <body data-project="trama">
   <a class="skip" href="#contingut">Ves al contingut</a>
@@ -30,20 +32,119 @@
       </div>
     </div>
   </header>
-  <main id="contingut" tabindex="-1">
-    <article>
-      <p class="description" id="project-description"></p>
-      <h1 data-message="title">Prova de la base comuna</h1>
-      <p data-message="summary">Comprova la capçalera, el peu i el diàleg V4V d’aquesta versió. Els ajustos de la mostra duren fins que tanques o recarregues la pàgina.</p>
-      <a class="site-link" href="../../" data-message="website">Obre el web actual</a>
-    </article>
+  <main id="contingut" class="of-gallery-shell gallery-preview" tabindex="-1" data-gallery-preview>
+    <div class="sample-toolbar">
+      <div>
+        <h1 data-gallery-label="title">Lectures</h1>
+        <output id="sample-count" role="status"></output>
+      </div>
+      <label class="sample-search"><span class="preview-sr" data-gallery-label="search">Cerca per títol o codi</span><input type="search" autocomplete="off" placeholder="Cerca per títol o codi"></label>
+    </div>
+    <div class="of-gallery-layout sample-layout">
+      <aside class="sample-sidebar" aria-labelledby="sample-filters-label">
+        <details open>
+          <summary id="sample-filters-label" data-gallery-label="filters">Filtres</summary>
+          <div class="sample-fields">
+            <label><span data-gallery-label="level">Curs</span><select data-filter="level"><option value="" data-gallery-label="allLevels">Tots els cursos</option><option>3r de primària</option><option>4t de primària</option><option>1r d’ESO</option></select></label>
+            <label><span data-gallery-label="type">Tipologia</span><select data-filter="type"><option value="" data-gallery-label="allTypes">Totes les tipologies</option><option>Narració</option><option>Text instructiu</option><option>Entrevista</option><option>Divulgació</option><option>Carta</option><option>Diari</option><option>Notícia</option><option>Article d’opinió</option></select></label>
+            <button type="button" class="sample-reset" data-gallery-label="reset" hidden>Esborra els filtres</button>
+          </div>
+        </details>
+        <a class="site-link" href="../../" data-message="website">Obre el web actual</a>
+      </aside>
+      <section class="sample-results" aria-label="Galeria de mostra" tabindex="0">
+        <div class="of-gallery-grid">
+          <article class="of-card sample-card" data-sample data-type="Narració" data-level="3r de primària">
+    <div class="of-card-media sample-cover"><img src="../../assets/readings/l104-el-banco-mojado-illustration.webp" alt="" loading="eager" decoding="async"></div>
+    <div class="sample-card-body">
+      <div class="sample-kicker"><span>Narració</span><span>3r de primària</span></div>
+      <h2 class="of-card-title" lang="ca">El banc moll</h2>
+      <p class="sample-summary" lang="ca">La Júlia i l’Omar busquen un lloc sec per llegir al pati.</p>
+      <ul class="sample-meta"><li class="sample-code">L104</li><li>Inicial</li><li>5 preguntes</li></ul>
+      <a class="sample-action" href="../../#lectura=el-banco-mojado-ca"><span data-gallery-label="worksheet">Prepara la fitxa</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg><span class="preview-sr"> · El banc moll</span></a>
+    </div>
+  </article>
+          <article class="of-card sample-card" data-sample data-type="Text instructiu" data-level="3r de primària">
+    <div class="of-card-media sample-cover"><img src="../../assets/readings/l107-una-guirnalda-de-papel-illustration.webp" alt="" loading="eager" decoding="async"></div>
+    <div class="sample-card-body">
+      <div class="sample-kicker"><span>Text instructiu</span><span>3r de primària</span></div>
+      <h2 class="of-card-title" lang="ca">Una garlanda de paper</h2>
+      <p class="sample-summary" lang="ca">Unes instruccions per fer una cadena de colors amb tires de paper.</p>
+      <ul class="sample-meta"><li class="sample-code">L107</li><li>Inicial</li><li>5 preguntes</li></ul>
+      <a class="sample-action" href="../../#lectura=una-guirnalda-de-papel-ca"><span data-gallery-label="worksheet">Prepara la fitxa</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg><span class="preview-sr"> · Una garlanda de paper</span></a>
+    </div>
+  </article>
+          <article class="of-card sample-card" data-sample data-type="Entrevista" data-level="3r de primària">
+    <div class="of-card-media sample-cover"><img src="../../assets/readings/l110-una-rueda-floja-illustration.webp" alt="" loading="eager" decoding="async"></div>
+    <div class="sample-card-body">
+      <div class="sample-kicker"><span>Entrevista</span><span>3r de primària</span></div>
+      <h2 class="of-card-title" lang="ca">Una roda fluixa</h2>
+      <p class="sample-summary" lang="ca">En Biel entrevista la Joana, que ajuda a posar a punt les bicicletes del barri.</p>
+      <ul class="sample-meta"><li class="sample-code">L110</li><li>Intermèdia</li><li>6 preguntes</li></ul>
+      <a class="sample-action" href="../../#lectura=una-rueda-floja-ca"><span data-gallery-label="worksheet">Prepara la fitxa</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg><span class="preview-sr"> · Una roda fluixa</span></a>
+    </div>
+  </article>
+          <article class="of-card sample-card" data-sample data-type="Divulgació" data-level="3r de primària">
+    <div class="of-card-media sample-cover"><img src="../../assets/readings/l124-sombras-en-el-patio-illustration.webp" alt="" loading="eager" decoding="async"></div>
+    <div class="sample-card-body">
+      <div class="sample-kicker"><span>Divulgació</span><span>3r de primària</span></div>
+      <h2 class="of-card-title" lang="ca">Ombres al pati</h2>
+      <p class="sample-summary" lang="ca">Dues marques de guix en un mateix pati.</p>
+      <ul class="sample-meta"><li class="sample-code">L124</li><li>Inicial</li><li>5 preguntes</li></ul>
+      <a class="sample-action" href="../../#lectura=sombras-en-el-patio-ca"><span data-gallery-label="worksheet">Prepara la fitxa</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg><span class="preview-sr"> · Ombres al pati</span></a>
+    </div>
+  </article>
+          <article class="of-card sample-card" data-sample data-type="Carta" data-level="3r de primària">
+    <div class="of-card-media sample-cover"><img src="../../assets/readings/l113-una-carta-llena-de-azul-illustration.webp" alt="" loading="lazy" decoding="async"></div>
+    <div class="sample-card-body">
+      <div class="sample-kicker"><span>Carta</span><span>3r de primària</span></div>
+      <h2 class="of-card-title" lang="ca">Una carta plena de blau</h2>
+      <p class="sample-summary" lang="ca">Una classe escriu a una altra escola per preparar un mural del mar entre totes dues.</p>
+      <ul class="sample-meta"><li class="sample-code">L113</li><li>Intermèdia</li><li>6 preguntes</li></ul>
+      <a class="sample-action" href="../../#lectura=una-carta-llena-de-azul-ca"><span data-gallery-label="worksheet">Prepara la fitxa</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg><span class="preview-sr"> · Una carta plena de blau</span></a>
+    </div>
+  </article>
+          <article class="of-card sample-card" data-sample data-type="Diari" data-level="4t de primària">
+    <div class="of-card-media sample-cover"><img src="../../assets/readings/l175-una-noche-sin-estrellas.webp" alt="" loading="lazy" decoding="async"></div>
+    <div class="sample-card-body">
+      <div class="sample-kicker"><span>Diari</span><span>4t de primària</span></div>
+      <h2 class="of-card-title" lang="ca">Una nit sense estrelles</h2>
+      <p class="sample-summary" lang="ca">Un vespre ennuvolat sembla espatllar la primera visita d’en Dani a l’observatori.</p>
+      <ul class="sample-meta"><li class="sample-code">L175</li><li>Intermèdia</li><li>7 preguntes</li></ul>
+      <a class="sample-action" href="../../#lectura=una-noche-sin-estrellas-ca"><span data-gallery-label="worksheet">Prepara la fitxa</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg><span class="preview-sr"> · Una nit sense estrelles</span></a>
+    </div>
+  </article>
+          <article class="of-card sample-card" data-sample data-type="Notícia" data-level="4t de primària">
+    <div class="of-card-media sample-cover"><img src="../../assets/readings/l180-el-equipo-que-se-quedo-a-recoger.webp" alt="" loading="lazy" decoding="async"></div>
+    <div class="sample-card-body">
+      <div class="sample-kicker"><span>Notícia</span><span>4t de primària</span></div>
+      <h2 class="of-card-title" lang="ca">L’equip que es va quedar a recollir</h2>
+      <p class="sample-summary" lang="ca">La crònica d’un torneig dedica les últimes línies a una escena que passa després de la final.</p>
+      <ul class="sample-meta"><li class="sample-code">L180</li><li>Intermèdia</li><li>7 preguntes</li></ul>
+      <a class="sample-action" href="../../#lectura=el-equipo-que-se-quedo-a-recoger-ca"><span data-gallery-label="worksheet">Prepara la fitxa</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg><span class="preview-sr"> · L’equip que es va quedar a recollir</span></a>
+    </div>
+  </article>
+          <article class="of-card sample-card" data-sample data-type="Article d’opinió" data-level="1r d’ESO">
+    <div class="of-card-media sample-cover"><img src="../../assets/readings/l213-el-derecho-a-equivocarse-en-el-ensayo-1.webp" alt="" loading="lazy" decoding="async"></div>
+    <div class="sample-card-body">
+      <div class="sample-kicker"><span>Article d’opinió</span><span>1r d’ESO</span></div>
+      <h2 class="of-card-title" lang="ca">El dret a equivocar-se a l’assaig</h2>
+      <p class="sample-summary" lang="ca">Assajar permet provar i corregir, però perquè funcioni cal acordar com reaccionem quan algú s’equivoca.</p>
+      <ul class="sample-meta"><li class="sample-code">L213</li><li>Inicial</li><li>10 preguntes</li></ul>
+      <a class="sample-action" href="../../#lectura=el-derecho-a-equivocarse-en-el-ensayo-ca"><span data-gallery-label="worksheet">Prepara la fitxa</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg><span class="preview-sr"> · El dret a equivocar-se a l’assaig</span></a>
+    </div>
+  </article>
+        </div>
+        <p class="sample-empty" data-gallery-label="empty" hidden>Cap resultat amb aquests filtres.</p>
+      </section>
+    </div>
   </main>
   <footer class="of-footer">
     <div class="of-bar preview-footer">
       <p class="footer-context" id="footer-motto"></p>
       <a class="of-signature" href="https://ortogra.fi/" aria-label="ortogra.fi"><svg viewBox="0 0 48 48" width="22" height="22" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><circle cx="22" cy="28" r="14"/><path d="m27 9 7-6"/></svg><span>ortogra<span class="accent">.</span>fi</span></a>
       <div class="of-footer-tools">
-          <button type="button" class="of-footer-action" id="changes-open" aria-haspopup="dialog" aria-controls="changes" aria-label="v0.6.0 · Historial de versions" title="Historial de versions"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" x2="6" y1="3" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg><span class="of-footer-label">v0.6.0</span></button>
+          <button type="button" class="of-footer-action" id="changes-open" aria-haspopup="dialog" aria-controls="changes" aria-label="v0.7.0 · Historial de versions" title="Historial de versions"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" x2="6" y1="3" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg><span class="of-footer-label">v0.7.0</span></button>
           <button type="button" class="of-footer-action" id="license-open" aria-haspopup="dialog" aria-controls="project-license" aria-label="Llicència" title="Llicència"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v16"/><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z"/></svg><span class="of-footer-label" data-message="license">Llicència</span></button>
           <a class="of-footer-action" href="https://github.com/aaronFortuno/trama" target="_blank" rel="noopener noreferrer" aria-label="Repositori" title="Repositori"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><line x1="3" x2="9" y1="12" y2="12"/><line x1="15" x2="21" y1="12" y2="12"/></svg><span class="of-footer-label" data-message="repo">Repositori</span></a>
           <button type="button" class="of-footer-action" id="support-open" aria-haspopup="dialog" aria-controls="support" aria-label="V4V · Value for Value" title="Value for Value"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762"/></svg><span class="of-footer-label">V4V</span></button>

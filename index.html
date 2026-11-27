@@ -7,13 +7,14 @@
   <meta name="theme-color" content="#f8f6ef">
   <title>Trama · Comprensió lectora</title>
   <link rel="icon" href="assets/brand/trama.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?base=0.7.0">
   <link rel="stylesheet" href="studio.css">
   <link rel="stylesheet" href="dialogs.css">
   <link rel="stylesheet" href="select-menu.css">
   <link rel="stylesheet" href="template-library.css">
   <script type="module" src="app.js"></script>
   <link rel="stylesheet" href="./ortografi-base/shell.css?v=0.6.0">
+  <link rel="stylesheet" href="./ortografi-base/gallery.css?v=0.7.0">
 </head>
 <body>
   <a class="skip-link" href="#contingut">Ves al contingut</a>
@@ -60,7 +61,7 @@
     </div>
   </header>
   <main id="contingut" tabindex="-1">
-    <div class="shell" id="catalog-view">
+    <div class="shell of-gallery-shell" id="catalog-view">
       <section class="catalog-section" aria-labelledby="readings-title">
         <div class="catalog-heading" hidden>
           <div class="catalog-heading-title">
@@ -75,7 +76,7 @@
             <div id="active-filters" class="active-filters" role="group" aria-label="Filtres actius" hidden></div>
           </div>
         </div>
-        <div class="catalog-layout">
+        <div class="catalog-layout of-gallery-layout">
           <aside class="catalog-filters scroll-pane" aria-label="Filtres del catàleg">
             <details class="catalog-disclosure" id="catalog-filter-panel" open>
               <summary><span>Filtres<span id="filter-indicator"></span></span><button type="button" id="filters-reset" aria-label="Neteja la cerca i els filtres" title="Neteja la cerca i els filtres" hidden><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m18 6-12 12M6 6l12 12"/></svg></button></summary>
@@ -125,7 +126,7 @@
 
           <div class="catalog-results">
             <div class="catalog-results-scroll scroll-pane" tabindex="0" aria-label="Lectures del catàleg">
-              <div class="reading-grid" id="reading-grid"></div>
+              <div class="reading-grid of-gallery-grid" id="reading-grid"></div>
               <p id="catalog-card-help" class="visually-hidden">Mantén premuda una targeta o prem Majúscules + F10 per veure’n les opcions. Dins d’una col·lecció, arrossega per ordenar o prem Alt + fletxes.</p>
               <p id="catalog-selection-help" class="visually-hidden">Fes clic o prem Espai per seleccionar o deseleccionar la lectura.</p>
               <p id="catalog-card-status" class="visually-hidden" role="status"></p>
@@ -2277,12 +2278,12 @@ the scope of this Creative Commons notice.</pre></div>
   </dialog>
 
   <template id="reading-card">
-    <article class="reading-card">
+    <article class="reading-card of-card">
       <span class="card-selection" aria-hidden="true" hidden><svg class="ui-icon" viewBox="0 0 24 24"><path d="m20 6-11 11-5-5"/></svg>Seleccionada</span>
-      <div class="card-art"><img alt="" loading="lazy" decoding="async"></div>
+      <div class="card-art of-card-media"><img alt="" loading="lazy" decoding="async"></div>
       <div class="card-body">
         <div class="card-kicker"><span class="card-genre"></span><span class="card-level"></span></div>
-        <h3 class="card-title"></h3>
+        <h3 class="card-title of-card-title"></h3>
         <p class="card-summary"></p>
         <div class="card-meta"><span class="card-code"></span><span class="card-personal" hidden>Importada</span><span class="card-difficulty"></span><span class="card-words"></span><span class="card-questions"></span><span class="card-universes" hidden></span></div>
         <button class="card-open" type="button">
