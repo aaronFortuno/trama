@@ -1,4 +1,6 @@
 import { mountV4V } from './v4v.js';
+import { mountDialog } from './dialog.js';
+import { mountLicense } from './license.js';
 import { changelogCopy, projectCopy } from './preview-copy.js';
 
 const ca = {
@@ -40,6 +42,8 @@ const options = [...menu.querySelectorAll('[data-language]')];
 const support = document.getElementById('support');
 const changes = document.getElementById('changes');
 const changesOpen = document.getElementById('changes-open');
+const licenseOpen = document.getElementById('license-open');
+const repoLink = document.querySelector('.of-footer-tools a');
 const root = document.documentElement;
 const copy = projectCopy[document.body.dataset.project];
 let locale = 'ca';
@@ -67,7 +71,9 @@ function render() {
   for (const date of changes.querySelectorAll('time')) date.textContent = formatter.format(new Date(date.dateTime));
   for (const option of options) option.setAttribute('aria-checked', String(option.dataset.language === locale));
   labelled(language, messages.language);
-  labelled(changesOpen, messages.changes);
+  labelled(changesOpen, `${changesOpen.textContent} · ${messages.changes}`);
+  labelled(licenseOpen, changelogCopy[locale].license);
+  labelled(repoLink, changelogCopy[locale].repo);
   labelled(changes.querySelector('[data-of-close]'), messages.close);
   labelled(support.querySelector('[data-of-close]'), messages.close);
   labelled(support.querySelector('[data-of-copy]'), messages.copy);
@@ -109,11 +115,8 @@ menu.addEventListener('click', event => {
     animation.id = 'preview-language';
   }
 });
-changesOpen.addEventListener('click', () => {
-  changes.showModal();
-  changes.querySelector('.release-list').scrollTop = 0;
-});
-changes.addEventListener('close', () => changesOpen.focus());
+mountDialog(changes, changesOpen);
+mountLicense(document.getElementById('project-license'), licenseOpen);
 mountV4V(support, document.getElementById('support-open'), { messages: () => strings[locale] });
 root.dataset.theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 render();

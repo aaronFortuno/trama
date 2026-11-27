@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="select-menu.css">
   <link rel="stylesheet" href="template-library.css">
   <script type="module" src="app.js"></script>
-  <link rel="stylesheet" href="./ortografi-base/shell.css?v=0.2.0">
+  <link rel="stylesheet" href="./ortografi-base/shell.css?v=0.3.0">
 </head>
 <body>
   <a class="skip-link" href="#contingut">Ves al contingut</a>
@@ -170,16 +170,23 @@
           <span>ortogra<span class="brand-dot">.</span>fi</span>
         </a>
       </p>
-      <div class="footer-actions">
-        <button class="footer-link footer-version" id="changelog-open" type="button" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.64 · Obre l’historial de canvis">v1.64</button>
-        <a class="footer-link" href="./LICENSE">Llicència</a>
-        <button class="footer-link" id="about-open" type="button" data-of-open="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte">
-          <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8l8.9 8.8 8.8-8.8a5.5 5.5 0 0 0 0-7.8Z"/><path d="m12 5.7-3 3a2 2 0 0 0 2.8 2.8l1.2-1.2 4.8 4.8"/></svg>
-          V4V
-        </button>
-      </div>
+      <div class="of-footer-tools">
+          <button type="button" class="of-footer-action" id="changelog-open" data-open-dialog="changelog-dialog" aria-haspopup="dialog" aria-controls="changelog-dialog" aria-label="v1.64 · Obre l’historial de canvis" title="Historial de versions"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" x2="6" y1="3" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg><span class="of-footer-label">v1.64</span></button>
+          <button type="button" class="of-footer-action" id="license-open" aria-haspopup="dialog" aria-controls="project-license" aria-label="Llicència" title="Llicència"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v16"/><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z"/></svg><span class="of-footer-label">Llicència</span></button>
+          <a class="of-footer-action" href="https://github.com/aaronFortuno/trama" target="_blank" rel="noopener noreferrer" aria-label="Repositori" title="Repositori"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><line x1="3" x2="9" y1="12" y2="12"/><line x1="15" x2="21" y1="12" y2="12"/></svg><span class="of-footer-label">Repositori</span></a>
+          <button type="button" class="of-footer-action" id="about-open" data-of-open="about-dialog" aria-haspopup="dialog" aria-controls="about-dialog" aria-label="V4V · Sobre el projecte" title="Value for Value"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762"/></svg><span class="of-footer-label">V4V</span></button>
+        </div>
     </div>
   </footer>
+
+  <dialog id="project-license" class="of-dialog" data-of-dialog aria-labelledby="project-license-title">
+    <div class="of-v4v-heading"><h2 id="project-license-title" data-of-license="title">Llicències</h2><button type="button" data-of-close aria-label="Tanca" title="Tanca"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
+    <div class="of-v4v-scroll of-license-body">
+      <section><h3 data-of-license="code">Codi del projecte</h3><p><a href="https://github.com/aaronFortuno/trama/blob/main/LICENSE">MIT</a></p></section>
+      <section><h3 data-of-license="contents">Continguts originals</h3><p><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><span data-of-license="credit">Creative Commons Reconeixement 4.0 Internacional.</span></p></section>
+      <p class="of-license-note"><span data-of-license="resources">Els recursos de tercers tenen les llicències indicades als crèdits.</span> <a href="https://github.com/aaronFortuno/trama/blob/main/README.md#llicències" data-of-license="credits">Consulta els crèdits</a></p>
+    </div>
+  </dialog>
 
   <dialog class="site-dialog batch-dialog" id="batch-dialog" aria-labelledby="batch-title">
     <div class="dialog-heading">

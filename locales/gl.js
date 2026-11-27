@@ -325,6 +325,7 @@ export const gl = Object.freeze({
   "Entrevista": "Entrevista",
   "Llegir, entendre i fer-se preguntes.": "Ler, entender e facerse preguntas.",
   "Llicència": "Licenza",
+  "Repositori": "Repositorio",
   "Un projecte d’": "Un proxecto de",
   "V4V · Sobre el projecte": "V4V · Sobre o proxecto",
   "Un petit espai per aprendre": "Un pequeno espazo para aprender",

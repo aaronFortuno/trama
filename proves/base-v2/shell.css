@@ -40,6 +40,35 @@
   min-block-size: 36px;
 }
 .of-footer .of-signature { justify-self: center; }
+.of-footer-tools { display: flex; align-items: center; justify-content: end; gap: clamp(7px, 1.35vw, 18px); }
+.of-footer .of-footer-tools .of-footer-action {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  min-block-size: 34px;
+  padding: 2px 0;
+  border: 0;
+  background: transparent;
+  color: var(--of-muted);
+  font: 500 .75rem/1.25 var(--of-ui-font);
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color var(--of-motion) var(--of-ease);
+}
+.of-footer .of-footer-action:is(:hover, :focus-visible) { color: var(--of-text); }
+.of-footer-action .of-icon { flex: none; inline-size: 15px; block-size: 15px; }
+.of-footer-action:is(:hover, :focus-visible) .of-footer-label { text-decoration: underline; text-underline-offset: 3px; }
+
+#project-license { --of-dialog-width: 30rem; }
+.of-license-body { display: grid; gap: 14px; }
+.of-license-body h3, .of-license-body p { margin: 0; }
+.of-license-body h3 { font-size: .93rem; }
+.of-license-body section p { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; }
+.of-license-body a { color: inherit; text-underline-offset: 3px; }
+.of-license-note { padding-block-start: 12px; border-block-start: 1px solid var(--of-border); color: var(--of-muted); font-size: .83rem; }
 
 :is(.of-v4v, .of-dialog) {
   box-sizing: border-box;
@@ -135,6 +164,22 @@
   :is(.of-v4v, .of-dialog) .of-v4v-heading h2 { font-size: 1.125rem; }
   :is(.of-v4v, .of-dialog) .of-v4v-scroll { padding: 12px 14px 16px; }
   .of-v4v .of-v4v-grid { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (max-width: 39rem) {
+  .of-footer-tools { gap: 4px; }
+  .of-footer .of-footer-tools .of-footer-action { min-inline-size: 32px; }
+  .of-footer-label { display: none; }
+  .of-footer-action::after {
+    position: absolute;
+    inset: auto calc(50% - 7px) 5px;
+    block-size: 1px;
+    background: currentColor;
+    opacity: 0;
+    content: '';
+    transition: opacity var(--of-motion) var(--of-ease);
+  }
+  .of-footer-action:is(:hover, :focus-visible)::after { opacity: 1; }
 }
 
 @media (prefers-reduced-motion: reduce) {

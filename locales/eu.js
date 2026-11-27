@@ -325,6 +325,7 @@ export const eu = Object.freeze({
   "Entrevista": "Elkarrizketa",
   "Llegir, entendre i fer-se preguntes.": "Irakurri, ulertu eta galderak egin.",
   "Llicència": "Lizentzia",
+  "Repositori": "Biltegia",
   "Un projecte d’": "Proiektua:",
   "V4V · Sobre el projecte": "V4V · Proiektuari buruz",
   "Un petit espai per aprendre": "Ikasteko txoko txiki bat",

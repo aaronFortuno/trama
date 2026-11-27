@@ -8,7 +8,9 @@ export function recordRelease({ version, date, ca, es }) {
   assert(ca && es && !/[|`]/.test(ca + es));
   const edition = `v${version}`;
   let html = fs.readFileSync('index.html', 'utf8');
-  const current = /id="changelog-open"[^>]*aria-label="(v[\d.]+) · Obre l’historial de canvis"/.exec(html)?.[1];
+  const footerButton = /<button\b[^>]*\bid="changelog-open"[^>]*>[\s\S]*?<\/button>/.exec(html)?.[0];
+  assert(footerButton);
+  const current = /aria-label="(v[\d.]+) · Obre l’historial de canvis"/.exec(footerButton)?.[1];
   assert(current);
   if (current === edition) return;
   const next = version.split('.').map(Number), previous = current.slice(1).split('.').map(Number);
@@ -18,7 +20,9 @@ export function recordRelease({ version, date, ca, es }) {
   assert(html.includes(marker));
   const dateText = new Intl.DateTimeFormat('ca', { dateStyle: 'long', timeZone: 'UTC' }).format(new Date(date + 'T12:00:00Z'));
   const escape = text => text.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
-  html = html.replace(`aria-label="${current} · Obre l’historial de canvis">${current}</button>`, `aria-label="${edition} · Obre l’historial de canvis">${edition}</button>`);
+  assert(footerButton.includes(`>${current}<`));
+  const newFooterButton = footerButton.replace(`aria-label="${current} ·`, `aria-label="${edition} ·`).replace(`>${current}<`, `>${edition}<`);
+  html = html.replace(footerButton, newFooterButton);
   html = html.replace(marker, marker + `\n      <article class="release">\n        <header><h3>${edition}</h3><time datetime="${date}">${dateText}</time></header>\n        <p>${escape(ca)}</p>\n      </article>`);
   fs.writeFileSync('index.html', html);
   fs.writeFileSync('CHANGELOG.md', fs.readFileSync('CHANGELOG.md', 'utf8').replace(/^# Historial de Trama\r?\n/, `# Historial de Trama\n\n## ${version} · ${dateText}\n\n${ca}\n`));
