@@ -1,14 +1,14 @@
 # Balanç del catàleg per cicles
 
-Fotografia del 27 de novembre del 2026, versió v1.66. Generada amb `node tools/catalogue-balance.mjs --write`.
+Fotografia del 27 de novembre del 2026, versió v1.66.1. Generada amb `node tools/catalogue-balance.mjs --write`.
 
-315 històries diferents, 633 fitxes graduades per idioma, 1266 versions lingüístiques, 156 famílies amb variants i 159 històries sense variants. Tot el catàleg està disponible en català i castellà.
+315 històries diferents, 649 fitxes graduades per idioma, 1298 versions lingüístiques, 156 famílies amb variants i 159 històries sense variants. Tot el catàleg està disponible en català i castellà.
 
 Cada casella compta una història una sola vegada, agrupant família i sense duplicar idiomes. Els totals de fila també dedupliquen famílies: no són necessàriament la suma de dificultats. Una família pot aparèixer en diversos cicles.
 
 | Cicle o etapa | Inicial | Intermèdia | Avançada | Històries diferents |
 | --- | ---: | ---: | ---: | ---: |
-| Primer cicle · 1r–2n | 3 | 28 | 3 | 28 |
+| Primer cicle · 1r–2n | 11 | 28 | 11 | 28 |
 | Segon cicle · 3r–4t | 54 | 140 | 15 | 156 |
 | Tercer cicle · 5è–6è | 131 | 121 | 24 | 199 |
 | Primer cicle d’ESO · 1r–2n | 39 | 35 | 26 | 89 |

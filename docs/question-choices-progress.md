@@ -1,6 +1,6 @@
 # Seguiment de les alternatives ABCD
 
-Actualitzat el 2026-11-27. **633 de 633 fitxes concretes** tenen alternatives en català i castellà; en queden 0 pendents. Hi ha 6574 alternatives lingüístiques revisades.
+Actualitzat el 2026-11-27. **649 de 649 fitxes concretes** tenen alternatives en català i castellà; en queden 0 pendents. Hi ha 6690 alternatives lingüístiques revisades.
 
 La xifra inclou lectures base i variants de família, que es treballen independentment. Cobrir una lectura vol dir donar alternativa a les preguntes adequades; les opinions i activitats de producció es mantenen obertes. Provisional significa revisió independent superada i validació docent pendent. El prototip base L001–L005 ha estat acceptat pel docent pel que fa al format.
 
@@ -31,13 +31,13 @@ Pots escriure un rang com 6-10 al cercador del web. La taula compta les fitxes c
 | L091–L095 | 15/15 | Complet ES/CA |
 | L096–L100 | 7/7 | Complet ES/CA |
 | L101–L105 | 11/11 | Complet ES/CA |
-| L106–L110 | 17/17 | Complet ES/CA |
-| L111–L115 | 15/15 | Complet ES/CA |
+| L106–L110 | 21/21 | Complet ES/CA |
+| L111–L115 | 19/19 | Complet ES/CA |
 | L116–L120 | 13/13 | Complet ES/CA |
-| L121–L125 | 11/11 | Complet ES/CA |
-| L126–L130 | 15/15 | Complet ES/CA |
+| L121–L125 | 13/13 | Complet ES/CA |
+| L126–L130 | 19/19 | Complet ES/CA |
 | L131–L135 | 9/9 | Complet ES/CA |
-| L136–L140 | 13/13 | Complet ES/CA |
+| L136–L140 | 15/15 | Complet ES/CA |
 | L141–L145 | 9/9 | Complet ES/CA |
 | L146–L150 | 11/11 | Complet ES/CA |
 | L151–L155 | 7/7 | Complet ES/CA |
@@ -138,6 +138,6 @@ Pots escriure un rang com 6-10 al cercador del web. La taula compta les fitxes c
 | Observatori · famílies noves | v1.61.8 | 27 | [Registre de revisió](question-choices/observatory-2026-11-26-review.json) |
 | Taller · famílies noves | v1.62.8 | 27 | [Registre de revisió](question-choices/workshop-2026-11-26-review.json) |
 | Ribera · famílies noves | v1.63.8 | 27 | [Registre de revisió](question-choices/riverside-2026-11-26-review.json) |
-| Compleció per cicles · variants | v1.66 | 6 | [Registre de revisió](question-choices/cycle-completion-review.json) |
+| Compleció per cicles · variants | v1.66.1 | 22 | [Registre de revisió](question-choices/cycle-completion-review.json) |
 
 El detall per codi, llengua i número de pregunta és a [question-choices-coverage.json](question-choices-coverage.json). Els criteris editorials i de gradació són a [question-choices.md](question-choices.md).

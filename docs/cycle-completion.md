@@ -13,14 +13,14 @@ Ordre editorial: **C → A → D → original → B**. C, A i D ofereixen els tr
 | L104 · El banc moll | L104C, L104D | Provisional ES/CA, revisió superada |
 | L107 · Una garlanda de paper | L107C, L107D | Provisional ES/CA, revisió superada |
 | L133 · Un missatge a la nevera | L133C, L133D | Provisional ES/CA, revisió superada |
-| L106 · El guant de ratlles | — | Previst |
-| L111 · Gots de tres colors | — | Previst |
-| L113 · Una carta plena de blau | — | Previst |
-| L129 · L’aigua del gerro | — | Previst |
-| L138 · Una bústia a la biblioteca | — | Previst |
-| L108 · La capsa dels dibuixos | — | Previst |
-| L127 · Una pinça per a cada mitjó | — | Previst |
-| L123 · La llauna dels llapis | — | Previst |
+| L106 · El guant de ratlles | L106C, L106D | Provisional ES/CA, revisió superada |
+| L111 · Gots de tres colors | L111C, L111D | Provisional ES/CA, revisió superada |
+| L113 · Una carta plena de blau | L113C, L113D | Provisional ES/CA, revisió superada |
+| L129 · L’aigua del gerro | L129C, L129D | Provisional ES/CA, revisió superada |
+| L138 · Una bústia a la biblioteca | L138C, L138D | Provisional ES/CA, revisió superada |
+| L108 · La capsa dels dibuixos | L108C, L108D | Provisional ES/CA, revisió superada |
+| L127 · Una pinça per a cada mitjó | L127C, L127D | Provisional ES/CA, revisió superada |
+| L123 · La llauna dels llapis | L123C, L123D | Provisional ES/CA, revisió superada |
 | L126 · El camí de les fletxes | — | Previst |
 | L139 · La corda de l’hort | — | Previst |
 | L125 · Una barca per a dos | — | Previst |

@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.66.1 · 27 de novembre del 2026
+
+Vuit famílies més completen els trams inicial i avançat del primer cicle: L106, L111, L113, L129, L138, L108, L127 i L123. Setze variants noves en català i castellà, amb il·lustracions compartides, preguntes obertes i ABCD, solucionari i evidències. El primer cicle arriba a 11 propostes inicials, 28 intermèdies i 11 avançades. Revisió independent superada; validació docent pendent.
+
 ## 1.66 · 27 de novembre del 2026
 
 Primer pilot de compleció de primer cicle: les famílies L104, L107 i L133 incorporen una variant inicial C i una d’avançada D, en català i castellà, amb il·lustracions compartides, solucionari, evidències, línies ajustades i alternatives ABCD. Les cinc variants de cada família es mostren en ordre de gradació i conserven els maquetats anteriors. Sis fitxes noves, dotze versions lingüístiques, amb revisió independent superada i validació docent pendent.

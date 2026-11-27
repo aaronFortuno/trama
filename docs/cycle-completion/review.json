@@ -229,6 +229,614 @@
       "sha256": "d996c73e54979c4298c263223e83b8cf22a578b974aaf46897a926251c70c724",
       "source": "data/cycle-completion/early-pilot.js",
       "sourceSha256": "04a8edbe804c2ff532878d6a9fd90d08771f2a4656b363081a4b328d678f9b16"
+    },
+    {
+      "code": "L106C",
+      "id": "el-guante-de-rayas-c-es",
+      "language": "es",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "0160b45a708511abd510236f02b7b6e1b75c5c15428b046388c08b27984f96f8",
+      "source": "data/cycle-completion/early-2.js",
+      "sourceSha256": "2ecc87190867898bd53e7c36613766fb1cf09dd53a845e69066fb9fd7fe3e5bc"
+    },
+    {
+      "code": "L106C",
+      "id": "el-guante-de-rayas-c-ca",
+      "language": "ca",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "ee85a206496adbbcb426752c9d902a14402c8f457f8f4d7b4221eaf9c3c31a12",
+      "source": "data/cycle-completion/early-2.js",
+      "sourceSha256": "2ecc87190867898bd53e7c36613766fb1cf09dd53a845e69066fb9fd7fe3e5bc"
+    },
+    {
+      "code": "L106D",
+      "id": "el-guante-de-rayas-d-es",
+      "language": "es",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "4bd2c88dfb84f1998b35ac13ebb31e661c4d1345b5a364d144b23bc6bd89b8a1",
+      "source": "data/cycle-completion/early-2.js",
+      "sourceSha256": "2ecc87190867898bd53e7c36613766fb1cf09dd53a845e69066fb9fd7fe3e5bc"
+    },
+    {
+      "code": "L106D",
+      "id": "el-guante-de-rayas-d-ca",
+      "language": "ca",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "c9fdf7d9e5b47829af5cc473366754834a5e90c32cf5d1e9f7d7f1e162b380df",
+      "source": "data/cycle-completion/early-2.js",
+      "sourceSha256": "2ecc87190867898bd53e7c36613766fb1cf09dd53a845e69066fb9fd7fe3e5bc"
+    },
+    {
+      "code": "L111C",
+      "id": "vasos-de-tres-colores-c-es",
+      "language": "es",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "f9e11e5d54868df78d7c51fcc7cd56d5382ebd58c729d403e3acafa90216e6af",
+      "source": "data/cycle-completion/early-2.js",
+      "sourceSha256": "2ecc87190867898bd53e7c36613766fb1cf09dd53a845e69066fb9fd7fe3e5bc"
+    },
+    {
+      "code": "L111C",
+      "id": "vasos-de-tres-colores-c-ca",
+      "language": "ca",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "0833c0a85806999811dbae998227f7dd342cc6bdcff8c34392aa0ec89a2d5131",
+      "source": "data/cycle-completion/early-2.js",
+      "sourceSha256": "2ecc87190867898bd53e7c36613766fb1cf09dd53a845e69066fb9fd7fe3e5bc"
+    },
+    {
+      "code": "L111D",
+      "id": "vasos-de-tres-colores-d-es",
+      "language": "es",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "1f6cb2990f858d8cef60a4349e62c0f0bcb6e420c53eb65d95aab539607d56c3",
+      "source": "data/cycle-completion/early-2.js",
+      "sourceSha256": "2ecc87190867898bd53e7c36613766fb1cf09dd53a845e69066fb9fd7fe3e5bc"
+    },
+    {
+      "code": "L111D",
+      "id": "vasos-de-tres-colores-d-ca",
+      "language": "ca",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "87398ea71eaf48ec434593fdad360e8ddd9a0972e9234b779d0d881af7250977",
+      "source": "data/cycle-completion/early-2.js",
+      "sourceSha256": "2ecc87190867898bd53e7c36613766fb1cf09dd53a845e69066fb9fd7fe3e5bc"
+    },
+    {
+      "code": "L113C",
+      "id": "una-carta-llena-de-azul-c-es",
+      "language": "es",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "6d1fe7a321028b70551c010385ccf0c27338a80dd2f00e46f5afbbcb898fbf0a",
+      "source": "data/cycle-completion/early-2.js",
+      "sourceSha256": "2ecc87190867898bd53e7c36613766fb1cf09dd53a845e69066fb9fd7fe3e5bc"
+    },
+    {
+      "code": "L113C",
+      "id": "una-carta-llena-de-azul-c-ca",
+      "language": "ca",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "ba178a16031db7da2fc1179f8edfd8f80f580325a1ff122d77fe2b2e02ac62d3",
+      "source": "data/cycle-completion/early-2.js",
+      "sourceSha256": "2ecc87190867898bd53e7c36613766fb1cf09dd53a845e69066fb9fd7fe3e5bc"
+    },
+    {
+      "code": "L113D",
+      "id": "una-carta-llena-de-azul-d-es",
+      "language": "es",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "52a6a3e7933090affd983bd9e0560cc8fba3943844f729b8c424dbcf89d5e3a6",
+      "source": "data/cycle-completion/early-2.js",
+      "sourceSha256": "2ecc87190867898bd53e7c36613766fb1cf09dd53a845e69066fb9fd7fe3e5bc"
+    },
+    {
+      "code": "L113D",
+      "id": "una-carta-llena-de-azul-d-ca",
+      "language": "ca",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "309c44ff1cedf395da407bb9cdc6921197ff19645cfc6b5fe745c3726fe5bae6",
+      "source": "data/cycle-completion/early-2.js",
+      "sourceSha256": "2ecc87190867898bd53e7c36613766fb1cf09dd53a845e69066fb9fd7fe3e5bc"
+    },
+    {
+      "code": "L129C",
+      "id": "el-agua-del-jarron-c-es",
+      "language": "es",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "3a7a56c92a26ea83bf9eafb92844bc11b217dc865fdeb78dceaa7c4174402af0",
+      "source": "data/cycle-completion/early-2.js",
+      "sourceSha256": "2ecc87190867898bd53e7c36613766fb1cf09dd53a845e69066fb9fd7fe3e5bc"
+    },
+    {
+      "code": "L129C",
+      "id": "el-agua-del-jarron-c-ca",
+      "language": "ca",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "7120932bd0894c076e7f23afb92628ba93c0021a2935bdb65c714569d649601f",
+      "source": "data/cycle-completion/early-2.js",
+      "sourceSha256": "2ecc87190867898bd53e7c36613766fb1cf09dd53a845e69066fb9fd7fe3e5bc"
+    },
+    {
+      "code": "L129D",
+      "id": "el-agua-del-jarron-d-es",
+      "language": "es",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "057f263ffa3d2b0ab49ee7a7c36863b5f516ddad14241753d0834dee4b50d82c",
+      "source": "data/cycle-completion/early-2.js",
+      "sourceSha256": "2ecc87190867898bd53e7c36613766fb1cf09dd53a845e69066fb9fd7fe3e5bc"
+    },
+    {
+      "code": "L129D",
+      "id": "el-agua-del-jarron-d-ca",
+      "language": "ca",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "727b80fbc49f530f11fd5dd05d72aed581309d19a20d3b5a1e839858f6ca99e9",
+      "source": "data/cycle-completion/early-2.js",
+      "sourceSha256": "2ecc87190867898bd53e7c36613766fb1cf09dd53a845e69066fb9fd7fe3e5bc"
+    },
+    {
+      "code": "L138C",
+      "id": "un-buzon-en-la-biblioteca-c-es",
+      "language": "es",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "00c29d1409c40577ca9c0b4216a6d983a32c7ae4607457f2b512ca9cddbbcbc3",
+      "source": "data/cycle-completion/early-3.js",
+      "sourceSha256": "8093eabf0801b631a99d3af9124f546831d1e899a0793e6abdedaf5ec6932ba9"
+    },
+    {
+      "code": "L138C",
+      "id": "un-buzon-en-la-biblioteca-c-ca",
+      "language": "ca",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "234cee548643ee714e28c1bcde075d05261166555b06d3c92cdb9633488243d9",
+      "source": "data/cycle-completion/early-3.js",
+      "sourceSha256": "8093eabf0801b631a99d3af9124f546831d1e899a0793e6abdedaf5ec6932ba9"
+    },
+    {
+      "code": "L138D",
+      "id": "un-buzon-en-la-biblioteca-d-es",
+      "language": "es",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "2bd8e74f8e0ca985c23ea6ecdef6f25822223652cd27b90ccfe6b0173606949a",
+      "source": "data/cycle-completion/early-3.js",
+      "sourceSha256": "8093eabf0801b631a99d3af9124f546831d1e899a0793e6abdedaf5ec6932ba9"
+    },
+    {
+      "code": "L138D",
+      "id": "un-buzon-en-la-biblioteca-d-ca",
+      "language": "ca",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "a3dc8231d742298afe6353679767a95687128e8042c178173ce87791b53b40cd",
+      "source": "data/cycle-completion/early-3.js",
+      "sourceSha256": "8093eabf0801b631a99d3af9124f546831d1e899a0793e6abdedaf5ec6932ba9"
+    },
+    {
+      "code": "L108C",
+      "id": "la-caja-de-los-dibujos-c-es",
+      "language": "es",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "d7a896f27b9828481015c584e80612820c4ac5d3489b6116ed89d7f94f54ac59",
+      "source": "data/cycle-completion/early-3.js",
+      "sourceSha256": "8093eabf0801b631a99d3af9124f546831d1e899a0793e6abdedaf5ec6932ba9"
+    },
+    {
+      "code": "L108C",
+      "id": "la-caja-de-los-dibujos-c-ca",
+      "language": "ca",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "59c203c5d6844c6130ecaa6996a4a43a996683d1db1dd429b409877da8187361",
+      "source": "data/cycle-completion/early-3.js",
+      "sourceSha256": "8093eabf0801b631a99d3af9124f546831d1e899a0793e6abdedaf5ec6932ba9"
+    },
+    {
+      "code": "L108D",
+      "id": "la-caja-de-los-dibujos-d-es",
+      "language": "es",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "4cc599b1986fa157b63886b573abfe639fce95359f510403324b03d77e4ad813",
+      "source": "data/cycle-completion/early-3.js",
+      "sourceSha256": "8093eabf0801b631a99d3af9124f546831d1e899a0793e6abdedaf5ec6932ba9"
+    },
+    {
+      "code": "L108D",
+      "id": "la-caja-de-los-dibujos-d-ca",
+      "language": "ca",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "af369b609c36be436d938adb6f719cd628e85ae0f22d3bb2ed21f21cf6656754",
+      "source": "data/cycle-completion/early-3.js",
+      "sourceSha256": "8093eabf0801b631a99d3af9124f546831d1e899a0793e6abdedaf5ec6932ba9"
+    },
+    {
+      "code": "L127C",
+      "id": "una-pinza-para-cada-calcetin-c-es",
+      "language": "es",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "0273186a7c8634a8e75ff6c301ab13d27eeb6ac2e7c5421721e418e24b465be7",
+      "source": "data/cycle-completion/early-3.js",
+      "sourceSha256": "8093eabf0801b631a99d3af9124f546831d1e899a0793e6abdedaf5ec6932ba9"
+    },
+    {
+      "code": "L127C",
+      "id": "una-pinza-para-cada-calcetin-c-ca",
+      "language": "ca",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "b8893c761bea1807689b45ca795f90216f24ef163656c6d8454c957de073e684",
+      "source": "data/cycle-completion/early-3.js",
+      "sourceSha256": "8093eabf0801b631a99d3af9124f546831d1e899a0793e6abdedaf5ec6932ba9"
+    },
+    {
+      "code": "L127D",
+      "id": "una-pinza-para-cada-calcetin-d-es",
+      "language": "es",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "267b4b059f8f4d839b2a6caadf86d1a40954c1cdfefc73ae894be8f327662c63",
+      "source": "data/cycle-completion/early-3.js",
+      "sourceSha256": "8093eabf0801b631a99d3af9124f546831d1e899a0793e6abdedaf5ec6932ba9"
+    },
+    {
+      "code": "L127D",
+      "id": "una-pinza-para-cada-calcetin-d-ca",
+      "language": "ca",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "ac789010f51cd98c03400ddd992b0b467db5b656a8f6319b6e0d34107fca339d",
+      "source": "data/cycle-completion/early-3.js",
+      "sourceSha256": "8093eabf0801b631a99d3af9124f546831d1e899a0793e6abdedaf5ec6932ba9"
+    },
+    {
+      "code": "L123C",
+      "id": "la-lata-de-los-lapices-c-es",
+      "language": "es",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "33488144217633072cd74109b3966b5d311d3efbb48caeff40245b4b9cb76445",
+      "source": "data/cycle-completion/early-3.js",
+      "sourceSha256": "8093eabf0801b631a99d3af9124f546831d1e899a0793e6abdedaf5ec6932ba9"
+    },
+    {
+      "code": "L123C",
+      "id": "la-lata-de-los-lapices-c-ca",
+      "language": "ca",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "initial"
+      },
+      "sha256": "1c26812b0fe4551f208b9bdab07c55dfa50a50897fbfd80950fc683b8c0e5713",
+      "source": "data/cycle-completion/early-3.js",
+      "sourceSha256": "8093eabf0801b631a99d3af9124f546831d1e899a0793e6abdedaf5ec6932ba9"
+    },
+    {
+      "code": "L123D",
+      "id": "la-lata-de-los-lapices-d-es",
+      "language": "es",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "1c1bd30e2000ef049f8d5786b7083cd57f49099adc915f28d2836d22da77981f",
+      "source": "data/cycle-completion/early-3.js",
+      "sourceSha256": "8093eabf0801b631a99d3af9124f546831d1e899a0793e6abdedaf5ec6932ba9"
+    },
+    {
+      "code": "L123D",
+      "id": "la-lata-de-los-lapices-d-ca",
+      "language": "ca",
+      "edition": "v1.66.1",
+      "date": "2026-11-27",
+      "author": "root",
+      "reviewer": "review_first_cycle_pilot",
+      "result": "independent-review-passed",
+      "status": "provisional",
+      "teacherValidation": "pending",
+      "classification": {
+        "level": "primary-cycle-1",
+        "difficulty": "advanced"
+      },
+      "sha256": "0280a48609d6e06c67ff1dba8aafe2e9da8e4065582e052e020c66f8b67796cf",
+      "source": "data/cycle-completion/early-3.js",
+      "sourceSha256": "8093eabf0801b631a99d3af9124f546831d1e899a0793e6abdedaf5ec6932ba9"
     }
   ]
 }

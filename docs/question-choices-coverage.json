@@ -1,9 +1,9 @@
 {
   "date": "2026-11-27",
-  "totalWorks": 633,
-  "coveredWorks": 633,
+  "totalWorks": 649,
+  "coveredWorks": 649,
   "pendingWorks": 0,
-  "localizedAlternatives": 6574,
+  "localizedAlternatives": 6690,
   "ranges": [
     {
       "start": 1,
@@ -155,15 +155,15 @@
     {
       "start": 106,
       "end": 110,
-      "total": 17,
-      "covered": 17,
+      "total": 21,
+      "covered": 21,
       "status": "complete"
     },
     {
       "start": 111,
       "end": 115,
-      "total": 15,
-      "covered": 15,
+      "total": 19,
+      "covered": 19,
       "status": "complete"
     },
     {
@@ -176,15 +176,15 @@
     {
       "start": 121,
       "end": 125,
-      "total": 11,
-      "covered": 11,
+      "total": 13,
+      "covered": 13,
       "status": "complete"
     },
     {
       "start": 126,
       "end": 130,
-      "total": 15,
-      "covered": 15,
+      "total": 19,
+      "covered": 19,
       "status": "complete"
     },
     {
@@ -197,8 +197,8 @@
     {
       "start": 136,
       "end": 140,
-      "total": 13,
-      "covered": 13,
+      "total": 15,
+      "covered": 15,
       "status": "complete"
     },
     {
@@ -12109,6 +12109,104 @@
       }
     },
     {
+      "code": "L106C",
+      "baseCode": "L106",
+      "variant": true,
+      "level": "1-primary",
+      "difficulty": "initial",
+      "title": "El guant de ratlles",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l106c-q1",
+              "number": 1
+            },
+            {
+              "id": "l106c-q2",
+              "number": 2
+            },
+            {
+              "id": "l106c-q3",
+              "number": 3
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l106c-q1",
+              "number": 1
+            },
+            {
+              "id": "l106c-q2",
+              "number": 2
+            },
+            {
+              "id": "l106c-q3",
+              "number": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L106D",
+      "baseCode": "L106",
+      "variant": true,
+      "level": "2-primary",
+      "difficulty": "advanced",
+      "title": "El guant de ratlles",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l106d-q1",
+              "number": 1
+            },
+            {
+              "id": "l106d-q2",
+              "number": 2
+            },
+            {
+              "id": "l106d-q3",
+              "number": 3
+            },
+            {
+              "id": "l106d-q4",
+              "number": 4
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l106d-q1",
+              "number": 1
+            },
+            {
+              "id": "l106d-q2",
+              "number": 2
+            },
+            {
+              "id": "l106d-q3",
+              "number": 3
+            },
+            {
+              "id": "l106d-q4",
+              "number": 4
+            }
+          ]
+        }
+      }
+    },
+    {
       "code": "L107",
       "baseCode": "L107",
       "variant": false,
@@ -12487,6 +12585,112 @@
             {
               "id": "l108b-q6",
               "number": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L108C",
+      "baseCode": "L108",
+      "variant": true,
+      "level": "1-primary",
+      "difficulty": "initial",
+      "title": "La capsa dels dibuixos",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l108c-q1",
+              "number": 1
+            },
+            {
+              "id": "l108c-q2",
+              "number": 2
+            },
+            {
+              "id": "l108c-q3",
+              "number": 3
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l108c-q1",
+              "number": 1
+            },
+            {
+              "id": "l108c-q2",
+              "number": 2
+            },
+            {
+              "id": "l108c-q3",
+              "number": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L108D",
+      "baseCode": "L108",
+      "variant": true,
+      "level": "2-primary",
+      "difficulty": "advanced",
+      "title": "La capsa dels dibuixos",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l108d-q1",
+              "number": 1
+            },
+            {
+              "id": "l108d-q2",
+              "number": 2
+            },
+            {
+              "id": "l108d-q3",
+              "number": 3
+            },
+            {
+              "id": "l108d-q4",
+              "number": 4
+            },
+            {
+              "id": "l108d-q5",
+              "number": 5
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l108d-q1",
+              "number": 1
+            },
+            {
+              "id": "l108d-q2",
+              "number": 2
+            },
+            {
+              "id": "l108d-q3",
+              "number": 3
+            },
+            {
+              "id": "l108d-q4",
+              "number": 4
+            },
+            {
+              "id": "l108d-q5",
+              "number": 5
             }
           ]
         }
@@ -12922,6 +13126,104 @@
       }
     },
     {
+      "code": "L111C",
+      "baseCode": "L111",
+      "variant": true,
+      "level": "1-primary",
+      "difficulty": "initial",
+      "title": "Gots de tres colors",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l111c-q1",
+              "number": 1
+            },
+            {
+              "id": "l111c-q2",
+              "number": 2
+            },
+            {
+              "id": "l111c-q3",
+              "number": 3
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l111c-q1",
+              "number": 1
+            },
+            {
+              "id": "l111c-q2",
+              "number": 2
+            },
+            {
+              "id": "l111c-q3",
+              "number": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L111D",
+      "baseCode": "L111",
+      "variant": true,
+      "level": "2-primary",
+      "difficulty": "advanced",
+      "title": "Gots de tres colors",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l111d-q1",
+              "number": 1
+            },
+            {
+              "id": "l111d-q2",
+              "number": 2
+            },
+            {
+              "id": "l111d-q3",
+              "number": 3
+            },
+            {
+              "id": "l111d-q4",
+              "number": 4
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l111d-q1",
+              "number": 1
+            },
+            {
+              "id": "l111d-q2",
+              "number": 2
+            },
+            {
+              "id": "l111d-q3",
+              "number": 3
+            },
+            {
+              "id": "l111d-q4",
+              "number": 4
+            }
+          ]
+        }
+      }
+    },
+    {
       "code": "L112",
       "baseCode": "L112",
       "variant": false,
@@ -13202,6 +13504,104 @@
             {
               "id": "l113b-q6",
               "number": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L113C",
+      "baseCode": "L113",
+      "variant": true,
+      "level": "1-primary",
+      "difficulty": "initial",
+      "title": "Una carta plena de blau",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l113c-q1",
+              "number": 1
+            },
+            {
+              "id": "l113c-q2",
+              "number": 2
+            },
+            {
+              "id": "l113c-q3",
+              "number": 3
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l113c-q1",
+              "number": 1
+            },
+            {
+              "id": "l113c-q2",
+              "number": 2
+            },
+            {
+              "id": "l113c-q3",
+              "number": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L113D",
+      "baseCode": "L113",
+      "variant": true,
+      "level": "2-primary",
+      "difficulty": "advanced",
+      "title": "Una carta plena de blau",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l113d-q1",
+              "number": 1
+            },
+            {
+              "id": "l113d-q2",
+              "number": 2
+            },
+            {
+              "id": "l113d-q3",
+              "number": 3
+            },
+            {
+              "id": "l113d-q4",
+              "number": 4
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l113d-q1",
+              "number": 1
+            },
+            {
+              "id": "l113d-q2",
+              "number": 2
+            },
+            {
+              "id": "l113d-q3",
+              "number": 3
+            },
+            {
+              "id": "l113d-q4",
+              "number": 4
             }
           ]
         }
@@ -14626,6 +15026,104 @@
       }
     },
     {
+      "code": "L123C",
+      "baseCode": "L123",
+      "variant": true,
+      "level": "1-primary",
+      "difficulty": "initial",
+      "title": "La llauna dels llapis",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l123c-q1",
+              "number": 1
+            },
+            {
+              "id": "l123c-q2",
+              "number": 2
+            },
+            {
+              "id": "l123c-q3",
+              "number": 3
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l123c-q1",
+              "number": 1
+            },
+            {
+              "id": "l123c-q2",
+              "number": 2
+            },
+            {
+              "id": "l123c-q3",
+              "number": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L123D",
+      "baseCode": "L123",
+      "variant": true,
+      "level": "2-primary",
+      "difficulty": "advanced",
+      "title": "La llauna dels llapis",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l123d-q1",
+              "number": 1
+            },
+            {
+              "id": "l123d-q2",
+              "number": 2
+            },
+            {
+              "id": "l123d-q3",
+              "number": 3
+            },
+            {
+              "id": "l123d-q4",
+              "number": 4
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l123d-q1",
+              "number": 1
+            },
+            {
+              "id": "l123d-q2",
+              "number": 2
+            },
+            {
+              "id": "l123d-q3",
+              "number": 3
+            },
+            {
+              "id": "l123d-q4",
+              "number": 4
+            }
+          ]
+        }
+      }
+    },
+    {
       "code": "L124",
       "baseCode": "L124",
       "variant": false,
@@ -15100,6 +15598,104 @@
       }
     },
     {
+      "code": "L127C",
+      "baseCode": "L127",
+      "variant": true,
+      "level": "1-primary",
+      "difficulty": "initial",
+      "title": "Una pinça per a cada mitjó",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l127c-q1",
+              "number": 1
+            },
+            {
+              "id": "l127c-q2",
+              "number": 2
+            },
+            {
+              "id": "l127c-q3",
+              "number": 3
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l127c-q1",
+              "number": 1
+            },
+            {
+              "id": "l127c-q2",
+              "number": 2
+            },
+            {
+              "id": "l127c-q3",
+              "number": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L127D",
+      "baseCode": "L127",
+      "variant": true,
+      "level": "2-primary",
+      "difficulty": "advanced",
+      "title": "Una pinça per a cada mitjó",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l127d-q1",
+              "number": 1
+            },
+            {
+              "id": "l127d-q2",
+              "number": 2
+            },
+            {
+              "id": "l127d-q3",
+              "number": 3
+            },
+            {
+              "id": "l127d-q4",
+              "number": 4
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l127d-q1",
+              "number": 1
+            },
+            {
+              "id": "l127d-q2",
+              "number": 2
+            },
+            {
+              "id": "l127d-q3",
+              "number": 3
+            },
+            {
+              "id": "l127d-q4",
+              "number": 4
+            }
+          ]
+        }
+      }
+    },
+    {
       "code": "L128",
       "baseCode": "L128",
       "variant": false,
@@ -15380,6 +15976,112 @@
             {
               "id": "l129b-q6",
               "number": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L129C",
+      "baseCode": "L129",
+      "variant": true,
+      "level": "1-primary",
+      "difficulty": "initial",
+      "title": "L’aigua del gerro",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l129c-q1",
+              "number": 1
+            },
+            {
+              "id": "l129c-q2",
+              "number": 2
+            },
+            {
+              "id": "l129c-q3",
+              "number": 3
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l129c-q1",
+              "number": 1
+            },
+            {
+              "id": "l129c-q2",
+              "number": 2
+            },
+            {
+              "id": "l129c-q3",
+              "number": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L129D",
+      "baseCode": "L129",
+      "variant": true,
+      "level": "2-primary",
+      "difficulty": "advanced",
+      "title": "L’aigua del gerro",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l129d-q1",
+              "number": 1
+            },
+            {
+              "id": "l129d-q2",
+              "number": 2
+            },
+            {
+              "id": "l129d-q3",
+              "number": 3
+            },
+            {
+              "id": "l129d-q4",
+              "number": 4
+            },
+            {
+              "id": "l129d-q5",
+              "number": 5
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l129d-q1",
+              "number": 1
+            },
+            {
+              "id": "l129d-q2",
+              "number": 2
+            },
+            {
+              "id": "l129d-q3",
+              "number": 3
+            },
+            {
+              "id": "l129d-q4",
+              "number": 4
+            },
+            {
+              "id": "l129d-q5",
+              "number": 5
             }
           ]
         }
@@ -16283,6 +16985,104 @@
             {
               "id": "l138b-q6",
               "number": 6
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L138C",
+      "baseCode": "L138",
+      "variant": true,
+      "level": "1-primary",
+      "difficulty": "initial",
+      "title": "Una bústia a la biblioteca",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l138c-q1",
+              "number": 1
+            },
+            {
+              "id": "l138c-q2",
+              "number": 2
+            },
+            {
+              "id": "l138c-q3",
+              "number": 3
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l138c-q1",
+              "number": 1
+            },
+            {
+              "id": "l138c-q2",
+              "number": 2
+            },
+            {
+              "id": "l138c-q3",
+              "number": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "L138D",
+      "baseCode": "L138",
+      "variant": true,
+      "level": "2-primary",
+      "difficulty": "advanced",
+      "title": "Una bústia a la biblioteca",
+      "status": "provisional",
+      "languages": {
+        "es": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l138d-q1",
+              "number": 1
+            },
+            {
+              "id": "l138d-q2",
+              "number": 2
+            },
+            {
+              "id": "l138d-q3",
+              "number": 3
+            },
+            {
+              "id": "l138d-q4",
+              "number": 4
+            }
+          ]
+        },
+        "ca": {
+          "status": "independent-review-passed",
+          "questions": [
+            {
+              "id": "l138d-q1",
+              "number": 1
+            },
+            {
+              "id": "l138d-q2",
+              "number": 2
+            },
+            {
+              "id": "l138d-q3",
+              "number": 3
+            },
+            {
+              "id": "l138d-q4",
+              "number": 4
             }
           ]
         }
