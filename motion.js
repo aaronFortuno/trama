@@ -109,7 +109,7 @@ export function closeDialog(dialog, afterClose) {
 }
 
 export function mountDialogs() {
-  for (const dialog of document.querySelectorAll('.site-dialog')) {
+  for (const dialog of document.querySelectorAll('.site-dialog:not([data-of-v4v])')) {
     dialog.addEventListener('cancel', event => {
       event.preventDefault();
       closeDialog(dialog);

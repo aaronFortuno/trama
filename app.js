@@ -1,3 +1,4 @@
+import { mountV4V } from './ortografi-base/v4v.js?v=0.1.0';
 import { mountCatalog } from './catalog.js';
 import { readings as publicReadings } from './data/readings.js';
 import { mountStudio } from './studio.js';
@@ -306,30 +307,11 @@ document.querySelector('.skip-link').addEventListener('click', (event) => {
   main.focus();
 });
 
-const copyLightning = document.querySelector('#copy-lightning');
-const lightningAddress = document.querySelector('#lightning-address');
-const lightningStatus = document.querySelector('#lightning-copy-status');
-let lightningTimer;
-
-copyLightning.addEventListener('click', async () => {
-  clearTimeout(lightningTimer);
-  try {
-    await navigator.clipboard.writeText(lightningAddress.textContent.trim());
-    copyLightning.classList.add('is-copied');
-    lightningStatus.textContent = t('Adreça Lightning copiada.');
-    lightningTimer = setTimeout(() => {
-      copyLightning.classList.remove('is-copied');
-      lightningStatus.textContent = '';
-    }, 3500);
-  } catch {
-    copyLightning.classList.remove('is-copied');
-    const range = document.createRange();
-    range.selectNodeContents(lightningAddress);
-    const selection = window.getSelection();
-    selection.removeAllRanges();
-    selection.addRange(range);
-    lightningStatus.textContent = t('Adreça seleccionada. Copia-la amb Ctrl+C o ⌘C.');
-  }
+mountV4V(document.getElementById('about-dialog'), document.getElementById('about-open'), {
+  messages: () => ({
+    copied: t('Adreça Lightning copiada.'),
+    manual: t('Adreça seleccionada. Copia-la amb Ctrl+C o ⌘C.'),
+  }),
 });
 
 window.addEventListener('hashchange', route);

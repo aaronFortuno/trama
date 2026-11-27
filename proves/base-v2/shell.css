@@ -1,0 +1,122 @@
+:root {
+  --of-header-height: 64px;
+  --of-footer-height: 48px;
+  --of-gutter: 24px;
+  --of-shell-width: 1680px;
+  --of-gap: 12px;
+  --of-ui-font: system-ui, sans-serif;
+  --of-title-font: Georgia, 'Times New Roman', serif;
+  --of-surface: var(--surface, var(--panel, #fffefa));
+  --of-text: var(--ink, #243a33);
+  --of-muted: var(--muted, var(--quiet, #52645b));
+  --of-border: var(--line, #d8ded2);
+  --of-accent: var(--accent, #a44631);
+}
+
+.of-header, .of-footer {
+  min-inline-size: 0;
+  color: var(--of-text);
+  background: var(--of-surface);
+  font-family: var(--of-ui-font);
+}
+.of-header { border-block-end: 1px solid var(--of-border); }
+.of-footer { border-block-start: 1px solid var(--of-border); }
+.of-header > .of-bar, .of-footer > .of-bar {
+  box-sizing: border-box;
+  width: min(100%, var(--of-shell-width));
+  margin-inline: auto;
+  padding-inline: var(--of-gutter);
+  align-items: center;
+  column-gap: var(--of-gap);
+}
+.of-header > .of-bar { min-block-size: var(--of-header-height); }
+.of-footer > .of-bar { min-block-size: var(--of-footer-height); padding-block: 6px; }
+.of-header .of-tools { display: flex; align-items: center; gap: 6px; }
+.of-header .of-tools > button, .of-header .of-tools > div > button {
+  min-inline-size: 36px;
+  min-block-size: 36px;
+}
+.of-footer .of-signature { justify-self: center; }
+
+.of-v4v {
+  box-sizing: border-box;
+  inline-size: min(900px, calc(100% - 24px));
+  max-block-size: min(86dvh, 760px);
+  padding: 0;
+  color: var(--of-text);
+  background: var(--of-surface);
+  border: 1px solid var(--of-border);
+  border-radius: 14px;
+  font: 0.9375rem/1.55 var(--of-ui-font);
+}
+.of-v4v[open] { display: flex; flex-direction: column; overflow: hidden; }
+.of-v4v::backdrop { background: rgb(15 28 23 / 64%); }
+.of-v4v .of-v4v-heading {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 24px;
+  margin: 0;
+  border-block-end: 1px solid var(--of-border);
+}
+.of-v4v .of-v4v-heading h2 { margin: 0; font: 700 1.375rem/1.2 var(--of-title-font); }
+.of-v4v .of-v4v-heading form { margin: 0; }
+.of-v4v [data-of-close], .of-v4v [data-of-copy] {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  inline-size: 36px;
+  block-size: 36px;
+  padding: 0;
+  border: 1px solid var(--of-border);
+  border-radius: 7px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+.of-v4v :is([data-of-close], [data-of-copy]) svg { inline-size: 17px; block-size: 17px; }
+.of-v4v :is(button, a):focus-visible { outline: 2px solid var(--of-accent); outline-offset: 2px; }
+.of-v4v .of-v4v-scroll { min-block-size: 0; max-block-size: none; overflow: auto; padding: 18px 24px 24px; }
+.of-v4v .of-v4v-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px 24px;
+  align-items: start;
+}
+.of-v4v .of-v4v-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 16px;
+}
+.of-v4v .of-v4v-lead { grid-column: 1 / -1; }
+.of-v4v .of-qr {
+  grid-column: 2;
+  grid-row: 1;
+  inline-size: clamp(78px, 18vw, 120px);
+  block-size: auto;
+  margin: 0;
+  padding: 4px;
+  border: 1px solid var(--of-border);
+  border-radius: 7px;
+  background: white;
+}
+.of-v4v .of-qr img { display: block; inline-size: 100%; block-size: auto; }
+.of-v4v .of-address { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.of-v4v .of-address [data-of-address] { overflow-wrap: anywhere; }
+.of-v4v [data-of-status] { min-block-size: 1.3em; margin: 4px 0 0; color: var(--of-muted); font-size: .8125rem; }
+
+@media (max-width: 640px) {
+  :root { --of-header-height: 52px; --of-footer-height: 44px; --of-gutter: 12px; --of-gap: 8px; }
+  .of-header .of-tools { gap: 3px; }
+  .of-v4v .of-v4v-heading { padding: 10px 14px; }
+  .of-v4v .of-v4v-heading h2 { font-size: 1.125rem; }
+  .of-v4v .of-v4v-scroll { padding: 12px 14px 16px; }
+  .of-v4v .of-v4v-grid { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media print {
+  .of-header, .of-footer, .of-v4v { display: none !important; }
+}
