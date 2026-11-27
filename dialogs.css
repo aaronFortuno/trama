@@ -259,3 +259,4 @@
   .lightning-qr { margin-left: 14px; }
   .dialog-heading h2 { font-size: 1.35rem; }
 }
+.dialog-language-note { margin: 0; padding: 0 24px 12px; color: var(--muted); font-size: .8rem; }

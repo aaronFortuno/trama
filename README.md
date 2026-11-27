@@ -1,6 +1,8 @@
 # Trama
 
-Catàleg de comprensions lectores imprimibles d’ortogra.fi. Inclou fitxes de 2n de primària a 1r d’ESO en castellà i català. La interfície es pot fer servir en català i castellà. Les fitxes mostren els rètols en l’idioma de la lectura quan hi ha una traducció disponible.
+Catàleg de comprensions lectores imprimibles d’ortogra.fi. Inclou fitxes de 2n de primària a 1r d’ESO en castellà i català. La interfície es pot fer servir en català, castellà, gallec i èuscar. Les fitxes mostren els rètols en l’idioma de la lectura quan hi ha una traducció disponible.
+
+La llengua de la interfície i la de les lectures es trien per separat i es recorden. Amb la interfície en gallec o èuscar, el catàleg mostra lectures en castellà si encara no s’ha triat una llengua de lectura. Els maquetats, els noms personals i les col·leccions es conserven en canviar d’idioma. La [guia d’idiomes](docs/interface-languages.md) documenta les traduccions i les comprovacions locals.
 
 El botó d’interrogant de la capçalera obre una guia de cerca, maquetació, col·leccions, solucionaris, impressió i còpies de seguretat. Està disponible des del catàleg i el visor, en l’idioma de la interfície.
 

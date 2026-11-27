@@ -1,5 +1,9 @@
 # Historial de Trama
 
+## 1.64 · 27 de novembre del 2026
+
+Afegim la interfície en gallec i èuscar: catàleg, configurador, col·leccions, plantilles, ajuda i avisos. La llengua de les lectures es tria per separat i conserva la preferència; si no hi ha tria prèvia, les interfícies noves mostren lectures en castellà. Les fitxes i els solucionaris mantenen la llengua del contingut. Umami incorpora les noves tries d’idioma de la interfície, sense ampliar les dades personals recollides.
+
 ## 1.63.8 · 26 de novembre del 2026
 
 L315: El mapa que guardava sons. Nova família de l’univers Els camins de la ribera, amb suport de 4t, referència de 5è i ampliació de 6è, en català i castellà; preguntes textuals i ABCD, solucionari, evidències i dues il·lustracions. L’univers arriba a 15 històries independents. Contingut provisional, pendent de validació docent.

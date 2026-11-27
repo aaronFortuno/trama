@@ -455,8 +455,8 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
       const title = document.createElement('strong');
       const description = document.createElement('p');
       const button = document.createElement('button');
-      title.textContent = world.name[language()] ?? world.name.ca;
-      description.textContent = world.description[language()] ?? world.description.ca;
+      title.textContent = world.name[language()] ?? t(world.name.ca);
+      description.textContent = world.description[language()] ?? t(world.description.ca);
       button.type = 'button';
       button.className = 'button';
       button.textContent = t('Veure les lectures d’aquest univers');

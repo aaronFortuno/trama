@@ -1,14 +1,15 @@
 import { questionFormatPreference } from './question-format-preference.js';
 import { closeDialog, openDialog } from './motion.js';
-import { language, t } from './i18n.js';
+import { defaultReadingLanguage, t } from './i18n.js';
 
 export function mountQuestionFormatDialog({ onChoose }) {
   const dialog = document.querySelector('#question-format-dialog');
   let pending = false;
   function translate() {
+    const sampleLanguage = defaultReadingLanguage();
     for (const image of dialog.querySelectorAll('[data-response-sample]')) {
-      image.src = `assets/examples/question-format-${image.dataset.responseSample}-${language()}.webp`;
-      image.lang = language();
+      image.src = `assets/examples/question-format-${image.dataset.responseSample}-${sampleLanguage}.webp`;
+      image.lang = sampleLanguage;
       image.alt = t(image.dataset.responseSample === 'open'
         ? 'Retall d’una pregunta del full imprimible amb línies per escriure la resposta.'
         : 'La mateixa pregunta amb quatre opcions ABCD i caselles sense marcar.');

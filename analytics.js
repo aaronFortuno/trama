@@ -3,6 +3,7 @@ import { readings } from './data/readings.js';
 import { familyById } from './data/families.js';
 import { universeById } from './data/universes.js';
 import { multipleChoice } from './data/question-choices.js';
+import { languages as interfaceLanguages } from './i18n.js';
 
 const host = 'trama.ortogra.fi';
 const scriptURL = 'https://maquestria.tail72bc84.ts.net:8443/script.js';
@@ -51,7 +52,7 @@ const eventRules = {
     origen: ['cataleg', 'anterior', 'seguent', 'visor'], quantitat: counts,
   } },
   neteja_filtres: { required: ['filtre'], fields: { filtre: ['tots', 'level', 'difficulty', 'theme', 'genre', 'length', 'universe', 'family'] } },
-  canvia_idioma: { required: ['llengua'], fields: { llengua: ['ca', 'es'] } },
+  canvia_idioma: { required: ['llengua'], fields: { llengua: interfaceLanguages } },
 };
 
 export function countBucket(value) {

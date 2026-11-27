@@ -72,6 +72,7 @@ function makeRow(entry, index, last, filtered) {
     <button class="button" type="button" data-template-apply>Aplica</button></div>`;
   const name = templateName(entry);
   row.querySelector('strong').textContent = name;
+  if (!entry.builtin) row.querySelector('strong').setAttribute('translate', 'no');
   row.querySelector('p').textContent = entry.builtin ? `${t('Plantilla per defecte')} · ${describe(entry)}` : describe(entry);
   const edit = row.querySelector('[data-template-edit]');
   if (edit) {

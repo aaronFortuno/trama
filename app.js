@@ -178,6 +178,7 @@ function markLanguage() {
   for (const item of languageMenu.querySelectorAll('[data-option]')) {
     item.setAttribute('aria-checked', String(item.dataset.option === language()));
   }
+  document.querySelector('#changelog-language-note').hidden = ['ca', 'es'].includes(language());
 }
 markLanguage();
 mountActionMenu(document.querySelector('#language-button'), languageMenu, value => {

@@ -1,6 +1,6 @@
 import { animateRefresh, closeDialog, mountDisclosures, openDialog, setDisclosure } from './motion.js';
 import { placeMenu, syncSelects } from './select-menu.js';
-import { language, languages, t } from './i18n.js';
+import { defaultReadingLanguage, language, languages, t } from './i18n.js';
 import { collectionsKey, listCollections, moveCollectionReading, removeCollection, removeCollectionReading, saveCollectionEntries } from './collections.js';
 import { mountCatalogGestures } from './catalog-gestures.js';
 import { universes } from './data/universes.js';
@@ -162,7 +162,7 @@ export function mountCatalog({ root, readings, searchInput, resultCounter, onSel
   const availableLanguages = new Set(readings.map(reading => reading.language));
   let languagePreference = savedPreference(catalogLanguageKey);
   if (!availableLanguages.has(languagePreference)) languagePreference = null;
-  languageField.value = languagePreference ?? language();
+  languageField.value = languagePreference ?? defaultReadingLanguage(availableLanguages);
   const levelField = root.querySelector('#filter-level');
   const grid = root.querySelector('#reading-grid');
   const resultCount = resultCounter ?? root.querySelector('#result-count');
@@ -827,7 +827,7 @@ export function mountCatalog({ root, readings, searchInput, resultCounter, onSel
     },
     translate() {
       reset.setAttribute('aria-label', t('Neteja la cerca i els filtres'));
-      if (!languagePreference) languageField.value = language();
+      if (!languagePreference) languageField.value = defaultReadingLanguage(availableLanguages);
       syncCollections();
       render({ translated: true });
     },
