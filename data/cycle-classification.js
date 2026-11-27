@@ -1,8 +1,9 @@
-// Editorial cycle classification, 2026-11-27. Codes identify editions, not languages.
+// Editorial cycle classification v2, 2026-11-27; teacher corrections in v1.65.1.
+// Codes identify editions, not languages.
 // Original grade/difficulty fields and all reading content remain unchanged.
 // Criteria and boundary decisions: docs/cycle-classification.md.
 export const cycleAssignments = [
-  ['primary-cycle-1', 'initial', [
+  ['primary-cycle-1', 'intermediate', [
     'L104A', 'L105A', 'L106A', 'L107A', 'L108A', 'L109A', 'L110A', 'L111A', 'L112A', 'L113A', 'L123A', 'L125A',
     'L126A', 'L127A', 'L128A', 'L129A', 'L130A', 'L133A', 'L136A', 'L138A', 'L139A', 'L140A', 'L141A', 'L145A',
     'L148A', 'L149A', 'L150A', 'L155A',
@@ -63,18 +64,18 @@ export const cycleAssignments = [
     'L004B', 'L008B', 'L082', 'L083', 'L084', 'L085', 'L086', 'L087', 'L088', 'L089', 'L090', 'L091',
     'L092', 'L093', 'L094', 'L095', 'L096', 'L162B', 'L206', 'L259', 'L261', 'L263', 'L314B', 'L315B',
   ]],
-  ['1-secondary', 'initial', [
+  ['secondary-cycle-1', 'initial', [
     'L082B', 'L083B', 'L084B', 'L085B', 'L086B', 'L087B', 'L088B', 'L089B', 'L090B', 'L091B', 'L092B', 'L093B',
     'L094B', 'L095B', 'L096B', 'L202B', 'L203B', 'L204B', 'L205B', 'L206B', 'L207B', 'L208', 'L209', 'L210',
     'L211', 'L212', 'L213', 'L214', 'L215', 'L216', 'L217', 'L218', 'L219', 'L220', 'L221', 'L222',
     'L246', 'L247', 'L248',
   ]],
-  ['1-secondary', 'intermediate', [
+  ['secondary-cycle-1', 'intermediate', [
     'L097', 'L223', 'L224', 'L225', 'L226', 'L227', 'L228', 'L229', 'L230', 'L231', 'L232', 'L233',
     'L234', 'L235', 'L236', 'L269', 'L270', 'L271', 'L272', 'L273', 'L274', 'L275', 'L276', 'L277',
     'L278', 'L279', 'L280B', 'L281B', 'L282B', 'L283B', 'L284B', 'L285B', 'L286B', 'L287B', 'L288B',
   ]],
-  ['1-secondary', 'advanced', [
+  ['secondary-cycle-1', 'advanced', [
     'L098', 'L099', 'L100', 'L101', 'L102', 'L103', 'L237', 'L238', 'L239', 'L240', 'L241', 'L242',
     'L243', 'L244', 'L245', 'L269B', 'L270B', 'L271B', 'L272B', 'L273B', 'L274B', 'L275B', 'L276B', 'L277B',
     'L278B', 'L279B',

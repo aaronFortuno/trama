@@ -1,6 +1,6 @@
 # Classificació per cicles
 
-Model editorial de v1.65, del 27 de novembre del 2026. Primària es presenta per **primer cicle (1r–2n), segon cicle (3r–4t) i tercer cicle (5è–6è)**. Secundària conserva **1r d’ESO**, l’abast del material actual. La dificultat s’interpreta dins de cada cicle.
+Model editorial de v1.65, corregit a v1.65.1 el 27 de novembre del 2026. Primària es presenta per **primer cicle (1r–2n), segon cicle (3r–4t) i tercer cicle (5è–6è)**. A Trama, **primer cicle d’ESO** agrupa **1r i 2n**, i el segon cicle queda preparat per a 3r i 4t. La dificultat s’interpreta dins de cada cicle.
 
 La gradació per cicles és coherent amb l’organització del [currículum de primària de la XTEC](https://xtec.gencat.cat/ca/curriculum/primaria/curriculum-175-2022/). Les franges de Trama són orientacions editorials pròpies, ajustables amb la validació docent i els avisos de la comunitat.
 
@@ -10,13 +10,13 @@ Es valoren conjuntament llenguatge i sintaxi, densitat d’informació, abstracc
 
 | Cicle | Inicial | Intermèdia | Avançada |
 | --- | --- | --- | --- |
-| Primer, 1r–2n | Frases i paràgrafs molt breus, referents clars, lèxic proper i localització directa. Seqüències curtes i respostes literals. | Lectura més sostinguda, petits enllaços causals o temporals i alguna inferència pròxima, amb context clar. | Integrar diversos detalls, vocabulari menys immediat explicat al context i justificacions senzilles, dins de la lectura primerenca. |
+| Primer, 1r–2n | Inici de la lectura autònoma: frases aïllades o textos mínims, una informació cada vegada i vocabulari molt proper. | Textos i paràgrafs breus amb diversos detalls explícits, seqüències curtes i preguntes directes. El 2n inicial original és l’ancoratge de partida d’aquesta franja. | Lectura més sostinguda, connexions causals o temporals, integració de detalls i justificacions senzilles, dins de la lectura primerenca. |
 | Segon, 3r–4t | Situacions accessibles, poca informació simultània i preguntes literals o inferències guiades amb pistes properes. | Relacionar causes, passos o idees de fragments diferents; explicar decisions, aplicar una regla o reconèixer la funció d’un element. | Integrar pistes separades, distingir explicacions, interpretar un model o un contrafactual i justificar amb diverses proves adequades al cicle. |
 | Tercer, 5è–6è | Organització clara, lèxic contextualitzat i relacions pròximes entre dades, causes i resultats. | Seguir diversos moments o perspectives, integrar dades i explicar inferències; les relacions principals continuen sustentades de manera visible al text. | Demanda sostinguda en almenys dues dimensions: model conceptual, ordres o perspectives diferents, dades separades, inferències no resoltes directament, límits d’una analogia, transferència o justificació amb diverses proves. |
 
 En avançada, els distractors ABCD disponibles també han d’exigir lectura acurada. Les adaptacions personals de format o preguntes no canvien la classificació editorial de la fitxa completa.
 
-Les 28 lectures actuals del primer cicle són suports molt accessibles de 2n: 48–72 paraules i quatre preguntes literals, d’opinió directa o vocabulari immediat. Es classifiquen com a inicials de cicle. No s’han fabricat altres franges per equilibrar recomptes. A ESO es conserva la gradació existent, relativa a 1r d’ESO.
+Les 28 lectures actuals del primer cicle són suports de 2n inicial: 48–72 paraules i quatre preguntes literals, d’opinió directa o vocabulari immediat. Per indicació docent explícita, a v1.65.1 passen a **intermèdia del primer cicle**. La referència és tot el cicle, inclòs l’inici de 1r. Inicial i avançada continuen pendents. El bloc d’ESO es presenta com a primer cicle (1r–2n), mantenint les franges de les fitxes actuals.
 
 ## Migració i revisió
 
@@ -25,6 +25,8 @@ Ancoratges de partida:
 - 3r/5è inicial o intermedi → inicial del cicle corresponent.
 - 3r/5è avançat i 4t/6è inicial o intermedi → intermedi del cicle corresponent.
 - 4t/6è avançat → avançat del cicle corresponent.
+
+La correcció docent de v1.65.1 fixa **2n inicial → primer cicle intermedi**, tant per al registre públic com per als imports personals antics. A ESO, 1r i 2n comparteixen `secondary-cycle-1`; 3r i 4t, `secondary-cycle-2`.
 
 Són ancoratges de migració, no equivalències obligatòries per al material futur. Una revisió independent va contrastar individualment **43 codis en les dues llengües: 86 versions, 660 preguntes obertes amb solucionari i 478 alternatives ABCD**. Va llegir textos i preguntes complets de la mostra de frontera i va justificar dotze excepcions:
 
@@ -35,6 +37,8 @@ Són ancoratges de migració, no equivalències obligatòries per al material fu
 Els motius concrets són a `data/cycle-classification.js`. L038 conserva avançada per distingir quantitat, volum i pes i interpretar un contrafactual. L280, L284, L286 i L298B continuen intermèdies malgrat l’extensió: les relacions principals són explícites. L309B aplica regles i sumes ja donades; el nombre d’inferències tipificades no justifica promocionar-la.
 
 El [registre de la mostra](cycle-classification-review-2026-11-27.json) conserva identificadors, classificació i empremtes dels inputs llegits. **La resta del catàleg segueix els ancoratges editorials; no s’afirma una revisió individual nova de les 627 fitxes.** S’han comprovat en totes les peces cobertura, correspondència entre idiomes i ordre de les 156 famílies. La validació docent continua oberta.
+
+El registre de la mostra conserva la conclusió independent original i, per als sis inputs afectats, afegeix `teacherClassification` amb la correcció docent posterior a intermèdia. Les empremtes dels textos i preguntes continuen sent les mateixes.
 
 ## Dades, formats i persistència
 
@@ -55,7 +59,7 @@ Filtres, targetes, tria de variants, veïnes i comparador mostren cicle i dificu
 | Primer cicle | ≤55 | 56–80 | ≥81 |
 | Segon cicle | ≤140 | 141–220 | ≥221 |
 | Tercer cicle | ≤260 | 261–380 | ≥381 |
-| 1r d’ESO | ≤375 | 376–475 | ≥476 |
+| Primer cicle d’ESO | ≤375 | 376–475 | ≥476 |
 
 Aquests intervals editorials són independents de la dificultat. Una edició pot variar lleugerament d’extensió entre idiomes sense canviar de dificultat.
 

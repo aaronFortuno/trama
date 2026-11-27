@@ -43,7 +43,7 @@ const lengthLimits = new Map([
   ['primary-cycle-1', { shortMax: 55, mediumMax: 80 }],
   ['primary-cycle-2', { shortMax: 140, mediumMax: 220 }],
   ['primary-cycle-3', { shortMax: 260, mediumMax: 380 }],
-  ['1-secondary', { shortMax: 375, mediumMax: 475 }],
+  ['secondary-cycle-1', { shortMax: 375, mediumMax: 475 }],
 ]);
 
 export function labelFor(facet, value, locale = language()) {

@@ -34,7 +34,19 @@ const origin = 'http://127.0.0.1:4219';
     const close=async id=>{await page.locator(`${id} [data-close-dialog]`).first().click();await page.locator(id).waitFor({state:'hidden'});};
     const locale=async value=>{await page.locator('#language-button').click();await page.locator(`#language-menu [data-option="${value}"]`).click();};
     await page.goto(origin);await page.locator('#reading-grid .reading-card').first().waitFor();
-    assert.deepEqual(await page.locator('#filter-level option').evaluateAll(options=>options.map(option=>option.value)),['','primary-cycle-1','primary-cycle-2','primary-cycle-3','1-secondary']);
+    assert.deepEqual(await page.locator('#filter-level option').evaluateAll(options=>options.map(option=>option.value)),['','primary-cycle-1','primary-cycle-2','primary-cycle-3','secondary-cycle-1']);
+    await change('#filter-level','primary-cycle-1');await change('#filter-difficulty','intermediate');
+    await page.waitForFunction(()=>document.querySelector('#result-count').textContent.startsWith('28 '));
+    assert.equal(await page.locator('#filter-difficulty option[value="initial"]').evaluate(option=>option.disabled),true);
+    assert.equal(await page.locator('#filter-difficulty option[value="advanced"]').evaluate(option=>option.disabled),true);
+    await change('#filter-level','secondary-cycle-1');await change('#filter-difficulty','advanced');
+    await page.waitForFunction(()=>document.querySelector('#result-count').textContent.startsWith('26 '));
+    const esoLabels={ca:'Primer cicle d’ESO · 1r–2n',es:'Primer ciclo de ESO · 1.º–2.º',gl:'Primeiro ciclo de ESO · 1.º–2.º',eu:'DBHko 1. zikloa · 1.–2.'};
+    for(const [language,label]of Object.entries(esoLabels)){
+      await locale(language);
+      assert.equal(await page.locator('#filter-level option[value="secondary-cycle-1"]').getAttribute('data-label'),label);
+    }
+    await locale('ca');
     await change('#filter-level','primary-cycle-2');await change('#filter-difficulty','advanced');
     await page.waitForFunction(()=>document.querySelector('#result-count').textContent.startsWith('15 '));
     await search('L038');await page.locator('#reading-grid .card-code').filter({hasText:'L038'}).waitFor();

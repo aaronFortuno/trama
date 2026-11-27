@@ -812,7 +812,11 @@
         "difficulty": "initial"
       },
       "result": "classification-review-passed",
-      "sha256": "675de677159dfae2a76313b289fda3d0b103c3bbcd9ae7e78a70cacab2819ae9"
+      "sha256": "675de677159dfae2a76313b289fda3d0b103c3bbcd9ae7e78a70cacab2819ae9",
+      "teacherClassification": {
+        "level": "primary-cycle-1",
+        "difficulty": "intermediate"
+      }
     },
     {
       "id": "el-banco-mojado-a-ca",
@@ -823,7 +827,11 @@
         "difficulty": "initial"
       },
       "result": "classification-review-passed",
-      "sha256": "01ff5c1e54a467973689bbec114233cebf2960f07012b4fa75c9207a5130698c"
+      "sha256": "01ff5c1e54a467973689bbec114233cebf2960f07012b4fa75c9207a5130698c",
+      "teacherClassification": {
+        "level": "primary-cycle-1",
+        "difficulty": "intermediate"
+      }
     },
     {
       "id": "el-sobre-de-las-dos-entradas-a-es",
@@ -856,7 +864,11 @@
         "difficulty": "initial"
       },
       "result": "classification-review-passed",
-      "sha256": "a9cbd7b48b13ab7e5362856c51a5dbc9ea299852aa74e916fe4dff0760a67b81"
+      "sha256": "a9cbd7b48b13ab7e5362856c51a5dbc9ea299852aa74e916fe4dff0760a67b81",
+      "teacherClassification": {
+        "level": "primary-cycle-1",
+        "difficulty": "intermediate"
+      }
     },
     {
       "id": "doce-sillas-y-dos-bancos-a-ca",
@@ -867,7 +879,11 @@
         "difficulty": "initial"
       },
       "result": "classification-review-passed",
-      "sha256": "7db130840a88bc70d793d7fb25ea84a789b8d920a1d7e5ded3c1f4a808e09a69"
+      "sha256": "7db130840a88bc70d793d7fb25ea84a789b8d920a1d7e5ded3c1f4a808e09a69",
+      "teacherClassification": {
+        "level": "primary-cycle-1",
+        "difficulty": "intermediate"
+      }
     },
     {
       "id": "letras-al-reves-b-es",
@@ -944,7 +960,11 @@
         "difficulty": "initial"
       },
       "result": "classification-review-passed",
-      "sha256": "4a72d5b7692f0fadc6efca15e2b054ab78a980a5c58f7abc4cf1aa0d9df50b1f"
+      "sha256": "4a72d5b7692f0fadc6efca15e2b054ab78a980a5c58f7abc4cf1aa0d9df50b1f",
+      "teacherClassification": {
+        "level": "primary-cycle-1",
+        "difficulty": "intermediate"
+      }
     },
     {
       "id": "un-vaso-para-medir-a-ca",
@@ -955,7 +975,20 @@
         "difficulty": "initial"
       },
       "result": "classification-review-passed",
-      "sha256": "81ea4ad1fd865999ae4c87e22e6252d366f769292f2315b16de5def529eb4fac"
+      "sha256": "81ea4ad1fd865999ae4c87e22e6252d366f769292f2315b16de5def529eb4fac",
+      "teacherClassification": {
+        "level": "primary-cycle-1",
+        "difficulty": "intermediate"
+      }
+    }
+  ],
+  "currentClassificationVersion": 2,
+  "amendments": [
+    {
+      "date": "2026-11-27",
+      "version": "1.65.1",
+      "authority": "teacher instruction",
+      "scope": "The 28 original 2nd-grade initial editions are intermediate within the full first primary cycle. Original independent-review decisions and content hashes are retained."
     }
   ]
 }

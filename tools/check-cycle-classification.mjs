@@ -28,7 +28,7 @@ for (const reading of readings) {
   assert.deepEqual(item.facets.level, [classification.level]);
   assert.deepEqual(item.facets.difficulty, [classification.difficulty]);
 }
-const cycleRank = ['primary-cycle-1','primary-cycle-2','primary-cycle-3','1-secondary'];
+const cycleRank = ['primary-cycle-1','primary-cycle-2','primary-cycle-3','secondary-cycle-1','secondary-cycle-2'];
 const bands = ['initial','intermediate','advanced'];
 for (const family of families) for (const language of ['ca','es']) {
   const first = readings.find(reading => reading.familyId === family.id && reading.language === language);
@@ -38,7 +38,7 @@ for (const family of families) for (const language of ['ca','es']) {
 }
 const cases = { L143: 'intermediate', L021: 'intermediate', L027: 'intermediate', L038: 'advanced',
   L008A: 'intermediate', L035: 'intermediate', L057B: 'intermediate', L202: 'intermediate',
-  L206: 'advanced', L280: 'intermediate', L314B: 'advanced', L315B: 'advanced', L104A: 'initial' };
+  L206: 'advanced', L280: 'intermediate', L314B: 'advanced', L315B: 'advanced', L104A: 'intermediate' };
 for (const [code, difficulty] of Object.entries(cases)) assert.equal(readingDifficulty(readings.find(reading => reading.code === code)), difficulty);
 for (const [code, note] of Object.entries(cycleClassificationNotes)) assert.equal(classificationByCode.get(code).difficulty, note.difficulty);
 const es = indexed.filter(item => item.reading.language === 'es');
@@ -79,7 +79,16 @@ for (const record of review.readings) {
   const reading = readings.find(reading=>reading.id===record.id);
   const choices = reading.questions.map(question=>multipleChoice(reading,question)??null);
   assert.equal(createHash('sha256').update(JSON.stringify({reading,choices})).digest('hex'),record.sha256,`${record.id}: calibration sample changed`);
-  assert.deepEqual(classificationFor(reading),record.classification);
+  assert.deepEqual(classificationFor(reading),record.teacherClassification ?? record.classification);
 }
+const early=readings.filter(reading=>reading.level==='2-primary');
+assert.equal(early.length,56);
+assert(early.every(reading=>readingDifficulty(reading)==='intermediate'));
+assert.equal(classificationFor({...reading,personal:true,level:'2-primary',difficulty:'initial'}).difficulty,'intermediate');
+for(const reading of readings.filter(reading=>reading.level==='1-secondary')){
+  assert.equal(readingLevel(reading),'secondary-cycle-1');
+  assert.equal(readingDifficulty(reading),reading.difficulty);
+}
+assert.equal(cycleForReference('2-secondary'),'secondary-cycle-1');
 console.log(JSON.stringify({classified:classificationByCode.size,languageEditions:readings.length,families:families.length,
   reviewedLanguageEditions:review.readings.length,content:'unchanged',layouts:'preserved',analytics:'cycles and reference metadata separated'}));

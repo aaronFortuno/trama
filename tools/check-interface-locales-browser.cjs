@@ -131,12 +131,13 @@ const origin = 'http://127.0.0.1:4218';
       await page.locator('#changelog-open').click();
       assert.equal(await page.locator('#changelog-language-note').isVisible(), true);
       assert.equal(await page.locator('.release').nth(0).getAttribute('lang'), locale);
-      assert.equal(await page.locator('.release').nth(2).getAttribute('lang'), 'ca');
+      const oldRelease=page.locator('.release').filter({has:page.locator('h3').filter({hasText:/^v1\.63\.8$/})});
+      assert.equal(await oldRelease.getAttribute('lang'), 'ca');
       await close('#changelog-dialog');
       await changeLanguage('es');
       await page.locator('#changelog-open').click();
       assert.equal(await page.locator('#changelog-language-note').isVisible(), false);
-      assert.equal(await page.locator('.release').nth(2).getAttribute('lang'), 'es');
+      assert.equal(await oldRelease.getAttribute('lang'), 'es');
       await close('#changelog-dialog');
       await changeLanguage(locale);
 

@@ -1,5 +1,7 @@
 # Seguiment d’ús de Trama
 
+A **v1.65.1**, el primer cicle d’ESO s’identifica com a `secondary-cycle-1` (1r–2n), i les 28 lectures de primer cicle de primària passen a `dificultat_cicle: intermediate` per indicació docent. `nivell: 1-secondary` continua sent la referència històrica de les fitxes d’ESO.
+
 Des de **v1.65**, la navegació principal de primària és per cicles. Els esdeveniments de lectura, preparació de documents i avisos afegeixen `cicle` (`primary-cycle-1`, `primary-cycle-2`, `primary-cycle-3` o `1-secondary`) i `dificultat_cicle`. Conserven `nivell` i `dificultat` amb els valors originals per curs, per comparar l’històric. Les cerques i filtres nous utilitzen `cicle` i `dificultat_cicle` com a context; `filtre: level` té ara valors de cicle. No es reinterpreten retroactivament les dades anteriors. Vegeu els [criteris](cycle-classification.md).
 
 Des de la versió 1.43; context de cerca i famílies ampliat a la 1.48 i recompte de recursos preparats a la 1.62.9. L’objectiu és orientar les millores del projecte: quines lectures interessen i quines eines s’utilitzen. La implementació és a `analytics.js` i valida els esdeveniments abans de passar-los al tracker i abans d’enviar-los.
