@@ -26,6 +26,8 @@ Organitzem primària per cicles i recalibrem la dificultat amb criteris de text 
 
 ## Pendent de publicar
 
+- Les targetes de la mostra obren fitxes i solucionaris ficticis al maquetador de la v2. Els avisos de prova es confirmen dins de la mostra.
+
 - La mostra del maquetador a `/proves/base-v2/` incorpora el selector de document, el zoom, la impressió i la bandera de notificació del visor compartit.
 
 - La mostra afegeix un maquetador amb un fragment imprimible, els controls comuns i el lateral del catàleg.
