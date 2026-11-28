@@ -1,28 +1,29 @@
-import { mountV4V } from './v4v.js?v=0.10.0';
-import { mountChangelog } from './changelog.js?v=0.10.0';
-import { mountLicense } from './license.js?v=0.10.0';
-import { changelogCopy, projectCopy } from './preview-copy.js?v=0.10.0';
-import { mountGalleryPreview } from './gallery-preview.js?v=0.10.0';
-import { formatCatalogCount, galleryLabels, mountGalleryHelp, mountGallerySearch } from './gallery-controls.js?v=0.10.0';
-import { localiseGalleryHelp, projectNames } from './gallery-help-copy.js?v=0.10.0';
-import { createLanguagePreference, createThemePreference } from './interface-preferences.js?v=0.10.0';
+import { mountV4V } from './v4v.js?v=0.11.0';
+import { mountChangelog } from './changelog.js?v=0.11.0';
+import { mountLicense } from './license.js?v=0.11.0';
+import { changelogCopy, projectCopy } from './preview-copy.js?v=0.11.0';
+import { mountGalleryPreview } from './gallery-preview.js?v=0.11.0';
+import { formatCatalogCount, galleryLabels, mountGalleryHelp, mountGallerySearch } from './gallery-controls.js?v=0.11.0';
+import { localiseGalleryHelp, projectNames } from './gallery-help-copy.js?v=0.11.0';
+import { createLanguagePreference, createThemePreference } from './interface-preferences.js?v=0.11.0';
+import { mountPrintStudy } from './print-study.js?v=0.11.0';
 
 const ca = {
-  website: 'Obre el web actual', changes: 'Historial de versions', close: 'Tanca',
+  website: 'Obre el web actual', changes: 'Historial de versions', close: 'Tanca', printStudy: 'Prova el maquetador',
   language: 'Idioma de la interfície', dark: 'Tema fosc', light: 'Tema clar',
 };
 const strings = {
   ca,
   es: {
-    website: 'Abre la web actual', changes: 'Historial de versiones', close: 'Cierra',
+    website: 'Abre la web actual', changes: 'Historial de versiones', close: 'Cierra', printStudy: 'Prueba el maquetador',
     language: 'Idioma de la interfaz', dark: 'Tema oscuro', light: 'Tema claro',
   },
   gl: {
-    website: 'Abre a web actual', changes: 'Historial de versións', close: 'Pecha',
+    website: 'Abre a web actual', changes: 'Historial de versións', close: 'Pecha', printStudy: 'Proba o maquetador',
     language: 'Idioma da interface', dark: 'Tema escuro', light: 'Tema claro',
   },
   eu: {
-    website: 'Ireki oraingo webgunea', changes: 'Bertsioen historia', close: 'Itxi',
+    website: 'Ireki oraingo webgunea', changes: 'Bertsioen historia', close: 'Itxi', printStudy: 'Probatu maketatzailea',
     language: 'Interfazearen hizkuntza', dark: 'Gai iluna', light: 'Gai argia',
   },
 };
@@ -49,7 +50,10 @@ const head = document.querySelector('.of-gallery-head');
 const count = head.querySelector('[data-total]');
 const helpOpen = head.querySelector('[data-of-help-open]');
 const helpDialog = document.getElementById('help-dialog');
-const updateGallery = mountGalleryPreview(document.querySelector('[data-gallery-preview]'));
+const gallery = document.querySelector('[data-gallery-preview]');
+const study = document.querySelector('[data-print-study]');
+const updateGallery = gallery ? mountGalleryPreview(gallery) : null;
+const updateStudy = study ? mountPrintStudy(study) : null;
 let locale = languageChoice.value;
 const previousMotto = history.state?.ortografiPreviewMotto;
 const mottoOptions = copy.ca.mottos.map((_, index) => index).filter(index => index !== previousMotto);
@@ -67,7 +71,8 @@ function render() {
   const dark = root.dataset.theme === 'dark';
   theme.setAttribute('aria-pressed', String(dark));
   labelled(theme, dark ? messages.light : messages.dark);
-  updateGallery(locale);
+  updateGallery?.(locale);
+  updateStudy?.(locale);
   document.getElementById('motto').textContent = text.mottos[motto];
   count.textContent = formatCatalogCount(project, Number(count.dataset.total), locale);
   const searchToggle = head.querySelector('[data-of-search-toggle]');
