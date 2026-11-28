@@ -7,14 +7,14 @@
   <meta name="theme-color" content="#f8f6ef">
   <title>Trama · Comprensió lectora</title>
   <link rel="icon" href="assets/brand/trama.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?base=0.8.0">
+  <link rel="stylesheet" href="styles.css?base=0.9.0">
   <link rel="stylesheet" href="studio.css">
-  <link rel="stylesheet" href="dialogs.css">
+  <link rel="stylesheet" href="dialogs.css?base=0.9.0">
   <link rel="stylesheet" href="select-menu.css">
   <link rel="stylesheet" href="template-library.css">
-  <script type="module" src="app.js?base=0.8.0"></script>
+  <script type="module" src="app.js?base=0.9.0"></script>
   <link rel="stylesheet" href="./ortografi-base/shell.css?v=0.6.0">
-  <link rel="stylesheet" href="./ortografi-base/gallery.css?v=0.8.0">
+  <link rel="stylesheet" href="./ortografi-base/gallery.css?v=0.9.0">
 </head>
 <body>
   <a class="skip-link" href="#contingut">Ves al contingut</a>
@@ -38,7 +38,7 @@
         </label>
         <div class="header-tools of-tools">
         <button type="button" class="button help-button" data-of-search-toggle aria-label="Cerca al catàleg" title="Cerca al catàleg" aria-controls="catalog-search" aria-expanded="false" popovertarget="catalog-search"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button>
-        <button class="button batch-button" type="button" id="batch-open" data-open-dialog="batch-dialog" aria-label="Imprimeix un lot" title="Imprimeix un lot" aria-haspopup="dialog" aria-controls="batch-dialog">
+        <button class="button batch-button" type="button" id="batch-open" data-of-project-action data-open-dialog="batch-dialog" aria-label="Imprimeix un lot" title="Imprimeix un lot" aria-haspopup="dialog" aria-controls="batch-dialog">
           <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V4h10v5M8 4V2h10v7"/><rect x="3" y="9" width="18" height="9" rx="2"/><path d="M6 18v4h12v-8H6v4m11-6h.01"/></svg>
         </button>
         <button type="button" class="button help-button" id="help-open" data-of-help-open data-open-dialog="help-dialog" aria-label="Com funciona Trama" title="Com funciona Trama" aria-haspopup="dialog" aria-controls="help-dialog">
@@ -81,23 +81,23 @@
         </div>
             <details class="catalog-disclosure" id="catalog-filter-panel" open>
               <summary><span>Filtres<span id="filter-indicator"></span></span><button type="button" id="filters-reset" aria-label="Neteja la cerca i els filtres" title="Neteja la cerca i els filtres" hidden><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m18 6-12 12M6 6l12 12"/></svg></button></summary>
-              <div class="filters-body">
+              <div class="filters-body of-filter-grid">
                 <div class="filter-field"><label for="filter-language">Llengua de les lectures<select id="filter-language" data-facet="language"><option value="ca">Català</option><option value="es">Castellà</option></select></label></div>
                 <div class="filter-field"><label for="filter-level">Nivell<select id="filter-level" data-facet="level"><option value="">Tots</option></select></label></div>
                 <div class="filter-field"><label for="filter-difficulty">Dificultat<select id="filter-difficulty" data-facet="difficulty"><option value="">Totes</option></select></label></div>
-                <div class="filter-field has-help">
+                <div class="filter-field has-help of-filter-wide">
                   <div class="filter-field-heading"><label for="filter-universe">Univers</label>
                   <span class="filter-help"><button type="button" aria-label="Què és un univers?" aria-describedby="universe-help">?</button><span class="filter-help-tip" id="universe-help" role="tooltip" popover="manual">Lectures independents que comparteixen un lloc, uns personatges o un món. Es poden llegir en qualsevol ordre.</span></span>
                   </div>
                   <select id="filter-universe" data-facet="universe"><option value="">Tots</option></select>
                 </div>
-                <div class="filter-family-row">
+                <div class="filter-family-row of-filter-wide">
                   <label class="family-only-filter" for="filter-family"><input id="filter-family" data-facet="family" type="checkbox" value="with-variants"><span>Només lectures amb variants</span></label>
                   <span class="filter-help"><button type="button" aria-label="Què és una família?" aria-describedby="family-help">?</button><span class="filter-help-tip" id="family-help" role="tooltip" popover="manual">Versions d’una mateixa lectura amb textos i preguntes de diferent exigència. Són una mesura de disseny universal per a l’aprenentatge (DUA): permeten treballar amb tot el grup amb materials adaptats a necessitats i capacitats diverses. Les traduccions no compten com a variants.</span></span>
                 </div>
                 <details class="catalog-extra-filters">
                   <summary>Altres filtres<span id="extra-filter-indicator"></span></summary>
-                  <div class="filters-body">
+                  <div class="filters-body of-filter-grid">
                     <div class="filter-field"><label for="filter-length">Extensió (paraules)<select id="filter-length" data-facet="length"><option value="">Totes</option></select></label></div>
                     <div class="filter-field"><label for="filter-theme">Temàtica<select id="filter-theme" data-facet="theme"><option value="">Totes</option></select></label></div>
                     <div class="filter-field"><label for="filter-genre">Tipus de text<select id="filter-genre" data-facet="genre"><option value="">Tots</option></select></label></div>
@@ -776,12 +776,12 @@ the scope of this Creative Commons notice.</pre></div>
     </form>
   </dialog>
 
-  <dialog class="site-dialog help-dialog" id="help-dialog" aria-labelledby="help-title">
+  <dialog class="site-dialog help-dialog of-help" id="help-dialog" aria-labelledby="help-title">
     <div class="dialog-heading">
       <h2 id="help-title" tabindex="-1" data-dialog-focus>Com funciona Trama</h2>
       <button class="button close-button" type="button" data-close-dialog aria-label="Tanca l’ajuda"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
     </div>
-    <div class="dialog-scroll" tabindex="0" role="region" aria-labelledby="help-title">
+    <div class="dialog-scroll of-help-body" tabindex="0" role="region" aria-labelledby="help-title">
       <p class="help-intro">Trama és un projecte gratuït i obert per treballar la comprensió lectora. Hi trobaràs lectures graduades de 2n de primària a 1r d’ESO, en català i castellà, amb il·lustracions, preguntes i solucionaris per imprimir i treballar amb autonomia.</p>
       <div class="help-topics">
         <section>

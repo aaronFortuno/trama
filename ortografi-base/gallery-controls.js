@@ -35,7 +35,8 @@ export function gallerySearchFocusTarget(search) {
 export function mountGallerySearch(head) {
   const panel = head.querySelector('[data-of-search-panel]');
   const trigger = head.querySelector('[data-of-search-toggle]');
-  const search = panel.querySelector('input[type="search"]');
+  const search = panel?.querySelector('input[type="search"]');
+  if (!search || !trigger) return;
   const compact = matchMedia('(max-width: 790px)');
 
   function sync() {

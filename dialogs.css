@@ -40,7 +40,6 @@
 .close-button .ui-icon { width: 18px; height: 18px; }
 .about-dialog, .release-dialog, .batch-dialog, .help-dialog { padding: 24px; }
 .about-dialog { width: min(980px, calc(100% - 32px)); }
-.help-dialog { width: min(1120px, calc(100% - 32px)); }
 .release-dialog { width: min(650px, calc(100% - 32px)); }
 .batch-dialog { width: min(620px, calc(100% - 32px)); }
 :is(.about-dialog, .release-dialog, .batch-dialog, .help-dialog)[open] { display: flex; flex-direction: column; overflow: hidden; }

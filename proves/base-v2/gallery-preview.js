@@ -1,4 +1,4 @@
-import { gallerySearchFocusTarget } from './gallery-controls.js?v=0.8.0';
+import { gallerySearchFocusTarget } from './gallery-controls.js?v=0.9.0';
 
 const copy = {
   ca: { filters: 'Filtres', search: 'Cerca per títol o codi', level: 'Curs', type: 'Tipologia', topicType: 'Temàtica', structure: 'Estructura', allLevels: 'Tots els cursos', allTypes: 'Totes les tipologies', allTopics: 'Totes les temàtiques', allStructures: 'Totes les estructures', reset: 'Esborra els filtres', empty: 'Cap resultat amb aquests filtres.', count: n => `${n} de mostra`, title: { trama: 'Lectures', sentit: 'Comprensions orals', 'mon-a-ma': 'Temes', 'fil-i-compte': 'Problemes' }, worksheet: 'Prepara la fitxa', listening: 'Obre la comprensió', topic: 'Obre el tema', solution: 'Detall del solucionari', region: 'Galeria de mostra' },
@@ -29,7 +29,7 @@ export function mountGalleryPreview(gallery) {
 
   function filter() {
     let visible = 0;
-    const query = normalise(search.value);
+    const query = normalise(search?.value ?? '');
     for (const [index, card] of cards.entries()) {
       card.hidden = !terms[index].includes(query) || selects.some(select => select.value && card.dataset[select.dataset.filter] !== select.value);
       if (!card.hidden) visible++;
@@ -38,12 +38,12 @@ export function mountGalleryPreview(gallery) {
     empty.hidden = visible !== 0;
     counter.value = text.count(visible);
   }
-  search.addEventListener('input', filter);
+  search?.addEventListener('input', filter);
   for (const select of selects) select.addEventListener('change', filter);
   reset.addEventListener('click', () => {
-    search.value = '';
+    if (search) search.value = '';
     for (const select of selects) select.value = '';
-    gallerySearchFocusTarget(search).focus({ preventScroll: true });
+    (search ? gallerySearchFocusTarget(search) : selects[0])?.focus({ preventScroll: true });
     filter();
   });
 
@@ -57,7 +57,7 @@ export function mountGalleryPreview(gallery) {
       if (project === 'fil-i-compte' && key === 'allTypes') key = 'allStructures';
       node.textContent = key === 'title' ? text.title[project] : text[key];
     }
-    search.placeholder = text.search;
+    if (search) search.placeholder = text.search;
     results.setAttribute('aria-label', text.region);
     filter();
   };

@@ -2,6 +2,8 @@
 
 ## Pendent de publicar
 
+- La base dona més amplada als filtres i al quadre «Com funciona», amb controls propis abans de l’ajuda.
+
 - La cerca i el recompte passen a la capçalera del catàleg, amb accés a «Com funciona» i un lateral que ocupa l’alçada disponible.
 
 - El pilot comparteix l’amplada, el lateral i la graella adaptable del catàleg. La galeria conserva les il·lustracions i les piles de variants.

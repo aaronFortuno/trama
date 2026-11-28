@@ -1,4 +1,4 @@
-import { mountDialog } from './dialog.js?v=0.8.0';
+import { mountDialog } from './dialog.js?v=0.9.0';
 
 export const licenseText = {
   ca: { title: 'Llicències', close: 'Tanca', code: 'Codi del projecte', contents: 'Continguts originals', credit: 'Creative Commons Reconeixement 4.0 Internacional.', resources: 'Els recursos de tercers tenen les llicències indicades als crèdits.', credits: 'Consulta els crèdits',

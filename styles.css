@@ -398,7 +398,7 @@ body, .site-header, .site-footer, .catalog-filters, .reading-card, .search-box, 
   .catalog-filters { padding: 0 11px; }
   .catalog-disclosure + .catalog-disclosure { margin-top: 0; padding-top: 0; }
   .catalog-disclosure > summary { padding-block: 10px; }
-  .filters-body { grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 0; padding: 4px 0 13px; }
+  .filters-body { margin: 0; padding: 4px 0 13px; }
   .filter-clear { width: 34px; }
 }
 
@@ -424,7 +424,7 @@ body, .site-header, .site-footer, .catalog-filters, .reading-card, .search-box, 
   .header-tools { gap: 5px; }
   .theme-toggle, .language-button, .help-button, .batch-button { width: 34px; }
   .header-actions .ui-icon { width: 17px; height: 17px; }
-  .filters-body { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 9px; }
+  .filters-body { gap: 8px 9px; }
   .filter-chip { min-height: 31px; }
   .card-body { padding: 13px 14px 11px; }
   .site-footer .site-bar { min-height: 46px; gap: 6px; padding-block: 5px; }

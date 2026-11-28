@@ -1,10 +1,10 @@
-import { mountV4V } from './v4v.js?v=0.8.0';
-import { mountChangelog } from './changelog.js?v=0.8.0';
-import { mountLicense } from './license.js?v=0.8.0';
-import { changelogCopy, projectCopy } from './preview-copy.js?v=0.8.0';
-import { mountGalleryPreview } from './gallery-preview.js?v=0.8.0';
-import { formatCatalogCount, galleryLabels, mountGalleryHelp, mountGallerySearch } from './gallery-controls.js?v=0.8.0';
-import { localiseGalleryHelp, projectNames } from './gallery-help-copy.js?v=0.8.0';
+import { mountV4V } from './v4v.js?v=0.9.0';
+import { mountChangelog } from './changelog.js?v=0.9.0';
+import { mountLicense } from './license.js?v=0.9.0';
+import { changelogCopy, projectCopy } from './preview-copy.js?v=0.9.0';
+import { mountGalleryPreview } from './gallery-preview.js?v=0.9.0';
+import { formatCatalogCount, galleryLabels, mountGalleryHelp, mountGallerySearch } from './gallery-controls.js?v=0.9.0';
+import { localiseGalleryHelp, projectNames } from './gallery-help-copy.js?v=0.9.0';
 
 const ca = {
   website: 'Obre el web actual', changes: 'Historial de versions', close: 'Tanca',
@@ -62,7 +62,8 @@ function render() {
   updateGallery(locale);
   document.getElementById('motto').textContent = text.mottos[motto];
   count.textContent = formatCatalogCount(project, Number(count.dataset.total), locale);
-  labelled(head.querySelector('[data-of-search-toggle]'), galleryLabels(locale).search);
+  const searchToggle = head.querySelector('[data-of-search-toggle]');
+  if (searchToggle) labelled(searchToggle, galleryLabels(locale).search);
   labelled(helpOpen, galleryLabels(locale).help(projectNames[project]));
   document.getElementById('footer-motto').textContent = text.footer;
   for (const node of document.querySelectorAll('[data-message]')) node.textContent = messages[node.dataset.message] ?? changelogCopy[locale][node.dataset.message];

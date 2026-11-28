@@ -78,5 +78,4 @@ body:has(.gallery-preview) { block-size: 100dvh; min-block-size: 0; }
   .gallery-preview { display: block; overflow: auto; }
   .sample-layout { display: grid; }
   .sample-results { overflow: visible; }
-  .sample-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }

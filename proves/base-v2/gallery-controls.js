@@ -1,4 +1,4 @@
-import { mountDialog } from './dialog.js?v=0.8.0';
+import { mountDialog } from './dialog.js?v=0.9.0';
 
 const labels = {
   ca: { search: 'Cerca al catàleg', help: name => `Com funciona ${name}`, close: 'Tanca l’ajuda' },
@@ -35,7 +35,8 @@ export function gallerySearchFocusTarget(search) {
 export function mountGallerySearch(head) {
   const panel = head.querySelector('[data-of-search-panel]');
   const trigger = head.querySelector('[data-of-search-toggle]');
-  const search = panel.querySelector('input[type="search"]');
+  const search = panel?.querySelector('input[type="search"]');
+  if (!search || !trigger) return;
   const compact = matchMedia('(max-width: 790px)');
 
   function sync() {
