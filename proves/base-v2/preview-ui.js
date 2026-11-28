@@ -1,10 +1,11 @@
-import { mountV4V } from './v4v.js?v=0.9.0';
-import { mountChangelog } from './changelog.js?v=0.9.0';
-import { mountLicense } from './license.js?v=0.9.0';
-import { changelogCopy, projectCopy } from './preview-copy.js?v=0.9.0';
-import { mountGalleryPreview } from './gallery-preview.js?v=0.9.0';
-import { formatCatalogCount, galleryLabels, mountGalleryHelp, mountGallerySearch } from './gallery-controls.js?v=0.9.0';
-import { localiseGalleryHelp, projectNames } from './gallery-help-copy.js?v=0.9.0';
+import { mountV4V } from './v4v.js?v=0.10.0';
+import { mountChangelog } from './changelog.js?v=0.10.0';
+import { mountLicense } from './license.js?v=0.10.0';
+import { changelogCopy, projectCopy } from './preview-copy.js?v=0.10.0';
+import { mountGalleryPreview } from './gallery-preview.js?v=0.10.0';
+import { formatCatalogCount, galleryLabels, mountGalleryHelp, mountGallerySearch } from './gallery-controls.js?v=0.10.0';
+import { localiseGalleryHelp, projectNames } from './gallery-help-copy.js?v=0.10.0';
+import { createLanguagePreference, createThemePreference } from './interface-preferences.js?v=0.10.0';
 
 const ca = {
   website: 'Obre el web actual', changes: 'Historial de versions', close: 'Tanca',
@@ -37,12 +38,19 @@ const repoLink = document.querySelector('.of-footer-tools a');
 const root = document.documentElement;
 const project = document.body.dataset.project;
 const copy = projectCopy[project];
+const liveKeys = {
+  trama: { theme: 'trama.theme', language: 'trama.language' },
+  sentit: { theme: 'sentit-theme', language: 'sentit-lang' },
+  'mon-a-ma': { theme: 'mon-a-ma:theme' },
+};
+const themeChoice = createThemePreference(`ortografi:preview:${project}:theme`, { initialKey: liveKeys[project].theme });
+const languageChoice = createLanguagePreference(`ortografi:preview:${project}:language`, options.map(option => option.dataset.language), { initialKey: liveKeys[project].language });
 const head = document.querySelector('.of-gallery-head');
 const count = head.querySelector('[data-total]');
 const helpOpen = head.querySelector('[data-of-help-open]');
 const helpDialog = document.getElementById('help-dialog');
 const updateGallery = mountGalleryPreview(document.querySelector('[data-gallery-preview]'));
-let locale = 'ca';
+let locale = languageChoice.value;
 const previousMotto = history.state?.ortografiPreviewMotto;
 const mottoOptions = copy.ca.mottos.map((_, index) => index).filter(index => index !== previousMotto);
 const motto = mottoOptions[Math.floor(Math.random() * mottoOptions.length)];
@@ -75,7 +83,8 @@ function render() {
 }
 
 theme.addEventListener('click', () => {
-  root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
+  themeChoice.set(themeChoice.value === 'dark' ? 'light' : 'dark');
+  root.dataset.theme = themeChoice.value;
   render();
 });
 menu.addEventListener('toggle', () => {
@@ -99,8 +108,8 @@ menu.addEventListener('click', event => {
   if (!option) return;
   menu.hidePopover();
   language.focus({ preventScroll: true });
-  if (locale === option.dataset.language) return;
-  locale = option.dataset.language;
+  if (!languageChoice.set(option.dataset.language)) return;
+  locale = languageChoice.value;
   root.lang = locale;
   render();
   const duration = Number.parseFloat(getComputedStyle(root).getPropertyValue('--of-motion'));
@@ -115,5 +124,6 @@ mountGallerySearch(head);
 mountGalleryHelp(helpDialog, helpOpen, () => localiseGalleryHelp(helpDialog, project, locale));
 mountLicense(document.getElementById('project-license'), licenseOpen);
 mountV4V(support, document.getElementById('support-open'));
-root.dataset.theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+root.dataset.theme = themeChoice.value;
+root.lang = locale;
 render();

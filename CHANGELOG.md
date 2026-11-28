@@ -26,6 +26,8 @@ Organitzem primària per cicles i recalibrem la dificultat amb criteris de text 
 
 ## Pendent de publicar
 
+- La mostra recorda el tema i l’idioma de la interfície en les visites següents.
+
 - La mostra dona més espai al quadre d’ajuda i als filtres del catàleg.
 
 - La mostra incorpora l’ajuda, la cerca i el recompte a la capçalera i aprofita tota l’alçada del lateral.

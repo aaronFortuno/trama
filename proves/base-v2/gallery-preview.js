@@ -1,4 +1,4 @@
-import { gallerySearchFocusTarget } from './gallery-controls.js?v=0.9.0';
+import { gallerySearchFocusTarget } from './gallery-controls.js?v=0.10.0';
 
 const copy = {
   ca: { filters: 'Filtres', search: 'Cerca per títol o codi', level: 'Curs', type: 'Tipologia', topicType: 'Temàtica', structure: 'Estructura', allLevels: 'Tots els cursos', allTypes: 'Totes les tipologies', allTopics: 'Totes les temàtiques', allStructures: 'Totes les estructures', reset: 'Esborra els filtres', empty: 'Cap resultat amb aquests filtres.', count: n => `${n} de mostra`, title: { trama: 'Lectures', sentit: 'Comprensions orals', 'mon-a-ma': 'Temes', 'fil-i-compte': 'Problemes' }, worksheet: 'Prepara la fitxa', listening: 'Obre la comprensió', topic: 'Obre el tema', solution: 'Detall del solucionari', region: 'Galeria de mostra' },
