@@ -6,12 +6,12 @@
   <meta name="robots" content="noindex">
   <title>Trama · Prova de la base comuna</title>
   <link rel="icon" href="../../assets/brand/trama.svg">
-  <link rel="stylesheet" href="preview.css?v=0.11.0">
-  <link rel="stylesheet" href="shell.css?v=0.11.0">
-  <link rel="stylesheet" href="gallery.css?v=0.11.0">
-  <link rel="stylesheet" href="gallery-preview.css?v=0.11.0">
-  <link rel="stylesheet" href="print-studio.css?v=0.11.0"><link rel="stylesheet" href="print-study.css?v=0.11.0">
-  <script type="module" src="preview-ui.js?v=0.11.0"></script>
+  <link rel="stylesheet" href="preview.css?v=0.12.0">
+  <link rel="stylesheet" href="shell.css?v=0.12.0">
+  <link rel="stylesheet" href="gallery.css?v=0.12.0">
+  <link rel="stylesheet" href="gallery-preview.css?v=0.12.0">
+  <link rel="stylesheet" href="print-studio.css?v=0.12.0"><link rel="stylesheet" href="print-study.css?v=0.12.0">
+  <script type="module" src="preview-ui.js?v=0.12.0"></script>
 </head>
 <body data-project="trama">
   <a class="skip" href="#contingut">Ves al contingut</a>
@@ -76,23 +76,36 @@
     </label></div>
           </details>
         </form>
-        <div class="study-print-action"><button type="button" data-study-print data-t="print">Imprimeix</button></div>
+        <div class="study-print-action" data-of-print-actions><button type="button" data-study-print data-t="print">Imprimeix</button></div>
       </aside>
       <section class="study-preview" aria-labelledby="study-title">
         <div class="study-panel-heading study-preview-heading">
           <div><a href="./" data-t="back">Torna al catàleg</a><h1 id="study-title" lang="ca">El banc moll</h1></div>
-          <div class="study-modes" role="group" data-study-label="document" aria-label="Document">
-            <button type="button" data-study-mode="worksheet" aria-pressed="true" data-t="worksheet">Fitxa</button>
-            <button type="button" data-study-mode="answers" aria-pressed="false" data-t="answers">Solucionari</button>
+          <div class="of-preview-head-actions">
+            <div class="of-preview-modes" data-of-preview-label="document" role="group" aria-label="Document">
+    <button type="button" data-of-preview-mode="worksheet" aria-pressed="true">Fitxa</button>
+    <button type="button" data-of-preview-mode="answers" aria-pressed="false">Solucionari</button>
+  </div>
+            <button type="button" class="of-preview-icon" data-of-report data-of-preview-label="report" aria-label="Notifica un error" title="Notifica un error" aria-haspopup="dialog" aria-controls="study-report-dialog"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 22V4a1 1 0 0 1 .4-.8A6 6 0 0 1 8 2c3 0 5 2 7.333 2q2 0 3.067-.8A1 1 0 0 1 20 4v10a1 1 0 0 1-.4.8A6 6 0 0 1 16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.528"/></svg></button>
           </div>
         </div>
-        <div class="of-print-stage study-stage" tabindex="0" role="region" data-study-label="preview" aria-label="Vista prèvia A4">
-          <article class="study-paper" lang="ca">
-            <header><span>Trama · L104</span><h2>El banc moll</h2></header>
-            <p>Quan va sonar el timbre, ja no plovia. La Júlia i l’Omar van sortir al pati. Portaven un llibre de còmics per llegir junts. Sempre seien al banc verd, al costat del sorral.</p>
-            <ol><li><p>Què portaven al pati la Júlia i l’Omar?</p><p class="study-answer" hidden>Un llibre de còmics.</p><div class="study-lines" aria-hidden="true"></div></li><li><p>Al costat de què era el banc?</p><p class="study-answer" hidden>Al costat del sorral.</p><div class="study-lines" aria-hidden="true"></div></li></ol>
-            <footer>ortogra.fi</footer>
-          </article>
+        <div class="of-preview-viewport study-preview-window">
+          <div class="of-print-stage study-stage" tabindex="0" role="region" data-study-label="preview" aria-label="Vista prèvia A4">
+            <div class="study-pages">
+              <article class="study-paper" lang="ca">
+                <header><span>Trama · L104</span><h2>El banc moll</h2></header>
+                <p>Quan va sonar el timbre, ja no plovia. La Júlia i l’Omar van sortir al pati. Portaven un llibre de còmics per llegir junts. Sempre seien al banc verd, al costat del sorral.</p>
+                <ol><li><p>Què portaven al pati la Júlia i l’Omar?</p><p class="study-answer" hidden>Un llibre de còmics.</p><div class="study-lines" aria-hidden="true"></div></li><li><p>Al costat de què era el banc?</p><p class="study-answer" hidden>Al costat del sorral.</p><div class="study-lines" aria-hidden="true"></div></li></ol>
+                <footer>ortogra.fi</footer>
+              </article>
+            </div>
+          </div>
+          <div class="of-preview-zoom" data-of-preview-label="zoom" role="group" aria-label="Zoom de la previsualització">
+    <button type="button" class="of-preview-icon" data-zoom="out" data-of-preview-label="out" aria-label="Redueix el zoom" title="Redueix el zoom"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/></svg></button>
+<button type="button" class="of-preview-icon" data-zoom="in" data-of-preview-label="in" aria-label="Amplia el zoom" title="Amplia el zoom"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-7-7v14"/></svg></button>
+<button type="button" class="of-preview-icon" data-zoom="fit" data-of-preview-label="fit" aria-label="Ajusta a l’amplada" title="Ajusta a l’amplada"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3H5a2 2 0 0 0-2 2v3m13-5h3a2 2 0 0 1 2 2v3m0 8v3a2 2 0 0 1-2 2h-3M8 21H5a2 2 0 0 1-2-2v-3"/></svg></button>
+    <output class="of-sr-only" data-of-preview-label="zoomValue" aria-label="Nivell de zoom">100 %</output>
+  </div>
         </div>
       </section>
       <aside class="study-panel study-companion">
@@ -103,13 +116,24 @@
         </div>
       </aside>
     </div>
+    <dialog class="of-dialog study-report" id="study-report-dialog" aria-labelledby="study-report-title">
+      <div class="of-v4v-heading">
+        <h2 id="study-report-title" data-t="report">Notifica un error</h2>
+        <button type="button" data-of-close data-study-label="close" aria-label="Tanca">×</button>
+      </div>
+      <div class="of-v4v-scroll">
+        <p lang="ca"><strong>El banc moll</strong></p>
+        <p data-t="reportSample">Obre el material al web per enviar-hi un avís.</p>
+        <a href="../../#lectura=el-banco-mojado-ca" data-t="open">Obre el material al web</a>
+      </div>
+    </dialog>
   </main>
   <footer class="of-footer">
     <div class="of-bar preview-footer">
       <p class="footer-context" id="footer-motto"></p>
       <a class="of-signature" href="https://ortogra.fi/" aria-label="ortogra.fi"><svg viewBox="0 0 48 48" width="22" height="22" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><circle cx="22" cy="28" r="14"/><path d="m27 9 7-6"/></svg><span>ortogra<span class="accent">.</span>fi</span></a>
       <div class="of-footer-tools">
-          <button type="button" class="of-footer-action" id="changes-open" aria-haspopup="dialog" aria-controls="changes" aria-label="v0.11.0 · Historial de versions" title="Historial de versions"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" x2="6" y1="3" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg><span class="of-footer-label">v0.11.0</span></button>
+          <button type="button" class="of-footer-action" id="changes-open" aria-haspopup="dialog" aria-controls="changes" aria-label="v0.12.0 · Historial de versions" title="Historial de versions"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" x2="6" y1="3" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg><span class="of-footer-label">v0.12.0</span></button>
           <button type="button" class="of-footer-action" id="license-open" aria-haspopup="dialog" aria-controls="project-license" aria-label="Llicència" title="Llicència"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v16"/><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z"/></svg><span class="of-footer-label" data-message="license">Llicència</span></button>
           <a class="of-footer-action" href="https://github.com/aaronFortuno/trama" target="_blank" rel="noopener noreferrer" aria-label="Repositori" title="Repositori"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><line x1="3" x2="9" y1="12" y2="12"/><line x1="15" x2="21" y1="12" y2="12"/></svg><span class="of-footer-label" data-message="repo">Repositori</span></a>
           <button type="button" class="of-footer-action" id="support-open" aria-haspopup="dialog" aria-controls="support" aria-label="V4V · Value for Value" title="Value for Value"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762"/></svg><span class="of-footer-label">V4V</span></button>

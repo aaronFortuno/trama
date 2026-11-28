@@ -42,7 +42,7 @@ const base = 'http://127.0.0.1:4206/';
     await page.reload({ waitUntil: 'domcontentloaded' });
     await question(1).waitFor();
     assert.equal(await page.locator('#studio-pages .worksheet-choice').count(), 12, 'layout survives reload');
-    await page.locator('#studio-solution').check();
+    await page.locator('[data-of-preview-mode="answers"]').click();
     assert.equal(await question(1).locator('.worksheet-solution-label').textContent().then(value => value.includes('Resposta correcta')), true);
     assert((await question(1).locator('.worksheet-solution p').textContent()).startsWith('B.'));
     assert.equal(await page.locator('#studio-pages .worksheet-choice.is-correct').count(), 3);
@@ -119,7 +119,7 @@ const base = 'http://127.0.0.1:4206/';
 
     await page.goto(base + '#lectura=' + id, { waitUntil: 'domcontentloaded' });
     await question(1).waitFor();
-    await page.locator('#studio-solution').check();
+    await page.locator('[data-of-preview-mode="answers"]').click();
     if (process.env.TRAMA_SCREENSHOTS) {
       fs.mkdirSync(process.env.TRAMA_SCREENSHOTS, { recursive: true });
       await page.screenshot({ path: path.join(process.env.TRAMA_SCREENSHOTS, 'trama-abcd-desktop.png') });

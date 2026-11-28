@@ -1,12 +1,12 @@
-import { mountV4V } from './v4v.js?v=0.11.0';
-import { mountChangelog } from './changelog.js?v=0.11.0';
-import { mountLicense } from './license.js?v=0.11.0';
-import { changelogCopy, projectCopy } from './preview-copy.js?v=0.11.0';
-import { mountGalleryPreview } from './gallery-preview.js?v=0.11.0';
-import { formatCatalogCount, galleryLabels, mountGalleryHelp, mountGallerySearch } from './gallery-controls.js?v=0.11.0';
-import { localiseGalleryHelp, projectNames } from './gallery-help-copy.js?v=0.11.0';
-import { createLanguagePreference, createThemePreference } from './interface-preferences.js?v=0.11.0';
-import { mountPrintStudy } from './print-study.js?v=0.11.0';
+import { mountV4V } from './v4v.js?v=0.12.0';
+import { mountChangelog } from './changelog.js?v=0.12.0';
+import { mountLicense } from './license.js?v=0.12.0';
+import { changelogCopy, projectCopy } from './preview-copy.js?v=0.12.0';
+import { mountGalleryPreview } from './gallery-preview.js?v=0.12.0';
+import { formatCatalogCount, galleryLabels, mountGalleryHelp, mountGallerySearch } from './gallery-controls.js?v=0.12.0';
+import { localiseGalleryHelp, projectNames } from './gallery-help-copy.js?v=0.12.0';
+import { createLanguagePreference, createThemePreference } from './interface-preferences.js?v=0.12.0';
+import { mountPrintStudy } from './print-study.js?v=0.12.0';
 
 const ca = {
   website: 'Obre el web actual', changes: 'Historial de versions', close: 'Tanca', printStudy: 'Prova el maquetador',

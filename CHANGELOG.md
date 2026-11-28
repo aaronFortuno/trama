@@ -2,6 +2,8 @@
 
 ## Pendent de publicar
 
+- El visor situa el selector de fitxa i solucionari i la bandera de notificació a la capçalera. El zoom és a sota a la dreta i es pot imprimir des del lateral esquerre o sota el visor en pantalles estretes.
+
 - El maquetador posa la tipografia, el cos de lletra, l’interlineat, l’espaiat i els marges al lateral esquerre, amb la mateixa amplada que al catàleg.
 
 - El pilot recorda el tema i l’idioma de la interfície des de la primera visita i manté les preferències que ja estaven desades.

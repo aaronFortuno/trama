@@ -11,6 +11,8 @@
 - Col·loca el format del full al lateral esquerre del maquetador amb l’amplada del filtre del catàleg. La vista prèvia ocupa el centre i els controls específics tenen espai propi.
 - Fes servir `printFields` per mantenir l’ordre de la tipografia, el cos de lletra, l’interlineat i l’espaiat. A sota, agrupa els marges en l’ordre superior, dret, inferior i esquerre.
 - Mantén el format i les claus dels ajustos desats. En afegir un control, aplica als maquetats antics el valor que ja feia servir el projecte. La vista prèvia i el document imprès comparteixen els valors de cada fitxa.
+- Situa el selector «Fitxa / Solucionari» a la capçalera de la vista prèvia, amb la bandera a la dreta dels controls. El zoom queda a la cantonada inferior dreta del visor. Situa l’acció d’imprimir al peu del lateral de format en escriptori i sota el visor en pantalles estretes.
+- Connecta la bandera al formulari de notificació del material obert. Si el visor mostra el solucionari, preselecciona la categoria corresponent. Mantén els avisos específics al costat de la pregunta o del reproductor, si escau.
 
 ## Preparació de versions
 

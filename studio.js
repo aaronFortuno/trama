@@ -5,7 +5,8 @@ import { classroomKeys, clearWorksheetLayouts, hasPendingWorksheetLayout, readWo
 import { decodeWorksheetImages, exportWorksheetPages, renderWorksheet, worksheetThumbnail } from './worksheet.js';
 import { supportsHyphenation } from './worksheet-hyphenation.js';
 import { animateRefresh, mountDisclosures, setDisclosure } from './motion.js';
-import { mountPreviewZoom } from './preview-zoom.js';
+import { mountPreviewZoom } from './preview-zoom.js?base=0.12.0';
+import { documentModes, localisePreviewControls, mountDocumentModes, mountPreviewReport, placePreviewPrintActions, reportFlag, zoomTools } from './ortografi-base/print-preview-controls.js?v=0.12.0';
 import { syncSelects } from './select-menu.js';
 import { mountTemplateLibrary, templateLibraryMarkup } from './template-library.js';
 import { templateGroups } from './worksheet-templates.js';
@@ -72,32 +73,28 @@ const template = `
             <p class="studio-kicker" id="studio-meta"></p>
             <label class="studio-variants" hidden>Llengua de la lectura <select id="studio-variant"></select></label>
           </div>
-          <div class="studio-heading-actions">
+          <div class="studio-heading-actions of-preview-head-actions">
             <div class="studio-reading-nav" role="group" aria-label="Navegació entre lectures">
               <button class="button" type="button" data-action="reading-previous" aria-label="Lectura anterior" disabled>${icon('chevron-left')}</button>
               <button class="button" type="button" data-action="reading-next" aria-label="Lectura següent" disabled>${icon('chevron-right')}</button>
             </div>
-            <button class="button studio-report-trigger" type="button" data-report-part="" aria-label="Notifica un error" title="Notifica un error" aria-haspopup="dialog" aria-controls="reading-report-dialog">${icon('flag')}</button>
             <button class="button studio-reading-trigger" type="button" id="studio-reading-trigger" aria-label="Opcions de la lectura" title="Opcions de la lectura" aria-haspopup="menu" aria-expanded="false" aria-controls="studio-reading-menu" popovertarget="studio-reading-menu" hidden>${icon('ellipsis')}</button>
             <div class="select-menu action-menu" id="studio-reading-menu" role="menu" aria-labelledby="studio-reading-trigger" popover>
               <button type="button" role="menuitem" tabindex="-1" data-option="remove">Suprimeix la lectura importada</button>
             </div>
+            ${documentModes()}
+            ${reportFlag('reading-report-dialog')}
           </div>
         </div>
         <p class="studio-file-status" id="studio-file-status" role="status" hidden></p>
         <div class="studio-question-feedback" hidden><span role="status">Pregunta amagada.</span><button class="studio-text-button" type="button" data-action="question-undo">Desfés</button></div>
       </header>
-      <div class="studio-preview-window">
+      <div class="studio-preview-window of-preview-viewport">
         ${familyStageMarkup}
         <div class="studio-paper-stage of-print-stage scroll-pane" tabindex="0" role="region" aria-label="Pàgines de la fitxa">
           <div id="studio-pages"></div>
         </div>
-        <div class="studio-zoom" role="group" aria-label="Zoom de la previsualització">
-          <button class="button" type="button" data-zoom="out" aria-label="Redueix el zoom" title="Redueix el zoom">${icon('minus')}</button>
-          <button class="button" type="button" data-zoom="in" aria-label="Amplia el zoom" title="Amplia el zoom">${icon('plus')}</button>
-          <button class="button" type="button" data-zoom="fit" aria-label="Ajusta a l’amplada" title="Ajusta a l’amplada">${icon('maximize')}</button>
-          <output class="visually-hidden" aria-label="Nivell de zoom">100 %</output>
-        </div>
+        ${zoomTools('studio-zoom')}
       </div>
     </section>
     <aside class="studio-settings studio-format" aria-labelledby="studio-settings-title">
@@ -177,7 +174,6 @@ const template = `
     <aside class="studio-settings studio-content" aria-labelledby="studio-content-title">
       <div class="studio-panel-heading">
         <h2 id="studio-content-title">Contingut</h2>
-        <label class="studio-solution-toggle"><input id="studio-solution" class="studio-switch" type="checkbox" role="switch" aria-label="Mostra el solucionari"> Solucionari</label>
       </div>
       <form class="studio-form scroll-pane">
         <details class="studio-universes" hidden>
@@ -238,7 +234,7 @@ const template = `
           <input class="studio-switch" name="showVocabulary" type="checkbox" role="switch" aria-labelledby="studio-vocabulary-label" disabled>
         </label>
       </form>
-      <div class="studio-print">
+      <div class="studio-print" data-of-print-actions>
         <p id="studio-layout-feedback" role="status" hidden></p>
         <p id="studio-export-status" role="status" hidden></p>
         <div class="worksheet-print-buttons">
@@ -304,13 +300,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
   const printBar = find('.studio-print');
   const formatPanel = find('.studio-format');
   const splitView = matchMedia('(min-width: 960px) and (min-height: 480px)');
-  function placePrint() {
-    const button = document.activeElement;
-    (splitView.matches ? formatPanel : root).append(printBar);
-    if (printBar.contains(button)) button.focus({ preventScroll: true });
-  }
-  placePrint();
-  splitView.addEventListener('change', placePrint);
+  placePreviewPrintActions(printBar, formatPanel, root, splitView);
   const panels = forms.map(form => ({
     form,
     heading: form.previousElementSibling,
@@ -338,7 +328,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
   }
   const variant = find('#studio-variant');
   const legacyFontOption = find('select[name="font"] option[value="mono"]');
-  const solution = find('#studio-solution');
+  const documentView = mountDocumentModes(find('.of-preview-modes'), changeDocumentView);
   const exportStatus = find('#studio-export-status');
   const printTrigger = find('#studio-print-trigger');
   const printButton = find('[data-action="print"]');
@@ -348,8 +338,11 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
   const printSheetOption = find('#studio-print-menu [data-option="print-sheet"]');
   const printMenu = mountActionMenu(printTrigger, find('#studio-print-menu'), exportWorksheet);
   const fileTrigger = find('#studio-reading-trigger');
-  const reportTrigger = find('.studio-report-trigger');
-  const report = mountReadingReport(find('#reading-report-dialog'));
+  const reportTrigger = find('[data-of-report]');
+  const reportDialog = find('#reading-report-dialog');
+  const report = mountReadingReport(reportDialog);
+  mountPreviewReport(reportTrigger, reportDialog, { isAnswerKey: () => documentView.answers, open: openReadingReport });
+  localisePreviewControls(root, language());
   const fileStatus = find('#studio-file-status');
   const fileMenu = mountActionMenu(fileTrigger, find('#studio-reading-menu'), manageReading);
   const printOutlet = create('div', 'worksheet-print-outlet');
@@ -396,7 +389,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
   const familyStage = mountFamilyStage({
     root, readings, getSettings: settingsForVariant, isOutsideCollection: outsideCollection,
     onSelect: id => onFamilyVariant?.(id),
-    onCompare: neighborId => comparison.open(reading, solution.checked, neighborId),
+    onCompare: neighborId => comparison.open(reading, documentView.answers, neighborId),
   });
   let pendingPrint;
   let frame = 0;
@@ -447,7 +440,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
     variant.replaceChildren(...variants.map(entry => new Option(labelFor('language', entry.language), entry.id)));
     variant.value = reading.id;
     variant.parentElement.hidden = variants.length < 2;
-    familyStage.update(reading, solution.checked, { force: true });
+    familyStage.update(reading, documentView.answers, { force: true });
     const worlds = (reading.universeIds ?? []).map(id => universeById.get(id)).filter(Boolean);
     find('.studio-universes').hidden = !worlds.length;
     find('#studio-universes').replaceChildren(...worlds.map(world => {
@@ -513,9 +506,9 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
 
   function syncControls(animated = true) {
     syncLayoutStatus();
-    printLabel.textContent = t(solution.checked ? 'Imprimeix el solucionari' : 'Imprimeix');
-    printKeyOption.hidden = solution.checked;
-    printSheetOption.hidden = !solution.checked;
+    printLabel.textContent = t(documentView.answers ? 'Imprimeix el solucionari' : 'Imprimeix la fitxa');
+    printKeyOption.hidden = documentView.answers;
+    printSheetOption.hidden = !documentView.answers;
     const numberFormat = new Intl.NumberFormat(language(), { maximumFractionDigits: 2 });
     for (const input of root.querySelectorAll('.studio-form [name]')) {
       const value = input.name === 'leading' ? Math.round(settings.leading * 50) / 100 : settings[input.name];
@@ -604,7 +597,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
     cancelAnimationFrame(frame);
     frame = 0;
     if (!reading || root.hidden) return;
-    familyStage.update(reading, solution.checked);
+    familyStage.update(reading, documentView.answers);
     const font = settings.font;
     if (font !== requestedFont) {
       requestedFont = font;
@@ -615,7 +608,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
       });
     }
     const { scrollLeft, scrollTop } = stage;
-    renderWorksheet(pages, reading, settings, { answerKey: solution.checked });
+    renderWorksheet(pages, reading, settings, { answerKey: documentView.answers });
     preview.size();
     stage.scrollTo(scrollLeft, scrollTop);
     familyStage.animateCurrent(reading);
@@ -644,7 +637,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
     layoutError = '';
     fileStatus.hidden = true;
     for (const message of root.querySelectorAll('[data-logo-status]')) message.hidden = true;
-    if (!keepLayout && !keepSolution) solution.checked = false;
+    if (!keepLayout && !keepSolution) documentView.set('worksheet');
     exportStatus.hidden = true;
     hiddenQuestion = undefined;
     questionFeedback.hidden = true;
@@ -781,7 +774,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
   async function exportWorksheet(action) {
     if (printButton.disabled || root.hidden) return;
     const current = reading;
-    const answerKey = action === 'print' ? solution.checked : action.endsWith('-key');
+    const answerKey = action === 'print' ? documentView.answers : action.endsWith('-key');
     const documentData = { abast: 'individual', format: action.startsWith('pdf') ? 'pdf' : 'impressio',
       contingut: answerKey ? 'solucionari' : 'alumnat', quantitat: '1', colleccio: Boolean(readingCollection), maquetats: hasSavedLayout };
     const config = {
@@ -897,12 +890,17 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
       if (neighbor) onNavigate(neighbor, direction);
     });
   }
-  solution.addEventListener('change', () => {
-    trackReadingFeature('canvia_vista', reading, { vista: solution.checked ? 'solucionari' : 'alumnat' });
+  function changeDocumentView() {
+    trackReadingFeature('canvia_vista', reading, { vista: documentView.answers ? 'solucionari' : 'alumnat' });
     syncControls();
     refresh();
     animateRefresh(pages);
-  });
+  }
+  function openReadingReport(target) {
+    if (!reading || reading.personal) return;
+    const questions = reading.questions.filter(question => !settings.excluded.includes(question.id)).map(question => responseQuestion(reading, question, settings));
+    report.open(reading, questions, target);
+  }
   root.addEventListener('click', event => {
     const reference = event.target.closest('[data-evidence-question]');
     if (reference) {
@@ -917,8 +915,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
     }
     const reportButton = event.target.closest('[data-report-part]');
     if (reportButton && reading && !reading.personal) {
-      const questions = reading.questions.filter(question => !settings.excluded.includes(question.id)).map(question => responseQuestion(reading, question, settings));
-      report.open(reading, questions, { part: reportButton.dataset.reportPart, element: reportButton.dataset.reportElement });
+      openReadingReport({ part: reportButton.dataset.reportPart, element: reportButton.dataset.reportElement });
       return;
     }
     const button = event.target.closest('[data-action]');
@@ -942,8 +939,8 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
   window.addEventListener('beforeprint', () => {
     if (!pendingPrint && (root.hidden || !reading)) return;
     if (!pendingPrint) trackDocumentPrepared([reading], { abast: 'individual', format: 'impressio',
-      contingut: solution.checked ? 'solucionari' : 'alumnat', quantitat: '1', colleccio: Boolean(readingCollection), maquetats: hasSavedLayout });
-    printOutlet.replaceChildren(...(pendingPrint ?? exportWorksheetPages(reading, settings, solution.checked)));
+      contingut: documentView.answers ? 'solucionari' : 'alumnat', quantitat: '1', colleccio: Boolean(readingCollection), maquetats: hasSavedLayout });
+    printOutlet.replaceChildren(...(pendingPrint ?? exportWorksheetPages(reading, settings, documentView.answers)));
     document.body.dataset.tramaPrint = '';
   });
   window.addEventListener('afterprint', () => {
@@ -976,6 +973,7 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
     },
     translate() {
       translateMarkup();
+      localisePreviewControls(root, language());
       templateStatus.textContent = '';
       exportStatus.hidden = true;
       fileStatus.hidden = true;

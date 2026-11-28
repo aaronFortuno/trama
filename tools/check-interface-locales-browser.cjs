@@ -69,7 +69,7 @@ const origin = 'http://127.0.0.1:4218';
       await input('[name="fontSize"]', '14');
       await input('[name="classroomCode"]', 'USER-CODE');
       await input('[name="showClassroomCode"]', true);
-      await page.locator('#studio-solution').check();
+      await page.locator('[data-of-preview-mode="answers"]').click();
       await page.locator('#studio-pages .worksheet-classroom-code').first().waitFor();
       const layoutBefore = await page.evaluate(() => localStorage.getItem('trama.worksheet-layout.v1:el-cartel-de-la-plaza-es'));
       assert(layoutBefore.includes('USER-CODE'));
@@ -89,7 +89,7 @@ const origin = 'http://127.0.0.1:4218';
         await changeLanguage(target);
         assert.equal(await page.locator('#studio-title').textContent(), 'El cartel de la plaza');
         assert.equal(await page.locator('#studio-pages .worksheet-kind').first().textContent(), 'Comprensión lectora');
-        assert.equal(await page.locator('#studio-solution').isChecked(), true);
+        assert.equal(await page.locator('[data-of-preview-mode="answers"]').getAttribute('aria-pressed'), 'true');
         assert.equal(await page.locator('[name="classroomCode"]').inputValue(), 'USER-CODE');
         assert.equal(await page.evaluate(() => localStorage.getItem('trama.worksheet-layout.v1:el-cartel-de-la-plaza-es')), layoutBefore);
       }

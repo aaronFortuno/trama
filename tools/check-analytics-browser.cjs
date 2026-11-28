@@ -57,7 +57,7 @@ const stub = `window.umami = { track(name, data) { const payload = {name, data};
     assert.equal((await events('obre_lectura')).length, 1);
     assert.equal((await events('obre_lectura'))[0].data.origen, 'enllac');
     assert.equal((await events('obre_lectura'))[0].data.llengua, 'es');
-    await page.locator('#studio-solution').check();
+    await page.locator('[data-of-preview-mode="answers"]').click();
     await waitEvent('canvia_vista');
     await page.locator('#studio-pages .worksheet-evidence-reference').first().click();
     await input('[name="fontSize"]', '13');
@@ -73,9 +73,9 @@ const stub = `window.umami = { track(name, data) { const payload = {name, data};
     const hide = page.locator('#studio-pages [data-action="question-hide"]').first();
     await hide.click({ force: true });
     await page.locator('[data-action="question-undo"]').click();
-    await page.locator('#studio-solution').uncheck();
+    await page.locator('[data-of-preview-mode="worksheet"]').click();
     await page.locator('#studio-pages [data-action="question-more"]').first().click({ force: true });
-    await page.locator('#studio-solution').check();
+    await page.locator('[data-of-preview-mode="answers"]').click();
     assert((await events('personalitza_fitxa')).some(e => e.data.accio === 'recupera'));
 
     // Native browser print must also reflect the current solution view.
@@ -311,7 +311,7 @@ const stub = `window.umami = { track(name, data) { const payload = {name, data};
     await main.context.close();
     for (const restriction of ['local', 'gpc', 'dnt', 'disabled', 'blocked']) {
       const check = await openPage(restriction, '#lectura=el-cartel-de-la-plaza-es');
-      await check.page.locator('#studio-solution').check();
+      await check.page.locator('[data-of-preview-mode="answers"]').click();
       await check.page.evaluate(() => window.print());
       assert.equal(await check.page.evaluate(() => window.__events.length), 0);
       assert.equal(check.scripts(), restriction === 'blocked' ? 1 : 0);

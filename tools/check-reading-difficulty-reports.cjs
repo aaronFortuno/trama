@@ -13,7 +13,10 @@ const origin = 'https://trama.ortogra.fi';
     const errors = [], reports = [];
     for (const language of ['ca', 'es']) for (const blocked of [false, true]) {
       const context = await browser.newContext({ reducedMotion: 'reduce' });
-      await context.addInitScript(language => localStorage.setItem('trama.language', language), language);
+      await context.addInitScript(language => {
+        localStorage.setItem('trama.language', language);
+        localStorage.setItem('trama.question-format.v1', 'open');
+      }, language);
       const page = await context.newPage();
       page.on('pageerror', error => errors.push(error.message));
       await page.route('**/*', async route => {
@@ -30,10 +33,10 @@ const origin = 'https://trama.ortogra.fi';
         return route.abort();
       });
       await page.goto(origin + '/#lectura=el-cartel-de-la-plaza-es');
-      await page.locator('.studio-report-trigger').waitFor();
+      await page.locator('.of-preview-head-actions [data-of-report]').waitFor();
       for (const motiu of ['too_easy', 'too_difficult']) {
         const previous = reports.length;
-        await page.locator('.studio-report-trigger').click();
+        await page.locator('.of-preview-head-actions [data-of-report]').click();
         const dialog = page.locator('#reading-report-dialog');
         await dialog.locator('select[name="part"]').evaluate(node => {
           node.value = 'text'; node.dispatchEvent(new Event('change', { bubbles: true }));
