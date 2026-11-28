@@ -1,4 +1,4 @@
-import { mountDialog } from './dialog.js?v=0.9.0';
+import { mountDialog } from './dialog.js?v=0.10.0';
 
 const labels = {
   ca: { search: 'Cerca al catàleg', help: name => `Com funciona ${name}`, close: 'Tanca l’ajuda' },

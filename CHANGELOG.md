@@ -2,6 +2,8 @@
 
 ## Pendent de publicar
 
+- El pilot recorda el tema i l’idioma de la interfície des de la primera visita i manté les preferències que ja estaven desades.
+
 - La base dona més amplada als filtres i al quadre «Com funciona», amb controls propis abans de l’ajuda.
 
 - La cerca i el recompte passen a la capçalera del catàleg, amb accés a «Com funciona» i un lateral que ocupa l’alçada disponible.

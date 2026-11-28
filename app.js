@@ -1,4 +1,5 @@
 import { mountGallerySearch } from './ortografi-base/gallery-controls.js?v=0.9.0';
+import { createThemePreference } from './ortografi-base/interface-preferences.js?v=0.10.0';
 import { mountChangelog } from './ortografi-base/changelog.js?v=0.5.0';
 import { mountLicense } from './ortografi-base/license.js?v=0.6.0';
 import { mountV4V } from './ortografi-base/v4v.js?v=0.4.0';
@@ -46,27 +47,22 @@ const motto = mottos[Math.floor(Math.random() * mottos.length)];
 const headerMotto = document.querySelector('.site-label');
 headerMotto.textContent = t(motto);
 
-const themeKey = 'trama.theme';
+const themeChoice = createThemePreference('trama.theme');
 const themeToggle = document.querySelector('#theme-toggle');
 const themeColor = document.querySelector('meta[name="theme-color"]');
-
-function savedTheme() {
-  try { return localStorage.getItem(themeKey) === 'dark' ? 'dark' : 'light'; }
-  catch { return 'light'; }
-}
 
 function applyTheme(theme) {
   const root = document.documentElement;
   root.dataset.theme = theme;
+  themeToggle.setAttribute('aria-pressed', String(theme === 'dark'));
   themeToggle.setAttribute('aria-label', t(theme === 'dark' ? 'Activa el tema clar' : 'Activa el tema fosc'));
   themeColor.content = getComputedStyle(root).getPropertyValue('--paper').trim();
 }
 
-applyTheme(savedTheme());
+applyTheme(themeChoice.value);
 themeToggle.addEventListener('click', () => {
-  const theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
-  applyTheme(theme);
-  try { localStorage.setItem(themeKey, theme); } catch { /* The current page can still use either theme. */ }
+  themeChoice.set(themeChoice.value === 'dark' ? 'light' : 'dark');
+  applyTheme(themeChoice.value);
 });
 
 startAnalytics();

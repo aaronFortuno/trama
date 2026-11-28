@@ -1,15 +1,12 @@
 import { es } from './locales/es.js';
 import { gl } from './locales/gl.js';
 import { eu } from './locales/eu.js';
+import { createLanguagePreference } from './ortografi-base/interface-preferences.js?v=0.10.0';
 
 const dictionaries = { ca: {}, es, gl, eu };
 export const languages = Object.keys(dictionaries);
-const preference = 'trama.language';
-let locale = 'ca';
-try {
-  const saved = localStorage.getItem(preference);
-  if (Object.hasOwn(dictionaries, saved)) locale = saved;
-} catch { /* Use the default language. */ }
+const languageChoice = createLanguagePreference('trama.language', languages);
+let locale = languageChoice.value;
 
 export const language = () => locale;
 export const t = (source, values = {}, target = locale) => ((Object.hasOwn(dictionaries, target) ? dictionaries[target][source] : undefined) ?? source)
@@ -22,10 +19,9 @@ export function defaultReadingLanguage(available = ['ca', 'es']) {
 }
 
 export function setLanguage(value) {
-  if (!Object.hasOwn(dictionaries, value)) return;
-  locale = value;
+  if (!languageChoice.set(value)) return;
+  locale = languageChoice.value;
   document.documentElement.lang = locale;
-  try { localStorage.setItem(preference, locale); } catch { /* Keep the language for this visit. */ }
 }
 
 export function bindTranslations(root) {
