@@ -1,4 +1,4 @@
-import { galleryLabels } from './gallery-controls.js?v=0.12.0';
+import { galleryLabels } from './gallery-controls.js?v=0.14.0';
 
 export const projectNames = {
   trama: 'Trama',

@@ -26,6 +26,10 @@ body:has(.print-study) { block-size: 100dvh; min-block-size: 0; }
 .study-print-action button { inline-size: 100%; font-weight: 650; }
 .study-preview-window { display: grid; grid-template-rows: minmax(0, 1fr); }
 .study-report { --of-dialog-width: 32rem; }
+.study-report-form { display: grid; justify-items: start; gap: 12px; }
+.study-report-form label { display: grid; gap: 5px; }
+.study-report-form :is(select, button) { min-height: 34px; max-width: 100%; color: inherit; background: var(--of-surface); border: 1px solid var(--of-border); border-radius: 6px; font: inherit; padding: 4px 8px; }
+.study-report-form p { margin: 0; }
 .study-stage { scrollbar-gutter: stable; overflow: auto; scrollbar-width: thin; padding: 16px; background: var(--bg); }
 @media screen { .study-pages { width: max(100%, calc(210mm * var(--study-zoom, 1))); } }
 .study-paper {

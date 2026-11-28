@@ -2,6 +2,8 @@
 
 ## Pendent de publicar
 
+- Les targetes de la mostra obren fitxes i solucionaris ficticis al maquetador de la v2. Els avisos de prova es confirmen dins de la mostra.
+
 - El visor situa el selector de fitxa i solucionari i la bandera de notificació a la capçalera. El zoom és a sota a la dreta i es pot imprimir des del lateral esquerre o sota el visor en pantalles estretes.
 
 - El maquetador posa la tipografia, el cos de lletra, l’interlineat, l’espaiat i els marges al lateral esquerre, amb la mateixa amplada que al catàleg.
