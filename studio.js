@@ -1,5 +1,6 @@
 import { labelFor, wordCount } from './catalog.js';
-import { classroomCodeSize, defaultImageConfig, defaultQuestionLines, defaultSettings, marginLimits, maxAnswerLines, maxClassroomCodeLength, questionLines, readCode, validSetting, worksheetLayout } from './worksheet-code.js';
+import { classroomCodeSize, defaultImageConfig, defaultQuestionLines, defaultSettings, maxAnswerLines, maxClassroomCodeLength, questionLines, readCode, validSetting, worksheetLayout } from './worksheet-code.js';
+import { printFields, syncPrintRange } from './ortografi-base/print-controls.js?v=0.11.0';
 import { classroomKeys, clearWorksheetLayouts, hasPendingWorksheetLayout, readWorksheetLayout, removeWorksheetLayout, saveWorksheetLayout } from './worksheet-layouts.js';
 import { decodeWorksheetImages, exportWorksheetPages, renderWorksheet, worksheetThumbnail } from './worksheet.js';
 import { supportsHyphenation } from './worksheet-hyphenation.js';
@@ -53,8 +54,15 @@ const fontOptions = Object.entries(fontGroups).map(([group, label]) => `
       .map(([id, font]) => `<option value="${id}">${font.name}</option>`).join('')}
   </optgroup>`).join('');
 
+const typography = printFields('text', {
+  font: { options: `${fontOptions}<option value="mono" hidden>${worksheetFonts.mono.name}</option>` },
+  size: { name: 'fontSize', min: 10, max: 20, step: 1 },
+  leading: { min: .5, max: 3, step: .05 },
+  spacing: { name: 'paragraphGap', min: 0, max: 12, step: 1 },
+});
+
 const template = `
-  <div class="studio-layout scroll-pane">
+  <div class="studio-layout of-print-layout scroll-pane">
     <section class="studio-preview" aria-labelledby="studio-title">
       <header class="studio-preview-header">
         <div class="studio-heading">
@@ -81,7 +89,7 @@ const template = `
       </header>
       <div class="studio-preview-window">
         ${familyStageMarkup}
-        <div class="studio-paper-stage scroll-pane" tabindex="0" role="region" aria-label="Pàgines de la fitxa">
+        <div class="studio-paper-stage of-print-stage scroll-pane" tabindex="0" role="region" aria-label="Pàgines de la fitxa">
           <div id="studio-pages"></div>
         </div>
         <div class="studio-zoom" role="group" aria-label="Zoom de la previsualització">
@@ -98,38 +106,22 @@ const template = `
         <button class="studio-text-button" type="button" data-action="reset" aria-label="Restableix aquesta lectura" title="Restableix aquesta lectura">Restableix</button>
       </div>
       <form class="studio-form scroll-pane">
-        <details class="studio-template-picker">
-          <summary>Plantilles</summary>
-          <div class="studio-controls">
-            <ul class="studio-template-list" aria-label="Tria una plantilla"></ul>
-            <button class="button" type="button" data-action="templates" aria-haspopup="dialog" aria-controls="template-dialog">Gestiona les plantilles</button>
-            <p class="studio-template-status" role="status"></p>
-          </div>
-        </details>
         <details open>
           <summary>Text i tipografia</summary>
           <div class="studio-controls">
-            <label>Tipografia
-              <select name="font">${fontOptions}<option value="mono" hidden>${worksheetFonts.mono.name}</option></select>
-            </label>
-            ${range('fontSize', 'Cos de lletra', 10, 20, 1, 'pt')}
-            ${range('leading', 'Interlineat', .5, 3, .05, '×')}
+            <div class="of-print-controls" data-print-group="text">${typography}</div>
             <label>Alineació del text
               <select name="textAlignment"><option value="left">Esquerra</option><option value="justify">Justificat</option></select>
             </label>
             ${check('hyphenate', 'Guionets a final de línia')}
             <p class="studio-hyphenation-note" hidden>Disponible per a lectures en català i castellà.</p>
-            ${range('paragraphGap', 'Espai entre paràgrafs', 0, 12, 1, 'mm')}
             ${range('sectionGap', 'Espai abans de les preguntes', 0, 20, 1, 'mm')}
           </div>
         </details>
         <details>
           <summary>Marges del full</summary>
           <div class="studio-controls">
-            ${range('marginTop', 'Superior', marginLimits.min, marginLimits.max, 1, 'mm')}
-            ${range('marginRight', 'Dret', marginLimits.min, marginLimits.max, 1, 'mm')}
-            ${range('marginBottom', 'Inferior', marginLimits.min, marginLimits.max, 1, 'mm')}
-            ${range('marginLeft', 'Esquerre', marginLimits.min, marginLimits.max, 1, 'mm')}
+            <div class="of-print-controls" data-print-group="margins">${printFields('margins')}</div>
           </div>
         </details>
         <details>
@@ -170,6 +162,14 @@ const template = `
             ${check('showLicense', 'Llicència dels textos · CC BY 4.0')}
             ${check('showPage', 'Número de pàgina')}
             ${logoControls('footerLogo', 'Logotip del peu de pàgina')}
+          </div>
+        </details>
+        <details class="studio-template-picker">
+          <summary>Plantilles</summary>
+          <div class="studio-controls">
+            <ul class="studio-template-list" aria-label="Tria una plantilla"></ul>
+            <button class="button" type="button" data-action="templates" aria-haspopup="dialog" aria-controls="template-dialog">Gestiona les plantilles</button>
+            <p class="studio-template-status" role="status"></p>
           </div>
         </details>
       </form>
@@ -302,11 +302,11 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
   const main = root.closest('main');
   const layout = find('.studio-layout');
   const printBar = find('.studio-print');
-  const content = find('.studio-content');
+  const formatPanel = find('.studio-format');
   const splitView = matchMedia('(min-width: 960px) and (min-height: 480px)');
   function placePrint() {
     const button = document.activeElement;
-    (splitView.matches ? content : root).append(printBar);
+    (splitView.matches ? formatPanel : root).append(printBar);
     if (printBar.contains(button)) button.focus({ preventScroll: true });
   }
   placePrint();
@@ -524,7 +524,9 @@ export function mountStudio({ root, readings, onOpen, onCatalog, onVariant, onFa
       }
       else if (input.type === 'radio') input.checked = input.value === value;
       else if (input.value !== String(value)) input.value = value;
-      if (input.type === 'range') {
+      if (input.matches('.of-print-range input')) {
+        syncPrintRange(input, numberFormat);
+      } else if (input.type === 'range') {
         const formatted = `${numberFormat.format(value)} ${input.dataset.unit}`;
         const output = find(`[data-value="${input.name}"]`);
         if (output) output.value = formatted;

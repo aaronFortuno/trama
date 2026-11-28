@@ -67,9 +67,9 @@
 
 .studio-layout {
   display: grid;
-  grid-template-columns: clamp(188px, 18vw, 265px) minmax(0, 1fr) clamp(188px, 18vw, 265px);
+  grid-template-columns: var(--of-print-sidebar) minmax(0, 1fr) clamp(188px, 18vw, 265px);
   grid-template-areas: 'format preview content';
-  gap: clamp(12px, 1.35vw, 24px);
+  gap: var(--of-print-gap);
   min-height: 0;
   padding-bottom: 12px;
 }

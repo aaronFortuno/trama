@@ -1,9 +1,10 @@
 import { rasterImagePattern, tramaLogo } from './local-images.js';
 import { worksheetFonts } from './worksheet-fonts.js';
+import { printMarginLimits } from './ortografi-base/print-controls.js?v=0.11.0';
 
 const stableId = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const legacyImageDefaults = Object.freeze({ visible: true, width: 36, position: 'right', wrap: true });
-export const marginLimits = Object.freeze({ min: 8, max: 32 });
+export const marginLimits = printMarginLimits;
 export const maxAnswerLines = 8;
 export const maxClassroomCodeLength = 16;
 export const classroomCodeSize = Object.freeze({ min: 15, max: 35, step: 5 });

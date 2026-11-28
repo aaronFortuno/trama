@@ -6,6 +6,12 @@
 - Desa el tema i l’idioma de la interfície per projecte. Recupera una tria desada vàlida abans de deduir cap valor inicial. A la primera visita, desa el tema clar o fosc del sistema i el primer idioma del navegador que l’eina admeti. Fes servir el català si no hi ha cap coincidència.
 - Mantén el valor desat fins que l’usuari el canviï manualment. L’idioma dels materials es gestiona per separat. Quan migres una aplicació a la base, conserva les claus de preferències que ja fa servir.
 
+## Maquetació i impressió
+
+- Col·loca el format del full al lateral esquerre del maquetador amb l’amplada del filtre del catàleg. La vista prèvia ocupa el centre i els controls específics tenen espai propi.
+- Fes servir `printFields` per mantenir l’ordre de la tipografia, el cos de lletra, l’interlineat i l’espaiat. A sota, agrupa els marges en l’ordre superior, dret, inferior i esquerre.
+- Mantén el format i les claus dels ajustos desats. En afegir un control, aplica als maquetats antics el valor que ja feia servir el projecte. La vista prèvia i el document imprès comparteixen els valors de cada fitxa.
+
 ## Preparació de versions
 
 - Classifica l’impacte abans de triar el número. **Pedaç** per a correccions compatibles, ajustos visuals acotats o tandes ordinàries de materials. **Menor** per a una funció compatible nova o un canvi rellevant del flux d’ús. **Major** per a una incompatibilitat amb el contracte públic i per declarar la primera versió estable `1.0.0`. Documenta el motiu i la migració pertinent. En una sèrie `0.x` encara inestable, registra la incompatibilitat i puja la menor si encara s’està definint el contracte.

@@ -382,6 +382,7 @@ export const gl = Object.freeze({
   "Sense serifa": "Sen serifa",
   "Lletra lligada escolar": "Letra ligada escolar",
   "Cos de lletra": "Tamaño da letra",
+  "Espaiat": "Espazamento",
   "Interlineat": "Interliñado",
   "Espai entre paràgrafs": "Espazo entre parágrafos",
   "Espai abans de les preguntes": "Espazo antes das preguntas",

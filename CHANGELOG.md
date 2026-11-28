@@ -2,6 +2,8 @@
 
 ## Pendent de publicar
 
+- El maquetador posa la tipografia, el cos de lletra, l’interlineat, l’espaiat i els marges al lateral esquerre, amb la mateixa amplada que al catàleg.
+
 - El pilot recorda el tema i l’idioma de la interfície des de la primera visita i manté les preferències que ja estaven desades.
 
 - La base dona més amplada als filtres i al quadre «Com funciona», amb controls propis abans de l’ajuda.

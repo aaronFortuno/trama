@@ -1099,6 +1099,7 @@ Amb serifa|Con serifa
 Sense serifa|Sin serifa
 Lletra lligada escolar|Letra ligada escolar
 Cos de lletra|Tamaño de letra
+Espaiat|Espaciado
 Interlineat|Interlineado
 Espai entre paràgrafs|Espacio entre párrafos
 Espai abans de les preguntes|Espacio antes de las preguntas

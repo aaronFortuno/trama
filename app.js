@@ -5,7 +5,7 @@ import { mountLicense } from './ortografi-base/license.js?v=0.6.0';
 import { mountV4V } from './ortografi-base/v4v.js?v=0.4.0';
 import { mountCatalog } from './catalog.js?base=0.8.0';
 import { readings as publicReadings } from './data/readings.js';
-import { mountStudio } from './studio.js';
+import { mountStudio } from './studio.js?base=0.11.0';
 import { animateRefresh, closeDialog, mountDialogs, openDialog } from './motion.js';
 import { mountSelectMenus, syncSelects } from './select-menu.js';
 import { bindTranslations, language, setLanguage, t } from './i18n.js';

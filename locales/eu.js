@@ -382,6 +382,7 @@ export const eu = Object.freeze({
   "Sense serifa": "Serifarik gabea",
   "Lletra lligada escolar": "Eskolako letra lotua",
   "Cos de lletra": "Letra-tamaina",
+  "Espaiat": "Tartea",
   "Interlineat": "Lerroartea",
   "Espai entre paràgrafs": "Paragrafoen arteko tartea",
   "Espai abans de les preguntes": "Galderen aurreko tartea",

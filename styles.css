@@ -377,7 +377,7 @@ body, .site-header, .site-footer, .catalog-filters, .reading-card, .search-box, 
 [data-disclosing] { overflow: hidden; }
 
 @media (min-width: 791px) {
-  .site-bar, #studio { width: calc(100% - 2 * clamp(16px, 1.35vw, 24px)); }
+  .site-bar { width: calc(100% - 2 * clamp(16px, 1.35vw, 24px)); }
   #catalog-view, .catalog-section { height: 100%; }
   .catalog-section { display: grid; grid-template-rows: minmax(0, 1fr); min-height: 0; }
   .catalog-results { display: flex; flex-direction: column; min-height: 0; }

@@ -1,0 +1,23 @@
+.of-print-shell {
+  box-sizing: border-box;
+  width: min(100%, var(--of-gallery-width));
+  margin-inline: auto;
+  padding-inline: var(--of-gallery-gutter);
+}
+
+.of-print-controls { display: grid; gap: 10px; min-inline-size: 0; }
+.of-print-controls + .of-print-controls { margin-block-start: 12px; }
+.of-print-controls .of-print-field { display: grid; gap: 4px; min-inline-size: 0; color: var(--of-text); font: 400 .81rem/1.4 var(--of-ui-font); }
+.of-print-field select { inline-size: 100%; min-inline-size: 0; min-block-size: 34px; }
+.of-print-label { display: flex; justify-content: space-between; gap: 8px; }
+.of-print-label output { color: var(--of-muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.of-print-range input { inline-size: 100%; min-inline-size: 0; margin: 0; accent-color: var(--green, var(--of-accent)); }
+.of-print-stage { min-inline-size: 0; min-block-size: 0; overscroll-behavior: contain; }
+
+@media screen {
+  .of-print-layout { --of-print-sidebar: var(--of-gallery-sidebar); --of-print-gap: var(--of-gallery-gap); }
+}
+
+@media print {
+  .of-print-shell { width: auto; padding: 0; }
+}
