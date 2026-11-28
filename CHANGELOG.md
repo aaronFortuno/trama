@@ -26,6 +26,8 @@ Organitzem primària per cicles i recalibrem la dificultat amb criteris de text 
 
 ## Pendent de publicar
 
+- La mostra del maquetador a `/proves/base-v2/` incorpora el selector de document, el zoom, la impressió i la bandera de notificació del visor compartit.
+
 - La mostra afegeix un maquetador amb un fragment imprimible, els controls comuns i el lateral del catàleg.
 
 - La mostra recorda el tema i l’idioma de la interfície en les visites següents.

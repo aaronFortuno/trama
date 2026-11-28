@@ -13,6 +13,21 @@
 .of-print-label output { color: var(--of-muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .of-print-range input { inline-size: 100%; min-inline-size: 0; margin: 0; accent-color: var(--green, var(--of-accent)); }
 .of-print-stage { min-inline-size: 0; min-block-size: 0; overscroll-behavior: contain; }
+.of-preview-zoom output { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.of-preview-viewport { position: relative; min-inline-size: 0; min-block-size: 0; }
+.of-preview-head-actions { display: flex; flex: none; flex-wrap: wrap; align-items: center; gap: 6px; margin-inline-start: auto; }
+.of-preview-modes { display: inline-flex; gap: 2px; padding: 2px; border: 1px solid var(--of-border); border-radius: 8px; background: color-mix(in srgb, var(--of-border) 28%, var(--of-surface)); }
+.of-preview-modes button { min-block-size: 28px; padding: 4px 8px; border: 1px solid transparent; border-radius: 5px; background: transparent; color: var(--of-text); font: 400 .81rem/1.2 var(--of-ui-font); cursor: pointer; }
+.of-preview-modes [aria-pressed="true"] { border-color: var(--of-border); background: var(--of-surface); font-weight: 650; }
+.of-preview-icon { display: grid; place-items: center; inline-size: 36px; min-block-size: 34px; flex: none; padding: 0; border: 1px solid var(--of-border); border-radius: 7px; background: var(--of-surface); color: var(--of-text); cursor: pointer; }
+.of-preview-icon:hover { background: color-mix(in srgb, var(--of-border) 34%, var(--of-surface)); }
+.of-preview-icon:disabled { opacity: .55; cursor: default; }
+.of-preview-icon svg { display: block; inline-size: 17px; block-size: 17px; }
+.of-preview-zoom { position: absolute; z-index: 3; inset: auto 15px 11px auto; display: flex; gap: 4px; padding: 4px; border: 1px solid var(--of-border); border-radius: 9px; background: var(--of-surface); box-shadow: 0 2px 8px #213a3429; }
+.of-preview-zoom .of-preview-icon { inline-size: 32px; min-block-size: 32px; border-color: transparent; }
+.of-preview-modes button, .of-preview-icon, .of-preview-zoom {
+  transition: opacity var(--of-motion), background-color var(--of-motion), color var(--of-motion), border-color var(--of-motion), right var(--of-motion);
+}
 
 @media screen {
   .of-print-layout { --of-print-sidebar: var(--of-gallery-sidebar); --of-print-gap: var(--of-gallery-gap); }
@@ -20,4 +35,5 @@
 
 @media print {
   .of-print-shell { width: auto; padding: 0; }
+  .of-preview-modes, .of-preview-zoom, [data-of-report], [data-of-print-actions] { display: none !important; }
 }
